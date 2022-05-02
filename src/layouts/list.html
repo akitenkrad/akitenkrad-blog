@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+<div class="infotablearea">
+    <div class="infotablearea_head">新着情報</div>
+    <table class="infotable">
+        {{ range (.Paginator 10).Pages }}
+            {{ .Render "list" }}
+        {{ end }}
+    </table>
+</div>
+{{ partial "footer.html" . }}
