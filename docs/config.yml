@@ -3,8 +3,6 @@ languageCode: ja-jp
 defaultContentLanguage: ja
 title: Akitenkrad Notes
 theme: cupper-hugo-theme
-googleAnalytics: ''
-disqusShortname: ''
 enableGitInfo: true
 
 taxonomies:
