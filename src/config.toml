@@ -1,7 +1,7 @@
 baseURL = "https://akitenkrad.github.io/blog-akitenkrad/"
 languageCode = "ja-jp"
 title = "Aki-Notes"
-copyright = "Copyright © 2022-, Steve Francia and the Hugo Authors; all rights reserved."
+copyright = "Copyright © 2022, akitenkrad; all rights reserved."
 theme = "npq-hugo"
 pygmentsUseClasses=true
 canonifyurls = true
