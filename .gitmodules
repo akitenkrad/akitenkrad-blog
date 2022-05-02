@@ -1,0 +1,3 @@
+[submodule "blog-akitenkrad/themes/npq-hugo"]
+	path = blog-akitenkrad/themes/npq-hugo
+	url = https://github.com/saadnpq/npq-hugo.git
