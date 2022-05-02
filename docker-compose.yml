@@ -1,0 +1,15 @@
+version: '3'
+services:
+  python:
+    container_name: 'python.cpu.blog-akitenkrad'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    platform: linux/amd64 # for Apple Mac M1
+    user: root
+    tty: true
+    volumes:
+      - ./:/workplace:cached
+    environment:
+      TZ: Asia/Tokyo
+    working_dir: /workplace
