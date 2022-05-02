@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ now.Format "2022-05-01" }}
+date: {{ .Date | time.format ":date_long" }}
 draft: false
 ---
 
