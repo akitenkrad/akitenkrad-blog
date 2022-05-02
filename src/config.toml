@@ -27,7 +27,7 @@ publishDir = "../docs"
     url = "/"
     weight = -9 
   [[menu.main]]
-    name = "blog"
+    name = "posts"
     pre = "<i class=\"fas fa-keyboard fa-ms\"></i>"
     url = "/blog/"
     weight = -8
