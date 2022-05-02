@@ -1,4 +1,7 @@
 baseURL: https://akitenkrad.github.io/blog-akitenkrad/
+canonifyurls: true
+publishDir: "docs"
+
 languageCode: ja-jp
 defaultContentLanguage: ja
 title: Akitenkrad Notes
