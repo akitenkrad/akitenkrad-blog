@@ -19,7 +19,7 @@ publishDir = "../docs"
   displayHomeContent = true
   recentMax = 10
   math = true
-  mail = "akitenkrad@gmail.com"
+  mail = "contact.to.akitenkrad@gmail.com"
 
 [menu]
   [[menu.main]]
