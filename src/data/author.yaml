@@ -1,0 +1,9 @@
+# Author Information
+name: "Akitenkrad"
+image: "images/avatar.png"
+greeting: "Hi, I am"
+contactInfo:
+  email: "contact.to.akitenkrad@gmail.com"
+summary:
+- I am a Data Scientist
+- I work with Data

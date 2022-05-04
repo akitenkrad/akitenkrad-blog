@@ -1,0 +1,52 @@
+# About
+section:
+  name: About # Title of section (default: "")
+  id: about # url id/slug of section *Required*
+  enable: true # Boolean to determine if this section is enabled (default: false)
+  weight: 1 # Order to display section in (default: alphabetical followed by weight)
+  showOnNavbar: true # Boolean to determine if a link should be shown for this section on the navbar
+  template: sections/about.html # allows you to point to a specific template.
+
+# your designation
+designation: Data Scientist
+# your company information
+company:
+  name: ARISE analytics
+  url: "https://ariseanalytics.com"
+
+summary: 'I am a data scientist. I mainly work with Python and other analytics tools. My area of expertise is unstructured data analysis, especially natural language processing.'
+
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "contact.to.akitenkrad@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/akitenkrad"
+
+badges:
+- type: soft-skill-indicator
+  name: Python
+  percentage: 95
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Natural Language Processing
+  percentage: 95
+  color: blue
+
+- type: soft-skill-indicator
+  name: Computer Vision
+  percentage: 80
+  color: orange
+
+- type: soft-skill-indicator
+  name: Network Security
+  percentage: 80
+  color: green
+
+- type: soft-skill-indicator
+  name: Web Application
+  percentage: 70
+  color: pink

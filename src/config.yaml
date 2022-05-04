@@ -1,0 +1,52 @@
+baseURL: "https://akitenkrad.github.io/blog-akitenkrad/"
+languageCode: ja-jp
+title: "Akitenkrad's Blog"
+theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+# Control TOC depth
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Enable global emoji support
+enableEmoji: true
+
+# asset dir
+assetDir: resources/assets
+
+# Site parameters
+params:
+  # GitHub repo URL of your site
+  # gitRepo: https://github.com/akitenkrad/blog-akitenkrad
+
+  # specify whether you want to write some blog posts or not
+  enableBlogPost: true
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # Provide newsletter configuration. This feature hasn't been implemented yet.
+  # Currently, you can just hide it from the footer.
+  newsletter:
+    enable: false
+
+  # Background
+  background: "images/background.jpg"
+
+  # Logo
+  logo:
+    main: "images/avatar.png"
+    inverted: "images/avatar.png"
+    favicon: "images/favicons/favicon-96x96.png"

@@ -1,3 +1,0 @@
-# Akitenkrad Notes
-
-

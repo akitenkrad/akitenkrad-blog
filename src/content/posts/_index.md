@@ -1,1 +1,3 @@
-# Posts
+---
+title: Post
+---
