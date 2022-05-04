@@ -26,6 +26,9 @@ enableEmoji: true
 # asset dir
 assetDir: resources/assets
 
+# publish dir
+publishDir: ../docs
+
 # Site parameters
 params:
   # GitHub repo URL of your site
