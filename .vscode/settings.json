@@ -1,0 +1,51 @@
+{
+    // General Settings
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorStyle": "line",
+    "editor.fontFamily": "Utatane, HackGen, Consolas Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        100,
+        120,
+        145
+    ],
+    "editor.suggest.preview": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "files.eol": "\n",
+    "git.autofetch": true,
+    "workbench.iconTheme": "vs-seti",
+    // Python Settings
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=150",
+        "--ignore=F401,W503"
+    ],
+    "python.linting.flake8Path": "flake8",
+    "python.linting.flake8CategorySeverity.W": "Warning",
+    "python.linting.flake8CategorySeverity.F": "Error",
+    "python.linting.flake8CategorySeverity.E": "Error",
+    "[python]": {
+        "editor.defaultFormatter": null,
+    },
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "black",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.linting.mypyEnabled": true,
+    "python.linting.maxNumberOfProblems": 10000,
+    "python.formatting.blackArgs": [
+        "--line-length=150"
+    ],
+    // HTML Settings
+    "html.format.wrapLineLength": 0
+}
