@@ -53,3 +53,25 @@ params:
     main: "images/avatar.png"
     inverted: "images/avatar.png"
     favicon: "images/favicons/favicon-96x96.png"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+    - RSS
+    - JSON
+  section:
+    - HTML
+    - RSS
+    - JSON
+  taxonomy:
+    - HTML
+    - RSS
+    - JSON
+  term:
+    - HTML
+    - RSS
+    - JSON
