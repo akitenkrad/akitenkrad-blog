@@ -5,21 +5,20 @@ date: 2022-05-03
 author: "akitenkrad"
 description: "読んだ論文"
 tags: ["research paper", "BERT", "attention"]
-images:
-- post-cover.png
 menu:
   sidebar:
-    name: Papers
-    identifier: papers
+    name: 2022.05.03
+    identifier: 20220503
+    parent: papers
     weight: 10
 math: true
 ---
 
 ## Citation
 
-He, P., Liu, X., Gao, J., & Chen, W. (2020).  
-DeBERTa: Decoding-enhanced BERT with Disentangled Attention.  
-https://doi.org/10.48550/arxiv.2006.03654
+> He, P., Liu, X., Gao, J., & Chen, W. (2020).  
+> **DeBERTa: Decoding-enhanced BERT with Disentangled Attention.**  
+> https://doi.org/10.48550/arxiv.2006.03654
 
 ## Abstract
 
@@ -56,5 +55,3 @@ https://doi.org/10.48550/arxiv.2006.03654
 ## Model Description
 
 ## Results
-
-## References

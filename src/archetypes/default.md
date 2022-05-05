@@ -1,9 +1,14 @@
-+++
-title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date | time.Format ":date_long" }}
-draft = false
-author = "akitenkrad"
-description = "DESCRIPTION"
-tags = ["TAG"]
-categories = ["CATEGORY"]
-+++
+---
+draft: false
+title: "TITLE"
+date: {{ .Date }}
+author: "akitenkrad"
+description: "DESCRIPTION"
+tags: [""]
+menu:
+  sidebar:
+    name: Papers
+    identifier: papers
+    weight: 10
+math: true
+---
