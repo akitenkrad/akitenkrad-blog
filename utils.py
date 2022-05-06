@@ -103,24 +103,6 @@ class Paper(object):
         return self.__get("__fieldsOfStudy", default=[])
 
     @property
-    def embedding(self) -> np.ndarray:
-        """embedding from SemanticScholar"""
-        embedding = self.__get("__embedding", default={})
-        if embedding is not None and "vector" in embedding:
-            return np.array(embedding["vector"])
-        else:
-            return np.array([])
-
-    @property
-    def embed_model(self) -> str:
-        """embed model from SemanticScholar"""
-        embedding = self.__get("__embedding", default={})
-        if embedding is not None and "model" in embedding:
-            return embedding["model"]
-        else:
-            return ""
-
-    @property
     def authors(self) -> List[Author]:
         """authors from SemanticScholar"""
         author_list = self.__get("__authors", default=[])
@@ -150,8 +132,6 @@ class Paper(object):
             "authors": [{"author_id": a.author_id, "name": a.name} for a in self.authors],
             "citation_count": self.citation_count,
             "citations": [{"paper_id": r.paper_id, "title": r.title} for r in self.citations if r.paper_id is not None],
-            "embed_model": self.embed_model,
-            "embedding": self.embedding.tolist(),
             "fields_of_study": self.fields_of_study,
             "influential_citation_count": self.influential_citation_count,
             "is_open_access": self.is_open_access,
@@ -179,7 +159,6 @@ class Paper(object):
             "influentialCitationCount": paper_data["influential_citation_count"],
             "isOpenAccess": paper_data["is_open_access"],
             "fieldsOfStudy": paper_data["fields_of_study"],
-            "embedding": {"vector": paper_data["embedding"], "model": paper_data["embed_model"]},
             "authors": [{"authorId": a["author_id"], "name": a["name"]} for a in paper_data["authors"]],
             "citations": [{"paperId": r["paper_id"], "title": r["title"]} for r in paper_data["citations"]],
             "references": [{"paperId": r["paper_id"], "title": r["title"]} for r in paper_data["references"]],
@@ -190,16 +169,16 @@ class Paper(object):
     def print_citation(self):
         citation = [
             "<details>",
-            f"<summary>{self.title}</summary>",
+            f"  <summary>{self.title}</summary>",
             "",
-            "> " + ", ".join([author.name for author in self.authors]) + f". ({self.year})  ",
-            "> " + f"**{self.title}**  ",
-            "> " + self.venue + "  ",
-            "> " + self.url + "  ",
-            "> " + f"Influential Citation Count ({self.influential_citation_count}), SS-ID ({self.paper_id})  ",
-            "> ",
-            "> **ABSTRACT**  ",
-            "> " + self.abstract,
+            "  > " + ", ".join([author.name for author in self.authors]) + f". ({self.year})  ",
+            "  > " + f"**{self.title}**  ",
+            "  > " + self.venue + "  ",
+            "  > " + f"[Paper Link]({self.url})" + "  ",
+            "  > " + f"Influential Citation Count ({self.influential_citation_count}), SS-ID ({self.paper_id})  ",
+            "  > ",
+            "  > **ABSTRACT**  ",
+            "  > " + self.abstract,
             "",
             "</details>",
         ]

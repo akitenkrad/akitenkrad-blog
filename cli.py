@@ -1,6 +1,8 @@
+import json
 import shutil
 from datetime import datetime
 from pathlib import Path
+from typing import List
 
 import click
 
@@ -20,7 +22,7 @@ title: "TITLE"
 date: {datetime.now().strftime('%Y-%m-%d')}
 author: "akitenkrad"
 description: "DESCRIPTION"
-tags: [""]
+tags: ["Round-1"]
 menu:
   sidebar:
     name: {datetime.now().strftime('%Y.%m.%d')}
@@ -29,6 +31,10 @@ menu:
     weight: 10
 math: true
 ---
+
+- [x] Round-1: Overview
+- [ ] Round-2: Model Implementation Details
+- [ ] Round-3: Experiments
 
 ## Citation
 
@@ -40,7 +46,12 @@ math: true
 
 ## Model Description
 
+### Training Settings
+
 ## Results
+
+## References
+
 
 """
 
@@ -61,14 +72,27 @@ def get_references(title: str):
     paper_id = ss.get_paper_id(title=title)
     paper = ss.get_paper_detail(paper_id=paper_id)
 
+    papers: List[Paper] = []
     if paper is not None:
+        papers.append(paper)
         for ref in paper.references:
             ref_paper = ss.get_paper_detail(ref.paper_id)
             if ref_paper is not None:
+                papers.append(ref_paper)
                 ref_paper.print_citation()
                 print()
     else:
         print("No such a paper:", title)
+
+    cache_path = Path("__cache__/papers.json")
+    if cache_path.exists():
+        cache = json.load(open(cache_path))
+        for _paper in papers:
+            cache[_paper.paper_id] = _paper.to_dict()
+    else:
+        cache = {_paper.paper_id: _paper.to_dict() for _paper in papers}
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+    json.dump(cache, open(cache_path, mode="wt", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":

@@ -40,6 +40,8 @@ params:
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
+  enableTags: true
+
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
   newsletter:
