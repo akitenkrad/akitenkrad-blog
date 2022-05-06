@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 click = "*"
+attrdict = "*"
+sumeval = "*"
+python-dateutil = "*"
 
 [dev-packages]
 black = "*"
