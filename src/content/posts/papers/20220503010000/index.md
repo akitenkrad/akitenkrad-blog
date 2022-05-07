@@ -22,7 +22,7 @@ math: true
 
 > He, P., Liu, X., Gao, J., & Chen, W. (2020).  
 > **DeBERTa: Decoding-enhanced BERT with Disentangled Attention.**  
-> https://doi.org/10.48550/arxiv.2006.03654
+> [Paper Link](https://doi.org/10.48550/arxiv.2006.03654)
 
 ## Abstract
 

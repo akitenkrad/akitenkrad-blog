@@ -22,7 +22,7 @@ math: true
 
 > Karpukhin, V., Oğuz, B., Min, S., Lewis, P., Wu, L., Edunov, S., Chen, D., & Yih, W. (2020).   
 > **Dense Passage Retrieval for Open-Domain Question Answering.**   
-> https://doi.org/10.48550/arxiv.2004.04906
+> [Paper Link](https://doi.org/10.48550/arxiv.2004.04906)
 
 ## Abstract
 

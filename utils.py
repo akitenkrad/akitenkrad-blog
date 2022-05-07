@@ -12,7 +12,6 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 from urllib.error import HTTPError, URLError
 
-import numpy as np
 from attrdict import AttrDict
 from sumeval.metrics.rouge import RougeCalculator
 
@@ -26,8 +25,7 @@ class Paper(object):
             if value is not None:
                 setattr(self, f"__{key}", value)
 
-        if not hasattr(self, "__at"):
-            self.__at = datetime.now().timestamp()
+        self.__at = datetime.now(timezone(timedelta(hours=9), "JST")).timestamp()
 
     def __get(self, key: str, default: Any) -> Any:
         value = getattr(self, key) if hasattr(self, key) else default
@@ -119,6 +117,10 @@ class Paper(object):
         """references from SemanticScholar"""
         reference_list = self.__get("__references", default=[])
         return [RefPaper(p["paperId"], p["title"]) for p in reference_list]
+
+    @property
+    def at(self) -> datetime:
+        return datetime.fromtimestamp(self.__at)
 
     def __str__(self):
         return f'<Paper id:{self.paper_id} title:{self.title[:15]}... @{self.at.strftime("%Y.%m.%d-%H:%M:%S")}>'

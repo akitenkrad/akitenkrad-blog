@@ -187,3 +187,23 @@ $$
 
 <p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
 <br>
+
+## Extended List
+
+```
+{{ < fa-arrow-right-list > }}
+First
+---
+Second
+---
+Third
+{{ < /fa-arrow-right-list > }}
+```
+
+{{< fa-arrow-right-list >}}
+First
+---
+Second
+---
+Third
+{{< /fa-arrow-right-list >}}

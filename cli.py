@@ -72,26 +72,27 @@ def get_references(title: str):
     paper_id = ss.get_paper_id(title=title)
     paper = ss.get_paper_detail(paper_id=paper_id)
 
-    papers: List[Paper] = []
-    if paper is not None:
-        papers.append(paper)
-        for ref in paper.references:
-            ref_paper = ss.get_paper_detail(ref.paper_id)
-            if ref_paper is not None:
-                papers.append(ref_paper)
-                ref_paper.print_citation()
-                print()
-    else:
-        print("No such a paper:", title)
-
+    # Load Cache
     cache_path = Path("__cache__/papers.json")
     if cache_path.exists():
         cache = json.load(open(cache_path))
-        for _paper in papers:
-            cache[_paper.paper_id] = _paper.to_dict()
     else:
-        cache = {_paper.paper_id: _paper.to_dict() for _paper in papers}
+        cache = {}
         cache_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Read References
+    if paper is not None:
+        cache[paper.paper_id] = paper.to_dict()
+        for ref in paper.references:
+            ref_paper = ss.get_paper_detail(ref.paper_id)
+            if ref_paper is not None:
+                ref_paper.print_citation()
+                print()
+
+                if ref_paper.paper_id not in cache:
+                    cache[ref_paper.paper_id] = ref_paper.to_dict()
+    else:
+        print("No such a paper:", title)
     json.dump(cache, open(cache_path, mode="wt", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 
