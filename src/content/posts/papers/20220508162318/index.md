@@ -4,7 +4,7 @@ title: "A Deep Cascade Model for Multi-Document Reading Comprehension"
 date: 2022-05-08
 author: "akitenkrad"
 description: ""
-tags: ["Round-1", "Question Answering", "Extractive MRC", "TriviaQA", "DuReader"]
+tags: ["Round-1", "2019", "Question Answering", "Extractive MRC", "TriviaQA", "DuReader", "Multi-Document MRC"]
 menu:
   sidebar:
     name: 2022.05.08
@@ -35,6 +35,9 @@ https://doi.org/10.1609/aaai.v33i01.33017354
 
 - Machine Reading Comprehension のタスクにおいて，複数のコンテキストを扱える Multi-Document Reading Comprehension Model を提案した．
 - Document Extraction，Paragraph Extraction の2つのタスクをカスケードすることで，Answer Extraction フェーズで扱うデータ量を効率よく削減することに成功した．
+  - Question と Context を Document Extraction と Paragraph Extraction の2段階で処理することによって，Multi-Document のような Context が大量にあるタスクでもうまく機能するようなモデルを考案している（= Cascade Model）
+  - Document Extraction, Paragraph Extraction, Answer Extraction はベースのレイヤを共有しており，Joint-Leaningで学習する
+  - [Figure 1](#model-description) 参照
 - TriviaQAとDuReaderデータセットで検証を実施し，既存のモデルを上回る精度を達成することを確認した．
 
 ## Dataset
@@ -75,10 +78,14 @@ This paper introduces DuReader, a new large-scale, open-domain Chinese ma- chine
 <img src="fig-2.png">
 {{< /split >}}
 
-
 ### Training Settings
 
+TBD
+
 ## Results
+
+<img src="table-1.png">
+
 
 ## References
 

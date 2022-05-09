@@ -4,7 +4,7 @@ title: "A Primer in BERTology: What We Know About How BERT Works"
 date: 2022-05-06
 author: "akitenkrad"
 description: ""
-tags: ["Round-1", "Survey", "BERT", "BERTology"]
+tags: ["Round-1", "2020", "Survey", "BERT", "BERTology"]
 menu:
   sidebar:
     name: 2022.05.06
@@ -35,36 +35,23 @@ Transactions of the Association for Computational Linguistics, 8, 842–866.
 
 ## Model History
 
-{{< mermaid >}}
-gantt
-  dateFormat YYYY-MM
-  title Model History
-  axisFormat %Y-%-m
-
-section Model
-  BERT  :active, des201701, 2016-06, 2017-06
-  DeBERTa   :active, des202001, 2019-06, 2020-06
-
-{{< /mermaid >}}
+TBD
 
 ## What Knowledge Does BERT Have?
 ### Syntactic Knowledge
 
 ---
 
-<details>
-  <summary>Lin et al. (2019)</summary>
+{{< ci-details summary="Lin et al. (2019)">}}
+Yongjie Lin, Y. Tan, R. Frank. (2019)  
+**Open Sesame: Getting inside BERT’s Linguistic Knowledge**  
+BlackboxNLP@ACL  
+[Paper Link](https://www.semanticscholar.org/paper/165d51a547cd920e6ac55660ad5c404dcb9562ed)  
+Influential Citation Count (18), SS-ID (165d51a547cd920e6ac55660ad5c404dcb9562ed)  
 
-  > Yongjie Lin, Y. Tan, R. Frank. (2019)  
-  > **Open Sesame: Getting inside BERT’s Linguistic Knowledge**  
-  > BlackboxNLP@ACL  
-  > [Paper Link](https://www.semanticscholar.org/paper/165d51a547cd920e6ac55660ad5c404dcb9562ed)  
-  > Influential Citation Count (18), SS-ID (165d51a547cd920e6ac55660ad5c404dcb9562ed)  
-  > 
-  > **ABSTRACT**  
-  > How and to what extent does BERT encode syntactically-sensitive hierarchical information or positionally-sensitive linear information? Recent work has shown that contextual representations like BERT perform well on tasks that require sensitivity to linguistic structure. We present here two studies which aim to provide a better understanding of the nature of BERT’s representations. The first of these focuses on the identification of structurally-defined elements using diagnostic classifiers, while the second explores BERT’s representation of subject-verb agreement and anaphor-antecedent dependencies through a quantitative assessment of self-attention vectors. In both cases, we find that BERT encodes positional information about word tokens well on its lower layers, but switches to a hierarchically-oriented encoding on higher layers. We conclude then that BERT’s representations do indeed model linguistically relevant aspects of hierarchical structure, though they do not appear to show the sharp sensitivity to hierarchical structure that is found in human processing of reflexive anaphora.
-
-</details>
+**ABSTRACT**  
+How and to what extent does BERT encode syntactically-sensitive hierarchical information or positionally-sensitive linear information? Recent work has shown that contextual representations like BERT perform well on tasks that require sensitivity to linguistic structure. We present here two studies which aim to provide a better understanding of the nature of BERT’s representations. The first of these focuses on the identification of structurally-defined elements using diagnostic classifiers, while the second explores BERT’s representation of subject-verb agreement and anaphor-antecedent dependencies through a quantitative assessment of self-attention vectors. In both cases, we find that BERT encodes positional information about word tokens well on its lower layers, but switches to a hierarchically-oriented encoding on higher layers. We conclude then that BERT’s representations do indeed model linguistically relevant aspects of hierarchical structure, though they do not appear to show the sharp sensitivity to hierarchical structure that is found in human processing of reflexive anaphora.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 BERTの分散表現は線形というよりは階層的である．
@@ -74,28 +61,27 @@ BERTの分散表現には単語の順番に関する情報以外に文法構造�
 
 ---
 
-<details>
-<summary>Tenney et al. (2019), Liu et al. (2019)</summary>
+{{< ci-details summary="Tenney et al. (2019)" >}}
+Ian Tenney, Patrick Xia, Berlin Chen, Alex Wang, Adam Poliak, R. Thomas McCoy, Najoung Kim, Benjamin Van Durme, Samuel R. Bowman, Dipanjan Das, Ellie Pavlick. (2019)  
+**What do you learn from context? Probing for sentence structure in contextualized word representations**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/e2587eddd57bc4ba286d91b27c185083f16f40ee)  
+Influential Citation Count (45), SS-ID (e2587eddd57bc4ba286d91b27c185083f16f40ee)  
 
-  > Ian Tenney, Patrick Xia, Berlin Chen, Alex Wang, Adam Poliak, R. Thomas McCoy, Najoung Kim, Benjamin Van Durme, Samuel R. Bowman, Dipanjan Das, Ellie Pavlick. (2019)  
-  > **What do you learn from context? Probing for sentence structure in contextualized word representations**  
-  > ICLR  
-  > [Paper Link](https://www.semanticscholar.org/paper/e2587eddd57bc4ba286d91b27c185083f16f40ee)  
-  > Influential Citation Count (45), SS-ID (e2587eddd57bc4ba286d91b27c185083f16f40ee)  
-  > 
-  > **ABSTRACT**  
-  > Contextualized representation models such as ELMo (Peters et al., 2018a) and BERT (Devlin et al., 2018) have recently achieved state-of-the-art results on a diverse array of downstream NLP tasks. Building on recent token-level probing work, we introduce a novel edge probing task design and construct a broad suite of sub-sentence tasks derived from the traditional structured NLP pipeline. We probe word-level contextual representations from four recent models and investigate how they encode sentence structure across a range of syntactic, semantic, local, and long-range phenomena. We find that existing models trained on language modeling and translation produce strong representations for syntactic phenomena, but only offer comparably small improvements on semantic tasks over a non-contextual baseline.
+**ABSTRACT**  
+Contextualized representation models such as ELMo (Peters et al., 2018a) and BERT (Devlin et al., 2018) have recently achieved state-of-the-art results on a diverse array of downstream NLP tasks. Building on recent token-level probing work, we introduce a novel edge probing task design and construct a broad suite of sub-sentence tasks derived from the traditional structured NLP pipeline. We probe word-level contextual representations from four recent models and investigate how they encode sentence structure across a range of syntactic, semantic, local, and long-range phenomena. We find that existing models trained on language modeling and translation produce strong representations for syntactic phenomena, but only offer comparably small improvements on semantic tasks over a non-contextual baseline.
+{{< /ci-details >}}
 
-  > Nelson F. Liu, Matt Gardner, Y. Belinkov, Matthew E. Peters, Noah A. Smith. (2019)  
-  > **Linguistic Knowledge and Transferability of Contextual Representations**  
-  > NAACL  
-  > [Paper Link](https://www.semanticscholar.org/paper/f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
-  > Influential Citation Count (108), SS-ID (f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
-  > 
-  > **ABSTRACT**  
-  > Contextual word representations derived from large-scale neural language models are successful across a diverse set of NLP tasks, suggesting that they encode useful and transferable features of language. To shed light on the linguistic knowledge they capture, we study the representations produced by several recent pretrained contextualizers (variants of ELMo, the OpenAI transformer language model, and BERT) with a suite of sixteen diverse probing tasks. We find that linear models trained on top of frozen contextual representations are competitive with state-of-the-art task-specific models in many cases, but fail on tasks requiring fine-grained linguistic knowledge (e.g., conjunct identification). To investigate the transferability of contextual word representations, we quantify differences in the transferability of individual layers within contextualizers, especially between recurrent neural networks (RNNs) and transformers. For instance, higher layers of RNNs are more task-specific, while transformer layers do not exhibit the same monotonic trend. In addition, to better understand what makes contextual word representations transferable, we compare language model pretraining with eleven supervised pretraining tasks. For any given task, pretraining on a closely related task yields better performance than language model pretraining (which is better on average) when the pretraining dataset is fixed. However, language model pretraining on more data gives the best results.
+{{< ci-details summary="Liu et al. (2019)" >}}
+Nelson F. Liu, Matt Gardner, Y. Belinkov, Matthew E. Peters, Noah A. Smith. (2019)  
+**Linguistic Knowledge and Transferability of Contextual Representations**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
+Influential Citation Count (108), SS-ID (f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
 
-</details>
+**ABSTRACT**  
+Contextual word representations derived from large-scale neural language models are successful across a diverse set of NLP tasks, suggesting that they encode useful and transferable features of language. To shed light on the linguistic knowledge they capture, we study the representations produced by several recent pretrained contextualizers (variants of ELMo, the OpenAI transformer language model, and BERT) with a suite of sixteen diverse probing tasks. We find that linear models trained on top of frozen contextual representations are competitive with state-of-the-art task-specific models in many cases, but fail on tasks requiring fine-grained linguistic knowledge (e.g., conjunct identification). To investigate the transferability of contextual word representations, we quantify differences in the transferability of individual layers within contextualizers, especially between recurrent neural networks (RNNs) and transformers. For instance, higher layers of RNNs are more task-specific, while transformer layers do not exhibit the same monotonic trend. In addition, to better understand what makes contextual word representations transferable, we compare language model pretraining with eleven supervised pretraining tasks. For any given task, pretraining on a closely related task yields better performance than language model pretraining (which is better on average) when the pretraining dataset is fixed. However, language model pretraining on more data gives the best results.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 BERTには品詞，文法的なチャンク・格に関する情報が一部含まれている．
@@ -105,28 +91,27 @@ BERTには品詞，文法的なチャンク・格に関する情報が一部含�
 
 ---
 
-<details>
-<summary>Htut et al. (2019), Jawahar et al. (2019)</summary>
+{{< ci-details summary="Htut et al. (2019)" >}}
+Phu Mon Htut, Jason Phang, Shikha Bordia, Samuel R. Bowman. (2019)  
+**Do Attention Heads in BERT Track Syntactic Dependencies?**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/ba8215e77f35b0d947c7cec39c45df4516e93421)  
+Influential Citation Count (12), SS-ID (ba8215e77f35b0d947c7cec39c45df4516e93421)  
 
-  > Phu Mon Htut, Jason Phang, Shikha Bordia, Samuel R. Bowman. (2019)  
-  > **Do Attention Heads in BERT Track Syntactic Dependencies?**  
-  > ArXiv  
-  > [Paper Link](https://www.semanticscholar.org/paper/ba8215e77f35b0d947c7cec39c45df4516e93421)  
-  > Influential Citation Count (12), SS-ID (ba8215e77f35b0d947c7cec39c45df4516e93421)  
-  > 
-  > **ABSTRACT**  
-  > We investigate the extent to which individual attention heads in pretrained transformer language models, such as BERT and RoBERTa, implicitly capture syntactic dependency relations. We employ two methods---taking the maximum attention weight and computing the maximum spanning tree---to extract implicit dependency relations from the attention weights of each layer/head, and compare them to the ground-truth Universal Dependency (UD) trees. We show that, for some UD relation types, there exist heads that can recover the dependency type significantly better than baselines on parsed English text, suggesting that some self-attention heads act as a proxy for syntactic structure. We also analyze BERT fine-tuned on two datasets---the syntax-oriented CoLA and the semantics-oriented MNLI---to investigate whether fine-tuning affects the patterns of their self-attention, but we do not observe substantial differences in the overall dependency relations extracted using our methods. Our results suggest that these models have some specialist attention heads that track individual dependency types, but no generalist head that performs holistic parsing significantly better than a trivial baseline, and that analyzing attention weights directly may not reveal much of the syntactic knowledge that BERT-style models are known to learn.
+**ABSTRACT**  
+We investigate the extent to which individual attention heads in pretrained transformer language models, such as BERT and RoBERTa, implicitly capture syntactic dependency relations. We employ two methods---taking the maximum attention weight and computing the maximum spanning tree---to extract implicit dependency relations from the attention weights of each layer/head, and compare them to the ground-truth Universal Dependency (UD) trees. We show that, for some UD relation types, there exist heads that can recover the dependency type significantly better than baselines on parsed English text, suggesting that some self-attention heads act as a proxy for syntactic structure. We also analyze BERT fine-tuned on two datasets---the syntax-oriented CoLA and the semantics-oriented MNLI---to investigate whether fine-tuning affects the patterns of their self-attention, but we do not observe substantial differences in the overall dependency relations extracted using our methods. Our results suggest that these models have some specialist attention heads that track individual dependency types, but no generalist head that performs holistic parsing significantly better than a trivial baseline, and that analyzing attention weights directly may not reveal much of the syntactic knowledge that BERT-style models are known to learn.
+{{< /ci-details >}}
 
-  > Ganesh Jawahar, Benoît Sagot, Djamé Seddah. (2019)  
-  > **What Does BERT Learn about the Structure of Language?**  
-  > ACL  
-  > [Paper Link](https://www.semanticscholar.org/paper/335613303ebc5eac98de757ed02a56377d99e03a)  
-  > Influential Citation Count (44), SS-ID (335613303ebc5eac98de757ed02a56377d99e03a)  
-  > 
-  > **ABSTRACT**  
-  > BERT is a recent language representation model that has surprisingly performed well in diverse language understanding benchmarks. This result indicates the possibility that BERT networks capture structural information about language. In this work, we provide novel support for this claim by performing a series of experiments to unpack the elements of English language structure learned by BERT. Our findings are fourfold. BERT’s phrasal representation captures the phrase-level information in the lower layers. The intermediate layers of BERT compose a rich hierarchy of linguistic information, starting with surface features at the bottom, syntactic features in the middle followed by semantic features at the top. BERT requires deeper layers while tracking subject-verb agreement to handle long-term dependency problem. Finally, the compositional scheme underlying BERT mimics classical, tree-like structures.
+{{< ci-details summary="Jawahar et al. (2019)" >}}
+Ganesh Jawahar, Benoît Sagot, Djamé Seddah. (2019)  
+**What Does BERT Learn about the Structure of Language?**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/335613303ebc5eac98de757ed02a56377d99e03a)  
+Influential Citation Count (44), SS-ID (335613303ebc5eac98de757ed02a56377d99e03a)  
 
-</details>
+**ABSTRACT**  
+BERT is a recent language representation model that has surprisingly performed well in diverse language understanding benchmarks. This result indicates the possibility that BERT networks capture structural information about language. In this work, we provide novel support for this claim by performing a series of experiments to unpack the elements of English language structure learned by BERT. Our findings are fourfold. BERT’s phrasal representation captures the phrase-level information in the lower layers. The intermediate layers of BERT compose a rich hierarchy of linguistic information, starting with surface features at the bottom, syntactic features in the middle followed by semantic features at the top. BERT requires deeper layers while tracking subject-verb agreement to handle long-term dependency problem. Finally, the compositional scheme underlying BERT mimics classical, tree-like structures.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 文法構造がどのように埋め込まれるかということに関して， **Attention Weights** には文法的な構造は直接的には含まれていない．
@@ -138,19 +123,16 @@ Jawahar et al. (2019)は，Attention Weightsから文法ツリーを抽出した
 
 ---
 
-<details>
-<summary>Hewitt and Manning (2019)</summary>
+{{< ci-details summary="Hewitt and Manning (2019)" >}}
+John Hewitt, Christopher D. Manning. (2019)  
+**A Structural Probe for Finding Syntax in Word Representations**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/455a8838cde44f288d456d01c76ede95b56dc675)  
+Influential Citation Count (30), SS-ID (455a8838cde44f288d456d01c76ede95b56dc675)  
 
-  > John Hewitt, Christopher D. Manning. (2019)  
-  > **A Structural Probe for Finding Syntax in Word Representations**  
-  > NAACL  
-  > [Paper Link](https://www.semanticscholar.org/paper/455a8838cde44f288d456d01c76ede95b56dc675)  
-  > Influential Citation Count (30), SS-ID (455a8838cde44f288d456d01c76ede95b56dc675)  
-  > 
-  > **ABSTRACT**  
-  > Recent work has improved our ability to detect linguistic knowledge in word representations. However, current methods for detecting syntactic knowledge do not test whether syntax trees are represented in their entirety. In this work, we propose a structural probe, which evaluates whether syntax trees are embedded in a linear transformation of a neural network’s word representation space. The probe identifies a linear transformation under which squared L2 distance encodes the distance between words in the parse tree, and one in which squared L2 norm encodes depth in the parse tree. Using our probe, we show that such transformations exist for both ELMo and BERT but not in baselines, providing evidence that entire syntax trees are embedded implicitly in deep models’ vector geometry.
-
-</details>
+**ABSTRACT**  
+Recent work has improved our ability to detect linguistic knowledge in word representations. However, current methods for detecting syntactic knowledge do not test whether syntax trees are represented in their entirety. In this work, we propose a structural probe, which evaluates whether syntax trees are embedded in a linear transformation of a neural network’s word representation space. The probe identifies a linear transformation under which squared L2 distance encodes the distance between words in the parse tree, and one in which squared L2 norm encodes depth in the parse tree. Using our probe, we show that such transformations exist for both ELMo and BERT but not in baselines, providing evidence that entire syntax trees are embedded implicitly in deep models’ vector geometry.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 文法の情報はBERTの **トークンの分散表現** から復元することができる可能性がある．
@@ -160,19 +142,16 @@ Hewitt and Manning (2019)では，PenTreebankデータセットを使用して�
 
 ---
 
-<details>
-<summary>Wu et al. (2020)</summary>
+{{< ci-details summary="Wu et al. (2020)" >}}
+Zhiyong Wu, Yun Chen, B. Kao, Qun Liu. (2020)  
+**Perturbed Masking: Parameter-free Probing for Analyzing and Interpreting BERT**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/3aaa8aaad5ef36550a6b47d6ee000f0b346a5a1f)  
+Influential Citation Count (10), SS-ID (3aaa8aaad5ef36550a6b47d6ee000f0b346a5a1f)  
 
-  > Zhiyong Wu, Yun Chen, B. Kao, Qun Liu. (2020)  
-  > **Perturbed Masking: Parameter-free Probing for Analyzing and Interpreting BERT**  
-  > ACL  
-  > [Paper Link](https://www.semanticscholar.org/paper/3aaa8aaad5ef36550a6b47d6ee000f0b346a5a1f)  
-  > Influential Citation Count (10), SS-ID (3aaa8aaad5ef36550a6b47d6ee000f0b346a5a1f)  
-  > 
-  > **ABSTRACT**  
-  > By introducing a small set of additional parameters, a probe learns to solve specific linguistic tasks (e.g., dependency parsing) in a supervised manner using feature representations (e.g., contextualized embeddings). The effectiveness of such probing tasks is taken as evidence that the pre-trained model encodes linguistic knowledge. However, this approach of evaluating a language model is undermined by the uncertainty of the amount of knowledge that is learned by the probe itself. Complementary to those works, we propose a parameter-free probing technique for analyzing pre-trained language models (e.g., BERT). Our method does not require direct supervision from the probing tasks, nor do we introduce additional parameters to the probing process. Our experiments on BERT show that syntactic trees recovered from BERT using our method are significantly better than linguistically-uninformed baselines. We further feed the empirically induced dependency structures into a downstream sentiment classification task and find its improvement compatible with or even superior to a human-designed dependency schema.
-
-</details>
+**ABSTRACT**  
+By introducing a small set of additional parameters, a probe learns to solve specific linguistic tasks (e.g., dependency parsing) in a supervised manner using feature representations (e.g., contextualized embeddings). The effectiveness of such probing tasks is taken as evidence that the pre-trained model encodes linguistic knowledge. However, this approach of evaluating a language model is undermined by the uncertainty of the amount of knowledge that is learned by the probe itself. Complementary to those works, we propose a parameter-free probing technique for analyzing pre-trained language models (e.g., BERT). Our method does not require direct supervision from the probing tasks, nor do we introduce additional parameters to the probing process. Our experiments on BERT show that syntactic trees recovered from BERT using our method are significantly better than linguistically-uninformed baselines. We further feed the empirically induced dependency structures into a downstream sentiment classification task and find its improvement compatible with or even superior to a human-designed dependency schema.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 MLM (Masked Language Model) タスクにおいて，ある単語が他の単語とどの程度関連性があるかを検証し，BERTは文法的な情報をある程度学習するが，それは正解データに近しいものとは限らないと結論づけた．
@@ -187,28 +166,27 @@ Figure 1: Parameter-free probe for syntactic know-ledge: words sharing syntactic
 
 ---
 
-<details>
-<summary>Goldberg (2019), van Schijndel et al., (2019)</summary>
+{{< ci-details summary="Goldberg (2019)" >}}
+Yoav Goldberg. (2019)  
+**Assessing BERT's Syntactic Abilities**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/efeab0dcdb4c1cce5e537e57745d84774be99b9a)  
+Influential Citation Count (17), SS-ID (efeab0dcdb4c1cce5e537e57745d84774be99b9a)  
 
-  > Yoav Goldberg. (2019)  
-  > **Assessing BERT's Syntactic Abilities**  
-  > ArXiv  
-  > [Paper Link](https://www.semanticscholar.org/paper/efeab0dcdb4c1cce5e537e57745d84774be99b9a)  
-  > Influential Citation Count (17), SS-ID (efeab0dcdb4c1cce5e537e57745d84774be99b9a)  
-  > 
-  > **ABSTRACT**  
-  > I assess the extent to which the recently introduced BERT model captures English syntactic phenomena, using (1) naturally-occurring subject-verb agreement stimuli; (2) "coloreless green ideas" subject-verb agreement stimuli, in which content words in natural sentences are randomly replaced with words sharing the same part-of-speech and inflection; and (3) manually crafted stimuli for subject-verb agreement and reflexive anaphora phenomena. The BERT model performs remarkably well on all cases.
+**ABSTRACT**  
+I assess the extent to which the recently introduced BERT model captures English syntactic phenomena, using (1) naturally-occurring subject-verb agreement stimuli; (2) "coloreless green ideas" subject-verb agreement stimuli, in which content words in natural sentences are randomly replaced with words sharing the same part-of-speech and inflection; and (3) manually crafted stimuli for subject-verb agreement and reflexive anaphora phenomena. The BERT model performs remarkably well on all cases.
+{{< /ci-details >}}
 
-  > Marten van Schijndel, Aaron Mueller, Tal Linzen. (2019)  
-  > **Quantity doesn’t buy quality syntax with neural language models**  
-  > EMNLP  
-  > [Paper Link](https://www.semanticscholar.org/paper/356645552f8f40adf5a99b4e3a69f47699399010)  
-  > Influential Citation Count (0), SS-ID (356645552f8f40adf5a99b4e3a69f47699399010)  
-  > 
-  > **ABSTRACT**  
-  > Recurrent neural networks can learn to predict upcoming words remarkably well on average; in syntactically complex contexts, however, they often assign unexpectedly high probabilities to ungrammatical words. We investigate to what extent these shortcomings can be mitigated by increasing the size of the network and the corpus on which it is trained. We find that gains from increasing network size are minimal beyond a certain point. Likewise, expanding the training corpus yields diminishing returns; we estimate that the training corpus would need to be unrealistically large for the models to match human performance. A comparison to GPT and BERT, Transformer-based models trained on billions of words, reveals that these models perform even more poorly than our LSTMs in some constructions. Our results make the case for more data efficient architectures.
+{{< ci-details summary="van Schijndel et al. (2019)" >}}
+Marten van Schijndel, Aaron Mueller, Tal Linzen. (2019)  
+**Quantity doesn’t buy quality syntax with neural language models**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/356645552f8f40adf5a99b4e3a69f47699399010)  
+Influential Citation Count (0), SS-ID (356645552f8f40adf5a99b4e3a69f47699399010)  
 
-</details>
+**ABSTRACT**  
+Recurrent neural networks can learn to predict upcoming words remarkably well on average; in syntactically complex contexts, however, they often assign unexpectedly high probabilities to ungrammatical words. We investigate to what extent these shortcomings can be mitigated by increasing the size of the network and the corpus on which it is trained. We find that gains from increasing network size are minimal beyond a certain point. Likewise, expanding the training corpus yields diminishing returns; we estimate that the training corpus would need to be unrealistically large for the models to match human performance. A comparison to GPT and BERT, Transformer-based models trained on billions of words, reveals that these models perform even more poorly than our LSTMs in some constructions. Our results make the case for more data efficient architectures.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 BERTはClozeタスクにおいて，主語-述語の関係を加味しながら学習しているが，意味のない文章や曖昧な文章に関しても一律に主語と動詞を関連づけようとしてしまう．
@@ -216,19 +194,16 @@ BERTはClozeタスクにおいて，主語-述語の関係を加味しながら�
 
 ---
 
-<details>
-<summary>Warstadt et al. (2019)</summary>
+{{< ci-details summary="Warstadt et al. (2019)" >}}
+Alex Warstadt, Samuel R. Bowman. (2020)  
+**Can neural networks acquire a structural bias from raw linguistic data?**  
+CogSci  
+[Paper Link](https://www.semanticscholar.org/paper/0e012c2bd18236445cfbc6e3e409eb02df4691fe)  
+Influential Citation Count (3), SS-ID (0e012c2bd18236445cfbc6e3e409eb02df4691fe)  
 
-  > Alex Warstadt, Samuel R. Bowman. (2020)  
-  > **Can neural networks acquire a structural bias from raw linguistic data?**  
-  > CogSci  
-  > [Paper Link](https://www.semanticscholar.org/paper/0e012c2bd18236445cfbc6e3e409eb02df4691fe)  
-  > Influential Citation Count (3), SS-ID (0e012c2bd18236445cfbc6e3e409eb02df4691fe)  
-  > 
-  > **ABSTRACT**  
-  > We evaluate whether BERT, a widely used neural network for sentence processing, acquires an inductive bias towards forming structural generalizations through pretraining on raw data. We conduct four experiments testing its preference for structural vs. linear generalizations in different structure-dependent phenomena. We find that BERT makes a structural generalization in 3 out of 4 empirical domains---subject-auxiliary inversion, reflexive binding, and verb tense detection in embedded clauses---but makes a linear generalization when tested on NPI licensing. We argue that these results are the strongest evidence so far from artificial learners supporting the proposition that a structural bias can be acquired from raw data. If this conclusion is correct, it is tentative evidence that some linguistic universals can be acquired by learners without innate biases. However, the precise implications for human language acquisition are unclear, as humans learn language from significantly less data than BERT.
-
-</details>
+**ABSTRACT**  
+We evaluate whether BERT, a widely used neural network for sentence processing, acquires an inductive bias towards forming structural generalizations through pretraining on raw data. We conduct four experiments testing its preference for structural vs. linear generalizations in different structure-dependent phenomena. We find that BERT makes a structural generalization in 3 out of 4 empirical domains---subject-auxiliary inversion, reflexive binding, and verb tense detection in embedded clauses---but makes a linear generalization when tested on NPI licensing. We argue that these results are the strongest evidence so far from artificial learners supporting the proposition that a structural bias can be acquired from raw data. If this conclusion is correct, it is tentative evidence that some linguistic universals can be acquired by learners without innate biases. However, the precise implications for human language acquisition are unclear, as humans learn language from significantly less data than BERT.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 BERTは文法のscope violationsを検知するよりも，NPIs (Negative Polarity Items) の存在やNPIsに関連する単語を検知するほうが得意である．
@@ -236,28 +211,27 @@ BERTは文法のscope violationsを検知するよりも，NPIs (Negative Polari
 
 ---
 
-<details>
-<summary>Ettinger (2019), Vulic (2020)</summary>
+{{< ci-details summary="Ettinger (2019)" >}}
+Allyson Ettinger. (2019)  
+**What BERT Is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models**  
+TACL  
+[Paper Link](https://www.semanticscholar.org/paper/a0e49f65b6847437f262c59d0d399255101d0b75)  
+Influential Citation Count (10), SS-ID (a0e49f65b6847437f262c59d0d399255101d0b75)  
 
-  > Allyson Ettinger. (2019)  
-  > **What BERT Is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models**  
-  > TACL  
-  > [Paper Link](https://www.semanticscholar.org/paper/a0e49f65b6847437f262c59d0d399255101d0b75)  
-  > Influential Citation Count (10), SS-ID (a0e49f65b6847437f262c59d0d399255101d0b75)  
-  > 
-  > **ABSTRACT**  
-  > Pre-training by language modeling has become a popular and successful approach to NLP tasks, but we have yet to understand exactly what linguistic capacities these pre-training processes confer upon models. In this paper we introduce a suite of diagnostics drawn from human language experiments, which allow us to ask targeted questions about information used by language models for generating predictions in context. As a case study, we apply these diagnostics to the popular BERT model, finding that it can generally distinguish good from bad completions involving shared category or role reversal, albeit with less sensitivity than humans, and it robustly retrieves noun hypernyms, but it struggles with challenging inference and role-based event prediction— and, in particular, it shows clear insensitivity to the contextual impacts of negation.
+**ABSTRACT**  
+Pre-training by language modeling has become a popular and successful approach to NLP tasks, but we have yet to understand exactly what linguistic capacities these pre-training processes confer upon models. In this paper we introduce a suite of diagnostics drawn from human language experiments, which allow us to ask targeted questions about information used by language models for generating predictions in context. As a case study, we apply these diagnostics to the popular BERT model, finding that it can generally distinguish good from bad completions involving shared category or role reversal, albeit with less sensitivity than humans, and it robustly retrieves noun hypernyms, but it struggles with challenging inference and role-based event prediction— and, in particular, it shows clear insensitivity to the contextual impacts of negation.
+{{< /ci-details >}}
 
-  > Goran Glavas, Ivan Vulic. (2020)  
-  > **Is Supervised Syntactic Parsing Beneficial for Language Understanding Tasks? An Empirical Investigation**  
-  > EACL  
-  > [Paper Link](https://www.semanticscholar.org/paper/575ac3f36e9fddeb258e2f639e26a6a7ec35160a)  
-  > Influential Citation Count (0), SS-ID (575ac3f36e9fddeb258e2f639e26a6a7ec35160a)  
-  > 
-  > **ABSTRACT**  
-  > Traditional NLP has long held (supervised) syntactic parsing necessary for successful higher-level semantic language understanding (LU). The recent advent of end-to-end neural models, self-supervised via language modeling (LM), and their success on a wide range of LU tasks, however, questions this belief. In this work, we empirically investigate the usefulness of supervised parsing for semantic LU in the context of LM-pretrained transformer networks. Relying on the established fine-tuning paradigm, we first couple a pretrained transformer with a biaffine parsing head, aiming to infuse explicit syntactic knowledge from Universal Dependencies treebanks into the transformer. We then fine-tune the model for LU tasks and measure the effect of the intermediate parsing training (IPT) on downstream LU task performance. Results from both monolingual English and zero-shot language transfer experiments (with intermediate target-language parsing) show that explicit formalized syntax, injected into transformers through IPT, has very limited and inconsistent effect on downstream LU performance. Our results, coupled with our analysis of transformers’ representation spaces before and after intermediate parsing, make a significant step towards providing answers to an essential question: how (un)availing is supervised parsing for high-level semantic natural language understanding in the era of large neural models?
+{{< ci-details summary="Vulic (2020)" >}}
+Goran Glavas, Ivan Vulic. (2020)  
+**Is Supervised Syntactic Parsing Beneficial for Language Understanding Tasks? An Empirical Investigation**  
+EACL  
+[Paper Link](https://www.semanticscholar.org/paper/575ac3f36e9fddeb258e2f639e26a6a7ec35160a)  
+Influential Citation Count (0), SS-ID (575ac3f36e9fddeb258e2f639e26a6a7ec35160a)  
 
-</details>
+**ABSTRACT**  
+Traditional NLP has long held (supervised) syntactic parsing necessary for successful higher-level semantic language understanding (LU). The recent advent of end-to-end neural models, self-supervised via language modeling (LM), and their success on a wide range of LU tasks, however, questions this belief. In this work, we empirically investigate the usefulness of supervised parsing for semantic LU in the context of LM-pretrained transformer networks. Relying on the established fine-tuning paradigm, we first couple a pretrained transformer with a biaffine parsing head, aiming to infuse explicit syntactic knowledge from Universal Dependencies treebanks into the transformer. We then fine-tune the model for LU tasks and measure the effect of the intermediate parsing training (IPT) on downstream LU task performance. Results from both monolingual English and zero-shot language transfer experiments (with intermediate target-language parsing) show that explicit formalized syntax, injected into transformers through IPT, has very limited and inconsistent effect on downstream LU performance. Our results, coupled with our analysis of transformers’ representation spaces before and after intermediate parsing, make a significant step towards providing answers to an essential question: how (un)availing is supervised parsing for high-level semantic natural language understanding in the era of large neural models?
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 BERTは「否定」を理解できず，不正な入力の検知に対しても脆弱である．  
@@ -271,37 +245,33 @@ BERTは「否定」を理解できず，不正な入力の検知に対しても�
 
 ### Semantic Knowledge
 
-<details>
-<summary>Tenney et al. (2019)</summary>
+{{< ci-details summary="Tenney et al. (2019)" >}}
+Ian Tenney, Patrick Xia, Berlin Chen, Alex Wang, Adam Poliak, R. Thomas McCoy, Najoung Kim, Benjamin Van Durme, Samuel R. Bowman, Dipanjan Das, Ellie Pavlick. (2019)  
+**What do you learn from context? Probing for sentence structure in contextualized word representations**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/e2587eddd57bc4ba286d91b27c185083f16f40ee)  
+Influential Citation Count (45), SS-ID (e2587eddd57bc4ba286d91b27c185083f16f40ee)  
 
-  > Ian Tenney, Patrick Xia, Berlin Chen, Alex Wang, Adam Poliak, R. Thomas McCoy, Najoung Kim, Benjamin Van Durme, Samuel R. Bowman, Dipanjan Das, Ellie Pavlick. (2019)  
-  > **What do you learn from context? Probing for sentence structure in contextualized word representations**  
-  > ICLR  
-  > [Paper Link](https://www.semanticscholar.org/paper/e2587eddd57bc4ba286d91b27c185083f16f40ee)  
-  > Influential Citation Count (45), SS-ID (e2587eddd57bc4ba286d91b27c185083f16f40ee)  
-  > 
-  > **ABSTRACT**  
-  > Contextualized representation models such as ELMo (Peters et al., 2018a) and BERT (Devlin et al., 2018) have recently achieved state-of-the-art results on a diverse array of downstream NLP tasks. Building on recent token-level probing work, we introduce a novel edge probing task design and construct a broad suite of sub-sentence tasks derived from the traditional structured NLP pipeline. We probe word-level contextual representations from four recent models and investigate how they encode sentence structure across a range of syntactic, semantic, local, and long-range phenomena. We find that existing models trained on language modeling and translation produce strong representations for syntactic phenomena, but only offer comparably small improvements on semantic tasks over a non-contextual baseline.
-
-</details>
+**ABSTRACT**  
+Contextualized representation models such as ELMo (Peters et al., 2018a) and BERT (Devlin et al., 2018) have recently achieved state-of-the-art results on a diverse array of downstream NLP tasks. Building on recent token-level probing work, we introduce a novel edge probing task design and construct a broad suite of sub-sentence tasks derived from the traditional structured NLP pipeline. We probe word-level contextual representations from four recent models and investigate how they encode sentence structure across a range of syntactic, semantic, local, and long-range phenomena. We find that existing models trained on language modeling and translation produce strong representations for syntactic phenomena, but only offer comparably small improvements on semantic tasks over a non-contextual baseline.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 Classifierを分析することで，BERTがentity type，relations，semantic roles，proto-rolesに関する情報をエンコードしていることを示した
 {{< /fa-arrow-right-list >}}
 
-<details>
-<summary>Wallace et al. (2019)</summary>
+---
 
-  > Eric Wallace, Yizhong Wang, Sujian Li, Sameer Singh, Matt Gardner. (2019)  
-  > **Do NLP Models Know Numbers? Probing Numeracy in Embeddings**  
-  > EMNLP  
-  > [Paper Link](https://www.semanticscholar.org/paper/0427110f0e79f41e69a8eb00a3ec8868bac26a4f)  
-  > Influential Citation Count (18), SS-ID (0427110f0e79f41e69a8eb00a3ec8868bac26a4f)  
-  > 
-  > **ABSTRACT**  
-  > The ability to understand and work with numbers (numeracy) is critical for many complex reasoning tasks. Currently, most NLP models treat numbers in text in the same way as other tokens—they embed them as distributed vectors. Is this enough to capture numeracy? We begin by investigating the numerical reasoning capabilities of a state-of-the-art question answering model on the DROP dataset. We find this model excels on questions that require numerical reasoning, i.e., it already captures numeracy. To understand how this capability emerges, we probe token embedding methods (e.g., BERT, GloVe) on synthetic list maximum, number decoding, and addition tasks. A surprising degree of numeracy is naturally present in standard embeddings. For example, GloVe and word2vec accurately encode magnitude for numbers up to 1,000. Furthermore, character-level embeddings are even more precise—ELMo captures numeracy the best for all pre-trained methods—but BERT, which uses sub-word units, is less exact.
+{{< ci-details summary="Wallace et al. (2019)" >}}
+Eric Wallace, Yizhong Wang, Sujian Li, Sameer Singh, Matt Gardner. (2019)  
+**Do NLP Models Know Numbers? Probing Numeracy in Embeddings**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/0427110f0e79f41e69a8eb00a3ec8868bac26a4f)  
+Influential Citation Count (18), SS-ID (0427110f0e79f41e69a8eb00a3ec8868bac26a4f)  
 
-</details>
+**ABSTRACT**  
+The ability to understand and work with numbers (numeracy) is critical for many complex reasoning tasks. Currently, most NLP models treat numbers in text in the same way as other tokens—they embed them as distributed vectors. Is this enough to capture numeracy? We begin by investigating the numerical reasoning capabilities of a state-of-the-art question answering model on the DROP dataset. We find this model excels on questions that require numerical reasoning, i.e., it already captures numeracy. To understand how this capability emerges, we probe token embedding methods (e.g., BERT, GloVe) on synthetic list maximum, number decoding, and addition tasks. A surprising degree of numeracy is naturally present in standard embeddings. For example, GloVe and word2vec accurately encode magnitude for numbers up to 1,000. Furthermore, character-level embeddings are even more precise—ELMo captures numeracy the best for all pre-trained methods—but BERT, which uses sub-word units, is less exact.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 BERTは数字に関する分散表現が苦手である．
@@ -311,28 +281,29 @@ BERTは数字に関する分散表現が苦手である．
 BERTのTokenizerであるWordpieceでは，似た数値であってもベクトル空間上では離れた位置に写像されることがありうるため，これが原因の一部である可能性が考えられる．
 {{< /fa-arrow-right-list >}}
 
-<details>
-<summary>Balasubramanian et al. (2020), Broscheit (2019)</summary>
+---
 
-  > S. Balasubramanian, Naman Jain, G. Jindal, Abhijeet Awasthi, Sunita Sarawagi. (2020)  
-  > **What’s in a Name? Are BERT Named Entity Representations just as Good for any other Name?**  
-  > REPL4NLP  
-  > [Paper Link](https://www.semanticscholar.org/paper/167f52d369b0979f27282af0f3a1a4be9c9be84b)  
-  > Influential Citation Count (1), SS-ID (167f52d369b0979f27282af0f3a1a4be9c9be84b)  
-  > 
-  > **ABSTRACT**  
-  > We evaluate named entity representations of BERT-based NLP models by investigating their robustness to replacements from the same typed class in the input. We highlight that on several tasks while such perturbations are natural, state of the art trained models are surprisingly brittle. The brittleness continues even with the recent entity-aware BERT models. We also try to discern the cause of this non-robustness, considering factors such as tokenization and frequency of occurrence. Then we provide a simple method that ensembles predictions from multiple replacements while jointly modeling the uncertainty of type annotations and label predictions. Experiments on three NLP tasks shows that our method enhances robustness and increases accuracy on both natural and adversarial datasets.
+{{< ci-details summary="Balasubramanian et al. (2020)" >}}
+S. Balasubramanian, Naman Jain, G. Jindal, Abhijeet Awasthi, Sunita Sarawagi. (2020)  
+**What’s in a Name? Are BERT Named Entity Representations just as Good for any other Name?**  
+REPL4NLP  
+[Paper Link](https://www.semanticscholar.org/paper/167f52d369b0979f27282af0f3a1a4be9c9be84b)  
+Influential Citation Count (1), SS-ID (167f52d369b0979f27282af0f3a1a4be9c9be84b)  
 
-  > Samuel Broscheit. (2019)  
-  > **Investigating Entity Knowledge in BERT with Simple Neural End-To-End Entity Linking**  
-  > CoNLL  
-  > [Paper Link](https://www.semanticscholar.org/paper/399308fa54ade9b1362d56628132323489ce50cd)  
-  > Influential Citation Count (6), SS-ID (399308fa54ade9b1362d56628132323489ce50cd)  
-  > 
-  > **ABSTRACT**  
-  > A typical architecture for end-to-end entity linking systems consists of three steps: mention detection, candidate generation and entity disambiguation. In this study we investigate the following questions: (a) Can all those steps be learned jointly with a model for contextualized text-representations, i.e. BERT? (b) How much entity knowledge is already contained in pretrained BERT? (c) Does additional entity knowledge improve BERT’s performance in downstream tasks? To this end we propose an extreme simplification of the entity linking setup that works surprisingly well: simply cast it as a per token classification over the entire entity vocabulary (over 700K classes in our case). We show on an entity linking benchmark that (i) this model improves the entity representations over plain BERT, (ii) that it outperforms entity linking architectures that optimize the tasks separately and (iii) that it only comes second to the current state-of-the-art that does mention detection and entity disambiguation jointly. Additionally, we investigate the usefulness of entity-aware token-representations in the text-understanding benchmark GLUE, as well as the question answering benchmarks SQUAD~V2 and SWAG and also the EN-DE WMT14 machine translation benchmark. To our surprise, we find that most of those benchmarks do not benefit from additional entity knowledge, except for a task with very small training data, the RTE task in GLUE, which improves by 2%.
+**ABSTRACT**  
+We evaluate named entity representations of BERT-based NLP models by investigating their robustness to replacements from the same typed class in the input. We highlight that on several tasks while such perturbations are natural, state of the art trained models are surprisingly brittle. The brittleness continues even with the recent entity-aware BERT models. We also try to discern the cause of this non-robustness, considering factors such as tokenization and frequency of occurrence. Then we provide a simple method that ensembles predictions from multiple replacements while jointly modeling the uncertainty of type annotations and label predictions. Experiments on three NLP tasks shows that our method enhances robustness and increases accuracy on both natural and adversarial datasets.
+{{< /ci-details >}}
 
-</details>
+{{< ci-details summary="Broscheit (2019)" >}}
+Samuel Broscheit. (2019)  
+**Investigating Entity Knowledge in BERT with Simple Neural End-To-End Entity Linking**  
+CoNLL  
+[Paper Link](https://www.semanticscholar.org/paper/399308fa54ade9b1362d56628132323489ce50cd)  
+Influential Citation Count (6), SS-ID (399308fa54ade9b1362d56628132323489ce50cd)  
+
+**ABSTRACT**  
+A typical architecture for end-to-end entity linking systems consists of three steps: mention detection, candidate generation and entity disambiguation. In this study we investigate the following questions: (a) Can all those steps be learned jointly with a model for contextualized text-representations, i.e. BERT? (b) How much entity knowledge is already contained in pretrained BERT? (c) Does additional entity knowledge improve BERT’s performance in downstream tasks? To this end we propose an extreme simplification of the entity linking setup that works surprisingly well: simply cast it as a per token classification over the entire entity vocabulary (over 700K classes in our case). We show on an entity linking benchmark that (i) this model improves the entity representations over plain BERT, (ii) that it outperforms entity linking architectures that optimize the tasks separately and (iii) that it only comes second to the current state-of-the-art that does mention detection and entity disambiguation jointly. Additionally, we investigate the usefulness of entity-aware token-representations in the text-understanding benchmark GLUE, as well as the question answering benchmarks SQUAD~V2 and SWAG and also the EN-DE WMT14 machine translation benchmark. To our surprise, we find that most of those benchmarks do not benefit from additional entity knowledge, except for a task with very small training data, the RTE task in GLUE, which improves by 2%.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 BERTは固有名詞に関する分散表現が苦手である．
@@ -344,28 +315,27 @@ Broscheit (2019) によれば，Wikipediaのentitiy linkingにおけるBERTのfi
 
 ### World Knowledge
 
-<details>
-<summary>Ettinger (2019), Da and Kasai (2019)</summary>
+{{< ci-details summary="Ettinger (2019)" >}}
+Allyson Ettinger. (2019)  
+**What BERT Is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models**  
+TACL  
+[Paper Link](https://www.semanticscholar.org/paper/a0e49f65b6847437f262c59d0d399255101d0b75)  
+Influential Citation Count (10), SS-ID (a0e49f65b6847437f262c59d0d399255101d0b75)  
 
-  > Allyson Ettinger. (2019)  
-  > **What BERT Is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models**  
-  > TACL  
-  > [Paper Link](https://www.semanticscholar.org/paper/a0e49f65b6847437f262c59d0d399255101d0b75)  
-  > Influential Citation Count (10), SS-ID (a0e49f65b6847437f262c59d0d399255101d0b75)  
-  > 
-  > **ABSTRACT**  
-  > Pre-training by language modeling has become a popular and successful approach to NLP tasks, but we have yet to understand exactly what linguistic capacities these pre-training processes confer upon models. In this paper we introduce a suite of diagnostics drawn from human language experiments, which allow us to ask targeted questions about information used by language models for generating predictions in context. As a case study, we apply these diagnostics to the popular BERT model, finding that it can generally distinguish good from bad completions involving shared category or role reversal, albeit with less sensitivity than humans, and it robustly retrieves noun hypernyms, but it struggles with challenging inference and role-based event prediction— and, in particular, it shows clear insensitivity to the contextual impacts of negation.
+**ABSTRACT**  
+Pre-training by language modeling has become a popular and successful approach to NLP tasks, but we have yet to understand exactly what linguistic capacities these pre-training processes confer upon models. In this paper we introduce a suite of diagnostics drawn from human language experiments, which allow us to ask targeted questions about information used by language models for generating predictions in context. As a case study, we apply these diagnostics to the popular BERT model, finding that it can generally distinguish good from bad completions involving shared category or role reversal, albeit with less sensitivity than humans, and it robustly retrieves noun hypernyms, but it struggles with challenging inference and role-based event prediction— and, in particular, it shows clear insensitivity to the contextual impacts of negation.
+{{< /ci-details >}}
 
-  > Jeff Da, Jungo Kasai. (2019)  
-  > **Understanding Commonsense Inference Aptitude of Deep Contextual Representations**  
-  > Proceedings of the First Workshop on Commonsense Inference in Natural Language Processing  
-  > [Paper Link](https://www.semanticscholar.org/paper/80dc7b0e6dbc26571672d9be57a0ae589689e410)  
-  > Influential Citation Count (0), SS-ID (80dc7b0e6dbc26571672d9be57a0ae589689e410)  
-  > 
-  > **ABSTRACT**  
-  > Pretrained deep contextual representations have advanced the state-of-the-art on various commonsense NLP tasks, but we lack a concrete understanding of the capability of these models. Thus, we investigate and challenge several aspects of BERT’s commonsense representation abilities. First, we probe BERT’s ability to classify various object attributes, demonstrating that BERT shows a strong ability in encoding various commonsense features in its embedding space, but is still deficient in many areas. Next, we show that, by augmenting BERT’s pretraining data with additional data related to the deficient attributes, we are able to improve performance on a downstream commonsense reasoning task while using a minimal amount of data. Finally, we develop a method of fine-tuning knowledge graphs embeddings alongside BERT and show the continued importance of explicit knowledge graphs.
- 
-</details>
+{{< ci-details summary="Da and Kasai (2019)" >}}
+Jeff Da, Jungo Kasai. (2019)  
+**Understanding Commonsense Inference Aptitude of Deep Contextual Representations**  
+Proceedings of the First Workshop on Commonsense Inference in Natural Language Processing  
+[Paper Link](https://www.semanticscholar.org/paper/80dc7b0e6dbc26571672d9be57a0ae589689e410)  
+Influential Citation Count (0), SS-ID (80dc7b0e6dbc26571672d9be57a0ae589689e410)  
+
+**ABSTRACT**  
+Pretrained deep contextual representations have advanced the state-of-the-art on various commonsense NLP tasks, but we lack a concrete understanding of the capability of these models. Thus, we investigate and challenge several aspects of BERT’s commonsense representation abilities. First, we probe BERT’s ability to classify various object attributes, demonstrating that BERT shows a strong ability in encoding various commonsense features in its embedding space, but is still deficient in many areas. Next, we show that, by augmenting BERT’s pretraining data with additional data related to the deficient attributes, we are able to improve performance on a downstream commonsense reasoning task while using a minimal amount of data. Finally, we develop a method of fine-tuning knowledge graphs embeddings alongside BERT and show the continued importance of explicit knowledge graphs.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 BERTは実用的な推論や現実のイベントなどに関する知識の扱いが不得手である．
@@ -373,37 +343,40 @@ BERTは実用的な推論や現実のイベントなどに関する知識の扱�
 BERTは抽象的な物事や見た目，感覚的な特徴などの扱いも得意ではない．
 {{< /fa-arrow-right-list >}}
 
-<details>
-<summary>Petroni et al. (2019), Roberts et al. (2020), Davison et al. (2019)</summary>
+---
 
-  > Fabio Petroni, Tim Rocktäschel, Patrick Lewis, A. Bakhtin, Yuxiang Wu, Alexander H. Miller, S. Riedel. (2019)  
-  > **Language Models as Knowledge Bases?**  
-  > EMNLP  
-  > [Paper Link](https://www.semanticscholar.org/paper/d0086b86103a620a86bc918746df0aa642e2a8a3)  
-  > Influential Citation Count (115), SS-ID (d0086b86103a620a86bc918746df0aa642e2a8a3)  
-  > 
-  > **ABSTRACT**  
-  > Recent progress in pretraining language models on large textual corpora led to a surge of improvements for downstream NLP tasks. Whilst learning linguistic knowledge, these models may also be storing relational knowledge present in the training data, and may be able to answer queries structured as “fill-in-the-blank” cloze statements. Language models have many advantages over structured knowledge bases: they require no schema engineering, allow practitioners to query about an open class of relations, are easy to extend to more data, and require no human supervision to train. We present an in-depth analysis of the relational knowledge already present (without fine-tuning) in a wide range of state-of-the-art pretrained language models. We find that (i) without fine-tuning, BERT contains relational knowledge competitive with traditional NLP methods that have some access to oracle knowledge, (ii) BERT also does remarkably well on open-domain question answering against a supervised baseline, and (iii) certain types of factual knowledge are learned much more readily than others by standard language model pretraining approaches. The surprisingly strong ability of these models to recall factual knowledge without any fine-tuning demonstrates their potential as unsupervised open-domain QA systems. The code to reproduce our analysis is available at https://github.com/facebookresearch/LAMA.
+{{< ci-details summary="Petroni et al. (2019)" >}}
+Fabio Petroni, Tim Rocktäschel, Patrick Lewis, A. Bakhtin, Yuxiang Wu, Alexander H. Miller, S. Riedel. (2019)  
+**Language Models as Knowledge Bases?**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/d0086b86103a620a86bc918746df0aa642e2a8a3)  
+Influential Citation Count (115), SS-ID (d0086b86103a620a86bc918746df0aa642e2a8a3)  
 
-  > Adam Roberts, Colin Raffel, Noam M. Shazeer. (2020)  
-  > **How Much Knowledge Can You Pack into the Parameters of a Language Model?**  
-  > EMNLP  
-  > [Paper Link](https://www.semanticscholar.org/paper/80376bdec5f534be78ba82821f540590ebce5559)  
-  > Influential Citation Count (38), SS-ID (80376bdec5f534be78ba82821f540590ebce5559)  
-  > 
-  > **ABSTRACT**  
-  > It has recently been observed that neural language models trained on unstructured text can implicitly store and retrieve knowledge using natural language queries. In this short paper, we measure the practical utility of this approach by fine-tuning pre-trained models to answer questions without access to any external context or knowledge. We show that this approach scales surprisingly well with model size and outperforms models that explicitly look up knowledge on the open-domain variants of Natural Questions and WebQuestions. To facilitate reproducibility and future work, we release our code and trained models.
+**ABSTRACT**  
+Recent progress in pretraining language models on large textual corpora led to a surge of improvements for downstream NLP tasks. Whilst learning linguistic knowledge, these models may also be storing relational knowledge present in the training data, and may be able to answer queries structured as “fill-in-the-blank” cloze statements. Language models have many advantages over structured knowledge bases: they require no schema engineering, allow practitioners to query about an open class of relations, are easy to extend to more data, and require no human supervision to train. We present an in-depth analysis of the relational knowledge already present (without fine-tuning) in a wide range of state-of-the-art pretrained language models. We find that (i) without fine-tuning, BERT contains relational knowledge competitive with traditional NLP methods that have some access to oracle knowledge, (ii) BERT also does remarkably well on open-domain question answering against a supervised baseline, and (iii) certain types of factual knowledge are learned much more readily than others by standard language model pretraining approaches. The surprisingly strong ability of these models to recall factual knowledge without any fine-tuning demonstrates their potential as unsupervised open-domain QA systems. The code to reproduce our analysis is available at https://github.com/facebookresearch/LAMA.
+{{< /ci-details >}}
 
-  > Joshua Feldman, Joe Davison, Alexander M. Rush. (2019)  
-  > **Commonsense Knowledge Mining from Pretrained Models**  
-  > EMNLP  
-  > [Paper Link](https://www.semanticscholar.org/paper/f98e135986414cccf29aec593d547c0656e4d82c)  
-  > Influential Citation Count (17), SS-ID (f98e135986414cccf29aec593d547c0656e4d82c)  
-  > 
-  > **ABSTRACT**  
-  > Inferring commonsense knowledge is a key challenge in machine learning. Due to the sparsity of training data, previous work has shown that supervised methods for commonsense knowledge mining underperform when evaluated on novel data. In this work, we develop a method for generating commonsense knowledge using a large, pre-trained bidirectional language model. By transforming relational triples into masked sentences, we can use this model to rank a triple’s validity by the estimated pointwise mutual information between the two entities. Since we do not update the weights of the bidirectional model, our approach is not biased by the coverage of any one commonsense knowledge base. Though we do worse on a held-out test set than models explicitly trained on a corresponding training set, our approach outperforms these methods when mining commonsense knowledge from new sources, suggesting that our unsupervised technique generalizes better than current supervised approaches.
+{{< ci-details summary="Roberts et al. (2020)" >}}
+Adam Roberts, Colin Raffel, Noam M. Shazeer. (2020)  
+**How Much Knowledge Can You Pack into the Parameters of a Language Model?**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/80376bdec5f534be78ba82821f540590ebce5559)  
+Influential Citation Count (38), SS-ID (80376bdec5f534be78ba82821f540590ebce5559)  
 
-</details>
+**ABSTRACT**  
+It has recently been observed that neural language models trained on unstructured text can implicitly store and retrieve knowledge using natural language queries. In this short paper, we measure the practical utility of this approach by fine-tuning pre-trained models to answer questions without access to any external context or knowledge. We show that this approach scales surprisingly well with model size and outperforms models that explicitly look up knowledge on the open-domain variants of Natural Questions and WebQuestions. To facilitate reproducibility and future work, we release our code and trained models.
+{{< /ci-details >}}
+
+{{< ci-details summary="Davison et al. (2019)" >}}
+Joshua Feldman, Joe Davison, Alexander M. Rush. (2019)  
+**Commonsense Knowledge Mining from Pretrained Models**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/f98e135986414cccf29aec593d547c0656e4d82c)  
+Influential Citation Count (17), SS-ID (f98e135986414cccf29aec593d547c0656e4d82c)  
+
+**ABSTRACT**  
+Inferring commonsense knowledge is a key challenge in machine learning. Due to the sparsity of training data, previous work has shown that supervised methods for commonsense knowledge mining underperform when evaluated on novel data. In this work, we develop a method for generating commonsense knowledge using a large, pre-trained bidirectional language model. By transforming relational triples into masked sentences, we can use this model to rank a triple’s validity by the estimated pointwise mutual information between the two entities. Since we do not update the weights of the bidirectional model, our approach is not biased by the coverage of any one commonsense knowledge base. Though we do worse on a held-out test set than models explicitly trained on a corresponding training set, our approach outperforms these methods when mining commonsense knowledge from new sources, suggesting that our unsupervised technique generalizes better than current supervised approaches.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 BERTは関係性の抽出には長けており，シンプルなBERTモデルであってもKnowledge Baseによる手法と同等の精度を発揮することができる．
@@ -415,46 +388,51 @@ Davison et al. (2020)によれば，BERTは関係性の推論に関しては汎�
 
 <img src="fig-2.png">
 
-<details>
-<summary>Forbes et al. (2019), Zhou et al. (2019), Richardson and Sabharwal (2019), Poerner et al., (2019)</summary>
+---
 
-  > Maxwell Forbes, Ari Holtzman, Yejin Choi. (2019)  
-  > **Do Neural Language Representations Learn Physical Commonsense?**  
-  > CogSci  
-  > [Paper Link](https://www.semanticscholar.org/paper/cc02386375b1262c3a1d5525154eaea24c761d15)  
-  > Influential Citation Count (3), SS-ID (cc02386375b1262c3a1d5525154eaea24c761d15)  
-  > 
-  > **ABSTRACT**  
-  > Humans understand language based on the rich background knowledge about how the physical world works, which in turn allows us to reason about the physical world through language. In addition to the properties of objects (e.g., boats require fuel) and their affordances, i.e., the actions that are applicable to them (e.g., boats can be driven), we can also reason about if-then inferences between what properties of objects imply the kind of actions that are applicable to them (e.g., that if we can drive something then it likely requires fuel). In this paper, we investigate the extent to which state-of-the-art neural language representations, trained on a vast amount of natural language text, demonstrate physical commonsense reasoning. While recent advancements of neural language models have demonstrated strong performance on various types of natural language inference tasks, our study based on a dataset of over 200k newly collected annotations suggests that neural language representations still only learn associations that are explicitly written down.
+{{< ci-details summary="Forbes et al. (2019)" >}}
+Maxwell Forbes, Ari Holtzman, Yejin Choi. (2019)  
+**Do Neural Language Representations Learn Physical Commonsense?**  
+CogSci  
+[Paper Link](https://www.semanticscholar.org/paper/cc02386375b1262c3a1d5525154eaea24c761d15)  
+Influential Citation Count (3), SS-ID (cc02386375b1262c3a1d5525154eaea24c761d15)  
 
-  > Xuhui Zhou, Yue Zhang, Leyang Cui, Dandan Huang. (2019)  
-  > **Evaluating Commonsense in Pre-trained Language Models**  
-  > AAAI  
-  > [Paper Link](https://www.semanticscholar.org/paper/01f2b214962997260020279bd1fd1f8f372249d4)  
-  > Influential Citation Count (5), SS-ID (01f2b214962997260020279bd1fd1f8f372249d4)  
-  > 
-  > **ABSTRACT**  
-  > Contextualized representations trained over large raw text data have given remarkable improvements for NLP tasks including question answering and reading comprehension. There have been works showing that syntactic, semantic and word sense knowledge are contained in such representations, which explains why they benefit such tasks. However, relatively little work has been done investigating commonsense knowledge contained in contextualized representations, which is crucial for human question answering and reading comprehension. We study the commonsense ability of GPT, BERT, XLNet, and RoBERTa by testing them on seven challenging benchmarks, finding that language modeling and its variants are effective objectives for promoting models' commonsense ability while bi-directional context and larger training set are bonuses. We additionally find that current models do poorly on tasks require more necessary inference steps. Finally, we test the robustness of models by making dual test cases, which are correlated so that the correct prediction of one sample should lead to correct prediction of the other. Interestingly, the models show confusion on these test cases, which suggests that they learn commonsense at the surface rather than the deep level. We release a test set, named CATs publicly, for future research.
+**ABSTRACT**  
+Humans understand language based on the rich background knowledge about how the physical world works, which in turn allows us to reason about the physical world through language. In addition to the properties of objects (e.g., boats require fuel) and their affordances, i.e., the actions that are applicable to them (e.g., boats can be driven), we can also reason about if-then inferences between what properties of objects imply the kind of actions that are applicable to them (e.g., that if we can drive something then it likely requires fuel). In this paper, we investigate the extent to which state-of-the-art neural language representations, trained on a vast amount of natural language text, demonstrate physical commonsense reasoning. While recent advancements of neural language models have demonstrated strong performance on various types of natural language inference tasks, our study based on a dataset of over 200k newly collected annotations suggests that neural language representations still only learn associations that are explicitly written down.
+{{< /ci-details >}}
 
-  > Kyle Richardson, Ashish Sabharwal. (2019)  
-  > **What Does My QA Model Know? Devising Controlled Probes Using Expert Knowledge**  
-  > Transactions of the Association for Computational Linguistics  
-  > [Paper Link](https://www.semanticscholar.org/paper/5a9001cdccdb8b1de227a45eccc503d32d1a2464)  
-  > Influential Citation Count (2), SS-ID (5a9001cdccdb8b1de227a45eccc503d32d1a2464)  
-  > 
-  > **ABSTRACT**  
-  > Abstract Open-domain question answering (QA) involves many knowledge and reasoning challenges, but are successful QA models actually learning such knowledge when trained on benchmark QA tasks? We investigate this via several new diagnostic tasks probing whether multiple-choice QA models know definitions and taxonomic reasoning—two skills widespread in existing benchmarks and fundamental to more complex reasoning. We introduce a methodology for automatically building probe datasets from expert knowledge sources, allowing for systematic control and a comprehensive evaluation. We include ways to carefully control for artifacts that may arise during this process. Our evaluation confirms that transformer-based multiple-choice QA models are already predisposed to recognize certain types of structural linguistic knowledge. However, it also reveals a more nuanced picture: their performance notably degrades even with a slight increase in the number of “hops” in the underlying taxonomic hierarchy, and with more challenging distractor candidates. Further, existing models are far from perfect when assessed at the level of clusters of semantically connected probes, such as all hypernym questions about a single concept.
+{{< ci-details summary="Zhou et al. (2019)" >}}
+Xuhui Zhou, Yue Zhang, Leyang Cui, Dandan Huang. (2019)  
+**Evaluating Commonsense in Pre-trained Language Models**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/01f2b214962997260020279bd1fd1f8f372249d4)  
+Influential Citation Count (5), SS-ID (01f2b214962997260020279bd1fd1f8f372249d4)  
 
-  > Nina Poerner, Ulli Waltinger, Hinrich Schütze. (2019)  
-  > **BERT is Not a Knowledge Base (Yet): Factual Knowledge vs. Name-Based Reasoning in Unsupervised QA**  
-  > ArXiv  
-  > [Paper Link](https://www.semanticscholar.org/paper/7c62ac7aedacc39ca417a48f8134e0514dc6a523)  
-  > Influential Citation Count (8), SS-ID (7c62ac7aedacc39ca417a48f8134e0514dc6a523)  
-  > 
-  > **ABSTRACT**  
-  > The BERT language model (LM) (Devlin et al., 2019) is surprisingly good at answering cloze-style questions about relational facts. Petroni et al. (2019) take this as evidence that BERT memorizes factual knowledge during pre-training. We take issue with this interpretation and argue that the performance of BERT is partly due to reasoning about (the surface form of) entity names, e.g., guessing that a person with an Italian-sounding name speaks Italian. More specifically, we show that BERT's precision drops dramatically when we filter certain easy-to-guess facts. As a remedy, we propose E-BERT, an extension of BERT that replaces entity mentions with symbolic entity embeddings. E-BERT outperforms both BERT and ERNIE (Zhang et al., 2019) on hard-to-guess queries. We take this as evidence that E-BERT is richer in factual knowledge, and we show two ways of ensembling BERT and E-BERT.
+**ABSTRACT**  
+Contextualized representations trained over large raw text data have given remarkable improvements for NLP tasks including question answering and reading comprehension. There have been works showing that syntactic, semantic and word sense knowledge are contained in such representations, which explains why they benefit such tasks. However, relatively little work has been done investigating commonsense knowledge contained in contextualized representations, which is crucial for human question answering and reading comprehension. We study the commonsense ability of GPT, BERT, XLNet, and RoBERTa by testing them on seven challenging benchmarks, finding that language modeling and its variants are effective objectives for promoting models' commonsense ability while bi-directional context and larger training set are bonuses. We additionally find that current models do poorly on tasks require more necessary inference steps. Finally, we test the robustness of models by making dual test cases, which are correlated so that the correct prediction of one sample should lead to correct prediction of the other. Interestingly, the models show confusion on these test cases, which suggests that they learn commonsense at the surface rather than the deep level. We release a test set, named CATs publicly, for future research.
+{{< /ci-details >}}
 
-</details>
+{{< ci-details summary="Richardson and Sabharwal (2019)" >}}
+Kyle Richardson, Ashish Sabharwal. (2019)  
+**What Does My QA Model Know? Devising Controlled Probes Using Expert Knowledge**  
+Transactions of the Association for Computational Linguistics  
+[Paper Link](https://www.semanticscholar.org/paper/5a9001cdccdb8b1de227a45eccc503d32d1a2464)  
+Influential Citation Count (2), SS-ID (5a9001cdccdb8b1de227a45eccc503d32d1a2464)  
+
+**ABSTRACT**  
+Abstract Open-domain question answering (QA) involves many knowledge and reasoning challenges, but are successful QA models actually learning such knowledge when trained on benchmark QA tasks? We investigate this via several new diagnostic tasks probing whether multiple-choice QA models know definitions and taxonomic reasoning—two skills widespread in existing benchmarks and fundamental to more complex reasoning. We introduce a methodology for automatically building probe datasets from expert knowledge sources, allowing for systematic control and a comprehensive evaluation. We include ways to carefully control for artifacts that may arise during this process. Our evaluation confirms that transformer-based multiple-choice QA models are already predisposed to recognize certain types of structural linguistic knowledge. However, it also reveals a more nuanced picture: their performance notably degrades even with a slight increase in the number of “hops” in the underlying taxonomic hierarchy, and with more challenging distractor candidates. Further, existing models are far from perfect when assessed at the level of clusters of semantically connected probes, such as all hypernym questions about a single concept.
+{{< /ci-details >}}
+
+{{< ci-details summary="Poerner et al. (2019)" >}}
+Nina Poerner, Ulli Waltinger, Hinrich Schütze. (2019)  
+**BERT is Not a Knowledge Base (Yet): Factual Knowledge vs. Name-Based Reasoning in Unsupervised QA**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/7c62ac7aedacc39ca417a48f8134e0514dc6a523)  
+Influential Citation Count (8), SS-ID (7c62ac7aedacc39ca417a48f8134e0514dc6a523)  
+
+**ABSTRACT**  
+The BERT language model (LM) (Devlin et al., 2019) is surprisingly good at answering cloze-style questions about relational facts. Petroni et al. (2019) take this as evidence that BERT memorizes factual knowledge during pre-training. We take issue with this interpretation and argue that the performance of BERT is partly due to reasoning about (the surface form of) entity names, e.g., guessing that a person with an Italian-sounding name speaks Italian. More specifically, we show that BERT's precision drops dramatically when we filter certain easy-to-guess facts. As a remedy, we propose E-BERT, an extension of BERT that replaces entity mentions with symbolic entity embeddings. E-BERT outperforms both BERT and ERNIE (Zhang et al., 2019) on hard-to-guess queries. We take this as evidence that E-BERT is richer in factual knowledge, and we show two ways of ensembling BERT and E-BERT.
+{{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
 BERTはWorld Knowledgeに関する因果推論を行うことはできない．

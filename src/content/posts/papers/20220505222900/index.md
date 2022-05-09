@@ -4,7 +4,7 @@ title: "Dense Passage Retrieval for Open-Domain Question Answering"
 date: 2022-05-05
 author: "akitenkrad"
 description: ""
-tags: ["Round-1", "Question Answering", "Dual Encoder", "BERT", "Extractive MRC", "SQuAD", "Natural Questions", "TriviaQA", "WebQuestions", "TREC"]
+tags: ["Round-1", "2020", "Question Answering", "Dual Encoder", "BERT", "Extractive MRC", "SQuAD", "Natural Questions", "TriviaQA", "WebQuestions", "TREC"]
 menu:
   sidebar:
     name: 2022.05.05
@@ -405,7 +405,11 @@ TREC
 Influential Citation Count (157), SS-ID (646d4888871aca2a25111eb2520e4c47e253b014)  
 
 **ABSTRACT**  
-The TREC-8 Question Answering track was the first large-scale evaluation of domain-independent question answering systems. This paper summarizes the results of the track by giving a brief overview of the different approaches taken to solve the problem. The most accurate systems found a correct response for more than 2/3 of the questions. Relatively simple bag-of-words approaches were adequate for finding answers when responses could be as long as a paragraph (250 bytes), but more sophisticated processing was necessary for more direct responses (50 bytes).  The TREC-8 Question Answering track was an initial eort to bring the benets of large-scale evaluation to bear on a question answering (QA) task. The goal in the QA task is to retrieve small snippets of text that contain the actual answer to a question rather than the document lists traditionally returned by text retrieval systems. The assumption is that users would usually prefer to be given the answer rather than and the answer themselves in a document.  This paper summarizes the retrieval results of the track; a companion paper (\The TREC-8 Question Answering Track Evaluation") gives details about how the evaluation was implemented. By necessity, a track report can give only an overview of the different approaches used in the track. Readers are urged to consult the participants' papers elsewhere in the Proceedings for details regarding a particular approach.
+The TREC-8 Question Answering track was the first large-scale evaluation of domain-independent question answering systems. This paper summarizes the results of the track by giving a brief overview of the different approaches taken to solve the problem. The most accurate systems found a correct response for more than 2/3 of the questions. Relatively simple bag-of-words approaches were adequate for finding answers when responses could be as long as a paragraph (250 bytes), but more sophisticated processing was necessary for more direct responses (50 bytes).
+ 
+ The TREC-8 Question Answering track was an initial eort to bring the benets of large-scale evaluation to bear on a question answering (QA) task. The goal in the QA task is to retrieve small snippets of text that contain the actual answer to a question rather than the document lists traditionally returned by text retrieval systems. The assumption is that users would usually prefer to be given the answer rather than and the answer themselves in a document.
+ 
+ This paper summarizes the retrieval results of the track; a companion paper (\The TREC-8 Question Answering Track Evaluation") gives details about how the evaluation was implemented. By necessity, a track report can give only an overview of the different approaches used in the track. Readers are urged to consult the participants' papers elsewhere in the Proceedings for details regarding a particular approach.
 
 {{< /ci-details >}}
 
