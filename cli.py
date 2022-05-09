@@ -55,7 +55,7 @@ math: true
 
 """
 
-    new_post_path = Path(f"src/content/posts/{datetime.now().strftime('%Y%m%d%H%M%S')}/index.md")
+    new_post_path = Path(f"src/content/posts/papers/{datetime.now().strftime('%Y%m%d%H%M%S')}/index.md")
     new_post_path.parent.mkdir(parents=True, exist_ok=True)
     with open(new_post_path, mode="wt", encoding="utf-8") as wf:
         wf.write(meta_text)

@@ -1,0 +1,32 @@
+<style>
+    .definition-box {
+        position: relative;
+        margin: 2em 0;
+        padding: 0.5em 1em;
+        border: solid 3px #585858;
+        border-radius: 8px;
+    }
+
+    .definition-box .box-title {
+        position: absolute;
+        display: inline-block;
+        top: -13px;
+        left: 10px;
+        padding: 0 9px;
+        line-height: 1;
+        font-size: 19px;
+        background: #fafafc;
+        color: #585858;
+        font-weight: bold;
+    }
+
+    .definition-box p {
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<div class="definition-box">
+    <span class="box-title">{{ .Get "title" }}</span>
+    <p>{{ .Inner }}</p>
+</div>

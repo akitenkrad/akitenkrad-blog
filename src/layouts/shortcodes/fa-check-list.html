@@ -1,0 +1,28 @@
+<style>
+    ul.fa-check-list {
+        padding: 0.5em 1em 0.5em 2.3em;
+        position: relative;
+    }
+
+    ul.fa-check-list li.fa-arrow-right-list {
+        line-height: 1.5;
+        padding: 0.5em 0;
+        list-style-type: none !important;
+    }
+
+    li.fa-check-list:before {
+        font: var(--fa-font-solid);
+        content: "\f14a";
+        position: absolute;
+        padding-top: 5pt;
+        left: 1em;
+        color: rgb(0, 159, 53);
+        background: #fafafc
+    }
+</style>
+
+<ul class="fa-check-list">
+    {{ range $idx, $val := split .Inner "---" }}
+    <li class="fa-check-list">{{ $val | markdownify }}</li>
+    {{ end }}
+</ul>

@@ -9,6 +9,14 @@
 <!--================= custom style overrides =========================-->
 <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
 
+<!--================= open link in a new tab =========================-->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script language="JavaScript">
+$(document).ready( function () {
+   $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+})
+</script>
+
 {{ end }}
 
 {{ define "navbar" }}

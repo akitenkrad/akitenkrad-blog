@@ -56,6 +56,9 @@ params:
     inverted: "images/avatar.png"
     favicon: "images/favicons/favicon-96x96.png"
 
+  # Strength Finder
+  enableStrengthFinder: true
+
 outputs:
   home:
     - HTML

@@ -1,0 +1,106 @@
+<style>
+    blockquote.citation {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        position: relative;
+        padding: 7px 16px;
+        box-sizing: border-box;
+        font-style: italic;
+        color: #585858;
+        border: solid 3px #585858;
+    }
+
+    blockquote.citation:before {
+        padding-top: 6px;
+        display: inline-block;
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        font: var(--fa-font-solid);
+        content: "\f10d";
+        background: #585858;
+        color: #FFF;
+        font-size: 28px;
+    }
+
+    blockquote.citation:after {
+        padding-top: 6px;
+        display: inline-block;
+        position: absolute;
+        bottom: -20px;
+        right: -20px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        font: var(--fa-font-solid);
+        content: "\f10e";
+        background: #585858;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 900;
+    }
+
+    blockquote.citation p.citation {
+        padding: 0;
+        margin: 10px 0;
+        margin-left: 1.5rem;
+        line-height: 1.7;
+    }
+
+    blockquote.citation cite {
+        display: block;
+        text-align: right;
+        color: #888888;
+        font-size: 0.9em;
+    }
+
+    summary.details-summary {
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    summary:hover {
+        cursor: pointer;
+        background-color: #ebf0f5;
+    }
+
+    details.details-summary {
+        margin-top: 0.25rem;
+    }
+
+    details.details-summary[open] .details-summary-content {
+        animation: fadeIn 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            /* 透明 */
+            transform: translateY(-10px);
+            /* 上から表示 */
+        }
+
+        100% {
+            opacity: 1;
+            transform: none;
+        }
+    }
+</style>
+
+<details class="details-summary">
+    <summary class="details=summary">{{ .Get "summary" }}</summary>
+    <div class="details-summary-content">
+        <blockquote class="citation">
+            <p class="citation">
+                {{ .Inner | markdownify }}
+            </p class="citation">
+        </blockquote>
+    </div>
+</details>

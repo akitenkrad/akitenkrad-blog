@@ -50,3 +50,36 @@ badges:
   name: Web Application
   percentage: 70
   color: pink
+
+# StrengthFinder
+strength:
+  s1:
+    name: "Lerner"
+    type: "strategic-thinking"
+  s2:
+    name: "Individualization"
+    type: "relationship-building"
+  s3:
+    name: "Strategic"
+    type: "strategic-thinking"
+  s4:
+    name: "Achiever"
+    type: "executing"
+  s5:
+    name: "Maximizer"
+    type: "influencing"
+  s6:
+    name: "Ideation"
+    type: "strategic-thinking"
+  s7:
+    name: "Empathy"
+    type: "relationship-building"
+  s8:
+    name: "Responsibility"
+    type: "executing"
+  s9:
+    name: "Intellection"
+    type: "strategic-thinking"
+  s10:
+    name: "Connectedness"
+    type: "relationship-building"

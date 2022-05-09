@@ -169,20 +169,26 @@ class Paper(object):
         return Paper(**kwargs)
 
     def print_citation(self):
+        author_text = ""
+        if len(self.authors) == 1:
+            author_text = self.authors[0].name.replace('"', "'")
+        elif len(self.authors) > 1:
+            author_text = self.authors[0].name.replace('"', "'") + " et al."
+        title = self.title.replace('"', "'")
+
         citation = [
-            "<details>",
-            f"  <summary>{self.title}</summary>",
+            f'{{{{< ci-details summary="{title} ({author_text}, {self.year})">}}}}',
             "",
-            "  > " + ", ".join([author.name for author in self.authors]) + f". ({self.year})  ",
-            "  > " + f"**{self.title}**  ",
-            "  > " + self.venue + "  ",
-            "  > " + f"[Paper Link]({self.url})" + "  ",
-            "  > " + f"Influential Citation Count ({self.influential_citation_count}), SS-ID ({self.paper_id})  ",
-            "  > ",
-            "  > **ABSTRACT**  ",
-            "  > " + self.abstract,
+            ", ".join([author.name for author in self.authors]) + f". ({self.year})  ",
+            f"**{title}**  ",
+            self.venue + "  ",
+            f"[Paper Link]({self.url})" + "  ",
+            f"Influential Citation Count ({self.influential_citation_count}), SS-ID ({self.paper_id})  ",
             "",
-            "</details>",
+            "**ABSTRACT**  ",
+            "" + self.abstract.replace(os.linesep, " "),
+            "",
+            "{{< /ci-details >}}",
         ]
         print(os.linesep.join(citation))
 
