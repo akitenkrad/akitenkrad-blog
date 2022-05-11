@@ -13,3 +13,5 @@ services:
     environment:
       TZ: Asia/Tokyo
     working_dir: /workplace
+    ports:
+      - 1313:1313

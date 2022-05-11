@@ -35,6 +35,33 @@ PeerJ Computer Science, 7, 1–62.
 
 ## What's New
 
+#### Past Reviews
+
+---
+
+Node Classification，Link Prediction に関するシンプルなレビュー
+
+{{< ci-details summary="Learning network representations (L. G. Moyano, 2017)">}}
+L. G. Moyano. (2017)  
+**Learning network representations**  
+[Paper Link](https://www.semanticscholar.org/paper/51a748c8d7b780c2bb863a2259598a3a216330f1)  
+Influential Citation Count (0), SS-ID (51a748c8d7b780c2bb863a2259598a3a216330f1)  
+**ABSTRACT**  
+Abstract In this review I present several representation learning methods, and discuss the latest advancements with emphasis in applications to network science. Representation learning is a set of techniques that has the goal of efficiently mapping data structures into convenient latent spaces. Either for dimensionality reduction or for gaining semantic content, this type of feature embeddings has demonstrated to be useful, for example, for node classification or link prediction tasks, among many other relevant applications to networks. I provide a description of the state-of-the-art of network representation learning as well as a detailed account of the connections with other fields of study such as continuous word embeddings and deep learning architectures. Finally, I provide a broad view of several applications of these techniques to networks in various domains. 
+{{< /ci-details >}}
+
+{{< ci-details summary="Representation Learning on Graphs: Methods and Applications (William L. Hamilton et al., 2017)">}}
+William L. Hamilton, Rex Ying, J. Leskovec. (2017)  
+**Representation Learning on Graphs: Methods and Applications**  
+IEEE Data Eng. Bull.  
+[Paper Link](https://www.semanticscholar.org/paper/ecf6c42d84351f34e1625a6a2e4cc6526da45c74)  
+Influential Citation Count (140), SS-ID (ecf6c42d84351f34e1625a6a2e4cc6526da45c74)  
+**ABSTRACT**  
+Machine learning on graphs is an important and ubiquitous task with applications ranging from drug design to friendship recommendation in social networks. The primary challenge in this domain is finding a way to represent, or encode, graph structure so that it can be easily exploited by machine learning models. Traditionally, machine learning approaches relied on user-defined heuristics to extract features encoding structural information about a graph (e.g., degree statistics or kernel functions). However, recent years have seen a surge in approaches that automatically learn to encode graph structure into low-dimensional embeddings, using techniques based on deep learning and nonlinear dimensionality reduction. Here we provide a conceptual review of key advancements in this area of representation learning on graphs, including matrix factorization-based methods, random-walk based algorithms, and graph neural networks. We review methods to embed individual nodes as well as approaches to embed entire (sub)graphs. In doing so, we develop a unified framework to describe these recent approaches, and we highlight a number of important applications and directions for future work.
+{{< /ci-details >}}
+
+---
+
 - 既存レビューと本稿との違いについて ← INTRODUCTION
 
 ## Preliminaries
