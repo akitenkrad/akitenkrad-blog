@@ -195,14 +195,14 @@ BERTはClozeタスクにおいて，主語-述語の関係を加味しながら�
 ---
 
 {{< ci-details summary="Warstadt et al. (2019)" >}}
-Alex Warstadt, Samuel R. Bowman. (2020)  
-**Can neural networks acquire a structural bias from raw linguistic data?**  
-CogSci  
-[Paper Link](https://www.semanticscholar.org/paper/0e012c2bd18236445cfbc6e3e409eb02df4691fe)  
-Influential Citation Count (3), SS-ID (0e012c2bd18236445cfbc6e3e409eb02df4691fe)  
+Alex Warstadt, Yuning Cao, Ioana Grosu, Wei Peng, Hagen Blix, Yining Nie, Anna Alsop, Shikha Bordia, Haokun Liu, Alicia Parrish, Sheng-Fu Wang, Jason Phang, Anhad Mohananey, Phu Mon Htut, Paloma Jeretic, Samuel R. Bowman. (2019)  
+**Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/3cd331c997e90f737810aad6fcce4d993315189f)  
+Influential Citation Count (4), SS-ID (3cd331c997e90f737810aad6fcce4d993315189f)  
 
 **ABSTRACT**  
-We evaluate whether BERT, a widely used neural network for sentence processing, acquires an inductive bias towards forming structural generalizations through pretraining on raw data. We conduct four experiments testing its preference for structural vs. linear generalizations in different structure-dependent phenomena. We find that BERT makes a structural generalization in 3 out of 4 empirical domains---subject-auxiliary inversion, reflexive binding, and verb tense detection in embedded clauses---but makes a linear generalization when tested on NPI licensing. We argue that these results are the strongest evidence so far from artificial learners supporting the proposition that a structural bias can be acquired from raw data. If this conclusion is correct, it is tentative evidence that some linguistic universals can be acquired by learners without innate biases. However, the precise implications for human language acquisition are unclear, as humans learn language from significantly less data than BERT.
+Though state-of-the-art sentence representation models can perform tasks requiring significant knowledge of grammar, it is an open question how best to evaluate their grammatical knowledge. We explore five experimental methods inspired by prior work evaluating pretrained sentence representation models. We use a single linguistic phenomenon, negative polarity item (NPI) licensing, as a case study for our experiments. NPIs like any are grammatical only if they appear in a licensing environment like negation (Sue doesn’t have any cats vs. *Sue has any cats). This phenomenon is challenging because of the variety of NPI licensing environments that exist. We introduce an artificially generated dataset that manipulates key features of NPI licensing for the experiments. We find that BERT has significant knowledge of these features, but its success varies widely across different experimental methods. We conclude that a variety of methods is necessary to reveal all relevant aspects of a model’s grammatical knowledge in a given domain.  
 {{< /ci-details >}}
 
 {{< fa-arrow-right-list >}}
@@ -443,6 +443,75 @@ BERTのWorld Knowledgeに関する成功は，現実世界のステレオタイ�
 {{< /fa-arrow-right-list >}}
 
 ## Limitations
+
+{{< ci-details summary="Tenney et al. (2019)" >}}
+Ian Tenney, Dipanjan Das, Ellie Pavlick. (2019)  
+**BERT Rediscovers the Classical NLP Pipeline**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/97906df07855b029b7aae7c2a1c6c5e8df1d531c)  
+Influential Citation Count (59), SS-ID (97906df07855b029b7aae7c2a1c6c5e8df1d531c)  
+
+**ABSTRACT**  
+Pre-trained text encoders have rapidly advanced the state of the art on many NLP tasks. We focus on one such model, BERT, and aim to quantify where linguistic information is captured within the network. We find that the model represents the steps of the traditional NLP pipeline in an interpretable and localizable way, and that the regions responsible for each step appear in the expected sequence: POS tagging, parsing, NER, semantic roles, then coreference. Qualitative analysis reveals that the model can and often does adjust this pipeline dynamically, revising lower-level decisions on the basis of disambiguating information from higher-level representations.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+BERTモデルの深掘りによって文法的・意味的な特徴がモデルから見つからなかったということは，必ずしもBERTモデルがそれらの特徴を持っていないということを意味しているわけではない．
+---
+よりよりモデルの調査方法が見つかれば，実はモデルがそれらの特徴を保持していたという事実が見つかる可能性は常にある．
+{{< /fa-arrow-right-list >}}
+
+{{< ci-details summary="Warstadt et al. (2019)">}}
+Alex Warstadt, Yuning Cao, Ioana Grosu, Wei Peng, Hagen Blix, Yining Nie, Anna Alsop, Shikha Bordia, Haokun Liu, Alicia Parrish, Sheng-Fu Wang, Jason Phang, Anhad Mohananey, Phu Mon Htut, Paloma Jeretic, Samuel R. Bowman. (2019)  
+**Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/3cd331c997e90f737810aad6fcce4d993315189f)  
+Influential Citation Count (4), SS-ID (3cd331c997e90f737810aad6fcce4d993315189f)  
+
+**ABSTRACT**  
+Though state-of-the-art sentence representation models can perform tasks requiring significant knowledge of grammar, it is an open question how best to evaluate their grammatical knowledge. We explore five experimental methods inspired by prior work evaluating pretrained sentence representation models. We use a single linguistic phenomenon, negative polarity item (NPI) licensing, as a case study for our experiments. NPIs like any are grammatical only if they appear in a licensing environment like negation (Sue doesn’t have any cats vs. *Sue has any cats). This phenomenon is challenging because of the variety of NPI licensing environments that exist. We introduce an artificially generated dataset that manipulates key features of NPI licensing for the experiments. We find that BERT has significant knowledge of these features, but its success varies widely across different experimental methods. We conclude that a variety of methods is necessary to reveal all relevant aspects of a model’s grammatical knowledge in a given domain.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+モデルの調査方法によっては，互いを補完するような結果が出ることもあれば，全く矛盾する結果が出てくることもある．
+---
+また，一口にBERTと言っても多くの亜種が開発されているので，どのモデルを優先的に調査するかによって結果が変わってくる．
+---
+一つの解決策は "BERT" モデルに注目して，BERTが何に依拠して推論を実施しているのかを明らかにすることである．
+{{< /fa-arrow-right-list >}}
+
+{{< ci-details summary="Pimentel et al. (2020)" >}}
+Tiago Pimentel, Josef Valvoda, Rowan Hall Maudslay, Ran Zmigrod, Adina Williams, Ryan Cotterell. (2020)  
+**Information-Theoretic Probing for Linguistic Structure**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/738c6d664aa6c3854e1aa894957bd595f621fc42)  
+Influential Citation Count (16), SS-ID (738c6d664aa6c3854e1aa894957bd595f621fc42)  
+
+**ABSTRACT**  
+The success of neural networks on a diverse set of NLP tasks has led researchers to question how much these networks actually “know” about natural language. Probes are a natural way of assessing this. When probing, a researcher chooses a linguistic task and trains a supervised model to predict annotations in that linguistic task from the network’s learned representations. If the probe does well, the researcher may conclude that the representations encode knowledge related to the task. A commonly held belief is that using simpler models as probes is better; the logic is that simpler models will identify linguistic structure, but not learn the task itself. We propose an information-theoretic operationalization of probing as estimating mutual information that contradicts this received wisdom: one should always select the highest performing probe one can, even if it is more complex, since it will result in a tighter estimate, and thus reveal more of the linguistic information inherent in the representation. The experimental portion of our paper focuses on empirically estimating the mutual information between a linguistic property and BERT, comparing these estimates to several baselines. We evaluate on a set of ten typologically diverse languages often underrepresented in NLP research—plus English—totalling eleven languages. Our implementation is available in https://github.com/rycolab/info-theoretic-probing.
+{{< /ci-details >}}
+
+{{< ci-details summary="Voita and Titov (2020)" >}}
+Elena Voita, Ivan Titov. (2020)  
+**Information-Theoretic Probing with Minimum Description Length**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/f4b585c9a79dfce0807b445a09036ea0f9cbcdce)  
+Influential Citation Count (13), SS-ID (f4b585c9a79dfce0807b445a09036ea0f9cbcdce)  
+
+**ABSTRACT**  
+To measure how well pretrained representations encode some linguistic property, it is common to use accuracy of a probe, i.e. a classifier trained to predict the property from the representations. Despite widespread adoption of probes, differences in their accuracy fail to adequately reflect differences in representations. For example, they do not substantially favour pretrained representations over randomly initialized ones. Analogously, their accuracy can be similar when probing for genuine linguistic labels and probing for random synthetic tasks. To see reasonable differences in accuracy with respect to these random baselines, previous work had to constrain either the amount of probe training data or its model size. Instead, we propose an alternative to the standard probes, information-theoretic probing with minimum description length (MDL). With MDL probing, training a probe to predict labels is recast as teaching it to effectively transmit the data. Therefore, the measure of interest changes from probe accuracy to the description length of labels given representations. In addition to probe quality, the description length evaluates "the amount of effort" needed to achieve the quality. This amount of effort characterizes either (i) size of a probing model, or (ii) the amount of data needed to achieve the high quality. We consider two methods for estimating MDL which can be easily implemented on top of the standard probing pipelines: variational coding and online coding. We show that these methods agree in results and are more informative and stable than the standard probes.
+{{< /ci-details >}}
+
+
+{{< fa-arrow-right-list >}}
+今一つの方向性は，情報理論によるモデル内部の調査である．
+---
+Pimentel et al. (2020)では，言語情報が与えられたときにモデルがどのような分散表現を学習するのかということに関して，相互情報量を推定するアプローチをとっている．
+---
+相互情報量アプローチでは，分散表現に含まれる情報の量よりも，情報をどの程度簡単に抽出できるか，ということに主眼が置かれた．
+---
+Voita and Titov (2020)では，モデルの分散表現から情報を取り出す場合にどの程度の労力が必要なのかを定量化している．
+{{< /fa-arrow-right-list >}}
 
 ## Localizing Linguistic Knowledge
 
