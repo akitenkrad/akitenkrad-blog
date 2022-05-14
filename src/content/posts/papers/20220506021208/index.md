@@ -1057,6 +1057,202 @@ Clark et al. (2019)では，これらのspecial tokensはある種の`no-op`的�
 
 ### BERT Layers
 
+BERTの最初のレイヤはトークン，セグメント，単語の位置情報のEmbeddingを入力として受け取る．
+
+---
+
+{{< ci-details summary="Lin et al. (2019)" >}}
+Yongjie Lin, Y. Tan, R. Frank. (2019)  
+**Open Sesame: Getting inside BERT’s Linguistic Knowledge**  
+BlackboxNLP@ACL  
+[Paper Link](https://www.semanticscholar.org/paper/165d51a547cd920e6ac55660ad5c404dcb9562ed)  
+Influential Citation Count (18), SS-ID (165d51a547cd920e6ac55660ad5c404dcb9562ed)  
+
+**ABSTRACT**  
+How and to what extent does BERT encode syntactically-sensitive hierarchical information or positionally-sensitive linear information? Recent work has shown that contextual representations like BERT perform well on tasks that require sensitivity to linguistic structure. We present here two studies which aim to provide a better understanding of the nature of BERT’s representations. The first of these focuses on the identification of structurally-defined elements using diagnostic classifiers, while the second explores BERT’s representation of subject-verb agreement and anaphor-antecedent dependencies through a quantitative assessment of self-attention vectors. In both cases, we find that BERT encodes positional information about word tokens well on its lower layers, but switches to a hierarchically-oriented encoding on higher layers. We conclude then that BERT’s representations do indeed model linguistically relevant aspects of hierarchical structure, though they do not appear to show the sharp sensitivity to hierarchical structure that is found in human processing of reflexive anaphora.
+{{</ ci-details >}}
+
+{{< fa-arrow-right-list >}}
+最初の方のレイヤは単語の語順に関して最も情報を保持している．
+---
+Lin et al. (2019)によれば，語順に関する情報はBERT-baseモデルでは4番目のレイヤあたりで減衰し始める．それに伴って文章の階層的な構造に関する情報が増えていく．これらはトークンのインデックスや助動詞，文章の主語を予測するタスクから明らかになっている．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Hewitt and Manning (2019)" >}}
+John Hewitt, Christopher D. Manning. (2019)  
+**A Structural Probe for Finding Syntax in Word Representations**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/455a8838cde44f288d456d01c76ede95b56dc675)  
+Influential Citation Count (30), SS-ID (455a8838cde44f288d456d01c76ede95b56dc675)  
+
+**ABSTRACT**  
+Recent work has improved our ability to detect linguistic knowledge in word representations. However, current methods for detecting syntactic knowledge do not test whether syntax trees are represented in their entirety. In this work, we propose a structural probe, which evaluates whether syntax trees are embedded in a linear transformation of a neural network’s word representation space. The probe identifies a linear transformation under which squared L2 distance encodes the distance between words in the parse tree, and one in which squared L2 norm encodes depth in the parse tree. Using our probe, we show that such transformations exist for both ELMo and BERT but not in baselines, providing evidence that entire syntax trees are embedded implicitly in deep models’ vector geometry.
+{{< /ci-details >}}
+
+{{< ci-details summary="Goldberg (2019)" >}}
+Yoav Goldberg. (2019)  
+**Assessing BERT's Syntactic Abilities**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/efeab0dcdb4c1cce5e537e57745d84774be99b9a)  
+Influential Citation Count (17), SS-ID (efeab0dcdb4c1cce5e537e57745d84774be99b9a)  
+
+**ABSTRACT**  
+I assess the extent to which the recently introduced BERT model captures English syntactic phenomena, using (1) naturally-occurring subject-verb agreement stimuli; (2) "coloreless green ideas" subject-verb agreement stimuli, in which content words in natural sentences are randomly replaced with words sharing the same part-of-speech and inflection; and (3) manually crafted stimuli for subject-verb agreement and reflexive anaphora phenomena. The BERT model performs remarkably well on all cases.
+{{< /ci-details >}}
+
+{{< ci-details summary="Jawahar et al. (2019)" >}}
+Ganesh Jawahar, Benoît Sagot, Djamé Seddah. (2019)  
+**What Does BERT Learn about the Structure of Language?**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/335613303ebc5eac98de757ed02a56377d99e03a)  
+Influential Citation Count (44), SS-ID (335613303ebc5eac98de757ed02a56377d99e03a)  
+
+**ABSTRACT**  
+BERT is a recent language representation model that has surprisingly performed well in diverse language understanding benchmarks. This result indicates the possibility that BERT networks capture structural information about language. In this work, we provide novel support for this claim by performing a series of experiments to unpack the elements of English language structure learned by BERT. Our findings are fourfold. BERT’s phrasal representation captures the phrase-level information in the lower layers. The intermediate layers of BERT compose a rich hierarchy of linguistic information, starting with surface features at the bottom, syntactic features in the middle followed by semantic features at the top. BERT requires deeper layers while tracking subject-verb agreement to handle long-term dependency problem. Finally, the compositional scheme underlying BERT mimics classical, tree-like structures.
+{{< /ci-details >}}
+
+{{< ci-details summary="Liu et al (2019)" >}}
+Nelson F. Liu, Matt Gardner, Y. Belinkov, Matthew E. Peters, Noah A. Smith. (2019)  
+**Linguistic Knowledge and Transferability of Contextual Representations**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
+Influential Citation Count (108), SS-ID (f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
+
+**ABSTRACT**  
+Contextual word representations derived from large-scale neural language models are successful across a diverse set of NLP tasks, suggesting that they encode useful and transferable features of language. To shed light on the linguistic knowledge they capture, we study the representations produced by several recent pretrained contextualizers (variants of ELMo, the OpenAI transformer language model, and BERT) with a suite of sixteen diverse probing tasks. We find that linear models trained on top of frozen contextual representations are competitive with state-of-the-art task-specific models in many cases, but fail on tasks requiring fine-grained linguistic knowledge (e.g., conjunct identification). To investigate the transferability of contextual word representations, we quantify differences in the transferability of individual layers within contextualizers, especially between recurrent neural networks (RNNs) and transformers. For instance, higher layers of RNNs are more task-specific, while transformer layers do not exhibit the same monotonic trend. In addition, to better understand what makes contextual word representations transferable, we compare language model pretraining with eleven supervised pretraining tasks. For any given task, pretraining on a closely related task yields better performance than language model pretraining (which is better on average) when the pretraining dataset is fixed. However, language model pretraining on more data gives the best results.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+文法に関する情報がBERTの中間レイヤで最も顕著に見られるということは，多くの研究が明らかにしているところである．
+---
+Hewitt and Manning (2019)ではBERTの中間レイヤから文法ツリーを再構築することに最も成功した研究である（BERT-base: 6-9，BERT-large: 14-19）．
+---
+Goldberg (2019)は主語と動詞の対応関係が8-9レイヤ付近で最も顕著に捉えられているということを報告している．
+---
+Jawahar et al. (2019)においても同様に文法に関するタスクでモデルの中間レイヤを使用することで最も精度が高くなることがわかっている．
+---
+BERTの中間層において文法的な情報が顕著に見られるという事実と関連する研究として，Liu et al. (2019)ではTransformerの中間レイヤが最も他のタスクに転用しやすいレイヤであるということが発見された．
+{{< /fa-arrow-right-list >}}
+
+<img src="fig-4.png" />
+
+---
+
+上記の主張とは矛盾する研究もある．
+
+{{< ci-details summary="Tenney et al. (2019)" >}}
+Ian Tenney, Dipanjan Das, Ellie Pavlick. (2019)  
+**BERT Rediscovers the Classical NLP Pipeline**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/97906df07855b029b7aae7c2a1c6c5e8df1d531c)  
+Influential Citation Count (59), SS-ID (97906df07855b029b7aae7c2a1c6c5e8df1d531c)  
+
+**ABSTRACT**  
+Pre-trained text encoders have rapidly advanced the state of the art on many NLP tasks. We focus on one such model, BERT, and aim to quantify where linguistic information is captured within the network. We find that the model represents the steps of the traditional NLP pipeline in an interpretable and localizable way, and that the regions responsible for each step appear in the expected sequence: POS tagging, parsing, NER, semantic roles, then coreference. Qualitative analysis reveals that the model can and often does adjust this pipeline dynamically, revising lower-level decisions on the basis of disambiguating information from higher-level representations.
+{{< /ci-details >}}
+
+{{< ci-details summary="Jawahar et al. (2019)" >}}
+Ganesh Jawahar, Benoît Sagot, Djamé Seddah. (2019)  
+**What Does BERT Learn about the Structure of Language?**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/335613303ebc5eac98de757ed02a56377d99e03a)  
+Influential Citation Count (44), SS-ID (335613303ebc5eac98de757ed02a56377d99e03a)  
+
+**ABSTRACT**  
+BERT is a recent language representation model that has surprisingly performed well in diverse language understanding benchmarks. This result indicates the possibility that BERT networks capture structural information about language. In this work, we provide novel support for this claim by performing a series of experiments to unpack the elements of English language structure learned by BERT. Our findings are fourfold. BERT’s phrasal representation captures the phrase-level information in the lower layers. The intermediate layers of BERT compose a rich hierarchy of linguistic information, starting with surface features at the bottom, syntactic features in the middle followed by semantic features at the top. BERT requires deeper layers while tracking subject-verb agreement to handle long-term dependency problem. Finally, the compositional scheme underlying BERT mimics classical, tree-like structures.
+{{< /ci-details >}}
+
+{{< ci-details summary="Liu et al (2019)" >}}
+Nelson F. Liu, Matt Gardner, Y. Belinkov, Matthew E. Peters, Noah A. Smith. (2019)  
+**Linguistic Knowledge and Transferability of Contextual Representations**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
+Influential Citation Count (108), SS-ID (f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
+
+**ABSTRACT**  
+Contextual word representations derived from large-scale neural language models are successful across a diverse set of NLP tasks, suggesting that they encode useful and transferable features of language. To shed light on the linguistic knowledge they capture, we study the representations produced by several recent pretrained contextualizers (variants of ELMo, the OpenAI transformer language model, and BERT) with a suite of sixteen diverse probing tasks. We find that linear models trained on top of frozen contextual representations are competitive with state-of-the-art task-specific models in many cases, but fail on tasks requiring fine-grained linguistic knowledge (e.g., conjunct identification). To investigate the transferability of contextual word representations, we quantify differences in the transferability of individual layers within contextualizers, especially between recurrent neural networks (RNNs) and transformers. For instance, higher layers of RNNs are more task-specific, while transformer layers do not exhibit the same monotonic trend. In addition, to better understand what makes contextual word representations transferable, we compare language model pretraining with eleven supervised pretraining tasks. For any given task, pretraining on a closely related task yields better performance than language model pretraining (which is better on average) when the pretraining dataset is fixed. However, language model pretraining on more data gives the best results.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+Tenney et al. (2019)では，BERTの前半のレイヤでは基本的な文法に関する情報が保持され，後半のレイヤになるほどハイレベルな意味の特徴を捉える傾向が見られると結論づけられている．
+---
+Jawahar et al. (2019)においても，モデルの最初の方のレイヤはchunkingなどの処理に，中間レイヤはパースなどの処理に有用であると報告されている．
+---
+一方，Liu et al. (2019)では，POS-taggingやchunkingなどのタスクは中間層を用いることで最も精度が良くなると報告されている．
+---
+このように研究によって結論がばらついているが，これらの研究は同じデータセット，パラメータで実験されているわけではないため，単純に横並びで比較することはできない．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Liu et al (2019)" >}}
+Nelson F. Liu, Matt Gardner, Y. Belinkov, Matthew E. Peters, Noah A. Smith. (2019)  
+**Linguistic Knowledge and Transferability of Contextual Representations**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
+Influential Citation Count (108), SS-ID (f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
+
+**ABSTRACT**  
+Contextual word representations derived from large-scale neural language models are successful across a diverse set of NLP tasks, suggesting that they encode useful and transferable features of language. To shed light on the linguistic knowledge they capture, we study the representations produced by several recent pretrained contextualizers (variants of ELMo, the OpenAI transformer language model, and BERT) with a suite of sixteen diverse probing tasks. We find that linear models trained on top of frozen contextual representations are competitive with state-of-the-art task-specific models in many cases, but fail on tasks requiring fine-grained linguistic knowledge (e.g., conjunct identification). To investigate the transferability of contextual word representations, we quantify differences in the transferability of individual layers within contextualizers, especially between recurrent neural networks (RNNs) and transformers. For instance, higher layers of RNNs are more task-specific, while transformer layers do not exhibit the same monotonic trend. In addition, to better understand what makes contextual word representations transferable, we compare language model pretraining with eleven supervised pretraining tasks. For any given task, pretraining on a closely related task yields better performance than language model pretraining (which is better on average) when the pretraining dataset is fixed. However, language model pretraining on more data gives the best results.
+{{< /ci-details >}}
+
+{{< ci-details summary="Kovaleva et al. (2019)" >}}
+Olga Kovaleva, Alexey Romanov, Anna Rogers, Anna Rumshisky. (2019)  
+**Revealing the Dark Secrets of BERT**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/d78aed1dac6656affa4a04cbf225ced11a83d103)  
+Influential Citation Count (34), SS-ID (d78aed1dac6656affa4a04cbf225ced11a83d103)  
+
+**ABSTRACT**  
+BERT-based architectures currently give state-of-the-art performance on many NLP tasks, but little is known about the exact mechanisms that contribute to its success. In the current work, we focus on the interpretation of self-attention, which is one of the fundamental underlying components of BERT. Using a subset of GLUE tasks and a set of handcrafted features-of-interest, we propose the methodology and carry out a qualitative and quantitative analysis of the information encoded by the individual BERT’s heads. Our findings suggest that there is a limited set of attention patterns that are repeated across different heads, indicating the overall model overparametrization. While different heads consistently use the same attention patterns, they have varying impact on performance across different tasks. We show that manually disabling attention in certain heads leads to a performance improvement over the regular fine-tuned BERT models.
+{{< /ci-details >}}
+
+{{< ci-details summary="Hao et al. (2019)" >}}
+Y. Hao, Li Dong, Furu Wei, Ke Xu. (2019)  
+**Visualizing and Understanding the Effectiveness of BERT**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/d3cacb4806886eb2fe59c90d4b6f822c24ff1822)  
+Influential Citation Count (3), SS-ID (d3cacb4806886eb2fe59c90d4b6f822c24ff1822)  
+
+**ABSTRACT**  
+Language model pre-training, such as BERT, has achieved remarkable results in many NLP tasks. However, it is unclear why the pre-training-then-fine-tuning paradigm can improve performance and generalization capability across different tasks. In this paper, we propose to visualize loss landscapes and optimization trajectories of fine-tuning BERT on specific datasets. First, we find that pre-training reaches a good initial point across downstream tasks, which leads to wider optima and easier optimization compared with training from scratch. We also demonstrate that the fine-tuning procedure is robust to overfitting, even though BERT is highly over-parameterized for downstream tasks. Second, the visualization results indicate that fine-tuning BERT tends to generalize better because of the flat and wide optima, and the consistency between the training loss surface and the generalization error surface. Third, the lower layers of BERT are more invariant during fine-tuning, which suggests that the layers that are close to input learn more transferable representations of language.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+BERTの最終層は後続のタスクに特化している．
+---
+これは，Liu et al. (2019)で報告されているように，モデルの中間層が最も他のタスクに転用しやすくなっているという事実とも付合する．
+---
+Kovaleva et al. (2019)では，Fine-Tuningにおいてモデルの最終層のパラメータが最も大きく更新されると指摘されているが，こちらも同様に上記の事実を示唆するものである．
+---
+同様に，Hao et al. (2019)ではFine-TuningされたBERTモデルに対して低レイヤのパラメータをオリジナルのモデルで上書きしたとしてもタスクの精度に大きな影響は与えないということが報告されている．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Tenney et al. (2019)" >}}
+Ian Tenney, Dipanjan Das, Ellie Pavlick. (2019)  
+**BERT Rediscovers the Classical NLP Pipeline**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/97906df07855b029b7aae7c2a1c6c5e8df1d531c)  
+Influential Citation Count (59), SS-ID (97906df07855b029b7aae7c2a1c6c5e8df1d531c)  
+
+**ABSTRACT**  
+Pre-trained text encoders have rapidly advanced the state of the art on many NLP tasks. We focus on one such model, BERT, and aim to quantify where linguistic information is captured within the network. We find that the model represents the steps of the traditional NLP pipeline in an interpretable and localizable way, and that the regions responsible for each step appear in the expected sequence: POS tagging, parsing, NER, semantic roles, then coreference. Qualitative analysis reveals that the model can and often does adjust this pipeline dynamically, revising lower-level decisions on the basis of disambiguating information from higher-level representations.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+Tenney et al. (2019)によれば，文法的な情報はモデルの前半のレイヤに集約されている一方で，意味的な情報はモデルのレイヤ全体に分散しているのではないかということが指摘されている．
+---
+このことは，難しいタスクがモデルの前半のレイヤではうまく回答できないのに対して，モデルの後半のレイヤを使った場合には正解する場合が多いという事実からも示唆される．
+---
+では，レイヤを重ねれば重ねるほど意味的な情報が蓄積されていくのか，という疑問が生じるが，Tenney et al. (2019)ではBERT-baseとBERT-largeで最終層を使用した場合のタスクのスコアを比較した結果，予想されるほど大きな違いは出ないということがわかった．
+---
+ただし，Tenney et al. (2019)は文章レベルのsemantic relationsに関する実験の結果である．
+{{< /fa-arrow-right-list >}}
+
 ## Training BERT
 
 ### Model Arcitecture Choices
