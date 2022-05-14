@@ -245,6 +245,8 @@ BERTは「否定」を理解できず，不正な入力の検知に対しても�
 
 ### Semantic Knowledge
 
+---
+
 {{< ci-details summary="Tenney et al. (2019)" >}}
 Ian Tenney, Patrick Xia, Berlin Chen, Alex Wang, Adam Poliak, R. Thomas McCoy, Najoung Kim, Benjamin Van Durme, Samuel R. Bowman, Dipanjan Das, Ellie Pavlick. (2019)  
 **What do you learn from context? Probing for sentence structure in contextualized word representations**  
@@ -313,7 +315,11 @@ Balasubramanian et al. (2020) によれば，Coreference Taskにおいて名詞�
 Broscheit (2019) によれば，Wikipediaのentitiy linkingにおけるBERTのfine-tuningでは，entityに関して追加情報を与えるのみで，entityに関連する情報を全て学習しているわけではない．
 {{< /fa-arrow-right-list >}}
 
+---
+
 ### World Knowledge
+
+---
 
 {{< ci-details summary="Ettinger (2019)" >}}
 Allyson Ettinger. (2019)  
@@ -442,7 +448,11 @@ BERTは関係性を推論することはできるが，その関係性の因果�
 BERTのWorld Knowledgeに関する成功は，現実世界のステレオタイプに依存している．例えば，BERTモデルではアメリカ人であろうとドイツ人であろうと，イタリア風な名前の持ち主はイタリア人であると判断される．
 {{< /fa-arrow-right-list >}}
 
+---
+
 ## Limitations
+
+---
 
 {{< ci-details summary="Tenney et al. (2019)" >}}
 Ian Tenney, Dipanjan Das, Ellie Pavlick. (2019)  
@@ -460,6 +470,8 @@ BERTモデルの深掘りによって文法的・意味的な特徴がモデル�
 ---
 よりよりモデルの調査方法が見つかれば，実はモデルがそれらの特徴を保持していたという事実が見つかる可能性は常にある．
 {{< /fa-arrow-right-list >}}
+
+---
 
 {{< ci-details summary="Warstadt et al. (2019)">}}
 Alex Warstadt, Yuning Cao, Ioana Grosu, Wei Peng, Hagen Blix, Yining Nie, Anna Alsop, Shikha Bordia, Haokun Liu, Alicia Parrish, Sheng-Fu Wang, Jason Phang, Anhad Mohananey, Phu Mon Htut, Paloma Jeretic, Samuel R. Bowman. (2019)  
@@ -479,6 +491,8 @@ Though state-of-the-art sentence representation models can perform tasks requiri
 ---
 一つの解決策は "BERT" モデルに注目して，BERTが何に依拠して推論を実施しているのかを明らかにすることである．
 {{< /fa-arrow-right-list >}}
+
+---
 
 {{< ci-details summary="Pimentel et al. (2020)" >}}
 Tiago Pimentel, Josef Valvoda, Rowan Hall Maudslay, Ran Zmigrod, Adina Williams, Ryan Cotterell. (2020)  
@@ -502,7 +516,6 @@ Influential Citation Count (13), SS-ID (f4b585c9a79dfce0807b445a09036ea0f9cbcdce
 To measure how well pretrained representations encode some linguistic property, it is common to use accuracy of a probe, i.e. a classifier trained to predict the property from the representations. Despite widespread adoption of probes, differences in their accuracy fail to adequately reflect differences in representations. For example, they do not substantially favour pretrained representations over randomly initialized ones. Analogously, their accuracy can be similar when probing for genuine linguistic labels and probing for random synthetic tasks. To see reasonable differences in accuracy with respect to these random baselines, previous work had to constrain either the amount of probe training data or its model size. Instead, we propose an alternative to the standard probes, information-theoretic probing with minimum description length (MDL). With MDL probing, training a probe to predict labels is recast as teaching it to effectively transmit the data. Therefore, the measure of interest changes from probe accuracy to the description length of labels given representations. In addition to probe quality, the description length evaluates "the amount of effort" needed to achieve the quality. This amount of effort characterizes either (i) size of a probing model, or (ii) the amount of data needed to achieve the high quality. We consider two methods for estimating MDL which can be easily implemented on top of the standard probing pipelines: variational coding and online coding. We show that these methods agree in results and are more informative and stable than the standard probes.
 {{< /ci-details >}}
 
-
 {{< fa-arrow-right-list >}}
 今一つの方向性は，情報理論によるモデル内部の調査である．
 ---
@@ -513,17 +526,554 @@ Pimentel et al. (2020)では，言語情報が与えられたときにモデル�
 Voita and Titov (2020)では，モデルの分散表現から情報を取り出す場合にどの程度の労力が必要なのかを定量化している．
 {{< /fa-arrow-right-list >}}
 
+---
+
 ## Localizing Linguistic Knowledge
 
 ### BERT Embeddings
 
+---
+
+{{< ci-details summary="Mikolov et al. (2013)" >}}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, G. Corrado, J. Dean. (2013)  
+**Distributed Representations of Words and Phrases and their Compositionality**  
+NIPS  
+[Paper Link](https://www.semanticscholar.org/paper/87f40e6f3022adbc1f1905e3e506abad05a9964f)  
+Influential Citation Count (3587), SS-ID (87f40e6f3022adbc1f1905e3e506abad05a9964f)  
+
+**ABSTRACT**  
+The recently introduced continuous Skip-gram model is an efficient method for learning high-quality distributed vector representations that capture a large number of precise syntactic and semantic word relationships. In this paper we present several extensions that improve both the quality of the vectors and the training speed. By subsampling of the frequent words we obtain significant speedup and also learn more regular word representations. We also describe a simple alternative to the hierarchical softmax called negative sampling.    An inherent limitation of word representations is their indifference to word order and their inability to represent idiomatic phrases. For example, the meanings of "Canada" and "Air" cannot be easily combined to obtain "Air Canada". Motivated by this example, we present a simple method for finding phrases in text, and show that learning good vector representations for millions of phrases is possible.
+{{< /ci-details >}}
+
+{{< ci-details summary="Kong et al. (2019)" >}}
+Lingpeng Kong, Cyprien de Masson d'Autume, Wang Ling, Lei Yu, Zihang Dai, Dani Yogatama. (2019)  
+**A Mutual Information Maximization Perspective of Language Representation Learning**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/b04889922aae7f799affb2ae6508bc5f5c989567)  
+Influential Citation Count (11), SS-ID (b04889922aae7f799affb2ae6508bc5f5c989567)  
+
+**ABSTRACT**  
+We show state-of-the-art word representation learning methods maximize an objective function that is a lower bound on the mutual information between different parts of a word sequence (i.e., a sentence). Our formulation provides an alternative perspective that unifies classical word embedding models (e.g., Skip-gram) and modern contextual embeddings (e.g., BERT, XLNet). In addition to enhancing our theoretical understanding of these methods, our derivation leads to a principled framework that can be used to construct new self-supervised tasks. We provide an example by drawing inspirations from related methods based on mutual information maximization that have been successful in computer vision, and introduce a simple self-supervised objective that maximizes the mutual information between a global sentence representation and n-grams in the sentence. Our analysis offers a holistic view of representation learning methods to transfer knowledge and translate progress across multiple domains (e.g., natural language processing, computer vision, audio processing).
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+BERTにおいて，`embedding` とはTransformerレイヤのアウトプット（特に最終層のアウトプット）を指す．
+---
+Kong et al. (2019) によれば，Word2Vec（Mikolov et al., 2013）もBERTのembeddingも相互情報量の一種であるとみなすことができるが，BERTのEmbeddingは前者と比較したときに `contextualized` されているという特徴がある．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Akbik et al. (2019)" >}}
+A. Akbik, Tanja Bergmann, Roland Vollgraf. (2019)  
+**Pooled Contextualized Embeddings for Named Entity Recognition**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/edfe9dd16316618e694cd087d0d418dac91eb48c)  
+Influential Citation Count (40), SS-ID (edfe9dd16316618e694cd087d0d418dac91eb48c)  
+
+**ABSTRACT**  
+Contextual string embeddings are a recent type of contextualized word embedding that were shown to yield state-of-the-art results when utilized in a range of sequence labeling tasks. They are based on character-level language models which treat text as distributions over characters and are capable of generating embeddings for any string of characters within any textual context. However, such purely character-based approaches struggle to produce meaningful embeddings if a rare string is used in a underspecified context. To address this drawback, we propose a method in which we dynamically aggregate contextualized embeddings of each unique string that we encounter. We then use a pooling operation to distill a ”global” word representation from all contextualized instances. We evaluate these ”pooled contextualized embeddings” on common named entity recognition (NER) tasks such as CoNLL-03 and WNUT and show that our approach significantly improves the state-of-the-art for NER. We make all code and pre-trained models available to the research community for use and reproduction.
+{{< /ci-details >}}
+
+{{< ci-details summary="Bommasani et al. (2020)" >}}
+Rishi Bommasani, Kelly Davis, Claire Cardie. (2020)  
+**Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/d34580c522c79d5cde620331dd9ffb18643a8090)  
+Influential Citation Count (17), SS-ID (d34580c522c79d5cde620331dd9ffb18643a8090)  
+
+**ABSTRACT**  
+Contextualized representations (e.g. ELMo, BERT) have become the default pretrained representations for downstream NLP applications. In some settings, this transition has rendered their static embedding predecessors (e.g. Word2Vec, GloVe) obsolete. As a side-effect, we observe that older interpretability methods for static embeddings — while more diverse and mature than those available for their dynamic counterparts — are underutilized in studying newer contextualized representations. Consequently, we introduce simple and fully general methods for converting from contextualized representations to static lookup-table embeddings which we apply to 5 popular pretrained models and 9 sets of pretrained weights. Our analysis of the resulting static embeddings notably reveals that pooling over many contexts significantly improves representational quality under intrinsic evaluation. Complementary to analyzing representational quality, we consider social biases encoded in pretrained representations with respect to gender, race/ethnicity, and religion and find that bias is encoded disparately across pretrained models and internal layers even for models with the same training data. Concerningly, we find dramatic inconsistencies between social bias estimators for word embeddings.
+{{< /ci-details >}}
+
+{{< ci-details summary="May et al. (2019)" >}}
+Chandler May, Alex Wang, Shikha Bordia, Samuel R. Bowman, Rachel Rudinger. (2019)  
+**On Measuring Social Biases in Sentence Encoders**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/5e9c85235210b59a16bdd84b444a904ae271f7e7)  
+Influential Citation Count (25), SS-ID (5e9c85235210b59a16bdd84b444a904ae271f7e7)  
+
+**ABSTRACT**  
+The Word Embedding Association Test shows that GloVe and word2vec word embeddings exhibit human-like implicit biases based on gender, race, and other social constructs (Caliskan et al., 2017). Meanwhile, research on learning reusable text representations has begun to explore sentence-level texts, with some sentence encoders seeing enthusiastic adoption. Accordingly, we extend the Word Embedding Association Test to measure bias in sentence encoders. We then test several sentence encoders, including state-of-the-art methods such as ELMo and BERT, for the social biases studied in prior work and two important biases that are difficult or impossible to test at the word level. We observe mixed results including suspicious patterns of sensitivity that suggest the test’s assumptions may not hold in general. We conclude by proposing directions for future work on measuring bias in sentence encoders.
+{{< /ci-details >}}
+
+{{< ci-details summary="Wang et al. (2020)" >}}
+Karthikeyan K, Zihan Wang, Stephen Mayhew, D. Roth. (2019)  
+**Cross-Lingual Ability of Multilingual BERT: An Empirical Study**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/3b2538f84812f434c740115c185be3e5e216c526)  
+Influential Citation Count (7), SS-ID (3b2538f84812f434c740115c185be3e5e216c526)  
+
+**ABSTRACT**  
+Recent work has exhibited the surprising cross-lingual abilities of multilingual BERT (M-BERT) -- surprising since it is trained without any cross-lingual objective and with no aligned data. In this work, we provide a comprehensive study of the contribution of different components in M-BERT to its cross-lingual ability. We study the impact of linguistic properties of the languages, the architecture of the model, and the learning objectives. The experimental study is done in the context of three typologically different languages -- Spanish, Hindi, and Russian -- and using two conceptually different NLP tasks, textual entailment and named entity recognition. Among our key conclusions is the fact that the lexical overlap between languages plays a negligible role in the cross-lingual success, while the depth of the network is an integral part of it. All our models and implementations can be found on our project page: this http URL .
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+`distilled contextualized embedding` は単語レベルの伝統的なタスクにおける単語の類似度といった表現と比べて，単語の意味に関して多くの情報を含んでいるということが複数の研究によって示されている．
+---
+Akbik et al. (2019)，Bommasani et al. (2020)，May et al. (2019)，Wang et al. (2020)によればcontextualized representationを蒸留する手法は複数のコンテキストに渡って情報を集約するプロセスを含んでいる．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Ethayarajh (2019)" >}}
+Kawin Ethayarajh. (2019)  
+**How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/9d7902e834d5d1d35179962c7a5b9d16623b0d39)  
+Influential Citation Count (29), SS-ID (9d7902e834d5d1d35179962c7a5b9d16623b0d39)  
+
+**ABSTRACT**  
+Replacing static word embeddings with contextualized word representations has yielded significant improvements on many NLP tasks. However, just how contextual are the contextualized representations produced by models such as ELMo and BERT? Are there infinitely many context-specific representations for each word, or are words essentially assigned one of a finite number of word-sense representations? For one, we find that the contextualized representations of all words are not isotropic in any layer of the contextualizing model. While representations of the same word in different contexts still have a greater cosine similarity than those of two different words, this self-similarity is much lower in upper layers. This suggests that upper layers of contextualizing models produce more context-specific representations, much like how upper layers of LSTMs produce more task-specific representations. In all layers of ELMo, BERT, and GPT-2, on average, less than 5% of the variance in a word’s contextualized representations can be explained by a static embedding for that word, providing some justification for the success of contextualized representations.
+{{< /ci-details >}}
+
+
+{{< fa-arrow-right-list >}}
+単語にフォーカスした分散表現をBERT内部のレイヤ間で比較した場合，後ろの方のレイヤはよりcontext-specificな情報を含むように学習されている．
+---
+もし分散表現の空間が各次元に関して一様なものであるならば（directionally uniform/isotropic） BERTの分散表現においては2つのランダムな単語が思ったよりも高いコサイン類似度を示すことになる．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Wiedemann et al. (2019)" >}}
+Gregor Wiedemann, Steffen Remus, Avi Chawla, Chris Biemann. (2019)  
+**Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized Embeddings**  
+KONVENS  
+[Paper Link](https://www.semanticscholar.org/paper/ba8b3d0d2b09bc2b56c6d3f153919786d9fc3075)  
+Influential Citation Count (6), SS-ID (ba8b3d0d2b09bc2b56c6d3f153919786d9fc3075)  
+
+**ABSTRACT**  
+Contextualized word embeddings (CWE) such as provided by ELMo (Peters et al., 2018), Flair NLP (Akbik et al., 2018), or BERT (Devlin et al., 2019) are a major recent innovation in NLP. CWEs provide semantic vector representations of words depending on their respective context. Their advantage over static word embeddings has been shown for a number of tasks, such as text classification, sequence tagging, or machine translation. Since vectors of the same word type can vary depending on the respective context, they implicitly provide a model for word sense disambiguation (WSD). We introduce a simple but effective approach to WSD using a nearest neighbor classification on CWEs. We compare the performance of different CWE models for the task and can report improvements above the current state of the art for two standard WSD benchmark datasets. We further show that the pre-trained BERT model is able to place polysemic words into distinct 'sense' regions of the embedding space, while ELMo and Flair NLP do not seem to possess this ability.
+{{< /ci-details >}}
+
+{{< ci-details summary="Schmidt and Hofmann (2020)" >}}
+Florian Schmidt, T. Hofmann. (2020)  
+**BERT as a Teacher: Contextual Embeddings for Sequence-Level Reward**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/de9e7d6319b26c0d9f0da20c79403e9b9367fff4)  
+Influential Citation Count (0), SS-ID (de9e7d6319b26c0d9f0da20c79403e9b9367fff4)  
+
+**ABSTRACT**  
+Measuring the quality of a generated sequence against a set of references is a central problem in many learning frameworks, be it to compute a score, to assign a reward, or to perform discrimination. Despite great advances in model architectures, metrics that scale independently of the number of references are still based on n-gram estimates. We show that the underlying operations, counting words and comparing counts, can be lifted to embedding words and comparing embeddings. An in-depth analysis of BERT embeddings shows empirically that contextual embeddings can be employed to capture the required dependencies while maintaining the necessary scalability through appropriate pruning and smoothing techniques. We cast unconditional generation as a reinforcement learning problem and show that our reward function indeed provides a more effective learning signal than n-gram reward in this challenging setting.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+BERTの分散表現がcontextualizedされているならば，BERTは多義語や同音異義語といったものに関してどの程度の情報を持っているのか？
+---
+BERTのcontextualized embeddingは単語の意味に応じてはっきりと別れたクラスター（`distinct clusters`）を形成している．これによって，BERTは語義曖昧性解消といったタスクにおいて高い精度を達成することができる．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Mickus et al. (2019) ">}}
+Timothee Mickus, Denis Paperno, Mathieu Constant, Kees van Deemter. (2019)  
+**What do you mean, BERT? Assessing BERT as a Distributional Semantics Model**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/4bff291cf7fa02a0dbac767aba55d43ad8c59055)  
+Influential Citation Count (3), SS-ID (4bff291cf7fa02a0dbac767aba55d43ad8c59055)  
+
+**ABSTRACT**  
+Contextualized word embeddings, i.e. vector representations for words in context, are naturally seen as an extension of previous noncontextual distributional semantic models. In this work, we focus on BERT, a deep neural network that produces contextualized embeddings and has set the state-of-the-art in several semantic tasks, and study the semantic coherence of its embedding space. While showing a tendency towards coherence, BERT does not fully live up to the natural expectations for a semantic vector space. In particular, we find that the position of the sentence in which a word occurs, while having no meaning correlates, leaves a noticeable trace on the word embeddings and disturbs similarity relationships.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+Mickus et al. (2019)によれば，BERTにおける単語の分散表現は，同じ単語であったとしても，その単語がどの文章のどの位置に出現するかに依存して変動する．変動の程度によっては，同じ単語の意味がブレることになるので，これは言語学的な観点からは望ましくない．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< fa-arrow-right-list >}}
+このセクションにおける研究成果は主に単語の分散表現に着目したものであるが，BERTは文章のエンコーダとして使われるのが一般的であることに鑑みれば，単語単位の分散表現だけでなく文章単位の分散表現に関しても詳しく調査すべきである．
+{{< /fa-arrow-right-list >}}
+
+---
+
 ### Self-Attention Heads
+
+Attention Head にどのようなタイプが存在するか，ということについてはいくつかの研究成果がある．
+
+---
+
+{{< ci-details summary="Raganato and Tiedemann (2018)" >}}
+Alessandro Raganato, J. Tiedemann. (2018)  
+**An Analysis of Encoder Representations in Transformer-Based Machine Translation**  
+BlackboxNLP@EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/94238dead40b12735d79ed63e29ead70730261a2)  
+Influential Citation Count (10), SS-ID (94238dead40b12735d79ed63e29ead70730261a2)  
+
+**ABSTRACT**  
+The attention mechanism is a successful technique in modern NLP, especially in tasks like machine translation. The recently proposed network architecture of the Transformer is based entirely on attention mechanisms and achieves new state of the art results in neural machine translation, outperforming other sequence-to-sequence models. However, so far not much is known about the internal properties of the model and the representations it learns to achieve that performance. To study this question, we investigate the information that is learned by the attention mechanism in Transformer models with different translation quality. We assess the representations of the encoder by extracting dependency relations based on self-attention weights, we perform four probing tasks to study the amount of syntactic and semantic captured information and we also test attention in a transfer learning scenario. Our analysis sheds light on the relative strengths and weaknesses of the various encoder representations. We observe that specific attention heads mark syntactic dependency relations and we can also confirm that lower layers tend to learn more about syntax while higher layers tend to encode more semantics.
+{{< /ci-details >}}
+
+{{< ci-details summary="Clark et al. (2019)" >}}
+Kevin Clark, Urvashi Khandelwal, Omer Levy, Christopher D. Manning. (2019)  
+**What Does BERT Look at? An Analysis of BERT’s Attention**  
+BlackboxNLP@ACL  
+[Paper Link](https://www.semanticscholar.org/paper/95a251513853c6032bdecebd4b74e15795662986)  
+Influential Citation Count (74), SS-ID (95a251513853c6032bdecebd4b74e15795662986)  
+
+**ABSTRACT**  
+Large pre-trained neural networks such as BERT have had great recent success in NLP, motivating a growing body of research investigating what aspects of language they are able to learn from unlabeled data. Most recent analysis has focused on model outputs (e.g., language model surprisal) or internal vector representations (e.g., probing classifiers). Complementary to these works, we propose methods for analyzing the attention mechanisms of pre-trained models and apply them to BERT. BERT’s attention heads exhibit patterns such as attending to delimiter tokens, specific positional offsets, or broadly attending over the whole sentence, with heads in the same layer often exhibiting similar behaviors. We further show that certain attention heads correspond well to linguistic notions of syntax and coreference. For example, we find heads that attend to the direct objects of verbs, determiners of nouns, objects of prepositions, and coreferent mentions with remarkably high accuracy. Lastly, we propose an attention-based probing classifier and use it to further demonstrate that substantial syntactic information is captured in BERT’s attention.
+{{< /ci-details >}}
+
+{{< ci-details summary="Kovaleva et al. (2019)" >}}
+Olga Kovaleva, Alexey Romanov, Anna Rogers, Anna Rumshisky. (2019)  
+**Revealing the Dark Secrets of BERT**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/d78aed1dac6656affa4a04cbf225ced11a83d103)  
+Influential Citation Count (34), SS-ID (d78aed1dac6656affa4a04cbf225ced11a83d103)  
+
+**ABSTRACT**  
+BERT-based architectures currently give state-of-the-art performance on many NLP tasks, but little is known about the exact mechanisms that contribute to its success. In the current work, we focus on the interpretation of self-attention, which is one of the fundamental underlying components of BERT. Using a subset of GLUE tasks and a set of handcrafted features-of-interest, we propose the methodology and carry out a qualitative and quantitative analysis of the information encoded by the individual BERT’s heads. Our findings suggest that there is a limited set of attention patterns that are repeated across different heads, indicating the overall model overparametrization. While different heads consistently use the same attention patterns, they have varying impact on performance across different tasks. We show that manually disabling attention in certain heads leads to a performance improvement over the regular fine-tuned BERT models.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+Raganato and Tiedemann (2018)によれば，Self-Attention Headsのタイプにはトークン自体に加えて，`[CLS]`，`[SEP]`トークンと文章の最後を表すトークンが含まれる．
+---
+Clark et al. (2019)では，`[CLS]`，`[SEP]`トークン，句読点や記号などでタイプが分かれることが議論された．
+---
+Kovaleva et al. (2019)はSelf-Attention Headsのタイプについて，5つのパターンがあることを示している．
+{{< /fa-arrow-right-list >}}
+
+<img src="fig-3.png" />
+
+---
+
+#### Heads with Linguistic Functions
+
+---
+
+{{< ci-details summary="Htut et al. (2019)" >}}
+Phu Mon Htut, Jason Phang, Shikha Bordia, Samuel R. Bowman. (2019)  
+**Do Attention Heads in BERT Track Syntactic Dependencies?**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/ba8215e77f35b0d947c7cec39c45df4516e93421)  
+Influential Citation Count (12), SS-ID (ba8215e77f35b0d947c7cec39c45df4516e93421)  
+
+**ABSTRACT**  
+We investigate the extent to which individual attention heads in pretrained transformer language models, such as BERT and RoBERTa, implicitly capture syntactic dependency relations. We employ two methods---taking the maximum attention weight and computing the maximum spanning tree---to extract implicit dependency relations from the attention weights of each layer/head, and compare them to the ground-truth Universal Dependency (UD) trees. We show that, for some UD relation types, there exist heads that can recover the dependency type significantly better than baselines on parsed English text, suggesting that some self-attention heads act as a proxy for syntactic structure. We also analyze BERT fine-tuned on two datasets---the syntax-oriented CoLA and the semantics-oriented MNLI---to investigate whether fine-tuning affects the patterns of their self-attention, but we do not observe substantial differences in the overall dependency relations extracted using our methods. Our results suggest that these models have some specialist attention heads that track individual dependency types, but no generalist head that performs holistic parsing significantly better than a trivial baseline, and that analyzing attention weights directly may not reveal much of the syntactic knowledge that BERT-style models are known to learn.
+{{< /ci-details >}}
+
+{{< ci-details summary="Clark et al. (2019)" >}}
+Kevin Clark, Urvashi Khandelwal, Omer Levy, Christopher D. Manning. (2019)  
+**What Does BERT Look at? An Analysis of BERT’s Attention**  
+BlackboxNLP@ACL  
+[Paper Link](https://www.semanticscholar.org/paper/95a251513853c6032bdecebd4b74e15795662986)  
+Influential Citation Count (74), SS-ID (95a251513853c6032bdecebd4b74e15795662986)  
+
+**ABSTRACT**  
+Large pre-trained neural networks such as BERT have had great recent success in NLP, motivating a growing body of research investigating what aspects of language they are able to learn from unlabeled data. Most recent analysis has focused on model outputs (e.g., language model surprisal) or internal vector representations (e.g., probing classifiers). Complementary to these works, we propose methods for analyzing the attention mechanisms of pre-trained models and apply them to BERT. BERT’s attention heads exhibit patterns such as attending to delimiter tokens, specific positional offsets, or broadly attending over the whole sentence, with heads in the same layer often exhibiting similar behaviors. We further show that certain attention heads correspond well to linguistic notions of syntax and coreference. For example, we find heads that attend to the direct objects of verbs, determiners of nouns, objects of prepositions, and coreferent mentions with remarkably high accuracy. Lastly, we propose an attention-based probing classifier and use it to further demonstrate that substantial syntactic information is captured in BERT’s attention.
+{{< /ci-details >}}
+
+{{< ci-details summary="Voita et al. (2019)" >}}
+Elena Voita, David Talbot, F. Moiseev, Rico Sennrich, Ivan Titov. (2019)  
+**Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest Can Be Pruned**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/07a64686ce8e43ac475a8d820a8a9f1d87989583)  
+Influential Citation Count (49), SS-ID (07a64686ce8e43ac475a8d820a8a9f1d87989583)  
+
+**ABSTRACT**  
+Multi-head self-attention is a key component of the Transformer, a state-of-the-art architecture for neural machine translation. In this work we evaluate the contribution made by individual attention heads to the overall performance of the model and analyze the roles played by them in the encoder. We find that the most important and confident heads play consistent and often linguistically-interpretable roles. When pruning heads using a method based on stochastic gates and a differentiable relaxation of the L0 penalty, we observe that specialized heads are last to be pruned. Our novel pruning method removes the vast majority of heads without seriously affecting performance. For example, on the English-Russian WMT dataset, pruning 38 out of 48 encoder heads results in a drop of only 0.15 BLEU.
+{{< /ci-details >}}
+
+{{< ci-details summary="Hoover et al. (2019)" >}}
+Benjamin Hoover, Hendrik Strobelt, Sebastian Gehrmann. (2019)  
+**exBERT: A Visual Analysis Tool to Explore Learned Representations in Transformer Models**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/327d7e55d64cb34d55bd3a3fe58233c238a312cd)  
+Influential Citation Count (4), SS-ID (327d7e55d64cb34d55bd3a3fe58233c238a312cd)  
+
+**ABSTRACT**  
+Large Transformer-based language models can route and reshape complex information via their multi-headed attention mechanism. Although the attention never receives explicit supervision, it can exhibit recognizable patterns following linguistic or positional information. Analyzing the learned representations and attentions is paramount to furthering our understanding of the inner workings of these models. However, analyses have to catch up with the rapid release of new models and the growing diversity of investigation techniques. To support analysis for a wide variety of models, we introduce exBERT, a tool to help humans conduct flexible, interactive investigations and formulate hypotheses for the model-internal reasoning process. exBERT provides insights into the meaning of the contextual representations and attention by matching a human-specified input to similar contexts in large annotated datasets. By aggregating the annotations of the matched contexts, exBERT can quickly replicate findings from literature and extend them to previously not analyzed models.
+{{< /ci-details >}}
+
+{{< ci-details summary="Zhao and Bethard (2019)" >}}
+Yiyun Zhao, Steven Bethard. (2020)  
+**How does BERT’s attention change when you fine-tune? An analysis methodology and a case study in negation scope**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/868349fe969bc7c6b14b5f35e118a26075b7b1f2)  
+Influential Citation Count (0), SS-ID (868349fe969bc7c6b14b5f35e118a26075b7b1f2)  
+
+**ABSTRACT**  
+Large pretrained language models like BERT, after fine-tuning to a downstream task, have achieved high performance on a variety of NLP problems. Yet explaining their decisions is difficult despite recent work probing their internal representations. We propose a procedure and analysis methods that take a hypothesis of how a transformer-based model might encode a linguistic phenomenon, and test the validity of that hypothesis based on a comparison between knowledge-related downstream tasks with downstream control tasks, and measurement of cross-dataset consistency. We apply this methodology to test BERT and RoBERTa on a hypothesis that some attention heads will consistently attend from a word in negation scope to the negation cue. We find that after fine-tuning BERT and RoBERTa on a negation scope task, the average attention head improves its sensitivity to negation and its attention consistency across negation datasets compared to the pre-trained models. However, only the base models (not the large models) improve compared to a control task, indicating there is evidence for a shallow encoding of negation only in the base models.
+{{< /ci-details >}}
+
+---
+
+{{< fa-arrow-right-list >}}
+Self-Attention Headsはそれぞれ，ある文法的な側面に特化して学習されているという可能性がある．
+---
+Htut et al. (2019)及びClark et al. (2019)によれば，BERTのSelf-Attention Headsはランダムなベースラインに比べて単語の文法的な位置に対して敏感である．両研究で用いられたデータセットは別々であるが，どちらの研究でもSelf-Attention Headsは単語が`obj`の位置にある場合に敏感に反応すると結論づけている．
+---
+Hoover et al. (2019)では，`dobj`などの複雑な文法的ロールは複数のSelf-Attention Headsの組み合わせで表現されているのではないかという仮説を立てたが，今のところ十分に検証されてはいない．
+---
+Htut et al. (2019)，Clark et al. (2019)は，どのSelf-Attention Headも単独では文法ツリーの完全な情報を保持していないと結論づけた．
+---
+ただし，Clark et al (2019)では，共参照解析に単独で分類器として用いることができるSelf-Attention Headが見つかっている．このタスク自体はルールベースのものであるが，多分に文法的な情報を必要とするタスクである．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Lin et al. (2019)" >}}
+Yongjie Lin, Y. Tan, R. Frank. (2019)  
+**Open Sesame: Getting inside BERT’s Linguistic Knowledge**  
+BlackboxNLP@ACL  
+[Paper Link](https://www.semanticscholar.org/paper/165d51a547cd920e6ac55660ad5c404dcb9562ed)  
+Influential Citation Count (18), SS-ID (165d51a547cd920e6ac55660ad5c404dcb9562ed)  
+
+**ABSTRACT**  
+How and to what extent does BERT encode syntactically-sensitive hierarchical information or positionally-sensitive linear information? Recent work has shown that contextual representations like BERT perform well on tasks that require sensitivity to linguistic structure. We present here two studies which aim to provide a better understanding of the nature of BERT’s representations. The first of these focuses on the identification of structurally-defined elements using diagnostic classifiers, while the second explores BERT’s representation of subject-verb agreement and anaphor-antecedent dependencies through a quantitative assessment of self-attention vectors. In both cases, we find that BERT encodes positional information about word tokens well on its lower layers, but switches to a hierarchically-oriented encoding on higher layers. We conclude then that BERT’s representations do indeed model linguistically relevant aspects of hierarchical structure, though they do not appear to show the sharp sensitivity to hierarchical structure that is found in human processing of reflexive anaphora.
+{{< /ci-details>}}
+
+{{< ci-details summary="Ettinger (2019)" >}}
+Allyson Ettinger. (2019)  
+**What BERT Is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models**  
+TACL  
+[Paper Link](https://www.semanticscholar.org/paper/a0e49f65b6847437f262c59d0d399255101d0b75)  
+Influential Citation Count (10), SS-ID (a0e49f65b6847437f262c59d0d399255101d0b75)  
+
+**ABSTRACT**  
+Pre-training by language modeling has become a popular and successful approach to NLP tasks, but we have yet to understand exactly what linguistic capacities these pre-training processes confer upon models. In this paper we introduce a suite of diagnostics drawn from human language experiments, which allow us to ask targeted questions about information used by language models for generating predictions in context. As a case study, we apply these diagnostics to the popular BERT model, finding that it can generally distinguish good from bad completions involving shared category or role reversal, albeit with less sensitivity than humans, and it robustly retrieves noun hypernyms, but it struggles with challenging inference and role-based event prediction— and, in particular, it shows clear insensitivity to the contextual impacts of negation.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+`Attention Weights` は主語-動詞の対応関係や照応の分析にはあまり役に立たない．
+---
+Lin et al. (2019)によれば，BERTのSelf-Attention Headsは強く関連づけられるべき単語同士の関係を深く学習するというよりは，それぞれの単語の関係を一様に学習するというべきである．ただし，心理言語学のデータを使った実験において，一部の文法的な誤りに対しては敏感に反応したことがある．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Correia et al. (2019)" >}}
+Gonçalo M. Correia, Vlad Niculae, André F. T. Martins. (2019)  
+**Adaptively Sparse Transformers**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/f6390beca54411b06f3bde424fb983a451789733)  
+Influential Citation Count (18), SS-ID (f6390beca54411b06f3bde424fb983a451789733)  
+
+**ABSTRACT**  
+Attention mechanisms have become ubiquitous in NLP. Recent architectures, notably the Transformer, learn powerful context-aware word representations through layered, multi-headed attention. The multiple heads learn diverse types of word relationships. However, with standard softmax attention, all attention heads are dense, assigning a non-zero weight to all context words. In this work, we introduce the adaptively sparse Transformer, wherein attention heads have flexible, context-dependent sparsity patterns. This sparsity is accomplished by replacing softmax with alpha-entmax: a differentiable generalization of softmax that allows low-scoring words to receive precisely zero weight. Moreover, we derive a method to automatically learn the alpha parameter – which controls the shape and sparsity of alpha-entmax – allowing attention heads to choose between focused or spread-out behavior. Our adaptively sparse Transformer improves interpretability and head diversity when compared to softmax Transformers on machine translation datasets. Findings of the quantitative and qualitative analysis of our approach include that heads in different layers learn different sparsity preferences and tend to be more diverse in their attention distributions than softmax Transformers. Furthermore, at no cost in accuracy, sparsity in attention heads helps to uncover different head specializations.
+{{< /ci-details>}}
+
+{{< fa-arrow-right-list >}}
+BERTのSelf-Attention Headsに関して形態論的な観点からの研究はまだ実施されていない．
+---
+Correia et al. (2019)では，Tarnsformerの一部のSelf-Attention HeadsがBPE（Byte-Pair Encoding）でトークン化された単語の特徴を取り込んでいるようだということが指摘されている．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Clark et al. (2019)" >}}
+Kevin Clark, Urvashi Khandelwal, Omer Levy, Christopher D. Manning. (2019)  
+**What Does BERT Look at? An Analysis of BERT’s Attention**  
+BlackboxNLP@ACL  
+[Paper Link](https://www.semanticscholar.org/paper/95a251513853c6032bdecebd4b74e15795662986)  
+Influential Citation Count (74), SS-ID (95a251513853c6032bdecebd4b74e15795662986)  
+
+**ABSTRACT**  
+Large pre-trained neural networks such as BERT have had great recent success in NLP, motivating a growing body of research investigating what aspects of language they are able to learn from unlabeled data. Most recent analysis has focused on model outputs (e.g., language model surprisal) or internal vector representations (e.g., probing classifiers). Complementary to these works, we propose methods for analyzing the attention mechanisms of pre-trained models and apply them to BERT. BERT’s attention heads exhibit patterns such as attending to delimiter tokens, specific positional offsets, or broadly attending over the whole sentence, with heads in the same layer often exhibiting similar behaviors. We further show that certain attention heads correspond well to linguistic notions of syntax and coreference. For example, we find heads that attend to the direct objects of verbs, determiners of nouns, objects of prepositions, and coreferent mentions with remarkably high accuracy. Lastly, we propose an attention-based probing classifier and use it to further demonstrate that substantial syntactic information is captured in BERT’s attention.
+{{< /ci-details>}}
+
+{{< ci-details summary="Jain and Wallance (2019)" >}}
+Sarthak Jain, Byron C. Wallace. (2019)  
+**Attention is not Explanation**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/1e83c20def5c84efa6d4a0d80aa3159f55cb9c3f)  
+Influential Citation Count (36), SS-ID (1e83c20def5c84efa6d4a0d80aa3159f55cb9c3f)  
+
+**ABSTRACT**  
+Attention mechanisms have seen wide adoption in neural NLP models. In addition to improving predictive performance, these are often touted as affording transparency: models equipped with attention provide a distribution over attended-to input units, and this is often presented (at least implicitly) as communicating the relative importance of inputs. However, it is unclear what relationship exists between attention weights and model outputs. In this work we perform extensive experiments across a variety of NLP tasks that aim to assess the degree to which attention weights provide meaningful “explanations” for predictions. We find that they largely do not. For example, learned attention weights are frequently uncorrelated with gradient-based measures of feature importance, and one can identify very different attention distributions that nonetheless yield equivalent predictions. Our findings show that standard attention modules do not provide meaningful explanations and should not be treated as though they do.
+{{< /ci-details>}}
+
+{{< ci-details summary="Serrano and Smith (2019)" >}}
+Sofia Serrano, Noah A. Smith. (2019)  
+**Is Attention Interpretable?**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/135112c7ba1762d65f39b1a61777f26ae4dfd8ad)  
+Influential Citation Count (16), SS-ID (135112c7ba1762d65f39b1a61777f26ae4dfd8ad)  
+
+**ABSTRACT**  
+Attention mechanisms have recently boosted performance on a range of NLP tasks. Because attention layers explicitly weight input components’ representations, it is also often assumed that attention can be used to identify information that models found important (e.g., specific contextualized word tokens). We test whether that assumption holds by manipulating attention weights in already-trained text classification models and analyzing the resulting differences in their predictions. While we observe some ways in which higher attention weights correlate with greater impact on model predictions, we also find many ways in which this does not hold, i.e., where gradient-based rankings of attention weights better predict their effects than their magnitudes. We conclude that while attention noisily predicts input components’ overall importance to a model, it is by no means a fail-safe indicator.1
+{{< /ci-details>}}
+
+{{< ci-details summary="Wiegreffe and Pinter (2019)" >}}
+Sarah Wiegreffe, Yuval Pinter. (2019)  
+**Attention is not not Explanation**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/ce177672b00ddf46e4906157a7e997ca9338b8b9)  
+Influential Citation Count (12), SS-ID (ce177672b00ddf46e4906157a7e997ca9338b8b9)  
+
+**ABSTRACT**  
+Attention mechanisms play a central role in NLP systems, especially within recurrent neural network (RNN) models. Recently, there has been increasing interest in whether or not the intermediate representations offered by these modules may be used to explain the reasoning for a model’s prediction, and consequently reach insights regarding the model’s decision-making process. A recent paper claims that ‘Attention is not Explanation’ (Jain and Wallace, 2019). We challenge many of the assumptions underlying this work, arguing that such a claim depends on one’s definition of explanation, and that testing it needs to take into account all elements of the model. We propose four alternative tests to determine when/whether attention can be used as explanation: a simple uniform-weights baseline; a variance calibration based on multiple random seed runs; a diagnostic framework using frozen weights from pretrained models; and an end-to-end adversarial attention training protocol. Each allows for meaningful interpretation of attention mechanisms in RNN models. We show that even when reliable adversarial distributions can be found, they don’t perform well on the simple diagnostic, indicating that prior work does not disprove the usefulness of attention mechanisms for explainability.
+{{< /ci-details>}}
+
+{{< ci-details summary="Brunner et al. (2020)" >}}
+Gino Brunner, Yang Liu, Damian Pascual, Oliver Richter, Massimiliano Ciaramita, Roger Wattenhofer. (2019)  
+**On Identifiability in Transformers**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/9d7fbdb2e9817a6396992a1c92f75206689852d9)  
+Influential Citation Count (13), SS-ID (9d7fbdb2e9817a6396992a1c92f75206689852d9)  
+
+**ABSTRACT**  
+In this paper we delve deep in the Transformer architecture by investigating two of its core components: self-attention and contextual embeddings. In particular, we study the identifiability of attention weights and token embeddings, and the aggregation of context into hidden tokens. We show that, for sequences longer than the attention head dimension, attention weights are not identifiable. We propose effective attention as a complementary tool for improving explanatory interpretations based on attention. Furthermore, we show that input tokens retain to a large degree their identity across the model. We also find evidence suggesting that identity information is mainly encoded in the angle of the embeddings and gradually decreases with depth. Finally, we demonstrate strong mixing of input information in the generation of contextual embeddings by means of a novel quantification method based on gradient attribution. Overall, we show that self-attention distributions are not directly interpretable and present tools to better understand and further investigate Transformer models.
+{{< /ci-details>}}
+
+{{< fa-arrow-right-list >}}
+現在のSelf-Attention Headsへの注目度の高さは，「Attention Weightsにはある単語が別の単語に関連してどの程度重みづけられるか，ということが自動的に学習されるため，重みが持つ意味がクリアである」というアイディアによっている．
+---
+この点は現在活発に議論されており，今のところAttentionレイヤが非線形の活性化関数によって重ねられているような複数レイヤのモデルにおいて，各レイヤが単独で全ての情報を保持するということはない，ということが明らかになっている．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Vig (2019)" >}}
+Jesse Vig, Y. Belinkov. (2019)  
+**Analyzing the Structure of Attention in a Transformer Language Model**  
+BlackboxNLP@ACL  
+[Paper Link](https://www.semanticscholar.org/paper/a039ea239e37f53a2cb60c68e0a1967994353166)  
+Influential Citation Count (8), SS-ID (a039ea239e37f53a2cb60c68e0a1967994353166)  
+
+**ABSTRACT**  
+The Transformer is a fully attention-based alternative to recurrent networks that has achieved state-of-the-art results across a range of NLP tasks. In this paper, we analyze the structure of attention in a Transformer language model, the GPT-2 small pretrained model. We visualize attention for individual instances and analyze the interaction between attention and syntax over a large corpus. We find that attention targets different parts of speech at different layer depths within the model, and that attention aligns with dependency relations most strongly in the middle layers. We also find that the deepest layers of the model capture the most distant relationships. Finally, we extract exemplar sentences that reveal highly specific patterns targeted by particular attention heads.
+{{< /ci-details >}}
+
+{{< ci-details summary="Hoover et al. (2019)" >}}
+Benjamin Hoover, Hendrik Strobelt, Sebastian Gehrmann. (2019)  
+**exBERT: A Visual Analysis Tool to Explore Learned Representations in Transformer Models**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/327d7e55d64cb34d55bd3a3fe58233c238a312cd)  
+Influential Citation Count (4), SS-ID (327d7e55d64cb34d55bd3a3fe58233c238a312cd)  
+
+**ABSTRACT**  
+Large Transformer-based language models can route and reshape complex information via their multi-headed attention mechanism. Although the attention never receives explicit supervision, it can exhibit recognizable patterns following linguistic or positional information. Analyzing the learned representations and attentions is paramount to furthering our understanding of the inner workings of these models. However, analyses have to catch up with the rapid release of new models and the growing diversity of investigation techniques. To support analysis for a wide variety of models, we introduce exBERT, a tool to help humans conduct flexible, interactive investigations and formulate hypotheses for the model-internal reasoning process. exBERT provides insights into the meaning of the contextual representations and attention by matching a human-specified input to similar contexts in large annotated datasets. By aggregating the annotations of the matched contexts, exBERT can quickly replicate findings from literature and extend them to previously not analyzed models.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+Self-Attention Headsの可視化に関しても，様々なツールが開発されている．
+---
+例えば，Vig (2019)，Hoover et al. (2019)など．
+{{< /fa-arrow-right-list >}}
+
+---
+
+#### Attention to Special Tokens
+
+---
+
+{{< ci-details summary="Kovaleva et al. (2019)" >}}
+Olga Kovaleva, Alexey Romanov, Anna Rogers, Anna Rumshisky. (2019)  
+**Revealing the Dark Secrets of BERT**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/d78aed1dac6656affa4a04cbf225ced11a83d103)  
+Influential Citation Count (34), SS-ID (d78aed1dac6656affa4a04cbf225ced11a83d103)  
+
+**ABSTRACT**  
+BERT-based architectures currently give state-of-the-art performance on many NLP tasks, but little is known about the exact mechanisms that contribute to its success. In the current work, we focus on the interpretation of self-attention, which is one of the fundamental underlying components of BERT. Using a subset of GLUE tasks and a set of handcrafted features-of-interest, we propose the methodology and carry out a qualitative and quantitative analysis of the information encoded by the individual BERT’s heads. Our findings suggest that there is a limited set of attention patterns that are repeated across different heads, indicating the overall model overparametrization. While different heads consistently use the same attention patterns, they have varying impact on performance across different tasks. We show that manually disabling attention in certain heads leads to a performance improvement over the regular fine-tuned BERT models.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+一つのモデルの中で言語情報を直接エンコードされているSelf-Attention Headsはほとんどない（少なくともGLUEでFine-tuningした場合においては）．なぜならば，Self-Attention Headsのうち `heterogeneous` の[パターン](#self-attention-heads)を示したHeadは50%にも満たなかったからである．
+---
+なお，多くのHeadは `vertical` パターンを示した．
+---
+この冗長性の問題はモデルの過学習と関連しているのではないかと考えられている．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Kobayashi et al. (2020) " >}}
+Goro Kobayashi, Tatsuki Kuribayashi, Sho Yokoi, Kentaro Inui. (2020)  
+**Attention Module is Not Only a Weight: Analyzing Transformers with Vector Norms**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/2a8e42995caaedadc9dc739d85bed2c57fc78568)  
+Influential Citation Count (0), SS-ID (2a8e42995caaedadc9dc739d85bed2c57fc78568)  
+
+**ABSTRACT**  
+Attention is a key component of Transformers, which have recently achieved considerable success in natural language processing. Hence, attention is being extensively studied to investigate various linguistic capabilities of Transformers, focusing on analyzing the parallels between attention weights and specific linguistic phenomena. This paper shows that attention weights alone are only one of the two factors that determine the output of attention and proposes a norm-based analysis that incorporates the second factor, the norm of the transformed input vectors. The findings of our norm-based analyses of BERT and a Transformer-based neural machine translation system include the following: (i) contrary to previous studies, BERT pays poor attention to special tokens, and (ii) reasonable word alignment can be extracted from attention mechanisms of Transformer. These findings provide insights into the inner workings of Transformers.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+入力ベクトルに対してSelf-Attention Headで重み付けしたベクトルのノルムは直感的に理解しやすいアウトプットになるが，これらのノルムはspecial tokensに対してはあまり反応しなかった．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Lin et al. (2019)" >}}
+Yongjie Lin, Y. Tan, R. Frank. (2019)  
+**Open Sesame: Getting inside BERT’s Linguistic Knowledge**  
+BlackboxNLP@ACL  
+[Paper Link](https://www.semanticscholar.org/paper/165d51a547cd920e6ac55660ad5c404dcb9562ed)  
+Influential Citation Count (18), SS-ID (165d51a547cd920e6ac55660ad5c404dcb9562ed)  
+
+**ABSTRACT**  
+How and to what extent does BERT encode syntactically-sensitive hierarchical information or positionally-sensitive linear information? Recent work has shown that contextual representations like BERT perform well on tasks that require sensitivity to linguistic structure. We present here two studies which aim to provide a better understanding of the nature of BERT’s representations. The first of these focuses on the identification of structurally-defined elements using diagnostic classifiers, while the second explores BERT’s representation of subject-verb agreement and anaphor-antecedent dependencies through a quantitative assessment of self-attention vectors. In both cases, we find that BERT encodes positional information about word tokens well on its lower layers, but switches to a hierarchically-oriented encoding on higher layers. We conclude then that BERT’s representations do indeed model linguistically relevant aspects of hierarchical structure, though they do not appear to show the sharp sensitivity to hierarchical structure that is found in human processing of reflexive anaphora.
+{{< /ci-details >}}
+
+{{< ci-details summary="Htut et al. (2019)" >}}
+Phu Mon Htut, Jason Phang, Shikha Bordia, Samuel R. Bowman. (2019)  
+**Do Attention Heads in BERT Track Syntactic Dependencies?**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/ba8215e77f35b0d947c7cec39c45df4516e93421)  
+Influential Citation Count (12), SS-ID (ba8215e77f35b0d947c7cec39c45df4516e93421)  
+
+**ABSTRACT**  
+We investigate the extent to which individual attention heads in pretrained transformer language models, such as BERT and RoBERTa, implicitly capture syntactic dependency relations. We employ two methods---taking the maximum attention weight and computing the maximum spanning tree---to extract implicit dependency relations from the attention weights of each layer/head, and compare them to the ground-truth Universal Dependency (UD) trees. We show that, for some UD relation types, there exist heads that can recover the dependency type significantly better than baselines on parsed English text, suggesting that some self-attention heads act as a proxy for syntactic structure. We also analyze BERT fine-tuned on two datasets---the syntax-oriented CoLA and the semantics-oriented MNLI---to investigate whether fine-tuning affects the patterns of their self-attention, but we do not observe substantial differences in the overall dependency relations extracted using our methods. Our results suggest that these models have some specialist attention heads that track individual dependency types, but no generalist head that performs holistic parsing significantly better than a trivial baseline, and that analyzing attention weights directly may not reveal much of the syntactic knowledge that BERT-style models are known to learn.
+
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+BERT系のモデルの実装においてよく採用される方法は，単語間のAttentionを重視し，`special tokens`は除外する，というものである．
+---
+しかし，タスクの推論が，実は`special tokens`に強く依存するものだった場合，単語間のAttentionのみによって得られた推論結果は精度を保証されない可能性が高くなる．
+---
+実のところ，`special tokens`の機能については，まだあまり理解が進んでいない．`[CLS]`は`special token`のひとつかもしれないが，BERTの学習においては各Headの情報がこの`[CLS]`というトークンに集約されるため，このトークンには`special token`以外の言語情報も多く含まれていると考えられる．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Clark et al. (2019)" >}}
+Kevin Clark, Urvashi Khandelwal, Omer Levy, Christopher D. Manning. (2019)  
+**What Does BERT Look at? An Analysis of BERT’s Attention**  
+BlackboxNLP@ACL  
+[Paper Link](https://www.semanticscholar.org/paper/95a251513853c6032bdecebd4b74e15795662986)  
+Influential Citation Count (74), SS-ID (95a251513853c6032bdecebd4b74e15795662986)  
+
+**ABSTRACT**  
+Large pre-trained neural networks such as BERT have had great recent success in NLP, motivating a growing body of research investigating what aspects of language they are able to learn from unlabeled data. Most recent analysis has focused on model outputs (e.g., language model surprisal) or internal vector representations (e.g., probing classifiers). Complementary to these works, we propose methods for analyzing the attention mechanisms of pre-trained models and apply them to BERT. BERT’s attention heads exhibit patterns such as attending to delimiter tokens, specific positional offsets, or broadly attending over the whole sentence, with heads in the same layer often exhibiting similar behaviors. We further show that certain attention heads correspond well to linguistic notions of syntax and coreference. For example, we find heads that attend to the direct objects of verbs, determiners of nouns, objects of prepositions, and coreferent mentions with remarkably high accuracy. Lastly, we propose an attention-based probing classifier and use it to further demonstrate that substantial syntactic information is captured in BERT’s attention.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+Clark et al. (2019)はWikipediaの文章を使ってBERTがどの程度spetial tokensを重視しているが実験を実施した．
+---
+実験結果によれば，入力に近いレイヤでは`[CLS]`が，中間レイヤでは`[SEP]`が，出力に近いレイヤではピリオドとカンマに高い重みが割り当てられていることがわかった．
+---
+Clark et al. (2019)では，これらのspecial tokensはある種の`no-op`的な機能を持っているのではないかという仮説を立てている．つまり，各ヘッドが今扱っているケースに対して適用可能かどうかを，これらのspecial tokensを使って判断しているのではないかということである．
+---
+興味深いことに，BERTは句読点（punctuation）をかなり重要視している．句読点はspecial tokensと並んで頻繁に出現するものであるため，上記と同じような扱われ方をしているのではないかと考えられている．
+{{< /fa-arrow-right-list >}}
+
+---
 
 ### BERT Layers
 
 ## Training BERT
 
+### Model Arcitecture Choices
+
+### Improvements to the Training Regime
+
+### Pre-training BERT
+
+### Fine-tuning BERT
+
 ## How Big Should BERT Be?
+
+### Overparameterization
+
+### Compression Techniques
+
+### Pruning and Model Analysis
 
 ## Directions for Further Research
 

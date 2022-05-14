@@ -21,7 +21,7 @@ draft: false
 title: "TITLE"
 date: {datetime.now().strftime('%Y-%m-%d')}
 author: "akitenkrad"
-description: "DESCRIPTION"
+description: ""
 tags: ["Round-1"]
 menu:
   sidebar:
