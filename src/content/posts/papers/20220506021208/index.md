@@ -1257,6 +1257,135 @@ Tenney et al. (2019)によれば，文法的な情報はモデルの前半のレ
 
 ### Model Arcitecture Choices
 
+---
+
+{{< ci-details summary="Wang et al (2019)" >}}
+Karthikeyan K, Zihan Wang, Stephen Mayhew, D. Roth. (2019)  
+**Cross-Lingual Ability of Multilingual BERT: An Empirical Study**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/3b2538f84812f434c740115c185be3e5e216c526)  
+Influential Citation Count (7), SS-ID (3b2538f84812f434c740115c185be3e5e216c526)  
+
+**ABSTRACT**  
+Recent work has exhibited the surprising cross-lingual abilities of multilingual BERT (M-BERT) -- surprising since it is trained without any cross-lingual objective and with no aligned data. In this work, we provide a comprehensive study of the contribution of different components in M-BERT to its cross-lingual ability. We study the impact of linguistic properties of the languages, the architecture of the model, and the learning objectives. The experimental study is done in the context of three typologically different languages -- Spanish, Hindi, and Russian -- and using two conceptually different NLP tasks, textual entailment and named entity recognition. Among our key conclusions is the fact that the lexical overlap between languages plays a negligible role in the cross-lingual success, while the depth of the network is an integral part of it. All our models and implementations can be found on our project page: this http URL .
+{{< /ci-details >}}
+
+{{< ci-details summary="Voita et al. (2019)" >}}
+Elena Voita, David Talbot, F. Moiseev, Rico Sennrich, Ivan Titov. (2019)  
+**Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest Can Be Pruned**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/07a64686ce8e43ac475a8d820a8a9f1d87989583)  
+Influential Citation Count (49), SS-ID (07a64686ce8e43ac475a8d820a8a9f1d87989583)  
+
+**ABSTRACT**  
+Multi-head self-attention is a key component of the Transformer, a state-of-the-art architecture for neural machine translation. In this work we evaluate the contribution made by individual attention heads to the overall performance of the model and analyze the roles played by them in the encoder. We find that the most important and confident heads play consistent and often linguistically-interpretable roles. When pruning heads using a method based on stochastic gates and a differentiable relaxation of the L0 penalty, we observe that specialized heads are last to be pruned. Our novel pruning method removes the vast majority of heads without seriously affecting performance. For example, on the English-Russian WMT dataset, pruning 38 out of 48 encoder heads results in a drop of only 0.15 BLEU.
+{{< /ci-details >}}
+
+{{< ci-details summary="Michel et al. (2019)" >}}
+Paul Michel, Omer Levy, Graham Neubig. (2019)  
+**Are Sixteen Heads Really Better than One?**  
+NeurIPS  
+[Paper Link](https://www.semanticscholar.org/paper/b03c7ff961822183bab66b2e594415e585d3fd09)  
+Influential Citation Count (49), SS-ID (b03c7ff961822183bab66b2e594415e585d3fd09)  
+
+**ABSTRACT**  
+Attention is a powerful and ubiquitous mechanism for allowing neural models to focus on particular salient pieces of information by taking their weighted average when making predictions. In particular, multi-headed attention is a driving force behind many recent state-of-the-art NLP models such as Transformer-based MT models and BERT. These models apply multiple attention mechanisms in parallel, with each attention "head" potentially focusing on different parts of the input, which makes it possible to express sophisticated functions beyond the simple weighted average. In this paper we make the surprising observation that even if models have been trained using multiple heads, in practice, a large percentage of attention heads can be removed at test time without significantly impacting performance. In fact, some layers can even be reduced to a single head. We further examine greedy algorithms for pruning down models, and the potential speed, memory efficiency, and accuracy improvements obtainable therefrom. Finally, we analyze the results with respect to which parts of the model are more reliant on having multiple heads, and provide precursory evidence that training dynamics play a role in the gains provided by multi-head attention.
+{{< /ci-details >}}
+
+{{< ci-details summary="Liu et al. (2019)" >}}
+Nelson F. Liu, Matt Gardner, Y. Belinkov, Matthew E. Peters, Noah A. Smith. (2019)  
+**Linguistic Knowledge and Transferability of Contextual Representations**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
+Influential Citation Count (108), SS-ID (f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
+
+**ABSTRACT**  
+Contextual word representations derived from large-scale neural language models are successful across a diverse set of NLP tasks, suggesting that they encode useful and transferable features of language. To shed light on the linguistic knowledge they capture, we study the representations produced by several recent pretrained contextualizers (variants of ELMo, the OpenAI transformer language model, and BERT) with a suite of sixteen diverse probing tasks. We find that linear models trained on top of frozen contextual representations are competitive with state-of-the-art task-specific models in many cases, but fail on tasks requiring fine-grained linguistic knowledge (e.g., conjunct identification). To investigate the transferability of contextual word representations, we quantify differences in the transferability of individual layers within contextualizers, especially between recurrent neural networks (RNNs) and transformers. For instance, higher layers of RNNs are more task-specific, while transformer layers do not exhibit the same monotonic trend. In addition, to better understand what makes contextual word representations transferable, we compare language model pretraining with eleven supervised pretraining tasks. For any given task, pretraining on a closely related task yields better performance than language model pretraining (which is better on average) when the pretraining dataset is fixed. However, language model pretraining on more data gives the best results.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+論文執筆時点で，BERTのアーキテクチャに関して最もシステマチックな解析を実施したのはWang et al. (2019)である．Wang et al. (2019)では，レイヤの数，Self-Attention Heads，モデルのパラメータをそれぞれ一つずつ変化させて実験を実施した．その結果，Self-Attention Headsの数はレイヤの数に比べてモデルの精度にそれほど大きな影響を与えないという結論に達した．
+---
+上記の結論は，Voita et al. (2019)，Michel et al. (2019), Liu et al. (2019)，においても支持されている．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Liu et al. (2019)" >}}
+Nelson F. Liu, Matt Gardner, Y. Belinkov, Matthew E. Peters, Noah A. Smith. (2019)  
+**Linguistic Knowledge and Transferability of Contextual Representations**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
+Influential Citation Count (108), SS-ID (f6fbb6809374ca57205bd2cf1421d4f4fa04f975)  
+
+**ABSTRACT**  
+Contextual word representations derived from large-scale neural language models are successful across a diverse set of NLP tasks, suggesting that they encode useful and transferable features of language. To shed light on the linguistic knowledge they capture, we study the representations produced by several recent pretrained contextualizers (variants of ELMo, the OpenAI transformer language model, and BERT) with a suite of sixteen diverse probing tasks. We find that linear models trained on top of frozen contextual representations are competitive with state-of-the-art task-specific models in many cases, but fail on tasks requiring fine-grained linguistic knowledge (e.g., conjunct identification). To investigate the transferability of contextual word representations, we quantify differences in the transferability of individual layers within contextualizers, especially between recurrent neural networks (RNNs) and transformers. For instance, higher layers of RNNs are more task-specific, while transformer layers do not exhibit the same monotonic trend. In addition, to better understand what makes contextual word representations transferable, we compare language model pretraining with eleven supervised pretraining tasks. For any given task, pretraining on a closely related task yields better performance than language model pretraining (which is better on average) when the pretraining dataset is fixed. However, language model pretraining on more data gives the best results.
+{{< /ci-details >}}
+
+{{< ci-details summary="Hao et al. (2019)" >}}
+Y. Hao, Li Dong, Furu Wei, Ke Xu. (2019)  
+**Visualizing and Understanding the Effectiveness of BERT**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/d3cacb4806886eb2fe59c90d4b6f822c24ff1822)  
+Influential Citation Count (3), SS-ID (d3cacb4806886eb2fe59c90d4b6f822c24ff1822)  
+
+**ABSTRACT**  
+Language model pre-training, such as BERT, has achieved remarkable results in many NLP tasks. However, it is unclear why the pre-training-then-fine-tuning paradigm can improve performance and generalization capability across different tasks. In this paper, we propose to visualize loss landscapes and optimization trajectories of fine-tuning BERT on specific datasets. First, we find that pre-training reaches a good initial point across downstream tasks, which leads to wider optima and easier optimization compared with training from scratch. We also demonstrate that the fine-tuning procedure is robust to overfitting, even though BERT is highly over-parameterized for downstream tasks. Second, the visualization results indicate that fine-tuning BERT tends to generalize better because of the flat and wide optima, and the consistency between the training loss surface and the generalization error surface. Third, the lower layers of BERT are more invariant during fine-tuning, which suggests that the layers that are close to input learn more transferable representations of language.
+{{< /ci-details >}}
+
+{{< ci-details summary="Brunner et al. (2020)" >}}
+Gino Brunner, Yang Liu, Damian Pascual, Oliver Richter, Massimiliano Ciaramita, Roger Wattenhofer. (2019)  
+**On Identifiability in Transformers**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/9d7fbdb2e9817a6396992a1c92f75206689852d9)  
+Influential Citation Count (13), SS-ID (9d7fbdb2e9817a6396992a1c92f75206689852d9)  
+
+**ABSTRACT**  
+In this paper we delve deep in the Transformer architecture by investigating two of its core components: self-attention and contextual embeddings. In particular, we study the identifiability of attention weights and token embeddings, and the aggregation of context into hidden tokens. We show that, for sequences longer than the attention head dimension, attention weights are not identifiable. We propose effective attention as a complementary tool for improving explanatory interpretations based on attention. Furthermore, we show that input tokens retain to a large degree their identity across the model. We also find evidence suggesting that identity information is mainly encoded in the angle of the embeddings and gradually decreases with depth. Finally, we demonstrate strong mixing of input information in the generation of contextual embeddings by means of a novel quantification method based on gradient attribution. Overall, we show that self-attention distributions are not directly interpretable and present tools to better understand and further investigate Transformer models.
+{{< /ci-details >}}
+
+{{< ci-details summary="Kovaleva et al. (2019)" >}}
+Olga Kovaleva, Alexey Romanov, Anna Rogers, Anna Rumshisky. (2019)  
+**Revealing the Dark Secrets of BERT**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/d78aed1dac6656affa4a04cbf225ced11a83d103)  
+Influential Citation Count (34), SS-ID (d78aed1dac6656affa4a04cbf225ced11a83d103)  
+
+**ABSTRACT**  
+BERT-based architectures currently give state-of-the-art performance on many NLP tasks, but little is known about the exact mechanisms that contribute to its success. In the current work, we focus on the interpretation of self-attention, which is one of the fundamental underlying components of BERT. Using a subset of GLUE tasks and a set of handcrafted features-of-interest, we propose the methodology and carry out a qualitative and quantitative analysis of the information encoded by the individual BERT’s heads. Our findings suggest that there is a limited set of attention patterns that are repeated across different heads, indicating the overall model overparametrization. While different heads consistently use the same attention patterns, they have varying impact on performance across different tasks. We show that manually disabling attention in certain heads leads to a performance improvement over the regular fine-tuned BERT models.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+Self-Attention Headsの数とレイヤの数はそれぞれ別の機能として作用する．
+---
+モデルの深さは情報の流れに作用すると考えて間違いない．最終層に近いほどタスクに特化した特徴を持ち，入力層に近ければタスクに関する特徴ではなく入力されたトークンに関する情報をより多く保持するようになる．もしこの仮説が正しければ，層が深ければ深いほどモデル全体としてはタスクに特化しない情報を多く蓄えることができるようになる．
+---
+一方で，Self-Attention Headsは基本的にいずれのHeadも同じようなパターンを学習しているものと考えらえれる．例えば，Pruningによってモデルの精度に大きな影響が出ない理由はこのあたりにありそうである．
+---
+Self-Attention Headsにどの程度多様性を持たせることができるか，という点は研究に値する．今のままでは理論的には複数のレイヤで同じ情報をパラメータの重みとして保持してしまっていることになるからである．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Press et al. (2020)" >}}
+Ofir Press, Noah A. Smith, Omer Levy. (2019)  
+**Improving Transformer Models by Reordering their Sublayers**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/3ff8d265f4351e4b1fdac5b586466bee0b5d6fff)  
+Influential Citation Count (2), SS-ID (3ff8d265f4351e4b1fdac5b586466bee0b5d6fff)  
+
+**ABSTRACT**  
+Multilayer transformer networks consist of interleaved self-attention and feedforward sublayers. Could ordering the sublayers in a different pattern lead to better performance? We generate randomly ordered transformers and train them with the language modeling objective. We observe that some of these models are able to achieve better performance than the interleaved baseline, and that those successful variants tend to have more self-attention at the bottom and more feedforward sublayers at the top. We propose a new transformer pattern that adheres to this property, the sandwich transformer, and show that it improves perplexity on multiple word-level and character-level language modeling benchmarks, at no cost in parameters, memory, or training time. However, the sandwich reordering pattern does not guarantee performance gains across every task, as we demonstrate on machine translation models. Instead, we suggest that further exploration of task-specific sublayer reorderings is needed in order to unlock additional gains.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+BERTはSelf-AttentionとFeed-Forwardレイヤに関して対称的でバランスが取れている（is symmetric and balanced）が，これは必ずしもそうである必要はない．
+---
+Press et al. (2020)によれば，Self-Attentionレイヤに関しては，最終層に近いレイヤから有益な情報が得られ，一方でFeed-Forwardレイヤに関しては入力層に近いレイヤから良い情報が得られることが多いという．
+{{< /fa-arrow-right-list >}}
+
+---
+
 ### Improvements to the Training Regime
 
 ### Pre-training BERT
