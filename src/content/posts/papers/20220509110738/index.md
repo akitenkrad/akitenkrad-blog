@@ -189,51 +189,245 @@ $$
 
 #### Paper sources
 
-##### Curated Lists
+サーベイの論文取得元一覧
 
-| Name | Link | Description |
-|:-----|:-----|:------------|
-| by Chen               | https://github.com/chihming/              | awesome-network-embedding |
-| by Rozemberczki       | https://github.com/benedekrozemberczki/   | awesome-graph-classification |
-| by Rebo               | https://github.com/MaxwellRebo/           | awesome-2vec |
-| by Soru               | https://gist.github.com/mommi84/          | awesome-kge |
+| Category | Name | Link | Description |
+|:---------|:-----|:-----|:------------|
+| Curated List | by Chen         | https://github.com/chihming/         | awesome-network-embedding |
+| Curated List | by Rozemberczki | https://github.com/benedekrozemberczki/ | awesome-graph-classification |
+| Curated List | by Rebo         | https://github.com/MaxwellRebo/      | awesome-2vec |
+| Curated List | by Soru         | https://gist.github.com/mommi84/     | awesome-kge |
+| Conferences | Complex Networks | https://complexnetworks.org/         | International Conference on Complex Networks and their Applications |
+| Conferences | The Web          | https://www2020.thewebconf.org/      | The Web Conference is international conference on the World Wide Web. |
+| Conferences | WSDM             | http://www.wsdm-conference.org/      | Web-inspired research involving search and data mining |
+| Conferences | IJCAI            | https://www.ijcai.org/               | International Joint Conferences on Artificial Intelligence |
+| Conferences | AAAI             | https://www.aaai.org/                | Association for the Advancement of Artificial Intelligence |
+| Conferences | ICML             | https://icml.cc/                     | International Conference on Machine Learning |
+| Conferences | SIGKDD           | https://www.kdd.org/                 | Special Interest Group in Knowledge Discovery and Databases |
+| Domain Conferences | ACL       | http://www.acl2019.org/              | Association for Computational Linguistics |
+| Domain Conferences | CVPR      | http://cvpr2019.thecvf.com/          | Conference on Computer Vision and Pattern Recognition |
+| Publishers | ACM DL            | https://dl.acm.org/                  | Full-text articles database by Association for Computing Machinery |
+| Publishers | IEEE Xplore | https://ieeexplore.ieee.org/Xplore/home.jsp | Research published by Institute of Electrical and Electronics Engineers | 
+| Publishers | Link Springer     | https://link.springer.com/           | Online collection of scientific journals, books and reference works |
+| Indexing Services | Scopus         | https://www.scopus.com/          | Abstract and citation database |
+| Indexing Services | Web of Science | https://www.webofknowledge.com/  | Citation Indexer |
+| Indexing Services | Scholar Google | https://scholar.google.com/      | Web search engine for indexing full-text papers or its metadata
 
-##### Conferences
+<br/>
+論文収集時に使用したキーワード
 
-| Name | Link | Description |
-|:-----|:-----|:------------|
-| Complex Networks      | https://complexnetworks.org/    | International Conference on Complex Networks and their Applications |
-| The Web               | https://www2020.thewebconf.org/ | The Web Conference is international conference on the World Wide Web. |
-| WSDM                  | http://www.wsdm-conference.org/ | Web-inspired research involving search and data mining |
-| IJCAI                 | https://www.ijcai.org/          | International Joint Conferences on Artificial Intelligence |
-| AAAI                  | https://www.aaai.org/           | Association for the Advancement of Artificial Intelligence |
-| ICML                  | https://icml.cc/                | International Conference on Machine Learning |
-| SIGKDD                | https://www.kdd.org/            | Special Interest Group in Knowledge Discovery and Databases |
-
-##### Domain conferences
-
-| Name | Link | Description |
-|:-----|:-----|:------------|
-| ACL                   | http://www.acl2019.org/         | Association for Computational Linguistics |
-| CVPR                  | http://cvpr2019.thecvf.com/     | Conference on Computer Vision and Pattern Recognition |
-
-##### Publishers
-
-| Name | Link | Description |
-|:-----|:-----|:------------|
-| ACM DL                | https://dl.acm.org/             | Full-text articles database by Association for Computing Machinery |
-| IEEE Xplore           | https://ieeexplore.ieee.org/Xplore/home.jsp | Research published by Institute of Electrical and Electronics Engineers | 
-| Link Springer         | https://link.springer.com/      | Online collection of scientific journals, books and reference works |
-
-##### Indexing services
-
-| Name | Link | Description |
-|:-----|:-----|:------------|
-| Scopus                | https://www.scopus.com/         | Abstract and citation database |
-| Web of Science        | https://www.webofknowledge.com/ | Citation Indexer |
-| Scholar Google        | https://scholar.google.com/     | Web search engine for indexing full-text papers or its metadata
+- graph/network embeddings
+- graph/network representation
+- graph neural networks
+- graph convolutional networks
+- graph convolution
+- graph attention
+- graph/network classification/link prediction/clustering
+- deep learning for graphs
+- geometric deep learning
+- GCN
+- GNN
+- GAT
 
 ### Dimensionality reduction (matrix factorization) methods
+
+Factorizationモデルはグラフの構造を低次元の分散表現に写像する手法として様々な機械学習の分野でよく使われている．*graph similarity matrix* を用いている研究が多い．
+
+{{< box-with-title title="Definition 3 (Matrix Factorization)" >}}
+**Matrix Factorization** is a decomposition of a matrix to the product of matrices. In this sense, the first matrix in series is named self node representation and the last matrix refers to node context.
+{{< /box-with-title >}}
+
+- 行列分解系の手法
+  - MDS (Multi-Dimensional Scaling; 多次元尺度構成法)  
+    {{< ci-details summary="Kruskal J et al. (1978)" >}}
+Kruskal J, Wish M. (1978)  
+**Multidimensional Scaling**  
+New York: SAGE Publications
+    {{< /ci-details >}}
+  - LSI (Latent Semantic Indexing)
+    {{< ci-details summary="Deerwester et al. (1990)" >}}
+S. Deerwester, S. Dumais, G. Furnas, T. Landauer, R. Harshman. (1990)  
+**Indexing by Latent Semantic Analysis**  
+
+[Paper Link](https://www.semanticscholar.org/paper/e5305866d701a2c102c5f81fbbf48bf6ac29f252)  
+Influential Citation Count (950), SS-ID (e5305866d701a2c102c5f81fbbf48bf6ac29f252)  
+
+**ABSTRACT**  
+A new method for automatic indexing and retrieval is described. The approach is to take advantage of implicit higher-order structure in the association of terms with documents (“semantic structure”) in order to improve the detection of relevant documents on the basis of terms found in queries. The particular technique used is singular-value decomposition, in which a large term by document matrix is decomposed into a set of ca. 100 orthogonal factors from which the original matrix can be approximated by linear combination. Documents are represented by ca. 100 item vectors of factor weights. Queries are represented as pseudo-document vectors formed from weighted combinations of terms, and documents with supra-threshold cosine values are returned. initial tests find this completely automatic method for retrieval to be promising.
+    {{< /ci-details >}}
+  - LDA (Latent Dirichlet Allocation)の拡張
+    {{< ci-details summary="Martinez & Kak (2001)" >}}
+Aleix M. Martinez, A. Kak. (2001)  
+**PCA versus LDA**  
+IEEE Trans. Pattern Anal. Mach. Intell.  
+[Paper Link](https://www.semanticscholar.org/paper/d544475dc01daa0c4f9847ef72adb8878df8ce99)  
+Influential Citation Count (241), SS-ID (d544475dc01daa0c4f9847ef72adb8878df8ce99)  
+
+**ABSTRACT**  
+In the context of the appearance-based paradigm for object recognition, it is generally believed that algorithms based on LDA (linear discriminant analysis) are superior to those based on PCA (principal components analysis). In this communication, we show that this is not always the case. We present our case first by using intuitively plausible arguments and, then, by showing actual results on a face database. Our overall conclusion is that when the training data set is small, PCA can outperform LDA and, also, that PCA is less sensitive to different training data sets.
+    {{< /ci-details >}}
+- グラフからProximity Matrixを構成する方法
+  - IsoMap
+    {{< ci-details summary="Tenenbaum, De Silva & Langford (2000)" >}}
+J. Tenenbaum, V. De Silva, J. Langford. (2000)  
+**A global geometric framework for nonlinear dimensionality reduction.**  
+Science  
+[Paper Link](https://www.semanticscholar.org/paper/3537fcd0ff99a3b3cb3d279012df826358420556)  
+Influential Citation Count (1143), SS-ID (3537fcd0ff99a3b3cb3d279012df826358420556)  
+
+**ABSTRACT**  
+Scientists working with large volumes of high-dimensional data, such as global climate patterns, stellar spectra, or human gene distributions, regularly confront the problem of dimensionality reduction: finding meaningful low-dimensional structures hidden in their high-dimensional observations. The human brain confronts the same problem in everyday perception, extracting from its high-dimensional sensory inputs-30,000 auditory nerve fibers or 10(6) optic nerve fibers-a manageably small number of perceptually relevant features. Here we describe an approach to solving dimensionality reduction problems that uses easily measured local metric information to learn the underlying global geometry of a data set. Unlike classical techniques such as principal component analysis (PCA) and multidimensional scaling (MDS), our approach is capable of discovering the nonlinear degrees of freedom that underlie complex natural observations, such as human handwriting or images of a face under different viewing conditions. In contrast to previous algorithms for nonlinear dimensionality reduction, ours efficiently computes a globally optimal solution, and, for an important class of data manifolds, is guaranteed to converge asymptotically to the true structure.
+    {{< /ci-details >}}
+  - LLE (Locally Linear Embedding)
+    {{< ci-details summary="Roweis & Saul (2000)" >}}
+S. Roweis, L. Saul. (2000)  
+**Nonlinear dimensionality reduction by locally linear embedding.**  
+Science  
+[Paper Link](https://www.semanticscholar.org/paper/afcd6da7637ddeef6715109aca248da7a24b1c65)  
+Influential Citation Count (1523), SS-ID (afcd6da7637ddeef6715109aca248da7a24b1c65)  
+
+**ABSTRACT**  
+Many areas of science depend on exploratory data analysis and visualization. The need to analyze large amounts of multivariate data raises the fundamental problem of dimensionality reduction: how to discover compact representations of high-dimensional data. Here, we introduce locally linear embedding (LLE), an unsupervised learning algorithm that computes low-dimensional, neighborhood-preserving embeddings of high-dimensional inputs. Unlike clustering methods for local dimensionality reduction, LLE maps its inputs into a single global coordinate system of lower dimensionality, and its optimizations do not involve local minima. By exploiting the local symmetries of linear reconstructions, LLE is able to learn the global structure of nonlinear manifolds, such as those generated by images of faces or documents of text.
+    {{< /ci-details >}}
+  - LPP (Locality Preserving Projections)
+    {{< ci-details summary="He & Niyogi (2004)" >}}
+Xiaofei He, P. Niyogi. (2003)  
+**Locality Preserving Projections**  
+NIPS  
+[Paper Link](https://www.semanticscholar.org/paper/75335244b49f4d1bb27aa51f1690bbefbbe1c3d1)  
+Influential Citation Count (791), SS-ID (75335244b49f4d1bb27aa51f1690bbefbbe1c3d1)  
+
+**ABSTRACT**  
+Many problems in information processing involve some form of dimensionality reduction. In this paper, we introduce Locality Preserving Projections (LPP). These are linear projective maps that arise by solving a variational problem that optimally preserves the neighborhood structure of the data set. LPP should be seen as an alternative to Principal Component Analysis (PCA) – a classical linear technique that projects the data along the directions of maximal variance. When the high dimensional data lies on a low dimensional manifold embedded in the ambient space, the Locality Preserving Projections are obtained by finding the optimal linear approximations to the eigenfunctions of the Laplace Beltrami operator on the manifold. As a result, LPP shares many of the data representation properties of nonlinear techniques such as Laplacian Eigenmaps or Locally Linear Embedding. Yet LPP is linear and more crucially is defined everywhere in ambient space rather than just on the training data points. This is borne out by illustrative examples on some high dimensional data sets.
+    {{< /ci-details >}}
+
+{{< box-with-title title="Definition 4 (Graph Laplacian)" >}}
+If matrix $D$ is the diagonal degree matrix, that is
+
+$$
+D=\text{diag}(\sum_jA_{ij})
+$$
+
+, then **Laplacian** matrix can be defined as
+
+$$
+L = D - A
+$$
+
+{{< /box-with-title >}}
+
+- LE (Laplacian Eigenmaps)
+  {{< ci-details summary="Belkin & Niyogi (2002)" >}}
+Mikhail Belkin, P. Niyogi. (2001)  
+**Laplacian Eigenmaps and Spectral Techniques for Embedding and Clustering**  
+NIPS  
+[Paper Link](https://www.semanticscholar.org/paper/9d16c547d15a08091e68c86a99731b14366e3f0d)  
+Influential Citation Count (356), SS-ID (9d16c547d15a08091e68c86a99731b14366e3f0d)  
+
+**ABSTRACT**  
+Drawing on the correspondence between the graph Laplacian, the Laplace-Beltrami operator on a manifold, and the connections to the heat equation, we propose a geometrically motivated algorithm for constructing a representation for data sampled from a low dimensional manifold embedded in a higher dimensional space. The algorithm provides a computationally efficient approach to nonlinear dimensionality reduction that has locality preserving properties and a natural connection to clustering. Several applications are considered.
+  {{< /ci-details >}}
+- Kernel Eigenmaps
+  {{< ci-details summary="Brand (2003)" >}}
+M. Brand. (2003)  
+**Continuous nonlinear dimensionality reduction by kernel Eigenmaps**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/99cd988b104202887ad9657b8a61baa7ff0581c1)  
+Influential Citation Count (5), SS-ID (99cd988b104202887ad9657b8a61baa7ff0581c1)  
+
+**ABSTRACT**  
+We equate nonlinear dimensionality reduction (NLDR) to graph embedding with side information about the vertices, and derive a solution to either problem in the form of a kernel-based mixture of affine maps from the ambient space to the target space. Unlike most spectral NLDR methods, the central eigenproblem can be made relatively small, and the result is a continuous mapping defined over the entire space, not just the datapoints. A demonstration is made to visualizing the distribution of word usages (as a proxy to word meanings) in a sample of the machine learning literature.
+{{< /ci-details >}}
+- Cauchy Embedding
+  {{< ci-details summary="Luo et al. (2011)" >}}
+Dijun Luo, C. Ding, F. Nie, Heng Huang. (2011)  
+**Cauchy Graph Embedding**  
+ICML  
+[Paper Link](https://www.semanticscholar.org/paper/6f390eee4c9a082e02843fb34046f653624e9b76)  
+Influential Citation Count (3), SS-ID (6f390eee4c9a082e02843fb34046f653624e9b76)  
+
+**ABSTRACT**  
+Laplacian embedding provides a low-dimensional representation for the nodes of a graph where the edge weights denote pair-wise similarity among the node objects. It is commonly assumed that the Laplacian embedding results preserve the local topology of the original data on the low-dimensional projected subspaces, i.e., for any pair of graph nodes with large similarity, they should be embedded closely in the embedded space. However, in this paper, we will show that the Laplacian embedding often cannot preserve local topology well as we expected. To enhance the local topology preserving property in graph embedding, we propose a novel Cauchy graph embedding which preserves the similarity relationships of the original data in the embedded space via a new objective. Consequentially the machine learning tasks (such as k Nearest Neighbor type classifications) can be easily conducted on the embedded data with better performance. The experimental results on both synthetic and real world benchmark data sets demonstrate the usefulness of this new type of embedding.
+  {{< /ci-details >}}
+- SPE (Structure Preserving Embedding)
+  {{< ci-details summary="Shaw & Jebara (2009)" >}}
+B. Shaw, T. Jebara. (2009)  
+**Structure preserving embedding**  
+ICML '09  
+[Paper Link](https://www.semanticscholar.org/paper/df30fe0aeac5a530c9499598251a3854fe45ee94)  
+Influential Citation Count (4), SS-ID (df30fe0aeac5a530c9499598251a3854fe45ee94)  
+
+**ABSTRACT**  
+Structure Preserving Embedding (SPE) is an algorithm for embedding graphs in Euclidean space such that the embedding is low-dimensional and preserves the global topological properties of the input graph. Topology is preserved if a connectivity algorithm, such as k-nearest neighbors, can easily recover the edges of the input graph from only the coordinates of the nodes after embedding. SPE is formulated as a semidefinite program that learns a low-rank kernel matrix constrained by a set of linear inequalities which captures the connectivity structure of the input graph. Traditional graph embedding algorithms do not preserve structure according to our definition, and thus the resulting visualizations can be misleading or less informative. SPE provides significant improvements in terms of visualization and lossless compression of graphs, outperforming popular methods such as spectral embedding and Laplacian eigen-maps. We find that many classical graphs and networks can be properly embedded using only a few dimensions. Furthermore, introducing structure preserving constraints into dimensionality reduction algorithms produces more accurate representations of high-dimensional data.
+  {{< /ci-details >}}
+- GF (Graph Factorization)
+  {{< ci-details summary="Ahmed et al. (2013)" >}}
+Amr Ahmed, N. Shervashidze, Shravan M. Narayanamurthy, V. Josifovski, Alex Smola. (2013)  
+**Distributed large-scale natural graph factorization**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/952bc3bc999be86d4b03a9c4af94c555c822aa11)  
+Influential Citation Count (30), SS-ID (952bc3bc999be86d4b03a9c4af94c555c822aa11)  
+
+**ABSTRACT**  
+Natural graphs, such as social networks, email graphs, or instant messaging patterns, have become pervasive through the internet. These graphs are massive, often containing hundreds of millions of nodes and billions of edges. While some theoretical models have been proposed to study such graphs, their analysis is still difficult due to the scale and nature of the data. We propose a framework for large-scale graph decomposition and inference. To resolve the scale, our framework is distributed so that the data are partitioned over a shared-nothing set of machines. We propose a novel factorization technique that relies on partitioning a graph so as to minimize the number of neighboring vertices rather than edges across partitions. Our decomposition is based on a streaming algorithm. It is network-aware as it adapts to the network topology of the underlying computational hardware. We use local copies of the variables and an efficient asynchronous communication protocol to synchronize the replicated values in order to perform most of the computation without having to incur the cost of network communication. On a graph of 200 million vertices and 10 billion edges, derived from an email communication network, our algorithm retains convergence properties while allowing for almost linear scalability in the number of computers.
+  {{< /ci-details >}}
+- GraRep
+  {{< ci-details summary="Cao, Lu & Xu (2016)" >}}
+Shaosheng Cao, Wei Lu, Qiongkai Xu. (2016)  
+**Deep Neural Networks for Learning Graph Representations**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/1a37f07606d60df365d74752857e8ce909f700b3)  
+Influential Citation Count (59), SS-ID (1a37f07606d60df365d74752857e8ce909f700b3)  
+
+**ABSTRACT**  
+In this paper, we propose a novel model for learning graph representations, which generates a low-dimensional vector representation for each vertex by capturing the graph structural information. Different from other previous research efforts, we adopt a random surfing model to capture graph structural information directly, instead of using the sampling-based method for generating linear sequences proposed by Perozzi et al. (2014). The advantages of our approach will be illustrated from both theorical and empirical perspectives. We also give a new perspective for the matrix factorization method proposed by Levy and Goldberg (2014), in which the pointwise mutual information (PMI) matrix is considered as an analytical solution to the objective function of the skip-gram model with negative sampling proposed by Mikolov et al. (2013). Unlike their approach which involves the use of the SVD for finding the low-dimensitonal projections from the PMI matrix, however, the stacked denoising autoencoder is introduced in our model to extract complex features and model non-linearities. To demonstrate the effectiveness of our model, we conduct experiments on clustering and visualization tasks, employing the learned vertex representations as features. Empirical results on datasets of varying sizes show that our model outperforms other stat-of-the-art models in such tasks.
+  {{< /ci-details >}}
+- HOPE
+  {{< ci-details summary="Ou et al. (2016)" >}}
+Mingdong Ou, Peng Cui, J. Pei, Ziwei Zhang, Wenwu Zhu. (2016)  
+**Asymmetric Transitivity Preserving Graph Embedding**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/07627bf7eb649220ffbcdf6bf233e3a4a76e8590)  
+Influential Citation Count (111), SS-ID (07627bf7eb649220ffbcdf6bf233e3a4a76e8590)  
+
+**ABSTRACT**  
+Graph embedding algorithms embed a graph into a vector space where the structure and the inherent properties of the graph are preserved. The existing graph embedding methods cannot preserve the asymmetric transitivity well, which is a critical property of directed graphs. Asymmetric transitivity depicts the correlation among directed edges, that is, if there is a directed path from u to v, then there is likely a directed edge from u to v. Asymmetric transitivity can help in capturing structures of graphs and recovering from partially observed graphs. To tackle this challenge, we propose the idea of preserving asymmetric transitivity by approximating high-order proximity which are based on asymmetric transitivity. In particular, we develop a novel graph embedding algorithm, High-Order Proximity preserved Embedding (HOPE for short), which is scalable to preserve high-order proximities of large scale graphs and capable of capturing the asymmetric transitivity. More specifically, we first derive a general formulation that cover multiple popular high-order proximity measurements, then propose a scalable embedding algorithm to approximate the high-order proximity measurements based on their general formulation. Moreover, we provide a theoretical upper bound on the RMSE (Root Mean Squared Error) of the approximation. Our empirical experiments on a synthetic dataset and three real-world datasets demonstrate that HOPE can approximate the high-order proximities significantly better than the state-of-art algorithms and outperform the state-of-art algorithms in tasks of reconstruction, link prediction and vertex recommendation.
+  {{< /ci-details >}}
+- M-NMF (Modularized Nonnegative Matrix Factorization)
+  {{< ci-details summary="Wang et al. (2017)" >}}
+Xiao Wang, Peng Cui, Jing Wang, J. Pei, Wenwu Zhu, Shiqiang Yang. (2017)  
+**Community Preserving Network Embedding**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/d3e0d596efd9d19b93d357565a68dfa925dce2bb)  
+Influential Citation Count (52), SS-ID (d3e0d596efd9d19b93d357565a68dfa925dce2bb)  
+
+**ABSTRACT**  
+Network embedding, aiming to learn the low-dimensional representations of nodes in networks, is of paramount importance in many real applications. One basic requirement of network embedding is to preserve the structure and inherent properties of the networks. While previous network embedding methods primarily preserve the microscopic structure, such as the first- and second-order proximities of nodes, the mesoscopic community structure, which is one of the most prominent feature of networks, is largely ignored. In this paper, we propose a novel Modularized Nonnegative Matrix Factorization (M-NMF) model to incorporate the community structure into network embedding. We exploit the consensus relationship between the representations of nodes and community structure, and then jointly optimize NMF based representation learning model and modularity based community detection model in a unified framework, which enables the learned representations of nodes to preserve both of the microscopic and community structures. We also provide efficient updating rules to infer the parameters of our model, together with the correctness and convergence guarantees. Extensive experimental results on a variety of real-world networks show the superior performance of the proposed method over the state-of-the-arts.
+  {{< /ci-details >}}
+- ATP (Asymmetric Transitivity Preservation)
+  {{< ci-details summary="Sun et al. (2018)" >}}
+Jiankai Sun, Bortik Bandyopadhyay, Armin Bashizade, Jiongqian Liang, P. Sadayappan, S. Parthasarathy. (2018)  
+**ATP: Directed Graph Embedding with Asymmetric Transitivity Preservation**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/b764d0070d07957d4b9621988ea3d020e9ecbe36)  
+Influential Citation Count (4), SS-ID (b764d0070d07957d4b9621988ea3d020e9ecbe36)  
+
+**ABSTRACT**  
+Directed graphs have been widely used in Community Question Answering services (CQAs) to model asymmetric relationships among different types of nodes in CQA graphs, e.g., question, answer, user. Asymmetric transitivity is an essential property of directed graphs, since it can play an important role in downstream graph inference and analysis. Question difficulty and user expertise follow the characteristic of asymmetric transitivity. Maintaining such properties, while reducing the graph to a lower dimensional vector embedding space, has been the focus of much recent research. In this paper, we tackle the challenge of directed graph embedding with asymmetric transitivity preservation and then leverage the proposed embedding method to solve a fundamental task in CQAs: how to appropriately route and assign newly posted questions to users with the suitable expertise and interest in CQAs. The technique incorporates graph hierarchy and reachability information naturally by relying on a nonlinear transformation that operates on the core reachability and implicit hierarchy within such graphs. Subsequently, the methodology levers a factorization-based approach to generate two embedding vectors for each node within the graph, to capture the asymmetric transitivity. Extensive experiments show that our framework consistently and significantly outperforms the state-of-the-art baselines on three diverse realworld tasks: link prediction, and question difficulty estimation and expert finding in online forums like Stack Exchange. Particularly, our framework can support inductive embedding learning for newly posted questions (unseen nodes during training), and therefore can properly route and assign these kinds of questions to experts in CQAs.
+  {{< /ci-details >}}
+- SDNE
+  {{< ci-details summary="Wang, Cui & Zhu (2016)" >}}
+Daixin Wang, Peng Cui, Wenwu Zhu. (2016)  
+**Structural Deep Network Embedding**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
+Influential Citation Count (223), SS-ID (d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
+
+**ABSTRACT**  
+Network embedding is an important method to learn low-dimensional representations of vertexes in networks, aiming to capture and preserve the network structure. Almost all the existing network embedding methods adopt shallow models. However, since the underlying network structure is complex, shallow models cannot capture the highly non-linear network structure, resulting in sub-optimal network representations. Therefore, how to find a method that is able to effectively capture the highly non-linear network structure and preserve the global and local structure is an open yet important problem. To solve this problem, in this paper we propose a Structural Deep Network Embedding method, namely SDNE. More specifically, we first propose a semi-supervised deep model, which has multiple layers of non-linear functions, thereby being able to capture the highly non-linear network structure. Then we propose to exploit the first-order and second-order proximity jointly to preserve the network structure. The second-order proximity is used by the unsupervised component to capture the global network structure. While the first-order proximity is used as the supervised information in the supervised component to preserve the local network structure. By jointly optimizing them in the semi-supervised deep model, our method can preserve both the local and global network structure and is robust to sparse networks. Empirically, we conduct the experiments on five real-world networks, including a language network, a citation network and three social networks. The results show that compared to the baselines, our method can reconstruct the original network significantly better and achieves substantial gains in three applications, i.e. multi-label classification, link prediction and visualization.
+  {{< /ci-details >}}
+
+FactorizationベースのEmbeddingは深く研究されている領域だが，グラフの規模が大きくなった場合に計算コストが非常に高くなるため，多くの研究では規模の大きなグラフに対しては小さな近傍に対してしか適用されていない．
 
 ### Sequence-based approaches
 
@@ -5513,3 +5707,8 @@ We present DeepWalk, a novel approach for learning latent representations of ver
 
 {{< /ci-details >}}
 
+{{< ci-details summary="Multidimensional Scaling (Kruskal J, Wish M. 1978.)" >}}
+Kruskal J, Wish M. (1978)  
+**Multidimensional Scaling**
+New York: SAGE Publications
+{{< /ci-details >}}

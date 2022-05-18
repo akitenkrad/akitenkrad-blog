@@ -1,5 +1,5 @@
 <style>
-    blockquote.citation {
+    div.details-citation {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
         position: relative;
@@ -10,7 +10,7 @@
         border: solid 3px #585858;
     }
 
-    blockquote.citation:before {
+    div.details-citation:before {
         padding-top: 6px;
         display: inline-block;
         position: absolute;
@@ -28,7 +28,7 @@
         font-size: 28px;
     }
 
-    blockquote.citation:after {
+    div.details-citation:after {
         padding-top: 6px;
         display: inline-block;
         position: absolute;
@@ -47,14 +47,14 @@
         font-weight: 900;
     }
 
-    blockquote.citation p.citation {
+    div.details-citation p.citation {
         padding: 0;
         margin: 10px 0;
         margin-left: 1.5rem;
         line-height: 1.7;
     }
 
-    blockquote.citation cite {
+    div.details-citation cite {
         display: block;
         text-align: right;
         color: #888888;
@@ -95,12 +95,12 @@
 </style>
 
 <details class="details-summary">
-    <summary class="details=summary">{{ .Get "summary" }}</summary>
+    <summary class="details-summary">{{ .Get "summary" }}</summary>
     <div class="details-summary-content">
-        <blockquote class="citation">
-            <p class="citation">
+        <div class="details-citation">
+            <p class="details-citation">
                 {{ .Inner | markdownify }}
-            </p class="citation">
-        </blockquote>
+            </p class="details-citation">
+        </div>
     </div>
 </details>
