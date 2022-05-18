@@ -2,6 +2,7 @@ body {
   background-color: #e5e9f2;
   position: relative;
 }
+
 .read-area {
   background-color: #f9fafc;
 }
@@ -25,9 +26,11 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
 .content {
   background: #e5e9f2;
 }
+
 .toc-section {
   flex: 20%;
   order: 3;
@@ -121,6 +124,7 @@ body {
   background-color: #f9fafc;
   padding: 5px;
 }
+
 .author-profile p {
   color: #8392a5;
 }
@@ -152,7 +156,7 @@ h6 {
   padding-left: 1rem;
 }
 
-.post-content blockquote > p {
+.post-content blockquote>p {
   color: #3c4858;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -300,9 +304,11 @@ h6 {
 #scroll-to-top.show {
   visibility: visible;
 }
+
 .taxonomy-terms {
   text-align: center;
 }
+
 .taxonomy-terms li {
   font-size: 0.8em;
   list-style-type: none;
@@ -322,6 +328,7 @@ h6 {
     flex: 65%;
     max-width: 65%;
   }
+
   .content-section .container {
     max-width: 100%;
   }
@@ -329,11 +336,9 @@ h6 {
 
 /* Extra large devices (large desktops, 1200px and up) */
 
-@media (max-width: 1400px) {
-}
+@media (max-width: 1400px) {}
 
-@media (max-width: 1200px) {
-}
+@media (max-width: 1200px) {}
 
 /* IPad Pro */
 @media (max-width: 1024px) {
@@ -349,9 +354,11 @@ h6 {
     order: 2;
     overflow: hidden;
   }
+
   .content {
     overflow: hidden;
   }
+
   .container {
     max-width: 100%;
   }
@@ -362,6 +369,7 @@ h6 {
     max-width: 0%;
     transition: all ease-out 0.3s;
   }
+
   .toc-section.hide {
     flex: 40%;
     max-width: 40%;
@@ -407,8 +415,7 @@ h6 {
 
 /*  Large devices (desktops, 992px and up) */
 
-@media (max-width: 992px) {
-}
+@media (max-width: 992px) {}
 
 /* Medium devices (tablets, 768px and up) */
 
@@ -467,6 +474,7 @@ h6 {
     overflow: hidden;
     transition: all ease-out 0.5s;
   }
+
   .toc-section.hide .toc-holder {
     max-height: 200vh;
     transition: all ease-out 0.5s;
@@ -489,10 +497,12 @@ h6 {
     text-align: center;
     margin: 5px;
   }
+
   .next-prev-navigator .next-article {
     text-align: center;
     margin: 5px;
   }
+
   .previous-article a,
   .next-article a {
     width: 100%;
@@ -505,13 +515,10 @@ h6 {
 }
 
 /* iPhoneX, iPhone 6,7,8 */
-@media only screen and (max-width: 375px) {
-}
+@media only screen and (max-width: 375px) {}
 
 /* Galaxy S5, Moto G4 */
-@media only screen and (max-width: 360px) {
-}
+@media only screen and (max-width: 360px) {}
 
 /* iPhone 5 or before */
-@media only screen and (max-width: 320px) {
-}
+@media only screen and (max-width: 320px) {}

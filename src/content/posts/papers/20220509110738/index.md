@@ -35,11 +35,17 @@ PeerJ Computer Science, 7, 1–62.
 
 ## What's New
 
+グラフを対象とした分散表現（Representation）の理論に関するサーベイ．Graph Representationは複雑なグラフの構造を低次元のベクトル空間に写像する関数である．
+
+- 既存のグラフエンジニアリングの手法
+  - vertex degrees
+  - clustering coefficients
+  - graph kernels
+  - neighborhood similarity
+
 #### Past Reviews
 
 ---
-
-Node Classification，Link Prediction に関するシンプルなレビュー
 
 {{< ci-details summary="Learning network representations (L. G. Moyano, 2017)">}}
 L. G. Moyano. (2017)  
@@ -60,29 +66,124 @@ Influential Citation Count (140), SS-ID (ecf6c42d84351f34e1625a6a2e4cc6526da45c7
 Machine learning on graphs is an important and ubiquitous task with applications ranging from drug design to friendship recommendation in social networks. The primary challenge in this domain is finding a way to represent, or encode, graph structure so that it can be easily exploited by machine learning models. Traditionally, machine learning approaches relied on user-defined heuristics to extract features encoding structural information about a graph (e.g., degree statistics or kernel functions). However, recent years have seen a surge in approaches that automatically learn to encode graph structure into low-dimensional embeddings, using techniques based on deep learning and nonlinear dimensionality reduction. Here we provide a conceptual review of key advancements in this area of representation learning on graphs, including matrix factorization-based methods, random-walk based algorithms, and graph neural networks. We review methods to embed individual nodes as well as approaches to embed entire (sub)graphs. In doing so, we develop a unified framework to describe these recent approaches, and we highlight a number of important applications and directions for future work.
 {{< /ci-details >}}
 
+{{< fa-arrow-right-list >}}
+グラフモデルに関するシンプルな分類を提示．
+{{< /fa-arrow-right-list >}}
+
 ---
 
-- 既存レビューと本稿との違いについて ← INTRODUCTION
+{{< ci-details summary="Lee et al. (2018)" >}}
+J. B. Lee, Ryan A. Rossi, Sungchul Kim, Nesreen Ahmed, Eunyee Koh. (2018)  
+**Attention Models in Graphs**  
+ACM Trans. Knowl. Discov. Data  
+[Paper Link](https://www.semanticscholar.org/paper/cc23c580b7d8063415fb6eb512053d1079b849de)  
+Influential Citation Count (1), SS-ID (cc23c580b7d8063415fb6eb512053d1079b849de)  
+
+**ABSTRACT**  
+Graph-structured data arise naturally in many different application domains. By representing data as graphs, we can capture entities (i.e., nodes) as well as their relationships (i.e., edges) with each other. Many useful insights can be derived from graph-structured data as demonstrated by an ever-growing body of work focused on graph mining. However, in the real-world, graphs can be both large—with many complex patterns—and noisy, which can pose a problem for effective graph mining. An effective way to deal with this issue is to incorporate “attention” into graph mining solutions. An attention mechanism allows a method to focus on task-relevant parts of the graph, helping it to make better decisions. In this work, we conduct a comprehensive and focused survey of the literature on the emerging field of graph attention models. We introduce three intuitive taxonomies to group existing work. These are based on problem setting (type of input and output), the type of attention mechanism used, and the task (e.g., graph classification, link prediction). We motivate our taxonomies through detailed examples and use each to survey competing approaches from a unique standpoint. Finally, we highlight several challenges in the area and discuss promising directions for future work.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+Graph Attentionモデルのサーベイを実施．
+---
+グラフモデルにおけるAttentionの使い所について，インプット，アウトプット，グラフのタイプ，タスクのタイプなどの観点から分類を提案した．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Wu et al. (2019)" >}}
+Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, Philip S. Yu. (2019)  
+**A Comprehensive Survey on Graph Neural Networks**  
+IEEE Transactions on Neural Networks and Learning Systems  
+[Paper Link](https://www.semanticscholar.org/paper/81a4fd3004df0eb05d6c1cef96ad33d5407820df)  
+Influential Citation Count (197), SS-ID (81a4fd3004df0eb05d6c1cef96ad33d5407820df)  
+
+**ABSTRACT**  
+Deep learning has revolutionized many machine learning tasks in recent years, ranging from image classification and video processing to speech recognition and natural language understanding. The data in these tasks are typically represented in the Euclidean space. However, there is an increasing number of applications, where data are generated from non-Euclidean domains and are represented as graphs with complex relationships and interdependency between objects. The complexity of graph data has imposed significant challenges on the existing machine learning algorithms. Recently, many studies on extending deep learning approaches for graph data have emerged. In this article, we provide a comprehensive overview of graph neural networks (GNNs) in data mining and machine learning fields. We propose a new taxonomy to divide the state-of-the-art GNNs into four categories, namely, recurrent GNNs, convolutional GNNs, graph autoencoders, and spatial–temporal GNNs. We further discuss the applications of GNNs across various domains and summarize the open-source codes, benchmark data sets, and model evaluation of GNNs. Finally, we propose potential research directions in this rapidly growing field.
+{{< /ci-details >}}
+
+{{< ci-details summary="Chen et al. (2018)" >}}
+Haochen Chen, Bryan Perozzi, Rami Al-Rfou, S. Skiena. (2018)  
+**A Tutorial on Network Embeddings**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/1706a4ef5556ecdd680416d46e033e0476290361)  
+Influential Citation Count (1), SS-ID (1706a4ef5556ecdd680416d46e033e0476290361)  
+
+**ABSTRACT**  
+Network embedding methods aim at learning low-dimensional latent representation of nodes in a network. These representations can be used as features for a wide range of tasks on graphs such as classification, clustering, link prediction, and visualization. In this survey, we give an overview of network embeddings by summarizing and categorizing recent advancements in this research field. We first discuss the desirable properties of network embeddings and briefly introduce the history of network embedding algorithms. Then, we discuss network embedding methods under different scenarios, such as supervised versus unsupervised learning, learning embeddings for homogeneous networks versus for heterogeneous networks, etc. We further demonstrate the applications of network embeddings, and conclude the survey with future work in this area.
+{{< /ci-details >}}
+
+{{< ci-details summary="Zhang, Cui & Zhu (2018)" >}}
+Ziwei Zhang, Peng Cui, Wenwu Zhu. (2018)  
+**Deep Learning on Graphs: A Survey**  
+IEEE Transactions on Knowledge and Data Engineering  
+[Paper Link](https://www.semanticscholar.org/paper/30b38ca8151bbd5a5ff45bce94297d1248ff58b5)  
+Influential Citation Count (23), SS-ID (30b38ca8151bbd5a5ff45bce94297d1248ff58b5)  
+
+**ABSTRACT**  
+Deep learning has been shown to be successful in a number of domains, ranging from acoustics, images, to natural language processing. However, applying deep learning to the ubiquitous graph data is non-trivial because of the unique characteristics of graphs. Recently, substantial research efforts have been devoted to applying deep learning methods to graphs, resulting in beneficial advances in graph analysis techniques. In this survey, we comprehensively review the different types of deep learning methods on graphs. We divide the existing methods into five categories based on their model architectures and training strategies: graph recurrent neural networks, graph convolutional networks, graph autoencoders, graph reinforcement learning, and graph adversarial methods. We then provide a comprehensive overview of these methods in a systematic manner mainly by following their development history. We also analyze the differences and compositions of different methods. Finally, we briefly outline the applications in which they have been used and discuss potential future research directions.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+Graph Neural Networkに関するサーベイを実施．
+---
+Chen et al (2018)はEmbeddingモデルを選択するためのメタ戦略を提案しているが，Deep Leaningモデルに対してのみとなっている．
+---
+Zhang, Cui & Zhu (2018)は，他のGNNに関するサーベイとよく似ているが，強化学習やSampling Strategy，Skip-Connection，Inductive-Learning，Adversarial-Learningなど新しく提案された手法を盛り込んでいる．
+{{< /fa-arrow-right-list >}}
+
+---
+
+{{< ci-details summary="Cui et al. (2018)" >}}
+Peng Cui, Xiao Wang, J. Pei, Wenwu Zhu. (2017)  
+**A Survey on Network Embedding**  
+IEEE Transactions on Knowledge and Data Engineering  
+[Paper Link](https://www.semanticscholar.org/paper/ce840188f3395815201b7da49f9bb40d24fc046a)  
+Influential Citation Count (28), SS-ID (ce840188f3395815201b7da49f9bb40d24fc046a)  
+
+**ABSTRACT**  
+Network embedding assigns nodes in a network to low-dimensional representations and effectively preserves the network structure. Recently, a significant amount of progresses have been made toward this emerging network analysis paradigm. In this survey, we focus on categorizing and then reviewing the current development on network embedding methods, and point out its future research directions. We first summarize the motivation of network embedding. We discuss the classical graph embedding algorithms and their relationship with network embedding. Afterwards and primarily, we provide a comprehensive overview of a large number of network embedding methods in a systematic manner, covering the structure- and property-preserving network embedding methods, the network embedding methods with side information, and the advanced information preserving network embedding methods. Moreover, several evaluation approaches for network embedding and some useful online resources, including the network data sets and softwares, are reviewed, too. Finally, we discuss the framework of exploiting these network embedding methods to build an effective system and point out some potential future directions.
+{{< /ci-details >}}
+
+{{< fa-arrow-right-list >}}
+モデルがどのような情報を保持しているのか，という観点から既存研究を比較検討．
+{{< /fa-arrow-right-list >}}
+
+---
+
+本サーベイはモデルのタイプにはとらわれずに，学習手法，入力となるグラフの特徴量，タスク，グラフ以外の領域への応用など様々な観点から既存のサーベイを踏まえて更なる一般化を試みる．
 
 ## Preliminaries
 
 #### Definition of Graph
 
-TBD
+$V$ をノードの集合，$E$をエッジの集合，$A$をグラフの隣接行列，$G(V,E)$をグラフとするとき，Graph Embeddingを構成するプロセスは以下のように定義される．
 
-#### Definition of Graph Embedding
+{{< box-with-title title="Definition 1 (Graph Embedding)">}}
 
-{{< box-with-title title="Definition" >}}
+**Graph Embedding** is a mapping from a collection of substractures (most commonly either all nodes, or all edges, or certain subgraphs) to $\mathbb{R}^d$.
 
 $$
 f:V \rightarrow \mathbb{R}^d, d \ll |V|
 $$
-
 {{< /box-with-title >}}
 
-#### Definition of First and Second Order Proximities
+- グラフ関連のタスクは多くの場合，教師なし学習である．
+- ラベルが一部しかついていない半教師あり学習の場合も多い．
+- ラベル付きのデータがあれば，一部のラベルを欠損させることでMasked Modelを構築することもできる．
+- 元のデータから情報量をできるだけ落とさずに重要な情報を抽出しつつ，ベクトル空間にデータを圧縮するプロセスがEmbeddingである．
+  - 重要な情報としてよく挙げられるものとしては，**node proximity**や**structural similarity**がある．
 
-TBD
+{{< box-with-title title="Definition 2 (First and second order proximities)" >}}
+- First-order priximity (1次近傍)  
+  - ペアになっている頂点間の近傍を表す．   
+  - 全ての頂点に関して，$v_i$と$v_j$の間の重み$a_{ij} \in \mathbb{R}$は，この2頂点間の近傍を特徴づけるものである．これらをまとめたものが隣接行列$A=(a_{ij})^n_{i,j=1}$となる．
+- Second-order proximity (2次近傍)
+  - A neighborhood of vertex $v_i$
+    - $N_{v_i} = {v_k|a_{ik} > 0, k \neq i}$を満たす隣接頂点の集合を表す．
+    - $v_i$自体は含まれない．
+  - 2頂点$v_i$，$v_j$において，$N_{v_i}$と$N_{v_j}$の類似度をSecond-order proximityと呼ぶ．
+{{< /box-with-title >}}
 
 ## Methods for Constructing Graph Embedding
 
@@ -134,8 +235,83 @@ TBD
 
 ### Dimensionality reduction (matrix factorization) methods
 
-## References
+### Sequence-based approaches
 
+### Deep learning: graph convolutions
+
+### Hyperbolic (non-Euclidean) embeddings
+
+## Specific Embeddings Based on Network Types
+
+### Attributed networks
+
+### Heterogeneous networks
+
+### Signed networks
+
+### Multi-layer networks
+
+### Temporal networks
+
+### Large graphs
+
+## Application of Graph Embeddings to Machine Learning Problems
+
+### Node classification
+
+### Link prediction
+
+### Node clustering
+
+### Subgraph (and graph) embedding
+
+### Network visualization
+
+### Network compression
+
+## Applications to Real-World Problems
+
+### Computer vision
+
+### Natural language processing
+
+### Knowledge graph completion
+
+### Data mining
+
+### Recommender systems
+
+### Biomedical data science
+
+### Reinforcement learning
+
+## Open Problems
+
+## Model Comparison
+
+### Data
+
+### Metrics
+
+### Evaluation pipeline
+
+### Models
+
+## Results
+
+### Node clustering
+
+### Node classification
+
+### Link prediction
+
+### Graph visualization
+
+### Random graphs
+
+## Conclusion
+
+## References
 
 {{< ci-details summary="Recent developments in exponential random graph (p*) models for social networks (G. Robins et al., 2007)">}}
 

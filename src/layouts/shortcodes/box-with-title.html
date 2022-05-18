@@ -2,7 +2,7 @@
     .definition-box {
         position: relative;
         margin: 2em 0;
-        padding: 0.5em 1em;
+        padding: 1rem 1em 0.5rem 1rem;
         border: solid 3px #585858;
         border-radius: 8px;
     }
@@ -28,5 +28,5 @@
 
 <div class="definition-box">
     <span class="box-title">{{ .Get "title" }}</span>
-    <p>{{ .Inner }}</p>
+    <p>{{ .Inner | markdownify }}</p>
 </div>
