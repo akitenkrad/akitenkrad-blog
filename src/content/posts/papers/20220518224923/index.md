@@ -4,7 +4,7 @@ title: "A Context-Aware Citation Recommendation Model with BERT and Graph Convol
 date: 2022-05-18
 author: "akitenkrad"
 description: ""
-tags: ["Round-1"]
+tags: ["Round-1", "2019", "Citation Recommendation", "FullTextPeerRead", "BERT", "Graph Convolutional Network"]
 menu:
   sidebar:
     name: 2022.05.18
