@@ -8,6 +8,7 @@ import urllib.parse
 import urllib.request
 from collections import namedtuple
 from datetime import datetime, timedelta, timezone
+from io import TextIOWrapper
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from urllib.error import HTTPError, URLError
@@ -168,7 +169,7 @@ class Paper(object):
         }
         return Paper(**kwargs)
 
-    def print_citation(self):
+    def print_citation(self, f: TextIOWrapper):
         author_text = ""
         if len(self.authors) == 1:
             author_text = self.authors[0].name.replace('"', "'")
@@ -189,8 +190,9 @@ class Paper(object):
             "" + self.abstract.replace(os.linesep, " "),
             "",
             "{{< /ci-details >}}",
+            os.linesep,
         ]
-        print(os.linesep.join(citation))
+        f.write(os.linesep.join(citation))
 
 
 class SemanticScholar(object):
