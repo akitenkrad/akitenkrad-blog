@@ -8,13 +8,16 @@ import urllib.parse
 import urllib.request
 from collections import namedtuple
 from datetime import datetime, timedelta, timezone
+from enum import Enum
 from io import TextIOWrapper
+from os import PathLike
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, TextIO
 from urllib.error import HTTPError, URLError
 
 from attrdict import AttrDict
 from sumeval.metrics.rouge import RougeCalculator
+from tqdm import tqdm
 
 Author = namedtuple("Author", ("author_id", "name"))
 RefPaper = namedtuple("RefPaper", ("paper_id", "title"))
@@ -311,3 +314,33 @@ class SemanticScholar(object):
 
         content = json.loads(response.read().decode("utf-8"))
         return Paper(**content)
+
+
+def add_references(title: str, out_file: PathLike):
+    ss = SemanticScholar()
+    paper_id = ss.get_paper_id(title=title)
+    paper = ss.get_paper_detail(paper_id=paper_id)
+
+    # Load Cache
+    cache_path = Path("__cache__/papers.json")
+    if cache_path.exists():
+        cache = json.load(open(cache_path))
+    else:
+        cache = {}
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Read References
+    if paper is not None:
+        cache[paper.paper_id] = paper.to_dict()
+
+        with open(out_file, mode="at", encoding="utf-8") as wf:
+            for ref in tqdm(paper.references, desc="Reading references..."):
+                ref_paper = ss.get_paper_detail(ref.paper_id)
+                if ref_paper is not None:
+                    ref_paper.print_citation(wf)
+
+                    if ref_paper.paper_id not in cache:
+                        cache[ref_paper.paper_id] = ref_paper.to_dict()
+    else:
+        print("No such a paper:", title)
+    json.dump(cache, open(cache_path, mode="wt", encoding="utf-8"), ensure_ascii=False, indent=2)

@@ -1,0 +1,37 @@
+---
+draft: false
+title: "{TITLE}"
+date: {DATE}
+author: "akitenkrad"
+description: ""
+tags: ["Round-1", "20XX"]
+menu:
+  sidebar:
+    name: {NAME}
+    identifier: {IDENTIFIER}
+    parent: papers
+    weight: 10
+math: true
+---
+
+- [x] Round-1: Overview
+- [ ] Round-2: Model Implementation Details
+- [ ] Round-3: Experiments
+
+## Citation
+
+## Abstract
+
+## What's New
+
+## Dataset
+
+## Model Description
+
+### Training Settings
+
+## Results
+
+## References
+
+
