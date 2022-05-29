@@ -3,6 +3,9 @@ languageCode: ja-jp
 title: "Akitenkrad's Blog"
 theme: "toha"
 
+# Google Analytics
+googleAnalytics: "G-1MYYZQG0WE"
+
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
