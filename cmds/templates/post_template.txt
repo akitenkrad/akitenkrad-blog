@@ -4,7 +4,7 @@ title: "{TITLE}"
 date: {DATE}
 author: "akitenkrad"
 description: ""
-tags: ["Round-1", "20XX"]
+tags: ["At:Round-1", "Published:20XX"]
 menu:
   sidebar:
     name: {NAME}

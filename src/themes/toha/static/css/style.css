@@ -130,3 +130,10 @@ blockquote.citation cite {
     color: #888888;
     font-size: 0.9em;
 }
+
+img.article-img {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
