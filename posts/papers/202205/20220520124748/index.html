@@ -13,19 +13,19 @@ Akitenkrad's Blog</a>
 \begin{align*}
 H^{(l+1)} &= \sigma \left(\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)}\right) \\
 \text{where} & \\
-&\begin{split}
+&\begin{split} \\
 &\tilde{A} &= A + I_N \\
 &\tilde{D}<em>{ii} &= \sum_j\tilde{A}</em>{ij} \\
 &W^{(l)} &: \text{ layer-specific trainable parameter} \\
 &\sigma (\cdot) &: \text{ activation function such as } \text{ReLU}(\cdot) = \max(0, \cdot) \\
-&H^{(0)} &= X
+&H^{(0)} &= X \\
 \end{split} \\
 \text{shapes} & \\
-&\begin{split}
+&\begin{split} \\
 &H^{(l)} &\in \mathbb{R}^{N \times D} \\
 &A, D &\in \mathbb{R}^{N \times N} \\
-&W^{(l)} &\in \mathbb{R}^{D \times D}
-\end{split}
+&W^{(l)} &\in \mathbb{R}^{D \times D} \\
+\end{split} \\
 \end{align*}
 $$</p><h4 id=spectral-graph-convolutions--gcn>Spectral Graph Convolutions → GCN</h4><p>以下，グラフの畳み込み演算からGraph Convolutional Network (GCN)</p><p>$$
 H^{(l+1)} = \sigma \left(\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)}\right)
