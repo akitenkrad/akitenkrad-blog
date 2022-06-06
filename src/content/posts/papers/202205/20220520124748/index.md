@@ -104,6 +104,7 @@ We present a semi-supervised learning framework based on graph embeddings. Given
 
 グラフベースのニューラルネットワークモデル $f(X, A)$ に対して,  
 （$X \in \mathbb{R}^{N \times N}$ はノードの特徴行列，$A \in \mathbb{R}^{N \times N}$ はグラフ $\mathcal{G}=(\mathcal{V},\mathcal{E}), v_i \in \mathcal{V}, (v_i, v_j) \in \mathcal{E}$ の隣接行列，$D_{ii}=\sum_j A_{ij}$ は次数行列）
+
 $$
 \begin{align*}
   H^{(l+1)} &= \sigma \left(\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)}\right)  \\\\
@@ -160,7 +161,6 @@ ArXiv
 [Paper Link](https://www.semanticscholar.org/paper/8e8152d46c8ff1070805096c214df7f389c57b80)  
 Influential Citation Count (165), SS-ID (8e8152d46c8ff1070805096c214df7f389c57b80)  
 {{< /ci-details >}}
-
 
 $$
 \begin{align*}
