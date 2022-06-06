@@ -106,23 +106,23 @@ We present a semi-supervised learning framework based on graph embeddings. Given
 （$X \in \mathbb{R}^{N \times N}$ はノードの特徴行列，$A \in \mathbb{R}^{N \times N}$ はグラフ $\mathcal{G}=(\mathcal{V},\mathcal{E}), v_i \in \mathcal{V}, (v_i, v_j) \in \mathcal{E}$ の隣接行列，$D_{ii}=\sum_j A_{ij}$ は次数行列）
 
 $$
-\begin{align*}  
-  H^{(l+1)} &= \sigma \left(\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)}\right)  \\\\
-  \text{where} &  \\\\
-  & \begin{split}
-    & \tilde{A} &= A + I_N \\\\
-    & \tilde{D}_{ii} &= \sum_j\tilde{A}_{ij} \\\\
-    & W^{(l)} &: \text{ layer-specific trainable parameter} \\\\
-    & \sigma (\cdot) &: \text{ activation function such as } \text{ReLU}(\cdot) = \max(0, \cdot) \\\\
-    & H^{(0)} &= X  
-  \end{split}  \\\\
-  \text{shapes} & \\\\
-  & \begin{split}  
-    & H^{(l)} &\in \mathbb{R}^{N \times D} \\\\
-    & A, D &\in \mathbb{R}^{N \times N} \\\\
-    & W^{(l)} &\in \mathbb{R}^{D \times D}  
-  \end{split}  
-\end{align*}  
+\begin{align*}
+  H^{(l+1)} &= \sigma \left(\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)}\right) & \\\\
+  \text{where} &&  \\\\
+  &\begin{split}
+    &\tilde{A} &= A + I_N \\\\
+    &\tilde{D}_{ii} &= \sum_j\tilde{A}_{ij} \\\\
+    &W^{(l)} &: \text{ layer-specific trainable parameter} \\\\
+    &\sigma (\cdot) &: \text{ activation function such as } \text{ReLU}(\cdot) = \max(0, \cdot) \\\\
+    &H^{(0)} &= X
+  \end{split} \\\\
+  \text{shapes} && \\\\
+  &\begin{split}  
+    &H^{(l)} &\in \mathbb{R}^{N \times D} \\\\
+    &A, D &\in \mathbb{R}^{N \times N} \\\\
+    &W^{(l)} &\in \mathbb{R}^{D \times D}  
+  \end{split}
+\end{align*}
 $$
 
 #### Spectral Graph Convolutions → GCN
