@@ -109,18 +109,18 @@ $$
 \begin{align*}  
   H^{(l+1)} &= \sigma \left(\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)}\right)  \\\\
   \text{where} &  \\\\
-  &\begin{split}
-    &\tilde{A} &= A + I_N \\\\
-    &\tilde{D}_{ii} &= \sum_j\tilde{A}_{ij} \\\\
-    &W^{(l)} &: \text{ layer-specific trainable parameter} \\\\
-    &\sigma (\cdot) &: \text{ activation function such as } \text{ReLU}(\cdot) = \max(0, \cdot) \\\\
-    &H^{(0)} &= X  
+  & \begin{split}
+    & \tilde{A} &= A + I_N \\\\
+    & \tilde{D}_{ii} &= \sum_j\tilde{A}_{ij} \\\\
+    & W^{(l)} &: \text{ layer-specific trainable parameter} \\\\
+    & \sigma (\cdot) &: \text{ activation function such as } \text{ReLU}(\cdot) = \max(0, \cdot) \\\\
+    & H^{(0)} &= X  
   \end{split}  \\\\
   \text{shapes} & \\\\
-  &\begin{split}  
-    &H^{(l)} &\in \mathbb{R}^{N \times D} \\\\
-    &A, D &\in \mathbb{R}^{N \times N} \\\\
-    &W^{(l)} &\in \mathbb{R}^{D \times D}  
+  & \begin{split}  
+    & H^{(l)} &\in \mathbb{R}^{N \times D} \\\\
+    & A, D &\in \mathbb{R}^{N \times N} \\\\
+    & W^{(l)} &\in \mathbb{R}^{D \times D}  
   \end{split}  
 \end{align*}  
 $$
