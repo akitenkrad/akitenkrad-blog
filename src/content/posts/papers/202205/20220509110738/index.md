@@ -238,68 +238,13 @@ Factorizationモデルはグラフの構造を低次元の分散表現に写像�
 {{< /box-with-title >}}
 
 - 行列分解系の手法
-  - MDS (Multi-Dimensional Scaling; 多次元尺度構成法)  
-    {{< ci-details summary="Kruskal J et al. (1978)" >}}
-Kruskal J, Wish M. (1978)  
-**Multidimensional Scaling**  
-New York: SAGE Publications
-    {{< /ci-details >}}
-  - LSI (Latent Semantic Indexing)
-    {{< ci-details summary="Deerwester et al. (1990)" >}}
-S. Deerwester, S. Dumais, G. Furnas, T. Landauer, R. Harshman. (1990)  
-**Indexing by Latent Semantic Analysis**  
-
-[Paper Link](https://www.semanticscholar.org/paper/e5305866d701a2c102c5f81fbbf48bf6ac29f252)  
-Influential Citation Count (950), SS-ID (e5305866d701a2c102c5f81fbbf48bf6ac29f252)  
-
-**ABSTRACT**  
-A new method for automatic indexing and retrieval is described. The approach is to take advantage of implicit higher-order structure in the association of terms with documents (“semantic structure”) in order to improve the detection of relevant documents on the basis of terms found in queries. The particular technique used is singular-value decomposition, in which a large term by document matrix is decomposed into a set of ca. 100 orthogonal factors from which the original matrix can be approximated by linear combination. Documents are represented by ca. 100 item vectors of factor weights. Queries are represented as pseudo-document vectors formed from weighted combinations of terms, and documents with supra-threshold cosine values are returned. initial tests find this completely automatic method for retrieval to be promising.
-    {{< /ci-details >}}
-  - LDA (Latent Dirichlet Allocation)の拡張
-    {{< ci-details summary="Martinez & Kak (2001)" >}}
-Aleix M. Martinez, A. Kak. (2001)  
-**PCA versus LDA**  
-IEEE Trans. Pattern Anal. Mach. Intell.  
-[Paper Link](https://www.semanticscholar.org/paper/d544475dc01daa0c4f9847ef72adb8878df8ce99)  
-Influential Citation Count (241), SS-ID (d544475dc01daa0c4f9847ef72adb8878df8ce99)  
-
-**ABSTRACT**  
-In the context of the appearance-based paradigm for object recognition, it is generally believed that algorithms based on LDA (linear discriminant analysis) are superior to those based on PCA (principal components analysis). In this communication, we show that this is not always the case. We present our case first by using intuitively plausible arguments and, then, by showing actual results on a face database. Our overall conclusion is that when the training data set is small, PCA can outperform LDA and, also, that PCA is less sensitive to different training data sets.
-    {{< /ci-details >}}
+  - [MDS (Multi-Dimensional Scaling; 多次元尺度構成法)](#mds)
+  - [LSI (Latent Semantic Indexing)](#lsi)
+  - [LDA (Latent Dirichlet Allocation)の拡張](#lda)
 - グラフからProximity Matrixを構成する方法
-  - IsoMap
-    {{< ci-details summary="Tenenbaum, De Silva & Langford (2000)" >}}
-J. Tenenbaum, V. De Silva, J. Langford. (2000)  
-**A global geometric framework for nonlinear dimensionality reduction.**  
-Science  
-[Paper Link](https://www.semanticscholar.org/paper/3537fcd0ff99a3b3cb3d279012df826358420556)  
-Influential Citation Count (1143), SS-ID (3537fcd0ff99a3b3cb3d279012df826358420556)  
-
-**ABSTRACT**  
-Scientists working with large volumes of high-dimensional data, such as global climate patterns, stellar spectra, or human gene distributions, regularly confront the problem of dimensionality reduction: finding meaningful low-dimensional structures hidden in their high-dimensional observations. The human brain confronts the same problem in everyday perception, extracting from its high-dimensional sensory inputs-30,000 auditory nerve fibers or 10(6) optic nerve fibers-a manageably small number of perceptually relevant features. Here we describe an approach to solving dimensionality reduction problems that uses easily measured local metric information to learn the underlying global geometry of a data set. Unlike classical techniques such as principal component analysis (PCA) and multidimensional scaling (MDS), our approach is capable of discovering the nonlinear degrees of freedom that underlie complex natural observations, such as human handwriting or images of a face under different viewing conditions. In contrast to previous algorithms for nonlinear dimensionality reduction, ours efficiently computes a globally optimal solution, and, for an important class of data manifolds, is guaranteed to converge asymptotically to the true structure.
-    {{< /ci-details >}}
-  - LLE (Locally Linear Embedding)
-    {{< ci-details summary="Roweis & Saul (2000)" >}}
-S. Roweis, L. Saul. (2000)  
-**Nonlinear dimensionality reduction by locally linear embedding.**  
-Science  
-[Paper Link](https://www.semanticscholar.org/paper/afcd6da7637ddeef6715109aca248da7a24b1c65)  
-Influential Citation Count (1523), SS-ID (afcd6da7637ddeef6715109aca248da7a24b1c65)  
-
-**ABSTRACT**  
-Many areas of science depend on exploratory data analysis and visualization. The need to analyze large amounts of multivariate data raises the fundamental problem of dimensionality reduction: how to discover compact representations of high-dimensional data. Here, we introduce locally linear embedding (LLE), an unsupervised learning algorithm that computes low-dimensional, neighborhood-preserving embeddings of high-dimensional inputs. Unlike clustering methods for local dimensionality reduction, LLE maps its inputs into a single global coordinate system of lower dimensionality, and its optimizations do not involve local minima. By exploiting the local symmetries of linear reconstructions, LLE is able to learn the global structure of nonlinear manifolds, such as those generated by images of faces or documents of text.
-    {{< /ci-details >}}
-  - LPP (Locality Preserving Projections)
-    {{< ci-details summary="He & Niyogi (2004)" >}}
-Xiaofei He, P. Niyogi. (2003)  
-**Locality Preserving Projections**  
-NIPS  
-[Paper Link](https://www.semanticscholar.org/paper/75335244b49f4d1bb27aa51f1690bbefbbe1c3d1)  
-Influential Citation Count (791), SS-ID (75335244b49f4d1bb27aa51f1690bbefbbe1c3d1)  
-
-**ABSTRACT**  
-Many problems in information processing involve some form of dimensionality reduction. In this paper, we introduce Locality Preserving Projections (LPP). These are linear projective maps that arise by solving a variational problem that optimally preserves the neighborhood structure of the data set. LPP should be seen as an alternative to Principal Component Analysis (PCA) – a classical linear technique that projects the data along the directions of maximal variance. When the high dimensional data lies on a low dimensional manifold embedded in the ambient space, the Locality Preserving Projections are obtained by finding the optimal linear approximations to the eigenfunctions of the Laplace Beltrami operator on the manifold. As a result, LPP shares many of the data representation properties of nonlinear techniques such as Laplacian Eigenmaps or Locally Linear Embedding. Yet LPP is linear and more crucially is defined everywhere in ambient space rather than just on the training data points. This is borne out by illustrative examples on some high dimensional data sets.
-    {{< /ci-details >}}
+  - [ISOMAP](#isomap)
+  - [LLE (Locally Linear Embedding)](#lle)
+  - [LPP (Locality Preserving Projections)](#lpp)
 
 {{< box-with-title title="Definition 4 (Graph Laplacian)" >}}
 If matrix $D$ is the diagonal degree matrix, that is
@@ -316,116 +261,16 @@ $$
 
 {{< /box-with-title >}}
 
-- LE (Laplacian Eigenmaps)
-  {{< ci-details summary="Belkin & Niyogi (2002)" >}}
-Mikhail Belkin, P. Niyogi. (2001)  
-**Laplacian Eigenmaps and Spectral Techniques for Embedding and Clustering**  
-NIPS  
-[Paper Link](https://www.semanticscholar.org/paper/9d16c547d15a08091e68c86a99731b14366e3f0d)  
-Influential Citation Count (356), SS-ID (9d16c547d15a08091e68c86a99731b14366e3f0d)  
-
-**ABSTRACT**  
-Drawing on the correspondence between the graph Laplacian, the Laplace-Beltrami operator on a manifold, and the connections to the heat equation, we propose a geometrically motivated algorithm for constructing a representation for data sampled from a low dimensional manifold embedded in a higher dimensional space. The algorithm provides a computationally efficient approach to nonlinear dimensionality reduction that has locality preserving properties and a natural connection to clustering. Several applications are considered.
-  {{< /ci-details >}}
-- Kernel Eigenmaps
-  {{< ci-details summary="Brand (2003)" >}}
-M. Brand. (2003)  
-**Continuous nonlinear dimensionality reduction by kernel Eigenmaps**  
-IJCAI  
-[Paper Link](https://www.semanticscholar.org/paper/99cd988b104202887ad9657b8a61baa7ff0581c1)  
-Influential Citation Count (5), SS-ID (99cd988b104202887ad9657b8a61baa7ff0581c1)  
-
-**ABSTRACT**  
-We equate nonlinear dimensionality reduction (NLDR) to graph embedding with side information about the vertices, and derive a solution to either problem in the form of a kernel-based mixture of affine maps from the ambient space to the target space. Unlike most spectral NLDR methods, the central eigenproblem can be made relatively small, and the result is a continuous mapping defined over the entire space, not just the datapoints. A demonstration is made to visualizing the distribution of word usages (as a proxy to word meanings) in a sample of the machine learning literature.
-{{< /ci-details >}}
-- Cauchy Embedding
-  {{< ci-details summary="Luo et al. (2011)" >}}
-Dijun Luo, C. Ding, F. Nie, Heng Huang. (2011)  
-**Cauchy Graph Embedding**  
-ICML  
-[Paper Link](https://www.semanticscholar.org/paper/6f390eee4c9a082e02843fb34046f653624e9b76)  
-Influential Citation Count (3), SS-ID (6f390eee4c9a082e02843fb34046f653624e9b76)  
-
-**ABSTRACT**  
-Laplacian embedding provides a low-dimensional representation for the nodes of a graph where the edge weights denote pair-wise similarity among the node objects. It is commonly assumed that the Laplacian embedding results preserve the local topology of the original data on the low-dimensional projected subspaces, i.e., for any pair of graph nodes with large similarity, they should be embedded closely in the embedded space. However, in this paper, we will show that the Laplacian embedding often cannot preserve local topology well as we expected. To enhance the local topology preserving property in graph embedding, we propose a novel Cauchy graph embedding which preserves the similarity relationships of the original data in the embedded space via a new objective. Consequentially the machine learning tasks (such as k Nearest Neighbor type classifications) can be easily conducted on the embedded data with better performance. The experimental results on both synthetic and real world benchmark data sets demonstrate the usefulness of this new type of embedding.
-  {{< /ci-details >}}
-- SPE (Structure Preserving Embedding)
-  {{< ci-details summary="Shaw & Jebara (2009)" >}}
-B. Shaw, T. Jebara. (2009)  
-**Structure preserving embedding**  
-ICML '09  
-[Paper Link](https://www.semanticscholar.org/paper/df30fe0aeac5a530c9499598251a3854fe45ee94)  
-Influential Citation Count (4), SS-ID (df30fe0aeac5a530c9499598251a3854fe45ee94)  
-
-**ABSTRACT**  
-Structure Preserving Embedding (SPE) is an algorithm for embedding graphs in Euclidean space such that the embedding is low-dimensional and preserves the global topological properties of the input graph. Topology is preserved if a connectivity algorithm, such as k-nearest neighbors, can easily recover the edges of the input graph from only the coordinates of the nodes after embedding. SPE is formulated as a semidefinite program that learns a low-rank kernel matrix constrained by a set of linear inequalities which captures the connectivity structure of the input graph. Traditional graph embedding algorithms do not preserve structure according to our definition, and thus the resulting visualizations can be misleading or less informative. SPE provides significant improvements in terms of visualization and lossless compression of graphs, outperforming popular methods such as spectral embedding and Laplacian eigen-maps. We find that many classical graphs and networks can be properly embedded using only a few dimensions. Furthermore, introducing structure preserving constraints into dimensionality reduction algorithms produces more accurate representations of high-dimensional data.
-  {{< /ci-details >}}
-- GF (Graph Factorization)
-  {{< ci-details summary="Ahmed et al. (2013)" >}}
-Amr Ahmed, N. Shervashidze, Shravan M. Narayanamurthy, V. Josifovski, Alex Smola. (2013)  
-**Distributed large-scale natural graph factorization**  
-WWW  
-[Paper Link](https://www.semanticscholar.org/paper/952bc3bc999be86d4b03a9c4af94c555c822aa11)  
-Influential Citation Count (30), SS-ID (952bc3bc999be86d4b03a9c4af94c555c822aa11)  
-
-**ABSTRACT**  
-Natural graphs, such as social networks, email graphs, or instant messaging patterns, have become pervasive through the internet. These graphs are massive, often containing hundreds of millions of nodes and billions of edges. While some theoretical models have been proposed to study such graphs, their analysis is still difficult due to the scale and nature of the data. We propose a framework for large-scale graph decomposition and inference. To resolve the scale, our framework is distributed so that the data are partitioned over a shared-nothing set of machines. We propose a novel factorization technique that relies on partitioning a graph so as to minimize the number of neighboring vertices rather than edges across partitions. Our decomposition is based on a streaming algorithm. It is network-aware as it adapts to the network topology of the underlying computational hardware. We use local copies of the variables and an efficient asynchronous communication protocol to synchronize the replicated values in order to perform most of the computation without having to incur the cost of network communication. On a graph of 200 million vertices and 10 billion edges, derived from an email communication network, our algorithm retains convergence properties while allowing for almost linear scalability in the number of computers.
-  {{< /ci-details >}}
-- GraRep
-  {{< ci-details summary="Cao, Lu & Xu (2016)" >}}
-Shaosheng Cao, Wei Lu, Qiongkai Xu. (2016)  
-**Deep Neural Networks for Learning Graph Representations**  
-AAAI  
-[Paper Link](https://www.semanticscholar.org/paper/1a37f07606d60df365d74752857e8ce909f700b3)  
-Influential Citation Count (59), SS-ID (1a37f07606d60df365d74752857e8ce909f700b3)  
-
-**ABSTRACT**  
-In this paper, we propose a novel model for learning graph representations, which generates a low-dimensional vector representation for each vertex by capturing the graph structural information. Different from other previous research efforts, we adopt a random surfing model to capture graph structural information directly, instead of using the sampling-based method for generating linear sequences proposed by Perozzi et al. (2014). The advantages of our approach will be illustrated from both theorical and empirical perspectives. We also give a new perspective for the matrix factorization method proposed by Levy and Goldberg (2014), in which the pointwise mutual information (PMI) matrix is considered as an analytical solution to the objective function of the skip-gram model with negative sampling proposed by Mikolov et al. (2013). Unlike their approach which involves the use of the SVD for finding the low-dimensitonal projections from the PMI matrix, however, the stacked denoising autoencoder is introduced in our model to extract complex features and model non-linearities. To demonstrate the effectiveness of our model, we conduct experiments on clustering and visualization tasks, employing the learned vertex representations as features. Empirical results on datasets of varying sizes show that our model outperforms other stat-of-the-art models in such tasks.
-  {{< /ci-details >}}
-- HOPE
-  {{< ci-details summary="Ou et al. (2016)" >}}
-Mingdong Ou, Peng Cui, J. Pei, Ziwei Zhang, Wenwu Zhu. (2016)  
-**Asymmetric Transitivity Preserving Graph Embedding**  
-KDD  
-[Paper Link](https://www.semanticscholar.org/paper/07627bf7eb649220ffbcdf6bf233e3a4a76e8590)  
-Influential Citation Count (111), SS-ID (07627bf7eb649220ffbcdf6bf233e3a4a76e8590)  
-
-**ABSTRACT**  
-Graph embedding algorithms embed a graph into a vector space where the structure and the inherent properties of the graph are preserved. The existing graph embedding methods cannot preserve the asymmetric transitivity well, which is a critical property of directed graphs. Asymmetric transitivity depicts the correlation among directed edges, that is, if there is a directed path from u to v, then there is likely a directed edge from u to v. Asymmetric transitivity can help in capturing structures of graphs and recovering from partially observed graphs. To tackle this challenge, we propose the idea of preserving asymmetric transitivity by approximating high-order proximity which are based on asymmetric transitivity. In particular, we develop a novel graph embedding algorithm, High-Order Proximity preserved Embedding (HOPE for short), which is scalable to preserve high-order proximities of large scale graphs and capable of capturing the asymmetric transitivity. More specifically, we first derive a general formulation that cover multiple popular high-order proximity measurements, then propose a scalable embedding algorithm to approximate the high-order proximity measurements based on their general formulation. Moreover, we provide a theoretical upper bound on the RMSE (Root Mean Squared Error) of the approximation. Our empirical experiments on a synthetic dataset and three real-world datasets demonstrate that HOPE can approximate the high-order proximities significantly better than the state-of-art algorithms and outperform the state-of-art algorithms in tasks of reconstruction, link prediction and vertex recommendation.
-  {{< /ci-details >}}
-- M-NMF (Modularized Nonnegative Matrix Factorization)
-  {{< ci-details summary="Wang et al. (2017)" >}}
-Xiao Wang, Peng Cui, Jing Wang, J. Pei, Wenwu Zhu, Shiqiang Yang. (2017)  
-**Community Preserving Network Embedding**  
-AAAI  
-[Paper Link](https://www.semanticscholar.org/paper/d3e0d596efd9d19b93d357565a68dfa925dce2bb)  
-Influential Citation Count (52), SS-ID (d3e0d596efd9d19b93d357565a68dfa925dce2bb)  
-
-**ABSTRACT**  
-Network embedding, aiming to learn the low-dimensional representations of nodes in networks, is of paramount importance in many real applications. One basic requirement of network embedding is to preserve the structure and inherent properties of the networks. While previous network embedding methods primarily preserve the microscopic structure, such as the first- and second-order proximities of nodes, the mesoscopic community structure, which is one of the most prominent feature of networks, is largely ignored. In this paper, we propose a novel Modularized Nonnegative Matrix Factorization (M-NMF) model to incorporate the community structure into network embedding. We exploit the consensus relationship between the representations of nodes and community structure, and then jointly optimize NMF based representation learning model and modularity based community detection model in a unified framework, which enables the learned representations of nodes to preserve both of the microscopic and community structures. We also provide efficient updating rules to infer the parameters of our model, together with the correctness and convergence guarantees. Extensive experimental results on a variety of real-world networks show the superior performance of the proposed method over the state-of-the-arts.
-  {{< /ci-details >}}
-- ATP (Asymmetric Transitivity Preservation)
-  {{< ci-details summary="Sun et al. (2018)" >}}
-Jiankai Sun, Bortik Bandyopadhyay, Armin Bashizade, Jiongqian Liang, P. Sadayappan, S. Parthasarathy. (2018)  
-**ATP: Directed Graph Embedding with Asymmetric Transitivity Preservation**  
-AAAI  
-[Paper Link](https://www.semanticscholar.org/paper/b764d0070d07957d4b9621988ea3d020e9ecbe36)  
-Influential Citation Count (4), SS-ID (b764d0070d07957d4b9621988ea3d020e9ecbe36)  
-
-**ABSTRACT**  
-Directed graphs have been widely used in Community Question Answering services (CQAs) to model asymmetric relationships among different types of nodes in CQA graphs, e.g., question, answer, user. Asymmetric transitivity is an essential property of directed graphs, since it can play an important role in downstream graph inference and analysis. Question difficulty and user expertise follow the characteristic of asymmetric transitivity. Maintaining such properties, while reducing the graph to a lower dimensional vector embedding space, has been the focus of much recent research. In this paper, we tackle the challenge of directed graph embedding with asymmetric transitivity preservation and then leverage the proposed embedding method to solve a fundamental task in CQAs: how to appropriately route and assign newly posted questions to users with the suitable expertise and interest in CQAs. The technique incorporates graph hierarchy and reachability information naturally by relying on a nonlinear transformation that operates on the core reachability and implicit hierarchy within such graphs. Subsequently, the methodology levers a factorization-based approach to generate two embedding vectors for each node within the graph, to capture the asymmetric transitivity. Extensive experiments show that our framework consistently and significantly outperforms the state-of-the-art baselines on three diverse realworld tasks: link prediction, and question difficulty estimation and expert finding in online forums like Stack Exchange. Particularly, our framework can support inductive embedding learning for newly posted questions (unseen nodes during training), and therefore can properly route and assign these kinds of questions to experts in CQAs.
-  {{< /ci-details >}}
-- SDNE
-  {{< ci-details summary="Wang, Cui & Zhu (2016)" >}}
-Daixin Wang, Peng Cui, Wenwu Zhu. (2016)  
-**Structural Deep Network Embedding**  
-KDD  
-[Paper Link](https://www.semanticscholar.org/paper/d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
-Influential Citation Count (223), SS-ID (d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
-
-**ABSTRACT**  
-Network embedding is an important method to learn low-dimensional representations of vertexes in networks, aiming to capture and preserve the network structure. Almost all the existing network embedding methods adopt shallow models. However, since the underlying network structure is complex, shallow models cannot capture the highly non-linear network structure, resulting in sub-optimal network representations. Therefore, how to find a method that is able to effectively capture the highly non-linear network structure and preserve the global and local structure is an open yet important problem. To solve this problem, in this paper we propose a Structural Deep Network Embedding method, namely SDNE. More specifically, we first propose a semi-supervised deep model, which has multiple layers of non-linear functions, thereby being able to capture the highly non-linear network structure. Then we propose to exploit the first-order and second-order proximity jointly to preserve the network structure. The second-order proximity is used by the unsupervised component to capture the global network structure. While the first-order proximity is used as the supervised information in the supervised component to preserve the local network structure. By jointly optimizing them in the semi-supervised deep model, our method can preserve both the local and global network structure and is robust to sparse networks. Empirically, we conduct the experiments on five real-world networks, including a language network, a citation network and three social networks. The results show that compared to the baselines, our method can reconstruct the original network significantly better and achieves substantial gains in three applications, i.e. multi-label classification, link prediction and visualization.
-  {{< /ci-details >}}
+- [LE (Laplacian Eigenmaps)](#le)
+- [Kernel Eigenmaps](#kernel-eigenmaps)
+- [Cauchy Graph Embedding](#cauchy-graph-embedding)
+- [SPE (Structure Preserving Embedding)](#structure-preserving-embedding)
+- [GF (Graph Factorization)](#graph-factorization)
+- [GraRep](#grarep)
+- [HOPE](#hope)
+- [M-NMF (Modularized Nonnegative Matrix Factorization)](#modularized-nonnegative-matrix-factorization)
+- [ATP (Asymmetric Transitivity Preservation)](#atp-asymmetric-transitivity-preservation)
+- [SDNE (Structural Deep Network Embedding)](#sdne-structural-deep-network-embedding)
 
 FactorizationベースのEmbeddingは深く研究されている領域だが，グラフの規模が大きくなった場合に計算コストが非常に高くなるため，多くの研究では規模の大きなグラフに対しては小さな近傍に対してしか適用されていない．
 
@@ -486,222 +331,23 @@ Recent methods for learning vector space representations of words have succeeded
 **Skip-gram** is method to learn sequence element $i$ representation via maximization of probability of elements in context of $i$ based on representation of $i$.
 {{< /box-with-title >}}
 
-- Node2Vec
-  {{< ci-details summary="Grover & Leskovec (2016)" >}}
-Aditya Grover, J. Leskovec. (2016)  
-**node2vec: Scalable Feature Learning for Networks**  
-KDD  
-[Paper Link](https://www.semanticscholar.org/paper/36ee2c8bd605afd48035d15fdc6b8c8842363376)  
-Influential Citation Count (1119), SS-ID (36ee2c8bd605afd48035d15fdc6b8c8842363376)  
-
-**ABSTRACT**  
-Prediction tasks over nodes and edges in networks require careful effort in engineering features used by learning algorithms. Recent research in the broader field of representation learning has led to significant progress in automating prediction by learning the features themselves. However, present feature learning approaches are not expressive enough to capture the diversity of connectivity patterns observed in networks. Here we propose node2vec, an algorithmic framework for learning continuous feature representations for nodes in networks. In node2vec, we learn a mapping of nodes to a low-dimensional space of features that maximizes the likelihood of preserving network neighborhoods of nodes. We define a flexible notion of a node's network neighborhood and design a biased random walk procedure, which efficiently explores diverse neighborhoods. Our algorithm generalizes prior work which is based on rigid notions of network neighborhoods, and we argue that the added flexibility in exploring neighborhoods is the key to learning richer representations. We demonstrate the efficacy of node2vec over existing state-of-the-art techniques on multi-label classification and link prediction in several real-world networks from diverse domains. Taken together, our work represents a new way for efficiently learning state-of-the-art task-independent representations in complex networks.
-  {{< /ci-details >}}
-- DeepWalk  
+- [Node2Vec](#node2vec)
+- [DeepWalk](#deepwalk)  
   <i class="fa-solid fa-arrow-right"></i> Random WalkとSkip-gramを組み合わせてEmbeddingを学習する手法
-  {{< ci-details summary="Perozzi, Al-Rfou & Skiena (2014)" >}}
-Bryan Perozzi, Rami Al-Rfou, S. Skiena. (2014)  
-**DeepWalk: online learning of social representations**  
-KDD  
-[Paper Link](https://www.semanticscholar.org/paper/fff114cbba4f3ba900f33da574283e3de7f26c83)  
-Influential Citation Count (1335), SS-ID (fff114cbba4f3ba900f33da574283e3de7f26c83)  
-
-**ABSTRACT**  
-We present DeepWalk, a novel approach for learning latent representations of vertices in a network. These latent representations encode social relations in a continuous vector space, which is easily exploited by statistical models. DeepWalk generalizes recent advancements in language modeling and unsupervised feature learning (or deep learning) from sequences of words to graphs. DeepWalk uses local information obtained from truncated random walks to learn latent representations by treating walks as the equivalent of sentences. We demonstrate DeepWalk's latent representations on several multi-label network classification tasks for social networks such as BlogCatalog, Flickr, and YouTube. Our results show that DeepWalk outperforms challenging baselines which are allowed a global view of the network, especially in the presence of missing information. DeepWalk's representations can provide F1 scores up to 10% higher than competing methods when labeled data is sparse. In some experiments, DeepWalk's representations are able to outperform all baseline methods while using 60% less training data. DeepWalk is also scalable. It is an online learning algorithm which builds useful incremental results, and is trivially parallelizable. These qualities make it suitable for a broad class of real world applications such as network classification, and anomaly detection.
-  {{< /ci-details >}}
-- LINE
-  {{< ci-details summary="Tang et al. (2015)" >}}
-Jian Tang, Meng Qu, Mingzhe Wang, Ming Zhang, Jun Yan, Q. Mei. (2015)  
-**LINE: Large-scale Information Network Embedding**  
-WWW  
-[Paper Link](https://www.semanticscholar.org/paper/0834e74304b547c9354b6d7da6fa78ef47a48fa8)  
-Influential Citation Count (832), SS-ID (0834e74304b547c9354b6d7da6fa78ef47a48fa8)  
-
-**ABSTRACT**  
-This paper studies the problem of embedding very large information networks into low-dimensional vector spaces, which is useful in many tasks such as visualization, node classification, and link prediction. Most existing graph embedding methods do not scale for real world information networks which usually contain millions of nodes. In this paper, we propose a novel network embedding method called the ``LINE,'' which is suitable for arbitrary types of information networks: undirected, directed, and/or weighted. The method optimizes a carefully designed objective function that preserves both the local and global network structures. An edge-sampling algorithm is proposed that addresses the limitation of the classical stochastic gradient descent and improves both the effectiveness and the efficiency of the inference. Empirical experiments prove the effectiveness of the LINE on a variety of real-world information networks, including language networks, social networks, and citation networks. The algorithm is very efficient, which is able to learn the embedding of a network with millions of vertices and billions of edges in a few hours on a typical single machine. The source code of the LINE is available online\footnote{\url{https://github.com/tangjianpku/LINE}}.
-  {{< /ci-details >}}
-- Diff2Vec
-  {{< ci-details summary="Rozemberczki & Sarkar (2018)" >}}
-Benedek Rozemberczki, R. Sarkar. (2018)  
-**Fast Sequence-Based Embedding with Diffusion Graphs**  
-ArXiv  
-[Paper Link](https://www.semanticscholar.org/paper/d1764864dc0a676ff1732972e179fb2d8d4f564b)  
-Influential Citation Count (5), SS-ID (d1764864dc0a676ff1732972e179fb2d8d4f564b)  
-
-**ABSTRACT**  
-A graph embedding is a representation of graph vertices in a low- dimensional space, which approximately preserves properties such as distances between nodes. Vertex sequence-based embedding procedures use features extracted from linear sequences of nodes to create embeddings using a neural network. In this paper, we propose diffusion graphs as a method to rapidly generate vertex sequences for network embedding. Its computational efficiency is superior to previous methods due to simpler sequence generation, and it produces more accurate results. In experiments, we found that the performance relative to other methods improves with increasing edge density in the graph. In a community detection task, clustering nodes in the embedding space produces better results compared to other sequence-based embedding methods.
-  {{< /ci-details >}}
-- Walklets  
+- [LINE](#line)
+- [Diff2Vec](#diff2vec)
+- [Walklets](#walklets)  
   <i class="fa-solid fa-arrow-right"></i> GraRep (Cao, Lu & Xu, 2015)を一般化した手法で，DeepWalkの低次近傍におけるバイアスを低減したものでもある
-  {{< ci-details summary="Perozzi, Kulkarni & Skiena (2016)" >}}
-**Walklets: Multiscale Graph Embeddings for Interpretable Network Classification**  
-ArXiv  
-[Paper Link](https://www.semanticscholar.org/paper/37cf46e45777e67676f80c9110bed675a9840590)  
-Influential Citation Count (11), SS-ID (37cf46e45777e67676f80c9110bed675a9840590)  
-
-**ABSTRACT**  
-We present Walklets, a novel approach for learning multiscale representations of vertices in a network. These representations clearly encode multiscale vertex relationships in a continuous vector space suitable for multi-label classification problems. Unlike previous work, the latent features generated using Walklets are analytically derivable, and human interpretable.  Walklets uses the offsets between vertices observed in a random walk to learn a series of latent representations, each which captures successively larger relationships. This variety of dependency information allows the same representation strategy to model phenomenon which occur at different scales.  We demonstrate Walklets' latent representations on several multi-label network classification tasks for social networks such as BlogCatalog, Flickr, and YouTube. Our results show that Walklets outperforms new methods based on neural matrix factorization, and can scale to graphs with millions of vertices and edges.
-  {{< /ci-details >}}
-- HARP
-  {{< ci-details summary="Chen et al. (2018)" >}}
-Haochen Chen, Bryan Perozzi, Yifan Hu, S. Skiena. (2017)  
-**HARP: Hierarchical Representation Learning for Networks**  
-AAAI  
-[Paper Link](https://www.semanticscholar.org/paper/ee9cc8e663d650ae96405ad680d6447066e6fb23)  
-Influential Citation Count (32), SS-ID (ee9cc8e663d650ae96405ad680d6447066e6fb23)  
-
-**ABSTRACT**  
-We present HARP, a novel method for learning low dimensional embeddings of a graph's nodes which preserves higher-order structural features. Our proposed method achieves this by compressing the input graph prior to embedding it, effectively avoiding troublesome embedding configurations (i.e. local minima) which can pose problems to non-convex optimization. HARP works by finding a smaller graph which approximates the global structure of its input. This simplified graph is used to learn a set of initial representations, which serve as good initializations for learning representations in the original, detailed graph. We inductively extend this idea, by decomposing a graph in a series of levels, and then embed the hierarchy of graphs from the coarsest one to the original graph. HARP is a general meta-strategy to improve all of the state-of-the-art neural algorithms for embedding graphs, including DeepWalk, LINE, and Node2vec. Indeed, we demonstrate that applying HARP's hierarchical paradigm yields improved implementations for all three of these methods, as evaluated on both classification tasks on real-world graphs such as DBLP, BlogCatalog, CiteSeer, and Arxiv, where we achieve a performance gain over the original implementations by up to 14% Macro F1.
-  {{</ ci-details >}}
-  {{< ci-details summary="Tang & Liu (2009)" >}}
-Lei Tang, Huan Liu. (2009)  
-**Relational learning via latent social dimensions**  
-KDD  
-[Paper Link](https://www.semanticscholar.org/paper/a505e4c2bf30cd88afe483f7541409e2ba5ab3d4)  
-Influential Citation Count (72), SS-ID (a505e4c2bf30cd88afe483f7541409e2ba5ab3d4)  
-
-**ABSTRACT**  
-Social media such as blogs, Facebook, Flickr, etc., presents data in a network format rather than classical IID distribution. To address the interdependency among data instances, relational learning has been proposed, and collective inference based on network connectivity is adopted for prediction. However, connections in social media are often multi-dimensional. An actor can connect to another actor for different reasons, e.g., alumni, colleagues, living in the same city, sharing similar interests, etc. Collective inference normally does not differentiate these connections. In this work, we propose to extract latent social dimensions based on network information, and then utilize them as features for discriminative learning. These social dimensions describe diverse affiliations of actors hidden in the network, and the discriminative learning can automatically determine which affiliations are better aligned with the class labels. Such a scheme is preferred when multiple diverse relations are associated with the same network. We conduct extensive experiments on social media data (one from a real-world blog site and the other from a popular content sharing site). Our model outperforms representative relational learning methods based on collective inference, especially when few labeled data are available. The sensitivity of this model and its connection to existing methods are also examined.
-  {{< /ci-details >}}
-  {{< ci-details summary="Feng et al. (2017)" >}}
-Rui Feng, Yang Yang, Wenjie Hu, Fei Wu, Yueting Zhuang. (2017)  
-**Representation Learning for Scale-free Networks**  
-AAAI  
-[Paper Link](https://www.semanticscholar.org/paper/464a60d8e67ab42d360c9be2d29f919d30312315)  
-Influential Citation Count (3), SS-ID (464a60d8e67ab42d360c9be2d29f919d30312315)  
-
-**ABSTRACT**  
-Network embedding aims to learn the low-dimensional representations of vertexes in a network, while structure and inherent properties of the network is preserved. Existing network embedding works primarily focus on preserving the microscopic structure, such as the first- and second-order proximity of vertexes, while the macroscopic scale-free property is largely ignored. Scale-free property depicts the fact that vertex degrees follow a heavy-tailed distribution (i.e., only a few vertexes have high degrees) and is a critical property of real-world networks, such as social networks. In this paper, we study the problem of learning representations for scale-free networks. We first theoretically analyze the difficulty of embedding and reconstructing a scale-free network in the Euclidean space, by converting our problem to the sphere packing problem. Then, we propose the "degree penalty" principle for designing scale-free property preserving network embedding algorithm: punishing the proximity between high-degree vertexes. We introduce two implementations of our principle by utilizing the spectral techniques and a skip-gram model respectively. Extensive experiments on six datasets show that our algorithms are able to not only reconstruct heavy-tailed distributed degree distribution, but also outperform state-of-the-art embedding models in various network mining tasks, such as vertex classification and link prediction.
-  {{< /ci-details >}}
-- Struct2Vec
-  {{< ci-details summary="Ribeiro, Saverese & Figueiredo (2017)" >}}
-Leonardo F. R. Ribeiro, Pedro H. P. Saverese, Daniel R. Figueiredo. (2017)  
-**struc2vec: Learning Node Representations from Structural Identity**  
-KDD  
-[Paper Link](https://www.semanticscholar.org/paper/0f7f5679615effcc4c9b98cf2deb17c30744a6d7)  
-Influential Citation Count (87), SS-ID (0f7f5679615effcc4c9b98cf2deb17c30744a6d7)  
-
-**ABSTRACT**  
-Structural identity is a concept of symmetry in which network nodes are identified according to the network structure and their relationship to other nodes. Structural identity has been studied in theory and practice over the past decades, but only recently has it been addressed with representational learning techniques. This work presents struc2vec, a novel and flexible framework for learning latent representations for the structural identity of nodes. struc2vec uses a hierarchy to measure node similarity at different scales, and constructs a multilayer graph to encode structural similarities and generate structural context for nodes. Numerical experiments indicate that state-of-the-art techniques for learning node representations fail in capturing stronger notions of structural identity, while struc2vec exhibits much superior performance in this task, as it overcomes limitations of prior approaches. As a consequence, numerical experiments indicate that struc2vec improves performance on classification tasks that depend more on structural identity.
-  {{< /ci-details >}}
-- Biased-Graph2Vec
-  {{< ci-details summary="Liu et al. (2020)" >}}
-Yan Liu, Xiaokun Zhang, Lian Liu, Gaojian Li. (2020)  
-**Graph Embedding Based on Characteristic of Rooted Subgraph Structure**  
-KSEM  
-[Paper Link](https://www.semanticscholar.org/paper/60e8a34070dbbb8ef1b3ca4e789d20dd7c826ded)  
-Influential Citation Count (0), SS-ID (60e8a34070dbbb8ef1b3ca4e789d20dd7c826ded)  
-
-**ABSTRACT**  
-Given the problem that currently distributed graph embedding models have not yet been effectively modeled of substructure similarity, biased-graph2vec, a graph embedding model based on structural characteristics of rooted subgraphs is proposed in this paper. This model, based on the distributed representation model of the graph, has modified its original random walk process and converted it to a random walk with weight bias based on structural similarity. The appropriate context is generated for all substructures. Based on preserving the tag features of the nodes and edges in the substructure, the representation of the substructure in the feature space depends more on the structural similarity itself. Biased-graph2vec calculates the graph representations with unsupervised algorithm and could build the model for both graphs and substructures via universal models, leaving complex feature engineering behind and has functional mobility. Meanwhile, this method models similar information among substructures, solving the problem that typical random walk strategies could not capture similarities of substructures with long distance. The experiments of graph classification are carried out on six open benchmark datasets. The comparison among our method, the graph kernel method, and the baseline method without considering the structural similarity of long-distance ions is made. Experiments show that the method this paper proposed has varying degrees inordinately improved the accuracy of classification tasks.
-  {{< /ci-details >}}
-- GraphWave
-  {{< ci-details summary="Donnat et al. (2017)" >}}
-C. Donnat, M. Zitnik, David Hallac, J. Leskovec. (2017)  
-**Spectral Graph Wavelets for Structural Role Similarity in Networks**  
-ArXiv  
-[Paper Link](https://www.semanticscholar.org/paper/ded841318dbc807c47608a697629fdc4fa3f01da)  
-Influential Citation Count (9), SS-ID (ded841318dbc807c47608a697629fdc4fa3f01da)  
-
-**ABSTRACT**  
-Nodes residing in different parts of a graph can have similar structural roles within their local network topology. The identification of such roles provides key insight into the organization of networks and can also be used to inform machine learning on graphs. However, learning structural representations of nodes is a challenging unsupervised-learning task, which typically involves manually specifying and tailoring topological features for each node. Here we develop GRAPHWAVE, a method that represents each node’s local network neighborhood via a low-dimensional embedding by leveraging spectral graph wavelet diffusion patterns. We prove that nodes with similar local network neighborhoods will have similar GRAPHWAVE embeddings even though these nodes may reside in very different parts of the network. Our method scales linearly with the number of edges and does not require any hand-tailoring of topological features. We evaluate performance on both synthetic and real-world datasets, obtaining improvements of up to 71% over state-of-the-art baselines.
-  {{< /ci-details >}}
-- Graph Attention
-  {{< ci-details summary="Abu-El-Haija et al. (2017)" >}}
-Sami Abu-El-Haija, Bryan Perozzi, Rami Al-Rfou, Alexander A. Alemi. (2017)  
-**Watch Your Step: Learning Node Embeddings via Graph Attention**  
-NeurIPS  
-[Paper Link](https://www.semanticscholar.org/paper/49a5b5e65078eff512083d9de413d49a8aadc064)  
-Influential Citation Count (13), SS-ID (49a5b5e65078eff512083d9de413d49a8aadc064)  
-
-**ABSTRACT**  
-Graph embedding methods represent nodes in a continuous vector space, preserving different types of relational information from the graph. There are many hyper-parameters to these methods (e.g. the length of a random walk) which have to be manually tuned for every graph. In this paper, we replace previously fixed hyper-parameters with trainable ones that we automatically learn via backpropagation. In particular, we propose a novel attention model on the power series of the transition matrix, which guides the random walk to optimize an upstream objective. Unlike previous approaches to attention models, the method that we propose utilizes attention parameters exclusively on the data itself (e.g. on the random walk), and are not used by the model for inference. We experiment on link prediction tasks, as we aim to produce embeddings that best-preserve the graph structure, generalizing to unseen information. We improve state-of-the-art results on a comprehensive suite of real-world graph datasets including social, collaboration, and biological networks, where we observe that our graph attention model can reduce the error by up to 20\%-40\%. We show that our automatically-learned attention parameters can vary significantly per graph, and correspond to the optimal choice of hyper-parameter if we manually tune existing methods.
-  {{< /ci-details >}}
-  {{< ci-details summary="Velickovic et al. (2017)" >}}
-Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, P. Lio’, Yoshua Bengio. (2017)  
-**Graph Attention Networks**  
-ICLR  
-[Paper Link](https://www.semanticscholar.org/paper/33998aff64ce51df8dee45989cdca4b6b1329ec4)  
-Influential Citation Count (1371), SS-ID (33998aff64ce51df8dee45989cdca4b6b1329ec4)  
-
-**ABSTRACT**  
-We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations. By stacking layers in which nodes are able to attend over their neighborhoods' features, we enable (implicitly) specifying different weights to different nodes in a neighborhood, without requiring any kind of costly matrix operation (such as inversion) or depending on knowing the graph structure upfront. In this way, we address several key challenges of spectral-based graph neural networks simultaneously, and make our model readily applicable to inductive as well as transductive problems. Our GAT models have achieved or matched state-of-the-art results across four established transductive and inductive graph benchmarks: the Cora, Citeseer and Pubmed citation network datasets, as well as a protein-protein interaction dataset (wherein test graphs remain unseen during training).
-  {{< /ci-details >}}
-  {{< ci-details summary="Liu et al. (2018)" >}}
-Ziqi Liu, Chaochao Chen, Longfei Li, Jun Zhou, Xiaolong Li, Le Song. (2018)  
-**GeniePath: Graph Neural Networks with Adaptive Receptive Paths**  
-AAAI  
-[Paper Link](https://www.semanticscholar.org/paper/127af6effc74f073ac2442f6d82c944f562e2c0f)  
-Influential Citation Count (18), SS-ID (127af6effc74f073ac2442f6d82c944f562e2c0f)  
-
-**ABSTRACT**  
-We present, GeniePath, a scalable approach for learning adaptive receptive fields of neural networks defined on permutation invariant graph data. In GeniePath, we propose an adaptive path layer consists of two complementary functions designed for breadth and depth exploration respectively, where the former learns the importance of different sized neighborhoods, while the latter extracts and filters signals aggregated from neighbors of different hops away. Our method works in both transductive and inductive settings, and extensive experiments compared with competitive methods show that our approaches yield state-of-the-art results on large graphs.
-  {{< /ci-details >}}
-  {{< ci-details summary="Lee et al. (2018)" >}}
-J. B. Lee, Ryan A. Rossi, Sungchul Kim, Nesreen Ahmed, Eunyee Koh. (2018)  
-**Attention Models in Graphs**  
-ACM Trans. Knowl. Discov. Data  
-[Paper Link](https://www.semanticscholar.org/paper/cc23c580b7d8063415fb6eb512053d1079b849de)  
-Influential Citation Count (1), SS-ID (cc23c580b7d8063415fb6eb512053d1079b849de)  
-
-**ABSTRACT**  
-Graph-structured data arise naturally in many different application domains. By representing data as graphs, we can capture entities (i.e., nodes) as well as their relationships (i.e., edges) with each other. Many useful insights can be derived from graph-structured data as demonstrated by an ever-growing body of work focused on graph mining. However, in the real-world, graphs can be both large—with many complex patterns—and noisy, which can pose a problem for effective graph mining. An effective way to deal with this issue is to incorporate “attention” into graph mining solutions. An attention mechanism allows a method to focus on task-relevant parts of the graph, helping it to make better decisions. In this work, we conduct a comprehensive and focused survey of the literature on the emerging field of graph attention models. We introduce three intuitive taxonomies to group existing work. These are based on problem setting (type of input and output), the type of attention mechanism used, and the task (e.g., graph classification, link prediction). We motivate our taxonomies through detailed examples and use each to survey competing approaches from a unique standpoint. Finally, we highlight several challenges in the area and discuss promising directions for future work.
-  {{< /ci-details >}}
-- Metapath2Vec
-  {{< ci-details summary="Dong, Chawla & Swami (2017)" >}}
-Yuxiao Dong, N. Chawla, A. Swami. (2017)  
-**metapath2vec: Scalable Representation Learning for Heterogeneous Networks**  
-KDD  
-[Paper Link](https://www.semanticscholar.org/paper/c0af91371f426ff92117d2ccdadb2032bec23d2c)  
-Influential Citation Count (164), SS-ID (c0af91371f426ff92117d2ccdadb2032bec23d2c)  
-
-**ABSTRACT**  
-We study the problem of representation learning in heterogeneous networks. Its unique challenges come from the existence of multiple types of nodes and links, which limit the feasibility of the conventional network embedding techniques. We develop two scalable representation learning models, namely metapath2vec and metapath2vec++. The metapath2vec model formalizes meta-path-based random walks to construct the heterogeneous neighborhood of a node and then leverages a heterogeneous skip-gram model to perform node embeddings. The metapath2vec++ model further enables the simultaneous modeling of structural and semantic correlations in heterogeneous networks. Extensive experiments show that metapath2vec and metapath2vec++ are able to not only outperform state-of-the-art embedding models in various heterogeneous network mining tasks, such as node classification, clustering, and similarity search, but also discern the structural and semantic correlations between diverse network objects.
-  {{< /ci-details >}}
-- GenVector
-  {{< ci-details summary="Yang, Tang & Cohen (2015)">}}
-Zhilin Yang, Jie Tang, William W. Cohen. (2015)  
-**Multi-Modal Bayesian Embeddings for Learning Social Knowledge Graphs**  
-IJCAI  
-[Paper Link](https://www.semanticscholar.org/paper/695d4c04f6e4f7ba5f771ac7853fdbaa81713ae8)  
-Influential Citation Count (3), SS-ID (695d4c04f6e4f7ba5f771ac7853fdbaa81713ae8)  
-
-**ABSTRACT**  
-We study the extent to which online social networks can be connected to open knowledge bases. The problem is referred to as learning social knowledge graphs. We propose a multi-modal Bayesian embedding model, GenVector, to learn latent topics that generate word and network embeddings. GenVector leverages large-scale unlabeled data with embeddings and represents data of two modalities---i.e., social network users and knowledge concepts---in a shared latent topic space. Experiments on three datasets show that the proposed method clearly outperforms state-of-the-art methods. We then deploy the method on AMiner, a large-scale online academic search system with a network of 38,049,189 researchers with a knowledge base with 35,415,011 concepts. Our method significantly decreases the error rate in an online A/B test with live users.
-  {{< /ci-details >}}
-- GEMSEC
-  {{< ci-details summary="Rozemberczki et al. (2018)" >}}
-Benedek Rozemberczki, Ryan Davies, R. Sarkar, Charles Sutton. (2018)  
-**GEMSEC: Graph Embedding with Self Clustering**  
-2019 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)  
-[Paper Link](https://www.semanticscholar.org/paper/59be148a4b5f7e05cb3cb24afa1f6adad2cdfa29)  
-Influential Citation Count (16), SS-ID (59be148a4b5f7e05cb3cb24afa1f6adad2cdfa29)  
-
-**ABSTRACT**  
-Modern graph embedding procedures can efficiently process graphs with millions of nodes. In this paper, we propose GEMSEC - a graph embedding algorithm which learns a clustering of the nodes simultaneously with computing their embedding. GEMSEC is a general extension of earlier work in the domain of sequence-based graph embedding. GEMSEC places nodes in an abstract feature space where the vertex features minimize the negative log-likelihood of preserving sampled vertex neighborhoods, and it incorporates known social network properties through a machine learning regularization. We present two new social network datasets and show that by simultaneously considering the embedding and clustering problems with respect to social properties, GEMSEC extracts high-quality clusters competitive with or superior to other community detection algorithms. In experiments, the method is found to be computationally efficient and robust to the choice of hyperparameters.
-  {{< /ci-details >}}
-- DDRW (Discriminative Deep Random Walk)
-  {{< ci-details summary="Li Zhu & Zhang (2016)" >}}
-Juzheng Li, Jun Zhu, Bo Zhang. (2016)  
-**Discriminative Deep Random Walk for Network Classification**  
-ACL  
-[Paper Link](https://www.semanticscholar.org/paper/a6fd225417efdbf0bb9aef2ef2046335d2d0885e)  
-Influential Citation Count (2), SS-ID (a6fd225417efdbf0bb9aef2ef2046335d2d0885e)  
-
-**ABSTRACT**  
-Deep Random Walk (DeepWalk) can learn a latent space representation for describing the topological structure of a network. However, for relational network classification, DeepWalk can be suboptimal as it lacks a mechanism to optimize the objective of the target task. In this paper, we present Discriminative Deep Random Walk (DDRW), a novel method for relational network classification. By solving a joint optimization problem, DDRW can learn the latent space representations that well capture the topological structure and meanwhile are discriminative for the network classification task. Our experimental results on several real social networks demonstrate that DDRW significantly outperforms DeepWalk on multilabel network classification tasks, while retaining the topological structure in the latent space. DDRW is stable and consistently outperforms the baseline methods by various percentages of labeled data. DDRW is also an online method that is scalable and can be naturally parallelized.
-  {{< /ci-details >}}
-- Exponential Family Graph Embedding
-  {{< ci-details summary="Çelikkanat & Malliaros (2019)" >}}
-Abdulkadir Çelikkanat, Fragkiskos D. Malliaros. (2019)  
-**Exponential Family Graph Embeddings**  
-AAAI  
-[Paper Link](https://www.semanticscholar.org/paper/b176355c33564beb8c7864572877ee4c7dcb40c4)  
-Influential Citation Count (0), SS-ID (b176355c33564beb8c7864572877ee4c7dcb40c4)  
-
-**ABSTRACT**  
-Representing networks in a low dimensional latent space is a crucial task with many interesting applications in graph learning problems, such as link prediction and node classification. A widely applied network representation learning paradigm is based on the combination of random walks for sampling context nodes and the traditional \textit{Skip-Gram} model to capture center-context node relationships. In this paper, we emphasize on exponential family distributions to capture rich interaction patterns between nodes in random walk sequences. We introduce the generic \textit{exponential family graph embedding} model, that generalizes random walk-based network representation learning techniques to exponential family conditional distributions. We study three particular instances of this model, analyzing their properties and showing their relationship to existing unsupervised learning models. Our experimental evaluation on real-world datasets demonstrates that the proposed techniques outperform well-known baseline methods in two downstream machine learning tasks.
-  {{< /ci-details >}}
+- [HARP](#harp)
+- [Struct2Vec](#struct2vec)
+- [Biased-Graph2Vec](#biased-graph2vec)
+- [GraphWave](#graphwave)
+- [Graph Attention](#gat-graph-attention)
+- [Metapath2Vec](#metapath2vec)
+- [GenVector](#genvector)
+- [GEMSEC](#gemsec)
+- [DDRW (Discriminative Deep Random Walk)](#ddrw-discriminative-deep-random-walk)
+- [Exponential Family Graph Embedding](#exponential-family-graph-embedding)
 
 Sequence-basedモデルはノードの列をサンプリングしてNLPでいうところのコンテキストを考慮しながらEmbeddingを学習するので，精度の高いEmbeddingを学習することができる．  
 一方でノードやエッジの"additional features"を考慮することはできない．
@@ -710,9 +356,287 @@ Sequence-basedモデルはノードの列をサンプリングしてNLPでいう
 
 - Deep Autoencoderを使用して非線形なグラフの特徴を捉えつつ低次元なEmbeddingを構成  
   <i class="fa-solid fa-arrow-right"></i> ただし，どちらの手法もグラフ全体をインプットにするため，大規模なグラフには向かない
-  - SDNE
-    {{< ci-details summary="Wang, Cui & Zhu (2016)" >}}
-Daixin Wang, Peng Cui, Wenwu Zhu. (2016)  
+  - [SDNE (Structural Deep Network Embedding)](#sdne-structural-deep-network-embedding)
+  - [DNGR (Deep Neural networks for learning Graph Representations)](#dngr-deep-neural-networks-for-learning-graph-representations)
+- [GCN (Graph Convolutional Network)](#gcn-graph-convolutional-network)
+- [GraphSAINT](#graphsaint)  
+  <i class="fa-solid fa-arrow-right"></i> 学習時のグラフでーたのスケーラビリティ問題に対する解決策を提案．
+- [VGAE (Variational Graph AutoEncoder)](#vgae-variational-graph-autoencoder)  
+  <i class="fa-solid fa-arrow-right" ></i> Encoder/DecoderにGCNを採用し，GAEに確率変数を導入して拡張した手法．
+- [GraphSAGE](#graphsage)  
+  <i class="fa-solid fa-arrow-right" ></i> 各ノードのk-hopの範囲で特徴量を集約する手法．大規模なグラフにも適用できる．
+- [PinSAGE](#pinsage)  
+  <i class="fa-solid fa-arrow-right"></i> GraphSAGEを拡張してImportance Scoreを導入した．GraphSAGEに比べてより大規模なグラフを精度良く扱えるようになっている．
+- [GAT (Graph Attention)](#gat-graph-attention)
+- [Geniepath](#geniepath)  
+  <i class="fa-solid fa-arrow-right"></i> Aggregation Layerを改善して，Node2Vecを一般化したモデルを提案．
+- [MPNN (Message Passing Neural Network)](#mpnn-message-passing-neural-network)
+- [Graph Generative Adversarial Networks](#graph-generative-adversarial-networks)
+- [ARVGA (Adversarially Regularized Variational Graph Autoencoder)](#arvga-adversarially-regularized-variational-graph-autoencoder)
+- [DGGAN](#dggan)
+- [Anonymized GCN](#anonymized-gcn)
+- [RASE](#rase)
+- [Graph Embedding with Data Unvertainty](#graph-embedding-with-data-uncertainty)
+- [AAVGA (Adversarial Attention Variational Graph AutoEncoder)](#aavga-adversarial-attention-variational-graph-autoencoder)
+- [GSSNN (Graph Smoothing Splines Neural Networks)](#gssnn-graph-smoothing-splines-neural-networks)
+- [VHKRep (Variable Heat Kernel Representation)](#vhkrep-variable-heat-kernel-representation)
+
+### Hyperbolic (non-Euclidean) embeddings
+
+Embeddingの多くはEuclidean空間匂いて定義されているが，グラフにおけるEmbeddingに最適な空間に関する議論はあまり進んでいない．
+
+- non-Euclidean空間がモデルの精度に与える影響に関する研究
+  {{< ci-details summary="Kleinberg (2007)" >}}
+**The link-prediction problem for social networks**  
+J. Assoc. Inf. Sci. Technol.  
+[Paper Link](https://www.semanticscholar.org/paper/996dfa43f6982bcbff862276ef80cbca7515985a)  
+Influential Citation Count (240), SS-ID (996dfa43f6982bcbff862276ef80cbca7515985a)  
+
+**ABSTRACT**  
+Given a snapshot of a social network, can we infer which new interactions among its members are likely to occur in the near future? We formalize this question as the link prediction problem, and develop approaches to link prediction based on measures the "proximity" of nodes in a network. Experiments on large co-authorship networks suggest that information about future interactions can be extracted from network topology alone, and that fairly subtle measures for detecting node proximity can outperform more direct measures.
+  {{< /ci-details >}}
+  {{< ci-details summary="Shavitt & Tankel (2008)" >}}
+Y. Shavitt, Tomer Tankel. (2008)  
+**Hyperbolic embedding of internet graph for distance estimation and overlay construction**  
+TNET  
+[Paper Link](https://www.semanticscholar.org/paper/dd1d4e8acfabf225686d294660e0deb0059bdfd7)  
+Influential Citation Count (8), SS-ID (dd1d4e8acfabf225686d294660e0deb0059bdfd7)  
+
+**ABSTRACT**  
+Estimating distances in the Internet has been studied in the recent years due to its ability to improve the performance of many applications, e.g., in the peer-to-peer realm. One scalable approach to estimate distances between nodes is to embed the nodes in some d dimensional geometric space and to use the pair distances in this space as the estimate for the real distances. Several algorithms were suggested in the past to do this in low dimensional Euclidean spaces.  It was noted in recent years that the Internet structure has a highly connected core and long stretched tendrils, and that most of the routing paths between nodes in the tendrils pass through the core. Therefore, we suggest in this work, to embed the Internet distance metric in a hyperbolic space where routes are bent toward the center. We found that if the curvature, that defines the extend of the bending, is selected in the adequate range, the accuracy of Internet distance embedding can be improved.  We demonstrate the strength of our hyperbolic embedding with two applications: selecting the closest server and building an application level multicast tree. For the latter, we present a distributed algorithm for building geometric multicast trees that achieve good trade-offs between delay (stretch) and load (stress). We also present a new efficient centralized embedding algorithm that enables the accurate embedding of short distances, something that have never been done before.
+  {{< /ci-details >}}
+  {{< ci-details summary="Krioukov et al. (2009)" >}}
+Dmitri V. Krioukov, F. Papadopoulos, M. Boguñá, Amin Vahdat. (2009)  
+**Greedy forwarding in scale-free networks embedded in hyperbolic metric spaces**  
+SIGMETRICS Perform. Evaluation Rev.  
+[Paper Link](https://www.semanticscholar.org/paper/f61005ce7db38553f2bf87be7c9fbce183b4c375)  
+Influential Citation Count (4), SS-ID (f61005ce7db38553f2bf87be7c9fbce183b4c375)  
+
+**ABSTRACT**  
+We show that complex (scale-free) network topologies naturally emerge from hyperbolic metric spaces. Hyperbolic geometry facilitates maximally efficient greedy forwarding in these networks. Greedy forwarding is topology-oblivious. Nevertheless, greedy packets find their destinations with 100% probability following almost optimal shortest paths. This remarkable efficiency sustains even in highly dynamic networks. Our findings suggest that forwarding information through complex networks, such as the Internet, is possible without the overhead of existing routing protocols, and may also find practical applications in overlay networks for tasks such as application-level routing, information sharing, and data distribution.
+  {{< /ci-details >}}
+- Laplacian-based Network Embedding
+  {{< ci-details summary="Alanis-Lobato, Mier & Andrade-Navarro (2016)" >}}
+Gregorio Alanis-Lobato, Pablo Mier, Miguel Andrade. (2016)  
+**Efficient embedding of complex networks to hyperbolic space via their Laplacian**  
+Scientific reports  
+[Paper Link](https://www.semanticscholar.org/paper/559897d98f2c006d27fa09d7263c4a959d94eec3)  
+Influential Citation Count (4), SS-ID (559897d98f2c006d27fa09d7263c4a959d94eec3)  
+
+**ABSTRACT**  
+The different factors involved in the growth process of complex networks imprint valuable information in their observable topologies. How to exploit this information to accurately predict structural network changes is the subject of active research. A recent model of network growth sustains that the emergence of properties common to most complex systems is the result of certain trade-offs between node birth-time and similarity. This model has a geometric interpretation in hyperbolic space, where distances between nodes abstract this optimisation process. Current methods for network hyperbolic embedding search for node coordinates that maximise the likelihood that the network was produced by the afore-mentioned model. Here, a different strategy is followed in the form of the Laplacian-based Network Embedding, a simple yet accurate, efficient and data driven manifold learning approach, which allows for the quick geometric analysis of big networks. Comparisons against existing embedding and prediction techniques highlight its applicability to network evolution and link prediction.
+  {{< /ci-details >}}
+- Deep learning-based approach
+  {{< ci-details summary="Chamberlain, Clough & Deisenroth (2017)" >}}
+B. Chamberlain, J. Clough, M. Deisenroth. (2017)  
+**Neural Embeddings of Graphs in Hyperbolic Space**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/76ce8d30c6f72aa56ae02cd42a064e41b9ab9391)  
+Influential Citation Count (9), SS-ID (76ce8d30c6f72aa56ae02cd42a064e41b9ab9391)  
+
+**ABSTRACT**  
+Neural embeddings have been used with great success in Natural Language Processing (NLP). They provide compact representations that encapsulate word similarity and attain state-of-the-art performance in a range of linguistic tasks. The success of neural embeddings has prompted significant amounts of research into applications in domains other than language. One such domain is graph-structured data, where embeddings of vertices can be learned that encapsulate vertex similarity and improve performance on tasks including edge prediction and vertex labelling. For both NLP and graph based tasks, embeddings have been learned in high-dimensional Euclidean spaces. However, recent work has shown that the appropriate isometric space for embedding complex networks is not the flat Euclidean space, but negatively curved, hyperbolic space. We present a new concept that exploits these recent insights and propose learning neural embeddings of graphs in hyperbolic space. We provide experimental evidence that embedding graphs in their natural geometry significantly improves performance on downstream tasks for several real-world public datasets.
+  {{< /ci-details >}}
+
+## Specific Embeddings Based on Network Types
+グラフデータには様々な種類のものが存在し，それぞれに対して特化したEmbeddingが研究されている．
+
+### Attributed networks
+ノードやエッジに対して，特徴量が付加されたグラフ．  
+特徴量は高次元ベクトルとして表現されることが多い．
+
+- [TADW (Text-Assocated DeepWalk)](#tadw-text-associated-deepwalk)
+- [PLE](#ple)
+- [PLDNE (Probabilistic Latent Document Network Embedding)](#pldne-probabilistic-latent-document-netowrk-embedding)
+- [Author2Vec](#author2vec)
+- [ARE (Augmented Relation Embedding)](#are-augmented-relation-embedding)
+- [Geng et al. (2015)](#learning-image-and-user-features-for-recommendation)
+- [Zhang et al. (2015)](#learning-features-from-large-scale-noisy-and-social-image-tag-collection)
+- [Zhang et al. (2017)](#learning-from-collective-intelligence)
+- [CENE (Content-Enhanced Network Embedding)](#cene-content-enhanced-network-embedding)
+- [HSCA model (Homophily, Structure and Content-Augmented)](#hsca-model-homophily-structure-and-content-augmented)
+- [DeepBrowse](#deepbrowse)
+- [Tri-party Deep Network Representation](#tri-party-deep-network-representation)
+- [GenVector](#genvector)
+- [SPE (Structure Preserving Embedding)](#structure-preserving-embedding)
+- [M-NMF (Modularized Nonnegative Matrix Factorization)](#modularized-nonnegative-matrix-factorization)
+- [GEMSEC](#gemsec)
+- [GENE (Incorporate Group Information to Enhance Network Embedding)](#gene-incorporate-group-information-to-enhance-network-embedding)
+- [Planetoid](#planetoid)
+- [Max-margin DeepWalk](#max-margin-deepwalk)
+- [LANE](#lane-label-informed-attributed-network-embedding)
+
+### Heterogeneous networks
+
+{{< box-with-title title="Homogeneous Graph" >}}
+グラフを構成するノード・エッジが全て同じ性質を持っているようなグラフ
+{{< /box-with-title>}}
+
+{{< box-with-title title="Heterogeneous Graph" >}}
+グラフを構成するノードやエッジに複数の異なる性質を持つものが混在しているグラフ
+{{< /box-with-title>}}
+
+#### Heterogeneous Network Embeddings
+- [Li, Ritter & Jurafsky (2015)](#li-ritter--jurafsky-2015)
+- [Zhao, Liu & Sun (2015)](#zhao-liu--sun-2015)
+- [HNE (Heterogeneous Network Embedding)](#hne-heterogeneous-network-embedding)
+- [Tang & Liu (2011)](#tang--liu-2011)
+- [EOE (Embedding of Embedding)](#eoe-embedding-of-embedding)
+- [LANE (Label Informed Attributed Network Embedding)](#lane-label-informed-attributed-network-embedding)
+
+#### Random-walk based Approach
+- [Metapath2Vec](#metapath2vec)
+  - [Huang & Mamoulis (2017)](#huang--mamoulis-2017)
+  - [Chen & Sun (2016)](#chen--sun-2016)
+- [Jacob, Denoyer & Gallinari (2014)](#jacob-denoyer--gallinari-2014)
+- [GERM (Genetic Heterogeneous Graph Embedding)](#germ-genetic-heterogeneous-graph-embedding)
+- [HeGAN (HIN Embedding Generative Adversarial Networks)](#hegan-hin-embedding-generative-adversarial-networks)
+- [CoGL (Co-Alignment Graph Convolutional Learning)](#cogl-co-alignment-graph-convolutional-learning)
+
+#### Graph Attention Mecanism for Heterogeneous Graph Embedding
+- [CGAT](#cgat)
+- [MAGNN (Metapath Aggregated Graph Neural Network)](#magnn-metapath-aggregated-graph-neural-network)
+- [DyHAN (Dynamic Heterogeneous Graph Embedding using Hierarchical Attentions)](#dyhan-dynamic-heterogeneous-graph-embedding-using-hierarchical-attentions)
+- [HDGAN (Heterogeneous Dynamic Graph Attention Network)](#hdgan-heterogeneous-dynamic-graph-attention-network)
+
+#### Real-World Applications
+- [HetETA (Heterogeneous Estimated Time of Arrival)](#heteta-heterogeneous-estimated-time-of-arrival)
+- [HeteGCN (Heterogeneous Graph Convolutional Networks)](#hetegcn-heterogeneous-graph-convolutional-networks)
+- [HGMF (Heterogeneous Graph-based Fusion)](#hgmf-heterogeneous-graph-based-fusion)
+- [MIFHNE (Multi-source Information Fusion based Heterogeneous Network Embedding)](#mifhne-multi-source-information-fusion-based-heterogeneous-network-embedding)
+- [Mg2Vec](#mg2vec)
+
+### Signed networks
+{{< box-with-title title="Signed Network" >}}
+エッジの重み $w_i (1 \le i \le |\mathcal{E}|) $ が $w_i \in \lbrace 1, -1\rbrace$ であるようなグラフを **Signed Graph/Network** と呼ぶ．
+{{< /box-with-title >}}
+
+- [SiNE (Signed Network Embedding)](#sine-signed-network-embedding)
+- [SNE (Signed Network Embedding)](#sne-signed-network-embedding)
+- [SIDE (Signed Directed Networks)](#side-signed-directed-networks)
+- [SIGNet (Scalable Embedding for Signed Networks)](#signet-scalable-embedding-for-signed-networks)
+- [SSNE (Status Signed Network Embedding)](#ssne-status-signed-network-embedding)
+
+### Multi-layer networks
+
+- [Principled Multilayer Network Embedding](#principled-multilayer-network-embedding)
+- [EOE (Embedding of Embedding)](#eoe-embedding-of-embedding)
+- [IONE](#ione)
+- [Zitnik & Leskovec (2017)](#zitnik--leskovec-2017)
+- [Multi-Layered Network Embedding](#multi-layered-network-embedding)
+
+### Temporal networks
+
+- [TemporalNode2Vec](#temporalnode2vec)
+- [TGNs (Temporal Graph Networks)](#tgns-temporal-graph-networks)
+- [TemporalGAT](#temporalgat)
+- [EpiEm (Dynamics-Preserving Graph Embedding)](#epiem-dynamics-preserving-graph-embedding)
+- [Dynamic Graph Embedding](#dynamic-graph-embedding)
+- [CTGCN (K-core based Temporal GCN)](#ctgcn-k-core-based-temporal-gcn)
+- [DynGraph2Vec](#dyngraph2vec)
+- [TigeCMN (Temporal Interaction Graph Embedding via Coupled Memory Networks)](#tigecmn-temporal-interaction-graph-embedding-via-coupled-memory-networks)
+- [Cluster-GCN](#cluster-gcn)
+- [SIGN (Scalable Inception Graph Neural Networks)](#sign-scalable-inception-graph-neural-networks)
+
+### Large graphs
+
+#### Sampling based Approach
+
+- [GraphSAGE](#graphsage)
+- [PinSAGE](#pinsage)
+- [FastGCN](#fastgcn)
+- [Salha, Hennequin & Vazirgiannis (2020)](#salha-hennequin--vazirgiannis-2020)
+- [GraphSAINT](#graphsaint)
+
+#### Locality Preserving Projection Approach
+
+- [ULGE (Unsupervised Large Graph Embedding)](#ulge-unsupervised-large-graph-embedding)
+- [GOSH](#gosh)
+- [VERSE (Versatile Graph Embeddings from Similarity Measures)](#verse-versatile-graph-embeddings-from-similarity-measures)
+- [Atahan Akyildiz, Alabsi Aljundi & Kaya (2020)](#atahan-akyildiz-alabsi-aljundi--kaya-2020)
+- [DGGAN](#dggan)
+- [Gallicchio & Micheli (2019)](#gallicchio--micheli-2019)
+- [Lu & Chang (2020)](#lu--chang-2020)
+
+## Application of Graph Embeddings to Machine Learning Problems
+
+### Node classification
+
+{{< box-with-title title="Definition 7 (Node Classification)" >}}
+For a given graph $G(V, E)$ with known labels for some of nodes from $V$, node classification is the task of predicting missing labels for existing or newly added nodes.
+{{< /box-with-title >}}
+
+| Paper | Approach |
+|---|---|
+|{{< ci-details summary="Xiaojin & Zoubin (2002)">}} 
+Xiaojin Zhu, Zoubin Ghahramani. (2002)  
+**Learning from labeled and unlabeled data with label propagation**  
+  
+[Paper Link](https://www.semanticscholar.org/paper/2a4ca461fa847e8433bab67e7bfe4620371c1f77)  
+Influential Citation Count (158), SS-ID (2a4ca461fa847e8433bab67e7bfe4620371c1f77)  
+
+**ABSTRACT**  
+We investigate the use of unlabeled data to help labeled data in cl ssification. We propose a simple iterative algorithm, label pro pagation, to propagate labels through the dataset along high density are as d fined by unlabeled data. We analyze the algorithm, show its solution , and its connection to several other algorithms. We also show how to lear n p ameters by minimum spanning tree heuristic and entropy minimiz ation, and the algorithm’s ability to perform feature selection. Expe riment results are promising.
+{{< /ci-details >}}| label propagation based on random walks statistics |
+|{{< ci-details summary="Azran (2007)" >}}
+Arik Azran. (2007)  
+**The rendezvous algorithm: multiclass semi-supervised learning with Markov random walks**  
+ICML '07  
+[Paper Link](https://www.semanticscholar.org/paper/4e9585cd65c7e1a19ae16d8fed12c810070c65d3)  
+Influential Citation Count (5), SS-ID (4e9585cd65c7e1a19ae16d8fed12c810070c65d3)  
+
+**ABSTRACT**  
+We consider the problem of multiclass classification where both labeled and unlabeled data points are given. We introduce and demonstrate a new approach for estimating a distribution over the missing labels where data points are viewed as nodes of a graph, and pairwise similarities are used to derive a transition probability matrix P for a Markov random walk between them. The algorithm associates each point with a particle which moves between points according to P. Labeled points are set to be absorbing states of the Markov random walk, and the probability of each particle to be absorbed by the different labeled points, as the number of steps increases, is then used to derive a distribution over the associated missing label. A computationally efficient algorithm to implement this is derived and demonstrated on both real and artificial data sets, including a numerical comparison with other methods.
+{{< /ci-details >}}| label propagation based on random walks statistics |
+|{{< ci-details summary="Baluja et al. (2008)" >}}
+S. Baluja, Rohan Seth, D. Sivakumar, Yushi Jing, J. Yagnik, Shankar Kumar, Deepak Ravichandran, M. Aly. (2008)  
+**Video suggestion and discovery for youtube: taking random walks through the view graph**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/f68ba8fe9fc9f7d8b7eb8c3d4a6d1046ee345e4b)  
+Influential Citation Count (34), SS-ID (f68ba8fe9fc9f7d8b7eb8c3d4a6d1046ee345e4b)  
+
+**ABSTRACT**  
+The rapid growth of the number of videos in YouTube provides enormous potential for users to find content of interest to them. Unfortunately, given the difficulty of searching videos, the size of the video repository also makes the discovery of new content a daunting task. In this paper, we present a novel method based upon the analysis of the entire user-video graph to provide personalized video suggestions for users. The resulting algorithm, termed Adsorption, provides a simple method to efficiently propagate preference information through a variety of graphs. We extensively test the results of the recommendations on a three month snapshot of live data from YouTube.
+{{< /ci-details >}}| label propagation based on random walks statistics |
+|{{< ci-details summary="Lu & Getoor (2003)" >}}
+Lu Q, Getoor L. (2003)  
+**Link-based classification**  
+Proceedings of the 20th InternationalConference on Machine Learning (ICML-03).New York: ACM, 496–503.
+
+**ABSTRACT**
+A key challenge for machine learning is tackling the problem of mining richly structured data sets, where the objects are linked in some way due to either an explicit or implicit relationship that exists between the objects. Links among the objects demonstrate certain patterns, which can be helpful for many machine learning tasks and are usually hard to capture with traditional statistical models. Recently there has been a surge of interest in this area, fueled largely by interest in web and hypertext mining, but also by interest in mining social networks, bibliographic citation data, epidemiological data and other domains best described using a linked or graph structure. In this paper we propose a framework for modeling link distributions, a link-based model that supports discriminative models describing both the link distributions and the attributes of linked objects. We use a structured logistic regression model, capturing both content and links. We systematically evaluate several variants of our link-based model on a range of data sets including both web and citation collections. In all cases, the use of the link distribution improves classification accuracy.
+{{< /ci-details >}}| unsupervised framework; each node is embedded in a low-dimensional space |
+|{{< ci-details summary="Bhagat et al. (2007)" >}}
+Smriti Bhagat, Irina Rozenbaum, Graham Cormode. (2007)  
+**Applying link-based classification to label blogs**  
+WebKDD/SNA-KDD '07  
+[Paper Link](https://www.semanticscholar.org/paper/496d1a45eb511893a86dd7a8452a386aa5ce1657)  
+Influential Citation Count (5), SS-ID (496d1a45eb511893a86dd7a8452a386aa5ce1657)  
+
+**ABSTRACT**  
+In analyzing data from social and communication networks, we encounter the problem of classifying objects where there is an explicit link structure amongst the objects. We study the problem of inferring the classification of all the objects from a labeled subset, using only the link-based information amongst the objects.  We abstract the above as a labeling problem on multigraphs with weighted edges. We present two classes of algorithms, based on local and global similarities. Then we focus on multigraphs induced by blog data, and carefully apply our general algorithms to specifically infer labels such as age, gender and location associated with the blog based only on the link-structure amongst them. We perform a comprehensive set of experiments with real, large-scale blog data sets and show that significant accuracy is possible from little or no non-link information, and our methods scale to millions of nodes and edges.
+{{< /ci-details >}}| unsupervised framework; each node is embedded in a low-dimensional space |
+|{{< ci-details summary="Perozzi, Al-Rfou & Skiena (2014)" >}}
+Bryan Perozzi, Rami Al-Rfou, S. Skiena. (2014)  
+**DeepWalk: online learning of social representations**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/fff114cbba4f3ba900f33da574283e3de7f26c83)  
+Influential Citation Count (1335), SS-ID (fff114cbba4f3ba900f33da574283e3de7f26c83)  
+
+**ABSTRACT**  
+We present DeepWalk, a novel approach for learning latent representations of vertices in a network. These latent representations encode social relations in a continuous vector space, which is easily exploited by statistical models. DeepWalk generalizes recent advancements in language modeling and unsupervised feature learning (or deep learning) from sequences of words to graphs. DeepWalk uses local information obtained from truncated random walks to learn latent representations by treating walks as the equivalent of sentences. We demonstrate DeepWalk's latent representations on several multi-label network classification tasks for social networks such as BlogCatalog, Flickr, and YouTube. Our results show that DeepWalk outperforms challenging baselines which are allowed a global view of the network, especially in the presence of missing information. DeepWalk's representations can provide F1 scores up to 10% higher than competing methods when labeled data is sparse. In some experiments, DeepWalk's representations are able to outperform all baseline methods while using 60% less training data. DeepWalk is also scalable. It is an online learning algorithm which builds useful incremental results, and is trivially parallelizable. These qualities make it suitable for a broad class of real world applications such as network classification, and anomaly detection.
+{{< /ci-details >}}| logistic regression |
+|{{< ci-details summary="Pimentel, Veloso & Ziviani (2017)" >}}
+**Unsupervised and Scalable Algorithm for Learning Node Representations**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/95a32bda5a743da698e062a5f5806ce5f22aef29)  
+Influential Citation Count (2), SS-ID (95a32bda5a743da698e062a5f5806ce5f22aef29)  
+
+**ABSTRACT**  
+Representation learning is one of the foundations of Deep Learning and allowed big improvements on several Machine Learning fields, such as Neural Machine Translation, Question Answering and Speech Recognition. Recent works have proposed new methods for learning representations for nodes and edges in graphs. In this work, we propose a new unsupervised and efficient method, called here Neighborhood Based Node Embeddings (NBNE), capable of generating node embeddings for very large graphs. This method is based on SkipGram and uses nodes’ neighborhoods as contexts to generate representations. NBNE achieves results comparable or better than state-of-the-art feature learning algorithms in three different datasets and, differently from our main baseline (Node2Vec), which needs to have its parameters tuned in a validation set, is completely unsupervised.
+
+{{< /ci-details >}}| logistic regression |
+|{{< ci-details summary="Wang, Cui & Zhu (2016)" >}}
 **Structural Deep Network Embedding**  
 KDD  
 [Paper Link](https://www.semanticscholar.org/paper/d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
@@ -720,20 +644,89 @@ Influential Citation Count (223), SS-ID (d0b7c8828f0fca4dd901674e8fb5bd464a18766
 
 **ABSTRACT**  
 Network embedding is an important method to learn low-dimensional representations of vertexes in networks, aiming to capture and preserve the network structure. Almost all the existing network embedding methods adopt shallow models. However, since the underlying network structure is complex, shallow models cannot capture the highly non-linear network structure, resulting in sub-optimal network representations. Therefore, how to find a method that is able to effectively capture the highly non-linear network structure and preserve the global and local structure is an open yet important problem. To solve this problem, in this paper we propose a Structural Deep Network Embedding method, namely SDNE. More specifically, we first propose a semi-supervised deep model, which has multiple layers of non-linear functions, thereby being able to capture the highly non-linear network structure. Then we propose to exploit the first-order and second-order proximity jointly to preserve the network structure. The second-order proximity is used by the unsupervised component to capture the global network structure. While the first-order proximity is used as the supervised information in the supervised component to preserve the local network structure. By jointly optimizing them in the semi-supervised deep model, our method can preserve both the local and global network structure and is robust to sparse networks. Empirically, we conduct the experiments on five real-world networks, including a language network, a citation network and three social networks. The results show that compared to the baselines, our method can reconstruct the original network significantly better and achieves substantial gains in three applications, i.e. multi-label classification, link prediction and visualization.
-    {{< /ci-details >}}
-  - DNGR
-    {{< ci-details summary="Cao, Lu & Xu (2016)" >}}
-Shaosheng Cao, Wei Lu, Qiongkai Xu. (2016)  
-**Deep Neural Networks for Learning Graph Representations**  
+{{< /ci-details >}}| SVM |
+|{{< ci-details summary="Wang et al. (2017)" >}}
+Xiao Wang, Peng Cui, Jing Wang, J. Pei, Wenwu Zhu, Shiqiang Yang. (2017)  
+**Community Preserving Network Embedding**  
 AAAI  
-[Paper Link](https://www.semanticscholar.org/paper/1a37f07606d60df365d74752857e8ce909f700b3)  
-Influential Citation Count (59), SS-ID (1a37f07606d60df365d74752857e8ce909f700b3)  
+[Paper Link](https://www.semanticscholar.org/paper/d3e0d596efd9d19b93d357565a68dfa925dce2bb)  
+Influential Citation Count (52), SS-ID (d3e0d596efd9d19b93d357565a68dfa925dce2bb)  
 
 **ABSTRACT**  
-In this paper, we propose a novel model for learning graph representations, which generates a low-dimensional vector representation for each vertex by capturing the graph structural information. Different from other previous research efforts, we adopt a random surfing model to capture graph structural information directly, instead of using the sampling-based method for generating linear sequences proposed by Perozzi et al. (2014). The advantages of our approach will be illustrated from both theorical and empirical perspectives. We also give a new perspective for the matrix factorization method proposed by Levy and Goldberg (2014), in which the pointwise mutual information (PMI) matrix is considered as an analytical solution to the objective function of the skip-gram model with negative sampling proposed by Mikolov et al. (2013). Unlike their approach which involves the use of the SVD for finding the low-dimensitonal projections from the PMI matrix, however, the stacked denoising autoencoder is introduced in our model to extract complex features and model non-linearities. To demonstrate the effectiveness of our model, we conduct experiments on clustering and visualization tasks, employing the learned vertex representations as features. Empirical results on datasets of varying sizes show that our model outperforms other stat-of-the-art models in such tasks.
-    {{< /ci-details >}}
-- GCN (Graph Convolutional Layer)
-  {{< ci-details summary="Kipf & Welling (2016)" >}}
+Network embedding, aiming to learn the low-dimensional representations of nodes in networks, is of paramount importance in many real applications. One basic requirement of network embedding is to preserve the structure and inherent properties of the networks. While previous network embedding methods primarily preserve the microscopic structure, such as the first- and second-order proximities of nodes, the mesoscopic community structure, which is one of the most prominent feature of networks, is largely ignored. In this paper, we propose a novel Modularized Nonnegative Matrix Factorization (M-NMF) model to incorporate the community structure into network embedding. We exploit the consensus relationship between the representations of nodes and community structure, and then jointly optimize NMF based representation learning model and modularity based community detection model in a unified framework, which enables the learned representations of nodes to preserve both of the microscopic and community structures. We also provide efficient updating rules to infer the parameters of our model, together with the correctness and convergence guarantees. Extensive experimental results on a variety of real-world networks show the superior performance of the proposed method over the state-of-the-arts.
+{{< /ci-details >}}| SVM |
+|{{< ci-details summary="Le & Lauw (2014)" >}}
+Tuan M. V. Le, Hady W. Lauw. (2014)  
+**Probabilistic Latent Document Network Embedding**  
+2014 IEEE International Conference on Data Mining  
+[Paper Link](https://www.semanticscholar.org/paper/24f7d72e92cadfa5c84949537639ce084b9d2092)  
+Influential Citation Count (8), SS-ID (24f7d72e92cadfa5c84949537639ce084b9d2092)  
+
+**ABSTRACT**  
+A document network refers to a data type that can be represented as a graph of vertices, where each vertex is associated with a text document. Examples of such a data type include hyperlinked Web pages, academic publications with citations, and user profiles in social networks. Such data have very high-dimensional representations, in terms of text as well as network connectivity. In this paper, we study the problem of embedding, or finding a low-dimensional representation of a document network that "preserves" the data as much as possible. These embedded representations are useful for various applications driven by dimensionality reduction, such as visualization or feature selection. While previous works in embedding have mostly focused on either the textual aspect or the network aspect, we advocate a holistic approach by finding a unified low-rank representation for both aspects. Moreover, to lend semantic interpretability to the low-rank representation, we further propose to integrate topic modeling and embedding within a joint model. The gist is to join the various representations of a document (words, links, topics, and coordinates) within a generative model, and to estimate the hidden representations through MAP estimation. We validate our model on real-life document networks, showing that it outperforms comparable baselines comprehensively on objective evaluation metrics.
+{{< /ci-details >}}| kNN |
+|{{< ci-details summary="Wilson et al. (2014)" >}}
+Richard C. Wilson, E. Hancock, E. Pekalska, R. Duin. (2014)  
+**Spherical and Hyperbolic Embeddings of Data**  
+IEEE Transactions on Pattern Analysis and Machine Intelligence  
+[Paper Link](https://www.semanticscholar.org/paper/ab0e17513d180a68aad7680b3deea3844176cedc)  
+Influential Citation Count (5), SS-ID (ab0e17513d180a68aad7680b3deea3844176cedc)  
+
+**ABSTRACT**  
+Many computer vision and pattern recognition problems may be posed as the analysis of a set of dissimilarities between objects. For many types of data, these dissimilarities are not euclidean (i.e., they do not represent the distances between points in a euclidean space), and therefore cannot be isometrically embedded in a euclidean space. Examples include shape-dissimilarities, graph distances and mesh geodesic distances. In this paper, we provide a means of embedding such non-euclidean data onto surfaces of constant curvature. We aim to embed the data on a space whose radius of curvature is determined by the dissimilarity data. The space can be either of positive curvature (spherical) or of negative curvature (hyperbolic). We give an efficient method for solving the spherical and hyperbolic embedding problems on symmetric dissimilarity data. Our approach gives the radius of curvature and a method for approximating the objects as points on a hyperspherical manifold without optimisation. For objects which do not reside exactly on the manifold, we develop a optimisation-based procedure for approximate embedding on a hyperspherical manifold. We use the exponential map between the manifold and its local tangent space to solve the optimisation problem locally in the euclidean tangent space. This process is efficient enough to allow us to embed data sets of several thousand objects. We apply our method to a variety of data including time warping functions, shape similarities, graph similarity and gesture similarity data. In each case the embedding maintains the local structure of the data while placing the points in a metric space.
+{{< /ci-details >}}| kNN |
+|{{< ci-details summary="Makarov et al (2018)" >}}
+Ilya Makarov, Olga Gerasimova, Pavel Sulimov, L. Zhukov. (2018)  
+**Recommending Co-authorship via Network Embeddings and Feature Engineering: The case of National Research University Higher School of Economics**  
+JCDL  
+[Paper Link](https://www.semanticscholar.org/paper/2b9501a2f4dfe1341bb272f157791a89d712ffd6)  
+Influential Citation Count (0), SS-ID (2b9501a2f4dfe1341bb272f157791a89d712ffd6)  
+
+**ABSTRACT**  
+Co-authorship networks contain hidden structural patterns of research collaboration. While some people may argue that the process of writing joint papers depends on mutual friendship, research interests, and university policy, we show that, given a temporal co-authorship network, one could predict the quality and quantity of future research publications. We are working on the comparison of existing graph embedding and feature engineering methods, presenting combined approach for constructing co-author recommender system formulated as link prediction problem. We also present a new link embedding operator improving the quality of link prediction base don embedding feature space. We evaluate our research on a single university publication dataset, providing meaningful interpretation of the obtained results.
+{{< /ci-details >}}| random forest and xgboost |
+|{{< ci-details summary="Makarov et al. (2019)" >}}
+Ilya Makarov, Olga Gerasimova, Pavel Sulimov, L. Zhukov. (2019)  
+**Dual network embedding for representing research interests in the link prediction problem on co-authorship networks**  
+PeerJ Comput. Sci.  
+[Paper Link](https://www.semanticscholar.org/paper/894e35751609e1cd88265b055348ced09c8c9acd)  
+Influential Citation Count (0), SS-ID (894e35751609e1cd88265b055348ced09c8c9acd)  
+
+**ABSTRACT**  
+We present a study on co-authorship network representation based on network embedding together with additional information on topic modeling of research papers and new edge embedding operator. We use the link prediction (LP) model for constructing a recommender system for searching collaborators with similar research interests. Extracting topics for each paper, we construct keywords co-occurrence network and use its embedding for further generalizing author attributes. Standard graph feature engineering and network embedding methods were combined for constructing co-author recommender system formulated as LP problem and prediction of future graph structure. We evaluate our survey on the dataset containing temporal information on National Research University Higher School of Economics over 25 years of research articles indexed in Russian Science Citation Index and Scopus. Our model of network representation shows better performance for stated binary classification tasks on several co-authorship networks.
+{{< /ci-details >}}| random forest and xgboost |
+|{{< ci-details summary="Li, Zhu & Zhang (2016)" >}}
+Juzheng Li, Jun Zhu, Bo Zhang. (2016)  
+**Discriminative Deep Random Walk for Network Classification**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/a6fd225417efdbf0bb9aef2ef2046335d2d0885e)  
+Influential Citation Count (2), SS-ID (a6fd225417efdbf0bb9aef2ef2046335d2d0885e)  
+
+**ABSTRACT**  
+Deep Random Walk (DeepWalk) can learn a latent space representation for describing the topological structure of a network. However, for relational network classification, DeepWalk can be suboptimal as it lacks a mechanism to optimize the objective of the target task. In this paper, we present Discriminative Deep Random Walk (DDRW), a novel method for relational network classification. By solving a joint optimization problem, DDRW can learn the latent space representations that well capture the topological structure and meanwhile are discriminative for the network classification task. Our experimental results on several real social networks demonstrate that DDRW significantly outperforms DeepWalk on multilabel network classification tasks, while retaining the topological structure in the latent space. DDRW is stable and consistently outperforms the baseline methods by various percentages of labeled data. DDRW is also an online method that is scalable and can be naturally parallelized.
+{
+{{< /ci-details >}}| semi-supervised framework |
+|{{< ci-details summary="Yang, Cohen & Salakhutdinov (2016)" >}}
+Zhilin Yang, William W. Cohen, R. Salakhutdinov. (2016)  
+**Revisiting Semi-Supervised Learning with Graph Embeddings**  
+ICML  
+[Paper Link](https://www.semanticscholar.org/paper/3d846cb01f6a975554035d2210b578ca61344b22)  
+Influential Citation Count (178), SS-ID (3d846cb01f6a975554035d2210b578ca61344b22)  
+
+**ABSTRACT**  
+We present a semi-supervised learning framework based on graph embeddings. Given a graph between instances, we train an embedding for each instance to jointly predict the class label and the neighborhood context in the graph. We develop both transductive and inductive variants of our method. In the transductive variant of our method, the class labels are determined by both the learned embeddings and input feature vectors, while in the inductive variant, the embeddings are defined as a parametric function of the feature vectors, so predictions can be made on instances not seen during training. On a large and diverse set of benchmark tasks, including text classification, distantly supervised entity extraction, and entity classification, we show improved performance over many of the existing models.
+{{< /ci-details >}}| semi-supervised framework |
+|{{< ci-details summary="Tu et al. (2016)" >}}
+Cunchao Tu, Weicheng Zhang, Zhiyuan Liu, Maosong Sun. (2016)  
+**Max-Margin DeepWalk: Discriminative Learning of Network Representation**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/5d66991e1f541a08e81e59060cb0bb7f6931c2d9)  
+Influential Citation Count (29), SS-ID (5d66991e1f541a08e81e59060cb0bb7f6931c2d9)  
+
+**ABSTRACT**  
+DeepWalk is a typical representation learning method that learns low-dimensional representations for vertices in social networks. Similar to other network representation learning (NRL) models, it encodes the network structure into vertex representations and is learnt in unsupervised form. However, the learnt representations usually lack the ability of discrimination when applied to machine learning tasks, such as vertex classification. In this paper, we overcome this challenge by proposing a novel semi-supervised model, max-margin Deep-Walk (MMDW). MMDW is a unified NRL framework that jointly optimizes the max-margin classifier and the aimed social representation learning model. Influenced by the max-margin classifier, the learnt representations not only contain the network structure, but also have the characteristic of discrimination. The visualizations of learnt representations indicate that our model is more discriminative than unsupervised ones, and the experimental results on vertex classification demonstrate that our method achieves a significant improvement than other state-of-the-art methods. The source code can be obtained from https://github.com/thunlp/MMDW.
+{{< /ci-details >}}| semi-supervised framework |
+|{{< ci-details summary="Kipf & Welling (2016)" >}}
 Thomas Kipf, M. Welling. (2016)  
 **Semi-Supervised Classification with Graph Convolutional Networks**  
 ICLR  
@@ -742,84 +735,1540 @@ Influential Citation Count (3139), SS-ID (36eff562f65125511b5dfab68ce7f7a943c274
 
 **ABSTRACT**  
 We present a scalable approach for semi-supervised learning on graph-structured data that is based on an efficient variant of convolutional neural networks which operate directly on graphs. We motivate the choice of our convolutional architecture via a localized first-order approximation of spectral graph convolutions. Our model scales linearly in the number of graph edges and learns hidden layer representations that encode both local graph structure and features of nodes. In a number of experiments on citation networks and on a knowledge graph dataset we demonstrate that our approach outperforms related methods by a significant margin.
-  {{< /ci-details >}}
-  - Improvements of GCN
-    {{< ci-details summary="Chen, Zhu & Song (2017)" >}}
-Jianfei Chen, Jun Zhu, Le Song. (2017)  
-**Stochastic Training of Graph Convolutional Networks with Variance Reduction**  
-ICML  
-[Paper Link](https://www.semanticscholar.org/paper/a60c69c2fae27ebbb73c87f7f2a4765556bd7f9f)  
-Influential Citation Count (44), SS-ID (a60c69c2fae27ebbb73c87f7f2a4765556bd7f9f)  
+{{< /ci-details >}}| semi-supervised framework |
+|{{< ci-details summary="Monti et al. (2017)" >}}
+Federico Monti, D. Boscaini, Jonathan Masci, E. Rodolà, Jan Svoboda, M. Bronstein. (2016)  
+**Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs**  
+2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)  
+[Paper Link](https://www.semanticscholar.org/paper/f09f7888aa5aeaf88a2a44aea768d9a8747e97d2)  
+Influential Citation Count (121), SS-ID (f09f7888aa5aeaf88a2a44aea768d9a8747e97d2)  
 
 **ABSTRACT**  
-Graph convolutional networks (GCNs) are powerful deep neural networks for graph-structured data. However, GCN computes the representation of a node recursively from its neighbors, making the receptive field size grow exponentially with the number of layers. Previous attempts on reducing the receptive field size by subsampling neighbors do not have a convergence guarantee, and their receptive field size per node is still in the order of hundreds. In this paper, we develop control variate based algorithms which allow sampling an arbitrarily small neighbor size. Furthermore, we prove new theoretical guarantee for our algorithms to converge to a local optimum of GCN. Empirical results show that our algorithms enjoy a similar convergence with the exact algorithm using only two neighbors per node. The runtime of our algorithms on a large Reddit dataset is only one seventh of previous neighbor sampling algorithms.
-    {{< /ci-details >}}
-    {{< ci-details summary="Chen, Ma & Xiao (2018)" >}}
-Jing Chen, Tengfei Ma, Cao Xiao. (2018)  
-**FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling**  
-ICLR  
-[Paper Link](https://www.semanticscholar.org/paper/f19d3e0956d0f2daa3396fc6e9e7554a78a90710)  
-Influential Citation Count (118), SS-ID (f19d3e0956d0f2daa3396fc6e9e7554a78a90710)  
+Deep learning has achieved a remarkable performance breakthrough in several fields, most notably in speech recognition, natural language processing, and computer vision. In particular, convolutional neural network (CNN) architectures currently produce state-of-the-art performance on a variety of image analysis tasks such as object detection and recognition. Most of deep learning research has so far focused on dealing with 1D, 2D, or 3D Euclidean-structured data such as acoustic signals, images, or videos. Recently, there has been an increasing interest in geometric deep learning, attempting to generalize deep learning methods to non-Euclidean structured data such as graphs and manifolds, with a variety of applications from the domains of network analysis, computational social science, or computer graphics. In this paper, we propose a unified framework allowing to generalize CNN architectures to non-Euclidean domains (graphs and manifolds) and learn local, stationary, and compositional task-specific features. We show that various non-Euclidean CNN methods previously proposed in the literature can be considered as particular instances of our framework. We test the proposed method on standard tasks from the realms of image-, graph-and 3D shape analysis and show that it consistently outperforms previous approaches.
+{{< /ci-details >}}| semi-supervised framework |
+|{{< ci-details summary="Zhang, Zhou & Li (2020)" >}}
+H. Zhang, J. Zhou, R. Li. (2020)  
+**Enhanced Unsupervised Graph Embedding via Hierarchical Graph Convolution Network**  
+  
+[Paper Link](https://www.semanticscholar.org/paper/f597a70c8708b7cda9766a403e3a2a67162d6973)  
+Influential Citation Count (0), SS-ID (f597a70c8708b7cda9766a403e3a2a67162d6973)  
 
 **ABSTRACT**  
-The graph convolutional networks (GCN) recently proposed by Kipf and Welling are an effective graph model for semi-supervised learning. This model, however, was originally designed to be learned with the presence of both training and test data. Moreover, the recursive neighborhood expansion across layers poses time and memory challenges for training with large, dense graphs. To relax the requirement of simultaneous availability of test data, we interpret graph convolutions as integral transforms of embedding functions under probability measures. Such an interpretation allows for the use of Monte Carlo approaches to consistently estimate the integrals, which in turn leads to a batched training scheme as we propose in this work---FastGCN. Enhanced with importance sampling, FastGCN not only is efficient for training but also generalizes well for inference. We show a comprehensive set of experiments to demonstrate its effectiveness compared with GCN and related models. In particular, training is orders of magnitude more efficient while predictions remain comparably accurate.
-    {{< /ci-details >}}
-    {{< ci-details summary="Lei, Shi & Niu (2018)" >}}
-Minglong Lei, Yong Shi, Lingfeng Niu. (2018)  
-**The Applications of Stochastic Models in Network Embedding: A Survey**  
-2018 IEEE/WIC/ACM International Conference on Web Intelligence (WI)  
-[Paper Link](https://www.semanticscholar.org/paper/dbc0c4e613d2ae942694058861dd2a4aae6ff117)  
-Influential Citation Count (0), SS-ID (dbc0c4e613d2ae942694058861dd2a4aae6ff117)  
+Graph embedding aims to learn the low-dimensional representation of nodes in the network, which has been paid more and more attention in many graph-based tasks recently. Graph Convolution Network (GCN) is a typical deep semisupervised graph embedding model, which can acquire node representation from the complex network. However, GCN usually needs to use a lot of labeled data and additional expressive features in the graph embedding learning process, so the model cannot be effectively applied to undirected graphs with only network structure information. In this paper, we propose a novel unsupervised graph embedding method via hierarchical graph convolution network (HGCN). Firstly, HGCN builds the initial node embedding and pseudo-labels for the undirected graphs, and then further uses GCNs to learn the node embedding and update labels, finally combines HGCN output representation with the initial embedding to get the graph embedding. Furthermore, we improve the model to match the different undirected networks according to the number of network node label types. Comprehensive experiments demonstrate that our proposed HGCN and HGCN can significantly enhance the performance of the node classification task.
+{{< /ci-details >}}| hierarchical GCN and pseudo-labeling technique |
+|{{< ci-details summary="Liu et al. (2020)" >}}
+Xiaoming Liu, Qirui Li, Chao Shen, Xi Peng, Yadong Zhou, Guan Xiaohong. (2020)  
+**Learning by Sampling and Compressing: Efficient Graph Representation Learning with Extremely Limited Annotations**  
+  
+[Paper Link](https://www.semanticscholar.org/paper/95555b454fc93ff6cab8ad8ee9bb3096d32e2b9c)  
+Influential Citation Count (0), SS-ID (95555b454fc93ff6cab8ad8ee9bb3096d32e2b9c)  
 
 **ABSTRACT**  
-Network embedding is a promising topic that maps the vertices to the latent space while keeps the structural proximity in the original space. The network embedding task is difficult since the network vertices have no specific time or space orders. Models that used to extract information from images and texts with regular space or time structures can not be directly applied in network heading. The key feature of network embedding methods should be further exploited. Previous network embedding reviews mainly focus on the models and algorithms used in different methods. In this survey, we review the network embedding works in the stochastic perspective either in data side or model side. Roughly, the network embedding methods fall into three main categories: matrix based methods, random walk based methods and aggregated based methods. We focus on the applications of stochastic models in solving the challenges of network embedding in data processing and modeling following the line of the three categories.
-    {{< /ci-details >}}
+Graph convolution network (GCN) attracts intensive research interest with broad applications. While existing work mainly focused on designing novel GCN architectures for better performance, few of them studied a practical yet challenging problem: How to learn GCNs from data with extremely limited annotation? In this paper, we propose a new learning method by sampling strategy and model compression to overcome this challenge. Our approach has multifold advantages: 1) the adaptive sampling strategy largely suppresses the GCN training deviation over uniform sampling; 2) compressed GCN-based methods with a smaller scale of parameters need fewer labeled data to train; 3) the smaller scale of training data is beneficial to reduce the human resource cost to label them. We choose six popular GCN baselines and conduct extensive experiments on three real-world datasets. The results show that by applying our method, all GCN baselines cut down the annotation requirement by as much as 90$\%$ and compress the scale of parameters more than 6$\times$ without sacrificing their strong performance. It verifies that the training method could extend the existing semi-supervised GCN-based methods to the scenarios with the extremely small scale of labeled data.
+{{< /ci-details >}}| sampling strategy and model compression for handling sparsity of labels |
+|{{< ci-details summary="Chen et al. (2020)" >}}
+Yujun Chen, Ke Sun, Juhua Pu, Zhang Xiong, Xiangliang Zhang. (2020)  
+**GraPASA: Parametric graph embedding via siamese architecture**  
+Inf. Sci.  
+[Paper Link](https://www.semanticscholar.org/paper/af46a816ad045238c1c8cca734ec9d1f48279d8f)  
+Influential Citation Count (0), SS-ID (af46a816ad045238c1c8cca734ec9d1f48279d8f)  
 
-### Hyperbolic (non-Euclidean) embeddings
+**ABSTRACT**  
+Graph representation learning or graph embedding is a classical topic in data mining. Current embedding methods are mostly non-parametric, where all the embedding points are unconstrained free points in the target space. These approaches suffer from limited scalability and an over-flexible representation. In this paper, we propose a parametric graph embedding by fusing graph topology information and node content information. The embedding points are obtained through a highly flexible non-linear transformation from node content features to the target space. This transformation is learned using the contrastive loss function of the siamese network to preserve node adjacency in the input graph. On several benchmark network datasets, the proposed GraPASA method shows a significant margin over state-of-the-art techniques on benchmark graph representation tasks.
+{{< /ci-details >}}| contrastive learning technique |
+|{{< ci-details summary="Zhu et al. (2020)" >}}
+Yanqiao Zhu, Yichen Xu, Feng Yu, Q. Liu, Shu Wu, Liang Wang. (2020)  
+**Deep Graph Contrastive Representation Learning**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/4bf76588122827157c43a59e656dccc6b6a22e90)  
+Influential Citation Count (35), SS-ID (4bf76588122827157c43a59e656dccc6b6a22e90)  
 
-## Specific Embeddings Based on Network Types
+**ABSTRACT**  
+Graph representation learning nowadays becomes fundamental in analyzing graph-structured data. Inspired by recent success of contrastive methods, in this paper, we propose a novel framework for unsupervised graph representation learning by leveraging a contrastive objective at the node level. Specifically, we generate two graph views by corruption and learn node representations by maximizing the agreement of node representations in these two views. To provide diverse node contexts for the contrastive objective, we propose a hybrid scheme for generating graph views on both structure and attribute levels. Besides, we provide theoretical justification behind our motivation from two perspectives, mutual information and the classical triplet loss. We perform empirical experiments on both transductive and inductive learning tasks using a variety of real-world datasets. Experimental experiments demonstrate that despite its simplicity, our proposed method consistently outperforms existing state-of-the-art methods by large margins. Moreover, our unsupervised method even surpasses its supervised counterparts on transductive tasks, demonstrating its great potential in real-world applications.
+{{< /ci-details >}}| metric learning approach for corrupted graph substructures |
+|{{< ci-details summary="Nozza, Fersini & Messina (2020)" >}}
+Debora Nozza, E. Fersini, E. Messina. (2020)  
+**CAGE: Constrained deep Attributed Graph Embedding**  
+Inf. Sci.  
+[Paper Link](https://www.semanticscholar.org/paper/1f90f847e46bacc13364975166ff2c908436735d)  
+Influential Citation Count (0), SS-ID (1f90f847e46bacc13364975166ff2c908436735d)  
 
-### Attributed networks
+**ABSTRACT**  
+In this paper we deal with complex attributed graphs which can exhibit rich connectivity patterns and whose nodes are often associated with attributes, such as text or images. In order to analyze these graphs, the primary challenge is to find an effective way to represent them by preserving both structural properties and node attribute information. To create low-dimensional and meaningful embedded representations of these complex graphs, we propose a fully unsupervised model based on Deep Learning architectures, called Constrained Attributed Graph Embedding model (CAGE). The main contribution of the proposed model is the definition of a novel two-phase optimization problem that explicitly models node attributes to obtain a higher representation expressiveness while preserving the local and the global structural properties of the graph. We validated our approach on two different benchmark datasets for node classification. Experimental results demonstrate that this novel representation provides significant improvements compared to state of the art approaches, also showing higher robustness with respect to the size of the training data.
+{{< /ci-details >}}| two-phase optimization for attributed graph embedding |
+|{{< ci-details summary="Shi, Tang & Zhu (2020)" >}}
+Min Shi, Yufei Tang, Xingquan Zhu. (2020)  
+**Topology and Content Co-Alignment Graph Convolutional Learning**  
+IEEE transactions on neural networks and learning systems  
+[Paper Link](https://www.semanticscholar.org/paper/249ce8e6bf5db2d0e12a5212330acdff3683550f)  
+Influential Citation Count (0), SS-ID (249ce8e6bf5db2d0e12a5212330acdff3683550f)  
 
-### Heterogeneous networks
+**ABSTRACT**  
+In traditional graph neural networks (GNNs), graph convolutional learning is carried out through topology-driven recursive node content aggregation for network representation learning. In reality, network topology and node content each provide unique and important information, and they are not always consistent because of noise, irrelevance, or missing links between nodes. A pure topology-driven feature aggregation approach between unaligned neighborhoods may deteriorate learning from nodes with poor structure-content consistency, due to the propagation of incorrect messages over the whole network. Alternatively, in this brief, we advocate a co-alignment graph convolutional learning (CoGL) paradigm, by aligning topology and content networks to maximize consistency. Our theme is to enforce the learning from the topology network to be consistent with the content network while simultaneously optimizing the content network to comply with the topology for optimized representation learning. Given a network, CoGL first reconstructs a content network from node features then co-aligns the content network and the original network through a unified optimization goal with: 1) minimized content loss; 2) minimized classification loss; and 3) minimized adversarial loss. Experiments on six benchmarks demonstrate that CoGL achieves comparable and even better performance compared with existing state-of-the-art GNN models.
+{{< /ci-details >}}| align topology of attribute content network to the corresponding graph |
+|{{< ci-details summary="Wang et al. (2020)" >}}
+Zheng Wang, Xiaojun Ye, Chaokun Wang, Jian Cui, Philip S. Yu. (2020)  
+**Network Embedding With Completely-Imbalanced Labels**  
+IEEE Transactions on Knowledge and Data Engineering  
+[Paper Link](https://www.semanticscholar.org/paper/ece57b93c36325d909723564044f06986e5553ff)  
+Influential Citation Count (2), SS-ID (ece57b93c36325d909723564044f06986e5553ff)  
 
-### Signed networks
-
-### Multi-layer networks
-
-### Temporal networks
-
-### Large graphs
-
-## Application of Graph Embeddings to Machine Learning Problems
-
-### Node classification
+**ABSTRACT**  
+Network embedding, aiming to project a network into a low-dimensional space, is increasingly becoming a focus of network research. Semi-supervised network embedding takes advantage of labeled data, and has shown promising performance. However, existing semi-supervised methods would get unappealing results in the completely-imbalanced label setting where some classes have no labeled nodes at all. To alleviate this, we propose two novel semi-supervised network embedding methods. The first one is a shallow method named RSDNE. Specifically, to benefit from the completely-imbalanced labels, RSDNE guarantees both intra-class similarity and inter-class dissimilarity in an approximate way. The other method is RECT which is a new class of graph neural networks. Different from RSDNE, to benefit from the completely-imbalanced labels, RECT explores the class-semantic knowledge. This enables RECT to handle networks with node features and multi-label setting. Experimental results on several real-world datasets demonstrate the superiority of the proposed methods.
+{{< /ci-details >}}| proposed two models for the imbalanced scenarios |
 
 ### Link prediction
 
+{{< box-with-title title="Definition 8 (Link Prediction Problem (LPP))" >}}
+LPP is a task of completing missing edges in noisy graphs or predicting new edges in temporal network structures. Formally, LPP for given graph $G(V, E)$ with adjacency matrix $A$ is a task of learning such function $f$ that reconstruct or predict next adjacency matrix $A$ based on different graph features such as metrics (e.g. Jaccard, Adamic-Adar), graph embeddings.
+{{< /box-with-title >}}
+
+| Paper | Approach |
+|-------|----------|
+|{{< ci-details summary="Grover & Leskovec (2016)" >}}
+Aditya Grover, J. Leskovec. (2016)  
+**node2vec: Scalable Feature Learning for Networks**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/36ee2c8bd605afd48035d15fdc6b8c8842363376)  
+Influential Citation Count (1119), SS-ID (36ee2c8bd605afd48035d15fdc6b8c8842363376)  
+
+**ABSTRACT**  
+Prediction tasks over nodes and edges in networks require careful effort in engineering features used by learning algorithms. Recent research in the broader field of representation learning has led to significant progress in automating prediction by learning the features themselves. However, present feature learning approaches are not expressive enough to capture the diversity of connectivity patterns observed in networks. Here we propose node2vec, an algorithmic framework for learning continuous feature representations for nodes in networks. In node2vec, we learn a mapping of nodes to a low-dimensional space of features that maximizes the likelihood of preserving network neighborhoods of nodes. We define a flexible notion of a node's network neighborhood and design a biased random walk procedure, which efficiently explores diverse neighborhoods. Our algorithm generalizes prior work which is based on rigid notions of network neighborhoods, and we argue that the added flexibility in exploring neighborhoods is the key to learning richer representations. We demonstrate the efficacy of node2vec over existing state-of-the-art techniques on multi-label classification and link prediction in several real-world networks from diverse domains. Taken together, our work represents a new way for efficiently learning state-of-the-art task-independent representations in complex networks.
+{{< /ci-details>}}| component-wise embeddings for constructing edge embedding in a non-direct combinatino of node embeddings |
+|{{< ci-details summary="Abu-El-Haija, Perozzi & Al-Rfou (2017)" >}}
+Sami Abu-El-Haija, Bryan Perozzi, Rami Al-Rfou, Alexander A. Alemi. (2017)  
+**Watch Your Step: Learning Node Embeddings via Graph Attention**  
+NeurIPS  
+[Paper Link](https://www.semanticscholar.org/paper/49a5b5e65078eff512083d9de413d49a8aadc064)  
+Influential Citation Count (13), SS-ID (49a5b5e65078eff512083d9de413d49a8aadc064)  
+
+**ABSTRACT**  
+Graph embedding methods represent nodes in a continuous vector space, preserving different types of relational information from the graph. There are many hyper-parameters to these methods (e.g. the length of a random walk) which have to be manually tuned for every graph. In this paper, we replace previously fixed hyper-parameters with trainable ones that we automatically learn via backpropagation. In particular, we propose a novel attention model on the power series of the transition matrix, which guides the random walk to optimize an upstream objective. Unlike previous approaches to attention models, the method that we propose utilizes attention parameters exclusively on the data itself (e.g. on the random walk), and are not used by the model for inference. We experiment on link prediction tasks, as we aim to produce embeddings that best-preserve the graph structure, generalizing to unseen information. We improve state-of-the-art results on a comprehensive suite of real-world graph datasets including social, collaboration, and biological networks, where we observe that our graph attention model can reduce the error by up to 20\%-40\%. We show that our automatically-learned attention parameters can vary significantly per graph, and correspond to the optimal choice of hyper-parameter if we manually tune existing methods.
+{{< /ci-details>}}| bi-linear combination of compressed node embeddings |
+|{{< ci-details summary="Zitnik, Agrawal & Leskovec (2018)" >}}
+M. Zitnik, Monica Agrawal, J. Leskovec. (2018)  
+**Modeling polypharmacy side effects with graph convolutional networks**  
+Bioinform.  
+[Paper Link](https://www.semanticscholar.org/paper/046c4276b72e21731150c0655519ec717d8f5bad)  
+Influential Citation Count (20), SS-ID (046c4276b72e21731150c0655519ec717d8f5bad)  
+
+**ABSTRACT**  
+Motivation The use of drug combinations, termed polypharmacy, is common to treat patients with complex diseases or co‐existing conditions. However, a major consequence of polypharmacy is a much higher risk of adverse side effects for the patient. Polypharmacy side effects emerge because of drug‐drug interactions, in which activity of one drug may change, favorably or unfavorably, if taken with another drug. The knowledge of drug interactions is often limited because these complex relationships are rare, and are usually not observed in relatively small clinical testing. Discovering polypharmacy side effects thus remains an important challenge with significant implications for patient mortality and morbidity. Results Here, we present Decagon, an approach for modeling polypharmacy side effects. The approach constructs a multimodal graph of protein‐protein interactions, drug‐protein target interactions and the polypharmacy side effects, which are represented as drug‐drug interactions, where each side effect is an edge of a different type. Decagon is developed specifically to handle such multimodal graphs with a large number of edge types. Our approach develops a new graph convolutional neural network for multirelational link prediction in multimodal networks. Unlike approaches limited to predicting simple drug‐drug interaction values, Decagon can predict the exact side effect, if any, through which a given drug combination manifests clinically. Decagon accurately predicts polypharmacy side effects, outperforming baselines by up to 69%. We find that it automatically learns representations of side effects indicative of co‐occurrence of polypharmacy in patients. Furthermore, Decagon models particularly well polypharmacy side effects that have a strong molecular basis, while on predominantly non‐molecular side effects, it achieves good performance because of effective sharing of model parameters across edge types. Decagon opens up opportunities to use large pharmacogenomic and patient population data to flag and prioritize polypharmacy side effects for follow‐up analysis via formal pharmacological studies. Availability and implementation Source code and preprocessed datasets are at: http://snap.stanford.edu/decagon.
+{{< /ci-details>}}| drug combinations |
+|{{< ci-details summary="Chen et al. (2018)" >}}
+Haochen Chen, Bryan Perozzi, Yifan Hu, S. Skiena. (2017)  
+**HARP: Hierarchical Representation Learning for Networks**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/ee9cc8e663d650ae96405ad680d6447066e6fb23)  
+Influential Citation Count (32), SS-ID (ee9cc8e663d650ae96405ad680d6447066e6fb23)  
+
+**ABSTRACT**  
+We present HARP, a novel method for learning low dimensional embeddings of a graph's nodes which preserves higher-order structural features. Our proposed method achieves this by compressing the input graph prior to embedding it, effectively avoiding troublesome embedding configurations (i.e. local minima) which can pose problems to non-convex optimization. HARP works by finding a smaller graph which approximates the global structure of its input. This simplified graph is used to learn a set of initial representations, which serve as good initializations for learning representations in the original, detailed graph. We inductively extend this idea, by decomposing a graph in a series of levels, and then embed the hierarchy of graphs from the coarsest one to the original graph. HARP is a general meta-strategy to improve all of the state-of-the-art neural algorithms for embedding graphs, including DeepWalk, LINE, and Node2vec. Indeed, we demonstrate that applying HARP's hierarchical paradigm yields improved implementations for all three of these methods, as evaluated on both classification tasks on real-world graphs such as DBLP, BlogCatalog, CiteSeer, and Arxiv, where we achieve a performance gain over the original implementations by up to 14% Macro F1.
+{{< /ci-details>}}| HARP; incorporates several hierarchical layers |
+|{{< ci-details summary="Tu et al. (2017)" >}}
+Cunchao Tu, Han Liu, Zhiyuan Liu, Maosong Sun. (2017)  
+**CANE: Context-Aware Network Embedding for Relation Modeling**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/20bb300eb3400f1af766110ff51feada78170674)  
+Influential Citation Count (36), SS-ID (20bb300eb3400f1af766110ff51feada78170674)  
+
+**ABSTRACT**  
+Network embedding (NE) is playing a critical role in network analysis, due to its ability to represent vertices with efficient low-dimensional embedding vectors. However, existing NE models aim to learn a fixed context-free embedding for each vertex and neglect the diverse roles when interacting with other vertices. In this paper, we assume that one vertex usually shows different aspects when interacting with different neighbor vertices, and should own different embeddings respectively. Therefore, we present Context-Aware Network Embedding (CANE), a novel NE model to address this issue. CANE learns context-aware embeddings for vertices with mutual attention mechanism and is expected to model the semantic relationships between vertices more precisely. In experiments, we compare our model with existing NE models on three real-world datasets. Experimental results show that CANE achieves significant improvement than state-of-the-art methods on link prediction and comparable performance on vertex classification. The source code and datasets can be obtained from https://github.com/thunlp/CANE.
+{{< /ci-details>}}| CANE; directly incorporating edge features and labels |
+|{{< ci-details summary="Huang, Li & Hu (2017)" >}}
+Xiao Huang, Jundong Li, Xia Hu. (2017)  
+**Label Informed Attributed Network Embedding**  
+WSDM  
+[Paper Link](https://www.semanticscholar.org/paper/44044556dae0e21cab058c18f704b15d33bd17c5)  
+Influential Citation Count (45), SS-ID (44044556dae0e21cab058c18f704b15d33bd17c5)  
+
+**ABSTRACT**  
+Attributed network embedding aims to seek low-dimensional vector representations for nodes in a network, such that original network topological structure and node attribute proximity can be preserved in the vectors. These learned representations have been demonstrated to be helpful in many learning tasks such as network clustering and link prediction. While existing algorithms follow an unsupervised manner, nodes in many real-world attributed networks are often associated with abundant label information, which is potentially valuable in seeking more effective joint vector representations. In this paper, we investigate how labels can be modeled and incorporated to improve attributed network embedding. This is a challenging task since label information could be noisy and incomplete. In addition, labels are completely distinct with the geometrical structure and node attributes. The bewildering combination of heterogeneous information makes the joint vector representation learning more difficult. To address these issues, we propose a novel Label informed Attributed Network Embedding (LANE) framework. It can smoothly incorporate label information into the attributed network embedding while preserving their correlations. Experiments on real-world datasets demonstrate that the proposed framework achieves significantly better performance compared with the state-of-the-art embedding algorithms.
+{{< /ci-details>}}| LANE; directly incorporating edge features and labels  |
+|{{< ci-details summary="Monti et al. (2018)" >}}
+Federico Monti, Oleksandr Shchur, Aleksandar Bojchevski, O. Litany, Stephan Günnemann, M. Bronstein. (2018)  
+**Dual-Primal Graph Convolutional Networks**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/980a4959ad4c81a61f4166b549157ddad1f7ddce)  
+Influential Citation Count (1), SS-ID (980a4959ad4c81a61f4166b549157ddad1f7ddce)  
+
+**ABSTRACT**  
+In recent years, there has been a surge of interest in developing deep learning methods for non-Euclidean structured data such as graphs. In this paper, we propose Dual-Primal Graph CNN, a graph convolutional architecture that alternates convolution-like operations on the graph and its dual. Our approach allows to learn both vertex- and edge features and generalizes the previous graph attention (GAT) model. We provide extensive experimental validation showing state-of-the-art results on a variety of tasks tested on established graph benchmarks, including CORA and Citeseer citation networks as well as MovieLens, Flixter, Douban and Yahoo Music graph-guided recommender systems.
+{{< /ci-details>}}| Dual-Primal GCN; joint node and edge structure learning |
+|{{< ci-details summary="Goyal et al. (2018)" >}}
+Palash Goyal, Homa Hosseinmardi, Emilio Ferrara, A. Galstyan. (2018)  
+**Embedding Networks with Edge Attributes**  
+HT  
+[Paper Link](https://www.semanticscholar.org/paper/e4853de6d86315073a9e9e5d8957500cd24402c1)  
+Influential Citation Count (0), SS-ID (e4853de6d86315073a9e9e5d8957500cd24402c1)  
+
+**ABSTRACT**  
+Predicting links in information networks requires deep understanding and careful modeling of network structure. Network embedding, which aims to learn low-dimensional representations of nodes, has been used successfully for the task of link prediction in the past few decades. Existing methods utilize the observed edges in the network to model the interactions between nodes and learn representations which explain the behavior. In addition to the presence of edges, networks often have information which can be used to improve the embedding. For example, in author collaboration networks, the bag of words representing the abstract of co-authored paper can be used as edge attributes. In this paper, we propose a novel approach, which uses the edges and their associated labels to learn node embeddings. Our model jointly optimizes higher order node neighborhood, social roles and edge attributes reconstruction error using deep architecture which can model highly non-linear interactions. We demonstrate the efficacy of our model over existing state-of-the-art methods on two real world data sets. We observe that such attributes can improve the quality of embedding and yield better performance in link prediction.
+{{< /ci-details>}}| ELAINE; joint node and edge structure learning |
+|{{< ci-details summary="Gui et al. (2016)" >}}
+Huan Gui, Jialu Liu, Fangbo Tao, Meng Jiang, Brandon Norick, Jiawei Han. (2016)  
+**Large-Scale Embedding Learning in Heterogeneous Event Data**  
+2016 IEEE 16th International Conference on Data Mining (ICDM)  
+[Paper Link](https://www.semanticscholar.org/paper/c18c30b9b1090e752031d23d219c1007b9954229)  
+Influential Citation Count (10), SS-ID (c18c30b9b1090e752031d23d219c1007b9954229)  
+
+**ABSTRACT**  
+Heterogeneous events, which are defined as events connecting strongly-typed objects, are ubiquitous in the real world. We propose a HyperEdge-Based Embedding (Hebe) framework for heterogeneous event data, where a hyperedge represents the interaction among a set of involving objects in an event. The Hebe framework models the proximity among objects in an event by predicting a target object given the other participating objects in the event (hyperedge). Since each hyperedge encapsulates more information on a given event, Hebe is robust to data sparseness. In addition, Hebe is scalable when the data size spirals. Extensive experiments on large-scale real-world datasets demonstrate the efficacy and robustness of Hebe.
+{{< /ci-details>}}| HEBE; embedding event graphs in which event is described by several edges |
+|{{< ci-details summary="Wu et al. (2020)" >}}
+Chencheng Wu, Yinzuo Zhou, Lulu Tan, Cong Teng. (2020)  
+**Link Prediction Based on Graph Embedding Method in Unweighted Networks**  
+2020 39th Chinese Control Conference (CCC)  
+[Paper Link](https://www.semanticscholar.org/paper/ba3159d8791903c7fcf0b6761cacf1be5b5ac927)  
+Influential Citation Count (0), SS-ID (ba3159d8791903c7fcf0b6761cacf1be5b5ac927)  
+
+**ABSTRACT**  
+The index of link prediction based on random walk usually has the same transition probability in the process of particle transfer to its neighbor nodes, which has strong randomness and ignores the influence of the particularity of network topology on particle transition probability. In order to resolve this problem, this paper proposes a random walk with restart index based on graph embedding (GERWR). The algorithm uses graph embedding method to randomly sample network nodes and generate node representation vectors containing potential network structure information. By calculating the similarity of node vectors, it redefines a biased transition probability. We apply it to the process of random walk and explore the influence of the particularity of network topology on the transition during the particles walk. Finally, based on biased transition, the index proposed in this paper is compared with five classical similarity indexes in unweighted networks. The results show that the prediction algorithm based on graph embedding method with biased transfer has higher accuracy than other indexes.
+{{< /ci-details>}}| random walk with restart index |
+|{{< ci-details summary="Phuc, Yamada & Kashima (2020)" >}}
+Luu Huu Phuc, M. Yamada, H. Kashima. (2020)  
+**Link Prediction on Multiple Graphs with Graph Embedding and Optimal Transport**  
+  
+[Paper Link](https://www.semanticscholar.org/paper/480ff986724acc27e096560f8d433847e86cbdb3)  
+Influential Citation Count (0), SS-ID (480ff986724acc27e096560f8d433847e86cbdb3)  
+
+**ABSTRACT**  
+Link prediction is an extensively studied topic and various methods have been proposed to tackle the task in both heuristic and more sophisticated statistical learning approaches. However, most of them only focus on one single graph. In many scenarios, combining information on multiple graphs with similar topological structures can greatly improve the performance and robustness of link prediction. In this study, we propose a new framework for learning link prediction on two unaligned graphs simultaneously. We use the LINE method, although technically any embedding method is applicable, to embed nodes of each graph into low-dimensional vectors. Optimal Transport is then employed to supervise the node alignment via embedding vectors between the two graphs. The learned embedding vectors are employed for link prediction via a similarity score. Experiments have shown that node alignment using Optimal Transport is beneficial and greatly contributes to the favorable performance of the proposed method over the baseline in many settings.
+{{< /ci-details>}}| embeds several graphs with similar structural properties |
+|{{< ci-details summary="Keser et al. (2020)" >}}
+Reyhan Kevser Keser, Indrit Nallbani, Nurullah Çalik, Aydin Ayanzadeh, B. Töreyin. (2020)  
+**Graph Embedding For Link Prediction Using Residual Variational Graph Autoencoders**  
+2020 28th Signal Processing and Communications Applications Conference (SIU)  
+[Paper Link](https://www.semanticscholar.org/paper/d94a322106c9161813360d8cfd108ec95e9fad67)  
+Influential Citation Count (0), SS-ID (d94a322106c9161813360d8cfd108ec95e9fad67)  
+
+**ABSTRACT**  
+Graphs are usually represented by high dimensional data. Hence, graph embedding is an essential task, which aims to represent a graph in a lower dimension while protecting the original graph's properties. In this paper, we propose a novel graph embedding method called Residual Variational Graph Autoencoder (RVGAE), which boosts variational graph autoencoder's performance utilizing residual connections. Our method's performance is evaluated on the link prediction task. The results demonstrate that our model can achieve better results than graph convolutional neural network (GCN) and variational graph autoencoder (VGAE).
+{{< /ci-details>}}| employ skip-connections in VGAE |
+|{{< ci-details summary="Adafre & de Rijke (2005)" >}}
+S. F. Adafre, M. de Rijke. (2005)  
+**Discovering missing links in Wikipedia**  
+LinkKDD '05  
+[Paper Link](https://www.semanticscholar.org/paper/6d9064ff94c5186e12c39ea2e9f3815004066e51)  
+Influential Citation Count (12), SS-ID (6d9064ff94c5186e12c39ea2e9f3815004066e51)  
+
+**ABSTRACT**  
+In this paper we address the problem of discovering missing hypertext links in Wikipedia. The method we propose consists of two steps: first, we compute a cluster of highly similar pages around a given page, and then we identify candidate links from those similar pages that might be missing on the given page. The main innovation is in the algorithm that we use for identifying similar pages, LTRank, which ranks pages using co-citation and page title information. Both LTRank and the link discovery method are manually evaluated and show acceptable results, especially given the simplicity of the methods and conservativeness of the evaluation criteria.
+{{< /ci-details>}}| link prediction in web linking |
+|{{< ci-details summary="Backstrom & Leskovec (2010)" >}}
+L. Backstrom, J. Leskovec. (2010)  
+**Supervised random walks: predicting and recommending links in social networks**  
+WSDM '11  
+[Paper Link](https://www.semanticscholar.org/paper/29efbdf3f95cee97405accafdebd3bd374f1f003)  
+Influential Citation Count (79), SS-ID (29efbdf3f95cee97405accafdebd3bd374f1f003)  
+
+**ABSTRACT**  
+Predicting the occurrence of links is a fundamental problem in networks. In the link prediction problem we are given a snapshot of a network and would like to infer which interactions among existing members are likely to occur in the near future or which existing interactions are we missing. Although this problem has been extensively studied, the challenge of how to effectively combine the information from the network structure with rich node and edge attribute data remains largely open.  We develop an algorithm based on Supervised Random Walks that naturally combines the information from the network structure with node and edge level attributes. We achieve this by using these attributes to guide a random walk on the graph. We formulate a supervised learning task where the goal is to learn a function that assigns strengths to edges in the network such that a random walker is more likely to visit the nodes to which new links will be created in the future. We develop an efficient training algorithm to directly learn the edge strength estimation function.  Our experiments on the Facebook social graph and large collaboration networks show that our approach outperforms state-of-the-art unsupervised approaches as well as approaches that are based on feature extraction.
+{{< /ci-details>}}| link prediction in social dating services |
+|{{< ci-details summary="He et al. (2010)" >}}
+Qi He, J. Pei, Daniel Kifer, P. Mitra, C. Lee Giles. (2010)  
+**Context-aware citation recommendation**  
+WWW '10  
+[Paper Link](https://www.semanticscholar.org/paper/3c0312918ac9fea614abaa0732d83f3e76c16f7d)  
+Influential Citation Count (32), SS-ID (3c0312918ac9fea614abaa0732d83f3e76c16f7d)  
+
+**ABSTRACT**  
+When you write papers, how many times do you want to make some citations at a place but you are not sure which papers to cite? Do you wish to have a recommendation system which can recommend a small number of good candidates for every place that you want to make some citations? In this paper, we present our initiative of building a context-aware citation recommendation system. High quality citation recommendation is challenging: not only should the citations recommended be relevant to the paper under composition, but also should match the local contexts of the places citations are made. Moreover, it is far from trivial to model how the topic of the whole paper and the contexts of the citation places should affect the selection and ranking of citations. To tackle the problem, we develop a context-aware approach. The core idea is to design a novel non-parametric probabilistic model which can measure the context-based relevance between a citation context and a document. Our approach can recommend citations for a context effectively. Moreover, it can recommend a set of citations for a paper with high quality. We implement a prototype system in CiteSeerX. An extensive empirical evaluation in the CiteSeerX digital library against many baselines demonstrates the effectiveness and the scalability of our approach.
+{{< /ci-details>}}| link prediction in paper recommender system for digital libraries |
+|{{< ci-details summary="Liben-Nowell & Kleinberg (2007)" >}}
+D. Liben-Nowell, J. Kleinberg. (2007)  
+**The link-prediction problem for social networks**  
+J. Assoc. Inf. Sci. Technol.  
+[Paper Link](https://www.semanticscholar.org/paper/996dfa43f6982bcbff862276ef80cbca7515985a)  
+Influential Citation Count (240), SS-ID (996dfa43f6982bcbff862276ef80cbca7515985a)  
+
+**ABSTRACT**  
+Given a snapshot of a social network, can we infer which new interactions among its members are likely to occur in the near future? We formalize this question as the link prediction problem, and develop approaches to link prediction based on measures the "proximity" of nodes in a network. Experiments on large co-authorship networks suggest that information about future interactions can be extracted from network topology alone, and that fairly subtle measures for detecting node proximity can outperform more direct measures.
+{{< /ci-details>}}| formulated LPP based on nodes pairwise similarity measures |
+|{{< ci-details summary="Adamic & Adar (2003)" >}}
+Lada A. Adamic, Eytan Adar. (2003)  
+**Friends and neighbors on the Web**  
+Soc. Networks  
+[Paper Link](https://www.semanticscholar.org/paper/8dc9d11e3fc229a1b70bb00de72dc15d55848174)  
+Influential Citation Count (180), SS-ID (8dc9d11e3fc229a1b70bb00de72dc15d55848174)  
+
+**ABSTRACT**  
+The Internet has become a rich and large repository of information about us as individuals. Anything from the links and text on a user’s homepage to the mailing lists the user subscribes to are reflections of social interactions a user has in the real world. In this paper we devise techniques and tools to mine this information in order to extract social networks and the exogenous factors underlying the networks’ structure. In an analysis of two data sets, from Stanford University and the Massachusetts Institute of Technology (MIT), we show that some factors are better indicators of social connections than others, and that these indicators vary between user populations. Our techniques provide potential applications in automatically inferring real world connections and discovering, labeling, and characterizing communities.
+{{< /ci-details>}}| similarity based methods |
+|{{< ci-details summary="Clauset, Moore & Newman (2008)" >}}
+A. Clauset, C. Moore, M. Newman. (2008)  
+**Hierarchical structure and the prediction of missing links in networks**  
+Nature  
+[Paper Link](https://www.semanticscholar.org/paper/00b7ffd43e9b6b70c80449872a8c9ec49c7d045a)  
+Influential Citation Count (83), SS-ID (00b7ffd43e9b6b70c80449872a8c9ec49c7d045a)  
+
+**ABSTRACT**  
+Networks have in recent years emerged as an invaluable tool for describing and quantifying complex systems in many branches of science. Recent studies suggest that networks often exhibit hierarchical organization, in which vertices divide into groups that further subdivide into groups of groups, and so forth over multiple scales. In many cases the groups are found to correspond to known functional units, such as ecological niches in food webs, modules in biochemical networks (protein interaction networks, metabolic networks or genetic regulatory networks) or communities in social networks. Here we present a general technique for inferring hierarchical structure from network data and show that the existence of hierarchy can simultaneously explain and quantitatively reproduce many commonly observed topological properties of networks, such as right-skewed degree distributions, high clustering coefficients and short path lengths. We further show that knowledge of hierarchical structure can be used to predict missing connections in partly known networks with high accuracy, and for more general network structures than competing techniques. Taken together, our results suggest that hierarchy is a central organizing principle of complex networks, capable of offering insight into many network phenomena.
+{{< /ci-details>}}| maximum likelihood models |
+|{{< ci-details summary="Getoor & Taskar (2007)" >}}
+Getoor L, Taskar B (2007)  
+**Statistical relational learning**  
+https://mitpress.mit.edu/books/introduction-statistical-relational-learning.
+
+**ABSTRACT**
+Advanced statistical modeling and knowledge representation techniques for a newly emerging area of machine learning and probabilistic reasoning; includes introductory material, tutorials for different proposed approaches, and applications. Handling inherent uncertainty and exploiting compositional structure are fundamental to understanding and designing large-scale systems. Statistical relational learning builds on ideas from probability theory and statistics to address uncertainty while incorporating tools from logic, databases and programming languages to represent structure. In Introduction to Statistical Relational Learning, leading researchers in this emerging area of machine learning describe current formalisms, models, and algorithms that enable effective and robust reasoning about richly structured systems and data. The early chapters provide tutorials for material used in later chapters, offering introductions to representation, inference and learning in graphical models, and logic. The book then describes object-oriented approaches, including probabilistic relational models, relational Markov networks, and probabilistic entity-relationship models as well as logic-based formalisms including Bayesian logic programs, Markov logic, and stochastic logic programs. Later chapters discuss such topics as probabilistic models with unknown objects, relational dependency networks, reinforcement learning in relational domains, and information extraction. By presenting a variety of approaches, the book highlights commonalities and clarifies important differences among proposed approaches and, along the way, identifies important representational and algorithmic issues. Numerous applications are provided throughout.
+{{< /ci-details>}}| probabilistic models |
+|{{< ci-details summary="Heckerman, Meek & Koller (2004)" >}}
+D. Heckerman, Christopher Meek, D. Koller. (2004)  
+**Probabilistic Entity-Relationship Models, PRMs, and Plate Models**  
+  
+[Paper Link](https://www.semanticscholar.org/paper/04757f50d0021c8351237fad2f4002e59d5d8430)  
+Influential Citation Count (13), SS-ID (04757f50d0021c8351237fad2f4002e59d5d8430)  
+
+**ABSTRACT**  
+We introduce a graphical language for re- lational data called the probabilistic entity- relationship (PER) model. The model is an extension of the entity-relationship model, a common model for the abstract repre- sentation of database structure. We con- centrate on the directed version of this model—the directed acyclic probabilistic entity-relationship (DAPER) model. The DAPER model is closely related to the plate model and the probabilistic relational model (PRM), existing models for relational data. The DAPER model is more expressive than either existing model, and also helps to demonstrate their similarity. dinary graphical models (e.g., directed-acyclic graphs and undirected graphs) are to flat data. In this paper, we introduce a new graphical model for relational data—the probabilistic entity-relationship (PER) model. This model class is more expressive than either PRMs or plate models. We concentrate on a particular type of PER model—the directed acyclic probabilistic entity-relationship (DAPER) model—in which all probabilistic arcs are directed. It is this ver- sion of PER model that is most similar to the plate model and PRM. We define new versions of the plate model and PRM such their expressiveness is equivalent to the DAPER model, and then (in the expanded tech report, Heckerman, Meek, and Koller, 2004) compare the new and old definitions. Consequently, we both demonstrate the similarity among the original lan- guages as well as enhance their abilities to express con- ditional independence in relational data. Our hope is that this demonstration of similarity will foster greater communication and collaboration among statisticians who mostly use plate models and computer scientists who mostly use PRMs. We in fact began this work with an effort to unify traditional PRMs and plate models. In the process, we discovered that it was important to make both entities and relationships (concepts discussed in de- tail in the next section) first class objects in the lan- guage. We in turn discovered an existing language that does this—the entity-relationship (ER) model—a commonly used model for the abstract representation of database structure. We then extended this language to handle probabilistic relationships, creating the PER model. We should emphasize that the languages we discuss are neither meant to serve as a database schema nor meant to be built on top of one. In practice, database schemas are built up over a long period of time as the needs of the database consumers change. Conse-
+{{< /ci-details>}}| probabilistic models |
+|{{< ci-details summary="Tang & Liu (2012)" >}}
+Jiliang Tang, Huan Liu. (2012)  
+**Unsupervised feature selection for linked social media data**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/ec8c47ef5797976594c7b784dcad6776743ef014)  
+Influential Citation Count (17), SS-ID (ec8c47ef5797976594c7b784dcad6776743ef014)  
+
+**ABSTRACT**  
+The prevalent use of social media produces mountains of unlabeled, high-dimensional data. Feature selection has been shown effective in dealing with high-dimensional data for efficient data mining. Feature selection for unlabeled data remains a challenging task due to the absence of label information by which the feature relevance can be assessed. The unique characteristics of social media data further complicate the already challenging problem of unsupervised feature selection, (e.g., part of social media data is linked, which makes invalid the independent and identically distributed assumption), bringing about new challenges to traditional unsupervised feature selection algorithms. In this paper, we study the differences between social media data and traditional attribute-value data, investigate if the relations revealed in linked data can be used to help select relevant features, and propose a novel unsupervised feature selection framework, LUFS, for linked social media data. We perform experiments with real-world social media datasets to evaluate the effectiveness of the proposed framework and probe the working of its key components.
+{{< /ci-details>}}| unsupervised approach for LPP |
+|{{< ci-details summary="Gao, Denoyer & Gallinari (2011)" >}}
+Sheng Gao, Ludovic Denoyer, P. Gallinari. (2011)  
+**Temporal link prediction by integrating content and structure information**  
+CIKM '11  
+[Paper Link](https://www.semanticscholar.org/paper/8a634a82681897822b14de28849c6548346206a0)  
+Influential Citation Count (4), SS-ID (8a634a82681897822b14de28849c6548346206a0)  
+
+**ABSTRACT**  
+In this paper we address the problem of temporal link prediction, i.e., predicting the apparition of new links, in time-evolving networks. This problem appears in applications such as recommender systems, social network analysis or citation analysis. Link prediction in time-evolving networks is usually based on the topological structure of the network only. We propose here a model which exploits multiple information sources in the network in order to predict link occurrence probabilities as a function of time. The model integrates three types of information: the global network structure, the content of nodes in the network if any, and the local or proximity information of a given vertex. The proposed model is based on a matrix factorization formulation of the problem with graph regularization. We derive an efficient optimization method to learn the latent factors of this model. Extensive experiments on several real world datasets suggest that our unified framework outperforms state-of-the-art methods for temporal link prediction tasks.
+{{< /ci-details>}}| temporal link prediction based on matrix factorization and noise reduction in large networks |
+|{{< ci-details summary="Gao et al. (2015)" >}}
+F. Gao, Katarzyna Musial, C. Cooper, S. Tsoka. (2015)  
+**Link Prediction Methods and Their Accuracy for Different Social Networks and Network Metrics**  
+Sci. Program.  
+[Paper Link](https://www.semanticscholar.org/paper/d47e5c2dfb5dcd58e8d0f513807e5671e4607a35)  
+Influential Citation Count (2), SS-ID (d47e5c2dfb5dcd58e8d0f513807e5671e4607a35)  
+
+**ABSTRACT**  
+Currently, we are experiencing a rapid growth of the number of social-based online systems. The availability of the vast amounts of data gathered in those systems brings new challenges that we face when trying to analyse it. One of the intensively researched topics is the prediction of social connections between users. Although a lot of effort has been made to develop new prediction approaches, the existing methods are not comprehensively analysed. In this paper we investigate the correlation between network metrics and accuracy of different prediction methods. We selected six time-stamped real-world social networks and ten most widely used link prediction methods. The results of the experiments show that the performance of some methods has a strong correlation with certain network metrics. We managed to distinguish "prediction friendly" networks, for which most of the prediction methods give good performance, as well as "prediction unfriendly" networks, for which most of the methods result in high prediction error. Correlation analysis between network metrics and prediction accuracy of prediction methods may form the basis of a metalearning system where based on network characteristics it will be able to recommend the right prediction method for a given network.
+{{< /ci-details>}}| temporal link prediction based on matrix factorization and noise reduction in large networks |
+|{{< ci-details summary="McPherson, Smith-Lovin & Cook (2001)" >}}
+M. McPherson, L. Smith-Lovin, J. Cook. (2001)  
+**Birds of a Feather: Homophily in Social Networks**  
+  
+[Paper Link](https://www.semanticscholar.org/paper/228bafce55e6f1cbe2c1df75b1949a1fb9c93eb3)  
+Influential Citation Count (673), SS-ID (228bafce55e6f1cbe2c1df75b1949a1fb9c93eb3)  
+
+**ABSTRACT**  
+Similarity breeds connection. This principle—the homophily principle—structures network ties of every type, including marriage, friendship, work, advice, support, information transfer, exchange, comembership, and other types of relationship. The result is that people's personal networks are homogeneous with regard to many sociodemographic, behavioral, and intrapersonal characteristics. Homophily limits people's social worlds in a way that has powerful implications for the information they receive, the attitudes they form, and the interactions they experience. Homophily in race and ethnicity creates the strongest divides in our personal environments, with age, religion, education, occupation, and gender following in roughly that order. Geographic propinquity, families, organizations, and isomorphic positions in social systems all create contexts in which homophilous relations form. Ties between nonsimilar individuals also dissolve at a higher rate, which sets the stage for the formation of niches (localize...
+{{< /ci-details>}}| attribute-based link formation in social networks |
+|{{< ci-details summary="Robins et al. (2007)" >}}
+G. Robins, T. Snijders, Peng Wang, M. Handcock, P. Pattison. (2007)  
+**Recent developments in exponential random graph (p*) models for social networks**  
+Soc. Networks  
+[Paper Link](https://www.semanticscholar.org/paper/00350a2b4adbaba0293ec10f73b759cfddde166e)  
+Influential Citation Count (58), SS-ID (00350a2b4adbaba0293ec10f73b759cfddde166e)  
+
+**ABSTRACT**  
+This article reviews new specifications for exponential random graph models proposed by Snijders et al. [Snijders, T.A.B., Pattison, P., Robins, G.L., Handcock, M., 2006. New specifications for exponential random graph models. Sociological Methodology] and demonstrates their improvement over homogeneous Markov random graph models in fitting empirical network data. Not only do the new specifications show improvements in goodness of fit for various data sets, but they also help to avoid the problem of near-degeneracy that often afflicts the fitting of Markov random graph models in practice, particularly to network data exhibiting high levels of transitivity. The inclusion of a new higher order transitivity statistic allows estimation of parameters of exponential graph models for many (but not all) cases where it is impossible to estimate parameters of homogeneous Markov graph models. The new specifications were used to model a large number of classical small-scale network data sets and showed a dramatically better performance than Markov graph models. We also review three current programs for obtaining maximum likelihood estimates of model parameters and we compare these Monte Carlo maximum likelihood estimates with less accurate pseudo-likelihood estimates. Finally, we discuss whether homogeneous Markov random graph models may be superseded by the new specifications, and how additional elaborations may further improve model performance.
+{{< /ci-details>}}| attribute-based link formation in social networks |
+|{{< ci-details summary="Liu et al. (2013)" >}}
+Feng Liu, Bingquan Liu, Chengjie Sun, Ming Liu, Xiaolong Wang. (2013)  
+**Deep Learning Approaches for Link Prediction in Social Network Services**  
+ICONIP  
+[Paper Link](https://www.semanticscholar.org/paper/dc995128c156b587d9b627e89d413563cd1e05df)  
+Influential Citation Count (3), SS-ID (dc995128c156b587d9b627e89d413563cd1e05df)  
+
+**ABSTRACT**  
+With the fast development of online Social Network ServicesSNS, social members get large amounts of interactions which can be presented as links with values. The link prediction problem is to estimate the values of unknown links by the known links' information. In this paper, based on deep learning approaches, methods for link prediction are proposed. Firstly, an unsupervised method that can works well with little samples is introduced. Secondly, we propose a feature representation method, and the represented features perform better than original ones for link prediction. Thirdly, based on Restricted Boltzmann Machine RBM that present the joint distribution of link samples and their values, we propose a method for link prediction. By the experiments' results, our method can predict links' values with high accuracy for data from SNS websites.
+{{< /ci-details>}}| deep learning approaches for link formation in social networks |
+|{{< ci-details summary="Zhai & Zhang (2015)" >}}
+Shuangfei Zhai, Zhongfei Zhang. (2015)  
+**Dropout Training of Matrix Factorization and Autoencoder for Link Prediction in Sparse Graphs**  
+SDM  
+[Paper Link](https://www.semanticscholar.org/paper/1e79e7d3247c7fddebaf5242c661de79bf7f31a7)  
+Influential Citation Count (3), SS-ID (1e79e7d3247c7fddebaf5242c661de79bf7f31a7)  
+
+**ABSTRACT**  
+Matrix factorization (MF) and Autoencoder (AE) are among the most successful approaches of unsupervised learning. While MF based models have been extensively exploited in the graph modeling and link prediction literature, the AE family has not gained much attention. In this paper we investigate both MF and AE's application to the link prediction problem in sparse graphs. We show the connection between AE and MF from the perspective of multiview learning, and further propose MF+AE: a model training MF and AE jointly with shared parameters. We apply dropout to training both the MF and AE parts, and show that it can significantly prevent overfitting by acting as an adaptive regularization. We conduct experiments on six real world sparse graph datasets, and show that MF+AE consistently outperforms the competing methods, especially on datasets that demonstrate strong non-cohesive structures.
+{{< /ci-details>}}| deep learning approaches for link formation in social networks |
+|{{< ci-details summary="Berg, Kipf & Welling (2017)" >}}
+Rianne van den Berg, Thomas Kipf, M. Welling. (2017)  
+**Graph Convolutional Matrix Completion**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/c509de93b3d34ecd178f598814bd5177a0a29726)  
+Influential Citation Count (121), SS-ID (c509de93b3d34ecd178f598814bd5177a0a29726)  
+
+**ABSTRACT**  
+We consider matrix completion for recommender systems from the point of view of link prediction on graphs. Interaction data such as movie ratings can be represented by a bipartite user-item graph with labeled edges denoting observed ratings. Building on recent progress in deep learning on graph-structured data, we propose a graph auto-encoder framework based on differentiable message passing on the bipartite interaction graph. Our model shows competitive performance on standard collaborative filtering benchmarks. In settings where complimentary feature information or structured data such as a social network is available, our framework outperforms recent state-of-the-art methods.
+{{< /ci-details>}}| deep learning approaches for link formation in social networks |
+|{{< ci-details summary="Liu et al. (2017)" >}}
+Zemin Liu, V. Zheng, Zhou Zhao, Fanwei Zhu, K. Chang, Minghui Wu, Jing Ying. (2017)  
+**Semantic Proximity Search on Heterogeneous Graph by Proximity Embedding**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/f4ef2c9a97c183b24d08ca67f6f55b98d441e8e6)  
+Influential Citation Count (3), SS-ID (f4ef2c9a97c183b24d08ca67f6f55b98d441e8e6)  
+
+**ABSTRACT**  
+Many real-world networks have a rich collection of objects. The semantics of these objects allows us to capture different classes of proximities, thus enabling an important task of semantic proximity search. As the core of semantic proximity search, we have to measure the proximity on a heterogeneous graph, whose nodes are various types of objects. Most of the existing methods rely on engineering features about the graph structure between two nodes to measure their proximity. With recent development on graph embedding, we see a good chance to avoid feature engineering for semantic proximity search. There is very little work on using graph embedding for semantic proximity search. We also observe that graph embedding methods typically focus on embedding nodes, which is an “indirect” approach to learn the proximity. Thus, we introduce a new concept of proximity embedding, which directly embeds the network structure between two possibly distant nodes. We also design our proximity embedding, so as to flexibly support both symmetric and asymmetric proximities. Based on the proximity embedding, we can easily estimate the proximity score between two nodes and enable search on the graph. We evaluate our proximity embedding method on three real-world public data sets, and show it outperforms the state-of-the-art baselines. We release the code for proximity embedding.
+{{< /ci-details>}}| heterogeneous graph link prediction |
+|{{< ci-details summary="Liu et al. (2018)" >}}
+Zemin Liu, V. Zheng, Zhou Zhao, Fanwei Zhu, K. Chang, Minghui Wu, Jing Ying. (2018)  
+**Distance-Aware DAG Embedding for Proximity Search on Heterogeneous Graphs**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/6065a29041525360665320fab231dd9e5ca82ab8)  
+Influential Citation Count (3), SS-ID (6065a29041525360665320fab231dd9e5ca82ab8)  
+
+**ABSTRACT**  
+Proximity search on heterogeneous graphs aims to measure the proximity between two nodes on a graph w.r.t. some semantic relation for ranking. Pioneer work often tries to measure such proximity by paths connecting the two nodes. However, paths as linear sequences have limited expressiveness for the complex network connections. In this paper, we explore a more expressive DAG (directed acyclic graph) data structure for modeling the connections between two nodes. Particularly, we are interested in learning a representation for the DAGs to encode the proximity between two nodes. We face two challenges to use DAGs, including how to efficiently generate DAGs and how to effectively learn DAG embedding for proximity search. We find distance-awareness as important for proximity search and the key to solve the above challenges. Thus we develop a novel Distance-aware DAG Embedding (D2AGE) model. We evaluate D2AGE on three benchmark data sets with six semantic relations, and we show that D2AGE outperforms the state-of-the-art baselines. We release the code on https://github.com/shuaiOKshuai.
+{{< /ci-details>}}| heterogeneous graph link prediction |
+|{{< ci-details summary="Crichton et al. (2018)" >}}
+Gamal K. O. Crichton, Yufan Guo, Sampo Pyysalo, A. Korhonen. (2018)  
+**Neural networks for link prediction in realistic biomedical graphs: a multi-dimensional evaluation of graph embedding-based approaches**  
+BMC Bioinformatics  
+[Paper Link](https://www.semanticscholar.org/paper/7b64c1527ed63b57c0c9fde327bba1529775c5d3)  
+Influential Citation Count (1), SS-ID (7b64c1527ed63b57c0c9fde327bba1529775c5d3)  
+
+**ABSTRACT**  
+BackgroundLink prediction in biomedical graphs has several important applications including predicting Drug-Target Interactions (DTI), Protein-Protein Interaction (PPI) prediction and Literature-Based Discovery (LBD). It can be done using a classifier to output the probability of link formation between nodes. Recently several works have used neural networks to create node representations which allow rich inputs to neural classifiers. Preliminary works were done on this and report promising results. However they did not use realistic settings like time-slicing, evaluate performances with comprehensive metrics or explain when or why neural network methods outperform. We investigated how inputs from four node representation algorithms affect performance of a neural link predictor on random- and time-sliced biomedical graphs of real-world sizes (∼ 6 million edges) containing information relevant to DTI, PPI and LBD. We compared the performance of the neural link predictor to those of established baselines and report performance across five metrics.ResultsIn random- and time-sliced experiments when the neural network methods were able to learn good node representations and there was a negligible amount of disconnected nodes, those approaches outperformed the baselines. In the smallest graph (∼ 15,000 edges) and in larger graphs with approximately 14% disconnected nodes, baselines such as Common Neighbours proved a justifiable choice for link prediction. At low recall levels (∼ 0.3) the approaches were mostly equal, but at higher recall levels across all nodes and average performance at individual nodes, neural network approaches were superior. Analysis showed that neural network methods performed well on links between nodes with no previous common neighbours; potentially the most interesting links. Additionally, while neural network methods benefit from large amounts of data, they require considerable amounts of computational resources to utilise them.ConclusionsOur results indicate that when there is enough data for the neural network methods to use and there are a negligible amount of disconnected nodes, those approaches outperform the baselines. At low recall levels the approaches are mostly equal but at higher recall levels and average performance at individual nodes, neural network approaches are superior. Performance at nodes without common neighbours which indicate more unexpected and perhaps more useful links account for this.
+{{< /ci-details>}}| evaluation of link prediction models based on graph embeddings |
+
 ### Node clustering
+
+{{< box-with-title title="Definition 9 (Node Clustering or Community Detection or Graph Partitioning" >}}
+**Node Clustering or Community Detection or Graph Partitionin** is the task of the partitioning of a graph $G(V, E)$ into several subgraphs $G_i(V_i, E_i)$ with a dense connection within groups and sparse connection between clusters.
+{{< /box-with-title >}}
+
+| Paper | Approach |
+|---|---|
+|{{< ci-details summary="Zhou, Cheng & Yu (2009)">}}
+Yang Zhou, Hong Cheng, J. Yu. (2009)  
+**Graph Clustering Based on Structural/Attribute Similarities**  
+Proc. VLDB Endow.  
+[Paper Link](https://www.semanticscholar.org/paper/3f397e7dab0e253e0859d18bb5711b5471c657fe)  
+Influential Citation Count (58), SS-ID (3f397e7dab0e253e0859d18bb5711b5471c657fe)  
+
+**ABSTRACT**  
+The goal of graph clustering is to partition vertices in a large graph into different clusters based on various criteria such as vertex connectivity or neighborhood similarity. Graph clustering techniques are very useful for detecting densely connected groups in a large graph. Many existing graph clustering methods mainly focus on the topological structure for clustering, but largely ignore the vertex properties which are often heterogenous. In this paper, we propose a novel graph clustering algorithm, SA-Cluster, based on both structural and attribute similarities through a unified distance measure. Our method partitions a large graph associated with attributes into k clusters so that each cluster contains a densely connected subgraph with homogeneous attribute values. An effective method is proposed to automatically learn the degree of contributions of structural similarity and attribute similarity. Theoretical analysis is provided to show that SA-Cluster is converging. Extensive experimental results demonstrate the effectiveness of SA-Cluster through comparison with the state-of-the-art graph clustering and summarization methods.
+{{< /ci-details >}}| use attributes for node clustering |
+|{{< ci-details summary="Newman & Girvan (2003)">}}
+M. Newman, M. Girvan. (2003)  
+**Finding and evaluating community structure in networks.**  
+Physical review. E, Statistical, nonlinear, and soft matter physics  
+[Paper Link](https://www.semanticscholar.org/paper/b222526a2990d9073d734e2a1830210ca14cd8bd)  
+Influential Citation Count (1165), SS-ID (b222526a2990d9073d734e2a1830210ca14cd8bd)  
+
+**ABSTRACT**  
+We propose and study a set of algorithms for discovering community structure in networks-natural divisions of network nodes into densely connected subgroups. Our algorithms all share two definitive features: first, they involve iterative removal of edges from the network to split it into communities, the edges removed being identified using any one of a number of possible "betweenness" measures, and second, these measures are, crucially, recalculated after each removal. We also propose a measure for the strength of the community structure found by our algorithms, which gives us an objective metric for choosing the number of communities into which a network should be divided. We demonstrate that our algorithms are highly effective at discovering community structure in both computer-generated and real-world network data, and show how they can be used to shed light on the sometimes dauntingly complex structure of networked systems.
+{{< /ci-details >}}| community detection |
+|{{< ci-details summary="Fortunato (2009)">}}
+S. Fortunato. (2009)  
+**Community detection in graphs**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/9be428c9383d47b86570b1b9fc20faf006346c5d)  
+Influential Citation Count (717), SS-ID (9be428c9383d47b86570b1b9fc20faf006346c5d)  
+
+**ABSTRACT**  
+The modern science of networks has brought significant advances to our understanding of complex systems. One of the most relevant features of graphs representing real systems is community structure, or clustering, i. e. the organization of vertices in clusters, with many edges joining vertices of the same cluster and comparatively few edges joining vertices of different clusters. Such clusters, or communities, can be considered as fairly independent compartments of a graph, playing a similar role like, e. g., the tissues or the organs in the human body. Detecting communities is of great importance in sociology, biology and computer science, disciplines where systems are often represented as graphs. This problem is very hard and not yet satisfactorily solved, despite the huge effort of a large interdisciplinary community of scientists working on it over the past few years. We will attempt a thorough exposition of the topic, from the definition of the main elements of the problem, to the presentation of most methods developed, with a special focus on techniques designed by statistical physicists, from the discussion of crucial issues like the significance of clustering and how methods should be tested and compared against each other, to the description of applications to real networks.
+{{< /ci-details >}}| community detection |
+|{{< ci-details summary="Xu et al. (2007)">}}
+Xiaowei Xu, Nurcan Yuruk, Zhidan Feng, T. Schweiger. (2007)  
+**SCAN: a structural clustering algorithm for networks**  
+KDD '07  
+[Paper Link](https://www.semanticscholar.org/paper/25dfac6955913c163a61bc6e2ae8c5c7f3ca8f87)  
+Influential Citation Count (107), SS-ID (25dfac6955913c163a61bc6e2ae8c5c7f3ca8f87)  
+
+**ABSTRACT**  
+Network clustering (or graph partitioning) is an important task for the discovery of underlying structures in networks. Many algorithms find clusters by maximizing the number of intra-cluster edges. While such algorithms find useful and interesting structures, they tend to fail to identify and isolate two kinds of vertices that play special roles - vertices that bridge clusters (hubs) and vertices that are marginally connected to clusters (outliers). Identifying hubs is useful for applications such as viral marketing and epidemiology since hubs are responsible for spreading ideas or disease. In contrast, outliers have little or no influence, and may be isolated as noise in the data. In this paper, we proposed a novel algorithm called SCAN (Structural Clustering Algorithm for Networks), which detects clusters, hubs and outliers in networks. It clusters vertices based on a structural similarity measure. The algorithm is fast and efficient, visiting each vertex only once. An empirical evaluation of the method using both synthetic and real datasets demonstrates superior performance over other methods such as the modularity-based algorithms.
+{{< /ci-details >}}| structural equivalence |
+|{{< ci-details summary="Shi & Malik (1997)">}}
+Jianbo Shi, J. Malik. (1997)  
+**Normalized cuts and image segmentation**  
+Proceedings of IEEE Computer Society Conference on Computer Vision and Pattern Recognition  
+[Paper Link](https://www.semanticscholar.org/paper/b94c7ff9532ab26c3aedbee3988ec4c7a237c173)  
+Influential Citation Count (1462), SS-ID (b94c7ff9532ab26c3aedbee3988ec4c7a237c173)  
+
+**ABSTRACT**  
+We propose a novel approach for solving the perceptual grouping problem in vision. Rather than focusing on local features and their consistencies in the image data, our approach aims at extracting the global impression of an image. We treat image segmentation as a graph partitioning problem and propose a novel global criterion, the normalized cut, for segmenting the graph. The normalized cut criterion measures both the total dissimilarity between the different groups as well as the total similarity within the groups. We show that an efficient computational technique based on a generalized eigenvalue problem can be used to optimize this criterion. We have applied this approach to segmenting static images and found results very encouraging.
+{{< /ci-details >}}| connumity as dense subgraph with a high number of edges inside subgraph |
+|{{< ci-details summary="Ding et al. (2001)">}}
+C. Ding, Xiaofeng He, H. Zha, Ming Gu, H. Simon. (2001)  
+**A min-max cut algorithm for graph partitioning and data clustering**  
+Proceedings 2001 IEEE International Conference on Data Mining  
+[Paper Link](https://www.semanticscholar.org/paper/6ebb015ac7f7872ecadd75b837e859621abd0751)  
+Influential Citation Count (43), SS-ID (6ebb015ac7f7872ecadd75b837e859621abd0751)  
+
+**ABSTRACT**  
+An important application of graph partitioning is data clustering using a graph model - the pairwise similarities between all data objects form a weighted graph adjacency matrix that contains all necessary information for clustering. In this paper, we propose a new algorithm for graph partitioning with an objective function that follows the min-max clustering principle. The relaxed version of the optimization of the min-max cut objective function leads to the Fiedler vector in spectral graph partitioning. Theoretical analyses of min-max cut indicate that it leads to balanced partitions, and lower bounds are derived. The min-max cut algorithm is tested on newsgroup data sets and is found to out-perform other current popular partitioning/clustering methods. The linkage-based refinements to the algorithm further improve the quality of clustering substantially. We also demonstrate that a linearized search order based on linkage differential is better than that based on the Fiedler vector, providing another effective partitioning method.
+{{< /ci-details >}}| connumity as dense subgraph with a high number of edges inside subgraph |
+|{{< ci-details summary="White & Smyth (2005)">}}
+Scott White, Padhraic Smyth. (2005)  
+**A Spectral Clustering Approach To Finding Communities in Graph**  
+SDM  
+[Paper Link](https://www.semanticscholar.org/paper/9a92300b0ecc33f8e55a8ac945a51aaade549013)  
+Influential Citation Count (22), SS-ID (9a92300b0ecc33f8e55a8ac945a51aaade549013)  
+
+**ABSTRACT**  
+Clustering nodes in a graph is a useful general technique in data mining of large network data sets. In this context, Newman and Girvan [9] recently proposed an objective function for graph clustering called the Q function which allows automatic selection of the number of clusters. Empirically, higher values of the Q function have been shown to correlate well with good graph clusterings. In this paper we show how optimizing the Q function can be reformulated as a spectral relaxation problem and propose two new spectral clustering algorithms that seek to maximize Q. Experimental results indicate that the new algorithms are efficient and effective at finding both good clusterings and the appropriate number of clusters across a variety of real-world graph data sets. In addition, the spectral algorithms are much faster for large sparse graphs, scaling roughly linearly with the number of nodes n in the graph, compared to O(n) for previous clustering algorithms using the Q function.
+{{< /ci-details >}}| node embedding with K-means or DBScan |
+|{{< ci-details summary="Tian et al. (2014)">}}
+Fei Tian, Bin Gao, Qing Cui, Enhong Chen, Tie-Yan Liu. (2014)  
+**Learning Deep Representations for Graph Clustering**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/df787a974fff59f557ed1ec620fc345568aec491)  
+Influential Citation Count (39), SS-ID (df787a974fff59f557ed1ec620fc345568aec491)  
+
+**ABSTRACT**  
+Recently deep learning has been successfully adopted in many applications such as speech recognition and image classification. In this work, we explore the possibility of employing deep learning in graph clustering. We propose a simple method, which first learns a nonlinear embedding of the original graph by stacked autoencoder, and then runs k-means algorithm on the embedding to obtain clustering result. We show that this simple method has solid theoretical foundation, due to the similarity between autoencoder and spectral clustering in terms of what they actually optimize. Then, we demonstrate that the proposed method is more efficient and flexible than spectral clustering. First, the computational complexity of autoencoder is much lower than spectral clustering: the former can be linear to the number of nodes in a sparse graph while the latter is super quadratic due to eigenvalue decomposition. Second, when additional sparsity constraint is imposed, we can simply employ the sparse autoencoder developed in the literature of deep learning; however, it is nonstraightforward to implement a sparse spectral method. The experimental results on various graph datasets show that the proposed method significantly outperforms conventional spectral clustering, which clearly indicates the effectiveness of deep learning in graph clustering.
+{{< /ci-details >}}| node embedding with K-means or DBScan |
+|{{< ci-details summary="Cao, Lu & Wu (2015)">}}
+Shaosheng Cao, Wei Lu, Qiongkai Xu. (2015)  
+**GraRep: Learning Graph Representations with Global Structural Information**  
+CIKM  
+[Paper Link](https://www.semanticscholar.org/paper/c2fd72cb2a77941e655b5d949d0d59b01e173c3b)  
+Influential Citation Count (131), SS-ID (c2fd72cb2a77941e655b5d949d0d59b01e173c3b)  
+
+**ABSTRACT**  
+In this paper, we present {GraRep}, a novel model for learning vertex representations of weighted graphs. This model learns low dimensional vectors to represent vertices appearing in a graph and, unlike existing work, integrates global structural information of the graph into the learning process. We also formally analyze the connections between our work and several previous research efforts, including the DeepWalk model of Perozzi et al. as well as the skip-gram model with negative sampling of Mikolov et al. We conduct experiments on a language network, a social network as well as a citation network and show that our learned global representations can be effectively used as features in tasks such as clustering, classification and visualization. Empirical results demonstrate that our representation significantly outperforms other state-of-the-art methods in such tasks.
+{{< /ci-details >}}| node embedding with K-means or DBScan |
+|{{< ci-details summary="Chen et al. (2015)">}}
+Marcus Chen, I. Tsang, Mingkui Tan, T. Cham. (2015)  
+**A Unified Feature Selection Framework for Graph Embedding on High Dimensional Data**  
+IEEE Transactions on Knowledge and Data Engineering  
+[Paper Link](https://www.semanticscholar.org/paper/dab795b562c7cc270c9099b925d685bea0abe82a)  
+Influential Citation Count (3), SS-ID (dab795b562c7cc270c9099b925d685bea0abe82a)  
+
+**ABSTRACT**  
+Although graph embedding has been a powerful tool for modeling data intrinsic structures, simply employing all features for data structure discovery may result in noise amplification. This is particularly severe for high dimensional data with small samples. To meet this challenge, this paper proposes a novel efficient framework to perform feature selection for graph embedding, in which a category of graph embedding methods is cast as a least squares regression problem. In this framework, a binary feature selector is introduced to naturally handle the feature cardinality in the least squares formulation. The resultant integral programming problem is then relaxed into a convex Quadratically Constrained Quadratic Program (QCQP) learning problem, which can be efficiently solved via a sequence of accelerated proximal gradient (APG) methods. Since each APG optimization is w.r.t. only a subset of features, the proposed method is fast and memory efficient. The proposed framework is applied to several graph embedding learning problems, including supervised, unsupervised, and semi-supervised graph embedding. Experimental results on several high dimensional data demonstrated that the proposed method outperformed the considered state-of-the-art methods.
+{{< /ci-details >}}| node embedding with K-means or DBScan |
+|{{< ci-details summary="Cao, Lu & Xu (2016)">}}
+Shaosheng Cao, Wei Lu, Qiongkai Xu. (2016)  
+**Deep Neural Networks for Learning Graph Representations**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/1a37f07606d60df365d74752857e8ce909f700b3)  
+Influential Citation Count (59), SS-ID (1a37f07606d60df365d74752857e8ce909f700b3)  
+
+**ABSTRACT**  
+In this paper, we propose a novel model for learning graph representations, which generates a low-dimensional vector representation for each vertex by capturing the graph structural information. Different from other previous research efforts, we adopt a random surfing model to capture graph structural information directly, instead of using the sampling-based method for generating linear sequences proposed by Perozzi et al. (2014). The advantages of our approach will be illustrated from both theorical and empirical perspectives. We also give a new perspective for the matrix factorization method proposed by Levy and Goldberg (2014), in which the pointwise mutual information (PMI) matrix is considered as an analytical solution to the objective function of the skip-gram model with negative sampling proposed by Mikolov et al. (2013). Unlike their approach which involves the use of the SVD for finding the low-dimensitonal projections from the PMI matrix, however, the stacked denoising autoencoder is introduced in our model to extract complex features and model non-linearities. To demonstrate the effectiveness of our model, we conduct experiments on clustering and visualization tasks, employing the learned vertex representations as features. Empirical results on datasets of varying sizes show that our model outperforms other stat-of-the-art models in such tasks.
+{{< /ci-details >}}| node embedding with K-means or DBScan |
+|{{< ci-details summary="Nie, Zhu & Li (2017)">}}
+F. Nie, Wei Zhu, Xuelong Li. (2017)  
+**Unsupervised Large Graph Embedding**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/9ad503ff70a2b3a1ddebc96683ed73c7fcd0840b)  
+Influential Citation Count (5), SS-ID (9ad503ff70a2b3a1ddebc96683ed73c7fcd0840b)  
+
+**ABSTRACT**  
+There are many successful spectral based unsupervised dimensionality reduction methods, including Laplacian Eigenmap (LE), Locality Preserving Projection (LPP), Spectral Regression (SR), etc. LPP and SR are two different linear spectral based methods, however, we discover that LPP and SR are equivalent, if the symmetric similarity matrix is doubly stochastic, Positive Semi-Definite (PSD) and with rank p, where p is the reduced dimension. The discovery promotes us to seek low-rank and doubly stochastic similarity matrix, we then propose an unsupervised linear dimensionality reduction method, called Unsupervised Large Graph Embedding (ULGE). ULGE starts with similar idea as LPP, it adopts an efficient approach to construct similarity matrix and then performs spectral analysis efficiently, the computational complexity can reduce to O(ndm), which is a significant improvement compared to conventional spectral based methods which need O(nd) at least, where n, d and m are the number of samples, dimensions and anchors, respectively. Extensive experiments on several public available data sets demonstrate the efficiency and effectiveness of the proposed method.
+{{< /ci-details >}}| node embedding with K-means or DBScan |
+|{{< ci-details summary="Tang, Nie & Jain (2016)">}}
+**Capped Lp-Norm Graph Embedding for Photo Clustering**  
+ACM Multimedia  
+[Paper Link](https://www.semanticscholar.org/paper/1cb5547c3f5ff42746bf9c4e083795aed3c8c609)  
+Influential Citation Count (0), SS-ID (1cb5547c3f5ff42746bf9c4e083795aed3c8c609)  
+
+**ABSTRACT**  
+Photos are a predominant source of information on a global scale. Cluster analysis of photos can be applied to situation recognition and understanding cultural dynamics. Graph-based learning provides a current approach for modeling data in clustering problems. However, the performance of this framework depends heavily on initial graph construction by input data. Data outliers degrade graph quality, leading to poor clustering results. We designed a new capped lp-norm graph-based model to reduce the impact of outliers. This is accomplished by allowing the data graph to self adjust as part of the graph embedding. Furthermore, we derive an iterative algorithm to solve the objective function optimization problem. Experiments on four real-world benchmark data sets and Yahoo Flickr Creative Commons data set show the effectiveness of this new graph-based capped lp-norm clustering method.
+{{< /ci-details >}}| joint optimization of clustering and node embedding |
+|{{< ci-details summary="Wei et al. (2017)">}}
+Xiaokai Wei, Linchuan Xu, Bokai Cao, Philip S. Yu. (2017)  
+**Cross View Link Prediction by Learning Noise-resilient Representation Consensus**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/c3d62bcb84fc3a2aa9b8f4691677d7c02738f1bc)  
+Influential Citation Count (3), SS-ID (c3d62bcb84fc3a2aa9b8f4691677d7c02738f1bc)  
+
+**ABSTRACT**  
+Link Prediction has been an important task for social and information networks. Existing approaches usually assume the completeness of network structure. However, in many real-world networks, the links and node attributes can usually be partially observable. In this paper, we study the problem of Cross View Link Prediction (CVLP) on partially observable networks, where the focus is to recommend nodes with only links to nodes with only attributes (or vice versa). We aim to bridge the information gap by learning a robust consensus for link-based and attribute-based representations so that nodes become comparable in the latent space. Also, the link-based and attribute-based representations can lend strength to each other via this consensus learning. Moreover, attribute selection is performed jointly with the representation learning to alleviate the effect of noisy high-dimensional attributes. We present two instantiations of this framework with different loss functions and develop an alternating optimization framework to solve the problem. Experimental results on four real-world datasets show the proposed algorithm outperforms the baseline methods significantly for cross-view link prediction.
+{{< /ci-details >}}| joint optimization of clustering and node embedding |
+|{{< ci-details summary="Wang et al. (2017)">}}
+Xiao Wang, Peng Cui, Jing Wang, J. Pei, Wenwu Zhu, Shiqiang Yang. (2017)  
+**Community Preserving Network Embedding**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/d3e0d596efd9d19b93d357565a68dfa925dce2bb)  
+Influential Citation Count (52), SS-ID (d3e0d596efd9d19b93d357565a68dfa925dce2bb)  
+
+**ABSTRACT**  
+Network embedding, aiming to learn the low-dimensional representations of nodes in networks, is of paramount importance in many real applications. One basic requirement of network embedding is to preserve the structure and inherent properties of the networks. While previous network embedding methods primarily preserve the microscopic structure, such as the first- and second-order proximities of nodes, the mesoscopic community structure, which is one of the most prominent feature of networks, is largely ignored. In this paper, we propose a novel Modularized Nonnegative Matrix Factorization (M-NMF) model to incorporate the community structure into network embedding. We exploit the consensus relationship between the representations of nodes and community structure, and then jointly optimize NMF based representation learning model and modularity based community detection model in a unified framework, which enables the learned representations of nodes to preserve both of the microscopic and community structures. We also provide efficient updating rules to infer the parameters of our model, together with the correctness and convergence guarantees. Extensive experimental results on a variety of real-world networks show the superior performance of the proposed method over the state-of-the-arts.
+{{< /ci-details >}}| efficient iterative community aware network embedding |
+|{{< ci-details summary="Zheng et al. (2016)">}}
+V. Zheng, Sandro Cavallari, Hongyun Cai, K. Chang, E. Cambria. (2016)  
+**From Node Embedding To Community Embedding**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/88dabd8d295ba9f727baccd73c214e094c6d134f)  
+Influential Citation Count (0), SS-ID (88dabd8d295ba9f727baccd73c214e094c6d134f)  
+
+**ABSTRACT**  
+Most of the existing graph embedding methods focus on nodes, which aim to output a vector representation for each node in the graph such that two nodes being "close" on the graph are close too in the low-dimensional space. Despite the success of embedding individual nodes for graph analytics, we notice that an important concept of embedding communities (i.e., groups of nodes) is missing. Embedding communities is useful, not only for supporting various community-level applications, but also to help preserve community structure in graph embedding. In fact, we see community embedding as providing a higher-order proximity to define the node closeness, whereas most of the popular graph embedding methods focus on first-order and/or second-order proximities. To learn the community embedding, we hinge upon the insight that community embedding and node embedding reinforce with each other. As a result, we propose ComEmbed, the first community embedding method, which jointly optimizes the community embedding and node embedding together. We evaluate ComEmbed on real-world data sets. We show it outperforms the state-of-the-art baselines in both tasks of node classification and community prediction.
+{{< /ci-details >}}| efficient iterative community aware network embedding |
+|{{< ci-details summary="Cavallari et al. (2017)">}}
+Sandro Cavallari, V. Zheng, Hongyun Cai, K. Chang, E. Cambria. (2017)  
+**Learning Community Embedding with Community Detection and Node Embedding on Graphs**  
+CIKM  
+[Paper Link](https://www.semanticscholar.org/paper/c8cee328b1774c2d38bea10f9fe9d081d8074307)  
+Influential Citation Count (24), SS-ID (c8cee328b1774c2d38bea10f9fe9d081d8074307)  
+
+**ABSTRACT**  
+In this paper, we study an important yet largely under-explored setting of graph embedding, i.e., embedding communities instead of each individual nodes. We find that community embedding is not only useful for community-level applications such as graph visualization, but also beneficial to both community detection and node classification. To learn such embedding, our insight hinges upon a closed loop among community embedding, community detection and node embedding. On the one hand, node embedding can help improve community detection, which outputs good communities for fitting better community embedding. On the other hand, community embedding can be used to optimize the node embedding by introducing a community-aware high-order proximity. Guided by this insight, we propose a novel community embedding framework that jointly solves the three tasks together. We evaluate such a framework on multiple real-world datasets, and show that it improves graph visualization and outperforms state-of-the-art baselines in various application tasks, e.g., community detection and node classification.
+{{< /ci-details >}}| efficient iterative community aware network embedding |
+|{{< ci-details summary="Teng & Liu (2020)">}}
+Xiangyi Teng, Jing Liu. (2020)  
+**Atrributed Graph Embedding Based on Multiobjective Evolutionary Algorithm for Overlapping Community Detection**  
+2020 IEEE Congress on Evolutionary Computation (CEC)  
+[Paper Link](https://www.semanticscholar.org/paper/b92a31918b95ae220d1b23f0ecc4f0f8cf00599f)  
+Influential Citation Count (0), SS-ID (b92a31918b95ae220d1b23f0ecc4f0f8cf00599f)  
+
+**ABSTRACT**  
+Graph embedding methods aim to represent nodes in the network into a low-dimensional and continuous vector space while preserving the topological structure and varieties of relational information maximally. Nowadays the structural connections of networks and the attribute information about each node are more easily available than before. As a result, many community detection algorithms for attributed networks have been proposed. However, the majority of these methods cannot deal with the overlapping community detection problem, which is one of the most significant issues in the real-world complex network study. In addition, it is quite challenging to make full use of both structural and attribute information instead of only focusing on one part. To this end, in this paper we innovatively combine the graph embedding with multiobjective evolutionary algorithms (MOEAs) for overlapping community detection problems in attributed networks. As far as I am concerned, MOEA is first used to integrate with graph embedding methods for overlapping community detection. We term our method as MOEA-GEOV, which can automatically determine the number of communities without any prior knowledge and consider topological structure and vertex properties synchronously. In MOEA-GEOV, two objective functions concerning community structure and attribute similarity are carefully designed. Moreover, a heuristic initialization method is proposed to get a relatively good initial population. Then a novel encoding and decoding strategy is designed to efficiently represent the overlapping communities and corresponding embedded representation. In the experiments, the performance of MOEA-GEOV is validated on both single and multiple attribute real-world networks. The experimental results of community detection tasks demonstrate our method can effectively obtain overlapping community structures with practical significance.
+{{< /ci-details >}}| multi-objective evolutionary algorithm for community detection |
+|{{< ci-details summary="Zhang, Shang & Jiao (2020)">}}
+**Complex network graph embedding method based on shortest path and MOEA/D for community detection**  
+Appl. Soft Comput.  
+[Paper Link](https://www.semanticscholar.org/paper/322a2670adda4c595a6cae54801981c4fc9e005f)  
+Influential Citation Count (0), SS-ID (322a2670adda4c595a6cae54801981c4fc9e005f)  
+
+**ABSTRACT**  
+As one of the main applications of graph embedding, community detection has always been a hot issue in the field of complex network data mining. This paper presents a complex network graph embedding method based on the shortest path matrix and decomposition multi-objective evolutionary algorithm (SP-MOEA/D) for community detection, which can better reflect the network structure at the level of network community structure. Firstly, by calculating the shortest path matrix between nodes in the network, the node relationship matrix is obtained by adding the node similarity. Next, aiming at the problem of community detection in disconnected networks, a decomposition-based multi-objective optimization method is proposed to assign distances to unrelated nodes. Then, the network similarity matrix is calculated based on the relationship matrix of network nodes, and the low-dimensional vector representation of nodes is obtained by random surfing strategy and multi-dimensional scaling method. Finally, the community structure of the network can be detected based on the obtained node representation structure. Starting from the essence of network structure and the tightness between nodes, this method can reflect the relationship characteristics of network nodes more effectively, and then obtain the vector representation of nodes which can more accurately reflect the information of community structure in networks. The test results on 11 networks show that the node vector representation results obtained by this method can better reflect the community structure information in complex networks.
+{{< /ci-details >}}| multi-objective matrix factorization over several shortest path graphs and utilizes MOEA |
+|{{< ci-details summary="Salim, Shiju & Sumitra (2020)">}}
+Asif Salim, S. Shiju, S. Sumitra. (2020)  
+**Design of multi-view graph embedding using multiple kernel learning**  
+Eng. Appl. Artif. Intell.  
+[Paper Link](https://www.semanticscholar.org/paper/8ce7c67095d76da23897cc379c063986e9843a7c)  
+Influential Citation Count (0), SS-ID (8ce7c67095d76da23897cc379c063986e9843a7c)  
+
+**ABSTRACT**  
+The graph embedding is the process of representing the graph in a vector space using properties of the graphs and this technique has now being widely used for analyzing the graph data using machine learning algorithms. The existing graph embeddings rely mostly on a single property of graphs for data representation which is found to be inappropriate to capture all the characteristics of the data. Hence we designed graph embedding using multi-view approach, where each view is an embedding of the graph using a graph property. The input space of multi-view learning is then taken as the direct sum of the subspaces in which the graph embedding lie. We did analysis on real world data by incorporating the proposed model on support vector machines (SVM). The reproducing kernel used in SVM is represented as the linear combination of the kernels defined on the individual embeddings. The optimization technique used in simple multiple kernel learning (simpleMKL) is used to find the parameters of the optimal kernel. To analyze the individual representation capability of the embeddings, an R-convolution graph kernel is designed over each of the views. In our experimental analysis, the multi-view graph embedding showed a superior performance in comparison with that of the state-of-the-art graph embeddings as well as graph kernels.
+{{< /ci-details >}}| train the embeddings on different views for preserving many properties of a given graph |
+|{{< ci-details summary="Quiring & Vassilevski (2020)">}}
+**Multilevel graph embedding**  
+Numer. Linear Algebra Appl.  
+[Paper Link](https://www.semanticscholar.org/paper/412b0cf8d4a39634cb02235a1333ddf3bf792732)  
+Influential Citation Count (0), SS-ID (412b0cf8d4a39634cb02235a1333ddf3bf792732)  
+
+**ABSTRACT**  
+The goal of the present paper is the design of embeddings of a general sparse graph into a set of points in ℝd for appropriate d ≥ 2. The embeddings that we are looking at aim to keep vertices that are grouped in communities together and keep the rest apart. To achieve this property, we utilize coarsening that respects possible community structures of the given graph. We employ a hierarchical multilevel coarsening approach that identifies communities (strongly connected groups of vertices) at every level. The multilevel strategy allows any given (presumably expensive) graph embedding algorithm to be made into a more scalable (and faster) algorithm. We demonstrate the presented approach on a number of given embedding algorithms and large‐scale graphs and achieve speed‐up over the methods in a recent paper.
+{{< /ci-details >}}| employ hierarchical coarsening of the graph |
 
 ### Subgraph (and graph) embedding
 
+{{< box-with-title title="Definition 10 (Line (Dual) Graph)" >}}
+For a graph $G=(V,E)$ defined as a set of vertices $V$ and a set of edges $E \subseteq V \times V$ without loops and multi-edges we denote by $G^{\ast} = (V^{\ast}, E^{\ast})$ a **Dual (Line) Graph** the nodes of which are the edges of G and edges are nodes, in the sense that two adjacent nodes are connected by an edge if corresponding edges have a common node incident to them.
+{{< /box-with-title >}}
+
+| Paper | Approach |
+|-------|----------|
+|{{< ci-details summary="Duvenaud et al. (2015)" >}}
+D. Duvenaud, D. Maclaurin, J. Aguilera-Iparraguirre, R. Gómez-Bombarelli, Timothy D. Hirzel, Alán Aspuru-Guzik, Ryan P. Adams. (2015)  
+**Convolutional Networks on Graphs for Learning Molecular Fingerprints**  
+NIPS  
+[Paper Link](https://www.semanticscholar.org/paper/5d1bfeed240709725c78bc72ea40e55410b373dc)  
+Influential Citation Count (147), SS-ID (5d1bfeed240709725c78bc72ea40e55410b373dc)  
+
+**ABSTRACT**  
+We introduce a convolutional neural network that operates directly on graphs. These networks allow end-to-end learning of prediction pipelines whose inputs are graphs of arbitrary size and shape. The architecture we present generalizes standard molecular feature extraction methods based on circular fingerprints. We show that these data-driven features are more interpretable, and have better predictive performance on a variety of tasks.
+{{</ ci-details >}}| sum based approach over network embedding |
+|{{< ci-details summary="Dai, Dai & Song (2016)" >}}
+H. Dai, Bo Dai, Le Song. (2016)  
+**Discriminative Embeddings of Latent Variable Models for Structured Data**  
+ICML  
+[Paper Link](https://www.semanticscholar.org/paper/322cf9bcde458a45eaeca989a1eec92f7c6db984)  
+Influential Citation Count (51), SS-ID (322cf9bcde458a45eaeca989a1eec92f7c6db984)  
+
+**ABSTRACT**  
+Kernel classifiers and regressors designed for structured data, such as sequences, trees and graphs, have significantly advanced a number of interdisciplinary areas such as computational biology and drug design. Typically, kernels are designed beforehand for a data type which either exploit statistics of the structures or make use of probabilistic generative models, and then a discriminative classifier is learned based on the kernels via convex optimization. However, such an elegant two-stage approach also limited kernel methods from scaling up to millions of data points, and exploiting discriminative information to learn feature representations.    We propose, structure2vec, an effective and scalable approach for structured data representation based on the idea of embedding latent variable models into feature spaces, and learning such feature spaces using discriminative information. Interestingly, structure2vec extracts features by performing a sequence of function mappings in a way similar to graphical model inference procedures, such as mean field and belief propagation. In applications involving millions of data points, we showed that structure2vec runs 2 times faster, produces models which are 10, 000 times smaller, while at the same time achieving the state-of-the-art predictive performance.
+{{</ ci-details >}}| neural network aggregation for constructing network embedding |
+|{{< ci-details summary="Bronstein et al. (2017)" >}}
+M. Bronstein, Joan Bruna, Yann LeCun, Arthur D. Szlam, P. Vandergheynst. (2016)  
+**Geometric Deep Learning: Going beyond Euclidean data**  
+IEEE Signal Processing Magazine  
+[Paper Link](https://www.semanticscholar.org/paper/0e779fd59353a7f1f5b559b9d65fa4bfe367890c)  
+Influential Citation Count (113), SS-ID (0e779fd59353a7f1f5b559b9d65fa4bfe367890c)  
+
+**ABSTRACT**  
+Many scientific fields study data with an underlying structure that is non-Euclidean. Some examples include social networks in computational social sciences, sensor networks in communications, functional networks in brain imaging, regulatory networks in genetics, and meshed surfaces in computer graphics. In many applications, such geometric data are large and complex (in the case of social networks, on the scale of billions) and are natural targets for machine-learning techniques. In particular, we would like to use deep neural networks, which have recently proven to be powerful tools for a broad range of problems from computer vision, natural-language processing, and audio analysis. However, these tools have been most successful on data with an underlying Euclidean or grid-like structure and in cases where the invariances of these structures are built into networks used to model them.
+{{</ ci-details >}}| approximations of spectral graph decompositions |
+|{{< ci-details summary="Niepert, Ahmed & Kutzkov (2016)" >}}
+Mathias Niepert, Mohamed Ahmed, Konstantin Kutzkov. (2016)  
+**Learning Convolutional Neural Networks for Graphs**  
+ICML  
+[Paper Link](https://www.semanticscholar.org/paper/7c6de5a9e02a779e24504619050c6118f4eac181)  
+Influential Citation Count (136), SS-ID (7c6de5a9e02a779e24504619050c6118f4eac181)  
+
+**ABSTRACT**  
+Numerous important problems can be framed as learning from graph data. We propose a framework for learning convolutional neural networks for arbitrary graphs. These graphs may be undirected, directed, and with both discrete and continuous node and edge attributes. Analogous to image-based convolutional networks that operate on locally connected regions of the input, we present a general approach to extracting locally connected regions from graphs. Using established benchmark data sets, we demonstrate that the learned feature representations are competitive with state of the art graph kernels and that their computation is highly efficient.
+{{</ ci-details >}}| ordered-based approach |
+|{{< ci-details summary="Kearnes et al. (2016)" >}}
+S. Kearnes, Kevin McCloskey, M. Berndl, V. Pande, Patrick F. Riley. (2016)  
+**Molecular graph convolutions: moving beyond fingerprints**  
+Journal of Computer-Aided Molecular Design  
+[Paper Link](https://www.semanticscholar.org/paper/561c3fa53d36405186da9cab02bd68635c3738aa)  
+Influential Citation Count (41), SS-ID (561c3fa53d36405186da9cab02bd68635c3738aa)  
+
+**ABSTRACT**  
+Molecular “fingerprints” encoding structural information are the workhorse of cheminformatics and machine learning in drug discovery applications. However, fingerprint representations necessarily emphasize particular aspects of the molecular structure while ignoring others, rather than allowing the model to make data-driven decisions. We describe molecular graph convolutions, a machine learning architecture for learning from undirected graphs, specifically small molecules. Graph convolutions use a simple encoding of the molecular graph—atoms, bonds, distances, etc.—which allows the model to take greater advantage of information in the graph structure. Although graph convolutions do not outperform all fingerprint-based methods, they (along with other graph-based methods) represent a new paradigm in ligand-based virtual screening with exciting opportunities for future improvement.
+{{</ ci-details >}}| fuzzy-based approach |
+|{{< ci-details summary="Sun, Hoffmann & Tang (2019)" >}}
+Fan-Yun Sun, Jordan Hoffmann, Jian Tang. (2019)  
+**InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/2fb59ebe271d6b007bb0429c1701fd1004782d1b)  
+Influential Citation Count (50), SS-ID (2fb59ebe271d6b007bb0429c1701fd1004782d1b)  
+
+**ABSTRACT**  
+This paper studies learning the representations of whole graphs in both unsupervised and semi-supervised scenarios. Graph-level representations are critical in a variety of real-world applications such as predicting the properties of molecules and community analysis in social networks. Traditional graph kernel based methods are simple, yet effective for obtaining fixed-length representations for graphs but they suffer from poor generalization due to hand-crafted designs. There are also some recent methods based on language models (e.g. graph2vec) but they tend to only consider certain substructures (e.g. subtrees) as graph representatives. Inspired by recent progress of unsupervised representation learning, in this paper we proposed a novel method called InfoGraph for learning graph-level representations. We maximize the mutual information between the graph-level representation and the representations of substructures of different scales (e.g., nodes, edges, triangles). By doing so, the graph-level representations encode aspects of the data that are shared across different scales of substructures. Furthermore, we further propose InfoGraph*, an extension of InfoGraph for semi-supervised scenarios. InfoGraph* maximizes the mutual information between unsupervised graph representations learned by InfoGraph and the representations learned by existing supervised methods. As a result, the supervised encoder learns from unlabeled data while preserving the latent semantic space favored by the current supervised task. Experimental results on the tasks of graph classification and molecular property prediction show that InfoGraph is superior to state-of-the-art baselines and InfoGraph* can achieve performance competitive with state-of-the-art semi-supervised models.
+{{</ ci-details >}}| maximize the mutual information between embedding and different graph substructures |
+|{{< ci-details summary="Gilmer et al. (2017)" >}}
+J. Gilmer, S. Schoenholz, Patrick F. Riley, Oriol Vinyals, George E. Dahl. (2017)  
+**Neural Message Passing for Quantum Chemistry**  
+ICML  
+[Paper Link](https://www.semanticscholar.org/paper/e24cdf73b3e7e590c2fe5ecac9ae8aa983801367)  
+Influential Citation Count (440), SS-ID (e24cdf73b3e7e590c2fe5ecac9ae8aa983801367)  
+
+**ABSTRACT**  
+Supervised learning on molecules has incredible potential to be useful in chemistry, drug discovery, and materials science. Luckily, several promising and closely related neural network models invariant to molecular symmetries have already been described in the literature. These models learn a message passing algorithm and aggregation procedure to compute a function of their entire input graph. At this point, the next step is to find a particularly effective variant of this general approach and apply it to chemical prediction benchmarks until we either solve them or reach the limits of the approach. In this paper, we reformulate existing models into a single common framework we call Message Passing Neural Networks (MPNNs) and explore additional novel variations within this framework. Using MPNNs we demonstrate state of the art results on an important molecular property prediction benchmark; these results are strong enough that we believe future work should focus on datasets with larger molecules or more accurate ground truth labels.
+{{< /ci-details >}}| pooling-aggregation models |
+|{{< ci-details summary="Scarselli et al. (2009)" >}}
+F. Scarselli, M. Gori, A. Tsoi, M. Hagenbuchner, G. Monfardini. (2009)  
+**The Graph Neural Network Model**  
+IEEE Transactions on Neural Networks  
+[Paper Link](https://www.semanticscholar.org/paper/3efd851140aa28e95221b55fcc5659eea97b172d)  
+Influential Citation Count (265), SS-ID (3efd851140aa28e95221b55fcc5659eea97b172d)  
+
+**ABSTRACT**  
+Many underlying relationships among data in several areas of science and engineering, e.g., computer vision, molecular chemistry, molecular biology, pattern recognition, and data mining, can be represented in terms of graphs. In this paper, we propose a new neural network model, called graph neural network (GNN) model, that extends existing neural network methods for processing the data represented in graph domains. This GNN model, which can directly process most of the practically useful types of graphs, e.g., acyclic, cyclic, directed, and undirected, implements a function tau(G,n) isin IRm that maps a graph G and one of its nodes n into an m-dimensional Euclidean space. A supervised learning algorithm is derived to estimate the parameters of the proposed GNN model. The computational cost of the proposed algorithm is also considered. Some experimental results are shown to validate the proposed learning algorithm, and to demonstrate its generalization capabilities.
+{{< /ci-details >}}| add super-node for whole graph embedding |
+|{{< ci-details summary="Lee, Rossi & Kong (2018)" >}}
+J. B. Lee, Ryan A. Rossi, Xiangnan Kong. (2018)  
+**Graph Classification using Structural Attention**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/59d502851cd20f28af03eef1d15dc83d3a7bb300)  
+Influential Citation Count (10), SS-ID (59d502851cd20f28af03eef1d15dc83d3a7bb300)  
+
+**ABSTRACT**  
+Graph classification is a problem with practical applications in many different domains. To solve this problem, one usually calculates certain graph statistics (i.e., graph features) that help discriminate between graphs of different classes. When calculating such features, most existing approaches process the entire graph. In a graphlet-based approach, for instance, the entire graph is processed to get the total count of different graphlets or subgraphs. In many real-world applications, however, graphs can be noisy with discriminative patterns confined to certain regions in the graph only. In this work, we study the problem of attention-based graph classification. The use of attention allows us to focus on small but informative parts of the graph, avoiding noise in the rest of the graph. We present a novel RNN model, called the Graph Attention Model (GAM), that processes only a portion of the graph by adaptively selecting a sequence of "informative" nodes. Experimental results on multiple real-world datasets show that the proposed method is competitive against various well-known methods in graph classification even though our method is limited to only a portion of the graph.
+{{< /ci-details >}}| apply attention mechanism to the graph classification task |
+|{{< ci-details summary="Shervashidze et al. (2011)" >}}
+N. Shervashidze, Pascal Schweitzer, E. J. V. Leeuwen, K. Mehlhorn, K. Borgwardt. (2011)  
+**Weisfeiler-Lehman Graph Kernels**  
+J. Mach. Learn. Res.  
+[Paper Link](https://www.semanticscholar.org/paper/7e1874986cf6433fabf96fff93ef42b60bdc49f8)  
+Influential Citation Count (183), SS-ID (7e1874986cf6433fabf96fff93ef42b60bdc49f8)  
+
+**ABSTRACT**  
+In this article, we propose a family of efficient kernels for large graphs with discrete node labels. Key to our method is a rapid feature extraction scheme based on the Weisfeiler-Lehman test of isomorphism on graphs. It maps the original graph to a sequence of graphs, whose node attributes capture topological and label information. A family of kernels can be defined based on this Weisfeiler-Lehman sequence of graphs, including a highly efficient kernel comparing subtree-like patterns. Its runtime scales only linearly in the number of edges of the graphs and the length of the Weisfeiler-Lehman graph sequence. In our experimental evaluation, our kernels outperform state-of-the-art graph kernels on several graph classification benchmark data sets in terms of accuracy and runtime. Our kernels open the door to large-scale applications of graph kernels in various disciplines such as computational biology and social network analysis.
+{{< /ci-details >}}| reconstruct sophisticated similarity metrics into vectors |
+|{{< ci-details summary="Niepert, Ahmed & Kutzkov (2016)" >}}
+**Learning Convolutional Neural Networks for Graphs**  
+ICML  
+[Paper Link](https://www.semanticscholar.org/paper/7c6de5a9e02a779e24504619050c6118f4eac181)  
+Influential Citation Count (136), SS-ID (7c6de5a9e02a779e24504619050c6118f4eac181)  
+
+**ABSTRACT**  
+Numerous important problems can be framed as learning from graph data. We propose a framework for learning convolutional neural networks for arbitrary graphs. These graphs may be undirected, directed, and with both discrete and continuous node and edge attributes. Analogous to image-based convolutional networks that operate on locally connected regions of the input, we present a general approach to extracting locally connected regions from graphs. Using established benchmark data sets, we demonstrate that the learned feature representations are competitive with state of the art graph kernels and that their computation is highly efficient.
+{{< /ci-details >}}| reconstruct sophisticated similarity metrics into vectors |
+|{{< ci-details summary="Mousavi et al. (2017)" >}}
+S. F. Mousavi, M. Safayani, A. Mirzaei, Hoda Bahonar. (2017)  
+**Hierarchical graph embedding in vector space by graph pyramid**  
+Pattern Recognit.  
+[Paper Link](https://www.semanticscholar.org/paper/c9f22dde51fb01322212708ef00a61ef580e58bd)  
+Influential Citation Count (5), SS-ID (c9f22dde51fb01322212708ef00a61ef580e58bd)  
+
+**ABSTRACT**  
+Loss of information is the major challenge in graph embedding in vector space which reduces the impact of representational power of graphs in pattern recognition tasks. The objective of this article is to present a hierarchical framework which can decrease this loss in a reasonable computational time. Inspired by multi-resolution ideas in image processing, a graph pyramid is formed based on a selected graph summarization algorithm which can provide the required information for classification. All the pyramid levels or some of them are embedded into a vector through an available embedding method which constructs an informative description containing both local and global features. The experiments are conducted on graphs with numerical and categorical attributes. In the numerical case, a proposed summarization algorithm is applied while in the categorical case, k-SNAP graph summarization is applied. The results indicate that this new framework is efficient in terms of accuracy and time consumption in the context of classification problems. It is observed that this improvement is achieved regardless of selected embedding techniques.
+{{< /ci-details >}}| reconstruct sophisticated similarity metrics into vectors |
+|{{< ci-details summary="Yanardag & Vishwanathan (2015)" >}}
+Pinar Yanardag, S. Vishwanathan. (2015)  
+**Deep Graph Kernels**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/00d736c540f80582279093cfc5ffe454a3226da9)  
+Influential Citation Count (160), SS-ID (00d736c540f80582279093cfc5ffe454a3226da9)  
+
+**ABSTRACT**  
+In this paper, we present Deep Graph Kernels, a unified framework to learn latent representations of sub-structures for graphs, inspired by latest advancements in language modeling and deep learning. Our framework leverages the dependency information between sub-structures by learning their latent representations. We demonstrate instances of our framework on three popular graph kernels, namely Graphlet kernels, Weisfeiler-Lehman subtree kernels, and Shortest-Path graph kernels. Our experiments on several benchmark datasets show that Deep Graph Kernels achieve significant improvements in classification accuracy over state-of-the-art graph kernels.
+{{< /ci-details >}}| reconstruct sophisticated similarity metrics into vectors |
+|{{< ci-details summary="Narayanan et al. (2016)" >}}
+A. Narayanan, Mahinthan Chandramohan, Lihui Chen, Yang Liu, S. Saminathan. (2016)  
+**subgraph2vec: Learning Distributed Representations of Rooted Sub-graphs from Large Graphs**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/e02f59cf876cb40233573ff78a1609f969d301cc)  
+Influential Citation Count (11), SS-ID (e02f59cf876cb40233573ff78a1609f969d301cc)  
+
+**ABSTRACT**  
+In this paper, we present subgraph2vec, a novel approach for learning latent representations of rooted subgraphs from large graphs inspired by recent advancements in Deep Learning and Graph Kernels. These latent representations encode semantic substructure dependencies in a continuous vector space, which is easily exploited by statistical models for tasks such as graph classification, clustering, link prediction and community detection. subgraph2vec leverages on local information obtained from neighbourhoods of nodes to learn their latent representations in an unsupervised fashion. We demonstrate that subgraph vectors learnt by our approach could be used in conjunction with classifiers such as CNNs, SVMs and relational data clustering algorithms to achieve significantly superior accuracies. Also, we show that the subgraph vectors could be used for building a deep learning variant of Weisfeiler-Lehman graph kernel. Our experiments on several benchmark and large-scale real-world datasets reveal that subgraph2vec achieves significant improvements in accuracies over existing graph kernels on both supervised and unsupervised learning tasks. Specifically, on two realworld program analysis tasks, namely, code clone and malware detection, subgraph2vec outperforms state-of-the-art kernels by more than 17% and 4%, respectively.
+{{< /ci-details >}}| reconstruct sophisticated similarity metrics into vectors |
+|{{< ci-details summary="Chen & Koga (2019)" >}}
+Hong Chen, H. Koga. (2019)  
+**GL2vec: Graph Embedding Enriched by Line Graphs with Edge Features**  
+ICONIP  
+[Paper Link](https://www.semanticscholar.org/paper/a7df35d17d05d69e7085d1cfa288a235a8a86be1)  
+Influential Citation Count (5), SS-ID (a7df35d17d05d69e7085d1cfa288a235a8a86be1)  
+
+**ABSTRACT**  
+Recently, several techniques to learn the embedding for a given graph dataset have been proposed. Among them, Graph2vec is significant in that it unsupervisedly learns the embedding of entire graphs which is useful for graph classification. This paper develops an algorithm which improves Graph2vec. First, we point out two limitations of Graph2vec: (1) Edge labels cannot be handled and (2) Graph2vec does not always preserve structural information enough to evaluate the structural similarity, because it bundles the node label information and the structural information in extracting subgraphs. Our algorithm overcomes these limitations by exploiting the line graphs (edge-to-vertex dual graphs) of given graphs. Specifically, it complements either the edge label information or the structural information which Graph2vec misses with the embeddings of the line graphs. Our method is named as GL2vec (Graph and Line graph to vector) because it concatenates the embedding of an original graph to that of the corresponding line graph. Experimentally, GL2vec achieves significant improvements in graph classification task over Graph2vec for many benchmark datasets.
+{{< /ci-details >}}| GL2VEC; extends Narayanan et al. (2016) model with edge features by utilizing the line graph |
+|{{< ci-details summary="Johansson & Dubhashi (2015)" >}}
+Fredrik D. Johansson, Devdatt P. Dubhashi. (2015)  
+**Learning with Similarity Functions on Graphs using Matchings of Geometric Embeddings**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/e8f16ec1024a6cffbb4e0d57529e9432207d4a5c)  
+Influential Citation Count (1), SS-ID (e8f16ec1024a6cffbb4e0d57529e9432207d4a5c)  
+
+**ABSTRACT**  
+We develop and apply the Balcan-Blum-Srebro (BBS) theory of classification via similarity functions (which are not necessarily kernels) to the problem of graph classification. First we place the BBS theory into the unifying framework of optimal transport theory. This also opens the way to exploit coupling methods for establishing properties required of a good similarity function as per their definition. Next, we use the approach to the problem of graph classification via geometric embeddings such as the Laplacian, pseudo-inverse Laplacian and the Lovász orthogonal labellings. We consider the similarity function given by optimal and near--optimal matchings with respect to Euclidean distance of the corresponding embeddings of the graphs in high dimensions. We use optimal couplings to rigorously establish that this yields a "good" similarity measure in the BBS sense for two well known families of graphs. Further, we show that the similarity yields better classification accuracy in practice, on these families, than matchings of other well-known graph embeddings. Finally we perform an extensive empirical evaluation on benchmark data sets where we show that classifying graphs using matchings of geometric embeddings outperforms the previous state-of-the-art methods.
+{{< /ci-details >}}| matching node embedding / graph kernels |
+|{{< ci-details summary="Nikolentzos, Meladianos & Vazirgiannis (2017)" >}}
+Giannis Nikolentzos, Polykarpos Meladianos, M. Vazirgiannis. (2017)  
+**Matching Node Embeddings for Graph Similarity**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/0f3d2a17809f999cd4ab9d97fd5eb71086580685)  
+Influential Citation Count (8), SS-ID (0f3d2a17809f999cd4ab9d97fd5eb71086580685)  
+
+**ABSTRACT**  
+Graph kernels have emerged as a powerful tool for graph comparison. Most existing graph kernels focus on local properties of graphs and ignore global structure. In this paper, we compare graphs based on their global properties as these are captured by the eigenvectors of their adjacency matrices. We present two algorithms for both labeled and unlabeled graph comparison. These algorithms represent each graph as a set of vectors corresponding to the embeddings of its vertices. The similarity between two graphs is then determined using the Earth Mover’s Distance metric. These similarities do not yield a positive semidefinite matrix. To address for this, we employ an algorithm for SVM classification using indefinite kernels. We also present a graph kernel based on the Pyramid Match kernel that finds an approximate correspondence between the sets of vectors of the two graphs. We further improve the proposed kernel using the Weisfeiler-Lehman framework. We evaluate the proposed methods on several benchmark datasets for graph classification and compare their performance to state-of-the-art graph kernels. In most cases, the proposed algorithms outperform the competing methods, while their time complexity remains very attractive.
+{{< /ci-details >}}| matching node embedding / graph kernels |
+|{{< ci-details summary="Donnat & Holmes (2018)" >}}
+C. Donnat, S. Holmes. (2018)  
+**Tracking network dynamics: A survey using graph distances**  
+The Annals of Applied Statistics  
+[Paper Link](https://www.semanticscholar.org/paper/64aa05ee62ed2c55e002acdcdeadd29daefe9426)  
+Influential Citation Count (2), SS-ID (64aa05ee62ed2c55e002acdcdeadd29daefe9426)  
+
+**ABSTRACT**  
+From longitudinal biomedical studies to social networks, graphs have emerged as essential objects for describing evolving interactions between agents in complex systems. In such studies, after pre-processing, the data are encoded by a set of graphs, each representing a system’s state at a different point in time or space. The analysis of the system’s dynamics depends on the selection of the appropriate analytical tools. In particular, after specifying properties characterizing similarities between states, a critical step lies in the choice of a distance between graphs capable of reflecting such similarities. While the literature offers a number of distances to choose from, their properties have been little investigated and no guidelines regarding the choice of such a distance have yet been provided. In particular, most graph distances consider that the nodes are exchangeable—ignoring node “identities.” Alignment of the graphs according to identified nodes enables us to enhance these distances’ sensitivity to perturbations in the network and detect important changes in graph dynamics. Thus the selection of an adequate metric is a decisive—yet delicate—practical matter. In the spirit of Goldenberg et al.’s seminal 2009 review [Found. Trends Mach. Learn. 2 (2010) 129–233], this article provides an overview of commonly-used graph distances and an explicit characterization of the structural changes that they are best able to capture. We show how these choices affect real-life situations, and we use these distances to analyze both a longitudinal microbiome dataset and a brain fMRI study. One contribution of the present study is a coordinated suite of data analytic techniques, displays and statistical tests using “metagraphs”: a graph of graphs based on a chosen metric. Permutation tests can uncover the effects of covariates on the graphs’ variability. Furthermore, synthetic examples provide intuition as to the qualities and drawbacks of the different distances. Above all, we provide some guidance on choosing one distance over another in different contexts. Finally, we extend the scope of our analyses from temporal to spatial dynamics and apply these different distances to a network created from worldwide recipes.
+{{< /ci-details >}}| graph-based distance methods for a temporal graph of bio-medical surveys |
+|{{< ci-details summary="Yang & Wang (2018)" >}}
+Yan Yang, Hao Wang. (2018)  
+**Multi-view clustering: A survey**  
+Big Data Min. Anal.  
+[Paper Link](https://www.semanticscholar.org/paper/9404cc4488ae98babf17b286a20e7baa6ef5d398)  
+Influential Citation Count (3), SS-ID (9404cc4488ae98babf17b286a20e7baa6ef5d398)  
+
+**ABSTRACT**  
+In the big data era, the data are generated from different sources or observed from different views. These data are referred to as multi-view data. Unleashing the power of knowledge in multi-view data is very important in big data mining and analysis. This calls for advanced techniques that consider the diversity of different views, while fusing these data. Multi-view Clustering (MvC) has attracted increasing attention in recent years by aiming to exploit complementary and consensus information across multiple views. This paper summarizes a large number of multi-view clustering algorithms, provides a taxonomy according to the mechanisms and principles involved, and classifies these algorithms into five categories, namely, co-training style algorithms, multi-kernel learning, multiview graph clustering, multi-view subspace clustering, and multi-task multi-view clustering. Therein, multi-view graph clustering is further categorized as graph-based, network-based, and spectral-based methods. Multi-view subspace clustering is further divided into subspace learning-based, and non-negative matrix factorization-based methods. This paper does not only introduce the mechanisms for each category of methods, but also gives a few examples for how these techniques are used. In addition, it lists some publically available multi-view datasets. Overall, this paper serves as an introductory text and survey for multi-view clustering.
+{{< /ci-details >}}| hierarchical clustering and fusion of different network representations |
+|{{< ci-details summary="Serra, Greco & Tagliaferri (2015)" >}}
+Angela Serra, D. Greco, R. Tagliaferri. (2015)  
+**Impact of different metrics on multi-view clustering**  
+2015 International Joint Conference on Neural Networks (IJCNN)  
+[Paper Link](https://www.semanticscholar.org/paper/294b25ce7576ab5cc59ab0de1d36425cae7fab2a)  
+Influential Citation Count (0), SS-ID (294b25ce7576ab5cc59ab0de1d36425cae7fab2a)  
+
+**ABSTRACT**  
+Clustering of patients allows to find groups of subjects with similar characteristics. This categorization can facilitate diagnosis, treatment decision and prognosis prediction. Heterogeneous genome-wide data sources capture different biological aspects that can be integrated in order to better categorize the patients. Clustering methods work by comparing how patients are similar or dissimilar in a suitable similarity space. While several clustering methods have been proposed, there is no systematic comparative study concerning the impact of similarity metrics on the cluster quality. We compared seven popular similarity measures (Pearson, Spearman and Kendall Correlations; Euclidean, Canberra, Minkowski and Manhattan Distances) in conjunction with two classical single-view clustering algorithms and a late integration approach (partitioning around medoids, hierarchical clustering and matrix factorization approaches), on high dimensional multi-view cancer data coming from the TCGA repository. Performance was measured against tumour subcategories classification. Only Euclidean and Minkowski distances showed similar results in terms of clustering similarity indexes. On the other hand, an absolute best similarity measure did not emerge in terms of misclassification, but it strongly depends on the data.
+{{< /ci-details >}}| fusion of different similarity representations of a network as different graphs |
+|{{< ci-details summary="Xue et al. (2015)" >}}
+Zhe Xue, Guorong Li, Shuhui Wang, Chunjie Zhang, W. Zhang, Qingming Huang. (2015)  
+**GOMES: A group-aware multi-view fusion approach towards real-world image clustering**  
+2015 IEEE International Conference on Multimedia and Expo (ICME)  
+[Paper Link](https://www.semanticscholar.org/paper/394ba1a52e3cd59974f4277ef1ae987bc3500870)  
+Influential Citation Count (1), SS-ID (394ba1a52e3cd59974f4277ef1ae987bc3500870)  
+
+**ABSTRACT**  
+Different features describe different views of visual appearance, multi-view based methods can integrate the information contained in each view and improve the image clustering performance. Most of the existing methods assume that the importance of one type of feature is the same to all the data. However, the visual appearance of images are different, so the description abilities of different features vary with different images. To solve this problem, we propose a group-aware multi-view fusion approach. Images are partitioned into groups which consist of several images sharing similar visual appearance. We assign different weights to evaluate the pairwise similarity between different groups. Then the clustering results and the fusion weights are learned by an iterative optimization procedure. Experimental results indicate that our approach achieves promising clustering performance compared with the existing methods.
+{{< /ci-details >}}| fusion of different similarity representations of a network as different graph |
+|{{< ci-details summary="Hou et al. (2017)" >}}
+Chenping Hou, F. Nie, Hong Tao, Dong-yun Yi. (2017)  
+**Multi-View Unsupervised Feature Selection with Adaptive Similarity and View Weight**  
+IEEE Transactions on Knowledge and Data Engineering  
+[Paper Link](https://www.semanticscholar.org/paper/2ea8d4cfb92d6354caa76a7070a3a5e053e1b066)  
+Influential Citation Count (5), SS-ID (2ea8d4cfb92d6354caa76a7070a3a5e053e1b066)  
+
+**ABSTRACT**  
+With the advent of multi-view data, multi-view learning has become an important research direction in both machine learning and data mining. Considering the difficulty of obtaining labeled data in many real applications, we focus on the multi-view unsupervised feature selection problem. Traditional approaches all characterize the similarity by fixed and pre-defined graph Laplacian in each view separately and ignore the underlying common structures across different views. In this paper, we propose an algorithm named Multi-view Unsupervised Feature Selection with Adaptive Similarity and View Weight (ASVW) to overcome the above mentioned problems. Specifically, by leveraging the learning mechanism to characterize the common structures adaptively, we formulate the objective function by a common graph Laplacian across different views, together with the sparse <inline-formula><tex-math notation="LaTeX">$\ell _{2,p}$</tex-math> <alternatives><inline-graphic xlink:href="hou-ieq1-2681670.gif"/></alternatives></inline-formula>-norm constraint designed for feature selection. We develop an efficient algorithm to address the non-smooth minimization problem and prove that the algorithm will converge. To validate the effectiveness of ASVW, comparisons are made with some benchmark methods on real-world datasets. We also evaluate our method in the real sports action recognition task. The experimental results demonstrate the effectiveness of our proposed algorithm.
+{{< /ci-details >}}| fusion of different similarity representations of a network as different graph preserving graph structure |
+|{{< ci-details summary="Nie, Cai & Li (2017)" >}}
+F. Nie, Guohao Cai, Xuelong Li. (2017)  
+**Multi-View Clustering and Semi-Supervised Classification with Adaptive Neighbours**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/62b5d514ec49173af59cab6f0dfdc7f280d53f36)  
+Influential Citation Count (34), SS-ID (62b5d514ec49173af59cab6f0dfdc7f280d53f36)  
+
+**ABSTRACT**  
+Due to the efficiency of learning relationships and complex structures hidden in data, graph-oriented methods have been widely investigated and achieve promising performance in multi-view learning. Generally, these learning algorithms construct informative graph for each view or fuse different views to one graph, on which the following procedure are based. However, in many real world dataset, original data always contain noise and outlying entries that result in unreliable and inaccurate graphs, which cannot be ameliorated in the previous methods. In this paper, we propose a novel multi-view learning model which performs clustering/semi-supervised classification and local structure learning simultaneously. The obtained optimal graph can be partitioned into specific clusters directly. Moreover, our model can allocate ideal weight for each view automatically without additional weight and penalty parameters. An efficient algorithm is proposed to optimize this model. Extensive experimental results on different real-world datasets show that the proposed model outperforms other state-of-the-art multi-view algorithms.
+{{< /ci-details >}}| fusion of different similarity representations of a network as different graph simultaneously performing semi-supervised classification |
+|{{< ci-details summary="Cheng et al. (2013)" >}}
+Wei Cheng, X. Zhang, Zhishan Guo, Yubao Wu, P. Sullivan, Wei Wang. (2013)  
+**Flexible and robust co-regularized multi-domain graph clustering**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/75938c4300e464f901a15332540d6500d957db91)  
+Influential Citation Count (8), SS-ID (75938c4300e464f901a15332540d6500d957db91)  
+
+**ABSTRACT**  
+Multi-view graph clustering aims to enhance clustering performance by integrating heterogeneous information collected in different domains. Each domain provides a different view of the data instances. Leveraging cross-domain information has been demonstrated an effective way to achieve better clustering results. Despite the previous success, existing multi-view graph clustering methods usually assume that different views are available for the same set of instances. Thus instances in different domains can be treated as having strict one-to-one relationship. In many real-life applications, however, data instances in one domain may correspond to multiple instances in another domain. Moreover, relationships between instances in different domains may be associated with weights based on prior (partial) knowledge. In this paper, we propose a flexible and robust framework, CGC (Co-regularized Graph Clustering), based on non-negative matrix factorization (NMF), to tackle these challenges. CGC has several advantages over the existing methods. First, it supports many-to-many cross-domain instance relationship. Second, it incorporates weight on cross-domain relationship. Third, it allows partial cross-domain mapping so that graphs in different domains may have different sizes. Finally, it provides users with the extent to which the cross-domain instance relationship violates the in-domain clustering structure, and thus enables users to re-evaluate the consistency of the relationship. Extensive experimental results on UCI benchmark data sets, newsgroup data sets and biological interaction networks demonstrate the effectiveness of our approach.
+{{< /ci-details >}}| different domain network clustering |
+|{{< ci-details summary="Ni et al. (2016)" >}}
+Jingchao Ni, Wei Cheng, Wei Fan, X. Zhang. (2016)  
+**Self-Grouping Multi-network Clustering**  
+2016 IEEE 16th International Conference on Data Mining (ICDM)  
+[Paper Link](https://www.semanticscholar.org/paper/fabfba8835470ba7a33dfc25e50ef83a5be7eae0)  
+Influential Citation Count (0), SS-ID (fabfba8835470ba7a33dfc25e50ef83a5be7eae0)  
+
+**ABSTRACT**  
+Joint clustering of multiple networks has been shown to be more accurate than performing clustering on individual networks separately. Many multi-view and multi-domain network clustering methods have been developed for joint multi-network clustering. These methods typically assume there is a common clustering structure shared by all networks, and different networks can provide complementary information on this underlying clustering structure. However, this assumption is too strict to hold in many emerging real-life applications, where multiple networks have diverse data distributions. More popularly, the networks in consideration belong to different underlying groups. Only networks in the same underlying group share similar clustering structures. Better clustering performance can be achieved by considering such groups differently. As a result, an ideal method should be able to automatically detect network groups so that networks in the same group share a common clustering structure. To address this problem, we propose a novel method, ComClus, to simultaneously group and cluster multiple networks. ComClus treats node clusters as features of networks and uses them to differentiate different network groups. Network grouping and clustering are coupled and mutually enhanced during the learning process. Extensive experimental evaluation on a variety of synthetic and real datasets demonstrates the effectiveness of our method.
+{{< /ci-details >}}| fusion of different not-synchronized networks with different structures |
+|{{< ci-details summary="Liu et al. (2015)" >}}
+R. Liu, Wei Cheng, Hanghang Tong, Wei Wang, X. Zhang. (2015)  
+**Robust Multi-Network Clustering via Joint Cross-Domain Cluster Alignment**  
+2015 IEEE International Conference on Data Mining  
+[Paper Link](https://www.semanticscholar.org/paper/7dd2ad1f992808d04356e8d6e7e5614166f34a85)  
+Influential Citation Count (1), SS-ID (7dd2ad1f992808d04356e8d6e7e5614166f34a85)  
+
+**ABSTRACT**  
+Network clustering is an important problem thathas recently drawn a lot of attentions. Most existing workfocuses on clustering nodes within a single network. In manyapplications, however, there exist multiple related networks, inwhich each network may be constructed from a different domainand instances in one domain may be related to instances in otherdomains. In this paper, we propose a robust algorithm, MCA, formulti-network clustering that takes into account cross-domain relationshipsbetween instances. MCA has several advantages overthe existing single network clustering methods. First, it is ableto detect associations between clusters from different domains, which, however, is not addressed by any existing methods. Second, it achieves more consistent clustering results on multiple networksby leveraging the duality between clustering individual networksand inferring cross-network cluster alignment. Finally, it providesa multi-network clustering solution that is more robust to noiseand errors. We perform extensive experiments on a variety ofreal and synthetic networks to demonstrate the effectiveness andefficiency of MCA.
+{{< /ci-details >}}| cross-domain associations |
+|{{< ci-details summary="Li et al. (2015)" >}}
+Yeqing Li, F. Nie, Heng Huang, Junzhou Huang. (2015)  
+**Large-Scale Multi-View Spectral Clustering via Bipartite Graph**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/9383f08c697b8aa43782e16c9a57e089911584d8)  
+Influential Citation Count (33), SS-ID (9383f08c697b8aa43782e16c9a57e089911584d8)  
+
+**ABSTRACT**  
+In this paper, we address the problem of large-scale multi-view spectral clustering. In many real-world applications, data can be represented in various heterogeneous features or views. Different views often provide different aspects of information that are complementary to each other. Several previous methods of clustering have demonstrated that better accuracy can be achieved using integrated information of all the views than just using each view individually. One important class of such methods is multi-view spectral clustering, which is based on graph Laplacian. However, existing methods are not applicable to large-scale problem for their high computational complexity. To this end, we propose a novel large-scale multi-view spectral clustering approach based on the bipartite graph. Our method uses local manifold fusion to integrate heterogeneous features. To improve efficiency, we approximate the similarity graphs using bipartite graphs. Furthermore, we show that our method can be easily extended to handle the out-of-sample problem. Extensive experimental results on five benchmark datasets demonstrate the effectiveness and efficiency of the proposed method, where our method runs up to nearly 3000 times faster than the state-of-the-art methods.
+{{< /ci-details >}}| multi-view spectral clustering |
+|{{< ci-details summary="Khasahmadi et al. (2020)" >}}
+Amir Hosein Khas Ahmadi, Kaveh Hassani, Parsa Moradi, Leo Lee, Q. Morris. (2020)  
+**Memory-Based Graph Networks**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/47f01fd4f0c9c77058a966d3f17dbc09cf7ef42a)  
+Influential Citation Count (6), SS-ID (47f01fd4f0c9c77058a966d3f17dbc09cf7ef42a)  
+
+**ABSTRACT**  
+Graph Neural Networks (GNNs) are a class of deep models that operates on data with arbitrary topology and order-invariant structure represented as graphs. We introduce an efficient memory layer for GNNs that can learn to jointly perform graph representation learning and graph pooling. We also introduce two new networks based on our memory layer: Memory-Based Graph Neural Network (MemGNN) and Graph Memory Network (GMN) that can learn hierarchical graph representations by coarsening the graph throughout the layers of memory. The experimental results demonstrate that the proposed models achieve state-of-the-art results in six out of seven graph classification and regression benchmarks. We also show that the learned representations could correspond to chemical features in the molecule data.
+{{< /ci-details >}}| memory layer for graphs that can efficiently learn graph hierarchical representations |
+|{{< ci-details summary="Tsitsulin, Munkhoeva & Perozzi (2020)" >}}
+Anton Tsitsulin, Marina Munkhoeva, Bryan Perozzi. (2020)  
+**Just SLaQ When You Approximate: Accurate Spectral Distances for Web-Scale Graphs**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/6bcea47afc6fcdada957e8d72b9b27b7866bf535)  
+Influential Citation Count (3), SS-ID (6bcea47afc6fcdada957e8d72b9b27b7866bf535)  
+
+**ABSTRACT**  
+Graph comparison is a fundamental operation in data mining and information retrieval. Due to the combinatorial nature of graphs, it is hard to balance the expressiveness of the similarity measure and its scalability. Spectral analysis provides quintessential tools for studying the multi-scale structure of graphs and is a well-suited foundation for reasoning about differences between graphs. However, computing full spectrum of large graphs is computationally prohibitive; thus, spectral graph comparison methods often rely on rough approximation techniques with weak error guarantees. In this work, we propose SLaQ , an efficient and effective approximation technique for computing spectral distances between graphs with billions of nodes and edges. We derive the corresponding error bounds and demonstrate that accurate computation is possible in time linear in the number of graph edges. In a thorough experimental evaluation, we show that SLaQ outperforms existing methods, oftentimes by several orders of magnitude in approximation accuracy, and maintains comparable performance, allowing to compare million-scale graphs in a matter of minutes on a single machine.
+{{< /ci-details >}}| altorithm for efficient calculation of spectral distances for large graphs |
+|{{< ci-details summary="Kolouri et al. (2020)" >}}
+S. Kolouri, Navid Naderializadeh, G. Rohde, Heiko Hoffmann. (2020)  
+**Wasserstein Embedding for Graph Learning**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/463f490d3bded6e527b0838da8495ed6441da25a)  
+Influential Citation Count (1), SS-ID (463f490d3bded6e527b0838da8495ed6441da25a)  
+
+**ABSTRACT**  
+We present Wasserstein Embedding for Graph Learning (WEGL), a novel and fast framework for embedding entire graphs in a vector space, in which various machine learning models are applicable for graph-level prediction tasks. We leverage new insights on defining similarity between graphs as a function of the similarity between their node embedding distributions. Specifically, we use the Wasserstein distance to measure the dissimilarity between node embeddings of different graphs. Different from prior work, we avoid pairwise calculation of distances between graphs and reduce the computational complexity from quadratic to linear in the number of graphs. WEGL calculates Monge maps from a reference distribution to each node embedding and, based on these maps, creates a fixed-sized vector representation of the graph. We evaluate our new graph embedding approach on various benchmark graph-property prediction tasks, showing state-of-the-art classification performance, while having superior computational efficiency.
+{{< /ci-details >}}| embedding preserving Wasserstein distance with linear complexity |
+|{{< ci-details summary="Qin et al. (2020)" >}}
+Jian Qin, Li Liu, Hui Shen, D. Hu. (2020)  
+**Uniform Pooling for Graph Networks**  
+  
+[Paper Link](https://www.semanticscholar.org/paper/d83c64f96d9a904280534bc3e0c5bd702aab5d94)  
+Influential Citation Count (0), SS-ID (d83c64f96d9a904280534bc3e0c5bd702aab5d94)  
+
+**ABSTRACT**  
+The graph convolution network has received a lot of attention because it extends the convolution to non-Euclidean domains. However, the graph pooling method is still less concerned, which can learn coarse graph embedding to facilitate graph classification. Previous pooling methods were based on assigning a score to each node and then pooling only the highest-scoring nodes, which might throw away whole neighbourhoods of nodes and therefore information. Here, we proposed a novel pooling method UGPool with a new point-of-view on selecting nodes. UGPool learns node scores based on node features and uniformly pools neighboring nodes instead of top nodes in the score-space, resulting in a uniformly coarsened graph. In multiple graph classification tasks, including the protein graphs, the biological graphs and the brain connectivity graphs, we demonstrated that UGPool outperforms other graph pooling methods while maintaining high efficiency. Moreover, we also show that UGPool can be integrated with multiple graph convolution networks to effectively improve performance compared to no pooling.
+{{< /ci-details >}}| one more graph pooling technique that uniformly aggregates neighborhood |
+|{{< ci-details summary="Baldini, Martino & Rizzi (2020)" >}}
+L. Baldini, A. Martino, A. Rizzi. (2020)  
+**Exploiting Cliques for Granular Computing-based Graph Classification**  
+2020 International Joint Conference on Neural Networks (IJCNN)  
+[Paper Link](https://www.semanticscholar.org/paper/414c510f5b932d86e68b81044a8a18a46a46e007)  
+Influential Citation Count (0), SS-ID (414c510f5b932d86e68b81044a8a18a46a46e007)  
+
+**ABSTRACT**  
+The most fascinating aspect of graphs is their ability to encode the information contained in the inner structural organization between its constituting elements. Learning from graphs belong to the so-called Structural Pattern Recognition, from which Graph Embedding emerged as a successful method for processing graphs by evaluating their dissimilarity in a suitable geometric space. In this paper, we investigate the possibility to perform the embedding into a geometric space by leveraging to peculiar constituent graph substructures extracted from training set, namely the maximal cliques, and providing the performances obtained under three main aspects concerning classification capabilities, running times and model complexity. Thanks to a Granular Computing approach, the employed methodology can be seen as a powerful framework able to synthesize models suitable to be interpreted by field-experts, pushing the boundary towards new frontiers in the field of explainable AI and knowledge discovery also in big data contexts.
+{{< /ci-details >}}| embed maximal cliques to preserve structural similarities between graphs |
+|{{< ci-details summary="Yan & Wang (2020)" >}}
+Bencheng Yan, Chaokun Wang. (2020)  
+**GraphAE: Adaptive Embedding across Graphs**  
+2020 IEEE 36th International Conference on Data Engineering (ICDE)  
+[Paper Link](https://www.semanticscholar.org/paper/7ddb8bdbab7f5aa644569c71d09d0a669af3615e)  
+Influential Citation Count (0), SS-ID (7ddb8bdbab7f5aa644569c71d09d0a669af3615e)  
+
+**ABSTRACT**  
+Recently, learning embedding of nodes in graphs has attracted increasing research attention. There are two main kinds of graph embedding methods, i.e., the transductive embedding methods and the inductive embedding methods. The former focuses on directly optimizing the embedding vectors, and the latter tries to learn a mapping function for the given nodes and features. However, few works focus on applying the learned model from one graph to another, which is a pervasive idea in Computer Version or Natural Language Processing. Although some of the graph neural networks (GNNs) present similar motivation, none of them considers the graph bias among graphs. In this paper, we present an interesting graph embedding problem called Adaptive Task (AT), and propose a unified framework for this adaptive task, which introduces two types of alignment to learn adaptive node embedding across graphs. Then, based on the proposed framework, a novel graph adaptive embedding network is designed to address the adaptive task. Extensive experimental results demonstrate that our model significantly outperforms the state-of-the-art methods.
+{{< /ci-details >}}| states the problem of transfer learning suggesting the framework for graph alignment and further adaptation learning for GNNs |
+
 ### Network visualization
+
+| Paper | Approach |
+|-------|----------|
+|{{< ci-details summary="Le & Lauw (2014)" >}}
+Tuan M. V. Le, Hady W. Lauw. (2014)  
+**Probabilistic Latent Document Network Embedding**  
+2014 IEEE International Conference on Data Mining  
+[Paper Link](https://www.semanticscholar.org/paper/24f7d72e92cadfa5c84949537639ce084b9d2092)  
+Influential Citation Count (8), SS-ID (24f7d72e92cadfa5c84949537639ce084b9d2092)  
+
+**ABSTRACT**  
+A document network refers to a data type that can be represented as a graph of vertices, where each vertex is associated with a text document. Examples of such a data type include hyperlinked Web pages, academic publications with citations, and user profiles in social networks. Such data have very high-dimensional representations, in terms of text as well as network connectivity. In this paper, we study the problem of embedding, or finding a low-dimensional representation of a document network that "preserves" the data as much as possible. These embedded representations are useful for various applications driven by dimensionality reduction, such as visualization or feature selection. While previous works in embedding have mostly focused on either the textual aspect or the network aspect, we advocate a holistic approach by finding a unified low-rank representation for both aspects. Moreover, to lend semantic interpretability to the low-rank representation, we further propose to integrate topic modeling and embedding within a joint model. The gist is to join the various representations of a document (words, links, topics, and coordinates) within a generative model, and to estimate the hidden representations through MAP estimation. We validate our model on real-life document networks, showing that it outperforms comparable baselines comprehensively on objective evaluation metrics.
+{{< /ci-details >}}| 2D vectors |
+|{{< ci-details summary="Wang, Cui & Zhu (2016)" >}}
+Daixin Wang, Peng Cui, Wenwu Zhu. (2016)  
+**Structural Deep Network Embedding**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
+Influential Citation Count (223), SS-ID (d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
+
+**ABSTRACT**  
+Network embedding is an important method to learn low-dimensional representations of vertexes in networks, aiming to capture and preserve the network structure. Almost all the existing network embedding methods adopt shallow models. However, since the underlying network structure is complex, shallow models cannot capture the highly non-linear network structure, resulting in sub-optimal network representations. Therefore, how to find a method that is able to effectively capture the highly non-linear network structure and preserve the global and local structure is an open yet important problem. To solve this problem, in this paper we propose a Structural Deep Network Embedding method, namely SDNE. More specifically, we first propose a semi-supervised deep model, which has multiple layers of non-linear functions, thereby being able to capture the highly non-linear network structure. Then we propose to exploit the first-order and second-order proximity jointly to preserve the network structure. The second-order proximity is used by the unsupervised component to capture the global network structure. While the first-order proximity is used as the supervised information in the supervised component to preserve the local network structure. By jointly optimizing them in the semi-supervised deep model, our method can preserve both the local and global network structure and is robust to sparse networks. Empirically, we conduct the experiments on five real-world networks, including a language network, a citation network and three social networks. The results show that compared to the baselines, our method can reconstruct the original network significantly better and achieves substantial gains in three applications, i.e. multi-label classification, link prediction and visualization.
+
+{{< /ci-details >}}| 2D vectors |
+|{{< ci-details summary="Cao, Lu & Xu (2016)" >}}
+Shaosheng Cao, Wei Lu, Qiongkai Xu. (2016)  
+**Deep Neural Networks for Learning Graph Representations**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/1a37f07606d60df365d74752857e8ce909f700b3)  
+Influential Citation Count (59), SS-ID (1a37f07606d60df365d74752857e8ce909f700b3)  
+
+**ABSTRACT**  
+In this paper, we propose a novel model for learning graph representations, which generates a low-dimensional vector representation for each vertex by capturing the graph structural information. Different from other previous research efforts, we adopt a random surfing model to capture graph structural information directly, instead of using the sampling-based method for generating linear sequences proposed by Perozzi et al. (2014). The advantages of our approach will be illustrated from both theorical and empirical perspectives. We also give a new perspective for the matrix factorization method proposed by Levy and Goldberg (2014), in which the pointwise mutual information (PMI) matrix is considered as an analytical solution to the objective function of the skip-gram model with negative sampling proposed by Mikolov et al. (2013). Unlike their approach which involves the use of the SVD for finding the low-dimensitonal projections from the PMI matrix, however, the stacked denoising autoencoder is introduced in our model to extract complex features and model non-linearities. To demonstrate the effectiveness of our model, we conduct experiments on clustering and visualization tasks, employing the learned vertex representations as features. Empirical results on datasets of varying sizes show that our model outperforms other stat-of-the-art models in such tasks.
+{{< /ci-details >}}| 2D vectors |
+|{{< ci-details summary="Tu et al. (2016)" >}}
+Cunchao Tu, Weicheng Zhang, Zhiyuan Liu, Maosong Sun. (2016)  
+**Max-Margin DeepWalk: Discriminative Learning of Network Representation**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/5d66991e1f541a08e81e59060cb0bb7f6931c2d9)  
+Influential Citation Count (29), SS-ID (5d66991e1f541a08e81e59060cb0bb7f6931c2d9)  
+
+**ABSTRACT**  
+DeepWalk is a typical representation learning method that learns low-dimensional representations for vertices in social networks. Similar to other network representation learning (NRL) models, it encodes the network structure into vertex representations and is learnt in unsupervised form. However, the learnt representations usually lack the ability of discrimination when applied to machine learning tasks, such as vertex classification. In this paper, we overcome this challenge by proposing a novel semi-supervised model, max-margin Deep-Walk (MMDW). MMDW is a unified NRL framework that jointly optimizes the max-margin classifier and the aimed social representation learning model. Influenced by the max-margin classifier, the learnt representations not only contain the network structure, but also have the characteristic of discrimination. The visualizations of learnt representations indicate that our model is more discriminative than unsupervised ones, and the experimental results on vertex classification demonstrate that our method achieves a significant improvement than other state-of-the-art methods. The source code can be obtained from https://github.com/thunlp/MMDW.
+{{< /ci-details >}}| 2D vectors |
+|{{< ci-details summary="Niepert, Ahmed & Kutzkov (2016)" >}}
+Mathias Niepert, Mohamed Ahmed, Konstantin Kutzkov. (2016)  
+**Learning Convolutional Neural Networks for Graphs**  
+ICML  
+[Paper Link](https://www.semanticscholar.org/paper/7c6de5a9e02a779e24504619050c6118f4eac181)  
+Influential Citation Count (136), SS-ID (7c6de5a9e02a779e24504619050c6118f4eac181)  
+
+**ABSTRACT**  
+Numerous important problems can be framed as learning from graph data. We propose a framework for learning convolutional neural networks for arbitrary graphs. These graphs may be undirected, directed, and with both discrete and continuous node and edge attributes. Analogous to image-based convolutional networks that operate on locally connected regions of the input, we present a general approach to extracting locally connected regions from graphs. Using established benchmark data sets, we demonstrate that the learned feature representations are competitive with state of the art graph kernels and that their computation is highly efficient.
+{{< /ci-details >}}| 2D vectors |
+|{{< ci-details summary="Pan et al. (2016)" >}}
+Shirui Pan, Jia Wu, Xingquan Zhu, Chengqi Zhang, Yang Wang. (2016)  
+**Tri-Party Deep Network Representation**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/8ba7631515d5e7e0c451af1c4772507f41540a5e)  
+Influential Citation Count (32), SS-ID (8ba7631515d5e7e0c451af1c4772507f41540a5e)  
+
+**ABSTRACT**  
+Information network mining often requires examination of linkage relationships between nodes for analysis. Recently, network representation has emerged to represent each node in a vector format, embedding network structure, so off-the-shelf machine learning methods can be directly applied for analysis. To date, existing methods only focus on one aspect of node information and cannot leverage node labels. In this paper, we propose TriDNR, a tri-party deep network representation model, using information from three parties: node structure, node content, and node labels (if available) to jointly learn optimal node representation. TriDNR is based on our new coupled deep natural language module, whose learning is enforced at three levels: (1) at the network structure level, TriDNR exploits inter-node relationship by maximizing the probability of observing surrounding nodes given a node in random walks; (2) at the node content level, TriDNR captures node-word correlation by maximizing the co-occurrence of word sequence given a node; and (3) at the node label level, TriDNR models label-word correspondence by maximizing the probability of word sequence given a class label. The tri-party information is jointly fed into the neural network model to mutually enhance each other to learn optimal representation, and results in up to 79% classification accuracy gain, compared to state-of-the-art methods.
+{{< /ci-details >}}| 2D vectors |
+|{{< ci-details summary="Herman, Melançon & Marshall (2000)" >}}
+I. Herman, G. Melançon, M. S. Marshall. (2000)  
+**Graph Visualization and Navigation in Information Visualization: A Survey**  
+IEEE Trans. Vis. Comput. Graph.  
+[Paper Link](https://www.semanticscholar.org/paper/2bbb5387adb3bd725069b1914609dc08c4ed8571)  
+Influential Citation Count (76), SS-ID (2bbb5387adb3bd725069b1914609dc08c4ed8571)  
+
+**ABSTRACT**  
+This is a survey on graph visualization and navigation techniques, as used in information visualization. Graphs appear in numerous applications such as Web browsing, state-transition diagrams, and data structures. The ability to visualize and to navigate in these potentially large, abstract graphs is often a crucial part of an application. Information visualization has specific requirements, which means that this survey approaches the results of traditional graph drawing from a different perspective.
+{{< /ci-details >}}| PCA |
+|{{< ci-details summary="Maaten & Hinton (2008)" >}}
+L. V. D. Maaten, Geoffrey E. Hinton. (2008)  
+**Visualizing Data using t-SNE**  
+  
+[Paper Link](https://www.semanticscholar.org/paper/1c46943103bd7b7a2c7be86859995a4144d1938b)  
+Influential Citation Count (826), SS-ID (1c46943103bd7b7a2c7be86859995a4144d1938b)  
+
+**ABSTRACT**  
+We present a new technique called “t-SNE” that visualizes high-dimensional data by giving each datapoint a location in a two or three-dimensional map. The technique is a variation of Stochastic Neighbor Embedding (Hinton and Roweis, 2002) that is much easier to optimize, and produces significantly better visualizations by reducing the tendency to crowd points together in the center of the map. t-SNE is better than existing techniques at creating a single map that reveals structure at many different scales. This is particularly important for high-dimensional data that lie on several different, but related, low-dimensional manifolds, such as images of objects from multiple classes seen from multiple viewpoints. For visualizing the structure of very large datasets, we show how t-SNE can use random walks on neighborhood graphs to allow the implicit structure of all of the data to influence the way in which a subset of the data is displayed. We illustrate the performance of t-SNE on a wide variety of datasets and compare it with many other non-parametric visualization techniques, including Sammon mapping, Isomap, and Locally Linear Embedding. The visualizations produced by t-SNE are significantly better than those produced by the other techniques on almost all of the datasets.
+{{< /ci-details >}}| t-SNE |
+|{{< ci-details summary="Tenenbaum, De Silva & Langford (2000)" >}}
+J. Tenenbaum, V. De Silva, J. Langford. (2000)  
+**A global geometric framework for nonlinear dimensionality reduction.**  
+Science  
+[Paper Link](https://www.semanticscholar.org/paper/3537fcd0ff99a3b3cb3d279012df826358420556)  
+Influential Citation Count (1143), SS-ID (3537fcd0ff99a3b3cb3d279012df826358420556)  
+
+**ABSTRACT**  
+Scientists working with large volumes of high-dimensional data, such as global climate patterns, stellar spectra, or human gene distributions, regularly confront the problem of dimensionality reduction: finding meaningful low-dimensional structures hidden in their high-dimensional observations. The human brain confronts the same problem in everyday perception, extracting from its high-dimensional sensory inputs-30,000 auditory nerve fibers or 10(6) optic nerve fibers-a manageably small number of perceptually relevant features. Here we describe an approach to solving dimensionality reduction problems that uses easily measured local metric information to learn the underlying global geometry of a data set. Unlike classical techniques such as principal component analysis (PCA) and multidimensional scaling (MDS), our approach is capable of discovering the nonlinear degrees of freedom that underlie complex natural observations, such as human handwriting or images of a face under different viewing conditions. In contrast to previous algorithms for nonlinear dimensionality reduction, ours efficiently computes a globally optimal solution, and, for an important class of data manifolds, is guaranteed to converge asymptotically to the true structure.
+{{< /ci-details >}}| other dimension reduction frameworks |
+|{{< ci-details summary="De Oliveira & Levkowitz (2003)" >}}
+M. C. Oliveira, H. Levkowitz. (2003)  
+**From Visual Data Exploration to Visual Data Mining: A Survey**  
+IEEE Trans. Vis. Comput. Graph.  
+[Paper Link](https://www.semanticscholar.org/paper/1e008a1f5484094eb5794672d7c7318dd86f4fb5)  
+Influential Citation Count (22), SS-ID (1e008a1f5484094eb5794672d7c7318dd86f4fb5)  
+
+**ABSTRACT**  
+We survey work on the different uses of graphical mapping and interaction techniques for visual data mining of large data sets represented as table data. Basic terminology related to data mining, data sets, and visualization is introduced. Previous work on information visualization is reviewed in light of different categorizations of techniques and systems. The role of interaction techniques is discussed, in addition to work addressing the question of selecting and evaluating visualization techniques. We review some representative work on the use of information visualization techniques in the context of mining data. This includes both visual data exploration and visually expressing the outcome of specific mining algorithms. We also review recent innovative approaches that attempt to integrate visualization into the DM/KDD process, using it to enhance user interaction and comprehension.
+{{< /ci-details >}}| other dimension reduction frameworks |
+|{{< ci-details summary="Perozzi, Al-Rfou & Skiena (2014)" >}}
+Bryan Perozzi, Rami Al-Rfou, S. Skiena. (2014)  
+**DeepWalk: online learning of social representations**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/fff114cbba4f3ba900f33da574283e3de7f26c83)  
+Influential Citation Count (1335), SS-ID (fff114cbba4f3ba900f33da574283e3de7f26c83)  
+
+**ABSTRACT**  
+We present DeepWalk, a novel approach for learning latent representations of vertices in a network. These latent representations encode social relations in a continuous vector space, which is easily exploited by statistical models. DeepWalk generalizes recent advancements in language modeling and unsupervised feature learning (or deep learning) from sequences of words to graphs. DeepWalk uses local information obtained from truncated random walks to learn latent representations by treating walks as the equivalent of sentences. We demonstrate DeepWalk's latent representations on several multi-label network classification tasks for social networks such as BlogCatalog, Flickr, and YouTube. Our results show that DeepWalk outperforms challenging baselines which are allowed a global view of the network, especially in the presence of missing information. DeepWalk's representations can provide F1 scores up to 10% higher than competing methods when labeled data is sparse. In some experiments, DeepWalk's representations are able to outperform all baseline methods while using 60% less training data. DeepWalk is also scalable. It is an online learning algorithm which builds useful incremental results, and is trivially parallelizable. These qualities make it suitable for a broad class of real world applications such as network classification, and anomaly detection.
+{{< /ci-details >}}| embedded nodes visualization |
+|{{< ci-details summary="Grover & Leskovec (2016)" >}}
+Aditya Grover, J. Leskovec. (2016)  
+**node2vec: Scalable Feature Learning for Networks**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/36ee2c8bd605afd48035d15fdc6b8c8842363376)  
+Influential Citation Count (1119), SS-ID (36ee2c8bd605afd48035d15fdc6b8c8842363376)  
+
+**ABSTRACT**  
+Prediction tasks over nodes and edges in networks require careful effort in engineering features used by learning algorithms. Recent research in the broader field of representation learning has led to significant progress in automating prediction by learning the features themselves. However, present feature learning approaches are not expressive enough to capture the diversity of connectivity patterns observed in networks. Here we propose node2vec, an algorithmic framework for learning continuous feature representations for nodes in networks. In node2vec, we learn a mapping of nodes to a low-dimensional space of features that maximizes the likelihood of preserving network neighborhoods of nodes. We define a flexible notion of a node's network neighborhood and design a biased random walk procedure, which efficiently explores diverse neighborhoods. Our algorithm generalizes prior work which is based on rigid notions of network neighborhoods, and we argue that the added flexibility in exploring neighborhoods is the key to learning richer representations. We demonstrate the efficacy of node2vec over existing state-of-the-art techniques on multi-label classification and link prediction in several real-world networks from diverse domains. Taken together, our work represents a new way for efficiently learning state-of-the-art task-independent representations in complex networks.
+{{< /ci-details >}}| embedded nodes visualization |
+|{{< ci-details summary="Tang et al. (2015)" >}}
+Jian Tang, Meng Qu, Mingzhe Wang, Ming Zhang, Jun Yan, Q. Mei. (2015)  
+**LINE: Large-scale Information Network Embedding**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/0834e74304b547c9354b6d7da6fa78ef47a48fa8)  
+Influential Citation Count (832), SS-ID (0834e74304b547c9354b6d7da6fa78ef47a48fa8)  
+
+**ABSTRACT**  
+This paper studies the problem of embedding very large information networks into low-dimensional vector spaces, which is useful in many tasks such as visualization, node classification, and link prediction. Most existing graph embedding methods do not scale for real world information networks which usually contain millions of nodes. In this paper, we propose a novel network embedding method called the ``LINE,'' which is suitable for arbitrary types of information networks: undirected, directed, and/or weighted. The method optimizes a carefully designed objective function that preserves both the local and global network structures. An edge-sampling algorithm is proposed that addresses the limitation of the classical stochastic gradient descent and improves both the effectiveness and the efficiency of the inference. Empirical experiments prove the effectiveness of the LINE on a variety of real-world information networks, including language networks, social networks, and citation networks. The algorithm is very efficient, which is able to learn the embedding of a network with millions of vertices and billions of edges in a few hours on a typical single machine. The source code of the LINE is available online\footnote{\url{https://github.com/tangjianpku/LINE}}.
+{{< /ci-details >}}| embedded nodes visualization |
+|{{< ci-details summary="Ou et al. (2016)" >}}
+Mingdong Ou, Peng Cui, J. Pei, Ziwei Zhang, Wenwu Zhu. (2016)  
+**Asymmetric Transitivity Preserving Graph Embedding**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/07627bf7eb649220ffbcdf6bf233e3a4a76e8590)  
+Influential Citation Count (111), SS-ID (07627bf7eb649220ffbcdf6bf233e3a4a76e8590)  
+
+**ABSTRACT**  
+Graph embedding algorithms embed a graph into a vector space where the structure and the inherent properties of the graph are preserved. The existing graph embedding methods cannot preserve the asymmetric transitivity well, which is a critical property of directed graphs. Asymmetric transitivity depicts the correlation among directed edges, that is, if there is a directed path from u to v, then there is likely a directed edge from u to v. Asymmetric transitivity can help in capturing structures of graphs and recovering from partially observed graphs. To tackle this challenge, we propose the idea of preserving asymmetric transitivity by approximating high-order proximity which are based on asymmetric transitivity. In particular, we develop a novel graph embedding algorithm, High-Order Proximity preserved Embedding (HOPE for short), which is scalable to preserve high-order proximities of large scale graphs and capable of capturing the asymmetric transitivity. More specifically, we first derive a general formulation that cover multiple popular high-order proximity measurements, then propose a scalable embedding algorithm to approximate the high-order proximity measurements based on their general formulation. Moreover, we provide a theoretical upper bound on the RMSE (Root Mean Squared Error) of the approximation. Our empirical experiments on a synthetic dataset and three real-world datasets demonstrate that HOPE can approximate the high-order proximities significantly better than the state-of-art algorithms and outperform the state-of-art algorithms in tasks of reconstruction, link prediction and vertex recommendation.
+{{< /ci-details >}}| embedded nodes visualization |
+|{{< ci-details summary="Wang, Cui & Zhu (2016)" >}}
+Daixin Wang, Peng Cui, Wenwu Zhu. (2016)  
+**Structural Deep Network Embedding**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
+Influential Citation Count (223), SS-ID (d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
+
+**ABSTRACT**  
+Network embedding is an important method to learn low-dimensional representations of vertexes in networks, aiming to capture and preserve the network structure. Almost all the existing network embedding methods adopt shallow models. However, since the underlying network structure is complex, shallow models cannot capture the highly non-linear network structure, resulting in sub-optimal network representations. Therefore, how to find a method that is able to effectively capture the highly non-linear network structure and preserve the global and local structure is an open yet important problem. To solve this problem, in this paper we propose a Structural Deep Network Embedding method, namely SDNE. More specifically, we first propose a semi-supervised deep model, which has multiple layers of non-linear functions, thereby being able to capture the highly non-linear network structure. Then we propose to exploit the first-order and second-order proximity jointly to preserve the network structure. The second-order proximity is used by the unsupervised component to capture the global network structure. While the first-order proximity is used as the supervised information in the supervised component to preserve the local network structure. By jointly optimizing them in the semi-supervised deep model, our method can preserve both the local and global network structure and is robust to sparse networks. Empirically, we conduct the experiments on five real-world networks, including a language network, a citation network and three social networks. The results show that compared to the baselines, our method can reconstruct the original network significantly better and achieves substantial gains in three applications, i.e. multi-label classification, link prediction and visualization.
+{{< /ci-details >}}| embedded nodes visualization |
+|{{< ci-details summary="Tang et al. (2016)" >}}
+Jian Tang, J. Liu, Ming Zhang, Q. Mei. (2016)  
+**Visualizing Large-scale and High-dimensional Data**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/30d0f3ec0f80439f561f9912831ea7f3ccf8133c)  
+Influential Citation Count (31), SS-ID (30d0f3ec0f80439f561f9912831ea7f3ccf8133c)  
+
+**ABSTRACT**  
+We study the problem of visualizing large-scale and high-dimensional data in a low-dimensional (typically 2D or 3D) space. Much success has been reported recently by techniques that first compute a similarity structure of the data points and then project them into a low-dimensional space with the structure preserved. These two steps suffer from considerable computational costs, preventing the state-of-the-art methods such as the t-SNE from scaling to large-scale and high-dimensional data (e.g., millions of data points and hundreds of dimensions). We propose the LargeVis, a technique that first constructs an accurately approximated K-nearest neighbor graph from the data and then layouts the graph in the low-dimensional space. Comparing to t-SNE, LargeVis significantly reduces the computational cost of the graph construction step and employs a principled probabilistic model for the visualization step, the objective of which can be effectively optimized through asynchronous stochastic gradient descent with a linear time complexity. The whole procedure thus easily scales to millions of high-dimensional data points. Experimental results on real-world data sets demonstrate that the LargeVis outperforms the state-of-the-art methods in both efficiency and effectiveness. The hyper-parameters of LargeVis are also much more stable over different data sets.
+{{< /ci-details >}}| evaluation of graph embeddings for large structural data visualization |
+|{{< ci-details summary="Didimo, Liotta & Montecchiani (2018)" >}}
+W. Didimo, G. Liotta, Fabrizio Montecchiani. (2018)  
+**A Survey on Graph Drawing Beyond Planarity**  
+ACM Comput. Surv.  
+[Paper Link](https://www.semanticscholar.org/paper/2900ef06167eb5684020db9ccfcb9fe42a07a919)  
+Influential Citation Count (2), SS-ID (2900ef06167eb5684020db9ccfcb9fe42a07a919)  
+
+**ABSTRACT**  
+Graph Drawing Beyond Planarity is a rapidly growing research area that classifies and studies geometric representations of nonplanar graphs in terms of forbidden crossing configurations. The aim of this survey is to describe the main research directions in this area, the most prominent known results, and some of the most challenging open problems.
+{{< /ci-details >}}| graph visualization techniques beyond planar mappings |
 
 ### Network compression
 
+{{< box-with-title title="Definition 11 (Network Compression, Simplification or Sparsification)" >}}
+**Network Compression, Simplification or Sparsification** is a task of reducing the number of nodes and edges in a graph, for further efficient application of graph algorithms.
+{{< /box-with-title >}}
+
+| Paper | Approach |
+|-------|----------|
+|{{< ci-details summary="As Feder & Motwani (1991)" >}}
+T. Feder, R. Motwani. (1991)  
+**Clique partitions, graph compression and speeding-up algorithms**  
+STOC '91  
+[Paper Link](https://www.semanticscholar.org/paper/e527be9afd581b7e2a4e5b6e6a802be7d7590373)  
+Influential Citation Count (18), SS-ID (e527be9afd581b7e2a4e5b6e6a802be7d7590373)  
+
+**ABSTRACT**  
+We first consider the problem of partitioning the edges of a graph ~ into bipartite cliques such that the total order of the cliques is minimized, where the order of a clique is the number of vertices in it. It is shown that the problem is NP-complete. We then prove the existence of a partition of small total order in a sufficiently dense graph and devise an efilcient algorithm to compute such a partition. It turns out that our algorithm exhibits a trade-off between the total order of the partition and the running time. Next, we define the notion of a compression of a graph ~ and use the result on graph partitioning to efficiently compute an optimal compression for graphs of a given size. An interesting application of the graph compression result arises from the fact that several graph algorithms can be adapted to work with the compressed rep~esentation of the input graph, thereby improving the bound on their running times particularly on dense graphs. This makes use of the trade-off result we obtain from our partitioning algorithm. The algorithms analyzed include those for matchings, vertex connectivity, edge connectivity and shortest paths. In each case, we improve upon the running times of the best-known algorithms for these problems.
+{{< /ci-details >}}| first introduced the concept of network compression |
+|{{< ci-details summary="Pardalos & Xue (1994)" >}}
+P. Pardalos, J. Xue. (1994)  
+**The maximum clique problem**  
+J. Glob. Optim.  
+[Paper Link](https://www.semanticscholar.org/paper/8306882ebcb8066cfbfe984bfe804c3f78d40559)  
+Influential Citation Count (38), SS-ID (8306882ebcb8066cfbfe984bfe804c3f78d40559)  
+
+**ABSTRACT**  
+In this paper we present a survey of results concerning algorithms, complexity, and applications of the maximum clique problem. We discuss enumerative and exact algorithms, heuristics, and a variety of other proposed methods. An up to date bibliography on the maximum clique and related problems is also provided.
+{{< /ci-details >}}| divide the graph into groups of nodes and edges and encode them |
+|{{< ci-details summary="Tian, Hankins & Patel (2008)" >}}
+Yuanyuan Tian, R. Hankins, J. Patel. (2008)  
+**Efficient aggregation for graph summarization**  
+SIGMOD Conference  
+[Paper Link](https://www.semanticscholar.org/paper/6e9cf091dd709b557b32e7239647753680f0645b)  
+Influential Citation Count (28), SS-ID (6e9cf091dd709b557b32e7239647753680f0645b)  
+
+**ABSTRACT**  
+Graphs are widely used to model real world objects and their relationships, and large graph datasets are common in many application domains. To understand the underlying characteristics of large graphs, graph summarization techniques are critical. However, existing graph summarization methods are mostly statistical (studying statistics such as degree distributions, hop-plots and clustering coefficients). These statistical methods are very useful, but the resolutions of the summaries are hard to control.  In this paper, we introduce two database-style operations to summarize graphs. Like the OLAP-style aggregation methods that allow users to drill-down or roll-up to control the resolution of summarization, our methods provide an analogous functionality for large graph datasets. The first operation, called SNAP, produces a summary graph by grouping nodes based on user-selected node attributes and relationships. The second operation, called k-SNAP, further allows users to control the resolutions of summaries and provides the "drill-down" and "roll-up" abilities to navigate through summaries with different resolutions. We propose an efficient algorithm to evaluate the SNAP operation. In addition, we prove that the k-SNAP computation is NP-complete. We propose two heuristic methods to approximate the k-SNAP results. Through extensive experiments on a variety of real and synthetic datasets, we demonstrate the effectiveness and efficiency of the proposed methods.
+{{< /ci-details >}}| divide the graph into groups of nodes and edges and encode them |
+|{{< ci-details summary="Toivonen et al. (2011)" >}}
+Hannu (TT) Toivonen, Fang Zhou, Aleksi Hartikainen, Atte Hinkka. (2011)  
+**Compression of weighted graphs**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/a8b6b6baaa0d81ed01bb5f387b7ab14f7f234393)  
+Influential Citation Count (14), SS-ID (a8b6b6baaa0d81ed01bb5f387b7ab14f7f234393)  
+
+**ABSTRACT**  
+We propose to compress weighted graphs (networks), motivated by the observation that large networks of social, biological, or other relations can be complex to handle and visualize. In the process also known as graph simplification, nodes and (unweighted) edges are grouped to supernodes and superedges, respectively, to obtain a smaller graph. We propose models and algorithms for weighted graphs. The interpretation (i.e. decompression) of a compressed, weighted graph is that a pair of original nodes is connected by an edge if their supernodes are connected by one, and that the weight of an edge is approximated to be the weight of the superedge. The compression problem now consists of choosing supernodes, superedges, and superedge weights so that the approximation error is minimized while the amount of compression is maximized.  In this paper, we formulate this task as the 'simple weighted graph compression problem'. We then propose a much wider class of tasks under the name of 'generalized weighted graph compression problem'. The generalized task extends the optimization to preserve longer-range connectivities between nodes, not just individual edge weights. We study the properties of these problems and propose a range of algorithms to solve them, with different balances between complexity and quality of the result. We evaluate the problems and algorithms experimentally on real networks. The results indicate that weighted graphs can be compressed efficiently with relatively little compression error.
+{{< /ci-details >}}| divide the graph into groups of nodes and edges and encode them |
+|{{< ci-details summary="Navlakha, Rastogi & Shrivastava (2008)" >}}
+S. Navlakha, R. Rastogi, Nisheeth Shrivastava. (2008)  
+**Graph summarization with bounded error**  
+SIGMOD Conference  
+[Paper Link](https://www.semanticscholar.org/paper/c948d5342f4ffe8163fc91893a100c9617a2a305)  
+Influential Citation Count (49), SS-ID (c948d5342f4ffe8163fc91893a100c9617a2a305)  
+
+**ABSTRACT**  
+We propose a highly compact two-part representation of a given graph G consisting of a graph summary and a set of corrections. The graph summary is an aggregate graph in which each node corresponds to a set of nodes in G, and each edge represents the edges between all pair of nodes in the two sets. On the other hand, the corrections portion specifies the list of edge-corrections that should be applied to the summary to recreate G. Our representations allow for both lossless and lossy graph compression with bounds on the introduced error. Further, in combination with the MDL principle, they yield highly intuitive coarse-level summaries of the input graph G. We develop algorithms to construct highly compressed graph representations with small sizes and guaranteed accuracy, and validate our approach through an extensive set of experiments with multiple real-life graph data sets.  To the best of our knowledge, this is the first work to compute graph summaries using the MDL principle, and use the summaries (along with corrections) to compress graphs with bounded error.
+{{< /ci-details >}}| Minimum Description Length (MDL) |
+|{{< ci-details summary="Ou et al. (2016)" >}}
+Mingdong Ou, Peng Cui, J. Pei, Ziwei Zhang, Wenwu Zhu. (2016)  
+**Asymmetric Transitivity Preserving Graph Embedding**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/07627bf7eb649220ffbcdf6bf233e3a4a76e8590)  
+Influential Citation Count (111), SS-ID (07627bf7eb649220ffbcdf6bf233e3a4a76e8590)  
+
+**ABSTRACT**  
+Graph embedding algorithms embed a graph into a vector space where the structure and the inherent properties of the graph are preserved. The existing graph embedding methods cannot preserve the asymmetric transitivity well, which is a critical property of directed graphs. Asymmetric transitivity depicts the correlation among directed edges, that is, if there is a directed path from u to v, then there is likely a directed edge from u to v. Asymmetric transitivity can help in capturing structures of graphs and recovering from partially observed graphs. To tackle this challenge, we propose the idea of preserving asymmetric transitivity by approximating high-order proximity which are based on asymmetric transitivity. In particular, we develop a novel graph embedding algorithm, High-Order Proximity preserved Embedding (HOPE for short), which is scalable to preserve high-order proximities of large scale graphs and capable of capturing the asymmetric transitivity. More specifically, we first derive a general formulation that cover multiple popular high-order proximity measurements, then propose a scalable embedding algorithm to approximate the high-order proximity measurements based on their general formulation. Moreover, we provide a theoretical upper bound on the RMSE (Root Mean Squared Error) of the approximation. Our empirical experiments on a synthetic dataset and three real-world datasets demonstrate that HOPE can approximate the high-order proximities significantly better than the state-of-art algorithms and outperform the state-of-art algorithms in tasks of reconstruction, link prediction and vertex recommendation.
+{{< /ci-details >}}| compression using graph embeddings |
+|{{< ci-details summary="Wang, Cui & Zhu (2016)" >}}
+Daixin Wang, Peng Cui, Wenwu Zhu. (2016)  
+**Structural Deep Network Embedding**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
+Influential Citation Count (223), SS-ID (d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
+
+**ABSTRACT**  
+Network embedding is an important method to learn low-dimensional representations of vertexes in networks, aiming to capture and preserve the network structure. Almost all the existing network embedding methods adopt shallow models. However, since the underlying network structure is complex, shallow models cannot capture the highly non-linear network structure, resulting in sub-optimal network representations. Therefore, how to find a method that is able to effectively capture the highly non-linear network structure and preserve the global and local structure is an open yet important problem. To solve this problem, in this paper we propose a Structural Deep Network Embedding method, namely SDNE. More specifically, we first propose a semi-supervised deep model, which has multiple layers of non-linear functions, thereby being able to capture the highly non-linear network structure. Then we propose to exploit the first-order and second-order proximity jointly to preserve the network structure. The second-order proximity is used by the unsupervised component to capture the global network structure. While the first-order proximity is used as the supervised information in the supervised component to preserve the local network structure. By jointly optimizing them in the semi-supervised deep model, our method can preserve both the local and global network structure and is robust to sparse networks. Empirically, we conduct the experiments on five real-world networks, including a language network, a citation network and three social networks. The results show that compared to the baselines, our method can reconstruct the original network significantly better and achieves substantial gains in three applications, i.e. multi-label classification, link prediction and visualization.
+{{< /ci-details >}}| compression using graph embeddings |
+|{{< ci-details summary="Khalil et al. (2017)" >}}
+Elias Boutros Khalil, H. Dai, Yuyu Zhang, B. Dilkina, Le Song. (2017)  
+**Learning Combinatorial Optimization Algorithms over Graphs**  
+NIPS  
+[Paper Link](https://www.semanticscholar.org/paper/f306b1a973d9fa8c693036ca75fa8e30ad709635)  
+Influential Citation Count (90), SS-ID (f306b1a973d9fa8c693036ca75fa8e30ad709635)  
+
+**ABSTRACT**  
+The design of good heuristics or approximation algorithms for NP-hard combinatorial optimization problems often requires significant specialized knowledge and trial-and-error. Can we automate this challenging, tedious process, and learn the algorithms instead? In many real-world applications, it is typically the case that the same optimization problem is solved again and again on a regular basis, maintaining the same problem structure but differing in the data. This provides an opportunity for learning heuristic algorithms that exploit the structure of such recurring problems. In this paper, we propose a unique combination of reinforcement learning and graph embedding to address this challenge. The learned greedy policy behaves like a meta-algorithm that incrementally constructs a solution, and the action is determined by the output of a graph embedding network capturing the current state of the solution. We show that our framework can be applied to a diverse range of optimization problems over graphs, and learns effective algorithms for the Minimum Vertex Cover, Maximum Cut and Traveling Salesman problems.
+{{< /ci-details >}}| graph compression for constructing graph-based heuristics |
+
 ## Applications to Real-World Problems
 
-### Computer vision
+| Field | Paper | Topic |
+|-------|-------|-------|
+| Computer Vision | {{< ci-details summary="Monti et al. (2017)" >}}
+Federico Monti, D. Boscaini, Jonathan Masci, E. Rodolà, Jan Svoboda, M. Bronstein. (2016)  
+**Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs**  
+2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)  
+[Paper Link](https://www.semanticscholar.org/paper/f09f7888aa5aeaf88a2a44aea768d9a8747e97d2)  
+Influential Citation Count (121), SS-ID (f09f7888aa5aeaf88a2a44aea768d9a8747e97d2)  
 
-### Natural language processing
+**ABSTRACT**  
+Deep learning has achieved a remarkable performance breakthrough in several fields, most notably in speech recognition, natural language processing, and computer vision. In particular, convolutional neural network (CNN) architectures currently produce state-of-the-art performance on a variety of image analysis tasks such as object detection and recognition. Most of deep learning research has so far focused on dealing with 1D, 2D, or 3D Euclidean-structured data such as acoustic signals, images, or videos. Recently, there has been an increasing interest in geometric deep learning, attempting to generalize deep learning methods to non-Euclidean structured data such as graphs and manifolds, with a variety of applications from the domains of network analysis, computational social science, or computer graphics. In this paper, we propose a unified framework allowing to generalize CNN architectures to non-Euclidean domains (graphs and manifolds) and learn local, stationary, and compositional task-specific features. We show that various non-Euclidean CNN methods previously proposed in the literature can be considered as particular instances of our framework. We test the proposed method on standard tasks from the realms of image-, graph-and 3D shape analysis and show that it consistently outperforms previous approaches.
+{{< /ci-details >}} | 3D shape reconstruction |
+| Computer Vision | {{< ci-details summary="Chen et al. (2019)" >}}
+Yunpeng Chen, Marcus Rohrbach, Zhicheng Yan, Shuicheng Yan, Jiashi Feng, Yannis Kalantidis. (2018)  
+**Graph-Based Global Reasoning Networks**  
+2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)  
+[Paper Link](https://www.semanticscholar.org/paper/1eaee16f6395c9602ad1dc17e69a6e235ec9ddd6)  
+Influential Citation Count (32), SS-ID (1eaee16f6395c9602ad1dc17e69a6e235ec9ddd6)  
 
-### Knowledge graph completion
+**ABSTRACT**  
+Globally modeling and reasoning over relations between regions can be beneficial for many computer vision tasks on both images and videos. Convolutional Neural Networks (CNNs) excel at modeling local relations by convolution operations, but they are typically inefficient at capturing global relations between distant regions and require stacking multiple convolution layers. In this work, we propose a new approach for reasoning globally in which a set of features are globally aggregated over the coordinate space and then projected to an interaction space where relational reasoning can be efficiently computed. After reasoning, relation-aware features are distributed back to the original coordinate space for down-stream tasks. We further present a highly efficient instantiation of the proposed approach and introduce the Global Reasoning unit (GloRe unit) that implements the coordinate-interaction space mapping by weighted global pooling and weighted broadcasting, and the relation reasoning via graph convolution on a small graph in interaction space. The proposed GloRe unit is lightweight, end-to-end trainable and can be easily plugged into existing CNNs for a wide range of tasks. Extensive experiments show our GloRe unit can consistently boost the performance of state-of-the-art backbone architectures, including ResNet, ResNeXt, SE-Net and DPN, for both 2D and 3D CNNs, on image classification, semantic segmentation and video action recognition task.
+{{< /ci-details >}} | GloRe; applies GCNs over interaction data |
+| Computer Vision | {{< ci-details summary="Wang et al. (2018)" >}}
+Peng Wang, Qi Wu, Jiewei Cao, Chunhua Shen, Lianli Gao, A. V. Hengel. (2018)  
+**Neighbourhood Watch: Referring Expression Comprehension via Language-Guided Graph Attention Networks**  
+2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)  
+[Paper Link](https://www.semanticscholar.org/paper/8ca91ad7763be4da05238aa17a9e5628f619dc0b)  
+Influential Citation Count (12), SS-ID (8ca91ad7763be4da05238aa17a9e5628f619dc0b)  
 
-### Data mining
+**ABSTRACT**  
+The task in referring expression comprehension is to localize the object instance in an image described by a referring expression phrased in natural language. As a language-to-vision matching task, the key to this problem is to learn a discriminative object feature that can adapt to the expression used. To avoid ambiguity, the expression normally tends to describe not only the properties of the referent itself, but also its relationships to its neighbourhood. To capture and exploit this important information we propose a graph-based, language-guided attention mechanism. Being composed of node attention component and edge attention component, the proposed graph attention mechanism explicitly represents inter-object relationships, and properties with a flexibility and power impossible with competing approaches. Furthermore, the proposed graph attention mechanism enables the comprehension decision to be visualizable and explainable. Experiments on three referring expression comprehension datasets show the advantage of the proposed approach.
+{{< /ci-details >}} | build relation graph of image objects for localizing object instance from natural language expression |
+| Computer Vision | {{< ci-details summary="Yang et al. (2019)" >}}
+Lei Yang, Xiaohang Zhan, Dapeng Chen, Junjie Yan, Chen Change Loy, Dahua Lin. (2019)  
+**Learning to Cluster Faces on an Affinity Graph**  
+2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)  
+[Paper Link](https://www.semanticscholar.org/paper/32873f6111963607d3f768f4685fe8137fdd1253)  
+Influential Citation Count (16), SS-ID (32873f6111963607d3f768f4685fe8137fdd1253)  
 
-### Recommender systems
+**ABSTRACT**  
+Face recognition sees remarkable progress in recent years, and its performance has reached a very high level. Taking it to a next level requires substantially larger data, which would involve prohibitive annotation cost. Hence, exploiting unlabeled data becomes an appealing alternative. Recent works have shown that clustering unlabeled faces is a promising approach, often leading to notable performance gains. Yet, how to effectively cluster, especially on a large-scale (i.e. million-level or above) dataset, remains an open question. A key challenge lies in the complex variations of cluster patterns, which make it difficult for conventional clustering methods to meet the needed accuracy. This work explores a novel approach, namely, learning to cluster instead of relying on hand-crafted criteria. Specifically, we propose a framework based on graph convolutional network, which combines a detection and a segmentation module to pinpoint face clusters. Experiments show that our method yields significantly more accurate face clusters, which, as a result, also lead to further performance gain in face recognition.
+{{< /ci-details >}} | face clustering with metric learning |
+| Computer Vision | {{< ci-details summary="Wang et al. (2019)" >}}
+Zhongdao Wang, Liang Zheng, Yali Li, Shengjin Wang. (2019)  
+**Linkage Based Face Clustering via Graph Convolution Network**  
+2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)  
+[Paper Link](https://www.semanticscholar.org/paper/6834b6a529c969e5feb1fb77713eff8f19704b31)  
+Influential Citation Count (18), SS-ID (6834b6a529c969e5feb1fb77713eff8f19704b31)  
 
-### Biomedical data science
+**ABSTRACT**  
+In this paper, we present an accurate and scalable approach to the face clustering task. We aim at grouping a set of faces by their potential identities. We formulate this task as a link prediction problem: a link exists between two faces if they are of the same identity. The key idea is that we find the local context in the feature space around an instance (face) contains rich information about the linkage relationship between this instance and its neighbors. By constructing sub-graphs around each instance as input data, which depict the local context, we utilize the graph convolution network (GCN) to perform reasoning and infer the likelihood of linkage between pairs in the sub-graphs. Experiments show that our method is more robust to the complex distribution of faces than conventional methods, yielding favorably comparable results to state-of-the-art methods on standard face clustering benchmarks, and is scalable to large datasets. Furthermore, we show that the proposed method does not need the number of clusters as prior, is aware of noises and outliers, and can be extended to a multi-view version for more accurate clustering accuracy.
+{{< /ci-details >}} | face clustering with metric learnin |
+| Computer Vision | {{< ci-details summary="Kim et al. (2019)" >}}
+Daesik Kim, Seonhoon Kim, Nojun Kwak. (2018)  
+**Textbook Question Answering with Knowledge Graph Understanding and Unsupervised Open-set Text Comprehension**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/b22ce969f203fb548c42034ae7fc78cc043fdc16)  
+Influential Citation Count (0), SS-ID (b22ce969f203fb548c42034ae7fc78cc043fdc16)  
 
-### Reinforcement learning
+**ABSTRACT**  
+In this work, we introduce a novel algorithm for solving the textbook question answering (TQA) task which describes more realistic QA problems compared to other recent tasks. We mainly focus on two related issues with analysis of TQA dataset. First, it requires to comprehend long lessons to extract knowledge. To tackle this issue of extracting knowledge features from long lessons, we establish knowledge graph from texts and incorporate graph convolutional network (GCN). Second, scientific terms are not spread over the chapters and data splits in TQA dataset. To overcome this so called `out-of-domain' issue, we add novel unsupervised text learning process without any annotations before learning QA problems. The experimental results show that our model significantly outperforms prior state-of-the-art methods. Moreover, ablation studies validate that both methods of incorporating GCN for extracting knowledge from long lessons and our newly proposed unsupervised learning process are meaningful to solve this problem.
+{{< /ci-details >}} | few-shot learning classification |
+| Computer Vision | {{< ci-details summary="Shi et al. (2019)" >}}
+Lei Shi, Yifan Zhang, Jian Cheng, Hanqing Lu. (2019)  
+**Skeleton-Based Action Recognition With Directed Graph Neural Networks**  
+2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)  
+[Paper Link](https://www.semanticscholar.org/paper/68a024d7b70ef3989a6751678f635cbe754440fc)  
+Influential Citation Count (34), SS-ID (68a024d7b70ef3989a6751678f635cbe754440fc)  
+
+**ABSTRACT**  
+The skeleton data have been widely used for the action recognition tasks since they can robustly accommodate dynamic circumstances and complex backgrounds. In existing methods, both the joint and bone information in skeleton data have been proved to be of great help for action recognition tasks. However, how to incorporate these two types of data to best take advantage of the relationship between joints and bones remains a problem to be solved. In this work, we represent the skeleton data as a directed acyclic graph based on the kinematic dependency between the joints and bones in the natural human body. A novel directed graph neural network is designed specially to extract the information of joints, bones and their relations and make prediction based on the extracted features. In addition, to better fit the action recognition task, the topological structure of the graph is made adaptive based on the training process, which brings notable improvement. Moreover, the motion information of the skeleton sequence is exploited and combined with the spatial information to further enhance the performance in a two-stream framework. Our final model is tested on two large-scale datasets, NTU-RGBD and Skeleton-Kinetics, and exceeds state-of-the-art performance on both of them.
+{{< /ci-details >}} | human skeleton graph |
+| Computer Vision | {{< ci-details summary="Si et al. (2019)" >}}
+Chenyang Si, Wentao Chen, Wei Wang, Liang Wang, T. Tan. (2019)  
+**An Attention Enhanced Graph Convolutional LSTM Network for Skeleton-Based Action Recognition**  
+2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)  
+[Paper Link](https://www.semanticscholar.org/paper/074611d0c9f527bc0ad06f00df779f3361e38b83)  
+Influential Citation Count (29), SS-ID (074611d0c9f527bc0ad06f00df779f3361e38b83)  
+
+**ABSTRACT**  
+Skeleton-based action recognition is an important task that requires the adequate understanding of movement characteristics of a human action from the given skeleton sequence. Recent studies have shown that exploring spatial and temporal features of the skeleton sequence is vital for this task. Nevertheless, how to effectively extract discriminative spatial and temporal features is still a challenging problem. In this paper, we propose a novel Attention Enhanced Graph Convolutional LSTM Network (AGC-LSTM) for human action recognition from skeleton data. The proposed AGC-LSTM can not only capture discriminative features in spatial configuration and temporal dynamics but also explore the co-occurrence relationship between spatial and temporal domains. We also present a temporal hierarchical architecture to increase temporal receptive fields of the top AGC-LSTM layer, which boosts the ability to learn the high-level semantic representation and significantly reduces the computation cost. Furthermore, to select discriminative spatial information, the attention mechanism is employed to enhance information of key joints in each AGC-LSTM layer. Experimental results on two datasets are provided: NTU RGB+D dataset and Northwestern-UCLA dataset. The comparison results demonstrate the effectiveness of our approach and show that our approach outperforms the state-of-the-art methods on both datasets.
+{{< /ci-details >}} | human skeleton graph |
+| Computer Vision | {{< ci-details summary="Li et al. (2019)" >}}
+Maosen Li, Siheng Chen, Xu Chen, Ya Zhang, Yanfeng Wang, Qi Tian. (2019)  
+**Actional-Structural Graph Convolutional Networks for Skeleton-Based Action Recognition**  
+2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)  
+[Paper Link](https://www.semanticscholar.org/paper/814b70cd133f97ef039bcc44124d9344dd8b3f64)  
+Influential Citation Count (40), SS-ID (814b70cd133f97ef039bcc44124d9344dd8b3f64)  
+
+**ABSTRACT**  
+Action recognition with skeleton data has recently attracted much attention in computer vision. Previous studies are mostly based on fixed skeleton graphs, only capturing local physical dependencies among joints, which may miss implicit joint correlations. To capture richer dependencies, we introduce an encoder-decoder structure, called A-link inference module, to capture action-specific latent dependencies, i.e. actional links, directly from actions. We also extend the existing skeleton graphs to represent higher-order dependencies, i.e. structural links. Combing the two types of links into a generalized skeleton graph, We further propose the actional-structural graph convolution network (AS-GCN), which stacks actional-structural graph convolution and temporal convolution as a basic building block, to learn both spatial and temporal features for action recognition. A future pose prediction head is added in parallel to the recognition head to help capture more detailed action patterns through self-supervision. We validate AS-GCN in action recognition using two skeleton data sets, NTU-RGB+D and Kinetics. The proposed AS-GCN achieves consistently large improvement compared to the state-of-the-art methods. As a side product, AS-GCN also shows promising results for future pose prediction.
+{{< /ci-details >}} | human skeleton graph |
+| Computer Vision | {{< ci-details summary="Zhang et al. (2018)" >}}
+Da Zhang, Xiyang Dai, Xin Eric Wang, Yuan-fang Wang, L. Davis. (2018)  
+**MAN: Moment Alignment Network for Natural Language Moment Retrieval via Iterative Graph Adjustment**  
+2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)  
+[Paper Link](https://www.semanticscholar.org/paper/613f59279586bd53aed57bc133246a4eb3c38977)  
+Influential Citation Count (42), SS-ID (613f59279586bd53aed57bc133246a4eb3c38977)  
+
+**ABSTRACT**  
+This research strives for natural language moment retrieval in long, untrimmed video streams. The problem is not trivial especially when a video contains multiple moments of interests and the language describes complex temporal dependencies, which often happens in real scenarios. We identify two crucial challenges: semantic misalignment and structural misalignment. However, existing approaches treat different moments separately and do not explicitly model complex moment-wise temporal relations. In this paper, we present Moment Alignment Network (MAN), a novel framework that unifies the candidate moment encoding and temporal structural reasoning in a single-shot feed-forward network. MAN naturally assigns candidate moment representations aligned with language semantics over different temporal locations and scales. Most importantly, we propose to explicitly model moment-wise temporal relations as a structured graph and devise an iterative graph adjustment network to jointly learn the best structure in an end-to-end manner. We evaluate the proposed approach on two challenging public benchmarks DiDeMo and Charades-STA, where our MAN significantly outperforms the state-of-the-art by a large margin.
+{{< /ci-details >}} | video tracking and classsification |
+| Computer Vision | {{< ci-details summary="Gao Zhang & Xu (2019)" >}}
+Junyu Gao, Tianzhu Zhang, Changsheng Xu. (2019)  
+**Graph Convolutional Tracking**  
+2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)  
+[Paper Link](https://www.semanticscholar.org/paper/53970ae69a73f547a56661fd25f6711746d277fb)  
+Influential Citation Count (13), SS-ID (53970ae69a73f547a56661fd25f6711746d277fb)  
+
+**ABSTRACT**  
+Tracking by siamese networks has achieved favorable performance in recent years. However, most of existing siamese methods do not take full advantage of spatial-temporal target appearance modeling under different contextual situations. In fact, the spatial-temporal information can provide diverse features to enhance the target representation, and the context information is important for online adaption of target localization. To comprehensively leverage the spatial-temporal structure of historical target exemplars and get benefit from the context information, in this work, we present a novel Graph Convolutional Tracking (GCT) method for high-performance visual tracking. Specifically, the GCT jointly incorporates two types of Graph Convolutional Networks (GCNs) into a siamese framework for target appearance modeling. Here, we adopt a spatial-temporal GCN to model the structured representation of historical target exemplars. Furthermore, a context GCN is designed to utilize the context of the current frame to learn adaptive features for target localization. Extensive results on 4 challenging benchmarks show that our GCT method performs favorably against state-of-the-art trackers while running around 50 frames per second.
+{{< /ci-details >}} | video tracking and classsification |
+| Computer Vision | {{< ci-details summary="Zhong et al. (2019)" >}}
+Jia-Xing Zhong, Nannan Li, Weijie Kong, Shan Liu, Thomas H. Li, Ge Li. (2019)  
+**Graph Convolutional Label Noise Cleaner: Train a Plug-And-Play Action Classifier for Anomaly Detection**  
+2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)  
+[Paper Link](https://www.semanticscholar.org/paper/a03bda078490e8ee991a1f86b53f27df7cf93a14)  
+Influential Citation Count (22), SS-ID (a03bda078490e8ee991a1f86b53f27df7cf93a14)  
+
+**ABSTRACT**  
+Video anomaly detection under weak labels is formulated as a typical multiple-instance learning problem in previous works. In this paper, we provide a new perspective, i.e., a supervised learning task under noisy labels. In such a viewpoint, as long as cleaning away label noise, we can directly apply fully supervised action classifiers to weakly supervised anomaly detection, and take maximum advantage of these well-developed classifiers. For this purpose, we devise a graph convolutional network to correct noisy labels. Based upon feature similarity and temporal consistency, our network propagates supervisory signals from high-confidence snippets to low-confidence ones. In this manner, the network is capable of providing cleaned supervision for action classifiers. During the test phase, we only need to obtain snippet-wise predictions from the action classifier without any extra post-processing. Extensive experiments on 3 datasets at different scales with 2 types of action classifiers demonstrate the efficacy of our method. Remarkably, we obtain the frame-level AUC score of 82.12% on UCF-Crime.
+{{< /ci-details >}} | video tracking and classsification |
+| Natural Language Processing | {{< ci-details summary="Marcheggiani & Titov (2017)" >}}
+Diego Marcheggiani, Ivan Titov. (2017)  
+**Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/c3a3c163f25b9181f1fb7e71a32482a7393d2088)  
+Influential Citation Count (79), SS-ID (c3a3c163f25b9181f1fb7e71a32482a7393d2088)  
+
+**ABSTRACT**  
+Semantic role labeling (SRL) is the task of identifying the predicate-argument structure of a sentence. It is typically regarded as an important step in the standard NLP pipeline. As the semantic representations are closely related to syntactic ones, we exploit syntactic information in our model. We propose a version of graph convolutional networks (GCNs), a recent class of neural networks operating on graphs, suited to model syntactic dependency graphs. GCNs over syntactic dependency trees are used as sentence encoders, producing latent feature representations of words in a sentence. We observe that GCN layers are complementary to LSTM ones: when we stack both GCN and LSTM layers, we obtain a substantial improvement over an already state-of-the-art LSTM SRL model, resulting in the best reported scores on the standard benchmark (CoNLL-2009) both for Chinese and English.
+{{< /ci-details >}} | assign semantic roles by encoding sentences with the graph convolutional network |
+| Natural Language Processing | {{< ci-details summary="Marcheggiani, Bastings & Titov (2018)" >}}
+Diego Marcheggiani, Jasmijn Bastings, Ivan Titov. (2018)  
+**Exploiting Semantics in Neural Machine Translation with Graph Convolutional Networks**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/6411da05a0e6f3e38bcac0ce57c28038ff08081c)  
+Influential Citation Count (8), SS-ID (6411da05a0e6f3e38bcac0ce57c28038ff08081c)  
+
+**ABSTRACT**  
+Semantic representations have long been argued as potentially useful for enforcing meaning preservation and improving generalization performance of machine translation methods. In this work, we are the first to incorporate information about predicate-argument structure of source sentences (namely, semantic-role representations) into neural machine translation. We use Graph Convolutional Networks (GCNs) to inject a semantic bias into sentence encoders and achieve improvements in BLEU scores over the linguistic-agnostic and syntax-aware versions on the English–German language pair.
+{{< /ci-details >}} | machine trainslation using GCN |
+| Natural Language Processing | {{< ci-details summary="Zhao et al. (2019)" >}}
+Guoshuai Zhao, Jun Yu Li, Lu Wang, Xueming Qian, Y. Fu. (2018)  
+**GraphSeq2Seq: Graph-Sequence-to-Sequence for Neural Machine Translation**  
+  
+[Paper Link](https://www.semanticscholar.org/paper/5f2a156909e2550cdc09b7d3d3d503ec5d52b1d7)  
+Influential Citation Count (1), SS-ID (5f2a156909e2550cdc09b7d3d3d503ec5d52b1d7)  
+
+**ABSTRACT**  
+Sequence-to-Sequence  (Seq2Seq)  neural  models  have  become  popular  for  text generation problems,  e.g.   neural machine translation (NMT) (Bahdanau et al.,2014;  Britz  et  al.,  2017),  text  summarization  (Nallapati  et  al.,  2017;  Wang  &Ling, 2016), and image captioning (Venugopalan et al., 2015; Liu et al., 2017). Though sequential modeling has been shown to be effective, the dependency graph among words contains additional semantic information and thus can be utilized for sentence modeling. In this paper, we propose a Graph-Sequence-to-Sequence(GraphSeq2Seq) model to fuse the dependency graph among words into the traditional  Seq2Seq  framework.   For each sample,  the sub-graph  of each word is encoded to a graph representation, which is then utilized to sequential encoding. At last, a sequence decoder is leveraged for output generation. Since above model fuses different features by contacting them together to encode, we also propose a variant of our model that regards the graph representations as additional annotations in attention mechanism (Bahdanau et al., 2014) by separately encoding different features.  Experiments on several translation benchmarks show that our models can outperform existing state-of-the-art methods, demonstrating the effectiveness of the combination of Graph2Seq and Seq2Seq.
+
+{{< /ci-details >}} | machine translation using GCN |
+| Natural Language Processing | {{< ci-details summary="Sevgili, Panchenko & Biemann (2019)" >}}
+Özge Sevgili, Alexander Panchenko, Chris Biemann. (2019)  
+**Improving Neural Entity Disambiguation with Graph Embeddings**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/540a140e4b8576e0b4edaefd5cee9d9c55da0e1d)  
+Influential Citation Count (1), SS-ID (540a140e4b8576e0b4edaefd5cee9d9c55da0e1d)  
+
+**ABSTRACT**  
+Entity Disambiguation (ED) is the task of linking an ambiguous entity mention to a corresponding entry in a knowledge base. Current methods have mostly focused on unstructured text data to learn representations of entities, however, there is structured information in the knowledge base itself that should be useful to disambiguate entities. In this work, we propose a method that uses graph embeddings for integrating structured information from the knowledge base with unstructured information from text-based representations. Our experiments confirm that graph embeddings trained on a graph of hyperlinks between Wikipedia articles improve the performances of simple feed-forward neural ED model and a state-of-the-art neural ED system.
+{{< /ci-details >}} | use the Wikipedia link graph between entities to improve the quality of entity disambiguation task |
+| Natural Language Processing | {{< ci-details summary="Luo et al. (2019)" >}}
+Hongyin Luo, Yichen Li, Jie Fu, James R. Glass. (2018)  
+**Language Modeling with Graph Temporal Convolutional Networks**  
+  
+[Paper Link](https://www.semanticscholar.org/paper/de23b3889d121102e463853269ec0bfa7cf4332f)  
+Influential Citation Count (0), SS-ID (de23b3889d121102e463853269ec0bfa7cf4332f)  
+
+**ABSTRACT**  
+Recently, there have been some attempts to use non-recurrent neural models for language modeling. However, a noticeable performance gap still remains. We propose a non-recurrent neural language model, dubbed graph temporal convolutional network (GTCN), that relies on graph neural network blocks and convolution operations. While the standard recurrent neural network language models encode sentences sequentially without modeling higher-level structural information, our model regards sentences as graphs and processes input words within a message propagation framework, aiming to learn better syntactic information by inferring skip-word connections. Specifically, the graph network blocks operate in parallel and learn the underlying graph structures in sentences without any additional annotation pertaining to structure knowledge. Experiments demonstrate that the model without recurrence can achieve comparable perplexity results in language modeling tasks and successfully learn syntactic information.
+{{< /ci-details >}} | extract syntactic and semantic information |
+| Natural Language Processing | {{< ci-details summary="Vashishth et al. (2018)" >}}
+Shikhar Vashishth, Manik Bhandari, Prateek Yadav, Piyush Rai, C. Bhattacharyya, P. Talukdar. (2018)  
+**Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/ab571a354f0847677862da027a69db9531eb08e8)  
+Influential Citation Count (9), SS-ID (ab571a354f0847677862da027a69db9531eb08e8)  
+
+**ABSTRACT**  
+Word embeddings have been widely adopted across several NLP applications. Most existing word embedding methods utilize sequential context of a word to learn its embedding. While there have been some attempts at utilizing syntactic context of a word, such methods result in an explosion of the vocabulary size. In this paper, we overcome this problem by proposing SynGCN, a flexible Graph Convolution based method for learning word embeddings. SynGCN utilizes the dependency context of a word without increasing the vocabulary size. Word embeddings learned by SynGCN outperform existing methods on various intrinsic and extrinsic tasks and provide an advantage when used with ELMo. We also propose SemGCN, an effective framework for incorporating diverse semantic knowledge for further enhancing learned word representations. We make the source code of both models available to encourage reproducible research.
+{{< /ci-details >}} | extract synactic and semantic information |
+| Natural Language Processing | {{< ci-details summary="Veyseh, Nguyen & Dou (2019)" >}}
+Amir Pouran Ben Veyseh, T. Nguyen, D. Dou. (2019)  
+**Graph based Neural Networks for Event Factuality Prediction using Syntactic and Semantic Structures**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/37d8e064df4e921bcb7b80b6d4c3ee7488a027e0)  
+Influential Citation Count (1), SS-ID (37d8e064df4e921bcb7b80b6d4c3ee7488a027e0)  
+
+**ABSTRACT**  
+Event factuality prediction (EFP) is the task of assessing the degree to which an event mentioned in a sentence has happened. For this task, both syntactic and semantic information are crucial to identify the important context words. The previous work for EFP has only combined these information in a simple way that cannot fully exploit their coordination. In this work, we introduce a novel graph-based neural network for EFP that can integrate the semantic and syntactic information more effectively. Our experiments demonstrate the advantage of the proposed model for EFP.
+{{< /ci-details >}} | extract syntactic and semantic information |
+| Natural Language Processing | {{< ci-details summary="Zhu et al. (2019)" >}}
+Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-Seng Chua, Maosong Sun. (2019)  
+**Graph Neural Networks with Generated Parameters for Relation Extraction**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/352ac73b7d92afa915c06026a4336927d550cec3)  
+Influential Citation Count (4), SS-ID (352ac73b7d92afa915c06026a4336927d550cec3)  
+
+**ABSTRACT**  
+In this paper, we propose a novel graph neural network with generated parameters (GP-GNNs). The parameters in the propagation module, i.e. the transition matrices used in message passing procedure, are produced by a generator taking natural language sentences as inputs. We verify GP-GNNs in relation extraction from text, both on bag- and instance-settings. Experimental results on a human-annotated dataset and two distantly supervised datasets show that multi-hop reasoning mechanism yields significant improvements. We also perform a qualitative analysis to demonstrate that our model could discover more accurate relations by multi-hop relational reasoning.
+{{< /ci-details >}} | proposed the Generated Parameters GNN for the Relation Extraction task |
+| Natural Language Processing | {{< ci-details summary="Guo, Zhang & Lu (2019)" >}}
+Zhijiang Guo, Yan Zhang, Wei Lu. (2019)  
+**Attention Guided Graph Convolutional Networks for Relation Extraction**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/e4363d077a890c8d5c5e66b82fe69a1bbbdd5c80)  
+Influential Citation Count (45), SS-ID (e4363d077a890c8d5c5e66b82fe69a1bbbdd5c80)  
+
+**ABSTRACT**  
+Dependency trees convey rich structural information that is proven useful for extracting relations among entities in text. However, how to effectively make use of relevant information while ignoring irrelevant information from the dependency trees remains a challenging research question. Existing approaches employing rule based hard-pruning strategies for selecting relevant partial dependency structures may not always yield optimal results. In this work, we propose Attention Guided Graph Convolutional Networks (AGGCNs), a novel model which directly takes full dependency trees as inputs. Our model can be understood as a soft-pruning approach that automatically learns how to selectively attend to the relevant sub-structures useful for the relation extraction task. Extensive results on various tasks including cross-sentence n-ary relation extraction and large-scale sentence-level relation extraction show that our model is able to better leverage the structural information of the full dependency trees, giving significantly better results than previous approaches.
+{{< /ci-details >}} | used Graph Attention Models to encode dependency tree information |
+| Natural Language Processing | {{< ci-details summary="Sahu et al. (2019)" >}}
+Sunil Kumar Sahu, Fenia Christopoulou, Makoto Miwa, S. Ananiadou. (2019)  
+**Inter-sentence Relation Extraction with Document-level Graph Convolutional Neural Network**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/358ca777d9992bdc06fdcc1940e3b18a8da68878)  
+Influential Citation Count (13), SS-ID (358ca777d9992bdc06fdcc1940e3b18a8da68878)  
+
+**ABSTRACT**  
+Inter-sentence relation extraction deals with a number of complex semantic relationships in documents, which require local, non-local, syntactic and semantic dependencies. Existing methods do not fully exploit such dependencies. We present a novel inter-sentence relation extraction model that builds a labelled edge graph convolutional neural network model on a document-level graph. The graph is constructed using various inter- and intra-sentence dependencies to capture local and non-local dependency information. In order to predict the relation of an entity pair, we utilise multi-instance learning with bi-affine pairwise scoring. Experimental results show that our model achieves comparable performance to the state-of-the-art neural models on two biochemistry datasets. Our analysis shows that all the types in the graph are effective for inter-sentence relation extraction.
+{{< /ci-details >}} | used dependency graph for relation extraction tasks |
+| Natural Language Processing | {{< ci-details summary="Banerjee & Khapra (2019)" >}}
+Suman Banerjee, Mitesh M. Khapra. (2019)  
+**Graph Convolutional Network with Sequential Attention for Goal-Oriented Dialogue Systems**  
+Transactions of the Association for Computational Linguistics  
+[Paper Link](https://www.semanticscholar.org/paper/a9c895dc9d6443588ffd9d6c748215d8c48209a0)  
+Influential Citation Count (0), SS-ID (a9c895dc9d6443588ffd9d6c748215d8c48209a0)  
+
+**ABSTRACT**  
+Abstract Domain-specific goal-oriented dialogue systems typically require modeling three types of inputs, namely, (i) the knowledge-base associated with the domain, (ii) the history of the conversation, which is a sequence of utterances, and (iii) the current utterance for which the response needs to be generated. While modeling these inputs, current state-of-the-art models such as Mem2Seq typically ignore the rich structure inherent in the knowledge graph and the sentences in the conversation context. Inspired by the recent success of structure-aware Graph Convolutional Networks (GCNs) for various NLP tasks such as machine translation, semantic role labeling, and document dating, we propose a memory-augmented GCN for goal-oriented dialogues. Our model exploits (i) the entity relation graph in a knowledge-base and (ii) the dependency graph associated with an utterance to compute richer representations for words and entities. Further, we take cognizance of the fact that in certain situations, such as when the conversation is in a code-mixed language, dependency parsers may not be available. We show that in such situations we could use the global word co-occurrence graph to enrich the representations of utterances. We experiment with four datasets: (i) the modified DSTC2 dataset, (ii) recently released code-mixed versions of DSTC2 dataset in four languages, (iii) Wizard-of-Oz style CAM676 dataset, and (iv) Wizard-of-Oz style MultiWOZ dataset. On all four datasets our method outperforms existing methods, on a wide range of evaluation metrics.
+{{< /ci-details >}} | used GNN for question answering task, comment teneration and dialog systems |
+| Natural Language Processing | {{< ci-details summary="Kim, Kim & Kwak (2018)" >}}
+Daesik Kim, Seonhoon Kim, Nojun Kwak. (2018)  
+**Textbook Question Answering with Knowledge Graph Understanding and Unsupervised Open-set Text Comprehension**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/b22ce969f203fb548c42034ae7fc78cc043fdc16)  
+Influential Citation Count (0), SS-ID (b22ce969f203fb548c42034ae7fc78cc043fdc16)  
+
+**ABSTRACT**  
+In this work, we introduce a novel algorithm for solving the textbook question answering (TQA) task which describes more realistic QA problems compared to other recent tasks. We mainly focus on two related issues with analysis of TQA dataset. First, it requires to comprehend long lessons to extract knowledge. To tackle this issue of extracting knowledge features from long lessons, we establish knowledge graph from texts and incorporate graph convolutional network (GCN). Second, scientific terms are not spread over the chapters and data splits in TQA dataset. To overcome this so called `out-of-domain' issue, we add novel unsupervised text learning process without any annotations before learning QA problems. The experimental results show that our model significantly outperforms prior state-of-the-art methods. Moreover, ablation studies validate that both methods of incorporating GCN for extracting knowledge from long lessons and our newly proposed unsupervised learning process are meaningful to solve this problem.
+{{< /ci-details >}} | used GNN for question answering task, comment teneration and dialog systems |
+| Natural Language Processing | {{< ci-details summary="Li et al. (2019)" >}}
+Wei Li, Jingjing Xu, Yancheng He, Shengli Yan, Yunfang Wu, Xu Sun. (2019)  
+**Coherent Comments Generation for Chinese Articles with a Graph-to-Sequence Model**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/b2125d912941244c243a33e31b01e34467cea457)  
+Influential Citation Count (6), SS-ID (b2125d912941244c243a33e31b01e34467cea457)  
+
+**ABSTRACT**  
+Automatic article commenting is helpful in encouraging user engagement on online news platforms. However, the news documents are usually too long for models under traditional encoder-decoder frameworks, which often results in general and irrelevant comments. In this paper, we propose to generate comments with a graph-to-sequence model that models the input news as a topic interaction graph. By organizing the article into graph structure, our model can better understand the internal structure of the article and the connection between topics, which makes it better able to generate coherent and informative comments. We collect and release a large scale news-comment corpus from a popular Chinese online news platform Tencent Kuaibao. Extensive experiment results show that our model can generate much more coherent and informative comments compared with several strong baseline models.
+{{< /ci-details >}} | used graph models based on news interaction graphs |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Knowledge Graph Completion | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Data Minig | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Data Minig | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Data Minig | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Data Minig | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Data Minig | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Recommender systems | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Reinforcement Learning | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Reinforcement Learning | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Reinforcement Learning | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Reinforcement Learning | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Reinforcement Learning | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
+| Reinforcement Learning | {{< ci-details summary="" >}}{{< /ci-details >}} |  |
 
 ## Open Problems
 
@@ -847,6 +2296,1458 @@ Network embedding is a promising topic that maps the vertices to the latent spac
 
 ## Conclusion
 
+## List of Methods
+
+#### MDS
+{{< ci-details summary="Kruskal J et al. (1978)" >}}
+Kruskal J, Wish M. (1978)  
+**Multidimensional Scaling**  
+New York: SAGE Publications
+{{< /ci-details >}}
+
+#### LSI
+{{< ci-details summary="Deerwester et al. (1990)" >}}
+S. Deerwester, S. Dumais, G. Furnas, T. Landauer, R. Harshman. (1990)  
+**Indexing by Latent Semantic Analysis**  
+
+[Paper Link](https://www.semanticscholar.org/paper/e5305866d701a2c102c5f81fbbf48bf6ac29f252)  
+Influential Citation Count (950), SS-ID (e5305866d701a2c102c5f81fbbf48bf6ac29f252)  
+
+**ABSTRACT**  
+A new method for automatic indexing and retrieval is described. The approach is to take advantage of implicit higher-order structure in the association of terms with documents (“semantic structure”) in order to improve the detection of relevant documents on the basis of terms found in queries. The particular technique used is singular-value decomposition, in which a large term by document matrix is decomposed into a set of ca. 100 orthogonal factors from which the original matrix can be approximated by linear combination. Documents are represented by ca. 100 item vectors of factor weights. Queries are represented as pseudo-document vectors formed from weighted combinations of terms, and documents with supra-threshold cosine values are returned. initial tests find this completely automatic method for retrieval to be promising.
+{{< /ci-details >}}
+
+#### LDA
+{{< ci-details summary="Martinez & Kak (2001)" >}}
+Aleix M. Martinez, A. Kak. (2001)  
+**PCA versus LDA**  
+IEEE Trans. Pattern Anal. Mach. Intell.  
+[Paper Link](https://www.semanticscholar.org/paper/d544475dc01daa0c4f9847ef72adb8878df8ce99)  
+Influential Citation Count (241), SS-ID (d544475dc01daa0c4f9847ef72adb8878df8ce99)  
+
+**ABSTRACT**  
+In the context of the appearance-based paradigm for object recognition, it is generally believed that algorithms based on LDA (linear discriminant analysis) are superior to those based on PCA (principal components analysis). In this communication, we show that this is not always the case. We present our case first by using intuitively plausible arguments and, then, by showing actual results on a face database. Our overall conclusion is that when the training data set is small, PCA can outperform LDA and, also, that PCA is less sensitive to different training data sets.
+{{< /ci-details >}}
+
+#### ISOMAP
+{{< ci-details summary="Tenenbaum, De Silva & Langford (2000)" >}}
+J. Tenenbaum, V. De Silva, J. Langford. (2000)  
+**A global geometric framework for nonlinear dimensionality reduction.**  
+Science  
+[Paper Link](https://www.semanticscholar.org/paper/3537fcd0ff99a3b3cb3d279012df826358420556)  
+Influential Citation Count (1143), SS-ID (3537fcd0ff99a3b3cb3d279012df826358420556)  
+
+**ABSTRACT**  
+Scientists working with large volumes of high-dimensional data, such as global climate patterns, stellar spectra, or human gene distributions, regularly confront the problem of dimensionality reduction: finding meaningful low-dimensional structures hidden in their high-dimensional observations. The human brain confronts the same problem in everyday perception, extracting from its high-dimensional sensory inputs-30,000 auditory nerve fibers or 10(6) optic nerve fibers-a manageably small number of perceptually relevant features. Here we describe an approach to solving dimensionality reduction problems that uses easily measured local metric information to learn the underlying global geometry of a data set. Unlike classical techniques such as principal component analysis (PCA) and multidimensional scaling (MDS), our approach is capable of discovering the nonlinear degrees of freedom that underlie complex natural observations, such as human handwriting or images of a face under different viewing conditions. In contrast to previous algorithms for nonlinear dimensionality reduction, ours efficiently computes a globally optimal solution, and, for an important class of data manifolds, is guaranteed to converge asymptotically to the true structure.
+{{< /ci-details >}}
+
+#### LLE
+{{< ci-details summary="Roweis & Saul (2000)" >}}
+S. Roweis, L. Saul. (2000)  
+**Nonlinear dimensionality reduction by locally linear embedding.**  
+Science  
+[Paper Link](https://www.semanticscholar.org/paper/afcd6da7637ddeef6715109aca248da7a24b1c65)  
+Influential Citation Count (1523), SS-ID (afcd6da7637ddeef6715109aca248da7a24b1c65)  
+
+**ABSTRACT**  
+Many areas of science depend on exploratory data analysis and visualization. The need to analyze large amounts of multivariate data raises the fundamental problem of dimensionality reduction: how to discover compact representations of high-dimensional data. Here, we introduce locally linear embedding (LLE), an unsupervised learning algorithm that computes low-dimensional, neighborhood-preserving embeddings of high-dimensional inputs. Unlike clustering methods for local dimensionality reduction, LLE maps its inputs into a single global coordinate system of lower dimensionality, and its optimizations do not involve local minima. By exploiting the local symmetries of linear reconstructions, LLE is able to learn the global structure of nonlinear manifolds, such as those generated by images of faces or documents of text.
+{{< /ci-details >}}
+
+#### LPP
+{{< ci-details summary="He & Niyogi (2004)" >}}
+Xiaofei He, P. Niyogi. (2003)  
+**Locality Preserving Projections**  
+NIPS  
+[Paper Link](https://www.semanticscholar.org/paper/75335244b49f4d1bb27aa51f1690bbefbbe1c3d1)  
+Influential Citation Count (791), SS-ID (75335244b49f4d1bb27aa51f1690bbefbbe1c3d1)  
+
+**ABSTRACT**  
+Many problems in information processing involve some form of dimensionality reduction. In this paper, we introduce Locality Preserving Projections (LPP). These are linear projective maps that arise by solving a variational problem that optimally preserves the neighborhood structure of the data set. LPP should be seen as an alternative to Principal Component Analysis (PCA) – a classical linear technique that projects the data along the directions of maximal variance. When the high dimensional data lies on a low dimensional manifold embedded in the ambient space, the Locality Preserving Projections are obtained by finding the optimal linear approximations to the eigenfunctions of the Laplace Beltrami operator on the manifold. As a result, LPP shares many of the data representation properties of nonlinear techniques such as Laplacian Eigenmaps or Locally Linear Embedding. Yet LPP is linear and more crucially is defined everywhere in ambient space rather than just on the training data points. This is borne out by illustrative examples on some high dimensional data sets.
+{{< /ci-details >}}
+
+#### LE
+{{< ci-details summary="Belkin & Niyogi (2002)" >}}
+Mikhail Belkin, P. Niyogi. (2001)  
+**Laplacian Eigenmaps and Spectral Techniques for Embedding and Clustering**  
+NIPS  
+[Paper Link](https://www.semanticscholar.org/paper/9d16c547d15a08091e68c86a99731b14366e3f0d)  
+Influential Citation Count (356), SS-ID (9d16c547d15a08091e68c86a99731b14366e3f0d)  
+
+**ABSTRACT**  
+Drawing on the correspondence between the graph Laplacian, the Laplace-Beltrami operator on a manifold, and the connections to the heat equation, we propose a geometrically motivated algorithm for constructing a representation for data sampled from a low dimensional manifold embedded in a higher dimensional space. The algorithm provides a computationally efficient approach to nonlinear dimensionality reduction that has locality preserving properties and a natural connection to clustering. Several applications are considered.
+{{< /ci-details >}}
+
+#### Kernel Eigenmaps
+{{< ci-details summary="Brand (2003)" >}}
+M. Brand. (2003)  
+**Continuous nonlinear dimensionality reduction by kernel Eigenmaps**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/99cd988b104202887ad9657b8a61baa7ff0581c1)  
+Influential Citation Count (5), SS-ID (99cd988b104202887ad9657b8a61baa7ff0581c1)  
+
+**ABSTRACT**  
+We equate nonlinear dimensionality reduction (NLDR) to graph embedding with side information about the vertices, and derive a solution to either problem in the form of a kernel-based mixture of affine maps from the ambient space to the target space. Unlike most spectral NLDR methods, the central eigenproblem can be made relatively small, and the result is a continuous mapping defined over the entire space, not just the datapoints. A demonstration is made to visualizing the distribution of word usages (as a proxy to word meanings) in a sample of the machine learning literature.
+{{< /ci-details >}}
+
+#### Cauchy Graph Embedding
+{{< ci-details summary="Luo et al. (2011)" >}}
+Dijun Luo, C. Ding, F. Nie, Heng Huang. (2011)  
+**Cauchy Graph Embedding**  
+ICML  
+[Paper Link](https://www.semanticscholar.org/paper/6f390eee4c9a082e02843fb34046f653624e9b76)  
+Influential Citation Count (3), SS-ID (6f390eee4c9a082e02843fb34046f653624e9b76)  
+
+**ABSTRACT**  
+Laplacian embedding provides a low-dimensional representation for the nodes of a graph where the edge weights denote pair-wise similarity among the node objects. It is commonly assumed that the Laplacian embedding results preserve the local topology of the original data on the low-dimensional projected subspaces, i.e., for any pair of graph nodes with large similarity, they should be embedded closely in the embedded space. However, in this paper, we will show that the Laplacian embedding often cannot preserve local topology well as we expected. To enhance the local topology preserving property in graph embedding, we propose a novel Cauchy graph embedding which preserves the similarity relationships of the original data in the embedded space via a new objective. Consequentially the machine learning tasks (such as k Nearest Neighbor type classifications) can be easily conducted on the embedded data with better performance. The experimental results on both synthetic and real world benchmark data sets demonstrate the usefulness of this new type of embedding.
+{{< /ci-details >}}
+
+#### Structure Preserving Embedding
+{{< ci-details summary="Shaw & Jebara (2009)" >}}
+B. Shaw, T. Jebara. (2009)  
+**Structure preserving embedding**  
+ICML '09  
+[Paper Link](https://www.semanticscholar.org/paper/df30fe0aeac5a530c9499598251a3854fe45ee94)  
+Influential Citation Count (4), SS-ID (df30fe0aeac5a530c9499598251a3854fe45ee94)  
+
+**ABSTRACT**  
+Structure Preserving Embedding (SPE) is an algorithm for embedding graphs in Euclidean space such that the embedding is low-dimensional and preserves the global topological properties of the input graph. Topology is preserved if a connectivity algorithm, such as k-nearest neighbors, can easily recover the edges of the input graph from only the coordinates of the nodes after embedding. SPE is formulated as a semidefinite program that learns a low-rank kernel matrix constrained by a set of linear inequalities which captures the connectivity structure of the input graph. Traditional graph embedding algorithms do not preserve structure according to our definition, and thus the resulting visualizations can be misleading or less informative. SPE provides significant improvements in terms of visualization and lossless compression of graphs, outperforming popular methods such as spectral embedding and Laplacian eigen-maps. We find that many classical graphs and networks can be properly embedded using only a few dimensions. Furthermore, introducing structure preserving constraints into dimensionality reduction algorithms produces more accurate representations of high-dimensional data.
+{{< /ci-details >}}
+
+#### Graph Factorization
+{{< ci-details summary="Ahmed et al. (2013)" >}}
+Amr Ahmed, N. Shervashidze, Shravan M. Narayanamurthy, V. Josifovski, Alex Smola. (2013)  
+**Distributed large-scale natural graph factorization**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/952bc3bc999be86d4b03a9c4af94c555c822aa11)  
+Influential Citation Count (30), SS-ID (952bc3bc999be86d4b03a9c4af94c555c822aa11)  
+
+**ABSTRACT**  
+Natural graphs, such as social networks, email graphs, or instant messaging patterns, have become pervasive through the internet. These graphs are massive, often containing hundreds of millions of nodes and billions of edges. While some theoretical models have been proposed to study such graphs, their analysis is still difficult due to the scale and nature of the data. We propose a framework for large-scale graph decomposition and inference. To resolve the scale, our framework is distributed so that the data are partitioned over a shared-nothing set of machines. We propose a novel factorization technique that relies on partitioning a graph so as to minimize the number of neighboring vertices rather than edges across partitions. Our decomposition is based on a streaming algorithm. It is network-aware as it adapts to the network topology of the underlying computational hardware. We use local copies of the variables and an efficient asynchronous communication protocol to synchronize the replicated values in order to perform most of the computation without having to incur the cost of network communication. On a graph of 200 million vertices and 10 billion edges, derived from an email communication network, our algorithm retains convergence properties while allowing for almost linear scalability in the number of computers.
+{{< /ci-details >}}
+
+#### GraRep
+{{< ci-details summary="Cao, Lu & Xu (2015)" >}}
+Shaosheng Cao, Wei Lu, Qiongkai Xu. (2015)  
+**GraRep: Learning Graph Representations with Global Structural Information**  
+CIKM  
+[Paper Link](https://www.semanticscholar.org/paper/c2fd72cb2a77941e655b5d949d0d59b01e173c3b)  
+Influential Citation Count (131), SS-ID (c2fd72cb2a77941e655b5d949d0d59b01e173c3b)  
+
+**ABSTRACT**  
+In this paper, we present {GraRep}, a novel model for learning vertex representations of weighted graphs. This model learns low dimensional vectors to represent vertices appearing in a graph and, unlike existing work, integrates global structural information of the graph into the learning process. We also formally analyze the connections between our work and several previous research efforts, including the DeepWalk model of Perozzi et al. as well as the skip-gram model with negative sampling of Mikolov et al. We conduct experiments on a language network, a social network as well as a citation network and show that our learned global representations can be effectively used as features in tasks such as clustering, classification and visualization. Empirical results demonstrate that our representation significantly outperforms other state-of-the-art methods in such tasks.
+{{< /ci-details >}}
+
+#### HOPE
+{{< ci-details summary="Ou et al. (2016)" >}}
+Mingdong Ou, Peng Cui, J. Pei, Ziwei Zhang, Wenwu Zhu. (2016)  
+**Asymmetric Transitivity Preserving Graph Embedding**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/07627bf7eb649220ffbcdf6bf233e3a4a76e8590)  
+Influential Citation Count (111), SS-ID (07627bf7eb649220ffbcdf6bf233e3a4a76e8590)  
+
+**ABSTRACT**  
+Graph embedding algorithms embed a graph into a vector space where the structure and the inherent properties of the graph are preserved. The existing graph embedding methods cannot preserve the asymmetric transitivity well, which is a critical property of directed graphs. Asymmetric transitivity depicts the correlation among directed edges, that is, if there is a directed path from u to v, then there is likely a directed edge from u to v. Asymmetric transitivity can help in capturing structures of graphs and recovering from partially observed graphs. To tackle this challenge, we propose the idea of preserving asymmetric transitivity by approximating high-order proximity which are based on asymmetric transitivity. In particular, we develop a novel graph embedding algorithm, High-Order Proximity preserved Embedding (HOPE for short), which is scalable to preserve high-order proximities of large scale graphs and capable of capturing the asymmetric transitivity. More specifically, we first derive a general formulation that cover multiple popular high-order proximity measurements, then propose a scalable embedding algorithm to approximate the high-order proximity measurements based on their general formulation. Moreover, we provide a theoretical upper bound on the RMSE (Root Mean Squared Error) of the approximation. Our empirical experiments on a synthetic dataset and three real-world datasets demonstrate that HOPE can approximate the high-order proximities significantly better than the state-of-art algorithms and outperform the state-of-art algorithms in tasks of reconstruction, link prediction and vertex recommendation.
+{{< /ci-details >}}
+
+#### Modularized Nonnegative Matrix Factorization
+{{< ci-details summary="Wang et al. (2017)" >}}
+Xiao Wang, Peng Cui, Jing Wang, J. Pei, Wenwu Zhu, Shiqiang Yang. (2017)  
+**Community Preserving Network Embedding**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/d3e0d596efd9d19b93d357565a68dfa925dce2bb)  
+Influential Citation Count (52), SS-ID (d3e0d596efd9d19b93d357565a68dfa925dce2bb)  
+
+**ABSTRACT**  
+Network embedding, aiming to learn the low-dimensional representations of nodes in networks, is of paramount importance in many real applications. One basic requirement of network embedding is to preserve the structure and inherent properties of the networks. While previous network embedding methods primarily preserve the microscopic structure, such as the first- and second-order proximities of nodes, the mesoscopic community structure, which is one of the most prominent feature of networks, is largely ignored. In this paper, we propose a novel Modularized Nonnegative Matrix Factorization (M-NMF) model to incorporate the community structure into network embedding. We exploit the consensus relationship between the representations of nodes and community structure, and then jointly optimize NMF based representation learning model and modularity based community detection model in a unified framework, which enables the learned representations of nodes to preserve both of the microscopic and community structures. We also provide efficient updating rules to infer the parameters of our model, together with the correctness and convergence guarantees. Extensive experimental results on a variety of real-world networks show the superior performance of the proposed method over the state-of-the-arts.
+{{< /ci-details >}}
+
+#### ATP (Asymmetric Transitivity Preservation)
+{{< ci-details summary="Sun et al. (2018)" >}}
+Jiankai Sun, Bortik Bandyopadhyay, Armin Bashizade, Jiongqian Liang, P. Sadayappan, S. Parthasarathy. (2018)  
+**ATP: Directed Graph Embedding with Asymmetric Transitivity Preservation**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/b764d0070d07957d4b9621988ea3d020e9ecbe36)  
+Influential Citation Count (4), SS-ID (b764d0070d07957d4b9621988ea3d020e9ecbe36)  
+
+**ABSTRACT**  
+Directed graphs have been widely used in Community Question Answering services (CQAs) to model asymmetric relationships among different types of nodes in CQA graphs, e.g., question, answer, user. Asymmetric transitivity is an essential property of directed graphs, since it can play an important role in downstream graph inference and analysis. Question difficulty and user expertise follow the characteristic of asymmetric transitivity. Maintaining such properties, while reducing the graph to a lower dimensional vector embedding space, has been the focus of much recent research. In this paper, we tackle the challenge of directed graph embedding with asymmetric transitivity preservation and then leverage the proposed embedding method to solve a fundamental task in CQAs: how to appropriately route and assign newly posted questions to users with the suitable expertise and interest in CQAs. The technique incorporates graph hierarchy and reachability information naturally by relying on a nonlinear transformation that operates on the core reachability and implicit hierarchy within such graphs. Subsequently, the methodology levers a factorization-based approach to generate two embedding vectors for each node within the graph, to capture the asymmetric transitivity. Extensive experiments show that our framework consistently and significantly outperforms the state-of-the-art baselines on three diverse realworld tasks: link prediction, and question difficulty estimation and expert finding in online forums like Stack Exchange. Particularly, our framework can support inductive embedding learning for newly posted questions (unseen nodes during training), and therefore can properly route and assign these kinds of questions to experts in CQAs.
+{{< /ci-details >}}
+
+#### SDNE (Structural Deep Network Embedding)
+{{< ci-details summary="Wang, Cui & Zhu (2016)" >}}
+Daixin Wang, Peng Cui, Wenwu Zhu. (2016)  
+**Structural Deep Network Embedding**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
+Influential Citation Count (223), SS-ID (d0b7c8828f0fca4dd901674e8fb5bd464a187664)  
+
+**ABSTRACT**  
+Network embedding is an important method to learn low-dimensional representations of vertexes in networks, aiming to capture and preserve the network structure. Almost all the existing network embedding methods adopt shallow models. However, since the underlying network structure is complex, shallow models cannot capture the highly non-linear network structure, resulting in sub-optimal network representations. Therefore, how to find a method that is able to effectively capture the highly non-linear network structure and preserve the global and local structure is an open yet important problem. To solve this problem, in this paper we propose a Structural Deep Network Embedding method, namely SDNE. More specifically, we first propose a semi-supervised deep model, which has multiple layers of non-linear functions, thereby being able to capture the highly non-linear network structure. Then we propose to exploit the first-order and second-order proximity jointly to preserve the network structure. The second-order proximity is used by the unsupervised component to capture the global network structure. While the first-order proximity is used as the supervised information in the supervised component to preserve the local network structure. By jointly optimizing them in the semi-supervised deep model, our method can preserve both the local and global network structure and is robust to sparse networks. Empirically, we conduct the experiments on five real-world networks, including a language network, a citation network and three social networks. The results show that compared to the baselines, our method can reconstruct the original network significantly better and achieves substantial gains in three applications, i.e. multi-label classification, link prediction and visualization.
+{{< /ci-details >}}
+
+#### Node2Vec
+{{< ci-details summary="Grover & Leskovec (2016)" >}}
+Aditya Grover, J. Leskovec. (2016)  
+**node2vec: Scalable Feature Learning for Networks**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/36ee2c8bd605afd48035d15fdc6b8c8842363376)  
+Influential Citation Count (1119), SS-ID (36ee2c8bd605afd48035d15fdc6b8c8842363376)  
+
+**ABSTRACT**  
+Prediction tasks over nodes and edges in networks require careful effort in engineering features used by learning algorithms. Recent research in the broader field of representation learning has led to significant progress in automating prediction by learning the features themselves. However, present feature learning approaches are not expressive enough to capture the diversity of connectivity patterns observed in networks. Here we propose node2vec, an algorithmic framework for learning continuous feature representations for nodes in networks. In node2vec, we learn a mapping of nodes to a low-dimensional space of features that maximizes the likelihood of preserving network neighborhoods of nodes. We define a flexible notion of a node's network neighborhood and design a biased random walk procedure, which efficiently explores diverse neighborhoods. Our algorithm generalizes prior work which is based on rigid notions of network neighborhoods, and we argue that the added flexibility in exploring neighborhoods is the key to learning richer representations. We demonstrate the efficacy of node2vec over existing state-of-the-art techniques on multi-label classification and link prediction in several real-world networks from diverse domains. Taken together, our work represents a new way for efficiently learning state-of-the-art task-independent representations in complex networks.
+{{< /ci-details >}}
+
+#### DeepWalk
+{{< ci-details summary="Perozzi, Al-Rfou & Skiena (2014)" >}}
+Bryan Perozzi, Rami Al-Rfou, S. Skiena. (2014)  
+**DeepWalk: online learning of social representations**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/fff114cbba4f3ba900f33da574283e3de7f26c83)  
+Influential Citation Count (1335), SS-ID (fff114cbba4f3ba900f33da574283e3de7f26c83)  
+
+**ABSTRACT**  
+We present DeepWalk, a novel approach for learning latent representations of vertices in a network. These latent representations encode social relations in a continuous vector space, which is easily exploited by statistical models. DeepWalk generalizes recent advancements in language modeling and unsupervised feature learning (or deep learning) from sequences of words to graphs. DeepWalk uses local information obtained from truncated random walks to learn latent representations by treating walks as the equivalent of sentences. We demonstrate DeepWalk's latent representations on several multi-label network classification tasks for social networks such as BlogCatalog, Flickr, and YouTube. Our results show that DeepWalk outperforms challenging baselines which are allowed a global view of the network, especially in the presence of missing information. DeepWalk's representations can provide F1 scores up to 10% higher than competing methods when labeled data is sparse. In some experiments, DeepWalk's representations are able to outperform all baseline methods while using 60% less training data. DeepWalk is also scalable. It is an online learning algorithm which builds useful incremental results, and is trivially parallelizable. These qualities make it suitable for a broad class of real world applications such as network classification, and anomaly detection.
+{{< /ci-details >}}
+
+#### LINE
+{{< ci-details summary="Tang et al. (2015)" >}}
+Jian Tang, Meng Qu, Mingzhe Wang, Ming Zhang, Jun Yan, Q. Mei. (2015)  
+**LINE: Large-scale Information Network Embedding**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/0834e74304b547c9354b6d7da6fa78ef47a48fa8)  
+Influential Citation Count (832), SS-ID (0834e74304b547c9354b6d7da6fa78ef47a48fa8)  
+
+**ABSTRACT**  
+This paper studies the problem of embedding very large information networks into low-dimensional vector spaces, which is useful in many tasks such as visualization, node classification, and link prediction. Most existing graph embedding methods do not scale for real world information networks which usually contain millions of nodes. In this paper, we propose a novel network embedding method called the ``LINE,'' which is suitable for arbitrary types of information networks: undirected, directed, and/or weighted. The method optimizes a carefully designed objective function that preserves both the local and global network structures. An edge-sampling algorithm is proposed that addresses the limitation of the classical stochastic gradient descent and improves both the effectiveness and the efficiency of the inference. Empirical experiments prove the effectiveness of the LINE on a variety of real-world information networks, including language networks, social networks, and citation networks. The algorithm is very efficient, which is able to learn the embedding of a network with millions of vertices and billions of edges in a few hours on a typical single machine. The source code of the LINE is available online\footnote{\url{https://github.com/tangjianpku/LINE}}.
+{{< /ci-details >}}
+
+#### Diff2Vec
+{{< ci-details summary="Rozemberczki & Sarkar (2018)" >}}
+Benedek Rozemberczki, R. Sarkar. (2018)  
+**Fast Sequence-Based Embedding with Diffusion Graphs**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/d1764864dc0a676ff1732972e179fb2d8d4f564b)  
+Influential Citation Count (5), SS-ID (d1764864dc0a676ff1732972e179fb2d8d4f564b)  
+
+**ABSTRACT**  
+A graph embedding is a representation of graph vertices in a low- dimensional space, which approximately preserves properties such as distances between nodes. Vertex sequence-based embedding procedures use features extracted from linear sequences of nodes to create embeddings using a neural network. In this paper, we propose diffusion graphs as a method to rapidly generate vertex sequences for network embedding. Its computational efficiency is superior to previous methods due to simpler sequence generation, and it produces more accurate results. In experiments, we found that the performance relative to other methods improves with increasing edge density in the graph. In a community detection task, clustering nodes in the embedding space produces better results compared to other sequence-based embedding methods.
+{{< /ci-details >}}
+
+#### Walklets
+{{< ci-details summary="Perozzi, Kulkarni & Skiena (2016)" >}}
+**Walklets: Multiscale Graph Embeddings for Interpretable Network Classification**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/37cf46e45777e67676f80c9110bed675a9840590)  
+Influential Citation Count (11), SS-ID (37cf46e45777e67676f80c9110bed675a9840590)  
+
+**ABSTRACT**  
+We present Walklets, a novel approach for learning multiscale representations of vertices in a network. These representations clearly encode multiscale vertex relationships in a continuous vector space suitable for multi-label classification problems. Unlike previous work, the latent features generated using Walklets are analytically derivable, and human interpretable.  Walklets uses the offsets between vertices observed in a random walk to learn a series of latent representations, each which captures successively larger relationships. This variety of dependency information allows the same representation strategy to model phenomenon which occur at different scales.  We demonstrate Walklets' latent representations on several multi-label network classification tasks for social networks such as BlogCatalog, Flickr, and YouTube. Our results show that Walklets outperforms new methods based on neural matrix factorization, and can scale to graphs with millions of vertices and edges.
+{{< /ci-details >}}
+
+#### HARP
+{{< ci-details summary="Chen et al. (2018)" >}}
+Haochen Chen, Bryan Perozzi, Yifan Hu, S. Skiena. (2017)  
+**HARP: Hierarchical Representation Learning for Networks**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/ee9cc8e663d650ae96405ad680d6447066e6fb23)  
+Influential Citation Count (32), SS-ID (ee9cc8e663d650ae96405ad680d6447066e6fb23)  
+
+**ABSTRACT**  
+We present HARP, a novel method for learning low dimensional embeddings of a graph's nodes which preserves higher-order structural features. Our proposed method achieves this by compressing the input graph prior to embedding it, effectively avoiding troublesome embedding configurations (i.e. local minima) which can pose problems to non-convex optimization. HARP works by finding a smaller graph which approximates the global structure of its input. This simplified graph is used to learn a set of initial representations, which serve as good initializations for learning representations in the original, detailed graph. We inductively extend this idea, by decomposing a graph in a series of levels, and then embed the hierarchy of graphs from the coarsest one to the original graph. HARP is a general meta-strategy to improve all of the state-of-the-art neural algorithms for embedding graphs, including DeepWalk, LINE, and Node2vec. Indeed, we demonstrate that applying HARP's hierarchical paradigm yields improved implementations for all three of these methods, as evaluated on both classification tasks on real-world graphs such as DBLP, BlogCatalog, CiteSeer, and Arxiv, where we achieve a performance gain over the original implementations by up to 14% Macro F1.
+{{</ ci-details >}}
+{{< ci-details summary="Tang & Liu (2009)" >}}
+Lei Tang, Huan Liu. (2009)  
+**Relational learning via latent social dimensions**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/a505e4c2bf30cd88afe483f7541409e2ba5ab3d4)  
+Influential Citation Count (72), SS-ID (a505e4c2bf30cd88afe483f7541409e2ba5ab3d4)  
+
+**ABSTRACT**  
+Social media such as blogs, Facebook, Flickr, etc., presents data in a network format rather than classical IID distribution. To address the interdependency among data instances, relational learning has been proposed, and collective inference based on network connectivity is adopted for prediction. However, connections in social media are often multi-dimensional. An actor can connect to another actor for different reasons, e.g., alumni, colleagues, living in the same city, sharing similar interests, etc. Collective inference normally does not differentiate these connections. In this work, we propose to extract latent social dimensions based on network information, and then utilize them as features for discriminative learning. These social dimensions describe diverse affiliations of actors hidden in the network, and the discriminative learning can automatically determine which affiliations are better aligned with the class labels. Such a scheme is preferred when multiple diverse relations are associated with the same network. We conduct extensive experiments on social media data (one from a real-world blog site and the other from a popular content sharing site). Our model outperforms representative relational learning methods based on collective inference, especially when few labeled data are available. The sensitivity of this model and its connection to existing methods are also examined.
+{{< /ci-details >}}
+{{< ci-details summary="Feng et al. (2017)" >}}
+Rui Feng, Yang Yang, Wenjie Hu, Fei Wu, Yueting Zhuang. (2017)  
+**Representation Learning for Scale-free Networks**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/464a60d8e67ab42d360c9be2d29f919d30312315)  
+Influential Citation Count (3), SS-ID (464a60d8e67ab42d360c9be2d29f919d30312315)  
+
+**ABSTRACT**  
+Network embedding aims to learn the low-dimensional representations of vertexes in a network, while structure and inherent properties of the network is preserved. Existing network embedding works primarily focus on preserving the microscopic structure, such as the first- and second-order proximity of vertexes, while the macroscopic scale-free property is largely ignored. Scale-free property depicts the fact that vertex degrees follow a heavy-tailed distribution (i.e., only a few vertexes have high degrees) and is a critical property of real-world networks, such as social networks. In this paper, we study the problem of learning representations for scale-free networks. We first theoretically analyze the difficulty of embedding and reconstructing a scale-free network in the Euclidean space, by converting our problem to the sphere packing problem. Then, we propose the "degree penalty" principle for designing scale-free property preserving network embedding algorithm: punishing the proximity between high-degree vertexes. We introduce two implementations of our principle by utilizing the spectral techniques and a skip-gram model respectively. Extensive experiments on six datasets show that our algorithms are able to not only reconstruct heavy-tailed distributed degree distribution, but also outperform state-of-the-art embedding models in various network mining tasks, such as vertex classification and link prediction.
+{{< /ci-details >}}
+
+#### Struct2Vec
+{{< ci-details summary="Ribeiro, Saverese & Figueiredo (2017)" >}}
+Leonardo F. R. Ribeiro, Pedro H. P. Saverese, Daniel R. Figueiredo. (2017)  
+**struc2vec: Learning Node Representations from Structural Identity**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/0f7f5679615effcc4c9b98cf2deb17c30744a6d7)  
+Influential Citation Count (87), SS-ID (0f7f5679615effcc4c9b98cf2deb17c30744a6d7)  
+
+**ABSTRACT**  
+Structural identity is a concept of symmetry in which network nodes are identified according to the network structure and their relationship to other nodes. Structural identity has been studied in theory and practice over the past decades, but only recently has it been addressed with representational learning techniques. This work presents struc2vec, a novel and flexible framework for learning latent representations for the structural identity of nodes. struc2vec uses a hierarchy to measure node similarity at different scales, and constructs a multilayer graph to encode structural similarities and generate structural context for nodes. Numerical experiments indicate that state-of-the-art techniques for learning node representations fail in capturing stronger notions of structural identity, while struc2vec exhibits much superior performance in this task, as it overcomes limitations of prior approaches. As a consequence, numerical experiments indicate that struc2vec improves performance on classification tasks that depend more on structural identity.
+{{< /ci-details >}}
+
+#### Biased-Graph2Vec
+{{< ci-details summary="Liu et al. (2020)" >}}
+Yan Liu, Xiaokun Zhang, Lian Liu, Gaojian Li. (2020)  
+**Graph Embedding Based on Characteristic of Rooted Subgraph Structure**  
+KSEM  
+[Paper Link](https://www.semanticscholar.org/paper/60e8a34070dbbb8ef1b3ca4e789d20dd7c826ded)  
+Influential Citation Count (0), SS-ID (60e8a34070dbbb8ef1b3ca4e789d20dd7c826ded)  
+
+**ABSTRACT**  
+Given the problem that currently distributed graph embedding models have not yet been effectively modeled of substructure similarity, biased-graph2vec, a graph embedding model based on structural characteristics of rooted subgraphs is proposed in this paper. This model, based on the distributed representation model of the graph, has modified its original random walk process and converted it to a random walk with weight bias based on structural similarity. The appropriate context is generated for all substructures. Based on preserving the tag features of the nodes and edges in the substructure, the representation of the substructure in the feature space depends more on the structural similarity itself. Biased-graph2vec calculates the graph representations with unsupervised algorithm and could build the model for both graphs and substructures via universal models, leaving complex feature engineering behind and has functional mobility. Meanwhile, this method models similar information among substructures, solving the problem that typical random walk strategies could not capture similarities of substructures with long distance. The experiments of graph classification are carried out on six open benchmark datasets. The comparison among our method, the graph kernel method, and the baseline method without considering the structural similarity of long-distance ions is made. Experiments show that the method this paper proposed has varying degrees inordinately improved the accuracy of classification tasks.
+{{< /ci-details >}}
+
+#### GraphWave
+{{< ci-details summary="Donnat et al. (2017)" >}}
+C. Donnat, M. Zitnik, David Hallac, J. Leskovec. (2017)  
+**Spectral Graph Wavelets for Structural Role Similarity in Networks**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/ded841318dbc807c47608a697629fdc4fa3f01da)  
+Influential Citation Count (9), SS-ID (ded841318dbc807c47608a697629fdc4fa3f01da)  
+
+**ABSTRACT**  
+Nodes residing in different parts of a graph can have similar structural roles within their local network topology. The identification of such roles provides key insight into the organization of networks and can also be used to inform machine learning on graphs. However, learning structural representations of nodes is a challenging unsupervised-learning task, which typically involves manually specifying and tailoring topological features for each node. Here we develop GRAPHWAVE, a method that represents each node’s local network neighborhood via a low-dimensional embedding by leveraging spectral graph wavelet diffusion patterns. We prove that nodes with similar local network neighborhoods will have similar GRAPHWAVE embeddings even though these nodes may reside in very different parts of the network. Our method scales linearly with the number of edges and does not require any hand-tailoring of topological features. We evaluate performance on both synthetic and real-world datasets, obtaining improvements of up to 71% over state-of-the-art baselines.
+{{< /ci-details >}}
+
+#### GAT (Graph Attention)
+{{< ci-details summary="Abu-El-Haija et al. (2017)" >}}
+Sami Abu-El-Haija, Bryan Perozzi, Rami Al-Rfou, Alexander A. Alemi. (2017)  
+**Watch Your Step: Learning Node Embeddings via Graph Attention**  
+NeurIPS  
+[Paper Link](https://www.semanticscholar.org/paper/49a5b5e65078eff512083d9de413d49a8aadc064)  
+Influential Citation Count (13), SS-ID (49a5b5e65078eff512083d9de413d49a8aadc064)  
+
+**ABSTRACT**  
+Graph embedding methods represent nodes in a continuous vector space, preserving different types of relational information from the graph. There are many hyper-parameters to these methods (e.g. the length of a random walk) which have to be manually tuned for every graph. In this paper, we replace previously fixed hyper-parameters with trainable ones that we automatically learn via backpropagation. In particular, we propose a novel attention model on the power series of the transition matrix, which guides the random walk to optimize an upstream objective. Unlike previous approaches to attention models, the method that we propose utilizes attention parameters exclusively on the data itself (e.g. on the random walk), and are not used by the model for inference. We experiment on link prediction tasks, as we aim to produce embeddings that best-preserve the graph structure, generalizing to unseen information. We improve state-of-the-art results on a comprehensive suite of real-world graph datasets including social, collaboration, and biological networks, where we observe that our graph attention model can reduce the error by up to 20\%-40\%. We show that our automatically-learned attention parameters can vary significantly per graph, and correspond to the optimal choice of hyper-parameter if we manually tune existing methods.
+{{< /ci-details >}}
+{{< ci-details summary="Velickovic et al. (2017)" >}}
+Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, P. Lio’, Yoshua Bengio. (2017)  
+**Graph Attention Networks**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/33998aff64ce51df8dee45989cdca4b6b1329ec4)  
+Influential Citation Count (1371), SS-ID (33998aff64ce51df8dee45989cdca4b6b1329ec4)  
+
+**ABSTRACT**  
+We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations. By stacking layers in which nodes are able to attend over their neighborhoods' features, we enable (implicitly) specifying different weights to different nodes in a neighborhood, without requiring any kind of costly matrix operation (such as inversion) or depending on knowing the graph structure upfront. In this way, we address several key challenges of spectral-based graph neural networks simultaneously, and make our model readily applicable to inductive as well as transductive problems. Our GAT models have achieved or matched state-of-the-art results across four established transductive and inductive graph benchmarks: the Cora, Citeseer and Pubmed citation network datasets, as well as a protein-protein interaction dataset (wherein test graphs remain unseen during training).
+{{< /ci-details >}}
+{{< ci-details summary="Liu et al. (2018)" >}}
+Ziqi Liu, Chaochao Chen, Longfei Li, Jun Zhou, Xiaolong Li, Le Song. (2018)  
+**GeniePath: Graph Neural Networks with Adaptive Receptive Paths**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/127af6effc74f073ac2442f6d82c944f562e2c0f)  
+Influential Citation Count (18), SS-ID (127af6effc74f073ac2442f6d82c944f562e2c0f)  
+
+**ABSTRACT**  
+We present, GeniePath, a scalable approach for learning adaptive receptive fields of neural networks defined on permutation invariant graph data. In GeniePath, we propose an adaptive path layer consists of two complementary functions designed for breadth and depth exploration respectively, where the former learns the importance of different sized neighborhoods, while the latter extracts and filters signals aggregated from neighbors of different hops away. Our method works in both transductive and inductive settings, and extensive experiments compared with competitive methods show that our approaches yield state-of-the-art results on large graphs.
+{{< /ci-details >}}
+{{< ci-details summary="Lee et al. (2018)" >}}
+J. B. Lee, Ryan A. Rossi, Sungchul Kim, Nesreen Ahmed, Eunyee Koh. (2018)  
+**Attention Models in Graphs**  
+ACM Trans. Knowl. Discov. Data  
+[Paper Link](https://www.semanticscholar.org/paper/cc23c580b7d8063415fb6eb512053d1079b849de)  
+Influential Citation Count (1), SS-ID (cc23c580b7d8063415fb6eb512053d1079b849de)  
+
+**ABSTRACT**  
+Graph-structured data arise naturally in many different application domains. By representing data as graphs, we can capture entities (i.e., nodes) as well as their relationships (i.e., edges) with each other. Many useful insights can be derived from graph-structured data as demonstrated by an ever-growing body of work focused on graph mining. However, in the real-world, graphs can be both large—with many complex patterns—and noisy, which can pose a problem for effective graph mining. An effective way to deal with this issue is to incorporate “attention” into graph mining solutions. An attention mechanism allows a method to focus on task-relevant parts of the graph, helping it to make better decisions. In this work, we conduct a comprehensive and focused survey of the literature on the emerging field of graph attention models. We introduce three intuitive taxonomies to group existing work. These are based on problem setting (type of input and output), the type of attention mechanism used, and the task (e.g., graph classification, link prediction). We motivate our taxonomies through detailed examples and use each to survey competing approaches from a unique standpoint. Finally, we highlight several challenges in the area and discuss promising directions for future work.
+{{< /ci-details >}}
+
+#### Metapath2Vec
+{{< ci-details summary="Dong, Chawla & Swami (2017)" >}}
+Yuxiao Dong, N. Chawla, A. Swami. (2017)  
+**metapath2vec: Scalable Representation Learning for Heterogeneous Networks**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/c0af91371f426ff92117d2ccdadb2032bec23d2c)  
+Influential Citation Count (164), SS-ID (c0af91371f426ff92117d2ccdadb2032bec23d2c)  
+
+**ABSTRACT**  
+We study the problem of representation learning in heterogeneous networks. Its unique challenges come from the existence of multiple types of nodes and links, which limit the feasibility of the conventional network embedding techniques. We develop two scalable representation learning models, namely metapath2vec and metapath2vec++. The metapath2vec model formalizes meta-path-based random walks to construct the heterogeneous neighborhood of a node and then leverages a heterogeneous skip-gram model to perform node embeddings. The metapath2vec++ model further enables the simultaneous modeling of structural and semantic correlations in heterogeneous networks. Extensive experiments show that metapath2vec and metapath2vec++ are able to not only outperform state-of-the-art embedding models in various heterogeneous network mining tasks, such as node classification, clustering, and similarity search, but also discern the structural and semantic correlations between diverse network objects.
+{{< /ci-details >}}
+
+#### GenVector
+{{< ci-details summary="Yang, Tang & Cohen (2015)">}}
+Zhilin Yang, Jie Tang, William W. Cohen. (2015)  
+**Multi-Modal Bayesian Embeddings for Learning Social Knowledge Graphs**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/695d4c04f6e4f7ba5f771ac7853fdbaa81713ae8)  
+Influential Citation Count (3), SS-ID (695d4c04f6e4f7ba5f771ac7853fdbaa81713ae8)  
+
+**ABSTRACT**  
+We study the extent to which online social networks can be connected to open knowledge bases. The problem is referred to as learning social knowledge graphs. We propose a multi-modal Bayesian embedding model, GenVector, to learn latent topics that generate word and network embeddings. GenVector leverages large-scale unlabeled data with embeddings and represents data of two modalities---i.e., social network users and knowledge concepts---in a shared latent topic space. Experiments on three datasets show that the proposed method clearly outperforms state-of-the-art methods. We then deploy the method on AMiner, a large-scale online academic search system with a network of 38,049,189 researchers with a knowledge base with 35,415,011 concepts. Our method significantly decreases the error rate in an online A/B test with live users.
+{{< /ci-details >}}
+
+#### GEMSEC
+{{< ci-details summary="Rozemberczki et al. (2018)" >}}
+Benedek Rozemberczki, Ryan Davies, R. Sarkar, Charles Sutton. (2018)  
+**GEMSEC: Graph Embedding with Self Clustering**  
+2019 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)  
+[Paper Link](https://www.semanticscholar.org/paper/59be148a4b5f7e05cb3cb24afa1f6adad2cdfa29)  
+Influential Citation Count (16), SS-ID (59be148a4b5f7e05cb3cb24afa1f6adad2cdfa29)  
+
+**ABSTRACT**  
+Modern graph embedding procedures can efficiently process graphs with millions of nodes. In this paper, we propose GEMSEC - a graph embedding algorithm which learns a clustering of the nodes simultaneously with computing their embedding. GEMSEC is a general extension of earlier work in the domain of sequence-based graph embedding. GEMSEC places nodes in an abstract feature space where the vertex features minimize the negative log-likelihood of preserving sampled vertex neighborhoods, and it incorporates known social network properties through a machine learning regularization. We present two new social network datasets and show that by simultaneously considering the embedding and clustering problems with respect to social properties, GEMSEC extracts high-quality clusters competitive with or superior to other community detection algorithms. In experiments, the method is found to be computationally efficient and robust to the choice of hyperparameters.
+{{< /ci-details >}}
+
+#### DDRW (Discriminative Deep Random Walk)
+{{< ci-details summary="Li Zhu & Zhang (2016)" >}}
+Juzheng Li, Jun Zhu, Bo Zhang. (2016)  
+**Discriminative Deep Random Walk for Network Classification**  
+ACL  
+[Paper Link](https://www.semanticscholar.org/paper/a6fd225417efdbf0bb9aef2ef2046335d2d0885e)  
+Influential Citation Count (2), SS-ID (a6fd225417efdbf0bb9aef2ef2046335d2d0885e)  
+
+**ABSTRACT**  
+Deep Random Walk (DeepWalk) can learn a latent space representation for describing the topological structure of a network. However, for relational network classification, DeepWalk can be suboptimal as it lacks a mechanism to optimize the objective of the target task. In this paper, we present Discriminative Deep Random Walk (DDRW), a novel method for relational network classification. By solving a joint optimization problem, DDRW can learn the latent space representations that well capture the topological structure and meanwhile are discriminative for the network classification task. Our experimental results on several real social networks demonstrate that DDRW significantly outperforms DeepWalk on multilabel network classification tasks, while retaining the topological structure in the latent space. DDRW is stable and consistently outperforms the baseline methods by various percentages of labeled data. DDRW is also an online method that is scalable and can be naturally parallelized.
+{{< /ci-details >}}
+
+#### Exponential Family Graph Embedding
+{{< ci-details summary="Çelikkanat & Malliaros (2019)" >}}
+Abdulkadir Çelikkanat, Fragkiskos D. Malliaros. (2019)  
+**Exponential Family Graph Embeddings**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/b176355c33564beb8c7864572877ee4c7dcb40c4)  
+Influential Citation Count (0), SS-ID (b176355c33564beb8c7864572877ee4c7dcb40c4)  
+
+**ABSTRACT**  
+Representing networks in a low dimensional latent space is a crucial task with many interesting applications in graph learning problems, such as link prediction and node classification. A widely applied network representation learning paradigm is based on the combination of random walks for sampling context nodes and the traditional \textit{Skip-Gram} model to capture center-context node relationships. In this paper, we emphasize on exponential family distributions to capture rich interaction patterns between nodes in random walk sequences. We introduce the generic \textit{exponential family graph embedding} model, that generalizes random walk-based network representation learning techniques to exponential family conditional distributions. We study three particular instances of this model, analyzing their properties and showing their relationship to existing unsupervised learning models. Our experimental evaluation on real-world datasets demonstrates that the proposed techniques outperform well-known baseline methods in two downstream machine learning tasks.
+{{< /ci-details >}}
+
+#### DNGR (Deep Neural networks for learning Graph Representations)
+{{< ci-details summary="Cao, Lu & Xu (2016)" >}}
+Shaosheng Cao, Wei Lu, Qiongkai Xu. (2016)  
+**Deep Neural Networks for Learning Graph Representations**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/1a37f07606d60df365d74752857e8ce909f700b3)  
+Influential Citation Count (59), SS-ID (1a37f07606d60df365d74752857e8ce909f700b3)  
+
+**ABSTRACT**  
+In this paper, we propose a novel model for learning graph representations, which generates a low-dimensional vector representation for each vertex by capturing the graph structural information. Different from other previous research efforts, we adopt a random surfing model to capture graph structural information directly, instead of using the sampling-based method for generating linear sequences proposed by Perozzi et al. (2014). The advantages of our approach will be illustrated from both theorical and empirical perspectives. We also give a new perspective for the matrix factorization method proposed by Levy and Goldberg (2014), in which the pointwise mutual information (PMI) matrix is considered as an analytical solution to the objective function of the skip-gram model with negative sampling proposed by Mikolov et al. (2013). Unlike their approach which involves the use of the SVD for finding the low-dimensitonal projections from the PMI matrix, however, the stacked denoising autoencoder is introduced in our model to extract complex features and model non-linearities. To demonstrate the effectiveness of our model, we conduct experiments on clustering and visualization tasks, employing the learned vertex representations as features. Empirical results on datasets of varying sizes show that our model outperforms other stat-of-the-art models in such tasks.
+{{< /ci-details >}}
+
+#### GCN (Graph Convolutional Network)
+{{< ci-details summary="Kipf & Welling (2016)" >}}
+Thomas Kipf, M. Welling. (2016)  
+**Semi-Supervised Classification with Graph Convolutional Networks**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/36eff562f65125511b5dfab68ce7f7a943c27478)  
+Influential Citation Count (3139), SS-ID (36eff562f65125511b5dfab68ce7f7a943c27478)  
+
+**ABSTRACT**  
+We present a scalable approach for semi-supervised learning on graph-structured data that is based on an efficient variant of convolutional neural networks which operate directly on graphs. We motivate the choice of our convolutional architecture via a localized first-order approximation of spectral graph convolutions. Our model scales linearly in the number of graph edges and learns hidden layer representations that encode both local graph structure and features of nodes. In a number of experiments on citation networks and on a knowledge graph dataset we demonstrate that our approach outperforms related methods by a significant margin.
+{{< /ci-details >}}
+
+##### Improvements of GCN
+{{< ci-details summary="Chen, Zhu & Song (2017)" >}}
+Jianfei Chen, Jun Zhu, Le Song. (2017)  
+**Stochastic Training of Graph Convolutional Networks with Variance Reduction**  
+ICML  
+[Paper Link](https://www.semanticscholar.org/paper/a60c69c2fae27ebbb73c87f7f2a4765556bd7f9f)  
+Influential Citation Count (44), SS-ID (a60c69c2fae27ebbb73c87f7f2a4765556bd7f9f)  
+
+**ABSTRACT**  
+Graph convolutional networks (GCNs) are powerful deep neural networks for graph-structured data. However, GCN computes the representation of a node recursively from its neighbors, making the receptive field size grow exponentially with the number of layers. Previous attempts on reducing the receptive field size by subsampling neighbors do not have a convergence guarantee, and their receptive field size per node is still in the order of hundreds. In this paper, we develop control variate based algorithms which allow sampling an arbitrarily small neighbor size. Furthermore, we prove new theoretical guarantee for our algorithms to converge to a local optimum of GCN. Empirical results show that our algorithms enjoy a similar convergence with the exact algorithm using only two neighbors per node. The runtime of our algorithms on a large Reddit dataset is only one seventh of previous neighbor sampling algorithms.
+{{< /ci-details >}}
+{{< ci-details summary="Chen, Ma & Xiao (2018)" >}}
+Jing Chen, Tengfei Ma, Cao Xiao. (2018)  
+**FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/f19d3e0956d0f2daa3396fc6e9e7554a78a90710)  
+Influential Citation Count (118), SS-ID (f19d3e0956d0f2daa3396fc6e9e7554a78a90710)  
+
+**ABSTRACT**  
+The graph convolutional networks (GCN) recently proposed by Kipf and Welling are an effective graph model for semi-supervised learning. This model, however, was originally designed to be learned with the presence of both training and test data. Moreover, the recursive neighborhood expansion across layers poses time and memory challenges for training with large, dense graphs. To relax the requirement of simultaneous availability of test data, we interpret graph convolutions as integral transforms of embedding functions under probability measures. Such an interpretation allows for the use of Monte Carlo approaches to consistently estimate the integrals, which in turn leads to a batched training scheme as we propose in this work---FastGCN. Enhanced with importance sampling, FastGCN not only is efficient for training but also generalizes well for inference. We show a comprehensive set of experiments to demonstrate its effectiveness compared with GCN and related models. In particular, training is orders of magnitude more efficient while predictions remain comparably accurate.
+{{< /ci-details >}}
+{{< ci-details summary="Lei, Shi & Niu (2018)" >}}
+Minglong Lei, Yong Shi, Lingfeng Niu. (2018)  
+**The Applications of Stochastic Models in Network Embedding: A Survey**  
+2018 IEEE/WIC/ACM International Conference on Web Intelligence (WI)  
+[Paper Link](https://www.semanticscholar.org/paper/dbc0c4e613d2ae942694058861dd2a4aae6ff117)  
+Influential Citation Count (0), SS-ID (dbc0c4e613d2ae942694058861dd2a4aae6ff117)  
+
+**ABSTRACT**  
+Network embedding is a promising topic that maps the vertices to the latent space while keeps the structural proximity in the original space. The network embedding task is difficult since the network vertices have no specific time or space orders. Models that used to extract information from images and texts with regular space or time structures can not be directly applied in network heading. The key feature of network embedding methods should be further exploited. Previous network embedding reviews mainly focus on the models and algorithms used in different methods. In this survey, we review the network embedding works in the stochastic perspective either in data side or model side. Roughly, the network embedding methods fall into three main categories: matrix based methods, random walk based methods and aggregated based methods. We focus on the applications of stochastic models in solving the challenges of network embedding in data processing and modeling following the line of the three categories.
+{{< /ci-details >}}
+
+#### GraphSAINT
+{{< ci-details summary="Zeng et al. (2019)" >}}
+Hanqing Zeng, Hongkuan Zhou, Ajitesh Srivastava, R. Kannan, V. Prasanna. (2019)  
+**GraphSAINT: Graph Sampling Based Inductive Learning Method**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/d589e4018278e219733b156d44d0ba881a32195e)  
+Influential Citation Count (85), SS-ID (d589e4018278e219733b156d44d0ba881a32195e)  
+
+**ABSTRACT**  
+Graph Convolutional Networks (GCNs) are powerful models for learning representations of attributed this http URL scale GCNs to large graphs, state-of-the-art methods use various layer sampling techniques to alleviate the "neighbor explosion" problem during minibatch training. Here we proposeGraphSAINT, a graph sampling based inductive learning method that improves training efficiency in a fundamentally different way. By a change of perspective, GraphSAINT constructs minibatches by sampling the training graph, rather than the nodes or edges across GCN layers. Each iteration, a complete GCN is built from the properly sampled subgraph. Thus, we ensure fixed number of well-connected nodes in all layers. We further propose normalization technique to eliminate bias, and sampling algorithms for variance reduction. Importantly, we can decouple the sampling process from the forward and backward propagation of training, and extend GraphSAINT with other graph samplers and GCN variants. Comparing with strong baselines using layer sampling, GraphSAINT demonstrates superior performance in both accuracy and training time on four large graphs.
+{{< /ci-details >}}
+
+#### VGAE (Variational Graph AutoEncoder)
+{{< ci-details summary="Kipf & Welling (2016)" >}}
+Thomas Kipf, M. Welling. (2016)  
+**Variational Graph Auto-Encoders**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/54906484f42e871f7c47bbfe784a358b1448231f)  
+Influential Citation Count (347), SS-ID (54906484f42e871f7c47bbfe784a358b1448231f)  
+
+**ABSTRACT**  
+We introduce the variational graph auto-encoder (VGAE), a framework for unsupervised learning on graph-structured data based on the variational auto-encoder (VAE). This model makes use of latent variables and is capable of learning interpretable latent representations for undirected graphs. We demonstrate this model using a graph convolutional network (GCN) encoder and a simple inner product decoder. Our model achieves competitive results on a link prediction task in citation networks. In contrast to most existing models for unsupervised learning on graph-structured data and link prediction, our model can naturally incorporate node features, which significantly improves predictive performance on a number of benchmark datasets.
+{{< /ci-details >}}
+
+#### GraphSAGE
+{{< ci-details summary="Hamilton, Ying & Leskovec (2017)" >}}
+**Inductive Representation Learning on Large Graphs**  
+NIPS  
+[Paper Link](https://www.semanticscholar.org/paper/6b7d6e6416343b2a122f8416e69059ce919026ef)  
+Influential Citation Count (1254), SS-ID (6b7d6e6416343b2a122f8416e69059ce919026ef)  
+
+**ABSTRACT**  
+Low-dimensional embeddings of nodes in large graphs have proved extremely useful in a variety of prediction tasks, from content recommendation to identifying protein functions. However, most existing approaches require that all nodes in the graph are present during training of the embeddings; these previous approaches are inherently transductive and do not naturally generalize to unseen nodes. Here we present GraphSAGE, a general, inductive framework that leverages node feature information (e.g., text attributes) to efficiently generate node embeddings for previously unseen data. Instead of training individual embeddings for each node, we learn a function that generates embeddings by sampling and aggregating features from a node's local neighborhood. Our algorithm outperforms strong baselines on three inductive node-classification benchmarks: we classify the category of unseen nodes in evolving information graphs based on citation and Reddit post data, and we show that our algorithm generalizes to completely unseen graphs using a multi-graph dataset of protein-protein interactions.
+{{< /ci-details >}}
+
+#### PinSAGE
+{{< ci-details summary="Ying et al. (2018)" >}}
+Rex Ying, Ruining He, Kaifeng Chen, Pong Eksombatchai, William L. Hamilton, J. Leskovec. (2018)  
+**Graph Convolutional Neural Networks for Web-Scale Recommender Systems**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/6c96c2d4a3fbd572fef2d59cb856521ee1746789)  
+Influential Citation Count (128), SS-ID (6c96c2d4a3fbd572fef2d59cb856521ee1746789)  
+
+**ABSTRACT**  
+Recent advancements in deep neural networks for graph-structured data have led to state-of-the-art performance on recommender system benchmarks. However, making these methods practical and scalable to web-scale recommendation tasks with billions of items and hundreds of millions of users remains an unsolved challenge. Here we describe a large-scale deep recommendation engine that we developed and deployed at Pinterest. We develop a data-efficient Graph Convolutional Network (GCN) algorithm, which combines efficient random walks and graph convolutions to generate embeddings of nodes (i.e., items) that incorporate both graph structure as well as node feature information. Compared to prior GCN approaches, we develop a novel method based on highly efficient random walks to structure the convolutions and design a novel training strategy that relies on harder-and-harder training examples to improve robustness and convergence of the model. We also develop an efficient MapReduce model inference algorithm to generate embeddings using a trained model. Overall, we can train on and embed graphs that are four orders of magnitude larger than typical GCN implementations. We show how GCN embeddings can be used to make high-quality recommendations in various settings at Pinterest, which has a massive underlying graph with 3 billion nodes representing pins and boards, and 17 billion edges. According to offline metrics, user studies, as well as A/B tests, our approach generates higher-quality recommendations than comparable deep learning based systems. To our knowledge, this is by far the largest application of deep graph embeddings to date and paves the way for a new generation of web-scale recommender systems based on graph convolutional architectures.
+{{< /ci-details >}}
+
+#### Geniepath
+{{< ci-details summary="Liu et al. (2018)" >}}
+Ziqi Liu, Chaochao Chen, Longfei Li, Jun Zhou, Xiaolong Li, Le Song. (2018)  
+**GeniePath: Graph Neural Networks with Adaptive Receptive Paths**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/127af6effc74f073ac2442f6d82c944f562e2c0f)  
+Influential Citation Count (18), SS-ID (127af6effc74f073ac2442f6d82c944f562e2c0f)  
+
+**ABSTRACT**  
+We present, GeniePath, a scalable approach for learning adaptive receptive fields of neural networks defined on permutation invariant graph data. In GeniePath, we propose an adaptive path layer consists of two complementary functions designed for breadth and depth exploration respectively, where the former learns the importance of different sized neighborhoods, while the latter extracts and filters signals aggregated from neighbors of different hops away. Our method works in both transductive and inductive settings, and extensive experiments compared with competitive methods show that our approaches yield state-of-the-art results on large graphs.
+{{< /ci-details >}}
+
+#### MPNN (Message Passing Neural Network)
+{{< ci-details summary="Gilmer et al. (2017)" >}}
+J. Gilmer, S. Schoenholz, Patrick F. Riley, Oriol Vinyals, George E. Dahl. (2017)  
+**Neural Message Passing for Quantum Chemistry**  
+ICML  
+[Paper Link](https://www.semanticscholar.org/paper/e24cdf73b3e7e590c2fe5ecac9ae8aa983801367)  
+Influential Citation Count (440), SS-ID (e24cdf73b3e7e590c2fe5ecac9ae8aa983801367)  
+
+**ABSTRACT**  
+Supervised learning on molecules has incredible potential to be useful in chemistry, drug discovery, and materials science. Luckily, several promising and closely related neural network models invariant to molecular symmetries have already been described in the literature. These models learn a message passing algorithm and aggregation procedure to compute a function of their entire input graph. At this point, the next step is to find a particularly effective variant of this general approach and apply it to chemical prediction benchmarks until we either solve them or reach the limits of the approach. In this paper, we reformulate existing models into a single common framework we call Message Passing Neural Networks (MPNNs) and explore additional novel variations within this framework. Using MPNNs we demonstrate state of the art results on an important molecular property prediction benchmark; these results are strong enough that we believe future work should focus on datasets with larger molecules or more accurate ground truth labels.
+{{< /ci-details >}}
+
+#### Graph Generative Adversarial Networks
+{{< ci-details summary="Ding, Tang & Zhang (2018)" >}}
+Ming Ding, Jie Tang, Jie Zhang. (2018)  
+**Semi-supervised Learning on Graphs with Generative Adversarial Nets**  
+CIKM  
+[Paper Link](https://www.semanticscholar.org/paper/b8da4337c92acda632e8138be1b525a3aef54b85)  
+Influential Citation Count (5), SS-ID (b8da4337c92acda632e8138be1b525a3aef54b85)  
+
+**ABSTRACT**  
+We investigate how generative adversarial nets (GANs) can help semi-supervised learning on graphs. We first provide insights on working principles of adversarial learning over graphs and then present GraphSGAN, a novel approach to semi-supervised learning on graphs. In GraphSGAN, generator and classifier networks play a novel competitive game. At equilibrium, generator generates fake samples in low-density areas between subgraphs. In order to discriminate fake samples from the real, classifier implicitly takes the density property of subgraph into consideration. An efficient adversarial learning algorithm has been developed to improve traditional normalized graph Laplacian regularization with a theoretical guarantee. Experimental results on several different genres of datasets show that the proposed GraphSGAN significantly outperforms several state-of-the-art methods. GraphSGAN can be also trained using mini-batch, thus enjoys the scalability advantage.
+{{< /ci-details >}}
+{{< ci-details summary="Yu et al. (2018)" >}}
+Wenchao Yu, Cheng Zheng, Wei Cheng, C. Aggarwal, Dongjin Song, Bo Zong, Haifeng Chen, Wei Wang. (2018)  
+**Learning Deep Network Representations with Adversarially Regularized Autoencoders**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/dbf125bfe07856a63d4aab612c0063fc8c7b6484)  
+Influential Citation Count (6), SS-ID (dbf125bfe07856a63d4aab612c0063fc8c7b6484)  
+
+**ABSTRACT**  
+The problem of network representation learning, also known as network embedding, arises in many machine learning tasks assuming that there exist a small number of variabilities in the vertex representations which can capture the "semantics" of the original network structure. Most existing network embedding models, with shallow or deep architectures, learn vertex representations from the sampled vertex sequences such that the low-dimensional embeddings preserve the locality property and/or global reconstruction capability. The resultant representations, however, are difficult for model generalization due to the intrinsic sparsity of sampled sequences from the input network. As such, an ideal approach to address the problem is to generate vertex representations by learning a probability density function over the sampled sequences. However, in many cases, such a distribution in a low-dimensional manifold may not always have an analytic form. In this study, we propose to learn the network representations with adversarially regularized autoencoders (NetRA). NetRA learns smoothly regularized vertex representations that well capture the network structure through jointly considering both locality-preserving and global reconstruction constraints. The joint inference is encapsulated in a generative adversarial training process to circumvent the requirement of an explicit prior distribution, and thus obtains better generalization performance. We demonstrate empirically how well key properties of the network structure are captured and the effectiveness of NetRA on a variety of tasks, including network reconstruction, link prediction, and multi-label classification.
+{{< /ci-details >}}
+
+#### ARVGA (Adversarially Regularized Variational Graph AutoEncoder)
+{{< ci-details summary="Pan et al. (2019)" >}}
+Shirui Pan, Ruiqi Hu, S. Fung, Guodong Long, Jing Jiang, Chengqi Zhang. (2019)  
+**Learning Graph Embedding With Adversarial Training Methods**  
+IEEE Transactions on Cybernetics  
+[Paper Link](https://www.semanticscholar.org/paper/914fbae74420475d54c8099c5921b5f799c1c6c7)  
+Influential Citation Count (11), SS-ID (914fbae74420475d54c8099c5921b5f799c1c6c7)  
+
+**ABSTRACT**  
+Graph embedding aims to transfer a graph into vectors to facilitate subsequent graph-analytics tasks like link prediction and graph clustering. Most approaches on graph embedding focus on preserving the graph structure or minimizing the reconstruction errors for graph data. They have mostly overlooked the embedding distribution of the latent codes, which unfortunately may lead to inferior representation in many cases. In this article, we present a novel adversarially regularized framework for graph embedding. By employing the graph convolutional network as an encoder, our framework embeds the topological information and node content into a vector representation, from which a graph decoder is further built to reconstruct the input graph. The adversarial training principle is applied to enforce our latent codes to match a prior Gaussian or uniform distribution. Based on this framework, we derive two variants of the adversarial models, the adversarially regularized graph autoencoder (ARGA) and its variational version, and adversarially regularized variational graph autoencoder (ARVGA), to learn the graph embedding effectively. We also exploit other potential variations of ARGA and ARVGA to get a deeper understanding of our designs. Experimental results that compared 12 algorithms for link prediction and 20 algorithms for graph clustering validate our solutions.
+{{< /ci-details >}}
+
+#### DGGAN
+{{< ci-details summary="Zhu et al. (2020)" >}}
+Shijie Zhu, Jianxin Li, Hao Peng, Senzhang Wang, Philip S. Yu, Lifang He. (2020)  
+**Adversarial Directed Graph Embedding**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/0d4677ce389c1c1ef02c7d4e206d902c4f51bdb3)  
+Influential Citation Count (0), SS-ID (0d4677ce389c1c1ef02c7d4e206d902c4f51bdb3)  
+
+**ABSTRACT**  
+Node representation learning for directed graphs is critically important to facilitate many graph mining tasks. To capture the directed edges between nodes, existing methods mostly learn two embedding vectors for each node, source vector and target vector. However, these methods learn the source and target vectors separately. For the node with very low indegree or outdegree, the corresponding target vector or source vector cannot be effectively learned. In this paper, we propose a novel Directed Graph embedding framework based on Generative Adversarial Network, called DGGAN. The main idea is to use adversarial mechanisms to deploy a discriminator and two generators that jointly learn each node's source and target vectors. For a given node, the two generators are trained to generate its fake target and source neighbor nodes from the same underlying distribution, and the discriminator aims to distinguish whether a neighbor node is real or fake. The two generators are formulated into a unified framework and could mutually reinforce each other to learn more robust source and target vectors. Extensive experiments show that DGGAN consistently and significantly outperforms existing state-of-the-art methods across multiple graph mining tasks on directed graphs.
+{{< /ci-details >}}
+
+#### Anonymized GCN
+{{< ci-details summary="Liu (2020)" >}}
+Ao Liu. (2020)  
+**Anonymized GCN: A Novel Robust Graph Embedding Method via Hiding Node Position in Noise**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/9bad9deef8ebd658417d038849f3ca25b94f136b)  
+Influential Citation Count (0), SS-ID (9bad9deef8ebd658417d038849f3ca25b94f136b)  
+
+**ABSTRACT**  
+Graph convolution network (GCN) have achieved state-of-the-art performance in the task of node prediction in the graph structure. However, with the gradual various of graph attack methods, there are lack of research on the robustness of GCN. At this paper, we will design a robust GCN method for node prediction tasks. Considering the graph structure contains two types of information: node information and connection information, and attackers usually modify the connection information to complete the interference with the prediction results of the node, we first proposed a method to hide the connection information in the generator, named Anonymized GCN (AN-GCN). By hiding the connection information in the graph structure in the generator through adversarial training, the accurate node prediction can be completed only by the node number rather than its specific position in the graph. Specifically, we first demonstrated the key to determine the embedding of a specific node: the row corresponding to the node of the eigenmatrix of the Laplace matrix, by target it as the output of the generator, we designed a method to hide the node number in the noise. Take the corresponding noise as input, we will obtain the connection structure of the node instead of directly obtaining. Then the encoder and decoder are spliced both in discriminator, so that after adversarial training, the generator and discriminator can cooperate to complete the encoding and decoding of the graph, then complete the node prediction. Finally, All node positions can generated by noise at the same time, that is to say, the generator will hides all the connection information of the graph structure. The evaluation shows that we only need to obtain the initial features and node numbers of the nodes to complete the node prediction, and the accuracy did not decrease, but increased by 0.0293.
+{{< /ci-details >}}
+
+#### RASE
+{{< ci-details summary="Hettige et al. (2020)" >}}
+B. Hettige, Weiqing Wang, Yuan-Fang Li, Wray L. Buntine. (2020)  
+**Robust Attribute and Structure Preserving Graph Embedding**  
+PAKDD  
+[Paper Link](https://www.semanticscholar.org/paper/b40f3e3b7bb11949b26fc97febdc2c0d973b8021)  
+Influential Citation Count (0), SS-ID (b40f3e3b7bb11949b26fc97febdc2c0d973b8021)  
+
+**ABSTRACT**  
+Graph embedding methods are useful for a wide range of graph analysis tasks including link prediction and node classification. Most graph embedding methods learn only the topological structure of graphs. Nevertheless, it has been shown that the incorporation of node attributes is beneficial in improving the expressive power of node embeddings. However, real-world graphs are often noisy in terms of structure and/or attributes (missing and/or erroneous edges/attributes). Most existing graph embedding methods are susceptible to this noise, as they do not consider uncertainty during the modelling process. In this paper, we introduce RASE, a Robust Attribute and Structure preserving graph Embedding model. RASE is a novel graph representation learning model which effectively preserves both graph structure and node attributes through a unified loss function. To be robust, RASE uses a denoising attribute auto-encoder to deal with node attribute noise, and models uncertainty in the embedding space as Gaussians to cope with graph structure noise. We evaluate the performance of RASE through an extensive experimental study on various real-world datasets. Results demonstrate that RASE outperforms state-of-the-art embedding methods on multiple graph analysis tasks and is robust to both structure and attribute noise.
+{{< /ci-details >}}
+
+#### Graph Embedding with Data Uncertainty
+{{< ci-details summary="Laakom et al. (2020)" >}}
+Firas Laakom, Jenni Raitoharju, N. Passalis, Alexandros Iosifidis, M. Gabbouj. (2020)  
+**Graph Embedding With Data Uncertainty**  
+IEEE Access  
+[Paper Link](https://www.semanticscholar.org/paper/021e3e3f63194c5508e71706122372e96fdb1cdd)  
+Influential Citation Count (0), SS-ID (021e3e3f63194c5508e71706122372e96fdb1cdd)  
+
+**ABSTRACT**  
+Spectral-based subspace learning is a common data preprocessing step in many machine learning pipelines. The main aim is to learn a meaningful low dimensional embedding of the data. However, most subspace learning methods do not take into consideration possible measurement inaccuracies or artifacts that can lead to data with high uncertainty. Thus, learning directly from raw data can be misleading and can negatively impact the accuracy. In this paper, we propose to model artifacts in training data using probability distributions; each data point is represented by a Gaussian distribution centered at the original data point and having a variance modeling its uncertainty. We reformulate the Graph Embedding framework to make it suitable for learning from distributions and we study as special cases the Linear Discriminant Analysis and the Marginal Fisher Analysis techniques. Furthermore, we propose two schemes for modeling data uncertainty based on pair-wise distances in an unsupervised and a supervised contexts.
+{{</ ci-details >}}
+
+#### AAVGA (Adversarial Attention Variational Graph AutoEncoder)
+{{< ci-details summary="Weng, Zhang & Dou (2020)" >}}
+Ziqiang Weng, Weiyu Zhang, Wei Dou. (2020)  
+**Adversarial Attention-Based Variational Graph Autoencoder**  
+IEEE Access  
+[Paper Link](https://www.semanticscholar.org/paper/989afdf64a0df329004de086cbc9057a9d8634f4)  
+Influential Citation Count (0), SS-ID (989afdf64a0df329004de086cbc9057a9d8634f4)  
+
+**ABSTRACT**  
+Autoencoders have been successfully used for graph embedding, and many variants have been proven to effectively express graph data and conduct graph analysis in low-dimensional space. However, previous methods ignore the structure and properties of the reconstructed graph, or they do not consider the potential data distribution in the graph, which typically leads to unsatisfactory graph embedding performance. In this paper, we propose the adversarial attention variational graph autoencoder (AAVGA), which is a novel framework that incorporates attention networks into the encoder part and uses an adversarial mechanism in embedded training. The encoder involves node neighbors in the representation of nodes by stacking attention layers, which can further improve the graph embedding performance of the encoder. At the same time, due to the adversarial mechanism, the distribution of the potential features that are generated by the encoder are closer to the actual distribution of the original graph data; thus, the decoder generates a graph that is closer to the original graph. Experimental results prove that AAVGA performs competitively with state-of-the-art popular graph encoders on three citation datasets.
+{{< /ci-details >}}
+
+#### GSSNN (Graph Smoothing Splines Neural Networks)
+{{< ci-details summary="Zhu et al. (2020)" >}}
+Shichao Zhu, Lewei Zhou, Shirui Pan, Chuan Zhou, Guiying Yan, Bin Wang. (2020)  
+**GSSNN: Graph Smoothing Splines Neural Networks**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/2a3e3607fb9fbfa0d637946ca48035e68e7fee45)  
+Influential Citation Count (0), SS-ID (2a3e3607fb9fbfa0d637946ca48035e68e7fee45)  
+
+**ABSTRACT**  
+Graph Neural Networks (GNNs) have achieved state-of-the-art performance in many graph data analysis tasks. However, they still suffer from two limitations for graph representation learning. First, they exploit non-smoothing node features which may result in suboptimal embedding and degenerated performance for graph classification. Second, they only exploit neighbor information but ignore global topological knowledge. Aiming to overcome these limitations simultaneously, in this paper, we propose a novel, flexible, and end-to-end framework, Graph Smoothing Splines Neural Networks (GSSNN), for graph classification. By exploiting the smoothing splines, which are widely used to learn smoothing fitting function in regression, we develop an effective feature smoothing and enhancement module Scaled Smoothing Splines (S3) to learn graph embedding. To integrate global topological information, we design a novel scoring module, which exploits closeness, degree, as well as self-attention values, to select important node features as knots for smoothing splines. These knots can be potentially used for interpreting classification results. In extensive experiments on biological and social datasets, we demonstrate that our model achieves state-of-the-arts and GSSNN is superior in learning more robust graph representations. Furthermore, we show that S3 module is easily plugged into existing GNNs to improve their performance.
+{{< /ci-details >}}
+
+#### VHKRep (Variable Heat Kernel Representation)
+{{< ci-details summary="Jing et al. (2020)" >}}
+Yongjun Jing, Hao Wang, Kun Shao, X. Huo, Yangyang Zhang. (2020)  
+**Unsupervised Graph Representation Learning With Variable Heat Kernel**  
+IEEE Access  
+[Paper Link](https://www.semanticscholar.org/paper/b48fa95aa2a63466c87d176ee2caf4e5b975c085)  
+Influential Citation Count (1), SS-ID (b48fa95aa2a63466c87d176ee2caf4e5b975c085)  
+
+**ABSTRACT**  
+Graph representation learning aims to learn a low-dimension latent representation of nodes, and the learned representation is used for downstream graph analysis tasks. However, most of the existing graph embedding models focus on how to aggregate all the neighborhood node features to encode the semantic information into the representation and neglect the global structural features of the node such as community structure and centrality. In the paper, we propose a novel unsupervised graph representation learning method (VHKRep), where a variable heat kernel is designed to better capture implicit global features via heat diffusion with the different time scale and generate the robust node representation. We conduct extensive experiment on three real-world datasets for node classification and link prediction tasks. Compared with the state-of-the-art seven models, the experimental results demonstrate the effectiveness of our proposed method on both node classification and link prediction tasks.
+{{< /ci-details >}}
+
+#### TADW (Text-Associated DeepWalk)
+{{< ci-details summary="Yang et al. (2015)" >}}
+Cheng Yang, Zhiyuan Liu, Deli Zhao, Maosong Sun, Edward Y. Chang. (2015)  
+**Network Representation Learning with Rich Text Information**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/fce14c6aa64e888456256ac6796744683165a0ff)  
+Influential Citation Count (162), SS-ID (fce14c6aa64e888456256ac6796744683165a0ff)  
+
+**ABSTRACT**  
+Representation learning has shown its effectiveness in many tasks such as image classification and text mining. Network representation learning aims at learning distributed vector representation for each vertex in a network, which is also increasingly recognized as an important aspect for network analysis. Most network representation learning methods investigate network structures for learning. In reality, network vertices contain rich information (such as text), which cannot be well applied with algorithmic frameworks of typical representation learning methods. By proving that DeepWalk, a state-of-the-art network representation method, is actually equivalent to matrix factorization (MF), we propose text-associated DeepWalk (TADW). TADW incorporates text features of vertices into network representation learning under the framework of matrix factorization. We evaluate our method and various baseline methods by applying them to the task of multi-class classification of vertices. The experimental results show that, our method outperforms other baselines on all three datasets, especially when networks are noisy and training ratio is small. The source code of this paper can be obtained from https://github.com/albertyang33/TADW.
+{{< /ci-details >}}
+
+#### PLE
+{{< ci-details summary="Ren et al. (2016)" >}}
+Xiang Ren, Wenqi He, Meng Qu, Clare R. Voss, Heng Ji, Jiawei Han. (2016)  
+**Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/2a1d2b775997d6e2e42a054ea0ed456af1060796)  
+Influential Citation Count (18), SS-ID (2a1d2b775997d6e2e42a054ea0ed456af1060796)  
+
+**ABSTRACT**  
+Current systems of fine-grained entity typing use distant supervision in conjunction with existing knowledge bases to assign categories (type labels) to entity mentions. However, the type labels so obtained from knowledge bases are often noisy (i.e., incorrect for the entity mention's local context). We define a new task, Label Noise Reduction in Entity Typing (LNR), to be the automatic identification of correct type labels (type-paths) for training examples, given the set of candidate type labels obtained by distant supervision with a given type hierarchy. The unknown type labels for individual entity mentions and the semantic similarity between entity types pose unique challenges for solving the LNR task. We propose a general framework, called PLE, to jointly embed entity mentions, text features and entity types into the same low-dimensional space where, in that space, objects whose types are semantically close have similar representations. Then we estimate the type-path for each training example in a top-down manner using the learned embeddings. We formulate a global objective for learning the embeddings from text corpora and knowledge bases, which adopts a novel margin-based loss that is robust to noisy labels and faithfully models type correlation derived from knowledge bases. Our experiments on three public typing datasets demonstrate the effectiveness and robustness of PLE, with an average of 25% improvement in accuracy compared to next best method.
+
+{{< /ci-details >}}
+
+#### RTM (Relational Topic Model)
+{{< ci-details summary="Chang & Blei (2009)" >}}
+Jonathan Chang, D. Blei. (2009)  
+**Relational Topic Models for Document Networks**  
+AISTATS  
+[Paper Link](https://www.semanticscholar.org/paper/9f68d27df3a4c4be8636f376cb15f77e55a2f496)  
+Influential Citation Count (82), SS-ID (9f68d27df3a4c4be8636f376cb15f77e55a2f496)  
+
+**ABSTRACT**  
+We develop the relational topic model (RTM), a model of documents and the links between them. For each pair of documents, the RTM models their link as a binary random variable that is conditioned on their contents. The model can be used to summarize a network of documents, predict links between them, and predict words within them. We derive efficient inference and learning algorithms based on variational methods and evaluate the predictive performance of the RTM for large networks of scientific abstracts and web documents.
+{{< /ci-details >}}
+
+#### PLDNE (Probabilistic Latent Document Netowrk Embedding)
+{{< ci-details summary="Le & Lauw (2014)" >}}
+Tuan M. V. Le, Hady W. Lauw. (2014)  
+**Probabilistic Latent Document Network Embedding**  
+2014 IEEE International Conference on Data Mining  
+[Paper Link](https://www.semanticscholar.org/paper/24f7d72e92cadfa5c84949537639ce084b9d2092)  
+Influential Citation Count (8), SS-ID (24f7d72e92cadfa5c84949537639ce084b9d2092)  
+
+**ABSTRACT**  
+A document network refers to a data type that can be represented as a graph of vertices, where each vertex is associated with a text document. Examples of such a data type include hyperlinked Web pages, academic publications with citations, and user profiles in social networks. Such data have very high-dimensional representations, in terms of text as well as network connectivity. In this paper, we study the problem of embedding, or finding a low-dimensional representation of a document network that "preserves" the data as much as possible. These embedded representations are useful for various applications driven by dimensionality reduction, such as visualization or feature selection. While previous works in embedding have mostly focused on either the textual aspect or the network aspect, we advocate a holistic approach by finding a unified low-rank representation for both aspects. Moreover, to lend semantic interpretability to the low-rank representation, we further propose to integrate topic modeling and embedding within a joint model. The gist is to join the various representations of a document (words, links, topics, and coordinates) within a generative model, and to estimate the hidden representations through MAP estimation. We validate our model on real-life document networks, showing that it outperforms comparable baselines comprehensively on objective evaluation metrics.
+{{< /ci-details >}}
+
+#### Author2Vec
+{{< ci-details summary="Ganguly et al. (2016)" >}}
+Ganesh Jawahar, S. Ganguly, Manish Gupta, Vasudeva Varma, Vikram Pudi. (2016)  
+**Author2Vec: Learning Author Representations by Combining Content and Link Information**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/aee808e9c5fb20b2dd1a51bb020112cdb908d80b)  
+Influential Citation Count (3), SS-ID (aee808e9c5fb20b2dd1a51bb020112cdb908d80b)  
+
+**ABSTRACT**  
+In this paper, we consider the problem of learning representations for authors from bibliographic co-authorship networks. Existing methods for deep learning on graphs, such as DeepWalk, suffer from link sparsity problem as they focus on modeling the link information only. We hypothesize that capturing both the content and link information in a unified way will help mitigate the sparsity problem. To this end, we present a novel model 'Author2Vec', which learns low-dimensional author representations such that authors who write similar content and share similar network structure are closer in vector space. Such embeddings are useful in a variety of applications such as link prediction, node classification, recommendation and visualization. The author embeddings we learn are empirically shown to outperform DeepWalk by 2.35% and 0.83% for link prediction and clustering task respectively.
+{{< /ci-details >}}
+
+#### ARE (Augmented Relation Embedding)
+{{< ci-details summary="Lin, Liu & Chen (2005)" >}}
+Yen-Yu Lin, Tyng-Luh Liu, Hwann-Tzong Chen. (2005)  
+**Semantic manifold learning for image retrieval**  
+MULTIMEDIA '05  
+[Paper Link](https://www.semanticscholar.org/paper/7438604d467c64156fcb3e86556d80f0ca72342d)  
+Influential Citation Count (12), SS-ID (7438604d467c64156fcb3e86556d80f0ca72342d)  
+
+**ABSTRACT**  
+Learning the user's semantics for CBIR involves two different sources of information: the similarity relations entailed by the content-based features, and the relevance relations specified in the feedback. Given that, we propose an augmented relation embedding (ARE) to map the image space into a semantic manifold that faithfully grasps the user's preferences. Besides ARE, we also look into the issues of selecting a good feature set for improving the retrieval performance. With these two aspects of efforts we have established a system that yields far better results than those previously reported. Overall, our approach can be characterized by three key properties: 1) The framework uses one relational graph to describe the similarity relations, and the other two to encode the relevant/irrelevant relations indicated in the feedback. 2) With the relational graphs so defined, learning a semantic manifold can be transformed into solving a constrained optimization problem, and is reduced to the ARE algorithm accounting for both the representation and the classification points of views. 3) An image representation based on augmented features is introduced to couple with the ARE learning. The use of these features is significant in capturing the semantics concerning different scales of image regions. We conclude with experimental results and comparisons to demonstrate the effectiveness of our method.
+{{< /ci-details >}}
+
+#### Learning Image and User Features for Recommendation
+{{< ci-details summary="Geng et al. (2015)" >}}
+Xue Geng, Hanwang Zhang, Jingwen Bian, Tat-Seng Chua. (2015)  
+**Learning Image and User Features for Recommendation in Social Networks**  
+2015 IEEE International Conference on Computer Vision (ICCV)  
+[Paper Link](https://www.semanticscholar.org/paper/15f5721502c2905c555a4eb0a110d6fc211c1fb2)  
+Influential Citation Count (11), SS-ID (15f5721502c2905c555a4eb0a110d6fc211c1fb2)  
+
+**ABSTRACT**  
+Good representations of data do help in many machine learning tasks such as recommendation. It is often a great challenge for traditional recommender systems to learn representative features of both users and images in large social networks, in particular, social curation networks, which are characterized as the extremely sparse links between users and images, and the extremely diverse visual contents of images. To address the challenges, we propose a novel deep model which learns the unified feature representations for both users and images. This is done by transforming the heterogeneous user-image networks into homogeneous low-dimensional representations, which facilitate a recommender to trivially recommend images to users by feature similarity. We also develop a fast online algorithm that can be easily scaled up to large networks in an asynchronously parallel way. We conduct extensive experiments on a representative subset of Pinterest, containing 1,456,540 images and 1,000,000 users. Results of image recommendation experiments demonstrate that our feature learning approach significantly outperforms other state-of-the-art recommendation methods.
+{{< /ci-details >}}
+
+#### Learning Features from Large-Scale, Noisy and Social Image-Tag Collection
+{{< ci-details summary="Zhang et al. (2015)" >}}
+Hanwang Zhang, Xindi Shang, Huanbo Luan, Yang Yang, Tat-Seng Chua. (2015)  
+**Learning Features from Large-Scale, Noisy and Social Image-Tag Collection**  
+ACM Multimedia  
+[Paper Link](https://www.semanticscholar.org/paper/7449864adc5d491fd0b2abf83a218429ce7834d4)  
+Influential Citation Count (1), SS-ID (7449864adc5d491fd0b2abf83a218429ce7834d4)  
+
+**ABSTRACT**  
+Feature representation for multimedia content is the key to the progress of many fundamental multimedia tasks. Although recent advances in deep feature learning offer a promising route towards these tasks, they are limited in application to domains where high-quality and large-scale training data are hard to obtain. In this paper, we propose a novel deep feature learning paradigm based on large, noisy and social image-tag collections, which can be acquired from the inexhaustible social multimedia content on the Web. Instead of learning features from high-quality image-label supervision, we propose to learn from the image-word semantic relations, in a way of seeking a unified image-word embedding space, where the pairwise feature similarities preserve the semantic relations in the original image-word pairs. We offer an easy-to-use implementation for the proposed paradigm, which is fast and compatible for integrating into any state-of-the-art deep architectures. Experiments on NUSWIDE benchmark demonstrate that the features learned by our method significantly outperforms other state-of-the-art ones.
+{{< /ci-details >}}
+
+#### Learning from Collective Intelligence
+{{< ci-details summary="Zhang et al. (2017)" >}}
+Hanwang Zhang, Xindi Shang, Huanbo Luan, Meng Wang, Tat-Seng Chua. (2016)  
+**Learning from Collective Intelligence**  
+ACM Trans. Multim. Comput. Commun. Appl.  
+[Paper Link](https://www.semanticscholar.org/paper/4f3417e73528025a5429547814e5a2fd91deb818)  
+Influential Citation Count (4), SS-ID (4f3417e73528025a5429547814e5a2fd91deb818)  
+
+**ABSTRACT**  
+Feature representation for visual content is the key to the progress of many fundamental applications such as annotation and cross-modal retrieval. Although recent advances in deep feature learning offer a promising route towards these tasks, they are limited in application domains where high-quality and large-scale training data are expensive to obtain. In this article, we propose a novel deep feature learning paradigm based on social collective intelligence, which can be acquired from the inexhaustible social multimedia content on the Web, in particular, largely social images and tags. Differing from existing feature learning approaches that rely on high-quality image-label supervision, our weak supervision is acquired by mining the visual-semantic embeddings from noisy, sparse, and diverse social image collections. The resultant image-word embedding space can be used to (1) fine-tune deep visual models for low-level feature extractions and (2) seek sparse representations as high-level cross-modal features for both image and text. We offer an easy-to-use implementation for the proposed paradigm, which is fast and compatible with any state-of-the-art deep architectures. Extensive experiments on several benchmarks demonstrate that the cross-modal features learned by our paradigm significantly outperforms others in various applications such as content-based retrieval, classification, and image captioning.
+{{< /ci-details >}}
+
+#### CENE (Content-Enhanced Network Embedding)
+{{< ci-details summary="Sun et al. (2016)" >}}
+Xiaofei Sun, Jiang Guo, Xiao Ding, Ting Liu. (2016)  
+**A General Framework for Content-enhanced Network Representation Learning**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/1268d2ae95f0b128678d6ce033ba8ea7f0d98be1)  
+Influential Citation Count (11), SS-ID (1268d2ae95f0b128678d6ce033ba8ea7f0d98be1)  
+
+**ABSTRACT**  
+This paper investigates the problem of network embedding, which aims at learning low-dimensional vector representation of nodes in networks. Most existing network embedding methods rely solely on the network structure, i.e., the linkage relationships between nodes, but ignore the rich content information associated with it, which is common in real world networks and beneficial to describing the characteristics of a node. In this paper, we propose content-enhanced network embedding (CENE), which is capable of jointly leveraging the network structure and the content information. Our approach integrates text modeling and structure modeling in a general framework by treating the content information as a special kind of node. Experiments on several real world net- works with application to node classification show that our models outperform all existing network embedding methods, demonstrating the merits of content information and joint learning.
+{{< /ci-details >}}
+
+#### HSCA model (Homophily, Structure and Content Augmented)
+{{< ci-details summary="Zhang et al. (2016)" >}}
+Daokun Zhang, Jie Yin, Xingquan Zhu, Chengqi Zhang. (2016)  
+**Homophily, Structure, and Content Augmented Network Representation Learning**  
+2016 IEEE 16th International Conference on Data Mining (ICDM)  
+[Paper Link](https://www.semanticscholar.org/paper/4cc10f77819ad376ea539074c2de14a8999e3269)  
+Influential Citation Count (4), SS-ID (4cc10f77819ad376ea539074c2de14a8999e3269)  
+
+**ABSTRACT**  
+Advances in social networking and communication technologies have witnessed an increasing number of applications where data is not only characterized by rich content information, but also connected with complex relationships representing social roles and dependencies between individuals. To enable knowledge discovery from such networked data, network representation learning (NRL) aims to learn vector representations for network nodes, such that off-the-shelf machine learning algorithms can be directly applied. To date, existing NRL methods either primarily focus on network structure or simply combine node content and topology for learning. We argue that in information networks, information is mainly originated from three sources: (1) homophily, (2) topology structure, and (3) node content. Homophily states social phenomenon where individuals sharing similar attributes (content) tend to be directly connected through local relational ties, while topology structure emphasizes more on global connections. To ensure effective network representation learning, we propose to augment three information sources into one learning objective function, so that the interplay roles between three parties are enforced by requiring the learned network representations (1) being consistent with node content and topology structure, and also (2) following the social homophily constraints in the learned space. Experiments on multi-class node classification demonstrate that the representations learned by the proposed method consistently outperform state-of-the-art NRL methods, especially for very sparsely labeled networks.
+{{< /ci-details >}}
+
+#### DeepBrowse
+{{< ci-details summary="Chen, Anantharam & Skiena (2017)" >}}
+Haochen Chen, Arvind Ram Anantharam, S. Skiena. (2017)  
+**DeepBrowse: Similarity-Based Browsing Through Large Lists (Extended Abstract)**  
+SISAP  
+[Paper Link](https://www.semanticscholar.org/paper/562d08ed73dad28c989b6a04fa1e389b0125ba59)  
+Influential Citation Count (0), SS-ID (562d08ed73dad28c989b6a04fa1e389b0125ba59)  
+
+**ABSTRACT**  
+We propose a new approach for browsing through large lists in the absence of a predefined hierarchy. DeepBrowse is defined by the interaction of two fixed, globally-defined permutations on the space of objects: one ordering the items by similarity, the second based on magnitude or importance. We demonstrate this paradigm through our WikiBrowse app for discovering interesting Wikipedia pages, which enables the user to scan similar related entities and then increase depth once a region of interest has been found.
+{{< /ci-details >}}
+
+#### Tri-party Deep Network Representation
+{{< ci-details summary="Pan et al. (2016)" >}}
+Shirui Pan, Jia Wu, Xingquan Zhu, Chengqi Zhang, Yang Wang. (2016)  
+**Tri-Party Deep Network Representation**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/8ba7631515d5e7e0c451af1c4772507f41540a5e)  
+Influential Citation Count (32), SS-ID (8ba7631515d5e7e0c451af1c4772507f41540a5e)  
+
+**ABSTRACT**  
+Information network mining often requires examination of linkage relationships between nodes for analysis. Recently, network representation has emerged to represent each node in a vector format, embedding network structure, so off-the-shelf machine learning methods can be directly applied for analysis. To date, existing methods only focus on one aspect of node information and cannot leverage node labels. In this paper, we propose TriDNR, a tri-party deep network representation model, using information from three parties: node structure, node content, and node labels (if available) to jointly learn optimal node representation. TriDNR is based on our new coupled deep natural language module, whose learning is enforced at three levels: (1) at the network structure level, TriDNR exploits inter-node relationship by maximizing the probability of observing surrounding nodes given a node in random walks; (2) at the node content level, TriDNR captures node-word correlation by maximizing the co-occurrence of word sequence given a node; and (3) at the node label level, TriDNR models label-word correspondence by maximizing the probability of word sequence given a class label. The tri-party information is jointly fed into the neural network model to mutually enhance each other to learn optimal representation, and results in up to 79% classification accuracy gain, compared to state-of-the-art methods.
+{{< /ci-details >}}
+
+#### GENE (Incorporate Group Information to Enhance Network Embedding)
+{{< ci-details summary="Chen, Zhang & Huang (2016)" >}}
+**Incorporate Group Information to Enhance Network Embedding**  
+CIKM  
+[Paper Link](https://www.semanticscholar.org/paper/332ec914469af4ecbc4ada0631773febc030406e)  
+Influential Citation Count (4), SS-ID (332ec914469af4ecbc4ada0631773febc030406e)  
+
+**ABSTRACT**  
+The problem of representing large-scale networks with low-dimensional vectors has received considerable attention in recent years. Except the networks that include only vertices and edges, a variety of networks contain information about groups or communities. For example, on Facebook, in addition to users and the follower-followee relations between them, users can also create and join groups. However, previous studies have rarely utilized this valuable information to generate embeddings of vertices. In this paper, we investigate a novel method for learning the network embeddings with valuable group information for large-scale networks. The proposed methods take both the inner structures of the groups and the information across groups into consideration. Experimental results demonstrate that the embeddings generated by the proposed methods significantly outperform state-of-the-art network embedding methods on two different scale real-world network
+{{< /ci-details >}}
+
+#### Planetoid
+{{< ci-details summary="Yang, Cohen & Salakhutdinov (2016)" >}}
+Zhilin Yang, William W. Cohen, R. Salakhutdinov. (2016)  
+**Revisiting Semi-Supervised Learning with Graph Embeddings**  
+ICML  
+[Paper Link](https://www.semanticscholar.org/paper/3d846cb01f6a975554035d2210b578ca61344b22)  
+Influential Citation Count (178), SS-ID (3d846cb01f6a975554035d2210b578ca61344b22)  
+
+**ABSTRACT**  
+We present a semi-supervised learning framework based on graph embeddings. Given a graph between instances, we train an embedding for each instance to jointly predict the class label and the neighborhood context in the graph. We develop both transductive and inductive variants of our method. In the transductive variant of our method, the class labels are determined by both the learned embeddings and input feature vectors, while in the inductive variant, the embeddings are defined as a parametric function of the feature vectors, so predictions can be made on instances not seen during training. On a large and diverse set of benchmark tasks, including text classification, distantly supervised entity extraction, and entity classification, we show improved performance over many of the existing models.
+{{< /ci-details >}}
+
+#### Max-margin DeepWalk
+{{< ci-details summary="Tu et al. (2016)" >}}
+Cunchao Tu, Weicheng Zhang, Zhiyuan Liu, Maosong Sun. (2016)  
+**Max-Margin DeepWalk: Discriminative Learning of Network Representation**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/5d66991e1f541a08e81e59060cb0bb7f6931c2d9)  
+Influential Citation Count (29), SS-ID (5d66991e1f541a08e81e59060cb0bb7f6931c2d9)  
+
+**ABSTRACT**  
+DeepWalk is a typical representation learning method that learns low-dimensional representations for vertices in social networks. Similar to other network representation learning (NRL) models, it encodes the network structure into vertex representations and is learnt in unsupervised form. However, the learnt representations usually lack the ability of discrimination when applied to machine learning tasks, such as vertex classification. In this paper, we overcome this challenge by proposing a novel semi-supervised model, max-margin Deep-Walk (MMDW). MMDW is a unified NRL framework that jointly optimizes the max-margin classifier and the aimed social representation learning model. Influenced by the max-margin classifier, the learnt representations not only contain the network structure, but also have the characteristic of discrimination. The visualizations of learnt representations indicate that our model is more discriminative than unsupervised ones, and the experimental results on vertex classification demonstrate that our method achieves a significant improvement than other state-of-the-art methods. The source code can be obtained from https://github.com/thunlp/MMDW.
+{{< /ci-details >}}
+
+#### LANE (Label Informed Attributed Network Embedding)
+{{< ci-details summary="Huang, Le & Hu (2017)" >}}
+Xiao Huang, Jundong Li, Xia Hu. (2017)  
+**Label Informed Attributed Network Embedding**  
+WSDM  
+[Paper Link](https://www.semanticscholar.org/paper/44044556dae0e21cab058c18f704b15d33bd17c5)  
+Influential Citation Count (45), SS-ID (44044556dae0e21cab058c18f704b15d33bd17c5)  
+
+**ABSTRACT**  
+Attributed network embedding aims to seek low-dimensional vector representations for nodes in a network, such that original network topological structure and node attribute proximity can be preserved in the vectors. These learned representations have been demonstrated to be helpful in many learning tasks such as network clustering and link prediction. While existing algorithms follow an unsupervised manner, nodes in many real-world attributed networks are often associated with abundant label information, which is potentially valuable in seeking more effective joint vector representations. In this paper, we investigate how labels can be modeled and incorporated to improve attributed network embedding. This is a challenging task since label information could be noisy and incomplete. In addition, labels are completely distinct with the geometrical structure and node attributes. The bewildering combination of heterogeneous information makes the joint vector representation learning more difficult. To address these issues, we propose a novel Label informed Attributed Network Embedding (LANE) framework. It can smoothly incorporate label information into the attributed network embedding while preserving their correlations. Experiments on real-world datasets demonstrate that the proposed framework achieves significantly better performance compared with the state-of-the-art embedding algorithms.
+{{< /ci-details >}}
+
+#### Li, Ritter & Jurafsky (2015)
+{{< ci-details summary="Li, Ritter & Jurafsky (2015)" >}}
+**Learning multi-faceted representations of individuals from heterogeneous evidence using neural networks**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/2dde8f7171522243870fef46a0c93e5bf7be45b9)  
+Influential Citation Count (2), SS-ID (2dde8f7171522243870fef46a0c93e5bf7be45b9)  
+
+**ABSTRACT**  
+Inferring latent attributes of people online is an important social computing task, but requires integrating the many heterogeneous sources of information available on the web. We propose learning individual representations of people using neural nets to integrate rich linguistic and network evidence gathered from social media. The algorithm is able to combine diverse cues, such as the text a person writes, their attributes (e.g. gender, employer, education, location) and social relations to other people. We show that by integrating both textual and network evidence, these representations offer improved performance at four important tasks in social media inference on Twitter: predicting (1) gender, (2) occupation, (3) location, and (4) friendships for users. Our approach scales to large datasets and the learned representations can be used as general features in and have the potential to benefit a large number of downstream tasks including link prediction, community detection, or probabilistic reasoning over social networks.
+{{< /ci-details >}}
+
+#### Zhao, Liu & Sun (2015)
+{{< ci-details summary="Zhao, Liu & Sun (2015)" >}}
+Yu Zhao, Zhiyuan Liu, Maosong Sun. (2015)  
+**Representation Learning for Measuring Entity Relatedness with Rich Information**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/5c560cdfbfa48ed570b9b11e1a2f15e371e635f4)  
+Influential Citation Count (3), SS-ID (5c560cdfbfa48ed570b9b11e1a2f15e371e635f4)  
+
+**ABSTRACT**  
+Incorporating multiple types of relational information from heterogeneous networks has been proved effective in data mining. Although Wikipedia is one of the most famous heterogeneous network, previous works of semantic analysis on Wikipedia are mostly limited on single type of relations. In this paper, we aim at incorporating multiple types of relations to measure the semantic relatedness between Wikipedia entities. We propose a framework of coordinate matrix factorization to construct lowdimensional continuous representation for entities, categories and words in the same semantic space. We formulate this task as the completion of a sparse entity-entity association matrix, in which each entry quantifies the strength of relatedness between corresponding entities. We evaluate our model on the task of judging pair-wise word similarity. Experiment result shows that our model outperforms both traditional entity relatedness algorithms and other representation learning models.
+{{< /ci-details>}}
+
+#### HNE (Heterogeneous Network Embedding)
+{{< ci-details summary="Chang et al. (2015)" >}}
+Shiyu Chang, Wei Han, Jiliang Tang, Guo-Jun Qi, C. Aggarwal, Thomas S. Huang. (2015)  
+**Heterogeneous Network Embedding via Deep Architectures**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/f7172f95a3c0aa4fddfaadbce9908ce20cbf50ef)  
+Influential Citation Count (35), SS-ID (f7172f95a3c0aa4fddfaadbce9908ce20cbf50ef)  
+
+**ABSTRACT**  
+Data embedding is used in many machine learning applications to create low-dimensional feature representations, which preserves the structure of data points in their original space. In this paper, we examine the scenario of a heterogeneous network with nodes and content of various types. Such networks are notoriously difficult to mine because of the bewildering combination of heterogeneous contents and structures. The creation of a multidimensional embedding of such data opens the door to the use of a wide variety of off-the-shelf mining techniques for multidimensional data. Despite the importance of this problem, limited efforts have been made on embedding a network of scalable, dynamic and heterogeneous data. In such cases, both the content and linkage structure provide important cues for creating a unified feature representation of the underlying network. In this paper, we design a deep embedding algorithm for networked data. A highly nonlinear multi-layered embedding function is used to capture the complex interactions between the heterogeneous data in a network. Our goal is to create a multi-resolution deep embedding function, that reflects both the local and global network structures, and makes the resulting embedding useful for a variety of data mining tasks. In particular, we demonstrate that the rich content and linkage information in a heterogeneous network can be captured by such an approach, so that similarities among cross-modal data can be measured directly in a common embedding space. Once this goal has been achieved, a wide variety of data mining problems can be solved by applying off-the-shelf algorithms designed for handling vector representations. Our experiments on real-world network datasets show the effectiveness and scalability of the proposed algorithm as compared to the state-of-the-art embedding methods.
+{{< /ci-details >}}
+
+#### Tang & Liu (2011)
+{{< ci-details summary="Tang & Liu (2011)" >}}
+Lei Tang, Huan Liu. (2011)  
+**Leveraging social media networks for classification**  
+Data Mining and Knowledge Discovery  
+[Paper Link](https://www.semanticscholar.org/paper/3f9df5c77af49d5b1b19eac9b82cb430b50f482d)  
+Influential Citation Count (26), SS-ID (3f9df5c77af49d5b1b19eac9b82cb430b50f482d)  
+
+**ABSTRACT**  
+Social media has reshaped the way in which people interact with each other. The rapid development of participatory web and social networking sites like YouTube, Twitter, and Facebook, also brings about many data mining opportunities and novel challenges. In particular, we focus on classification tasks with user interaction information in a social network. Networks in social media are heterogeneous, consisting of various relations. Since the relation-type information may not be available in social media, most existing approaches treat these inhomogeneous connections homogeneously, leading to an unsatisfactory classification performance. In order to handle the network heterogeneity, we propose the concept of social dimension to represent actors’ latent affiliations, and develop a classification framework based on that. The proposed framework, SocioDim, first extracts social dimensions based on the network structure to accurately capture prominent interaction patterns between actors, then learns a discriminative classifier to select relevant social dimensions. SocioDim, by differentiating different types of network connections, outperforms existing representative methods of classification in social media, and offers a simple yet effective approach to integrating two types of seemingly orthogonal information: the network of actors and their attributes.
+{{< /ci-details >}}
+
+#### EOE (Embedding of Embedding)
+{{< ci-details summary="Xu et al. (2017)" >}}
+Linchuan Xu, Xiaokai Wei, Jiannong Cao, Philip S. Yu. (2017)  
+**Embedding of Embedding (EOE): Joint Embedding for Coupled Heterogeneous Networks**  
+WSDM  
+[Paper Link](https://www.semanticscholar.org/paper/688f937ddeed178802c53963743d1801a778614e)  
+Influential Citation Count (14), SS-ID (688f937ddeed178802c53963743d1801a778614e)  
+
+**ABSTRACT**  
+Network embedding is increasingly employed to assist network analysis as it is effective to learn latent features that encode linkage information. Various network embedding methods have been proposed, but they are only designed for a single network scenario. In the era of big data, different types of related information can be fused together to form a coupled heterogeneous network, which consists of two different but related sub-networks connected by inter-network edges. In this scenario, the inter-network edges can act as comple- mentary information in the presence of intra-network ones. This complementary information is important because it can make latent features more comprehensive and accurate. And it is more important when the intra-network edges are ab- sent, which can be referred to as the cold-start problem. In this paper, we thus propose a method named embedding of embedding (EOE) for coupled heterogeneous networks. In the EOE, latent features encode not only intra-network edges, but also inter-network ones. To tackle the challenge of heterogeneities of two networks, the EOE incorporates a harmonious embedding matrix to further embed the em- beddings that only encode intra-network edges. Empirical experiments on a variety of real-world datasets demonstrate the EOE outperforms consistently single network embedding methods in applications including visualization, link prediction multi-class classification, and multi-label classification.
+{{< /ci-details >}}
+
+#### Huang & Mamoulis (2017)
+{{< ci-details summary="Huang & Mamoulis (2017)" >}}
+**Heterogeneous Information Network Embedding for Meta Path based Proximity**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/52a150d6a098ef142bece099dadaa613fddbae50)  
+Influential Citation Count (14), SS-ID (52a150d6a098ef142bece099dadaa613fddbae50)  
+
+**ABSTRACT**  
+A network embedding is a representation of a large graph in a low-dimensional space, where vertices are modeled as vectors. The objective of a good embedding is to preserve the proximity between vertices in the original graph. This way, typical search and mining methods can be applied in the embedded space with the help of off-the-shelf multidimensional indexing approaches. Existing network embedding techniques focus on homogeneous networks, where all vertices are considered to belong to a single class.
+{{< /ci-details >}}
+
+#### Chen & Sun (2016)
+{{< ci-details summary="Chen & Sun (2016)" >}}
+Ting Chen, Yizhou Sun. (2016)  
+**Task-Guided and Path-Augmented Heterogeneous Network Embedding for Author Identification**  
+WSDM  
+[Paper Link](https://www.semanticscholar.org/paper/6b183d2297cb493a57dbc875689ab2430d870043)  
+Influential Citation Count (13), SS-ID (6b183d2297cb493a57dbc875689ab2430d870043)  
+
+**ABSTRACT**  
+In this paper, we study the problem of author identification under double-blind review setting, which is to identify potential authors given information of an anonymized paper. Different from existing approaches that rely heavily on feature engineering, we propose to use network embedding approach to address the problem, which can automatically represent nodes into lower dimensional feature vectors. However, there are two major limitations in recent studies on network embedding: (1) they are usually general-purpose embedding methods, which are independent of the specific tasks; and (2) most of these approaches can only deal with homogeneous networks, where the heterogeneity of the network is ignored. Hence, challenges faced here are two folds: (1) how to embed the network under the guidance of the author identification task, and (2) how to select the best type of information due to the heterogeneity of the network. To address the challenges, we propose a task-guided and path-augmented heterogeneous network embedding model. In our model, nodes are first embedded as vectors in latent feature space. Embeddings are then shared and jointly trained according to task-specific and network-general objectives. We extend the existing unsupervised network embedding to incorporate meta paths in heterogeneous networks, and select paths according to the specific task. The guidance from author identification task for network embedding is provided both explicitly in joint training and implicitly during meta path selection. Our experiments demonstrate that by using path-augmented network embedding with task guidance, our model can obtain significantly better accuracy at identifying the true authors comparing to existing methods.
+{{< /ci-details >}}
+
+#### Jacob, Denoyer & Gallinari (2014)
+{{< ci-details summary="Jacob, Denoyer & Gallinari (2014)" >}}
+Yann Jacob, Ludovic Denoyer, P. Gallinari. (2014)  
+**Learning latent representations of nodes for classifying in heterogeneous social networks**  
+WSDM  
+[Paper Link](https://www.semanticscholar.org/paper/030d436cb0465fd6cec0d5140b2534a8f1b8aeca)  
+Influential Citation Count (6), SS-ID (030d436cb0465fd6cec0d5140b2534a8f1b8aeca)  
+
+**ABSTRACT**  
+Social networks are heterogeneous systems composed of different types of nodes (e.g. users, content, groups, etc.) and relations (e.g. social or similarity relations). While learning and performing inference on homogeneous networks have motivated a large amount of research, few work exists on heterogeneous networks and there are open and challenging issues for existing methods that were previously developed for homogeneous networks. We address here the specific problem of nodes classification and tagging in heterogeneous social networks, where different types of nodes are considered, each type with its own label or tag set. We propose a new method for learning node representations onto a latent space, common to all the different node types. Inference is then performed in this latent space. In this framework, two nodes connected in the network will tend to share similar representations regardless of their types. This allows bypassing limitations of the methods based on direct extensions of homogenous frameworks and exploiting the dependencies and correlations between the different node types. The proposed method is tested on two representative datasets and compared to state-of-the-art methods and to baselines.
+{{< /ci-details >}}
+
+#### GERM (Genetic Heterogeneous Graph Embedding)
+{{< ci-details summary="Jiang et al. (2020)" >}}
+Zhuoren Jiang, Zheng Gao, Jinjiong Lan, Hongxia Yang, Yao Lu, Xiaozhong Liu. (2020)  
+**Task-Oriented Genetic Activation for Large-Scale Complex Heterogeneous Graph Embedding**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/3e98d1b468304ef11b6cceb07d6d6b94d36ef7bc)  
+Influential Citation Count (1), SS-ID (3e98d1b468304ef11b6cceb07d6d6b94d36ef7bc)  
+
+**ABSTRACT**  
+The recent success of deep graph embedding innovates the graphical information characterization methodologies. However, in real-world applications, such a method still struggles with the challenges of heterogeneity, scalability, and multiplex. To address these challenges, in this study, we propose a novel solution, Genetic hEterogeneous gRaph eMbedding (GERM), which enables flexible and efficient task-driven vertex embedding in a complex heterogeneous graph. Unlike prior efforts for this track of studies, we employ a task-oriented genetic activation strategy to efficiently generate the “Edge Type Activated Vector” (ETAV) over the edge types in the graph. The generated ETAV can not only reduce the incompatible noise and navigate the heterogeneous graph random walk at the graph-schema level, but also activate an optimized subgraph for efficient representation learning. By revealing the correlation between the graph structure and task information, the model interpretability can be enhanced as well. Meanwhile, an activated heterogeneous skip-gram framework is proposed to encapsulate both topological and task-specific information of a given heterogeneous graph. Through extensive experiments on both scholarly and e-commerce datasets, we demonstrate the efficacy and scalability of the proposed methods via various search/recommendation tasks. GERM can significantly reduces the running time and remove expert-intervention without sacrificing the performance (or even modestly improve) by comparing with baselines.
+{{< /ci-details >}}
+
+#### HeGAN (HIN Embedding Generative Adversarial Networks)
+{{< ci-details summary="Hu, Fang & Shi (2019)" >}}
+**Adversarial Learning on Heterogeneous Information Networks**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/721902635d4480b4e4a64e36441a0cf527f2dd02)  
+Influential Citation Count (8), SS-ID (721902635d4480b4e4a64e36441a0cf527f2dd02)  
+
+**ABSTRACT**  
+Network embedding, which aims to represent network data in a low-dimensional space, has been commonly adopted for analyzing heterogeneous information networks (HIN). Although exiting HIN embedding methods have achieved performance improvement to some extent, they still face a few major weaknesses. Most importantly, they usually adopt negative sampling to randomly select nodes from the network, and they do not learn the underlying distribution for more robust embedding. Inspired by generative adversarial networks (GAN), we develop a novel framework HeGAN for HIN embedding, which trains both a discriminator and a generator in a minimax game. Compared to existing HIN embedding methods, our generator would learn the node distribution to generate better negative samples. Compared to GANs on homogeneous networks, our discriminator and generator are designed to be relation-aware in order to capture the rich semantics on HINs. Furthermore, towards more effective and efficient sampling, we propose a generalized generator, which samples "latent" nodes directly from a continuous distribution, not confined to the nodes in the original network as existing methods are. Finally, we conduct extensive experiments on four real-world datasets. Results show that we consistently and significantly outperform state-of-the-art baselines across all datasets and tasks.
+{{< /ci-details >}}
+
+#### CoGL (Co-Alignment Graph Convolutional Learning)
+{{< ci-details summary="Shi et al. (2020)" >}}
+Min Shi, Yufei Tang, Xingquan Zhu. (2020)  
+**Topology and Content Co-Alignment Graph Convolutional Learning**  
+IEEE transactions on neural networks and learning systems  
+[Paper Link](https://www.semanticscholar.org/paper/249ce8e6bf5db2d0e12a5212330acdff3683550f)  
+Influential Citation Count (0), SS-ID (249ce8e6bf5db2d0e12a5212330acdff3683550f)  
+
+**ABSTRACT**  
+In traditional graph neural networks (GNNs), graph convolutional learning is carried out through topology-driven recursive node content aggregation for network representation learning. In reality, network topology and node content each provide unique and important information, and they are not always consistent because of noise, irrelevance, or missing links between nodes. A pure topology-driven feature aggregation approach between unaligned neighborhoods may deteriorate learning from nodes with poor structure-content consistency, due to the propagation of incorrect messages over the whole network. Alternatively, in this brief, we advocate a co-alignment graph convolutional learning (CoGL) paradigm, by aligning topology and content networks to maximize consistency. Our theme is to enforce the learning from the topology network to be consistent with the content network while simultaneously optimizing the content network to comply with the topology for optimized representation learning. Given a network, CoGL first reconstructs a content network from node features then co-aligns the content network and the original network through a unified optimization goal with: 1) minimized content loss; 2) minimized classification loss; and 3) minimized adversarial loss. Experiments on six benchmarks demonstrate that CoGL achieves comparable and even better performance compared with existing state-of-the-art GNN models.
+{{< /ci-details >}}
+
+#### CGAT
+{{< ci-details summary="Cao et al. (2020)" >}}
+Meng Cao, Xiying Ma, Kai Zhu, Ming Xu, Chong-Jun Wang. (2020)  
+**Heterogeneous Information Network Embedding with Convolutional Graph Attention Networks**  
+2020 International Joint Conference on Neural Networks (IJCNN)  
+[Paper Link](https://www.semanticscholar.org/paper/3569199f440cc0178d5522644266c4b9b443e8ce)  
+Influential Citation Count (0), SS-ID (3569199f440cc0178d5522644266c4b9b443e8ce)  
+
+**ABSTRACT**  
+Heterogeneous Information Networks (HINs) are prevalent in our daily life, such as social networks and bibliography networks, which contain multiple types of nodes and links. Heterogeneous information network embedding is an effective HIN analysis method, it aims at projecting network elements into a lower-dimensional vector space for further machine learning related evaluations, such as node classification, node clustering, and so on. However, existing HIN embedding methods mainly focus on extracting the semantic-related information or close neighboring relations, while the high-level proximity of the network is also important but not preserved. To address the problem, in this paper we propose CGAT, a semi-supervised heterogeneous information network embedding method. We optimize the graph attention network by adding additional convolution layers, thereby we can extract multiple types of semantics and preserve high-level information in HIN embedding at the same time. Also, we utilize label information in HINs for semi-supervised training to better obtain the model parameters and HIN embeddings. Experimental results on real-world datasets demonstrate the effectiveness and efficiency of the proposed model.
+{{< /ci-details >}}
+
+#### MAGNN (Metapath Aggregated Graph Neural Network)
+{{< ci-details summary="Fu et al. (2020)" >}}
+Xinyu Fu, Jiani Zhang, Ziqiao Meng, Irwin King. (2020)  
+**MAGNN: Metapath Aggregated Graph Neural Network for Heterogeneous Graph Embedding**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/c7fd29fdd2e0b50a571db4f607eab138e9ecb644)  
+Influential Citation Count (42), SS-ID (c7fd29fdd2e0b50a571db4f607eab138e9ecb644)  
+
+**ABSTRACT**  
+A large number of real-world graphs or networks are inherently heterogeneous, involving a diversity of node types and relation types. Heterogeneous graph embedding is to embed rich structural and semantic information of a heterogeneous graph into low-dimensional node representations. Existing models usually define multiple metapaths in a heterogeneous graph to capture the composite relations and guide neighbor selection. However, these models either omit node content features, discard intermediate nodes along the metapath, or only consider one metapath. To address these three limitations, we propose a new model named Metapath Aggregated Graph Neural Network (MAGNN) to boost the final performance. Specifically, MAGNN employs three major components, i.e., the node content transformation to encapsulate input node attributes, the intra-metapath aggregation to incorporate intermediate semantic nodes, and the inter-metapath aggregation to combine messages from multiple metapaths. Extensive experiments on three real-world heterogeneous graph datasets for node classification, node clustering, and link prediction show that MAGNN achieves more accurate prediction results than state-of-the-art baselines.
+{{< /ci-details >}}
+
+#### DyHAN (Dynamic Heterogeneous Graph Embedding using Hierarchical Attentions)
+{{< ci-details summary="Yang et al. (2020)" >}}
+Luwei Yang, Zhibo Xiao, Wen Jiang, Yi Wei, Y. Hu, Hao Wang. (2020)  
+**Dynamic Heterogeneous Graph Embedding Using Hierarchical Attentions**  
+ECIR  
+[Paper Link](https://www.semanticscholar.org/paper/ffe5b25c6cf8de37823907c3aed7738ea393902e)  
+Influential Citation Count (1), SS-ID (ffe5b25c6cf8de37823907c3aed7738ea393902e)  
+
+**ABSTRACT**  
+Graph embedding has attracted many research interests. Existing works mainly focus on static homogeneous/heterogeneous networks or dynamic homogeneous networks. However, dynamic heterogeneous networks are more ubiquitous in reality, e.g. social network, e-commerce network, citation network, etc. There is still a lack of research on dynamic heterogeneous graph embedding. In this paper, we propose a novel dynamic heterogeneous graph embedding method using hierarchical attentions (DyHAN) that learns node embeddings leveraging both structural heterogeneity and temporal evolution. We evaluate our method on three real-world datasets. The results show that DyHAN outperforms various state-of-the-art baselines in terms of link prediction task.
+{{< /ci-details >}}
+
+#### HDGAN (Heterogeneous Dynamic Graph Attention Network)
+{{< ci-details summary="Li et al. (2020)" >}}
+Qiuyan Li, Yanlei Shang, Xiuquan Qiao, Wei Dai. (2020)  
+**Heterogeneous Dynamic Graph Attention Network**  
+2020 IEEE International Conference on Knowledge Graph (ICKG)  
+[Paper Link](https://www.semanticscholar.org/paper/57512101d4d64e7ec715a50eaba2e3e479239c64)  
+Influential Citation Count (1), SS-ID (57512101d4d64e7ec715a50eaba2e3e479239c64)  
+
+**ABSTRACT**  
+Network embedding (graph embedding) has become the focus of studying graph structure in recent years. In addition to the research on homogeneous networks and heterogeneous networks, there are also some methods to attempt to solve the problem of dynamic network embedding. However, in dynamic networks, there is no research method specifically for heterogeneous networks. Therefore, this paper proposes a heterogeneous dynamic graph attention network (HDGAN), which attempts to use the attention mechanism to take the heterogeneity and dynamics of the network into account at the same time, so as to better learn network embedding. Our method is based on three levels of attention, namely structural-level attention, semantic-level attention and time-level attention. Structural-level attention pays attention to the network structure itself, and obtains the representation of structural-level nodes by learning the attention coefficients of neighbor nodes. Semantic-level attention integrates semantic information into the representation of nodes by learning the optimal weighted combination of different meta-paths. Time-level attention is based on the time decay effect, and the time feature is introduced into the node representation by neighborhood formation sequence. Through the above three levels of attention mechanism, the final network embedding can be obtained.Through experiments on two real-world heterogeneous dynamic networks, our models have the best results, proving the effectiveness of the HDGAN model.
+{{< /ci-details >}}
+
+#### HetETA (Heterogeneous Estimated Time of Arrival)
+{{< ci-details summary="Hong et al. (2020)" >}}
+Huiting Hong, Yucheng Lin, Xiaoqing Yang, Zang Li, Kun Fu, Zheng Wang, X. Qie, Jieping Ye. (2020)  
+**HetETA: Heterogeneous Information Network Embedding for Estimating Time of Arrival**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/364b6a10a827a6ba994d17baab2b2a2f1271dc29)  
+Influential Citation Count (1), SS-ID (364b6a10a827a6ba994d17baab2b2a2f1271dc29)  
+
+**ABSTRACT**  
+The estimated time of arrival (ETA) is a critical task in the intelligent transportation system, which involves the spatiotemporal data. Despite a significant amount of prior efforts have been made to design efficient and accurate systems for ETA task, few of them take structural graph data into account, much less the heterogeneous information network. In this paper, we propose HetETA to leverage heterogeneous information graph in ETA task. Specifically, we translate the road map into a multi-relational network and introduce a vehicle-trajectories based network to jointly consider the traffic behavior pattern. Moreover, we employ three components to model temporal information from recent periods, daily periods and weekly periods respectively. Each component comprises temporal convolutions and graph convolutions to learn representations of the spatiotemporal heterogeneous information for ETA task. Experiments on large-scale datasets illustrate the effectiveness of the proposed HetETA beyond the state-of-the-art methods, and show the importance of representation learning of heterogeneous information networks for ETA task.
+{{< /ci-details >}}
+
+#### HeteGCN (Heterogeneous Graph Convolutional Networks)
+{{< ci-details summary="Ragesh et al. (2020)" >}}
+Rahul Ragesh, Sundararajan Sellamanickam, Arun Iyer, Ramakrishna Bairi, Vijay Lingam. (2020)  
+**HeteGCN: Heterogeneous Graph Convolutional Networks for Text Classification**  
+WSDM  
+[Paper Link](https://www.semanticscholar.org/paper/9a6935328336b05fb95a47916eccf7b3c50b2f97)  
+Influential Citation Count (3), SS-ID (9a6935328336b05fb95a47916eccf7b3c50b2f97)  
+
+**ABSTRACT**  
+We consider the problem of learning efficient and inductive graph convolutional networks for text classification with a large number of examples and features. Existing state-of-the-art graph embedding based methods such as predictive text embedding (PTE) and TextGCN have shortcomings in terms of predictive performance, scalability and inductive capability. To address these limitations, we propose a heterogeneous graph convolutional network (HeteGCN) modeling approach that unites the best aspects of PTE and TextGCN together. The main idea is to learn feature embeddings and derive document embeddings using a HeteGCN architecture with different graphs used across layers. We simplify TextGCN by dissecting into several HeteGCN models which (a) helps to study the usefulness of individual models and (b) offers flexibility in fusing learned embeddings from different models. In effect, the number of model parameters is reduced significantly, enabling faster training and improving performance in small labeled training set scenario. Our detailed experimental studies demonstrate the efficacy of the proposed approach.
+{{< /ci-details >}}
+
+#### HGMF (Heterogeneous Graph-based Fusion)
+{{< ci-details summary="Chen & Zhang (2020)" >}}
+**HGMF: Heterogeneous Graph-based Fusion for Multimodal Data with Incompleteness**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/5d24501a99d05306817171a744878315c31a880b)  
+Influential Citation Count (2), SS-ID (5d24501a99d05306817171a744878315c31a880b)  
+
+**ABSTRACT**  
+With the advances in data collection techniques, large amounts of multimodal data collected from multiple sources are becoming available. Such multimodal data can provide complementary information that can reveal fundamental characteristics of real-world subjects. Thus, multimodal machine learning has become an active research area. Extensive works have been developed to exploit multimodal interactions and integrate multi-source information. However, multimodal data in the real world usually comes with missing modalities due to various reasons, such as sensor damage, data corruption, and human mistakes in recording. Effectively integrating and analyzing multimodal data with incompleteness remains a challenging problem. We propose a Heterogeneous Graph-based Multimodal Fusion (HGMF) approach to enable multimodal fusion of incomplete data within a heterogeneous graph structure. The proposed approach develops a unique strategy for learning on incomplete multimodal data without data deletion or data imputation. More specifically, we construct a heterogeneous hypernode graph to model the multimodal data having different combinations of missing modalities, and then we formulate a graph neural network based transductive learning framework to project the heterogeneous incomplete data onto a unified embedding space, and multi-modalities are fused along the way. The learning framework captures modality interactions from available data, and leverages the relationships between different incompleteness patterns. Our experimental results demonstrate that the proposed method outperforms existing graph-based as well as non-graph based baselines on three different datasets.
+{{< /ci-details >}}
+
+#### MIFHNE (Multi-source Information Fusion based Heterogeneous Network Embedding)
+{{< ci-details summary="Li et al. (2020)" >}}
+Bentian Li, D. Pi, Yunxia Lin, I. A. Khan, Lin Cui. (2020)  
+**Multi-source information fusion based heterogeneous network embedding**  
+Inf. Sci.  
+[Paper Link](https://www.semanticscholar.org/paper/be7bdd550f75acfbdc435e2ca75252779ba9b871)  
+Influential Citation Count (0), SS-ID (be7bdd550f75acfbdc435e2ca75252779ba9b871)  
+
+**Abstract**  
+Heterogeneous network embedding aims to learn a mapping between network data in original topological space and vectored data in low dimensional latent space, while encoding valuable information, such as structural and semantic information. The resulting vector representation has shown promising performance for extensive real-world applications, such as node classification and node clustering. However, most of existing methods merely focus on modeling network structural information, ignoring the rich multi-source information of different types of nodes. In this paper, we propose a novel Multi-source Information Fusion based Heterogeneous Network Embedding (MIFHNE) approach. We first capture the semantic information using the strategy of meta-graph based random walk. Subsequently, we jointly model the structural proximity, attribute information and label information in the framework of Nonnegative Matrix Factorization (NMF). Theoretical proofs and comprehensive experiments on two real-world heterogeneous network datasets demonstrate the feasibility and effectiveness of our approach.
+{{< /ci-details >}}
+
+#### Mg2Vec
+{{< ci-details summary="Zhang et al (2020)" >}}
+Wentao Zhang, Yuan Fang, Zemin Liu, Min Wu, Xinming Zhang. (2020)  
+**mg2vec: Learning Relationship-Preserving Heterogeneous Graph Representations via Metagraph Embedding**  
+IEEE Transactions on Knowledge and Data Engineering  
+[Paper Link](https://www.semanticscholar.org/paper/00a33da57a6beef0abb5e315a2018433e8659429)  
+Influential Citation Count (0), SS-ID (00a33da57a6beef0abb5e315a2018433e8659429)  
+
+**ABSTRACT**  
+Given that heterogeneous information networks (HIN) encompass nodes and edges belonging to different semantic types, they can model complex data in real-world scenarios. Thus, HIN embedding has received increasing attention, which aims to learn node representations in a low-dimensional space, in order to preserve the structural and semantic information on the HIN. In this regard, metagraphs, which model common and recurring patterns on HINs, emerge as a powerful tool to capture semantic-rich and often latent relationships on HINs. Although metagraphs have been employed to address several specific data mining tasks, they have not been thoroughly explored for the more general HIN embedding. In this paper, we leverage metagraphs to learn relationship-preserving HIN embedding in a self-supervised setting, to support various relationship mining tasks. In particular, we observe that most of the current approaches often under-utilize metagraphs, which are only applied in a pre-processing step and do not actively guide representation learning afterwards. Thus, we propose the novel framework of mg2vec, which learns the embeddings for metagraphs and nodes jointly. That is, metagraphs actively participates in the learning process by mapping themselves to the same embedding space as the nodes do. Moreover, metagraphs guide the learning through both first- and second-order constraints on node embeddings, to model not only latent relationships between a pair of nodes, but also individual preferences of each node. Finally, we conduct extensive experiments on three public datasets. Results show that mg2vec significantly outperforms a suite of state-of-the-art baselines in relationship mining tasks including relationship prediction, search and visualization.
+{{< /ci-details >}}
+
+#### SiNE (Signed Network Embedding)
+{{< ci-details summary="Wang et al. (2017)" >}}
+Suhang Wang, Jiliang Tang, C. Aggarwal, Yi Chang, Huan Liu. (2017)  
+**Signed Network Embedding in Social Media**  
+SDM  
+[Paper Link](https://www.semanticscholar.org/paper/c34336d3bfb7a3c22caa7958779f40bb2ab70a3d)  
+Influential Citation Count (22), SS-ID (c34336d3bfb7a3c22caa7958779f40bb2ab70a3d)  
+
+**ABSTRACT**  
+Network embedding is to learn low-dimensional vector representations for nodes of a given social network, facilitating many tasks in social network analysis such as link prediction. The vast majority of existing embedding algorithms are designed for unsigned social networks or social networks with only positive links. However, networks in social media could have both positive and negative links, and little work exists for signed social networks. From recent findings of signed network analysis, it is evident that negative links have distinct properties and added value besides positive links, which brings about both challenges and opportunities for signed network embedding. In this paper, we propose a deep learning framework SiNE for signed network embedding. The framework optimizes an objective function guided by social theories that provide a fundamental understanding of signed social networks. Experimental results on two realworld datasets of social media demonstrate the effectiveness of the proposed framework SiNE.
+{{< /ci-details >}}
+
+#### SNE (Signed Network Embedding)
+{{< ci-details summary="Yuan, Wu & Xiang (2017)" >}}
+Shuhan Yuan, Xintao Wu, Yang Xiang. (2017)  
+**SNE: Signed Network Embedding**  
+PAKDD  
+[Paper Link](https://www.semanticscholar.org/paper/feee6ea8961398e599577f9f793230d391985b88)  
+Influential Citation Count (13), SS-ID (feee6ea8961398e599577f9f793230d391985b88)  
+
+**ABSTRACT**  
+Several network embedding models have been developed for unsigned networks. However, these models based on skip-gram cannot be applied to signed networks because they can only deal with one type of link. In this paper, we present our signed network embedding model called SNE. Our SNE adopts the log-bilinear model, uses node representations of all nodes along a given path, and further incorporates two signed-type vectors to capture the positive or negative relationship of each edge along the path. We conduct two experiments, node classification and link prediction, on both directed and undirected signed networks and compare with four baselines including a matrix factorization method and three state-of-the-art unsigned network embedding models. The experimental results demonstrate the effectiveness of our signed network embedding.
+{{< /ci-details >}}
+
+#### SIDE (Signed Directed Networks)
+{{< ci-details summary="Kim et al. (2018)" >}}
+Junghwan Kim, Haekyu Park, Ji-Eun Lee, U. Kang. (2018)  
+**SIDE: Representation Learning in Signed Directed Networks**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/a0da1be7b7665b8c23d80ad2b03815dd708cd7b9)  
+Influential Citation Count (21), SS-ID (a0da1be7b7665b8c23d80ad2b03815dd708cd7b9)  
+
+**ABSTRACT**  
+Given a signed directed network, how can we learn node representations which fully encode structural information of the network including sign and direction of edges? Node representation learning or network embedding learns a mapping of each node to a vector. The mapping encodes structural information on network, providing low-dimensional dense node features for general machine learning and data mining frameworks. Since many social networks allow trust (friend) and distrust (enemy) relationships described by signed and directed edges, generalizing network embedding method to learn from sign and direction information in networks is crucial. In addition, social theories are critical tool in signed network analysis. However, none of the existing methods supports all of the desired properties: considering sign, direction, and social theoretical interpretation. In this paper, we propose SIDE, a general network embedding method that represents both sign and direction of edges in the embedding space. SIDE carefully formulates and optimizes likelihood over both direct and indirect signed connections. We provide socio-psychological interpretation for each component of likelihood function. We prove linear scalability of our algorithm and propose additional optimization techniques to reduce the training time and improve accuracy. Through extensive experiments on real-world signed directed networks, we show that SIDE effectively encodes structural information into the learned embedding.
+{{< /ci-details >}}
+
+#### SIGNet (Scalable Embedding for Signed Networks)
+{{< ci-details summary="Islam, Prakash & Ramakrishnan (2018)" >}}
+**SIGNet: Scalable Embeddings for Signed Networks**  
+PAKDD  
+[Paper Link](https://www.semanticscholar.org/paper/21bcb27995ae1007f4dabe5973c5fa6df7706f3e)  
+Influential Citation Count (3), SS-ID (21bcb27995ae1007f4dabe5973c5fa6df7706f3e)  
+
+**ABSTRACT**  
+Recent successes in word embedding and document embedding have motivated researchers to explore similar representations for networks and to use such representations for tasks such as edge prediction, node label prediction, and community detection. Such network embedding methods are largely focused on finding distributed representations for unsigned networks and are unable to discover embeddings that respect polarities inherent in edges. We propose SIGNet, a fast scalable embedding method suitable for signed networks. Our proposed objective function aims to carefully model the social structure implicit in signed networks by reinforcing the principles of social balance theory. Our method builds upon the traditional word2vec family of embedding approaches and adds a new targeted node sampling strategy to maintain structural balance in higher-order neighborhoods. We demonstrate the superiority of SIGNet over state-of-the-art methods proposed for both signed and unsigned networks on several real world datasets from different domains. In particular, SIGNet offers an approach to generate a richer vocabulary of features of signed networks to support representation and reasoning.
+{{< /ci-details >}}
+
+#### SSNE (Status Signed Network Embedding)
+{{< ci-details summary="Lu et al. (2019)" >}}
+Chunyu Lu, Pengfei Jiao, Hongtao Liu, Yaping Wang, Hongyan Xu, Wenjun Wang. (2019)  
+**SSNE: Status Signed Network Embedding**  
+PAKDD  
+[Paper Link](https://www.semanticscholar.org/paper/f429e69863223ca62d2fa1fd667b18ddac0cb3de)  
+Influential Citation Count (0), SS-ID (f429e69863223ca62d2fa1fd667b18ddac0cb3de)  
+
+**ABSTRACT**  
+This work studies the problem of signed network embedding, which aims to obtain low-dimensional vectors for nodes in signed networks. Existing works mostly focus on learning representations via characterizing the social structural balance theory in signed networks. However, structural balance theory could not well satisfy some of the fundamental phenomena in real-world signed networks such as the direction of links. As a result, in this paper we integrate another theory Status Theory into signed network embedding since status theory can better explain the social mechanisms of signed networks. To be specific, we characterize the status of nodes in the semantic vector space and well design different ranking objectives for positive and negative links respectively. Besides, we utilize graph attention to assemble the information of neighborhoods. We conduct extensive experiments on three real-world datasets and the results show that our model can achieve a significant improvement compared with baselines.
+{{< /ci-details >}}
+
+#### Principled Multilayer Network Embedding
+{{< ci-details summary="Liu et al (2017)" >}}
+Weiyi Liu, Pin-Yu Chen, S. Yeung, T. Suzumura, Lingli Chen. (2017)  
+**Principled Multilayer Network Embedding**  
+2017 IEEE International Conference on Data Mining Workshops (ICDMW)  
+[Paper Link](https://www.semanticscholar.org/paper/e445ce942f2cd572aed76160febe35973e0fc42f)  
+Influential Citation Count (14), SS-ID (e445ce942f2cd572aed76160febe35973e0fc42f)  
+
+**ABSTRACT**  
+Multilayer network analysis has become a vital tool for understanding different relationships and their interactions in a complex system, where each layer in a multilayer network depicts the topological structure of a group of nodes corresponding to a particular relationship. The interactions among different layers imply how the interplay of different relations on the topology of each layer. For a single-layer network, network embedding methods have been proposed to project the nodes in a network into a continuous vector space with a relatively small number of dimensions, where the space embeds the social representations among nodes. These algorithms have been proved to have a better performance on a variety of regular graph analysis tasks, such as link prediction, or multi-label classification. In this paper, by extending a standard graph mining into multilayer network, we have proposed three methods ("network aggregation," "results aggregation" and "layer co-analysis") to project a multilayer network into a continuous vector space. On one hand, without leveraging interactions among layers, "network aggregation" and "results aggregation" apply the standard network embedding method on the merged graph or each layer to find a vector space for multilayer network. On the other hand, in order to consider the influence of interactions among layers, "layer co-analysis" expands any single-layer network embedding method to a multilayer network. By introducing the link transition probability based on information distance, this method not only uses the first and second order random walk to traverse on a layer, but also has the ability to traverse between layers by leveraging interactions. From the evaluation, we have proved that comparing with regular link prediction methods, "layer co-analysis" achieved the best performance on most of the datasets, while "network aggregation" and "results aggregation" also have better performance than regular link prediction methods.
+{{< /ci-details >}}
+
+#### IONE
+{{< ci-details summary="Liu et al. (2016)" >}}
+Li Liu, W. K. Cheung, Xin Li, L. Liao. (2016)  
+**Aligning Users across Social Networks Using Network Embedding**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/da7ee47ee1ccee8080f5827c3c8ee60af90e5fa0)  
+Influential Citation Count (36), SS-ID (da7ee47ee1ccee8080f5827c3c8ee60af90e5fa0)  
+
+**ABSTRACT**  
+In this paper, we adopt the representation learning approach to align users across multiple social networks where the social structures of the users are exploited. In particular, we propose to learn a network embedding with the followership/ followee-ship of each user explicitly modeled as input/output context vector representations so as to preserve the proximity of users with "similar" followers/followees in the embedded space. For the alignment, we add both known and potential anchor users across the networks to facilitate the transfer of context information across networks. We solve both the network embedding problem and the user alignment problem simultaneously under a unified optimization framework. The stochastic gradient descent and negative sampling algorithms are used to address scalability issues. Extensive experiments on real social network datasets demonstrate the effectiveness and efficiency of the proposed approach compared with several state-of-the-art methods.
+{{< /ci-details >}}
+
+#### Zitnik & Leskovec (2017)
+{{< ci-details summary="Zitnik & Leskovec (2017)" >}}
+M. Zitnik, J. Leskovec. (2017)  
+**Predicting multicellular function through multi-layer tissue networks**  
+Bioinform.  
+[Paper Link](https://www.semanticscholar.org/paper/b7c4570d7d97f327e7f82fe28100172ec5e94cac)  
+Influential Citation Count (19), SS-ID (b7c4570d7d97f327e7f82fe28100172ec5e94cac)  
+
+**ABSTRACT**  
+Motivation: Understanding functions of proteins in specific human tissues is essential for insights into disease diagnostics and therapeutics, yet prediction of tissue‐specific cellular function remains a critical challenge for biomedicine. Results: Here, we present OhmNet, a hierarchy‐aware unsupervised node feature learning approach for multi‐layer networks. We build a multi‐layer network, where each layer represents molecular interactions in a different human tissue. OhmNet then automatically learns a mapping of proteins, represented as nodes, to a neural embedding‐based low‐dimensional space of features. OhmNet encourages sharing of similar features among proteins with similar network neighborhoods and among proteins activated in similar tissues. The algorithm generalizes prior work, which generally ignores relationships between tissues, by modeling tissue organization with a rich multiscale tissue hierarchy. We use OhmNet to study multicellular function in a multi‐layer protein interaction network of 107 human tissues. In 48 tissues with known tissue‐specific cellular functions, OhmNet provides more accurate predictions of cellular function than alternative approaches, and also generates more accurate hypotheses about tissue‐specific protein actions. We show that taking into account the tissue hierarchy leads to improved predictive power. Remarkably, we also demonstrate that it is possible to leverage the tissue hierarchy in order to effectively transfer cellular functions to a functionally uncharacterized tissue. Overall, OhmNet moves from flat networks to multiscale models able to predict a range of phenotypes spanning cellular subsystems. Availability and implementation: Source code and datasets are available at http://snap.stanford.edu/ohmnet. Contact: jure@cs.stanford.edu
+{{< /ci-details >}}
+
+#### Multi-Layered Network Embedding
+{{< ci-details summary="Li et al. (2018)" >}}
+Jundong Li, C. Chen, Hanghang Tong, Huan Liu. (2018)  
+**Multi-Layered Network Embedding**  
+SDM  
+[Paper Link](https://www.semanticscholar.org/paper/7c28b81dff1899e5a148ff57888faacc9945ab22)  
+Influential Citation Count (5), SS-ID (7c28b81dff1899e5a148ff57888faacc9945ab22)  
+
+**ABSTRACT**  
+Network embedding has gained more attentions in recent years. It has been shown that the learned lowdimensional node vector representations could advance a myriad of graph mining tasks such as node classification, community detection, and link prediction. A vast majority of the existing efforts are overwhelmingly devoted to single-layered networks or homogeneous networks with a single type of nodes and node interactions. However, in many real-world applications, a variety of networks could be abstracted and presented in a multilayered fashion. Typical multi-layered networks include critical infrastructure systems, collaboration platforms, social recommender systems, to name a few. Despite the widespread use of multi-layered networks, it remains a daunting task to learn vector representations of different types of nodes due to the bewildering combination of both within-layer connections and cross-layer network dependencies. In this paper, we study a novel problem of multi-layered network embedding. In particular, we propose a principled framework MANE to model both within-layer connections and cross-layer network dependencies simultaneously in a unified optimization framework for embedding representation learning. Experiments on real-world multi-layered networks corroborate the effectiveness of the proposed framework.
+{{< /ci-details >}}
+
+####
+{{< ci-details summary="" >}}
+{{< /ci-details >}}
+
+#### TemporalNode2Vec
+{{< ci-details summary="Haddad et al. (2019)" >}}
+Mounir Haddad, Cécile Bothorel, P. Lenca, Dominique Bedart. (2019)  
+**TemporalNode2vec: Temporal Node Embedding in Temporal Networks**  
+COMPLEX NETWORKS  
+[Paper Link](https://www.semanticscholar.org/paper/ad43d8ba1b9619211052615f24da3ecb3c8519db)  
+Influential Citation Count (0), SS-ID (ad43d8ba1b9619211052615f24da3ecb3c8519db)  
+
+**ABSTRACT**  
+The goal of graph embedding is to learn a representation of graphs vertices in a latent low-dimensional space in order to encode the structural information that lies in graphs. While real-world networks evolve over time, the majority of research focuses on static networks, ignoring local and global evolution patterns. A simplistic approach consists of learning nodes embeddings independently for each time step. This can cause unstable and inefficient representations over time.
+{{< /ci-details >}}
+
+#### TGNs (Temporal Graph Networks)
+{{< ci-details summary="Rossi et al. (2020)" >}}
+Emanuele Rossi, B. Chamberlain, F. Frasca, D. Eynard, Federico Monti, M. Bronstein. (2020)  
+**Temporal Graph Networks for Deep Learning on Dynamic Graphs**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/150f95f9c73820e0a0fa1546140e9f2bdfd25954)  
+Influential Citation Count (26), SS-ID (150f95f9c73820e0a0fa1546140e9f2bdfd25954)  
+
+**ABSTRACT**  
+Graph Neural Networks (GNNs) have recently become increasingly popular due to their ability to learn complex systems of relations or interactions arising in a broad spectrum of problems ranging from biology and particle physics to social networks and recommendation systems. Despite the plethora of different models for deep learning on graphs, few approaches have been proposed thus far for dealing with graphs that present some sort of dynamic nature (e.g. evolving features or connectivity over time). In this paper, we present Temporal Graph Networks (TGNs), a generic, efficient framework for deep learning on dynamic graphs represented as sequences of timed events. Thanks to a novel combination of memory modules and graph-based operators, TGNs are able to significantly outperform previous approaches being at the same time more computationally efficient. We furthermore show that several previous models for learning on dynamic graphs can be cast as specific instances of our framework. We perform a detailed ablation study of different components of our framework and devise the best configuration that achieves state-of-the-art performance on several transductive and inductive prediction tasks for dynamic graphs.
+{{< /ci-details >}}
+
+#### TemporalGAT
+{{< ci-details summary="Fathy & Li (2020)" >}}
+A. Fathy, Kan Li. (2020)  
+**TemporalGAT: Attention-Based Dynamic Graph Representation Learning**  
+PAKDD  
+[Paper Link](https://www.semanticscholar.org/paper/c06fc165523554b79ce59db9a8ce113b074359a0)  
+Influential Citation Count (0), SS-ID (c06fc165523554b79ce59db9a8ce113b074359a0)  
+
+**ABSTRACT**  
+Learning representations for dynamic graphs is fundamental as it supports numerous graph analytic tasks such as dynamic link prediction, node classification, and visualization. Real-world dynamic graphs are continuously evolved where new nodes and edges are introduced or removed during graph evolution. Most existing dynamic graph representation learning methods focus on modeling dynamic graphs with fixed nodes due to the complexity of modeling dynamic graphs, and therefore, cannot efficiently learn the evolutionary patterns of real-world evolving graphs. Moreover, existing methods generally model the structural information of evolving graphs separately from temporal information. This leads to the loss of important structural and temporal information that could cause the degradation of predictive performance of the model. By employing an innovative neural network architecture based on graph attention networks and temporal convolutions, our framework jointly learns graph representations contemplating evolving graph structure and temporal patterns. We propose a deep attention model to learn low-dimensional feature representations which preserves the graph structure and features among series of graph snapshots over time. Experimental results on multiple real-world dynamic graph datasets show that, our proposed method is competitive against various state-of-the-art methods.
+{{< /ci-details >}}
+
+#### EpiEm (Dynamics-Preserving Graph Embedding)
+{{< ci-details summary="Zhong, Qiu & Shi (2020)" >}}
+Jianan Zhong, Hongjun Qiu, B. Shi. (2020)  
+**Dynamics-Preserving Graph Embedding for Community Mining and Network Immunization**  
+Inf.  
+[Paper Link](https://www.semanticscholar.org/paper/ebbe61c75100df486632a9518b4c04ff5795aea9)  
+Influential Citation Count (0), SS-ID (ebbe61c75100df486632a9518b4c04ff5795aea9)  
+
+**ABSTRACT**  
+In recent years, the graph embedding approach has drawn a lot of attention in the field of network representation and analytics, the purpose of which is to automatically encode network elements into a low-dimensional vector space by preserving certain structural properties. On this basis, downstream machine learning methods can be implemented to solve static network analytic tasks, for example, node clustering based on community-preserving embeddings. However, by focusing only on structural properties, it would be difficult to characterize and manipulate various dynamics operating on the network. In the field of complex networks, epidemic spreading is one of the most typical dynamics in networks, while network immunization is one of the effective methods to suppress the epidemics. Accordingly, in this paper, we present a dynamics-preserving graph embedding method (EpiEm) to preserve the property of epidemic dynamics on networks, i.e., the infectiousness and vulnerability of network nodes. Specifically, we first generate a set of propagation sequences through simulating the Susceptible-Infectious process on a network. Then, we learn node embeddings from an influence matrix using a singular value decomposition method. Finally, we show that the node embeddings can be used to solve epidemics-related community mining and network immunization problems. The experimental results in real-world networks show that the proposed embedding method outperforms several benchmark methods with respect to both community mining and network immunization. The proposed method offers new insights into the exploration of other collective dynamics in complex networks using the graph embedding approach, such as opinion formation in social networks.
+{{< /ci-details >}}
+
+#### Dynamic Graph Embedding
+{{< ci-details summary="Rokka, Chhetri & Al Faruque (2020)" >}}
+**Dynamic Graph Embedding**  
+  
+[Paper Link](https://www.semanticscholar.org/paper/d28823f812b83ac957ac5077216766cba29d211d)  
+Influential Citation Count (0), SS-ID (d28823f812b83ac957ac5077216766cba29d211d)  
+
+**ABSTRACT**  
+In Chap. 9, we presented a structural graph convolutional neural network which is capable of performing supervising learning to estimate a function between non-euclidean data and categorical data. In this chapter, we focus on non-euclidean data which are evolving over time. In the cyber-physical system, most of the non-euclidean data (such as engineering data, energy, and signal flow graph, call graph of the firmware, etc.) are always evolving. Hence, it is necessary to utilize algorithms that are capable of handling such temporally evolving non-euclidean data. In this chapter, we present a novel dynamic graph embedding algorithm to handle this issue. In the rest of the chapter, we consider temporally evolving graphs as the non-euclidean data and present an algorithm capable of capturing the pattern of time-varying links.
+{{< /ci-details >}}
+
+#### CTGCN (K-core based Temporal GCN)
+{{< ci-details summary="Liu et al. (2020)" >}}
+Jingxin Liu, Chang Xu, Chang Yin, Weiqiang Wu, You Song. (2020)  
+**K-Core based Temporal Graph Convolutional Network for Dynamic Graphs**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/4fda7672f67a8872902dee92e4c1bcf2c833a2b1)  
+Influential Citation Count (1), SS-ID (4fda7672f67a8872902dee92e4c1bcf2c833a2b1)  
+
+**ABSTRACT**  
+Graph representation learning is a fundamental task in various applications that strives to learn low-dimensional embeddings for nodes that can preserve graph topology information. However, many existing methods focus on static graphs while ignoring evolving graph patterns. Inspired by the success of graph convolutional networks(GCNs) in static graph embedding, we propose a novel k-core based temporal graph convolutional network, the CTGCN, to learn node representations for dynamic graphs. In contrast to previous dynamic graph embedding methods, CTGCN can preserve both local connective proximity and global structural similarity while simultaneously capturing graph dynamics. In the proposed framework, the traditional graph convolution is generalized into two phases, feature transformation and feature aggregation, which gives the CTGCN more flexibility and enables the CTGCN to learn connective and structural information under the same framework. Experimental results on 7 real-world graphs demonstrate that the CTGCN outperforms existing state-of-the-art graph embedding methods in several tasks, including link prediction and structural role classification. The source code of this work can be obtained from this https URL.
+{{< /ci-details >}}
+
+#### DynGraph2Vec
+{{< ci-details summary="Goyal, Chhetri & Canedo (2020)" >}}
+**dyngraph2vec: Capturing Network Dynamics using Dynamic Graph Representation Learning**  
+Knowl. Based Syst.  
+[Paper Link](https://www.semanticscholar.org/paper/f6e59062382fdec9b95c3abef1c27efc3b2ec1c7)  
+Influential Citation Count (23), SS-ID (f6e59062382fdec9b95c3abef1c27efc3b2ec1c7)  
+
+**ABSTRACT**  
+Learning graph representations is a fundamental task aimed at capturing various properties of graphs in vector space. The most recent methods learn such representations for static networks. However, real-world networks evolve over time and have varying dynamics. Capturing such evolution is key to predicting the properties of unseen networks. To understand how the network dynamics affect the prediction performance, we propose an embedding approach which learns the structure of evolution in dynamic graphs and can predict unseen links with higher precision. Our model, dyngraph2vec, learns the temporal transitions in the network using a deep architecture composed of dense and recurrent layers. We motivate the need for capturing dynamics for the prediction on a toy dataset created using stochastic block models. We then demonstrate the efficacy of dyngraph2vec over existing state-of-the-art methods on two real-world datasets. We observe that learning dynamics can improve the quality of embedding and yield better performance in link prediction.
+{{< /ci-details >}}
+
+#### TigeCMN (Temporal Interaction Graph Embedding via Coupled Memory Networks)
+{{< ci-details summary="Zhang et al. (2020)" >}}
+Zhen Zhang, Jiajun Bu, Martin Ester, Jianfeng Zhang, Chengwei Yao, Z. Li, Can Wang. (2020)  
+**Learning Temporal Interaction Graph Embedding via Coupled Memory Networks**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/1184a394fa785a61e125128e699950d42df22c37)  
+Influential Citation Count (1), SS-ID (1184a394fa785a61e125128e699950d42df22c37)  
+
+**ABSTRACT**  
+Graph embedding has become the research focus in both academic and industrial communities due to its powerful capabilities. The majority of existing work overwhelmingly learn node embeddings in the context of static, plain or attributed, homogeneous graphs. However, many real-world applications frequently involve bipartite graphs with temporal and attributed interaction edges, named temporal interaction graphs. The temporal interactions usually imply different facets of interest and might even evolve over time, thus putting forward huge challenges in learning effective node representations. In this paper, we propose a novel framework named TigeCMN to learn node representations from a sequence of temporal interactions. Specifically, we devise two coupled memory networks to store and update node embeddings in external matrices explicitly and dynamically, which forms deep matrix representations and could enhance the expressiveness of the node embeddings. We conduct experiments on two real-world datasets and the experimental results empirically demonstrate that TigeCMN can outperform the state-of-the-arts with different gains.
+{{< /ci-details >}}
+
+#### Cluster-GCN
+{{< ci-details summary="Chiang et al. (2019)" >}}
+Wei-Lin Chiang, Xuanqing Liu, Si Si, Yang Li, Samy Bengio, Cho-Jui Hsieh. (2019)  
+**Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/05c4eb154ad9512a69569c18d68bc4428ee8bb83)  
+Influential Citation Count (65), SS-ID (05c4eb154ad9512a69569c18d68bc4428ee8bb83)  
+
+**ABSTRACT**  
+Graph convolutional network (GCN) has been successfully applied to many graph-based applications; however, training a large-scale GCN remains challenging. Current SGD-based algorithms suffer from either a high computational cost that exponentially grows with number of GCN layers, or a large space requirement for keeping the entire graph and the embedding of each node in memory. In this paper, we propose Cluster-GCN, a novel GCN algorithm that is suitable for SGD-based training by exploiting the graph clustering structure. Cluster-GCN works as the following: at each step, it samples a block of nodes that associate with a dense subgraph identified by a graph clustering algorithm, and restricts the neighborhood search within this subgraph. This simple but effective strategy leads to significantly improved memory and computational efficiency while being able to achieve comparable test accuracy with previous algorithms. To test the scalability of our algorithm, we create a new Amazon2M data with 2 million nodes and 61 million edges which is more than 5 times larger than the previous largest publicly available dataset (Reddit). For training a 3-layer GCN on this data, Cluster-GCN is faster than the previous state-of-the-art VR-GCN (1523 seconds vs 1961 seconds) and using much less memory (2.2GB vs 11.2GB). Furthermore, for training 4 layer GCN on this data, our algorithm can finish in around 36 minutes while all the existing GCN training algorithms fail to train due to the out-of-memory issue. Furthermore, Cluster-GCN allows us to train much deeper GCN without much time and memory overhead, which leads to improved prediction accuracy---using a 5-layer Cluster-GCN, we achieve state-of-the-art test F1 score 99.36 on the PPI dataset, while the previous best result was 98.71 by~\citezhang2018gaan.
+{{< /ci-details >}}
+
+#### SIGN (Scalable Inception Graph Neural Networks)
+{{< ci-details summary="Rossi et al. (2020)" >}}
+Emanuele Rossi, F. Frasca, B. Chamberlain, D. Eynard, M. Bronstein, Federico Monti. (2020)  
+**SIGN: Scalable Inception Graph Neural Networks**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/993377a3fc8334558463b82053904e3d684f29c0)  
+Influential Citation Count (23), SS-ID (993377a3fc8334558463b82053904e3d684f29c0)  
+
+**ABSTRACT**  
+Graph representation learning has recently been applied to a broad spectrum of problems ranging from computer graphics and chemistry to high energy physics and social media. The popularity of graph neural networks has sparked interest, both in academia and in industry, in developing methods that scale to very large graphs such as Facebook or Twitter social networks. In most of these approaches, the computational cost is alleviated by a sampling strategy retaining a subset of node neighbors or subgraphs at training time. In this paper we propose a new, efficient and scalable graph deep learning architecture which sidesteps the need for graph sampling by using graph convolutional filters of different size that are amenable to efficient precomputation, allowing extremely fast training and inference. Our architecture allows using different local graph operators (e.g. motif-induced adjacency matrices or Personalized Page Rank diffusion matrix) to best suit the task at hand. We conduct extensive experimental evaluation on various open benchmarks and show that our approach is competitive with other state-of-the-art architectures, while requiring a fraction of the training and inference time.
+{{< /ci-details >}}
+
+#### FastGCN
+{{< ci-details summary="Chen, Ma & Xiao (2018)" >}}
+Jing Chen, Tengfei Ma, Cao Xiao. (2018)  
+**FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/f19d3e0956d0f2daa3396fc6e9e7554a78a90710)  
+Influential Citation Count (118), SS-ID (f19d3e0956d0f2daa3396fc6e9e7554a78a90710)  
+
+**ABSTRACT**  
+The graph convolutional networks (GCN) recently proposed by Kipf and Welling are an effective graph model for semi-supervised learning. This model, however, was originally designed to be learned with the presence of both training and test data. Moreover, the recursive neighborhood expansion across layers poses time and memory challenges for training with large, dense graphs. To relax the requirement of simultaneous availability of test data, we interpret graph convolutions as integral transforms of embedding functions under probability measures. Such an interpretation allows for the use of Monte Carlo approaches to consistently estimate the integrals, which in turn leads to a batched training scheme as we propose in this work---FastGCN. Enhanced with importance sampling, FastGCN not only is efficient for training but also generalizes well for inference. We show a comprehensive set of experiments to demonstrate its effectiveness compared with GCN and related models. In particular, training is orders of magnitude more efficient while predictions remain comparably accurate.
+{{< /ci-details >}}
+
+#### Salha, Hennequin & Vazirgiannis (2020)
+{{< ci-details summary="Salha, Hennequin & Vazirgiannis (2020)" >}}
+Guillaume Salha-Galvan, Romain Hennequin, M. Vazirgiannis. (2020)  
+**Simple and Effective Graph Autoencoders with One-Hop Linear Models**  
+ECML/PKDD  
+[Paper Link](https://www.semanticscholar.org/paper/8380ce56e614d047cf2c5c6106dcfc00beed5b6f)  
+Influential Citation Count (2), SS-ID (8380ce56e614d047cf2c5c6106dcfc00beed5b6f)  
+
+**ABSTRACT**  
+Over the last few years, graph autoencoders (AE) and variational autoencoders (VAE) emerged as powerful node embedding methods, with promising performances on challenging tasks such as link prediction and node clustering. Graph AE, VAE and most of their extensions rely on multi-layer graph convolutional networks (GCN) encoders to learn vector space representations of nodes. In this paper, we show that GCN encoders are actually unnecessarily complex for many applications. We propose to replace them by significantly simpler and more interpretable linear models w.r.t. the direct neighborhood (one-hop) adjacency matrix of the graph, involving fewer operations, fewer parameters and no activation function. For the two aforementioned tasks, we show that this simpler approach consistently reaches competitive performances w.r.t. GCN-based graph AE and VAE for numerous real-world graphs, including all benchmark datasets commonly used to evaluate graph AE and VAE. Based on these results, we also question the relevance of repeatedly using these datasets to compare complex graph AE and VAE.
+{{< /ci-details >}}
+
+#### ULGE (Unsupervised Large Graph Embedding)
+{{< ci-details summary="Nie, Zhu & Li (2020)" >}}
+F. Nie, Wei Zhu, Xuelong Li. (2020)  
+**Unsupervised Large Graph Embedding Based on Balanced and Hierarchical K-Means**  
+IEEE Transactions on Knowledge and Data Engineering  
+[Paper Link](https://www.semanticscholar.org/paper/894e66e457482d8b658dfc1d1f4d6f532357b400)  
+Influential Citation Count (0), SS-ID (894e66e457482d8b658dfc1d1f4d6f532357b400)  
+
+**ABSTRACT**  
+There are many successful spectral based unsupervised dimensionality reduction methods, including Laplacian Eigenmap (LE), Locality Preserving Projection (LPP), Spectral Regression (SR), etc. We find that LPP and SR are equivalent if the symmetric similarity matrix is doubly stochastic, Positive Semi-Definite (PSD) and with rank <inline-formula><tex-math notation="LaTeX">$p$</tex-math><alternatives><mml:math><mml:mi>p</mml:mi></mml:math><inline-graphic xlink:href="zhu-ieq1-3000226.gif"/></alternatives></inline-formula>, where <inline-formula><tex-math notation="LaTeX">$p$</tex-math><alternatives><mml:math><mml:mi>p</mml:mi></mml:math><inline-graphic xlink:href="zhu-ieq2-3000226.gif"/></alternatives></inline-formula> is the reduced dimension. Since solving SR is believed faster than solving LPP based on some related literature, the discovery promotes us to seek to construct such specific similarity matrix to speed up LPP solving procedures. We then propose an unsupervised linear method called Unsupervised Large Graph Embedding (ULGE). ULGE starts with a similar idea as LPP but adopts an efficient approach to construct anchor-based similarity matrix and then performs spectral analysis on it. Moreover, since conventional anchor generation strategies suffer kinds of problems, we propose an efficient and effective anchor generation strategy, called Balanced <inline-formula><tex-math notation="LaTeX">$K$</tex-math><alternatives><mml:math><mml:mi>K</mml:mi></mml:math><inline-graphic xlink:href="zhu-ieq3-3000226.gif"/></alternatives></inline-formula>-means based Hierarchical <inline-formula><tex-math notation="LaTeX">$K$</tex-math><alternatives><mml:math><mml:mi>K</mml:mi></mml:math><inline-graphic xlink:href="zhu-ieq4-3000226.gif"/></alternatives></inline-formula>-means (BHKH). The computational complexity of ULGE can reduce to <inline-formula><tex-math notation="LaTeX">$O(ndm)$</tex-math><alternatives><mml:math><mml:mrow><mml:mi>O</mml:mi><mml:mo>(</mml:mo><mml:mi>n</mml:mi><mml:mi>d</mml:mi><mml:mi>m</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="zhu-ieq5-3000226.gif"/></alternatives></inline-formula>, which is a significant improvement compared to conventional methods need <inline-formula><tex-math notation="LaTeX">$O(n^2d)$</tex-math><alternatives><mml:math><mml:mrow><mml:mi>O</mml:mi><mml:mo>(</mml:mo><mml:msup><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mi>d</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="zhu-ieq6-3000226.gif"/></alternatives></inline-formula> at least, where <inline-formula><tex-math notation="LaTeX">$n$</tex-math><alternatives><mml:math><mml:mi>n</mml:mi></mml:math><inline-graphic xlink:href="zhu-ieq7-3000226.gif"/></alternatives></inline-formula>, <inline-formula><tex-math notation="LaTeX">$d$</tex-math><alternatives><mml:math><mml:mi>d</mml:mi></mml:math><inline-graphic xlink:href="zhu-ieq8-3000226.gif"/></alternatives></inline-formula> and <inline-formula><tex-math notation="LaTeX">$m$</tex-math><alternatives><mml:math><mml:mi>m</mml:mi></mml:math><inline-graphic xlink:href="zhu-ieq9-3000226.gif"/></alternatives></inline-formula> are the number of samples, dimensions, and anchors, respectively. Extensive experiments on several publicly available datasets demonstrate the efficiency and effectiveness of the proposed method.
+{{< /ci-details >}}
+
+#### GOSH
+{{< ci-details summary="Akyildiz, Aljundi & Kaya (2020)" >}}
+Taha Atahan Akyildiz, Amro Alabsi Aljundi, K. Kaya. (2020)  
+**GOSH: Embedding Big Graphs on Small Hardware**  
+ICPP  
+[Paper Link](https://www.semanticscholar.org/paper/9c1d6253cf83028e00a3d120777263ac2882ad29)  
+Influential Citation Count (1), SS-ID (9c1d6253cf83028e00a3d120777263ac2882ad29)  
+
+**ABSTRACT**  
+In graph embedding, the connectivity information of a graph is used to represent each vertex as a point in a d-dimensional space. Unlike the original, irregular structural information, such a representation can be used for a multitude of machine learning tasks. Although the process is extremely useful in practice, it is indeed expensive and unfortunately, the graphs are becoming larger and harder to embed. Attempts at scaling up the process to larger graphs have been successful but often at a steep price in hardware requirements. We present Gosh, an approach for embedding graphs of arbitrary sizes on a single GPU with minimum constraints. Gosh utilizes a novel graph coarsening approach to compress the graph and minimize the work required for embedding, delivering high-quality embeddings at a fraction of the time compared to the state-of-the-art. In addition to this, it incorporates a decomposition schema that enables any arbitrarily large graph to be embedded using a single GPU with minimum constraints on the memory size. With these techniques, Gosh is able to embed a graph with over 65 million vertices and 1.8 billion edges in less than an hour on a single GPU and obtains a 93% AUCROC for link-prediction which can be increased to 95% by running the tool for 80 minutes.
+{{< /ci-details >}}
+
+#### VERSE (Versatile Graph Embeddings from Similarity Measures)
+{{< ci-details summary="Tsitsulin et al. (2018)" >}}
+Anton Tsitsulin, D. Mottin, P. Karras, Emmanuel Müller. (2018)  
+**VERSE: Versatile Graph Embeddings from Similarity Measures**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/2a2ec58c7813820592cd487d66ed0b249b846eb0)  
+Influential Citation Count (46), SS-ID (2a2ec58c7813820592cd487d66ed0b249b846eb0)  
+
+**ABSTRACT**  
+Embedding a web-scale information network into a low-dimensional vector space facilitates tasks such as link prediction, classification, and visualization. Past research has addressed the problem of extracting such embeddings by adopting methods from words to graphs, without defining a clearly comprehensible graph-related objective. Yet, as we show, the objectives used in past works implicitly utilize similarity measures among graph nodes. In this paper, we carry the similarity orientation of previous works to its logical conclusion; we propose VERtex Similarity Embeddings (VERSE), a simple, versatile, and memory-efficient method that derives graph embeddings explicitly calibrated to preserve the distributions of a selected vertex-to-vertex similarity measure. VERSE learns such embeddings by training a single-layer neural network. While its default, scalable version does so via sampling similarity information, we also develop a variant using the full information per vertex. Our experimental study on standard benchmarks and real-world datasets demonstrates that VERSE, instantiated with diverse similarity measures, outperforms state-of-the-art methods in terms of precision and recall in major data mining tasks and supersedes them in time and space efficiency, while the scalable sampling-based variant achieves equally good result as the non-scalable full variant.
+{{< /ci-details >}}
+
+#### Atahan Akyildiz, Alabsi Aljundi & Kaya (2020)
+{{< ci-details summary="Atahan Akyildiz, Alabsi Aljundi & Kaya (2020)" >}}
+Taha Atahan Akyildiz, Amro Alabsi Aljundi, K. Kaya. (2020)  
+**Understanding Coarsening for Embedding Large-Scale Graphs**  
+2020 IEEE International Conference on Big Data (Big Data)  
+[Paper Link](https://www.semanticscholar.org/paper/c23308cf3cfc42002fcb212bcc6f5c9cd3f5d09e)  
+Influential Citation Count (0), SS-ID (c23308cf3cfc42002fcb212bcc6f5c9cd3f5d09e)  
+
+**ABSTRACT**  
+A significant portion of the data today, e.g, social networks, web connections, etc., can be modeled by graphs. A proper analysis of graphs with Machine Learning (ML) algorithms has the potential to yield far-reaching insights into many areas of research and industry. However, the irregular structure of graph data constitutes an obstacle for running ML tasks on graphs such as link prediction, node classification, and anomaly detection. Graph embedding is a compute-intensive process of representing graphs as a set of vectors in a d-dimensional space, which in turn makes it amenable to ML tasks. Many approaches have been proposed in the literature to improve the performance of graph embedding, e.g., using distributed algorithms, accelerators, and pre-processing techniques. Graph coarsening, which can be considered a pre-processing step, is a structural approximation of a given, large graph with a smaller one. As the literature suggests, the cost of embedding significantly decreases when coarsening is employed. In this work, we thoroughly analyze the impact of the coarsening quality on the embedding performance both in terms of speed and accuracy. Our experiments with a state-of-the-art, fast graph embedding tool show that there is an interplay between the coarsening decisions taken and the embedding quality.
+{{< /ci-details >}}
+
+#### Gallicchio & Micheli (2019)
+{{< ci-details summary="Gallicchio & Micheli (2019)" >}}
+C. Gallicchio, A. Micheli. (2019)  
+**Fast and Deep Graph Neural Networks**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/cc56d1210f4ee7a5a351cf64eb3bbed18b48b22f)  
+Influential Citation Count (4), SS-ID (cc56d1210f4ee7a5a351cf64eb3bbed18b48b22f)  
+
+**ABSTRACT**  
+We address the efficiency issue for the construction of a deep graph neural network (GNN). The approach exploits the idea of representing each input graph as a fixed point of a dynamical system (implemented through a recurrent neural network), and leverages a deep architectural organization of the recurrent units. Efficiency is gained by many aspects, including the use of small and very sparse networks, where the weights of the recurrent units are left untrained under the stability condition introduced in this work. This can be viewed as a way to study the intrinsic power of the architecture of a deep GNN, and also to provide insights for the set-up of more complex fully-trained models. Through experimental results, we show that even without training of the recurrent connections, the architecture of small deep GNN is surprisingly able to achieve or improve the state-of-the-art performance on a significant set of tasks in the field of graphs classification.
+{{< /ci-details >}}
+
+#### Lu & Chang (2020)
+{{< ci-details summary="Lu & Chang (2020)" >}}
+Ping-En Lu, Cheng-Shang Chang. (2020)  
+**Explainable, Stable, and Scalable Graph Convolutional Networks for Learning Graph Representation**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/af4b880f6b30b5510cc78092dcf71d3ea52329e0)  
+Influential Citation Count (0), SS-ID (af4b880f6b30b5510cc78092dcf71d3ea52329e0)  
+
+**ABSTRACT**  
+The network embedding problem that maps nodes in a graph to vectors in Euclidean space can be very useful for addressing several important tasks on a graph. Recently, graph neural networks (GNNs) have been proposed for solving such a problem. However, most embedding algorithms and GNNs are difficult to interpret and do not scale well to handle millions of nodes. In this paper, we tackle the problem from a new perspective based on the equivalence of three constrained optimization problems: the network embedding problem, the trace maximization problem of the modularity matrix in a sampled graph, and the matrix factorization problem of the modularity matrix in a sampled graph. The optimal solutions to these three problems are the dominant eigenvectors of the modularity matrix. We proposed two algorithms that belong to a special class of graph convolutional networks (GCNs) for solving these problems: (i) Clustering As Feature Embedding GCN (CAFE-GCN) and (ii) sphere-GCN. Both algorithms are stable trace maximization algorithms, and they yield good approximations of dominant eigenvectors. Moreover, there are linear-time implementations for sparse graphs. In addition to solving the network embedding problem, both proposed GCNs are capable of performing dimensionality reduction. Various experiments are conducted to evaluate our proposed GCNs and show that our proposed GCNs outperform almost all the baseline methods. Moreover, CAFE-GCN could be benefited from the labeled data and have tremendous improvements in various performance metrics.
+{{< /ci-details >}}
+
+#### ELAINE
+{{< ci-details summary="Goyal et al. (2018)" >}}
+Palash Goyal, Homa Hosseinmardi, Emilio Ferrara, A. Galstyan. (2018)  
+**Embedding Networks with Edge Attributes**  
+HT  
+[Paper Link](https://www.semanticscholar.org/paper/e4853de6d86315073a9e9e5d8957500cd24402c1)  
+Influential Citation Count (0), SS-ID (e4853de6d86315073a9e9e5d8957500cd24402c1)  
+
+**ABSTRACT**  
+Predicting links in information networks requires deep understanding and careful modeling of network structure. Network embedding, which aims to learn low-dimensional representations of nodes, has been used successfully for the task of link prediction in the past few decades. Existing methods utilize the observed edges in the network to model the interactions between nodes and learn representations which explain the behavior. In addition to the presence of edges, networks often have information which can be used to improve the embedding. For example, in author collaboration networks, the bag of words representing the abstract of co-authored paper can be used as edge attributes. In this paper, we propose a novel approach, which uses the edges and their associated labels to learn node embeddings. Our model jointly optimizes higher order node neighborhood, social roles and edge attributes reconstruction error using deep architecture which can model highly non-linear interactions. We demonstrate the efficacy of our model over existing state-of-the-art methods on two real world data sets. We observe that such attributes can improve the quality of embedding and yield better performance in link prediction.
+{{< /ci-details >}}
+
+#### HEBE
+{{< ci-details summary="Gui et al. (2016)" >}}
+Huan Gui, Jialu Liu, Fangbo Tao, Meng Jiang, Brandon Norick, Jiawei Han. (2016)  
+**Large-Scale Embedding Learning in Heterogeneous Event Data**  
+2016 IEEE 16th International Conference on Data Mining (ICDM)  
+[Paper Link](https://www.semanticscholar.org/paper/c18c30b9b1090e752031d23d219c1007b9954229)  
+Influential Citation Count (10), SS-ID (c18c30b9b1090e752031d23d219c1007b9954229)  
+
+**ABSTRACT**  
+Heterogeneous events, which are defined as events connecting strongly-typed objects, are ubiquitous in the real world. We propose a HyperEdge-Based Embedding (Hebe) framework for heterogeneous event data, where a hyperedge represents the interaction among a set of involving objects in an event. The Hebe framework models the proximity among objects in an event by predicting a target object given the other participating objects in the event (hyperedge). Since each hyperedge encapsulates more information on a given event, Hebe is robust to data sparseness. In addition, Hebe is scalable when the data size spirals. Extensive experiments on large-scale real-world datasets demonstrate the efficacy and robustness of Hebe.
+{{< /ci-details >}}
+
 ## References
 
 {{< ci-details summary="Recent developments in exponential random graph (p*) models for social networks (G. Robins et al., 2007)">}}
@@ -858,7 +3759,7 @@ Soc. Networks
 Influential Citation Count (58), SS-ID (00350a2b4adbaba0293ec10f73b759cfddde166e)  
 
 **ABSTRACT**  
-
+This article reviews new specifications for exponential random graph models proposed by Snijders et al. [Snijders, T.A.B., Pattison, P., Robins, G.L., Handcock, M., 2006. New specifications for exponential random graph models. Sociological Methodology] and demonstrates their improvement over homogeneous Markov random graph models in fitting empirical network data. Not only do the new specifications show improvements in goodness of fit for various data sets, but they also help to avoid the problem of near-degeneracy that often afflicts the fitting of Markov random graph models in practice, particularly to network data exhibiting high levels of transitivity. The inclusion of a new higher order transitivity statistic allows estimation of parameters of exponential graph models for many (but not all) cases where it is impossible to estimate parameters of homogeneous Markov graph models. The new specifications were used to model a large number of classical small-scale network data sets and showed a dramatically better performance than Markov graph models. We also review three current programs for obtaining maximum likelihood estimates of model parameters and we compare these Monte Carlo maximum likelihood estimates with less accurate pseudo-likelihood estimates. Finally, we discuss whether homogeneous Markov random graph models may be superseded by the new specifications, and how additional elaborations may further improve model performance.
 
 {{< /ci-details >}}
 
@@ -1521,7 +4422,7 @@ Inf. Sci.
 Influential Citation Count (0), SS-ID (1f90f847e46bacc13364975166ff2c908436735d)  
 
 **ABSTRACT**  
-
+In this paper we deal with complex attributed graphs which can exhibit rich connectivity patterns and whose nodes are often associated with attributes, such as text or images. In order to analyze these graphs, the primary challenge is to find an effective way to represent them by preserving both structural properties and node attribute information. To create low-dimensional and meaningful embedded representations of these complex graphs, we propose a fully unsupervised model based on Deep Learning architectures, called Constrained Attributed Graph Embedding model (CAGE). The main contribution of the proposed model is the definition of a novel two-phase optimization problem that explicitly models node attributes to obtain a higher representation expressiveness while preserving the local and the global structural properties of the graph. We validated our approach on two different benchmark datasets for node classification. Experimental results demonstrate that this novel representation provides significant improvements compared to state of the art approaches, also showing higher robustness with respect to the size of the training data.
 
 {{< /ci-details >}}
 
@@ -1898,7 +4799,7 @@ Appl. Soft Comput.
 Influential Citation Count (0), SS-ID (322a2670adda4c595a6cae54801981c4fc9e005f)  
 
 **ABSTRACT**  
-
+As one of the main applications of graph embedding, community detection has always been a hot issue in the field of complex network data mining. This paper presents a complex network graph embedding method based on the shortest path matrix and decomposition multi-objective evolutionary algorithm (SP-MOEA/D) for community detection, which can better reflect the network structure at the level of network community structure. Firstly, by calculating the shortest path matrix between nodes in the network, the node relationship matrix is obtained by adding the node similarity. Next, aiming at the problem of community detection in disconnected networks, a decomposition-based multi-objective optimization method is proposed to assign distances to unrelated nodes. Then, the network similarity matrix is calculated based on the relationship matrix of network nodes, and the low-dimensional vector representation of nodes is obtained by random surfing strategy and multi-dimensional scaling method. Finally, the community structure of the network can be detected based on the obtained node representation structure. Starting from the essence of network structure and the tightness between nodes, this method can reflect the relationship characteristics of network nodes more effectively, and then obtain the vector representation of nodes which can more accurately reflect the information of community structure in networks. The test results on 11 networks show that the node vector representation results obtained by this method can better reflect the community structure information in complex networks.
 
 {{< /ci-details >}}
 
@@ -2483,8 +5384,7 @@ Luu Huu Phuc, M. Yamada, H. Kashima. (2020)
 Influential Citation Count (0), SS-ID (480ff986724acc27e096560f8d433847e86cbdb3)  
 
 **ABSTRACT**  
-
-
+Link prediction is an extensively studied topic and various methods have been proposed to tackle the task in both heuristic and more sophisticated statistical learning approaches. However, most of them only focus on one single graph. In many scenarios, combining information on multiple graphs with similar topological structures can greatly improve the performance and robustness of link prediction. In this study, we propose a new framework for learning link prediction on two unaligned graphs simultaneously. We use the LINE method, although technically any embedding method is applicable, to embed nodes of each graph into low-dimensional vectors. Optimal Transport is then employed to supervise the node alignment via embedding vectors between the two graphs. The learned embedding vectors are employed for link prediction via a similarity score. Experiments have shown that node alignment using Optimal Transport is beneficial and greatly contributes to the favorable performance of the proposed method over the baseline in many settings.
 {{< /ci-details >}}
 
 {{< ci-details summary="DeepGO: predicting protein functions from sequence and interactions using a deep ontology-aware classifier (Maxat Kulmanov et al., 2017)">}}
@@ -2925,6 +5825,14 @@ Guoshuai Zhao, Jun Yu Li, Lu Wang, Xueming Qian, Y. Fu. (2018)
 Influential Citation Count (1), SS-ID (5f2a156909e2550cdc09b7d3d3d503ec5d52b1d7)  
 
 **ABSTRACT**  
+Guoshuai Zhao, Jun Yu Li, Lu Wang, Xueming Qian, Y. Fu. (2018)  
+**GraphSeq2Seq: Graph-Sequence-to-Sequence for Neural Machine Translation**  
+  
+[Paper Link](https://www.semanticscholar.org/paper/5f2a156909e2550cdc09b7d3d3d503ec5d52b1d7)  
+Influential Citation Count (1), SS-ID (5f2a156909e2550cdc09b7d3d3d503ec5d52b1d7)  
+
+**ABSTRACT**  
+
 
 
 {{< /ci-details >}}
@@ -3757,7 +6665,7 @@ Eng. Appl. Artif. Intell.
 Influential Citation Count (0), SS-ID (8ce7c67095d76da23897cc379c063986e9843a7c)  
 
 **ABSTRACT**  
-
+The graph embedding is the process of representing the graph in a vector space using properties of the graphs and this technique has now being widely used for analyzing the graph data using machine learning algorithms. The existing graph embeddings rely mostly on a single property of graphs for data representation which is found to be inappropriate to capture all the characteristics of the data. Hence we designed graph embedding using multi-view approach, where each view is an embedding of the graph using a graph property. The input space of multi-view learning is then taken as the direct sum of the subspaces in which the graph embedding lie. We did analysis on real world data by incorporating the proposed model on support vector machines (SVM). The reproducing kernel used in SVM is represented as the linear combination of the kernels defined on the individual embeddings. The optimization technique used in simple multiple kernel learning (simpleMKL) is used to find the parameters of the optimal kernel. To analyze the individual representation capability of the embeddings, an R-convolution graph kernel is designed over each of the views. In our experimental analysis, the multi-view graph embedding showed a superior performance in comparison with that of the state-of-the-art graph embeddings as well as graph kernels.
 
 {{< /ci-details >}}
 
@@ -3770,7 +6678,7 @@ Soc. Networks
 Influential Citation Count (180), SS-ID (8dc9d11e3fc229a1b70bb00de72dc15d55848174)  
 
 **ABSTRACT**  
-
+The Internet has become a rich and large repository of information about us as individuals. Anything from the links and text on a user’s homepage to the mailing lists the user subscribes to are reflections of social interactions a user has in the real world. In this paper we devise techniques and tools to mine this information in order to extract social networks and the exogenous factors underlying the networks’ structure. In an analysis of two data sets, from Stanford University and the Massachusetts Institute of Technology (MIT), we show that some factors are better indicators of social connections than others, and that these indicators vary between user populations. Our techniques provide potential applications in automatically inferring real world connections and discovering, labeling, and characterizing communities.
 
 {{< /ci-details >}}
 
@@ -3978,7 +6886,7 @@ ICLR
 Influential Citation Count (2), SS-ID (95a32bda5a743da698e062a5f5806ce5f22aef29)  
 
 **ABSTRACT**  
-
+Representation learning is one of the foundations of Deep Learning and allowed big improvements on several Machine Learning fields, such as Neural Machine Translation, Question Answering and Speech Recognition. Recent works have proposed new methods for learning representations for nodes and edges in graphs. In this work, we propose a new unsupervised and efficient method, called here Neighborhood Based Node Embeddings (NBNE), capable of generating node embeddings for very large graphs. This method is based on SkipGram and uses nodes’ neighborhoods as contexts to generate representations. NBNE achieves results comparable or better than state-of-the-art feature learning algorithms in three different datasets and, differently from our main baseline (Node2Vec), which needs to have its parameters tuned in a validation set, is completely unsupervised.
 
 {{< /ci-details >}}
 
@@ -4056,7 +6964,7 @@ J. Assoc. Inf. Sci. Technol.
 Influential Citation Count (240), SS-ID (996dfa43f6982bcbff862276ef80cbca7515985a)  
 
 **ABSTRACT**  
-
+Given a snapshot of a social network, can we infer which new interactions among its members are likely to occur in the near future? We formalize this question as the link prediction problem, and develop approaches to link prediction based on measures the "proximity" of nodes in a network. Experiments on large co-authorship networks suggest that information about future interactions can be extracted from network topology alone, and that fairly subtle measures for detecting node proximity can outperform more direct measures.
 
 {{< /ci-details >}}
 
@@ -4160,7 +7068,7 @@ ArXiv
 Influential Citation Count (717), SS-ID (9be428c9383d47b86570b1b9fc20faf006346c5d)  
 
 **ABSTRACT**  
-
+The modern science of networks has brought significant advances to our understanding of complex systems. One of the most relevant features of graphs representing real systems is community structure, or clustering, i. e. the organization of vertices in clusters, with many edges joining vertices of the same cluster and comparatively few edges joining vertices of different clusters. Such clusters, or communities, can be considered as fairly independent compartments of a graph, playing a similar role like, e. g., the tissues or the organs in the human body. Detecting communities is of great importance in sociology, biology and computer science, disciplines where systems are often represented as graphs. This problem is very hard and not yet satisfactorily solved, despite the huge effort of a large interdisciplinary community of scientists working on it over the past few years. We will attempt a thorough exposition of the topic, from the definition of the main elements of the problem, to the presentation of most methods developed, with a special focus on techniques designed by statistical physicists, from the discussion of crucial issues like the significance of clustering and how methods should be tested and compared against each other, to the description of applications to real networks.
 
 {{< /ci-details >}}
 
@@ -4498,7 +7406,7 @@ Inf. Sci.
 Influential Citation Count (0), SS-ID (af46a816ad045238c1c8cca734ec9d1f48279d8f)  
 
 **ABSTRACT**  
-
+Graph representation learning or graph embedding is a classical topic in data mining. Current embedding methods are mostly non-parametric, where all the embedding points are unconstrained free points in the target space. These approaches suffer from limited scalability and an over-flexible representation. In this paper, we propose a parametric graph embedding by fusing graph topology information and node content information. The embedding points are obtained through a highly flexible non-linear transformation from node content features to the target space. This transformation is learned using the contrastive loss function of the siamese network to preserve node adjacency in the input graph. On several benchmark network datasets, the proposed GraPASA method shows a significant margin over state-of-the-art techniques on benchmark graph representation tasks.
 
 {{< /ci-details >}}
 
@@ -4784,7 +7692,7 @@ Inf. Sci.
 Influential Citation Count (0), SS-ID (be7bdd550f75acfbdc435e2ca75252779ba9b871)  
 
 **ABSTRACT**  
-
+Heterogeneous network embedding aims to learn a mapping between network data in original topological space and vectored data in low dimensional latent space, while encoding valuable information, such as structural and semantic information. The resulting vector representation has shown promising performance for extensive real-world applications, such as node classification and node clustering. However, most of existing methods merely focus on modeling network structural information, ignoring the rich multi-source information of different types of nodes. In this paper, we propose a novel Multi-source Information Fusion based Heterogeneous Network Embedding (MIFHNE) approach. We first capture the semantic information using the strategy of meta-graph based random walk. Subsequently, we jointly model the structural proximity, attribute information and label information in the framework of Nonnegative Matrix Factorization (NMF). Theoretical proofs and comprehensive experiments on two real-world heterogeneous network datasets demonstrate the feasibility and effectiveness of our approach.
 
 {{< /ci-details >}}
 
@@ -5031,7 +7939,7 @@ Pattern Recognit.
 Influential Citation Count (5), SS-ID (c9f22dde51fb01322212708ef00a61ef580e58bd)  
 
 **ABSTRACT**  
-
+Loss of information is the major challenge in graph embedding in vector space which reduces the impact of representational power of graphs in pattern recognition tasks. The objective of this article is to present a hierarchical framework which can decrease this loss in a reasonable computational time. Inspired by multi-resolution ideas in image processing, a graph pyramid is formed based on a selected graph summarization algorithm which can provide the required information for classification. All the pyramid levels or some of them are embedded into a vector through an available embedding method which constructs an informative description containing both local and global features. The experiments are conducted on graphs with numerical and categorical attributes. In the numerical case, a proposed summarization algorithm is applied while in the categorical case, k-SNAP graph summarization is applied. The results indicate that this new framework is efficient in terms of accuracy and time consumption in the context of classification problems. It is observed that this improvement is achieved regardless of selected embedding techniques.
 
 {{< /ci-details >}}
 
@@ -5408,7 +8316,7 @@ Hongyin Luo, Yichen Li, Jie Fu, James R. Glass. (2018)
 Influential Citation Count (0), SS-ID (de23b3889d121102e463853269ec0bfa7cf4332f)  
 
 **ABSTRACT**  
-
+Recently, there have been some attempts to use non-recurrent neural models for language modeling. However, a noticeable performance gap still remains. We propose a non-recurrent neural language model, dubbed graph temporal convolutional network (GTCN), that relies on graph neural network blocks and convolution operations. While the standard recurrent neural network language models encode sentences sequentially without modeling higher-level structural information, our model regards sentences as graphs and processes input words within a message propagation framework, aiming to learn better syntactic information by inferring skip-word connections. Specifically, the graph network blocks operate in parallel and learn the underlying graph structures in sentences without any additional annotation pertaining to structure knowledge. Experiments demonstrate that the model without recurrence can achieve comparable perplexity results in language modeling tasks and successfully learn syntactic information.
 
 {{< /ci-details >}}
 
@@ -5928,7 +8836,7 @@ Knowl. Based Syst.
 Influential Citation Count (23), SS-ID (f6e59062382fdec9b95c3abef1c27efc3b2ec1c7)  
 
 **ABSTRACT**  
-
+Learning graph representations is a fundamental task aimed at capturing various properties of graphs in vector space. The most recent methods learn such representations for static networks. However, real-world networks evolve over time and have varying dynamics. Capturing such evolution is key to predicting the properties of unseen networks. To understand how the network dynamics affect the prediction performance, we propose an embedding approach which learns the structure of evolution in dynamic graphs and can predict unseen links with higher precision. Our model, dyngraph2vec, learns the temporal transitions in the network using a deep architecture composed of dense and recurrent layers. We motivate the need for capturing dynamics for the prediction on a toy dataset created using stochastic block models. We then demonstrate the efficacy of dyngraph2vec over existing state-of-the-art methods on two real-world datasets. We observe that learning dynamics can improve the quality of embedding and yield better performance in link prediction.
 
 {{< /ci-details >}}
 
@@ -6053,4 +8961,22 @@ We present DeepWalk, a novel approach for learning latent representations of ver
 Kruskal J, Wish M. (1978)  
 **Multidimensional Scaling**
 New York: SAGE Publications
+{{< /ci-details >}}
+
+{{< ci-details summary="Link-based classification (Lu & Getoor. 2003.)" >}}
+Lu Q, Getoor L. (2003)  
+**Link-based classification**  
+Proceedings of the 20th InternationalConference on Machine Learning (ICML-03).New York: ACM, 496–503.
+
+**ABSTRACT**
+A key challenge for machine learning is tackling the problem of mining richly structured data sets, where the objects are linked in some way due to either an explicit or implicit relationship that exists between the objects. Links among the objects demonstrate certain patterns, which can be helpful for many machine learning tasks and are usually hard to capture with traditional statistical models. Recently there has been a surge of interest in this area, fueled largely by interest in web and hypertext mining, but also by interest in mining social networks, bibliographic citation data, epidemiological data and other domains best described using a linked or graph structure. In this paper we propose a framework for modeling link distributions, a link-based model that supports discriminative models describing both the link distributions and the attributes of linked objects. We use a structured logistic regression model, capturing both content and links. We systematically evaluate several variants of our link-based model on a range of data sets including both web and citation collections. In all cases, the use of the link distribution improves classification accuracy.
+{{< /ci-details >}}
+
+{{< ci-details summary="Statistical relational learning (Getoor L, Taskar B., 2007)" >}}
+Getoor L, Taskar B (2007)  
+**Statistical relational learning**  
+https://mitpress.mit.edu/books/introduction-statistical-relational-learning.
+
+**ABSTRACT**
+Advanced statistical modeling and knowledge representation techniques for a newly emerging area of machine learning and probabilistic reasoning; includes introductory material, tutorials for different proposed approaches, and applications. Handling inherent uncertainty and exploiting compositional structure are fundamental to understanding and designing large-scale systems. Statistical relational learning builds on ideas from probability theory and statistics to address uncertainty while incorporating tools from logic, databases and programming languages to represent structure. In Introduction to Statistical Relational Learning, leading researchers in this emerging area of machine learning describe current formalisms, models, and algorithms that enable effective and robust reasoning about richly structured systems and data. The early chapters provide tutorials for material used in later chapters, offering introductions to representation, inference and learning in graphical models, and logic. The book then describes object-oriented approaches, including probabilistic relational models, relational Markov networks, and probabilistic entity-relationship models as well as logic-based formalisms including Bayesian logic programs, Markov logic, and stochastic logic programs. Later chapters discuss such topics as probabilistic models with unknown objects, relational dependency networks, reinforcement learning in relational domains, and information extraction. By presenting a variety of approaches, the book highlights commonalities and clarifies important differences among proposed approaches and, along the way, identifies important representational and algorithmic issues. Numerous applications are provided throughout.
 {{< /ci-details >}}
