@@ -18,11 +18,32 @@ def cli():
 @cli.command()
 @click.option("--title", type=str, help="title of the paper")
 def new_post(title: str):
+
+    assert len(title) > 0
+
     text = open(Path(__file__).parent / "templates" / "post_template.txt").read()
+    date = datetime.now()
     text = text.format(
-        TITLE=title, DATE=datetime.now().strftime("%Y-%m-%d"), NAME=datetime.now().strftime("%Y.%m.%d"), IDENTIFIER=datetime.now().strftime("%Y%m%d")
+        TITLE=title, DATE=date.strftime("%Y-%m-%d"), NAME=datetime.now().strftime("%Y.%m.%d"), IDENTIFIER=datetime.now().strftime("%Y%m%d")
     )
-    new_post_path = Path(f"src/content/posts/papers/{datetime.now().strftime('%Y%m%d%H%M%S')}/index.md")
+    new_post_path = Path(f"src/content/posts/papers/{date.strftime('%Y%m')}/{datetime.now().strftime('%Y%m%d%H%M%S')}/index.md")
+
+    if not new_post_path.parent.parent.exists():
+        new_post_path.parent.parent.mkdir(parents=True)
+        with open(new_post_path.parent / "_index.md", mode="w", encoding="utf-8") as wf:
+            wf.write(
+                f"""---
+title: {date.strftime("%Y.%m")}
+menu:
+    sidebar:
+        name: {date.strftime("%Y.%m")}
+        identifier: {date.strftime("%Y%m")}
+        parent: papers
+        weight: 10
+---
+            """
+            )
+
     new_post_path.parent.mkdir(parents=True, exist_ok=True)
     with open(new_post_path, mode="wt", encoding="utf-8") as wf:
         wf.write(text)
