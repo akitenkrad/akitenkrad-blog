@@ -57,7 +57,7 @@ Z_i &= \text{softmax}\left( \frac{QK^{\mathsf{T}}}{\sqrt{d&rsquo;}} + M \right) 
 \end{align*}
 $$</p><p>$Z = \lbrace z_i^1, z_i^2, \ldots , z_i^T \rbrace$ を得るので，$z_i^T$ が最終的なノードのEmbeddingとなる．<br>（構造上，Multi-Head Attention に拡張することができる）</p><h5 id=optimization>Optimization</h5><p>グラフの構造及び時系列性を考慮して，最終時刻 $T$ において，近くにあるノードが似たEmbeddingを持つようにMetric Learningを実施する．</p><p>$$
 \begin{align*}
-L(z_u^T) &= -\log \left( \sigma \left( \left\langle z_u^T, z_u^T \right\rangle \right) \right) - Q \cdot \mathbb{E}_{v_n \sim P_n(v)}\log \left( \sigma \left( \left\langle -z_u^T, z_{v_n}^T \right\rangle \right) \right) \\
+L(z_u^T) &= -\log \left( \sigma \left( \left\langle z_u^T, z_v^T \right\rangle \right) \right) - Q \cdot \mathbb{E}_{v_n \sim P_n(v)}\log \left( \sigma \left( \left\langle -z_u^T, z_{v_n}^T \right\rangle \right) \right) \\
 \text{where}& \\
 & \langle , \rangle \mapsto \text{inner product} \\
 & v \mapsto \text{node that co-occurs near } u \text{ on fixed-length random walk in the last time step} \\
