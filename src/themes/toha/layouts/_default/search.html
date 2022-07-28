@@ -1,8 +1,8 @@
 {{ define "header" }}
-    <link rel="stylesheet" href="{{ "/css/layouts/list.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL}}">
+    <link rel="stylesheet" href="{{"/blog-akitenkrad/css/layouts/list.css" | absURL }}">
+    <link rel="stylesheet" href="{{"/blog-akitenkrad/css/navigators/sidebar.css" | absURL}}">
     <!--================= custom style overrides =========================-->
-    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{"/css/style.css" | absURL }}"/>
 
 {{ end }}
 
@@ -70,5 +70,5 @@
 {{ define "scripts" }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
-<script src="{{ "/js/search.js" | relURL }}"></script>
+<script src="{{"/blog-akitenkrad/js/search.js" | absURL }}"></script>
 {{ end }}

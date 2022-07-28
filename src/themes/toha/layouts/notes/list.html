@@ -3,8 +3,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
   />
-  <link rel="stylesheet" href="{{ "/css/layouts/notes.css" | relURL}}">
-  <link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL}}">
+  <link rel="stylesheet" href="{{"/blog-akitenkrad/css/layouts/notes.css" | absURL}}">
+  <link rel="stylesheet" href="{{"/blog-akitenkrad/css/navigators/sidebar.css" | absURL}}">
 {{ end }}
 
 {{ define "navbar" }}
@@ -58,8 +58,8 @@
 
 {{ define "scripts" }}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-  <script src="{{ "/js/imagesloaded.pkgd.min.js" | relURL }}"></script>
-  <script src="{{ "/js/note.js" | relURL }}"></script>
+  <script src="{{"/blog-akitenkrad/js/imagesloaded.pkgd.min.js" | absURL }}"></script>
+  <script src="{{"/blog-akitenkrad/js/note.js" | absURL }}"></script>
   <script>
     hljs.initHighlightingOnLoad();
   </script>

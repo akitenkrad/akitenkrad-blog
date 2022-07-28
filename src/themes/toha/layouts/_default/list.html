@@ -1,8 +1,8 @@
 {{ define "header" }}
-    <link rel="stylesheet" href="{{ "/css/layouts/list.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL}}">
+    <link rel="stylesheet" href="{{"/blog-akitenkrad/css/layouts/list.css" | absURL }}">
+    <link rel="stylesheet" href="{{"/blog-akitenkrad/css/navigators/sidebar.css" | absURL}}">
     <!--================= custom style overrides =========================-->
-    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{"/blog-akitenkrad/css/style.css" | absURL }}"/>
 
 {{ end }}
 
@@ -57,5 +57,5 @@
 {{ end }}
 
 {{ define "scripts" }}
-    <script src="{{ "/js/list.js" | relURL }}"></script>
+    <script src="{{"/blog-akitenkrad/js/list.js" | absURL }}"></script>
 {{ end }}
