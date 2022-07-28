@@ -144,7 +144,7 @@ $Z = \lbrace z\_i^1, z\_i^2, \ldots , z\_i^T \rbrace$ を得るので，$z\_i^T$
 
 $$
 \begin{align*}
-  L(z\_u^T) &= -\log \left( \sigma \left( \left\langle z\_u^T, z\_u^T \right\rangle \right) \right) - Q \cdot \mathbb{E}\_{v\_n \sim P\_n(v)}\log \left( \sigma \left( \left\langle -z\_u^T, z\_{v\_n}^T \right\rangle \right) \right) \\\\
+  L(z\_u^T) &= -\log \left( \sigma \left( \left\langle z\_u^T, z\_v^T \right\rangle \right) \right) - Q \cdot \mathbb{E}\_{v\_n \sim P\_n(v)}\log \left( \sigma \left( \left\langle -z\_u^T, z\_{v\_n}^T \right\rangle \right) \right) \\\\
   \text{where}& \\\\
   & \langle , \rangle \mapsto \text{inner product} \\\\
   & v \mapsto \text{node that co-occurs near } u \text{ on fixed-length random walk in the last time step} \\\\
