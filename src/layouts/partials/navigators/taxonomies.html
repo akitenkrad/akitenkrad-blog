@@ -1,0 +1,24 @@
+{{ $context := .context  }}
+{{ $taxo := .taxo  }}
+{{ $class:= "" }}
+{{ $filterword := .filterword }}
+{{ if isset $context.Site.Taxonomies ( lower $taxo ) }}
+  {{ $taxonomy := index $context.Site.Taxonomies ( lower $taxo ) }}
+  {{ if (gt (len $taxonomy) 0)}}
+        {{ range $taxonomy }}
+          {{if eq $context.Title .Page.Title}}
+            {{ $class = "active" }}
+          {{else}}
+            {{$class = ""}}
+          {{end}}
+
+          {{ if ne $filterword "" }}
+            {{ if in .Page.Title $filterword }}
+              <li><a class="taxonomy-term {{ $class }}" href="{{ .Page.Permalink }}" data-taxonomy-term="{{ urlize .Page.Title }}"><span class="taxonomy-label">{{ .Page.Title }}</span></a></li>
+            {{ end }}
+          {{ else }}
+            <li><a class="taxonomy-term {{ $class }}" href="{{ .Page.Permalink }}" data-taxonomy-term="{{ urlize .Page.Title }}"><span class="taxonomy-label">{{ .Page.Title }}</span></a></li>
+          {{ end }}
+        {{ end }}
+  {{ end }}
+{{ end }}

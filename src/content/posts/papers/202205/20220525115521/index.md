@@ -4,7 +4,7 @@ title: "Improving Language Understanding by Generative Pre-Training"
 date: 2022-05-25
 author: "akitenkrad"
 description: ""
-tags: ["At:Round-1", "Published:20XX"]
+tags: ["At:Round-1", "Published:2006"]
 menu:
   sidebar:
     name: 2022.05.25

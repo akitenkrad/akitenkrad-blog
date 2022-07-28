@@ -1,0 +1,92 @@
+{{ define "header" }}
+<link rel="stylesheet" href="{{"/blog-akitenkrad/css/layouts/list.css" | absURL }}">
+<link rel="stylesheet" href="{{"/blog-akitenkrad/css/navigators/sidebar.css" | absURL}}">
+<!--================= custom style overrides =========================-->
+<link rel="stylesheet" href="{{"/blog-akitenkrad/css/style.css" | absURL }}" />
+
+{{ end }}
+
+{{ define "navbar" }}
+{{ partial "navigators/navbar-2.html" . }}
+{{ end }}
+
+{{ define "sidebar" }}
+{{ $homePage:="#" }}
+{{ if site.IsMultiLingual }}
+{{ $homePage = (path.Join (cond ( eq .Language.Lang "en") "" .Language.Lang) .Type) }}
+{{ end }}
+
+<section class="sidebar-section" id="sidebar-section">
+  <div class="sidebar-holder">
+    <div class="sidebar" id="sidebar">
+      <form class="mx-auto" method="get" action="{{ " search" | relLangURL }}">
+        <input type="text" name="keyword" value="" placeholder="{{ i18n " search" }}" data-search="" id="search-box" />
+      </form>
+      <div class="sidebar-tree">
+        <b><a href="{{ .Type | relLangURL }}" data-filter="all">{{ i18n .Type }}</a></b>
+      </div>
+      <div class="sidebar-tree">
+        <ul class="tree" id="tree">
+          <li id="list-heading">Round</li>
+          <div class="subtree taxonomy-terms">
+            {{ $context := . }}
+            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "Round-" ) }}
+          </div>
+        </ul>
+      </div>
+      <div class="sidebar-tree">
+        <ul class="tree" id="tree">
+          <li id="list-heading">Published</li>
+          <div class="subtree taxonomy-terms">
+            {{ $context := . }}
+            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "Published:" ) }}
+          </div>
+        </ul>
+      </div>
+      <div class="sidebar-tree">
+        <ul class="tree" id="tree">
+          <li id="list-heading">Dataset</li>
+          <div class="subtree taxonomy-terms">
+            {{ $context := . }}
+            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "DS:" ) }}
+          </div>
+        </ul>
+      </div>
+      <div class="sidebar-tree">
+        <ul class="tree" id="tree">
+          <li id="list-heading">All</li>
+          <div class="subtree taxonomy-terms">
+            {{ $context := . }}
+            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "" ) }}
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "content" }}
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      {{ $posts := where .RegularPagesRecursive "Layout" "!=" "search" }}
+      {{ $paginator := .Paginate $posts 12 }}
+      {{ range $paginator.Pages }}
+      {{ if .Layout }}
+      {{/* ignore the search.md file*/}}
+      {{ else }}
+      {{ partial "cards/post.html" . }}
+      {{ end }}
+      {{ end }}
+    </div>
+    <div class="paginator">
+      {{ template "_internal/pagination.html" . }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="{{"/blog-akitenkrad/js/list.js" | absURL }}"></script>
+{{ end }}

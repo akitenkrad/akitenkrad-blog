@@ -4,7 +4,7 @@ title: "Dynamic Heterogeneous Graph Embedding Using Hierarchical Attentions"
 date: 2022-07-27
 author: "akitenkrad"
 description: ""
-tags: ["At:Round-1", "Published:2020"]
+tags: ["At:Round-1", "Published:2020", "DS: EComm", "DS: Higgs Twitter Dataset", "Link Prediction"]
 menu:
   sidebar:
     name: 2022.07.27
@@ -35,6 +35,20 @@ https://doi.org/10.1007/978-3-030-45442-5_53
 - NodeとEdgeに関するDynamicなグラフのEmbedding手法を提案
 
 ## Dataset
+
+- <a href="https://tianchi.aliyun.com/competition/entrance/231719/introduction">CIKM 2019 EComm AI: User Behavior Diversities Prediction</a>
+- {{< ci-details summary="Higgs Twitter Dataset" >}}
+M. De Domenico, A. Lima, P. Mougel and M. Musolesi. The Anatomy of a Scientific Rumor. (Nature Open Access) Scientific Reports 3, 2980 (2013).
+
+> The Higgs dataset has been built after monitoring the spreading processes on Twitter before, during and after the announcement of the discovery of a new particle with the features of the elusive Higgs boson on 4th July 2012. The messages posted in Twitter about this discovery between 1st and 7th July 2012 are considered.
+{{< /ci-details>}}
+
+
+|Dataset| #nodes| #edges| #node-types| #edge-types| #time-steps|
+|---|---|---|---|---|---|
+|EComm| 37724| 91033| 2| 4| 11|
+|Twitter| 100000| 63410| 1| 3| 7|
+|Alibaba.com| 16620| 93956| 2| 3| 11|
 
 ## Model Description
 
@@ -72,6 +86,7 @@ $$
   \text{where }& \\\\
   || \mapsto &\text{ concatenation} \\\\
   x\_i &\in \mathbb{R}^d \\\\
+  N\_i^{rt} &\mapsto \text{sampled naighbor nodes for node } i \text{ for edge type } r \text{ and time stemp }r \\\\
   W\_{nl}^r &\in \mathbb{R}^{d \times d} \hspace{10pt} \text{(parameter)} \\\\
   a\_r &\in \mathbb{R}^{2d} \hspace{10pt} \text{(parameter / node-level attention vector)}
 \end{align*}
@@ -155,7 +170,37 @@ $$
 
 ### Training Settings
 
+- $\lbrace G^1, G^2, \ldots , G^t\rbrace$ を入力として，$G^{t+1}$ の **Link Prediction** を実施する
+- 評価方法は既存研究に則る
+  - {{< ci-details summary="Dynamic Graph Representation Learning via Self-Attention Networks (Aravind Sankar et al., 2018)">}}
+Aravind Sankar, Yanhong Wu, Liang Gou, Wei Zhang, Hao Yang. (2018)  
+**Dynamic Graph Representation Learning via Self-Attention Networks**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/50a1a28d216ebf719ca1103593d5afe1e29e3ee1)  
+Influential Citation Count (7), SS-ID (50a1a28d216ebf719ca1103593d5afe1e29e3ee1)  
+**ABSTRACT**  
+Learning latent representations of nodes in graphs is an important and ubiquitous task with widespread applications such as link prediction, node classification, and graph visualization. Previous methods on graph representation learning mainly focus on static graphs, however, many real-world graphs are dynamic and evolve over time. In this paper, we present Dynamic Self-Attention Network (DySAT), a novel neural architecture that operates on dynamic graphs and learns node representations that capture both structural properties and temporal evolutionary patterns. Specifically, DySAT computes node representations by jointly employing self-attention layers along two dimensions: structural neighborhood and temporal dynamics. We conduct link prediction experiments on two classes of graphs: communication networks and bipartite rating networks. Our experimental results show that DySAT has a significant performance gain over several different state-of-the-art graph embedding baselines.
+{{< /ci-details >}}
+  - {{< ci-details summary="Dynamic Network Embedding : An Extended Approach for Skip-gram based Network Embedding (Lun Du et al., 2018)">}}
+Lun Du, Yun Wang, Guojie Song, Zhicong Lu, Junshan Wang. (2018)  
+**Dynamic Network Embedding : An Extended Approach for Skip-gram based Network Embedding**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/707defa78c0e5529c17fda92ce7b33f0b6674612)  
+Influential Citation Count (10), SS-ID (707defa78c0e5529c17fda92ce7b33f0b6674612)  
+**ABSTRACT**  
+Network embedding, as an approach to learn low-dimensional representations of vertices, has been proved extremely useful in many applications. Lots of state-of-the-art network embedding methods based on Skip-gram framework are efficient and effective. However, these methods mainly focus on the static network embedding and cannot naturally generalize to the dynamic environment. In this paper, we propose a stable dynamic embedding framework with high efficiency. It is an extension for the Skip-gram based network embedding methods, which can keep the optimality of the objective in the Skip-gram based methods in theory. Our model can not only generalize to the new vertex representation, but also update the most affected original vertex representations during the evolvement of the network. Multi-class classification on three real-world networks demonstrates that, our model can update the vertex representations efficiently and achieve the performance of retraining simultaneously. Besides, the visualization experimental result illustrates that, our model is capable of avoiding the embedding space drifting.
+{{< /ci-details >}}
+- DyHANの出力に **Logistic Regression Classifier** を接続して Link Prediction 向けの予測モデルを構築
+- $G^{t+1}$ 時点のスナップショットから20%のエッジをハイパーパラメータチューニング向けのValidation Setとして切り出した
+- 残りのエッジを $25:75$ に分割し，それぞれ学習データ・テストデータとして実験を実施
+- 評価指標は **ROC Curve** 及び **AUC**
+
 ## Results
+
+<figure>
+  <img src="results.png" width="100%"/>
+  <figcaption>Experimental results on three real-world datasets</figcaption>
+</figure>
 
 ## References
 
