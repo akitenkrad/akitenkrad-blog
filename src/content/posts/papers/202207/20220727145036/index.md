@@ -4,7 +4,7 @@ title: "Dynamic Heterogeneous Graph Embedding Using Hierarchical Attentions"
 date: 2022-07-27
 author: "akitenkrad"
 description: ""
-tags: ["At:Round-1", "Published:2020", "DS: EComm", "DS: Higgs Twitter Dataset", "Link Prediction"]
+tags: ["At:Round-2", "Published:2020", "DS:EComm", "DS:Higgs Twitter Dataset", "Link Prediction"]
 menu:
   sidebar:
     name: 2022.07.27
@@ -15,7 +15,7 @@ math: true
 ---
 
 - [x] Round-1: Overview
-- [ ] Round-2: Model Implementation Details
+- [x] Round-2: Model Implementation Details
 - [ ] Round-3: Experiments
 
 ## Citation

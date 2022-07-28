@@ -4,7 +4,7 @@ title: "UnitedQA: A Hybrid Approach for Open Domain Question Answering"
 date: 2022-05-14
 author: "akitenkrad"
 description: ""
-tags: ["At:Round-1", "Published:2021", "Question Answering", "Extractive-MRC", "Generative-MRC", "DS:NaturalQuestions", "DS:TriviaQA"]
+tags: ["At:Round-1", "Published:2021", "Question Answering", "Extractive-MRC", "Generative-MRC", "DS:Natural Questions", "DS:TriviaQA"]
 menu:
   sidebar:
     name: 2022.05.14
