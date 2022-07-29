@@ -71,6 +71,155 @@ Reading comprehension (RC)—in contrast to information retrieval—requires int
 
 ## Model Description
 
+#### Problem Formulation
+
+$$
+\begin{align*}
+  \text{Question} &: x^q = \lbrace x\_1^q, \ldots , x\_J^q \rbrace & x\_j^q &\in \mathbb{R}^V \\\\
+  \text{Passages} &: x^{p\_k} = \lbrace x\_1^{p\_k}, \ldots , x\_L^{p\_k} \rbrace  & x\_l^{p\_k} &\in \mathbb{R}^V \\\\
+  \text{Answer Style Label} &: s & s &\in \mathbb{N}^+\_{\geqq 0} \\\\
+  \text{RC model output} &: y = \lbrace y\_1, \ldots , y\_T \rbrace & y_t &\in \mathbb{R}^V \\\\
+  \text{where} \\\\
+  & J: \text{length(number of words) of question} \\\\
+  & K: \text{number of passages} \\\\
+  & L: \text{length(number of words) of each passage} \\\\
+  & T: \text{length of model output}
+\end{align*}
+$$
+
+##### Machine Reading Comprehension Model
+
+$$
+f := (x^q, \lbrace x^{p\_k} \rbrace , s) \rightarrow P(y | x^q, \lbrace x^{p\_k} \rbrace , s)
+$$
+
+##### Model Traning Formulation
+
+$$
+\begin{align*}
+  (x^q, \lbrace x^{p\_k} \rbrace , s, y, a, \lbrace r^{p\_k} \rbrace) & \rightarrow \text{loss}(P(y | x^q, \lbrace x^{p\_k} \rbrace , s)) \\\\
+  \text{where} \\\\
+  a = 1 \hspace{5pt} & \text{if the question is answerable otherwise} \hspace{5pt} 0 \\\\
+  r^{p\_k} = 1 \hspace{5pt} & \text{if the }k\text{-th passage is required otherwise} \hspace{5pt} 0
+\end{align*}
+$$
+
+#### Model Architecture
+
+<figure>
+  <img src="model_architecture.png" width="100%"/>
+  <figcaption>Model Architecture</figcaption>
+</figure>
+
+##### Question-Passages Reader
+###### Word Embedding Layer
+$$
+\begin{align*}
+  W^q &= \lbrace w\_1^q, \ldots , w\_J^q \rbrace &=& \hspace{5pt} \text{2L-Highway}(\text{GloVe+ELMo}(x^q)) & w\_j^q \in \mathbb{R}^{d\_{word} \times V} \\\\
+  W^{p\_k} &= \lbrace w\_1^{p\_k}, \ldots , w\_L^{p\_k} \rbrace &=& \hspace{5pt} \text{2L-Highway}(\text{GloVe+ELMo}(x^{p\_k})) & w\_j^{p\_k} \in \mathbb{R}^{d\_{word} \times V}
+\end{align*}
+$$
+
+{{< ci-details summary="GloVe (Jeffrey Pennington et al., 2014)">}}
+Jeffrey Pennington, R. Socher, Christopher D. Manning. (2014)  
+**GloVe: Global Vectors for Word Representation**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/f37e1b62a767a307c046404ca96bc140b3e68cb5)  
+Influential Citation Count (3462), SS-ID (f37e1b62a767a307c046404ca96bc140b3e68cb5)  
+**ABSTRACT**  
+Recent methods for learning vector space representations of words have succeeded in capturing fine-grained semantic and syntactic regularities using vector arithmetic, but the origin of these regularities has remained opaque. We analyze and make explicit the model properties needed for such regularities to emerge in word vectors. The result is a new global logbilinear regression model that combines the advantages of the two major model families in the literature: global matrix factorization and local context window methods. Our model efficiently leverages statistical information by training only on the nonzero elements in a word-word cooccurrence matrix, rather than on the entire sparse matrix or on individual context windows in a large corpus. The model produces a vector space with meaningful substructure, as evidenced by its performance of 75% on a recent word analogy task. It also outperforms related models on similarity tasks and named entity recognition.
+{{< /ci-details >}}
+{{< ci-details summary="ELMo (Matthew E. Peters et al., 2018)">}}
+Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, Luke Zettlemoyer. (2018)  
+**Deep Contextualized Word Representations**  
+NAACL  
+[Paper Link](https://www.semanticscholar.org/paper/3febb2bed8865945e7fddc99efd791887bb7e14f)  
+Influential Citation Count (1347), SS-ID (3febb2bed8865945e7fddc99efd791887bb7e14f)  
+**ABSTRACT**  
+We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy). Our word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pre-trained on a large text corpus. We show that these representations can be easily added to existing models and significantly improve the state of the art across six challenging NLP problems, including question answering, textual entailment and sentiment analysis. We also present an analysis showing that exposing the deep internals of the pre-trained network is crucial, allowing downstream models to mix different types of semi-supervision signals.
+{{< /ci-details >}}
+{{< ci-details summary="Highway Networks (R. Srivastava et al., 2015)">}}
+R. Srivastava, Klaus Greff, J. Schmidhuber. (2015)  
+**Highway Networks**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/e0945081b5b87187a53d4329cf77cd8bff635795)  
+Influential Citation Count (81), SS-ID (e0945081b5b87187a53d4329cf77cd8bff635795)  
+**ABSTRACT**  
+There is plenty of theoretical and empirical evidence that depth of neural networks is a crucial ingredient for their success. However, network training becomes more difficult with increasing depth and training of very deep networks remains an open problem. In this extended abstract, we introduce a new architecture designed to ease gradient-based training of very deep networks. We refer to networks with this architecture as highway networks, since they allow unimpeded information flow across several layers on information highways. The architecture is characterized by the use of gating units which learn to regulate the flow of information through a network. Highway networks with hundreds of layers can be trained directly using stochastic gradient descent and with a variety of activation functions, opening up the possibility of studying extremely deep and efficient architectures.
+{{< /ci-details >}}
+{{< ci-details summary="Bidirectional Attention Flow for Machine Comprehension (Minjoon Seo et al., 2016)">}}
+Minjoon Seo, Aniruddha Kembhavi, Ali Farhadi, Hannaneh Hajishirzi. (2016)  
+**Bidirectional Attention Flow for Machine Comprehension**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/3a7b63b50c64f4ec3358477790e84cbd6be2a0b4)  
+Influential Citation Count (439), SS-ID (3a7b63b50c64f4ec3358477790e84cbd6be2a0b4)  
+**ABSTRACT**  
+Machine comprehension (MC), answering a query about a given context paragraph, requires modeling complex interactions between the context and the query. Recently, attention mechanisms have been successfully extended to MC. Typically these methods use attention to focus on a small portion of the context and summarize it with a fixed-size vector, couple attentions temporally, and/or often form a uni-directional attention. In this paper we introduce the Bi-Directional Attention Flow (BIDAF) network, a multi-stage hierarchical process that represents the context at different levels of granularity and uses bi-directional attention flow mechanism to obtain a query-aware context representation without early summarization. Our experimental evaluations show that our model achieves the state-of-the-art results in Stanford Question Answering Dataset (SQuAD) and CNN/DailyMail cloze test.
+{{< /ci-details >}}
+
+###### Shared Encoder Layer
+
+$$
+\begin{align*}
+  E^q &= \lbrace e\_1^q, \ldots e\_J^q \rbrace &=& \text{Shared-Transformer-Encoder-Blok}(W^q) & e\_j^q &\in \mathbb{R}^d \\\\
+  E^{p\_k} &= \lbrace e\_1^{p\_k}, \ldots e\_L^{p\_k} \rbrace &=& \text{Shared-Transformer-Encoder-Blok}(W^{p\_k}) & e\_l^{p\_k} &\in \mathbb{R}^d
+\end{align*}
+$$
+
+##### Dual Attention Layer
+
+###### Similarity Matrix
+
+$$
+\begin{align*}
+  U^{p\_k} &\in \mathbb{R}^{L \times J} \\\\
+  \text{where} \\\\
+  & U\_{lj}^{p\_k} = {w^a}^{\mathsf{T}} \left[ E\_l^{p\_k} ; E\_j^q ; E\_l^{p\_k} \odot E\_j^q \right] \\\\
+  & w^a \in \mathbb{R}^{3d} \hspace{10pt} \text{(learnable parameters)} \\\\
+  & \odot \mapsto \text{hadamard product} \\\\
+  & ; \mapsto \text{vector concatenation across the rows}
+\end{align*}
+$$
+
+{{< ci-details summary="Bidirectional Attention Flow for Machine Comprehension (Minjoon Seo et al., 2016)">}}
+Minjoon Seo, Aniruddha Kembhavi, Ali Farhadi, Hannaneh Hajishirzi. (2016)  
+**Bidirectional Attention Flow for Machine Comprehension**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/3a7b63b50c64f4ec3358477790e84cbd6be2a0b4)  
+Influential Citation Count (439), SS-ID (3a7b63b50c64f4ec3358477790e84cbd6be2a0b4)  
+**ABSTRACT**  
+Machine comprehension (MC), answering a query about a given context paragraph, requires modeling complex interactions between the context and the query. Recently, attention mechanisms have been successfully extended to MC. Typically these methods use attention to focus on a small portion of the context and summarize it with a fixed-size vector, couple attentions temporally, and/or often form a uni-directional attention. In this paper we introduce the Bi-Directional Attention Flow (BIDAF) network, a multi-stage hierarchical process that represents the context at different levels of granularity and uses bi-directional attention flow mechanism to obtain a query-aware context representation without early summarization. Our experimental evaluations show that our model achieves the state-of-the-art results in Stanford Question Answering Dataset (SQuAD) and CNN/DailyMail cloze test.
+{{< /ci-details >}}
+ 
+###### Normalized Similarity Matrix
+
+$$
+\begin{align*}
+  A^{p\_k} &= \text{softmax}\_j\left( {U^{p\_k}}^\mathsf{T} \right) \\\\
+  B^{p\_k} &= \text{softmax}\_l\left( {U^{p\_k}} \right) \\\\
+\end{align*}
+$$
+
+###### Dynamic Coattention Networks (DCN)
+
+$$
+\begin{align*}
+  G^{q \rightarrow p\_k} &= \left\lbrack \right\rbrack &\in \mathbb{R}^{5d \times L} \\\\
+  G^{p \rightarrow q} &= \left\lbrack \right\rbrack &\in \mathbb{R}^{5d \times J}
+\end{align*}
+$$
+
+{{< ci-details summary="DCN (Caiming Xiong et al., 2016)">}}
+Caiming Xiong, Victor Zhong, R. Socher. (2016)  
+**Dynamic Coattention Networks For Question Answering**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/e978d832a4d86571e1b52aa1685dc32ccb250f50)  
+Influential Citation Count (111), SS-ID (e978d832a4d86571e1b52aa1685dc32ccb250f50)  
+**ABSTRACT**  
+Several deep learning models have been proposed for question answering. However, due to their single-pass nature, they have no way to recover from local maxima corresponding to incorrect answers. To address this problem, we introduce the Dynamic Coattention Network (DCN) for question answering. The DCN first fuses co-dependent representations of the question and the document in order to focus on relevant parts of both. Then a dynamic pointing decoder iterates over potential answer spans. This iterative procedure enables the model to recover from initial local maxima corresponding to incorrect answers. On the Stanford question answering dataset, a single DCN model improves the previous state of the art from 71.0% F1 to 75.9%, while a DCN ensemble obtains 80.4% F1.
+{{< /ci-details >}}
+
+
 ### Training Settings
 
 ## Results

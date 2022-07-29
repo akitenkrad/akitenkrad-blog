@@ -199,8 +199,13 @@ table thead tr {
   color: #e5e9f2;
 }
 
+tbody tr td {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
 tbody tr:nth-child(odd) {
-  background-color: #e5e9f2;
+  background-color: #f8f9fa;
 }
 
 tbody tr:hover {
