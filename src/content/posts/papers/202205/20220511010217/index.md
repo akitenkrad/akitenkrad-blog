@@ -71,7 +71,7 @@ Reading comprehension (RC)—in contrast to information retrieval—requires int
 
 ## Model Description
 
-#### Problem Formulation
+### Problem Formulation
 
 $$
 \begin{align*}
@@ -87,13 +87,13 @@ $$
 \end{align*}
 $$
 
-##### Machine Reading Comprehension Model
+#### Machine Reading Comprehension Model
 
 $$
 f := (x^q, \lbrace x^{p\_k} \rbrace , s) \rightarrow P(y | x^q, \lbrace x^{p\_k} \rbrace , s)
 $$
 
-##### Model Traning Formulation
+#### Model Traning Formulation
 
 $$
 \begin{align*}
@@ -104,21 +104,22 @@ $$
 \end{align*}
 $$
 
-#### Model Architecture
+### Model Architecture
 
 <figure>
   <img src="model_architecture.png" width="100%"/>
   <figcaption>Model Architecture</figcaption>
 </figure>
 
-##### Question-Passages Reader
-###### Word Embedding Layer
+### Question-Passages Reader
+#### Word Embedding Layer
 $$
 \begin{align*}
-  W^q &= \lbrace w\_1^q, \ldots , w\_J^q \rbrace &=& \hspace{5pt} \text{2L-Highway}(\text{GloVe+ELMo}(x^q)) & w\_j^q \in \mathbb{R}^{d\_{word} \times V} \\\\
-  W^{p\_k} &= \lbrace w\_1^{p\_k}, \ldots , w\_L^{p\_k} \rbrace &=& \hspace{5pt} \text{2L-Highway}(\text{GloVe+ELMo}(x^{p\_k})) & w\_j^{p\_k} \in \mathbb{R}^{d\_{word} \times V}
+  W^q &= \lbrace w\_1^q, \ldots , w\_J^q \rbrace &=& \hspace{5pt} \text{2L-Highway}(\text{GloVe+ELMo}(x^q)) & w\_j^q \in \mathbb{R}^{d\_{\text{word}} \times V} \\\\
+  W^{p\_k} &= \lbrace w\_1^{p\_k}, \ldots , w\_L^{p\_k} \rbrace &=& \hspace{5pt} \text{2L-Highway}(\text{GloVe+ELMo}(x^{p\_k})) & w\_j^{p\_k} \in \mathbb{R}^{d\_{\text{word}} \times V} \\\\
 \end{align*}
 $$
+※ the ELMo is bidirectional
 
 {{< ci-details summary="GloVe (Jeffrey Pennington et al., 2014)">}}
 Jeffrey Pennington, R. Socher, Christopher D. Manning. (2014)  
@@ -157,7 +158,7 @@ Influential Citation Count (439), SS-ID (3a7b63b50c64f4ec3358477790e84cbd6be2a0b
 Machine comprehension (MC), answering a query about a given context paragraph, requires modeling complex interactions between the context and the query. Recently, attention mechanisms have been successfully extended to MC. Typically these methods use attention to focus on a small portion of the context and summarize it with a fixed-size vector, couple attentions temporally, and/or often form a uni-directional attention. In this paper we introduce the Bi-Directional Attention Flow (BIDAF) network, a multi-stage hierarchical process that represents the context at different levels of granularity and uses bi-directional attention flow mechanism to obtain a query-aware context representation without early summarization. Our experimental evaluations show that our model achieves the state-of-the-art results in Stanford Question Answering Dataset (SQuAD) and CNN/DailyMail cloze test.
 {{< /ci-details >}}
 
-###### Shared Encoder Layer
+#### Shared Encoder Layer
 
 $$
 \begin{align*}
@@ -166,9 +167,9 @@ $$
 \end{align*}
 $$
 
-##### Dual Attention Layer
+#### Dual Attention Layer
 
-###### Similarity Matrix
+##### Similarity Matrix
 
 $$
 \begin{align*}
@@ -191,21 +192,28 @@ Influential Citation Count (439), SS-ID (3a7b63b50c64f4ec3358477790e84cbd6be2a0b
 Machine comprehension (MC), answering a query about a given context paragraph, requires modeling complex interactions between the context and the query. Recently, attention mechanisms have been successfully extended to MC. Typically these methods use attention to focus on a small portion of the context and summarize it with a fixed-size vector, couple attentions temporally, and/or often form a uni-directional attention. In this paper we introduce the Bi-Directional Attention Flow (BIDAF) network, a multi-stage hierarchical process that represents the context at different levels of granularity and uses bi-directional attention flow mechanism to obtain a query-aware context representation without early summarization. Our experimental evaluations show that our model achieves the state-of-the-art results in Stanford Question Answering Dataset (SQuAD) and CNN/DailyMail cloze test.
 {{< /ci-details >}}
  
-###### Normalized Similarity Matrix
+##### Normalized Similarity Matrix
 
 $$
 \begin{align*}
-  A^{p\_k} &= \text{softmax}\_j\left( {U^{p\_k}}^\mathsf{T} \right) \\\\
-  B^{p\_k} &= \text{softmax}\_l\left( {U^{p\_k}} \right) \\\\
+  A^{p\_k} &= \text{softmax}\_j\left( {U^{p\_k}}^\mathsf{T} \right) &\in \mathbb{R}^{J \times L} \\\\
+  B^{p\_k} &= \text{softmax}\_l\left( {U^{p\_k}} \right) &\in \mathbb{R}^{L \times J} \\\\
 \end{align*}
 $$
 
-###### Dynamic Coattention Networks (DCN)
+##### Dynamic Coattention Networks (DCN)
 
 $$
 \begin{align*}
-  G^{q \rightarrow p\_k} &= \left\lbrack \right\rbrack &\in \mathbb{R}^{5d \times L} \\\\
-  G^{p \rightarrow q} &= \left\lbrack \right\rbrack &\in \mathbb{R}^{5d \times J}
+  G^{q \rightarrow p\_k} &= \left\lbrack E^{p\_k} ; \bar{A}^{p\_k} ; \bar{\bar{A}}^{p\_k}; E^{p\_k} \odot \bar{A}^{p\_k}; E^{p\_k} \odot \bar{\bar{A}}^{p\_k} \right\rbrack &\in \mathbb{R}^{5d \times L} \\\\
+  G^{p \rightarrow q} &= \left\lbrack E^q ; \bar{B} ; \bar{\bar{B}}; E^q \odot \bar{B} ; E^q \odot \bar{\bar{B}}\right\rbrack &\in \mathbb{R}^{5d \times J} \\\\
+  \text{where} \\\\
+  & \bar{A}^{p\_k} = E^q A^{p\_k} &\in \mathbb{R}^{d \times L} \\\\
+  & \bar{B}^{p\_k} = E^{p\_k} B^{p\_k} &\in \mathbb{R}^{d \times J} \\\\
+  & \bar{\bar{A}}^{p\_k} = \bar{B}^{p\_k} A^{p\_k} &\in \mathbb{R}^{d \times L} \\\\
+  & \bar{\bar{B}}^{p\_k} = \bar{A}^{p\_k} B^{p\_k} &\in \mathbb{R}^{d \times J} \\\\
+  & \bar{B} = \max\_k \left(\bar{B}^{p\_k}\right) &\in \mathbb{R}^{d \times J} \\\\
+  & \bar{\bar{B}} = \max\_k \left( \bar{\bar{B}}^{p\_k} \right) &\in \mathbb{R}^{d \times J}
 \end{align*}
 $$
 
@@ -219,6 +227,182 @@ Influential Citation Count (111), SS-ID (e978d832a4d86571e1b52aa1685dc32ccb250f5
 Several deep learning models have been proposed for question answering. However, due to their single-pass nature, they have no way to recover from local maxima corresponding to incorrect answers. To address this problem, we introduce the Dynamic Coattention Network (DCN) for question answering. The DCN first fuses co-dependent representations of the question and the document in order to focus on relevant parts of both. Then a dynamic pointing decoder iterates over potential answer spans. This iterative procedure enables the model to recover from initial local maxima corresponding to incorrect answers. On the Stanford question answering dataset, a single DCN model improves the previous state of the art from 71.0% F1 to 75.9%, while a DCN ensemble obtains 80.4% F1.
 {{< /ci-details >}}
 
+#### Model Encoder Layer
+
+$$
+\begin{align*}
+  M^q &= \text{Transformer-Encoder-Block}(G^{p \rightarrow q}) &\in \mathbb{R}^{d \times J} \\\\
+  M^{p\_k} &= \text{Transformer-Encoder-Block}(G^{q \rightarrow p\_k}) &\in \mathbb{R}^{d \times L}
+\end{align*}
+$$
+
+### Passage Ranker
+各 $\lbrace M^{p\_k} \rbrace$ の先頭の単語 $M\_1^{p\_k}$ を受け取ってQuestionに対する $k$番目のPassageの関連性スコアを算出する  
+入力の文章の情報を $M\_1^{p\_k}$ に集約するように学習する
+
+$$
+\begin{align*}
+  \beta^{p\_k} &= \text{sigmoid}\left( {w^r}^\mathsf{T} M\_1^{p\_k} \right) \in \mathbb{R} \\\\
+  \text{where} \\\\
+  & M\_1^{p\_k} \in \mathbb{R}^d \\\\
+  & w^r \in \mathbb{R}^d
+\end{align*}
+$$
+
+### Answer Possibility Classifier
+
+#### Word Embedding Layer
+- 基本構成は Reader Module と同じだが，Answer出力時の先読みを防ぐため，ELMo は **unidirectional**
+- 一つのモデルで複数のAnswer Styleを扱うために，**Artificial Tokens** を導入
+  - Answerの先頭( $y\_1$ )にAnswer Styleに対応するトークンを導入する
+  - テスト時には，先頭のトークンを指定することで解答のスタイルをコントロールすることができるようになる
+  - モデルのアーキテクチャには影響しない
+
+$$
+\begin{align*}
+  y &= \left\lbrace y\_{\text{style}}, y\_1, \ldots, y\_T \right\rbrace \\\\
+  W^{\text{answer}} &= \lbrace w\_{\text{style}}^{\text{answer}}, w\_1^{\text{answer}}, \ldots, w\_T^{\text{answer}} \rbrace = \text{2L-Highway}(\text{GloVe+ELMo}(y)) & w\_t^{\text{answer}} &\in \mathbb{R}^{d\_{\text{word}} \times V}
+\end{align*}
+$$
+
+※ the ELMo is unidirectional
+
+{{< ci-details summary="Artificial Token $\rightarrow$ (Melvin Johnson et al., 2016)">}}
+Melvin Johnson, M. Schuster, Quoc V. Le, M. Krikun, Yonghui Wu, Z. Chen, Nikhil Thorat, F. Viégas, M. Wattenberg, G. Corrado, Macduff Hughes, J. Dean. (2016)  
+**Google’s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation**  
+TACL  
+[Paper Link](https://www.semanticscholar.org/paper/a486e2839291111bb44fa1f07731ada123539f75)  
+Influential Citation Count (162), SS-ID (a486e2839291111bb44fa1f07731ada123539f75)  
+**ABSTRACT**  
+We propose a simple solution to use a single Neural Machine Translation (NMT) model to translate between multiple languages. Our solution requires no changes to the model architecture from a standard NMT system but instead introduces an artificial token at the beginning of the input sentence to specify the required target language. Using a shared wordpiece vocabulary, our approach enables Multilingual NMT systems using a single model. On the WMT’14 benchmarks, a single multilingual model achieves comparable performance for English→French and surpasses state-of-theart results for English→German. Similarly, a single multilingual model surpasses state-of-the-art results for French→English and German→English on WMT’14 and WMT’15 benchmarks, respectively. On production corpora, multilingual models of up to twelve language pairs allow for better translation of many individual pairs. Our models can also learn to perform implicit bridging between language pairs never seen explicitly during training, showing that transfer learning and zero-shot translation is possible for neural translation. Finally, we show analyses that hints at a universal interlingua representation in our models and also show some interesting examples when mixing languages.
+{{< /ci-details >}}
+
+{{< ci-details summary="Artificial Token $\rightarrow$ (Shunsuke Takeno et al., 2017)">}}
+Shunsuke Takeno, M. Nagata, Kazuhide Yamamoto. (2017)  
+**Controlling Target Features in Neural Machine Translation via Prefix Constraints**  
+WAT@IJCNLP  
+[Paper Link](https://www.semanticscholar.org/paper/c034abc8ee67af5ffe717f8c52971dccd308ea2a)  
+Influential Citation Count (0), SS-ID (c034abc8ee67af5ffe717f8c52971dccd308ea2a)  
+**ABSTRACT**  
+We propose prefix constraints, a novel method to enforce constraints on target sentences in neural machine translation. It places a sequence of special tokens at the beginning of target sentence (target prefix), while side constraints places a special token at the end of source sentence (source suffix). Prefix constraints can be predicted from source sentence jointly with target sentence, while side constraints (Sennrich et al., 2016) must be provided by the user or predicted by some other methods. In both methods, special tokens are designed to encode arbitrary features on target-side or metatextual information. We show that prefix constraints are more flexible than side constraints and can be used to control the behavior of neural machine translation, in terms of output length, bidirectional decoding, domain adaptation, and unaligned target word generation.
+{{< /ci-details >}}
+
+#### Attention Decoder Layer
+
+$$
+\begin{align*}
+  M^{\text{answer}} &= \text{Normed-ResNet}(\text{Masked-Transformer-Encoder-Block}(W^{\text{answer}})) &\in \mathbb{R}^{d \times T'} \\\\
+  M^{\text{answer}+q} &= \text{Normed-ResNet}(\text{Transformer-Encoder-Block}(M^{\text{answer}}, M^q)) &\in \mathbb{R}^{d \times T'} \\\\
+  M^{\text{answer}+q+p\_{all}} &= \text{Normed-ResNet}(\text{Transformer-Encoder-Block}(M^{\text{answer}+q}, M^{p\_{all}})) &\in \mathbb{R}^{d \times T'} \\\\
+  S = \lbrace s\_1, \ldots, s\_{T'} \rbrace &= \text{Normed-ResNet}(\text{Feed-Forward}(M^{\text{answer}+q+p\_{all}})) &\in \mathbb{R}^{d \times T'} \\\\
+  & \text{where} \\\\
+  & T' = T+1 \hspace{10pt} \text{(answer style + answer)} \\\\
+  & M^{p\_{all}} = \left[M^{p\_1}, \ldots, M^{p\_K}\right] \in \mathbb{R}^{d \times KL} \\\\
+  & [, ] \mapsto \text{vector concatenation across the columns}
+\end{align*}
+$$
+
+#### Multi-source Pointer-Generator
+
+<figure>
+  <img src="multi-source-pointer-generator.png" width="100%"/>
+  <figcaption>Multi-source Pointer-Generator mechanism</figcaption>
+</figure>
+
+##### Extended vocabulary distribution
+- Question及びPassagesのVocabularyとCommon Wordsを合わせたVocabularyをExtended Vocaburary( $V\_{\text{ext}}$ )とする
+
+$$
+\begin{align*}
+  P^v(y\_t) &= \text{softmax}\left( {W^2}^\mathsf{T} \left(W^1 s\_t + b^1 \right) \right) \\\\
+  &\text{where} \\\\
+  & W^2 \in \mathbb{R}^{d\_{\text{word}} \times V\_{\text{ext}}} \\\\
+  & W^1 \in \mathbb{R}^{d\_{\text{word}} \times d} \\\\
+  & b^1 \in \mathbb{R}^{d\_{\text{word}}} \\\\
+  & P^v(y\_t) = 0 \hspace{10pt} \text{if }y\_t\text{ is an out-of-vocabulary word for } V
+\end{align*}
+$$
+
+{{< ci-details summary="Extended vocabulary $\rightarrow$ (Hakan Inan et al., 2016)">}}
+Hakan Inan, Khashayar Khosravi, R. Socher. (2016)  
+**Tying Word Vectors and Word Classifiers: A Loss Framework for Language Modeling**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/424aef7340ee618132cc3314669400e23ad910ba)  
+Influential Citation Count (34), SS-ID (424aef7340ee618132cc3314669400e23ad910ba)  
+**ABSTRACT**  
+Recurrent neural networks have been very successful at predicting sequences of words in tasks such as language modeling. However, all such models are based on the conventional classification framework, where the model is trained against one-hot targets, and each word is represented both as an input and as an output in isolation. This causes inefficiencies in learning both in terms of utilizing all of the information and in terms of the number of parameters needed to train. We introduce a novel theoretical framework that facilitates better learning in language modeling, and show that our framework leads to tying together the input embedding and the output projection matrices, greatly reducing the number of trainable variables. Our framework leads to state of the art performance on the Penn Treebank with a variety of network models.
+{{< /ci-details >}}
+
+##### Copy distribution
+
+###### Additional Attention Layer
+
+$$
+\begin{align*}
+  e\_l^{p\_k} &= {w^p}^\mathsf{T} \tanh \left(W^{pm} M\_l^{p\_k} + W^{ps} s\_t + b^p \right) \\\\
+  \alpha\_t^p &= \text{softmax}\left(\left[ e^{p\_1}; \ldots; e^{p\_K}\right]\right) &\in \mathbb{R}^{KL} \\\\
+  c\_t^p &= \sum\_l \alpha\_{tl}^p M\_l^{p\_{all}} &\in \mathbb{R}^d \\\\
+  & \text{where} \\\\
+  & w^p, b^p \in \mathbb{R}^d \hspace{10pt} \text{(learnable paramters)} \\\\
+  & W^{pm}, W^{ps} \in \mathbb{R}^{d \times d} \hspace{10pt} \text{(learnable paramters)}
+\end{align*}
+$$
+
+Question及びPassagesのそれぞれに対してCopy Distributions (over the extended vocabulary)を算出する
+
+$$
+\begin{align*}
+  P^q(y\_t) &= \sum\_{j:x\_j^q=y\_t} \alpha\_{tj}^q \\\\
+  P^p(y\_t) &= \sum\_{l:x\_l^{p\_{k(l)}}=y\_t} \alpha\_{tl}^p \\\\
+  & \text{where} \\\\
+  & k(l) \mapsto \text{the passage index corresponding to the }l\text{-th word in the concatenated passages}
+\end{align*}
+$$
+
+{{< ci-details summary="Transformer-based pointer-generator $\rightarrow$ (Sebastian Gehrmann et al., 2018)">}}
+Sebastian Gehrmann, Yuntian Deng, Alexander M. Rush. (2018)  
+**Bottom-Up Abstractive Summarization**  
+EMNLP  
+[Paper Link](https://www.semanticscholar.org/paper/7af89df3691d8c33aaf1858f7cc51da1bc9549a9)  
+Influential Citation Count (75), SS-ID (7af89df3691d8c33aaf1858f7cc51da1bc9549a9)  
+**ABSTRACT**  
+Neural summarization produces outputs that are fluent and readable, but which can be poor at content selection, for instance often copying full sentences from the source document. This work explores the use of data-efficient content selectors to over-determine phrases in a source document that should be part of the summary. We use this selector as a bottom-up attention step to constrain the model to likely phrases. We show that this approach improves the ability to compress text, while still generating fluent summaries. This two-step process is both simpler and higher performing than other end-to-end content selection models, leading to significant improvements on ROUGE for both the CNN-DM and NYT corpus. Furthermore, the content selector can be trained with as little as 1,000 sentences making it easy to transfer a trained summarizer to a new domain.
+{{< /ci-details >}}
+
+#### Final distribution
+
+$$
+\begin{align*}
+  P(y\_t) &= \lambda^v P^v(y\_t) + \lambda^q P^q(y\_t) + \lambda^p P^p(y\_t) \\\\
+  \lambda^v, \lambda^q, \lambda^p &= \text{softmax}\left( W^m\left[ s\_t; c\_t^q; c\_t^p \right] + b^m \right) \\\\
+  & \text{where} \\\\
+  & W^m \in \mathbb{R}^{3 \times 3d} \\\\
+  & b^m \in \mathbb{R}^3
+\end{align*}
+$$
+
+#### Combined Attention
+- 関連性のないPassageに含まれる単語が混入することを防ぐために，**Combined Attention** を導入する
+- Additional Attention Layerを下記の式で修正する
+
+$$
+\alpha\_{tl}^p = \frac{\alpha\_{tl}^p \beta^{p\_k(l)}}{\sum\_{l'} \alpha\_{tl'}^p \beta^{p\_k(l')}}
+$$
+
+### Loss Function
+
+$$
+\begin{align*}
+  L(\theta) &= L\_{\text{dec}} + \gamma\_{\text{rank}} L\_{\text{rank}} + \gamma\_{\text{cls}} L\_{\text{cls}} \\\\
+  L\_{\text{dec}} &= -\frac{1}{N\_{\text{able}}} \sum\_{(a,y) \in \mathcal{D}} \frac{a}{T} \sum\_t \log P(y\_t) \\\\
+  L\_{\text{rank}} &= -\frac{1}{NK}\sum\_k\sum\_{r^{p\_k} \in \mathcal{D}} \left( r^{p\_k} \log \beta^{p\_k} + (1 - r^{p\_k}) \log (1 - \beta^{p\_k}) \right) \\\\
+  L\_{\text{cls}} &= -\frac{1}{N}\sum\_{a \in \mathcal{D}} \left( a\log P(a) + (1 - a) \log (1 - P(a)) \right) \\\\
+  & \text{where} \\\\
+  & \gamma\_{\text{rank}}, \gamma\_{\text{cls}} \mapsto \text{balancing hyper-parameters} \\\\
+  & N\_{\text{able}} \mapsto \text{answerable examples} \\\\
+  & \mathcal{D} \mapsto \text{the training dataset}
+\end{align*}
+$$
 
 ### Training Settings
 
