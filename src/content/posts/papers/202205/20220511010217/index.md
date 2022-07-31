@@ -4,7 +4,7 @@ title: "Multi-Style Generative Reading Comprehension"
 date: 2022-05-11
 author: "akitenkrad"
 description: ""
-tags: ["At:Round-2", "Published:2020", "Question Answering", "Generative MRC", "DS:MSMARCO", "DS:NarrativeQA"]
+tags: ["At:Round-2", "Published:2020", "Question Answering", "Generative MRC", "DS:MS-MARCO", "DS:NarrativeQA"]
 menu:
   sidebar:
     name: 2022.05.11
