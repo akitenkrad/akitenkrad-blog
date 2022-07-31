@@ -4,7 +4,7 @@ title: "Markdown Syntax Guide"
 date: 2022-05-03
 author: "akitenkrad"
 description: Markdown rendering samples
-tags: ["markdown"]
+tags: ["Markdown Syntax"]
 menu:
   sidebar:
     name: Markdown Sample
