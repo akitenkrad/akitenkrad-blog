@@ -24,7 +24,11 @@ def new_post(title: str):
     text = open(Path(__file__).parent / "templates" / "post_template.txt").read()
     date = datetime.now()
     text = text.format(
-        TITLE=title, DATE=date.strftime("%Y-%m-%d"), NAME=datetime.now().strftime("%Y.%m.%d"), IDENTIFIER=datetime.now().strftime("%Y%m%d")
+        TITLE=title,
+        DATE=date.strftime("%Y-%m-%d"),
+        NAME=datetime.now().strftime("%Y.%m.%d"),
+        IDENTIFIER=datetime.now().strftime("%Y%m%d"),
+        PARENT=date.strftime("%Y%m"),
     )
     new_post_path = Path(f"src/content/posts/papers/{date.strftime('%Y%m')}/{datetime.now().strftime('%Y%m%d%H%M%S')}/index.md")
 

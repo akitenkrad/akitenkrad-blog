@@ -9,7 +9,7 @@ menu:
   sidebar:
     name: {NAME}
     identifier: {IDENTIFIER}
-    parent: papers
+    parent: {PARENT}
     weight: 10
 math: true
 ---
