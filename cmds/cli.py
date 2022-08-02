@@ -34,7 +34,7 @@ def new_post(title: str):
 
     if not new_post_path.parent.parent.exists():
         new_post_path.parent.parent.mkdir(parents=True)
-        with open(new_post_path.parent / "_index.md", mode="w", encoding="utf-8") as wf:
+        with open(new_post_path.parent.parent / "_index.md", mode="w", encoding="utf-8") as wf:
             wf.write(
                 f"""---
 title: {date.strftime("%Y.%m")}

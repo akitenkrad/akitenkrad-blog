@@ -44,6 +44,22 @@ Springer, Cham. pp.282–298. https://doi.org/10.1007/978-3-030-67658-2_17
 
 ## Dataset
 
+- <a href="https://tianchi.aliyun.com/competition/entrance/231719/introduction">CIKM 2019 EComm AI: User Behavior Diversities Prediction</a>
+- <a href="https://snap.stanford.edu/data/sx-mathoverflow.html">Math Overflow temporal network</a>
+- {{< ci-details summary="Higgs Twitter Dataset" >}}
+M. De Domenico, A. Lima, P. Mougel and M. Musolesi. The Anatomy of a Scientific Rumor. (Nature Open Access) Scientific Reports 3, 2980 (2013).
+
+> The Higgs dataset has been built after monitoring the spreading processes on Twitter before, during and after the announcement of the discovery of a new particle with the features of the elusive Higgs boson on 4th July 2012. The messages posted in Twitter about this discovery between 1st and 7th July 2012 are considered.
+{{< /ci-details>}}
+
+
+|Dataset| #nodes| #edges| #node-types| #edge-types| #time-steps|
+|---|---|---|---|---|---|
+|Twitter| 100000| 63410| 1| 3| 7|
+|Math-Overflow| 24818| 506550| 1| 3| 11|
+|EComm| 37724| 91033| 2| 4| 11|
+|Alibaba.com| 16620| 93956| 2| 3| 11|
+
 ## Model Description
 
 <figure>
@@ -99,9 +115,122 @@ $$
 \end{align*}
 $$
 
+### Temporal Attentive RNN for Evolutionary Patterns
+
+時系列の特徴を捉えるためにRNNを拡張してノード・エッジの追加と削除に対応する
+
+#### for LSTM
+
+$$
+\begin{align*}
+    \boldsymbol{i}^t &= \sigma \left( W\_i \cdot \left[ \boldsymbol{h}^t || \boldsymbol{s}^{t-1} + \boldsymbol{b}\_i \right]\right) \\\\
+    \boldsymbol{f}^t &= \sigma \left( W\_j \cdot \left[ \boldsymbol{h}^t || \boldsymbol{s}^{t-1} + \boldsymbol{b}\_f \right]\right) \\\\
+    \boldsymbol{o}^t &= \sigma \left( W\_o \cdot \left[ \boldsymbol{h}^t || \boldsymbol{s}^{t-1} + \boldsymbol{b}\_o \right]\right) \\\\
+    \tilde{\boldsymbol{c}^t} &= \text{tanh}\left( W\_c \cdot \left[ \boldsymbol{h}^t || \boldsymbol{s}^{t-1} + \boldsymbol{b}\_c \right]\right) \\\\
+    \boldsymbol{c}^t &= \boldsymbol{f}^t \odot \boldsymbol{c}^{t-1} + \boldsymbol{i}^t \odot \tilde{\boldsymbol{C}^t} \\\\
+    \boldsymbol{s}^t &= \boldsymbol{o}^t \odot \text{tanh}(\boldsymbol{c}^t) \\\\
+    & \text{where} \\\\
+    & t \in \lbrace 1, 2, \ldots, T \rbrace \\\\
+    & \boldsymbol{i}^t, \boldsymbol{f}^t, \boldsymbol{o}^t, \boldsymbol{c}^t \in \mathbb{R}^h \\\\
+    & W\_i, W\_f, W\_o, W\_c \in \mathbb{R}^{h \times 2d} \\\\
+    & \boldsymbol{b}\_i, \boldsymbol{b}\_f, \boldsymbol{b}\_o, \boldsymbol{b}\_c \in \mathbb{h}
+\end{align*}
+$$
+
+#### for GRU
+
+$$
+\begin{align*}
+    \boldsymbol{z}^t &= \sigma \left( W\_z \cdot \left[ \boldsymbol{h}^t || \boldsymbol{s}^{t-1} + \boldsymbol{b}\_z \right]\right) \\\\
+    \boldsymbol{r}^t &= \sigma \left( W\_r \cdot \left[ \boldsymbol{h}^t || \boldsymbol{s}^{t-1} + \boldsymbol{b}\_r \right]\right) \\\\
+    \tilde{\boldsymbol{s}^t} &= \text{tanh}\left( W\_s \cdot \left[ \boldsymbol{h}^t || \left( \boldsymbol{r}^t \odot \boldsymbol{s}^{t-1} \right)\right] + \boldsymbol{b}\_s \right) \\\\
+    \boldsymbol{s}^t &= \left( 1 - \boldsymbol{z}^t \right) \odot \boldsymbol{s}^{t-1} + \boldsymbol{z}^t \odot \tilde{\boldsymbol{s}^t} \\\\
+    & \text{where} \\\\
+    & t \in \lbrace 1, 2, \ldots, T \rbrace \\\\
+    & \boldsymbol{z}^t, \boldsymbol{r}^t \in \mathbb{R}^h \\\\
+    & W\_z, W\_r, W\_s \in \mathbb{R}^{h \times 2d} \\\\
+    & \boldsymbol{b}\_z, \boldsymbol{b}\_r, \boldsymbol{b}\_s \in \mathbb{h}
+\end{align*}
+$$
+
+### Temporal Self-Attention model
+
+RNNの出力は $\lbrace s\_1^t, s\_2^t, \ldots, s\_{|V^t|}^t | s\_i^t \in \mathbb{R}^h \rbrace$ のようになっており，既存手法ではこれらを結合したり最後の隠れ層を用いたりするものが多いが，それらの手法では情報の損失が発生する  
+そこで，**temporal-level self-attention** を用いてDynamic Graphの特徴を捉える
+
+$$
+\begin{align*}
+    S\_i &= \left[ s\_i^1; s\_i^2; \ldots; s\_i^T \right] &\in& \hspace{5pt} \mathbb{R}^{T \times h} \\\\
+    Z\_i &= \Gamma\_i \cdot V\_i = \text{softmax}\left( \frac{(S\_i W\_q)(S\_i W\_k)^\mathsf{T}}{\sqrt{h'}} + M \right) \cdot (S\_i W\_v) &\in& \hspace{5pt} \mathbb{R}^{T \times h'} \\\\
+    &\text{where} \\\\
+    & W\_q, W\_k, W\_v \in \mathbb{R}^{h \times h'} \\\\
+    & \Gamma\_i \in \mathbb{R}^{T \times T} \hspace{10pt} \text{(importance matrix)} \\\\
+    & M\_i \in \mathbb{R}^{T \times T} \hspace{10pt} \text{(mask matrix)} \\\\
+\end{align*}
+$$
+
+$M\_{u,v} = -\infty$ の場合には，スナップショット $u$ から $v$ へのAttentionがゼロであることを表し，$\Gamma\_i^{uv}=0$ となる  
+ここでは，スナップショットが $u \leqq v$ の場合には，$M\_{u,v} = 0$ とし，それ以外の場合には $M\_{u,v} = -\infty$ とする
+最終的に，ノード $i$ における $\kappa '$ ヘッドのEmbeddingは
+
+$$
+Z\_i = \text{Concat}(\hat{Z}\_i^1, \hat{Z}\_i^2, \ldots, \hat{Z}\_i^{\kappa '}) \in \mathbb{R}^{T \times h'\kappa'}
+$$
+
+となる  
+ただし，後続のタスクでは最後の $\boldsymbol{z}\_i^T$ のみを使用して学習を実行する
+
+### Objective Function
+
+損失関数はBinary Cross-Entropyをベースとして，最後のスナップショットにおけるノード $u$ が近傍のノードと似たEmbeddingを持つように定式化する
+
+$$
+\begin{align*}
+    L(\boldsymbol{z}\_u^T) &= \sum\_{v \in N^t(u)} -\log \left( \sigma (< \boldsymbol{z}\_u^T, \boldsymbol{z}\_v^T >)\right) - Q \cdot \mathbb{E}\_{v\_n \sim P\_n(v)} \log \left( \sigma (< -\boldsymbol{z}\_u^T, \boldsymbol{z}\_v^T >)\right) + \lambda \cdot L\_p \\\\
+    &\text{where} \\\\
+    & < \cdot > \mapsto \text{inner dot product operation} \\\\
+    & N^T(u) \mapsto \text{the neighbor with fixed-length random walk of node }u\text{ at the last }t\text{-th snapshot} \\\\
+    & P\_n(v) \mapsto \text{the negative sampling distribution} \\\\
+    & Q \mapsto \text{the number of negative samples} \\\\
+    & L\_p \mapsto \text{the penalty term such as }L\_2\text{ regularization}
+\end{align*}
+$$
+
+### Algorithm
+
+<figure>
+    <img src="algorithm.png" width="100%" />
+    <figcaption>the DyHATR algorithm</figcaption>
+</figure>
+
 ### Training Settings
 
 ## Results
+
+<figure>
+    <img src="results-1.png" width="100%" />
+    <figcaption>The experimental results on the task of dynamic link prediction</figcaption>
+</figure>
+
+<figure>
+    <img src="results-2.png" width="100%" />
+    <figcaption>The comparison results between hierarchical attention model(HAT) and metapath2vec(m2v)</figcaption>
+</figure>
+
+<figure>
+    <img src="results-3.png" width="100%" />
+    <figcaption>The comparison results of different components in DyHATR</figcaption>
+</figure>
+
+<figure>
+    <img src="results-4.png" width="100%" />
+    <figcaption>The results of DyHATR varying different parameters on Twitter and EComm datasets</figcaption>
+</figure>
+
+<figure>
+    <img src="results-5.png" width="100%" />
+    <figcaption>The results of DyHATR without and with attributes on EComm dataset</figcaption>
+</figure>
 
 ## References
 
