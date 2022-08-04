@@ -31,15 +31,47 @@ https://doi.org/10.18653/V1/2020.FINDINGS-EMNLP.139
 > We present CodeBERT, a bimodal pre-trained model for programming language (PL) and natural language (NL). CodeBERT learns general-purpose representations that support downstream NL-PL applications such as natural language code search, code documentation generation, etc. We develop CodeBERT with Transformer-based neural architecture, and train it with a hybrid objective function that incorporates the pre-training task of replaced token detection, which is to detect plausible alternatives sampled from generators. This enables us to utilize both “bimodal” data of NL-PL pairs and “unimodal” data, where the former provides input tokens for model training while the latter helps to learn better generators. We evaluate CodeBERT on two NL-PL applications by fine-tuning model parameters. Results show that CodeBERT achieves state-of-the-art performance on both natural language code search and code documentation generation. Furthermore, to investigate what type of knowledge is learned in CodeBERT, we construct a dataset for NL-PL probing, and evaluate in a zero-shot setting where parameters of pre-trained models are fixed. Results show that CodeBERT performs better than previous pre-trained models on NL-PL probing.
 
 ## Code
-{{< github url="https://github.com/microsoft/CodeBERT" />}}
+{{< github url="https://github.com/microsoft/CodeBERT" size="medium" >}}
 
 ## What's New
 
 - コード（PL/Programming Language）と自然言語(NL/Natural Language)の意味的な結びつきを学習するモデルを提案した
   - NL-PLのNatural Language Understandingに関わるタスク広く適用可能
 - マルチレイヤのTransformerをベースにモデルを設計
+  - モデルのアーキテクチャは **RoBERTa** (Liu et al., 2019)と完全に同一
+  - 損失関数を工夫した
+
+{{< ci-details summary="RoBERTa: A Robustly Optimized BERT Pretraining Approach (Yinhan Liu et al., 2019)">}}
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, M. Lewis, Luke Zettlemoyer, Veselin Stoyanov. (2019)  
+**RoBERTa: A Robustly Optimized BERT Pretraining Approach**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/077f8329a7b6fa3b7c877a57b81eb6c18b5f87de)  
+Influential Citation Count (2365), SS-ID (077f8329a7b6fa3b7c877a57b81eb6c18b5f87de)  
+**ABSTRACT**  
+Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.
+{{< /ci-details >}}
+
 
 ## Dataset
+
+- CodeSearch Dataset (Husain et al., 2019) &emsp; {{< github url="https://github.com/github/CodeSearchNet#data" size="small">}}
+
+|Training Data|bimodal Data|unimodal Codes|
+|---|---|---|
+|GO| 319,256 | 726,768 |
+|JAVA| 500,754 | 1,569,889 |
+|JAVASCRIPT| 143,252 | 1,857,835 |
+|PHP| 662,907 | 977,821 |
+|PYTHON| 458, 219 | 1,156,085 |
+|RUBY| 52,905 | 164,048 |
+|ALL| 2,137,293 | 6,452,446 |
+
+#### Example
+
+<figure>
+  <img src="data_sample.png" width="100%"/>
+  <figcaption>An example of the NL-PL pair</figcaption>
+</figure>
 
 ## Model Description
 
