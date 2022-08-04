@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2022.07 on Akitenkrad&#39;s Blog</title>
+    <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202207/</link>
+    <description>Recent content in 2022.07 on Akitenkrad&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202207/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Dynamic Heterogeneous Graph Embedding Using Hierarchical Attentions</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202207/20220727145036/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202207/20220727145036/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Network Embedding Survey</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202207/20220726163444/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202207/20220726163444/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

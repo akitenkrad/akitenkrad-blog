@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Survey on Akitenkrad&#39;s Blog</title>
+    <link>https://akitenkrad.github.io/blog-akitenkrad/tags/survey/</link>
+    <description>Recent content in Survey on Akitenkrad&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://akitenkrad.github.io/blog-akitenkrad/tags/survey/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Survey on graph embeddings and their applications to machine learning problems on graphs</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220509110738/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220509110738/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>A Primer in BERTology: What We Know About How BERT Works</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220506021208/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220506021208/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Latex Mathematics Syntax Guide</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/layouts/main.css"/>
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/plyr.css"/>
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/flag-icon.min.css"/>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
+
+
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/fontawesome/css/all.min.css"/>
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="https://akitenkrad.github.io/blog-akitenkrad/images/favicons/favicon-96x96_huf1ee13f0caf27d1547f91fb46207d708_13005_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Latex Mathematics Syntax Guide" />
+<meta property="og:description" content=" table tr td { border-top: none !important; border-bottom: none !important; } table { border: solid 2px #777777; } table tr td:nth-of-type(even), th:nth-of-type(even) { border-right: solid 2px #777777; }  等号    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     = $=$ \neq $\neq$ \sim $\sim$ \simeq $\simeq$   \approx $\approx$ \fallingdotseq $\fallingdotseq$ \risingdotseq $\risingdotseq$ \equiv $\equiv$    不等号    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     &gt; $&gt;$ &lt; $&lt;$ \geq $\geq$ \geqq $\geqq$   \leq $\leq$ \leqq $\leqq$ \gg $\gg$ \ll $\ll$    演算子    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     &#43; $&#43;$ - $-$ \times $\times$ \div $\div$   \pm $\pm$ \mp $\mp$ \oplus $\oplus$ \ominus $\ominus$   \oslash $\oslash$ \circ $\circ$ \cdot $\cdot$ \bullet $\bullet$   \ltimes $\ltimes$ \rtimes $\rtimes$        集合    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     \in $\in$ \ni $\ni$ \notin $\notin$ \subset $\subset$   \supset $\supset$ \subseteq $\subseteq$ \supseteq $\supseteq$ \nsubseteq $\nsubseteq$   \cap $\cap$ \cup $\cup$ \emptyset $\emptyset$ \infty $\infty$    括弧    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     () $()$ {}, \lbrace \rbrace $\lbrace \rbrace$ [], \lbrack \rbrack $\lbrack \rbrack$ \lanble \ranble $\langle \rangle$   ||, \lvert \rvert $\lvert \rvert$ \|\|, \lVert \rVert $\lVert \rVert$ \lfloor \rfloor $\lfloor \rfloor$ \lceil \rceil $\lceil \rceil $   \ulcorner \urcorner $\ulcorner \urcorner$ \llcorner \lrcorner $\llcorner \lrcorner$        修飾    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     A^T $A^T$ A^\mathrm{T} $A^\mathrm{T}$ A^\mathsf{T} $A^\mathsf{T}$ A^\intercal $A^\intercal$   A^\top $A^\top$         x^{\prime} $x^{\prime}$ x^{\backprime} $x^{\backprime}$ \hat{x} $\hat{x}$ \check{x} $\check{x}$   \grave{x} $\grave{x}$ \acute{x} $\acute{x}$ \breve{x} $\breve{x}$ \bar{x} $\bar{x}$   \tilde{x} $\tilde{x}$ \dot{x} $\dot{x}$ \ddot{x} $\ddot{x}$ \dddot{x} $\dddot{x}$   \vec{x} $\vec{x}$ \overrightarrow{x} $\overrightarrow{x}$ \widehat{x} $\widehat{x}$ \boldsymbol{x} $\boldsymbol{x}$   \overline{数式} $\overline{数式}$ \underline{数式} $\underline{数式}$ \overbrace{数式} $\overbrace{数式}$ \overbrace{数式}^{説明} $\overbrace{数式}^{説明}$   \underbrace{数式} $\underbrace{数式}$ \underbrace{数式}_{説明} $\underbrace{数式}_{説明}$        矢印    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     \leftarrow, \gets $\gets$ \rightarrow, \to $\to$ \longleftarrow $\longleftarrow$ \longrightarrow $\longrightarrow$   \Leftarrow $\Leftarrow$ \Rightarrow $\Rightarrow$ \Longleftarrow $\Longleftarrow$ \Longrightarrow $\Longrightarrow$   \leftrightarrow $\leftrightarrow$ \longleftrightarrow $\longleftrightarrow$ \Leftrightarrow $\Leftrightarrow$ \Longleftrightarrow, \iff $ \Longleftrightarrow$   \nearrow $\nearrow$ \swarrow $\swarrow$ \searrow $\searrow$ \nwarrow $\nwarrow$   \uparrow $\uparrow$ \downarrow $\downarrow$ \Uparrow $\Uparrow$ \Downarrow $\Downarrow$   \updownarrow $\updownarrow$ \Updownarrow $\Updownarrow$ \mapsto $\mapsto$ \longmapsto $\longmapsto$   \hookleftarrow $\hookleftarrow$ \hookrightarrow $\hookrightarrow$ \twoheadleftarrow $\twoheadleftarrow$ \twoheadrightarrow $\twoheadrightarrow$   \circlearrowleft $\circlearrowleft$ \circlearrowright $\circlearrowright$ \curvearrowleft $\curvearrowleft$ \curvearrowright $\curvearrowright$   \leftharpoonup $\leftharpoonup$ \rightharpoonup $\rightharpoonup$ \leftharpoondown $\leftharpoondown$ \rightharpoondown $\rightharpoondown$   \leftrightharpoons $\leftrightharpoons$ \rightleftharpoons $\rightleftharpoons$ \upharpoonleft $\upharpoonleft$ \upharpoonright $\upharpoonright$   \downharpoonleft $\downharpoonleft$ \downharpoonright $\downharpoonright$ \leftarrowtail $\leftarrowtail$ \rightarrowtail $\rightarrowtail$   \Lsh $\Lsh$ \Rsh $\Rsh$ \leftrightsquigarrow $\leftrightsquigarrow$ \rightsquigarrow $\rightsquigarrow$   \looparrowleft $\looparrowleft$ \looparrowright $\looparrowright$ \Lleftarrow $\Lleftarrow$ \Rrightarrow $\Rrightarrow$   \nleftarrow $\nleftarrow$ \nrightarrow $\nrightarrow$ \nLeftarrow $\nLeftarrow$ \nRightarrow $\nRightarrow$   \nleftrightarrow $\nleftrightarrow$ \nLeftrightarrow $\nLeftrightarrow$ \xleftarrow{a} $\xleftarrow{a}$ \xrightarrow{a} $\xrightarrow{a}$   \xleftarrow[b]{} $\xleftarrow[b]{}$ \xrightarrow[b]{} $\xrightarrow[b]{}$ \xleftarrow[b]{a} $\xleftarrow[b]{a}$ \xrightarrow[b]{a} $\xrightarrow[b]{a}$   \overset{\mathrm{def}}{\iff} $\overset{\mathrm{def}}{\iff}$          " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://akitenkrad.github.io/blog-akitenkrad/posts/latex/" />
+<meta property="article:published_time" content="2022-06-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-06-03T00:00:00+00:00" />
+
+
+    
+    
+<meta name="description" content="Latex Mathematics Syntax Guide" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/layouts/single.css"/>
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/style.css"/>
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script language="JavaScript">
+$(document).ready( function () {
+   $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+})
+</script>
+
+
+
+    
+
+
+
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'G-1MYYZQG0WE', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/blog-akitenkrad">
+      
+        <img src="/blog-akitenkrad/images/avatar_hu2673d53b0ac78c90b0a5a617874cdcc4_128349_42x0_resize_box_2.png" alt="Logo">
+      Akitenkrad&#39;s Blog</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/blog-akitenkrad#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/blog-akitenkrad#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/blog-akitenkrad#recent-posts">Recent Posts</a>
+                </li>
+              
+            
+          
+        
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="https://akitenkrad.github.io/blog-akitenkrad/posts">Posts</a>
+          </li>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="tag-link" href="https://akitenkrad.github.io/blog-akitenkrad/tags">Tags</a>
+          </li>
+        
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/blog-akitenkrad/images/avatar_hu2673d53b0ac78c90b0a5a617874cdcc4_128349_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/blog-akitenkrad/images/avatar_hu2673d53b0ac78c90b0a5a617874cdcc4_128349_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/blog-akitenkrad/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/blog-akitenkrad/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/blog-akitenkrad/posts/conference/">Conference</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/conference/acl/" title="Annual Meeting of the Association for Computational Linguistics">Annual Meeting of the Association for Computational Linguistics</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/blog-akitenkrad/posts/papers/">Papers</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/blog-akitenkrad/posts/papers/202205/">2022.05</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220503010000/" title="2022.05.03">2022.05.03</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220505222900/" title="2022.05.05">2022.05.05</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220506021208/" title="2022.05.06">2022.05.06</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220508162318/" title="2022.05.08">2022.05.08</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220509110738/" title="2022.05.09">2022.05.09</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220511010217/" title="2022.05.11">2022.05.11</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220514151839/" title="2022.05.14">2022.05.14</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220518224923/" title="2022.05.18">2022.05.18</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220520124748/" title="2022.05.20">2022.05.20</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220523223206/" title="2022.05.23">2022.05.23</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220525115521/" title="2022.05.25">2022.05.25</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220529131339/" title="2022.05.29">2022.05.29</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220530102936/" title="2022.05.30">2022.05.30</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/blog-akitenkrad/posts/papers/202206/">2022.06</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202206/20220602171700/" title="2022.06.02">2022.06.02</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202206/20220608085622/" title="2022.06.08">2022.06.08</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/blog-akitenkrad/posts/papers/202207/">2022.07</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202207/20220726163444/" title="2022.07.25">2022.07.25</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202207/20220727145036/" title="2022.07.27">2022.07.27</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/blog-akitenkrad/posts/papers/202208/">2022.08</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202208/20220802103319/" title="2022.08.02">2022.08.02</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/blog-akitenkrad/posts/latex/" title="Latex Mathematics Syntax Guide">Latex Mathematics Syntax Guide</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/markdown/" title="Markdown Sample">Markdown Sample</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/blog-akitenkrad/posts/latex/hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/blog-akitenkrad/images/avatar_hu2673d53b0ac78c90b0a5a617874cdcc4_128349_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name"></h5>
+          <p>Friday, Jun 3, 2022</p>
+        </div>
+
+        <div class="title">
+          <h1>Latex Mathematics Syntax Guide</h1>
+        </div>
+        
+        <div class="taxonomy-terms">
+            <ul>
+            
+            
+            <li class="rounded"><a href="/blog-akitenkrad/tags/latex" class="btn, btn-sm">Latex</a></li>
+            
+          </ul>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <style>
+    table tr td {
+        border-top: none !important;
+        border-bottom: none !important;
+    }
+    table {
+        border: solid 2px #777777;
+    }
+    table tr td:nth-of-type(even), th:nth-of-type(even) {
+        border-right: solid 2px #777777;
+    }
+</style>
+<h2 id="等号">等号</h2>
+<table>
+<thead>
+<tr>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>=</td>
+<td align="center">$=$</td>
+<td>\neq</td>
+<td align="center">$\neq$</td>
+<td>\sim</td>
+<td align="center">$\sim$</td>
+<td>\simeq</td>
+<td align="center">$\simeq$</td>
+</tr>
+<tr>
+<td>\approx</td>
+<td align="center">$\approx$</td>
+<td>\fallingdotseq</td>
+<td align="center">$\fallingdotseq$</td>
+<td>\risingdotseq</td>
+<td align="center">$\risingdotseq$</td>
+<td>\equiv</td>
+<td align="center">$\equiv$</td>
+</tr>
+</tbody>
+</table>
+<h2 id="不等号">不等号</h2>
+<table>
+<thead>
+<tr>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&gt;</td>
+<td align="center">$&gt;$</td>
+<td>&lt;</td>
+<td align="center">$&lt;$</td>
+<td>\geq</td>
+<td align="center">$\geq$</td>
+<td>\geqq</td>
+<td align="center">$\geqq$</td>
+</tr>
+<tr>
+<td>\leq</td>
+<td align="center">$\leq$</td>
+<td>\leqq</td>
+<td align="center">$\leqq$</td>
+<td>\gg</td>
+<td align="center">$\gg$</td>
+<td>\ll</td>
+<td align="center">$\ll$</td>
+</tr>
+</tbody>
+</table>
+<h2 id="演算子">演算子</h2>
+<table>
+<thead>
+<tr>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+</td>
+<td align="center">$+$</td>
+<td>-</td>
+<td align="center">$-$</td>
+<td>\times</td>
+<td align="center">$\times$</td>
+<td>\div</td>
+<td align="center">$\div$</td>
+</tr>
+<tr>
+<td>\pm</td>
+<td align="center">$\pm$</td>
+<td>\mp</td>
+<td align="center">$\mp$</td>
+<td>\oplus</td>
+<td align="center">$\oplus$</td>
+<td>\ominus</td>
+<td align="center">$\ominus$</td>
+</tr>
+<tr>
+<td>\oslash</td>
+<td align="center">$\oslash$</td>
+<td>\circ</td>
+<td align="center">$\circ$</td>
+<td>\cdot</td>
+<td align="center">$\cdot$</td>
+<td>\bullet</td>
+<td align="center">$\bullet$</td>
+</tr>
+<tr>
+<td>\ltimes</td>
+<td align="center">$\ltimes$</td>
+<td>\rtimes</td>
+<td align="center">$\rtimes$</td>
+<td></td>
+<td align="center"></td>
+<td></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="集合">集合</h2>
+<table>
+<thead>
+<tr>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>\in</td>
+<td align="center">$\in$</td>
+<td>\ni</td>
+<td align="center">$\ni$</td>
+<td>\notin</td>
+<td align="center">$\notin$</td>
+<td>\subset</td>
+<td align="center">$\subset$</td>
+</tr>
+<tr>
+<td>\supset</td>
+<td align="center">$\supset$</td>
+<td>\subseteq</td>
+<td align="center">$\subseteq$</td>
+<td>\supseteq</td>
+<td align="center">$\supseteq$</td>
+<td>\nsubseteq</td>
+<td align="center">$\nsubseteq$</td>
+</tr>
+<tr>
+<td>\cap</td>
+<td align="center">$\cap$</td>
+<td>\cup</td>
+<td align="center">$\cup$</td>
+<td>\emptyset</td>
+<td align="center">$\emptyset$</td>
+<td>\infty</td>
+<td align="center">$\infty$</td>
+</tr>
+</tbody>
+</table>
+<h2 id="括弧">括弧</h2>
+<table>
+<thead>
+<tr>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>()</td>
+<td align="center">$()$</td>
+<td>{}, \lbrace \rbrace</td>
+<td align="center">$\lbrace \rbrace$</td>
+<td>[], \lbrack \rbrack</td>
+<td align="center">$\lbrack \rbrack$</td>
+<td>\lanble \ranble</td>
+<td align="center">$\langle \rangle$</td>
+</tr>
+<tr>
+<td>||, \lvert \rvert</td>
+<td align="center">$\lvert \rvert$</td>
+<td>\|\|, \lVert \rVert</td>
+<td align="center">$\lVert \rVert$</td>
+<td>\lfloor \rfloor</td>
+<td align="center">$\lfloor \rfloor$</td>
+<td>\lceil \rceil</td>
+<td align="center">$\lceil \rceil $</td>
+</tr>
+<tr>
+<td>\ulcorner \urcorner</td>
+<td align="center">$\ulcorner \urcorner$</td>
+<td>\llcorner \lrcorner</td>
+<td align="center">$\llcorner \lrcorner$</td>
+<td></td>
+<td align="center"></td>
+<td></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="修飾">修飾</h2>
+<table>
+<thead>
+<tr>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A^T</td>
+<td align="center">$A^T$</td>
+<td>A^\mathrm{T}</td>
+<td align="center">$A^\mathrm{T}$</td>
+<td>A^\mathsf{T}</td>
+<td align="center">$A^\mathsf{T}$</td>
+<td>A^\intercal</td>
+<td align="center">$A^\intercal$</td>
+</tr>
+<tr>
+<td>A^\top</td>
+<td align="center">$A^\top$</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>x^{\prime}</td>
+<td align="center">$x^{\prime}$</td>
+<td>x^{\backprime}</td>
+<td align="center">$x^{\backprime}$</td>
+<td>\hat{x}</td>
+<td align="center">$\hat{x}$</td>
+<td>\check{x}</td>
+<td align="center">$\check{x}$</td>
+</tr>
+<tr>
+<td>\grave{x}</td>
+<td align="center">$\grave{x}$</td>
+<td>\acute{x}</td>
+<td align="center">$\acute{x}$</td>
+<td>\breve{x}</td>
+<td align="center">$\breve{x}$</td>
+<td>\bar{x}</td>
+<td align="center">$\bar{x}$</td>
+</tr>
+<tr>
+<td>\tilde{x}</td>
+<td align="center">$\tilde{x}$</td>
+<td>\dot{x}</td>
+<td align="center">$\dot{x}$</td>
+<td>\ddot{x}</td>
+<td align="center">$\ddot{x}$</td>
+<td>\dddot{x}</td>
+<td align="center">$\dddot{x}$</td>
+</tr>
+<tr>
+<td>\vec{x}</td>
+<td align="center">$\vec{x}$</td>
+<td>\overrightarrow{x}</td>
+<td align="center">$\overrightarrow{x}$</td>
+<td>\widehat{x}</td>
+<td align="center">$\widehat{x}$</td>
+<td>\boldsymbol{x}</td>
+<td align="center">$\boldsymbol{x}$</td>
+</tr>
+<tr>
+<td>\overline{数式}</td>
+<td align="center">$\overline{数式}$</td>
+<td>\underline{数式}</td>
+<td align="center">$\underline{数式}$</td>
+<td>\overbrace{数式}</td>
+<td align="center">$\overbrace{数式}$</td>
+<td>\overbrace{数式}^{説明}</td>
+<td align="center">$\overbrace{数式}^{説明}$</td>
+</tr>
+<tr>
+<td>\underbrace{数式}</td>
+<td align="center">$\underbrace{数式}$</td>
+<td>\underbrace{数式}_{説明}</td>
+<td align="center">$\underbrace{数式}_{説明}$</td>
+<td></td>
+<td align="center"></td>
+<td></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="矢印">矢印</h2>
+<table>
+<thead>
+<tr>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+<th>コマンド</th>
+<th align="center">出力</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>\leftarrow, \gets</td>
+<td align="center">$\gets$</td>
+<td>\rightarrow, \to</td>
+<td align="center">$\to$</td>
+<td>\longleftarrow</td>
+<td align="center">$\longleftarrow$</td>
+<td>\longrightarrow</td>
+<td align="center">$\longrightarrow$</td>
+</tr>
+<tr>
+<td>\Leftarrow</td>
+<td align="center">$\Leftarrow$</td>
+<td>\Rightarrow</td>
+<td align="center">$\Rightarrow$</td>
+<td>\Longleftarrow</td>
+<td align="center">$\Longleftarrow$</td>
+<td>\Longrightarrow</td>
+<td align="center">$\Longrightarrow$</td>
+</tr>
+<tr>
+<td>\leftrightarrow</td>
+<td align="center">$\leftrightarrow$</td>
+<td>\longleftrightarrow</td>
+<td align="center">$\longleftrightarrow$</td>
+<td>\Leftrightarrow</td>
+<td align="center">$\Leftrightarrow$</td>
+<td>\Longleftrightarrow, \iff</td>
+<td align="center">$ \Longleftrightarrow$</td>
+</tr>
+<tr>
+<td>\nearrow</td>
+<td align="center">$\nearrow$</td>
+<td>\swarrow</td>
+<td align="center">$\swarrow$</td>
+<td>\searrow</td>
+<td align="center">$\searrow$</td>
+<td>\nwarrow</td>
+<td align="center">$\nwarrow$</td>
+</tr>
+<tr>
+<td>\uparrow</td>
+<td align="center">$\uparrow$</td>
+<td>\downarrow</td>
+<td align="center">$\downarrow$</td>
+<td>\Uparrow</td>
+<td align="center">$\Uparrow$</td>
+<td>\Downarrow</td>
+<td align="center">$\Downarrow$</td>
+</tr>
+<tr>
+<td>\updownarrow</td>
+<td align="center">$\updownarrow$</td>
+<td>\Updownarrow</td>
+<td align="center">$\Updownarrow$</td>
+<td>\mapsto</td>
+<td align="center">$\mapsto$</td>
+<td>\longmapsto</td>
+<td align="center">$\longmapsto$</td>
+</tr>
+<tr>
+<td>\hookleftarrow</td>
+<td align="center">$\hookleftarrow$</td>
+<td>\hookrightarrow</td>
+<td align="center">$\hookrightarrow$</td>
+<td>\twoheadleftarrow</td>
+<td align="center">$\twoheadleftarrow$</td>
+<td>\twoheadrightarrow</td>
+<td align="center">$\twoheadrightarrow$</td>
+</tr>
+<tr>
+<td>\circlearrowleft</td>
+<td align="center">$\circlearrowleft$</td>
+<td>\circlearrowright</td>
+<td align="center">$\circlearrowright$</td>
+<td>\curvearrowleft</td>
+<td align="center">$\curvearrowleft$</td>
+<td>\curvearrowright</td>
+<td align="center">$\curvearrowright$</td>
+</tr>
+<tr>
+<td>\leftharpoonup</td>
+<td align="center">$\leftharpoonup$</td>
+<td>\rightharpoonup</td>
+<td align="center">$\rightharpoonup$</td>
+<td>\leftharpoondown</td>
+<td align="center">$\leftharpoondown$</td>
+<td>\rightharpoondown</td>
+<td align="center">$\rightharpoondown$</td>
+</tr>
+<tr>
+<td>\leftrightharpoons</td>
+<td align="center">$\leftrightharpoons$</td>
+<td>\rightleftharpoons</td>
+<td align="center">$\rightleftharpoons$</td>
+<td>\upharpoonleft</td>
+<td align="center">$\upharpoonleft$</td>
+<td>\upharpoonright</td>
+<td align="center">$\upharpoonright$</td>
+</tr>
+<tr>
+<td>\downharpoonleft</td>
+<td align="center">$\downharpoonleft$</td>
+<td>\downharpoonright</td>
+<td align="center">$\downharpoonright$</td>
+<td>\leftarrowtail</td>
+<td align="center">$\leftarrowtail$</td>
+<td>\rightarrowtail</td>
+<td align="center">$\rightarrowtail$</td>
+</tr>
+<tr>
+<td>\Lsh</td>
+<td align="center">$\Lsh$</td>
+<td>\Rsh</td>
+<td align="center">$\Rsh$</td>
+<td>\leftrightsquigarrow</td>
+<td align="center">$\leftrightsquigarrow$</td>
+<td>\rightsquigarrow</td>
+<td align="center">$\rightsquigarrow$</td>
+</tr>
+<tr>
+<td>\looparrowleft</td>
+<td align="center">$\looparrowleft$</td>
+<td>\looparrowright</td>
+<td align="center">$\looparrowright$</td>
+<td>\Lleftarrow</td>
+<td align="center">$\Lleftarrow$</td>
+<td>\Rrightarrow</td>
+<td align="center">$\Rrightarrow$</td>
+</tr>
+<tr>
+<td>\nleftarrow</td>
+<td align="center">$\nleftarrow$</td>
+<td>\nrightarrow</td>
+<td align="center">$\nrightarrow$</td>
+<td>\nLeftarrow</td>
+<td align="center">$\nLeftarrow$</td>
+<td>\nRightarrow</td>
+<td align="center">$\nRightarrow$</td>
+</tr>
+<tr>
+<td>\nleftrightarrow</td>
+<td align="center">$\nleftrightarrow$</td>
+<td>\nLeftrightarrow</td>
+<td align="center">$\nLeftrightarrow$</td>
+<td>\xleftarrow{a}</td>
+<td align="center">$\xleftarrow{a}$</td>
+<td>\xrightarrow{a}</td>
+<td align="center">$\xrightarrow{a}$</td>
+</tr>
+<tr>
+<td>\xleftarrow[b]{}</td>
+<td align="center">$\xleftarrow[b]{}$</td>
+<td>\xrightarrow[b]{}</td>
+<td align="center">$\xrightarrow[b]{}$</td>
+<td>\xleftarrow[b]{a}</td>
+<td align="center">$\xleftarrow[b]{a}$</td>
+<td>\xrightarrow[b]{a}</td>
+<td align="center">$\xrightarrow[b]{a}$</td>
+</tr>
+<tr>
+<td>\overset{\mathrm{def}}{\iff}</td>
+<td align="center">$\overset{\mathrm{def}}{\iff}$</td>
+<td></td>
+<td align="center"></td>
+<td></td>
+<td align="center"></td>
+<td></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
+          </div>
+
+        
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+    
+    
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/blog-akitenkrad/posts/papers/202208/20220802103319/" title="Modeling Dynamic Heterogeneous Network for Link Prediction using Hierarchical Attention with Temporal RNN" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+        <div class="next-prev-text">Modeling Dynamic Heterogeneous Network for Link Prediction using Hierarchical Attention with Temporal RNN</div>
+      </a>
+    </div>
+  
+  
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/blog-akitenkrad/posts/markdown/" title="Markdown Syntax Guide" class="btn btn-outline-info">
+          <div>Next <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">Markdown Syntax Guide</div>
+        </a>
+      </div>
+    
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#等号">等号</a></li>
+    <li><a href="#不等号">不等号</a></li>
+    <li><a href="#演算子">演算子</a></li>
+    <li><a href="#集合">集合</a></li>
+    <li><a href="#括弧">括弧</a></li>
+    <li><a href="#修飾">修飾</a></li>
+    <li><a href="#矢印">矢印</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://akitenkrad.github.io/blog-akitenkrad/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://akitenkrad.github.io/blog-akitenkrad/#recent-posts">Recent Posts</a>
+                </li>
+              
+            
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:contact.to.akitenkrad@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>contact.to.akitenkrad@gmail.com</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+            <img src="/blog-akitenkrad/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2020 Akitenkrad.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/blog-akitenkrad/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$']]
+        }
+      });
+      </script>
+  </footer>
+
+
+    <script type="text/javascript" src="https://akitenkrad.github.io/blog-akitenkrad/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="https://akitenkrad.github.io/blog-akitenkrad/js/popper.min.js"></script>
+<script type="text/javascript" src="https://akitenkrad.github.io/blog-akitenkrad/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="https://akitenkrad.github.io/blog-akitenkrad/js/navbar.js"></script>
+<script type="text/javascript" src="https://akitenkrad.github.io/blog-akitenkrad/js/plyr.js"></script>
+<script type="text/javascript" src="https://akitenkrad.github.io/blog-akitenkrad/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="https://akitenkrad.github.io/blog-akitenkrad/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+
+    <link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/katex/katex.min.css">
+<script type="text/javascript" defer src="https://akitenkrad.github.io/blog-akitenkrad/katex/katex.min.js"></script>
+<script type="text/javascript" defer src="https://akitenkrad.github.io/blog-akitenkrad/katex/auto-render.min.js" onload="renderMathInElement(document.body);">
+    renderMathInElement(
+        document.body,
+        {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "\\[", right: "\\]", display: true},
+                {left: "$", right: "$", display: false},
+                {left: "\\(", right: "\\)", display: false}
+            ]
+        }
+    );
+</script>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

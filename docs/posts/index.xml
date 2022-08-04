@@ -1,61 +1,362 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Post on Akitenkrad's Blog</title><link>https://akitenkrad.github.io/blog-akitenkrad/posts/</link><description>Recent content in Post on Akitenkrad's Blog</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://akitenkrad.github.io/blog-akitenkrad/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Dense Passage Retrieval for Open-Domain Question Answering</title><link>https://akitenkrad.github.io/blog-akitenkrad/posts/20220505222900/</link><pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/posts/20220505222900/</guid><description>Citation Karpukhin, V., Oğuz, B., Min, S., Lewis, P., Wu, L., Edunov, S., Chen, D., &amp;amp; Yih, W. (2020).
-Dense Passage Retrieval for Open-Domain Question Answering.
-https://doi.org/10.48550/arxiv.2004.04906
-Abstract Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method. In this work, we show that retrieval can be practically implemented using dense representations alone, where embeddings are learned from a small number of questions and passages by a simple dual-encoder framework.</description></item><item><title>Markdown Syntax Guide</title><link>https://akitenkrad.github.io/blog-akitenkrad/posts/introduction/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/posts/introduction/</guid><description>This is a sample post intended to test the followings:
-A different post author. Table of contents. Markdown content rendering. Math rendering. Emoji rendering. Markdown Syntax Rendering Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
-H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</description></item><item><title>DeBERTa: Decoding-Enhanced BERT with Disentangled Attention</title><link>https://akitenkrad.github.io/blog-akitenkrad/posts/20220503010000/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/posts/20220503010000/</guid><description>Citation He, P., Liu, X., Gao, J., &amp;amp; Chen, W. (2020).
-DeBERTa: Decoding-enhanced BERT with Disentangled Attention.
-https://doi.org/10.48550/arxiv.2006.03654
-Abstract Recent progress in pre-trained neural language models has significantly improved the performance of many natural language processing (NLP) tasks. In this paper we propose a new model architecture DeBERTa (Decoding-enhanced BERT with disentangled attention) that improves the BERT and RoBERTa models using two novel techniques. The first is the disentangled attention mechanism, where each word is represented using two vectors that encode its content and position, respectively, and the attention weights among words are computed using disentangled matrices on their contents and relative positions, respectively.</description></item><item><title>Search Results</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post on Akitenkrad&#39;s Blog</title>
+    <link>https://akitenkrad.github.io/blog-akitenkrad/posts/</link>
+    <description>Recent content in Post on Akitenkrad&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://akitenkrad.github.io/blog-akitenkrad/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Modeling Dynamic Heterogeneous Network for Link Prediction using Hierarchical Attention with Temporal RNN</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202208/20220802103319/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202208/20220802103319/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Heterogeneous Graph Embedding Using Hierarchical Attentions</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202207/20220727145036/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202207/20220727145036/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Network Embedding Survey</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202207/20220726163444/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202207/20220726163444/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>CodeBERT: A Pre-Trained Model for Programming and Natural Languages</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202206/20220608085622/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202206/20220608085622/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Latex Mathematics Syntax Guide</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/latex/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/latex/</guid>
+      <description> table tr td { border-top: none !important; border-bottom: none !important; } table { border: solid 2px #777777; } table tr td:nth-of-type(even), th:nth-of-type(even) { border-right: solid 2px #777777; }  等号    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     = $=$ \neq $\neq$ \sim $\sim$ \simeq $\simeq$   \approx $\approx$ \fallingdotseq $\fallingdotseq$ \risingdotseq $\risingdotseq$ \equiv $\equiv$    不等号    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     &amp;gt; $&amp;gt;$ &amp;lt; $&amp;lt;$ \geq $\geq$ \geqq $\geqq$   \leq $\leq$ \leqq $\leqq$ \gg $\gg$ \ll $\ll$    演算子    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     + $+$ - $-$ \times $\times$ \div $\div$   \pm $\pm$ \mp $\mp$ \oplus $\oplus$ \ominus $\ominus$   \oslash $\oslash$ \circ $\circ$ \cdot $\cdot$ \bullet $\bullet$   \ltimes $\ltimes$ \rtimes $\rtimes$        集合    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     \in $\in$ \ni $\ni$ \notin $\notin$ \subset $\subset$   \supset $\supset$ \subseteq $\subseteq$ \supseteq $\supseteq$ \nsubseteq $\nsubseteq$   \cap $\cap$ \cup $\cup$ \emptyset $\emptyset$ \infty $\infty$    括弧    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     () $()$ {}, \lbrace \rbrace $\lbrace \rbrace$ [], \lbrack \rbrack $\lbrack \rbrack$ \lanble \ranble $\langle \rangle$   ||, \lvert \rvert $\lvert \rvert$ \|\|, \lVert \rVert $\lVert \rVert$ \lfloor \rfloor $\lfloor \rfloor$ \lceil \rceil $\lceil \rceil $   \ulcorner \urcorner $\ulcorner \urcorner$ \llcorner \lrcorner $\llcorner \lrcorner$        修飾    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     A^T $A^T$ A^\mathrm{T} $A^\mathrm{T}$ A^\mathsf{T} $A^\mathsf{T}$ A^\intercal $A^\intercal$   A^\top $A^\top$         x^{\prime} $x^{\prime}$ x^{\backprime} $x^{\backprime}$ \hat{x} $\hat{x}$ \check{x} $\check{x}$   \grave{x} $\grave{x}$ \acute{x} $\acute{x}$ \breve{x} $\breve{x}$ \bar{x} $\bar{x}$   \tilde{x} $\tilde{x}$ \dot{x} $\dot{x}$ \ddot{x} $\ddot{x}$ \dddot{x} $\dddot{x}$   \vec{x} $\vec{x}$ \overrightarrow{x} $\overrightarrow{x}$ \widehat{x} $\widehat{x}$ \boldsymbol{x} $\boldsymbol{x}$   \overline{数式} $\overline{数式}$ \underline{数式} $\underline{数式}$ \overbrace{数式} $\overbrace{数式}$ \overbrace{数式}^{説明} $\overbrace{数式}^{説明}$   \underbrace{数式} $\underbrace{数式}$ \underbrace{数式}_{説明} $\underbrace{数式}_{説明}$        矢印    コマンド 出力 コマンド 出力 コマンド 出力 コマンド 出力     \leftarrow, \gets $\gets$ \rightarrow, \to $\to$ \longleftarrow $\longleftarrow$ \longrightarrow $\longrightarrow$   \Leftarrow $\Leftarrow$ \Rightarrow $\Rightarrow$ \Longleftarrow $\Longleftarrow$ \Longrightarrow $\Longrightarrow$   \leftrightarrow $\leftrightarrow$ \longleftrightarrow $\longleftrightarrow$ \Leftrightarrow $\Leftrightarrow$ \Longleftrightarrow, \iff $ \Longleftrightarrow$   \nearrow $\nearrow$ \swarrow $\swarrow$ \searrow $\searrow$ \nwarrow $\nwarrow$   \uparrow $\uparrow$ \downarrow $\downarrow$ \Uparrow $\Uparrow$ \Downarrow $\Downarrow$   \updownarrow $\updownarrow$ \Updownarrow $\Updownarrow$ \mapsto $\mapsto$ \longmapsto $\longmapsto$   \hookleftarrow $\hookleftarrow$ \hookrightarrow $\hookrightarrow$ \twoheadleftarrow $\twoheadleftarrow$ \twoheadrightarrow $\twoheadrightarrow$   \circlearrowleft $\circlearrowleft$ \circlearrowright $\circlearrowright$ \curvearrowleft $\curvearrowleft$ \curvearrowright $\curvearrowright$   \leftharpoonup $\leftharpoonup$ \rightharpoonup $\rightharpoonup$ \leftharpoondown $\leftharpoondown$ \rightharpoondown $\rightharpoondown$   \leftrightharpoons $\leftrightharpoons$ \rightleftharpoons $\rightleftharpoons$ \upharpoonleft $\upharpoonleft$ \upharpoonright $\upharpoonright$   \downharpoonleft $\downharpoonleft$ \downharpoonright $\downharpoonright$ \leftarrowtail $\leftarrowtail$ \rightarrowtail $\rightarrowtail$   \Lsh $\Lsh$ \Rsh $\Rsh$ \leftrightsquigarrow $\leftrightsquigarrow$ \rightsquigarrow $\rightsquigarrow$   \looparrowleft $\looparrowleft$ \looparrowright $\looparrowright$ \Lleftarrow $\Lleftarrow$ \Rrightarrow $\Rrightarrow$   \nleftarrow $\nleftarrow$ \nrightarrow $\nrightarrow$ \nLeftarrow $\nLeftarrow$ \nRightarrow $\nRightarrow$   \nleftrightarrow $\nleftrightarrow$ \nLeftrightarrow $\nLeftrightarrow$ \xleftarrow{a} $\xleftarrow{a}$ \xrightarrow{a} $\xrightarrow{a}$   \xleftarrow[b]{} $\xleftarrow[b]{}$ \xrightarrow[b]{} $\xrightarrow[b]{}$ \xleftarrow[b]{a} $\xleftarrow[b]{a}$ \xrightarrow[b]{a} $\xrightarrow[b]{a}$   \overset{\mathrm{def}}{\iff} $\overset{\mathrm{def}}{\iff}$          </description>
+    </item>
+    
+    <item>
+      <title>S-Net: From Answer Extraction to Answer Generation for Machine Reading Comprehension</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202206/20220602171700/</link>
+      <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202206/20220602171700/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Neural Machine Translation of Rare Words with Subword Units</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220530102936/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220530102936/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Attention Is All You Need</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220529131339/</link>
+      <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220529131339/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Improving Language Understanding by Generative Pre-Training</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220525115521/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220525115521/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation Abstract What&amp;rsquo;s New Dataset Model Description Training Settings Results References  div.details-citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } div.details-citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } div.</description>
+    </item>
+    
+    <item>
+      <title>RoBERTa: A Robustly Optimized BERT Pretraining Approach</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220523223206/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220523223206/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Semi-Supervised Classification with Graph Convolutional Networks</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220520124748/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220520124748/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>A Context-Aware Citation Recommendation Model with BERT and Graph Convolutional Networks</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220518224923/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220518224923/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>UnitedQA: A Hybrid Approach for Open Domain Question Answering</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220514151839/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220514151839/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Multi-Style Generative Reading Comprehension</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220511010217/</link>
+      <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220511010217/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Survey on graph embeddings and their applications to machine learning problems on graphs</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220509110738/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220509110738/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>A Deep Cascade Model for Multi-Document Reading Comprehension</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220508162318/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220508162318/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>A Primer in BERTology: What We Know About How BERT Works</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220506021208/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220506021208/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Dense Passage Retrieval for Open-Domain Question Answering</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220505222900/</link>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220505222900/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>DeBERTa: Decoding-Enhanced BERT with Disentangled Attention</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220503010000/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220503010000/</guid>
+      <description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;\f10d&#34;; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/posts/markdown/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/posts/markdown/</guid>
+      <description>This is a sample post intended to test the followings:
+ A different post author. Table of contents. Markdown content rendering. Math rendering. Emoji rendering.   Markdown Syntax Rendering Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
+H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</description>
+    </item>
+    
+    <item>
+      <title>অনুসন্ধানের ফলাফল</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Resultados de Búsqueda</title><link>https://akitenkrad.github.io/blog-akitenkrad/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid><description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Resultados de Búsqueda</title>
+      <link>https://akitenkrad.github.io/blog-akitenkrad/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://akitenkrad.github.io/blog-akitenkrad/search/</guid>
+      <description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
 No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
 Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
 Esta implementación utiliza Fusejs, jquery y mark.js
-Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description></item></channel></rss>
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description>
+    </item>
+    
+    
+  </channel>
+</rss>
