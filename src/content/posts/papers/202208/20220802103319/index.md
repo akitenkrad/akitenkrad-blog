@@ -4,7 +4,7 @@ title: "Modeling Dynamic Heterogeneous Network for Link Prediction using Hierarc
 date: 2022-08-02
 author: "akitenkrad"
 description: ""
-tags: ["At:Round-1", "Published:20XX"]
+tags: ["At:Round-2", "Published:2021", "Graph", "Graph Embedding"]
 menu:
   sidebar:
     name: 2022.08.02
@@ -15,7 +15,7 @@ math: true
 ---
 
 - [x] Round-1: Overview
-- [ ] Round-2: Model Implementation Details
+- [x] Round-2: Model Implementation Details
 - [ ] Round-3: Experiments
 
 ## Citation

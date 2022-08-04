@@ -160,7 +160,7 @@ function renderGithubButton() {
                 className: "btn",
                 href: t.href,
                 target: "_blank",
-                rel: "noopener",
+                rel: "noopener noferrer",
                 innerHTML: (i = t["data-icon"], l = /^large$/i.test(t["data-size"]) ? 16 : 14, i = ("" + i).toLowerCase().replace(/^octicon-/, ""), b(w, i) || (i = "mark-github"), '<svg viewBox="0 0 ' + w[i].width + " " + w[i].height + '" class="octicon octicon-' + i + '" style="width: ' + l * w[i].width / w[i].height + "px; height: " + l + 'px;" aria-hidden="true">' + w[i].path + "</svg>"),
                 "aria-label": t["aria-label"] || void 0
             }, [" ", r("span", {}, [t["data-text"] || ""])]),
@@ -189,7 +189,7 @@ function renderGithubButton() {
                             className: "social-count",
                             href: t.html_url + "/" + p,
                             target: "_blank",
-                            rel: "noopener",
+                            rel: "noopener noreferrer",
                             "aria-label": n + " " + x.replace(/_count$/, "").replace("_", " ").slice(0, n < 2 ? -1 : void 0) + " on GitHub"
                         }, [("" + n).replace(/\B(?=(\d{3})+(?!\d))/g, ",")]))
                     }

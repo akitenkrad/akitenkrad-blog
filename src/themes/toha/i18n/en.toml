@@ -124,3 +124,6 @@ other = "Liability Notice"
 
 [search]
 other = "Search"
+
+[filter]
+other = "Filter"

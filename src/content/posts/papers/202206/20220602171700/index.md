@@ -4,7 +4,7 @@ title: "S-Net: From Answer Extraction to Answer Generation for Machine Reading C
 date: 2022-06-02
 author: "akitenkrad"
 description: ""
-tags: ["At:Round-2", "Published:2018", "DS:MS-MARCO", "Quetion Answering", "Generative MRC"]
+tags: ["At:Round-2", "Published:2018", "DS:MS-MARCO", "Question Answering", "Generative MRC"]
 menu:
   sidebar:
     name: 2022.06.02

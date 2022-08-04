@@ -48,7 +48,7 @@ Neurocomputing, 472, 212–223. https://doi.org/10.1016/J.NEUCOM.2021.03.138
 |Method| Methodology| Data Mode | Node/Edge Addition| Node/Edge Deletion| Learning Techniques|
 |---|---|---|---|---|---|
 |DANE| S-first| discrete| both| both| Matrix Factorization|
-|DHPE S-first| discrete| both| both| Matrix Factorization|
+|DHPE | S-first| discrete| both| both| Matrix Factorization|
 |Know-Evolve| T-first| continuous| both| -| Deep Learning|
 |STGCN| S-first| discrete| -| -| Deep Learning|
 |DNE| S-first| discrete| both| both| Skip-gram|
@@ -62,7 +62,7 @@ Neurocomputing, 472, 212–223. https://doi.org/10.1016/J.NEUCOM.2021.03.138
 |Netwalk| S-first| continuous| edge| edge| Deep Learning|
 |DynamicTriad| Others| discrete| both| -| Others|
 |HTNE| S-first| continous| edge| -| Skip-gram|
-|JODIE| T-first| continuous| edge| Deep Learning|
+|JODIE| T-first| continuous| edge| -| Deep Learning|
 |EvolveGCN| S-first| discrete| both| -| Deep Learning|
 |BurstGraph| S-first| discrete| both| -| Deep Learning|
 |AddGraph| S-first| discrete| edge| -| Deep Learning|
