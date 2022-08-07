@@ -31,7 +31,7 @@ https://doi.org/10.18653/V1/2020.FINDINGS-EMNLP.139
 > We present CodeBERT, a bimodal pre-trained model for programming language (PL) and natural language (NL). CodeBERT learns general-purpose representations that support downstream NL-PL applications such as natural language code search, code documentation generation, etc. We develop CodeBERT with Transformer-based neural architecture, and train it with a hybrid objective function that incorporates the pre-training task of replaced token detection, which is to detect plausible alternatives sampled from generators. This enables us to utilize both “bimodal” data of NL-PL pairs and “unimodal” data, where the former provides input tokens for model training while the latter helps to learn better generators. We evaluate CodeBERT on two NL-PL applications by fine-tuning model parameters. Results show that CodeBERT achieves state-of-the-art performance on both natural language code search and code documentation generation. Furthermore, to investigate what type of knowledge is learned in CodeBERT, we construct a dataset for NL-PL probing, and evaluate in a zero-shot setting where parameters of pre-trained models are fixed. Results show that CodeBERT performs better than previous pre-trained models on NL-PL probing.
 
 ## Code
-{{< github url="https://github.com/microsoft/CodeBERT" size="medium" >}}
+{{< github url="https://github.com/microsoft/CodeBERT" size="small" >}}
 
 ## What's New
 
@@ -74,6 +74,85 @@ Language model pretraining has led to significant performance gains but careful 
 </figure>
 
 ## Model Description
+
+モデルのアーキテクチャは **RoBERTa** (Liu et al., 2019)と完全に同一．
+
+### Pre-Training CodeBERT
+
+#### Masked Language Modeling (MLM)
+
+NL-PLのペア( $x=\lbrace \boldsymbol{w}, \boldsymbol{c} \rbrace$ )を入力として，NLとPLのトークン列それぞれに対してランダムにマスクするトークンを選択し，マスク $\boldsymbol{m}^{\boldsymbol{w}}, \boldsymbol{m}^{\boldsymbol{c}}$ を生成する．  
+マスクされた単語はマスクトークン(`[MASK]`)に置き換えられる．  
+Devlin et al. (2018) に従って $15%$ のトークンをマスクトークンに置き換える．
+
+$$
+\begin{align*}
+  m\_i^w &\sim \text{unif} \lbrace 1, |\boldsymbol{w}| \rbrace & \hspace{10pt} & (i=1, \ldots, |\boldsymbol{w}|) \\\\
+  m\_i^c &\sim \text{unif} \lbrace 1, |\boldsymbol{c}| \rbrace & \hspace{10pt} & (i=1, \ldots, |\boldsymbol{c}|) \\\\
+  \boldsymbol{w}^{\text{masked}} &= \text{REPLACE}(\boldsymbol{w}, \boldsymbol{m}^{\boldsymbol{w}}, \text{[MASK]}) \\\\
+  \boldsymbol{c}^{\text{masked}} &= \text{REPLACE}(\boldsymbol{c}, \boldsymbol{m}^{\boldsymbol{c}}, \text{[MASK]}) \\\\
+  \boldsymbol{x} &= \boldsymbol{w} + \boldsymbol{c}
+\end{align*}
+$$
+
+上記の前提のもとで，以下の損失関数を最小化する
+
+$$
+\mathcal{L}\_{\text{MLM}}(\theta) = \sum\_{i \in \boldsymbol{m}^{\boldsymbol{w}} \cup \boldsymbol{m}^{\boldsymbol{c}}} -\log p^{D\_1} \left( x\_i | \boldsymbol{w}^{\text{masked}}, \boldsymbol{c}^{\text{masked}}\right)
+$$
+
+$p^{D\_1}$ は語彙からトークンを予測するDiscriminator．
+
+{{< ci-details summary="BERT (Devlin, J. et al., 2019)">}}
+Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019).  
+**BERT: Pre-training of deep bidirectional transformers for language understanding**  
+NAACL HLT 2019 - 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies - Proceedings of the Conference, 1, 4171–4186.  
+[Paper Link](https://aclanthology.org/N19-1423/)  
+**ABSTRACT**  
+> We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).
+{{< /ci-details >}}
+
+#### Replaced Token Detection (RTD)
+Clark et al. (2020)によって提案された事前学習手法．マスク対象のトークンに対して，生成器が生成するトークンでオリジナルのトークンを置き換え，文章を構成する各トークンがオリジナルかどうかを二値分類させる．
+
+$$
+\begin{align*}
+  \hat{w\_i} &\sim p^{G\_w} \left( w\_i | \boldsymbol{w}^{\text{masked}}\right) & \hspace{10pt} & (i \in \boldsymbol{m}^{\boldsymbol{w}}) \\\\
+  \hat{c\_i} &\sim p^{G\_c} \left( c\_i | \boldsymbol{c}^{\text{masked}}\right) & \hspace{10pt} & (i \in \boldsymbol{m}^{\boldsymbol{c}}) \\\\
+  \boldsymbol{w}^{\text{corrupt}} &= \text{REPLACE} (\boldsymbol{w}, \boldsymbol{m}^{\boldsymbol{w}}, \hat{\boldsymbol{w}}) \\\\
+  \boldsymbol{c}^{\text{corrupt}} &= \text{REPLACE} (\boldsymbol{c}, \boldsymbol{m}^{\boldsymbol{c}}, \hat{\boldsymbol{c}}) \\\\
+  \boldsymbol{x}^{\text{corrupt}} &= \boldsymbol{w}^{\text{corrupt}} + \boldsymbol{c}^{\text{corrupt}}
+\end{align*}
+$$
+
+{{< ci-details summary="ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators (Kevin Clark et al., 2020)">}}
+Kevin Clark, Minh-Thang Luong, Quoc V. Le, Christopher D. Manning. (2020)  
+**ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/756810258e3419af76aff38c895c20343b0602d0)  
+Influential Citation Count (332), SS-ID (756810258e3419af76aff38c895c20343b0602d0)  
+**ABSTRACT**  
+While masked language modeling (MLM) pre-training methods such as BERT produce excellent results on downstream NLP tasks, they require large amounts of compute to be effective. These approaches corrupt the input by replacing some tokens with [MASK] and then train a model to reconstruct the original tokens. As an alternative, we propose a more sample-efficient pre-training task called replaced token detection. Instead of masking the input, our approach corrupts it by replacing some input tokens with plausible alternatives sampled from a small generator network. Then, instead of training a model that predicts the original identities of the corrupted tokens, we train a discriminative model that predicts whether each token in the corrupted input was replaced by a generator sample or not. Thorough experiments demonstrate this new pre-training task is more efficient than MLM because the model learns from all input tokens rather than just the small subset that was masked out. As a result, the contextual representations learned by our approach substantially outperform the ones learned by methods such as BERT and XLNet given the same model size, data, and compute. The gains are particularly strong for small models; for example, we train a model on one GPU for 4 days that outperforms GPT (trained using 30x more compute) on the GLUE natural language understanding benchmark. Our approach also works well at scale, where we match the performance of RoBERTa, the current state-of-the-art pre-trained transformer, while using less than 1/4 of the compute.
+{{< /ci-details >}}
+
+損失関数は以下．
+
+$$
+\begin{align*}
+  \mathcal{L}\_{\text{RTD}}(\theta) &= \sum\_{i=1}^{|\boldsymbol{w}| + |\boldsymbol{c}|} \left( \delta (i) \log p^{D\_2} \left( \boldsymbol{x}^{\text{corrupt}}, i \right) | \left( 1 - \delta (i) \right) \left( 1 - \log p^{D\_2} \left( \boldsymbol{x}^{\text{corrupt}}, i \right) \right) \right) \\\\
+  &\text{where} \\\\
+  & \delta (i) = \left\lbrace \begin{array} \\\\
+  1, \hspace{10pt} \text{if } x\_i^\text{corrupt} = x\_i \\\\
+  0, \hspace{10pt} \text{otherwise}
+  \end{array}\right.
+\end{align*}
+$$
+
+#### Final Loss Function
+
+$$
+\min\_\theta \mathcal{L}\_\text{MLM} (\theta) + \mathcal{L}\_\text{RTD} (\theta)
+$$
 
 ### Training Settings
 
@@ -199,16 +278,15 @@ We introduce a new type of deep contextualized word representation that models b
 
 {{< /ci-details >}}
 
-{{< ci-details summary="5分で分かる!? 有名論文ナナメ読み：Jacob Devlin et al. : BERT : Pre-training of Deep Bidirectional Transformers for Language Understanding (知秀 柴田, 2020)">}}
+{{< ci-details summary="BERT: Pre-training of deep bidirectional transformers for language understanding (Devlin, J. et al., 2019)">}}
 
-知秀 柴田. (2020)  
-**5分で分かる!? 有名論文ナナメ読み：Jacob Devlin et al. : BERT : Pre-training of Deep Bidirectional Transformers for Language Understanding**  
-  
-[Paper Link](https://www.semanticscholar.org/paper/43f2ad297941db230c089ba353efc3f281ab678c)  
-Influential Citation Count (266), SS-ID (43f2ad297941db230c089ba353efc3f281ab678c)  
+Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019).  
+**BERT: Pre-training of deep bidirectional transformers for language understanding**  
+NAACL HLT 2019 - 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies - Proceedings of the Conference, 1, 4171–4186.  
+[Paper Link](https://aclanthology.org/N19-1423/)  
 
 **ABSTRACT**  
-
+> We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).
 
 {{< /ci-details >}}
 
