@@ -47,34 +47,308 @@ Neurocomputing, 472, 212–223. https://doi.org/10.1016/J.NEUCOM.2021.03.138
 
 |Method| Methodology| Data Mode | Node/Edge Addition| Node/Edge Deletion| Learning Techniques|
 |---|---|---|---|---|---|
-|DANE| S-first| discrete| both| both| Matrix Factorization|
-|DHPE | S-first| discrete| both| both| Matrix Factorization|
-|Know-Evolve| T-first| continuous| both| -| Deep Learning|
-|STGCN| S-first| discrete| -| -| Deep Learning|
-|DNE| S-first| discrete| both| both| Skip-gram|
-|DynGEM| S-first| discrete| both| both| Deep Learning|
-|DepthLGP| Others| discrete| both| -| Others|
-|DGNN| T-first| discrete| both| -| Deep Learning|
-|dynnode2vec| S-first| discrete| both| both| Skip-gram|
-|Continuous-Time Dynamic Networks| S-first| continuous| edge| -| Skip-gram|
-|DySAT| S-first| discrete| edge| edge| Deep Learning|
-|DyRep| T-first| continuous| both| -| Deep Learning|
-|Netwalk| S-first| continuous| edge| edge| Deep Learning|
-|DynamicTriad| Others| discrete| both| -| Others|
-|HTNE| S-first| continous| edge| -| Skip-gram|
-|JODIE| T-first| continuous| edge| -| Deep Learning|
-|EvolveGCN| S-first| discrete| both| -| Deep Learning|
-|BurstGraph| S-first| discrete| both| -| Deep Learning|
-|AddGraph| S-first| discrete| edge| -| Deep Learning|
-|dyngraph2vec| S-first| discrete| edge| edge| Deep Learning|
-|TGAT| Others| discrete| both| -| Deep Learning|
-|DyHAN| S-first| discrete| both| both| Deep Learning|
-|DyHATR| T-first| discrete| both| both| Deep Learning|
-|THIGE| T-first| continuous| edge| edge| Deep Learning|
-|MMDNE| Others| continuous| both| -| Deep Learning|
+|[DANE](#dane) | S-first| discrete| both| both| Matrix Factorization|
+|[DHPE](#dhpe) | S-first| discrete| both| both| Matrix Factorization|
+|[Know-Evolve](#know-evolve) | T-first| continuous| both| -| Deep Learning|
+|[STGCN](#stgcn) | S-first| discrete| -| -| Deep Learning|
+|[DNE](#dne) | S-first| discrete| both| both| Skip-gram|
+|[DynGEM](#dyngem) | S-first| discrete| both| both| Deep Learning|
+|[DepthLGP](#depthlgp) | Others| discrete| both| -| Others|
+|[DGNN](#dgnn) | T-first| discrete| both| -| Deep Learning|
+|[dynnode2vec](#dynnode2vec) | S-first| discrete| both| both| Skip-gram|
+|[Continuous-Time Dynamic Networks](#continuous-time-dynamic-networks) | S-first| continuous| edge| -| Skip-gram|
+|[DySAT](#dysat) | S-first| discrete| edge| edge| Deep Learning|
+|[DyRep](#dyrep) | T-first| continuous| both| -| Deep Learning|
+|[Netwalk](#netwalk) | S-first| continuous| edge| edge| Deep Learning|
+|[DynamicTriad](#dynamictriad) | Others| discrete| both| -| Others|
+|[HTNE](#htne) | S-first| continous| edge| -| Skip-gram|
+|[JODIE](#jodie) | T-first| continuous| edge| -| Deep Learning|
+|[EvolveGCN](#evolvegcn) | S-first| discrete| both| -| Deep Learning|
+|[BurstGraph](#burstgraph) | S-first| discrete| both| -| Deep Learning|
+|[AddGraph](#addgraph) | S-first| discrete| edge| -| Deep Learning|
+|[dyngraph2vec](#dyngraph2vec) | S-first| discrete| edge| edge| Deep Learning|
+|[TGAT](#tgat) | Others| discrete| both| -| Deep Learning|
+|[DyHAN](#dyhan) | S-first| discrete| both| both| Deep Learning|
+|[DyHATR](#dyhatr) | T-first| discrete| both| both| Deep Learning|
+|[THIGE](#thige) | T-first| continuous| edge| edge| Deep Learning|
+|[$M^2DNE$](#m2dne) | Others| continuous| both| -| Deep Learning|
+
+## Methods
+
+#### DANE
+{{< ci-details summary="Attributed Network Embedding for Learning in a Dynamic Environment (Jundong Li et al., 2017)">}}
+Jundong Li, Harsh Dani, Xia Hu, Jiliang Tang, Yi Chang, Huan Liu. (2017)  
+**Attributed Network Embedding for Learning in a Dynamic Environment**  
+CIKM  
+[Paper Link](https://www.semanticscholar.org/paper/736e8deabcae7e2f9eb6c41a1bfae1b5270a8dbd)  
+Influential Citation Count (20), SS-ID (736e8deabcae7e2f9eb6c41a1bfae1b5270a8dbd)  
+**ABSTRACT**  
+Network embedding leverages the node proximity manifested to learn a low-dimensional node vector representation for each node in the network. The learned embeddings could advance various learning tasks such as node classification, network clustering, and link prediction. Most, if not all, of the existing works, are overwhelmingly performed in the context of plain and static networks. Nonetheless, in reality, network structure often evolves over time with addition/deletion of links and nodes. Also, a vast majority of real-world networks are associated with a rich set of node attributes, and their attribute values are also naturally changing, with the emerging of new content patterns and the fading of old content patterns. These changing characteristics motivate us to seek an effective embedding representation to capture network and attribute evolving patterns, which is of fundamental importance for learning in a dynamic environment. To our best knowledge, we are the first to tackle this problem with the following two challenges: (1) the inherently correlated network and node attributes could be noisy and incomplete, it necessitates a robust consensus representation to capture their individual properties and correlations; (2) the embedding learning needs to be performed in an online fashion to adapt to the changes accordingly. In this paper, we tackle this problem by proposing a novel dynamic attributed network embedding framework - DANE. In particular, DANE first provides an offline method for a consensus embedding and then leverages matrix perturbation theory to maintain the freshness of the end embedding results in an online manner. We perform extensive experiments on both synthetic and real attributed networks to corroborate the effectiveness and efficiency of the proposed framework.
+{{< /ci-details >}}
+
+#### DHPE
+{{< ci-details summary="High-Order Proximity Preserved Embedding for Dynamic Networks (Dingyuan Zhu et al., 2018)">}}
+Dingyuan Zhu, Peng Cui, Ziwei Zhang, J. Pei, Wenwu Zhu. (2018)  
+**High-Order Proximity Preserved Embedding for Dynamic Networks**  
+IEEE Transactions on Knowledge and Data Engineering  
+[Paper Link](https://www.semanticscholar.org/paper/a830dc13918f078f8e85d15995f678db5f4f7483)  
+Influential Citation Count (2), SS-ID (a830dc13918f078f8e85d15995f678db5f4f7483)  
+**ABSTRACT**  
+Network embedding, aiming to embed a network into a low dimensional vector space while preserving the inherent structural properties of the network, has attracted considerable attention. However, most existing embedding methods focus on the static network while neglecting the evolving characteristic of real-world networks. Meanwhile, most of previous methods cannot well preserve the high-order proximity, which is a critical structural property of networks. These problems motivate us to seek an effective and efficient way to preserve the high-order proximity in embedding vectors when the networks evolve over time. In this paper, we propose a novel method of Dynamic High-order Proximity preserved Embedding (DHPE). Specifically, we adopt the generalized SVD (GSVD) to preserve the high-order proximity. Then, by transforming the GSVD problem to a generalized eigenvalue problem, we propose a generalized eigen perturbation to incrementally update the results of GSVD to incorporate the changes of dynamic networks. Further, we propose an accelerated solution to the DHPE model so that it achieves a linear time complexity with respect to the number of nodes and number of changed edges in the network. Our empirical experiments on one synthetic network and several real-world networks demonstrate the effectiveness and efficiency of the proposed method.
+{{< /ci-details >}}
+
+#### Know-Evolve
+{{< ci-details summary="Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs (Rakshit Trivedi et al., 2017)">}}
+Rakshit Trivedi, Hanjun Dai, Yichen Wang, Le Song. (2016)  
+**Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs**  
+arXiv preprint  
+[Paper Link](https://arxiv.org/abs/1705.05742)  
+**ABSTRACT**  
+The availability of large scale event data with time stamps has given rise to dynamically evolving knowledge graphs that contain temporal information for each edge. Reasoning over time in such dynamic knowledge graphs is not yet well understood. To this end, we present Know-Evolve, a novel deep evolutionary knowledge network that learns non-linearly evolving entity representations over time. The occurrence of a fact (edge) is modeled as a multivariate point process whose intensity function is modulated by the score for that fact computed based on the learned entity embeddings. We demonstrate significantly improved performance over various relational learning approaches on two large scale real-world datasets. Further, our method effectively predicts occurrence or recurrence time of a fact which is novel compared to prior reasoning approaches in multi-relational setting.
+{{< /ci-details >}}
+
+#### STGCN
+{{< ci-details summary="Spatio-temporal Multi-Graph Convolution Network for Ride-Hailing Demand Forecasting (Xu Geng et al., 2019)">}}
+Xu Geng, Yaguang Li, Leye Wang, Lingyu Zhang, Qiang Yang, Jieping Ye, Yan Liu. (2019)  
+**Spatio-temporal Multi-Graph Convolution Network for Ride-Hailing Demand Forecasting**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/0f8332fb651bf639ab110c65067ef2225f49eea5)  
+Influential Citation Count (37), SS-ID (0f8332fb651bf639ab110c65067ef2225f49eea5)  
+**ABSTRACT**  
+Region-level demand forecasting is an essential task in ridehailing services. Accurate ride-hailing demand forecasting can guide vehicle dispatching, improve vehicle utilization, reduce the wait-time, and mitigate traffic congestion. This task is challenging due to the complicated spatiotemporal dependencies among regions. Existing approaches mainly focus on modeling the Euclidean correlations among spatially adjacent regions while we observe that non-Euclidean pair-wise correlations among possibly distant regions are also critical for accurate forecasting. In this paper, we propose the spatiotemporal multi-graph convolution network (ST-MGCN), a novel deep learning model for ride-hailing demand forecasting. We first encode the non-Euclidean pair-wise correlations among regions into multiple graphs and then explicitly model these correlations using multi-graph convolution. To utilize the global contextual information in modeling the temporal correlation, we further propose contextual gated recurrent neural network which augments recurrent neural network with a contextual-aware gating mechanism to re-weights different historical observations. We evaluate the proposed model on two real-world large scale ride-hailing demand datasets and observe consistent improvement of more than 10% over stateof-the-art baselines.
+{{< /ci-details >}}
+
+#### DNE
+{{< ci-details summary="Dynamic Network Embedding : An Extended Approach for Skip-gram based Network Embedding (Lun Du et al., 2018)">}}
+Lun Du, Yun Wang, Guojie Song, Zhicong Lu, Junshan Wang. (2018)  
+**Dynamic Network Embedding : An Extended Approach for Skip-gram based Network Embedding**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/707defa78c0e5529c17fda92ce7b33f0b6674612)  
+Influential Citation Count (10), SS-ID (707defa78c0e5529c17fda92ce7b33f0b6674612)  
+**ABSTRACT**  
+Network embedding, as an approach to learn low-dimensional representations of vertices, has been proved extremely useful in many applications. Lots of state-of-the-art network embedding methods based on Skip-gram framework are efficient and effective. However, these methods mainly focus on the static network embedding and cannot naturally generalize to the dynamic environment. In this paper, we propose a stable dynamic embedding framework with high efficiency. It is an extension for the Skip-gram based network embedding methods, which can keep the optimality of the objective in the Skip-gram based methods in theory. Our model can not only generalize to the new vertex representation, but also update the most affected original vertex representations during the evolvement of the network. Multi-class classification on three real-world networks demonstrates that, our model can update the vertex representations efficiently and achieve the performance of retraining simultaneously. Besides, the visualization experimental result illustrates that, our model is capable of avoiding the embedding space drifting.
+{{< /ci-details >}}
+
+#### DynGEM
+{{< ci-details summary="DynGEM: Deep Embedding Method for Dynamic Graphs (Palash Goyal et al., 2018)">}}
+Palash Goyal, Nitin Kamra, Xinran He, Yan Liu. (2018)  
+**DynGEM: Deep Embedding Method for Dynamic Graphs**  
+arXiv preprint  
+[Paper Link](https://arxiv.org/abs/1805.11273)  
+**ABSTRACT**  
+Embedding large graphs in low dimensional spaces has recently attracted significant interest due to its wide applications such as graph visualization, link prediction and node classification. Existing methods focus on computing the embedding for static graphs. However, many graphs in practical applications are dynamic and evolve constantly over time. Naively applying existing embedding algorithms to each snapshot of dynamic graphs independently usually leads to unsatisfactory performance in terms of stability, flexibility and efficiency. In this work, we present an efficient algorithm DynGEM based on recent advances in deep autoencoders for graph embeddings, to address this problem. The major advantages of DynGEM include: (1) the embedding is stable over time, (2) it can handle growing dynamic graphs, and (3) it has better running time than using static embedding methods on each snapshot of a dynamic graph. We test DynGEM on a variety of tasks including graph visualization, graph reconstruction, link prediction and anomaly detection (on both synthetic and real datasets). Experimental results demonstrate the superior stability and scalability of our approach.
+{{< /ci-details >}}
+
+#### DepthLGP
+{{< ci-details summary="DepthLGP: Learning Embeddings of Out-of-Sample Nodes in Dynamic Networks (Jianxin Ma et al., 2018)">}}
+Jianxin Ma, Peng Cui, Wenwu Zhu. (2018)  
+**DepthLGP: Learning Embeddings of Out-of-Sample Nodes in Dynamic Networks**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/9499b38866b1eb87ae43fa5be02f9d08cd3c20a8)  
+Influential Citation Count (2), SS-ID (9499b38866b1eb87ae43fa5be02f9d08cd3c20a8)  
+**ABSTRACT**  
+Network embedding algorithms to date are primarily designed for static networks, where all nodes are known before learning. How to infer embeddings for out-of-sample nodes, i.e. nodes that arrive after learning, remains an open problem. The problem poses great challenges to existing methods, since the inferred embeddings should preserve intricate network properties such as high-order proximity, share similar characteristics (i.e. be of a homogeneous space) with in-sample node embeddings, and be of low computational cost. To overcome these challenges, we propose a Deeply Transformed High-order Laplacian Gaussian Process (DepthLGP) method to infer embeddings for out-of-sample nodes. DepthLGP combines the strength of nonparametric probabilistic modeling and deep learning. In particular, we design a high-order Laplacian Gaussian process (hLGP) to encode network properties, which permits fast and scalable inference. In order to further ensure homogeneity, we then employ a deep neural network to learn a nonlinear transformation from latent states of the hLGP to node embeddings. DepthLGP is general, in that it is applicable to embeddings learned by any network embedding algorithms. We theoretically prove the expressive power of DepthLGP, and conduct extensive experiments on real-world networks. Empirical results demonstrate that our approach can achieve significant performance gain over existing approaches.   
+{{< /ci-details >}}
+
+#### DGNN
+{{< ci-details summary="Streaming Graph Neural Networks (Yao Ma et al., 2020)">}}
+Yao Ma, Ziyi Guo, Zhaocun Ren, Jiliang Tang, and Dawei Yin. (2020)  
+**Streaming Graph Neural Networks**  
+Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '20)  
+[Paper Link](https://doi.org/10.1145/3397271.3401092)  
+**ABSTRACT**  
+Graphs are used to model pairwise relations between entities in many real-world scenarios such as social networks. Graph Neural Networks(GNNs) have shown their superior ability in learning representations for graph structured data, which leads to performance improvements in many graph related tasks such as link prediction, node classification and graph classification. Most of the existing graph neural networks models are designed for static graphs while many real-world graphs are inherently dynamic with new nodes and edges constantly emerging. Existing graph neural network models cannot utilize the dynamic information, which has been shown to enhance the performance of many graph analytic tasks such as community detection. Hence, in this paper, we propose DyGNN, a Dynamic Graph Neural Network model, which can model the dynamic information as the graph evolving. In particular, the proposed framework keeps updating node information by capturing the sequential information of edges (interactions), the time intervals between edges and information propagation coherently. Experimental results on various dynamic graphs demonstrate the effectiveness of the proposed framework.
+{{< /ci-details >}}
+
+#### dynnode2vec
+{{< ci-details summary="dynnode2vec: Scalable Dynamic Network Embedding (Sedigheh Mahdavi et al., 2018)">}}
+Sedigheh Mahdavi, Shima Khoshraftar, Aijun An. (2018)  
+**dynnode2vec: Scalable Dynamic Network Embedding**  
+2018 IEEE International Conference on Big Data (Big Data)  
+[Paper Link](https://www.semanticscholar.org/paper/454a69d2b93049c794247e1e4dc2e4b590172dae)  
+Influential Citation Count (2), SS-ID (454a69d2b93049c794247e1e4dc2e4b590172dae)  
+**ABSTRACT**  
+Network representation learning in low dimensional vector space has attracted considerable attention in both academic and industrial domains. Most real-world networks are dynamic with addition/deletion of nodes and edges. The existing graph embedding methods are designed for static networks and they cannot capture evolving patterns in a large dynamic network. In this paper, we propose a dynamic embedding method, dynnode2vec, based on the well-known graph embedding method node2vec. Node2vec is a random walk based embedding method for static networks. Applying static network embedding in dynamic settings has two crucial problems: 1) Generating random walks for every time step is time consuming 2) Embedding vector spaces in each timestamp are different. In order to tackle these challenges, dynnode2vec uses evolving random walks and initializes the current graph embedding with previous embedding vectors. We demonstrate the advantages of the proposed dynamic network embedding by conducting empirical evaluations on several large dynamic network datasets.
+{{< /ci-details >}}
+
+#### Continuous-Time Dynamic Networks
+{{< ci-details summary="Continuous-Time Dynamic Network Embeddings (G. Nguyen et al., 2018)">}}
+G. Nguyen, J. B. Lee, Ryan A. Rossi, Nesreen Ahmed, Eunyee Koh, Sungchul Kim. (2018)  
+**Continuous-Time Dynamic Network Embeddings**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/0ebc58242d10e14633bdad72b74b31c3d4ed9bdd)  
+Influential Citation Count (52), SS-ID (0ebc58242d10e14633bdad72b74b31c3d4ed9bdd)  
+**ABSTRACT**  
+Networks evolve continuously over time with the addition, deletion, and changing of links and nodes. Although many networks contain this type of temporal information, the majority of research in network representation learning has focused on static snapshots of the graph and has largely ignored the temporal dynamics of the network. In this work, we describe a general framework for incorporating temporal information into network embedding methods. The framework gives rise to methods for learning time-respecting embeddings from continuous-time dynamic networks. Overall, the experiments demonstrate the effectiveness of the proposed framework and dynamic network embedding approach as it achieves an average gain of 11.9% across all methods and graphs. The results indicate that modeling temporal dependencies in graphs is important for learning appropriate and meaningful network representations.
+{{< /ci-details >}}
+
+#### DySAT
+{{< ci-details summary="Dynamic Graph Representation Learning via Self-Attention Networks (Aravind Sankar et al., 2018)">}}
+Aravind Sankar, Yanhong Wu, Liang Gou, Wei Zhang, Hao Yang. (2018)  
+**Dynamic Graph Representation Learning via Self-Attention Networks**  
+ArXiv  
+[Paper Link](https://www.semanticscholar.org/paper/50a1a28d216ebf719ca1103593d5afe1e29e3ee1)  
+Influential Citation Count (7), SS-ID (50a1a28d216ebf719ca1103593d5afe1e29e3ee1)  
+**ABSTRACT**  
+Learning latent representations of nodes in graphs is an important and ubiquitous task with widespread applications such as link prediction, node classification, and graph visualization. Previous methods on graph representation learning mainly focus on static graphs, however, many real-world graphs are dynamic and evolve over time. In this paper, we present Dynamic Self-Attention Network (DySAT), a novel neural architecture that operates on dynamic graphs and learns node representations that capture both structural properties and temporal evolutionary patterns. Specifically, DySAT computes node representations by jointly employing self-attention layers along two dimensions: structural neighborhood and temporal dynamics. We conduct link prediction experiments on two classes of graphs: communication networks and bipartite rating networks. Our experimental results show that DySAT has a significant performance gain over several different state-of-the-art graph embedding baselines.
+{{< /ci-details >}}
+
+#### DyRep
+{{< ci-details summary="Representation Learning over Dynamic Graphs (Rakshit Trivedi et al., 2018)">}}
+Rakshit Trivedi, Mehrdad Farajtabar, Prasenjeet Biswal, Hongyuan Zha. (2018)  
+**Representation Learning over Dynamic Graphs**  
+arXiv preprint
+[Paper Link](https://arxiv.org/abs/1803.04051)  
+**ABSTRACT**  
+How can we effectively encode evolving information over dynamic graphs into low-dimensional representations? In this paper, we propose DyRep, an inductive deep representation learning framework that learns a set of functions to efficiently produce low-dimensional node embeddings that evolves over time. The learned embeddings drive the dynamics of two key processes namely, communication and association between nodes in dynamic graphs. These processes exhibit complex nonlinear dynamics that evolve at different time scales and subsequently contribute to the update of node embeddings. We employ a time-scale dependent multivariate point process model to capture these dynamics. We devise an efficient unsupervised learning procedure and demonstrate that our approach significantly outperforms representative baselines on two real-world datasets for the problem of dynamic link prediction and event time prediction.
+{{< /ci-details >}}
+
+#### Netwalk
+{{< ci-details summary="NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks (Wenchao Yu et al., 2018)">}}
+Wenchao Yu, Wei Cheng, C. Aggarwal, Kai Zhang, Haifeng Chen, Wei Wang. (2018)  
+**NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/68f6fe021bd8efd8baf648138a8fe2182858e7cb)  
+Influential Citation Count (13), SS-ID (68f6fe021bd8efd8baf648138a8fe2182858e7cb)  
+**ABSTRACT**  
+Massive and dynamic networks arise in many practical applications such as social media, security and public health. Given an evolutionary network, it is crucial to detect structural anomalies, such as vertices and edges whose "behaviors'' deviate from underlying majority of the network, in a real-time fashion. Recently, network embedding has proven a powerful tool in learning the low-dimensional representations of vertices in networks that can capture and preserve the network structure. However, most existing network embedding approaches are designed for static networks, and thus may not be perfectly suited for a dynamic environment in which the network representation has to be constantly updated. In this paper, we propose a novel approach, NetWalk, for anomaly detection in dynamic networks by learning network representations which can be updated dynamically as the network evolves. We first encode the vertices of the dynamic network to vector representations by clique embedding, which jointly minimizes the pairwise distance of vertex representations of each walk derived from the dynamic networks, and the deep autoencoder reconstruction error serving as a global regularization. The vector representations can be computed with constant space requirements using reservoir sampling. On the basis of the learned low-dimensional vertex representations, a clustering-based technique is employed to incrementally and dynamically detect network anomalies. Compared with existing approaches, NetWalk has several advantages: 1) the network embedding can be updated dynamically, 2) streaming network nodes and edges can be encoded efficiently with constant memory space usage, 3). flexible to be applied on different types of networks, and 4) network anomalies can be detected in real-time. Extensive experiments on four real datasets demonstrate the effectiveness of NetWalk.
+{{< /ci-details >}}
+
+#### DynamicTriad
+{{< ci-details summary="Dynamic Network Embedding by Modeling Triadic Closure Process (Le-kui Zhou et al., 2018)">}}
+Le-kui Zhou, Yang Yang, Xiang Ren, Fei Wu, Yueting Zhuang. (2018)  
+**Dynamic Network Embedding by Modeling Triadic Closure Process**  
+AAAI  
+[Paper Link](https://www.semanticscholar.org/paper/7bfb46c47c25e46a5f7b168133f4e926ab44725b)  
+Influential Citation Count (43), SS-ID (7bfb46c47c25e46a5f7b168133f4e926ab44725b)  
+**ABSTRACT**  
+Network embedding, which aims to learn the low-dimensional representations of vertices, is an important task and has attracted considerable research efforts recently. In real world, networks, like social network and biological networks, are dynamic and evolving over time. However, almost all the existing network embedding methods focus on static networks while ignore network dynamics. In this paper, we present a novel representation learning approach, DynamicTriad, to preserve both structural information and evolution patterns of a given network. The general idea of our approach is to impose triad, which is a group of three vertices and is one of the basic units of networks. In particular, we model how a closed triad, which consists of three vertices connected with each other, develops from an open triad that has two of three vertices not connected with each other. This triadic closure process is a fundamental mechanism in the formation and evolution of networks, thereby makes our model being able to capture the network dynamics and to learn representation vectors for each vertex at different time steps. Experimental results on three real-world networks demonstrate that, compared with several state-of-the-art techniques, DynamicTriad achieves substantial gains in several application scenarios. For example, our approach can effectively be applied and help to identify telephone frauds in a mobile network, and to predict whether a user will repay her loans or not in a loan network.   
+{{< /ci-details >}}
+
+#### HTNE
+{{< ci-details summary="Embedding Temporal Network via Neighborhood Formation (Y. Zuo et al., 2018)">}}
+Y. Zuo, Guannan Liu, Hao Lin, Jia Guo, Xiaoqian Hu, J. Wu. (2018)  
+**Embedding Temporal Network via Neighborhood Formation**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/3fbe522c63b973a83f88c6aac68bc1385e90ed5b)  
+Influential Citation Count (24), SS-ID (3fbe522c63b973a83f88c6aac68bc1385e90ed5b)  
+**ABSTRACT**  
+Given the rich real-life applications of network mining as well as the surge of representation learning in recent years, network embedding has become the focal point of increasing research interests in both academic and industrial domains. Nevertheless, the complete temporal formation process of networks characterized by sequential interactive events between nodes has yet seldom been modeled in the existing studies, which calls for further research on the so-called temporal network embedding problem. In light of this, in this paper, we introduce the concept of neighborhood formation sequence to describe the evolution of a node, where temporal excitation effects exist between neighbors in the sequence, and thus we propose a Hawkes process based Temporal Network Embedding (HTNE) method. HTNE well integrates the Hawkes process into network embedding so as to capture the influence of historical neighbors on the current neighbors. In particular, the interactions of low-dimensional vectors are fed into the Hawkes process as base rate and temporal influence, respectively. In addition, attention mechanism is also integrated into HTNE to better determine the influence of historical neighbors on current neighbors of a node. Experiments on three large-scale real-life networks demonstrate that the embeddings learned from the proposed HTNE model achieve better performance than state-of-the-art methods in various tasks including node classification, link prediction, and embedding visualization. In particular, temporal recommendation based on arrival rate inferred from node embeddings shows excellent predictive power of the proposed model.
+{{< /ci-details >}}
+
+#### JODIE
+{{< ci-details summary="Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks (Srijan Kumar et al., 2019)">}}
+Srijan Kumar, Xikun Zhang, J. Leskovec. (2019)  
+**Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/d584d87b5a4c51c4ec231c692421dd17dd1e64be)  
+Influential Citation Count (46), SS-ID (d584d87b5a4c51c4ec231c692421dd17dd1e64be)  
+**ABSTRACT**  
+Modeling sequential interactions between users and items/products is crucial in domains such as e-commerce, social networking, and education. Representation learning presents an attractive opportunity to model the dynamic evolution of users and items, where each user/item can be embedded in a Euclidean space and its evolution can be modeled by an embedding trajectory in this space. However, existing dynamic embedding methods generate embeddings only when users take actions and do not explicitly model the future trajectory of the user/item in the embedding space. Here we propose JODIE, a coupled recurrent neural network model that learns the embedding trajectories of users and items. JODIE employs two recurrent neural networks to update the embedding of a user and an item at every interaction. Crucially, JODIE also models the future embedding trajectory of a user/item. To this end, it introduces a novel projection operator that learns to estimate the embedding of the user at any time in the future. These estimated embeddings are then used to predict future user-item interactions. To make the method scalable, we develop a t-Batch algorithm that creates time-consistent batches and leads to 9x faster training. We conduct six experiments to validate JODIE on two prediction tasks---future interaction prediction and state change prediction---using four real-world datasets. We show that JODIE outperforms six state-of-the-art algorithms in these tasks by at least 20% in predicting future interactions and 12% in state change prediction.
+{{< /ci-details >}}
+
+#### EvolveGCN
+{{< ci-details summary="EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs (Aldo Pareja et al., 2019)">}}
+Aldo Pareja, Giacomo Domeniconi, Jie Chen, Tengfei Ma, Toyotaro Suzumura, Hiroki Kanezashi, Tim Kaler, Tao B. Schardl, Charles E. Leiserson. (2019)  
+**Aldo Pareja, Giacomo Domeniconi, Jie Chen, Tengfei Ma, Toyotaro Suzumura, Hiroki Kanezashi, Tim Kaler, Tao B. Schardl, Charles E. Leiserson**  
+arXiv preprint
+[Paper Link](https://arxiv.org/abs/1902.10191)  
+**ABSTRACT**  
+Graph representation learning resurges as a trending research subject owing to the widespread use of deep learning for Euclidean data, which inspire various creative designs of neural networks in the non-Euclidean domain, particularly graphs. With the success of these graph neural networks (GNN) in the static setting, we approach further practical scenarios where the graph dynamically evolves. Existing approaches typically resort to node embeddings and use a recurrent neural network (RNN, broadly speaking) to regulate the embeddings and learn the temporal dynamics. These methods require the knowledge of a node in the full time span (including both training and testing) and are less applicable to the frequent change of the node set. In some extreme scenarios, the node sets at different time steps may completely differ. To resolve this challenge, we propose EvolveGCN, which adapts the graph convolutional network (GCN) model along the temporal dimension without resorting to node embeddings. The proposed approach captures the dynamism of the graph sequence through using an RNN to evolve the GCN parameters. Two architectures are considered for the parameter evolution. We evaluate the proposed approach on tasks including link prediction, edge classification, and node classification. The experimental results indicate a generally higher performance of EvolveGCN compared with related approaches. The code is available at \url{this https URL}.
+{{< /ci-details >}}
+
+#### BurstGraph
+{{< ci-details summary="Large Scale Evolving Graphs with Burst Detection (Yifeng Zhao et al., 2019)">}}
+Yifeng Zhao, Xiangwei Wang, Hongxia Yang, Le Song, Jie Tang. (2019)  
+**Large Scale Evolving Graphs with Burst Detection**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/a974e4a7e590d1e6abe0eaf5933e483802fd5666)  
+Influential Citation Count (1), SS-ID (a974e4a7e590d1e6abe0eaf5933e483802fd5666)  
+**ABSTRACT**  
+Analyzing large-scale evolving graphs are crucial for understanding the dynamic and evolutionary nature of social networks. Most existing works focus on discovering repeated and consistent temporal patterns, however, such patterns cannot fully explain the complexity observed in dynamic networks. For example, in recommendation scenarios, users sometimes purchase products on a whim during a window shopping.Thus, in this paper, we design and implement a novel framework called BurstGraph which can capture both recurrent and consistent patterns, and especially unexpected bursty network changes. The performance of the proposed algorithm is demonstrated on both a simulated dataset and a world-leading E-Commerce company dataset, showing that they are able to discriminate recurrent events from extremely bursty events in terms of action propensity.
+{{< /ci-details >}}
+
+#### AddGraph
+{{< ci-details summary="AddGraph: Anomaly Detection in Dynamic Graph Using Attention-based Temporal GCN (Li Zheng et al., 2019)">}}
+Li Zheng, Zhenpeng Li, Jian Li, Zhao Li, Jun Gao. (2019)  
+**AddGraph: Anomaly Detection in Dynamic Graph Using Attention-based Temporal GCN**  
+IJCAI  
+[Paper Link](https://www.semanticscholar.org/paper/a86efed0b0ae3a08460d1dd4b8a02f09659daccb)  
+Influential Citation Count (5), SS-ID (a86efed0b0ae3a08460d1dd4b8a02f09659daccb)  
+**ABSTRACT**  
+Anomaly detection in dynamic graphs becomes very critical in many different application scenarios, e.g., recommender systems, while it also raises huge challenges due to the high flexible nature of anomaly and lack of sufficient labelled data. It is better to learn the anomaly patterns by considering all possible features including the structural, content and temporal features, rather than utilizing heuristic rules over the partial features. In this paper, we propose AddGraph, a general end-to-end anomalous edge detection framework using an extended temporal GCN (Graph Convolutional Network) with an attention model, which can capture both long-term patterns and the short-term patterns in dynamic graphs. In order to cope with insufficient explicit labelled data, we employ the negative sampling and margin loss in training of AddGraph in a semi-supervised fashion. We conduct extensive experiments on real-world datasets, and illustrate that AddGraph can outperform the state-of-the-art competitors in anomaly detection significantly.
+{{< /ci-details >}}
+
+#### dyngraph2vec
+{{< ci-details summary="dyngraph2vec: Capturing Network Dynamics using Dynamic Graph Representation Learning (Palash Goyal et al., 2018)">}}
+Palash Goyal, Sujit Rokka Chhetri, A. Canedo. (2018)  
+**dyngraph2vec: Capturing Network Dynamics using Dynamic Graph Representation Learning**  
+Knowl. Based Syst.  
+[Paper Link](https://www.semanticscholar.org/paper/f6e59062382fdec9b95c3abef1c27efc3b2ec1c7)  
+Influential Citation Count (26), SS-ID (f6e59062382fdec9b95c3abef1c27efc3b2ec1c7)  
+**ABSTRACT**  
+Learning graph representations is a fundamental task aimed at capturing various properties of graphs in vector space. The most recent methods learn such representations for static networks. However, real world networks evolve over time and have varying dynamics. Capturing such evolution is key to predicting the properties of unseen networks. To understand how the network dynamics affect the prediction performance, we propose an embedding approach which learns the structure of evolution in dynamic graphs and can predict unseen links with higher precision. Our model, dyngraph2vec, learns the temporal transitions in the network using a deep architecture composed of dense and recurrent layers. We motivate the need of capturing dynamics for prediction on a toy data set created using stochastic block models. We then demonstrate the efficacy of dyngraph2vec over existing state-of-the-art methods on two real world data sets. We observe that learning dynamics can improve the quality of embedding and yield better performance in link prediction.
+{{< /ci-details >}}
+
+#### TGAT
+{{< ci-details summary="Inductive Representation Learning on Temporal Graphs (Da Xu et al., 2020)">}}
+Da Xu, Chuanwei Ruan, Evren Körpeoglu, Sushant Kumar, Kannan Achan. (2020)  
+**Inductive Representation Learning on Temporal Graphs**  
+ICLR  
+[Paper Link](https://www.semanticscholar.org/paper/1f58e8d4c827037d4c2a1afc695a88704e088beb)  
+Influential Citation Count (41), SS-ID (1f58e8d4c827037d4c2a1afc695a88704e088beb)  
+**ABSTRACT**  
+Inductive representation learning on temporal graphs is an important step toward salable machine learning on real-world dynamic networks. The evolving nature of temporal dynamic graphs requires handling new nodes as well as capturing temporal patterns. The node embeddings, which are now functions of time, should represent both the static node features and the evolving topological structures. Moreover, node and topological features can be temporal as well, whose patterns the node embeddings should also capture. We propose the temporal graph attention (TGAT) layer to efficiently aggregate temporal-topological neighborhood features as well as to learn the time-feature interactions. For TGAT, we use the self-attention mechanism as building block and develop a novel functional time encoding technique based on the classical Bochner's theorem from harmonic analysis. By stacking TGAT layers, the network recognizes the node embeddings as functions of time and is able to inductively infer embeddings for both new and observed nodes as the graph evolves. The proposed approach handles both node classification and link prediction task, and can be naturally extended to include the temporal edge features. We evaluate our method with transductive and inductive tasks under temporal settings with two benchmark and one industrial dataset. Our TGAT model compares favorably to state-of-the-art baselines as well as the previous temporal graph embedding approaches.
+{{< /ci-details >}}
+
+#### DyHAN
+{{< ci-details summary="Dynamic Heterogeneous Graph Embedding Using Hierarchical Attentions (Luwei Yang et al., 2020)">}}
+Luwei Yang, Zhibo Xiao, Wen Jiang, Yi Wei, Y. Hu, Hao Wang. (2020)  
+**Dynamic Heterogeneous Graph Embedding Using Hierarchical Attentions**  
+ECIR  
+[Paper Link](https://www.semanticscholar.org/paper/ffe5b25c6cf8de37823907c3aed7738ea393902e)  
+Influential Citation Count (2), SS-ID (ffe5b25c6cf8de37823907c3aed7738ea393902e)  
+**ABSTRACT**  
+Graph embedding has attracted many research interests. Existing works mainly focus on static homogeneous/heterogeneous networks or dynamic homogeneous networks. However, dynamic heterogeneous networks are more ubiquitous in reality, e.g. social network, e-commerce network, citation network, etc. There is still a lack of research on dynamic heterogeneous graph embedding. In this paper, we propose a novel dynamic heterogeneous graph embedding method using hierarchical attentions (DyHAN) that learns node embeddings leveraging both structural heterogeneity and temporal evolution. We evaluate our method on three real-world datasets. The results show that DyHAN outperforms various state-of-the-art baselines in terms of link prediction task.
+{{< /ci-details >}}
+
+#### DyHATR
+{{< ci-details summary="Modeling Dynamic Heterogeneous Network for Link Prediction using Hierarchical Attention with Temporal RNN (Hansheng Xue et al., 2020)">}}
+Hansheng Xue, Luwei Yang, Wen Jiang, Yi Wei, Y. Hu, Yu Lin. (2020)  
+**Modeling Dynamic Heterogeneous Network for Link Prediction using Hierarchical Attention with Temporal RNN**  
+ECML/PKDD  
+[Paper Link](https://www.semanticscholar.org/paper/e2060d420ee4abbf993763a207754f702086af4e)  
+Influential Citation Count (3), SS-ID (e2060d420ee4abbf993763a207754f702086af4e)  
+**ABSTRACT**  
+Network embedding aims to learn low-dimensional representations of nodes while capturing structure information of networks. It has achieved great success on many tasks of network analysis such as link prediction and node classification. Most of existing network embedding algorithms focus on how to learn static homogeneous networks effectively. However, networks in the real world are more complex, e.g.., networks may consist of several types of nodes and edges (called heterogeneous information) and may vary over time in terms of dynamic nodes and edges (called evolutionary patterns). Limited work has been done for network embedding of dynamic heterogeneous networks as it is challenging to learn both evolutionary and heterogeneous information simultaneously. In this paper, we propose a novel dynamic heterogeneous network embedding method, termed as DyHATR, which uses hierarchical attention to learn heterogeneous information and incorporates recurrent neural networks with temporal attention to capture evolutionary patterns. We benchmark our method on four real-world datasets for the task of link prediction. Experimental results show that DyHATR significantly outperforms several state-of-the-art baselines.
+{{< /ci-details >}}
+
+#### THIGE
+{{< ci-details summary="Temporal Heterogeneous Interaction Graph Embedding for Next-Item Recommendation (Yugang Ji et al., 2020)">}}
+Yugang Ji, Mingyang Yin, Yuan Fang, Hongxia Yang, Xiangwei Wang, Tianrui Jia, C. Shi. (2020)  
+**Temporal Heterogeneous Interaction Graph Embedding for Next-Item Recommendation**  
+ECML/PKDD  
+[Paper Link](https://www.semanticscholar.org/paper/4231353710ba2ebf263f255060480540c0695b18)  
+Influential Citation Count (0), SS-ID (4231353710ba2ebf263f255060480540c0695b18)  
+**ABSTRACT**  
+In the scenario of next-item recommendation, previous methods attempt to model user preferences by capturing the evolution of sequential interactions. However, their sequential expression is often limited, without modeling complex dynamics that short-term demands can often be influenced by long-term habits. Moreover, few of them take into account the heterogeneous types of interaction between users and items. In this paper, we model such complex data as a Temporal Heterogeneous Interaction Graph (THIG) and learn both user and item embeddings on THIGs to address next-item recommendation. The main challenges involve two aspects: the complex dynamics and rich heterogeneity of interactions. We propose THIG Embedding (THIGE) which models the complex dynamics so that evolving short-term demands are guided by long-term historical habits, and leverages the rich heterogeneity to express the latent relevance of different-typed preferences. Extensive experiments on real-world datasets demonstrate that THIGE consistently outperforms the state-of-the-art methods.
+{{< /ci-details >}}
+
+#### $M^2DNE$
+{{< ci-details summary="Temporal Network Embedding with Micro- and Macro-dynamics (Yuanfu Lu et al., 2019)">}}
+
+Yuanfu Lu, Xiao Wang, C. Shi, Philip S. Yu, Yanfang Ye. (2019)  
+**Temporal Network Embedding with Micro- and Macro-dynamics**  
+CIKM  
+[Paper Link](https://www.semanticscholar.org/paper/7111d50bebf139e5c2c226ff2b424dc4f9a3deb6)  
+Influential Citation Count (6), SS-ID (7111d50bebf139e5c2c226ff2b424dc4f9a3deb6)  
+
+**ABSTRACT**  
+Network embedding aims to embed nodes into a low-dimensional space, while capturing the network structures and properties. Although quite a few promising network embedding methods have been proposed, most of them focus on static networks. In fact, temporal networks, which usually evolve over time in terms of microscopic and macroscopic dynamics, are ubiquitous. The micro-dynamics describe the formation process of network structures in a detailed manner, while the macro-dynamics refer to the evolution pattern of the network scale. Both micro- and macro-dynamics are the key factors to network evolution; however, how to elegantly capture both of them for temporal network embedding, especially macro-dynamics, has not yet been well studied. In this paper, we propose a novel temporal network embedding method with micro- and macro-dynamics, named $\rmM^2DNE $. Specifically, for micro-dynamics, we regard the establishments of edges as the occurrences of chronological events and propose a temporal attention point process to capture the formation process of network structures in a fine-grained manner. For macro-dynamics, we define a general dynamics equation parameterized with network embeddings to capture the inherent evolution pattern and impose constraints in a higher structural level on network embeddings. Mutual evolutions of micro- and macro-dynamics in a temporal network alternately affect the process of learning node embeddings. Extensive experiments on three real-world temporal networks demonstrate that $\rmM^2DNE $ significantly outperforms the state-of-the-arts not only in traditional tasks, e.g., network reconstruction, but also in temporal tendency-related tasks, e.g., scale prediction.
+{{< /ci-details >}}
+
 
 ## References
-
 
 {{< ci-details summary="ADSAGE: Anomaly Detection in Sequences of Attributed Graph Edges applied to insider threat detection at fine-grained level (Mathieu Garchery et al., 2020)">}}
 
@@ -180,10 +454,10 @@ Networks evolve continuously over time with the addition, deletion, and changing
 
 {{< /ci-details >}}
 
-{{< ci-details summary="Spatiotemporal Multi-Graph Convolution Network for Ride-Hailing Demand Forecasting (Xu Geng et al., 2019)">}}
+{{< ci-details summary="Spatio-temporal Multi-Graph Convolution Network for Ride-Hailing Demand Forecasting (Xu Geng et al., 2019)">}}
 
 Xu Geng, Yaguang Li, Leye Wang, Lingyu Zhang, Qiang Yang, Jieping Ye, Yan Liu. (2019)  
-**Spatiotemporal Multi-Graph Convolution Network for Ride-Hailing Demand Forecasting**  
+**Spatio-temporal Multi-Graph Convolution Network for Ride-Hailing Demand Forecasting**  
 AAAI  
 [Paper Link](https://www.semanticscholar.org/paper/0f8332fb651bf639ab110c65067ef2225f49eea5)  
 Influential Citation Count (37), SS-ID (0f8332fb651bf639ab110c65067ef2225f49eea5)  
@@ -319,7 +593,7 @@ ECML/PKDD
 Influential Citation Count (0), SS-ID (4231353710ba2ebf263f255060480540c0695b18)  
 
 **ABSTRACT**  
-
+In the scenario of next-item recommendation, previous methods attempt to model user preferences by capturing the evolution of sequential interactions. However, their sequential expression is often limited, without modeling complex dynamics that short-term demands can often be influenced by long-term habits. Moreover, few of them take into account the heterogeneous types of interaction between users and items. In this paper, we model such complex data as a Temporal Heterogeneous Interaction Graph (THIG) and learn both user and item embeddings on THIGs to address next-item recommendation. The main challenges involve two aspects: the complex dynamics and rich heterogeneity of interactions. We propose THIG Embedding (THIGE) which models the complex dynamics so that evolving short-term demands are guided by long-term historical habits, and leverages the rich heterogeneity to express the latent relevance of different-typed preferences. Extensive experiments on real-world datasets demonstrate that THIGE consistently outperforms the state-of-the-art methods.
 
 {{< /ci-details >}}
 
@@ -488,7 +762,7 @@ AAAI
 Influential Citation Count (43), SS-ID (7bfb46c47c25e46a5f7b168133f4e926ab44725b)  
 
 **ABSTRACT**  
-    Network embedding, which aims to learn the low-dimensional representations of vertices, is an important task and has attracted considerable research efforts recently. In real world, networks, like social network and biological networks, are dynamic and evolving over time. However, almost all the existing network embedding methods focus on static networks while ignore network dynamics. In this paper, we present a novel representation learning approach, DynamicTriad, to preserve both structural information and evolution patterns of a given network. The general idea of our approach is to impose triad, which is a group of three vertices and is one of the basic units of networks. In particular, we model how a closed triad, which consists of three vertices connected with each other, develops from an open triad that has two of three vertices not connected with each other. This triadic closure process is a fundamental mechanism in the formation and evolution of networks, thereby makes our model being able to capture the network dynamics and to learn representation vectors for each vertex at different time steps. Experimental results on three real-world networks demonstrate that, compared with several state-of-the-art techniques, DynamicTriad achieves substantial gains in several application scenarios. For example, our approach can effectively be applied and help to identify telephone frauds in a mobile network, and to predict whether a user will repay her loans or not in a loan network.   
+Network embedding, which aims to learn the low-dimensional representations of vertices, is an important task and has attracted considerable research efforts recently. In real world, networks, like social network and biological networks, are dynamic and evolving over time. However, almost all the existing network embedding methods focus on static networks while ignore network dynamics. In this paper, we present a novel representation learning approach, DynamicTriad, to preserve both structural information and evolution patterns of a given network. The general idea of our approach is to impose triad, which is a group of three vertices and is one of the basic units of networks. In particular, we model how a closed triad, which consists of three vertices connected with each other, develops from an open triad that has two of three vertices not connected with each other. This triadic closure process is a fundamental mechanism in the formation and evolution of networks, thereby makes our model being able to capture the network dynamics and to learn representation vectors for each vertex at different time steps. Experimental results on three real-world networks demonstrate that, compared with several state-of-the-art techniques, DynamicTriad achieves substantial gains in several application scenarios. For example, our approach can effectively be applied and help to identify telephone frauds in a mobile network, and to predict whether a user will repay her loans or not in a loan network.   
 
 {{< /ci-details >}}
 
@@ -592,7 +866,7 @@ AAAI
 Influential Citation Count (2), SS-ID (9499b38866b1eb87ae43fa5be02f9d08cd3c20a8)  
 
 **ABSTRACT**  
-    Network embedding algorithms to date are primarily designed for static networks, where all nodes are known before learning. How to infer embeddings for out-of-sample nodes, i.e. nodes that arrive after learning, remains an open problem. The problem poses great challenges to existing methods, since the inferred embeddings should preserve intricate network properties such as high-order proximity, share similar characteristics (i.e. be of a homogeneous space) with in-sample node embeddings, and be of low computational cost. To overcome these challenges, we propose a Deeply Transformed High-order Laplacian Gaussian Process (DepthLGP) method to infer embeddings for out-of-sample nodes. DepthLGP combines the strength of nonparametric probabilistic modeling and deep learning. In particular, we design a high-order Laplacian Gaussian process (hLGP) to encode network properties, which permits fast and scalable inference. In order to further ensure homogeneity, we then employ a deep neural network to learn a nonlinear transformation from latent states of the hLGP to node embeddings. DepthLGP is general, in that it is applicable to embeddings learned by any network embedding algorithms. We theoretically prove the expressive power of DepthLGP, and conduct extensive experiments on real-world networks. Empirical results demonstrate that our approach can achieve significant performance gain over existing approaches.   
+Network embedding algorithms to date are primarily designed for static networks, where all nodes are known before learning. How to infer embeddings for out-of-sample nodes, i.e. nodes that arrive after learning, remains an open problem. The problem poses great challenges to existing methods, since the inferred embeddings should preserve intricate network properties such as high-order proximity, share similar characteristics (i.e. be of a homogeneous space) with in-sample node embeddings, and be of low computational cost. To overcome these challenges, we propose a Deeply Transformed High-order Laplacian Gaussian Process (DepthLGP) method to infer embeddings for out-of-sample nodes. DepthLGP combines the strength of nonparametric probabilistic modeling and deep learning. In particular, we design a high-order Laplacian Gaussian process (hLGP) to encode network properties, which permits fast and scalable inference. In order to further ensure homogeneity, we then employ a deep neural network to learn a nonlinear transformation from latent states of the hLGP to node embeddings. DepthLGP is general, in that it is applicable to embeddings learned by any network embedding algorithms. We theoretically prove the expressive power of DepthLGP, and conduct extensive experiments on real-world networks. Empirical results demonstrate that our approach can achieve significant performance gain over existing approaches.   
 
 {{< /ci-details >}}
 
@@ -826,7 +1100,7 @@ ECML/PKDD
 Influential Citation Count (3), SS-ID (e2060d420ee4abbf993763a207754f702086af4e)  
 
 **ABSTRACT**  
-
+Network embedding aims to learn low-dimensional representations of nodes while capturing structure information of networks. It has achieved great success on many tasks of network analysis such as link prediction and node classification. Most of existing network embedding algorithms focus on how to learn static homogeneous networks effectively. However, networks in the real world are more complex, e.g.., networks may consist of several types of nodes and edges (called heterogeneous information) and may vary over time in terms of dynamic nodes and edges (called evolutionary patterns). Limited work has been done for network embedding of dynamic heterogeneous networks as it is challenging to learn both evolutionary and heterogeneous information simultaneously. In this paper, we propose a novel dynamic heterogeneous network embedding method, termed as DyHATR, which uses hierarchical attention to learn heterogeneous information and incorporates recurrent neural networks with temporal attention to capture evolutionary patterns. We benchmark our method on four real-world datasets for the task of link prediction. Experimental results show that DyHATR significantly outperforms several state-of-the-art baselines.
 
 {{< /ci-details >}}
 
@@ -904,7 +1178,7 @@ Knowl. Based Syst.
 Influential Citation Count (26), SS-ID (f6e59062382fdec9b95c3abef1c27efc3b2ec1c7)  
 
 **ABSTRACT**  
-
+Learning graph representations is a fundamental task aimed at capturing various properties of graphs in vector space. The most recent methods learn such representations for static networks. However, real world networks evolve over time and have varying dynamics. Capturing such evolution is key to predicting the properties of unseen networks. To understand how the network dynamics affect the prediction performance, we propose an embedding approach which learns the structure of evolution in dynamic graphs and can predict unseen links with higher precision. Our model, dyngraph2vec, learns the temporal transitions in the network using a deep architecture composed of dense and recurrent layers. We motivate the need of capturing dynamics for prediction on a toy data set created using stochastic block models. We then demonstrate the efficacy of dyngraph2vec over existing state-of-the-art methods on two real world data sets. We observe that learning dynamics can improve the quality of embedding and yield better performance in link prediction.
 
 {{< /ci-details >}}
 
@@ -917,7 +1191,7 @@ ECIR
 Influential Citation Count (2), SS-ID (ffe5b25c6cf8de37823907c3aed7738ea393902e)  
 
 **ABSTRACT**  
-
+Graph embedding has attracted many research interests. Existing works mainly focus on static homogeneous/heterogeneous networks or dynamic homogeneous networks. However, dynamic heterogeneous networks are more ubiquitous in reality, e.g. social network, e-commerce network, citation network, etc. There is still a lack of research on dynamic heterogeneous graph embedding. In this paper, we propose a novel dynamic heterogeneous graph embedding method using hierarchical attentions (DyHAN) that learns node embeddings leveraging both structural heterogeneity and temporal evolution. We evaluate our method on three real-world datasets. The results show that DyHAN outperforms various state-of-the-art baselines in terms of link prediction task.
 
 {{< /ci-details >}}
 
@@ -931,6 +1205,65 @@ Influential Citation Count (1389), SS-ID (fff114cbba4f3ba900f33da574283e3de7f26c
 
 **ABSTRACT**  
 We present DeepWalk, a novel approach for learning latent representations of vertices in a network. These latent representations encode social relations in a continuous vector space, which is easily exploited by statistical models. DeepWalk generalizes recent advancements in language modeling and unsupervised feature learning (or deep learning) from sequences of words to graphs. DeepWalk uses local information obtained from truncated random walks to learn latent representations by treating walks as the equivalent of sentences. We demonstrate DeepWalk's latent representations on several multi-label network classification tasks for social networks such as BlogCatalog, Flickr, and YouTube. Our results show that DeepWalk outperforms challenging baselines which are allowed a global view of the network, especially in the presence of missing information. DeepWalk's representations can provide F1 scores up to 10% higher than competing methods when labeled data is sparse. In some experiments, DeepWalk's representations are able to outperform all baseline methods while using 60% less training data. DeepWalk is also scalable. It is an online learning algorithm which builds useful incremental results, and is trivially parallelizable. These qualities make it suitable for a broad class of real world applications such as network classification, and anomaly detection.
+
+{{< /ci-details >}}
+
+{{< ci-details summary="Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs (Rakshit Trivedi et al., 2017)">}}
+
+Rakshit Trivedi, Hanjun Dai, Yichen Wang, Le Song. (2017)  
+**Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs**  
+arXiv preprint  
+[Paper Link](https://arxiv.org/abs/1705.05742)  
+
+**ABSTRACT**  
+The availability of large scale event data with time stamps has given rise to dynamically evolving knowledge graphs that contain temporal information for each edge. Reasoning over time in such dynamic knowledge graphs is not yet well understood. To this end, we present Know-Evolve, a novel deep evolutionary knowledge network that learns non-linearly evolving entity representations over time. The occurrence of a fact (edge) is modeled as a multivariate point process whose intensity function is modulated by the score for that fact computed based on the learned entity embeddings. We demonstrate significantly improved performance over various relational learning approaches on two large scale real-world datasets. Further, our method effectively predicts occurrence or recurrence time of a fact which is novel compared to prior reasoning approaches in multi-relational setting.  
+{{< /ci-details >}}
+
+{{< ci-details summary="DynGEM: Deep Embedding Method for Dynamic Graphs (Palash Goyal et al., 2018)">}}
+
+Palash Goyal, Nitin Kamra, Xinran He, Yan Liu. (2018)  
+**DynGEM: Deep Embedding Method for Dynamic Graphs**  
+arXiv preprint  
+[Paper Link](https://arxiv.org/abs/1805.11273)  
+
+**ABSTRACT**  
+Embedding large graphs in low dimensional spaces has recently attracted significant interest due to its wide applications such as graph visualization, link prediction and node classification. Existing methods focus on computing the embedding for static graphs. However, many graphs in practical applications are dynamic and evolve constantly over time. Naively applying existing embedding algorithms to each snapshot of dynamic graphs independently usually leads to unsatisfactory performance in terms of stability, flexibility and efficiency. In this work, we present an efficient algorithm DynGEM based on recent advances in deep autoencoders for graph embeddings, to address this problem. The major advantages of DynGEM include: (1) the embedding is stable over time, (2) it can handle growing dynamic graphs, and (3) it has better running time than using static embedding methods on each snapshot of a dynamic graph. We test DynGEM on a variety of tasks including graph visualization, graph reconstruction, link prediction and anomaly detection (on both synthetic and real datasets). Experimental results demonstrate the superior stability and scalability of our approach.
+
+{{< /ci-details >}}
+
+{{< ci-details summary="Streaming Graph Neural Networks (Yao Ma et al., 2020)">}}
+
+Yao Ma, Ziyi Guo, Zhaocun Ren, Jiliang Tang, and Dawei Yin. (2020)  
+**Streaming Graph Neural Networks**  
+Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '20)  
+[Paper Link](https://doi.org/10.1145/3397271.3401092)  
+
+**ABSTRACT**  
+Graphs are used to model pairwise relations between entities in many real-world scenarios such as social networks. Graph Neural Networks(GNNs) have shown their superior ability in learning representations for graph structured data, which leads to performance improvements in many graph related tasks such as link prediction, node classification and graph classification. Most of the existing graph neural networks models are designed for static graphs while many real-world graphs are inherently dynamic with new nodes and edges constantly emerging. Existing graph neural network models cannot utilize the dynamic information, which has been shown to enhance the performance of many graph analytic tasks such as community detection. Hence, in this paper, we propose DyGNN, a Dynamic Graph Neural Network model, which can model the dynamic information as the graph evolving. In particular, the proposed framework keeps updating node information by capturing the sequential information of edges (interactions), the time intervals between edges and information propagation coherently. Experimental results on various dynamic graphs demonstrate the effectiveness of the proposed framework.
+
+{{< /ci-details >}}
+
+{{< ci-details summary="Representation Learning over Dynamic Graphs (Rakshit Trivedi et al., 2018)">}}
+
+Rakshit Trivedi, Mehrdad Farajtabar, Prasenjeet Biswal, Hongyuan Zha. (2018)  
+**Representation Learning over Dynamic Graphs**  
+arXiv preprint
+[Paper Link](https://arxiv.org/abs/1803.04051)  
+
+**ABSTRACT**  
+How can we effectively encode evolving information over dynamic graphs into low-dimensional representations? In this paper, we propose DyRep, an inductive deep representation learning framework that learns a set of functions to efficiently produce low-dimensional node embeddings that evolves over time. The learned embeddings drive the dynamics of two key processes namely, communication and association between nodes in dynamic graphs. These processes exhibit complex nonlinear dynamics that evolve at different time scales and subsequently contribute to the update of node embeddings. We employ a time-scale dependent multivariate point process model to capture these dynamics. We devise an efficient unsupervised learning procedure and demonstrate that our approach significantly outperforms representative baselines on two real-world datasets for the problem of dynamic link prediction and event time prediction.
+
+{{< /ci-details >}}
+
+{{< ci-details summary="EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs (Aldo Pareja et al., 2019)">}}
+
+Aldo Pareja, Giacomo Domeniconi, Jie Chen, Tengfei Ma, Toyotaro Suzumura, Hiroki Kanezashi, Tim Kaler, Tao B. Schardl, Charles E. Leiserson. (2019)  
+**Aldo Pareja, Giacomo Domeniconi, Jie Chen, Tengfei Ma, Toyotaro Suzumura, Hiroki Kanezashi, Tim Kaler, Tao B. Schardl, Charles E. Leiserson**  
+arXiv preprint
+[Paper Link](https://arxiv.org/abs/1902.10191)  
+
+**ABSTRACT**  
+Graph representation learning resurges as a trending research subject owing to the widespread use of deep learning for Euclidean data, which inspire various creative designs of neural networks in the non-Euclidean domain, particularly graphs. With the success of these graph neural networks (GNN) in the static setting, we approach further practical scenarios where the graph dynamically evolves. Existing approaches typically resort to node embeddings and use a recurrent neural network (RNN, broadly speaking) to regulate the embeddings and learn the temporal dynamics. These methods require the knowledge of a node in the full time span (including both training and testing) and are less applicable to the frequent change of the node set. In some extreme scenarios, the node sets at different time steps may completely differ. To resolve this challenge, we propose EvolveGCN, which adapts the graph convolutional network (GCN) model along the temporal dimension without resorting to node embeddings. The proposed approach captures the dynamism of the graph sequence through using an RNN to evolve the GCN parameters. Two architectures are considered for the parameter evolution. We evaluate the proposed approach on tasks including link prediction, edge classification, and node classification. The experimental results indicate a generally higher performance of EvolveGCN compared with related approaches. The code is available at \url{this https URL}.
 
 {{< /ci-details >}}
 

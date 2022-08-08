@@ -154,9 +154,10 @@ $$
 \min\_\theta \mathcal{L}\_\text{MLM} (\theta) + \mathcal{L}\_\text{RTD} (\theta)
 $$
 
-### Training Settings
-
 ## Results
+
+### Natural Language Code Search
+
 
 ## References
 
