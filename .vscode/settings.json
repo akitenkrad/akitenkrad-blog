@@ -5,15 +5,16 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": true,
     "editor.cursorStyle": "line",
-    "editor.fontFamily": "Utatane, HackGen, Consolas Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "CodeM, Utatane, HackGen, Consolas Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 22,
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
     "editor.rulers": [
+        80,
         100,
         120,
-        145
     ],
     "editor.suggest.preview": true,
     "editor.suggestSelection": "recentlyUsedByPrefix",
@@ -26,7 +27,7 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
-        "--max-line-length=150",
+        "--max-line-length=120",
         "--ignore=F401,W503"
     ],
     "python.linting.flake8Path": "flake8",
@@ -44,7 +45,7 @@
     "python.linting.mypyEnabled": true,
     "python.linting.maxNumberOfProblems": 10000,
     "python.formatting.blackArgs": [
-        "--line-length=150"
+        "--line-length=120"
     ],
     // HTML Settings
     "html.format.wrapLineLength": 0
