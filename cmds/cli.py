@@ -18,7 +18,7 @@ def cli():
 @cli.command()
 @click.option("--title", type=str, help="title of the paper")
 def new_post(title: str):
-
+    """create new post"""
     assert len(title) > 0
 
     text = open(Path(__file__).parent / "templates" / "post_template.txt").read()
@@ -68,6 +68,47 @@ menu:
 @click.option("--out-file", type=click.Path(exists=True), help="output file path")
 def get_references(title: str, out_file: str):
     add_references(title, out_file)
+
+
+@cli.command()
+@click.option("--title", type=str, help="title of the paper")
+def new_graph(title: str):
+    """create new graph"""
+    assert len(title) > 0
+
+    text = open(Path(__file__).parent / "templates" / "graph_template.txt").read()
+    date = datetime.now()
+    text = text.format(
+        TITLE=title,
+        DATE=date.strftime("%Y-%m-%d"),
+        IDENTIFIER=f"{datetime.now().strftime('%Y%m%d')}_graph",
+        PARENT=f"{date.strftime('%Y%m')}_graphs",
+    )
+    new_graph_path = Path(
+        f"src/content/posts/graphs/{date.strftime('%Y%m')}/{datetime.now().strftime('%Y%m%d%H%M%S')}/index.md"
+    )
+
+    if not new_graph_path.parent.parent.exists():
+        new_graph_path.parent.parent.mkdir(parents=True)
+        with open(new_graph_path.parent.parent / "_index.md", mode="w", encoding="utf-8") as wf:
+            wf.write(
+                f"""---
+title: {date.strftime("%Y.%m")}
+menu:
+    sidebar:
+        name: {date.strftime("%Y.%m")}
+        identifier: {date.strftime("%Y%m")}_graphs
+        parent: graphs
+        weight: 10
+---
+            """
+            )
+
+    new_graph_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(new_graph_path, mode="wt", encoding="utf-8") as wf:
+        wf.write(text)
+
+    print(f"New Graph -> {str(new_graph_path.absolute())}")
 
 
 if __name__ == "__main__":
