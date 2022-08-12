@@ -30,7 +30,7 @@ InAssociation for the Ad-vancement of  Artificial  Intelligence (AAAI), pages594
 
 > In this paper, we present a novel approach to machine reading comprehension forthe MS-MARCO dataset. Unlike the SQuAD dataset that aims to answer a ques-tion with exact text spans in a passage, the MS-MARCO dataset defines the taskas answering a question from multiple passages and the words in the answer arenot necessary in the passages.  We therefore develop an extraction-then-synthesisframework to synthesize answers from extraction results. Specifically, the answerextraction model is first employed to predict the most important sub-spans fromthe passage as evidence, and the answer synthesis model takes the evidence as ad-ditional features along with the question and passage to further elaborate the finalanswers.  We build the answer extraction model with state-of-the-art neural net-works for single passage reading comprehension, and propose an additional taskof passage ranking to help answer extraction in multiple passages.  The answersynthesis model is based on the sequence-to-sequence neural networks with ex-tracted evidences as features. Experiments show that our extraction-then-synthesismethod outperforms state-of-the-art methods.
 
-## What's New
+## Background & Wat's New
 
 - 機械読解タスクにおいて，コンテキストから回答と関連の深いスパンを抽出した後，回答を生成するExtraction-then-Synthesisフレームワークを提案した
   - これにより，回答に含まれる単語は必ずしも質問やコンテキストに含まれていなくとも生成可能になる

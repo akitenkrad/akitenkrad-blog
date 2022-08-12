@@ -30,7 +30,7 @@ Springer, Cham. pp.282–298. https://doi.org/10.1007/978-3-030-67658-2_17
 
 > Network embedding aims to learn low-dimensional representations of nodes while capturing structure information of networks. It has achieved great success on many tasks of network analysis such as link prediction and node classification. Most of existing network embedding algorithms focus on how to learn static homogeneous networks effectively. However, networks in the real world are more complex, e.g.., networks may consist of several types of nodes and edges (called heterogeneous information) and may vary over time in terms of dynamic nodes and edges (called evolutionary patterns). Limited work has been done for network embedding of dynamic heterogeneous networks as it is challenging to learn both evolutionary and heterogeneous information simultaneously. In this paper, we propose a novel dynamic heterogeneous network embedding method, termed as DyHATR, which uses hierarchical attention to learn heterogeneous information and incorporates recurrent neural networks with temporal attention to capture evolutionary patterns. We benchmark our method on four real-world datasets for the task of link prediction. Experimental results show that DyHATR significantly outperforms several state-of-the-art baselines.
 
-## What's New
+## Background & Wat's New
 
 - Dynamic Heterogeneous Graphに対応したEmbedding手法 **DyHATR** を提案した
 - グラフの時系列のスナップショットに関するheterogeneityを捉えるため，階層的なAttentionモデルを採用

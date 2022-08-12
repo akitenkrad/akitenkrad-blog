@@ -30,7 +30,7 @@ https://doi.org/10.48550/arxiv.2101.00178
 
 > To date, most of recent work under the retrieval-reader framework for open-domain QA focuses on either extractive or generative reader exclusively. In this paper, we study a hybrid approach for leveraging the strengths of both models. We apply novel techniques to enhance both extractive and generative readers built upon recent pretrained neural language models, and find that proper training methods can provide large improvement over previous state-of-the-art models. We demonstrate that a simple hybrid approach by combining answers from both readers can efficiently take advantages of extractive and generative answer inference strategies and outperforms single models as well as homogeneous ensembles. Our approach outperforms previous state-of-the-art models by 3.3 and 2.7 points in exact match on NaturalQuestions and TriviaQA respectively.
 
-## What's New
+## Background & Wat's New
 
 - Question Answeringのタスクにおいて，ExtractiveなモデルとGenerativeなモデルをアンサンブルしたUnitedQAを提案．
 - Extractiveモデルを改善 <i class="fa-solid fa-arrow-right"></i> UnitedQA-E

@@ -31,7 +31,7 @@ https://doi.org/10.48550/arxiv.1609.02907
 
 > We present a scalable approach for semi-supervised learning on graph-structured data that is based on an efficient variant of convolutional neural networks which operate directly on graphs. We motivate the choice of our convolutional architecture via a localized first-order approximation of spectral graph convolutions. Our model scales linearly in the number of graph edges and learns hidden layer representations that encode both local graph structure and features of nodes. In a number of experiments on citation networks and on a knowledge graph dataset we demonstrate that our approach outperforms related methods by a significant margin.
 
-## What's New
+## Background & Wat's New
 
 - グラフをニューラルネットワークで直接扱えるようなシンプルなプロパゲーションルール（GCN）を提案した．
 - GCNをノードのSemi-Supervised Classificationタスクで使用した場合に，速度・スケーラビリティの観点で有用であることを示した．

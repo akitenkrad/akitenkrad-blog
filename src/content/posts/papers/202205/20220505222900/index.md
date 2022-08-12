@@ -39,7 +39,7 @@ Karpukhin, V., Oğuz, B., Min, S., Lewis, P., Wu, L., Edunov, S., Chen, D., & Yi
 > end-to-end QA system establish new state-of-the-art on multiple open-domain QA
 > benchmarks.
 
-## What's New
+## Background & Wat's New
 
 - QAタスクにおいて，追加で事前学習せずにDense Embeddingを学習する方法（Deep Passage Retriever）を提案
 - QuestionとPassageを別々にEmbeddingするDual Encoderモデルにおいて，効率的な学習方法を採用

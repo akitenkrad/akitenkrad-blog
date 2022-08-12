@@ -32,7 +32,7 @@ https://doi.org/10.18653/v1/p19-1220
 > This study tackles generative reading comprehension (RC), which consists of answering questions based on textual evidence and natural language generation (NLG). We proposea multi-style abstractive summarization model for question answering, called Masque. The proposed model has two key characteristics. First, unlike most studies on RC that have focused on extracting an answer span from the provided passages, our model instead focuses on generating a summary from the question and multiple passages. This serves to cover various answer styles required for real-world applications. Second, whereas previous studies built a specific model for each answer style because of the difficulty of acquiring one general model, our approach learns multi-style answers within a model to improve the NLG capability for all styles involved. This also enables our model to give an answer in the target style. Experiments show that our model achieves state-of-the-art performance on the Q&A task and the Q&A + NLG task of MSMARCO 2.1 and the summary task of NarrativeQA. We observe that the transfer of the style-independent NLG capability to the targetstyle is the key to its success.
 
 
-## What's New
+## Background & Wat's New
 - 複数のPassageを入力にして Abstractive Summarization によりQAシステムで回答を生成する．
   - 既存手法の多くは入力のPassageの文字列の一部を抽出して回答を作成するが，一部のデータセットでは抽出型の方法では回答を作成できないものがある．
   - この点を解決するために，Transformerをベースとした Abstractive Summarization の手法により回答を生成する生成型のモデル **Masque** を提案した．

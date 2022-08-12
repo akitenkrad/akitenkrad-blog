@@ -30,7 +30,7 @@ Neurocomputing, 472, 212–223. https://doi.org/10.1016/J.NEUCOM.2021.03.138
 
 > Since many real world networks are evolving over time, such as social networks and user-item networks, there are increasing research efforts on dynamic network embedding in recent years. They learn node representations from a sequence of evolving graphs but not only the latest network, for preserving both structural and temporal information from the dynamic networks. Due to the lack of comprehensive investigation of them, we give a survey of dynamic network embedding in this paper. Our survey inspects the data model, representation learning technique, evaluation and application of current related works and derives common patterns from them. Specifically, we present two basic data models, namely, discrete model and continuous model for dynamic networks. Correspondingly, we summarize two major categories of dynamic network embedding techniques, namely, structural-first and temporal-first that are adopted by most related works. Then we build a taxonomy that refines the category hierarchy by typical learning models. The popular experimental data sets and applications are also summarized. Lastly, we have a discussion of several distinct research topics in dynamic network embedding.
 
-## What's New
+## Background & Wat's New
 
 - Graph Neural NetworkにおけるEmbedding手法のうち，時間と共にNodeとEdgeが変化するDynamic GraphのEmbeddingをサーベイした論文
 - 以下の観点からモデルが整理されている

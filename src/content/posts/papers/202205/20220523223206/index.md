@@ -41,7 +41,7 @@ https://doi.org/10.48550/arxiv.1907.11692
 > questions about the source of recently reported improvements. We release our
 > models and code.
 
-## What's New
+## Background & Wat's New
 
 - BERTの学習設定を精査し，最も精度が向上する設定方針を提案
   - **Dynamic Masking**

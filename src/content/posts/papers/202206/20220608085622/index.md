@@ -33,7 +33,7 @@ https://doi.org/10.18653/V1/2020.FINDINGS-EMNLP.139
 ## Code
 {{< github url="https://github.com/microsoft/CodeBERT" size="small" >}}
 
-## What's New
+## Background & Wat's New
 
 - コード（PL/Programming Language）と自然言語(NL/Natural Language)の意味的な結びつきを学習するモデルを提案した
   - NL-PLのNatural Language Understandingに関わるタスク広く適用可能

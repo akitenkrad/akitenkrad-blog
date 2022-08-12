@@ -33,7 +33,7 @@ PeerJ Computer Science, 7, 1–62.
 > Our survey aims to describe the coreconcepts of graph embeddings and provide several taxonomies for their description. First, we start with the methodological approach and extract three types of graphembedding models based on matrix factorization, random-walks and deep learningapproaches. Next, we describe how different types of networks impact the abilityof models to incorporate structural and attributed data into a unified embedding. Going further, we perform a thorough evaluation of graph embedding applications tomachine learning problems on graphs, among which are node classification, linkprediction, clustering, visualization, compression, and a family of the whole graphembedding algorithms suitable for graph classification, similarity and alignmentproblems. Finally, we overview the existing applications of graph embeddings tocomputer science domains, formulate open problems and provide experimentresults, explaining how different networks properties result in graph embeddingsquality in the four classic machine learning problems on graphs, such as nodeclassification, link prediction, clustering and graph visualization.  
 > As a result, oursurvey covers a new rapidly growingfield of network feature engineering, presents anin-depth analysis of models based on network types, and overviews a wide range ofapplications to machine learning problems on graphs.  
 
-## What's New
+## Background & Wat's New
 
 グラフを対象とした分散表現（Representation）の理論に関するサーベイ．Graph Representationは複雑なグラフの構造を低次元のベクトル空間に写像する関数である．
 

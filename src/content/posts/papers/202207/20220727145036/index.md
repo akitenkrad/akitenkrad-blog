@@ -31,7 +31,7 @@ https://doi.org/10.1007/978-3-030-45442-5_53
 
 > Graph embedding has attracted many research interests. Existing works mainly focus on static homogeneous/heterogeneous networks or dynamic homogeneous networks. However, dynamic heterogeneous networks are more ubiquitous in reality, e.g. social network, e-commerce network, citation network, etc. There is still a lack of research on dynamic heterogeneous graph embedding. In this paper, we propose a novel dynamic heterogeneous graph embedding method using hierarchical attentions (DyHAN) that learns node embeddings leveraging both structural heterogeneity and temporal evolution. We evaluate our method on three real-world datasets. The results show that DyHAN outperforms various state-of-the-art baselines in terms of link prediction task.
 
-## What's New
+## Background & Wat's New
 - NodeとEdgeに関するDynamicなグラフのEmbedding手法を提案
 
 ## Dataset

@@ -44,7 +44,7 @@ https://doi.org/10.48550/arxiv.1508.07909
 > baseline for the WMT 15 translation tasks English-German and English-Russian by
 > 1.1 and 1.3 BLEU, respectively.
 
-## What's New
+## Background & Wat's New
 - Machine Translationは本来Open-Vocabularyなタスクだが，従来の研究の多くは事前に辞書を構築された辞書を使ってモデルを構築している．したがって，辞書に存在しない単語を翻訳することができない．そこで，単語をさらに粒度の小さなサブワードに分割することで出現頻度の低い単語や新出単語に対応する手法を提案した．
   - n-gramモデル
   - byte pair encoding

@@ -30,7 +30,9 @@ def new_post(title: str):
         IDENTIFIER=datetime.now().strftime("%Y%m%d"),
         PARENT=date.strftime("%Y%m"),
     )
-    new_post_path = Path(f"src/content/posts/papers/{date.strftime('%Y%m')}/{datetime.now().strftime('%Y%m%d%H%M%S')}/index.md")
+    new_post_path = Path(
+        f"src/content/posts/papers/{date.strftime('%Y%m')}/{datetime.now().strftime('%Y%m%d%H%M%S')}/index.md"
+    )
 
     if not new_post_path.parent.parent.exists():
         new_post_path.parent.parent.mkdir(parents=True)

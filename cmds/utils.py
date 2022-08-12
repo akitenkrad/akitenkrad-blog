@@ -70,6 +70,11 @@ class Paper(object):
         return self.__get("__abstract", default="")
 
     @property
+    def has_abstract(self) -> bool:
+        abstract = self.abstract.strip()
+        return len(abstract) > 0
+
+    @property
     def venue(self) -> str:
         """venue from SemanticScholar"""
         return self.__get("__venue", default="")
@@ -143,7 +148,9 @@ class Paper(object):
             "is_open_access": self.is_open_access,
             "paper_id": self.paper_id,
             "reference_count": self.reference_count,
-            "references": [{"paper_id": r.paper_id, "title": r.title} for r in self.references if r.paper_id is not None],
+            "references": [
+                {"paper_id": r.paper_id, "title": r.title} for r in self.references if r.paper_id is not None
+            ],
             "title": self.title,
             "url": self.url,
             "venue": self.venue,
@@ -189,13 +196,13 @@ class Paper(object):
             f"[Paper Link]({self.url})" + "  ",
             f"Influential Citation Count ({self.influential_citation_count}), SS-ID ({self.paper_id})  ",
             "",
-            "**ABSTRACT**  ",
-            "" + self.abstract.replace(os.linesep, " "),
+            "**ABSTRACT**  " if self.has_abstract else "",
+            "" + self.abstract.replace(os.linesep, " ").strip() if self.has_abstract else "",
             "",
             "{{< /ci-details >}}",
             os.linesep,
         ]
-        f.write(os.linesep.join(citation))
+        f.write(re.sub(r"\n\n+", "\n", os.linesep.join(citation)))
 
 
 class SemanticScholar(object):
@@ -244,7 +251,9 @@ class SemanticScholar(object):
                     "offset": 0,
                     "limit": 100,
                 }
-                response = urllib.request.urlopen(self.__api.search_by_title.format(QUERY=urllib.parse.urlencode(params)), timeout=5.0)
+                response = urllib.request.urlopen(
+                    self.__api.search_by_title.format(QUERY=urllib.parse.urlencode(params)), timeout=5.0
+                )
                 content = json.loads(response.read().decode("utf-8"))
                 time.sleep(3.5)
                 break
@@ -296,7 +305,9 @@ class SemanticScholar(object):
                     "embedding",
                 ]
                 params = f'fields={",".join(fields)}'
-                response = urllib.request.urlopen(self.__api.search_by_id.format(PAPER_ID=paper_id, PARAMS=params), timeout=5.0)
+                response = urllib.request.urlopen(
+                    self.__api.search_by_id.format(PAPER_ID=paper_id, PARAMS=params), timeout=5.0
+                )
                 time.sleep(3.5)
                 break
 

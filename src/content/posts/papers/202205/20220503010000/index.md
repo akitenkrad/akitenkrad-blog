@@ -54,7 +54,7 @@ He, P., Liu, X., Gao, J., & Chen, W. (2020).
 > SuperGLUE leaderboard as of January 6, 2021, out performing the human baseline
 > by a decent margin (90.3 versus 89.8).
 
-## What's New
+## Background & Wat's New
 
 - 2つの新しいテクニックを使ってBERTとRoBERTaを精度改善
   - **Disentangled Attention**  

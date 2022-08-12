@@ -48,7 +48,7 @@ https://doi.org/10.48550/arxiv.1903.06464
 > datasets can attain state-of-the-art performance and achieve a more than 28%
 > improvement in mean average precision (MAP) and recall@k.
 
-## What's New
+## Background & Wat's New
 
 - Citation Recommendationにおいて新しいベンチマークデータセット **FullTextPeerRead** を構築
 - BERTとGCNを組み合わせたCitation Recommendationモデルを構築しSOTAを達成
