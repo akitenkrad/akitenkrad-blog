@@ -30,7 +30,7 @@
           <li id="list-heading">Round</li>
           <div class="subtree taxonomy-terms">
             {{ $context := . }}
-            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "Round-" ) }}
+            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "Round-" "trimword" "At:") }}
           </div>
         </ul>
       </div>
@@ -39,7 +39,7 @@
           <li id="list-heading">Published</li>
           <div class="subtree taxonomy-terms">
             {{ $context := . }}
-            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "Published:" ) }}
+            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "Published:" "trimword" "Published:") }}
           </div>
         </ul>
       </div>
@@ -48,16 +48,26 @@
           <li id="list-heading">Dataset</li>
           <div class="subtree taxonomy-terms">
             {{ $context := . }}
-            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "DS:" ) }}
+            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "DS:" "trimword" "DS:") }}
           </div>
         </ul>
       </div>
       <div class="sidebar-tree">
         <ul class="tree" id="tree">
+          <li id="list-heading">Graphs</li>
+          <div class="subtree taxonomy-terms">
+            {{ $context := . }}
+            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "Graph-" "trimword" "Graph-") }}
+          </div>
+        </ul>
+      </div>
+ 
+      <div class="sidebar-tree">
+        <ul class="tree" id="tree">
           <li id="list-heading">All</li>
           <div class="subtree taxonomy-terms">
             {{ $context := . }}
-            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "" ) }}
+            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "" "trimword" "") }}
           </div>
         </ul>
       </div>
