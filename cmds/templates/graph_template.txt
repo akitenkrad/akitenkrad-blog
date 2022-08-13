@@ -18,3 +18,7 @@ math: true
     <iframe src="out.html" width="1110pt" height="650pt" style="border:none"></iframe>
     <figcaption>{TITLE}</figcaption>
 </figure>
+
+{{{{< citation >}}}}
+Data From: []()
+{{{{< /citation >}}}}
