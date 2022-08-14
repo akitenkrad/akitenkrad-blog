@@ -60,6 +60,55 @@ Graph embedding algorithms embed a graph into a vector space where the structure
 
 ## Model Description
 
+ステップ $t$ における Dynamic Network を
+
+$$
+\begin{align*}
+G^{(t)} &= \lbrace V^{(t)}, E^{(t)} \rbrace \\\\
+&\text{where} \\\\
+& V^{(t)} = \left\lbrace v\_1^{(t)}, v\_2^{(t)}, \ldots, v\_N^{(t)} \right\rbrace
+\end{align*}
+$$
+
+と表すこととし，$G^{(t)}$ の Embedding と high-order proximity をそれぞれ
+
+$$
+\begin{align*}
+\text{Embedding} & \mapsto U^{(t)} \in \mathbb{R}^{N \times d} \\\\
+\text{High-order Proximity} & \mapsto S^{(t)} \hspace{10pt} (S\_{ij}^{(t)} \text{ is the proximity between }v\_i^{(t)}\text{ and }v\_j^{(t)}) \\\\
+& \text{where} \\\\
+& d \mapsto \text{embedding dimension} \\\\
+\end{align*}
+$$
+
+と表す．
+
+Dynamic Network Embedding の計算プロセスは次の2つのステップに分けられる．
+
+{{< box-with-title title="Step 1. Static network embedding" >}}
+given adjacency matrix $A^{(t)}$, at time step $t$;  
+output the embedding matrix
+$$
+U^{(t)}
+$$
+using static model.
+{{< /box-with-title >}}
+
+{{< box-with-title title="Step 2. Dynamic network embedding" >}}
+given adjacency matrix $\lbrace A^{(t+1)}, A^{(t+2)}, \ldots, A^{(t+i)} \rbrace$, at time steps $\lbrace t+1, t+2, \ldots, t+i \rbrace$ and the embedding matrix $U^{(t)}$ at time step $t$;  
+output the embedding matrix
+$$
+\lbrace U^{(t+1)}, U^{(t+2)}, \ldots, U^{(t+i)} \rbrace
+$$
+at time steps $\lbrace t+1, t+2, \ldots, t+i \rbrace$.
+{{< /box-with-title >}}
+
+#### GSVD-Based Static Model
+
+#### Problem Transformation for Dynamic Model
+
+#### Generalized Eigen Perturbation
+
 ### Training Settings
 
 ## Results
