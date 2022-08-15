@@ -19,6 +19,10 @@ math: true
     <figcaption>{TITLE}</figcaption>
 </figure>
 
+```python
+import xxxx
+```
+
 {{{{< citation >}}}}
 Data From: []()
 {{{{< /citation >}}}}

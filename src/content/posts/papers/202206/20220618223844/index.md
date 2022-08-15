@@ -63,22 +63,27 @@ Graph embedding algorithms embed a graph into a vector space where the structure
 ステップ $t$ における Dynamic Network を
 
 $$
-\begin{align*}
-G^{(t)} &= \lbrace V^{(t)}, E^{(t)} \rbrace \\\\
-&\text{where} \\\\
-& V^{(t)} = \left\lbrace v\_1^{(t)}, v\_2^{(t)}, \ldots, v\_N^{(t)} \right\rbrace
-\end{align*}
+\begin{array}{l}
+    G^{(t)} & = \lbrace V^{(t)}, E^{(t)} \rbrace \\\\
+    & \text{where} \\\\
+    & \hspace{10pt} \begin{array}{l}
+        V^{(t)} = \left\lbrace v\_1^{(t)}, v\_2^{(t)}, \ldots, v\_N^{(t)} \right\rbrace
+    \end{array}
+\end{array}
 $$
 
 と表すこととし，$G^{(t)}$ の Embedding と high-order proximity をそれぞれ
 
 $$
-\begin{align*}
-\text{Embedding} & \mapsto U^{(t)} \in \mathbb{R}^{N \times d} \\\\
-\text{High-order Proximity} & \mapsto S^{(t)} \hspace{10pt} (S\_{ij}^{(t)} \text{ is the proximity between }v\_i^{(t)}\text{ and }v\_j^{(t)}) \\\\
-& \text{where} \\\\
-& d \mapsto \text{embedding dimension} \\\\
-\end{align*}
+\begin{array}{l}
+    \text{Embedding} & \mapsto U^{(t)} \in \mathbb{R}^{N \times d} \\\\
+    \text{High-order Proximity} & \mapsto S^{(t)} \hspace{10pt} (S\_{ij}^{(t)} \text{ is the proximity between }v\_i^{(t)}\text{ and }v\_j^{(t)}) \\\\
+    & \text{where} \\\\
+    & \hspace{10pt} \begin{array}{l}
+        d & \mapsto \text{embedding dimension} \\\\
+        S^{(t)} & \in \mathbb{R}^N
+    \end{array}
+\end{array}
 $$
 
 と表す．
@@ -104,6 +109,74 @@ at time steps $\lbrace t+1, t+2, \ldots, t+i \rbrace$.
 {{< /box-with-title >}}
 
 #### GSVD-Based Static Model
+
+Ou et al. (2016) において提案されている手法にしたがって，次の目的関数を考える．
+
+$$
+\begin{array}{l}
+    \min \left\lVert S - U{U^\prime}^\mathsf{T} \right\rVert\_F^2 \\\\
+    \text{where} \\\\
+    \hspace{10pt} \begin{array}{c}
+        U, U^\prime &\in& \mathbb{R}^{N \times d} \\\\
+        S &\in& \mathbb{R}^N
+    \end{array}
+\end{array}
+$$
+
+{{< ci-details summary="Asymmetric Transitivity Preserving Graph Embedding (Mingdong Ou et al., 2016)">}}
+
+Mingdong Ou, Peng Cui, J. Pei, Ziwei Zhang, Wenwu Zhu. (2016)  
+**Asymmetric Transitivity Preserving Graph Embedding**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/07627bf7eb649220ffbcdf6bf233e3a4a76e8590)  
+Influential Citation Count (117), SS-ID (07627bf7eb649220ffbcdf6bf233e3a4a76e8590)  
+
+**ABSTRACT**  
+Graph embedding algorithms embed a graph into a vector space where the structure and the inherent properties of the graph are preserved. The existing graph embedding methods cannot preserve the asymmetric transitivity well, which is a critical property of directed graphs. Asymmetric transitivity depicts the correlation among directed edges, that is, if there is a directed path from u to v, then there is likely a directed edge from u to v. Asymmetric transitivity can help in capturing structures of graphs and recovering from partially observed graphs. To tackle this challenge, we propose the idea of preserving asymmetric transitivity by approximating high-order proximity which are based on asymmetric transitivity. In particular, we develop a novel graph embedding algorithm, High-Order Proximity preserved Embedding (HOPE for short), which is scalable to preserve high-order proximities of large scale graphs and capable of capturing the asymmetric transitivity. More specifically, we first derive a general formulation that cover multiple popular high-order proximity measurements, then propose a scalable embedding algorithm to approximate the high-order proximity measurements based on their general formulation. Moreover, we provide a theoretical upper bound on the RMSE (Root Mean Squared Error) of the approximation. Our empirical experiments on a synthetic dataset and three real-world datasets demonstrate that HOPE can approximate the high-order proximities significantly better than the state-of-art algorithms and outperform the state-of-art algorithms in tasks of reconstruction, link prediction and vertex recommendation.
+
+{{< /ci-details >}}
+
+<br/>
+
+High-order Proximity の指標として広く用いられている Katz Index を $S$ として採用する．
+
+$$
+\begin{array}{l}
+    S^{\text{Katz}} & = M\_a^{-1} M\_b \\\\
+    M\_a & = (I - \beta A) \\\\
+    M\_b & = \beta A \\\\
+    & \text{where} \\\\
+    & \hspace{10pt} \begin{array}{l}
+        I & \mapsto \text{Identity Matrix} \\\\
+        \beta & \mapsto \text{determines how fast the weight of a path decays when the length of path grows}
+    \end{array}
+\end{array}
+$$
+
+$\beta$ は収束に大きく影響するので，適切に設定する必要がある．
+
+Ou et al. (2016) で提案されている通り，ここで Generalized SVD (GSVD) を適用することによって，$S$ を計算することなく $S$ の特異値と特異ベクトルを得ることができる．  
+すなわち，目的関数における最適なEmbeddingは以下で与えられる．
+
+$$
+\begin{array}{l}
+    U & = \left[ \sqrt{\sigma\_1} \boldsymbol{v}\_1^l, \ldots, \sqrt{\sigma\_d}\boldsymbol{v}\_d^l\right] \\\\
+    U^\prime & = \left[ \sqrt{\sigma\_1} \boldsymbol{v}\_1^r, \ldots, \sqrt{\sigma\_d}\boldsymbol{v}\_d^r\right] \\\\
+    & \text{where} \\\\
+    & \hspace{10pt} \begin{array}{l}
+        \lbrace \sigma\_1, \ldots, \sigma\_N \rbrace & \mapsto \text{the singular values of }S \text{ sorted in descending order} \\\\
+        \boldsymbol{v}\_i^l, \boldsymbol{v}\_i^r & \mapsto \text{corresponding left and right singular vectors of }\sigma\_i
+    \end{array}
+\end{array}
+$$
+
+また，Ou et al. (2016) によれば，GSVD-Based Static Model のエラーバウンドは
+
+$$
+\left\lVert S - U{U^\prime}^\mathsf{T} \right\rVert \_F^2 = \sum\_{i=d+1}^N \sigma\_i^2
+$$
+
+である．
 
 #### Problem Transformation for Dynamic Model
 
