@@ -180,6 +180,59 @@ $$
 
 #### Problem Transformation for Dynamic Model
 
+$\Delta A$ および $U^{(t)}$ が与えられたときに， $U^{(t)}$ を $U^{(t+1)}$ へ更新する方法について検討する．  
+GSVDのアウトプットは下記で与えられる．
+
+$$
+\begin{array}{l}
+    S^{(t)} & = {M\_a^{(t)}}^{-1} M\_b^{(t)} = V^{l(t)} \Sigma^{(t)} {V^{r(t)}}^\mathsf{T} \\\\
+    \Sigma^{(t)} &= \text{diag} \left( \sigma\_1^{(t)}, \ldots, \sigma\_N^{(t)} \right) \\\\
+    & \text{where} \\\\
+    & \begin{array}{l}
+        V^{l(t)}, V^{r(t)} & \mapsto \text{singular vectors in matrices}
+    \end{array}
+\end{array}
+$$
+
+上式を直接計算して $S^{(t+1)}$ を算出するのは非常に計算コストが高いため，GSVDを次のように一般化固有値問題へ変形する．  
+無向グラフにおいては，$A$ および $S$ は対称行列となるので，
+
+$$
+\begin{array}{l}
+    M_a^{-1} M\_b X & = \Lambda X \\\\
+    \Lambda & = \text{diag} \left( \lambda\_1, \ldots, \lambda\_N \right) \\\\
+    \lambda\_i & = \sigma\_i \cdot \text{sgn} \left( \boldsymbol{v}\_i^l \cdot \boldsymbol{v}\_i^r \right) \\\\
+    X & = V^l \\\\
+    & \text{where} \\\\
+    & \begin{array}{l}
+        \lbrace \lambda\_i \rbrace & \mapsto \text{eigenvalues of }S\text{ in descending order} \\\\
+        X & \mapsto \text{a matrix which contains the corresponding eigen vectors of }\lambda\_i \\\\
+        \text{sgn} & \mapsto \text{Sign function}
+    \end{array}
+\end{array} \tag{1}
+$$
+
+となり，
+
+$$
+M\_b X = M\_a \Lambda X
+$$
+
+を得る．  
+上式は明らかに固有値問題の一般化された形式であり，その計算結果をGSVDに逆変形することができる．すなわち，
+
+$$
+\begin{array}{l}
+    \boldsymbol{v}\_i^l & = \boldsymbol{x}\_i \sigma\_i \\\\
+    & = \lvert \lambda\_i \rvert \boldsymbol{v}\_i^r \\\\
+    & = \boldsymbol{x}\_i \cdot \text{sgn} \left( \lambda\_i \right)
+\end{array} \tag{2}
+$$
+
+となる．したがって，$\Sigma^{(t)}$，$V^{l(t)}$， $V^{r(t)}$ が与えられれば，(1)によって $X^{(t)}$ および $\Lambda^{(t)}$ を計算することができ，$X^{(t+1)}$ および $\Lambda^{(t+1)}$ が得られれば，(2)によって $\Sigma^{(t)}$，$V^{l(t)}$， $V^{r(t)}$ を計算することができる．
+
+よって，次の問題は $X^{(t)}$ を $X^{(t+1)}$ に効率よく更新する計算をどのように実装するか，というものとなる．
+
 #### Generalized Eigen Perturbation
 
 ### Training Settings
