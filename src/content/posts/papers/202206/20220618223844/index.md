@@ -4,7 +4,7 @@ title: "High-order Proximity Preserved Embedding for Dynamic Networks"
 date: 2022-06-18
 author: "akitenkrad"
 description: ""
-tags: ["At:Round-2", "Published:20XX"]
+tags: ["At:Round-2", "Published:2018", "DS:BlogCatalog", "DS:Catster", "DS:Youtube-friendships"]
 menu:
   sidebar:
     name: 2022.06.18
@@ -58,17 +58,20 @@ Graph embedding algorithms embed a graph into a vector space where the structure
 
 ## Dataset
 
+- [BlogCatalog](https://www.re3data.org/repository/r3d100010959)
+- [Catster](http://konect.cc/networks/petster-friendships-cat/)
+- [Youtube1](http://konect.cc/networks/com-youtube/)
+
 ## Model Description
 
 ステップ $t$ における Dynamic Network を
 
 $$
 \begin{array}{l}
-    G^{(t)} & = \lbrace V^{(t)}, E^{(t)} \rbrace \\\\
-    & \text{where} \\\\
-    & \hspace{10pt} \begin{array}{l}
-        V^{(t)} = \left\lbrace v\_1^{(t)}, v\_2^{(t)}, \ldots, v\_N^{(t)} \right\rbrace
-    \end{array}
+    G^{(t)} = \lbrace V^{(t)}, E^{(t)} \rbrace
+\end{array} \tag{1} \\\\
+\text{where} \hspace{10pt} \begin{array}{l}
+    V^{(t)} = \left\lbrace v_1^{(t)}, v_2^{(t)}, \ldots, v_N^{(t)} \right\rbrace
 \end{array}
 $$
 
@@ -77,12 +80,11 @@ $$
 $$
 \begin{array}{l}
     \text{Embedding} & \mapsto U^{(t)} \in \mathbb{R}^{N \times d} \\\\
-    \text{High-order Proximity} & \mapsto S^{(t)} \hspace{10pt} (S\_{ij}^{(t)} \text{ is the proximity between }v\_i^{(t)}\text{ and }v\_j^{(t)}) \\\\
-    & \text{where} \\\\
-    & \hspace{10pt} \begin{array}{l}
-        d & \mapsto \text{embedding dimension} \\\\
-        S^{(t)} & \in \mathbb{R}^N
-    \end{array}
+    \text{High-order Proximity} & \mapsto S^{(t)} \hspace{10pt} (S_{ij}^{(t)} \text{ is the proximity between }v_i^{(t)}\text{ and }v_j^{(t)})
+\end{array} \tag{2} \\\\
+\text{where} \hspace{10pt} \begin{array}{l}
+    d & \mapsto \text{embedding dimension} \\\\
+    S^{(t)} & \in \mathbb{R}^N
 \end{array}
 $$
 
@@ -114,12 +116,11 @@ Ou et al. (2016) において提案されている手法にしたがって，次
 
 $$
 \begin{array}{l}
-    \min \left\lVert S - U{U^\prime}^\mathsf{T} \right\rVert\_F^2 \\\\
-    \text{where} \\\\
-    \hspace{10pt} \begin{array}{c}
-        U, U^\prime &\in& \mathbb{R}^{N \times d} \\\\
-        S &\in& \mathbb{R}^N
-    \end{array}
+    \min \left\lVert S - U{U^\prime}^\mathsf{T} \right\rVert_F^2 \\\\
+\end{array} \tag{3} \\\\
+\text{where} \hspace{10pt} \begin{array}{l}
+    U, U^\prime &\in& \mathbb{R}^{N \times d} \\\\
+    S &\in& \mathbb{R}^N
 \end{array}
 $$
 
@@ -142,14 +143,14 @@ High-order Proximity の指標として広く用いられている Katz Index �
 
 $$
 \begin{array}{l}
-    S^{\text{Katz}} & = M\_a^{-1} M\_b \\\\
-    M\_a & = (I - \beta A) \\\\
-    M\_b & = \beta A \\\\
-    & \text{where} \\\\
-    & \hspace{10pt} \begin{array}{l}
-        I & \mapsto \text{Identity Matrix} \\\\
-        \beta & \mapsto \text{determines how fast the weight of a path decays when the length of path grows}
-    \end{array}
+    S^{\text{Katz}} & = M_a^{-1} M_b \\\\
+    M_a & = (I - \beta A) \\\\
+    M_b & = \beta A
+\end{array} \tag{4} \\\\
+\text{where} \hspace{10pt} \begin{array}{l}
+    I & \mapsto & \text{Identity Matrix} \\\\
+    \beta & \mapsto & \text{determines how fast the weight of a path decays} \\\\
+          & & \text{when the length of path grows}
 \end{array}
 $$
 
@@ -160,20 +161,21 @@ Ou et al. (2016) で提案されている通り，ここで Generalized SVD (GSV
 
 $$
 \begin{array}{l}
-    U & = \left[ \sqrt{\sigma\_1} \boldsymbol{v}\_1^l, \ldots, \sqrt{\sigma\_d}\boldsymbol{v}\_d^l\right] \\\\
-    U^\prime & = \left[ \sqrt{\sigma\_1} \boldsymbol{v}\_1^r, \ldots, \sqrt{\sigma\_d}\boldsymbol{v}\_d^r\right] \\\\
-    & \text{where} \\\\
-    & \hspace{10pt} \begin{array}{l}
-        \lbrace \sigma\_1, \ldots, \sigma\_N \rbrace & \mapsto \text{the singular values of }S \text{ sorted in descending order} \\\\
-        \boldsymbol{v}\_i^l, \boldsymbol{v}\_i^r & \mapsto \text{corresponding left and right singular vectors of }\sigma\_i
-    \end{array}
+    U & = \left[ \sqrt{\sigma_1} \boldsymbol{v}_1^l, \ldots, \sqrt{\sigma_d}\boldsymbol{v}_d^l\right] \\\\
+    U^\prime & = \left[ \sqrt{\sigma_1} \boldsymbol{v}_1^r, \ldots, \sqrt{\sigma_d}\boldsymbol{v}_d^r\right]
+\end{array} \tag{5} \\\\
+\text{where} \hspace{10pt} \begin{array}{l}
+    \lbrace \sigma_1, \ldots, \sigma_N \rbrace & \mapsto \text{the singular values of }S \text{ sorted in descending order} \\\\
+    \boldsymbol{v}_i^l, \boldsymbol{v}_i^r & \mapsto \text{corresponding left and right singular vectors of }\sigma_i
 \end{array}
 $$
 
 また，Ou et al. (2016) によれば，GSVD-Based Static Model のエラーバウンドは
 
 $$
-\left\lVert S - U{U^\prime}^\mathsf{T} \right\rVert \_F^2 = \sum\_{i=d+1}^N \sigma\_i^2
+\begin{equation}
+\left\lVert S - U{U^\prime}^\mathsf{T} \right\rVert_F^2 = \sum_{i=d+1}^N \sigma_i^2
+\end{equation} \tag{6}
 $$
 
 である．
@@ -185,12 +187,11 @@ GSVDのアウトプットは下記で与えられる．
 
 $$
 \begin{array}{l}
-    S^{(t)} & = {M\_a^{(t)}}^{-1} M\_b^{(t)} = V^{l(t)} \Sigma^{(t)} {V^{r(t)}}^\mathsf{T} \\\\
-    \Sigma^{(t)} &= \text{diag} \left( \sigma\_1^{(t)}, \ldots, \sigma\_N^{(t)} \right) \\\\
-    & \text{where} \\\\
-    & \begin{array}{l}
-        V^{l(t)}, V^{r(t)} & \mapsto \text{singular vectors in matrices}
-    \end{array}
+    S^{(t)} & = {M_a^{(t)}}^{-1} M_b^{(t)} = V^{l(t)} \Sigma^{(t)} {V^{r(t)}}^\mathsf{T} \\\\
+    \Sigma^{(t)} &= \text{diag} \left( \sigma_1^{(t)}, \ldots, \sigma_N^{(t)} \right) \\\\
+\end{array} \tag{7} \\\\
+\text{where} \hspace{10pt} \begin{array}{l}
+    V^{l(t)}, V^{r(t)} & \mapsto \text{singular vectors in matrices}
 \end{array}
 $$
 
@@ -199,23 +200,24 @@ $$
 
 $$
 \begin{array}{l}
-    M_a^{-1} M\_b X & = \Lambda X \\\\
-    \Lambda & = \text{diag} \left( \lambda\_1, \ldots, \lambda\_N \right) \\\\
-    \lambda\_i & = \sigma\_i \cdot \text{sgn} \left( \boldsymbol{v}\_i^l \cdot \boldsymbol{v}\_i^r \right) \\\\
-    X & = V^l \\\\
-    & \text{where} \\\\
-    & \begin{array}{l}
-        \lbrace \lambda\_i \rbrace & \mapsto \text{eigenvalues of }S\text{ in descending order} \\\\
-        X & \mapsto \text{a matrix which contains the corresponding eigen vectors of }\lambda\_i \\\\
-        \text{sgn} & \mapsto \text{Sign function}
-    \end{array}
-\end{array} \tag{1}
+    M_a^{-1} M_b X & = \Lambda X \\\\
+    \Lambda & = \text{diag} \left( \lambda_1, \ldots, \lambda_N \right) \\\\
+    \lambda_i & = \sigma_i \cdot \text{sgn} \left( \boldsymbol{v}_i^l \cdot \boldsymbol{v}_i^r \right) \\\\
+    X & = V^l
+\end{array} \tag{8} \\\\
+\text{where} \hspace{10pt} \begin{array}{l}
+    \lbrace \lambda_i \rbrace & \mapsto \text{eigenvalues of }S\text{ in descending order} \\\\
+    X & \mapsto \text{a matrix which contains the corresponding eigen vectors of }\lambda_i \\\\
+    \text{sgn} & \mapsto \text{Sign function}
+\end{array}
 $$
 
 となり，
 
 $$
-M\_b X = M\_a \Lambda X
+\begin{equation}
+    M_b X = M_a \Lambda X
+\end{equation} \tag{9}
 $$
 
 を得る．  
@@ -223,21 +225,247 @@ $$
 
 $$
 \begin{array}{l}
-    \boldsymbol{v}\_i^l & = \boldsymbol{x}\_i \sigma\_i \\\\
-    & = \lvert \lambda\_i \rvert \boldsymbol{v}\_i^r \\\\
-    & = \boldsymbol{x}\_i \cdot \text{sgn} \left( \lambda\_i \right)
-\end{array} \tag{2}
+    \boldsymbol{v}_i^l & = \boldsymbol{x}_i \sigma_i \\\\
+    & = \lvert \lambda_i \rvert \boldsymbol{v}_i^r \\\\
+    & = \boldsymbol{x}_i \cdot \text{sgn} \left( \lambda_i \right)
+\end{array} \tag{10}
 $$
 
-となる．したがって，$\Sigma^{(t)}$，$V^{l(t)}$， $V^{r(t)}$ が与えられれば，(1)によって $X^{(t)}$ および $\Lambda^{(t)}$ を計算することができ，$X^{(t+1)}$ および $\Lambda^{(t+1)}$ が得られれば，(2)によって $\Sigma^{(t)}$，$V^{l(t)}$， $V^{r(t)}$ を計算することができる．
+となる．したがって，$\Sigma^{(t)}$，$V^{l(t)}$， $V^{r(t)}$ が与えられれば，(8) によって $X^{(t)}$ および $\Lambda^{(t)}$ を計算することができ，$X^{(t+1)}$ および $\Lambda^{(t+1)}$ が得られれば，(10) によって $\Sigma^{(t)}$，$V^{l(t)}$， $V^{r(t)}$ を計算することができる．
 
 よって，次の問題は $X^{(t)}$ を $X^{(t+1)}$ に効率よく更新する計算をどのように実装するか，というものとなる．
 
 #### Generalized Eigen Perturbation
 
-### Training Settings
+隣接行列の直前のタイムステップからの差分 $\Delta A$ を受け取って，$M\_a$，$M\_b$ の差分は以下のように計算できる
+
+$$
+\begin{array}{l}
+    \Delta M_a & = -\beta \Delta A \\\\
+    \Delta M_b & = \beta \Delta A
+\end{array} \tag{11}
+$$
+
+したがって，固有値と固有ベクトルの差分について，(9) より
+
+$$
+\begin{array}{l}
+    \left( M_b + \Delta M_b \right)\left( X + \Delta X \right) = \left( M_a + \Delta M_a \right)\left(\Lambda + \Delta \Lambda \right)\left( X + \Delta X \right)
+\end{array} \tag{12}
+$$
+
+を得る．特定の固有値，固有ベクトルのペアについては，
+
+$$
+\begin{array}{l}
+    \left( M_b + \Delta M_b \right)\left( \boldsymbol{x}_i + \Delta \boldsymbol{x}_i \right) = \left( \lambda_i + \Delta \lambda_i \right) \left( M_a + \Delta M_a \right) \left( \boldsymbol{x}_i + \Delta \boldsymbol{x}_i \right)
+\end{array} \tag{13}
+$$
+
+となる．
+
+まず $\Delta \lambda_i$ を計算する．
+
+$\Delta M_b x_i = \lambda_i M_a \boldsymbol{x}_i$ であることおよび， $\Delta M_b \Delta \boldsymbol{x}_i$，$\lambda_i \Delta M_a \Delta \boldsymbol{x}_i$ などの高次項は精度への影響が小さいことがわかっているため除外できることを考慮し，さらに両辺に左から ${\boldsymbol{x}_i}^\mathsf{T}$ をかけることによって，(13) は
+
+$$
+\begin{equation}
+    {\boldsymbol{x}_i}^\mathsf{T} M_b \Delta \boldsymbol{x}_i + {\boldsymbol{x}_i}^\mathsf{T} \Delta M_b \boldsymbol{x}_i = \lambda_i {\boldsymbol{x}_i}^\mathsf{T} M_a \Delta \boldsymbol{x}_i + \lambda_i {\boldsymbol{x}_i}^\mathsf{T} \Delta M_a \boldsymbol{x}_i + \Delta \lambda_i {\boldsymbol{x}_i}^\mathsf{T} M_a \boldsymbol{x}_i
+\end{equation} \tag{14}
+$$
+
+のように変形することができる．
+
+$M_a$ と $M_b$ は対称行列であるから，結局
+
+$$
+\begin{equation}
+    {\boldsymbol{x}_i}^\mathsf{T} M_b = \lambda_i {\boldsymbol{x}_i}^\mathsf{T} M_a
+\end{equation} \tag{15}
+$$
+
+を得る．したがって，
+
+$$
+\begin{equation}
+    \Delta \lambda_i = \frac{H_b(i, i) - \lambda_i H_a(i, i)}{F_a(i, i)}
+\end{equation} \tag{16} \\\\
+\text{where} \hspace{10pt} \begin{array}{l}
+    H_a(i, j) = {\boldsymbol{x}_i}^\mathsf{T} \Delta M_a \boldsymbol{x}_j \\\\
+    H_b(i, j) = {\boldsymbol{x}_i}^\mathsf{T} \Delta M_b \boldsymbol{x}_j \\\\
+    F_a(i, j) = {\boldsymbol{x}_i}^\mathsf{T} M_a \boldsymbol{x}_j \\\\
+    F_b(i, j) = {\boldsymbol{x}_i}^\mathsf{T} M_b \boldsymbol{x}_j
+\end{array}
+$$
+
+となる．
+
+次に $\Delta \boldsymbol{x}_i$ を計算する．
+
+行列摂動理論により，グラフの隣り合うタイムステップ間での差異はスムーズなものであり，線形近似できると考えられるので，
+
+$$
+\begin{array}{l}
+    \Delta \boldsymbol{x}\_i = {\displaystyle\sum\_{j=1, j \neq i}^d} \alpha\_{ij} \boldsymbol{x}\_j
+\end{array} \tag{17} \\\\
+\text{where} \hspace{10pt} \begin{equation}
+    \alpha_{ij} \mapsto \text{the coefficient indicating the contribution of }x\_j\text{ to }\Delta \boldsymbol{x}\_i
+\end{equation}
+$$
+
+と表せる．したがって，
+
+$$
+\begin{equation}
+    \alpha\_i = W^{-1}B
+\end{equation} \tag{18} \\\\
+\text{where} \hspace{10pt} \begin{array}{l}
+    \alpha\_i = \left[ \alpha\_{i1}, \ldots, \alpha\_{i(i-1)}, \alpha\_{i(i+1)}, \ldots, \alpha\_{id} \right] \hspace{10pt} (\alpha\_{ij} \text{ for } 1 \leq j \leq d, j \neq i) \\\\
+    B(p) = H\_b(p, i) - (\lambda\_i + \Delta \lambda\_i) H\_a (p, i) - \Delta \lambda\_i F\_a (p, i) \\\\
+    W(p, j) = (\lambda\_i + \Delta \lambda\_i) {\displaystyle \sum\_{j=1, j \neq i}^d} H\_a (p, j) - {\displaystyle \sum\_{j=1, j \neq i}^d} H\_b (p, j) + (\lambda\_i + \Delta \lambda\_i) {\displaystyle \sum\_{j=1, j \neq i}^d} F\_a (p, j) - {\displaystyle \sum\_{j=1, j \neq i}^d} F\_b (p, j)
+\end{array}
+$$
+
+となる．
+
+(16)，(17)，(18) から固有値と固有ベクトルのタイムステップ間の差分が計算できるので， $\Lambda^{(t+1)}$，$X^{(t+1)}$ を計算することができる．
+
+<figure>
+    <img src="algorithm.png" width="100%"/>
+    <figcaption>Algorithm</figcaption>
+</figure>
 
 ## Results
+
+### Settings
+
+#### Tasks
+- 無向ネットワークの Embedding において，high-order proximity を捉える性能を検証する
+- Dynamic Network における提案手法 (DHPE) の有効性を検証する
+- 提案手法 (DHPE) の効率性を検証する
+
+#### Baseline Methods
+{{< ci-details summary="LINE (Jian Tang et al., 2015)">}}
+Jian Tang, Meng Qu, Mingzhe Wang, Ming Zhang, Jun Yan, Q. Mei. (2015)  
+**LINE: Large-scale Information Network Embedding**  
+WWW  
+[Paper Link](https://www.semanticscholar.org/paper/0834e74304b547c9354b6d7da6fa78ef47a48fa8)  
+Influential Citation Count (867), SS-ID (0834e74304b547c9354b6d7da6fa78ef47a48fa8)  
+**ABSTRACT**  
+This paper studies the problem of embedding very large information networks into low-dimensional vector spaces, which is useful in many tasks such as visualization, node classification, and link prediction. Most existing graph embedding methods do not scale for real world information networks which usually contain millions of nodes. In this paper, we propose a novel network embedding method called the ``LINE,'' which is suitable for arbitrary types of information networks: undirected, directed, and/or weighted. The method optimizes a carefully designed objective function that preserves both the local and global network structures. An edge-sampling algorithm is proposed that addresses the limitation of the classical stochastic gradient descent and improves both the effectiveness and the efficiency of the inference. Empirical experiments prove the effectiveness of the LINE on a variety of real-world information networks, including language networks, social networks, and citation networks. The algorithm is very efficient, which is able to learn the embedding of a network with millions of vertices and billions of edges in a few hours on a typical single machine. The source code of the LINE is available online\footnote{\url{https://github.com/tangjianpku/LINE}}.
+{{< /ci-details >}}
+{{< ci-details summary="DeepWalk (Bryan Perozzi et al., 2014)">}}
+Bryan Perozzi, Rami Al-Rfou, S. Skiena. (2014)  
+**DeepWalk: online learning of social representations**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/fff114cbba4f3ba900f33da574283e3de7f26c83)  
+Influential Citation Count (1396), SS-ID (fff114cbba4f3ba900f33da574283e3de7f26c83)  
+**ABSTRACT**  
+We present DeepWalk, a novel approach for learning latent representations of vertices in a network. These latent representations encode social relations in a continuous vector space, which is easily exploited by statistical models. DeepWalk generalizes recent advancements in language modeling and unsupervised feature learning (or deep learning) from sequences of words to graphs. DeepWalk uses local information obtained from truncated random walks to learn latent representations by treating walks as the equivalent of sentences. We demonstrate DeepWalk's latent representations on several multi-label network classification tasks for social networks such as BlogCatalog, Flickr, and YouTube. Our results show that DeepWalk outperforms challenging baselines which are allowed a global view of the network, especially in the presence of missing information. DeepWalk's representations can provide F1 scores up to 10% higher than competing methods when labeled data is sparse. In some experiments, DeepWalk's representations are able to outperform all baseline methods while using 60% less training data. DeepWalk is also scalable. It is an online learning algorithm which builds useful incremental results, and is trivially parallelizable. These qualities make it suitable for a broad class of real world applications such as network classification, and anomaly detection.
+{{< /ci-details >}}
+{{< ci-details summary="node2vec (Aditya Grover et al., 2016)">}}
+Aditya Grover, J. Leskovec. (2016)  
+**node2vec: Scalable Feature Learning for Networks**  
+KDD  
+[Paper Link](https://www.semanticscholar.org/paper/36ee2c8bd605afd48035d15fdc6b8c8842363376)  
+Influential Citation Count (1164), SS-ID (36ee2c8bd605afd48035d15fdc6b8c8842363376)  
+**ABSTRACT**  
+Prediction tasks over nodes and edges in networks require careful effort in engineering features used by learning algorithms. Recent research in the broader field of representation learning has led to significant progress in automating prediction by learning the features themselves. However, present feature learning approaches are not expressive enough to capture the diversity of connectivity patterns observed in networks. Here we propose node2vec, an algorithmic framework for learning continuous feature representations for nodes in networks. In node2vec, we learn a mapping of nodes to a low-dimensional space of features that maximizes the likelihood of preserving network neighborhoods of nodes. We define a flexible notion of a node's network neighborhood and design a biased random walk procedure, which efficiently explores diverse neighborhoods. Our algorithm generalizes prior work which is based on rigid notions of network neighborhoods, and we argue that the added flexibility in exploring neighborhoods is the key to learning richer representations. We demonstrate the efficacy of node2vec over existing state-of-the-art techniques on multi-label classification and link prediction in several real-world networks from diverse domains. Taken together, our work represents a new way for efficiently learning state-of-the-art task-independent representations in complex networks.
+{{< /ci-details >}}
+{{< ci-details summary="GraRep (Shaosheng Cao et al., 2015)">}}
+Shaosheng Cao, Wei Lu, Qiongkai Xu. (2015)  
+**GraRep: Learning Graph Representations with Global Structural Information**  
+CIKM  
+[Paper Link](https://www.semanticscholar.org/paper/c2fd72cb2a77941e655b5d949d0d59b01e173c3b)  
+Influential Citation Count (142), SS-ID (c2fd72cb2a77941e655b5d949d0d59b01e173c3b)  
+**ABSTRACT**  
+In this paper, we present {GraRep}, a novel model for learning vertex representations of weighted graphs. This model learns low dimensional vectors to represent vertices appearing in a graph and, unlike existing work, integrates global structural information of the graph into the learning process. We also formally analyze the connections between our work and several previous research efforts, including the DeepWalk model of Perozzi et al. as well as the skip-gram model with negative sampling of Mikolov et al. We conduct experiments on a language network, a social network as well as a citation network and show that our learned global representations can be effectively used as features in tasks such as clustering, classification and visualization. Empirical results demonstrate that our representation significantly outperforms other state-of-the-art methods in such tasks.
+{{< /ci-details >}}
+{{< ci-details summary="TRIP (C. Chen et al., 2015)">}}
+C. Chen, Hanghang Tong. (2015)  
+**Fast Eigen-Functions Tracking on Dynamic Graphs**  
+SDM  
+[Paper Link](https://www.semanticscholar.org/paper/ddc3dc43095173a6b5f0a6f5fbdde79e1abac34d)  
+Influential Citation Count (3), SS-ID (ddc3dc43095173a6b5f0a6f5fbdde79e1abac34d)  
+**ABSTRACT**  
+Many important graph parameters can be expressed as eigenfunctions of its adjacency matrix. Examples include epidemic threshold, graph robustness, etc. It is often of key importance to accurately monitor these parameters. For example, knowing that Ebola virus has already been brought to the US continent, to avoid the virus from spreading away, it is important to know which emerging connections among related people would cause great reduction on the epidemic threshold of the network. However, most, if not all, of the existing algorithms computing these measures assume that the input graph is static, despite the fact that almost all real graphs are evolving over time. In this paper, we propose two online algorithms to track the eigen-functions of a dynamic graph with linear complexity wrt the number of nodes and number of changed edges in the graph. The key idea is to leverage matrix perturbation theory to efficiently update the top eigen-pairs of the underlying graph without recomputing them from scratch at each time stamp. Experiment results demonstrate that our methods can reach up to 20× speedup with precision more than 80% for fairly long period of time.
+{{< /ci-details >}}
+
+- embedding dimention $d \mapsto 100$
+- $\beta \mapsto 0.8 / r$ ($r$ は隣接行列のスペクトル半径) 
+
+#### Evaluation Metrics
+- RMSE
+    $$
+    \begin{equation}
+        \text{RMSE} = \sqrt{\frac{\left\lVert S - U{U^\prime}^\mathsf{T} \right\rVert \_F^2}{N^2}}
+    \end{equation} \tag{19}
+    $$
+
+- Precision@k
+    $$
+    \begin{equation}
+        \text{Precision@k} = \frac{\left\lvert\lbrace (i,j)|(i,j) \in E\_p \cap E\_o\rbrace\right\rvert}{\lvert E\_p \rvert}
+    \end{equation} \tag{20} \\\\
+    \text{where} \hspace{10pt} \begin{array}{l}
+        E\_p & \mapsto \text{the set of predicted top }k\text{ edges} \\\\
+        E\_o & \mapsto \text{ the set of observed edges} \\\\
+        \lvert \cdot \rvert & \mapsto \text{the size of a set}
+    \end{array}
+    $$
+
+- Mean Average Precision (MAP) @k
+    $$
+    \begin{array}{l}
+        \text{AP@}k(i) & = {\displaystyle \frac{\sum\_{j=1}^k \text{Precision@}j(i) \cdot \delta\_i(j)}{\sum\_{j=1}^k \delta\_i(j)}} \\\\
+        \text{MAP@}k & = {\displaystyle \frac{\sum\_{v\_i \in V} \text{AP@}k(i)}{\lvert V \rvert}}
+    \end{array} \tag{21} \\\\
+    \text{where} \hspace{10pt} \begin{array}{l}
+        \text{Precision@}j(i) & \mapsto \text{Precision@}j\text{ for node }v\_i \\\\
+        \delta\_i(j) & = \left\lbrace \begin{array}{l}
+            1 & \text{if } v\_i \text{ and } v\_j \text{ have an edge} \\\\
+            0 & \text{otherwise}
+        \end{array}\right.
+    \end{array}
+    $$
+
+### Effectiveness of the Static Model
+
+<figure>
+    <img src="figure-1.png" width="100%"/>
+    <figcaption>Link Prediction on static networks</figcaption>
+</figure>
+
+### Effectiveness of the Dynamic Model
+
+#### High-Order Proximity Approximation
+
+<figure>
+    <img src="figure-2.png" width="100%"/>
+    <figcaption>High-Order Proximity Approximation</figcaption>
+</figure>
+
+#### Link Prediction
+
+<figure>
+    <img src="figure-3.png" width="100%"/>
+    <figcaption>Link Prediction</figcaption>
+</figure>
+
+#### Node Reccomencation
+
+<figure>
+    <img src="figure-4.png" width="100%"/>
+    <figcaption>Node Reccomenation</figcaption>
+</figure>
+
+#### Multi-Label Classification
+
+<figure>
+    <img src="figure-5.png" width="100%"/>
+    <figcaption>Multi-Label Classification</figcaption>
+</figure>
+
 
 ## References
 

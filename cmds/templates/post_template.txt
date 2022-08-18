@@ -28,9 +28,9 @@ math: true
 
 ## Model Description
 
-### Training Settings
-
 ## Results
+
+### Settings
 
 ## References
 
