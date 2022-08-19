@@ -15,7 +15,7 @@
 
           {{ if ne $filterword "" }}
             {{ if in .Page.Title $filterword }}
-              {{ if ne $trimword }}
+              {{ if ne $trimword "" }}
                 <li>
                   <a class="taxonomy-term {{ $class }}" href="{{ .Page.Permalink }}" data-taxonomy-term="{{ urlize .Page.Title }}">
                     <span class="taxonomy-label">{{ replace .Page.Title $trimword "" }}</span>
