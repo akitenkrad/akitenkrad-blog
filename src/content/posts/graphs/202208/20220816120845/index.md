@@ -4,7 +4,7 @@ title: "都道府県別消費者物価指数/教育（全国平均=100）"
 date: 2022-08-16 
 author: "akitenkrad"
 description: ""
-tags: ["Graphs", "Graph-XXX"]
+tags: ["Graphs", "Graph-物価"]
 menu:
   sidebar:
     name: 都道府県別消費者物価指数/教育（全国平均=100）

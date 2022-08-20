@@ -4,7 +4,7 @@ title: "業種別企業特殊的人的資本 (2018)"
 date: 2022-08-17
 author: "akitenkrad"
 description: ""
-tags: ["Graphs", "Graph-XXX"]
+tags: ["Graphs", "Graph-企業統計"]
 menu:
   sidebar:
     name: 業種別企業特殊的人的資本 (2018)

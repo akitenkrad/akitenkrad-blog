@@ -4,7 +4,7 @@ title: "年齢別大学院入学者数 (2021)"
 date: 2022-08-15 
 author: "akitenkrad"
 description: ""
-tags: ["Graphs", "Graph-XXX"]
+tags: ["Graphs", "Graph-大学"]
 menu:
   sidebar:
     name: 年齢別大学院入学者数 (2021)

@@ -4,7 +4,7 @@ title: "情報サービス業における企業特殊的人的資本（名目）
 date: 2022-08-18 
 author: "akitenkrad"
 description: ""
-tags: ["Graphs", "Graph-XXX"]
+tags: ["Graphs", "Graph-企業統計"]
 menu:
   sidebar:
     name: 情報サービス業における企業特殊的人的資本（名目）の推移

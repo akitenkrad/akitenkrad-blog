@@ -4,7 +4,7 @@ title: "東京23区の乗用車保有台数"
 date: 2022-08-14 
 author: "akitenkrad"
 description: ""
-tags: ["Graphs", "Graph-XXX"]
+tags: ["Graphs", "Graph-車両データ"]
 menu:
   sidebar:
     name: 東京23区の乗用車保有台数
