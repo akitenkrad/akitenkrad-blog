@@ -4,7 +4,7 @@ title: "1ヶ月当たりの実労働時間の推移"
 date: 2022-08-22 
 author: "akitenkrad"
 description: ""
-tags: ["Graphs", "Graph-XXX"]
+tags: ["Graphs", "Graph-労働時間", "Graph-時系列"]
 menu:
   sidebar:
     name: 1ヶ月当たりの実労働時間の推移

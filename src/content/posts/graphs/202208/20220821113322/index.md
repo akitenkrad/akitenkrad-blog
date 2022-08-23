@@ -4,7 +4,7 @@ title: "地域別1世帯当たり1ヶ月間の支出額の推移"
 date: 2022-08-21 
 author: "akitenkrad"
 description: ""
-tags: ["Graphs", "Graph-XXX"]
+tags: ["Graphs", "Graph-支出額", "Graph-時系列"]
 menu:
   sidebar:
     name: 地域別1世帯当たり1ヶ月間の支出額の推移

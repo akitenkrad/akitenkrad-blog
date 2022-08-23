@@ -200,6 +200,7 @@ class Paper(object):
             "" + self.abstract.replace(os.linesep, " ").strip() if self.has_abstract else "",
             "",
             "{{< /ci-details >}}",
+            "",
             os.linesep,
         ]
         f.write(re.sub(r"\n\n+", "\n", os.linesep.join(citation)))

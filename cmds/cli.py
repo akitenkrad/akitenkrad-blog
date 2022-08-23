@@ -16,9 +16,9 @@ def cli():
 
 
 @cli.command()
-@click.option("--title", type=str, help="title of the paper")
-def new_post(title: str):
-    """create new post"""
+@click.option("--title", type=str, help="title of the paper", required=True)
+def new_paper(title: str):
+    """create new post for papers"""
     assert len(title) > 0
 
     text = open(Path(__file__).parent / "templates" / "post_template.txt").read()
@@ -64,16 +64,9 @@ menu:
 
 
 @cli.command()
-@click.option("--title", type=str, help="title of the paper")
-@click.option("--out-file", type=click.Path(exists=True), help="output file path")
-def get_references(title: str, out_file: str):
-    add_references(title, out_file)
-
-
-@cli.command()
-@click.option("--title", type=str, help="title of the paper")
+@click.option("--title", type=str, help="title of the paper", required=True)
 def new_graph(title: str):
-    """create new graph"""
+    """create new post for graphs"""
     assert len(title) > 0
 
     text = open(Path(__file__).parent / "templates" / "graph_template.txt").read()
