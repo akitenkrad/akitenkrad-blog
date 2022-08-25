@@ -14,11 +14,13 @@ menu:
 math: true
 ---
 
+## Graph
 <figure style="width:100%; display:flex; justify-content:center; align-items:center; flex-direction:column;">
     <iframe src="out.html" width="1110pt" height="650pt" style="border:none"></iframe>
     <figcaption>東京23区の乗用車保有台数</figcaption>
 </figure>
 
+## Code
 ```python
 !pip install -U kaleido
 !pip install japanize-matplotlib
@@ -78,6 +80,7 @@ fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 fig.show()
 ```
 
+## Source
 {{< citation >}}
 Data From: [関東運輸局](https://wwwtb.mlit.go.jp/kanto/jidou_gian/toukei/tiiki_betu.html)
 {{< /citation >}}

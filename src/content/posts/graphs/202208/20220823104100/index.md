@@ -14,11 +14,13 @@ menu:
 math: true
 ---
 
+## Graph
 <figure style="width:100%; display:flex; justify-content:center; align-items:center; flex-direction:column;">
     <iframe src="out.html" width="1110pt" height="650pt" style="border:none"></iframe>
     <figcaption>睡眠時間の推移</figcaption>
 </figure>
 
+## Code
 ```python
 !pip install -U kaleido
 !pip install japanize-matplotlib
@@ -90,6 +92,7 @@ fig.update_layout(
 fig.show()
 ```
 
+## Source
 {{< citation >}}
 Data From: [社会生活基本調査](https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200533&tstat=000001095335)
 {{< /citation >}}

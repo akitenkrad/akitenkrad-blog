@@ -14,15 +14,18 @@ menu:
 math: true
 ---
 
+## Graph
 <figure style="width:100%; display:flex; justify-content:center; align-items:center; flex-direction:column;">
     <iframe src="out.html" width="1110pt" height="650pt" style="border:none"></iframe>
     <figcaption>{TITLE}</figcaption>
 </figure>
 
+## Code
 ```python
 import xxxx
 ```
 
+## Source
 {{{{< citation >}}}}
 Data From: []()
 {{{{< /citation >}}}}

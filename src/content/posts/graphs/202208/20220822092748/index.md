@@ -14,11 +14,13 @@ menu:
 math: true
 ---
 
+## Graph
 <figure style="width:100%; display:flex; justify-content:center; align-items:center; flex-direction:column;">
     <iframe src="out.html" width="1110pt" height="650pt" style="border:none"></iframe>
     <figcaption>1ヶ月当たりの実労働時間の推移</figcaption>
 </figure>
 
+## Code
 ```python
 !pip install -U kaleido
 !pip install japanize-matplotlib
@@ -85,6 +87,7 @@ fig.update_layout(template="seaborn")
 fig.show()
 ```
 
+## Source
 {{< citation >}}
 Data From: [労働統計要覧](https://www.mhlw.go.jp/toukei/youran/indexyr_d.html)
 {{< /citation >}}

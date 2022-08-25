@@ -14,6 +14,7 @@ menu:
 math: true
 ---
 
+## Graph
 <figure style="width:100%; display:flex; justify-content:center; align-items:center; flex-direction:column;">
     <iframe src="out2.html" width="1110pt" height="650pt" style="border:none"></iframe>
     <figcaption>都道府県別国公立別学校数</figcaption>
@@ -24,6 +25,7 @@ math: true
     <figcaption>都道府県別国公立別学生数</figcaption>
 </figure>
 
+## Code
 ```python
 !pip install -U kaleido
 !pip install japanize-matplotlib
@@ -130,6 +132,7 @@ fig.update_layout(template="seaborn")
 fig.show()
 ```
 
+## Source
 {{< citation >}}
 Data From: [学校基本調査](https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00400001&tstat=000001011528)
 {{< /citation >}}

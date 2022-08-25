@@ -14,11 +14,13 @@ menu:
 math: true
 ---
 
+## Graph
 <figure style="width:100%; display:flex; justify-content:center; align-items:center; flex-direction:column;">
     <iframe src="out.html" width="1110pt" height="650pt" style="border:none"></iframe>
     <figcaption>地域別1世帯当たり1ヶ月間の支出額の推移</figcaption>
 </figure>
 
+## Code
 ```python
 !pip install -U kaleido
 !pip install japanize-matplotlib
@@ -78,6 +80,7 @@ fig.update_layout(template="seaborn")
 fig.show()
 ```
 
+## Source
 {{< citation >}}
 Data From: [家計消費状況調査](https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200565)
 {{< /citation >}}

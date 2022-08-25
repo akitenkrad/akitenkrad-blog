@@ -14,11 +14,13 @@ menu:
 math: true
 ---
 
+## Graph
 <figure style="width:100%; display:flex; justify-content:center; align-items:center; flex-direction:column;">
     <iframe src="out.html" width="1110pt" height="650pt" style="border:none"></iframe>
     <figcaption>金沢市の夏の月平均気温の遷移</figcaption>
 </figure>
 
+## Code
 ```python
 !pip install -U kaleido
 !pip install japanize-matplotlib
@@ -70,6 +72,7 @@ fig.update_layout(template="seaborn")
 fig.show()
 ```
 
+## Source
 {{< citation >}}
 Data From: [気象庁](https://www.data.jma.go.jp/obd/stats/etrn/index.php?prec_no=56&block_no=47605&year=&month=&day=&view=p1)
 {{< /citation >}}

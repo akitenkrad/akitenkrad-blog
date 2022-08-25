@@ -14,11 +14,13 @@ menu:
 math: true
 ---
 
+## Graph
 <figure style="width:100%; display:flex; justify-content:center; align-items:center; flex-direction:column;">
     <iframe src="out.html" width="1110pt" height="650pt" style="border:none"></iframe>
     <figcaption>業種別企業特殊的人的資本 (2018)</figcaption>
 </figure>
 
+## Code
 ```python
 !pip install -U kaleido
 !pip install japanize-matplotlib
@@ -75,6 +77,7 @@ fig.update_layout(template="seaborn")
 fig.show()
 ```
 
+## Source
 {{< citation >}}
 Data From: [日本産業生産性（JIP）データベース](https://www.rieti.go.jp/jp/database/JIP2021/index.html#04)
 {{< /citation >}}

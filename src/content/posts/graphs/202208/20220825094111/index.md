@@ -1,14 +1,14 @@
 ---
 draft: false
-title: "有業者の社会生活における活動の変化"
-date: 2022-08-24 
+title: "無業者の社会生活における活動の変化"
+date: 2022-08-25 
 author: "akitenkrad"
 description: ""
-tags: ["Graphs", "Graph-社会生活", "Graph-有業者", "Graph-時系列"]
+tags: ["Graphs", "Graph-社会生活", "Graph-無業者", "Graph-時系列"]
 menu:
   sidebar:
-    name: 有業者の社会生活における活動の変化
-    identifier: 20220824_graph
+    name: 無業者の社会生活における活動の変化
+    identifier: 20220825_graph
     parent: 202208_graphs
     weight: 10
 math: true
@@ -16,8 +16,8 @@ math: true
 
 ## Graph
 <figure style="width:100%; display:flex; justify-content:center; align-items:center; flex-direction:column;">
-    <iframe src="out.html" width="1130pt" height="1200pt" style="border:none"></iframe>
-    <figcaption>有業者の社会生活における活動の変化</figcaption>
+    <iframe src="out.html" width="1120pt" height="1120pt" style="border:none"></iframe>
+    <figcaption>無業者の社会生活における活動の変化</figcaption>
 </figure>
 
 ## Code
@@ -33,6 +33,7 @@ matplotlib.get_cachedir()
 
 import pandas as pd
 import json
+from pathlib import Path
 
 import matplotlib.pyplot as plt
 import japanize_matplotlib 
@@ -77,11 +78,11 @@ params = [
 ]
 
 for param in params:
-    activities = data.loc["有業者", param["day"]].loc[:, param["year"]].reset_index()
+    activities = data.loc["無業者", param["day"]].loc[:, param["year"]].reset_index()
     activities.columns = ["Lv0", "Lv1", "value"]
-    first_activities = pd.DataFrame([{"Lv0": "", "Lv1": "1次活動", "value": data.loc["有業者", param["day"]].loc["1次活動", param["year"]].sum()}])
-    second_activities = pd.DataFrame([{"Lv0": "", "Lv1": "2次活動", "value": data.loc["有業者", param["day"]].loc["2次活動", param["year"]].sum()}])
-    third_activities = pd.DataFrame([{"Lv0": "", "Lv1": "3次活動", "value": data.loc["有業者", param["day"]].loc["3次活動", param["year"]].sum()}])
+    first_activities = pd.DataFrame([{"Lv0": "", "Lv1": "1次活動", "value": data.loc["無業者", param["day"]].loc["1次活動", param["year"]].sum()}])
+    second_activities = pd.DataFrame([{"Lv0": "", "Lv1": "2次活動", "value": data.loc["無業者", param["day"]].loc["2次活動", param["year"]].sum()}])
+    third_activities = pd.DataFrame([{"Lv0": "", "Lv1": "3次活動", "value": data.loc["無業者", param["day"]].loc["3次活動", param["year"]].sum()}])
     activities = pd.concat([activities, first_activities, second_activities, third_activities], axis=0)
 
     fig.add_trace(
@@ -95,7 +96,7 @@ for param in params:
         col=param["col"]
     )
 
-fig.update_layout(title="有業者の社会活動の変化")
+fig.update_layout(title="無業者の社会活動の変化")
 fig.update_layout(width=1100, height=1100)
 fig.update_layout(showlegend=True)
 fig.update_layout(template="seaborn")
