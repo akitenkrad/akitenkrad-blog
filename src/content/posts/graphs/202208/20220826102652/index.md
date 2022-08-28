@@ -4,7 +4,7 @@ title: "総人口の推移"
 date: 2022-08-26 
 author: "akitenkrad"
 description: ""
-tags: ["Graphs", "Graph-XXX"]
+tags: ["Graphs", "Graph-人口", "Graph-人口推計"]
 menu:
   sidebar:
     name: 総人口の推移
