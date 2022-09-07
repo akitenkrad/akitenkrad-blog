@@ -71,13 +71,14 @@ M. De Domenico, A. Lima, P. Mougel and M. Musolesi. The Anatomy of a Scientific 
 
 $$
 \begin{align*}
-    \mathbb{G} &= \lbrace G^1, G^2, \ldots, G^T \rbrace \\\\
-    & \text{where} \\\\
-    & T \mapsto \text{the number of snapshots} \\\\
-    & G^t = \left( V^t, E^t \right) \\\\
-    & v^t\_o \in V^t, o \in O \hspace{10pt} (O\text{ is the set of node type}) \\\\
-    & e^t\_r \in E^t, r \in R \hspace{10pt} (R\text{ is the set of edge type}) \\\\
-    & |O| + |R| > 2
+    \mathbb{G} = & \lbrace G^1, G^2, \ldots, G^T \rbrace \tag{1} \\\\
+    \text{where} \hspace{10pt} & \left \lbrace \begin{array}{l}
+        T \mapsto \text{the number of snapshots} \\\\
+        G^t = \left( V^t, E^t \right) \\\\
+        v^t\_o \in V^t, o \in O \hspace{10pt} (O\text{ is the set of node type}) \\\\
+        e^t\_r \in E^t, r \in R \hspace{10pt} (R\text{ is the set of edge type}) \\\\
+        |O| + |R| > 2
+    \end{array} \right .
 \end{align*}
 $$
 
@@ -90,15 +91,17 @@ $\hat{\boldsymbol{h}}\_i^{rt}$ はエッジタイプ $r$ における $t$番目�
 
 $$
 \begin{align*}
-    \boldsymbol{h}\_i^{rt} &= \text{Concat}(\hat{h}^1, \hat{h}^2, \ldots, \hat{h}^\kappa) &\in& \hspace{5pt} \mathbb{R}^{d\kappa} \\\\
-    \hat{\boldsymbol{h}}\_i^{rt} &= \sigma \left( \sum\_{j \in N\_i^{rt}} \alpha\_{ij}^{rt} \cdot W^r x\_j \right) &\in& \hspace{5pt} \mathbb{R}^d \\\\
-    \alpha\_{i,j}^{rt} &= \frac{\exp\left(\sigma\left( \boldsymbol{a}\_r^\mathsf{T} \cdot \left[ W^r \cdot x\_i || W^r \cdot x\_j \right] \right)\right)}{\sum\_{k \in N\_i^{rt}} \exp\left(\sigma\left( \boldsymbol{a}\_r^\mathsf{T} \cdot \left[ W^r \cdot x\_i || W^r \cdot x\_k \right] \right)\right)} &\in& \hspace{5pt} \mathbb{R} \\\\
-    &\text{where} \\\\
-    & d \ll |V| \\\\
-    & x\_i \in \mathbb{R}^d \mapsto \text{the initial feature vector of node }i \\\\
-    & W^r \in \mathbb{R}^{d \times d} \mapsto \text{a transformation matrix for edge type }r \\\\
-    & N\_i^{rt} \mapsto \text{the sampled neighbors of node } i \text{ with edge type } r \text{ in the snapshot }t \\\\
-    & \boldsymbol{a}\_r \in \mathbb{R}^d \mapsto \text{the parameterized weight vector for edge type }r
+    \boldsymbol{h}\_i^{rt} &= \text{Concat}(\hat{h}^1, \hat{h}^2, \ldots, \hat{h}^\kappa) \hspace{5pt} \in \mathbb{R}^{d} \tag{2} \\\\
+    \hat{\boldsymbol{h}}\_i^{rt} &= \sigma \left( \sum\_{j \in N\_i^{rt}} \alpha\_{ij}^{rt} \cdot W^r x\_j \right) \hspace{5pt} \in \mathbb{R}^d \tag{3} \\\\
+    \alpha\_{i,j}^{rt} &= \frac{\exp\left(\sigma\left( \boldsymbol{a}\_r^\mathsf{T} \cdot \left[ W^r \cdot x\_i || W^r \cdot x\_j \right] \right)\right)}{\sum\_{k \in N\_i^{rt}} \exp\left(\sigma\left( \boldsymbol{a}\_r^\mathsf{T} \cdot \left[ W^r \cdot x\_i || W^r \cdot x\_k \right] \right)\right)} \hspace{5pt} \in \mathbb{R} \tag{4} \\\\
+    \text{where} & \hspace{10pt} \left \lbrace \begin{array}{l}
+        d \ll |V| \\\\
+        \kappa \mapsto \text{number of multi-attention heads} \\\\
+        x\_i \in \mathbb{R}^d \mapsto \text{the initial feature vector of node }i \\\\
+        W^r \in \mathbb{R}^{d \times d} \mapsto \text{a transformation matrix for edge type }r \\\\
+        N\_i^{rt} \mapsto \text{the sampled neighbors of node } i \text{ with edge type } r \text{ in the snapshot }t \\\\
+        \boldsymbol{a}\_r \in \mathbb{R}^d \mapsto \text{the parameterized weight vector for edge type }r
+    \end{array} \right .
 \end{align*}
 $$
 
@@ -107,11 +110,12 @@ Heterogeneous Graphには複数のエッジタイプが存在するため，各�
 
 $$
 \begin{align*}
-    \boldsymbol{h}\_i^t &= \sum\_{r=1}^R \beta\_i^{rt} \cdot \boldsymbol{h}\_i^{rt} &\in& \hspace{5pt} \mathbb{R}^{d\kappa} \\\\
-    \beta\_i^{rt} &= \frac{\exp \left( \boldsymbol{q}^\mathsf{T} \cdot \sigma\left( W \cdot \boldsymbol{h}\_i^{rt} + \boldsymbol{b} \right)\right)}{\sum\_{r \in R} \exp \left( \boldsymbol{q}^\mathsf{T} \cdot \sigma \left( W \cdot \boldsymbol{h}\_i^{rt} + \boldsymbol{b} \right)\right)} &\in& \hspace{5pt} \mathbb{R} \\\\
-    & \text{where} \\\\
-    & W \in \mathbb{R}^{d\kappa \times d\kappa} \hspace{10pt} \text{(shared across all different edge types and snapshots)} \\\\
-    & b \in \mathbb{R}^{d\kappa} \hspace{10pt} \text{(shared across all different edge types and snapshots)}
+    \boldsymbol{h}\_i^t &= \sum\_{r=1}^R \beta\_i^{rt} \cdot \boldsymbol{h}\_i^{rt} \hspace{5pt} \in \mathbb{R}^{d} \tag{5} \\\\
+    \beta\_i^{rt} &= \frac{\exp \left( \boldsymbol{q}^\mathsf{T} \cdot \sigma\left( W \cdot \boldsymbol{h}\_i^{rt} + \boldsymbol{b} \right)\right)}{\sum\_{r \in R} \exp \left( \boldsymbol{q}^\mathsf{T} \cdot \sigma \left( W \cdot \boldsymbol{h}\_i^{rt} + \boldsymbol{b} \right)\right)} \hspace{5pt} \in \mathbb{R} \tag{6} \\\\
+    \text{where} \hspace{10pt} & \left \lbrace \begin{array}{l}
+    W \in \mathbb{R}^{d \times d} \hspace{10pt} \text{(shared across all different edge types and snapshots)} \\\\
+    b \in \mathbb{R}^{d} \hspace{10pt} \text{(shared across all different edge types and snapshots)}
+    \end{array} \right .
 \end{align*}
 $$
 

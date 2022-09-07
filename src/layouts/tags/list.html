@@ -54,10 +54,10 @@
       </div>
       <div class="sidebar-tree">
         <ul class="tree" id="tree">
-          <li id="list-heading">Graphs</li>
+          <li id="list-heading">Figures</li>
           <div class="subtree taxonomy-terms">
             {{ $context := . }}
-            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "Graph-" "trimword" "Graph-") }}
+            {{ partial "navigators/taxonomies.html" (dict "context" $context "taxo" "tags" "title" ( humanize "tags" ) "filterword" "Figure-" "trimword" "Figure-") }}
           </div>
         </ul>
       </div>
