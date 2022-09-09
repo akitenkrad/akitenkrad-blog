@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "Published:2017", "Attention", "Transformer"]
 menu:
   sidebar:
-    name: 2022.05.29
+    name: "Attention Is All You Need"
     identifier: 20220529
     parent: 202205
     weight: 10

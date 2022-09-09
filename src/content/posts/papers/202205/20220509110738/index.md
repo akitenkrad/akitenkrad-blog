@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "Published:2021", "Survey", "Graph Neural Network", "Graph Embedding", "Node Classification", "Link Prediction", "Node Clustering", "Graph Visualization"]
 menu:
   sidebar:
-    name: 2022.05.09
+    name: "Survey on graph embeddings and their applications to machine learning problems on graphs"
     identifier: 20220509
     parent: 202205
     weight: 10
@@ -360,7 +360,7 @@ Sequence-basedモデルはノードの列をサンプリングしてNLPでいう
   - [DNGR (Deep Neural networks for learning Graph Representations)](#dngr-deep-neural-networks-for-learning-graph-representations)
 - [GCN (Graph Convolutional Network)](#gcn-graph-convolutional-network)
 - [GraphSAINT](#graphsaint)  
-  <i class="fa-solid fa-arrow-right"></i> 学習時のグラフでーたのスケーラビリティ問題に対する解決策を提案．
+  <i class="fa-solid fa-arrow-right"></i> 学習時のグラフデータのスケーラビリティ問題に対する解決策を提案．
 - [VGAE (Variational Graph AutoEncoder)](#vgae-variational-graph-autoencoder)  
   <i class="fa-solid fa-arrow-right" ></i> Encoder/DecoderにGCNを採用し，GAEに確率変数を導入して拡張した手法．
 - [GraphSAGE](#graphsage)  

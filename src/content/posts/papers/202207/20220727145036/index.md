@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-2", "Published:2020", "DS:EComm", "DS:Higgs Twitter Dataset", "Link Prediction"]
 menu:
   sidebar:
-    name: 2022.07.27
+    name: "Dynamic Heterogeneous Graph Embedding Using Hierarchical Attentions"
     identifier: 20220727
     parent: 202207
     weight: 10

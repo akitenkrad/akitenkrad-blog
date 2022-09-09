@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "Published:2019", "BERT"]
 menu:
   sidebar:
-    name: 2022.05.23
+    name: "RoBERTa: A Robustly Optimized BERT Pretraining Approach"
     identifier: 20220523
     parent: 202205
     weight: 10

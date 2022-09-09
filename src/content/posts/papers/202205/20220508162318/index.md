@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "Published:2019", "Question Answering", "Extractive MRC", "DS:TriviaQA", "DS:DuReader", "Multi-Document MRC"]
 menu:
   sidebar:
-    name: 2022.05.08
+    name: "A Deep Cascade Model for Multi-Document Reading Comprehension"
     identifier: 20220508
     parent: 202205
     weight: 10

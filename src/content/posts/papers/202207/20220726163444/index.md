@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "Published:2022"]
 menu:
   sidebar:
-    name: 2022.07.25
+    name: "Dynamic Network Embedding Survey"
     identifier: 20220725
     parent: 202207
     weight: 10

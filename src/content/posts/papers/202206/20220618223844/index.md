@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-2", "Published:2018", "DS:BlogCatalog", "DS:Catster", "DS:Youtube-friendships"]
 menu:
   sidebar:
-    name: 2022.06.18
+    name: "High-order Proximity Preserved Embedding for Dynamic Networks"
     identifier: 20220618
     parent: 202206
     weight: 10
@@ -306,23 +306,27 @@ $$
 
 $$
 \begin{array}{l}
+\begin{array}{l}
     \Delta \boldsymbol{x}\_i = {\displaystyle\sum\_{j=1, j \neq i}^d} \alpha\_{ij} \boldsymbol{x}\_j
 \end{array} \tag{17} \\\\
-\text{where} \hspace{10pt} \begin{equation}
+\text{where} \hspace{10pt} \begin{array}{l}
     \alpha_{ij} \mapsto \text{the coefficient indicating the contribution of }x\_j\text{ to }\Delta \boldsymbol{x}\_i
-\end{equation}
+\end{array}
+\end{array}
 $$
 
 と表せる．したがって，
 
 $$
-\begin{equation}
-    \alpha\_i = W^{-1}B
-\end{equation} \tag{18} \\\\
-\text{where} \hspace{10pt} \begin{array}{l}
-    \alpha\_i = \left[ \alpha\_{i1}, \ldots, \alpha\_{i(i-1)}, \alpha\_{i(i+1)}, \ldots, \alpha\_{id} \right] \hspace{10pt} (\alpha\_{ij} \text{ for } 1 \leq j \leq d, j \neq i) \\\\
-    B(p) = H\_b(p, i) - (\lambda\_i + \Delta \lambda\_i) H\_a (p, i) - \Delta \lambda\_i F\_a (p, i) \\\\
-    W(p, j) = (\lambda\_i + \Delta \lambda\_i) {\displaystyle \sum\_{j=1, j \neq i}^d} H\_a (p, j) - {\displaystyle \sum\_{j=1, j \neq i}^d} H\_b (p, j) + (\lambda\_i + \Delta \lambda\_i) {\displaystyle \sum\_{j=1, j \neq i}^d} F\_a (p, j) - {\displaystyle \sum\_{j=1, j \neq i}^d} F\_b (p, j)
+\begin{array}{l}
+    \begin{array}{l}
+        \alpha\_i = W^{-1}B
+    \end{array} \tag{18} \\\\
+    \text{where} \hspace{10pt} \begin{array}{l}
+        \alpha\_i = \left[ \alpha\_{i1}, \ldots, \alpha\_{i(i-1)}, \alpha\_{i(i+1)}, \ldots, \alpha\_{id} \right] \hspace{10pt} (\alpha\_{ij} \text{ for } 1 \leq j \leq d, j \neq i) \\\\
+        B(p) = H\_b(p, i) - (\lambda\_i + \Delta \lambda\_i) H\_a (p, i) - \Delta \lambda\_i F\_a (p, i) \\\\
+        W(p, j) = (\lambda\_i + \Delta \lambda\_i) {\displaystyle \sum\_{j=1, j \neq i}^d} H\_a (p, j) - {\displaystyle \sum\_{j=1, j \neq i}^d} H\_b (p, j) + (\lambda\_i + \Delta \lambda\_i) {\displaystyle \sum\_{j=1, j \neq i}^d} F\_a (p, j) - {\displaystyle \sum\_{j=1, j \neq i}^d} F\_b (p, j)
+    \end{array}
 \end{array}
 $$
 

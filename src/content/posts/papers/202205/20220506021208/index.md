@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "published:2020", "Survey", "BERT", "BERTology"]
 menu:
   sidebar:
-    name: 2022.05.06
+    name: "A Primer in BERTology: What We Know About How BERT Works"
     identifier: 20220506
     parent: 202205
     weight: 10

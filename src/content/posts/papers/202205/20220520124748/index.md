@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-2", "Published:2016", "Graph Convolutional Network", "Semi-Supervised", "Graph", "DS:Citeseer", "DS:Cora", "DS:Pubmet", "DS:NELL"]
 menu:
   sidebar:
-    name: 2022.05.20
+    name: "Semi-Supervised Classification with Graph Convolutional Networks"
     identifier: 20220520
     parent: 202205
     weight: 10

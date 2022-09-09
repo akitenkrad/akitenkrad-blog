@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-2", "Published:2018", "DS:MS-MARCO", "Question Answering", "Generative MRC"]
 menu:
   sidebar:
-    name: 2022.06.02
+    name: "S-Net: From Answer Extraction to Answer Generation for Machine Reading Comprehension"
     identifier: 20220602
     parent: 202206
     weight: 10

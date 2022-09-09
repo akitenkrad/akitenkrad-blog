@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "Published:2019", "Citation Recommendation", "DS:FullTextPeerRead", "BERT", "Graph Convolutional Network"]
 menu:
   sidebar:
-    name: 2022.05.18
+    name: "A Context-Aware Citation Recommendation Model with BERT and Graph Convolutional Networks"
     identifier: 20220518
     parent: 202205
     weight: 10

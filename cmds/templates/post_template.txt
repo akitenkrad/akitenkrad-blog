@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "Published:20XX"]
 menu:
   sidebar:
-    name: {NAME}
+    name: "{TITLE}"
     identifier: {IDENTIFIER}
     parent: {PARENT}
     weight: 10

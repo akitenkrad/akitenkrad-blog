@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-2", "Published:2021", "Graph", "Graph Embedding"]
 menu:
   sidebar:
-    name: 2022.08.02
+    name: "Modeling Dynamic Heterogeneous Network for Link Prediction using Hierarchical Attention with Temporal RNN"
     identifier: 20220802
     parent: 202208
     weight: 10

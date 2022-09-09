@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "Published:2006"]
 menu:
   sidebar:
-    name: 2022.05.25
+    name: "Improving Language Understanding by Generative Pre-Training"
     identifier: 20220525
     parent: 202205
     weight: 10

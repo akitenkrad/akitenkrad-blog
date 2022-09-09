@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "Published:2015", "Machine Translation", "Byte Pair Encoding", "Embedding", "DS:WMT2015"]
 menu:
   sidebar:
-    name: 2022.05.30
+    name: "Neural Machine Translation of Rare Words with Subword Units"
     identifier: 20220530
     parent: 202205
     weight: 10

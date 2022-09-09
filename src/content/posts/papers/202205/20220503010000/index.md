@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "Published:2020", "BERT", "Attention", "Disentangled Attention", "Virtual Adversarial Training", "DS:GLUE", "DS:SuperGLUE", "DS:SQuAD", "DS:RACE", "DS:ReCoRD", "DS:SWAG", "DS:MultiNLI", "DS:CoNLL"]
 menu:
   sidebar:
-    name: 2022.05.03
+    name: "DeBERTa: Decoding-Enhanced BERT with Disentangled Attention"
     identifier: 20220503
     parent: 202205
     weight: 10
@@ -22,7 +22,7 @@ math: true
 
 {{< citation >}}
 He, P., Liu, X., Gao, J., & Chen, W. (2020).  
-**DeBERTa: Decoding-enhanced BERT with Disentangled Attention.**  
+**DeBERTa: Decoding-enhanced BERT with Disentangled Attention**  
 [Paper Link](https://doi.org/10.48550/arxiv.2006.03654)
 {{< /citation >}}
 

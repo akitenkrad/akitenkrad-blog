@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-2", "Published:2020", "Question Answering", "Generative MRC", "DS:MS-MARCO", "DS:NarrativeQA"]
 menu:
   sidebar:
-    name: 2022.05.11
+    name: "Multi-Style Generative Reading Comprehension"
     identifier: 20220511
     parent: 202205
     weight: 10

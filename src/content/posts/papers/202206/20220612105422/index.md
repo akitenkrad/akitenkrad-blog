@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-2", "Published:2017", "DS:BlogCatalog", "DS:Flickr", "DS:Epinions", "DS:DBLP"]
 menu:
   sidebar:
-    name: 2022.06.12
+    name: "Attributed Network Embedding for Learning in a Dynamic Environment"
     identifier: 20220612
     parent: 202206
     weight: 10

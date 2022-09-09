@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "Published:2020", "Question Answering", "Dual Encoder", "BERT", "Extractive MRC", "DS:SQuAD", "DS:Natural Questions", "DS:TriviaQA", "DS:WebQuestions", "DS:TREC"]
 menu:
   sidebar:
-    name: 2022.05.05
+    name: "Dense Passage Retrieval for Open-Domain Question Answering"
     identifier: 20220505
     parent: 202205
     weight: 10

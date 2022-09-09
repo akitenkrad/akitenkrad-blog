@@ -7,7 +7,7 @@ description: ""
 tags: ["At:Round-1", "Published:2021", "Question Answering", "Extractive-MRC", "Generative-MRC", "DS:Natural Questions", "DS:TriviaQA"]
 menu:
   sidebar:
-    name: 2022.05.14
+    name: "UnitedQA: A Hybrid Approach for Open Domain Question Answering"
     identifier: 20220514
     parent: 202205
     weight: 10
