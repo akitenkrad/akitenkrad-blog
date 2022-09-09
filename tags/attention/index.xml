@@ -2,5 +2,5 @@
 Attention is all you need.
 Advances in Neural Information Processing Systems, 2017-Decem, 5999–6009.
 http://arxiv.org/abs/1706.03762 Abstract The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism.</description></item><item><title>DeBERTa: Decoding-Enhanced BERT with Disentangled Attention</title><link>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220503010000/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><guid>https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220503010000/</guid><description>Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments Citation He, P., Liu, X., Gao, J., &amp;amp; Chen, W. (2020).
-DeBERTa: Decoding-enhanced BERT with Disentangled Attention.
+DeBERTa: Decoding-enhanced BERT with Disentangled Attention
 Paper Link Abstract Recent progress in pre-trained neural language models has significantly improved the performance of many natural language processing (NLP) tasks. In this paper we propose a new model architecture DeBERTa (Decoding-enhanced BERT with disentangled attention) that improves the BERT and RoBERTa models using two novel techniques.</description></item></channel></rss>
