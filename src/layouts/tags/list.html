@@ -16,7 +16,7 @@
 {{ $homePage = (path.Join (cond ( eq .Language.Lang "en") "" .Language.Lang) .Type) }}
 {{ end }}
 
-<section class="sidebar-section" id="sidebar-section">
+<section class="sidebar-section hide" id="sidebar-section">
   <div class="sidebar-holder">
     <div class="sidebar" id="sidebar">
       <form class="mx-auto" method="get" action="{{" search | relLangURL "}}">

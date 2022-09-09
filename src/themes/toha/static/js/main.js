@@ -132,8 +132,12 @@ function toggleTOC() {
   } else {
     // if sidebar-section is open, then close it first
     let sidebar = document.getElementById("sidebar-section");
+    let content = document.getElementById("content-section");
     if (sidebar != null && sidebar.classList.contains("hide")) {
       sidebar.classList.remove("hide");
+    }
+    if (content != null && content.classList.contains("hide")) {
+      content.classList.remove("hide");
     }
     // add "hide" class
     toc.classList.add("hide")

@@ -49,6 +49,15 @@ a:hover {
   color: #8392a5;
 }
 
+.navbar-toggler {
+  display: block;
+}
+
+.navbar-toggler.navbar-for-sidebar {
+  display: block;
+  margin-right: 1rem;
+}
+
 .btn-dark {
   background-color: #3c4858 !important;
   border-color: #3c4858 !important;
