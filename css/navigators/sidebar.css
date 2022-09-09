@@ -1,9 +1,16 @@
 .sidebar-section {
   order: 1;
-  flex: 20%;
-  max-width: 20%;
+  flex: 0%;
+  max-width: 0%;
   /* background-color: lightsalmon; */
   transition: all ease-out 0.5s;
+}
+
+.sidebar-section.hide {
+  flex: 35%;
+  max-width: 35%;
+  margin-right: 0.5rem;
+  transition: all ease-out 0.3s;
 }
 
 .sidebar-holder {
@@ -97,7 +104,7 @@
 }
 
 .tree .active,
-.tree .active > ul {
+.tree .active>ul {
   display: block;
 }
 
@@ -117,7 +124,7 @@
 }
 
 .subtree ul,
-ul > ul {
+ul>ul {
   position: relative;
   padding-left: 0.5rem;
   display: none;
@@ -162,13 +169,15 @@ a.focused {
 /* Large screens such as TV */
 @media only screen and (min-width: 1824px) {
   .sidebar-section {
-    flex: 15%;
-    max-width: 15%;
+    flex: 0%;
+    max-width: 0%;
   }
+
   .sidebar-holder {
     max-width: 100%;
   }
 }
+
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (max-width: 1400px) {
@@ -191,6 +200,7 @@ a.focused {
     min-height: 100vh;
     transition: all ease-out 0.3s;
   }
+
   .sidebar-holder {
     position: -webkit-sticky;
     position: sticky;
@@ -209,8 +219,7 @@ a.focused {
 
 /*  Large devices (desktops, 992px and up) */
 
-@media (max-width: 992px) {
-}
+@media (max-width: 992px) {}
 
 /* Medium devices (tablets, 768px and up) */
 
@@ -221,6 +230,7 @@ a.focused {
     min-height: 100vh;
     transition: all ease-out 0.3s;
   }
+
   .sidebar-holder {
     position: -webkit-sticky;
     position: sticky;
@@ -293,6 +303,7 @@ a.focused {
     max-height: 0;
     transition: all 0.5s ease-out;
   }
+
   .sidebar-section.hide .sidebar-tree {
     max-height: 200vh;
     transition: all 0.5s ease-out;
@@ -300,13 +311,10 @@ a.focused {
 }
 
 /* iPhoneX, iPhone 6,7,8 */
-@media only screen and (max-width: 375px) {
-}
+@media only screen and (max-width: 375px) {}
 
 /* Galaxy S5, Moto G4 */
-@media only screen and (max-width: 360px) {
-}
+@media only screen and (max-width: 360px) {}
 
 /* iPhone 5 or before */
-@media only screen and (max-width: 320px) {
-}
+@media only screen and (max-width: 320px) {}
