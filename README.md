@@ -1,5 +1,5 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/akitenkrad/blog-akitenkrad/github%20pages?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/akitenkrad/blog-akitenkrad?style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/akitenkrad/akitenkrad-blog/github%20pages?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/akitenkrad/akitenkrad-blog?style=for-the-badge)
 
 # Akitenkrad's Blog
 
@@ -25,7 +25,7 @@
     $ hugo server --bind 0.0.0.0
     ```
 5. Access local development Hugo site  
-    -> http://localhost:1313/blog-akitenkrad/
+    -> http://localhost:1313/akitenkrad-blog/
 
 ## Generate New Post
 

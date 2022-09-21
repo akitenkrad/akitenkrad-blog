@@ -95,12 +95,12 @@
         {{ end }}
         {{ if $blogEnabled }}
           <li class="nav-item">
-            <a class="nav-link" id="blog-link" href="{{"/blog-akitenkrad/posts" | absLangURL }}">{{ i18n "posts" }}</a>
+            <a class="nav-link" id="blog-link" href="{{"/akitenkrad-blog/posts" | absLangURL }}">{{ i18n "posts" }}</a>
           </li>
         {{ end }}
         {{ if $tagsEnabled }}
           <li class="nav-item">
-            <a class="nav-link" id="tag-link" href="{{"/blog-akitenkrad/tags" | absLangURL }}">{{ i18n "tags" }}</a>
+            <a class="nav-link" id="tag-link" href="{{"/akitenkrad-blog/tags" | absLangURL }}">{{ i18n "tags" }}</a>
           </li>
         {{ end }}
         {{ if .IsTranslated }}

@@ -1,4 +1,4 @@
-baseURL: "https://akitenkrad.github.io/blog-akitenkrad/"
+baseURL: "https://akitenkrad.github.io/akitenkrad-blog/"
 languageCode: ja-jp
 title: "Akitenkrad's Blog"
 theme: "toha"
@@ -35,7 +35,7 @@ publishDir: ../docs
 # Site parameters
 params:
   # GitHub repo URL of your site
-  # gitRepo: https://github.com/akitenkrad/blog-akitenkrad
+  # gitRepo: https://github.com/akitenkrad/akitenkrad-blog
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
