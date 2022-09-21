@@ -1,0 +1,20 @@
+<style>
+    fig.figure {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: solid 1px lightgray;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+
+    fig.figure img {
+        margin-bottom: 1rem;
+    }
+</style>
+<fig class="figure">
+    <img src={{ .Get "src" }} width={{ .Get "width" }} />
+    <figcaption>{{ .Get "caption" }}</figcaption>
+</fig>

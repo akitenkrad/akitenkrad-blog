@@ -5,10 +5,10 @@ name = "pypi"
 
 [packages]
 click = "*"
-attrdict = "*"
 sumeval = "*"
 python-dateutil = "*"
 tqdm = "*"
+attrdict = {git = "https://github.com/akitenkrad/attrdict.git"}
 
 [dev-packages]
 black = "*"
@@ -17,4 +17,4 @@ mypy = "*"
 isort = "*"
 
 [requires]
-python_version = "3.9"
+python_version = "3.10"

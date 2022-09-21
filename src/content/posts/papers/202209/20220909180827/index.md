@@ -4,7 +4,7 @@ title: "Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework 
 date: 2022-09-09
 author: "akitenkrad"
 description: ""
-tags: ["At:Round-2", "Published:2018", "GNN", "交通"]
+tags: ["At:Round-2", "Published:2018", "GNN", "交通", "Dynamic Graph Neural Network"]
 menu:
   sidebar:
     name: "Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting"

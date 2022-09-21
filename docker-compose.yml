@@ -1,7 +1,7 @@
 version: '3'
 services:
   python:
-    container_name: 'python.cpu.blog-akitenkrad'
+    container_name: 'python.cpu.akitenkrad-blog'
     build:
       context: .
       dockerfile: Dockerfile
