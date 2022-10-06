@@ -1,0 +1,9 @@
+black
+click
+flake8
+git+https://github.com/akitenkrad/attrdict.git#egg=attrdict
+isort
+mypy
+python-dateutil
+sumeval
+tqdm
