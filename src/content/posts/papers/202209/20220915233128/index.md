@@ -120,7 +120,7 @@ $$
 \begin{array}{ll}
   \begin{array}{ll}
     f^{\frac{n\_l}{2}}(x\_p^i) &= \sigma\left( {W^{\frac{n\_l}{2}}}^\mathsf{T} h^{\frac{n\_l}{2}}(x\_p^i) + b^{\frac{n\_l}{2}} \right) &\in \mathbb{R}^n \\\\
-    h^{\frac{n\_l}{2}}(x\_p^i) &= W^{\frac{n\_l}{2} - 1}f^{\frac{n\_l}{2} - 1}(x\_p^i) + b^{\frac{n\_l}{2} - 1} &\in \mathbb{R}^n
+    h^{\frac{n\_l}{2}}(x\_p^i) &= W^{\frac{n\_l}{2} - 1}f^{\frac{n\_l}{2} - 1}(x\_p^i) + b^{\frac{n\_l}{2} - 1} &\in \mathbb{R}^d
   \end{array} \tag{1} \\\\
   \text{where} \hspace{10pt} \left\lbrace\begin{array}{ll}
     \sigma \mapsto \text{sigmoid function} \\\\
