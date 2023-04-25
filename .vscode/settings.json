@@ -3,7 +3,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": true,
     "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorStyle": "line",
     "editor.fontFamily": "CodeM, Utatane, HackGen, Consolas Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 22,
