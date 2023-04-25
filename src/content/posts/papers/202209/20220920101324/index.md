@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true 
 title: "A Learning-based Data Augmentation for network anomaly Detection"
 date: 2022-09-20
 author: "akitenkrad"
@@ -78,7 +78,7 @@ https://doi.org/10.1109/ICCCN49398.2020.9209598
   - Attack Type によるグルーピング
   - Clustering (k-means) によるグルーピング
 - Augment: グループ分けされたデータに対してそれぞれ独立に GAN を適用し Augment する
-- Combine: Augment したデータを等号して後続タスクに投入する
+- Combine: Augment したデータを統合して後続タスクに投入する
 
 ## Results
 

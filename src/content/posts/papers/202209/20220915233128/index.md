@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: "NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks"
 date: 2022-09-15
 author: "akitenkrad"
