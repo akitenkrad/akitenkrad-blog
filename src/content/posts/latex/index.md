@@ -21,6 +21,9 @@ math: true
     table {
         border: solid 2px #777777;
     }
+    table tr td span.mo {
+        font-size: smaller;
+    }
     table tr td:nth-of-type(even), th:nth-of-type(even) {
         border-right: solid 2px #777777;
     }
@@ -46,12 +49,19 @@ math: true
 | \oslash | $\oslash$ | \circ | $\circ$ | \cdot | $\cdot$ | \bullet | $\bullet$ |
 | \ltimes | $\ltimes$ | \rtimes | $\rtimes$ | | | | |
 
+## 論理演算子
+|コマンド| 出力|コマンド| 出力| コマンド| 出力| コマンド| 出力|
+|---|:---:|---|:---:|---|:---:|---|:---:|
+| \forall | $\forall$ | \exists | $\exists$ | \nexists | $\nexists$ | \neg, \lnot | $\neg$ |
+| \\& | $\\&$ | \parallel | $\parallel$ | | | | |
+
 ## 集合
 |コマンド| 出力|コマンド| 出力| コマンド| 出力| コマンド| 出力|
 |---|:---:|---|:---:|---|:---:|---|:---:|
 | \in | $\in$ | \ni | $\ni$ | \notin | $\notin$ | \subset | $\subset$ |
 | \supset | $\supset$ | \subseteq | $\subseteq$ | \supseteq | $\supseteq$ | \nsubseteq | $\nsubseteq$ |
 | \cap | $\cap$ | \cup | $\cup$ | \emptyset | $\emptyset$ | \infty | $\infty$ |
+| \varnothing | $\varnothing$ | | | | | | |
 
 ## 括弧
 

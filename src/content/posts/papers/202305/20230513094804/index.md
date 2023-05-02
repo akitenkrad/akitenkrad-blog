@@ -1,15 +1,15 @@
 ---
-draft: true
+draft: false
 title: "Improving Language Understanding by Generative Pre-Training"
-date: 2023-04-25
+date: 2023-05-13
 author: "akitenkrad"
 description: ""
 tags: ["At:Round-1", "Published:2018", "GPT", "OpenAI"]
 menu:
   sidebar:
     name: "Improving Language Understanding by Generative Pre-Training"
-    identifier: 20230425
-    parent: 202304
+    identifier: 20230513
+    parent: 202305
     weight: 10
 math: true
 ---
@@ -27,18 +27,62 @@ OpenAI. https://www.semanticscholar.org/paper/Improving-Language-Understanding-b
 
 ## Abstract
 
+> We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy). Our word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pre-trained on a large text corpus. We show that these representations can be easily added to existing models and significantly improve the state of the art across six challenging NLP problems, including question answering, textual entailment and sentiment analysis. We also present an analysis showing that exposing the deep internals of the pre-trained network is crucial, allowing downstream models to mix different types of semi-supervision signals.
+
 ## Background & Wat's New
+- テキストの分散表現の学習では，適切な最適化手法(目的関数)が定まっていない
+- 学習した分散表現を個々のタスクに適用する方法についても議論の余地がある
+- 個別タスクに適用する際には軽微な修正だけで済むような，汎用的な分散表現を獲得することが目的
+- 正解データのないコーパスに対して，半教師あり学習と教師あり学習によるfine-tuningを組み合わせた手法を提案
 
 ## Dataset
 
+| Task | Datasets|
+|:-----|:-------:|
+|Natural Language Inference| SNLI, MultiNLI, Question NLI, RTE, SciTail|
+|Question Answering| RACE, Story Cloze|
+|Sentence Similarity| MSR Paraphase Corpus, Quora Question Pairs, STS Benchmark|
+|Classification| Stanford Sentiment Treebank-2, CoLA|
+
 ## Model Description
 
-## Results
+### Pre-training
+$$
+  \begin{align*}
+    L_1(\mathcal{U}) &= \sum_{i}\log P(u_i|u_{i-k},\ldots,u_{i-1};\Theta) \\\\
+    &\left\lbrace\begin{align*}
+      \text{INPUT} &: U \in \mathbb{R}^k \\\\
+      h_0 &= UW_e + W_p \\\\
+      h_l &= \text{\small TransformerDecoderBlock}(h_{l-1}) \hspace{5px} \forall l \in [1,k] \\\\
+        & \underline{\scriptsize \text{TransformerDecoderBlock}(x)} \\\\
+        &\left\lbrace\begin{align*}
+          x_1 &= \text{\small MaskedMultiHeadSelfAttention}(x) \\\\
+            & \underline{\scriptsize \text{MaskedMultiHeadSelfAttention}(x)} \\\\
+            &\left\lbrace\begin{align*}
+              \text{\small out} &= \text{\small Concat}(\text{\small head}_1, \ldots, \text{\small head}_n)W_o \\\\
+              &\hspace{10px}\text{where} ~~ \text{\small head}_i = \text{\small ScaledDotProductAttention}(xW_i^Q, xW_i^K, xW_i^V) \\\\
+              & \underline{\scriptsize \text{ScledDotProductAttention}(Q, K, V)} \\\\
+              &\left\lbrace\begin{align*}
+                \text{out} = \text{softmax}\left(\frac{QK^{\textsf{T}}}{\sqrt{d_k}} \cdot C\_{\text{mask}}\right)V
+              \end{align*}\right. \\\\
+            \end{align*}\right. \\\\
+          x_2 &= \text{\small LayerNormalization}(x_0 + x_1) \\\\
+          x_3 &= \text{\small ReLU}(x_2W_1 + b_1)W_2 + b_2 \\\\
+          \text{\small out} &= \text{\small LayerNormalization}(x_2 + x_3) \\\\
+        \end{align*}\right. \\\\
+      P(u) &= \text{softmax}(h_kW_e^{\textsf{T}})
+    \end{align*}\right.
+  \end{align*}
+$$
 
-### Settings
+## Results
+{{< figure src="table_2.png" >}}
+<br/>
+{{< figure src="table_3.png" >}}
+<br/>
+{{< figure src="table_4.png" >}}
 
 ## References
-
 
 {{< ci-details summary="Constituency Parsing with a Self-Attentive Encoder (Nikita Kitaev et al., 2018)">}}
 Nikita Kitaev, D. Klein. (2018)  
