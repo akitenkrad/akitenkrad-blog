@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: "Time Series Data Augmentation for Deep Learning: A Survey"
 date: 2022-10-13
 author: "akitenkrad"
