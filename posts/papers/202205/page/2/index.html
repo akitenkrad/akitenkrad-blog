@@ -1,26 +1,746 @@
-<!doctype html><html><head><title>2022.05</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><link rel=stylesheet href=https://akitenkrad.github.io/akitenkrad-blog/css/bootstrap.min.css><link rel=stylesheet href=https://akitenkrad.github.io/akitenkrad-blog/css/layouts/main.css><link rel=stylesheet href=https://akitenkrad.github.io/akitenkrad-blog/css/navigators/navbar.css><link rel=stylesheet href=https://akitenkrad.github.io/akitenkrad-blog/css/plyr.css><link rel=stylesheet href=https://akitenkrad.github.io/akitenkrad-blog/css/flag-icon.min.css><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600"><link rel=stylesheet href=https://akitenkrad.github.io/akitenkrad-blog/fontawesome/css/all.min.css><link rel=icon type=image/png href=https://akitenkrad.github.io/akitenkrad-blog/images/favicons/favicon-96x96_huf1ee13f0caf27d1547f91fb46207d708_13005_42x0_resize_box_3.png><meta property="og:title" content="2022.05"><meta property="og:description" content><meta property="og:type" content="website"><meta property="og:url" content="https://akitenkrad.github.io/akitenkrad-blog/posts/papers/202205/"><link rel=stylesheet href=https://akitenkrad.github.io/akitenkrad-blog/css/layouts/list.css><link rel=stylesheet href=https://akitenkrad.github.io/akitenkrad-blog/css/navigators/sidebar.css><link rel=stylesheet href=https://akitenkrad.github.io/akitenkrad-blog/css/style.css><script async src="https://www.googletagmanager.com/gtag/js?id=G-1MYYZQG0WE"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-1MYYZQG0WE",{anonymize_ip:!1})}</script></head><body data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light navbar-for-sidebar" id=sidebar-toggler type=button onclick=toggleSidebar()>
-<span class=navbar-toggler-icon></span></button>
-<a class=navbar-brand href=/akitenkrad-blog><img src=/akitenkrad-blog/images/avatar_hu2673d53b0ac78c90b0a5a617874cdcc4_128349_42x0_resize_box_3.png alt=Logo>
-Akitenkrad's Blog</a>
-<button class="navbar-toggler navbar-light" id=toc-toggler type=button onclick=toggleTOC()>
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"><li class=nav-item><a class=nav-link href=/akitenkrad-blog#home>Home</a></li><li class=nav-item><a class=nav-link href=/akitenkrad-blog#about>About</a></li><li class=nav-item><a class=nav-link href=/akitenkrad-blog#recent-posts>Recent Posts</a></li><li class=nav-item><a class=nav-link id=blog-link href=https://akitenkrad.github.io/akitenkrad-blog/posts>Posts</a></li><li class=nav-item><a class=nav-link id=tag-link href=https://akitenkrad.github.io/akitenkrad-blog/tags>Tags</a></li></ul></div></div><img src=/akitenkrad-blog/images/avatar_hu2673d53b0ac78c90b0a5a617874cdcc4_128349_42x0_resize_box_3.png class=d-none id=main-logo alt=Logo>
-<img src=/akitenkrad-blog/images/avatar_hu2673d53b0ac78c90b0a5a617874cdcc4_128349_42x0_resize_box_3.png class=d-none id=inverted-logo alt="Inverted Logo"></nav><section class="sidebar-section hide" id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/akitenkrad-blog/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/akitenkrad-blog/posts data-filter=all>Posts</a></li><div class=subtree><li><i class="fas fa-plus-circle"></i><a href=/akitenkrad-blog/posts/conference/>Conference</a><ul><li><a href=/akitenkrad-blog/posts/conference/acl/ title="Annual Meeting of the Association for Computational Linguistics">Annual Meeting of the Association for Computational Linguistics</a></li></ul></li><li><i class="fas fa-minus-circle"></i><a class=active href=/akitenkrad-blog/posts/papers/>Papers</a><ul class=active><li><i class="fas fa-minus-circle"></i><a class=active href=/akitenkrad-blog/posts/papers/202205/>2022.05</a><ul class=active><li><a href=/akitenkrad-blog/posts/papers/202205/20220518224923/ title="A Context-Aware Citation Recommendation Model with BERT and Graph Convolutional Networks">A Context-Aware Citation Recommendation Model with BERT and Graph Convolutional Networks</a></li><li><a href=/akitenkrad-blog/posts/papers/202205/20220508162318/ title="A Deep Cascade Model for Multi-Document Reading Comprehension">A Deep Cascade Model for Multi-Document Reading Comprehension</a></li><li><a href=/akitenkrad-blog/posts/papers/202205/20220506021208/ title="A Primer in BERTology: What We Know About How BERT Works">A Primer in BERTology: What We Know About How BERT Works</a></li><li><a href=/akitenkrad-blog/posts/papers/202205/20220529131339/ title="Attention Is All You Need">Attention Is All You Need</a></li><li><a href=/akitenkrad-blog/posts/papers/202205/20220503010000/ title="DeBERTa: Decoding-Enhanced BERT with Disentangled Attention">DeBERTa: Decoding-Enhanced BERT with Disentangled Attention</a></li><li><a href=/akitenkrad-blog/posts/papers/202205/20220505222900/ title="Dense Passage Retrieval for Open-Domain Question Answering">Dense Passage Retrieval for Open-Domain Question Answering</a></li><li><a href=/akitenkrad-blog/posts/papers/202205/20220525115521/ title="Improving Language Understanding by Generative Pre-Training">Improving Language Understanding by Generative Pre-Training</a></li><li><a href=/akitenkrad-blog/posts/papers/202205/20220511010217/ title="Multi-Style Generative Reading Comprehension">Multi-Style Generative Reading Comprehension</a></li><li><a href=/akitenkrad-blog/posts/papers/202205/20220530102936/ title="Neural Machine Translation of Rare Words with Subword Units">Neural Machine Translation of Rare Words with Subword Units</a></li><li><a href=/akitenkrad-blog/posts/papers/202205/20220523223206/ title="RoBERTa: A Robustly Optimized BERT Pretraining Approach">RoBERTa: A Robustly Optimized BERT Pretraining Approach</a></li><li><a href=/akitenkrad-blog/posts/papers/202205/20220520124748/ title="Semi-Supervised Classification with Graph Convolutional Networks">Semi-Supervised Classification with Graph Convolutional Networks</a></li><li><a href=/akitenkrad-blog/posts/papers/202205/20220509110738/ title="Survey on graph embeddings and their applications to machine learning problems on graphs">Survey on graph embeddings and their applications to machine learning problems on graphs</a></li><li><a href=/akitenkrad-blog/posts/papers/202205/20220514151839/ title="UnitedQA: A Hybrid Approach for Open Domain Question Answering">UnitedQA: A Hybrid Approach for Open Domain Question Answering</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/akitenkrad-blog/posts/papers/202206/>2022.06</a><ul><li><a href=/akitenkrad-blog/posts/papers/202206/20220612105422/ title="Attributed Network Embedding for Learning in a Dynamic Environment">Attributed Network Embedding for Learning in a Dynamic Environment</a></li><li><a href=/akitenkrad-blog/posts/papers/202206/20220608085622/ title="CodeBERT: A Pre-Trained Model for Programming and Natural Languages">CodeBERT: A Pre-Trained Model for Programming and Natural Languages</a></li><li><a href=/akitenkrad-blog/posts/papers/202206/20220618223844/ title="High-order Proximity Preserved Embedding for Dynamic Networks">High-order Proximity Preserved Embedding for Dynamic Networks</a></li><li><a href=/akitenkrad-blog/posts/papers/202206/20220602171700/ title="S-Net: From Answer Extraction to Answer Generation for Machine Reading Comprehension">S-Net: From Answer Extraction to Answer Generation for Machine Reading Comprehension</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/akitenkrad-blog/posts/papers/202207/>2022.07</a><ul><li><a href=/akitenkrad-blog/posts/papers/202207/20220727145036/ title="Dynamic Heterogeneous Graph Embedding Using Hierarchical Attentions">Dynamic Heterogeneous Graph Embedding Using Hierarchical Attentions</a></li><li><a href=/akitenkrad-blog/posts/papers/202207/20220726163444/ title="Dynamic Network Embedding Survey">Dynamic Network Embedding Survey</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/akitenkrad-blog/posts/papers/202208/>2022.08</a><ul><li><a href=/akitenkrad-blog/posts/papers/202208/20220802103319/ title="Modeling Dynamic Heterogeneous Network for Link Prediction using Hierarchical Attention with Temporal RNN">Modeling Dynamic Heterogeneous Network for Link Prediction using Hierarchical Attention with Temporal RNN</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/akitenkrad-blog/posts/papers/202209/>2022.09</a><ul><li><a href=/akitenkrad-blog/posts/papers/202209/20220920101324/ title="A Learning-based Data Augmentation for network anomaly Detection">A Learning-based Data Augmentation for network anomaly Detection</a></li><li><a href=/akitenkrad-blog/posts/papers/202209/20220915233128/ title="NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks">NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks</a></li><li><a href=/akitenkrad-blog/posts/papers/202209/20220909180827/ title="Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting">Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting</a></li></ul></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/akitenkrad-blog/posts/figures/>Figures</a><ul><li><i class="fas fa-plus-circle"></i><a href=/akitenkrad-blog/posts/figures/202208/>2022.08</a><ul><li><a href=/akitenkrad-blog/posts/figures/202208/20220822092748/ title=1ヶ月当たりの実労働時間の推移>1ヶ月当たりの実労働時間の推移</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220813115200/ title=コンビニエンスストアの店舗数の推移>コンビニエンスストアの店舗数の推移</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220821113322/ title=地域別1世帯当たり1ヶ月間の支出額の推移>地域別1世帯当たり1ヶ月間の支出額の推移</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220828111836/ title="夫婦別子供の有無別生活時間 (2016)">夫婦別子供の有無別生活時間 (2016)</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220827103615/ title=家族類型の変遷>家族類型の変遷</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220815131016/ title="年齢別大学院入学者数 (2021)">年齢別大学院入学者数 (2021)</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220818122628/ title=情報サービス業における企業特殊的人的資本（名目）の推移>情報サービス業における企業特殊的人的資本（名目）の推移</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220824095127/ title=有業者の社会生活における活動の変化>有業者の社会生活における活動の変化</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220814175022/ title=東京23区の乗用車保有台数>東京23区の乗用車保有台数</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220817121117/ title="業種別企業特殊的人的資本 (2018)">業種別企業特殊的人的資本 (2018)</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220825094111/ title=無業者の社会生活における活動の変化>無業者の社会生活における活動の変化</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220823104100/ title=睡眠時間の推移>睡眠時間の推移</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220826102652/ title=総人口の推移>総人口の推移</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220820225528/ title=都道府県別国公立別学校数・学生数>都道府県別国公立別学校数・学生数</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220816120845/ title="都道府県別消費者物価指数/教育（全国平均=100）">都道府県別消費者物価指数/教育（全国平均=100）</a></li><li><a href=/akitenkrad-blog/posts/figures/202208/20220812173814/ title=金沢市の夏の月平均気温の遷移>金沢市の夏の月平均気温の遷移</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/akitenkrad-blog/posts/figures/202209/>2022.09</a><ul><li><a href=/akitenkrad-blog/posts/figures/202209/20220907122906/ title="ACL-2022 WordCloud">ACL-2022 WordCloud</a></li></ul></li></ul></li><li><a href=/akitenkrad-blog/posts/latex/ title="Latex Mathematics Syntax Guide">Latex Mathematics Syntax Guide</a></li><li><a href=/akitenkrad-blog/posts/markdown/ title="Markdown Sample">Markdown Sample</a></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class="content container-fluid" id=content><div class="container-fluid post-card-holder" id=post-card-holder><div class=post-card><a href=https://akitenkrad.github.io/akitenkrad-blog/posts/papers/202205/20220503010000/ class=post-card-link><div class=card><div class=card-head><img class=card-img-top src=/akitenkrad-blog/posts/papers/202205/20220503010000/hero.jpg alt="Hero Image"></div><div class=card-body><h5 class=card-title>DeBERTa: Decoding-Enhanced BERT with Disentangled Attention</h5><p class="card-text post-summary">Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments Citation He, P., Liu, X., Gao, J., & Chen, W. (2020).
-DeBERTa: Decoding-enhanced BERT with Disentangled Attention
-Paper Link Abstract Recent progress in pre-trained neural language models has significantly improved the performance of many natural language processing (NLP) tasks. In this paper we propose a new model architecture DeBERTa (Decoding-enhanced BERT with disentangled attention) that improves the BERT and RoBERTa models using two novel techniques.</p></div><div class=card-footer><span class=float-left>May 3, 2022</span>
-<a href=https://akitenkrad.github.io/akitenkrad-blog/posts/papers/202205/20220503010000/ class="float-right btn btn-outline-info btn-sm">Read</a></div></div></a></div></div><div class=paginator><ul class="pagination pagination-default"><li class=page-item><a href=/akitenkrad-blog/posts/papers/202205/ aria-label=First class=page-link role=button><span aria-hidden=true>&#171;&#171;</span></a></li><li class=page-item><a href=/akitenkrad-blog/posts/papers/202205/ aria-label=Previous class=page-link role=button><span aria-hidden=true>&#171;</span></a></li><li class=page-item><a href=/akitenkrad-blog/posts/papers/202205/ aria-label="Page 1" class=page-link role=button>1</a></li><li class="page-item active"><a aria-current=page aria-label="Page 2" class=page-link role=button>2</a></li><li class="page-item disabled"><a aria-disabled=true aria-label=Next class=page-link role=button tabindex=-1><span aria-hidden=true>&#187;</span></a></li><li class="page-item disabled"><a aria-disabled=true aria-label=Last class=page-link role=button tabindex=-1><span aria-hidden=true>&#187;&#187;</span></a></li></ul></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-left"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=https://akitenkrad.github.io/akitenkrad-blog/#about>About</a></li><li class=nav-item><a class=smooth-scroll href=https://akitenkrad.github.io/akitenkrad-blog/#recent-posts>Recent Posts</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><a href=mailto:contact.to.akitenkrad@gmail.com target=_blank rel=noopener><span><i class="fas fa-envelope"></i></span> <span>contact.to.akitenkrad@gmail.com</span></a></li></ul></div></div></div><hr><div class=container><div class="row text-left"><div class=col-md-4><a id=theme href=https://github.com/hossainemruz/toha target=_blank rel=noopener><img src=/akitenkrad-blog/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png alt="Toha Theme Logo">
-Toha</a></div><div class="col-md-4 text-center">© 2020 Akitenkrad.</div><div class="col-md-4 text-right"><a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
-<img src=/akitenkrad-blog/images/hugo-logo.svg alt="Hugo Logo" height=18></a></div></div></div><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type=text/x-mathjax-config>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2022.05</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/layouts/main.css"/>
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/plyr.css"/>
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/flag-icon.min.css"/>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
+
+
+<link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/fontawesome/css/all.min.css"/>
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="https://akitenkrad.github.io/blog-akitenkrad/images/favicons/favicon-96x96_huf1ee13f0caf27d1547f91fb46207d708_13005_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="2022.05" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/" />
+<meta property="og:updated_time" content="2022-05-30T00:00:00+00:00" />
+
+
+    
+    
+    <link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/layouts/list.css">
+    <link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/navigators/sidebar.css">
+    
+    <link rel="stylesheet" href="https://akitenkrad.github.io/blog-akitenkrad/css/style.css"/>
+
+
+
+    
+
+
+
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'G-1MYYZQG0WE', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/blog-akitenkrad">
+      
+        <img src="/blog-akitenkrad/images/avatar_hu2673d53b0ac78c90b0a5a617874cdcc4_128349_42x0_resize_box_2.png" alt="Logo">
+      Akitenkrad&#39;s Blog</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/blog-akitenkrad#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/blog-akitenkrad#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/blog-akitenkrad#recent-posts">Recent Posts</a>
+                </li>
+              
+            
+          
+        
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="https://akitenkrad.github.io/blog-akitenkrad/posts">Posts</a>
+          </li>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="tag-link" href="https://akitenkrad.github.io/blog-akitenkrad/tags">Tags</a>
+          </li>
+        
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/blog-akitenkrad/images/avatar_hu2673d53b0ac78c90b0a5a617874cdcc4_128349_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/blog-akitenkrad/images/avatar_hu2673d53b0ac78c90b0a5a617874cdcc4_128349_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  
+  
+
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/blog-akitenkrad/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/blog-akitenkrad/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/blog-akitenkrad/posts/conference/">Conference</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/conference/acl/" title="Annual Meeting of the Association for Computational Linguistics">Annual Meeting of the Association for Computational Linguistics</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/blog-akitenkrad/posts/papers/">Papers</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/blog-akitenkrad/posts/papers/202205/">2022.05</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220503010000/" title="2022.05.03">2022.05.03</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220505222900/" title="2022.05.05">2022.05.05</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220506021208/" title="2022.05.06">2022.05.06</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220508162318/" title="2022.05.08">2022.05.08</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220509110738/" title="2022.05.09">2022.05.09</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220511010217/" title="2022.05.11">2022.05.11</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220514151839/" title="2022.05.14">2022.05.14</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220518224923/" title="2022.05.18">2022.05.18</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220520124748/" title="2022.05.20">2022.05.20</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220523223206/" title="2022.05.23">2022.05.23</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220525115521/" title="2022.05.25">2022.05.25</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220529131339/" title="2022.05.29">2022.05.29</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202205/20220530102936/" title="2022.05.30">2022.05.30</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/blog-akitenkrad/posts/papers/202206/">2022.06</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202206/20220602171700/" title="2022.06.02">2022.06.02</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202206/20220608085622/" title="2022.06.08">2022.06.08</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/blog-akitenkrad/posts/papers/202207/">2022.07</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202207/20220726163444/" title="2022.07.25">2022.07.25</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202207/20220727145036/" title="2022.07.27">2022.07.27</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/blog-akitenkrad/posts/papers/202208/">2022.08</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/papers/202208/20220802103319/" title="2022.08.02">2022.08.02</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/latex/" title="Latex Mathematics Syntax Guide">Latex Mathematics Syntax Guide</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/blog-akitenkrad/posts/markdown/" title="Markdown Sample">Markdown Sample</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      
+      
+      
+        
+          <div class="post-card">
+  <a href="https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220503010000/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/blog-akitenkrad/posts/papers/202205/20220503010000/hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">DeBERTa: Decoding-Enhanced BERT with Disentangled Attention</h5>
+        <p class="card-text post-summary">Round-1: Overview Round-2: Model Implementation Details Round-3: Experiments  Citation  blockquote.citation { margin-top: 1.5rem; margin-bottom: 1.5rem; position: relative; padding: 7px 16px; box-sizing: border-box; font-style: italic; color: #585858; border: solid 3px #585858; } blockquote.citation:before { padding-top: 6px; display: inline-block; position: absolute; top: -20px; left: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: "\f10d"; background: #585858; color: #FFF; font-size: 28px; } blockquote.citation:after { padding-top: 6px; display: inline-block; position: absolute; bottom: -20px; right: -20px; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; font: var(--fa-font-solid); content: "</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">May 3, 2022</span>
+        <a href="https://akitenkrad.github.io/blog-akitenkrad/posts/papers/202205/20220503010000/" class="float-right btn btn-outline-info btn-sm">Read</a>
+      </div>
+    </div>
+  </a>
+</div>
+        
+      
+    </div>
+    <div class="paginator">
+      
+
+<ul class="pagination">
+    
+    <li class="page-item">
+        <a href="/blog-akitenkrad/posts/papers/202205/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+    <a href="/blog-akitenkrad/posts/papers/202205/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/blog-akitenkrad/posts/papers/202205/">1</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item active"><a class="page-link" href="/blog-akitenkrad/posts/papers/202205/page/2/">2</a></li>
+    
+    
+    <li class="page-item disabled">
+    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+        <a href="/blog-akitenkrad/posts/papers/202205/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+    </li>
+    
+</ul>
+
+
+    </div>
+  </div>
+</section>
+
+
+      
+       
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://akitenkrad.github.io/blog-akitenkrad/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://akitenkrad.github.io/blog-akitenkrad/#recent-posts">Recent Posts</a>
+                </li>
+              
+            
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:contact.to.akitenkrad@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>contact.to.akitenkrad@gmail.com</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+            <img src="/blog-akitenkrad/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2020 Akitenkrad.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/blog-akitenkrad/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         tex2jax: {
           inlineMath: [['$','$']]
         }
       });
-      </script></footer><script type=text/javascript src=https://akitenkrad.github.io/akitenkrad-blog/js/jquery-3.4.1.min.js></script>
-<script type=text/javascript src=https://akitenkrad.github.io/akitenkrad-blog/js/popper.min.js></script>
-<script type=text/javascript src=https://akitenkrad.github.io/akitenkrad-blog/js/bootstrap.min.js></script>
-<script type=text/javascript src=https://akitenkrad.github.io/akitenkrad-blog/js/navbar.js></script>
-<script type=text/javascript src=https://akitenkrad.github.io/akitenkrad-blog/js/plyr.js></script>
-<script type=text/javascript src=https://akitenkrad.github.io/akitenkrad-blog/js/main.js></script>
-<script src=https://akitenkrad.github.io/akitenkrad-blog/js/list.js></script></body></html>
+      </script>
+  </footer>
+
+
+    <script type="text/javascript" src="https://akitenkrad.github.io/blog-akitenkrad/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="https://akitenkrad.github.io/blog-akitenkrad/js/popper.min.js"></script>
+<script type="text/javascript" src="https://akitenkrad.github.io/blog-akitenkrad/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="https://akitenkrad.github.io/blog-akitenkrad/js/navbar.js"></script>
+<script type="text/javascript" src="https://akitenkrad.github.io/blog-akitenkrad/js/plyr.js"></script>
+<script type="text/javascript" src="https://akitenkrad.github.io/blog-akitenkrad/js/main.js"></script>
+
+
+    
+    
+    <script src="https://akitenkrad.github.io/blog-akitenkrad/js/list.js"></script>
+
+
+    
+</body>
+</html>

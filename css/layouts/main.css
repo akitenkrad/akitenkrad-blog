@@ -193,7 +193,7 @@ table {
 }
 
 table tr {
-  height: 40px !important;
+  height: 40px;
 }
 
 table th,
