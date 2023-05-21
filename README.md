@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/akitenkrad/akitenkrad-blog/github%20pages?style=for-the-badge)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/akitenkrad/akitenkrad-blog/github%20pages?style=for-the-badge)](https://img.shields.io/github/actions/workflow/status/akitenkrad/akitenkrad-blog/gh-pages.yml?label=BUILD&style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/akitenkrad/akitenkrad-blog?style=for-the-badge)
 
 # Akitenkrad's Blog
