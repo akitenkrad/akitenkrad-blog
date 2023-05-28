@@ -49,20 +49,21 @@ OpenAI. https://www.semanticscholar.org/paper/Improving-Language-Understanding-b
 ### Pre-training
 $$
   \begin{align*}
-    L_1(\mathcal{U}) &= \sum_{i}\log P(u_i|u_{i-k},\ldots,u_{i-1};\Theta) \\\\
-    &\left\lbrace\begin{align*}
-      \text{INPUT} &: U \in \mathbb{R}^k \\\\
+    \text{INPUT} &: U \in \mathbb{R}^k \\\\
+    \downarrow & \\\\
+    L_1(U) &= \sum_{i}\log P(u_i|u_{i-k},\ldots,u_{i-1};\Theta) \\\\
+    &\left\lbrack\begin{align*}
       h_0 &= UW_e + W_p \\\\
       h_l &= \text{\small TransformerDecoderBlock}(h_{l-1}) \hspace{5px} \forall l \in [1,k] \\\\
         & \underline{\scriptsize \text{TransformerDecoderBlock}(x)} \\\\
-        &\left\lbrace\begin{align*}
+        &\left\lbrack\begin{align*}
           x_1 &= \text{\small MaskedMultiHeadSelfAttention}(x) \\\\
             & \underline{\scriptsize \text{MaskedMultiHeadSelfAttention}(x)} \\\\
-            &\left\lbrace\begin{align*}
+            &\left\lbrack\begin{align*}
               \text{\small out} &= \text{\small Concat}(\text{\small head}_1, \ldots, \text{\small head}_n)W_o \\\\
               &\hspace{10px}\text{where} ~~ \text{\small head}_i = \text{\small ScaledDotProductAttention}(xW_i^Q, xW_i^K, xW_i^V) \\\\
               & \underline{\scriptsize \text{ScledDotProductAttention}(Q, K, V)} \\\\
-              &\left\lbrace\begin{align*}
+              &\left\lbrack\begin{align*}
                 \text{out} = \text{softmax}\left(\frac{QK^{\textsf{T}}}{\sqrt{d_k}} \cdot C\_{\text{mask}}\right)V
               \end{align*}\right. \\\\
             \end{align*}\right. \\\\
@@ -71,7 +72,9 @@ $$
           \text{\small out} &= \text{\small LayerNormalization}(x_2 + x_3) \\\\
         \end{align*}\right. \\\\
       P(u) &= \text{softmax}(h_kW_e^{\textsf{T}})
-    \end{align*}\right.
+    \end{align*}\right. \\\\
+    & \downarrow \\\\
+    \text{OUTPUT} &: L_1(U)
   \end{align*}
 $$
 
