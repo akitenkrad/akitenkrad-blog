@@ -18,7 +18,28 @@ math: true
 - [ ] Round-2: Model Implementation Details
 - [ ] Round-3: Experiments
 
+
+<!--
+====== TEMPLATE ======
+
+# citation
+{{{{< citation >}}}}
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019).  
+Language models are unsupervised multitask learners.  
+Persagen.Com. http://www.persagen.com/files/misc/radford2019language.pdf
+{{{{</ citation >}}}}
+
+
+# figure
+{{{{< figure src="table_2.png" >}}}}
+
+======================
+-->
+
+
 ## Citation
+{{{{<citation>}}}}
+{{{{</citation>}}}}
 
 ## Abstract
 

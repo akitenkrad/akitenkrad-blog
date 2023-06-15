@@ -17,7 +17,8 @@ def cli():
 
 @cli.command()
 @click.option("--title", type=str, help="title of the paper", required=True)
-def new_paper(title: str):
+@click.option("--without-citations", is_flag=True, help="create template without citations")
+def new_paper(title: str, without_citations: bool):
     """create new post for papers"""
     assert len(title) > 0
 
@@ -55,7 +56,8 @@ menu:
         wf.write(text)
 
     # add references
-    add_references(title, new_post_path)
+    if not without_citations:
+        add_references(title, new_post_path)
 
     # copy hero.jpg
     shutil.copy("src/resources/assets/images/hero.jpg", str(new_post_path.parent / "hero.jpg"))

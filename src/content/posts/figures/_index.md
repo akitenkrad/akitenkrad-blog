@@ -4,6 +4,6 @@ menu:
     sidebar:
         name: Figures
         identifier: figures 
-        weight: 15
+        weight: 40
 ---
 

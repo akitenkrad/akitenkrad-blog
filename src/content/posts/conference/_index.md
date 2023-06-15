@@ -4,5 +4,5 @@ menu:
     sidebar:
         name: Conference
         identifier: conference
-        weight: 10
+        weight: 30
 ---
