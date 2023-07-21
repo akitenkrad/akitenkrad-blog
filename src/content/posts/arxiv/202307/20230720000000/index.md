@@ -52,7 +52,7 @@ Chenxin An, Shansan Gong, Ming Zhong, Mukai Li, Jun Zhang, Lingpeng Kong, Xipeng
 **L-Eval: Instituting Standardized Evaluation for Long Context Language Models**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: GLM, GPT, GPT-4, LLaMA, Language Model  
 [Paper Link](http://arxiv.org/abs/2307.11088v1)  
@@ -62,6 +62,19 @@ Keywords: GLM, GPT, GPT-4, LLaMA, Language Model
 
 **ABSTRACT**  
 Recently, there has been growing interest in extending the context length of instruction-following models in order to effectively process single-turn long input (e.g. summarizing a paper) and conversations with more extensive histories. While proprietary models such as GPT-4 and Claude have demonstrated considerable advancements in handling tens of thousands of tokens of context, open-sourced models are still in the early stages of experimentation. It also remains unclear whether developing these long context models can offer substantial gains on practical downstream tasks over retrieval-based methods or models simply trained on chunked contexts. To address this challenge, we propose to institute standardized evaluation for long context language models. Concretely, we develop L-Eval which contains 411 long documents and over 2,000 query-response pairs manually annotated and checked by the authors encompassing areas such as law, finance, school lectures, lengthy conversations, news, long-form novels, and meetings. L-Eval also adopts diverse evaluation methods and instruction styles, enabling a more reliable assessment of Long Context Language Models (LCLMs). Our findings indicate that while open-source models typically lag behind their commercial counterparts, they still exhibit impressive performance. LLaMA2 achieves the best results (win 45\% vs turbo-16k) on open-ended tasks with only 4k context length and ChatGLM2 achieves the best results on closed-ended tasks with 8k input tokens. We release our new evaluation suite, code, and all generation results including predictions from all open-sourced LCLMs, GPT4-32k, Cluade-100k at {\url{https://github.com/OpenLMLab/LEval}}.
+
+---
+
+最近、シングルターンの長い入力を効果的に処理するために命令追従モデルのコンテキスト長を拡張することに関心が高まっています。
+論文の要約）と、より広範な歴史に関する会話。
+GPT-4 や Claude などの独自のモデルは、数万のコンテキスト トークンの処理において大幅な進歩を示していますが、オープンソース モデルはまだ実験の初期段階にあります。
+また、これらの長いコンテキスト モデルの開発が、検索ベースの手法やチャンク化されたコンテキストで単純にトレーニングされたモデルと比較して、実際の下流タスクで大幅な利益をもたらすことができるかどうかも不明のままです。
+この課題に対処するために、私たちは長いコンテキスト言語モデルの標準化された評価を制定することを提案します。
+具体的には、法律、金融、学校の講義、長い会話、ニュース、長編小説、会議などの分野を網羅する、作成者によって手動で注釈が付けられチェックされた 411 の長い文書と 2,000 を超えるクエリと応答のペアを含む L-Eval を開発します。
+また、L-Eval は多様な評価方法と指導スタイルを採用しており、ロング コンテキスト言語モデル (LCLM) のより信頼性の高い評価を可能にします。
+私たちの調査結果は、オープンソース モデルは通常、商用モデルに比べて遅れをとっているものの、依然として優れたパフォーマンスを示していることを示しています。
+LLaMA2 は、コンテキスト長がわずか 4k のオープンエンド タスクで最良の結果 (ターボ 16k に対して 45\% の勝利) を達成し、ChatGLM2 は、8k 入力トークンを使用するクローズドエンド タスクで最良の結果を達成します。
+新しい評価スイート、コード、すべてのオープンソース LCLM、GPT4-32k、Cluade-100k からの予測を含むすべての生成結果を {\url{https://github.com/OpenLMLab/LEval}} でリリースします。
 
 {{</citation>}}
 
@@ -74,7 +87,7 @@ Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu, Hao Tian, Hua Wu, 
 **Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs-IR, cs.CL  
 Keywords: AI, Augmentation, ChatGPT, GPT, Language Model, QA  
 [Paper Link](http://arxiv.org/abs/2307.11019v1)  
@@ -84,6 +97,18 @@ Keywords: AI, Augmentation, ChatGPT, GPT, Language Model, QA
 
 **ABSTRACT**  
 Knowledge-intensive tasks (e.g., open-domain question answering (QA)) require a substantial amount of factual knowledge and often rely on external information for assistance. Recently, large language models (LLMs) (e.g., ChatGPT), have demonstrated impressive prowess in solving a wide range of tasks with world knowledge, including knowledge-intensive tasks. However, it remains unclear how well LLMs are able to perceive their factual knowledge boundaries, particularly how they behave when incorporating retrieval augmentation. In this study, we present an initial analysis of the factual knowledge boundaries of LLMs and how retrieval augmentation affects LLMs on open-domain QA. Specially, we focus on three primary research questions and analyze them by examining QA performance, priori judgement and posteriori judgement of LLMs. We show evidence that LLMs possess unwavering confidence in their capabilities to respond to questions and the accuracy of their responses. Furthermore, retrieval augmentation proves to be an effective approach in enhancing LLMs' awareness of knowledge boundaries, thereby improving their judgemental abilities. Additionally, we also find that LLMs have a propensity to rely on the provided retrieval results when formulating answers, while the quality of these results significantly impacts their reliance. The code to reproduce this work is available at https://github.com/RUCAIBox/LLM-Knowledge-Boundary.
+
+---
+
+知識集約型タスク (オープンドメインの質問応答 (QA) など) には、かなりの量の事実知識が必要であり、多くの場合、外部情報に支援を求めます。
+最近、大規模言語モデル (LLM) (ChatGPT など) は、知識集約型タスクを含む世界の知識を使用して幅広いタスクを解決する際に優れた能力を発揮しています。
+ただし、LLM が事実知識の境界をどの程度認識できるか、特に検索拡張を組み込んだときに LLM がどのように動作するかは依然として不明です。
+この研究では、LLM の事実知識境界の初期分析と、オープンドメイン QA において検索拡張が LLM にどのような影響を与えるかを示します。
+特に、私たちは 3 つの主要な調査質問に焦点を当て、QA のパフォーマンス、LLM の先験的判断、事後的判断を調査することによってそれらを分析します。
+私たちは、LLM が質問に応答する能力とその応答の正確さに対して揺るぎない自信を持っているという証拠を示しています。
+さらに、検索拡張は、LLM の知識境界に対する認識を高め、それによって判断能力を向上させる効果的なアプローチであることが証明されています。
+さらに、LLM は回答を作成するときに提供された検索結果に依存する傾向がある一方で、これらの結果の質が信頼性に大きな影響を与えることもわかりました。
+この作業を再現するコードは、https://github.com/RUCAIBox/LLM-Knowledge-Boundary で入手できます。
 
 {{</citation>}}
 
@@ -96,7 +121,7 @@ Siddhant Arora, Hayato Futami, Yosuke Kashiwagi, Emiru Tsunoo, Brian Yan, Shinji
 **Integrating Pretrained ASR and LM to Perform Sequence Generation for Spoken Language Understanding**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs-SD, cs.CL, eess-AS  
 Keywords: NLU, Spoken Language Understanding  
 [Paper Link](http://arxiv.org/abs/2307.11005v1)  
@@ -106,6 +131,16 @@ Keywords: NLU, Spoken Language Understanding
 
 **ABSTRACT**  
 There has been an increased interest in the integration of pretrained speech recognition (ASR) and language models (LM) into the SLU framework. However, prior methods often struggle with a vocabulary mismatch between pretrained models, and LM cannot be directly utilized as they diverge from its NLU formulation. In this study, we propose a three-pass end-to-end (E2E) SLU system that effectively integrates ASR and LM subnetworks into the SLU formulation for sequence generation tasks. In the first pass, our architecture predicts ASR transcripts using the ASR subnetwork. This is followed by the LM subnetwork, which makes an initial SLU prediction. Finally, in the third pass, the deliberation subnetwork conditions on representations from the ASR and LM subnetworks to make the final prediction. Our proposed three-pass SLU system shows improved performance over cascaded and E2E SLU models on two benchmark SLU datasets, SLURP and SLUE, especially on acoustically challenging utterances.
+
+---
+
+事前トレーニング済み音声認識 (ASR) と言語モデル (LM) を SLU フレームワークに統合することへの関心が高まっています。
+ただし、従来の方法では、事前トレーニングされたモデル間の語彙の不一致に悩まされることが多く、LM は NLU 定式化から逸脱しているため、直接利用することはできません。
+この研究では、ASR サブネットワークと LM サブネットワークをシーケンス生成タスクの SLU 定式化に効果的に統合する 3 パス エンドツーエンド (E2E) SLU システムを提案します。
+最初のパスでは、アーキテクチャは ASR サブネットワークを使用して ASR トランスクリプトを予測します。
+これに続いて LM サブネットワークが初期 SLU 予測を行います。
+最後に、3 番目のパスでは、審議サブネットワークが ASR および LM サブネットワークからの表現に条件を付けて、最終予測を行います。
+私たちが提案する 3 パス SLU システムは、2 つのベンチマーク SLU データセット、SLURP と SLUE において、特に音響的に困難な発話において、カスケード SLU モデルおよび E2E SLU モデルよりもパフォーマンスが向上しています。
 
 {{</citation>}}
 
@@ -118,7 +153,7 @@ Qingfa Xiao, Shuangyin Li, Lei Chen. (2023)
 **Identical and Fraternal Twins: Fine-Grained Semantic Contrastive Learning of Sentence Representations**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Contrastive Learning  
 [Paper Link](http://arxiv.org/abs/2307.10932v1)  
@@ -128,6 +163,19 @@ Keywords: Contrastive Learning
 
 **ABSTRACT**  
 The enhancement of unsupervised learning of sentence representations has been significantly achieved by the utility of contrastive learning. This approach clusters the augmented positive instance with the anchor instance to create a desired embedding space. However, relying solely on the contrastive objective can result in sub-optimal outcomes due to its inability to differentiate subtle semantic variations between positive pairs. Specifically, common data augmentation techniques frequently introduce semantic distortion, leading to a semantic margin between the positive pair. While the InfoNCE loss function overlooks the semantic margin and prioritizes similarity maximization between positive pairs during training, leading to the insensitive semantic comprehension ability of the trained model. In this paper, we introduce a novel Identical and Fraternal Twins of Contrastive Learning (named IFTCL) framework, capable of simultaneously adapting to various positive pairs generated by different augmentation techniques. We propose a \textit{Twins Loss} to preserve the innate margin during training and promote the potential of data enhancement in order to overcome the sub-optimal issue. We also present proof-of-concept experiments combined with the contrastive objective to prove the validity of the proposed Twins Loss. Furthermore, we propose a hippocampus queue mechanism to restore and reuse the negative instances without additional calculation, which further enhances the efficiency and performance of the IFCL. We verify the IFCL framework on nine semantic textual similarity tasks with both English and Chinese datasets, and the experimental results show that IFCL outperforms state-of-the-art methods.
+
+---
+
+文表現の教師なし学習の強化は、対照学習の利用によって大幅に達成されました。
+このアプローチでは、拡張されたポジティブ インスタンスをアンカー インスタンスとクラスター化して、必要な埋め込みスペースを作成します。
+ただし、対照的な目的のみに依存すると、正のペア間の微妙な意味の違いを区別できないため、最適な結果が得られない可能性があります。
+具体的には、一般的なデータ拡張技術では意味上の歪みが頻繁に導入され、ポジティブ ペア間に意味上のマージンが生じます。
+InfoNCE 損失関数は意味的余裕を無視し、トレーニング中にポジティブ ペア間の類似性の最大化を優先するため、トレーニングされたモデルの意味的理解能力が鈍くなります。
+この論文では、異なる拡張技術によって生成されたさまざまなポジティブペアに同時に適応できる、新しい Identical and Fraternal Twins of Contrastive Learning (IFTCL と呼ばれる) フレームワークを紹介します。
+私たちは、トレーニング中に固有のマージンを維持し、次善の問題を克服するためにデータ拡張の可能性を促進する \textit{Twins Loss} を提案します。
+また、提案されたツインズ損失の有効性を証明するために、対照的な目的と組み合わせた概念実証実験も紹介します。
+さらに、追加の計算を行わずにネガティブインスタンスを復元して再利用するための海馬キューメカニズムを提案します。これにより、IFCLの効率とパフォーマンスがさらに向上します。
+英語と中国語の両方のデータセットを使用して、9 つの意味論的テキスト類似性タスクに関する IFCL フレームワークを検証しました。実験結果は、IFCL が最先端の手法よりも優れていることを示しています。
 
 {{</citation>}}
 
@@ -140,7 +188,7 @@ Zhonghao Wang. (2023)
 **MediaGPT : A Large Language Model Target Chinese Media**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: GPT, Language Model, Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10930v1)  
@@ -150,6 +198,18 @@ Keywords: GPT, Language Model, Transformer
 
 **ABSTRACT**  
 The development of large language models (LLMs) has seen rapid progress in recent years. One of the most widely used LLMs is the Generative Pre-trained Transformer (GPT) series, which has been applied in various fields, including the media domain. However, in practical applications, the differences between the media's use cases and the general-purpose applications of LLMs have become increasingly apparent, especially Chinese. As a result, there is a growing need to develop LLM that are specifically tailored to the unique requirements of the media domain. In this paper, we present MediaGPT, a large language model training on variety of media data and addressing the practical needs of Chinese media. We have designed a diverse set of task instruction types to cater to the specific requirements of the domain. To further validate the effectiveness of our proposed LLM, we have constructed unique datasets that are tailored to the media domain and have also developed verification methods that are specifically designed for generative-type tasks. By doing so, we aim to bridge the gap between the general-purpose LLM and the requirements of the media domain, and to pave the way for more effective and efficient use of LLM in this field. This paper aims to explore the challenges and opportunities of developing LLM for media applications and to propose potential solutions for addressing these challenges.
+
+---
+
+大規模言語モデル (LLM) の開発は、近年急速に進歩しています。
+最も広く使用されている LLM の 1 つは、Generative Pre-trained Transformer (GPT) シリーズであり、メディア ドメインを含むさまざまな分野で適用されています。
+しかし、実際のアプリケーションでは、メディアの使用例と LLM の汎用アプリケーションとの違いが、特に中国語でますます明らかになってきています。
+その結果、メディア ドメイン固有の要件に合わせて特別に調整された LLM を開発する必要性が高まっています。
+このペーパーでは、さまざまなメディア データをトレーニングし、中国メディアの実際のニーズに対応する大規模な言語モデルである MediaGPT を紹介します。
+私たちは、ドメインの特定の要件に応えるために、さまざまなタスク指示タイプのセットを設計しました。
+私たちが提案する LLM の有効性をさらに検証するために、メディア ドメインに合わせた独自のデータセットを構築し、生成型タスクに特化して設計された検証方法も開発しました。
+そうすることで、汎用 LLM とメディア ドメインの要件との間のギャップを埋め、この分野で LLM をより効果的かつ効率的に使用する道を開くことを目指しています。
+このペーパーは、メディア アプリケーション向けの LLM 開発の課題と機会を調査し、これらの課題に対処するための潜在的なソリューションを提案することを目的としています。
 
 {{</citation>}}
 
@@ -162,7 +222,7 @@ Seonghyeon Ye, Doyoung Kim, Sungdong Kim, Hyeonbin Hwang, Seungone Kim, Yongrae 
 **FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: AI, Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10928v1)  
@@ -172,6 +232,19 @@ Keywords: AI, Language Model
 
 **ABSTRACT**  
 Evaluation of Large Language Models (LLMs) is challenging because aligning to human values requires the composition of multiple skills and the required set of skills varies depending on the instruction. Recent studies have evaluated the performance of LLMs in two ways, (1) automatic evaluation on several independent benchmarks and (2) human or machined-based evaluation giving an overall score to the response. However, both settings are coarse-grained evaluations, not considering the nature of user instructions that require instance-wise skill composition, which limits the interpretation of the true capabilities of LLMs. In this paper, we introduce FLASK (Fine-grained Language Model Evaluation based on Alignment SKill Sets), a fine-grained evaluation protocol that can be used for both model-based and human-based evaluation which decomposes coarse-level scoring to an instance-wise skill set-level. Specifically, we define 12 fine-grained skills needed for LLMs to follow open-ended user instructions and construct an evaluation set by allocating a set of skills for each instance. Additionally, by annotating the target domains and difficulty level for each instance, FLASK provides a holistic view with a comprehensive analysis of a model's performance depending on skill, domain, and difficulty. Through using FLASK, we compare multiple open-sourced and proprietary LLMs and observe highly-correlated findings between model-based and human-based evaluations. FLASK enables developers to more accurately measure the model performance and how it can be improved by analyzing factors that make LLMs proficient in particular skills. For practitioners, FLASK can be used to recommend suitable models for particular situations through comprehensive comparison among various LLMs. We release the evaluation data and code implementation at https://github.com/kaistAI/FLASK.
+
+---
+
+人間の価値観に合わせるには複数のスキルを構成する必要があり、必要なスキルのセットは指導によって異なるため、大規模言語モデル (LLM) の評価は困難です。
+最近の研究では、LLM のパフォーマンスを 2 つの方法で評価しています。(1) いくつかの独立したベンチマークでの自動評価、および (2) 応答に全体的なスコアを与える人間または機械ベースの評価です。
+ただし、どちらの設定も大まかな評価であり、インスタンスごとのスキル構成を必要とするユーザー命令の性質が考慮されていないため、LLM の真の機能の解釈が制限されます。
+このペーパーでは、大まかなレベルのスコアリングをインスタンスごとのスキル セット レベルに分解する、モデル ベースと人間ベースの両方の評価に使用できるきめの細かい評価プロトコルである FLASK (アライメント スキル セットに基づくきめの細かい言語モデル評価) を紹介します。
+具体的には、LLM が自由形式のユーザー指示に従うために必要な 12 のきめ細かいスキルを定義し、各インスタンスにスキルのセットを割り当てることで評価セットを構築します。
+さらに、各インスタンスのターゲット ドメインと難易度レベルに注釈を付けることで、FLASK はスキル、ドメイン、難易度に応じたモデルのパフォーマンスの包括的な分析を含む全体的なビューを提供します。
+FLASK を使用することで、複数のオープンソース LLM と独自の LLM を比較し、モデルベースの評価と人間ベースの評価の間に相関性の高い結果を観察しました。
+FLASK を使用すると、開発者はモデルのパフォーマンスをより正確に測定し、LLM が特定のスキルに習熟する要因を分析することでモデルのパフォーマンスをどのように改善できるかをより正確に測定できるようになります。
+実務者にとって、FLASK を使用すると、さまざまな LLM 間の包括的な比較を通じて、特定の状況に適したモデルを推奨できます。
+評価データとコード実装は https://github.com/kaistAI/FLASK で公開しています。
 
 {{</citation>}}
 
@@ -184,7 +257,7 @@ Ashish Singh, Prateek Agarwal, Zixuan Huang, Arpita Singh, Tong Yu, Sungchul Kim
 **FigCaps-HF: A Figure-to-Caption Generative Framework and Benchmark with Human Feedback**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs-CV, cs-LG, cs.CL  
 Keywords: BLEU  
 [Paper Link](http://arxiv.org/abs/2307.10867v1)  
@@ -194,6 +267,16 @@ Keywords: BLEU
 
 **ABSTRACT**  
 Captions are crucial for understanding scientific visualizations and documents. Existing captioning methods for scientific figures rely on figure-caption pairs extracted from documents for training, many of which fall short with respect to metrics like helpfulness, explainability, and visual-descriptiveness [15] leading to generated captions being misaligned with reader preferences. To enable the generation of high-quality figure captions, we introduce FigCaps-HF a new framework for figure-caption generation that can incorporate domain expert feedback in generating captions optimized for reader preferences. Our framework comprises of 1) an automatic method for evaluating quality of figure-caption pairs, 2) a novel reinforcement learning with human feedback (RLHF) method to optimize a generative figure-to-caption model for reader preferences. We demonstrate the effectiveness of our simple learning framework by improving performance over standard fine-tuning across different types of models. In particular, when using BLIP as the base model, our RLHF framework achieves a mean gain of 35.7%, 16.9%, and 9% in ROUGE, BLEU, and Meteor, respectively. Finally, we release a large-scale benchmark dataset with human feedback on figure-caption pairs to enable further evaluation and development of RLHF techniques for this problem.
+
+---
+
+キャプションは、科学的な視覚化や文書を理解するために非常に重要です。
+科学図の既存のキャプション手法は、トレーニングのために文書から抽出された図とキャプションのペアに依存していますが、その多くは有用性、説明可能性、視覚的説明性などの指標に関して不十分であり、生成されたキャプションが読者の好みとずれてしまいます。
+高品質の図キャプションの生成を可能にするために、読者の好みに合わせて最適化されたキャプションを生成する際に分野専門家のフィードバックを組み込むことができる図キャプション生成用の新しいフレームワークである FigCaps-HF を導入します。
+私たちのフレームワークは、1) 図とキャプションのペアの品質を評価するための自動手法、2) 読者の好みに合わせて図とキャプションの生成モデルを最適化するためのヒューマン フィードバックによる新しい強化学習 (RLHF) 手法で構成されます。
+さまざまなタイプのモデルにわたる標準的な微調整よりもパフォーマンスを向上させることで、シンプルな学習フレームワークの有効性を実証します。
+特に、BLIP をベース モデルとして使用する場合、RLHF フレームワークは、ROUGE、BLEU、Meteor でそれぞれ 35.7%、16.9%、9% の平均ゲインを達成します。
+最後に、この問題に対する RLHF 手法のさらなる評価と開発を可能にするために、図とキャプションのペアに関する人間のフィードバックを備えた大規模なベンチマーク データセットをリリースします。
 
 {{</citation>}}
 
@@ -206,7 +289,7 @@ Ephrem Afele Retta, Richard Sutcliffe, Jabar Mahmood, Michael Abebe Berwo, Eiad 
 **Cross-Corpus Multilingual Speech Emotion Recognition: Amharic vs. Other Languages**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs-NE, cs-SD, cs.CL, eess-AS  
 Keywords: Emotion Recognition, Multilingual  
 [Paper Link](http://arxiv.org/abs/2307.10814v1)  
@@ -216,6 +299,24 @@ Keywords: Emotion Recognition, Multilingual
 
 **ABSTRACT**  
 In a conventional Speech emotion recognition (SER) task, a classifier for a given language is trained on a pre-existing dataset for that same language. However, where training data for a language does not exist, data from other languages can be used instead. We experiment with cross-lingual and multilingual SER, working with Amharic, English, German and URDU. For Amharic, we use our own publicly-available Amharic Speech Emotion Dataset (ASED). For English, German and Urdu we use the existing RAVDESS, EMO-DB and URDU datasets. We followed previous research in mapping labels for all datasets to just two classes, positive and negative. Thus we can compare performance on different languages directly, and combine languages for training and testing. In Experiment 1, monolingual SER trials were carried out using three classifiers, AlexNet, VGGE (a proposed variant of VGG), and ResNet50. Results averaged for the three models were very similar for ASED and RAVDESS, suggesting that Amharic and English SER are equally difficult. Similarly, German SER is more difficult, and Urdu SER is easier. In Experiment 2, we trained on one language and tested on another, in both directions for each pair: Amharic<->German, Amharic<->English, and Amharic<->Urdu. Results with Amharic as target suggested that using English or German as source will give the best result. In Experiment 3, we trained on several non-Amharic languages and then tested on Amharic. The best accuracy obtained was several percent greater than the best accuracy in Experiment 2, suggesting that a better result can be obtained when using two or three non-Amharic languages for training than when using just one non-Amharic language. Overall, the results suggest that cross-lingual and multilingual training can be an effective strategy for training a SER classifier when resources for a language are scarce.
+
+---
+
+従来の音声感情認識 (SER) タスクでは、特定の言語の分類子が、同じ言語の既存のデータセットでトレーニングされます。
+ただし、ある言語のトレーニング データが存在しない場合は、代わりに他の言語のデータを使用できます。
+私たちは、アムハラ語、英語、ドイツ語、URDU を使用して、クロスリンガルおよび多言語 SER を実験しています。
+アムハラ語については、公開されている独自のアムハラ語音声感情データセット (ASED) を使用します。
+英語、ドイツ語、ウルドゥー語については、既存の RAVDESS、EMO-DB、URDU データセットを使用します。
+以前の研究に従って、すべてのデータセットのラベルを正と負の 2 つのクラスのみにマッピングしました。
+したがって、さまざまな言語でのパフォーマンスを直接比較したり、トレーニングやテストのために言語を組み合わせたりできます。
+実験 1 では、AlexNet、VGGE (VGG の提案された変種)、および ResNet50 という 3 つの分類器を使用して、単一言語 SER トライアルが実行されました。
+3 つのモデルの平均結果は ASED と RAVDESS で非常に似ており、アムハラ語と英語の SER が同等に難しいことを示唆しています。
+同様に、ドイツ語の SER はより難しく、ウルドゥー語の SER は簡単です。
+実験 2 では、アムハラ語<->ドイツ語、アムハラ語<->英語、アムハラ語<->ウルドゥー語のペアごとに、ある言語でトレーニングし、別の言語でテストしました。
+アムハラ語をターゲットとした結果は、英語またはドイツ語をソースとして使用すると最良の結果が得られることを示唆しました。
+実験 3 では、いくつかの非アムハラ語でトレーニングし、次にアムハラ語でテストしました。
+得られた最高の精度は、実験 2 の最高の精度よりも数パーセント高く、トレーニングに 2 つまたは 3 つの非アムハラ語を使用した方が、1 つの非アムハラ語のみを使用した場合よりも良い結果が得られることを示唆しています。
+全体として、この結果は、言語のリソースが不足している場合に、クロスリンガルおよび多言語トレーニングが SER 分類器をトレーニングするための効果的な戦略となり得ることを示唆しています。
 
 {{</citation>}}
 
@@ -228,7 +329,7 @@ Yafang Zheng, Lei Lin, Zhaohong Lai, Binling Wang, Shan Liu, Biao Fu, Wenhao Rao
 **Layer-wise Representation Fusion for Compositional Generalization**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10799v1)  
@@ -238,6 +339,16 @@ Keywords: Transformer
 
 **ABSTRACT**  
 Despite successes across a broad range of applications, sequence-to-sequence models' construct of solutions are argued to be less compositional than human-like generalization. There is mounting evidence that one of the reasons hindering compositional generalization is representations of the encoder and decoder uppermost layer are entangled. In other words, the syntactic and semantic representations of sequences are twisted inappropriately. However, most previous studies mainly concentrate on enhancing token-level semantic information to alleviate the representations entanglement problem, rather than composing and using the syntactic and semantic representations of sequences appropriately as humans do. In addition, we explain why the entanglement problem exists from the perspective of recent studies about training deeper Transformer, mainly owing to the ``shallow'' residual connections and its simple, one-step operations, which fails to fuse previous layers' information effectively. Starting from this finding and inspired by humans' strategies, we propose \textsc{FuSion} (\textbf{Fu}sing \textbf{S}yntactic and Semant\textbf{i}c Representati\textbf{on}s), an extension to sequence-to-sequence models to learn to fuse previous layers' information back into the encoding and decoding process appropriately through introducing a \emph{fuse-attention module} at each encoder and decoder layer. \textsc{FuSion} achieves competitive and even \textbf{state-of-the-art} results on two realistic benchmarks, which empirically demonstrates the effectiveness of our proposal.
+
+---
+
+幅広いアプリケーションで成功を収めているにもかかわらず、シーケンスツーシーケンス モデルのソリューションの構築は、人間のような一般化に比べて構成性が低いと主張されています。
+構成の一般化を妨げる理由の 1 つは、エンコーダとデコーダの最上位層の表現が絡み合っていることであるという証拠が増えています。
+言い換えれば、シーケンスの構文的および意味的表現が不適切にねじれているということです。
+しかし、これまでの研究のほとんどは、人間が行うようにシーケンスの構文的および意味的表現を適切に構成して使用するのではなく、表現のもつれの問題を軽減するためにトークンレベルの意味論的情報を強化することに主に焦点を当てていました。
+さらに、より深い Transformer のトレーニングに関する最近の研究の観点から、エンタングルメント問題が存在する理由を説明します。主な原因は、「浅い」残留接続と、前の層の情報を効果的に融合できない単純なワンステップ操作によるものです。
+この発見から出発し、人間の戦略にインスピレーションを得て、私たちは、各エンコーダ層とデコーダ層に \emph{fuse-attention module} を導入することで、前の層の情報をエンコードおよびデコードのプロセスに適切に融合し戻す方法を学習するシーケンス間モデルの拡張である \textsc{FuSion} (\textbf{Fu}sing \textbf{S}yntactic and Semant\textbf{i}c Representati\textbf{on}s) を提案します。
+\textsc{FuSion} は、2 つの現実的なベンチマークで競争力のある、さらには \textbf{最先端} の結果を達成しており、これは私たちの提案の有効性を実証的に示しています。
 
 {{</citation>}}
 
@@ -250,7 +361,7 @@ Jens-Joris Decorte, Severine Verlinden, Jeroen Van Hautte, Johannes Deleu, Chris
 **Extreme Multi-Label Skill Extraction Training using Large Language Models**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model, NLP  
 [Paper Link](http://arxiv.org/abs/2307.10778v1)  
@@ -260,6 +371,15 @@ Keywords: Language Model, NLP
 
 **ABSTRACT**  
 Online job ads serve as a valuable source of information for skill requirements, playing a crucial role in labor market analysis and e-recruitment processes. Since such ads are typically formatted in free text, natural language processing (NLP) technologies are required to automatically process them. We specifically focus on the task of detecting skills (mentioned literally, or implicitly described) and linking them to a large skill ontology, making it a challenging case of extreme multi-label classification (XMLC). Given that there is no sizable labeled (training) dataset are available for this specific XMLC task, we propose techniques to leverage general Large Language Models (LLMs). We describe a cost-effective approach to generate an accurate, fully synthetic labeled dataset for skill extraction, and present a contrastive learning strategy that proves effective in the task. Our results across three skill extraction benchmarks show a consistent increase of between 15 to 25 percentage points in \textit{R-Precision@5} compared to previously published results that relied solely on distant supervision through literal matches.
+
+---
+
+オンライン求人広告は、スキル要件に関する貴重な情報源として機能し、労働市場分析や電子採用プロセスにおいて重要な役割を果たします。
+このような広告は通常、フリー テキストでフォーマットされているため、広告を自動的に処理するには自然言語処理 (NLP) テクノロジーが必要です。
+私たちは、スキル (文字通りに言及された、または暗黙的に記述されたもの) を検出し、それらを大規模なスキル オントロジーにリンクするタスクに特に焦点を当てており、これを極端なマルチラベル分類 (XMLC) の困難なケースにしています。
+この特定の XMLC タスクに使用できる大規模なラベル付き (トレーニング) データセットがないことを考慮して、一般的な大規模言語モデル (LLM) を活用する手法を提案します。
+スキル抽出用に正確で完全に合成されたラベル付きデータセットを生成するための費用対効果の高いアプローチについて説明し、このタスクで効果的であることが証明された対照的な学習戦略を提示します。
+3 つのスキル抽出ベンチマークにわたる結果は、文字どおりの一致による遠隔監視のみに依存した以前に公開された結果と比較して、\textit{R-Precision@5} が 15 ～ 25 パーセント ポイント一貫して増加していることを示しています。
 
 {{</citation>}}
 
@@ -272,7 +392,7 @@ Hynek Kydlíček, Jindřich Libovický. (2023)
 **A Dataset and Strong Baselines for Classification of Czech News Texts**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: NER, Natural Language Processing  
 [Paper Link](http://arxiv.org/abs/2307.10666v1)  
@@ -282,6 +402,14 @@ Keywords: NER, Natural Language Processing
 
 **ABSTRACT**  
 Pre-trained models for Czech Natural Language Processing are often evaluated on purely linguistic tasks (POS tagging, parsing, NER) and relatively simple classification tasks such as sentiment classification or article classification from a single news source. As an alternative, we present CZEch~NEws~Classification~dataset (CZE-NEC), one of the largest Czech classification datasets, composed of news articles from various sources spanning over twenty years, which allows a more rigorous evaluation of such models. We define four classification tasks: news source, news category, inferred author's gender, and day of the week. To verify the task difficulty, we conducted a human evaluation, which revealed that human performance lags behind strong machine-learning baselines built upon pre-trained transformer models. Furthermore, we show that language-specific pre-trained encoder analysis outperforms selected commercially available large-scale generative language models.
+
+---
+
+チェコの自然言語処理の事前トレーニング済みモデルは、多くの場合、純粋な言語タスク (POS タグ付け、解析、NER) と、感情分類や単一ニュース ソースからの記事分類などの比較的単純な分類タスクで評価されます。
+代替案として、20 年以上にわたるさまざまなソースからのニュース記事で構成される、チェコ最大の分類データセットの 1 つである CZEch~NEws~Classification~dataset (CZE-NEC) を紹介します。これにより、そのようなモデルのより厳密な評価が可能になります。
+ニュース ソース、ニュース カテゴリ、推定著者の性別、曜日という 4 つの分類タスクを定義します。
+タスクの難易度を検証するために、人間による評価を実施したところ、人間のパフォーマンスは、事前にトレーニングされた変圧器モデルに基づいて構築された強力な機械学習ベースラインよりも遅れていることが明らかになりました。
+さらに、言語固有の事前トレーニング済みエンコーダー分析が、選択された市販の大規模生成言語モデルよりも優れていることを示します。
 
 {{</citation>}}
 
@@ -294,7 +422,7 @@ Tim Schopf, Karim Arabi, Florian Matthes. (2023)
 **Exploring the Landscape of Natural Language Processing Research**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: I-2-7, cs-CL, cs.CL  
 Keywords: NLP, Natural Language Processing  
 [Paper Link](http://arxiv.org/abs/2307.10652v1)  
@@ -304,6 +432,14 @@ Keywords: NLP, Natural Language Processing
 
 **ABSTRACT**  
 As an efficient approach to understand, generate, and process natural language texts, research in natural language processing (NLP) has exhibited a rapid spread and wide adoption in recent years. Given the increasing amount of research work in this area, several NLP-related approaches have been surveyed in the research community. However, a comprehensive study that categorizes established topics, identifies trends, and outlines areas for future research remains absent to this day. Contributing to closing this gap, we have systematically classified and analyzed research papers included in the ACL Anthology. As a result, we present a structured overview of the research landscape, provide a taxonomy of fields-of-study in NLP, analyze recent developments in NLP, summarize our findings, and highlight directions for future work.
+
+---
+
+自然言語テキストを理解、生成、処理するための効率的なアプローチとして、自然言語処理 (NLP) の研究は近年急速に普及し、広く採用されています。
+この分野での研究活動の量が増加していることを考慮して、研究コミュニティではいくつかの NLP 関連のアプローチが調査されています。
+しかし、確立されたトピックを分類し、傾向を特定し、将来の研究分野の概要を示す包括的な研究は、今日まで存在していません。
+このギャップを埋めるために、私たちは ACL アンソロジーに含まれる研究論文を体系的に分類して分析しました。
+その結果、私たちは研究状況の構造化された概要を提示し、NLP の研究分野の分類を提供し、NLP の最近の発展を分析し、調査結果を要約し、将来の研究の方向性を強調します。
 
 {{</citation>}}
 
@@ -316,7 +452,7 @@ Xiaoxuan Wang, Ziniu Hu, Pan Lu, Yanqiao Zhu, Jieyu Zhang, Satyen Subramaniam, A
 **SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10635v1)  
@@ -326,6 +462,18 @@ Keywords: Language Model
 
 **ABSTRACT**  
 Recent advances in large language models (LLMs) have demonstrated notable progress on many mathematical benchmarks. However, most of these benchmarks only feature problems grounded in junior and senior high school subjects, contain only multiple-choice questions, and are confined to a limited scope of elementary arithmetic operations. To address these issues, this paper introduces an expansive benchmark suite SciBench that aims to systematically examine the reasoning capabilities required for complex scientific problem solving. SciBench contains two carefully curated datasets: an open set featuring a range of collegiate-level scientific problems drawn from mathematics, chemistry, and physics textbooks, and a closed set comprising problems from undergraduate-level exams in computer science and mathematics. Based on the two datasets, we conduct an in-depth benchmark study of two representative LLMs with various prompting strategies. The results reveal that current LLMs fall short of delivering satisfactory performance, with an overall score of merely 35.80%. Furthermore, through a detailed user study, we categorize the errors made by LLMs into ten problem-solving abilities. Our analysis indicates that no single prompting strategy significantly outperforms others and some strategies that demonstrate improvements in certain problem-solving skills result in declines in other skills. We envision that SciBench will catalyze further developments in the reasoning abilities of LLMs, thereby ultimately contributing to scientific research and discovery.
+
+---
+
+大規模言語モデル (LLM) の最近の進歩により、多くの数学的ベンチマークで顕著な進歩が実証されました。
+ただし、これらのベンチマークのほとんどは、中学および高校の教科に基づいた問題のみを取り上げており、多肢選択問題のみが含まれており、初歩的な算術演算の限られた範囲に限定されています。
+これらの問題に対処するために、このホワイトペーパーでは、複雑な科学的問題の解決に必要な推論能力を系統的に調べることを目的とした、拡張的なベンチマーク スイート SciBench を紹介します。
+SciBench には、慎重に精選された 2 つのデータセットが含まれています。1 つは数学、化学、物理学の教科書から抜粋されたさまざまな大学レベルの科学問題を特徴とするオープン セット、もう 1 つはコンピューター サイエンスと数学の学部レベルの試験の問題で構成されるクローズド セットです。
+2 つのデータセットに基づいて、さまざまなプロンプト戦略を備えた 2 つの代表的な LLM の詳細なベンチマーク調査を実施します。
+結果は、現在の LLM が満足のいくパフォーマンスを提供するには至っておらず、全体スコアがわずか 35.80% であることを示しています。
+さらに、詳細なユーザー調査を通じて、LLM が犯したエラーを 10 の問題解決能力に分類しました。
+私たちの分析によると、単一のプロンプト戦略が他の戦略よりも大幅に優れているということはなく、特定の問題解決スキルの向上を示すいくつかの戦略は、他のスキルの低下につながることが示されています。
+私たちは、SciBench が LLM の推論能力のさらなる発展を促進し、それによって最終的には科学の研究と発見に貢献することを想定しています。
 
 {{</citation>}}
 
@@ -338,7 +486,7 @@ Shriyash K. Upadhyay, Etan J. Ginsberg. (2023)
 **Multi-Method Self-Training: Improving Code Generation With Text, And Vice Versa**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10633v1)  
@@ -348,6 +496,17 @@ Keywords: Language Model
 
 **ABSTRACT**  
 Large Language Models have many methods for solving the same problem. This introduces novel strengths (different methods may work well for different problems) and weaknesses (it may be difficult for users to know which method to use). In this paper, we introduce Multi-Method Self-Training (MMST), where one method is trained on the filtered outputs of another, allowing us to augment the strengths and ameliorate the weaknesses of each method. Using a 176B parameter model trained on both language and code, we show that MMST can 1) improve the less performant method (up to 30%) making the model easier to use, 2) improve the more performant method (up to 32.2%) making the model more performant, and 3) improve the performance of related but distinct tasks (up to 10.3%) by improving the ability of the model to generate rationales. We then conduct ablation analyses to explore why MMST works. We show that MMST generates more data than traditional self-training, but the improvement in performance is driven by the use of multiple methods. We also analyze prompt-engineering and anti-correlated performance between methods as means of making MMST more effective. We hope the evidence from our paper motivates machine learning researchers to explore ways in which advances in language models allow for new forms of training.
+
+---
+
+大規模言語モデルには、同じ問題を解決するための多くの方法があります。
+これにより、新たな長所 (問題ごとに異なる方法がうまく機能する可能性がある) と短所 (ユーザーがどの方法を使用するかを知るのが難しい場合がある) が明らかになります。
+このペーパーでは、マルチメソッド セルフ トレーニング (MMST) を紹介します。MMST では、あるメソッドがフィルター処理された別のメソッドの出力でトレーニングされ、各メソッドの長所を強化し、短所を改善することができます。
+言語とコードの両方でトレーニングされた 176B パラメーター モデルを使用して、MMST が 1) パフォーマンスの低いメソッド (最大 30%) を改善してモデルを使いやすくし、2) パフォーマンスの高いメソッド (最大 32.2%) を改善してモデルのパフォーマンスを向上させ、3) モデルの理論的根拠を生成する能力を向上させることで、関連しているが別個のタスクのパフォーマンスを改善 (最大 10.3%) できることを示します。
+次に、アブレーション分析を実施して、MMST が機能する理由を探ります。
+MMST は従来の自己トレーニングよりも多くのデータを生成しますが、パフォーマンスの向上は複数の方法の使用によって促進されることを示します。
+また、MMST をより効果的にする手段として、プロンプトエンジニアリングと手法間の逆相関パフォーマンスも分析します。
+私たちの論文の証拠が、機械学習研究者に、言語モデルの進歩によって新しい形式のトレーニングを可能にする方法を探求する動機を与えることを願っています。
 
 {{</citation>}}
 
@@ -360,7 +519,7 @@ Anand Kumar Rai, Siddharth D Jaiswal, Animesh Mukherjee. (2023)
 **A Deep Dive into the Disparity of Word Error Rates Across Thousands of NPTEL MOOC Videos**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs-HC, cs.CL  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10587v1)  
@@ -370,6 +529,17 @@ Keywords: AI
 
 **ABSTRACT**  
 Automatic speech recognition (ASR) systems are designed to transcribe spoken language into written text and find utility in a variety of applications including voice assistants and transcription services. However, it has been observed that state-of-the-art ASR systems which deliver impressive benchmark results, struggle with speakers of certain regions or demographics due to variation in their speech properties. In this work, we describe the curation of a massive speech dataset of 8740 hours consisting of $\sim9.8$K technical lectures in the English language along with their transcripts delivered by instructors representing various parts of Indian demography. The dataset is sourced from the very popular NPTEL MOOC platform. We use the curated dataset to measure the existing disparity in YouTube Automatic Captions and OpenAI Whisper model performance across the diverse demographic traits of speakers in India. While there exists disparity due to gender, native region, age and speech rate of speakers, disparity based on caste is non-existent. We also observe statistically significant disparity across the disciplines of the lectures. These results indicate the need of more inclusive and robust ASR systems and more representational datasets for disparity evaluation in them.
+
+---
+
+自動音声認識 (ASR) システムは、話し言葉を書き言葉に書き写すように設計されており、音声アシスタントや文字起こしサービスなどのさまざまなアプリケーションで活用できます。
+しかし、優れたベンチマーク結果をもたらす最先端の ASR システムは、音声特性のばらつきにより、特定の地域や人口統計の話者に対しては苦戦することが観察されています。
+この研究では、インドの人口統計のさまざまな地域を代表する講師によって行われた英語による $\sim9.8$K の技術講義とそのトランスクリプトから構成される 8,740 時間の大規模な音声データセットのキュレーションについて説明します。
+データセットは、非常に人気のある NPTEL MOOC プラットフォームから取得されています。
+私たちは、厳選されたデータセットを使用して、インドの話者の多様な人口統計的特徴にわたる YouTube 自動キャプションと OpenAI Whisper モデルのパフォーマンスにおける既存の差異を測定します。
+話者の性別、出身地域、年齢、発話速度などによる格差は存在するが、カーストによる格差は存在しない。
+また、講義の分野間で統計的に有意な差異が観察されました。
+これらの結果は、より包括的で堅牢な ASR システムと、その中での視差評価のためのより表現的なデータセットの必要性を示しています。
 
 {{</citation>}}
 
@@ -382,7 +552,7 @@ Shiyang Li, Jun Yan, Hai Wang, Zheng Tang, Xiang Ren, Vijay Srinivasan, Hongxia 
 **Instruction-following Evaluation through Verbalizer Manipulation**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: GPT, GPT-4  
 [Paper Link](http://arxiv.org/abs/2307.10558v1)  
@@ -392,6 +562,18 @@ Keywords: GPT, GPT-4
 
 **ABSTRACT**  
 While instruction-tuned models have shown remarkable success in various natural language processing tasks, accurately evaluating their ability to follow instructions remains challenging. Existing benchmarks primarily focus on common instructions that align well with what the model learned during training. However, proficiency in responding to these instructions does not necessarily imply strong ability in instruction following. In this paper, we propose a novel instruction-following evaluation protocol called verbalizer manipulation. It instructs the model to verbalize the task label with words aligning with model priors to different extents, adopting verbalizers from highly aligned (e.g., outputting ``postive'' for positive sentiment), to minimally aligned (e.g., outputting ``negative'' for positive sentiment). Verbalizer manipulation can be seamlessly integrated with any classification benchmark to examine the model's reliance on priors and its ability to override them to accurately follow the instructions. We conduct a comprehensive evaluation of four major model families across nine datasets, employing twelve sets of verbalizers for each of them. We observe that the instruction-following abilities of models, across different families and scales, are significantly distinguished by their performance on less natural verbalizers. Even the strongest GPT-4 model struggles to perform better than random guessing on the most challenging verbalizer, emphasizing the need for continued advancements to improve their instruction-following abilities.
+
+---
+
+命令調整モデルはさまざまな自然言語処理タスクで目覚ましい成功を収めていますが、命令に従う能力を正確に評価することは依然として困難です。
+既存のベンチマークは主に、トレーニング中にモデルが学習した内容とよく一致する一般的な命令に焦点を当てています。
+ただし、これらの指示に応答する能力が高いということは、必ずしも指示に従う能力が高いことを意味するわけではありません。
+この論文では、言語化操作と呼ばれる新しい命令追従評価プロトコルを提案します。
+これは、モデルの事前分布とさまざまな程度に一致する単語でタスク ラベルを言語化するようにモデルに指示し、高度に一致した言語 (例: ポジティブな感情に対して「ポジティブ」を出力) から最小限の一致 (例: ポジティブな感情に対して「ネガティブ」を出力) までの言語化ツールを採用します。
+Verbalizer の操作は、任意の分類ベンチマークとシームレスに統合して、モデルの事前分布への依存性と、事前分布をオーバーライドして指示に正確に従う機能を検査できます。
+私たちは、9 つ​​のデータセットにわたって 4 つの主要なモデル ファミリの包括的な評価を実行し、それぞれに 12 セットの言語化ツールを使用します。
+モデルの命令追従能力は、さまざまなファミリーやスケールにわたって、より自然でない言語化者でのパフォーマンスによって大きく区別されることが観察されています。
+最も強力な GPT-4 モデルでさえ、最も困難な言語化者に対してはランダムな推測よりも優れたパフォーマンスを発揮するのに苦労しており、指示に従う能力を向上させるためには継続的な進歩の必要性が強調されています。
 
 {{</citation>}}
 
@@ -404,7 +586,7 @@ Somayeh Ghanbarzadeh, Yan Huang, Hamid Palangi, Radames Cruz Moreno, Hamed Khanp
 **Gender-tuning: Empowering Fine-tuning for Debiasing Pre-trained Language Models**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10522v1)  
@@ -414,6 +596,16 @@ Keywords: Language Model
 
 **ABSTRACT**  
 Recent studies have revealed that the widely-used Pre-trained Language Models (PLMs) propagate societal biases from the large unmoderated pre-training corpora. Existing solutions require debiasing training processes and datasets for debiasing, which are resource-intensive and costly. Furthermore, these methods hurt the PLMs' performance on downstream tasks. In this study, we propose Gender-tuning, which debiases the PLMs through fine-tuning on downstream tasks' datasets. For this aim, Gender-tuning integrates Masked Language Modeling (MLM) training objectives into fine-tuning's training process. Comprehensive experiments show that Gender-tuning outperforms the state-of-the-art baselines in terms of average gender bias scores in PLMs while improving PLMs' performance on downstream tasks solely using the downstream tasks' dataset. Also, Gender-tuning is a deployable debiasing tool for any PLM that works with original fine-tuning.
+
+---
+
+最近の研究では、広く使用されている事前トレーニング済み言語モデル (PLM) が、調整されていない大規模な事前トレーニング コーパスから社会的バイアスを伝播していることが明らかになりました。
+既存のソリューションでは、バイアス除去トレーニング プロセスとバイアス除去用のデータセットが必要ですが、これにはリソースが大量に消費され、コストがかかります。
+さらに、これらの方法は、ダウンストリーム タスクにおける PLM のパフォーマンスに悪影響を及ぼします。
+この研究では、下流タスクのデータセットを微調整することで PLM のバイアスを軽減する、ジェンダー チューニングを提案します。
+この目的のために、ジェンダーチューニングでは、マスク言語モデリング (MLM) のトレーニング目標をファインチューニングのトレーニング プロセスに統合します。
+包括的な実験により、ジェンダーチューニングは、下流タスクのデータセットのみを使用して下流タスクでの PLM のパフォーマンスを向上させながら、PLM の平均ジェンダーバイアススコアの点で最先端のベースラインを上回っていることが示されています。
+また、ジェンダー チューニングは、独自の微調整で機能するあらゆる PLM に展開可能なバイアス除去ツールです。
 
 {{</citation>}}
 
@@ -426,7 +618,7 @@ Rongsheng Wang, Yaofei Duan, ChanTong Lam, Jiexi Chen, Jiangsheng Xu, Haoming Ch
 **IvyGPT: InteractiVe Chinese pathwaY language model in medical domain**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: ChatGPT, GPT, LLaMA, QA, Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2307.10512v1)  
@@ -436,6 +628,16 @@ Keywords: ChatGPT, GPT, LLaMA, QA, Reinforcement Learning
 
 **ABSTRACT**  
 General large language models (LLMs) such as ChatGPT have shown remarkable success. However, such LLMs have not been widely adopted for medical purposes, due to poor accuracy and inability to provide medical advice. We propose IvyGPT, an LLM based on LLaMA that is trained and fine-tuned with high-quality medical question-answer (QA) instances and Reinforcement Learning from Human Feedback (RLHF). After supervised fine-tuning, IvyGPT has good multi-turn conversation capabilities, but it cannot perform like a doctor in other aspects, such as comprehensive diagnosis. Through RLHF, IvyGPT can output richer diagnosis and treatment answers that are closer to human. In the training, we used QLoRA to train 33 billion parameters on a small number of NVIDIA A100 (80GB) GPUs. Experimental results show that IvyGPT has outperformed other medical GPT models.
+
+---
+
+ChatGPT などの一般的な大規模言語モデル (LLM) は目覚ましい成功を収めています。
+ただし、このような LLM は、精度が低く、医学的アドバイスを提供できないため、医療目的には広く採用されていません。
+私たちは、高品質の医療質問応答 (QA) インスタンスとヒューマン フィードバックからの強化学習 (RLHF) を使用してトレーニングおよび微調整された LLaMA に基づく LLM である IvyGPT を提案します。
+監視された微調整の後、IvyGPT は優れたマルチターン会話機能を備えていますが、総合的な診断などの他の側面では医師のように機能することはできません。
+RLHF を通じて、IvyGPT はより人間に近い、より豊富な診断と治療の回答を出力できます。
+トレーニングでは、QLoRA を使用して、少数の NVIDIA A100 (80GB) GPU で 330 億のパラメーターをトレーニングしました。
+実験結果は、IvyGPT が他の医療 GPT モデルよりも優れたパフォーマンスを示していることを示しています。
 
 {{</citation>}}
 
@@ -448,7 +650,7 @@ Teng Sun, Juntong Ni, Wenjie Wang, Liqiang Jing, Yinwei Wei, Liqiang Nie. (2023)
 **General Debiasing for Multimodal Sentiment Analysis**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Sentiment Analysis  
 [Paper Link](http://arxiv.org/abs/2307.10511v1)  
@@ -458,6 +660,18 @@ Keywords: Sentiment Analysis
 
 **ABSTRACT**  
 Existing work on Multimodal Sentiment Analysis (MSA) utilizes multimodal information for prediction yet unavoidably suffers from fitting the spurious correlations between multimodal features and sentiment labels. For example, if most videos with a blue background have positive labels in a dataset, the model will rely on such correlations for prediction, while ``blue background'' is not a sentiment-related feature. To address this problem, we define a general debiasing MSA task, which aims to enhance the Out-Of-Distribution (OOD) generalization ability of MSA models by reducing their reliance on spurious correlations. To this end, we propose a general debiasing framework based on Inverse Probability Weighting (IPW), which adaptively assigns small weights to the samples with larger bias i.e., the severer spurious correlations). The key to this debiasing framework is to estimate the bias of each sample, which is achieved by two steps: 1) disentangling the robust features and biased features in each modality, and 2) utilizing the biased features to estimate the bias. Finally, we employ IPW to reduce the effects of large-biased samples, facilitating robust feature learning for sentiment prediction. To examine the model's generalization ability, we keep the original testing sets on two benchmarks and additionally construct multiple unimodal and multimodal OOD testing sets. The empirical results demonstrate the superior generalization ability of our proposed framework. We have released the code and data to facilitate the reproduction.
+
+---
+
+マルチモーダルセンチメント分析 (MSA) に関する既存の研究では、マルチモーダル情報を予測に利用していますが、マルチモーダル特徴と感情ラベルの間の誤った相関関係のフィッティングに必然的に悩まされます。
+たとえば、背景が青いビデオのほとんどがデータセット内にポジティブなラベルを持っている場合、モデルは予測のためにそのような相関関係に依存しますが、「青い背景」は感情に関連する特徴ではありません。
+この問題に対処するために、一般的なバイアス除去 MSA タスクを定義します。このタスクは、スプリアス相関への依存を減らすことで MSA モデルの分布外 (OOD) 一般化能力を強化することを目的としています。
+この目的を達成するために、我々は逆確率重み付け (IPW) に基づく一般的なバイアス除去フレームワークを提案します。これは、より大きなバイアス、つまりより深刻な偽相関を持つサンプルに小さな重みを適応的に割り当てます。
+このバイアス除去フレームワークの鍵は、各サンプルのバイアスを推定することです。これは、1) 各モダリティのロバストな特徴とバイアスされた特徴を解きほぐすこと、および 2) バイアスを推定するためにバイアスされた特徴を利用することの 2 つのステップによって達成されます。
+最後に、IPW を使用して大きな偏りのあるサンプルの影響を軽減し、センチメント予測のための堅牢な特徴学習を促進します。
+モデルの汎化能力を調べるために、2 つのベンチマークで元のテスト セットを保持し、さらに複数の単峰性およびマルチモーダル OOD テスト セットを構築します。
+経験的な結果は、私たちが提案したフレームワークの優れた一般化能力を示しています。
+再現を容易にするためにコードとデータを公開しました。
 
 {{</citation>}}
 
@@ -474,7 +688,7 @@ Yanshu Zhang, Shichong Peng, Alireza Moazeni, Ke Li. (2023)
 **PAPR: Proximity Attention Point Rendering**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-GR, cs-LG, cs-NE, cs.CV  
 Keywords: Attention  
 [Paper Link](http://arxiv.org/abs/2307.11086v1)  
@@ -484,6 +698,18 @@ Keywords: Attention
 
 **ABSTRACT**  
 Learning accurate and parsimonious point cloud representations of scene surfaces from scratch remains a challenge in 3D representation learning. Existing point-based methods often suffer from the vanishing gradient problem or require a large number of points to accurately model scene geometry and texture. To address these limitations, we propose Proximity Attention Point Rendering (PAPR), a novel method that consists of a point-based scene representation and a differentiable renderer. Our scene representation uses a point cloud where each point is characterized by its spatial position, foreground score, and view-independent feature vector. The renderer selects the relevant points for each ray and produces accurate colours using their associated features. PAPR effectively learns point cloud positions to represent the correct scene geometry, even when the initialization drastically differs from the target geometry. Notably, our method captures fine texture details while using only a parsimonious set of points. We also demonstrate four practical applications of our method: geometry editing, object manipulation, texture transfer, and exposure control. More results and code are available on our project website at https://zvict.github.io/papr/.
+
+---
+
+シーン サーフェスの正確かつ節約された点群表現をゼロから学習することは、3D 表現の学習において依然として課題です。
+既存のポイントベースの手法では、多くの場合、勾配消失の問題が発生したり、シーンのジオメトリやテクスチャを正確にモデル化するために多数のポイントが必要になったりします。
+これらの制限に対処するために、私たちは、ポイントベースのシーン表現と微分可能なレンダラーで構成される新しい方法である近接アテンション ポイント レンダリング (PAPR) を提案します。
+私たちのシーン表現では、各点がその空間位置、前景スコア、およびビューに依存しない特徴ベクトルによって特徴付けられる点群を使用します。
+レンダラーは各光線に関連する点を選択し、関連する機能を使用して正確な色を生成します。
+PAPR は、初期化がターゲット ジオメトリと大幅に異なる場合でも、点群の位置を効果的に学習して、正しいシーン ジオメトリを表現します。
+特に、私たちの方法は、最小限の点のセットのみを使用しながら、細かいテクスチャの詳細をキャプチャします。
+また、ジオメトリ編集、オブジェクト操作、テクスチャ転送、露出制御という、この方法の 4 つの実際的なアプリケーションも示します。
+さらに多くの結果とコードは、プロジェクト Web サイト (https://zvict.github.io/papr/) で入手できます。
 
 {{</citation>}}
 
@@ -496,7 +722,7 @@ Nisarg A. Shah, Shameema Sikder, S. Swaroop Vedula, Vishal M. Patel. (2023)
 **GLSFormer : Gated - Long, Short Sequence Transformer for Step Recognition in Surgical Videos**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Transformer  
 [Paper Link](http://arxiv.org/abs/2307.11081v1)  
@@ -506,6 +732,17 @@ Keywords: Transformer
 
 **ABSTRACT**  
 Automated surgical step recognition is an important task that can significantly improve patient safety and decision-making during surgeries. Existing state-of-the-art methods for surgical step recognition either rely on separate, multi-stage modeling of spatial and temporal information or operate on short-range temporal resolution when learned jointly. However, the benefits of joint modeling of spatio-temporal features and long-range information are not taken in account. In this paper, we propose a vision transformer-based approach to jointly learn spatio-temporal features directly from sequence of frame-level patches. Our method incorporates a gated-temporal attention mechanism that intelligently combines short-term and long-term spatio-temporal feature representations. We extensively evaluate our approach on two cataract surgery video datasets, namely Cataract-101 and D99, and demonstrate superior performance compared to various state-of-the-art methods. These results validate the suitability of our proposed approach for automated surgical step recognition. Our code is released at: https://github.com/nisargshah1999/GLSFormer
+
+---
+
+自動化された手術ステップ認識は、患者の安全性と手術中の意思決定を大幅に向上させることができる重要なタスクです。
+手術ステップ認識のための既存の最先端の方法は、空間的および時間的情報の個別の多段階モデリングに依存するか、または共同学習された場合に短距離の時間分解能で動作します。
+ただし、時空間特徴と長距離情報の共同モデリングの利点は考慮されていません。
+この論文では、フレームレベルのパッチのシーケンスから時空間特徴を直接共同学習するためのビジョントランスフォーマーベースのアプローチを提案します。
+私たちの方法には、短期および長期の時空間特徴表現をインテリジェントに組み合わせるゲート時間的注意メカニズムが組み込まれています。
+私たちは、Cataract-101 と D99 という 2 つの白内障手術ビデオ データセットに対するアプローチを広範囲に評価し、さまざまな最先端の方法と比較して優れたパフォーマンスを実証しています。
+これらの結果は、自動手術ステップ認識に対する我々の提案するアプローチの適合性を検証します。
+私たちのコードはhttps://github.com/nisargshah1999/GLSFormerでリリースされています。
 
 {{</citation>}}
 
@@ -518,7 +755,7 @@ Ming Li, Jie Wu, Xionghui Wang, Chen Chen, Jie Qin, Xuefeng Xiao, Rui Wang, Min 
 **AlignDet: Aligning Pre-training and Fine-tuning in Object Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: Object Detection  
 [Paper Link](http://arxiv.org/abs/2307.11077v1)  
@@ -528,6 +765,17 @@ Keywords: Object Detection
 
 **ABSTRACT**  
 The paradigm of large-scale pre-training followed by downstream fine-tuning has been widely employed in various object detection algorithms. In this paper, we reveal discrepancies in data, model, and task between the pre-training and fine-tuning procedure in existing practices, which implicitly limit the detector's performance, generalization ability, and convergence speed. To this end, we propose AlignDet, a unified pre-training framework that can be adapted to various existing detectors to alleviate the discrepancies. AlignDet decouples the pre-training process into two stages, i.e., image-domain and box-domain pre-training. The image-domain pre-training optimizes the detection backbone to capture holistic visual abstraction, and box-domain pre-training learns instance-level semantics and task-aware concepts to initialize the parts out of the backbone. By incorporating the self-supervised pre-trained backbones, we can pre-train all modules for various detectors in an unsupervised paradigm. As depicted in Figure 1, extensive experiments demonstrate that AlignDet can achieve significant improvements across diverse protocols, such as detection algorithm, model backbone, data setting, and training schedule. For example, AlignDet improves FCOS by 5.3 mAP, RetinaNet by 2.1 mAP, Faster R-CNN by 3.3 mAP, and DETR by 2.3 mAP under fewer epochs.
+
+---
+
+大規模な事前トレーニングの後に下流で微調整を行うというパラダイムは、さまざまな物体検出アルゴリズムで広く採用されています。
+この論文では、既存の実践における事前トレーニングと微調整手順の間のデータ、モデル、タスクにおける不一致が、検出器のパフォーマンス、汎化能力、および収束速度を暗黙のうちに制限していることを明らかにします。
+この目的を達成するために、我々は、不一致を軽減するためにさまざまな既存の検出器に適応できる統合事前トレーニング フレームワークである AlignDet を提案します。
+AlignDet は、事前トレーニング プロセスを 2 つの段階 (イメージドメイン事前トレーニングとボックスドメイン事前トレーニング) に分離します。
+イメージドメインの事前トレーニングは検出バックボーンを最適化して全体的な視覚的抽象化をキャプチャし、ボックスドメインの事前トレーニングはインスタンスレベルのセマンティクスとタスク認識概念を学習してバックボーンからパーツを初期化します。
+自己監視型の事前トレーニング済みバックボーンを組み込むことで、教師なしパラダイムでさまざまな検出器のすべてのモジュールを事前トレーニングできます。
+図 1 に示すように、広範な実験により、AlignDet が検出アルゴリズム、モデル バックボーン、データ設定、トレーニング スケジュールなどのさまざまなプロトコルにわたって大幅な改善を達成できることが実証されています。
+たとえば、AlignDet は、より少ないエポックで FCOS を 5.3 mAP、RetinaNet を 2.1 mAP、Faster R-CNN を 3.3 mAP、DETR を 2.3 mAP 改善します。
 
 {{</citation>}}
 
@@ -540,7 +788,7 @@ Mingqiao Ye, Lei Ke, Siyuan Li, Yu-Wing Tai, Chi-Keung Tang, Martin Danelljan, F
 **Cascade-DETR: Delving into High-Quality Universal Object Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Attention, Object Detection, Transformer  
 [Paper Link](http://arxiv.org/abs/2307.11035v1)  
@@ -550,6 +798,20 @@ Keywords: Attention, Object Detection, Transformer
 
 **ABSTRACT**  
 Object localization in general environments is a fundamental part of vision systems. While dominating on the COCO benchmark, recent Transformer-based detection methods are not competitive in diverse domains. Moreover, these methods still struggle to very accurately estimate the object bounding boxes in complex environments.   We introduce Cascade-DETR for high-quality universal object detection. We jointly tackle the generalization to diverse domains and localization accuracy by proposing the Cascade Attention layer, which explicitly integrates object-centric information into the detection decoder by limiting the attention to the previous box prediction. To further enhance accuracy, we also revisit the scoring of queries. Instead of relying on classification scores, we predict the expected IoU of the query, leading to substantially more well-calibrated confidences. Lastly, we introduce a universal object detection benchmark, UDB10, that contains 10 datasets from diverse domains. While also advancing the state-of-the-art on COCO, Cascade-DETR substantially improves DETR-based detectors on all datasets in UDB10, even by over 10 mAP in some cases. The improvements under stringent quality requirements are even more pronounced. Our code and models will be released at https://github.com/SysCV/cascade-detr.
+
+---
+
+一般環境におけるオブジェクトの位置特定は、ビジョン システムの基本的な部分です。
+最近の Transformer ベースの検出方法は、COCO ベンチマークでは優位に立っていますが、さまざまな領域では競争力がありません。
+さらに、これらの方法では、複雑な環境でオブジェクトの境界ボックスを非常に正確に推定するのに依然として苦労しています。
+  高品質の汎用物体検出のための Cascade-DETR を紹介します。
+私たちは、カスケード アテンション層を提案することで、多様なドメインへの一般化と位置特定精度に共同で取り組んでいます。これは、以前のボックス予測に注意を限定することで、オブジェクト中心の情報を検出デコーダーに明示的に統合します。
+精度をさらに高めるために、クエリのスコアリングも再検討します。
+分類スコアに依存する代わりに、クエリの予想される IoU を予測し、実質的により適切に調整された信頼度をもたらします。
+最後に、さまざまなドメインの 10 個のデータセットを含むユニバーサル オブジェクト検出ベンチマーク UDB10 を紹介します。
+Cascade-DETR は、COCO の最先端技術も進歩させると同時に、UDB10 のすべてのデータセットに対する DETR ベースの検出器を大幅に改善し、場合によっては 10 mAP 以上も改善します。
+厳しい品質要件の下での改善はさらに顕著になります。
+コードとモデルは https://github.com/SysCV/cascade-detr でリリースされます。
 
 {{</citation>}}
 
@@ -562,7 +824,7 @@ Xiangchen Yin, Zhenda Yu, Zetao Fei, Wenjun Lv, Xin Gao. (2023)
 **PE-YOLO: Pyramid Enhancement Network for Dark Object Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Object Detection  
 [Paper Link](http://arxiv.org/abs/2307.10953v1)  
@@ -572,6 +834,18 @@ Keywords: Object Detection
 
 **ABSTRACT**  
 Current object detection models have achieved good results on many benchmark datasets, detecting objects in dark conditions remains a large challenge. To address this issue, we propose a pyramid enhanced network (PENet) and joint it with YOLOv3 to build a dark object detection framework named PE-YOLO. Firstly, PENet decomposes the image into four components of different resolutions using the Laplacian pyramid. Specifically we propose a detail processing module (DPM) to enhance the detail of images, which consists of context branch and edge branch. In addition, we propose a low-frequency enhancement filter (LEF) to capture low-frequency semantics and prevent high-frequency noise. PE-YOLO adopts an end-to-end joint training approach and only uses normal detection loss to simplify the training process. We conduct experiments on the low-light object detection dataset ExDark to demonstrate the effectiveness of ours. The results indicate that compared with other dark detectors and low-light enhancement models, PE-YOLO achieves the advanced results, achieving 78.0% in mAP and 53.6 in FPS, respectively, which can adapt to object detection under different low-light conditions. The code is available at https://github.com/XiangchenYin/PE-YOLO.
+
+---
+
+現在の物体検出モデルは多くのベンチマーク データセットで良好な結果を達成していますが、暗い状況での物体検出は依然として大きな課題です。
+この問題に対処するために、私たちはピラミッド拡張ネットワーク (PENet) を提案し、それを YOLOv3 と結合して、PE-YOLO という名前の暗い物体検出フレームワークを構築します。
+まず、PENet はラプラシアン ピラミッドを使用して画像を解像度の異なる 4 つのコンポーネントに分解します。
+具体的には、画像のディテールを向上させるためのコンテキストブランチとエッジブランチからなるディテール処理モジュール(DPM)を提案します。
+さらに、低周波のセマンティクスを捕捉し、高周波ノイズを防ぐための低周波強調フィルター (LEF) を提案します。
+PE-YOLO はエンドツーエンドの共同トレーニング アプローチを採用し、トレーニング プロセスを簡素化するために通常の検出損失のみを使用します。
+私たちは、低照度物体検出データセット ExDark の実験を行って、その有効性を実証します。
+この結果は、他の暗闇検出器や低照度強化モデルと比較して、PE-YOLO がそれぞれ mAP で 78.0%、FPS で 53.6 という高度な結果を達成し、さまざまな低照度条件下での物体検出に適応できることを示しています。
+コードは https://github.com/Xiangchenying/PE-YOLO で入手できます。
 
 {{</citation>}}
 
@@ -584,7 +858,7 @@ Aditya Nalgunda Ganesh, Dhruval Pobbathi Badrinath, Harshith Mohan Kumar, Priya 
 **OCTraN: 3D Occupancy Convolutional Transformer Network in Unstructured Traffic Scenarios**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10934v1)  
@@ -594,6 +868,14 @@ Keywords: Transformer
 
 **ABSTRACT**  
 Modern approaches for vision-centric environment perception for autonomous navigation make extensive use of self-supervised monocular depth estimation algorithms that output disparity maps. However, when this disparity map is projected onto 3D space, the errors in disparity are magnified, resulting in a depth estimation error that increases quadratically as the distance from the camera increases. Though Light Detection and Ranging (LiDAR) can solve this issue, it is expensive and not feasible for many applications. To address the challenge of accurate ranging with low-cost sensors, we propose, OCTraN, a transformer architecture that uses iterative-attention to convert 2D image features into 3D occupancy features and makes use of convolution and transpose convolution to efficiently operate on spatial information. We also develop a self-supervised training pipeline to generalize the model to any scene by eliminating the need for LiDAR ground truth by substituting it with pseudo-ground truth labels obtained from boosted monocular depth estimation.
+
+---
+
+自律航行のための視覚中心の環境認識のための最新のアプローチでは、視差マップを出力する自己監視型単眼奥行き推定アルゴリズムが広範囲に利用されています。
+しかし、この視差マップを 3D 空間に投影すると、視差の誤差が拡大し、カメラからの距離が増すにつれて奥行き推定誤差が二次関数的に増加します。
+Light Detection and Ranging (LiDAR) はこの問題を解決できますが、高価であり、多くのアプリケーションでは実現できません。
+低コストのセンサーを使用して正確な測距を行うという課題に対処するために、我々は、反復注意を使用して 2D 画像特徴を 3D 占有特徴に変換し、畳み込みと転置畳み込みを利用して空間情報を効率的に操作する変換アーキテクチャである OCTraN を提案します。
+また、ブーストされた単眼深度推定から得られる疑似グラウンド トゥルース ラベルで置き換えることにより LiDAR グラウンド トゥルースの必要性を排除し、モデルを任意のシーンに一般化するための自己教師ありトレーニング パイプラインも開発します。
 
 {{</citation>}}
 
@@ -606,7 +888,7 @@ Kanchana Ranasinghe, Michael Ryoo. (2023)
 **Language-based Action Concept Spaces Improve Video Self-Supervised Learning**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Self-Supervised  
 [Paper Link](http://arxiv.org/abs/2307.10922v1)  
@@ -616,6 +898,16 @@ Keywords: Self-Supervised
 
 **ABSTRACT**  
 Recent contrastive language image pre-training has led to learning highly transferable and robust image representations. However, adapting these models to video domains with minimal supervision remains an open problem. We explore a simple step in that direction, using language tied self-supervised learning to adapt an image CLIP model to the video domain. A backbone modified for temporal modeling is trained under self-distillation settings with train objectives operating in an action concept space. Feature vectors of various action concepts extracted from a language encoder using relevant textual prompts construct this space. We introduce two train objectives, concept distillation and concept alignment, that retain generality of original representations while enforcing relations between actions and their attributes. Our approach improves zero-shot and linear probing performance on three action recognition benchmarks.
+
+---
+
+最近の対照的な言語の画像事前トレーニングにより、高度に伝達可能で堅牢な画像表現の学習が可能になりました。
+ただし、最小限の監視でこれらのモデルをビデオ ドメインに適応させることは未解決の問題のままです。
+私たちは、言語に関連付けられた自己教師あり学習を使用して画像 CLIP モデルをビデオ ドメインに適応させるという、その方向への簡単なステップを検討します。
+時間モデリング用に変更されたバックボーンは、アクション コンセプト空間で動作するトレーニング目標を備えた自己蒸留設定の下でトレーニングされます。
+関連するテキスト プロンプトを使用して言語エンコーダーから抽出されたさまざまなアクション概念の特徴ベクトルがこの空間を構築します。
+コンセプトの蒸留とコンセプトの調整という 2 つのトレーニング目標を導入します。これらは、アクションとその属性の間の関係を強化しながら、元の表現の一般性を保持します。
+私たちのアプローチは、3 つのアクション認識ベンチマークにおけるゼロショットおよび線形プローブのパフォーマンスを向上させます。
 
 {{</citation>}}
 
@@ -628,7 +920,7 @@ Yumeng Li, Margret Keuper, Dan Zhang, Anna Khoreva. (2023)
 **Divide & Bind Your Attention for Improved Generative Semantic Nursing**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CL, cs-CV, cs-LG, cs.CV  
 Keywords: Attention  
 [Paper Link](http://arxiv.org/abs/2307.10864v1)  
@@ -638,6 +930,18 @@ Keywords: Attention
 
 **ABSTRACT**  
 Emerging large-scale text-to-image generative models, e.g., Stable Diffusion (SD), have exhibited overwhelming results with high fidelity. Despite the magnificent progress, current state-of-the-art models still struggle to generate images fully adhering to the input prompt. Prior work, Attend & Excite, has introduced the concept of Generative Semantic Nursing (GSN), aiming to optimize cross-attention during inference time to better incorporate the semantics. It demonstrates promising results in generating simple prompts, e.g., ``a cat and a dog''. However, its efficacy declines when dealing with more complex prompts, and it does not explicitly address the problem of improper attribute binding. To address the challenges posed by complex prompts or scenarios involving multiple entities and to achieve improved attribute binding, we propose Divide & Bind. We introduce two novel loss objectives for GSN: a novel attendance loss and a binding loss. Our approach stands out in its ability to faithfully synthesize desired objects with improved attribute alignment from complex prompts and exhibits superior performance across multiple evaluation benchmarks. More videos and updates can be found on the project page \url{https://sites.google.com/view/divide-and-bind}.
+
+---
+
+安定拡散 (SD) など、新たに登場した大規模なテキストから画像への生成モデルは、忠実度の高い圧倒的な結果を示しています。
+目覚ましい進歩にもかかわらず、現在の最先端モデルは入力プロンプトに完全に準拠した画像を生成するのに依然として苦労しています。
+これまでの研究である Attend & Excite では、生成意味看護 (GSN) の概念を導入し、推論時間中の相互注意を最適化し、意味論をより適切に組み込むことを目的としていました。
+これは、「猫と犬」などの単純なプロンプトの生成において有望な結果を示しています。
+ただし、より複雑なプロンプトを処理する場合、その有効性は低下します。また、不適切な属性バインディングの問題には明示的に対処しません。
+複数のエンティティが関係する複雑なプロンプトやシナリオによってもたらされる課題に対処し、属性バインディングの改善を実現するために、Divide & Bind を提案します。
+GSN に 2 つの新しい損失目標、つまり新しい出席損失と拘束損失を導入します。
+私たちのアプローチは、複雑なプロンプトから改善された属性調整により目的のオブジェクトを忠実に合成する能力で際立っており、複数の評価ベンチマークにわたって優れたパフォーマンスを示します。
+その他のビデオや最新情報は、プロジェクト ページ \url{https://sites.google.com/view/divide-and-bind} でご覧いただけます。
 
 {{</citation>}}
 
@@ -650,7 +954,7 @@ Ondrej Bohdal, Da Li, Timothy Hospedales. (2023)
 **Label Calibration for Semantic Segmentation Under Domain Shift**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV, stat-ML  
 Keywords: Semantic Segmentation  
 [Paper Link](http://arxiv.org/abs/2307.10842v1)  
@@ -660,6 +964,13 @@ Keywords: Semantic Segmentation
 
 **ABSTRACT**  
 Performance of a pre-trained semantic segmentation model is likely to substantially decrease on data from a new domain. We show a pre-trained model can be adapted to unlabelled target domain data by calculating soft-label prototypes under the domain shift and making predictions according to the prototype closest to the vector with predicted class probabilities. The proposed adaptation procedure is fast, comes almost for free in terms of computational resources and leads to considerable performance improvements. We demonstrate the benefits of such label calibration on the highly-practical synthetic-to-real semantic segmentation problem.
+
+---
+
+事前トレーニングされたセマンティック セグメンテーション モデルのパフォーマンスは、新しいドメインからのデータでは大幅に低下する可能性があります。
+ドメインシフトの下でソフトラベルプロトタイプを計算し、予測されたクラス確率を持つベクトルに最も近いプロトタイプに従って予測を行うことにより、事前トレーニングされたモデルをラベルのないターゲットドメインデータに適応できることを示します。
+提案された適応手順は高速で、計算リソースに関してはほぼ無料で提供され、大幅なパフォーマンスの向上につながります。
+我々は、非常に実用的な合成から実際のセマンティック セグメンテーション問題に対するこのようなラベル キャリブレーションの利点を実証します。
 
 {{</citation>}}
 
@@ -672,7 +983,7 @@ Wei Cong, Yang Cong, Jiahua Dong, Gan Sun, Henghui Ding. (2023)
 **Gradient-Semantic Compensation for Incremental Semantic Segmentation**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Semantic Segmentation  
 [Paper Link](http://arxiv.org/abs/2307.10822v1)  
@@ -682,6 +993,17 @@ Keywords: Semantic Segmentation
 
 **ABSTRACT**  
 Incremental semantic segmentation aims to continually learn the segmentation of new coming classes without accessing the training data of previously learned classes. However, most current methods fail to address catastrophic forgetting and background shift since they 1) treat all previous classes equally without considering different forgetting paces caused by imbalanced gradient back-propagation; 2) lack strong semantic guidance between classes. To tackle the above challenges, in this paper, we propose a Gradient-Semantic Compensation (GSC) model, which surmounts incremental semantic segmentation from both gradient and semantic perspectives. Specifically, to address catastrophic forgetting from the gradient aspect, we develop a step-aware gradient compensation that can balance forgetting paces of previously seen classes via re-weighting gradient backpropagation. Meanwhile, we propose a soft-sharp semantic relation distillation to distill consistent inter-class semantic relations via soft labels for alleviating catastrophic forgetting from the semantic aspect. In addition, we develop a prototypical pseudo re-labeling that provides strong semantic guidance to mitigate background shift. It produces high-quality pseudo labels for old classes in the background by measuring distances between pixels and class-wise prototypes. Extensive experiments on three public datasets, i.e., Pascal VOC 2012, ADE20K, and Cityscapes, demonstrate the effectiveness of our proposed GSC model.
+
+---
+
+インクリメンタル セマンティック セグメンテーションは、以前に学習したクラスのトレーニング データにアクセスせずに、新たに登場するクラスのセグメンテーションを継続的に学習することを目的としています。
+しかし、現在のほとんどの方法は、1) 不均衡な勾配バックプロパゲーションによって引き起こされる異なる忘却ペースを考慮せずに、以前のすべてのクラスを同等に扱うため、壊滅的な忘却とバックグラウンドシフトに対処できません。 2) クラス間に強力な意味上のガイダンスが欠けています。
+上記の課題に取り組むために、この論文では、勾配とセマンティックの両方の観点から増分セマンティック セグメンテーションを克服する勾配セマンティック補償 (GSC) モデルを提案します。
+具体的には、勾配の側面から壊滅的な忘却に対処するために、再重み付け勾配バックプロパゲーションを通じて以前に確認されたクラスの忘却ペースのバランスをとれるステップ認識勾配補償を開発します。
+一方、意味論的な側面から壊滅的な忘却を軽減するために、ソフトラベルを介して一貫したクラス間の意味論的関係を抽出するソフトシャープ意味論的関係抽出を提案します。
+さらに、バックグラウンドシフトを軽減するための強力なセマンティックガイダンスを提供するプロトタイプの疑似再ラベリングを開発します。
+ピクセルとクラスごとのプロトタイプ間の距離を測定することにより、バックグラウンドで古いクラスの高品質な疑似ラベルを生成します。
+3 つの公開データセット、つまり Pascal VOC 2012、ADE20K、Cityscapes での広範な実験により、私たちが提案した GSC モデルの有効性が実証されました。
 
 {{</citation>}}
 
@@ -694,7 +1016,7 @@ Xilei Zhu, Huiyu Duan, Yuqin Cao, Yuxin Zhu, Yucheng Zhu, Jing Liu, Li Chen, Xio
 **Perceptual Quality Assessment of Omnidirectional Audio-visual Signals**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: I-4-0; I-5-4, cs-CV, cs-SD, cs.CV, eess-AS, eess-IV  
 Keywords: QA  
 [Paper Link](http://arxiv.org/abs/2307.10813v1)  
@@ -704,6 +1026,16 @@ Keywords: QA
 
 **ABSTRACT**  
 Omnidirectional videos (ODVs) play an increasingly important role in the application fields of medical, education, advertising, tourism, etc. Assessing the quality of ODVs is significant for service-providers to improve the user's Quality of Experience (QoE). However, most existing quality assessment studies for ODVs only focus on the visual distortions of videos, while ignoring that the overall QoE also depends on the accompanying audio signals. In this paper, we first establish a large-scale audio-visual quality assessment dataset for omnidirectional videos, which includes 375 distorted omnidirectional audio-visual (A/V) sequences generated from 15 high-quality pristine omnidirectional A/V contents, and the corresponding perceptual audio-visual quality scores. Then, we design three baseline methods for full-reference omnidirectional audio-visual quality assessment (OAVQA), which combine existing state-of-the-art single-mode audio and video QA models via multimodal fusion strategies. We validate the effectiveness of the A/V multimodal fusion method for OAVQA on our dataset, which provides a new benchmark for omnidirectional QoE evaluation. Our dataset is available at https://github.com/iamazxl/OAVQA.
+
+---
+
+全方向ビデオ (ODV) は、医療、教育、広告、観光などの応用分野でますます重要な役割を果たしています。
+ODV の品質を評価することは、サービス プロバイダーにとってユーザーの体験品質 (QoE) を向上させるために重要です。
+しかし、ODV に関する既存の品質評価研究のほとんどは、ビデオの視覚的な歪みのみに焦点を当てており、全体的な QoE が付随するオーディオ信号にも依存することを無視しています。
+この論文では、まず全方向ビデオの大規模なオーディオビジュアル品質評価データセットを確立します。これには、15 個の高品質で純粋な全方向 A/V コンテンツから生成された 375 の歪んだ全方向オーディオビジュアル (A/V) シーケンスと、対応する知覚的なオーディオビジュアル品質スコアが含まれます。
+次に、フルリファレンス全方向オーディオビジュアル品質評価 (OAVQA) のための 3 つのベースライン手法を設計します。これは、マルチモーダル融合戦略を介して既存の最先端のシングルモード オーディオおよびビデオ QA モデルを組み合わせます。
+私たちは、全方向 QoE 評価の新しいベンチマークを提供する、OAVQA の A/V マルチモーダル フュージョン手法の有効性をデータセット上で検証します。
+私たちのデータセットは https://github.com/iamazxl/OAVQA で入手できます。
 
 {{</citation>}}
 
@@ -716,7 +1048,7 @@ Yiyuan Zhang, Kaixiong Gong, Kaipeng Zhang, Hongsheng Li, Yu Qiao, Wanli Ouyang,
 **Meta-Transformer: A Unified Framework for Multimodal Learning**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CL, cs-CV, cs-LG, cs-MM, cs.CV  
 Keywords: Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10802v1)  
@@ -726,6 +1058,17 @@ Keywords: Transformer
 
 **ABSTRACT**  
 Multimodal learning aims to build models that can process and relate information from multiple modalities. Despite years of development in this field, it still remains challenging to design a unified network for processing various modalities ($\textit{e.g.}$ natural language, 2D images, 3D point clouds, audio, video, time series, tabular data) due to the inherent gaps among them. In this work, we propose a framework, named Meta-Transformer, that leverages a $\textbf{frozen}$ encoder to perform multimodal perception without any paired multimodal training data. In Meta-Transformer, the raw input data from various modalities are mapped into a shared token space, allowing a subsequent encoder with frozen parameters to extract high-level semantic features of the input data. Composed of three main components: a unified data tokenizer, a modality-shared encoder, and task-specific heads for downstream tasks, Meta-Transformer is the first framework to perform unified learning across 12 modalities with unpaired data. Experiments on different benchmarks reveal that Meta-Transformer can handle a wide range of tasks including fundamental perception (text, image, point cloud, audio, video), practical application (X-Ray, infrared, hyperspectral, and IMU), and data mining (graph, tabular, and time-series). Meta-Transformer indicates a promising future for developing unified multimodal intelligence with transformers. Code will be available at https://github.com/invictus717/MetaTransformer
+
+---
+
+マルチモーダル学習は、複数のモダリティからの情報を処理して関連付けることができるモデルを構築することを目的としています。
+この分野では長年にわたる開発にもかかわらず、さまざまなモダリティ ($\textit{例}$ 自然言語、2D 画像、3D 点群、音声、ビデオ、時系列、表形式データ) 間に固有のギャップがあるため、処理するための統合ネットワークを設計することは依然として困難です。
+この研究では、$\textbf{frozen}$ エンコーダを利用して、ペアのマルチモーダル トレーニング データなしでマルチモーダル知覚を実行する、Meta-Transformer という名前のフレームワークを提案します。
+Meta-Transformer では、さまざまなモダリティからの生の入力データが共有トークン空間にマッピングされ、凍結されたパラメーターを持つ後続のエンコーダーが入力データの高レベルの意味論的特徴を抽出できるようになります。
+Meta-Transformer は、統合データ トークナイザー、モダリティ共有エンコーダー、下流タスク用のタスク固有ヘッドという 3 つの主要コンポーネントで構成されており、ペアになっていないデータを使用して 12 のモダリティにわたって統合学習を実行する最初のフレームワークです。
+さまざまなベンチマークでの実験により、Meta-Transformer が基本的な認識 (テキスト、画像、点群、オーディオ、ビデオ)、実用的なアプリケーション (X 線、赤外線、ハイパースペクトル、IMU)、およびデータ マイニング (グラフ、表形式、時系列) を含む幅広いタスクを処理できることが明らかになりました。
+Meta-Transformer は、トランスフォーマーを使用した統合マルチモーダル インテリジェンスの開発の有望な将来を示しています。
+コードは https://github.com/invictus717/MetaTransformer で入手できます。
 
 {{</citation>}}
 
@@ -738,7 +1081,7 @@ João Santos, Triet Tran, Oliver Rippel. (2023)
 **Optimizing PatchCore for Few/many-shot Anomaly Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: Anomaly Detection  
 [Paper Link](http://arxiv.org/abs/2307.10792v1)  
@@ -748,6 +1091,18 @@ Keywords: Anomaly Detection
 
 **ABSTRACT**  
 Few-shot anomaly detection (AD) is an emerging sub-field of general AD, and tries to distinguish between normal and anomalous data using only few selected samples. While newly proposed few-shot AD methods do compare against pre-existing algorithms developed for the full-shot domain as baselines, they do not dedicatedly optimize them for the few-shot setting. It thus remains unclear if the performance of such pre-existing algorithms can be further improved. We address said question in this work. Specifically, we present a study on the AD/anomaly segmentation (AS) performance of PatchCore, the current state-of-the-art full-shot AD/AS algorithm, in both the few-shot and the many-shot settings. We hypothesize that further performance improvements can be realized by (I) optimizing its various hyperparameters, and by (II) transferring techniques known to improve few-shot supervised learning to the AD domain. Exhaustive experiments on the public VisA and MVTec AD datasets reveal that (I) significant performance improvements can be realized by optimizing hyperparameters such as the underlying feature extractor, and that (II) image-level augmentations can, but are not guaranteed, to improve performance. Based on these findings, we achieve a new state of the art in few-shot AD on VisA, further demonstrating the merit of adapting pre-existing AD/AS methods to the few-shot setting. Last, we identify the investigation of feature extractors with a strong inductive bias as a potential future research direction for (few-shot) AD/AS.
+
+---
+
+少数ショット異常検出 (AD) は、一般的な AD の新たなサブ分野であり、選択された少数のサンプルのみを使用して正常なデータと異常なデータを区別しようとします。
+新しく提案された少数ショット AD 手法は、ベースラインとしてフルショット領域用に開発された既存のアルゴリズムと比較しますが、少数ショット設定専用に最適化するわけではありません。
+したがって、そのような既存のアルゴリズムのパフォーマンスをさらに改善できるかどうかは不明のままです。
+この作品ではその疑問に答えます。
+具体的には、現在の最先端のフルショット AD/AS アルゴリズムである PatchCore の AD/異常セグメンテーション (AS) パフォーマンスに関する研究を、少数ショット設定と多数ショット設定の両方で示します。
+我々は、(I) さまざまなハイパーパラメータを最適化し、(II) 少数ショットの教師あり学習を改善することが知られている技術を AD ドメインに移すことで、さらなるパフォーマンスの向上を実現できると仮説を立てています。
+公開されている VisA および MVTec AD データセットに対する徹底的な実験により、(I) 基礎となる特徴抽出機能などのハイパーパラメータを最適化することで大幅なパフォーマンスの向上を実現できること、および (II) 画像レベルの拡張によってパフォーマンスが向上する可能性はあるが、保証されるわけではないことが明らかになりました。
+これらの発見に基づいて、我々は VisA 上の少数ショット AD における新しい最先端技術を達成し、既存の AD/AS 手法を少数ショット設定に適応させる利点をさらに実証します。
+最後に、（少数ショットの）AD/AS の将来の研究の可能性として、強い帰納的バイアスを持つ特徴抽出器の研究を特定します。
 
 {{</citation>}}
 
@@ -760,7 +1115,7 @@ Jianan Liu, Qiuchi Zhao, Weiyi Xiong, Tao Huang, Qing-Long Han, Bing Zhu. (2023)
 **SMURF: Spatial Multi-Representation Fusion for 3D Object Detection with 4D Imaging Radar**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Object Detection  
 [Paper Link](http://arxiv.org/abs/2307.10784v1)  
@@ -770,6 +1125,19 @@ Keywords: Object Detection
 
 **ABSTRACT**  
 The 4D Millimeter wave (mmWave) radar is a promising technology for vehicle sensing due to its cost-effectiveness and operability in adverse weather conditions. However, the adoption of this technology has been hindered by sparsity and noise issues in radar point cloud data. This paper introduces spatial multi-representation fusion (SMURF), a novel approach to 3D object detection using a single 4D imaging radar. SMURF leverages multiple representations of radar detection points, including pillarization and density features of a multi-dimensional Gaussian mixture distribution through kernel density estimation (KDE). KDE effectively mitigates measurement inaccuracy caused by limited angular resolution and multi-path propagation of radar signals. Additionally, KDE helps alleviate point cloud sparsity by capturing density features. Experimental evaluations on View-of-Delft (VoD) and TJ4DRadSet datasets demonstrate the effectiveness and generalization ability of SMURF, outperforming recently proposed 4D imaging radar-based single-representation models. Moreover, while using 4D imaging radar only, SMURF still achieves comparable performance to the state-of-the-art 4D imaging radar and camera fusion-based method, with an increase of 1.22% in the mean average precision on bird's-eye view of TJ4DRadSet dataset and 1.32% in the 3D mean average precision on the entire annotated area of VoD dataset. Our proposed method demonstrates impressive inference time and addresses the challenges of real-time detection, with the inference time no more than 0.05 seconds for most scans on both datasets. This research highlights the benefits of 4D mmWave radar and is a strong benchmark for subsequent works regarding 3D object detection with 4D imaging radar.
+
+---
+
+4D ミリ波 (mmWave) レーダーは、その費用対効果と悪天候下での操作性により、車両センシング用の有望な技術です。
+しかし、このテクノロジーの採用は、レーダー点群データのスパース性とノイズの問題によって妨げられてきました。
+この論文では、単一の 4D イメージング レーダーを使用した 3D オブジェクト検出への新しいアプローチである空間マルチ表現融合 (SMURF) を紹介します。
+SMURF は、カーネル密度推定 (KDE) による多次元ガウス混合分布の柱状化および密度特徴を含む、レーダー検出ポイントの複数の表現を活用します。
+KDE は、限られた角度分解能とレーダー信号のマルチパス伝播によって引き起こされる測定の不正確さを効果的に軽減します。
+さらに、KDE ​​は、密度特徴をキャプチャすることで点群の疎性を軽減します。
+View-of-Delft (VoD) および TJ4DRadSet データセットの実験評価では、SMURF の有効性と一般化能力が実証され、最近提案された 4D 画像レーダーベースの単一表現モデルを上回っています。
+さらに、SMURF は 4D イメージング レーダーのみを使用しているにもかかわらず、最先端の 4D イメージング レーダーとカメラ フュージョン ベースの手法と同等のパフォーマンスを達成しており、TJ4DRadSet データセットの鳥瞰図での平均平均精度が 1.22% 向上し、VoD データセットの注釈付き領域全体で 3D 平均平均精度が 1.32% 向上しました。
+私たちが提案した手法は、驚くべき推論時間を示し、両方のデータセットのほとんどのスキャンで推論時間が 0.05 秒以下で、リアルタイム検出の課題に対処しました。
+この研究は 4D ミリ波レーダーの利点を強調しており、4D 画像レーダーによる 3D 物体検出に関するその後の研究の強力なベンチマークとなります。
 
 {{</citation>}}
 
@@ -782,7 +1150,7 @@ Maxim Bonnaerens, Joni Dambre. (2023)
 **Learned Thresholds Token Merging and Pruning for Vision Transformers**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: ImageNet, Pruning, Transformer, Transformers  
 [Paper Link](http://arxiv.org/abs/2307.10780v1)  
@@ -792,6 +1160,18 @@ Keywords: ImageNet, Pruning, Transformer, Transformers
 
 **ABSTRACT**  
 Vision transformers have demonstrated remarkable success in a wide range of computer vision tasks over the last years. However, their high computational costs remain a significant barrier to their practical deployment. In particular, the complexity of transformer models is quadratic with respect to the number of input tokens. Therefore techniques that reduce the number of input tokens that need to be processed have been proposed. This paper introduces Learned Thresholds token Merging and Pruning (LTMP), a novel approach that leverages the strengths of both token merging and token pruning. LTMP uses learned threshold masking modules that dynamically determine which tokens to merge and which to prune. We demonstrate our approach with extensive experiments on vision transformers on the ImageNet classification task. Our results demonstrate that LTMP achieves state-of-the-art accuracy across reduction rates while requiring only a single fine-tuning epoch, which is an order of magnitude faster than previous methods. Code is available at https://github.com/Mxbonn/ltmp .
+
+---
+
+ビジョン トランスフォーマーは、ここ数年にわたり、さまざまなコンピューター ビジョン タスクにおいて目覚ましい成功を収めてきました。
+しかし、計算コストが高いことが、依然として実用化への大きな障壁となっています。
+特に、トランスフォーマー モデルの複雑さは、入力トークンの数に関して 2 次になります。
+そこで、処理が必要な入力トークンの数を減らす技術が提案されている。
+このペーパーでは、トークンのマージとトークン プルーニングの両方の長所を活用する新しいアプローチである、学習済みしきい値トークンのマージとプルーニング (LTMP) を紹介します。
+LTMP は、どのトークンをマージし、どのトークンをプルーニングするかを動的に決定する、学習されたしきい値マスキング モジュールを使用します。
+ImageNet 分類タスクにおけるビジョン トランスフォーマーに関する広範な実験により、アプローチを実証します。
+私たちの結果は、LTMP が単一の微調整エポックのみを必要としながら、削減率全体にわたって最先端の精度を達成することを示しており、これは以前の方法よりも桁違いに高速です。
+コードは https://github.com/Mxbonn/ltmp で入手できます。
 
 {{</citation>}}
 
@@ -804,7 +1184,7 @@ Md Abdul Kadir, Hasan Md Tusfiqur Alam, Daniel Sonntag. (2023)
 **EdgeAL: An Edge Estimation Based Active Learning Approach for OCT Segmentation**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Active Learning  
 [Paper Link](http://arxiv.org/abs/2307.10745v1)  
@@ -814,6 +1194,16 @@ Keywords: Active Learning
 
 **ABSTRACT**  
 Active learning algorithms have become increasingly popular for training models with limited data. However, selecting data for annotation remains a challenging problem due to the limited information available on unseen data. To address this issue, we propose EdgeAL, which utilizes the edge information of unseen images as {\it a priori} information for measuring uncertainty. The uncertainty is quantified by analyzing the divergence and entropy in model predictions across edges. This measure is then used to select superpixels for annotation. We demonstrate the effectiveness of EdgeAL on multi-class Optical Coherence Tomography (OCT) segmentation tasks, where we achieved a 99% dice score while reducing the annotation label cost to 12%, 2.3%, and 3%, respectively, on three publicly available datasets (Duke, AROI, and UMN). The source code is available at \url{https://github.com/Mak-Ta-Reque/EdgeAL}
+
+---
+
+アクティブ ラーニング アルゴリズムは、限られたデータでモデルをトレーニングするためにますます人気が高まっています。
+ただし、目に見えないデータで利用できる情報が限られているため、アノテーション用のデータを選択することは依然として困難な問題です。
+この問題に対処するために、私たちは目に見えない画像のエッジ情報を不確実性を測定するための{\it a Priori}情報として利用するEdgeALを提案します。
+不確実性は、エッジ全体にわたるモデル予測の発散とエントロピーを分析することによって定量化されます。
+この測定値は、注釈用のスーパーピクセルを選択するために使用されます。
+マルチクラスの光コヒーレンストモグラフィー (OCT) セグメンテーション タスクにおける EdgeAL の有効性を実証します。このタスクでは、3 つの公開データセット (Duke、AROI、および UMN) でアノテーション ラベルのコストをそれぞれ 12%、2.3%、3% に削減しながら、99% のサイコロ スコアを達成しました。
+ソース コードは \url{https://github.com/Mak-Ta-Reque/EdgeAL} で入手できます。
 
 {{</citation>}}
 
@@ -826,7 +1216,7 @@ Sahar Almahfouz Nasser, Nihar Gupte, Amit Sethi. (2023)
 **Reverse Knowledge Distillation: Training a Large Model using a Small One for Retinal Image Matching on Limited Data**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Knowledge Distillation  
 [Paper Link](http://arxiv.org/abs/2307.10698v1)  
@@ -836,6 +1226,17 @@ Keywords: Knowledge Distillation
 
 **ABSTRACT**  
 Retinal image matching plays a crucial role in monitoring disease progression and treatment response. However, datasets with matched keypoints between temporally separated pairs of images are not available in abundance to train transformer-based model. We propose a novel approach based on reverse knowledge distillation to train large models with limited data while preventing overfitting. Firstly, we propose architectural modifications to a CNN-based semi-supervised method called SuperRetina that help us improve its results on a publicly available dataset. Then, we train a computationally heavier model based on a vision transformer encoder using the lighter CNN-based model, which is counter-intuitive in the field knowledge-distillation research where training lighter models based on heavier ones is the norm. Surprisingly, such reverse knowledge distillation improves generalization even further. Our experiments suggest that high-dimensional fitting in representation space may prevent overfitting unlike training directly to match the final output. We also provide a public dataset with annotations for retinal image keypoint detection and matching to help the research community develop algorithms for retinal image applications.
+
+---
+
+網膜画像のマッチングは、病気の進行と治療反応を監視する上で重要な役割を果たします。
+ただし、時間的に離れた画像のペア間でキーポイントが一致するデータセットは、トランスフォーマー ベースのモデルをトレーニングするために大量に利用できるわけではありません。
+私たちは、過学習を防ぎながら限られたデータで大規模なモデルをトレーニングするための、逆知識蒸留に基づく新しいアプローチを提案します。
+まず、SuperRetina と呼ばれる CNN ベースの半教師あり手法に対するアーキテクチャの変更を提案します。これは、公開されているデータセットでの結果を改善するのに役立ちます。
+次に、より軽量な CNN ベースのモデルを使用して、ビジョン トランスフォーマー エンコーダーに基づいて計算的により重いモデルをトレーニングします。これは、より重いモデルに基づいてより軽いモデルをトレーニングすることが標準である現場の知識蒸留研究では直感に反します。
+驚くべきことに、このような逆知識の蒸留により一般化がさらに向上します。
+私たちの実験は、最終出力と一致するように直接トレーニングするのとは異なり、表現空間での高次元フィッティングが過剰適合を防ぐ可能性があることを示唆しています。
+また、研究コミュニティによる網膜画像アプリケーションのアルゴリズム開発を支援するために、網膜画像のキーポイント検出とマッチングのためのアノテーションを備えた公開データセットも提供しています。
 
 {{</citation>}}
 
@@ -848,7 +1249,7 @@ Fernando Alonso-Fernandez, Kevin Hernandez-Diaz, Jose Maria Buades Rubio, Josef 
 **SqueezerFaceNet: Reducing a Small Face Recognition CNN Even More Via Filter Pruning**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Pruning  
 [Paper Link](http://arxiv.org/abs/2307.10697v1)  
@@ -858,6 +1259,17 @@ Keywords: Pruning
 
 **ABSTRACT**  
 The widespread use of mobile devices for various digital services has created a need for reliable and real-time person authentication. In this context, facial recognition technologies have emerged as a dependable method for verifying users due to the prevalence of cameras in mobile devices and their integration into everyday applications. The rapid advancement of deep Convolutional Neural Networks (CNNs) has led to numerous face verification architectures. However, these models are often large and impractical for mobile applications, reaching sizes of hundreds of megabytes with millions of parameters. We address this issue by developing SqueezerFaceNet, a light face recognition network which less than 1M parameters. This is achieved by applying a network pruning method based on Taylor scores, where filters with small importance scores are removed iteratively. Starting from an already small network (of 1.24M) based on SqueezeNet, we show that it can be further reduced (up to 40%) without an appreciable loss in performance. To the best of our knowledge, we are the first to evaluate network pruning methods for the task of face recognition.
+
+---
+
+さまざまなデジタル サービスでモバイル デバイスが広く使用されるようになったことで、信頼性の高いリアルタイムの個人認証が求められています。
+これに関連して、モバイルデバイスのカメラの普及と日常のアプリケーションへのカメラの統合により、顔認識テクノロジーがユーザーを認証するための信頼できる方法として台頭してきました。
+深層畳み込みニューラル ネットワーク (CNN) の急速な進歩により、多数の顔認証アーキテクチャが誕生しました。
+ただし、これらのモデルは多くの場合大きく、モバイル アプリケーションには非実用的であり、数百万のパラメーターを含むサイズは数百メガバイトに達します。
+私たちは、パラメータが 100 万未満の軽量の顔認識ネットワークである SqueezerFaceNet を開発することで、この問題に対処します。
+これは、テイラー スコアに基づくネットワーク プルーニング手法を適用することで実現され、重要度スコアの小さいフィルターが繰り返し削除されます。
+SqueezeNet に基づくすでに小規模なネットワーク (1.24M) から始めて、パフォーマンスを大幅に低下させることなくネットワークをさらに削減 (最大 40%) できることを示します。
+私たちの知る限り、私たちは顔認識タスクのためのネットワーク枝刈り手法を初めて評価しました。
 
 {{</citation>}}
 
@@ -870,7 +1282,7 @@ Jaekyun Ko, Sanghwan Lee. (2023)
 **Self2Self+: Single-Image Denoising with Self-Supervised Learning and Image Quality Assessment Loss**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV, eess-IV  
 Keywords: Self-Supervised  
 [Paper Link](http://arxiv.org/abs/2307.10695v1)  
@@ -880,6 +1292,18 @@ Keywords: Self-Supervised
 
 **ABSTRACT**  
 Recently, denoising methods based on supervised learning have exhibited promising performance. However, their reliance on external datasets containing noisy-clean image pairs restricts their applicability. To address this limitation, researchers have focused on training denoising networks using solely a set of noisy inputs. To improve the feasibility of denoising procedures, in this study, we proposed a single-image self-supervised learning method in which only the noisy input image is used for network training. Gated convolution was used for feature extraction and no-reference image quality assessment was used for guiding the training process. Moreover, the proposed method sampled instances from the input image dataset using Bernoulli sampling with a certain dropout rate for training. The corresponding result was produced by averaging the generated predictions from various instances of the trained network with dropouts. The experimental results indicated that the proposed method achieved state-of-the-art denoising performance on both synthetic and real-world datasets. This highlights the effectiveness and practicality of our method as a potential solution for various noise removal tasks.
+
+---
+
+最近、教師あり学習に基づくノイズ除去手法が有望なパフォーマンスを示しています。
+ただし、ノイズの多い画像とクリーンな画像のペアを含む外部データセットに依存しているため、適用性が制限されます。
+この制限に対処するために、研究者たちは、一連のノイズを含む入力のみを使用してノイズ除去ネットワークをトレーニングすることに焦点を当ててきました。
+ノイズ除去手順の実現可能性を向上させるために、本研究では、ノイズを含む入力画像のみをネットワーク学習に使用する単一画像の自己教師あり学習手法を提案しました。
+特徴抽出にはゲート畳み込みが使用され、トレーニング プロセスのガイドには非参照画質評価が使用されました。
+さらに、提案された方法は、トレーニングのために特定のドロップアウト率を持つベルヌーイ サンプリングを使用して、入力画像データセットからインスタンスをサンプリングしました。
+対応する結果は、ドロップアウトを含むトレーニング済みネットワークのさまざまなインスタンスから生成された予測を平均することによって生成されました。
+実験結果は、提案された方法が合成データセットと現実世界のデータセットの両方で最先端のノイズ除去パフォーマンスを達成したことを示しました。
+これは、さまざまなノイズ除去タスクの潜在的なソリューションとしての私たちの方法の有効性と実用性を強調しています。
 
 {{</citation>}}
 
@@ -892,7 +1316,7 @@ Yinghui Xing, Dexuan Kong, Shizhou Zhang, Geng Chen, Lingyan Ran, Peng Wang, Yan
 **Pre-train, Adapt and Detect: Multi-Task Adapter Tuning for Camouflaged Object Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Object Detection  
 [Paper Link](http://arxiv.org/abs/2307.10685v1)  
@@ -902,6 +1326,17 @@ Keywords: Object Detection
 
 **ABSTRACT**  
 Camouflaged object detection (COD), aiming to segment camouflaged objects which exhibit similar patterns with the background, is a challenging task. Most existing works are dedicated to establishing specialized modules to identify camouflaged objects with complete and fine details, while the boundary can not be well located for the lack of object-related semantics. In this paper, we propose a novel ``pre-train, adapt and detect" paradigm to detect camouflaged objects. By introducing a large pre-trained model, abundant knowledge learned from massive multi-modal data can be directly transferred to COD. A lightweight parallel adapter is inserted to adjust the features suitable for the downstream COD task. Extensive experiments on four challenging benchmark datasets demonstrate that our method outperforms existing state-of-the-art COD models by large margins. Moreover, we design a multi-task learning scheme for tuning the adapter to exploit the shareable knowledge across different semantic classes. Comprehensive experimental results showed that the generalization ability of our model can be substantially improved with multi-task adapter initialization on source tasks and multi-task adaptation on target tasks.
+
+---
+
+背景と同様のパターンを示す偽装オブジェクトをセグメント化することを目的とした偽装オブジェクト検出 (COD) は、困難なタスクです。
+既存の研究のほとんどは、カモフラージュされたオブジェクトを完全かつ詳細に識別するための特殊なモジュールを確立することに専念していますが、オブジェクト関連のセマンティクスが欠如しているため、境界を適切に特定することはできません。
+この論文では、カモフラージュされた物体を検出するための新しい「事前学習、適応、検出」パラダイムを提案します。
+大規模な事前トレーニング済みモデルを導入することで、大量のマルチモーダル データから学習した豊富な知識を COD に直接転送できます。
+ダウンストリーム COD タスクに適した機能を調整するために、軽量の並列アダプターが挿入されています。
+4 つの困難なベンチマーク データセットに対する広範な実験により、私たちの手法が既存の最先端の COD モデルよりも大幅に優れていることが実証されました。
+さらに、アダプターを調整して、さまざまなセマンティック クラス間で共有可能な知識を活用するためのマルチタスク学習スキームを設計します。
+包括的な実験結果は、ソースタスクでのマルチタスクアダプターの初期化とターゲットタスクでのマルチタスク適応によって、モデルの汎化能力が大幅に向上できることを示しました。
 
 {{</citation>}}
 
@@ -914,7 +1349,7 @@ Qichao Ying, Jiaxin Liu, Sheng Li, Haisheng Xu, Zhenxing Qian, Xinpeng Zhang. (2
 **RetouchingFFHQ: A Large-scale Dataset for Fine-grained Face Retouching Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs-MM, cs.CV  
 Keywords: Attention  
 [Paper Link](http://arxiv.org/abs/2307.10642v1)  
@@ -924,6 +1359,18 @@ Keywords: Attention
 
 **ABSTRACT**  
 The widespread use of face retouching filters on short-video platforms has raised concerns about the authenticity of digital appearances and the impact of deceptive advertising. To address these issues, there is a pressing need to develop advanced face retouching techniques. However, the lack of large-scale and fine-grained face retouching datasets has been a major obstacle to progress in this field. In this paper, we introduce RetouchingFFHQ, a large-scale and fine-grained face retouching dataset that contains over half a million conditionally-retouched images. RetouchingFFHQ stands out from previous datasets due to its large scale, high quality, fine-grainedness, and customization. By including four typical types of face retouching operations and different retouching levels, we extend the binary face retouching detection into a fine-grained, multi-retouching type, and multi-retouching level estimation problem. Additionally, we propose a Multi-granularity Attention Module (MAM) as a plugin for CNN backbones for enhanced cross-scale representation learning. Extensive experiments using different baselines as well as our proposed method on RetouchingFFHQ show decent performance on face retouching detection. With the proposed new dataset, we believe there is great potential for future work to tackle the challenging problem of real-world fine-grained face retouching detection.
+
+---
+
+ショートビデオ プラットフォームで顔レタッチ フィルターが広く使用されていることで、デジタル上の外観の信頼性や欺瞞的な広告の影響についての懸念が生じています。
+これらの問題に対処するには、高度な顔レタッチ技術の開発が急務となっています。
+しかし、大規模かつきめ細かい顔レタッチ データセットの欠如が、この分野の進歩に対する大きな障害となっています。
+この論文では、条件付きでレタッチされた画像が 50 万枚以上含まれている、大規模かつきめ細かい顔レタッチ データセットである RetouchingFFHQ を紹介します。
+RetouchingFFHQ は、その大規模さ、高品質、きめの細かさ、カスタマイズ性により、以前のデータセットより際立っています。
+4 つの典型的なタイプの顔レタッチ操作と異なるレタッチ レベルを含めることにより、バイナリ顔レタッチ検出を、きめの細かいマルチ レタッチ タイプおよびマルチ レタッチ レベルの推定問題に拡張します。
+さらに、クロススケール表現学習を強化するための CNN バックボーンのプラグインとして、多粒度アテンション モジュール (MAM) を提案します。
+さまざまなベースラインを使用した広範な実験と、RetouchingFFHQ で提案した方法は、顔レタッチ検出でまともなパフォーマンスを示しています。
+提案された新しいデータセットにより、現実世界のきめ細かい顔レタッチ検出という困難な問題に取り組む将来の研究に大きな可能性があると私たちは信じています。
 
 {{</citation>}}
 
@@ -936,7 +1383,7 @@ Ke Zhu, Yin-Yin He, Jianxin Wu. (2023)
 **Quantized Feature Distillation for Network Quantization**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: QA, Quantization, Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10638v1)  
@@ -946,6 +1393,17 @@ Keywords: QA, Quantization, Transformer
 
 **ABSTRACT**  
 Neural network quantization aims to accelerate and trim full-precision neural network models by using low bit approximations. Methods adopting the quantization aware training (QAT) paradigm have recently seen a rapid growth, but are often conceptually complicated. This paper proposes a novel and highly effective QAT method, quantized feature distillation (QFD). QFD first trains a quantized (or binarized) representation as the teacher, then quantize the network using knowledge distillation (KD). Quantitative results show that QFD is more flexible and effective (i.e., quantization friendly) than previous quantization methods. QFD surpasses existing methods by a noticeable margin on not only image classification but also object detection, albeit being much simpler. Furthermore, QFD quantizes ViT and Swin-Transformer on MS-COCO detection and segmentation, which verifies its potential in real world deployment. To the best of our knowledge, this is the first time that vision transformers have been quantized in object detection and image segmentation tasks.
+
+---
+
+ニューラル ネットワークの量子化は、低ビット近似を使用して、完全精度のニューラル ネットワーク モデルを高速化およびトリミングすることを目的としています。
+量子化対応トレーニング (QAT) パラダイムを採用する方法は、最近急速に成長していますが、多くの場合、概念的に複雑です。
+この論文では、新しくて非常に効果的な QAT 手法である量子化特徴抽出 (QFD) を提案します。
+QFD は、まず量子化 (または 2 値化) 表現を教師としてトレーニングし、次に知識蒸留 (KD) を使用してネットワークを量子化します。
+定量的な結果は、QFD が以前の量子化方法よりも柔軟で効果的である (つまり、量子化に適している) ことを示しています。
+QFD は、はるかに単純であるにもかかわらず、画像分類だけでなく物体検出においても既存の方法を大幅に上回っています。
+さらに、QFD は MS-COCO 検出およびセグメンテーションで ViT と Swin-Transformer を量子化し、現実世界の展開における可能性を検証します。
+私たちの知る限り、ビジョントランスフォーマーが物体検出および画像セグメンテーションタスクで量子化されたのはこれが初めてです。
 
 {{</citation>}}
 
@@ -958,7 +1416,7 @@ Kun Li, Dan Guo, Guoliang Chen, Xinge Peng, Meng Wang. (2023)
 **Joint Skeletal and Semantic Embedding Loss for Micro-gesture Classification**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: AI, Embedding  
 [Paper Link](http://arxiv.org/abs/2307.10624v1)  
@@ -968,6 +1426,13 @@ Keywords: AI, Embedding
 
 **ABSTRACT**  
 In this paper, we briefly introduce the solution of our team HFUT-VUT for the Micros-gesture Classification in the MiGA challenge at IJCAI 2023. The micro-gesture classification task aims at recognizing the action category of a given video based on the skeleton data. For this task, we propose a 3D-CNNs-based micro-gesture recognition network, which incorporates a skeletal and semantic embedding loss to improve action classification performance. Finally, we rank 1st in the Micro-gesture Classification Challenge, surpassing the second-place team in terms of Top-1 accuracy by 1.10%.
+
+---
+
+このペーパーでは、IJCAI 2023 の MiGA チャレンジにおけるマイクロジェスチャ分類のための私たちのチーム HFUT-VUT のソリューションを簡単に紹介します。
+マイクロジェスチャ分類タスクは、スケルトン データに基づいて特定のビデオのアクション カテゴリを認識することを目的としています。
+このタスクのために、我々は 3D-CNN ベースのマイクロジェスチャ認識ネットワークを提案します。このネットワークには、アクション分類パフォーマンスを向上させるために骨格的および意味論的な埋め込み損失が組み込まれています。
+最後に、マイクロジェスチャ分類チャレンジで私たちは 1 位になり、トップ 1 の精度の点で 2 位のチームを 1.10% 上回りました。
 
 {{</citation>}}
 
@@ -980,7 +1445,7 @@ Weihang Ran, Wei Yuan, Xiaodan Shi, Zipei Fan, Ryosuke Shibasaki. (2023)
 **Hybrid Feature Embedding For Automatic Building Outline Extraction**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Embedding, Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10609v1)  
@@ -990,6 +1455,14 @@ Keywords: Embedding, Transformer
 
 **ABSTRACT**  
 Building outline extracted from high-resolution aerial images can be used in various application fields such as change detection and disaster assessment. However, traditional CNN model cannot recognize contours very precisely from original images. In this paper, we proposed a CNN and Transformer based model together with active contour model to deal with this problem. We also designed a triple-branch decoder structure to handle different features generated by encoder. Experiment results show that our model outperforms other baseline model on two datasets, achieving 91.1% mIoU on Vaihingen and 83.8% on Bing huts.
+
+---
+
+高解像度の航空画像から抽出した建物の輪郭は、変化検知や災害評価などさまざまな応用分野に活用できます。
+しかし、従来の CNN モデルは元の画像から輪郭を非常に正確に認識できません。
+この論文では、この問題に対処するために、CNN および Transformer ベースのモデルとアクティブ輪郭モデルを提案しました。
+また、エンコーダによって生成されたさまざまな機能を処理するために、トリプル ブランチ デコーダ構造も設計しました。
+実験結果は、私たちのモデルが 2 つのデータセットで他のベースライン モデルを上回り、ファイインゲンでは 91.1%、Bing 小屋では 83.8% の mIoU を達成したことを示しています。
 
 {{</citation>}}
 
@@ -1002,7 +1475,7 @@ Dongyun Lin, Yi Cheng, Aiyuan Guo, Shangbo Mao, Yiqun Li. (2023)
 **SCA-PVNet: Self-and-Cross Attention Based Aggregation of Point Cloud and Multi-View for 3D Object Retrieval**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Attention  
 [Paper Link](http://arxiv.org/abs/2307.10601v1)  
@@ -1012,6 +1485,17 @@ Keywords: Attention
 
 **ABSTRACT**  
 To address 3D object retrieval, substantial efforts have been made to generate highly discriminative descriptors of 3D objects represented by a single modality, e.g., voxels, point clouds or multi-view images. It is promising to leverage the complementary information from multi-modality representations of 3D objects to further improve retrieval performance. However, multi-modality 3D object retrieval is rarely developed and analyzed on large-scale datasets. In this paper, we propose self-and-cross attention based aggregation of point cloud and multi-view images (SCA-PVNet) for 3D object retrieval. With deep features extracted from point clouds and multi-view images, we design two types of feature aggregation modules, namely the In-Modality Aggregation Module (IMAM) and the Cross-Modality Aggregation Module (CMAM), for effective feature fusion. IMAM leverages a self-attention mechanism to aggregate multi-view features while CMAM exploits a cross-attention mechanism to interact point cloud features with multi-view features. The final descriptor of a 3D object for object retrieval can be obtained via concatenating the aggregated features from both modules. Extensive experiments and analysis are conducted on three datasets, ranging from small to large scale, to show the superiority of the proposed SCA-PVNet over the state-of-the-art methods.
+
+---
+
+3D オブジェクトの検索に対処するために、単一モダリティ (ボクセル、点群、多視点画像など) で表される 3D オブジェクトの高度に識別可能な記述子を生成するために多大な努力が払われてきました。
+3D オブジェクトのマルチモダリティ表現からの補完的な情報を活用して、検索パフォーマンスをさらに向上させることが期待されています。
+ただし、マルチモダリティ 3D オブジェクト検索は、大規模なデータセットに対して開発および分析されることはほとんどありません。
+この論文では、3D オブジェクト検索のための点群と多視点画像の自己および交差注意ベースの集約 (SCA-PVNet) を提案します。
+点群とマルチビュー画像から抽出された深い特徴を使用して、効果的な特徴融合を実現するために、In-Modality Aggregation Module (IMAM) と Cross-Modality Aggregation Module (CMAM) という 2 種類の特徴集約モジュールを設計します。
+IMAM はセルフ アテンション メカニズムを活用してマルチビュー フィーチャを集約し、CMAM はクロス アテンション メカニズムを活用して点群フィーチャとマルチビュー フィーチャを相互作用させます。
+オブジェクト取得用の 3D オブジェクトの最終的な記述子は、両方のモジュールから集約されたフィーチャを連結することによって取得できます。
+提案された SCA-PVNet が最先端の方法よりも優れていることを示すために、小規模から大規模までの 3 つのデータセットに対して広範な実験と分析が行われています。
 
 {{</citation>}}
 
@@ -1024,7 +1508,7 @@ Hugo Latapie, Kristinn R. Thorisson, Shan Yu, Vahagn Petrosyan, Patrick Hammer, 
 **Ethosight: A Joint-Embedding Based System for Nuanced Perception Using Contextual Label Affinity Metric and Reasoning Based Iterative Learning**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Embedding, GPT, Reasoning  
 [Paper Link](http://arxiv.org/abs/2307.10577v1)  
@@ -1034,6 +1518,22 @@ Keywords: Embedding, GPT, Reasoning
 
 **ABSTRACT**  
 Traditional computer vision models often require extensive manual effort for data acquisition and validation, particularly when detecting subtle behavioral nuances or events. The difficulty in distinguishing routine behaviors from potential risks in real-world applications, like differentiating routine shopping from potential shoplifting, further complicates the process.   We present Ethosight, a novel zero-shot computer vision algorithm. Ethosight eradicates the need for pre-existing symbolic knowledge, initiating from a clean slate based on user requirements and semantic knowledge of interest. Using localized label affinity calculations and a reasoning-guided iterative learning loop, Ethosight infers scene details and iteratively refines the label set. Reasoning mechanisms can be derived from large language models like GPT4, symbolic reasoners like OpenNARS, or hybrid systems.   Ethosight further capitalizes on the capabilities of a pre-trained multi-modal model, ImageBind, generating accurate semantic knowledge of images within a few cycles. It successfully captures both explicit and nuanced elements efficiently. We also introduce the implementation of Korzybski's "time-binding" concept in machines, which allows for generational learning and knowledge sharing across deployments.   Our evaluations demonstrate Ethosight's efficacy across 40 complex use cases. It has exhibited an exceptional ability to discern new areas of interest, consistently generating high-affinity scores within the top five labels from a set of a thousand. Tests conducted across diverse environments attest to Ethosight's robust performance. Detailed results and case studies within the main body of this paper and an appendix underscore a promising trajectory towards enhancing the adaptability and resilience of computer vision models in detecting and extracting subtle and nuanced behaviors.
+
+---
+
+従来のコンピューター ビジョン モデルでは、特に微妙な動作のニュアンスやイベントを検出する場合、データの取得と検証に多大な手作業が必要となることがよくあります。
+現実世界のアプリケーションでは、日常的な買い物と万引きの可能性を区別するなど、日常的な行動と潜在的なリスクを区別することが困難であるため、プロセスはさらに複雑になります。
+  私たちは、新しいゼロショット コンピューター ビジョン アルゴリズムである Ethosight を紹介します。
+Ethosight は、ユーザーの要件と関心のある意味論的な知識に基づいて白紙の状態から開始し、既存の記号的知識の必要性を排除します。
+Ethosight は、局所的なラベル アフィニティ計算と推論に基づく反復学習ループを使用して、シーンの詳細を推論し、ラベル セットを反復的に調整します。
+推論メカニズムは、GPT4 などの大規模言語モデル、OpenNARS などの記号推論、またはハイブリッド システムから派生できます。
+  Ethosight は、事前トレーニングされたマルチモーダル モデル ImageBind の機能をさらに活用し、数サイクル以内に画像の正確なセマンティック知識を生成します。
+明示的な要素と微妙な要素の両方を効率的に捉えることに成功しています。
+また、Korzybski の「時間拘束」コンセプトのマシンへの実装も紹介します。これにより、展開全体での世代間の学習と知識の共有が可能になります。
+  私たちの評価では、40 の複雑なユースケースにわたる Ethosight の有効性が実証されています。
+新しい関心領域を識別する卓越した能力を示し、1,000 のラベルのセットから上位 5 つのラベル内で高い親和性スコアを一貫して生成しています。
+さまざまな環境で実施されたテストにより、Ethosight の堅牢なパフォーマンスが証明されています。
+この論文の本文と付録に含まれる詳細な結果とケーススタディは、微妙で微妙な動作の検出と抽出におけるコンピュータ ビジョン モデルの適応性と回復力の強化に向けた有望な軌道を強調しています。
 
 {{</citation>}}
 
@@ -1046,7 +1546,7 @@ Qi Zhang, Sipeng Zheng, Qin Jin. (2023)
 **No-frills Temporal Video Grounding: Multi-Scale Neighboring Attention and Zoom-in Boundary Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Attention  
 [Paper Link](http://arxiv.org/abs/2307.10567v1)  
@@ -1056,6 +1556,16 @@ Keywords: Attention
 
 **ABSTRACT**  
 Temporal video grounding (TVG) aims to retrieve the time interval of a language query from an untrimmed video. A significant challenge in TVG is the low "Semantic Noise Ratio (SNR)", which results in worse performance with lower SNR. Prior works have addressed this challenge using sophisticated techniques. In this paper, we propose a no-frills TVG model that consists of two core modules, namely multi-scale neighboring attention and zoom-in boundary detection. The multi-scale neighboring attention restricts each video token to only aggregate visual contexts from its neighbor, enabling the extraction of the most distinguishing information with multi-scale feature hierarchies from high-ratio noises. The zoom-in boundary detection then focuses on local-wise discrimination of the selected top candidates for fine-grained grounding adjustment. With an end-to-end training strategy, our model achieves competitive performance on different TVG benchmarks, while also having the advantage of faster inference speed and lighter model parameters, thanks to its lightweight architecture.
+
+---
+
+テンポラル ビデオ グラウンディング (TVG) は、トリミングされていないビデオから言語クエリの時間間隔を取得することを目的としています。
+TVG の大きな課題は「セマンティック ノイズ比 (SNR)」が低いことであり、SNR が低いとパフォーマンスが低下します。
+これまでの研究では、洗練された技術を使用してこの課題に取り組んできました。
+この論文では、マルチスケール隣接注意とズームイン境界検出という 2 つのコア モジュールで構成される飾り気のない TVG モデルを提案します。
+マルチスケールの隣接アテンションにより、各ビデオ トークンがその近隣からのビジュアル コンテキストのみを集約するように制限され、高比率のノイズからマルチスケールの特徴階層を使用して最も特徴的な情報を抽出できるようになります。
+ズームイン境界検出は、きめ細かい接地調整のために、選択された上位候補の局所的な識別に焦点を当てます。
+エンドツーエンドのトレーニング戦略により、私たちのモデルはさまざまな TVG ベンチマークで競争力のあるパフォーマンスを達成すると同時に、その軽量アーキテクチャのおかげで、より高速な推論速度と軽量なモデル パラメーターという利点も備えています。
 
 {{</citation>}}
 
@@ -1068,7 +1578,7 @@ Peijie Dong, Lujun Li, Zimian Wei, Xin Niu, Zhiliang Tian, Hengyue Pan. (2023)
 **EMQ: Evolving Training-free Proxies for Automated Mixed Precision Quantization**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: ImageNet, Quantization  
 [Paper Link](http://arxiv.org/abs/2307.10554v1)  
@@ -1078,6 +1588,21 @@ Keywords: ImageNet, Quantization
 
 **ABSTRACT**  
 Mixed-Precision Quantization~(MQ) can achieve a competitive accuracy-complexity trade-off for models. Conventional training-based search methods require time-consuming candidate training to search optimized per-layer bit-width configurations in MQ. Recently, some training-free approaches have presented various MQ proxies and significantly improve search efficiency. However, the correlation between these proxies and quantization accuracy is poorly understood. To address the gap, we first build the MQ-Bench-101, which involves different bit configurations and quantization results. Then, we observe that the existing training-free proxies perform weak correlations on the MQ-Bench-101. To efficiently seek superior proxies, we develop an automatic search of proxies framework for MQ via evolving algorithms. In particular, we devise an elaborate search space involving the existing proxies and perform an evolution search to discover the best correlated MQ proxy. We proposed a diversity-prompting selection strategy and compatibility screening protocol to avoid premature convergence and improve search efficiency. In this way, our Evolving proxies for Mixed-precision Quantization~(EMQ) framework allows the auto-generation of proxies without heavy tuning and expert knowledge. Extensive experiments on ImageNet with various ResNet and MobileNet families demonstrate that our EMQ obtains superior performance than state-of-the-art mixed-precision methods at a significantly reduced cost. The code will be released.
+
+---
+
+混合精度量子化 (MQ) は、モデルの精度と複雑さのトレードオフを両立させることができます。
+従来のトレーニングベースの検索方法では、MQ で最適化されたレイヤーごとのビット幅構成を検索するには、時間のかかる候補のトレーニングが必要です。
+最近、トレーニング不要のアプローチによってさまざまな MQ プロキシが提供され、検索効率が大幅に向上しました。
+ただし、これらのプロキシと量子化精度の間の相関関係はほとんど理解されていません。
+このギャップに対処するために、まず MQ-Bench-101 を構築します。これには、異なるビット構成と量子化結果が含まれます。
+次に、既存のトレーニング不要のプロキシが MQ-Bench-101 上で弱い相関を実行していることがわかります。
+優れたプロキシを効率的に探すために、進化するアルゴリズムを介して MQ 用のプロキシ自動検索フレームワークを開発しました。
+特に、既存のプロキシを含む精緻な検索空間を考案し、進化検索を実行して、最も相関のある MQ プロキシを発見します。
+我々は、早期の収束を回避し、検索効率を向上させるために、多様性を促進する選択戦略と互換性スクリーニングプロトコルを提案しました。
+このようにして、混合精度量子化 (EMQ) フレームワーク用の進化するプロキシを使用すると、高度な調整や専門知識がなくてもプロキシを自動生成できます。
+さまざまな ResNet および MobileNet ファミリを使用した ImageNet に関する広範な実験により、当社の EMQ が大幅に削減されたコストで最先端の混合精度手法よりも優れたパフォーマンスを得ることが実証されました。
+コードが公開されます。
 
 {{</citation>}}
 
@@ -1090,7 +1615,7 @@ Yuanhao Gong. (2023)
 **Dynamic Large Language Models on Blockchains**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CL, cs-CV, cs.CV, econ-GN, q-fin-EC  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10549v1)  
@@ -1100,6 +1625,16 @@ Keywords: Language Model
 
 **ABSTRACT**  
 Training and deploying the large language models requires a large mount of computational resource because the language models contain billions of parameters and the text has thousands of tokens. Another problem is that the large language models are static. They are fixed after the training process. To tackle these issues, in this paper, we propose to train and deploy the dynamic large language model on blockchains, which have high computation performance and are distributed across a network of computers. A blockchain is a secure, decentralized, and transparent system that allows for the creation of a tamper-proof ledger for transactions without the need for intermediaries. The dynamic large language models can continuously learn from the user input after the training process. Our method provides a new way to develop the large language models and also sheds a light on the next generation artificial intelligence systems.
+
+---
+
+言語モデルには数十億のパラメータが含まれ、テキストには数千のトークンが含まれるため、大規模な言語モデルのトレーニングとデプロイには大量の計算リソースが必要です。
+もう 1 つの問題は、大規模な言語モデルが静的であることです。
+これらはトレーニングプロセス後に修正されます。
+これらの問題に取り組むために、この論文では、高い計算性能を持ち、コンピューターのネットワーク全体に分散されるブロックチェーン上で動的な大規模言語モデルをトレーニングし、展開することを提案します。
+ブロックチェーンは、仲介者を必要とせずにトランザクションの改ざん防止台帳を作成できる、安全で分散型の透明なシステムです。
+動的な大規模言語モデルは、トレーニング プロセス後もユーザー入力から継続的に学習できます。
+私たちの方法は、大規模な言語モデルを開発する新しい方法を提供し、次世代の人工知能システムにも光を当てます。
 
 {{</citation>}}
 
@@ -1112,7 +1647,7 @@ Neha Kalibhat, Shweta Bhardwaj, Bayan Bruss, Hamed Firooz, Maziar Sanjabi, Sohei
 **Identifying Interpretable Subspaces in Image Representations**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10504v1)  
@@ -1122,6 +1657,17 @@ Keywords: AI
 
 **ABSTRACT**  
 We propose Automatic Feature Explanation using Contrasting Concepts (FALCON), an interpretability framework to explain features of image representations. For a target feature, FALCON captions its highly activating cropped images using a large captioning dataset (like LAION-400m) and a pre-trained vision-language model like CLIP. Each word among the captions is scored and ranked leading to a small number of shared, human-understandable concepts that closely describe the target feature. FALCON also applies contrastive interpretation using lowly activating (counterfactual) images, to eliminate spurious concepts. Although many existing approaches interpret features independently, we observe in state-of-the-art self-supervised and supervised models, that less than 20% of the representation space can be explained by individual features. We show that features in larger spaces become more interpretable when studied in groups and can be explained with high-order scoring concepts through FALCON. We discuss how extracted concepts can be used to explain and debug failures in downstream tasks. Finally, we present a technique to transfer concepts from one (explainable) representation space to another unseen representation space by learning a simple linear transformation.
+
+---
+
+我々は、画像表現の特徴を説明するための解釈可能性フレームワークである、コントラスト概念を使用した自動特徴説明（FALCON）を提案します。
+ターゲット特徴について、FALCON は、大規模なキャプション データセット (LAION-400m など) と、CLIP などの事前トレーニング済み視覚言語モデルを使用して、非常にアクティブなトリミング画像にキャプションを付けます。
+キャプション内の各単語はスコア付けされ、ランク付けされ、対象の特徴を詳細に説明する人間が理解できる少数の共有概念が生成されます。
+FALCON はまた、不自然な概念を排除するために、活性度の低い (反事実的な) 画像を使用して対照的な解釈を適用します。
+既存のアプローチの多くは特徴を独立して解釈しますが、最先端の自己教師ありモデルおよび教師ありモデルでは、個々の特徴によって説明できる表現空間の 20% 未満が観察されます。
+私たちは、グループで研究すると、より大きな空間の特徴がより解釈可能になり、FALCON を介した高次のスコアリング概念で説明できることを示します。
+抽出された概念を下流タスクの障害の説明とデバッグにどのように使用できるかについて説明します。
+最後に、単純な線形変換を学習することで、ある (説明可能な) 表現空間から別の目に見えない表現空間に概念を転送する手法を紹介します。
 
 {{</citation>}}
 
@@ -1138,7 +1684,7 @@ Yedid Hoshen. (2023)
 **Representation Learning in Anomaly Detection: Successes, Limits and a Grand Challenge**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-CV, cs-LG, cs.LG  
 Keywords: Anomaly Detection, ImageNet, Representation Learning  
 [Paper Link](http://arxiv.org/abs/2307.11085v1)  
@@ -1148,6 +1694,15 @@ Keywords: Anomaly Detection, ImageNet, Representation Learning
 
 **ABSTRACT**  
 In this perspective paper, we argue that the dominant paradigm in anomaly detection cannot scale indefinitely and will eventually hit fundamental limits. This is due to the a no free lunch principle for anomaly detection. These limitations can be overcome when there are strong tasks priors, as is the case for many industrial tasks. When such priors do not exists, the task is much harder for anomaly detection. We pose two such tasks as grand challenges for anomaly detection: i) scientific discovery by anomaly detection ii) a "mini-grand" challenge of detecting the most anomalous image in the ImageNet dataset. We believe new anomaly detection tools and ideas would need to be developed to overcome these challenges.
+
+---
+
+この展望論文では、異常検出における支配的なパラダイムは無限に拡張することはできず、最終的には根本的な限界に達するだろうと主張します。
+これは、異常検出におけるフリーランチの原則がないためです。
+これらの制限は、多くの産業タスクの場合と同様、強力なタスクが事前に存在する場合には克服できます。
+このような事前分布が存在しない場合、異常検出のタスクは非常に困難になります。
+私たちは、異常検出に対する壮大な課題として 2 つのタスクを提示します: i) 異常検出による科学的発見 ii) ImageNet データセット内で最も異常な画像を検出するという「ミニグランド」課題。
+これらの課題を克服するには、新しい異常検出ツールとアイデアを開発する必要があると考えています。
 
 {{</citation>}}
 
@@ -1160,7 +1715,7 @@ David Abel, André Barreto, Benjamin Van Roy, Doina Precup, Hado van Hasselt, Sa
 **A Definition of Continual Reinforcement Learning**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2307.11046v1)  
@@ -1170,6 +1725,10 @@ Keywords: Reinforcement Learning
 
 **ABSTRACT**  
 In this paper we develop a foundation for continual reinforcement learning.
+
+---
+
+この論文では、継続的な強化学習の基盤を開発します。
 
 {{</citation>}}
 
@@ -1182,7 +1741,7 @@ Neel Guha, Mayee F. Chen, Kush Bhatia, Azalia Mirhoseini, Frederic Sala, Christo
 **Embroid: Unsupervised Prediction Smoothing Can Improve Few-Shot Classification**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-CL, cs-LG, cs.LG  
 Keywords: Few-Shot, GPT  
 [Paper Link](http://arxiv.org/abs/2307.11031v1)  
@@ -1192,6 +1751,18 @@ Keywords: Few-Shot, GPT
 
 **ABSTRACT**  
 Recent work has shown that language models' (LMs) prompt-based learning capabilities make them well suited for automating data labeling in domains where manual annotation is expensive. The challenge is that while writing an initial prompt is cheap, improving a prompt is costly -- practitioners often require significant labeled data in order to evaluate the impact of prompt modifications. Our work asks whether it is possible to improve prompt-based learning without additional labeled data. We approach this problem by attempting to modify the predictions of a prompt, rather than the prompt itself. Our intuition is that accurate predictions should also be consistent: samples which are similar under some feature representation should receive the same prompt prediction. We propose Embroid, a method which computes multiple representations of a dataset under different embedding functions, and uses the consistency between the LM predictions for neighboring samples to identify mispredictions. Embroid then uses these neighborhoods to create additional predictions for each sample, and combines these predictions with a simple latent variable graphical model in order to generate a final corrected prediction. In addition to providing a theoretical analysis of Embroid, we conduct a rigorous empirical evaluation across six different LMs and up to 95 different tasks. We find that (1) Embroid substantially improves performance over original prompts (e.g., by an average of 7.3 points on GPT-JT), (2) also realizes improvements for more sophisticated prompting strategies (e.g., chain-of-thought), and (3) can be specialized to domains like law through the embedding functions.
+
+---
+
+最近の研究では、言語モデル (LM) のプロンプトベースの学習機能が、手動によるアノテーションの費用がかかる領域でのデータ ラベル付けの自動化に適していることがわかっています。
+課題は、最初のプロンプトの作成は低コストですが、プロンプトの改善にはコストがかかることです。プロンプトの変更の影響を評価するために、実務者は多くの場合、重要なラベル付きデータを必要とします。
+私たちの研究では、追加のラベル付きデータなしでプロンプトベースの学習を改善できるかどうかを検討しています。
+私たちは、プロンプト自体ではなく、プロンプトの予測を変更することによってこの問題に取り組みます。
+私たちの直観では、正確な予測にも一貫性があるはずです。つまり、ある特徴表現の下で類似しているサンプルは、同じプロンプト予測を受け取るはずです。
+我々は、異なる埋め込み関数の下でデータセットの複数の表現を計算し、隣接するサンプルの LM 予測間の一貫性を使用して予測ミスを識別する手法である Embroid を提案します。
+次に、Embroid はこれらの近傍を使用して各サンプルの追加の予測を作成し、これらの予測を単純な潜在変数グラフィカル モデルと組み合わせて、最終的に修正された予測を生成します。
+Embroid の理論的分析を提供することに加えて、6 つの異なる LM と最大 95 の異なるタスクにわたって厳密な実証的評価を実施します。
+我々は、(1) Embroid は元のプロンプトに比べてパフォーマンスを大幅に向上させ (たとえば、GPT-JT で平均 7.3 ポイント)、(2) より洗練されたプロンプト戦略 (たとえば、思考連鎖) の改善も実現し、(3) 埋め込み関数を通じて法律などのドメインに特化できることを発見しました。
 
 {{</citation>}}
 
@@ -1204,7 +1775,7 @@ Shiwei Ding, Lan Zhang, Miao Pan, Xiaoyong Yuan. (2023)
 **PATROL: Privacy-Oriented Pruning for Collaborative Inference Against Model Inversion Attacks**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-CR, cs-LG, cs.LG  
 Keywords: Pruning  
 [Paper Link](http://arxiv.org/abs/2307.10981v1)  
@@ -1214,6 +1785,17 @@ Keywords: Pruning
 
 **ABSTRACT**  
 Collaborative inference has been a promising solution to enable resource-constrained edge devices to perform inference using state-of-the-art deep neural networks (DNNs). In collaborative inference, the edge device first feeds the input to a partial DNN locally and then uploads the intermediate result to the cloud to complete the inference. However, recent research indicates model inversion attacks (MIAs) can reconstruct input data from intermediate results, posing serious privacy concerns for collaborative inference. Existing perturbation and cryptography techniques are inefficient and unreliable in defending against MIAs while performing accurate inference. This paper provides a viable solution, named PATROL, which develops privacy-oriented pruning to balance privacy, efficiency, and utility of collaborative inference. PATROL takes advantage of the fact that later layers in a DNN can extract more task-specific features. Given limited local resources for collaborative inference, PATROL intends to deploy more layers at the edge based on pruning techniques to enforce task-specific features for inference and reduce task-irrelevant but sensitive features for privacy preservation. To achieve privacy-oriented pruning, PATROL introduces two key components: Lipschitz regularization and adversarial reconstruction training, which increase the reconstruction errors by reducing the stability of MIAs and enhance the target inference model by adversarial training, respectively.
+
+---
+
+協調推論は、リソースに制約のあるエッジ デバイスが最先端のディープ ニューラル ネットワーク (DNN) を使用して推論を実行できるようにする有望なソリューションです。
+協調推論では、エッジ デバイスはまずローカルで部分 DNN に入力を供給し、次に中間結果をクラウドにアップロードして推論を完了します。
+ただし、最近の研究では、モデル反転攻撃 (MIA) が中間結果から入力データを再構築する可能性があり、協調推論においてプライバシーに関する重大な懸念が生じる可能性があることが示されています。
+既存の摂動および暗号化技術は、正確な推論を実行しながら MIA を防御するには非効率的で信頼性が低くなります。
+このペーパーでは、プライバシー、効率、協調推論の有用性のバランスをとるプライバシー指向の枝刈りを開発する PATROL という実行可能なソリューションを提供します。
+PATROL は、DNN の後の層がより多くのタスク固有の特徴を抽出できるという事実を利用します。
+協調推論用のローカル リソースが限られているため、PATROL は、プルーニング技術に基づいてエッジにさらに多くのレイヤーをデプロイし、推論にタスク固有の機能を強制し、プライバシー保護のためにタスクには無関係だが機密性の高い機能を削減する予定です。
+プライバシー指向の枝刈りを実現するために、PATROL は 2 つの重要なコンポーネントを導入しています。リプシッツ正則化と敵対的再構成トレーニングです。これらはそれぞれ、MIA の安定性を低下させることで再構成エラーを増加させ、敵対的トレーニングによってターゲット推論モデルを強化します。
 
 {{</citation>}}
 
@@ -1226,7 +1808,7 @@ Aniruddh Raghu, Payal Chandak, Ridwan Alam, John Guttag, Collin M. Stultz. (2023
 **Sequential Multi-Dimensional Self-Supervised Learning for Clinical Time Series**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Clinical, Self-Supervised, Time Series  
 [Paper Link](http://arxiv.org/abs/2307.10923v1)  
@@ -1236,6 +1818,16 @@ Keywords: Clinical, Self-Supervised, Time Series
 
 **ABSTRACT**  
 Self-supervised learning (SSL) for clinical time series data has received significant attention in recent literature, since these data are highly rich and provide important information about a patient's physiological state. However, most existing SSL methods for clinical time series are limited in that they are designed for unimodal time series, such as a sequence of structured features (e.g., lab values and vitals signs) or an individual high-dimensional physiological signal (e.g., an electrocardiogram). These existing methods cannot be readily extended to model time series that exhibit multimodality, with structured features and high-dimensional data being recorded at each timestep in the sequence. In this work, we address this gap and propose a new SSL method -- Sequential Multi-Dimensional SSL -- where a SSL loss is applied both at the level of the entire sequence and at the level of the individual high-dimensional data points in the sequence in order to better capture information at both scales. Our strategy is agnostic to the specific form of loss function used at each level -- it can be contrastive, as in SimCLR, or non-contrastive, as in VICReg. We evaluate our method on two real-world clinical datasets, where the time series contains sequences of (1) high-frequency electrocardiograms and (2) structured data from lab values and vitals signs. Our experimental results indicate that pre-training with our method and then fine-tuning on downstream tasks improves performance over baselines on both datasets, and in several settings, can lead to improvements across different self-supervised loss functions.
+
+---
+
+臨床時系列データの自己教師あり学習 (SSL) は、これらのデータが非常に豊富であり、患者の生理学的状態に関する重要な情報を提供するため、最近の文献で大きな注目を集めています。
+しかし、臨床時系列に対する既存の SSL 手法のほとんどは、一連の構造化された特徴 (検査値やバイタルサインなど) や個々の高次元の生理学的信号 (心電図など) などの単峰性の時系列向けに設計されているという点で制限されています。
+これらの既存の方法は、構造化された特徴と高次元データがシーケンスの各タイムステップで記録される、マルチモダリティを示す時系列モデルに容易に拡張することはできません。
+この研究では、このギャップに対処し、新しい SSL 方式であるシーケンシャル多次元 SSL を提案します。この方式では、両方のスケールで情報をより適切に取得するために、シーケンス全体のレベルとシーケンス内の個々の高次元データ ポイントのレベルの両方で SSL 損失が適用されます。
+私たちの戦略は、各レベルで使用される損失関数の特定の形式に依存しません。SimCLR のように対照的な場合もあれば、VICReg のように非対照的な場合もあります。
+私たちは 2 つの実際の臨床データセットでメソッドを評価します。この時系列には、(1) 高周波心電図と (2) 検査値とバイタルサインからの構造化データのシーケンスが含まれています。
+私たちの実験結果は、私たちの方法で事前トレーニングしてから下流のタスクで微調整することで、両方のデータセットのベースラインよりもパフォーマンスが向上し、いくつかの設定では、さまざまな自己教師あり損失関数全体の改善につながる可能性があることを示しています。
 
 {{</citation>}}
 
@@ -1248,7 +1840,7 @@ Borja Rodríguez-Gálvez, Arno Blaas, Pau Rodríguez, Adam Goliński, Xavier Sua
 **The Role of Entropy and Reconstruction in Multi-View Self-Supervised Learning**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Self-Supervised  
 [Paper Link](http://arxiv.org/abs/2307.10907v1)  
@@ -1258,6 +1850,17 @@ Keywords: Self-Supervised
 
 **ABSTRACT**  
 The mechanisms behind the success of multi-view self-supervised learning (MVSSL) are not yet fully understood. Contrastive MVSSL methods have been studied through the lens of InfoNCE, a lower bound of the Mutual Information (MI). However, the relation between other MVSSL methods and MI remains unclear. We consider a different lower bound on the MI consisting of an entropy and a reconstruction term (ER), and analyze the main MVSSL families through its lens. Through this ER bound, we show that clustering-based methods such as DeepCluster and SwAV maximize the MI. We also re-interpret the mechanisms of distillation-based approaches such as BYOL and DINO, showing that they explicitly maximize the reconstruction term and implicitly encourage a stable entropy, and we confirm this empirically. We show that replacing the objectives of common MVSSL methods with this ER bound achieves competitive performance, while making them stable when training with smaller batch sizes or smaller exponential moving average (EMA) coefficients.   Github repo: https://github.com/apple/ml-entropy-reconstruction.
+
+---
+
+マルチビュー自己教師あり学習 (MVSSL) の成功の背後にあるメカニズムはまだ完全には理解されていません。
+対照的な MVSSL 手法は、相互情報 (MI) の下限である InfoNCE のレンズを通して研究されてきました。
+ただし、他の MVSSL 方式と MI との関係は不明のままです。
+エントロピーと再構成項 (ER) から構成される MI の別の下限を考慮し、そのレンズを通して主要な MVSSL ファミリを分析します。
+この ER 境界を通じて、DeepCluster や SwAV などのクラスタリング ベースの手法が MI を最大化することを示します。
+また、BYOL や DINO などの蒸留ベースのアプローチのメカニズムを再解釈し、再構成項を明示的に最大化し、暗黙的に安定したエントロピーを促進することを示し、これを経験的に確認します。
+一般的な MVSSL メソッドの目標をこの ER 境界に置き換えることで、より小さいバッチ サイズまたはより小さい指数移動平均 (EMA) 係数でトレーニングする場合に安定したパフォーマンスを実現しながら、競争力のあるパフォーマンスを実現できることを示します。
+  Github リポジトリ: https://github.com/apple/ml-entropy-reconstruction。
 
 {{</citation>}}
 
@@ -1270,7 +1873,7 @@ Wenwei Gu, Jinyang Liu, Zhuangbin Chen, Jianping Zhang, Yuxin Su, Jiazhen Gu, Co
 **Performance Issue Identification in Cloud Systems with Relational-Temporal Anomaly Detection**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-LG, cs-SE, cs.LG  
 Keywords: Anomaly Detection  
 [Paper Link](http://arxiv.org/abs/2307.10869v1)  
@@ -1280,6 +1883,22 @@ Keywords: Anomaly Detection
 
 **ABSTRACT**  
 Performance issues permeate large-scale cloud service systems, which can lead to huge revenue losses. To ensure reliable performance, it's essential to accurately identify and localize these issues using service monitoring metrics. Given the complexity and scale of modern cloud systems, this task can be challenging and may require extensive expertise and resources beyond the capacity of individual humans. Some existing methods tackle this problem by analyzing each metric independently to detect anomalies. However, this could incur overwhelming alert storms that are difficult for engineers to diagnose manually. To pursue better performance, not only the temporal patterns of metrics but also the correlation between metrics (i.e., relational patterns) should be considered, which can be formulated as a multivariate metrics anomaly detection problem. However, most of the studies fall short of extracting these two types of features explicitly. Moreover, there exist some unlabeled anomalies mixed in the training data, which may hinder the detection performance. To address these limitations, we propose the Relational- Temporal Anomaly Detection Model (RTAnomaly) that combines the relational and temporal information of metrics. RTAnomaly employs a graph attention layer to learn the dependencies among metrics, which will further help pinpoint the anomalous metrics that may cause the anomaly effectively. In addition, we exploit the concept of positive unlabeled learning to address the issue of potential anomalies in the training data. To evaluate our method, we conduct experiments on a public dataset and two industrial datasets. RTAnomaly outperforms all the baseline models by achieving an average F1 score of 0.929 and Hit@3 of 0.920, demonstrating its superiority.
+
+---
+
+パフォーマンスの問題は大規模なクラウド サービス システムに浸透しており、巨額の収益損失につながる可能性があります。
+信頼性の高いパフォーマンスを確保するには、サービス監視メトリクスを使用してこれらの問題を正確に特定し、特定することが重要です。
+最新のクラウド システムの複雑さと規模を考慮すると、このタスクは困難な場合があり、個々の人間の能力を超えた広範な専門知識とリソースが必要になる場合があります。
+一部の既存の方法では、各メトリックを個別に分析して異常を検出することで、この問題に取り組んでいます。
+ただし、これにより、エンジニアが手動で診断するのが困難な圧倒的なアラート ストームが発生する可能性があります。
+より良いパフォーマンスを追求するには、メトリクスの時間的パターンだけでなく、メトリクス間の相関関係 (つまり、関係パターン) も考慮する必要があります。これは、多変量メトリクスの異常検出問題として定式化できます。
+ただし、ほとんどの研究では、これら 2 種類の特徴を明示的に抽出することはできません。
+また、学習データにはラベルのない異常が混在しており、検出性能に支障をきたす可能性があります。
+これらの制限に対処するために、メトリクスの関係情報と時間情報を組み合わせた関係時間異常検出モデル (RTAnomaly) を提案します。
+RTAnomaly は、グラフ アテンション レイヤーを使用してメトリクス間の依存関係を学習します。これは、異常の原因となる可能性のある異常なメトリクスを効果的に特定するのにさらに役立ちます。
+さらに、ラベルなしポジティブ学習の概念を利用して、トレーニング データの潜在的な異常の問題に対処します。
+私たちの手法を評価するために、公共データセットと 2 つの産業データセットで実験を実施します。
+RTAnomaly は、平均 F1 スコア 0.929、Hit@3 0.920 を達成することで、すべてのベースライン モデルを上回っており、その優位性を示しています。
 
 {{</citation>}}
 
@@ -1292,7 +1911,7 @@ Reyhaneh Rahimi, Ardeshir Ebtehaj, Ali Behrangi, Jackson Tan. (2023)
 **Global Precipitation Nowcasting of Integrated Multi-satellitE Retrievals for GPM: A U-Net Convolutional LSTM Architecture**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-CV, cs-LG, cs.LG, physics-ao-ph  
 Keywords: LSTM  
 [Paper Link](http://arxiv.org/abs/2307.10843v1)  
@@ -1302,6 +1921,17 @@ Keywords: LSTM
 
 **ABSTRACT**  
 This paper presents a deep learning architecture for nowcasting of precipitation almost globally every 30 min with a 4-hour lead time. The architecture fuses a U-Net and a convolutional long short-term memory (LSTM) neural network and is trained using data from the Integrated MultisatellitE Retrievals for GPM (IMERG) and a few key precipitation drivers from the Global Forecast System (GFS). The impacts of different training loss functions, including the mean-squared error (regression) and the focal-loss (classification), on the quality of precipitation nowcasts are studied. The results indicate that the regression network performs well in capturing light precipitation (below 1.6 mm/hr), but the classification network can outperform the regression network for nowcasting of precipitation extremes (>8 mm/hr), in terms of the critical success index (CSI).. Using the Wasserstein distance, it is shown that the predicted precipitation by the classification network has a closer class probability distribution to the IMERG than the regression network. It is uncovered that the inclusion of the physical variables can improve precipitation nowcasting, especially at longer lead times in both networks. Taking IMERG as a relative reference, a multi-scale analysis in terms of fractions skill score (FSS), shows that the nowcasting machine remains skillful (FSS > 0.5) at the resolution of 10 km compared to 50 km for GFS. For precipitation rates greater than 4~mm/hr, only the classification network remains FSS-skillful on scales greater than 50 km within a 2-hour lead time.
+
+---
+
+この論文では、4 時間のリードタイムで 30 分ごとにほぼ世界的な降水量をナウキャストするためのディープ ラーニング アーキテクチャを紹介します。
+このアーキテクチャは、U-Net と畳み込み長短期記憶 (LSTM) ニューラル ネットワークを融合しており、Integrated MultisatellitE Retrievals for GPM (IMERG) からのデータと、Global Forecast System (GFS) からのいくつかの主要な降水ドライバーを使用してトレーニングされます。
+平均二乗誤差 (回帰) や焦点損失 (分類) などのさまざまなトレーニング損失関数が降水ナウキャストの品質に与える影響が研究されています。
+結果は、回帰ネットワークは軽い降水量 (1.6 mm/時未満) の捕捉では良好に機能しますが、極度の降水量 (> 8 mm/時) のナウキャスティングでは、重要成功指数 (CSI) の点で分類ネットワークの方が回帰ネットワークよりも優れたパフォーマンスを発揮できることを示しています。
+Wasserstein 距離を使用すると、分類ネットワークによる予測降水量は、回帰ネットワークよりも IMERG に近いクラス確率分布を持つことが示されます。
+物理変数を含めることで、特に両方のネットワークのリードタイムが長い場合に、降水量のナウキャスティングを改善できることが判明しました。
+IMERG を相対参照として取り上げ、分数スキル スコア (FSS) に関するマルチスケール分析では、GFS の 50 km と比較して、ナウキャスティング マシンが 10 km の解像度で熟練度を維持している (FSS > 0.5) ことを示しています。
+降水量が 4 mm/hr を超える場合、2 時間のリード タイム内で 50 km を超えるスケールで FSS スキルを維持できるのは分類ネットワークだけです。
 
 {{</citation>}}
 
@@ -1314,7 +1944,7 @@ Ilana Sebag, Samuel Cohen, Marc Peter Deisenroth. (2023)
 **On Combining Expert Demonstrations in Imitation Learning via Optimal Transport**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10810v1)  
@@ -1324,6 +1954,16 @@ Keywords: AI
 
 **ABSTRACT**  
 Imitation learning (IL) seeks to teach agents specific tasks through expert demonstrations. One of the key approaches to IL is to define a distance between agent and expert and to find an agent policy that minimizes that distance. Optimal transport methods have been widely used in imitation learning as they provide ways to measure meaningful distances between agent and expert trajectories. However, the problem of how to optimally combine multiple expert demonstrations has not been widely studied. The standard method is to simply concatenate state (-action) trajectories, which is problematic when trajectories are multi-modal. We propose an alternative method that uses a multi-marginal optimal transport distance and enables the combination of multiple and diverse state-trajectories in the OT sense, providing a more sensible geometric average of the demonstrations. Our approach enables an agent to learn from several experts, and its efficiency is analyzed on OpenAI Gym control environments and demonstrates that the standard method is not always optimal.
+
+---
+
+模倣学習 (IL) は、専門家のデモンストレーションを通じてエージェントに特定のタスクを教えることを目的としています。
+IL への重要なアプローチの 1 つは、エージェントとエキスパートの間の距離を定義し、その距離を最小限に抑えるエージェント ポリシーを見つけることです。
+最適転送方法は、エージェントとエキスパートの軌跡の間の意味のある距離を測定する方法を提供するため、模倣学習で広く使用されています。
+しかし、複数の専門家のデモンストレーションをどのように最適に組み合わせるかという問題は、広く研究されていません。
+標準的な方法は、状態 (-アクション) の軌跡を単純に連結することですが、軌跡がマルチモーダルである場合に問題が発生します。
+我々は、マルチマージナル最適輸送距離を使用し、OT の意味で複数の多様な状態軌道の組み合わせを可能にし、デモンストレーションのより合理的な幾何平均を提供する代替方法を提案します。
+私たちのアプローチにより、エージェントは複数の専門家から学ぶことができ、その効率は OpenAI Gym 制御環境で分析され、標準的な方法が常に最適であるとは限らないことが実証されました。
 
 {{</citation>}}
 
@@ -1336,7 +1976,7 @@ Jishnu Ray Chowdhury, Cornelia Caragea. (2023)
 **Efficient Beam Tree Recursion**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Transformer, Transformers  
 [Paper Link](http://arxiv.org/abs/2307.10779v1)  
@@ -1346,6 +1986,16 @@ Keywords: Transformer, Transformers
 
 **ABSTRACT**  
 Beam Tree Recursive Neural Network (BT-RvNN) was recently proposed as a simple extension of Gumbel Tree RvNN and it was shown to achieve state-of-the-art length generalization performance in ListOps while maintaining comparable performance on other tasks. However, although not the worst in its kind, BT-RvNN can be still exorbitantly expensive in memory usage. In this paper, we identify the main bottleneck in BT-RvNN's memory usage to be the entanglement of the scorer function and the recursive cell function. We propose strategies to remove this bottleneck and further simplify its memory usage. Overall, our strategies not only reduce the memory usage of BT-RvNN by $10$-$16$ times but also create a new state-of-the-art in ListOps while maintaining similar performance in other tasks. In addition, we also propose a strategy to utilize the induced latent-tree node representations produced by BT-RvNN to turn BT-RvNN from a sentence encoder of the form $f:\mathbb{R}^{n \times d} \rightarrow \mathbb{R}^{d}$ into a sequence contextualizer of the form $f:\mathbb{R}^{n \times d} \rightarrow \mathbb{R}^{n \times d}$. Thus, our proposals not only open up a path for further scalability of RvNNs but also standardize a way to use BT-RvNNs as another building block in the deep learning toolkit that can be easily stacked or interfaced with other popular models such as Transformers and Structured State Space models.
+
+---
+
+Beam Tree Recursive Neural Network (BT-RvNN) は、Gumbel Tree RvNN の単純な拡張として最近提案され、他のタスクで同等のパフォーマンスを維持しながら、ListOps で最先端の長さ汎化パフォーマンスを達成することが示されました。
+ただし、この種の中で最悪ではありませんが、BT-RvNN は依然としてメモリ使用量が法外に高価になる可能性があります。
+この論文では、BT-RvNN のメモリ使用における主なボトルネックがスコアラー関数と再帰セル関数のもつれであることを特定します。
+このボトルネックを解消し、メモリ使用量をさらに簡素化する戦略を提案します。
+全体として、私たちの戦略は BT-RvNN のメモリ使用量を $10$ ～ $16$ 倍削減するだけでなく、他のタスクでも同様のパフォーマンスを維持しながら、ListOps に新しい最先端の機能を生み出します。
+さらに、BT-RvNN によって生成された誘導潜在ツリー ノード表現を利用して、BT-RvNN を $f:\mathbb{R}^{n \times d} \rightarrow \mathbb{R}^{d}$ 形式の文エンコーダから $f:\mathbb{R}^{n \times d} \rightarrow \mathbb{R}^{n \times d} 形式のシーケンス コンテキスト化子に変える戦略も提案します。 $。
+したがって、私たちの提案は、RvNN のさらなるスケーラビリティへの道を開くだけでなく、トランスフォーマーや構造化状態空間モデルなどの他の一般的なモデルと簡単にスタックしたりインターフェイスしたりできる深層学習ツールキットの別の構成要素として BT-RvNN を使用する方法を標準化します。
 
 {{</citation>}}
 
@@ -1358,7 +2008,7 @@ Ronald Richman, Mario V. Wüthrich. (2023)
 **Conditional expectation network for SHAP**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: 62J10, 62J12, I-6-4; I-2-6; G-3, cs-CE, cs-LG, cs.LG, stat-AP, stat-ML  
 Keywords: GLM  
 [Paper Link](http://arxiv.org/abs/2307.10654v1)  
@@ -1368,6 +2018,14 @@ Keywords: GLM
 
 **ABSTRACT**  
 A very popular model-agnostic technique for explaining predictive models is the SHapley Additive exPlanation (SHAP). The two most popular versions of SHAP are a conditional expectation version and an unconditional expectation version (the latter is also known as interventional SHAP). Except for tree-based methods, usually the unconditional version is used (for computational reasons). We provide a (surrogate) neural network approach which allows us to efficiently calculate the conditional version for both neural networks and other regression models, and which properly considers the dependence structure in the feature components. This proposal is also useful to provide drop1 and anova analyses in complex regression models which are similar to their generalized linear model (GLM) counterparts, and we provide a partial dependence plot (PDP) counterpart that considers the right dependence structure in the feature components.
+
+---
+
+予測モデルを説明するための非常に人気のあるモデルに依存しない手法は、SHapley Additive exPlanation (SHAP) です。
+SHAP の最も一般的な 2 つのバージョンは、条件付き期待バージョンと無条件期待バージョンです (後者は介入型 SHAP とも呼ばれます)。
+ツリーベースのメソッドを除いて、通常は無条件バージョンが使用されます (計算上の理由から)。
+私たちは、ニューラル ネットワークと他の回帰モデルの両方の条件付きバージョンを効率的に計算でき、特徴コンポーネントの依存構造を適切に考慮できる (サロゲート) ニューラル ネットワーク アプローチを提供します。
+この提案は、一般化線形モデル (GLM) の対応物と同様の複雑な回帰モデルで Drop1 分析と分散分析を提供するのにも役立ちます。また、特徴コンポーネントの適切な依存構造を考慮する部分依存プロット (PDP) の対応物も提供します。
 
 {{</citation>}}
 
@@ -1380,7 +2038,7 @@ Manqing Dong, Zhanxiang Zhao, Yitong Geng, Wentao Li, Wei Wang, Huai Jiang. (202
 **Refining the Optimization Target for Automatic Univariate Time Series Anomaly Detection in Monitoring Services**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Anomaly Detection, Time Series  
 [Paper Link](http://arxiv.org/abs/2307.10653v1)  
@@ -1390,6 +2048,16 @@ Keywords: Anomaly Detection, Time Series
 
 **ABSTRACT**  
 Time series anomaly detection is crucial for industrial monitoring services that handle a large volume of data, aiming to ensure reliability and optimize system performance. Existing methods often require extensive labeled resources and manual parameter selection, highlighting the need for automation. This paper proposes a comprehensive framework for automatic parameter optimization in time series anomaly detection models. The framework introduces three optimization targets: prediction score, shape score, and sensitivity score, which can be easily adapted to different model backbones without prior knowledge or manual labeling efforts. The proposed framework has been successfully applied online for over six months, serving more than 50,000 time series every minute. It simplifies the user's experience by requiring only an expected sensitive value, offering a user-friendly interface, and achieving desired detection results. Extensive evaluations conducted on public datasets and comparison with other methods further confirm the effectiveness of the proposed framework.
+
+---
+
+時系列異常検出は、信頼性の確保とシステムパフォーマンスの最適化を目的として、大量のデータを処理する産業用監視サービスにとって非常に重要です。
+既存の方法では、ラベル付きの広範なリソースと手動によるパラメーターの選択が必要になることが多く、自動化の必要性が強調されています。
+この論文では、時系列異常検出モデルにおける自動パラメーター最適化のための包括的なフレームワークを提案します。
+このフレームワークには、予測スコア、形状スコア、感度スコアという 3 つの最適化ターゲットが導入されており、事前の知識や手動のラベル付け作業なしで、さまざまなモデル バックボーンに簡単に適応できます。
+提案されたフレームワークは 6 か月以上にわたりオンラインで適用され、毎分 50,000 を超える時系列を提供してきました。
+期待される機密値のみを要求し、ユーザーフレンドリーなインターフェイスを提供し、望ましい検出結果を達成することにより、ユーザーエクスペリエンスを簡素化します。
+公開データセットに対して行われた広範な評価と他の方法との比較により、提案されたフレームワークの有効性がさらに確認されています。
 
 {{</citation>}}
 
@@ -1402,7 +2070,7 @@ Tin Lai, Farnaz Farid, Abubakar Bello, Fariza Sabrina. (2023)
 **Ensemble Learning based Anomaly Detection for IoT Cybersecurity via Bayesian Hyperparameters Sensitivity Analysis**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-LG, cs-SI, cs.LG, stat-ML  
 Keywords: Anomaly Detection  
 [Paper Link](http://arxiv.org/abs/2307.10596v1)  
@@ -1412,6 +2080,19 @@ Keywords: Anomaly Detection
 
 **ABSTRACT**  
 The Internet of Things (IoT) integrates more than billions of intelligent devices over the globe with the capability of communicating with other connected devices with little to no human intervention. IoT enables data aggregation and analysis on a large scale to improve life quality in many domains. In particular, data collected by IoT contain a tremendous amount of information for anomaly detection. The heterogeneous nature of IoT is both a challenge and an opportunity for cybersecurity. Traditional approaches in cybersecurity monitoring often require different kinds of data pre-processing and handling for various data types, which might be problematic for datasets that contain heterogeneous features. However, heterogeneous types of network devices can often capture a more diverse set of signals than a single type of device readings, which is particularly useful for anomaly detection. In this paper, we present a comprehensive study on using ensemble machine learning methods for enhancing IoT cybersecurity via anomaly detection. Rather than using one single machine learning model, ensemble learning combines the predictive power from multiple models, enhancing their predictive accuracy in heterogeneous datasets rather than using one single machine learning model. We propose a unified framework with ensemble learning that utilises Bayesian hyperparameter optimisation to adapt to a network environment that contains multiple IoT sensor readings. Experimentally, we illustrate their high predictive power when compared to traditional methods.
+
+---
+
+モノのインターネット (IoT) は、世界中の数十億台以上のインテリジェント デバイスを統合し、人間の介入をほとんどまたはまったく行わずに他の接続されたデバイスと通信できる機能を備えています。
+IoT により、大規模なデータの集約と分析が可能になり、多くの領域で生活の質を向上させることができます。
+特にIoTによって収集されるデータには、異常検知のための膨大な情報が含まれています。
+IoT の異質な性質は、サイバーセキュリティにとって課題であると同時にチャンスでもあります。
+サイバーセキュリティ監視における従来のアプローチでは、多くの場合、さまざまな種類のデータの前処理と処理が必要ですが、異種の特徴が含まれるデータセットでは問題が発生する可能性があります。
+ただし、異種タイプのネットワーク デバイスは、単一タイプのデバイスの読み取り値よりも多様な信号セットをキャプチャできることが多く、これは異常検出に特に役立ちます。
+このペーパーでは、異常検出を通じて IoT サイバーセキュリティを強化するためのアンサンブル機械学習手法の使用に関する包括的な研究を紹介します。
+アンサンブル学習では、単一の機械学習モデルを使用するのではなく、複数のモデルの予測力を組み合わせて、異種データセットにおける予測精度を高めます。
+私たちは、ベイジアン ハイパーパラメーター最適化を利用して、複数の IoT センサーの読み取り値を含むネットワーク環境に適応するアンサンブル学習を備えた統合フレームワークを提案します。
+従来の方法と比較した場合の高い予測力を実験的に示します。
 
 {{</citation>}}
 
@@ -1424,7 +2105,7 @@ Andres Carranza, Dhruv Pai, Rylan Schaeffer, Arnuv Tandon, Sanmi Koyejo. (2023)
 **Deceptive Alignment Monitoring**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10569v1)  
@@ -1434,6 +2115,14 @@ Keywords: AI
 
 **ABSTRACT**  
 As the capabilities of large machine learning models continue to grow, and as the autonomy afforded to such models continues to expand, the spectre of a new adversary looms: the models themselves. The threat that a model might behave in a seemingly reasonable manner, while secretly and subtly modifying its behavior for ulterior reasons is often referred to as deceptive alignment in the AI Safety & Alignment communities. Consequently, we call this new direction Deceptive Alignment Monitoring. In this work, we identify emerging directions in diverse machine learning subfields that we believe will become increasingly important and intertwined in the near future for deceptive alignment monitoring, and we argue that advances in these fields present both long-term challenges and new research opportunities. We conclude by advocating for greater involvement by the adversarial machine learning community in these emerging directions.
+
+---
+
+大規模な機械学習モデルの機能が成長し続け、そのようなモデルに与えられる自律性が拡大し続けるにつれて、新たな敵、つまりモデル自体の脅威が迫っています。
+モデルが一見合理的に動作する一方で、裏の理由でその動作を密かに微妙に変更する可能性があるという脅威は、AI の安全性と調整のコミュニティでは、欺瞞的な調整と呼ばれることがよくあります。
+したがって、私たちはこの新しい方向性を欺瞞的調整モニタリングと呼びます。
+この研究では、欺瞞的アライメント監視において、近い将来ますます重要になり、絡み合うと思われるさまざまな機械学習サブ分野における新たな方向性を特定し、これらの分野の進歩が長期的な課題と新たな研究機会の両方をもたらすと主張します。
+私たちは、これらの新たな方向性への敵対的機械学習コミュニティのさらなる関与を主張して締めくくります。
 
 {{</citation>}}
 
@@ -1446,7 +2135,7 @@ Dhruv Pai, Andres Carranza, Rylan Schaeffer, Arnuv Tandon, Sanmi Koyejo. (2023)
 **FACADE: A Framework for Adversarial Circuit Anomaly Detection and Evaluation**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Anomaly Detection  
 [Paper Link](http://arxiv.org/abs/2307.10563v1)  
@@ -1456,6 +2145,13 @@ Keywords: Anomaly Detection
 
 **ABSTRACT**  
 We present FACADE, a novel probabilistic and geometric framework designed for unsupervised mechanistic anomaly detection in deep neural networks. Its primary goal is advancing the understanding and mitigation of adversarial attacks. FACADE aims to generate probabilistic distributions over circuits, which provide critical insights to their contribution to changes in the manifold properties of pseudo-classes, or high-dimensional modes in activation space, yielding a powerful tool for uncovering and combating adversarial attacks. Our approach seeks to improve model robustness, enhance scalable model oversight, and demonstrates promising applications in real-world deployment settings.
+
+---
+
+我々は、ディープニューラルネットワークにおける教師なしの機械的異常検出のために設計された新しい確率的および幾何学的なフレームワークであるFACADEを紹介します。
+その主な目標は、敵対的攻撃の理解を進め、軽減することです。
+FACADE は、回路上の確率的分布を生成することを目的としています。これにより、擬似クラスの多様なプロパティの変化、または活性化空間の高次元モードの変化に対する重要な洞察が得られ、敵対的な攻撃を発見してそれに対抗するための強力なツールが得られます。
+私たちのアプローチは、モデルの堅牢性を向上させ、スケーラブルなモデルの監視を強化し、現実世界の展開設定で有望なアプリケーションを実証することを目指しています。
 
 {{</citation>}}
 
@@ -1472,7 +2168,7 @@ Yijun Dong, Kevin Miller, Qi Lei, Rachel Ward. (2023)
 **Cluster-aware Semi-supervised Learning: Relational Knowledge Distillation Provably Learns Clustering**  
 
 ---
-Primary Category: stat.ML
+Primary Category: stat.ML  
 Categories: cs-LG, stat-ML, stat.ML  
 Keywords: Knowledge Distillation  
 [Paper Link](http://arxiv.org/abs/2307.11030v1)  
@@ -1482,6 +2178,16 @@ Keywords: Knowledge Distillation
 
 **ABSTRACT**  
 Despite the empirical success and practical significance of (relational) knowledge distillation that matches (the relations of) features between teacher and student models, the corresponding theoretical interpretations remain limited for various knowledge distillation paradigms. In this work, we take an initial step toward a theoretical understanding of relational knowledge distillation (RKD), with a focus on semi-supervised classification problems. We start by casting RKD as spectral clustering on a population-induced graph unveiled by a teacher model. Via a notion of clustering error that quantifies the discrepancy between the predicted and ground truth clusterings, we illustrate that RKD over the population provably leads to low clustering error. Moreover, we provide a sample complexity bound for RKD with limited unlabeled samples. For semi-supervised learning, we further demonstrate the label efficiency of RKD through a general framework of cluster-aware semi-supervised learning that assumes low clustering errors. Finally, by unifying data augmentation consistency regularization into this cluster-aware framework, we show that despite the common effect of learning accurate clusterings, RKD facilitates a "global" perspective through spectral clustering, whereas consistency regularization focuses on a "local" perspective via expansion.
+
+---
+
+教師モデルと生徒モデルの間の特徴（の関係）を一致させる（関係）知識蒸留の経験的な成功と実用的重要性にもかかわらず、対応する理論的解釈はさまざまな知識蒸留パラダイムに対して依然として限られています。
+この研究では、半教師あり分類問題に焦点を当てて、リレーショナル知識蒸留 (RKD) の理論的理解に向けた最初の一歩を踏み出します。
+まず、教師モデルによって明らかにされた人口誘導グラフ上のスペクトル クラスタリングとして RKD をキャストします。
+予測されたクラスタリングとグランド トゥルース ク​​ラスタリングの間の不一致を定量化するクラスタリング エラーの概念を介して、母集団に対する RKD がクラスタリング エラーの低下につながる可能性があることを示します。
+さらに、限られた非標識サンプルを使用して、RKD に限定されたサンプルの複雑性を提供します。
+半教師あり学習については、クラスタリングエラーが低いことを前提としたクラスター対応の半教師あり学習の一般的なフレームワークを通じて、RKD のラベル効率をさらに実証します。
+最後に、データ拡張の整合性正則化をこのクラスター対応フレームワークに統合することで、正確なクラスタリングを学習するという共通の効果にもかかわらず、RKD はスペクトル クラスタリングを通じて「グローバル」な視点を促進するのに対し、整合性正則化は拡張を通じて「ローカル」な視点に焦点を当てていることを示します。
 
 {{</citation>}}
 
@@ -1498,7 +2204,7 @@ Qian Wan, Siying Hu, Yu Zhang, Piaohong Wang, Bo Wen, Zhicong Lu. (2023)
 **'It Felt Like Having a Second Mind': Investigating Human-AI Co-creativity in Prewriting with Large Language Models**  
 
 ---
-Primary Category: cs.HC
+Primary Category: cs.HC  
 Categories: H-5-m; K-4-0, cs-AI, cs-CL, cs-HC, cs.HC  
 Keywords: AI, Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10811v1)  
@@ -1508,6 +2214,16 @@ Keywords: AI, Language Model
 
 **ABSTRACT**  
 Prewriting is the process of discovering and developing ideas before a first draft, which requires divergent thinking and often implies unstructured strategies such as diagramming, outlining, free-writing, etc. Although large language models (LLMs) have been demonstrated to be useful for a variety of tasks including creative writing, little is known about how users would collaborate with LLMs to support prewriting. The preferred collaborative role and initiative of LLMs during such a creativity process is also unclear. To investigate human-LLM collaboration patterns and dynamics during prewriting, we conducted a three-session qualitative study with 15 participants in two creative tasks: story writing and slogan writing. The findings indicated that during collaborative prewriting, there appears to be a three-stage iterative Human-AI Co-creativity process that includes Ideation, Illumination, and Implementation stages. This collaborative process champions the human in a dominant role, in addition to mixed and shifting levels of initiative that exist between humans and LLMs. This research also reports on collaboration breakdowns that occur during this process, user perceptions of using existing LLMs during Human-AI Co-creativity, and discusses design implications to support this co-creativity process.
+
+---
+
+プリライティングは、最初の草稿を作成する前にアイデアを発見し、発展させるプロセスです。これには多様な思考が必要であり、多くの場合、図表化、アウトライン化、自由記述などの非構造化戦略が含まれます。
+大規模言語モデル (LLM) はクリエイティブ ライティングを含むさまざまなタスクに役立つことが実証されていますが、プリライティングをサポートするためにユーザーが LLM とどのように連携するかについてはほとんど知られていません。
+このような創造性のプロセスにおける LLM の好ましい協力的な役割とイニシアチブも不明です。
+プリライティング中の人間と LLM のコラボレーション パターンとダイナミクスを調査するために、ストーリー作成とスローガン作成という 2 つの創造的なタスクについて 15 人の参加者を対象に、3 セッションの定性的研究を実施しました。
+この調査結果は、共同でのプリライティング中に、アイデア出し、イルミネーション、実装の各段階を含む 3 段階の反復的な人間と AI の共創プロセスが存在するようであることを示しました。
+この共同プロセスは、人間と LLM の間に存在する混合および変化するレベルの主導権に加えて、人間が支配的な役割を担うよう支援します。
+この調査では、このプロセス中に発生するコラボレーションの破綻、人間と AI の共創中に既存の LLM を使用することに対するユーザーの認識についても報告し、この共創プロセスをサポートするための設計への影響についても議論しています。
 
 {{</citation>}}
 
@@ -1520,7 +2236,7 @@ Advait Sarkar. (2023)
 **Exploring Perspectives on the Impact of Artificial Intelligence on the Creativity of Knowledge Work: Beyond Mechanised Plagiarism and Stochastic Parrots**  
 
 ---
-Primary Category: cs.HC
+Primary Category: cs.HC  
 Categories: cs-AI, cs-CL, cs-HC, cs.HC  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10751v1)  
@@ -1530,6 +2246,19 @@ Keywords: AI
 
 **ABSTRACT**  
 Artificial Intelligence (AI), and in particular generative models, are transformative tools for knowledge work. They problematise notions of creativity, originality, plagiarism, the attribution of credit, and copyright ownership. Critics of generative models emphasise the reliance on large amounts of training data, and view the output of these models as no more than randomised plagiarism, remix, or collage of the source data. On these grounds, many have argued for stronger regulations on the deployment, use, and attribution of the output of these models. However, these issues are not new or unique to artificial intelligence. In this position paper, using examples from literary criticism, the history of art, and copyright law, I show how creativity and originality resist definition as a notatable or information-theoretic property of an object, and instead can be seen as the property of a process, an author, or a viewer. Further alternative views hold that all creative work is essentially reuse (mostly without attribution), or that randomness itself can be creative. I suggest that creativity is ultimately defined by communities of creators and receivers, and the deemed sources of creativity in a workflow often depend on which parts of the workflow can be automated. Using examples from recent studies of AI in creative knowledge work, I suggest that AI shifts knowledge work from material production to critical integration. This position paper aims to begin a conversation around a more nuanced approach to the problems of creativity and credit assignment for generative models, one which more fully recognises the importance of the creative and curatorial voice of the users of these models and moves away from simpler notational or information-theoretic views.
+
+---
+
+人工知能 (AI)、特に生成モデルは、知識労働のための変革ツールです。
+彼らは、創造性、独創性、盗作、クレジットの帰属、著作権の所有権などの概念を問題視しています。
+生成モデルの批判者は、大量のトレーニング データへの依存を強調し、これらのモデルの出力をソース データのランダム化された盗作、リミックス、またはコラージュにすぎないとみなします。
+これらの理由から、多くの人が、これらのモデルの展開、使用、出力の帰属に関する規制の強化を主張しています。
+ただし、これらの問題は新しいものでも、人工知能に特有のものでもありません。
+この意見書では、文芸批評、美術史、著作権法の例を用いて、創造性と独創性がどのようにオブジェクトの注目すべき特性や情報理論的な特性としての定義に抵抗し、その代わりにプロセス、作者、または視聴者の特性として見なすことができるかを示します。
+さらに別の見解では、すべての創造的な作品は本質的に再利用される（ほとんどの場合帰属表示なし）、またはランダム性自体が創造的である可能性があると考えられています。
+私が提案したいのは、創造性は最終的には作成者と受信者のコミュニティによって定義され、ワー​​クフロー内でみなされる創造性の源は、多くの場合、ワークフローのどの部分を自動化できるかによって決まるということです。
+創造的な知識作業における AI の最近の研究の例を使用して、AI が知識作業を物質的な生産から重要な統合に移行させることを提案します。
+この意見書は、生成モデルの創造性と単位の割り当ての問題に対する、より微妙なアプローチを中心とした対話を開始することを目的としています。これは、これらのモデルのユーザーの創造的および管理的な声の重要性をより十分に認識し、より単純な表記や情報理論的な見方から離れるものです。
 
 {{</citation>}}
 
@@ -1542,7 +2271,7 @@ Ryosuke Ueda, Koh Takeuchi, Hisashi Kashima. (2023)
 **Mitigating Voter Attribute Bias for Fair Opinion Aggregation**  
 
 ---
-Primary Category: cs.HC
+Primary Category: cs.HC  
 Categories: cs-CY, cs-HC, cs-LG, cs.HC, stat-ML  
 Keywords: Bias  
 [Paper Link](http://arxiv.org/abs/2307.10749v1)  
@@ -1552,6 +2281,21 @@ Keywords: Bias
 
 **ABSTRACT**  
 The aggregation of multiple opinions plays a crucial role in decision-making, such as in hiring and loan review, and in labeling data for supervised learning. Although majority voting and existing opinion aggregation models are effective for simple tasks, they are inappropriate for tasks without objectively true labels in which disagreements may occur. In particular, when voter attributes such as gender or race introduce bias into opinions, the aggregation results may vary depending on the composition of voter attributes. A balanced group of voters is desirable for fair aggregation results but may be difficult to prepare. In this study, we consider methods to achieve fair opinion aggregation based on voter attributes and evaluate the fairness of the aggregated results. To this end, we consider an approach that combines opinion aggregation models such as majority voting and the Dawid and Skene model (D&S model) with fairness options such as sample weighting. To evaluate the fairness of opinion aggregation, probabilistic soft labels are preferred over discrete class labels. First, we address the problem of soft label estimation without considering voter attributes and identify some issues with the D&S model. To address these limitations, we propose a new Soft D&S model with improved accuracy in estimating soft labels. Moreover, we evaluated the fairness of an opinion aggregation model, including Soft D&S, in combination with different fairness options using synthetic and semi-synthetic data. The experimental results suggest that the combination of Soft D&S and data splitting as a fairness option is effective for dense data, whereas weighted majority voting is effective for sparse data. These findings should prove particularly valuable in supporting decision-making by human and machine-learning models with balanced opinion aggregation.
+
+---
+
+複数の意見の集約は、採用や融資審査などの意思決定や、教師あり学習用のデータのラベル付けなどにおいて重要な役割を果たします。
+多数決や既存の意見集約モデルは、単純なタスクには有効ですが、客観的に正しいラベルが存在せず、意見の相違が生じる可能性があるタスクには不適切です。
+特に、性別や人種などの投票者の属性によって意見に偏りがある場合、投票者の属性構成に応じて集計結果が異なる場合があります。
+公平な集計結果を得るには、バランスの取れた投票者のグループが望ましいですが、準備が難しい場合もあります。
+本研究では、有権者の属性に応じた公平な意見集約を実現し、集約結果の公平性を評価する手法を検討する。
+この目的を達成するために、多数決や Dawid and Skene モデル (D&S モデル) などの意見集約モデルと、サンプルの重み付けなどの公平性オプションを組み合わせたアプローチを検討します。
+意見集約の公平性を評価するには、離散的なクラス ラベルよりも確率的なソフト ラベルが優先されます。
+まず、有権者の属性を考慮せずにソフトラベルを推定する問題に取り組み、D&S モデルのいくつかの問題を特定します。
+これらの制限に対処するために、ソフト ラベルの推定精度が向上した新しいソフト D&S モデルを提案します。
+さらに、ソフト D&S を含む意見集約モデルの公平性を、合成および半合成データを使用したさまざまな公平性オプションと組み合わせて評価しました。
+実験結果は、公平性オプションとしてのソフト D&S とデータ分割の組み合わせが密なデータに対して効果的であるのに対し、加重多数決は疎なデータに対して効果的であることを示唆しています。
+これらの発見は、バランスの取れた意見集約を備えた人間および機械学習モデルによる意思決定をサポートする上で特に価値があることが証明されるはずです。
 
 {{</citation>}}
 
@@ -1568,7 +2312,7 @@ Stephen Josè Hanson, Vivek Yadev, Catherine Hanson. (2023)
 **Dense Sample Deep Learning**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs.AI, q-bio-NC, stat-ML  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10991v1)  
@@ -1578,6 +2322,16 @@ Keywords: AI
 
 **ABSTRACT**  
 Deep Learning (DL) , a variant of the neural network algorithms originally proposed in the 1980s, has made surprising progress in Artificial Intelligence (AI), ranging from language translation, protein folding, autonomous cars, and more recently human-like language models (CHATbots), all that seemed intractable until very recently. Despite the growing use of Deep Learning (DL) networks, little is actually understood about the learning mechanisms and representations that makes these networks effective across such a diverse range of applications. Part of the answer must be the huge scale of the architecture and of course the large scale of the data, since not much has changed since 1987. But the nature of deep learned representations remain largely unknown. Unfortunately training sets with millions or billions of tokens have unknown combinatorics and Networks with millions or billions of hidden units cannot easily be visualized and their mechanisms cannot be easily revealed. In this paper, we explore these questions with a large (1.24M weights; VGG) DL in a novel high density sample task (5 unique tokens with at minimum 500 exemplars per token) which allows us to more carefully follow the emergence of category structure and feature construction. We use various visualization methods for following the emergence of the classification and the development of the coupling of feature detectors and structures that provide a type of graphical bootstrapping, From these results we harvest some basic observations of the learning dynamics of DL and propose a new theory of complex feature construction based on our results.
+
+---
+
+1980 年代に最初に提案されたニューラル ネットワーク アルゴリズムの変種であるディープ ラーニング (DL) は、言語翻訳、タンパク質の折りたたみ、自動運転車、さらに最近では人間に似た言語モデル (CHATbot) に至るまで、ごく最近まで手に負えないと思われていた人工知能 (AI) において驚くべき進歩を遂げました。
+深層学習 (DL) ネットワークの使用が増加しているにもかかわらず、これらのネットワークをさまざまなアプリケーションにわたって効果的にする学習メカニズムと表現については、実際にはほとんど理解されていません。
+答えの一部は、1987 年以来ほとんど変わっていないため、アーキテクチャの規模が巨大であり、もちろんデータの規模も大きいことにあるはずです。
+しかし、深層学習された表現の性質は依然としてほとんど知られていません。
+残念ながら、数百万または数十億のトークンを含むトレーニング セットには未知の組み合わせがあり、数百万または数十億の隠れユニットを含むネットワークは簡単に視覚化できず、そのメカニズムを簡単に明らかにすることはできません。
+このペーパーでは、新しい高密度サンプル タスク (トークンごとに少なくとも 500 個のサンプルを持つ 5 つの一意のトークン) における大規模 (124 万重み; VGG) DL を使用してこれらの疑問を調査します。これにより、カテゴリ構造と特徴構築の出現をより注意深く追跡することができます。
+私たちは、分類の出現と、一種のグラフィカル ブートストラップを提供する特徴検出器と構造の結合の発展を追跡するために、さまざまな視覚化手法を使用します。これらの結果から、DL の学習ダイナミクスのいくつかの基本的な観察を収集し、その結果に基づいて複雑な特徴構築の新しい理論を提案します。
 
 {{</citation>}}
 
@@ -1590,7 +2344,7 @@ Raphael Boige, Yannis Flet-Berliac, Arthur Flajolet, Guillaume Richard, Thomas P
 **PASTA: Pretrained Action-State Transformer Agents**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs-LG, cs.AI  
 Keywords: NLP, Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10936v1)  
@@ -1600,6 +2354,19 @@ Keywords: NLP, Transformer
 
 **ABSTRACT**  
 Self-supervised learning has brought about a revolutionary paradigm shift in various computing domains, including NLP, vision, and biology. Recent approaches involve pre-training transformer models on vast amounts of unlabeled data, serving as a starting point for efficiently solving downstream tasks. In the realm of reinforcement learning, researchers have recently adapted these approaches by developing models pre-trained on expert trajectories, enabling them to address a wide range of tasks, from robotics to recommendation systems. However, existing methods mostly rely on intricate pre-training objectives tailored to specific downstream applications. This paper presents a comprehensive investigation of models we refer to as Pretrained Action-State Transformer Agents (PASTA). Our study uses a unified methodology and covers an extensive set of general downstream tasks including behavioral cloning, offline RL, sensor failure robustness, and dynamics change adaptation. Our goal is to systematically compare various design choices and provide valuable insights to practitioners for building robust models. Key highlights of our study include tokenization at the action and state component level, using fundamental pre-training objectives like next token prediction, training models across diverse domains simultaneously, and using parameter efficient fine-tuning (PEFT). The developed models in our study contain fewer than 10 million parameters and the application of PEFT enables fine-tuning of fewer than 10,000 parameters during downstream adaptation, allowing a broad community to use these models and reproduce our experiments. We hope that this study will encourage further research into the use of transformers with first-principles design choices to represent RL trajectories and contribute to robust policy learning.
+
+---
+
+自己教師あり学習は、NLP、視覚、生物学などのさまざまなコンピューティング領域に革命的なパラダイムシフトをもたらしました。
+最近のアプローチには、大量のラベルなしデータに対するトランスフォーマー モデルの事前トレーニングが含まれており、下流のタスクを効率的に解決するための開始点として機能します。
+強化学習の分野では、研究者らは最近、専門家の軌跡に基づいて事前トレーニングされたモデルを開発することでこれらのアプローチを適応させ、ロボット工学から推奨システムに至るまで幅広いタスクに対処できるようにしました。
+ただし、既存の方法はほとんどが、特定の下流アプリケーションに合わせて調整された複雑な事前トレーニング目標に依存しています。
+このペーパーでは、事前トレーニング済みアクション状態変換エージェント (PASTA) と呼ばれるモデルの包括的な調査について説明します。
+私たちの研究は統一された方法論を使用しており、動作クローニング、オフライン RL、センサー障害の堅牢性、ダイナミクス変化の適応などの一般的な下流タスクの広範なセットをカバーしています。
+私たちの目標は、さまざまな設計の選択肢を体系的に比較し、堅牢なモデルを構築するための貴重な洞察を実践者に提供することです。
+私たちの研究の主なハイライトには、アクションおよび状態コンポーネント レベルでのトークン化、次のトークン予測などの基本的な事前トレーニング目標の使用、多様なドメインにわたるモデルの同時トレーニング、およびパラメーター効率的微調整 (PEFT) の使用が含まれます。
+私たちの研究で開発されたモデルには 1,000 万未満のパラメーターが含まれており、PEFT の適用により、下流の適応中に 10,000 未満のパラメーターの微調整が可能になり、幅広いコミュニティがこれらのモデルを使用して実験を再現できるようになります。
+この研究が、RL 軌道を表現するための第一原理設計の選択による変圧器の使用に関するさらなる研究を促進し、堅牢な政策学習に貢献することを願っています。
 
 {{</citation>}}
 
@@ -1612,7 +2379,7 @@ David Glukhov, Ilia Shumailov, Yarin Gal, Nicolas Papernot, Vardan Papyan. (2023
 **LLM Censorship: A Machine Learning Challenge or a Computer Security Problem?**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs-CR, cs.AI  
 Keywords: Security  
 [Paper Link](http://arxiv.org/abs/2307.10719v1)  
@@ -1622,6 +2389,17 @@ Keywords: Security
 
 **ABSTRACT**  
 Large language models (LLMs) have exhibited impressive capabilities in comprehending complex instructions. However, their blind adherence to provided instructions has led to concerns regarding risks of malicious use. Existing defence mechanisms, such as model fine-tuning or output censorship using LLMs, have proven to be fallible, as LLMs can still generate problematic responses. Commonly employed censorship approaches treat the issue as a machine learning problem and rely on another LM to detect undesirable content in LLM outputs. In this paper, we present the theoretical limitations of such semantic censorship approaches. Specifically, we demonstrate that semantic censorship can be perceived as an undecidable problem, highlighting the inherent challenges in censorship that arise due to LLMs' programmatic and instruction-following capabilities. Furthermore, we argue that the challenges extend beyond semantic censorship, as knowledgeable attackers can reconstruct impermissible outputs from a collection of permissible ones. As a result, we propose that the problem of censorship needs to be reevaluated; it should be treated as a security problem which warrants the adaptation of security-based approaches to mitigate potential risks.
+
+---
+
+大規模言語モデル (LLM) は、複雑な命令を理解する上で優れた能力を発揮しました。
+しかし、提供された指示を盲目的に遵守することで、悪意のある使用のリスクに関する懸念が生じています。
+LLM は依然として問題のある応答を生成する可能性があるため、LLM を使用したモデルの微調整や出力検閲などの既存の防御メカニズムは誤りを犯しやすいことが証明されています。
+一般的に採用されている検閲アプローチでは、この問題を機械学習の問題として扱い、別の LM に依存して LLM 出力内の望ましくないコンテンツを検出します。
+この論文では、このような意味的検閲アプローチの理論的限界を示します。
+具体的には、意味論的な検閲が決定不可能な問題として認識される可能性があることを実証し、LLM のプログラムおよび指示に従う能力によって生じる検閲における固有の課題を強調します。
+さらに、知識のある攻撃者は許容される出力のコレクションから許容されない出力を再構築できるため、この課題はセマンティック検閲を超えて拡大すると主張します。
+その結果、私たちは検閲の問題を再評価する必要があると提案します。これは、潜在的なリスクを軽減するためにセキュリティベースのアプローチを適応することを正当化するセキュリティ問題として扱う必要があります。
 
 {{</citation>}}
 
@@ -1634,7 +2412,7 @@ Anton Andreev, Grégoire Cattan. (2023)
 **Towards an architectural framework for intelligent virtual agents using probabilistic programming**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs-HC, cs-PL, cs.AI, math-PR  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10693v1)  
@@ -1644,6 +2422,20 @@ Keywords: AI
 
 **ABSTRACT**  
 We present a new framework called KorraAI for conceiving and building embodied conversational agents (ECAs). Our framework models ECAs' behavior considering contextual information, for example, about environment and interaction time, and uncertain information provided by the human interaction partner. Moreover, agents built with KorraAI can show proactive behavior, as they can initiate interactions with human partners. For these purposes, KorraAI exploits probabilistic programming. Probabilistic models in KorraAI are used to model its behavior and interactions with the user. They enable adaptation to the user's preferences and a certain degree of indeterminism in the ECAs to achieve more natural behavior. Human-like internal states, such as moods, preferences, and emotions (e.g., surprise), can be modeled in KorraAI with distributions and Bayesian networks. These models can evolve over time, even without interaction with the user. ECA models are implemented as plugins and share a common interface. This enables ECA designers to focus more on the character they are modeling and less on the technical details, as well as to store and exchange ECA models. Several applications of KorraAI ECAs are possible, such as virtual sales agents, customer service agents, virtual companions, entertainers, or tutors.
+
+---
+
+我々は、身体型会話エージェント (ECA) を構想し構築するための、KorraAI と呼ばれる新しいフレームワークを紹介します。
+私たちのフレームワークは、環境や対話時間などのコンテキスト情報、および人間の対話パートナーによって提供される不確実な情報を考慮して ECA の動作をモデル化します。
+さらに、KorraAI で構築されたエージェントは、人間のパートナーとの対話を開始できるため、積極的な動作を示すことができます。
+これらの目的のために、KorraAI は確率的プログラミングを利用します。
+KorraAI の確率モデルは、KorraAI の動作とユーザーとの対話をモデル化するために使用されます。
+これらにより、ユーザーの好みと ECA におけるある程度の不決定性への適応が可能になり、より自然な動作が実現されます。
+気分、好み、感情 (驚きなど) などの人間のような内部状態は、分布とベイジアン ネットワークを使用して KorraAI でモデル化できます。
+これらのモデルは、ユーザーとの対話がなくても、時間の経過とともに進化する可能性があります。
+ECA モデルはプラグインとして実装され、共通のインターフェイスを共有します。
+これにより、ECA 設計者は、技術的な詳細ではなくモデリングしているキャラクターに集中できるようになり、ECA モデルを保存および交換できるようになります。
+KorraAI ECA には、仮想販売代理店、顧客サービス エージェント、仮想コンパニオン、芸能人、家庭教師など、いくつかのアプリケーションが可能です。
 
 {{</citation>}}
 
@@ -1656,7 +2448,7 @@ Ngoc Luyen Le, Marie-Hélène Abel, Philippe Gouspillou. (2023)
 **A Personalized Recommender System Based-on Knowledge Graph Embeddings**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs-IR, cs.AI  
 Keywords: Embedding, Knowledge Graph  
 [Paper Link](http://arxiv.org/abs/2307.10680v1)  
@@ -1666,6 +2458,14 @@ Keywords: Embedding, Knowledge Graph
 
 **ABSTRACT**  
 Knowledge graphs have proven to be effective for modeling entities and their relationships through the use of ontologies. The recent emergence in interest for using knowledge graphs as a form of information modeling has led to their increased adoption in recommender systems. By incorporating users and items into the knowledge graph, these systems can better capture the implicit connections between them and provide more accurate recommendations. In this paper, we investigate and propose the construction of a personalized recommender system via knowledge graphs embedding applied to the vehicle purchase/sale domain. The results of our experimentation demonstrate the efficacy of the proposed method in providing relevant recommendations that are consistent with individual users.
+
+---
+
+ナレッジ グラフは、オントロジーの使用を通じてエンティティとその関係をモデル化するのに効果的であることが証明されています。
+最近、情報モデリングの形式としてナレッジ グラフを使用することに関心が高まっているため、レコメンダー システムでの採用が増加しています。
+ユーザーとアイテムをナレッジ グラフに組み込むことで、これらのシステムはそれらの間の暗黙的なつながりをより適切に捕捉し、より正確な推奨事項を提供できます。
+本稿では、車両の購入/販売領域に適用されるナレッジグラフ埋め込みによるパーソナライズされたレコメンダシステムの構築を調査し、提案します。
+私たちの実験の結果は、個々のユーザーに合った関連性のある推奨事項を提供する上で、提案された方法の有効性を示しています。
 
 {{</citation>}}
 
@@ -1678,7 +2478,7 @@ Rifat Ara Shams, Didar Zowghi, Muneera Bano. (2023)
 **Challenges and Solutions in AI for All**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: I, I-2, cs-AI, cs.AI  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10600v1)  
@@ -1688,6 +2488,15 @@ Keywords: AI
 
 **ABSTRACT**  
 Artificial Intelligence (AI)'s pervasive presence and variety necessitate diversity and inclusivity (D&I) principles in its design for fairness, trust, and transparency. Yet, these considerations are often overlooked, leading to issues of bias, discrimination, and perceived untrustworthiness. In response, we conducted a Systematic Review to unearth challenges and solutions relating to D&I in AI. Our rigorous search yielded 48 research articles published between 2017 and 2022. Open coding of these papers revealed 55 unique challenges and 33 solutions for D&I in AI, as well as 24 unique challenges and 23 solutions for enhancing such practices using AI. This study, by offering a deeper understanding of these issues, will enlighten researchers and practitioners seeking to integrate these principles into future AI systems.
+
+---
+
+人工知能 (AI) の存在と多様性は広く普及しているため、その設計には公平性、信頼性、透明性を実現するための多様性と包括性 (D&I) 原則が必要です。
+しかし、これらの考慮事項はしばしば見落とされ、偏見、差別、不信感の問題につながります。
+これに応えて、AI における D&I に関連する課題と解決策を明らかにするためのシステマティック レビューを実施しました。
+私たちの厳密な検索により、2017 年から 2022 年の間に出版された 48 件の研究論文が見つかりました。
+これらの論文のオープンコーディングにより、AI における D&I に関する 55 の固有の課題と 33 のソリューションに加え、AI を使用してそのような実践を強化するための 24 の固有の課題と 23 のソリューションが明らかになりました。
+この研究は、これらの問題についてのより深い理解を提供することで、これらの原則を将来の AI システムに統合しようとしている研究者や実践者を啓発するでしょう。
 
 {{</citation>}}
 
@@ -1700,7 +2509,7 @@ Can Jiang, Xin Li, Jia-Rui Lin, Ming Liu, Zhiliang Ma. (2023)
 **Adaptive Control of Resource Flow to Optimize Construction Work and Cash Flow via Online Deep Reinforcement Learning**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2307.10574v1)  
@@ -1710,6 +2519,17 @@ Keywords: Reinforcement Learning
 
 **ABSTRACT**  
 Due to complexity and dynamics of construction work, resource, and cash flows, poor management of them usually leads to time and cost overruns, bankruptcy, even project failure. Existing approaches in construction failed to achieve optimal control of resource flow in a dynamic environment with uncertainty. Therefore, this paper introducess a model and method to adaptive control the resource flows to optimize the work and cash flows of construction projects. First, a mathematical model based on a partially observable Markov decision process is established to formulate the complex interactions of construction work, resource, and cash flows as well as uncertainty and variability of diverse influence factors. Meanwhile, to efficiently find the optimal solutions, a deep reinforcement learning (DRL) based method is introduced to realize the continuous adaptive optimal control of labor and material flows, thereby optimizing the work and cash flows. To assist the training process of DRL, a simulator based on discrete event simulation is also developed to mimic the dynamic features and external environments of a project. Experiments in simulated scenarios illustrate that our method outperforms the vanilla empirical method and genetic algorithm, possesses remarkable capability in diverse projects and external environments, and a hybrid agent of DRL and empirical method leads to the best result. This paper contributes to adaptive control and optimization of coupled work, resource, and cash flows, and may serve as a step stone for adopting DRL technology in construction project management.
+
+---
+
+建設作業、リソース、キャッシュフローは複雑でダイナミックであるため、それらの管理が不十分であると、通常、時間とコストの超過、破産、さらにはプロジェクトの失敗につながります。
+建設における既存のアプローチでは、不確実性のある動的な環境において資源の流れを最適に制御することができませんでした。
+したがって、本稿では、建設プロジェクトの作業とキャッシュフローを最適化するためにリソースフローを適応的に制御するモデルと方法を紹介します。
+まず、部分的に観察可能なマルコフ決定プロセスに基づく数学的モデルを確立して、建設工事、資源、キャッシュフローの複雑な相互作用、および多様な影響要因の不確実性と変動性を定式化します。
+一方、最適解を効率的に見つけるために、深層強化学習（DRL）ベースの手法が導入され、労働と物の流れの継続的適応最適制御を実現し、それによって仕事とキャッシュフローを最適化します。
+DRL のトレーニング プロセスを支援するために、プロジェクトの動的特徴と外部環境を模倣する離散イベント シミュレーションに基づくシミュレーターも開発されています。
+シミュレートされたシナリオでの実験は、私たちの方法がバニラの経験的方法や遺伝的アルゴリズムよりも優れており、多様なプロジェクトや外部環境で顕著な能力を備えており、DRLと経験的方法のハイブリッドエージェントが最良の結果をもたらすことを示しています。
+この論文は、結合された作業、リソース、およびキャッシュ フローの適応制御と最適化に貢献し、建設プロジェクト管理における DRL テクノロジーの採用の足がかりとなる可能性があります。
 
 {{</citation>}}
 
@@ -1722,7 +2542,7 @@ Rylan Schaeffer, Kateryna Pistunova, Samar Khanna, Sarthak Consul, Sanmi Koyejo.
 **Invalid Logic, Equivalent Gains: The Bizarreness of Reasoning in Language Model Prompting**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Language Model, Reasoning  
 [Paper Link](http://arxiv.org/abs/2307.10573v1)  
@@ -1732,6 +2552,17 @@ Keywords: Language Model, Reasoning
 
 **ABSTRACT**  
 Language models can be prompted to reason through problems in a manner that significantly improves performance. However, \textit{why} such prompting improves performance is unclear. Recent work showed that using logically \textit{invalid} Chain-of-Thought (CoT) prompting improves performance almost as much as logically \textit{valid} CoT prompting, and that editing CoT prompts to replace problem-specific information with abstract information or out-of-distribution information typically doesn't harm performance. Critics have responded that these findings are based on too few and too easy tasks to draw meaningful conclusions. To resolve this dispute, we test whether logically invalid CoT prompts offer the same level of performance gains as logically valid prompts on the hardest tasks in the BIG-Bench benchmark, termed BIG-Bench Hard (BBH). We find that the logically \textit{invalid} reasoning prompts do indeed achieve similar performance gains on BBH tasks as logically valid reasoning prompts. We also discover that some CoT prompts used by previous works contain logical errors. This suggests that covariates beyond logically valid reasoning are responsible for performance improvements.
+
+---
+
+言語モデルは、パフォーマンスを大幅に向上させる方法で問題を推論するように促すことができます。
+ただし、\textit{なぜこのようなプロンプトがパフォーマンスを向上させるのかは不明です。
+最近の研究では、論理的に \textit{invalid} 思考連鎖 (CoT) プロンプトを使用すると、論理的に \textit{valid} CoT プロンプトを使用するのとほぼ同じくらいパフォーマンスが向上し、CoT プロンプトを編集して問題固有の情報を抽象的な情報や配布外の情報に置き換えても、通常はパフォーマンスに悪影響を及ぼさないことが示されました。
+批評家たちは、これらの調査結果は、有意義な結論を引き出すには少なすぎて簡単すぎるタスクに基づいていると答えています。
+この論争を解決するために、BIG-Bench Hard (BBH) と呼ばれる、BIG-Bench ベンチマークの最も困難なタスクにおいて、論理的に無効な CoT プロンプトが論理的に有効なプロンプトと同じレベルのパフォーマンス向上を提供するかどうかをテストします。
+論理的に \textit{invalid} 推論プロンプトが実際に、論理的に有効な推論プロンプトと同様の BBH タスクのパフォーマンス向上を達成することがわかりました。
+また、以前の作品で使用されていた一部の CoT プロンプトに論理的エラーが含まれていることも発見しました。
+これは、論理的に有効な推論を超えた共変量がパフォーマンスの向上に関与していることを示唆しています。
 
 {{</citation>}}
 
@@ -1744,7 +2575,7 @@ Kaiwen Wei, Jie Yao, Jingyuan Zhang, Yangyang Kang, Fubang Zhao, Yating Zhang, C
 **PPN: Parallel Pointer-based Network for Key Information Extraction with Complex Layouts**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Information Extraction  
 [Paper Link](http://arxiv.org/abs/2307.10551v1)  
@@ -1754,6 +2585,18 @@ Keywords: Information Extraction
 
 **ABSTRACT**  
 Key Information Extraction (KIE) is a challenging multimodal task that aims to extract structured value semantic entities from visually rich documents. Although significant progress has been made, there are still two major challenges that need to be addressed. Firstly, the layout of existing datasets is relatively fixed and limited in the number of semantic entity categories, creating a significant gap between these datasets and the complex real-world scenarios. Secondly, existing methods follow a two-stage pipeline strategy, which may lead to the error propagation problem. Additionally, they are difficult to apply in situations where unseen semantic entity categories emerge. To address the first challenge, we propose a new large-scale human-annotated dataset named Complex Layout form for key information EXtraction (CLEX), which consists of 5,860 images with 1,162 semantic entity categories. To solve the second challenge, we introduce Parallel Pointer-based Network (PPN), an end-to-end model that can be applied in zero-shot and few-shot scenarios. PPN leverages the implicit clues between semantic entities to assist extracting, and its parallel extraction mechanism allows it to extract multiple results simultaneously and efficiently. Experiments on the CLEX dataset demonstrate that PPN outperforms existing state-of-the-art methods while also offering a much faster inference speed.
+
+---
+
+Key Information Extraction (KIE) は、視覚的に豊富なドキュメントから構造化された値の意味エンティティを抽出することを目的とした、挑戦的なマルチモーダル タスクです。
+大きな進歩が見られましたが、対処する必要のある大きな課題がまだ 2 つあります。
+まず、既存のデータセットのレイアウトは比較的固定されており、セマンティック エンティティ カテゴリの数が制限されているため、これらのデータセットと複雑な現実世界のシナリオの間に大きなギャップが生じています。
+第 2 に、既存の方法は 2 段階のパイプライン戦略に従っており、エラー伝播の問題が発生する可能性があります。
+さらに、目に見えない意味論的エンティティ カテゴリが出現する状況に適用することは困難です。
+最初の課題に対処するために、私たちは、Complex Layout form for key information Extraction (CLEX) という名前の新しい人間による注釈付きの大規模データセットを提案します。このデータセットは、1,162 の意味エンティティ カテゴリを持つ 5,860 枚の画像で構成されています。
+2 番目の課題を解決するために、ゼロ ショットおよび少数ショットのシナリオに適用できるエンドツーエンド モデルであるパラレル ポインター ベース ネットワーク (PPN) を導入します。
+PPN は、意味論的エンティティ間の暗黙的な手がかりを活用して抽出を支援し、その並列抽出メカニズムにより、複数の結果を同時に効率的に抽出できます。
+CLEX データセットの実験では、PPN が既存の最先端の手法を上回るパフォーマンスを示し、さらにより高速な推論速度を提供することを実証しています。
 
 {{</citation>}}
 
@@ -1766,7 +2609,7 @@ Wendi Li, Wei Wei, Xiaoye Qu, Xian-Ling Mao, Ye Yuan, Wenfeng Xie, Dangyang Chen
 **TREA: Tree-Structure Reasoning Schema for Conversational Recommendation**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Conversational Recommendation, Reasoning  
 [Paper Link](http://arxiv.org/abs/2307.10543v1)  
@@ -1776,6 +2619,15 @@ Keywords: Conversational Recommendation, Reasoning
 
 **ABSTRACT**  
 Conversational recommender systems (CRS) aim to timely trace the dynamic interests of users through dialogues and generate relevant responses for item recommendations. Recently, various external knowledge bases (especially knowledge graphs) are incorporated into CRS to enhance the understanding of conversation contexts. However, recent reasoning-based models heavily rely on simplified structures such as linear structures or fixed-hierarchical structures for causality reasoning, hence they cannot fully figure out sophisticated relationships among utterances with external knowledge. To address this, we propose a novel Tree structure Reasoning schEmA named TREA. TREA constructs a multi-hierarchical scalable tree as the reasoning structure to clarify the causal relationships between mentioned entities, and fully utilizes historical conversations to generate more reasonable and suitable responses for recommended results. Extensive experiments on two public CRS datasets have demonstrated the effectiveness of our approach.
+
+---
+
+会話型レコメンダー システム (CRS) は、対話を通じてユーザーの動的な関心をタイムリーに追跡し、アイテムの推奨に対して適切な応答を生成することを目的としています。
+最近では、会話のコンテキストの理解を強化するために、さまざまな外部知識ベース (特にナレッジ グラフ) が CRS に組み込まれています。
+しかし、最近の推論ベースのモデルは、因果関係推論において線形構造や固定階層構造などの単純化された構造に大きく依存しているため、発話間の高度な外部知識との関係を完全に把握することはできません。
+これに対処するために、我々は TREA という名前の新しいツリー構造推論 schEmA を提案します。
+TREA は、言及されたエンティティ間の因果関係を明確にするための推論構造として多階層のスケーラブルなツリーを構築し、推奨結果に対するより合理的で適切な応答を生成するために過去の会話を最大限に活用します。
+2 つの公開 CRS データセットに対する広範な実験により、私たちのアプローチの有効性が実証されました。
 
 {{</citation>}}
 
@@ -1792,7 +2644,7 @@ Rogier van Dalen. (2023)
 **Globally Normalising the Transducer for Streaming Speech Recognition**  
 
 ---
-Primary Category: eess.AS
+Primary Category: eess.AS  
 Categories: 68T10, cs-LG, cs-SD, eess-AS, eess.AS  
 Keywords: Speech Recognition  
 [Paper Link](http://arxiv.org/abs/2307.10975v1)  
@@ -1802,6 +2654,19 @@ Keywords: Speech Recognition
 
 **ABSTRACT**  
 The Transducer (e.g. RNN-Transducer or Conformer-Transducer) generates an output label sequence as it traverses the input sequence. It is straightforward to use in streaming mode, where it generates partial hypotheses before the complete input has been seen. This makes it popular in speech recognition. However, in streaming mode the Transducer has a mathematical flaw which, simply put, restricts the model's ability to change its mind. The fix is to replace local normalisation (e.g. a softmax) with global normalisation, but then the loss function becomes impossible to evaluate exactly. A recent paper proposes to solve this by approximating the model, severely degrading performance. Instead, this paper proposes to approximate the loss function, allowing global normalisation to apply to a state-of-the-art streaming model. Global normalisation reduces its word error rate by 9-11% relative, closing almost half the gap between streaming and lookahead mode.
+
+---
+
+トランスデューサー (例:
+RNN トランスデューサーまたはコンフォーマー トランスデューサー) は、入力シーケンスをトラバースするときに出力ラベル シーケンスを生成します。
+ストリーミング モードでの使用は簡単で、完全な入力が確認される前に部分的な仮説が生成されます。
+このため、音声認識で人気があります。
+ただし、ストリーミング モードでは、トランスデューサーには数学的欠陥があり、簡単に言えば、モデルの考えを変える能力が制限されます。
+修正は、ローカル正規化を置き換えることです (例:
+ソフトマックス）グローバル正規化を使用しますが、損失関数を正確に評価することができなくなります。
+最近の論文では、モデルを近似することでこの問題を解決することが提案されており、パフォーマンスが大幅に低下します。
+代わりに、この論文では、損失関数を近似して、グローバル正規化を最先端のストリーミング モデルに適用できるようにすることを提案します。
+グローバル正規化により、ワード エラー率が相対的に 9 ～ 11% 減少し、ストリーミング モードと先読みモードの間のギャップがほぼ半分に縮まります。
 
 {{</citation>}}
 
@@ -1814,7 +2679,7 @@ Changhong Wang, Gaël Richard, Brian McFee. (2023)
 **Transfer Learning and Bias Correction with Pre-trained Audio Embeddings**  
 
 ---
-Primary Category: eess.AS
+Primary Category: eess.AS  
 Categories: cs-SD, eess-AS, eess.AS  
 Keywords: Bias, Embedding  
 [Paper Link](http://arxiv.org/abs/2307.10834v1)  
@@ -1824,6 +2689,19 @@ Keywords: Bias, Embedding
 
 **ABSTRACT**  
 Deep neural network models have become the dominant approach to a large variety of tasks within music information retrieval (MIR). These models generally require large amounts of (annotated) training data to achieve high accuracy. Because not all applications in MIR have sufficient quantities of training data, it is becoming increasingly common to transfer models across domains. This approach allows representations derived for one task to be applied to another, and can result in high accuracy with less stringent training data requirements for the downstream task. However, the properties of pre-trained audio embeddings are not fully understood. Specifically, and unlike traditionally engineered features, the representations extracted from pre-trained deep networks may embed and propagate biases from the model's training regime. This work investigates the phenomenon of bias propagation in the context of pre-trained audio representations for the task of instrument recognition. We first demonstrate that three different pre-trained representations (VGGish, OpenL3, and YAMNet) exhibit comparable performance when constrained to a single dataset, but differ in their ability to generalize across datasets (OpenMIC and IRMAS). We then investigate dataset identity and genre distribution as potential sources of bias. Finally, we propose and evaluate post-processing countermeasures to mitigate the effects of bias, and improve generalization across datasets.
+
+---
+
+ディープ ニューラル ネットワーク モデルは、音楽情報検索 (MIR) 内のさまざまなタスクに対する主要なアプローチとなっています。
+これらのモデルは通常、高精度を達成するために大量の (注釈付き) トレーニング データを必要とします。
+MIR のすべてのアプリケーションに十分な量のトレーニング データがあるわけではないため、ドメイン間でモデルを転送することがますます一般的になってきています。
+このアプローチにより、あるタスクに対して導出された表現を別のタスクに適用できるようになり、下流タスクのトレーニング データ要件がそれほど厳しくなくても高い精度が得られます。
+ただし、事前トレーニングされたオーディオ埋め込みの特性は完全には理解されていません。
+具体的には、従来的に設計された特徴とは異なり、事前トレーニングされたディープネットワークから抽出された表現には、モデルのトレーニング体制からのバイアスが埋め込まれ、伝播する可能性があります。
+この研究では、楽器認識のタスクのために事前にトレーニングされた音声表現のコンテキストでバイアス伝播の現象を調査します。
+まず、3 つの異なる事前トレーニング済み表現 (VGGish、OpenL3、YAMNet) が、単一のデータセットに制約された場合には同等のパフォーマンスを示しますが、データセット (OpenMIC と IRMAS) 間で一般化する能力が異なることを示します。
+次に、バイアスの潜在的な原因としてデータセットのアイデンティティとジャンルの分布を調査します。
+最後に、バイアスの影響を軽減し、データセット全体の一般化を改善するための後処理対策を提案および評価します。
 
 {{</citation>}}
 
@@ -1836,7 +2714,7 @@ Wonbin Kim, Hyun-seo Shin, Ju-ho Kim, Jungwoo Heo, Chan-yeong Lim, Ha-Jin Yu. (2
 **PAS: Partial Additive Speech Data Augmentation Method for Noise Robust Speaker Verification**  
 
 ---
-Primary Category: eess.AS
+Primary Category: eess.AS  
 Categories: cs-SD, eess-AS, eess.AS  
 Keywords: Augmentation, Speaker Verification  
 [Paper Link](http://arxiv.org/abs/2307.10628v1)  
@@ -1846,6 +2724,14 @@ Keywords: Augmentation, Speaker Verification
 
 **ABSTRACT**  
 Background noise reduces speech intelligibility and quality, making speaker verification (SV) in noisy environments a challenging task. To improve the noise robustness of SV systems, additive noise data augmentation method has been commonly used. In this paper, we propose a new additive noise method, partial additive speech (PAS), which aims to train SV systems to be less affected by noisy environments. The experimental results demonstrate that PAS outperforms traditional additive noise in terms of equal error rates (EER), with relative improvements of 4.64% and 5.01% observed in SE-ResNet34 and ECAPA-TDNN. We also show the effectiveness of proposed method by analyzing attention modules and visualizing speaker embeddings.
+
+---
+
+背景ノイズにより音声の明瞭度と品質が低下するため、騒がしい環境での話者検証 (SV) は困難な作業になります。
+SV システムのノイズ耐性を向上させるために、付加的なノイズ データ拡張方法が一般的に使用されています。
+この論文では、新しい加法ノイズ手法である部分加法音声 (PAS) を提案します。この手法は、SV システムがノイズの多い環境の影響を受けにくいようにトレーニングすることを目的としています。
+実験結果は、PAS が等誤り率 (EER) の点で従来の加法性ノイズを上回っており、SE-ResNet34 と ECAPA-TDNN で 4.64% と 5.01% の相対的な改善が観察されたことを示しています。
+また、アテンションモジュールを分析し、話者の埋め込みを視覚化することにより、提案手法の有効性を示します。
 
 {{</citation>}}
 
@@ -1862,7 +2748,7 @@ Alexander Ek, Philip B. Stark, Peter J. Stuckey, Damjan Vukcevic. (2023)
 **Adaptively Weighted Audits of Instant-Runoff Voting Elections: AWAIRE**  
 
 ---
-Primary Category: stat.AP
+Primary Category: stat.AP  
 Categories: cs-CR, cs-CY, stat-AP, stat-ME, stat.AP  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10972v1)  
@@ -1872,6 +2758,19 @@ Keywords: AI
 
 **ABSTRACT**  
 An election audit is risk-limiting if the audit limits (to a pre-specified threshold) the chance that an erroneous electoral outcome will be certified. Extant methods for auditing instant-runoff voting (IRV) elections are either not risk-limiting or require cast vote records (CVRs), the voting system's electronic record of the votes on each ballot. CVRs are not always available, for instance, in jurisdictions that tabulate IRV contests manually.   We develop an RLA method (AWAIRE) that uses adaptively weighted averages of test supermartingales to efficiently audit IRV elections when CVRs are not available. The adaptive weighting 'learns' an efficient set of hypotheses to test to confirm the election outcome. When accurate CVRs are available, AWAIRE can use them to increase the efficiency to match the performance of existing methods that require CVRs.   We provide an open-source prototype implementation that can handle elections with up to six candidates. Simulations using data from real elections show that AWAIRE is likely to be efficient in practice. We discuss how to extend the computational approach to handle elections with more candidates.   Adaptively weighted averages of test supermartingales are a general tool, useful beyond election audits to test collections of hypotheses sequentially while rigorously controlling the familywise error rate.
+
+---
+
+選挙監査は、誤った選挙結果が認定される可能性を（事前に指定されたしきい値に）制限する場合、リスクを制限します。
+即時決選投票 (IRV) 選挙を監査するための既存の方法は、リスクを制限していないか、各投票用紙の投票の投票システムの電子記録であるキャスト投票レコード (CVR) を必要とします。
+たとえば、IRV コンテストを手動で集計する管轄区域では、CVR が常に利用できるとは限りません。
+  CVR が利用できない場合に IRV の選択を効率的に監査するために、テスト スーパーマルチンゲールの適応加重平均を使用する RLA メソッド (AWAIRE) を開発します。
+適応的重み付けは、選挙結果を確認するためにテストするための効率的な仮説のセットを「学習」します。
+正確な CVR が利用可能な場合、AWAIRE はそれを使用して効率を向上させ、CVR を必要とする既存のメソッドのパフォーマンスに匹敵することができます。
+  最大 6 人の候補者による選挙を処理できるオープンソースのプロトタイプ実装を提供します。
+実際の選挙のデータを使用したシミュレーションでは、AWAIRE が実際に効率的である可能性が高いことが示されています。
+私たちは、より多くの候補者による選挙を処理するために計算的アプローチを拡張する方法について議論します。
+  テスト スーパーマーチンゲールの適応加重平均は一般的なツールであり、家族ごとのエラー率を厳密に制御しながら仮説のコレクションを順番にテストするために、選挙監査を超えて役立ちます。
 
 {{</citation>}}
 
@@ -1888,7 +2787,7 @@ Mohamed C. Ghanem, Thomas M. Chen, Mohamed A. Ferrag, Mohyi E. Kettouche. (2023)
 **ESASCF: Expertise Extraction, Generalization and Reply Framework for an Optimized Automation of Network Security Compliance**  
 
 ---
-Primary Category: cs.CR
+Primary Category: cs.CR  
 Categories: cs-CR, cs-NI, cs.CR  
 Keywords: Network Security, Security  
 [Paper Link](http://arxiv.org/abs/2307.10967v1)  
@@ -1898,6 +2797,16 @@ Keywords: Network Security, Security
 
 **ABSTRACT**  
 The Cyber threats exposure has created worldwide pressure on organizations to comply with cyber security standards and policies for protecting their digital assets. Vulnerability assessment (VA) and Penetration Testing (PT) are widely adopted Security Compliance (SC) methods to identify security gaps and anticipate security breaches. In the computer networks context and despite the use of autonomous tools and systems, security compliance remains highly repetitive and resources consuming. In this paper, we proposed a novel method to tackle the ever-growing problem of efficiency and effectiveness in network infrastructures security auditing by formally introducing, designing, and developing an Expert-System Automated Security Compliance Framework (ESASCF) that enables industrial and open-source VA and PT tools and systems to extract, process, store and re-use the expertise in a human-expert way to allow direct application in similar scenarios or during the periodic re-testing. The implemented model was then integrated within the ESASCF and tested on different size networks and proved efficient in terms of time-efficiency and testing effectiveness allowing ESASCF to take over autonomously the SC in Re-testing and offloading Expert by automating repeated segments SC and thus enabling Experts to prioritize important tasks in Ad-Hoc compliance tests. The obtained results validate the performance enhancement notably by cutting the time required for an expert to 50% in the context of typical corporate networks first SC and 20% in re-testing, representing a significant cost-cutting. In addition, the framework allows a long-term impact illustrated in the knowledge extraction, generalization, and re-utilization, which enables better SC confidence independent of the human expert skills, coverage, and wrong decisions resulting in impactful false negatives.
+
+---
+
+サイバー脅威の暴露により、デジタル資産を保護するためのサイバーセキュリティ標準とポリシーに準拠するよう組織に世界的な圧力が生じています。
+脆弱性評価 (VA) とペネトレーション テスト (PT) は、セキュリティ ギャップを特定し、セキュリティ侵害を予測するために広く採用されているセキュリティ コンプライアンス (SC) 手法です。
+コンピュータ ネットワークのコンテキストでは、自律的なツールやシステムを使用しているにもかかわらず、セキュリティ コンプライアンスは依然として反復性が高く、リソースを消費します。
+この論文では、エキスパートシステム自動セキュリティコンプライアンスフレームワーク (ESASCF) を正式に導入、設計、開発することで、ネットワークインフラストラクチャのセキュリティ監査における効率と有効性というますます増大する問題に取り組むための新しい方法を提案しました。これにより、産業用およびオープンソースの VA および PT ツールとシステムが人間の専門的な方法で専門知識を抽出、処理、保存、再利用できるようになり、同様のシナリオまたは定期的な再テスト中に直接適用できるようになります。
+その後、実装されたモデルは ESASCF 内に統合され、さまざまなサイズのネットワークでテストされ、時間効率とテストの有効性の点で効率的であることが証明されました。これにより、繰り返されるセグメント SC を自動化することで、ESASCF が再テストおよびエキスパートのオフロードで自律的に SC を引き継ぎ、エキスパートがアドホック コンプライアンス テストで重要なタスクに優先順位を付けることができるようになります。
+得られた結果は、特に、一般的な企業ネットワークの最初の SC に比べて、エキスパートが必要とする時間を 50% に削減し、再テストに 20% を削減することでパフォーマンスの向上を実証しており、大幅なコスト削減を示しています。
+さらに、このフレームワークは、知識の抽出、一般化、再利用に示されている長期的な影響を可能にし、人間の専門家のスキル、範囲、および影響力のある偽陰性を引き起こす誤った決定に関係なく、SC の信頼性を向上させることができます。
 
 {{</citation>}}
 
@@ -1914,7 +2823,7 @@ Omar Otoniel Flores-Cortez, Bruno Gonzales Crespin. (2023)
 **Aplicación de tecnologías IoT en el control y seguimiento de trasporte de carga terrestre**  
 
 ---
-Primary Category: eess.SY
+Primary Category: eess.SY  
 Categories: cs-SY, eess-SP, eess-SY, eess.SY  
 Keywords: AWS, Amazon  
 [Paper Link](http://arxiv.org/abs/2307.10945v1)  
@@ -1924,6 +2833,18 @@ Keywords: AWS, Amazon
 
 **ABSTRACT**  
 Freight transport of goods and raw materials is a central part of the supply chain in the commercial exchange in Latin America. Control and monitoring of this activity are vital for an efficient economic flow and, more importantly, without losing money. Most of the problems that generate financial losses occur in cargo freight by land. Losses due to changes in the weight of the payload to be transported or fuel/time losses due to capricious changes by the driver on the scheduled route. This work aims to demonstrate use of Internet of Thing (IoT) techniques to propose a prototype of a telemetry system to monitor in real-time the payload weight and location of a cargo truck and become a technological tool that supports the tasks of monitoring and control of the use of cargo trucks, and together with other logistics measures, leads to minimizing economic losses. The development of this project was based on the IoT architecture reference model: an ATmega32u4 microcontroller was used together with a SIM808 GSM and GPS module as the main component of the IoT Node. In addition, Amazon Web Services (AWS) tools were used as an IoT web platform and cloud data storage. The main result was a prototype of a telemetry system to track a cargo truck via the web; the weight and position data are accessible from any device with internet access through a website. Preliminary field tests have shown the proposed system to be an efficient and low-cost option.
+
+---
+
+商品と原材料の貨物輸送は、ラテンアメリカの商業取引におけるサプライチェーンの中心部分です。
+この活動の制御と監視は、効率的な経済の流れにとって、そしてより重要なことに、お金を失わずに行うために不可欠です。
+経済的損失を引き起こす問題のほとんどは、陸路での貨物輸送で発生します。
+輸送するペイロードの重量の変更による損失、またはドライバーによる予定ルートの気まぐれな変更による燃料/時間の損失。
+この研究は、モノのインターネット (IoT) 技術の使用を実証し、貨物トラックの積載重量と位置をリアルタイムで監視するテレメトリ システムのプロトタイプを提案することを目的としています。これは、貨物トラックの使用状況の監視と制御のタスクをサポートする技術ツールとなり、他の物流対策と合わせて経済的損失の最小化につながります。
+このプロジェクトの開発は、IoT アーキテクチャ参照モデルに基づいて行われました。ATmega32u4 マイクロコントローラーが、IoT ノードの主要コンポーネントとして SIM808 GSM および GPS モジュールとともに使用されました。
+さらに、アマゾン ウェブ サービス (AWS) ツールが IoT Web プラットフォームおよびクラウド データ ストレージとして使用されました。
+主な成果は、ウェブ経由で貨物トラックを追跡する遠隔測定システムのプロトタイプでした。重量と位置のデータは、インターネットにアクセスできるあらゆるデバイスから Web サイトを通じてアクセスできます。
+予備的なフィールドテストにより、提案されたシステムが効率的で低コストのオプションであることが示されました。
 
 {{</citation>}}
 
@@ -1940,7 +2861,7 @@ Merle M. Reimann, Florian A. Kunneman, Catharine Oertel, Koen V. Hindriks. (2023
 **A Survey on Dialogue Management in Human-Robot Interaction**  
 
 ---
-Primary Category: cs.RO
+Primary Category: cs.RO  
 Categories: cs-HC, cs-RO, cs.RO  
 Keywords: Dialog, Dialogue  
 [Paper Link](http://arxiv.org/abs/2307.10897v1)  
@@ -1950,6 +2871,14 @@ Keywords: Dialog, Dialogue
 
 **ABSTRACT**  
 As social robots see increasing deployment within the general public, improving the interaction with those robots is essential. Spoken language offers an intuitive interface for the human-robot interaction (HRI), with dialogue management (DM) being a key component in those interactive systems. Yet, to overcome current challenges and manage smooth, informative and engaging interaction a more structural approach to combining HRI and DM is needed. In this systematic review, we analyse the current use of DM in HRI and focus on the type of dialogue manager used, its capabilities, evaluation methods and the challenges specific to DM in HRI. We identify the challenges and current scientific frontier related to the DM approach, interaction domain, robot appearance, physical situatedness and multimodality.
+
+---
+
+ソーシャル ロボットの一般社会への導入が進むにつれ、それらのロボットとのインタラクションを改善することが不可欠です。
+音声言語は、ヒューマン ロボット インタラクション (HRI) のための直観的なインターフェイスを提供し、対話管理 (DM) はこれらのインタラクティブ システムの重要なコンポーネントです。
+しかし、現在の課題を克服し、スムーズで有益で魅力的なインタラクションを管理するには、HRI と DM を組み合わせるためのより構造的なアプローチが必要です。
+この系統的レビューでは、HRI における DM の現在の使用状況を分析し、使用されている対話マネージャーの種類、その能力、評価方法、および HRI における DM に特有の課題に焦点を当てます。
+私たちは、DM アプローチ、インタラクション領域、ロボットの外観、物理的位置、マルチモダリティに関連する課題と現在の科学のフロンティアを特定します。
 
 {{</citation>}}
 
@@ -1962,7 +2891,7 @@ Zhifeng Qian, Mingyu You, Hongjun Zhou, Xuanhui Xu, Bin He. (2023)
 **Goal-Conditioned Reinforcement Learning with Disentanglement-based Reachability Planning**  
 
 ---
-Primary Category: cs.RO
+Primary Category: cs.RO  
 Categories: cs-AI, cs-RO, cs.RO  
 Keywords: Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2307.10846v1)  
@@ -1972,6 +2901,22 @@ Keywords: Reinforcement Learning
 
 **ABSTRACT**  
 Goal-Conditioned Reinforcement Learning (GCRL) can enable agents to spontaneously set diverse goals to learn a set of skills. Despite the excellent works proposed in various fields, reaching distant goals in temporally extended tasks remains a challenge for GCRL. Current works tackled this problem by leveraging planning algorithms to plan intermediate subgoals to augment GCRL. Their methods need two crucial requirements: (i) a state representation space to search valid subgoals, and (ii) a distance function to measure the reachability of subgoals. However, they struggle to scale to high-dimensional state space due to their non-compact representations. Moreover, they cannot collect high-quality training data through standard GC policies, which results in an inaccurate distance function. Both affect the efficiency and performance of planning and policy learning. In the paper, we propose a goal-conditioned RL algorithm combined with Disentanglement-based Reachability Planning (REPlan) to solve temporally extended tasks. In REPlan, a Disentangled Representation Module (DRM) is proposed to learn compact representations which disentangle robot poses and object positions from high-dimensional observations in a self-supervised manner. A simple REachability discrimination Module (REM) is also designed to determine the temporal distance of subgoals. Moreover, REM computes intrinsic bonuses to encourage the collection of novel states for training. We evaluate our REPlan in three vision-based simulation tasks and one real-world task. The experiments demonstrate that our REPlan significantly outperforms the prior state-of-the-art methods in solving temporally extended tasks.
+
+---
+
+目標条件付き強化学習 (GCRL) を使用すると、エージェントは一連のスキルを学習するためのさまざまな目標を自発的に設定できます。
+さまざまな分野で優れた研究が提案されているにもかかわらず、時間的に延長されたタスクで遠い目標を達成することは、GCRL にとって依然として課題です。
+現在の研究では、計画アルゴリズムを活用して中間サブ目標を計画し、GCRL を強化することで、この問題に取り組んでいます。
+彼らの方法には、(i) 有効なサブゴールを検索するための状態表現空間、および (ii) サブゴールの到達可能性を測定するための距離関数という 2 つの重要な要件が必要です。
+ただし、表現がコンパクトではないため、高次元の状態空間にスケールするのに苦労します。
+さらに、標準の GC ポリシーでは高品質のトレーニング データを収集できないため、距離関数が不正確になります。
+どちらも計画とポリシー学習の効率とパフォーマンスに影響します。
+この論文では、時間的に延長されたタスクを解決するために、解絡ベースの到達可能性計画 (REPlan) と組み合わせた目標条件付き RL アルゴリズムを提案します。
+REPlan では、自己教師ありの方法で高次元の観察からロボットのポーズとオブジェクトの位置を解きほぐすコンパクトな表現を学習するための解きほぐし表現モジュール (DRM) が提案されています。
+単純な到達可能性識別モジュール (REM) も、サブゴールの時間的距離を決定するように設計されています。
+さらに、REM は固有のボーナスを計算して、トレーニング用の新しい状態の収集を促進します。
+REPlan を 3 つのビジョンベースのシミュレーション タスクと 1 つの現実世界のタスクで評価します。
+実験は、私たちの REPlan が、時間的に延長されたタスクを解決する際に、従来の最先端の方法よりも大幅に優れていることを示しています。
 
 {{</citation>}}
 
@@ -1984,7 +2929,7 @@ Paolo Franceschi, Fabio Bertini, Francesco Braghin, Loris Roveda, Nicola Pedrocc
 **Predicting human motion intention for pHRI assistive control**  
 
 ---
-Primary Category: cs.RO
+Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: LSTM  
 [Paper Link](http://arxiv.org/abs/2307.10743v1)  
@@ -1994,6 +2939,19 @@ Keywords: LSTM
 
 **ABSTRACT**  
 This work addresses human intention identification during physical Human-Robot Interaction (pHRI) tasks to include this information in an assistive controller. To this purpose, human intention is defined as the desired trajectory that the human wants to follow over a finite rolling prediction horizon so that the robot can assist in pursuing it. This work investigates a Recurrent Neural Network (RNN), specifically, Long-Short Term Memory (LSTM) cascaded with a Fully Connected layer. In particular, we propose an iterative training procedure to adapt the model. Such an iterative procedure is powerful in reducing the prediction error. Still, it has the drawback that it is time-consuming and does not generalize to different users or different co-manipulated objects. To overcome this issue, Transfer Learning (TL) adapts the pre-trained model to new trajectories, users, and co-manipulated objects by freezing the LSTM layer and fine-tuning the last FC layer, which makes the procedure faster. Experiments show that the iterative procedure adapts the model and reduces prediction error. Experiments also show that TL adapts to different users and to the co-manipulation of a large object. Finally, to check the utility of adopting the proposed method, we compare the proposed controller enhanced by the intention prediction with the other two standard controllers of pHRI.
+
+---
+
+この研究では、物理的なヒューマン ロボット インタラクション (pHRI) タスク中の人間の意図の識別に取り組み、この情報を支援コントローラーに含めます。
+この目的のために、人間の意図は、ロボットがそれを追跡するのを支援できるように、人間が有限の回転予測範囲にわたってたどりたい望ましい軌道として定義されます。
+この研究では、リカレント ニューラル ネットワーク (RNN)、特に完全接続層とカスケードされた長期短期記憶 (LSTM) を調査します。
+特に、モデルを適応させるための反復トレーニング手順を提案します。
+このような反復手順は、予測誤差を減らすのに強力です。
+それでも、時間がかかり、さまざまなユーザーやさまざまな共同操作対象オブジェクトに一般化できないという欠点があります。
+この問題を解決するために、転移学習 (TL) は、LSTM 層をフリーズし、最後の FC 層を微調整することで、事前トレーニングされたモデルを新しい軌道、ユーザー、および共同操作されるオブジェクトに適応させ、手順を高速化します。
+実験では、反復手順によりモデルが適応され、予測誤差が減少することが示されています。
+実験では、TL がさまざまなユーザーや大きなオブジェクトの共同操作に適応することも示されています。
+最後に、提案手法の採用の有用性を確認するために、意図予測によって強化された提案コントローラを、pHRI の他の 2 つの標準コントローラと比較します。
 
 {{</citation>}}
 
@@ -2006,7 +2964,7 @@ Shimian Zhang. (2023)
 **Bridging Intelligence and Instinct: A New Control Paradigm for Autonomous Robots**  
 
 ---
-Primary Category: cs.RO
+Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10690v1)  
@@ -2016,6 +2974,15 @@ Keywords: AI
 
 **ABSTRACT**  
 As the advent of artificial general intelligence (AGI) progresses at a breathtaking pace, the application of large language models (LLMs) as AI Agents in robotics remains in its nascent stage. A significant concern that hampers the seamless integration of these AI Agents into robotics is the unpredictability of the content they generate, a phenomena known as ``hallucination''. Drawing inspiration from biological neural systems, we propose a novel, layered architecture for autonomous robotics, bridging AI agent intelligence and robot instinct. In this context, we define Robot Instinct as the innate or learned set of responses and priorities in an autonomous robotic system that ensures survival-essential tasks, such as safety assurance and obstacle avoidance, are carried out in a timely and effective manner. This paradigm harmoniously combines the intelligence of LLMs with the instinct of robotic behaviors, contributing to a more safe and versatile autonomous robotic system. As a case study, we illustrate this paradigm within the context of a mobile robot, demonstrating its potential to significantly enhance autonomous robotics and enabling a future where robots can operate independently and safely across diverse environments.
+
+---
+
+汎用人工知能 (AGI) の出現が驚くべきペースで進む中、ロボット工学における AI エージェントとしての大規模言語モデル (LLM) の応用はまだ初期段階にあります。
+これらの AI エージェントのロボット工学へのシームレスな統合を妨げる重大な懸念は、AI エージェントが生成するコンテンツの予測不可能性、つまり「幻覚」として知られる現象です。
+生物学的神経システムからインスピレーションを得て、私たちは、AI エージェントの知能とロボットの本能を橋渡しする、自律型ロボット工学のための新しい階層型アーキテクチャを提案します。
+これに関連して、私たちはロボットの本能を、安全性の確保や障害物の回避などの生存に不可欠なタスクがタイムリーかつ効果的に実行されることを保証する自律ロボット システムにおける生得的または学習された一連の反応と優先順位として定義します。
+このパラダイムは、LLM の知能とロボットの行動の本能を調和して組み合わせ、より安全で多用途な自律ロボット システムに貢献します。
+ケーススタディとして、移動ロボットのコンテキスト内でこのパラダイムを説明し、自律ロボット工学を大幅に強化し、ロボットが多様な環境で独立して安全に動作できる未来を実現する可能性を実証します。
 
 {{</citation>}}
 
@@ -2032,7 +2999,7 @@ Dongwei Xiao, Zhibo Liu, Shuai Wang. (2023)
 **PHYFU: Fuzzing Modern Physics Simulation Engines**  
 
 ---
-Primary Category: cs.SE
+Primary Category: cs.SE  
 Categories: cs-SE, cs.SE  
 Keywords: Google  
 [Paper Link](http://arxiv.org/abs/2307.10818v1)  
@@ -2042,6 +3009,19 @@ Keywords: Google
 
 **ABSTRACT**  
 A physical simulation engine (PSE) is a software system that simulates physical environments and objects. Modern PSEs feature both forward and backward simulations, where the forward phase predicts the behavior of a simulated system, and the backward phase provides gradients (guidance) for learning-based control tasks, such as a robot arm learning to fetch items. This way, modern PSEs show promising support for learning-based control methods. To date, PSEs have been largely used in various high-profitable, commercial applications, such as games, movies, virtual reality (VR), and robotics. Despite the prosperous development and usage of PSEs by academia and industrial manufacturers such as Google and NVIDIA, PSEs may produce incorrect simulations, which may lead to negative results, from poor user experience in entertainment to accidents in robotics-involved manufacturing and surgical operations.   This paper introduces PHYFU, a fuzzing framework designed specifically for PSEs to uncover errors in both forward and backward simulation phases. PHYFU mutates initial states and asserts if the PSE under test behaves consistently with respect to basic Physics Laws (PLs). We further use feedback-driven test input scheduling to guide and accelerate the search for errors. Our study of four PSEs covers mainstream industrial vendors (Google and NVIDIA) as well as academic products. We successfully uncover over 5K error-triggering inputs that generate incorrect simulation results spanning across the whole software stack of PSEs.
+
+---
+
+物理シミュレーション エンジン (PSE) は、物理環境とオブジェクトをシミュレートするソフトウェア システムです。
+最新の PSE は、フォワード シミュレーションとバックワード シミュレーションの両方を備えており、フォワード フェーズではシミュレートされたシステムの動作を予測し、バックワード フェーズでは、アイテムをフェッチするロボット アームの学習など、学習ベースの制御タスクに勾配 (ガイダンス) を提供します。
+このようにして、最新の PSE は学習ベースの制御手法に対する有望なサポートを示しています。
+これまで、PSE は主に、ゲーム、映画、仮想現実 (VR)、ロボット工学など、収益性の高いさまざまな商用アプリケーションで使用されてきました。
+Google や NVIDIA などの学界や産業メーカーによる PSE の開発と使用が盛んに行われているにもかかわらず、PSE は不正確なシミュレーションを生成する可能性があり、それがエンターテインメントにおける質の悪いユーザー エクスペリエンスから、ロボット関連の製造や外科手術での事故に至るまで、マイナスの結果につながる可能性があります。
+  このペーパーでは、前方シミュレーション フェーズと後方シミュレーション フェーズの両方でエラーを発見するために PSE 向けに特別に設計されたファジング フレームワークである PHYFU を紹介します。
+PHYFU は初期状態を変更し、テスト対象の PSE が基本的な物理法則 (PL) に関して一貫して動作するかどうかをアサートします。
+さらに、フィードバック主導のテスト入力スケジューリングを使用して、エラーの検索をガイドし、加速します。
+4 つの PSE に関する私たちの調査では、学術製品だけでなく、主流の産業ベンダー (Google と NVIDIA) も対象としています。
+私たちは、PSE のソフトウェア スタック全体にわたって不正確なシミュレーション結果を生成する 5,000 を超えるエラーを引き起こす入力を発見することに成功しました。
 
 {{</citation>}}
 
@@ -2054,7 +3034,7 @@ Patricia Widjojo, Christoph Treude. (2023)
 **Addressing Compiler Errors: Stack Overflow or Large Language Models?**  
 
 ---
-Primary Category: cs.SE
+Primary Category: cs.SE  
 Categories: cs-SE, cs.SE  
 Keywords: AI, GPT, GPT-3.5, GPT-4, Google, Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10793v1)  
@@ -2064,6 +3044,18 @@ Keywords: AI, GPT, GPT-3.5, GPT-4, Google, Language Model
 
 **ABSTRACT**  
 Compiler error messages serve as an initial resource for programmers dealing with compilation errors. However, previous studies indicate that they often lack sufficient targeted information to resolve code issues. Consequently, programmers typically rely on their own research to fix errors. Historically, Stack Overflow has been the primary resource for such information, but recent advances in large language models offer alternatives. This study systematically examines 100 compiler error messages from three sources to determine the most effective approach for programmers encountering compiler errors. Factors considered include Stack Overflow search methods and the impact of model version and prompt phrasing when using large language models. The results reveal that GPT-4 outperforms Stack Overflow in explaining compiler error messages, the effectiveness of adding code snippets to Stack Overflow searches depends on the search method, and results for Stack Overflow differ significantly between Google and StackExchange API searches. Furthermore, GPT-4 surpasses GPT-3.5, with "How to fix" prompts yielding superior outcomes to "What does this error mean" prompts. These results offer valuable guidance for programmers seeking assistance with compiler error messages, underscoring the transformative potential of advanced large language models like GPT-4 in debugging and opening new avenues of exploration for researchers in AI-assisted programming.
+
+---
+
+コンパイラ エラー メッセージは、コンパイル エラーに対処するプログラマにとっての最初のリソースとして機能します。
+ただし、以前の研究では、コードの問題を解決するのに十分な対象情報が不足していることが多いことが示されています。
+したがって、プログラマーは通常、エラーを修正するために自分自身の調査に依存します。
+歴史的には、Stack Overflow がそのような情報の主要なリソースでしたが、大規模な言語モデルの最近の進歩により、代替手段が提供されています。
+この調査では、コンパイラ エラーが発生したプログラマにとって最も効果的なアプローチを決定するために、3 つのソースからの 100 個のコンパイラ エラー メッセージを体系的に調査しました。
+考慮される要素には、スタック オーバーフローの検索方法、大規模な言語モデルを使用する場合のモデルのバージョンとプロンプトの表現の影響が含まれます。
+その結果、GPT-4 はコンパイラ エラー メッセージの説明において Stack Overflow より優れていること、Stack Overflow 検索にコード スニペットを追加する効果は検索方法に依存すること、Stack Overflow の結果が Google 検索と StackExchange API 検索で大きく異なることが明らかになりました。
+さらに、GPT-4 は GPT-3.5 を上回り、「修正方法」プロンプトが「このエラーの意味」プロンプトよりも優れた結果をもたらします。
+これらの結果は、コンパイラ エラー メッセージに関する支援を求めているプログラマに貴重な指針を提供し、デバッグにおける GPT-4 のような高度な大規模言語モデルの変革の可能性を強調し、AI 支援プログラミングの研究者に新たな探索の道を切り開きます。
 
 {{</citation>}}
 
@@ -2076,7 +3068,7 @@ Fabio Calefato, Luigi Quaranta, Filippo Lanubile, Marcos Kalinowski. (2023)
 **Assessing the Use of AutoML for Data-Driven Software Engineering**  
 
 ---
-Primary Category: cs.SE
+Primary Category: cs.SE  
 Categories: cs-LG, cs-SE, cs.SE  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10774v1)  
@@ -2086,6 +3078,21 @@ Keywords: AI
 
 **ABSTRACT**  
 Background. Due to the widespread adoption of Artificial Intelligence (AI) and Machine Learning (ML) for building software applications, companies are struggling to recruit employees with a deep understanding of such technologies. In this scenario, AutoML is soaring as a promising solution to fill the AI/ML skills gap since it promises to automate the building of end-to-end AI/ML pipelines that would normally be engineered by specialized team members. Aims. Despite the growing interest and high expectations, there is a dearth of information about the extent to which AutoML is currently adopted by teams developing AI/ML-enabled systems and how it is perceived by practitioners and researchers. Method. To fill these gaps, in this paper, we present a mixed-method study comprising a benchmark of 12 end-to-end AutoML tools on two SE datasets and a user survey with follow-up interviews to further our understanding of AutoML adoption and perception. Results. We found that AutoML solutions can generate models that outperform those trained and optimized by researchers to perform classification tasks in the SE domain. Also, our findings show that the currently available AutoML solutions do not live up to their names as they do not equally support automation across the stages of the ML development workflow and for all the team members. Conclusions. We derive insights to inform the SE research community on how AutoML can facilitate their activities and tool builders on how to design the next generation of AutoML technologies.
+
+---
+
+バックグラウンド。
+ソフトウェア アプリケーションの構築に人工知能 (AI) と機械学習 (ML) が広く採用されているため、企業はそのようなテクノロジーを深く理解している従業員を採用するのに苦労しています。
+このシナリオでは、AutoML は、通常は専門のチーム メンバーによって設計されるエンドツーエンドの AI/ML パイプラインの構築を自動化することが約束されているため、AI/ML のスキル ギャップを埋める有望なソリューションとして急上昇しています。
+目的。
+関心と高い期待が高まっているにもかかわらず、AutoML が現在 AI/ML 対応システムを開発するチームにどの程度採用されているか、また実践者や研究者によって AutoML がどのように認識されているかについての情報は不足しています。
+方法。
+これらのギャップを埋めるために、このホワイト ペーパーでは、2 つの SE データセットに対する 12 のエンドツーエンド AutoML ツールのベンチマークと、AutoML の導入と認識についての理解を深めるためのフォローアップ インタビューを含むユーザー調査からなる混合手法の調査を紹介します。
+結果。
+AutoML ソリューションは、SE ドメインで分類タスクを実行するために研究者によってトレーニングおよび最適化されたモデルよりも優れたパフォーマンスを発揮するモデルを生成できることがわかりました。
+また、私たちの調査結果では、現在利用可能な AutoML ソリューションは、ML 開発ワークフローの各段階およびすべてのチーム メンバーに対して均等に自動化をサポートしていないため、その名前にふさわしいものではないことも示しています。
+結論。
+私たちは、AutoML が活動をどのように促進できるかについて SE 研究コミュニティに情報を提供するための洞察を導き出し、次世代の AutoML テクノロジーを設計する方法についてツールビルダーに情報を提供します。
 
 {{</citation>}}
 
@@ -2102,7 +3109,7 @@ Ankur Sikarwar, Mengmi Zhang. (2023)
 **Decoding the Enigma: Benchmarking Humans and AIs on the Many Facets of Working Memory**  
 
 ---
-Primary Category: q-bio.NC
+Primary Category: q-bio.NC  
 Categories: cs-AI, cs-CV, cs-LG, q-bio-NC, q-bio.NC  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10768v1)  
@@ -2112,6 +3119,19 @@ Keywords: AI
 
 **ABSTRACT**  
 Working memory (WM), a fundamental cognitive process facilitating the temporary storage, integration, manipulation, and retrieval of information, plays a vital role in reasoning and decision-making tasks. Robust benchmark datasets that capture the multifaceted nature of WM are crucial for the effective development and evaluation of AI WM models. Here, we introduce a comprehensive Working Memory (WorM) benchmark dataset for this purpose. WorM comprises 10 tasks and a total of 1 million trials, assessing 4 functionalities, 3 domains, and 11 behavioral and neural characteristics of WM. We jointly trained and tested state-of-the-art recurrent neural networks and transformers on all these tasks. We also include human behavioral benchmarks as an upper bound for comparison. Our results suggest that AI models replicate some characteristics of WM in the brain, most notably primacy and recency effects, and neural clusters and correlates specialized for different domains and functionalities of WM. In the experiments, we also reveal some limitations in existing models to approximate human behavior. This dataset serves as a valuable resource for communities in cognitive psychology, neuroscience, and AI, offering a standardized framework to compare and enhance WM models, investigate WM's neural underpinnings, and develop WM models with human-like capabilities. Our source code and data are available at https://github.com/ZhangLab-DeepNeuroCogLab/WorM.
+
+---
+
+作業記憶 (WM) は、情報の一時的な保存、統合、操作、検索を促進する基本的な認知プロセスであり、推論や意思決定のタスクにおいて重要な役割を果たします。
+AI WM モデルの効果的な開発と評価には、WM の多面的な性質を捉える堅牢なベンチマーク データセットが不可欠です。
+ここでは、この目的のための包括的なワーキング メモリ (WorM) ベンチマーク データセットを紹介します。
+WorM は 10 のタスクと合計 100 万のトライアルで構成され、WM の 4 つの機能、3 つのドメイン、および 11 の行動および神経特性を評価します。
+私たちは、これらすべてのタスクに関して最先端のリカレント ニューラル ネットワークとトランスフォーマーを共同でトレーニングし、テストしました。
+また、比較の上限として人間の行動ベンチマークも含めます。
+私たちの結果は、AIモデルが脳内のWMのいくつかの特徴、特に初頭性効果と最新性効果、およびWMのさまざまなドメインと機能に特化した神経クラスターと相関関係を再現していることを示唆しています。
+実験では、人間の行動を近似するための既存のモデルのいくつかの制限も明らかにしました。
+このデータセットは、認知心理学、神経科学、AI のコミュニティにとって貴重なリソースとして機能し、WM モデルを比較および強化し、WM の神経基盤を調査し、人間のような機能を備えた WM モデルを開発するための標準化されたフレームワークを提供します。
+私たちのソース コードとデータは https://github.com/ZhangLab-DeepNeuroCogLab/WorM で入手できます。
 
 {{</citation>}}
 
@@ -2128,7 +3148,7 @@ Weidong Chen, Xiaofen Xing, Peihao Chen, Xiangmin Xu. (2023)
 **Vesper: A Compact and Effective Pretrained Model for Speech Emotion Recognition**  
 
 ---
-Primary Category: cs.SD
+Primary Category: cs.SD  
 Categories: cs-CL, cs-SD, cs.SD, eess-AS  
 Keywords: Emotion Recognition  
 [Paper Link](http://arxiv.org/abs/2307.10757v1)  
@@ -2138,6 +3158,18 @@ Keywords: Emotion Recognition
 
 **ABSTRACT**  
 This paper presents a paradigm that adapts general large-scale pretrained models (PTMs) to speech emotion recognition task. Although PTMs shed new light on artificial general intelligence, they are constructed with general tasks in mind, and thus, their efficacy for specific tasks can be further improved. Additionally, employing PTMs in practical applications can be challenging due to their considerable size. Above limitations spawn another research direction, namely, optimizing large-scale PTMs for specific tasks to generate task-specific PTMs that are both compact and effective. In this paper, we focus on the speech emotion recognition task and propose an improved emotion-specific pretrained encoder called Vesper. Vesper is pretrained on a speech dataset based on WavLM and takes into account emotional characteristics. To enhance sensitivity to emotional information, Vesper employs an emotion-guided masking strategy to identify the regions that need masking. Subsequently, Vesper employs hierarchical and cross-layer self-supervision to improve its ability to capture acoustic and semantic representations, both of which are crucial for emotion recognition. Experimental results on the IEMOCAP, MELD, and CREMA-D datasets demonstrate that Vesper with 4 layers outperforms WavLM Base with 12 layers, and the performance of Vesper with 12 layers surpasses that of WavLM Large with 24 layers.
+
+---
+
+この論文では、一般的な大規模事前学習モデル (PTM) を音声感情認識タスクに適応させるパラダイムを紹介します。
+PTM は汎用人工知能に新たな光を当てますが、一般的なタスクを念頭に置いて構築されているため、特定のタスクに対する有効性をさらに向上させることができます。
+さらに、PTM はサイズが大きいため、実際のアプリケーションで使用するのは困難な場合があります。
+上記の制限により、別の研究方向が生まれました。それは、特定のタスクに合わせて大規模な PTM を最適化し、コンパクトかつ効果的なタスク固有の PTM を生成することです。
+この論文では、音声感情認識タスクに焦点を当て、Vesper と呼ばれる改良された感情固有の事前トレーニング済みエンコーダーを提案します。
+Vesper は、WavLM に基づく音声データセットで事前トレーニングされており、感情的特徴が考慮されています。
+感情情報に対する感度を高めるために、Vesper は感情に基づくマスキング戦略を採用して、マスキングが必要な領域を特定します。
+その後、Vesper は階層的およびクロスレイヤーの自己監視を採用して、感情認識にとって重要な音響表現と意味表現を捕捉する能力を向上させています。
+IEMOCAP、MELD、および CREMA-D データセットの実験結果は、4 レイヤーの Vesper が 12 レイヤーの WavLM Base よりも優れており、12 レイヤーの Vesper のパフォーマンスが 24 レイヤーの WavLM Large のパフォーマンスを上回っていることを示しています。
 
 {{</citation>}}
 
@@ -2150,7 +3182,7 @@ Daegyeom Kim, Seongho Hong, Yong-Hoon Choi. (2023)
 **SC VALL-E: Style-Controllable Zero-Shot Text to Speech Synthesizer**  
 
 ---
-Primary Category: cs.SD
+Primary Category: cs.SD  
 Categories: cs-LG, cs-SD, cs.SD, eess-AS  
 Keywords: GPT, Zero-Shot  
 [Paper Link](http://arxiv.org/abs/2307.10550v1)  
@@ -2160,6 +3192,19 @@ Keywords: GPT, Zero-Shot
 
 **ABSTRACT**  
 Expressive speech synthesis models are trained by adding corpora with diverse speakers, various emotions, and different speaking styles to the dataset, in order to control various characteristics of speech and generate the desired voice. In this paper, we propose a style control (SC) VALL-E model based on the neural codec language model (called VALL-E), which follows the structure of the generative pretrained transformer 3 (GPT-3). The proposed SC VALL-E takes input from text sentences and prompt audio and is designed to generate controllable speech by not simply mimicking the characteristics of the prompt audio but by controlling the attributes to produce diverse voices. We identify tokens in the style embedding matrix of the newly designed style network that represent attributes such as emotion, speaking rate, pitch, and voice intensity, and design a model that can control these attributes. To evaluate the performance of SC VALL-E, we conduct comparative experiments with three representative expressive speech synthesis models: global style token (GST) Tacotron2, variational autoencoder (VAE) Tacotron2, and original VALL-E. We measure word error rate (WER), F0 voiced error (FVE), and F0 gross pitch error (F0GPE) as evaluation metrics to assess the accuracy of generated sentences. For comparing the quality of synthesized speech, we measure comparative mean option score (CMOS) and similarity mean option score (SMOS). To evaluate the style control ability of the generated speech, we observe the changes in F0 and mel-spectrogram by modifying the trained tokens. When using prompt audio that is not present in the training data, SC VALL-E generates a variety of expressive sounds and demonstrates competitive performance compared to the existing models. Our implementation, pretrained models, and audio samples are located on GitHub.
+
+---
+
+表現力豊かな音声合成モデルは、音声のさまざまな特性を制御し、目的の音声を生成するために、多様な話者、さまざまな感情、さまざまな話し方を含むコーパスをデータセットに追加することによってトレーニングされます。
+この論文では、生成事前学習トランスフォーマー 3 (GPT-3) の構造に従う、ニューラル コーデック言語モデル (VALL-E と呼ばれる) に基づくスタイル コントロール (SC) VALL-E モデルを提案します。
+提案するSC VALL-Eは、テキスト文とプロンプト音声から入力を受け取り、単にプロンプ​​ト音声の特徴を模倣するのではなく、属性を制御して多様な音声を生成することにより、制御可能な音声を生成するように設計されています。
+新しく設計されたスタイルネットワークのスタイル埋め込み行列内で、感情、話す速度、ピッチ、声の強さなどの属性を表すトークンを特定し、これらの属性を制御できるモデルを設計します。
+SC VALL-E の性能を評価するために、グローバル スタイル トークン (GST) Tacotron2、変分オートエンコーダー (VAE) Tacotron2、およびオリジナルの VALL-E の 3 つの代表的な表現力豊かな音声合成モデルを使用して比較実験を行います。
+生成された文章の精度を評価するための評価指標として単語誤り率（WER）、F0有声誤り（FVE）、F0グロスピッチ誤り（F0GPE）を測定します。
+合成音声の品質を比較するために、比較平均選択肢スコア (CMOS) と類似性平均選択肢スコア (SMOS) を測定します。
+生成された音声のスタイル制御能力を評価するために、訓練されたトークンを変更することによって F0 とメル スペクトログラムの変化を観察します。
+SC VALL-Eは、学習データにはない即時音声を使用することで、多彩な表現力を発揮するサウンドを生成し、従来機種に負けない性能を発揮します。
+私たちの実装、事前トレーニングされたモデル、およびオーディオ サンプルは GitHub にあります。
 
 {{</citation>}}
 
@@ -2176,7 +3221,7 @@ Ngoc Luyen Le, Marie-Hélène Abel, Philippe Gouspillou. (2023)
 **A Constraint-based Recommender System via RDF Knowledge Graphs**  
 
 ---
-Primary Category: cs.IR
+Primary Category: cs.IR  
 Categories: cs-IR, cs.IR  
 Keywords: Knowledge Graph  
 [Paper Link](http://arxiv.org/abs/2307.10702v1)  
@@ -2186,6 +3231,16 @@ Keywords: Knowledge Graph
 
 **ABSTRACT**  
 Knowledge graphs, represented in RDF, are able to model entities and their relations by means of ontologies. The use of knowledge graphs for information modeling has attracted interest in recent years. In recommender systems, items and users can be mapped and integrated into the knowledge graph, which can represent more links and relationships between users and items. Constraint-based recommender systems are based on the idea of explicitly exploiting deep recommendation knowledge through constraints to identify relevant recommendations. When combined with knowledge graphs, a constraint-based recommender system gains several benefits in terms of constraint sets. In this paper, we investigate and propose the construction of a constraint-based recommender system via RDF knowledge graphs applied to the vehicle purchase/sale domain. The results of our experiments show that the proposed approach is able to efficiently identify recommendations in accordance with user preferences.
+
+---
+
+RDF で表現されるナレッジ グラフは、オントロジーを使用してエンティティとその関係をモデル化できます。
+情報モデリングのためのナレッジ グラフの使用は、近年関心を集めています。
+レコメンダー システムでは、アイテムとユーザーをマッピングしてナレッジ グラフに統合することができ、ユーザーとアイテムの間のより多くのリンクや関係を表すことができます。
+制約ベースのレコメンダー システムは、制約を通じて深いレコメンデーションの知識を明示的に活用して、関連するレコメンデーションを特定するという考えに基づいています。
+ナレッジ グラフと組み合わせると、制約ベースのレコメンダー システムには、制約セットに関していくつかの利点が得られます。
+この論文では、車両の購入/販売領域に適用されるRDFナレッジグラフを介した制約ベースのレコメンダーシステムの構築を調査し、提案します。
+実験の結果、提案されたアプローチがユーザーの好みに応じた推奨事項を効率的に特定できることがわかりました。
 
 {{</citation>}}
 
@@ -2198,7 +3253,7 @@ Zhipeng Zhang, Piao Tong, Yingwei Ma, Qiao Liu, Xujiang Liu, Xu Luo. (2023)
 **Language-Enhanced Session-Based Recommendation with Decoupled Contrastive Learning**  
 
 ---
-Primary Category: cs.IR
+Primary Category: cs.IR  
 Categories: cs-IR, cs.IR  
 Keywords: Contrastive Learning  
 [Paper Link](http://arxiv.org/abs/2307.10650v1)  
@@ -2208,6 +3263,19 @@ Keywords: Contrastive Learning
 
 **ABSTRACT**  
 Session-based recommendation techniques aim to capture dynamic user behavior by analyzing past interactions. However, existing methods heavily rely on historical item ID sequences to extract user preferences, leading to challenges such as popular bias and cold-start problems. In this paper, we propose a hybrid multimodal approach for session-based recommendation to address these challenges. Our approach combines different modalities, including textual content and item IDs, leveraging the complementary nature of these modalities using CatBoost. To learn universal item representations, we design a language representation-based item retrieval architecture that extracts features from the textual content utilizing pre-trained language models. Furthermore, we introduce a novel Decoupled Contrastive Learning method to enhance the effectiveness of the language representation. This technique decouples the sequence representation and item representation space, facilitating bidirectional alignment through dual-queue contrastive learning. Simultaneously, the momentum queue provides a large number of negative samples, effectively enhancing the effectiveness of contrastive learning. Our approach yielded competitive results, securing a 5th place ranking in KDD CUP 2023 Task 1. We have released the source code and pre-trained models associated with this work.
+
+---
+
+セッションベースのレコメンデーション技術は、過去のインタラクションを分析することで動的なユーザー行動を捉えることを目的としています。
+ただし、既存の方法では、ユーザーの好みを抽出するために過去のアイテム ID シーケンスに大きく依存しており、一般的なバイアスやコールドスタートの問題などの課題が発生しています。
+この論文では、これらの課題に対処するために、セッションベースのレコメンデーションのためのハイブリッド マルチモーダル アプローチを提案します。
+私たちのアプローチは、テキスト コンテンツやアイテム ID などのさまざまなモダリティを組み合わせ、CatBoost を使用してこれらのモダリティの補完的な性質を活用します。
+普遍的なアイテム表現を学習するために、事前にトレーニングされた言語モデルを利用してテキスト コンテンツから特徴を抽出する、言語表現ベースのアイテム検索アーキテクチャを設計します。
+さらに、言語表現の有効性を高めるための新しい分離対照学習法を導入します。
+この手法は、シーケンス表現とアイテム表現の空間を分離し、デュアルキューの対照学習による双方向のアライメントを容易にします。
+同時に、モメンタム キューは多数のネガティブ サンプルを提供し、対比学習の有効性を効果的に高めます。
+私たちのアプローチは競争力のある結果をもたらし、KDD CUP 2023 タスク 1 でランキング 5 位を獲得しました。
+この作業に関連するソースコードと事前トレーニング済みモデルを公開しました。
 
 {{</citation>}}
 
@@ -2220,7 +3288,7 @@ Ngoc Luyen Le, Marie-Hélène Abel, Philippe Gouspillou. (2023)
 **Improving Semantic Similarity Measure Within a Recommender System Based-on RDF Graphs**  
 
 ---
-Primary Category: cs.IR
+Primary Category: cs.IR  
 Categories: cs-IR, cs.IR  
 Keywords: Semantic Similarity  
 [Paper Link](http://arxiv.org/abs/2307.10639v1)  
@@ -2230,6 +3298,14 @@ Keywords: Semantic Similarity
 
 **ABSTRACT**  
 In today's era of information explosion, more users are becoming more reliant upon recommender systems to have better advice, suggestions, or inspire them. The measure of the semantic relatedness or likeness between terms, words, or text data plays an important role in different applications dealing with textual data, as in a recommender system. Over the past few years, many ontologies have been developed and used as a form of structured representation of knowledge bases for information systems. The measure of semantic similarity from ontology has developed by several methods. In this paper, we propose and carry on an approach for the improvement of semantic similarity calculations within a recommender system based-on RDF graphs.
+
+---
+
+今日の情報爆発の時代では、より多くのユーザーが、より良いアドバイスや提案、インスピレーションを得るためにレコメンダー システムに依存するようになっています。
+用語、単語、テキスト データ間の意味的な関連性や類似性の尺度は、レコメンダ システムなど、テキスト データを扱うさまざまなアプリケーションで重要な役割を果たします。
+過去数年間にわたって、情報システムの知識ベースの構造化表現の形式として多くのオントロジーが開発され、使用されてきました。
+オントロジーからの意味的類似性の尺度は、いくつかの方法によって開発されました。
+この論文では、RDF グラフに基づいたレコメンダー システム内の意味的類似性計算を改善するためのアプローチを提案し、実行します。
 
 {{</citation>}}
 
@@ -2246,7 +3322,7 @@ Musa Nuri Ihtiyar, Arzucan Ozgur. (2023)
 **Generative Language Models on Nucleotide Sequences of Human Genes**  
 
 ---
-Primary Category: q-bio.GN
+Primary Category: q-bio.GN  
 Categories: cs-CL, cs-LG, q-bio-GN, q-bio.GN  
 Keywords: BERT, GPT, Language Model, NLP, NLU  
 [Paper Link](http://arxiv.org/abs/2307.10634v1)  
@@ -2256,6 +3332,22 @@ Keywords: BERT, GPT, Language Model, NLP, NLU
 
 **ABSTRACT**  
 Language models, primarily transformer-based ones, obtained colossal success in NLP. To be more precise, studies like BERT in NLU and works such as GPT-3 for NLG are very crucial. DNA sequences are very close to natural language in terms of structure, so if the DNA-related bioinformatics domain is concerned, discriminative models, like DNABert, exist. Yet, the generative side of the coin is mainly unexplored to the best of our knowledge. Consequently, we focused on developing an autoregressive generative language model like GPT-3 for DNA sequences. Because working with whole DNA sequences is challenging without substantial computational resources, we decided to carry out our study on a smaller scale, focusing on nucleotide sequences of human genes, unique parts in DNA with specific functionalities, instead of the whole DNA. This decision did not change the problem structure a lot due to the fact that both DNA and genes can be seen as 1D sequences consisting of four different nucleotides without losing much information and making too much simplification. First of all, we systematically examined an almost entirely unexplored problem and observed that RNNs performed the best while simple techniques like N-grams were also promising. Another beneficial point was learning how to work with generative models on languages we do not understand, unlike natural language. How essential using real-life tasks beyond the classical metrics such as perplexity is observed. Furthermore, checking whether the data-hungry nature of these models can be changed through selecting a language with minimal vocabulary size, four owing to four different types of nucleotides, is examined. The reason for reviewing this was that choosing such a language might make the problem easier. However, what we observed in this study was it did not provide that much of a change in the amount of data needed.
+
+---
+
+言語モデル、主にトランスフォーマーベースの言語モデルは、NLP において大きな成功を収めました。
+より正確に言えば、NLU における BERT のような研究や、NLG における GPT-3 などの研究は非常に重要です。
+DNA 配列は構造の点で自然言語に非常に近いため、DNA 関連のバイオインフォマティクス領域に関係する場合、DNABert のような識別モデルが存在します。
+しかし、コインの生成的な側面は、私たちの知る限りほとんど解明されていません。
+その結果、私たちは DNA 配列に対する GPT-3 のような自己回帰生成言語モデルの開発に焦点を当てました。
+DNA 配列全体を扱うことは、十分な計算リソースがなければ困難であるため、DNA 全体ではなく、ヒト遺伝子のヌクレオチド配列、つまり特定の機能を持つ DNA のユニークな部分に焦点を当てて、より小規模な研究を実行することにしました。
+この決定は、DNA と遺伝子の両方が、多くの情報を失ったり過度に単純化したりすることなく、4 つの異なるヌクレオチドからなる 1D 配列として見ることができるという事実により、問題の構造を大きく変えることはありませんでした。
+まず第一に、私たちはほぼ完全に未解明の問題を体系的に調査し、RNN が最高のパフォーマンスを発揮する一方、N グラムのような単純な手法も有望であることを観察しました。
+もう 1 つの有益な点は、自然言語とは異なり、私たちが理解できない言語で生成モデルを操作する方法を学んだことです。
+複雑さなどの古典的な指標を超えて、実際のタスクを使用することがいかに重要であるかが観察されます。
+さらに、これらのモデルのデータを大量に消費する性質が、4 つの異なるタイプのヌクレオチドに起因する最小語彙サイズの言語を選択することによって変更できるかどうかを確認することが検討されています。
+これを見直した理由は、そのような言語を選択すると問題が簡単になる可能性があるためです。
+ただし、この研究で観察されたのは、必要なデータ量にそれほど大きな変化は生じないということでした。
 
 {{</citation>}}
 
@@ -2272,7 +3364,7 @@ Praveen Venkatesh, Corbett Bennett, Sam Gale, Tamina K. Ramirez, Greggory Heller
 **Gaussian Partial Information Decomposition: Bias Correction and Application to High-dimensional Data**  
 
 ---
-Primary Category: cs.IT
+Primary Category: cs.IT  
 Categories: cs-IT, cs.IT, math-IT, q-bio-NC  
 Keywords: Bias  
 [Paper Link](http://arxiv.org/abs/2307.10515v1)  
@@ -2282,6 +3374,17 @@ Keywords: Bias
 
 **ABSTRACT**  
 Recent advances in neuroscientific experimental techniques have enabled us to simultaneously record the activity of thousands of neurons across multiple brain regions. This has led to a growing need for computational tools capable of analyzing how task-relevant information is represented and communicated between several brain regions. Partial information decompositions (PIDs) have emerged as one such tool, quantifying how much unique, redundant and synergistic information two or more brain regions carry about a task-relevant message. However, computing PIDs is computationally challenging in practice, and statistical issues such as the bias and variance of estimates remain largely unexplored. In this paper, we propose a new method for efficiently computing and estimating a PID definition on multivariate Gaussian distributions. We show empirically that our method satisfies an intuitive additivity property, and recovers the ground truth in a battery of canonical examples, even at high dimensionality. We also propose and evaluate, for the first time, a method to correct the bias in PID estimates at finite sample sizes. Finally, we demonstrate that our Gaussian PID effectively characterizes inter-areal interactions in the mouse brain, revealing higher redundancy between visual areas when a stimulus is behaviorally relevant.
+
+---
+
+神経科学実験技術の最近の進歩により、複数の脳領域にわたる数千のニューロンの活動を同時に記録できるようになりました。
+このため、タスク関連情報がどのように表現され、複数の脳領域間で伝達されるかを分析できる計算ツールの必要性が高まっています。
+部分情報分解 (PID) はそのようなツールの 1 つとして登場し、2 つ以上の脳領域がタスク関連のメッセージを運ぶ固有の、冗長な、相乗的な情報の量を定量化します。
+ただし、PID の計算は実際には計算が難しく、推定値の偏りや分散などの統計的問題はほとんど解明されていないままです。
+この論文では、多変量ガウス分布の PID 定義を効率的に計算および推定するための新しい方法を提案します。
+我々は、我々の方法が直観的な相加性特性を満たし、高次元であっても一連の標準的な例の中でグランドトゥルースを回復できることを経験的に示します。
+また、有限サンプルサイズにおける PID 推定値の偏りを修正する方法を初めて提案し、評価します。
+最後に、ガウス PID がマウスの脳内の領域間の相互作用を効果的に特徴付け、刺激が行動に関連する場合の視覚領域間のより高い冗長性を明らかにすることを実証します。
 
 {{</citation>}}
 
@@ -2298,7 +3401,7 @@ Subhashis Suara, Aayush Jha, Pratik Sinha, Arif Ahmed Sekh. (2023)
 **Is Grad-CAM Explainable in Medical Images?**  
 
 ---
-Primary Category: eess.IV
+Primary Category: eess.IV  
 Categories: cs-CV, cs-CY, eess-IV, eess.IV  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10506v1)  
@@ -2308,5 +3411,14 @@ Keywords: AI
 
 **ABSTRACT**  
 Explainable Deep Learning has gained significant attention in the field of artificial intelligence (AI), particularly in domains such as medical imaging, where accurate and interpretable machine learning models are crucial for effective diagnosis and treatment planning. Grad-CAM is a baseline that highlights the most critical regions of an image used in a deep learning model's decision-making process, increasing interpretability and trust in the results. It is applied in many computer vision (CV) tasks such as classification and explanation. This study explores the principles of Explainable Deep Learning and its relevance to medical imaging, discusses various explainability techniques and their limitations, and examines medical imaging applications of Grad-CAM. The findings highlight the potential of Explainable Deep Learning and Grad-CAM in improving the accuracy and interpretability of deep learning models in medical imaging. The code is available in (will be available).
+
+---
+
+Explainable Deep Learning は、人工知能 (AI) の分野、特に医療画像などの分野で大きな注目を集めており、効果的な診断と治療計画には正確で解釈可能な機械学習モデルが不可欠です。
+Grad-CAM は、深層学習モデルの意思決定プロセスで使用される画像の最も重要な領域を強調表示し、結果の解釈可能性と信頼性を高めるベースラインです。
+分類や説明など、多くのコンピューター ビジョン (CV) タスクに適用されます。
+この研究では、Explainable Deep Learning の原理と医療画像処理との関連性を調査し、さまざまな説明可能技術とその限界について議論し、Grad-CAM の医療画像処理アプリケーションを検討します。
+この調査結果は、医療画像におけるディープラーニングモデルの精度と解釈可能性を向上させる上で、Explainable Deep Learning と Grad-CAM の可能性を強調しています。
+コードはで入手可能です（入手可能になります）。
 
 {{</citation>}}

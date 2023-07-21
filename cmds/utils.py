@@ -20,6 +20,7 @@ from urllib.error import HTTPError, URLError
 import numpy as np
 import requests
 from attrdict import AttrDict
+from googletrans import Translator
 from PIL import Image, ImageDraw, ImageFont
 from pypdf import PdfReader
 from sumeval.metrics.rouge import RougeCalculator
@@ -130,6 +131,13 @@ class Paper(object):
             author_text = self.authors[0].name.replace('"', "'") + " et al."
         title_text = self.title.replace('"', "'")
         title = f"{title_text} ({author_text}, {self.year})"
+
+        try:
+            translator = Translator()
+            abstract_ja = translator.translate(self.abstract, dest="ja").text
+        except Exception:
+            abstract_ja = ""
+
         content = f"""
 {", ".join([author.name for author in self.authors]) + f". ({self.year})  "}
 **{title_text}**{"  "}
@@ -145,6 +153,10 @@ Keywords: {", ".join(sorted(self.keywords))}{"  "}
 
 {"**ABSTRACT**  " if self.has_abstract else ""}
 {self.abstract.replace(os.linesep, " ").strip() if self.has_abstract else ""}
+
+---
+
+{abstract_ja}
 """
 
         return title, content
