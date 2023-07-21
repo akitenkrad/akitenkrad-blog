@@ -1,3 +1,4 @@
+import io
 import json
 import os
 import re
@@ -7,7 +8,8 @@ import time
 import urllib.parse
 import urllib.request
 from collections import namedtuple
-from datetime import datetime, timedelta, timezone
+from dataclasses import dataclass, field
+from datetime import date, datetime, timedelta, timezone
 from enum import Enum
 from io import TextIOWrapper
 from os import PathLike
@@ -15,169 +17,137 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, TextIO
 from urllib.error import HTTPError, URLError
 
+import numpy as np
+import requests
 from attrdict import AttrDict
+from PIL import Image, ImageDraw, ImageFont
+from pypdf import PdfReader
 from sumeval.metrics.rouge import RougeCalculator
 from tqdm import tqdm
 
-Author = namedtuple("Author", ("author_id", "name"))
-RefPaper = namedtuple("RefPaper", ("paper_id", "title"))
+
+@dataclass
+class Author(object):
+    ss_author_id: str
+    name: str
+
+    def to_dict(self) -> dict[str, Any]:
+        return {"author_id": self.ss_author_id, "name": self.name}
+
+    @staticmethod
+    def from_dict(dict_data: dict[str, Any]):
+        return Author(**dict_data)
 
 
+@dataclass
+class RefPaper(object):
+    ss_paper_id: str
+    title: str
+
+    def to_dict(self) -> dict[str, Any]:
+        return {"paper_id": self.ss_paper_id, "title": self.title}
+
+    @staticmethod
+    def from_dict(dict_data: dict[str, Any]):
+        return RefPaper(**dict_data)
+
+
+@dataclass
 class Paper(object):
-    def __init__(self, **kwargs):
-        for key, value in kwargs.items():
-            if value is not None:
-                setattr(self, f"__{key}", value)
-
-        self.__at = datetime.now(timezone(timedelta(hours=9), "JST")).timestamp()
-
-    def __get(self, key: str, default: Any) -> Any:
-        value = getattr(self, key) if hasattr(self, key) else default
-        if value is None:
-            return default
-        else:
-            return value
-
-    def __filter_none(self, value: Any, default: Any = ""):
-        if value is None:
-            return default
-        else:
-            return value
-
-    def add_fields(self, **kwargs):
-        for key, value in kwargs.items():
-            if value is not None:
-                setattr(self, f"__{key}", value)
-
-    @property
-    def paper_id(self) -> str:
-        """paper id from SemanticScholar"""
-        return self.__get("__paperId", default="")
-
-    @property
-    def url(self) -> str:
-        """url from SemanticScholar"""
-        return self.__get("__url", default="")
-
-    @property
-    def title(self) -> str:
-        """title from SemanticScholar"""
-        return self.__get("__title", default="")
-
-    @property
-    def abstract(self) -> str:
-        """abstract from SemanticScholar"""
-        return self.__get("__abstract", default="")
+    title: str
+    abstract: str = ""
+    venue: str = ""
+    year: int = 2999
+    article: str = ""
+    paper_id: str = ""
+    arxiv_id: str = ""
+    url: str = ""
+    pdf_url: str = ""
+    primary_category: str = ""
+    authors: list[Author] = field(default_factory=list)
+    citations: list[RefPaper] = field(default_factory=list)
+    references: list[RefPaper] = field(default_factory=list)
+    categories: list[str] = field(default_factory=list)
+    keywords: list[str] = field(default_factory=list)
+    reference_count: int = 0
+    citation_count: int = 0
+    influential_citation_count: int = 0
+    fields_of_study: list[str] = field(default_factory=list)
+    introduction_summary: str = ""
+    at: float = field(default_factory=lambda: datetime.now(timezone(timedelta(hours=9), "JST")).timestamp())
 
     @property
     def has_abstract(self) -> bool:
-        abstract = self.abstract.strip()
-        return len(abstract) > 0
-
-    @property
-    def venue(self) -> str:
-        """venue from SemanticScholar"""
-        return self.__get("__venue", default="")
-
-    @property
-    def year(self) -> int:
-        """year from SemanticScholar"""
-        return int(self.__get("__year", default=-1))
-
-    @property
-    def reference_count(self) -> int:
-        """reference count from SemanticScholar"""
-        return int(self.__get("__referenceCount", default=0))
-
-    @property
-    def citation_count(self) -> int:
-        """citation count from SemanticScholar"""
-        return int(self.__get("__citationCount", default=0))
-
-    @property
-    def influential_citation_count(self) -> int:
-        """influential citation count from SemanticScholar"""
-        return int(self.__get("__influentialCitationCount", default=0))
-
-    @property
-    def is_open_access(self) -> bool:
-        """is open access from SemanticScholar"""
-        return self.__get("__isOpenAccess", default=False)
-
-    @property
-    def fields_of_study(self) -> List[str]:
-        """fields of study from SemanticScholar"""
-        return self.__get("__fieldsOfStudy", default=[])
-
-    @property
-    def authors(self) -> List[Author]:
-        """authors from SemanticScholar"""
-        author_list = self.__get("__authors", default=[])
-        return [Author(self.__filter_none(a["authorId"]), self.__filter_none(a["name"])) for a in author_list]
-
-    @property
-    def citations(self) -> List[RefPaper]:
-        """citations from SemanticScholar"""
-        citation_list = self.__get("__citations", default=[])
-        return [RefPaper(p["paperId"], p["title"]) for p in citation_list]
-
-    @property
-    def references(self) -> List[RefPaper]:
-        """references from SemanticScholar"""
-        reference_list = self.__get("__references", default=[])
-        return [RefPaper(p["paperId"], p["title"]) for p in reference_list]
-
-    @property
-    def at(self) -> datetime:
-        return datetime.fromtimestamp(self.__at)
+        return len(self.abstract.strip()) > 0
 
     def __str__(self):
-        return f'<Paper id:{self.paper_id} title:{self.title[:15]}... @{self.at.strftime("%Y.%m.%d-%H:%M:%S")}>'
+        return f"<Paper title:{self.title[:15]}...>"
 
     def __repr__(self):
         return self.__str__()
 
     def to_dict(self):
         return {
-            "abstract": self.abstract,
-            "authors": [{"author_id": a.author_id, "name": a.name} for a in self.authors],
-            "citation_count": self.citation_count,
-            "citations": [{"paper_id": r.paper_id, "title": r.title} for r in self.citations if r.paper_id is not None],
-            "fields_of_study": self.fields_of_study,
-            "influential_citation_count": self.influential_citation_count,
-            "is_open_access": self.is_open_access,
+            "article": self.article,
             "paper_id": self.paper_id,
-            "reference_count": self.reference_count,
-            "references": [
-                {"paper_id": r.paper_id, "title": r.title} for r in self.references if r.paper_id is not None
-            ],
-            "title": self.title,
+            "arxiv_id": self.arxiv_id,
             "url": self.url,
+            "pdf_url": self.pdf_url,
+            "title": self.title,
+            "abstract": self.abstract,
             "venue": self.venue,
             "year": self.year,
-            "at": self.__get("__at", default=0),
+            "primary_category": self.primary_category,
+            "categories": self.categories,
+            "keywords": self.keywords,
+            "authors": [author.to_dict() for author in self.authors],
+            "citations": [ref_paper.to_dict() for ref_paper in self.citations],
+            "references": [ref_paper.to_dict() for ref_paper in self.references],
+            "reference_count": self.reference_count,
+            "citation_count": self.citation_count,
+            "influential_citation_count": self.influential_citation_count,
+            "fields_of_study": self.fields_of_study,
+            "introduction_summary:": self.introduction_summary,
+            "at": self.at,
         }
 
     @staticmethod
-    def from_dict(paper_data: dict):
-        kwargs = {
-            "paperId": paper_data["paper_id"],
-            "url": paper_data["url"],
-            "title": paper_data["title"],
-            "abstract": paper_data["abstract"],
-            "venue": paper_data["venue"],
-            "year": paper_data["year"],
-            "referenceCount": paper_data["reference_count"],
-            "citationCount": paper_data["citation_count"],
-            "influentialCitationCount": paper_data["influential_citation_count"],
-            "isOpenAccess": paper_data["is_open_access"],
-            "fieldsOfStudy": paper_data["fields_of_study"],
-            "authors": [{"authorId": a["author_id"], "name": a["name"]} for a in paper_data["authors"]],
-            "citations": [{"paperId": r["paper_id"], "title": r["title"]} for r in paper_data["citations"]],
-            "references": [{"paperId": r["paper_id"], "title": r["title"]} for r in paper_data["references"]],
-            "at": paper_data["at"],
-        }
-        return Paper(**kwargs)
+    def from_dict(dict_data: dict[str, Any]):
+        if "authors" in dict_data:
+            dict_data["authors"] = [Author.from_dict(item) for item in dict_data["authors"]]
+        if "citations" in dict_data:
+            dict_data["citations"] = [RefPaper.from_dict(item) for item in dict_data["citations"]]
+        if "references" in dict_data:
+            dict_data["references"] = [RefPaper.from_dict(item) for item in dict_data["references"]]
+
+        return Paper(**dict_data)
+
+    def generate_citation_text(self):
+        author_text = ""
+        if len(self.authors) == 1:
+            author_text = self.authors[0].name.replace('"', "'")
+        elif len(self.authors) > 1:
+            author_text = self.authors[0].name.replace('"', "'") + " et al."
+        title_text = self.title.replace('"', "'")
+        title = f"{title_text} ({author_text}, {self.year})"
+        content = f"""
+{", ".join([author.name for author in self.authors]) + f". ({self.year})  "}
+**{title_text}**{"  "}
+
+---
+Primary Category: {self.primary_category}{"  "}
+Categories: {", ".join(sorted(self.categories))}{"  "}
+Keywords: {", ".join(sorted(self.keywords))}{"  "}
+[Paper Link]({self.url}){"  "}
+
+---
+
+
+{"**ABSTRACT**  " if self.has_abstract else ""}
+{self.abstract.replace(os.linesep, " ").strip() if self.has_abstract else ""}
+"""
+
+        return title, content
 
     def print_citation(self, f: TextIOWrapper):
         author_text = ""
@@ -206,153 +176,55 @@ class Paper(object):
         f.write(re.sub(r"\n\n+", "\n", os.linesep.join(citation)))
 
 
-class SemanticScholar(object):
-    API: Dict[str, str] = {
-        "search_by_title": "https://api.semanticscholar.org/graph/v1/paper/search?{QUERY}",
-        "search_by_id": "https://api.semanticscholar.org/graph/v1/paper/{PAPER_ID}?{PARAMS}",
-    }
-    CACHE_PATH: Path = Path("__cache__/papers.pickle")
+def extract_keywords(keywords: list[str], text) -> list[str]:
+    matched_keywords = []
+    for kw in keywords:
+        if kw in text:
+            matched_keywords.append(kw)
+    return matched_keywords
 
-    def __init__(self, threshold: float = 0.95):
-        self.__api = AttrDict(self.API)
-        self.__rouge = RougeCalculator(stopwords=True, stemming=False, word_limit=-1, length_limit=-1, lang="en")
-        self.__threshold = threshold
 
-    @property
-    def threshold(self) -> float:
-        return self.__threshold
+def get_pdf_text(pdf_url: str) -> str:
+    content = io.BytesIO(requests.get(pdf_url).content)
+    reader = PdfReader(content)
+    texts = ""
+    header = True
+    for p in range(len(reader.pages)):
+        text = reader.pages[p].extract_text()
+        for line in text.split("\n"):
+            if "introduction" in line.lower():
+                header = False
+            if not header:
+                texts += line + os.linesep
+    return texts
 
-    def __retry_and_wait(self, msg: str, ex: Exception, retry: int) -> int:
-        retry += 1
-        if 5 < retry:
-            pass
-        if retry == 1:
-            msg = "\n" + msg
 
-        if isinstance(ex, socket.timeout) and ex.errno == -3:
-            time.sleep(300.0)
+class JsonEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, np.integer):
+            return int(obj)
+        elif isinstance(obj, np.floating):
+            return float(obj)
+        elif isinstance(obj, np.ndarray):
+            return obj.tolist()
+        elif hasattr(obj, "__iter__"):
+            return list(obj)
+        elif isinstance(obj, datetime):
+            return obj.strftime("%Y%m%d %H:%M:%S.%f")
+        elif isinstance(obj, date):
+            return datetime(obj.year, obj.month, obj.day, 0, 0, 0).strftime("%Y%m%d %H:%M:%S.%f")
         else:
-            time.sleep(5.0)
-        return retry
-
-    def get_paper_id(self, title: str) -> str:
-
-        # remove punctuation
-        title = title
-        for punc in string.punctuation:
-            title = title.replace(punc, " ")
-        title = re.sub(r"\s\s+", " ", title, count=1000)
-
-        retry = 0
-        while retry < 5:
-            try:
-                params = {
-                    "query": title,
-                    "fields": "title",
-                    "offset": 0,
-                    "limit": 100,
-                }
-                response = urllib.request.urlopen(
-                    self.__api.search_by_title.format(QUERY=urllib.parse.urlencode(params)), timeout=5.0
-                )
-                content = json.loads(response.read().decode("utf-8"))
-                time.sleep(3.5)
-                break
-
-            except HTTPError as ex:
-                retry = self.__retry_and_wait(f"{str(ex)} -> Retry: {retry}", ex, retry)
-            except URLError as ex:
-                retry = self.__retry_and_wait(f"{str(ex)} -> Retry: {retry}", ex, retry)
-            except socket.timeout as ex:
-                retry = self.__retry_and_wait(f"API Timeout -> Retry: {retry}", ex, retry)
-            except Exception as ex:
-                retry = self.__retry_and_wait(f"{str(ex)} -> Retry: {retry}", ex, retry)
-
-            if 5 <= retry:
-                return ""
-
-        for item in content["data"]:
-            # remove punctuation
-            ref_str = item["title"].lower()
-            for punc in string.punctuation:
-                ref_str = ref_str.replace(punc, " ")
-            ref_str = re.sub(r"\s\s+", " ", ref_str, count=1000)
-
-            score = self.__rouge.rouge_l(summary=title.lower(), references=ref_str)
-            if score > self.threshold:
-                return item["paperId"].strip()
-        return ""
-
-    def get_paper_detail(self, paper_id: str) -> Optional[Paper]:
-
-        retry = 0
-        while retry < 5:
-            try:
-                fields = [
-                    "paperId",
-                    "url",
-                    "title",
-                    "abstract",
-                    "venue",
-                    "year",
-                    "referenceCount",
-                    "citationCount",
-                    "influentialCitationCount",
-                    "isOpenAccess",
-                    "fieldsOfStudy",
-                    "authors",
-                    "citations",
-                    "references",
-                    "embedding",
-                ]
-                params = f'fields={",".join(fields)}'
-                response = urllib.request.urlopen(
-                    self.__api.search_by_id.format(PAPER_ID=paper_id, PARAMS=params), timeout=5.0
-                )
-                time.sleep(3.5)
-                break
-
-            except HTTPError as ex:
-                retry = self.__retry_and_wait(f"{str(ex)} -> Retry: {retry}", ex, retry)
-            except URLError as ex:
-                retry = self.__retry_and_wait(f"{str(ex)} -> Retry: {retry}", ex, retry)
-            except socket.timeout as ex:
-                retry = self.__retry_and_wait(f"API Timeout -> Retry: {retry}", ex, retry)
-            except Exception as ex:
-                retry = self.__retry_and_wait(f"{str(ex)} -> Retry: {retry}", ex, retry)
-
-            if 5 <= retry:
-                return None
-
-        content = json.loads(response.read().decode("utf-8"))
-        return Paper(**content)
+            return super().default(obj)
 
 
-def add_references(title: str, out_file: PathLike):
-    ss = SemanticScholar()
-    paper_id = ss.get_paper_id(title=title)
-    paper = ss.get_paper_detail(paper_id=paper_id)
+def generate_text_image(text: str, fontsize: int, out_file: str):
+    image = Image.new("RGB", (1600, 400), (255, 255, 255))
+    draw = ImageDraw.Draw(image)
+    font = ImageFont.truetype(str(Path(__file__).parent / "fonts/CodeM-Regular.ttf"), fontsize)
 
-    # Load Cache
-    cache_path = Path("__cache__/papers.json")
-    if cache_path.exists():
-        cache = json.load(open(cache_path))
-    else:
-        cache = {}
-        cache_path.parent.mkdir(parents=True, exist_ok=True)
+    x = 400
+    y = 50
 
-    # Read References
-    if paper is not None:
-        cache[paper.paper_id] = paper.to_dict()
+    draw.text((x, y), text, fill=(80, 80, 80), font=font)
 
-        with open(out_file, mode="at", encoding="utf-8") as wf:
-            for ref in tqdm(paper.references, desc="Reading references..."):
-                ref_paper = ss.get_paper_detail(ref.paper_id)
-                if ref_paper is not None:
-                    ref_paper.print_citation(wf)
-
-                    if ref_paper.paper_id not in cache:
-                        cache[ref_paper.paper_id] = ref_paper.to_dict()
-    else:
-        print("No such a paper:", title)
-    json.dump(cache, open(cache_path, mode="wt", encoding="utf-8"), ensure_ascii=False, indent=2)
+    image.save(out_file)

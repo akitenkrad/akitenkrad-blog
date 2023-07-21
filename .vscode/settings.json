@@ -6,7 +6,7 @@
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorStyle": "line",
     "editor.fontFamily": "CodeM, Utatane, HackGen, Consolas Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 22,
+    "editor.fontSize": 20,
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
     "editor.renderControlCharacters": true,
@@ -35,9 +35,9 @@
     "python.linting.flake8CategorySeverity.F": "Error",
     "python.linting.flake8CategorySeverity.E": "Error",
     "[python]": {
-        "editor.defaultFormatter": null,
+        "editor.defaultFormatter": "ms-python.black-formatter",
     },
-    "python.formatting.provider": "black",
+    "python.formatting.provider": "none",
     "python.formatting.blackPath": "black",
     "editor.codeActionsOnSave": {
         "source.organizeImports": true

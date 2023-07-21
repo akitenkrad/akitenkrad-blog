@@ -5,11 +5,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    platform: linux/amd64 # for Apple Mac M1
     user: root
     tty: true
     volumes:
       - ./:/workplace:cached
+      - /Users/akitenkrad/.ssh:/root/.ssh
     environment:
       TZ: Asia/Tokyo
     working_dir: /workplace
