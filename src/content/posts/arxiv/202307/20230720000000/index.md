@@ -52,7 +52,7 @@ Chenxin An, Shansan Gong, Ming Zhong, Mukai Li, Jun Zhang, Lingpeng Kong, Xipeng
 **L-Eval: Instituting Standardized Evaluation for Long Context Language Models**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: GLM, GPT, GPT-4, LLaMA, Language Model  
 [Paper Link](http://arxiv.org/abs/2307.11088v1)  
@@ -74,7 +74,7 @@ Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu, Hao Tian, Hua Wu, 
 **Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs-IR, cs.CL  
 Keywords: AI, Augmentation, ChatGPT, GPT, Language Model, QA  
 [Paper Link](http://arxiv.org/abs/2307.11019v1)  
@@ -96,7 +96,7 @@ Siddhant Arora, Hayato Futami, Yosuke Kashiwagi, Emiru Tsunoo, Brian Yan, Shinji
 **Integrating Pretrained ASR and LM to Perform Sequence Generation for Spoken Language Understanding**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs-SD, cs.CL, eess-AS  
 Keywords: NLU, Spoken Language Understanding  
 [Paper Link](http://arxiv.org/abs/2307.11005v1)  
@@ -118,7 +118,7 @@ Qingfa Xiao, Shuangyin Li, Lei Chen. (2023)
 **Identical and Fraternal Twins: Fine-Grained Semantic Contrastive Learning of Sentence Representations**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Contrastive Learning  
 [Paper Link](http://arxiv.org/abs/2307.10932v1)  
@@ -140,7 +140,7 @@ Zhonghao Wang. (2023)
 **MediaGPT : A Large Language Model Target Chinese Media**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: GPT, Language Model, Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10930v1)  
@@ -162,7 +162,7 @@ Seonghyeon Ye, Doyoung Kim, Sungdong Kim, Hyeonbin Hwang, Seungone Kim, Yongrae 
 **FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: AI, Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10928v1)  
@@ -184,7 +184,7 @@ Ashish Singh, Prateek Agarwal, Zixuan Huang, Arpita Singh, Tong Yu, Sungchul Kim
 **FigCaps-HF: A Figure-to-Caption Generative Framework and Benchmark with Human Feedback**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs-CV, cs-LG, cs.CL  
 Keywords: BLEU  
 [Paper Link](http://arxiv.org/abs/2307.10867v1)  
@@ -206,7 +206,7 @@ Ephrem Afele Retta, Richard Sutcliffe, Jabar Mahmood, Michael Abebe Berwo, Eiad 
 **Cross-Corpus Multilingual Speech Emotion Recognition: Amharic vs. Other Languages**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs-NE, cs-SD, cs.CL, eess-AS  
 Keywords: Emotion Recognition, Multilingual  
 [Paper Link](http://arxiv.org/abs/2307.10814v1)  
@@ -228,7 +228,7 @@ Yafang Zheng, Lei Lin, Zhaohong Lai, Binling Wang, Shan Liu, Biao Fu, Wenhao Rao
 **Layer-wise Representation Fusion for Compositional Generalization**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10799v1)  
@@ -250,7 +250,7 @@ Jens-Joris Decorte, Severine Verlinden, Jeroen Van Hautte, Johannes Deleu, Chris
 **Extreme Multi-Label Skill Extraction Training using Large Language Models**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model, NLP  
 [Paper Link](http://arxiv.org/abs/2307.10778v1)  
@@ -272,7 +272,7 @@ Hynek Kydlíček, Jindřich Libovický. (2023)
 **A Dataset and Strong Baselines for Classification of Czech News Texts**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: NER, Natural Language Processing  
 [Paper Link](http://arxiv.org/abs/2307.10666v1)  
@@ -294,7 +294,7 @@ Tim Schopf, Karim Arabi, Florian Matthes. (2023)
 **Exploring the Landscape of Natural Language Processing Research**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: I-2-7, cs-CL, cs.CL  
 Keywords: NLP, Natural Language Processing  
 [Paper Link](http://arxiv.org/abs/2307.10652v1)  
@@ -316,7 +316,7 @@ Xiaoxuan Wang, Ziniu Hu, Pan Lu, Yanqiao Zhu, Jieyu Zhang, Satyen Subramaniam, A
 **SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10635v1)  
@@ -338,7 +338,7 @@ Shriyash K. Upadhyay, Etan J. Ginsberg. (2023)
 **Multi-Method Self-Training: Improving Code Generation With Text, And Vice Versa**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10633v1)  
@@ -360,7 +360,7 @@ Anand Kumar Rai, Siddharth D Jaiswal, Animesh Mukherjee. (2023)
 **A Deep Dive into the Disparity of Word Error Rates Across Thousands of NPTEL MOOC Videos**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs-HC, cs.CL  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10587v1)  
@@ -382,7 +382,7 @@ Shiyang Li, Jun Yan, Hai Wang, Zheng Tang, Xiang Ren, Vijay Srinivasan, Hongxia 
 **Instruction-following Evaluation through Verbalizer Manipulation**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: GPT, GPT-4  
 [Paper Link](http://arxiv.org/abs/2307.10558v1)  
@@ -404,7 +404,7 @@ Somayeh Ghanbarzadeh, Yan Huang, Hamid Palangi, Radames Cruz Moreno, Hamed Khanp
 **Gender-tuning: Empowering Fine-tuning for Debiasing Pre-trained Language Models**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10522v1)  
@@ -426,7 +426,7 @@ Rongsheng Wang, Yaofei Duan, ChanTong Lam, Jiexi Chen, Jiangsheng Xu, Haoming Ch
 **IvyGPT: InteractiVe Chinese pathwaY language model in medical domain**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: ChatGPT, GPT, LLaMA, QA, Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2307.10512v1)  
@@ -448,7 +448,7 @@ Teng Sun, Juntong Ni, Wenjie Wang, Liqiang Jing, Yinwei Wei, Liqiang Nie. (2023)
 **General Debiasing for Multimodal Sentiment Analysis**  
 
 ---
-Primary Category: cs.CL
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Sentiment Analysis  
 [Paper Link](http://arxiv.org/abs/2307.10511v1)  
@@ -474,7 +474,7 @@ Yanshu Zhang, Shichong Peng, Alireza Moazeni, Ke Li. (2023)
 **PAPR: Proximity Attention Point Rendering**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-GR, cs-LG, cs-NE, cs.CV  
 Keywords: Attention  
 [Paper Link](http://arxiv.org/abs/2307.11086v1)  
@@ -496,7 +496,7 @@ Nisarg A. Shah, Shameema Sikder, S. Swaroop Vedula, Vishal M. Patel. (2023)
 **GLSFormer : Gated - Long, Short Sequence Transformer for Step Recognition in Surgical Videos**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Transformer  
 [Paper Link](http://arxiv.org/abs/2307.11081v1)  
@@ -518,7 +518,7 @@ Ming Li, Jie Wu, Xionghui Wang, Chen Chen, Jie Qin, Xuefeng Xiao, Rui Wang, Min 
 **AlignDet: Aligning Pre-training and Fine-tuning in Object Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: Object Detection  
 [Paper Link](http://arxiv.org/abs/2307.11077v1)  
@@ -540,7 +540,7 @@ Mingqiao Ye, Lei Ke, Siyuan Li, Yu-Wing Tai, Chi-Keung Tang, Martin Danelljan, F
 **Cascade-DETR: Delving into High-Quality Universal Object Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Attention, Object Detection, Transformer  
 [Paper Link](http://arxiv.org/abs/2307.11035v1)  
@@ -562,7 +562,7 @@ Xiangchen Yin, Zhenda Yu, Zetao Fei, Wenjun Lv, Xin Gao. (2023)
 **PE-YOLO: Pyramid Enhancement Network for Dark Object Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Object Detection  
 [Paper Link](http://arxiv.org/abs/2307.10953v1)  
@@ -584,7 +584,7 @@ Aditya Nalgunda Ganesh, Dhruval Pobbathi Badrinath, Harshith Mohan Kumar, Priya 
 **OCTraN: 3D Occupancy Convolutional Transformer Network in Unstructured Traffic Scenarios**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10934v1)  
@@ -606,7 +606,7 @@ Kanchana Ranasinghe, Michael Ryoo. (2023)
 **Language-based Action Concept Spaces Improve Video Self-Supervised Learning**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Self-Supervised  
 [Paper Link](http://arxiv.org/abs/2307.10922v1)  
@@ -628,7 +628,7 @@ Yumeng Li, Margret Keuper, Dan Zhang, Anna Khoreva. (2023)
 **Divide & Bind Your Attention for Improved Generative Semantic Nursing**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CL, cs-CV, cs-LG, cs.CV  
 Keywords: Attention  
 [Paper Link](http://arxiv.org/abs/2307.10864v1)  
@@ -650,7 +650,7 @@ Ondrej Bohdal, Da Li, Timothy Hospedales. (2023)
 **Label Calibration for Semantic Segmentation Under Domain Shift**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV, stat-ML  
 Keywords: Semantic Segmentation  
 [Paper Link](http://arxiv.org/abs/2307.10842v1)  
@@ -672,7 +672,7 @@ Wei Cong, Yang Cong, Jiahua Dong, Gan Sun, Henghui Ding. (2023)
 **Gradient-Semantic Compensation for Incremental Semantic Segmentation**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Semantic Segmentation  
 [Paper Link](http://arxiv.org/abs/2307.10822v1)  
@@ -694,7 +694,7 @@ Xilei Zhu, Huiyu Duan, Yuqin Cao, Yuxin Zhu, Yucheng Zhu, Jing Liu, Li Chen, Xio
 **Perceptual Quality Assessment of Omnidirectional Audio-visual Signals**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: I-4-0; I-5-4, cs-CV, cs-SD, cs.CV, eess-AS, eess-IV  
 Keywords: QA  
 [Paper Link](http://arxiv.org/abs/2307.10813v1)  
@@ -716,7 +716,7 @@ Yiyuan Zhang, Kaixiong Gong, Kaipeng Zhang, Hongsheng Li, Yu Qiao, Wanli Ouyang,
 **Meta-Transformer: A Unified Framework for Multimodal Learning**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CL, cs-CV, cs-LG, cs-MM, cs.CV  
 Keywords: Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10802v1)  
@@ -738,7 +738,7 @@ João Santos, Triet Tran, Oliver Rippel. (2023)
 **Optimizing PatchCore for Few/many-shot Anomaly Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: Anomaly Detection  
 [Paper Link](http://arxiv.org/abs/2307.10792v1)  
@@ -760,7 +760,7 @@ Jianan Liu, Qiuchi Zhao, Weiyi Xiong, Tao Huang, Qing-Long Han, Bing Zhu. (2023)
 **SMURF: Spatial Multi-Representation Fusion for 3D Object Detection with 4D Imaging Radar**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Object Detection  
 [Paper Link](http://arxiv.org/abs/2307.10784v1)  
@@ -782,7 +782,7 @@ Maxim Bonnaerens, Joni Dambre. (2023)
 **Learned Thresholds Token Merging and Pruning for Vision Transformers**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: ImageNet, Pruning, Transformer, Transformers  
 [Paper Link](http://arxiv.org/abs/2307.10780v1)  
@@ -804,7 +804,7 @@ Md Abdul Kadir, Hasan Md Tusfiqur Alam, Daniel Sonntag. (2023)
 **EdgeAL: An Edge Estimation Based Active Learning Approach for OCT Segmentation**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Active Learning  
 [Paper Link](http://arxiv.org/abs/2307.10745v1)  
@@ -826,7 +826,7 @@ Sahar Almahfouz Nasser, Nihar Gupte, Amit Sethi. (2023)
 **Reverse Knowledge Distillation: Training a Large Model using a Small One for Retinal Image Matching on Limited Data**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Knowledge Distillation  
 [Paper Link](http://arxiv.org/abs/2307.10698v1)  
@@ -848,7 +848,7 @@ Fernando Alonso-Fernandez, Kevin Hernandez-Diaz, Jose Maria Buades Rubio, Josef 
 **SqueezerFaceNet: Reducing a Small Face Recognition CNN Even More Via Filter Pruning**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Pruning  
 [Paper Link](http://arxiv.org/abs/2307.10697v1)  
@@ -870,7 +870,7 @@ Jaekyun Ko, Sanghwan Lee. (2023)
 **Self2Self+: Single-Image Denoising with Self-Supervised Learning and Image Quality Assessment Loss**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV, eess-IV  
 Keywords: Self-Supervised  
 [Paper Link](http://arxiv.org/abs/2307.10695v1)  
@@ -892,7 +892,7 @@ Yinghui Xing, Dexuan Kong, Shizhou Zhang, Geng Chen, Lingyan Ran, Peng Wang, Yan
 **Pre-train, Adapt and Detect: Multi-Task Adapter Tuning for Camouflaged Object Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Object Detection  
 [Paper Link](http://arxiv.org/abs/2307.10685v1)  
@@ -914,7 +914,7 @@ Qichao Ying, Jiaxin Liu, Sheng Li, Haisheng Xu, Zhenxing Qian, Xinpeng Zhang. (2
 **RetouchingFFHQ: A Large-scale Dataset for Fine-grained Face Retouching Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs-MM, cs.CV  
 Keywords: Attention  
 [Paper Link](http://arxiv.org/abs/2307.10642v1)  
@@ -936,7 +936,7 @@ Ke Zhu, Yin-Yin He, Jianxin Wu. (2023)
 **Quantized Feature Distillation for Network Quantization**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: QA, Quantization, Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10638v1)  
@@ -958,7 +958,7 @@ Kun Li, Dan Guo, Guoliang Chen, Xinge Peng, Meng Wang. (2023)
 **Joint Skeletal and Semantic Embedding Loss for Micro-gesture Classification**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: AI, Embedding  
 [Paper Link](http://arxiv.org/abs/2307.10624v1)  
@@ -980,7 +980,7 @@ Weihang Ran, Wei Yuan, Xiaodan Shi, Zipei Fan, Ryosuke Shibasaki. (2023)
 **Hybrid Feature Embedding For Automatic Building Outline Extraction**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Embedding, Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10609v1)  
@@ -1002,7 +1002,7 @@ Dongyun Lin, Yi Cheng, Aiyuan Guo, Shangbo Mao, Yiqun Li. (2023)
 **SCA-PVNet: Self-and-Cross Attention Based Aggregation of Point Cloud and Multi-View for 3D Object Retrieval**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Attention  
 [Paper Link](http://arxiv.org/abs/2307.10601v1)  
@@ -1024,7 +1024,7 @@ Hugo Latapie, Kristinn R. Thorisson, Shan Yu, Vahagn Petrosyan, Patrick Hammer, 
 **Ethosight: A Joint-Embedding Based System for Nuanced Perception Using Contextual Label Affinity Metric and Reasoning Based Iterative Learning**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Embedding, GPT, Reasoning  
 [Paper Link](http://arxiv.org/abs/2307.10577v1)  
@@ -1046,7 +1046,7 @@ Qi Zhang, Sipeng Zheng, Qin Jin. (2023)
 **No-frills Temporal Video Grounding: Multi-Scale Neighboring Attention and Zoom-in Boundary Detection**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Attention  
 [Paper Link](http://arxiv.org/abs/2307.10567v1)  
@@ -1068,7 +1068,7 @@ Peijie Dong, Lujun Li, Zimian Wei, Xin Niu, Zhiliang Tian, Hengyue Pan. (2023)
 **EMQ: Evolving Training-free Proxies for Automated Mixed Precision Quantization**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: ImageNet, Quantization  
 [Paper Link](http://arxiv.org/abs/2307.10554v1)  
@@ -1090,7 +1090,7 @@ Yuanhao Gong. (2023)
 **Dynamic Large Language Models on Blockchains**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-AI, cs-CL, cs-CV, cs.CV, econ-GN, q-fin-EC  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10549v1)  
@@ -1112,7 +1112,7 @@ Neha Kalibhat, Shweta Bhardwaj, Bayan Bruss, Hamed Firooz, Maziar Sanjabi, Sohei
 **Identifying Interpretable Subspaces in Image Representations**  
 
 ---
-Primary Category: cs.CV
+Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10504v1)  
@@ -1138,7 +1138,7 @@ Yedid Hoshen. (2023)
 **Representation Learning in Anomaly Detection: Successes, Limits and a Grand Challenge**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-CV, cs-LG, cs.LG  
 Keywords: Anomaly Detection, ImageNet, Representation Learning  
 [Paper Link](http://arxiv.org/abs/2307.11085v1)  
@@ -1160,7 +1160,7 @@ David Abel, André Barreto, Benjamin Van Roy, Doina Precup, Hado van Hasselt, Sa
 **A Definition of Continual Reinforcement Learning**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2307.11046v1)  
@@ -1182,7 +1182,7 @@ Neel Guha, Mayee F. Chen, Kush Bhatia, Azalia Mirhoseini, Frederic Sala, Christo
 **Embroid: Unsupervised Prediction Smoothing Can Improve Few-Shot Classification**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-CL, cs-LG, cs.LG  
 Keywords: Few-Shot, GPT  
 [Paper Link](http://arxiv.org/abs/2307.11031v1)  
@@ -1204,7 +1204,7 @@ Shiwei Ding, Lan Zhang, Miao Pan, Xiaoyong Yuan. (2023)
 **PATROL: Privacy-Oriented Pruning for Collaborative Inference Against Model Inversion Attacks**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-CR, cs-LG, cs.LG  
 Keywords: Pruning  
 [Paper Link](http://arxiv.org/abs/2307.10981v1)  
@@ -1226,7 +1226,7 @@ Aniruddh Raghu, Payal Chandak, Ridwan Alam, John Guttag, Collin M. Stultz. (2023
 **Sequential Multi-Dimensional Self-Supervised Learning for Clinical Time Series**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Clinical, Self-Supervised, Time Series  
 [Paper Link](http://arxiv.org/abs/2307.10923v1)  
@@ -1248,7 +1248,7 @@ Borja Rodríguez-Gálvez, Arno Blaas, Pau Rodríguez, Adam Goliński, Xavier Sua
 **The Role of Entropy and Reconstruction in Multi-View Self-Supervised Learning**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Self-Supervised  
 [Paper Link](http://arxiv.org/abs/2307.10907v1)  
@@ -1270,7 +1270,7 @@ Wenwei Gu, Jinyang Liu, Zhuangbin Chen, Jianping Zhang, Yuxin Su, Jiazhen Gu, Co
 **Performance Issue Identification in Cloud Systems with Relational-Temporal Anomaly Detection**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-LG, cs-SE, cs.LG  
 Keywords: Anomaly Detection  
 [Paper Link](http://arxiv.org/abs/2307.10869v1)  
@@ -1292,7 +1292,7 @@ Reyhaneh Rahimi, Ardeshir Ebtehaj, Ali Behrangi, Jackson Tan. (2023)
 **Global Precipitation Nowcasting of Integrated Multi-satellitE Retrievals for GPM: A U-Net Convolutional LSTM Architecture**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-CV, cs-LG, cs.LG, physics-ao-ph  
 Keywords: LSTM  
 [Paper Link](http://arxiv.org/abs/2307.10843v1)  
@@ -1314,7 +1314,7 @@ Ilana Sebag, Samuel Cohen, Marc Peter Deisenroth. (2023)
 **On Combining Expert Demonstrations in Imitation Learning via Optimal Transport**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10810v1)  
@@ -1336,7 +1336,7 @@ Jishnu Ray Chowdhury, Cornelia Caragea. (2023)
 **Efficient Beam Tree Recursion**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Transformer, Transformers  
 [Paper Link](http://arxiv.org/abs/2307.10779v1)  
@@ -1358,7 +1358,7 @@ Ronald Richman, Mario V. Wüthrich. (2023)
 **Conditional expectation network for SHAP**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: 62J10, 62J12, I-6-4; I-2-6; G-3, cs-CE, cs-LG, cs.LG, stat-AP, stat-ML  
 Keywords: GLM  
 [Paper Link](http://arxiv.org/abs/2307.10654v1)  
@@ -1380,7 +1380,7 @@ Manqing Dong, Zhanxiang Zhao, Yitong Geng, Wentao Li, Wei Wang, Huai Jiang. (202
 **Refining the Optimization Target for Automatic Univariate Time Series Anomaly Detection in Monitoring Services**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Anomaly Detection, Time Series  
 [Paper Link](http://arxiv.org/abs/2307.10653v1)  
@@ -1402,7 +1402,7 @@ Tin Lai, Farnaz Farid, Abubakar Bello, Fariza Sabrina. (2023)
 **Ensemble Learning based Anomaly Detection for IoT Cybersecurity via Bayesian Hyperparameters Sensitivity Analysis**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-LG, cs-SI, cs.LG, stat-ML  
 Keywords: Anomaly Detection  
 [Paper Link](http://arxiv.org/abs/2307.10596v1)  
@@ -1424,7 +1424,7 @@ Andres Carranza, Dhruv Pai, Rylan Schaeffer, Arnuv Tandon, Sanmi Koyejo. (2023)
 **Deceptive Alignment Monitoring**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10569v1)  
@@ -1446,7 +1446,7 @@ Dhruv Pai, Andres Carranza, Rylan Schaeffer, Arnuv Tandon, Sanmi Koyejo. (2023)
 **FACADE: A Framework for Adversarial Circuit Anomaly Detection and Evaluation**  
 
 ---
-Primary Category: cs.LG
+Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Anomaly Detection  
 [Paper Link](http://arxiv.org/abs/2307.10563v1)  
@@ -1472,7 +1472,7 @@ Yijun Dong, Kevin Miller, Qi Lei, Rachel Ward. (2023)
 **Cluster-aware Semi-supervised Learning: Relational Knowledge Distillation Provably Learns Clustering**  
 
 ---
-Primary Category: stat.ML
+Primary Category: stat.ML  
 Categories: cs-LG, stat-ML, stat.ML  
 Keywords: Knowledge Distillation  
 [Paper Link](http://arxiv.org/abs/2307.11030v1)  
@@ -1498,7 +1498,7 @@ Qian Wan, Siying Hu, Yu Zhang, Piaohong Wang, Bo Wen, Zhicong Lu. (2023)
 **'It Felt Like Having a Second Mind': Investigating Human-AI Co-creativity in Prewriting with Large Language Models**  
 
 ---
-Primary Category: cs.HC
+Primary Category: cs.HC  
 Categories: H-5-m; K-4-0, cs-AI, cs-CL, cs-HC, cs.HC  
 Keywords: AI, Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10811v1)  
@@ -1520,7 +1520,7 @@ Advait Sarkar. (2023)
 **Exploring Perspectives on the Impact of Artificial Intelligence on the Creativity of Knowledge Work: Beyond Mechanised Plagiarism and Stochastic Parrots**  
 
 ---
-Primary Category: cs.HC
+Primary Category: cs.HC  
 Categories: cs-AI, cs-CL, cs-HC, cs.HC  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10751v1)  
@@ -1542,7 +1542,7 @@ Ryosuke Ueda, Koh Takeuchi, Hisashi Kashima. (2023)
 **Mitigating Voter Attribute Bias for Fair Opinion Aggregation**  
 
 ---
-Primary Category: cs.HC
+Primary Category: cs.HC  
 Categories: cs-CY, cs-HC, cs-LG, cs.HC, stat-ML  
 Keywords: Bias  
 [Paper Link](http://arxiv.org/abs/2307.10749v1)  
@@ -1568,7 +1568,7 @@ Stephen Josè Hanson, Vivek Yadev, Catherine Hanson. (2023)
 **Dense Sample Deep Learning**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs.AI, q-bio-NC, stat-ML  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10991v1)  
@@ -1590,7 +1590,7 @@ Raphael Boige, Yannis Flet-Berliac, Arthur Flajolet, Guillaume Richard, Thomas P
 **PASTA: Pretrained Action-State Transformer Agents**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs-LG, cs.AI  
 Keywords: NLP, Transformer  
 [Paper Link](http://arxiv.org/abs/2307.10936v1)  
@@ -1612,7 +1612,7 @@ David Glukhov, Ilia Shumailov, Yarin Gal, Nicolas Papernot, Vardan Papyan. (2023
 **LLM Censorship: A Machine Learning Challenge or a Computer Security Problem?**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs-CR, cs.AI  
 Keywords: Security  
 [Paper Link](http://arxiv.org/abs/2307.10719v1)  
@@ -1634,7 +1634,7 @@ Anton Andreev, Grégoire Cattan. (2023)
 **Towards an architectural framework for intelligent virtual agents using probabilistic programming**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs-HC, cs-PL, cs.AI, math-PR  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10693v1)  
@@ -1656,7 +1656,7 @@ Ngoc Luyen Le, Marie-Hélène Abel, Philippe Gouspillou. (2023)
 **A Personalized Recommender System Based-on Knowledge Graph Embeddings**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs-IR, cs.AI  
 Keywords: Embedding, Knowledge Graph  
 [Paper Link](http://arxiv.org/abs/2307.10680v1)  
@@ -1678,7 +1678,7 @@ Rifat Ara Shams, Didar Zowghi, Muneera Bano. (2023)
 **Challenges and Solutions in AI for All**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: I, I-2, cs-AI, cs.AI  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10600v1)  
@@ -1700,7 +1700,7 @@ Can Jiang, Xin Li, Jia-Rui Lin, Ming Liu, Zhiliang Ma. (2023)
 **Adaptive Control of Resource Flow to Optimize Construction Work and Cash Flow via Online Deep Reinforcement Learning**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2307.10574v1)  
@@ -1722,7 +1722,7 @@ Rylan Schaeffer, Kateryna Pistunova, Samar Khanna, Sarthak Consul, Sanmi Koyejo.
 **Invalid Logic, Equivalent Gains: The Bizarreness of Reasoning in Language Model Prompting**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Language Model, Reasoning  
 [Paper Link](http://arxiv.org/abs/2307.10573v1)  
@@ -1744,7 +1744,7 @@ Kaiwen Wei, Jie Yao, Jingyuan Zhang, Yangyang Kang, Fubang Zhao, Yating Zhang, C
 **PPN: Parallel Pointer-based Network for Key Information Extraction with Complex Layouts**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Information Extraction  
 [Paper Link](http://arxiv.org/abs/2307.10551v1)  
@@ -1766,7 +1766,7 @@ Wendi Li, Wei Wei, Xiaoye Qu, Xian-Ling Mao, Ye Yuan, Wenfeng Xie, Dangyang Chen
 **TREA: Tree-Structure Reasoning Schema for Conversational Recommendation**  
 
 ---
-Primary Category: cs.AI
+Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Conversational Recommendation, Reasoning  
 [Paper Link](http://arxiv.org/abs/2307.10543v1)  
@@ -1792,7 +1792,7 @@ Rogier van Dalen. (2023)
 **Globally Normalising the Transducer for Streaming Speech Recognition**  
 
 ---
-Primary Category: eess.AS
+Primary Category: eess.AS  
 Categories: 68T10, cs-LG, cs-SD, eess-AS, eess.AS  
 Keywords: Speech Recognition  
 [Paper Link](http://arxiv.org/abs/2307.10975v1)  
@@ -1814,7 +1814,7 @@ Changhong Wang, Gaël Richard, Brian McFee. (2023)
 **Transfer Learning and Bias Correction with Pre-trained Audio Embeddings**  
 
 ---
-Primary Category: eess.AS
+Primary Category: eess.AS  
 Categories: cs-SD, eess-AS, eess.AS  
 Keywords: Bias, Embedding  
 [Paper Link](http://arxiv.org/abs/2307.10834v1)  
@@ -1836,7 +1836,7 @@ Wonbin Kim, Hyun-seo Shin, Ju-ho Kim, Jungwoo Heo, Chan-yeong Lim, Ha-Jin Yu. (2
 **PAS: Partial Additive Speech Data Augmentation Method for Noise Robust Speaker Verification**  
 
 ---
-Primary Category: eess.AS
+Primary Category: eess.AS  
 Categories: cs-SD, eess-AS, eess.AS  
 Keywords: Augmentation, Speaker Verification  
 [Paper Link](http://arxiv.org/abs/2307.10628v1)  
@@ -1862,7 +1862,7 @@ Alexander Ek, Philip B. Stark, Peter J. Stuckey, Damjan Vukcevic. (2023)
 **Adaptively Weighted Audits of Instant-Runoff Voting Elections: AWAIRE**  
 
 ---
-Primary Category: stat.AP
+Primary Category: stat.AP  
 Categories: cs-CR, cs-CY, stat-AP, stat-ME, stat.AP  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10972v1)  
@@ -1888,7 +1888,7 @@ Mohamed C. Ghanem, Thomas M. Chen, Mohamed A. Ferrag, Mohyi E. Kettouche. (2023)
 **ESASCF: Expertise Extraction, Generalization and Reply Framework for an Optimized Automation of Network Security Compliance**  
 
 ---
-Primary Category: cs.CR
+Primary Category: cs.CR  
 Categories: cs-CR, cs-NI, cs.CR  
 Keywords: Network Security, Security  
 [Paper Link](http://arxiv.org/abs/2307.10967v1)  
@@ -1914,7 +1914,7 @@ Omar Otoniel Flores-Cortez, Bruno Gonzales Crespin. (2023)
 **Aplicación de tecnologías IoT en el control y seguimiento de trasporte de carga terrestre**  
 
 ---
-Primary Category: eess.SY
+Primary Category: eess.SY  
 Categories: cs-SY, eess-SP, eess-SY, eess.SY  
 Keywords: AWS, Amazon  
 [Paper Link](http://arxiv.org/abs/2307.10945v1)  
@@ -1940,7 +1940,7 @@ Merle M. Reimann, Florian A. Kunneman, Catharine Oertel, Koen V. Hindriks. (2023
 **A Survey on Dialogue Management in Human-Robot Interaction**  
 
 ---
-Primary Category: cs.RO
+Primary Category: cs.RO  
 Categories: cs-HC, cs-RO, cs.RO  
 Keywords: Dialog, Dialogue  
 [Paper Link](http://arxiv.org/abs/2307.10897v1)  
@@ -1962,7 +1962,7 @@ Zhifeng Qian, Mingyu You, Hongjun Zhou, Xuanhui Xu, Bin He. (2023)
 **Goal-Conditioned Reinforcement Learning with Disentanglement-based Reachability Planning**  
 
 ---
-Primary Category: cs.RO
+Primary Category: cs.RO  
 Categories: cs-AI, cs-RO, cs.RO  
 Keywords: Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2307.10846v1)  
@@ -1984,7 +1984,7 @@ Paolo Franceschi, Fabio Bertini, Francesco Braghin, Loris Roveda, Nicola Pedrocc
 **Predicting human motion intention for pHRI assistive control**  
 
 ---
-Primary Category: cs.RO
+Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: LSTM  
 [Paper Link](http://arxiv.org/abs/2307.10743v1)  
@@ -2006,7 +2006,7 @@ Shimian Zhang. (2023)
 **Bridging Intelligence and Instinct: A New Control Paradigm for Autonomous Robots**  
 
 ---
-Primary Category: cs.RO
+Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10690v1)  
@@ -2032,7 +2032,7 @@ Dongwei Xiao, Zhibo Liu, Shuai Wang. (2023)
 **PHYFU: Fuzzing Modern Physics Simulation Engines**  
 
 ---
-Primary Category: cs.SE
+Primary Category: cs.SE  
 Categories: cs-SE, cs.SE  
 Keywords: Google  
 [Paper Link](http://arxiv.org/abs/2307.10818v1)  
@@ -2054,7 +2054,7 @@ Patricia Widjojo, Christoph Treude. (2023)
 **Addressing Compiler Errors: Stack Overflow or Large Language Models?**  
 
 ---
-Primary Category: cs.SE
+Primary Category: cs.SE  
 Categories: cs-SE, cs.SE  
 Keywords: AI, GPT, GPT-3.5, GPT-4, Google, Language Model  
 [Paper Link](http://arxiv.org/abs/2307.10793v1)  
@@ -2076,7 +2076,7 @@ Fabio Calefato, Luigi Quaranta, Filippo Lanubile, Marcos Kalinowski. (2023)
 **Assessing the Use of AutoML for Data-Driven Software Engineering**  
 
 ---
-Primary Category: cs.SE
+Primary Category: cs.SE  
 Categories: cs-LG, cs-SE, cs.SE  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10774v1)  
@@ -2102,7 +2102,7 @@ Ankur Sikarwar, Mengmi Zhang. (2023)
 **Decoding the Enigma: Benchmarking Humans and AIs on the Many Facets of Working Memory**  
 
 ---
-Primary Category: q-bio.NC
+Primary Category: q-bio.NC  
 Categories: cs-AI, cs-CV, cs-LG, q-bio-NC, q-bio.NC  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10768v1)  
@@ -2128,7 +2128,7 @@ Weidong Chen, Xiaofen Xing, Peihao Chen, Xiangmin Xu. (2023)
 **Vesper: A Compact and Effective Pretrained Model for Speech Emotion Recognition**  
 
 ---
-Primary Category: cs.SD
+Primary Category: cs.SD  
 Categories: cs-CL, cs-SD, cs.SD, eess-AS  
 Keywords: Emotion Recognition  
 [Paper Link](http://arxiv.org/abs/2307.10757v1)  
@@ -2150,7 +2150,7 @@ Daegyeom Kim, Seongho Hong, Yong-Hoon Choi. (2023)
 **SC VALL-E: Style-Controllable Zero-Shot Text to Speech Synthesizer**  
 
 ---
-Primary Category: cs.SD
+Primary Category: cs.SD  
 Categories: cs-LG, cs-SD, cs.SD, eess-AS  
 Keywords: GPT, Zero-Shot  
 [Paper Link](http://arxiv.org/abs/2307.10550v1)  
@@ -2176,7 +2176,7 @@ Ngoc Luyen Le, Marie-Hélène Abel, Philippe Gouspillou. (2023)
 **A Constraint-based Recommender System via RDF Knowledge Graphs**  
 
 ---
-Primary Category: cs.IR
+Primary Category: cs.IR  
 Categories: cs-IR, cs.IR  
 Keywords: Knowledge Graph  
 [Paper Link](http://arxiv.org/abs/2307.10702v1)  
@@ -2198,7 +2198,7 @@ Zhipeng Zhang, Piao Tong, Yingwei Ma, Qiao Liu, Xujiang Liu, Xu Luo. (2023)
 **Language-Enhanced Session-Based Recommendation with Decoupled Contrastive Learning**  
 
 ---
-Primary Category: cs.IR
+Primary Category: cs.IR  
 Categories: cs-IR, cs.IR  
 Keywords: Contrastive Learning  
 [Paper Link](http://arxiv.org/abs/2307.10650v1)  
@@ -2220,7 +2220,7 @@ Ngoc Luyen Le, Marie-Hélène Abel, Philippe Gouspillou. (2023)
 **Improving Semantic Similarity Measure Within a Recommender System Based-on RDF Graphs**  
 
 ---
-Primary Category: cs.IR
+Primary Category: cs.IR  
 Categories: cs-IR, cs.IR  
 Keywords: Semantic Similarity  
 [Paper Link](http://arxiv.org/abs/2307.10639v1)  
@@ -2246,7 +2246,7 @@ Musa Nuri Ihtiyar, Arzucan Ozgur. (2023)
 **Generative Language Models on Nucleotide Sequences of Human Genes**  
 
 ---
-Primary Category: q-bio.GN
+Primary Category: q-bio.GN  
 Categories: cs-CL, cs-LG, q-bio-GN, q-bio.GN  
 Keywords: BERT, GPT, Language Model, NLP, NLU  
 [Paper Link](http://arxiv.org/abs/2307.10634v1)  
@@ -2272,7 +2272,7 @@ Praveen Venkatesh, Corbett Bennett, Sam Gale, Tamina K. Ramirez, Greggory Heller
 **Gaussian Partial Information Decomposition: Bias Correction and Application to High-dimensional Data**  
 
 ---
-Primary Category: cs.IT
+Primary Category: cs.IT  
 Categories: cs-IT, cs.IT, math-IT, q-bio-NC  
 Keywords: Bias  
 [Paper Link](http://arxiv.org/abs/2307.10515v1)  
@@ -2298,7 +2298,7 @@ Subhashis Suara, Aayush Jha, Pratik Sinha, Arif Ahmed Sekh. (2023)
 **Is Grad-CAM Explainable in Medical Images?**  
 
 ---
-Primary Category: eess.IV
+Primary Category: eess.IV  
 Categories: cs-CV, cs-CY, eess-IV, eess.IV  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2307.10506v1)  
