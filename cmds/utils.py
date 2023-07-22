@@ -132,12 +132,6 @@ class Paper(object):
         title_text = self.title.replace('"', "'")
         title = f"{title_text} ({author_text}, {self.year})"
 
-        try:
-            translator = Translator()
-            abstract_ja = translator.translate(self.abstract, dest="ja").text
-        except Exception:
-            abstract_ja = ""
-
         content = f"""
 {", ".join([author.name for author in self.authors]) + f". ({self.year})  "}
 **{title_text}**{"  "}
@@ -153,10 +147,6 @@ Keywords: {", ".join(sorted(self.keywords))}{"  "}
 
 {"**ABSTRACT**  " if self.has_abstract else ""}
 {self.abstract.replace(os.linesep, " ").strip() if self.has_abstract else ""}
-
----
-
-{abstract_ja}
 """
 
         return title, content
