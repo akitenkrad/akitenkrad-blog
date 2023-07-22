@@ -3,7 +3,7 @@ black
 click
 flake8
 git+https://github.com/akitenkrad/attrdict.git#egg=attrdict
-googletrans=3.1.0a0
+googletrans==3.1.0a0
 ipython
 ipywidgets
 isort

@@ -119,7 +119,9 @@ menu:
 )
 def update_arxiv(date):
     target_date = parse_date(date)
-    post_all: list[Paper] = [post for post in get_arxiv_posts(target_date) if len(post.keywords) > 0]
+    post_all: list[Paper] = [
+        post for post in get_arxiv_posts(target_date - timedelta(days=2)) if len(post.keywords) > 0
+    ]
     post_dict: dict[str, list[Paper]] = {}
     for post in post_all:
         if post.primary_category not in post_dict:
