@@ -28,9 +28,10 @@ setuptools.setup(
     long_description=long_description,
     install_requires=[
         "arxiv",
+        "attrdict @ git+https://github.com/akitenkrad/attrdict",
         "click",
         "colorama",
-        "attrdict @ git+https://github.com/akitenkrad/attrdict",
+        "googletrans==3.1.0a0"
         "nltk",
         "numpy",
         "openai",
