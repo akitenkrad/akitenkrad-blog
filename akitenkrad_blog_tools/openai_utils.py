@@ -3,16 +3,13 @@ import time
 
 import openai
 
-openai.organization = "org-gIuy12buVy2ONIQTiubeuq4a"
-openai.api_key = os.environ.get("OPENAI_API_KEY")
 
-
-def call_openai_chatcompletion(content: str, model: str = "gpt-3.5-turbo-16k", retry_count: int = 5):
+def call_openai_chatcompletion(messages: list[dict[str, str]], model: str = "gpt-3.5-turbo-16k", retry_count: int = 5):
     while retry_count > 0:
         try:
             res = openai.ChatCompletion.create(
                 model=model,
-                messages=[{"role": "research assistant", "content": content}],
+                messages=messages,
                 temperature=1.0,
                 max_tokens=8000,
             )
