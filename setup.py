@@ -31,7 +31,7 @@ setuptools.setup(
         "attrdict @ git+https://github.com/akitenkrad/attrdict",
         "click",
         "colorama",
-        "googletrans==3.1.0a0"
+        "googletrans==3.1.0a0",
         "nltk",
         "numpy",
         "openai",
