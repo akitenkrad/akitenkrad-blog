@@ -19,7 +19,7 @@ from attrdict import AttrDict
 from sumeval.metrics.rouge import RougeCalculator
 from tqdm import tqdm
 
-from cmds.utils import Paper
+from akitenkrad_blog_tools.utils import Paper
 
 
 class SemanticScholar(object):

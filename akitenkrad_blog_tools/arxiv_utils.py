@@ -5,7 +5,7 @@ from pathlib import Path
 import arxiv
 import pytz
 
-from cmds.utils import Paper, extract_keywords
+from akitenkrad_blog_tools.utils import Paper, extract_keywords
 
 
 def get_arxiv_posts(day: datetime) -> list[Paper]:

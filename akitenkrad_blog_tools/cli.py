@@ -12,9 +12,9 @@ from dateutil.parser import parse as parse_date
 from plotly import graph_objects as go
 from tqdm import tqdm
 
-from cmds.arxiv_utils import get_arxiv_posts
-from cmds.ss_utils import SemanticScholar, add_references
-from cmds.utils import Paper
+from akitenkrad_blog_tools.arxiv_utils import get_arxiv_posts
+from akitenkrad_blog_tools.ss_utils import SemanticScholar, add_references
+from akitenkrad_blog_tools.utils import Paper
 
 
 @click.group()
