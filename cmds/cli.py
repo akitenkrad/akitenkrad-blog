@@ -115,28 +115,32 @@ menu:
 
 @cli.command()
 @click.option(
-    "--date", type=str, help="date to collect arxiv papers", required=True, default=datetime.now() - timedelta(days=2)
+    "--date", type=str, help="date to collect arxiv papers", required=True, default=datetime.now() - timedelta(days=5)
 )
 def update_arxiv(date):
-    target_date = parse_date(date)
-    post_all: list[Paper] = [
-        post for post in get_arxiv_posts(target_date - timedelta(days=2)) if len(post.keywords) > 0
-    ]
-    post_dict: dict[str, list[Paper]] = {}
-    for post in post_all:
-        if post.primary_category not in post_dict:
-            post_dict[post.primary_category] = []
-        post_dict[post.primary_category].append(post)
+    def __update_arxiv(target_date):
+        post_all: list[Paper] = [
+            post for post in get_arxiv_posts(target_date - timedelta(days=2)) if len(post.keywords) > 0
+        ]
 
-    new_path = Path(
-        f"src/content/posts/arxiv/{target_date.strftime('%Y%m')}/{target_date.strftime('%Y%m%d%H%M%S')}/index.md"
-    )
+        if len(post_all) == 0:
+            return
 
-    if not new_path.parent.parent.exists():
-        new_path.parent.parent.mkdir(parents=True)
-        with open(new_path.parent.parent / "_index.md", mode="w", encoding="utf-8") as wf:
-            wf.write(
-                f"""---
+        post_dict: dict[str, list[Paper]] = {}
+        for post in post_all:
+            if post.primary_category not in post_dict:
+                post_dict[post.primary_category] = []
+            post_dict[post.primary_category].append(post)
+
+        new_path = Path(
+            f"src/content/posts/arxiv/{target_date.strftime('%Y%m')}/{target_date.strftime('%Y%m%d%H%M%S')}/index.md"
+        )
+
+        if not new_path.parent.parent.exists():
+            new_path.parent.parent.mkdir(parents=True)
+            with open(new_path.parent.parent / "_index.md", mode="w", encoding="utf-8") as wf:
+                wf.write(
+                    f"""---
 title: {target_date.strftime("%Y.%m")}
 menu:
     sidebar:
@@ -146,12 +150,12 @@ menu:
         weight: 10
 ---
             """
-            )
+                )
 
-    new_path.parent.mkdir(parents=True, exist_ok=True)
+        new_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # prepare content
-    text = f"""---
+        # prepare content
+        text = f"""---
 draft: false
 title: "arXiv @ {target_date.strftime("%Y.%m.%d")}"
 date: {target_date.strftime("%Y-%m-%d")}
@@ -174,40 +178,44 @@ math: true
 
 """
 
-    text += "## Primary Categories\n\n"
-    text += "\n".join(
-        [
-            f"- [{categ} ({len(posts)})](#{categ.lower().replace('.', '')}-{len(posts)})"
-            for categ, posts in post_dict.items()
-        ]
-    )
+        text += "## Primary Categories\n\n"
+        text += "\n".join(
+            [
+                f"- [{categ} ({len(posts)})](#{categ.lower().replace('.', '')}-{len(posts)})"
+                for categ, posts in post_dict.items()
+            ]
+        )
 
-    paper_count = 1
-    for primary_category, posts in post_dict.items():
-        text += f"\n\n## {primary_category} ({len(posts)})\n\n"
-        for post in posts:
-            title, content = post.generate_citation_text()
-            text += f"""\n
+        paper_count = 1
+        for primary_category, posts in post_dict.items():
+            text += f"\n\n## {primary_category} ({len(posts)})\n\n"
+            for post in posts:
+                title, content = post.generate_citation_text()
+                text += f"""\n
 ### ({paper_count}/{len(post_all)}) {title}
 
 {{{{<citation>}}}}
 {content}
 {{{{</citation>}}}}
 """
-            paper_count += 1
+                paper_count += 1
 
-    with open(new_path, mode="wt", encoding="utf-8") as f:
-        f.write(text)
+        with open(new_path, mode="wt", encoding="utf-8") as f:
+            f.write(text)
 
-    fig = go.Figure()
-    labels = list(post_dict.keys())
-    values = [len(posts) for posts in post_dict.values()]
-    fig.add_trace(go.Pie(labels=labels, values=values, hole=0.4))
-    fig.update_traces(hoverinfo="label+percent", textinfo="label+value", textposition="inside", textfont_size=20)
-    fig.update_layout(width=800, height=600, margin=dict(t=1, b=1, l=1, r=1))
-    fig.write_html(str(new_path.parent / "pie.html"))
+        fig = go.Figure()
+        labels = list(post_dict.keys())
+        values = [len(posts) for posts in post_dict.values()]
+        fig.add_trace(go.Pie(labels=labels, values=values, hole=0.4))
+        fig.update_traces(hoverinfo="label+percent", textinfo="label+value", textposition="inside", textfont_size=20)
+        fig.update_layout(width=800, height=600, margin=dict(t=1, b=1, l=1, r=1))
+        fig.write_html(str(new_path.parent / "pie.html"))
 
-    shutil.copy("src/resources/assets/images/arxiv.png", str(new_path.parent / "hero.png"))
+        shutil.copy("src/resources/assets/images/arxiv.png", str(new_path.parent / "hero.png"))
+
+    target_date = parse_date(date)
+    for d in range(5, 0, -1):
+        __update_arxiv(target_date - timedelta(days=d))
 
 
 if __name__ == "__main__":
