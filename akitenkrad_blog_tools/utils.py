@@ -123,6 +123,14 @@ class Paper(object):
 
         return Paper(**dict_data)
 
+    def to_short_text(self):
+        author_text = ""
+        if len(self.authors) == 1:
+            author_text = self.authors[0].name.replace('"', "'")
+        elif len(self.authors) > 1:
+            author_text = self.authors[0].name.replace('"', "'") + " et al"
+        return f"{author_text} {self.year}".replace(" ", "_")
+
     def generate_citation_text(self):
         author_text = ""
         if len(self.authors) == 1:
