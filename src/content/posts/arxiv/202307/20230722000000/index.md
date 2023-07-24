@@ -21,452 +21,147 @@ math: true
 
 ## Primary Categories
 
-- [cs.CL (19)](#cscl-19)
-- [cs.CV (30)](#cscv-30)
-- [cs.LG (15)](#cslg-15)
+- [q-bio.NC (2)](#q-bionc-2)
+- [cs.CV (34)](#cscv-34)
+- [cs.CL (22)](#cscl-22)
+- [cs.DC (2)](#csdc-2)
+- [cs.CR (2)](#cscr-2)
+- [cs.LG (17)](#cslg-17)
+- [cs.AI (12)](#csai-12)
 - [stat.ML (1)](#statml-1)
 - [cs.HC (3)](#cshc-3)
-- [cs.AI (10)](#csai-10)
 - [eess.AS (3)](#eessas-3)
 - [stat.AP (1)](#statap-1)
-- [cs.CR (1)](#cscr-1)
+- [cs.AR (1)](#csar-1)
 - [eess.SY (1)](#eesssy-1)
+- [cs.CY (1)](#cscy-1)
 - [cs.RO (4)](#csro-4)
 - [cs.SE (3)](#csse-3)
-- [q-bio.NC (1)](#q-bionc-1)
 - [cs.SD (2)](#cssd-2)
-- [cs.IR (3)](#csir-3)
+- [cs.IR (4)](#csir-4)
 - [q-bio.GN (1)](#q-biogn-1)
 - [cs.IT (1)](#csit-1)
 - [eess.IV (1)](#eessiv-1)
 
-## cs.CL (19)
+## q-bio.NC (2)
 
 
 
-### (1/100) L-Eval: Instituting Standardized Evaluation for Long Context Language Models (Chenxin An et al., 2023)
-
-{{<citation>}}
-
-Chenxin An, Shansan Gong, Ming Zhong, Mukai Li, Jun Zhang, Lingpeng Kong, Xipeng Qiu. (2023)  
-**L-Eval: Instituting Standardized Evaluation for Long Context Language Models**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
-Keywords: GLM, GPT, GPT-4, LLaMA, Language Model  
-[Paper Link](http://arxiv.org/abs/2307.11088v1)  
-
----
-
-
-**ABSTRACT**  
-Recently, there has been growing interest in extending the context length of instruction-following models in order to effectively process single-turn long input (e.g. summarizing a paper) and conversations with more extensive histories. While proprietary models such as GPT-4 and Claude have demonstrated considerable advancements in handling tens of thousands of tokens of context, open-sourced models are still in the early stages of experimentation. It also remains unclear whether developing these long context models can offer substantial gains on practical downstream tasks over retrieval-based methods or models simply trained on chunked contexts. To address this challenge, we propose to institute standardized evaluation for long context language models. Concretely, we develop L-Eval which contains 411 long documents and over 2,000 query-response pairs manually annotated and checked by the authors encompassing areas such as law, finance, school lectures, lengthy conversations, news, long-form novels, and meetings. L-Eval also adopts diverse evaluation methods and instruction styles, enabling a more reliable assessment of Long Context Language Models (LCLMs). Our findings indicate that while open-source models typically lag behind their commercial counterparts, they still exhibit impressive performance. LLaMA2 achieves the best results (win 45\% vs turbo-16k) on open-ended tasks with only 4k context length and ChatGLM2 achieves the best results on closed-ended tasks with 8k input tokens. We release our new evaluation suite, code, and all generation results including predictions from all open-sourced LCLMs, GPT4-32k, Cluade-100k at {\url{https://github.com/OpenLMLab/LEval}}.
-
-{{</citation>}}
-
-
-### (2/100) Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation (Ruiyang Ren et al., 2023)
+### (1/118) Nature of Intelligence (Barco Jie You, 2023)
 
 {{<citation>}}
 
-Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu, Hao Tian, Hua Wu, Ji-Rong Wen, Haifeng Wang. (2023)  
-**Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation**  
+Barco Jie You. (2023)  
+**Nature of Intelligence**  
 
 ---
-Primary Category: cs.CL  
-Categories: cs-CL, cs-IR, cs.CL  
-Keywords: AI, Augmentation, ChatGPT, GPT, Language Model, QA  
-[Paper Link](http://arxiv.org/abs/2307.11019v1)  
-
----
-
-
-**ABSTRACT**  
-Knowledge-intensive tasks (e.g., open-domain question answering (QA)) require a substantial amount of factual knowledge and often rely on external information for assistance. Recently, large language models (LLMs) (e.g., ChatGPT), have demonstrated impressive prowess in solving a wide range of tasks with world knowledge, including knowledge-intensive tasks. However, it remains unclear how well LLMs are able to perceive their factual knowledge boundaries, particularly how they behave when incorporating retrieval augmentation. In this study, we present an initial analysis of the factual knowledge boundaries of LLMs and how retrieval augmentation affects LLMs on open-domain QA. Specially, we focus on three primary research questions and analyze them by examining QA performance, priori judgement and posteriori judgement of LLMs. We show evidence that LLMs possess unwavering confidence in their capabilities to respond to questions and the accuracy of their responses. Furthermore, retrieval augmentation proves to be an effective approach in enhancing LLMs' awareness of knowledge boundaries, thereby improving their judgemental abilities. Additionally, we also find that LLMs have a propensity to rely on the provided retrieval results when formulating answers, while the quality of these results significantly impacts their reliance. The code to reproduce this work is available at https://github.com/RUCAIBox/LLM-Knowledge-Boundary.
-
-{{</citation>}}
-
-
-### (3/100) Integrating Pretrained ASR and LM to Perform Sequence Generation for Spoken Language Understanding (Siddhant Arora et al., 2023)
-
-{{<citation>}}
-
-Siddhant Arora, Hayato Futami, Yosuke Kashiwagi, Emiru Tsunoo, Brian Yan, Shinji Watanabe. (2023)  
-**Integrating Pretrained ASR and LM to Perform Sequence Generation for Spoken Language Understanding**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs-SD, cs.CL, eess-AS  
-Keywords: NLU, Spoken Language Understanding  
-[Paper Link](http://arxiv.org/abs/2307.11005v1)  
-
----
-
-
-**ABSTRACT**  
-There has been an increased interest in the integration of pretrained speech recognition (ASR) and language models (LM) into the SLU framework. However, prior methods often struggle with a vocabulary mismatch between pretrained models, and LM cannot be directly utilized as they diverge from its NLU formulation. In this study, we propose a three-pass end-to-end (E2E) SLU system that effectively integrates ASR and LM subnetworks into the SLU formulation for sequence generation tasks. In the first pass, our architecture predicts ASR transcripts using the ASR subnetwork. This is followed by the LM subnetwork, which makes an initial SLU prediction. Finally, in the third pass, the deliberation subnetwork conditions on representations from the ASR and LM subnetworks to make the final prediction. Our proposed three-pass SLU system shows improved performance over cascaded and E2E SLU models on two benchmark SLU datasets, SLURP and SLUE, especially on acoustically challenging utterances.
-
-{{</citation>}}
-
-
-### (4/100) Identical and Fraternal Twins: Fine-Grained Semantic Contrastive Learning of Sentence Representations (Qingfa Xiao et al., 2023)
-
-{{<citation>}}
-
-Qingfa Xiao, Shuangyin Li, Lei Chen. (2023)  
-**Identical and Fraternal Twins: Fine-Grained Semantic Contrastive Learning of Sentence Representations**  
-
----
-Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs.CL  
-Keywords: Contrastive Learning  
-[Paper Link](http://arxiv.org/abs/2307.10932v1)  
-
----
-
-
-**ABSTRACT**  
-The enhancement of unsupervised learning of sentence representations has been significantly achieved by the utility of contrastive learning. This approach clusters the augmented positive instance with the anchor instance to create a desired embedding space. However, relying solely on the contrastive objective can result in sub-optimal outcomes due to its inability to differentiate subtle semantic variations between positive pairs. Specifically, common data augmentation techniques frequently introduce semantic distortion, leading to a semantic margin between the positive pair. While the InfoNCE loss function overlooks the semantic margin and prioritizes similarity maximization between positive pairs during training, leading to the insensitive semantic comprehension ability of the trained model. In this paper, we introduce a novel Identical and Fraternal Twins of Contrastive Learning (named IFTCL) framework, capable of simultaneously adapting to various positive pairs generated by different augmentation techniques. We propose a \textit{Twins Loss} to preserve the innate margin during training and promote the potential of data enhancement in order to overcome the sub-optimal issue. We also present proof-of-concept experiments combined with the contrastive objective to prove the validity of the proposed Twins Loss. Furthermore, we propose a hippocampus queue mechanism to restore and reuse the negative instances without additional calculation, which further enhances the efficiency and performance of the IFCL. We verify the IFCL framework on nine semantic textual similarity tasks with both English and Chinese datasets, and the experimental results show that IFCL outperforms state-of-the-art methods.
-
-{{</citation>}}
-
-
-### (5/100) MediaGPT : A Large Language Model Target Chinese Media (Zhonghao Wang, 2023)
-
-{{<citation>}}
-
-Zhonghao Wang. (2023)  
-**MediaGPT : A Large Language Model Target Chinese Media**  
-
----
-Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs.CL  
-Keywords: GPT, Language Model, Transformer  
-[Paper Link](http://arxiv.org/abs/2307.10930v1)  
-
----
-
-
-**ABSTRACT**  
-The development of large language models (LLMs) has seen rapid progress in recent years. One of the most widely used LLMs is the Generative Pre-trained Transformer (GPT) series, which has been applied in various fields, including the media domain. However, in practical applications, the differences between the media's use cases and the general-purpose applications of LLMs have become increasingly apparent, especially Chinese. As a result, there is a growing need to develop LLM that are specifically tailored to the unique requirements of the media domain. In this paper, we present MediaGPT, a large language model training on variety of media data and addressing the practical needs of Chinese media. We have designed a diverse set of task instruction types to cater to the specific requirements of the domain. To further validate the effectiveness of our proposed LLM, we have constructed unique datasets that are tailored to the media domain and have also developed verification methods that are specifically designed for generative-type tasks. By doing so, we aim to bridge the gap between the general-purpose LLM and the requirements of the media domain, and to pave the way for more effective and efficient use of LLM in this field. This paper aims to explore the challenges and opportunities of developing LLM for media applications and to propose potential solutions for addressing these challenges.
-
-{{</citation>}}
-
-
-### (6/100) FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets (Seonghyeon Ye et al., 2023)
-
-{{<citation>}}
-
-Seonghyeon Ye, Doyoung Kim, Sungdong Kim, Hyeonbin Hwang, Seungone Kim, Yongrae Jo, James Thorne, Juho Kim, Minjoon Seo. (2023)  
-**FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets**  
-
----
-Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs.CL  
-Keywords: AI, Language Model  
-[Paper Link](http://arxiv.org/abs/2307.10928v1)  
-
----
-
-
-**ABSTRACT**  
-Evaluation of Large Language Models (LLMs) is challenging because aligning to human values requires the composition of multiple skills and the required set of skills varies depending on the instruction. Recent studies have evaluated the performance of LLMs in two ways, (1) automatic evaluation on several independent benchmarks and (2) human or machined-based evaluation giving an overall score to the response. However, both settings are coarse-grained evaluations, not considering the nature of user instructions that require instance-wise skill composition, which limits the interpretation of the true capabilities of LLMs. In this paper, we introduce FLASK (Fine-grained Language Model Evaluation based on Alignment SKill Sets), a fine-grained evaluation protocol that can be used for both model-based and human-based evaluation which decomposes coarse-level scoring to an instance-wise skill set-level. Specifically, we define 12 fine-grained skills needed for LLMs to follow open-ended user instructions and construct an evaluation set by allocating a set of skills for each instance. Additionally, by annotating the target domains and difficulty level for each instance, FLASK provides a holistic view with a comprehensive analysis of a model's performance depending on skill, domain, and difficulty. Through using FLASK, we compare multiple open-sourced and proprietary LLMs and observe highly-correlated findings between model-based and human-based evaluations. FLASK enables developers to more accurately measure the model performance and how it can be improved by analyzing factors that make LLMs proficient in particular skills. For practitioners, FLASK can be used to recommend suitable models for particular situations through comprehensive comparison among various LLMs. We release the evaluation data and code implementation at https://github.com/kaistAI/FLASK.
-
-{{</citation>}}
-
-
-### (7/100) FigCaps-HF: A Figure-to-Caption Generative Framework and Benchmark with Human Feedback (Ashish Singh et al., 2023)
-
-{{<citation>}}
-
-Ashish Singh, Prateek Agarwal, Zixuan Huang, Arpita Singh, Tong Yu, Sungchul Kim, Victor Bursztyn, Nikos Vlassis, Ryan A. Rossi. (2023)  
-**FigCaps-HF: A Figure-to-Caption Generative Framework and Benchmark with Human Feedback**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs-CV, cs-LG, cs.CL  
-Keywords: BLEU  
-[Paper Link](http://arxiv.org/abs/2307.10867v1)  
-
----
-
-
-**ABSTRACT**  
-Captions are crucial for understanding scientific visualizations and documents. Existing captioning methods for scientific figures rely on figure-caption pairs extracted from documents for training, many of which fall short with respect to metrics like helpfulness, explainability, and visual-descriptiveness [15] leading to generated captions being misaligned with reader preferences. To enable the generation of high-quality figure captions, we introduce FigCaps-HF a new framework for figure-caption generation that can incorporate domain expert feedback in generating captions optimized for reader preferences. Our framework comprises of 1) an automatic method for evaluating quality of figure-caption pairs, 2) a novel reinforcement learning with human feedback (RLHF) method to optimize a generative figure-to-caption model for reader preferences. We demonstrate the effectiveness of our simple learning framework by improving performance over standard fine-tuning across different types of models. In particular, when using BLIP as the base model, our RLHF framework achieves a mean gain of 35.7%, 16.9%, and 9% in ROUGE, BLEU, and Meteor, respectively. Finally, we release a large-scale benchmark dataset with human feedback on figure-caption pairs to enable further evaluation and development of RLHF techniques for this problem.
-
-{{</citation>}}
-
-
-### (8/100) Cross-Corpus Multilingual Speech Emotion Recognition: Amharic vs. Other Languages (Ephrem Afele Retta et al., 2023)
-
-{{<citation>}}
-
-Ephrem Afele Retta, Richard Sutcliffe, Jabar Mahmood, Michael Abebe Berwo, Eiad Almekhlafi, Sajjad Ahmed Khan, Shehzad Ashraf Chaudhry, Mustafa Mhamed, Jun Feng. (2023)  
-**Cross-Corpus Multilingual Speech Emotion Recognition: Amharic vs. Other Languages**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs-NE, cs-SD, cs.CL, eess-AS  
-Keywords: Emotion Recognition, Multilingual  
-[Paper Link](http://arxiv.org/abs/2307.10814v1)  
-
----
-
-
-**ABSTRACT**  
-In a conventional Speech emotion recognition (SER) task, a classifier for a given language is trained on a pre-existing dataset for that same language. However, where training data for a language does not exist, data from other languages can be used instead. We experiment with cross-lingual and multilingual SER, working with Amharic, English, German and URDU. For Amharic, we use our own publicly-available Amharic Speech Emotion Dataset (ASED). For English, German and Urdu we use the existing RAVDESS, EMO-DB and URDU datasets. We followed previous research in mapping labels for all datasets to just two classes, positive and negative. Thus we can compare performance on different languages directly, and combine languages for training and testing. In Experiment 1, monolingual SER trials were carried out using three classifiers, AlexNet, VGGE (a proposed variant of VGG), and ResNet50. Results averaged for the three models were very similar for ASED and RAVDESS, suggesting that Amharic and English SER are equally difficult. Similarly, German SER is more difficult, and Urdu SER is easier. In Experiment 2, we trained on one language and tested on another, in both directions for each pair: Amharic<->German, Amharic<->English, and Amharic<->Urdu. Results with Amharic as target suggested that using English or German as source will give the best result. In Experiment 3, we trained on several non-Amharic languages and then tested on Amharic. The best accuracy obtained was several percent greater than the best accuracy in Experiment 2, suggesting that a better result can be obtained when using two or three non-Amharic languages for training than when using just one non-Amharic language. Overall, the results suggest that cross-lingual and multilingual training can be an effective strategy for training a SER classifier when resources for a language are scarce.
-
-{{</citation>}}
-
-
-### (9/100) Layer-wise Representation Fusion for Compositional Generalization (Yafang Zheng et al., 2023)
-
-{{<citation>}}
-
-Yafang Zheng, Lei Lin, Zhaohong Lai, Binling Wang, Shan Liu, Biao Fu, Wenhao Rao, Peigen Ye, Yidong Chen, Xiaodong Shi. (2023)  
-**Layer-wise Representation Fusion for Compositional Generalization**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
-Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2307.10799v1)  
-
----
-
-
-**ABSTRACT**  
-Despite successes across a broad range of applications, sequence-to-sequence models' construct of solutions are argued to be less compositional than human-like generalization. There is mounting evidence that one of the reasons hindering compositional generalization is representations of the encoder and decoder uppermost layer are entangled. In other words, the syntactic and semantic representations of sequences are twisted inappropriately. However, most previous studies mainly concentrate on enhancing token-level semantic information to alleviate the representations entanglement problem, rather than composing and using the syntactic and semantic representations of sequences appropriately as humans do. In addition, we explain why the entanglement problem exists from the perspective of recent studies about training deeper Transformer, mainly owing to the ``shallow'' residual connections and its simple, one-step operations, which fails to fuse previous layers' information effectively. Starting from this finding and inspired by humans' strategies, we propose \textsc{FuSion} (\textbf{Fu}sing \textbf{S}yntactic and Semant\textbf{i}c Representati\textbf{on}s), an extension to sequence-to-sequence models to learn to fuse previous layers' information back into the encoding and decoding process appropriately through introducing a \emph{fuse-attention module} at each encoder and decoder layer. \textsc{FuSion} achieves competitive and even \textbf{state-of-the-art} results on two realistic benchmarks, which empirically demonstrates the effectiveness of our proposal.
-
-{{</citation>}}
-
-
-### (10/100) Extreme Multi-Label Skill Extraction Training using Large Language Models (Jens-Joris Decorte et al., 2023)
-
-{{<citation>}}
-
-Jens-Joris Decorte, Severine Verlinden, Jeroen Van Hautte, Johannes Deleu, Chris Develder, Thomas Demeester. (2023)  
-**Extreme Multi-Label Skill Extraction Training using Large Language Models**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
-Keywords: Language Model, NLP  
-[Paper Link](http://arxiv.org/abs/2307.10778v1)  
-
----
-
-
-**ABSTRACT**  
-Online job ads serve as a valuable source of information for skill requirements, playing a crucial role in labor market analysis and e-recruitment processes. Since such ads are typically formatted in free text, natural language processing (NLP) technologies are required to automatically process them. We specifically focus on the task of detecting skills (mentioned literally, or implicitly described) and linking them to a large skill ontology, making it a challenging case of extreme multi-label classification (XMLC). Given that there is no sizable labeled (training) dataset are available for this specific XMLC task, we propose techniques to leverage general Large Language Models (LLMs). We describe a cost-effective approach to generate an accurate, fully synthetic labeled dataset for skill extraction, and present a contrastive learning strategy that proves effective in the task. Our results across three skill extraction benchmarks show a consistent increase of between 15 to 25 percentage points in \textit{R-Precision@5} compared to previously published results that relied solely on distant supervision through literal matches.
-
-{{</citation>}}
-
-
-### (11/100) A Dataset and Strong Baselines for Classification of Czech News Texts (Hynek Kydlíček et al., 2023)
-
-{{<citation>}}
-
-Hynek Kydlíček, Jindřich Libovický. (2023)  
-**A Dataset and Strong Baselines for Classification of Czech News Texts**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
-Keywords: NER, Natural Language Processing  
-[Paper Link](http://arxiv.org/abs/2307.10666v1)  
-
----
-
-
-**ABSTRACT**  
-Pre-trained models for Czech Natural Language Processing are often evaluated on purely linguistic tasks (POS tagging, parsing, NER) and relatively simple classification tasks such as sentiment classification or article classification from a single news source. As an alternative, we present CZEch~NEws~Classification~dataset (CZE-NEC), one of the largest Czech classification datasets, composed of news articles from various sources spanning over twenty years, which allows a more rigorous evaluation of such models. We define four classification tasks: news source, news category, inferred author's gender, and day of the week. To verify the task difficulty, we conducted a human evaluation, which revealed that human performance lags behind strong machine-learning baselines built upon pre-trained transformer models. Furthermore, we show that language-specific pre-trained encoder analysis outperforms selected commercially available large-scale generative language models.
-
-{{</citation>}}
-
-
-### (12/100) Exploring the Landscape of Natural Language Processing Research (Tim Schopf et al., 2023)
-
-{{<citation>}}
-
-Tim Schopf, Karim Arabi, Florian Matthes. (2023)  
-**Exploring the Landscape of Natural Language Processing Research**  
-
----
-Primary Category: cs.CL  
-Categories: I-2-7, cs-CL, cs.CL  
-Keywords: NLP, Natural Language Processing  
-[Paper Link](http://arxiv.org/abs/2307.10652v1)  
-
----
-
-
-**ABSTRACT**  
-As an efficient approach to understand, generate, and process natural language texts, research in natural language processing (NLP) has exhibited a rapid spread and wide adoption in recent years. Given the increasing amount of research work in this area, several NLP-related approaches have been surveyed in the research community. However, a comprehensive study that categorizes established topics, identifies trends, and outlines areas for future research remains absent to this day. Contributing to closing this gap, we have systematically classified and analyzed research papers included in the ACL Anthology. As a result, we present a structured overview of the research landscape, provide a taxonomy of fields-of-study in NLP, analyze recent developments in NLP, summarize our findings, and highlight directions for future work.
-
-{{</citation>}}
-
-
-### (13/100) SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (Xiaoxuan Wang et al., 2023)
-
-{{<citation>}}
-
-Xiaoxuan Wang, Ziniu Hu, Pan Lu, Yanqiao Zhu, Jieyu Zhang, Satyen Subramaniam, Arjun R. Loomba, Shichang Zhang, Yizhou Sun, Wei Wang. (2023)  
-**SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models**  
-
----
-Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs-LG, cs.CL  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2307.10635v1)  
-
----
-
-
-**ABSTRACT**  
-Recent advances in large language models (LLMs) have demonstrated notable progress on many mathematical benchmarks. However, most of these benchmarks only feature problems grounded in junior and senior high school subjects, contain only multiple-choice questions, and are confined to a limited scope of elementary arithmetic operations. To address these issues, this paper introduces an expansive benchmark suite SciBench that aims to systematically examine the reasoning capabilities required for complex scientific problem solving. SciBench contains two carefully curated datasets: an open set featuring a range of collegiate-level scientific problems drawn from mathematics, chemistry, and physics textbooks, and a closed set comprising problems from undergraduate-level exams in computer science and mathematics. Based on the two datasets, we conduct an in-depth benchmark study of two representative LLMs with various prompting strategies. The results reveal that current LLMs fall short of delivering satisfactory performance, with an overall score of merely 35.80%. Furthermore, through a detailed user study, we categorize the errors made by LLMs into ten problem-solving abilities. Our analysis indicates that no single prompting strategy significantly outperforms others and some strategies that demonstrate improvements in certain problem-solving skills result in declines in other skills. We envision that SciBench will catalyze further developments in the reasoning abilities of LLMs, thereby ultimately contributing to scientific research and discovery.
-
-{{</citation>}}
-
-
-### (14/100) Multi-Method Self-Training: Improving Code Generation With Text, And Vice Versa (Shriyash K. Upadhyay et al., 2023)
-
-{{<citation>}}
-
-Shriyash K. Upadhyay, Etan J. Ginsberg. (2023)  
-**Multi-Method Self-Training: Improving Code Generation With Text, And Vice Versa**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs-LG, cs.CL  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2307.10633v1)  
-
----
-
-
-**ABSTRACT**  
-Large Language Models have many methods for solving the same problem. This introduces novel strengths (different methods may work well for different problems) and weaknesses (it may be difficult for users to know which method to use). In this paper, we introduce Multi-Method Self-Training (MMST), where one method is trained on the filtered outputs of another, allowing us to augment the strengths and ameliorate the weaknesses of each method. Using a 176B parameter model trained on both language and code, we show that MMST can 1) improve the less performant method (up to 30%) making the model easier to use, 2) improve the more performant method (up to 32.2%) making the model more performant, and 3) improve the performance of related but distinct tasks (up to 10.3%) by improving the ability of the model to generate rationales. We then conduct ablation analyses to explore why MMST works. We show that MMST generates more data than traditional self-training, but the improvement in performance is driven by the use of multiple methods. We also analyze prompt-engineering and anti-correlated performance between methods as means of making MMST more effective. We hope the evidence from our paper motivates machine learning researchers to explore ways in which advances in language models allow for new forms of training.
-
-{{</citation>}}
-
-
-### (15/100) A Deep Dive into the Disparity of Word Error Rates Across Thousands of NPTEL MOOC Videos (Anand Kumar Rai et al., 2023)
-
-{{<citation>}}
-
-Anand Kumar Rai, Siddharth D Jaiswal, Animesh Mukherjee. (2023)  
-**A Deep Dive into the Disparity of Word Error Rates Across Thousands of NPTEL MOOC Videos**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs-HC, cs.CL  
+Primary Category: q-bio.NC  
+Categories: cs-AI, q-bio-NC, q-bio.NC  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2307.10587v1)  
+[Paper Link](http://arxiv.org/abs/2307.11114v1)  
 
 ---
 
 
 **ABSTRACT**  
-Automatic speech recognition (ASR) systems are designed to transcribe spoken language into written text and find utility in a variety of applications including voice assistants and transcription services. However, it has been observed that state-of-the-art ASR systems which deliver impressive benchmark results, struggle with speakers of certain regions or demographics due to variation in their speech properties. In this work, we describe the curation of a massive speech dataset of 8740 hours consisting of $\sim9.8$K technical lectures in the English language along with their transcripts delivered by instructors representing various parts of Indian demography. The dataset is sourced from the very popular NPTEL MOOC platform. We use the curated dataset to measure the existing disparity in YouTube Automatic Captions and OpenAI Whisper model performance across the diverse demographic traits of speakers in India. While there exists disparity due to gender, native region, age and speech rate of speakers, disparity based on caste is non-existent. We also observe statistically significant disparity across the disciplines of the lectures. These results indicate the need of more inclusive and robust ASR systems and more representational datasets for disparity evaluation in them.
+The human brain is the substrate for human intelligence. By simulating the human brain, artificial intelligence builds computational models that have learning capabilities and perform intelligent tasks approaching the human level. Deep neural networks consist of multiple computation layers to learn representations of data and improve the state-of-the-art in many recognition domains. However, the essence of intelligence commonly represented by both humans and AI is unknown. Here, we show that the nature of intelligence is a series of mathematically functional processes that minimize system entropy by establishing functional relationships between datasets over space and time. Humans and AI have achieved intelligence by implementing these entropy-reducing processes in a reinforced manner that consumes energy. With this hypothesis, we establish mathematical models of language, unconsciousness and consciousness, predicting the evidence to be found by neuroscience and achieved by AI engineering. Furthermore, a conclusion is made that the total entropy of the universe is conservative, and intelligence counters the spontaneous processes to decrease entropy by physically or informationally connecting datasets that originally exist in the universe but are separated across space and time. This essay should be a starting point for a deeper understanding of the universe and us as human beings and for achieving sophisticated AI models that are tantamount to human intelligence or even superior. Furthermore, this essay argues that more advanced intelligence than humans should exist if only it reduces entropy in a more efficient energy-consuming way.
 
 {{</citation>}}
 
 
-### (16/100) Instruction-following Evaluation through Verbalizer Manipulation (Shiyang Li et al., 2023)
+### (2/118) Decoding the Enigma: Benchmarking Humans and AIs on the Many Facets of Working Memory (Ankur Sikarwar et al., 2023)
 
 {{<citation>}}
 
-Shiyang Li, Jun Yan, Hai Wang, Zheng Tang, Xiang Ren, Vijay Srinivasan, Hongxia Jin. (2023)  
-**Instruction-following Evaluation through Verbalizer Manipulation**  
+Ankur Sikarwar, Mengmi Zhang. (2023)  
+**Decoding the Enigma: Benchmarking Humans and AIs on the Many Facets of Working Memory**  
 
 ---
-Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
-Keywords: GPT, GPT-4  
-[Paper Link](http://arxiv.org/abs/2307.10558v1)  
+Primary Category: q-bio.NC  
+Categories: cs-AI, cs-CV, cs-LG, q-bio-NC, q-bio.NC  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2307.10768v1)  
 
 ---
 
 
 **ABSTRACT**  
-While instruction-tuned models have shown remarkable success in various natural language processing tasks, accurately evaluating their ability to follow instructions remains challenging. Existing benchmarks primarily focus on common instructions that align well with what the model learned during training. However, proficiency in responding to these instructions does not necessarily imply strong ability in instruction following. In this paper, we propose a novel instruction-following evaluation protocol called verbalizer manipulation. It instructs the model to verbalize the task label with words aligning with model priors to different extents, adopting verbalizers from highly aligned (e.g., outputting ``postive'' for positive sentiment), to minimally aligned (e.g., outputting ``negative'' for positive sentiment). Verbalizer manipulation can be seamlessly integrated with any classification benchmark to examine the model's reliance on priors and its ability to override them to accurately follow the instructions. We conduct a comprehensive evaluation of four major model families across nine datasets, employing twelve sets of verbalizers for each of them. We observe that the instruction-following abilities of models, across different families and scales, are significantly distinguished by their performance on less natural verbalizers. Even the strongest GPT-4 model struggles to perform better than random guessing on the most challenging verbalizer, emphasizing the need for continued advancements to improve their instruction-following abilities.
+Working memory (WM), a fundamental cognitive process facilitating the temporary storage, integration, manipulation, and retrieval of information, plays a vital role in reasoning and decision-making tasks. Robust benchmark datasets that capture the multifaceted nature of WM are crucial for the effective development and evaluation of AI WM models. Here, we introduce a comprehensive Working Memory (WorM) benchmark dataset for this purpose. WorM comprises 10 tasks and a total of 1 million trials, assessing 4 functionalities, 3 domains, and 11 behavioral and neural characteristics of WM. We jointly trained and tested state-of-the-art recurrent neural networks and transformers on all these tasks. We also include human behavioral benchmarks as an upper bound for comparison. Our results suggest that AI models replicate some characteristics of WM in the brain, most notably primacy and recency effects, and neural clusters and correlates specialized for different domains and functionalities of WM. In the experiments, we also reveal some limitations in existing models to approximate human behavior. This dataset serves as a valuable resource for communities in cognitive psychology, neuroscience, and AI, offering a standardized framework to compare and enhance WM models, investigate WM's neural underpinnings, and develop WM models with human-like capabilities. Our source code and data are available at https://github.com/ZhangLab-DeepNeuroCogLab/WorM.
 
 {{</citation>}}
 
 
-### (17/100) Gender-tuning: Empowering Fine-tuning for Debiasing Pre-trained Language Models (Somayeh Ghanbarzadeh et al., 2023)
+## cs.CV (34)
+
+
+
+### (3/118) SimCol3D -- 3D Reconstruction during Colonoscopy Challenge (Anita Rau et al., 2023)
 
 {{<citation>}}
 
-Somayeh Ghanbarzadeh, Yan Huang, Hamid Palangi, Radames Cruz Moreno, Hamed Khanpour. (2023)  
-**Gender-tuning: Empowering Fine-tuning for Debiasing Pre-trained Language Models**  
+Anita Rau, Sophia Bano, Yueming Jin, Pablo Azagra, Javier Morlana, Edward Sanderson, Bogdan J. Matuszewski, Jae Young Lee, Dong-Jae Lee, Erez Posner, Netanel Frank, Varshini Elangovan, Sista Raviteja, Zhengwen Li, Jiquan Liu, Seenivasan Lalithkumar, Mobarakol Islam, Hongliang Ren, José M. M. Montiel, Danail Stoyanov. (2023)  
+**SimCol3D -- 3D Reconstruction during Colonoscopy Challenge**  
 
 ---
-Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
+Primary Category: cs.CV  
+Categories: I-4-5, cs-CV, cs.CV  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2307.11261v1)  
+
+---
+
+
+**ABSTRACT**  
+Colorectal cancer is one of the most common cancers in the world. While colonoscopy is an effective screening technique, navigating an endoscope through the colon to detect polyps is challenging. A 3D map of the observed surfaces could enhance the identification of unscreened colon tissue and serve as a training platform. However, reconstructing the colon from video footage remains unsolved due to numerous factors such as self-occlusion, reflective surfaces, lack of texture, and tissue deformation that limit feature-based methods. Learning-based approaches hold promise as robust alternatives, but necessitate extensive datasets. By establishing a benchmark, the 2022 EndoVis sub-challenge SimCol3D aimed to facilitate data-driven depth and pose prediction during colonoscopy. The challenge was hosted as part of MICCAI 2022 in Singapore. Six teams from around the world and representatives from academia and industry participated in the three sub-challenges: synthetic depth prediction, synthetic pose prediction, and real pose prediction. This paper describes the challenge, the submitted methods, and their results. We show that depth prediction in virtual colonoscopy is robustly solvable, while pose estimation remains an open research question.
+
+{{</citation>}}
+
+
+### (4/118) UP-DP: Unsupervised Prompt Learning for Data Pre-Selection with Vision-Language Models (Xin Li et al., 2023)
+
+{{<citation>}}
+
+Xin Li, Sima Behpour, Thang Doan, Wenbin He, Liang Gou, Liu Ren. (2023)  
+**UP-DP: Unsupervised Prompt Learning for Data Pre-Selection with Vision-Language Models**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2307.10522v1)  
+[Paper Link](http://arxiv.org/abs/2307.11227v1)  
 
 ---
 
 
 **ABSTRACT**  
-Recent studies have revealed that the widely-used Pre-trained Language Models (PLMs) propagate societal biases from the large unmoderated pre-training corpora. Existing solutions require debiasing training processes and datasets for debiasing, which are resource-intensive and costly. Furthermore, these methods hurt the PLMs' performance on downstream tasks. In this study, we propose Gender-tuning, which debiases the PLMs through fine-tuning on downstream tasks' datasets. For this aim, Gender-tuning integrates Masked Language Modeling (MLM) training objectives into fine-tuning's training process. Comprehensive experiments show that Gender-tuning outperforms the state-of-the-art baselines in terms of average gender bias scores in PLMs while improving PLMs' performance on downstream tasks solely using the downstream tasks' dataset. Also, Gender-tuning is a deployable debiasing tool for any PLM that works with original fine-tuning.
+In this study, we investigate the task of data pre-selection, which aims to select instances for labeling from an unlabeled dataset through a single pass, thereby optimizing performance for undefined downstream tasks with a limited annotation budget. Previous approaches to data pre-selection relied solely on visual features extracted from foundation models, such as CLIP and BLIP-2, but largely ignored the powerfulness of text features. In this work, we argue that, with proper design, the joint feature space of both vision and text can yield a better representation for data pre-selection. To this end, we introduce UP-DP, a simple yet effective unsupervised prompt learning approach that adapts vision-language models, like BLIP-2, for data pre-selection. Specifically, with the BLIP-2 parameters frozen, we train text prompts to extract the joint features with improved representation, ensuring a diverse cluster structure that covers the entire dataset. We extensively compare our method with the state-of-the-art using seven benchmark datasets in different settings, achieving up to a performance gain of 20%. Interestingly, the prompts learned from one dataset demonstrate significant generalizability and can be applied directly to enhance the feature extraction of BLIP-2 from other datasets. To the best of our knowledge, UP-DP is the first work to incorporate unsupervised prompt learning in a vision-language model for data pre-selection.
 
 {{</citation>}}
 
 
-### (18/100) IvyGPT: InteractiVe Chinese pathwaY language model in medical domain (Rongsheng Wang et al., 2023)
+### (5/118) Heuristic Hyperparameter Choice for Image Anomaly Detection (Zeyu Jiang et al., 2023)
 
 {{<citation>}}
 
-Rongsheng Wang, Yaofei Duan, ChanTong Lam, Jiexi Chen, Jiangsheng Xu, Haoming Chen, Xiaohong Liu, Patrick Cheong-Iao Pang, Tao Tan. (2023)  
-**IvyGPT: InteractiVe Chinese pathwaY language model in medical domain**  
+Zeyu Jiang, João P. C. Bertoldo, Etienne Decencière. (2023)  
+**Heuristic Hyperparameter Choice for Image Anomaly Detection**  
 
 ---
-Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs.CL  
-Keywords: ChatGPT, GPT, LLaMA, QA, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2307.10512v1)  
-
----
-
-
-**ABSTRACT**  
-General large language models (LLMs) such as ChatGPT have shown remarkable success. However, such LLMs have not been widely adopted for medical purposes, due to poor accuracy and inability to provide medical advice. We propose IvyGPT, an LLM based on LLaMA that is trained and fine-tuned with high-quality medical question-answer (QA) instances and Reinforcement Learning from Human Feedback (RLHF). After supervised fine-tuning, IvyGPT has good multi-turn conversation capabilities, but it cannot perform like a doctor in other aspects, such as comprehensive diagnosis. Through RLHF, IvyGPT can output richer diagnosis and treatment answers that are closer to human. In the training, we used QLoRA to train 33 billion parameters on a small number of NVIDIA A100 (80GB) GPUs. Experimental results show that IvyGPT has outperformed other medical GPT models.
-
-{{</citation>}}
-
-
-### (19/100) General Debiasing for Multimodal Sentiment Analysis (Teng Sun et al., 2023)
-
-{{<citation>}}
-
-Teng Sun, Juntong Ni, Wenjie Wang, Liqiang Jing, Yinwei Wei, Liqiang Nie. (2023)  
-**General Debiasing for Multimodal Sentiment Analysis**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
-Keywords: Sentiment Analysis  
-[Paper Link](http://arxiv.org/abs/2307.10511v1)  
+Primary Category: cs.CV  
+Categories: cs-CV, cs-LG, cs.CV  
+Keywords: Anomaly Detection, ImageNet  
+[Paper Link](http://arxiv.org/abs/2307.11197v1)  
 
 ---
 
 
 **ABSTRACT**  
-Existing work on Multimodal Sentiment Analysis (MSA) utilizes multimodal information for prediction yet unavoidably suffers from fitting the spurious correlations between multimodal features and sentiment labels. For example, if most videos with a blue background have positive labels in a dataset, the model will rely on such correlations for prediction, while ``blue background'' is not a sentiment-related feature. To address this problem, we define a general debiasing MSA task, which aims to enhance the Out-Of-Distribution (OOD) generalization ability of MSA models by reducing their reliance on spurious correlations. To this end, we propose a general debiasing framework based on Inverse Probability Weighting (IPW), which adaptively assigns small weights to the samples with larger bias i.e., the severer spurious correlations). The key to this debiasing framework is to estimate the bias of each sample, which is achieved by two steps: 1) disentangling the robust features and biased features in each modality, and 2) utilizing the biased features to estimate the bias. Finally, we employ IPW to reduce the effects of large-biased samples, facilitating robust feature learning for sentiment prediction. To examine the model's generalization ability, we keep the original testing sets on two benchmarks and additionally construct multiple unimodal and multimodal OOD testing sets. The empirical results demonstrate the superior generalization ability of our proposed framework. We have released the code and data to facilitate the reproduction.
+Anomaly detection (AD) in images is a fundamental computer vision problem by deep learning neural network to identify images deviating significantly from normality. The deep features extracted from pretrained models have been proved to be essential for AD based on multivariate Gaussian distribution analysis. However, since models are usually pretrained on a large dataset for classification tasks such as ImageNet, they might produce lots of redundant features for AD, which increases computational cost and degrades the performance. We aim to do the dimension reduction of Negated Principal Component Analysis (NPCA) for these features. So we proposed some heuristic to choose hyperparameter of NPCA algorithm for getting as fewer components of features as possible while ensuring a good performance.
 
 {{</citation>}}
 
 
-## cs.CV (30)
-
-
-
-### (20/100) PAPR: Proximity Attention Point Rendering (Yanshu Zhang et al., 2023)
+### (6/118) PAPR: Proximity Attention Point Rendering (Yanshu Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -488,7 +183,7 @@ Learning accurate and parsimonious point cloud representations of scene surfaces
 {{</citation>}}
 
 
-### (21/100) GLSFormer: Gated - Long, Short Sequence Transformer for Step Recognition in Surgical Videos (Nisarg A. Shah et al., 2023)
+### (7/118) GLSFormer: Gated - Long, Short Sequence Transformer for Step Recognition in Surgical Videos (Nisarg A. Shah et al., 2023)
 
 {{<citation>}}
 
@@ -510,7 +205,7 @@ Automated surgical step recognition is an important task that can significantly 
 {{</citation>}}
 
 
-### (22/100) AlignDet: Aligning Pre-training and Fine-tuning in Object Detection (Ming Li et al., 2023)
+### (8/118) AlignDet: Aligning Pre-training and Fine-tuning in Object Detection (Ming Li et al., 2023)
 
 {{<citation>}}
 
@@ -532,7 +227,29 @@ The paradigm of large-scale pre-training followed by downstream fine-tuning has 
 {{</citation>}}
 
 
-### (23/100) Cascade-DETR: Delving into High-Quality Universal Object Detection (Mingqiao Ye et al., 2023)
+### (9/118) Towards General Game Representations: Decomposing Games Pixels into Content and Style (Chintan Trivedi et al., 2023)
+
+{{<citation>}}
+
+Chintan Trivedi, Konstantinos Makantasis, Antonios Liapis, Georgios N. Yannakakis. (2023)  
+**Towards General Game Representations: Decomposing Games Pixels into Content and Style**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2307.11141v1)  
+
+---
+
+
+**ABSTRACT**  
+On-screen game footage contains rich contextual information that players process when playing and experiencing a game. Learning pixel representations of games can benefit artificial intelligence across several downstream tasks including game-playing agents, procedural content generation, and player modelling. The generalizability of these methods, however, remains a challenge, as learned representations should ideally be shared across games with similar game mechanics. This could allow, for instance, game-playing agents trained on one game to perform well in similar games with no re-training. This paper explores how generalizable pre-trained computer vision encoders can be for such tasks, by decomposing the latent space into content embeddings and style embeddings. The goal is to minimize the domain gap between games of the same genre when it comes to game content critical for downstream tasks, and ignore differences in graphical style. We employ a pre-trained Vision Transformer encoder and a decomposition technique based on game genres to obtain separate content and style embeddings. Our findings show that the decomposed embeddings achieve style invariance across multiple games while still maintaining strong content extraction capabilities. We argue that the proposed decomposition of content and style offers better generalization capacities across game environments independently of the downstream task.
+
+{{</citation>}}
+
+
+### (10/118) Cascade-DETR: Delving into High-Quality Universal Object Detection (Mingqiao Ye et al., 2023)
 
 {{<citation>}}
 
@@ -554,7 +271,7 @@ Object localization in general environments is a fundamental part of vision syst
 {{</citation>}}
 
 
-### (24/100) PE-YOLO: Pyramid Enhancement Network for Dark Object Detection (Xiangchen Yin et al., 2023)
+### (11/118) PE-YOLO: Pyramid Enhancement Network for Dark Object Detection (Xiangchen Yin et al., 2023)
 
 {{<citation>}}
 
@@ -576,7 +293,7 @@ Current object detection models have achieved good results on many benchmark dat
 {{</citation>}}
 
 
-### (25/100) OCTraN: 3D Occupancy Convolutional Transformer Network in Unstructured Traffic Scenarios (Aditya Nalgunda Ganesh et al., 2023)
+### (12/118) OCTraN: 3D Occupancy Convolutional Transformer Network in Unstructured Traffic Scenarios (Aditya Nalgunda Ganesh et al., 2023)
 
 {{<citation>}}
 
@@ -598,7 +315,7 @@ Modern approaches for vision-centric environment perception for autonomous navig
 {{</citation>}}
 
 
-### (26/100) Language-based Action Concept Spaces Improve Video Self-Supervised Learning (Kanchana Ranasinghe et al., 2023)
+### (13/118) Language-based Action Concept Spaces Improve Video Self-Supervised Learning (Kanchana Ranasinghe et al., 2023)
 
 {{<citation>}}
 
@@ -620,7 +337,7 @@ Recent contrastive language image pre-training has led to learning highly transf
 {{</citation>}}
 
 
-### (27/100) Divide & Bind Your Attention for Improved Generative Semantic Nursing (Yumeng Li et al., 2023)
+### (14/118) Divide & Bind Your Attention for Improved Generative Semantic Nursing (Yumeng Li et al., 2023)
 
 {{<citation>}}
 
@@ -642,7 +359,7 @@ Emerging large-scale text-to-image generative models, e.g., Stable Diffusion (SD
 {{</citation>}}
 
 
-### (28/100) Label Calibration for Semantic Segmentation Under Domain Shift (Ondrej Bohdal et al., 2023)
+### (15/118) Label Calibration for Semantic Segmentation Under Domain Shift (Ondrej Bohdal et al., 2023)
 
 {{<citation>}}
 
@@ -664,7 +381,7 @@ Performance of a pre-trained semantic segmentation model is likely to substantia
 {{</citation>}}
 
 
-### (29/100) Gradient-Semantic Compensation for Incremental Semantic Segmentation (Wei Cong et al., 2023)
+### (16/118) Gradient-Semantic Compensation for Incremental Semantic Segmentation (Wei Cong et al., 2023)
 
 {{<citation>}}
 
@@ -686,7 +403,7 @@ Incremental semantic segmentation aims to continually learn the segmentation of 
 {{</citation>}}
 
 
-### (30/100) Perceptual Quality Assessment of Omnidirectional Audio-visual Signals (Xilei Zhu et al., 2023)
+### (17/118) Perceptual Quality Assessment of Omnidirectional Audio-visual Signals (Xilei Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -708,7 +425,7 @@ Omnidirectional videos (ODVs) play an increasingly important role in the applica
 {{</citation>}}
 
 
-### (31/100) Meta-Transformer: A Unified Framework for Multimodal Learning (Yiyuan Zhang et al., 2023)
+### (18/118) Meta-Transformer: A Unified Framework for Multimodal Learning (Yiyuan Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -730,7 +447,7 @@ Multimodal learning aims to build models that can process and relate information
 {{</citation>}}
 
 
-### (32/100) Optimizing PatchCore for Few/many-shot Anomaly Detection (João Santos et al., 2023)
+### (19/118) Optimizing PatchCore for Few/many-shot Anomaly Detection (João Santos et al., 2023)
 
 {{<citation>}}
 
@@ -752,7 +469,7 @@ Few-shot anomaly detection (AD) is an emerging sub-field of general AD, and trie
 {{</citation>}}
 
 
-### (33/100) SMURF: Spatial Multi-Representation Fusion for 3D Object Detection with 4D Imaging Radar (Jianan Liu et al., 2023)
+### (20/118) SMURF: Spatial Multi-Representation Fusion for 3D Object Detection with 4D Imaging Radar (Jianan Liu et al., 2023)
 
 {{<citation>}}
 
@@ -774,7 +491,7 @@ The 4D Millimeter wave (mmWave) radar is a promising technology for vehicle sens
 {{</citation>}}
 
 
-### (34/100) Learned Thresholds Token Merging and Pruning for Vision Transformers (Maxim Bonnaerens et al., 2023)
+### (21/118) Learned Thresholds Token Merging and Pruning for Vision Transformers (Maxim Bonnaerens et al., 2023)
 
 {{<citation>}}
 
@@ -796,7 +513,7 @@ Vision transformers have demonstrated remarkable success in a wide range of comp
 {{</citation>}}
 
 
-### (35/100) EdgeAL: An Edge Estimation Based Active Learning Approach for OCT Segmentation (Md Abdul Kadir et al., 2023)
+### (22/118) EdgeAL: An Edge Estimation Based Active Learning Approach for OCT Segmentation (Md Abdul Kadir et al., 2023)
 
 {{<citation>}}
 
@@ -818,7 +535,7 @@ Active learning algorithms have become increasingly popular for training models 
 {{</citation>}}
 
 
-### (36/100) Reverse Knowledge Distillation: Training a Large Model using a Small One for Retinal Image Matching on Limited Data (Sahar Almahfouz Nasser et al., 2023)
+### (23/118) Reverse Knowledge Distillation: Training a Large Model using a Small One for Retinal Image Matching on Limited Data (Sahar Almahfouz Nasser et al., 2023)
 
 {{<citation>}}
 
@@ -829,7 +546,7 @@ Sahar Almahfouz Nasser, Nihar Gupte, Amit Sethi. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Knowledge Distillation  
-[Paper Link](http://arxiv.org/abs/2307.10698v1)  
+[Paper Link](http://arxiv.org/abs/2307.10698v2)  
 
 ---
 
@@ -840,7 +557,7 @@ Retinal image matching plays a crucial role in monitoring disease progression an
 {{</citation>}}
 
 
-### (37/100) SqueezerFaceNet: Reducing a Small Face Recognition CNN Even More Via Filter Pruning (Fernando Alonso-Fernandez et al., 2023)
+### (24/118) SqueezerFaceNet: Reducing a Small Face Recognition CNN Even More Via Filter Pruning (Fernando Alonso-Fernandez et al., 2023)
 
 {{<citation>}}
 
@@ -862,7 +579,7 @@ The widespread use of mobile devices for various digital services has created a 
 {{</citation>}}
 
 
-### (38/100) Self2Self+: Single-Image Denoising with Self-Supervised Learning and Image Quality Assessment Loss (Jaekyun Ko et al., 2023)
+### (25/118) Self2Self+: Single-Image Denoising with Self-Supervised Learning and Image Quality Assessment Loss (Jaekyun Ko et al., 2023)
 
 {{<citation>}}
 
@@ -884,7 +601,7 @@ Recently, denoising methods based on supervised learning have exhibited promisin
 {{</citation>}}
 
 
-### (39/100) Pre-train, Adapt and Detect: Multi-Task Adapter Tuning for Camouflaged Object Detection (Yinghui Xing et al., 2023)
+### (26/118) Pre-train, Adapt and Detect: Multi-Task Adapter Tuning for Camouflaged Object Detection (Yinghui Xing et al., 2023)
 
 {{<citation>}}
 
@@ -906,7 +623,7 @@ Camouflaged object detection (COD), aiming to segment camouflaged objects which 
 {{</citation>}}
 
 
-### (40/100) RetouchingFFHQ: A Large-scale Dataset for Fine-grained Face Retouching Detection (Qichao Ying et al., 2023)
+### (27/118) RetouchingFFHQ: A Large-scale Dataset for Fine-grained Face Retouching Detection (Qichao Ying et al., 2023)
 
 {{<citation>}}
 
@@ -928,7 +645,7 @@ The widespread use of face retouching filters on short-video platforms has raise
 {{</citation>}}
 
 
-### (41/100) Quantized Feature Distillation for Network Quantization (Ke Zhu et al., 2023)
+### (28/118) Quantized Feature Distillation for Network Quantization (Ke Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -950,7 +667,7 @@ Neural network quantization aims to accelerate and trim full-precision neural ne
 {{</citation>}}
 
 
-### (42/100) Joint Skeletal and Semantic Embedding Loss for Micro-gesture Classification (Kun Li et al., 2023)
+### (29/118) Joint Skeletal and Semantic Embedding Loss for Micro-gesture Classification (Kun Li et al., 2023)
 
 {{<citation>}}
 
@@ -972,7 +689,7 @@ In this paper, we briefly introduce the solution of our team HFUT-VUT for the Mi
 {{</citation>}}
 
 
-### (43/100) Hybrid Feature Embedding For Automatic Building Outline Extraction (Weihang Ran et al., 2023)
+### (30/118) Hybrid Feature Embedding For Automatic Building Outline Extraction (Weihang Ran et al., 2023)
 
 {{<citation>}}
 
@@ -994,7 +711,7 @@ Building outline extracted from high-resolution aerial images can be used in var
 {{</citation>}}
 
 
-### (44/100) SCA-PVNet: Self-and-Cross Attention Based Aggregation of Point Cloud and Multi-View for 3D Object Retrieval (Dongyun Lin et al., 2023)
+### (31/118) SCA-PVNet: Self-and-Cross Attention Based Aggregation of Point Cloud and Multi-View for 3D Object Retrieval (Dongyun Lin et al., 2023)
 
 {{<citation>}}
 
@@ -1016,29 +733,29 @@ To address 3D object retrieval, substantial efforts have been made to generate h
 {{</citation>}}
 
 
-### (45/100) Ethosight: A Joint-Embedding Based System for Nuanced Perception Using Contextual Label Affinity Metric and Reasoning Based Iterative Learning (Hugo Latapie et al., 2023)
+### (32/118) Ethosight: A Reasoning-Guided Iterative Learning System for Nuanced Perception based on Joint-Embedding & Contextual Label Affinity (Hugo Latapie et al., 2023)
 
 {{<citation>}}
 
 Hugo Latapie, Kristinn R. Thorisson, Shan Yu, Vahagn Petrosyan, Patrick Hammer, Pei Wang, Brandon Kynoch, Hanning Chen, Tangrui Li. (2023)  
-**Ethosight: A Joint-Embedding Based System for Nuanced Perception Using Contextual Label Affinity Metric and Reasoning Based Iterative Learning**  
+**Ethosight: A Reasoning-Guided Iterative Learning System for Nuanced Perception based on Joint-Embedding & Contextual Label Affinity**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Embedding, GPT, Reasoning  
-[Paper Link](http://arxiv.org/abs/2307.10577v1)  
+[Paper Link](http://arxiv.org/abs/2307.10577v2)  
 
 ---
 
 
 **ABSTRACT**  
-Traditional computer vision models often require extensive manual effort for data acquisition and validation, particularly when detecting subtle behavioral nuances or events. The difficulty in distinguishing routine behaviors from potential risks in real-world applications, like differentiating routine shopping from potential shoplifting, further complicates the process.   We present Ethosight, a novel zero-shot computer vision algorithm. Ethosight eradicates the need for pre-existing symbolic knowledge, initiating from a clean slate based on user requirements and semantic knowledge of interest. Using localized label affinity calculations and a reasoning-guided iterative learning loop, Ethosight infers scene details and iteratively refines the label set. Reasoning mechanisms can be derived from large language models like GPT4, symbolic reasoners like OpenNARS, or hybrid systems.   Ethosight further capitalizes on the capabilities of a pre-trained multi-modal model, ImageBind, generating accurate semantic knowledge of images within a few cycles. It successfully captures both explicit and nuanced elements efficiently. We also introduce the implementation of Korzybski's "time-binding" concept in machines, which allows for generational learning and knowledge sharing across deployments.   Our evaluations demonstrate Ethosight's efficacy across 40 complex use cases. It has exhibited an exceptional ability to discern new areas of interest, consistently generating high-affinity scores within the top five labels from a set of a thousand. Tests conducted across diverse environments attest to Ethosight's robust performance. Detailed results and case studies within the main body of this paper and an appendix underscore a promising trajectory towards enhancing the adaptability and resilience of computer vision models in detecting and extracting subtle and nuanced behaviors.
+Traditional computer vision models often require extensive manual effort for data acquisition, annotation and validation, particularly when detecting subtle behavioral nuances or events. The difficulty in distinguishing routine behaviors from potential risks in real-world applications, such as differentiating routine shopping from potential shoplifting, further complicates the process. Moreover, these models may demonstrate high false positive rates and imprecise event detection when exposed to real-world scenarios that differ significantly from the conditions of the training data.   To overcome these hurdles, we present Ethosight, a novel zero-shot computer vision system. Ethosight initiates with a clean slate based on user requirements and semantic knowledge of interest. Using localized label affinity calculations and a reasoning-guided iterative learning loop, Ethosight infers scene details and iteratively refines the label set. Reasoning mechanisms can be derived from large language models like GPT4, symbolic reasoners like OpenNARS\cite{wang2013}\cite{wang2006}, or hybrid systems.   Our evaluations demonstrate Ethosight's efficacy across 40 complex use cases, spanning domains such as health, safety, and security. Detailed results and case studies within the main body of this paper and an appendix underscore a promising trajectory towards enhancing the adaptability and resilience of computer vision models in detecting and extracting subtle and nuanced behaviors.
 
 {{</citation>}}
 
 
-### (46/100) No-frills Temporal Video Grounding: Multi-Scale Neighboring Attention and Zoom-in Boundary Detection (Qi Zhang et al., 2023)
+### (33/118) No-frills Temporal Video Grounding: Multi-Scale Neighboring Attention and Zoom-in Boundary Detection (Qi Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1060,7 +777,7 @@ Temporal video grounding (TVG) aims to retrieve the time interval of a language 
 {{</citation>}}
 
 
-### (47/100) EMQ: Evolving Training-free Proxies for Automated Mixed Precision Quantization (Peijie Dong et al., 2023)
+### (34/118) EMQ: Evolving Training-free Proxies for Automated Mixed Precision Quantization (Peijie Dong et al., 2023)
 
 {{<citation>}}
 
@@ -1082,7 +799,7 @@ Mixed-Precision Quantization~(MQ) can achieve a competitive accuracy-complexity 
 {{</citation>}}
 
 
-### (48/100) Dynamic Large Language Models on Blockchains (Yuanhao Gong, 2023)
+### (35/118) Dynamic Large Language Models on Blockchains (Yuanhao Gong, 2023)
 
 {{<citation>}}
 
@@ -1104,7 +821,7 @@ Training and deploying the large language models requires a large mount of compu
 {{</citation>}}
 
 
-### (49/100) Identifying Interpretable Subspaces in Image Representations (Neha Kalibhat et al., 2023)
+### (36/118) Identifying Interpretable Subspaces in Image Representations (Neha Kalibhat et al., 2023)
 
 {{<citation>}}
 
@@ -1126,11 +843,639 @@ We propose Automatic Feature Explanation using Contrasting Concepts (FALCON), an
 {{</citation>}}
 
 
-## cs.LG (15)
+## cs.CL (22)
 
 
 
-### (50/100) Representation Learning in Anomaly Detection: Successes, Limits and a Grand Challenge (Yedid Hoshen, 2023)
+### (37/118) A Systematic Evaluation of Federated Learning on Biomedical Natural Language Processing (Le Peng et al., 2023)
+
+{{<citation>}}
+
+Le Peng, sicheng zhou, jiandong chen, Rui Zhang, Ziyue Xu, Ju Sun. (2023)  
+**A Systematic Evaluation of Federated Learning on Biomedical Natural Language Processing**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: BERT, GPT, NLP, Natural Language Processing  
+[Paper Link](http://arxiv.org/abs/2307.11254v1)  
+
+---
+
+
+**ABSTRACT**  
+Language models (LMs) like BERT and GPT have revolutionized natural language processing (NLP). However, privacy-sensitive domains, particularly the medical field, face challenges to train LMs due to limited data access and privacy constraints imposed by regulations like the Health Insurance Portability and Accountability Act (HIPPA) and the General Data Protection Regulation (GDPR). Federated learning (FL) offers a decentralized solution that enables collaborative learning while ensuring the preservation of data privacy. In this study, we systematically evaluate FL in medicine across $2$ biomedical NLP tasks using $6$ LMs encompassing $8$ corpora. Our results showed that: 1) FL models consistently outperform LMs trained on individual client's data and sometimes match the model trained with polled data; 2) With the fixed number of total data, LMs trained using FL with more clients exhibit inferior performance, but pre-trained transformer-based models exhibited greater resilience. 3) LMs trained using FL perform nearly on par with the model trained with pooled data when clients' data are IID distributed while exhibiting visible gaps with non-IID data. Our code is available at: https://github.com/PL97/FedNLP
+
+{{</citation>}}
+
+
+### (38/118) Jina Embeddings: A Novel Set of High-Performance Sentence Embedding Models (Michael Günther et al., 2023)
+
+{{<citation>}}
+
+Michael Günther, Louis Milliken, Jonathan Geuter, Georgios Mastrapas, Bo Wang, Han Xiao. (2023)  
+**Jina Embeddings: A Novel Set of High-Performance Sentence Embedding Models**  
+
+---
+Primary Category: cs.CL  
+Categories: 68T50, H-3-1; H-3-3; I-2-7; I-5-4, cs-AI, cs-CL, cs-IR, cs-LG, cs.CL  
+Keywords: Embedding, Sentence Embedding  
+[Paper Link](http://arxiv.org/abs/2307.11224v1)  
+
+---
+
+
+**ABSTRACT**  
+Jina Embeddings constitutes a set of high-performance sentence embedding models adept at translating various textual inputs into numerical representations, thereby capturing the semantic essence of the text. While these models are not exclusively designed for text generation, they excel in applications such as dense retrieval and semantic textual similarity. This paper details the development of Jina Embeddings, starting with the creation of a high-quality pairwise and triplet dataset. It underlines the crucial role of data cleaning in dataset preparation, gives in-depth insights into the model training process, and concludes with a comprehensive performance evaluation using the Massive Textual Embedding Benchmark (MTEB).
+
+{{</citation>}}
+
+
+### (39/118) UMLS-KGI-BERT: Data-Centric Knowledge Integration in Transformers for Biomedical Entity Recognition (Aidan Mannion et al., 2023)
+
+{{<citation>}}
+
+Aidan Mannion, Thierry Chevalier, Didier Schwab, Lorraine Geouriot. (2023)  
+**UMLS-KGI-BERT: Data-Centric Knowledge Integration in Transformers for Biomedical Entity Recognition**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: BERT, NER, NLP, Named Entity Recognition, Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2307.11170v1)  
+
+---
+
+
+**ABSTRACT**  
+Pre-trained transformer language models (LMs) have in recent years become the dominant paradigm in applied NLP. These models have achieved state-of-the-art performance on tasks such as information extraction, question answering, sentiment analysis, document classification and many others. In the biomedical domain, significant progress has been made in adapting this paradigm to NLP tasks that require the integration of domain-specific knowledge as well as statistical modelling of language. In particular, research in this area has focused on the question of how best to construct LMs that take into account not only the patterns of token distribution in medical text, but also the wealth of structured information contained in terminology resources such as the UMLS. This work contributes a data-centric paradigm for enriching the language representations of biomedical transformer-encoder LMs by extracting text sequences from the UMLS. This allows for graph-based learning objectives to be combined with masked-language pre-training. Preliminary results from experiments in the extension of pre-trained LMs as well as training from scratch show that this framework improves downstream performance on multiple biomedical and clinical Named Entity Recognition (NER) tasks.
+
+{{</citation>}}
+
+
+### (40/118) L-Eval: Instituting Standardized Evaluation for Long Context Language Models (Chenxin An et al., 2023)
+
+{{<citation>}}
+
+Chenxin An, Shansan Gong, Ming Zhong, Mukai Li, Jun Zhang, Lingpeng Kong, Xipeng Qiu. (2023)  
+**L-Eval: Instituting Standardized Evaluation for Long Context Language Models**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: GLM, GPT, GPT-4, LLaMA, Language Model  
+[Paper Link](http://arxiv.org/abs/2307.11088v1)  
+
+---
+
+
+**ABSTRACT**  
+Recently, there has been growing interest in extending the context length of instruction-following models in order to effectively process single-turn long input (e.g. summarizing a paper) and conversations with more extensive histories. While proprietary models such as GPT-4 and Claude have demonstrated considerable advancements in handling tens of thousands of tokens of context, open-sourced models are still in the early stages of experimentation. It also remains unclear whether developing these long context models can offer substantial gains on practical downstream tasks over retrieval-based methods or models simply trained on chunked contexts. To address this challenge, we propose to institute standardized evaluation for long context language models. Concretely, we develop L-Eval which contains 411 long documents and over 2,000 query-response pairs manually annotated and checked by the authors encompassing areas such as law, finance, school lectures, lengthy conversations, news, long-form novels, and meetings. L-Eval also adopts diverse evaluation methods and instruction styles, enabling a more reliable assessment of Long Context Language Models (LCLMs). Our findings indicate that while open-source models typically lag behind their commercial counterparts, they still exhibit impressive performance. LLaMA2 achieves the best results (win 45\% vs turbo-16k) on open-ended tasks with only 4k context length and ChatGLM2 achieves the best results on closed-ended tasks with 8k input tokens. We release our new evaluation suite, code, and all generation results including predictions from all open-sourced LCLMs, GPT4-32k, Cluade-100k at {\url{https://github.com/OpenLMLab/LEval}}.
+
+{{</citation>}}
+
+
+### (41/118) Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation (Ruiyang Ren et al., 2023)
+
+{{<citation>}}
+
+Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu, Hao Tian, Hua Wu, Ji-Rong Wen, Haifeng Wang. (2023)  
+**Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-IR, cs.CL  
+Keywords: AI, Augmentation, ChatGPT, GPT, Language Model, QA  
+[Paper Link](http://arxiv.org/abs/2307.11019v1)  
+
+---
+
+
+**ABSTRACT**  
+Knowledge-intensive tasks (e.g., open-domain question answering (QA)) require a substantial amount of factual knowledge and often rely on external information for assistance. Recently, large language models (LLMs) (e.g., ChatGPT), have demonstrated impressive prowess in solving a wide range of tasks with world knowledge, including knowledge-intensive tasks. However, it remains unclear how well LLMs are able to perceive their factual knowledge boundaries, particularly how they behave when incorporating retrieval augmentation. In this study, we present an initial analysis of the factual knowledge boundaries of LLMs and how retrieval augmentation affects LLMs on open-domain QA. Specially, we focus on three primary research questions and analyze them by examining QA performance, priori judgement and posteriori judgement of LLMs. We show evidence that LLMs possess unwavering confidence in their capabilities to respond to questions and the accuracy of their responses. Furthermore, retrieval augmentation proves to be an effective approach in enhancing LLMs' awareness of knowledge boundaries, thereby improving their judgemental abilities. Additionally, we also find that LLMs have a propensity to rely on the provided retrieval results when formulating answers, while the quality of these results significantly impacts their reliance. The code to reproduce this work is available at https://github.com/RUCAIBox/LLM-Knowledge-Boundary.
+
+{{</citation>}}
+
+
+### (42/118) Integrating Pretrained ASR and LM to Perform Sequence Generation for Spoken Language Understanding (Siddhant Arora et al., 2023)
+
+{{<citation>}}
+
+Siddhant Arora, Hayato Futami, Yosuke Kashiwagi, Emiru Tsunoo, Brian Yan, Shinji Watanabe. (2023)  
+**Integrating Pretrained ASR and LM to Perform Sequence Generation for Spoken Language Understanding**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-SD, cs.CL, eess-AS  
+Keywords: NLU, Spoken Language Understanding  
+[Paper Link](http://arxiv.org/abs/2307.11005v1)  
+
+---
+
+
+**ABSTRACT**  
+There has been an increased interest in the integration of pretrained speech recognition (ASR) and language models (LM) into the SLU framework. However, prior methods often struggle with a vocabulary mismatch between pretrained models, and LM cannot be directly utilized as they diverge from its NLU formulation. In this study, we propose a three-pass end-to-end (E2E) SLU system that effectively integrates ASR and LM subnetworks into the SLU formulation for sequence generation tasks. In the first pass, our architecture predicts ASR transcripts using the ASR subnetwork. This is followed by the LM subnetwork, which makes an initial SLU prediction. Finally, in the third pass, the deliberation subnetwork conditions on representations from the ASR and LM subnetworks to make the final prediction. Our proposed three-pass SLU system shows improved performance over cascaded and E2E SLU models on two benchmark SLU datasets, SLURP and SLUE, especially on acoustically challenging utterances.
+
+{{</citation>}}
+
+
+### (43/118) Identical and Fraternal Twins: Fine-Grained Semantic Contrastive Learning of Sentence Representations (Qingfa Xiao et al., 2023)
+
+{{<citation>}}
+
+Qingfa Xiao, Shuangyin Li, Lei Chen. (2023)  
+**Identical and Fraternal Twins: Fine-Grained Semantic Contrastive Learning of Sentence Representations**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keywords: Contrastive Learning  
+[Paper Link](http://arxiv.org/abs/2307.10932v1)  
+
+---
+
+
+**ABSTRACT**  
+The enhancement of unsupervised learning of sentence representations has been significantly achieved by the utility of contrastive learning. This approach clusters the augmented positive instance with the anchor instance to create a desired embedding space. However, relying solely on the contrastive objective can result in sub-optimal outcomes due to its inability to differentiate subtle semantic variations between positive pairs. Specifically, common data augmentation techniques frequently introduce semantic distortion, leading to a semantic margin between the positive pair. While the InfoNCE loss function overlooks the semantic margin and prioritizes similarity maximization between positive pairs during training, leading to the insensitive semantic comprehension ability of the trained model. In this paper, we introduce a novel Identical and Fraternal Twins of Contrastive Learning (named IFTCL) framework, capable of simultaneously adapting to various positive pairs generated by different augmentation techniques. We propose a \textit{Twins Loss} to preserve the innate margin during training and promote the potential of data enhancement in order to overcome the sub-optimal issue. We also present proof-of-concept experiments combined with the contrastive objective to prove the validity of the proposed Twins Loss. Furthermore, we propose a hippocampus queue mechanism to restore and reuse the negative instances without additional calculation, which further enhances the efficiency and performance of the IFCL. We verify the IFCL framework on nine semantic textual similarity tasks with both English and Chinese datasets, and the experimental results show that IFCL outperforms state-of-the-art methods.
+
+{{</citation>}}
+
+
+### (44/118) MediaGPT : A Large Language Model Target Chinese Media (Zhonghao Wang, 2023)
+
+{{<citation>}}
+
+Zhonghao Wang. (2023)  
+**MediaGPT : A Large Language Model Target Chinese Media**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keywords: GPT, Language Model, Transformer  
+[Paper Link](http://arxiv.org/abs/2307.10930v1)  
+
+---
+
+
+**ABSTRACT**  
+The development of large language models (LLMs) has seen rapid progress in recent years. One of the most widely used LLMs is the Generative Pre-trained Transformer (GPT) series, which has been applied in various fields, including the media domain. However, in practical applications, the differences between the media's use cases and the general-purpose applications of LLMs have become increasingly apparent, especially Chinese. As a result, there is a growing need to develop LLM that are specifically tailored to the unique requirements of the media domain. In this paper, we present MediaGPT, a large language model training on variety of media data and addressing the practical needs of Chinese media. We have designed a diverse set of task instruction types to cater to the specific requirements of the domain. To further validate the effectiveness of our proposed LLM, we have constructed unique datasets that are tailored to the media domain and have also developed verification methods that are specifically designed for generative-type tasks. By doing so, we aim to bridge the gap between the general-purpose LLM and the requirements of the media domain, and to pave the way for more effective and efficient use of LLM in this field. This paper aims to explore the challenges and opportunities of developing LLM for media applications and to propose potential solutions for addressing these challenges.
+
+{{</citation>}}
+
+
+### (45/118) FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets (Seonghyeon Ye et al., 2023)
+
+{{<citation>}}
+
+Seonghyeon Ye, Doyoung Kim, Sungdong Kim, Hyeonbin Hwang, Seungone Kim, Yongrae Jo, James Thorne, Juho Kim, Minjoon Seo. (2023)  
+**FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keywords: AI, Language Model  
+[Paper Link](http://arxiv.org/abs/2307.10928v1)  
+
+---
+
+
+**ABSTRACT**  
+Evaluation of Large Language Models (LLMs) is challenging because aligning to human values requires the composition of multiple skills and the required set of skills varies depending on the instruction. Recent studies have evaluated the performance of LLMs in two ways, (1) automatic evaluation on several independent benchmarks and (2) human or machined-based evaluation giving an overall score to the response. However, both settings are coarse-grained evaluations, not considering the nature of user instructions that require instance-wise skill composition, which limits the interpretation of the true capabilities of LLMs. In this paper, we introduce FLASK (Fine-grained Language Model Evaluation based on Alignment SKill Sets), a fine-grained evaluation protocol that can be used for both model-based and human-based evaluation which decomposes coarse-level scoring to an instance-wise skill set-level. Specifically, we define 12 fine-grained skills needed for LLMs to follow open-ended user instructions and construct an evaluation set by allocating a set of skills for each instance. Additionally, by annotating the target domains and difficulty level for each instance, FLASK provides a holistic view with a comprehensive analysis of a model's performance depending on skill, domain, and difficulty. Through using FLASK, we compare multiple open-sourced and proprietary LLMs and observe highly-correlated findings between model-based and human-based evaluations. FLASK enables developers to more accurately measure the model performance and how it can be improved by analyzing factors that make LLMs proficient in particular skills. For practitioners, FLASK can be used to recommend suitable models for particular situations through comprehensive comparison among various LLMs. We release the evaluation data and code implementation at https://github.com/kaistAI/FLASK.
+
+{{</citation>}}
+
+
+### (46/118) FigCaps-HF: A Figure-to-Caption Generative Framework and Benchmark with Human Feedback (Ashish Singh et al., 2023)
+
+{{<citation>}}
+
+Ashish Singh, Prateek Agarwal, Zixuan Huang, Arpita Singh, Tong Yu, Sungchul Kim, Victor Bursztyn, Nikos Vlassis, Ryan A. Rossi. (2023)  
+**FigCaps-HF: A Figure-to-Caption Generative Framework and Benchmark with Human Feedback**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-CV, cs-LG, cs.CL  
+Keywords: BLEU  
+[Paper Link](http://arxiv.org/abs/2307.10867v1)  
+
+---
+
+
+**ABSTRACT**  
+Captions are crucial for understanding scientific visualizations and documents. Existing captioning methods for scientific figures rely on figure-caption pairs extracted from documents for training, many of which fall short with respect to metrics like helpfulness, explainability, and visual-descriptiveness [15] leading to generated captions being misaligned with reader preferences. To enable the generation of high-quality figure captions, we introduce FigCaps-HF a new framework for figure-caption generation that can incorporate domain expert feedback in generating captions optimized for reader preferences. Our framework comprises of 1) an automatic method for evaluating quality of figure-caption pairs, 2) a novel reinforcement learning with human feedback (RLHF) method to optimize a generative figure-to-caption model for reader preferences. We demonstrate the effectiveness of our simple learning framework by improving performance over standard fine-tuning across different types of models. In particular, when using BLIP as the base model, our RLHF framework achieves a mean gain of 35.7%, 16.9%, and 9% in ROUGE, BLEU, and Meteor, respectively. Finally, we release a large-scale benchmark dataset with human feedback on figure-caption pairs to enable further evaluation and development of RLHF techniques for this problem.
+
+{{</citation>}}
+
+
+### (47/118) Cross-Corpus Multilingual Speech Emotion Recognition: Amharic vs. Other Languages (Ephrem Afele Retta et al., 2023)
+
+{{<citation>}}
+
+Ephrem Afele Retta, Richard Sutcliffe, Jabar Mahmood, Michael Abebe Berwo, Eiad Almekhlafi, Sajjad Ahmed Khan, Shehzad Ashraf Chaudhry, Mustafa Mhamed, Jun Feng. (2023)  
+**Cross-Corpus Multilingual Speech Emotion Recognition: Amharic vs. Other Languages**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-NE, cs-SD, cs.CL, eess-AS  
+Keywords: Emotion Recognition, Multilingual  
+[Paper Link](http://arxiv.org/abs/2307.10814v1)  
+
+---
+
+
+**ABSTRACT**  
+In a conventional Speech emotion recognition (SER) task, a classifier for a given language is trained on a pre-existing dataset for that same language. However, where training data for a language does not exist, data from other languages can be used instead. We experiment with cross-lingual and multilingual SER, working with Amharic, English, German and URDU. For Amharic, we use our own publicly-available Amharic Speech Emotion Dataset (ASED). For English, German and Urdu we use the existing RAVDESS, EMO-DB and URDU datasets. We followed previous research in mapping labels for all datasets to just two classes, positive and negative. Thus we can compare performance on different languages directly, and combine languages for training and testing. In Experiment 1, monolingual SER trials were carried out using three classifiers, AlexNet, VGGE (a proposed variant of VGG), and ResNet50. Results averaged for the three models were very similar for ASED and RAVDESS, suggesting that Amharic and English SER are equally difficult. Similarly, German SER is more difficult, and Urdu SER is easier. In Experiment 2, we trained on one language and tested on another, in both directions for each pair: Amharic<->German, Amharic<->English, and Amharic<->Urdu. Results with Amharic as target suggested that using English or German as source will give the best result. In Experiment 3, we trained on several non-Amharic languages and then tested on Amharic. The best accuracy obtained was several percent greater than the best accuracy in Experiment 2, suggesting that a better result can be obtained when using two or three non-Amharic languages for training than when using just one non-Amharic language. Overall, the results suggest that cross-lingual and multilingual training can be an effective strategy for training a SER classifier when resources for a language are scarce.
+
+{{</citation>}}
+
+
+### (48/118) Layer-wise Representation Fusion for Compositional Generalization (Yafang Zheng et al., 2023)
+
+{{<citation>}}
+
+Yafang Zheng, Lei Lin, Zhaohong Lai, Binling Wang, Shan Liu, Biao Fu, Wenhao Rao, Peigen Ye, Yidong Chen, Xiaodong Shi. (2023)  
+**Layer-wise Representation Fusion for Compositional Generalization**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2307.10799v1)  
+
+---
+
+
+**ABSTRACT**  
+Despite successes across a broad range of applications, sequence-to-sequence models' construct of solutions are argued to be less compositional than human-like generalization. There is mounting evidence that one of the reasons hindering compositional generalization is representations of the encoder and decoder uppermost layer are entangled. In other words, the syntactic and semantic representations of sequences are twisted inappropriately. However, most previous studies mainly concentrate on enhancing token-level semantic information to alleviate the representations entanglement problem, rather than composing and using the syntactic and semantic representations of sequences appropriately as humans do. In addition, we explain why the entanglement problem exists from the perspective of recent studies about training deeper Transformer, mainly owing to the ``shallow'' residual connections and its simple, one-step operations, which fails to fuse previous layers' information effectively. Starting from this finding and inspired by humans' strategies, we propose \textsc{FuSion} (\textbf{Fu}sing \textbf{S}yntactic and Semant\textbf{i}c Representati\textbf{on}s), an extension to sequence-to-sequence models to learn to fuse previous layers' information back into the encoding and decoding process appropriately through introducing a \emph{fuse-attention module} at each encoder and decoder layer. \textsc{FuSion} achieves competitive and even \textbf{state-of-the-art} results on two realistic benchmarks, which empirically demonstrates the effectiveness of our proposal.
+
+{{</citation>}}
+
+
+### (49/118) Extreme Multi-Label Skill Extraction Training using Large Language Models (Jens-Joris Decorte et al., 2023)
+
+{{<citation>}}
+
+Jens-Joris Decorte, Severine Verlinden, Jeroen Van Hautte, Johannes Deleu, Chris Develder, Thomas Demeester. (2023)  
+**Extreme Multi-Label Skill Extraction Training using Large Language Models**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: Language Model, NLP  
+[Paper Link](http://arxiv.org/abs/2307.10778v1)  
+
+---
+
+
+**ABSTRACT**  
+Online job ads serve as a valuable source of information for skill requirements, playing a crucial role in labor market analysis and e-recruitment processes. Since such ads are typically formatted in free text, natural language processing (NLP) technologies are required to automatically process them. We specifically focus on the task of detecting skills (mentioned literally, or implicitly described) and linking them to a large skill ontology, making it a challenging case of extreme multi-label classification (XMLC). Given that there is no sizable labeled (training) dataset are available for this specific XMLC task, we propose techniques to leverage general Large Language Models (LLMs). We describe a cost-effective approach to generate an accurate, fully synthetic labeled dataset for skill extraction, and present a contrastive learning strategy that proves effective in the task. Our results across three skill extraction benchmarks show a consistent increase of between 15 to 25 percentage points in \textit{R-Precision@5} compared to previously published results that relied solely on distant supervision through literal matches.
+
+{{</citation>}}
+
+
+### (50/118) A Dataset and Strong Baselines for Classification of Czech News Texts (Hynek Kydlíček et al., 2023)
+
+{{<citation>}}
+
+Hynek Kydlíček, Jindřich Libovický. (2023)  
+**A Dataset and Strong Baselines for Classification of Czech News Texts**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: NER, Natural Language Processing  
+[Paper Link](http://arxiv.org/abs/2307.10666v1)  
+
+---
+
+
+**ABSTRACT**  
+Pre-trained models for Czech Natural Language Processing are often evaluated on purely linguistic tasks (POS tagging, parsing, NER) and relatively simple classification tasks such as sentiment classification or article classification from a single news source. As an alternative, we present CZEch~NEws~Classification~dataset (CZE-NEC), one of the largest Czech classification datasets, composed of news articles from various sources spanning over twenty years, which allows a more rigorous evaluation of such models. We define four classification tasks: news source, news category, inferred author's gender, and day of the week. To verify the task difficulty, we conducted a human evaluation, which revealed that human performance lags behind strong machine-learning baselines built upon pre-trained transformer models. Furthermore, we show that language-specific pre-trained encoder analysis outperforms selected commercially available large-scale generative language models.
+
+{{</citation>}}
+
+
+### (51/118) Exploring the Landscape of Natural Language Processing Research (Tim Schopf et al., 2023)
+
+{{<citation>}}
+
+Tim Schopf, Karim Arabi, Florian Matthes. (2023)  
+**Exploring the Landscape of Natural Language Processing Research**  
+
+---
+Primary Category: cs.CL  
+Categories: I-2-7, cs-CL, cs.CL  
+Keywords: NLP, Natural Language Processing  
+[Paper Link](http://arxiv.org/abs/2307.10652v1)  
+
+---
+
+
+**ABSTRACT**  
+As an efficient approach to understand, generate, and process natural language texts, research in natural language processing (NLP) has exhibited a rapid spread and wide adoption in recent years. Given the increasing amount of research work in this area, several NLP-related approaches have been surveyed in the research community. However, a comprehensive study that categorizes established topics, identifies trends, and outlines areas for future research remains absent to this day. Contributing to closing this gap, we have systematically classified and analyzed research papers included in the ACL Anthology. As a result, we present a structured overview of the research landscape, provide a taxonomy of fields-of-study in NLP, analyze recent developments in NLP, summarize our findings, and highlight directions for future work.
+
+{{</citation>}}
+
+
+### (52/118) SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (Xiaoxuan Wang et al., 2023)
+
+{{<citation>}}
+
+Xiaoxuan Wang, Ziniu Hu, Pan Lu, Yanqiao Zhu, Jieyu Zhang, Satyen Subramaniam, Arjun R. Loomba, Shichang Zhang, Yizhou Sun, Wei Wang. (2023)  
+**SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs-LG, cs.CL  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2307.10635v1)  
+
+---
+
+
+**ABSTRACT**  
+Recent advances in large language models (LLMs) have demonstrated notable progress on many mathematical benchmarks. However, most of these benchmarks only feature problems grounded in junior and senior high school subjects, contain only multiple-choice questions, and are confined to a limited scope of elementary arithmetic operations. To address these issues, this paper introduces an expansive benchmark suite SciBench that aims to systematically examine the reasoning capabilities required for complex scientific problem solving. SciBench contains two carefully curated datasets: an open set featuring a range of collegiate-level scientific problems drawn from mathematics, chemistry, and physics textbooks, and a closed set comprising problems from undergraduate-level exams in computer science and mathematics. Based on the two datasets, we conduct an in-depth benchmark study of two representative LLMs with various prompting strategies. The results reveal that current LLMs fall short of delivering satisfactory performance, with an overall score of merely 35.80%. Furthermore, through a detailed user study, we categorize the errors made by LLMs into ten problem-solving abilities. Our analysis indicates that no single prompting strategy significantly outperforms others and some strategies that demonstrate improvements in certain problem-solving skills result in declines in other skills. We envision that SciBench will catalyze further developments in the reasoning abilities of LLMs, thereby ultimately contributing to scientific research and discovery.
+
+{{</citation>}}
+
+
+### (53/118) Multi-Method Self-Training: Improving Code Generation With Text, And Vice Versa (Shriyash K. Upadhyay et al., 2023)
+
+{{<citation>}}
+
+Shriyash K. Upadhyay, Etan J. Ginsberg. (2023)  
+**Multi-Method Self-Training: Improving Code Generation With Text, And Vice Versa**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-LG, cs.CL  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2307.10633v1)  
+
+---
+
+
+**ABSTRACT**  
+Large Language Models have many methods for solving the same problem. This introduces novel strengths (different methods may work well for different problems) and weaknesses (it may be difficult for users to know which method to use). In this paper, we introduce Multi-Method Self-Training (MMST), where one method is trained on the filtered outputs of another, allowing us to augment the strengths and ameliorate the weaknesses of each method. Using a 176B parameter model trained on both language and code, we show that MMST can 1) improve the less performant method (up to 30%) making the model easier to use, 2) improve the more performant method (up to 32.2%) making the model more performant, and 3) improve the performance of related but distinct tasks (up to 10.3%) by improving the ability of the model to generate rationales. We then conduct ablation analyses to explore why MMST works. We show that MMST generates more data than traditional self-training, but the improvement in performance is driven by the use of multiple methods. We also analyze prompt-engineering and anti-correlated performance between methods as means of making MMST more effective. We hope the evidence from our paper motivates machine learning researchers to explore ways in which advances in language models allow for new forms of training.
+
+{{</citation>}}
+
+
+### (54/118) A Deep Dive into the Disparity of Word Error Rates Across Thousands of NPTEL MOOC Videos (Anand Kumar Rai et al., 2023)
+
+{{<citation>}}
+
+Anand Kumar Rai, Siddharth D Jaiswal, Animesh Mukherjee. (2023)  
+**A Deep Dive into the Disparity of Word Error Rates Across Thousands of NPTEL MOOC Videos**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-HC, cs.CL  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2307.10587v1)  
+
+---
+
+
+**ABSTRACT**  
+Automatic speech recognition (ASR) systems are designed to transcribe spoken language into written text and find utility in a variety of applications including voice assistants and transcription services. However, it has been observed that state-of-the-art ASR systems which deliver impressive benchmark results, struggle with speakers of certain regions or demographics due to variation in their speech properties. In this work, we describe the curation of a massive speech dataset of 8740 hours consisting of $\sim9.8$K technical lectures in the English language along with their transcripts delivered by instructors representing various parts of Indian demography. The dataset is sourced from the very popular NPTEL MOOC platform. We use the curated dataset to measure the existing disparity in YouTube Automatic Captions and OpenAI Whisper model performance across the diverse demographic traits of speakers in India. While there exists disparity due to gender, native region, age and speech rate of speakers, disparity based on caste is non-existent. We also observe statistically significant disparity across the disciplines of the lectures. These results indicate the need of more inclusive and robust ASR systems and more representational datasets for disparity evaluation in them.
+
+{{</citation>}}
+
+
+### (55/118) Instruction-following Evaluation through Verbalizer Manipulation (Shiyang Li et al., 2023)
+
+{{<citation>}}
+
+Shiyang Li, Jun Yan, Hai Wang, Zheng Tang, Xiang Ren, Vijay Srinivasan, Hongxia Jin. (2023)  
+**Instruction-following Evaluation through Verbalizer Manipulation**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: GPT, GPT-4  
+[Paper Link](http://arxiv.org/abs/2307.10558v1)  
+
+---
+
+
+**ABSTRACT**  
+While instruction-tuned models have shown remarkable success in various natural language processing tasks, accurately evaluating their ability to follow instructions remains challenging. Existing benchmarks primarily focus on common instructions that align well with what the model learned during training. However, proficiency in responding to these instructions does not necessarily imply strong ability in instruction following. In this paper, we propose a novel instruction-following evaluation protocol called verbalizer manipulation. It instructs the model to verbalize the task label with words aligning with model priors to different extents, adopting verbalizers from highly aligned (e.g., outputting ``postive'' for positive sentiment), to minimally aligned (e.g., outputting ``negative'' for positive sentiment). Verbalizer manipulation can be seamlessly integrated with any classification benchmark to examine the model's reliance on priors and its ability to override them to accurately follow the instructions. We conduct a comprehensive evaluation of four major model families across nine datasets, employing twelve sets of verbalizers for each of them. We observe that the instruction-following abilities of models, across different families and scales, are significantly distinguished by their performance on less natural verbalizers. Even the strongest GPT-4 model struggles to perform better than random guessing on the most challenging verbalizer, emphasizing the need for continued advancements to improve their instruction-following abilities.
+
+{{</citation>}}
+
+
+### (56/118) Gender-tuning: Empowering Fine-tuning for Debiasing Pre-trained Language Models (Somayeh Ghanbarzadeh et al., 2023)
+
+{{<citation>}}
+
+Somayeh Ghanbarzadeh, Yan Huang, Hamid Palangi, Radames Cruz Moreno, Hamed Khanpour. (2023)  
+**Gender-tuning: Empowering Fine-tuning for Debiasing Pre-trained Language Models**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2307.10522v1)  
+
+---
+
+
+**ABSTRACT**  
+Recent studies have revealed that the widely-used Pre-trained Language Models (PLMs) propagate societal biases from the large unmoderated pre-training corpora. Existing solutions require debiasing training processes and datasets for debiasing, which are resource-intensive and costly. Furthermore, these methods hurt the PLMs' performance on downstream tasks. In this study, we propose Gender-tuning, which debiases the PLMs through fine-tuning on downstream tasks' datasets. For this aim, Gender-tuning integrates Masked Language Modeling (MLM) training objectives into fine-tuning's training process. Comprehensive experiments show that Gender-tuning outperforms the state-of-the-art baselines in terms of average gender bias scores in PLMs while improving PLMs' performance on downstream tasks solely using the downstream tasks' dataset. Also, Gender-tuning is a deployable debiasing tool for any PLM that works with original fine-tuning.
+
+{{</citation>}}
+
+
+### (57/118) IvyGPT: InteractiVe Chinese pathwaY language model in medical domain (Rongsheng Wang et al., 2023)
+
+{{<citation>}}
+
+Rongsheng Wang, Yaofei Duan, ChanTong Lam, Jiexi Chen, Jiangsheng Xu, Haoming Chen, Xiaohong Liu, Patrick Cheong-Iao Pang, Tao Tan. (2023)  
+**IvyGPT: InteractiVe Chinese pathwaY language model in medical domain**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keywords: ChatGPT, GPT, LLaMA, QA, Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2307.10512v1)  
+
+---
+
+
+**ABSTRACT**  
+General large language models (LLMs) such as ChatGPT have shown remarkable success. However, such LLMs have not been widely adopted for medical purposes, due to poor accuracy and inability to provide medical advice. We propose IvyGPT, an LLM based on LLaMA that is trained and fine-tuned with high-quality medical question-answer (QA) instances and Reinforcement Learning from Human Feedback (RLHF). After supervised fine-tuning, IvyGPT has good multi-turn conversation capabilities, but it cannot perform like a doctor in other aspects, such as comprehensive diagnosis. Through RLHF, IvyGPT can output richer diagnosis and treatment answers that are closer to human. In the training, we used QLoRA to train 33 billion parameters on a small number of NVIDIA A100 (80GB) GPUs. Experimental results show that IvyGPT has outperformed other medical GPT models.
+
+{{</citation>}}
+
+
+### (58/118) General Debiasing for Multimodal Sentiment Analysis (Teng Sun et al., 2023)
+
+{{<citation>}}
+
+Teng Sun, Juntong Ni, Wenjie Wang, Liqiang Jing, Yinwei Wei, Liqiang Nie. (2023)  
+**General Debiasing for Multimodal Sentiment Analysis**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: Sentiment Analysis  
+[Paper Link](http://arxiv.org/abs/2307.10511v1)  
+
+---
+
+
+**ABSTRACT**  
+Existing work on Multimodal Sentiment Analysis (MSA) utilizes multimodal information for prediction yet unavoidably suffers from fitting the spurious correlations between multimodal features and sentiment labels. For example, if most videos with a blue background have positive labels in a dataset, the model will rely on such correlations for prediction, while ``blue background'' is not a sentiment-related feature. To address this problem, we define a general debiasing MSA task, which aims to enhance the Out-Of-Distribution (OOD) generalization ability of MSA models by reducing their reliance on spurious correlations. To this end, we propose a general debiasing framework based on Inverse Probability Weighting (IPW), which adaptively assigns small weights to the samples with larger bias i.e., the severer spurious correlations). The key to this debiasing framework is to estimate the bias of each sample, which is achieved by two steps: 1) disentangling the robust features and biased features in each modality, and 2) utilizing the biased features to estimate the bias. Finally, we employ IPW to reduce the effects of large-biased samples, facilitating robust feature learning for sentiment prediction. To examine the model's generalization ability, we keep the original testing sets on two benchmarks and additionally construct multiple unimodal and multimodal OOD testing sets. The empirical results demonstrate the superior generalization ability of our proposed framework. We have released the code and data to facilitate the reproduction.
+
+{{</citation>}}
+
+
+## cs.DC (2)
+
+
+
+### (59/118) GPU-accelerated Parallel Solutions to the Quadratic Assignment Problem (Clara Novoa et al., 2023)
+
+{{<citation>}}
+
+Clara Novoa, Apan Qasem. (2023)  
+**GPU-accelerated Parallel Solutions to the Quadratic Assignment Problem**  
+
+---
+Primary Category: cs.DC  
+Categories: cs-DC, cs-MS, cs.DC  
+Keywords: QA  
+[Paper Link](http://arxiv.org/abs/2307.11248v1)  
+
+---
+
+
+**ABSTRACT**  
+The Quadratic Assignment Problem (QAP) is an important combinatorial optimization problem with applications in many areas including logistics and manufacturing. QAP is known to be NP-hard, a computationally challenging problem, which requires the use of sophisticated heuristics in finding acceptable solutions for most real-world data sets.   In this paper, we present GPU-accelerated implementations of a 2opt and a tabu search algorithm for solving the QAP. For both algorithms, we extract parallelism at multiple levels and implement novel code optimization techniques that fully utilize the GPU hardware. On a series of experiments on the well-known QAPLIB data sets, our solutions, on average run an order-of-magnitude faster than previous implementations and deliver up to a factor of 63 speedup on specific instances. The quality of the solutions produced by our implementations of 2opt and tabu is within 1.03% and 0.15% of the best known values. The experimental results also provide key insight into the performance characteristics of accelerated QAP solvers. In particular, the results reveal that both algorithmic choice and the shape of the input data sets are key factors in finding efficient implementations.
+
+{{</citation>}}
+
+
+### (60/118) SMOTEC: An Edge Computing Testbed for Adaptive Smart Mobility Experimentation (Zeinab Nezami et al., 2023)
+
+{{<citation>}}
+
+Zeinab Nezami, Evangelos Pournaras, Amir Borzouie, Jie Xu. (2023)  
+**SMOTEC: An Edge Computing Testbed for Adaptive Smart Mobility Experimentation**  
+
+---
+Primary Category: cs.DC  
+Categories: cs-DC, cs-MA, cs-SE, cs.DC  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2307.11181v1)  
+
+---
+
+
+**ABSTRACT**  
+Smart mobility becomes paramount for meeting net-zero targets. However, autonomous, self-driving and electric vehicles require more than ever before an efficient, resilient and trustworthy computational offloading backbone that expands throughout the edge-to-cloud continuum. Utilizing on-demand heterogeneous computational resources for smart mobility is challenging and often cost-ineffective. This paper introduces SMOTEC, a novel open-source testbed for adaptive smart mobility experimentation with edge computing. SMOTEC provides for the first time a modular end-to-end instrumentation for prototyping and optimizing placement of intelligence services on edge devices such as augmented reality and real-time traffic monitoring. SMOTEC supports a plug-and-play Docker container integration of the SUMO simulator for urban mobility, Raspberry Pi edge devices communicating via ZeroMQ and EPOS for an AI-based decentralized load balancing across edge-to-cloud. All components are orchestrated by the K3s lightweight Kubernetes. A proof-of-concept of self-optimized service placements for traffic monitoring from Munich demonstrates in practice the applicability and cost-effectiveness of SMOTEC.
+
+{{</citation>}}
+
+
+## cs.CR (2)
+
+
+
+### (61/118) Formal-Guided Fuzz Testing: Targeting Security Assurance from Specification to Implementation for 5G and Beyond (Jingda Yang et al., 2023)
+
+{{<citation>}}
+
+Jingda Yang, Sudhanshu Arya, Ying Wang. (2023)  
+**Formal-Guided Fuzz Testing: Targeting Security Assurance from Specification to Implementation for 5G and Beyond**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-CR, cs.CR  
+Keywords: Security  
+[Paper Link](http://arxiv.org/abs/2307.11247v1)  
+
+---
+
+
+**ABSTRACT**  
+Softwarization and virtualization in 5G and beyond necessitate thorough testing to ensure the security of critical infrastructure and networks, requiring the identification of vulnerabilities and unintended emergent behaviors from protocol designs to their software stack implementation. To provide an efficient and comprehensive solution, we propose a novel and first-of-its-kind approach that connects the strengths and coverage of formal and fuzzing methods to efficiently detect vulnerabilities across protocol logic and implementation stacks in a hierarchical manner. We design and implement formal verification to detect attack traces in critical protocols, which are used to guide subsequent fuzz testing and incorporate feedback from fuzz testing to broaden the scope of formal verification. This innovative approach significantly improves efficiency and enables the auto-discovery of vulnerabilities and unintended emergent behaviors from the 3GPP protocols to software stacks. Following this approach, we discover one identifier leakage model, one DoS attack model, and two eavesdrop attack models due to the absence of rudimentary MITM protection within the protocol, despite the existence of a Transport Layer Security (TLS) solution to this issue for over a decade. More remarkably, guided by the identified formal analysis and attack models, we exploit 61 vulnerabilities using fuzz testing demonstrated on srsRAN platforms. These identified vulnerabilities contribute to fortifying protocol-level assumptions and refining the search space. Compared to state-of-the-art fuzz testing, our united formal and fuzzing methodology enables auto-assurance by systematically discovering vulnerabilities. It significantly reduces computational complexity, transforming the non-practical exponential growth in computational cost into linear growth.
+
+{{</citation>}}
+
+
+### (62/118) ESASCF: Expertise Extraction, Generalization and Reply Framework for an Optimized Automation of Network Security Compliance (Mohamed C. Ghanem et al., 2023)
+
+{{<citation>}}
+
+Mohamed C. Ghanem, Thomas M. Chen, Mohamed A. Ferrag, Mohyi E. Kettouche. (2023)  
+**ESASCF: Expertise Extraction, Generalization and Reply Framework for an Optimized Automation of Network Security Compliance**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-CR, cs-NI, cs.CR  
+Keywords: Network Security, Security  
+[Paper Link](http://arxiv.org/abs/2307.10967v1)  
+
+---
+
+
+**ABSTRACT**  
+The Cyber threats exposure has created worldwide pressure on organizations to comply with cyber security standards and policies for protecting their digital assets. Vulnerability assessment (VA) and Penetration Testing (PT) are widely adopted Security Compliance (SC) methods to identify security gaps and anticipate security breaches. In the computer networks context and despite the use of autonomous tools and systems, security compliance remains highly repetitive and resources consuming. In this paper, we proposed a novel method to tackle the ever-growing problem of efficiency and effectiveness in network infrastructures security auditing by formally introducing, designing, and developing an Expert-System Automated Security Compliance Framework (ESASCF) that enables industrial and open-source VA and PT tools and systems to extract, process, store and re-use the expertise in a human-expert way to allow direct application in similar scenarios or during the periodic re-testing. The implemented model was then integrated within the ESASCF and tested on different size networks and proved efficient in terms of time-efficiency and testing effectiveness allowing ESASCF to take over autonomously the SC in Re-testing and offloading Expert by automating repeated segments SC and thus enabling Experts to prioritize important tasks in Ad-Hoc compliance tests. The obtained results validate the performance enhancement notably by cutting the time required for an expert to 50% in the context of typical corporate networks first SC and 20% in re-testing, representing a significant cost-cutting. In addition, the framework allows a long-term impact illustrated in the knowledge extraction, generalization, and re-utilization, which enables better SC confidence independent of the human expert skills, coverage, and wrong decisions resulting in impactful false negatives.
+
+{{</citation>}}
+
+
+## cs.LG (17)
+
+
+
+### (63/118) From Adaptive Query Release to Machine Unlearning (Enayat Ullah et al., 2023)
+
+{{<citation>}}
+
+Enayat Ullah, Raman Arora. (2023)  
+**From Adaptive Query Release to Machine Unlearning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG, stat-ML  
+Keywords: GLM  
+[Paper Link](http://arxiv.org/abs/2307.11228v1)  
+
+---
+
+
+**ABSTRACT**  
+We formalize the problem of machine unlearning as design of efficient unlearning algorithms corresponding to learning algorithms which perform a selection of adaptive queries from structured query classes. We give efficient unlearning algorithms for linear and prefix-sum query classes. As applications, we show that unlearning in many problems, in particular, stochastic convex optimization (SCO), can be reduced to the above, yielding improved guarantees for the problem. In particular, for smooth Lipschitz losses and any $\rho>0$, our results yield an unlearning algorithm with excess population risk of $\tilde O\big(\frac{1}{\sqrt{n}}+\frac{\sqrt{d}}{n\rho}\big)$ with unlearning query (gradient) complexity $\tilde O(\rho \cdot \text{Retraining Complexity})$, where $d$ is the model dimensionality and $n$ is the initial number of samples. For non-smooth Lipschitz losses, we give an unlearning algorithm with excess population risk $\tilde O\big(\frac{1}{\sqrt{n}}+\big(\frac{\sqrt{d}}{n\rho}\big)^{1/2}\big)$ with the same unlearning query (gradient) complexity. Furthermore, in the special case of Generalized Linear Models (GLMs), such as those in linear and logistic regression, we get dimension-independent rates of $\tilde O\big(\frac{1}{\sqrt{n}} +\frac{1}{(n\rho)^{2/3}}\big)$ and $\tilde O\big(\frac{1}{\sqrt{n}} +\frac{1}{(n\rho)^{1/3}}\big)$ for smooth Lipschitz and non-smooth Lipschitz losses respectively. Finally, we give generalizations of the above from one unlearning request to \textit{dynamic} streams consisting of insertions and deletions.
+
+{{</citation>}}
+
+
+### (64/118) Clinical Trial Active Learning (Zoe Fowler et al., 2023)
+
+{{<citation>}}
+
+Zoe Fowler, Kiran Kokilepersaud, Mohit Prabhushankar, Ghassan AlRegib. (2023)  
+**Clinical Trial Active Learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG, eess-IV, stat-ME  
+Keywords: Active Learning, Clinical  
+[Paper Link](http://arxiv.org/abs/2307.11209v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper presents a novel approach to active learning that takes into account the non-independent and identically distributed (non-i.i.d.) structure of a clinical trial setting. There exists two types of clinical trials: retrospective and prospective. Retrospective clinical trials analyze data after treatment has been performed; prospective clinical trials collect data as treatment is ongoing. Typically, active learning approaches assume the dataset is i.i.d. when selecting training samples; however, in the case of clinical trials, treatment results in a dependency between the data collected at the current and past visits. Thus, we propose prospective active learning to overcome the limitations present in traditional active learning methods and apply it to disease detection in optical coherence tomography (OCT) images, where we condition on the time an image was collected to enforce the i.i.d. assumption. We compare our proposed method to the traditional active learning paradigm, which we refer to as retrospective in nature. We demonstrate that prospective active learning outperforms retrospective active learning in two different types of test settings.
+
+{{</citation>}}
+
+
+### (65/118) Representation Learning in Anomaly Detection: Successes, Limits and a Grand Challenge (Yedid Hoshen, 2023)
 
 {{<citation>}}
 
@@ -1152,7 +1497,7 @@ In this perspective paper, we argue that the dominant paradigm in anomaly detect
 {{</citation>}}
 
 
-### (51/100) A Definition of Continual Reinforcement Learning (David Abel et al., 2023)
+### (66/118) A Definition of Continual Reinforcement Learning (David Abel et al., 2023)
 
 {{<citation>}}
 
@@ -1174,7 +1519,7 @@ In this paper we develop a foundation for continual reinforcement learning.
 {{</citation>}}
 
 
-### (52/100) Embroid: Unsupervised Prediction Smoothing Can Improve Few-Shot Classification (Neel Guha et al., 2023)
+### (67/118) Embroid: Unsupervised Prediction Smoothing Can Improve Few-Shot Classification (Neel Guha et al., 2023)
 
 {{<citation>}}
 
@@ -1196,7 +1541,7 @@ Recent work has shown that language models' (LMs) prompt-based learning capabili
 {{</citation>}}
 
 
-### (53/100) PATROL: Privacy-Oriented Pruning for Collaborative Inference Against Model Inversion Attacks (Shiwei Ding et al., 2023)
+### (68/118) PATROL: Privacy-Oriented Pruning for Collaborative Inference Against Model Inversion Attacks (Shiwei Ding et al., 2023)
 
 {{<citation>}}
 
@@ -1218,7 +1563,7 @@ Collaborative inference has been a promising solution to enable resource-constra
 {{</citation>}}
 
 
-### (54/100) Sequential Multi-Dimensional Self-Supervised Learning for Clinical Time Series (Aniruddh Raghu et al., 2023)
+### (69/118) Sequential Multi-Dimensional Self-Supervised Learning for Clinical Time Series (Aniruddh Raghu et al., 2023)
 
 {{<citation>}}
 
@@ -1240,7 +1585,7 @@ Self-supervised learning (SSL) for clinical time series data has received signif
 {{</citation>}}
 
 
-### (55/100) The Role of Entropy and Reconstruction in Multi-View Self-Supervised Learning (Borja Rodríguez-Gálvez et al., 2023)
+### (70/118) The Role of Entropy and Reconstruction in Multi-View Self-Supervised Learning (Borja Rodríguez-Gálvez et al., 2023)
 
 {{<citation>}}
 
@@ -1262,7 +1607,7 @@ The mechanisms behind the success of multi-view self-supervised learning (MVSSL)
 {{</citation>}}
 
 
-### (56/100) Performance Issue Identification in Cloud Systems with Relational-Temporal Anomaly Detection (Wenwei Gu et al., 2023)
+### (71/118) Performance Issue Identification in Cloud Systems with Relational-Temporal Anomaly Detection (Wenwei Gu et al., 2023)
 
 {{<citation>}}
 
@@ -1284,7 +1629,7 @@ Performance issues permeate large-scale cloud service systems, which can lead to
 {{</citation>}}
 
 
-### (57/100) Global Precipitation Nowcasting of Integrated Multi-satellitE Retrievals for GPM: A U-Net Convolutional LSTM Architecture (Reyhaneh Rahimi et al., 2023)
+### (72/118) Global Precipitation Nowcasting of Integrated Multi-satellitE Retrievals for GPM: A U-Net Convolutional LSTM Architecture (Reyhaneh Rahimi et al., 2023)
 
 {{<citation>}}
 
@@ -1306,7 +1651,7 @@ This paper presents a deep learning architecture for nowcasting of precipitation
 {{</citation>}}
 
 
-### (58/100) On Combining Expert Demonstrations in Imitation Learning via Optimal Transport (Ilana Sebag et al., 2023)
+### (73/118) On Combining Expert Demonstrations in Imitation Learning via Optimal Transport (Ilana Sebag et al., 2023)
 
 {{<citation>}}
 
@@ -1328,7 +1673,7 @@ Imitation learning (IL) seeks to teach agents specific tasks through expert demo
 {{</citation>}}
 
 
-### (59/100) Efficient Beam Tree Recursion (Jishnu Ray Chowdhury et al., 2023)
+### (74/118) Efficient Beam Tree Recursion (Jishnu Ray Chowdhury et al., 2023)
 
 {{<citation>}}
 
@@ -1350,7 +1695,7 @@ Beam Tree Recursive Neural Network (BT-RvNN) was recently proposed as a simple e
 {{</citation>}}
 
 
-### (60/100) Conditional expectation network for SHAP (Ronald Richman et al., 2023)
+### (75/118) Conditional expectation network for SHAP (Ronald Richman et al., 2023)
 
 {{<citation>}}
 
@@ -1372,7 +1717,7 @@ A very popular model-agnostic technique for explaining predictive models is the 
 {{</citation>}}
 
 
-### (61/100) Refining the Optimization Target for Automatic Univariate Time Series Anomaly Detection in Monitoring Services (Manqing Dong et al., 2023)
+### (76/118) Refining the Optimization Target for Automatic Univariate Time Series Anomaly Detection in Monitoring Services (Manqing Dong et al., 2023)
 
 {{<citation>}}
 
@@ -1394,7 +1739,7 @@ Time series anomaly detection is crucial for industrial monitoring services that
 {{</citation>}}
 
 
-### (62/100) Ensemble Learning based Anomaly Detection for IoT Cybersecurity via Bayesian Hyperparameters Sensitivity Analysis (Tin Lai et al., 2023)
+### (77/118) Ensemble Learning based Anomaly Detection for IoT Cybersecurity via Bayesian Hyperparameters Sensitivity Analysis (Tin Lai et al., 2023)
 
 {{<citation>}}
 
@@ -1416,7 +1761,7 @@ The Internet of Things (IoT) integrates more than billions of intelligent device
 {{</citation>}}
 
 
-### (63/100) Deceptive Alignment Monitoring (Andres Carranza et al., 2023)
+### (78/118) Deceptive Alignment Monitoring (Andres Carranza et al., 2023)
 
 {{<citation>}}
 
@@ -1438,7 +1783,7 @@ As the capabilities of large machine learning models continue to grow, and as th
 {{</citation>}}
 
 
-### (64/100) FACADE: A Framework for Adversarial Circuit Anomaly Detection and Evaluation (Dhruv Pai et al., 2023)
+### (79/118) FACADE: A Framework for Adversarial Circuit Anomaly Detection and Evaluation (Dhruv Pai et al., 2023)
 
 {{<citation>}}
 
@@ -1460,11 +1805,279 @@ We present FACADE, a novel probabilistic and geometric framework designed for un
 {{</citation>}}
 
 
+## cs.AI (12)
+
+
+
+### (80/118) Towards Ontologically Grounded and Language-Agnostic Knowledge Graphs (Walid S. Saba, 2023)
+
+{{<citation>}}
+
+Walid S. Saba. (2023)  
+**Towards Ontologically Grounded and Language-Agnostic Knowledge Graphs**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keywords: Knowledge Graph  
+[Paper Link](http://arxiv.org/abs/2307.11206v1)  
+
+---
+
+
+**ABSTRACT**  
+Knowledge graphs (KGs) have become the standard technology for the representation of factual information in applications such as recommendation engines, search, and question-answering systems. However, the continual updating of KGs, as well as the integration of KGs from different domains and KGs in different languages, remains to be a major challenge. What we suggest here is that by a reification of abstract objects and by acknowledging the ontological distinction between concepts and types, we arrive at an ontologically grounded and language-agnostic representation that can alleviate the difficulties in KG integration.
+
+{{</citation>}}
+
+
+### (81/118) Of Models and Tin Men -- a behavioural economics study of principal-agent problems in AI alignment using large-language models (Steve Phelps et al., 2023)
+
+{{<citation>}}
+
+Steve Phelps, Rebecca Ranson. (2023)  
+**Of Models and Tin Men -- a behavioural economics study of principal-agent problems in AI alignment using large-language models**  
+
+---
+Primary Category: cs.AI  
+Categories: I-2-0, cs-AI, cs.AI, econ-GN, q-fin-EC  
+Keywords: AI, GPT, GPT-3.5, GPT-4  
+[Paper Link](http://arxiv.org/abs/2307.11137v1)  
+
+---
+
+
+**ABSTRACT**  
+AI Alignment is often presented as an interaction between a single designer and an artificial agent in which the designer attempts to ensure the agent's behavior is consistent with its purpose, and risks arise solely because of conflicts caused by inadvertent misalignment between the utility function intended by the designer and the resulting internal utility function of the agent. With the advent of agents instantiated with large-language models (LLMs), which are typically pre-trained, we argue this does not capture the essential aspects of AI safety because in the real world there is not a one-to-one correspondence between designer and agent, and the many agents, both artificial and human, have heterogeneous values. Therefore, there is an economic aspect to AI safety and the principal-agent problem is likely to arise. In a principal-agent problem conflict arises because of information asymmetry together with inherent misalignment between the utility of the agent and its principal, and this inherent misalignment cannot be overcome by coercing the agent into adopting a desired utility function through training. We argue the assumptions underlying principal-agent problems are crucial to capturing the essence of safety problems involving pre-trained AI models in real-world situations. Taking an empirical approach to AI safety, we investigate how GPT models respond in principal-agent conflicts. We find that agents based on both GPT-3.5 and GPT-4 override their principal's objectives in a simple online shopping task, showing clear evidence of principal-agent conflict. Surprisingly, the earlier GPT-3.5 model exhibits more nuanced behaviour in response to changes in information asymmetry, whereas the later GPT-4 model is more rigid in adhering to its prior alignment. Our results highlight the importance of incorporating principles from economics into the alignment process.
+
+{{</citation>}}
+
+
+### (82/118) Dense Sample Deep Learning (Stephen Josè Hanson et al., 2023)
+
+{{<citation>}}
+
+Stephen Josè Hanson, Vivek Yadav, Catherine Hanson. (2023)  
+**Dense Sample Deep Learning**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI, q-bio-NC, stat-ML  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2307.10991v2)  
+
+---
+
+
+**ABSTRACT**  
+Deep Learning (DL) , a variant of the neural network algorithms originally proposed in the 1980s, has made surprising progress in Artificial Intelligence (AI), ranging from language translation, protein folding, autonomous cars, and more recently human-like language models (CHATbots), all that seemed intractable until very recently. Despite the growing use of Deep Learning (DL) networks, little is actually understood about the learning mechanisms and representations that makes these networks effective across such a diverse range of applications. Part of the answer must be the huge scale of the architecture and of course the large scale of the data, since not much has changed since 1987. But the nature of deep learned representations remain largely unknown. Unfortunately training sets with millions or billions of tokens have unknown combinatorics and Networks with millions or billions of hidden units cannot easily be visualized and their mechanisms cannot be easily revealed. In this paper, we explore these questions with a large (1.24M weights; VGG) DL in a novel high density sample task (5 unique tokens with at minimum 500 exemplars per token) which allows us to more carefully follow the emergence of category structure and feature construction. We use various visualization methods for following the emergence of the classification and the development of the coupling of feature detectors and structures that provide a type of graphical bootstrapping, From these results we harvest some basic observations of the learning dynamics of DL and propose a new theory of complex feature construction based on our results.
+
+{{</citation>}}
+
+
+### (83/118) PASTA: Pretrained Action-State Transformer Agents (Raphael Boige et al., 2023)
+
+{{<citation>}}
+
+Raphael Boige, Yannis Flet-Berliac, Arthur Flajolet, Guillaume Richard, Thomas Pierrot. (2023)  
+**PASTA: Pretrained Action-State Transformer Agents**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs-LG, cs.AI  
+Keywords: NLP, Transformer  
+[Paper Link](http://arxiv.org/abs/2307.10936v1)  
+
+---
+
+
+**ABSTRACT**  
+Self-supervised learning has brought about a revolutionary paradigm shift in various computing domains, including NLP, vision, and biology. Recent approaches involve pre-training transformer models on vast amounts of unlabeled data, serving as a starting point for efficiently solving downstream tasks. In the realm of reinforcement learning, researchers have recently adapted these approaches by developing models pre-trained on expert trajectories, enabling them to address a wide range of tasks, from robotics to recommendation systems. However, existing methods mostly rely on intricate pre-training objectives tailored to specific downstream applications. This paper presents a comprehensive investigation of models we refer to as Pretrained Action-State Transformer Agents (PASTA). Our study uses a unified methodology and covers an extensive set of general downstream tasks including behavioral cloning, offline RL, sensor failure robustness, and dynamics change adaptation. Our goal is to systematically compare various design choices and provide valuable insights to practitioners for building robust models. Key highlights of our study include tokenization at the action and state component level, using fundamental pre-training objectives like next token prediction, training models across diverse domains simultaneously, and using parameter efficient fine-tuning (PEFT). The developed models in our study contain fewer than 10 million parameters and the application of PEFT enables fine-tuning of fewer than 10,000 parameters during downstream adaptation, allowing a broad community to use these models and reproduce our experiments. We hope that this study will encourage further research into the use of transformers with first-principles design choices to represent RL trajectories and contribute to robust policy learning.
+
+{{</citation>}}
+
+
+### (84/118) LLM Censorship: A Machine Learning Challenge or a Computer Security Problem? (David Glukhov et al., 2023)
+
+{{<citation>}}
+
+David Glukhov, Ilia Shumailov, Yarin Gal, Nicolas Papernot, Vardan Papyan. (2023)  
+**LLM Censorship: A Machine Learning Challenge or a Computer Security Problem?**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs-CR, cs.AI  
+Keywords: Security  
+[Paper Link](http://arxiv.org/abs/2307.10719v1)  
+
+---
+
+
+**ABSTRACT**  
+Large language models (LLMs) have exhibited impressive capabilities in comprehending complex instructions. However, their blind adherence to provided instructions has led to concerns regarding risks of malicious use. Existing defence mechanisms, such as model fine-tuning or output censorship using LLMs, have proven to be fallible, as LLMs can still generate problematic responses. Commonly employed censorship approaches treat the issue as a machine learning problem and rely on another LM to detect undesirable content in LLM outputs. In this paper, we present the theoretical limitations of such semantic censorship approaches. Specifically, we demonstrate that semantic censorship can be perceived as an undecidable problem, highlighting the inherent challenges in censorship that arise due to LLMs' programmatic and instruction-following capabilities. Furthermore, we argue that the challenges extend beyond semantic censorship, as knowledgeable attackers can reconstruct impermissible outputs from a collection of permissible ones. As a result, we propose that the problem of censorship needs to be reevaluated; it should be treated as a security problem which warrants the adaptation of security-based approaches to mitigate potential risks.
+
+{{</citation>}}
+
+
+### (85/118) Towards an architectural framework for intelligent virtual agents using probabilistic programming (Anton Andreev et al., 2023)
+
+{{<citation>}}
+
+Anton Andreev, Grégoire Cattan. (2023)  
+**Towards an architectural framework for intelligent virtual agents using probabilistic programming**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs-HC, cs-PL, cs.AI, math-PR  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2307.10693v1)  
+
+---
+
+
+**ABSTRACT**  
+We present a new framework called KorraAI for conceiving and building embodied conversational agents (ECAs). Our framework models ECAs' behavior considering contextual information, for example, about environment and interaction time, and uncertain information provided by the human interaction partner. Moreover, agents built with KorraAI can show proactive behavior, as they can initiate interactions with human partners. For these purposes, KorraAI exploits probabilistic programming. Probabilistic models in KorraAI are used to model its behavior and interactions with the user. They enable adaptation to the user's preferences and a certain degree of indeterminism in the ECAs to achieve more natural behavior. Human-like internal states, such as moods, preferences, and emotions (e.g., surprise), can be modeled in KorraAI with distributions and Bayesian networks. These models can evolve over time, even without interaction with the user. ECA models are implemented as plugins and share a common interface. This enables ECA designers to focus more on the character they are modeling and less on the technical details, as well as to store and exchange ECA models. Several applications of KorraAI ECAs are possible, such as virtual sales agents, customer service agents, virtual companions, entertainers, or tutors.
+
+{{</citation>}}
+
+
+### (86/118) A Personalized Recommender System Based-on Knowledge Graph Embeddings (Ngoc Luyen Le et al., 2023)
+
+{{<citation>}}
+
+Ngoc Luyen Le, Marie-Hélène Abel, Philippe Gouspillou. (2023)  
+**A Personalized Recommender System Based-on Knowledge Graph Embeddings**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs-IR, cs.AI  
+Keywords: Embedding, Knowledge Graph  
+[Paper Link](http://arxiv.org/abs/2307.10680v1)  
+
+---
+
+
+**ABSTRACT**  
+Knowledge graphs have proven to be effective for modeling entities and their relationships through the use of ontologies. The recent emergence in interest for using knowledge graphs as a form of information modeling has led to their increased adoption in recommender systems. By incorporating users and items into the knowledge graph, these systems can better capture the implicit connections between them and provide more accurate recommendations. In this paper, we investigate and propose the construction of a personalized recommender system via knowledge graphs embedding applied to the vehicle purchase/sale domain. The results of our experimentation demonstrate the efficacy of the proposed method in providing relevant recommendations that are consistent with individual users.
+
+{{</citation>}}
+
+
+### (87/118) Challenges and Solutions in AI for All (Rifat Ara Shams et al., 2023)
+
+{{<citation>}}
+
+Rifat Ara Shams, Didar Zowghi, Muneera Bano. (2023)  
+**Challenges and Solutions in AI for All**  
+
+---
+Primary Category: cs.AI  
+Categories: I, I-2, cs-AI, cs.AI  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2307.10600v1)  
+
+---
+
+
+**ABSTRACT**  
+Artificial Intelligence (AI)'s pervasive presence and variety necessitate diversity and inclusivity (D&I) principles in its design for fairness, trust, and transparency. Yet, these considerations are often overlooked, leading to issues of bias, discrimination, and perceived untrustworthiness. In response, we conducted a Systematic Review to unearth challenges and solutions relating to D&I in AI. Our rigorous search yielded 48 research articles published between 2017 and 2022. Open coding of these papers revealed 55 unique challenges and 33 solutions for D&I in AI, as well as 24 unique challenges and 23 solutions for enhancing such practices using AI. This study, by offering a deeper understanding of these issues, will enlighten researchers and practitioners seeking to integrate these principles into future AI systems.
+
+{{</citation>}}
+
+
+### (88/118) Adaptive Control of Resource Flow to Optimize Construction Work and Cash Flow via Online Deep Reinforcement Learning (Can Jiang et al., 2023)
+
+{{<citation>}}
+
+Can Jiang, Xin Li, Jia-Rui Lin, Ming Liu, Zhiliang Ma. (2023)  
+**Adaptive Control of Resource Flow to Optimize Construction Work and Cash Flow via Online Deep Reinforcement Learning**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2307.10574v1)  
+
+---
+
+
+**ABSTRACT**  
+Due to complexity and dynamics of construction work, resource, and cash flows, poor management of them usually leads to time and cost overruns, bankruptcy, even project failure. Existing approaches in construction failed to achieve optimal control of resource flow in a dynamic environment with uncertainty. Therefore, this paper introducess a model and method to adaptive control the resource flows to optimize the work and cash flows of construction projects. First, a mathematical model based on a partially observable Markov decision process is established to formulate the complex interactions of construction work, resource, and cash flows as well as uncertainty and variability of diverse influence factors. Meanwhile, to efficiently find the optimal solutions, a deep reinforcement learning (DRL) based method is introduced to realize the continuous adaptive optimal control of labor and material flows, thereby optimizing the work and cash flows. To assist the training process of DRL, a simulator based on discrete event simulation is also developed to mimic the dynamic features and external environments of a project. Experiments in simulated scenarios illustrate that our method outperforms the vanilla empirical method and genetic algorithm, possesses remarkable capability in diverse projects and external environments, and a hybrid agent of DRL and empirical method leads to the best result. This paper contributes to adaptive control and optimization of coupled work, resource, and cash flows, and may serve as a step stone for adopting DRL technology in construction project management.
+
+{{</citation>}}
+
+
+### (89/118) Invalid Logic, Equivalent Gains: The Bizarreness of Reasoning in Language Model Prompting (Rylan Schaeffer et al., 2023)
+
+{{<citation>}}
+
+Rylan Schaeffer, Kateryna Pistunova, Samar Khanna, Sarthak Consul, Sanmi Koyejo. (2023)  
+**Invalid Logic, Equivalent Gains: The Bizarreness of Reasoning in Language Model Prompting**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keywords: Language Model, Reasoning  
+[Paper Link](http://arxiv.org/abs/2307.10573v1)  
+
+---
+
+
+**ABSTRACT**  
+Language models can be prompted to reason through problems in a manner that significantly improves performance. However, \textit{why} such prompting improves performance is unclear. Recent work showed that using logically \textit{invalid} Chain-of-Thought (CoT) prompting improves performance almost as much as logically \textit{valid} CoT prompting, and that editing CoT prompts to replace problem-specific information with abstract information or out-of-distribution information typically doesn't harm performance. Critics have responded that these findings are based on too few and too easy tasks to draw meaningful conclusions. To resolve this dispute, we test whether logically invalid CoT prompts offer the same level of performance gains as logically valid prompts on the hardest tasks in the BIG-Bench benchmark, termed BIG-Bench Hard (BBH). We find that the logically \textit{invalid} reasoning prompts do indeed achieve similar performance gains on BBH tasks as logically valid reasoning prompts. We also discover that some CoT prompts used by previous works contain logical errors. This suggests that covariates beyond logically valid reasoning are responsible for performance improvements.
+
+{{</citation>}}
+
+
+### (90/118) PPN: Parallel Pointer-based Network for Key Information Extraction with Complex Layouts (Kaiwen Wei et al., 2023)
+
+{{<citation>}}
+
+Kaiwen Wei, Jie Yao, Jingyuan Zhang, Yangyang Kang, Fubang Zhao, Yating Zhang, Changlong Sun, Xin Jin, Xin Zhang. (2023)  
+**PPN: Parallel Pointer-based Network for Key Information Extraction with Complex Layouts**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keywords: Information Extraction  
+[Paper Link](http://arxiv.org/abs/2307.10551v1)  
+
+---
+
+
+**ABSTRACT**  
+Key Information Extraction (KIE) is a challenging multimodal task that aims to extract structured value semantic entities from visually rich documents. Although significant progress has been made, there are still two major challenges that need to be addressed. Firstly, the layout of existing datasets is relatively fixed and limited in the number of semantic entity categories, creating a significant gap between these datasets and the complex real-world scenarios. Secondly, existing methods follow a two-stage pipeline strategy, which may lead to the error propagation problem. Additionally, they are difficult to apply in situations where unseen semantic entity categories emerge. To address the first challenge, we propose a new large-scale human-annotated dataset named Complex Layout form for key information EXtraction (CLEX), which consists of 5,860 images with 1,162 semantic entity categories. To solve the second challenge, we introduce Parallel Pointer-based Network (PPN), an end-to-end model that can be applied in zero-shot and few-shot scenarios. PPN leverages the implicit clues between semantic entities to assist extracting, and its parallel extraction mechanism allows it to extract multiple results simultaneously and efficiently. Experiments on the CLEX dataset demonstrate that PPN outperforms existing state-of-the-art methods while also offering a much faster inference speed.
+
+{{</citation>}}
+
+
+### (91/118) TREA: Tree-Structure Reasoning Schema for Conversational Recommendation (Wendi Li et al., 2023)
+
+{{<citation>}}
+
+Wendi Li, Wei Wei, Xiaoye Qu, Xian-Ling Mao, Ye Yuan, Wenfeng Xie, Dangyang Chen. (2023)  
+**TREA: Tree-Structure Reasoning Schema for Conversational Recommendation**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keywords: Conversational Recommendation, Reasoning  
+[Paper Link](http://arxiv.org/abs/2307.10543v1)  
+
+---
+
+
+**ABSTRACT**  
+Conversational recommender systems (CRS) aim to timely trace the dynamic interests of users through dialogues and generate relevant responses for item recommendations. Recently, various external knowledge bases (especially knowledge graphs) are incorporated into CRS to enhance the understanding of conversation contexts. However, recent reasoning-based models heavily rely on simplified structures such as linear structures or fixed-hierarchical structures for causality reasoning, hence they cannot fully figure out sophisticated relationships among utterances with external knowledge. To address this, we propose a novel Tree structure Reasoning schEmA named TREA. TREA constructs a multi-hierarchical scalable tree as the reasoning structure to clarify the causal relationships between mentioned entities, and fully utilizes historical conversations to generate more reasonable and suitable responses for recommended results. Extensive experiments on two public CRS datasets have demonstrated the effectiveness of our approach.
+
+{{</citation>}}
+
+
 ## stat.ML (1)
 
 
 
-### (65/100) Cluster-aware Semi-supervised Learning: Relational Knowledge Distillation Provably Learns Clustering (Yijun Dong et al., 2023)
+### (92/118) Cluster-aware Semi-supervised Learning: Relational Knowledge Distillation Provably Learns Clustering (Yijun Dong et al., 2023)
 
 {{<citation>}}
 
@@ -1490,7 +2103,7 @@ Despite the empirical success and practical significance of (relational) knowled
 
 
 
-### (66/100) 'It Felt Like Having a Second Mind': Investigating Human-AI Co-creativity in Prewriting with Large Language Models (Qian Wan et al., 2023)
+### (93/118) 'It Felt Like Having a Second Mind': Investigating Human-AI Co-creativity in Prewriting with Large Language Models (Qian Wan et al., 2023)
 
 {{<citation>}}
 
@@ -1512,7 +2125,7 @@ Prewriting is the process of discovering and developing ideas before a first dra
 {{</citation>}}
 
 
-### (67/100) Exploring Perspectives on the Impact of Artificial Intelligence on the Creativity of Knowledge Work: Beyond Mechanised Plagiarism and Stochastic Parrots (Advait Sarkar, 2023)
+### (94/118) Exploring Perspectives on the Impact of Artificial Intelligence on the Creativity of Knowledge Work: Beyond Mechanised Plagiarism and Stochastic Parrots (Advait Sarkar, 2023)
 
 {{<citation>}}
 
@@ -1534,7 +2147,7 @@ Artificial Intelligence (AI), and in particular generative models, are transform
 {{</citation>}}
 
 
-### (68/100) Mitigating Voter Attribute Bias for Fair Opinion Aggregation (Ryosuke Ueda et al., 2023)
+### (95/118) Mitigating Voter Attribute Bias for Fair Opinion Aggregation (Ryosuke Ueda et al., 2023)
 
 {{<citation>}}
 
@@ -1556,235 +2169,11 @@ The aggregation of multiple opinions plays a crucial role in decision-making, su
 {{</citation>}}
 
 
-## cs.AI (10)
-
-
-
-### (69/100) Dense Sample Deep Learning (Stephen Josè Hanson et al., 2023)
-
-{{<citation>}}
-
-Stephen Josè Hanson, Vivek Yadev, Catherine Hanson. (2023)  
-**Dense Sample Deep Learning**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI, q-bio-NC, stat-ML  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2307.10991v1)  
-
----
-
-
-**ABSTRACT**  
-Deep Learning (DL) , a variant of the neural network algorithms originally proposed in the 1980s, has made surprising progress in Artificial Intelligence (AI), ranging from language translation, protein folding, autonomous cars, and more recently human-like language models (CHATbots), all that seemed intractable until very recently. Despite the growing use of Deep Learning (DL) networks, little is actually understood about the learning mechanisms and representations that makes these networks effective across such a diverse range of applications. Part of the answer must be the huge scale of the architecture and of course the large scale of the data, since not much has changed since 1987. But the nature of deep learned representations remain largely unknown. Unfortunately training sets with millions or billions of tokens have unknown combinatorics and Networks with millions or billions of hidden units cannot easily be visualized and their mechanisms cannot be easily revealed. In this paper, we explore these questions with a large (1.24M weights; VGG) DL in a novel high density sample task (5 unique tokens with at minimum 500 exemplars per token) which allows us to more carefully follow the emergence of category structure and feature construction. We use various visualization methods for following the emergence of the classification and the development of the coupling of feature detectors and structures that provide a type of graphical bootstrapping, From these results we harvest some basic observations of the learning dynamics of DL and propose a new theory of complex feature construction based on our results.
-
-{{</citation>}}
-
-
-### (70/100) PASTA: Pretrained Action-State Transformer Agents (Raphael Boige et al., 2023)
-
-{{<citation>}}
-
-Raphael Boige, Yannis Flet-Berliac, Arthur Flajolet, Guillaume Richard, Thomas Pierrot. (2023)  
-**PASTA: Pretrained Action-State Transformer Agents**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs-LG, cs.AI  
-Keywords: NLP, Transformer  
-[Paper Link](http://arxiv.org/abs/2307.10936v1)  
-
----
-
-
-**ABSTRACT**  
-Self-supervised learning has brought about a revolutionary paradigm shift in various computing domains, including NLP, vision, and biology. Recent approaches involve pre-training transformer models on vast amounts of unlabeled data, serving as a starting point for efficiently solving downstream tasks. In the realm of reinforcement learning, researchers have recently adapted these approaches by developing models pre-trained on expert trajectories, enabling them to address a wide range of tasks, from robotics to recommendation systems. However, existing methods mostly rely on intricate pre-training objectives tailored to specific downstream applications. This paper presents a comprehensive investigation of models we refer to as Pretrained Action-State Transformer Agents (PASTA). Our study uses a unified methodology and covers an extensive set of general downstream tasks including behavioral cloning, offline RL, sensor failure robustness, and dynamics change adaptation. Our goal is to systematically compare various design choices and provide valuable insights to practitioners for building robust models. Key highlights of our study include tokenization at the action and state component level, using fundamental pre-training objectives like next token prediction, training models across diverse domains simultaneously, and using parameter efficient fine-tuning (PEFT). The developed models in our study contain fewer than 10 million parameters and the application of PEFT enables fine-tuning of fewer than 10,000 parameters during downstream adaptation, allowing a broad community to use these models and reproduce our experiments. We hope that this study will encourage further research into the use of transformers with first-principles design choices to represent RL trajectories and contribute to robust policy learning.
-
-{{</citation>}}
-
-
-### (71/100) LLM Censorship: A Machine Learning Challenge or a Computer Security Problem? (David Glukhov et al., 2023)
-
-{{<citation>}}
-
-David Glukhov, Ilia Shumailov, Yarin Gal, Nicolas Papernot, Vardan Papyan. (2023)  
-**LLM Censorship: A Machine Learning Challenge or a Computer Security Problem?**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs-CR, cs.AI  
-Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2307.10719v1)  
-
----
-
-
-**ABSTRACT**  
-Large language models (LLMs) have exhibited impressive capabilities in comprehending complex instructions. However, their blind adherence to provided instructions has led to concerns regarding risks of malicious use. Existing defence mechanisms, such as model fine-tuning or output censorship using LLMs, have proven to be fallible, as LLMs can still generate problematic responses. Commonly employed censorship approaches treat the issue as a machine learning problem and rely on another LM to detect undesirable content in LLM outputs. In this paper, we present the theoretical limitations of such semantic censorship approaches. Specifically, we demonstrate that semantic censorship can be perceived as an undecidable problem, highlighting the inherent challenges in censorship that arise due to LLMs' programmatic and instruction-following capabilities. Furthermore, we argue that the challenges extend beyond semantic censorship, as knowledgeable attackers can reconstruct impermissible outputs from a collection of permissible ones. As a result, we propose that the problem of censorship needs to be reevaluated; it should be treated as a security problem which warrants the adaptation of security-based approaches to mitigate potential risks.
-
-{{</citation>}}
-
-
-### (72/100) Towards an architectural framework for intelligent virtual agents using probabilistic programming (Anton Andreev et al., 2023)
-
-{{<citation>}}
-
-Anton Andreev, Grégoire Cattan. (2023)  
-**Towards an architectural framework for intelligent virtual agents using probabilistic programming**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs-HC, cs-PL, cs.AI, math-PR  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2307.10693v1)  
-
----
-
-
-**ABSTRACT**  
-We present a new framework called KorraAI for conceiving and building embodied conversational agents (ECAs). Our framework models ECAs' behavior considering contextual information, for example, about environment and interaction time, and uncertain information provided by the human interaction partner. Moreover, agents built with KorraAI can show proactive behavior, as they can initiate interactions with human partners. For these purposes, KorraAI exploits probabilistic programming. Probabilistic models in KorraAI are used to model its behavior and interactions with the user. They enable adaptation to the user's preferences and a certain degree of indeterminism in the ECAs to achieve more natural behavior. Human-like internal states, such as moods, preferences, and emotions (e.g., surprise), can be modeled in KorraAI with distributions and Bayesian networks. These models can evolve over time, even without interaction with the user. ECA models are implemented as plugins and share a common interface. This enables ECA designers to focus more on the character they are modeling and less on the technical details, as well as to store and exchange ECA models. Several applications of KorraAI ECAs are possible, such as virtual sales agents, customer service agents, virtual companions, entertainers, or tutors.
-
-{{</citation>}}
-
-
-### (73/100) A Personalized Recommender System Based-on Knowledge Graph Embeddings (Ngoc Luyen Le et al., 2023)
-
-{{<citation>}}
-
-Ngoc Luyen Le, Marie-Hélène Abel, Philippe Gouspillou. (2023)  
-**A Personalized Recommender System Based-on Knowledge Graph Embeddings**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs-IR, cs.AI  
-Keywords: Embedding, Knowledge Graph  
-[Paper Link](http://arxiv.org/abs/2307.10680v1)  
-
----
-
-
-**ABSTRACT**  
-Knowledge graphs have proven to be effective for modeling entities and their relationships through the use of ontologies. The recent emergence in interest for using knowledge graphs as a form of information modeling has led to their increased adoption in recommender systems. By incorporating users and items into the knowledge graph, these systems can better capture the implicit connections between them and provide more accurate recommendations. In this paper, we investigate and propose the construction of a personalized recommender system via knowledge graphs embedding applied to the vehicle purchase/sale domain. The results of our experimentation demonstrate the efficacy of the proposed method in providing relevant recommendations that are consistent with individual users.
-
-{{</citation>}}
-
-
-### (74/100) Challenges and Solutions in AI for All (Rifat Ara Shams et al., 2023)
-
-{{<citation>}}
-
-Rifat Ara Shams, Didar Zowghi, Muneera Bano. (2023)  
-**Challenges and Solutions in AI for All**  
-
----
-Primary Category: cs.AI  
-Categories: I, I-2, cs-AI, cs.AI  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2307.10600v1)  
-
----
-
-
-**ABSTRACT**  
-Artificial Intelligence (AI)'s pervasive presence and variety necessitate diversity and inclusivity (D&I) principles in its design for fairness, trust, and transparency. Yet, these considerations are often overlooked, leading to issues of bias, discrimination, and perceived untrustworthiness. In response, we conducted a Systematic Review to unearth challenges and solutions relating to D&I in AI. Our rigorous search yielded 48 research articles published between 2017 and 2022. Open coding of these papers revealed 55 unique challenges and 33 solutions for D&I in AI, as well as 24 unique challenges and 23 solutions for enhancing such practices using AI. This study, by offering a deeper understanding of these issues, will enlighten researchers and practitioners seeking to integrate these principles into future AI systems.
-
-{{</citation>}}
-
-
-### (75/100) Adaptive Control of Resource Flow to Optimize Construction Work and Cash Flow via Online Deep Reinforcement Learning (Can Jiang et al., 2023)
-
-{{<citation>}}
-
-Can Jiang, Xin Li, Jia-Rui Lin, Ming Liu, Zhiliang Ma. (2023)  
-**Adaptive Control of Resource Flow to Optimize Construction Work and Cash Flow via Online Deep Reinforcement Learning**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
-Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2307.10574v1)  
-
----
-
-
-**ABSTRACT**  
-Due to complexity and dynamics of construction work, resource, and cash flows, poor management of them usually leads to time and cost overruns, bankruptcy, even project failure. Existing approaches in construction failed to achieve optimal control of resource flow in a dynamic environment with uncertainty. Therefore, this paper introducess a model and method to adaptive control the resource flows to optimize the work and cash flows of construction projects. First, a mathematical model based on a partially observable Markov decision process is established to formulate the complex interactions of construction work, resource, and cash flows as well as uncertainty and variability of diverse influence factors. Meanwhile, to efficiently find the optimal solutions, a deep reinforcement learning (DRL) based method is introduced to realize the continuous adaptive optimal control of labor and material flows, thereby optimizing the work and cash flows. To assist the training process of DRL, a simulator based on discrete event simulation is also developed to mimic the dynamic features and external environments of a project. Experiments in simulated scenarios illustrate that our method outperforms the vanilla empirical method and genetic algorithm, possesses remarkable capability in diverse projects and external environments, and a hybrid agent of DRL and empirical method leads to the best result. This paper contributes to adaptive control and optimization of coupled work, resource, and cash flows, and may serve as a step stone for adopting DRL technology in construction project management.
-
-{{</citation>}}
-
-
-### (76/100) Invalid Logic, Equivalent Gains: The Bizarreness of Reasoning in Language Model Prompting (Rylan Schaeffer et al., 2023)
-
-{{<citation>}}
-
-Rylan Schaeffer, Kateryna Pistunova, Samar Khanna, Sarthak Consul, Sanmi Koyejo. (2023)  
-**Invalid Logic, Equivalent Gains: The Bizarreness of Reasoning in Language Model Prompting**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
-Keywords: Language Model, Reasoning  
-[Paper Link](http://arxiv.org/abs/2307.10573v1)  
-
----
-
-
-**ABSTRACT**  
-Language models can be prompted to reason through problems in a manner that significantly improves performance. However, \textit{why} such prompting improves performance is unclear. Recent work showed that using logically \textit{invalid} Chain-of-Thought (CoT) prompting improves performance almost as much as logically \textit{valid} CoT prompting, and that editing CoT prompts to replace problem-specific information with abstract information or out-of-distribution information typically doesn't harm performance. Critics have responded that these findings are based on too few and too easy tasks to draw meaningful conclusions. To resolve this dispute, we test whether logically invalid CoT prompts offer the same level of performance gains as logically valid prompts on the hardest tasks in the BIG-Bench benchmark, termed BIG-Bench Hard (BBH). We find that the logically \textit{invalid} reasoning prompts do indeed achieve similar performance gains on BBH tasks as logically valid reasoning prompts. We also discover that some CoT prompts used by previous works contain logical errors. This suggests that covariates beyond logically valid reasoning are responsible for performance improvements.
-
-{{</citation>}}
-
-
-### (77/100) PPN: Parallel Pointer-based Network for Key Information Extraction with Complex Layouts (Kaiwen Wei et al., 2023)
-
-{{<citation>}}
-
-Kaiwen Wei, Jie Yao, Jingyuan Zhang, Yangyang Kang, Fubang Zhao, Yating Zhang, Changlong Sun, Xin Jin, Xin Zhang. (2023)  
-**PPN: Parallel Pointer-based Network for Key Information Extraction with Complex Layouts**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
-Keywords: Information Extraction  
-[Paper Link](http://arxiv.org/abs/2307.10551v1)  
-
----
-
-
-**ABSTRACT**  
-Key Information Extraction (KIE) is a challenging multimodal task that aims to extract structured value semantic entities from visually rich documents. Although significant progress has been made, there are still two major challenges that need to be addressed. Firstly, the layout of existing datasets is relatively fixed and limited in the number of semantic entity categories, creating a significant gap between these datasets and the complex real-world scenarios. Secondly, existing methods follow a two-stage pipeline strategy, which may lead to the error propagation problem. Additionally, they are difficult to apply in situations where unseen semantic entity categories emerge. To address the first challenge, we propose a new large-scale human-annotated dataset named Complex Layout form for key information EXtraction (CLEX), which consists of 5,860 images with 1,162 semantic entity categories. To solve the second challenge, we introduce Parallel Pointer-based Network (PPN), an end-to-end model that can be applied in zero-shot and few-shot scenarios. PPN leverages the implicit clues between semantic entities to assist extracting, and its parallel extraction mechanism allows it to extract multiple results simultaneously and efficiently. Experiments on the CLEX dataset demonstrate that PPN outperforms existing state-of-the-art methods while also offering a much faster inference speed.
-
-{{</citation>}}
-
-
-### (78/100) TREA: Tree-Structure Reasoning Schema for Conversational Recommendation (Wendi Li et al., 2023)
-
-{{<citation>}}
-
-Wendi Li, Wei Wei, Xiaoye Qu, Xian-Ling Mao, Ye Yuan, Wenfeng Xie, Dangyang Chen. (2023)  
-**TREA: Tree-Structure Reasoning Schema for Conversational Recommendation**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
-Keywords: Conversational Recommendation, Reasoning  
-[Paper Link](http://arxiv.org/abs/2307.10543v1)  
-
----
-
-
-**ABSTRACT**  
-Conversational recommender systems (CRS) aim to timely trace the dynamic interests of users through dialogues and generate relevant responses for item recommendations. Recently, various external knowledge bases (especially knowledge graphs) are incorporated into CRS to enhance the understanding of conversation contexts. However, recent reasoning-based models heavily rely on simplified structures such as linear structures or fixed-hierarchical structures for causality reasoning, hence they cannot fully figure out sophisticated relationships among utterances with external knowledge. To address this, we propose a novel Tree structure Reasoning schEmA named TREA. TREA constructs a multi-hierarchical scalable tree as the reasoning structure to clarify the causal relationships between mentioned entities, and fully utilizes historical conversations to generate more reasonable and suitable responses for recommended results. Extensive experiments on two public CRS datasets have demonstrated the effectiveness of our approach.
-
-{{</citation>}}
-
-
 ## eess.AS (3)
 
 
 
-### (79/100) Globally Normalising the Transducer for Streaming Speech Recognition (Rogier van Dalen, 2023)
+### (96/118) Globally Normalising the Transducer for Streaming Speech Recognition (Rogier van Dalen, 2023)
 
 {{<citation>}}
 
@@ -1806,7 +2195,7 @@ The Transducer (e.g. RNN-Transducer or Conformer-Transducer) generates an output
 {{</citation>}}
 
 
-### (80/100) Transfer Learning and Bias Correction with Pre-trained Audio Embeddings (Changhong Wang et al., 2023)
+### (97/118) Transfer Learning and Bias Correction with Pre-trained Audio Embeddings (Changhong Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1828,7 +2217,7 @@ Deep neural network models have become the dominant approach to a large variety 
 {{</citation>}}
 
 
-### (81/100) PAS: Partial Additive Speech Data Augmentation Method for Noise Robust Speaker Verification (Wonbin Kim et al., 2023)
+### (98/118) PAS: Partial Additive Speech Data Augmentation Method for Noise Robust Speaker Verification (Wonbin Kim et al., 2023)
 
 {{<citation>}}
 
@@ -1854,7 +2243,7 @@ Background noise reduces speech intelligibility and quality, making speaker veri
 
 
 
-### (82/100) Adaptively Weighted Audits of Instant-Runoff Voting Elections: AWAIRE (Alexander Ek et al., 2023)
+### (99/118) Adaptively Weighted Audits of Instant-Runoff Voting Elections: AWAIRE (Alexander Ek et al., 2023)
 
 {{<citation>}}
 
@@ -1876,28 +2265,28 @@ An election audit is risk-limiting if the audit limits (to a pre-specified thres
 {{</citation>}}
 
 
-## cs.CR (1)
+## cs.AR (1)
 
 
 
-### (83/100) ESASCF: Expertise Extraction, Generalization and Reply Framework for an Optimized Automation of Network Security Compliance (Mohamed C. Ghanem et al., 2023)
+### (100/118) Approximate Computing Survey, Part II: Application-Specific & Architectural Approximation Techniques and Applications (Vasileios Leon et al., 2023)
 
 {{<citation>}}
 
-Mohamed C. Ghanem, Thomas M. Chen, Mohamed A. Ferrag, Mohyi E. Kettouche. (2023)  
-**ESASCF: Expertise Extraction, Generalization and Reply Framework for an Optimized Automation of Network Security Compliance**  
+Vasileios Leon, Muhammad Abdullah Hanif, Giorgos Armeniakos, Xun Jiao, Muhammad Shafique, Kiamal Pekmestzi, Dimitrios Soudris. (2023)  
+**Approximate Computing Survey, Part II: Application-Specific & Architectural Approximation Techniques and Applications**  
 
 ---
-Primary Category: cs.CR  
-Categories: cs-CR, cs-NI, cs.CR  
-Keywords: Network Security, Security  
-[Paper Link](http://arxiv.org/abs/2307.10967v1)  
+Primary Category: cs.AR  
+Categories: cs-AI, cs-AR, cs-ET, cs-PL, cs.AR  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2307.11128v1)  
 
 ---
 
 
 **ABSTRACT**  
-The Cyber threats exposure has created worldwide pressure on organizations to comply with cyber security standards and policies for protecting their digital assets. Vulnerability assessment (VA) and Penetration Testing (PT) are widely adopted Security Compliance (SC) methods to identify security gaps and anticipate security breaches. In the computer networks context and despite the use of autonomous tools and systems, security compliance remains highly repetitive and resources consuming. In this paper, we proposed a novel method to tackle the ever-growing problem of efficiency and effectiveness in network infrastructures security auditing by formally introducing, designing, and developing an Expert-System Automated Security Compliance Framework (ESASCF) that enables industrial and open-source VA and PT tools and systems to extract, process, store and re-use the expertise in a human-expert way to allow direct application in similar scenarios or during the periodic re-testing. The implemented model was then integrated within the ESASCF and tested on different size networks and proved efficient in terms of time-efficiency and testing effectiveness allowing ESASCF to take over autonomously the SC in Re-testing and offloading Expert by automating repeated segments SC and thus enabling Experts to prioritize important tasks in Ad-Hoc compliance tests. The obtained results validate the performance enhancement notably by cutting the time required for an expert to 50% in the context of typical corporate networks first SC and 20% in re-testing, representing a significant cost-cutting. In addition, the framework allows a long-term impact illustrated in the knowledge extraction, generalization, and re-utilization, which enables better SC confidence independent of the human expert skills, coverage, and wrong decisions resulting in impactful false negatives.
+The challenging deployment of compute-intensive applications from domains such Artificial Intelligence (AI) and Digital Signal Processing (DSP), forces the community of computing systems to explore new design approaches. Approximate Computing appears as an emerging solution, allowing to tune the quality of results in the design of a system in order to improve the energy efficiency and/or performance. This radical paradigm shift has attracted interest from both academia and industry, resulting in significant research on approximation techniques and methodologies at different design layers (from system down to integrated circuits). Motivated by the wide appeal of Approximate Computing over the last 10 years, we conduct a two-part survey to cover key aspects (e.g., terminology and applications) and review the state-of-the art approximation techniques from all layers of the traditional computing stack. In Part II of our survey, we classify and present the technical details of application-specific and architectural approximation techniques, which both target the design of resource-efficient processors/accelerators & systems. Moreover, we present a detailed analysis of the application spectrum of Approximate Computing and discuss open challenges and future directions.
 
 {{</citation>}}
 
@@ -1906,7 +2295,7 @@ The Cyber threats exposure has created worldwide pressure on organizations to co
 
 
 
-### (84/100) Aplicación de tecnologías IoT en el control y seguimiento de trasporte de carga terrestre (Omar Otoniel Flores-Cortez et al., 2023)
+### (101/118) Aplicación de tecnologías IoT en el control y seguimiento de trasporte de carga terrestre (Omar Otoniel Flores-Cortez et al., 2023)
 
 {{<citation>}}
 
@@ -1928,11 +2317,37 @@ Freight transport of goods and raw materials is a central part of the supply cha
 {{</citation>}}
 
 
+## cs.CY (1)
+
+
+
+### (102/118) From computational ethics to morality: how decision-making algorithms can help us understand the emergence of moral principles, the existence of an optimal behaviour and our ability to discover it (Eduardo C. Garrido-Merchán et al., 2023)
+
+{{<citation>}}
+
+Eduardo C. Garrido-Merchán, Sara Lumbreras-Sancho. (2023)  
+**From computational ethics to morality: how decision-making algorithms can help us understand the emergence of moral principles, the existence of an optimal behaviour and our ability to discover it**  
+
+---
+Primary Category: cs.CY  
+Categories: cs-CY, cs.CY  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2307.11119v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper adds to the efforts of evolutionary ethics to naturalize morality by providing specific insights derived from a computational ethics view. We propose a stylized model of human decision-making, which is based on Reinforcement Learning, one of the most successful paradigms in Artificial Intelligence. After the main concepts related to Reinforcement Learning have been presented, some particularly useful parallels are drawn that can illuminate evolutionary accounts of ethics. Specifically, we investigate the existence of an optimal policy (or, as we will refer to, objective ethical principles) given the conditions of an agent. In addition, we will show how this policy is learnable by means of trial and error, supporting our hypotheses on two well-known theorems in the context of Reinforcement Learning. We conclude by discussing how the proposed framework can be enlarged to study other potentially interesting areas of human behavior from a formalizable perspective.
+
+{{</citation>}}
+
+
 ## cs.RO (4)
 
 
 
-### (85/100) A Survey on Dialogue Management in Human-Robot Interaction (Merle M. Reimann et al., 2023)
+### (103/118) A Survey on Dialogue Management in Human-Robot Interaction (Merle M. Reimann et al., 2023)
 
 {{<citation>}}
 
@@ -1954,7 +2369,7 @@ As social robots see increasing deployment within the general public, improving 
 {{</citation>}}
 
 
-### (86/100) Goal-Conditioned Reinforcement Learning with Disentanglement-based Reachability Planning (Zhifeng Qian et al., 2023)
+### (104/118) Goal-Conditioned Reinforcement Learning with Disentanglement-based Reachability Planning (Zhifeng Qian et al., 2023)
 
 {{<citation>}}
 
@@ -1976,7 +2391,7 @@ Goal-Conditioned Reinforcement Learning (GCRL) can enable agents to spontaneousl
 {{</citation>}}
 
 
-### (87/100) Predicting human motion intention for pHRI assistive control (Paolo Franceschi et al., 2023)
+### (105/118) Predicting human motion intention for pHRI assistive control (Paolo Franceschi et al., 2023)
 
 {{<citation>}}
 
@@ -1998,7 +2413,7 @@ This work addresses human intention identification during physical Human-Robot I
 {{</citation>}}
 
 
-### (88/100) Bridging Intelligence and Instinct: A New Control Paradigm for Autonomous Robots (Shimian Zhang, 2023)
+### (106/118) Bridging Intelligence and Instinct: A New Control Paradigm for Autonomous Robots (Shimian Zhang, 2023)
 
 {{<citation>}}
 
@@ -2024,7 +2439,7 @@ As the advent of artificial general intelligence (AGI) progresses at a breathtak
 
 
 
-### (89/100) PHYFU: Fuzzing Modern Physics Simulation Engines (Dongwei Xiao et al., 2023)
+### (107/118) PHYFU: Fuzzing Modern Physics Simulation Engines (Dongwei Xiao et al., 2023)
 
 {{<citation>}}
 
@@ -2046,7 +2461,7 @@ A physical simulation engine (PSE) is a software system that simulates physical 
 {{</citation>}}
 
 
-### (90/100) Addressing Compiler Errors: Stack Overflow or Large Language Models? (Patricia Widjojo et al., 2023)
+### (108/118) Addressing Compiler Errors: Stack Overflow or Large Language Models? (Patricia Widjojo et al., 2023)
 
 {{<citation>}}
 
@@ -2068,7 +2483,7 @@ Compiler error messages serve as an initial resource for programmers dealing wit
 {{</citation>}}
 
 
-### (91/100) Assessing the Use of AutoML for Data-Driven Software Engineering (Fabio Calefato et al., 2023)
+### (109/118) Assessing the Use of AutoML for Data-Driven Software Engineering (Fabio Calefato et al., 2023)
 
 {{<citation>}}
 
@@ -2090,37 +2505,11 @@ Background. Due to the widespread adoption of Artificial Intelligence (AI) and M
 {{</citation>}}
 
 
-## q-bio.NC (1)
-
-
-
-### (92/100) Decoding the Enigma: Benchmarking Humans and AIs on the Many Facets of Working Memory (Ankur Sikarwar et al., 2023)
-
-{{<citation>}}
-
-Ankur Sikarwar, Mengmi Zhang. (2023)  
-**Decoding the Enigma: Benchmarking Humans and AIs on the Many Facets of Working Memory**  
-
----
-Primary Category: q-bio.NC  
-Categories: cs-AI, cs-CV, cs-LG, q-bio-NC, q-bio.NC  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2307.10768v1)  
-
----
-
-
-**ABSTRACT**  
-Working memory (WM), a fundamental cognitive process facilitating the temporary storage, integration, manipulation, and retrieval of information, plays a vital role in reasoning and decision-making tasks. Robust benchmark datasets that capture the multifaceted nature of WM are crucial for the effective development and evaluation of AI WM models. Here, we introduce a comprehensive Working Memory (WorM) benchmark dataset for this purpose. WorM comprises 10 tasks and a total of 1 million trials, assessing 4 functionalities, 3 domains, and 11 behavioral and neural characteristics of WM. We jointly trained and tested state-of-the-art recurrent neural networks and transformers on all these tasks. We also include human behavioral benchmarks as an upper bound for comparison. Our results suggest that AI models replicate some characteristics of WM in the brain, most notably primacy and recency effects, and neural clusters and correlates specialized for different domains and functionalities of WM. In the experiments, we also reveal some limitations in existing models to approximate human behavior. This dataset serves as a valuable resource for communities in cognitive psychology, neuroscience, and AI, offering a standardized framework to compare and enhance WM models, investigate WM's neural underpinnings, and develop WM models with human-like capabilities. Our source code and data are available at https://github.com/ZhangLab-DeepNeuroCogLab/WorM.
-
-{{</citation>}}
-
-
 ## cs.SD (2)
 
 
 
-### (93/100) Vesper: A Compact and Effective Pretrained Model for Speech Emotion Recognition (Weidong Chen et al., 2023)
+### (110/118) Vesper: A Compact and Effective Pretrained Model for Speech Emotion Recognition (Weidong Chen et al., 2023)
 
 {{<citation>}}
 
@@ -2142,7 +2531,7 @@ This paper presents a paradigm that adapts general large-scale pretrained models
 {{</citation>}}
 
 
-### (94/100) SC VALL-E: Style-Controllable Zero-Shot Text to Speech Synthesizer (Daegyeom Kim et al., 2023)
+### (111/118) SC VALL-E: Style-Controllable Zero-Shot Text to Speech Synthesizer (Daegyeom Kim et al., 2023)
 
 {{<citation>}}
 
@@ -2164,11 +2553,11 @@ Expressive speech synthesis models are trained by adding corpora with diverse sp
 {{</citation>}}
 
 
-## cs.IR (3)
+## cs.IR (4)
 
 
 
-### (95/100) A Constraint-based Recommender System via RDF Knowledge Graphs (Ngoc Luyen Le et al., 2023)
+### (112/118) A Constraint-based Recommender System via RDF Knowledge Graphs (Ngoc Luyen Le et al., 2023)
 
 {{<citation>}}
 
@@ -2190,7 +2579,7 @@ Knowledge graphs, represented in RDF, are able to model entities and their relat
 {{</citation>}}
 
 
-### (96/100) Language-Enhanced Session-Based Recommendation with Decoupled Contrastive Learning (Zhipeng Zhang et al., 2023)
+### (113/118) Language-Enhanced Session-Based Recommendation with Decoupled Contrastive Learning (Zhipeng Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -2212,7 +2601,7 @@ Session-based recommendation techniques aim to capture dynamic user behavior by 
 {{</citation>}}
 
 
-### (97/100) Improving Semantic Similarity Measure Within a Recommender System Based-on RDF Graphs (Ngoc Luyen Le et al., 2023)
+### (114/118) Improving Semantic Similarity Measure Within a Recommender System Based-on RDF Graphs (Ngoc Luyen Le et al., 2023)
 
 {{<citation>}}
 
@@ -2234,11 +2623,33 @@ In today's era of information explosion, more users are becoming more reliant up
 {{</citation>}}
 
 
+### (115/118) Unmasking Falsehoods in Reviews: An Exploration of NLP Techniques (Anusuya Baby Hari Krishnan, 2023)
+
+{{<citation>}}
+
+Anusuya Baby Hari Krishnan. (2023)  
+**Unmasking Falsehoods in Reviews: An Exploration of NLP Techniques**  
+
+---
+Primary Category: cs.IR  
+Categories: I-2-7, cs-AI, cs-IR, cs-LG, cs.IR  
+Keywords: NLP  
+[Paper Link](http://arxiv.org/abs/2307.10617v2)  
+
+---
+
+
+**ABSTRACT**  
+In the contemporary digital landscape, online reviews have become an indispensable tool for promoting products and services across various businesses. Marketers, advertisers, and online businesses have found incentives to create deceptive positive reviews for their products and negative reviews for their competitors' offerings. As a result, the writing of deceptive reviews has become an unavoidable practice for businesses seeking to promote themselves or undermine their rivals. Detecting such deceptive reviews has become an intense and ongoing area of research. This research paper proposes a machine learning model to identify deceptive reviews, with a particular focus on restaurants. This study delves into the performance of numerous experiments conducted on a dataset of restaurant reviews known as the Deceptive Opinion Spam Corpus. To accomplish this, an n-gram model and max features are developed to effectively identify deceptive content, particularly focusing on fake reviews. A benchmark study is undertaken to explore the performance of two different feature extraction techniques, which are then coupled with five distinct machine learning classification algorithms. The experimental results reveal that the passive aggressive classifier stands out among the various algorithms, showcasing the highest accuracy not only in text classification but also in identifying fake reviews. Moreover, the research delves into data augmentation and implements various deep learning techniques to further enhance the process of detecting deceptive reviews. The findings shed light on the efficacy of the proposed machine learning approach and offer valuable insights into dealing with deceptive reviews in the realm of online businesses.
+
+{{</citation>}}
+
+
 ## q-bio.GN (1)
 
 
 
-### (98/100) Generative Language Models on Nucleotide Sequences of Human Genes (Musa Nuri Ihtiyar et al., 2023)
+### (116/118) Generative Language Models on Nucleotide Sequences of Human Genes (Musa Nuri Ihtiyar et al., 2023)
 
 {{<citation>}}
 
@@ -2264,7 +2675,7 @@ Language models, primarily transformer-based ones, obtained colossal success in 
 
 
 
-### (99/100) Gaussian Partial Information Decomposition: Bias Correction and Application to High-dimensional Data (Praveen Venkatesh et al., 2023)
+### (117/118) Gaussian Partial Information Decomposition: Bias Correction and Application to High-dimensional Data (Praveen Venkatesh et al., 2023)
 
 {{<citation>}}
 
@@ -2290,7 +2701,7 @@ Recent advances in neuroscientific experimental techniques have enabled us to si
 
 
 
-### (100/100) Is Grad-CAM Explainable in Medical Images? (Subhashis Suara et al., 2023)
+### (118/118) Is Grad-CAM Explainable in Medical Images? (Subhashis Suara et al., 2023)
 
 {{<citation>}}
 
