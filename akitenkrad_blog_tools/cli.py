@@ -214,7 +214,7 @@ math: true
         shutil.copy("src/resources/assets/images/arxiv.png", str(new_path.parent / "hero.png"))
 
     target_date = parse_date(date)
-    for d in range(5, 0, -1):
+    for d in tqdm(range(5, 0, -1), total=5):
         __update_arxiv(target_date - timedelta(days=d))
 
 
