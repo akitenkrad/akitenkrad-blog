@@ -145,7 +145,7 @@ Michal Geyer, Omer Bar-Tal, Shai Bagon, Tali Dekel. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2307.10373v1)  
+[Paper Link](http://arxiv.org/abs/2307.10373v2)  
 
 ---
 
@@ -1077,7 +1077,7 @@ Eugene Bagdasaryan, Tsung-Yin Hsieh, Ben Nassi, Vitaly Shmatikov. (2023)
 Primary Category: cs.CR  
 Categories: cs-AI, cs-CL, cs-CR, cs-LG, cs.CR  
 Keywords: GPT  
-[Paper Link](http://arxiv.org/abs/2307.10490v2)  
+[Paper Link](http://arxiv.org/abs/2307.10490v3)  
 
 ---
 
@@ -1503,7 +1503,7 @@ Jordan Meadows, Marco Valentino, Andre Freitas. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL, math-HO  
 Keywords: GPT, Language Model, T5  
-[Paper Link](http://arxiv.org/abs/2307.09998v1)  
+[Paper Link](http://arxiv.org/abs/2307.09998v2)  
 
 ---
 
@@ -1687,7 +1687,7 @@ Michael L. Brodie. (2023)
 Primary Category: cs.AI  
 Categories: I-2; I-2-4; I-2-7; K-2, cs-AI, cs-DB, cs-LG, cs.AI  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2307.10460v1)  
+[Paper Link](http://arxiv.org/abs/2307.10460v2)  
 
 ---
 
@@ -2155,7 +2155,7 @@ Pavlos Sermpezis, Lars Prehn, Sofia Kostoglou, Marcel Flores, Athena Vakali, Emi
 Primary Category: cs.NI  
 Categories: cs-NI, cs.NI  
 Keywords: Bias  
-[Paper Link](http://arxiv.org/abs/2307.09958v1)  
+[Paper Link](http://arxiv.org/abs/2307.09958v2)  
 
 ---
 
