@@ -1045,24 +1045,24 @@ The enhancement of unsupervised learning of sentence representations has been si
 {{</citation>}}
 
 
-### (46/123) MediaGPT : A Large Language Model Target Chinese Media (Zhonghao Wang, 2023)
+### (46/123) MediaGPT : A Large Language Model For Chinese Media (Zhonghao Wang et al., 2023)
 
 {{<citation>}}
 
-Zhonghao Wang. (2023)  
-**MediaGPT : A Large Language Model Target Chinese Media**  
+Zhonghao Wang, Zijia Lu, Bo Jin, Haiying Deng. (2023)  
+**MediaGPT : A Large Language Model For Chinese Media**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
-Keywords: GPT, Language Model, Transformer  
-[Paper Link](http://arxiv.org/abs/2307.10930v1)  
+Keywords: GPT, Language Model  
+[Paper Link](http://arxiv.org/abs/2307.10930v2)  
 
 ---
 
 
 **ABSTRACT**  
-The development of large language models (LLMs) has seen rapid progress in recent years. One of the most widely used LLMs is the Generative Pre-trained Transformer (GPT) series, which has been applied in various fields, including the media domain. However, in practical applications, the differences between the media's use cases and the general-purpose applications of LLMs have become increasingly apparent, especially Chinese. As a result, there is a growing need to develop LLM that are specifically tailored to the unique requirements of the media domain. In this paper, we present MediaGPT, a large language model training on variety of media data and addressing the practical needs of Chinese media. We have designed a diverse set of task instruction types to cater to the specific requirements of the domain. To further validate the effectiveness of our proposed LLM, we have constructed unique datasets that are tailored to the media domain and have also developed verification methods that are specifically designed for generative-type tasks. By doing so, we aim to bridge the gap between the general-purpose LLM and the requirements of the media domain, and to pave the way for more effective and efficient use of LLM in this field. This paper aims to explore the challenges and opportunities of developing LLM for media applications and to propose potential solutions for addressing these challenges.
+Large language models (LLMs) have shown remarkable capabilities in generating high-quality text and making predictions based on large amounts of data, including the media domain. However, in practical applications, the differences between the media's use cases and the general-purpose applications of LLMs have become increasingly apparent, especially Chinese. This paper examines the unique characteristics of media-domain-specific LLMs compared to general LLMs, designed a diverse set of task instruction types to cater the specific requirements of the domain and constructed unique datasets that are tailored to the media domain. Based on these, we proposed MediaGPT, a domain-specific LLM for the Chinese media domain, training by domain-specific data and experts SFT data. By performing human experts evaluation and strong model evaluation on a validation set, this paper demonstrated that MediaGPT outperforms mainstream models on various Chinese media domain tasks and verifies the importance of domain data and domain-defined prompt types for building an effective domain-specific LLM.
 
 {{</citation>}}
 
@@ -1786,7 +1786,7 @@ Andres Carranza, Dhruv Pai, Rylan Schaeffer, Arnuv Tandon, Sanmi Koyejo. (2023)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2307.10569v1)  
+[Paper Link](http://arxiv.org/abs/2307.10569v2)  
 
 ---
 

@@ -30,9 +30,9 @@ math: true
 - [cs.CV (23)](#cscv-23)
 - [cs.CR (1)](#cscr-1)
 - [cs.CL (9)](#cscl-9)
+- [cs.AI (9)](#csai-9)
 - [cs.CE (1)](#csce-1)
 - [cs.DC (1)](#csdc-1)
-- [cs.AI (8)](#csai-8)
 - [cs.HC (2)](#cshc-2)
 - [cs.SD (1)](#cssd-1)
 - [econ.GN (1)](#econgn-1)
@@ -45,7 +45,7 @@ math: true
 
 
 
-### (1/83) Selective Perception: Optimizing State Descriptions with Reinforcement Learning for Language Model Actors (Kolby Nottingham et al., 2023)
+### (1/84) Selective Perception: Optimizing State Descriptions with Reinforcement Learning for Language Model Actors (Kolby Nottingham et al., 2023)
 
 {{<citation>}}
 
@@ -67,7 +67,7 @@ Large language models (LLMs) are being applied as actors for sequential decision
 {{</citation>}}
 
 
-### (2/83) Hindsight-DICE: Stable Credit Assignment for Deep Reinforcement Learning (Akash Velu et al., 2023)
+### (2/84) Hindsight-DICE: Stable Credit Assignment for Deep Reinforcement Learning (Akash Velu et al., 2023)
 
 {{<citation>}}
 
@@ -89,7 +89,7 @@ Oftentimes, environments for sequential decision-making problems can be quite sp
 {{</citation>}}
 
 
-### (3/83) JoinGym: An Efficient Query Optimization Environment for Reinforcement Learning (Kaiwen Wang et al., 2023)
+### (3/84) JoinGym: An Efficient Query Optimization Environment for Reinforcement Learning (Kaiwen Wang et al., 2023)
 
 {{<citation>}}
 
@@ -111,7 +111,7 @@ In this paper, we present \textsc{JoinGym}, an efficient and lightweight query o
 {{</citation>}}
 
 
-### (4/83) Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization (Xiangsen Wang et al., 2023)
+### (4/84) Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization (Xiangsen Wang et al., 2023)
 
 {{<citation>}}
 
@@ -133,7 +133,7 @@ Offline reinforcement learning (RL) has received considerable attention in recen
 {{</citation>}}
 
 
-### (5/83) Training Latency Minimization for Model-Splitting Allowed Federated Edge Learning (Yao Wen et al., 2023)
+### (5/84) Training Latency Minimization for Model-Splitting Allowed Federated Edge Learning (Yao Wen et al., 2023)
 
 {{<citation>}}
 
@@ -155,7 +155,7 @@ To alleviate the shortage of computing power faced by clients in training deep n
 {{</citation>}}
 
 
-### (6/83) Predict, Refine, Synthesize: Self-Guiding Diffusion Models for Probabilistic Time Series Forecasting (Marcel Kollovieh et al., 2023)
+### (6/84) Predict, Refine, Synthesize: Self-Guiding Diffusion Models for Probabilistic Time Series Forecasting (Marcel Kollovieh et al., 2023)
 
 {{<citation>}}
 
@@ -177,7 +177,7 @@ Diffusion models have achieved state-of-the-art performance in generative modeli
 {{</citation>}}
 
 
-### (7/83) A New Deep State-Space Analysis Framework for Patient Latent State Estimation and Classification from EHR Time Series Data (Aya Nakamura et al., 2023)
+### (7/84) A New Deep State-Space Analysis Framework for Patient Latent State Estimation and Classification from EHR Time Series Data (Aya Nakamura et al., 2023)
 
 {{<citation>}}
 
@@ -199,7 +199,7 @@ Many diseases, including cancer and chronic conditions, require extended treatme
 {{</citation>}}
 
 
-### (8/83) A Deep Learning Approach for Overall Survival prediction in Lung Cancer with Missing Values (Camillo Maria Caruso et al., 2023)
+### (8/84) A Deep Learning Approach for Overall Survival prediction in Lung Cancer with Missing Values (Camillo Maria Caruso et al., 2023)
 
 {{<citation>}}
 
@@ -221,7 +221,7 @@ One of the most challenging fields where Artificial Intelligence (AI) can be app
 {{</citation>}}
 
 
-### (9/83) Batching for Green AI -- An Exploratory Study on Inference (Tim Yarally et al., 2023)
+### (9/84) Batching for Green AI -- An Exploratory Study on Inference (Tim Yarally et al., 2023)
 
 {{<citation>}}
 
@@ -243,7 +243,7 @@ The batch size is an essential parameter to tune during the development of new n
 {{</citation>}}
 
 
-### (10/83) Unsupervised Embedding Learning for Human Activity Recognition Using Wearable Sensor Data (Taoran Sheng et al., 2023)
+### (10/84) Unsupervised Embedding Learning for Human Activity Recognition Using Wearable Sensor Data (Taoran Sheng et al., 2023)
 
 {{<citation>}}
 
@@ -265,7 +265,7 @@ The embedded sensors in widely used smartphones and other wearable devices make 
 {{</citation>}}
 
 
-### (11/83) An Analysis of Multi-Agent Reinforcement Learning for Decentralized Inventory Control Systems (Marwan Mousa et al., 2023)
+### (11/84) An Analysis of Multi-Agent Reinforcement Learning for Decentralized Inventory Control Systems (Marwan Mousa et al., 2023)
 
 {{<citation>}}
 
@@ -287,7 +287,7 @@ Most solutions to the inventory management problem assume a centralization of in
 {{</citation>}}
 
 
-### (12/83) Towards Better Fairness-Utility Trade-off: A Comprehensive Measurement-Based Reinforcement Learning Framework (Simiao Zhang et al., 2023)
+### (12/84) Towards Better Fairness-Utility Trade-off: A Comprehensive Measurement-Based Reinforcement Learning Framework (Simiao Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -309,7 +309,7 @@ Machine learning is widely used to make decisions with societal impact such as b
 {{</citation>}}
 
 
-### (13/83) Bridging the Reality Gap of Reinforcement Learning based Traffic Signal Control using Domain Randomization and Meta Learning (Arthur Müller et al., 2023)
+### (13/84) Bridging the Reality Gap of Reinforcement Learning based Traffic Signal Control using Domain Randomization and Meta Learning (Arthur Müller et al., 2023)
 
 {{<citation>}}
 
@@ -331,7 +331,7 @@ Reinforcement Learning (RL) has been widely explored in Traffic Signal Control (
 {{</citation>}}
 
 
-### (14/83) What can a Single Attention Layer Learn? A Study Through the Random Features Lens (Hengyu Fu et al., 2023)
+### (14/84) What can a Single Attention Layer Learn? A Study Through the Random Features Lens (Hengyu Fu et al., 2023)
 
 {{<citation>}}
 
@@ -353,7 +353,7 @@ Attention layers -- which map a sequence of inputs to a sequence of outputs -- a
 {{</citation>}}
 
 
-### (15/83) Model-based Offline Reinforcement Learning with Count-based Conservatism (Byeongchan Kim et al., 2023)
+### (15/84) Model-based Offline Reinforcement Learning with Count-based Conservatism (Byeongchan Kim et al., 2023)
 
 {{<citation>}}
 
@@ -375,7 +375,7 @@ In this paper, we propose a model-based offline reinforcement learning method th
 {{</citation>}}
 
 
-### (16/83) Improving Transferability of Adversarial Examples via Bayesian Attacks (Qizhang Li et al., 2023)
+### (16/84) Improving Transferability of Adversarial Examples via Bayesian Attacks (Qizhang Li et al., 2023)
 
 {{<citation>}}
 
@@ -397,7 +397,7 @@ This paper presents a substantial extension of our work published at ICLR. Our I
 {{</citation>}}
 
 
-### (17/83) XLDA: Linear Discriminant Analysis for Scaling Continual Learning to Extreme Classification at the Edge (Karan Shah et al., 2023)
+### (17/84) XLDA: Linear Discriminant Analysis for Scaling Continual Learning to Extreme Classification at the Edge (Karan Shah et al., 2023)
 
 {{<citation>}}
 
@@ -419,7 +419,7 @@ Streaming Linear Discriminant Analysis (LDA) while proven in Class-incremental L
 {{</citation>}}
 
 
-### (18/83) PI-VEGAN: Physics Informed Variational Embedding Generative Adversarial Networks for Stochastic Differential Equations (Ruisong Gao et al., 2023)
+### (18/84) PI-VEGAN: Physics Informed Variational Embedding Generative Adversarial Networks for Stochastic Differential Equations (Ruisong Gao et al., 2023)
 
 {{<citation>}}
 
@@ -445,7 +445,7 @@ We present a new category of physics-informed neural networks called physics inf
 
 
 
-### (19/83) Bibliometric Analysis of Publisher and Journal Instructions to Authors on Generative-AI in Academic and Scientific Publishing (Conner Ganjavi et al., 2023)
+### (19/84) Bibliometric Analysis of Publisher and Journal Instructions to Authors on Generative-AI in Academic and Scientific Publishing (Conner Ganjavi et al., 2023)
 
 {{<citation>}}
 
@@ -471,7 +471,7 @@ We aim to determine the extent and content of guidance for authors regarding the
 
 
 
-### (20/83) Vulnerability Detection Through an Adversarial Fuzzing Algorithm (Michael Wang et al., 2023)
+### (20/84) Vulnerability Detection Through an Adversarial Fuzzing Algorithm (Michael Wang et al., 2023)
 
 {{<citation>}}
 
@@ -493,7 +493,7 @@ Fuzzing is a popular vulnerability automated testing method utilized by professi
 {{</citation>}}
 
 
-### (21/83) Exploring Technical Debt in Security Questions on Stack Overflow (Joshua Aldrich Edbert et al., 2023)
+### (21/84) Exploring Technical Debt in Security Questions on Stack Overflow (Joshua Aldrich Edbert et al., 2023)
 
 {{<citation>}}
 
@@ -515,7 +515,7 @@ Background: Software security is crucial to ensure that the users are protected 
 {{</citation>}}
 
 
-### (22/83) DEFTri: A Few-Shot Label Fused Contextual Representation Learning For Product Defect Triage in e-Commerce (Ipsita Mohanty, 2023)
+### (22/84) DEFTri: A Few-Shot Label Fused Contextual Representation Learning For Product Defect Triage in e-Commerce (Ipsita Mohanty, 2023)
 
 {{<citation>}}
 
@@ -541,7 +541,7 @@ Defect Triage is a time-sensitive and critical process in a large-scale agile so
 
 
 
-### (23/83) Software defined networking flow admission and routing under minimal security constraints (Jorge López et al., 2023)
+### (23/84) Software defined networking flow admission and routing under minimal security constraints (Jorge López et al., 2023)
 
 {{<citation>}}
 
@@ -567,7 +567,7 @@ In recent years, computer networks and telecommunications in general have been s
 
 
 
-### (24/83) CARTIER: Cartographic lAnguage Reasoning Targeted at Instruction Execution for Robots (Nikhil Kakodkar et al., 2023)
+### (24/84) CARTIER: Cartographic lAnguage Reasoning Targeted at Instruction Execution for Robots (Nikhil Kakodkar et al., 2023)
 
 {{<citation>}}
 
@@ -589,7 +589,7 @@ This work explores the capacity of large language models (LLMs) to address probl
 {{</citation>}}
 
 
-### (25/83) 3D Skeletonization of Complex Grapevines for Robotic Pruning (Eric Schneider et al., 2023)
+### (25/84) 3D Skeletonization of Complex Grapevines for Robotic Pruning (Eric Schneider et al., 2023)
 
 {{<citation>}}
 
@@ -611,7 +611,7 @@ Robotic pruning of dormant grapevines is an area of active research in order to 
 {{</citation>}}
 
 
-### (26/83) BatMobility: Towards Flying Without Seeing for Autonomous Drones (Emerson Sie et al., 2023)
+### (26/84) BatMobility: Towards Flying Without Seeing for Autonomous Drones (Emerson Sie et al., 2023)
 
 {{<citation>}}
 
@@ -633,7 +633,7 @@ Unmanned aerial vehicles (UAVs) rely on optical sensors such as cameras and lida
 {{</citation>}}
 
 
-### (27/83) EV-Planner: Energy-Efficient Robot Navigation via Event-Based Physics-Guided Neuromorphic Planner (Sourav Sanyal et al., 2023)
+### (27/84) EV-Planner: Energy-Efficient Robot Navigation via Event-Based Physics-Guided Neuromorphic Planner (Sourav Sanyal et al., 2023)
 
 {{<citation>}}
 
@@ -655,7 +655,7 @@ Vision-based object tracking is an essential precursor to performing autonomous 
 {{</citation>}}
 
 
-### (28/83) How to Tidy Up a Table: Fusing Visual and Semantic Commonsense Reasoning for Robotic Tasks with Vague Objectives (Yiqing Xu et al., 2023)
+### (28/84) How to Tidy Up a Table: Fusing Visual and Semantic Commonsense Reasoning for Robotic Tasks with Vague Objectives (Yiqing Xu et al., 2023)
 
 {{<citation>}}
 
@@ -681,7 +681,7 @@ Vague objectives in many real-life scenarios pose long-standing challenges for r
 
 
 
-### (29/83) The Looming Threat of Fake and LLM-generated LinkedIn Profiles: Challenges and Opportunities for Detection and Prevention (Navid Ayoobi et al., 2023)
+### (29/84) The Looming Threat of Fake and LLM-generated LinkedIn Profiles: Challenges and Opportunities for Detection and Prevention (Navid Ayoobi et al., 2023)
 
 {{<citation>}}
 
@@ -703,7 +703,7 @@ In this paper, we present a novel method for detecting fake and Large Language M
 {{</citation>}}
 
 
-### (30/83) Diurnal Patterns in the Spread of COVID-19 Misinformation on Twitter within Italy (Elisabeth Stockinger et al., 2023)
+### (30/84) Diurnal Patterns in the Spread of COVID-19 Misinformation on Twitter within Italy (Elisabeth Stockinger et al., 2023)
 
 {{<citation>}}
 
@@ -725,7 +725,7 @@ Social media manipulation poses a significant threat to cognitive autonomy and u
 {{</citation>}}
 
 
-### (31/83) Prompt-Based Zero- and Few-Shot Node Classification: A Multimodal Approach (Yuexin Li et al., 2023)
+### (31/84) Prompt-Based Zero- and Few-Shot Node Classification: A Multimodal Approach (Yuexin Li et al., 2023)
 
 {{<citation>}}
 
@@ -747,7 +747,7 @@ Multimodal data empowers machine learning models to better understand the world 
 {{</citation>}}
 
 
-### (32/83) Friction Interventions to Curb the Spread of Misinformation on Social Media (Laura Jahn et al., 2023)
+### (32/84) Friction Interventions to Curb the Spread of Misinformation on Social Media (Laura Jahn et al., 2023)
 
 {{<citation>}}
 
@@ -773,7 +773,7 @@ Social media has enabled the spread of information at unprecedented speeds and s
 
 
 
-### (33/83) Digital Modeling on Large Kernel Metamaterial Neural Network (Quan Liu et al., 2023)
+### (33/84) Digital Modeling on Large Kernel Metamaterial Neural Network (Quan Liu et al., 2023)
 
 {{<citation>}}
 
@@ -795,7 +795,7 @@ Deep neural networks (DNNs) utilized recently are physically deployed with compu
 {{</citation>}}
 
 
-### (34/83) HybridAugment++: Unified Frequency Spectra Perturbations for Model Robustness (Mehmet Kerim Yucel et al., 2023)
+### (34/84) HybridAugment++: Unified Frequency Spectra Perturbations for Model Robustness (Mehmet Kerim Yucel et al., 2023)
 
 {{<citation>}}
 
@@ -817,7 +817,7 @@ Convolutional Neural Networks (CNN) are known to exhibit poor generalization per
 {{</citation>}}
 
 
-### (35/83) BandRe: Rethinking Band-Pass Filters for Scale-Wise Object Detection Evaluation (Yosuke Shinya, 2023)
+### (35/84) BandRe: Rethinking Band-Pass Filters for Scale-Wise Object Detection Evaluation (Yosuke Shinya, 2023)
 
 {{<citation>}}
 
@@ -839,7 +839,7 @@ Scale-wise evaluation of object detectors is important for real-world applicatio
 {{</citation>}}
 
 
-### (36/83) Automatic Data Augmentation Learning using Bilevel Optimization for Histopathological Images (Saypraseuth Mounsaveng et al., 2023)
+### (36/84) Automatic Data Augmentation Learning using Bilevel Optimization for Histopathological Images (Saypraseuth Mounsaveng et al., 2023)
 
 {{<citation>}}
 
@@ -861,7 +861,7 @@ Training a deep learning model to classify histopathological images is challengi
 {{</citation>}}
 
 
-### (37/83) Enhancing CLIP with GPT-4: Harnessing Visual Descriptions as Prompts (Mayug Maniparambil et al., 2023)
+### (37/84) Enhancing CLIP with GPT-4: Harnessing Visual Descriptions as Prompts (Mayug Maniparambil et al., 2023)
 
 {{<citation>}}
 
@@ -883,7 +883,7 @@ Contrastive pretrained large Vision-Language Models (VLMs) like CLIP have revolu
 {{</citation>}}
 
 
-### (38/83) Morphological Image Analysis and Feature Extraction for Reasoning with AI-based Defect Detection and Classification Models (Jiajun Zhang et al., 2023)
+### (38/84) Morphological Image Analysis and Feature Extraction for Reasoning with AI-based Defect Detection and Classification Models (Jiajun Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -905,7 +905,7 @@ As the use of artificial intelligent (AI) models becomes more prevalent in indus
 {{</citation>}}
 
 
-### (39/83) Deep Reinforcement Learning Based System for Intraoperative Hyperspectral Video Autofocusing (Charlie Budd et al., 2023)
+### (39/84) Deep Reinforcement Learning Based System for Intraoperative Hyperspectral Video Autofocusing (Charlie Budd et al., 2023)
 
 {{<citation>}}
 
@@ -927,7 +927,7 @@ Hyperspectral imaging (HSI) captures a greater level of spectral detail than tra
 {{</citation>}}
 
 
-### (40/83) Consistency-guided Meta-Learning for Bootstrapping Semi-Supervised Medical Image Segmentation (Qingyue Wei et al., 2023)
+### (40/84) Consistency-guided Meta-Learning for Bootstrapping Semi-Supervised Medical Image Segmentation (Qingyue Wei et al., 2023)
 
 {{<citation>}}
 
@@ -949,7 +949,7 @@ Medical imaging has witnessed remarkable progress but usually requires a large a
 {{</citation>}}
 
 
-### (41/83) Advancing Visual Grounding with Scene Knowledge: Benchmark and Method (Zhihong Chen et al., 2023)
+### (41/84) Advancing Visual Grounding with Scene Knowledge: Benchmark and Method (Zhihong Chen et al., 2023)
 
 {{<citation>}}
 
@@ -971,7 +971,7 @@ Visual grounding (VG) aims to establish fine-grained alignment between vision an
 {{</citation>}}
 
 
-### (42/83) YOLOPose V2: Understanding and Improving Transformer-based 6D Pose Estimation (Arul Selvam Periyasamy et al., 2023)
+### (42/84) YOLOPose V2: Understanding and Improving Transformer-based 6D Pose Estimation (Arul Selvam Periyasamy et al., 2023)
 
 {{<citation>}}
 
@@ -993,7 +993,7 @@ Keywords: Transformer, Transformers
 {{</citation>}}
 
 
-### (43/83) Improving Viewpoint Robustness for Visual Recognition via Adversarial Training (Shouwei Ruan et al., 2023)
+### (43/84) Improving Viewpoint Robustness for Visual Recognition via Adversarial Training (Shouwei Ruan et al., 2023)
 
 {{<citation>}}
 
@@ -1015,7 +1015,7 @@ Viewpoint invariance remains challenging for visual recognition in the 3D world,
 {{</citation>}}
 
 
-### (44/83) Redemption from Range-view for Accurate 3D Object Detection (Yihan Wang et al., 2023)
+### (44/84) Redemption from Range-view for Accurate 3D Object Detection (Yihan Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1037,7 +1037,7 @@ Most recent approaches for 3D object detection predominantly rely on point-view 
 {{</citation>}}
 
 
-### (45/83) SA-BEV: Generating Semantic-Aware Bird's-Eye-View Feature for Multi-view 3D Object Detection (Jinqing Zhang et al., 2023)
+### (45/84) SA-BEV: Generating Semantic-Aware Bird's-Eye-View Feature for Multi-view 3D Object Detection (Jinqing Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1059,7 +1059,7 @@ Recently, the pure camera-based Bird's-Eye-View (BEV) perception provides a feas
 {{</citation>}}
 
 
-### (46/83) Robust Visual Question Answering: Datasets, Methods, and Future Challenges (Jie Ma et al., 2023)
+### (46/84) Robust Visual Question Answering: Datasets, Methods, and Future Challenges (Jie Ma et al., 2023)
 
 {{<citation>}}
 
@@ -1081,7 +1081,7 @@ Visual question answering requires a system to provide an accurate natural langu
 {{</citation>}}
 
 
-### (47/83) Physics-Aware Semi-Supervised Underwater Image Enhancement (Hao Qi et al., 2023)
+### (47/84) Physics-Aware Semi-Supervised Underwater Image Enhancement (Hao Qi et al., 2023)
 
 {{<citation>}}
 
@@ -1103,7 +1103,7 @@ Underwater images normally suffer from degradation due to the transmission mediu
 {{</citation>}}
 
 
-### (48/83) Distribution Shift Matters for Knowledge Distillation with Webly Collected Images (Jialiang Tang et al., 2023)
+### (48/84) Distribution Shift Matters for Knowledge Distillation with Webly Collected Images (Jialiang Tang et al., 2023)
 
 {{<citation>}}
 
@@ -1125,7 +1125,7 @@ Knowledge distillation aims to learn a lightweight student network from a pre-tr
 {{</citation>}}
 
 
-### (49/83) Strip-MLP: Efficient Token Interaction for Vision MLP (Guiping Cao et al., 2023)
+### (49/84) Strip-MLP: Efficient Token Interaction for Vision MLP (Guiping Cao et al., 2023)
 
 {{<citation>}}
 
@@ -1147,7 +1147,7 @@ Token interaction operation is one of the core modules in MLP-based models to ex
 {{</citation>}}
 
 
-### (50/83) Attention Consistency Refined Masked Frequency Forgery Representation for Generalizing Face Forgery Detection (Decheng Liu et al., 2023)
+### (50/84) Attention Consistency Refined Masked Frequency Forgery Representation for Generalizing Face Forgery Detection (Decheng Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1169,7 +1169,7 @@ Due to the successful development of deep image generation technology, visual da
 {{</citation>}}
 
 
-### (51/83) Deep Directly-Trained Spiking Neural Networks for Object Detection (Qiaoyi Su et al., 2023)
+### (51/84) Deep Directly-Trained Spiking Neural Networks for Object Detection (Qiaoyi Su et al., 2023)
 
 {{<citation>}}
 
@@ -1191,7 +1191,7 @@ Spiking neural networks (SNNs) are brain-inspired energy-efficient models that e
 {{</citation>}}
 
 
-### (52/83) Subject-Diffusion:Open Domain Personalized Text-to-Image Generation without Test-time Fine-tuning (Jian Ma et al., 2023)
+### (52/84) Subject-Diffusion:Open Domain Personalized Text-to-Image Generation without Test-time Fine-tuning (Jian Ma et al., 2023)
 
 {{<citation>}}
 
@@ -1213,7 +1213,7 @@ Recent progress in personalized image generation using diffusion models has been
 {{</citation>}}
 
 
-### (53/83) LatentAugment: Data Augmentation via Guided Manipulation of GAN's Latent Space (Lorenzo Tronchin et al., 2023)
+### (53/84) LatentAugment: Data Augmentation via Guided Manipulation of GAN's Latent Space (Lorenzo Tronchin et al., 2023)
 
 {{<citation>}}
 
@@ -1235,7 +1235,7 @@ Data Augmentation (DA) is a technique to increase the quantity and diversity of 
 {{</citation>}}
 
 
-### (54/83) ParGANDA: Making Synthetic Pedestrians A Reality For Object Detection (Daria Reshetova et al., 2023)
+### (54/84) ParGANDA: Making Synthetic Pedestrians A Reality For Object Detection (Daria Reshetova et al., 2023)
 
 {{<citation>}}
 
@@ -1257,7 +1257,7 @@ Object detection is the key technique to a number of Computer Vision application
 {{</citation>}}
 
 
-### (55/83) Generating Image-Specific Text Improves Fine-grained Image Classification (Emily Mu et al., 2023)
+### (55/84) Generating Image-Specific Text Improves Fine-grained Image Classification (Emily Mu et al., 2023)
 
 {{<citation>}}
 
@@ -1283,7 +1283,7 @@ Recent vision-language models outperform vision-only models on many image classi
 
 
 
-### (56/83) Exploring Security Commits in Python (Shiyu Sun et al., 2023)
+### (56/84) Exploring Security Commits in Python (Shiyu Sun et al., 2023)
 
 {{<citation>}}
 
@@ -1309,7 +1309,7 @@ Python has become the most popular programming language as it is friendly to wor
 
 
 
-### (57/83) MythQA: Query-Based Large-Scale Check-Worthy Claim Detection through Multi-Answer Open-Domain Question Answering (Yang Bai et al., 2023)
+### (57/84) MythQA: Query-Based Large-Scale Check-Worthy Claim Detection through Multi-Answer Open-Domain Question Answering (Yang Bai et al., 2023)
 
 {{<citation>}}
 
@@ -1331,7 +1331,7 @@ Check-worthy claim detection aims at providing plausible misinformation to downs
 {{</citation>}}
 
 
-### (58/83) Multimodal Document Analytics for Banking Process Automation (Christopher Gerling et al., 2023)
+### (58/84) Multimodal Document Analytics for Banking Process Automation (Christopher Gerling et al., 2023)
 
 {{<citation>}}
 
@@ -1353,7 +1353,7 @@ In response to growing FinTech competition and the need for improved operational
 {{</citation>}}
 
 
-### (59/83) OUTFOX: LLM-generated Essay Detection through In-context Learning with Adversarially Generated Examples (Ryuto Koike et al., 2023)
+### (59/84) OUTFOX: LLM-generated Essay Detection through In-context Learning with Adversarially Generated Examples (Ryuto Koike et al., 2023)
 
 {{<citation>}}
 
@@ -1375,7 +1375,7 @@ Large Language Models (LLMs) have achieved human-level fluency in text generatio
 {{</citation>}}
 
 
-### (60/83) CausE: Towards Causal Knowledge Graph Embedding (Yichi Zhang et al., 2023)
+### (60/84) CausE: Towards Causal Knowledge Graph Embedding (Yichi Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1397,7 +1397,7 @@ Knowledge graph embedding (KGE) focuses on representing the entities and relatio
 {{</citation>}}
 
 
-### (61/83) Incorporating Human Translator Style into English-Turkish Literary Machine Translation (Zeynep Yirmibeşoğlu et al., 2023)
+### (61/84) Incorporating Human Translator Style into English-Turkish Literary Machine Translation (Zeynep Yirmibeşoğlu et al., 2023)
 
 {{<citation>}}
 
@@ -1419,7 +1419,7 @@ Although machine translation systems are mostly designed to serve in the general
 {{</citation>}}
 
 
-### (62/83) Is ChatGPT Involved in Texts? Measure the Polish Ratio to Detect ChatGPT-Generated Text (Lingyi Yang et al., 2023)
+### (62/84) Is ChatGPT Involved in Texts? Measure the Polish Ratio to Detect ChatGPT-Generated Text (Lingyi Yang et al., 2023)
 
 {{<citation>}}
 
@@ -1441,7 +1441,7 @@ The remarkable capabilities of large-scale language models, such as ChatGPT, in 
 {{</citation>}}
 
 
-### (63/83) CohortGPT: An Enhanced GPT for Participant Recruitment in Clinical Study (Zihan Guan et al., 2023)
+### (63/84) CohortGPT: An Enhanced GPT for Participant Recruitment in Clinical Study (Zihan Guan et al., 2023)
 
 {{<citation>}}
 
@@ -1463,7 +1463,7 @@ Participant recruitment based on unstructured medical texts such as clinical not
 {{</citation>}}
 
 
-### (64/83) Making Pre-trained Language Models both Task-solvers and Self-calibrators (Yangyi Chen et al., 2023)
+### (64/84) Making Pre-trained Language Models both Task-solvers and Self-calibrators (Yangyi Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1485,7 +1485,7 @@ Pre-trained language models (PLMs) serve as backbones for various real-world sys
 {{</citation>}}
 
 
-### (65/83) Generator-Retriever-Generator: A Novel Approach to Open-domain Question Answering (Abdelrahman Abdallah et al., 2023)
+### (65/84) Generator-Retriever-Generator: A Novel Approach to Open-domain Question Answering (Abdelrahman Abdallah et al., 2023)
 
 {{<citation>}}
 
@@ -1507,11 +1507,213 @@ Open-domain question answering (QA) tasks usually require the retrieval of relev
 {{</citation>}}
 
 
+## cs.AI (9)
+
+
+
+### (66/84) eXplainable Artificial Intelligence (XAI) in age prediction: A systematic review (Alena Kalyakulina et al., 2023)
+
+{{<citation>}}
+
+Alena Kalyakulina, Igor Yusipov. (2023)  
+**eXplainable Artificial Intelligence (XAI) in age prediction: A systematic review**  
+
+---
+Primary Category: cs.AI  
+Categories: I-2-1; J-3, cs-AI, cs-LG, cs.AI, eess-IV  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2307.13704v1)  
+
+---
+
+
+**ABSTRACT**  
+eXplainable Artificial Intelligence (XAI) is now an important and essential part of machine learning, allowing to explain the predictions of complex models. XAI is especially required in risky applications, particularly in health care, where human lives depend on the decisions of AI systems. One area of medical research is age prediction and identification of biomarkers of aging and age-related diseases. However, the role of XAI in the age prediction task has not previously been explored directly. In this review, we discuss the application of XAI approaches to age prediction tasks. We give a systematic review of the works organized by body systems, and discuss the benefits of XAI in medical applications and, in particular, in the age prediction domain.
+
+{{</citation>}}
+
+
+### (67/84) Statement-based Memory for Neural Source Code Summarization (Aakash Bansal et al., 2023)
+
+{{<citation>}}
+
+Aakash Bansal, Siyuan Jiang, Sakib Haque, Collin McMillan. (2023)  
+**Statement-based Memory for Neural Source Code Summarization**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keywords: Summarization, Transformer  
+[Paper Link](http://arxiv.org/abs/2307.11709v1)  
+
+---
+
+
+**ABSTRACT**  
+Source code summarization is the task of writing natural language descriptions of source code behavior. Code summarization underpins software documentation for programmers. Short descriptions of code help programmers understand the program quickly without having to read the code itself. Lately, neural source code summarization has emerged as the frontier of research into automated code summarization techniques. By far the most popular targets for summarization are program subroutines. The idea, in a nutshell, is to train an encoder-decoder neural architecture using large sets of examples of subroutines extracted from code repositories. The encoder represents the code and the decoder represents the summary. However, most current approaches attempt to treat the subroutine as a single unit. For example, by taking the entire subroutine as input to a Transformer or RNN-based encoder. But code behavior tends to depend on the flow from statement to statement. Normally dynamic analysis may shed light on this flow, but dynamic analysis on hundreds of thousands of examples in large datasets is not practical. In this paper, we present a statement-based memory encoder that learns the important elements of flow during training, leading to a statement-based subroutine representation without the need for dynamic analysis. We implement our encoder for code summarization and demonstrate a significant improvement over the state-of-the-art.
+
+{{</citation>}}
+
+
+### (68/84) Identifying Relevant Features of CSE-CIC-IDS2018 Dataset for the Development of an Intrusion Detection System (László Göcs et al., 2023)
+
+{{<citation>}}
+
+László Göcs, Zsolt Csaba Johanyák. (2023)  
+**Identifying Relevant Features of CSE-CIC-IDS2018 Dataset for the Development of an Intrusion Detection System**  
+
+---
+Primary Category: cs.AI  
+Categories: 68T05, I-2, cs-AI, cs.AI  
+Keywords: AWS, Intrusion Detection  
+[Paper Link](http://arxiv.org/abs/2307.11544v1)  
+
+---
+
+
+**ABSTRACT**  
+Intrusion detection systems (IDSs) are essential elements of IT systems. Their key component is a classification module that continuously evaluates some features of the network traffic and identifies possible threats. Its efficiency is greatly affected by the right selection of the features to be monitored. Therefore, the identification of a minimal set of features that are necessary to safely distinguish malicious traffic from benign traffic is indispensable in the course of the development of an IDS. This paper presents the preprocessing and feature selection workflow as well as its results in the case of the CSE-CIC-IDS2018 on AWS dataset, focusing on five attack types. To identify the relevant features, six feature selection methods were applied, and the final ranking of the features was elaborated based on their average score. Next, several subsets of the features were formed based on different ranking threshold values, and each subset was tried with five classification algorithms to determine the optimal feature set for each attack type. During the evaluation, four widely used metrics were taken into consideration.
+
+{{</citation>}}
+
+
+### (69/84) Model Reporting for Certifiable AI: A Proposal from Merging EU Regulation into AI Development (Danilo Brajovic et al., 2023)
+
+{{<citation>}}
+
+Danilo Brajovic, Niclas Renner, Vincent Philipp Goebels, Philipp Wagner, Benjamin Fresz, Martin Biller, Mara Klaeb, Janika Kutz, Jens Neuhuettler, Marco F. Huber. (2023)  
+**Model Reporting for Certifiable AI: A Proposal from Merging EU Regulation into AI Development**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2307.11525v1)  
+
+---
+
+
+**ABSTRACT**  
+Despite large progress in Explainable and Safe AI, practitioners suffer from a lack of regulation and standards for AI safety. In this work we merge recent regulation efforts by the European Union and first proposals for AI guidelines with recent trends in research: data and model cards. We propose the use of standardized cards to document AI applications throughout the development process. Our main contribution is the introduction of use-case and operation cards, along with updates for data and model cards to cope with regulatory requirements. We reference both recent research as well as the source of the regulation in our cards and provide references to additional support material and toolboxes whenever possible. The goal is to design cards that help practitioners develop safe AI systems throughout the development process, while enabling efficient third-party auditing of AI applications, being easy to understand, and building trust in the system. Our work incorporates insights from interviews with certification experts as well as developers and individuals working with the developed AI applications.
+
+{{</citation>}}
+
+
+### (70/84) IndigoVX: Where Human Intelligence Meets AI for Optimal Decision Making (Kais Dukes, 2023)
+
+{{<citation>}}
+
+Kais Dukes. (2023)  
+**IndigoVX: Where Human Intelligence Meets AI for Optimal Decision Making**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs-CL, cs.AI  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2307.11516v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper defines a new approach for augmenting human intelligence with AI for optimal goal solving. Our proposed AI, Indigo, is an acronym for Informed Numerical Decision-making through Iterative Goal-Oriented optimization. When combined with a human collaborator, we term the joint system IndigoVX, for Virtual eXpert. The system is conceptually simple. We envisage this method being applied to games or business strategies, with the human providing strategic context and the AI offering optimal, data-driven moves. Indigo operates through an iterative feedback loop, harnessing the human expert's contextual knowledge and the AI's data-driven insights to craft and refine strategies towards a well-defined goal. Using a quantified three-score schema, this hybridization allows the combined team to evaluate strategies and refine their plan, while adapting to challenges and changes in real-time.
+
+{{</citation>}}
+
+
+### (71/84) Zero-touch realization of Pervasive Artificial Intelligence-as-a-service in 6G networks (Emna Baccour et al., 2023)
+
+{{<citation>}}
+
+Emna Baccour, Mhd Saria Allahham, Aiman Erbad, Amr Mohamed, Ahmed Refaey Hussein, Mounir Hamdi. (2023)  
+**Zero-touch realization of Pervasive Artificial Intelligence-as-a-service in 6G networks**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs-DC, cs-NI, cs.AI  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2307.11468v1)  
+
+---
+
+
+**ABSTRACT**  
+The vision of the upcoming 6G technologies, characterized by ultra-dense network, low latency, and fast data rate is to support Pervasive AI (PAI) using zero-touch solutions enabling self-X (e.g., self-configuration, self-monitoring, and self-healing) services. However, the research on 6G is still in its infancy, and only the first steps have been taken to conceptualize its design, investigate its implementation, and plan for use cases. Toward this end, academia and industry communities have gradually shifted from theoretical studies of AI distribution to real-world deployment and standardization. Still, designing an end-to-end framework that systematizes the AI distribution by allowing easier access to the service using a third-party application assisted by a zero-touch service provisioning has not been well explored. In this context, we introduce a novel platform architecture to deploy a zero-touch PAI-as-a-Service (PAIaaS) in 6G networks supported by a blockchain-based smart system. This platform aims to standardize the pervasive AI at all levels of the architecture and unify the interfaces in order to facilitate the service deployment across application and infrastructure domains, relieve the users worries about cost, security, and resource allocation, and at the same time, respect the 6G stringent performance requirements. As a proof of concept, we present a Federated Learning-as-a-service use case where we evaluate the ability of our proposed system to self-optimize and self-adapt to the dynamics of 6G networks in addition to minimizing the users' perceived costs.
+
+{{</citation>}}
+
+
+### (72/84) AIGC Empowering Telecom Sector White Paper_chinese (Ye Ouyang et al., 2023)
+
+{{<citation>}}
+
+Ye Ouyang, Yaqin Zhang, Xiaozhou Ye, Yunxin Liu, Yong Song, Yang Liu, Sen Bian, Zhiyong Liu. (2023)  
+**AIGC Empowering Telecom Sector White Paper_chinese**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keywords: AI, GPT  
+[Paper Link](http://arxiv.org/abs/2307.11449v2)  
+
+---
+
+
+**ABSTRACT**  
+In the global craze of GPT, people have deeply realized that AI, as a transformative technology and key force in economic and social development, will bring great leaps and breakthroughs to the global industry and profoundly influence the future world competition pattern. As the builder and operator of information and communication infrastructure, the telecom sector provides infrastructure support for the development of AI, and even takes the lead in the implementation of AI applications. How to enable the application of AIGC (GPT) and implement AIGC in the telecom sector are questions that telecom practitioners must ponder and answer. Through the study of GPT, a typical representative of AIGC, the authors have analyzed how GPT empowers the telecom sector in the form of scenarios, discussed the gap between the current GPT general model and telecom services, proposed for the first time a Telco Augmented Cognition capability system, provided answers to how to construct a telecom service GPT in the telecom sector, and carried out various practices. Our counterparts in the industry are expected to focus on collaborative innovation around telecom and AI, build an open and shared innovation ecosystem, promote the deep integration of AI and telecom sector, and accelerate the construction of next-generation information infrastructure, in an effort to facilitate the digital transformation of the economy and society.
+
+{{</citation>}}
+
+
+### (73/84) A Two-stage Fine-tuning Strategy for Generalizable Manipulation Skill of Embodied AI (Fang Gao et al., 2023)
+
+{{<citation>}}
+
+Fang Gao, XueTao Li, Jun Yu, Feng Shaung. (2023)  
+**A Two-stage Fine-tuning Strategy for Generalizable Manipulation Skill of Embodied AI**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keywords: AI, GPT  
+[Paper Link](http://arxiv.org/abs/2307.11343v1)  
+
+---
+
+
+**ABSTRACT**  
+The advent of Chat-GPT has led to a surge of interest in Embodied AI. However, many existing Embodied AI models heavily rely on massive interactions with training environments, which may not be practical in real-world situations. To this end, the Maniskill2 has introduced a full-physics simulation benchmark for manipulating various 3D objects. This benchmark enables agents to be trained using diverse datasets of demonstrations and evaluates their ability to generalize to unseen scenarios in testing environments. In this paper, we propose a novel two-stage fine-tuning strategy that aims to further enhance the generalization capability of our model based on the Maniskill2 benchmark. Through extensive experiments, we demonstrate the effectiveness of our approach by achieving the 1st prize in all three tracks of the ManiSkill2 Challenge. Our findings highlight the potential of our method to improve the generalization abilities of Embodied AI models and pave the way for their ractical applications in real-world scenarios. All codes and models of our solution is available at https://github.com/xtli12/GXU-LIPE.git
+
+{{</citation>}}
+
+
+### (74/84) Eliminating Unintended Stable Fixpoints for Hybrid Reasoning Systems (Spencer Killen et al., 2023)
+
+{{<citation>}}
+
+Spencer Killen, Jia-Huai You. (2023)  
+**Eliminating Unintended Stable Fixpoints for Hybrid Reasoning Systems**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keywords: Reasoning  
+[Paper Link](http://arxiv.org/abs/2307.11286v1)  
+
+---
+
+
+**ABSTRACT**  
+A wide variety of nonmonotonic semantics can be expressed as approximators defined under AFT (Approximation Fixpoint Theory). Using traditional AFT theory, it is not possible to define approximators that rely on information computed in previous iterations of stable revision. However, this information is rich for semantics that incorporate classical negation into nonmonotonic reasoning. In this work, we introduce a methodology resembling AFT that can utilize priorly computed upper bounds to more precisely capture semantics. We demonstrate our framework's applicability to hybrid MKNF (minimal knowledge and negation as failure) knowledge bases by extending the state-of-the-art approximator.
+
+{{</citation>}}
+
+
 ## cs.CE (1)
 
 
 
-### (66/83) PINNsFormer: A Transformer-Based Framework For Physics-Informed Neural Networks (Leo Zhiyuan Zhao et al., 2023)
+### (75/84) PINNsFormer: A Transformer-Based Framework For Physics-Informed Neural Networks (Leo Zhiyuan Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -1537,7 +1739,7 @@ Physics-Informed Neural Networks (PINNs) have emerged as a promising deep learni
 
 
 
-### (67/83) A Reinforcement Learning Framework with Region-Awareness and Shared Path Experience for Efficient Routing in Networks-on-Chip (Kamil Khan et al., 2023)
+### (76/84) A Reinforcement Learning Framework with Region-Awareness and Shared Path Experience for Efficient Routing in Networks-on-Chip (Kamil Khan et al., 2023)
 
 {{<citation>}}
 
@@ -1559,191 +1761,11 @@ Network-on-chip (NoC) architectures provide a scalable, high-performance, and re
 {{</citation>}}
 
 
-## cs.AI (8)
-
-
-
-### (68/83) Statement-based Memory for Neural Source Code Summarization (Aakash Bansal et al., 2023)
-
-{{<citation>}}
-
-Aakash Bansal, Siyuan Jiang, Sakib Haque, Collin McMillan. (2023)  
-**Statement-based Memory for Neural Source Code Summarization**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
-Keywords: Summarization, Transformer  
-[Paper Link](http://arxiv.org/abs/2307.11709v1)  
-
----
-
-
-**ABSTRACT**  
-Source code summarization is the task of writing natural language descriptions of source code behavior. Code summarization underpins software documentation for programmers. Short descriptions of code help programmers understand the program quickly without having to read the code itself. Lately, neural source code summarization has emerged as the frontier of research into automated code summarization techniques. By far the most popular targets for summarization are program subroutines. The idea, in a nutshell, is to train an encoder-decoder neural architecture using large sets of examples of subroutines extracted from code repositories. The encoder represents the code and the decoder represents the summary. However, most current approaches attempt to treat the subroutine as a single unit. For example, by taking the entire subroutine as input to a Transformer or RNN-based encoder. But code behavior tends to depend on the flow from statement to statement. Normally dynamic analysis may shed light on this flow, but dynamic analysis on hundreds of thousands of examples in large datasets is not practical. In this paper, we present a statement-based memory encoder that learns the important elements of flow during training, leading to a statement-based subroutine representation without the need for dynamic analysis. We implement our encoder for code summarization and demonstrate a significant improvement over the state-of-the-art.
-
-{{</citation>}}
-
-
-### (69/83) Identifying Relevant Features of CSE-CIC-IDS2018 Dataset for the Development of an Intrusion Detection System (László Göcs et al., 2023)
-
-{{<citation>}}
-
-László Göcs, Zsolt Csaba Johanyák. (2023)  
-**Identifying Relevant Features of CSE-CIC-IDS2018 Dataset for the Development of an Intrusion Detection System**  
-
----
-Primary Category: cs.AI  
-Categories: 68T05, I-2, cs-AI, cs.AI  
-Keywords: AWS, Intrusion Detection  
-[Paper Link](http://arxiv.org/abs/2307.11544v1)  
-
----
-
-
-**ABSTRACT**  
-Intrusion detection systems (IDSs) are essential elements of IT systems. Their key component is a classification module that continuously evaluates some features of the network traffic and identifies possible threats. Its efficiency is greatly affected by the right selection of the features to be monitored. Therefore, the identification of a minimal set of features that are necessary to safely distinguish malicious traffic from benign traffic is indispensable in the course of the development of an IDS. This paper presents the preprocessing and feature selection workflow as well as its results in the case of the CSE-CIC-IDS2018 on AWS dataset, focusing on five attack types. To identify the relevant features, six feature selection methods were applied, and the final ranking of the features was elaborated based on their average score. Next, several subsets of the features were formed based on different ranking threshold values, and each subset was tried with five classification algorithms to determine the optimal feature set for each attack type. During the evaluation, four widely used metrics were taken into consideration.
-
-{{</citation>}}
-
-
-### (70/83) Model Reporting for Certifiable AI: A Proposal from Merging EU Regulation into AI Development (Danilo Brajovic et al., 2023)
-
-{{<citation>}}
-
-Danilo Brajovic, Niclas Renner, Vincent Philipp Goebels, Philipp Wagner, Benjamin Fresz, Martin Biller, Mara Klaeb, Janika Kutz, Jens Neuhuettler, Marco F. Huber. (2023)  
-**Model Reporting for Certifiable AI: A Proposal from Merging EU Regulation into AI Development**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2307.11525v1)  
-
----
-
-
-**ABSTRACT**  
-Despite large progress in Explainable and Safe AI, practitioners suffer from a lack of regulation and standards for AI safety. In this work we merge recent regulation efforts by the European Union and first proposals for AI guidelines with recent trends in research: data and model cards. We propose the use of standardized cards to document AI applications throughout the development process. Our main contribution is the introduction of use-case and operation cards, along with updates for data and model cards to cope with regulatory requirements. We reference both recent research as well as the source of the regulation in our cards and provide references to additional support material and toolboxes whenever possible. The goal is to design cards that help practitioners develop safe AI systems throughout the development process, while enabling efficient third-party auditing of AI applications, being easy to understand, and building trust in the system. Our work incorporates insights from interviews with certification experts as well as developers and individuals working with the developed AI applications.
-
-{{</citation>}}
-
-
-### (71/83) IndigoVX: Where Human Intelligence Meets AI for Optimal Decision Making (Kais Dukes, 2023)
-
-{{<citation>}}
-
-Kais Dukes. (2023)  
-**IndigoVX: Where Human Intelligence Meets AI for Optimal Decision Making**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs-CL, cs.AI  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2307.11516v1)  
-
----
-
-
-**ABSTRACT**  
-This paper defines a new approach for augmenting human intelligence with AI for optimal goal solving. Our proposed AI, Indigo, is an acronym for Informed Numerical Decision-making through Iterative Goal-Oriented optimization. When combined with a human collaborator, we term the joint system IndigoVX, for Virtual eXpert. The system is conceptually simple. We envisage this method being applied to games or business strategies, with the human providing strategic context and the AI offering optimal, data-driven moves. Indigo operates through an iterative feedback loop, harnessing the human expert's contextual knowledge and the AI's data-driven insights to craft and refine strategies towards a well-defined goal. Using a quantified three-score schema, this hybridization allows the combined team to evaluate strategies and refine their plan, while adapting to challenges and changes in real-time.
-
-{{</citation>}}
-
-
-### (72/83) Zero-touch realization of Pervasive Artificial Intelligence-as-a-service in 6G networks (Emna Baccour et al., 2023)
-
-{{<citation>}}
-
-Emna Baccour, Mhd Saria Allahham, Aiman Erbad, Amr Mohamed, Ahmed Refaey Hussein, Mounir Hamdi. (2023)  
-**Zero-touch realization of Pervasive Artificial Intelligence-as-a-service in 6G networks**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs-DC, cs-NI, cs.AI  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2307.11468v1)  
-
----
-
-
-**ABSTRACT**  
-The vision of the upcoming 6G technologies, characterized by ultra-dense network, low latency, and fast data rate is to support Pervasive AI (PAI) using zero-touch solutions enabling self-X (e.g., self-configuration, self-monitoring, and self-healing) services. However, the research on 6G is still in its infancy, and only the first steps have been taken to conceptualize its design, investigate its implementation, and plan for use cases. Toward this end, academia and industry communities have gradually shifted from theoretical studies of AI distribution to real-world deployment and standardization. Still, designing an end-to-end framework that systematizes the AI distribution by allowing easier access to the service using a third-party application assisted by a zero-touch service provisioning has not been well explored. In this context, we introduce a novel platform architecture to deploy a zero-touch PAI-as-a-Service (PAIaaS) in 6G networks supported by a blockchain-based smart system. This platform aims to standardize the pervasive AI at all levels of the architecture and unify the interfaces in order to facilitate the service deployment across application and infrastructure domains, relieve the users worries about cost, security, and resource allocation, and at the same time, respect the 6G stringent performance requirements. As a proof of concept, we present a Federated Learning-as-a-service use case where we evaluate the ability of our proposed system to self-optimize and self-adapt to the dynamics of 6G networks in addition to minimizing the users' perceived costs.
-
-{{</citation>}}
-
-
-### (73/83) AIGC Empowering Telecom Sector White Paper_chinese (Ye Ouyang et al., 2023)
-
-{{<citation>}}
-
-Ye Ouyang, Yaqin Zhang, Xiaozhou Ye, Yunxin Liu, Yong Song, Yang Liu, Sen Bian, Zhiyong Liu. (2023)  
-**AIGC Empowering Telecom Sector White Paper_chinese**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
-Keywords: AI, GPT  
-[Paper Link](http://arxiv.org/abs/2307.11449v2)  
-
----
-
-
-**ABSTRACT**  
-In the global craze of GPT, people have deeply realized that AI, as a transformative technology and key force in economic and social development, will bring great leaps and breakthroughs to the global industry and profoundly influence the future world competition pattern. As the builder and operator of information and communication infrastructure, the telecom sector provides infrastructure support for the development of AI, and even takes the lead in the implementation of AI applications. How to enable the application of AIGC (GPT) and implement AIGC in the telecom sector are questions that telecom practitioners must ponder and answer. Through the study of GPT, a typical representative of AIGC, the authors have analyzed how GPT empowers the telecom sector in the form of scenarios, discussed the gap between the current GPT general model and telecom services, proposed for the first time a Telco Augmented Cognition capability system, provided answers to how to construct a telecom service GPT in the telecom sector, and carried out various practices. Our counterparts in the industry are expected to focus on collaborative innovation around telecom and AI, build an open and shared innovation ecosystem, promote the deep integration of AI and telecom sector, and accelerate the construction of next-generation information infrastructure, in an effort to facilitate the digital transformation of the economy and society.
-
-{{</citation>}}
-
-
-### (74/83) A Two-stage Fine-tuning Strategy for Generalizable Manipulation Skill of Embodied AI (Fang Gao et al., 2023)
-
-{{<citation>}}
-
-Fang Gao, XueTao Li, Jun Yu, Feng Shaung. (2023)  
-**A Two-stage Fine-tuning Strategy for Generalizable Manipulation Skill of Embodied AI**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
-Keywords: AI, GPT  
-[Paper Link](http://arxiv.org/abs/2307.11343v1)  
-
----
-
-
-**ABSTRACT**  
-The advent of Chat-GPT has led to a surge of interest in Embodied AI. However, many existing Embodied AI models heavily rely on massive interactions with training environments, which may not be practical in real-world situations. To this end, the Maniskill2 has introduced a full-physics simulation benchmark for manipulating various 3D objects. This benchmark enables agents to be trained using diverse datasets of demonstrations and evaluates their ability to generalize to unseen scenarios in testing environments. In this paper, we propose a novel two-stage fine-tuning strategy that aims to further enhance the generalization capability of our model based on the Maniskill2 benchmark. Through extensive experiments, we demonstrate the effectiveness of our approach by achieving the 1st prize in all three tracks of the ManiSkill2 Challenge. Our findings highlight the potential of our method to improve the generalization abilities of Embodied AI models and pave the way for their ractical applications in real-world scenarios. All codes and models of our solution is available at https://github.com/xtli12/GXU-LIPE.git
-
-{{</citation>}}
-
-
-### (75/83) Eliminating Unintended Stable Fixpoints for Hybrid Reasoning Systems (Spencer Killen et al., 2023)
-
-{{<citation>}}
-
-Spencer Killen, Jia-Huai You. (2023)  
-**Eliminating Unintended Stable Fixpoints for Hybrid Reasoning Systems**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
-Keywords: Reasoning  
-[Paper Link](http://arxiv.org/abs/2307.11286v1)  
-
----
-
-
-**ABSTRACT**  
-A wide variety of nonmonotonic semantics can be expressed as approximators defined under AFT (Approximation Fixpoint Theory). Using traditional AFT theory, it is not possible to define approximators that rely on information computed in previous iterations of stable revision. However, this information is rich for semantics that incorporate classical negation into nonmonotonic reasoning. In this work, we introduce a methodology resembling AFT that can utilize priorly computed upper bounds to more precisely capture semantics. We demonstrate our framework's applicability to hybrid MKNF (minimal knowledge and negation as failure) knowledge bases by extending the state-of-the-art approximator.
-
-{{</citation>}}
-
-
 ## cs.HC (2)
 
 
 
-### (76/83) How do you feel? Measuring User-Perceived Value for Rejecting Machine Decisions in Hate Speech Detection (Philippe Lammerts et al., 2023)
+### (77/84) How do you feel? Measuring User-Perceived Value for Rejecting Machine Decisions in Hate Speech Detection (Philippe Lammerts et al., 2023)
 
 {{<citation>}}
 
@@ -1765,7 +1787,7 @@ Hate speech moderation remains a challenging task for social media platforms. Hu
 {{</citation>}}
 
 
-### (77/83) Large Language Model-based System to Provide Immediate Feedback to Students in Flipped Classroom Preparation Learning (Shintaro Uchiyama et al., 2023)
+### (78/84) Large Language Model-based System to Provide Immediate Feedback to Students in Flipped Classroom Preparation Learning (Shintaro Uchiyama et al., 2023)
 
 {{<citation>}}
 
@@ -1791,7 +1813,7 @@ This paper proposes a system that uses large language models to provide immediat
 
 
 
-### (78/83) A Change of Heart: Improving Speech Emotion Recognition through Speech-to-Text Modality Conversion (Zeinab Sadat Taghavi et al., 2023)
+### (79/84) A Change of Heart: Improving Speech Emotion Recognition through Speech-to-Text Modality Conversion (Zeinab Sadat Taghavi et al., 2023)
 
 {{<citation>}}
 
@@ -1817,7 +1839,7 @@ Speech Emotion Recognition (SER) is a challenging task. In this paper, we introd
 
 
 
-### (79/83) Predict-AI-bility of how humans balance self-interest with the interest of others (Valerio Capraro et al., 2023)
+### (80/84) Predict-AI-bility of how humans balance self-interest with the interest of others (Valerio Capraro et al., 2023)
 
 {{<citation>}}
 
@@ -1843,7 +1865,7 @@ Generative artificial intelligence holds enormous potential to revolutionize dec
 
 
 
-### (80/83) Providing personalized Explanations: a Conversational Approach (Jieting Luo et al., 2023)
+### (81/84) Providing personalized Explanations: a Conversational Approach (Jieting Luo et al., 2023)
 
 {{<citation>}}
 
@@ -1869,7 +1891,7 @@ The increasing applications of AI systems require personalized explanations for 
 
 
 
-### (81/83) Prompting Large Language Models with Speech Recognition Abilities (Yassir Fathullah et al., 2023)
+### (82/84) Prompting Large Language Models with Speech Recognition Abilities (Yassir Fathullah et al., 2023)
 
 {{<citation>}}
 
@@ -1895,7 +1917,7 @@ Large language models have proven themselves highly flexible, able to solve a wi
 
 
 
-### (82/83) Attention to Entropic Communication (Torsten Enßlin et al., 2023)
+### (83/84) Attention to Entropic Communication (Torsten Enßlin et al., 2023)
 
 {{<citation>}}
 
@@ -1921,7 +1943,7 @@ The concept of attention, numerical weights that emphasize the importance of par
 
 
 
-### (83/83) Artificial Intelligence-Generated Terahertz Multi-Resonant Metasurfaces via Improved Transformer and CGAN Neural Networks (Yangpeng Huang et al., 2023)
+### (84/84) Artificial Intelligence-Generated Terahertz Multi-Resonant Metasurfaces via Improved Transformer and CGAN Neural Networks (Yangpeng Huang et al., 2023)
 
 {{<citation>}}
 
