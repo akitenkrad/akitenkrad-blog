@@ -714,7 +714,7 @@ Elisabeth Stockinger, Riccardo Gallotti, Carina I. Hausladen. (2023)
 Primary Category: cs.SI  
 Categories: cs-SI, cs.SI, physics-soc-ph  
 Keywords: Twitter  
-[Paper Link](http://arxiv.org/abs/2307.11575v1)  
+[Paper Link](http://arxiv.org/abs/2307.11575v2)  
 
 ---
 
@@ -1180,7 +1180,7 @@ Qiaoyi Su, Yuhong Chou, Yifan Hu, Jianing Li, Shijie Mei, Ziyang Zhang, Guoqi Li
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2307.11411v2)  
+[Paper Link](http://arxiv.org/abs/2307.11411v3)  
 
 ---
 
