@@ -1260,7 +1260,7 @@ Sausar Karaf, Aleksey Fedoseev, Mikhail Martynov, Zhanibek Darush, Aleksei Shche
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: Drone, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2307.14147v1)  
+[Paper Link](http://arxiv.org/abs/2307.14147v2)  
 
 ---
 

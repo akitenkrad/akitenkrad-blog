@@ -1395,7 +1395,7 @@ Tomohiro Sawada, Daniel Paleka, Alexander Havrilla, Pranav Tadepalli, Paula Vida
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: GPT, GPT-4, Language Model, Reasoning  
-[Paper Link](http://arxiv.org/abs/2307.13692v1)  
+[Paper Link](http://arxiv.org/abs/2307.13692v2)  
 
 ---
 
