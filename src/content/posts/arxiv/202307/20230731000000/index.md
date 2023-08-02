@@ -29,6 +29,7 @@ math: true
 - [cs.IR (1)](#csir-1)
 - [eess.IV (1)](#eessiv-1)
 - [cs.AI (2)](#csai-2)
+- [cs.SD (1)](#cssd-1)
 - [cs.MM (1)](#csmm-1)
 - [cs.NI (1)](#csni-1)
 
@@ -36,7 +37,7 @@ math: true
 
 
 
-### (1/31) ADR-GNN: Advection-Diffusion-Reaction Graph Neural Networks (Moshe Eliasof et al., 2023)
+### (1/32) ADR-GNN: Advection-Diffusion-Reaction Graph Neural Networks (Moshe Eliasof et al., 2023)
 
 {{<citation>}}
 
@@ -58,7 +59,7 @@ Graph neural networks (GNNs) have shown remarkable success in learning represent
 {{</citation>}}
 
 
-### (2/31) MUSE: Multi-View Contrastive Learning for Heterophilic Graphs (Mengyi Yuan et al., 2023)
+### (2/32) MUSE: Multi-View Contrastive Learning for Heterophilic Graphs (Mengyi Yuan et al., 2023)
 
 {{<citation>}}
 
@@ -80,7 +81,7 @@ In recent years, self-supervised learning has emerged as a promising approach in
 {{</citation>}}
 
 
-### (3/31) Graph Condensation for Inductive Node Representation Learning (Xinyi Gao et al., 2023)
+### (3/32) Graph Condensation for Inductive Node Representation Learning (Xinyi Gao et al., 2023)
 
 {{<citation>}}
 
@@ -102,7 +103,7 @@ Graph neural networks (GNNs) encounter significant computational challenges when
 {{</citation>}}
 
 
-### (4/31) A Theory for Emergence of Complex Skills in Language Models (Sanjeev Arora et al., 2023)
+### (4/32) A Theory for Emergence of Complex Skills in Language Models (Sanjeev Arora et al., 2023)
 
 {{<citation>}}
 
@@ -124,7 +125,7 @@ A major driver of AI products today is the fact that new skills emerge in langua
 {{</citation>}}
 
 
-### (5/31) Dynamic deep-reinforcement-learning algorithm in Partially Observed Markov Decision Processes (Saki Omi et al., 2023)
+### (5/32) Dynamic deep-reinforcement-learning algorithm in Partially Observed Markov Decision Processes (Saki Omi et al., 2023)
 
 {{<citation>}}
 
@@ -146,7 +147,7 @@ Reinforcement learning has been greatly improved in recent studies and an increa
 {{</citation>}}
 
 
-### (6/31) Opportunistic Air Quality Monitoring and Forecasting with Expandable Graph Neural Networks (Jingwei Zuo et al., 2023)
+### (6/32) Opportunistic Air Quality Monitoring and Forecasting with Expandable Graph Neural Networks (Jingwei Zuo et al., 2023)
 
 {{<citation>}}
 
@@ -168,7 +169,7 @@ Air Quality Monitoring and Forecasting has been a popular research topic in rece
 {{</citation>}}
 
 
-### (7/31) Efficient Semi-Supervised Federated Learning for Heterogeneous Participants (Zhipeng Sun et al., 2023)
+### (7/32) Efficient Semi-Supervised Federated Learning for Heterogeneous Participants (Zhipeng Sun et al., 2023)
 
 {{<citation>}}
 
@@ -194,7 +195,7 @@ Federated Learning (FL) has emerged to allow multiple clients to collaboratively
 
 
 
-### (8/31) EnrichEvent: Enriching Social Data with Contextual Information for Emerging Event Extraction (Mohammadali Sefidi Esfahani et al., 2023)
+### (8/32) EnrichEvent: Enriching Social Data with Contextual Information for Emerging Event Extraction (Mohammadali Sefidi Esfahani et al., 2023)
 
 {{<citation>}}
 
@@ -216,7 +217,7 @@ Social platforms have emerged as a crucial platform for disseminating and discus
 {{</citation>}}
 
 
-### (9/31) Roll Up Your Sleeves: Working with a Collaborative and Engaging Task-Oriented Dialogue System (Lingbo Mo et al., 2023)
+### (9/32) Roll Up Your Sleeves: Working with a Collaborative and Engaging Task-Oriented Dialogue System (Lingbo Mo et al., 2023)
 
 {{<citation>}}
 
@@ -238,7 +239,7 @@ We introduce TacoBot, a user-centered task-oriented digital assistant designed t
 {{</citation>}}
 
 
-### (10/31) Automatic Extraction of the Romanian Academic Word List: Data and Methods (Ana-Maria Bucur et al., 2023)
+### (10/32) Automatic Extraction of the Romanian Academic Word List: Data and Methods (Ana-Maria Bucur et al., 2023)
 
 {{<citation>}}
 
@@ -260,7 +261,7 @@ This paper presents the methodology and data used for the automatic extraction o
 {{</citation>}}
 
 
-### (11/31) Okapi: Instruction-tuned Large Language Models in Multiple Languages with Reinforcement Learning from Human Feedback (Viet Dac Lai et al., 2023)
+### (11/32) Okapi: Instruction-tuned Large Language Models in Multiple Languages with Reinforcement Learning from Human Feedback (Viet Dac Lai et al., 2023)
 
 {{<citation>}}
 
@@ -282,7 +283,7 @@ A key technology for the development of large language models (LLMs) involves in
 {{</citation>}}
 
 
-### (12/31) RoCar: A Relationship Network-based Evaluation Method to Large Language Models (Ming Wang et al., 2023)
+### (12/32) RoCar: A Relationship Network-based Evaluation Method to Large Language Models (Ming Wang et al., 2023)
 
 {{<citation>}}
 
@@ -304,7 +305,7 @@ Large language models (LLMs) have received increasing attention. However, due to
 {{</citation>}}
 
 
-### (13/31) Towards Codable Text Watermarking for Large Language Models (Lean Wang et al., 2023)
+### (13/32) Towards Codable Text Watermarking for Large Language Models (Lean Wang et al., 2023)
 
 {{<citation>}}
 
@@ -326,7 +327,7 @@ As large language models (LLMs) generate texts with increasing fluency and reali
 {{</citation>}}
 
 
-### (14/31) GeneMask: Fast Pretraining of Gene Sequences to Enable Few-Shot Learning (Soumyadeep Roy et al., 2023)
+### (14/32) GeneMask: Fast Pretraining of Gene Sequences to Enable Few-Shot Learning (Soumyadeep Roy et al., 2023)
 
 {{<citation>}}
 
@@ -348,7 +349,7 @@ Large-scale language models such as DNABert and LOGO aim to learn optimal gene r
 {{</citation>}}
 
 
-### (15/31) ATESA-BÆRT: A Heterogeneous Ensemble Learning Model for Aspect-Based Sentiment Analysis (Elena-Simona Apostol et al., 2023)
+### (15/32) ATESA-BÆRT: A Heterogeneous Ensemble Learning Model for Aspect-Based Sentiment Analysis (Elena-Simona Apostol et al., 2023)
 
 {{<citation>}}
 
@@ -374,7 +375,7 @@ The increasing volume of online reviews has made possible the development of sen
 
 
 
-### (16/31) Vulnerability Detection Approaches on Application Behaviors in Mobile Environment (Abdellah Ouaguid et al., 2023)
+### (16/32) Vulnerability Detection Approaches on Application Behaviors in Mobile Environment (Abdellah Ouaguid et al., 2023)
 
 {{<citation>}}
 
@@ -396,7 +397,7 @@ Several solutions ensuring the dynamic detection of malicious activities on Andr
 {{</citation>}}
 
 
-### (17/31) Analyzing Cryptocurrency trends using Tweet Sentiment Data and User Meta-Data (Samyak Jain et al., 2023)
+### (17/32) Analyzing Cryptocurrency trends using Tweet Sentiment Data and User Meta-Data (Samyak Jain et al., 2023)
 
 {{<citation>}}
 
@@ -418,7 +419,7 @@ Cryptocurrency is a form of digital currency using cryptographic techniques in a
 {{</citation>}}
 
 
-### (18/31) JFinder: A Novel Architecture for Java Vulnerability Identification Based Quad Self-Attention and Pre-training Mechanism (Jin Wang et al., 2023)
+### (18/32) JFinder: A Novel Architecture for Java Vulnerability Identification Based Quad Self-Attention and Pre-training Mechanism (Jin Wang et al., 2023)
 
 {{<citation>}}
 
@@ -444,7 +445,7 @@ Software vulnerabilities pose significant risks to computer systems, impacting o
 
 
 
-### (19/31) Using Implicit Behavior Cloning and Dynamic Movement Primitive to Facilitate Reinforcement Learning for Robot Motion Planning (Zengjie Zhang et al., 2023)
+### (19/32) Using Implicit Behavior Cloning and Dynamic Movement Primitive to Facilitate Reinforcement Learning for Robot Motion Planning (Zengjie Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -466,7 +467,7 @@ Reinforcement learning (RL) for motion planning of multi-degree-of-freedom robot
 {{</citation>}}
 
 
-### (20/31) PIMbot: Policy and Incentive Manipulation for Multi-Robot Reinforcement Learning in Social Dilemmas (Shahab Nikkhoo et al., 2023)
+### (20/32) PIMbot: Policy and Incentive Manipulation for Multi-Robot Reinforcement Learning in Social Dilemmas (Shahab Nikkhoo et al., 2023)
 
 {{<citation>}}
 
@@ -492,7 +493,7 @@ Recent research has demonstrated the potential of reinforcement learning (RL) in
 
 
 
-### (21/31) HandMIM: Pose-Aware Self-Supervised Learning for 3D Hand Mesh Estimation (Zuyan Liu et al., 2023)
+### (21/32) HandMIM: Pose-Aware Self-Supervised Learning for 3D Hand Mesh Estimation (Zuyan Liu et al., 2023)
 
 {{<citation>}}
 
@@ -514,7 +515,7 @@ With an enormous number of hand images generated over time, unleashing pose know
 {{</citation>}}
 
 
-### (22/31) Enhancing Object Detection in Ancient Documents with Synthetic Data Generation and Transformer-Based Models (Zahra Ziran et al., 2023)
+### (22/32) Enhancing Object Detection in Ancient Documents with Synthetic Data Generation and Transformer-Based Models (Zahra Ziran et al., 2023)
 
 {{<citation>}}
 
@@ -536,7 +537,7 @@ The study of ancient documents provides a glimpse into our past. However, the lo
 {{</citation>}}
 
 
-### (23/31) Transformer on Shuttlecock Flying Direction Prediction for Hit-frame Detection (Yu-Hang Chien et al., 2023)
+### (23/32) Transformer on Shuttlecock Flying Direction Prediction for Hit-frame Detection (Yu-Hang Chien et al., 2023)
 
 {{<citation>}}
 
@@ -558,7 +559,7 @@ Sports professionals constantly under pressure to perform at the highest level c
 {{</citation>}}
 
 
-### (24/31) Class-Specific Distribution Alignment for Semi-Supervised Medical Image Classification (Zhongzheng Huang et al., 2023)
+### (24/32) Class-Specific Distribution Alignment for Semi-Supervised Medical Image Classification (Zhongzheng Huang et al., 2023)
 
 {{<citation>}}
 
@@ -580,7 +581,7 @@ Despite the success of deep neural networks in medical image classification, the
 {{</citation>}}
 
 
-### (25/31) CMDA: Cross-Modality Domain Adaptation for Nighttime Semantic Segmentation (Ruihao Xia et al., 2023)
+### (25/32) CMDA: Cross-Modality Domain Adaptation for Nighttime Semantic Segmentation (Ruihao Xia et al., 2023)
 
 {{<citation>}}
 
@@ -606,7 +607,7 @@ Most nighttime semantic segmentation studies are based on domain adaptation appr
 
 
 
-### (26/31) Click-Conversion Multi-Task Model with Position Bias Mitigation for Sponsored Search in eCommerce (Yibo Wang et al., 2023)
+### (26/32) Click-Conversion Multi-Task Model with Position Bias Mitigation for Sponsored Search in eCommerce (Yibo Wang et al., 2023)
 
 {{<citation>}}
 
@@ -632,7 +633,7 @@ Position bias, the phenomenon whereby users tend to focus on higher-ranked items
 
 
 
-### (27/31) CoVid-19 Detection leveraging Vision Transformers and Explainable AI (Pangoth Santhosh Kumar et al., 2023)
+### (27/32) CoVid-19 Detection leveraging Vision Transformers and Explainable AI (Pangoth Santhosh Kumar et al., 2023)
 
 {{<citation>}}
 
@@ -658,7 +659,7 @@ Lung disease is a common health problem in many parts of the world. It is a sign
 
 
 
-### (28/31) Marrying Dialogue Systems with Data Visualization: Interactive Data Visualization Generation from Natural Language Conversations (Yuanfeng Song et al., 2023)
+### (28/32) Marrying Dialogue Systems with Data Visualization: Interactive Data Visualization Generation from Natural Language Conversations (Yuanfeng Song et al., 2023)
 
 {{<citation>}}
 
@@ -680,7 +681,7 @@ Data visualization (DV) has become the prevailing tool in the market due to its 
 {{</citation>}}
 
 
-### (29/31) Reinforcement Learning Under Probabilistic Spatio-Temporal Constraints with Time Windows (Xiaoshan Lin et al., 2023)
+### (29/32) Reinforcement Learning Under Probabilistic Spatio-Temporal Constraints with Time Windows (Xiaoshan Lin et al., 2023)
 
 {{<citation>}}
 
@@ -702,11 +703,37 @@ We propose an automata-theoretic approach for reinforcement learning (RL) under 
 {{</citation>}}
 
 
+## cs.SD (1)
+
+
+
+### (30/32) Monaural Multi-Speaker Speech Separation Using Efficient Transformer Model (S. Rijal et al., 2023)
+
+{{<citation>}}
+
+S. Rijal, R. Neupane, S. P. Mainali, S. K. Regmi, S. Maharjan. (2023)  
+**Monaural Multi-Speaker Speech Separation Using Efficient Transformer Model**  
+
+---
+Primary Category: cs.SD  
+Categories: 68T10, I-2-m, cs-LG, cs-SD, cs.SD, eess-AS  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2308.00010v1)  
+
+---
+
+
+**ABSTRACT**  
+Cocktail party problem is the scenario where it is difficult to separate or distinguish individual speaker from a mixed speech from several speakers. There have been several researches going on in this field but the size and complexity of the model is being traded off with the accuracy and robustness of speech separation. "Monaural multi-speaker speech separation" presents a speech-separation model based on the Transformer architecture and its efficient forms. The model has been trained with the LibriMix dataset containing diverse speakers' utterances. The model separates 2 distinct speaker sources from a mixed audio input. The developed model approaches the reduction in computational complexity of the speech separation model, with minimum tradeoff with the performance of prevalent speech separation model and it has shown significant movement towards that goal. This project foresees, a rise in contribution towards the ongoing research in the field of speech separation with computational efficiency at its core.
+
+{{</citation>}}
+
+
 ## cs.MM (1)
 
 
 
-### (30/31) Instance-Wise Adaptive Tuning and Caching for Vision-Language Models (Chunjin Yang et al., 2023)
+### (31/32) Instance-Wise Adaptive Tuning and Caching for Vision-Language Models (Chunjin Yang et al., 2023)
 
 {{<citation>}}
 
@@ -732,7 +759,7 @@ Large-scale vision-language models (LVLMs) pretrained on massive image-text pair
 
 
 
-### (31/31) Distributed Traffic Engineering in Hybrid Software Defined Networks: A Multi-agent Reinforcement Learning Framework (Yingya Guo et al., 2023)
+### (32/32) Distributed Traffic Engineering in Hybrid Software Defined Networks: A Multi-agent Reinforcement Learning Framework (Yingya Guo et al., 2023)
 
 {{<citation>}}
 

@@ -988,7 +988,7 @@ Zhuo Chen, Lingbing Guo, Yin Fang, Yichi Zhang, Jiaoyan Chen, Jeff Z. Pan, Yangn
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CV, cs-LG, cs-MM, cs.AI  
 Keywords: Entity Alignment  
-[Paper Link](http://arxiv.org/abs/2307.16210v1)  
+[Paper Link](http://arxiv.org/abs/2307.16210v2)  
 
 ---
 
