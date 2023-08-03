@@ -344,7 +344,7 @@ Aiwei Liu, Leyi Pan, Xuming Hu, Shu'ang Li, Lijie Wen, Irwin King, Philip S. Yu.
 Primary Category: cs.CL  
 Categories: 68T50, I-2-7, cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2307.16230v1)  
+[Paper Link](http://arxiv.org/abs/2307.16230v2)  
 
 ---
 
@@ -520,7 +520,7 @@ Bohao Li, Rui Wang, Guangzhi Wang, Yuying Ge, Yixiao Ge, Ying Shan. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs-CV, cs.CL  
 Keywords: GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2307.16125v1)  
+[Paper Link](http://arxiv.org/abs/2307.16125v2)  
 
 ---
 
@@ -598,13 +598,13 @@ Amit Seal Ami, Kevin Moran, Denys Poshyvanyk, Adwait Nadkarni. (2023)
 Primary Category: cs.CR  
 Categories: cs-CR, cs-SE, cs.CR  
 Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2307.16325v1)  
+[Paper Link](http://arxiv.org/abs/2307.16325v2)  
 
 ---
 
 
 **ABSTRACT**  
-The demand for automated security analysis techniques, such as static analysis based security testing (SAST) tools continues to increase. To develop SASTs that are effectively leveraged by developers for finding vulnerabilities, researchers and tool designers must understand how developers perceive, select, and use SASTs, what they expect from the tools, whether they know of the limitations of the tools, and how they address those limitations. This paper describes a qualitative study that explores the assumptions, expectations, beliefs, and challenges experienced by developers who use SASTs. We perform in-depth, semi-structured interviews with 20 practitioners who possess a diverse range of software development expertise, as well as a variety of unique security, product, and organizational backgrounds. We identify $17$ key findings that shed light on developer perceptions and desires related to SASTs, and also expose gaps in the status quo -- challenging long-held beliefs in SAST design priorities. Finally, we provide concrete future directions for researchers and practitioners rooted in an analysis of our findings.
+The demand for automated security analysis techniques, such as static analysis based security testing (SAST) tools continues to increase. To develop SASTs that are effectively leveraged by developers for finding vulnerabilities, researchers and tool designers must understand how developers perceive, select, and use SASTs, what they expect from the tools, whether they know of the limitations of the tools, and how they address those limitations. This paper describes a qualitative study that explores the assumptions, expectations, beliefs, and challenges experienced by developers who use SASTs. We perform in-depth, semi-structured interviews with 20 practitioners who possess a diverse range of software development expertise, as well as a variety of unique security, product, and organizational backgrounds. We identify $17$ key findings that shed light on developer perceptions and desires related to SASTs, and also expose gaps in the status quo - challenging long-held beliefs in SAST design priorities. Finally, we provide concrete future directions for researchers and practitioners rooted in an analysis of our findings.
 
 {{</citation>}}
 

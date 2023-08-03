@@ -21,11 +21,11 @@ math: true
 
 ## Primary Categories
 
-- [cs.LG (7)](#cslg-7)
+- [cs.LG (8)](#cslg-8)
 - [cs.CL (8)](#cscl-8)
 - [cs.CR (3)](#cscr-3)
 - [cs.RO (2)](#csro-2)
-- [cs.CV (5)](#cscv-5)
+- [cs.CV (4)](#cscv-4)
 - [cs.IR (1)](#csir-1)
 - [eess.IV (1)](#eessiv-1)
 - [cs.AI (2)](#csai-2)
@@ -33,7 +33,7 @@ math: true
 - [cs.MM (1)](#csmm-1)
 - [cs.NI (1)](#csni-1)
 
-## cs.LG (7)
+## cs.LG (8)
 
 
 
@@ -103,7 +103,29 @@ Graph neural networks (GNNs) encounter significant computational challenges when
 {{</citation>}}
 
 
-### (4/32) A Theory for Emergence of Complex Skills in Language Models (Sanjeev Arora et al., 2023)
+### (4/32) Towards the Visualization of Aggregated Class Activation Maps to Analyse the Global Contribution of Class Features (Igor Cherepanov et al., 2023)
+
+{{<citation>}}
+
+Igor Cherepanov, David Sessler, Alex Ulmer, Hendrik Lücke-Tieke, Jörn Kohlhammer. (2023)  
+**Towards the Visualization of Aggregated Class Activation Maps to Analyse the Global Contribution of Class Features**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-HC, cs-LG, cs.LG  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2308.00710v1)  
+
+---
+
+
+**ABSTRACT**  
+Deep learning (DL) models achieve remarkable performance in classification tasks. However, models with high complexity can not be used in many risk-sensitive applications unless a comprehensible explanation is presented. Explainable artificial intelligence (xAI) focuses on the research to explain the decision-making of AI systems like DL. We extend a recent method of Class Activation Maps (CAMs) which visualizes the importance of each feature of a data sample contributing to the classification. In this paper, we aggregate CAMs from multiple samples to show a global explanation of the classification for semantically structured data. The aggregation allows the analyst to make sophisticated assumptions and analyze them with further drill-down visualizations. Our visual representation for the global CAM illustrates the impact of each feature with a square glyph containing two indicators. The color of the square indicates the classification impact of this feature. The size of the filled square describes the variability of the impact between single samples. For interesting features that require further analysis, a detailed view is necessary that provides the distribution of these values. We propose an interactive histogram to filter samples and refine the CAM to show relevant samples only. Our approach allows an analyst to detect important features of high-dimensional data and derive adjustments to the AI model based on our global explanation visualization.
+
+{{</citation>}}
+
+
+### (5/32) A Theory for Emergence of Complex Skills in Language Models (Sanjeev Arora et al., 2023)
 
 {{<citation>}}
 
@@ -125,7 +147,7 @@ A major driver of AI products today is the fact that new skills emerge in langua
 {{</citation>}}
 
 
-### (5/32) Dynamic deep-reinforcement-learning algorithm in Partially Observed Markov Decision Processes (Saki Omi et al., 2023)
+### (6/32) Dynamic deep-reinforcement-learning algorithm in Partially Observed Markov Decision Processes (Saki Omi et al., 2023)
 
 {{<citation>}}
 
@@ -147,7 +169,7 @@ Reinforcement learning has been greatly improved in recent studies and an increa
 {{</citation>}}
 
 
-### (6/32) Opportunistic Air Quality Monitoring and Forecasting with Expandable Graph Neural Networks (Jingwei Zuo et al., 2023)
+### (7/32) Opportunistic Air Quality Monitoring and Forecasting with Expandable Graph Neural Networks (Jingwei Zuo et al., 2023)
 
 {{<citation>}}
 
@@ -169,7 +191,7 @@ Air Quality Monitoring and Forecasting has been a popular research topic in rece
 {{</citation>}}
 
 
-### (7/32) Efficient Semi-Supervised Federated Learning for Heterogeneous Participants (Zhipeng Sun et al., 2023)
+### (8/32) Efficient Semi-Supervised Federated Learning for Heterogeneous Participants (Zhipeng Sun et al., 2023)
 
 {{<citation>}}
 
@@ -195,7 +217,7 @@ Federated Learning (FL) has emerged to allow multiple clients to collaboratively
 
 
 
-### (8/32) EnrichEvent: Enriching Social Data with Contextual Information for Emerging Event Extraction (Mohammadali Sefidi Esfahani et al., 2023)
+### (9/32) EnrichEvent: Enriching Social Data with Contextual Information for Emerging Event Extraction (Mohammadali Sefidi Esfahani et al., 2023)
 
 {{<citation>}}
 
@@ -217,7 +239,7 @@ Social platforms have emerged as a crucial platform for disseminating and discus
 {{</citation>}}
 
 
-### (9/32) Roll Up Your Sleeves: Working with a Collaborative and Engaging Task-Oriented Dialogue System (Lingbo Mo et al., 2023)
+### (10/32) Roll Up Your Sleeves: Working with a Collaborative and Engaging Task-Oriented Dialogue System (Lingbo Mo et al., 2023)
 
 {{<citation>}}
 
@@ -239,7 +261,7 @@ We introduce TacoBot, a user-centered task-oriented digital assistant designed t
 {{</citation>}}
 
 
-### (10/32) Automatic Extraction of the Romanian Academic Word List: Data and Methods (Ana-Maria Bucur et al., 2023)
+### (11/32) Automatic Extraction of the Romanian Academic Word List: Data and Methods (Ana-Maria Bucur et al., 2023)
 
 {{<citation>}}
 
@@ -261,7 +283,7 @@ This paper presents the methodology and data used for the automatic extraction o
 {{</citation>}}
 
 
-### (11/32) Okapi: Instruction-tuned Large Language Models in Multiple Languages with Reinforcement Learning from Human Feedback (Viet Dac Lai et al., 2023)
+### (12/32) Okapi: Instruction-tuned Large Language Models in Multiple Languages with Reinforcement Learning from Human Feedback (Viet Dac Lai et al., 2023)
 
 {{<citation>}}
 
@@ -272,18 +294,18 @@ Viet Dac Lai, Chien Van Nguyen, Nghia Trung Ngo, Thuat Nguyen, Franck Dernoncour
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: ChatGPT, GPT, Language Model, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2307.16039v1)  
+[Paper Link](http://arxiv.org/abs/2307.16039v2)  
 
 ---
 
 
 **ABSTRACT**  
-A key technology for the development of large language models (LLMs) involves instruction tuning that helps align the models' responses with human expectations to realize impressive learning abilities. Two major approaches for instruction tuning characterize supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF), which are currently applied to produce the best commercial LLMs (e.g., ChatGPT). To improve the accessibility of LLMs for research and development efforts, various instruction-tuned open-source LLMs have also been introduced recently, e.g., Alpaca, Vicuna, to name a few. However, existing open-source LLMs have only been instruction-tuned for English and a few popular languages, thus hindering their impacts and accessibility to many other languages in the world. Among a few very recent work to explore instruction tuning for LLMs in multiple languages, SFT has been used as the only approach to instruction-tune LLMs for multiple languages. This has left a significant gap for fine-tuned LLMs based on RLHF in diverse languages and raised important questions on how RLHF can boost the performance of multilingual instruction tuning. To overcome this issue, we present Okapi, the first system with instruction-tuned LLMs based on RLHF for multiple languages. Okapi introduces instruction and response-ranked data in 26 diverse languages to facilitate the experiments and development of future multilingual LLM research. We also present benchmark datasets to enable the evaluation of generative LLMs in multiple languages. Our experiments demonstrate the advantages of RLHF for multilingual instruction over SFT for different base models and datasets. Our framework and resources are released at \url{https://github.com/nlp-uoregon/Okapi}.
+A key technology for the development of large language models (LLMs) involves instruction tuning that helps align the models' responses with human expectations to realize impressive learning abilities. Two major approaches for instruction tuning characterize supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF), which are currently applied to produce the best commercial LLMs (e.g., ChatGPT). To improve the accessibility of LLMs for research and development efforts, various instruction-tuned open-source LLMs have also been introduced recently, e.g., Alpaca, Vicuna, to name a few. However, existing open-source LLMs have only been instruction-tuned for English and a few popular languages, thus hindering their impacts and accessibility to many other languages in the world. Among a few very recent work to explore instruction tuning for LLMs in multiple languages, SFT has been used as the only approach to instruction-tune LLMs for multiple languages. This has left a significant gap for fine-tuned LLMs based on RLHF in diverse languages and raised important questions on how RLHF can boost the performance of multilingual instruction tuning. To overcome this issue, we present Okapi, the first system with instruction-tuned LLMs based on RLHF for multiple languages. Okapi introduces instruction and response-ranked data in 26 diverse languages to facilitate the experiments and development of future multilingual LLM research. We also present benchmark datasets to enable the evaluation of generative LLMs in multiple languages. Our experiments demonstrate the advantages of RLHF for multilingual instruction over SFT for different base models and datasets. Our framework and resources are released at https://github.com/nlp-uoregon/Okapi.
 
 {{</citation>}}
 
 
-### (12/32) RoCar: A Relationship Network-based Evaluation Method to Large Language Models (Ming Wang et al., 2023)
+### (13/32) RoCar: A Relationship Network-based Evaluation Method to Large Language Models (Ming Wang et al., 2023)
 
 {{<citation>}}
 
@@ -305,7 +327,7 @@ Large language models (LLMs) have received increasing attention. However, due to
 {{</citation>}}
 
 
-### (13/32) Towards Codable Text Watermarking for Large Language Models (Lean Wang et al., 2023)
+### (14/32) Towards Codable Text Watermarking for Large Language Models (Lean Wang et al., 2023)
 
 {{<citation>}}
 
@@ -327,7 +349,7 @@ As large language models (LLMs) generate texts with increasing fluency and reali
 {{</citation>}}
 
 
-### (14/32) GeneMask: Fast Pretraining of Gene Sequences to Enable Few-Shot Learning (Soumyadeep Roy et al., 2023)
+### (15/32) GeneMask: Fast Pretraining of Gene Sequences to Enable Few-Shot Learning (Soumyadeep Roy et al., 2023)
 
 {{<citation>}}
 
@@ -349,7 +371,7 @@ Large-scale language models such as DNABert and LOGO aim to learn optimal gene r
 {{</citation>}}
 
 
-### (15/32) ATESA-BÆRT: A Heterogeneous Ensemble Learning Model for Aspect-Based Sentiment Analysis (Elena-Simona Apostol et al., 2023)
+### (16/32) ATESA-BÆRT: A Heterogeneous Ensemble Learning Model for Aspect-Based Sentiment Analysis (Elena-Simona Apostol et al., 2023)
 
 {{<citation>}}
 
@@ -375,7 +397,7 @@ The increasing volume of online reviews has made possible the development of sen
 
 
 
-### (16/32) Vulnerability Detection Approaches on Application Behaviors in Mobile Environment (Abdellah Ouaguid et al., 2023)
+### (17/32) Vulnerability Detection Approaches on Application Behaviors in Mobile Environment (Abdellah Ouaguid et al., 2023)
 
 {{<citation>}}
 
@@ -397,7 +419,7 @@ Several solutions ensuring the dynamic detection of malicious activities on Andr
 {{</citation>}}
 
 
-### (17/32) Analyzing Cryptocurrency trends using Tweet Sentiment Data and User Meta-Data (Samyak Jain et al., 2023)
+### (18/32) Analyzing Cryptocurrency trends using Tweet Sentiment Data and User Meta-Data (Samyak Jain et al., 2023)
 
 {{<citation>}}
 
@@ -419,7 +441,7 @@ Cryptocurrency is a form of digital currency using cryptographic techniques in a
 {{</citation>}}
 
 
-### (18/32) JFinder: A Novel Architecture for Java Vulnerability Identification Based Quad Self-Attention and Pre-training Mechanism (Jin Wang et al., 2023)
+### (19/32) JFinder: A Novel Architecture for Java Vulnerability Identification Based Quad Self-Attention and Pre-training Mechanism (Jin Wang et al., 2023)
 
 {{<citation>}}
 
@@ -445,7 +467,7 @@ Software vulnerabilities pose significant risks to computer systems, impacting o
 
 
 
-### (19/32) Using Implicit Behavior Cloning and Dynamic Movement Primitive to Facilitate Reinforcement Learning for Robot Motion Planning (Zengjie Zhang et al., 2023)
+### (20/32) Using Implicit Behavior Cloning and Dynamic Movement Primitive to Facilitate Reinforcement Learning for Robot Motion Planning (Zengjie Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -467,7 +489,7 @@ Reinforcement learning (RL) for motion planning of multi-degree-of-freedom robot
 {{</citation>}}
 
 
-### (20/32) PIMbot: Policy and Incentive Manipulation for Multi-Robot Reinforcement Learning in Social Dilemmas (Shahab Nikkhoo et al., 2023)
+### (21/32) PIMbot: Policy and Incentive Manipulation for Multi-Robot Reinforcement Learning in Social Dilemmas (Shahab Nikkhoo et al., 2023)
 
 {{<citation>}}
 
@@ -489,11 +511,11 @@ Recent research has demonstrated the potential of reinforcement learning (RL) in
 {{</citation>}}
 
 
-## cs.CV (5)
+## cs.CV (4)
 
 
 
-### (21/32) HandMIM: Pose-Aware Self-Supervised Learning for 3D Hand Mesh Estimation (Zuyan Liu et al., 2023)
+### (22/32) HandMIM: Pose-Aware Self-Supervised Learning for 3D Hand Mesh Estimation (Zuyan Liu et al., 2023)
 
 {{<citation>}}
 
@@ -515,7 +537,7 @@ With an enormous number of hand images generated over time, unleashing pose know
 {{</citation>}}
 
 
-### (22/32) Enhancing Object Detection in Ancient Documents with Synthetic Data Generation and Transformer-Based Models (Zahra Ziran et al., 2023)
+### (23/32) Enhancing Object Detection in Ancient Documents with Synthetic Data Generation and Transformer-Based Models (Zahra Ziran et al., 2023)
 
 {{<citation>}}
 
@@ -533,28 +555,6 @@ Keywords: Object Detection, Transformer
 
 **ABSTRACT**  
 The study of ancient documents provides a glimpse into our past. However, the low image quality and intricate details commonly found in these documents present significant challenges for accurate object detection. The objective of this research is to enhance object detection in ancient documents by reducing false positives and improving precision. To achieve this, we propose a method that involves the creation of synthetic datasets through computational mediation, along with the integration of visual feature extraction into the object detection process. Our approach includes associating objects with their component parts and introducing a visual feature map to enable the model to discern between different symbols and document elements. Through our experiments, we demonstrate that improved object detection has a profound impact on the field of Paleography, enabling in-depth analysis and fostering a greater understanding of these valuable historical artifacts.
-
-{{</citation>}}
-
-
-### (23/32) Transformer on Shuttlecock Flying Direction Prediction for Hit-frame Detection (Yu-Hang Chien et al., 2023)
-
-{{<citation>}}
-
-Yu-Hang Chien, Fang Yu. (2023)  
-**Transformer on Shuttlecock Flying Direction Prediction for Hit-frame Detection**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2307.16000v1)  
-
----
-
-
-**ABSTRACT**  
-Sports professionals constantly under pressure to perform at the highest level can benefit from sports analysis, which allows coaches and players to reduce manual efforts and systematically evaluate their performance using automated tools. This research aims to advance sports analysis in badminton, systematically detecting hit-frames automatically from match videos using modern deep learning techniques. The data included in hit-frames can subsequently be utilized to synthesize players' strokes and on-court movement, as well as for other downstream applications such as analyzing training tasks and competition strategy. The proposed approach in this study comprises several automated procedures like rally-wise video trimming, player and court keypoints detection, shuttlecock flying direction prediction, and hit-frame detection. In the study, we achieved 99% accuracy on shot angle recognition for video trimming, over 92% accuracy for applying player keypoints sequences on shuttlecock flying direction prediction, and reported the evaluation results of rally-wise video trimming and hit-frame detection.
 
 {{</citation>}}
 
