@@ -588,14 +588,14 @@ Recent studies show that instruction tuning and learning from human feedback imp
 
 {{<citation>}}
 
-Sarah Shoker, Andrew Reddie, Sarah Barrington, Miles Brundage, Husanjot Chahal, Michael Depp, Bill Drexel, Ritwik Gupta, Marina Favaro, Jake Hecla, Alan Hickey, Margarita Konaev, Kirthi Kumar, Nathan Lambert, Andrew Lohn, Cullen O'Keefe, Nazneen Rajani, Michael Sellitto, Robert Trager, Leah Walker, Alexa Wehsener, Jessica Young. (2023)  
+Sarah Shoker, Andrew Reddie, Sarah Barrington, Ruby Booth, Miles Brundage, Husanjot Chahal, Michael Depp, Bill Drexel, Ritwik Gupta, Marina Favaro, Jake Hecla, Alan Hickey, Margarita Konaev, Kirthi Kumar, Nathan Lambert, Andrew Lohn, Cullen O'Keefe, Nazneen Rajani, Michael Sellitto, Robert Trager, Leah Walker, Alexa Wehsener, Jessica Young. (2023)  
 **Confidence-Building Measures for Artificial Intelligence: Workshop Proceedings**  
 
 ---
 Primary Category: cs.CY  
 Categories: cs-CY, cs.CY  
 Keywords: AI, Security  
-[Paper Link](http://arxiv.org/abs/2308.00862v1)  
+[Paper Link](http://arxiv.org/abs/2308.00862v2)  
 
 ---
 
@@ -1558,14 +1558,14 @@ Traffic flow prediction (TFP) is a fundamental problem of the Intelligent Transp
 
 {{<citation>}}
 
-Manasa Manohara, Sankalp Dayal, Tarqi Afzal, Rahul Bakshi, Kahkuen Fu. (2023)  
+Manasa Manohara, Sankalp Dayal, Tariq Afzal, Rahul Bakshi, Kahkuen Fu. (2023)  
 **MRQ:Support Multiple Quantization Schemes through Model Re-Quantization**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-CV, cs-LG, cs.LG  
 Keywords: AI, QA, Quantization  
-[Paper Link](http://arxiv.org/abs/2308.01867v1)  
+[Paper Link](http://arxiv.org/abs/2308.01867v2)  
 
 ---
 
