@@ -124,7 +124,7 @@ Liangming Pan, Michael Saxon, Wenda Xu, Deepak Nathani, Xinyi Wang, William Yang
 
 ---
 Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs.CL  
+Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Language Model, NLP  
 [Paper Link](http://arxiv.org/abs/2308.03188v1)  
 
@@ -148,7 +148,7 @@ Xianfeng Zeng, Yijin Liu, Fandong Meng, Jie Zhou. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: BERT, BLEU  
-[Paper Link](http://arxiv.org/abs/2308.03131v2)  
+[Paper Link](http://arxiv.org/abs/2308.03131v3)  
 
 ---
 
@@ -350,7 +350,7 @@ Chrysoula Kosma, Giannis Nikolentzos, Michalis Vazirgiannis. (2023)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Time Series  
-[Paper Link](http://arxiv.org/abs/2308.03210v1)  
+[Paper Link](http://arxiv.org/abs/2308.03210v2)  
 
 ---
 

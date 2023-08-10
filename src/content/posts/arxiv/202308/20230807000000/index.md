@@ -28,12 +28,12 @@ math: true
 - [cs.LG (4)](#cslg-4)
 - [stat.ML (1)](#statml-1)
 - [cs.GR (1)](#csgr-1)
+- [cs.CR (3)](#cscr-3)
 - [cs.CV (12)](#cscv-12)
 - [cs.CL (4)](#cscl-4)
 - [eess.IV (2)](#eessiv-2)
 - [q-fin.PM (1)](#q-finpm-1)
 - [cs.MM (1)](#csmm-1)
-- [cs.CR (2)](#cscr-2)
 - [cs.SI (1)](#cssi-1)
 - [cs.HC (1)](#cshc-1)
 - [eess.SY (1)](#eesssy-1)
@@ -42,7 +42,7 @@ math: true
 
 
 
-### (1/44) Resource Management for GPT-based Model Deployed on Clouds: Challenges, Solutions, and Future Directions (Yongkang Dang et al., 2023)
+### (1/45) Resource Management for GPT-based Model Deployed on Clouds: Challenges, Solutions, and Future Directions (Yongkang Dang et al., 2023)
 
 {{<citation>}}
 
@@ -68,7 +68,7 @@ The widespread adoption of the large language model (LLM), e.g. Generative Pre-t
 
 
 
-### (2/44) Who is Smarter? An Empirical Study of AI-based Smart Contract Creation (Rabimba Karanjai et al., 2023)
+### (2/45) Who is Smarter? An Empirical Study of AI-based Smart Contract Creation (Rabimba Karanjai et al., 2023)
 
 {{<citation>}}
 
@@ -90,7 +90,7 @@ The introduction of large language models (LLMs) like ChatGPT and Google Palm2 f
 {{</citation>}}
 
 
-### (3/44) LLM is Like a Box of Chocolates: the Non-determinism of ChatGPT in Code Generation (Shuyin Ouyang et al., 2023)
+### (3/45) LLM is Like a Box of Chocolates: the Non-determinism of ChatGPT in Code Generation (Shuyin Ouyang et al., 2023)
 
 {{<citation>}}
 
@@ -116,7 +116,7 @@ There has been a recent explosion of research on Large Language Models (LLMs) fo
 
 
 
-### (4/44) A criterion for Artificial General Intelligence: hypothetic-deductive reasoning, tested on ChatGPT (Louis Vervoort et al., 2023)
+### (4/45) A criterion for Artificial General Intelligence: hypothetic-deductive reasoning, tested on ChatGPT (Louis Vervoort et al., 2023)
 
 {{<citation>}}
 
@@ -138,7 +138,7 @@ We argue that a key reasoning skill that any advanced AI, say GPT-4, should mast
 {{</citation>}}
 
 
-### (5/44) dPASP: A Comprehensive Differentiable Probabilistic Answer Set Programming Environment For Neurosymbolic Learning and Reasoning (Renato Lui Geh et al., 2023)
+### (5/45) dPASP: A Comprehensive Differentiable Probabilistic Answer Set Programming Environment For Neurosymbolic Learning and Reasoning (Renato Lui Geh et al., 2023)
 
 {{<citation>}}
 
@@ -160,7 +160,7 @@ We present dPASP, a novel declarative probabilistic logic programming framework 
 {{</citation>}}
 
 
-### (6/44) ConvFormer: Revisiting Transformer for Sequential User Modeling (Hao Wang et al., 2023)
+### (6/45) ConvFormer: Revisiting Transformer for Sequential User Modeling (Hao Wang et al., 2023)
 
 {{<citation>}}
 
@@ -182,7 +182,7 @@ Sequential user modeling, a critical task in personalized recommender systems, f
 {{</citation>}}
 
 
-### (7/44) Anomaly Detection in Global Financial Markets with Graph Neural Networks and Nonextensive Entropy (Kleyton da Costa, 2023)
+### (7/45) Anomaly Detection in Global Financial Markets with Graph Neural Networks and Nonextensive Entropy (Kleyton da Costa, 2023)
 
 {{<citation>}}
 
@@ -193,7 +193,7 @@ Kleyton da Costa. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI, q-fin-GN  
 Keywords: Anomaly Detection, Financial, GNN, Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2308.02914v1)  
+[Paper Link](http://arxiv.org/abs/2308.02914v2)  
 
 ---
 
@@ -204,7 +204,7 @@ Anomaly detection is a challenging task, particularly in systems with many varia
 {{</citation>}}
 
 
-### (8/44) feather -- a Python SDK to share and deploy models (Nihir Vedd et al., 2023)
+### (8/45) feather -- a Python SDK to share and deploy models (Nihir Vedd et al., 2023)
 
 {{<citation>}}
 
@@ -226,7 +226,7 @@ At its core, feather was a tool that allowed model developers to build shareable
 {{</citation>}}
 
 
-### (9/44) Physics-Based Task Generation Through Causal Sequence of Physical Interactions (Chathura Gamage et al., 2023)
+### (9/45) Physics-Based Task Generation Through Causal Sequence of Physical Interactions (Chathura Gamage et al., 2023)
 
 {{<citation>}}
 
@@ -252,7 +252,7 @@ Performing tasks in a physical environment is a crucial yet challenging problem 
 
 
 
-### (10/44) Towards Consistency Filtering-Free Unsupervised Learning for Dense Retrieval (Haoxiang Shi et al., 2023)
+### (10/45) Towards Consistency Filtering-Free Unsupervised Learning for Dense Retrieval (Haoxiang Shi et al., 2023)
 
 {{<citation>}}
 
@@ -274,7 +274,7 @@ Domain transfer is a prevalent challenge in modern neural Information Retrieval 
 {{</citation>}}
 
 
-### (11/44) Disentangled Counterfactual Reasoning for Unbiased Sequential Recommendation (Yi Ren et al., 2023)
+### (11/45) Disentangled Counterfactual Reasoning for Unbiased Sequential Recommendation (Yi Ren et al., 2023)
 
 {{<citation>}}
 
@@ -296,7 +296,7 @@ Sequential recommender systems have achieved state-of-the-art recommendation per
 {{</citation>}}
 
 
-### (12/44) Group Membership Bias (Ali Vardasbi et al., 2023)
+### (12/45) Group Membership Bias (Ali Vardasbi et al., 2023)
 
 {{<citation>}}
 
@@ -318,7 +318,7 @@ When learning to rank from user interactions, search and recommendation systems 
 {{</citation>}}
 
 
-### (13/44) Bootstrapping Contrastive Learning Enhanced Music Cold-Start Matching (Xinping Zhao et al., 2023)
+### (13/45) Bootstrapping Contrastive Learning Enhanced Music Cold-Start Matching (Xinping Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -344,7 +344,7 @@ We study a particular matching task we call Music Cold-Start Matching. In short,
 
 
 
-### (14/44) An AI-Enabled Framework to Defend Ingenious MDT-based Attacks on the Emerging Zero Touch Cellular Networks (Aneeqa Ijaz et al., 2023)
+### (14/45) An AI-Enabled Framework to Defend Ingenious MDT-based Attacks on the Emerging Zero Touch Cellular Networks (Aneeqa Ijaz et al., 2023)
 
 {{<citation>}}
 
@@ -366,7 +366,7 @@ Deep automation provided by self-organizing network (SON) features and their eme
 {{</citation>}}
 
 
-### (15/44) Adversarial Erasing with Pruned Elements: Towards Better Graph Lottery Ticket (Yuwen Wang et al., 2023)
+### (15/45) Adversarial Erasing with Pruned Elements: Towards Better Graph Lottery Ticket (Yuwen Wang et al., 2023)
 
 {{<citation>}}
 
@@ -388,7 +388,7 @@ Graph Lottery Ticket (GLT), a combination of core subgraph and sparse subnetwork
 {{</citation>}}
 
 
-### (16/44) OBESEYE: Interpretable Diet Recommender for Obesity Management using Machine Learning and Explainable AI (Mrinmoy Roy et al., 2023)
+### (16/45) OBESEYE: Interpretable Diet Recommender for Obesity Management using Machine Learning and Explainable AI (Mrinmoy Roy et al., 2023)
 
 {{<citation>}}
 
@@ -410,7 +410,7 @@ Obesity, the leading cause of many non-communicable diseases, occurs mainly for 
 {{</citation>}}
 
 
-### (17/44) DaMSTF: Domain Adversarial Learning Enhanced Meta Self-Training for Domain Adaptation (Menglong Lu et al., 2023)
+### (17/45) DaMSTF: Domain Adversarial Learning Enhanced Meta Self-Training for Domain Adaptation (Menglong Lu et al., 2023)
 
 {{<citation>}}
 
@@ -436,7 +436,7 @@ Self-training emerges as an important research line on domain adaptation. By tak
 
 
 
-### (18/44) Structured Low-Rank Tensors for Generalized Linear Models (Batoul Taki et al., 2023)
+### (18/45) Structured Low-Rank Tensors for Generalized Linear Models (Batoul Taki et al., 2023)
 
 {{<citation>}}
 
@@ -462,7 +462,7 @@ Recent works have shown that imposing tensor structures on the coefficient tenso
 
 
 
-### (19/44) DiffDance: Cascaded Human Motion Diffusion Model for Dance Generation (Qiaosong Qi et al., 2023)
+### (19/45) DiffDance: Cascaded Human Motion Diffusion Model for Dance Generation (Qiaosong Qi et al., 2023)
 
 {{<citation>}}
 
@@ -484,11 +484,81 @@ When hearing music, it is natural for people to dance to its rhythm. Automatic d
 {{</citation>}}
 
 
+## cs.CR (3)
+
+
+
+### (20/45) Anonymizing Speech: Evaluating and Designing Speaker Anonymization Techniques (Pierre Champion, 2023)
+
+{{<citation>}}
+
+Pierre Champion. (2023)  
+**Anonymizing Speech: Evaluating and Designing Speaker Anonymization Techniques**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-AI, cs-CR, cs-SD, cs.CR, eess-AS  
+Keywords: Amazon, Google  
+[Paper Link](http://arxiv.org/abs/2308.04455v1)  
+
+---
+
+
+**ABSTRACT**  
+The growing use of voice user interfaces has led to a surge in the collection and storage of speech data. While data collection allows for the development of efficient tools powering most speech services, it also poses serious privacy issues for users as centralized storage makes private personal speech data vulnerable to cyber threats. With the increasing use of voice-based digital assistants like Amazon's Alexa, Google's Home, and Apple's Siri, and with the increasing ease with which personal speech data can be collected, the risk of malicious use of voice-cloning and speaker/gender/pathological/etc. recognition has increased.   This thesis proposes solutions for anonymizing speech and evaluating the degree of the anonymization. In this work, anonymization refers to making personal speech data unlinkable to an identity while maintaining the usefulness (utility) of the speech signal (e.g., access to linguistic content). We start by identifying several challenges that evaluation protocols need to consider to evaluate the degree of privacy protection properly. We clarify how anonymization systems must be configured for evaluation purposes and highlight that many practical deployment configurations do not permit privacy evaluation. Furthermore, we study and examine the most common voice conversion-based anonymization system and identify its weak points before suggesting new methods to overcome some limitations. We isolate all components of the anonymization system to evaluate the degree of speaker PPI associated with each of them. Then, we propose several transformation methods for each component to reduce as much as possible speaker PPI while maintaining utility. We promote anonymization algorithms based on quantization-based transformation as an alternative to the most-used and well-known noise-based approach. Finally, we endeavor a new attack method to invert anonymization.
+
+{{</citation>}}
+
+
+### (21/45) Meta-Analysis and Systematic Review for Anomaly Network Intrusion Detection Systems: Detection Methods, Dataset, Validation Methodology, and Challenges (Ziadoon K. Maseer et al., 2023)
+
+{{<citation>}}
+
+Ziadoon K. Maseer, Robiah Yusof, Baidaa Al-Bander, Abdu Saif, Qusay Kanaan Kadhim. (2023)  
+**Meta-Analysis and Systematic Review for Anomaly Network Intrusion Detection Systems: Detection Methods, Dataset, Validation Methodology, and Challenges**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-CR, cs-SY, cs.CR, eess-SY  
+Keywords: AI, Intrusion Detection  
+[Paper Link](http://arxiv.org/abs/2308.02805v1)  
+
+---
+
+
+**ABSTRACT**  
+Intrusion detection systems (IDSs) built on artificial intelligence (AI) are presented as latent mechanisms for actively detecting fresh attacks over a complex network. Although review papers are used the systematic review or simple methods to analyse and criticize the anomaly NIDS works, the current review uses a traditional way as a quantitative description to find current gaps by synthesizing and summarizing the data comparison without considering algorithms performance. This paper presents a systematic and meta-analysis study of AI for network intrusion detection systems (NIDS) focusing on deep learning (DL) and machine learning (ML) approaches in network security. Deep learning algorithms are explained in their structure, and data intrusion network is justified based on an infrastructure of networks and attack types. By conducting a meta-analysis and debating the validation of the DL and ML approach by effectiveness, used dataset, detected attacks, classification task, and time complexity, we offer a thorough benchmarking assessment of the current NIDS-based publications-based systematic approach. The proposed method is considered reviewing works for the anomaly-based network intrusion detection system (anomaly-NIDS) models. Furthermore, the effectiveness of proposed algorithms and selected datasets are discussed for the recent direction and improvements of ML and DL to the NIDS. The future trends for improving an anomaly-IDS for continuing detection in the evolution of cyberattacks are highlighted in several research studies.
+
+{{</citation>}}
+
+
+### (22/45) DiSPEL: Distributed Security Policy Enforcement for Bus-based SoC (Sudipta Paria et al., 2023)
+
+{{<citation>}}
+
+Sudipta Paria, Swarup Bhunia. (2023)  
+**DiSPEL: Distributed Security Policy Enforcement for Bus-based SoC**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-AR, cs-CR, cs.CR  
+Keywords: Security  
+[Paper Link](http://arxiv.org/abs/2308.02792v1)  
+
+---
+
+
+**ABSTRACT**  
+The current zero trust model adopted in System-on-Chip (SoC) design is vulnerable to various malicious entities, and modern SoC designs must incorporate various security policies to protect sensitive assets from unauthorized access. These policies involve complex interactions between multiple IP blocks, which poses challenges for SoC designers and security experts when implementing these policies and for system validators when ensuring compliance. Difficulties arise when upgrading policies, reusing IPs for systems targeting different security requirements, and the subsequent increase in design time and time-to-market. This paper proposes a generic and flexible framework, called DiSPEL, for enforcing security policies defined by the user represented in a formal way for any bus-based SoC design. It employs a distributed deployment strategy while ensuring trusted bus operations despite the presence of untrusted IPs. It relies on incorporating a dedicated, centralized module capable of implementing diverse security policies involving bus-level interactions while generating the necessary logic and appending in the bus-level wrapper for IP-level policies. The proposed architecture is generic and independent of specific security policy types supporting both synthesizable and non-synthesizable solutions. The experimental results demonstrate its effectiveness and correctness in enforcing the security requirements and viability due to low overhead in terms of area, delay, and power consumption tested on open-source standard SoC benchmarks.
+
+{{</citation>}}
+
+
 ## cs.CV (12)
 
 
 
-### (20/44) Where and How: Mitigating Confusion in Neural Radiance Fields from Sparse Inputs (Yanqi Bao et al., 2023)
+### (23/45) Where and How: Mitigating Confusion in Neural Radiance Fields from Sparse Inputs (Yanqi Bao et al., 2023)
 
 {{<citation>}}
 
@@ -510,7 +580,7 @@ Neural Radiance Fields from Sparse input} (NeRF-S) have shown great potential in
 {{</citation>}}
 
 
-### (21/44) An Adaptive Model Ensemble Adversarial Attack for Boosting Adversarial Transferability (Bin Chen et al., 2023)
+### (24/45) An Adaptive Model Ensemble Adversarial Attack for Boosting Adversarial Transferability (Bin Chen et al., 2023)
 
 {{<citation>}}
 
@@ -532,7 +602,7 @@ While the transferability property of adversarial examples allows the adversary 
 {{</citation>}}
 
 
-### (22/44) Cross-modal & Cross-domain Learning for Unsupervised LiDAR Semantic Segmentation (Yiyang Chen et al., 2023)
+### (25/45) Cross-modal & Cross-domain Learning for Unsupervised LiDAR Semantic Segmentation (Yiyang Chen et al., 2023)
 
 {{<citation>}}
 
@@ -554,7 +624,7 @@ In recent years, cross-modal domain adaptation has been studied on the paired 2D
 {{</citation>}}
 
 
-### (23/44) Sketch and Text Guided Diffusion Model for Colored Point Cloud Generation (Zijie Wu et al., 2023)
+### (26/45) Sketch and Text Guided Diffusion Model for Colored Point Cloud Generation (Zijie Wu et al., 2023)
 
 {{<citation>}}
 
@@ -576,7 +646,7 @@ Diffusion probabilistic models have achieved remarkable success in text guided i
 {{</citation>}}
 
 
-### (24/44) NP-SemiSeg: When Neural Processes meet Semi-Supervised Semantic Segmentation (Jianfeng Wang et al., 2023)
+### (27/45) NP-SemiSeg: When Neural Processes meet Semi-Supervised Semantic Segmentation (Jianfeng Wang et al., 2023)
 
 {{<citation>}}
 
@@ -598,7 +668,7 @@ Semi-supervised semantic segmentation involves assigning pixel-wise labels to un
 {{</citation>}}
 
 
-### (25/44) Improving Generalization of Image Captioning with Unsupervised Prompt Learning (Hongchen Wei et al., 2023)
+### (28/45) Improving Generalization of Image Captioning with Unsupervised Prompt Learning (Hongchen Wei et al., 2023)
 
 {{<citation>}}
 
@@ -620,7 +690,7 @@ Pretrained visual-language models have demonstrated impressive zero-shot abiliti
 {{</citation>}}
 
 
-### (26/44) A Comprehensive Analysis of Real-World Image Captioning and Scene Identification (Sai Suprabhanu Nallapaneni et al., 2023)
+### (29/45) A Comprehensive Analysis of Real-World Image Captioning and Scene Identification (Sai Suprabhanu Nallapaneni et al., 2023)
 
 {{<citation>}}
 
@@ -642,7 +712,7 @@ Image captioning is a computer vision task that involves generating natural lang
 {{</citation>}}
 
 
-### (27/44) A Symbolic Character-Aware Model for Solving Geometry Problems (Maizhen Ning et al., 2023)
+### (30/45) A Symbolic Character-Aware Model for Solving Geometry Problems (Maizhen Ning et al., 2023)
 
 {{<citation>}}
 
@@ -664,7 +734,7 @@ AI has made significant progress in solving math problems, but geometry problems
 {{</citation>}}
 
 
-### (28/44) MiAMix: Enhancing Image Classification through a Multi-stage Augmented Mixied Sample Data Augmentation Method (Wen Liang et al., 2023)
+### (31/45) MiAMix: Enhancing Image Classification through a Multi-stage Augmented Mixied Sample Data Augmentation Method (Wen Liang et al., 2023)
 
 {{<citation>}}
 
@@ -686,7 +756,7 @@ Despite substantial progress in the field of deep learning, overfitting persists
 {{</citation>}}
 
 
-### (29/44) Unfolding Once is Enough: A Deployment-Friendly Transformer Unit for Super-Resolution (Yong Liu et al., 2023)
+### (32/45) Unfolding Once is Enough: A Deployment-Friendly Transformer Unit for Super-Resolution (Yong Liu et al., 2023)
 
 {{<citation>}}
 
@@ -708,7 +778,7 @@ Recent years have witnessed a few attempts of vision transformers for single ima
 {{</citation>}}
 
 
-### (30/44) Few-shot Class-Incremental Semantic Segmentation via Pseudo-Labeling and Knowledge Distillation (Chengjia Jiang et al., 2023)
+### (33/45) Few-shot Class-Incremental Semantic Segmentation via Pseudo-Labeling and Knowledge Distillation (Chengjia Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -730,7 +800,7 @@ We address the problem of learning new classes for semantic segmentation models 
 {{</citation>}}
 
 
-### (31/44) Dual Degradation-Inspired Deep Unfolding Network for Low-Light Image Enhancement (Huake Wang et al., 2023)
+### (34/45) Dual Degradation-Inspired Deep Unfolding Network for Low-Light Image Enhancement (Huake Wang et al., 2023)
 
 {{<citation>}}
 
@@ -756,7 +826,7 @@ Although low-light image enhancement has achieved great stride based on deep enh
 
 
 
-### (32/44) LaDA: Latent Dialogue Action For Zero-shot Cross-lingual Neural Network Language Modeling (Zhanyu Ma et al., 2023)
+### (35/45) LaDA: Latent Dialogue Action For Zero-shot Cross-lingual Neural Network Language Modeling (Zhanyu Ma et al., 2023)
 
 {{<citation>}}
 
@@ -778,7 +848,7 @@ Cross-lingual adaptation has proven effective in spoken language understanding (
 {{</citation>}}
 
 
-### (33/44) Textual Data Mining for Financial Fraud Detection: A Deep Learning Approach (Qiuru Li, 2023)
+### (36/45) Textual Data Mining for Financial Fraud Detection: A Deep Learning Approach (Qiuru Li, 2023)
 
 {{<citation>}}
 
@@ -800,7 +870,7 @@ In this report, I present a deep learning approach to conduct a natural language
 {{</citation>}}
 
 
-### (34/44) ApproBiVT: Lead ASR Models to Generalize Better Using Approximated Bias-Variance Tradeoff Guided Early Stopping and Checkpoint Averaging (Fangyuan Wang et al., 2023)
+### (37/45) ApproBiVT: Lead ASR Models to Generalize Better Using Approximated Bias-Variance Tradeoff Guided Early Stopping and Checkpoint Averaging (Fangyuan Wang et al., 2023)
 
 {{<citation>}}
 
@@ -822,7 +892,7 @@ The conventional recipe for Automatic Speech Recognition (ASR) models is to 1) t
 {{</citation>}}
 
 
-### (35/44) EduChat: A Large-Scale Language Model-based Chatbot System for Intelligent Education (Yuhao Dan et al., 2023)
+### (38/45) EduChat: A Large-Scale Language Model-based Chatbot System for Intelligent Education (Yuhao Dan et al., 2023)
 
 {{<citation>}}
 
@@ -848,7 +918,7 @@ EduChat (https://www.educhat.top/) is a large-scale language model (LLM)-based c
 
 
 
-### (36/44) Generative Adversarial Networks for Stain Normalisation in Histopathology (Jack Breen et al., 2023)
+### (39/45) Generative Adversarial Networks for Stain Normalisation in Histopathology (Jack Breen et al., 2023)
 
 {{<citation>}}
 
@@ -870,7 +940,7 @@ The rapid growth of digital pathology in recent years has provided an ideal oppo
 {{</citation>}}
 
 
-### (37/44) Landmark Detection using Transformer Toward Robot-assisted Nasal Airway Intubation (Tianhang Liu et al., 2023)
+### (40/45) Landmark Detection using Transformer Toward Robot-assisted Nasal Airway Intubation (Tianhang Liu et al., 2023)
 
 {{<citation>}}
 
@@ -896,7 +966,7 @@ Robot-assisted airway intubation application needs high accuracy in locating tar
 
 
 
-### (38/44) Reinforcement Learning for Financial Index Tracking (Xianhua Peng et al., 2023)
+### (41/45) Reinforcement Learning for Financial Index Tracking (Xianhua Peng et al., 2023)
 
 {{<citation>}}
 
@@ -922,7 +992,7 @@ We propose the first discrete-time infinite-horizon dynamic formulation of the f
 
 
 
-### (39/44) PromptCARE: Prompt Copyright Protection by Watermark Injection and Verification (Hongwei Yao et al., 2023)
+### (42/45) PromptCARE: Prompt Copyright Protection by Watermark Injection and Verification (Hongwei Yao et al., 2023)
 
 {{<citation>}}
 
@@ -944,59 +1014,11 @@ Large language models (LLMs) have witnessed a meteoric rise in popularity among 
 {{</citation>}}
 
 
-## cs.CR (2)
-
-
-
-### (40/44) Meta-Analysis and Systematic Review for Anomaly Network Intrusion Detection Systems: Detection Methods, Dataset, Validation Methodology, and Challenges (Ziadoon K. Maseer et al., 2023)
-
-{{<citation>}}
-
-Ziadoon K. Maseer, Robiah Yusof, Baidaa Al-Bander, Abdu Saif, Qusay Kanaan Kadhim. (2023)  
-**Meta-Analysis and Systematic Review for Anomaly Network Intrusion Detection Systems: Detection Methods, Dataset, Validation Methodology, and Challenges**  
-
----
-Primary Category: cs.CR  
-Categories: cs-CR, cs-SY, cs.CR, eess-SY  
-Keywords: AI, Intrusion Detection  
-[Paper Link](http://arxiv.org/abs/2308.02805v1)  
-
----
-
-
-**ABSTRACT**  
-Intrusion detection systems (IDSs) built on artificial intelligence (AI) are presented as latent mechanisms for actively detecting fresh attacks over a complex network. Although review papers are used the systematic review or simple methods to analyse and criticize the anomaly NIDS works, the current review uses a traditional way as a quantitative description to find current gaps by synthesizing and summarizing the data comparison without considering algorithms performance. This paper presents a systematic and meta-analysis study of AI for network intrusion detection systems (NIDS) focusing on deep learning (DL) and machine learning (ML) approaches in network security. Deep learning algorithms are explained in their structure, and data intrusion network is justified based on an infrastructure of networks and attack types. By conducting a meta-analysis and debating the validation of the DL and ML approach by effectiveness, used dataset, detected attacks, classification task, and time complexity, we offer a thorough benchmarking assessment of the current NIDS-based publications-based systematic approach. The proposed method is considered reviewing works for the anomaly-based network intrusion detection system (anomaly-NIDS) models. Furthermore, the effectiveness of proposed algorithms and selected datasets are discussed for the recent direction and improvements of ML and DL to the NIDS. The future trends for improving an anomaly-IDS for continuing detection in the evolution of cyberattacks are highlighted in several research studies.
-
-{{</citation>}}
-
-
-### (41/44) DiSPEL: Distributed Security Policy Enforcement for Bus-based SoC (Sudipta Paria et al., 2023)
-
-{{<citation>}}
-
-Sudipta Paria, Swarup Bhunia. (2023)  
-**DiSPEL: Distributed Security Policy Enforcement for Bus-based SoC**  
-
----
-Primary Category: cs.CR  
-Categories: cs-AR, cs-CR, cs.CR  
-Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2308.02792v1)  
-
----
-
-
-**ABSTRACT**  
-The current zero trust model adopted in System-on-Chip (SoC) design is vulnerable to various malicious entities, and modern SoC designs must incorporate various security policies to protect sensitive assets from unauthorized access. These policies involve complex interactions between multiple IP blocks, which poses challenges for SoC designers and security experts when implementing these policies and for system validators when ensuring compliance. Difficulties arise when upgrading policies, reusing IPs for systems targeting different security requirements, and the subsequent increase in design time and time-to-market. This paper proposes a generic and flexible framework, called DiSPEL, for enforcing security policies defined by the user represented in a formal way for any bus-based SoC design. It employs a distributed deployment strategy while ensuring trusted bus operations despite the presence of untrusted IPs. It relies on incorporating a dedicated, centralized module capable of implementing diverse security policies involving bus-level interactions while generating the necessary logic and appending in the bus-level wrapper for IP-level policies. The proposed architecture is generic and independent of specific security policy types supporting both synthesizable and non-synthesizable solutions. The experimental results demonstrate its effectiveness and correctness in enforcing the security requirements and viability due to low overhead in terms of area, delay, and power consumption tested on open-source standard SoC benchmarks.
-
-{{</citation>}}
-
-
 ## cs.SI (1)
 
 
 
-### (42/44) Crowdsourcing Fraud Detection over Heterogeneous Temporal MMMA Graph (Zequan Xu et al., 2023)
+### (43/45) Crowdsourcing Fraud Detection over Heterogeneous Temporal MMMA Graph (Zequan Xu et al., 2023)
 
 {{<citation>}}
 
@@ -1022,7 +1044,7 @@ The rise of the click farm business using Multi-purpose Messaging Mobile Apps (M
 
 
 
-### (43/44) SUMMIT: Scaffolding OSS Issue Discussion Through Summarization (Saskia Gilmer et al., 2023)
+### (44/45) SUMMIT: Scaffolding OSS Issue Discussion Through Summarization (Saskia Gilmer et al., 2023)
 
 {{<citation>}}
 
@@ -1048,7 +1070,7 @@ For Open Source Software (OSS) projects, discussions in Issue Tracking Systems (
 
 
 
-### (44/44) Surrogate Empowered Sim2Real Transfer of Deep Reinforcement Learning for ORC Superheat Control (Runze Lin et al., 2023)
+### (45/45) Surrogate Empowered Sim2Real Transfer of Deep Reinforcement Learning for ORC Superheat Control (Runze Lin et al., 2023)
 
 {{<citation>}}
 

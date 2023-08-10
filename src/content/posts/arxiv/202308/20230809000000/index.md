@@ -1381,14 +1381,14 @@ Smart contracts are prone to various vulnerabilities, leading to substantial fin
 
 {{<citation>}}
 
-Milad Sikaroudi, Shahryar Rahnamayan, H. R. Tizhoosh. (2023)  
+Milad Sikaroudi, Maryam Hosseini, Shahryar Rahnamayan, H. R. Tizhoosh. (2023)  
 **ALFA -- Leveraging All Levels of Feature Abstraction for Enhancing the Generalization of Histopathology Image Classification Across Unseen Hospitals**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Image Classification  
-[Paper Link](http://arxiv.org/abs/2308.03936v1)  
+[Paper Link](http://arxiv.org/abs/2308.03936v2)  
 
 ---
 
