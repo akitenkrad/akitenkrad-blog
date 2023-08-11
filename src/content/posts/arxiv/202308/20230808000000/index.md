@@ -148,7 +148,7 @@ Xianfeng Zeng, Yijin Liu, Fandong Meng, Jie Zhou. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: BERT, BLEU  
-[Paper Link](http://arxiv.org/abs/2308.03131v3)  
+[Paper Link](http://arxiv.org/abs/2308.03131v4)  
 
 ---
 
@@ -1004,7 +1004,7 @@ Wei Xiong, Yanfei Xiang, Hao Wu, Shuyi Zhou, Yuze Sun, Muyuan Ma, Xiaomeng Huang
 Primary Category: physics.ao-ph  
 Categories: cs-AI, cs-LG, physics-ao-ph, physics.ao-ph  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2308.03152v1)  
+[Paper Link](http://arxiv.org/abs/2308.03152v2)  
 
 ---
 
