@@ -615,13 +615,13 @@ Mark Stefik, Robert Price. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2308.04586v1)  
+[Paper Link](http://arxiv.org/abs/2308.04586v2)  
 
 ---
 
 
 **ABSTRACT**  
-Although some current AIs surpass human abilities especially in closed worlds such as board games, their performance in the messy real world is limited. They make strange mistakes and do not notice them. They cannot be instructed easily, fail to use common sense, and lack curiosity. They do not make good collaborators. Neither systems built using the traditional manually-constructed symbolic AI approach nor systems built using generative and deep learning AI approaches including large language models (LLMs) can meet the challenges. They are not well suited for creating robust and trustworthy AIs. Although it is outside of mainstream AI approaches, developmental bootstrapping shows promise. In developmental bootstrapping, AIs develop competences like human children do. They start with innate competences. Like humans, they interact with the environment and learn from their interactions. They incrementally extend their innate competences with self-developed competences. They interact and learn from people and establish perceptual, cognitive, and common grounding. Following a bootstrapping process, they acquire the competences that they need. However, developmental robotics has not yet produced AIs with robust adult-level competences. Projects have typically stopped at the Toddler Barrier corresponding to human infant development at about two years of age, before speech is fluent. They also do not bridge the Reading Barrier, where they can skillfully and skeptically tap into the vast socially developed recorded information resources that power LLMs. The next competences in human cognitive development involve intrinsic motivation, imitation learning, imagination, coordination, and communication. This paper lays out the logic, prospects, gaps, and challenges for extending the practice of developmental bootstrapping to create robust and resilient AIs.
+Although some current AIs surpass human abilities especially in closed artificial worlds such as board games, their abilities in the real world are limited. They make strange mistakes and do not notice them. They cannot be instructed easily, fail to use common sense, and lack curiosity. They do not make good collaborators. Mainstream approaches for creating AIs are built using the traditional manually-constructed symbolic AI approach and generative and deep learning AI approaches including large language models (LLMs). These systems are not well suited for creating robust and trustworthy AIs. Although it is outside of the mainstream, the developmental bootstrapping approach has more promise. In developmental bootstrapping, AIs develop competences like human children do. They start with innate competences. They interact with the environment and learn from their interactions. They incrementally extend their innate competences with self-developed competences. They interact and learn from people and establish perceptual, cognitive, and common grounding. They acquire the competences that they need through an incremental bootstrapping process. However, developmental robotics has not yet produced AIs with robust adult-level competences. Projects have typically stopped at the Toddler Barrier corresponding to human infant development at about two years of age, before their speech is fluent. They also do not bridge the Reading Barrier, to skillfully and skeptically tap into the vast socially developed recorded information resources that power LLMs. The next competences in human cognitive development involve intrinsic motivation, imitation learning, imagination, coordination, and communication. This position paper lays out the logic, prospects, gaps, and challenges for extending the practice of developmental bootstrapping to acquire further competences and create robust and resilient AIs.
 
 {{</citation>}}
 
@@ -681,7 +681,7 @@ Zhu Deng, Jinjie Liu, Biao Luo, Can Yuan, Qingrun Yang, Lei Xiao, Wenwen Zhou, Z
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CY, cs.AI  
 Keywords: AI, Language Model  
-[Paper Link](http://arxiv.org/abs/2308.04241v1)  
+[Paper Link](http://arxiv.org/abs/2308.04241v2)  
 
 ---
 
@@ -747,7 +747,7 @@ Lizzy Farrugia, Lilian M. Azzopardi, Jeremy Debattista, Charlie Abela. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Embedding, GNN, Graph Neural Network, Knowledge Graph, LSTM  
-[Paper Link](http://arxiv.org/abs/2308.04172v1)  
+[Paper Link](http://arxiv.org/abs/2308.04172v2)  
 
 ---
 
