@@ -120,7 +120,7 @@ Jiageng Zhu, Hanchen Xie, Jianhua Wu, Jiazhi Li, Mahyar Khayatkhoei, Mohamed E. 
 Primary Category: cs.LG  
 Categories: cs-CV, cs-LG, cs.LG  
 Keywords: Representation Learning  
-[Paper Link](http://arxiv.org/abs/2308.05707v1)  
+[Paper Link](http://arxiv.org/abs/2308.05707v2)  
 
 ---
 
@@ -447,20 +447,20 @@ Recently, methods for skeleton-based human activity recognition have been shown 
 
 {{<citation>}}
 
-Minhao Li, Zheng Qin, Zhirui Gao, Renjiao Yi, Chengyang Zhu, Kai Xu. (2023)  
+Minhao Li, Zheng Qin, Zhirui Gao, Renjiao Yi, Chenyang Zhu, Yulan Guo, Kai Xu. (2023)  
 **2D3D-MATR: 2D-3D Matching Transformer for Detection-free Registration between Images and Point Clouds**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2308.05667v1)  
+[Paper Link](http://arxiv.org/abs/2308.05667v2)  
 
 ---
 
 
 **ABSTRACT**  
-The commonly adopted detect-then-match approach to registration finds difficulties in the cross-modality cases due to the incompatible keypoint detection and inconsistent feature description. We propose, 2D3D-MATR, a detection-free method for accurate and robust registration between images and point clouds. Our method adopts a coarse-to-fine pipeline where it first computes coarse correspondences between downsampled patches of the input image and the point cloud and then extends them to form dense correspondences between pixels and points within the patch region. The coarse-level patch matching is based on transformer which jointly learns global contextual constraints with self-attention and cross-modality correlations with cross-attention. To resolve the scale ambiguity in patch matching, we construct a multi-scale pyramid for each image patch and learn to find for each point patch the best matching image patch at a proper resolution level. Extensive experiments on two public benchmarks demonstrate that 2D3D-MATR outperforms the previous state-of-the-art P2-Net by around $20$ percentage points on inlier ratio and over $10$ points on registration recall. Our code and models are available at \url{https://github.com/minhaolee/2D3DMATR}.
+The commonly adopted detect-then-match approach to registration finds difficulties in the cross-modality cases due to the incompatible keypoint detection and inconsistent feature description. We propose, 2D3D-MATR, a detection-free method for accurate and robust registration between images and point clouds. Our method adopts a coarse-to-fine pipeline where it first computes coarse correspondences between downsampled patches of the input image and the point cloud and then extends them to form dense correspondences between pixels and points within the patch region. The coarse-level patch matching is based on transformer which jointly learns global contextual constraints with self-attention and cross-modality correlations with cross-attention. To resolve the scale ambiguity in patch matching, we construct a multi-scale pyramid for each image patch and learn to find for each point patch the best matching image patch at a proper resolution level. Extensive experiments on two public benchmarks demonstrate that 2D3D-MATR outperforms the previous state-of-the-art P2-Net by around $20$ percentage points on inlier ratio and over $10$ points on registration recall. Our code and models are available at https://github.com/minhaolee/2D3DMATR.
 
 {{</citation>}}
 
@@ -1516,7 +1516,7 @@ Wentao Ning, Xiao Yan, Weiwen Liu, Reynold Cheng, Rui Zhang, Bo Tang. (2023)
 Primary Category: cs.IR  
 Categories: cs-AI, cs-IR, cs.IR  
 Keywords: Amazon, Embedding  
-[Paper Link](http://arxiv.org/abs/2308.05508v1)  
+[Paper Link](http://arxiv.org/abs/2308.05508v2)  
 
 ---
 
