@@ -300,13 +300,13 @@ Liang Shang, Yanli Liu, Zhengyang Lou, Shuxue Quan, Nagesh Adluru, Bochen Guan, 
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2308.05872v1)  
+[Paper Link](http://arxiv.org/abs/2308.05872v2)  
 
 ---
 
 
 **ABSTRACT**  
-Convolutional neural networks (CNNs) and vision transformers (ViTs) have achieved remarkable success in various vision tasks. However, many architectures do not consider interactions between feature maps from different stages and scales, which may limit their performance. In this work, we propose a simple add-on attention module to overcome these limitations via multi-stage and cross-scale interactions. Specifically, the proposed Multi-Stage Cross-Scale Attention (\meth) module takes feature maps from different stages to enable multi-stage interactions and achieves cross-scale interactions by computing self-attention at different scales based on the multi-stage feature maps. Our experiments on several downstream tasks show that \meth~provides a significant performance boost with modest additional FLOPs and runtime.
+Convolutional neural networks (CNNs) and vision transformers (ViTs) have achieved remarkable success in various vision tasks. However, many architectures do not consider interactions between feature maps from different stages and scales, which may limit their performance. In this work, we propose a simple add-on attention module to overcome these limitations via multi-stage and cross-scale interactions. Specifically, the proposed Multi-Stage Cross-Scale Attention (MSCSA) module takes feature maps from different stages to enable multi-stage interactions and achieves cross-scale interactions by computing self-attention at different scales based on the multi-stage feature maps. Our experiments on several downstream tasks show that MSCSA provides a significant performance boost with modest additional FLOPs and runtime.
 
 {{</citation>}}
 
@@ -1292,7 +1292,7 @@ Ernest Davis, Scott Aaronson. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI, math-HO, physics-pop-ph  
 Keywords: GPT, GPT-4  
-[Paper Link](http://arxiv.org/abs/2308.05713v1)  
+[Paper Link](http://arxiv.org/abs/2308.05713v2)  
 
 ---
 
@@ -1461,7 +1461,7 @@ Trust in AI agents has been extensively studied in the literature, resulting in 
 
 {{<citation>}}
 
-Yang Liu, Yuanshun Yao, Jean-Francois Ton, Xiaoying Zhang, Ruocheng Guo Hao Cheng, Yegor Klochkov, Muhammad Faaiz Taufiq, Hang Li. (2023)  
+Yang Liu, Yuanshun Yao, Jean-Francois Ton, Xiaoying Zhang, Ruocheng Guo, Hao Cheng, Yegor Klochkov, Muhammad Faaiz Taufiq, Hang Li. (2023)  
 **Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment**  
 
 ---

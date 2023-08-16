@@ -254,7 +254,7 @@ Liyao Lu. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2308.06452v1)  
+[Paper Link](http://arxiv.org/abs/2308.06452v2)  
 
 ---
 

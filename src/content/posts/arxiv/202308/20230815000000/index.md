@@ -356,7 +356,7 @@ Jie Liao, Jintang Li, Liang Chen, Bingzhe Wu, Yatao Bian, Zibin Zheng. (2023)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI, Augmentation, GNN, Graph Neural Network, Graph Neural Networks, Representation Learning  
-[Paper Link](http://arxiv.org/abs/2308.06801v1)  
+[Paper Link](http://arxiv.org/abs/2308.06801v2)  
 
 ---
 
