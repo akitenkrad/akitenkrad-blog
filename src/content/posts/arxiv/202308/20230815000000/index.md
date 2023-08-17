@@ -23,7 +23,8 @@ math: true
 
 - [cs.CV (12)](#cscv-12)
 - [cs.LG (10)](#cslg-10)
-- [cs.CL (5)](#cscl-5)
+- [cs.CL (6)](#cscl-6)
+- [cs.IR (1)](#csir-1)
 - [cs.CR (2)](#cscr-2)
 - [cs.RO (2)](#csro-2)
 - [cs.DC (1)](#csdc-1)
@@ -33,7 +34,7 @@ math: true
 
 
 
-### (1/33) Improving Face Recognition from Caption Supervision with Multi-Granular Contextual Feature Aggregation (Md Mahedi Hasan et al., 2023)
+### (1/35) Improving Face Recognition from Caption Supervision with Multi-Granular Contextual Feature Aggregation (Md Mahedi Hasan et al., 2023)
 
 {{<citation>}}
 
@@ -55,7 +56,7 @@ We introduce caption-guided face recognition (CGFR) as a new framework to improv
 {{</citation>}}
 
 
-### (2/33) Manifold DivideMix: A Semi-Supervised Contrastive Learning Framework for Severe Label Noise (Fahimeh Fooladgar et al., 2023)
+### (2/35) Manifold DivideMix: A Semi-Supervised Contrastive Learning Framework for Severe Label Noise (Fahimeh Fooladgar et al., 2023)
 
 {{<citation>}}
 
@@ -77,7 +78,7 @@ Deep neural networks have proven to be highly effective when large amounts of da
 {{</citation>}}
 
 
-### (3/33) Modified Topological Image Preprocessing for Skin Lesion Classifications (Hong Cheng et al., 2023)
+### (3/35) Modified Topological Image Preprocessing for Skin Lesion Classifications (Hong Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -99,7 +100,7 @@ This paper proposes a modified Topological Data Analysis model for skin images p
 {{</citation>}}
 
 
-### (4/33) Shrinking Class Space for Enhanced Certainty in Semi-Supervised Learning (Lihe Yang et al., 2023)
+### (4/35) Shrinking Class Space for Enhanced Certainty in Semi-Supervised Learning (Lihe Yang et al., 2023)
 
 {{<citation>}}
 
@@ -121,7 +122,7 @@ Semi-supervised learning is attracting blooming attention, due to its success in
 {{</citation>}}
 
 
-### (5/33) Influence Function Based Second-Order Channel Pruning-Evaluating True Loss Changes For Pruning Is Possible Without Retraining (Hongrong Cheng et al., 2023)
+### (5/35) Influence Function Based Second-Order Channel Pruning-Evaluating True Loss Changes For Pruning Is Possible Without Retraining (Hongrong Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -143,7 +144,7 @@ A challenge of channel pruning is designing efficient and effective criteria to 
 {{</citation>}}
 
 
-### (6/33) Target before Shooting: Accurate Anomaly Detection and Localization under One Millisecond via Cascade Patch Retrieval (Hanxi Li et al., 2023)
+### (6/35) Target before Shooting: Accurate Anomaly Detection and Localization under One Millisecond via Cascade Patch Retrieval (Hanxi Li et al., 2023)
 
 {{<citation>}}
 
@@ -165,7 +166,7 @@ In this work, by re-examining the "matching" nature of Anomaly Detection (AD), w
 {{</citation>}}
 
 
-### (7/33) Free-ATM: Exploring Unsupervised Learning on Diffusion-Generated Images with Free Attention Masks (David Junhao Zhang et al., 2023)
+### (7/35) Free-ATM: Exploring Unsupervised Learning on Diffusion-Generated Images with Free Attention Masks (David Junhao Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -187,7 +188,7 @@ Despite the rapid advancement of unsupervised learning in visual representation,
 {{</citation>}}
 
 
-### (8/33) Compositional Feature Augmentation for Unbiased Scene Graph Generation (Lin Li et al., 2023)
+### (8/35) Compositional Feature Augmentation for Unbiased Scene Graph Generation (Lin Li et al., 2023)
 
 {{<citation>}}
 
@@ -209,7 +210,7 @@ Scene Graph Generation (SGG) aims to detect all the visual relation triplets <su
 {{</citation>}}
 
 
-### (9/33) Isomer: Isomerous Transformer for Zero-shot Video Object Segmentation (Yichen Yuan et al., 2023)
+### (9/35) Isomer: Isomerous Transformer for Zero-shot Video Object Segmentation (Yichen Yuan et al., 2023)
 
 {{<citation>}}
 
@@ -231,7 +232,7 @@ Recent leading zero-shot video object segmentation (ZVOS) works devote to integr
 {{</citation>}}
 
 
-### (10/33) SimMatchV2: Semi-Supervised Learning with Graph Consistency (Mingkai Zheng et al., 2023)
+### (10/35) SimMatchV2: Semi-Supervised Learning with Graph Consistency (Mingkai Zheng et al., 2023)
 
 {{<citation>}}
 
@@ -253,7 +254,7 @@ Semi-Supervised image classification is one of the most fundamental problem in c
 {{</citation>}}
 
 
-### (11/33) Estimator Meets Equilibrium Perspective: A Rectified Straight Through Estimator for Binary Neural Networks Training (Xiao-Ming Wu et al., 2023)
+### (11/35) Estimator Meets Equilibrium Perspective: A Rectified Straight Through Estimator for Binary Neural Networks Training (Xiao-Ming Wu et al., 2023)
 
 {{<citation>}}
 
@@ -275,7 +276,7 @@ Binarization of neural networks is a dominant paradigm in neural networks compre
 {{</citation>}}
 
 
-### (12/33) Unsupervised Adaptation of Polyp Segmentation Models via Coarse-to-Fine Self-Supervision (Jiexiang Wang et al., 2023)
+### (12/35) Unsupervised Adaptation of Polyp Segmentation Models via Coarse-to-Fine Self-Supervision (Jiexiang Wang et al., 2023)
 
 {{<citation>}}
 
@@ -301,7 +302,7 @@ Unsupervised Domain Adaptation~(UDA) has attracted a surge of interest over the 
 
 
 
-### (13/33) Effect of Choosing Loss Function when Using T-batching for Representation Learning on Dynamic Networks (Erfan Loghmani et al., 2023)
+### (13/35) Effect of Choosing Loss Function when Using T-batching for Representation Learning on Dynamic Networks (Erfan Loghmani et al., 2023)
 
 {{<citation>}}
 
@@ -323,7 +324,7 @@ Representation learning methods have revolutionized machine learning on networks
 {{</citation>}}
 
 
-### (14/33) Generalizing Topological Graph Neural Networks with Paths (Quang Truong et al., 2023)
+### (14/35) Generalizing Topological Graph Neural Networks with Paths (Quang Truong et al., 2023)
 
 {{<citation>}}
 
@@ -345,7 +346,7 @@ While Graph Neural Networks (GNNs) have made significant strides in diverse area
 {{</citation>}}
 
 
-### (15/33) SAILOR: Structural Augmentation Based Tail Node Representation Learning (Jie Liao et al., 2023)
+### (15/35) SAILOR: Structural Augmentation Based Tail Node Representation Learning (Jie Liao et al., 2023)
 
 {{<citation>}}
 
@@ -367,7 +368,7 @@ Graph Neural Networks (GNNs) have achieved state-of-the-art performance in repre
 {{</citation>}}
 
 
-### (16/33) Neural Networks at a Fraction with Pruned Quaternions (Sahel Mohammad Iqbal et al., 2023)
+### (16/35) Neural Networks at a Fraction with Pruned Quaternions (Sahel Mohammad Iqbal et al., 2023)
 
 {{<citation>}}
 
@@ -389,7 +390,7 @@ Contemporary state-of-the-art neural networks have increasingly large numbers of
 {{</citation>}}
 
 
-### (17/33) A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Analysis, and Recommendations (Hongrong Cheng et al., 2023)
+### (17/35) A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Analysis, and Recommendations (Hongrong Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -411,7 +412,7 @@ Modern deep neural networks, particularly recent large language models, come wit
 {{</citation>}}
 
 
-### (18/33) Heterogeneous Multi-Agent Reinforcement Learning via Mirror Descent Policy Optimization (Mohammad Mehdi Nasiri et al., 2023)
+### (18/35) Heterogeneous Multi-Agent Reinforcement Learning via Mirror Descent Policy Optimization (Mohammad Mehdi Nasiri et al., 2023)
 
 {{<citation>}}
 
@@ -433,7 +434,7 @@ This paper presents an extension of the Mirror Descent method to overcome challe
 {{</citation>}}
 
 
-### (19/33) Learning on Graphs with Out-of-Distribution Nodes (Yu Song et al., 2023)
+### (19/35) Learning on Graphs with Out-of-Distribution Nodes (Yu Song et al., 2023)
 
 {{<citation>}}
 
@@ -455,7 +456,7 @@ Graph Neural Networks (GNNs) are state-of-the-art models for performing predicti
 {{</citation>}}
 
 
-### (20/33) Separable Gaussian Neural Networks: Structure, Analysis, and Function Approximations (Siyuan Xing et al., 2023)
+### (20/35) Separable Gaussian Neural Networks: Structure, Analysis, and Function Approximations (Siyuan Xing et al., 2023)
 
 {{<citation>}}
 
@@ -477,7 +478,7 @@ The Gaussian-radial-basis function neural network (GRBFNN) has been a popular ch
 {{</citation>}}
 
 
-### (21/33) Foundation Models in Smart Agriculture: Basics, Opportunities, and Challenges (Jiajia Li et al., 2023)
+### (21/35) Foundation Models in Smart Agriculture: Basics, Opportunities, and Challenges (Jiajia Li et al., 2023)
 
 {{<citation>}}
 
@@ -499,7 +500,7 @@ The past decade has witnessed the rapid development of ML and DL methodologies i
 {{</citation>}}
 
 
-### (22/33) ALGAN: Time Series Anomaly Detection with Adjusted-LSTM GAN (Md Abul Bashar et al., 2023)
+### (22/35) ALGAN: Time Series Anomaly Detection with Adjusted-LSTM GAN (Md Abul Bashar et al., 2023)
 
 {{<citation>}}
 
@@ -521,11 +522,11 @@ Anomaly detection in time series data, to identify points that deviate from norm
 {{</citation>}}
 
 
-## cs.CL (5)
+## cs.CL (6)
 
 
 
-### (23/33) Diagnostic Reasoning Prompts Reveal the Potential for Large Language Model Interpretability in Medicine (Thomas Savage et al., 2023)
+### (23/35) Diagnostic Reasoning Prompts Reveal the Potential for Large Language Model Interpretability in Medicine (Thomas Savage et al., 2023)
 
 {{<citation>}}
 
@@ -547,7 +548,7 @@ One of the major barriers to using large language models (LLMs) in medicine is t
 {{</citation>}}
 
 
-### (24/33) An Ensemble Approach to Question Classification: Integrating Electra Transformer, GloVe, and LSTM (Sanad Aburass et al., 2023)
+### (24/35) An Ensemble Approach to Question Classification: Integrating Electra Transformer, GloVe, and LSTM (Sanad Aburass et al., 2023)
 
 {{<citation>}}
 
@@ -569,7 +570,7 @@ This paper introduces a novel ensemble approach for question classification usin
 {{</citation>}}
 
 
-### (25/33) Faithful to Whom? Questioning Interpretability Measures in NLP (Evan Crothers et al., 2023)
+### (25/35) Faithful to Whom? Questioning Interpretability Measures in NLP (Evan Crothers et al., 2023)
 
 {{<citation>}}
 
@@ -591,7 +592,7 @@ A common approach to quantifying model interpretability is to calculate faithful
 {{</citation>}}
 
 
-### (26/33) Token-Scaled Logit Distillation for Ternary Weight Generative Language Models (Minsoo Kim et al., 2023)
+### (26/35) Token-Scaled Logit Distillation for Ternary Weight Generative Language Models (Minsoo Kim et al., 2023)
 
 {{<citation>}}
 
@@ -613,7 +614,29 @@ Generative Language Models (GLMs) have shown impressive performance in tasks suc
 {{</citation>}}
 
 
-### (27/33) MACO: A Modality Adversarial and Contrastive Framework for Modality-missing Multi-modal Knowledge Graph Completion (Yichi Zhang et al., 2023)
+### (27/35) Transforming Sentiment Analysis in the Financial Domain with ChatGPT (Georgios Fatouros et al., 2023)
+
+{{<citation>}}
+
+Georgios Fatouros, John Soldatos, Kalliopi Kouroumali, Georgios Makridis, Dimosthenis Kyriazis. (2023)  
+**Transforming Sentiment Analysis in the Financial Domain with ChatGPT**  
+
+---
+Primary Category: cs.CL  
+Categories: 68T01, 68T50, 91B28, 91B30, cs-AI, cs-CE, cs-CL, cs-IR, cs.CL  
+Keywords: BERT, ChatGPT, Financial, GPT, Sentiment Analysis  
+[Paper Link](http://arxiv.org/abs/2308.07935v1)  
+
+---
+
+
+**ABSTRACT**  
+Financial sentiment analysis plays a crucial role in decoding market trends and guiding strategic trading decisions. Despite the deployment of advanced deep learning techniques and language models to refine sentiment analysis in finance, this study breaks new ground by investigating the potential of large language models, particularly ChatGPT 3.5, in financial sentiment analysis, with a strong emphasis on the foreign exchange market (forex). Employing a zero-shot prompting approach, we examine multiple ChatGPT prompts on a meticulously curated dataset of forex-related news headlines, measuring performance using metrics such as precision, recall, f1-score, and Mean Absolute Error (MAE) of the sentiment class. Additionally, we probe the correlation between predicted sentiment and market returns as an additional evaluation approach. ChatGPT, compared to FinBERT, a well-established sentiment analysis model for financial texts, exhibited approximately 35\% enhanced performance in sentiment classification and a 36\% higher correlation with market returns. By underlining the significance of prompt engineering, particularly in zero-shot contexts, this study spotlights ChatGPT's potential to substantially boost sentiment analysis in financial applications. By sharing the utilized dataset, our intention is to stimulate further research and advancements in the field of financial services.
+
+{{</citation>}}
+
+
+### (28/35) MACO: A Modality Adversarial and Contrastive Framework for Modality-missing Multi-modal Knowledge Graph Completion (Yichi Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -635,11 +658,37 @@ Recent years have seen significant advancements in multi-modal knowledge graph c
 {{</citation>}}
 
 
+## cs.IR (1)
+
+
+
+### (29/35) InTune: Reinforcement Learning-based Data Pipeline Optimization for Deep Recommendation Models (Kabir Nagrecha et al., 2023)
+
+{{<citation>}}
+
+Kabir Nagrecha, Lingyi Liu, Pablo Delgado, Prasanna Padmanabhan. (2023)  
+**InTune: Reinforcement Learning-based Data Pipeline Optimization for Deep Recommendation Models**  
+
+---
+Primary Category: cs.IR  
+Categories: cs-AI, cs-DC, cs-IR, cs-LG, cs-PF, cs.IR  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2308.08500v1)  
+
+---
+
+
+**ABSTRACT**  
+Deep learning-based recommender models (DLRMs) have become an essential component of many modern recommender systems. Several companies are now building large compute clusters reserved only for DLRM training, driving new interest in cost- and time- saving optimizations. The systems challenges faced in this setting are unique; while typical deep learning training jobs are dominated by model execution, the most important factor in DLRM training performance is often online data ingestion.   In this paper, we explore the unique characteristics of this data ingestion problem and provide insights into DLRM training pipeline bottlenecks and challenges. We study real-world DLRM data processing pipelines taken from our compute cluster at Netflix to observe the performance impacts of online ingestion and to identify shortfalls in existing pipeline optimizers. We find that current tooling either yields sub-optimal performance, frequent crashes, or else requires impractical cluster re-organization to adopt. Our studies lead us to design and build a new solution for data pipeline optimization, InTune.   InTune employs a reinforcement learning (RL) agent to learn how to distribute the CPU resources of a trainer machine across a DLRM data pipeline to more effectively parallelize data loading and improve throughput. Our experiments show that InTune can build an optimized data pipeline configuration within only a few minutes, and can easily be integrated into existing training workflows. By exploiting the responsiveness and adaptability of RL, InTune achieves higher online data ingestion rates than existing optimizers, thus reducing idle times in model execution and increasing efficiency. We apply InTune to our real-world cluster, and find that it increases data ingestion throughput by as much as 2.29X versus state-of-the-art data pipeline optimizers while also improving both CPU & GPU utilization.
+
+{{</citation>}}
+
+
 ## cs.CR (2)
 
 
 
-### (28/33) SoK: Realistic Adversarial Attacks and Defenses for Intelligent Network Intrusion Detection (João Vitorino et al., 2023)
+### (30/35) SoK: Realistic Adversarial Attacks and Defenses for Intelligent Network Intrusion Detection (João Vitorino et al., 2023)
 
 {{<citation>}}
 
@@ -661,7 +710,7 @@ Machine Learning (ML) can be incredibly valuable to automate anomaly detection a
 {{</citation>}}
 
 
-### (29/33) Impact of Orientation on the Bias of SRAM-Based PUFs (Zain Ul Abideen et al., 2023)
+### (31/35) Impact of Orientation on the Bias of SRAM-Based PUFs (Zain Ul Abideen et al., 2023)
 
 {{<citation>}}
 
@@ -687,7 +736,7 @@ This paper investigates the impact of memory orientation on the bias pattern of 
 
 
 
-### (30/33) Ground Manipulator Primitive Tasks to Executable Actions using Large Language Models (Yue Cao et al., 2023)
+### (32/35) Ground Manipulator Primitive Tasks to Executable Actions using Large Language Models (Yue Cao et al., 2023)
 
 {{<citation>}}
 
@@ -709,7 +758,7 @@ Layered architectures have been widely used in robot systems. The majority of th
 {{</citation>}}
 
 
-### (31/33) 3D Scene Graph Prediction on Point Clouds Using Knowledge Graphs (Yiding Qiu et al., 2023)
+### (33/35) 3D Scene Graph Prediction on Point Clouds Using Knowledge Graphs (Yiding Qiu et al., 2023)
 
 {{<citation>}}
 
@@ -735,7 +784,7 @@ Keywords: Knowledge Graph
 
 
 
-### (32/33) A Dynamic Distributed Scheduler for Computing on the Edge (Fei Hu et al., 2023)
+### (34/35) A Dynamic Distributed Scheduler for Computing on the Edge (Fei Hu et al., 2023)
 
 {{<citation>}}
 
@@ -761,7 +810,7 @@ Edge computing has become a promising computing paradigm for building IoT (Inter
 
 
 
-### (33/33) PentestGPT: An LLM-empowered Automatic Penetration Testing Tool (Gelei Deng et al., 2023)
+### (35/35) PentestGPT: An LLM-empowered Automatic Penetration Testing Tool (Gelei Deng et al., 2023)
 
 {{<citation>}}
 

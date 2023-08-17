@@ -574,7 +574,7 @@ Seyedarmin Azizi, Mahdi Nazemi, Arash Fayyazi, Massoud Pedram. (2023)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs-NE, cs.LG, stat-ML  
 Keywords: Quantization  
-[Paper Link](http://arxiv.org/abs/2308.06422v1)  
+[Paper Link](http://arxiv.org/abs/2308.06422v2)  
 
 ---
 
