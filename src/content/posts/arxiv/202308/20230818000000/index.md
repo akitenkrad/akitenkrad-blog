@@ -21,11 +21,11 @@ math: true
 
 ## Primary Categories
 
+- [cs.LG (19)](#cslg-19)
 - [cs.CV (23)](#cscv-23)
 - [cs.DS (1)](#csds-1)
 - [cs.CL (16)](#cscl-16)
 - [cs.CY (2)](#cscy-2)
-- [cs.LG (18)](#cslg-18)
 - [cs.IR (5)](#csir-5)
 - [cs.AI (1)](#csai-1)
 - [eess.SY (3)](#eesssy-3)
@@ -42,11 +42,433 @@ math: true
 - [q-bio.QM (1)](#q-bioqm-1)
 - [cs.SD (2)](#cssd-2)
 
+## cs.LG (19)
+
+
+
+### (1/90) FineQuant: Unlocking Efficiency with Fine-Grained Weight-Only Quantization for LLMs (Young Jin Kim et al., 2023)
+
+{{<citation>}}
+
+Young Jin Kim, Rawn Henry, Raffy Fahim, Hany Hassan Awadalla. (2023)  
+**FineQuant: Unlocking Efficiency with Fine-Grained Weight-Only Quantization for LLMs**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CL, cs-LG, cs.LG  
+Keywords: Language Model, Quantization  
+[Paper Link](http://arxiv.org/abs/2308.09723v1)  
+
+---
+
+
+**ABSTRACT**  
+Large Language Models (LLMs) have achieved state-of-the-art performance across various language tasks but pose challenges for practical deployment due to their substantial memory requirements. Furthermore, the latest generative models suffer from high inference costs caused by the memory bandwidth bottleneck in the auto-regressive decoding process. To address these issues, we propose an efficient weight-only quantization method that reduces memory consumption and accelerates inference for LLMs. To ensure minimal quality degradation, we introduce a simple and effective heuristic approach that utilizes only the model weights of a pre-trained model. This approach is applicable to both Mixture-of-Experts (MoE) and dense models without requiring additional fine-tuning. To demonstrate the effectiveness of our proposed method, we first analyze the challenges and issues associated with LLM quantization. Subsequently, we present our heuristic approach, which adaptively finds the granularity of quantization, effectively addressing these problems. Furthermore, we implement highly efficient GPU GEMMs that perform on-the-fly matrix multiplication and dequantization, supporting the multiplication of fp16 or bf16 activations with int8 or int4 weights. We evaluate our approach on large-scale open source models such as OPT-175B and internal MoE models, showcasing minimal accuracy loss while achieving up to 3.65 times higher throughput on the same number of GPUs.
+
+{{</citation>}}
+
+
+### (2/90) Reproducing Kernel Hilbert Space Pruning for Sparse Hyperspectral Abundance Prediction (Michael G. Rawson et al., 2023)
+
+{{<citation>}}
+
+Michael G. Rawson, Timothy Doster, Tegan Emerson. (2023)  
+**Reproducing Kernel Hilbert Space Pruning for Sparse Hyperspectral Abundance Prediction**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG, eess-SP  
+Keywords: Pruning  
+[Paper Link](http://arxiv.org/abs/2308.08653v1)  
+
+---
+
+
+**ABSTRACT**  
+Hyperspectral measurements from long range sensors can give a detailed picture of the items, materials, and chemicals in a scene but analysis can be difficult, slow, and expensive due to high spatial and spectral resolutions of state-of-the-art sensors. As such, sparsity is important to enable the future of spectral compression and analytics. It has been observed that environmental and atmospheric effects, including scattering, can produce nonlinear effects posing challenges for existing source separation and compression methods. We present a novel transformation into Hilbert spaces for pruning and constructing sparse representations via non-negative least squares minimization. Then we introduce max likelihood compression vectors to decrease information loss. Our approach is benchmarked against standard pruning and least squares as well as deep learning methods. Our methods are evaluated in terms of overall spectral reconstruction error and compression rate using real and synthetic data. We find that pruning least squares methods converge quickly unlike matching pursuit methods. We find that Hilbert space pruning can reduce error by as much as 40% of the error of standard pruning and also outperform neural network autoencoders.
+
+{{</citation>}}
+
+
+### (3/90) LSTM-Based Forecasting Model for GRACE Accelerometer Data (Neda Darbeheshti et al., 2023)
+
+{{<citation>}}
+
+Neda Darbeheshti, Elahe Moradi. (2023)  
+**LSTM-Based Forecasting Model for GRACE Accelerometer Data**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG, physics-space-ph  
+Keywords: LSTM  
+[Paper Link](http://arxiv.org/abs/2308.08621v1)  
+
+---
+
+
+**ABSTRACT**  
+The Gravity Recovery and Climate Experiment (GRACE) satellite mission, spanning from 2002 to 2017, has provided a valuable dataset for monitoring variations in Earth's gravity field, enabling diverse applications in geophysics and hydrology. The mission was followed by GRACE Follow-On in 2018, continuing data collection efforts. The monthly Earth gravity field, derived from the integration different instruments onboard satellites, has shown inconsistencies due to various factors, including gaps in observations for certain instruments since the beginning of the GRACE mission.   With over two decades of GRACE and GRACE Follow-On data now available, this paper proposes an approach to fill the data gaps and forecast GRACE accelerometer data. Specifically, we focus on accelerometer data and employ Long Short-Term Memory (LSTM) networks to train a model capable of predicting accelerometer data for all three axes.   In this study, we describe the methodology used to preprocess the accelerometer data, prepare it for LSTM training, and evaluate the model's performance. Through experimentation and validation, we assess the model's accuracy and its ability to predict accelerometer data for the three axes. Our results demonstrate the effectiveness of the LSTM forecasting model in filling gaps and forecasting GRACE accelerometer data.
+
+{{</citation>}}
+
+
+### (4/90) Boosting Logical Reasoning in Large Language Models through a New Framework: The Graph of Thought (Bin Lei et al., 2023)
+
+{{<citation>}}
+
+Bin Lei, pei-Hung Lin, Chunhua Liao, Caiwen Ding. (2023)  
+**Boosting Logical Reasoning in Large Language Models through a New Framework: The Graph of Thought**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CL, cs-LG, cs.LG  
+Keywords: GPT, GPT-4, Language Model, Reasoning  
+[Paper Link](http://arxiv.org/abs/2308.08614v1)  
+
+---
+
+
+**ABSTRACT**  
+Recent advancements in large-scale models, such as GPT-4, have showcased remarkable capabilities in addressing standard queries. However, when facing complex problems that require multi-step logical reasoning, their accuracy dramatically decreases. Current research has explored the realm of \textit{prompting engineering} to bolster the inferential capacities of these models. Our paper unveils a pioneering prompting technique, dubbed \textit{Graph of Thoughts (GoT)}. Through testing on a trio of escalating challenges: the 24-point game, resolution of high-degree polynomial equations, and derivation of formulas for recursive sequences, our method outperformed GPT-4, achieving accuracy improvements of $89.7\%$, $86\%$, and $56\%$ for each respective task. Moreover, when juxtaposed with the state-of-the-art (SOTA) prompting method, \textit{Tree of Thought (ToT)}, our approach registered an average accuracy boost of $23\%$, $24\%$, and $15\%$.
+
+{{</citation>}}
+
+
+### (5/90) Label Propagation Techniques for Artifact Detection in Imbalanced Classes using Photoplethysmogram Signals (Clara Macabiau et al., 2023)
+
+{{<citation>}}
+
+Clara Macabiau, Thanh-Dung Le, Kevin Albert, Philippe Jouvet, Rita Noumeir. (2023)  
+**Label Propagation Techniques for Artifact Detection in Imbalanced Classes using Photoplethysmogram Signals**  
+
+---
+Primary Category: cs.LG  
+Categories: 68T02, cs-LG, cs.LG, eess-SP  
+Keywords: Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2308.08480v1)  
+
+---
+
+
+**ABSTRACT**  
+Photoplethysmogram (PPG) signals are widely used in healthcare for monitoring vital signs, but they are susceptible to motion artifacts that can lead to inaccurate interpretations. In this study, the use of label propagation techniques to propagate labels among PPG samples is explored, particularly in imbalanced class scenarios where clean PPG samples are significantly outnumbered by artifact-contaminated samples. With a precision of 91%, a recall of 90% and an F1 score of 90% for the class without artifacts, the results demonstrate its effectiveness in labeling a medical dataset, even when clean samples are rare. For the classification of artifacts our study compares supervised classifiers such as conventional classifiers and neural networks (MLP, Transformers, FCN) with the semi-supervised label propagation algorithm. With a precision of 89%, a recall of 95% and an F1 score of 92%, the KNN supervised model gives good results, but the semi-supervised algorithm performs better in detecting artifacts. The findings suggest that the semi-supervised algorithm label propagation hold promise for artifact detection in PPG signals, which can enhance the reliability of PPG-based health monitoring systems in real-world applications.
+
+{{</citation>}}
+
+
+### (6/90) LLM4TS: Two-Stage Fine-Tuning for Time-Series Forecasting with Pre-Trained LLMs (Ching Chang et al., 2023)
+
+{{<citation>}}
+
+Ching Chang, Wen-Chih Peng, Tien-Fu Chen. (2023)  
+**LLM4TS: Two-Stage Fine-Tuning for Time-Series Forecasting with Pre-Trained LLMs**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG  
+Keywords: Computer Vision, Language Model, Natural Language Processing  
+[Paper Link](http://arxiv.org/abs/2308.08469v1)  
+
+---
+
+
+**ABSTRACT**  
+In this work, we leverage pre-trained Large Language Models (LLMs) to enhance time-series forecasting. Mirroring the growing interest in unifying models for Natural Language Processing and Computer Vision, we envision creating an analogous model for long-term time-series forecasting. Due to limited large-scale time-series data for building robust foundation models, our approach LLM4TS focuses on leveraging the strengths of pre-trained LLMs. By combining time-series patching with temporal encoding, we have enhanced the capability of LLMs to handle time-series data effectively. Inspired by the supervised fine-tuning in chatbot domains, we prioritize a two-stage fine-tuning process: first conducting supervised fine-tuning to orient the LLM towards time-series data, followed by task-specific downstream fine-tuning. Furthermore, to unlock the flexibility of pre-trained LLMs without extensive parameter adjustments, we adopt several Parameter-Efficient Fine-Tuning (PEFT) techniques. Drawing on these innovations, LLM4TS has yielded state-of-the-art results in long-term forecasting. Our model has also shown exceptional capabilities as both a robust representation learner and an effective few-shot learner, thanks to the knowledge transferred from the pre-trained LLM.
+
+{{</citation>}}
+
+
+### (7/90) Explainable AI for clinical risk prediction: a survey of concepts, methods, and modalities (Munib Mesinovic et al., 2023)
+
+{{<citation>}}
+
+Munib Mesinovic, Peter Watkinson, Tingting Zhu. (2023)  
+**Explainable AI for clinical risk prediction: a survey of concepts, methods, and modalities**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CY, cs-LG, cs.LG  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2308.08407v1)  
+
+---
+
+
+**ABSTRACT**  
+Recent advancements in AI applications to healthcare have shown incredible promise in surpassing human performance in diagnosis and disease prognosis. With the increasing complexity of AI models, however, concerns regarding their opacity, potential biases, and the need for interpretability. To ensure trust and reliability in AI systems, especially in clinical risk prediction models, explainability becomes crucial. Explainability is usually referred to as an AI system's ability to provide a robust interpretation of its decision-making logic or the decisions themselves to human stakeholders. In clinical risk prediction, other aspects of explainability like fairness, bias, trust, and transparency also represent important concepts beyond just interpretability. In this review, we address the relationship between these concepts as they are often used together or interchangeably. This review also discusses recent progress in developing explainable models for clinical risk prediction, highlighting the importance of quantitative and clinical evaluation and validation across multiple common modalities in clinical practice. It emphasizes the need for external validation and the combination of diverse interpretability methods to enhance trust and fairness. Adopting rigorous testing, such as using synthetic datasets with known generative factors, can further improve the reliability of explainability methods. Open access and code-sharing resources are essential for transparency and reproducibility, enabling the growth and trustworthiness of explainable research. While challenges exist, an end-to-end approach to explainability in clinical risk prediction, incorporating stakeholders from clinicians to developers, is essential for success.
+
+{{</citation>}}
+
+
+### (8/90) Independent Distribution Regularization for Private Graph Embedding (Qi Hu et al., 2023)
+
+{{<citation>}}
+
+Qi Hu, Yangqiu Song. (2023)  
+**Independent Distribution Regularization for Private Graph Embedding**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CR, cs-LG, cs.LG  
+Keywords: Embedding  
+[Paper Link](http://arxiv.org/abs/2308.08360v1)  
+
+---
+
+
+**ABSTRACT**  
+Learning graph embeddings is a crucial task in graph mining tasks. An effective graph embedding model can learn low-dimensional representations from graph-structured data for data publishing benefiting various downstream applications such as node classification, link prediction, etc. However, recent studies have revealed that graph embeddings are susceptible to attribute inference attacks, which allow attackers to infer private node attributes from the learned graph embeddings. To address these concerns, privacy-preserving graph embedding methods have emerged, aiming to simultaneously consider primary learning and privacy protection through adversarial learning. However, most existing methods assume that representation models have access to all sensitive attributes in advance during the training stage, which is not always the case due to diverse privacy preferences. Furthermore, the commonly used adversarial learning technique in privacy-preserving representation learning suffers from unstable training issues. In this paper, we propose a novel approach called Private Variational Graph AutoEncoders (PVGAE) with the aid of independent distribution penalty as a regularization term. Specifically, we split the original variational graph autoencoder (VGAE) to learn sensitive and non-sensitive latent representations using two sets of encoders. Additionally, we introduce a novel regularization to enforce the independence of the encoders. We prove the theoretical effectiveness of regularization from the perspective of mutual information. Experimental results on three real-world datasets demonstrate that PVGAE outperforms other baselines in private embedding learning regarding utility performance and privacy protection.
+
+{{</citation>}}
+
+
+### (9/90) Convergence of Two-Layer Regression with Nonlinear Units (Yichuan Deng et al., 2023)
+
+{{<citation>}}
+
+Yichuan Deng, Zhao Song, Shenghao Xie. (2023)  
+**Convergence of Two-Layer Regression with Nonlinear Units**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG, stat-ML  
+Keywords: Attention, ChatGPT, GPT  
+[Paper Link](http://arxiv.org/abs/2308.08358v1)  
+
+---
+
+
+**ABSTRACT**  
+Large language models (LLMs), such as ChatGPT and GPT4, have shown outstanding performance in many human life task. Attention computation plays an important role in training LLMs. Softmax unit and ReLU unit are the key structure in attention computation. Inspired by them, we put forward a softmax ReLU regression problem. Generally speaking, our goal is to find an optimal solution to the regression problem involving the ReLU unit. In this work, we calculate a close form representation for the Hessian of the loss function. Under certain assumptions, we prove the Lipschitz continuous and the PSDness of the Hessian. Then, we introduce an greedy algorithm based on approximate Newton method, which converges in the sense of the distance to optimal solution. Last, We relax the Lipschitz condition and prove the convergence in the sense of loss value.
+
+{{</citation>}}
+
+
+### (10/90) Graph Out-of-Distribution Generalization with Controllable Data Augmentation (Bin Lu et al., 2023)
+
+{{<citation>}}
+
+Bin Lu, Xiaoying Gan, Ze Zhao, Shiyu Liang, Luoyi Fu, Xinbing Wang, Chenghu Zhou. (2023)  
+**Graph Out-of-Distribution Generalization with Controllable Data Augmentation**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs-SI, cs.LG  
+Keywords: Augmentation, GNN, Graph Neural Network  
+[Paper Link](http://arxiv.org/abs/2308.08344v1)  
+
+---
+
+
+**ABSTRACT**  
+Graph Neural Network (GNN) has demonstrated extraordinary performance in classifying graph properties. However, due to the selection bias of training and testing data (e.g., training on small graphs and testing on large graphs, or training on dense graphs and testing on sparse graphs), distribution deviation is widespread. More importantly, we often observe \emph{hybrid structure distribution shift} of both scale and density, despite of one-sided biased data partition. The spurious correlations over hybrid distribution deviation degrade the performance of previous GNN methods and show large instability among different datasets. To alleviate this problem, we propose \texttt{OOD-GMixup} to jointly manipulate the training distribution with \emph{controllable data augmentation} in metric space. Specifically, we first extract the graph rationales to eliminate the spurious correlations due to irrelevant information. Secondly, we generate virtual samples with perturbation on graph rationale representation domain to obtain potential OOD training samples. Finally, we propose OOD calibration to measure the distribution deviation of virtual samples by leveraging Extreme Value Theory, and further actively control the training distribution by emphasizing the impact of virtual OOD samples. Extensive studies on several real-world datasets on graph classification demonstrate the superiority of our proposed method over state-of-the-art baselines.
+
+{{</citation>}}
+
+
+### (11/90) Learning Logic Programs by Discovering Higher-Order Abstractions (Céline Hocquette et al., 2023)
+
+{{<citation>}}
+
+Céline Hocquette, Sebastijan Dumančić, Andrew Cropper. (2023)  
+**Learning Logic Programs by Discovering Higher-Order Abstractions**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs-PL, cs.LG  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2308.08334v1)  
+
+---
+
+
+**ABSTRACT**  
+Discovering novel abstractions is important for human-level AI. We introduce an approach to discover higher-order abstractions, such as map, filter, and fold. We focus on inductive logic programming, which induces logic programs from examples and background knowledge. We introduce the higher-order refactoring problem, where the goal is to compress a logic program by introducing higher-order abstractions. We implement our approach in STEVIE, which formulates the higher-order refactoring problem as a constraint optimisation problem. Our experimental results on multiple domains, including program synthesis and visual reasoning, show that, compared to no refactoring, STEVIE can improve predictive accuracies by 27% and reduce learning times by 47%. We also show that STEVIE can discover abstractions that transfer to different domains
+
+{{</citation>}}
+
+
+### (12/90) It Ain't That Bad: Understanding the Mysterious Performance Drop in OOD Generalization for Generative Transformer Models (Xingcheng Xu et al., 2023)
+
+{{<citation>}}
+
+Xingcheng Xu, Zihao Pan, Haipeng Zhang, Yanqing Yang. (2023)  
+**It Ain't That Bad: Understanding the Mysterious Performance Drop in OOD Generalization for Generative Transformer Models**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2308.08268v1)  
+
+---
+
+
+**ABSTRACT**  
+Generative Transformer-based models have achieved remarkable proficiency on solving diverse problems. However, their generalization ability is not fully understood and not always satisfying. Researchers take basic mathematical tasks like n-digit addition or multiplication as important perspectives for investigating their generalization behaviors. Curiously, it is observed that when training on n-digit operations (e.g., additions) in which both input operands are n-digit in length, models generalize successfully on unseen n-digit inputs (in-distribution (ID) generalization), but fail miserably and mysteriously on longer, unseen cases (out-of-distribution (OOD) generalization). Studies try to bridge this gap with workarounds such as modifying position embedding, fine-tuning, and priming with more extensive or instructive data. However, without addressing the essential mechanism, there is hardly any guarantee regarding the robustness of these solutions. We bring this unexplained performance drop into attention and ask whether it is purely from random errors. Here we turn to the mechanistic line of research which has notable successes in model interpretability. We discover that the strong ID generalization stems from structured representations, while behind the unsatisfying OOD performance, the models still exhibit clear learned algebraic structures. Specifically, these models map unseen OOD inputs to outputs with equivalence relations in the ID domain. These highlight the potential of the models to carry useful information for improved generalization.
+
+{{</citation>}}
+
+
+### (13/90) The Expressive Power of Graph Neural Networks: A Survey (Bingxu Zhang et al., 2023)
+
+{{<citation>}}
+
+Bingxu Zhang, Changjun Fan, Shixuan Liu, Kuihua Huang, Xiang Zhao, Jincai Huang, Zhong Liu. (2023)  
+**The Expressive Power of Graph Neural Networks: A Survey**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs-SI, cs.LG  
+Keywords: GNN, Graph Neural Network, Graph Neural Networks  
+[Paper Link](http://arxiv.org/abs/2308.08235v1)  
+
+---
+
+
+**ABSTRACT**  
+Graph neural networks (GNNs) are effective machine learning models for many graph-related applications. Despite their empirical success, many research efforts focus on the theoretical limitations of GNNs, i.e., the GNNs expressive power. Early works in this domain mainly focus on studying the graph isomorphism recognition ability of GNNs, and recent works try to leverage the properties such as subgraph counting and connectivity learning to characterize the expressive power of GNNs, which are more practical and closer to real-world. However, no survey papers and open-source repositories comprehensively summarize and discuss models in this important direction. To fill the gap, we conduct a first survey for models for enhancing expressive power under different forms of definition. Concretely, the models are reviewed based on three categories, i.e., Graph feature enhancement, Graph topology enhancement, and GNNs architecture enhancement.
+
+{{</citation>}}
+
+
+### (14/90) How To Overcome Confirmation Bias in Semi-Supervised Image Classification By Active Learning (Sandra Gilhuber et al., 2023)
+
+{{<citation>}}
+
+Sandra Gilhuber, Rasmus Hvingelby, Mang Ling Ada Fok, Thomas Seidl. (2023)  
+**How To Overcome Confirmation Bias in Semi-Supervised Image Classification By Active Learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CV, cs-LG, cs.LG  
+Keywords: Active Learning, Bias, Image Classification, Semi-Supervised  
+[Paper Link](http://arxiv.org/abs/2308.08224v1)  
+
+---
+
+
+**ABSTRACT**  
+Do we need active learning? The rise of strong deep semi-supervised methods raises doubt about the usability of active learning in limited labeled data settings. This is caused by results showing that combining semi-supervised learning (SSL) methods with a random selection for labeling can outperform existing active learning (AL) techniques. However, these results are obtained from experiments on well-established benchmark datasets that can overestimate the external validity. However, the literature lacks sufficient research on the performance of active semi-supervised learning methods in realistic data scenarios, leaving a notable gap in our understanding. Therefore we present three data challenges common in real-world applications: between-class imbalance, within-class imbalance, and between-class similarity. These challenges can hurt SSL performance due to confirmation bias. We conduct experiments with SSL and AL on simulated data challenges and find that random sampling does not mitigate confirmation bias and, in some cases, leads to worse performance than supervised learning. In contrast, we demonstrate that AL can overcome confirmation bias in SSL in these realistic settings. Our results provide insights into the potential of combining active and semi-supervised learning in the presence of common real-world challenges, which is a promising direction for robust methods when learning with limited labeled data in real-world applications.
+
+{{</citation>}}
+
+
+### (15/90) Expressivity of Graph Neural Networks Through the Lens of Adversarial Robustness (Francesco Campi et al., 2023)
+
+{{<citation>}}
+
+Francesco Campi, Lukas Gosch, Tom Wollschläger, Yan Scholten, Stephan Günnemann. (2023)  
+**Expressivity of Graph Neural Networks Through the Lens of Adversarial Robustness**  
+
+---
+Primary Category: cs.LG  
+Categories: I-2-6, cs-LG, cs.LG  
+Keywords: GNN, Graph Neural Network, Graph Neural Networks  
+[Paper Link](http://arxiv.org/abs/2308.08173v1)  
+
+---
+
+
+**ABSTRACT**  
+We perform the first adversarial robustness study into Graph Neural Networks (GNNs) that are provably more powerful than traditional Message Passing Neural Networks (MPNNs). In particular, we use adversarial robustness as a tool to uncover a significant gap between their theoretically possible and empirically achieved expressive power. To do so, we focus on the ability of GNNs to count specific subgraph patterns, which is an established measure of expressivity, and extend the concept of adversarial robustness to this task. Based on this, we develop efficient adversarial attacks for subgraph counting and show that more powerful GNNs fail to generalize even to small perturbations to the graph's structure. Expanding on this, we show that such architectures also fail to count substructures on out-of-distribution graphs.
+
+{{</citation>}}
+
+
+### (16/90) Hierarchical Topological Ordering with Conditional Independence Test for Limited Time Series (Anpeng Wu et al., 2023)
+
+{{<citation>}}
+
+Anpeng Wu, Haoxuan Li, Kun Kuang, Keli Zhang, Fei Wu. (2023)  
+**Hierarchical Topological Ordering with Conditional Independence Test for Limited Time Series**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG, stat-ME  
+Keywords: Time Series  
+[Paper Link](http://arxiv.org/abs/2308.08148v1)  
+
+---
+
+
+**ABSTRACT**  
+Learning directed acyclic graphs (DAGs) to identify causal relations underlying observational data is crucial but also poses significant challenges. Recently, topology-based methods have emerged as a two-step approach to discovering DAGs by first learning the topological ordering of variables and then eliminating redundant edges, while ensuring that the graph remains acyclic. However, one limitation is that these methods would generate numerous spurious edges that require subsequent pruning. To overcome this limitation, in this paper, we propose an improvement to topology-based methods by introducing limited time series data, consisting of only two cross-sectional records that need not be adjacent in time and are subject to flexible timing. By incorporating conditional instrumental variables as exogenous interventions, we aim to identify descendant nodes for each variable. Following this line, we propose a hierarchical topological ordering algorithm with conditional independence test (HT-CIT), which enables the efficient learning of sparse DAGs with a smaller search space compared to other popular approaches. The HT-CIT algorithm greatly reduces the number of edges that need to be pruned. Empirical results from synthetic and real-world datasets demonstrate the superiority of the proposed HT-CIT algorithm.
+
+{{</citation>}}
+
+
+### (17/90) Is Self-Supervised Pretraining Good for Extrapolation in Molecular Property Prediction? (Shun Takashige et al., 2023)
+
+{{<citation>}}
+
+Shun Takashige, Masatoshi Hanai, Toyotaro Suzumura, Limin Wang, Kenjiro Taura. (2023)  
+**Is Self-Supervised Pretraining Good for Extrapolation in Molecular Property Prediction?**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG, q-bio-QM  
+Keywords: Self-Supervised  
+[Paper Link](http://arxiv.org/abs/2308.08129v1)  
+
+---
+
+
+**ABSTRACT**  
+The prediction of material properties plays a crucial role in the development and discovery of materials in diverse applications, such as batteries, semiconductors, catalysts, and pharmaceuticals. Recently, there has been a growing interest in employing data-driven approaches by using machine learning technologies, in combination with conventional theoretical calculations. In material science, the prediction of unobserved values, commonly referred to as extrapolation, is particularly critical for property prediction as it enables researchers to gain insight into materials beyond the limits of available data. However, even with the recent advancements in powerful machine learning models, accurate extrapolation is still widely recognized as a significantly challenging problem. On the other hand, self-supervised pretraining is a machine learning technique where a model is first trained on unlabeled data using relatively simple pretext tasks before being trained on labeled data for target tasks. As self-supervised pretraining can effectively utilize material data without observed property values, it has the potential to improve the model's extrapolation ability. In this paper, we clarify how such self-supervised pretraining can enhance extrapolation performance.We propose an experimental framework for the demonstration and empirically reveal that while models were unable to accurately extrapolate absolute property values, self-supervised pretraining enables them to learn relative tendencies of unobserved property values and improve extrapolation performance.
+
+{{</citation>}}
+
+
+### (18/90) How to Mask in Error Correction Code Transformer: Systematic and Double Masking (Seong-Joon Park et al., 2023)
+
+{{<citation>}}
+
+Seong-Joon Park, Hee-Youl Kwak, Sang-Hyo Kim, Sunghwan Kim, Yongjune Kim, Jong-Seon No. (2023)  
+**How to Mask in Error Correction Code Transformer: Systematic and Double Masking**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-IT, cs-LG, cs.LG, math-IT  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2308.08128v1)  
+
+---
+
+
+**ABSTRACT**  
+In communication and storage systems, error correction codes (ECCs) are pivotal in ensuring data reliability. As deep learning's applicability has broadened across diverse domains, there is a growing research focus on neural network-based decoders that outperform traditional decoding algorithms. Among these neural decoders, Error Correction Code Transformer (ECCT) has achieved the state-of-the-art performance, outperforming other methods by large margins. To further enhance the performance of ECCT, we propose two novel methods. First, leveraging the systematic encoding technique of ECCs, we introduce a new masking matrix for ECCT, aiming to improve the performance and reduce the computational complexity. Second, we propose a novel transformer architecture of ECCT called a double-masked ECCT. This architecture employs two different mask matrices in a parallel manner to learn more diverse features of the relationship between codeword bits in the masked self-attention blocks. Extensive simulation results show that the proposed double-masked ECCT outperforms the conventional ECCT, achieving the state-of-the-art decoding performance with significant margins.
+
+{{</citation>}}
+
+
+### (19/90) S-Mixup: Structural Mixup for Graph Neural Networks (Junghurn Kim et al., 2023)
+
+{{<citation>}}
+
+Junghurn Kim, Sukwon Yun, Chanyoung Park. (2023)  
+**S-Mixup: Structural Mixup for Graph Neural Networks**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: GNN, Graph Neural Network, Graph Neural Networks  
+[Paper Link](http://arxiv.org/abs/2308.08097v1)  
+
+---
+
+
+**ABSTRACT**  
+Existing studies for applying the mixup technique on graphs mainly focus on graph classification tasks, while the research in node classification is still under-explored. In this paper, we propose a novel mixup augmentation for node classification called Structural Mixup (S-Mixup). The core idea is to take into account the structural information while mixing nodes. Specifically, S-Mixup obtains pseudo-labels for unlabeled nodes in a graph along with their prediction confidence via a Graph Neural Network (GNN) classifier. These serve as the criteria for the composition of the mixup pool for both inter and intra-class mixups. Furthermore, we utilize the edge gradient obtained from the GNN training and propose a gradient-based edge selection strategy for selecting edges to be attached to the nodes generated by the mixup. Through extensive experiments on real-world benchmark datasets, we demonstrate the effectiveness of S-Mixup evaluated on the node classification task. We observe that S-Mixup enhances the robustness and generalization performance of GNNs, especially in heterophilous situations. The source code of S-Mixup can be found at \url{https://github.com/SukwonYun/S-Mixup}
+
+{{</citation>}}
+
+
 ## cs.CV (23)
 
 
 
-### (1/89) Improving Anomaly Segmentation with Multi-Granularity Cross-Domain Alignment (Ji Zhang et al., 2023)
+### (20/90) Improving Anomaly Segmentation with Multi-Granularity Cross-Domain Alignment (Ji Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -68,7 +490,7 @@ Anomaly segmentation plays a crucial role in identifying anomalous objects withi
 {{</citation>}}
 
 
-### (2/89) SkinDistilViT: Lightweight Vision Transformer for Skin Lesion Classification (Vlad-Constantin Lungu-Stan et al., 2023)
+### (21/90) SkinDistilViT: Lightweight Vision Transformer for Skin Lesion Classification (Vlad-Constantin Lungu-Stan et al., 2023)
 
 {{<citation>}}
 
@@ -90,7 +512,7 @@ Skin cancer is a treatable disease if discovered early. We provide a production-
 {{</citation>}}
 
 
-### (3/89) Flickr Africa: Examining Geo-Diversity in Large-Scale, Human-Centric Visual Data (Keziah Naggita et al., 2023)
+### (22/90) Flickr Africa: Examining Geo-Diversity in Large-Scale, Human-Centric Visual Data (Keziah Naggita et al., 2023)
 
 {{<citation>}}
 
@@ -112,7 +534,7 @@ Biases in large-scale image datasets are known to influence the performance of c
 {{</citation>}}
 
 
-### (4/89) TeCH: Text-guided Reconstruction of Lifelike Clothed Humans (Yangyi Huang et al., 2023)
+### (23/90) TeCH: Text-guided Reconstruction of Lifelike Clothed Humans (Yangyi Huang et al., 2023)
 
 {{<citation>}}
 
@@ -123,18 +545,18 @@ Yangyi Huang, Hongwei Yi, Yuliang Xiu, Tingting Liao, Jiaxiang Tang, Deng Cai, J
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-GR, cs.CV  
 Keywords: QA, Question Answering  
-[Paper Link](http://arxiv.org/abs/2308.08545v1)  
+[Paper Link](http://arxiv.org/abs/2308.08545v2)  
 
 ---
 
 
 **ABSTRACT**  
-Despite recent research advancements in reconstructing clothed humans from a single image, accurately restoring the "unseen regions" with high-level details remains an unsolved challenge that lacks attention. Existing methods often generate overly smooth back-side surfaces with a blurry texture. But how to effectively capture all visual attributes of an individual from a single image, which are sufficient to reconstruct unseen areas (e.g., the back view)? Motivated by the power of foundation models, TeCH reconstructs the 3D human by leveraging 1) descriptive text prompts (e.g., garments, colors, hairstyles) which are automatically generated via a garment parsing model and Visual Question Answering (VQA), 2) a personalized fine-tuned Text-to-Image diffusion model (T2I) which learns the "indescribable" appearance. To represent high-resolution 3D clothed humans at an affordable cost, we propose a hybrid 3D representation based on DMTet, which consists of an explicit body shape grid and an implicit distance field. Guided by the descriptive prompts + personalized T2I diffusion model, the geometry and texture of the 3D humans are optimized through multi-view Score Distillation Sampling (SDS) and reconstruction losses based on the original observation. TeCH produces high-fidelity 3D clothed humans with consistent & delicate texture, and detailed full-body geometry. Quantitative and qualitative experiments demonstrate that TeCH outperforms the state-of-the-art methods in terms of reconstruction accuracy and rendering quality. The code will be publicly available for research purposes at https://huangyangyi.github.io/tech
+Despite recent research advancements in reconstructing clothed humans from a single image, accurately restoring the "unseen regions" with high-level details remains an unsolved challenge that lacks attention. Existing methods often generate overly smooth back-side surfaces with a blurry texture. But how to effectively capture all visual attributes of an individual from a single image, which are sufficient to reconstruct unseen areas (e.g., the back view)? Motivated by the power of foundation models, TeCH reconstructs the 3D human by leveraging 1) descriptive text prompts (e.g., garments, colors, hairstyles) which are automatically generated via a garment parsing model and Visual Question Answering (VQA), 2) a personalized fine-tuned Text-to-Image diffusion model (T2I) which learns the "indescribable" appearance. To represent high-resolution 3D clothed humans at an affordable cost, we propose a hybrid 3D representation based on DMTet, which consists of an explicit body shape grid and an implicit distance field. Guided by the descriptive prompts + personalized T2I diffusion model, the geometry and texture of the 3D humans are optimized through multi-view Score Distillation Sampling (SDS) and reconstruction losses based on the original observation. TeCH produces high-fidelity 3D clothed humans with consistent & delicate texture, and detailed full-body geometry. Quantitative and qualitative experiments demonstrate that TeCH outperforms the state-of-the-art methods in terms of reconstruction accuracy and rendering quality. The code will be publicly available for research purposes at https://huangyangyi.github.io/TeCH
 
 {{</citation>}}
 
 
-### (5/89) Painter: Teaching Auto-regressive Language Models to Draw Sketches (Reza Pourreza et al., 2023)
+### (24/90) Painter: Teaching Auto-regressive Language Models to Draw Sketches (Reza Pourreza et al., 2023)
 
 {{<citation>}}
 
@@ -156,7 +578,7 @@ Large language models (LLMs) have made tremendous progress in natural language u
 {{</citation>}}
 
 
-### (6/89) Exploiting Point-Wise Attention in 6D Object Pose Estimation Based on Bidirectional Prediction (Yuhao Yang et al., 2023)
+### (25/90) Exploiting Point-Wise Attention in 6D Object Pose Estimation Based on Bidirectional Prediction (Yuhao Yang et al., 2023)
 
 {{<citation>}}
 
@@ -178,7 +600,7 @@ Traditional geometric registration based estimation methods only exploit the CAD
 {{</citation>}}
 
 
-### (7/89) Self-Supervised Online Camera Calibration for Automated Driving and Parking Applications (Ciarán Hogan et al., 2023)
+### (26/90) Self-Supervised Online Camera Calibration for Automated Driving and Parking Applications (Ciarán Hogan et al., 2023)
 
 {{<citation>}}
 
@@ -200,7 +622,7 @@ Camera-based perception systems play a central role in modern autonomous vehicle
 {{</citation>}}
 
 
-### (8/89) Classification Committee for Active Deep Object Detection (Lei Zhao et al., 2023)
+### (27/90) Classification Committee for Active Deep Object Detection (Lei Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -222,7 +644,7 @@ In object detection, the cost of labeling is much high because it needs not only
 {{</citation>}}
 
 
-### (9/89) Integrating Visual and Semantic Similarity Using Hierarchies for Image Retrieval (Aishwarya Venkataramanan et al., 2023)
+### (28/90) Integrating Visual and Semantic Similarity Using Hierarchies for Image Retrieval (Aishwarya Venkataramanan et al., 2023)
 
 {{<citation>}}
 
@@ -244,7 +666,7 @@ Most of the research in content-based image retrieval (CBIR) focus on developing
 {{</citation>}}
 
 
-### (10/89) Tem-adapter: Adapting Image-Text Pretraining for Video Question Answer (Guangyi Chen et al., 2023)
+### (29/90) Tem-adapter: Adapting Image-Text Pretraining for Video Question Answer (Guangyi Chen et al., 2023)
 
 {{<citation>}}
 
@@ -266,7 +688,7 @@ Video-language pre-trained models have shown remarkable success in guiding video
 {{</citation>}}
 
 
-### (11/89) Agglomerative Transformer for Human-Object Interaction Detection (Danyang Tu et al., 2023)
+### (30/90) Agglomerative Transformer for Human-Object Interaction Detection (Danyang Tu et al., 2023)
 
 {{<citation>}}
 
@@ -288,7 +710,7 @@ We propose an agglomerative Transformer (AGER) that enables Transformer-based hu
 {{</citation>}}
 
 
-### (12/89) KernelWarehouse: Towards Parameter-Efficient Dynamic Convolution (Chao Li et al., 2023)
+### (31/90) KernelWarehouse: Towards Parameter-Efficient Dynamic Convolution (Chao Li et al., 2023)
 
 {{<citation>}}
 
@@ -310,7 +732,7 @@ Dynamic convolution learns a linear mixture of $n$ static kernels weighted with 
 {{</citation>}}
 
 
-### (13/89) Improving Depth Gradient Continuity in Transformers: A Comparative Study on Monocular Depth Estimation with CNN (Jiawei Yao et al., 2023)
+### (32/90) Improving Depth Gradient Continuity in Transformers: A Comparative Study on Monocular Depth Estimation with CNN (Jiawei Yao et al., 2023)
 
 {{<citation>}}
 
@@ -332,7 +754,7 @@ Monocular depth estimation is an ongoing challenge in computer vision. Recent pr
 {{</citation>}}
 
 
-### (14/89) Visually-Aware Context Modeling for News Image Captioning (Tingyu Qu et al., 2023)
+### (33/90) Visually-Aware Context Modeling for News Image Captioning (Tingyu Qu et al., 2023)
 
 {{<citation>}}
 
@@ -354,7 +776,7 @@ The goal of News Image Captioning is to generate an image caption according to t
 {{</citation>}}
 
 
-### (15/89) Leveraging Next-Active Objects for Context-Aware Anticipation in Egocentric Videos (Sanket Thakur et al., 2023)
+### (34/90) Leveraging Next-Active Objects for Context-Aware Anticipation in Egocentric Videos (Sanket Thakur et al., 2023)
 
 {{<citation>}}
 
@@ -376,7 +798,7 @@ Objects are crucial for understanding human-object interactions. By identifying 
 {{</citation>}}
 
 
-### (16/89) Computer vision-enriched discrete choice models, with an application to residential location choice (Sander van Cranenburgh et al., 2023)
+### (35/90) Computer vision-enriched discrete choice models, with an application to residential location choice (Sander van Cranenburgh et al., 2023)
 
 {{<citation>}}
 
@@ -398,18 +820,18 @@ Visual imagery is indispensable to many multi-attribute decision situations. Exa
 {{</citation>}}
 
 
-### (17/89) Contrastive Learning for Lane Detection via cross-similarity (Ali Zoljodi et al., 2023)
+### (36/90) Contrastive Learning for Lane Detection via Cross-Similarity (Ali Zoljodi et al., 2023)
 
 {{<citation>}}
 
 Ali Zoljodi, Sadegh Abadijou, Mina Alibeigi, Masoud Daneshtalab. (2023)  
-**Contrastive Learning for Lane Detection via cross-similarity**  
+**Contrastive Learning for Lane Detection via Cross-Similarity**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Contrastive Learning  
-[Paper Link](http://arxiv.org/abs/2308.08242v1)  
+[Paper Link](http://arxiv.org/abs/2308.08242v2)  
 
 ---
 
@@ -420,7 +842,7 @@ Detecting road lanes is challenging due to intricate markings vulnerable to unfa
 {{</citation>}}
 
 
-### (18/89) Low-Light Image Enhancement with Illumination-Aware Gamma Correction and Complete Image Modelling Network (Yinglong Wang et al., 2023)
+### (37/90) Low-Light Image Enhancement with Illumination-Aware Gamma Correction and Complete Image Modelling Network (Yinglong Wang et al., 2023)
 
 {{<citation>}}
 
@@ -442,7 +864,7 @@ This paper presents a novel network structure with illumination-aware gamma corr
 {{</citation>}}
 
 
-### (19/89) MEDOE: A Multi-Expert Decoder and Output Ensemble Framework for Long-tailed Semantic Segmentation (Junao Shen et al., 2023)
+### (38/90) MEDOE: A Multi-Expert Decoder and Output Ensemble Framework for Long-tailed Semantic Segmentation (Junao Shen et al., 2023)
 
 {{<citation>}}
 
@@ -464,7 +886,7 @@ Long-tailed distribution of semantic categories, which has been often ignored in
 {{</citation>}}
 
 
-### (20/89) S2R: Exploring a Double-Win Transformer-Based Framework for Ideal and Blind Super-Resolution (Minghao She et al., 2023)
+### (39/90) S2R: Exploring a Double-Win Transformer-Based Framework for Ideal and Blind Super-Resolution (Minghao She et al., 2023)
 
 {{<citation>}}
 
@@ -486,7 +908,7 @@ Nowadays, deep learning based methods have demonstrated impressive performance o
 {{</citation>}}
 
 
-### (21/89) GPA-3D: Geometry-aware Prototype Alignment for Unsupervised Domain Adaptive 3D Object Detection from Point Clouds (Ziyu Li et al., 2023)
+### (40/90) GPA-3D: Geometry-aware Prototype Alignment for Unsupervised Domain Adaptive 3D Object Detection from Point Clouds (Ziyu Li et al., 2023)
 
 {{<citation>}}
 
@@ -508,7 +930,7 @@ LiDAR-based 3D detection has made great progress in recent years. However, the p
 {{</citation>}}
 
 
-### (22/89) SYENet: A Simple Yet Effective Network for Multiple Low-Level Vision Tasks with Real-time Performance on Mobile Device (Weiran Gou et al., 2023)
+### (41/90) SYENet: A Simple Yet Effective Network for Multiple Low-Level Vision Tasks with Real-time Performance on Mobile Device (Weiran Gou et al., 2023)
 
 {{<citation>}}
 
@@ -530,7 +952,7 @@ With the rapid development of AI hardware accelerators, applying deep learning-b
 {{</citation>}}
 
 
-### (23/89) Pro-Cap: Leveraging a Frozen Vision-Language Model for Hateful Meme Detection (Rui Cao et al., 2023)
+### (42/90) Pro-Cap: Leveraging a Frozen Vision-Language Model for Hateful Meme Detection (Rui Cao et al., 2023)
 
 {{<citation>}}
 
@@ -556,7 +978,7 @@ Hateful meme detection is a challenging multimodal task that requires comprehens
 
 
 
-### (24/89) Improved Approximation Algorithms for Steiner Connectivity Augmentation Problems (Daniel Hathcock et al., 2023)
+### (43/90) Improved Approximation Algorithms for Steiner Connectivity Augmentation Problems (Daniel Hathcock et al., 2023)
 
 {{<citation>}}
 
@@ -582,7 +1004,7 @@ The Weighted Connectivity Augmentation Problem is the problem of augmenting the 
 
 
 
-### (25/89) Lightweight Adaptation of Neural Language Models via Subspace Embedding (Amit Kumar Jaiswal et al., 2023)
+### (44/90) Lightweight Adaptation of Neural Language Models via Subspace Embedding (Amit Kumar Jaiswal et al., 2023)
 
 {{<citation>}}
 
@@ -604,7 +1026,7 @@ Traditional neural word embeddings are usually dependent on a richer diversity o
 {{</citation>}}
 
 
-### (26/89) Answering Ambiguous Questions with a Database of Questions, Answers, and Revisions (Haitian Sun et al., 2023)
+### (45/90) Answering Ambiguous Questions with a Database of Questions, Answers, and Revisions (Haitian Sun et al., 2023)
 
 {{<citation>}}
 
@@ -626,7 +1048,7 @@ Many open-domain questions are under-specified and thus have multiple possible a
 {{</citation>}}
 
 
-### (27/89) Large Language Models for Granularized Barrett's Esophagus Diagnosis Classification (Jenna Kefeli et al., 2023)
+### (46/90) Large Language Models for Granularized Barrett's Esophagus Diagnosis Classification (Jenna Kefeli et al., 2023)
 
 {{<citation>}}
 
@@ -648,7 +1070,7 @@ Diagnostic codes for Barrett's esophagus (BE), a precursor to esophageal cancer,
 {{</citation>}}
 
 
-### (28/89) BIOptimus: Pre-training an Optimal Biomedical Language Model with Curriculum Learning for Named Entity Recognition (Pavlova Vera et al., 2023)
+### (47/90) BIOptimus: Pre-training an Optimal Biomedical Language Model with Curriculum Learning for Named Entity Recognition (Pavlova Vera et al., 2023)
 
 {{<citation>}}
 
@@ -670,7 +1092,7 @@ Using language models (LMs) pre-trained in a self-supervised setting on large co
 {{</citation>}}
 
 
-### (29/89) FootGPT : A Large Language Model Development Experiment on a Minimal Setting (Eren Unlu, 2023)
+### (48/90) FootGPT : A Large Language Model Development Experiment on a Minimal Setting (Eren Unlu, 2023)
 
 {{<citation>}}
 
@@ -692,7 +1114,7 @@ With recent empirical observations, it has been argued that the most significant
 {{</citation>}}
 
 
-### (30/89) Time Travel in LLMs: Tracing Data Contamination in Large Language Models (Shahriar Golchin et al., 2023)
+### (49/90) Time Travel in LLMs: Tracing Data Contamination in Large Language Models (Shahriar Golchin et al., 2023)
 
 {{<citation>}}
 
@@ -714,7 +1136,7 @@ Data contamination, i.e., the presence of test data from downstream tasks in the
 {{</citation>}}
 
 
-### (31/89) Mitigating the Exposure Bias in Sentence-Level Grapheme-to-Phoneme (G2P) Transduction (Eunseop Yoon et al., 2023)
+### (50/90) Mitigating the Exposure Bias in Sentence-Level Grapheme-to-Phoneme (G2P) Transduction (Eunseop Yoon et al., 2023)
 
 {{<citation>}}
 
@@ -736,7 +1158,7 @@ Text-to-Text Transfer Transformer (T5) has recently been considered for the Grap
 {{</citation>}}
 
 
-### (32/89) SummHelper: Collaborative Human-Computer Summarization (Aviv Slobodkin et al., 2023)
+### (51/90) SummHelper: Collaborative Human-Computer Summarization (Aviv Slobodkin et al., 2023)
 
 {{<citation>}}
 
@@ -758,7 +1180,7 @@ Current approaches for text summarization are predominantly automatic, with rath
 {{</citation>}}
 
 
-### (33/89) Detoxify Language Model Step-by-Step (Zecheng Tang et al., 2023)
+### (52/90) Detoxify Language Model Step-by-Step (Zecheng Tang et al., 2023)
 
 {{<citation>}}
 
@@ -780,7 +1202,7 @@ Detoxification for LLMs is challenging since it requires models to avoid generat
 {{</citation>}}
 
 
-### (34/89) TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series (Chenxi Sun et al., 2023)
+### (53/90) TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series (Chenxi Sun et al., 2023)
 
 {{<citation>}}
 
@@ -802,7 +1224,7 @@ This work summarizes two strategies for completing time-series (TS) tasks using 
 {{</citation>}}
 
 
-### (35/89) Challenges and Opportunities of Using Transformer-Based Multi-Task Learning in NLP Through ML Lifecycle: A Survey (Lovre Torbarina et al., 2023)
+### (54/90) Challenges and Opportunities of Using Transformer-Based Multi-Task Learning in NLP Through ML Lifecycle: A Survey (Lovre Torbarina et al., 2023)
 
 {{<citation>}}
 
@@ -824,7 +1246,7 @@ The increasing adoption of natural language processing (NLP) models across indus
 {{</citation>}}
 
 
-### (36/89) MoCoSA: Momentum Contrast for Knowledge Graph Completion with Structure-Augmented Pre-trained Language Models (Jiabang He et al., 2023)
+### (55/90) MoCoSA: Momentum Contrast for Knowledge Graph Completion with Structure-Augmented Pre-trained Language Models (Jiabang He et al., 2023)
 
 {{<citation>}}
 
@@ -846,7 +1268,7 @@ Knowledge Graph Completion (KGC) aims to conduct reasoning on the facts within k
 {{</citation>}}
 
 
-### (37/89) Enhancing Performance on Seen and Unseen Dialogue Scenarios using Retrieval-Augmented End-to-End Task-Oriented System (Jianguo Zhang et al., 2023)
+### (56/90) Enhancing Performance on Seen and Unseen Dialogue Scenarios using Retrieval-Augmented End-to-End Task-Oriented System (Jianguo Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -868,7 +1290,7 @@ End-to-end task-oriented dialogue (TOD) systems have achieved promising performa
 {{</citation>}}
 
 
-### (38/89) Sarcasm Detection in a Disaster Context (Tiberiu Sosea et al., 2023)
+### (57/90) Sarcasm Detection in a Disaster Context (Tiberiu Sosea et al., 2023)
 
 {{<citation>}}
 
@@ -890,7 +1312,7 @@ During natural disasters, people often use social media platforms such as Twitte
 {{</citation>}}
 
 
-### (39/89) Fast Training of NMT Model with Data Sorting (Daniela N. Rim et al., 2023)
+### (58/90) Fast Training of NMT Model with Data Sorting (Daniela N. Rim et al., 2023)
 
 {{<citation>}}
 
@@ -912,7 +1334,7 @@ The Transformer model has revolutionized Natural Language Processing tasks such 
 {{</citation>}}
 
 
-### (40/89) MDDial: A Multi-turn Differential Diagnosis Dialogue Dataset with Reliability Evaluation (Srija Macherla et al., 2023)
+### (59/90) MDDial: A Multi-turn Differential Diagnosis Dialogue Dataset with Reliability Evaluation (Srija Macherla et al., 2023)
 
 {{<citation>}}
 
@@ -938,7 +1360,7 @@ Dialogue systems for Automatic Differential Diagnosis (ADD) have a wide range of
 
 
 
-### (41/89) Freedom of Speech and AI Output (Eugene Volokh et al., 2023)
+### (60/90) Freedom of Speech and AI Output (Eugene Volokh et al., 2023)
 
 {{<citation>}}
 
@@ -960,7 +1382,7 @@ Is the output of generative AI entitled to First Amendment protection? We're inc
 {{</citation>}}
 
 
-### (42/89) Expert opinions on making GDPR usable (Johanna Johansen, 2023)
+### (61/90) Expert opinions on making GDPR usable (Johanna Johansen, 2023)
 
 {{<citation>}}
 
@@ -982,411 +1404,11 @@ We present the results of a study done in order to validate concepts and methods
 {{</citation>}}
 
 
-## cs.LG (18)
-
-
-
-### (43/89) Reproducing Kernel Hilbert Space Pruning for Sparse Hyperspectral Abundance Prediction (Michael G. Rawson et al., 2023)
-
-{{<citation>}}
-
-Michael G. Rawson, Timothy Doster, Tegan Emerson. (2023)  
-**Reproducing Kernel Hilbert Space Pruning for Sparse Hyperspectral Abundance Prediction**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG, eess-SP  
-Keywords: Pruning  
-[Paper Link](http://arxiv.org/abs/2308.08653v1)  
-
----
-
-
-**ABSTRACT**  
-Hyperspectral measurements from long range sensors can give a detailed picture of the items, materials, and chemicals in a scene but analysis can be difficult, slow, and expensive due to high spatial and spectral resolutions of state-of-the-art sensors. As such, sparsity is important to enable the future of spectral compression and analytics. It has been observed that environmental and atmospheric effects, including scattering, can produce nonlinear effects posing challenges for existing source separation and compression methods. We present a novel transformation into Hilbert spaces for pruning and constructing sparse representations via non-negative least squares minimization. Then we introduce max likelihood compression vectors to decrease information loss. Our approach is benchmarked against standard pruning and least squares as well as deep learning methods. Our methods are evaluated in terms of overall spectral reconstruction error and compression rate using real and synthetic data. We find that pruning least squares methods converge quickly unlike matching pursuit methods. We find that Hilbert space pruning can reduce error by as much as 40% of the error of standard pruning and also outperform neural network autoencoders.
-
-{{</citation>}}
-
-
-### (44/89) LSTM-Based Forecasting Model for GRACE Accelerometer Data (Neda Darbeheshti et al., 2023)
-
-{{<citation>}}
-
-Neda Darbeheshti, Elahe Moradi. (2023)  
-**LSTM-Based Forecasting Model for GRACE Accelerometer Data**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG, physics-space-ph  
-Keywords: LSTM  
-[Paper Link](http://arxiv.org/abs/2308.08621v1)  
-
----
-
-
-**ABSTRACT**  
-The Gravity Recovery and Climate Experiment (GRACE) satellite mission, spanning from 2002 to 2017, has provided a valuable dataset for monitoring variations in Earth's gravity field, enabling diverse applications in geophysics and hydrology. The mission was followed by GRACE Follow-On in 2018, continuing data collection efforts. The monthly Earth gravity field, derived from the integration different instruments onboard satellites, has shown inconsistencies due to various factors, including gaps in observations for certain instruments since the beginning of the GRACE mission.   With over two decades of GRACE and GRACE Follow-On data now available, this paper proposes an approach to fill the data gaps and forecast GRACE accelerometer data. Specifically, we focus on accelerometer data and employ Long Short-Term Memory (LSTM) networks to train a model capable of predicting accelerometer data for all three axes.   In this study, we describe the methodology used to preprocess the accelerometer data, prepare it for LSTM training, and evaluate the model's performance. Through experimentation and validation, we assess the model's accuracy and its ability to predict accelerometer data for the three axes. Our results demonstrate the effectiveness of the LSTM forecasting model in filling gaps and forecasting GRACE accelerometer data.
-
-{{</citation>}}
-
-
-### (45/89) Boosting Logical Reasoning in Large Language Models through a New Framework: The Graph of Thought (Bin Lei et al., 2023)
-
-{{<citation>}}
-
-Bin Lei, pei-Hung Lin, Chunhua Liao, Caiwen Ding. (2023)  
-**Boosting Logical Reasoning in Large Language Models through a New Framework: The Graph of Thought**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-CL, cs-LG, cs.LG  
-Keywords: GPT, GPT-4, Language Model, Reasoning  
-[Paper Link](http://arxiv.org/abs/2308.08614v1)  
-
----
-
-
-**ABSTRACT**  
-Recent advancements in large-scale models, such as GPT-4, have showcased remarkable capabilities in addressing standard queries. However, when facing complex problems that require multi-step logical reasoning, their accuracy dramatically decreases. Current research has explored the realm of \textit{prompting engineering} to bolster the inferential capacities of these models. Our paper unveils a pioneering prompting technique, dubbed \textit{Graph of Thoughts (GoT)}. Through testing on a trio of escalating challenges: the 24-point game, resolution of high-degree polynomial equations, and derivation of formulas for recursive sequences, our method outperformed GPT-4, achieving accuracy improvements of $89.7\%$, $86\%$, and $56\%$ for each respective task. Moreover, when juxtaposed with the state-of-the-art (SOTA) prompting method, \textit{Tree of Thought (ToT)}, our approach registered an average accuracy boost of $23\%$, $24\%$, and $15\%$.
-
-{{</citation>}}
-
-
-### (46/89) Label Propagation Techniques for Artifact Detection in Imbalanced Classes using Photoplethysmogram Signals (Clara Macabiau et al., 2023)
-
-{{<citation>}}
-
-Clara Macabiau, Thanh-Dung Le, Kevin Albert, Philippe Jouvet, Rita Noumeir. (2023)  
-**Label Propagation Techniques for Artifact Detection in Imbalanced Classes using Photoplethysmogram Signals**  
-
----
-Primary Category: cs.LG  
-Categories: 68T02, cs-LG, cs.LG, eess-SP  
-Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2308.08480v1)  
-
----
-
-
-**ABSTRACT**  
-Photoplethysmogram (PPG) signals are widely used in healthcare for monitoring vital signs, but they are susceptible to motion artifacts that can lead to inaccurate interpretations. In this study, the use of label propagation techniques to propagate labels among PPG samples is explored, particularly in imbalanced class scenarios where clean PPG samples are significantly outnumbered by artifact-contaminated samples. With a precision of 91%, a recall of 90% and an F1 score of 90% for the class without artifacts, the results demonstrate its effectiveness in labeling a medical dataset, even when clean samples are rare. For the classification of artifacts our study compares supervised classifiers such as conventional classifiers and neural networks (MLP, Transformers, FCN) with the semi-supervised label propagation algorithm. With a precision of 89%, a recall of 95% and an F1 score of 92%, the KNN supervised model gives good results, but the semi-supervised algorithm performs better in detecting artifacts. The findings suggest that the semi-supervised algorithm label propagation hold promise for artifact detection in PPG signals, which can enhance the reliability of PPG-based health monitoring systems in real-world applications.
-
-{{</citation>}}
-
-
-### (47/89) LLM4TS: Two-Stage Fine-Tuning for Time-Series Forecasting with Pre-Trained LLMs (Ching Chang et al., 2023)
-
-{{<citation>}}
-
-Ching Chang, Wen-Chih Peng, Tien-Fu Chen. (2023)  
-**LLM4TS: Two-Stage Fine-Tuning for Time-Series Forecasting with Pre-Trained LLMs**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
-Keywords: Computer Vision, Language Model, Natural Language Processing  
-[Paper Link](http://arxiv.org/abs/2308.08469v1)  
-
----
-
-
-**ABSTRACT**  
-In this work, we leverage pre-trained Large Language Models (LLMs) to enhance time-series forecasting. Mirroring the growing interest in unifying models for Natural Language Processing and Computer Vision, we envision creating an analogous model for long-term time-series forecasting. Due to limited large-scale time-series data for building robust foundation models, our approach LLM4TS focuses on leveraging the strengths of pre-trained LLMs. By combining time-series patching with temporal encoding, we have enhanced the capability of LLMs to handle time-series data effectively. Inspired by the supervised fine-tuning in chatbot domains, we prioritize a two-stage fine-tuning process: first conducting supervised fine-tuning to orient the LLM towards time-series data, followed by task-specific downstream fine-tuning. Furthermore, to unlock the flexibility of pre-trained LLMs without extensive parameter adjustments, we adopt several Parameter-Efficient Fine-Tuning (PEFT) techniques. Drawing on these innovations, LLM4TS has yielded state-of-the-art results in long-term forecasting. Our model has also shown exceptional capabilities as both a robust representation learner and an effective few-shot learner, thanks to the knowledge transferred from the pre-trained LLM.
-
-{{</citation>}}
-
-
-### (48/89) Explainable AI for clinical risk prediction: a survey of concepts, methods, and modalities (Munib Mesinovic et al., 2023)
-
-{{<citation>}}
-
-Munib Mesinovic, Peter Watkinson, Tingting Zhu. (2023)  
-**Explainable AI for clinical risk prediction: a survey of concepts, methods, and modalities**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-CY, cs-LG, cs.LG  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2308.08407v1)  
-
----
-
-
-**ABSTRACT**  
-Recent advancements in AI applications to healthcare have shown incredible promise in surpassing human performance in diagnosis and disease prognosis. With the increasing complexity of AI models, however, concerns regarding their opacity, potential biases, and the need for interpretability. To ensure trust and reliability in AI systems, especially in clinical risk prediction models, explainability becomes crucial. Explainability is usually referred to as an AI system's ability to provide a robust interpretation of its decision-making logic or the decisions themselves to human stakeholders. In clinical risk prediction, other aspects of explainability like fairness, bias, trust, and transparency also represent important concepts beyond just interpretability. In this review, we address the relationship between these concepts as they are often used together or interchangeably. This review also discusses recent progress in developing explainable models for clinical risk prediction, highlighting the importance of quantitative and clinical evaluation and validation across multiple common modalities in clinical practice. It emphasizes the need for external validation and the combination of diverse interpretability methods to enhance trust and fairness. Adopting rigorous testing, such as using synthetic datasets with known generative factors, can further improve the reliability of explainability methods. Open access and code-sharing resources are essential for transparency and reproducibility, enabling the growth and trustworthiness of explainable research. While challenges exist, an end-to-end approach to explainability in clinical risk prediction, incorporating stakeholders from clinicians to developers, is essential for success.
-
-{{</citation>}}
-
-
-### (49/89) Independent Distribution Regularization for Private Graph Embedding (Qi Hu et al., 2023)
-
-{{<citation>}}
-
-Qi Hu, Yangqiu Song. (2023)  
-**Independent Distribution Regularization for Private Graph Embedding**  
-
----
-Primary Category: cs.LG  
-Categories: cs-CR, cs-LG, cs.LG  
-Keywords: Embedding  
-[Paper Link](http://arxiv.org/abs/2308.08360v1)  
-
----
-
-
-**ABSTRACT**  
-Learning graph embeddings is a crucial task in graph mining tasks. An effective graph embedding model can learn low-dimensional representations from graph-structured data for data publishing benefiting various downstream applications such as node classification, link prediction, etc. However, recent studies have revealed that graph embeddings are susceptible to attribute inference attacks, which allow attackers to infer private node attributes from the learned graph embeddings. To address these concerns, privacy-preserving graph embedding methods have emerged, aiming to simultaneously consider primary learning and privacy protection through adversarial learning. However, most existing methods assume that representation models have access to all sensitive attributes in advance during the training stage, which is not always the case due to diverse privacy preferences. Furthermore, the commonly used adversarial learning technique in privacy-preserving representation learning suffers from unstable training issues. In this paper, we propose a novel approach called Private Variational Graph AutoEncoders (PVGAE) with the aid of independent distribution penalty as a regularization term. Specifically, we split the original variational graph autoencoder (VGAE) to learn sensitive and non-sensitive latent representations using two sets of encoders. Additionally, we introduce a novel regularization to enforce the independence of the encoders. We prove the theoretical effectiveness of regularization from the perspective of mutual information. Experimental results on three real-world datasets demonstrate that PVGAE outperforms other baselines in private embedding learning regarding utility performance and privacy protection.
-
-{{</citation>}}
-
-
-### (50/89) Convergence of Two-Layer Regression with Nonlinear Units (Yichuan Deng et al., 2023)
-
-{{<citation>}}
-
-Yichuan Deng, Zhao Song, Shenghao Xie. (2023)  
-**Convergence of Two-Layer Regression with Nonlinear Units**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG, stat-ML  
-Keywords: Attention, ChatGPT, GPT  
-[Paper Link](http://arxiv.org/abs/2308.08358v1)  
-
----
-
-
-**ABSTRACT**  
-Large language models (LLMs), such as ChatGPT and GPT4, have shown outstanding performance in many human life task. Attention computation plays an important role in training LLMs. Softmax unit and ReLU unit are the key structure in attention computation. Inspired by them, we put forward a softmax ReLU regression problem. Generally speaking, our goal is to find an optimal solution to the regression problem involving the ReLU unit. In this work, we calculate a close form representation for the Hessian of the loss function. Under certain assumptions, we prove the Lipschitz continuous and the PSDness of the Hessian. Then, we introduce an greedy algorithm based on approximate Newton method, which converges in the sense of the distance to optimal solution. Last, We relax the Lipschitz condition and prove the convergence in the sense of loss value.
-
-{{</citation>}}
-
-
-### (51/89) Graph Out-of-Distribution Generalization with Controllable Data Augmentation (Bin Lu et al., 2023)
-
-{{<citation>}}
-
-Bin Lu, Xiaoying Gan, Ze Zhao, Shiyu Liang, Luoyi Fu, Xinbing Wang, Chenghu Zhou. (2023)  
-**Graph Out-of-Distribution Generalization with Controllable Data Augmentation**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs-SI, cs.LG  
-Keywords: Augmentation, GNN, Graph Neural Network  
-[Paper Link](http://arxiv.org/abs/2308.08344v1)  
-
----
-
-
-**ABSTRACT**  
-Graph Neural Network (GNN) has demonstrated extraordinary performance in classifying graph properties. However, due to the selection bias of training and testing data (e.g., training on small graphs and testing on large graphs, or training on dense graphs and testing on sparse graphs), distribution deviation is widespread. More importantly, we often observe \emph{hybrid structure distribution shift} of both scale and density, despite of one-sided biased data partition. The spurious correlations over hybrid distribution deviation degrade the performance of previous GNN methods and show large instability among different datasets. To alleviate this problem, we propose \texttt{OOD-GMixup} to jointly manipulate the training distribution with \emph{controllable data augmentation} in metric space. Specifically, we first extract the graph rationales to eliminate the spurious correlations due to irrelevant information. Secondly, we generate virtual samples with perturbation on graph rationale representation domain to obtain potential OOD training samples. Finally, we propose OOD calibration to measure the distribution deviation of virtual samples by leveraging Extreme Value Theory, and further actively control the training distribution by emphasizing the impact of virtual OOD samples. Extensive studies on several real-world datasets on graph classification demonstrate the superiority of our proposed method over state-of-the-art baselines.
-
-{{</citation>}}
-
-
-### (52/89) Learning Logic Programs by Discovering Higher-Order Abstractions (Céline Hocquette et al., 2023)
-
-{{<citation>}}
-
-Céline Hocquette, Sebastijan Dumančić, Andrew Cropper. (2023)  
-**Learning Logic Programs by Discovering Higher-Order Abstractions**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs-PL, cs.LG  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2308.08334v1)  
-
----
-
-
-**ABSTRACT**  
-Discovering novel abstractions is important for human-level AI. We introduce an approach to discover higher-order abstractions, such as map, filter, and fold. We focus on inductive logic programming, which induces logic programs from examples and background knowledge. We introduce the higher-order refactoring problem, where the goal is to compress a logic program by introducing higher-order abstractions. We implement our approach in STEVIE, which formulates the higher-order refactoring problem as a constraint optimisation problem. Our experimental results on multiple domains, including program synthesis and visual reasoning, show that, compared to no refactoring, STEVIE can improve predictive accuracies by 27% and reduce learning times by 47%. We also show that STEVIE can discover abstractions that transfer to different domains
-
-{{</citation>}}
-
-
-### (53/89) It Ain't That Bad: Understanding the Mysterious Performance Drop in OOD Generalization for Generative Transformer Models (Xingcheng Xu et al., 2023)
-
-{{<citation>}}
-
-Xingcheng Xu, Zihao Pan, Haipeng Zhang, Yanqing Yang. (2023)  
-**It Ain't That Bad: Understanding the Mysterious Performance Drop in OOD Generalization for Generative Transformer Models**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2308.08268v1)  
-
----
-
-
-**ABSTRACT**  
-Generative Transformer-based models have achieved remarkable proficiency on solving diverse problems. However, their generalization ability is not fully understood and not always satisfying. Researchers take basic mathematical tasks like n-digit addition or multiplication as important perspectives for investigating their generalization behaviors. Curiously, it is observed that when training on n-digit operations (e.g., additions) in which both input operands are n-digit in length, models generalize successfully on unseen n-digit inputs (in-distribution (ID) generalization), but fail miserably and mysteriously on longer, unseen cases (out-of-distribution (OOD) generalization). Studies try to bridge this gap with workarounds such as modifying position embedding, fine-tuning, and priming with more extensive or instructive data. However, without addressing the essential mechanism, there is hardly any guarantee regarding the robustness of these solutions. We bring this unexplained performance drop into attention and ask whether it is purely from random errors. Here we turn to the mechanistic line of research which has notable successes in model interpretability. We discover that the strong ID generalization stems from structured representations, while behind the unsatisfying OOD performance, the models still exhibit clear learned algebraic structures. Specifically, these models map unseen OOD inputs to outputs with equivalence relations in the ID domain. These highlight the potential of the models to carry useful information for improved generalization.
-
-{{</citation>}}
-
-
-### (54/89) The Expressive Power of Graph Neural Networks: A Survey (Bingxu Zhang et al., 2023)
-
-{{<citation>}}
-
-Bingxu Zhang, Changjun Fan, Shixuan Liu, Kuihua Huang, Xiang Zhao, Jincai Huang, Zhong Liu. (2023)  
-**The Expressive Power of Graph Neural Networks: A Survey**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs-SI, cs.LG  
-Keywords: GNN, Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2308.08235v1)  
-
----
-
-
-**ABSTRACT**  
-Graph neural networks (GNNs) are effective machine learning models for many graph-related applications. Despite their empirical success, many research efforts focus on the theoretical limitations of GNNs, i.e., the GNNs expressive power. Early works in this domain mainly focus on studying the graph isomorphism recognition ability of GNNs, and recent works try to leverage the properties such as subgraph counting and connectivity learning to characterize the expressive power of GNNs, which are more practical and closer to real-world. However, no survey papers and open-source repositories comprehensively summarize and discuss models in this important direction. To fill the gap, we conduct a first survey for models for enhancing expressive power under different forms of definition. Concretely, the models are reviewed based on three categories, i.e., Graph feature enhancement, Graph topology enhancement, and GNNs architecture enhancement.
-
-{{</citation>}}
-
-
-### (55/89) How To Overcome Confirmation Bias in Semi-Supervised Image Classification By Active Learning (Sandra Gilhuber et al., 2023)
-
-{{<citation>}}
-
-Sandra Gilhuber, Rasmus Hvingelby, Mang Ling Ada Fok, Thomas Seidl. (2023)  
-**How To Overcome Confirmation Bias in Semi-Supervised Image Classification By Active Learning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-CV, cs-LG, cs.LG  
-Keywords: Active Learning, Bias, Image Classification, Semi-Supervised  
-[Paper Link](http://arxiv.org/abs/2308.08224v1)  
-
----
-
-
-**ABSTRACT**  
-Do we need active learning? The rise of strong deep semi-supervised methods raises doubt about the usability of active learning in limited labeled data settings. This is caused by results showing that combining semi-supervised learning (SSL) methods with a random selection for labeling can outperform existing active learning (AL) techniques. However, these results are obtained from experiments on well-established benchmark datasets that can overestimate the external validity. However, the literature lacks sufficient research on the performance of active semi-supervised learning methods in realistic data scenarios, leaving a notable gap in our understanding. Therefore we present three data challenges common in real-world applications: between-class imbalance, within-class imbalance, and between-class similarity. These challenges can hurt SSL performance due to confirmation bias. We conduct experiments with SSL and AL on simulated data challenges and find that random sampling does not mitigate confirmation bias and, in some cases, leads to worse performance than supervised learning. In contrast, we demonstrate that AL can overcome confirmation bias in SSL in these realistic settings. Our results provide insights into the potential of combining active and semi-supervised learning in the presence of common real-world challenges, which is a promising direction for robust methods when learning with limited labeled data in real-world applications.
-
-{{</citation>}}
-
-
-### (56/89) Expressivity of Graph Neural Networks Through the Lens of Adversarial Robustness (Francesco Campi et al., 2023)
-
-{{<citation>}}
-
-Francesco Campi, Lukas Gosch, Tom Wollschläger, Yan Scholten, Stephan Günnemann. (2023)  
-**Expressivity of Graph Neural Networks Through the Lens of Adversarial Robustness**  
-
----
-Primary Category: cs.LG  
-Categories: I-2-6, cs-LG, cs.LG  
-Keywords: GNN, Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2308.08173v1)  
-
----
-
-
-**ABSTRACT**  
-We perform the first adversarial robustness study into Graph Neural Networks (GNNs) that are provably more powerful than traditional Message Passing Neural Networks (MPNNs). In particular, we use adversarial robustness as a tool to uncover a significant gap between their theoretically possible and empirically achieved expressive power. To do so, we focus on the ability of GNNs to count specific subgraph patterns, which is an established measure of expressivity, and extend the concept of adversarial robustness to this task. Based on this, we develop efficient adversarial attacks for subgraph counting and show that more powerful GNNs fail to generalize even to small perturbations to the graph's structure. Expanding on this, we show that such architectures also fail to count substructures on out-of-distribution graphs.
-
-{{</citation>}}
-
-
-### (57/89) Hierarchical Topological Ordering with Conditional Independence Test for Limited Time Series (Anpeng Wu et al., 2023)
-
-{{<citation>}}
-
-Anpeng Wu, Haoxuan Li, Kun Kuang, Keli Zhang, Fei Wu. (2023)  
-**Hierarchical Topological Ordering with Conditional Independence Test for Limited Time Series**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG, stat-ME  
-Keywords: Time Series  
-[Paper Link](http://arxiv.org/abs/2308.08148v1)  
-
----
-
-
-**ABSTRACT**  
-Learning directed acyclic graphs (DAGs) to identify causal relations underlying observational data is crucial but also poses significant challenges. Recently, topology-based methods have emerged as a two-step approach to discovering DAGs by first learning the topological ordering of variables and then eliminating redundant edges, while ensuring that the graph remains acyclic. However, one limitation is that these methods would generate numerous spurious edges that require subsequent pruning. To overcome this limitation, in this paper, we propose an improvement to topology-based methods by introducing limited time series data, consisting of only two cross-sectional records that need not be adjacent in time and are subject to flexible timing. By incorporating conditional instrumental variables as exogenous interventions, we aim to identify descendant nodes for each variable. Following this line, we propose a hierarchical topological ordering algorithm with conditional independence test (HT-CIT), which enables the efficient learning of sparse DAGs with a smaller search space compared to other popular approaches. The HT-CIT algorithm greatly reduces the number of edges that need to be pruned. Empirical results from synthetic and real-world datasets demonstrate the superiority of the proposed HT-CIT algorithm.
-
-{{</citation>}}
-
-
-### (58/89) Is Self-Supervised Pretraining Good for Extrapolation in Molecular Property Prediction? (Shun Takashige et al., 2023)
-
-{{<citation>}}
-
-Shun Takashige, Masatoshi Hanai, Toyotaro Suzumura, Limin Wang, Kenjiro Taura. (2023)  
-**Is Self-Supervised Pretraining Good for Extrapolation in Molecular Property Prediction?**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG, q-bio-QM  
-Keywords: Self-Supervised  
-[Paper Link](http://arxiv.org/abs/2308.08129v1)  
-
----
-
-
-**ABSTRACT**  
-The prediction of material properties plays a crucial role in the development and discovery of materials in diverse applications, such as batteries, semiconductors, catalysts, and pharmaceuticals. Recently, there has been a growing interest in employing data-driven approaches by using machine learning technologies, in combination with conventional theoretical calculations. In material science, the prediction of unobserved values, commonly referred to as extrapolation, is particularly critical for property prediction as it enables researchers to gain insight into materials beyond the limits of available data. However, even with the recent advancements in powerful machine learning models, accurate extrapolation is still widely recognized as a significantly challenging problem. On the other hand, self-supervised pretraining is a machine learning technique where a model is first trained on unlabeled data using relatively simple pretext tasks before being trained on labeled data for target tasks. As self-supervised pretraining can effectively utilize material data without observed property values, it has the potential to improve the model's extrapolation ability. In this paper, we clarify how such self-supervised pretraining can enhance extrapolation performance.We propose an experimental framework for the demonstration and empirically reveal that while models were unable to accurately extrapolate absolute property values, self-supervised pretraining enables them to learn relative tendencies of unobserved property values and improve extrapolation performance.
-
-{{</citation>}}
-
-
-### (59/89) How to Mask in Error Correction Code Transformer: Systematic and Double Masking (Seong-Joon Park et al., 2023)
-
-{{<citation>}}
-
-Seong-Joon Park, Hee-Youl Kwak, Sang-Hyo Kim, Sunghwan Kim, Yongjune Kim, Jong-Seon No. (2023)  
-**How to Mask in Error Correction Code Transformer: Systematic and Double Masking**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-IT, cs-LG, cs.LG, math-IT  
-Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2308.08128v1)  
-
----
-
-
-**ABSTRACT**  
-In communication and storage systems, error correction codes (ECCs) are pivotal in ensuring data reliability. As deep learning's applicability has broadened across diverse domains, there is a growing research focus on neural network-based decoders that outperform traditional decoding algorithms. Among these neural decoders, Error Correction Code Transformer (ECCT) has achieved the state-of-the-art performance, outperforming other methods by large margins. To further enhance the performance of ECCT, we propose two novel methods. First, leveraging the systematic encoding technique of ECCs, we introduce a new masking matrix for ECCT, aiming to improve the performance and reduce the computational complexity. Second, we propose a novel transformer architecture of ECCT called a double-masked ECCT. This architecture employs two different mask matrices in a parallel manner to learn more diverse features of the relationship between codeword bits in the masked self-attention blocks. Extensive simulation results show that the proposed double-masked ECCT outperforms the conventional ECCT, achieving the state-of-the-art decoding performance with significant margins.
-
-{{</citation>}}
-
-
-### (60/89) S-Mixup: Structural Mixup for Graph Neural Networks (Junghurn Kim et al., 2023)
-
-{{<citation>}}
-
-Junghurn Kim, Sukwon Yun, Chanyoung Park. (2023)  
-**S-Mixup: Structural Mixup for Graph Neural Networks**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keywords: GNN, Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2308.08097v1)  
-
----
-
-
-**ABSTRACT**  
-Existing studies for applying the mixup technique on graphs mainly focus on graph classification tasks, while the research in node classification is still under-explored. In this paper, we propose a novel mixup augmentation for node classification called Structural Mixup (S-Mixup). The core idea is to take into account the structural information while mixing nodes. Specifically, S-Mixup obtains pseudo-labels for unlabeled nodes in a graph along with their prediction confidence via a Graph Neural Network (GNN) classifier. These serve as the criteria for the composition of the mixup pool for both inter and intra-class mixups. Furthermore, we utilize the edge gradient obtained from the GNN training and propose a gradient-based edge selection strategy for selecting edges to be attached to the nodes generated by the mixup. Through extensive experiments on real-world benchmark datasets, we demonstrate the effectiveness of S-Mixup evaluated on the node classification task. We observe that S-Mixup enhances the robustness and generalization performance of GNNs, especially in heterophilous situations. The source code of S-Mixup can be found at \url{https://github.com/SukwonYun/S-Mixup}
-
-{{</citation>}}
-
-
 ## cs.IR (5)
 
 
 
-### (61/89) Group Identification via Transitional Hypergraph Convolution with Cross-view Self-supervised Learning (Mingdai Yang et al., 2023)
+### (62/90) Group Identification via Transitional Hypergraph Convolution with Cross-view Self-supervised Learning (Mingdai Yang et al., 2023)
 
 {{<citation>}}
 
@@ -1408,7 +1430,7 @@ With the proliferation of social media, a growing number of users search for and
 {{</citation>}}
 
 
-### (62/89) A Bi-Step Grounding Paradigm for Large Language Models in Recommendation Systems (Keqin Bao et al., 2023)
+### (63/90) A Bi-Step Grounding Paradigm for Large Language Models in Recommendation Systems (Keqin Bao et al., 2023)
 
 {{<citation>}}
 
@@ -1430,7 +1452,7 @@ As the focus on Large Language Models (LLMs) in the field of recommendation inte
 {{</citation>}}
 
 
-### (63/89) Knowledge-Enhanced Multi-Label Few-Shot Product Attribute-Value Extraction (Jiaying Gong et al., 2023)
+### (64/90) Knowledge-Enhanced Multi-Label Few-Shot Product Attribute-Value Extraction (Jiaying Gong et al., 2023)
 
 {{<citation>}}
 
@@ -1452,7 +1474,7 @@ Existing attribute-value extraction (AVE) models require large quantities of lab
 {{</citation>}}
 
 
-### (64/89) Pre-training with Large Language Model-based Document Expansion for Dense Passage Retrieval (Guangyuan Ma et al., 2023)
+### (65/90) Pre-training with Large Language Model-based Document Expansion for Dense Passage Retrieval (Guangyuan Ma et al., 2023)
 
 {{<citation>}}
 
@@ -1474,7 +1496,7 @@ In this paper, we systematically study the potential of pre-training with Large 
 {{</citation>}}
 
 
-### (65/89) Uncovering User Interest from Biased and Noised Watch Time in Video Recommendation (Haiyuan Zhao et al., 2023)
+### (66/90) Uncovering User Interest from Biased and Noised Watch Time in Video Recommendation (Haiyuan Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -1500,7 +1522,7 @@ In the video recommendation, watch time is commonly adopted as an indicator of u
 
 
 
-### (66/89) Integrating Renewable Energy in Agriculture: A Deep Reinforcement Learning-based Approach (A. Wahid et al., 2023)
+### (67/90) Integrating Renewable Energy in Agriculture: A Deep Reinforcement Learning-based Approach (A. Wahid et al., 2023)
 
 {{<citation>}}
 
@@ -1526,7 +1548,7 @@ This article investigates the use of Deep Q-Networks (DQNs) to optimize decision
 
 
 
-### (67/89) Can Transformers Learn Optimal Filtering for Unknown Systems? (Haldun Balim et al., 2023)
+### (68/90) Can Transformers Learn Optimal Filtering for Unknown Systems? (Haldun Balim et al., 2023)
 
 {{<citation>}}
 
@@ -1548,7 +1570,7 @@ Transformers have demonstrated remarkable success in natural language processing
 {{</citation>}}
 
 
-### (68/89) A Robust Integrated Multi-Strategy Bus Control System via Deep Reinforcement Learning (Qinghui Nie et al., 2023)
+### (69/90) A Robust Integrated Multi-Strategy Bus Control System via Deep Reinforcement Learning (Qinghui Nie et al., 2023)
 
 {{<citation>}}
 
@@ -1570,7 +1592,7 @@ An efficient urban bus control system has the potential to significantly reduce 
 {{</citation>}}
 
 
-### (69/89) Real-Time Numerical Differentiation of Sampled Data Using Adaptive Input and State Estimation (Shashank Verma et al., 2023)
+### (70/90) Real-Time Numerical Differentiation of Sampled Data Using Adaptive Input and State Estimation (Shashank Verma et al., 2023)
 
 {{<citation>}}
 
@@ -1596,7 +1618,7 @@ Real-time numerical differentiation plays a crucial role in many digital control
 
 
 
-### (70/89) Patterns and Pathways: Applying Social Network Analysis to Understand User Behavior in the Tourism Industry Websites (Mehrdad Maghsoudi et al., 2023)
+### (71/90) Patterns and Pathways: Applying Social Network Analysis to Understand User Behavior in the Tourism Industry Websites (Mehrdad Maghsoudi et al., 2023)
 
 {{<citation>}}
 
@@ -1618,7 +1640,7 @@ The contemporary tourism landscape is undergoing rapid digitization, necessitati
 {{</citation>}}
 
 
-### (71/89) Uncovering the Skillsets Required in Computer Science Jobs Using Social Network Analysis (Mehrdad Maghsoudi, 2023)
+### (72/90) Uncovering the Skillsets Required in Computer Science Jobs Using Social Network Analysis (Mehrdad Maghsoudi, 2023)
 
 {{<citation>}}
 
@@ -1644,7 +1666,7 @@ The rapid growth of technology and computer science, which has led to a surge in
 
 
 
-### (72/89) On the Augmentation of Cognitive Accuracy and Cognitive Precision in Human/Cog Ensembles (Ron Fulbright, 2023)
+### (73/90) On the Augmentation of Cognitive Accuracy and Cognitive Precision in Human/Cog Ensembles (Ron Fulbright, 2023)
 
 {{<citation>}}
 
@@ -1666,7 +1688,7 @@ Whenever humans use tools human performance is enhanced. Cognitive systems are a
 {{</citation>}}
 
 
-### (73/89) Artistic control over the glitch in AI-generated motion capture (Jamal Knight et al., 2023)
+### (74/90) Artistic control over the glitch in AI-generated motion capture (Jamal Knight et al., 2023)
 
 {{<citation>}}
 
@@ -1688,7 +1710,7 @@ Artificial intelligence (AI) models are prevalent today and provide a valuable t
 {{</citation>}}
 
 
-### (74/89) ChatLogo: A Large Language Model-Driven Hybrid Natural-Programming Language Interface for Agent-based Modeling and Programming (John Chen et al., 2023)
+### (75/90) ChatLogo: A Large Language Model-Driven Hybrid Natural-Programming Language Interface for Agent-based Modeling and Programming (John Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1714,7 +1736,7 @@ Building on Papert (1980)'s idea of children talking to computers, we propose Ch
 
 
 
-### (75/89) Eliciting Risk Aversion with Inverse Reinforcement Learning via Interactive Questioning (Ziteng Cheng et al., 2023)
+### (76/90) Eliciting Risk Aversion with Inverse Reinforcement Learning via Interactive Questioning (Ziteng Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -1740,7 +1762,7 @@ This paper proposes a novel framework for identifying an agent's risk aversion u
 
 
 
-### (76/89) Diff-CAPTCHA: An Image-based CAPTCHA with Security Enhanced by Denoising Diffusion Model (Ran Jiang et al., 2023)
+### (77/90) Diff-CAPTCHA: An Image-based CAPTCHA with Security Enhanced by Denoising Diffusion Model (Ran Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -1766,7 +1788,7 @@ To enhance the security of text CAPTCHAs, various methods have been employed, su
 
 
 
-### (77/89) GAEI-UNet: Global Attention and Elastic Interaction U-Net for Vessel Image Segmentation (Ruiqiang Xiao et al., 2023)
+### (78/90) GAEI-UNet: Global Attention and Elastic Interaction U-Net for Vessel Image Segmentation (Ruiqiang Xiao et al., 2023)
 
 {{<citation>}}
 
@@ -1777,7 +1799,7 @@ Ruiqiang Xiao, Zhuoyue Wan, Yang Xiang. (2023)
 Primary Category: eess.IV  
 Categories: cs-CV, eess-IV, eess.IV  
 Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2308.08345v1)  
+[Paper Link](http://arxiv.org/abs/2308.08345v2)  
 
 ---
 
@@ -1788,7 +1810,7 @@ Vessel image segmentation plays a pivotal role in medical diagnostics, aiding in
 {{</citation>}}
 
 
-### (78/89) ECPC-IDS:A benchmark endometrail cancer PET/CT image dataset for evaluation of semantic segmentation and detection of hypermetabolic regions (Dechao Tang et al., 2023)
+### (79/90) ECPC-IDS:A benchmark endometrail cancer PET/CT image dataset for evaluation of semantic segmentation and detection of hypermetabolic regions (Dechao Tang et al., 2023)
 
 {{<citation>}}
 
@@ -1810,7 +1832,7 @@ Endometrial cancer is one of the most common tumors in the female reproductive s
 {{</citation>}}
 
 
-### (79/89) CARE: A Large Scale CT Image Dataset and Clinical Applicable Benchmark Model for Rectal Cancer Segmentation (Hantao Zhang et al., 2023)
+### (80/90) CARE: A Large Scale CT Image Dataset and Clinical Applicable Benchmark Model for Rectal Cancer Segmentation (Hantao Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1832,7 +1854,7 @@ Rectal cancer segmentation of CT image plays a crucial role in timely clinical d
 {{</citation>}}
 
 
-### (80/89) AATCT-IDS: A Benchmark Abdominal Adipose Tissue CT Image Dataset for Image Denoising, Semantic Segmentation, and Radiomics Evaluation (Zhiyu Ma et al., 2023)
+### (81/90) AATCT-IDS: A Benchmark Abdominal Adipose Tissue CT Image Dataset for Image Denoising, Semantic Segmentation, and Radiomics Evaluation (Zhiyu Ma et al., 2023)
 
 {{<citation>}}
 
@@ -1858,7 +1880,7 @@ Methods: In this study, a benchmark \emph{Abdominal Adipose Tissue CT Image Data
 
 
 
-### (81/89) Deep Reinforcement Learning based Joint Spectrum Allocation and Configuration Design for STAR-RIS-Assisted V2X Communications (Pyae Sone Aung et al., 2023)
+### (82/90) Deep Reinforcement Learning based Joint Spectrum Allocation and Configuration Design for STAR-RIS-Assisted V2X Communications (Pyae Sone Aung et al., 2023)
 
 {{<citation>}}
 
@@ -1884,7 +1906,7 @@ Vehicle-to-Everything (V2X) communications play a crucial role in ensuring safe 
 
 
 
-### (82/89) Boosting Commit Classification with Contrastive Learning (Jiajun Tong et al., 2023)
+### (83/90) Boosting Commit Classification with Contrastive Learning (Jiajun Tong et al., 2023)
 
 {{<citation>}}
 
@@ -1910,7 +1932,7 @@ Commit Classification (CC) is an important task in software maintenance, which h
 
 
 
-### (83/89) Inherent Redundancy in Spiking Neural Networks (Man Yao et al., 2023)
+### (84/90) Inherent Redundancy in Spiking Neural Networks (Man Yao et al., 2023)
 
 {{<citation>}}
 
@@ -1932,7 +1954,7 @@ Spiking Neural Networks (SNNs) are well known as a promising energy-efficient al
 {{</citation>}}
 
 
-### (84/89) Expressivity of Spiking Neural Networks (Manjot Singh et al., 2023)
+### (85/90) Expressivity of Spiking Neural Networks (Manjot Singh et al., 2023)
 
 {{<citation>}}
 
@@ -1958,7 +1980,7 @@ This article studies the expressive power of spiking neural networks where infor
 
 
 
-### (85/89) HyperSNN: A new efficient and robust deep learning model for resource constrained control applications (Zhanglu Yan et al., 2023)
+### (86/90) HyperSNN: A new efficient and robust deep learning model for resource constrained control applications (Zhanglu Yan et al., 2023)
 
 {{<citation>}}
 
@@ -1984,7 +2006,7 @@ In light of the increasing adoption of edge computing in areas such as intellige
 
 
 
-### (86/89) Accelerating Generic Graph Neural Networks via Architecture, Compiler, Partition Method Co-Design (Shuwen Lu et al., 2023)
+### (87/90) Accelerating Generic Graph Neural Networks via Architecture, Compiler, Partition Method Co-Design (Shuwen Lu et al., 2023)
 
 {{<citation>}}
 
@@ -2010,7 +2032,7 @@ Graph neural networks (GNNs) have shown significant accuracy improvements in a v
 
 
 
-### (87/89) PEvoLM: Protein Sequence Evolutionary Information Language Model (Issar Arab, 2023)
+### (88/90) PEvoLM: Protein Sequence Evolutionary Information Language Model (Issar Arab, 2023)
 
 {{<citation>}}
 
@@ -2036,7 +2058,7 @@ With the exponential increase of the protein sequence databases over time, multi
 
 
 
-### (88/89) SCANet: A Self- and Cross-Attention Network for Audio-Visual Speech Separation (Kai Li et al., 2023)
+### (89/90) SCANet: A Self- and Cross-Attention Network for Audio-Visual Speech Separation (Kai Li et al., 2023)
 
 {{<citation>}}
 
@@ -2058,7 +2080,7 @@ The integration of different modalities, such as audio and visual information, p
 {{</citation>}}
 
 
-### (89/89) Radio2Text: Streaming Speech Recognition Using mmWave Radio Signals (Running Zhao et al., 2023)
+### (90/90) Radio2Text: Streaming Speech Recognition Using mmWave Radio Signals (Running Zhao et al., 2023)
 
 {{<citation>}}
 
