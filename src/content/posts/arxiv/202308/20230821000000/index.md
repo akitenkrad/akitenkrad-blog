@@ -792,7 +792,7 @@ Toma Tanaka, Naofumi Emoto, Tsukasa Yumibayashi. (2023)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-AI, cs-CL, cs-LG, cs.LG  
+Categories: cs-AI, cs-CL, cs-LG, cs-PL, cs.LG  
 Keywords: Bias, Language Model  
 [Paper Link](http://arxiv.org/abs/2308.09890v1)  
 
@@ -1136,13 +1136,13 @@ Mehrdad Maghsoudi, Saeid Aliakbar, Sajjad HabibiPour. (2023)
 Primary Category: cs.SI  
 Categories: cs-SI, cs.SI  
 Keywords: Social Network  
-[Paper Link](http://arxiv.org/abs/2308.10086v1)  
+[Paper Link](http://arxiv.org/abs/2308.10086v2)  
 
 ---
 
 
 **ABSTRACT**  
-In recent years, the global film industry has observed a notable surge in international cooperation and cross-border investments. However, a comprehensive overview of these collaborative investments within the industry is lacking. This study employs social network analysis to delve into the possibilities that lie in collaborative efforts and joint investments within the film sector. The research constructs a network of 150 countries based on shared creative elements in their film productions, comprising over 7800 interconnected links. Employing measures of centrality, certain pivotal nations such as the United States, China, and England emerge as influential nodes, showcasing a strong potential to steer industry growth through collaborative engagement. Through a more detailed exploration involving community identification, distinct clusters centered around thematic commonalities that have converged through joint creative endeavors become evident. For example, the "Global Thrill Seekers" community focuses on action films, whereas the "Cultural-Social Cinema Group" addresses worldwide cultural and social issues. Each of these communities presents distinctive perspectives for international cooperation and the collaborative creation of content. This analysis significantly enhances our understanding of the global film network's structure and dynamics, while concurrently highlighting promising pathways for future investment and collaborative initiatives. The research underscores the critical role of leveraging social network analysis methodologies to optimize informed decision-making concerning collaborative investments, thereby paving the way for anticipatory outcomes. This study not only contributes insights but also serves as a model for investigating data-centric participation within the creative industries.
+Global film production is witnessing a surge in international cooperation and cross-border investment. However, the dynamics and structure underlying these collaborative ventures remain underexplored. This study employs social network analysis (SNA) to investigate joint investments within the cinema industry. A network of 150 countries is constructed based on 7800 links representing shared creative themes in film productions. Centrality measures identify pivotal nodes like the United States, China, and England as influential countries with strong leadership potential to steer industry growth through collaboration. Community detection further uncovers distinct thematic clusters centered around common creative endeavors such as action films or social issues. Each community reveals opportunities for targeted cooperation and investment. For instance, the Global Thrill Seekers community produces mainstream blockbusters, whereas the Cultural-Social Cinema Group tackles worldwide issues. Overall, this SNA enhances understanding of the global film network and highlights pathways to optimize data-driven decision-making regarding collaborative initiatives. The research underscores SNA's value in predicting outcomes and paving the way for strategic unity in the creative industries.
 
 {{</citation>}}
 
@@ -1660,7 +1660,7 @@ Kate S Glazko, Momona Yamagami, Aashaka Desai, Kelly Avery Mack, Venkatesh Potlu
 Primary Category: cs.HC  
 Categories: cs-HC, cs.HC  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2308.09924v1)  
+[Paper Link](http://arxiv.org/abs/2308.09924v2)  
 
 ---
 
