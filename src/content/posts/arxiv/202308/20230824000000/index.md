@@ -615,7 +615,7 @@ Andrew Wang, Cristina Aggazzotti, Rebecca Kotula, Rafael Rivera Soto, Marcus Bis
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: Representation Learning  
-[Paper Link](http://arxiv.org/abs/2308.11490v1)  
+[Paper Link](http://arxiv.org/abs/2308.11490v2)  
 
 ---
 
@@ -1159,13 +1159,13 @@ Yifei Su, Dong An, Yuan Xu, Kehan Chen, Yan Huang. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Dialog, Transformer  
-[Paper Link](http://arxiv.org/abs/2308.11561v2)  
+[Paper Link](http://arxiv.org/abs/2308.11561v3)  
 
 ---
 
 
 **ABSTRACT**  
-This report details the method of the winning entry of the AVDN Challenge in ICCV 2023. The competition addresses the Aerial Navigation from Dialog History (ANDH) task, which requires a drone agent to associate dialog history with aerial observations to reach the destination. For better cross-modal grounding abilities of the drone agent, we propose a Target-Grounded Graph-Aware Transformer (TG-GAT) framework. Concretely, TG-GAT first leverages a graph-aware transformer to capture spatiotemporal dependency, which benefits navigation state tracking and robust action planning. In addition, an auxiliary visual grounding task is devised to boost the agent's awareness of referred landmarks. Moreover, a hybrid augmentation strategy based on large language models is utilized to mitigate data scarcity limitations. Our TG-GAT framework won the AVDN Challenge 2023, with 2.2% and 3.0% absolute improvements over the baseline on SPL and SR metrics, respectively. The code is available at https://github.com/yifeisu/avdn-challenge.
+This report details the methods of the winning entry of the AVDN Challenge in ICCV CLVL 2023. The competition addresses the Aerial Navigation from Dialog History (ANDH) task, which requires a drone agent to associate dialog history with aerial observations to reach the destination. For better cross-modal grounding abilities of the drone agent, we propose a Target-Grounded Graph-Aware Transformer (TG-GAT) framework. Concretely, TG-GAT first leverages a graph-aware transformer to capture spatiotemporal dependency, which benefits navigation state tracking and robust action planning. In addition,an auxiliary visual grounding task is devised to boost the agent's awareness of referred landmarks. Moreover, a hybrid augmentation strategy based on large language models is utilized to mitigate data scarcity limitations. Our TG-GAT framework won the AVDN Challenge, with 2.2% and 3.0% absolute improvements over the baseline on SPL and SR metrics, respectively. The code is available at https://github.com/yifeisu/TG-GAT.
 
 {{</citation>}}
 
@@ -1203,7 +1203,7 @@ Yi Zhang, Ce Zhang, Xueting Hu, Zhihai He. (2023)
 Primary Category: cs.CV  
 Categories: cs-CL, cs-CV, cs.CV  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2308.11507v1)  
+[Paper Link](http://arxiv.org/abs/2308.11507v2)  
 
 ---
 
@@ -1247,7 +1247,7 @@ Peng Wu, Xuerong Zhou, Guansong Pang, Lingru Zhou, Qingsen Yan, Peng Wang, Yanni
 Primary Category: cs.CV  
 Categories: cs-CV, cs-MM, cs.CV  
 Keywords: Anomaly Detection, Language Model  
-[Paper Link](http://arxiv.org/abs/2308.11681v1)  
+[Paper Link](http://arxiv.org/abs/2308.11681v2)  
 
 ---
 
