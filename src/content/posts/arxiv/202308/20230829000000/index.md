@@ -134,13 +134,13 @@ Soroosh Tayebi Arasteh, Tianyu Han, Mahshad Lotfinia, Christiane Kuhl, Jakob Nik
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keywords: ChatGPT, Clinical, GPT, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2308.14120v1)  
+[Paper Link](http://arxiv.org/abs/2308.14120v2)  
 
 ---
 
 
 **ABSTRACT**  
-A knowledge gap persists between Machine Learning (ML) developers (e.g., data scientists) and practitioners (e.g., clinicians), hampering the full utilization of ML for clinical data analysis. We investigated the potential of the chatGPT Code Interpreter (CI), an extension of GPT-4, to bridge this gap and perform ML analyses efficiently. Real-world clinical datasets and study details from large trials across various medical specialties were presented to chatGPT CI without specific guidance. ChatGPT CI autonomously developed state-of-the-art ML models based on the original study's training data to predict clinical outcomes such as cancer development, cancer progression, disease complications, or biomarkers such as pathogenic gene sequences. Strikingly, these ML models matched or outperformed their published counterparts. We conclude that chatGPT CI offers a promising avenue to democratize ML in medicine, making advanced analytics accessible to non-ML experts and promoting broader applications in medical research and practice.
+A knowledge gap persists between Machine Learning (ML) developers (e.g., data scientists) and practitioners (e.g., clinicians), hampering the full utilization of ML for clinical data analysis. We investigated the potential of the chatGPT Advanced Data Analysis (ADA), an extension of GPT-4, to bridge this gap and perform ML analyses efficiently. Real-world clinical datasets and study details from large trials across various medical specialties were presented to chatGPT ADA without specific guidance. ChatGPT ADA autonomously developed state-of-the-art ML models based on the original study's training data to predict clinical outcomes such as cancer development, cancer progression, disease complications, or biomarkers such as pathogenic gene sequences. Strikingly, these ML models matched or outperformed their published counterparts. We conclude that chatGPT ADA offers a promising avenue to democratize ML in medicine, making advanced analytics accessible to non-ML experts and promoting broader applications in medical research and practice.
 
 {{</citation>}}
 
@@ -1130,7 +1130,7 @@ Xin Yang, Yi Lin, Zhiwei Wang, Xin Li, Kwang-Ting Cheng. (2023)
 Primary Category: eess.IV  
 Categories: cs-CV, eess-IV, eess.IV  
 Keywords: Semi-Supervised  
-[Paper Link](http://arxiv.org/abs/2308.14066v1)  
+[Paper Link](http://arxiv.org/abs/2308.14066v2)  
 
 ---
 

@@ -1388,18 +1388,18 @@ Besides providing insights into how an image classifier makes its predictions, n
 {{</citation>}}
 
 
-### (61/111) Open Gaze: An Open-Source Implementation Replicating Google's Eye Tracking Paper (Sushmanth reddy Mereddy et al., 2023)
+### (61/111) Open Gaze: Open Source eye tracker for smartphone devices using Deep Learning (Sushmanth reddy et al., 2023)
 
 {{<citation>}}
 
-Sushmanth reddy Mereddy, Jyothi Swaroop Reddy, Somnath Sharma. (2023)  
-**Open Gaze: An Open-Source Implementation Replicating Google's Eye Tracking Paper**  
+Sushmanth reddy, Jyothi Swaroop Reddy. (2023)  
+**Open Gaze: Open Source eye tracker for smartphone devices using Deep Learning**  
 
 ---
 Primary Category: cs.CV  
-Categories: 68T10(primary), secondary, I-2-1; I-4-1, cs-AI, cs-CV, cs.CV  
+Categories: 68T10(primary), I-2-1; I-2-10, cs-AI, cs-CV, cs.CV  
 Keywords: Google  
-[Paper Link](http://arxiv.org/abs/2308.13495v1)  
+[Paper Link](http://arxiv.org/abs/2308.13495v2)  
 
 ---
 
@@ -2309,7 +2309,7 @@ Yanjie Song, Yutong Wu, Yangyang Guo, Ran Yan, P. N. Suganthan, Yue Zhang, Witol
 
 ---
 Primary Category: cs.NE  
-Categories: cs-NE, cs.NE  
+Categories: cs-AI, cs-LG, cs-NE, cs.NE  
 Keywords: Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2308.13420v2)  
 
