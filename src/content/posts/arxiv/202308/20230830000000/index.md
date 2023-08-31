@@ -593,7 +593,7 @@ Souradeep Dutta, Michele Caprio, Vivian Lin, Matthew Cleaveland, Kuk Jin Jang, I
 Primary Category: cs.AI  
 Categories: cs-AI, cs-LG, cs-RO, cs.AI  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2308.14815v1)  
+[Paper Link](http://arxiv.org/abs/2308.14815v2)  
 
 ---
 
@@ -681,13 +681,13 @@ Nicole Merkle, Ralf Mikut. (2023)
 Primary Category: cs.AI  
 Categories: F-2-2; I-2-7, cs-AI, cs-LG, cs-PF, cs.AI  
 Keywords: Embedding  
-[Paper Link](http://arxiv.org/abs/2308.14521v1)  
+[Paper Link](http://arxiv.org/abs/2308.14521v2)  
 
 ---
 
 
 **ABSTRACT**  
-Computational agents support humans in many areas of life and are therefore found in heterogeneous contexts. This means that agents operate in rapidly changing environments and can be confronted with huge state and action spaces. In order to perform services and carry out activities in a goal-oriented manner, agents require prior knowledge and therefore have to develop and pursue context-dependent policies. The problem is that prescribing policies in advance is limited and inflexible, especially in dynamically changing environments. Moreover, the context of an agent determines its choice of actions. Since the environments in which agents operate can be stochastic and complex in terms of the number of states and feasible actions, activities are usually modelled in a simplified way by Markov decision processes so that agents with reinforcement learning are able to learn policies that help to capture the context and act accordingly to optimally perform activities. However, training policies for all possible contexts using reinforcement learning is time-consuming. A requirement and challenge for agents is to learn strategies quickly and respond immediately in cross-context environments and applications. In this work, we propose a novel simulation-based approach that enables a) the representation of heterogeneous contexts through knowledge graphs and entity embeddings and b) the context-aware composition of policies on demand by ensembles of agents running in parallel. The evaluation we performed on the "Virtual Home" dataset indicates that agents that need to seamlessly switch between different contexts, can request on-the-fly composed policies that lead to the successful completion of context-appropriate activities without having to learn these policies in lengthy training steps and episodes, in contrast to agents that apply reinforcement learning.
+Computational agents support humans in many areas of life and are therefore found in heterogeneous contexts. This means they operate in rapidly changing environments and can be confronted with huge state and action spaces. In order to perform services and carry out activities in a goal-oriented manner, agents require prior knowledge and therefore have to develop and pursue context-dependent policies. However, prescribing policies in advance is limited and inflexible, especially in dynamically changing environments. Moreover, the context of an agent determines its choice of actions. Since the environments can be stochastic and complex in terms of the number of states and feasible actions, activities are usually modelled in a simplified way by Markov decision processes so that, e.g., agents with reinforcement learning are able to learn policies, that help to capture the context and act accordingly to optimally perform activities. However, training policies for all possible contexts using reinforcement learning is time-consuming. A requirement and challenge for agents is to learn strategies quickly and respond immediately in cross-context environments and applications, e.g., the Internet, service robotics, cyber-physical systems. In this work, we propose a novel simulation-based approach that enables a) the representation of heterogeneous contexts through knowledge graphs and entity embeddings and b) the context-aware composition of policies on demand by ensembles of agents running in parallel. The evaluation we conducted with the "Virtual Home" dataset indicates that agents with a need to switch seamlessly between different contexts, can request on-demand composed policies that lead to the successful completion of context-appropriate activities without having to learn these policies in lengthy training steps and episodes, in contrast to agents that use reinforcement learning.
 
 {{</citation>}}
 
@@ -747,13 +747,13 @@ Payal Mohapatra, Akash Pandey, Yueyuan Sui, Qi Zhu. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI  
 Keywords: Attention, BERT, Embedding, Self-Supervised  
-[Paper Link](http://arxiv.org/abs/2308.14359v1)  
+[Paper Link](http://arxiv.org/abs/2308.14359v2)  
 
 ---
 
 
 **ABSTRACT**  
-Human emotion understanding is pivotal in making conversational technology mainstream. We view speech emotion understanding as a perception task which is a more realistic setting. With varying contexts (languages, demographics, etc.) different share of people perceive the same speech segment as a non-unanimous emotion. As part of the ACM Multimedia 2023 Computational Paralinguistics ChallengE (ComParE) in the EMotion Share track, we leverage their rich dataset of multilingual speakers and multi-label regression target of 'emotion share' or perception of that emotion. We demonstrate that the training scheme of different foundation models dictates their effectiveness for tasks beyond speech recognition, especially for non-semantic speech tasks like emotion   understanding. This is a very complex task due to multilingual speakers, variability in the target labels, and inherent imbalance in the regression dataset. Our results show that HuBERT-Large with a self-attention-based light-weight sequence model provides 4.6% improvement over the reported baseline.
+Human emotion understanding is pivotal in making conversational technology mainstream. We view speech emotion understanding as a perception task which is a more realistic setting. With varying contexts (languages, demographics, etc.) different share of people perceive the same speech segment as a non-unanimous emotion. As part of the ACM Multimedia 2023 Computational Paralinguistics ChallengE (ComParE) in the EMotion Share track, we leverage their rich dataset of multilingual speakers and multi-label regression target of 'emotion share' or perception of that emotion. We demonstrate that the training scheme of different foundation models dictates their effectiveness for tasks beyond speech recognition, especially for non-semantic speech tasks like emotion understanding. This is a very complex task due to multilingual speakers, variability in the target labels, and inherent imbalance in the regression dataset. Our results show that HuBERT-Large with a self-attention-based light-weight sequence model provides 4.6% improvement over the reported baseline.
 
 {{</citation>}}
 
@@ -1195,7 +1195,7 @@ Hanyang Kong, Kehong Gong, Dongze Lian, Michael Bi Mi, Xinchao Wang. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs-MM, cs.CV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2308.14480v1)  
+[Paper Link](http://arxiv.org/abs/2308.14480v2)  
 
 ---
 
@@ -1815,7 +1815,7 @@ Yuansheng Ni, Sichao Jiang, Xinyu wu, Hui Shen, Yuli Zhou. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model, QA, T5  
-[Paper Link](http://arxiv.org/abs/2308.14306v1)  
+[Paper Link](http://arxiv.org/abs/2308.14306v2)  
 
 ---
 
@@ -2257,13 +2257,13 @@ Wentao Xu, Kazutoshi Sasahara. (2023)
 Primary Category: cs.CY  
 Categories: 94-08, J-4, cs-CY, cs-SI, cs.CY  
 Keywords: QA, Twitter  
-[Paper Link](http://arxiv.org/abs/2308.14806v1)  
+[Paper Link](http://arxiv.org/abs/2308.14806v2)  
 
 ---
 
 
 **ABSTRACT**  
-Data mining is a good way to find the relationship between raw data and predict the target we want which is also widely used in different field nowadays. In this project, we implement a lots of technology and method in data mining to predict the sale of an item based on its previous sale. We create a strong model to predict the sales. After evaluating this model, we Online social networks offer vast opportunities for computational social science, but effective user embedding is crucial for downstream tasks. Traditionally, researchers have used pre-defined network-based user features, such as degree, and centrality measures, and/or content-based features, such as posts and reposts. However, these measures may not capture the complex characteristics of social media users. In this study, we propose a user embedding method based on the URL domain co-occurrence network, which is simple but effective for representing social media users in competing events. We assessed the performance of this method in binary classification tasks using benchmark datasets that included Twitter users related to COVID-19 infodemic topics (QAnon, Biden, Ivermectin). Our results revealed that user embeddings generated directly from the retweet network, and those based on language, performed below expectations. In contrast, our domain-based embeddings outperformed these methods while reducing computation time. These findings suggest that the domain-based user embedding can serve as an effective tool to characterize social media users participating in competing events, such as political campaigns and public health crises.
+Online social networks offer vast opportunities for computational social science, but effective user embedding is crucial for downstream tasks. Traditionally, researchers have used pre-defined network-based user features, such as degree, and centrality measures, and/or content-based features, such as posts and reposts. However, these measures may not capture the complex characteristics of social media users. In this study, we propose a user embedding method based on the URL domain co-occurrence network, which is simple but effective for representing social media users in competing events. We assessed the performance of this method in binary classification tasks using benchmark datasets that included Twitter users related to COVID-19 infodemic topics (QAnon, Biden, Ivermectin). Our results revealed that user embeddings generated directly from the retweet network, and those based on language, performed below expectations. In contrast, our domain-based embeddings outperformed these methods while reducing computation time. These findings suggest that the domain-based user embedding can serve as an effective tool to characterize social media users participating in competing events, such as political campaigns and public health crises.
 
 {{</citation>}}
 

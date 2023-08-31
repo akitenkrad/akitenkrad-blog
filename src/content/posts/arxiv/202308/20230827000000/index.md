@@ -268,18 +268,18 @@ From the perspective of content safety issues, alignment has shown to limit larg
 {{</citation>}}
 
 
-### (11/111) EntropyRank: Unsupervised Keyphrase Extraction via Side-Information Optimization for Language Model-based Text Compression (Alexander Tsvetkov. Alon Kipnis, 2023)
+### (11/111) EntropyRank: Unsupervised Keyphrase Extraction via Side-Information Optimization for Language Model-based Text Compression (Alexander Tsvetkov et al., 2023)
 
 {{<citation>}}
 
-Alexander Tsvetkov. Alon Kipnis. (2023)  
+Alexander Tsvetkov, Alon Kipnis. (2023)  
 **EntropyRank: Unsupervised Keyphrase Extraction via Side-Information Optimization for Language Model-based Text Compression**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs-IT, cs-LG, cs.CL, math-IT  
 Keywords: Keyphrase Extraction, Language Model  
-[Paper Link](http://arxiv.org/abs/2308.13399v1)  
+[Paper Link](http://arxiv.org/abs/2308.13399v2)  
 
 ---
 

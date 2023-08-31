@@ -494,7 +494,7 @@ Wei Xie, Zimeng Zhao, Shiying Li, Binghui Zuo, Yangang Wang. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2308.14074v1)  
+[Paper Link](http://arxiv.org/abs/2308.14074v2)  
 
 ---
 
@@ -604,7 +604,7 @@ Yuwei Qiu, Kaihao Zhang, Chenxi Wang, Wenhan Luo, Hongdong Li, Zhi Jin. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2308.14036v1)  
+[Paper Link](http://arxiv.org/abs/2308.14036v2)  
 
 ---
 
