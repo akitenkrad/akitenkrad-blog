@@ -722,7 +722,7 @@ Liang Yao, Jiazhen Peng, Chengsheng Mao, Yuan Luo. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: ChatGPT, GLM, GPT, GPT-4, Knowledge Graph, LLaMA, Language Model  
-[Paper Link](http://arxiv.org/abs/2308.13916v1)  
+[Paper Link](http://arxiv.org/abs/2308.13916v2)  
 
 ---
 

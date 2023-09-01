@@ -191,7 +191,7 @@ Binqi Sun, Mirco Theile, Ziyuan Qin, Daniele Bernardini, Debayan Roy, Andrea Bas
 
 ---
 Primary Category: cs.LG  
-Categories: cs-DC, cs-DM, cs-LG, cs.LG  
+Categories: cs-DC, cs-DM, cs-LG, cs.LG, math-OC  
 Keywords: Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2308.14647v1)  
 
