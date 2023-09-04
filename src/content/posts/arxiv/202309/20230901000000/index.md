@@ -769,7 +769,7 @@ ShengYun Peng, Weilin Xu, Cory Cornelius, Matthew Hull, Kevin Li, Rahul Duggal, 
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2308.16258v1)  
+[Paper Link](http://arxiv.org/abs/2308.16258v2)  
 
 ---
 
@@ -1320,14 +1320,14 @@ The increasing complexity and scale of telecommunication networks have led to a 
 
 {{<citation>}}
 
-Hongshuo Huang, Rishikesh Magar, Changwen Xu, Amir Bariti Farimani. (2023)  
+Hongshuo Huang, Rishikesh Magar, Changwen Xu, Amir Barati Farimani. (2023)  
 **Materials Informatics Transformer: A Language Model for Interpretable Materials Properties Prediction**  
 
 ---
 Primary Category: cs.LG  
 Categories: cond-mat-mtrl-sci, cs-LG, cs.LG, physics-chem-ph  
 Keywords: Language Model, Transformer  
-[Paper Link](http://arxiv.org/abs/2308.16259v1)  
+[Paper Link](http://arxiv.org/abs/2308.16259v2)  
 
 ---
 
@@ -1342,14 +1342,14 @@ Recently, the remarkable capabilities of large language models (LLMs) have been 
 
 {{<citation>}}
 
-Tuwe Löfström, Helena Löfström, Ulf Johansson, Cecilia Sönströd. (2023)  
+Tuwe Löfström, Helena Löfström, Ulf Johansson, Cecilia Sönströd, Rudy Matela. (2023)  
 **Calibrated Explanations for Regression**  
 
 ---
 Primary Category: cs.LG  
 Categories: 68-04, 68W99, cs-AI, cs-LG, cs.LG, stat-ML  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2308.16245v1)  
+[Paper Link](http://arxiv.org/abs/2308.16245v2)  
 
 ---
 
@@ -1635,13 +1635,13 @@ Yuya Sasaki. (2023)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-DB, cs-LG, cs.LG  
 Keywords: GNN  
-[Paper Link](http://arxiv.org/abs/2308.15734v1)  
+[Paper Link](http://arxiv.org/abs/2308.15734v2)  
 
 ---
 
 
 **ABSTRACT**  
-Graph neural networks (GNNs) are powerful tools for performing data science tasks in various domains. Although we use GNNs in wide application scenarios, it is a laborious task for researchers and practitioners to design/select optimal GNN rchitectures in diverse graphs. To save human efforts and computational costs, graph neural architecture search (Graph NAS) has been used to search for a sub-optimal GNN architecture that combines existing components. However, there are no existing Graph NAS methods that satisfy explainability, efficiency, and adaptability to various graphs. Therefore, we propose an efficient and explainable Graph NAS method, called ExGNAS, which consists of (i) a simple search space that can adapt to various graphs and (ii) a search algorithm that makes the decision process explainable. The search space includes only fundamental functions that can handle homophilic and heterophilic graphs. The search algorithm efficiently searches for the best GNN architecture via Monte-Carlo tree search without neural models. The combination of our search space and algorithm achieves finding accurate GNN models and the important functions within the search space. We comprehensively evaluate our method compared with twelve hand-crafted GNN architectures and three Graph NAS methods in four graphs. Our experimental results show that ExGNAS increases AUC up to 3.6 and reduces run time up to 78\% compared with the state-of-the-art Graph NAS methods. Furthermore, we show ExGNAS is effective in analyzing the difference between GNN architectures in homophilic and heterophilic graphs.
+Graph neural networks (GNNs) are powerful tools for performing data science tasks in various domains. Although we use GNNs in wide application scenarios, it is a laborious task for researchers and practitioners to design/select optimal GNN architectures in diverse graphs. To save human efforts and computational costs, graph neural architecture search (Graph NAS) has been used to search for a sub-optimal GNN architecture that combines existing components. However, there are no existing Graph NAS methods that satisfy explainability, efficiency, and adaptability to various graphs. Therefore, we propose an efficient and explainable Graph NAS method, called ExGNAS, which consists of (i) a simple search space that can adapt to various graphs and (ii) a search algorithm that makes the decision process explainable. The search space includes only fundamental functions that can handle homophilic and heterophilic graphs. The search algorithm efficiently searches for the best GNN architecture via Monte-Carlo tree search without neural models. The combination of our search space and algorithm achieves finding accurate GNN models and the important functions within the search space. We comprehensively evaluate our method compared with twelve hand-crafted GNN architectures and three Graph NAS methods in four graphs. Our experimental results show that ExGNAS increases AUC up to 3.6 and reduces run time up to 78\% compared with the state-of-the-art Graph NAS methods. Furthermore, we show ExGNAS is effective in analyzing the difference between GNN architectures in homophilic and heterophilic graphs.
 
 {{</citation>}}
 
@@ -1705,13 +1705,13 @@ Inyoung Cheong, Aylin Caliskan, Tadayoshi Kohno. (2023)
 Primary Category: cs.CY  
 Categories: cs-AI, cs-CL, cs-CY, cs.CY  
 Keywords: AI, Generative AI, Legal  
-[Paper Link](http://arxiv.org/abs/2308.15906v1)  
+[Paper Link](http://arxiv.org/abs/2308.15906v2)  
 
 ---
 
 
 **ABSTRACT**  
-Our interdisciplinary study investigates how effectively U.S. laws confront the challenges posed by Generative AI to human values. Through an analysis of diverse hypothetical scenarios crafted during an expert workshop, we have identified notable gaps and uncertainties within the existing legal framework regarding the protection of fundamental values, such as autonomy, privacy, dignity, diversity, equality, and physical/mental well-being. Constitutional and civil rights, it appears, may not provide sufficient protection against AI-generated discriminatory outputs. Furthermore, even if we exclude the liability shield provided by Section 230, proving causation for defamation and product liability claims is a challenging endeavor due to the intricate and opaque nature of AI systems. To address the unique and unforeseeable threats posed by Generative AI, we advocate for legal frameworks that evolve to recognize new threat and provide proactive, auditable guidelines to industry stakeholders. Addressing these issues requires deep interdisciplinary collaborations to identify harms, values, and mitigation strategies.
+Our interdisciplinary study investigates how effectively U.S. laws confront the challenges posed by Generative AI to human values. Through an analysis of diverse hypothetical scenarios crafted during an expert workshop, we have identified notable gaps and uncertainties within the existing legal framework regarding the protection of fundamental values, such as privacy, autonomy, dignity, diversity, equity, and physical/mental well-being. Constitutional and civil rights, it appears, may not provide sufficient protection against AI-generated discriminatory outputs. Furthermore, even if we exclude the liability shield provided by Section 230, proving causation for defamation and product liability claims is a challenging endeavor due to the intricate and opaque nature of AI systems. To address the unique and unforeseeable threats posed by Generative AI, we advocate for legal frameworks that evolve to recognize new threat and provide proactive, auditable guidelines to industry stakeholders. Addressing these issues requires deep interdisciplinary collaborations to identify harms, values, and mitigation strategies.
 
 {{</citation>}}
 
@@ -2126,14 +2126,14 @@ Recommender systems is set up to address the issue of information overload in tr
 
 {{<citation>}}
 
-Christophe Veaux, Ranniery Maia, Spyridoula Papendreou. (2023)  
+Christophe Veaux, Ranniery Maia, Spyridoula Papandreou. (2023)  
 **The DeepZen Speech Synthesis System for Blizzard Challenge 2023**  
 
 ---
 Primary Category: eess.AS  
 Categories: cs-SD, eess-AS, eess.AS  
 Keywords: BERT  
-[Paper Link](http://arxiv.org/abs/2308.15945v1)  
+[Paper Link](http://arxiv.org/abs/2308.15945v2)  
 
 ---
 
