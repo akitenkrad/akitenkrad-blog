@@ -24,7 +24,7 @@ math: true
 - [cs.AI (2)](#csai-2)
 - [cs.IR (2)](#csir-2)
 - [cs.CL (9)](#cscl-9)
-- [cs.CV (12)](#cscv-12)
+- [cs.CV (13)](#cscv-13)
 - [cs.LG (5)](#cslg-5)
 - [cs.RO (3)](#csro-3)
 - [eess.IV (3)](#eessiv-3)
@@ -39,7 +39,7 @@ math: true
 
 
 
-### (1/44) Neurosymbolic Reinforcement Learning and Planning: A Survey (K. Acharya et al., 2023)
+### (1/45) Neurosymbolic Reinforcement Learning and Planning: A Survey (K. Acharya et al., 2023)
 
 {{<citation>}}
 
@@ -61,7 +61,7 @@ The area of Neurosymbolic Artificial Intelligence (Neurosymbolic AI) is rapidly 
 {{</citation>}}
 
 
-### (2/44) Zero-Shot Recommendations with Pre-Trained Large Language Models for Multimodal Nudging (Rachel Harrison et al., 2023)
+### (2/45) Zero-Shot Recommendations with Pre-Trained Large Language Models for Multimodal Nudging (Rachel Harrison et al., 2023)
 
 {{<citation>}}
 
@@ -87,7 +87,7 @@ We present a method for zero-shot recommendation of multimodal non-stationary co
 
 
 
-### (3/44) Hessian-aware Quantized Node Embeddings for Recommendation (Huiyuan Chen et al., 2023)
+### (3/45) Hessian-aware Quantized Node Embeddings for Recommendation (Huiyuan Chen et al., 2023)
 
 {{<citation>}}
 
@@ -109,7 +109,7 @@ Graph Neural Networks (GNNs) have achieved state-of-the-art performance in recom
 {{</citation>}}
 
 
-### (4/44) MPTopic: Improving topic modeling via Masked Permuted pre-training (Xinche Zhang et al., 2023)
+### (4/45) MPTopic: Improving topic modeling via Masked Permuted pre-training (Xinche Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -135,7 +135,7 @@ Topic modeling is pivotal in discerning hidden semantic structures within texts,
 
 
 
-### (5/44) Explainability for Large Language Models: A Survey (Haiyan Zhao et al., 2023)
+### (5/45) Explainability for Large Language Models: A Survey (Haiyan Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -157,7 +157,7 @@ Large language models (LLMs) have demonstrated impressive capabilities in natura
 {{</citation>}}
 
 
-### (6/44) ModelScope-Agent: Building Your Customizable Agent System with Open-source Large Language Models (Chenliang Li et al., 2023)
+### (6/45) ModelScope-Agent: Building Your Customizable Agent System with Open-source Large Language Models (Chenliang Li et al., 2023)
 
 {{<citation>}}
 
@@ -179,7 +179,7 @@ Large language models (LLMs) have recently demonstrated remarkable capabilities 
 {{</citation>}}
 
 
-### (7/44) Multilingual Text Representation (Fahim Faisal, 2023)
+### (7/45) Multilingual Text Representation (Fahim Faisal, 2023)
 
 {{<citation>}}
 
@@ -201,7 +201,7 @@ Modern NLP breakthrough includes large multilingual models capable of performing
 {{</citation>}}
 
 
-### (8/44) Knowledge Graph Embeddings for Multi-Lingual Structured Representations of Radiology Reports (Tom van Sonsbeek et al., 2023)
+### (8/45) Knowledge Graph Embeddings for Multi-Lingual Structured Representations of Radiology Reports (Tom van Sonsbeek et al., 2023)
 
 {{<citation>}}
 
@@ -223,7 +223,7 @@ The way we analyse clinical texts has undergone major changes over the last year
 {{</citation>}}
 
 
-### (9/44) Evaluating Transformer's Ability to Learn Mildly Context-Sensitive Languages (Shunjie Wang et al., 2023)
+### (9/45) Evaluating Transformer's Ability to Learn Mildly Context-Sensitive Languages (Shunjie Wang et al., 2023)
 
 {{<citation>}}
 
@@ -245,7 +245,7 @@ Despite that Transformers perform well in NLP tasks, recent studies suggest that
 {{</citation>}}
 
 
-### (10/44) LeanContext: Cost-Efficient Domain-Specific Question Answering Using LLMs (Md Adnan Arefeen et al., 2023)
+### (10/45) LeanContext: Cost-Efficient Domain-Specific Question Answering Using LLMs (Md Adnan Arefeen et al., 2023)
 
 {{<citation>}}
 
@@ -267,7 +267,7 @@ Question-answering (QA) is a significant application of Large Language Models (L
 {{</citation>}}
 
 
-### (11/44) LinkTransformer: A Unified Package for Record Linkage with Transformer Language Models (Abhishek Arora et al., 2023)
+### (11/45) LinkTransformer: A Unified Package for Record Linkage with Transformer Language Models (Abhishek Arora et al., 2023)
 
 {{<citation>}}
 
@@ -289,7 +289,7 @@ Linking information across sources is fundamental to a variety of analyses in so
 {{</citation>}}
 
 
-### (12/44) Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties (Taylor Sorensen et al., 2023)
+### (12/45) Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties (Taylor Sorensen et al., 2023)
 
 {{<citation>}}
 
@@ -311,7 +311,7 @@ Human values are crucial to human decision-making. Value pluralism is the view t
 {{</citation>}}
 
 
-### (13/44) Bias and Fairness in Large Language Models: A Survey (Isabel O. Gallegos et al., 2023)
+### (13/45) Bias and Fairness in Large Language Models: A Survey (Isabel O. Gallegos et al., 2023)
 
 {{<citation>}}
 
@@ -333,11 +333,11 @@ Rapid advancements of large language models (LLMs) have enabled the processing, 
 {{</citation>}}
 
 
-## cs.CV (12)
+## cs.CV (13)
 
 
 
-### (14/44) Contrastive Grouping with Transformer for Referring Image Segmentation (Jiajin Tang et al., 2023)
+### (14/45) Contrastive Grouping with Transformer for Referring Image Segmentation (Jiajin Tang et al., 2023)
 
 {{<citation>}}
 
@@ -359,7 +359,7 @@ Referring image segmentation aims to segment the target referent in an image con
 {{</citation>}}
 
 
-### (15/44) RevColV2: Exploring Disentangled Representations in Masked Image Modeling (Qi Han et al., 2023)
+### (15/45) RevColV2: Exploring Disentangled Representations in Masked Image Modeling (Qi Han et al., 2023)
 
 {{<citation>}}
 
@@ -381,7 +381,7 @@ Masked image modeling (MIM) has become a prevalent pre-training setup for vision
 {{</citation>}}
 
 
-### (16/44) S$^3$-MonoDETR: Supervised Shape&Scale-perceptive Deformable Transformer for Monocular 3D Object Detection (Xuan He et al., 2023)
+### (16/45) S$^3$-MonoDETR: Supervised Shape&Scale-perceptive Deformable Transformer for Monocular 3D Object Detection (Xuan He et al., 2023)
 
 {{<citation>}}
 
@@ -403,7 +403,7 @@ Recently, transformer-based methods have shown exceptional performance in monocu
 {{</citation>}}
 
 
-### (17/44) GBE-MLZSL: A Group Bi-Enhancement Framework for Multi-Label Zero-Shot Learning (Ziming Liu et al., 2023)
+### (17/45) GBE-MLZSL: A Group Bi-Enhancement Framework for Multi-Label Zero-Shot Learning (Ziming Liu et al., 2023)
 
 {{<citation>}}
 
@@ -425,7 +425,7 @@ This paper investigates a challenging problem of zero-shot learning in the multi
 {{</citation>}}
 
 
-### (18/44) Fearless Luminance Adaptation: A Macro-Micro-Hierarchical Transformer for Exposure Correction (Gehui Li et al., 2023)
+### (18/45) Fearless Luminance Adaptation: A Macro-Micro-Hierarchical Transformer for Exposure Correction (Gehui Li et al., 2023)
 
 {{<citation>}}
 
@@ -447,7 +447,7 @@ Photographs taken with less-than-ideal exposure settings often display poor visu
 {{</citation>}}
 
 
-### (19/44) A Post-Processing Based Bengali Document Layout Analysis with YOLOV8 (Nazmus Sakib Ahmed et al., 2023)
+### (19/45) A Post-Processing Based Bengali Document Layout Analysis with YOLOV8 (Nazmus Sakib Ahmed et al., 2023)
 
 {{<citation>}}
 
@@ -469,7 +469,7 @@ This paper focuses on enhancing Bengali Document Layout Analysis (DLA) using the
 {{</citation>}}
 
 
-### (20/44) Domain Generalization via Balancing Training Difficulty and Model Capability (Xueying Jiang et al., 2023)
+### (20/45) Domain Generalization via Balancing Training Difficulty and Model Capability (Xueying Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -491,7 +491,7 @@ Domain generalization (DG) aims to learn domain-generalizable models from one or
 {{</citation>}}
 
 
-### (21/44) ObjectLab: Automated Diagnosis of Mislabeled Images in Object Detection Data (Ulyana Tkachenko et al., 2023)
+### (21/45) ObjectLab: Automated Diagnosis of Mislabeled Images in Object Detection Data (Ulyana Tkachenko et al., 2023)
 
 {{<citation>}}
 
@@ -513,7 +513,7 @@ Despite powering sensitive systems like autonomous vehicles, object detection re
 {{</citation>}}
 
 
-### (22/44) Leveraging Semi-Supervised Graph Learning for Enhanced Diabetic Retinopathy Detection (D. Dhinakaran et al., 2023)
+### (22/45) Leveraging Semi-Supervised Graph Learning for Enhanced Diabetic Retinopathy Detection (D. Dhinakaran et al., 2023)
 
 {{<citation>}}
 
@@ -535,7 +535,7 @@ Diabetic Retinopathy (DR) is a significant cause of blindness globally, highligh
 {{</citation>}}
 
 
-### (23/44) RenAIssance: A Survey into AI Text-to-Image Generation in the Era of Large Model (Fengxiang Bie et al., 2023)
+### (23/45) RenAIssance: A Survey into AI Text-to-Image Generation in the Era of Large Model (Fengxiang Bie et al., 2023)
 
 {{<citation>}}
 
@@ -557,7 +557,29 @@ Text-to-image generation (TTI) refers to the usage of models that could process 
 {{</citation>}}
 
 
-### (24/44) AttT2M: Text-Driven Human Motion Generation with Multi-Perspective Attention Mechanism (Chongyang Zhong et al., 2023)
+### (24/45) Self-Supervised Video Transformers for Isolated Sign Language Recognition (Marcelo Sandoval-Castaneda et al., 2023)
+
+{{<citation>}}
+
+Marcelo Sandoval-Castaneda, Yanhong Li, Diane Brentari, Karen Livescu, Gregory Shakhnarovich. (2023)  
+**Self-Supervised Video Transformers for Isolated Sign Language Recognition**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Self-Supervised, Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2309.02450v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper presents an in-depth analysis of various self-supervision methods for isolated sign language recognition (ISLR). We consider four recently introduced transformer-based approaches to self-supervised learning from videos, and four pre-training data regimes, and study all the combinations on the WLASL2000 dataset. Our findings reveal that MaskFeat achieves performance superior to pose-based and supervised video models, with a top-1 accuracy of 79.02% on gloss-based WLASL2000. Furthermore, we analyze these models' ability to produce representations of ASL signs using linear probing on diverse phonological features. This study underscores the value of architecture and pre-training task choices in ISLR. Specifically, our results on WLASL2000 highlight the power of masked reconstruction pre-training, and our linear probing results demonstrate the importance of hierarchical vision transformers for sign language representation.
+
+{{</citation>}}
+
+
+### (25/45) AttT2M: Text-Driven Human Motion Generation with Multi-Perspective Attention Mechanism (Chongyang Zhong et al., 2023)
 
 {{<citation>}}
 
@@ -579,7 +601,7 @@ Generating 3D human motion based on textual descriptions has been a research foc
 {{</citation>}}
 
 
-### (25/44) Contrastive Feature Masking Open-Vocabulary Vision Transformer (Dahun Kim et al., 2023)
+### (26/45) Contrastive Feature Masking Open-Vocabulary Vision Transformer (Dahun Kim et al., 2023)
 
 {{<citation>}}
 
@@ -605,7 +627,7 @@ We present Contrastive Feature Masking Vision Transformer (CFM-ViT) - an image-t
 
 
 
-### (26/44) Streaming Active Learning for Regression Problems Using Regression via Classification (Shota Horiguchi et al., 2023)
+### (27/45) Streaming Active Learning for Regression Problems Using Regression via Classification (Shota Horiguchi et al., 2023)
 
 {{<citation>}}
 
@@ -627,7 +649,7 @@ One of the challenges in deploying a machine learning model is that the model's 
 {{</citation>}}
 
 
-### (27/44) eDKM: An Efficient and Accurate Train-time Weight Clustering for Large Language Models (Minsik Cho et al., 2023)
+### (28/45) eDKM: An Efficient and Accurate Train-time Weight Clustering for Large Language Models (Minsik Cho et al., 2023)
 
 {{<citation>}}
 
@@ -649,7 +671,7 @@ Since Large Language Models or LLMs have demonstrated high-quality performance o
 {{</citation>}}
 
 
-### (28/44) Emergent Linear Representations in World Models of Self-Supervised Sequence Models (Neel Nanda et al., 2023)
+### (29/45) Emergent Linear Representations in World Models of Self-Supervised Sequence Models (Neel Nanda et al., 2023)
 
 {{<citation>}}
 
@@ -671,7 +693,7 @@ How do sequence models represent their decision-making process? Prior work sugge
 {{</citation>}}
 
 
-### (29/44) DoRA: Domain-Based Self-Supervised Learning Framework for Low-Resource Real Estate Appraisal (Wei-Wei Du et al., 2023)
+### (30/45) DoRA: Domain-Based Self-Supervised Learning Framework for Low-Resource Real Estate Appraisal (Wei-Wei Du et al., 2023)
 
 {{<citation>}}
 
@@ -682,7 +704,7 @@ Wei-Wei Du, Wei-Yao Wang, Wen-Chih Peng. (2023)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Low-Resource, Self-Supervised  
-[Paper Link](http://arxiv.org/abs/2309.00855v1)  
+[Paper Link](http://arxiv.org/abs/2309.00855v2)  
 
 ---
 
@@ -693,7 +715,7 @@ The marketplace system connecting demands and supplies has been explored to deve
 {{</citation>}}
 
 
-### (30/44) Autonomous Soft Tissue Retraction Using Demonstration-Guided Reinforcement Learning (Amritpal Singh et al., 2023)
+### (31/45) Autonomous Soft Tissue Retraction Using Demonstration-Guided Reinforcement Learning (Amritpal Singh et al., 2023)
 
 {{<citation>}}
 
@@ -719,7 +741,7 @@ In the context of surgery, robots can provide substantial assistance by performi
 
 
 
-### (31/44) Multi-agent Collective Construction using 3D Decomposition (Akshaya Kesarimangalam Srinivasan et al., 2023)
+### (32/45) Multi-agent Collective Construction using 3D Decomposition (Akshaya Kesarimangalam Srinivasan et al., 2023)
 
 {{<citation>}}
 
@@ -741,7 +763,7 @@ This paper addresses a Multi-Agent Collective Construction (MACC) problem that a
 {{</citation>}}
 
 
-### (32/44) Developmental Scaffolding with Large Language Models (Batuhan Celik et al., 2023)
+### (33/45) Developmental Scaffolding with Large Language Models (Batuhan Celik et al., 2023)
 
 {{<citation>}}
 
@@ -763,7 +785,7 @@ Exploratoration and self-observation are key mechanisms of infant sensorimotor d
 {{</citation>}}
 
 
-### (33/44) Deep Reinforcement Learning in Surgical Robotics: Enhancing the Automation Level (Cheng Qian et al., 2023)
+### (34/45) Deep Reinforcement Learning in Surgical Robotics: Enhancing the Automation Level (Cheng Qian et al., 2023)
 
 {{<citation>}}
 
@@ -789,7 +811,7 @@ Surgical robotics is a rapidly evolving field that is transforming the landscape
 
 
 
-### (34/44) AdLER: Adversarial Training with Label Error Rectification for One-Shot Medical Image Segmentation (Xiangyu Zhao et al., 2023)
+### (35/45) AdLER: Adversarial Training with Label Error Rectification for One-Shot Medical Image Segmentation (Xiangyu Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -811,7 +833,7 @@ Accurate automatic segmentation of medical images typically requires large datas
 {{</citation>}}
 
 
-### (35/44) A Generic Fundus Image Enhancement Network Boosted by Frequency Self-supervised Representation Learning (Heng Li et al., 2023)
+### (36/45) A Generic Fundus Image Enhancement Network Boosted by Frequency Self-supervised Representation Learning (Heng Li et al., 2023)
 
 {{<citation>}}
 
@@ -833,7 +855,7 @@ Fundus photography is prone to suffer from image quality degradation that impact
 {{</citation>}}
 
 
-### (36/44) Full Reference Video Quality Assessment for Machine Learning-Based Video Codecs (Abrar Majeedi et al., 2023)
+### (37/45) Full Reference Video Quality Assessment for Machine Learning-Based Video Codecs (Abrar Majeedi et al., 2023)
 
 {{<citation>}}
 
@@ -859,7 +881,7 @@ Machine learning-based video codecs have made significant progress in the past f
 
 
 
-### (37/44) Timbre-reserved Adversarial Attack in Speaker Identification (Qing Wang et al., 2023)
+### (38/45) Timbre-reserved Adversarial Attack in Speaker Identification (Qing Wang et al., 2023)
 
 {{<citation>}}
 
@@ -881,7 +903,7 @@ As a type of biometric identification, a speaker identification (SID) system is 
 {{</citation>}}
 
 
-### (38/44) Pretraining Representations for Bioacoustic Few-shot Detection using Supervised Contrastive Learning (Ilyass Moummad et al., 2023)
+### (39/45) Pretraining Representations for Bioacoustic Few-shot Detection using Supervised Contrastive Learning (Ilyass Moummad et al., 2023)
 
 {{<citation>}}
 
@@ -907,7 +929,7 @@ Deep learning has been widely used recently for sound event detection and classi
 
 
 
-### (39/44) A Multi-Head Ensemble Multi-Task Learning Approach for Dynamical Computation Offloading (Ruihuai Liang et al., 2023)
+### (40/45) A Multi-Head Ensemble Multi-Task Learning Approach for Dynamical Computation Offloading (Ruihuai Liang et al., 2023)
 
 {{<citation>}}
 
@@ -933,7 +955,7 @@ Computation offloading has become a popular solution to support computationally 
 
 
 
-### (40/44) Large Process Models: Business Process Management in the Age of Generative AI (Timotheus Kampik et al., 2023)
+### (41/45) Large Process Models: Business Process Management in the Age of Generative AI (Timotheus Kampik et al., 2023)
 
 {{<citation>}}
 
@@ -955,7 +977,7 @@ The continued success of Large Language Models (LLMs) and other generative artif
 {{</citation>}}
 
 
-### (41/44) DeepScaler: Holistic Autoscaling for Microservices Based on Spatiotemporal GNN with Adaptive Graph Learning (Chunyang Meng et al., 2023)
+### (42/45) DeepScaler: Holistic Autoscaling for Microservices Based on Spatiotemporal GNN with Adaptive Graph Learning (Chunyang Meng et al., 2023)
 
 {{<citation>}}
 
@@ -981,7 +1003,7 @@ Autoscaling functions provide the foundation for achieving elasticity in the mod
 
 
 
-### (42/44) Trustworthiness-Driven Graph Convolutional Networks for Signed Network Embedding (Min-Jeong Kim et al., 2023)
+### (43/45) Trustworthiness-Driven Graph Convolutional Networks for Signed Network Embedding (Min-Jeong Kim et al., 2023)
 
 {{<citation>}}
 
@@ -1007,7 +1029,7 @@ The problem of representing nodes in a signed network as low-dimensional vectors
 
 
 
-### (43/44) Fairness Implications of Heterogeneous Treatment Effect Estimation with Machine Learning Methods in Policy-making (Patrick Rehill et al., 2023)
+### (44/45) Fairness Implications of Heterogeneous Treatment Effect Estimation with Machine Learning Methods in Policy-making (Patrick Rehill et al., 2023)
 
 {{<citation>}}
 
@@ -1033,7 +1055,7 @@ Causal machine learning methods which flexibly generate heterogeneous treatment 
 
 
 
-### (44/44) Accelerating LSTM-based High-Rate Dynamic System Models (Ehsan Kabir et al., 2023)
+### (45/45) Accelerating LSTM-based High-Rate Dynamic System Models (Ehsan Kabir et al., 2023)
 
 {{<citation>}}
 
