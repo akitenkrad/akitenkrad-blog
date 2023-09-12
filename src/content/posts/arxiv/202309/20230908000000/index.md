@@ -1104,18 +1104,18 @@ Online Continual Learning (OCL) addresses the problem of training neural network
 {{</citation>}}
 
 
-### (48/106) On Reducing Undesirable Behavior in Deep Reinforcement Learning Models (Ophir Carmel et al., 2023)
+### (48/106) On Reducing Undesirable Behavior in Deep Reinforcement Learning Models (Ophir M. Carmel et al., 2023)
 
 {{<citation>}}
 
-Ophir Carmel, Guy Katz. (2023)  
+Ophir M. Carmel, Guy Katz. (2023)  
 **On Reducing Undesirable Behavior in Deep Reinforcement Learning Models**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2309.02869v1)  
+[Paper Link](http://arxiv.org/abs/2309.02869v2)  
 
 ---
 
