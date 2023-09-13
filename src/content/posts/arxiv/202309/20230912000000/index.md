@@ -24,7 +24,7 @@ math: true
 - [cs.CL (13)](#cscl-13)
 - [eess.SY (2)](#eesssy-2)
 - [stat.ML (1)](#statml-1)
-- [cs.LG (3)](#cslg-3)
+- [cs.LG (4)](#cslg-4)
 - [cs.CR (3)](#cscr-3)
 - [cs.CV (11)](#cscv-11)
 - [cs.IR (3)](#csir-3)
@@ -38,7 +38,7 @@ math: true
 
 
 
-### (1/45) Collecting Visually-Grounded Dialogue with A Game Of Sorts (Bram Willemsen et al., 2023)
+### (1/46) Collecting Visually-Grounded Dialogue with A Game Of Sorts (Bram Willemsen et al., 2023)
 
 {{<citation>}}
 
@@ -60,7 +60,7 @@ An idealized, though simplistic, view of the referring expression production and
 {{</citation>}}
 
 
-### (2/45) Large Language Models for Difficulty Estimation of Foreign Language Content with Application to Language Learning (Michalis Vlachos et al., 2023)
+### (2/46) Large Language Models for Difficulty Estimation of Foreign Language Content with Application to Language Learning (Michalis Vlachos et al., 2023)
 
 {{<citation>}}
 
@@ -82,7 +82,7 @@ We use large language models to aid learners enhance proficiency in a foreign la
 {{</citation>}}
 
 
-### (3/45) AGent: A Novel Pipeline for Automatically Creating Unanswerable Questions (Son Quoc Tran et al., 2023)
+### (3/46) AGent: A Novel Pipeline for Automatically Creating Unanswerable Questions (Son Quoc Tran et al., 2023)
 
 {{<citation>}}
 
@@ -104,7 +104,7 @@ The development of large high-quality datasets and high-performing models have l
 {{</citation>}}
 
 
-### (4/45) Neural-Hidden-CRF: A Robust Weakly-Supervised Sequence Labeler (Zhijun Chen et al., 2023)
+### (4/46) Neural-Hidden-CRF: A Robust Weakly-Supervised Sequence Labeler (Zhijun Chen et al., 2023)
 
 {{<citation>}}
 
@@ -126,7 +126,7 @@ We propose a neuralized undirected graphical model called Neural-Hidden-CRF to s
 {{</citation>}}
 
 
-### (5/45) Chat2Brain: A Method for Mapping Open-Ended Semantic Queries to Brain Activation Maps (Yaonai Wei et al., 2023)
+### (5/46) Chat2Brain: A Method for Mapping Open-Ended Semantic Queries to Brain Activation Maps (Yaonai Wei et al., 2023)
 
 {{<citation>}}
 
@@ -148,7 +148,7 @@ Over decades, neuroscience has accumulated a wealth of research results in the t
 {{</citation>}}
 
 
-### (6/45) FOLLOWUPQG: Towards Information-Seeking Follow-up Question Generation (Yan Meng et al., 2023)
+### (6/46) FOLLOWUPQG: Towards Information-Seeking Follow-up Question Generation (Yan Meng et al., 2023)
 
 {{<citation>}}
 
@@ -170,7 +170,7 @@ Humans ask follow-up questions driven by curiosity, which reflects a creative hu
 {{</citation>}}
 
 
-### (7/45) Mitigating Word Bias in Zero-shot Prompt-based Classifiers (Adian Liusie et al., 2023)
+### (7/46) Mitigating Word Bias in Zero-shot Prompt-based Classifiers (Adian Liusie et al., 2023)
 
 {{<citation>}}
 
@@ -192,7 +192,7 @@ Prompt-based classifiers are an attractive approach for zero-shot classification
 {{</citation>}}
 
 
-### (8/45) Retrieval-Augmented Meta Learning for Low-Resource Text Classification (Rongsheng Li et al., 2023)
+### (8/46) Retrieval-Augmented Meta Learning for Low-Resource Text Classification (Rongsheng Li et al., 2023)
 
 {{<citation>}}
 
@@ -214,7 +214,7 @@ Meta learning have achieved promising performance in low-resource text classific
 {{</citation>}}
 
 
-### (9/45) RGAT: A Deeper Look into Syntactic Dependency Information for Coreference Resolution (Yuan Meng et al., 2023)
+### (9/46) RGAT: A Deeper Look into Syntactic Dependency Information for Coreference Resolution (Yuan Meng et al., 2023)
 
 {{<citation>}}
 
@@ -236,7 +236,7 @@ Although syntactic information is beneficial for many NLP tasks, combining it wi
 {{</citation>}}
 
 
-### (10/45) Prompt Learning With Knowledge Memorizing Prototypes For Generalized Few-Shot Intent Detection (Chaiyut Luoyiching et al., 2023)
+### (10/46) Prompt Learning With Knowledge Memorizing Prototypes For Generalized Few-Shot Intent Detection (Chaiyut Luoyiching et al., 2023)
 
 {{<citation>}}
 
@@ -258,7 +258,7 @@ Generalized Few-Shot Intent Detection (GFSID) is challenging and realistic becau
 {{</citation>}}
 
 
-### (11/45) Multi-document Summarization: A Comparative Evaluation (Kushan Hewapathirana et al., 2023)
+### (11/46) Multi-document Summarization: A Comparative Evaluation (Kushan Hewapathirana et al., 2023)
 
 {{<citation>}}
 
@@ -269,7 +269,7 @@ Kushan Hewapathirana, Nisansa de Silva, C. D. Athuraliya. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Summarization  
-[Paper Link](http://arxiv.org/abs/2309.04951v1)  
+[Paper Link](http://arxiv.org/abs/2309.04951v2)  
 
 ---
 
@@ -280,7 +280,7 @@ This paper is aimed at evaluating state-of-the-art models for Multi-document Sum
 {{</citation>}}
 
 
-### (12/45) What's Hard in English RST Parsing? Predictive Models for Error Analysis (Yang Janet Liu et al., 2023)
+### (12/46) What's Hard in English RST Parsing? Predictive Models for Error Analysis (Yang Janet Liu et al., 2023)
 
 {{<citation>}}
 
@@ -302,7 +302,7 @@ Despite recent advances in Natural Language Processing (NLP), hierarchical disco
 {{</citation>}}
 
 
-### (13/45) Unsupervised Chunking with Hierarchical RNN (Zijun Wu et al., 2023)
+### (13/46) Unsupervised Chunking with Hierarchical RNN (Zijun Wu et al., 2023)
 
 {{<citation>}}
 
@@ -328,7 +328,7 @@ In Natural Language Processing (NLP), predicting linguistic structures, such as 
 
 
 
-### (14/45) Kinematics-Based Sensor Fault Detection for Autonomous Vehicles Using Real-Time Numerical Differentiation (Shashank Verma et al., 2023)
+### (14/46) Kinematics-Based Sensor Fault Detection for Autonomous Vehicles Using Real-Time Numerical Differentiation (Shashank Verma et al., 2023)
 
 {{<citation>}}
 
@@ -350,7 +350,7 @@ Sensor fault detection is of extreme importance for ensuring the safe operation 
 {{</citation>}}
 
 
-### (15/45) Secure Set-Based State Estimation for Linear Systems under Adversarial Attacks on Sensors (Muhammad Umar B. Niazi et al., 2023)
+### (15/46) Secure Set-Based State Estimation for Linear Systems under Adversarial Attacks on Sensors (Muhammad Umar B. Niazi et al., 2023)
 
 {{<citation>}}
 
@@ -376,7 +376,7 @@ When a strategic adversary can attack multiple sensors of a system and freely ch
 
 
 
-### (16/45) Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood (Yaxuan Zhu et al., 2023)
+### (16/46) Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood (Yaxuan Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -398,11 +398,11 @@ Training energy-based models (EBMs) with maximum likelihood estimation on high-d
 {{</citation>}}
 
 
-## cs.LG (3)
+## cs.LG (4)
 
 
 
-### (17/45) Outlier Robust Adversarial Training (Shu Hu et al., 2023)
+### (17/46) Outlier Robust Adversarial Training (Shu Hu et al., 2023)
 
 {{<citation>}}
 
@@ -424,7 +424,7 @@ Supervised learning models are challenged by the intrinsic complexities of train
 {{</citation>}}
 
 
-### (18/45) Spatiotemporal Graph Neural Networks with Uncertainty Quantification for Traffic Incident Risk Prediction (Xiaowei Gao et al., 2023)
+### (18/46) Spatiotemporal Graph Neural Networks with Uncertainty Quantification for Traffic Incident Risk Prediction (Xiaowei Gao et al., 2023)
 
 {{<citation>}}
 
@@ -446,7 +446,7 @@ Predicting traffic incident risks at granular spatiotemporal levels is challengi
 {{</citation>}}
 
 
-### (19/45) Distance-Restricted Folklore Weisfeiler-Leman GNNs with Provable Cycle Counting Power (Junru Zhou et al., 2023)
+### (19/46) Distance-Restricted Folklore Weisfeiler-Leman GNNs with Provable Cycle Counting Power (Junru Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -468,11 +468,33 @@ The ability of graph neural networks (GNNs) to count certain graph substructures
 {{</citation>}}
 
 
+### (20/46) Knowledge-based Refinement of Scientific Publication Knowledge Graphs (Siwen Yan et al., 2023)
+
+{{<citation>}}
+
+Siwen Yan, Phillip Odom, Sriraam Natarajan. (2023)  
+**Knowledge-based Refinement of Scientific Publication Knowledge Graphs**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-DL, cs-LG, cs.LG  
+Keywords: Knowledge Graph  
+[Paper Link](http://arxiv.org/abs/2309.05681v1)  
+
+---
+
+
+**ABSTRACT**  
+We consider the problem of identifying authorship by posing it as a knowledge graph construction and refinement. To this effect, we model this problem as learning a probabilistic logic model in the presence of human guidance (knowledge-based learning). Specifically, we learn relational regression trees using functional gradient boosting that outputs explainable rules. To incorporate human knowledge, advice in the form of first-order clauses is injected to refine the trees. We demonstrate the usefulness of human knowledge both quantitatively and qualitatively in seven authorship domains.
+
+{{</citation>}}
+
+
 ## cs.CR (3)
 
 
 
-### (20/45) GenAIPABench: A Benchmark for Generative AI-based Privacy Assistants (Aamir Hamid et al., 2023)
+### (21/46) GenAIPABench: A Benchmark for Generative AI-based Privacy Assistants (Aamir Hamid et al., 2023)
 
 {{<citation>}}
 
@@ -494,7 +516,7 @@ Privacy policies inform users about the data management practices of organizatio
 {{</citation>}}
 
 
-### (21/45) A Review of Machine Learning-based Security in Cloud Computing (Aptin Babaei et al., 2023)
+### (22/46) A Review of Machine Learning-based Security in Cloud Computing (Aptin Babaei et al., 2023)
 
 {{<citation>}}
 
@@ -516,7 +538,7 @@ Cloud Computing (CC) is revolutionizing the way IT resources are delivered to us
 {{</citation>}}
 
 
-### (22/45) Bicoptor 2.0: Addressing Challenges in Probabilistic Truncation for Enhanced Privacy-Preserving Machine Learning (Lijing Zhou et al., 2023)
+### (23/46) Bicoptor 2.0: Addressing Challenges in Probabilistic Truncation for Enhanced Privacy-Preserving Machine Learning (Lijing Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -542,7 +564,7 @@ This paper primarily focuses on analyzing the problems and proposing solutions f
 
 
 
-### (23/45) DAD++: Improved Data-free Test Time Adversarial Defense (Gaurav Kumar Nayak et al., 2023)
+### (24/46) DAD++: Improved Data-free Test Time Adversarial Defense (Gaurav Kumar Nayak et al., 2023)
 
 {{<citation>}}
 
@@ -564,7 +586,7 @@ With the increasing deployment of deep neural networks in safety-critical applic
 {{</citation>}}
 
 
-### (24/45) Sculpting Efficiency: Pruning Medical Imaging Models for On-Device Inference (Sudarshan Sreeram et al., 2023)
+### (25/46) Sculpting Efficiency: Pruning Medical Imaging Models for On-Device Inference (Sudarshan Sreeram et al., 2023)
 
 {{<citation>}}
 
@@ -586,7 +608,7 @@ Applying ML advancements to healthcare can improve patient outcomes. However, th
 {{</citation>}}
 
 
-### (25/45) FreeMan: Towards Benchmarking 3D Human Pose Estimation in the Wild (Jiong Wang et al., 2023)
+### (26/46) FreeMan: Towards Benchmarking 3D Human Pose Estimation in the Wild (Jiong Wang et al., 2023)
 
 {{<citation>}}
 
@@ -597,7 +619,7 @@ Jiong Wang, Fengyu Yang, Wenbo Gou, Bingliang Li, Danqi Yan, Ailing Zeng, Yijun 
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2309.05073v1)  
+[Paper Link](http://arxiv.org/abs/2309.05073v2)  
 
 ---
 
@@ -608,7 +630,7 @@ Estimating the 3D structure of the human body from natural scenes is a fundament
 {{</citation>}}
 
 
-### (26/45) Exploiting CLIP for Zero-shot HOI Detection Requires Knowledge Distillation at Multiple Levels (Bo Wan et al., 2023)
+### (27/46) Exploiting CLIP for Zero-shot HOI Detection Requires Knowledge Distillation at Multiple Levels (Bo Wan et al., 2023)
 
 {{<citation>}}
 
@@ -630,7 +652,7 @@ In this paper, we investigate the task of zero-shot human-object interaction (HO
 {{</citation>}}
 
 
-### (27/45) Unified Contrastive Fusion Transformer for Multimodal Human Action Recognition (Kyoung Ok Yang et al., 2023)
+### (28/46) Unified Contrastive Fusion Transformer for Multimodal Human Action Recognition (Kyoung Ok Yang et al., 2023)
 
 {{<citation>}}
 
@@ -652,7 +674,7 @@ Various types of sensors have been considered to develop human action recognitio
 {{</citation>}}
 
 
-### (28/45) DeViT: Decomposing Vision Transformers for Collaborative Inference in Edge Devices (Guanyu Xu et al., 2023)
+### (29/46) DeViT: Decomposing Vision Transformers for Collaborative Inference in Edge Devices (Guanyu Xu et al., 2023)
 
 {{<citation>}}
 
@@ -674,7 +696,7 @@ Recent years have witnessed the great success of vision transformer (ViT), which
 {{</citation>}}
 
 
-### (29/45) Prefix-diffusion: A Lightweight Diffusion Model for Diverse Image Captioning (Guisheng Liu et al., 2023)
+### (30/46) Prefix-diffusion: A Lightweight Diffusion Model for Diverse Image Captioning (Guisheng Liu et al., 2023)
 
 {{<citation>}}
 
@@ -696,7 +718,7 @@ While impressive performance has been achieved in image captioning, the limited 
 {{</citation>}}
 
 
-### (30/45) Semi-Supervised learning for Face Anti-Spoofing using Apex frame (Usman Muhammad et al., 2023)
+### (31/46) Semi-Supervised learning for Face Anti-Spoofing using Apex frame (Usman Muhammad et al., 2023)
 
 {{<citation>}}
 
@@ -718,18 +740,18 @@ Conventional feature extraction techniques in the face anti-spoofing domain eith
 {{</citation>}}
 
 
-### (31/45) MFPNet: Multi-scale Feature Propagation Nwtwork For Lightweight Semantic Segmentation (Guoan Xu et al., 2023)
+### (32/46) MFPNet: Multi-scale Feature Propagation Network For Lightweight Semantic Segmentation (Guoan Xu et al., 2023)
 
 {{<citation>}}
 
 Guoan Xu, Wenjing Jia, Tao Wu, Ligeng Chen. (2023)  
-**MFPNet: Multi-scale Feature Propagation Nwtwork For Lightweight Semantic Segmentation**  
+**MFPNet: Multi-scale Feature Propagation Network For Lightweight Semantic Segmentation**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Graph Convolutional Network, Semantic Segmentation  
-[Paper Link](http://arxiv.org/abs/2309.04914v1)  
+[Paper Link](http://arxiv.org/abs/2309.04914v2)  
 
 ---
 
@@ -740,7 +762,7 @@ In contrast to the abundant research focusing on large-scale models, the progres
 {{</citation>}}
 
 
-### (32/45) Effective Real Image Editing with Accelerated Iterative Diffusion Inversion (Zhihong Pan et al., 2023)
+### (33/46) Effective Real Image Editing with Accelerated Iterative Diffusion Inversion (Zhihong Pan et al., 2023)
 
 {{<citation>}}
 
@@ -762,7 +784,7 @@ Despite all recent progress, it is still challenging to edit and manipulate natu
 {{</citation>}}
 
 
-### (33/45) Transformers in Small Object Detection: A Benchmark and Survey of State-of-the-Art (Aref Miri Rekavandi et al., 2023)
+### (34/46) Transformers in Small Object Detection: A Benchmark and Survey of State-of-the-Art (Aref Miri Rekavandi et al., 2023)
 
 {{<citation>}}
 
@@ -788,7 +810,7 @@ Transformers have rapidly gained popularity in computer vision, especially in th
 
 
 
-### (34/45) Learning Personalized User Preference from Cold Start in Multi-turn Conversations (Deguang Kong et al., 2023)
+### (35/46) Learning Personalized User Preference from Cold Start in Multi-turn Conversations (Deguang Kong et al., 2023)
 
 {{<citation>}}
 
@@ -810,7 +832,7 @@ This paper presents a novel teachable conversation interaction system that is ca
 {{</citation>}}
 
 
-### (35/45) Duplicate Question Retrieval and Confirmation Time Prediction in Software Communities (Rima Hazra et al., 2023)
+### (36/46) Duplicate Question Retrieval and Confirmation Time Prediction in Software Communities (Rima Hazra et al., 2023)
 
 {{<citation>}}
 
@@ -832,7 +854,7 @@ Community Question Answering (CQA) in different domains is growing at a large sc
 {{</citation>}}
 
 
-### (36/45) Multi-modal Extreme Classification (Anshul Mittal et al., 2023)
+### (37/46) Multi-modal Extreme Classification (Anshul Mittal et al., 2023)
 
 {{<citation>}}
 
@@ -858,7 +880,7 @@ This paper develops the MUFIN technique for extreme classification (XC) tasks wi
 
 
 
-### (37/45) Towards Trustworthy Artificial Intelligence for Equitable Global Health (Hong Qin et al., 2023)
+### (38/46) Towards Trustworthy Artificial Intelligence for Equitable Global Health (Hong Qin et al., 2023)
 
 {{<citation>}}
 
@@ -880,7 +902,7 @@ Artificial intelligence (AI) can potentially transform global health, but algori
 {{</citation>}}
 
 
-### (38/45) Decolonial AI Alignment: Viśesadharma, Argument, and Artistic Expression (Kush R. Varshney, 2023)
+### (39/46) Decolonial AI Alignment: Viśesadharma, Argument, and Artistic Expression (Kush R. Varshney, 2023)
 
 {{<citation>}}
 
@@ -902,7 +924,7 @@ Prior work has explicated the coloniality of artificial intelligence (AI) develo
 {{</citation>}}
 
 
-### (39/45) Gender Bias in Multimodal Models: A Transnational Feminist Approach Considering Geographical Region and Culture (Abhishek Mandal et al., 2023)
+### (40/46) Gender Bias in Multimodal Models: A Transnational Feminist Approach Considering Geographical Region and Culture (Abhishek Mandal et al., 2023)
 
 {{<citation>}}
 
@@ -928,7 +950,7 @@ Deep learning based visual-linguistic multimodal models such as Contrastive Lang
 
 
 
-### (40/45) An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents (Maximilian Croissant et al., 2023)
+### (41/46) An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents (Maximilian Croissant et al., 2023)
 
 {{<citation>}}
 
@@ -954,7 +976,7 @@ The development of believable, natural, and interactive digital artificial agent
 
 
 
-### (41/45) LiSum: Open Source Software License Summarization with Multi-Task Learning (Linyu Li et al., 2023)
+### (42/46) LiSum: Open Source Software License Summarization with Multi-Task Learning (Linyu Li et al., 2023)
 
 {{<citation>}}
 
@@ -980,7 +1002,7 @@ Open source software (OSS) licenses regulate the conditions under which users ca
 
 
 
-### (42/45) Chasing the Intruder: A Reinforcement Learning Approach for Tracking Intruder Drones (Shivam Kainth et al., 2023)
+### (43/46) Chasing the Intruder: A Reinforcement Learning Approach for Tracking Intruder Drones (Shivam Kainth et al., 2023)
 
 {{<citation>}}
 
@@ -1002,7 +1024,7 @@ Drones are becoming versatile in a myriad of applications. This has led to the u
 {{</citation>}}
 
 
-### (43/45) Continual Robot Learning using Self-Supervised Task Inference (Muhammad Burhan Hafez et al., 2023)
+### (44/46) Continual Robot Learning using Self-Supervised Task Inference (Muhammad Burhan Hafez et al., 2023)
 
 {{<citation>}}
 
@@ -1024,7 +1046,7 @@ Endowing robots with the human ability to learn a growing set of skills over the
 {{</citation>}}
 
 
-### (44/45) LONER: LiDAR Only Neural Representations for Real-Time SLAM (Seth Isaacson et al., 2023)
+### (45/46) LONER: LiDAR Only Neural Representations for Real-Time SLAM (Seth Isaacson et al., 2023)
 
 {{<citation>}}
 
@@ -1035,13 +1057,13 @@ Seth Isaacson, Pou-Chun Kung, Mani Ramanagopal, Ram Vasudevan, Katherine A. Skin
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: NER  
-[Paper Link](http://arxiv.org/abs/2309.04937v1)  
+[Paper Link](http://arxiv.org/abs/2309.04937v2)  
 
 ---
 
 
 **ABSTRACT**  
-This paper proposes LONER, the first real-time LiDAR SLAM algorithm that uses a neural implicit scene representation. Existing implicit mapping methods for LiDAR show promising results in large-scale reconstruction, but either require groundtruth poses or run slower than real-time. In contrast, LONER uses LiDAR data to train an MLP to estimate a dense map in real-time, while simultaneously estimating the trajectory of the sensor. To achieve real-time performance, this paper proposes a novel information-theoretic loss function that accounts for the fact that different regions of the map may be learned to varying degrees throughout online training. % different regions of the map having varying degrees of uncertainty during online operation. The proposed method is evaluated qualitatively and quantitatively on two open-source datasets. This evaluation illustrates that the proposed loss function converges faster and leads to more accurate geometry reconstruction than other loss functions used in depth-supervised neural implicit frameworks. Finally, this paper shows that LONER estimates trajectories competitively with state-of-the-art LiDAR SLAM methods, while also producing dense maps competitive with existing real-time implicit mapping methods that use groundtruth poses.
+This paper proposes LONER, the first real-time LiDAR SLAM algorithm that uses a neural implicit scene representation. Existing implicit mapping methods for LiDAR show promising results in large-scale reconstruction, but either require groundtruth poses or run slower than real-time. In contrast, LONER uses LiDAR data to train an MLP to estimate a dense map in real-time, while simultaneously estimating the trajectory of the sensor. To achieve real-time performance, this paper proposes a novel information-theoretic loss function that accounts for the fact that different regions of the map may be learned to varying degrees throughout online training. The proposed method is evaluated qualitatively and quantitatively on two open-source datasets. This evaluation illustrates that the proposed loss function converges faster and leads to more accurate geometry reconstruction than other loss functions used in depth-supervised neural implicit frameworks. Finally, this paper shows that LONER estimates trajectories competitively with state-of-the-art LiDAR SLAM methods, while also producing dense maps competitive with existing real-time implicit mapping methods that use groundtruth poses.
 
 {{</citation>}}
 
@@ -1050,7 +1072,7 @@ This paper proposes LONER, the first real-time LiDAR SLAM algorithm that uses a 
 
 
 
-### (45/45) A multiple k-means cluster ensemble framework for clustering citation trajectories (Joyita Chakraborty et al., 2023)
+### (46/46) A multiple k-means cluster ensemble framework for clustering citation trajectories (Joyita Chakraborty et al., 2023)
 
 {{<citation>}}
 

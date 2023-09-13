@@ -22,23 +22,23 @@ math: true
 ## Primary Categories
 
 - [cs.CV (12)](#cscv-12)
+- [cs.HC (3)](#cshc-3)
 - [cs.LG (7)](#cslg-7)
 - [cs.CL (15)](#cscl-15)
+- [eess.SY (2)](#eesssy-2)
 - [quant-ph (1)](#quant-ph-1)
 - [cs.CR (2)](#cscr-2)
 - [cs.SE (1)](#csse-1)
 - [cs.SD (2)](#cssd-2)
-- [eess.SY (1)](#eesssy-1)
-- [cs.HC (2)](#cshc-2)
 - [cs.RO (1)](#csro-1)
-- [eess.IV (2)](#eessiv-2)
+- [eess.IV (3)](#eessiv-3)
 - [cs.SI (1)](#cssi-1)
 
 ## cs.CV (12)
 
 
 
-### (1/47) How to Evaluate Semantic Communications for Images with ViTScore Metric? (Tingting Zhu et al., 2023)
+### (1/50) How to Evaluate Semantic Communications for Images with ViTScore Metric? (Tingting Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -60,7 +60,7 @@ Semantic communications (SC) have been expected to be a new paradigm shifting to
 {{</citation>}}
 
 
-### (2/47) Few-Shot Medical Image Segmentation via a Region-enhanced Prototypical Transformer (Yazhou Zhu et al., 2023)
+### (2/50) Few-Shot Medical Image Segmentation via a Region-enhanced Prototypical Transformer (Yazhou Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -82,7 +82,7 @@ Automated segmentation of large volumes of medical images is often plagued by th
 {{</citation>}}
 
 
-### (3/47) Timely Fusion of Surround Radar/Lidar for Object Detection in Autonomous Driving Systems (Wenjing Xie et al., 2023)
+### (3/50) Timely Fusion of Surround Radar/Lidar for Object Detection in Autonomous Driving Systems (Wenjing Xie et al., 2023)
 
 {{<citation>}}
 
@@ -104,7 +104,7 @@ Fusing Radar and Lidar sensor data can fully utilize their complementary advanta
 {{</citation>}}
 
 
-### (4/47) Towards Real-World Burst Image Super-Resolution: Benchmark and Method (Pengxu Wei et al., 2023)
+### (4/50) Towards Real-World Burst Image Super-Resolution: Benchmark and Method (Pengxu Wei et al., 2023)
 
 {{<citation>}}
 
@@ -126,7 +126,7 @@ Despite substantial advances, single-image super-resolution (SISR) is always in 
 {{</citation>}}
 
 
-### (5/47) Self-Supervised Transformer with Domain Adaptive Reconstruction for General Face Forgery Video Detection (Daichi Zhang et al., 2023)
+### (5/50) Self-Supervised Transformer with Domain Adaptive Reconstruction for General Face Forgery Video Detection (Daichi Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -148,7 +148,7 @@ Face forgery videos have caused severe social public concern, and various detect
 {{</citation>}}
 
 
-### (6/47) When to Learn What: Model-Adaptive Data Augmentation Curriculum (Chengkai Hou et al., 2023)
+### (6/50) When to Learn What: Model-Adaptive Data Augmentation Curriculum (Chengkai Hou et al., 2023)
 
 {{<citation>}}
 
@@ -170,7 +170,7 @@ Data augmentation (DA) is widely used to improve the generalization of neural ne
 {{</citation>}}
 
 
-### (7/47) Frequency-Aware Self-Supervised Long-Tailed Learning (Ci-Siang Lin et al., 2023)
+### (7/50) Frequency-Aware Self-Supervised Long-Tailed Learning (Ci-Siang Lin et al., 2023)
 
 {{<citation>}}
 
@@ -192,7 +192,7 @@ Data collected from the real world typically exhibit long-tailed distributions, 
 {{</citation>}}
 
 
-### (8/47) UnitModule: A Lightweight Joint Image Enhancement Module for Underwater Object Detection (Zhuoyan Liu et al., 2023)
+### (8/50) UnitModule: A Lightweight Joint Image Enhancement Module for Underwater Object Detection (Zhuoyan Liu et al., 2023)
 
 {{<citation>}}
 
@@ -214,7 +214,7 @@ Underwater object detection faces the problem of underwater image degradation, w
 {{</citation>}}
 
 
-### (9/47) A Spatial-Temporal Deformable Attention based Framework for Breast Lesion Detection in Videos (Chao Qin et al., 2023)
+### (9/50) A Spatial-Temporal Deformable Attention based Framework for Breast Lesion Detection in Videos (Chao Qin et al., 2023)
 
 {{<citation>}}
 
@@ -236,7 +236,7 @@ Detecting breast lesion in videos is crucial for computer-aided diagnosis. Exist
 {{</citation>}}
 
 
-### (10/47) DeNoising-MOT: Towards Multiple Object Tracking with Severe Occlusions (Teng Fu et al., 2023)
+### (10/50) DeNoising-MOT: Towards Multiple Object Tracking with Severe Occlusions (Teng Fu et al., 2023)
 
 {{<citation>}}
 
@@ -258,7 +258,7 @@ Multiple object tracking (MOT) tends to become more challenging when severe occl
 {{</citation>}}
 
 
-### (11/47) BiLMa: Bidirectional Local-Matching for Text-based Person Re-identification (Takuro Fujii et al., 2023)
+### (11/50) BiLMa: Bidirectional Local-Matching for Text-based Person Re-identification (Takuro Fujii et al., 2023)
 
 {{<citation>}}
 
@@ -280,7 +280,7 @@ Text-based person re-identification (TBPReID) aims to retrieve person images rep
 {{</citation>}}
 
 
-### (12/47) Unified Language-Vision Pretraining with Dynamic Discrete Visual Tokenization (Yang Jin et al., 2023)
+### (12/50) Unified Language-Vision Pretraining with Dynamic Discrete Visual Tokenization (Yang Jin et al., 2023)
 
 {{<citation>}}
 
@@ -302,11 +302,81 @@ Recently, the remarkable advance of the Large Language Model (LLM) has inspired 
 {{</citation>}}
 
 
+## cs.HC (3)
+
+
+
+### (13/50) Evaluating Chatbots to Promote Users' Trust -- Practices and Open Problems (Biplav Srivastava et al., 2023)
+
+{{<citation>}}
+
+Biplav Srivastava, Kausik Lakkaraju, Tarmo Koppel, Vignesh Narayanan, Ashish Kundu, Sachindra Joshi. (2023)  
+**Evaluating Chatbots to Promote Users' Trust -- Practices and Open Problems**  
+
+---
+Primary Category: cs.HC  
+Categories: cs-AI, cs-HC, cs-SE, cs.HC  
+Keywords: AI, ChatGPT, GPT, Language Model  
+[Paper Link](http://arxiv.org/abs/2309.05680v1)  
+
+---
+
+
+**ABSTRACT**  
+Chatbots, the common moniker for collaborative assistants, are Artificial Intelligence (AI) software that enables people to naturally interact with them to get tasks done. Although chatbots have been studied since the dawn of AI, they have particularly caught the imagination of the public and businesses since the launch of easy-to-use and general-purpose Large Language Model-based chatbots like ChatGPT. As businesses look towards chatbots as a potential technology to engage users, who may be end customers, suppliers, or even their own employees, proper testing of chatbots is important to address and mitigate issues of trust related to service or product performance, user satisfaction and long-term unintended consequences for society. This paper reviews current practices for chatbot testing, identifies gaps as open problems in pursuit of user trust, and outlines a path forward.
+
+{{</citation>}}
+
+
+### (14/50) A Visual Analytic Environment to Co-locate Peoples' Tweets with City Factual Data (Snehal Patil et al., 2023)
+
+{{<citation>}}
+
+Snehal Patil, Shah Rukh Humayoun. (2023)  
+**A Visual Analytic Environment to Co-locate Peoples' Tweets with City Factual Data**  
+
+---
+Primary Category: cs.HC  
+Categories: cs-HC, cs.HC  
+Keywords: Social Media, Twitter  
+[Paper Link](http://arxiv.org/abs/2309.04724v1)  
+
+---
+
+
+**ABSTRACT**  
+Social Media platforms (e.g., Twitter, Facebook, etc.) are used heavily by public to provide news, opinions, and reactions towards events or topics. Integrating such data with the event or topic factual data could provide a more comprehensive understanding of the underlying event or topic. Targeting this, we present our visual analytics tool, called VC-FaT, that integrates peoples' tweet data regarding crimes in San Francisco city with the city factual crime data. VC-FaT provides a number of interactive visualizations using both data sources for better understanding and exploration of crime activities happened in the city during a period of five years.
+
+{{</citation>}}
+
+
+### (15/50) TECVis: A Visual Analytics Tool to Compare People's Emotion Feelings (Ilya Nemtsov et al., 2023)
+
+{{<citation>}}
+
+Ilya Nemtsov, MST Jasmine Jahan, Chuting Yan, Shah Rukh Humayoun. (2023)  
+**TECVis: A Visual Analytics Tool to Compare People's Emotion Feelings**  
+
+---
+Primary Category: cs.HC  
+Categories: cs-HC, cs.HC  
+Keywords: Twitter  
+[Paper Link](http://arxiv.org/abs/2309.04722v1)  
+
+---
+
+
+**ABSTRACT**  
+Twitter is one of the popular social media platforms where people share news or reactions towards an event or topic using short text messages called "tweets". Emotion analysis in these tweets can play a vital role in understanding peoples' feelings towards the underlying event or topic. In this work, we present our visual analytics tool, called TECVis, that focuses on providing comparison views of peoples' emotion feelings in tweets towards an event or topic. The comparison is done based on geolocations or timestamps. TECVis provides several interaction and filtering options for navigation and better exploration of underlying tweet data for emotion feelings comparison.
+
+{{</citation>}}
+
+
 ## cs.LG (7)
 
 
 
-### (13/47) Symplectic Structure-Aware Hamiltonian (Graph) Embeddings (Jiaxu Liu et al., 2023)
+### (16/50) Symplectic Structure-Aware Hamiltonian (Graph) Embeddings (Jiaxu Liu et al., 2023)
 
 {{<citation>}}
 
@@ -328,7 +398,7 @@ In traditional Graph Neural Networks (GNNs), the assumption of a fixed embedding
 {{</citation>}}
 
 
-### (14/47) Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System (Daphne Ippolito et al., 2023)
+### (17/50) Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System (Daphne Ippolito et al., 2023)
 
 {{<citation>}}
 
@@ -350,7 +420,7 @@ Neural language models are increasingly deployed into APIs and websites that all
 {{</citation>}}
 
 
-### (15/47) RR-CP: Reliable-Region-Based Conformal Prediction for Trustworthy Medical Image Classification (Yizhe Zhang et al., 2023)
+### (18/50) RR-CP: Reliable-Region-Based Conformal Prediction for Trustworthy Medical Image Classification (Yizhe Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -372,7 +442,7 @@ Conformal prediction (CP) generates a set of predictions for a given test sample
 {{</citation>}}
 
 
-### (16/47) A Spatiotemporal Deep Neural Network for Fine-Grained Multi-Horizon Wind Prediction (Fanling Huang et al., 2023)
+### (19/50) A Spatiotemporal Deep Neural Network for Fine-Grained Multi-Horizon Wind Prediction (Fanling Huang et al., 2023)
 
 {{<citation>}}
 
@@ -394,7 +464,7 @@ The prediction of wind in terms of both wind speed and direction, which has a cr
 {{</citation>}}
 
 
-### (17/47) TCGAN: Convolutional Generative Adversarial Network for Time Series Classification and Clustering (Fanling Huang et al., 2023)
+### (20/50) TCGAN: Convolutional Generative Adversarial Network for Time Series Classification and Clustering (Fanling Huang et al., 2023)
 
 {{<citation>}}
 
@@ -416,7 +486,7 @@ Recent works have demonstrated the superiority of supervised Convolutional Neura
 {{</citation>}}
 
 
-### (18/47) Toward Reproducing Network Research Results Using Large Language Models (Qiao Xiang et al., 2023)
+### (21/50) Toward Reproducing Network Research Results Using Large Language Models (Qiao Xiang et al., 2023)
 
 {{<citation>}}
 
@@ -438,7 +508,7 @@ Reproducing research results in the networking community is important for both a
 {{</citation>}}
 
 
-### (19/47) Redundancy-Free Self-Supervised Relational Learning for Graph Clustering (Si-Yu Yi et al., 2023)
+### (22/50) Redundancy-Free Self-Supervised Relational Learning for Graph Clustering (Si-Yu Yi et al., 2023)
 
 {{<citation>}}
 
@@ -464,7 +534,7 @@ Graph clustering, which learns the node representations for effective cluster as
 
 
 
-### (20/47) Distributional Data Augmentation Methods for Low Resource Language (Mosleh Mahamud et al., 2023)
+### (23/50) Distributional Data Augmentation Methods for Low Resource Language (Mosleh Mahamud et al., 2023)
 
 {{<citation>}}
 
@@ -486,7 +556,7 @@ Text augmentation is a technique for constructing synthetic data from an under-r
 {{</citation>}}
 
 
-### (21/47) Speech Emotion Recognition with Distilled Prosodic and Linguistic Affect Representations (Debaditya Shome et al., 2023)
+### (24/50) Speech Emotion Recognition with Distilled Prosodic and Linguistic Affect Representations (Debaditya Shome et al., 2023)
 
 {{<citation>}}
 
@@ -508,7 +578,7 @@ We propose EmoDistill, a novel speech emotion recognition (SER) framework that l
 {{</citation>}}
 
 
-### (22/47) Leveraging Large Language Models for Exploiting ASR Uncertainty (Pranay Dighe et al., 2023)
+### (25/50) Leveraging Large Language Models for Exploiting ASR Uncertainty (Pranay Dighe et al., 2023)
 
 {{<citation>}}
 
@@ -519,7 +589,7 @@ Pranay Dighe, Yi Su, Shangshang Zheng, Yunshu Liu, Vineet Garg, Xiaochuan Niu, A
 Primary Category: cs.CL  
 Categories: cs-CL, cs-HC, cs-SD, cs.CL, eess-AS  
 Keywords: Language Model, NLP  
-[Paper Link](http://arxiv.org/abs/2309.04842v1)  
+[Paper Link](http://arxiv.org/abs/2309.04842v2)  
 
 ---
 
@@ -530,7 +600,7 @@ While large language models excel in a variety of natural language processing (N
 {{</citation>}}
 
 
-### (23/47) Neurons in Large Language Models: Dead, N-gram, Positional (Elena Voita et al., 2023)
+### (26/50) Neurons in Large Language Models: Dead, N-gram, Positional (Elena Voita et al., 2023)
 
 {{<citation>}}
 
@@ -552,7 +622,7 @@ We analyze a family of large language models in such a lightweight manner that c
 {{</citation>}}
 
 
-### (24/47) FaNS: a Facet-based Narrative Similarity Metric (Mousumi Akter et al., 2023)
+### (27/50) FaNS: a Facet-based Narrative Similarity Metric (Mousumi Akter et al., 2023)
 
 {{<citation>}}
 
@@ -574,7 +644,7 @@ Similar Narrative Retrieval is a crucial task since narratives are essential for
 {{</citation>}}
 
 
-### (25/47) MMHQA-ICL: Multimodal In-context Learning for Hybrid Question Answering over Text, Tables and Images (Weihao Liu et al., 2023)
+### (28/50) MMHQA-ICL: Multimodal In-context Learning for Hybrid Question Answering over Text, Tables and Images (Weihao Liu et al., 2023)
 
 {{<citation>}}
 
@@ -596,7 +666,7 @@ In the real world, knowledge often exists in a multimodal and heterogeneous form
 {{</citation>}}
 
 
-### (26/47) SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning (Bin Wang et al., 2023)
+### (29/50) SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning (Bin Wang et al., 2023)
 
 {{<citation>}}
 
@@ -618,7 +688,7 @@ We present SeaEval, a benchmark for multilingual foundation models. In addition 
 {{</citation>}}
 
 
-### (27/47) Data Augmentation for Conversational AI (Heydar Soudani et al., 2023)
+### (30/50) Data Augmentation for Conversational AI (Heydar Soudani et al., 2023)
 
 {{<citation>}}
 
@@ -640,7 +710,7 @@ Advancements in conversational systems have revolutionized information access, s
 {{</citation>}}
 
 
-### (28/47) EPA: Easy Prompt Augmentation on Large Language Models via Multiple Sources and Multiple Targets (Hongyuan Lu et al., 2023)
+### (31/50) EPA: Easy Prompt Augmentation on Large Language Models via Multiple Sources and Multiple Targets (Hongyuan Lu et al., 2023)
 
 {{<citation>}}
 
@@ -662,7 +732,7 @@ Large language models (LLMs) have shown promising performance on various NLP tas
 {{</citation>}}
 
 
-### (29/47) Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Model (Bohdan M. Pavlyshenko, 2023)
+### (32/50) Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Model (Bohdan M. Pavlyshenko, 2023)
 
 {{<citation>}}
 
@@ -684,7 +754,7 @@ The paper considers the possibility of fine-tuning Llama 2 large language model 
 {{</citation>}}
 
 
-### (30/47) Code-Style In-Context Learning for Knowledge-Based Question Answering (Zhijie Nie et al., 2023)
+### (33/50) Code-Style In-Context Learning for Knowledge-Based Question Answering (Zhijie Nie et al., 2023)
 
 {{<citation>}}
 
@@ -706,7 +776,7 @@ Current methods for Knowledge-Based Question Answering (KBQA) usually rely on co
 {{</citation>}}
 
 
-### (31/47) Embedding structure matters: Comparing methods to adapt multilingual vocabularies to new languages (C. M. Downey et al., 2023)
+### (34/50) Embedding structure matters: Comparing methods to adapt multilingual vocabularies to new languages (C. M. Downey et al., 2023)
 
 {{<citation>}}
 
@@ -728,7 +798,7 @@ Pre-trained multilingual language models underpin a large portion of modern NLP 
 {{</citation>}}
 
 
-### (32/47) MADLAD-400: A Multilingual And Document-Level Large Audited Dataset (Sneha Kudugunta et al., 2023)
+### (35/50) MADLAD-400: A Multilingual And Document-Level Large Audited Dataset (Sneha Kudugunta et al., 2023)
 
 {{<citation>}}
 
@@ -750,7 +820,7 @@ We introduce MADLAD-400, a manually audited, general domain 3T token monolingual
 {{</citation>}}
 
 
-### (33/47) Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf (Yuzhuang Xu et al., 2023)
+### (36/50) Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf (Yuzhuang Xu et al., 2023)
 
 {{<citation>}}
 
@@ -772,7 +842,7 @@ Communication games, which we refer to as incomplete information games that heav
 {{</citation>}}
 
 
-### (34/47) Efficient Finetuning Large Language Models For Vietnamese Chatbot (Vu-Thuan Doan et al., 2023)
+### (37/50) Efficient Finetuning Large Language Models For Vietnamese Chatbot (Vu-Thuan Doan et al., 2023)
 
 {{<citation>}}
 
@@ -794,11 +864,59 @@ Large language models (LLMs), such as GPT-4, PaLM, and LLaMa, have been shown to
 {{</citation>}}
 
 
+## eess.SY (2)
+
+
+
+### (38/50) Verifiable Reinforcement Learning Systems via Compositionality (Cyrus Neary et al., 2023)
+
+{{<citation>}}
+
+Cyrus Neary, Aryaman Singh Samyal, Christos Verginis, Murat Cubuktepe, Ufuk Topcu. (2023)  
+**Verifiable Reinforcement Learning Systems via Compositionality**  
+
+---
+Primary Category: eess.SY  
+Categories: cs-AI, cs-LG, cs-SY, eess-SY, eess.SY  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2309.06420v1)  
+
+---
+
+
+**ABSTRACT**  
+We propose a framework for verifiable and compositional reinforcement learning (RL) in which a collection of RL subsystems, each of which learns to accomplish a separate subtask, are composed to achieve an overall task. The framework consists of a high-level model, represented as a parametric Markov decision process, which is used to plan and analyze compositions of subsystems, and of the collection of low-level subsystems themselves. The subsystems are implemented as deep RL agents operating under partial observability. By defining interfaces between the subsystems, the framework enables automatic decompositions of task specifications, e.g., reach a target set of states with a probability of at least 0.95, into individual subtask specifications, i.e. achieve the subsystem's exit conditions with at least some minimum probability, given that its entry conditions are met. This in turn allows for the independent training and testing of the subsystems. We present theoretical results guaranteeing that if each subsystem learns a policy satisfying its subtask specification, then their composition is guaranteed to satisfy the overall task specification. Conversely, if the subtask specifications cannot all be satisfied by the learned policies, we present a method, formulated as the problem of finding an optimal set of parameters in the high-level model, to automatically update the subtask specifications to account for the observed shortcomings. The result is an iterative procedure for defining subtask specifications, and for training the subsystems to meet them. Experimental results demonstrate the presented framework's novel capabilities in environments with both full and partial observability, discrete and continuous state and action spaces, as well as deterministic and stochastic dynamics.
+
+{{</citation>}}
+
+
+### (39/50) Integrated Robotics Networks with Co-optimization of Drone Placement and Air-Ground Communications (Menghao Hu et al., 2023)
+
+{{<citation>}}
+
+Menghao Hu, Tong Zhang, Shuai Wang, Guoliang Li, Yingyang Chen, Qiang Li, Gaojie Chen. (2023)  
+**Integrated Robotics Networks with Co-optimization of Drone Placement and Air-Ground Communications**  
+
+---
+Primary Category: eess.SY  
+Categories: cs-DC, cs-SY, eess-SY, eess.SY  
+Keywords: Drone  
+[Paper Link](http://arxiv.org/abs/2309.04730v1)  
+
+---
+
+
+**ABSTRACT**  
+Terrestrial robots, i.e., unmanned ground vehicles (UGVs), and aerial robots, i.e., unmanned aerial vehicles (UAVs), operate in separate spaces. To exploit their complementary features (e.g., fields of views, communication links, computing capabilities), a promising paradigm termed integrated robotics network emerges, which provides communications for cooperative UAVs-UGVs applications. However, how to efficiently deploy UAVs and schedule the UAVs-UGVs connections according to different UGV tasks become challenging. In this paper, we propose a sum-rate maximization problem, where UGVs plan their trajectories autonomously and are dynamically associated with UAVs according to their planned trajectories. Although the problem is a NP-hard mixed integer program, a fast polynomial time algorithm using alternating gradient descent and penalty-based binary relaxation, is devised. Simulation results demonstrate the effectiveness of the proposed algorithm.
+
+{{</citation>}}
+
+
 ## quant-ph (1)
 
 
 
-### (35/47) Fast Simulation of High-Depth QAOA Circuits (Danylo Lykov et al., 2023)
+### (40/50) Fast Simulation of High-Depth QAOA Circuits (Danylo Lykov et al., 2023)
 
 {{<citation>}}
 
@@ -824,7 +942,7 @@ Until high-fidelity quantum computers with a large number of qubits become widel
 
 
 
-### (36/47) The Effectiveness of Security Interventions on GitHub (Felix Fischer et al., 2023)
+### (41/50) The Effectiveness of Security Interventions on GitHub (Felix Fischer et al., 2023)
 
 {{<citation>}}
 
@@ -846,7 +964,7 @@ Since 2017, GitHub has been the first online open source platform to show securi
 {{</citation>}}
 
 
-### (37/47) Security Analysis of Pairing-based Cryptography (Xiaofeng Wang et al., 2023)
+### (42/50) Security Analysis of Pairing-based Cryptography (Xiaofeng Wang et al., 2023)
 
 {{<citation>}}
 
@@ -872,7 +990,7 @@ Recent progress in number field sieve (NFS) has shaken the security of Pairing-b
 
 
 
-### (38/47) FAIR: Flow Type-Aware Pre-Training of Compiler Intermediate Representations (Changan Niu et al., 2023)
+### (43/50) FAIR: Flow Type-Aware Pre-Training of Compiler Intermediate Representations (Changan Niu et al., 2023)
 
 {{<citation>}}
 
@@ -898,7 +1016,7 @@ While the majority of existing pre-trained models from code learn source code fe
 
 
 
-### (39/47) AudRandAug: Random Image Augmentations for Audio Classification (Teerath Kumar et al., 2023)
+### (44/50) AudRandAug: Random Image Augmentations for Audio Classification (Teerath Kumar et al., 2023)
 
 {{<citation>}}
 
@@ -920,7 +1038,7 @@ Data augmentation has proven to be effective in training neural networks. Recent
 {{</citation>}}
 
 
-### (40/47) Mask-CTC-based Encoder Pre-training for Streaming End-to-End Speech Recognition (Huaibo Zhao et al., 2023)
+### (45/50) Mask-CTC-based Encoder Pre-training for Streaming End-to-End Speech Recognition (Huaibo Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -942,85 +1060,11 @@ Achieving high accuracy with low latency has always been a challenge in streamin
 {{</citation>}}
 
 
-## eess.SY (1)
-
-
-
-### (41/47) Integrated Robotics Networks with Co-optimization of Drone Placement and Air-Ground Communications (Menghao Hu et al., 2023)
-
-{{<citation>}}
-
-Menghao Hu, Tong Zhang, Shuai Wang, Guoliang Li, Yingyang Chen, Qiang Li, Gaojie Chen. (2023)  
-**Integrated Robotics Networks with Co-optimization of Drone Placement and Air-Ground Communications**  
-
----
-Primary Category: eess.SY  
-Categories: cs-DC, cs-SY, eess-SY, eess.SY  
-Keywords: Drone  
-[Paper Link](http://arxiv.org/abs/2309.04730v1)  
-
----
-
-
-**ABSTRACT**  
-Terrestrial robots, i.e., unmanned ground vehicles (UGVs), and aerial robots, i.e., unmanned aerial vehicles (UAVs), operate in separate spaces. To exploit their complementary features (e.g., fields of views, communication links, computing capabilities), a promising paradigm termed integrated robotics network emerges, which provides communications for cooperative UAVs-UGVs applications. However, how to efficiently deploy UAVs and schedule the UAVs-UGVs connections according to different UGV tasks become challenging. In this paper, we propose a sum-rate maximization problem, where UGVs plan their trajectories autonomously and are dynamically associated with UAVs according to their planned trajectories. Although the problem is a NP-hard mixed integer program, a fast polynomial time algorithm using alternating gradient descent and penalty-based binary relaxation, is devised. Simulation results demonstrate the effectiveness of the proposed algorithm.
-
-{{</citation>}}
-
-
-## cs.HC (2)
-
-
-
-### (42/47) A Visual Analytic Environment to Co-locate Peoples' Tweets with City Factual Data (Snehal Patil et al., 2023)
-
-{{<citation>}}
-
-Snehal Patil, Shah Rukh Humayoun. (2023)  
-**A Visual Analytic Environment to Co-locate Peoples' Tweets with City Factual Data**  
-
----
-Primary Category: cs.HC  
-Categories: cs-HC, cs.HC  
-Keywords: Social Media, Twitter  
-[Paper Link](http://arxiv.org/abs/2309.04724v1)  
-
----
-
-
-**ABSTRACT**  
-Social Media platforms (e.g., Twitter, Facebook, etc.) are used heavily by public to provide news, opinions, and reactions towards events or topics. Integrating such data with the event or topic factual data could provide a more comprehensive understanding of the underlying event or topic. Targeting this, we present our visual analytics tool, called VC-FaT, that integrates peoples' tweet data regarding crimes in San Francisco city with the city factual crime data. VC-FaT provides a number of interactive visualizations using both data sources for better understanding and exploration of crime activities happened in the city during a period of five years.
-
-{{</citation>}}
-
-
-### (43/47) TECVis: A Visual Analytics Tool to Compare People's Emotion Feelings (Ilya Nemtsov et al., 2023)
-
-{{<citation>}}
-
-Ilya Nemtsov, MST Jasmine Jahan, Chuting Yan, Shah Rukh Humayoun. (2023)  
-**TECVis: A Visual Analytics Tool to Compare People's Emotion Feelings**  
-
----
-Primary Category: cs.HC  
-Categories: cs-HC, cs.HC  
-Keywords: Twitter  
-[Paper Link](http://arxiv.org/abs/2309.04722v1)  
-
----
-
-
-**ABSTRACT**  
-Twitter is one of the popular social media platforms where people share news or reactions towards an event or topic using short text messages called "tweets". Emotion analysis in these tweets can play a vital role in understanding peoples' feelings towards the underlying event or topic. In this work, we present our visual analytics tool, called TECVis, that focuses on providing comparison views of peoples' emotion feelings in tweets towards an event or topic. The comparison is done based on geolocations or timestamps. TECVis provides several interaction and filtering options for navigation and better exploration of underlying tweet data for emotion feelings comparison.
-
-{{</citation>}}
-
-
 ## cs.RO (1)
 
 
 
-### (44/47) A Review on Robot Manipulation Methods in Human-Robot Interactions (Haoxu Zhang et al., 2023)
+### (46/50) A Review on Robot Manipulation Methods in Human-Robot Interactions (Haoxu Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1042,11 +1086,11 @@ Robot manipulation is an important part of human-robot interaction technology. H
 {{</citation>}}
 
 
-## eess.IV (2)
+## eess.IV (3)
 
 
 
-### (45/47) SSHNN: Semi-Supervised Hybrid NAS Network for Echocardiographic Image Segmentation (Renqi Chen et al., 2023)
+### (47/50) SSHNN: Semi-Supervised Hybrid NAS Network for Echocardiographic Image Segmentation (Renqi Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1068,7 +1112,29 @@ Accurate medical image segmentation especially for echocardiographic images with
 {{</citation>}}
 
 
-### (46/47) Video and Synthetic MRI Pre-training of 3D Vision Architectures for Neuroimage Analysis (Nikhil J. Dhinagar et al., 2023)
+### (48/50) ConvFormer: Plug-and-Play CNN-Style Transformers for Improving Medical Image Segmentation (Xian Lin et al., 2023)
+
+{{<citation>}}
+
+Xian Lin, Zengqiang Yan, Xianbo Deng, Chuansheng Zheng, Li Yu. (2023)  
+**ConvFormer: Plug-and-Play CNN-Style Transformers for Improving Medical Image Segmentation**  
+
+---
+Primary Category: eess.IV  
+Categories: cs-CV, eess-IV, eess.IV  
+Keywords: Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2309.05674v1)  
+
+---
+
+
+**ABSTRACT**  
+Transformers have been extensively studied in medical image segmentation to build pairwise long-range dependence. Yet, relatively limited well-annotated medical image data makes transformers struggle to extract diverse global features, resulting in attention collapse where attention maps become similar or even identical. Comparatively, convolutional neural networks (CNNs) have better convergence properties on small-scale training data but suffer from limited receptive fields. Existing works are dedicated to exploring the combinations of CNN and transformers while ignoring attention collapse, leaving the potential of transformers under-explored. In this paper, we propose to build CNN-style Transformers (ConvFormer) to promote better attention convergence and thus better segmentation performance. Specifically, ConvFormer consists of pooling, CNN-style self-attention (CSA), and convolutional feed-forward network (CFFN) corresponding to tokenization, self-attention, and feed-forward network in vanilla vision transformers. In contrast to positional embedding and tokenization, ConvFormer adopts 2D convolution and max-pooling for both position information preservation and feature size reduction. In this way, CSA takes 2D feature maps as inputs and establishes long-range dependency by constructing self-attention matrices as convolution kernels with adaptive sizes. Following CSA, 2D convolution is utilized for feature refinement through CFFN. Experimental results on multiple datasets demonstrate the effectiveness of ConvFormer working as a plug-and-play module for consistent performance improvement of transformer-based frameworks. Code is available at https://github.com/xianlin7/ConvFormer.
+
+{{</citation>}}
+
+
+### (49/50) Video and Synthetic MRI Pre-training of 3D Vision Architectures for Neuroimage Analysis (Nikhil J. Dhinagar et al., 2023)
 
 {{<citation>}}
 
@@ -1094,7 +1160,7 @@ Transfer learning represents a recent paradigm shift in the way we build artific
 
 
 
-### (47/47) Influence Maximization in Social Networks: A Survey (Hui Li et al., 2023)
+### (50/50) Influence Maximization in Social Networks: A Survey (Hui Li et al., 2023)
 
 {{<citation>}}
 

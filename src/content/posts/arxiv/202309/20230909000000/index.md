@@ -129,7 +129,7 @@ Md Kaykobad Reza, Ashley Prater-Bennette, M. Salman Asif. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2309.04001v1)  
+[Paper Link](http://arxiv.org/abs/2309.04001v2)  
 
 ---
 
@@ -1513,7 +1513,7 @@ Jiaming Han, Renrui Zhang, Wenqi Shao, Peng Gao, Peng Xu, Han Xiao, Kaipeng Zhan
 Primary Category: cs.MM  
 Categories: cs-CL, cs-CV, cs-LG, cs-MM, cs-SD, cs.MM, eess-AS  
 Keywords: LLaMA  
-[Paper Link](http://arxiv.org/abs/2309.03905v1)  
+[Paper Link](http://arxiv.org/abs/2309.03905v2)  
 
 ---
 
