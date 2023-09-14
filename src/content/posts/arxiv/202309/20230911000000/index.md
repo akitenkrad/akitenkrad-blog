@@ -927,7 +927,7 @@ Danylo Lykov, Ruslan Shaydulin, Yue Sun, Yuri Alexeev, Marco Pistoia. (2023)
 Primary Category: quant-ph  
 Categories: cs-DC, cs-PF, quant-ph, quant-ph  
 Keywords: QA  
-[Paper Link](http://arxiv.org/abs/2309.04841v1)  
+[Paper Link](http://arxiv.org/abs/2309.04841v2)  
 
 ---
 
@@ -953,13 +953,13 @@ Felix Fischer, Jonas Höbenreich, Jens Grossklags. (2023)
 Primary Category: cs.CR  
 Categories: cs-CR, cs.CR  
 Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2309.04833v1)  
+[Paper Link](http://arxiv.org/abs/2309.04833v2)  
 
 ---
 
 
 **ABSTRACT**  
-Since 2017, GitHub has been the first online open source platform to show security warnings to its users. It has since introduced further security interventions to help developers improve the security of their open source software. In this study, we investigate and compare the effects of these interventions. We perform time series analysis of security-altering commits to infer the causal effects of the interventions. Our analysis shows that while all of GitHub's security interventions have a significant positive effect on security, they differ greatly in their effect size. By comparing the design of each intervention, we identify the building blocks that worked well and those that did not. We also provide recommendations on how practitioners can improve the design of their interventions to enhance their effectiveness.
+In 2017, GitHub was the first online open source platform to show security alerts to its users. It has since introduced further security interventions to help developers improve the security of their open source software. In this study, we investigate and compare the effects of these interventions. This offers a valuable empirical perspective on security interventions in the context of software development, enriching the predominantly qualitative and survey-based literature landscape with substantial data-driven insights. We conduct a time series analysis on security-altering commits covering the entire history of a large-scale sample of over 50,000 GitHub repositories to infer the causal effects of the security alert, security update, and code scanning interventions. Our analysis shows that while all of GitHub's security interventions have a significant positive effect on security, they differ greatly in their effect size. By comparing the design of each intervention, we identify the building blocks that worked well and those that did not. We also provide recommendations on how practitioners can improve the design of their interventions to enhance their effectiveness.
 
 {{</citation>}}
 
