@@ -24,21 +24,22 @@ math: true
 - [cs.CV (12)](#cscv-12)
 - [cs.HC (3)](#cshc-3)
 - [cs.LG (7)](#cslg-7)
+- [eess.SP (1)](#eesssp-1)
 - [cs.CL (15)](#cscl-15)
 - [eess.SY (2)](#eesssy-2)
 - [quant-ph (1)](#quant-ph-1)
 - [cs.CR (2)](#cscr-2)
 - [cs.SE (1)](#csse-1)
+- [cs.SI (2)](#cssi-2)
 - [cs.SD (2)](#cssd-2)
 - [cs.RO (1)](#csro-1)
 - [eess.IV (3)](#eessiv-3)
-- [cs.SI (1)](#cssi-1)
 
 ## cs.CV (12)
 
 
 
-### (1/50) How to Evaluate Semantic Communications for Images with ViTScore Metric? (Tingting Zhu et al., 2023)
+### (1/52) How to Evaluate Semantic Communications for Images with ViTScore Metric? (Tingting Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -60,7 +61,7 @@ Semantic communications (SC) have been expected to be a new paradigm shifting to
 {{</citation>}}
 
 
-### (2/50) Few-Shot Medical Image Segmentation via a Region-enhanced Prototypical Transformer (Yazhou Zhu et al., 2023)
+### (2/52) Few-Shot Medical Image Segmentation via a Region-enhanced Prototypical Transformer (Yazhou Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -82,7 +83,7 @@ Automated segmentation of large volumes of medical images is often plagued by th
 {{</citation>}}
 
 
-### (3/50) Timely Fusion of Surround Radar/Lidar for Object Detection in Autonomous Driving Systems (Wenjing Xie et al., 2023)
+### (3/52) Timely Fusion of Surround Radar/Lidar for Object Detection in Autonomous Driving Systems (Wenjing Xie et al., 2023)
 
 {{<citation>}}
 
@@ -104,7 +105,7 @@ Fusing Radar and Lidar sensor data can fully utilize their complementary advanta
 {{</citation>}}
 
 
-### (4/50) Towards Real-World Burst Image Super-Resolution: Benchmark and Method (Pengxu Wei et al., 2023)
+### (4/52) Towards Real-World Burst Image Super-Resolution: Benchmark and Method (Pengxu Wei et al., 2023)
 
 {{<citation>}}
 
@@ -126,7 +127,7 @@ Despite substantial advances, single-image super-resolution (SISR) is always in 
 {{</citation>}}
 
 
-### (5/50) Self-Supervised Transformer with Domain Adaptive Reconstruction for General Face Forgery Video Detection (Daichi Zhang et al., 2023)
+### (5/52) Self-Supervised Transformer with Domain Adaptive Reconstruction for General Face Forgery Video Detection (Daichi Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -148,7 +149,7 @@ Face forgery videos have caused severe social public concern, and various detect
 {{</citation>}}
 
 
-### (6/50) When to Learn What: Model-Adaptive Data Augmentation Curriculum (Chengkai Hou et al., 2023)
+### (6/52) When to Learn What: Model-Adaptive Data Augmentation Curriculum (Chengkai Hou et al., 2023)
 
 {{<citation>}}
 
@@ -170,7 +171,7 @@ Data augmentation (DA) is widely used to improve the generalization of neural ne
 {{</citation>}}
 
 
-### (7/50) Frequency-Aware Self-Supervised Long-Tailed Learning (Ci-Siang Lin et al., 2023)
+### (7/52) Frequency-Aware Self-Supervised Long-Tailed Learning (Ci-Siang Lin et al., 2023)
 
 {{<citation>}}
 
@@ -192,7 +193,7 @@ Data collected from the real world typically exhibit long-tailed distributions, 
 {{</citation>}}
 
 
-### (8/50) UnitModule: A Lightweight Joint Image Enhancement Module for Underwater Object Detection (Zhuoyan Liu et al., 2023)
+### (8/52) UnitModule: A Lightweight Joint Image Enhancement Module for Underwater Object Detection (Zhuoyan Liu et al., 2023)
 
 {{<citation>}}
 
@@ -214,7 +215,7 @@ Underwater object detection faces the problem of underwater image degradation, w
 {{</citation>}}
 
 
-### (9/50) A Spatial-Temporal Deformable Attention based Framework for Breast Lesion Detection in Videos (Chao Qin et al., 2023)
+### (9/52) A Spatial-Temporal Deformable Attention based Framework for Breast Lesion Detection in Videos (Chao Qin et al., 2023)
 
 {{<citation>}}
 
@@ -236,7 +237,7 @@ Detecting breast lesion in videos is crucial for computer-aided diagnosis. Exist
 {{</citation>}}
 
 
-### (10/50) DeNoising-MOT: Towards Multiple Object Tracking with Severe Occlusions (Teng Fu et al., 2023)
+### (10/52) DeNoising-MOT: Towards Multiple Object Tracking with Severe Occlusions (Teng Fu et al., 2023)
 
 {{<citation>}}
 
@@ -258,7 +259,7 @@ Multiple object tracking (MOT) tends to become more challenging when severe occl
 {{</citation>}}
 
 
-### (11/50) BiLMa: Bidirectional Local-Matching for Text-based Person Re-identification (Takuro Fujii et al., 2023)
+### (11/52) BiLMa: Bidirectional Local-Matching for Text-based Person Re-identification (Takuro Fujii et al., 2023)
 
 {{<citation>}}
 
@@ -280,7 +281,7 @@ Text-based person re-identification (TBPReID) aims to retrieve person images rep
 {{</citation>}}
 
 
-### (12/50) Unified Language-Vision Pretraining with Dynamic Discrete Visual Tokenization (Yang Jin et al., 2023)
+### (12/52) Unified Language-Vision Pretraining with Dynamic Discrete Visual Tokenization (Yang Jin et al., 2023)
 
 {{<citation>}}
 
@@ -306,7 +307,7 @@ Recently, the remarkable advance of the Large Language Model (LLM) has inspired 
 
 
 
-### (13/50) Evaluating Chatbots to Promote Users' Trust -- Practices and Open Problems (Biplav Srivastava et al., 2023)
+### (13/52) Evaluating Chatbots to Promote Users' Trust -- Practices and Open Problems (Biplav Srivastava et al., 2023)
 
 {{<citation>}}
 
@@ -317,7 +318,7 @@ Biplav Srivastava, Kausik Lakkaraju, Tarmo Koppel, Vignesh Narayanan, Ashish Kun
 Primary Category: cs.HC  
 Categories: cs-AI, cs-HC, cs-SE, cs.HC  
 Keywords: AI, ChatGPT, GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2309.05680v1)  
+[Paper Link](http://arxiv.org/abs/2309.05680v2)  
 
 ---
 
@@ -328,7 +329,7 @@ Chatbots, the common moniker for collaborative assistants, are Artificial Intell
 {{</citation>}}
 
 
-### (14/50) A Visual Analytic Environment to Co-locate Peoples' Tweets with City Factual Data (Snehal Patil et al., 2023)
+### (14/52) A Visual Analytic Environment to Co-locate Peoples' Tweets with City Factual Data (Snehal Patil et al., 2023)
 
 {{<citation>}}
 
@@ -350,7 +351,7 @@ Social Media platforms (e.g., Twitter, Facebook, etc.) are used heavily by publi
 {{</citation>}}
 
 
-### (15/50) TECVis: A Visual Analytics Tool to Compare People's Emotion Feelings (Ilya Nemtsov et al., 2023)
+### (15/52) TECVis: A Visual Analytics Tool to Compare People's Emotion Feelings (Ilya Nemtsov et al., 2023)
 
 {{<citation>}}
 
@@ -376,7 +377,7 @@ Twitter is one of the popular social media platforms where people share news or 
 
 
 
-### (16/50) Symplectic Structure-Aware Hamiltonian (Graph) Embeddings (Jiaxu Liu et al., 2023)
+### (16/52) Symplectic Structure-Aware Hamiltonian (Graph) Embeddings (Jiaxu Liu et al., 2023)
 
 {{<citation>}}
 
@@ -398,7 +399,7 @@ In traditional Graph Neural Networks (GNNs), the assumption of a fixed embedding
 {{</citation>}}
 
 
-### (17/50) Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System (Daphne Ippolito et al., 2023)
+### (17/52) Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System (Daphne Ippolito et al., 2023)
 
 {{<citation>}}
 
@@ -420,7 +421,7 @@ Neural language models are increasingly deployed into APIs and websites that all
 {{</citation>}}
 
 
-### (18/50) RR-CP: Reliable-Region-Based Conformal Prediction for Trustworthy Medical Image Classification (Yizhe Zhang et al., 2023)
+### (18/52) RR-CP: Reliable-Region-Based Conformal Prediction for Trustworthy Medical Image Classification (Yizhe Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -442,7 +443,7 @@ Conformal prediction (CP) generates a set of predictions for a given test sample
 {{</citation>}}
 
 
-### (19/50) A Spatiotemporal Deep Neural Network for Fine-Grained Multi-Horizon Wind Prediction (Fanling Huang et al., 2023)
+### (19/52) A Spatiotemporal Deep Neural Network for Fine-Grained Multi-Horizon Wind Prediction (Fanling Huang et al., 2023)
 
 {{<citation>}}
 
@@ -464,7 +465,7 @@ The prediction of wind in terms of both wind speed and direction, which has a cr
 {{</citation>}}
 
 
-### (20/50) TCGAN: Convolutional Generative Adversarial Network for Time Series Classification and Clustering (Fanling Huang et al., 2023)
+### (20/52) TCGAN: Convolutional Generative Adversarial Network for Time Series Classification and Clustering (Fanling Huang et al., 2023)
 
 {{<citation>}}
 
@@ -486,7 +487,7 @@ Recent works have demonstrated the superiority of supervised Convolutional Neura
 {{</citation>}}
 
 
-### (21/50) Toward Reproducing Network Research Results Using Large Language Models (Qiao Xiang et al., 2023)
+### (21/52) Toward Reproducing Network Research Results Using Large Language Models (Qiao Xiang et al., 2023)
 
 {{<citation>}}
 
@@ -508,7 +509,7 @@ Reproducing research results in the networking community is important for both a
 {{</citation>}}
 
 
-### (22/50) Redundancy-Free Self-Supervised Relational Learning for Graph Clustering (Si-Yu Yi et al., 2023)
+### (22/52) Redundancy-Free Self-Supervised Relational Learning for Graph Clustering (Si-Yu Yi et al., 2023)
 
 {{<citation>}}
 
@@ -530,11 +531,37 @@ Graph clustering, which learns the node representations for effective cluster as
 {{</citation>}}
 
 
+## eess.SP (1)
+
+
+
+### (23/52) Recall-driven Precision Refinement: Unveiling Accurate Fall Detection using LSTM (Rishabh Mondal et al., 2023)
+
+{{<citation>}}
+
+Rishabh Mondal, Prasun Ghosal. (2023)  
+**Recall-driven Precision Refinement: Unveiling Accurate Fall Detection using LSTM**  
+
+---
+Primary Category: eess.SP  
+Categories: cs-AI, eess-SP, eess.SP  
+Keywords: LSTM  
+[Paper Link](http://arxiv.org/abs/2309.07154v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper presents an innovative approach to address the pressing concern of fall incidents among the elderly by developing an accurate fall detection system. Our proposed system combines state-of-the-art technologies, including accelerometer and gyroscope sensors, with deep learning models, specifically Long Short-Term Memory (LSTM) networks. Real-time execution capabilities are achieved through the integration of Raspberry Pi hardware. We introduce pruning techniques that strategically fine-tune the LSTM model's architecture and parameters to optimize the system's performance. We prioritize recall over precision, aiming to accurately identify falls and minimize false negatives for timely intervention. Extensive experimentation and meticulous evaluation demonstrate remarkable performance metrics, emphasizing a high recall rate while maintaining a specificity of 96\%. Our research culminates in a state-of-the-art fall detection system that promptly sends notifications, ensuring vulnerable individuals receive timely assistance and improve their overall well-being. Applying LSTM models and incorporating pruning techniques represent a significant advancement in fall detection technology, offering an effective and reliable fall prevention and intervention solution.
+
+{{</citation>}}
+
+
 ## cs.CL (15)
 
 
 
-### (23/50) Distributional Data Augmentation Methods for Low Resource Language (Mosleh Mahamud et al., 2023)
+### (24/52) Distributional Data Augmentation Methods for Low Resource Language (Mosleh Mahamud et al., 2023)
 
 {{<citation>}}
 
@@ -556,7 +583,7 @@ Text augmentation is a technique for constructing synthetic data from an under-r
 {{</citation>}}
 
 
-### (24/50) Speech Emotion Recognition with Distilled Prosodic and Linguistic Affect Representations (Debaditya Shome et al., 2023)
+### (25/52) Speech Emotion Recognition with Distilled Prosodic and Linguistic Affect Representations (Debaditya Shome et al., 2023)
 
 {{<citation>}}
 
@@ -578,7 +605,7 @@ We propose EmoDistill, a novel speech emotion recognition (SER) framework that l
 {{</citation>}}
 
 
-### (25/50) Leveraging Large Language Models for Exploiting ASR Uncertainty (Pranay Dighe et al., 2023)
+### (26/52) Leveraging Large Language Models for Exploiting ASR Uncertainty (Pranay Dighe et al., 2023)
 
 {{<citation>}}
 
@@ -600,7 +627,7 @@ While large language models excel in a variety of natural language processing (N
 {{</citation>}}
 
 
-### (26/50) Neurons in Large Language Models: Dead, N-gram, Positional (Elena Voita et al., 2023)
+### (27/52) Neurons in Large Language Models: Dead, N-gram, Positional (Elena Voita et al., 2023)
 
 {{<citation>}}
 
@@ -622,7 +649,7 @@ We analyze a family of large language models in such a lightweight manner that c
 {{</citation>}}
 
 
-### (27/50) FaNS: a Facet-based Narrative Similarity Metric (Mousumi Akter et al., 2023)
+### (28/52) FaNS: a Facet-based Narrative Similarity Metric (Mousumi Akter et al., 2023)
 
 {{<citation>}}
 
@@ -644,7 +671,7 @@ Similar Narrative Retrieval is a crucial task since narratives are essential for
 {{</citation>}}
 
 
-### (28/50) MMHQA-ICL: Multimodal In-context Learning for Hybrid Question Answering over Text, Tables and Images (Weihao Liu et al., 2023)
+### (29/52) MMHQA-ICL: Multimodal In-context Learning for Hybrid Question Answering over Text, Tables and Images (Weihao Liu et al., 2023)
 
 {{<citation>}}
 
@@ -666,7 +693,7 @@ In the real world, knowledge often exists in a multimodal and heterogeneous form
 {{</citation>}}
 
 
-### (29/50) SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning (Bin Wang et al., 2023)
+### (30/52) SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning (Bin Wang et al., 2023)
 
 {{<citation>}}
 
@@ -688,7 +715,7 @@ We present SeaEval, a benchmark for multilingual foundation models. In addition 
 {{</citation>}}
 
 
-### (30/50) Data Augmentation for Conversational AI (Heydar Soudani et al., 2023)
+### (31/52) Data Augmentation for Conversational AI (Heydar Soudani et al., 2023)
 
 {{<citation>}}
 
@@ -710,7 +737,7 @@ Advancements in conversational systems have revolutionized information access, s
 {{</citation>}}
 
 
-### (31/50) EPA: Easy Prompt Augmentation on Large Language Models via Multiple Sources and Multiple Targets (Hongyuan Lu et al., 2023)
+### (32/52) EPA: Easy Prompt Augmentation on Large Language Models via Multiple Sources and Multiple Targets (Hongyuan Lu et al., 2023)
 
 {{<citation>}}
 
@@ -732,7 +759,7 @@ Large language models (LLMs) have shown promising performance on various NLP tas
 {{</citation>}}
 
 
-### (32/50) Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Model (Bohdan M. Pavlyshenko, 2023)
+### (33/52) Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Model (Bohdan M. Pavlyshenko, 2023)
 
 {{<citation>}}
 
@@ -754,7 +781,7 @@ The paper considers the possibility of fine-tuning Llama 2 large language model 
 {{</citation>}}
 
 
-### (33/50) Code-Style In-Context Learning for Knowledge-Based Question Answering (Zhijie Nie et al., 2023)
+### (34/52) Code-Style In-Context Learning for Knowledge-Based Question Answering (Zhijie Nie et al., 2023)
 
 {{<citation>}}
 
@@ -776,7 +803,7 @@ Current methods for Knowledge-Based Question Answering (KBQA) usually rely on co
 {{</citation>}}
 
 
-### (34/50) Embedding structure matters: Comparing methods to adapt multilingual vocabularies to new languages (C. M. Downey et al., 2023)
+### (35/52) Embedding structure matters: Comparing methods to adapt multilingual vocabularies to new languages (C. M. Downey et al., 2023)
 
 {{<citation>}}
 
@@ -798,7 +825,7 @@ Pre-trained multilingual language models underpin a large portion of modern NLP 
 {{</citation>}}
 
 
-### (35/50) MADLAD-400: A Multilingual And Document-Level Large Audited Dataset (Sneha Kudugunta et al., 2023)
+### (36/52) MADLAD-400: A Multilingual And Document-Level Large Audited Dataset (Sneha Kudugunta et al., 2023)
 
 {{<citation>}}
 
@@ -820,7 +847,7 @@ We introduce MADLAD-400, a manually audited, general domain 3T token monolingual
 {{</citation>}}
 
 
-### (36/50) Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf (Yuzhuang Xu et al., 2023)
+### (37/52) Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf (Yuzhuang Xu et al., 2023)
 
 {{<citation>}}
 
@@ -842,7 +869,7 @@ Communication games, which we refer to as incomplete information games that heav
 {{</citation>}}
 
 
-### (37/50) Efficient Finetuning Large Language Models For Vietnamese Chatbot (Vu-Thuan Doan et al., 2023)
+### (38/52) Efficient Finetuning Large Language Models For Vietnamese Chatbot (Vu-Thuan Doan et al., 2023)
 
 {{<citation>}}
 
@@ -868,7 +895,7 @@ Large language models (LLMs), such as GPT-4, PaLM, and LLaMa, have been shown to
 
 
 
-### (38/50) Verifiable Reinforcement Learning Systems via Compositionality (Cyrus Neary et al., 2023)
+### (39/52) Verifiable Reinforcement Learning Systems via Compositionality (Cyrus Neary et al., 2023)
 
 {{<citation>}}
 
@@ -890,7 +917,7 @@ We propose a framework for verifiable and compositional reinforcement learning (
 {{</citation>}}
 
 
-### (39/50) Integrated Robotics Networks with Co-optimization of Drone Placement and Air-Ground Communications (Menghao Hu et al., 2023)
+### (40/52) Integrated Robotics Networks with Co-optimization of Drone Placement and Air-Ground Communications (Menghao Hu et al., 2023)
 
 {{<citation>}}
 
@@ -916,7 +943,7 @@ Terrestrial robots, i.e., unmanned ground vehicles (UGVs), and aerial robots, i.
 
 
 
-### (40/50) Fast Simulation of High-Depth QAOA Circuits (Danylo Lykov et al., 2023)
+### (41/52) Fast Simulation of High-Depth QAOA Circuits (Danylo Lykov et al., 2023)
 
 {{<citation>}}
 
@@ -942,7 +969,7 @@ Until high-fidelity quantum computers with a large number of qubits become widel
 
 
 
-### (41/50) The Effectiveness of Security Interventions on GitHub (Felix Fischer et al., 2023)
+### (42/52) The Effectiveness of Security Interventions on GitHub (Felix Fischer et al., 2023)
 
 {{<citation>}}
 
@@ -964,7 +991,7 @@ In 2017, GitHub was the first online open source platform to show security alert
 {{</citation>}}
 
 
-### (42/50) Security Analysis of Pairing-based Cryptography (Xiaofeng Wang et al., 2023)
+### (43/52) Security Analysis of Pairing-based Cryptography (Xiaofeng Wang et al., 2023)
 
 {{<citation>}}
 
@@ -990,7 +1017,7 @@ Recent progress in number field sieve (NFS) has shaken the security of Pairing-b
 
 
 
-### (43/50) FAIR: Flow Type-Aware Pre-Training of Compiler Intermediate Representations (Changan Niu et al., 2023)
+### (44/52) FAIR: Flow Type-Aware Pre-Training of Compiler Intermediate Representations (Changan Niu et al., 2023)
 
 {{<citation>}}
 
@@ -1012,11 +1039,59 @@ While the majority of existing pre-trained models from code learn source code fe
 {{</citation>}}
 
 
+## cs.SI (2)
+
+
+
+### (45/52) Finding Influencers in Complex Networks: An Effective Deep Reinforcement Learning Approach (Changan Liu et al., 2023)
+
+{{<citation>}}
+
+Changan Liu, Changjun Fan, Zhongzhi Zhang. (2023)  
+**Finding Influencers in Complex Networks: An Effective Deep Reinforcement Learning Approach**  
+
+---
+Primary Category: cs.SI  
+Categories: cs-AI, cs-LG, cs-SI, cs.SI  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2309.07153v1)  
+
+---
+
+
+**ABSTRACT**  
+Maximizing influences in complex networks is a practically important but computationally challenging task for social network analysis, due to its NP- hard nature. Most current approximation or heuristic methods either require tremendous human design efforts or achieve unsatisfying balances between effectiveness and efficiency. Recent machine learning attempts only focus on speed but lack performance enhancement. In this paper, different from previous attempts, we propose an effective deep reinforcement learning model that achieves superior performances over traditional best influence maximization algorithms. Specifically, we design an end-to-end learning framework that combines graph neural network as the encoder and reinforcement learning as the decoder, named DREIM. Trough extensive training on small synthetic graphs, DREIM outperforms the state-of-the-art baseline methods on very large synthetic and real-world networks on solution quality, and we also empirically show its linear scalability with regard to the network size, which demonstrates its superiority in solving this problem.
+
+{{</citation>}}
+
+
+### (46/52) Influence Maximization in Social Networks: A Survey (Hui Li et al., 2023)
+
+{{<citation>}}
+
+Hui Li, Susu Yang, Mengting Xu, Sourav S Bhowmick, Jiangtao Cui. (2023)  
+**Influence Maximization in Social Networks: A Survey**  
+
+---
+Primary Category: cs.SI  
+Categories: cs-SI, cs.SI  
+Keywords: Social Network  
+[Paper Link](http://arxiv.org/abs/2309.04668v1)  
+
+---
+
+
+**ABSTRACT**  
+Online social networks have become an important platform for people to communicate, share knowledge and disseminate information. Given the widespread usage of social media, individuals' ideas, preferences and behavior are often influenced by their peers or friends in the social networks that they participate in. Since the last decade, influence maximization (IM) problem has been extensively adopted to model the diffusion of innovations and ideas. The purpose of IM is to select a set of k seed nodes who can influence the most individuals in the network.   In this survey, we present a systematical study over the researches and future directions with respect to IM problem. We review the information diffusion models and analyze a variety of algorithms for the classic IM algorithms. We propose a taxonomy for potential readers to understand the key techniques and challenges. We also organize the milestone works in time order such that the readers of this survey can experience the research roadmap in this field. Moreover, we also categorize other application-oriented IM studies and correspondingly study each of them. What's more, we list a series of open questions as the future directions for IM-related researches, where a potential reader of this survey can easily observe what should be done next in this field.
+
+{{</citation>}}
+
+
 ## cs.SD (2)
 
 
 
-### (44/50) AudRandAug: Random Image Augmentations for Audio Classification (Teerath Kumar et al., 2023)
+### (47/52) AudRandAug: Random Image Augmentations for Audio Classification (Teerath Kumar et al., 2023)
 
 {{<citation>}}
 
@@ -1038,7 +1113,7 @@ Data augmentation has proven to be effective in training neural networks. Recent
 {{</citation>}}
 
 
-### (45/50) Mask-CTC-based Encoder Pre-training for Streaming End-to-End Speech Recognition (Huaibo Zhao et al., 2023)
+### (48/52) Mask-CTC-based Encoder Pre-training for Streaming End-to-End Speech Recognition (Huaibo Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -1064,7 +1139,7 @@ Achieving high accuracy with low latency has always been a challenge in streamin
 
 
 
-### (46/50) A Review on Robot Manipulation Methods in Human-Robot Interactions (Haoxu Zhang et al., 2023)
+### (49/52) A Review on Robot Manipulation Methods in Human-Robot Interactions (Haoxu Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1090,7 +1165,7 @@ Robot manipulation is an important part of human-robot interaction technology. H
 
 
 
-### (47/50) SSHNN: Semi-Supervised Hybrid NAS Network for Echocardiographic Image Segmentation (Renqi Chen et al., 2023)
+### (50/52) SSHNN: Semi-Supervised Hybrid NAS Network for Echocardiographic Image Segmentation (Renqi Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1112,7 +1187,7 @@ Accurate medical image segmentation especially for echocardiographic images with
 {{</citation>}}
 
 
-### (48/50) ConvFormer: Plug-and-Play CNN-Style Transformers for Improving Medical Image Segmentation (Xian Lin et al., 2023)
+### (51/52) ConvFormer: Plug-and-Play CNN-Style Transformers for Improving Medical Image Segmentation (Xian Lin et al., 2023)
 
 {{<citation>}}
 
@@ -1134,7 +1209,7 @@ Transformers have been extensively studied in medical image segmentation to buil
 {{</citation>}}
 
 
-### (49/50) Video and Synthetic MRI Pre-training of 3D Vision Architectures for Neuroimage Analysis (Nikhil J. Dhinagar et al., 2023)
+### (52/52) Video and Synthetic MRI Pre-training of 3D Vision Architectures for Neuroimage Analysis (Nikhil J. Dhinagar et al., 2023)
 
 {{<citation>}}
 
@@ -1152,31 +1227,5 @@ Keywords: AI
 
 **ABSTRACT**  
 Transfer learning represents a recent paradigm shift in the way we build artificial intelligence (AI) systems. In contrast to training task-specific models, transfer learning involves pre-training deep learning models on a large corpus of data and minimally fine-tuning them for adaptation to specific tasks. Even so, for 3D medical imaging tasks, we do not know if it is best to pre-train models on natural images, medical images, or even synthetically generated MRI scans or video data. To evaluate these alternatives, here we benchmarked vision transformers (ViTs) and convolutional neural networks (CNNs), initialized with varied upstream pre-training approaches. These methods were then adapted to three unique downstream neuroimaging tasks with a range of difficulty: Alzheimer's disease (AD) and Parkinson's disease (PD) classification, "brain age" prediction. Experimental tests led to the following key observations: 1. Pre-training improved performance across all tasks including a boost of 7.4% for AD classification and 4.6% for PD classification for the ViT and 19.1% for PD classification and reduction in brain age prediction error by 1.26 years for CNNs, 2. Pre-training on large-scale video or synthetic MRI data boosted performance of ViTs, 3. CNNs were robust in limited-data settings, and in-domain pretraining enhanced their performances, 4. Pre-training improved generalization to out-of-distribution datasets and sites. Overall, we benchmarked different vision architectures, revealing the value of pre-training them with emerging datasets for model initialization. The resulting pre-trained models can be adapted to a range of downstream neuroimaging tasks, even when training data for the target task is limited.
-
-{{</citation>}}
-
-
-## cs.SI (1)
-
-
-
-### (50/50) Influence Maximization in Social Networks: A Survey (Hui Li et al., 2023)
-
-{{<citation>}}
-
-Hui Li, Susu Yang, Mengting Xu, Sourav S Bhowmick, Jiangtao Cui. (2023)  
-**Influence Maximization in Social Networks: A Survey**  
-
----
-Primary Category: cs.SI  
-Categories: cs-SI, cs.SI  
-Keywords: Social Network  
-[Paper Link](http://arxiv.org/abs/2309.04668v1)  
-
----
-
-
-**ABSTRACT**  
-Online social networks have become an important platform for people to communicate, share knowledge and disseminate information. Given the widespread usage of social media, individuals' ideas, preferences and behavior are often influenced by their peers or friends in the social networks that they participate in. Since the last decade, influence maximization (IM) problem has been extensively adopted to model the diffusion of innovations and ideas. The purpose of IM is to select a set of k seed nodes who can influence the most individuals in the network.   In this survey, we present a systematical study over the researches and future directions with respect to IM problem. We review the information diffusion models and analyze a variety of algorithms for the classic IM algorithms. We propose a taxonomy for potential readers to understand the key techniques and challenges. We also organize the milestone works in time order such that the readers of this survey can experience the research roadmap in this field. Moreover, we also categorize other application-oriented IM studies and correspondingly study each of them. What's more, we list a series of open questions as the future directions for IM-related researches, where a potential reader of this survey can easily observe what should be done next in this field.
 
 {{</citation>}}
