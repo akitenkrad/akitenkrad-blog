@@ -22,13 +22,13 @@ math: true
 ## Primary Categories
 
 - [cs.AI (4)](#csai-4)
-- [cs.CL (12)](#cscl-12)
-- [cs.LG (4)](#cslg-4)
+- [cs.CL (13)](#cscl-13)
+- [cs.LG (5)](#cslg-5)
 - [physics.chem-ph (1)](#physicschem-ph-1)
 - [astro-ph.EP (1)](#astro-phep-1)
 - [cs.SD (1)](#cssd-1)
 - [cs.CV (11)](#cscv-11)
-- [cs.SE (4)](#csse-4)
+- [cs.SE (5)](#csse-5)
 - [eess.AS (3)](#eessas-3)
 - [cs.IR (1)](#csir-1)
 - [cs.RO (4)](#csro-4)
@@ -41,7 +41,7 @@ math: true
 
 
 
-### (1/50) ChatGPT Hallucinates when Attributing Answers (Guido Zuccon et al., 2023)
+### (1/53) ChatGPT Hallucinates when Attributing Answers (Guido Zuccon et al., 2023)
 
 {{<citation>}}
 
@@ -63,7 +63,7 @@ Can ChatGPT provide evidence to support its answers? Does the evidence it sugges
 {{</citation>}}
 
 
-### (2/50) How much can ChatGPT really help Computational Biologists in Programming? (Chowdhury Rafeed Rahman et al., 2023)
+### (2/53) How much can ChatGPT really help Computational Biologists in Programming? (Chowdhury Rafeed Rahman et al., 2023)
 
 {{<citation>}}
 
@@ -80,12 +80,12 @@ Keywords: AI, ChatGPT, GPT
 
 
 **ABSTRACT**  
-ChatGPT, a recently developed product by openAI, is successfully leaving its mark as a multi-purpose natural language based chatbot. In this paper, we are more interested in analyzing its potential in the field of computational biology. A major share of work done by computational biologists these days involve coding up Bioinformatics algorithms, analyzing data, creating pipelining scripts and even machine learning modeling & feature extraction. This paper focuses on the potential influence (both positive and negative) of ChatGPT in the mentioned aspects with illustrative examples from different perspectives. Compared to other fields of Computer Science, Computational Biology has - (1) less coding resources, (2) more sensitivity and bias issues (deals with medical data) and (3) more necessity of coding assistance (people from diverse background come to this field). Keeping such issues in mind, we cover use cases such as code writing, reviewing, debugging, converting, refactoring and pipelining using ChatGPT from the perspective of computational biologists in this paper.
+ChatGPT, a recently developed product by openAI, is successfully leaving its mark as a multi-purpose natural language based chatbot. In this paper, we are more interested in analyzing its potential in the field of computational biology. A major share of work done by computational biologists these days involve coding up Bioinformatics algorithms, analyzing data, creating pipelining scripts and even machine learning modeling & feature extraction. This paper focuses on the potential influence (both positive and negative) of ChatGPT in the mentioned aspects with illustrative examples from different perspectives. Compared to other fields of Computer Science, Computational Biology has: (1) less coding resources, (2) more sensitivity and bias issues (deals with medical data) and (3) more necessity of coding assistance (people from diverse background come to this field). Keeping such issues in mind, we cover use cases such as code writing, reviewing, debugging, converting, refactoring and pipelining using ChatGPT from the perspective of computational biologists in this paper.
 
 {{</citation>}}
 
 
-### (3/50) Using Reinforcement Learning to Simplify Mealtime Insulin Dosing for People with Type 1 Diabetes: In-Silico Experiments (Anas El Fathi et al., 2023)
+### (3/53) Using Reinforcement Learning to Simplify Mealtime Insulin Dosing for People with Type 1 Diabetes: In-Silico Experiments (Anas El Fathi et al., 2023)
 
 {{<citation>}}
 
@@ -107,7 +107,7 @@ People with type 1 diabetes (T1D) struggle to calculate the optimal insulin dose
 {{</citation>}}
 
 
-### (4/50) Public Perceptions of Gender Bias in Large Language Models: Cases of ChatGPT and Ernie (Kyrie Zhixuan Zhou et al., 2023)
+### (4/53) Public Perceptions of Gender Bias in Large Language Models: Cases of ChatGPT and Ernie (Kyrie Zhixuan Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -129,11 +129,11 @@ Large language models are quickly gaining momentum, yet are found to demonstrate
 {{</citation>}}
 
 
-## cs.CL (12)
+## cs.CL (13)
 
 
 
-### (5/50) CulturaX: A Cleaned, Enormous, and Multilingual Dataset for Large Language Models in 167 Languages (Thuat Nguyen et al., 2023)
+### (5/53) CulturaX: A Cleaned, Enormous, and Multilingual Dataset for Large Language Models in 167 Languages (Thuat Nguyen et al., 2023)
 
 {{<citation>}}
 
@@ -155,7 +155,7 @@ The driving factors behind the development of large language models (LLMs) with 
 {{</citation>}}
 
 
-### (6/50) Do Large GPT Models Discover Moral Dimensions in Language Representations? A Topological Study Of Sentence Embeddings (Stephen Fitz, 2023)
+### (6/53) Do Large GPT Models Discover Moral Dimensions in Language Representations? A Topological Study Of Sentence Embeddings (Stephen Fitz, 2023)
 
 {{<citation>}}
 
@@ -177,7 +177,7 @@ As Large Language Models are deployed within Artificial Intelligence systems, th
 {{</citation>}}
 
 
-### (7/50) Augmenting text for spoken language understanding with Large Language Models (Roshan Sharma et al., 2023)
+### (7/53) Augmenting text for spoken language understanding with Large Language Models (Roshan Sharma et al., 2023)
 
 {{<citation>}}
 
@@ -199,7 +199,7 @@ Spoken semantic parsing (SSP) involves generating machine-comprehensible parses 
 {{</citation>}}
 
 
-### (8/50) Mitigating Shortcuts in Language Models with Soft Label Encoding (Zirui He et al., 2023)
+### (8/53) Mitigating Shortcuts in Language Models with Soft Label Encoding (Zirui He et al., 2023)
 
 {{<citation>}}
 
@@ -221,7 +221,7 @@ Recent research has shown that large language models rely on spurious correlatio
 {{</citation>}}
 
 
-### (9/50) Embrace Divergence for Richer Insights: A Multi-document Summarization Benchmark and a Case Study on Summarizing Diverse Information from News Articles (Kung-Hsiang Huang et al., 2023)
+### (9/53) Embrace Divergence for Richer Insights: A Multi-document Summarization Benchmark and a Case Study on Summarizing Diverse Information from News Articles (Kung-Hsiang Huang et al., 2023)
 
 {{<citation>}}
 
@@ -243,7 +243,7 @@ Previous research in multi-document news summarization has typically concentrate
 {{</citation>}}
 
 
-### (10/50) Performance of the Pre-Trained Large Language Model GPT-4 on Automated Short Answer Grading (Gerd Kortemeyer, 2023)
+### (10/53) Performance of the Pre-Trained Large Language Model GPT-4 on Automated Short Answer Grading (Gerd Kortemeyer, 2023)
 
 {{<citation>}}
 
@@ -265,7 +265,29 @@ Automated Short Answer Grading (ASAG) has been an active area of machine-learnin
 {{</citation>}}
 
 
-### (11/50) OWL: A Large Language Model for IT Operations (Hongcheng Guo et al., 2023)
+### (11/53) A novel approach to measuring patent claim scope based on probabilities obtained from (large) language models (Sébastien Ragot, 2023)
+
+{{<citation>}}
+
+Sébastien Ragot. (2023)  
+**A novel approach to measuring patent claim scope based on probabilities obtained from (large) language models**  
+
+---
+Primary Category: cs.CL  
+Categories: 62P99, 60E05, I-2-m; G-3, cs-CL, cs-IT, cs-LG, cs.CL, math-IT, math-PR  
+Keywords: GPT  
+[Paper Link](http://arxiv.org/abs/2309.10003v1)  
+
+---
+
+
+**ABSTRACT**  
+This work proposes to measure the scope of a patent claim as the reciprocal of the self-information contained in this claim. Grounded in information theory, this approach is based on the assumption that a rare concept is more informative than a usual concept, inasmuch as it is more surprising. The self-information is calculated from the probability of occurrence of that claim, where the probability is calculated in accordance with a language model. Five language models are considered, ranging from the simplest models (each word or character is drawn from a uniform distribution) to intermediate models (using average word or character frequencies), to a large language model (GPT2). Interestingly, the simplest language models reduce the scope measure to the reciprocal of the word or character count, a metric already used in previous works. Application is made to nine series of patent claims directed to distinct inventions, where the claims in each series have a gradually decreasing scope. The performance of the language models is then assessed with respect to several ad hoc tests. The more sophisticated the model, the better the results. The GPT2 model outperforms models based on word and character frequencies, which are themselves ahead of models based on word and character counts.
+
+{{</citation>}}
+
+
+### (12/53) OWL: A Large Language Model for IT Operations (Hongcheng Guo et al., 2023)
 
 {{<citation>}}
 
@@ -287,7 +309,7 @@ With the rapid development of IT operations, it has become increasingly crucial 
 {{</citation>}}
 
 
-### (12/50) Model-based Subsampling for Knowledge Graph Completion (Xincan Feng et al., 2023)
+### (13/53) Model-based Subsampling for Knowledge Graph Completion (Xincan Feng et al., 2023)
 
 {{<citation>}}
 
@@ -309,7 +331,7 @@ Subsampling is effective in Knowledge Graph Embedding (KGE) for reducing overfit
 {{</citation>}}
 
 
-### (13/50) Leveraging Social Discourse to Measure Check-worthiness of Claims for Fact-checking (Megha Sundriyal et al., 2023)
+### (14/53) Leveraging Social Discourse to Measure Check-worthiness of Claims for Fact-checking (Megha Sundriyal et al., 2023)
 
 {{<citation>}}
 
@@ -331,7 +353,7 @@ The expansion of online social media platforms has led to a surge in online cont
 {{</citation>}}
 
 
-### (14/50) Code quality assessment using transformers (Mosleh Mahamud et al., 2023)
+### (15/53) Code quality assessment using transformers (Mosleh Mahamud et al., 2023)
 
 {{<citation>}}
 
@@ -353,7 +375,7 @@ Automatically evaluate the correctness of programming assignments is rather stra
 {{</citation>}}
 
 
-### (15/50) Can Large Language Models Understand Real-World Complex Instructions? (Qianyu He et al., 2023)
+### (16/53) Can Large Language Models Understand Real-World Complex Instructions? (Qianyu He et al., 2023)
 
 {{<citation>}}
 
@@ -375,7 +397,7 @@ Large language models (LLMs) can understand human instructions, showing their po
 {{</citation>}}
 
 
-### (16/50) Contrastive Decoding Improves Reasoning in Large Language Models (Sean O'Brien et al., 2023)
+### (17/53) Contrastive Decoding Improves Reasoning in Large Language Models (Sean O'Brien et al., 2023)
 
 {{<citation>}}
 
@@ -397,11 +419,11 @@ We demonstrate that Contrastive Decoding -- a simple, computationally light, and
 {{</citation>}}
 
 
-## cs.LG (4)
+## cs.LG (5)
 
 
 
-### (17/50) Mitigating Over-Smoothing and Over-Squashing using Augmentations of Forman-Ricci Curvature (Lukas Fesser et al., 2023)
+### (18/53) Mitigating Over-Smoothing and Over-Squashing using Augmentations of Forman-Ricci Curvature (Lukas Fesser et al., 2023)
 
 {{<citation>}}
 
@@ -423,7 +445,7 @@ While Graph Neural Networks (GNNs) have been successfully leveraged for learning
 {{</citation>}}
 
 
-### (18/50) Unleashing the Power of Dynamic Mode Decomposition and Deep Learning for Rainfall Prediction in North-East India (Paleti Nikhil Chowdary et al., 2023)
+### (19/53) Unleashing the Power of Dynamic Mode Decomposition and Deep Learning for Rainfall Prediction in North-East India (Paleti Nikhil Chowdary et al., 2023)
 
 {{<citation>}}
 
@@ -445,7 +467,7 @@ Accurate rainfall forecasting is crucial for effective disaster preparedness and
 {{</citation>}}
 
 
-### (19/50) MFRL-BI: Design of a Model-free Reinforcement Learning Process Control Scheme by Using Bayesian Inference (Yanrong Li et al., 2023)
+### (20/53) MFRL-BI: Design of a Model-free Reinforcement Learning Process Control Scheme by Using Bayesian Inference (Yanrong Li et al., 2023)
 
 {{<citation>}}
 
@@ -467,7 +489,29 @@ Design of process control scheme is critical for quality assurance to reduce var
 {{</citation>}}
 
 
-### (20/50) Conditional Mutual Information Constrained Deep Learning for Classification (En-Hui Yang et al., 2023)
+### (21/53) Detecting covariate drift in text data using document embeddings and dimensionality reduction (Vinayak Sodar et al., 2023)
+
+{{<citation>}}
+
+Vinayak Sodar, Ankit Sekseria. (2023)  
+**Detecting covariate drift in text data using document embeddings and dimensionality reduction**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CL, cs-LG, cs.LG  
+Keywords: BERT  
+[Paper Link](http://arxiv.org/abs/2309.10000v1)  
+
+---
+
+
+**ABSTRACT**  
+Detecting covariate drift in text data is essential for maintaining the reliability and performance of text analysis models. In this research, we investigate the effectiveness of different document embeddings, dimensionality reduction techniques, and drift detection methods for identifying covariate drift in text data. We explore three popular document embeddings: term frequency-inverse document frequency (TF-IDF) using Latent semantic analysis(LSA) for dimentionality reduction and Doc2Vec, and BERT embeddings, with and without using principal component analysis (PCA) for dimensionality reduction. To quantify the divergence between training and test data distributions, we employ the Kolmogorov-Smirnov (KS) statistic and the Maximum Mean Discrepancy (MMD) test as drift detection methods. Experimental results demonstrate that certain combinations of embeddings, dimensionality reduction techniques, and drift detection methods outperform others in detecting covariate drift. Our findings contribute to the advancement of reliable text analysis models by providing insights into effective approaches for addressing covariate drift in text data.
+
+{{</citation>}}
+
+
+### (22/53) Conditional Mutual Information Constrained Deep Learning for Classification (En-Hui Yang et al., 2023)
 
 {{<citation>}}
 
@@ -493,7 +537,7 @@ The concepts of conditional mutual information (CMI) and normalized conditional 
 
 
 
-### (21/50) Structure to Property: Chemical Element Embeddings and a Deep Learning Approach for Accurate Prediction of Chemical Properties (Shokirbek Shermukhamedov et al., 2023)
+### (23/53) Structure to Property: Chemical Element Embeddings and a Deep Learning Approach for Accurate Prediction of Chemical Properties (Shokirbek Shermukhamedov et al., 2023)
 
 {{<citation>}}
 
@@ -519,7 +563,7 @@ The application of machine learning (ML) techniques in computational chemistry h
 
 
 
-### (22/50) Simulation-based Inference for Exoplanet Atmospheric Retrieval: Insights from winning the Ariel Data Challenge 2023 using Normalizing Flows (Mayeul Aubin et al., 2023)
+### (24/53) Simulation-based Inference for Exoplanet Atmospheric Retrieval: Insights from winning the Ariel Data Challenge 2023 using Normalizing Flows (Mayeul Aubin et al., 2023)
 
 {{<citation>}}
 
@@ -545,7 +589,7 @@ Advancements in space telescopes have opened new avenues for gathering vast amou
 
 
 
-### (23/50) A Few-Shot Approach to Dysarthric Speech Intelligibility Level Classification Using Transformers (Paleti Nikhil Chowdary et al., 2023)
+### (25/53) A Few-Shot Approach to Dysarthric Speech Intelligibility Level Classification Using Transformers (Paleti Nikhil Chowdary et al., 2023)
 
 {{<citation>}}
 
@@ -571,7 +615,7 @@ Dysarthria is a speech disorder that hinders communication due to difficulties i
 
 
 
-### (24/50) Active Learning for Semantic Segmentation with Multi-class Label Query (Sehyun Hwang et al., 2023)
+### (26/53) Active Learning for Semantic Segmentation with Multi-class Label Query (Sehyun Hwang et al., 2023)
 
 {{<citation>}}
 
@@ -593,7 +637,7 @@ This paper proposes a new active learning method for semantic segmentation. The 
 {{</citation>}}
 
 
-### (25/50) Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention (Burak Satar et al., 2023)
+### (27/53) Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention (Burak Satar et al., 2023)
 
 {{<citation>}}
 
@@ -615,7 +659,7 @@ Many studies focus on improving pretraining or developing new backbones in text-
 {{</citation>}}
 
 
-### (26/50) Effective Image Tampering Localization via Enhanced Transformer and Co-attention Fusion (Kun Guo et al., 2023)
+### (28/53) Effective Image Tampering Localization via Enhanced Transformer and Co-attention Fusion (Kun Guo et al., 2023)
 
 {{<citation>}}
 
@@ -637,7 +681,7 @@ Powerful manipulation techniques have made digital image forgeries be easily cre
 {{</citation>}}
 
 
-### (27/50) Chasing Day and Night: Towards Robust and Efficient All-Day Object Detection Guided by an Event Camera (Jiahang Cao et al., 2023)
+### (29/53) Chasing Day and Night: Towards Robust and Efficient All-Day Object Detection Guided by an Event Camera (Jiahang Cao et al., 2023)
 
 {{<citation>}}
 
@@ -659,7 +703,7 @@ The ability to detect objects in all lighting (i.e., normal-, over-, and under-e
 {{</citation>}}
 
 
-### (28/50) MVP: Meta Visual Prompt Tuning for Few-Shot Remote Sensing Image Scene Classification (Junjie Zhu et al., 2023)
+### (30/53) MVP: Meta Visual Prompt Tuning for Few-Shot Remote Sensing Image Scene Classification (Junjie Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -681,7 +725,7 @@ Vision Transformer (ViT) models have recently emerged as powerful and versatile 
 {{</citation>}}
 
 
-### (29/50) Deep Neighbor Layer Aggregation for Lightweight Self-Supervised Monocular Depth Estimation (Boya Wang et al., 2023)
+### (31/53) Deep Neighbor Layer Aggregation for Lightweight Self-Supervised Monocular Depth Estimation (Boya Wang et al., 2023)
 
 {{<citation>}}
 
@@ -703,7 +747,7 @@ With the frequent use of self-supervised monocular depth estimation in robotics 
 {{</citation>}}
 
 
-### (30/50) LiteTrack: Layer Pruning with Asynchronous Feature Extraction for Lightweight and Efficient Visual Tracking (Qingmao Wei et al., 2023)
+### (32/53) LiteTrack: Layer Pruning with Asynchronous Feature Extraction for Lightweight and Efficient Visual Tracking (Qingmao Wei et al., 2023)
 
 {{<citation>}}
 
@@ -725,7 +769,7 @@ The recent advancements in transformer-based visual trackers have led to signifi
 {{</citation>}}
 
 
-### (31/50) Efficient Pyramid Channel Attention Network for Pathological Myopia Detection (Xiaoqing Zhang et al., 2023)
+### (33/53) Efficient Pyramid Channel Attention Network for Pathological Myopia Detection (Xiaoqing Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -747,7 +791,7 @@ Pathological myopia (PM) is the leading ocular disease for impaired vision and b
 {{</citation>}}
 
 
-### (32/50) Syntax Tree Constrained Graph Network for Visual Question Answering (Xiangrui Su et al., 2023)
+### (34/53) Syntax Tree Constrained Graph Network for Visual Question Answering (Xiangrui Su et al., 2023)
 
 {{<citation>}}
 
@@ -769,7 +813,7 @@ Visual Question Answering (VQA) aims to automatically answer natural language qu
 {{</citation>}}
 
 
-### (33/50) FDCNet: Feature Drift Compensation Network for Class-Incremental Weakly Supervised Object Localization (Sejin Park et al., 2023)
+### (35/53) FDCNet: Feature Drift Compensation Network for Class-Incremental Weakly Supervised Object Localization (Sejin Park et al., 2023)
 
 {{<citation>}}
 
@@ -791,7 +835,7 @@ This work addresses the task of class-incremental weakly supervised object local
 {{</citation>}}
 
 
-### (34/50) Uncertainty-aware 3D Object-Level Mapping with Deep Shape Priors (Ziwei Liao et al., 2023)
+### (36/53) Uncertainty-aware 3D Object-Level Mapping with Deep Shape Priors (Ziwei Liao et al., 2023)
 
 {{<citation>}}
 
@@ -813,11 +857,11 @@ Keywords: AI
 {{</citation>}}
 
 
-## cs.SE (4)
+## cs.SE (5)
 
 
 
-### (35/50) GAMMA: Revisiting Template-based Automated Program Repair via Mask Prediction (Quanjun Zhang et al., 2023)
+### (37/53) GAMMA: Revisiting Template-based Automated Program Repair via Mask Prediction (Quanjun Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -839,7 +883,7 @@ Automated program repair (APR) aims to fix software bugs without human intervent
 {{</citation>}}
 
 
-### (36/50) Embedded Software Development with Digital Twins: Specific Requirements for Small and Medium-Sized Enterprises (Alexander Barbie et al., 2023)
+### (38/53) Embedded Software Development with Digital Twins: Specific Requirements for Small and Medium-Sized Enterprises (Alexander Barbie et al., 2023)
 
 {{<citation>}}
 
@@ -861,7 +905,7 @@ The transformation to Industry 4.0 changes the way embedded software systems are
 {{</citation>}}
 
 
-### (37/50) Rely-guarantee Reasoning about Concurrent Reactive Systems: The PiCore Framework, Languages Integration and Applications (Yongwang Zhao et al., 2023)
+### (39/53) Rely-guarantee Reasoning about Concurrent Reactive Systems: The PiCore Framework, Languages Integration and Applications (Yongwang Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -883,7 +927,29 @@ The rely-guarantee approach is a promising way for compositional verification of
 {{</citation>}}
 
 
-### (38/50) Event-based Compositional Reasoning of Information-Flow Security for Concurrent Systems (Yongwang Zhao et al., 2023)
+### (40/53) Rely-guarantee Reasoning about Concurrent Memory Management: Correctness, Safety and Security (Yongwang Zhao et al., 2023)
+
+{{<citation>}}
+
+Yongwang Zhao, David Sanan. (2023)  
+**Rely-guarantee Reasoning about Concurrent Memory Management: Correctness, Safety and Security**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-SE, cs.SE  
+Keywords: Reasoning, Security  
+[Paper Link](http://arxiv.org/abs/2309.09997v1)  
+
+---
+
+
+**ABSTRACT**  
+Formal verification of concurrent operating systems (OSs) is challenging, in particular the verification of the dynamic memory management due to its complex data structures and allocation algorithm. An incorrect specification and implementation of the memory management may lead to system crashes or exploitable attacks. This article presents the first formal specification and mechanized proof of a concurrent memory management for a real-world OS concerning a comprehensive set of properties, including functional correctness, safety and security. To achieve the highest assurance evaluation level, we develop a fine-grained formal specification of the Zephyr RTOS buddy memory management, which closely follows the C code easing validation of the specification and the source code. The rely-guarantee-based compositional verification technique has been enforced over the formal model. To support formal verification of the security property, we extend our rely-guarantee framework PiCore by a compositional reasoning approach for integrity. Whilst the security verification of the design shows that it preserves the integrity property, the verification of the functional properties shows several problems. These verification issues are translated into finding three bugs in the C implementation of Zephyr, after inspecting the source code corresponding to the design lines breaking the properties.
+
+{{</citation>}}
+
+
+### (41/53) Event-based Compositional Reasoning of Information-Flow Security for Concurrent Systems (Yongwang Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -909,7 +975,7 @@ High assurance of information-flow security (IFS) for concurrent systems is chal
 
 
 
-### (39/50) PromptVC: Flexible Stylistic Voice Conversion in Latent Space Driven by Natural Language Prompts (Jixun Yao et al., 2023)
+### (42/53) PromptVC: Flexible Stylistic Voice Conversion in Latent Space Driven by Natural Language Prompts (Jixun Yao et al., 2023)
 
 {{<citation>}}
 
@@ -931,7 +997,7 @@ Style voice conversion aims to transform the style of source speech to a desired
 {{</citation>}}
 
 
-### (40/50) Improving Speech Inversion Through Self-Supervised Embeddings and Enhanced Tract Variables (Ahmed Adel Attia et al., 2023)
+### (43/53) Improving Speech Inversion Through Self-Supervised Embeddings and Enhanced Tract Variables (Ahmed Adel Attia et al., 2023)
 
 {{<citation>}}
 
@@ -953,7 +1019,7 @@ The performance of deep learning models depends significantly on their capacity 
 {{</citation>}}
 
 
-### (41/50) Neural Speaker Diarization Using Memory-Aware Multi-Speaker Embedding with Sequence-to-Sequence Architecture (Gaobin Yang et al., 2023)
+### (44/53) Neural Speaker Diarization Using Memory-Aware Multi-Speaker Embedding with Sequence-to-Sequence Architecture (Gaobin Yang et al., 2023)
 
 {{<citation>}}
 
@@ -979,7 +1045,7 @@ We propose a novel neural speaker diarization system using memory-aware multi-sp
 
 
 
-### (42/50) Leveraging Large Language Models for Sequential Recommendation (Jesse Harte et al., 2023)
+### (45/53) Leveraging Large Language Models for Sequential Recommendation (Jesse Harte et al., 2023)
 
 {{<citation>}}
 
@@ -1005,7 +1071,7 @@ Sequential recommendation problems have received increasing attention in researc
 
 
 
-### (43/50) Sim-to-Real Deep Reinforcement Learning with Manipulators for Pick-and-place (Wenxing Liu et al., 2023)
+### (46/53) Sim-to-Real Deep Reinforcement Learning with Manipulators for Pick-and-place (Wenxing Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1027,7 +1093,7 @@ When transferring a Deep Reinforcement Learning model from simulation to the rea
 {{</citation>}}
 
 
-### (44/50) Optimal Scene Graph Planning with Large Language Model Guidance (Zhirui Dai et al., 2023)
+### (47/53) Optimal Scene Graph Planning with Large Language Model Guidance (Zhirui Dai et al., 2023)
 
 {{<citation>}}
 
@@ -1049,7 +1115,7 @@ Recent advances in metric, semantic, and topological mapping have equipped auton
 {{</citation>}}
 
 
-### (45/50) From Cooking Recipes to Robot Task Trees -- Improving Planning Correctness and Task Efficiency by Leveraging LLMs with a Knowledge Network (Md Sadman Sakib et al., 2023)
+### (48/53) From Cooking Recipes to Robot Task Trees -- Improving Planning Correctness and Task Efficiency by Leveraging LLMs with a Knowledge Network (Md Sadman Sakib et al., 2023)
 
 {{<citation>}}
 
@@ -1071,7 +1137,7 @@ Task planning for robotic cooking involves generating a sequence of actions for 
 {{</citation>}}
 
 
-### (46/50) Trajectory Prediction for Robot Navigation using Flow-Guided Markov Neural Operator (Rashmi Bhaskara et al., 2023)
+### (49/53) Trajectory Prediction for Robot Navigation using Flow-Guided Markov Neural Operator (Rashmi Bhaskara et al., 2023)
 
 {{<citation>}}
 
@@ -1082,13 +1148,13 @@ Rashmi Bhaskara, Hrishikesh Viswanath, Aniket Bera. (2023)
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: LSTM  
-[Paper Link](http://arxiv.org/abs/2309.09137v1)  
+[Paper Link](http://arxiv.org/abs/2309.09137v2)  
 
 ---
 
 
 **ABSTRACT**  
-Predicting pedestrian movements remains a complex and persistent challenge in robot navigation research. We must evaluate several factors to achieve accurate predictions, such as pedestrian interactions, the environment, crowd density, and social and cultural norms. Accurate prediction of pedestrian paths is vital for ensuring safe human-robot interaction, especially in robot navigation. Furthermore, this research has potential applications in autonomous vehicles, pedestrian tracking, and human-robot collaboration. Therefore, in this paper, we introduce \textbf{FlowMNO}, an Optical Flow-Integrated Markov Neural Operator designed to capture pedestrian behavior across diverse scenarios. Our paper models trajectory prediction as a Markovian process, where future pedestrian coordinates depend solely on the current state. This problem formulation eliminates the need to store previous states. We conducted experiments using standard benchmark datasets like ETH, HOTEL, ZARA1, ZARA2, UCY, and RGB-D pedestrian datasets. Our study demonstrates that FlowMNO outperforms some of the state-of-the-art deep learning methods like LSTM, GAN, and CNN-based approaches, by approximately 86.46\% when predicting pedestrian trajectories. Thus, we show that FlowMNO can seamlessly integrate into robot navigation systems, enhancing their ability to navigate crowded areas smoothly.
+Predicting pedestrian movements remains a complex and persistent challenge in robot navigation research. We must evaluate several factors to achieve accurate predictions, such as pedestrian interactions, the environment, crowd density, and social and cultural norms. Accurate prediction of pedestrian paths is vital for ensuring safe human-robot interaction, especially in robot navigation. Furthermore, this research has potential applications in autonomous vehicles, pedestrian tracking, and human-robot collaboration. Therefore, in this paper, we introduce FlowMNO, an Optical Flow-Integrated Markov Neural Operator designed to capture pedestrian behavior across diverse scenarios. Our paper models trajectory prediction as a Markovian process, where future pedestrian coordinates depend solely on the current state. This problem formulation eliminates the need to store previous states. We conducted experiments using standard benchmark datasets like ETH, HOTEL, ZARA1, ZARA2, UCY, and RGB-D pedestrian datasets. Our study demonstrates that FlowMNO outperforms some of the state-of-the-art deep learning methods like LSTM, GAN, and CNN-based approaches, by approximately 86.46% when predicting pedestrian trajectories. Thus, we show that FlowMNO can seamlessly integrate into robot navigation systems, enhancing their ability to navigate crowded areas smoothly.
 
 {{</citation>}}
 
@@ -1097,7 +1163,7 @@ Predicting pedestrian movements remains a complex and persistent challenge in ro
 
 
 
-### (47/50) ATM: a Logic for Quantitative Security Properties on Attack Trees (Stefano M. Nicoletti et al., 2023)
+### (50/53) ATM: a Logic for Quantitative Security Properties on Attack Trees (Stefano M. Nicoletti et al., 2023)
 
 {{<citation>}}
 
@@ -1123,7 +1189,7 @@ Critical infrastructure systems - for which high reliability and availability ar
 
 
 
-### (48/50) Logic of Awareness in Agent's Reasoning (Yudai Kubono et al., 2023)
+### (51/53) Logic of Awareness in Agent's Reasoning (Yudai Kubono et al., 2023)
 
 {{<citation>}}
 
@@ -1149,7 +1215,7 @@ The aim of this study is to formally express awareness for modeling practical ag
 
 
 
-### (49/50) Analog Content-Addressable Memory from Complementary FeFETs (Xiwen Liu et al., 2023)
+### (52/53) Analog Content-Addressable Memory from Complementary FeFETs (Xiwen Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1175,7 +1241,7 @@ To address the increasing computational demands of artificial intelligence (AI) 
 
 
 
-### (50/50) Performance of Graph Neural Networks for Point Cloud Applications (Dhruv Parikh et al., 2023)
+### (53/53) Performance of Graph Neural Networks for Point Cloud Applications (Dhruv Parikh et al., 2023)
 
 {{<citation>}}
 

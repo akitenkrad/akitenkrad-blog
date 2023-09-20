@@ -24,6 +24,7 @@ math: true
 - [cs.RO (7)](#csro-7)
 - [cs.CL (24)](#cscl-24)
 - [cs.SD (3)](#cssd-3)
+- [eess.AS (3)](#eessas-3)
 - [cs.LG (8)](#cslg-8)
 - [cs.CV (7)](#cscv-7)
 - [cs.DS (1)](#csds-1)
@@ -35,7 +36,6 @@ math: true
 - [cs.AR (1)](#csar-1)
 - [cs.IT (1)](#csit-1)
 - [eess.SY (1)](#eesssy-1)
-- [eess.AS (2)](#eessas-2)
 - [cs.LO (1)](#cslo-1)
 - [cs.SI (1)](#cssi-1)
 
@@ -43,7 +43,7 @@ math: true
 
 
 
-### (1/67) Neural Network-based Fault Detection and Identification for Quadrotors using Dynamic Symmetry (Kunal Garg et al., 2023)
+### (1/68) Neural Network-based Fault Detection and Identification for Quadrotors using Dynamic Symmetry (Kunal Garg et al., 2023)
 
 {{<citation>}}
 
@@ -65,7 +65,7 @@ Autonomous robotic systems, such as quadrotors, are susceptible to actuator faul
 {{</citation>}}
 
 
-### (2/67) CppFlow: Generative Inverse Kinematics for Efficient and Robust Cartesian Path Planning (Jeremy Morgan et al., 2023)
+### (2/68) CppFlow: Generative Inverse Kinematics for Efficient and Robust Cartesian Path Planning (Jeremy Morgan et al., 2023)
 
 {{<citation>}}
 
@@ -87,7 +87,7 @@ In this work we present CppFlow - a novel and performant planner for the Cartesi
 {{</citation>}}
 
 
-### (3/67) RMP: A Random Mask Pretrain Framework for Motion Prediction (Yi Yang et al., 2023)
+### (3/68) RMP: A Random Mask Pretrain Framework for Motion Prediction (Yi Yang et al., 2023)
 
 {{<citation>}}
 
@@ -109,7 +109,7 @@ As the pretraining technique is growing in popularity, little work has been done
 {{</citation>}}
 
 
-### (4/67) Outram: One-shot Global Localization via Triangulated Scene Graph and Global Outlier Pruning (Pengyu Yin et al., 2023)
+### (4/68) Outram: One-shot Global Localization via Triangulated Scene Graph and Global Outlier Pruning (Pengyu Yin et al., 2023)
 
 {{<citation>}}
 
@@ -131,7 +131,7 @@ One-shot LiDAR localization refers to the ability to estimate the robot pose fro
 {{</citation>}}
 
 
-### (5/67) Stylized Table Tennis Robots Skill Learning with Incomplete Human Demonstrations (Xiang Zhu et al., 2023)
+### (5/68) Stylized Table Tennis Robots Skill Learning with Incomplete Human Demonstrations (Xiang Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -153,7 +153,7 @@ In recent years, Reinforcement Learning (RL) is becoming a popular technique for
 {{</citation>}}
 
 
-### (6/67) Pour me a drink: Robotic Precision Pouring Carbonated Beverages into Transparent Containers (Feiya Zhu et al., 2023)
+### (6/68) Pour me a drink: Robotic Precision Pouring Carbonated Beverages into Transparent Containers (Feiya Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -164,18 +164,18 @@ Feiya Zhu, Shuo Hu, Letian Leng, Alison Bartsch, Abraham George, Amir Barati Far
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: ChatGPT, GPT  
-[Paper Link](http://arxiv.org/abs/2309.08892v1)  
+[Paper Link](http://arxiv.org/abs/2309.08892v2)  
 
 ---
 
 
 **ABSTRACT**  
-With the growing emphasis on the development and integration of service robots within household environments, we will need to endow robots with the ability to reliably pour a variety of liquids. However, liquid handling and pouring is a challenging task due to the complex dynamics and varying properties of different liquids, the exacting precision required to prevent spills and ensure accurate pouring, and the necessity for robots to adapt seamlessly to a multitude of containers in real-world scenarios. In response to these challenges, we propose a novel autonomous robotics pipeline that empowers robots to execute precision pouring tasks, encompassing both carbonated and non-carbonated liquids, as well as opaque and transparent liquids, into a variety of transparent containers. Our proposed approach maximizes the potential of RGB input alone, achieving zero-shot capability by harnessing existing pre-trained vision segmentation models. This eliminates the need for additional data collection, manual image annotations, or extensive training. Furthermore, our work integrates ChatGPT, facilitating seamless interaction between individuals without prior expertise in robotics and our pouring pipeline. This integration enables users to effortlessly request and execute pouring actions. Our experiments demonstrate the pipeline's capability to successfully pour a diverse range of carbonated and non-carbonated beverages into containers of varying sizes, relying solely on visual input.
+With the growing emphasis on the development and integration of service robots within household environments, we will need to endow robots with the ability to reliably pour a variety of liquids. However, liquid handling and pouring is a challenging task due to the complex dynamics and varying properties of different liquids, the exacting precision required to prevent spills and ensure accurate pouring, and the necessity for robots to adapt seamlessly to a multitude of containers in real-world scenarios. In response to these challenges, we propose a novel autonomous robotics pipeline that empowers robots to execute precision pouring tasks, encompassing both carbonated and non-carbonated liquids, as well as opaque and transparent liquids, into a variety of transparent containers. Our proposed approach maximizes the potential of RGB input alone, achieving zero-shot capability by harnessing existing pre-trained vision segmentation models. This eliminates the need for additional data collection, manual image annotations, or extensive training. Furthermore, our work integrates ChatGPT, facilitating seamless interaction between individuals without prior expertise in robotics and our pouring pipeline, this integration enables users to effortlessly request and execute pouring actions. Our experiments demonstrate the pipeline's capability to successfully pour a diverse range of carbonated and non-carbonated beverages into containers of varying sizes, relying solely on visual input.
 
 {{</citation>}}
 
 
-### (7/67) ARTEMIS: AI-driven Robotic Triage Labeling and Emergency Medical Information System (Sathvika Kotha et al., 2023)
+### (7/68) ARTEMIS: AI-driven Robotic Triage Labeling and Emergency Medical Information System (Sathvika Kotha et al., 2023)
 
 {{<citation>}}
 
@@ -201,7 +201,7 @@ Mass casualty incidents (MCIs) pose a formidable challenge to emergency medical 
 
 
 
-### (8/67) The Impact of Debiasing on the Performance of Language Models in Downstream Tasks is Underestimated (Masahiro Kaneko et al., 2023)
+### (8/68) The Impact of Debiasing on the Performance of Language Models in Downstream Tasks is Underestimated (Masahiro Kaneko et al., 2023)
 
 {{<citation>}}
 
@@ -223,7 +223,7 @@ Pre-trained language models trained on large-scale data have learned serious lev
 {{</citation>}}
 
 
-### (9/67) RMDM: A Multilabel Fakenews Dataset for Vietnamese Evidence Verification (Hai-Long Nguyen et al., 2023)
+### (9/68) RMDM: A Multilabel Fakenews Dataset for Vietnamese Evidence Verification (Hai-Long Nguyen et al., 2023)
 
 {{<citation>}}
 
@@ -245,7 +245,7 @@ In this study, we present a novel and challenging multilabel Vietnamese dataset 
 {{</citation>}}
 
 
-### (10/67) NOWJ1@ALQAC 2023: Enhancing Legal Task Performance with Classic Statistical Models and Pre-trained Language Models (Tan-Minh Nguyen et al., 2023)
+### (10/68) NOWJ1@ALQAC 2023: Enhancing Legal Task Performance with Classic Statistical Models and Pre-trained Language Models (Tan-Minh Nguyen et al., 2023)
 
 {{<citation>}}
 
@@ -267,7 +267,7 @@ This paper describes the NOWJ1 Team's approach for the Automated Legal Question 
 {{</citation>}}
 
 
-### (11/67) Constructing a Knowledge Graph for Vietnamese Legal Cases with Heterogeneous Graphs (Thi-Hai-Yen Vuong et al., 2023)
+### (11/68) Constructing a Knowledge Graph for Vietnamese Legal Cases with Heterogeneous Graphs (Thi-Hai-Yen Vuong et al., 2023)
 
 {{<citation>}}
 
@@ -289,7 +289,7 @@ This paper presents a knowledge graph construction method for legal case documen
 {{</citation>}}
 
 
-### (12/67) Exploring the impact of low-rank adaptation on the performance, efficiency, and regularization of RLHF (Simeng Sun et al., 2023)
+### (12/68) Exploring the impact of low-rank adaptation on the performance, efficiency, and regularization of RLHF (Simeng Sun et al., 2023)
 
 {{<citation>}}
 
@@ -311,7 +311,7 @@ During the last stage of RLHF, a large language model is aligned to human intent
 {{</citation>}}
 
 
-### (13/67) Context-aware Adversarial Attack on Named Entity Recognition (Shuguang Chen et al., 2023)
+### (13/68) Context-aware Adversarial Attack on Named Entity Recognition (Shuguang Chen et al., 2023)
 
 {{<citation>}}
 
@@ -333,7 +333,7 @@ In recent years, large pre-trained language models (PLMs) have achieved remarkab
 {{</citation>}}
 
 
-### (14/67) Rethinking STS and NLI in Large Language Models (Yuxia Wang et al., 2023)
+### (14/68) Rethinking STS and NLI in Large Language Models (Yuxia Wang et al., 2023)
 
 {{<citation>}}
 
@@ -355,7 +355,7 @@ In this study, we aim to rethink STS and NLI in the era of large language models
 {{</citation>}}
 
 
-### (15/67) Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference Using Sorted Fine-Tuning (SoFT) (Parsa Kavehzadeh et al., 2023)
+### (15/68) Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference Using Sorted Fine-Tuning (SoFT) (Parsa Kavehzadeh et al., 2023)
 
 {{<citation>}}
 
@@ -377,18 +377,18 @@ The rapid advancement of large language models (LLMs) has revolutionized natural
 {{</citation>}}
 
 
-### (16/67) Struc-Bench: Are Large Language Models Really Good at Generating Complex Structured Data? (Xiangru Tang et al., 2023)
+### (16/68) Struc-Bench: Are Large Language Models Really Good at Generating Complex Structured Data? (Xiangru Tang et al., 2023)
 
 {{<citation>}}
 
-Xiangru Tang, Yiming Zong, Yilun Zhao, Arman Cohan, Mark Gerstein. (2023)  
+Xiangru Tang, Yiming Zong, Jason Phang, Yilun Zhao, Wangchunshu Zhou, Arman Cohan, Mark Gerstein. (2023)  
 **Struc-Bench: Are Large Language Models Really Good at Generating Complex Structured Data?**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: GPT, GPT-3.5, GPT-4, LLaMA, Language Model  
-[Paper Link](http://arxiv.org/abs/2309.08963v1)  
+[Paper Link](http://arxiv.org/abs/2309.08963v2)  
 
 ---
 
@@ -399,7 +399,7 @@ Despite the power of Large Language Models (LLMs) like GPT-4, they still struggl
 {{</citation>}}
 
 
-### (17/67) ODSum: New Benchmarks for Open Domain Multi-Document Summarization (Yijie Zhou et al., 2023)
+### (17/68) ODSum: New Benchmarks for Open Domain Multi-Document Summarization (Yijie Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -421,7 +421,7 @@ Open-domain Multi-Document Summarization (ODMDS) is a critical tool for condensi
 {{</citation>}}
 
 
-### (18/67) Monolingual or Multilingual Instruction Tuning: Which Makes a Better Alpaca (Pinzhen Chen et al., 2023)
+### (18/68) Monolingual or Multilingual Instruction Tuning: Which Makes a Better Alpaca (Pinzhen Chen et al., 2023)
 
 {{<citation>}}
 
@@ -443,7 +443,7 @@ Foundational large language models (LLMs) can be instruction-tuned to develop op
 {{</citation>}}
 
 
-### (19/67) Cross-Lingual Knowledge Editing in Large Language Models (Jiaan Wang et al., 2023)
+### (19/68) Cross-Lingual Knowledge Editing in Large Language Models (Jiaan Wang et al., 2023)
 
 {{<citation>}}
 
@@ -465,7 +465,7 @@ Knowledge editing aims to change language models' performance on several special
 {{</citation>}}
 
 
-### (20/67) Enhancing Large Language Model Induced Task-Oriented Dialogue Systems Through Look-Forward Motivated Goals (Zhiyuan Hu et al., 2023)
+### (20/68) Enhancing Large Language Model Induced Task-Oriented Dialogue Systems Through Look-Forward Motivated Goals (Zhiyuan Hu et al., 2023)
 
 {{<citation>}}
 
@@ -487,7 +487,7 @@ Recently, the development of large language models (LLMs) has been significantly
 {{</citation>}}
 
 
-### (21/67) Leveraging Multi-lingual Positive Instances in Contrastive Learning to Improve Sentence Embedding (Kaiyan Zhao et al., 2023)
+### (21/68) Leveraging Multi-lingual Positive Instances in Contrastive Learning to Improve Sentence Embedding (Kaiyan Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -509,7 +509,7 @@ Learning multi-lingual sentence embeddings is a fundamental and significant task
 {{</citation>}}
 
 
-### (22/67) Multimodal Multi-Hop Question Answering Through a Conversation Between Tools and Efficiently Finetuned Large Language Models (Hossein Rajabzadeh et al., 2023)
+### (22/68) Multimodal Multi-Hop Question Answering Through a Conversation Between Tools and Efficiently Finetuned Large Language Models (Hossein Rajabzadeh et al., 2023)
 
 {{<citation>}}
 
@@ -531,7 +531,7 @@ We employ a tool-interacting divide-and-conquer strategy enabling large language
 {{</citation>}}
 
 
-### (23/67) Investigating Subtler Biases in LLMs: Ageism, Beauty, Institutional, and Nationality Bias in Generative Models (Mahammed Kamruzzaman et al., 2023)
+### (23/68) Investigating Subtler Biases in LLMs: Ageism, Beauty, Institutional, and Nationality Bias in Generative Models (Mahammed Kamruzzaman et al., 2023)
 
 {{<citation>}}
 
@@ -553,7 +553,7 @@ LLMs are increasingly powerful and widely used to assist users in a variety of t
 {{</citation>}}
 
 
-### (24/67) Semantic Information Extraction for Text Data with Probability Graph (Zhouxiang Zhao et al., 2023)
+### (24/68) Semantic Information Extraction for Text Data with Probability Graph (Zhouxiang Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -575,7 +575,7 @@ In this paper, the problem of semantic information extraction for resource const
 {{</citation>}}
 
 
-### (25/67) X-PARADE: Cross-Lingual Textual Entailment and Information Divergence across Paragraphs (Juan Diego Rodriguez et al., 2023)
+### (25/68) X-PARADE: Cross-Lingual Textual Entailment and Information Divergence across Paragraphs (Juan Diego Rodriguez et al., 2023)
 
 {{<citation>}}
 
@@ -597,7 +597,7 @@ Understanding when two pieces of text convey the same information is a goal touc
 {{</citation>}}
 
 
-### (26/67) PDFTriage: Question Answering over Long, Structured Documents (Jon Saad-Falcon et al., 2023)
+### (26/68) PDFTriage: Question Answering over Long, Structured Documents (Jon Saad-Falcon et al., 2023)
 
 {{<citation>}}
 
@@ -619,7 +619,7 @@ Large Language Models (LLMs) have issues with document question answering (QA) i
 {{</citation>}}
 
 
-### (27/67) MHLAT: Multi-hop Label-wise Attention Model for Automatic ICD Coding (Junwen Duan et al., 2023)
+### (27/68) MHLAT: Multi-hop Label-wise Attention Model for Automatic ICD Coding (Junwen Duan et al., 2023)
 
 {{<citation>}}
 
@@ -641,7 +641,7 @@ International Classification of Diseases (ICD) coding is the task of assigning I
 {{</citation>}}
 
 
-### (28/67) Has Sentiment Returned to the Pre-pandemic Level? A Sentiment Analysis Using U.S. College Subreddit Data from 2019 to 2022 (Tian Yan et al., 2023)
+### (28/68) Has Sentiment Returned to the Pre-pandemic Level? A Sentiment Analysis Using U.S. College Subreddit Data from 2019 to 2022 (Tian Yan et al., 2023)
 
 {{<citation>}}
 
@@ -663,7 +663,7 @@ As impact of COVID-19 pandemic winds down, both individuals and society graduall
 {{</citation>}}
 
 
-### (29/67) Bias and Fairness in Chatbots: An Overview (Jintang Xue et al., 2023)
+### (29/68) Bias and Fairness in Chatbots: An Overview (Jintang Xue et al., 2023)
 
 {{<citation>}}
 
@@ -685,7 +685,7 @@ Chatbots have been studied for more than half a century. With the rapid developm
 {{</citation>}}
 
 
-### (30/67) SLIDE: Reference-free Evaluation for Machine Translation using a Sliding Document Window (Vikas Raunak et al., 2023)
+### (30/68) SLIDE: Reference-free Evaluation for Machine Translation using a Sliding Document Window (Vikas Raunak et al., 2023)
 
 {{<citation>}}
 
@@ -707,7 +707,7 @@ Reference-based metrics that operate at the sentence level typically outperform 
 {{</citation>}}
 
 
-### (31/67) S3-DST: Structured Open-Domain Dialogue Segmentation and State Tracking in the Era of LLMs (Sarkar Snigdha Sarathi Das et al., 2023)
+### (31/68) S3-DST: Structured Open-Domain Dialogue Segmentation and State Tracking in the Era of LLMs (Sarkar Snigdha Sarathi Das et al., 2023)
 
 {{<citation>}}
 
@@ -733,7 +733,7 @@ The traditional Dialogue State Tracking (DST) problem aims to track user prefere
 
 
 
-### (32/67) Enhancing GAN-Based Vocoders with Contrastive Learning Under Data-limited Condition (Haoming Guo et al., 2023)
+### (32/68) Enhancing GAN-Based Vocoders with Contrastive Learning Under Data-limited Condition (Haoming Guo et al., 2023)
 
 {{<citation>}}
 
@@ -755,7 +755,7 @@ Vocoder models have recently achieved substantial progress in generating authent
 {{</citation>}}
 
 
-### (33/67) Music Generation based on Generative Adversarial Networks with Transformer (Ziyi Jiang et al., 2023)
+### (33/68) Music Generation based on Generative Adversarial Networks with Transformer (Ziyi Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -777,7 +777,7 @@ Autoregressive models based on Transformers have become the prevailing approach 
 {{</citation>}}
 
 
-### (34/67) FastGraphTTS: An Ultrafast Syntax-Aware Speech Synthesis Framework (Jianzong Wang et al., 2023)
+### (34/68) FastGraphTTS: An Ultrafast Syntax-Aware Speech Synthesis Framework (Jianzong Wang et al., 2023)
 
 {{<citation>}}
 
@@ -799,11 +799,81 @@ This paper integrates graph-to-sequence into an end-to-end text-to-speech framew
 {{</citation>}}
 
 
+## eess.AS (3)
+
+
+
+### (35/68) Improving Speech Recognition for African American English With Audio Classification (Shefali Garg et al., 2023)
+
+{{<citation>}}
+
+Shefali Garg, Zhouyuan Huo, Khe Chai Sim, Suzan Schwartz, Mason Chua, Alëna Aksënova, Tsendsuren Munkhdalai, Levi King, Darryl Wright, Zion Mengesha, Dongseong Hwang, Tara Sainath, Françoise Beaufays, Pedro Moreno Mengibar. (2023)  
+**Improving Speech Recognition for African American English With Audio Classification**  
+
+---
+Primary Category: eess.AS  
+Categories: cs-CL, cs-LG, cs-SD, eess-AS, eess.AS  
+Keywords: Speech Recognition  
+[Paper Link](http://arxiv.org/abs/2309.09996v1)  
+
+---
+
+
+**ABSTRACT**  
+Automatic speech recognition (ASR) systems have been shown to have large quality disparities between the language varieties they are intended or expected to recognize. One way to mitigate this is to train or fine-tune models with more representative datasets. But this approach can be hindered by limited in-domain data for training and evaluation. We propose a new way to improve the robustness of a US English short-form speech recognizer using a small amount of out-of-domain (long-form) African American English (AAE) data. We use CORAAL, YouTube and Mozilla Common Voice to train an audio classifier to approximately output whether an utterance is AAE or some other variety including Mainstream American English (MAE). By combining the classifier output with coarse geographic information, we can select a subset of utterances from a large corpus of untranscribed short-form queries for semi-supervised learning at scale. Fine-tuning on this data results in a 38.5% relative word error rate disparity reduction between AAE and MAE without reducing MAE quality.
+
+{{</citation>}}
+
+
+### (36/68) Decoder-only Architecture for Speech Recognition with CTC Prompts and Text Data Augmentation (Emiru Tsunoo et al., 2023)
+
+{{<citation>}}
+
+Emiru Tsunoo, Hayato Futami, Yosuke Kashiwagi, Siddhant Arora, Shinji Watanabe. (2023)  
+**Decoder-only Architecture for Speech Recognition with CTC Prompts and Text Data Augmentation**  
+
+---
+Primary Category: eess.AS  
+Categories: cs-SD, eess-AS, eess.AS  
+Keywords: Augmentation, GPT, PaLM, Speech Recognition  
+[Paper Link](http://arxiv.org/abs/2309.08876v1)  
+
+---
+
+
+**ABSTRACT**  
+Collecting audio-text pairs is expensive; however, it is much easier to access text-only data. Unless using shallow fusion, end-to-end automatic speech recognition (ASR) models require architecture modifications or additional training schemes to use text-only data. Inspired by recent advances in decoder-only language models (LMs), such as GPT-3 and PaLM adopted for speech-processing tasks, we propose using a decoder-only architecture for ASR with simple text augmentation. To provide audio information, encoder features compressed by CTC prediction are used as prompts for the decoder, which can be regarded as refining CTC prediction using the decoder-only model. Because the decoder architecture is the same as an autoregressive LM, it is simple to enhance the model by leveraging external text data with LM training. An experimental comparison using LibriSpeech and Switchboard shows that our proposed models with text augmentation training reduced word error rates from ordinary CTC by 0.3% and 1.4% on LibriSpeech test-clean and testother set, respectively, and 2.9% and 5.0% on Switchboard and CallHome. The proposed model had advantage on computational efficiency compared with conventional encoder-decoder ASR models with a similar parameter setup, and outperformed them on the LibriSpeech 100h and Switchboard training scenarios.
+
+{{</citation>}}
+
+
+### (37/68) Boosting End-to-End Multilingual Phoneme Recognition through Exploiting Universal Speech Attributes Constraints (Hao Yen et al., 2023)
+
+{{<citation>}}
+
+Hao Yen, Sabato Marco Siniscalchi, Chin-Hui Lee. (2023)  
+**Boosting End-to-End Multilingual Phoneme Recognition through Exploiting Universal Speech Attributes Constraints**  
+
+---
+Primary Category: eess.AS  
+Categories: cs-SD, eess-AS, eess.AS  
+Keywords: Multilingual  
+[Paper Link](http://arxiv.org/abs/2309.08828v1)  
+
+---
+
+
+**ABSTRACT**  
+We propose a first step toward multilingual end-to-end automatic speech recognition (ASR) by integrating knowledge about speech articulators. The key idea is to leverage a rich set of fundamental units that can be defined "universally" across all spoken languages, referred to as speech attributes, namely manner and place of articulation. Specifically, several deterministic attribute-to-phoneme mapping matrices are constructed based on the predefined set of universal attribute inventory, which projects the knowledge-rich articulatory attribute logits, into output phoneme logits. The mapping puts knowledge-based constraints to limit inconsistency with acoustic-phonetic evidence in the integrated prediction. Combined with phoneme recognition, our phone recognizer is able to infer from both attribute and phoneme information. The proposed joint multilingual model is evaluated through phoneme recognition. In multilingual experiments over 6 languages on benchmark datasets LibriSpeech and CommonVoice, we find that our proposed solution outperforms conventional multilingual approaches with a relative improvement of 6.85% on average, and it also demonstrates a much better performance compared to monolingual model. Further analysis conclusively demonstrates that the proposed solution eliminates phoneme predictions that are inconsistent with attributes.
+
+{{</citation>}}
+
+
 ## cs.LG (8)
 
 
 
-### (35/67) Test-Time Compensated Representation Learning for Extreme Traffic Forecasting (Zhiwei Zhang et al., 2023)
+### (38/68) Test-Time Compensated Representation Learning for Extreme Traffic Forecasting (Zhiwei Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -825,7 +895,7 @@ Traffic forecasting is a challenging task due to the complex spatio-temporal cor
 {{</citation>}}
 
 
-### (36/67) Enhancing personalised thermal comfort models with Active Learning for improved HVAC controls (Zeynep Duygu Tekler et al., 2023)
+### (39/68) Enhancing personalised thermal comfort models with Active Learning for improved HVAC controls (Zeynep Duygu Tekler et al., 2023)
 
 {{<citation>}}
 
@@ -847,7 +917,7 @@ Developing personalised thermal comfort models to inform occupant-centric contro
 {{</citation>}}
 
 
-### (37/67) Recovering Missing Node Features with Local Structure-based Embeddings (Victor M. Tenorio et al., 2023)
+### (40/68) Recovering Missing Node Features with Local Structure-based Embeddings (Victor M. Tenorio et al., 2023)
 
 {{<citation>}}
 
@@ -869,7 +939,7 @@ Node features bolster graph-based learning when exploited jointly with network s
 {{</citation>}}
 
 
-### (38/67) Improve Deep Forest with Learnable Layerwise Augmentation Policy Schedule (Hongyu Zhu et al., 2023)
+### (41/68) Improve Deep Forest with Learnable Layerwise Augmentation Policy Schedule (Hongyu Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -891,7 +961,7 @@ As a modern ensemble technique, Deep Forest (DF) employs a cascading structure t
 {{</citation>}}
 
 
-### (39/67) gym-saturation: Gymnasium environments for saturation provers (System description) (Boris Shminke, 2023)
+### (42/68) gym-saturation: Gymnasium environments for saturation provers (System description) (Boris Shminke, 2023)
 
 {{<citation>}}
 
@@ -913,7 +983,7 @@ This work describes a new version of a previously published Python package - gym
 {{</citation>}}
 
 
-### (40/67) UNIDEAL: Curriculum Knowledge Distillation Federated Learning (Yuwen Yang et al., 2023)
+### (43/68) UNIDEAL: Curriculum Knowledge Distillation Federated Learning (Yuwen Yang et al., 2023)
 
 {{<citation>}}
 
@@ -935,7 +1005,7 @@ Federated Learning (FL) has emerged as a promising approach to enable collaborat
 {{</citation>}}
 
 
-### (41/67) DOMAIN: MilDly COnservative Model-BAsed OfflINe Reinforcement Learning (Xiao-Yin Liu et al., 2023)
+### (44/68) DOMAIN: MilDly COnservative Model-BAsed OfflINe Reinforcement Learning (Xiao-Yin Liu et al., 2023)
 
 {{<citation>}}
 
@@ -957,7 +1027,7 @@ Model-based reinforcement learning (RL), which learns environment model from off
 {{</citation>}}
 
 
-### (42/67) Rethinking Learning Rate Tuning in the Era of Large Language Models (Hongpeng Jin et al., 2023)
+### (45/68) Rethinking Learning Rate Tuning in the Era of Large Language Models (Hongpeng Jin et al., 2023)
 
 {{<citation>}}
 
@@ -983,18 +1053,18 @@ Large Language Models (LLMs) represent the recent success of deep learning in ac
 
 
 
-### (43/67) MMST-ViT: Climate Change-aware Crop Yield Prediction via Multi-Modal Spatial-Temporal Vision Transformer (Fudong Lin et al., 2023)
+### (46/68) MMST-ViT: Climate Change-aware Crop Yield Prediction via Multi-Modal Spatial-Temporal Vision Transformer (Fudong Lin et al., 2023)
 
 {{<citation>}}
 
-Fudong Lin, Summer Crawford, Kaleb Guillot, Yihe Zhang, Yan Chen, Xu Yuan, Li Chen, Shelby Willams, Robert Minvielle, Xiangming Xiao, Drew Gholson, Nicolas Ashwell, Tri Setiyono, Brenda Tubana, Lu Peng, Magdy Bayoumi, Nian-Feng Tzeng. (2023)  
+Fudong Lin, Summer Crawford, Kaleb Guillot, Yihe Zhang, Yan Chen, Xu Yuan, Li Chen, Shelby Williams, Robert Minvielle, Xiangming Xiao, Drew Gholson, Nicolas Ashwell, Tri Setiyono, Brenda Tubana, Lu Peng, Magdy Bayoumi, Nian-Feng Tzeng. (2023)  
 **MMST-ViT: Climate Change-aware Crop Yield Prediction via Multi-Modal Spatial-Temporal Vision Transformer**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2309.09067v1)  
+[Paper Link](http://arxiv.org/abs/2309.09067v2)  
 
 ---
 
@@ -1005,7 +1075,7 @@ Precise crop yield prediction provides valuable information for agricultural pla
 {{</citation>}}
 
 
-### (44/67) RingMo-lite: A Remote Sensing Multi-task Lightweight Network with CNN-Transformer Hybrid Framework (Yuelei Wang et al., 2023)
+### (47/68) RingMo-lite: A Remote Sensing Multi-task Lightweight Network with CNN-Transformer Hybrid Framework (Yuelei Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1027,7 +1097,7 @@ In recent years, remote sensing (RS) vision foundation models such as RingMo hav
 {{</citation>}}
 
 
-### (45/67) Robust Backdoor Attacks on Object Detection in Real World (Yaguan Qian et al., 2023)
+### (48/68) Robust Backdoor Attacks on Object Detection in Real World (Yaguan Qian et al., 2023)
 
 {{<citation>}}
 
@@ -1049,7 +1119,7 @@ Deep learning models are widely deployed in many applications, such as object de
 {{</citation>}}
 
 
-### (46/67) Semantics-aware LiDAR-Only Pseudo Point Cloud Generation for 3D Object Detection (Tiago Cortinhal et al., 2023)
+### (49/68) Semantics-aware LiDAR-Only Pseudo Point Cloud Generation for 3D Object Detection (Tiago Cortinhal et al., 2023)
 
 {{<citation>}}
 
@@ -1071,7 +1141,7 @@ Although LiDAR sensors are crucial for autonomous systems due to providing preci
 {{</citation>}}
 
 
-### (47/67) In-Style: Bridging Text and Uncurated Videos with Style Transfer for Text-Video Retrieval (Nina Shvetsova et al., 2023)
+### (50/68) In-Style: Bridging Text and Uncurated Videos with Style Transfer for Text-Video Retrieval (Nina Shvetsova et al., 2023)
 
 {{<citation>}}
 
@@ -1093,7 +1163,7 @@ Large-scale noisy web image-text datasets have been proven to be efficient for l
 {{</citation>}}
 
 
-### (48/67) GCL: Gradient-Guided Contrastive Learning for Medical Image Segmentation with Multi-Perspective Meta Labels (Yixuan Wu et al., 2023)
+### (51/68) GCL: Gradient-Guided Contrastive Learning for Medical Image Segmentation with Multi-Perspective Meta Labels (Yixuan Wu et al., 2023)
 
 {{<citation>}}
 
@@ -1115,7 +1185,7 @@ Since annotating medical images for segmentation tasks commonly incurs expensive
 {{</citation>}}
 
 
-### (49/67) Enhancing Visual Perception in Novel Environments via Incremental Data Augmentation Based on Style Transfer (Abhibha Gupta et al., 2023)
+### (52/68) Enhancing Visual Perception in Novel Environments via Incremental Data Augmentation Based on Style Transfer (Abhibha Gupta et al., 2023)
 
 {{<citation>}}
 
@@ -1141,7 +1211,7 @@ The deployment of autonomous agents in real-world scenarios is challenged by "un
 
 
 
-### (50/67) Fast Triangle Counting (David A. Bader, 2023)
+### (53/68) Fast Triangle Counting (David A. Bader, 2023)
 
 {{<citation>}}
 
@@ -1167,7 +1237,7 @@ Listing and counting triangles in graphs is a key algorithmic kernel for network
 
 
 
-### (51/67) Generative AI-Driven Storytelling: A New Era for Marketing (Marko Vidrih et al., 2023)
+### (54/68) Generative AI-Driven Storytelling: A New Era for Marketing (Marko Vidrih et al., 2023)
 
 {{<citation>}}
 
@@ -1193,7 +1263,7 @@ This paper delves into the transformative power of Generative AI-driven storytel
 
 
 
-### (52/67) Efficient Privacy-Preserving Convolutional Spiking Neural Networks with FHE (Pengbo Li et al., 2023)
+### (55/68) Efficient Privacy-Preserving Convolutional Spiking Neural Networks with FHE (Pengbo Li et al., 2023)
 
 {{<citation>}}
 
@@ -1219,7 +1289,7 @@ With the rapid development of AI technology, we have witnessed numerous innovati
 
 
 
-### (53/67) Bridging Dense and Sparse Maximum Inner Product Search (Sebastian Bruch et al., 2023)
+### (56/68) Bridging Dense and Sparse Maximum Inner Product Search (Sebastian Bruch et al., 2023)
 
 {{<citation>}}
 
@@ -1245,7 +1315,7 @@ Maximum inner product search (MIPS) over dense and sparse vectors have progresse
 
 
 
-### (54/67) Invertible Mosaic Image Hiding Network for Very Large Capacity Image Steganography (Zihan Chen et al., 2023)
+### (57/68) Invertible Mosaic Image Hiding Network for Very Large Capacity Image Steganography (Zihan Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1271,7 +1341,7 @@ The existing image steganography methods either sequentially conceal secret imag
 
 
 
-### (55/67) Accelerating In-Browser Deep Learning Inference on Diverse Edge Clients through Just-in-Time Kernel Optimizations (Fucheng Jia et al., 2023)
+### (58/68) Accelerating In-Browser Deep Learning Inference on Diverse Edge Clients through Just-in-Time Kernel Optimizations (Fucheng Jia et al., 2023)
 
 {{<citation>}}
 
@@ -1293,7 +1363,7 @@ Web applications are increasingly becoming the primary platform for AI service d
 {{</citation>}}
 
 
-### (56/67) Multiagent Reinforcement Learning with an Attention Mechanism for Improving Energy Efficiency in LoRa Networks (Xu Zhang et al., 2023)
+### (59/68) Multiagent Reinforcement Learning with an Attention Mechanism for Improving Energy Efficiency in LoRa Networks (Xu Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1315,7 +1385,7 @@ Long Range (LoRa) wireless technology, characterized by low power consumption an
 {{</citation>}}
 
 
-### (57/67) A Statistical Turing Test for Generative Models (Hayden Helm et al., 2023)
+### (60/68) A Statistical Turing Test for Generative Models (Hayden Helm et al., 2023)
 
 {{<citation>}}
 
@@ -1337,7 +1407,7 @@ The emergence of human-like abilities of AI systems for content generation in do
 {{</citation>}}
 
 
-### (58/67) Solving Satisfiability Modulo Counting for Symbolic and Statistical AI Integration With Provable Guarantees (Jinzhao Li et al., 2023)
+### (61/68) Solving Satisfiability Modulo Counting for Symbolic and Statistical AI Integration With Provable Guarantees (Jinzhao Li et al., 2023)
 
 {{<citation>}}
 
@@ -1359,7 +1429,7 @@ Satisfiability Modulo Counting (SMC) encompasses problems that require both symb
 {{</citation>}}
 
 
-### (59/67) ChatGPT-4 with Code Interpreter can be used to solve introductory college-level vector calculus and electromagnetism problems (Tanuj Kumar et al., 2023)
+### (62/68) ChatGPT-4 with Code Interpreter can be used to solve introductory college-level vector calculus and electromagnetism problems (Tanuj Kumar et al., 2023)
 
 {{<citation>}}
 
@@ -1381,7 +1451,7 @@ We evaluated ChatGPT 3.5, 4, and 4 with Code Interpreter on a set of college-lev
 {{</citation>}}
 
 
-### (60/67) GPT as a Baseline for Recommendation Explanation Texts (Joyce Zhou et al., 2023)
+### (63/68) GPT as a Baseline for Recommendation Explanation Texts (Joyce Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -1407,7 +1477,7 @@ In this work, we establish a baseline potential for how modern model-generated t
 
 
 
-### (61/67) Exploration of TPUs for AI Applications (Diego Sanmartín Carrión et al., 2023)
+### (64/68) Exploration of TPUs for AI Applications (Diego Sanmartín Carrión et al., 2023)
 
 {{<citation>}}
 
@@ -1433,7 +1503,7 @@ Tensor Processing Units (TPUs) are specialized hardware accelerators for deep le
 
 
 
-### (62/67) CDDM: Channel Denoising Diffusion Models for Wireless Semantic Communications (Tong Wu et al., 2023)
+### (65/68) CDDM: Channel Denoising Diffusion Models for Wireless Semantic Communications (Tong Wu et al., 2023)
 
 {{<citation>}}
 
@@ -1459,7 +1529,7 @@ Diffusion models (DM) can gradually learn to remove noise, which have been widel
 
 
 
-### (63/67) Data-Driven H-infinity Control with a Real-Time and Efficient Reinforcement Learning Algorithm: An Application to Autonomous Mobility-on-Demand Systems (Ali Aalipour et al., 2023)
+### (66/68) Data-Driven H-infinity Control with a Real-Time and Efficient Reinforcement Learning Algorithm: An Application to Autonomous Mobility-on-Demand Systems (Ali Aalipour et al., 2023)
 
 {{<citation>}}
 
@@ -1481,59 +1551,11 @@ Reinforcement learning (RL) is a class of artificial intelligence algorithms bei
 {{</citation>}}
 
 
-## eess.AS (2)
-
-
-
-### (64/67) Decoder-only Architecture for Speech Recognition with CTC Prompts and Text Data Augmentation (Emiru Tsunoo et al., 2023)
-
-{{<citation>}}
-
-Emiru Tsunoo, Hayato Futami, Yosuke Kashiwagi, Siddhant Arora, Shinji Watanabe. (2023)  
-**Decoder-only Architecture for Speech Recognition with CTC Prompts and Text Data Augmentation**  
-
----
-Primary Category: eess.AS  
-Categories: cs-SD, eess-AS, eess.AS  
-Keywords: Augmentation, GPT, PaLM, Speech Recognition  
-[Paper Link](http://arxiv.org/abs/2309.08876v1)  
-
----
-
-
-**ABSTRACT**  
-Collecting audio-text pairs is expensive; however, it is much easier to access text-only data. Unless using shallow fusion, end-to-end automatic speech recognition (ASR) models require architecture modifications or additional training schemes to use text-only data. Inspired by recent advances in decoder-only language models (LMs), such as GPT-3 and PaLM adopted for speech-processing tasks, we propose using a decoder-only architecture for ASR with simple text augmentation. To provide audio information, encoder features compressed by CTC prediction are used as prompts for the decoder, which can be regarded as refining CTC prediction using the decoder-only model. Because the decoder architecture is the same as an autoregressive LM, it is simple to enhance the model by leveraging external text data with LM training. An experimental comparison using LibriSpeech and Switchboard shows that our proposed models with text augmentation training reduced word error rates from ordinary CTC by 0.3% and 1.4% on LibriSpeech test-clean and testother set, respectively, and 2.9% and 5.0% on Switchboard and CallHome. The proposed model had advantage on computational efficiency compared with conventional encoder-decoder ASR models with a similar parameter setup, and outperformed them on the LibriSpeech 100h and Switchboard training scenarios.
-
-{{</citation>}}
-
-
-### (65/67) Boosting End-to-End Multilingual Phoneme Recognition through Exploiting Universal Speech Attributes Constraints (Hao Yen et al., 2023)
-
-{{<citation>}}
-
-Hao Yen, Sabato Marco Siniscalchi, Chin-Hui Lee. (2023)  
-**Boosting End-to-End Multilingual Phoneme Recognition through Exploiting Universal Speech Attributes Constraints**  
-
----
-Primary Category: eess.AS  
-Categories: cs-SD, eess-AS, eess.AS  
-Keywords: Multilingual  
-[Paper Link](http://arxiv.org/abs/2309.08828v1)  
-
----
-
-
-**ABSTRACT**  
-We propose a first step toward multilingual end-to-end automatic speech recognition (ASR) by integrating knowledge about speech articulators. The key idea is to leverage a rich set of fundamental units that can be defined "universally" across all spoken languages, referred to as speech attributes, namely manner and place of articulation. Specifically, several deterministic attribute-to-phoneme mapping matrices are constructed based on the predefined set of universal attribute inventory, which projects the knowledge-rich articulatory attribute logits, into output phoneme logits. The mapping puts knowledge-based constraints to limit inconsistency with acoustic-phonetic evidence in the integrated prediction. Combined with phoneme recognition, our phone recognizer is able to infer from both attribute and phoneme information. The proposed joint multilingual model is evaluated through phoneme recognition. In multilingual experiments over 6 languages on benchmark datasets LibriSpeech and CommonVoice, we find that our proposed solution outperforms conventional multilingual approaches with a relative improvement of 6.85% on average, and it also demonstrates a much better performance compared to monolingual model. Further analysis conclusively demonstrates that the proposed solution eliminates phoneme predictions that are inconsistent with attributes.
-
-{{</citation>}}
-
-
 ## cs.LO (1)
 
 
 
-### (66/67) Some Algebraic Aspects of Assume-Guarantee Reasoning (Inigo Incer et al., 2023)
+### (67/68) Some Algebraic Aspects of Assume-Guarantee Reasoning (Inigo Incer et al., 2023)
 
 {{<citation>}}
 
@@ -1559,7 +1581,7 @@ We present the algebra of assume-guarantee (AG) contracts. We define contracts, 
 
 
 
-### (67/67) Measuring COVID-19 Related Media Consumption on Twitter (Cai Yang, 2023)
+### (68/68) Measuring COVID-19 Related Media Consumption on Twitter (Cai Yang, 2023)
 
 {{<citation>}}
 
