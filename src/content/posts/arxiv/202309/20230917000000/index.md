@@ -815,13 +815,13 @@ Jingzhe Ding, Yan Cen, Xinyuan Wei. (2023)
 Primary Category: cs.CL  
 Categories: I-2-7, cs-AI, cs-CL, cs.CL  
 Keywords: AI, GPT, Language Model, QA  
-[Paper Link](http://arxiv.org/abs/2309.08182v1)  
+[Paper Link](http://arxiv.org/abs/2309.08182v2)  
 
 ---
 
 
 **ABSTRACT**  
-Our work demonstrates that large language model (LLM) pre-trained on texts can not only solve pure math word problems, but also physics word problems-problems to be solved by calculation and inference based on some prior physical knowledge. We collect and annotate the first physics word problem dataset-PhysQA, which contains over 1000 junior high school physics word problems (on Kinematics, Mass&Density, Mechanics, Heat, Electricity). Then we use OpenAI' s GPT3.5 to generate the answer of these problems and found that GPT3.5 could automatically solve 49.3% of the problems on zero-shot learning and 73.2% on few-shot learning. This result show that by using similar problem and its answer as prompt, LLM could solve elementary physics word problems approaching human level. Besides automatically solving problems, GPT3.5 could also summarize the knowledge or topic examined by the problem, generate the relevant explanation, and synthesis new physics word problems according tothe input problems.Our work is the first research on automatically solving, explaining and generating physics word problems of multiple types and scenes, and we gain an acceptable and state-of-art accuracy, which demonstrates the potential of LLM's further application in the field of secondary education.
+Our work demonstrates that large language model (LLM) pre-trained on texts can not only solve pure math word problems, but also physics word problems, whose solution requires calculation and inference based on prior physical knowledge. We collect and annotate the first physics word problem dataset-PhysQA, which contains over 1000 junior high school physics word problems (covering Kinematics, Mass&Density, Mechanics, Heat, Electricity). Then we use OpenAI' s GPT3.5 to generate the answer of these problems and found that GPT3.5 could automatically solve 49.3% of the problems through zero-shot learning and 73.2% through few-shot learning. This result demonstrates that by using similar problems and their answers as prompt, LLM could solve elementary physics word problems approaching human level performance. In addition to solving problems, GPT3.5 can also summarize the knowledge or topics covered by the problems, provide relevant explanations, and generate new physics word problems based on the input. Our work is the first research to focus on the automatic solving, explanation, and generation of physics word problems across various types and scenarios, and we achieve an acceptable and state-of-the-art accuracy. This underscores the potential of LLMs for further applications in secondary education.
 
 {{</citation>}}
 
@@ -2469,7 +2469,7 @@ Changlu Guo. (2023)
 Primary Category: eess.IV  
 Categories: cs-CV, eess-IV, eess.IV  
 Keywords: AI, Attention  
-[Paper Link](http://arxiv.org/abs/2309.08402v1)  
+[Paper Link](http://arxiv.org/abs/2309.08402v2)  
 
 ---
 
