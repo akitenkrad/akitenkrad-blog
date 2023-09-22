@@ -479,13 +479,13 @@ Tianyi Song, Jiuxin Cao, Kun Wang, Bo Liu, Xiaofeng Zhang. (2023)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-MM, cs.CV  
 Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2309.09553v2)  
+[Paper Link](http://arxiv.org/abs/2309.09553v3)  
 
 ---
 
 
 **ABSTRACT**  
-The excellent text-to-image synthesis capability of diffusion models has driven progress in synthesizing coherent visual stories. The current state-of-the-art method combines the features of historical captions, historical frames, and the current captions as conditions for generating the current frame. However, this method treats each historical frame and caption as the same contribution. It connects them in order with equal weights, ignoring that not all historical conditions are associated with the generation of the current frame. To address this issue, we propose Causal-Story. This model incorporates a local causal attention mechanism that considers the causal relationship between previous captions, frames, and current captions. By assigning weights based on this relationship, Causal-Story generates the current frame, thereby improving the global consistency of story generation. We evaluated our model on the PororoSV and FlintstonesSV datasets and obtained state-of-the-art FID scores, and the generated frames also demonstrate better storytelling in visuals. The source code of Causal-Story can be obtained from https://github.com/styufo/Causal-Story.
+The excellent text-to-image synthesis capability of diffusion models has driven progress in synthesizing coherent visual stories. The current state-of-the-art method combines the features of historical captions, historical frames, and the current captions as conditions for generating the current frame. However, this method treats each historical frame and caption as the same contribution. It connects them in order with equal weights, ignoring that not all historical conditions are associated with the generation of the current frame. To address this issue, we propose Causal-Story. This model incorporates a local causal attention mechanism that considers the causal relationship between previous captions, frames, and current captions. By assigning weights based on this relationship, Causal-Story generates the current frame, thereby improving the global consistency of story generation. We evaluated our model on the PororoSV and FlintstonesSV datasets and obtained state-of-the-art FID scores, and the generated frames also demonstrate better storytelling in visuals.
 
 {{</citation>}}
 
@@ -1855,7 +1855,7 @@ Qiying Pan, Ruofan Wu, Tengfei Liu, Tianyi Zhang, Yifei Zhu, Weiqiang Wang. (202
 Primary Category: cs.LG  
 Categories: cs-AI, cs-DC, cs-LG, cs.LG  
 Keywords: GNN, Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2309.09517v2)  
+[Paper Link](http://arxiv.org/abs/2309.09517v3)  
 
 ---
 
@@ -2921,7 +2921,7 @@ Nithin Rao Koluguri, Samuel Kriman, Georgy Zelenfroind, Somshubra Majumdar, Dima
 Primary Category: eess.AS  
 Categories: cs-SD, eess-AS, eess.AS  
 Keywords: Speech Recognition  
-[Paper Link](http://arxiv.org/abs/2309.09950v1)  
+[Paper Link](http://arxiv.org/abs/2309.09950v2)  
 
 ---
 
