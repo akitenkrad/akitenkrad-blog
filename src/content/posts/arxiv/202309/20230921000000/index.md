@@ -413,7 +413,7 @@ Jiangtong Li, Yuxuan Bian, Guoxuan Wang, Yang Lei, Dawei Cheng, Zhijun Ding, Cha
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CE, cs-CL, cs.CL  
 Keywords: Financial, GPT, Language Model, Transformer  
-[Paper Link](http://arxiv.org/abs/2309.10654v1)  
+[Paper Link](http://arxiv.org/abs/2309.10654v2)  
 
 ---
 
