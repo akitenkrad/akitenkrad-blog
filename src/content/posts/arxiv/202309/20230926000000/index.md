@@ -23,8 +23,9 @@ math: true
 
 - [cs.LG (7)](#cslg-7)
 - [cs.CV (22)](#cscv-22)
-- [cs.CL (11)](#cscl-11)
+- [cs.CL (14)](#cscl-14)
 - [cs.RO (2)](#csro-2)
+- [cs.SD (1)](#cssd-1)
 - [math.OC (1)](#mathoc-1)
 - [cs.HC (2)](#cshc-2)
 - [eess.AS (3)](#eessas-3)
@@ -37,7 +38,7 @@ math: true
 
 
 
-### (1/53) GHN-QAT: Training Graph Hypernetworks to Predict Quantization-Robust Parameters of Unseen Limited Precision Neural Networks (Stone Yun et al., 2023)
+### (1/57) GHN-QAT: Training Graph Hypernetworks to Predict Quantization-Robust Parameters of Unseen Limited Precision Neural Networks (Stone Yun et al., 2023)
 
 {{<citation>}}
 
@@ -59,7 +60,7 @@ Graph Hypernetworks (GHN) can predict the parameters of varying unseen CNN archi
 {{</citation>}}
 
 
-### (2/53) Devil in the Number: Towards Robust Multi-modality Data Filter (Yichen Xu et al., 2023)
+### (2/57) Devil in the Number: Towards Robust Multi-modality Data Filter (Yichen Xu et al., 2023)
 
 {{<citation>}}
 
@@ -81,7 +82,7 @@ In order to appropriately filter multi-modality data sets on a web-scale, it bec
 {{</citation>}}
 
 
-### (3/53) Accelerating Large Batch Training via Gradient Signal to Noise Ratio (GSNR) (Guo-qing Jiang et al., 2023)
+### (3/57) Accelerating Large Batch Training via Gradient Signal to Noise Ratio (GSNR) (Guo-qing Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -103,7 +104,7 @@ As models for nature language processing (NLP), computer vision (CV) and recomme
 {{</citation>}}
 
 
-### (4/53) From Cluster Assumption to Graph Convolution: Graph-based Semi-Supervised Learning Revisited (Zheng Wang et al., 2023)
+### (4/57) From Cluster Assumption to Graph Convolution: Graph-based Semi-Supervised Learning Revisited (Zheng Wang et al., 2023)
 
 {{<citation>}}
 
@@ -125,7 +126,7 @@ Graph-based semi-supervised learning (GSSL) has long been a hot research topic. 
 {{</citation>}}
 
 
-### (5/53) Probabilistic Weight Fixing: Large-scale training of neural network weight uncertainties for quantization (Christopher Subia-Waud et al., 2023)
+### (5/57) Probabilistic Weight Fixing: Large-scale training of neural network weight uncertainties for quantization (Christopher Subia-Waud et al., 2023)
 
 {{<citation>}}
 
@@ -136,7 +137,7 @@ Christopher Subia-Waud, Srinandan Dasmahapatra. (2023)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2309.13575v1)  
+[Paper Link](http://arxiv.org/abs/2309.13575v2)  
 
 ---
 
@@ -147,7 +148,7 @@ Weight-sharing quantization has emerged as a technique to reduce energy expendit
 {{</citation>}}
 
 
-### (6/53) Iterative Reachability Estimation for Safe Reinforcement Learning (Milan Ganai et al., 2023)
+### (6/57) Iterative Reachability Estimation for Safe Reinforcement Learning (Milan Ganai et al., 2023)
 
 {{<citation>}}
 
@@ -169,7 +170,7 @@ Ensuring safety is important for the practical deployment of reinforcement learn
 {{</citation>}}
 
 
-### (7/53) Guided Cooperation in Hierarchical Reinforcement Learning via Model-based Rollout (Haoran Wang et al., 2023)
+### (7/57) Guided Cooperation in Hierarchical Reinforcement Learning via Model-based Rollout (Haoran Wang et al., 2023)
 
 {{<citation>}}
 
@@ -195,7 +196,7 @@ Goal-conditioned hierarchical reinforcement learning (HRL) presents a promising 
 
 
 
-### (8/53) Combining Two Adversarial Attacks Against Person Re-Identification Systems (Eduardo de O. Andrade et al., 2023)
+### (8/57) Combining Two Adversarial Attacks Against Person Re-Identification Systems (Eduardo de O. Andrade et al., 2023)
 
 {{<citation>}}
 
@@ -217,7 +218,7 @@ The field of Person Re-Identification (Re-ID) has received much attention recent
 {{</citation>}}
 
 
-### (9/53) A Systematic Literature Review of Computer Vision Applications in Robotized Wire Harness Assembly (Hao Wang et al., 2023)
+### (9/57) A Systematic Literature Review of Computer Vision Applications in Robotized Wire Harness Assembly (Hao Wang et al., 2023)
 
 {{<citation>}}
 
@@ -239,7 +240,7 @@ This article presents a systematic literature review on computer vision applicat
 {{</citation>}}
 
 
-### (10/53) MOSAIC: Multi-Object Segmented Arbitrary Stylization Using CLIP (Prajwal Ganugula et al., 2023)
+### (10/57) MOSAIC: Multi-Object Segmented Arbitrary Stylization Using CLIP (Prajwal Ganugula et al., 2023)
 
 {{<citation>}}
 
@@ -261,7 +262,7 @@ Style transfer driven by text prompts paved a new path for creatively stylizing 
 {{</citation>}}
 
 
-### (11/53) Sound-Print: Generalised Face Presentation Attack Detection using Deep Representation of Sound Echoes (Raghavendra Ramachandra et al., 2023)
+### (11/57) Sound-Print: Generalised Face Presentation Attack Detection using Deep Representation of Sound Echoes (Raghavendra Ramachandra et al., 2023)
 
 {{<citation>}}
 
@@ -283,7 +284,7 @@ Facial biometrics are widely deployed in smartphone-based applications because o
 {{</citation>}}
 
 
-### (12/53) Causal-DFQ: Causality Guided Data-free Network Quantization (Yuzhang Shang et al., 2023)
+### (12/57) Causal-DFQ: Causality Guided Data-free Network Quantization (Yuzhang Shang et al., 2023)
 
 {{<citation>}}
 
@@ -305,7 +306,7 @@ Model quantization, which aims to compress deep neural networks and accelerate i
 {{</citation>}}
 
 
-### (13/53) Deep Reinforcement Learning for Image-to-Image Translation (Xin Wang et al., 2023)
+### (13/57) Deep Reinforcement Learning for Image-to-Image Translation (Xin Wang et al., 2023)
 
 {{<citation>}}
 
@@ -327,7 +328,7 @@ Most existing Image-to-Image Translation (I2IT) methods generate images in a sin
 {{</citation>}}
 
 
-### (14/53) GraphAdapter: Tuning Vision-Language Models With Dual Knowledge Graph (Xin Li et al., 2023)
+### (14/57) GraphAdapter: Tuning Vision-Language Models With Dual Knowledge Graph (Xin Li et al., 2023)
 
 {{<citation>}}
 
@@ -349,7 +350,7 @@ Adapter-style efficient transfer learning (ETL) has shown excellent performance 
 {{</citation>}}
 
 
-### (15/53) PRIS: Practical robust invertible network for image steganography (Hang Yang et al., 2023)
+### (15/57) PRIS: Practical robust invertible network for image steganography (Hang Yang et al., 2023)
 
 {{<citation>}}
 
@@ -371,7 +372,7 @@ Image steganography is a technique of hiding secret information inside another i
 {{</citation>}}
 
 
-### (16/53) Changes-Aware Transformer: Learning Generalized Changes Representation (Dan Wang et al., 2023)
+### (16/57) Changes-Aware Transformer: Learning Generalized Changes Representation (Dan Wang et al., 2023)
 
 {{<citation>}}
 
@@ -393,7 +394,7 @@ Difference features obtained by comparing the images of two periods play an indi
 {{</citation>}}
 
 
-### (17/53) VisionKG: Unleashing the Power of Visual Datasets via Knowledge Graph (Jicheng Yuan et al., 2023)
+### (17/57) VisionKG: Unleashing the Power of Visual Datasets via Knowledge Graph (Jicheng Yuan et al., 2023)
 
 {{<citation>}}
 
@@ -415,7 +416,7 @@ The availability of vast amounts of visual data with heterogeneous features is a
 {{</citation>}}
 
 
-### (18/53) Vulnerabilities in Video Quality Assessment Models: The Challenge of Adversarial Attacks (Ao-Xiang Zhang et al., 2023)
+### (18/57) Vulnerabilities in Video Quality Assessment Models: The Challenge of Adversarial Attacks (Ao-Xiang Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -437,7 +438,7 @@ No-Reference Video Quality Assessment (NR-VQA) plays an essential role in improv
 {{</citation>}}
 
 
-### (19/53) MM-NeRF: Multimodal-Guided 3D Multi-Style Transfer of Neural Radiance Field (Zijiang Yang et al., 2023)
+### (19/57) MM-NeRF: Multimodal-Guided 3D Multi-Style Transfer of Neural Radiance Field (Zijiang Yang et al., 2023)
 
 {{<citation>}}
 
@@ -459,7 +460,7 @@ Keywords: Style Transfer
 {{</citation>}}
 
 
-### (20/53) Distribution-Aware Continual Test Time Adaptation for Semantic Segmentation (Jiayi Ni et al., 2023)
+### (20/57) Distribution-Aware Continual Test Time Adaptation for Semantic Segmentation (Jiayi Ni et al., 2023)
 
 {{<citation>}}
 
@@ -481,7 +482,7 @@ Since autonomous driving systems usually face dynamic and ever-changing environm
 {{</citation>}}
 
 
-### (21/53) FaceAtt: Enhancing Image Captioning with Facial Attributes for Portrait Images (Naimul Haque et al., 2023)
+### (21/57) FaceAtt: Enhancing Image Captioning with Facial Attributes for Portrait Images (Naimul Haque et al., 2023)
 
 {{<citation>}}
 
@@ -503,7 +504,7 @@ Automated image caption generation is a critical area of research that enhances 
 {{</citation>}}
 
 
-### (22/53) Multi-Dimensional Hyena for Spatial Inductive Bias (Itamar Zimerman et al., 2023)
+### (22/57) Multi-Dimensional Hyena for Spatial Inductive Bias (Itamar Zimerman et al., 2023)
 
 {{<citation>}}
 
@@ -525,7 +526,7 @@ In recent years, Vision Transformers have attracted increasing interest from com
 {{</citation>}}
 
 
-### (23/53) A SAM-based Solution for Hierarchical Panoptic Segmentation of Crops and Weeds Competition (Khoa Dang Nguyen et al., 2023)
+### (23/57) A SAM-based Solution for Hierarchical Panoptic Segmentation of Crops and Weeds Competition (Khoa Dang Nguyen et al., 2023)
 
 {{<citation>}}
 
@@ -547,7 +548,7 @@ Panoptic segmentation in agriculture is an advanced computer vision technique th
 {{</citation>}}
 
 
-### (24/53) Towards Subcentimeter Accuracy Digital-Twin Tracking via An RGBD-based Transformer Model and A Comprehensive Mobile Dataset (Zixun Huang et al., 2023)
+### (24/57) Towards Subcentimeter Accuracy Digital-Twin Tracking via An RGBD-based Transformer Model and A Comprehensive Mobile Dataset (Zixun Huang et al., 2023)
 
 {{<citation>}}
 
@@ -569,7 +570,7 @@ The potential of digital twin technology, involving the creation of precise digi
 {{</citation>}}
 
 
-### (25/53) LOGICSEG: Parsing Visual Semantics with Neural Logic Learning and Reasoning (Liulei Li et al., 2023)
+### (25/57) LOGICSEG: Parsing Visual Semantics with Neural Logic Learning and Reasoning (Liulei Li et al., 2023)
 
 {{<citation>}}
 
@@ -591,7 +592,7 @@ Current high-performance semantic segmentation models are purely data-driven sub
 {{</citation>}}
 
 
-### (26/53) Decoding Radiologists Intense Focus for Accurate CXR Diagnoses: A Controllable and Interpretable AI System (Trong Thang Pham et al., 2023)
+### (26/57) Decoding Radiologists Intense Focus for Accurate CXR Diagnoses: A Controllable and Interpretable AI System (Trong Thang Pham et al., 2023)
 
 {{<citation>}}
 
@@ -613,7 +614,7 @@ In the field of chest X-ray (CXR) diagnosis, existing works often focus solely o
 {{</citation>}}
 
 
-### (27/53) Semi-Supervised Domain Generalization for Object Detection via Language-Guided Feature Alignment (Sina Malakouti et al., 2023)
+### (27/57) Semi-Supervised Domain Generalization for Object Detection via Language-Guided Feature Alignment (Sina Malakouti et al., 2023)
 
 {{<citation>}}
 
@@ -635,7 +636,7 @@ Existing domain adaptation (DA) and generalization (DG) methods in object detect
 {{</citation>}}
 
 
-### (28/53) Global-correlated 3D-decoupling Transformer for Clothed Avatar Reconstruction (Zechuan Zhang et al., 2023)
+### (28/57) Global-correlated 3D-decoupling Transformer for Clothed Avatar Reconstruction (Zechuan Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -646,7 +647,7 @@ Zechuan Zhang, Li Sun, Zongxin Yang, Ling Chen, Yi Yang. (2023)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2309.13524v1)  
+[Paper Link](http://arxiv.org/abs/2309.13524v2)  
 
 ---
 
@@ -657,7 +658,7 @@ Reconstructing 3D clothed human avatars from single images is a challenging task
 {{</citation>}}
 
 
-### (29/53) Bridging Semantic Gaps for Language-Supervised Semantic Segmentation (Yun Xing et al., 2023)
+### (29/57) Bridging Semantic Gaps for Language-Supervised Semantic Segmentation (Yun Xing et al., 2023)
 
 {{<citation>}}
 
@@ -679,11 +680,11 @@ Vision-Language Pre-training has demonstrated its remarkable zero-shot recogniti
 {{</citation>}}
 
 
-## cs.CL (11)
+## cs.CL (14)
 
 
 
-### (30/53) Text Classification: A Perspective of Deep Learning Methods (Zhongwei Wan, 2023)
+### (30/57) Text Classification: A Perspective of Deep Learning Methods (Zhongwei Wan, 2023)
 
 {{<citation>}}
 
@@ -705,7 +706,7 @@ In recent years, with the rapid development of information on the Internet, the 
 {{</citation>}}
 
 
-### (31/53) Does the 'most sinfully decadent cake ever' taste good? Answering Yes/No Questions from Figurative Contexts (Geetanjali Rakshit et al., 2023)
+### (31/57) Does the 'most sinfully decadent cake ever' taste good? Answering Yes/No Questions from Figurative Contexts (Geetanjali Rakshit et al., 2023)
 
 {{<citation>}}
 
@@ -727,7 +728,7 @@ Figurative language is commonplace in natural language, and while making communi
 {{</citation>}}
 
 
-### (32/53) Use of Large Language Models for Stance Classification (Iain J. Cruickshank et al., 2023)
+### (32/57) Use of Large Language Models for Stance Classification (Iain J. Cruickshank et al., 2023)
 
 {{<citation>}}
 
@@ -749,7 +750,7 @@ Stance detection, the task of predicting an author's viewpoint towards a subject
 {{</citation>}}
 
 
-### (33/53) Arabic Sentiment Analysis with Noisy Deep Explainable Model (Md. Atabuzzaman et al., 2023)
+### (33/57) Arabic Sentiment Analysis with Noisy Deep Explainable Model (Md. Atabuzzaman et al., 2023)
 
 {{<citation>}}
 
@@ -771,7 +772,7 @@ Sentiment Analysis (SA) is an indispensable task for many real-world application
 {{</citation>}}
 
 
-### (34/53) Skill Check: Some Considerations on the Evaluation of Gamemastering Models for Role-playing Games (Santiago Góngora et al., 2023)
+### (34/57) Skill Check: Some Considerations on the Evaluation of Gamemastering Models for Role-playing Games (Santiago Góngora et al., 2023)
 
 {{<citation>}}
 
@@ -793,7 +794,7 @@ In role-playing games a Game Master (GM) is the player in charge of the game, wh
 {{</citation>}}
 
 
-### (35/53) ALLURE: A Systematic Protocol for Auditing and Improving LLM-based Evaluation of Text using Iterative In-Context-Learning (Hosein Hasanbeig et al., 2023)
+### (35/57) ALLURE: A Systematic Protocol for Auditing and Improving LLM-based Evaluation of Text using Iterative In-Context-Learning (Hosein Hasanbeig et al., 2023)
 
 {{<citation>}}
 
@@ -815,7 +816,29 @@ From grading papers to summarizing medical documents, large language models (LLM
 {{</citation>}}
 
 
-### (36/53) Embers of Autoregression: Understanding Large Language Models Through the Problem They are Trained to Solve (R. Thomas McCoy et al., 2023)
+### (36/57) Survey of Social Bias in Vision-Language Models (Nayeon Lee et al., 2023)
+
+{{<citation>}}
+
+Nayeon Lee, Yejin Bang, Holy Lovenia, Samuel Cahyawijaya, Wenliang Dai, Pascale Fung. (2023)  
+**Survey of Social Bias in Vision-Language Models**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keywords: AI, Bias, Computer Vision, Language Model, NLP, Natural Language Processing  
+[Paper Link](http://arxiv.org/abs/2309.14381v1)  
+
+---
+
+
+**ABSTRACT**  
+In recent years, the rapid advancement of machine learning (ML) models, particularly transformer-based pre-trained models, has revolutionized Natural Language Processing (NLP) and Computer Vision (CV) fields. However, researchers have discovered that these models can inadvertently capture and reinforce social biases present in their training datasets, leading to potential social harms, such as uneven resource allocation and unfair representation of specific social groups. Addressing these biases and ensuring fairness in artificial intelligence (AI) systems has become a critical concern in the ML community.   The recent introduction of pre-trained vision-and-language (VL) models in the emerging multimodal field demands attention to the potential social biases present in these models as well. Although VL models are susceptible to social bias, there is a limited understanding compared to the extensive discussions on bias in NLP and CV. This survey aims to provide researchers with a high-level insight into the similarities and differences of social bias studies in pre-trained models across NLP, CV, and VL. By examining these perspectives, the survey aims to offer valuable guidelines on how to approach and mitigate social bias in both unimodal and multimodal settings. The findings and recommendations presented here can benefit the ML community, fostering the development of fairer and non-biased AI models in various applications and research endeavors.
+
+{{</citation>}}
+
+
+### (37/57) Embers of Autoregression: Understanding Large Language Models Through the Problem They are Trained to Solve (R. Thomas McCoy et al., 2023)
 
 {{<citation>}}
 
@@ -837,7 +860,29 @@ The widespread adoption of large language models (LLMs) makes it important to re
 {{</citation>}}
 
 
-### (37/53) MentalLLaMA: Interpretable Mental Health Analysis on Social Media with Large Language Models (Kailai Yang et al., 2023)
+### (38/57) A Text Classification-Based Approach for Evaluating and Enhancing the Machine Interpretability of Building Codes (Zhe Zheng et al., 2023)
+
+{{<citation>}}
+
+Zhe Zheng, Yu-Cheng Zhou, Ke-Yin Chen, Xin-Zheng Lu, Zhong-Tian She, Jia-Rui Lin. (2023)  
+**A Text Classification-Based Approach for Evaluating and Enhancing the Machine Interpretability of Building Codes**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs-LG, cs.CL  
+Keywords: Text Classification  
+[Paper Link](http://arxiv.org/abs/2309.14374v1)  
+
+---
+
+
+**ABSTRACT**  
+Interpreting regulatory documents or building codes into computer-processable formats is essential for the intelligent design and construction of buildings and infrastructures. Although automated rule interpretation (ARI) methods have been investigated for years, most of them highly depend on the early and manual filtering of interpretable clauses from a building code. While few of them considered machine interpretability, which represents the potential to be transformed into a computer-processable format, from both clause- and document-level. Therefore, this research aims to propose a novel approach to automatically evaluate and enhance the machine interpretability of single clause and building codes. First, a few categories are introduced to classify each clause in a building code considering the requirements for rule interpretation, and a dataset is developed for model training. Then, an efficient text classification model is developed based on a pretrained domain-specific language model and transfer learning techniques. Finally, a quantitative evaluation method is proposed to assess the overall interpretability of building codes. Experiments show that the proposed text classification algorithm outperforms the existing CNN- or RNN-based methods, improving the F1-score from 72.16% to 93.60%. It is also illustrated that the proposed classification method can enhance downstream ARI methods with an improvement of 4%. Furthermore, analyzing the results of more than 150 building codes in China showed that their average interpretability is 34.40%, which implies that it is still hard to fully transform the entire regulatory document into computer-processable formats. It is also argued that the interpretability of building codes should be further improved both from the human side and the machine side.
+
+{{</citation>}}
+
+
+### (39/57) MentalLLaMA: Interpretable Mental Health Analysis on Social Media with Large Language Models (Kailai Yang et al., 2023)
 
 {{<citation>}}
 
@@ -859,7 +904,7 @@ With the development of web technology, social media texts are becoming a rich s
 {{</citation>}}
 
 
-### (38/53) Keeping in Time: Adding Temporal Context to Sentiment Analysis Models (Dean Ninalga, 2023)
+### (40/57) Keeping in Time: Adding Temporal Context to Sentiment Analysis Models (Dean Ninalga, 2023)
 
 {{<citation>}}
 
@@ -881,7 +926,7 @@ This paper presents a state-of-the-art solution to the LongEval CLEF 2023 Lab Ta
 {{</citation>}}
 
 
-### (39/53) Cordyceps@LT-EDI: Patching Language-Specific Homophobia/Transphobia Classifiers with a Multilingual Understanding (Dean Ninalga, 2023)
+### (41/57) Cordyceps@LT-EDI: Patching Language-Specific Homophobia/Transphobia Classifiers with a Multilingual Understanding (Dean Ninalga, 2023)
 
 {{<citation>}}
 
@@ -903,7 +948,7 @@ Detecting transphobia, homophobia, and various other forms of hate speech is dif
 {{</citation>}}
 
 
-### (40/53) Substituting Data Annotation with Balanced Updates and Collective Loss in Multi-label Text Classification (Muberra Ozmen et al., 2023)
+### (42/57) Substituting Data Annotation with Balanced Updates and Collective Loss in Multi-label Text Classification (Muberra Ozmen et al., 2023)
 
 {{<citation>}}
 
@@ -925,11 +970,33 @@ Multi-label text classification (MLTC) is the task of assigning multiple labels 
 {{</citation>}}
 
 
+### (43/57) Natural Language based Context Modeling and Reasoning with LLMs: A Tutorial (Haoyi Xiong et al., 2023)
+
+{{<citation>}}
+
+Haoyi Xiong, Jiang Bian, Sijia Yang, Xiaofei Zhang, Linghe Kong, Daqing Zhang. (2023)  
+**Natural Language based Context Modeling and Reasoning with LLMs: A Tutorial**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs-HC, cs-NI, cs.CL  
+Keywords: ChatGPT, GPT, GPT-4, Reasoning  
+[Paper Link](http://arxiv.org/abs/2309.15074v1)  
+
+---
+
+
+**ABSTRACT**  
+Large language models (LLMs) have become phenomenally surging, since 2018--two decades after introducing context-awareness into computing systems. Through taking into account the situations of ubiquitous devices, users and the societies, context-aware computing has enabled a wide spectrum of innovative applications, such as assisted living, location-based social network services and so on. To recognize contexts and make decisions for actions accordingly, various artificial intelligence technologies, such as Ontology and OWL, have been adopted as representations for context modeling and reasoning. Recently, with the rise of LLMs and their improved natural language understanding and reasoning capabilities, it has become feasible to model contexts using natural language and perform context reasoning by interacting with LLMs such as ChatGPT and GPT-4. In this tutorial, we demonstrate the use of texts, prompts, and autonomous agents (AutoAgents) that enable LLMs to perform context modeling and reasoning without requiring fine-tuning of the model. We organize and introduce works in the related field, and name this computing paradigm as the LLM-driven Context-aware Computing (LCaC). In the LCaC paradigm, users' requests, sensors reading data, and the command to actuators are supposed to be represented as texts. Given the text of users' request and sensor data, the AutoAgent models the context by prompting and sends to the LLM for context reasoning. LLM generates a plan of actions and responds to the AutoAgent, which later follows the action plan to foster context-awareness. To prove the concepts, we use two showcases--(1) operating a mobile z-arm in an apartment for assisted living, and (2) planning a trip and scheduling the itinerary in a context-aware and personalized manner.
+
+{{</citation>}}
+
+
 ## cs.RO (2)
 
 
 
-### (41/53) Computer Vision Technology for Robotized Wire Harness Assembly (Hao Wang et al., 2023)
+### (44/57) Computer Vision Technology for Robotized Wire Harness Assembly (Hao Wang et al., 2023)
 
 {{<citation>}}
 
@@ -951,7 +1018,7 @@ Wire harnesses are essential hardware for electronic systems in modern automotiv
 {{</citation>}}
 
 
-### (42/53) Boosting Offline Reinforcement Learning for Autonomous Driving with Hierarchical Latent Skills (Zenan Li et al., 2023)
+### (45/57) Boosting Offline Reinforcement Learning for Autonomous Driving with Hierarchical Latent Skills (Zenan Li et al., 2023)
 
 {{<citation>}}
 
@@ -973,11 +1040,37 @@ Learning-based vehicle planning is receiving increasing attention with the emerg
 {{</citation>}}
 
 
+## cs.SD (1)
+
+
+
+### (46/57) Towards using Cough for Respiratory Disease Diagnosis by leveraging Artificial Intelligence: A Survey (Aneeqa Ijaz et al., 2023)
+
+{{<citation>}}
+
+Aneeqa Ijaz, Muhammad Nabeel, Usama Masood, Tahir Mahmood, Mydah Sajid Hashmi, Iryna Posokhova, Ali Rizwan, Ali Imran. (2023)  
+**Towards using Cough for Respiratory Disease Diagnosis by leveraging Artificial Intelligence: A Survey**  
+
+---
+Primary Category: cs.SD  
+Categories: cs-AI, cs-LG, cs-SD, cs.SD, eess-AS  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2309.14383v1)  
+
+---
+
+
+**ABSTRACT**  
+Cough acoustics contain multitudes of vital information about pathomorphological alterations in the respiratory system. Reliable and accurate detection of cough events by investigating the underlying cough latent features and disease diagnosis can play an indispensable role in revitalizing the healthcare practices. The recent application of Artificial Intelligence (AI) and advances of ubiquitous computing for respiratory disease prediction has created an auspicious trend and myriad of future possibilities in the medical domain. In particular, there is an expeditiously emerging trend of Machine learning (ML) and Deep Learning (DL)-based diagnostic algorithms exploiting cough signatures. The enormous body of literature on cough-based AI algorithms demonstrate that these models can play a significant role for detecting the onset of a specific respiratory disease. However, it is pertinent to collect the information from all relevant studies in an exhaustive manner for the medical experts and AI scientists to analyze the decisive role of AI/ML. This survey offers a comprehensive overview of the cough data-driven ML/DL detection and preliminary diagnosis frameworks, along with a detailed list of significant features. We investigate the mechanism that causes cough and the latent cough features of the respiratory modalities. We also analyze the customized cough monitoring application, and their AI-powered recognition algorithms. Challenges and prospective future research directions to develop practical, robust, and ubiquitous solutions are also discussed in detail.
+
+{{</citation>}}
+
+
 ## math.OC (1)
 
 
 
-### (43/53) Data-Driven Superstabilization of Linear Systems under Quantization (Jared Miller et al., 2023)
+### (47/57) Data-Driven Superstabilization of Linear Systems under Quantization (Jared Miller et al., 2023)
 
 {{<citation>}}
 
@@ -1003,7 +1096,7 @@ This paper focuses on the stabilization and regulation of linear systems affecte
 
 
 
-### (44/53) 'Always Nice and Confident, Sometimes wrong': Developer's Experiences Engaging Generative AI Chatbots Versus Human-Powered Q&A Platforms (Jiachen Li et al., 2023)
+### (48/57) 'Always Nice and Confident, Sometimes wrong': Developer's Experiences Engaging Generative AI Chatbots Versus Human-Powered Q&A Platforms (Jiachen Li et al., 2023)
 
 {{<citation>}}
 
@@ -1025,7 +1118,7 @@ Software engineers have historically relied on human-powered Q&A platforms, like
 {{</citation>}}
 
 
-### (45/53) EvalLM: Interactive Evaluation of Large Language Model Prompts on User-Defined Criteria (Tae Soo Kim et al., 2023)
+### (49/57) EvalLM: Interactive Evaluation of Large Language Model Prompts on User-Defined Criteria (Tae Soo Kim et al., 2023)
 
 {{<citation>}}
 
@@ -1051,7 +1144,7 @@ By simply composing prompts, developers can prototype novel generative applicati
 
 
 
-### (46/53) Cross-modal Alignment with Optimal Transport for CTC-based ASR (Xugang Lu et al., 2023)
+### (50/57) Cross-modal Alignment with Optimal Transport for CTC-based ASR (Xugang Lu et al., 2023)
 
 {{<citation>}}
 
@@ -1073,7 +1166,7 @@ Temporal connectionist temporal classification (CTC)-based automatic speech reco
 {{</citation>}}
 
 
-### (47/53) Efficient Black-Box Speaker Verification Model Adaptation with Reprogramming and Backend Learning (Jingyu Li et al., 2023)
+### (51/57) Efficient Black-Box Speaker Verification Model Adaptation with Reprogramming and Backend Learning (Jingyu Li et al., 2023)
 
 {{<citation>}}
 
@@ -1095,7 +1188,7 @@ The development of deep neural networks (DNN) has significantly enhanced the per
 {{</citation>}}
 
 
-### (48/53) Speech enhancement with frequency domain auto-regressive modeling (Anurenjan Purushothaman et al., 2023)
+### (52/57) Speech enhancement with frequency domain auto-regressive modeling (Anurenjan Purushothaman et al., 2023)
 
 {{<citation>}}
 
@@ -1121,7 +1214,7 @@ Speech applications in far-field real world settings often deal with signals tha
 
 
 
-### (49/53) Digital Twins and the Future of their Use Enabling Shift Left and Shift Right Cybersecurity Operations (Ahmad Mohsin et al., 2023)
+### (53/57) Digital Twins and the Future of their Use Enabling Shift Left and Shift Right Cybersecurity Operations (Ahmad Mohsin et al., 2023)
 
 {{<citation>}}
 
@@ -1143,7 +1236,7 @@ Digital Twins (DTs), optimize operations and monitor performance in Smart Critic
 {{</citation>}}
 
 
-### (50/53) Seeing Is Not Always Believing: Invisible Collision Attack and Defence on Pre-Trained Models (Minghang Deng et al., 2023)
+### (54/57) Seeing Is Not Always Believing: Invisible Collision Attack and Defence on Pre-Trained Models (Minghang Deng et al., 2023)
 
 {{<citation>}}
 
@@ -1169,7 +1262,7 @@ Large-scale pre-trained models (PTMs) such as BERT and GPT have achieved great s
 
 
 
-### (51/53) Shape Optimization by Constrained First-Order Least Mean Approximation (Gerhard Starke, 2023)
+### (55/57) Shape Optimization by Constrained First-Order Least Mean Approximation (Gerhard Starke, 2023)
 
 {{<citation>}}
 
@@ -1195,7 +1288,7 @@ In this work, the problem of shape optimization, subject to PDE constraints, is 
 
 
 
-### (52/53) Matrix Completion-Informed Deep Unfolded Equilibrium Models for Self-Supervised k-Space Interpolation in MRI (Chen Luo et al., 2023)
+### (56/57) Matrix Completion-Informed Deep Unfolded Equilibrium Models for Self-Supervised k-Space Interpolation in MRI (Chen Luo et al., 2023)
 
 {{<citation>}}
 
@@ -1221,7 +1314,7 @@ Recently, regularization model-driven deep learning (DL) has gained significant 
 
 
 
-### (53/53) Integrated Sensing and Communications for IoT: Synergies with Key 6G Technology Enablers (Aryan Kaushik et al., 2023)
+### (57/57) Integrated Sensing and Communications for IoT: Synergies with Key 6G Technology Enablers (Aryan Kaushik et al., 2023)
 
 {{<citation>}}
 

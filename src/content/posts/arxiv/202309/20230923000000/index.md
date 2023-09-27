@@ -215,7 +215,7 @@ Abdulelah S. Alshehri, Franklin L. Lee, Shihu Wang. (2023)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CE, cs-CL, cs-CV, cs-LG, cs.LG  
 Keywords: GPT, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2309.12460v1)  
+[Paper Link](http://arxiv.org/abs/2309.12460v2)  
 
 ---
 
@@ -406,14 +406,14 @@ This study introduces a novel hierarchical divisive clustering approach with sto
 
 {{<citation>}}
 
-Luigi Capogrosso, Federico Cunico, Dong Seon Cheng, Franco Fummi, Marco cristani. (2023)  
+Luigi Capogrosso, Federico Cunico, Dong Seon Cheng, Franco Fummi, Marco Cristani. (2023)  
 **A Machine Learning-oriented Survey on Tiny Machine Learning**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2309.11932v1)  
+[Paper Link](http://arxiv.org/abs/2309.11932v2)  
 
 ---
 
@@ -2116,14 +2116,14 @@ The development of emotion recognition in dialogue (ERC) has been consistently h
 
 {{<citation>}}
 
-Yidong Liu, Conghui He, Conghui He, Wei Li, FuKai Shang, Jun Wang, Yao Li, Rui Xu. (2023)  
+Yidong Liu, FuKai Shang, Fang Wang, Rui Xu, Jun Wang, Wei Li, Yao Li, Conghui He. (2023)  
 **MiChao-HuaFen 1.0: A Specialized Pre-trained Corpus Dataset for Domain-specific Large Models**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: GPT, GPT-4  
-[Paper Link](http://arxiv.org/abs/2309.13079v1)  
+[Paper Link](http://arxiv.org/abs/2309.13079v2)  
 
 ---
 
