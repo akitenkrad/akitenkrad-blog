@@ -1117,7 +1117,7 @@ Rongfeng Wei, Jinlin Wu, You Pang, Zhen Chen. (2023)
 Primary Category: eess.IV  
 Categories: cs-CV, eess-IV, eess.IV  
 Keywords: Yolo  
-[Paper Link](http://arxiv.org/abs/2309.13404v1)  
+[Paper Link](http://arxiv.org/abs/2309.13404v2)  
 
 ---
 
