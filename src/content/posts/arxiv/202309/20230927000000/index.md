@@ -437,7 +437,7 @@ Noam Aigerman, Thibault Groueix. (2023)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CG, cs-CV, cs-GR, cs.CV  
 Keywords: Embedding  
-[Paper Link](http://arxiv.org/abs/2309.14564v1)  
+[Paper Link](http://arxiv.org/abs/2309.14564v2)  
 
 ---
 
@@ -745,13 +745,13 @@ Haoning Wu, Zicheng Zhang, Erli Zhang, Chaofeng Chen, Liang Liao, Annan Wang, Ch
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-MM, cs.CV  
 Keywords: GPT, Language Model, QA  
-[Paper Link](http://arxiv.org/abs/2309.14181v1)  
+[Paper Link](http://arxiv.org/abs/2309.14181v2)  
 
 ---
 
 
 **ABSTRACT**  
-The rapid evolution of Multi-modality Large Language Models (MLLMs) has catalyzed a shift in computer vision from specialized models to general-purpose foundation models. Nevertheless, there is still an inadequacy in assessing the abilities of MLLMs on low-level visual perception and understanding. To address this gap, we present Q-Bench, a holistic benchmark crafted to systematically evaluate potential abilities of MLLMs on three realms: low-level visual perception, low-level visual description, and overall visual quality assessment. a) To evaluate the low-level perception ability, we construct the LLVisionQA dataset, consisting of 2,990 diverse-sourced images, each equipped with a human-asked question focusing on its low-level attributes. We then measure the correctness of MLLMs on answering these questions. b) To examine the description ability of MLLMs on low-level information, we propose the LLDescribe dataset consisting of long expert-labelled golden low-level text descriptions on 499 images, and a GPT-involved comparison pipeline between outputs of MLLMs and the golden descriptions. c) Besides these two tasks, we further measure their visual quality assessment ability to align with human opinion scores. Specifically, we design a softmax-based strategy that enables MLLMs to predict quantifiable quality scores, and evaluate them on various existing image quality assessment (IQA) datasets. Our evaluation across the three abilities confirms that MLLMs possess fundamental low-level visual skills. However, these skills are still unstable and relatively imprecise, indicating the need for specific enhancements on MLLMs towards these abilities. We hope that our benchmark can encourage the research community to delve deeper to discover and enhance these untapped potentials of MLLMs.
+The rapid evolution of Multi-modality Large Language Models (MLLMs) has catalyzed a shift in computer vision from specialized models to general-purpose foundation models. Nevertheless, there is still an inadequacy in assessing the abilities of MLLMs on low-level visual perception and understanding. To address this gap, we present Q-Bench, a holistic benchmark crafted to systematically evaluate potential abilities of MLLMs on three realms: low-level visual perception, low-level visual description, and overall visual quality assessment. a) To evaluate the low-level perception ability, we construct the LLVisionQA dataset, consisting of 2,990 diverse-sourced images, each equipped with a human-asked question focusing on its low-level attributes. We then measure the correctness of MLLMs on answering these questions. b) To examine the description ability of MLLMs on low-level information, we propose the LLDescribe dataset consisting of long expert-labelled golden low-level text descriptions on 499 images, and a GPT-involved comparison pipeline between outputs of MLLMs and the golden descriptions. c) Besides these two tasks, we further measure their visual quality assessment ability to align with human opinion scores. Specifically, we design a softmax-based strategy that enables MLLMs to predict quantifiable quality scores, and evaluate them on various existing image quality assessment (IQA) datasets. Our evaluation across the three abilities confirms that MLLMs possess preliminary low-level visual skills. However, these skills are still unstable and relatively imprecise, indicating the need for specific enhancements on MLLMs towards these abilities. We hope that our benchmark can encourage the research community to delve deeper to discover and enhance these untapped potentials of MLLMs. Project Page: https://vqassessment.github.io/Q-Bench.
 
 {{</citation>}}
 
@@ -1296,14 +1296,14 @@ ChatGPT has entered classrooms, but not via the typical route of other education
 
 {{<citation>}}
 
-Rongzhang Gu, Hui Li, Changyue Su, Wenyan Wu. (2023)  
+Rongzhang Gu, Hui Li, Changyue Su, Wayne Wu. (2023)  
 **Innovative Digital Storytelling with AIGC: Exploration and Discussion of Recent Advances**  
 
 ---
 Primary Category: cs.HC  
 Categories: cs-AI, cs-CV, cs-GR, cs-HC, cs-MM, cs.HC  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2309.14329v1)  
+[Paper Link](http://arxiv.org/abs/2309.14329v2)  
 
 ---
 
@@ -2153,7 +2153,7 @@ Mark Lindsey, Ankit Shah, Francis Kubala, Richard M. Stern. (2023)
 
 ---
 Primary Category: eess.AS  
-Categories: cs-AI, cs-CL, cs-SD, eess-AS, eess.AS  
+Categories: cs-AI, cs-CL, cs-SD, eess-AS, eess-SP, eess.AS  
 Keywords: Active Learning, Event Detection  
 [Paper Link](http://arxiv.org/abs/2309.14460v1)  
 
@@ -2505,7 +2505,7 @@ Annan Tang, Takuma Hiraoka, Naoki Hiraoka, Fan Shi, Kento Kawaharazuka, Kunio Ko
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2309.14225v1)  
+[Paper Link](http://arxiv.org/abs/2309.14225v2)  
 
 ---
 

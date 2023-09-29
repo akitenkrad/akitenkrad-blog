@@ -574,14 +574,14 @@ The potential of digital twin technology, involving the creation of precise digi
 
 {{<citation>}}
 
-Liulei Li, Wenguan Wang, Yang Yi. (2023)  
+Liulei Li, Wenguan Wang, Yi Yang. (2023)  
 **LOGICSEG: Parsing Visual Semantics with Neural Logic Learning and Reasoning**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Reasoning  
-[Paper Link](http://arxiv.org/abs/2309.13556v1)  
+[Paper Link](http://arxiv.org/abs/2309.13556v2)  
 
 ---
 
