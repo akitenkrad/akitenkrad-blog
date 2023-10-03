@@ -123,7 +123,7 @@ Ansong Ni, Pengcheng Yin, Yilun Zhao, Martin Riddell, Troy Feng, Rui Shen, Steph
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs-PL, cs-SE, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2309.17446v1)  
+[Paper Link](http://arxiv.org/abs/2309.17446v2)  
 
 ---
 
@@ -358,14 +358,14 @@ Objective: Clinical deep phenotyping plays a critical role in both the diagnosis
 
 {{<citation>}}
 
-Mengke Zhang, Tianxing He, Tianle Wang, Fatemehsadat Mireshghallah, Binyi Chen, Hao Wang, Yulia Tsvetkov. (2023)  
+Mengke Zhang, Tianxing He, Tianle Wang, Lu Mi, Fatemehsadat Mireshghallah, Binyi Chen, Hao Wang, Yulia Tsvetkov. (2023)  
 **LatticeGen: A Cooperative Framework which Hides Generated Text in a Lattice for Privacy-Aware Generation on Cloud**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: BERT  
-[Paper Link](http://arxiv.org/abs/2309.17157v1)  
+[Paper Link](http://arxiv.org/abs/2309.17157v2)  
 
 ---
 
@@ -1121,7 +1121,7 @@ Siji Chen, Yanshen Sun, Peihan Li, Lifeng Zhou, Chang-Tien Lu. (2023)
 Primary Category: cs.RO  
 Categories: cs-AI, cs-RO, cs.RO  
 Keywords: GNN, Graph Neural Network  
-[Paper Link](http://arxiv.org/abs/2309.17437v1)  
+[Paper Link](http://arxiv.org/abs/2309.17437v2)  
 
 ---
 
@@ -1235,7 +1235,7 @@ Alex Fang, Albin Madappally Jose, Amit Jain, Ludwig Schmidt, Alexander Toshev, V
 Primary Category: cs.AI  
 Categories: cs-AI, cs-LG, cs.AI  
 Keywords: AI, ImageNet  
-[Paper Link](http://arxiv.org/abs/2309.17425v1)  
+[Paper Link](http://arxiv.org/abs/2309.17425v2)  
 
 ---
 
@@ -1822,18 +1822,18 @@ Explainable AI (XAI) methods have mostly been built to investigate and shed ligh
 {{</citation>}}
 
 
-### (81/113) On the Power of the Weisfeiler-Leman Test for Graph Motif Parameters (Pablo Barceló et al., 2023)
+### (81/113) On the Power of the Weisfeiler-Leman Test for Graph Motif Parameters (Matthias Lanzinger et al., 2023)
 
 {{<citation>}}
 
-Pablo Barceló, Matthias Lanzinger. (2023)  
+Matthias Lanzinger, Pablo Barceló. (2023)  
 **On the Power of the Weisfeiler-Leman Test for Graph Motif Parameters**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: GNN  
-[Paper Link](http://arxiv.org/abs/2309.17053v1)  
+[Paper Link](http://arxiv.org/abs/2309.17053v2)  
 
 ---
 

@@ -1080,7 +1080,7 @@ Chuanyang Zheng, Haiming Wang, Enze Xie, Zhengying Liu, Jiankai Sun, Huajian Xin
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2309.15806v1)  
+[Paper Link](http://arxiv.org/abs/2309.15806v2)  
 
 ---
 
@@ -2100,7 +2100,7 @@ Bowen Wang, Jiaxing Zhang, Ran Zhang, Yunqin Li, Liangzhi Li, Yuta Nakashima. (2
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2309.15523v2)  
+[Paper Link](http://arxiv.org/abs/2309.15523v3)  
 
 ---
 
@@ -2600,13 +2600,13 @@ Yutong Ye, Xiang Lian, Mingsong Chen. (2023)
 Primary Category: cs.DB  
 Categories: cs-DB, cs.DB  
 Keywords: Embedding, GNN  
-[Paper Link](http://arxiv.org/abs/2309.15641v1)  
+[Paper Link](http://arxiv.org/abs/2309.15641v2)  
 
 ---
 
 
 **ABSTRACT**  
-The classic problem of exact subgraph matching returns those subgraphs in a large-scale data graph that are isomorphic to a given query graph, which has gained increasing importance in many real-world applications such as social network analysis, knowledge graph discovery in the Semantic Web, bibliographical network mining, and so on. In this paper, we propose a novel and effective \textit{graph neural network (GNN)-based path embedding framework} (GNN-PE), which allows efficient exact subgraph matching without introducing false dismissals. Unlike traditional GNN-based graph embeddings that only produce approximate subgraph matching results, in this paper, we carefully devise GNN-based embeddings for paths, such that: if two paths (and 1-hop neighbors of vertices on them) have the subgraph relationship, their corresponding GNN-based embedding vectors will strictly follow the dominance relationship. With such a newly designed property of path dominance embeddings, we are able to propose effective pruning strategies based on path label/dominance embeddings and guarantee no false dismissals for subgraph matching. We build multidimensional indexes over path embedding vectors, and develop an efficient subgraph matching algorithm by traversing indexes over graph partitions in parallel and applying our pruning methods. We also propose a cost-model-based query plan that obtains query paths from the query graph with low query cost. Through extensive experiments, we confirm the efficiency and effectiveness of our proposed GNN-PE approach for exact subgraph matching on both real and synthetic graph data.
+The classic problem of exact subgraph matching returns those subgraphs in a large-scale data graph that are isomorphic to a given query graph, which has gained increasing importance in many real-world applications such as social network analysis, knowledge graph discovery in the Semantic Web, bibliographical network mining, and so on. In this paper, we propose a novel and effective graph neural network (GNN)-based path embedding framework (GNN-PE), which allows efficient exact subgraph matching without introducing false dismissals. Unlike traditional GNN-based graph embeddings that only produce approximate subgraph matching results, in this paper, we carefully devise GNN-based embeddings for paths, such that: if two paths (and 1-hop neighbors of vertices on them) have the subgraph relationship, their corresponding GNN-based embedding vectors will strictly follow the dominance relationship. With such a newly designed property of path dominance embeddings, we are able to propose effective pruning strategies based on path label/dominance embeddings and guarantee no false dismissals for subgraph matching. We build multidimensional indexes over path embedding vectors, and develop an efficient subgraph matching algorithm by traversing indexes over graph partitions in parallel and applying our pruning methods. We also propose a cost-model-based query plan that obtains query paths from the query graph with low query cost. Through extensive experiments, we confirm the efficiency and effectiveness of our proposed GNN-PE approach for exact subgraph matching on both real and synthetic graph data.
 
 {{</citation>}}
 

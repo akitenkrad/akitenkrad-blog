@@ -560,24 +560,24 @@ Currently, reinforcement learning (RL), especially deep RL, has received more an
 {{</citation>}}
 
 
-### (24/147) Can LLMs Effectively Leverage Structural Information for Graph Learning: When and Why (Jin Huang et al., 2023)
+### (24/147) Can LLMs Effectively Leverage Graph Structural Information: When and Why (Jin Huang et al., 2023)
 
 {{<citation>}}
 
 Jin Huang, Xingjian Zhang, Qiaozhu Mei, Jiaqi Ma. (2023)  
-**Can LLMs Effectively Leverage Structural Information for Graph Learning: When and Why**  
+**Can LLMs Effectively Leverage Graph Structural Information: When and Why**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2309.16595v1)  
+Keywords: AI, Language Model  
+[Paper Link](http://arxiv.org/abs/2309.16595v2)  
 
 ---
 
 
 **ABSTRACT**  
-This paper studies Large Language Models (LLMs) for structured data--particularly graphs--a crucial data modality that remains underexplored in the LLM literature. We aim to understand when and why the incorporation of structural information inherent in graph data can improve the prediction performance of LLMs on node classification tasks. To address the ``when'' question, we examine a variety of prompting methods for encoding structural information, in settings where textual node features are either rich or scarce. For the ``why'' questions, we probe into two potential contributing factors to the LLM performance: data leakage and homophily. Our exploration of these questions reveals that (i) LLMs can benefit from structural information, especially when textual node features are scarce; (ii) there is no substantial evidence indicating that the performance of LLMs is significantly attributed to data leakage; and (iii) the performance of LLMs on a target node is strongly positively related to the local homophily ratio of the node.
+This paper studies Large Language Models (LLMs) augmented with structured data--particularly graphs--a crucial data modality that remains underexplored in the LLM literature. We aim to understand when and why the incorporation of structural information inherent in graph data can improve the prediction performance of LLMs on node classification tasks with textual features. To address the ``when'' question, we examine a variety of prompting methods for encoding structural information, in settings where textual node features are either rich or scarce. For the ``why'' questions, we probe into two potential contributing factors to the LLM performance: data leakage and homophily. Our exploration of these questions reveals that (i) LLMs can benefit from structural information, especially when textual node features are scarce; (ii) there is no substantial evidence indicating that the performance of LLMs is significantly attributed to data leakage; and (iii) the performance of LLMs on a target node is strongly positively related to the local homophily ratio of the node\footnote{Codes and datasets are at: \url{https://github.com/TRAIS-Lab/LLM-Structured-Data}}.
 
 {{</citation>}}
 
@@ -1059,7 +1059,7 @@ Hu Xu, Saining Xie, Xiaoqing Ellen Tan, Po-Yao Huang, Russell Howes, Vasu Sharma
 Primary Category: cs.CV  
 Categories: cs-CL, cs-CV, cs.CV  
 Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2309.16671v2)  
+[Paper Link](http://arxiv.org/abs/2309.16671v3)  
 
 ---
 
@@ -2200,18 +2200,18 @@ We present ReCAT, a recursive composition augmented Transformer that is able to 
 {{</citation>}}
 
 
-### (98/147) At Which Training Stage Does Cocde Data Help LLMs Reasoning? (Yingwei Ma et al., 2023)
+### (98/147) At Which Training Stage Does Code Data Help LLMs Reasoning? (Yingwei Ma et al., 2023)
 
 {{<citation>}}
 
 Yingwei Ma, Yue Liu, Yue Yu, Yuanliang Zhang, Yu Jiang, Changjian Wang, Shanshan Li. (2023)  
-**At Which Training Stage Does Cocde Data Help LLMs Reasoning?**  
+**At Which Training Stage Does Code Data Help LLMs Reasoning?**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model, Reasoning  
-[Paper Link](http://arxiv.org/abs/2309.16298v1)  
+[Paper Link](http://arxiv.org/abs/2309.16298v2)  
 
 ---
 
@@ -3213,7 +3213,7 @@ Majid Daliri, Juliana Freire, Christopher Musco, Aécio Santos, Haoxiang Zhang. 
 Primary Category: cs.DB  
 Categories: cs-DB, cs-DS, cs.DB  
 Keywords: Sketch  
-[Paper Link](http://arxiv.org/abs/2309.16157v1)  
+[Paper Link](http://arxiv.org/abs/2309.16157v2)  
 
 ---
 
@@ -3239,7 +3239,7 @@ Vaigarai Sathi, Sabahat Shaik, Jaswanth Nidamanuri. (2023)
 Primary Category: cs.GT  
 Categories: cs-AI, cs-GT, cs.GT  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2309.16263v1)  
+[Paper Link](http://arxiv.org/abs/2309.16263v2)  
 
 ---
 
