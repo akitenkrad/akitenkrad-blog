@@ -267,18 +267,18 @@ With the rapid development of computer vision, Vision Transformers (ViTs) offer 
 {{</citation>}}
 
 
-### (11/72) Structural Adversarial Objectives for\\Self-Supervised Representation Learning (Xiao Zhang et al., 2023)
+### (11/72) Structural Adversarial Objectives for Self-Supervised Representation Learning (Xiao Zhang et al., 2023)
 
 {{<citation>}}
 
 Xiao Zhang, Michael Maire. (2023)  
-**Structural Adversarial Objectives for\\Self-Supervised Representation Learning**  
+**Structural Adversarial Objectives for Self-Supervised Representation Learning**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: ImageNet, Representation Learning, Self-Supervised  
-[Paper Link](http://arxiv.org/abs/2310.00357v1)  
+[Paper Link](http://arxiv.org/abs/2310.00357v2)  
 
 ---
 
