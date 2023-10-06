@@ -1584,7 +1584,7 @@ Tianci Xue, Ziqi Wang, Yixia Li, Yun Chen, Guanhua Chen. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2310.00901v1)  
+[Paper Link](http://arxiv.org/abs/2310.00901v2)  
 
 ---
 
@@ -1830,7 +1830,7 @@ Pritthijit Nath, Pancham Shukla, César Quilodrán-Casas. (2023)
 Primary Category: physics.ao-ph  
 Categories: cs-LG, physics-ao-ph, physics.ao-ph  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2310.01690v1)  
+[Paper Link](http://arxiv.org/abs/2310.01690v2)  
 
 ---
 
@@ -2704,7 +2704,7 @@ Aldi Piroli, Vinzenz Dallabetta, Johannes Kopp, Marc Walessa, Daniel Meissner, K
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2310.00944v1)  
+[Paper Link](http://arxiv.org/abs/2310.00944v2)  
 
 ---
 

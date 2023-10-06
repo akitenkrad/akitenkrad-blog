@@ -22,15 +22,15 @@ math: true
 ## Primary Categories
 
 - [eess.SY (2)](#eesssy-2)
-- [cs.LG (30)](#cslg-30)
+- [cs.LG (31)](#cslg-31)
 - [cs.CL (41)](#cscl-41)
 - [eess.IV (3)](#eessiv-3)
 - [cs.RO (9)](#csro-9)
-- [cs.SI (1)](#cssi-1)
+- [cs.SE (11)](#csse-11)
+- [cs.SI (2)](#cssi-2)
 - [cs.MA (1)](#csma-1)
 - [cs.HC (5)](#cshc-5)
 - [cs.CR (5)](#cscr-5)
-- [cs.SE (10)](#csse-10)
 - [math.NA (1)](#mathna-1)
 - [cs.CV (26)](#cscv-26)
 - [cs.AI (10)](#csai-10)
@@ -46,7 +46,7 @@ math: true
 
 
 
-### (1/153) On the Financial Consequences of Simplified Battery Sizing Models without Considering Operational Details (Nam Trong Dinh et al., 2023)
+### (1/156) On the Financial Consequences of Simplified Battery Sizing Models without Considering Operational Details (Nam Trong Dinh et al., 2023)
 
 {{<citation>}}
 
@@ -68,7 +68,7 @@ Optimal battery sizing studies tend to overly simplify the practical aspects of 
 {{</citation>}}
 
 
-### (2/153) Health Guardian: Using Multi-modal Data to Understand Individual Health (Vince S. Siu et al., 2023)
+### (2/156) Health Guardian: Using Multi-modal Data to Understand Individual Health (Vince S. Siu et al., 2023)
 
 {{<citation>}}
 
@@ -90,11 +90,11 @@ Artificial intelligence (AI) has shown great promise in revolutionizing the fiel
 {{</citation>}}
 
 
-## cs.LG (30)
+## cs.LG (31)
 
 
 
-### (3/153) DON-LSTM: Multi-Resolution Learning with DeepONets and Long Short-Term Memory Neural Networks (Katarzyna Michałowska et al., 2023)
+### (3/156) DON-LSTM: Multi-Resolution Learning with DeepONets and Long Short-Term Memory Neural Networks (Katarzyna Michałowska et al., 2023)
 
 {{<citation>}}
 
@@ -116,7 +116,7 @@ Deep operator networks (DeepONets, DONs) offer a distinct advantage over traditi
 {{</citation>}}
 
 
-### (4/153) Splitting the Difference on Adversarial Training (Matan Levi et al., 2023)
+### (4/156) Splitting the Difference on Adversarial Training (Matan Levi et al., 2023)
 
 {{<citation>}}
 
@@ -138,7 +138,7 @@ The existence of adversarial examples points to a basic weakness of deep neural 
 {{</citation>}}
 
 
-### (5/153) Distributionally Safe Reinforcement Learning under Model Uncertainty: A Single-Level Approach by Differentiable Convex Programming (Alaa Eddine Chriat et al., 2023)
+### (5/156) Distributionally Safe Reinforcement Learning under Model Uncertainty: A Single-Level Approach by Differentiable Convex Programming (Alaa Eddine Chriat et al., 2023)
 
 {{<citation>}}
 
@@ -160,7 +160,7 @@ Safety assurance is uncompromisable for safety-critical environments with the pr
 {{</citation>}}
 
 
-### (6/153) Feather: An Elegant Solution to Effective DNN Sparsification (Athanasios Glentis Georgoulakis et al., 2023)
+### (6/156) Feather: An Elegant Solution to Effective DNN Sparsification (Athanasios Glentis Georgoulakis et al., 2023)
 
 {{<citation>}}
 
@@ -182,7 +182,7 @@ Neural Network pruning is an increasingly popular way for producing compact and 
 {{</citation>}}
 
 
-### (7/153) EGraFFBench: Evaluation of Equivariant Graph Neural Network Force Fields for Atomistic Simulations (Vaibhav Bihani et al., 2023)
+### (7/156) EGraFFBench: Evaluation of Equivariant Graph Neural Network Force Fields for Atomistic Simulations (Vaibhav Bihani et al., 2023)
 
 {{<citation>}}
 
@@ -204,7 +204,7 @@ Equivariant graph neural networks force fields (EGraFFs) have shown great promis
 {{</citation>}}
 
 
-### (8/153) Delta-AI: Local objectives for amortized inference in sparse graphical models (Jean-Pierre Falet et al., 2023)
+### (8/156) Delta-AI: Local objectives for amortized inference in sparse graphical models (Jean-Pierre Falet et al., 2023)
 
 {{<citation>}}
 
@@ -226,7 +226,7 @@ We present a new algorithm for amortized inference in sparse probabilistic graph
 {{</citation>}}
 
 
-### (9/153) Can a student Large Language Model perform as well as it's teacher? (Sia Gholami et al., 2023)
+### (9/156) Can a student Large Language Model perform as well as it's teacher? (Sia Gholami et al., 2023)
 
 {{<citation>}}
 
@@ -248,7 +248,7 @@ The burgeoning complexity of contemporary deep learning models, while achieving 
 {{</citation>}}
 
 
-### (10/153) Mixture of Quantized Experts (MoQE): Complementary Effect of Low-bit Quantization and Robustness (Young Jin Kim et al., 2023)
+### (10/156) Mixture of Quantized Experts (MoQE): Complementary Effect of Low-bit Quantization and Robustness (Young Jin Kim et al., 2023)
 
 {{<citation>}}
 
@@ -270,7 +270,7 @@ Large Mixture of Experts (MoE) models could achieve state-of-the-art quality on 
 {{</citation>}}
 
 
-### (11/153) PCGPT: Procedural Content Generation via Transformers (Sajad Mohaghegh et al., 2023)
+### (11/156) PCGPT: Procedural Content Generation via Transformers (Sajad Mohaghegh et al., 2023)
 
 {{<citation>}}
 
@@ -292,7 +292,7 @@ The paper presents the PCGPT framework, an innovative approach to procedural con
 {{</citation>}}
 
 
-### (12/153) Secure and Effective Data Appraisal for Machine Learning (Xu Ouyang et al., 2023)
+### (12/156) Secure and Effective Data Appraisal for Machine Learning (Xu Ouyang et al., 2023)
 
 {{<citation>}}
 
@@ -314,7 +314,29 @@ Essential for an unfettered data market is the ability to discreetly select and 
 {{</citation>}}
 
 
-### (13/153) Language Models Represent Space and Time (Wes Gurnee et al., 2023)
+### (13/156) A Deep Reinforcement Learning Approach for Interactive Search with Sentence-level Feedback (Jianghong Zhou et al., 2023)
+
+{{<citation>}}
+
+Jianghong Zhou, Joyce C. Ho, Chen Lin, Eugene Agichtein. (2023)  
+**A Deep Reinforcement Learning Approach for Interactive Search with Sentence-level Feedback**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-HC, cs-IR, cs-LG, cs.LG  
+Keywords: BERT, Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2310.03043v1)  
+
+---
+
+
+**ABSTRACT**  
+Interactive search can provide a better experience by incorporating interaction feedback from the users. This can significantly improve search accuracy as it helps avoid irrelevant information and captures the users' search intents. Existing state-of-the-art (SOTA) systems use reinforcement learning (RL) models to incorporate the interactions but focus on item-level feedback, ignoring the fine-grained information found in sentence-level feedback. Yet such feedback requires extensive RL action space exploration and large amounts of annotated data. This work addresses these challenges by proposing a new deep Q-learning (DQ) approach, DQrank. DQrank adapts BERT-based models, the SOTA in natural language processing, to select crucial sentences based on users' engagement and rank the items to obtain more satisfactory responses. We also propose two mechanisms to better explore optimal actions. DQrank further utilizes the experience replay mechanism in DQ to store the feedback sentences to obtain a better initial ranking performance. We validate the effectiveness of DQrank on three search datasets. The results show that DQRank performs at least 12% better than the previous SOTA RL approaches. We also conduct detailed ablation studies. The ablation results demonstrate that each model component can efficiently extract and accumulate long-term engagement effects from the users' sentence-level feedback. This structure offers new technologies with promised performance to construct a search system with sentence-level interaction.
+
+{{</citation>}}
+
+
+### (14/156) Language Models Represent Space and Time (Wes Gurnee et al., 2023)
 
 {{<citation>}}
 
@@ -336,7 +358,7 @@ The capabilities of large language models (LLMs) have sparked debate over whethe
 {{</citation>}}
 
 
-### (14/153) 1D-CapsNet-LSTM: A Deep Learning-Based Model for Multi-Step Stock Index Forecasting (Cheng Zhang et al., 2023)
+### (15/156) 1D-CapsNet-LSTM: A Deep Learning-Based Model for Multi-Step Stock Index Forecasting (Cheng Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -358,7 +380,7 @@ Multi-step forecasting of stock market index prices is a crucial task in the fin
 {{</citation>}}
 
 
-### (15/153) De Novo Drug Design with Joint Transformers (Adam Izdebski et al., 2023)
+### (16/156) De Novo Drug Design with Joint Transformers (Adam Izdebski et al., 2023)
 
 {{<citation>}}
 
@@ -380,7 +402,7 @@ De novo drug design requires simultaneously generating novel molecules outside o
 {{</citation>}}
 
 
-### (16/153) The Inhibitor: ReLU and Addition-Based Attention for Efficient Transformers (Rickard Brännvall, 2023)
+### (17/156) The Inhibitor: ReLU and Addition-Based Attention for Efficient Transformers (Rickard Brännvall, 2023)
 
 {{<citation>}}
 
@@ -402,7 +424,7 @@ To enhance the computational efficiency of quantized Transformers, we replace th
 {{</citation>}}
 
 
-### (17/153) Between accurate prediction and poor decision making: the AI/ML gap (Gianluca Bontempi, 2023)
+### (18/156) Between accurate prediction and poor decision making: the AI/ML gap (Gianluca Bontempi, 2023)
 
 {{<citation>}}
 
@@ -424,7 +446,7 @@ Intelligent agents rely on AI/ML functionalities to predict the consequence of p
 {{</citation>}}
 
 
-### (18/153) DeepHGCN: Toward Deeper Hyperbolic Graph Convolutional Networks (Jiaxu Liu et al., 2023)
+### (19/156) DeepHGCN: Toward Deeper Hyperbolic Graph Convolutional Networks (Jiaxu Liu et al., 2023)
 
 {{<citation>}}
 
@@ -435,7 +457,7 @@ Jiaxu Liu, Xinping Yi, Xiaowei Huang. (2023)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Graph Convolutional Network  
-[Paper Link](http://arxiv.org/abs/2310.02027v1)  
+[Paper Link](http://arxiv.org/abs/2310.02027v2)  
 
 ---
 
@@ -446,7 +468,7 @@ Hyperbolic graph convolutional networks (HGCN) have demonstrated significant pot
 {{</citation>}}
 
 
-### (19/153) OOD Aware Supervised Contrastive Learning (Soroush Seifi et al., 2023)
+### (20/156) OOD Aware Supervised Contrastive Learning (Soroush Seifi et al., 2023)
 
 {{<citation>}}
 
@@ -468,7 +490,7 @@ Out-of-Distribution (OOD) detection is a crucial problem for the safe deployment
 {{</citation>}}
 
 
-### (20/153) FiGURe: Simple and Efficient Unsupervised Node Representations with Filter Augmentations (Chanakya Ekbote et al., 2023)
+### (21/156) FiGURe: Simple and Efficient Unsupervised Node Representations with Filter Augmentations (Chanakya Ekbote et al., 2023)
 
 {{<citation>}}
 
@@ -490,7 +512,7 @@ Unsupervised node representations learnt using contrastive learning-based method
 {{</citation>}}
 
 
-### (21/153) Towards Stable Backdoor Purification through Feature Shift Tuning (Rui Min et al., 2023)
+### (22/156) Towards Stable Backdoor Purification through Feature Shift Tuning (Rui Min et al., 2023)
 
 {{<citation>}}
 
@@ -512,7 +534,7 @@ It has been widely observed that deep neural networks (DNN) are vulnerable to ba
 {{</citation>}}
 
 
-### (22/153) DeepDecipher: Accessing and Investigating Neuron Activation in Large Language Models (Albert Garde et al., 2023)
+### (23/156) DeepDecipher: Accessing and Investigating Neuron Activation in Large Language Models (Albert Garde et al., 2023)
 
 {{<citation>}}
 
@@ -534,7 +556,7 @@ As large language models (LLMs) become more capable, there is an urgent need for
 {{</citation>}}
 
 
-### (23/153) Conditional Instrumental Variable Regression with Representation Learning for Causal Inference (Debo Cheng et al., 2023)
+### (24/156) Conditional Instrumental Variable Regression with Representation Learning for Causal Inference (Debo Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -556,7 +578,7 @@ This paper studies the challenging problem of estimating causal effects from obs
 {{</citation>}}
 
 
-### (24/153) Towards Robust Fidelity for Evaluating Explainability of Graph Neural Networks (Xu Zheng et al., 2023)
+### (25/156) Towards Robust Fidelity for Evaluating Explainability of Graph Neural Networks (Xu Zheng et al., 2023)
 
 {{<citation>}}
 
@@ -578,7 +600,7 @@ Graph Neural Networks (GNNs) are neural models that leverage the dependency stru
 {{</citation>}}
 
 
-### (25/153) GNNX-BENCH: Unravelling the Utility of Perturbation-based GNN Explainers through In-depth Benchmarking (Mert Kosan et al., 2023)
+### (26/156) GNNX-BENCH: Unravelling the Utility of Perturbation-based GNN Explainers through In-depth Benchmarking (Mert Kosan et al., 2023)
 
 {{<citation>}}
 
@@ -600,7 +622,7 @@ Numerous explainability methods have been proposed to shed light on the inner wo
 {{</citation>}}
 
 
-### (26/153) Can large language models provide useful feedback on research papers? A large-scale empirical analysis (Weixin Liang et al., 2023)
+### (27/156) Can large language models provide useful feedback on research papers? A large-scale empirical analysis (Weixin Liang et al., 2023)
 
 {{<citation>}}
 
@@ -622,7 +644,7 @@ Expert feedback lays the foundation of rigorous research. However, the rapid gro
 {{</citation>}}
 
 
-### (27/153) Exploring Counterfactual Alignment Loss towards Human-centered AI (Mingzhou Liu et al., 2023)
+### (28/156) Exploring Counterfactual Alignment Loss towards Human-centered AI (Mingzhou Liu et al., 2023)
 
 {{<citation>}}
 
@@ -644,7 +666,7 @@ Deep neural networks have demonstrated impressive accuracy in supervised learnin
 {{</citation>}}
 
 
-### (28/153) Blending Imitation and Reinforcement Learning for Robust Policy Improvement (Xuefeng Liu et al., 2023)
+### (29/156) Blending Imitation and Reinforcement Learning for Robust Policy Improvement (Xuefeng Liu et al., 2023)
 
 {{<citation>}}
 
@@ -666,7 +688,7 @@ While reinforcement learning (RL) has shown promising performance, its sample co
 {{</citation>}}
 
 
-### (29/153) Time-LLM: Time Series Forecasting by Reprogramming Large Language Models (Ming Jin et al., 2023)
+### (30/156) Time-LLM: Time Series Forecasting by Reprogramming Large Language Models (Ming Jin et al., 2023)
 
 {{<citation>}}
 
@@ -688,7 +710,7 @@ Time series forecasting holds significant importance in many real-world dynamic 
 {{</citation>}}
 
 
-### (30/153) PrACTiS: Perceiver-Attentional Copulas for Time Series (Cat P. Le et al., 2023)
+### (31/156) PrACTiS: Perceiver-Attentional Copulas for Time Series (Cat P. Le et al., 2023)
 
 {{<citation>}}
 
@@ -710,7 +732,7 @@ Transformers incorporating copula structures have demonstrated remarkable perfor
 {{</citation>}}
 
 
-### (31/153) Large Language Models as Analogical Reasoners (Michihiro Yasunaga et al., 2023)
+### (32/156) Large Language Models as Analogical Reasoners (Michihiro Yasunaga et al., 2023)
 
 {{<citation>}}
 
@@ -732,7 +754,7 @@ Chain-of-thought (CoT) prompting for language models demonstrates impressive per
 {{</citation>}}
 
 
-### (32/153) On Representation Complexity of Model-based and Model-free Reinforcement Learning (Hanlin Zhu et al., 2023)
+### (33/156) On Representation Complexity of Model-based and Model-free Reinforcement Learning (Hanlin Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -758,7 +780,7 @@ We study the representation complexity of model-based and model-free reinforceme
 
 
 
-### (33/153) ResidualTransformer: Residual Low-rank Learning with Weight-sharing for Transformer Layers (Yiming Wang et al., 2023)
+### (34/156) ResidualTransformer: Residual Low-rank Learning with Weight-sharing for Transformer Layers (Yiming Wang et al., 2023)
 
 {{<citation>}}
 
@@ -780,7 +802,7 @@ Memory constraint of always-on devices is one of the major concerns when deployi
 {{</citation>}}
 
 
-### (34/153) Large Language Models Can Be Good Privacy Protection Learners (Yijia Xiao et al., 2023)
+### (35/156) Large Language Models Can Be Good Privacy Protection Learners (Yijia Xiao et al., 2023)
 
 {{<citation>}}
 
@@ -802,7 +824,7 @@ The proliferation of Large Language Models (LLMs) has driven considerable intere
 {{</citation>}}
 
 
-### (35/153) The Empty Signifier Problem: Towards Clearer Paradigms for Operationalising 'Alignment' in Large Language Models (Hannah Rose Kirk et al., 2023)
+### (36/156) The Empty Signifier Problem: Towards Clearer Paradigms for Operationalising 'Alignment' in Large Language Models (Hannah Rose Kirk et al., 2023)
 
 {{<citation>}}
 
@@ -824,7 +846,7 @@ In this paper, we address the concept of "alignment" in large language models (L
 {{</citation>}}
 
 
-### (36/153) Backdoor Adjustment of Confounding by Provenance for Robust Text Classification of Multi-institutional Clinical Notes (Xiruo Ding et al., 2023)
+### (37/156) Backdoor Adjustment of Confounding by Provenance for Robust Text Classification of Multi-institutional Clinical Notes (Xiruo Ding et al., 2023)
 
 {{<citation>}}
 
@@ -846,7 +868,7 @@ Natural Language Processing (NLP) methods have been broadly applied to clinical 
 {{</citation>}}
 
 
-### (37/153) Low-Resource Languages Jailbreak GPT-4 (Zheng-Xin Yong et al., 2023)
+### (38/156) Low-Resource Languages Jailbreak GPT-4 (Zheng-Xin Yong et al., 2023)
 
 {{<citation>}}
 
@@ -868,7 +890,7 @@ AI safety training and red-teaming of large language models (LLMs) are measures 
 {{</citation>}}
 
 
-### (38/153) Novice Learner and Expert Tutor: Evaluating Math Reasoning Abilities of Large Language Models with Misconceptions (Naiming Liu et al., 2023)
+### (39/156) Novice Learner and Expert Tutor: Evaluating Math Reasoning Abilities of Large Language Models with Misconceptions (Naiming Liu et al., 2023)
 
 {{<citation>}}
 
@@ -890,7 +912,7 @@ We propose novel evaluations for mathematical reasoning capabilities of Large La
 {{</citation>}}
 
 
-### (39/153) Nugget 2D: Dynamic Contextual Compression for Scaling Decoder-only Language Models (Guanghui Qin et al., 2023)
+### (40/156) Nugget 2D: Dynamic Contextual Compression for Scaling Decoder-only Language Models (Guanghui Qin et al., 2023)
 
 {{<citation>}}
 
@@ -912,7 +934,7 @@ Standard Transformer-based language models (LMs) scale poorly to long contexts. 
 {{</citation>}}
 
 
-### (40/153) Unsupervised Speech Recognition with N-Skipgram and Positional Unigram Matching (Liming Wang et al., 2023)
+### (41/156) Unsupervised Speech Recognition with N-Skipgram and Positional Unigram Matching (Liming Wang et al., 2023)
 
 {{<citation>}}
 
@@ -934,7 +956,7 @@ Training unsupervised speech recognition systems presents challenges due to GAN-
 {{</citation>}}
 
 
-### (41/153) Conversational Health Agents: A Personalized LLM-Powered Agent Framework (Mahyar Abbasian et al., 2023)
+### (42/156) Conversational Health Agents: A Personalized LLM-Powered Agent Framework (Mahyar Abbasian et al., 2023)
 
 {{<citation>}}
 
@@ -956,7 +978,7 @@ Conversational Health Agents (CHAs) are interactive systems designed to enhance 
 {{</citation>}}
 
 
-### (42/153) ProtoNER: Few shot Incremental Learning for Named Entity Recognition using Prototypical Networks (Ritesh Kumar et al., 2023)
+### (43/156) ProtoNER: Few shot Incremental Learning for Named Entity Recognition using Prototypical Networks (Ritesh Kumar et al., 2023)
 
 {{<citation>}}
 
@@ -978,7 +1000,7 @@ Key value pair (KVP) extraction or Named Entity Recognition(NER) from visually r
 {{</citation>}}
 
 
-### (43/153) On the definition of toxicity in NLP (Sergey Berezin et al., 2023)
+### (44/156) On the definition of toxicity in NLP (Sergey Berezin et al., 2023)
 
 {{<citation>}}
 
@@ -988,19 +1010,19 @@ Sergey Berezin, Reza Farahbakhsh, Noel Crespi. (2023)
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
-Keywords: Google, NLP  
-[Paper Link](http://arxiv.org/abs/2310.02357v1)  
+Keywords: NLP  
+[Paper Link](http://arxiv.org/abs/2310.02357v2)  
 
 ---
 
 
 **ABSTRACT**  
-The fundamental problem in toxicity detection task lies in the fact that the toxicity is ill-defined. Jigsaw, a unit within Google and one of the leaders in the field, uses a definition of toxicity given by Dixon et al. - 'rude, disrespectful, or unreasonable language that is likely to make someone leave a discussion'. One can instantly see the issue with this definition, as it gives no quantitative measure of the toxicity and operates with highly subjective cultural terms. Despite all vagueness and flaws, this definition is de-facto widely used by many researchers. In this work we suggest quantative stress-based defenition for the toxicity that overcomes existing shortcomings.
+The fundamental problem in toxicity detection task lies in the fact that the toxicity is ill-defined. This causes us to rely on subjective and vague data in models' training, which results in non-robust and non-accurate results: garbage in - garbage out.   This work suggests a new, stress-level-based definition of toxicity designed to be objective and context-aware. On par with it, we also describe possible ways of applying this new definition to dataset creation and model training.
 
 {{</citation>}}
 
 
-### (44/153) Contrastive Post-training Large Language Models on Data Curriculum (Canwen Xu et al., 2023)
+### (45/156) Contrastive Post-training Large Language Models on Data Curriculum (Canwen Xu et al., 2023)
 
 {{<citation>}}
 
@@ -1022,7 +1044,7 @@ Alignment serves as an important step to steer large language models (LLMs) towa
 {{</citation>}}
 
 
-### (45/153) Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation (Eric Zelikman et al., 2023)
+### (46/156) Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation (Eric Zelikman et al., 2023)
 
 {{<citation>}}
 
@@ -1044,7 +1066,7 @@ Several recent advances in AI systems (e.g., Tree-of-Thoughts and Program-Aided 
 {{</citation>}}
 
 
-### (46/153) Harnessing Pre-Trained Sentence Transformers for Offensive Language Detection in Indian Languages (Ananya Joshi et al., 2023)
+### (47/156) Harnessing Pre-Trained Sentence Transformers for Offensive Language Detection in Indian Languages (Ananya Joshi et al., 2023)
 
 {{<citation>}}
 
@@ -1066,7 +1088,7 @@ In our increasingly interconnected digital world, social media platforms have em
 {{</citation>}}
 
 
-### (47/153) Extraction of Medication and Temporal Relation from Clinical Text by Harnessing Different Deep Learning Models (Hangyu Tu et al., 2023)
+### (48/156) Extraction of Medication and Temporal Relation from Clinical Text by Harnessing Different Deep Learning Models (Hangyu Tu et al., 2023)
 
 {{<citation>}}
 
@@ -1088,7 +1110,7 @@ Clinical texts, represented in electronic medical records (EMRs), contain rich m
 {{</citation>}}
 
 
-### (48/153) Think before you speak: Training Language Models With Pause Tokens (Sachin Goyal et al., 2023)
+### (49/156) Think before you speak: Training Language Models With Pause Tokens (Sachin Goyal et al., 2023)
 
 {{<citation>}}
 
@@ -1110,7 +1132,7 @@ Language models generate responses by producing a series of tokens in immediate 
 {{</citation>}}
 
 
-### (49/153) Can Language Models be Instructed to Protect Personal Information? (Yang Chen et al., 2023)
+### (50/156) Can Language Models be Instructed to Protect Personal Information? (Yang Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1132,7 +1154,7 @@ Large multimodal language models have proven transformative in numerous applicat
 {{</citation>}}
 
 
-### (50/153) Ask Again, Then Fail: Large Language Models' Vacillations in Judgement (Qiming Xie et al., 2023)
+### (51/156) Ask Again, Then Fail: Large Language Models' Vacillations in Judgement (Qiming Xie et al., 2023)
 
 {{<citation>}}
 
@@ -1154,7 +1176,7 @@ With the emergence of generative conversational large language models (LLMs) lik
 {{</citation>}}
 
 
-### (51/153) Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization (Zijun Liu et al., 2023)
+### (52/156) Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization (Zijun Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1176,7 +1198,7 @@ Large language model (LLM) agents have been shown effective on a wide range of t
 {{</citation>}}
 
 
-### (52/153) Editing Personality for LLMs (Shengyu Mao et al., 2023)
+### (53/156) Editing Personality for LLMs (Shengyu Mao et al., 2023)
 
 {{<citation>}}
 
@@ -1198,7 +1220,7 @@ This paper introduces an innovative task focused on editing the personality trai
 {{</citation>}}
 
 
-### (53/153) Large Language Models Meet Knowledge Graphs to Answer Factoid Questions (Mikhail Salnikov et al., 2023)
+### (54/156) Large Language Models Meet Knowledge Graphs to Answer Factoid Questions (Mikhail Salnikov et al., 2023)
 
 {{<citation>}}
 
@@ -1220,7 +1242,7 @@ Recently, it has been shown that the incorporation of structured knowledge into 
 {{</citation>}}
 
 
-### (54/153) Unveiling the Pitfalls of Knowledge Editing for Large Language Models (Zhoubo Li et al., 2023)
+### (55/156) Unveiling the Pitfalls of Knowledge Editing for Large Language Models (Zhoubo Li et al., 2023)
 
 {{<citation>}}
 
@@ -1242,7 +1264,7 @@ As the cost associated with fine-tuning Large Language Models (LLMs) continues t
 {{</citation>}}
 
 
-### (55/153) Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View (Jintian Zhang et al., 2023)
+### (56/156) Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View (Jintian Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1264,7 +1286,7 @@ As Natural Language Processing (NLP) systems are increasingly employed in intric
 {{</citation>}}
 
 
-### (56/153) TWIZ: The Wizard of Multimodal Conversational-Stimulus (Rafael Ferreira et al., 2023)
+### (57/156) TWIZ: The Wizard of Multimodal Conversational-Stimulus (Rafael Ferreira et al., 2023)
 
 {{<citation>}}
 
@@ -1286,7 +1308,7 @@ In this report, we describe the vision, challenges, and scientific contributions
 {{</citation>}}
 
 
-### (57/153) Instance Needs More Care: Rewriting Prompts for Instances Yields Better Zero-Shot Performance (Saurabh Srivastava et al., 2023)
+### (58/156) Instance Needs More Care: Rewriting Prompts for Instances Yields Better Zero-Shot Performance (Saurabh Srivastava et al., 2023)
 
 {{<citation>}}
 
@@ -1308,7 +1330,7 @@ Enabling large language models (LLMs) to perform tasks in zero-shot has been an 
 {{</citation>}}
 
 
-### (58/153) Controlling Topic-Focus Articulation in Meaning-to-Text Generation using Graph Neural Networks (Chunliu Wang et al., 2023)
+### (59/156) Controlling Topic-Focus Articulation in Meaning-to-Text Generation using Graph Neural Networks (Chunliu Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1330,7 +1352,7 @@ A bare meaning representation can be expressed in various ways using natural lan
 {{</citation>}}
 
 
-### (59/153) Tuning Large language model for End-to-end Speech Translation (Hao Zhang et al., 2023)
+### (60/156) Tuning Large language model for End-to-end Speech Translation (Hao Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1352,7 +1374,7 @@ With the emergence of large language models (LLMs), multimodal models based on L
 {{</citation>}}
 
 
-### (60/153) Jury: A Comprehensive Evaluation Toolkit (Devrim Cavusoglu et al., 2023)
+### (61/156) Jury: A Comprehensive Evaluation Toolkit (Devrim Cavusoglu et al., 2023)
 
 {{<citation>}}
 
@@ -1374,7 +1396,7 @@ Evaluation plays a critical role in deep learning as a fundamental block of any 
 {{</citation>}}
 
 
-### (61/153) OceanGPT: A Large Language Model for Ocean Science Tasks (Zhen Bi et al., 2023)
+### (62/156) OceanGPT: A Large Language Model for Ocean Science Tasks (Zhen Bi et al., 2023)
 
 {{<citation>}}
 
@@ -1396,7 +1418,7 @@ Ocean science, which delves into the oceans that are reservoirs of life and biod
 {{</citation>}}
 
 
-### (62/153) Fill in the Blank: Exploring and Enhancing LLM Capabilities for Backward Reasoning in Math Word Problems (Aniruddha Deb et al., 2023)
+### (63/156) Fill in the Blank: Exploring and Enhancing LLM Capabilities for Backward Reasoning in Math Word Problems (Aniruddha Deb et al., 2023)
 
 {{<citation>}}
 
@@ -1418,7 +1440,7 @@ While forward reasoning (i.e. find the answer given the question) has been explo
 {{</citation>}}
 
 
-### (63/153) Language Models as Knowledge Bases for Visual Word Sense Disambiguation (Anastasia Kritharoula et al., 2023)
+### (64/156) Language Models as Knowledge Bases for Visual Word Sense Disambiguation (Anastasia Kritharoula et al., 2023)
 
 {{<citation>}}
 
@@ -1440,7 +1462,7 @@ Visual Word Sense Disambiguation (VWSD) is a novel challenging task that lies be
 {{</citation>}}
 
 
-### (64/153) Navigating Cultural Chasms: Exploring and Unlocking the Cultural POV of Text-To-Image Models (Mor Ventura et al., 2023)
+### (65/156) Navigating Cultural Chasms: Exploring and Unlocking the Cultural POV of Text-To-Image Models (Mor Ventura et al., 2023)
 
 {{<citation>}}
 
@@ -1462,7 +1484,7 @@ Text-To-Image (TTI) models, exemplified by DALL-E and StableDiffusion, have rece
 {{</citation>}}
 
 
-### (65/153) Hierarchical Evaluation Framework: Best Practices for Human Evaluation (Iva Bojic et al., 2023)
+### (66/156) Hierarchical Evaluation Framework: Best Practices for Human Evaluation (Iva Bojic et al., 2023)
 
 {{<citation>}}
 
@@ -1484,7 +1506,7 @@ Human evaluation plays a crucial role in Natural Language Processing (NLP) as it
 {{</citation>}}
 
 
-### (66/153) Ring Attention with Blockwise Transformers for Near-Infinite Context (Hao Liu et al., 2023)
+### (67/156) Ring Attention with Blockwise Transformers for Near-Infinite Context (Hao Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1495,7 +1517,7 @@ Hao Liu, Matei Zaharia, Pieter Abbeel. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: AI, Attention, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2310.01889v1)  
+[Paper Link](http://arxiv.org/abs/2310.01889v2)  
 
 ---
 
@@ -1506,7 +1528,7 @@ Transformers have emerged as the architecture of choice for many state-of-the-ar
 {{</citation>}}
 
 
-### (67/153) Benchmarking and Improving Generator-Validator Consistency of Language Models (Xiang Lisa Li et al., 2023)
+### (68/156) Benchmarking and Improving Generator-Validator Consistency of Language Models (Xiang Lisa Li et al., 2023)
 
 {{<citation>}}
 
@@ -1528,7 +1550,7 @@ As of September 2023, ChatGPT correctly answers "what is 7+8" with 15, but when 
 {{</citation>}}
 
 
-### (68/153) Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs (Suyu Ge et al., 2023)
+### (69/156) Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs (Suyu Ge et al., 2023)
 
 {{<citation>}}
 
@@ -1550,7 +1572,7 @@ In this study, we introduce adaptive KV cache compression, a plug-and-play metho
 {{</citation>}}
 
 
-### (69/153) Large Language Models Cannot Self-Correct Reasoning Yet (Jie Huang et al., 2023)
+### (70/156) Large Language Models Cannot Self-Correct Reasoning Yet (Jie Huang et al., 2023)
 
 {{<citation>}}
 
@@ -1572,7 +1594,7 @@ Large Language Models (LLMs) have emerged as a groundbreaking technology with th
 {{</citation>}}
 
 
-### (70/153) SEA: Sparse Linear Attention with Estimated Attention Mask (Heejun Lee et al., 2023)
+### (71/156) SEA: Sparse Linear Attention with Estimated Attention Mask (Heejun Lee et al., 2023)
 
 {{<citation>}}
 
@@ -1594,7 +1616,7 @@ The transformer architecture has made breakthroughs in recent years on tasks whi
 {{</citation>}}
 
 
-### (71/153) Stack Attention: Improving the Ability of Transformers to Model Hierarchical Patterns (Brian DuSell et al., 2023)
+### (72/156) Stack Attention: Improving the Ability of Transformers to Model Hierarchical Patterns (Brian DuSell et al., 2023)
 
 {{<citation>}}
 
@@ -1616,7 +1638,7 @@ Attention, specifically scaled dot-product attention, has proven effective for n
 {{</citation>}}
 
 
-### (72/153) Nugget: Neural Agglomerative Embeddings of Text (Guanghui Qin et al., 2023)
+### (73/156) Nugget: Neural Agglomerative Embeddings of Text (Guanghui Qin et al., 2023)
 
 {{<citation>}}
 
@@ -1638,7 +1660,7 @@ Embedding text sequences is a widespread requirement in modern language understa
 {{</citation>}}
 
 
-### (73/153) Deciphering Diagnoses: How Large Language Models Explanations Influence Clinical Decision Making (D. Umerenkov et al., 2023)
+### (74/156) Deciphering Diagnoses: How Large Language Models Explanations Influence Clinical Decision Making (D. Umerenkov et al., 2023)
 
 {{<citation>}}
 
@@ -1664,7 +1686,7 @@ Clinical Decision Support Systems (CDSS) utilize evidence-based knowledge and pa
 
 
 
-### (74/153) OCU-Net: A Novel U-Net Architecture for Enhanced Oral Cancer Segmentation (Ahmed Albishri et al., 2023)
+### (75/156) OCU-Net: A Novel U-Net Architecture for Enhanced Oral Cancer Segmentation (Ahmed Albishri et al., 2023)
 
 {{<citation>}}
 
@@ -1686,7 +1708,7 @@ Accurate detection of oral cancer is crucial for improving patient outcomes. How
 {{</citation>}}
 
 
-### (75/153) Improving style transfer in dynamic contrast enhanced MRI using a spatio-temporal approach (Adam G. Tattersall et al., 2023)
+### (76/156) Improving style transfer in dynamic contrast enhanced MRI using a spatio-temporal approach (Adam G. Tattersall et al., 2023)
 
 {{<citation>}}
 
@@ -1708,7 +1730,7 @@ Style transfer in DCE-MRI is a challenging task due to large variations in contr
 {{</citation>}}
 
 
-### (76/153) Shifting More Attention to Breast Lesion Segmentation in Ultrasound Videos (Junhao Lin et al., 2023)
+### (77/156) Shifting More Attention to Breast Lesion Segmentation in Ultrasound Videos (Junhao Lin et al., 2023)
 
 {{<citation>}}
 
@@ -1734,7 +1756,7 @@ Breast lesion segmentation in ultrasound (US) videos is essential for diagnosing
 
 
 
-### (77/153) Human-Like Autonomous Driving on Dense Traffic (Mustafa Yildirim et al., 2023)
+### (78/156) Human-Like Autonomous Driving on Dense Traffic (Mustafa Yildirim et al., 2023)
 
 {{<citation>}}
 
@@ -1756,7 +1778,7 @@ This paper proposes a imitation learning model for autonomous driving on highway
 {{</citation>}}
 
 
-### (78/153) Improved Inference of Human Intent by Combining Plan Recognition and Language Feedback (Ifrah Idrees et al., 2023)
+### (79/156) Improved Inference of Human Intent by Combining Plan Recognition and Language Feedback (Ifrah Idrees et al., 2023)
 
 {{<citation>}}
 
@@ -1778,7 +1800,7 @@ Conversational assistive robots can aid people, especially those with cognitive 
 {{</citation>}}
 
 
-### (79/153) Autonomous Systems' Safety Cases for use in UK Nuclear Environments (Christopher R. Anderson et al., 2023)
+### (80/156) Autonomous Systems' Safety Cases for use in UK Nuclear Environments (Christopher R. Anderson et al., 2023)
 
 {{<citation>}}
 
@@ -1800,7 +1822,7 @@ An overview of the process to develop a safety case for an autonomous robot depl
 {{</citation>}}
 
 
-### (80/153) Generalizable Long-Horizon Manipulations with Large Language Models (Haoyu Zhou et al., 2023)
+### (81/156) Generalizable Long-Horizon Manipulations with Large Language Models (Haoyu Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -1822,7 +1844,7 @@ This work introduces a framework harnessing the capabilities of Large Language M
 {{</citation>}}
 
 
-### (81/153) Video Transformers under Occlusion: How Physics and Background Attributes Impact Large Models for Robotic Manipulation (Shutong Jin et al., 2023)
+### (82/156) Video Transformers under Occlusion: How Physics and Background Attributes Impact Large Models for Robotic Manipulation (Shutong Jin et al., 2023)
 
 {{<citation>}}
 
@@ -1844,7 +1866,7 @@ As transformer architectures and dataset sizes continue to scale, the need to un
 {{</citation>}}
 
 
-### (82/153) Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving (Long Chen et al., 2023)
+### (83/156) Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving (Long Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1866,7 +1888,7 @@ Large Language Models (LLMs) have shown promise in the autonomous driving sector
 {{</citation>}}
 
 
-### (83/153) Semi-Aerodynamic Model Aided Invariant Kalman Filtering for UAV Full-State Estimation (Xiaoyu Ye et al., 2023)
+### (84/156) Semi-Aerodynamic Model Aided Invariant Kalman Filtering for UAV Full-State Estimation (Xiaoyu Ye et al., 2023)
 
 {{<citation>}}
 
@@ -1888,7 +1910,7 @@ Due to the state trajectory-independent features of invariant Kalman filtering (
 {{</citation>}}
 
 
-### (84/153) TempoNet: Empowering long-term Knee Joint Angle Prediction with Dynamic Temporal Attention in Exoskeleton Control (Lyes Saad Saoud et al., 2023)
+### (85/156) TempoNet: Empowering long-term Knee Joint Angle Prediction with Dynamic Temporal Attention in Exoskeleton Control (Lyes Saad Saoud et al., 2023)
 
 {{<citation>}}
 
@@ -1910,7 +1932,7 @@ In the realm of exoskeleton control, achieving precise control poses challenges 
 {{</citation>}}
 
 
-### (85/153) Differentially Encoded Observation Spaces for Perceptive Reinforcement Learning (Lev Grossman et al., 2023)
+### (86/156) Differentially Encoded Observation Spaces for Perceptive Reinforcement Learning (Lev Grossman et al., 2023)
 
 {{<citation>}}
 
@@ -1932,11 +1954,257 @@ Perceptive deep reinforcement learning (DRL) has lead to many recent breakthroug
 {{</citation>}}
 
 
-## cs.SI (1)
+## cs.SE (11)
 
 
 
-### (86/153) Machine learning assist nyc subway navigation safer and faster (Wencheng Bao et al., 2023)
+### (87/156) EcoAssistant: Using LLM Assistant More Affordably and Accurately (Jieyu Zhang et al., 2023)
+
+{{<citation>}}
+
+Jieyu Zhang, Ranjay Krishna, Ahmed H. Awadallah, Chi Wang. (2023)  
+**EcoAssistant: Using LLM Assistant More Affordably and Accurately**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-AI, cs-SE, cs.SE  
+Keywords: GPT, GPT-4  
+[Paper Link](http://arxiv.org/abs/2310.03046v1)  
+
+---
+
+
+**ABSTRACT**  
+Today, users ask Large language models (LLMs) as assistants to answer queries that require external knowledge; they ask about the weather in a specific city, about stock prices, and even about where specific locations are within their neighborhood. These queries require the LLM to produce code that invokes external APIs to answer the user's question, yet LLMs rarely produce correct code on the first try, requiring iterative code refinement upon execution results. In addition, using LLM assistants to support high query volumes can be expensive. In this work, we contribute a framework, EcoAssistant, that enables LLMs to answer code-driven queries more affordably and accurately. EcoAssistant contains three components. First, it allows the LLM assistants to converse with an automatic code executor to iteratively refine code or to produce answers based on the execution results. Second, we use a hierarchy of LLM assistants, which attempts to answer the query with weaker, cheaper LLMs before backing off to stronger, expensive ones. Third, we retrieve solutions from past successful queries as in-context demonstrations to help subsequent queries. Empirically, we show that EcoAssistant offers distinct advantages for affordability and accuracy, surpassing GPT-4 by 10 points of success rate with less than 50% of GPT-4's cost.
+
+{{</citation>}}
+
+
+### (88/156) Automated Bug Generation in the era of Large Language Models (Ali Reza Ibrahimzada et al., 2023)
+
+{{<citation>}}
+
+Ali Reza Ibrahimzada, Yang Chen, Ryan Rong, Reyhaneh Jabbarvand. (2023)  
+**Automated Bug Generation in the era of Large Language Models**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-LG, cs-SE, cs.SE  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2310.02407v1)  
+
+---
+
+
+**ABSTRACT**  
+Bugs are essential in software engineering; many research studies in the past decades have been proposed to detect, localize, and repair bugs in software systems. Effectiveness evaluation of such techniques requires complex bugs, i.e., those that are hard to detect through testing and hard to repair through debugging. From the classic software engineering point of view, a hard-to-repair bug differs from the correct code in multiple locations, making it hard to localize and repair. Hard-to-detect bugs, on the other hand, manifest themselves under specific test inputs and reachability conditions. These two objectives, i.e., generating hard-to-detect and hard-to-repair bugs, are mostly aligned; a bug generation technique can change multiple statements to be covered only under a specific set of inputs. However, these two objectives are conflicting for learning-based techniques: A bug should have a similar code representation to the correct code in the training data to challenge a bug prediction model to distinguish them. The hard-to-repair bug definition remains the same but with a caveat: the more a bug differs from the original code (at multiple locations), the more distant their representations are and easier to be detected. We propose BugFarm, to transform arbitrary code into multiple complex bugs. BugFarm leverages LLMs to mutate code in multiple locations (hard-to-repair). To ensure that multiple modifications do not notably change the code representation, BugFarm analyzes the attention of the underlying model and instructs LLMs to only change the least attended locations (hard-to-detect). Our comprehensive evaluation of 320k+ bugs from over 2.5M mutants generated by BugFarm and two alternative approaches demonstrates our superiority in generating bugs that are hard to detect by learning-based bug prediction approaches and hard to repair by SOTA learning-based program repair technique.
+
+{{</citation>}}
+
+
+### (89/156) Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation (Benjamin Steenhoek et al., 2023)
+
+{{<citation>}}
+
+Benjamin Steenhoek, Michele Tufano, Neel Sundaresan, Alexey Svyatkovskiy. (2023)  
+**Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-LG, cs-SE, cs.SE  
+Keywords: GPT, GPT-4, Language Model, Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2310.02368v1)  
+
+---
+
+
+**ABSTRACT**  
+Software testing is a crucial aspect of software development, and the creation of high-quality tests that adhere to best practices is essential for effective maintenance. Recently, Large Language Models (LLMs) have gained popularity for code generation, including the automated creation of test cases. However, these LLMs are often trained on vast amounts of publicly available code, which may include test cases that do not adhere to best practices and may even contain test smells (anti-patterns). To address this issue, we propose a novel technique called Reinforcement Learning from Static Quality Metrics (RLSQM). To begin, we analyze the anti-patterns generated by the LLM and show that LLMs can generate undesirable test smells. Thus, we train specific reward models for each static quality metric, then utilize Proximal Policy Optimization (PPO) to train models for optimizing a single quality metric at a time. Furthermore, we amalgamate these rewards into a unified reward model aimed at capturing different best practices and quality aspects of tests. By comparing RL-trained models with those trained using supervised learning, we provide insights into how reliably utilize RL to improve test generation quality and into the effects of various training strategies. Our experimental results demonstrate that the RL-optimized model consistently generated high-quality test cases compared to the base LLM, improving the model by up to 21%, and successfully generates nearly 100% syntactically correct code. RLSQM also outperformed GPT-4 on four out of seven metrics. This represents a significant step towards enhancing the overall efficiency and reliability of software testing through Reinforcement Learning and static quality metrics. Our data are available at this link: https://figshare.com/s/ded476c8d4c221222849.
+
+{{</citation>}}
+
+
+### (90/156) An empirical study of ChatGPT-3.5 on question answering and code maintenance (Md Mahir Asef Kabir et al., 2023)
+
+{{<citation>}}
+
+Md Mahir Asef Kabir, Sk Adnan Hassan, Xiaoyin Wang, Ying Wang, Hai Yu, Na Meng. (2023)  
+**An empirical study of ChatGPT-3.5 on question answering and code maintenance**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-SE, cs.SE  
+Keywords: ChatGPT, GPT, GPT-3.5  
+[Paper Link](http://arxiv.org/abs/2310.02104v1)  
+
+---
+
+
+**ABSTRACT**  
+Ever since the launch of ChatGPT in 2022, a rising concern is whether ChatGPT will replace programmers and kill jobs. Motivated by this widespread concern, we conducted an empirical study to systematically compare ChatGPT against programmers in question-answering and software-maintaining. We reused a dataset introduced by prior work, which includes 130 StackOverflow (SO) discussion threads referred to by the Java developers of 357 GitHub projects. We mainly investigated three research questions (RQs). First, how does ChatGPT compare with programmers when answering technical questions? Second, how do developers perceive the differences between ChatGPT's answers and SO answers? Third, how does ChatGPT compare with humans when revising code for maintenance requests?   For RQ1, we provided the 130 SO questions to ChatGPT, and manually compared ChatGPT answers with the accepted/most popular SO answers in terms of relevance, readability, informativeness, comprehensiveness, and reusability. For RQ2, we conducted a user study with 30 developers, asking each developer to assess and compare 10 pairs of answers, without knowing the information source (i.e., ChatGPT or SO). For RQ3, we distilled 48 software maintenance tasks from 48 GitHub projects citing the studied SO threads. We queried ChatGPT to revise a given Java file, and to incorporate the code implementation for any prescribed maintenance requirement. Our study reveals interesting phenomena: For the majority of SO questions (97/130), ChatGPT provided better answers; in 203 of 300 ratings, developers preferred ChatGPT answers to SO answers; ChatGPT revised code correctly for 22 of the 48 tasks. Our research will expand people's knowledge of ChatGPT capabilities, and shed light on future adoption of ChatGPT by the software industry.
+
+{{</citation>}}
+
+
+### (91/156) dFlow: A Domain Specific Language for the Rapid Development of open-source Virtual Assistants (Nikolaos Malamas et al., 2023)
+
+{{<citation>}}
+
+Nikolaos Malamas, Konstantinos Panayiotou, Andreas L. Symeonidis. (2023)  
+**dFlow: A Domain Specific Language for the Rapid Development of open-source Virtual Assistants**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-SE, cs.SE  
+Keywords: NLP, NLU, Natural Language Processing, Natural Language Understanding  
+[Paper Link](http://arxiv.org/abs/2310.02102v1)  
+
+---
+
+
+**ABSTRACT**  
+An increasing number of models and frameworks for Virtual Assistant (VA) development exist nowadays, following the progress in the Natural Language Processing (NLP) and Natural Language Understanding (NLU) fields. Regardless of their performance, popularity, and ease of use, these frameworks require at least basic expertise in NLP and software engineering, even for simple and repetitive processes, limiting their use only to the domain and programming experts. However, since the current state of practice of VA development is a straightforward process, Model-Driven Engineering approaches can be utilized to achieve automation and rapid development in a more convenient manner. To this end, we present \textit{dFlow}, a textual Domain-Specific Language (DSL) that offers a simplified, reusable, and framework-agnostic language for creating task-specific VAs in a low-code manner. We describe a system-agnostic VA meta-model, the developed grammar, and all essential processes for developing and deploying smart VAs. For further convenience, we create a cloud-native architecture and expose it through the Discord platform. We conducted a large-scale empirical evaluation with more than 200 junior software developers and collected positive feedback, indicating that dFlow can accelerate the entire VA development process, while also enabling citizen and software developers with minimum experience to participate.
+
+{{</citation>}}
+
+
+### (92/156) Security Weaknesses of Copilot Generated Code in GitHub (Yujia Fu et al., 2023)
+
+{{<citation>}}
+
+Yujia Fu, Peng Liang, Amjed Tahir, Zengyang Li, Mojtaba Shahin, Jiaxin Yu. (2023)  
+**Security Weaknesses of Copilot Generated Code in GitHub**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-CR, cs-SE, cs.SE  
+Keywords: AI, Language Model, Security  
+[Paper Link](http://arxiv.org/abs/2310.02059v1)  
+
+---
+
+
+**ABSTRACT**  
+Modern code generation tools use AI models, particularly Large Language Models (LLMs), to generate functional and complete code. While such tools are becoming popular and widely available for developers, using these tools is often accompanied by security challenges. Therefore, it is important to assess the quality of the generated code, especially in terms of its security. Researchers have recently explored various aspects of code generation tools, including security. However, many open questions about the security of the generated code require further investigation, especially the security issues of automatically generated code in the wild. To this end, we conducted an empirical study by analyzing the security weaknesses in code snippets generated by GitHub Copilot that are found as part of publicly available projects hosted on GitHub. The goal is to investigate the types of security issues and their scale in real-world scenarios (rather than crafted scenarios). To this end, we identified 435 code snippets generated by Copilot from publicly available projects. We then conducted extensive security analysis to identify Common Weakness Enumeration (CWE) instances in these code snippets. The results show that (1) 35.8% of Copilot generated code snippets contain CWEs, and those issues are spread across multiple languages, (2) the security weaknesses are diverse and related to 42 different CWEs, in which CWE-78: OS Command Injection, CWE-330: Use of Insufficiently Random Values, and CWE-703: Improper Check or Handling of Exceptional Conditions occurred the most frequently, and (3) among the 42 CWEs identified, 11 of those belong to the currently recognized 2022 CWE Top-25. Our findings confirm that developers should be careful when adding code generated by Copilot (and similar AI code generation tools) and should also run appropriate security checks as they accept the suggested code.
+
+{{</citation>}}
+
+
+### (93/156) Improving web element localization by using a large language model (Michel Nass et al., 2023)
+
+{{<citation>}}
+
+Michel Nass, Emil Alegroth, Robert Feldt. (2023)  
+**Improving web element localization by using a large language model**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-SE, cs.SE  
+Keywords: GPT, GPT-4, Language Model  
+[Paper Link](http://arxiv.org/abs/2310.02046v1)  
+
+---
+
+
+**ABSTRACT**  
+Web-based test automation heavily relies on accurately finding web elements. Traditional methods compare attributes but don't grasp the context and meaning of elements and words. The emergence of Large Language Models (LLMs) like GPT-4, which can show human-like reasoning abilities on some tasks, offers new opportunities for software engineering and web element localization. This paper introduces and evaluates VON Similo LLM, an enhanced web element localization approach. Using an LLM, it selects the most likely web element from the top-ranked ones identified by the existing VON Similo method, ideally aiming to get closer to human-like selection accuracy. An experimental study was conducted using 804 web element pairs from 48 real-world web applications. We measured the number of correctly identified elements as well as the execution times, comparing the effectiveness and efficiency of VON Similo LLM against the baseline algorithm. In addition, motivations from the LLM were recorded and analyzed for all instances where the original approach failed to find the right web element. VON Similo LLM demonstrated improved performance, reducing failed localizations from 70 to 39 (out of 804), a 44 percent reduction. Despite its slower execution time and additional costs of using the GPT-4 model, the LLMs human-like reasoning showed promise in enhancing web element localization. LLM technology can enhance web element identification in GUI test automation, reducing false positives and potentially lowering maintenance costs. However, further research is necessary to fully understand LLMs capabilities, limitations, and practical use in GUI testing.
+
+{{</citation>}}
+
+
+### (94/156) Formalizing Natural Language Intent into Program Specifications via Large Language Models (Madeline Endres et al., 2023)
+
+{{<citation>}}
+
+Madeline Endres, Sarah Fakhoury, Saikat Chakraborty, Shuvendu K. Lahiri. (2023)  
+**Formalizing Natural Language Intent into Program Specifications via Large Language Models**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-AI, cs-PL, cs-SE, cs.SE  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2310.01831v1)  
+
+---
+
+
+**ABSTRACT**  
+Informal natural language that describes code functionality, such as code comments or function documentation, may contain substantial information about a programs intent. However, there is typically no guarantee that a programs implementation and natural language documentation are aligned. In the case of a conflict, leveraging information in code-adjacent natural language has the potential to enhance fault localization, debugging, and code trustworthiness. In practice, however, this information is often underutilized due to the inherent ambiguity of natural language which makes natural language intent challenging to check programmatically. The "emergent abilities" of Large Language Models (LLMs) have the potential to facilitate the translation of natural language intent to programmatically checkable assertions. However, it is unclear if LLMs can correctly translate informal natural language specifications into formal specifications that match programmer intent. Additionally, it is unclear if such translation could be useful in practice. In this paper, we describe LLM4nl2post, the problem leveraging LLMs for transforming informal natural language to formal method postconditions, expressed as program assertions. We introduce and validate metrics to measure and compare different LLM4nl2post approaches, using the correctness and discriminative power of generated postconditions. We then perform qualitative and quantitative methods to assess the quality of LLM4nl2post postconditions, finding that they are generally correct and able to discriminate incorrect code. Finally, we find that LLM4nl2post via LLMs has the potential to be helpful in practice; specifications generated from natural language were able to catch 70 real-world historical bugs from Defects4J.
+
+{{</citation>}}
+
+
+### (95/156) Can GPT-4 Replicate Empirical Software Engineering Research? (Jenny T. Liang et al., 2023)
+
+{{<citation>}}
+
+Jenny T. Liang, Carmen Badea, Christian Bird, Robert DeLine, Denae Ford, Nicole Forsgren, Thomas Zimmermann. (2023)  
+**Can GPT-4 Replicate Empirical Software Engineering Research?**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-AI, cs-SE, cs.SE  
+Keywords: GPT, GPT-4  
+[Paper Link](http://arxiv.org/abs/2310.01727v1)  
+
+---
+
+
+**ABSTRACT**  
+Empirical software engineering research on production systems has brought forth a better understanding of the software engineering process for practitioners and researchers alike. However, only a small subset of production systems is studied, limiting the impact of this research. While software engineering practitioners benefit from replicating research on their own data, this poses its own set of challenges, since performing replications requires a deep understanding of research methodologies and subtle nuances in software engineering data. Given that large language models (LLMs), such as GPT-4, show promise in tackling both software engineering- and science-related tasks, these models could help democratize empirical software engineering research.   In this paper, we examine LLMs' abilities to perform replications of empirical software engineering research on new data. We specifically study their ability to surface assumptions made in empirical software engineering research methodologies, as well as their ability to plan and generate code for analysis pipelines on seven empirical software engineering papers. We perform a user study with 14 participants with software engineering research expertise, who evaluate GPT-4-generated assumptions and analysis plans (i.e., a list of module specifications) from the papers. We find that GPT-4 is able to surface correct assumptions, but struggle to generate ones that reflect common knowledge about software engineering data. In a manual analysis of the generated code, we find that the GPT-4-generated code contains the correct high-level logic, given a subset of the methodology. However, the code contains many small implementation-level errors, reflecting a lack of software engineering knowledge. Our findings have implications for leveraging LLMs for software engineering research as well as practitioner data scientists in software teams.
+
+{{</citation>}}
+
+
+### (96/156) Large Language Models for Test-Free Fault Localization (Aidan Z. H. Yang et al., 2023)
+
+{{<citation>}}
+
+Aidan Z. H. Yang, Ruben Martins, Claire Le Goues, Vincent J. Hellendoorn. (2023)  
+**Large Language Models for Test-Free Fault Localization**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-LG, cs-SE, cs.SE  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2310.01726v1)  
+
+---
+
+
+**ABSTRACT**  
+Fault Localization (FL) aims to automatically localize buggy lines of code, a key first step in many manual and automatic debugging tasks. Previous FL techniques assume the provision of input tests, and often require extensive program analysis, program instrumentation, or data preprocessing. Prior work on deep learning for APR struggles to learn from small datasets and produces limited results on real-world programs. Inspired by the ability of large language models (LLMs) of code to adapt to new tasks based on very few examples, we investigate the applicability of LLMs to line level fault localization. Specifically, we propose to overcome the left-to-right nature of LLMs by fine-tuning a small set of bidirectional adapter layers on top of the representations learned by LLMs to produce LLMAO, the first language model based fault localization approach that locates buggy lines of code without any test coverage information. We fine-tune LLMs with 350 million, 6 billion, and 16 billion parameters on small, manually curated corpora of buggy programs such as the Defects4J corpus. We observe that our technique achieves substantially more confidence in fault localization when built on the larger models, with bug localization performance scaling consistently with the LLM size. Our empirical evaluation shows that LLMAO improves the Top-1 results over the state-of-the-art machine learning fault localization (MLFL) baselines by 2.3%-54.4%, and Top-5 results by 14.4%-35.6%. LLMAO is also the first FL technique trained using a language model architecture that can detect security vulnerabilities down to the code line level.
+
+{{</citation>}}
+
+
+### (97/156) Software Testing and Code Refactoring: A Survey with Practitioners (Danilo Leandro Lima et al., 2023)
+
+{{<citation>}}
+
+Danilo Leandro Lima, Ronnie de Souza Santos, Guilherme Pires Garcia, Sildemir S. da Silva, Cesar Franca, Luiz Fernando Capretz. (2023)  
+**Software Testing and Code Refactoring: A Survey with Practitioners**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-SE, cs.SE  
+Keywords: QA  
+[Paper Link](http://arxiv.org/abs/2310.01719v1)  
+
+---
+
+
+**ABSTRACT**  
+Nowadays, software testing professionals are commonly required to develop coding skills to work on test automation. One essential skill required from those who code is the ability to implement code refactoring, a valued quality aspect of software development; however, software developers usually encounter obstacles in successfully applying this practice. In this scenario, the present study aims to explore how software testing professionals (e.g., software testers, test engineers, test analysts, and software QAs) deal with code refactoring to understand the benefits and limitations of this practice in the context of software testing. We followed the guidelines to conduct surveys in software engineering and applied three sampling techniques, namely convenience sampling, purposive sampling, and snowballing sampling, to collect data from testing professionals. We received answers from 80 individuals reporting their experience refactoring the code of automated tests. We concluded that in the context of software testing, refactoring offers several benefits, such as supporting the maintenance of automated tests and improving the performance of the testing team. However, practitioners might encounter barriers in effectively implementing this practice, in particular, the lack of interest from managers and leaders. Our study raises discussions on the importance of having testing professionals implement refactoring in the code of automated tests, allowing them to improve their coding abilities.
+
+{{</citation>}}
+
+
+## cs.SI (2)
+
+
+
+### (98/156) Machine learning assist nyc subway navigation safer and faster (Wencheng Bao et al., 2023)
 
 {{<citation>}}
 
@@ -1958,11 +2226,33 @@ Mainstream navigation software, like Google and Apple Maps, often lacks the abil
 {{</citation>}}
 
 
+### (99/156) RouteKG: A knowledge graph-based framework for route prediction on road networks (Yihong Tang et al., 2023)
+
+{{<citation>}}
+
+Yihong Tang, Weipeng Deng, Shuyu Lei, Yuebing Liang, Zhenliang Ma, Zhan Zhao. (2023)  
+**RouteKG: A knowledge graph-based framework for route prediction on road networks**  
+
+---
+Primary Category: cs.SI  
+Categories: cs-SI, cs.SI  
+Keywords: Knowledge Graph  
+[Paper Link](http://arxiv.org/abs/2310.03617v1)  
+
+---
+
+
+**ABSTRACT**  
+Short-term route prediction on road networks allows us to anticipate the future trajectories of road users, enabling a plethora of intelligent transportation applications such as dynamic traffic control or personalized route recommendation. Despite the recent advances in this area, existing methods focus primarily on learning sequential patterns, neglecting the inherent spatial structure in road networks that can affect human routing decisions. To fill the gap, this paper introduces RouteKG, a novel Knowledge Graph-based framework for route prediction. Specifically, we construct a Knowledge Graph on the road network, thereby learning and leveraging spatial relations, especially moving directions, which are crucial for human navigation. Moreover, an n-ary tree-based algorithm is introduced to efficiently generate top-K routes in a batch mode, enhancing scalability and computational efficiency. To further optimize the prediction performance, a rank refinement module is incorporated to fine-tune the candidate route rankings. The model performance is evaluated using two real-world vehicle trajectory datasets from two Chinese cities, Chengdu and Shanghai, under various practical scenarios. The results demonstrate a significant improvement in accuracy over baseline methods, with an average increase of 6.2%, 7.8%, and 6.1% in top-1, 5, and 10 routes predictions, respectively. We further validate our model through a case study that utilizes the pretrained model as a simulator for real-time traffic flow estimation at the link level. The proposed RouteKG promises wide-ranging applications in vehicle navigation, traffic management, and other intelligent transportation tasks.
+
+{{</citation>}}
+
+
 ## cs.MA (1)
 
 
 
-### (87/153) Multi-Agent Reinforcement Learning Based on Representational Communication for Large-Scale Traffic Signal Control (Rohit Bokade et al., 2023)
+### (100/156) Multi-Agent Reinforcement Learning Based on Representational Communication for Large-Scale Traffic Signal Control (Rohit Bokade et al., 2023)
 
 {{<citation>}}
 
@@ -1988,7 +2278,7 @@ Traffic signal control (TSC) is a challenging problem within intelligent transpo
 
 
 
-### (88/153) Can Large Language Models Provide Security & Privacy Advice? Measuring the Ability of LLMs to Refute Misconceptions (Yufan Chen et al., 2023)
+### (101/156) Can Large Language Models Provide Security & Privacy Advice? Measuring the Ability of LLMs to Refute Misconceptions (Yufan Chen et al., 2023)
 
 {{<citation>}}
 
@@ -2010,7 +2300,7 @@ Users seek security & privacy (S&P) advice from online resources, including trus
 {{</citation>}}
 
 
-### (89/153) AXNav: Replaying Accessibility Tests from Natural Language (Maryam Taeb et al., 2023)
+### (102/156) AXNav: Replaying Accessibility Tests from Natural Language (Maryam Taeb et al., 2023)
 
 {{<citation>}}
 
@@ -2032,7 +2322,7 @@ Developers and quality assurance testers often rely on manual testing to test ac
 {{</citation>}}
 
 
-### (90/153) Selenite: Scaffolding Decision Making with Comprehensive Overviews Elicited from Large Language Models (Michael Xieyang Liu et al., 2023)
+### (103/156) Selenite: Scaffolding Decision Making with Comprehensive Overviews Elicited from Large Language Models (Michael Xieyang Liu et al., 2023)
 
 {{<citation>}}
 
@@ -2054,7 +2344,7 @@ Decision-making in unfamiliar domains can be challenging, demanding considerable
 {{</citation>}}
 
 
-### (91/153) HPCClusterScape: Increasing Transparency and Efficiency of Shared High-Performance Computing Clusters for Large-scale AI Models (Heungseok Park et al., 2023)
+### (104/156) HPCClusterScape: Increasing Transparency and Efficiency of Shared High-Performance Computing Clusters for Large-scale AI Models (Heungseok Park et al., 2023)
 
 {{<citation>}}
 
@@ -2076,7 +2366,7 @@ The emergence of large-scale AI models, like GPT-4, has significantly impacted a
 {{</citation>}}
 
 
-### (92/153) A method of generating bespoke optimised keyboard layouts that significantly reduce typing effort for Twitter users (E. Elson, 2023)
+### (105/156) A method of generating bespoke optimised keyboard layouts that significantly reduce typing effort for Twitter users (E. Elson, 2023)
 
 {{<citation>}}
 
@@ -2102,7 +2392,7 @@ This study addresses the problem of generating an optimised keyboard layout for 
 
 
 
-### (93/153) Jailbreaker in Jail: Moving Target Defense for Large Language Models (Bocheng Chen et al., 2023)
+### (106/156) Jailbreaker in Jail: Moving Target Defense for Large Language Models (Bocheng Chen et al., 2023)
 
 {{<citation>}}
 
@@ -2124,7 +2414,7 @@ Large language models (LLMs), known for their capability in understanding and fo
 {{</citation>}}
 
 
-### (94/153) Gotta Catch 'em All: Aggregating CVSS Scores (Angel Longueira-Romero et al., 2023)
+### (107/156) Gotta Catch 'em All: Aggregating CVSS Scores (Angel Longueira-Romero et al., 2023)
 
 {{<citation>}}
 
@@ -2146,7 +2436,7 @@ Security metrics are not standardized, but inter-national proposals such as the 
 {{</citation>}}
 
 
-### (95/153) Steganalysis of AI Models LSB Attacks (Daniel Gilkarov et al., 2023)
+### (108/156) Steganalysis of AI Models LSB Attacks (Daniel Gilkarov et al., 2023)
 
 {{<citation>}}
 
@@ -2168,7 +2458,7 @@ Artificial intelligence has made significant progress in the last decade, leadin
 {{</citation>}}
 
 
-### (96/153) Enhancing Workflow Security in Multi-Cloud Environments through Monitoring and Adaptation upon Cloud Service and Network Security Violations (Nafiseh Soveizi et al., 2023)
+### (109/156) Enhancing Workflow Security in Multi-Cloud Environments through Monitoring and Adaptation upon Cloud Service and Network Security Violations (Nafiseh Soveizi et al., 2023)
 
 {{<citation>}}
 
@@ -2190,7 +2480,7 @@ Cloud computing has emerged as a crucial solution for handling data- and compute
 {{</citation>}}
 
 
-### (97/153) Multi-class Network Intrusion Detection with Class Imbalance via LSTM & SMOTE (Muhammad Wasim Nawaz et al., 2023)
+### (110/156) Multi-class Network Intrusion Detection with Class Imbalance via LSTM & SMOTE (Muhammad Wasim Nawaz et al., 2023)
 
 {{<citation>}}
 
@@ -2212,235 +2502,11 @@ Monitoring network traffic to maintain the quality of service (QoS) and to detec
 {{</citation>}}
 
 
-## cs.SE (10)
-
-
-
-### (98/153) Automated Bug Generation in the era of Large Language Models (Ali Reza Ibrahimzada et al., 2023)
-
-{{<citation>}}
-
-Ali Reza Ibrahimzada, Yang Chen, Ryan Rong, Reyhaneh Jabbarvand. (2023)  
-**Automated Bug Generation in the era of Large Language Models**  
-
----
-Primary Category: cs.SE  
-Categories: cs-LG, cs-SE, cs.SE  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2310.02407v1)  
-
----
-
-
-**ABSTRACT**  
-Bugs are essential in software engineering; many research studies in the past decades have been proposed to detect, localize, and repair bugs in software systems. Effectiveness evaluation of such techniques requires complex bugs, i.e., those that are hard to detect through testing and hard to repair through debugging. From the classic software engineering point of view, a hard-to-repair bug differs from the correct code in multiple locations, making it hard to localize and repair. Hard-to-detect bugs, on the other hand, manifest themselves under specific test inputs and reachability conditions. These two objectives, i.e., generating hard-to-detect and hard-to-repair bugs, are mostly aligned; a bug generation technique can change multiple statements to be covered only under a specific set of inputs. However, these two objectives are conflicting for learning-based techniques: A bug should have a similar code representation to the correct code in the training data to challenge a bug prediction model to distinguish them. The hard-to-repair bug definition remains the same but with a caveat: the more a bug differs from the original code (at multiple locations), the more distant their representations are and easier to be detected. We propose BugFarm, to transform arbitrary code into multiple complex bugs. BugFarm leverages LLMs to mutate code in multiple locations (hard-to-repair). To ensure that multiple modifications do not notably change the code representation, BugFarm analyzes the attention of the underlying model and instructs LLMs to only change the least attended locations (hard-to-detect). Our comprehensive evaluation of 320k+ bugs from over 2.5M mutants generated by BugFarm and two alternative approaches demonstrates our superiority in generating bugs that are hard to detect by learning-based bug prediction approaches and hard to repair by SOTA learning-based program repair technique.
-
-{{</citation>}}
-
-
-### (99/153) Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation (Benjamin Steenhoek et al., 2023)
-
-{{<citation>}}
-
-Benjamin Steenhoek, Michele Tufano, Neel Sundaresan, Alexey Svyatkovskiy. (2023)  
-**Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation**  
-
----
-Primary Category: cs.SE  
-Categories: cs-LG, cs-SE, cs.SE  
-Keywords: GPT, GPT-4, Language Model, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2310.02368v1)  
-
----
-
-
-**ABSTRACT**  
-Software testing is a crucial aspect of software development, and the creation of high-quality tests that adhere to best practices is essential for effective maintenance. Recently, Large Language Models (LLMs) have gained popularity for code generation, including the automated creation of test cases. However, these LLMs are often trained on vast amounts of publicly available code, which may include test cases that do not adhere to best practices and may even contain test smells (anti-patterns). To address this issue, we propose a novel technique called Reinforcement Learning from Static Quality Metrics (RLSQM). To begin, we analyze the anti-patterns generated by the LLM and show that LLMs can generate undesirable test smells. Thus, we train specific reward models for each static quality metric, then utilize Proximal Policy Optimization (PPO) to train models for optimizing a single quality metric at a time. Furthermore, we amalgamate these rewards into a unified reward model aimed at capturing different best practices and quality aspects of tests. By comparing RL-trained models with those trained using supervised learning, we provide insights into how reliably utilize RL to improve test generation quality and into the effects of various training strategies. Our experimental results demonstrate that the RL-optimized model consistently generated high-quality test cases compared to the base LLM, improving the model by up to 21%, and successfully generates nearly 100% syntactically correct code. RLSQM also outperformed GPT-4 on four out of seven metrics. This represents a significant step towards enhancing the overall efficiency and reliability of software testing through Reinforcement Learning and static quality metrics. Our data are available at this link: https://figshare.com/s/ded476c8d4c221222849.
-
-{{</citation>}}
-
-
-### (100/153) An empirical study of ChatGPT-3.5 on question answering and code maintenance (Md Mahir Asef Kabir et al., 2023)
-
-{{<citation>}}
-
-Md Mahir Asef Kabir, Sk Adnan Hassan, Xiaoyin Wang, Ying Wang, Hai Yu, Na Meng. (2023)  
-**An empirical study of ChatGPT-3.5 on question answering and code maintenance**  
-
----
-Primary Category: cs.SE  
-Categories: cs-SE, cs.SE  
-Keywords: ChatGPT, GPT, GPT-3.5  
-[Paper Link](http://arxiv.org/abs/2310.02104v1)  
-
----
-
-
-**ABSTRACT**  
-Ever since the launch of ChatGPT in 2022, a rising concern is whether ChatGPT will replace programmers and kill jobs. Motivated by this widespread concern, we conducted an empirical study to systematically compare ChatGPT against programmers in question-answering and software-maintaining. We reused a dataset introduced by prior work, which includes 130 StackOverflow (SO) discussion threads referred to by the Java developers of 357 GitHub projects. We mainly investigated three research questions (RQs). First, how does ChatGPT compare with programmers when answering technical questions? Second, how do developers perceive the differences between ChatGPT's answers and SO answers? Third, how does ChatGPT compare with humans when revising code for maintenance requests?   For RQ1, we provided the 130 SO questions to ChatGPT, and manually compared ChatGPT answers with the accepted/most popular SO answers in terms of relevance, readability, informativeness, comprehensiveness, and reusability. For RQ2, we conducted a user study with 30 developers, asking each developer to assess and compare 10 pairs of answers, without knowing the information source (i.e., ChatGPT or SO). For RQ3, we distilled 48 software maintenance tasks from 48 GitHub projects citing the studied SO threads. We queried ChatGPT to revise a given Java file, and to incorporate the code implementation for any prescribed maintenance requirement. Our study reveals interesting phenomena: For the majority of SO questions (97/130), ChatGPT provided better answers; in 203 of 300 ratings, developers preferred ChatGPT answers to SO answers; ChatGPT revised code correctly for 22 of the 48 tasks. Our research will expand people's knowledge of ChatGPT capabilities, and shed light on future adoption of ChatGPT by the software industry.
-
-{{</citation>}}
-
-
-### (101/153) dFlow: A Domain Specific Language for the Rapid Development of open-source Virtual Assistants (Nikolaos Malamas et al., 2023)
-
-{{<citation>}}
-
-Nikolaos Malamas, Konstantinos Panayiotou, Andreas L. Symeonidis. (2023)  
-**dFlow: A Domain Specific Language for the Rapid Development of open-source Virtual Assistants**  
-
----
-Primary Category: cs.SE  
-Categories: cs-SE, cs.SE  
-Keywords: NLP, NLU, Natural Language Processing, Natural Language Understanding  
-[Paper Link](http://arxiv.org/abs/2310.02102v1)  
-
----
-
-
-**ABSTRACT**  
-An increasing number of models and frameworks for Virtual Assistant (VA) development exist nowadays, following the progress in the Natural Language Processing (NLP) and Natural Language Understanding (NLU) fields. Regardless of their performance, popularity, and ease of use, these frameworks require at least basic expertise in NLP and software engineering, even for simple and repetitive processes, limiting their use only to the domain and programming experts. However, since the current state of practice of VA development is a straightforward process, Model-Driven Engineering approaches can be utilized to achieve automation and rapid development in a more convenient manner. To this end, we present \textit{dFlow}, a textual Domain-Specific Language (DSL) that offers a simplified, reusable, and framework-agnostic language for creating task-specific VAs in a low-code manner. We describe a system-agnostic VA meta-model, the developed grammar, and all essential processes for developing and deploying smart VAs. For further convenience, we create a cloud-native architecture and expose it through the Discord platform. We conducted a large-scale empirical evaluation with more than 200 junior software developers and collected positive feedback, indicating that dFlow can accelerate the entire VA development process, while also enabling citizen and software developers with minimum experience to participate.
-
-{{</citation>}}
-
-
-### (102/153) Security Weaknesses of Copilot Generated Code in GitHub (Yujia Fu et al., 2023)
-
-{{<citation>}}
-
-Yujia Fu, Peng Liang, Amjed Tahir, Zengyang Li, Mojtaba Shahin, Jiaxin Yu. (2023)  
-**Security Weaknesses of Copilot Generated Code in GitHub**  
-
----
-Primary Category: cs.SE  
-Categories: cs-CR, cs-SE, cs.SE  
-Keywords: AI, Language Model, Security  
-[Paper Link](http://arxiv.org/abs/2310.02059v1)  
-
----
-
-
-**ABSTRACT**  
-Modern code generation tools use AI models, particularly Large Language Models (LLMs), to generate functional and complete code. While such tools are becoming popular and widely available for developers, using these tools is often accompanied by security challenges. Therefore, it is important to assess the quality of the generated code, especially in terms of its security. Researchers have recently explored various aspects of code generation tools, including security. However, many open questions about the security of the generated code require further investigation, especially the security issues of automatically generated code in the wild. To this end, we conducted an empirical study by analyzing the security weaknesses in code snippets generated by GitHub Copilot that are found as part of publicly available projects hosted on GitHub. The goal is to investigate the types of security issues and their scale in real-world scenarios (rather than crafted scenarios). To this end, we identified 435 code snippets generated by Copilot from publicly available projects. We then conducted extensive security analysis to identify Common Weakness Enumeration (CWE) instances in these code snippets. The results show that (1) 35.8% of Copilot generated code snippets contain CWEs, and those issues are spread across multiple languages, (2) the security weaknesses are diverse and related to 42 different CWEs, in which CWE-78: OS Command Injection, CWE-330: Use of Insufficiently Random Values, and CWE-703: Improper Check or Handling of Exceptional Conditions occurred the most frequently, and (3) among the 42 CWEs identified, 11 of those belong to the currently recognized 2022 CWE Top-25. Our findings confirm that developers should be careful when adding code generated by Copilot (and similar AI code generation tools) and should also run appropriate security checks as they accept the suggested code.
-
-{{</citation>}}
-
-
-### (103/153) Improving web element localization by using a large language model (Michel Nass et al., 2023)
-
-{{<citation>}}
-
-Michel Nass, Emil Alegroth, Robert Feldt. (2023)  
-**Improving web element localization by using a large language model**  
-
----
-Primary Category: cs.SE  
-Categories: cs-SE, cs.SE  
-Keywords: GPT, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.02046v1)  
-
----
-
-
-**ABSTRACT**  
-Web-based test automation heavily relies on accurately finding web elements. Traditional methods compare attributes but don't grasp the context and meaning of elements and words. The emergence of Large Language Models (LLMs) like GPT-4, which can show human-like reasoning abilities on some tasks, offers new opportunities for software engineering and web element localization. This paper introduces and evaluates VON Similo LLM, an enhanced web element localization approach. Using an LLM, it selects the most likely web element from the top-ranked ones identified by the existing VON Similo method, ideally aiming to get closer to human-like selection accuracy. An experimental study was conducted using 804 web element pairs from 48 real-world web applications. We measured the number of correctly identified elements as well as the execution times, comparing the effectiveness and efficiency of VON Similo LLM against the baseline algorithm. In addition, motivations from the LLM were recorded and analyzed for all instances where the original approach failed to find the right web element. VON Similo LLM demonstrated improved performance, reducing failed localizations from 70 to 39 (out of 804), a 44 percent reduction. Despite its slower execution time and additional costs of using the GPT-4 model, the LLMs human-like reasoning showed promise in enhancing web element localization. LLM technology can enhance web element identification in GUI test automation, reducing false positives and potentially lowering maintenance costs. However, further research is necessary to fully understand LLMs capabilities, limitations, and practical use in GUI testing.
-
-{{</citation>}}
-
-
-### (104/153) Formalizing Natural Language Intent into Program Specifications via Large Language Models (Madeline Endres et al., 2023)
-
-{{<citation>}}
-
-Madeline Endres, Sarah Fakhoury, Saikat Chakraborty, Shuvendu K. Lahiri. (2023)  
-**Formalizing Natural Language Intent into Program Specifications via Large Language Models**  
-
----
-Primary Category: cs.SE  
-Categories: cs-AI, cs-PL, cs-SE, cs.SE  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2310.01831v1)  
-
----
-
-
-**ABSTRACT**  
-Informal natural language that describes code functionality, such as code comments or function documentation, may contain substantial information about a programs intent. However, there is typically no guarantee that a programs implementation and natural language documentation are aligned. In the case of a conflict, leveraging information in code-adjacent natural language has the potential to enhance fault localization, debugging, and code trustworthiness. In practice, however, this information is often underutilized due to the inherent ambiguity of natural language which makes natural language intent challenging to check programmatically. The "emergent abilities" of Large Language Models (LLMs) have the potential to facilitate the translation of natural language intent to programmatically checkable assertions. However, it is unclear if LLMs can correctly translate informal natural language specifications into formal specifications that match programmer intent. Additionally, it is unclear if such translation could be useful in practice. In this paper, we describe LLM4nl2post, the problem leveraging LLMs for transforming informal natural language to formal method postconditions, expressed as program assertions. We introduce and validate metrics to measure and compare different LLM4nl2post approaches, using the correctness and discriminative power of generated postconditions. We then perform qualitative and quantitative methods to assess the quality of LLM4nl2post postconditions, finding that they are generally correct and able to discriminate incorrect code. Finally, we find that LLM4nl2post via LLMs has the potential to be helpful in practice; specifications generated from natural language were able to catch 70 real-world historical bugs from Defects4J.
-
-{{</citation>}}
-
-
-### (105/153) Can GPT-4 Replicate Empirical Software Engineering Research? (Jenny T. Liang et al., 2023)
-
-{{<citation>}}
-
-Jenny T. Liang, Carmen Badea, Christian Bird, Robert DeLine, Denae Ford, Nicole Forsgren, Thomas Zimmermann. (2023)  
-**Can GPT-4 Replicate Empirical Software Engineering Research?**  
-
----
-Primary Category: cs.SE  
-Categories: cs-AI, cs-SE, cs.SE  
-Keywords: GPT, GPT-4  
-[Paper Link](http://arxiv.org/abs/2310.01727v1)  
-
----
-
-
-**ABSTRACT**  
-Empirical software engineering research on production systems has brought forth a better understanding of the software engineering process for practitioners and researchers alike. However, only a small subset of production systems is studied, limiting the impact of this research. While software engineering practitioners benefit from replicating research on their own data, this poses its own set of challenges, since performing replications requires a deep understanding of research methodologies and subtle nuances in software engineering data. Given that large language models (LLMs), such as GPT-4, show promise in tackling both software engineering- and science-related tasks, these models could help democratize empirical software engineering research.   In this paper, we examine LLMs' abilities to perform replications of empirical software engineering research on new data. We specifically study their ability to surface assumptions made in empirical software engineering research methodologies, as well as their ability to plan and generate code for analysis pipelines on seven empirical software engineering papers. We perform a user study with 14 participants with software engineering research expertise, who evaluate GPT-4-generated assumptions and analysis plans (i.e., a list of module specifications) from the papers. We find that GPT-4 is able to surface correct assumptions, but struggle to generate ones that reflect common knowledge about software engineering data. In a manual analysis of the generated code, we find that the GPT-4-generated code contains the correct high-level logic, given a subset of the methodology. However, the code contains many small implementation-level errors, reflecting a lack of software engineering knowledge. Our findings have implications for leveraging LLMs for software engineering research as well as practitioner data scientists in software teams.
-
-{{</citation>}}
-
-
-### (106/153) Large Language Models for Test-Free Fault Localization (Aidan Z. H. Yang et al., 2023)
-
-{{<citation>}}
-
-Aidan Z. H. Yang, Ruben Martins, Claire Le Goues, Vincent J. Hellendoorn. (2023)  
-**Large Language Models for Test-Free Fault Localization**  
-
----
-Primary Category: cs.SE  
-Categories: cs-LG, cs-SE, cs.SE  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2310.01726v1)  
-
----
-
-
-**ABSTRACT**  
-Fault Localization (FL) aims to automatically localize buggy lines of code, a key first step in many manual and automatic debugging tasks. Previous FL techniques assume the provision of input tests, and often require extensive program analysis, program instrumentation, or data preprocessing. Prior work on deep learning for APR struggles to learn from small datasets and produces limited results on real-world programs. Inspired by the ability of large language models (LLMs) of code to adapt to new tasks based on very few examples, we investigate the applicability of LLMs to line level fault localization. Specifically, we propose to overcome the left-to-right nature of LLMs by fine-tuning a small set of bidirectional adapter layers on top of the representations learned by LLMs to produce LLMAO, the first language model based fault localization approach that locates buggy lines of code without any test coverage information. We fine-tune LLMs with 350 million, 6 billion, and 16 billion parameters on small, manually curated corpora of buggy programs such as the Defects4J corpus. We observe that our technique achieves substantially more confidence in fault localization when built on the larger models, with bug localization performance scaling consistently with the LLM size. Our empirical evaluation shows that LLMAO improves the Top-1 results over the state-of-the-art machine learning fault localization (MLFL) baselines by 2.3%-54.4%, and Top-5 results by 14.4%-35.6%. LLMAO is also the first FL technique trained using a language model architecture that can detect security vulnerabilities down to the code line level.
-
-{{</citation>}}
-
-
-### (107/153) Software Testing and Code Refactoring: A Survey with Practitioners (Danilo Leandro Lima et al., 2023)
-
-{{<citation>}}
-
-Danilo Leandro Lima, Ronnie de Souza Santos, Guilherme Pires Garcia, Sildemir S. da Silva, Cesar Franca, Luiz Fernando Capretz. (2023)  
-**Software Testing and Code Refactoring: A Survey with Practitioners**  
-
----
-Primary Category: cs.SE  
-Categories: cs-SE, cs.SE  
-Keywords: QA  
-[Paper Link](http://arxiv.org/abs/2310.01719v1)  
-
----
-
-
-**ABSTRACT**  
-Nowadays, software testing professionals are commonly required to develop coding skills to work on test automation. One essential skill required from those who code is the ability to implement code refactoring, a valued quality aspect of software development; however, software developers usually encounter obstacles in successfully applying this practice. In this scenario, the present study aims to explore how software testing professionals (e.g., software testers, test engineers, test analysts, and software QAs) deal with code refactoring to understand the benefits and limitations of this practice in the context of software testing. We followed the guidelines to conduct surveys in software engineering and applied three sampling techniques, namely convenience sampling, purposive sampling, and snowballing sampling, to collect data from testing professionals. We received answers from 80 individuals reporting their experience refactoring the code of automated tests. We concluded that in the context of software testing, refactoring offers several benefits, such as supporting the maintenance of automated tests and improving the performance of the testing team. However, practitioners might encounter barriers in effectively implementing this practice, in particular, the lack of interest from managers and leaders. Our study raises discussions on the importance of having testing professionals implement refactoring in the code of automated tests, allowing them to improve their coding abilities.
-
-{{</citation>}}
-
-
 ## math.NA (1)
 
 
 
-### (108/153) Computing a Sparse Approximate Inverse on Quantum Annealing Machines (Sanjay Suresh et al., 2023)
+### (111/156) Computing a Sparse Approximate Inverse on Quantum Annealing Machines (Sanjay Suresh et al., 2023)
 
 {{<citation>}}
 
@@ -2466,7 +2532,7 @@ Many engineering problems involve solving large linear systems of equations. Con
 
 
 
-### (109/153) ScaleNet: An Unsupervised Representation Learning Method for Limited Information (Huili Huang et al., 2023)
+### (112/156) ScaleNet: An Unsupervised Representation Learning Method for Limited Information (Huili Huang et al., 2023)
 
 {{<citation>}}
 
@@ -2488,7 +2554,7 @@ Although large-scale labeled data are essential for deep convolutional neural ne
 {{</citation>}}
 
 
-### (110/153) TransRadar: Adaptive-Directional Transformer for Real-Time Multi-View Radar Semantic Segmentation (Yahia Dalbah et al., 2023)
+### (113/156) TransRadar: Adaptive-Directional Transformer for Real-Time Multi-View Radar Semantic Segmentation (Yahia Dalbah et al., 2023)
 
 {{<citation>}}
 
@@ -2510,7 +2576,7 @@ Scene understanding plays an essential role in enabling autonomous driving and m
 {{</citation>}}
 
 
-### (111/153) MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts (Pan Lu et al., 2023)
+### (114/156) MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts (Pan Lu et al., 2023)
 
 {{<citation>}}
 
@@ -2532,7 +2598,7 @@ Although Large Language Models (LLMs) and Large Multimodal Models (LMMs) exhibit
 {{</citation>}}
 
 
-### (112/153) MiniGPT-5: Interleaved Vision-and-Language Generation via Generative Vokens (Kaizhi Zheng et al., 2023)
+### (115/156) MiniGPT-5: Interleaved Vision-and-Language Generation via Generative Vokens (Kaizhi Zheng et al., 2023)
 
 {{<citation>}}
 
@@ -2554,7 +2620,7 @@ Large Language Models (LLMs) have garnered significant attention for their advan
 {{</citation>}}
 
 
-### (113/153) Learnable Data Augmentation for One-Shot Unsupervised Domain Adaptation (Julio Ivan Davila Carrazco et al., 2023)
+### (116/156) Learnable Data Augmentation for One-Shot Unsupervised Domain Adaptation (Julio Ivan Davila Carrazco et al., 2023)
 
 {{<citation>}}
 
@@ -2576,7 +2642,7 @@ This paper presents a classification framework based on learnable data augmentat
 {{</citation>}}
 
 
-### (114/153) SIEVE: Multimodal Dataset Pruning Using Image Captioning Models (Anas Mahmoud et al., 2023)
+### (117/156) SIEVE: Multimodal Dataset Pruning Using Image Captioning Models (Anas Mahmoud et al., 2023)
 
 {{<citation>}}
 
@@ -2598,7 +2664,7 @@ Vision-Language Models (VLMs) are pretrained on large, diverse, and noisy web-cr
 {{</citation>}}
 
 
-### (115/153) Leveraging Classic Deconvolution and Feature Extraction in Zero-Shot Image Restoration (Tomáš Chobola et al., 2023)
+### (118/156) Leveraging Classic Deconvolution and Feature Extraction in Zero-Shot Image Restoration (Tomáš Chobola et al., 2023)
 
 {{<citation>}}
 
@@ -2620,7 +2686,7 @@ Non-blind deconvolution aims to restore a sharp image from its blurred counterpa
 {{</citation>}}
 
 
-### (116/153) Point Neighborhood Embeddings (Pedro Hermosilla, 2023)
+### (119/156) Point Neighborhood Embeddings (Pedro Hermosilla, 2023)
 
 {{<citation>}}
 
@@ -2642,7 +2708,7 @@ Point convolution operations rely on different embedding mechanisms to encode th
 {{</citation>}}
 
 
-### (117/153) Content Bias in Deep Learning Age Approximation: A new Approach Towards more Explainability (Robert Jöchl et al., 2023)
+### (120/156) Content Bias in Deep Learning Age Approximation: A new Approach Towards more Explainability (Robert Jöchl et al., 2023)
 
 {{<citation>}}
 
@@ -2664,7 +2730,7 @@ In the context of temporal image forensics, it is not evident that a neural netw
 {{</citation>}}
 
 
-### (118/153) Constructing Image-Text Pair Dataset from Books (Yamato Okamoto et al., 2023)
+### (121/156) Constructing Image-Text Pair Dataset from Books (Yamato Okamoto et al., 2023)
 
 {{<citation>}}
 
@@ -2686,7 +2752,7 @@ Digital archiving is becoming widespread owing to its effectiveness in protectin
 {{</citation>}}
 
 
-### (119/153) MarineDet: Towards Open-Marine Object Detection (Liang Haixin et al., 2023)
+### (122/156) MarineDet: Towards Open-Marine Object Detection (Liang Haixin et al., 2023)
 
 {{<citation>}}
 
@@ -2708,7 +2774,7 @@ Marine object detection has gained prominence in marine research, driven by the 
 {{</citation>}}
 
 
-### (120/153) RoFormer for Position Aware Multiple Instance Learning in Whole Slide Image Classification (Etienne Pochet et al., 2023)
+### (123/156) RoFormer for Position Aware Multiple Instance Learning in Whole Slide Image Classification (Etienne Pochet et al., 2023)
 
 {{<citation>}}
 
@@ -2730,7 +2796,7 @@ Whole slide image (WSI) classification is a critical task in computational patho
 {{</citation>}}
 
 
-### (121/153) CLIP Is Also a Good Teacher: A New Learning Framework for Inductive Zero-shot Semantic Segmentation (Jialei Chen et al., 2023)
+### (124/156) CLIP Is Also a Good Teacher: A New Learning Framework for Inductive Zero-shot Semantic Segmentation (Jialei Chen et al., 2023)
 
 {{<citation>}}
 
@@ -2752,7 +2818,7 @@ Existing Generalized Zero-shot Semantic Segmentation (GZLSS) methods apply eithe
 {{</citation>}}
 
 
-### (122/153) Beyond the Benchmark: Detecting Diverse Anomalies in Videos (Yoav Arad et al., 2023)
+### (125/156) Beyond the Benchmark: Detecting Diverse Anomalies in Videos (Yoav Arad et al., 2023)
 
 {{<citation>}}
 
@@ -2774,7 +2840,7 @@ Video Anomaly Detection (VAD) plays a crucial role in modern surveillance system
 {{</citation>}}
 
 
-### (123/153) Zero-Shot Refinement of Buildings' Segmentation Models using SAM (Ali Mayladan et al., 2023)
+### (126/156) Zero-Shot Refinement of Buildings' Segmentation Models using SAM (Ali Mayladan et al., 2023)
 
 {{<citation>}}
 
@@ -2796,7 +2862,7 @@ Foundation models have excelled in various tasks but are often evaluated on gene
 {{</citation>}}
 
 
-### (124/153) Selective Feature Adapter for Dense Vision Transformers (Xueqing Deng et al., 2023)
+### (127/156) Selective Feature Adapter for Dense Vision Transformers (Xueqing Deng et al., 2023)
 
 {{<citation>}}
 
@@ -2818,7 +2884,7 @@ Fine-tuning pre-trained transformer models, e.g., Swin Transformer, are successf
 {{</citation>}}
 
 
-### (125/153) SelfGraphVQA: A Self-Supervised Graph Neural Network for Scene-based Question Answering (Bruno Souza et al., 2023)
+### (128/156) SelfGraphVQA: A Self-Supervised Graph Neural Network for Scene-based Question Answering (Bruno Souza et al., 2023)
 
 {{<citation>}}
 
@@ -2840,7 +2906,7 @@ The intersection of vision and language is of major interest due to the increase
 {{</citation>}}
 
 
-### (126/153) Self-Supervised High Dynamic Range Imaging with Multi-Exposure Images in Dynamic Scenes (Zhilu Zhang et al., 2023)
+### (129/156) Self-Supervised High Dynamic Range Imaging with Multi-Exposure Images in Dynamic Scenes (Zhilu Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -2862,7 +2928,7 @@ Merging multi-exposure images is a common approach for obtaining high dynamic ra
 {{</citation>}}
 
 
-### (127/153) Extending CAM-based XAI methods for Remote Sensing Imagery Segmentation (Abdul Karim Gizzini et al., 2023)
+### (130/156) Extending CAM-based XAI methods for Remote Sensing Imagery Segmentation (Abdul Karim Gizzini et al., 2023)
 
 {{<citation>}}
 
@@ -2884,7 +2950,7 @@ Current AI-based methods do not provide comprehensible physical interpretations 
 {{</citation>}}
 
 
-### (128/153) AI-Generated Images as Data Source: The Dawn of Synthetic Era (Zuhao Yang et al., 2023)
+### (131/156) AI-Generated Images as Data Source: The Dawn of Synthetic Era (Zuhao Yang et al., 2023)
 
 {{<citation>}}
 
@@ -2906,7 +2972,7 @@ The advancement of visual intelligence is intrinsically tethered to the availabi
 {{</citation>}}
 
 
-### (129/153) Trainable Noise Model as an XAI evaluation method: application on Sobol for remote sensing image segmentation (Hossein Shreim et al., 2023)
+### (132/156) Trainable Noise Model as an XAI evaluation method: application on Sobol for remote sensing image segmentation (Hossein Shreim et al., 2023)
 
 {{<citation>}}
 
@@ -2928,7 +2994,7 @@ eXplainable Artificial Intelligence (XAI) has emerged as an essential requiremen
 {{</citation>}}
 
 
-### (130/153) Amazing Combinatorial Creation: Acceptable Swap-Sampling for Text-to-Image Generation (Jun Li et al., 2023)
+### (133/156) Amazing Combinatorial Creation: Acceptable Swap-Sampling for Text-to-Image Generation (Jun Li et al., 2023)
 
 {{<citation>}}
 
@@ -2950,7 +3016,7 @@ Exploring a machine learning system to generate meaningful combinatorial object 
 {{</citation>}}
 
 
-### (131/153) PPT: Token Pruning and Pooling for Efficient Vision Transformers (Xinjian Wu et al., 2023)
+### (134/156) PPT: Token Pruning and Pooling for Efficient Vision Transformers (Xinjian Wu et al., 2023)
 
 {{<citation>}}
 
@@ -2972,7 +3038,7 @@ Vision Transformers (ViTs) have emerged as powerful models in the field of compu
 {{</citation>}}
 
 
-### (132/153) Improvement and Enhancement of YOLOv5 Small Target Recognition Based on Multi-module Optimization (Qingyang Li et al., 2023)
+### (135/156) Improvement and Enhancement of YOLOv5 Small Target Recognition Based on Multi-module Optimization (Qingyang Li et al., 2023)
 
 {{<citation>}}
 
@@ -2994,7 +3060,7 @@ In this paper, the limitations of YOLOv5s model on small target detection task a
 {{</citation>}}
 
 
-### (133/153) HallE-Switch: Rethinking and Controlling Object Existence Hallucinations in Large Vision Language Models for Detailed Caption (Bohan Zhai et al., 2023)
+### (136/156) HallE-Switch: Rethinking and Controlling Object Existence Hallucinations in Large Vision Language Models for Detailed Caption (Bohan Zhai et al., 2023)
 
 {{<citation>}}
 
@@ -3016,7 +3082,7 @@ Current large vision-language models (LVLMs) achieve remarkable progress, yet th
 {{</citation>}}
 
 
-### (134/153) ImageNet-OOD: Deciphering Modern Out-of-Distribution Detection Algorithms (William Yang et al., 2023)
+### (137/156) ImageNet-OOD: Deciphering Modern Out-of-Distribution Detection Algorithms (William Yang et al., 2023)
 
 {{<citation>}}
 
@@ -3042,7 +3108,7 @@ The task of out-of-distribution (OOD) detection is notoriously ill-defined. Earl
 
 
 
-### (135/153) Prioritized Soft Q-Decomposition for Lexicographic Reinforcement Learning (Finn Rietz et al., 2023)
+### (138/156) Prioritized Soft Q-Decomposition for Lexicographic Reinforcement Learning (Finn Rietz et al., 2023)
 
 {{<citation>}}
 
@@ -3064,7 +3130,7 @@ Reinforcement learning (RL) for complex tasks remains a challenge, primarily due
 {{</citation>}}
 
 
-### (136/153) Towards a Unified Framework for Sequential Decision Making (Carlos Núñez-Molina et al., 2023)
+### (139/156) Towards a Unified Framework for Sequential Decision Making (Carlos Núñez-Molina et al., 2023)
 
 {{<citation>}}
 
@@ -3086,7 +3152,7 @@ In recent years, the integration of Automated Planning (AP) and Reinforcement Le
 {{</citation>}}
 
 
-### (137/153) Learning Reliable Logical Rules with SATNet (Zhaoyu Li et al., 2023)
+### (140/156) Learning Reliable Logical Rules with SATNet (Zhaoyu Li et al., 2023)
 
 {{<citation>}}
 
@@ -3108,7 +3174,7 @@ Bridging logical reasoning and deep learning is crucial for advanced AI systems.
 {{</citation>}}
 
 
-### (138/153) Towards Effective Human-AI Decision-Making: The Role of Human Learning in Appropriate Reliance on AI Advice (Max Schemmer et al., 2023)
+### (141/156) Towards Effective Human-AI Decision-Making: The Role of Human Learning in Appropriate Reliance on AI Advice (Max Schemmer et al., 2023)
 
 {{<citation>}}
 
@@ -3130,7 +3196,7 @@ The true potential of human-AI collaboration lies in exploiting the complementar
 {{</citation>}}
 
 
-### (139/153) Towards End-to-End Embodied Decision Making via Multi-modal Large Language Model: Explorations with GPT4-Vision and Beyond (Liang Chen et al., 2023)
+### (142/156) Towards End-to-End Embodied Decision Making via Multi-modal Large Language Model: Explorations with GPT4-Vision and Beyond (Liang Chen et al., 2023)
 
 {{<citation>}}
 
@@ -3152,7 +3218,7 @@ In this study, we explore the potential of Multimodal Large Language Models (MLL
 {{</citation>}}
 
 
-### (140/153) AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model (Zibin Dong et al., 2023)
+### (143/156) AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model (Zibin Dong et al., 2023)
 
 {{<citation>}}
 
@@ -3174,7 +3240,7 @@ Aligning agent behaviors with diverse human preferences remains a challenging pr
 {{</citation>}}
 
 
-### (141/153) Towards Feasible Counterfactual Explanations: A Taxonomy Guided Template-based NLG Method (Pedram Salimi et al., 2023)
+### (144/156) Towards Feasible Counterfactual Explanations: A Taxonomy Guided Template-based NLG Method (Pedram Salimi et al., 2023)
 
 {{<citation>}}
 
@@ -3196,7 +3262,7 @@ Counterfactual Explanations (cf-XAI) describe the smallest changes in feature va
 {{</citation>}}
 
 
-### (142/153) Fine-tuned vs. Prompt-tuned Supervised Representations: Which Better Account for Brain Language Representations? (Jingyuan Sun et al., 2023)
+### (145/156) Fine-tuned vs. Prompt-tuned Supervised Representations: Which Better Account for Brain Language Representations? (Jingyuan Sun et al., 2023)
 
 {{<citation>}}
 
@@ -3218,7 +3284,7 @@ To decipher the algorithm underlying the human brain's language representation, 
 {{</citation>}}
 
 
-### (143/153) Mini-BEHAVIOR: A Procedurally Generated Benchmark for Long-horizon Decision-Making in Embodied AI (Emily Jin et al., 2023)
+### (146/156) Mini-BEHAVIOR: A Procedurally Generated Benchmark for Long-horizon Decision-Making in Embodied AI (Emily Jin et al., 2023)
 
 {{<citation>}}
 
@@ -3240,7 +3306,7 @@ We present Mini-BEHAVIOR, a novel benchmark for embodied AI that challenges agen
 {{</citation>}}
 
 
-### (144/153) Discrete, compositional, and symbolic representations through attractor dynamics (Andrew Nam et al., 2023)
+### (147/156) Discrete, compositional, and symbolic representations through attractor dynamics (Andrew Nam et al., 2023)
 
 {{<citation>}}
 
@@ -3266,7 +3332,7 @@ Compositionality is an important feature of discrete symbolic systems, such as l
 
 
 
-### (145/153) Reasoning about Intuitionistic Computation Tree Logic (Davide Catta et al., 2023)
+### (148/156) Reasoning about Intuitionistic Computation Tree Logic (Davide Catta et al., 2023)
 
 {{<citation>}}
 
@@ -3288,7 +3354,7 @@ In this paper, we define an intuitionistic version of Computation Tree Logic. Af
 {{</citation>}}
 
 
-### (146/153) Strong Faithfulness for ELH Ontology Embeddings (Victor Lacerda et al., 2023)
+### (149/156) Strong Faithfulness for ELH Ontology Embeddings (Victor Lacerda et al., 2023)
 
 {{<citation>}}
 
@@ -3314,7 +3380,7 @@ Ontology embedding methods are powerful approaches to represent and reason over 
 
 
 
-### (147/153) Approximately Equivariant Quantum Neural Network for $p4m$ Group Symmetries in Images (Su Yeon Chang et al., 2023)
+### (150/156) Approximately Equivariant Quantum Neural Network for $p4m$ Group Symmetries in Images (Su Yeon Chang et al., 2023)
 
 {{<citation>}}
 
@@ -3340,7 +3406,7 @@ Quantum Neural Networks (QNNs) are suggested as one of the quantum algorithms wh
 
 
 
-### (148/153) Graph Neural Network-based EEG Classification: A Survey (Dominik Klepl et al., 2023)
+### (151/156) Graph Neural Network-based EEG Classification: A Survey (Dominik Klepl et al., 2023)
 
 {{<citation>}}
 
@@ -3366,7 +3432,7 @@ Graph neural networks (GNN) are increasingly used to classify EEG for tasks such
 
 
 
-### (149/153) ACE: A fast, skillful learned global atmospheric model for climate prediction (Oliver Watt-Meyer et al., 2023)
+### (152/156) ACE: A fast, skillful learned global atmospheric model for climate prediction (Oliver Watt-Meyer et al., 2023)
 
 {{<citation>}}
 
@@ -3392,7 +3458,7 @@ Existing ML-based atmospheric models are not suitable for climate prediction, wh
 
 
 
-### (150/153) Prompting Audios Using Acoustic Properties For Emotion Representation (Hira Dhamyal et al., 2023)
+### (153/156) Prompting Audios Using Acoustic Properties For Emotion Representation (Hira Dhamyal et al., 2023)
 
 {{<citation>}}
 
@@ -3403,7 +3469,7 @@ Hira Dhamyal, Benjamin Elizalde, Soham Deshmukh, Huaming Wang, Bhiksha Raj, Rita
 Primary Category: cs.SD  
 Categories: cs-AI, cs-SD, cs.SD, eess-AS  
 Keywords: Emotion Recognition  
-[Paper Link](http://arxiv.org/abs/2310.02298v1)  
+[Paper Link](http://arxiv.org/abs/2310.02298v2)  
 
 ---
 
@@ -3414,7 +3480,7 @@ Emotions lie on a continuum, but current models treat emotions as a finite value
 {{</citation>}}
 
 
-### (151/153) Mel-Band RoFormer for Music Source Separation (Ju-Chiang Wang et al., 2023)
+### (154/156) Mel-Band RoFormer for Music Source Separation (Ju-Chiang Wang et al., 2023)
 
 {{<citation>}}
 
@@ -3440,7 +3506,7 @@ Recently, multi-band spectrogram-based approaches such as Band-Split RNN (BSRNN)
 
 
 
-### (152/153) Online Multimedia Verification with Computational Tools and OSINT: Russia-Ukraine Conflict Case Studies (Sohail Ahmed Khan et al., 2023)
+### (155/156) Online Multimedia Verification with Computational Tools and OSINT: Russia-Ukraine Conflict Case Studies (Sohail Ahmed Khan et al., 2023)
 
 {{<citation>}}
 
@@ -3466,7 +3532,7 @@ This paper investigates the use of computational tools and Open-Source Intellige
 
 
 
-### (153/153) Beyond-Accuracy: A Review on Diversity, Serendipity and Fairness in Recommender Systems Based on Graph Neural Networks (Tomislav Duricic et al., 2023)
+### (156/156) Beyond-Accuracy: A Review on Diversity, Serendipity and Fairness in Recommender Systems Based on Graph Neural Networks (Tomislav Duricic et al., 2023)
 
 {{<citation>}}
 

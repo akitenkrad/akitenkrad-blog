@@ -1240,7 +1240,7 @@ Sixing Yu, J. Pablo Muñoz, Ali Jannesari. (2023)
 Primary Category: cs.LG  
 Categories: cs-DC, cs-LG, cs.LG  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2310.00247v1)  
+[Paper Link](http://arxiv.org/abs/2310.00247v2)  
 
 ---
 
