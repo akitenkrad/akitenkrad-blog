@@ -303,7 +303,7 @@ Xu Ouyang, Changhong Yang, Felix Xiaozhu Lin, Yangfeng Ji. (2023)
 Primary Category: cs.LG  
 Categories: cs-CR, cs-LG, cs.LG  
 Keywords: NLP, Transformer  
-[Paper Link](http://arxiv.org/abs/2310.02373v1)  
+[Paper Link](http://arxiv.org/abs/2310.02373v2)  
 
 ---
 
@@ -1319,13 +1319,13 @@ Saurabh Srivastava, Chengyue Huang, Weiguo Fan, Ziyu Yao. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: GPT, GPT-4, Zero-Shot  
-[Paper Link](http://arxiv.org/abs/2310.02107v1)  
+[Paper Link](http://arxiv.org/abs/2310.02107v2)  
 
 ---
 
 
 **ABSTRACT**  
-Enabling large language models (LLMs) to perform tasks in zero-shot has been an appealing goal owing to its labor-saving (i.e., requiring no task-specific annotations); as such, zero-shot prompting approaches also enjoy better task generalizability. To improve LLMs' zero-shot performance, prior work has focused on devising more effective task instructions (e.g., ``let's think step by step'' ). However, we argue that, in order for an LLM to solve them correctly in zero-shot, individual test instances need more carefully designed and customized instructions. To this end, we propose PRoMPTd, an approach that rewrites the task prompt for each individual test input to be more specific, unambiguous, and complete, so as to provide better guidance to the task LLM. We evaluated PRoMPTd on eight datasets covering tasks including arithmetics, logical reasoning, and code generation, using GPT-4 as the task LLM. Notably, \algoname achieves an absolute improvement of around 10\% on the complex MATH dataset and 5\% on the code generation task on HumanEval, outperforming conventional zero-shot methods. In addition, we also showed that the rewritten prompt can provide better interpretability of how the LLM resolves each test instance, which can potentially be leveraged as a defense mechanism against adversarial prompting. The source code and dataset can be obtained from https://github.com/salokr/PRoMPTd
+Enabling large language models (LLMs) to perform tasks in zero-shot has been an appealing goal owing to its labor-saving (i.e., requiring no task-specific annotations); as such, zero-shot prompting approaches also enjoy better task generalizability. To improve LLMs' zero-shot performance, prior work has focused on devising more effective task instructions (e.g., ``let's think step by step'' ). However, we argue that, in order for an LLM to solve them correctly in zero-shot, individual test instances need more carefully designed and customized instructions. To this end, we propose PRoMPTd, an approach that rewrites the task prompt for each individual test input to be more specific, unambiguous, and complete, so as to provide better guidance to the task LLM. We evaluated PRoMPTd on eight datasets covering tasks including arithmetics, logical reasoning, and code generation, using GPT-4 as the task LLM. Notably, PRoMPTd achieves an absolute improvement of around 10% on the complex MATH dataset and 5% on the code generation task on HumanEval, outperforming conventional zero-shot methods. In addition, we also showed that the rewritten prompt can provide better interpretability of how the LLM resolves each test instance, which can potentially be leveraged as a defense mechanism against adversarial prompting. The source code and dataset can be obtained from https://github.com/salokr/PRoMPTd
 
 {{</citation>}}
 
@@ -2609,7 +2609,7 @@ Kaizhi Zheng, Xuehai He, Xin Eric Wang. (2023)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Dialog, GPT, GPT-5, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.02239v1)  
+[Paper Link](http://arxiv.org/abs/2310.02239v2)  
 
 ---
 
