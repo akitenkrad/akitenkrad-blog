@@ -24,15 +24,16 @@ math: true
 - [cs.LG (23)](#cslg-23)
 - [cs.CL (43)](#cscl-43)
 - [cs.HC (2)](#cshc-2)
+- [cs.AI (15)](#csai-15)
 - [cs.CV (17)](#cscv-17)
-- [cs.AI (14)](#csai-14)
 - [cs.RO (3)](#csro-3)
 - [math.OC (1)](#mathoc-1)
 - [cs.SE (2)](#csse-2)
 - [cs.SD (2)](#cssd-2)
 - [eess.AS (1)](#eessas-1)
+- [eess.IV (2)](#eessiv-2)
 - [cs.CY (1)](#cscy-1)
-- [eess.IV (1)](#eessiv-1)
+- [econ.TH (1)](#econth-1)
 - [cs.CE (1)](#csce-1)
 - [cs.CR (1)](#cscr-1)
 
@@ -40,7 +41,7 @@ math: true
 
 
 
-### (1/112) Optimizing Solution-Samplers for Combinatorial Problems: The Landscape of Policy-Gradient Methods (Constantine Caramanis et al., 2023)
+### (1/115) Optimizing Solution-Samplers for Combinatorial Problems: The Landscape of Policy-Gradient Methods (Constantine Caramanis et al., 2023)
 
 {{<citation>}}
 
@@ -62,7 +63,7 @@ Deep Neural Networks and Reinforcement Learning methods have empirically shown g
 {{</citation>}}
 
 
-### (2/112) Adversarial Attacks on Combinatorial Multi-Armed Bandits (Rishab Balasubramanian et al., 2023)
+### (2/115) Adversarial Attacks on Combinatorial Multi-Armed Bandits (Rishab Balasubramanian et al., 2023)
 
 {{<citation>}}
 
@@ -84,7 +85,7 @@ We study reward poisoning attacks on Combinatorial Multi-armed Bandits (CMAB). W
 {{</citation>}}
 
 
-### (3/112) Successive Data Injection in Conditional Quantum GAN Applied to Time Series Anomaly Detection (Benjamin Kalfon et al., 2023)
+### (3/115) Successive Data Injection in Conditional Quantum GAN Applied to Time Series Anomaly Detection (Benjamin Kalfon et al., 2023)
 
 {{<citation>}}
 
@@ -106,7 +107,7 @@ Classical GAN architectures have shown interesting results for solving anomaly d
 {{</citation>}}
 
 
-### (4/112) Tailoring Self-Attention for Graph via Rooted Subtrees (Siyuan Huang et al., 2023)
+### (4/115) Tailoring Self-Attention for Graph via Rooted Subtrees (Siyuan Huang et al., 2023)
 
 {{<citation>}}
 
@@ -128,7 +129,7 @@ Attention mechanisms have made significant strides in graph learning, yet they s
 {{</citation>}}
 
 
-### (5/112) Generalizable Error Modeling for Search Relevance Data Annotation Tasks (Heinrich Peters et al., 2023)
+### (5/115) Generalizable Error Modeling for Search Relevance Data Annotation Tasks (Heinrich Peters et al., 2023)
 
 {{<citation>}}
 
@@ -150,7 +151,7 @@ Human data annotation is critical in shaping the quality of machine learning (ML
 {{</citation>}}
 
 
-### (6/112) Simplifying GNN Performance with Low Rank Kernel Models (Luciano Vinas et al., 2023)
+### (6/115) Simplifying GNN Performance with Low Rank Kernel Models (Luciano Vinas et al., 2023)
 
 {{<citation>}}
 
@@ -172,7 +173,7 @@ We revisit recent spectral GNN approaches to semi-supervised node classification
 {{</citation>}}
 
 
-### (7/112) In-Context Convergence of Transformers (Yu Huang et al., 2023)
+### (7/115) In-Context Convergence of Transformers (Yu Huang et al., 2023)
 
 {{<citation>}}
 
@@ -194,7 +195,7 @@ Transformers have recently revolutionized many domains in modern machine learnin
 {{</citation>}}
 
 
-### (8/112) Accelerating Machine Learning Primitives on Commodity Hardware (Roman Snytsar, 2023)
+### (8/115) Accelerating Machine Learning Primitives on Commodity Hardware (Roman Snytsar, 2023)
 
 {{<citation>}}
 
@@ -216,7 +217,7 @@ Sliding Window Sum algorithms have been successfully used for training and infer
 {{</citation>}}
 
 
-### (9/112) GEAR: A GPU-Centric Experience Replay System for Large Reinforcement Learning Models (Hanjing Wang et al., 2023)
+### (9/115) GEAR: A GPU-Centric Experience Replay System for Large Reinforcement Learning Models (Hanjing Wang et al., 2023)
 
 {{<citation>}}
 
@@ -238,7 +239,7 @@ This paper introduces a distributed, GPU-centric experience replay system, GEAR,
 {{</citation>}}
 
 
-### (10/112) Towards Optimizing with Large Language Models (Pei-Fu Guo et al., 2023)
+### (10/115) Towards Optimizing with Large Language Models (Pei-Fu Guo et al., 2023)
 
 {{<citation>}}
 
@@ -260,7 +261,7 @@ In this work, we conduct an assessment of the optimization capabilities of LLMs 
 {{</citation>}}
 
 
-### (11/112) Lifelong Learning for Fog Load Balancing: A Transfer Learning Approach (Maad Ebrahim et al., 2023)
+### (11/115) Lifelong Learning for Fog Load Balancing: A Transfer Learning Approach (Maad Ebrahim et al., 2023)
 
 {{<citation>}}
 
@@ -282,7 +283,7 @@ Fog computing emerged as a promising paradigm to address the challenges of proce
 {{</citation>}}
 
 
-### (12/112) Distributional Reinforcement Learning with Online Risk-awareness Adaption (Yupeng Wu et al., 2023)
+### (12/115) Distributional Reinforcement Learning with Online Risk-awareness Adaption (Yupeng Wu et al., 2023)
 
 {{<citation>}}
 
@@ -304,7 +305,7 @@ The use of reinforcement learning (RL) in practical applications requires consid
 {{</citation>}}
 
 
-### (13/112) Outlier Weighed Layerwise Sparsity (OWL): A Missing Secret Sauce for Pruning LLMs to High Sparsity (Lu Yin et al., 2023)
+### (13/115) Outlier Weighed Layerwise Sparsity (OWL): A Missing Secret Sauce for Pruning LLMs to High Sparsity (Lu Yin et al., 2023)
 
 {{<citation>}}
 
@@ -326,7 +327,7 @@ Large Language Models (LLMs), renowned for their remarkable performance, present
 {{</citation>}}
 
 
-### (14/112) GSLB: The Graph Structure Learning Benchmark (Zhixun Li et al., 2023)
+### (14/115) GSLB: The Graph Structure Learning Benchmark (Zhixun Li et al., 2023)
 
 {{<citation>}}
 
@@ -348,7 +349,7 @@ Graph Structure Learning (GSL) has recently garnered considerable attention due 
 {{</citation>}}
 
 
-### (15/112) How Graph Neural Networks Learn: Lessons from Training Dynamics in Function Space (Chenxiao Yang et al., 2023)
+### (15/115) How Graph Neural Networks Learn: Lessons from Training Dynamics in Function Space (Chenxiao Yang et al., 2023)
 
 {{<citation>}}
 
@@ -370,7 +371,7 @@ A long-standing goal in deep learning has been to characterize the learning beha
 {{</citation>}}
 
 
-### (16/112) FLatS: Principled Out-of-Distribution Detection with Feature-Based Likelihood Ratio Score (Haowei Lin et al., 2023)
+### (16/115) FLatS: Principled Out-of-Distribution Detection with Feature-Based Likelihood Ratio Score (Haowei Lin et al., 2023)
 
 {{<citation>}}
 
@@ -392,7 +393,7 @@ Detecting out-of-distribution (OOD) instances is crucial for NLP models in pract
 {{</citation>}}
 
 
-### (17/112) Pushing the Limits of Pre-training for Time Series Forecasting in the CloudOps Domain (Gerald Woo et al., 2023)
+### (17/115) Pushing the Limits of Pre-training for Time Series Forecasting in the CloudOps Domain (Gerald Woo et al., 2023)
 
 {{<citation>}}
 
@@ -403,7 +404,7 @@ Gerald Woo, Chenghao Liu, Akshat Kumar, Doyen Sahoo. (2023)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Time Series  
-[Paper Link](http://arxiv.org/abs/2310.05063v1)  
+[Paper Link](http://arxiv.org/abs/2310.05063v2)  
 
 ---
 
@@ -414,7 +415,7 @@ Time series has been left behind in the era of pre-training and transfer learnin
 {{</citation>}}
 
 
-### (18/112) Deep Reinforcement Learning Based Cross-Layer Design in Terahertz Mesh Backhaul Networks (Zhifeng Hu et al., 2023)
+### (18/115) Deep Reinforcement Learning Based Cross-Layer Design in Terahertz Mesh Backhaul Networks (Zhifeng Hu et al., 2023)
 
 {{<citation>}}
 
@@ -436,7 +437,7 @@ Supporting ultra-high data rates and flexible reconfigurability, Terahertz (THz)
 {{</citation>}}
 
 
-### (19/112) Data-centric Graph Learning: A Survey (Cheng Yang et al., 2023)
+### (19/115) Data-centric Graph Learning: A Survey (Cheng Yang et al., 2023)
 
 {{<citation>}}
 
@@ -458,7 +459,7 @@ The history of artificial intelligence (AI) has witnessed the significant impact
 {{</citation>}}
 
 
-### (20/112) Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift (Yihao Xue et al., 2023)
+### (20/115) Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift (Yihao Xue et al., 2023)
 
 {{<citation>}}
 
@@ -480,7 +481,7 @@ Recently, multimodal contrastive learning (MMCL) approaches, such as CLIP, have 
 {{</citation>}}
 
 
-### (21/112) Improved Active Learning via Dependent Leverage Score Sampling (Atsushi Shimizu et al., 2023)
+### (21/115) Improved Active Learning via Dependent Leverage Score Sampling (Atsushi Shimizu et al., 2023)
 
 {{<citation>}}
 
@@ -502,7 +503,7 @@ We show how to obtain improved active learning methods in the agnostic (adversar
 {{</citation>}}
 
 
-### (22/112) Information-Theoretic Bounds on The Removal of Attribute-Specific Bias From Neural Networks (Jiazhi Li et al., 2023)
+### (22/115) Information-Theoretic Bounds on The Removal of Attribute-Specific Bias From Neural Networks (Jiazhi Li et al., 2023)
 
 {{<citation>}}
 
@@ -524,7 +525,7 @@ Ensuring a neural network is not relying on protected attributes (e.g., race, se
 {{</citation>}}
 
 
-### (23/112) TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting (Defu Cao et al., 2023)
+### (23/115) TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting (Defu Cao et al., 2023)
 
 {{<citation>}}
 
@@ -550,7 +551,7 @@ The past decade has witnessed significant advances in time series modeling with 
 
 
 
-### (24/112) Hi Guys or Hi Folks? Benchmarking Gender-Neutral Machine Translation with the GeNTE Corpus (Andrea Piergentili et al., 2023)
+### (24/115) Hi Guys or Hi Folks? Benchmarking Gender-Neutral Machine Translation with the GeNTE Corpus (Andrea Piergentili et al., 2023)
 
 {{<citation>}}
 
@@ -572,7 +573,7 @@ Gender inequality is embedded in our communication practices and perpetuated in 
 {{</citation>}}
 
 
-### (25/112) Are Personalized Stochastic Parrots More Dangerous? Evaluating Persona Biases in Dialogue Systems (Yixin Wan et al., 2023)
+### (25/115) Are Personalized Stochastic Parrots More Dangerous? Evaluating Persona Biases in Dialogue Systems (Yixin Wan et al., 2023)
 
 {{<citation>}}
 
@@ -594,7 +595,7 @@ Recent advancements in Large Language Models empower them to follow freeform ins
 {{</citation>}}
 
 
-### (26/112) Enhancing Pre-Trained Language Models with Sentence Position Embeddings for Rhetorical Roles Recognition in Legal Opinions (Anas Belfathi et al., 2023)
+### (26/115) Enhancing Pre-Trained Language Models with Sentence Position Embeddings for Rhetorical Roles Recognition in Legal Opinions (Anas Belfathi et al., 2023)
 
 {{<citation>}}
 
@@ -616,7 +617,7 @@ The legal domain is a vast and complex field that involves a considerable amount
 {{</citation>}}
 
 
-### (27/112) Explainable Claim Verification via Knowledge-Grounded Reasoning with Large Language Models (Haoran Wang et al., 2023)
+### (27/115) Explainable Claim Verification via Knowledge-Grounded Reasoning with Large Language Models (Haoran Wang et al., 2023)
 
 {{<citation>}}
 
@@ -638,7 +639,7 @@ Claim verification plays a crucial role in combating misinformation. While exist
 {{</citation>}}
 
 
-### (28/112) ChatRadio-Valuer: A Chat Large Language Model for Generalizable Radiology Report Generation Based on Multi-institution and Multi-system Data (Tianyang Zhong et al., 2023)
+### (28/115) ChatRadio-Valuer: A Chat Large Language Model for Generalizable Radiology Report Generation Based on Multi-institution and Multi-system Data (Tianyang Zhong et al., 2023)
 
 {{<citation>}}
 
@@ -649,7 +650,7 @@ Tianyang Zhong, Wei Zhao, Yutong Zhang, Yi Pan, Peixin Dong, Zuowei Jiang, Xiaoy
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: AI, ChatGPT, GPT, GPT-3.5, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.05242v1)  
+[Paper Link](http://arxiv.org/abs/2310.05242v2)  
 
 ---
 
@@ -660,7 +661,7 @@ Radiology report generation, as a key step in medical image analysis, is critica
 {{</citation>}}
 
 
-### (29/112) XLS-R fine-tuning on noisy word boundaries for unsupervised speech segmentation into words (Robin Algayres et al., 2023)
+### (29/115) XLS-R fine-tuning on noisy word boundaries for unsupervised speech segmentation into words (Robin Algayres et al., 2023)
 
 {{<citation>}}
 
@@ -682,7 +683,7 @@ Due to the absence of explicit word boundaries in the speech stream, the task of
 {{</citation>}}
 
 
-### (30/112) Generative Spoken Language Model based on continuous word-sized audio tokens (Robin Algayres et al., 2023)
+### (30/115) Generative Spoken Language Model based on continuous word-sized audio tokens (Robin Algayres et al., 2023)
 
 {{<citation>}}
 
@@ -704,7 +705,7 @@ In NLP, text language models based on words or subwords are known to outperform 
 {{</citation>}}
 
 
-### (31/112) Probing Language Models from A Human Behavioral Perspective (Xintong Wang et al., 2023)
+### (31/115) Probing Language Models from A Human Behavioral Perspective (Xintong Wang et al., 2023)
 
 {{<citation>}}
 
@@ -726,7 +727,7 @@ Large Language Models (LLMs) have emerged as dominant foundational models in mod
 {{</citation>}}
 
 
-### (32/112) Scaling Laws of RoPE-based Extrapolation (Xiaoran Liu et al., 2023)
+### (32/115) Scaling Laws of RoPE-based Extrapolation (Xiaoran Liu et al., 2023)
 
 {{<citation>}}
 
@@ -748,7 +749,7 @@ The extrapolation capability of Large Language Models (LLMs) based on Rotary Pos
 {{</citation>}}
 
 
-### (33/112) Loose lips sink ships: Mitigating Length Bias in Reinforcement Learning from Human Feedback (Wei Shen et al., 2023)
+### (33/115) Loose lips sink ships: Mitigating Length Bias in Reinforcement Learning from Human Feedback (Wei Shen et al., 2023)
 
 {{<citation>}}
 
@@ -770,7 +771,7 @@ Reinforcement learning from human feedback serves as a crucial bridge, aligning 
 {{</citation>}}
 
 
-### (34/112) FABRIC: Automated Scoring and Feedback Generation for Essays (Jieun Han et al., 2023)
+### (34/115) FABRIC: Automated Scoring and Feedback Generation for Essays (Jieun Han et al., 2023)
 
 {{<citation>}}
 
@@ -792,7 +793,7 @@ Automated essay scoring (AES) provides a useful tool for students and instructor
 {{</citation>}}
 
 
-### (35/112) Factuality Challenges in the Era of Large Language Models (Isabelle Augenstein et al., 2023)
+### (35/115) Factuality Challenges in the Era of Large Language Models (Isabelle Augenstein et al., 2023)
 
 {{<citation>}}
 
@@ -803,18 +804,18 @@ Isabelle Augenstein, Timothy Baldwin, Meeyoung Cha, Tanmoy Chakraborty, Giovanni
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: AI, ChatGPT, GPT, Google, Language Model, Microsoft  
-[Paper Link](http://arxiv.org/abs/2310.05189v1)  
+[Paper Link](http://arxiv.org/abs/2310.05189v2)  
 
 ---
 
 
 **ABSTRACT**  
-The emergence of tools based on Large Language Models (LLMs), such as OpenAI's ChatGPT, Microsoft's Bing Chat, and Google's Bard, has garnered immense public attention. These incredibly useful, natural-sounding tools mark significant advances in natural language generation, yet they exhibit a propensity to generate false, erroneous, or misleading content -- commonly referred to as "hallucinations". Moreover, LLMs can be exploited for malicious applications, such as generating false but credible-sounding content and profiles at scale. This poses a significant challenge to society in terms of the potential deception of users and the increasing dissemination of inaccurate information. In light of these risks, we explore the kinds of technological innovations, regulatory reforms, and AI literacy initiatives needed from fact-checkers, news organizations, and the broader research and policy communities. By identifying the risks, the imminent threats, and some viable solutions, we seek to shed light on navigating various aspects of veracity in the era of generative AI.
+The emergence of tools based on Large Language Models (LLMs), such as OpenAI's ChatGPT, Microsoft's Bing Chat, and Google's Bard, has garnered immense public attention. These incredibly useful, natural-sounding tools mark significant advances in natural language generation, yet they exhibit a propensity to generate false, erroneous, or misleading content -- commonly referred to as "hallucinations." Moreover, LLMs can be exploited for malicious applications, such as generating false but credible-sounding content and profiles at scale. This poses a significant challenge to society in terms of the potential deception of users and the increasing dissemination of inaccurate information. In light of these risks, we explore the kinds of technological innovations, regulatory reforms, and AI literacy initiatives needed from fact-checkers, news organizations, and the broader research and policy communities. By identifying the risks, the imminent threats, and some viable solutions, we seek to shed light on navigating various aspects of veracity in the era of generative AI.
 
 {{</citation>}}
 
 
-### (36/112) Do Large Language Models Know about Facts? (Xuming Hu et al., 2023)
+### (36/115) Do Large Language Models Know about Facts? (Xuming Hu et al., 2023)
 
 {{<citation>}}
 
@@ -836,7 +837,7 @@ Large language models (LLMs) have recently driven striking performance improveme
 {{</citation>}}
 
 
-### (37/112) On the Zero-Shot Generalization of Machine-Generated Text Detectors (Xiao Pu et al., 2023)
+### (37/115) On the Zero-Shot Generalization of Machine-Generated Text Detectors (Xiao Pu et al., 2023)
 
 {{<citation>}}
 
@@ -858,7 +859,7 @@ The rampant proliferation of large language models, fluent enough to generate te
 {{</citation>}}
 
 
-### (38/112) An Investigation of LLMs' Inefficacy in Understanding Converse Relations (Chengwen Qi et al., 2023)
+### (38/115) An Investigation of LLMs' Inefficacy in Understanding Converse Relations (Chengwen Qi et al., 2023)
 
 {{<citation>}}
 
@@ -880,7 +881,7 @@ Large Language Models (LLMs) have achieved remarkable success in many formal lan
 {{</citation>}}
 
 
-### (39/112) Recurrent Neural Language Models as Probabilistic Finite-state Automata (Anej Svete et al., 2023)
+### (39/115) Recurrent Neural Language Models as Probabilistic Finite-state Automata (Anej Svete et al., 2023)
 
 {{<citation>}}
 
@@ -902,7 +903,7 @@ Studying language models (LMs) in terms of well-understood formalisms allows us 
 {{</citation>}}
 
 
-### (40/112) MenatQA: A New Dataset for Testing the Temporal Comprehension and Reasoning Abilities of Large Language Models (Yifan Wei et al., 2023)
+### (40/115) MenatQA: A New Dataset for Testing the Temporal Comprehension and Reasoning Abilities of Large Language Models (Yifan Wei et al., 2023)
 
 {{<citation>}}
 
@@ -924,7 +925,7 @@ Large language models (LLMs) have shown nearly saturated performance on many nat
 {{</citation>}}
 
 
-### (41/112) Toolink: Linking Toolkit Creation and Using through Chain-of-Solving on Open-Source Model (Cheng Qian et al., 2023)
+### (41/115) Toolink: Linking Toolkit Creation and Using through Chain-of-Solving on Open-Source Model (Cheng Qian et al., 2023)
 
 {{<citation>}}
 
@@ -946,7 +947,7 @@ Large Language Models (LLMs) have demonstrated remarkable progress in utilizing 
 {{</citation>}}
 
 
-### (42/112) From Data to Dialogue: Leveraging the Structure of Knowledge Graphs for Conversational Exploratory Search (Phillip Schneider et al., 2023)
+### (42/115) From Data to Dialogue: Leveraging the Structure of Knowledge Graphs for Conversational Exploratory Search (Phillip Schneider et al., 2023)
 
 {{<citation>}}
 
@@ -968,7 +969,7 @@ Exploratory search is an open-ended information retrieval process that aims at d
 {{</citation>}}
 
 
-### (43/112) Retrieval-Generation Synergy Augmented Large Language Models (Zhangyin Feng et al., 2023)
+### (43/115) Retrieval-Generation Synergy Augmented Large Language Models (Zhangyin Feng et al., 2023)
 
 {{<citation>}}
 
@@ -990,7 +991,7 @@ Large language models augmented with task-relevant documents have demonstrated i
 {{</citation>}}
 
 
-### (44/112) Harnessing the Power of Large Language Models for Empathetic Response Generation: Empirical Investigations and Improvements (Yushan Qian et al., 2023)
+### (44/115) Harnessing the Power of Large Language Models for Empathetic Response Generation: Empirical Investigations and Improvements (Yushan Qian et al., 2023)
 
 {{<citation>}}
 
@@ -1012,7 +1013,7 @@ Empathetic dialogue is an indispensable part of building harmonious social relat
 {{</citation>}}
 
 
-### (45/112) Are Emily and Greg Still More Employable than Lakisha and Jamal? Investigating Algorithmic Hiring Bias in the Era of ChatGPT (Akshaj Kumar Veldanda et al., 2023)
+### (45/115) Are Emily and Greg Still More Employable than Lakisha and Jamal? Investigating Algorithmic Hiring Bias in the Era of ChatGPT (Akshaj Kumar Veldanda et al., 2023)
 
 {{<citation>}}
 
@@ -1034,7 +1035,7 @@ Large Language Models (LLMs) such as GPT-3.5, Bard, and Claude exhibit applicabi
 {{</citation>}}
 
 
-### (46/112) Fast-DetectGPT: Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature (Guangsheng Bao et al., 2023)
+### (46/115) Fast-DetectGPT: Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature (Guangsheng Bao et al., 2023)
 
 {{<citation>}}
 
@@ -1056,7 +1057,7 @@ Large language models (LLMs) have shown the ability to produce fluent and cogent
 {{</citation>}}
 
 
-### (47/112) Instances and Labels: Hierarchy-aware Joint Supervised Contrastive Learning for Hierarchical Multi-Label Text Classification (Simon Chi Lok U et al., 2023)
+### (47/115) Instances and Labels: Hierarchy-aware Joint Supervised Contrastive Learning for Hierarchical Multi-Label Text Classification (Simon Chi Lok U et al., 2023)
 
 {{<citation>}}
 
@@ -1078,7 +1079,7 @@ Hierarchical multi-label text classification (HMTC) aims at utilizing a label hi
 {{</citation>}}
 
 
-### (48/112) Breaking Down Word Semantics from Pre-trained Language Models through Layer-wise Dimension Selection (Nayoung Choi, 2023)
+### (48/115) Breaking Down Word Semantics from Pre-trained Language Models through Layer-wise Dimension Selection (Nayoung Choi, 2023)
 
 {{<citation>}}
 
@@ -1100,7 +1101,7 @@ Contextual word embeddings obtained from pre-trained language model (PLM) have p
 {{</citation>}}
 
 
-### (49/112) Zero-Shot Detection of Machine-Generated Codes (Xianjun Yang et al., 2023)
+### (49/115) Zero-Shot Detection of Machine-Generated Codes (Xianjun Yang et al., 2023)
 
 {{<citation>}}
 
@@ -1122,7 +1123,7 @@ This work proposes a training-free approach for the detection of LLMs-generated 
 {{</citation>}}
 
 
-### (50/112) How Reliable Are AI-Generated-Text Detectors? An Assessment Framework Using Evasive Soft Prompts (Tharindu Kumarage et al., 2023)
+### (50/115) How Reliable Are AI-Generated-Text Detectors? An Assessment Framework Using Evasive Soft Prompts (Tharindu Kumarage et al., 2023)
 
 {{<citation>}}
 
@@ -1144,7 +1145,7 @@ In recent years, there has been a rapid proliferation of AI-generated text, prim
 {{</citation>}}
 
 
-### (51/112) Benchmarking Large Language Models with Augmented Instructions for Fine-grained Information Extraction (Jun Gao et al., 2023)
+### (51/115) Benchmarking Large Language Models with Augmented Instructions for Fine-grained Information Extraction (Jun Gao et al., 2023)
 
 {{<citation>}}
 
@@ -1166,7 +1167,7 @@ Information Extraction (IE) is an essential task in Natural Language Processing.
 {{</citation>}}
 
 
-### (52/112) DialCoT Meets PPO: Decomposing and Exploring Reasoning Paths in Smaller Language Models (Chengcheng Han et al., 2023)
+### (52/115) DialCoT Meets PPO: Decomposing and Exploring Reasoning Paths in Smaller Language Models (Chengcheng Han et al., 2023)
 
 {{<citation>}}
 
@@ -1177,7 +1178,7 @@ Chengcheng Han, Xiaowei Du, Che Zhang, Yixin Lian, Xiang Li, Ming Gao, Baoyuan W
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Dialog, Dialogue, Language Model, Reasoning  
-[Paper Link](http://arxiv.org/abs/2310.05074v1)  
+[Paper Link](http://arxiv.org/abs/2310.05074v2)  
 
 ---
 
@@ -1188,7 +1189,7 @@ Chain-of-Thought (CoT) prompting has proven to be effective in enhancing the rea
 {{</citation>}}
 
 
-### (53/112) Unleashing the Multilingual Encoder Potential: Boosting Zero-Shot Performance via Probability Calibration (Ercong Nie et al., 2023)
+### (53/115) Unleashing the Multilingual Encoder Potential: Boosting Zero-Shot Performance via Probability Calibration (Ercong Nie et al., 2023)
 
 {{<citation>}}
 
@@ -1210,7 +1211,7 @@ Pretraiend multilingual encoder models can directly perform zero-shot multilingu
 {{</citation>}}
 
 
-### (54/112) Guideline Learning for In-context Information Extraction (Chaoxu Pang et al., 2023)
+### (54/115) Guideline Learning for In-context Information Extraction (Chaoxu Pang et al., 2023)
 
 {{<citation>}}
 
@@ -1232,7 +1233,7 @@ Large language models (LLMs) can perform a new task by merely conditioning on ta
 {{</citation>}}
 
 
-### (55/112) sign.mt: Real-Time Multilingual Sign Language Translation Application (Amit Moryossef, 2023)
+### (55/115) sign.mt: Real-Time Multilingual Sign Language Translation Application (Amit Moryossef, 2023)
 
 {{<citation>}}
 
@@ -1254,7 +1255,7 @@ This demo paper presents sign.mt, an open-source application pioneering real-tim
 {{</citation>}}
 
 
-### (56/112) BRAINTEASER: Lateral Thinking Puzzles for Large Language Model (Yifan Jiang et al., 2023)
+### (56/115) BRAINTEASER: Lateral Thinking Puzzles for Large Language Model (Yifan Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -1276,7 +1277,7 @@ The success of language models has inspired the NLP community to attend to tasks
 {{</citation>}}
 
 
-### (57/112) Harnessing the Power of ChatGPT in Fake News: An In-Depth Exploration in Generation, Detection and Explanation (Yue Huang et al., 2023)
+### (57/115) Harnessing the Power of ChatGPT in Fake News: An In-Depth Exploration in Generation, Detection and Explanation (Yue Huang et al., 2023)
 
 {{<citation>}}
 
@@ -1298,7 +1299,7 @@ The rampant spread of fake news has adversely affected society, resulting in ext
 {{</citation>}}
 
 
-### (58/112) Self-Convinced Prompting: Few-Shot Question Answering with Repeated Introspection (Haodi Zhang et al., 2023)
+### (58/115) Self-Convinced Prompting: Few-Shot Question Answering with Repeated Introspection (Haodi Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1309,7 +1310,7 @@ Haodi Zhang, Min Cai, Xinhe Zhang, Chen Jason Zhang, Rui Mao, Kaishun Wu. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: ChatGPT, Few-Shot, GPT, PaLM, Question Answering  
-[Paper Link](http://arxiv.org/abs/2310.05035v1)  
+[Paper Link](http://arxiv.org/abs/2310.05035v2)  
 
 ---
 
@@ -1320,7 +1321,7 @@ While large language models (LLMs) such as ChatGPT and PaLM have demonstrated re
 {{</citation>}}
 
 
-### (59/112) Counter Turing Test CT^2: AI-Generated Text Detection is Not as Easy as You May Think -- Introducing AI Detectability Index (Megha Chakraborty et al., 2023)
+### (59/115) Counter Turing Test CT^2: AI-Generated Text Detection is Not as Easy as You May Think -- Introducing AI Detectability Index (Megha Chakraborty et al., 2023)
 
 {{<citation>}}
 
@@ -1342,7 +1343,7 @@ With the rise of prolific ChatGPT, the risk and consequences of AI-generated tex
 {{</citation>}}
 
 
-### (60/112) Synslator: An Interactive Machine Translation Tool with Online Learning (Jiayi Wang et al., 2023)
+### (60/115) Synslator: An Interactive Machine Translation Tool with Online Learning (Jiayi Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1364,7 +1365,7 @@ Interactive machine translation (IMT) has emerged as a progression of the comput
 {{</citation>}}
 
 
-### (61/112) MinPrompt: Graph-based Minimal Prompt Data Augmentation for Few-shot Question Answering (Xiusi Chen et al., 2023)
+### (61/115) MinPrompt: Graph-based Minimal Prompt Data Augmentation for Few-shot Question Answering (Xiusi Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1386,7 +1387,7 @@ Few-shot question answering (QA) aims at achieving satisfactory results on machi
 {{</citation>}}
 
 
-### (62/112) Self-Knowledge Guided Retrieval Augmentation for Large Language Models (Yile Wang et al., 2023)
+### (62/115) Self-Knowledge Guided Retrieval Augmentation for Large Language Models (Yile Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1408,7 +1409,7 @@ Large language models (LLMs) have shown superior performance without task-specif
 {{</citation>}}
 
 
-### (63/112) Distantly-Supervised Joint Entity and Relation Extraction with Noise-Robust Learning (Yufei Li et al., 2023)
+### (63/115) Distantly-Supervised Joint Entity and Relation Extraction with Noise-Robust Learning (Yufei Li et al., 2023)
 
 {{<citation>}}
 
@@ -1430,7 +1431,7 @@ Joint entity and relation extraction is a process that identifies entity pairs a
 {{</citation>}}
 
 
-### (64/112) MULTISCRIPT: Multimodal Script Learning for Supporting Open Domain Everyday Tasks (Jingyuan Qi et al., 2023)
+### (64/115) MULTISCRIPT: Multimodal Script Learning for Supporting Open Domain Everyday Tasks (Jingyuan Qi et al., 2023)
 
 {{<citation>}}
 
@@ -1452,7 +1453,7 @@ Automatically generating scripts (i.e. sequences of key steps described in text)
 {{</citation>}}
 
 
-### (65/112) Exploring the Usage of Chinese Pinyin in Pretraining (Baojun Wang et al., 2023)
+### (65/115) Exploring the Usage of Chinese Pinyin in Pretraining (Baojun Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1474,7 +1475,7 @@ Unlike alphabetic languages, Chinese spelling and pronunciation are different. B
 {{</citation>}}
 
 
-### (66/112) Domain Knowledge Graph Construction Via A Simple Checker (Yueling Zeng et al., 2023)
+### (66/115) Domain Knowledge Graph Construction Via A Simple Checker (Yueling Zeng et al., 2023)
 
 {{<citation>}}
 
@@ -1500,7 +1501,7 @@ With the availability of large language models, there is a growing interest for 
 
 
 
-### (67/112) HypoCompass: Large-Language-Model-based Tutor for Hypothesis Construction in Debugging for Novices (Qianou Ma et al., 2023)
+### (67/115) HypoCompass: Large-Language-Model-based Tutor for Hypothesis Construction in Debugging for Novices (Qianou Ma et al., 2023)
 
 {{<citation>}}
 
@@ -1522,7 +1523,7 @@ With the prevalence of imperfect but capable LLMs in software development, it be
 {{</citation>}}
 
 
-### (68/112) MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients' Journaling (Taewan Kim et al., 2023)
+### (68/115) MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients' Journaling (Taewan Kim et al., 2023)
 
 {{<citation>}}
 
@@ -1544,389 +1545,33 @@ In the mental health domain, Large Language Models (LLMs) offer promising new op
 {{</citation>}}
 
 
-## cs.CV (17)
+## cs.AI (15)
 
 
 
-### (69/112) Transforming Pixels into a Masterpiece: AI-Powered Art Restoration using a Novel Distributed Denoising CNN (DDCNN) (Sankar B. et al., 2023)
+### (69/115) Measuring reasoning capabilities of ChatGPT (Adrian Groza, 2023)
 
 {{<citation>}}
 
-Sankar B., Mukil Saravanan, Kalaivanan Kumar, Siri Dubbaka. (2023)  
-**Transforming Pixels into a Masterpiece: AI-Powered Art Restoration using a Novel Distributed Denoising CNN (DDCNN)**  
+Adrian Groza. (2023)  
+**Measuring reasoning capabilities of ChatGPT**  
 
 ---
-Primary Category: cs.CV  
-Categories: I-2; I-4; I-5, cs-AI, cs-CV, cs.CV, eess-IV  
-Keywords: AI, Computer Vision  
-[Paper Link](http://arxiv.org/abs/2310.05270v1)  
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keywords: BARD, ChatGPT, GPT  
+[Paper Link](http://arxiv.org/abs/2310.05993v1)  
 
 ---
 
 
 **ABSTRACT**  
-Art restoration is crucial for preserving cultural heritage, but traditional methods have limitations in faithfully reproducing original artworks while addressing issues like fading, staining, and damage. We present an innovative approach using deep learning, specifically Convolutional Neural Networks (CNNs), and Computer Vision techniques to revolutionize art restoration. We start by creating a diverse dataset of deteriorated art images with various distortions and degradation levels. This dataset trains a Distributed Denoising CNN (DDCNN) to remove distortions while preserving intricate details. Our method is adaptable to different distortion types and levels, making it suitable for various deteriorated artworks, including paintings, sketches, and photographs. Extensive experiments demonstrate our approach's efficiency and effectiveness compared to other Denoising CNN models. We achieve a substantial reduction in distortion, transforming deteriorated artworks into masterpieces. Quantitative evaluations confirm our method's superiority over traditional techniques, reshaping the art restoration field and preserving cultural heritage. In summary, our paper introduces an AI-powered solution that combines Computer Vision and deep learning with DDCNN to restore artworks accurately, overcoming limitations and paving the way for future advancements in art restoration.
+I shall quantify the logical faults generated by ChatGPT when applied to reasoning tasks. For experiments, I use the 144 puzzles from the library \url{https://users.utcluj.ro/~agroza/puzzles/maloga}~\cite{groza:fol}. The library contains puzzles of various types, including arithmetic puzzles, logical equations, Sudoku-like puzzles, zebra-like puzzles, truth-telling puzzles, grid puzzles, strange numbers, or self-reference puzzles. The correct solutions for these puzzles were checked using the theorem prover Prover9~\cite{mccune2005release} and the finite models finder Mace4~\cite{mccune2003mace4} based on human-modelling in Equational First Order Logic. A first output of this study is the benchmark of 100 logical puzzles. For this dataset ChatGPT provided both correct answer and justification for 7\% only. %, while BARD for 5\%. Since the dataset seems challenging, the researchers are invited to test the dataset on more advanced or tuned models than ChatGPT3.5 with more crafted prompts. A second output is the classification of reasoning faults conveyed by ChatGPT. This classification forms a basis for a taxonomy of reasoning faults generated by large language models. I have identified 67 such logical faults, among which: inconsistencies, implication does not hold, unsupported claim, lack of commonsense, wrong justification. The 100 solutions generated by ChatGPT contain 698 logical faults. That is on average, 7 fallacies for each reasoning task. A third ouput is the annotated answers of the ChatGPT with the corresponding logical faults. Each wrong statement within the ChatGPT answer was manually annotated, aiming to quantify the amount of faulty text generated by the language model. On average, 26.03\% from the generated text was a logical fault.
 
 {{</citation>}}
 
 
-### (70/112) Persis: A Persian Font Recognition Pipeline Using Convolutional Neural Networks (Mehrdad Mohammadian et al., 2023)
-
-{{<citation>}}
-
-Mehrdad Mohammadian, Neda Maleki, Tobias Olsson, Fredrik Ahlgren. (2023)  
-**Persis: A Persian Font Recognition Pipeline Using Convolutional Neural Networks**  
-
----
-Primary Category: cs.CV  
-Categories: cs-AI, cs-CV, cs.CV  
-Keywords: OCR  
-[Paper Link](http://arxiv.org/abs/2310.05255v1)  
-
----
-
-
-**ABSTRACT**  
-What happens if we encounter a suitable font for our design work but do not know its name? Visual Font Recognition (VFR) systems are used to identify the font typeface in an image. These systems can assist graphic designers in identifying fonts used in images. A VFR system also aids in improving the speed and accuracy of Optical Character Recognition (OCR) systems. In this paper, we introduce the first publicly available datasets in the field of Persian font recognition and employ Convolutional Neural Networks (CNN) to address this problem. The results show that the proposed pipeline obtained 78.0% top-1 accuracy on our new datasets, 89.1% on the IDPL-PFOD dataset, and 94.5% on the KAFD dataset. Furthermore, the average time spent in the entire pipeline for one sample of our proposed datasets is 0.54 and 0.017 seconds for CPU and GPU, respectively. We conclude that CNN methods can be used to recognize Persian fonts without the need for additional pre-processing steps such as feature extraction, binarization, normalization, etc.
-
-{{</citation>}}
-
-
-### (71/112) GMMFormer: Gaussian-Mixture-Model based Transformer for Efficient Partially Relevant Video Retrieval (Yuting Wang et al., 2023)
-
-{{<citation>}}
-
-Yuting Wang, Jinpeng Wang, Bin Chen, Ziyun Zeng, Shu-Tao Xia. (2023)  
-**GMMFormer: Gaussian-Mixture-Model based Transformer for Efficient Partially Relevant Video Retrieval**  
-
----
-Primary Category: cs.CV  
-Categories: cs-AI, cs-CV, cs-IR, cs-MM, cs.CV  
-Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2310.05195v1)  
-
----
-
-
-**ABSTRACT**  
-Given a text query, partially relevant video retrieval (PRVR) seeks to find untrimmed videos containing pertinent moments in a database. For PRVR, clip modeling is essential to capture the partial relationship between texts and videos. Current PRVR methods adopt scanning-based clip construction to achieve explicit clip modeling, which is information-redundant and requires a large storage overhead. To solve the efficiency problem of PRVR methods, this paper proposes GMMFormer, a \textbf{G}aussian-\textbf{M}ixture-\textbf{M}odel based Trans\textbf{former} which models clip representations implicitly. During frame interactions, we incorporate Gaussian-Mixture-Model constraints to focus each frame on its adjacent frames instead of the whole video. Then generated representations will contain multi-scale clip information, achieving implicit clip modeling. In addition, PRVR methods ignore semantic differences between text queries relevant to the same video, leading to a sparse embedding space. We propose a query diverse loss to distinguish these text queries, making the embedding space more intensive and contain more semantic information. Extensive experiments on three large-scale video datasets (\ie, TVR, ActivityNet Captions, and Charades-STA) demonstrate the superiority and efficiency of GMMFormer.
-
-{{</citation>}}
-
-
-### (72/112) Improving Discriminative Multi-Modal Learning with Large-Scale Pre-Trained Models (Chenzhuang Du et al., 2023)
-
-{{<citation>}}
-
-Chenzhuang Du, Yue Zhao, Chonghua Liao, Jiacheng You, Jie Fu, Hang Zhao. (2023)  
-**Improving Discriminative Multi-Modal Learning with Large-Scale Pre-Trained Models**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Pre-Trained Model  
-[Paper Link](http://arxiv.org/abs/2310.05193v1)  
-
----
-
-
-**ABSTRACT**  
-This paper investigates how to better leverage large-scale pre-trained uni-modal models to further enhance discriminative multi-modal learning. Even when fine-tuned with only uni-modal data, these models can outperform previous multi-modal models in certain tasks. It's clear that their incorporation into multi-modal learning would significantly improve performance. However, multi-modal learning with these models still suffers from insufficient learning of uni-modal features, which weakens the resulting multi-modal model's generalization ability. While fine-tuning uni-modal models separately and then aggregating their predictions is straightforward, it doesn't allow for adequate adaptation between modalities, also leading to sub-optimal results. To this end, we introduce Multi-Modal Low-Rank Adaptation learning (MMLoRA). By freezing the weights of uni-modal fine-tuned models, adding extra trainable rank decomposition matrices to them, and subsequently performing multi-modal joint training, our method enhances adaptation between modalities and boosts overall performance. We demonstrate the effectiveness of MMLoRA on three dataset categories: audio-visual (e.g., AVE, Kinetics-Sound, CREMA-D), vision-language (e.g., MM-IMDB, UPMC Food101), and RGB-Optical Flow (UCF101).
-
-{{</citation>}}
-
-
-### (73/112) HOD: A Benchmark Dataset for Harmful Object Detection (Eungyeom Ha et al., 2023)
-
-{{<citation>}}
-
-Eungyeom Ha, Heemook Kim, Sung Chul Hong, Dongbin Na. (2023)  
-**HOD: A Benchmark Dataset for Harmful Object Detection**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2310.05192v1)  
-
----
-
-
-**ABSTRACT**  
-Recent multi-media data such as images and videos have been rapidly spread out on various online services such as social network services (SNS). With the explosive growth of online media services, the number of image content that may harm users is also growing exponentially. Thus, most recent online platforms such as Facebook and Instagram have adopted content filtering systems to prevent the prevalence of harmful content and reduce the possible risk of adverse effects on users. Unfortunately, computer vision research on detecting harmful content has not yet attracted attention enough. Users of each platform still manually click the report button to recognize patterns of harmful content they dislike when exposed to harmful content. However, the problem with manual reporting is that users are already exposed to harmful content. To address these issues, our research goal in this work is to develop automatic harmful object detection systems for online services. We present a new benchmark dataset for harmful object detection. Unlike most related studies focusing on a small subset of object categories, our dataset addresses various categories. Specifically, our proposed dataset contains more than 10,000 images across 6 categories that might be harmful, consisting of not only normal cases but also hard cases that are difficult to detect. Moreover, we have conducted extensive experiments to evaluate the effectiveness of our proposed dataset. We have utilized the recently proposed state-of-the-art (SOTA) object detection architectures and demonstrated our proposed dataset can be greatly useful for the real-time harmful object detection task. The whole source codes and datasets are publicly accessible at https://github.com/poori-nuna/HOD-Benchmark-Dataset.
-
-{{</citation>}}
-
-
-### (74/112) Geometry Aware Field-to-field Transformations for 3D Semantic Segmentation (Dominik Hollidt et al., 2023)
-
-{{<citation>}}
-
-Dominik Hollidt, Clinton Wang, Polina Golland, Marc Pollefeys. (2023)  
-**Geometry Aware Field-to-field Transformations for 3D Semantic Segmentation**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs-LG, cs.CV  
-Keywords: Semantic Segmentation  
-[Paper Link](http://arxiv.org/abs/2310.05133v1)  
-
----
-
-
-**ABSTRACT**  
-We present a novel approach to perform 3D semantic segmentation solely from 2D supervision by leveraging Neural Radiance Fields (NeRFs). By extracting features along a surface point cloud, we achieve a compact representation of the scene which is sample-efficient and conducive to 3D reasoning. Learning this feature space in an unsupervised manner via masked autoencoding enables few-shot segmentation. Our method is agnostic to the scene parameterization, working on scenes fit with any type of NeRF.
-
-{{</citation>}}
-
-
-### (75/112) UReader: Universal OCR-free Visually-situated Language Understanding with Multimodal Large Language Model (Jiabo Ye et al., 2023)
-
-{{<citation>}}
-
-Jiabo Ye, Anwen Hu, Haiyang Xu, Qinghao Ye, Ming Yan, Guohai Xu, Chenliang Li, Junfeng Tian, Qi Qian, Ji Zhang, Qin Jin, Liang He, Xin Alex Lin, Fei Huang. (2023)  
-**UReader: Universal OCR-free Visually-situated Language Understanding with Multimodal Large Language Model**  
-
----
-Primary Category: cs.CV  
-Categories: cs-AI, cs-CV, cs.CV  
-Keywords: Language Model, OCR  
-[Paper Link](http://arxiv.org/abs/2310.05126v1)  
-
----
-
-
-**ABSTRACT**  
-Text is ubiquitous in our visual world, conveying crucial information, such as in documents, websites, and everyday photographs. In this work, we propose UReader, a first exploration of universal OCR-free visually-situated language understanding based on the Multimodal Large Language Model (MLLM). By leveraging the shallow text recognition ability of the MLLM, we only finetuned 1.2% parameters and the training cost is much lower than previous work following domain-specific pretraining and finetuning paradigms. Concretely, UReader is jointly finetuned on a wide range of Visually-situated Language Understanding tasks via a unified instruction format. To enhance the visual text and semantic understanding, we further apply two auxiliary tasks with the same format, namely text reading and key points generation tasks. We design a shape-adaptive cropping module before the encoder-decoder architecture of MLLM to leverage the frozen low-resolution vision encoder for processing high-resolution images. Without downstream finetuning, our single model achieves state-of-the-art ocr-free performance in 8 out of 10 visually-situated language understanding tasks, across 5 domains: documents, tables, charts, natural images, and webpage screenshots. Codes and instruction-tuning datasets will be released.
-
-{{</citation>}}
-
-
-### (76/112) Cross-domain Robust Deepfake Bias Expansion Network for Face Forgery Detection (Weihua Liu et al., 2023)
-
-{{<citation>}}
-
-Weihua Liu, Lin Li, Chaochao Lin, Said Boumaraf. (2023)  
-**Cross-domain Robust Deepfake Bias Expansion Network for Face Forgery Detection**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Attention, Bias  
-[Paper Link](http://arxiv.org/abs/2310.05124v1)  
-
----
-
-
-**ABSTRACT**  
-The rapid advancement of deepfake technologies raises significant concerns about the security of face recognition systems. While existing methods leverage the clues left by deepfake techniques for face forgery detection, malicious users may intentionally manipulate forged faces to obscure the traces of deepfake clues and thereby deceive detection tools. Meanwhile, attaining cross-domain robustness for data-based methods poses a challenge due to potential gaps in the training data, which may not encompass samples from all relevant domains. Therefore, in this paper, we introduce a solution - a Cross-Domain Robust Bias Expansion Network (BENet) - designed to enhance face forgery detection. BENet employs an auto-encoder to reconstruct input faces, maintaining the invariance of real faces while selectively enhancing the difference between reconstructed fake faces and their original counterparts. This enhanced bias forms a robust foundation upon which dependable forgery detection can be built. To optimize the reconstruction results in BENet, we employ a bias expansion loss infused with contrastive concepts to attain the aforementioned objective. In addition, to further heighten the amplification of forged clues, BENet incorporates a Latent-Space Attention (LSA) module. This LSA module effectively captures variances in latent features between the auto-encoder's encoder and decoder, placing emphasis on inconsistent forgery-related information. Furthermore, BENet incorporates a cross-domain detector with a threshold to determine whether the sample belongs to a known distribution. The correction of classification results through the cross-domain detector enables BENet to defend against unknown deepfake attacks from cross-domain. Extensive experiments demonstrate the superiority of BENet compared with state-of-the-art methods in intra-database and cross-database evaluations.
-
-{{</citation>}}
-
-
-### (77/112) Enhancing Representations through Heterogeneous Self-Supervised Learning (Zhong-Yu Li et al., 2023)
-
-{{<citation>}}
-
-Zhong-Yu Li, Bo-Wen Yin, Shanghua Gao, Yongxiang Liu, Li Liu, Ming-Ming Cheng. (2023)  
-**Enhancing Representations through Heterogeneous Self-Supervised Learning**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Self-Supervised  
-[Paper Link](http://arxiv.org/abs/2310.05108v1)  
-
----
-
-
-**ABSTRACT**  
-Incorporating heterogeneous representations from different architectures has facilitated various vision tasks, e.g., some hybrid networks combine transformers and convolutions. However, complementarity between such heterogeneous architectures has not been well exploited in self-supervised learning. Thus, we propose Heterogeneous Self-Supervised Learning (HSSL), which enforces a base model to learn from an auxiliary head whose architecture is heterogeneous from the base model. In this process, HSSL endows the base model with new characteristics in a representation learning way without structural changes. To comprehensively understand the HSSL, we conduct experiments on various heterogeneous pairs containing a base model and an auxiliary head. We discover that the representation quality of the base model moves up as their architecture discrepancy grows. This observation motivates us to propose a search strategy that quickly determines the most suitable auxiliary head for a specific base model to learn and several simple but effective methods to enlarge the model discrepancy. The HSSL is compatible with various self-supervised methods, achieving superior performances on various downstream tasks, including image classification, semantic segmentation, instance segmentation, and object detection. Our source code will be made publicly available.
-
-{{</citation>}}
-
-
-### (78/112) OV-PARTS: Towards Open-Vocabulary Part Segmentation (Meng Wei et al., 2023)
-
-{{<citation>}}
-
-Meng Wei, Xiaoyu Yue, Wenwei Zhang, Shu Kong, Xihui Liu, Jiangmiao Pang. (2023)  
-**OV-PARTS: Towards Open-Vocabulary Part Segmentation**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Few-Shot, Semantic Segmentation, Zero-Shot  
-[Paper Link](http://arxiv.org/abs/2310.05107v1)  
-
----
-
-
-**ABSTRACT**  
-Segmenting and recognizing diverse object parts is a crucial ability in applications spanning various computer vision and robotic tasks. While significant progress has been made in object-level Open-Vocabulary Semantic Segmentation (OVSS), i.e., segmenting objects with arbitrary text, the corresponding part-level research poses additional challenges. Firstly, part segmentation inherently involves intricate boundaries, while limited annotated data compounds the challenge. Secondly, part segmentation introduces an open granularity challenge due to the diverse and often ambiguous definitions of parts in the open world. Furthermore, the large-scale vision and language models, which play a key role in the open vocabulary setting, struggle to recognize parts as effectively as objects. To comprehensively investigate and tackle these challenges, we propose an Open-Vocabulary Part Segmentation (OV-PARTS) benchmark. OV-PARTS includes refined versions of two publicly available datasets: Pascal-Part-116 and ADE20K-Part-234. And it covers three specific tasks: Generalized Zero-Shot Part Segmentation, Cross-Dataset Part Segmentation, and Few-Shot Part Segmentation, providing insights into analogical reasoning, open granularity and few-shot adapting abilities of models. Moreover, we analyze and adapt two prevailing paradigms of existing object-level OVSS methods for OV-PARTS. Extensive experimental analysis is conducted to inspire future research in leveraging foundational models for OV-PARTS. The code and dataset are available at https://github.com/OpenRobotLab/OV_PARTS.
-
-{{</citation>}}
-
-
-### (79/112) Video-CSR: Complex Video Digest Creation for Visual-Language Models (Tingkai Liu et al., 2023)
-
-{{<citation>}}
-
-Tingkai Liu, Yunzhe Tao, Haogeng Liu, Qihang Fan, Ding Zhou, Huaibo Huang, Ran He, Hongxia Yang. (2023)  
-**Video-CSR: Complex Video Digest Creation for Visual-Language Models**  
-
----
-Primary Category: cs.CV  
-Categories: cs-AI, cs-CV, cs.CV  
-Keywords: Language Model, Summarization  
-[Paper Link](http://arxiv.org/abs/2310.05060v1)  
-
----
-
-
-**ABSTRACT**  
-We present a novel task and human annotated dataset for evaluating the ability for visual-language models to generate captions and summaries for real-world video clips, which we call Video-CSR (Captioning, Summarization and Retrieval). The dataset contains 4.8K YouTube video clips of 20-60 seconds in duration and covers a wide range of topics and interests. Each video clip corresponds to 5 independently annotated captions (1 sentence) and summaries (3-10 sentences). Given any video selected from the dataset and its corresponding ASR information, we evaluate visual-language models on either caption or summary generation that is grounded in both the visual and auditory content of the video. Additionally, models are also evaluated on caption- and summary-based retrieval tasks, where the summary-based retrieval task requires the identification of a target video given excerpts of a corresponding summary. Given the novel nature of the paragraph-length video summarization task, we perform extensive comparative analyses of different existing evaluation metrics and their alignment with human preferences. Finally, we propose a foundation model with competitive generation and retrieval capabilities that serves as a baseline for the Video-CSR task. We aim for Video-CSR to serve as a useful evaluation set in the age of large language models and complex multi-modal tasks.
-
-{{</citation>}}
-
-
-### (80/112) FairTune: Optimizing Parameter Efficient Fine Tuning for Fairness in Medical Image Analysis (Raman Dutt et al., 2023)
-
-{{<citation>}}
-
-Raman Dutt, Ondrej Bohdal, Sotirios A. Tsaftaris, Timothy Hospedales. (2023)  
-**FairTune: Optimizing Parameter Efficient Fine Tuning for Fairness in Medical Image Analysis**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2310.05055v1)  
-
----
-
-
-**ABSTRACT**  
-Training models with robust group fairness properties is crucial in ethically sensitive application areas such as medical diagnosis. Despite the growing body of work aiming to minimise demographic bias in AI, this problem remains challenging. A key reason for this challenge is the fairness generalisation gap: High-capacity deep learning models can fit all training data nearly perfectly, and thus also exhibit perfect fairness during training. In this case, bias emerges only during testing when generalisation performance differs across subgroups. This motivates us to take a bi-level optimisation perspective on fair learning: Optimising the learning strategy based on validation fairness. Specifically, we consider the highly effective workflow of adapting pre-trained models to downstream medical imaging tasks using parameter-efficient fine-tuning (PEFT) techniques. There is a trade-off between updating more parameters, enabling a better fit to the task of interest vs. fewer parameters, potentially reducing the generalisation gap. To manage this tradeoff, we propose FairTune, a framework to optimise the choice of PEFT parameters with respect to fairness. We demonstrate empirically that FairTune leads to improved fairness on a range of medical imaging datasets.
-
-{{</citation>}}
-
-
-### (81/112) Low-Resolution Self-Attention for Semantic Segmentation (Yu-Huan Wu et al., 2023)
-
-{{<citation>}}
-
-Yu-Huan Wu, Shi-Chen Zhang, Yun Liu, Le Zhang, Xin Zhan, Daquan Zhou, Jiashi Feng, Ming-Ming Cheng, Liangli Zhen. (2023)  
-**Low-Resolution Self-Attention for Semantic Segmentation**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Attention, Self-Attention, Semantic Segmentation  
-[Paper Link](http://arxiv.org/abs/2310.05026v1)  
-
----
-
-
-**ABSTRACT**  
-Semantic segmentation tasks naturally require high-resolution information for pixel-wise segmentation and global context information for class prediction. While existing vision transformers demonstrate promising performance, they often utilize high resolution context modeling, resulting in a computational bottleneck. In this work, we challenge conventional wisdom and introduce the Low-Resolution Self-Attention (LRSA) mechanism to capture global context at a significantly reduced computational cost. Our approach involves computing self-attention in a fixed low-resolution space regardless of the input image's resolution, with additional 3x3 depth-wise convolutions to capture fine details in the high-resolution space. We demonstrate the effectiveness of our LRSA approach by building the LRFormer, a vision transformer with an encoder-decoder structure. Extensive experiments on the ADE20K, COCO-Stuff, and Cityscapes datasets demonstrate that LRFormer outperforms state-of-the-art models. The code will be made available at https://github.com/yuhuan-wu/LRFormer.
-
-{{</citation>}}
-
-
-### (82/112) Single Stage Warped Cloth Learning and Semantic-Contextual Attention Feature Fusion for Virtual TryOn (Sanhita Pathak et al., 2023)
-
-{{<citation>}}
-
-Sanhita Pathak, Vinay Kaushik, Brejesh Lall. (2023)  
-**Single Stage Warped Cloth Learning and Semantic-Contextual Attention Feature Fusion for Virtual TryOn**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2310.05024v1)  
-
----
-
-
-**ABSTRACT**  
-Image-based virtual try-on aims to fit an in-shop garment onto a clothed person image. Garment warping, which aligns the target garment with the corresponding body parts in the person image, is a crucial step in achieving this goal. Existing methods often use multi-stage frameworks to handle clothes warping, person body synthesis and tryon generation separately or rely on noisy intermediate parser-based labels. We propose a novel single-stage framework that implicitly learns the same without explicit multi-stage learning. Our approach utilizes a novel semantic-contextual fusion attention module for garment-person feature fusion, enabling efficient and realistic cloth warping and body synthesis from target pose keypoints. By introducing a lightweight linear attention framework that attends to garment regions and fuses multiple sampled flow fields, we also address misalignment and artifacts present in previous methods. To achieve simultaneous learning of warped garment and try-on results, we introduce a Warped Cloth Learning Module. WCLM uses segmented warped garments as ground truth, operating within a single-stage paradigm. Our proposed approach significantly improves the quality and efficiency of virtual try-on methods, providing users with a more reliable and realistic virtual try-on experience. We evaluate our method on the VITON dataset and demonstrate its state-of-the-art performance in terms of both qualitative and quantitative metrics.
-
-{{</citation>}}
-
-
-### (83/112) Detecting Abnormal Health Conditions in Smart Home Using a Drone (Pronob Kumar Barman, 2023)
-
-{{<citation>}}
-
-Pronob Kumar Barman. (2023)  
-**Detecting Abnormal Health Conditions in Smart Home Using a Drone**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Drone  
-[Paper Link](http://arxiv.org/abs/2310.05012v1)  
-
----
-
-
-**ABSTRACT**  
-Nowadays, detecting aberrant health issues is a difficult process. Falling, especially among the elderly, is a severe concern worldwide. Falls can result in deadly consequences, including unconsciousness, internal bleeding, and often times, death. A practical and optimal, smart approach of detecting falling is currently a concern. The use of vision-based fall monitoring is becoming more common among scientists as it enables senior citizens and those with other health conditions to live independently. For tracking, surveillance, and rescue, unmanned aerial vehicles use video or image segmentation and object detection methods. The Tello drone is equipped with a camera and with this device we determined normal and abnormal behaviors among our participants. The autonomous falling objects are classified using a convolutional neural network (CNN) classifier. The results demonstrate that the systems can identify falling objects with a precision of 0.9948.
-
-{{</citation>}}
-
-
-### (84/112) Symmetrical Linguistic Feature Distillation with CLIP for Scene Text Recognition (Zixiao Wang et al., 2023)
-
-{{<citation>}}
-
-Zixiao Wang, Hongtao Xie, Yuxin Wang, Jianjun Xu, Boqiang Zhang. (2023)  
-**Symmetrical Linguistic Feature Distillation with CLIP for Scene Text Recognition**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: OCR  
-[Paper Link](http://arxiv.org/abs/2310.04999v1)  
-
----
-
-
-**ABSTRACT**  
-In this paper, we explore the potential of the Contrastive Language-Image Pretraining (CLIP) model in scene text recognition (STR), and establish a novel Symmetrical Linguistic Feature Distillation framework (named CLIP-OCR) to leverage both visual and linguistic knowledge in CLIP. Different from previous CLIP-based methods mainly considering feature generalization on visual encoding, we propose a symmetrical distillation strategy (SDS) that further captures the linguistic knowledge in the CLIP text encoder. By cascading the CLIP image encoder with the reversed CLIP text encoder, a symmetrical structure is built with an image-to-text feature flow that covers not only visual but also linguistic information for distillation.Benefiting from the natural alignment in CLIP, such guidance flow provides a progressive optimization objective from vision to language, which can supervise the STR feature forwarding process layer-by-layer.Besides, a new Linguistic Consistency Loss (LCL) is proposed to enhance the linguistic capability by considering second-order statistics during the optimization. Overall, CLIP-OCR is the first to design a smooth transition between image and text for the STR task.Extensive experiments demonstrate the effectiveness of CLIP-OCR with 93.8% average accuracy on six popular STR benchmarks.Code will be available at https://github.com/wzx99/CLIPOCR.
-
-{{</citation>}}
-
-
-### (85/112) Compositional Semantics for Open Vocabulary Spatio-semantic Representations (Robin Karlsson et al., 2023)
-
-{{<citation>}}
-
-Robin Karlsson, Francisco Lepe-Salazar, Kazuya Takeda. (2023)  
-**Compositional Semantics for Open Vocabulary Spatio-semantic Representations**  
-
----
-Primary Category: cs.CV  
-Categories: I-2-10; I-2-9, cs-CV, cs-LG, cs.CV  
-Keywords: BERT  
-[Paper Link](http://arxiv.org/abs/2310.04981v1)  
-
----
-
-
-**ABSTRACT**  
-General-purpose mobile robots need to complete tasks without exact human instructions. Large language models (LLMs) is a promising direction for realizing commonsense world knowledge and reasoning-based planning. Vision-language models (VLMs) transform environment percepts into vision-language semantics interpretable by LLMs. However, completing complex tasks often requires reasoning about information beyond what is currently perceived. We propose latent compositional semantic embeddings z* as a principled learning-based knowledge representation for queryable spatio-semantic memories. We mathematically prove that z* can always be found, and the optimal z* is the centroid for any set Z. We derive a probabilistic bound for estimating separability of related and unrelated semantics. We prove that z* is discoverable by iterative optimization by gradient descent from visual appearance and singular descriptions. We experimentally verify our findings on four embedding spaces incl. CLIP and SBERT. Our results show that z* can represent up to 10 semantics encoded by SBERT, and up to 100 semantics for ideal uniformly distributed high-dimensional embeddings. We demonstrate that a simple dense VLM trained on the COCO-Stuff dataset can learn z* for 181 overlapping semantics by 42.23 mIoU, while improving conventional non-overlapping open-vocabulary segmentation performance by +3.48 mIoU compared with a popular SOTA model.
-
-{{</citation>}}
-
-
-## cs.AI (14)
-
-
-
-### (86/112) A Knowledge Graph-Based Search Engine for Robustly Finding Doctors and Locations in the Healthcare Domain (Mayank Kejriwal et al., 2023)
+### (70/115) A Knowledge Graph-Based Search Engine for Robustly Finding Doctors and Locations in the Healthcare Domain (Mayank Kejriwal et al., 2023)
 
 {{<citation>}}
 
@@ -1948,7 +1593,7 @@ Efficiently finding doctors and locations is an important search problem for pat
 {{</citation>}}
 
 
-### (87/112) Evolutionary Retrosynthetic Route Planning (Yan Zhang et al., 2023)
+### (71/115) Evolutionary Retrosynthetic Route Planning (Yan Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1970,7 +1615,7 @@ Molecular retrosynthesis is a significant and complex problem in the field of ch
 {{</citation>}}
 
 
-### (88/112) Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction (Haoran Luo et al., 2023)
+### (72/115) Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction (Haoran Luo et al., 2023)
 
 {{<citation>}}
 
@@ -1992,7 +1637,7 @@ Beyond traditional binary relational facts, n-ary relational knowledge graphs (N
 {{</citation>}}
 
 
-### (89/112) Hieros: Hierarchical Imagination on Structured State Space Sequence World Models (Paul Mattes et al., 2023)
+### (73/115) Hieros: Hierarchical Imagination on Structured State Space Sequence World Models (Paul Mattes et al., 2023)
 
 {{<citation>}}
 
@@ -2003,18 +1648,18 @@ Paul Mattes, Rainer Schlosser, Ralf Herbrich. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2310.05167v1)  
+[Paper Link](http://arxiv.org/abs/2310.05167v2)  
 
 ---
 
 
 **ABSTRACT**  
-One of the biggest challenges to modern deep reinforcement learning (DRL) algorithms is sample efficiency. Many approaches learn a world model in order to train an agent entirely in imagination, eliminating the need for direct environment interaction during training. However, these methods often suffer from either a lack of imagination accuracy, exploration capabilities, or runtime efficiency. We propose \hieros, a hierarchical policy that learns time abstracted world representations and imagines trajectories at multiple time scales in latent space. \hieros uses an S5 layer-based world model, which predicts next world states in parallel during training and iteratively during environment interaction. Due to the special properties of S5 layers, our method can train in parallel and predict next world states iteratively during imagination. This allows for more efficient training than RNN-based world models and more efficient imagination than Transformer-based world models.   We show that our approach outperforms the state of the art in terms of mean and median normalized human score on the Atari 100k benchmark, and that our proposed world model is able to predict complex dynamics very accurately. We also show that \hieros displays superior exploration capabilities compared to existing approaches.
+One of the biggest challenges to modern deep reinforcement learning (DRL) algorithms is sample efficiency. Many approaches learn a world model in order to train an agent entirely in imagination, eliminating the need for direct environment interaction during training. However, these methods often suffer from either a lack of imagination accuracy, exploration capabilities, or runtime efficiency. We propose Hieros, a hierarchical policy that learns time abstracted world representations and imagines trajectories at multiple time scales in latent space. Hieros uses an S5 layer-based world model, which predicts next world states in parallel during training and iteratively during environment interaction. Due to the special properties of S5 layers, our method can train in parallel and predict next world states iteratively during imagination. This allows for more efficient training than RNN-based world models and more efficient imagination than Transformer-based world models.   We show that our approach outperforms the state of the art in terms of mean and median normalized human score on the Atari 100k benchmark, and that our proposed world model is able to predict complex dynamics very accurately. We also show that Hieros displays superior exploration capabilities compared to existing approaches.
 
 {{</citation>}}
 
 
-### (90/112) Large Language Model (LLM) as a System of Multiple Expert Agents: An Approach to solve the Abstraction and Reasoning Corpus (ARC) Challenge (John Chong Min Tan et al., 2023)
+### (74/115) Large Language Model (LLM) as a System of Multiple Expert Agents: An Approach to solve the Abstraction and Reasoning Corpus (ARC) Challenge (John Chong Min Tan et al., 2023)
 
 {{<citation>}}
 
@@ -2036,7 +1681,7 @@ We attempt to solve the Abstraction and Reasoning Corpus (ARC) Challenge using L
 {{</citation>}}
 
 
-### (91/112) InstructDET: Diversifying Referring Object Detection with Generalized Instructions (Ronghao Dang et al., 2023)
+### (75/115) InstructDET: Diversifying Referring Object Detection with Generalized Instructions (Ronghao Dang et al., 2023)
 
 {{<citation>}}
 
@@ -2047,7 +1692,7 @@ Ronghao Dang, Jiangyan Feng, Haodong Zhang, Chongjian Ge, Lin Song, Lijun Gong, 
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CV, cs.AI  
 Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2310.05136v1)  
+[Paper Link](http://arxiv.org/abs/2310.05136v2)  
 
 ---
 
@@ -2058,7 +1703,7 @@ We propose InstructDET, a data-centric method for referring object detection (RO
 {{</citation>}}
 
 
-### (92/112) Intelligent DRL-Based Adaptive Region of Interest for Delay-sensitive Telemedicine Applications (Abdulrahman Soliman et al., 2023)
+### (76/115) Intelligent DRL-Based Adaptive Region of Interest for Delay-sensitive Telemedicine Applications (Abdulrahman Soliman et al., 2023)
 
 {{<citation>}}
 
@@ -2080,7 +1725,7 @@ Telemedicine applications have recently received substantial potential and inter
 {{</citation>}}
 
 
-### (93/112) Learning Generalizable Agents via Saliency-Guided Features Decorrelation (Sili Huang et al., 2023)
+### (77/115) Learning Generalizable Agents via Saliency-Guided Features Decorrelation (Sili Huang et al., 2023)
 
 {{<citation>}}
 
@@ -2102,7 +1747,7 @@ In visual-based Reinforcement Learning (RL), agents often struggle to generalize
 {{</citation>}}
 
 
-### (94/112) From Text to Tactic: Evaluating LLMs Playing the Game of Avalon (Jonathan Light et al., 2023)
+### (78/115) From Text to Tactic: Evaluating LLMs Playing the Game of Avalon (Jonathan Light et al., 2023)
 
 {{<citation>}}
 
@@ -2113,7 +1758,7 @@ Jonathan Light, Min Cai, Sheng Shen, Ziniu Hu. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI  
 Keywords: ChatGPT, GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.05036v1)  
+[Paper Link](http://arxiv.org/abs/2310.05036v2)  
 
 ---
 
@@ -2124,7 +1769,7 @@ In this paper, we explore the potential of Large Language Models (LLMs) Agents i
 {{</citation>}}
 
 
-### (95/112) Revisiting Large Language Models as Zero-shot Relation Extractors (Guozheng Li et al., 2023)
+### (79/115) Revisiting Large Language Models as Zero-shot Relation Extractors (Guozheng Li et al., 2023)
 
 {{<citation>}}
 
@@ -2135,7 +1780,7 @@ Guozheng Li, Peng Wang, Wenjun Ke. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI  
 Keywords: ChatGPT, GPT, Language Model, QA  
-[Paper Link](http://arxiv.org/abs/2310.05028v1)  
+[Paper Link](http://arxiv.org/abs/2310.05028v2)  
 
 ---
 
@@ -2146,7 +1791,7 @@ Relation extraction (RE) consistently involves a certain degree of labeled or un
 {{</citation>}}
 
 
-### (96/112) Compresso: Structured Pruning with Collaborative Prompting Learns Compact Large Language Models (Song Guo et al., 2023)
+### (80/115) Compresso: Structured Pruning with Collaborative Prompting Learns Compact Large Language Models (Song Guo et al., 2023)
 
 {{<citation>}}
 
@@ -2168,7 +1813,7 @@ Despite the remarkable success of Large Language Models (LLMs), the massive size
 {{</citation>}}
 
 
-### (97/112) The Troubling Emergence of Hallucination in Large Language Models -- An Extensive Definition, Quantification, and Prescriptive Remediations (Vipula Rawte et al., 2023)
+### (81/115) The Troubling Emergence of Hallucination in Large Language Models -- An Extensive Definition, Quantification, and Prescriptive Remediations (Vipula Rawte et al., 2023)
 
 {{<citation>}}
 
@@ -2190,7 +1835,7 @@ The recent advancements in Large Language Models (LLMs) have garnered widespread
 {{</citation>}}
 
 
-### (98/112) LLM4VV: Developing LLM-Driven Testsuite for Compiler Validation (Christian Munley et al., 2023)
+### (82/115) LLM4VV: Developing LLM-Driven Testsuite for Compiler Validation (Christian Munley et al., 2023)
 
 {{<citation>}}
 
@@ -2212,7 +1857,7 @@ Large language models (LLMs) are a new and powerful tool for a wide span of appl
 {{</citation>}}
 
 
-### (99/112) CodeTransOcean: A Comprehensive Multilingual Benchmark for Code Translation (Weixiang Yan et al., 2023)
+### (83/115) CodeTransOcean: A Comprehensive Multilingual Benchmark for Code Translation (Weixiang Yan et al., 2023)
 
 {{<citation>}}
 
@@ -2234,11 +1879,389 @@ Recent code translation techniques exploit neural machine translation models to 
 {{</citation>}}
 
 
+## cs.CV (17)
+
+
+
+### (84/115) Transforming Pixels into a Masterpiece: AI-Powered Art Restoration using a Novel Distributed Denoising CNN (DDCNN) (Sankar B. et al., 2023)
+
+{{<citation>}}
+
+Sankar B., Mukil Saravanan, Kalaivanan Kumar, Siri Dubbaka. (2023)  
+**Transforming Pixels into a Masterpiece: AI-Powered Art Restoration using a Novel Distributed Denoising CNN (DDCNN)**  
+
+---
+Primary Category: cs.CV  
+Categories: I-2; I-4; I-5, cs-AI, cs-CV, cs.CV, eess-IV  
+Keywords: AI, Computer Vision  
+[Paper Link](http://arxiv.org/abs/2310.05270v1)  
+
+---
+
+
+**ABSTRACT**  
+Art restoration is crucial for preserving cultural heritage, but traditional methods have limitations in faithfully reproducing original artworks while addressing issues like fading, staining, and damage. We present an innovative approach using deep learning, specifically Convolutional Neural Networks (CNNs), and Computer Vision techniques to revolutionize art restoration. We start by creating a diverse dataset of deteriorated art images with various distortions and degradation levels. This dataset trains a Distributed Denoising CNN (DDCNN) to remove distortions while preserving intricate details. Our method is adaptable to different distortion types and levels, making it suitable for various deteriorated artworks, including paintings, sketches, and photographs. Extensive experiments demonstrate our approach's efficiency and effectiveness compared to other Denoising CNN models. We achieve a substantial reduction in distortion, transforming deteriorated artworks into masterpieces. Quantitative evaluations confirm our method's superiority over traditional techniques, reshaping the art restoration field and preserving cultural heritage. In summary, our paper introduces an AI-powered solution that combines Computer Vision and deep learning with DDCNN to restore artworks accurately, overcoming limitations and paving the way for future advancements in art restoration.
+
+{{</citation>}}
+
+
+### (85/115) Persis: A Persian Font Recognition Pipeline Using Convolutional Neural Networks (Mehrdad Mohammadian et al., 2023)
+
+{{<citation>}}
+
+Mehrdad Mohammadian, Neda Maleki, Tobias Olsson, Fredrik Ahlgren. (2023)  
+**Persis: A Persian Font Recognition Pipeline Using Convolutional Neural Networks**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: OCR  
+[Paper Link](http://arxiv.org/abs/2310.05255v2)  
+
+---
+
+
+**ABSTRACT**  
+What happens if we encounter a suitable font for our design work but do not know its name? Visual Font Recognition (VFR) systems are used to identify the font typeface in an image. These systems can assist graphic designers in identifying fonts used in images. A VFR system also aids in improving the speed and accuracy of Optical Character Recognition (OCR) systems. In this paper, we introduce the first publicly available datasets in the field of Persian font recognition and employ Convolutional Neural Networks (CNN) to address this problem. The results show that the proposed pipeline obtained 78.0% top-1 accuracy on our new datasets, 89.1% on the IDPL-PFOD dataset, and 94.5% on the KAFD dataset. Furthermore, the average time spent in the entire pipeline for one sample of our proposed datasets is 0.54 and 0.017 seconds for CPU and GPU, respectively. We conclude that CNN methods can be used to recognize Persian fonts without the need for additional pre-processing steps such as feature extraction, binarization, normalization, etc.
+
+{{</citation>}}
+
+
+### (86/115) GMMFormer: Gaussian-Mixture-Model based Transformer for Efficient Partially Relevant Video Retrieval (Yuting Wang et al., 2023)
+
+{{<citation>}}
+
+Yuting Wang, Jinpeng Wang, Bin Chen, Ziyun Zeng, Shu-Tao Xia. (2023)  
+**GMMFormer: Gaussian-Mixture-Model based Transformer for Efficient Partially Relevant Video Retrieval**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs-IR, cs-MM, cs.CV  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2310.05195v1)  
+
+---
+
+
+**ABSTRACT**  
+Given a text query, partially relevant video retrieval (PRVR) seeks to find untrimmed videos containing pertinent moments in a database. For PRVR, clip modeling is essential to capture the partial relationship between texts and videos. Current PRVR methods adopt scanning-based clip construction to achieve explicit clip modeling, which is information-redundant and requires a large storage overhead. To solve the efficiency problem of PRVR methods, this paper proposes GMMFormer, a \textbf{G}aussian-\textbf{M}ixture-\textbf{M}odel based Trans\textbf{former} which models clip representations implicitly. During frame interactions, we incorporate Gaussian-Mixture-Model constraints to focus each frame on its adjacent frames instead of the whole video. Then generated representations will contain multi-scale clip information, achieving implicit clip modeling. In addition, PRVR methods ignore semantic differences between text queries relevant to the same video, leading to a sparse embedding space. We propose a query diverse loss to distinguish these text queries, making the embedding space more intensive and contain more semantic information. Extensive experiments on three large-scale video datasets (\ie, TVR, ActivityNet Captions, and Charades-STA) demonstrate the superiority and efficiency of GMMFormer.
+
+{{</citation>}}
+
+
+### (87/115) Improving Discriminative Multi-Modal Learning with Large-Scale Pre-Trained Models (Chenzhuang Du et al., 2023)
+
+{{<citation>}}
+
+Chenzhuang Du, Yue Zhao, Chonghua Liao, Jiacheng You, Jie Fu, Hang Zhao. (2023)  
+**Improving Discriminative Multi-Modal Learning with Large-Scale Pre-Trained Models**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Pre-Trained Model  
+[Paper Link](http://arxiv.org/abs/2310.05193v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper investigates how to better leverage large-scale pre-trained uni-modal models to further enhance discriminative multi-modal learning. Even when fine-tuned with only uni-modal data, these models can outperform previous multi-modal models in certain tasks. It's clear that their incorporation into multi-modal learning would significantly improve performance. However, multi-modal learning with these models still suffers from insufficient learning of uni-modal features, which weakens the resulting multi-modal model's generalization ability. While fine-tuning uni-modal models separately and then aggregating their predictions is straightforward, it doesn't allow for adequate adaptation between modalities, also leading to sub-optimal results. To this end, we introduce Multi-Modal Low-Rank Adaptation learning (MMLoRA). By freezing the weights of uni-modal fine-tuned models, adding extra trainable rank decomposition matrices to them, and subsequently performing multi-modal joint training, our method enhances adaptation between modalities and boosts overall performance. We demonstrate the effectiveness of MMLoRA on three dataset categories: audio-visual (e.g., AVE, Kinetics-Sound, CREMA-D), vision-language (e.g., MM-IMDB, UPMC Food101), and RGB-Optical Flow (UCF101).
+
+{{</citation>}}
+
+
+### (88/115) HOD: A Benchmark Dataset for Harmful Object Detection (Eungyeom Ha et al., 2023)
+
+{{<citation>}}
+
+Eungyeom Ha, Heemook Kim, Sung Chul Hong, Dongbin Na. (2023)  
+**HOD: A Benchmark Dataset for Harmful Object Detection**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Object Detection  
+[Paper Link](http://arxiv.org/abs/2310.05192v1)  
+
+---
+
+
+**ABSTRACT**  
+Recent multi-media data such as images and videos have been rapidly spread out on various online services such as social network services (SNS). With the explosive growth of online media services, the number of image content that may harm users is also growing exponentially. Thus, most recent online platforms such as Facebook and Instagram have adopted content filtering systems to prevent the prevalence of harmful content and reduce the possible risk of adverse effects on users. Unfortunately, computer vision research on detecting harmful content has not yet attracted attention enough. Users of each platform still manually click the report button to recognize patterns of harmful content they dislike when exposed to harmful content. However, the problem with manual reporting is that users are already exposed to harmful content. To address these issues, our research goal in this work is to develop automatic harmful object detection systems for online services. We present a new benchmark dataset for harmful object detection. Unlike most related studies focusing on a small subset of object categories, our dataset addresses various categories. Specifically, our proposed dataset contains more than 10,000 images across 6 categories that might be harmful, consisting of not only normal cases but also hard cases that are difficult to detect. Moreover, we have conducted extensive experiments to evaluate the effectiveness of our proposed dataset. We have utilized the recently proposed state-of-the-art (SOTA) object detection architectures and demonstrated our proposed dataset can be greatly useful for the real-time harmful object detection task. The whole source codes and datasets are publicly accessible at https://github.com/poori-nuna/HOD-Benchmark-Dataset.
+
+{{</citation>}}
+
+
+### (89/115) Geometry Aware Field-to-field Transformations for 3D Semantic Segmentation (Dominik Hollidt et al., 2023)
+
+{{<citation>}}
+
+Dominik Hollidt, Clinton Wang, Polina Golland, Marc Pollefeys. (2023)  
+**Geometry Aware Field-to-field Transformations for 3D Semantic Segmentation**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-LG, cs.CV  
+Keywords: Semantic Segmentation  
+[Paper Link](http://arxiv.org/abs/2310.05133v1)  
+
+---
+
+
+**ABSTRACT**  
+We present a novel approach to perform 3D semantic segmentation solely from 2D supervision by leveraging Neural Radiance Fields (NeRFs). By extracting features along a surface point cloud, we achieve a compact representation of the scene which is sample-efficient and conducive to 3D reasoning. Learning this feature space in an unsupervised manner via masked autoencoding enables few-shot segmentation. Our method is agnostic to the scene parameterization, working on scenes fit with any type of NeRF.
+
+{{</citation>}}
+
+
+### (90/115) UReader: Universal OCR-free Visually-situated Language Understanding with Multimodal Large Language Model (Jiabo Ye et al., 2023)
+
+{{<citation>}}
+
+Jiabo Ye, Anwen Hu, Haiyang Xu, Qinghao Ye, Ming Yan, Guohai Xu, Chenliang Li, Junfeng Tian, Qi Qian, Ji Zhang, Qin Jin, Liang He, Xin Alex Lin, Fei Huang. (2023)  
+**UReader: Universal OCR-free Visually-situated Language Understanding with Multimodal Large Language Model**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: Language Model, OCR  
+[Paper Link](http://arxiv.org/abs/2310.05126v1)  
+
+---
+
+
+**ABSTRACT**  
+Text is ubiquitous in our visual world, conveying crucial information, such as in documents, websites, and everyday photographs. In this work, we propose UReader, a first exploration of universal OCR-free visually-situated language understanding based on the Multimodal Large Language Model (MLLM). By leveraging the shallow text recognition ability of the MLLM, we only finetuned 1.2% parameters and the training cost is much lower than previous work following domain-specific pretraining and finetuning paradigms. Concretely, UReader is jointly finetuned on a wide range of Visually-situated Language Understanding tasks via a unified instruction format. To enhance the visual text and semantic understanding, we further apply two auxiliary tasks with the same format, namely text reading and key points generation tasks. We design a shape-adaptive cropping module before the encoder-decoder architecture of MLLM to leverage the frozen low-resolution vision encoder for processing high-resolution images. Without downstream finetuning, our single model achieves state-of-the-art ocr-free performance in 8 out of 10 visually-situated language understanding tasks, across 5 domains: documents, tables, charts, natural images, and webpage screenshots. Codes and instruction-tuning datasets will be released.
+
+{{</citation>}}
+
+
+### (91/115) Cross-domain Robust Deepfake Bias Expansion Network for Face Forgery Detection (Weihua Liu et al., 2023)
+
+{{<citation>}}
+
+Weihua Liu, Lin Li, Chaochao Lin, Said Boumaraf. (2023)  
+**Cross-domain Robust Deepfake Bias Expansion Network for Face Forgery Detection**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Attention, Bias  
+[Paper Link](http://arxiv.org/abs/2310.05124v1)  
+
+---
+
+
+**ABSTRACT**  
+The rapid advancement of deepfake technologies raises significant concerns about the security of face recognition systems. While existing methods leverage the clues left by deepfake techniques for face forgery detection, malicious users may intentionally manipulate forged faces to obscure the traces of deepfake clues and thereby deceive detection tools. Meanwhile, attaining cross-domain robustness for data-based methods poses a challenge due to potential gaps in the training data, which may not encompass samples from all relevant domains. Therefore, in this paper, we introduce a solution - a Cross-Domain Robust Bias Expansion Network (BENet) - designed to enhance face forgery detection. BENet employs an auto-encoder to reconstruct input faces, maintaining the invariance of real faces while selectively enhancing the difference between reconstructed fake faces and their original counterparts. This enhanced bias forms a robust foundation upon which dependable forgery detection can be built. To optimize the reconstruction results in BENet, we employ a bias expansion loss infused with contrastive concepts to attain the aforementioned objective. In addition, to further heighten the amplification of forged clues, BENet incorporates a Latent-Space Attention (LSA) module. This LSA module effectively captures variances in latent features between the auto-encoder's encoder and decoder, placing emphasis on inconsistent forgery-related information. Furthermore, BENet incorporates a cross-domain detector with a threshold to determine whether the sample belongs to a known distribution. The correction of classification results through the cross-domain detector enables BENet to defend against unknown deepfake attacks from cross-domain. Extensive experiments demonstrate the superiority of BENet compared with state-of-the-art methods in intra-database and cross-database evaluations.
+
+{{</citation>}}
+
+
+### (92/115) Enhancing Representations through Heterogeneous Self-Supervised Learning (Zhong-Yu Li et al., 2023)
+
+{{<citation>}}
+
+Zhong-Yu Li, Bo-Wen Yin, Shanghua Gao, Yongxiang Liu, Li Liu, Ming-Ming Cheng. (2023)  
+**Enhancing Representations through Heterogeneous Self-Supervised Learning**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Self-Supervised  
+[Paper Link](http://arxiv.org/abs/2310.05108v1)  
+
+---
+
+
+**ABSTRACT**  
+Incorporating heterogeneous representations from different architectures has facilitated various vision tasks, e.g., some hybrid networks combine transformers and convolutions. However, complementarity between such heterogeneous architectures has not been well exploited in self-supervised learning. Thus, we propose Heterogeneous Self-Supervised Learning (HSSL), which enforces a base model to learn from an auxiliary head whose architecture is heterogeneous from the base model. In this process, HSSL endows the base model with new characteristics in a representation learning way without structural changes. To comprehensively understand the HSSL, we conduct experiments on various heterogeneous pairs containing a base model and an auxiliary head. We discover that the representation quality of the base model moves up as their architecture discrepancy grows. This observation motivates us to propose a search strategy that quickly determines the most suitable auxiliary head for a specific base model to learn and several simple but effective methods to enlarge the model discrepancy. The HSSL is compatible with various self-supervised methods, achieving superior performances on various downstream tasks, including image classification, semantic segmentation, instance segmentation, and object detection. Our source code will be made publicly available.
+
+{{</citation>}}
+
+
+### (93/115) OV-PARTS: Towards Open-Vocabulary Part Segmentation (Meng Wei et al., 2023)
+
+{{<citation>}}
+
+Meng Wei, Xiaoyu Yue, Wenwei Zhang, Shu Kong, Xihui Liu, Jiangmiao Pang. (2023)  
+**OV-PARTS: Towards Open-Vocabulary Part Segmentation**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Few-Shot, Semantic Segmentation, Zero-Shot  
+[Paper Link](http://arxiv.org/abs/2310.05107v1)  
+
+---
+
+
+**ABSTRACT**  
+Segmenting and recognizing diverse object parts is a crucial ability in applications spanning various computer vision and robotic tasks. While significant progress has been made in object-level Open-Vocabulary Semantic Segmentation (OVSS), i.e., segmenting objects with arbitrary text, the corresponding part-level research poses additional challenges. Firstly, part segmentation inherently involves intricate boundaries, while limited annotated data compounds the challenge. Secondly, part segmentation introduces an open granularity challenge due to the diverse and often ambiguous definitions of parts in the open world. Furthermore, the large-scale vision and language models, which play a key role in the open vocabulary setting, struggle to recognize parts as effectively as objects. To comprehensively investigate and tackle these challenges, we propose an Open-Vocabulary Part Segmentation (OV-PARTS) benchmark. OV-PARTS includes refined versions of two publicly available datasets: Pascal-Part-116 and ADE20K-Part-234. And it covers three specific tasks: Generalized Zero-Shot Part Segmentation, Cross-Dataset Part Segmentation, and Few-Shot Part Segmentation, providing insights into analogical reasoning, open granularity and few-shot adapting abilities of models. Moreover, we analyze and adapt two prevailing paradigms of existing object-level OVSS methods for OV-PARTS. Extensive experimental analysis is conducted to inspire future research in leveraging foundational models for OV-PARTS. The code and dataset are available at https://github.com/OpenRobotLab/OV_PARTS.
+
+{{</citation>}}
+
+
+### (94/115) Video-CSR: Complex Video Digest Creation for Visual-Language Models (Tingkai Liu et al., 2023)
+
+{{<citation>}}
+
+Tingkai Liu, Yunzhe Tao, Haogeng Liu, Qihang Fan, Ding Zhou, Huaibo Huang, Ran He, Hongxia Yang. (2023)  
+**Video-CSR: Complex Video Digest Creation for Visual-Language Models**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: Language Model, Summarization  
+[Paper Link](http://arxiv.org/abs/2310.05060v1)  
+
+---
+
+
+**ABSTRACT**  
+We present a novel task and human annotated dataset for evaluating the ability for visual-language models to generate captions and summaries for real-world video clips, which we call Video-CSR (Captioning, Summarization and Retrieval). The dataset contains 4.8K YouTube video clips of 20-60 seconds in duration and covers a wide range of topics and interests. Each video clip corresponds to 5 independently annotated captions (1 sentence) and summaries (3-10 sentences). Given any video selected from the dataset and its corresponding ASR information, we evaluate visual-language models on either caption or summary generation that is grounded in both the visual and auditory content of the video. Additionally, models are also evaluated on caption- and summary-based retrieval tasks, where the summary-based retrieval task requires the identification of a target video given excerpts of a corresponding summary. Given the novel nature of the paragraph-length video summarization task, we perform extensive comparative analyses of different existing evaluation metrics and their alignment with human preferences. Finally, we propose a foundation model with competitive generation and retrieval capabilities that serves as a baseline for the Video-CSR task. We aim for Video-CSR to serve as a useful evaluation set in the age of large language models and complex multi-modal tasks.
+
+{{</citation>}}
+
+
+### (95/115) FairTune: Optimizing Parameter Efficient Fine Tuning for Fairness in Medical Image Analysis (Raman Dutt et al., 2023)
+
+{{<citation>}}
+
+Raman Dutt, Ondrej Bohdal, Sotirios A. Tsaftaris, Timothy Hospedales. (2023)  
+**FairTune: Optimizing Parameter Efficient Fine Tuning for Fairness in Medical Image Analysis**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2310.05055v1)  
+
+---
+
+
+**ABSTRACT**  
+Training models with robust group fairness properties is crucial in ethically sensitive application areas such as medical diagnosis. Despite the growing body of work aiming to minimise demographic bias in AI, this problem remains challenging. A key reason for this challenge is the fairness generalisation gap: High-capacity deep learning models can fit all training data nearly perfectly, and thus also exhibit perfect fairness during training. In this case, bias emerges only during testing when generalisation performance differs across subgroups. This motivates us to take a bi-level optimisation perspective on fair learning: Optimising the learning strategy based on validation fairness. Specifically, we consider the highly effective workflow of adapting pre-trained models to downstream medical imaging tasks using parameter-efficient fine-tuning (PEFT) techniques. There is a trade-off between updating more parameters, enabling a better fit to the task of interest vs. fewer parameters, potentially reducing the generalisation gap. To manage this tradeoff, we propose FairTune, a framework to optimise the choice of PEFT parameters with respect to fairness. We demonstrate empirically that FairTune leads to improved fairness on a range of medical imaging datasets.
+
+{{</citation>}}
+
+
+### (96/115) Low-Resolution Self-Attention for Semantic Segmentation (Yu-Huan Wu et al., 2023)
+
+{{<citation>}}
+
+Yu-Huan Wu, Shi-Chen Zhang, Yun Liu, Le Zhang, Xin Zhan, Daquan Zhou, Jiashi Feng, Ming-Ming Cheng, Liangli Zhen. (2023)  
+**Low-Resolution Self-Attention for Semantic Segmentation**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Attention, Self-Attention, Semantic Segmentation  
+[Paper Link](http://arxiv.org/abs/2310.05026v1)  
+
+---
+
+
+**ABSTRACT**  
+Semantic segmentation tasks naturally require high-resolution information for pixel-wise segmentation and global context information for class prediction. While existing vision transformers demonstrate promising performance, they often utilize high resolution context modeling, resulting in a computational bottleneck. In this work, we challenge conventional wisdom and introduce the Low-Resolution Self-Attention (LRSA) mechanism to capture global context at a significantly reduced computational cost. Our approach involves computing self-attention in a fixed low-resolution space regardless of the input image's resolution, with additional 3x3 depth-wise convolutions to capture fine details in the high-resolution space. We demonstrate the effectiveness of our LRSA approach by building the LRFormer, a vision transformer with an encoder-decoder structure. Extensive experiments on the ADE20K, COCO-Stuff, and Cityscapes datasets demonstrate that LRFormer outperforms state-of-the-art models. The code will be made available at https://github.com/yuhuan-wu/LRFormer.
+
+{{</citation>}}
+
+
+### (97/115) Single Stage Warped Cloth Learning and Semantic-Contextual Attention Feature Fusion for Virtual TryOn (Sanhita Pathak et al., 2023)
+
+{{<citation>}}
+
+Sanhita Pathak, Vinay Kaushik, Brejesh Lall. (2023)  
+**Single Stage Warped Cloth Learning and Semantic-Contextual Attention Feature Fusion for Virtual TryOn**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Attention  
+[Paper Link](http://arxiv.org/abs/2310.05024v1)  
+
+---
+
+
+**ABSTRACT**  
+Image-based virtual try-on aims to fit an in-shop garment onto a clothed person image. Garment warping, which aligns the target garment with the corresponding body parts in the person image, is a crucial step in achieving this goal. Existing methods often use multi-stage frameworks to handle clothes warping, person body synthesis and tryon generation separately or rely on noisy intermediate parser-based labels. We propose a novel single-stage framework that implicitly learns the same without explicit multi-stage learning. Our approach utilizes a novel semantic-contextual fusion attention module for garment-person feature fusion, enabling efficient and realistic cloth warping and body synthesis from target pose keypoints. By introducing a lightweight linear attention framework that attends to garment regions and fuses multiple sampled flow fields, we also address misalignment and artifacts present in previous methods. To achieve simultaneous learning of warped garment and try-on results, we introduce a Warped Cloth Learning Module. WCLM uses segmented warped garments as ground truth, operating within a single-stage paradigm. Our proposed approach significantly improves the quality and efficiency of virtual try-on methods, providing users with a more reliable and realistic virtual try-on experience. We evaluate our method on the VITON dataset and demonstrate its state-of-the-art performance in terms of both qualitative and quantitative metrics.
+
+{{</citation>}}
+
+
+### (98/115) Detecting Abnormal Health Conditions in Smart Home Using a Drone (Pronob Kumar Barman, 2023)
+
+{{<citation>}}
+
+Pronob Kumar Barman. (2023)  
+**Detecting Abnormal Health Conditions in Smart Home Using a Drone**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Drone  
+[Paper Link](http://arxiv.org/abs/2310.05012v1)  
+
+---
+
+
+**ABSTRACT**  
+Nowadays, detecting aberrant health issues is a difficult process. Falling, especially among the elderly, is a severe concern worldwide. Falls can result in deadly consequences, including unconsciousness, internal bleeding, and often times, death. A practical and optimal, smart approach of detecting falling is currently a concern. The use of vision-based fall monitoring is becoming more common among scientists as it enables senior citizens and those with other health conditions to live independently. For tracking, surveillance, and rescue, unmanned aerial vehicles use video or image segmentation and object detection methods. The Tello drone is equipped with a camera and with this device we determined normal and abnormal behaviors among our participants. The autonomous falling objects are classified using a convolutional neural network (CNN) classifier. The results demonstrate that the systems can identify falling objects with a precision of 0.9948.
+
+{{</citation>}}
+
+
+### (99/115) Symmetrical Linguistic Feature Distillation with CLIP for Scene Text Recognition (Zixiao Wang et al., 2023)
+
+{{<citation>}}
+
+Zixiao Wang, Hongtao Xie, Yuxin Wang, Jianjun Xu, Boqiang Zhang, Yongdong Zhang. (2023)  
+**Symmetrical Linguistic Feature Distillation with CLIP for Scene Text Recognition**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: OCR  
+[Paper Link](http://arxiv.org/abs/2310.04999v2)  
+
+---
+
+
+**ABSTRACT**  
+In this paper, we explore the potential of the Contrastive Language-Image Pretraining (CLIP) model in scene text recognition (STR), and establish a novel Symmetrical Linguistic Feature Distillation framework (named CLIP-OCR) to leverage both visual and linguistic knowledge in CLIP. Different from previous CLIP-based methods mainly considering feature generalization on visual encoding, we propose a symmetrical distillation strategy (SDS) that further captures the linguistic knowledge in the CLIP text encoder. By cascading the CLIP image encoder with the reversed CLIP text encoder, a symmetrical structure is built with an image-to-text feature flow that covers not only visual but also linguistic information for distillation.Benefiting from the natural alignment in CLIP, such guidance flow provides a progressive optimization objective from vision to language, which can supervise the STR feature forwarding process layer-by-layer.Besides, a new Linguistic Consistency Loss (LCL) is proposed to enhance the linguistic capability by considering second-order statistics during the optimization. Overall, CLIP-OCR is the first to design a smooth transition between image and text for the STR task.Extensive experiments demonstrate the effectiveness of CLIP-OCR with 93.8% average accuracy on six popular STR benchmarks.Code will be available at https://github.com/wzx99/CLIPOCR.
+
+{{</citation>}}
+
+
+### (100/115) Compositional Semantics for Open Vocabulary Spatio-semantic Representations (Robin Karlsson et al., 2023)
+
+{{<citation>}}
+
+Robin Karlsson, Francisco Lepe-Salazar, Kazuya Takeda. (2023)  
+**Compositional Semantics for Open Vocabulary Spatio-semantic Representations**  
+
+---
+Primary Category: cs.CV  
+Categories: I-2-10; I-2-9, cs-CV, cs-LG, cs.CV  
+Keywords: BERT  
+[Paper Link](http://arxiv.org/abs/2310.04981v1)  
+
+---
+
+
+**ABSTRACT**  
+General-purpose mobile robots need to complete tasks without exact human instructions. Large language models (LLMs) is a promising direction for realizing commonsense world knowledge and reasoning-based planning. Vision-language models (VLMs) transform environment percepts into vision-language semantics interpretable by LLMs. However, completing complex tasks often requires reasoning about information beyond what is currently perceived. We propose latent compositional semantic embeddings z* as a principled learning-based knowledge representation for queryable spatio-semantic memories. We mathematically prove that z* can always be found, and the optimal z* is the centroid for any set Z. We derive a probabilistic bound for estimating separability of related and unrelated semantics. We prove that z* is discoverable by iterative optimization by gradient descent from visual appearance and singular descriptions. We experimentally verify our findings on four embedding spaces incl. CLIP and SBERT. Our results show that z* can represent up to 10 semantics encoded by SBERT, and up to 100 semantics for ideal uniformly distributed high-dimensional embeddings. We demonstrate that a simple dense VLM trained on the COCO-Stuff dataset can learn z* for 181 overlapping semantics by 42.23 mIoU, while improving conventional non-overlapping open-vocabulary segmentation performance by +3.48 mIoU compared with a popular SOTA model.
+
+{{</citation>}}
+
+
 ## cs.RO (3)
 
 
 
-### (100/112) Influence of Camera-LiDAR Configuration on 3D Object Detection for Autonomous Driving (Ye Li et al., 2023)
+### (101/115) Influence of Camera-LiDAR Configuration on 3D Object Detection for Autonomous Driving (Ye Li et al., 2023)
 
 {{<citation>}}
 
@@ -2260,7 +2283,7 @@ Cameras and LiDARs are both important sensors for autonomous driving, playing cr
 {{</citation>}}
 
 
-### (101/112) LAN-grasp: Using Large Language Models for Semantic Object Grasping (Reihaneh Mirjalili et al., 2023)
+### (102/115) LAN-grasp: Using Large Language Models for Semantic Object Grasping (Reihaneh Mirjalili et al., 2023)
 
 {{<citation>}}
 
@@ -2282,7 +2305,7 @@ In this paper, we propose LAN-grasp, a novel approach towards more appropriate s
 {{</citation>}}
 
 
-### (102/112) Initial Task Assignment in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach (Ruiqi Wang et al., 2023)
+### (103/115) Initial Task Assignment in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach (Ruiqi Wang et al., 2023)
 
 {{<citation>}}
 
@@ -2308,7 +2331,7 @@ Multi-human multi-robot teams (MH-MR) obtain tremendous potential in tackling in
 
 
 
-### (103/112) Global Convergence of Policy Gradient Methods in Reinforcement Learning, Games and Control (Shicong Cen et al., 2023)
+### (104/115) Global Convergence of Policy Gradient Methods in Reinforcement Learning, Games and Control (Shicong Cen et al., 2023)
 
 {{<citation>}}
 
@@ -2334,7 +2357,7 @@ Policy gradient methods, where one searches for the policy of interest by maximi
 
 
 
-### (104/112) Optimizing Large Language Models to Expedite the Development of Smart Contracts (Nii Osae Osae Dade et al., 2023)
+### (105/115) Optimizing Large Language Models to Expedite the Development of Smart Contracts (Nii Osae Osae Dade et al., 2023)
 
 {{<citation>}}
 
@@ -2356,7 +2379,7 @@ Programming has always been at the heart of technological innovation in the 21st
 {{</citation>}}
 
 
-### (105/112) DeepQTest: Testing Autonomous Driving Systems with Reinforcement Learning and Real-world Weather Data (Chengjie Lu et al., 2023)
+### (106/115) DeepQTest: Testing Autonomous Driving Systems with Reinforcement Learning and Real-world Weather Data (Chengjie Lu et al., 2023)
 
 {{<citation>}}
 
@@ -2382,7 +2405,7 @@ Autonomous driving systems (ADSs) are capable of sensing the environment and mak
 
 
 
-### (106/112) VITS-based Singing Voice Conversion System with DSPGAN post-processing for SVCC2023 (Yiquan Zhou et al., 2023)
+### (107/115) VITS-based Singing Voice Conversion System with DSPGAN post-processing for SVCC2023 (Yiquan Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -2404,7 +2427,7 @@ This paper presents the T02 team's system for the Singing Voice Conversion Chall
 {{</citation>}}
 
 
-### (107/112) Comparative Analysis of Transfer Learning in Deep Learning Text-to-Speech Models on a Few-Shot, Low-Resource, Customized Dataset (Ze Liu, 2023)
+### (108/115) Comparative Analysis of Transfer Learning in Deep Learning Text-to-Speech Models on a Few-Shot, Low-Resource, Customized Dataset (Ze Liu, 2023)
 
 {{<citation>}}
 
@@ -2430,7 +2453,7 @@ Text-to-Speech (TTS) synthesis using deep learning relies on voice quality. Mode
 
 
 
-### (108/112) Partial Rank Similarity Minimization Method for Quality MOS Prediction of Unseen Speech Synthesis Systems in Zero-Shot and Semi-supervised setting (Hemant Yadav et al., 2023)
+### (109/115) Partial Rank Similarity Minimization Method for Quality MOS Prediction of Unseen Speech Synthesis Systems in Zero-Shot and Semi-supervised setting (Hemant Yadav et al., 2023)
 
 {{<citation>}}
 
@@ -2452,37 +2475,33 @@ This paper introduces a novel objective function for quality mean opinion score 
 {{</citation>}}
 
 
-## cs.CY (1)
+## eess.IV (2)
 
 
 
-### (109/112) Unmasking Biases and Navigating Pitfalls in the Ophthalmic Artificial Intelligence Lifecycle: A Review (Luis Filipe Nakayama et al., 2023)
+### (110/115) Data Augmentation through Pseudolabels in Automatic Region Based Coronary Artery Segmentation for Disease Diagnosis (Sandesh Pokhrel et al., 2023)
 
 {{<citation>}}
 
-Luis Filipe Nakayama, João Matos, Justin Quion, Frederico Novaes, William Greig Mitchell, Rogers Mwavu, Ju-Yi Ji Hung, Alvina Pauline dy Santiago, Warachaya Phanphruk, Jaime S. Cardoso, Leo Anthony Celi. (2023)  
-**Unmasking Biases and Navigating Pitfalls in the Ophthalmic Artificial Intelligence Lifecycle: A Review**  
+Sandesh Pokhrel, Sanjay Bhandari, Eduard Vazquez, Yash Raj Shrestha, Binod Bhattarai. (2023)  
+**Data Augmentation through Pseudolabels in Automatic Region Based Coronary Artery Segmentation for Disease Diagnosis**  
 
 ---
-Primary Category: cs.CY  
-Categories: cs-CY, cs.CY  
-Keywords: AI, Bias  
-[Paper Link](http://arxiv.org/abs/2310.04997v1)  
+Primary Category: eess.IV  
+Categories: cs-CV, cs-LG, eess-IV, eess.IV  
+Keywords: Augmentation, Yolo  
+[Paper Link](http://arxiv.org/abs/2310.05990v1)  
 
 ---
 
 
 **ABSTRACT**  
-Over the past two decades, exponential growth in data availability, computational power, and newly available modeling techniques has led to an expansion in interest, investment, and research in Artificial Intelligence (AI) applications. Ophthalmology is one of many fields that seek to benefit from AI given the advent of telemedicine screening programs and the use of ancillary imaging. However, before AI can be widely deployed, further work must be done to avoid the pitfalls within the AI lifecycle. This review article breaks down the AI lifecycle into seven steps: data collection; defining the model task; data pre-processing and labeling; model development; model evaluation and validation; deployment; and finally, post-deployment evaluation, monitoring, and system recalibration and delves into the risks for harm at each step and strategies for mitigating them.
+Coronary Artery Diseases(CADs) though preventable are one of the leading causes of death and disability. Diagnosis of these diseases is often difficult and resource intensive. Segmentation of arteries in angiographic images has evolved as a tool for assistance, helping clinicians in making accurate diagnosis. However, due to the limited amount of data and the difficulty in curating a dataset, the task of segmentation has proven challenging. In this study, we introduce the idea of using pseudolabels as a data augmentation technique to improve the performance of the baseline Yolo model. This method increases the F1 score of the baseline by 9% in the validation dataset and by 3% in the test dataset.
 
 {{</citation>}}
 
 
-## eess.IV (1)
-
-
-
-### (110/112) VisionFM: a Multi-Modal Multi-Task Vision Foundation Model for Generalist Ophthalmic Artificial Intelligence (Jianing Qiu et al., 2023)
+### (111/115) VisionFM: a Multi-Modal Multi-Task Vision Foundation Model for Generalist Ophthalmic Artificial Intelligence (Jianing Qiu et al., 2023)
 
 {{<citation>}}
 
@@ -2504,11 +2523,63 @@ We present VisionFM, a foundation model pre-trained with 3.4 million ophthalmic 
 {{</citation>}}
 
 
+## cs.CY (1)
+
+
+
+### (112/115) Unmasking Biases and Navigating Pitfalls in the Ophthalmic Artificial Intelligence Lifecycle: A Review (Luis Filipe Nakayama et al., 2023)
+
+{{<citation>}}
+
+Luis Filipe Nakayama, João Matos, Justin Quion, Frederico Novaes, William Greig Mitchell, Rogers Mwavu, Ju-Yi Ji Hung, Alvina Pauline dy Santiago, Warachaya Phanphruk, Jaime S. Cardoso, Leo Anthony Celi. (2023)  
+**Unmasking Biases and Navigating Pitfalls in the Ophthalmic Artificial Intelligence Lifecycle: A Review**  
+
+---
+Primary Category: cs.CY  
+Categories: cs-CY, cs.CY  
+Keywords: AI, Bias  
+[Paper Link](http://arxiv.org/abs/2310.04997v1)  
+
+---
+
+
+**ABSTRACT**  
+Over the past two decades, exponential growth in data availability, computational power, and newly available modeling techniques has led to an expansion in interest, investment, and research in Artificial Intelligence (AI) applications. Ophthalmology is one of many fields that seek to benefit from AI given the advent of telemedicine screening programs and the use of ancillary imaging. However, before AI can be widely deployed, further work must be done to avoid the pitfalls within the AI lifecycle. This review article breaks down the AI lifecycle into seven steps: data collection; defining the model task; data pre-processing and labeling; model development; model evaluation and validation; deployment; and finally, post-deployment evaluation, monitoring, and system recalibration and delves into the risks for harm at each step and strategies for mitigating them.
+
+{{</citation>}}
+
+
+## econ.TH (1)
+
+
+
+### (113/115) A new economic and financial theory of money (Michael E. Glinsky et al., 2023)
+
+{{<citation>}}
+
+Michael E. Glinsky, Sharon Sievert. (2023)  
+**A new economic and financial theory of money**  
+
+---
+Primary Category: econ.TH  
+Categories: cs-AI, econ-TH, econ.TH, physics-class-ph  
+Keywords: AI, GPT, Reinforcement Learning, Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2310.04986v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper fundamentally reformulates economic and financial theory to include electronic currencies. The valuation of the electronic currencies will be based on macroeconomic theory and the fundamental equation of monetary policy, not the microeconomic theory of discounted cash flows. The view of electronic currency as a transactional equity associated with tangible assets of a sub-economy will be developed, in contrast to the view of stock as an equity associated mostly with intangible assets of a sub-economy. The view will be developed of the electronic currency management firm as an entity responsible for coordinated monetary (electronic currency supply and value stabilization) and fiscal (investment and operational) policies of a substantial (for liquidity of the electronic currency) sub-economy. The risk model used in the valuations and the decision-making will not be the ubiquitous, yet inappropriate, exponential risk model that leads to discount rates, but will be multi time scale models that capture the true risk. The decision-making will be approached from the perspective of true systems control based on a system response function given by the multi scale risk model and system controllers that utilize the Deep Reinforcement Learning, Generative Pretrained Transformers, and other methods of Artificial Intelligence (DRL/GPT/AI). Finally, the sub-economy will be viewed as a nonlinear complex physical system with both stable equilibriums that are associated with short-term exploitation, and unstable equilibriums that need to be stabilized with active nonlinear control based on the multi scale system response functions and DRL/GPT/AI.
+
+{{</citation>}}
+
+
 ## cs.CE (1)
 
 
 
-### (111/112) VQPL: Vector Quantized Protein Language (Zhangyang Gao et al., 2023)
+### (114/115) VQPL: Vector Quantized Protein Language (Zhangyang Gao et al., 2023)
 
 {{<citation>}}
 
@@ -2534,7 +2605,7 @@ Is there a foreign language describing protein sequences and structures simultan
 
 
 
-### (112/112) Big Data Privacy in Emerging Market Fintech and Financial Services: A Research Agenda (Joshua E. Blumenstock et al., 2023)
+### (115/115) Big Data Privacy in Emerging Market Fintech and Financial Services: A Research Agenda (Joshua E. Blumenstock et al., 2023)
 
 {{<citation>}}
 

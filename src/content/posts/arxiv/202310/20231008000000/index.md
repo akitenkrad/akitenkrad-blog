@@ -218,7 +218,7 @@ Thomas M. Hehn, Tribhuvanesh Orekondy, Ori Shental, Arash Behboodi, Juan Bucheli
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2310.04570v1)  
+[Paper Link](http://arxiv.org/abs/2310.04570v2)  
 
 ---
 
@@ -1188,7 +1188,7 @@ Israt Jahan, Md Tahmid Rahman Laskar, Chun Peng, Jimmy Huang. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2310.04270v1)  
+[Paper Link](http://arxiv.org/abs/2310.04270v2)  
 
 ---
 
@@ -1210,7 +1210,7 @@ Wanyun Cui, Qianle Wang. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model, Reasoning  
-[Paper Link](http://arxiv.org/abs/2310.04484v1)  
+[Paper Link](http://arxiv.org/abs/2310.04484v2)  
 
 ---
 
@@ -1221,18 +1221,18 @@ Generating diverse and sophisticated instructions for downstream tasks by Large 
 {{</citation>}}
 
 
-### (53/102) Auto-survey Challenge (Benedictus Kent Rachmat et al., 2023)
+### (53/102) Auto-survey Challenge (Thanh Gia Hieu Khuong et al., 2023)
 
 {{<citation>}}
 
-Benedictus Kent Rachmat, Thanh Gia Hieu Khuong. (2023)  
+Thanh Gia Hieu Khuong, Benedictus Kent Rachmat. (2023)  
 **Auto-survey Challenge**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: AI, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.04480v1)  
+[Paper Link](http://arxiv.org/abs/2310.04480v2)  
 
 ---
 
@@ -1423,14 +1423,14 @@ Large-scale transformer-based models like the Bidirectional Encoder Representati
 
 {{<citation>}}
 
-Deren Lei, Yaxi Li, Mengya, Hu, Mingyu Wang, Vincent Yun, Emily Ching, Eslam Kamal. (2023)  
+Deren Lei, Yaxi Li, Mengya Hu, Mingyu Wang, Vincent Yun, Emily Ching, Eslam Kamal. (2023)  
 **Chain of Natural Language Inference for Reducing Large Language Model Ungrounded Hallucinations**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model, NLI, Natural Language Inference  
-[Paper Link](http://arxiv.org/abs/2310.03951v1)  
+[Paper Link](http://arxiv.org/abs/2310.03951v2)  
 
 ---
 
@@ -2030,7 +2030,7 @@ Yinger Zhang, Hui Cai, Yicheng Chen, Rui Sun, Jing Zheng. (2023)
 Primary Category: cs.SE  
 Categories: cs-AI, cs-PL, cs-SE, cs.SE  
 Keywords: ChatGPT, GPT  
-[Paper Link](http://arxiv.org/abs/2310.04474v1)  
+[Paper Link](http://arxiv.org/abs/2310.04474v2)  
 
 ---
 
