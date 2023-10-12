@@ -257,14 +257,14 @@ Large language models (LLMs) achieved remarkable performance across various task
 
 {{<citation>}}
 
-Justin Lee, Tuomas Oikarinen, Arjun Chantha, Keng-Chi Chang, Yilan Chen, Tsui-Wei Weng. (2023)  
+Justin Lee, Tuomas Oikarinen, Arjun Chatha, Keng-Chi Chang, Yilan Chen, Tsui-Wei Weng. (2023)  
 **The Importance of Prompt Tuning for Automated Neuron Explanations**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: GPT, GPT-4  
-[Paper Link](http://arxiv.org/abs/2310.06200v1)  
+[Paper Link](http://arxiv.org/abs/2310.06200v2)  
 
 ---
 
@@ -528,7 +528,7 @@ Nicholas Kroeger, Dan Ley, Satyapriya Krishna, Chirag Agarwal, Himabindu Lakkara
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: AI, Language Model, NLP  
-[Paper Link](http://arxiv.org/abs/2310.05797v1)  
+[Paper Link](http://arxiv.org/abs/2310.05797v2)  
 
 ---
 
@@ -1801,14 +1801,14 @@ Multi-modal medical image fusion is essential for the precise clinical diagnosis
 
 {{<citation>}}
 
-Xinzhu Ma, Yongtao Wan, Yinmin Zhang, Zhiyi Xia, Yuan Meng, Zhihui Wang, Haojie Li, Wanli Ouyang. (2023)  
+Xinzhu Ma, Yongtao Wang, Yinmin Zhang, Zhiyi Xia, Yuan Meng, Zhihui Wang, Haojie Li, Wanli Ouyang. (2023)  
 **Towards Fair and Comprehensive Comparisons for Image-Based 3D Object Detection**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2310.05447v1)  
+[Paper Link](http://arxiv.org/abs/2310.05447v2)  
 
 ---
 
@@ -1933,14 +1933,14 @@ In this paper, we propose a novel network framework for indoor 3D object detecti
 
 {{<citation>}}
 
-Chang'an Yi, Haotian Chen, Yifan Zhang. (2023)  
+Chang'an Yi, Haotian Chen, Yifan Zhang, Yonghui Xu, Lizhen Cui. (2023)  
 **A Critical Look at Classic Test-Time Adaptation Methods in Semantic Segmentation**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Semantic Segmentation  
-[Paper Link](http://arxiv.org/abs/2310.05341v2)  
+[Paper Link](http://arxiv.org/abs/2310.05341v3)  
 
 ---
 
@@ -2256,7 +2256,7 @@ Oscar Tuvey, Procheta Sen. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: AI, Legal  
-[Paper Link](http://arxiv.org/abs/2310.05680v1)  
+[Paper Link](http://arxiv.org/abs/2310.05680v2)  
 
 ---
 
@@ -2693,14 +2693,14 @@ The Transformer architecture has become prominent in developing large causal lan
 
 {{<citation>}}
 
-Insu Han, Rajesh Jarayam, Amin Karbasi, Vahab Mirrokni, David P. Woodruff, Amir Zandieh. (2023)  
+Insu Han, Rajesh Jayaram, Amin Karbasi, Vahab Mirrokni, David P. Woodruff, Amir Zandieh. (2023)  
 **HyperAttention: Long-context Attention in Near-Linear Time**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Attention, GLM, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.05869v1)  
+[Paper Link](http://arxiv.org/abs/2310.05869v2)  
 
 ---
 
@@ -2964,7 +2964,7 @@ Punsisi Rajakaruna, Surajit Ghosh, Bunyod Holmatov. (2023)
 Primary Category: cs.LG  
 Categories: cs-CV, cs-LG, cs.LG  
 Keywords: Google  
-[Paper Link](http://arxiv.org/abs/2310.05682v1)  
+[Paper Link](http://arxiv.org/abs/2310.05682v2)  
 
 ---
 
@@ -3008,7 +3008,7 @@ Abdelhakim Benechehab, Giuseppe Paolo, Albert Thomas, Maurizio Filippone, Baláz
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, stat-ML  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2310.05672v1)  
+[Paper Link](http://arxiv.org/abs/2310.05672v2)  
 
 ---
 
@@ -3094,7 +3094,7 @@ David Brellmann, Eloïse Berthier, David Filliat, Goran Frehse. (2023)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-AI, cs-LG, cs.LG, stat-ML  
 Keywords: Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2310.05518v1)  
 
@@ -3574,7 +3574,7 @@ Michael Benington, Leo Phan, Chris Pierre Paul, Evan Shoemaker, Priyanka Ranade,
 Primary Category: cs.DC  
 Categories: cs-DC, cs-LG, cs.DC  
 Keywords: AI, Language Model, Microsoft  
-[Paper Link](http://arxiv.org/abs/2310.05350v1)  
+[Paper Link](http://arxiv.org/abs/2310.05350v2)  
 
 ---
 

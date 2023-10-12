@@ -452,7 +452,7 @@ Zhenglin Huang, Xianan Bao, Na Zhang, Qingqi Zhang, Xiaomei Tu, Biao Wu, Xi Yang
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Augmentation, ImageNet  
-[Paper Link](http://arxiv.org/abs/2310.04780v1)  
+[Paper Link](http://arxiv.org/abs/2310.04780v2)  
 
 ---
 
@@ -1478,7 +1478,7 @@ Jiaming Wang, Zhihao Du, Qian Chen, Yunfei Chu, Zhifu Gao, Zerui Li, Kai Hu, Xia
 Primary Category: cs.SD  
 Categories: cs-AI, cs-LG, cs-MM, cs-SD, cs.SD, eess-AS  
 Keywords: GPT, Transformer  
-[Paper Link](http://arxiv.org/abs/2310.04673v2)  
+[Paper Link](http://arxiv.org/abs/2310.04673v3)  
 
 ---
 
@@ -1504,7 +1504,7 @@ Haojie Shi, Qingxu Zhu, Lei Han, Wanchao Chi, Tingguang Li, Max Q. -H. Meng. (20
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2310.04675v1)  
+[Paper Link](http://arxiv.org/abs/2310.04675v2)  
 
 ---
 

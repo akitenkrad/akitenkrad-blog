@@ -957,14 +957,14 @@ One of the main goals of financial institutions (FIs) today is combating fraud a
 
 {{<citation>}}
 
-Padmaksha Roy, Jaganmohan Chadrasekaran, Erin Lanus, Laura Freeman, Jeremy Werner. (2023)  
+Padmaksha Roy, Jaganmohan Chandrasekaran, Erin Lanus, Laura Freeman, Jeremy Werner. (2023)  
 **A Survey of Data Security: Practices from Cybersecurity and Challenges of Machine Learning**  
 
 ---
 Primary Category: cs.CR  
 Categories: cs-CR, cs.CR  
 Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2310.04513v1)  
+[Paper Link](http://arxiv.org/abs/2310.04513v2)  
 
 ---
 
@@ -986,7 +986,7 @@ Abdullah Al Ishtiaq, Sarkar Snigdha Sarathi Das, Syed Md Mukit Rashid, Ali Ranjb
 Primary Category: cs.CR  
 Categories: cs-AI, cs-CL, cs-CR, cs.CR  
 Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2310.04381v1)  
+[Paper Link](http://arxiv.org/abs/2310.04381v2)  
 
 ---
 

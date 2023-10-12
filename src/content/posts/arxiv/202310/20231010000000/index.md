@@ -577,14 +577,14 @@ Gender inequality is embedded in our communication practices and perpetuated in 
 
 {{<citation>}}
 
-Yixin Wan, Jieyu Zhao, Nanyun Peng, Kai-Wei Chang, Aman Chadha. (2023)  
+Yixin Wan, Jieyu Zhao, Aman Chadha, Nanyun Peng, Kai-Wei Chang. (2023)  
 **Are Personalized Stochastic Parrots More Dangerous? Evaluating Persona Biases in Dialogue Systems**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Bias, ChatGPT, Dialog, Dialogue, GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.05280v1)  
+[Paper Link](http://arxiv.org/abs/2310.05280v2)  
 
 ---
 
@@ -1255,18 +1255,18 @@ This demo paper presents sign.mt, an open-source application pioneering real-tim
 {{</citation>}}
 
 
-### (56/115) BRAINTEASER: Lateral Thinking Puzzles for Large Language Model (Yifan Jiang et al., 2023)
+### (56/115) BRAINTEASER: Lateral Thinking Puzzles for Large Language Models (Yifan Jiang et al., 2023)
 
 {{<citation>}}
 
-Yifan Jiang, Filip Ilievski, Kaixin Ma. (2023)  
-**BRAINTEASER: Lateral Thinking Puzzles for Large Language Model**  
+Yifan Jiang, Filip Ilievski, Kaixin Ma, Zhivar Sourati. (2023)  
+**BRAINTEASER: Lateral Thinking Puzzles for Large Language Models**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: AI, Language Model, NLP, Question Answering  
-[Paper Link](http://arxiv.org/abs/2310.05057v1)  
+[Paper Link](http://arxiv.org/abs/2310.05057v2)  
 
 ---
 
@@ -1692,7 +1692,7 @@ Ronghao Dang, Jiangyan Feng, Haodong Zhang, Chongjian Ge, Lin Song, Lijun Gong, 
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CV, cs.AI  
 Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2310.05136v2)  
+[Paper Link](http://arxiv.org/abs/2310.05136v3)  
 
 ---
 
@@ -1780,7 +1780,7 @@ Guozheng Li, Peng Wang, Wenjun Ke. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI  
 Keywords: ChatGPT, GPT, Language Model, QA  
-[Paper Link](http://arxiv.org/abs/2310.05028v2)  
+[Paper Link](http://arxiv.org/abs/2310.05028v3)  
 
 ---
 
@@ -1802,7 +1802,7 @@ Song Guo, Jiahang Xu, Li Lyna Zhang, Mao Yang. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: LLaMA, Language Model, Pruning  
-[Paper Link](http://arxiv.org/abs/2310.05015v1)  
+[Paper Link](http://arxiv.org/abs/2310.05015v2)  
 
 ---
 
