@@ -548,7 +548,7 @@ Yuxiang Wu, Guanting Dong, Weiran Xu. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Dialog, Dialogue, Language Model, Zero-Shot  
-[Paper Link](http://arxiv.org/abs/2310.10520v1)  
+[Paper Link](http://arxiv.org/abs/2310.10520v2)  
 
 ---
 
@@ -581,18 +581,18 @@ Previous zero-shot dialogue state tracking (DST) methods only apply transfer lea
 {{</citation>}}
 
 
-### (25/176) Harnessing the Power of LLMs: Evaluating Human-AI text Co-Creation through the Lens of News Headline Generation (Zijian Ding et al., 2023)
+### (25/176) Harnessing the Power of LLMs: Evaluating Human-AI Text Co-Creation through the Lens of News Headline Generation (Zijian Ding et al., 2023)
 
 {{<citation>}}
 
 Zijian Ding, Alison Smith-Renner, Wenjuan Zhang, Joel R. Tetreault, Alejandro Jaimes. (2023)  
-**Harnessing the Power of LLMs: Evaluating Human-AI text Co-Creation through the Lens of News Headline Generation**  
+**Harnessing the Power of LLMs: Evaluating Human-AI Text Co-Creation through the Lens of News Headline Generation**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2310.10706v1)  
+[Paper Link](http://arxiv.org/abs/2310.10706v2)  
 
 ---
 
@@ -746,7 +746,7 @@ Lochan Basyal, Mihir Sanghvi. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: AI, BERT, BLEU, ChatGPT, Falcon, GPT, Generative AI, Language Model, NLP, Natural Language Processing, Summarization, Text Summarization, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2310.10449v1)  
+[Paper Link](http://arxiv.org/abs/2310.10449v2)  
 
 ---
 
@@ -922,7 +922,7 @@ Jirui Qi, Raquel Fernández, Arianna Bisazza. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-HC, cs-LG, cs.CL  
 Keywords: Language Model, Multilingual, Pretrained Language Models  
-[Paper Link](http://arxiv.org/abs/2310.10378v1)  
+[Paper Link](http://arxiv.org/abs/2310.10378v2)  
 
 ---
 
@@ -1979,14 +1979,14 @@ Most contributions on Few-Shot Object Detection (FSOD) evaluate their methods on
 
 {{<citation>}}
 
-Kibum Kim, Kanghoon Yoon, Jaeyeong Jeon, Yeonjun In, Jinyoung Moon, Donghyun Kim, Chanyoung Park. (2023)  
+Kibum Kim, Kanghoon Yoon, Jaehyeong Jeon, Yeonjun In, Jinyoung Moon, Donghyun Kim, Chanyoung Park. (2023)  
 **Weakly Supervised Fine-grained Scene Graph Generation via Large Language Model**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Language Model, QA  
-[Paper Link](http://arxiv.org/abs/2310.10404v1)  
+[Paper Link](http://arxiv.org/abs/2310.10404v2)  
 
 ---
 
@@ -2735,20 +2735,20 @@ Identifying key patterns of tactics implemented by rival teams, and developing e
 
 {{<citation>}}
 
-Bita Darvish Rouhani, Ritchie Zhao, Ankit More, Mathew Hall, Alireza Khodamoradi, Summer Deng, Dhruv Choudhary, Marius Cornea, Eric Dellinger, Kristof Denolf, Stosic Dusan, Venmugil Elango, Maximilian Golub, Alexander Heinecke, Phil James-Roxby, Dharmesh Jani, Gaurav Kolhe, Martin Langhammer, Ada Li, Levi Melnick, Maral Mesmakhosroshahi, Andres Rodriguez, Michael Schulte, Rasoul Shafipour, Lei Shao, Michael Siu, Pradeep Dubey, Paulius Micikevicius, Maxim Naumov, Colin Verilli, Ralph Wittig, Eric Chung. (2023)  
+Bita Darvish Rouhani, Ritchie Zhao, Ankit More, Mathew Hall, Alireza Khodamoradi, Summer Deng, Dhruv Choudhary, Marius Cornea, Eric Dellinger, Kristof Denolf, Stosic Dusan, Venmugil Elango, Maximilian Golub, Alexander Heinecke, Phil James-Roxby, Dharmesh Jani, Gaurav Kolhe, Martin Langhammer, Ada Li, Levi Melnick, Maral Mesmakhosroshahi, Andres Rodriguez, Michael Schulte, Rasoul Shafipour, Lei Shao, Michael Siu, Pradeep Dubey, Paulius Micikevicius, Maxim Naumov, Colin Verrilli, Ralph Wittig, Eric Chung. (2023)  
 **Microscaling Data Formats for Deep Learning**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2310.10537v1)  
+[Paper Link](http://arxiv.org/abs/2310.10537v2)  
 
 ---
 
 
 **ABSTRACT**  
-Narrow bit-width data formats are key to reducing the computational and storage costs of modern deep learning applications. This paper evaluates Microscaling (MX) data formats that combine a per-block scaling factor with narrow floating-point and integer types for individual elements.MX formats balance the competing needs of hardware efficiency, model accuracy, and user friction. Empirical results on over two dozen benchmarks demonstrate practicality of MX data formats as a drop-in replacement for baseline FP32 for AI inference and training with low user friction. We also show the first instance of training generative language models at sub-8-bit weights, activations, and gradients with minimal accuracy loss and no modifications to the training recipe.
+Narrow bit-width data formats are key to reducing the computational and storage costs of modern deep learning applications. This paper evaluates Microscaling (MX) data formats that combine a per-block scaling factor with narrow floating-point and integer types for individual elements. MX formats balance the competing needs of hardware efficiency, model accuracy, and user friction. Empirical results on over two dozen benchmarks demonstrate practicality of MX data formats as a drop-in replacement for baseline FP32 for AI inference and training with low user friction. We also show the first instance of training generative language models at sub-8-bit weights, activations, and gradients with minimal accuracy loss and no modifications to the training recipe.
 
 {{</citation>}}
 
@@ -3972,13 +3972,13 @@ Baodong Wu, Lei Xia, Qingping Li, Kangyu Li, Xu Chen, Yongqiang Guo, Tieyao Xian
 Primary Category: cs.DC  
 Categories: cs-AI, cs-DC, cs.DC  
 Keywords: GPT  
-[Paper Link](http://arxiv.org/abs/2310.10046v2)  
+[Paper Link](http://arxiv.org/abs/2310.10046v3)  
 
 ---
 
 
 **ABSTRACT**  
-Large language models (LLMs), exemplified by chatGPT, have made significant strides in various domains, indicating that LLMs with hundreds of billions or even trillions of parameters will continue to revolutionize our daily lives. However, training such super-large-scale models demands even more powerful GPU clusters and extended training periods spanning months. Maintaining uninterrupted and long-duration training has become exceptionally challenging due to hardware and software failures in these extensive clusters. A substantial amount of training time is devoted to tasks checkpointing saving and loading, ananomaly detection and restarts, leading to a notable reduction in overall training efficiency.To address these challenges, we introduce novel fault-tolerant large-scale model training system named TRANSOM. This system comprises three integral components: the training pipeline automatic fault tolerance and recovery mechanism (TOL), the training task multi-dimensional metric automatic anomaly detection system (TEE), and the training checkpoint asynchronous access automatic fault tolerance and recovery technology (TCE). Here, TOL serves as the operating system for the training task, while TEE is responsible for task monitoring and error handling, promptly detecting anomalies and relaying them to TOL. Subsequently, TOL autonomously determines and implements fault tolerance strategies for the training task, with the TCE facilitating asynchronous checkpoint saving and loading during the fault tolerance process. The experimental results indicate that TRANSOM significantly enhances the efficiency of large-scale LLM training on clusters. Specifically, the pre-training time for GPT3-175B has been reduced by 28%, while checkpoint saving and loading performance have improved by a factor of 20.
+Large language models (LLMs) with hundreds of billions or trillions of parameters, represented by chatGPT, have achieved profound impact on various fields. However, training LLMs with super-large-scale parameters requires large high-performance GPU clusters and long training periods lasting for months. Due to the inevitable hardware and software failures in large-scale clusters, maintaining uninterrupted and long-duration training is extremely challenging. As a result, A substantial amount of training time is devoted to task checkpoint saving and loading, task rescheduling and restart, and task manual anomaly checks, which greatly harms the overall training efficiency. To address these issues, we propose TRANSOM, a novel fault-tolerant LLM training system. In this work, we design three key subsystems: the training pipeline automatic fault tolerance and recovery mechanism named Transom Operator and Launcher (TOL), the training task multi-dimensional metric automatic anomaly detection system named Transom Eagle Eye (TEE), and the training checkpoint asynchronous access automatic fault tolerance and recovery technology named Transom Checkpoint Engine (TCE). Here, TOL manages the lifecycle of training tasks, while TEE is responsible for task monitoring and anomaly reporting. TEE detects training anomalies and reports them to TOL, who automatically enters the fault tolerance strategy to eliminate abnormal nodes and restart the training task. And the asynchronous checkpoint saving and loading functionality provided by TCE greatly shorten the fault tolerance overhead. The experimental results indicate that TRANSOM significantly enhances the efficiency of large-scale LLM training on clusters. Specifically, the pre-training time for GPT3-175B has been reduced by 28%, while checkpoint saving and loading performance have improved by a factor of 20.
 
 {{</citation>}}
 

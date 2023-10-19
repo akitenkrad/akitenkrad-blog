@@ -75,13 +75,13 @@ Fanghua Ye, Meng Fang, Shenghui Li, Emine Yilmaz. (2023)
 Primary Category: cs.HC  
 Categories: cs-AI, cs-CL, cs-HC, cs-IR, cs.HC  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2310.09716v1)  
+[Paper Link](http://arxiv.org/abs/2310.09716v2)  
 
 ---
 
 
 **ABSTRACT**  
-Query rewriting plays a vital role in enhancing conversational search by transforming context-dependent user queries into standalone forms. Existing approaches primarily leverage human-rewritten queries as labels to train query rewriting models. However, human rewrites may lack sufficient information for optimal retrieval performance. To overcome this limitation, we propose utilizing large language models (LLMs) as query rewriters, enabling the generation of informative query rewrites through well-designed instructions. We define four essential properties for well-formed rewrites and incorporate all of them into the instruction. In addition, we introduce the role of rewrite editors for LLMs when initial query rewrites are available, forming a ``rewrite-then-edit'' process. Furthermore, we propose distilling the rewriting capabilities of LLMs into smaller models to reduce rewriting latency. Our experimental evaluation on the QReCC dataset demonstrates that informative query rewrites can yield substantially improved retrieval performance compared to human rewrites, especially with sparse retrievers.
+Query rewriting plays a vital role in enhancing conversational search by transforming context-dependent user queries into standalone forms. Existing approaches primarily leverage human-rewritten queries as labels to train query rewriting models. However, human rewrites may lack sufficient information for optimal retrieval performance. To overcome this limitation, we propose utilizing large language models (LLMs) as query rewriters, enabling the generation of informative query rewrites through well-designed instructions. We define four essential properties for well-formed rewrites and incorporate all of them into the instruction. In addition, we introduce the role of rewrite editors for LLMs when initial query rewrites are available, forming a "rewrite-then-edit" process. Furthermore, we propose distilling the rewriting capabilities of LLMs into smaller models to reduce rewriting latency. Our experimental evaluation on the QReCC dataset demonstrates that informative query rewrites can yield substantially improved retrieval performance compared to human rewrites, especially with sparse retrievers.
 
 {{</citation>}}
 
@@ -127,7 +127,7 @@ Weijian Ma, Yanyang Kong. (2023)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: Style Transfer  
-[Paper Link](http://arxiv.org/abs/2310.09978v1)  
+[Paper Link](http://arxiv.org/abs/2310.09978v2)  
 
 ---
 

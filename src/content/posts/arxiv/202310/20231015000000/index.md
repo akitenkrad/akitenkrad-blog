@@ -191,7 +191,7 @@ Xi Chen, Xiao Wang, Lucas Beyer, Alexander Kolesnikov, Jialin Wu, Paul Voigtlaen
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Language Model, Transformer  
-[Paper Link](http://arxiv.org/abs/2310.09199v1)  
+[Paper Link](http://arxiv.org/abs/2310.09199v2)  
 
 ---
 
@@ -433,7 +433,7 @@ Dongsheng Jiang, Yuchen Liu, Songlin Liu, Xiaopeng Zhang, Jin Li, Hongkai Xiong,
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2310.08825v1)  
+[Paper Link](http://arxiv.org/abs/2310.08825v2)  
 
 ---
 
@@ -1211,7 +1211,7 @@ Saumajit Saha, Albert Nanda. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: NLP, Sentiment Analysis, Social Media, Transformer  
-[Paper Link](http://arxiv.org/abs/2310.09238v1)  
+[Paper Link](http://arxiv.org/abs/2310.09238v2)  
 
 ---
 
@@ -1299,7 +1299,7 @@ Seth P. Benson, Iain J. Cruickshank. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Bias, Named Entity Recognition, Natural Language Understanding  
-[Paper Link](http://arxiv.org/abs/2310.09166v1)  
+[Paper Link](http://arxiv.org/abs/2310.09166v2)  
 
 ---
 
