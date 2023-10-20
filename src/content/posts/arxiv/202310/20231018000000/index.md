@@ -284,7 +284,7 @@ Weijia Shi, Sewon Min, Maria Lomeli, Chunting Zhou, Margaret Li, Victoria Lin, N
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2310.10638v1)  
+[Paper Link](http://arxiv.org/abs/2310.10638v2)  
 
 ---
 
@@ -1098,7 +1098,7 @@ Yuji Zhang, Jing Li, Wenjie Li. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Twitter  
-[Paper Link](http://arxiv.org/abs/2310.10191v1)  
+[Paper Link](http://arxiv.org/abs/2310.10191v2)  
 
 ---
 
@@ -1766,7 +1766,7 @@ Yu Gu, Jianwei Yang, Naoto Usuyama, Chunyuan Li, Sheng Zhang, Matthew P. Lungren
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CL, cs-CV, cs.CV  
 Keywords: GPT, GPT-4  
-[Paper Link](http://arxiv.org/abs/2310.10765v1)  
+[Paper Link](http://arxiv.org/abs/2310.10765v2)  
 
 ---
 
@@ -1975,18 +1975,18 @@ Most contributions on Few-Shot Object Detection (FSOD) evaluate their methods on
 {{</citation>}}
 
 
-### (88/176) Weakly Supervised Fine-grained Scene Graph Generation via Large Language Model (Kibum Kim et al., 2023)
+### (88/176) LLM4SGG: Large Language Model for Weakly Supervised Scene Graph Generation (Kibum Kim et al., 2023)
 
 {{<citation>}}
 
 Kibum Kim, Kanghoon Yoon, Jaehyeong Jeon, Yeonjun In, Jinyoung Moon, Donghyun Kim, Chanyoung Park. (2023)  
-**Weakly Supervised Fine-grained Scene Graph Generation via Large Language Model**  
+**LLM4SGG: Large Language Model for Weakly Supervised Scene Graph Generation**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Language Model, QA  
-[Paper Link](http://arxiv.org/abs/2310.10404v2)  
+[Paper Link](http://arxiv.org/abs/2310.10404v3)  
 
 ---
 
@@ -2735,14 +2735,14 @@ Identifying key patterns of tactics implemented by rival teams, and developing e
 
 {{<citation>}}
 
-Bita Darvish Rouhani, Ritchie Zhao, Ankit More, Mathew Hall, Alireza Khodamoradi, Summer Deng, Dhruv Choudhary, Marius Cornea, Eric Dellinger, Kristof Denolf, Stosic Dusan, Venmugil Elango, Maximilian Golub, Alexander Heinecke, Phil James-Roxby, Dharmesh Jani, Gaurav Kolhe, Martin Langhammer, Ada Li, Levi Melnick, Maral Mesmakhosroshahi, Andres Rodriguez, Michael Schulte, Rasoul Shafipour, Lei Shao, Michael Siu, Pradeep Dubey, Paulius Micikevicius, Maxim Naumov, Colin Verrilli, Ralph Wittig, Eric Chung. (2023)  
+Bita Darvish Rouhani, Ritchie Zhao, Ankit More, Mathew Hall, Alireza Khodamoradi, Summer Deng, Dhruv Choudhary, Marius Cornea, Eric Dellinger, Kristof Denolf, Stosic Dusan, Venmugil Elango, Maximilian Golub, Alexander Heinecke, Phil James-Roxby, Dharmesh Jani, Gaurav Kolhe, Martin Langhammer, Ada Li, Levi Melnick, Maral Mesmakhosroshahi, Andres Rodriguez, Michael Schulte, Rasoul Shafipour, Lei Shao, Michael Siu, Pradeep Dubey, Paulius Micikevicius, Maxim Naumov, Colin Verrilli, Ralph Wittig, Doug Burger, Eric Chung. (2023)  
 **Microscaling Data Formats for Deep Learning**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2310.10537v2)  
+[Paper Link](http://arxiv.org/abs/2310.10537v3)  
 
 ---
 
@@ -3083,24 +3083,24 @@ Spectral Graph Neural Networks (GNNs) are gaining attention because they can sur
 {{</citation>}}
 
 
-### (138/176) Data Augmentation for Time-Series Classification: a Comprehensive Survey (Zijun Gao et al., 2023)
+### (138/176) Data Augmentation for Time-Series Classification: An Extensive Empirical Study and Comprehensive Survey (Zijun Gao et al., 2023)
 
 {{<citation>}}
 
 Zijun Gao, Lingbo Li, Tianhua Xu. (2023)  
-**Data Augmentation for Time-Series Classification: a Comprehensive Survey**  
+**Data Augmentation for Time-Series Classification: An Extensive Empirical Study and Comprehensive Survey**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Augmentation, Time Series  
-[Paper Link](http://arxiv.org/abs/2310.10060v1)  
+[Paper Link](http://arxiv.org/abs/2310.10060v2)  
 
 ---
 
 
 **ABSTRACT**  
-Data Augmentation (DA) for Time Series Classification (TSC) is a common technique in machine learning to increase the number of training samples, which enhances model performance, enriches the dataset variety, and helps mitigate overfitting. Nonetheless, this technique is currently faced with challenges characterized by incomplete reviews, ambiguous taxonomies, insufficient evaluations, and user-unfriendly tools. This study undertakes a detailed exploration of DA for TSC. We first conducted a thorough review of the developments in the field of DA for TSC over the past 10 years since existing surveys on DA for TSC are not comprehensive enough. Our efforts encompassed gathering more than 60 distinct DA techniques from a pool over 100 research papers. This endeavor culminated in the creation of an innovative taxonomy exclusively tailored to DA within the TSC domain. The taxonomy organizes methods into five main categories: Transformation-Based, Pattern-Based, Generative, Decomposition-Based, and Automated Data Augmentation. This classification serves as a sturdy reference for researchers when choosing methods. In addition, since there is a lack of comprehensive and detailed evaluations of popular data augmentation methods, we conduct a comprehensive assessment. More than 15 DA methods were tested on 8 UCR time-series datasets using the ResNet and deploying a multi-metric evaluation strategy that includes Accuracy, Method Ranking, and Residual Analysis, the outcome was a baseline accuracy of 88.94 +- 11.83%. Findings highlighted the variable effectiveness of DA methods, for instance, methods like Permutation enhanced performance while Rotation decreased accuracy. Dataset properties also profoundly influence DA efficacy, we give users accurate and practical advice based on our experimental results to guide them in choosing the most appropriate DA methods for different data characteristics.
+Data Augmentation (DA) has emerged as an indispensable strategy in Time Series Classification (TSC), primarily due to its capacity to amplify training samples, thereby bolstering model robustness, diversifying datasets, and curtailing overfitting. However, the current landscape of DA in TSC is plagued with fragmented literature reviews, nebulous methodological taxonomies, inadequate evaluative measures, and a dearth of accessible, user-oriented tools. In light of these challenges, this study embarks on an exhaustive dissection of DA methodologies within the TSC realm. Our initial approach involved an extensive literature review spanning a decade, revealing that contemporary surveys scarcely capture the breadth of advancements in DA for TSC, prompting us to meticulously analyze over 100 scholarly articles to distill more than 60 unique DA techniques. This rigorous analysis precipitated the formulation of a novel taxonomy, purpose-built for the intricacies of DA in TSC, categorizing techniques into five principal echelons: Transformation-Based, Pattern-Based, Generative, Decomposition-Based, and Automated Data Augmentation. Our taxonomy promises to serve as a robust navigational aid for scholars, offering clarity and direction in method selection. Addressing the conspicuous absence of holistic evaluations for prevalent DA techniques, we executed an all-encompassing empirical assessment, wherein upwards of 15 DA strategies were subjected to scrutiny across 8 UCR time-series datasets, employing ResNet and a multi-faceted evaluation paradigm encompassing Accuracy, Method Ranking, and Residual Analysis, yielding a benchmark accuracy of 88.94 +- 11.83%. Our investigation underscored the inconsistent efficacies of DA techniques, with...
 
 {{</citation>}}
 

@@ -779,14 +779,14 @@ Graph Neural Networks (GNN) are reshaping our understanding of biomedicine and d
 
 {{<citation>}}
 
-Yufei Huang, Siyuan Li, Jin Su, Lirong Wu, Odin Zhang, Haitao Lin, Jingqi Qi, Zihan Liu, Zhangyang Gao, Jiangbin Zheng, Stan. ZQ. Li. (2023)  
+Yufei Huang, Siyuan Li, Jin Su, Lirong Wu, Odin Zhang, Haitao Lin, Jingqi Qi, Zihan Liu, Zhangyang Gao, Yuyang Liu, Jiangbin Zheng, Stan. ZQ. Li. (2023)  
 **Protein 3D Graph Structure Learning for Robust Structure-based Protein Property Prediction**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG, q-bio-QM  
 Keywords: AI, Computer Vision  
-[Paper Link](http://arxiv.org/abs/2310.11466v1)  
+[Paper Link](http://arxiv.org/abs/2310.11466v2)  
 
 ---
 
