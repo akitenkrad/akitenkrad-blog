@@ -609,7 +609,7 @@ Yingjie Qi, Jianlei Yang, Ao Zhou, Tong Qiao, Chunming Hu. (2023)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs-PF, cs.LG  
 Keywords: GNN  
-[Paper Link](http://arxiv.org/abs/2310.12184v1)  
+[Paper Link](http://arxiv.org/abs/2310.12184v2)  
 
 ---
 
@@ -1167,7 +1167,7 @@ Shumpei Inoue, Minh-Tien Nguyen, Hiroki Mizokuchi, Tuan-Anh D. Nguyen, Huu-Hiep 
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: AI, NLP  
-[Paper Link](http://arxiv.org/abs/2310.12074v1)  
+[Paper Link](http://arxiv.org/abs/2310.12074v2)  
 
 ---
 
@@ -1211,7 +1211,7 @@ Duc-Vu Nguyen, Quoc-Nam Nguyen. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: BLOOM, ChatGPT, GPT, GPT-3.5, GPT-4, LLaMA, Language Model, NLP, QA  
-[Paper Link](http://arxiv.org/abs/2310.12059v1)  
+[Paper Link](http://arxiv.org/abs/2310.12059v2)  
 
 ---
 
@@ -1365,7 +1365,7 @@ Yanming Kang, Giang Tran, Hans De Sterck. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: Attention, Transformer  
-[Paper Link](http://arxiv.org/abs/2310.11960v1)  
+[Paper Link](http://arxiv.org/abs/2310.11960v2)  
 
 ---
 
@@ -1497,7 +1497,7 @@ Shanshan Xu, Santosh T. Y. S. S, Oana Ichim, Isabella Risini, Barbara Plank, Mat
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: NLP  
-[Paper Link](http://arxiv.org/abs/2310.11878v2)  
+[Paper Link](http://arxiv.org/abs/2310.11878v3)  
 
 ---
 
@@ -1563,13 +1563,13 @@ Hai Yu, Chong Deng, Qinglin Zhang, Jiaqing Liu, Qian Chen, Wen Wang. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Semantic Similarity  
-[Paper Link](http://arxiv.org/abs/2310.11772v2)  
+[Paper Link](http://arxiv.org/abs/2310.11772v3)  
 
 ---
 
 
 **ABSTRACT**  
-Topic segmentation is critical for obtaining structured long documents and improving downstream tasks like information retrieval. Due to its ability of automatically exploring clues of topic shift from a large amount of labeled data, recent supervised neural models have greatly promoted the development of long document topic segmentation, but leaving the deeper relationship of semantic coherence and topic segmentation underexplored. Therefore, this paper enhances the supervised model's ability to capture coherence from both structure and similarity perspectives to further improve the topic segmentation performance, including the Topic-aware Sentence Structure Prediction (TSSP) and Contrastive Semantic Similarity Learning (CSSL). Specifically, the TSSP task is proposed to force the model to comprehend structural information by learning the original relations of adjacent sentences in a disarrayed document, which is constructed by jointly disrupting the original document at the topic and sentence levels. In addition, we utilize inter- and intra-topic information to construct contrastive samples and design the CSSL objective to ensure that the sentences representations in the same topic have higher semantic similarity, while those in different topics are less similar. Extensive experiments show that the Longformer with our approach significantly outperforms old state-of-the-art (SOTA) methods. Our approach improves $F_{1}$ of old SOTA by 3.42 (73.74 -> 77.16) and reduces $P_{k}$ by 1.11 points (15.0 -> 13.89) on WIKI-727K and achieves an average reduction of 0.83 points on $P_{k}$ on WikiSection. The average $P_{k}$ drop of 2.82 points on the two out-of-domain datasets also illustrates the robustness of our approach
+Topic segmentation is critical for obtaining structured documents and improving downstream tasks such as information retrieval. Due to its ability of automatically exploring clues of topic shift from abundant labeled data, recent supervised neural models have greatly promoted the development of long document topic segmentation, but leaving the deeper relationship between coherence and topic segmentation underexplored. Therefore, this paper enhances the ability of supervised models to capture coherence from both logical structure and semantic similarity perspectives to further improve the topic segmentation performance, proposing Topic-aware Sentence Structure Prediction (TSSP) and Contrastive Semantic Similarity Learning (CSSL). Specifically, the TSSP task is proposed to force the model to comprehend structural information by learning the original relations between adjacent sentences in a disarrayed document, which is constructed by jointly disrupting the original document at topic and sentence levels. Moreover, we utilize inter- and intra-topic information to construct contrastive samples and design the CSSL objective to ensure that the sentences representations in the same topic have higher similarity, while those in different topics are less similar. Extensive experiments show that the Longformer with our approach significantly outperforms old state-of-the-art (SOTA) methods. Our approach improve $F_1$ of old SOTA by 3.42 (73.74 -> 77.16) and reduces $P_k$ by 1.11 points (15.0 -> 13.89) on WIKI-727K and achieves an average relative reduction of 4.3% on $P_k$ on WikiSection. The average relative $P_k$ drop of 8.38% on two out-of-domain datasets also demonstrates the robustness of our approach.
 
 {{</citation>}}
 
@@ -1989,13 +1989,13 @@ Meng Tong, Kejiang Chen, Yuang Qi, Jie Zhang, Weiming Zhang, Nenghai Yu. (2023)
 Primary Category: cs.CR  
 Categories: cs-CR, cs.CR  
 Keywords: ChatGPT, GPT, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.12214v1)  
+[Paper Link](http://arxiv.org/abs/2310.12214v2)  
 
 ---
 
 
 **ABSTRACT**  
-Large language models (LLMs), such as ChatGPT, have simplified text generation tasks, yet their inherent privacy risks are increasingly garnering attention. While differential privacy techniques have been successfully applied to text classification tasks, the resultant semantic bias makes them unsuitable for text generation. Homomorphic encryption inference methods have also been introduced, however, the significant computational and communication costs limit their viability. Furthermore, closed-source, black-box models such as GPT-4 withhold their architecture, thwarting certain privacy-enhancing strategies such as splitting inference into local and remote and then adding noise when communicating. To overcome these challenges, we introduce PrivInfer, the first privacy-preserving inference framework for black-box LLMs in text generation. Inspired by human writing, PrivInfer employs differential privacy methods to generate perturbed prompts for remote LLMs inference and extracts the meaningful response from the remote perturbed results. We also introduce RANTEXT, a differential privacy scheme specifically for LLMs that leverages random adjacency in text perturbations. Experimental results indicate that PrivInfer is comparable to GPT-4 in terms of text generation quality while protecting privacy, and RANTEXT provides enhanced privacy protection against three types of differential privacy attacks, including our newly introduced GPT inference attack, compared to baseline methods.
+Large language models (LLMs), such as ChatGPT, have simplified text generation tasks, yet their inherent privacy risks are increasingly garnering attention. While differential privacy techniques have been successfully applied to text classification tasks, the resultant semantic bias makes them unsuitable for text generation. Homomorphic encryption inference methods have also been introduced. However, the significant computational and communication costs limit their viability. Furthermore, closed-source, black-box models such as GPT-4 withhold their architecture, thwarting certain privacy-enhancing strategies such as splitting inference into local and remote and then adding noise when communicating. To overcome these challenges, we introduce PrivInfer, the first practical privacy-preserving inference framework for black-box LLMs in text generation. PrivInfer employs differential privacy methods to generate perturbed prompts for remote LLMs inference and extracts the meaningful response from the remote perturbed results. We also introduce RANTEXT, a differential privacy mechanism within the perturbation module of PrivInfer specifically for LLMs that leverages random adjacency in text perturbations. Experimental results indicate that PrivInfer is comparable to GPT-4 in terms of text generation quality while protecting privacy, and RANTEXT provides enhanced privacy protection against three types of differential privacy attacks, including our newly introduced GPT inference attack, compared to baseline methods.
 
 {{</citation>}}
 
