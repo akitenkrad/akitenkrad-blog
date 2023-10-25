@@ -1178,7 +1178,7 @@ Eason Chen, Ray Huang, Justa Liang, Damien Chen, Pierce Hung. (2023)
 Primary Category: cs.HC  
 Categories: cs-HC, cs.HC  
 Keywords: AI, GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.13896v1)  
+[Paper Link](http://arxiv.org/abs/2310.13896v2)  
 
 ---
 

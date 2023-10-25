@@ -695,14 +695,14 @@ The expressivity of Graph Neural Networks (GNNs) can be entirely characterized b
 
 {{<citation>}}
 
-Philip Quirke, Fazl, Barez. (2023)  
+Philip Quirke, Fazl Barez. (2023)  
 **Understanding Addition in Transformers**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2310.13121v1)  
+[Paper Link](http://arxiv.org/abs/2310.13121v2)  
 
 ---
 
@@ -3018,7 +3018,7 @@ Pedram Agand, Alexey Iskrov, Mo Chen. (2023)
 Primary Category: eess.SY  
 Categories: cs-AI, cs-LG, cs-SY, eess-SY, eess.SY  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2310.13129v1)  
+[Paper Link](http://arxiv.org/abs/2310.13129v2)  
 
 ---
 

@@ -1561,7 +1561,7 @@ Yibo Bai, Xiao-Lei Zhang. (2023)
 Primary Category: eess.AS  
 Categories: cs-SD, eess-AS, eess.AS  
 Keywords: Speaker Verification  
-[Paper Link](http://arxiv.org/abs/2310.14270v1)  
+[Paper Link](http://arxiv.org/abs/2310.14270v2)  
 
 ---
 
