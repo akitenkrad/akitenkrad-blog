@@ -407,7 +407,7 @@ Nasser Almousa, Nasser Alzamil, Abdullah Alshehri, Ahmad Sait. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Google  
-[Paper Link](http://arxiv.org/abs/2310.13613v1)  
+[Paper Link](http://arxiv.org/abs/2310.13613v2)  
 
 ---
 
@@ -2535,7 +2535,7 @@ Siyu Zhang, Yeming Chen, Sirui Cheng, Yaoru Sun, Jun Yang, Lizhi Bai. (2023)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CL, cs-CV, cs.CV  
 Keywords: Graph Convolutional Network  
-[Paper Link](http://arxiv.org/abs/2310.13447v1)  
+[Paper Link](http://arxiv.org/abs/2310.13447v2)  
 
 ---
 

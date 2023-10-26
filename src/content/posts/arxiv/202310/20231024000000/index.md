@@ -44,14 +44,14 @@ math: true
 
 {{<citation>}}
 
-Ross Gruetzemacher, Alan Chan, Kevin Frazier, Christy Manning, Štěpán Los, James Fox, José Hernández-Orallo, John Burden, Matija Franklin, Clíodhna Ní Ghuidhir, Mark Bailey, Toby Pilditch, Kyle Kilian. (2023)  
+Ross Gruetzemacher, Alan Chan, Kevin Frazier, Christy Manning, Štěpán Los, James Fox, José Hernández-Orallo, John Burden, Matija Franklin, Clíodhna Ní Ghuidhir, Mark Bailey, Daniel Eth, Toby Pilditch, Kyle Kilian. (2023)  
 **An International Consortium for Evaluations of Societal-Scale Risks from Advanced AI**  
 
 ---
 Primary Category: cs.CY  
 Categories: cs-AI, cs-CY, cs.CY  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2310.14455v1)  
+[Paper Link](http://arxiv.org/abs/2310.14455v2)  
 
 ---
 

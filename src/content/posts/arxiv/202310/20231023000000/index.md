@@ -1177,14 +1177,14 @@ Eason Chen, Ray Huang, Justa Liang, Damien Chen, Pierce Hung. (2023)
 ---
 Primary Category: cs.HC  
 Categories: cs-HC, cs.HC  
-Keywords: AI, GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.13896v2)  
+Keywords: AI, ChatGPT, GPT, Language Model  
+[Paper Link](http://arxiv.org/abs/2310.13896v3)  
 
 ---
 
 
 **ABSTRACT**  
-The emergence of Large Language Models (LLMs) has improved software development efficiency, but their performance can be hindered by training data limitations and prompt design issues. Existing LLM development tools often operate as black boxes, with users unable to view the prompts used and unable to improve performance by correcting prompts when errors occur. To address the aforementioned issues, GPTutor was introduced as an open-source AI pair programming tool, offering an alternative to Copilot. GPTutor empowers users to customize prompts for various programming languages and scenarios, with support for 120+ human languages and 50+ programming languages. Users can fine-tune prompts to correct the errors from LLM for precision and efficient code generation. At the end of the paper, we underscore GPTutor's potential through examples, including demonstrating its proficiency in interpreting and generating Sui-Move, a newly introduced smart contract language, using prompt engineering.
+This paper presents the latest progress of GPTutor: a ChatGPT-powered programming tool extension in Visual Studio Code. The emergence of Large Language Models (LLMs) has improved software development efficiency, but their performance can be hindered by training data limitations and prompt design issues. Existing LLM development tools often operate as black boxes, with users unable to view the prompts used and unable to improve performance by correcting prompts when errors occur. To address the aforementioned issues, GPTutor was introduced as an open-source AI pair programming tool, offering an alternative to Copilot. GPTutor empowers users to customize prompts for various programming languages and scenarios, with support for 120+ human languages and 50+ programming languages. Users can fine-tune prompts to correct the errors from LLM for precision and efficient code generation. At the end of the paper, we underscore GPTutor's potential through examples, including demonstrating its proficiency in interpreting and generating Sui-Move, a newly introduced smart contract language, using prompt engineering.
 
 {{</citation>}}
 

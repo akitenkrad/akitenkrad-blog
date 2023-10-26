@@ -192,13 +192,13 @@ Xiaoyun Liu, Divya Saxena, Jiannong Cao, Yuqing Zhao, Penghui Ruan. (2023)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2310.15074v1)  
+[Paper Link](http://arxiv.org/abs/2310.15074v2)  
 
 ---
 
 
 **ABSTRACT**  
-Differentiable architecture search (DAS) has become the prominent approach in the field of neural architecture search (NAS) due to its time-efficient automation of neural network design. It shifts the traditional paradigm of discrete architecture sampling and evaluation to differentiable super-net optimization and discretization. However, existing DAS methods either only conduct coarse-grained operation-level search, or restrictively explore fine-grained filter-level and weight-level units using manually-defined remaining ratios, which fail to simultaneously achieve small model size and satisfactory model performance. Additionally, they address the high memory consumption of the search process at the expense of search quality. To tackle these issues, we introduce multi-granularity architecture search (MGAS), a unified framework which aims to comprehensively and memory-efficiently explore the multi-granularity search space to discover both effective and efficient neural networks. Specifically, we learn discretization functions specific to each granularity level to adaptively determine the remaining ratios according to the evolving architecture. This ensures an optimal balance among units of different granularity levels for different target model sizes. Considering the memory demands, we break down the super-net optimization and discretization into multiple sub-net stages. By allowing re-pruning and regrowing of units in previous sub-nets during subsequent stages, we compensate for potential bias in earlier stages. Extensive experiments on CIFAR-10, CIFAR-100 and ImageNet demonstrate that MGAS outperforms other state-of-the-art methods in achieving a better trade-off between model performance and model size.
+Differentiable architecture search (DAS) revolutionizes neural architecture search (NAS) with time-efficient automation, transitioning from discrete candidate sampling and evaluation to differentiable super-net optimization and discretization. However, existing DAS methods either only conduct coarse-grained operation-level search or manually define the remaining ratios for fine-grained kernel-level and weight-level units, which fail to simultaneously optimize model size and model performance. Furthermore, these methods compromise search quality to reduce memory consumption. To tackle these issues, we introduce multi-granularity architecture search (MGAS), a unified framework which aims to comprehensively and memory-efficiently explore the multi-granularity search space to discover both effective and efficient neural networks. Specifically, we learn discretization functions specific to each granularity level to adaptively determine the remaining ratios according to the evolving architecture. This ensures an optimal balance among units of different granularity levels for different target model sizes. Considering the memory demands, we break down the super-net optimization and discretization into multiple sub-net stages. Nevertheless, the greedy nature of this approach may introduce bias in the early stages. To compensate for the bias, we propose progressive re-evaluation to allow for re-pruning and regrowing of previous units during subsequent stages. Extensive experiments on CIFAR-10, CIFAR-100 and ImageNet demonstrate that MGAS outperforms other state-of-the-art methods in achieving a better trade-off between model performance and model size.
 
 {{</citation>}}
 
@@ -522,7 +522,7 @@ Haoru Tan, Sitong Wu, Fei Du, Yukang Chen, Zhibin Wang, Fan Wang, Xiaojuan Qi. (
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CV, cs-LG, cs.LG  
 Keywords: Pruning  
-[Paper Link](http://arxiv.org/abs/2310.14664v1)  
+[Paper Link](http://arxiv.org/abs/2310.14664v2)  
 
 ---
 
@@ -742,7 +742,7 @@ Weimin Lyu, Songzhu Zheng, Lu Pang, Haibin Ling, Chao Chen. (2023)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Attention, BERT, NLP, Sentiment Analysis  
-[Paper Link](http://arxiv.org/abs/2310.14480v1)  
+[Paper Link](http://arxiv.org/abs/2310.14480v2)  
 
 ---
 
@@ -1102,7 +1102,7 @@ Ankita Bhaumik, Praveen Venkateswaran, Yara Rizk, Vatche Isahagian. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: ChatGPT, GPT  
-[Paper Link](http://arxiv.org/abs/2310.15298v1)  
+[Paper Link](http://arxiv.org/abs/2310.15298v2)  
 
 ---
 
@@ -2114,7 +2114,7 @@ Wei Chen, Qiushi Wang, Zefei Long, Xianyin Zhang, Zhongtian Lu, Bingxuan Li, Siy
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Financial, Language Model, NLP  
-[Paper Link](http://arxiv.org/abs/2310.15205v1)  
+[Paper Link](http://arxiv.org/abs/2310.15205v2)  
 
 ---
 
@@ -2906,7 +2906,7 @@ Oliver Li, Mallika Subramanian, Arkadiy Saakyan, Sky CH-Wang, Smaranda Muresan. 
 Primary Category: cs.CL  
 Categories: cs-CL, cs-CY, cs.CL  
 Keywords: Dialog  
-[Paper Link](http://arxiv.org/abs/2310.14563v1)  
+[Paper Link](http://arxiv.org/abs/2310.14563v2)  
 
 ---
 
