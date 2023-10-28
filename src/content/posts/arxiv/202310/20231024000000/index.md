@@ -961,7 +961,7 @@ Dayoon Ko, Sangho Lee, Gunhee Kim. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs-CV, cs.CL  
 Keywords: AI, GPT, GPT-3.5, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.14159v1)  
+[Paper Link](http://arxiv.org/abs/2310.14159v2)  
 
 ---
 
