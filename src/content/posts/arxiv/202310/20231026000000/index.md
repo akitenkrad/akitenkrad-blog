@@ -498,7 +498,7 @@ Darshan Prabhu, Preethi Jyothi, Sriram Ganapathy, Vinit Unni. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Speech Recognition  
-[Paper Link](http://arxiv.org/abs/2310.15970v2)  
+[Paper Link](http://arxiv.org/abs/2310.15970v3)  
 
 ---
 
@@ -2706,7 +2706,7 @@ Lei Li. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Semantic Segmentation  
-[Paper Link](http://arxiv.org/abs/2310.16069v1)  
+[Paper Link](http://arxiv.org/abs/2310.16069v2)  
 
 ---
 
