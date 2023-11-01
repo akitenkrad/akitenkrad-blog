@@ -60,7 +60,7 @@ Benjamin Yan, Ruochen Liu, David E. Kuo, Subathra Adithan, Eduardo Pontes Reis, 
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI  
 Keywords: AI, Few-Shot  
-[Paper Link](http://arxiv.org/abs/2310.17811v1)  
+[Paper Link](http://arxiv.org/abs/2310.17811v2)  
 
 ---
 
@@ -236,7 +236,7 @@ Mukul Singh, José Cambronero, Sumit Gulwani, Vu Le, Carina Negreanu, Elnaz Nour
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs-DB, cs-PL, cs.AI  
 Keywords: T5  
-[Paper Link](http://arxiv.org/abs/2310.17306v1)  
+[Paper Link](http://arxiv.org/abs/2310.17306v2)  
 
 ---
 
@@ -2659,18 +2659,18 @@ Big models have greatly advanced AI's ability to understand, generate, and manip
 {{</citation>}}
 
 
-### (118/139) Decoding The Digital Fukú: Deciphering Colonial Legacies to Critically Assess ChatGPT in Dominican Education (Anaelia Ovalle, 2023)
+### (118/139) Decoding The Digital Fuku: Deciphering Colonial Legacies to Critically Assess ChatGPT in Dominican Education (Anaelia Ovalle, 2023)
 
 {{<citation>}}
 
 Anaelia Ovalle. (2023)  
-**Decoding The Digital Fukú: Deciphering Colonial Legacies to Critically Assess ChatGPT in Dominican Education**  
+**Decoding The Digital Fuku: Deciphering Colonial Legacies to Critically Assess ChatGPT in Dominican Education**  
 
 ---
 Primary Category: cs.CY  
 Categories: cs-CY, cs.CY  
 Keywords: AI, ChatGPT, GPT, Generative AI  
-[Paper Link](http://arxiv.org/abs/2310.17533v1)  
+[Paper Link](http://arxiv.org/abs/2310.17533v2)  
 
 ---
 
@@ -3106,7 +3106,7 @@ Mukul Singh, José Cambronero, Sumit Gulwani, Vu Le, Carina Negreanu, Gust Verbr
 Primary Category: cs.SE  
 Categories: cs-AI, cs-CL, cs-PL, cs-SE, cs.SE  
 Keywords: Microsoft  
-[Paper Link](http://arxiv.org/abs/2310.17680v1)  
+[Paper Link](http://arxiv.org/abs/2310.17680v2)  
 
 ---
 
@@ -3184,12 +3184,12 @@ Daniel S. Roll, Zeyneb Kurt, Wai Lok Woo. (2023)
 Primary Category: astro-ph.EP  
 Categories: 68, I-2-6; K-3-2, astro-ph-EP, astro-ph-IM, astro-ph.EP, cs-AI, cs-CV  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2310.17158v1)  
+[Paper Link](http://arxiv.org/abs/2310.17158v2)  
 
 ---
 
 
 **ABSTRACT**  
-The Kessler syndrome refers to the escalating space debris from frequent space activities, threatening future space exploration. Addressing this issue is vital. Several AI models, including Convolutional Neural Networks (CNN), Kernel Principal Component Analysis (KPCA), and Model-Agnostic Meta-Learning (MAML), have been assessed with various data types. Earlier studies highlighted the combination of the YOLO object detector and a linear Kalman filter for object detection and tracking. Building on this, our project introduces CosmosDSR, a novel methodology combining YOLOv3 with an Unscented Kalman Filter for tracking satellites in sequential images, compared to a linear Kalman filter. Using the SPARK dataset from the University of Luxembourg for training and testing, the YOLOv3 precisely detected and classified all satellite categories (mAP=97.18%, F1=0.95) with few errors (TP=4163, FP=209, FN=237). Both CosmosDSR and the LKF tracked satellites accurately (UKF: MSE=2.83/RMSE=1.66, LKF: MSE=2.84/RMSE=1.66). Despite concerns of class imbalance and the absence of real images, the model shows promise. Future work should address these limitations, increase tracking sample size, and improve metrics. This research suggests the algorithm's potential in detecting and tracking satellites, paving the way for solutions to the Kessler syndrome.
+The Kessler syndrome refers to the escalating space debris from frequent space activities, threatening future space exploration. Addressing this issue is vital. Several AI models, including Convolutional Neural Networks, Kernel Principal Component Analysis, and Model-Agnostic Meta- Learning have been assessed with various data types. Earlier studies highlighted the combination of the YOLO object detector and a linear Kalman filter (LKF) for object detection and tracking. Advancing this, the current paper introduces a novel methodology for the Comprehensive Orbital Surveillance and Monitoring Of Space by Detecting Satellite Residuals (CosmosDSR) by combining YOLOv3 with an Unscented Kalman Filter (UKF) for tracking satellites in sequential images. Using the Spacecraft Recognition Leveraging Knowledge of Space Environment (SPARK) dataset for training and testing, the YOLOv3 precisely detected and classified all satellite categories (Mean Average Precision=97.18%, F1=0.95) with few errors (TP=4163, FP=209, FN=237). Both CosmosDSR and an implemented LKF used for comparison tracked satellites accurately for a mean squared error (MSE) and root mean squared error (RME) of MSE=2.83/RMSE=1.66 for UKF and MSE=2.84/RMSE=1.66 for LKF. The current study is limited to images generated in a space simulation environment, but the CosmosDSR methodology shows great potential in detecting and tracking satellites, paving the way for solutions to the Kessler syndrome.
 
 {{</citation>}}
