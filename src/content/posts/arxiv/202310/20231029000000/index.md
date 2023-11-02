@@ -904,7 +904,7 @@ Fabien Roger, Ryan Greenblatt. (2023)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Language Model, Reasoning  
-[Paper Link](http://arxiv.org/abs/2310.18512v1)  
+[Paper Link](http://arxiv.org/abs/2310.18512v2)  
 
 ---
 
@@ -1818,7 +1818,7 @@ Junling Liu, Ziming Wang, Qichen Ye, Dading Chong, Peilin Zhou, Yining Hua. (202
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CL, cs-CV, cs.CV  
 Keywords: Language Model, Transformer  
-[Paper Link](http://arxiv.org/abs/2310.17956v1)  
+[Paper Link](http://arxiv.org/abs/2310.17956v2)  
 
 ---
 

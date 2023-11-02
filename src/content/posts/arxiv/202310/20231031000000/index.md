@@ -205,14 +205,14 @@ Recent advances in machine learning have shown that Reinforcement Learning from 
 
 {{<citation>}}
 
-Yuanze Li, Haolin Wang, Shihao Yuan, Ming Liu, Yiwen Guo, Chen Xu, Guangming Shi, Wangmeng Zuo. (2023)  
+Yuanze Li, Haolin Wang, Shihao Yuan, Ming Liu, Debin Zhao, Yiwen Guo, Chen Xu, Guangming Shi, Wangmeng Zuo. (2023)  
 **Myriad: Large Multimodal Model by Applying Vision Experts for Industrial Anomaly Detection**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Anomaly Detection, GPT, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.19070v1)  
+[Paper Link](http://arxiv.org/abs/2310.19070v2)  
 
 ---
 
@@ -1866,7 +1866,7 @@ Shengcai Liu, Caishun Chen, Xinghua Qu, Ke Tang, Yew-Soon Ong. (2023)
 Primary Category: cs.NE  
 Categories: cs-NE, cs.NE  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2310.19046v1)  
+[Paper Link](http://arxiv.org/abs/2310.19046v2)  
 
 ---
 

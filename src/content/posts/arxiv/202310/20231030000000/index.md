@@ -869,24 +869,24 @@ Graph Neural Networks (GNNs) have achieved great success in representing data wi
 {{</citation>}}
 
 
-### (38/74) Online Multi-view Anomaly Detection with Disentangled Product-of-Experts Modeling (Hao Wang et al., 2023)
+### (38/74) Debunking Free Fusion Myth: Online Multi-view Anomaly Detection with Disentangled Product-of-Experts Modeling (Hao Wang et al., 2023)
 
 {{<citation>}}
 
 Hao Wang, Zhi-Qi Cheng, Jingdong Sun, Xin Yang, Xiao Wu, Hongyang Chen, Yan Yang. (2023)  
-**Online Multi-view Anomaly Detection with Disentangled Product-of-Experts Modeling**  
+**Debunking Free Fusion Myth: Online Multi-view Anomaly Detection with Disentangled Product-of-Experts Modeling**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-CV, cs-LG, cs-MM, cs.LG  
 Keywords: Anomaly Detection  
-[Paper Link](http://arxiv.org/abs/2310.18728v1)  
+[Paper Link](http://arxiv.org/abs/2310.18728v2)  
 
 ---
 
 
 **ABSTRACT**  
-Multi-view or even multi-modal data is appealing yet challenging for real-world applications. Detecting anomalies in multi-view data is a prominent recent research topic. However, most of the existing methods 1) are only suitable for two views or type-specific anomalies, 2) suffer from the issue of fusion disentanglement, and 3) do not support online detection after model deployment. To address these challenges, our main ideas in this paper are three-fold: multi-view learning, disentangled representation learning, and generative model. To this end, we propose dPoE, a novel multi-view variational autoencoder model that involves (1) a Product-of-Experts (PoE) layer in tackling multi-view data, (2) a Total Correction (TC) discriminator in disentangling view-common and view-specific representations, and (3) a joint loss function in wrapping up all components. In addition, we devise theoretical information bounds to control both view-common and view-specific representations. Extensive experiments on six real-world datasets demonstrate that the proposed dPoE outperforms baselines markedly.
+Multi-view or even multi-modal data is appealing yet challenging for real-world applications. Detecting anomalies in multi-view data is a prominent recent research topic. However, most of the existing methods 1) are only suitable for two views or type-specific anomalies, 2) suffer from the issue of fusion disentanglement, and 3) do not support online detection after model deployment. To address these challenges, our main ideas in this paper are three-fold: multi-view learning, disentangled representation learning, and generative model. To this end, we propose dPoE, a novel multi-view variational autoencoder model that involves (1) a Product-of-Experts (PoE) layer in tackling multi-view data, (2) a Total Correction (TC) discriminator in disentangling view-common and view-specific representations, and (3) a joint loss function in wrapping up all components. In addition, we devise theoretical information bounds to control both view-common and view-specific representations. Extensive experiments on six real-world datasets markedly demonstrate that the proposed dPoE outperforms baselines.
 
 {{</citation>}}
 

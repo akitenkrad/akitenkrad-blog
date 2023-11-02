@@ -759,14 +759,14 @@ Large language models (LLMs) have significantly improved various aspects of our 
 
 {{<citation>}}
 
-Stefan Künzli, Florain Grötschla, Joël Mathys, Roger Wattenhofer. (2023)  
+Stefan Künzli, Florian Grötschla, Joël Mathys, Roger Wattenhofer. (2023)  
 **SURF: A Generalization Benchmark for GNNs Predicting Fluid Dynamics**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG, physics-flu-dyn  
 Keywords: GNN  
-[Paper Link](http://arxiv.org/abs/2310.20049v1)  
+[Paper Link](http://arxiv.org/abs/2310.20049v2)  
 
 ---
 
@@ -1841,20 +1841,20 @@ Access to real-world medical instructions is essential for medical research and 
 
 {{<citation>}}
 
-Daniel Eitan, Menachem Pirchi, Neta Glazer, Shai Meital, Gil Ayach, Aviv Shamsian, Aviv Navon, Gil Hetz, Joseph Keshet. (2023)  
+Daniel Eitan, Menachem Pirchi, Neta Glazer, Shai Meital, Gil Ayach, Gidon Krendel, Aviv Shamsian, Aviv Navon, Gil Hetz, Joseph Keshet. (2023)  
 **Combining Language Models For Specialized Domains: A Colorful Approach**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2310.19708v2)  
+[Paper Link](http://arxiv.org/abs/2310.19708v3)  
 
 ---
 
 
 **ABSTRACT**  
-General purpose language models (LMs) encounter difficulties when processing domain-specific jargon and terminology, which are frequently utilized in specialized fields such as medicine or industrial settings. Moreover, they often find it challenging to interpret mixed speech that blends general language with specialized jargon. This poses a challenge for automatic speech recognition systems operating within these specific domains. In this work, we introduce a novel approach that integrates domain-specific or secondary LM into general-purpose LM. This strategy involves labeling, or ``coloring'', each word to indicate its association with either the general or the domain-specific LM. We develop an optimized algorithm that enhances the beam search algorithm to effectively handle inferences involving colored words. Our evaluations indicate that this approach is highly effective in integrating jargon into language tasks. Notably, our method substantially lowers the error rate for domain-specific words without compromising performance in the general domain.
+General purpose language models (LMs) encounter difficulties when processing domain-specific jargon and terminology, which are frequently utilized in specialized fields such as medicine or industrial settings. Moreover, they often find it challenging to interpret mixed speech that blends general language with specialized jargon. This poses a challenge for automatic speech recognition systems operating within these specific domains. In this work, we introduce a novel approach that integrates domain-specific or secondary LM into general-purpose LM. This strategy involves labeling, or "coloring", each word to indicate its association with either the general or the domain-specific LM. We develop an optimized algorithm that enhances the beam search algorithm to effectively handle inferences involving colored words. Our evaluations indicate that this approach is highly effective in integrating jargon into language tasks. Notably, our method substantially lowers the error rate for domain-specific words without compromising performance in the general domain.
 
 {{</citation>}}
 
@@ -2112,7 +2112,7 @@ Zhenpeng Su, Xing Wu, Xue Bai, Zijia Lin, Hui Chen, Guiguang Ding, Wei Zhou, Son
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Bias, Language Model  
-[Paper Link](http://arxiv.org/abs/2310.19531v1)  
+[Paper Link](http://arxiv.org/abs/2310.19531v2)  
 
 ---
 
@@ -2200,7 +2200,7 @@ Huawen Feng, Yan Fan, Xiong Liu, Ting-En Lin, Zekun Yao, Yuchuan Wu, Fei Huang, 
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Summarization, T5, Text Summarization  
-[Paper Link](http://arxiv.org/abs/2310.19347v1)  
+[Paper Link](http://arxiv.org/abs/2310.19347v2)  
 
 ---
 
@@ -2556,13 +2556,13 @@ Jiaming Ji, Tianyi Qiu, Boyuan Chen, Borong Zhang, Hantao Lou, Kaile Wang, Yawen
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2310.19852v1)  
+[Paper Link](http://arxiv.org/abs/2310.19852v2)  
 
 ---
 
 
 **ABSTRACT**  
-AI alignment aims to build AI systems that are in accordance with human intentions and values. With the emergence of AI systems possessing superhuman capabilities, the potential large-scale risks associated with misaligned systems become apparent. Hundreds of AI experts and public figures have expressed their concerns about AI risks, arguing that mitigating the risk of extinction from AI should be a global priority, alongside other societal-scale risks such as pandemics and nuclear war. Motivated by the lack of an up-to-date systematic survey on AI alignment, in this paper, we delve into the core concepts, methodology, and practice of alignment research. To begin with, we identify four principles as the key objectives of AI alignment: Robustness, Interpretability, Controllability, and Ethicality (RICE). We outline the landscape of current alignment research and decompose them into two key components: forward alignment and backward alignment. The former aims to make AI systems aligned via alignment training, while the latter aims to gain evidence about the systems' alignment and govern them appropriately to avoid exacerbating misalignment risks. On forward alignment, we discuss how to conduct learning from various types of feedback (a.k.a., outer alignment) and how to overcome the distribution shift to avoid goal misgeneralization (a.k.a., inner alignment). On backward alignment, we discuss verification techniques that can tell the degree of value alignment for various AI systems deployed, which can further improve the assurance of forward alignment outcomes.   Based on this, we also release a constantly updated website featuring tutorials, collections of papers, blogs, and other learning resources at https://www.alignmentsurvey.com.
+AI alignment aims to make AI systems behave in line with human intentions and values. As AI systems grow more capable, the potential large-scale risks associated with misaligned AI systems become salient. Hundreds of AI experts and public figures have expressed concerns about AI risks, arguing that "mitigating the risk of extinction from AI should be a global priority, alongside other societal-scale risks such as pandemics and nuclear war". To provide a comprehensive and up-to-date overview of the alignment field, in this survey paper, we delve into the core concepts, methodology, and practice of alignment. We identify the RICE principles as the key objectives of AI alignment: Robustness, Interpretability, Controllability, and Ethicality. Guided by these four principles, we outline the landscape of current alignment research and decompose them into two key components: forward alignment and backward alignment. The former aims to make AI systems aligned via alignment training, while the latter aims to gain evidence about the systems' alignment and govern them appropriately to avoid exacerbating misalignment risks. Forward alignment and backward alignment form a recurrent process where the alignment of AI systems from the forward process is verified in the backward process, meanwhile providing updated objectives for forward alignment in the next round. On forward alignment, we discuss learning from feedback and learning under distribution shift. On backward alignment, we discuss assurance techniques and governance practices that apply to every stage of AI systems' lifecycle.   We also release and continually update the website (www.alignmentsurvey.com) which features tutorials, collections of papers, blog posts, and other resources.
 
 {{</citation>}}
 
@@ -2998,7 +2998,7 @@ Yu Enokibori. (2023)
 Primary Category: cs.HC  
 Categories: cs-HC, cs-LG, cs.HC  
 Keywords: Time Series  
-[Paper Link](http://arxiv.org/abs/2310.19283v1)  
+[Paper Link](http://arxiv.org/abs/2310.19283v2)  
 
 ---
 
