@@ -322,7 +322,7 @@ Changsheng Lv, Shuai Zhang, Yapeng Tian, Mengshi Qi, Huadong Ma. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Reasoning  
-[Paper Link](http://arxiv.org/abs/2310.19559v1)  
+[Paper Link](http://arxiv.org/abs/2310.19559v2)  
 
 ---
 
