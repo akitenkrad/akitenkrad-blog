@@ -868,7 +868,7 @@ Ryan Liu, Howard Yen, Raja Marjieh, Thomas L. Griffiths, Ranjay Krishna. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs-HC, cs-LG, cs.AI  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2311.00687v1)  
+[Paper Link](http://arxiv.org/abs/2311.00687v2)  
 
 ---
 
