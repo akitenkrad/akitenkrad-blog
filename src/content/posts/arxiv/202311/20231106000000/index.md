@@ -854,7 +854,7 @@ Xiao Wang, Isaac Lyngaas, Aristeidis Tsaris, Peng Chen, Sajal Dash, Mayanka Chan
 Primary Category: cs.DC  
 Categories: cs-AI, cs-DC, cs.DC  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2311.02382v1)  
+[Paper Link](http://arxiv.org/abs/2311.02382v2)  
 
 ---
 

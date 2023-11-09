@@ -25,25 +25,25 @@ math: true
 - [cs.CL (7)](#cscl-7)
 - [cs.CV (17)](#cscv-17)
 - [cs.PL (1)](#cspl-1)
-- [cs.LG (11)](#cslg-11)
+- [cs.LG (12)](#cslg-12)
 - [cs.SD (1)](#cssd-1)
 - [cs.AI (2)](#csai-2)
 - [cs.AR (1)](#csar-1)
-- [cs.IR (2)](#csir-2)
+- [cs.IR (3)](#csir-3)
 - [cs.DS (1)](#csds-1)
 - [eess.SY (1)](#eesssy-1)
 - [cs.DC (1)](#csdc-1)
 - [cs.CY (1)](#cscy-1)
 - [cs.NI (1)](#csni-1)
 - [cs.SE (1)](#csse-1)
-- [cs.DB (1)](#csdb-1)
+- [cs.DB (2)](#csdb-2)
 - [cs.HC (1)](#cshc-1)
 
 ## cs.IT (1)
 
 
 
-### (1/51) Optimal Construction of N-bit-delay Almost Instantaneous Fixed-to-Variable-Length Codes (Ryosuke Sugiura et al., 2023)
+### (1/54) Optimal Construction of N-bit-delay Almost Instantaneous Fixed-to-Variable-Length Codes (Ryosuke Sugiura et al., 2023)
 
 {{<citation>}}
 
@@ -69,7 +69,7 @@ This paper presents an optimal construction of $N$-bit-delay almost instantaneou
 
 
 
-### (2/51) CausalCite: A Causal Formulation of Paper Citations (Ishan Kumar et al., 2023)
+### (2/54) CausalCite: A Causal Formulation of Paper Citations (Ishan Kumar et al., 2023)
 
 {{<citation>}}
 
@@ -91,7 +91,7 @@ Evaluating the significance of a paper is pivotal yet challenging for the scient
 {{</citation>}}
 
 
-### (3/51) Rule Learning as Machine Translation using the Atomic Knowledge Bank (Kristoffer Æsøy et al., 2023)
+### (3/54) Rule Learning as Machine Translation using the Atomic Knowledge Bank (Kristoffer Æsøy et al., 2023)
 
 {{<citation>}}
 
@@ -113,7 +113,7 @@ Machine learning models, and in particular language models, are being applied to
 {{</citation>}}
 
 
-### (4/51) Extraction of Atypical Aspects from Customer Reviews: Datasets and Experiments with Language Models (Smita Nannaware et al., 2023)
+### (4/54) Extraction of Atypical Aspects from Customer Reviews: Datasets and Experiments with Language Models (Smita Nannaware et al., 2023)
 
 {{<citation>}}
 
@@ -135,7 +135,7 @@ A restaurant dinner may become a memorable experience due to an unexpected aspec
 {{</citation>}}
 
 
-### (5/51) Divide & Conquer for Entailment-aware Multi-hop Evidence Retrieval (Fan Luo et al., 2023)
+### (5/54) Divide & Conquer for Entailment-aware Multi-hop Evidence Retrieval (Fan Luo et al., 2023)
 
 {{<citation>}}
 
@@ -157,7 +157,7 @@ Lexical and semantic matches are commonly used as relevance measurements for inf
 {{</citation>}}
 
 
-### (6/51) mahaNLP: A Marathi Natural Language Processing Library (Vidula Magdum et al., 2023)
+### (6/54) mahaNLP: A Marathi Natural Language Processing Library (Vidula Magdum et al., 2023)
 
 {{<citation>}}
 
@@ -179,7 +179,7 @@ We present mahaNLP, an open-source natural language processing (NLP) library spe
 {{</citation>}}
 
 
-### (7/51) BanMANI: A Dataset to Identify Manipulated Social Media News in Bangla (Mahammed Kamruzzaman et al., 2023)
+### (7/54) BanMANI: A Dataset to Identify Manipulated Social Media News in Bangla (Mahammed Kamruzzaman et al., 2023)
 
 {{<citation>}}
 
@@ -201,7 +201,7 @@ Initial work has been done to address fake news detection and misrepresentation 
 {{</citation>}}
 
 
-### (8/51) Relation Extraction Model Based on Semantic Enhancement Mechanism (Peiyu Liu et al., 2023)
+### (8/54) Relation Extraction Model Based on Semantic Enhancement Mechanism (Peiyu Liu et al., 2023)
 
 {{<citation>}}
 
@@ -227,7 +227,7 @@ Relational extraction is one of the basic tasks related to information extractio
 
 
 
-### (9/51) Towards Generic Anomaly Detection and Understanding: Large-scale Visual-linguistic Model (GPT-4V) Takes the Lead (Yunkang Cao et al., 2023)
+### (9/54) Towards Generic Anomaly Detection and Understanding: Large-scale Visual-linguistic Model (GPT-4V) Takes the Lead (Yunkang Cao et al., 2023)
 
 {{<citation>}}
 
@@ -249,7 +249,7 @@ Anomaly detection is a crucial task across different domains and data types. How
 {{</citation>}}
 
 
-### (10/51) Attention Modules Improve Image-Level Anomaly Detection for Industrial Inspection: A DifferNet Case Study (André Luiz Buarque Vieira e Silva et al., 2023)
+### (10/54) Attention Modules Improve Image-Level Anomaly Detection for Industrial Inspection: A DifferNet Case Study (André Luiz Buarque Vieira e Silva et al., 2023)
 
 {{<citation>}}
 
@@ -260,7 +260,7 @@ André Luiz Buarque Vieira e Silva, Francisco Simões, Danny Kowerko, Tobias Sch
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Anomaly Detection, Attention  
-[Paper Link](http://arxiv.org/abs/2311.02747v1)  
+[Paper Link](http://arxiv.org/abs/2311.02747v2)  
 
 ---
 
@@ -271,7 +271,7 @@ Within (semi-)automated visual industrial inspection, learning-based approaches 
 {{</citation>}}
 
 
-### (11/51) ISAR: A Benchmark for Single- and Few-Shot Object Instance Segmentation and Re-Identification (Nicolas Gorlo et al., 2023)
+### (11/54) ISAR: A Benchmark for Single- and Few-Shot Object Instance Segmentation and Re-Identification (Nicolas Gorlo et al., 2023)
 
 {{<citation>}}
 
@@ -293,7 +293,7 @@ Most object-level mapping systems in use today make use of an upstream learned o
 {{</citation>}}
 
 
-### (12/51) AV-Lip-Sync+: Leveraging AV-HuBERT to Exploit Multimodal Inconsistency for Video Deepfake Detection (Sahibzada Adil Shahzad et al., 2023)
+### (12/54) AV-Lip-Sync+: Leveraging AV-HuBERT to Exploit Multimodal Inconsistency for Video Deepfake Detection (Sahibzada Adil Shahzad et al., 2023)
 
 {{<citation>}}
 
@@ -315,7 +315,7 @@ Multimodal manipulations (also known as audio-visual deepfakes) make it difficul
 {{</citation>}}
 
 
-### (13/51) Nepali Video Captioning using CNN-RNN Architecture (Bipesh Subedi et al., 2023)
+### (13/54) Nepali Video Captioning using CNN-RNN Architecture (Bipesh Subedi et al., 2023)
 
 {{<citation>}}
 
@@ -337,7 +337,7 @@ This article presents a study on Nepali video captioning using deep neural netwo
 {{</citation>}}
 
 
-### (14/51) ChEF: A Comprehensive Evaluation Framework for Standardized Assessment of Multimodal Large Language Models (Zhelun Shi et al., 2023)
+### (14/54) ChEF: A Comprehensive Evaluation Framework for Standardized Assessment of Multimodal Large Language Models (Zhelun Shi et al., 2023)
 
 {{<citation>}}
 
@@ -359,7 +359,7 @@ Multimodal Large Language Models (MLLMs) have shown impressive abilities in inte
 {{</citation>}}
 
 
-### (15/51) Octavius: Mitigating Task Interference in MLLMs via MoE (Zeren Chen et al., 2023)
+### (15/54) Octavius: Mitigating Task Interference in MLLMs via MoE (Zeren Chen et al., 2023)
 
 {{<citation>}}
 
@@ -381,7 +381,7 @@ Recent studies have demonstrated Large Language Models (LLMs) can extend their z
 {{</citation>}}
 
 
-### (16/51) CCMR: High Resolution Optical Flow Estimation via Coarse-to-Fine Context-Guided Motion Reasoning (Azin Jahedi et al., 2023)
+### (16/54) CCMR: High Resolution Optical Flow Estimation via Coarse-to-Fine Context-Guided Motion Reasoning (Azin Jahedi et al., 2023)
 
 {{<citation>}}
 
@@ -403,7 +403,7 @@ Attention-based motion aggregation concepts have recently shown their usefulness
 {{</citation>}}
 
 
-### (17/51) New Approach for an Affective Computing-Driven Quality of Experience (QoE) Prediction (Joshua Bègue et al., 2023)
+### (17/54) New Approach for an Affective Computing-Driven Quality of Experience (QoE) Prediction (Joshua Bègue et al., 2023)
 
 {{<citation>}}
 
@@ -425,7 +425,7 @@ In human interactions, emotion recognition is crucial. For this reason, the topi
 {{</citation>}}
 
 
-### (18/51) PotholeGuard: A Pothole Detection Approach by Point Cloud Semantic Segmentation (Sahil Nawale et al., 2023)
+### (18/54) PotholeGuard: A Pothole Detection Approach by Point Cloud Semantic Segmentation (Sahil Nawale et al., 2023)
 
 {{<citation>}}
 
@@ -447,7 +447,7 @@ Pothole detection is crucial for road safety and maintenance, traditionally rely
 {{</citation>}}
 
 
-### (19/51) Exploring Grounding Potential of VQA-oriented GPT-4V for Zero-shot Anomaly Detection (Jiangning Zhang et al., 2023)
+### (19/54) Exploring Grounding Potential of VQA-oriented GPT-4V for Zero-shot Anomaly Detection (Jiangning Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -469,7 +469,7 @@ Large Multimodal Model (LMM) GPT-4V(ision) endows GPT-4 with visual grounding ca
 {{</citation>}}
 
 
-### (20/51) Learning Class and Domain Augmentations for Single-Source Open-Domain Generalization (Prathmesh Bele et al., 2023)
+### (20/54) Learning Class and Domain Augmentations for Single-Source Open-Domain Generalization (Prathmesh Bele et al., 2023)
 
 {{<citation>}}
 
@@ -491,7 +491,7 @@ Single-source open-domain generalization (SS-ODG) addresses the challenge of lab
 {{</citation>}}
 
 
-### (21/51) Automated Camera Calibration via Homography Estimation with GNNs (Giacomo D'Amicantonio et al., 2023)
+### (21/54) Automated Camera Calibration via Homography Estimation with GNNs (Giacomo D'Amicantonio et al., 2023)
 
 {{<citation>}}
 
@@ -513,7 +513,7 @@ Over the past few decades, a significant rise of camera-based applications for t
 {{</citation>}}
 
 
-### (22/51) Multiple Object Tracking based on Occlusion-Aware Embedding Consistency Learning (Yaoqi Hu et al., 2023)
+### (22/54) Multiple Object Tracking based on Occlusion-Aware Embedding Consistency Learning (Yaoqi Hu et al., 2023)
 
 {{<citation>}}
 
@@ -535,7 +535,7 @@ The Joint Detection and Embedding (JDE) framework has achieved remarkable progre
 {{</citation>}}
 
 
-### (23/51) Rotation Invariant Transformer for Recognizing Object in UAVs (Shuoyi Chen et al., 2023)
+### (23/54) Rotation Invariant Transformer for Recognizing Object in UAVs (Shuoyi Chen et al., 2023)
 
 {{<citation>}}
 
@@ -557,7 +557,7 @@ Recognizing a target of interest from the UAVs is much more challenging than the
 {{</citation>}}
 
 
-### (24/51) Augment the Pairs: Semantics-Preserving Image-Caption Pair Augmentation for Grounding-Based Vision and Language Models (Jingru Yi et al., 2023)
+### (24/54) Augment the Pairs: Semantics-Preserving Image-Caption Pair Augmentation for Grounding-Based Vision and Language Models (Jingru Yi et al., 2023)
 
 {{<citation>}}
 
@@ -579,7 +579,7 @@ Grounding-based vision and language models have been successfully applied to low
 {{</citation>}}
 
 
-### (25/51) TokenMotion: Motion-Guided Vision Transformer for Video Camouflaged Object Detection Via Learnable Token Selection (Zifan Yu et al., 2023)
+### (25/54) TokenMotion: Motion-Guided Vision Transformer for Video Camouflaged Object Detection Via Learnable Token Selection (Zifan Yu et al., 2023)
 
 {{<citation>}}
 
@@ -605,7 +605,7 @@ The area of Video Camouflaged Object Detection (VCOD) presents unique challenges
 
 
 
-### (26/51) Architecting Intermediate Layers for Efficient Composition of Data Management and Machine Learning Systems (Supun Abeysinghe et al., 2023)
+### (26/54) Architecting Intermediate Layers for Efficient Composition of Data Management and Machine Learning Systems (Supun Abeysinghe et al., 2023)
 
 {{<citation>}}
 
@@ -627,11 +627,11 @@ Modern data analytics workloads combine relational data processing with machine 
 {{</citation>}}
 
 
-## cs.LG (11)
+## cs.LG (12)
 
 
 
-### (27/51) ChaTA: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source LLMs (Yann Hicke et al., 2023)
+### (27/54) ChaTA: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source LLMs (Yann Hicke et al., 2023)
 
 {{<citation>}}
 
@@ -653,7 +653,7 @@ To address the challenges of scalable and intelligent question-answering (QA), w
 {{</citation>}}
 
 
-### (28/51) ELEGANT: Certified Defense on the Fairness of Graph Neural Networks (Yushun Dong et al., 2023)
+### (28/54) ELEGANT: Certified Defense on the Fairness of Graph Neural Networks (Yushun Dong et al., 2023)
 
 {{<citation>}}
 
@@ -675,7 +675,7 @@ Graph Neural Networks (GNNs) have emerged as a prominent graph learning model in
 {{</citation>}}
 
 
-### (29/51) Staged Reinforcement Learning for Complex Tasks through Decomposed Environments (Rafael Pina et al., 2023)
+### (29/54) Staged Reinforcement Learning for Complex Tasks through Decomposed Environments (Rafael Pina et al., 2023)
 
 {{<citation>}}
 
@@ -697,7 +697,7 @@ Reinforcement Learning (RL) is an area of growing interest in the field of artif
 {{</citation>}}
 
 
-### (30/51) Learning Independently from Causality in Multi-Agent Environments (Rafael Pina et al., 2023)
+### (30/54) Learning Independently from Causality in Multi-Agent Environments (Rafael Pina et al., 2023)
 
 {{<citation>}}
 
@@ -719,7 +719,7 @@ Multi-Agent Reinforcement Learning (MARL) comprises an area of growing interest 
 {{</citation>}}
 
 
-### (31/51) Architecture Matters: Uncovering Implicit Mechanisms in Graph Contrastive Learning (Xiaojun Guo et al., 2023)
+### (31/54) Architecture Matters: Uncovering Implicit Mechanisms in Graph Contrastive Learning (Xiaojun Guo et al., 2023)
 
 {{<citation>}}
 
@@ -741,7 +741,7 @@ With the prosperity of contrastive learning for visual representation learning (
 {{</citation>}}
 
 
-### (32/51) A Critical Perceptual Pre-trained Model for Complex Trajectory Recovery (Dedong Li et al., 2023)
+### (32/54) A Critical Perceptual Pre-trained Model for Complex Trajectory Recovery (Dedong Li et al., 2023)
 
 {{<citation>}}
 
@@ -763,7 +763,7 @@ The trajectory on the road traffic is commonly collected at a low sampling rate,
 {{</citation>}}
 
 
-### (33/51) Neural Networks Are Implicit Decision Trees: The Hierarchical Simplicity Bias (Zhehang Du, 2023)
+### (33/54) Neural Networks Are Implicit Decision Trees: The Hierarchical Simplicity Bias (Zhehang Du, 2023)
 
 {{<citation>}}
 
@@ -785,7 +785,7 @@ Neural networks exhibit simplicity bias; they rely on simpler features while ign
 {{</citation>}}
 
 
-### (34/51) AIOps-Driven Enhancement of Log Anomaly Detection in Unsupervised Scenarios (Daksh Dave et al., 2023)
+### (34/54) AIOps-Driven Enhancement of Log Anomaly Detection in Unsupervised Scenarios (Daksh Dave et al., 2023)
 
 {{<citation>}}
 
@@ -807,7 +807,29 @@ Artificial intelligence operations (AIOps) play a pivotal role in identifying, m
 {{</citation>}}
 
 
-### (35/51) Ego-Network Transformer for Subsequence Classification in Time Series Data (Chin-Chia Michael Yeh et al., 2023)
+### (35/54) Differentially Private Pre-Trained Model Fusion using Decentralized Federated Graph Matching (Qian Chen et al., 2023)
+
+{{<citation>}}
+
+Qian Chen, Yiqiang Chen, Xinlong Jiang, Teng Zhang, Weiwei Dai, Wuliang Huang, Zhen Yan, Bo Ye. (2023)  
+**Differentially Private Pre-Trained Model Fusion using Decentralized Federated Graph Matching**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CR, cs-LG, cs.LG  
+Keywords: Pre-Trained Model  
+[Paper Link](http://arxiv.org/abs/2311.03396v1)  
+
+---
+
+
+**ABSTRACT**  
+Model fusion is becoming a crucial component in the context of model-as-a-service scenarios, enabling the delivery of high-quality model services to local users. However, this approach introduces privacy risks and imposes certain limitations on its applications. Ensuring secure model exchange and knowledge fusion among users becomes a significant challenge in this setting. To tackle this issue, we propose PrivFusion, a novel architecture that preserves privacy while facilitating model fusion under the constraints of local differential privacy. PrivFusion leverages a graph-based structure, enabling the fusion of models from multiple parties without necessitating retraining. By employing randomized mechanisms, PrivFusion ensures privacy guarantees throughout the fusion process. To enhance model privacy, our approach incorporates a hybrid local differentially private mechanism and decentralized federated graph matching, effectively protecting both activation values and weights. Additionally, we introduce a perturbation filter adapter to alleviate the impact of randomized noise, thereby preserving the utility of the fused model. Through extensive experiments conducted on diverse image datasets and real-world healthcare applications, we provide empirical evidence showcasing the effectiveness of PrivFusion in maintaining model performance while preserving privacy. Our contributions offer valuable insights and practical solutions for secure and collaborative data analysis within the domain of privacy-preserving model fusion.
+
+{{</citation>}}
+
+
+### (36/54) Ego-Network Transformer for Subsequence Classification in Time Series Data (Chin-Chia Michael Yeh et al., 2023)
 
 {{<citation>}}
 
@@ -829,7 +851,7 @@ Time series classification is a widely studied problem in the field of time seri
 {{</citation>}}
 
 
-### (36/51) Preliminary Analysis on Second-Order Convergence for Biased Policy Gradient Methods (Siqiao Mu et al., 2023)
+### (37/54) Preliminary Analysis on Second-Order Convergence for Biased Policy Gradient Methods (Siqiao Mu et al., 2023)
 
 {{<citation>}}
 
@@ -851,7 +873,7 @@ Although the convergence of policy gradient algorithms to first-order stationary
 {{</citation>}}
 
 
-### (37/51) Nonlinear Multi-objective Reinforcement Learning with Provable Guarantees (Nianli Peng et al., 2023)
+### (38/54) Nonlinear Multi-objective Reinforcement Learning with Provable Guarantees (Nianli Peng et al., 2023)
 
 {{<citation>}}
 
@@ -877,7 +899,7 @@ We describe RA-E3 (Reward-Aware Explicit Explore or Exploit), an algorithm with 
 
 
 
-### (38/51) Attention or Convolution: Transformer Encoders in Audio Language Models for Inference Efficiency (Sungho Jeon et al., 2023)
+### (39/54) Attention or Convolution: Transformer Encoders in Audio Language Models for Inference Efficiency (Sungho Jeon et al., 2023)
 
 {{<citation>}}
 
@@ -903,7 +925,7 @@ In this paper, we show that a simple self-supervised pre-trained audio model can
 
 
 
-### (39/51) Causal Question Answering with Reinforcement Learning (Lukas Blübaum et al., 2023)
+### (40/54) Causal Question Answering with Reinforcement Learning (Lukas Blübaum et al., 2023)
 
 {{<citation>}}
 
@@ -925,7 +947,7 @@ Causal questions inquire about causal relationships between different events or 
 {{</citation>}}
 
 
-### (40/51) FloodBrain: Flood Disaster Reporting by Web-based Retrieval Augmented Generation with an LLM (Grace Colverd et al., 2023)
+### (41/54) FloodBrain: Flood Disaster Reporting by Web-based Retrieval Augmented Generation with an LLM (Grace Colverd et al., 2023)
 
 {{<citation>}}
 
@@ -951,7 +973,7 @@ Fast disaster impact reporting is crucial in planning humanitarian assistance. L
 
 
 
-### (41/51) M4BRAM: Mixed-Precision Matrix-Matrix Multiplication in FPGA Block RAMs (Yuzong Chen et al., 2023)
+### (42/54) M4BRAM: Mixed-Precision Matrix-Matrix Multiplication in FPGA Block RAMs (Yuzong Chen et al., 2023)
 
 {{<citation>}}
 
@@ -973,11 +995,11 @@ Mixed-precision quantization is a popular approach for compressing deep neural n
 {{</citation>}}
 
 
-## cs.IR (2)
+## cs.IR (3)
 
 
 
-### (42/51) CIRCLE: Multi-Turn Query Clarifications with Reinforcement Learning (Pierre Erbacher et al., 2023)
+### (43/54) CIRCLE: Multi-Turn Query Clarifications with Reinforcement Learning (Pierre Erbacher et al., 2023)
 
 {{<citation>}}
 
@@ -999,7 +1021,29 @@ Users often have trouble formulating their information needs into words on the f
 {{</citation>}}
 
 
-### (43/51) Temporal Treasure Hunt: Content-based Time Series Retrieval System for Discovering Insights (Chin-Chia Michael Yeh et al., 2023)
+### (44/54) Enhancing AI Research Paper Analysis: Methodology Component Extraction using Factored Transformer-based Sequence Modeling Approach (Madhusudan Ghosh et al., 2023)
+
+{{<citation>}}
+
+Madhusudan Ghosh, Debasis Ganguly, Partha Basuchowdhuri, Sudip Kumar Naskar. (2023)  
+**Enhancing AI Research Paper Analysis: Methodology Component Extraction using Factored Transformer-based Sequence Modeling Approach**  
+
+---
+Primary Category: cs.IR  
+Categories: cs-DL, cs-IR, cs-LG, cs.IR  
+Keywords: AI, NLP, Transformer  
+[Paper Link](http://arxiv.org/abs/2311.03401v1)  
+
+---
+
+
+**ABSTRACT**  
+Research in scientific disciplines evolves, often rapidly, over time with the emergence of novel methodologies and their associated terminologies. While methodologies themselves being conceptual in nature and rather difficult to automatically extract and characterise, in this paper, we seek to develop supervised models for automatic extraction of the names of the various constituents of a methodology, e.g., `R-CNN', `ELMo' etc. The main research challenge for this task is effectively modeling the contexts around these methodology component names in a few-shot or even a zero-shot setting. The main contributions of this paper towards effectively identifying new evolving scientific methodology names are as follows: i) we propose a factored approach to sequence modeling, which leverages a broad-level category information of methodology domains, e.g., `NLP', `RL' etc.; ii) to demonstrate the feasibility of our proposed approach of identifying methodology component names under a practical setting of fast evolving AI literature, we conduct experiments following a simulated chronological setup (newer methodologies not seen during the training process); iii) our experiments demonstrate that the factored approach outperforms state-of-the-art baselines by margins of up to 9.257\% for the methodology extraction task with the few-shot setup.
+
+{{</citation>}}
+
+
+### (45/54) Temporal Treasure Hunt: Content-based Time Series Retrieval System for Discovering Insights (Chin-Chia Michael Yeh et al., 2023)
 
 {{<citation>}}
 
@@ -1025,7 +1069,7 @@ Time series data is ubiquitous across various domains such as finance, healthcar
 
 
 
-### (44/51) Highly Connected Steiner Subgraph -- Parameterized Algorithms and Applications to Hitting Set Problems (Eduard Eiben et al., 2023)
+### (46/54) Highly Connected Steiner Subgraph -- Parameterized Algorithms and Applications to Hitting Set Problems (Eduard Eiben et al., 2023)
 
 {{<citation>}}
 
@@ -1051,7 +1095,7 @@ Given a simple connected undirected graph G = (V, E), a set X \subseteq V(G), an
 
 
 
-### (45/51) Regret Analysis of Learning-Based Linear Quadratic Gaussian Control with Additive Exploration (Archith Athrey et al., 2023)
+### (47/54) Regret Analysis of Learning-Based Linear Quadratic Gaussian Control with Additive Exploration (Archith Athrey et al., 2023)
 
 {{<citation>}}
 
@@ -1077,7 +1121,7 @@ In this paper, we analyze the regret incurred by a computationally efficient exp
 
 
 
-### (46/51) GSC: Generalizable Service Coordination (Farzad Mohammadi et al., 2023)
+### (48/54) GSC: Generalizable Service Coordination (Farzad Mohammadi et al., 2023)
 
 {{<citation>}}
 
@@ -1103,7 +1147,7 @@ Services with distributed and interdependent components are becoming a popular o
 
 
 
-### (47/51) Compute at Scale -- A Broad Investigation into the Data Center Industry (Konstantin Pilz et al., 2023)
+### (49/54) Compute at Scale -- A Broad Investigation into the Data Center Industry (Konstantin Pilz et al., 2023)
 
 {{<citation>}}
 
@@ -1129,7 +1173,7 @@ This report characterizes the data center industry and its importance for AI dev
 
 
 
-### (48/51) Drone-Enabled Load Management for Solar Small Cell Networks in Next-Gen Communications Optimization for Solar Small Cells (Daksh Dave et al., 2023)
+### (50/54) Drone-Enabled Load Management for Solar Small Cell Networks in Next-Gen Communications Optimization for Solar Small Cells (Daksh Dave et al., 2023)
 
 {{<citation>}}
 
@@ -1155,7 +1199,7 @@ In recent years, the cellular industry has witnessed a major evolution in commun
 
 
 
-### (49/51) Assessing the Promise and Pitfalls of ChatGPT for Automated Code Generation (Muhammad Fawad Akbar Khan et al., 2023)
+### (51/54) Assessing the Promise and Pitfalls of ChatGPT for Automated Code Generation (Muhammad Fawad Akbar Khan et al., 2023)
 
 {{<citation>}}
 
@@ -1177,11 +1221,11 @@ This paper presents a comprehensive evaluation of the code generation capabiliti
 {{</citation>}}
 
 
-## cs.DB (1)
+## cs.DB (2)
 
 
 
-### (50/51) Time Series Synthesis Using the Matrix Profile for Anonymization (Audrey Der et al., 2023)
+### (52/54) Time Series Synthesis Using the Matrix Profile for Anonymization (Audrey Der et al., 2023)
 
 {{<citation>}}
 
@@ -1203,11 +1247,33 @@ Publishing and sharing data is crucial for the data mining community, allowing c
 {{</citation>}}
 
 
+### (53/54) Sketching Multidimensional Time Series for Fast Discord Mining (Chin-Chia Michael Yeh et al., 2023)
+
+{{<citation>}}
+
+Chin-Chia Michael Yeh, Yan Zheng, Menghai Pan, Huiyuan Chen, Zhongfang Zhuang, Junpeng Wang, Liang Wang, Wei Zhang, Jeff M. Phillips, Eamonn Keogh. (2023)  
+**Sketching Multidimensional Time Series for Fast Discord Mining**  
+
+---
+Primary Category: cs.DB  
+Categories: cs-AI, cs-DB, cs.DB  
+Keywords: Sketch, Time Series  
+[Paper Link](http://arxiv.org/abs/2311.03393v1)  
+
+---
+
+
+**ABSTRACT**  
+Time series discords are a useful primitive for time series anomaly detection, and the matrix profile is capable of capturing discord effectively. There exist many research efforts to improve the scalability of discord discovery with respect to the length of time series. However, there is surprisingly little work focused on reducing the time complexity of matrix profile computation associated with dimensionality of a multidimensional time series. In this work, we propose a sketch for discord mining among multi-dimensional time series. After an initial pre-processing of the sketch as fast as reading the data, the discord mining has runtime independent of the dimensionality of the original data. On several real world examples from water treatment and transportation, the proposed algorithm improves the throughput by at least an order of magnitude (50X) and only has minimal impact on the quality of the approximated solution. Additionally, the proposed method can handle the dynamic addition or deletion of dimensions inconsequential overhead. This allows a data analyst to consider "what-if" scenarios in real time while exploring the data.
+
+{{</citation>}}
+
+
 ## cs.HC (1)
 
 
 
-### (51/51) Evaluation of accessibility of open-source EHRs for visually impaired users (Megha M. Moncy et al., 2023)
+### (54/54) Evaluation of accessibility of open-source EHRs for visually impaired users (Megha M. Moncy et al., 2023)
 
 {{<citation>}}
 
