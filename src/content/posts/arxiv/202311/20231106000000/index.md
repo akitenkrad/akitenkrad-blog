@@ -254,7 +254,7 @@ Shahbaz Syed, Ahmad Dawar Hakimi, Khalid Al-Khatib, Martin Potthast. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Summarization  
-[Paper Link](http://arxiv.org/abs/2311.02408v1)  
+[Paper Link](http://arxiv.org/abs/2311.02408v2)  
 
 ---
 

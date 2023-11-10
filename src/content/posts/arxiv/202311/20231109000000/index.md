@@ -24,11 +24,11 @@ math: true
 - [cs.CV (29)](#cscv-29)
 - [cs.NE (1)](#csne-1)
 - [cs.RO (7)](#csro-7)
-- [cs.CL (45)](#cscl-45)
+- [cs.CL (48)](#cscl-48)
+- [cs.LG (30)](#cslg-30)
 - [cs.CY (2)](#cscy-2)
 - [cs.HC (4)](#cshc-4)
 - [eess.SY (3)](#eesssy-3)
-- [cs.LG (29)](#cslg-29)
 - [cs.IR (3)](#csir-3)
 - [cs.CR (3)](#cscr-3)
 - [math.NA (1)](#mathna-1)
@@ -47,7 +47,7 @@ math: true
 
 
 
-### (1/144) 3DiffTection: 3D Object Detection with Geometry-Aware Diffusion Features (Chenfeng Xu et al., 2023)
+### (1/148) 3DiffTection: 3D Object Detection with Geometry-Aware Diffusion Features (Chenfeng Xu et al., 2023)
 
 {{<citation>}}
 
@@ -69,7 +69,7 @@ We present 3DiffTection, a state-of-the-art method for 3D object detection from 
 {{</citation>}}
 
 
-### (2/144) A Deep Learning Approach to Video Anomaly Detection using Convolutional Autoencoders (Gopikrishna Pavuluri et al., 2023)
+### (2/148) A Deep Learning Approach to Video Anomaly Detection using Convolutional Autoencoders (Gopikrishna Pavuluri et al., 2023)
 
 {{<citation>}}
 
@@ -91,7 +91,7 @@ In this research we propose a deep learning approach for detecting anomalies in 
 {{</citation>}}
 
 
-### (3/144) Towards Garment Sewing Pattern Reconstruction from a Single Image (Lijuan Liu et al., 2023)
+### (3/148) Towards Garment Sewing Pattern Reconstruction from a Single Image (Lijuan Liu et al., 2023)
 
 {{<citation>}}
 
@@ -113,7 +113,7 @@ Garment sewing pattern represents the intrinsic rest shape of a garment, and is 
 {{</citation>}}
 
 
-### (4/144) Deep Hashing via Householder Quantization (Lucas R. Schwengber et al., 2023)
+### (4/148) Deep Hashing via Householder Quantization (Lucas R. Schwengber et al., 2023)
 
 {{<citation>}}
 
@@ -135,7 +135,7 @@ Hashing is at the heart of large-scale image similarity search, and recent metho
 {{</citation>}}
 
 
-### (5/144) Selective Visual Representations Improve Convergence and Generalization for Embodied AI (Ainaz Eftekhar et al., 2023)
+### (5/148) Selective Visual Representations Improve Convergence and Generalization for Embodied AI (Ainaz Eftekhar et al., 2023)
 
 {{<citation>}}
 
@@ -157,7 +157,7 @@ Embodied AI models often employ off the shelf vision backbones like CLIP to enco
 {{</citation>}}
 
 
-### (6/144) JaSPICE: Automatic Evaluation Metric Using Predicate-Argument Structures for Image Captioning Models (Yuiga Wada et al., 2023)
+### (6/148) JaSPICE: Automatic Evaluation Metric Using Predicate-Argument Structures for Image Captioning Models (Yuiga Wada et al., 2023)
 
 {{<citation>}}
 
@@ -179,7 +179,7 @@ Image captioning studies heavily rely on automatic evaluation metrics such as BL
 {{</citation>}}
 
 
-### (7/144) A Simple Interpretable Transformer for Fine-Grained Image Classification and Analysis (Dipanjyoti Paul et al., 2023)
+### (7/148) A Simple Interpretable Transformer for Fine-Grained Image Classification and Analysis (Dipanjyoti Paul et al., 2023)
 
 {{<citation>}}
 
@@ -201,7 +201,7 @@ We present a novel usage of Transformers to make image classification interpreta
 {{</citation>}}
 
 
-### (8/144) Image-Pointcloud Fusion based Anomaly Detection using PD-REAL Dataset (Jianjian Qin et al., 2023)
+### (8/148) Image-Pointcloud Fusion based Anomaly Detection using PD-REAL Dataset (Jianjian Qin et al., 2023)
 
 {{<citation>}}
 
@@ -223,7 +223,7 @@ We present PD-REAL, a novel large-scale dataset for unsupervised anomaly detecti
 {{</citation>}}
 
 
-### (9/144) Proceedings of the 5th International Workshop on Reading Music Systems (Jorge Calvo-Zaragoza et al., 2023)
+### (9/148) Proceedings of the 5th International Workshop on Reading Music Systems (Jorge Calvo-Zaragoza et al., 2023)
 
 {{<citation>}}
 
@@ -245,7 +245,7 @@ The International Workshop on Reading Music Systems (WoRMS) is a workshop that t
 {{</citation>}}
 
 
-### (10/144) Augmenting Lane Perception and Topology Understanding with Standard Definition Navigation Maps (Katie Z Luo et al., 2023)
+### (10/148) Augmenting Lane Perception and Topology Understanding with Standard Definition Navigation Maps (Katie Z Luo et al., 2023)
 
 {{<citation>}}
 
@@ -267,7 +267,7 @@ Autonomous driving has traditionally relied heavily on costly and labor-intensiv
 {{</citation>}}
 
 
-### (11/144) LISBET: a self-supervised Transformer model for the automatic segmentation of social behavior motifs (Giuseppe Chindemi et al., 2023)
+### (11/148) LISBET: a self-supervised Transformer model for the automatic segmentation of social behavior motifs (Giuseppe Chindemi et al., 2023)
 
 {{<citation>}}
 
@@ -289,7 +289,7 @@ Social behavior, defined as the process by which individuals act and react in re
 {{</citation>}}
 
 
-### (12/144) Bias and Diversity in Synthetic-based Face Recognition (Marco Huber et al., 2023)
+### (12/148) Bias and Diversity in Synthetic-based Face Recognition (Marco Huber et al., 2023)
 
 {{<citation>}}
 
@@ -311,7 +311,7 @@ Synthetic data is emerging as a substitute for authentic data to solve ethical a
 {{</citation>}}
 
 
-### (13/144) Enhancing Multimodal Compositional Reasoning of Visual Language Models with Generative Negative Mining (Ugur Sahin et al., 2023)
+### (13/148) Enhancing Multimodal Compositional Reasoning of Visual Language Models with Generative Negative Mining (Ugur Sahin et al., 2023)
 
 {{<citation>}}
 
@@ -333,7 +333,7 @@ Contemporary large-scale visual language models (VLMs) exhibit strong representa
 {{</citation>}}
 
 
-### (14/144) Improving the Effectiveness of Deep Generative Data (Ruyu Wang et al., 2023)
+### (14/148) Improving the Effectiveness of Deep Generative Data (Ruyu Wang et al., 2023)
 
 {{<citation>}}
 
@@ -355,7 +355,7 @@ Recent deep generative models (DGMs) such as generative adversarial networks (GA
 {{</citation>}}
 
 
-### (15/144) FLORA: Fine-grained Low-Rank Architecture Search for Vision Transformer (Chi-Chih Chang et al., 2023)
+### (15/148) FLORA: Fine-grained Low-Rank Architecture Search for Vision Transformer (Chi-Chih Chang et al., 2023)
 
 {{<citation>}}
 
@@ -377,7 +377,7 @@ Vision Transformers (ViT) have recently demonstrated success across a myriad of 
 {{</citation>}}
 
 
-### (16/144) Mini but Mighty: Finetuning ViTs with Mini Adapters (Imad Eddine Marouf et al., 2023)
+### (16/148) Mini but Mighty: Finetuning ViTs with Mini Adapters (Imad Eddine Marouf et al., 2023)
 
 {{<citation>}}
 
@@ -399,7 +399,7 @@ Vision Transformers (ViTs) have become one of the dominant architectures in comp
 {{</citation>}}
 
 
-### (17/144) A Comparative Study of Knowledge Transfer Methods for Misaligned Urban Building Labels (Bipul Neupane et al., 2023)
+### (17/148) A Comparative Study of Knowledge Transfer Methods for Misaligned Urban Building Labels (Bipul Neupane et al., 2023)
 
 {{<citation>}}
 
@@ -421,7 +421,7 @@ Misalignment in Earth observation (EO) images and building labels impact the tra
 {{</citation>}}
 
 
-### (18/144) Reducing Spatial Fitting Error in Distillation of Denoising Diffusion Models (Shengzhe Zhou et al., 2023)
+### (18/148) Reducing Spatial Fitting Error in Distillation of Denoising Diffusion Models (Shengzhe Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -443,7 +443,7 @@ Denoising Diffusion models have exhibited remarkable capabilities in image gener
 {{</citation>}}
 
 
-### (19/144) Detecting Any Human-Object Interaction Relationship: Universal HOI Detector with Spatial Prompt Learning on Foundation Models (Yichao Cao et al., 2023)
+### (19/148) Detecting Any Human-Object Interaction Relationship: Universal HOI Detector with Spatial Prompt Learning on Foundation Models (Yichao Cao et al., 2023)
 
 {{<citation>}}
 
@@ -465,7 +465,7 @@ Human-object interaction (HOI) detection aims to comprehend the intricate relati
 {{</citation>}}
 
 
-### (20/144) Self-MI: Efficient Multimodal Fusion via Self-Supervised Multi-Task Learning with Auxiliary Mutual Information Maximization (Cam-Van Thi Nguyen et al., 2023)
+### (20/148) Self-MI: Efficient Multimodal Fusion via Self-Supervised Multi-Task Learning with Auxiliary Mutual Information Maximization (Cam-Van Thi Nguyen et al., 2023)
 
 {{<citation>}}
 
@@ -487,7 +487,7 @@ Multimodal representation learning poses significant challenges in capturing inf
 {{</citation>}}
 
 
-### (21/144) Meta-Adapter: An Online Few-shot Learner for Vision-Language Model (Cheng Cheng et al., 2023)
+### (21/148) Meta-Adapter: An Online Few-shot Learner for Vision-Language Model (Cheng Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -509,7 +509,7 @@ The contrastive vision-language pre-training, known as CLIP, demonstrates remark
 {{</citation>}}
 
 
-### (22/144) Lightweight Portrait Matting via Regional Attention and Refinement (Yatao Zhong et al., 2023)
+### (22/148) Lightweight Portrait Matting via Regional Attention and Refinement (Yatao Zhong et al., 2023)
 
 {{<citation>}}
 
@@ -531,7 +531,7 @@ We present a lightweight model for high resolution portrait matting. The model d
 {{</citation>}}
 
 
-### (23/144) Multiclass Segmentation using Teeth Attention Modules for Dental X-ray Images (Afnan Ghafoor et al., 2023)
+### (23/148) Multiclass Segmentation using Teeth Attention Modules for Dental X-ray Images (Afnan Ghafoor et al., 2023)
 
 {{<citation>}}
 
@@ -553,7 +553,7 @@ This paper proposed a cutting-edge multiclass teeth segmentation architecture th
 {{</citation>}}
 
 
-### (24/144) SBCFormer: Lightweight Network Capable of Full-size ImageNet Classification at 1 FPS on Single Board Computers (Xiangyong Lu et al., 2023)
+### (24/148) SBCFormer: Lightweight Network Capable of Full-size ImageNet Classification at 1 FPS on Single Board Computers (Xiangyong Lu et al., 2023)
 
 {{<citation>}}
 
@@ -575,7 +575,7 @@ Computer vision has become increasingly prevalent in solving real-world problems
 {{</citation>}}
 
 
-### (25/144) Unsupervised Video Summarization (Hanqing Li et al., 2023)
+### (25/148) Unsupervised Video Summarization (Hanqing Li et al., 2023)
 
 {{<citation>}}
 
@@ -597,7 +597,7 @@ This paper introduces a new, unsupervised method for automatic video summarizati
 {{</citation>}}
 
 
-### (26/144) 3DifFusionDet: Diffusion Model for 3D Object Detection with Robust LiDAR-Camera Fusion (Xinhao Xiang et al., 2023)
+### (26/148) 3DifFusionDet: Diffusion Model for 3D Object Detection with Robust LiDAR-Camera Fusion (Xinhao Xiang et al., 2023)
 
 {{<citation>}}
 
@@ -619,7 +619,7 @@ Good 3D object detection performance from LiDAR-Camera sensors demands seamless 
 {{</citation>}}
 
 
-### (27/144) DeepInspect: An AI-Powered Defect Detection for Manufacturing Industries (Arti Kumbhar et al., 2023)
+### (27/148) DeepInspect: An AI-Powered Defect Detection for Manufacturing Industries (Arti Kumbhar et al., 2023)
 
 {{<citation>}}
 
@@ -641,7 +641,7 @@ Utilizing Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs)
 {{</citation>}}
 
 
-### (28/144) Random Field Augmentations for Self-Supervised Representation Learning (Philip Andrew Mansfield et al., 2023)
+### (28/148) Random Field Augmentations for Self-Supervised Representation Learning (Philip Andrew Mansfield et al., 2023)
 
 {{<citation>}}
 
@@ -663,7 +663,7 @@ Self-supervised representation learning is heavily dependent on data augmentatio
 {{</citation>}}
 
 
-### (29/144) FusionViT: Hierarchical 3D Object Detection via LiDAR-Camera Vision Transformer Fusion (Xinhao Xiang et al., 2023)
+### (29/148) FusionViT: Hierarchical 3D Object Detection via LiDAR-Camera Vision Transformer Fusion (Xinhao Xiang et al., 2023)
 
 {{<citation>}}
 
@@ -689,7 +689,7 @@ For 3D object detection, both camera and lidar have been demonstrated to be usef
 
 
 
-### (30/144) Harnessing Manycore Processors with Distributed Memory for Accelerated Training of Sparse and Recurrent Models (Jan Finkbeiner et al., 2023)
+### (30/148) Harnessing Manycore Processors with Distributed Memory for Accelerated Training of Sparse and Recurrent Models (Jan Finkbeiner et al., 2023)
 
 {{<citation>}}
 
@@ -715,7 +715,7 @@ Current AI training infrastructure is dominated by single instruction multiple d
 
 
 
-### (31/144) Active Collision Avoidance System for E-Scooters in Pedestrian Environment (Xuke Yan et al., 2023)
+### (31/148) Active Collision Avoidance System for E-Scooters in Pedestrian Environment (Xuke Yan et al., 2023)
 
 {{<citation>}}
 
@@ -737,7 +737,7 @@ In the dense fabric of urban areas, electric scooters have rapidly become a pref
 {{</citation>}}
 
 
-### (32/144) From Diagram to Deployment: Translating BPMN Collaborations into X-Klaim for Efficient Multi-Robot System Programming (Khalid Bourr et al., 2023)
+### (32/148) From Diagram to Deployment: Translating BPMN Collaborations into X-Klaim for Efficient Multi-Robot System Programming (Khalid Bourr et al., 2023)
 
 {{<citation>}}
 
@@ -759,7 +759,7 @@ This paper introduces a novel method for translating Business Process Model and 
 {{</citation>}}
 
 
-### (33/144) Interactive Semantic Map Representation for Skill-based Visual Object Navigation (Tatiana Zemskova et al., 2023)
+### (33/148) Interactive Semantic Map Representation for Skill-based Visual Object Navigation (Tatiana Zemskova et al., 2023)
 
 {{<citation>}}
 
@@ -781,7 +781,7 @@ Visual object navigation using learning methods is one of the key tasks in mobil
 {{</citation>}}
 
 
-### (34/144) Estimator-Coupled Reinforcement Learning for Robust Purely Tactile In-Hand Manipulation (Lennart Röstel et al., 2023)
+### (34/148) Estimator-Coupled Reinforcement Learning for Robust Purely Tactile In-Hand Manipulation (Lennart Röstel et al., 2023)
 
 {{<citation>}}
 
@@ -803,7 +803,7 @@ This paper identifies and addresses the problems with naively combining (reinfor
 {{</citation>}}
 
 
-### (35/144) Enhanced Information Extraction from Cylindrical Visual-Tactile Sensors via Image Fusion (Zilan Li et al., 2023)
+### (35/148) Enhanced Information Extraction from Cylindrical Visual-Tactile Sensors via Image Fusion (Zilan Li et al., 2023)
 
 {{<citation>}}
 
@@ -825,7 +825,7 @@ Vision-based tactile sensors equipped with planar contact structures acquire the
 {{</citation>}}
 
 
-### (36/144) Deep Bayesian Reinforcement Learning for Spacecraft Proximity Maneuvers and Docking (Desong Du et al., 2023)
+### (36/148) Deep Bayesian Reinforcement Learning for Spacecraft Proximity Maneuvers and Docking (Desong Du et al., 2023)
 
 {{<citation>}}
 
@@ -847,7 +847,7 @@ In the pursuit of autonomous spacecraft proximity maneuvers and docking(PMD), we
 {{</citation>}}
 
 
-### (37/144) TWIST: Teacher-Student World Model Distillation for Efficient Sim-to-Real Transfer (Jun Yamada et al., 2023)
+### (37/148) TWIST: Teacher-Student World Model Distillation for Efficient Sim-to-Real Transfer (Jun Yamada et al., 2023)
 
 {{<citation>}}
 
@@ -869,11 +869,11 @@ Model-based RL is a promising approach for real-world robotics due to its improv
 {{</citation>}}
 
 
-## cs.CL (45)
+## cs.CL (48)
 
 
 
-### (38/144) Evaluating multiple large language models in pediatric ophthalmology (Jason Holmes et al., 2023)
+### (38/148) Evaluating multiple large language models in pediatric ophthalmology (Jason Holmes et al., 2023)
 
 {{<citation>}}
 
@@ -895,7 +895,7 @@ IMPORTANCE The response effectiveness of different large language models (LLMs) 
 {{</citation>}}
 
 
-### (39/144) Syntax-Guided Transformers: Elevating Compositional Generalization and Grounding in Multimodal Environments (Danial Kamali et al., 2023)
+### (39/148) Syntax-Guided Transformers: Elevating Compositional Generalization and Grounding in Multimodal Environments (Danial Kamali et al., 2023)
 
 {{<citation>}}
 
@@ -917,7 +917,7 @@ Compositional generalization, the ability of intelligent models to extrapolate u
 {{</citation>}}
 
 
-### (40/144) Uncovering Causal Variables in Transformers using Circuit Probing (Michael A. Lepori et al., 2023)
+### (40/148) Uncovering Causal Variables in Transformers using Circuit Probing (Michael A. Lepori et al., 2023)
 
 {{<citation>}}
 
@@ -939,7 +939,7 @@ Neural network models have achieved high performance on a wide variety of comple
 {{</citation>}}
 
 
-### (41/144) Evaluating the Effectiveness of Retrieval-Augmented Large Language Models in Scientific Document Reasoning (Sai Munikoti et al., 2023)
+### (41/148) Evaluating the Effectiveness of Retrieval-Augmented Large Language Models in Scientific Document Reasoning (Sai Munikoti et al., 2023)
 
 {{<citation>}}
 
@@ -961,7 +961,7 @@ Despite the dramatic progress in Large Language Model (LLM) development, LLMs of
 {{</citation>}}
 
 
-### (42/144) Sub-Sentence Encoder: Contrastive Learning of Propositional Semantic Representations (Sihao Chen et al., 2023)
+### (42/148) Sub-Sentence Encoder: Contrastive Learning of Propositional Semantic Representations (Sihao Chen et al., 2023)
 
 {{<citation>}}
 
@@ -983,7 +983,7 @@ We introduce sub-sentence encoder, a contrastively-learned contextual embedding 
 {{</citation>}}
 
 
-### (43/144) Formal Aspects of Language Modeling (Ryan Cotterell et al., 2023)
+### (43/148) Formal Aspects of Language Modeling (Ryan Cotterell et al., 2023)
 
 {{<citation>}}
 
@@ -1005,7 +1005,29 @@ Large language models have become one of the most commonly deployed NLP inventio
 {{</citation>}}
 
 
-### (44/144) Aspect-based Meeting Transcript Summarization: A Two-Stage Approach with Weak Supervision on Sentence Classification (Zhongfen Deng et al., 2023)
+### (44/148) A comparative analysis between Conformer-Transducer, Whisper, and wav2vec2 for improving the child speech recognition (Andrei Barcovschi et al., 2023)
+
+{{<citation>}}
+
+Andrei Barcovschi, Rishabh Jain, Peter Corcoran. (2023)  
+**A comparative analysis between Conformer-Transducer, Whisper, and wav2vec2 for improving the child speech recognition**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs-SD, cs.CL, eess-AS  
+Keywords: Speech Recognition  
+[Paper Link](http://arxiv.org/abs/2311.04936v1)  
+
+---
+
+
+**ABSTRACT**  
+Automatic Speech Recognition (ASR) systems have progressed significantly in their performance on adult speech data; however, transcribing child speech remains challenging due to the acoustic differences in the characteristics of child and adult voices. This work aims to explore the potential of adapting state-of-the-art Conformer-transducer models to child speech to improve child speech recognition performance. Furthermore, the results are compared with those of self-supervised wav2vec2 models and semi-supervised multi-domain Whisper models that were previously finetuned on the same data. We demonstrate that finetuning Conformer-transducer models on child speech yields significant improvements in ASR performance on child speech, compared to the non-finetuned models. We also show Whisper and wav2vec2 adaptation on different child speech datasets. Our detailed comparative analysis shows that wav2vec2 provides the most consistent performance improvements among the three methods studied.
+
+{{</citation>}}
+
+
+### (45/148) Aspect-based Meeting Transcript Summarization: A Two-Stage Approach with Weak Supervision on Sentence Classification (Zhongfen Deng et al., 2023)
 
 {{<citation>}}
 
@@ -1027,7 +1049,7 @@ Aspect-based meeting transcript summarization aims to produce multiple summaries
 {{</citation>}}
 
 
-### (45/144) CRAB: Assessing the Strength of Causal Relationships Between Real-world Events (Angelika Romanou et al., 2023)
+### (46/148) CRAB: Assessing the Strength of Causal Relationships Between Real-world Events (Angelika Romanou et al., 2023)
 
 {{<citation>}}
 
@@ -1049,7 +1071,7 @@ Understanding narratives requires reasoning about the cause-and-effect relations
 {{</citation>}}
 
 
-### (46/144) Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves (Yihe Deng et al., 2023)
+### (47/148) Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves (Yihe Deng et al., 2023)
 
 {{<citation>}}
 
@@ -1071,7 +1093,7 @@ Misunderstandings arise not only in interpersonal communication but also between
 {{</citation>}}
 
 
-### (47/144) SpaDeLeF: A Dataset for Hierarchical Classification of Lexical Functions for Collocations in Spanish (Yevhen Kostiuk et al., 2023)
+### (48/148) SpaDeLeF: A Dataset for Hierarchical Classification of Lexical Functions for Collocations in Spanish (Yevhen Kostiuk et al., 2023)
 
 {{<citation>}}
 
@@ -1093,7 +1115,29 @@ In natural language processing (NLP), lexical function is a concept to unambiguo
 {{</citation>}}
 
 
-### (48/144) Enhancing LLM Intelligence with ARM-RAG: Auxiliary Rationale Memory for Retrieval Augmented Generation (Eric Melz, 2023)
+### (49/148) Prompt Cache: Modular Attention Reuse for Low-Latency Inference (In Gim et al., 2023)
+
+{{<citation>}}
+
+In Gim, Guojun Chen, Seung-seob Lee, Nikhil Sarda, Anurag Khandelwal, Lin Zhong. (2023)  
+**Prompt Cache: Modular Attention Reuse for Low-Latency Inference**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keywords: Attention  
+[Paper Link](http://arxiv.org/abs/2311.04934v1)  
+
+---
+
+
+**ABSTRACT**  
+We present Prompt Cache, an approach for accelerating inference for large language models (LLM) by reusing attention states across different LLM prompts. Many input prompts have overlapping text segments, such as system messages, prompt templates, and documents provided for context. Our key insight is that by precomputing and storing the attention states of these frequently occurring text segments on the inference server, we can efficiently reuse them when these segments appear in user prompts. Prompt Cache employs a schema to explicitly define such reusable text segments, called prompt modules. The schema ensures positional accuracy during attention state reuse and provides users with an interface to access cached states in their prompt. Using a prototype implementation, we evaluate Prompt Cache across several LLMs. We show that Prompt Cache significantly reduce latency in time-to-first-token, especially for longer prompts such as document-based question answering and recommendations. The improvements range from 8x for GPU-based inference to 60x for CPU-based inference, all while maintaining output accuracy and without the need for model parameter modifications.
+
+{{</citation>}}
+
+
+### (50/148) Enhancing LLM Intelligence with ARM-RAG: Auxiliary Rationale Memory for Retrieval Augmented Generation (Eric Melz, 2023)
 
 {{<citation>}}
 
@@ -1115,7 +1159,7 @@ Large Language Models (LLMs) are smart but forgetful. Recent studies, (e.g., (Bu
 {{</citation>}}
 
 
-### (49/144) Perturbed examples reveal invariances shared by language models (Ruchit Rawal et al., 2023)
+### (51/148) Perturbed examples reveal invariances shared by language models (Ruchit Rawal et al., 2023)
 
 {{<citation>}}
 
@@ -1137,7 +1181,7 @@ An explosion of work in language is leading to ever-increasing numbers of availa
 {{</citation>}}
 
 
-### (50/144) Black-Box Prompt Optimization: Aligning Large Language Models without Model Training (Jiale Cheng et al., 2023)
+### (52/148) Black-Box Prompt Optimization: Aligning Large Language Models without Model Training (Jiale Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -1159,7 +1203,7 @@ Large language models (LLMs) have shown impressive success in various applicatio
 {{</citation>}}
 
 
-### (51/144) What is Lost in Knowledge Distillation? (Manas Mohanty et al., 2023)
+### (53/148) What is Lost in Knowledge Distillation? (Manas Mohanty et al., 2023)
 
 {{<citation>}}
 
@@ -1181,7 +1225,7 @@ Deep neural networks (DNNs) have improved NLP tasks significantly, but training 
 {{</citation>}}
 
 
-### (52/144) Modelling Sentiment Analysis: LLMs and data augmentation techniques (Guillem Senabre Prades, 2023)
+### (54/148) Modelling Sentiment Analysis: LLMs and data augmentation techniques (Guillem Senabre Prades, 2023)
 
 {{<citation>}}
 
@@ -1203,7 +1247,7 @@ This paper provides different approaches for a binary sentiment classification o
 {{</citation>}}
 
 
-### (53/144) Locating Cross-Task Sequence Continuation Circuits in Transformers (Michael Lan et al., 2023)
+### (55/148) Locating Cross-Task Sequence Continuation Circuits in Transformers (Michael Lan et al., 2023)
 
 {{<citation>}}
 
@@ -1225,7 +1269,7 @@ While transformer models exhibit strong capabilities on linguistic tasks, their 
 {{</citation>}}
 
 
-### (54/144) Unveiling Safety Vulnerabilities of Large Language Models (George Kour et al., 2023)
+### (56/148) Unveiling Safety Vulnerabilities of Large Language Models (George Kour et al., 2023)
 
 {{<citation>}}
 
@@ -1247,7 +1291,29 @@ As large language models become more prevalent, their possible harmful or inappr
 {{</citation>}}
 
 
-### (55/144) Personality Style Recognition via Machine Learning: Identifying Anaclitic and Introjective Personality Styles from Patients' Speech (Semere Kiros Bitew et al., 2023)
+### (57/148) Evaluating Large Language Models in Ophthalmology (Jason Holmes et al., 2023)
+
+{{<citation>}}
+
+Jason Holmes, Shuyuan Ye, Yiwei Li, Shi-Nan Wu, Zhengliang Liu, Zihao Wu, Jinyu Hu, Huan Zhao, Xi Jiang, Wei Liu, Hong Wei, Jie Zou, Tianming Liu, Yi Shao. (2023)  
+**Evaluating Large Language Models in Ophthalmology**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keywords: GPT, GPT-3.5, GPT-4, Language Model, PaLM  
+[Paper Link](http://arxiv.org/abs/2311.04933v1)  
+
+---
+
+
+**ABSTRACT**  
+Purpose: The performance of three different large language models (LLMS) (GPT-3.5, GPT-4, and PaLM2) in answering ophthalmology professional questions was evaluated and compared with that of three different professional populations (medical undergraduates, medical masters, and attending physicians). Methods: A 100-item ophthalmology single-choice test was administered to three different LLMs (GPT-3.5, GPT-4, and PaLM2) and three different professional levels (medical undergraduates, medical masters, and attending physicians), respectively. The performance of LLM was comprehensively evaluated and compared with the human group in terms of average score, stability, and confidence. Results: Each LLM outperformed undergraduates in general, with GPT-3.5 and PaLM2 being slightly below the master's level, while GPT-4 showed a level comparable to that of attending physicians. In addition, GPT-4 showed significantly higher answer stability and confidence than GPT-3.5 and PaLM2. Conclusion: Our study shows that LLM represented by GPT-4 performs better in the field of ophthalmology. With further improvements, LLM will bring unexpected benefits in medical education and clinical decision making in the near future.
+
+{{</citation>}}
+
+
+### (58/148) Personality Style Recognition via Machine Learning: Identifying Anaclitic and Introjective Personality Styles from Patients' Speech (Semere Kiros Bitew et al., 2023)
 
 {{<citation>}}
 
@@ -1269,7 +1335,7 @@ In disentangling the heterogeneity observed in psychopathology, personality of t
 {{</citation>}}
 
 
-### (56/144) Do LLMs exhibit human-like response biases? A case study in survey design (Lindia Tjuatja et al., 2023)
+### (59/148) Do LLMs exhibit human-like response biases? A case study in survey design (Lindia Tjuatja et al., 2023)
 
 {{<citation>}}
 
@@ -1291,7 +1357,7 @@ As large language models (LLMs) become more capable, there is growing excitement
 {{</citation>}}
 
 
-### (57/144) Implementation and Comparison of Methods to Extract Reliability KPIs out of Textual Wind Turbine Maintenance Work Orders (Marc-Alexander Lutz et al., 2023)
+### (60/148) Implementation and Comparison of Methods to Extract Reliability KPIs out of Textual Wind Turbine Maintenance Work Orders (Marc-Alexander Lutz et al., 2023)
 
 {{<citation>}}
 
@@ -1313,7 +1379,7 @@ Maintenance work orders are commonly used to document information about wind tur
 {{</citation>}}
 
 
-### (58/144) P-Bench: A Multi-level Privacy Evaluation Benchmark for Language Models (Haoran Li et al., 2023)
+### (61/148) P-Bench: A Multi-level Privacy Evaluation Benchmark for Language Models (Haoran Li et al., 2023)
 
 {{<citation>}}
 
@@ -1335,7 +1401,7 @@ The rapid development of language models (LMs) brings unprecedented accessibilit
 {{</citation>}}
 
 
-### (59/144) mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration (Qinghao Ye et al., 2023)
+### (62/148) mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration (Qinghao Ye et al., 2023)
 
 {{<citation>}}
 
@@ -1357,7 +1423,7 @@ Multi-modal Large Language Models (MLLMs) have demonstrated impressive instructi
 {{</citation>}}
 
 
-### (60/144) Analyzing Film Adaptation through Narrative Alignment (Tanzir Pial et al., 2023)
+### (63/148) Analyzing Film Adaptation through Narrative Alignment (Tanzir Pial et al., 2023)
 
 {{<citation>}}
 
@@ -1379,7 +1445,7 @@ Novels are often adapted into feature films, but the differences between the two
 {{</citation>}}
 
 
-### (61/144) Factoring Hate Speech: A New Annotation Framework to Study Hate Speech in Social Media (Gal Ron et al., 2023)
+### (64/148) Factoring Hate Speech: A New Annotation Framework to Study Hate Speech in Social Media (Gal Ron et al., 2023)
 
 {{<citation>}}
 
@@ -1401,7 +1467,7 @@ In this work we propose a novel annotation scheme which factors hate speech into
 {{</citation>}}
 
 
-### (62/144) An Analysis of Dialogue Repair in Voice Assistants (Matthew Galbraith, 2023)
+### (65/148) An Analysis of Dialogue Repair in Voice Assistants (Matthew Galbraith, 2023)
 
 {{<citation>}}
 
@@ -1423,7 +1489,7 @@ Spoken dialogue systems have transformed human-machine interaction by providing 
 {{</citation>}}
 
 
-### (63/144) Improving Korean NLP Tasks with Linguistically Informed Subword Tokenization and Sub-character Decomposition (Taehee Jeon et al., 2023)
+### (66/148) Improving Korean NLP Tasks with Linguistically Informed Subword Tokenization and Sub-character Decomposition (Taehee Jeon et al., 2023)
 
 {{<citation>}}
 
@@ -1445,7 +1511,7 @@ We introduce a morpheme-aware subword tokenization method that utilizes sub-char
 {{</citation>}}
 
 
-### (64/144) Sparse Contrastive Learning of Sentence Embeddings (Ruize An et al., 2023)
+### (67/148) Sparse Contrastive Learning of Sentence Embeddings (Ruize An et al., 2023)
 
 {{<citation>}}
 
@@ -1467,7 +1533,7 @@ Recently, SimCSE has shown the feasibility of contrastive learning in training s
 {{</citation>}}
 
 
-### (65/144) Aspects of human memory and Large Language Models (Romuald A. Janik, 2023)
+### (68/148) Aspects of human memory and Large Language Models (Romuald A. Janik, 2023)
 
 {{<citation>}}
 
@@ -1478,18 +1544,18 @@ Romuald A. Janik. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL, q-bio-NC  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2311.03839v1)  
+[Paper Link](http://arxiv.org/abs/2311.03839v2)  
 
 ---
 
 
 **ABSTRACT**  
-Large Language Models (LLMs) are huge artificial neural networks which primarily serve to generate text, but also provide a very sophisticated probabilistic model of language use. Since generating a semantically consistent text requires a form of effective memory, we investigate the memory properties of LLMs and find surprising similarities with key characteristics of human memory. This result strongly suggests that the biological features of human memory leave an imprint on the way that we structure our textual narratives.
+Large Language Models (LLMs) are huge artificial neural networks which primarily serve to generate text, but also provide a very sophisticated probabilistic model of language use. Since generating a semantically consistent text requires a form of effective memory, we investigate the memory properties of LLMs and find surprising similarities with key characteristics of human memory. We argue that the human-like memory properties of the Large Language Model do not follow automatically from the LLM architecture but are rather learned from the statistics of the training textual data. These results strongly suggest that the biological features of human memory leave an imprint on the way that we structure our textual narratives.
 
 {{</citation>}}
 
 
-### (66/144) Conversations in Galician: a Large Language Model for an Underrepresented Language (Eliseo Bao et al., 2023)
+### (69/148) Conversations in Galician: a Large Language Model for an Underrepresented Language (Eliseo Bao et al., 2023)
 
 {{<citation>}}
 
@@ -1511,7 +1577,7 @@ The recent proliferation of Large Conversation Language Models has highlighted t
 {{</citation>}}
 
 
-### (67/144) Noisy Pair Corrector for Dense Retrieval (Hang Zhang et al., 2023)
+### (70/148) Noisy Pair Corrector for Dense Retrieval (Hang Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1533,7 +1599,7 @@ Most dense retrieval models contain an implicit assumption: the training query-d
 {{</citation>}}
 
 
-### (68/144) Character-Level Bangla Text-to-IPA Transcription Using Transformer Architecture with Sequence Alignment (Jakir Hasan et al., 2023)
+### (71/148) Character-Level Bangla Text-to-IPA Transcription Using Transformer Architecture with Sequence Alignment (Jakir Hasan et al., 2023)
 
 {{<citation>}}
 
@@ -1555,7 +1621,7 @@ The International Phonetic Alphabet (IPA) is indispensable in language learning 
 {{</citation>}}
 
 
-### (69/144) Language Representation Projection: Can We Transfer Factual Knowledge across Languages in Multilingual Language Models? (Shaoyang Xu et al., 2023)
+### (72/148) Language Representation Projection: Can We Transfer Factual Knowledge across Languages in Multilingual Language Models? (Shaoyang Xu et al., 2023)
 
 {{<citation>}}
 
@@ -1577,7 +1643,7 @@ Multilingual pretrained language models serve as repositories of multilingual fa
 {{</citation>}}
 
 
-### (70/144) Ensembling Textual and Structure-Based Models for Knowledge Graph Completion (Ananjan Nandi et al., 2023)
+### (73/148) Ensembling Textual and Structure-Based Models for Knowledge Graph Completion (Ananjan Nandi et al., 2023)
 
 {{<citation>}}
 
@@ -1599,7 +1665,7 @@ We consider two popular approaches to Knowledge Graph Completion (KGC): textual 
 {{</citation>}}
 
 
-### (71/144) Gender Inflected or Bias Inflicted: On Using Grammatical Gender Cues for Bias Evaluation in Machine Translation (Pushpdeep Singh, 2023)
+### (74/148) Gender Inflected or Bias Inflicted: On Using Grammatical Gender Cues for Bias Evaluation in Machine Translation (Pushpdeep Singh, 2023)
 
 {{<citation>}}
 
@@ -1621,7 +1687,7 @@ Neural Machine Translation (NMT) models are state-of-the-art for machine transla
 {{</citation>}}
 
 
-### (72/144) Multilingual Mathematical Autoformalization (Albert Q. Jiang et al., 2023)
+### (75/148) Multilingual Mathematical Autoformalization (Albert Q. Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -1632,7 +1698,7 @@ Albert Q. Jiang, Wenda Li, Mateja Jamnik. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: Multilingual  
-[Paper Link](http://arxiv.org/abs/2311.03755v1)  
+[Paper Link](http://arxiv.org/abs/2311.03755v2)  
 
 ---
 
@@ -1643,7 +1709,7 @@ Autoformalization is the task of translating natural language materials into mac
 {{</citation>}}
 
 
-### (73/144) Which is better? Exploring Prompting Strategy For LLM-based Metrics (Joonghoon Kim et al., 2023)
+### (76/148) Which is better? Exploring Prompting Strategy For LLM-based Metrics (Joonghoon Kim et al., 2023)
 
 {{<citation>}}
 
@@ -1665,7 +1731,7 @@ This paper describes the DSBA submissions to the Prompting Large Language Models
 {{</citation>}}
 
 
-### (74/144) Unified Low-Resource Sequence Labeling by Sample-Aware Dynamic Sparse Finetuning (Sarkar Snigdha Sarathi Das et al., 2023)
+### (77/148) Unified Low-Resource Sequence Labeling by Sample-Aware Dynamic Sparse Finetuning (Sarkar Snigdha Sarathi Das et al., 2023)
 
 {{<citation>}}
 
@@ -1687,7 +1753,7 @@ Unified Sequence Labeling that articulates different sequence labeling problems 
 {{</citation>}}
 
 
-### (75/144) Leveraging Structured Information for Explainable Multi-hop Question Answering and Reasoning (Ruosen Li et al., 2023)
+### (78/148) Leveraging Structured Information for Explainable Multi-hop Question Answering and Reasoning (Ruosen Li et al., 2023)
 
 {{<citation>}}
 
@@ -1709,7 +1775,7 @@ Neural models, including large language models (LLMs), achieve superior performa
 {{</citation>}}
 
 
-### (76/144) A Survey of Large Language Models Attribution (Dongfang Li et al., 2023)
+### (79/148) A Survey of Large Language Models Attribution (Dongfang Li et al., 2023)
 
 {{<citation>}}
 
@@ -1731,7 +1797,7 @@ Open-domain generative systems have gained significant attention in the field of
 {{</citation>}}
 
 
-### (77/144) LLM as an Art Director (LaDi): Using LLMs to improve Text-to-Media Generators (Allen Roush et al., 2023)
+### (80/148) LLM as an Art Director (LaDi): Using LLMs to improve Text-to-Media Generators (Allen Roush et al., 2023)
 
 {{<citation>}}
 
@@ -1753,7 +1819,7 @@ Recent advancements in text-to-image generation have revolutionized numerous fie
 {{</citation>}}
 
 
-### (78/144) Bilingual Corpus Mining and Multistage Fine-Tuning for Improving Machine Translation of Lecture Transcripts (Haiyue Song et al., 2023)
+### (81/148) Bilingual Corpus Mining and Multistage Fine-Tuning for Improving Machine Translation of Lecture Transcripts (Haiyue Song et al., 2023)
 
 {{<citation>}}
 
@@ -1775,7 +1841,7 @@ Lecture transcript translation helps learners understand online courses, however
 {{</citation>}}
 
 
-### (79/144) CBSiMT: Mitigating Hallucination in Simultaneous Machine Translation with Weighted Prefix-to-Prefix Training (Mengge Liu et al., 2023)
+### (82/148) CBSiMT: Mitigating Hallucination in Simultaneous Machine Translation with Weighted Prefix-to-Prefix Training (Mengge Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1797,18 +1863,18 @@ Simultaneous machine translation (SiMT) is a challenging task that requires star
 {{</citation>}}
 
 
-### (80/144) Generalization of NLP Models: Notion and Causation (Aparna Elangovan et al., 2023)
+### (83/148) Principles from Clinical Research for NLP Model Generalization (Aparna Elangovan et al., 2023)
 
 {{<citation>}}
 
 Aparna Elangovan, Jiayuan He, Yuan Li, Karin Verspoor. (2023)  
-**Generalization of NLP Models: Notion and Causation**  
+**Principles from Clinical Research for NLP Model Generalization**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
-Keywords: NLP  
-[Paper Link](http://arxiv.org/abs/2311.03663v1)  
+Keywords: Clinical, NLP  
+[Paper Link](http://arxiv.org/abs/2311.03663v2)  
 
 ---
 
@@ -1819,7 +1885,7 @@ The NLP community typically relies on performance of a model on a held-out test 
 {{</citation>}}
 
 
-### (81/144) The Linear Representation Hypothesis and the Geometry of Large Language Models (Kiho Park et al., 2023)
+### (84/148) The Linear Representation Hypothesis and the Geometry of Large Language Models (Kiho Park et al., 2023)
 
 {{<citation>}}
 
@@ -1841,7 +1907,7 @@ Informally, the 'linear representation hypothesis' is the idea that high-level c
 {{</citation>}}
 
 
-### (82/144) GNAT: A General Narrative Alignment Tool (Tanzir Pial et al., 2023)
+### (85/148) GNAT: A General Narrative Alignment Tool (Tanzir Pial et al., 2023)
 
 {{<citation>}}
 
@@ -1863,11 +1929,675 @@ Algorithmic sequence alignment identifies similar segments shared between pairs 
 {{</citation>}}
 
 
+## cs.LG (30)
+
+
+
+### (86/148) Multimodal Clinical Benchmark for Emergency Care (MC-BEC): A Comprehensive Benchmark for Evaluating Foundation Models in Emergency Medicine (Emma Chen et al., 2023)
+
+{{<citation>}}
+
+Emma Chen, Aman Kansal, Julie Chen, Boyang Tom Jin, Julia Rachel Reisler, David A Kim, Pranav Rajpurkar. (2023)  
+**Multimodal Clinical Benchmark for Emergency Care (MC-BEC): A Comprehensive Benchmark for Evaluating Foundation Models in Emergency Medicine**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: Clinical  
+[Paper Link](http://arxiv.org/abs/2311.04937v1)  
+
+---
+
+
+**ABSTRACT**  
+We propose the Multimodal Clinical Benchmark for Emergency Care (MC-BEC), a comprehensive benchmark for evaluating foundation models in Emergency Medicine using a dataset of 100K+ continuously monitored Emergency Department visits from 2020-2022. MC-BEC focuses on clinically relevant prediction tasks at timescales from minutes to days, including predicting patient decompensation, disposition, and emergency department (ED) revisit, and includes a standardized evaluation framework with train-test splits and evaluation metrics. The multimodal dataset includes a wide range of detailed clinical data, including triage information, prior diagnoses and medications, continuously measured vital signs, electrocardiogram and photoplethysmograph waveforms, orders placed and medications administered throughout the visit, free-text reports of imaging studies, and information on ED diagnosis, disposition, and subsequent revisits. We provide performance baselines for each prediction task to enable the evaluation of multimodal, multitask models. We believe that MC-BEC will encourage researchers to develop more effective, generalizable, and accessible foundation models for multimodal clinical data.
+
+{{</citation>}}
+
+
+### (87/148) Class-Incremental Continual Learning for General Purpose Healthcare Models (Amritpal Singh et al., 2023)
+
+{{<citation>}}
+
+Amritpal Singh, Mustafa Burak Gurbuz, Shiva Souhith Gantha, Prahlad Jasti. (2023)  
+**Class-Incremental Continual Learning for General Purpose Healthcare Models**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CV, cs-LG, cs.LG  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2311.04301v1)  
+
+---
+
+
+**ABSTRACT**  
+Healthcare clinics regularly encounter dynamic data that changes due to variations in patient populations, treatment policies, medical devices, and emerging disease patterns. Deep learning models can suffer from catastrophic forgetting when fine-tuned in such scenarios, causing poor performance on previously learned tasks. Continual learning allows learning on new tasks without performance drop on previous tasks. In this work, we investigate the performance of continual learning models on four different medical imaging scenarios involving ten classification datasets from diverse modalities, clinical specialties, and hospitals. We implement various continual learning approaches and evaluate their performance in these scenarios. Our results demonstrate that a single model can sequentially learn new tasks from different specialties and achieve comparable performance to naive methods. These findings indicate the feasibility of recycling or sharing models across the same or different medical specialties, offering another step towards the development of general-purpose medical imaging AI that can be shared across institutions.
+
+{{</citation>}}
+
+
+### (88/148) Wearable data from subjects playing Super Mario, sitting university exams, or performing physical exercise help detect acute mood episodes via self-supervised learning (Filippo Corponi et al., 2023)
+
+{{<citation>}}
+
+Filippo Corponi, Bryan M. Li, Gerard Anmella, Clàudia Valenzuela-Pascual, Ariadna Mas, Isabella Pacchiarotti, Marc Valentí, Iria Grande, Antonio Benabarre, Marina Garriga, Eduard Vieta, Allan H Young, Stephen M. Lawrie, Heather C. Whalley, Diego Hidalgo-Mazzei, Antonio Vergari. (2023)  
+**Wearable data from subjects playing Super Mario, sitting university exams, or performing physical exercise help detect acute mood episodes via self-supervised learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG, eess-SP  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2311.04215v1)  
+
+---
+
+
+**ABSTRACT**  
+Personal sensing, leveraging data passively and near-continuously collected with wearables from patients in their ecological environment, is a promising paradigm to monitor mood disorders (MDs), a major determinant of worldwide disease burden. However, collecting and annotating wearable data is very resource-intensive. Studies of this kind can thus typically afford to recruit only a couple dozens of patients. This constitutes one of the major obstacles to applying modern supervised machine learning techniques to MDs detection. In this paper, we overcome this data bottleneck and advance the detection of MDs acute episode vs stable state from wearables data on the back of recent advances in self-supervised learning (SSL). This leverages unlabelled data to learn representations during pre-training, subsequently exploited for a supervised task. First, we collected open-access datasets recording with an Empatica E4 spanning different, unrelated to MD monitoring, personal sensing tasks -- from emotion recognition in Super Mario players to stress detection in undergraduates -- and devised a pre-processing pipeline performing on-/off-body detection, sleep-wake detection, segmentation, and (optionally) feature extraction. With 161 E4-recorded subjects, we introduce E4SelfLearning, the largest to date open access collection, and its pre-processing pipeline. Second, we show that SSL confidently outperforms fully-supervised pipelines using either our novel E4-tailored Transformer architecture (E4mer) or classical baseline XGBoost: 81.23% against 75.35% (E4mer) and 72.02% (XGBoost) correctly classified recording segments from 64 (half acute, half stable) patients. Lastly, we illustrate that SSL performance is strongly associated with the specific surrogate task employed for pre-training as well as with unlabelled data availability.
+
+{{</citation>}}
+
+
+### (89/148) Spatio-Temporal Anomaly Detection with Graph Networks for Data Quality Monitoring of the Hadron Calorimeter (Mulugeta Weldezgina Asres et al., 2023)
+
+{{<citation>}}
+
+Mulugeta Weldezgina Asres, Christian Walter Omlin, Long Wang, David Yu, Pavel Parygin, Jay Dittmann, Georgia Karapostoli, Markus Seidel, Rosamaria Venditti, Luka Lambrecht, Emanuele Usai, Muhammad Ahmad, Javier Fernandez Menendez, Kaori Maeshima, the CMS-HCAL Collaboration. (2023)  
+**Spatio-Temporal Anomaly Detection with Graph Networks for Data Quality Monitoring of the Hadron Calorimeter**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: Anomaly Detection  
+[Paper Link](http://arxiv.org/abs/2311.04190v1)  
+
+---
+
+
+**ABSTRACT**  
+The compact muon solenoid (CMS) experiment is a general-purpose detector for high-energy collision at the large hadron collider (LHC) at CERN. It employs an online data quality monitoring (DQM) system to promptly spot and diagnose particle data acquisition problems to avoid data quality loss. In this study, we present semi-supervised spatio-temporal anomaly detection (AD) monitoring for the physics particle reading channels of the hadronic calorimeter (HCAL) of the CMS using three-dimensional digi-occupancy map data of the DQM. We propose the GraphSTAD system, which employs convolutional and graph neural networks to learn local spatial characteristics induced by particles traversing the detector, and global behavior owing to shared backend circuit connections and housing boxes of the channels, respectively. Recurrent neural networks capture the temporal evolution of the extracted spatial features. We have validated the accuracy of the proposed AD system in capturing diverse channel fault types using the LHC Run-2 collision data sets. The GraphSTAD system has achieved production-level accuracy and is being integrated into the CMS core production system--for real-time monitoring of the HCAL. We have also provided a quantitative performance comparison with alternative benchmark models to demonstrate the promising leverage of the presented system.
+
+{{</citation>}}
+
+
+### (90/148) Multi-resolution Time-Series Transformer for Long-term Forecasting (Yitian Zhang et al., 2023)
+
+{{<citation>}}
+
+Yitian Zhang, Liheng Ma, Soumyasundar Pal, Yingxue Zhang, Mark Coates. (2023)  
+**Multi-resolution Time-Series Transformer for Long-term Forecasting**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2311.04147v1)  
+
+---
+
+
+**ABSTRACT**  
+The performance of transformers for time-series forecasting has improved significantly. Recent architectures learn complex temporal patterns by segmenting a time-series into patches and using the patches as tokens. The patch size controls the ability of transformers to learn the temporal patterns at different frequencies: shorter patches are effective for learning localized, high-frequency patterns, whereas mining long-term seasonalities and trends requires longer patches. Inspired by this observation, we propose a novel framework, Multi-resolution Time-Series Transformer (MTST), which consists of a multi-branch architecture for simultaneous modeling of diverse temporal patterns at different resolutions. In contrast to many existing time-series transformers, we employ relative positional encoding, which is better suited for extracting periodic components at different scales. Extensive experiments on several real-world datasets demonstrate the effectiveness of MTST in comparison to state-of-the-art forecasting techniques.
+
+{{</citation>}}
+
+
+### (91/148) Do Language Models Learn Semantics of Code? A Case Study in Vulnerability Detection (Benjamin Steenhoek et al., 2023)
+
+{{<citation>}}
+
+Benjamin Steenhoek, Md Mahbubur Rahman, Shaila Sharmin, Wei Le. (2023)  
+**Do Language Models Learn Semantics of Code? A Case Study in Vulnerability Detection**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CR, cs-LG, cs.LG  
+Keywords: Language Model, Vulnerability Detection  
+[Paper Link](http://arxiv.org/abs/2311.04109v1)  
+
+---
+
+
+**ABSTRACT**  
+Recently, pretrained language models have shown state-of-the-art performance on the vulnerability detection task. These models are pretrained on a large corpus of source code, then fine-tuned on a smaller supervised vulnerability dataset. Due to the different training objectives and the performance of the models, it is interesting to consider whether the models have learned the semantics of code relevant to vulnerability detection, namely bug semantics, and if so, how the alignment to bug semantics relates to model performance. In this paper, we analyze the models using three distinct methods: interpretability tools, attention analysis, and interaction matrix analysis. We compare the models' influential feature sets with the bug semantic features which define the causes of bugs, including buggy paths and Potentially Vulnerable Statements (PVS). We find that (1) better-performing models also aligned better with PVS, (2) the models failed to align strongly to PVS, and (3) the models failed to align at all to buggy paths. Based on our analysis, we developed two annotation methods which highlight the bug semantics inside the model's inputs. We evaluated our approach on four distinct transformer models and four vulnerability datasets and found that our annotations improved the models' performance in the majority of settings - 11 out of 16, with up to 9.57 points improvement in F1 score compared to conventional fine-tuning. We further found that with our annotations, the models aligned up to 232% better to potentially vulnerable statements. Our findings indicate that it is helpful to provide the model with information of the bug semantics, that the model can attend to it, and motivate future work in learning more complex path-based bug semantics. Our code and data are available at https://figshare.com/s/4a16a528d6874aad51a0.
+
+{{</citation>}}
+
+
+### (92/148) Time-Efficient Reinforcement Learning with Stochastic Stateful Policies (Firas Al-Hafez et al., 2023)
+
+{{<citation>}}
+
+Firas Al-Hafez, Guoping Zhao, Jan Peters, Davide Tateo. (2023)  
+**Time-Efficient Reinforcement Learning with Stochastic Stateful Policies**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2311.04082v1)  
+
+---
+
+
+**ABSTRACT**  
+Stateful policies play an important role in reinforcement learning, such as handling partially observable environments, enhancing robustness, or imposing an inductive bias directly into the policy structure. The conventional method for training stateful policies is Backpropagation Through Time (BPTT), which comes with significant drawbacks, such as slow training due to sequential gradient propagation and the occurrence of vanishing or exploding gradients. The gradient is often truncated to address these issues, resulting in a biased policy update. We present a novel approach for training stateful policies by decomposing the latter into a stochastic internal state kernel and a stateless policy, jointly optimized by following the stateful policy gradient. We introduce different versions of the stateful policy gradient theorem, enabling us to easily instantiate stateful variants of popular reinforcement learning and imitation learning algorithms. Furthermore, we provide a theoretical analysis of our new gradient estimator and compare it with BPTT. We evaluate our approach on complex continuous control tasks, e.g., humanoid locomotion, and demonstrate that our gradient estimator scales effectively with task complexity while offering a faster and simpler alternative to BPTT.
+
+{{</citation>}}
+
+
+### (93/148) Multitask Multimodal Prompted Training for Interactive Embodied Task Completion (Georgios Pantazopoulos et al., 2023)
+
+{{<citation>}}
+
+Georgios Pantazopoulos, Malvina Nikandrou, Amit Parekh, Bhathiya Hemanthage, Arash Eshghi, Ioannis Konstas, Verena Rieser, Oliver Lemon, Alessandro Suglia. (2023)  
+**Multitask Multimodal Prompted Training for Interactive Embodied Task Completion**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CV, cs-LG, cs.LG  
+Keywords: Dialog  
+[Paper Link](http://arxiv.org/abs/2311.04067v1)  
+
+---
+
+
+**ABSTRACT**  
+Interactive and embodied tasks pose at least two fundamental challenges to existing Vision & Language (VL) models, including 1) grounding language in trajectories of actions and observations, and 2) referential disambiguation. To tackle these challenges, we propose an Embodied MultiModal Agent (EMMA): a unified encoder-decoder model that reasons over images and trajectories, and casts action prediction as multimodal text generation. By unifying all tasks as text generation, EMMA learns a language of actions which facilitates transfer across tasks. Different to previous modular approaches with independently trained components, we use a single multitask model where each task contributes to goal completion. EMMA performs on par with similar models on several VL benchmarks and sets a new state-of-the-art performance (36.81% success rate) on the Dialog-guided Task Completion (DTC), a benchmark to evaluate dialog-guided agents in the Alexa Arena
+
+{{</citation>}}
+
+
+### (94/148) Multi-View Causal Representation Learning with Partial Observability (Dingling Yao et al., 2023)
+
+{{<citation>}}
+
+Dingling Yao, Danru Xu, Sébastien Lachapelle, Sara Magliacane, Perouz Taslakian, Georg Martius, Julius von Kügelgen, Francesco Locatello. (2023)  
+**Multi-View Causal Representation Learning with Partial Observability**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: Representation Learning  
+[Paper Link](http://arxiv.org/abs/2311.04056v1)  
+
+---
+
+
+**ABSTRACT**  
+We present a unified framework for studying the identifiability of representations learned from simultaneously observed views, such as different data modalities. We allow a partially observed setting in which each view constitutes a nonlinear mixture of a subset of underlying latent variables, which can be causally related. We prove that the information shared across all subsets of any number of views can be learned up to a smooth bijection using contrastive learning and a single encoder per view. We also provide graphical criteria indicating which latent variables can be identified through a simple set of rules, which we refer to as identifiability algebra. Our general framework and theoretical results unify and extend several previous works on multi-view nonlinear ICA, disentanglement, and causal representation learning. We experimentally validate our claims on numerical, image, and multi-modal data sets. Further, we demonstrate that the performance of prior methods is recovered in different special cases of our setup. Overall, we find that access to multiple partial views enables us to identify a more fine-grained representation, under the generally milder assumption of partial observability.
+
+{{</citation>}}
+
+
+### (95/148) Generative Structural Design Integrating BIM and Diffusion Model (Zhili He et al., 2023)
+
+{{<citation>}}
+
+Zhili He, Yu-Hsing Wang, Jian Zhang. (2023)  
+**Generative Structural Design Integrating BIM and Diffusion Model**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CV, cs-LG, cs.LG  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2311.04052v1)  
+
+---
+
+
+**ABSTRACT**  
+Intelligent structural design using AI can effectively reduce time overhead and increase efficiency. It has potential to become the new design paradigm in the future to assist and even replace engineers, and so it has become a research hotspot in the academic community. However, current methods have some limitations to be addressed, whether in terms of application scope, visual quality of generated results, or evaluation metrics of results. This study proposes a comprehensive solution. Firstly, we introduce building information modeling (BIM) into intelligent structural design and establishes a structural design pipeline integrating BIM and generative AI, which is a powerful supplement to the previous frameworks that only considered CAD drawings. In order to improve the perceptual quality and details of generations, this study makes 3 contributions. Firstly, in terms of generation framework, inspired by the process of human drawing, a novel 2-stage generation framework is proposed to replace the traditional end-to-end framework to reduce the generation difficulty for AI models. Secondly, in terms of generative AI tools adopted, diffusion models (DMs) are introduced to replace widely used generative adversarial network (GAN)-based models, and a novel physics-based conditional diffusion model (PCDM) is proposed to consider different design prerequisites. Thirdly, in terms of neural networks, an attention block (AB) consisting of a self-attention block (SAB) and a parallel cross-attention block (PCAB) is designed to facilitate cross-domain data fusion. The quantitative and qualitative results demonstrate the powerful generation and representation capabilities of PCDM. Necessary ablation studies are conducted to examine the validity of the methods. This study also shows that DMs have the potential to replace GANs and become the new benchmark for generative problems in civil engineering.
+
+{{</citation>}}
+
+
+### (96/148) Reinforcement Learning Fine-tuning of Language Models is Biased Towards More Extractable Features (Diogo Cruz et al., 2023)
+
+{{<citation>}}
+
+Diogo Cruz, Edoardo Pona, Alex Holness-Tofts, Elias Schmied, Víctor Abia Alonso, Charlie Griffin, Bogdan-Ionut Cirstea. (2023)  
+**Reinforcement Learning Fine-tuning of Language Models is Biased Towards More Extractable Features**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CL, cs-LG, cs.LG  
+Keywords: AI, Bias, Language Model, Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2311.04046v1)  
+
+---
+
+
+**ABSTRACT**  
+Many capable large language models (LLMs) are developed via self-supervised pre-training followed by a reinforcement-learning fine-tuning phase, often based on human or AI feedback. During this stage, models may be guided by their inductive biases to rely on simpler features which may be easier to extract, at a cost to robustness and generalisation. We investigate whether principles governing inductive biases in the supervised fine-tuning of LLMs also apply when the fine-tuning process uses reinforcement learning. Following Lovering et al (2021), we test two hypotheses: that features more $\textit{extractable}$ after pre-training are more likely to be utilised by the final policy, and that the evidence for/against a feature predicts whether it will be utilised. Through controlled experiments on synthetic and natural language tasks, we find statistically significant correlations which constitute strong evidence for these hypotheses.
+
+{{</citation>}}
+
+
+### (97/148) Impact of HPO on AutoML Forecasting Ensembles (David Hoffmann, 2023)
+
+{{<citation>}}
+
+David Hoffmann. (2023)  
+**Impact of HPO on AutoML Forecasting Ensembles**  
+
+---
+Primary Category: cs.LG  
+Categories: I-2-6; I-2-2, cs-AI, cs-LG, cs.LG  
+Keywords: Amazon  
+[Paper Link](http://arxiv.org/abs/2311.04034v1)  
+
+---
+
+
+**ABSTRACT**  
+A forecasting ensemble consisting of a diverse range of estimators for both local and global univariate forecasting, in particular MQ-CNN,DeepAR, Prophet, NPTS, ARIMA and ETS, can be used to make forecasts for a variety of problems. This paper delves into the aspect of adding different hyperparameter optimization strategies to the deep learning models in such a setup (DeepAR and MQ-CNN), exploring the trade-off between added training cost and the increase in accuracy for different configurations. It shows that in such a setup, adding hyperparameter optimization can lead to performance improvements, with the final setup having a 9.9 % percent accuracy improvement with respect to the avg-wQL over the baseline ensemble without HPO, accompanied by a 65.8 % increase in end-to-end ensemble latency. This improvement is based on an empirical analysis of combining the ensemble pipeline with different tuning strategies, namely Bayesian Optimisation and Hyperband and different configurations of those strategies. In the final configuration, the proposed combination of ensemble learning and HPO outperforms the state of the art commercial AutoML forecasting solution, Amazon Forecast, with a 3.5 % lower error and 16.0 % lower end-to-end ensemble latency.
+
+{{</citation>}}
+
+
+### (98/148) AGNES: Abstraction-guided Framework for Deep Neural Networks Security (Akshay Dhonthi et al., 2023)
+
+{{<citation>}}
+
+Akshay Dhonthi, Marcello Eiermann, Ernst Moritz Hahn, Vahid Hashemi. (2023)  
+**AGNES: Abstraction-guided Framework for Deep Neural Networks Security**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CR, cs-CV, cs-LG, cs.LG  
+Keywords: Security  
+[Paper Link](http://arxiv.org/abs/2311.04009v1)  
+
+---
+
+
+**ABSTRACT**  
+Deep Neural Networks (DNNs) are becoming widespread, particularly in safety-critical areas. One prominent application is image recognition in autonomous driving, where the correct classification of objects, such as traffic signs, is essential for safe driving. Unfortunately, DNNs are prone to backdoors, meaning that they concentrate on attributes of the image that should be irrelevant for their correct classification. Backdoors are integrated into a DNN during training, either with malicious intent (such as a manipulated training process, because of which a yellow sticker always leads to a traffic sign being recognised as a stop sign) or unintentional (such as a rural background leading to any traffic sign being recognised as animal crossing, because of biased training data).   In this paper, we introduce AGNES, a tool to detect backdoors in DNNs for image recognition. We discuss the principle approach on which AGNES is based. Afterwards, we show that our tool performs better than many state-of-the-art methods for multiple relevant case studies.
+
+{{</citation>}}
+
+
+### (99/148) The Energy Prediction Smart-Meter Dataset: Analysis of Previous Competitions and Beyond (Direnc Pekaslan et al., 2023)
+
+{{<citation>}}
+
+Direnc Pekaslan, Jose Maria Alonso-Moral, Kasun Bandara, Christoph Bergmeir, Juan Bernabe-Moreno, Robert Eigenmann, Nils Einecke, Selvi Ergen, Rakshitha Godahewa, Hansika Hewamalage, Jesus Lago, Steffen Limmer, Sven Rebhan, Boris Rabinovich, Dilini Rajapasksha, Heda Song, Christian Wagner, Wenlong Wu, Luis Magdalena, Isaac Triguero. (2023)  
+**The Energy Prediction Smart-Meter Dataset: Analysis of Previous Competitions and Beyond**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2311.04007v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper presents the real-world smart-meter dataset and offers an analysis of solutions derived from the Energy Prediction Technical Challenges, focusing primarily on two key competitions: the IEEE Computational Intelligence Society (IEEE-CIS) Technical Challenge on Energy Prediction from Smart Meter data in 2020 (named EP) and its follow-up challenge at the IEEE International Conference on Fuzzy Systems (FUZZ-IEEE) in 2021 (named as XEP). These competitions focus on accurate energy consumption forecasting and the importance of interpretability in understanding the underlying factors. The challenge aims to predict monthly and yearly estimated consumption for households, addressing the accurate billing problem with limited historical smart meter data. The dataset comprises 3,248 smart meters, with varying data availability ranging from a minimum of one month to a year. This paper delves into the challenges, solutions and analysing issues related to the provided real-world smart meter data, developing accurate predictions at the household level, and introducing evaluation criteria for assessing interpretability. Additionally, this paper discusses aspects beyond the competitions: opportunities for energy disaggregation and pattern detection applications at the household level, significance of communicating energy-driven factors for optimised billing, and emphasising the importance of responsible AI and data privacy considerations. These aspects provide insights into the broader implications and potential advancements in energy consumption prediction. Overall, these competitions provide a dataset for residential energy research and serve as a catalyst for exploring accurate forecasting, enhancing interpretability, and driving progress towards the discussion of various aspects such as energy disaggregation, demand response programs or behavioural interventions.
+
+{{</citation>}}
+
+
+### (100/148) Its All Graph To Me: Foundational Topology Models with Contrastive Learning on Multiple Domains (Alex O. Davies et al., 2023)
+
+{{<citation>}}
+
+Alex O. Davies, Riku W. Green, Nirav S. Ajmeri, Telmo M. Silva Filho. (2023)  
+**Its All Graph To Me: Foundational Topology Models with Contrastive Learning on Multiple Domains**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: Contrastive Learning  
+[Paper Link](http://arxiv.org/abs/2311.03976v1)  
+
+---
+
+
+**ABSTRACT**  
+Representations and embeddings of graph data have been essential in many domains of research.   The principle benefit of learning such representations is that the pre-trained model can be fine-tuned on smaller datasets where data or labels are scarse.   Existing models, however, are domain specific; for example a model trained on molecular graphs is fine-tuned on other molecular graphs.   This means that in many application cases the choice of pre-trained model can be arbitrary, and novel domains may lack an appropriate pre-trained model.   This is of particular issue where data is scarse, precluding traditional supervised methods.   In this work we use adversarial contrastive learning to present a \method, a model pre-trained on many graph domains.   We train the model only on topologies but include node labels in evaluation.   We evaluate the efficacy of its learnt representations on various downstream tasks.   Against baseline models pre-trained on single domains, as well as un-trained models and non-transferred models, we show that performance is equal or better using our single model.   This includes when node labels are used in evaluation, where performance is consistently superior to single-domain or non-pre-trained models.
+
+{{</citation>}}
+
+
+### (101/148) MixtureGrowth: Growing Neural Networks by Recombining Learned Parameters (Chau Pham et al., 2023)
+
+{{<citation>}}
+
+Chau Pham, Piotr Teterwak, Soren Nelson, Bryan A. Plummer. (2023)  
+**MixtureGrowth: Growing Neural Networks by Recombining Learned Parameters**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CV, cs-LG, cs.LG  
+Keywords: ImageNet  
+[Paper Link](http://arxiv.org/abs/2311.04251v1)  
+
+---
+
+
+**ABSTRACT**  
+Most deep neural networks are trained under fixed network architectures and require retraining when the architecture changes. If expanding the network's size is needed, it is necessary to retrain from scratch, which is expensive. To avoid this, one can grow from a small network by adding random weights over time to gradually achieve the target network size. However, this naive approach falls short in practice as it brings too much noise to the growing process. Prior work tackled this issue by leveraging the already learned weights and training data for generating new weights through conducting a computationally expensive analysis step. In this paper, we introduce MixtureGrowth, a new approach to growing networks that circumvents the initialization overhead in prior work. Before growing, each layer in our model is generated with a linear combination of parameter templates. Newly grown layer weights are generated by using a new linear combination of existing templates for a layer. On one hand, these templates are already trained for the task, providing a strong initialization. On the other, the new coefficients provide flexibility for the added layer weights to learn something new. We show that our approach boosts top-1 accuracy over the state-of-the-art by 2-2.5% on CIFAR-100 and ImageNet datasets, while achieving comparable performance with fewer FLOPs to a larger network trained from scratch. Code is available at https://github.com/chaudatascience/mixturegrowth.
+
+{{</citation>}}
+
+
+### (102/148) Temporal Graph Representation Learning with Adaptive Augmentation Contrastive (Hongjiang Chen et al., 2023)
+
+{{<citation>}}
+
+Hongjiang Chen, Pengfei Jiao, Huijun Tang, Huaming Wu. (2023)  
+**Temporal Graph Representation Learning with Adaptive Augmentation Contrastive**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: Augmentation, Representation Learning  
+[Paper Link](http://arxiv.org/abs/2311.03897v1)  
+
+---
+
+
+**ABSTRACT**  
+Temporal graph representation learning aims to generate low-dimensional dynamic node embeddings to capture temporal information as well as structural and property information. Current representation learning methods for temporal networks often focus on capturing fine-grained information, which may lead to the model capturing random noise instead of essential semantic information. While graph contrastive learning has shown promise in dealing with noise, it only applies to static graphs or snapshots and may not be suitable for handling time-dependent noise. To alleviate the above challenge, we propose a novel Temporal Graph representation learning with Adaptive augmentation Contrastive (TGAC) model. The adaptive augmentation on the temporal graph is made by combining prior knowledge with temporal information, and the contrastive objective function is constructed by defining the augmented inter-view contrast and intra-view contrast. To complement TGAC, we propose three adaptive augmentation strategies that modify topological features to reduce noise from the network. Our extensive experiments on various real networks demonstrate that the proposed model outperforms other temporal graph representation learning methods.
+
+{{</citation>}}
+
+
+### (103/148) PT-Tuning: Bridging the Gap between Time Series Masked Reconstruction and Forecasting via Prompt Token Tuning (Hao Liu et al., 2023)
+
+{{<citation>}}
+
+Hao Liu, Jinrui Gan, Xiaoxuan Fan, Yi Zhang, Chuanxian Luo, Jing Zhang, Guangxin Jiang, Yucheng Qian, Changwei Zhao, Huan Ma, Zhenyu Guo. (2023)  
+**PT-Tuning: Bridging the Gap between Time Series Masked Reconstruction and Forecasting via Prompt Token Tuning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: Time Series  
+[Paper Link](http://arxiv.org/abs/2311.03768v1)  
+
+---
+
+
+**ABSTRACT**  
+Self-supervised learning has been actively studied in time series domain recently, especially for masked reconstruction. Most of these methods follow the "Pre-training + Fine-tuning" paradigm in which a new decoder replaces the pre-trained decoder to fit for a specific downstream task, leading to inconsistency of upstream and downstream tasks. In this paper, we first point out that the unification of task objectives and adaptation for task difficulty are critical for bridging the gap between time series masked reconstruction and forecasting. By reserving the pre-trained mask token during fine-tuning stage, the forecasting task can be taken as a special case of masked reconstruction, where the future values are masked and reconstructed based on history values. It guarantees the consistency of task objectives but there is still a gap in task difficulty. Because masked reconstruction can utilize contextual information while forecasting can only use historical information to reconstruct. To further mitigate the existed gap, we propose a simple yet effective prompt token tuning (PT-Tuning) paradigm, in which all pre-trained parameters are frozen and only a few trainable prompt tokens are added to extended mask tokens in element-wise manner. Extensive experiments on real-world datasets demonstrate the superiority of our proposed paradigm with state-of-the-art performance compared to representation learning and end-to-end supervised forecasting methods.
+
+{{</citation>}}
+
+
+### (104/148) Neuro-GPT: Developing A Foundation Model for EEG (Wenhui Cui et al., 2023)
+
+{{<citation>}}
+
+Wenhui Cui, Woojae Jeong, Philipp Thölke, Takfarinas Medani, Karim Jerbi, Anand A. Joshi, Richard M. Leahy. (2023)  
+**Neuro-GPT: Developing A Foundation Model for EEG**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG, eess-SP  
+Keywords: GPT  
+[Paper Link](http://arxiv.org/abs/2311.03764v2)  
+
+---
+
+
+**ABSTRACT**  
+To handle the scarcity and heterogeneity of electroencephalography (EEG) data in Brain-Computer Interface (BCI) tasks, and to harness the vast public data, we propose Neuro-GPT, a foundation model consisting of an EEG encoder and a GPT model. The foundation model is pre-trained on a large-scale public EEG dataset, using a self-supervised task which learns how to reconstruct the masked chunk in EEG. We then fine-tune the foundation model on a Motor Imagery Classification task where only 9 subjects are available. Experiments demonstrated that applying foundation model can significantly improve classification performance compared to the model trained from scratch, which provides evidence for the advanced generalizability of foundation model and the ability to address the challenges of data scarcity and heterogeneity.
+
+{{</citation>}}
+
+
+### (105/148) Learning Decentralized Traffic Signal Controllers with Multi-Agent Graph Reinforcement Learning (Yao Zhang et al., 2023)
+
+{{<citation>}}
+
+Yao Zhang, Zhiwen Yu, Jun Zhang, Liang Wang, Tom H. Luan, Bin Guo, Chau Yuen. (2023)  
+**Learning Decentralized Traffic Signal Controllers with Multi-Agent Graph Reinforcement Learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs-SY, cs.LG, eess-SY  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2311.03756v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper considers optimal traffic signal control in smart cities, which has been taken as a complex networked system control problem. Given the interacting dynamics among traffic lights and road networks, attaining controller adaptivity and scalability stands out as a primary challenge. Capturing the spatial-temporal correlation among traffic lights under the framework of Multi-Agent Reinforcement Learning (MARL) is a promising solution. Nevertheless, existing MARL algorithms ignore effective information aggregation which is fundamental for improving the learning capacity of decentralized agents. In this paper, we design a new decentralized control architecture with improved environmental observability to capture the spatial-temporal correlation. Specifically, we first develop a topology-aware information aggregation strategy to extract correlation-related information from unstructured data gathered in the road network. Particularly, we transfer the road network topology into a graph shift operator by forming a diffusion process on the topology, which subsequently facilitates the construction of graph signals. A diffusion convolution module is developed, forming a new MARL algorithm, which endows agents with the capabilities of graph learning. Extensive experiments based on both synthetic and real-world datasets verify that our proposal outperforms existing decentralized algorithms.
+
+{{</citation>}}
+
+
+### (106/148) Analysis and Applications of Deep Learning with Finite Samples in Full Life-Cycle Intelligence of Nuclear Power Generation (Chenwei Tang et al., 2023)
+
+{{<citation>}}
+
+Chenwei Tang, Wenqiang Zhou, Dong Wang, Caiyang Yu, Zhenan He, Jizhe Zhou, Shudong Huang, Yi Gao, Jianming Chen, Wentao Feng, Jiancheng Lv. (2023)  
+**Analysis and Applications of Deep Learning with Finite Samples in Full Life-Cycle Intelligence of Nuclear Power Generation**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2311.04247v1)  
+
+---
+
+
+**ABSTRACT**  
+The advent of Industry 4.0 has precipitated the incorporation of Artificial Intelligence (AI) methods within industrial contexts, aiming to realize intelligent manufacturing, operation as well as maintenance, also known as industrial intelligence. However, intricate industrial milieus, particularly those relating to energy exploration and production, frequently encompass data characterized by long-tailed class distribution, sample imbalance, and domain shift. These attributes pose noteworthy challenges to data-centric Deep Learning (DL) techniques, crucial for the realization of industrial intelligence. The present study centers on the intricate and distinctive industrial scenarios of Nuclear Power Generation (NPG), meticulously scrutinizing the application of DL techniques under the constraints of finite data samples. Initially, the paper expounds on potential employment scenarios for AI across the full life-cycle of NPG. Subsequently, we delve into an evaluative exposition of DL's advancement, grounded in the finite sample perspective. This encompasses aspects such as small-sample learning, few-shot learning, zero-shot learning, and open-set recognition, also referring to the unique data characteristics of NPG. The paper then proceeds to present two specific case studies. The first revolves around the automatic recognition of zirconium alloy metallography, while the second pertains to open-set recognition for signal diagnosis of machinery sensors. These cases, spanning the entirety of NPG's life-cycle, are accompanied by constructive outcomes and insightful deliberations. By exploring and applying DL methodologies within the constraints of finite sample availability, this paper not only furnishes a robust technical foundation but also introduces a fresh perspective toward the secure and efficient advancement and exploitation of this advanced energy source.
+
+{{</citation>}}
+
+
+### (107/148) Learning to Learn for Few-shot Continual Active Learning (Stella Ho et al., 2023)
+
+{{<citation>}}
+
+Stella Ho, Ming Liu, Shang Gao, Longxiang Gao. (2023)  
+**Learning to Learn for Few-shot Continual Active Learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CL, cs-LG, cs.LG  
+Keywords: Active Learning, NLP  
+[Paper Link](http://arxiv.org/abs/2311.03732v1)  
+
+---
+
+
+**ABSTRACT**  
+Continual learning strives to ensure stability in solving previously seen tasks while demonstrating plasticity in a novel domain. Recent advances in CL are mostly confined to a supervised learning setting, especially in NLP domain. In this work, we consider a few-shot continual active learning (CAL) setting where labeled data is inadequate, and unlabeled data is abundant but with a limited annotation budget. We propose a simple but efficient method, called Meta-Continual Active Learning. Specifically, we employ meta-learning and experience replay to address the trade-off between stability and plasticity. As a result, it finds an optimal initialization that efficiently utilizes annotated information for fast adaptation while preventing catastrophic forgetting of past tasks. We conduct extensive experiments to validate the effectiveness of the proposed method and analyze the effect of various active learning strategies and memory sample selection methods in a few-shot CAL setup. Our experiment results demonstrate that random sampling is the best default strategy for both active learning and memory sample selection to solve few-shot CAL problems.
+
+{{</citation>}}
+
+
+### (108/148) Mitigating Estimation Errors by Twin TD-Regularized Actor and Critic for Deep Reinforcement Learning (Junmin Zhong et al., 2023)
+
+{{<citation>}}
+
+Junmin Zhong, Ruofan Wu, Jennie Si. (2023)  
+**Mitigating Estimation Errors by Twin TD-Regularized Actor and Critic for Deep Reinforcement Learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2311.03711v1)  
+
+---
+
+
+**ABSTRACT**  
+We address the issue of estimation bias in deep reinforcement learning (DRL) by introducing solution mechanisms that include a new, twin TD-regularized actor-critic (TDR) method. It aims at reducing both over and under-estimation errors. With TDR and by combining good DRL improvements, such as distributional learning and long N-step surrogate stage reward (LNSS) method, we show that our new TDR-based actor-critic learning has enabled DRL methods to outperform their respective baselines in challenging environments in DeepMind Control Suite. Furthermore, they elevate TD3 and SAC respectively to a level of performance comparable to that of D4PG (the current SOTA), and they also improve the performance of D4PG to a new SOTA level measured by mean reward, convergence speed, learning success rate, and learning variance.
+
+{{</citation>}}
+
+
+### (109/148) A Novel Variational Lower Bound for Inverse Reinforcement Learning (Yikang Gui et al., 2023)
+
+{{<citation>}}
+
+Yikang Gui, Prashant Doshi. (2023)  
+**A Novel Variational Lower Bound for Inverse Reinforcement Learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs-RO, cs.LG  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2311.03698v1)  
+
+---
+
+
+**ABSTRACT**  
+Inverse reinforcement learning (IRL) seeks to learn the reward function from expert trajectories, to understand the task for imitation or collaboration thereby removing the need for manual reward engineering. However, IRL in the context of large, high-dimensional problems with unknown dynamics has been particularly challenging. In this paper, we present a new Variational Lower Bound for IRL (VLB-IRL), which is derived under the framework of a probabilistic graphical model with an optimality node. Our method simultaneously learns the reward function and policy under the learned reward function by maximizing the lower bound, which is equivalent to minimizing the reverse Kullback-Leibler divergence between an approximated distribution of optimality given the reward function and the true distribution of optimality given trajectories. This leads to a new IRL method that learns a valid reward function such that the policy under the learned reward achieves expert-level performance on several known domains. Importantly, the method outperforms the existing state-of-the-art IRL algorithms on these domains by demonstrating better reward from the learned policy.
+
+{{</citation>}}
+
+
+### (110/148) Context Shift Reduction for Offline Meta-Reinforcement Learning (Yunkai Gao et al., 2023)
+
+{{<citation>}}
+
+Yunkai Gao, Rui Zhang, Jiaming Guo, Fan Wu, Qi Yi, Shaohui Peng, Siming Lan, Ruizhi Chen, Zidong Du, Xing Hu, Qi Guo, Ling Li, Yunji Chen. (2023)  
+**Context Shift Reduction for Offline Meta-Reinforcement Learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2311.03695v1)  
+
+---
+
+
+**ABSTRACT**  
+Offline meta-reinforcement learning (OMRL) utilizes pre-collected offline datasets to enhance the agent's generalization ability on unseen tasks. However, the context shift problem arises due to the distribution discrepancy between the contexts used for training (from the behavior policy) and testing (from the exploration policy). The context shift problem leads to incorrect task inference and further deteriorates the generalization ability of the meta-policy. Existing OMRL methods either overlook this problem or attempt to mitigate it with additional information. In this paper, we propose a novel approach called Context Shift Reduction for OMRL (CSRO) to address the context shift problem with only offline datasets. The key insight of CSRO is to minimize the influence of policy in context during both the meta-training and meta-test phases. During meta-training, we design a max-min mutual information representation learning mechanism to diminish the impact of the behavior policy on task representation. In the meta-test phase, we introduce the non-prior context collection strategy to reduce the effect of the exploration policy. Experimental results demonstrate that CSRO significantly reduces the context shift and improves the generalization ability, surpassing previous methods across various challenging domains.
+
+{{</citation>}}
+
+
+### (111/148) Stable Modular Control via Contraction Theory for Reinforcement Learning (Bing Song et al., 2023)
+
+{{<citation>}}
+
+Bing Song, Jean-Jacques Slotine, Quang-Cuong Pham. (2023)  
+**Stable Modular Control via Contraction Theory for Reinforcement Learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs-SY, cs.LG, eess-SY  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2311.03669v1)  
+
+---
+
+
+**ABSTRACT**  
+We propose a novel way to integrate control techniques with reinforcement learning (RL) for stability, robustness, and generalization: leveraging contraction theory to realize modularity in neural control, which ensures that combining stable subsystems can automatically preserve the stability. We realize such modularity via signal composition and dynamic decomposition. Signal composition creates the latent space, within which RL applies to maximizing rewards. Dynamic decomposition is realized by coordinate transformation that creates an auxiliary space, within which the latent signals are coupled in the way that their combination can preserve stability provided each signal, that is, each subsystem, has stable self-feedbacks. Leveraging modularity, the nonlinear stability problem is deconstructed into algebraically solvable ones, the stability of the subsystems in the auxiliary space, yielding linear constraints on the input gradients of control networks that can be as simple as switching the signs of network weights. This minimally invasive method for stability allows arguably easy integration into the modular neural architectures in machine learning, like hierarchical RL, and improves their performance. We demonstrate in simulation the necessity and the effectiveness of our method: the necessity for robustness and generalization, and the effectiveness in improving hierarchical RL for manipulation learning.
+
+{{</citation>}}
+
+
+### (112/148) GPT-ST: Generative Pre-Training of Spatio-Temporal Graph Neural Networks (Zhonghang Li et al., 2023)
+
+{{<citation>}}
+
+Zhonghang Li, Lianghao Xia, Yong Xu, Chao Huang. (2023)  
+**GPT-ST: Generative Pre-Training of Spatio-Temporal Graph Neural Networks**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CY, cs-LG, cs.LG  
+Keywords: GPT, Graph Neural Network, Graph Neural Networks  
+[Paper Link](http://arxiv.org/abs/2311.04245v1)  
+
+---
+
+
+**ABSTRACT**  
+In recent years, there has been a rapid development of spatio-temporal prediction techniques in response to the increasing demands of traffic management and travel planning. While advanced end-to-end models have achieved notable success in improving predictive performance, their integration and expansion pose significant challenges. This work aims to address these challenges by introducing a spatio-temporal pre-training framework that seamlessly integrates with downstream baselines and enhances their performance. The framework is built upon two key designs: (i) We propose a spatio-temporal mask autoencoder as a pre-training model for learning spatio-temporal dependencies. The model incorporates customized parameter learners and hierarchical spatial pattern encoding networks. These modules are specifically designed to capture spatio-temporal customized representations and intra- and inter-cluster region semantic relationships, which have often been neglected in existing approaches. (ii) We introduce an adaptive mask strategy as part of the pre-training mechanism. This strategy guides the mask autoencoder in learning robust spatio-temporal representations and facilitates the modeling of different relationships, ranging from intra-cluster to inter-cluster, in an easy-to-hard training manner. Extensive experiments conducted on representative benchmarks demonstrate the effectiveness of our proposed method. We have made our model implementation publicly available at https://github.com/HKUDS/GPT-ST.
+
+{{</citation>}}
+
+
+### (113/148) SeRO: Self-Supervised Reinforcement Learning for Recovery from Out-of-Distribution Situations (Chan Kim et al., 2023)
+
+{{<citation>}}
+
+Chan Kim, Jaekyung Cho, Christophe Bobda, Seung-Woo Seo, Seong-Woo Kim. (2023)  
+**SeRO: Self-Supervised Reinforcement Learning for Recovery from Out-of-Distribution Situations**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs-RO, cs.LG  
+Keywords: Reinforcement Learning, Self-Supervised  
+[Paper Link](http://arxiv.org/abs/2311.03651v1)  
+
+---
+
+
+**ABSTRACT**  
+Robotic agents trained using reinforcement learning have the problem of taking unreliable actions in an out-of-distribution (OOD) state. Agents can easily become OOD in real-world environments because it is almost impossible for them to visit and learn the entire state space during training. Unfortunately, unreliable actions do not ensure that agents perform their original tasks successfully. Therefore, agents should be able to recognize whether they are in OOD states and learn how to return to the learned state distribution rather than continue to take unreliable actions. In this study, we propose a novel method for retraining agents to recover from OOD situations in a self-supervised manner when they fall into OOD states. Our in-depth experimental results demonstrate that our method substantially improves the agent's ability to recover from OOD situations in terms of sample efficiency and restoration of the performance for the original tasks. Moreover, we show that our method can retrain the agent to recover from OOD situations even when in-distribution states are difficult to visit through exploration.
+
+{{</citation>}}
+
+
+### (114/148) HKTGNN: Hierarchical Knowledge Transferable Graph Neural Network-based Supply Chain Risk Assessment (Zhanting Zhou et al., 2023)
+
+{{<citation>}}
+
+Zhanting Zhou, Kejun Bi, Yuyanzhen Zhong, Chao Tang, Dongfen Li, Shi Ying, Ruijin Wang. (2023)  
+**HKTGNN: Hierarchical Knowledge Transferable Graph Neural Network-based Supply Chain Risk Assessment**  
+
+---
+Primary Category: cs.LG  
+Categories: I-2-4, cs-AI, cs-LG, cs.LG  
+Keywords: GNN, Graph Neural Network  
+[Paper Link](http://arxiv.org/abs/2311.04244v1)  
+
+---
+
+
+**ABSTRACT**  
+The strength of a supply chain is an important measure of a country's or region's technical advancement and overall competitiveness. Establishing supply chain risk assessment models for effective management and mitigation of potential risks has become increasingly crucial. As the number of businesses grows, the important relationships become more complicated and difficult to measure. This emphasizes the need of extracting relevant information from graph data. Previously, academics mostly employed knowledge inference to increase the visibility of links between nodes in the supply chain. However, they have not solved the data hunger problem of single node feature characteristics. We propose a hierarchical knowledge transferable graph neural network-based (HKTGNN) supply chain risk assessment model to address these issues. Our approach is based on current graph embedding methods for assessing corporate investment risk assessment. We embed the supply chain network corresponding to individual goods in the supply chain using the graph embedding module, resulting in a directed homogeneous graph with just product nodes. This reduces the complicated supply chain network into a basic product network. It addresses difficulties using the domain difference knowledge transferable module based on centrality, which is presented by the premise that supply chain feature characteristics may be biased in the actual world. Meanwhile, the feature complement and message passing will alleviate the data hunger problem, which is driven by domain differences. Our model outperforms in experiments on a real-world supply chain dataset. We will give an equation to prove that our comparative experiment is both effective and fair.
+
+{{</citation>}}
+
+
+### (115/148) Counterfactual Data Augmentation with Contrastive Learning (Ahmed Aloui et al., 2023)
+
+{{<citation>}}
+
+Ahmed Aloui, Juncheng Dong, Cat P. Le, Vahid Tarokh. (2023)  
+**Counterfactual Data Augmentation with Contrastive Learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG, stat-ME, stat-ML  
+Keywords: Augmentation, Contrastive Learning  
+[Paper Link](http://arxiv.org/abs/2311.03630v1)  
+
+---
+
+
+**ABSTRACT**  
+Statistical disparity between distinct treatment groups is one of the most significant challenges for estimating Conditional Average Treatment Effects (CATE). To address this, we introduce a model-agnostic data augmentation method that imputes the counterfactual outcomes for a selected subset of individuals. Specifically, we utilize contrastive learning to learn a representation space and a similarity measure such that in the learned representation space close individuals identified by the learned similarity measure have similar potential outcomes. This property ensures reliable imputation of counterfactual outcomes for the individuals with close neighbors from the alternative treatment group. By augmenting the original dataset with these reliable imputations, we can effectively reduce the discrepancy between different treatment groups, while inducing minimal imputation error. The augmented dataset is subsequently employed to train CATE estimation models. Theoretical analysis and experimental studies on synthetic and semi-synthetic benchmarks demonstrate that our method achieves significant improvements in both performance and robustness to overfitting across state-of-the-art models.
+
+{{</citation>}}
+
+
 ## cs.CY (2)
 
 
 
-### (83/144) Educating for AI Cybersecurity Work and Research: Ethics, Systems Thinking, and Communication Requirements (Sorin Adam Matei et al., 2023)
+### (116/148) Educating for AI Cybersecurity Work and Research: Ethics, Systems Thinking, and Communication Requirements (Sorin Adam Matei et al., 2023)
 
 {{<citation>}}
 
@@ -1889,7 +2619,7 @@ The present study explored managerial and instructor perceptions of their freshl
 {{</citation>}}
 
 
-### (84/144) Healthcare Security Breaches in the United States: Insights and their Socio-Technical Implications (Megha M. Moncy et al., 2023)
+### (117/148) Healthcare Security Breaches in the United States: Insights and their Socio-Technical Implications (Megha M. Moncy et al., 2023)
 
 {{<citation>}}
 
@@ -1915,7 +2645,7 @@ This research examines the pivotal role of human behavior in the realm of health
 
 
 
-### (85/144) KNIMEZoBot: Enhancing Literature Review with Zotero and KNIME OpenAI Integration using Retrieval-Augmented Generation (Suad Alshammari et al., 2023)
+### (118/148) KNIMEZoBot: Enhancing Literature Review with Zotero and KNIME OpenAI Integration using Retrieval-Augmented Generation (Suad Alshammari et al., 2023)
 
 {{<citation>}}
 
@@ -1937,7 +2667,7 @@ Academic researchers face challenges keeping up with exponentially growing publi
 {{</citation>}}
 
 
-### (86/144) Human-AI Collaboration in Thematic Analysis using ChatGPT: A User Study and Design Recommendations (Lixiang Yan et al., 2023)
+### (119/148) Human-AI Collaboration in Thematic Analysis using ChatGPT: A User Study and Design Recommendations (Lixiang Yan et al., 2023)
 
 {{<citation>}}
 
@@ -1959,7 +2689,7 @@ Generative artificial intelligence (GenAI) offers promising potential for advanc
 {{</citation>}}
 
 
-### (87/144) 6DVF: Data Visualisation Framework for mHealth Apps (Yasmeen Anjeer Alshehhi et al., 2023)
+### (120/148) 6DVF: Data Visualisation Framework for mHealth Apps (Yasmeen Anjeer Alshehhi et al., 2023)
 
 {{<citation>}}
 
@@ -1981,7 +2711,7 @@ The widespread of data visualisation tools on smartphones has provided end users
 {{</citation>}}
 
 
-### (88/144) Analysis of the User Perception of Chatbots in Education Using A Partial Least Squares Structural Equation Modeling Approach (Md Rabiul Hasan et al., 2023)
+### (121/148) Analysis of the User Perception of Chatbots in Education Using A Partial Least Squares Structural Equation Modeling Approach (Md Rabiul Hasan et al., 2023)
 
 {{<citation>}}
 
@@ -2007,7 +2737,7 @@ The integration of Artificial Intelligence (AI) into education is a recent devel
 
 
 
-### (89/144) Adaptive Stochastic Nonlinear Model Predictive Control with Look-ahead Deep Reinforcement Learning for Autonomous Vehicle Motion Control (Baha Zarrouki et al., 2023)
+### (122/148) Adaptive Stochastic Nonlinear Model Predictive Control with Look-ahead Deep Reinforcement Learning for Autonomous Vehicle Motion Control (Baha Zarrouki et al., 2023)
 
 {{<citation>}}
 
@@ -2029,7 +2759,7 @@ In this paper, we present a Deep Reinforcement Learning (RL)-driven Adaptive Sto
 {{</citation>}}
 
 
-### (90/144) Graph Neural Networks for Power Grid Operational Risk Assessment (Yadong Zhang et al., 2023)
+### (123/148) Graph Neural Networks for Power Grid Operational Risk Assessment (Yadong Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -2051,7 +2781,7 @@ In this article, the utility of graph neural network (GNN) surrogates for Monte 
 {{</citation>}}
 
 
-### (91/144) GNN-Based Beamforming for Sum-Rate Maximization in MU-MISO Networks (Yuhang Li et al., 2023)
+### (124/148) GNN-Based Beamforming for Sum-Rate Maximization in MU-MISO Networks (Yuhang Li et al., 2023)
 
 {{<citation>}}
 
@@ -2073,653 +2803,11 @@ The advantages of graph neural networks (GNNs) in leveraging the graph topology 
 {{</citation>}}
 
 
-## cs.LG (29)
-
-
-
-### (92/144) Class-Incremental Continual Learning for General Purpose Healthcare Models (Amritpal Singh et al., 2023)
-
-{{<citation>}}
-
-Amritpal Singh, Mustafa Burak Gurbuz, Shiva Souhith Gantha, Prahlad Jasti. (2023)  
-**Class-Incremental Continual Learning for General Purpose Healthcare Models**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-CV, cs-LG, cs.LG  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2311.04301v1)  
-
----
-
-
-**ABSTRACT**  
-Healthcare clinics regularly encounter dynamic data that changes due to variations in patient populations, treatment policies, medical devices, and emerging disease patterns. Deep learning models can suffer from catastrophic forgetting when fine-tuned in such scenarios, causing poor performance on previously learned tasks. Continual learning allows learning on new tasks without performance drop on previous tasks. In this work, we investigate the performance of continual learning models on four different medical imaging scenarios involving ten classification datasets from diverse modalities, clinical specialties, and hospitals. We implement various continual learning approaches and evaluate their performance in these scenarios. Our results demonstrate that a single model can sequentially learn new tasks from different specialties and achieve comparable performance to naive methods. These findings indicate the feasibility of recycling or sharing models across the same or different medical specialties, offering another step towards the development of general-purpose medical imaging AI that can be shared across institutions.
-
-{{</citation>}}
-
-
-### (93/144) Wearable data from subjects playing Super Mario, sitting university exams, or performing physical exercise help detect acute mood episodes via self-supervised learning (Filippo Corponi et al., 2023)
-
-{{<citation>}}
-
-Filippo Corponi, Bryan M. Li, Gerard Anmella, Clàudia Valenzuela-Pascual, Ariadna Mas, Isabella Pacchiarotti, Marc Valentí, Iria Grande, Antonio Benabarre, Marina Garriga, Eduard Vieta, Allan H Young, Stephen M. Lawrie, Heather C. Whalley, Diego Hidalgo-Mazzei, Antonio Vergari. (2023)  
-**Wearable data from subjects playing Super Mario, sitting university exams, or performing physical exercise help detect acute mood episodes via self-supervised learning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG, eess-SP  
-Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2311.04215v1)  
-
----
-
-
-**ABSTRACT**  
-Personal sensing, leveraging data passively and near-continuously collected with wearables from patients in their ecological environment, is a promising paradigm to monitor mood disorders (MDs), a major determinant of worldwide disease burden. However, collecting and annotating wearable data is very resource-intensive. Studies of this kind can thus typically afford to recruit only a couple dozens of patients. This constitutes one of the major obstacles to applying modern supervised machine learning techniques to MDs detection. In this paper, we overcome this data bottleneck and advance the detection of MDs acute episode vs stable state from wearables data on the back of recent advances in self-supervised learning (SSL). This leverages unlabelled data to learn representations during pre-training, subsequently exploited for a supervised task. First, we collected open-access datasets recording with an Empatica E4 spanning different, unrelated to MD monitoring, personal sensing tasks -- from emotion recognition in Super Mario players to stress detection in undergraduates -- and devised a pre-processing pipeline performing on-/off-body detection, sleep-wake detection, segmentation, and (optionally) feature extraction. With 161 E4-recorded subjects, we introduce E4SelfLearning, the largest to date open access collection, and its pre-processing pipeline. Second, we show that SSL confidently outperforms fully-supervised pipelines using either our novel E4-tailored Transformer architecture (E4mer) or classical baseline XGBoost: 81.23% against 75.35% (E4mer) and 72.02% (XGBoost) correctly classified recording segments from 64 (half acute, half stable) patients. Lastly, we illustrate that SSL performance is strongly associated with the specific surrogate task employed for pre-training as well as with unlabelled data availability.
-
-{{</citation>}}
-
-
-### (94/144) Spatio-Temporal Anomaly Detection with Graph Networks for Data Quality Monitoring of the Hadron Calorimeter (Mulugeta Weldezgina Asres et al., 2023)
-
-{{<citation>}}
-
-Mulugeta Weldezgina Asres, Christian Walter Omlin, Long Wang, David Yu, Pavel Parygin, Jay Dittmann, Georgia Karapostoli, Markus Seidel, Rosamaria Venditti, Luka Lambrecht, Emanuele Usai, Muhammad Ahmad, Javier Fernandez Menendez, Kaori Maeshima, the CMS-HCAL Collaboration. (2023)  
-**Spatio-Temporal Anomaly Detection with Graph Networks for Data Quality Monitoring of the Hadron Calorimeter**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keywords: Anomaly Detection  
-[Paper Link](http://arxiv.org/abs/2311.04190v1)  
-
----
-
-
-**ABSTRACT**  
-The compact muon solenoid (CMS) experiment is a general-purpose detector for high-energy collision at the large hadron collider (LHC) at CERN. It employs an online data quality monitoring (DQM) system to promptly spot and diagnose particle data acquisition problems to avoid data quality loss. In this study, we present semi-supervised spatio-temporal anomaly detection (AD) monitoring for the physics particle reading channels of the hadronic calorimeter (HCAL) of the CMS using three-dimensional digi-occupancy map data of the DQM. We propose the GraphSTAD system, which employs convolutional and graph neural networks to learn local spatial characteristics induced by particles traversing the detector, and global behavior owing to shared backend circuit connections and housing boxes of the channels, respectively. Recurrent neural networks capture the temporal evolution of the extracted spatial features. We have validated the accuracy of the proposed AD system in capturing diverse channel fault types using the LHC Run-2 collision data sets. The GraphSTAD system has achieved production-level accuracy and is being integrated into the CMS core production system--for real-time monitoring of the HCAL. We have also provided a quantitative performance comparison with alternative benchmark models to demonstrate the promising leverage of the presented system.
-
-{{</citation>}}
-
-
-### (95/144) Multi-resolution Time-Series Transformer for Long-term Forecasting (Yitian Zhang et al., 2023)
-
-{{<citation>}}
-
-Yitian Zhang, Liheng Ma, Soumyasundar Pal, Yingxue Zhang, Mark Coates. (2023)  
-**Multi-resolution Time-Series Transformer for Long-term Forecasting**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
-Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2311.04147v1)  
-
----
-
-
-**ABSTRACT**  
-The performance of transformers for time-series forecasting has improved significantly. Recent architectures learn complex temporal patterns by segmenting a time-series into patches and using the patches as tokens. The patch size controls the ability of transformers to learn the temporal patterns at different frequencies: shorter patches are effective for learning localized, high-frequency patterns, whereas mining long-term seasonalities and trends requires longer patches. Inspired by this observation, we propose a novel framework, Multi-resolution Time-Series Transformer (MTST), which consists of a multi-branch architecture for simultaneous modeling of diverse temporal patterns at different resolutions. In contrast to many existing time-series transformers, we employ relative positional encoding, which is better suited for extracting periodic components at different scales. Extensive experiments on several real-world datasets demonstrate the effectiveness of MTST in comparison to state-of-the-art forecasting techniques.
-
-{{</citation>}}
-
-
-### (96/144) Do Language Models Learn Semantics of Code? A Case Study in Vulnerability Detection (Benjamin Steenhoek et al., 2023)
-
-{{<citation>}}
-
-Benjamin Steenhoek, Md Mahbubur Rahman, Shaila Sharmin, Wei Le. (2023)  
-**Do Language Models Learn Semantics of Code? A Case Study in Vulnerability Detection**  
-
----
-Primary Category: cs.LG  
-Categories: cs-CR, cs-LG, cs.LG  
-Keywords: Language Model, Vulnerability Detection  
-[Paper Link](http://arxiv.org/abs/2311.04109v1)  
-
----
-
-
-**ABSTRACT**  
-Recently, pretrained language models have shown state-of-the-art performance on the vulnerability detection task. These models are pretrained on a large corpus of source code, then fine-tuned on a smaller supervised vulnerability dataset. Due to the different training objectives and the performance of the models, it is interesting to consider whether the models have learned the semantics of code relevant to vulnerability detection, namely bug semantics, and if so, how the alignment to bug semantics relates to model performance. In this paper, we analyze the models using three distinct methods: interpretability tools, attention analysis, and interaction matrix analysis. We compare the models' influential feature sets with the bug semantic features which define the causes of bugs, including buggy paths and Potentially Vulnerable Statements (PVS). We find that (1) better-performing models also aligned better with PVS, (2) the models failed to align strongly to PVS, and (3) the models failed to align at all to buggy paths. Based on our analysis, we developed two annotation methods which highlight the bug semantics inside the model's inputs. We evaluated our approach on four distinct transformer models and four vulnerability datasets and found that our annotations improved the models' performance in the majority of settings - 11 out of 16, with up to 9.57 points improvement in F1 score compared to conventional fine-tuning. We further found that with our annotations, the models aligned up to 232% better to potentially vulnerable statements. Our findings indicate that it is helpful to provide the model with information of the bug semantics, that the model can attend to it, and motivate future work in learning more complex path-based bug semantics. Our code and data are available at https://figshare.com/s/4a16a528d6874aad51a0.
-
-{{</citation>}}
-
-
-### (97/144) Time-Efficient Reinforcement Learning with Stochastic Stateful Policies (Firas Al-Hafez et al., 2023)
-
-{{<citation>}}
-
-Firas Al-Hafez, Guoping Zhao, Jan Peters, Davide Tateo. (2023)  
-**Time-Efficient Reinforcement Learning with Stochastic Stateful Policies**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
-Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2311.04082v1)  
-
----
-
-
-**ABSTRACT**  
-Stateful policies play an important role in reinforcement learning, such as handling partially observable environments, enhancing robustness, or imposing an inductive bias directly into the policy structure. The conventional method for training stateful policies is Backpropagation Through Time (BPTT), which comes with significant drawbacks, such as slow training due to sequential gradient propagation and the occurrence of vanishing or exploding gradients. The gradient is often truncated to address these issues, resulting in a biased policy update. We present a novel approach for training stateful policies by decomposing the latter into a stochastic internal state kernel and a stateless policy, jointly optimized by following the stateful policy gradient. We introduce different versions of the stateful policy gradient theorem, enabling us to easily instantiate stateful variants of popular reinforcement learning and imitation learning algorithms. Furthermore, we provide a theoretical analysis of our new gradient estimator and compare it with BPTT. We evaluate our approach on complex continuous control tasks, e.g., humanoid locomotion, and demonstrate that our gradient estimator scales effectively with task complexity while offering a faster and simpler alternative to BPTT.
-
-{{</citation>}}
-
-
-### (98/144) Multitask Multimodal Prompted Training for Interactive Embodied Task Completion (Georgios Pantazopoulos et al., 2023)
-
-{{<citation>}}
-
-Georgios Pantazopoulos, Malvina Nikandrou, Amit Parekh, Bhathiya Hemanthage, Arash Eshghi, Ioannis Konstas, Verena Rieser, Oliver Lemon, Alessandro Suglia. (2023)  
-**Multitask Multimodal Prompted Training for Interactive Embodied Task Completion**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-CV, cs-LG, cs.LG  
-Keywords: Dialog  
-[Paper Link](http://arxiv.org/abs/2311.04067v1)  
-
----
-
-
-**ABSTRACT**  
-Interactive and embodied tasks pose at least two fundamental challenges to existing Vision & Language (VL) models, including 1) grounding language in trajectories of actions and observations, and 2) referential disambiguation. To tackle these challenges, we propose an Embodied MultiModal Agent (EMMA): a unified encoder-decoder model that reasons over images and trajectories, and casts action prediction as multimodal text generation. By unifying all tasks as text generation, EMMA learns a language of actions which facilitates transfer across tasks. Different to previous modular approaches with independently trained components, we use a single multitask model where each task contributes to goal completion. EMMA performs on par with similar models on several VL benchmarks and sets a new state-of-the-art performance (36.81% success rate) on the Dialog-guided Task Completion (DTC), a benchmark to evaluate dialog-guided agents in the Alexa Arena
-
-{{</citation>}}
-
-
-### (99/144) Multi-View Causal Representation Learning with Partial Observability (Dingling Yao et al., 2023)
-
-{{<citation>}}
-
-Dingling Yao, Danru Xu, Sébastien Lachapelle, Sara Magliacane, Perouz Taslakian, Georg Martius, Julius von Kügelgen, Francesco Locatello. (2023)  
-**Multi-View Causal Representation Learning with Partial Observability**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keywords: Representation Learning  
-[Paper Link](http://arxiv.org/abs/2311.04056v1)  
-
----
-
-
-**ABSTRACT**  
-We present a unified framework for studying the identifiability of representations learned from simultaneously observed views, such as different data modalities. We allow a partially observed setting in which each view constitutes a nonlinear mixture of a subset of underlying latent variables, which can be causally related. We prove that the information shared across all subsets of any number of views can be learned up to a smooth bijection using contrastive learning and a single encoder per view. We also provide graphical criteria indicating which latent variables can be identified through a simple set of rules, which we refer to as identifiability algebra. Our general framework and theoretical results unify and extend several previous works on multi-view nonlinear ICA, disentanglement, and causal representation learning. We experimentally validate our claims on numerical, image, and multi-modal data sets. Further, we demonstrate that the performance of prior methods is recovered in different special cases of our setup. Overall, we find that access to multiple partial views enables us to identify a more fine-grained representation, under the generally milder assumption of partial observability.
-
-{{</citation>}}
-
-
-### (100/144) Generative Structural Design Integrating BIM and Diffusion Model (Zhili He et al., 2023)
-
-{{<citation>}}
-
-Zhili He, Yu-Hsing Wang, Jian Zhang. (2023)  
-**Generative Structural Design Integrating BIM and Diffusion Model**  
-
----
-Primary Category: cs.LG  
-Categories: cs-CV, cs-LG, cs.LG  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2311.04052v1)  
-
----
-
-
-**ABSTRACT**  
-Intelligent structural design using AI can effectively reduce time overhead and increase efficiency. It has potential to become the new design paradigm in the future to assist and even replace engineers, and so it has become a research hotspot in the academic community. However, current methods have some limitations to be addressed, whether in terms of application scope, visual quality of generated results, or evaluation metrics of results. This study proposes a comprehensive solution. Firstly, we introduce building information modeling (BIM) into intelligent structural design and establishes a structural design pipeline integrating BIM and generative AI, which is a powerful supplement to the previous frameworks that only considered CAD drawings. In order to improve the perceptual quality and details of generations, this study makes 3 contributions. Firstly, in terms of generation framework, inspired by the process of human drawing, a novel 2-stage generation framework is proposed to replace the traditional end-to-end framework to reduce the generation difficulty for AI models. Secondly, in terms of generative AI tools adopted, diffusion models (DMs) are introduced to replace widely used generative adversarial network (GAN)-based models, and a novel physics-based conditional diffusion model (PCDM) is proposed to consider different design prerequisites. Thirdly, in terms of neural networks, an attention block (AB) consisting of a self-attention block (SAB) and a parallel cross-attention block (PCAB) is designed to facilitate cross-domain data fusion. The quantitative and qualitative results demonstrate the powerful generation and representation capabilities of PCDM. Necessary ablation studies are conducted to examine the validity of the methods. This study also shows that DMs have the potential to replace GANs and become the new benchmark for generative problems in civil engineering.
-
-{{</citation>}}
-
-
-### (101/144) Reinforcement Learning Fine-tuning of Language Models is Biased Towards More Extractable Features (Diogo Cruz et al., 2023)
-
-{{<citation>}}
-
-Diogo Cruz, Edoardo Pona, Alex Holness-Tofts, Elias Schmied, Víctor Abia Alonso, Charlie Griffin, Bogdan-Ionut Cirstea. (2023)  
-**Reinforcement Learning Fine-tuning of Language Models is Biased Towards More Extractable Features**  
-
----
-Primary Category: cs.LG  
-Categories: cs-CL, cs-LG, cs.LG  
-Keywords: AI, Bias, Language Model, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2311.04046v1)  
-
----
-
-
-**ABSTRACT**  
-Many capable large language models (LLMs) are developed via self-supervised pre-training followed by a reinforcement-learning fine-tuning phase, often based on human or AI feedback. During this stage, models may be guided by their inductive biases to rely on simpler features which may be easier to extract, at a cost to robustness and generalisation. We investigate whether principles governing inductive biases in the supervised fine-tuning of LLMs also apply when the fine-tuning process uses reinforcement learning. Following Lovering et al (2021), we test two hypotheses: that features more $\textit{extractable}$ after pre-training are more likely to be utilised by the final policy, and that the evidence for/against a feature predicts whether it will be utilised. Through controlled experiments on synthetic and natural language tasks, we find statistically significant correlations which constitute strong evidence for these hypotheses.
-
-{{</citation>}}
-
-
-### (102/144) Impact of HPO on AutoML Forecasting Ensembles (David Hoffmann, 2023)
-
-{{<citation>}}
-
-David Hoffmann. (2023)  
-**Impact of HPO on AutoML Forecasting Ensembles**  
-
----
-Primary Category: cs.LG  
-Categories: I-2-6; I-2-2, cs-AI, cs-LG, cs.LG  
-Keywords: Amazon  
-[Paper Link](http://arxiv.org/abs/2311.04034v1)  
-
----
-
-
-**ABSTRACT**  
-A forecasting ensemble consisting of a diverse range of estimators for both local and global univariate forecasting, in particular MQ-CNN,DeepAR, Prophet, NPTS, ARIMA and ETS, can be used to make forecasts for a variety of problems. This paper delves into the aspect of adding different hyperparameter optimization strategies to the deep learning models in such a setup (DeepAR and MQ-CNN), exploring the trade-off between added training cost and the increase in accuracy for different configurations. It shows that in such a setup, adding hyperparameter optimization can lead to performance improvements, with the final setup having a 9.9 % percent accuracy improvement with respect to the avg-wQL over the baseline ensemble without HPO, accompanied by a 65.8 % increase in end-to-end ensemble latency. This improvement is based on an empirical analysis of combining the ensemble pipeline with different tuning strategies, namely Bayesian Optimisation and Hyperband and different configurations of those strategies. In the final configuration, the proposed combination of ensemble learning and HPO outperforms the state of the art commercial AutoML forecasting solution, Amazon Forecast, with a 3.5 % lower error and 16.0 % lower end-to-end ensemble latency.
-
-{{</citation>}}
-
-
-### (103/144) AGNES: Abstraction-guided Framework for Deep Neural Networks Security (Akshay Dhonthi et al., 2023)
-
-{{<citation>}}
-
-Akshay Dhonthi, Marcello Eiermann, Ernst Moritz Hahn, Vahid Hashemi. (2023)  
-**AGNES: Abstraction-guided Framework for Deep Neural Networks Security**  
-
----
-Primary Category: cs.LG  
-Categories: cs-CR, cs-CV, cs-LG, cs.LG  
-Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2311.04009v1)  
-
----
-
-
-**ABSTRACT**  
-Deep Neural Networks (DNNs) are becoming widespread, particularly in safety-critical areas. One prominent application is image recognition in autonomous driving, where the correct classification of objects, such as traffic signs, is essential for safe driving. Unfortunately, DNNs are prone to backdoors, meaning that they concentrate on attributes of the image that should be irrelevant for their correct classification. Backdoors are integrated into a DNN during training, either with malicious intent (such as a manipulated training process, because of which a yellow sticker always leads to a traffic sign being recognised as a stop sign) or unintentional (such as a rural background leading to any traffic sign being recognised as animal crossing, because of biased training data).   In this paper, we introduce AGNES, a tool to detect backdoors in DNNs for image recognition. We discuss the principle approach on which AGNES is based. Afterwards, we show that our tool performs better than many state-of-the-art methods for multiple relevant case studies.
-
-{{</citation>}}
-
-
-### (104/144) The Energy Prediction Smart-Meter Dataset: Analysis of Previous Competitions and Beyond (Direnc Pekaslan et al., 2023)
-
-{{<citation>}}
-
-Direnc Pekaslan, Jose Maria Alonso-Moral, Kasun Bandara, Christoph Bergmeir, Juan Bernabe-Moreno, Robert Eigenmann, Nils Einecke, Selvi Ergen, Rakshitha Godahewa, Hansika Hewamalage, Jesus Lago, Steffen Limmer, Sven Rebhan, Boris Rabinovich, Dilini Rajapasksha, Heda Song, Christian Wagner, Wenlong Wu, Luis Magdalena, Isaac Triguero. (2023)  
-**The Energy Prediction Smart-Meter Dataset: Analysis of Previous Competitions and Beyond**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2311.04007v1)  
-
----
-
-
-**ABSTRACT**  
-This paper presents the real-world smart-meter dataset and offers an analysis of solutions derived from the Energy Prediction Technical Challenges, focusing primarily on two key competitions: the IEEE Computational Intelligence Society (IEEE-CIS) Technical Challenge on Energy Prediction from Smart Meter data in 2020 (named EP) and its follow-up challenge at the IEEE International Conference on Fuzzy Systems (FUZZ-IEEE) in 2021 (named as XEP). These competitions focus on accurate energy consumption forecasting and the importance of interpretability in understanding the underlying factors. The challenge aims to predict monthly and yearly estimated consumption for households, addressing the accurate billing problem with limited historical smart meter data. The dataset comprises 3,248 smart meters, with varying data availability ranging from a minimum of one month to a year. This paper delves into the challenges, solutions and analysing issues related to the provided real-world smart meter data, developing accurate predictions at the household level, and introducing evaluation criteria for assessing interpretability. Additionally, this paper discusses aspects beyond the competitions: opportunities for energy disaggregation and pattern detection applications at the household level, significance of communicating energy-driven factors for optimised billing, and emphasising the importance of responsible AI and data privacy considerations. These aspects provide insights into the broader implications and potential advancements in energy consumption prediction. Overall, these competitions provide a dataset for residential energy research and serve as a catalyst for exploring accurate forecasting, enhancing interpretability, and driving progress towards the discussion of various aspects such as energy disaggregation, demand response programs or behavioural interventions.
-
-{{</citation>}}
-
-
-### (105/144) Its All Graph To Me: Foundational Topology Models with Contrastive Learning on Multiple Domains (Alex O. Davies et al., 2023)
-
-{{<citation>}}
-
-Alex O. Davies, Riku W. Green, Nirav S. Ajmeri, Telmo M. Silva Filho. (2023)  
-**Its All Graph To Me: Foundational Topology Models with Contrastive Learning on Multiple Domains**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keywords: Contrastive Learning  
-[Paper Link](http://arxiv.org/abs/2311.03976v1)  
-
----
-
-
-**ABSTRACT**  
-Representations and embeddings of graph data have been essential in many domains of research.   The principle benefit of learning such representations is that the pre-trained model can be fine-tuned on smaller datasets where data or labels are scarse.   Existing models, however, are domain specific; for example a model trained on molecular graphs is fine-tuned on other molecular graphs.   This means that in many application cases the choice of pre-trained model can be arbitrary, and novel domains may lack an appropriate pre-trained model.   This is of particular issue where data is scarse, precluding traditional supervised methods.   In this work we use adversarial contrastive learning to present a \method, a model pre-trained on many graph domains.   We train the model only on topologies but include node labels in evaluation.   We evaluate the efficacy of its learnt representations on various downstream tasks.   Against baseline models pre-trained on single domains, as well as un-trained models and non-transferred models, we show that performance is equal or better using our single model.   This includes when node labels are used in evaluation, where performance is consistently superior to single-domain or non-pre-trained models.
-
-{{</citation>}}
-
-
-### (106/144) MixtureGrowth: Growing Neural Networks by Recombining Learned Parameters (Chau Pham et al., 2023)
-
-{{<citation>}}
-
-Chau Pham, Piotr Teterwak, Soren Nelson, Bryan A. Plummer. (2023)  
-**MixtureGrowth: Growing Neural Networks by Recombining Learned Parameters**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-CV, cs-LG, cs.LG  
-Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2311.04251v1)  
-
----
-
-
-**ABSTRACT**  
-Most deep neural networks are trained under fixed network architectures and require retraining when the architecture changes. If expanding the network's size is needed, it is necessary to retrain from scratch, which is expensive. To avoid this, one can grow from a small network by adding random weights over time to gradually achieve the target network size. However, this naive approach falls short in practice as it brings too much noise to the growing process. Prior work tackled this issue by leveraging the already learned weights and training data for generating new weights through conducting a computationally expensive analysis step. In this paper, we introduce MixtureGrowth, a new approach to growing networks that circumvents the initialization overhead in prior work. Before growing, each layer in our model is generated with a linear combination of parameter templates. Newly grown layer weights are generated by using a new linear combination of existing templates for a layer. On one hand, these templates are already trained for the task, providing a strong initialization. On the other, the new coefficients provide flexibility for the added layer weights to learn something new. We show that our approach boosts top-1 accuracy over the state-of-the-art by 2-2.5% on CIFAR-100 and ImageNet datasets, while achieving comparable performance with fewer FLOPs to a larger network trained from scratch. Code is available at https://github.com/chaudatascience/mixturegrowth.
-
-{{</citation>}}
-
-
-### (107/144) Temporal Graph Representation Learning with Adaptive Augmentation Contrastive (Hongjiang Chen et al., 2023)
-
-{{<citation>}}
-
-Hongjiang Chen, Pengfei Jiao, Huijun Tang, Huaming Wu. (2023)  
-**Temporal Graph Representation Learning with Adaptive Augmentation Contrastive**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keywords: Augmentation, Representation Learning  
-[Paper Link](http://arxiv.org/abs/2311.03897v1)  
-
----
-
-
-**ABSTRACT**  
-Temporal graph representation learning aims to generate low-dimensional dynamic node embeddings to capture temporal information as well as structural and property information. Current representation learning methods for temporal networks often focus on capturing fine-grained information, which may lead to the model capturing random noise instead of essential semantic information. While graph contrastive learning has shown promise in dealing with noise, it only applies to static graphs or snapshots and may not be suitable for handling time-dependent noise. To alleviate the above challenge, we propose a novel Temporal Graph representation learning with Adaptive augmentation Contrastive (TGAC) model. The adaptive augmentation on the temporal graph is made by combining prior knowledge with temporal information, and the contrastive objective function is constructed by defining the augmented inter-view contrast and intra-view contrast. To complement TGAC, we propose three adaptive augmentation strategies that modify topological features to reduce noise from the network. Our extensive experiments on various real networks demonstrate that the proposed model outperforms other temporal graph representation learning methods.
-
-{{</citation>}}
-
-
-### (108/144) PT-Tuning: Bridging the Gap between Time Series Masked Reconstruction and Forecasting via Prompt Token Tuning (Hao Liu et al., 2023)
-
-{{<citation>}}
-
-Hao Liu, Jinrui Gan, Xiaoxuan Fan, Yi Zhang, Chuanxian Luo, Jing Zhang, Guangxin Jiang, Yucheng Qian, Changwei Zhao, Huan Ma, Zhenyu Guo. (2023)  
-**PT-Tuning: Bridging the Gap between Time Series Masked Reconstruction and Forecasting via Prompt Token Tuning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keywords: Time Series  
-[Paper Link](http://arxiv.org/abs/2311.03768v1)  
-
----
-
-
-**ABSTRACT**  
-Self-supervised learning has been actively studied in time series domain recently, especially for masked reconstruction. Most of these methods follow the "Pre-training + Fine-tuning" paradigm in which a new decoder replaces the pre-trained decoder to fit for a specific downstream task, leading to inconsistency of upstream and downstream tasks. In this paper, we first point out that the unification of task objectives and adaptation for task difficulty are critical for bridging the gap between time series masked reconstruction and forecasting. By reserving the pre-trained mask token during fine-tuning stage, the forecasting task can be taken as a special case of masked reconstruction, where the future values are masked and reconstructed based on history values. It guarantees the consistency of task objectives but there is still a gap in task difficulty. Because masked reconstruction can utilize contextual information while forecasting can only use historical information to reconstruct. To further mitigate the existed gap, we propose a simple yet effective prompt token tuning (PT-Tuning) paradigm, in which all pre-trained parameters are frozen and only a few trainable prompt tokens are added to extended mask tokens in element-wise manner. Extensive experiments on real-world datasets demonstrate the superiority of our proposed paradigm with state-of-the-art performance compared to representation learning and end-to-end supervised forecasting methods.
-
-{{</citation>}}
-
-
-### (109/144) Neuro-GPT: Developing A Foundation Model for EEG (Wenhui Cui et al., 2023)
-
-{{<citation>}}
-
-Wenhui Cui, Woojae Jeong, Philipp Thölke, Takfarinas Medani, Karim Jerbi, Anand A. Joshi, Richard M. Leahy. (2023)  
-**Neuro-GPT: Developing A Foundation Model for EEG**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG, eess-SP  
-Keywords: GPT  
-[Paper Link](http://arxiv.org/abs/2311.03764v1)  
-
----
-
-
-**ABSTRACT**  
-To handle the scarcity and heterogeneity of electroencephalography (EEG) data in Brain-Computer Interface (BCI) tasks, and to harness the vast public data, we propose Neuro-GPT, a foundation model consisting of an EEG encoder and a GPT model. The foundation model is pre-trained on a large-scale public EEG dataset, using a self-supervised task which learns how to reconstruct the masked chunk in EEG. We then fine-tune the foundation model on a Motor Imagery Classification task where only 9 subjects are available. Experiments demonstrated that applying foundation model can significantly improve classification performance compared to the model trained from scratch, which provides evidence for the advanced generalizability of foundation model and the ability to address the challenges of data scarcity and heterogeneity.
-
-{{</citation>}}
-
-
-### (110/144) Learning Decentralized Traffic Signal Controllers with Multi-Agent Graph Reinforcement Learning (Yao Zhang et al., 2023)
-
-{{<citation>}}
-
-Yao Zhang, Zhiwen Yu, Jun Zhang, Liang Wang, Tom H. Luan, Bin Guo, Chau Yuen. (2023)  
-**Learning Decentralized Traffic Signal Controllers with Multi-Agent Graph Reinforcement Learning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs-SY, cs.LG, eess-SY  
-Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2311.03756v1)  
-
----
-
-
-**ABSTRACT**  
-This paper considers optimal traffic signal control in smart cities, which has been taken as a complex networked system control problem. Given the interacting dynamics among traffic lights and road networks, attaining controller adaptivity and scalability stands out as a primary challenge. Capturing the spatial-temporal correlation among traffic lights under the framework of Multi-Agent Reinforcement Learning (MARL) is a promising solution. Nevertheless, existing MARL algorithms ignore effective information aggregation which is fundamental for improving the learning capacity of decentralized agents. In this paper, we design a new decentralized control architecture with improved environmental observability to capture the spatial-temporal correlation. Specifically, we first develop a topology-aware information aggregation strategy to extract correlation-related information from unstructured data gathered in the road network. Particularly, we transfer the road network topology into a graph shift operator by forming a diffusion process on the topology, which subsequently facilitates the construction of graph signals. A diffusion convolution module is developed, forming a new MARL algorithm, which endows agents with the capabilities of graph learning. Extensive experiments based on both synthetic and real-world datasets verify that our proposal outperforms existing decentralized algorithms.
-
-{{</citation>}}
-
-
-### (111/144) Analysis and Applications of Deep Learning with Finite Samples in Full Life-Cycle Intelligence of Nuclear Power Generation (Chenwei Tang et al., 2023)
-
-{{<citation>}}
-
-Chenwei Tang, Wenqiang Zhou, Dong Wang, Caiyang Yu, Zhenan He, Jizhe Zhou, Shudong Huang, Yi Gao, Jianming Chen, Wentao Feng, Jiancheng Lv. (2023)  
-**Analysis and Applications of Deep Learning with Finite Samples in Full Life-Cycle Intelligence of Nuclear Power Generation**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2311.04247v1)  
-
----
-
-
-**ABSTRACT**  
-The advent of Industry 4.0 has precipitated the incorporation of Artificial Intelligence (AI) methods within industrial contexts, aiming to realize intelligent manufacturing, operation as well as maintenance, also known as industrial intelligence. However, intricate industrial milieus, particularly those relating to energy exploration and production, frequently encompass data characterized by long-tailed class distribution, sample imbalance, and domain shift. These attributes pose noteworthy challenges to data-centric Deep Learning (DL) techniques, crucial for the realization of industrial intelligence. The present study centers on the intricate and distinctive industrial scenarios of Nuclear Power Generation (NPG), meticulously scrutinizing the application of DL techniques under the constraints of finite data samples. Initially, the paper expounds on potential employment scenarios for AI across the full life-cycle of NPG. Subsequently, we delve into an evaluative exposition of DL's advancement, grounded in the finite sample perspective. This encompasses aspects such as small-sample learning, few-shot learning, zero-shot learning, and open-set recognition, also referring to the unique data characteristics of NPG. The paper then proceeds to present two specific case studies. The first revolves around the automatic recognition of zirconium alloy metallography, while the second pertains to open-set recognition for signal diagnosis of machinery sensors. These cases, spanning the entirety of NPG's life-cycle, are accompanied by constructive outcomes and insightful deliberations. By exploring and applying DL methodologies within the constraints of finite sample availability, this paper not only furnishes a robust technical foundation but also introduces a fresh perspective toward the secure and efficient advancement and exploitation of this advanced energy source.
-
-{{</citation>}}
-
-
-### (112/144) Learning to Learn for Few-shot Continual Active Learning (Stella Ho et al., 2023)
-
-{{<citation>}}
-
-Stella Ho, Ming Liu, Shang Gao, Longxiang Gao. (2023)  
-**Learning to Learn for Few-shot Continual Active Learning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-CL, cs-LG, cs.LG  
-Keywords: Active Learning, NLP  
-[Paper Link](http://arxiv.org/abs/2311.03732v1)  
-
----
-
-
-**ABSTRACT**  
-Continual learning strives to ensure stability in solving previously seen tasks while demonstrating plasticity in a novel domain. Recent advances in CL are mostly confined to a supervised learning setting, especially in NLP domain. In this work, we consider a few-shot continual active learning (CAL) setting where labeled data is inadequate, and unlabeled data is abundant but with a limited annotation budget. We propose a simple but efficient method, called Meta-Continual Active Learning. Specifically, we employ meta-learning and experience replay to address the trade-off between stability and plasticity. As a result, it finds an optimal initialization that efficiently utilizes annotated information for fast adaptation while preventing catastrophic forgetting of past tasks. We conduct extensive experiments to validate the effectiveness of the proposed method and analyze the effect of various active learning strategies and memory sample selection methods in a few-shot CAL setup. Our experiment results demonstrate that random sampling is the best default strategy for both active learning and memory sample selection to solve few-shot CAL problems.
-
-{{</citation>}}
-
-
-### (113/144) Mitigating Estimation Errors by Twin TD-Regularized Actor and Critic for Deep Reinforcement Learning (Junmin Zhong et al., 2023)
-
-{{<citation>}}
-
-Junmin Zhong, Ruofan Wu, Jennie Si. (2023)  
-**Mitigating Estimation Errors by Twin TD-Regularized Actor and Critic for Deep Reinforcement Learning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2311.03711v1)  
-
----
-
-
-**ABSTRACT**  
-We address the issue of estimation bias in deep reinforcement learning (DRL) by introducing solution mechanisms that include a new, twin TD-regularized actor-critic (TDR) method. It aims at reducing both over and under-estimation errors. With TDR and by combining good DRL improvements, such as distributional learning and long N-step surrogate stage reward (LNSS) method, we show that our new TDR-based actor-critic learning has enabled DRL methods to outperform their respective baselines in challenging environments in DeepMind Control Suite. Furthermore, they elevate TD3 and SAC respectively to a level of performance comparable to that of D4PG (the current SOTA), and they also improve the performance of D4PG to a new SOTA level measured by mean reward, convergence speed, learning success rate, and learning variance.
-
-{{</citation>}}
-
-
-### (114/144) A Novel Variational Lower Bound for Inverse Reinforcement Learning (Yikang Gui et al., 2023)
-
-{{<citation>}}
-
-Yikang Gui, Prashant Doshi. (2023)  
-**A Novel Variational Lower Bound for Inverse Reinforcement Learning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs-RO, cs.LG  
-Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2311.03698v1)  
-
----
-
-
-**ABSTRACT**  
-Inverse reinforcement learning (IRL) seeks to learn the reward function from expert trajectories, to understand the task for imitation or collaboration thereby removing the need for manual reward engineering. However, IRL in the context of large, high-dimensional problems with unknown dynamics has been particularly challenging. In this paper, we present a new Variational Lower Bound for IRL (VLB-IRL), which is derived under the framework of a probabilistic graphical model with an optimality node. Our method simultaneously learns the reward function and policy under the learned reward function by maximizing the lower bound, which is equivalent to minimizing the reverse Kullback-Leibler divergence between an approximated distribution of optimality given the reward function and the true distribution of optimality given trajectories. This leads to a new IRL method that learns a valid reward function such that the policy under the learned reward achieves expert-level performance on several known domains. Importantly, the method outperforms the existing state-of-the-art IRL algorithms on these domains by demonstrating better reward from the learned policy.
-
-{{</citation>}}
-
-
-### (115/144) Context Shift Reduction for Offline Meta-Reinforcement Learning (Yunkai Gao et al., 2023)
-
-{{<citation>}}
-
-Yunkai Gao, Rui Zhang, Jiaming Guo, Fan Wu, Qi Yi, Shaohui Peng, Siming Lan, Ruizhi Chen, Zidong Du, Xing Hu, Qi Guo, Ling Li, Yunji Chen. (2023)  
-**Context Shift Reduction for Offline Meta-Reinforcement Learning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2311.03695v1)  
-
----
-
-
-**ABSTRACT**  
-Offline meta-reinforcement learning (OMRL) utilizes pre-collected offline datasets to enhance the agent's generalization ability on unseen tasks. However, the context shift problem arises due to the distribution discrepancy between the contexts used for training (from the behavior policy) and testing (from the exploration policy). The context shift problem leads to incorrect task inference and further deteriorates the generalization ability of the meta-policy. Existing OMRL methods either overlook this problem or attempt to mitigate it with additional information. In this paper, we propose a novel approach called Context Shift Reduction for OMRL (CSRO) to address the context shift problem with only offline datasets. The key insight of CSRO is to minimize the influence of policy in context during both the meta-training and meta-test phases. During meta-training, we design a max-min mutual information representation learning mechanism to diminish the impact of the behavior policy on task representation. In the meta-test phase, we introduce the non-prior context collection strategy to reduce the effect of the exploration policy. Experimental results demonstrate that CSRO significantly reduces the context shift and improves the generalization ability, surpassing previous methods across various challenging domains.
-
-{{</citation>}}
-
-
-### (116/144) Stable Modular Control via Contraction Theory for Reinforcement Learning (Bing Song et al., 2023)
-
-{{<citation>}}
-
-Bing Song, Jean-Jacques Slotine, Quang-Cuong Pham. (2023)  
-**Stable Modular Control via Contraction Theory for Reinforcement Learning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs-SY, cs.LG, eess-SY  
-Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2311.03669v1)  
-
----
-
-
-**ABSTRACT**  
-We propose a novel way to integrate control techniques with reinforcement learning (RL) for stability, robustness, and generalization: leveraging contraction theory to realize modularity in neural control, which ensures that combining stable subsystems can automatically preserve the stability. We realize such modularity via signal composition and dynamic decomposition. Signal composition creates the latent space, within which RL applies to maximizing rewards. Dynamic decomposition is realized by coordinate transformation that creates an auxiliary space, within which the latent signals are coupled in the way that their combination can preserve stability provided each signal, that is, each subsystem, has stable self-feedbacks. Leveraging modularity, the nonlinear stability problem is deconstructed into algebraically solvable ones, the stability of the subsystems in the auxiliary space, yielding linear constraints on the input gradients of control networks that can be as simple as switching the signs of network weights. This minimally invasive method for stability allows arguably easy integration into the modular neural architectures in machine learning, like hierarchical RL, and improves their performance. We demonstrate in simulation the necessity and the effectiveness of our method: the necessity for robustness and generalization, and the effectiveness in improving hierarchical RL for manipulation learning.
-
-{{</citation>}}
-
-
-### (117/144) GPT-ST: Generative Pre-Training of Spatio-Temporal Graph Neural Networks (Zhonghang Li et al., 2023)
-
-{{<citation>}}
-
-Zhonghang Li, Lianghao Xia, Yong Xu, Chao Huang. (2023)  
-**GPT-ST: Generative Pre-Training of Spatio-Temporal Graph Neural Networks**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-CY, cs-LG, cs.LG  
-Keywords: GPT, Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2311.04245v1)  
-
----
-
-
-**ABSTRACT**  
-In recent years, there has been a rapid development of spatio-temporal prediction techniques in response to the increasing demands of traffic management and travel planning. While advanced end-to-end models have achieved notable success in improving predictive performance, their integration and expansion pose significant challenges. This work aims to address these challenges by introducing a spatio-temporal pre-training framework that seamlessly integrates with downstream baselines and enhances their performance. The framework is built upon two key designs: (i) We propose a spatio-temporal mask autoencoder as a pre-training model for learning spatio-temporal dependencies. The model incorporates customized parameter learners and hierarchical spatial pattern encoding networks. These modules are specifically designed to capture spatio-temporal customized representations and intra- and inter-cluster region semantic relationships, which have often been neglected in existing approaches. (ii) We introduce an adaptive mask strategy as part of the pre-training mechanism. This strategy guides the mask autoencoder in learning robust spatio-temporal representations and facilitates the modeling of different relationships, ranging from intra-cluster to inter-cluster, in an easy-to-hard training manner. Extensive experiments conducted on representative benchmarks demonstrate the effectiveness of our proposed method. We have made our model implementation publicly available at https://github.com/HKUDS/GPT-ST.
-
-{{</citation>}}
-
-
-### (118/144) SeRO: Self-Supervised Reinforcement Learning for Recovery from Out-of-Distribution Situations (Chan Kim et al., 2023)
-
-{{<citation>}}
-
-Chan Kim, Jaekyung Cho, Christophe Bobda, Seung-Woo Seo, Seong-Woo Kim. (2023)  
-**SeRO: Self-Supervised Reinforcement Learning for Recovery from Out-of-Distribution Situations**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs-RO, cs.LG  
-Keywords: Reinforcement Learning, Self-Supervised  
-[Paper Link](http://arxiv.org/abs/2311.03651v1)  
-
----
-
-
-**ABSTRACT**  
-Robotic agents trained using reinforcement learning have the problem of taking unreliable actions in an out-of-distribution (OOD) state. Agents can easily become OOD in real-world environments because it is almost impossible for them to visit and learn the entire state space during training. Unfortunately, unreliable actions do not ensure that agents perform their original tasks successfully. Therefore, agents should be able to recognize whether they are in OOD states and learn how to return to the learned state distribution rather than continue to take unreliable actions. In this study, we propose a novel method for retraining agents to recover from OOD situations in a self-supervised manner when they fall into OOD states. Our in-depth experimental results demonstrate that our method substantially improves the agent's ability to recover from OOD situations in terms of sample efficiency and restoration of the performance for the original tasks. Moreover, we show that our method can retrain the agent to recover from OOD situations even when in-distribution states are difficult to visit through exploration.
-
-{{</citation>}}
-
-
-### (119/144) HKTGNN: Hierarchical Knowledge Transferable Graph Neural Network-based Supply Chain Risk Assessment (Zhanting Zhou et al., 2023)
-
-{{<citation>}}
-
-Zhanting Zhou, Kejun Bi, Yuyanzhen Zhong, Chao Tang, Dongfen Li, Shi Ying, Ruijin Wang. (2023)  
-**HKTGNN: Hierarchical Knowledge Transferable Graph Neural Network-based Supply Chain Risk Assessment**  
-
----
-Primary Category: cs.LG  
-Categories: I-2-4, cs-AI, cs-LG, cs.LG  
-Keywords: GNN, Graph Neural Network  
-[Paper Link](http://arxiv.org/abs/2311.04244v1)  
-
----
-
-
-**ABSTRACT**  
-The strength of a supply chain is an important measure of a country's or region's technical advancement and overall competitiveness. Establishing supply chain risk assessment models for effective management and mitigation of potential risks has become increasingly crucial. As the number of businesses grows, the important relationships become more complicated and difficult to measure. This emphasizes the need of extracting relevant information from graph data. Previously, academics mostly employed knowledge inference to increase the visibility of links between nodes in the supply chain. However, they have not solved the data hunger problem of single node feature characteristics. We propose a hierarchical knowledge transferable graph neural network-based (HKTGNN) supply chain risk assessment model to address these issues. Our approach is based on current graph embedding methods for assessing corporate investment risk assessment. We embed the supply chain network corresponding to individual goods in the supply chain using the graph embedding module, resulting in a directed homogeneous graph with just product nodes. This reduces the complicated supply chain network into a basic product network. It addresses difficulties using the domain difference knowledge transferable module based on centrality, which is presented by the premise that supply chain feature characteristics may be biased in the actual world. Meanwhile, the feature complement and message passing will alleviate the data hunger problem, which is driven by domain differences. Our model outperforms in experiments on a real-world supply chain dataset. We will give an equation to prove that our comparative experiment is both effective and fair.
-
-{{</citation>}}
-
-
-### (120/144) Counterfactual Data Augmentation with Contrastive Learning (Ahmed Aloui et al., 2023)
-
-{{<citation>}}
-
-Ahmed Aloui, Juncheng Dong, Cat P. Le, Vahid Tarokh. (2023)  
-**Counterfactual Data Augmentation with Contrastive Learning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG, stat-ME, stat-ML  
-Keywords: Augmentation, Contrastive Learning  
-[Paper Link](http://arxiv.org/abs/2311.03630v1)  
-
----
-
-
-**ABSTRACT**  
-Statistical disparity between distinct treatment groups is one of the most significant challenges for estimating Conditional Average Treatment Effects (CATE). To address this, we introduce a model-agnostic data augmentation method that imputes the counterfactual outcomes for a selected subset of individuals. Specifically, we utilize contrastive learning to learn a representation space and a similarity measure such that in the learned representation space close individuals identified by the learned similarity measure have similar potential outcomes. This property ensures reliable imputation of counterfactual outcomes for the individuals with close neighbors from the alternative treatment group. By augmenting the original dataset with these reliable imputations, we can effectively reduce the discrepancy between different treatment groups, while inducing minimal imputation error. The augmented dataset is subsequently employed to train CATE estimation models. Theoretical analysis and experimental studies on synthetic and semi-synthetic benchmarks demonstrate that our method achieves significant improvements in both performance and robustness to overfitting across state-of-the-art models.
-
-{{</citation>}}
-
-
 ## cs.IR (3)
 
 
 
-### (121/144) Exploring Recommendation Capabilities of GPT-4V(ision): A Preliminary Case Study (Peilin Zhou et al., 2023)
+### (125/148) Exploring Recommendation Capabilities of GPT-4V(ision): A Preliminary Case Study (Peilin Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -2741,7 +2829,7 @@ Large Multimodal Models (LMMs) have demonstrated impressive performance across v
 {{</citation>}}
 
 
-### (122/144) OLaLa: Ontology Matching with Large Language Models (Sven Hertling et al., 2023)
+### (126/148) OLaLa: Ontology Matching with Large Language Models (Sven Hertling et al., 2023)
 
 {{<citation>}}
 
@@ -2763,7 +2851,7 @@ Ontology (and more generally: Knowledge Graph) Matching is a challenging task wh
 {{</citation>}}
 
 
-### (123/144) Large Language Model based Long-tail Query Rewriting in Taobao Search (Wenjun Peng et al., 2023)
+### (127/148) Large Language Model based Long-tail Query Rewriting in Taobao Search (Wenjun Peng et al., 2023)
 
 {{<citation>}}
 
@@ -2789,7 +2877,7 @@ In the realm of e-commerce search, the significance of semantic matching cannot 
 
 
 
-### (124/144) Quantization-aware Neural Architectural Search for Intrusion Detection (Rabin Yu Acharya et al., 2023)
+### (128/148) Quantization-aware Neural Architectural Search for Intrusion Detection (Rabin Yu Acharya et al., 2023)
 
 {{<citation>}}
 
@@ -2811,7 +2899,7 @@ Deploying machine learning-based intrusion detection systems (IDSs) on hardware 
 {{</citation>}}
 
 
-### (125/144) IC-SECURE: Intelligent System for Assisting Security Experts in Generating Playbooks for Automated Incident Response (Ryuta Kremer et al., 2023)
+### (129/148) IC-SECURE: Intelligent System for Assisting Security Experts in Generating Playbooks for Automated Incident Response (Ryuta Kremer et al., 2023)
 
 {{<citation>}}
 
@@ -2833,7 +2921,7 @@ Security orchestration, automation, and response (SOAR) systems ingest alerts fr
 {{</citation>}}
 
 
-### (126/144) SoK: Security Below the OS -- A Security Analysis of UEFI (Priyanka Prakash Surve et al., 2023)
+### (130/148) SoK: Security Below the OS -- A Security Analysis of UEFI (Priyanka Prakash Surve et al., 2023)
 
 {{<citation>}}
 
@@ -2859,7 +2947,7 @@ The Unified Extensible Firmware Interface (UEFI) is a linchpin of modern computi
 
 
 
-### (127/144) Formulating and Heuristic Solving of Contact Problems in Hybrid Data-Driven Computational Mechanics (Cristian Guillermo Gebhardt et al., 2023)
+### (131/148) Formulating and Heuristic Solving of Contact Problems in Hybrid Data-Driven Computational Mechanics (Cristian Guillermo Gebhardt et al., 2023)
 
 {{<citation>}}
 
@@ -2885,7 +2973,7 @@ In this work we consider the hybrid Data-Driven Computational Mechanics (DDCM) a
 
 
 
-### (128/144) Extracting human interpretable structure-property relationships in chemistry using XAI and large language models (Geemi P. Wellawatte et al., 2023)
+### (132/148) Extracting human interpretable structure-property relationships in chemistry using XAI and large language models (Geemi P. Wellawatte et al., 2023)
 
 {{<citation>}}
 
@@ -2911,7 +2999,7 @@ Explainable Artificial Intelligence (XAI) is an emerging field in AI that aims t
 
 
 
-### (129/144) A Method to Improve the Performance of Reinforcement Learning Based on the Y Operator for a Class of Stochastic Differential Equation-Based Child-Mother Systems (Cheng Yin et al., 2023)
+### (133/148) A Method to Improve the Performance of Reinforcement Learning Based on the Y Operator for a Class of Stochastic Differential Equation-Based Child-Mother Systems (Cheng Yin et al., 2023)
 
 {{<citation>}}
 
@@ -2933,7 +3021,7 @@ This paper introduces a novel operator, termed the Y operator, to elevate contro
 {{</citation>}}
 
 
-### (130/144) Everything of Thoughts: Defying the Law of Penrose Triangle for Thought Generation (Ruomeng Ding et al., 2023)
+### (134/148) Everything of Thoughts: Defying the Law of Penrose Triangle for Thought Generation (Ruomeng Ding et al., 2023)
 
 {{<citation>}}
 
@@ -2955,7 +3043,7 @@ Recent advancements in Large Language Models (LLMs) have revolutionized decision
 {{</citation>}}
 
 
-### (131/144) Unifying Structure and Language Semantic for Efficient Contrastive Knowledge Graph Completion with Structured Entity Anchors (Sang-Hyun Je et al., 2023)
+### (135/148) Unifying Structure and Language Semantic for Efficient Contrastive Knowledge Graph Completion with Structured Entity Anchors (Sang-Hyun Je et al., 2023)
 
 {{<citation>}}
 
@@ -2977,7 +3065,7 @@ The goal of knowledge graph completion (KGC) is to predict missing links in a KG
 {{</citation>}}
 
 
-### (132/144) Scene-Driven Multimodal Knowledge Graph Construction for Embodied AI (Song Yaoxian et al., 2023)
+### (136/148) Scene-Driven Multimodal Knowledge Graph Construction for Embodied AI (Song Yaoxian et al., 2023)
 
 {{<citation>}}
 
@@ -2999,7 +3087,7 @@ Embodied AI is one of the most popular studies in artificial intelligence and ro
 {{</citation>}}
 
 
-### (133/144) The NeurIPS 2022 Neural MMO Challenge: A Massively Multiagent Competition with Specialization and Trade (Enhong Liu et al., 2023)
+### (137/148) The NeurIPS 2022 Neural MMO Challenge: A Massively Multiagent Competition with Specialization and Trade (Enhong Liu et al., 2023)
 
 {{<citation>}}
 
@@ -3021,7 +3109,7 @@ In this paper, we present the results of the NeurIPS-2022 Neural MMO Challenge, 
 {{</citation>}}
 
 
-### (134/144) Hypothesis Network Planned Exploration for Rapid Meta-Reinforcement Learning Adaptation (Maxwell Joseph Jacobson et al., 2023)
+### (138/148) Hypothesis Network Planned Exploration for Rapid Meta-Reinforcement Learning Adaptation (Maxwell Joseph Jacobson et al., 2023)
 
 {{<citation>}}
 
@@ -3047,7 +3135,7 @@ Meta Reinforcement Learning (Meta RL) trains agents that adapt to fast-changing 
 
 
 
-### (135/144) Multimodal extended reality applications offer benefits for volumetric biomedical image analysis in research and medicine (Kathrin Krieger et al., 2023)
+### (139/148) Multimodal extended reality applications offer benefits for volumetric biomedical image analysis in research and medicine (Kathrin Krieger et al., 2023)
 
 {{<citation>}}
 
@@ -3069,7 +3157,7 @@ Keywords: AI
 {{</citation>}}
 
 
-### (136/144) Requirements Engineering using Generative AI: Prompts and Prompting Patterns (Krishna Ronanki et al., 2023)
+### (140/148) Requirements Engineering using Generative AI: Prompts and Prompting Patterns (Krishna Ronanki et al., 2023)
 
 {{<citation>}}
 
@@ -3095,7 +3183,7 @@ Keywords: AI, GPT, GPT-3.5, Generative AI
 
 
 
-### (137/144) Blind Federated Learning via Over-the-Air q-QAM (Saeed Razavikia et al., 2023)
+### (141/148) Blind Federated Learning via Over-the-Air q-QAM (Saeed Razavikia et al., 2023)
 
 {{<citation>}}
 
@@ -3121,7 +3209,7 @@ In this work, we investigate federated edge learning over a fading multiple acce
 
 
 
-### (138/144) On Deep Reinforcement Learning for Traffic Steering Intelligent ORAN (Fatemeh Kavehmadavani et al., 2023)
+### (142/148) On Deep Reinforcement Learning for Traffic Steering Intelligent ORAN (Fatemeh Kavehmadavani et al., 2023)
 
 {{<citation>}}
 
@@ -3143,7 +3231,7 @@ This paper aims to develop the intelligent traffic steering (TS) framework, whic
 {{</citation>}}
 
 
-### (139/144) Integrated Sensing, Communication, and Computing for Cost-effective Multimodal Federated Perception (Ning Chen et al., 2023)
+### (143/148) Integrated Sensing, Communication, and Computing for Cost-effective Multimodal Federated Perception (Ning Chen et al., 2023)
 
 {{<citation>}}
 
@@ -3169,7 +3257,7 @@ Federated learning (FL) is a classic paradigm of 6G edge intelligence (EI), whic
 
 
 
-### (140/144) Leveraging Large Language Models for Automated Proof Synthesis in Rust (Jianan Yao et al., 2023)
+### (144/148) Leveraging Large Language Models for Automated Proof Synthesis in Rust (Jianan Yao et al., 2023)
 
 {{<citation>}}
 
@@ -3195,7 +3283,7 @@ Formal verification can provably guarantee the correctness of critical system so
 
 
 
-### (141/144) Generalized Hybrid Search and Applications to Blockchain and Hash Function Security (Alexandru Cojocaru et al., 2023)
+### (145/148) Generalized Hybrid Search and Applications to Blockchain and Hash Function Security (Alexandru Cojocaru et al., 2023)
 
 {{<citation>}}
 
@@ -3221,7 +3309,7 @@ In this work we first examine the hardness of solving various search problems by
 
 
 
-### (142/144) Dissecting the Runtime Performance of the Training, Fine-tuning, and Inference of Large Language Models (Longteng Zhang et al., 2023)
+### (146/148) Dissecting the Runtime Performance of the Training, Fine-tuning, and Inference of Large Language Models (Longteng Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -3247,7 +3335,7 @@ Large Language Models (LLMs) have seen great advance in both academia and indust
 
 
 
-### (143/144) Machine Learning Parameterization of the Multi-scale Kain-Fritsch (MSKF) Convection Scheme (Xiaohui Zhong et al., 2023)
+### (147/148) Machine Learning Parameterization of the Multi-scale Kain-Fritsch (MSKF) Convection Scheme (Xiaohui Zhong et al., 2023)
 
 {{<citation>}}
 
@@ -3273,7 +3361,7 @@ Warm-sector heavy rainfall often occurs along the coast of South China, and it i
 
 
 
-### (144/144) Minimizing Pentagons in the Plane through Automated Reasoning (Bernardo Subercaseaux et al., 2023)
+### (148/148) Minimizing Pentagons in the Plane through Automated Reasoning (Bernardo Subercaseaux et al., 2023)
 
 {{<citation>}}
 
