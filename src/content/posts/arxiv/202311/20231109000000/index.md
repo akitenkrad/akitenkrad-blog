@@ -1405,14 +1405,14 @@ The rapid development of language models (LMs) brings unprecedented accessibilit
 
 {{<citation>}}
 
-Qinghao Ye, Haiyang Xu, Jiabo Ye, Ming Yan, Haowei Liu, Qi Qian, Ji Zhang, Fei Huang, Jingren Zhou. (2023)  
+Qinghao Ye, Haiyang Xu, Jiabo Ye, Ming Yan, Anwen Hu, Haowei Liu, Qi Qian, Ji Zhang, Fei Huang, Jingren Zhou. (2023)  
 **mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs-CV, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2311.04257v1)  
+[Paper Link](http://arxiv.org/abs/2311.04257v2)  
 
 ---
 
@@ -2450,7 +2450,7 @@ Yikang Gui, Prashant Doshi. (2023)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs-RO, cs.LG  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2311.03698v1)  
+[Paper Link](http://arxiv.org/abs/2311.03698v2)  
 
 ---
 
