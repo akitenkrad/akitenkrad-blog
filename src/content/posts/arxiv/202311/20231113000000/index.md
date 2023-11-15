@@ -21,28 +21,29 @@ math: true
 
 ## Primary Categories
 
-- [cs.CV (12)](#cscv-12)
+- [cs.CV (13)](#cscv-13)
 - [cs.IR (3)](#csir-3)
 - [cs.RO (2)](#csro-2)
-- [cs.LG (3)](#cslg-3)
-- [cs.CL (12)](#cscl-12)
-- [cs.AI (2)](#csai-2)
+- [cs.LG (5)](#cslg-5)
+- [cs.CL (13)](#cscl-13)
+- [cs.AI (3)](#csai-3)
 - [cs.HC (1)](#cshc-1)
 - [cs.PL (1)](#cspl-1)
 - [eess.IV (1)](#eessiv-1)
+- [q-bio.QM (1)](#q-bioqm-1)
 - [physics.flu-dyn (1)](#physicsflu-dyn-1)
-- [cs.SE (1)](#csse-1)
+- [cs.SE (2)](#csse-2)
 - [cs.DB (1)](#csdb-1)
 - [cs.NI (1)](#csni-1)
 - [cs.SI (1)](#cssi-1)
 - [cs.IT (1)](#csit-1)
-- [cs.CY (1)](#cscy-1)
+- [cs.CY (2)](#cscy-2)
 
-## cs.CV (12)
+## cs.CV (13)
 
 
 
-### (1/44) Automatized Self-Supervised Learning for Skin Lesion Screening (Vullnet Useini et al., 2023)
+### (1/52) Automatized Self-Supervised Learning for Skin Lesion Screening (Vullnet Useini et al., 2023)
 
 {{<citation>}}
 
@@ -64,7 +65,7 @@ The incidence rates of melanoma, the deadliest form of skin cancer, have been in
 {{</citation>}}
 
 
-### (2/44) Unsupervised and semi-supervised co-salient object detection via segmentation frequency statistics (Souradeep Chakraborty et al., 2023)
+### (2/52) Unsupervised and semi-supervised co-salient object detection via segmentation frequency statistics (Souradeep Chakraborty et al., 2023)
 
 {{<citation>}}
 
@@ -86,7 +87,7 @@ In this paper, we address the detection of co-occurring salient objects (CoSOD) 
 {{</citation>}}
 
 
-### (3/44) Traffic Sign Recognition Using Local Vision Transformer (Ali Farzipour et al., 2023)
+### (3/52) Traffic Sign Recognition Using Local Vision Transformer (Ali Farzipour et al., 2023)
 
 {{<citation>}}
 
@@ -108,7 +109,7 @@ Recognition of traffic signs is a crucial aspect of self-driving cars and driver
 {{</citation>}}
 
 
-### (4/44) VT-Former: A Transformer-based Vehicle Trajectory Prediction Approach For Intelligent Highway Transportation Systems (Armin Danesh Pazho et al., 2023)
+### (4/52) VT-Former: A Transformer-based Vehicle Trajectory Prediction Approach For Intelligent Highway Transportation Systems (Armin Danesh Pazho et al., 2023)
 
 {{<citation>}}
 
@@ -130,7 +131,7 @@ Enhancing roadway safety and traffic management has become an essential focus ar
 {{</citation>}}
 
 
-### (5/44) Computer Vision for Particle Size Analysis of Coarse-Grained Soils (Sompote Youwai et al., 2023)
+### (5/52) Computer Vision for Particle Size Analysis of Coarse-Grained Soils (Sompote Youwai et al., 2023)
 
 {{<citation>}}
 
@@ -152,7 +153,7 @@ Particle size analysis (PSA) is a fundamental technique for evaluating the physi
 {{</citation>}}
 
 
-### (6/44) PerceptionGPT: Effectively Fusing Visual Perception into LLM (Renjie Pi et al., 2023)
+### (6/52) PerceptionGPT: Effectively Fusing Visual Perception into LLM (Renjie Pi et al., 2023)
 
 {{<citation>}}
 
@@ -174,7 +175,7 @@ The integration of visual inputs with large language models (LLMs) has led to re
 {{</citation>}}
 
 
-### (7/44) Monkey: Image Resolution and Text Label Are Important Things for Large Multi-modal Models (Zhang Li et al., 2023)
+### (7/52) Monkey: Image Resolution and Text Label Are Important Things for Large Multi-modal Models (Zhang Li et al., 2023)
 
 {{<citation>}}
 
@@ -196,7 +197,7 @@ Large Multimodal Models have demonstrated impressive capabilities in understandi
 {{</citation>}}
 
 
-### (8/44) OR Residual Connection Achieving Comparable Accuracy to ADD Residual Connection in Deep Residual Spiking Neural Networks (Yimeng Shan et al., 2023)
+### (8/52) OR Residual Connection Achieving Comparable Accuracy to ADD Residual Connection in Deep Residual Spiking Neural Networks (Yimeng Shan et al., 2023)
 
 {{<citation>}}
 
@@ -218,7 +219,7 @@ Spiking Neural Networks (SNNs) have garnered substantial attention in brain-like
 {{</citation>}}
 
 
-### (9/44) Visual Commonsense based Heterogeneous Graph Contrastive Learning (Zongzhao Li et al., 2023)
+### (9/52) Visual Commonsense based Heterogeneous Graph Contrastive Learning (Zongzhao Li et al., 2023)
 
 {{<citation>}}
 
@@ -240,7 +241,7 @@ How to select relevant key objects and reason about the complex relationships cr
 {{</citation>}}
 
 
-### (10/44) Generation Of Colors using Bidirectional Long Short Term Memory Networks (A. Sinha, 2023)
+### (10/52) Generation Of Colors using Bidirectional Long Short Term Memory Networks (A. Sinha, 2023)
 
 {{<citation>}}
 
@@ -262,7 +263,7 @@ Human vision can distinguish between a vast spectrum of colours, estimated to be
 {{</citation>}}
 
 
-### (11/44) LayoutPrompter: Awaken the Design Ability of Large Language Models (Jiawei Lin et al., 2023)
+### (11/52) LayoutPrompter: Awaken the Design Ability of Large Language Models (Jiawei Lin et al., 2023)
 
 {{<citation>}}
 
@@ -284,7 +285,29 @@ Conditional graphic layout generation, which automatically maps user constraints
 {{</citation>}}
 
 
-### (12/44) CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer (Haoyu Ma et al., 2023)
+### (12/52) PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment (Amirhossein Dadashzadeh et al., 2023)
+
+{{<citation>}}
+
+Amirhossein Dadashzadeh, Shuchao Duan, Alan Whone, Majid Mirmehdi. (2023)  
+**PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: AWS, QA  
+[Paper Link](http://arxiv.org/abs/2311.07603v1)  
+
+---
+
+
+**ABSTRACT**  
+The limited availability of labelled data in Action Quality Assessment (AQA), has forced previous works to fine-tune their models pretrained on large-scale domain-general datasets. This common approach results in weak generalisation, particularly when there is a significant domain shift. We propose a novel, parameter efficient, continual pretraining framework, PECoP, to reduce such domain shift via an additional pretraining stage. In PECoP, we introduce 3D-Adapters, inserted into the pretrained model, to learn spatiotemporal, in-domain information via self-supervised learning where only the adapter modules' parameters are updated. We demonstrate PECoP's ability to enhance the performance of recent state-of-the-art methods (MUSDL, CoRe, and TSA) applied to AQA, leading to considerable improvements on benchmark datasets, JIGSAWS ($\uparrow6.0\%$), MTL-AQA ($\uparrow0.99\%$), and FineDiving ($\uparrow2.54\%$). We also present a new Parkinson's Disease dataset, PD4T, of real patients performing four various actions, where we surpass ($\uparrow3.56\%$) the state-of-the-art in comparison. Our code, pretrained models, and the PD4T dataset are available at https://github.com/Plrbear/PECoP.
+
+{{</citation>}}
+
+
+### (13/52) CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer (Haoyu Ma et al., 2023)
 
 {{<citation>}}
 
@@ -310,7 +333,7 @@ Reconstructing personalized animatable head avatars has significant implications
 
 
 
-### (13/44) Metric Optimization and Mainstream Bias Mitigation in Recommender Systems (Roger Zhe Li, 2023)
+### (14/52) Metric Optimization and Mainstream Bias Mitigation in Recommender Systems (Roger Zhe Li, 2023)
 
 {{<citation>}}
 
@@ -332,7 +355,7 @@ The first part of this thesis focuses on maximizing the overall recommendation a
 {{</citation>}}
 
 
-### (14/44) An Empirical Study of Using ChatGPT for Fact Verification Task (Mohna Chakraborty et al., 2023)
+### (15/52) An Empirical Study of Using ChatGPT for Fact Verification Task (Mohna Chakraborty et al., 2023)
 
 {{<citation>}}
 
@@ -354,7 +377,7 @@ ChatGPT has recently emerged as a powerful tool for performing diverse NLP tasks
 {{</citation>}}
 
 
-### (15/44) Mitigating Pooling Bias in E-commerce Search via False Negative Estimation (Xiaochen Wang et al., 2023)
+### (16/52) Mitigating Pooling Bias in E-commerce Search via False Negative Estimation (Xiaochen Wang et al., 2023)
 
 {{<citation>}}
 
@@ -380,7 +403,7 @@ Efficient and accurate product relevance assessment is critical for user experie
 
 
 
-### (16/44) The Effect of Trust and its Antecedents on Robot Acceptance (Katrin Fischer et al., 2023)
+### (17/52) The Effect of Trust and its Antecedents on Robot Acceptance (Katrin Fischer et al., 2023)
 
 {{<citation>}}
 
@@ -402,7 +425,7 @@ As social and socially assistive robots are becoming more prevalent in our socie
 {{</citation>}}
 
 
-### (17/44) NewsGPT: ChatGPT Integration for Robot-Reporter (Abdelhadi Hireche et al., 2023)
+### (18/52) NewsGPT: ChatGPT Integration for Robot-Reporter (Abdelhadi Hireche et al., 2023)
 
 {{<citation>}}
 
@@ -424,11 +447,11 @@ The integration of large language models (LLMs) with social robots has emerged a
 {{</citation>}}
 
 
-## cs.LG (3)
+## cs.LG (5)
 
 
 
-### (18/44) Dream to Adapt: Meta Reinforcement Learning by Latent Context Imagination and MDP Imagination (Lu Wen et al., 2023)
+### (19/52) Dream to Adapt: Meta Reinforcement Learning by Latent Context Imagination and MDP Imagination (Lu Wen et al., 2023)
 
 {{<citation>}}
 
@@ -450,7 +473,7 @@ Meta reinforcement learning (Meta RL) has been amply explored to quickly learn a
 {{</citation>}}
 
 
-### (19/44) The Pros and Cons of Using Machine Learning and Interpretable Machine Learning Methods in psychiatry detection applications, specifically depression disorder: A Brief Review (Hossein Simchi et al., 2023)
+### (20/52) The Pros and Cons of Using Machine Learning and Interpretable Machine Learning Methods in psychiatry detection applications, specifically depression disorder: A Brief Review (Hossein Simchi et al., 2023)
 
 {{<citation>}}
 
@@ -472,7 +495,7 @@ The COVID-19 pandemic has forced many people to limit their social activities, w
 {{</citation>}}
 
 
-### (20/44) Graph ODE with Factorized Prototypes for Modeling Complicated Interacting Dynamics (Xiao Luo et al., 2023)
+### (21/52) Graph ODE with Factorized Prototypes for Modeling Complicated Interacting Dynamics (Xiao Luo et al., 2023)
 
 {{<citation>}}
 
@@ -494,11 +517,77 @@ This paper studies the problem of modeling interacting dynamical systems, which 
 {{</citation>}}
 
 
-## cs.CL (12)
+### (22/52) MuST: Multimodal Spatiotemporal Graph-Transformer for Hospital Readmission Prediction (Yan Miao et al., 2023)
+
+{{<citation>}}
+
+Yan Miao, Lequan Yu. (2023)  
+**MuST: Multimodal Spatiotemporal Graph-Transformer for Hospital Readmission Prediction**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2311.07608v1)  
+
+---
+
+
+**ABSTRACT**  
+Hospital readmission prediction is considered an essential approach to decreasing readmission rates, which is a key factor in assessing the quality and efficacy of a healthcare system. Previous studies have extensively utilized three primary modalities, namely electronic health records (EHR), medical images, and clinical notes, to predict hospital readmissions. However, the majority of these studies did not integrate information from all three modalities or utilize the spatiotemporal relationships present in the dataset. This study introduces a novel model called the Multimodal Spatiotemporal Graph-Transformer (MuST) for predicting hospital readmissions. By employing Graph Convolution Networks and temporal transformers, we can effectively capture spatial and temporal dependencies in EHR and chest radiographs. We then propose a fusion transformer to combine the spatiotemporal features from the two modalities mentioned above with the features from clinical notes extracted by a pre-trained, domain-specific transformer. We assess the effectiveness of our methods using the latest publicly available dataset, MIMIC-IV. The experimental results indicate that the inclusion of multimodal features in MuST improves its performance in comparison to unimodal methods. Furthermore, our proposed pipeline outperforms the current leading methods in the prediction of hospital readmissions.
+
+{{</citation>}}
+
+
+### (23/52) Finetuning Text-to-Image Diffusion Models for Fairness (Xudong Shen et al., 2023)
+
+{{<citation>}}
+
+Xudong Shen, Chao Du, Tianyu Pang, Min Lin, Yongkang Wong, Mohan Kankanhalli. (2023)  
+**Finetuning Text-to-Image Diffusion Models for Fairness**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CV, cs-CY, cs-LG, cs.LG  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2311.07604v1)  
+
+---
+
+
+**ABSTRACT**  
+The rapid adoption of text-to-image diffusion models in society underscores an urgent need to address their biases. Without interventions, these biases could propagate a distorted worldview and limit opportunities for minority groups. In this work, we frame fairness as a distributional alignment problem. Our solution consists of two main technical contributions: (1) a distributional alignment loss that steers specific characteristics of the generated images towards a user-defined target distribution, and (2) biased direct finetuning of diffusion model's sampling process, which leverages a biased gradient to more effectively optimize losses defined on the generated images. Empirically, our method markedly reduces gender, racial, and their intersectional biases for occupational prompts. Gender bias is significantly reduced even when finetuning just five soft tokens. Crucially, our method supports diverse perspectives of fairness beyond absolute equality, which is demonstrated by controlling age to a $75\%$ young and $25\%$ old distribution while simultaneously debiasing gender and race. Finally, our method is scalable: it can debias multiple concepts at once by simply including these prompts in the finetuning data. We hope our work facilitates the social alignment of T2I generative AI. We will share code and various debiased diffusion model adaptors.
+
+{{</citation>}}
+
+
+## cs.CL (13)
 
 
 
-### (21/44) Robust Text Classification: Analyzing Prototype-Based Networks (Zhivar Sourati et al., 2023)
+### (24/52) Intentional Biases in LLM Responses (Nicklaus Badyal et al., 2023)
+
+{{<citation>}}
+
+Nicklaus Badyal, Derek Jacoby, Yvonne Coady. (2023)  
+**Intentional Biases in LLM Responses**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: AI, Bias, Falcon, GPT, GPT-4  
+[Paper Link](http://arxiv.org/abs/2311.07611v1)  
+
+---
+
+
+**ABSTRACT**  
+In this study we intentionally introduce biases into large language model responses in an attempt to create specific personas for interactive media purposes. We explore the differences between open source models such as Falcon-7b and the GPT-4 model from Open AI, and we quantify some differences in responses afforded by the two systems. We find that the guardrails in the GPT-4 mixture of experts models with a supervisor, while useful in assuring AI alignment in general, are detrimental in trying to construct personas with a variety of uncommon viewpoints. This study aims to set the groundwork for future exploration in intentional biases of large language models such that these practices can be applied in the creative field, and new forms of media.
+
+{{</citation>}}
+
+
+### (25/52) Robust Text Classification: Analyzing Prototype-Based Networks (Zhivar Sourati et al., 2023)
 
 {{<citation>}}
 
@@ -520,7 +609,7 @@ Downstream applications often require text classification models to be accurate,
 {{</citation>}}
 
 
-### (22/44) BizBench: A Quantitative Reasoning Benchmark for Business and Finance (Rik Koncel-Kedziorski et al., 2023)
+### (26/52) BizBench: A Quantitative Reasoning Benchmark for Business and Finance (Rik Koncel-Kedziorski et al., 2023)
 
 {{<citation>}}
 
@@ -542,7 +631,7 @@ As large language models (LLMs) impact a growing number of complex domains, it i
 {{</citation>}}
 
 
-### (23/44) From Classification to Generation: Insights into Crosslingual Retrieval Augmented ICL (Xiaoqian Li et al., 2023)
+### (27/52) From Classification to Generation: Insights into Crosslingual Retrieval Augmented ICL (Xiaoqian Li et al., 2023)
 
 {{<citation>}}
 
@@ -553,7 +642,7 @@ Xiaoqian Li, Ercong Nie, Sheng Liang. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2311.06595v1)  
+[Paper Link](http://arxiv.org/abs/2311.06595v2)  
 
 ---
 
@@ -564,7 +653,7 @@ The remarkable ability of Large Language Models (LLMs) to understand and follow 
 {{</citation>}}
 
 
-### (24/44) Heuristics-Driven Link-of-Analogy Prompting: Enhancing Large Language Models for Document-Level Event Argument Extraction (Hanzhang Zhou et al., 2023)
+### (28/52) Heuristics-Driven Link-of-Analogy Prompting: Enhancing Large Language Models for Document-Level Event Argument Extraction (Hanzhang Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -586,7 +675,7 @@ In this study, we investigate in-context learning (ICL) in document-level event 
 {{</citation>}}
 
 
-### (25/44) Zero-Shot Cross-Lingual Sentiment Classification under Distribution Shift: an Exploratory Study (Maarten De Raedt et al., 2023)
+### (29/52) Zero-Shot Cross-Lingual Sentiment Classification under Distribution Shift: an Exploratory Study (Maarten De Raedt et al., 2023)
 
 {{<citation>}}
 
@@ -608,7 +697,7 @@ The brittleness of finetuned language model performance on out-of-distribution (
 {{</citation>}}
 
 
-### (26/44) Enhancing Public Understanding of Court Opinions with Automated Summarizers (Elliott Ash et al., 2023)
+### (30/52) Enhancing Public Understanding of Court Opinions with Automated Summarizers (Elliott Ash et al., 2023)
 
 {{<citation>}}
 
@@ -630,7 +719,7 @@ Written judicial opinions are an important tool for building public trust in cou
 {{</citation>}}
 
 
-### (27/44) Added Toxicity Mitigation at Inference Time for Multimodal and Massively Multilingual Translation (Marta R. Costa-jussà et al., 2023)
+### (31/52) Added Toxicity Mitigation at Inference Time for Multimodal and Massively Multilingual Translation (Marta R. Costa-jussà et al., 2023)
 
 {{<citation>}}
 
@@ -652,7 +741,7 @@ Added toxicity in the context of translation refers to the fact of producing a t
 {{</citation>}}
 
 
-### (28/44) Step by Step to Fairness: Attributing Societal Bias in Task-oriented Dialogue Systems (Hsuan Su et al., 2023)
+### (32/52) Step by Step to Fairness: Attributing Societal Bias in Task-oriented Dialogue Systems (Hsuan Su et al., 2023)
 
 {{<citation>}}
 
@@ -663,7 +752,7 @@ Hsuan Su, Rebecca Qian, Chinnadhurai Sankar, Shahin Shayandeh, Shang-Tse Chen, H
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Bias, Dialog, Dialogue  
-[Paper Link](http://arxiv.org/abs/2311.06513v1)  
+[Paper Link](http://arxiv.org/abs/2311.06513v2)  
 
 ---
 
@@ -674,7 +763,7 @@ Recent works have shown considerable improvements in task-oriented dialogue (TOD
 {{</citation>}}
 
 
-### (29/44) Knowledgeable Preference Alignment for LLMs in Domain-specific Question Answering (Yichi Zhang et al., 2023)
+### (33/52) Knowledgeable Preference Alignment for LLMs in Domain-specific Question Answering (Yichi Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -696,7 +785,7 @@ Recently, the development of large language models (LLMs) has attracted wide att
 {{</citation>}}
 
 
-### (30/44) L3 Ensembles: Lifelong Learning Approach for Ensemble of Foundational Language Models (Aidin Shiri et al., 2023)
+### (34/52) L3 Ensembles: Lifelong Learning Approach for Ensemble of Foundational Language Models (Aidin Shiri et al., 2023)
 
 {{<citation>}}
 
@@ -718,7 +807,7 @@ Fine-tuning pre-trained foundational language models (FLM) for specific tasks is
 {{</citation>}}
 
 
-### (31/44) THOS: A Benchmark Dataset for Targeted Hate and Offensive Speech (Saad Almohaimeed et al., 2023)
+### (35/52) THOS: A Benchmark Dataset for Targeted Hate and Offensive Speech (Saad Almohaimeed et al., 2023)
 
 {{<citation>}}
 
@@ -740,7 +829,7 @@ Detecting harmful content on social media, such as Twitter, is made difficult by
 {{</citation>}}
 
 
-### (32/44) Separating the Wheat from the Chaff with BREAD: An open-source benchmark and metrics to detect redundancy in text (Isaac Caswell et al., 2023)
+### (36/52) Separating the Wheat from the Chaff with BREAD: An open-source benchmark and metrics to detect redundancy in text (Isaac Caswell et al., 2023)
 
 {{<citation>}}
 
@@ -762,11 +851,11 @@ Data quality is a problem that perpetually resurfaces throughout the field of NL
 {{</citation>}}
 
 
-## cs.AI (2)
+## cs.AI (3)
 
 
 
-### (33/44) TrainerAgent: Customizable and Efficient Model Training through LLM-Powered Multi-Agent System (Haoyuan Li et al., 2023)
+### (37/52) TrainerAgent: Customizable and Efficient Model Training through LLM-Powered Multi-Agent System (Haoyuan Li et al., 2023)
 
 {{<citation>}}
 
@@ -788,7 +877,7 @@ Training AI models has always been challenging, especially when there is a need 
 {{</citation>}}
 
 
-### (34/44) An Intelligent Social Learning-based Optimization Strategy for Black-box Robotic Control with Reinforcement Learning (Xubo Yang et al., 2023)
+### (38/52) An Intelligent Social Learning-based Optimization Strategy for Black-box Robotic Control with Reinforcement Learning (Xubo Yang et al., 2023)
 
 {{<citation>}}
 
@@ -810,11 +899,33 @@ Implementing intelligent control of robots is a difficult task, especially when 
 {{</citation>}}
 
 
+### (39/52) Modeling Choice via Self-Attention (Joohwan Ko et al., 2023)
+
+{{<citation>}}
+
+Joohwan Ko, Andrew A. Li. (2023)  
+**Modeling Choice via Self-Attention**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs-LG, cs.AI  
+Keywords: Attention, Self-Attention  
+[Paper Link](http://arxiv.org/abs/2311.07607v1)  
+
+---
+
+
+**ABSTRACT**  
+Models of choice are a fundamental input to many now-canonical optimization problems in the field of Operations Management, including assortment, inventory, and price optimization. Naturally, accurate estimation of these models from data is a critical step in the application of these optimization problems in practice, and so it is perhaps surprising that such choice estimation has to now been accomplished almost exclusively, both in theory and in practice, (a) without the use of deep learning in any meaningful way, and (b) via evaluation on limited data with constantly-changing metrics. This is in stark contrast to the vast majority of similar learning applications, for which the practice of machine learning suggests that (a) neural network-based models are typically state-of-the-art, and (b) strict standardization on evaluation procedures (datasets, metrics, etc.) is crucial. Thus motivated, we first propose a choice model that is the first to successfully (both theoretically and practically) leverage a modern neural network architectural concept (self-attention). Theoretically, we show that our attention-based choice model is a low-rank generalization of the Halo Multinomial Logit model, a recent model that parsimoniously captures irrational choice effects and has seen empirical success. We prove that whereas the Halo-MNL requires $\Omega(m^2)$ data samples to estimate, where $m$ is the number of products, our model supports a natural nonconvex estimator (in particular, that which a standard neural network implementation would apply) which admits a near-optimal stationary point with $O(m)$ samples. We then establish the first realistic-scale benchmark for choice estimation on real data and use this benchmark to run the largest evaluation of existing choice models to date. We find that the model we propose is dominant over both short-term and long-term data periods.
+
+{{</citation>}}
+
+
 ## cs.HC (1)
 
 
 
-### (35/44) The Power of Attention: Bridging Cognitive Load, Multimedia Learning, and AI (Herbert dos Santos Macedo et al., 2023)
+### (40/52) The Power of Attention: Bridging Cognitive Load, Multimedia Learning, and AI (Herbert dos Santos Macedo et al., 2023)
 
 {{<citation>}}
 
@@ -840,7 +951,7 @@ This article addresses the intersection of various educational theories and thei
 
 
 
-### (36/44) Sparse Attention-Based Neural Networks for Code Classification (Ziyang Xiang et al., 2023)
+### (41/52) Sparse Attention-Based Neural Networks for Code Classification (Ziyang Xiang et al., 2023)
 
 {{<citation>}}
 
@@ -866,7 +977,7 @@ Categorizing source codes accurately and efficiently is a challenging problem in
 
 
 
-### (37/44) Swin UNETR++: Advancing Transformer-Based Dense Dose Prediction Towards Fully Automated Radiation Oncology Treatments (Kuancheng Wang et al., 2023)
+### (42/52) Swin UNETR++: Advancing Transformer-Based Dense Dose Prediction Towards Fully Automated Radiation Oncology Treatments (Kuancheng Wang et al., 2023)
 
 {{<citation>}}
 
@@ -888,11 +999,37 @@ The field of Radiation Oncology is uniquely positioned to benefit from the use o
 {{</citation>}}
 
 
+## q-bio.QM (1)
+
+
+
+### (43/52) Artificial Intelligence in Assessing Cardiovascular Diseases and Risk Factors via Retinal Fundus Images: A Review of the Last Decade (Mirsaeed Abdollahi et al., 2023)
+
+{{<citation>}}
+
+Mirsaeed Abdollahi, Ali Jafarizadeh, Amirhosein Ghafouri Asbagh, Navid Sobhi, Keysan Pourmoghtader, Siamak Pedrammehr, Houshyar Asadi, Roohallah Alizadehsani, Ru-San Tan, U. Rajendra Acharya. (2023)  
+**Artificial Intelligence in Assessing Cardiovascular Diseases and Risk Factors via Retinal Fundus Images: A Review of the Last Decade**  
+
+---
+Primary Category: q-bio.QM  
+Categories: J-3-2; J-3-3, cs-CV, eess-IV, physics-med-ph, q-bio-QM, q-bio.QM  
+Keywords: AI, Google  
+[Paper Link](http://arxiv.org/abs/2311.07609v1)  
+
+---
+
+
+**ABSTRACT**  
+Background: Cardiovascular diseases (CVDs) continue to be the leading cause of mortality on a global scale. In recent years, the application of artificial intelligence (AI) techniques, particularly deep learning (DL), has gained considerable popularity for evaluating the various aspects of CVDs. Moreover, using fundus images and optical coherence tomography angiography (OCTA) to diagnose retinal diseases has been extensively studied. To better understand heart function and anticipate changes based on microvascular characteristics and function, researchers are currently exploring the integration of AI with non-invasive retinal scanning. Leveraging AI-assisted early detection and prediction of cardiovascular diseases on a large scale holds excellent potential to mitigate cardiovascular events and alleviate the economic burden on healthcare systems. Method: A comprehensive search was conducted across various databases, including PubMed, Medline, Google Scholar, Scopus, Web of Sciences, IEEE Xplore, and ACM Digital Library, using specific keywords related to cardiovascular diseases and artificial intelligence. Results: A total of 87 English-language publications, selected for relevance were included in the study, and additional references were considered. This study presents an overview of the current advancements and challenges in employing retinal imaging and artificial intelligence to identify cardiovascular disorders and provides insights for further exploration in this field. Conclusion: Researchers aim to develop precise disease prognosis patterns as the aging population and global CVD burden increase. AI and deep learning are transforming healthcare, offering the potential for single retinal image-based diagnosis of various CVDs, albeit with the need for accelerated adoption in healthcare systems.
+
+{{</citation>}}
+
+
 ## physics.flu-dyn (1)
 
 
 
-### (38/44) Identification of vortex in unstructured mesh with graph neural networks (Lianfa Wang et al., 2023)
+### (44/52) Identification of vortex in unstructured mesh with graph neural networks (Lianfa Wang et al., 2023)
 
 {{<citation>}}
 
@@ -914,11 +1051,11 @@ Deep learning has been employed to identify flow characteristics from Computatio
 {{</citation>}}
 
 
-## cs.SE (1)
+## cs.SE (2)
 
 
 
-### (39/44) How ChatGPT is Solving Vulnerability Management Problem (Peiyu Liu et al., 2023)
+### (45/52) How ChatGPT is Solving Vulnerability Management Problem (Peiyu Liu et al., 2023)
 
 {{<citation>}}
 
@@ -940,11 +1077,33 @@ Recently, ChatGPT has attracted great attention from the code analysis domain. P
 {{</citation>}}
 
 
+### (46/52) Conceptual Model Interpreter for Large Language Models (Felix Härer, 2023)
+
+{{<citation>}}
+
+Felix Härer. (2023)  
+**Conceptual Model Interpreter for Large Language Models**  
+
+---
+Primary Category: cs.SE  
+Categories: I-2-1, cs-AI, cs-PL, cs-SE, cs.SE  
+Keywords: ChatGPT, GPT, Language Model  
+[Paper Link](http://arxiv.org/abs/2311.07605v1)  
+
+---
+
+
+**ABSTRACT**  
+Large Language Models (LLMs) recently demonstrated capabilities for generating source code in common programming languages. Additionally, commercial products such as ChatGPT 4 started to provide code interpreters, allowing for the automatic execution of generated code fragments, instant feedback, and the possibility to develop and refine in a conversational fashion. With an exploratory research approach, this paper applies code generation and interpretation to conceptual models. The concept and prototype of a conceptual model interpreter is explored, capable of rendering visual models generated in textual syntax by state-of-the-art LLMs such as Llama~2 and ChatGPT 4. In particular, these LLMs can generate textual syntax for the PlantUML and Graphviz modeling software that is automatically rendered within a conversational user interface. The first result is an architecture describing the components necessary to interact with interpreters and LLMs through APIs or locally, providing support for many commercial and open source LLMs and interpreters. Secondly, experimental results for models generated with ChatGPT 4 and Llama 2 are discussed in two cases covering UML and, on an instance level, graphs created from custom data. The results indicate the possibility of modeling iteratively in a conversational fashion.
+
+{{</citation>}}
+
+
 ## cs.DB (1)
 
 
 
-### (40/44) Towards a Personal Health Knowledge Graph Framework for Patient Monitoring (Daniel Bloor et al., 2023)
+### (47/52) Towards a Personal Health Knowledge Graph Framework for Patient Monitoring (Daniel Bloor et al., 2023)
 
 {{<citation>}}
 
@@ -970,7 +1129,7 @@ Healthcare providers face significant challenges with monitoring and managing pa
 
 
 
-### (41/44) Generative AI for Space-Air-Ground Integrated Networks (SAGIN) (Ruichen Zhang et al., 2023)
+### (48/52) Generative AI for Space-Air-Ground Integrated Networks (SAGIN) (Ruichen Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -996,7 +1155,7 @@ Recently, generative AI technologies have emerged as a significant advancement i
 
 
 
-### (42/44) Dynamics of toxic behavior in the Covid-19 vaccination debate (Azza Bouleimen et al., 2023)
+### (49/52) Dynamics of toxic behavior in the Covid-19 vaccination debate (Azza Bouleimen et al., 2023)
 
 {{<citation>}}
 
@@ -1022,7 +1181,7 @@ In this paper, we study the behavior of users on Online Social Networks in the c
 
 
 
-### (43/44) Knowledge Distillation and Training Balance for Heterogeneous Decentralized Multi-Modal Learning over Wireless Networks (Benshun Yin et al., 2023)
+### (50/52) Knowledge Distillation and Training Balance for Heterogeneous Decentralized Multi-Modal Learning over Wireless Networks (Benshun Yin et al., 2023)
 
 {{<citation>}}
 
@@ -1044,11 +1203,11 @@ Decentralized learning is widely employed for collaboratively training models us
 {{</citation>}}
 
 
-## cs.CY (1)
+## cs.CY (2)
 
 
 
-### (44/44) Report of the 1st Workshop on Generative AI and Law (A. Feder Cooper et al., 2023)
+### (51/52) Report of the 1st Workshop on Generative AI and Law (A. Feder Cooper et al., 2023)
 
 {{<citation>}}
 
@@ -1059,12 +1218,34 @@ A. Feder Cooper, Katherine Lee, James Grimmelmann, Daphne Ippolito, Christopher 
 Primary Category: cs.CY  
 Categories: cs-CY, cs.CY  
 Keywords: AI, Generative AI  
-[Paper Link](http://arxiv.org/abs/2311.06477v1)  
+[Paper Link](http://arxiv.org/abs/2311.06477v2)  
 
 ---
 
 
 **ABSTRACT**  
 This report presents the takeaways of the inaugural Workshop on Generative AI and Law (GenLaw), held in July 2023. A cross-disciplinary group of practitioners and scholars from computer science and law convened to discuss the technical, doctrinal, and policy challenges presented by law for Generative AI, and by Generative AI for law, with an emphasis on U.S. law in particular. We begin the report with a high-level statement about why Generative AI is both immensely significant and immensely challenging for law. To meet these challenges, we conclude that there is an essential need for 1) a shared knowledge base that provides a common conceptual language for experts across disciplines; 2) clarification of the distinctive technical capabilities of generative-AI systems, as compared and contrasted to other computer and AI systems; 3) a logical taxonomy of the legal issues these systems raise; and, 4) a concrete research agenda to promote collaboration and knowledge-sharing on emerging issues at the intersection of Generative AI and law. In this report, we synthesize the key takeaways from the GenLaw workshop that begin to address these needs. All of the listed authors contributed to the workshop upon which this report is based, but they and their organizations do not necessarily endorse all of the specific claims in this report.
+
+{{</citation>}}
+
+
+### (52/52) Online Advertisements with LLMs: Opportunities and Challenges (Soheil Feizi et al., 2023)
+
+{{<citation>}}
+
+Soheil Feizi, MohammadTaghi Hajiaghayi, Keivan Rezaei, Suho Shin. (2023)  
+**Online Advertisements with LLMs: Opportunities and Challenges**  
+
+---
+Primary Category: cs.CY  
+Categories: cs-AI, cs-CY, cs.CY  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2311.07601v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper explores the potential for leveraging Large Language Models (LLM) in the realm of online advertising systems. We delve into essential requirements including privacy, latency, reliability, users and advertisers' satisfaction, which such a system must fulfill. We further introduce a general framework for LLM advertisement, consisting of modification, bidding, prediction, and auction modules. Different design considerations for each module is presented, with an in-depth examination of their practicality and the technical challenges inherent to their implementation.
 
 {{</citation>}}
