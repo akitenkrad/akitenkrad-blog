@@ -2322,7 +2322,7 @@ Peng Wu, Xuerong Zhou, Guansong Pang, Yujia Sun, Jing Liu, Peng Wang, Yanning Zh
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Anomaly Detection  
-[Paper Link](http://arxiv.org/abs/2311.07042v1)  
+[Paper Link](http://arxiv.org/abs/2311.07042v2)  
 
 ---
 
@@ -2813,14 +2813,14 @@ Code Clone Detection, which aims to retrieve functionally similar programs from 
 
 {{<citation>}}
 
-Amina Mollaysa, Ahmed Allam, Michael Krauthamme. (2023)  
+Amina Mollaysa, Ahmed Allam, Michael Krauthammer. (2023)  
 **Attention-based Multi-task Learning for Base Editor Outcome Prediction**  
 
 ---
 Primary Category: q-bio.GN  
 Categories: cs-LG, q-bio-GN, q-bio.GN  
 Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2311.07636v1)  
+[Paper Link](http://arxiv.org/abs/2311.07636v2)  
 
 ---
 

@@ -167,7 +167,7 @@ Anh Thi-Hoang Nguyen, Dung Ha Nguyen, Nguyet Thi Nguyen, Khanh Thanh-Duy Ho, Kie
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Hate Speech Detection, NLP, Seq2Seq  
-[Paper Link](http://arxiv.org/abs/2311.06851v1)  
+[Paper Link](http://arxiv.org/abs/2311.06851v2)  
 
 ---
 
@@ -817,7 +817,7 @@ Ziyu Lu, Anika Tabassum, Shruti Kulkarni, Lu Mi, J. Nathan Kutz, Eric Shea-Brown
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, stat-ME  
 Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2311.06928v1)  
+[Paper Link](http://arxiv.org/abs/2311.06928v2)  
 
 ---
 
