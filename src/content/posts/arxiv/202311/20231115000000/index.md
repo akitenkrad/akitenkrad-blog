@@ -392,7 +392,7 @@ Ken E. Friedl, Abbas Goher Khan, Soumya Ranjan Sahoo, Md Rashad Al Hasan Rony, J
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model, QA  
-[Paper Link](http://arxiv.org/abs/2311.07469v1)  
+[Paper Link](http://arxiv.org/abs/2311.07469v2)  
 
 ---
 
@@ -414,13 +414,13 @@ Ang Lv, Kaiyi Zhang, Shufang Xie, Quan Tu, Yuhan Chen, Ji-Rong Wen, Rui Yan. (20
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: GLM  
-[Paper Link](http://arxiv.org/abs/2311.07468v1)  
+[Paper Link](http://arxiv.org/abs/2311.07468v2)  
 
 ---
 
 
 **ABSTRACT**  
-Recent studies have highlighted a phenomenon in large language models (LLMs) known as "the reversal curse," in which the order of knowledge entities in the training data biases the models' comprehension. For example, if a model is trained on sentences where entity A consistently appears before entity B, it can respond to queries about A by providing B. However, it may encounter confusion when presented with questions concerning B. We contend that the reversal curse is partially a result of specific model training objectives, particularly evident in the prevalent use of the next-token prediction within most causal language models. For the next-token prediction, models solely focus on a token's preceding context, resulting in a restricted comprehension of the input. In contrast, we illustrate that the GLM, trained using the autoregressive blank infilling objective where tokens to be predicted have access to the entire context, exhibits better resilience against the reversal curse. We propose a novel training method, BIdirectional Casual language modeling Optimization (BICO), designed to mitigate the reversal curse when fine-tuning pretrained causal language models on new data. BICO modifies the causal attention mechanism to function bidirectionally and employs a mask denoising optimization. In the task designed to assess the reversal curse, our approach improves Llama's accuracy from the original 0% to around 70%. We hope that more attention can be focused on exploring and addressing these inherent weaknesses of the current LLMs, in order to achieve a higher level of intelligence.
+Recent studies have highlighted a phenomenon in large language models (LLMs) known as "the reversal curse," in which the order of knowledge entities in the training data biases the models' comprehension. For example, if a model is trained on sentences where entity A consistently appears before entity B, it can respond to queries about A by providing B as the answer. However, it may encounter confusion when presented with questions concerning B. We contend that the reversal curse is partially a result of specific model training objectives, particularly evident in the prevalent use of the next-token prediction within most causal language models. For the next-token prediction, models solely focus on a token's preceding context, resulting in a restricted comprehension of the input. In contrast, we illustrate that the GLM, trained using the autoregressive blank infilling objective where tokens to be predicted have access to the entire context, exhibits better resilience against the reversal curse. We propose a novel training method, BIdirectional Casual language modeling Optimization (BICO), designed to mitigate the reversal curse when fine-tuning pretrained causal language models on new data. BICO modifies the causal attention mechanism to function bidirectionally and employs a mask denoising optimization. In the task designed to assess the reversal curse, our approach improves Llama's accuracy from the original 0% to around 70%. We hope that more attention can be focused on exploring and addressing these inherent weaknesses of the current LLMs, in order to achieve a higher level of intelligence.
 
 {{</citation>}}
 
@@ -832,13 +832,13 @@ Shuaijie She, Shujian Huang, Xingyun Wang, Yanke Zhou, Jiajun Chen. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: ChatGPT, Dialog, Dialogue, GPT, Language Model, QA  
-[Paper Link](http://arxiv.org/abs/2311.07194v1)  
+[Paper Link](http://arxiv.org/abs/2311.07194v2)  
 
 ---
 
 
 **ABSTRACT**  
-The recent emergence of large language models (LLMs) have attracted considerable attention. LLMs may interact with users in the form of dialogue and generate responses following their instructions, which naturally require dialogue comprehension abilities. Without correct comprehension of the dialogue, the model may inevitably generate incorrect responses. However, dialogue comprehension is a general language ability which is hard to be evaluated directly. In this work, we propose to perform the evaluation with the help of the dialogue summarization task. Beside evaluating and analyzing the dialogue summarization performance (DIAC-Sum), we also derive factual questions from the generated summaries and use them as a more flexible measurement of dialogue comprehension (DIAC-FactQA). Our evaluation shows that, on average, 27% of the summaries generated by LLMs contain factual inconsistency. Even ChatGPT, the strongest evaluated model, has such errors in 16% of its summaries. For answering the factual questions, which is more challenging, the average accuracy of all evaluated LLMs is only 62.8%. Both results indicate serious deficiencies. Detailed analysis shows that the understanding of subject/object of the conversation is still the most challenging problem for LLMs. Furthermore, to stimulate and enhance the dialogue comprehension ability of LLMs, we propose a fine-tuning paradigm with auto-constructed multi-task data. The experimental results demonstrate that our method achieved an accuracy improvement of 8.9% on DIAC-FactQA.
+LLMs may interact with users in the form of dialogue and generate responses following their instructions, which naturally require dialogue comprehension abilities. However, dialogue comprehension is a general language ability which is hard to be evaluated directly. In this work, we propose to perform the evaluation with the help of the dialogue summarization task. Beside evaluating and analyzing the dialogue summarization performance (DIAC-Sum) of different LLMs, we also derive factual questions from the generated summaries and use them as a more flexible measurement of dialogue comprehension (DIAC-FactQA). Our evaluation shows that, on average, 27% of the summaries generated by LLMs contain factual inconsistency. Even ChatGPT, the strongest model evaluated, has such errors in 16% of its summaries. For answering the factual questions, which is more challenging, the average error rate of all evaluated LLMs is 37.2%. Both results indicate serious deficiencies. Detailed analysis shows that the understanding of subject/object of the conversation is still the most challenging problem for LLMs. Furthermore, to stimulate and enhance the dialogue comprehension ability of LLMs, we propose a fine-tuning paradigm with auto-constructed multi-task data. The experimental results demonstrate that our method achieved an error rate improvement of 10.9% on DIAC-FactQA.
 
 {{</citation>}}
 
@@ -1654,7 +1654,7 @@ Jiazhi Li, Mahyar Khayatkhoei, Jiageng Zhu, Hanchen Xie, Mohamed E. Hussein, Wae
 Primary Category: cs.LG  
 Categories: cs-CY, cs-LG, cs.LG  
 Keywords: AI, Bias  
-[Paper Link](http://arxiv.org/abs/2311.07141v1)  
+[Paper Link](http://arxiv.org/abs/2311.07141v2)  
 
 ---
 
@@ -2333,18 +2333,18 @@ Video anomaly detection (VAD) with weak supervision has achieved remarkable perf
 {{</citation>}}
 
 
-### (104/142) Pretrain like You Inference: Masked Tuning Improves Zero-Shot Composed Image Retrieval (Junyang Chen et al., 2023)
+### (104/142) Pretrain like Your Inference: Masked Tuning Improves Zero-Shot Composed Image Retrieval (Junyang Chen et al., 2023)
 
 {{<citation>}}
 
 Junyang Chen, Hanjiang Lai. (2023)  
-**Pretrain like You Inference: Masked Tuning Improves Zero-Shot Composed Image Retrieval**  
+**Pretrain like Your Inference: Masked Tuning Improves Zero-Shot Composed Image Retrieval**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Zero-Shot  
-[Paper Link](http://arxiv.org/abs/2311.07622v1)  
+[Paper Link](http://arxiv.org/abs/2311.07622v2)  
 
 ---
 
