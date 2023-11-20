@@ -2766,7 +2766,7 @@ Cécile Trottet, Manuel Schürch, Ahmed Allam, Imon Barua, Liubov Petelytska, Ol
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, stat-ML  
 Keywords: Semi-Supervised  
-[Paper Link](http://arxiv.org/abs/2311.08149v1)  
+[Paper Link](http://arxiv.org/abs/2311.08149v2)  
 
 ---
 
@@ -3012,7 +3012,7 @@ Manas Ranjan Mohapatra, Rahul Radhakrishnan, Raj Mani Shukla. (2023)
 Primary Category: eess.SY  
 Categories: cs-SY, eess-SY, eess.SY  
 Keywords: LSTM  
-[Paper Link](http://arxiv.org/abs/2311.08550v1)  
+[Paper Link](http://arxiv.org/abs/2311.08550v2)  
 
 ---
 
