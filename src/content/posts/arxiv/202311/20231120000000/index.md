@@ -21,7 +21,7 @@ math: true
 
 ## Primary Categories
 
-- [cs.CV (11)](#cscv-11)
+- [cs.CV (15)](#cscv-15)
 - [cs.SE (3)](#csse-3)
 - [cs.AI (8)](#csai-8)
 - [cs.LG (8)](#cslg-8)
@@ -35,11 +35,11 @@ math: true
 - [cs.HC (2)](#cshc-2)
 - [cs.CR (1)](#cscr-1)
 
-## cs.CV (11)
+## cs.CV (15)
 
 
 
-### (1/58) Active Prompt Learning in Vision Language Models (Jihwan Bang et al., 2023)
+### (1/62) Active Prompt Learning in Vision Language Models (Jihwan Bang et al., 2023)
 
 {{<citation>}}
 
@@ -61,7 +61,29 @@ Pre-trained Vision Language Models (VLMs) have demonstrated notable progress in 
 {{</citation>}}
 
 
-### (2/58) Mitigating Exposure Bias in Discriminator Guided Diffusion Models (Eleftherios Tsonis et al., 2023)
+### (2/62) Security Fence Inspection at Airports Using Object Detection (Nils Friederich et al., 2023)
+
+{{<citation>}}
+
+Nils Friederich, Andreas Specker, Jürgen Beyerer. (2023)  
+**Security Fence Inspection at Airports Using Object Detection**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Object Detection, Security  
+[Paper Link](http://arxiv.org/abs/2311.12064v1)  
+
+---
+
+
+**ABSTRACT**  
+To ensure the security of airports, it is essential to protect the airside from unauthorized access. For this purpose, security fences are commonly used, but they require regular inspection to detect damages. However, due to the growing shortage of human specialists and the large manual effort, there is the need for automated methods. The aim is to automatically inspect the fence for damage with the help of an autonomous robot. In this work, we explore object detection methods to address the fence inspection task and localize various types of damages. In addition to evaluating four State-of-the-Art (SOTA) object detection models, we analyze the impact of several design criteria, aiming at adapting to the task-specific challenges. This includes contrast adjustment, optimization of hyperparameters, and utilization of modern backbones. The experimental results indicate that our optimized You Only Look Once v5 (YOLOv5) model achieves the highest accuracy of the four methods with an increase of 6.9% points in Average Precision (AP) compared to the baseline. Moreover, we show the real-time capability of the model. The trained models are published on GitHub: https://github.com/N-Friederich/airport_fence_inspection.
+
+{{</citation>}}
+
+
+### (3/62) Mitigating Exposure Bias in Discriminator Guided Diffusion Models (Eleftherios Tsonis et al., 2023)
 
 {{<citation>}}
 
@@ -83,7 +105,7 @@ Diffusion Models have demonstrated remarkable performance in image generation. H
 {{</citation>}}
 
 
-### (3/58) Benchmarking Feature Extractors for Reinforcement Learning-Based Semiconductor Defect Localization (Enrique Dehaerne et al., 2023)
+### (4/62) Benchmarking Feature Extractors for Reinforcement Learning-Based Semiconductor Defect Localization (Enrique Dehaerne et al., 2023)
 
 {{<citation>}}
 
@@ -105,7 +127,7 @@ As semiconductor patterning dimensions shrink, more advanced Scanning Electron M
 {{</citation>}}
 
 
-### (4/58) Estimating Uncertainty in Landslide Segmentation Models (Savinay Nagendra et al., 2023)
+### (5/62) Estimating Uncertainty in Landslide Segmentation Models (Savinay Nagendra et al., 2023)
 
 {{<citation>}}
 
@@ -127,7 +149,7 @@ Landslides are a recurring, widespread hazard. Preparation and mitigation effort
 {{</citation>}}
 
 
-### (5/58) ShapeMaker: Self-Supervised Joint Shape Canonicalization, Segmentation, Retrieval and Deformation (Yan Di et al., 2023)
+### (6/62) ShapeMaker: Self-Supervised Joint Shape Canonicalization, Segmentation, Retrieval and Deformation (Yan Di et al., 2023)
 
 {{<citation>}}
 
@@ -149,7 +171,7 @@ In this paper, we present ShapeMaker, a unified self-supervised learning framewo
 {{</citation>}}
 
 
-### (6/58) Radiology Report Generation Using Transformers Conditioned with Non-imaging Data (Nurbanu Aksoy et al., 2023)
+### (7/62) Radiology Report Generation Using Transformers Conditioned with Non-imaging Data (Nurbanu Aksoy et al., 2023)
 
 {{<citation>}}
 
@@ -171,7 +193,29 @@ Medical image interpretation is central to most clinical applications such as di
 {{</citation>}}
 
 
-### (7/58) HIDRO-VQA: High Dynamic Range Oracle for Video Quality Assessment (Shreshth Saini et al., 2023)
+### (8/62) Kuro Siwo: 12.1 billion $m^2$ under the water. A global multi-temporal satellite dataset for rapid flood mapping (Nikolaos Ioannis Bountos et al., 2023)
+
+{{<citation>}}
+
+Nikolaos Ioannis Bountos, Maria Sdraka, Angelos Zavras, Ilektra Karasante, Andreas Karavias, Themistocles Herekakis, Angeliki Thanasou, Dimitrios Michail, Ioannis Papoutsis. (2023)  
+**Kuro Siwo: 12.1 billion $m^2$ under the water. A global multi-temporal satellite dataset for rapid flood mapping**  
+
+---
+Primary Category: cs.CV  
+Categories: I-2; I-4; I-5-4, cs-AI, cs-CV, cs-LG, cs.CV, eess-IV  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2311.12056v1)  
+
+---
+
+
+**ABSTRACT**  
+Global floods, exacerbated by climate change, pose severe threats to human life, infrastructure, and the environment. This urgency is highlighted by recent catastrophic events in Pakistan and New Zealand, underlining the critical need for precise flood mapping for guiding restoration efforts, understanding vulnerabilities, and preparing for future events. While Synthetic Aperture Radar (SAR) offers day-and-night, all-weather imaging capabilities, harnessing it for deep learning is hindered by the absence of a large annotated dataset. To bridge this gap, we introduce Kuro Siwo, a meticulously curated multi-temporal dataset, spanning 32 flood events globally. Our dataset maps more than 63 billion m2 of land, with 12.1 billion of them being either a flooded area or a permanent water body. Kuro Siwo stands out for its unparalleled annotation quality to facilitate rapid flood mapping in a supervised setting. We also augment learning by including a large unlabeled set of SAR samples, aimed at self-supervised pretraining. We provide an extensive benchmark and strong baselines for a diverse set of flood events from Europe, America, Africa and Australia. Our benchmark demonstrates the quality of Kuro Siwo annotations, training models that can achieve $\approx$ 85% and $\approx$ 87% in F1-score for flooded areas and general water detection respectively. This work calls on the deep learning community to develop solution-driven algorithms for rapid flood mapping, with the potential to aid civil protection and humanitarian agencies amid climate change challenges. Our code and data will be made available at https://github.com/Orion-AI-Lab/KuroSiwo
+
+{{</citation>}}
+
+
+### (9/62) HIDRO-VQA: High Dynamic Range Oracle for Video Quality Assessment (Shreshth Saini et al., 2023)
 
 {{<citation>}}
 
@@ -193,7 +237,7 @@ We introduce HIDRO-VQA, a no-reference (NR) video quality assessment model desig
 {{</citation>}}
 
 
-### (8/58) Geometric Data Augmentations to Mitigate Distribution Shifts in Pollen Classification from Microscopic Images (Nam Cao et al., 2023)
+### (10/62) Geometric Data Augmentations to Mitigate Distribution Shifts in Pollen Classification from Microscopic Images (Nam Cao et al., 2023)
 
 {{<citation>}}
 
@@ -215,7 +259,51 @@ Distribution shifts are characterized by differences between the training and te
 {{</citation>}}
 
 
-### (9/58) Learning Scene Context Without Images (Amirreza Rouhi et al., 2023)
+### (11/62) Boost Adversarial Transferability by Uniform Scale and Mix Mask Method (Tao Wang et al., 2023)
+
+{{<citation>}}
+
+Tao Wang, Zijian Ying, Qianmu Li, zhichao Lian. (2023)  
+**Boost Adversarial Transferability by Uniform Scale and Mix Mask Method**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: ImageNet  
+[Paper Link](http://arxiv.org/abs/2311.12051v1)  
+
+---
+
+
+**ABSTRACT**  
+Adversarial examples generated from surrogate models often possess the ability to deceive other black-box models, a property known as transferability. Recent research has focused on enhancing adversarial transferability, with input transformation being one of the most effective approaches. However, existing input transformation methods suffer from two issues. Firstly, certain methods, such as the Scale-Invariant Method, employ exponentially decreasing scale invariant parameters that decrease the adaptability in generating effective adversarial examples across multiple scales. Secondly, most mixup methods only linearly combine candidate images with the source image, leading to reduced features blending effectiveness. To address these challenges, we propose a framework called Uniform Scale and Mix Mask Method (US-MM) for adversarial example generation. The Uniform Scale approach explores the upper and lower boundaries of perturbation with a linear factor, minimizing the negative impact of scale copies. The Mix Mask method introduces masks into the mixing process in a nonlinear manner, significantly improving the effectiveness of mixing strategies. Ablation experiments are conducted to validate the effectiveness of each component in US-MM and explore the effect of hyper-parameters. Empirical evaluations on standard ImageNet datasets demonstrate that US-MM achieves an average of 7% better transfer attack success rate compared to state-of-the-art methods.
+
+{{</citation>}}
+
+
+### (12/62) Energizing Federated Learning via Filter-Aware Attention (Ziyuan Yang et al., 2023)
+
+{{<citation>}}
+
+Ziyuan Yang, Zerui Shao, Huijie Huangfu, Hui Yu, Andrew Beng Jin Teoh, Xiaoxiao Li, Hongming Shan, Yi Zhang. (2023)  
+**Energizing Federated Learning via Filter-Aware Attention**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Attention, Pruning  
+[Paper Link](http://arxiv.org/abs/2311.12049v1)  
+
+---
+
+
+**ABSTRACT**  
+Federated learning (FL) is a promising distributed paradigm, eliminating the need for data sharing but facing challenges from data heterogeneity. Personalized parameter generation through a hypernetwork proves effective, yet existing methods fail to personalize local model structures. This leads to redundant parameters struggling to adapt to diverse data distributions. To address these limitations, we propose FedOFA, utilizing personalized orthogonal filter attention for parameter recalibration. The core is the Two-stream Filter-aware Attention (TFA) module, meticulously designed to extract personalized filter-aware attention maps, incorporating Intra-Filter Attention (IntraFa) and Inter-Filter Attention (InterFA) streams. These streams enhance representation capability and explore optimal implicit structures for local models. Orthogonal regularization minimizes redundancy by averting inter-correlation between filters. Furthermore, we introduce an Attention-Guided Pruning Strategy (AGPS) for communication efficiency. AGPS selectively retains crucial neurons while masking redundant ones, reducing communication costs without performance sacrifice. Importantly, FedOFA operates on the server side, incurring no additional computational cost on the client, making it advantageous in communication-constrained scenarios. Extensive experiments validate superior performance over state-of-the-art approaches, with code availability upon paper acceptance.
+
+{{</citation>}}
+
+
+### (13/62) Learning Scene Context Without Images (Amirreza Rouhi et al., 2023)
 
 {{<citation>}}
 
@@ -237,7 +325,7 @@ Teaching machines of scene contextual knowledge would enable them to interact mo
 {{</citation>}}
 
 
-### (10/58) Behavior Optimized Image Generation (Varun Khurana et al., 2023)
+### (14/62) Behavior Optimized Image Generation (Varun Khurana et al., 2023)
 
 {{<citation>}}
 
@@ -259,7 +347,7 @@ The last few years have witnessed great success on image generation, which has c
 {{</citation>}}
 
 
-### (11/58) Multiple View Geometry Transformers for 3D Human Pose Estimation (Ziwei Liao et al., 2023)
+### (15/62) Multiple View Geometry Transformers for 3D Human Pose Estimation (Ziwei Liao et al., 2023)
 
 {{<citation>}}
 
@@ -285,7 +373,7 @@ In this work, we aim to improve the 3D reasoning ability of Transformers in mult
 
 
 
-### (12/58) Assessing the Security of GitHub Copilot Generated Code -- A Targeted Replication Study (Vahid Majdinasab et al., 2023)
+### (16/62) Assessing the Security of GitHub Copilot Generated Code -- A Targeted Replication Study (Vahid Majdinasab et al., 2023)
 
 {{<citation>}}
 
@@ -307,7 +395,7 @@ AI-powered code generation models have been developing rapidly, allowing develop
 {{</citation>}}
 
 
-### (13/58) (Why) Is My Prompt Getting Worse? Rethinking Regression Testing for Evolving LLM APIs (Wanqin Ma et al., 2023)
+### (17/62) (Why) Is My Prompt Getting Worse? Rethinking Regression Testing for Evolving LLM APIs (Wanqin Ma et al., 2023)
 
 {{<citation>}}
 
@@ -329,7 +417,7 @@ Large Language Models (LLMs) are increasingly integrated into software applicati
 {{</citation>}}
 
 
-### (14/58) Can AI Serve as a Substitute for Human Subjects in Software Engineering Research? (Marco A. Gerosa et al., 2023)
+### (18/62) Can AI Serve as a Substitute for Human Subjects in Software Engineering Research? (Marco A. Gerosa et al., 2023)
 
 {{<citation>}}
 
@@ -355,7 +443,7 @@ Research within sociotechnical domains, such as Software Engineering, fundamenta
 
 
 
-### (15/58) Best uses of ChatGPT and Generative AI for computer science research (Eduardo C. Garrido-Merchan, 2023)
+### (19/62) Best uses of ChatGPT and Generative AI for computer science research (Eduardo C. Garrido-Merchan, 2023)
 
 {{<citation>}}
 
@@ -377,7 +465,7 @@ Generative Artificial Intelligence (AI), particularly tools like OpenAI's popula
 {{</citation>}}
 
 
-### (16/58) An Improved Neural Network Model Based On CNN Using For Fruit Sugar Degree Detection (Boyang Deng et al., 2023)
+### (20/62) An Improved Neural Network Model Based On CNN Using For Fruit Sugar Degree Detection (Boyang Deng et al., 2023)
 
 {{<citation>}}
 
@@ -399,7 +487,7 @@ Artificial Intelligence(AI) widely applies in Image Classification and Recogniti
 {{</citation>}}
 
 
-### (17/58) Designing Interpretable ML System to Enhance Trustworthy AI in Healthcare: A Systematic Review of the Last Decade to A Proposed Robust Framework (Elham Nasarian et al., 2023)
+### (21/62) Designing Interpretable ML System to Enhance Trustworthy AI in Healthcare: A Systematic Review of the Last Decade to A Proposed Robust Framework (Elham Nasarian et al., 2023)
 
 {{<citation>}}
 
@@ -421,7 +509,7 @@ AI-based medical technologies, including wearables, telemedicine, LLMs, and digi
 {{</citation>}}
 
 
-### (18/58) Orca 2: Teaching Small Language Models How to Reason (Arindam Mitra et al., 2023)
+### (22/62) Orca 2: Teaching Small Language Models How to Reason (Arindam Mitra et al., 2023)
 
 {{<citation>}}
 
@@ -443,7 +531,7 @@ Orca 1 learns from rich signals, such as explanation traces, allowing it to outp
 {{</citation>}}
 
 
-### (19/58) Data Center Audio/Video Intelligence on Device (DAVID) -- An Edge-AI Platform for Smart-Toys (Gabriel Cosache et al., 2023)
+### (23/62) Data Center Audio/Video Intelligence on Device (DAVID) -- An Edge-AI Platform for Smart-Toys (Gabriel Cosache et al., 2023)
 
 {{<citation>}}
 
@@ -465,7 +553,7 @@ An overview is given of the DAVID Smart-Toy platform, one of the first Edge AI p
 {{</citation>}}
 
 
-### (20/58) HungerGist: An Interpretable Predictive Model for Food Insecurity (Yongsu Ahn et al., 2023)
+### (24/62) HungerGist: An Interpretable Predictive Model for Food Insecurity (Yongsu Ahn et al., 2023)
 
 {{<citation>}}
 
@@ -487,29 +575,29 @@ The escalating food insecurity in Africa, caused by factors such as war, climate
 {{</citation>}}
 
 
-### (21/58) Case Repositories: Towards Case-Based Reasoning for AI Alignment (K. J. Kevin Feng et al., 2023)
+### (25/62) Case Repositories: Towards Case-Based Reasoning for AI Alignment (K. J. Kevin Feng et al., 2023)
 
 {{<citation>}}
 
-K. J. Kevin Feng, Quan Ze, Chen, Inyoung Cheong, King Xia, Amy X. Zhang. (2023)  
+K. J. Kevin Feng, Quan Ze Chen, Inyoung Cheong, King Xia, Amy X. Zhang. (2023)  
 **Case Repositories: Towards Case-Based Reasoning for AI Alignment**  
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CY, cs-HC, cs.AI  
 Keywords: AI, Reasoning  
-[Paper Link](http://arxiv.org/abs/2311.10934v1)  
+[Paper Link](http://arxiv.org/abs/2311.10934v2)  
 
 ---
 
 
 **ABSTRACT**  
-Case studies commonly form the pedagogical backbone in law, ethics, and many other domains that face complex and ambiguous societal questions informed by human values. Similar complexities and ambiguities arise when we consider how AI should be aligned in practice: when faced with vast quantities of diverse (and sometimes conflicting) values from different individuals and communities, with whose values is AI to align, and how should AI do so? We propose a complementary approach to constitutional AI alignment, grounded in ideas from case-based reasoning (CBR), that focuses on the construction of policies through judgments on a set of cases. We present a process to assemble such a case repository by: 1) gathering a set of ``seed'' cases -- questions one may ask an AI system -- in a particular domain from discussions in online communities, 2) eliciting domain-specific key dimensions for cases through workshops with domain experts, 3) using LLMs to generate variations of cases not seen in the wild, and 4) engaging with the public to judge and improve cases. We then discuss how such a case repository could assist in AI alignment, both through directly acting as precedents to ground acceptable behaviors, and as a medium for individuals and communities to engage in moral reasoning around AI
+Case studies commonly form the pedagogical backbone in law, ethics, and many other domains that face complex and ambiguous societal questions informed by human values. Similar complexities and ambiguities arise when we consider how AI should be aligned in practice: when faced with vast quantities of diverse (and sometimes conflicting) values from different individuals and communities, with whose values is AI to align, and how should AI do so? We propose a complementary approach to constitutional AI alignment, grounded in ideas from case-based reasoning (CBR), that focuses on the construction of policies through judgments on a set of cases. We present a process to assemble such a case repository by: 1) gathering a set of ``seed'' cases -- questions one may ask an AI system -- in a particular domain from discussions in online communities, 2) eliciting domain-specific key dimensions for cases through workshops with domain experts, 3) using LLMs to generate variations of cases not seen in the wild, and 4) engaging with the public to judge and improve cases. We then discuss how such a case repository could assist in AI alignment, both through directly acting as precedents to ground acceptable behaviors, and as a medium for individuals and communities to engage in moral reasoning around AI.
 
 {{</citation>}}
 
 
-### (22/58) Representing visual classification as a linear combination of words (Shobhit Agarwal et al., 2023)
+### (26/62) Representing visual classification as a linear combination of words (Shobhit Agarwal et al., 2023)
 
 {{<citation>}}
 
@@ -535,7 +623,7 @@ Explainability is a longstanding challenge in deep learning, especially in high-
 
 
 
-### (23/58) Low-Precision Floating-Point for Efficient On-Board Deep Neural Network Processing (Cédric Gernigon et al., 2023)
+### (27/62) Low-Precision Floating-Point for Efficient On-Board Deep Neural Network Processing (Cédric Gernigon et al., 2023)
 
 {{<citation>}}
 
@@ -557,7 +645,7 @@ One of the major bottlenecks in high-resolution Earth Observation (EO) space sys
 {{</citation>}}
 
 
-### (24/58) Environment-Aware Dynamic Graph Learning for Out-of-Distribution Generalization (Haonan Yuan et al., 2023)
+### (28/62) Environment-Aware Dynamic Graph Learning for Out-of-Distribution Generalization (Haonan Yuan et al., 2023)
 
 {{<citation>}}
 
@@ -579,7 +667,7 @@ Dynamic graph neural networks (DGNNs) are increasingly pervasive in exploiting s
 {{</citation>}}
 
 
-### (25/58) Deep Tensor Network (Yifan Zhang, 2023)
+### (29/62) Deep Tensor Network (Yifan Zhang, 2023)
 
 {{<citation>}}
 
@@ -601,7 +689,7 @@ In this paper, we delve into the foundational principles of tensor categories, h
 {{</citation>}}
 
 
-### (26/58) Compositional Fusion of Signals in Data Embedding (Zhijin Guo et al., 2023)
+### (30/62) Compositional Fusion of Signals in Data Embedding (Zhijin Guo et al., 2023)
 
 {{<citation>}}
 
@@ -623,7 +711,7 @@ Embeddings in AI convert symbolic structures into fixed-dimensional vectors, eff
 {{</citation>}}
 
 
-### (27/58) ECLM: Efficient Edge-Cloud Collaborative Learning with Continuous Environment Adaptation (Yan Zhuang et al., 2023)
+### (31/62) ECLM: Efficient Edge-Cloud Collaborative Learning with Continuous Environment Adaptation (Yan Zhuang et al., 2023)
 
 {{<citation>}}
 
@@ -645,7 +733,7 @@ Pervasive mobile AI applications primarily employ one of the two learning paradi
 {{</citation>}}
 
 
-### (28/58) Tactics2D: A Multi-agent Reinforcement Learning Environment for Driving Decision-making (Yueyuan Li et al., 2023)
+### (32/62) Tactics2D: A Multi-agent Reinforcement Learning Environment for Driving Decision-making (Yueyuan Li et al., 2023)
 
 {{<citation>}}
 
@@ -667,7 +755,7 @@ Tactics2D is an open-source multi-agent reinforcement learning library with a Py
 {{</citation>}}
 
 
-### (29/58) SORTAD: Self-Supervised Optimized Random Transformations for Anomaly Detection in Tabular Data (Guy Hay et al., 2023)
+### (33/62) SORTAD: Self-Supervised Optimized Random Transformations for Anomaly Detection in Tabular Data (Guy Hay et al., 2023)
 
 {{<citation>}}
 
@@ -689,7 +777,7 @@ We consider a self-supervised approach to anomaly detection in tabular data. Ran
 {{</citation>}}
 
 
-### (30/58) BrainZ-BP: A Non-invasive Cuff-less Blood Pressure Estimation Approach Leveraging Brain Bio-impedance and Electrocardiogram (Bufang Yang et al., 2023)
+### (34/62) BrainZ-BP: A Non-invasive Cuff-less Blood Pressure Estimation Approach Leveraging Brain Bio-impedance and Electrocardiogram (Bufang Yang et al., 2023)
 
 {{<citation>}}
 
@@ -715,7 +803,7 @@ Accurate and continuous blood pressure (BP) monitoring is essential to the early
 
 
 
-### (31/58) Experts-in-the-Loop: Establishing an Effective Workflow in Crafting Privacy Q&A (Zahra Kolagar et al., 2023)
+### (35/62) Experts-in-the-Loop: Establishing an Effective Workflow in Crafting Privacy Q&A (Zahra Kolagar et al., 2023)
 
 {{<citation>}}
 
@@ -737,7 +825,7 @@ Privacy policies play a vital role in safeguarding user privacy as legal jurisdi
 {{</citation>}}
 
 
-### (32/58) Vashantor: A Large-scale Multilingual Benchmark Dataset for Automated Translation of Bangla Regional Dialects to Bangla Language (Fatema Tuj Johora Faria et al., 2023)
+### (36/62) Vashantor: A Large-scale Multilingual Benchmark Dataset for Automated Translation of Bangla Regional Dialects to Bangla Language (Fatema Tuj Johora Faria et al., 2023)
 
 {{<citation>}}
 
@@ -759,7 +847,7 @@ The Bangla linguistic variety is a fascinating mix of regional dialects that add
 {{</citation>}}
 
 
-### (33/58) A Principled Framework for Knowledge-enhanced Large Language Model (Saizhuo Wang et al., 2023)
+### (37/62) A Principled Framework for Knowledge-enhanced Large Language Model (Saizhuo Wang et al., 2023)
 
 {{<citation>}}
 
@@ -781,7 +869,7 @@ Large Language Models (LLMs) are versatile, yet they often falter in tasks requi
 {{</citation>}}
 
 
-### (34/58) Utilizing Speech Emotion Recognition and Recommender Systems for Negative Emotion Handling in Therapy Chatbots (Farideh Majidi et al., 2023)
+### (38/62) Utilizing Speech Emotion Recognition and Recommender Systems for Negative Emotion Handling in Therapy Chatbots (Farideh Majidi et al., 2023)
 
 {{<citation>}}
 
@@ -803,7 +891,7 @@ Emotional well-being significantly influences mental health and overall quality 
 {{</citation>}}
 
 
-### (35/58) Responsible AI Considerations in Text Summarization Research: A Review of Current Practices (Yu Lu Liu et al., 2023)
+### (39/62) Responsible AI Considerations in Text Summarization Research: A Review of Current Practices (Yu Lu Liu et al., 2023)
 
 {{<citation>}}
 
@@ -825,7 +913,7 @@ AI and NLP publication venues have increasingly encouraged researchers to reflec
 {{</citation>}}
 
 
-### (36/58) Combining EEG and NLP Features for Predicting Students' Lecture Comprehension using Ensemble Classification (Phantharach Natnithikarat et al., 2023)
+### (40/62) Combining EEG and NLP Features for Predicting Students' Lecture Comprehension using Ensemble Classification (Phantharach Natnithikarat et al., 2023)
 
 {{<citation>}}
 
@@ -847,7 +935,7 @@ Electroencephalography (EEG) and Natural Language Processing (NLP) can be applie
 {{</citation>}}
 
 
-### (37/58) Adapters: A Unified Library for Parameter-Efficient and Modular Transfer Learning (Clifton Poth et al., 2023)
+### (41/62) Adapters: A Unified Library for Parameter-Efficient and Modular Transfer Learning (Clifton Poth et al., 2023)
 
 {{<citation>}}
 
@@ -869,7 +957,7 @@ We introduce Adapters, an open-source library that unifies parameter-efficient a
 {{</citation>}}
 
 
-### (38/58) Bit Cipher -- A Simple yet Powerful Word Representation System that Integrates Efficiently with Language Models (Haoran Zhao et al., 2023)
+### (42/62) Bit Cipher -- A Simple yet Powerful Word Representation System that Integrates Efficiently with Language Models (Haoran Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -891,7 +979,7 @@ While Large Language Models (LLMs) become ever more dominant, classic pre-traine
 {{</citation>}}
 
 
-### (39/58) Joyful: Joint Modality Fusion and Graph Contrastive Learning for Multimodal Emotion Recognition (Dongyuan Li et al., 2023)
+### (43/62) Joyful: Joint Modality Fusion and Graph Contrastive Learning for Multimodal Emotion Recognition (Dongyuan Li et al., 2023)
 
 {{<citation>}}
 
@@ -913,7 +1001,7 @@ Multimodal emotion recognition aims to recognize emotions for each utterance of 
 {{</citation>}}
 
 
-### (40/58) Journey of Hallucination-minimized Generative AI Solutions for Financial Decision Makers (Sohini Roychowdhury, 2023)
+### (44/62) Journey of Hallucination-minimized Generative AI Solutions for Financial Decision Makers (Sohini Roychowdhury, 2023)
 
 {{<citation>}}
 
@@ -935,7 +1023,7 @@ Generative AI has significantly reduced the entry barrier to the domain of AI ow
 {{</citation>}}
 
 
-### (41/58) An Empirical Bayes Framework for Open-Domain Dialogue Generation (Jing Yang Lee et al., 2023)
+### (45/62) An Empirical Bayes Framework for Open-Domain Dialogue Generation (Jing Yang Lee et al., 2023)
 
 {{<citation>}}
 
@@ -957,7 +1045,7 @@ To engage human users in meaningful conversation, open-domain dialogue agents ar
 {{</citation>}}
 
 
-### (42/58) Partially Randomizing Transformer Weights for Dialogue Response Diversity (Jing Yang Lee et al., 2023)
+### (46/62) Partially Randomizing Transformer Weights for Dialogue Response Diversity (Jing Yang Lee et al., 2023)
 
 {{<citation>}}
 
@@ -979,7 +1067,7 @@ Despite recent progress in generative open-domain dialogue, the issue of low res
 {{</citation>}}
 
 
-### (43/58) CAMRA: Copilot for AMR Annotation (Jon Z. Cai et al., 2023)
+### (47/62) CAMRA: Copilot for AMR Annotation (Jon Z. Cai et al., 2023)
 
 {{<citation>}}
 
@@ -1001,7 +1089,7 @@ In this paper, we introduce CAMRA (Copilot for AMR Annotatations), a cutting-edg
 {{</citation>}}
 
 
-### (44/58) Understanding and Mitigating Classification Errors Through Interpretable Token Patterns (Michael A. Hedderich et al., 2023)
+### (48/62) Understanding and Mitigating Classification Errors Through Interpretable Token Patterns (Michael A. Hedderich et al., 2023)
 
 {{<citation>}}
 
@@ -1027,7 +1115,7 @@ State-of-the-art NLP methods achieve human-like performance on many tasks, but m
 
 
 
-### (45/58) Contextualizing Internet Memes Across Social Media Platforms (Saurav Joshi et al., 2023)
+### (49/62) Contextualizing Internet Memes Across Social Media Platforms (Saurav Joshi et al., 2023)
 
 {{<citation>}}
 
@@ -1049,7 +1137,7 @@ Internet memes have emerged as a novel format for communication and expressing i
 {{</citation>}}
 
 
-### (46/58) DSCom: A Data-Driven Self-Adaptive Community-Based Framework for Influence Maximization in Social Networks (Yuxin Zuo et al., 2023)
+### (50/62) DSCom: A Data-Driven Self-Adaptive Community-Based Framework for Influence Maximization in Social Networks (Yuxin Zuo et al., 2023)
 
 {{<citation>}}
 
@@ -1071,7 +1159,7 @@ Influence maximization aims to find a subset of seeds that maximize the influenc
 {{</citation>}}
 
 
-### (47/58) Community-Aware Efficient Graph Contrastive Learning via Personalized Self-Training (Yuecheng Li et al., 2023)
+### (51/62) Community-Aware Efficient Graph Contrastive Learning via Personalized Self-Training (Yuecheng Li et al., 2023)
 
 {{<citation>}}
 
@@ -1097,7 +1185,7 @@ In recent years, graph contrastive learning (GCL) has emerged as one of the opti
 
 
 
-### (48/58) The state of OAI-PMH repositories in Canadian Universities (Frédéric Piedboeuf et al., 2023)
+### (52/62) The state of OAI-PMH repositories in Canadian Universities (Frédéric Piedboeuf et al., 2023)
 
 {{<citation>}}
 
@@ -1123,7 +1211,7 @@ This article presents a study of the current state of Universities Institutional
 
 
 
-### (49/58) User-Centric Interactive AI for Distributed Diffusion Model-based AI-Generated Content (Hongyang Du et al., 2023)
+### (53/62) User-Centric Interactive AI for Distributed Diffusion Model-based AI-Generated Content (Hongyang Du et al., 2023)
 
 {{<citation>}}
 
@@ -1149,7 +1237,7 @@ Distributed Artificial Intelligence-Generated Content (AIGC) has attracted incre
 
 
 
-### (50/58) LightBTSeg: A lightweight breast tumor segmentation model using ultrasound images via dual-path joint knowledge distillation (Hongjiang Guo et al., 2023)
+### (54/62) LightBTSeg: A lightweight breast tumor segmentation model using ultrasound images via dual-path joint knowledge distillation (Hongjiang Guo et al., 2023)
 
 {{<citation>}}
 
@@ -1171,7 +1259,7 @@ The accurate segmentation of breast tumors is an important prerequisite for lesi
 {{</citation>}}
 
 
-### (51/58) Enhancing Transformer-Based Segmentation for Breast Cancer Diagnosis using Auto-Augmentation and Search Optimisation Techniques (Leon Hamnett et al., 2023)
+### (55/62) Enhancing Transformer-Based Segmentation for Breast Cancer Diagnosis using Auto-Augmentation and Search Optimisation Techniques (Leon Hamnett et al., 2023)
 
 {{<citation>}}
 
@@ -1193,7 +1281,7 @@ Breast cancer remains a critical global health challenge, necessitating early an
 {{</citation>}}
 
 
-### (52/58) Structure-Aware Sparse-View X-ray 3D Reconstruction (Yuanhao Cai et al., 2023)
+### (56/62) Structure-Aware Sparse-View X-ray 3D Reconstruction (Yuanhao Cai et al., 2023)
 
 {{<citation>}}
 
@@ -1219,7 +1307,7 @@ X-ray, known for its ability to reveal internal structures of objects, is expect
 
 
 
-### (53/58) SBTRec- A Transformer Framework for Personalized Tour Recommendation Problem with Sentiment Analysis (Ngai Lam Ho et al., 2023)
+### (57/62) SBTRec- A Transformer Framework for Personalized Tour Recommendation Problem with Sentiment Analysis (Ngai Lam Ho et al., 2023)
 
 {{<citation>}}
 
@@ -1241,7 +1329,7 @@ When traveling to an unfamiliar city for holidays, tourists often rely on guideb
 {{</citation>}}
 
 
-### (54/58) RecExplainer: Aligning Large Language Models for Recommendation Model Interpretability (Yuxuan Lei et al., 2023)
+### (58/62) RecExplainer: Aligning Large Language Models for Recommendation Model Interpretability (Yuxuan Lei et al., 2023)
 
 {{<citation>}}
 
@@ -1267,7 +1355,7 @@ Recommender systems are widely used in various online services, with embedding-b
 
 
 
-### (55/58) AIMS-EREA -- A framework for AI-accelerated Innovation of Materials for Sustainability -- for Environmental Remediation and Energy Applications (Sudarson Roy Pratihar et al., 2023)
+### (59/62) AIMS-EREA -- A framework for AI-accelerated Innovation of Materials for Sustainability -- for Environmental Remediation and Energy Applications (Sudarson Roy Pratihar et al., 2023)
 
 {{<citation>}}
 
@@ -1293,7 +1381,7 @@ Many environmental remediation and energy applications (conversion and storage) 
 
 
 
-### (56/58) Images Connect Us Together: Navigating a COVID-19 Local Outbreak in China Through Social Media Images (Changyang He et al., 2023)
+### (60/62) Images Connect Us Together: Navigating a COVID-19 Local Outbreak in China Through Social Media Images (Changyang He et al., 2023)
 
 {{<citation>}}
 
@@ -1315,7 +1403,7 @@ Social media images, curated or casual, have become a crucial component of commu
 {{</citation>}}
 
 
-### (57/58) Engage Wider Audience or Facilitate Quality Answers? a Mixed-methods Analysis of Questioning Strategies for Research Sensemaking on a Community Q&A Site (Changyang He et al., 2023)
+### (61/62) Engage Wider Audience or Facilitate Quality Answers? a Mixed-methods Analysis of Questioning Strategies for Research Sensemaking on a Community Q&A Site (Changyang He et al., 2023)
 
 {{<citation>}}
 
@@ -1341,7 +1429,7 @@ Discussing research-sensemaking questions on Community Question and Answering (C
 
 
 
-### (58/58) Reveal the Mathematical Structures of Honeyword Security Metrics (Pengcheng Su et al., 2023)
+### (62/62) Reveal the Mathematical Structures of Honeyword Security Metrics (Pengcheng Su et al., 2023)
 
 {{<citation>}}
 

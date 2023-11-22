@@ -22,10 +22,10 @@ math: true
 ## Primary Categories
 
 - [cs.CL (11)](#cscl-11)
-- [cs.CV (12)](#cscv-12)
+- [cs.CR (4)](#cscr-4)
+- [cs.CV (15)](#cscv-15)
 - [cs.SE (1)](#csse-1)
 - [cs.IT (1)](#csit-1)
-- [cs.CR (3)](#cscr-3)
 - [quant-ph (2)](#quant-ph-2)
 - [cs.CE (1)](#csce-1)
 - [cs.LG (13)](#cslg-13)
@@ -44,7 +44,7 @@ math: true
 
 
 
-### (1/62) LLM aided semi-supervision for Extractive Dialog Summarization (Nishant Mishra et al., 2023)
+### (1/66) LLM aided semi-supervision for Extractive Dialog Summarization (Nishant Mishra et al., 2023)
 
 {{<citation>}}
 
@@ -66,7 +66,7 @@ Generating high-quality summaries for chat dialogs often requires large labeled 
 {{</citation>}}
 
 
-### (2/62) Spot the Bot: Distinguishing Human-Written and Bot-Generated Texts Using Clustering and Information Theory Techniques (Vasilii Gromov et al., 2023)
+### (2/66) Spot the Bot: Distinguishing Human-Written and Bot-Generated Texts Using Clustering and Information Theory Techniques (Vasilii Gromov et al., 2023)
 
 {{<citation>}}
 
@@ -88,7 +88,7 @@ With the development of generative models like GPT-3, it is increasingly more ch
 {{</citation>}}
 
 
-### (3/62) Unveiling Public Perceptions: Machine Learning-Based Sentiment Analysis of COVID-19 Vaccines in India (Milind Gupta et al., 2023)
+### (3/66) Unveiling Public Perceptions: Machine Learning-Based Sentiment Analysis of COVID-19 Vaccines in India (Milind Gupta et al., 2023)
 
 {{<citation>}}
 
@@ -110,7 +110,7 @@ In March 2020, the World Health Organisation declared COVID-19 a global pandemic
 {{</citation>}}
 
 
-### (4/62) ML-LMCL: Mutual Learning and Large-Margin Contrastive Learning for Improving ASR Robustness in Spoken Language Understanding (Xuxin Cheng et al., 2023)
+### (4/66) ML-LMCL: Mutual Learning and Large-Margin Contrastive Learning for Improving ASR Robustness in Spoken Language Understanding (Xuxin Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -132,7 +132,7 @@ Spoken language understanding (SLU) is a fundamental task in the task-oriented d
 {{</citation>}}
 
 
-### (5/62) Portuguese FAQ for Financial Services (Paulo Finardi et al., 2023)
+### (5/66) Portuguese FAQ for Financial Services (Paulo Finardi et al., 2023)
 
 {{<citation>}}
 
@@ -154,7 +154,7 @@ Scarcity of domain-specific data in the Portuguese financial domain has disfavor
 {{</citation>}}
 
 
-### (6/62) CHAMP: Efficient Annotation and Consolidation of Cluster Hierarchies (Arie Cattan et al., 2023)
+### (6/66) CHAMP: Efficient Annotation and Consolidation of Cluster Hierarchies (Arie Cattan et al., 2023)
 
 {{<citation>}}
 
@@ -176,7 +176,7 @@ Various NLP tasks require a complex hierarchical structure over nodes, where eac
 {{</citation>}}
 
 
-### (7/62) A Cross-Attention Augmented Model for Event-Triggered Context-Aware Story Generation (Chen Tang et al., 2023)
+### (7/66) A Cross-Attention Augmented Model for Event-Triggered Context-Aware Story Generation (Chen Tang et al., 2023)
 
 {{<citation>}}
 
@@ -198,7 +198,7 @@ Despite recent advancements, existing story generation systems continue to encou
 {{</citation>}}
 
 
-### (8/62) Towards Real-World Writing Assistance: A Chinese Character Checking Benchmark with Faked and Misspelled Characters (Yinghui Li et al., 2023)
+### (8/66) Towards Real-World Writing Assistance: A Chinese Character Checking Benchmark with Faked and Misspelled Characters (Yinghui Li et al., 2023)
 
 {{<citation>}}
 
@@ -220,7 +220,7 @@ Writing assistance is an application closely related to human life and is also a
 {{</citation>}}
 
 
-### (9/62) Rethinking Large Language Models in Mental Health Applications (Shaoxiong Ji et al., 2023)
+### (9/66) Rethinking Large Language Models in Mental Health Applications (Shaoxiong Ji et al., 2023)
 
 {{<citation>}}
 
@@ -242,7 +242,7 @@ Large Language Models (LLMs) have become valuable assets in mental health, showi
 {{</citation>}}
 
 
-### (10/62) Causal ATE Mitigates Unintended Bias in Controlled Text Generation (Rahul Madhavan et al., 2023)
+### (10/66) Causal ATE Mitigates Unintended Bias in Controlled Text Generation (Rahul Madhavan et al., 2023)
 
 {{<citation>}}
 
@@ -264,7 +264,7 @@ We study attribute control in language models through the method of Causal Avera
 {{</citation>}}
 
 
-### (11/62) SPLAIN: Augmenting CybersecurityWarnings with Reasons and Data (Vera A. Kazakova et al., 2023)
+### (11/66) SPLAIN: Augmenting CybersecurityWarnings with Reasons and Data (Vera A. Kazakova et al., 2023)
 
 {{<citation>}}
 
@@ -286,11 +286,103 @@ Effective cyber threat recognition and prevention demand comprehensible forecast
 {{</citation>}}
 
 
-## cs.CV (12)
+## cs.CR (4)
 
 
 
-### (12/62) Appearance Codes using Joint Embedding Learning of Multiple Modalities (Alex Zhang et al., 2023)
+### (12/66) SecureBERT and LLAMA 2 Empowered Control Area Network Intrusion Detection and Classification (Xuemei Li et al., 2023)
+
+{{<citation>}}
+
+Xuemei Li, Huirong Fu. (2023)  
+**SecureBERT and LLAMA 2 Empowered Control Area Network Intrusion Detection and Classification**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-AI, cs-CR, cs-LG, cs.CR  
+Keywords: BERT, Intrusion Detection, Language Model  
+[Paper Link](http://arxiv.org/abs/2311.12074v1)  
+
+---
+
+
+**ABSTRACT**  
+Numerous studies have proved their effective strength in detecting Control Area Network (CAN) attacks. In the realm of understanding the human semantic space, transformer-based models have demonstrated remarkable effectiveness. Leveraging pre-trained transformers has become a common strategy in various language-related tasks, enabling these models to grasp human semantics more comprehensively. To delve into the adaptability evaluation on pre-trained models for CAN intrusion detection, we have developed two distinct models: CAN-SecureBERT and CAN-LLAMA2. Notably, our CAN-LLAMA2 model surpasses the state-of-the-art models by achieving an exceptional performance 0.999993 in terms of balanced accuracy, precision detection rate, F1 score, and a remarkably low false alarm rate of 3.10e-6. Impressively, the false alarm rate is 52 times smaller than that of the leading model, MTH-IDS (Multitiered Hybrid Intrusion Detection System). Our study underscores the promise of employing a Large Language Model as the foundational model, while incorporating adapters for other cybersecurity-related tasks and maintaining the model's inherent language-related capabilities.
+
+{{</citation>}}
+
+
+### (13/66) A Security Risk Taxonomy for Large Language Models (Erik Derner et al., 2023)
+
+{{<citation>}}
+
+Erik Derner, Kristina Batistič, Jan Zahálka, Robert Babuška. (2023)  
+**A Security Risk Taxonomy for Large Language Models**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-AI, cs-CL, cs-CR, cs-HC, cs-LG, cs.CR  
+Keywords: Language Model, Security  
+[Paper Link](http://arxiv.org/abs/2311.11415v1)  
+
+---
+
+
+**ABSTRACT**  
+As large language models (LLMs) permeate more and more applications, an assessment of their associated security risks becomes increasingly necessary. The potential for exploitation by malicious actors, ranging from disinformation to data breaches and reputation damage, is substantial. This paper addresses a gap in current research by focusing on the security risks posed by LLMs, which extends beyond the widely covered ethical and societal implications. Our work proposes a taxonomy of security risks along the user-model communication pipeline, explicitly focusing on prompt-based attacks on LLMs. We categorize the attacks by target and attack type within a prompt-based interaction scheme. The taxonomy is reinforced with specific attack examples to showcase the real-world impact of these risks. Through this taxonomy, we aim to inform the development of robust and secure LLM applications, enhancing their safety and trustworthiness.
+
+{{</citation>}}
+
+
+### (14/66) DNA Encoded Elliptic Curve Cryptography System for IoT Security (Prokash Barmana et al., 2023)
+
+{{<citation>}}
+
+Prokash Barmana, Banani Saha. (2023)  
+**DNA Encoded Elliptic Curve Cryptography System for IoT Security**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-CR, cs.CR  
+Keywords: Security  
+[Paper Link](http://arxiv.org/abs/2311.11393v1)  
+
+---
+
+
+**ABSTRACT**  
+In the field of Computer Science and Information Technology Internet of Things (IoT) is one of the emerging technologies. In IoT environment several devices are interconnected and transmit data among them. There may be some security vulnerability arise within the IoT environment. Till date, IoT has not been widely accepted due to its security flaws. Hence to keep the IoT environment most robust, we propose a stable security framework of IoT with Elliptic Curve Cryptography (ECC) using DNA Encoding. The ECC is most lightweight cryptography technique among other well known public key cryptography techniques. To increase encryption complexity, DNA encoding mechanism of DNA computing with ECC is preceded.
+
+{{</citation>}}
+
+
+### (15/66) Systematic Analysis of Security and Vulnerabilities in Miniapps (Yuyang Han et al., 2023)
+
+{{<citation>}}
+
+Yuyang Han, Xu Ji, Zhiqiang Wang, Jianyi Zhang. (2023)  
+**Systematic Analysis of Security and Vulnerabilities in Miniapps**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-CR, cs.CR  
+Keywords: Security  
+[Paper Link](http://arxiv.org/abs/2311.11382v1)  
+
+---
+
+
+**ABSTRACT**  
+The past few years have witnessed a boom of miniapps, as lightweight applications, miniapps are of great importance in the mobile internet sector. Consequently, the security of miniapps can directly impact compromising the integrity of sensitive data, posing a potential threat to user privacy. However, after a thorough review of the various research efforts in miniapp security, we found that their actions in researching the safety of miniapp web interfaces are limited. This paper proposes a triad threat model focusing on users, servers and attackers to mitigate the security risk of miniapps. By following the principle of least privilege and the direction of permission consistency, we design a novel analysis framework for the security risk assessment of miniapps by this model. Then, we analyzed the correlation between the security risk assessment and the threat model associated with the miniapp. This analysis led to identifying potential scopes and categorisations with security risks. In the case study, we identify nine major categories of vulnerability issues, such as SQL injection, logical vulnerabilities and cross-site scripting. We also assessed a total of 50,628 security risk hazards and provided specific examples.
+
+{{</citation>}}
+
+
+## cs.CV (15)
+
+
+
+### (16/66) Appearance Codes using Joint Embedding Learning of Multiple Modalities (Alex Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -312,7 +404,7 @@ The use of appearance codes in recent work on generative modeling has enabled no
 {{</citation>}}
 
 
-### (13/62) DiffSCI: Zero-Shot Snapshot Compressive Imaging via Iterative Spectral Diffusion Model (Zhenghao Pan et al., 2023)
+### (17/66) DiffSCI: Zero-Shot Snapshot Compressive Imaging via Iterative Spectral Diffusion Model (Zhenghao Pan et al., 2023)
 
 {{<citation>}}
 
@@ -334,7 +426,29 @@ This paper endeavors to advance the precision of snapshot compressive imaging (S
 {{</citation>}}
 
 
-### (14/62) Inspecting Explainability of Transformer Models with Additional Statistical Information (Hoang C. Nguyen et al., 2023)
+### (18/66) Enhancing Novel Object Detection via Cooperative Foundational Models (Rohit Bharadwaj et al., 2023)
+
+{{<citation>}}
+
+Rohit Bharadwaj, Muzammal Naseer, Salman Khan, Fahad Shahbaz Khan. (2023)  
+**Enhancing Novel Object Detection via Cooperative Foundational Models**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs-LG, cs.CV  
+Keywords: Object Detection  
+[Paper Link](http://arxiv.org/abs/2311.12068v1)  
+
+---
+
+
+**ABSTRACT**  
+In this work, we address the challenging and emergent problem of novel object detection (NOD), focusing on the accurate detection of both known and novel object categories during inference. Traditional object detection algorithms are inherently closed-set, limiting their capability to handle NOD. We present a novel approach to transform existing closed-set detectors into open-set detectors. This transformation is achieved by leveraging the complementary strengths of pre-trained foundational models, specifically CLIP and SAM, through our cooperative mechanism. Furthermore, by integrating this mechanism with state-of-the-art open-set detectors such as GDINO, we establish new benchmarks in object detection performance. Our method achieves 17.42 mAP in novel object detection and 42.08 mAP for known objects on the challenging LVIS dataset. Adapting our approach to the COCO OVD split, we surpass the current state-of-the-art by a margin of 7.2 $ \text{AP}_{50} $ for novel classes. Our code is available at https://github.com/rohit901/cooperative-foundational-models .
+
+{{</citation>}}
+
+
+### (19/66) Inspecting Explainability of Transformer Models with Additional Statistical Information (Hoang C. Nguyen et al., 2023)
 
 {{<citation>}}
 
@@ -356,7 +470,7 @@ Transformer becomes more popular in the vision domain in recent years so there i
 {{</citation>}}
 
 
-### (15/62) SOccDPT: Semi-Supervised 3D Semantic Occupancy from Dense Prediction Transformers trained under memory constraints (Aditya Nalgunda Ganesh, 2023)
+### (20/66) SOccDPT: Semi-Supervised 3D Semantic Occupancy from Dense Prediction Transformers trained under memory constraints (Aditya Nalgunda Ganesh, 2023)
 
 {{<citation>}}
 
@@ -378,7 +492,7 @@ We present SOccDPT, a memory-efficient approach for 3D semantic occupancy predic
 {{</citation>}}
 
 
-### (16/62) Optimizing rgb-d semantic segmentation through multi-modal interaction and pooling attention (Shuai Zhang et al., 2023)
+### (21/66) Optimizing rgb-d semantic segmentation through multi-modal interaction and pooling attention (Shuai Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -400,7 +514,7 @@ Semantic segmentation of RGB-D images involves understanding the appearance and 
 {{</citation>}}
 
 
-### (17/62) Pair-wise Layer Attention with Spatial Masking for Video Prediction (Ping Li et al., 2023)
+### (22/66) Pair-wise Layer Attention with Spatial Masking for Video Prediction (Ping Li et al., 2023)
 
 {{<citation>}}
 
@@ -422,7 +536,7 @@ Video prediction yields future frames by employing the historical frames and has
 {{</citation>}}
 
 
-### (18/62) Transcending Forgery Specificity with Latent Space Augmentation for Generalizable Deepfake Detection (Zhiyuan Yan et al., 2023)
+### (23/66) Transcending Forgery Specificity with Latent Space Augmentation for Generalizable Deepfake Detection (Zhiyuan Yan et al., 2023)
 
 {{<citation>}}
 
@@ -444,7 +558,7 @@ Deepfake detection faces a critical generalization hurdle, with performance dete
 {{</citation>}}
 
 
-### (19/62) Generalization and Hallucination of Large Vision-Language Models through a Camouflaged Lens (Lv Tang et al., 2023)
+### (24/66) Generalization and Hallucination of Large Vision-Language Models through a Camouflaged Lens (Lv Tang et al., 2023)
 
 {{<citation>}}
 
@@ -466,7 +580,7 @@ Large Vision-Language Model (LVLM) has seen burgeoning development and increasin
 {{</citation>}}
 
 
-### (20/62) Adversarial Prompt Tuning for Vision-Language Models (Jiaming Zhang et al., 2023)
+### (25/66) Adversarial Prompt Tuning for Vision-Language Models (Jiaming Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -488,7 +602,29 @@ With the rapid advancement of multimodal learning, pre-trained Vision-Language M
 {{</citation>}}
 
 
-### (21/62) GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise (Xinhai Li et al., 2023)
+### (26/66) Quality and Quantity: Unveiling a Million High-Quality Images for Text-to-Image Synthesis in Fashion Design (Jia Yu et al., 2023)
+
+{{<citation>}}
+
+Jia Yu, Lichao Zhang, Zijie Chen, Fayu Pan, MiaoMiao Wen, Yuming Yan, Fangsheng Weng, Shuai Zhang, Lili Pan, Zhenzhong Lan. (2023)  
+**Quality and Quantity: Unveiling a Million High-Quality Images for Text-to-Image Synthesis in Fashion Design**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2311.12067v1)  
+
+---
+
+
+**ABSTRACT**  
+The fusion of AI and fashion design has emerged as a promising research area. However, the lack of extensive, interrelated data on clothing and try-on stages has hindered the full potential of AI in this domain. Addressing this, we present the Fashion-Diffusion dataset, a product of multiple years' rigorous effort. This dataset, the first of its kind, comprises over a million high-quality fashion images, paired with detailed text descriptions. Sourced from a diverse range of geographical locations and cultural backgrounds, the dataset encapsulates global fashion trends. The images have been meticulously annotated with fine-grained attributes related to clothing and humans, simplifying the fashion design process into a Text-to-Image (T2I) task. The Fashion-Diffusion dataset not only provides high-quality text-image pairs and diverse human-garment pairs but also serves as a large-scale resource about humans, thereby facilitating research in T2I generation. Moreover, to foster standardization in the T2I-based fashion design field, we propose a new benchmark comprising multiple datasets for evaluating the performance of fashion design models. This work represents a significant leap forward in the realm of AI-driven fashion design, setting a new standard for future research in this field.
+
+{{</citation>}}
+
+
+### (27/66) GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise (Xinhai Li et al., 2023)
 
 {{<citation>}}
 
@@ -510,7 +646,7 @@ Text-to-3D, known for its efficient generation methods and expansive creative po
 {{</citation>}}
 
 
-### (22/62) Self-Supervised Versus Supervised Training for Segmentation of Organoid Images (Asmaa Haja et al., 2023)
+### (28/66) Self-Supervised Versus Supervised Training for Segmentation of Organoid Images (Asmaa Haja et al., 2023)
 
 {{<citation>}}
 
@@ -532,7 +668,7 @@ The process of annotating relevant data in the field of digital microscopy can b
 {{</citation>}}
 
 
-### (23/62) Attention-Based Real-Time Defenses for Physical Adversarial Attacks in Vision Applications (Giulio Rossolini et al., 2023)
+### (29/66) Attention-Based Real-Time Defenses for Physical Adversarial Attacks in Vision Applications (Giulio Rossolini et al., 2023)
 
 {{<citation>}}
 
@@ -554,11 +690,33 @@ Deep neural networks exhibit excellent performance in computer vision tasks, but
 {{</citation>}}
 
 
+### (30/66) Few-Shot Classification & Segmentation Using Large Language Models Agent (Tian Meng et al., 2023)
+
+{{<citation>}}
+
+Tian Meng, Yang Tao, Wuliang Yin. (2023)  
+**Few-Shot Classification & Segmentation Using Large Language Models Agent**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: Few-Shot, GPT, GPT-4, Language Model  
+[Paper Link](http://arxiv.org/abs/2311.12065v1)  
+
+---
+
+
+**ABSTRACT**  
+The task of few-shot image classification and segmentation (FS-CS) requires the classification and segmentation of target objects in a query image, given only a few examples of the target classes. We introduce a method that utilises large language models (LLM) as an agent to address the FS-CS problem in a training-free manner. By making the LLM the task planner and off-the-shelf vision models the tools, the proposed method is capable of classifying and segmenting target objects using only image-level labels. Specifically, chain-of-thought prompting and in-context learning guide the LLM to observe support images like human; vision models such as Segment Anything Model (SAM) and GPT-4Vision assist LLM understand spatial and semantic information at the same time. Ultimately, the LLM uses its summarizing and reasoning capabilities to classify and segment the query image. The proposed method's modular framework makes it easily extendable. Our approach achieves state-of-the-art performance on the Pascal-5i dataset.
+
+{{</citation>}}
+
+
 ## cs.SE (1)
 
 
 
-### (24/62) Tensor-Aware Energy Accounting (Timur Babakol et al., 2023)
+### (31/66) Tensor-Aware Energy Accounting (Timur Babakol et al., 2023)
 
 {{<citation>}}
 
@@ -584,7 +742,7 @@ With the rapid growth of Artificial Intelligence (AI) applications supported by 
 
 
 
-### (25/62) Offline Reinforcement Learning for Wireless Network Optimization with Mixture Datasets (Kun Yang et al., 2023)
+### (32/66) Offline Reinforcement Learning for Wireless Network Optimization with Mixture Datasets (Kun Yang et al., 2023)
 
 {{<citation>}}
 
@@ -606,81 +764,11 @@ The recent development of reinforcement learning (RL) has boosted the adoption o
 {{</citation>}}
 
 
-## cs.CR (3)
-
-
-
-### (26/62) A Security Risk Taxonomy for Large Language Models (Erik Derner et al., 2023)
-
-{{<citation>}}
-
-Erik Derner, Kristina Batistič, Jan Zahálka, Robert Babuška. (2023)  
-**A Security Risk Taxonomy for Large Language Models**  
-
----
-Primary Category: cs.CR  
-Categories: cs-AI, cs-CL, cs-CR, cs-HC, cs-LG, cs.CR  
-Keywords: Language Model, Security  
-[Paper Link](http://arxiv.org/abs/2311.11415v1)  
-
----
-
-
-**ABSTRACT**  
-As large language models (LLMs) permeate more and more applications, an assessment of their associated security risks becomes increasingly necessary. The potential for exploitation by malicious actors, ranging from disinformation to data breaches and reputation damage, is substantial. This paper addresses a gap in current research by focusing on the security risks posed by LLMs, which extends beyond the widely covered ethical and societal implications. Our work proposes a taxonomy of security risks along the user-model communication pipeline, explicitly focusing on prompt-based attacks on LLMs. We categorize the attacks by target and attack type within a prompt-based interaction scheme. The taxonomy is reinforced with specific attack examples to showcase the real-world impact of these risks. Through this taxonomy, we aim to inform the development of robust and secure LLM applications, enhancing their safety and trustworthiness.
-
-{{</citation>}}
-
-
-### (27/62) DNA Encoded Elliptic Curve Cryptography System for IoT Security (Prokash Barmana et al., 2023)
-
-{{<citation>}}
-
-Prokash Barmana, Banani Saha. (2023)  
-**DNA Encoded Elliptic Curve Cryptography System for IoT Security**  
-
----
-Primary Category: cs.CR  
-Categories: cs-CR, cs.CR  
-Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2311.11393v1)  
-
----
-
-
-**ABSTRACT**  
-In the field of Computer Science and Information Technology Internet of Things (IoT) is one of the emerging technologies. In IoT environment several devices are interconnected and transmit data among them. There may be some security vulnerability arise within the IoT environment. Till date, IoT has not been widely accepted due to its security flaws. Hence to keep the IoT environment most robust, we propose a stable security framework of IoT with Elliptic Curve Cryptography (ECC) using DNA Encoding. The ECC is most lightweight cryptography technique among other well known public key cryptography techniques. To increase encryption complexity, DNA encoding mechanism of DNA computing with ECC is preceded.
-
-{{</citation>}}
-
-
-### (28/62) Systematic Analysis of Security and Vulnerabilities in Miniapps (Yuyang Han et al., 2023)
-
-{{<citation>}}
-
-Yuyang Han, Xu Ji, Zhiqiang Wang, Jianyi Zhang. (2023)  
-**Systematic Analysis of Security and Vulnerabilities in Miniapps**  
-
----
-Primary Category: cs.CR  
-Categories: cs-CR, cs.CR  
-Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2311.11382v1)  
-
----
-
-
-**ABSTRACT**  
-The past few years have witnessed a boom of miniapps, as lightweight applications, miniapps are of great importance in the mobile internet sector. Consequently, the security of miniapps can directly impact compromising the integrity of sensitive data, posing a potential threat to user privacy. However, after a thorough review of the various research efforts in miniapp security, we found that their actions in researching the safety of miniapp web interfaces are limited. This paper proposes a triad threat model focusing on users, servers and attackers to mitigate the security risk of miniapps. By following the principle of least privilege and the direction of permission consistency, we design a novel analysis framework for the security risk assessment of miniapps by this model. Then, we analyzed the correlation between the security risk assessment and the threat model associated with the miniapp. This analysis led to identifying potential scopes and categorisations with security risks. In the case study, we identify nine major categories of vulnerability issues, such as SQL injection, logical vulnerabilities and cross-site scripting. We also assessed a total of 50,628 security risk hazards and provided specific examples.
-
-{{</citation>}}
-
-
 ## quant-ph (2)
 
 
 
-### (29/62) Neural Quantum Embedding: Pushing the Limits of Quantum Supervised Learning (Tak Hur et al., 2023)
+### (33/66) Neural Quantum Embedding: Pushing the Limits of Quantum Supervised Learning (Tak Hur et al., 2023)
 
 {{<citation>}}
 
@@ -702,7 +790,7 @@ Quantum embedding is indispensable for applying quantum machine learning techniq
 {{</citation>}}
 
 
-### (30/62) Symbolic Execution for Quantum Error Correction Programs (Wang Fang et al., 2023)
+### (34/66) Symbolic Execution for Quantum Error Correction Programs (Wang Fang et al., 2023)
 
 {{<citation>}}
 
@@ -728,7 +816,7 @@ We define a symbolic execution framework QSE for quantum programs by integrating
 
 
 
-### (31/62) Attention-based Multi-fidelity Machine Learning Model for Computational Fractional Flow Reserve Assessment (Haizhou Yang et al., 2023)
+### (35/66) Attention-based Multi-fidelity Machine Learning Model for Computational Fractional Flow Reserve Assessment (Haizhou Yang et al., 2023)
 
 {{<citation>}}
 
@@ -754,7 +842,7 @@ Coronary Artery Disease (CAD) is one of the most common forms of heart disease, 
 
 
 
-### (32/62) Towards interpretable-by-design deep learning algorithms (Plamen Angelov et al., 2023)
+### (36/66) Towards interpretable-by-design deep learning algorithms (Plamen Angelov et al., 2023)
 
 {{<citation>}}
 
@@ -776,7 +864,7 @@ The proposed framework named IDEAL (Interpretable-by-design DEep learning ALgori
 {{</citation>}}
 
 
-### (33/62) Multi-Task Reinforcement Learning with Mixture of Orthogonal Experts (Ahmed Hendawy et al., 2023)
+### (37/66) Multi-Task Reinforcement Learning with Mixture of Orthogonal Experts (Ahmed Hendawy et al., 2023)
 
 {{<citation>}}
 
@@ -798,7 +886,7 @@ Multi-Task Reinforcement Learning (MTRL) tackles the long-standing problem of en
 {{</citation>}}
 
 
-### (34/62) Self-Supervised Pretraining for Heterogeneous Hypergraph Neural Networks (Abdalgader Abubaker et al., 2023)
+### (38/66) Self-Supervised Pretraining for Heterogeneous Hypergraph Neural Networks (Abdalgader Abubaker et al., 2023)
 
 {{<citation>}}
 
@@ -820,7 +908,7 @@ Recently, pretraining methods for the Graph Neural Networks (GNNs) have been suc
 {{</citation>}}
 
 
-### (35/62) A Generative Model for Accelerated Inverse Modelling Using a Novel Embedding for Continuous Variables (Sébastien Bompas abd Stefan Sandfeld, 2023)
+### (39/66) A Generative Model for Accelerated Inverse Modelling Using a Novel Embedding for Continuous Variables (Sébastien Bompas abd Stefan Sandfeld, 2023)
 
 {{<citation>}}
 
@@ -842,7 +930,7 @@ In materials science, the challenge of rapid prototyping materials with desired 
 {{</citation>}}
 
 
-### (36/62) Self-Distilled Representation Learning for Time Series (Felix Pieper et al., 2023)
+### (40/66) Self-Distilled Representation Learning for Time Series (Felix Pieper et al., 2023)
 
 {{<citation>}}
 
@@ -864,7 +952,7 @@ Self-supervised learning for time-series data holds potential similar to that re
 {{</citation>}}
 
 
-### (37/62) From Categories to Classifier: Name-Only Continual Learning by Exploring the Web (Ameya Prabhu et al., 2023)
+### (41/66) From Categories to Classifier: Name-Only Continual Learning by Exploring the Web (Ameya Prabhu et al., 2023)
 
 {{<citation>}}
 
@@ -886,7 +974,7 @@ Continual Learning (CL) often relies on the availability of extensive annotated 
 {{</citation>}}
 
 
-### (38/62) TimeSQL: Improving Multivariate Time Series Forecasting with Multi-Scale Patching and Smooth Quadratic Loss (Site Mo et al., 2023)
+### (42/66) TimeSQL: Improving Multivariate Time Series Forecasting with Multi-Scale Patching and Smooth Quadratic Loss (Site Mo et al., 2023)
 
 {{<citation>}}
 
@@ -908,7 +996,7 @@ Time series is a special type of sequence data, a sequence of real-valued random
 {{</citation>}}
 
 
-### (39/62) Open Set Dandelion Network for IoT Intrusion Detection (Jiashu Wu et al., 2023)
+### (43/66) Open Set Dandelion Network for IoT Intrusion Detection (Jiashu Wu et al., 2023)
 
 {{<citation>}}
 
@@ -930,7 +1018,7 @@ As IoT devices become widely, it is crucial to protect them from malicious intru
 {{</citation>}}
 
 
-### (40/62) Unraveling the `Anomaly' in Time Series Anomaly Detection: A Self-supervised Tri-domain Solution (Yuting Sun et al., 2023)
+### (44/66) Unraveling the `Anomaly' in Time Series Anomaly Detection: A Self-supervised Tri-domain Solution (Yuting Sun et al., 2023)
 
 {{<citation>}}
 
@@ -952,7 +1040,7 @@ The ongoing challenges in time series anomaly detection (TSAD), notably the scar
 {{</citation>}}
 
 
-### (41/62) A Universal Framework for Accurate and Efficient Geometric Deep Learning of Molecular Systems (Shuo Zhang et al., 2023)
+### (45/66) A Universal Framework for Accurate and Efficient Geometric Deep Learning of Molecular Systems (Shuo Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -974,7 +1062,7 @@ Molecular sciences address a wide range of problems involving molecules of diffe
 {{</citation>}}
 
 
-### (42/62) TextGuard: Provable Defense against Backdoor Attacks on Text Classification (Hengzhi Pei et al., 2023)
+### (46/66) TextGuard: Provable Defense against Backdoor Attacks on Text Classification (Hengzhi Pei et al., 2023)
 
 {{<citation>}}
 
@@ -996,7 +1084,7 @@ Backdoor attacks have become a major security threat for deploying machine learn
 {{</citation>}}
 
 
-### (43/62) Robust Network Slicing: Multi-Agent Policies, Adversarial Attacks, and Defensive Strategies (Feng Wang et al., 2023)
+### (47/66) Robust Network Slicing: Multi-Agent Policies, Adversarial Attacks, and Defensive Strategies (Feng Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1018,7 +1106,7 @@ In this paper, we present a multi-agent deep reinforcement learning (deep RL) fr
 {{</citation>}}
 
 
-### (44/62) Unmasking and Improving Data Credibility: A Study with Datasets for Training Harmless Language Models (Zhaowei Zhu et al., 2023)
+### (48/66) Unmasking and Improving Data Credibility: A Study with Datasets for Training Harmless Language Models (Zhaowei Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -1044,7 +1132,7 @@ Language models have shown promise in various tasks but can be affected by undes
 
 
 
-### (45/62) An Alternative to Regulation: The Case for Public AI (Nicholas Vincent et al., 2023)
+### (49/66) An Alternative to Regulation: The Case for Public AI (Nicholas Vincent et al., 2023)
 
 {{<citation>}}
 
@@ -1066,7 +1154,7 @@ Can governments build AI? In this paper, we describe an ongoing effort to develo
 {{</citation>}}
 
 
-### (46/62) Individual misinformation tagging reinforces echo chambers; Collective tagging does not (Junsol Kim et al., 2023)
+### (50/66) Individual misinformation tagging reinforces echo chambers; Collective tagging does not (Junsol Kim et al., 2023)
 
 {{<citation>}}
 
@@ -1075,7 +1163,7 @@ Junsol Kim, Zhao Wang, Haohan Shi, Hsin-Keng Ling, James Evans. (2023)
 
 ---
 Primary Category: cs.CY  
-Categories: cs-CY, cs-SI, cs.CY  
+Categories: cs-CY, cs-HC, cs-SI, cs.CY  
 Keywords: Twitter  
 [Paper Link](http://arxiv.org/abs/2311.11282v1)  
 
@@ -1088,7 +1176,7 @@ Fears about the destabilizing impact of misinformation online have motivated ind
 {{</citation>}}
 
 
-### (47/62) Assessing AI Impact Assessments: A Classroom Study (Nari Johnson et al., 2023)
+### (51/66) Assessing AI Impact Assessments: A Classroom Study (Nari Johnson et al., 2023)
 
 {{<citation>}}
 
@@ -1114,7 +1202,7 @@ Artificial Intelligence Impact Assessments ("AIIAs"), a family of tools that pro
 
 
 
-### (48/62) Using Causal Threads to Explain Changes in a Dynamic System (Robert B. Allen, 2023)
+### (52/66) Using Causal Threads to Explain Changes in a Dynamic System (Robert B. Allen, 2023)
 
 {{<citation>}}
 
@@ -1140,7 +1228,7 @@ We explore developing rich semantic models of systems. Specifically, we consider
 
 
 
-### (49/62) Bounds on Representation-Induced Confounding Bias for Treatment Effect Estimation (Valentyn Melnychuk et al., 2023)
+### (53/66) Bounds on Representation-Induced Confounding Bias for Treatment Effect Estimation (Valentyn Melnychuk et al., 2023)
 
 {{<citation>}}
 
@@ -1166,7 +1254,7 @@ State-of-the-art methods for conditional average treatment effect (CATE) estimat
 
 
 
-### (50/62) TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems (Yilun Kong et al., 2023)
+### (54/66) TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems (Yilun Kong et al., 2023)
 
 {{<citation>}}
 
@@ -1188,7 +1276,7 @@ Large Language Models (LLMs) have demonstrated proficiency in addressing tasks t
 {{</citation>}}
 
 
-### (51/62) A Comprehensive Review on Sentiment Analysis: Tasks, Approaches and Applications (Sudhanshu Kumar et al., 2023)
+### (55/66) A Comprehensive Review on Sentiment Analysis: Tasks, Approaches and Applications (Sudhanshu Kumar et al., 2023)
 
 {{<citation>}}
 
@@ -1210,7 +1298,7 @@ Sentiment analysis (SA) is an emerging field in text mining. It is the process o
 {{</citation>}}
 
 
-### (52/62) Implementation of AI Deep Learning Algorithm For Multi-Modal Sentiment Analysis (Jiazhen Wang, 2023)
+### (56/66) Implementation of AI Deep Learning Algorithm For Multi-Modal Sentiment Analysis (Jiazhen Wang, 2023)
 
 {{<citation>}}
 
@@ -1232,7 +1320,7 @@ A multi-modal emotion recognition method was established by combining two-channe
 {{</citation>}}
 
 
-### (53/62) Can We Utilize Pre-trained Language Models within Causal Discovery Algorithms? (Chanhui Lee et al., 2023)
+### (57/66) Can We Utilize Pre-trained Language Models within Causal Discovery Algorithms? (Chanhui Lee et al., 2023)
 
 {{<citation>}}
 
@@ -1254,7 +1342,7 @@ Scaling laws have allowed Pre-trained Language Models (PLMs) into the field of c
 {{</citation>}}
 
 
-### (54/62) Leveraging Generative AI for Clinical Evidence Summarization Needs to Achieve Trustworthiness (Gongbo Zhang et al., 2023)
+### (58/66) Leveraging Generative AI for Clinical Evidence Summarization Needs to Achieve Trustworthiness (Gongbo Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1280,7 +1368,7 @@ Evidence-based medicine aims to improve the quality of healthcare by empowering 
 
 
 
-### (55/62) Tactile Active Inference Reinforcement Learning for Efficient Robotic Manipulation Skill Acquisition (Zihao Liu et al., 2023)
+### (59/66) Tactile Active Inference Reinforcement Learning for Efficient Robotic Manipulation Skill Acquisition (Zihao Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1306,7 +1394,7 @@ Robotic manipulation holds the potential to replace humans in the execution of t
 
 
 
-### (56/62) Multi-Timescale Control and Communications with Deep Reinforcement Learning -- Part I: Communication-Aware Vehicle Control (Tong Liu et al., 2023)
+### (60/66) Multi-Timescale Control and Communications with Deep Reinforcement Learning -- Part I: Communication-Aware Vehicle Control (Tong Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1328,7 +1416,7 @@ An intelligent decision-making system enabled by Vehicle-to-Everything (V2X) com
 {{</citation>}}
 
 
-### (57/62) Multi-Timescale Control and Communications with Deep Reinforcement Learning -- Part II: Control-Aware Radio Resource Allocation (Lei Lei et al., 2023)
+### (61/66) Multi-Timescale Control and Communications with Deep Reinforcement Learning -- Part II: Control-Aware Radio Resource Allocation (Lei Lei et al., 2023)
 
 {{<citation>}}
 
@@ -1350,7 +1438,7 @@ In Part I of this two-part paper (Multi-Timescale Control and Communications wit
 {{</citation>}}
 
 
-### (58/62) ChatGPT at the Speed of Light: Optical Comb-Based Monolithic Photonic-Electronic Linear-Algebra Accelerators (Tzu-Chien Hsueh et al., 2023)
+### (62/66) ChatGPT at the Speed of Light: Optical Comb-Based Monolithic Photonic-Electronic Linear-Algebra Accelerators (Tzu-Chien Hsueh et al., 2023)
 
 {{<citation>}}
 
@@ -1361,7 +1449,7 @@ Tzu-Chien Hsueh, Yeshaiahu Fainman, Bill Lin. (2023)
 Primary Category: eess.SY  
 Categories: cs-ET, cs-SY, eess-SY, eess.SY  
 Keywords: ChatGPT, GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2311.11224v1)  
+[Paper Link](http://arxiv.org/abs/2311.11224v2)  
 
 ---
 
@@ -1376,7 +1464,7 @@ This paper proposes to adopt advanced monolithic silicon-photonics integrated-ci
 
 
 
-### (59/62) M$^{2}$UGen: Multi-modal Music Understanding and Generation with the Power of Large Language Models (Atin Sakkeer Hussain et al., 2023)
+### (63/66) M$^{2}$UGen: Multi-modal Music Understanding and Generation with the Power of Large Language Models (Atin Sakkeer Hussain et al., 2023)
 
 {{<citation>}}
 
@@ -1402,7 +1490,7 @@ The current landscape of research leveraging large language models (LLMs) is exp
 
 
 
-### (60/62) Dependency Relationships-Enhanced Attentive Group Recommendation in HINs (Juntao Zhang et al., 2023)
+### (64/66) Dependency Relationships-Enhanced Attentive Group Recommendation in HINs (Juntao Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1428,7 +1516,7 @@ Recommending suitable items to a group of users, commonly referred to as the gro
 
 
 
-### (61/62) Enhancing Radiology Diagnosis through Convolutional Neural Networks for Computer Vision in Healthcare (Keshav Kumar K. et al., 2023)
+### (65/66) Enhancing Radiology Diagnosis through Convolutional Neural Networks for Computer Vision in Healthcare (Keshav Kumar K. et al., 2023)
 
 {{<citation>}}
 
@@ -1454,7 +1542,7 @@ The transformative power of Convolutional Neural Networks (CNNs) in radiology di
 
 
 
-### (62/62) Link Streams as a Generalization of Graphs and Time Series (Esteban Bautista et al., 2023)
+### (66/66) Link Streams as a Generalization of Graphs and Time Series (Esteban Bautista et al., 2023)
 
 {{<citation>}}
 
