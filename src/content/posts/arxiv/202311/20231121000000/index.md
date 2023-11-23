@@ -437,7 +437,7 @@ Rohit Bharadwaj, Muzammal Naseer, Salman Khan, Fahad Shahbaz Khan. (2023)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2311.12068v1)  
+[Paper Link](http://arxiv.org/abs/2311.12068v2)  
 
 ---
 
@@ -801,7 +801,7 @@ Wang Fang, Mingsheng Ying. (2023)
 Primary Category: quant-ph  
 Categories: cs-PL, quant-ph, quant-ph  
 Keywords: Google  
-[Paper Link](http://arxiv.org/abs/2311.11313v1)  
+[Paper Link](http://arxiv.org/abs/2311.11313v2)  
 
 ---
 

@@ -545,13 +545,13 @@ Jiageng Mao, Junjie Ye, Yuxi Qian, Marco Pavone, Yue Wang. (2023)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CL, cs-CV, cs-RO, cs.CV  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2311.10813v1)  
+[Paper Link](http://arxiv.org/abs/2311.10813v2)  
 
 ---
 
 
 **ABSTRACT**  
-Human-level driving is an ultimate goal of autonomous driving. Conventional approaches formulate autonomous driving as a perception-prediction-planning framework, yet their systems do not capitalize on the inherent reasoning ability and experiential knowledge of humans. In this paper, we propose a fundamental paradigm shift from current pipelines, exploiting Large Language Models (LLMs) as a cognitive agent to integrate human-like intelligence into autonomous driving systems. Our approach, termed Agent-Driver, transforms the traditional autonomous driving pipeline by introducing a versatile tool library accessible via function calls, a cognitive memory of common sense and experiential knowledge for decision-making, and a reasoning engine capable of chain-of-thought reasoning, task planning, motion planning, and self-reflection. Powered by LLMs, our Agent-Driver is endowed with intuitive common sense and robust reasoning capabilities, thus enabling a more nuanced, human-like approach to autonomous driving. We evaluate our approach on the large-scale nuScenes benchmark, and extensive experiments substantiate that our Agent-Driver significantly outperforms the state-of-the-art driving methods by a large margin. Our approach also demonstrates superior interpretability and few-shot learning ability to these methods. Project page: \href{https://github.com/USC-GVL/Agent-Driver/blob/main/index.html}{here}.
+Human-level driving is an ultimate goal of autonomous driving. Conventional approaches formulate autonomous driving as a perception-prediction-planning framework, yet their systems do not capitalize on the inherent reasoning ability and experiential knowledge of humans. In this paper, we propose a fundamental paradigm shift from current pipelines, exploiting Large Language Models (LLMs) as a cognitive agent to integrate human-like intelligence into autonomous driving systems. Our approach, termed Agent-Driver, transforms the traditional autonomous driving pipeline by introducing a versatile tool library accessible via function calls, a cognitive memory of common sense and experiential knowledge for decision-making, and a reasoning engine capable of chain-of-thought reasoning, task planning, motion planning, and self-reflection. Powered by LLMs, our Agent-Driver is endowed with intuitive common sense and robust reasoning capabilities, thus enabling a more nuanced, human-like approach to autonomous driving. We evaluate our approach on the large-scale nuScenes benchmark, and extensive experiments substantiate that our Agent-Driver significantly outperforms the state-of-the-art driving methods by a large margin. Our approach also demonstrates superior interpretability and few-shot learning ability to these methods. Code will be released.
 
 {{</citation>}}
 
@@ -975,13 +975,13 @@ Barbaros Selnur Erdal, Vikash Gupta, Mutlu Demirer, Kim H. Fair, Richard D. Whit
 Primary Category: cs.AI  
 Categories: I-2-m, cs-AI, cs.AI  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2311.10840v1)  
+[Paper Link](http://arxiv.org/abs/2311.10840v2)  
 
 ---
 
 
 **ABSTRACT**  
-This paper reviews the challenges hindering the widespread adoption of artificial intelligence (AI) solutions in the healthcare industry, focusing on computer vision applications for medical imaging, and how interoperability and enterprise-grade scalability can be used to address these challenges. The complex nature of healthcare workflows, intricacies in managing large and secure medical imaging data, and the absence of standardized frameworks for AI development pose significant barriers and require a new paradigm to address them. The role of interoperability is examined in this paper as a crucial factor in connecting disparate applications within healthcare workflows. Standards such as DICOM, Health Level 7 HL7, and Integrating the Healthcare Enterprise (IHE) are highlighted as foundational for common imaging workflows. A specific focus is placed on the role of DICOM gateways, with Laurel Bridge leading transformational efforts in this area. To drive enterprise scalability, new tools are needed. Project MONAI, established in 2019, is introduced as an initiative aiming to redefine the development of medical AI applications. The MONAI Deploy App SDK, a component of Project MONAI, is identified as a key tool in simplifying the packaging and deployment process, enabling repeatable, scalable, and standardized deployment patterns for AI applications. The abstract underscores the potential impact of successful AI adoption in healthcare, offering physicians both life-saving and time-saving insights and driving efficiencies in radiology department workflows. The collaborative efforts between academia and industry, exemplified by collaborations with organizations like NVIDIA and Laurel Bridge, are emphasized as essential for advancing the adoption of healthcare AI solutions.
+This paper reviews the challenges hindering the widespread adoption of artificial intelligence (AI) solutions in the healthcare industry, focusing on computer vision applications for medical imaging, and how interoperability and enterprise-grade scalability can be used to address these challenges. The complex nature of healthcare workflows, intricacies in managing large and secure medical imaging data, and the absence of standardized frameworks for AI development pose significant barriers and require a new paradigm to address them.   The role of interoperability is examined in this paper as a crucial factor in connecting disparate applications within healthcare workflows. Standards such as DICOM, Health Level 7 (HL7), and Integrating the Healthcare Enterprise (IHE) are highlighted as foundational for common imaging workflows. A specific focus is placed on the role of DICOM gateways, with Smart Routing Rules and Workflow Management leading transformational efforts in this area.   To drive enterprise scalability, new tools are needed. Project MONAI, established in 2019, is introduced as an initiative aiming to redefine the development of medical AI applications. The MONAI Deploy App SDK, a component of Project MONAI, is identified as a key tool in simplifying the packaging and deployment process, enabling repeatable, scalable, and standardized deployment patterns for AI applications.   The abstract underscores the potential impact of successful AI adoption in healthcare, offering physicians both life-saving and time-saving insights and driving efficiencies in radiology department workflows. The collaborative efforts between academia and industry, are emphasized as essential for advancing the adoption of healthcare AI solutions.
 
 {{</citation>}}
 
@@ -1493,7 +1493,7 @@ Staphord Bengesi, Hoda El-Sayed, Md Kamruzzaman Sarker, Yao Houkpati, John Irung
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI, ChatGPT, GPT, GPT-4, Generative AI, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2311.10242v1)  
+[Paper Link](http://arxiv.org/abs/2311.10242v2)  
 
 ---
 
