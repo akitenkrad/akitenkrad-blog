@@ -21,8 +21,8 @@ math: true
 
 ## Primary Categories
 
-- [cs.CV (15)](#cscv-15)
-- [cs.LG (10)](#cslg-10)
+- [cs.CV (19)](#cscv-19)
+- [cs.LG (12)](#cslg-12)
 - [cs.CY (1)](#cscy-1)
 - [quant-ph (1)](#quant-ph-1)
 - [cs.CL (10)](#cscl-10)
@@ -30,11 +30,11 @@ math: true
 - [cs.DC (1)](#csdc-1)
 - [cs.SI (1)](#cssi-1)
 
-## cs.CV (15)
+## cs.CV (19)
 
 
 
-### (1/40) Can SAM recognize crops? Quantifying the zero-shot performance of a semantic segmentation foundation model on generating crop-type maps using satellite imagery for precision agriculture (Rutuja Gurav et al., 2023)
+### (1/46) Can SAM recognize crops? Quantifying the zero-shot performance of a semantic segmentation foundation model on generating crop-type maps using satellite imagery for precision agriculture (Rutuja Gurav et al., 2023)
 
 {{<citation>}}
 
@@ -56,7 +56,7 @@ Climate change is increasingly disrupting worldwide agriculture, making global f
 {{</citation>}}
 
 
-### (2/40) Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets (Andreas Blattmann et al., 2023)
+### (2/46) Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets (Andreas Blattmann et al., 2023)
 
 {{<citation>}}
 
@@ -78,7 +78,7 @@ We present Stable Video Diffusion - a latent video diffusion model for high-reso
 {{</citation>}}
 
 
-### (3/40) SAMv2: A Unified Framework for Learning Appearance, Semantic and Cross-Modality Anatomical Embeddings (Xiaoyu Bai et al., 2023)
+### (3/46) SAMv2: A Unified Framework for Learning Appearance, Semantic and Cross-Modality Anatomical Embeddings (Xiaoyu Bai et al., 2023)
 
 {{<citation>}}
 
@@ -89,7 +89,7 @@ Xiaoyu Bai, Fan Bai, Xiaofei Huo, Jia Ge, Jingjing Lu, Xianghua Ye, Ke Yan, Yong
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Embedding  
-[Paper Link](http://arxiv.org/abs/2311.15111v1)  
+[Paper Link](http://arxiv.org/abs/2311.15111v2)  
 
 ---
 
@@ -100,7 +100,7 @@ Identifying anatomical structures (e.g., lesions or landmarks) in medical images
 {{</citation>}}
 
 
-### (4/40) Leveraging Diffusion Perturbations for Measuring Fairness in Computer Vision (Nicholas Lui et al., 2023)
+### (4/46) Leveraging Diffusion Perturbations for Measuring Fairness in Computer Vision (Nicholas Lui et al., 2023)
 
 {{<citation>}}
 
@@ -122,7 +122,29 @@ Computer vision models have been known to encode harmful biases, leading to the 
 {{</citation>}}
 
 
-### (5/40) Double-Flow-based Steganography without Embedding for Image-to-Image Hiding (Bingbing Song et al., 2023)
+### (5/46) RandMSAugment: A Mixed-Sample Augmentation for Limited-Data Scenarios (Swarna Kamlam Ravindran et al., 2023)
+
+{{<citation>}}
+
+Swarna Kamlam Ravindran, Carlo Tomasi. (2023)  
+**RandMSAugment: A Mixed-Sample Augmentation for Limited-Data Scenarios**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Augmentation  
+[Paper Link](http://arxiv.org/abs/2311.16508v1)  
+
+---
+
+
+**ABSTRACT**  
+The high costs of annotating large datasets suggests a need for effectively training CNNs with limited data, and data augmentation is a promising direction. We study foundational augmentation techniques, including Mixed Sample Data Augmentations (MSDAs) and a no-parameter variant of RandAugment termed Preset-RandAugment, in the fully supervised scenario. We observe that Preset-RandAugment excels in limited-data contexts while MSDAs are moderately effective. We show that low-level feature transforms play a pivotal role in this performance difference, postulate a new property of augmentations related to their data efficiency, and propose new ways to measure the diversity and realism of augmentations. Building on these insights, we introduce a novel augmentation technique called RandMSAugment that integrates complementary strengths of existing methods. RandMSAugment significantly outperforms the competition on CIFAR-100, STL-10, and Tiny-Imagenet. With very small training sets (4, 25, 100 samples/class), RandMSAugment achieves compelling performance gains between 4.1% and 6.75%. Even with more training data (500 samples/class) we improve performance by 1.03% to 2.47%. RandMSAugment does not require hyperparameter tuning, extra validation data, or cumbersome optimizations.
+
+{{</citation>}}
+
+
+### (6/46) Double-Flow-based Steganography without Embedding for Image-to-Image Hiding (Bingbing Song et al., 2023)
 
 {{<citation>}}
 
@@ -144,7 +166,7 @@ As an emerging concept, steganography without embedding (SWE) hides a secret mes
 {{</citation>}}
 
 
-### (6/40) Occlusion Sensitivity Analysis with Augmentation Subspace Perturbation in Deep Feature Space (Pedro Valois et al., 2023)
+### (7/46) Occlusion Sensitivity Analysis with Augmentation Subspace Perturbation in Deep Feature Space (Pedro Valois et al., 2023)
 
 {{<citation>}}
 
@@ -166,7 +188,7 @@ Deep Learning of neural networks has gained prominence in multiple life-critical
 {{</citation>}}
 
 
-### (7/40) VSCode: General Visual Salient and Camouflaged Object Detection with 2D Prompt Learning (Ziyang Luo et al., 2023)
+### (8/46) VSCode: General Visual Salient and Camouflaged Object Detection with 2D Prompt Learning (Ziyang Luo et al., 2023)
 
 {{<citation>}}
 
@@ -188,7 +210,51 @@ Salient object detection (SOD) and camouflaged object detection (COD) are relate
 {{</citation>}}
 
 
-### (8/40) Point Cloud Pre-training with Diffusion Models (Xiao Zheng et al., 2023)
+### (9/46) $Z^*$: Zero-shot Style Transfer via Attention Rearrangement (Yingying Deng et al., 2023)
+
+{{<citation>}}
+
+Yingying Deng, Xiangyu He, Fan Tang, Weiming Dong. (2023)  
+**$Z^*$: Zero-shot Style Transfer via Attention Rearrangement**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Attention, Style Transfer  
+[Paper Link](http://arxiv.org/abs/2311.16491v1)  
+
+---
+
+
+**ABSTRACT**  
+Despite the remarkable progress in image style transfer, formulating style in the context of art is inherently subjective and challenging. In contrast to existing learning/tuning methods, this study shows that vanilla diffusion models can directly extract style information and seamlessly integrate the generative prior into the content image without retraining. Specifically, we adopt dual denoising paths to represent content/style references in latent space and then guide the content image denoising process with style latent codes. We further reveal that the cross-attention mechanism in latent diffusion models tends to blend the content and style images, resulting in stylized outputs that deviate from the original content image. To overcome this limitation, we introduce a cross-attention rearrangement strategy. Through theoretical analysis and experiments, we demonstrate the effectiveness and superiority of the diffusion-based $\underline{Z}$ero-shot $\underline{S}$tyle $\underline{T}$ransfer via $\underline{A}$ttention $\underline{R}$earrangement, Z-STAR.
+
+{{</citation>}}
+
+
+### (10/46) Elucidating and Overcoming the Challenges of Label Noise in Supervised Contrastive Learning (Zijun Long et al., 2023)
+
+{{<citation>}}
+
+Zijun Long, George Killick, Lipeng Zhuang, Richard McCreadie, Gerardo Aragon Camarasa, Paul Henderson. (2023)  
+**Elucidating and Overcoming the Challenges of Label Noise in Supervised Contrastive Learning**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Contrastive Learning  
+[Paper Link](http://arxiv.org/abs/2311.16481v1)  
+
+---
+
+
+**ABSTRACT**  
+Image classification datasets exhibit a non-negligible fraction of mislabeled examples, often due to human error when one class superficially resembles another. This issue poses challenges in supervised contrastive learning (SCL), where the goal is to cluster together data points of the same class in the embedding space while distancing those of disparate classes. While such methods outperform those based on cross-entropy, they are not immune to labeling errors. However, while the detrimental effects of noisy labels in supervised learning are well-researched, their influence on SCL remains largely unexplored. Hence, we analyse the effect of label errors and examine how they disrupt the SCL algorithm's ability to distinguish between positive and negative sample pairs. Our analysis reveals that human labeling errors manifest as easy positive samples in around 99% of cases. We, therefore, propose D-SCL, a novel Debiased Supervised Contrastive Learning objective designed to mitigate the bias introduced by labeling errors. We demonstrate that D-SCL consistently outperforms state-of-the-art techniques for representation learning across diverse vision benchmarks, offering improved robustness to label errors.
+
+{{</citation>}}
+
+
+### (11/46) Point Cloud Pre-training with Diffusion Models (Xiao Zheng et al., 2023)
 
 {{<citation>}}
 
@@ -210,7 +276,7 @@ Pre-training a model and then fine-tuning it on downstream tasks has demonstrate
 {{</citation>}}
 
 
-### (9/40) OpenNet: Incremental Learning for Autonomous Driving Object Detection with Balanced Loss (Zezhou Wang et al., 2023)
+### (12/46) OpenNet: Incremental Learning for Autonomous Driving Object Detection with Balanced Loss (Zezhou Wang et al., 2023)
 
 {{<citation>}}
 
@@ -232,7 +298,7 @@ Automated driving object detection has always been a challenging task in compute
 {{</citation>}}
 
 
-### (10/40) FreePIH: Training-Free Painterly Image Harmonization with Diffusion Model (Ruibin Li et al., 2023)
+### (13/46) FreePIH: Training-Free Painterly Image Harmonization with Diffusion Model (Ruibin Li et al., 2023)
 
 {{<citation>}}
 
@@ -254,7 +320,29 @@ This paper provides an efficient training-free painterly image harmonization (PI
 {{</citation>}}
 
 
-### (11/40) CUCL: Codebook for Unsupervised Continual Learning (Chen Cheng et al., 2023)
+### (14/46) GPT4Video: A Unified Multimodal Large Language Model for lnstruction-Followed Understanding and Safety-Aware Generation (Zhanyu Wang et al., 2023)
+
+{{<citation>}}
+
+Zhanyu Wang, Longyue Wang, Zhen Zhao, Minghao Wu, Chenyang Lyu, Huayang Li, Deng Cai, Luping Zhou, Shuming Shi, Zhaopeng Tu. (2023)  
+**GPT4Video: A Unified Multimodal Large Language Model for lnstruction-Followed Understanding and Safety-Aware Generation**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: GPT, Language Model, Question Answering  
+[Paper Link](http://arxiv.org/abs/2311.16511v1)  
+
+---
+
+
+**ABSTRACT**  
+While the recent advances in Multimodal Large Language Models (MLLMs) constitute a significant leap forward in the field, these models are predominantly confined to the realm of input-side multimodal comprehension, lacking the capacity for multimodal content generation. To fill this gap, we present GPT4Video, a unified multi-model framework that empowers Large Language Models (LLMs) with the capability of both video understanding and generation. Specifically, we develop an instruction-following-based approach integrated with the stable diffusion generative model, which has demonstrated to effectively and securely handle video generation scenarios. GPT4Video offers the following benefits: 1) It exhibits impressive capabilities in both video understanding and generation scenarios. For example, GPT4Video outperforms Valley by 11.8\% on the Video Question Answering task, and surpasses NExt-GPT by 2.3\% on the Text to Video generation task. 2) it endows the LLM/MLLM with video generation capabilities without requiring additional training parameters and can flexibly interface with a wide range of models to perform video generation. 3) it maintains a safe and healthy conversation not only in output-side but also the input side in an end-to-end manner. Qualitative and qualitative experiments demonstrate that GPT4Video holds the potential to function as a effective, safe and Humanoid-like video assistant that can handle both video understanding and generation scenarios.
+
+{{</citation>}}
+
+
+### (15/46) CUCL: Codebook for Unsupervised Continual Learning (Chen Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -276,7 +364,7 @@ The focus of this study is on Unsupervised Continual Learning (UCL), as it prese
 {{</citation>}}
 
 
-### (12/40) AutoEval-Video: An Automatic Benchmark for Assessing Large Vision Language Models in Open-Ended Video Question Answering (Xiuyuan Chen et al., 2023)
+### (16/46) AutoEval-Video: An Automatic Benchmark for Assessing Large Vision Language Models in Open-Ended Video Question Answering (Xiuyuan Chen et al., 2023)
 
 {{<citation>}}
 
@@ -298,7 +386,7 @@ We propose a novel and challenging benchmark, AutoEval-Video, to comprehensively
 {{</citation>}}
 
 
-### (13/40) Parkinson Disease classification Using Contrastive Graph Cross-View Learning with Multimodal Fusion of SPECT Images and Clinical Features (Jun-En Ding et al., 2023)
+### (17/46) Parkinson Disease classification Using Contrastive Graph Cross-View Learning with Multimodal Fusion of SPECT Images and Clinical Features (Jun-En Ding et al., 2023)
 
 {{<citation>}}
 
@@ -320,7 +408,7 @@ Parkinson's Disease (PD) is a neurodegenerative neurological disorder that impac
 {{</citation>}}
 
 
-### (14/40) HyperDID: Hyperspectral Intrinsic Image Decomposition with Deep Feature Embedding (Zhiqiang Gong et al., 2023)
+### (18/46) HyperDID: Hyperspectral Intrinsic Image Decomposition with Deep Feature Embedding (Zhiqiang Gong et al., 2023)
 
 {{<citation>}}
 
@@ -342,7 +430,7 @@ The dissection of hyperspectral images into intrinsic components through hypersp
 {{</citation>}}
 
 
-### (15/40) Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network (Wenqiao Li et al., 2023)
+### (19/46) Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network (Wenqiao Li et al., 2023)
 
 {{<citation>}}
 
@@ -364,11 +452,11 @@ Recently, 3D anomaly detection, a crucial problem involving fine-grained geometr
 {{</citation>}}
 
 
-## cs.LG (10)
+## cs.LG (12)
 
 
 
-### (16/40) SwiftLearn: A Data-Efficient Training Method of Deep Learning Models using Importance Sampling (Habib Hajimolahoseini et al., 2023)
+### (20/46) SwiftLearn: A Data-Efficient Training Method of Deep Learning Models using Importance Sampling (Habib Hajimolahoseini et al., 2023)
 
 {{<citation>}}
 
@@ -390,7 +478,7 @@ In this paper, we present SwiftLearn, a data-efficient approach to accelerate tr
 {{</citation>}}
 
 
-### (17/40) Localizing Lying in Llama: Understanding Instructed Dishonesty on True-False Questions Through Prompting, Probing, and Patching (James Campbell et al., 2023)
+### (21/46) Localizing Lying in Llama: Understanding Instructed Dishonesty on True-False Questions Through Prompting, Probing, and Patching (James Campbell et al., 2023)
 
 {{<citation>}}
 
@@ -412,7 +500,7 @@ Large language models (LLMs) demonstrate significant knowledge through their out
 {{</citation>}}
 
 
-### (18/40) Everybody Needs a Little HELP: Explaining Graphs via Hierarchical Concepts (Jonas Jürß et al., 2023)
+### (22/46) Everybody Needs a Little HELP: Explaining Graphs via Hierarchical Concepts (Jonas Jürß et al., 2023)
 
 {{<citation>}}
 
@@ -434,7 +522,29 @@ Graph neural networks (GNNs) have led to major breakthroughs in a variety of dom
 {{</citation>}}
 
 
-### (19/40) Where2Start: Leveraging initial States for Robust and Sample-Efficient Reinforcement Learning (Pouya Parsa et al., 2023)
+### (23/46) Enhancing Sentiment Analysis Results through Outlier Detection Optimization (Yuetian Chen et al., 2023)
+
+{{<citation>}}
+
+Yuetian Chen, Mei Si. (2023)  
+**Enhancing Sentiment Analysis Results through Outlier Detection Optimization**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CL, cs-LG, cs.LG  
+Keywords: BERT, Sentiment Analysis  
+[Paper Link](http://arxiv.org/abs/2311.16185v1)  
+
+---
+
+
+**ABSTRACT**  
+When dealing with text data containing subjective labels like speaker emotions, inaccuracies or discrepancies among labelers are not uncommon. Such discrepancies can significantly affect the performance of machine learning algorithms. This study investigates the potential of identifying and addressing outliers in text data with subjective labels, aiming to enhance classification outcomes. We utilized the Deep SVDD algorithm, a one-class classification method, to detect outliers in nine text-based emotion and sentiment analysis datasets. By employing both a small-sized language model (DistilBERT base model with 66 million parameters) and non-deep learning machine learning algorithms (decision tree, KNN, Logistic Regression, and LDA) as the classifier, our findings suggest that the removal of outliers can lead to enhanced results in most cases. Additionally, as outliers in such datasets are not necessarily unlearnable, we experienced utilizing a large language model -- DeBERTa v3 large with 131 million parameters, which can capture very complex patterns in data. We continued to observe performance enhancements across multiple datasets.
+
+{{</citation>}}
+
+
+### (24/46) Where2Start: Leveraging initial States for Robust and Sample-Efficient Reinforcement Learning (Pouya Parsa et al., 2023)
 
 {{<citation>}}
 
@@ -456,7 +566,7 @@ The reinforcement learning algorithms that focus on how to compute the gradient 
 {{</citation>}}
 
 
-### (20/40) Training a Hopfield Variational Autoencoder with Equilibrium Propagation (Tom Van Der Meersch et al., 2023)
+### (25/46) Training a Hopfield Variational Autoencoder with Equilibrium Propagation (Tom Van Der Meersch et al., 2023)
 
 {{<citation>}}
 
@@ -478,7 +588,7 @@ On dedicated analog hardware, equilibrium propagation is an energy-efficient alt
 {{</citation>}}
 
 
-### (21/40) On-Device Soft Sensors: Real-Time Fluid Flow Estimation from Level Sensor Data (Tianheng Ling et al., 2023)
+### (26/46) On-Device Soft Sensors: Real-Time Fluid Flow Estimation from Level Sensor Data (Tianheng Ling et al., 2023)
 
 {{<citation>}}
 
@@ -500,7 +610,7 @@ Soft sensors are crucial in bridging autonomous systems' physical and digital re
 {{</citation>}}
 
 
-### (22/40) Exploring Causal Learning through Graph Neural Networks: An In-depth Review (Simi Job et al., 2023)
+### (27/46) Exploring Causal Learning through Graph Neural Networks: An In-depth Review (Simi Job et al., 2023)
 
 {{<citation>}}
 
@@ -522,7 +632,7 @@ In machine learning, exploring data correlations to predict outcomes is a fundam
 {{</citation>}}
 
 
-### (23/40) Eliminating Domain Bias for Federated Learning in Representation Space (Jianqing Zhang et al., 2023)
+### (28/46) Eliminating Domain Bias for Federated Learning in Representation Space (Jianqing Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -544,7 +654,7 @@ Recently, federated learning (FL) is popular for its privacy-preserving and coll
 {{</citation>}}
 
 
-### (24/40) Robust Graph Neural Networks via Unbiased Aggregation (Ruiqi Feng et al., 2023)
+### (29/46) Robust Graph Neural Networks via Unbiased Aggregation (Ruiqi Feng et al., 2023)
 
 {{<citation>}}
 
@@ -566,7 +676,29 @@ The adversarial robustness of Graph Neural Networks (GNNs) has been questioned d
 {{</citation>}}
 
 
-### (25/40) Projected Off-Policy Q-Learning (POP-QL) for Stabilizing Offline Reinforcement Learning (Melrose Roderick et al., 2023)
+### (30/46) Aiming to Minimize Alcohol-Impaired Road Fatalities: Utilizing Fairness-Aware and Domain Knowledge-Infused Artificial Intelligence (Tejas Venkateswaran et al., 2023)
+
+{{<citation>}}
+
+Tejas Venkateswaran, Sheikh Rabiul Islam, Md Golam Moula Mehedi Hasan, Mohiuddin Ahmed. (2023)  
+**Aiming to Minimize Alcohol-Impaired Road Fatalities: Utilizing Fairness-Aware and Domain Knowledge-Infused Artificial Intelligence**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CY, cs-LG, cs.LG  
+Keywords: Bias  
+[Paper Link](http://arxiv.org/abs/2311.16180v1)  
+
+---
+
+
+**ABSTRACT**  
+Approximately 30% of all traffic fatalities in the United States are attributed to alcohol-impaired driving. This means that, despite stringent laws against this offense in every state, the frequency of drunk driving accidents is alarming, resulting in approximately one person being killed every 45 minutes. The process of charging individuals with Driving Under the Influence (DUI) is intricate and can sometimes be subjective, involving multiple stages such as observing the vehicle in motion, interacting with the driver, and conducting Standardized Field Sobriety Tests (SFSTs). Biases have been observed through racial profiling, leading to some groups and geographical areas facing fewer DUI tests, resulting in many actual DUI incidents going undetected, ultimately leading to a higher number of fatalities. To tackle this issue, our research introduces an Artificial Intelligence-based predictor that is both fairness-aware and incorporates domain knowledge to analyze DUI-related fatalities in different geographic locations. Through this model, we gain intriguing insights into the interplay between various demographic groups, including age, race, and income. By utilizing the provided information to allocate policing resources in a more equitable and efficient manner, there is potential to reduce DUI-related fatalities and have a significant impact on road safety.
+
+{{</citation>}}
+
+
+### (31/46) Projected Off-Policy Q-Learning (POP-QL) for Stabilizing Offline Reinforcement Learning (Melrose Roderick et al., 2023)
 
 {{<citation>}}
 
@@ -592,7 +724,7 @@ A key problem in off-policy Reinforcement Learning (RL) is the mismatch, or dist
 
 
 
-### (26/40) Using Assignment Incentives to Reduce Student Procrastination and Encourage Code Review Interactions (Kevin Wang et al., 2023)
+### (32/46) Using Assignment Incentives to Reduce Student Procrastination and Encourage Code Review Interactions (Kevin Wang et al., 2023)
 
 {{<citation>}}
 
@@ -618,7 +750,7 @@ Procrastination causes student stress, reduced learning and performance, and res
 
 
 
-### (27/40) FPQA-C: A Compilation Framework for Field Programmable Qubit Array (Hanrui Wang et al., 2023)
+### (33/46) FPQA-C: A Compilation Framework for Field Programmable Qubit Array (Hanrui Wang et al., 2023)
 
 {{<citation>}}
 
@@ -644,7 +776,7 @@ The neutral atom array has gained prominence in quantum computing for its scalab
 
 
 
-### (28/40) Relevance feedback strategies for recall-oriented neural information retrieval (Timo Kats et al., 2023)
+### (34/46) Relevance feedback strategies for recall-oriented neural information retrieval (Timo Kats et al., 2023)
 
 {{<citation>}}
 
@@ -666,7 +798,7 @@ In a number of information retrieval applications (e.g., patent search, literatu
 {{</citation>}}
 
 
-### (29/40) Solving the Right Problem is Key for Translational NLP: A Case Study in UMLS Vocabulary Insertion (Bernal Jimenez Gutierrez et al., 2023)
+### (35/46) Solving the Right Problem is Key for Translational NLP: A Case Study in UMLS Vocabulary Insertion (Bernal Jimenez Gutierrez et al., 2023)
 
 {{<citation>}}
 
@@ -688,7 +820,7 @@ As the immense opportunities enabled by large language models become more appare
 {{</citation>}}
 
 
-### (30/40) Multilingual self-supervised speech representations improve the speech recognition of low-resource African languages with codeswitching (Tolúlopé Ògúnrèmí et al., 2023)
+### (36/46) Multilingual self-supervised speech representations improve the speech recognition of low-resource African languages with codeswitching (Tolúlopé Ògúnrèmí et al., 2023)
 
 {{<citation>}}
 
@@ -710,7 +842,7 @@ While many speakers of low-resource languages regularly code-switch between thei
 {{</citation>}}
 
 
-### (31/40) nlpBDpatriots at BLP-2023 Task 2: A Transfer Learning Approach to Bangla Sentiment Analysis (Dhiman Goswami et al., 2023)
+### (37/46) nlpBDpatriots at BLP-2023 Task 2: A Transfer Learning Approach to Bangla Sentiment Analysis (Dhiman Goswami et al., 2023)
 
 {{<citation>}}
 
@@ -732,7 +864,7 @@ In this paper, we discuss the nlpBDpatriots entry to the shared task on Sentimen
 {{</citation>}}
 
 
-### (32/40) nlpBDpatriots at BLP-2023 Task 1: A Two-Step Classification for Violence Inciting Text Detection in Bangla (Md Nishat Raihan et al., 2023)
+### (38/46) nlpBDpatriots at BLP-2023 Task 1: A Two-Step Classification for Violence Inciting Text Detection in Bangla (Md Nishat Raihan et al., 2023)
 
 {{<citation>}}
 
@@ -754,7 +886,7 @@ In this paper, we discuss the nlpBDpatriots entry to the shared task on Violence
 {{</citation>}}
 
 
-### (33/40) Offensive Language Identification in Transliterated and Code-Mixed Bangla (Md Nishat Raihan et al., 2023)
+### (39/46) Offensive Language Identification in Transliterated and Code-Mixed Bangla (Md Nishat Raihan et al., 2023)
 
 {{<citation>}}
 
@@ -776,7 +908,7 @@ Identifying offensive content in social media is vital for creating safe online 
 {{</citation>}}
 
 
-### (34/40) E-CORE: Emotion Correlation Enhanced Empathetic Dialogue Generation (Fengyi Fu et al., 2023)
+### (40/46) E-CORE: Emotion Correlation Enhanced Empathetic Dialogue Generation (Fengyi Fu et al., 2023)
 
 {{<citation>}}
 
@@ -798,7 +930,7 @@ Achieving empathy is a crucial step toward humanized dialogue systems. Current a
 {{</citation>}}
 
 
-### (35/40) Walking a Tightrope -- Evaluating Large Language Models in High-Risk Domains (Chia-Chien Hung et al., 2023)
+### (41/46) Walking a Tightrope -- Evaluating Large Language Models in High-Risk Domains (Chia-Chien Hung et al., 2023)
 
 {{<citation>}}
 
@@ -820,7 +952,7 @@ High-risk domains pose unique challenges that require language models to provide
 {{</citation>}}
 
 
-### (36/40) Faster Minimum Bayes Risk Decoding with Confidence-based Pruning (Julius Cheng et al., 2023)
+### (42/46) Faster Minimum Bayes Risk Decoding with Confidence-based Pruning (Julius Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -842,7 +974,7 @@ Minimum Bayes risk (MBR) decoding outputs the hypothesis with the highest expect
 {{</citation>}}
 
 
-### (37/40) Code Search Debiasing:Improve Search Results beyond Overall Ranking Performance (Sheng Zhang et al., 2023)
+### (43/46) Code Search Debiasing:Improve Search Results beyond Overall Ranking Performance (Sheng Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -868,7 +1000,7 @@ Code search engine is an essential tool in software development. Many code searc
 
 
 
-### (38/40) Agent as Cerebrum, Controller as Cerebellum: Implementing an Embodied LMM-based Agent on Drones (Haoran Zhao et al., 2023)
+### (44/46) Agent as Cerebrum, Controller as Cerebellum: Implementing an Embodied LMM-based Agent on Drones (Haoran Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -894,7 +1026,7 @@ In this study, we present a novel paradigm for industrial robotic embodied agent
 
 
 
-### (39/40) HongTu: Scalable Full-Graph GNN Training on Multiple GPUs (via communication-optimized CPU data offloading) (Qiange Wang et al., 2023)
+### (45/46) HongTu: Scalable Full-Graph GNN Training on Multiple GPUs (via communication-optimized CPU data offloading) (Qiange Wang et al., 2023)
 
 {{<citation>}}
 
@@ -920,7 +1052,7 @@ Full-graph training on graph neural networks (GNN) has emerged as a promising tr
 
 
 
-### (40/40) Predicting Potential School Shooters from Social Media Posts (Alana Cedeno et al., 2023)
+### (46/46) Predicting Potential School Shooters from Social Media Posts (Alana Cedeno et al., 2023)
 
 {{<citation>}}
 

@@ -21,9 +21,10 @@ math: true
 
 ## Primary Categories
 
-- [cs.CV (19)](#cscv-19)
+- [cs.CV (22)](#cscv-22)
+- [cs.SE (2)](#csse-2)
 - [cs.CL (7)](#cscl-7)
-- [cs.LG (7)](#cslg-7)
+- [cs.LG (8)](#cslg-8)
 - [eess.IV (3)](#eessiv-3)
 - [cs.IR (2)](#csir-2)
 - [cs.CY (2)](#cscy-2)
@@ -31,17 +32,17 @@ math: true
 - [cs.RO (2)](#csro-2)
 - [cs.NE (1)](#csne-1)
 - [eess.SY (1)](#eesssy-1)
-- [cs.SE (1)](#csse-1)
 - [cs.LO (1)](#cslo-1)
 - [q-fin.TR (1)](#q-fintr-1)
 - [math.OC (1)](#mathoc-1)
+- [quant-ph (1)](#quant-ph-1)
 - [math.NA (1)](#mathna-1)
 
-## cs.CV (19)
+## cs.CV (22)
 
 
 
-### (1/52) DISYRE: Diffusion-Inspired SYnthetic REstoration for Unsupervised Anomaly Detection (Sergio Naval Marimont et al., 2023)
+### (1/58) DISYRE: Diffusion-Inspired SYnthetic REstoration for Unsupervised Anomaly Detection (Sergio Naval Marimont et al., 2023)
 
 {{<citation>}}
 
@@ -63,7 +64,7 @@ Unsupervised Anomaly Detection (UAD) techniques aim to identify and localize ano
 {{</citation>}}
 
 
-### (2/52) FLAIR: A Conditional Diffusion Framework with Applications to Face Video Restoration (Zihao Zou et al., 2023)
+### (2/58) FLAIR: A Conditional Diffusion Framework with Applications to Face Video Restoration (Zihao Zou et al., 2023)
 
 {{<citation>}}
 
@@ -85,7 +86,7 @@ Face video restoration (FVR) is a challenging but important problem where one se
 {{</citation>}}
 
 
-### (3/52) ProtoArgNet: Interpretable Image Classification with Super-Prototypes and Argumentation [Technical Report] (Hamed Ayoobi et al., 2023)
+### (3/58) ProtoArgNet: Interpretable Image Classification with Super-Prototypes and Argumentation [Technical Report] (Hamed Ayoobi et al., 2023)
 
 {{<citation>}}
 
@@ -107,7 +108,7 @@ We propose ProtoArgNet, a novel interpretable deep neural architecture for image
 {{</citation>}}
 
 
-### (4/52) Wired Perspectives: Multi-View Wire Art Embraces Generative AI (Zhiyu Qu et al., 2023)
+### (4/58) Wired Perspectives: Multi-View Wire Art Embraces Generative AI (Zhiyu Qu et al., 2023)
 
 {{<citation>}}
 
@@ -129,7 +130,7 @@ Creating multi-view wire art (MVWA), a static 3D sculpture with diverse interpre
 {{</citation>}}
 
 
-### (5/52) BatchNorm-based Weakly Supervised Video Anomaly Detection (Yixuan Zhou et al., 2023)
+### (5/58) BatchNorm-based Weakly Supervised Video Anomaly Detection (Yixuan Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -151,7 +152,7 @@ In weakly supervised video anomaly detection (WVAD), where only video-level labe
 {{</citation>}}
 
 
-### (6/52) Adversarial Purification of Information Masking (Sitong Liu et al., 2023)
+### (6/58) Adversarial Purification of Information Masking (Sitong Liu et al., 2023)
 
 {{<citation>}}
 
@@ -173,7 +174,7 @@ Adversarial attacks meticulously generate minuscule, imperceptible perturbations
 {{</citation>}}
 
 
-### (7/52) Sketch Video Synthesis (Yudian Zheng et al., 2023)
+### (7/58) Sketch Video Synthesis (Yudian Zheng et al., 2023)
 
 {{<citation>}}
 
@@ -195,7 +196,7 @@ Understanding semantic intricacies and high-level concepts is essential in image
 {{</citation>}}
 
 
-### (8/52) ChAda-ViT : Channel Adaptive Attention for Joint Representation Learning of Heterogeneous Microscopy Images (Nicolas Bourriez et al., 2023)
+### (8/58) ChAda-ViT : Channel Adaptive Attention for Joint Representation Learning of Heterogeneous Microscopy Images (Nicolas Bourriez et al., 2023)
 
 {{<citation>}}
 
@@ -217,7 +218,7 @@ Unlike color photography images, which are consistently encoded into RGB channel
 {{</citation>}}
 
 
-### (9/52) Revealing Cortical Layers In Histological Brain Images With Self-Supervised Graph Convolutional Networks Applied To Cell-Graphs (Valentina Vadori et al., 2023)
+### (9/58) Revealing Cortical Layers In Histological Brain Images With Self-Supervised Graph Convolutional Networks Applied To Cell-Graphs (Valentina Vadori et al., 2023)
 
 {{<citation>}}
 
@@ -239,7 +240,29 @@ Identifying cerebral cortex layers is crucial for comparative studies of the cyt
 {{</citation>}}
 
 
-### (10/52) ID-like Prompt Learning for Few-Shot Out-of-Distribution Detection (Yichen Bai et al., 2023)
+### (10/58) Generating Human-Centric Visual Cues for Human-Object Interaction Detection via Large Vision-Language Models (Yu-Wei Zhan et al., 2023)
+
+{{<citation>}}
+
+Yu-Wei Zhan, Fan Liu, Xin Luo, Liqiang Nie, Xin-Shun Xu, Mohan Kankanhalli. (2023)  
+**Generating Human-Centric Visual Cues for Human-Object Interaction Detection via Large Vision-Language Models**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2311.16475v1)  
+
+---
+
+
+**ABSTRACT**  
+Human-object interaction (HOI) detection aims at detecting human-object pairs and predicting their interactions. However, the complexity of human behavior and the diverse contexts in which these interactions occur make it challenging. Intuitively, human-centric visual cues, such as the involved participants, the body language, and the surrounding environment, play crucial roles in shaping these interactions. These cues are particularly vital in interpreting unseen interactions. In this paper, we propose three prompts with VLM to generate human-centric visual cues within an image from multiple perspectives of humans. To capitalize on these rich Human-Centric Visual Cues, we propose a novel approach named HCVC for HOI detection. Particularly, we develop a transformer-based multimodal fusion module with multitower architecture to integrate visual cue features into the instance and interaction decoders. Our extensive experiments and analysis validate the efficacy of leveraging the generated human-centric visual cues for HOI detection. Notably, the experimental results indicate the superiority of the proposed model over the existing state-of-the-art methods on two widely used datasets.
+
+{{</citation>}}
+
+
+### (11/58) ID-like Prompt Learning for Few-Shot Out-of-Distribution Detection (Yichen Bai et al., 2023)
 
 {{<citation>}}
 
@@ -250,7 +273,7 @@ Yichen Bai, Zongbo Han, Changqing Zhang, Bing Cao, Xiaoheng Jiang, Qinghua Hu. (
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: Few-Shot, ImageNet  
-[Paper Link](http://arxiv.org/abs/2311.15243v1)  
+[Paper Link](http://arxiv.org/abs/2311.15243v2)  
 
 ---
 
@@ -261,7 +284,7 @@ Out-of-distribution (OOD) detection methods often exploit auxiliary outliers to 
 {{</citation>}}
 
 
-### (11/52) CalibFormer: A Transformer-based Automatic LiDAR-Camera Calibration Network (Yuxuan Xiao et al., 2023)
+### (12/58) CalibFormer: A Transformer-based Automatic LiDAR-Camera Calibration Network (Yuxuan Xiao et al., 2023)
 
 {{<citation>}}
 
@@ -283,7 +306,7 @@ The fusion of LiDARs and cameras has been increasingly adopted in autonomous dri
 {{</citation>}}
 
 
-### (12/52) Double Reverse Regularization Network Based on Self-Knowledge Distillation for SAR Object Classification (Bo Xu et al., 2023)
+### (13/58) Double Reverse Regularization Network Based on Self-Knowledge Distillation for SAR Object Classification (Bo Xu et al., 2023)
 
 {{<citation>}}
 
@@ -305,7 +328,7 @@ In current synthetic aperture radar (SAR) object classification, one of the majo
 {{</citation>}}
 
 
-### (13/52) GAIA: Zero-shot Talking Avatar Generation (Tianyu He et al., 2023)
+### (14/58) GAIA: Zero-shot Talking Avatar Generation (Tianyu He et al., 2023)
 
 {{<citation>}}
 
@@ -327,7 +350,7 @@ Zero-shot talking avatar generation aims at synthesizing natural talking videos 
 {{</citation>}}
 
 
-### (14/52) One-bit Supervision for Image Classification: Problem, Solution, and Beyond (Hengtong Hu et al., 2023)
+### (15/58) One-bit Supervision for Image Classification: Problem, Solution, and Beyond (Hengtong Hu et al., 2023)
 
 {{<citation>}}
 
@@ -349,7 +372,29 @@ This paper presents one-bit supervision, a novel setting of learning with fewer 
 {{</citation>}}
 
 
-### (15/52) Insect-Foundation: A Foundation Model and Large-scale 1M Dataset for Visual Insect Understanding (Hoang-Quan Nguyen et al., 2023)
+### (16/58) PISA: Point-cloud-based Instructed Scene Augmentation (Yiyang Luo et al., 2023)
+
+{{<citation>}}
+
+Yiyang Luo, Ke Lin. (2023)  
+**PISA: Point-cloud-based Instructed Scene Augmentation**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Augmentation  
+[Paper Link](http://arxiv.org/abs/2311.16501v1)  
+
+---
+
+
+**ABSTRACT**  
+Indoor scene augmentation has become an emerging topic in the field of computer vision with applications in augmented and virtual reality. However, existing scene augmentation methods mostly require a pre-built object database with a given position as the desired location. In this paper, we propose the first end-to-end multi-modal deep neural network that can generate point cloud objects consistent with their surroundings, conditioned on text instructions. Our model generates a seemly object in the appropriate position based on the inputs of a query and point clouds, thereby enabling the creation of new scenarios involving previously unseen layouts of objects. Database of pre-stored CAD models is no longer needed. We use Point-E as our generative model and introduce methods including quantified position prediction and Top-K estimation to mitigate the false negative problems caused by ambiguous language description. Moreover, we evaluate the ability of our model by demonstrating the diversity of generated objects, the effectiveness of instruction, and quantitative metric results, which collectively indicate that our model is capable of generating realistic in-door objects. For a more thorough evaluation, we also incorporate visual grounding as a metric to assess the quality of the scenes generated by our model.
+
+{{</citation>}}
+
+
+### (17/58) Insect-Foundation: A Foundation Model and Large-scale 1M Dataset for Visual Insect Understanding (Hoang-Quan Nguyen et al., 2023)
 
 {{<citation>}}
 
@@ -371,7 +416,7 @@ In precision agriculture, the detection and recognition of insects play an essen
 {{</citation>}}
 
 
-### (16/52) SpliceMix: A Cross-scale and Semantic Blending Augmentation Strategy for Multi-label Image Classification (Lei Wang et al., 2023)
+### (18/58) SpliceMix: A Cross-scale and Semantic Blending Augmentation Strategy for Multi-label Image Classification (Lei Wang et al., 2023)
 
 {{<citation>}}
 
@@ -393,7 +438,7 @@ Recently, Mix-style data augmentation methods (e.g., Mixup and CutMix) have show
 {{</citation>}}
 
 
-### (17/52) IA-LSTM: Interaction-Aware LSTM for Pedestrian Trajectory Prediction (Yuehai Chen, 2023)
+### (19/58) IA-LSTM: Interaction-Aware LSTM for Pedestrian Trajectory Prediction (Yuehai Chen, 2023)
 
 {{<citation>}}
 
@@ -415,7 +460,29 @@ Predicting the trajectory of pedestrians in crowd scenarios is indispensable in 
 {{</citation>}}
 
 
-### (18/52) Advancing Vision Transformers with Group-Mix Attention (Chongjian Ge et al., 2023)
+### (20/58) Eye vs. AI: Human Gaze and Model Attention in Video Memorability (Prajneya Kumar et al., 2023)
+
+{{<citation>}}
+
+Prajneya Kumar, Eshika Khandelwal, Makarand Tapaswi, Vishnu Sreekumar. (2023)  
+**Eye vs. AI: Human Gaze and Model Attention in Video Memorability**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: AI, Attention, Transformer  
+[Paper Link](http://arxiv.org/abs/2311.16484v1)  
+
+---
+
+
+**ABSTRACT**  
+Understanding the factors that determine video memorability has important applications in areas such as educational technology and advertising. Towards this goal, we investigate the semantic and temporal attention mechanisms underlying video memorability. We propose a Transformer-based model with spatio-temporal attention that matches SoTA performance on video memorability prediction on a large naturalistic video dataset. More importantly, the self-attention patterns show us where the model looks to predict memorability. We compare model attention against human gaze fixation density maps collected through a small-scale eye-tracking experiment where humans perform a video memory task. Quantitative saliency metrics show that the model attention and human gaze follow similar patterns. Furthermore, while panoptic segmentation confirms that the model and humans attend more to thing classes, stuff classes that receive increased/decreased attention tend to have higher memorability scores. We also observe that the model assigns greater importance to the initial frames, mimicking temporal attention patterns found in humans.
+
+{{</citation>}}
+
+
+### (21/58) Advancing Vision Transformers with Group-Mix Attention (Chongjian Ge et al., 2023)
 
 {{<citation>}}
 
@@ -437,7 +504,7 @@ Vision Transformers (ViTs) have been shown to enhance visual recognition through
 {{</citation>}}
 
 
-### (19/52) Self-Supervised Learning for SAR ATR with a Knowledge-Guided Predictive Architecture (Weijie Li et al., 2023)
+### (22/58) Self-Supervised Learning for SAR ATR with a Knowledge-Guided Predictive Architecture (Weijie Li et al., 2023)
 
 {{<citation>}}
 
@@ -459,11 +526,59 @@ Recently, the emergence of a large number of Synthetic Aperture Radar (SAR) sens
 {{</citation>}}
 
 
+## cs.SE (2)
+
+
+
+### (23/58) Variational Exploration Module VEM: A Cloud-Native Optimization and Validation Tool for Geospatial Modeling and AI Workflows (Julian Kuehnert et al., 2023)
+
+{{<citation>}}
+
+Julian Kuehnert, Hiwot Tadesse, Chris Dearden, Rosie Lickorish, Paolo Fraccaro, Anne Jones, Blair Edwards, Sekou L. Remy, Peter Melling, Tim Culmer. (2023)  
+**Variational Exploration Module VEM: A Cloud-Native Optimization and Validation Tool for Geospatial Modeling and AI Workflows**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-AI, cs-SE, cs.SE  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2311.16196v1)  
+
+---
+
+
+**ABSTRACT**  
+Geospatial observations combined with computational models have become key to understanding the physical systems of our environment and enable the design of best practices to reduce societal harm. Cloud-based deployments help to scale up these modeling and AI workflows. Yet, for practitioners to make robust conclusions, model tuning and testing is crucial, a resource intensive process which involves the variation of model input variables. We have developed the Variational Exploration Module which facilitates the optimization and validation of modeling workflows deployed in the cloud by orchestrating workflow executions and using Bayesian and machine learning-based methods to analyze model behavior. User configurations allow the combination of diverse sampling strategies in multi-agent environments. The flexibility and robustness of the model-agnostic module is demonstrated using real-world applications.
+
+{{</citation>}}
+
+
+### (24/58) OpenPerf: A Benchmarking Framework for the Sustainable Development of the Open-Source Ecosystem (Fenglin Bi et al., 2023)
+
+{{<citation>}}
+
+Fenglin Bi, Fanyu Han, Shengyu Zhao, Jinlu Li, Yanbin Zhang, Wei Wang. (2023)  
+**OpenPerf: A Benchmarking Framework for the Sustainable Development of the Open-Source Ecosystem**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-SE, cs.SE  
+Keywords: AI, ImageNet  
+[Paper Link](http://arxiv.org/abs/2311.15212v1)  
+
+---
+
+
+**ABSTRACT**  
+Benchmarking involves designing scientific test methods, tools, and frameworks to quantitatively and comparably assess specific performance indicators of certain test subjects. With the development of artificial intelligence, AI benchmarking datasets such as ImageNet and DataPerf have gradually become consensus standards in both academic and industrial fields. However, constructing a benchmarking framework remains a significant challenge in the open-source domain due to the diverse range of data types, the wide array of research issues, and the intricate nature of collaboration networks. This paper introduces OpenPerf, a benchmarking framework designed for the sustainable development of the open-source ecosystem. This framework defines 9 task benchmarking tasks in the open-source research, encompassing 3 data types: time series, text, and graphics, and addresses 6 research problems including regression, classification, recommendation, ranking, network building, and anomaly detection. Based on the above tasks, we implemented 3 data science task benchmarks, 2 index-based benchmarks, and 1 standard benchmark. Notably, the index-based benchmarks have been adopted by the China Electronics Standardization Institute as evaluation criteria for open-source community governance. Additionally, we have developed a comprehensive toolkit for OpenPerf, which not only offers robust data management, tool integration, and user interface capabilities but also adopts a Benchmarking-as-a-Service (BaaS) model to serve academic institutions, industries, and foundations. Through its application in renowned companies and institutions such as Alibaba, Ant Group, and East China Normal University, we have validated OpenPerf's pivotal role in the healthy evolution of the open-source ecosystem.
+
+{{</citation>}}
+
+
 ## cs.CL (7)
 
 
 
-### (20/52) Uncertainty-aware Language Modeling for Selective Question Answering (Qi Yang et al., 2023)
+### (25/58) Uncertainty-aware Language Modeling for Selective Question Answering (Qi Yang et al., 2023)
 
 {{<citation>}}
 
@@ -485,7 +600,7 @@ We present an automatic large language model (LLM) conversion approach that prod
 {{</citation>}}
 
 
-### (21/52) Learning to Skip for Language Modeling (Dewen Zeng et al., 2023)
+### (26/58) Learning to Skip for Language Modeling (Dewen Zeng et al., 2023)
 
 {{<citation>}}
 
@@ -507,7 +622,7 @@ Overparameterized large-scale language models have impressive generalization per
 {{</citation>}}
 
 
-### (22/52) Machine-Generated Text Detection using Deep Learning (Raghav Gaggar et al., 2023)
+### (27/58) Machine-Generated Text Detection using Deep Learning (Raghav Gaggar et al., 2023)
 
 {{<citation>}}
 
@@ -529,7 +644,7 @@ Our research focuses on the crucial challenge of discerning text produced by Lar
 {{</citation>}}
 
 
-### (23/52) Learning Section Weights for Multi-Label Document Classification (Maziar Moradi Fard et al., 2023)
+### (28/58) Learning Section Weights for Multi-Label Document Classification (Maziar Moradi Fard et al., 2023)
 
 {{<citation>}}
 
@@ -551,7 +666,7 @@ Multi-label document classification is a traditional task in NLP. Compared to si
 {{</citation>}}
 
 
-### (24/52) Enhancing Empathetic and Emotion Support Dialogue Generation with Prophetic Commonsense Inference (Lanrui Wang et al., 2023)
+### (29/58) Enhancing Empathetic and Emotion Support Dialogue Generation with Prophetic Commonsense Inference (Lanrui Wang et al., 2023)
 
 {{<citation>}}
 
@@ -573,7 +688,7 @@ The interest in Empathetic and Emotional Support conversations among the public 
 {{</citation>}}
 
 
-### (25/52) UHGEval: Benchmarking the Hallucination of Chinese Large Language Models via Unconstrained Generation (Xun Liang et al., 2023)
+### (30/58) UHGEval: Benchmarking the Hallucination of Chinese Large Language Models via Unconstrained Generation (Xun Liang et al., 2023)
 
 {{<citation>}}
 
@@ -595,7 +710,7 @@ Large language models (LLMs) have emerged as pivotal contributors in contemporar
 {{</citation>}}
 
 
-### (26/52) Probabilistic Transformer: A Probabilistic Dependency Model for Contextual Word Representation (Haoyi Wu et al., 2023)
+### (31/58) Probabilistic Transformer: A Probabilistic Dependency Model for Contextual Word Representation (Haoyi Wu et al., 2023)
 
 {{<citation>}}
 
@@ -617,11 +732,11 @@ Syntactic structures used to play a vital role in natural language processing (N
 {{</citation>}}
 
 
-## cs.LG (7)
+## cs.LG (8)
 
 
 
-### (27/52) GGNNs : Generalizing GNNs using Residual Connections and Weighted Message Passing (Abhinav Raghuvanshi et al., 2023)
+### (32/58) GGNNs : Generalizing GNNs using Residual Connections and Weighted Message Passing (Abhinav Raghuvanshi et al., 2023)
 
 {{<citation>}}
 
@@ -643,7 +758,7 @@ Many real-world phenomena can be modeled as a graph, making them extremely valua
 {{</citation>}}
 
 
-### (28/52) KOPPA: Improving Prompt-based Continual Learning with Key-Query Orthogonal Projection and Prototype-based One-Versus-All (Quyen Tran et al., 2023)
+### (33/58) KOPPA: Improving Prompt-based Continual Learning with Key-Query Orthogonal Projection and Prototype-based One-Versus-All (Quyen Tran et al., 2023)
 
 {{<citation>}}
 
@@ -665,7 +780,7 @@ Drawing inspiration from prompt tuning techniques applied to Large Language Mode
 {{</citation>}}
 
 
-### (29/52) Generative Modelling of Stochastic Actions with Arbitrary Constraints in Reinforcement Learning (Changyu Chen et al., 2023)
+### (34/58) Generative Modelling of Stochastic Actions with Arbitrary Constraints in Reinforcement Learning (Changyu Chen et al., 2023)
 
 {{<citation>}}
 
@@ -687,7 +802,7 @@ Many problems in Reinforcement Learning (RL) seek an optimal policy with large d
 {{</citation>}}
 
 
-### (30/52) Token Recycling for Efficient Sequential Inference with Vision Transformers (Jan Olszewski et al., 2023)
+### (35/58) Token Recycling for Efficient Sequential Inference with Vision Transformers (Jan Olszewski et al., 2023)
 
 {{<citation>}}
 
@@ -709,7 +824,7 @@ Vision Transformers (ViTs) overpass Convolutional Neural Networks in processing 
 {{</citation>}}
 
 
-### (31/52) Bias-Variance Trade-off in Physics-Informed Neural Networks with Randomized Smoothing for High-Dimensional PDEs (Zheyuan Hu et al., 2023)
+### (36/58) Bias-Variance Trade-off in Physics-Informed Neural Networks with Randomized Smoothing for High-Dimensional PDEs (Zheyuan Hu et al., 2023)
 
 {{<citation>}}
 
@@ -731,7 +846,7 @@ While physics-informed neural networks (PINNs) have been proven effective for lo
 {{</citation>}}
 
 
-### (32/52) A Nearly Optimal and Low-Switching Algorithm for Reinforcement Learning with General Function Approximation (Heyang Zhao et al., 2023)
+### (37/58) A Nearly Optimal and Low-Switching Algorithm for Reinforcement Learning with General Function Approximation (Heyang Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -753,7 +868,7 @@ The exploration-exploitation dilemma has been a central challenge in reinforceme
 {{</citation>}}
 
 
-### (33/52) Decision Tree Psychological Risk Assessment in Currency Trading (Jai Pal, 2023)
+### (38/58) Decision Tree Psychological Risk Assessment in Currency Trading (Jai Pal, 2023)
 
 {{<citation>}}
 
@@ -775,11 +890,33 @@ This research paper focuses on the integration of Artificial Intelligence (AI) i
 {{</citation>}}
 
 
+### (39/58) MACE: A Multi-pattern Accommodated and Efficient Anomaly Detection Method in the Frequency Domain (Feiyi Chen et al., 2023)
+
+{{<citation>}}
+
+Feiyi Chen, Yingying zhang, Zhen Qin, Lunting Fan, Renhe Jiang, Yuxuan Liang, Qingsong Wen, Shuiguang Deng. (2023)  
+**MACE: A Multi-pattern Accommodated and Efficient Anomaly Detection Method in the Frequency Domain**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: Anomaly Detection  
+[Paper Link](http://arxiv.org/abs/2311.16191v1)  
+
+---
+
+
+**ABSTRACT**  
+Anomaly detection significantly enhances the robustness of cloud systems. While neural network-based methods have recently demonstrated strong advantages, they encounter practical challenges in cloud environments: the contradiction between the impracticality of maintaining a unique model for each service and the limited ability of dealing with diverse normal patterns by a unified model, as well as issues with handling heavy traffic in real time and short-term anomaly detection sensitivity. Thus, we propose MACE, a Multi-pattern Accommodated and efficient Anomaly detection method in the frequency domain for time series anomaly detection. There are three novel characteristics of it: (i) a pattern extraction mechanism excelling at handling diverse normal patterns, which enables the model to identify anomalies by examining the correlation between the data sample and its service normal pattern, instead of solely focusing on the data sample itself; (ii) a dualistic convolution mechanism that amplifies short-term anomalies in the time domain and hinders the reconstruction of anomalies in the frequency domain, which enlarges the reconstruction error disparity between anomaly and normality and facilitates anomaly detection; (iii) leveraging the sparsity and parallelism of frequency domain to enhance model efficiency. We theoretically and experimentally prove that using a strategically selected subset of Fourier bases can not only reduce computational overhead but is also profit to distinguish anomalies, compared to using the complete spectrum. Moreover, extensive experiments demonstrate MACE's effectiveness in handling diverse normal patterns with a unified model and it achieves state-of-the-art performance with high efficiency. \end{abstract}
+
+{{</citation>}}
+
+
 ## eess.IV (3)
 
 
 
-### (34/52) Quality Modeling Under A Relaxed Natural Scene Statistics Model (Abhinau K. Venkataramanan et al., 2023)
+### (40/58) Quality Modeling Under A Relaxed Natural Scene Statistics Model (Abhinau K. Venkataramanan et al., 2023)
 
 {{<citation>}}
 
@@ -801,7 +938,7 @@ Information-theoretic image quality assessment (IQA) models such as Visual Infor
 {{</citation>}}
 
 
-### (35/52) Spectro-ViT: A Vision Transformer Model for GABA-edited MRS Reconstruction Using Spectrograms (Gabriel Dias et al., 2023)
+### (41/58) Spectro-ViT: A Vision Transformer Model for GABA-edited MRS Reconstruction Using Spectrograms (Gabriel Dias et al., 2023)
 
 {{<citation>}}
 
@@ -823,7 +960,7 @@ Purpose: To investigate the use of a Vision Transformer (ViT) to reconstruct/den
 {{</citation>}}
 
 
-### (36/52) Eye Disease Prediction using Ensemble Learning and Attention on OCT Scans (Gauri Naik et al., 2023)
+### (42/58) Eye Disease Prediction using Ensemble Learning and Attention on OCT Scans (Gauri Naik et al., 2023)
 
 {{<citation>}}
 
@@ -849,7 +986,7 @@ Eye diseases have posed significant challenges for decades, but advancements in 
 
 
 
-### (37/52) Data Augmentation for Sample Efficient and Robust Document Ranking (Abhijit Anand et al., 2023)
+### (43/58) Data Augmentation for Sample Efficient and Robust Document Ranking (Abhijit Anand et al., 2023)
 
 {{<citation>}}
 
@@ -871,7 +1008,7 @@ Contextual ranking models have delivered impressive performance improvements ove
 {{</citation>}}
 
 
-### (38/52) Query-LIFE: Query-aware Language Image Fusion Embedding for E-Commerce Relevance (Hai Zhu et al., 2023)
+### (44/58) Query-LIFE: Query-aware Language Image Fusion Embedding for E-Commerce Relevance (Hai Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -897,7 +1034,7 @@ Relevance module plays a fundamental role in e-commerce search as they are respo
 
 
 
-### (39/52) Increased Compute Efficiency and the Diffusion of AI Capabilities (Konstantin Pilz et al., 2023)
+### (45/58) Increased Compute Efficiency and the Diffusion of AI Capabilities (Konstantin Pilz et al., 2023)
 
 {{<citation>}}
 
@@ -919,7 +1056,7 @@ Training advanced AI models requires large investments in computational resource
 {{</citation>}}
 
 
-### (40/52) ChatGPT and Beyond: The Generative AI Revolution in Education (Mohammad AL-Smadi, 2023)
+### (46/58) ChatGPT and Beyond: The Generative AI Revolution in Education (Mohammad AL-Smadi, 2023)
 
 {{<citation>}}
 
@@ -945,7 +1082,7 @@ The wide adoption and usage of generative artificial intelligence (AI) models, p
 
 
 
-### (41/52) Untargeted Code Authorship Evasion with Seq2Seq Transformation (Soohyeon Choi et al., 2023)
+### (47/58) Untargeted Code Authorship Evasion with Seq2Seq Transformation (Soohyeon Choi et al., 2023)
 
 {{<citation>}}
 
@@ -967,7 +1104,7 @@ Code authorship attribution is the problem of identifying authors of programming
 {{</citation>}}
 
 
-### (42/52) The Infrastructure Utilization of Free Contents Websites Reveal their Security Characteristics (Mohamed Alqadhi et al., 2023)
+### (48/58) The Infrastructure Utilization of Free Contents Websites Reveal their Security Characteristics (Mohamed Alqadhi et al., 2023)
 
 {{<citation>}}
 
@@ -989,7 +1126,7 @@ Free Content Websites (FCWs) are a significant element of the Web, and realizing
 {{</citation>}}
 
 
-### (43/52) Understanding the Utilization of Cryptocurrency in the Metaverse and Security Implications (Ayodeji Adeniran et al., 2023)
+### (49/58) Understanding the Utilization of Cryptocurrency in the Metaverse and Security Implications (Ayodeji Adeniran et al., 2023)
 
 {{<citation>}}
 
@@ -1015,7 +1152,7 @@ We present our results on analyzing and understanding the behavior and security 
 
 
 
-### (44/52) Ultra-Range Gesture Recognition using an RGB Camera in Human-Robot Interaction (Eran Bamani et al., 2023)
+### (50/58) Ultra-Range Gesture Recognition using an RGB Camera in Human-Robot Interaction (Eran Bamani et al., 2023)
 
 {{<citation>}}
 
@@ -1037,7 +1174,7 @@ Hand gestures play a significant role in human interactions where non-verbal int
 {{</citation>}}
 
 
-### (45/52) FRAC-Q-Learning: A Reinforcement Learning with Boredom Avoidance Processes for Social Robots (Akinari Onishi, 2023)
+### (51/58) FRAC-Q-Learning: A Reinforcement Learning with Boredom Avoidance Processes for Social Robots (Akinari Onishi, 2023)
 
 {{<citation>}}
 
@@ -1063,7 +1200,7 @@ The reinforcement learning algorithms have often been applied to social robots. 
 
 
 
-### (46/52) Algorithm Evolution Using Large Language Model (Fei Liu et al., 2023)
+### (52/58) Algorithm Evolution Using Large Language Model (Fei Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1089,7 +1226,7 @@ Optimization can be found in many real-life applications. Designing an effective
 
 
 
-### (47/52) Solve Large-scale Unit Commitment Problems by Physics-informed Graph Learning (Jingtao Qin et al., 2023)
+### (53/58) Solve Large-scale Unit Commitment Problems by Physics-informed Graph Learning (Jingtao Qin et al., 2023)
 
 {{<citation>}}
 
@@ -1111,37 +1248,11 @@ Unit commitment (UC) problems are typically formulated as mixed-integer programs
 {{</citation>}}
 
 
-## cs.SE (1)
-
-
-
-### (48/52) OpenPerf: A Benchmarking Framework for the Sustainable Development of the Open-Source Ecosystem (Fenglin Bi et al., 2023)
-
-{{<citation>}}
-
-Fenglin Bi, Fanyu Han, Shengyu Zhao, Jinlu Li, Yanbin Zhang, Wei Wang. (2023)  
-**OpenPerf: A Benchmarking Framework for the Sustainable Development of the Open-Source Ecosystem**  
-
----
-Primary Category: cs.SE  
-Categories: cs-SE, cs.SE  
-Keywords: AI, ImageNet  
-[Paper Link](http://arxiv.org/abs/2311.15212v1)  
-
----
-
-
-**ABSTRACT**  
-Benchmarking involves designing scientific test methods, tools, and frameworks to quantitatively and comparably assess specific performance indicators of certain test subjects. With the development of artificial intelligence, AI benchmarking datasets such as ImageNet and DataPerf have gradually become consensus standards in both academic and industrial fields. However, constructing a benchmarking framework remains a significant challenge in the open-source domain due to the diverse range of data types, the wide array of research issues, and the intricate nature of collaboration networks. This paper introduces OpenPerf, a benchmarking framework designed for the sustainable development of the open-source ecosystem. This framework defines 9 task benchmarking tasks in the open-source research, encompassing 3 data types: time series, text, and graphics, and addresses 6 research problems including regression, classification, recommendation, ranking, network building, and anomaly detection. Based on the above tasks, we implemented 3 data science task benchmarks, 2 index-based benchmarks, and 1 standard benchmark. Notably, the index-based benchmarks have been adopted by the China Electronics Standardization Institute as evaluation criteria for open-source community governance. Additionally, we have developed a comprehensive toolkit for OpenPerf, which not only offers robust data management, tool integration, and user interface capabilities but also adopts a Benchmarking-as-a-Service (BaaS) model to serve academic institutions, industries, and foundations. Through its application in renowned companies and institutions such as Alibaba, Ant Group, and East China Normal University, we have validated OpenPerf's pivotal role in the healthy evolution of the open-source ecosystem.
-
-{{</citation>}}
-
-
 ## cs.LO (1)
 
 
 
-### (49/52) Using Rely/Guarantee to Pinpoint Assumptions underlying Security Protocols (Nisansala P. Yatapanage et al., 2023)
+### (54/58) Using Rely/Guarantee to Pinpoint Assumptions underlying Security Protocols (Nisansala P. Yatapanage et al., 2023)
 
 {{<citation>}}
 
@@ -1167,7 +1278,7 @@ The verification of security protocols is essential, in order to ensure the abse
 
 
 
-### (50/52) Benchmarking Large Language Model Volatility (Boyang Yu, 2023)
+### (55/58) Benchmarking Large Language Model Volatility (Boyang Yu, 2023)
 
 {{<citation>}}
 
@@ -1193,7 +1304,7 @@ The impact of non-deterministic outputs from Large Language Models (LLMs) is not
 
 
 
-### (51/52) Optimizing Multi-Timestep Security-Constrained Optimal Power Flow for Large Power Grids (Hussein Sharadga et al., 2023)
+### (56/58) Optimizing Multi-Timestep Security-Constrained Optimal Power Flow for Large Power Grids (Hussein Sharadga et al., 2023)
 
 {{<citation>}}
 
@@ -1215,11 +1326,37 @@ This work proposes a novel method for scaling multi-timestep security-constraine
 {{</citation>}}
 
 
+## quant-ph (1)
+
+
+
+### (57/58) Q-Pilot: Field Programmable Quantum Array Compilation with Flying Ancillas (Hanrui Wang et al., 2023)
+
+{{<citation>}}
+
+Hanrui Wang, Bochen Tan, Pengyu Liu, Yilian Liu, Jiaqi Gu, Jason Cong, Song Han. (2023)  
+**Q-Pilot: Field Programmable Quantum Array Compilation with Flying Ancillas**  
+
+---
+Primary Category: quant-ph  
+Categories: cs-AR, cs-ET, quant-ph, quant-ph  
+Keywords: QA  
+[Paper Link](http://arxiv.org/abs/2311.16190v1)  
+
+---
+
+
+**ABSTRACT**  
+Neutral atom arrays have become a promising platform for quantum computing, especially the \textit{field programmable qubit array} (FPQA) endowed with the unique capability of atom movement. This feature allows dynamic alterations in qubit connectivity during runtime, which can reduce the cost of executing long-range gates and improve parallelism. However, this added flexibility introduces new challenges in circuit compilation. Inspired by the placement and routing strategies for FPGAs, we propose to map all data qubits to fixed atoms while utilizing movable atoms to route for 2-qubit gates between data qubits. Coined \textit{flying ancillas}, these mobile atoms function as ancilla qubits, dynamically generated and recycled during execution. We present Q-Pilot, a scalable compiler for FPQA employing flying ancillas to maximize circuit parallelism. For two important quantum applications, quantum simulation and the Quantum Approximate Optimization Algorithm (QAOA), we devise domain-specific routing strategies. In comparison to alternative technologies such as superconducting devices or fixed atom arrays, Q-Pilot effectively harnesses the flexibility of FPQA, achieving reductions of 1.4$\times$, 27.7$\times$, and 6.3$\times$ in circuit depth for 100-qubit random, quantum simulation, and QAOA circuits, respectively.
+
+{{</citation>}}
+
+
 ## math.NA (1)
 
 
 
-### (52/52) Reduced Augmentation Implicit Low-rank (RAIL) integrators for advection-diffusion and Fokker-Planck models (Joseph Nakao et al., 2023)
+### (58/58) Reduced Augmentation Implicit Low-rank (RAIL) integrators for advection-diffusion and Fokker-Planck models (Joseph Nakao et al., 2023)
 
 {{<citation>}}
 
