@@ -434,14 +434,14 @@ The dissection of hyperspectral images into intrinsic components through hypersp
 
 {{<citation>}}
 
-Wenqiao Li, Xiaohao Xu. (2023)  
+Wenqiao Li, Xiaohao Xu, Yao Gu, Bozhong Zheng, Shenghua Gao, Yingna Wu. (2023)  
 **Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Anomaly Detection, Self-Supervised  
-[Paper Link](http://arxiv.org/abs/2311.14897v1)  
+[Paper Link](http://arxiv.org/abs/2311.14897v2)  
 
 ---
 
