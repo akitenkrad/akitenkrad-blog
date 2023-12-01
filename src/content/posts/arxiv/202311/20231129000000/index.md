@@ -824,18 +824,18 @@ Video-based large language models (Video-LLMs) have been recently introduced, ta
 {{</citation>}}
 
 
-### (36/147) Test-time Adaptation of Discriminative Models via Diffusion Generative Feedback (Mihir Prabhudesai et al., 2023)
+### (36/147) Diffusion-TTA: Test-time Adaptation of Discriminative Models via Generative Feedback (Mihir Prabhudesai et al., 2023)
 
 {{<citation>}}
 
 Mihir Prabhudesai, Tsung-Wei Ke, Alexander C. Li, Deepak Pathak, Katerina Fragkiadaki. (2023)  
-**Test-time Adaptation of Discriminative Models via Diffusion Generative Feedback**  
+**Diffusion-TTA: Test-time Adaptation of Discriminative Models via Generative Feedback**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs-RO, cs.CV  
 Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2311.16102v1)  
+[Paper Link](http://arxiv.org/abs/2311.16102v2)  
 
 ---
 
@@ -967,13 +967,13 @@ Haoze Sun, Wenbo Li, Jianzhuang Liu, Haoyu Chen, Renjing Pei, Xueyi Zou, Youlian
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2311.16512v1)  
+[Paper Link](http://arxiv.org/abs/2311.16512v2)  
 
 ---
 
 
 **ABSTRACT**  
-Existing super-resolution (SR) models primarily focus on restoring local texture details, often neglecting the global semantic information within the scene. This oversight can lead to the omission of crucial semantic details or the introduction of inaccurate textures during the recovery process. In our work, we introduce the Cognitive Super-Resolution (CoSeR) framework, empowering SR models with the capacity to comprehend low-resolution images. We achieve this by marrying image appearance and language understanding to generate a cognitive embedding, which not only activates prior information from large text-to-image diffusion models but also facilitates the generation of high-quality reference images to optimize the SR process. To further improve image fidelity, we propose a novel condition injection scheme called "All-in-Attention", consolidating all conditional information into a single module. Consequently, our method successfully restores semantically correct and photorealistic details, demonstrating state-of-the-art performance across multiple benchmarks.
+Existing super-resolution (SR) models primarily focus on restoring local texture details, often neglecting the global semantic information within the scene. This oversight can lead to the omission of crucial semantic details or the introduction of inaccurate textures during the recovery process. In our work, we introduce the Cognitive Super-Resolution (CoSeR) framework, empowering SR models with the capacity to comprehend low-resolution images. We achieve this by marrying image appearance and language understanding to generate a cognitive embedding, which not only activates prior information from large text-to-image diffusion models but also facilitates the generation of high-quality reference images to optimize the SR process. To further improve image fidelity, we propose a novel condition injection scheme called "All-in-Attention", consolidating all conditional information into a single module. Consequently, our method successfully restores semantically correct and photorealistic details, demonstrating state-of-the-art performance across multiple benchmarks. Code: https://github.com/VINHYU/CoSeR
 
 {{</citation>}}
 
@@ -2497,7 +2497,7 @@ Richard Moulange, Max Langenkamp, Tessa Alexanian, Samuel Curtis, Morgan Livings
 Primary Category: cs.CY  
 Categories: cs-CY, cs-LG, cs.CY  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2311.15936v2)  
+[Paper Link](http://arxiv.org/abs/2311.15936v3)  
 
 ---
 

@@ -769,7 +769,7 @@ Quyen Tran, Lam Tran, Khoat Than, Toan Tran, Dinh Phung, Trung Le. (2023)
 Primary Category: cs.LG  
 Categories: cs-CV, cs-LG, cs.LG  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2311.15414v1)  
+[Paper Link](http://arxiv.org/abs/2311.15414v2)  
 
 ---
 
