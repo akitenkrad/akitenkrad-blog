@@ -218,7 +218,7 @@ Tianwei Yin, Michaël Gharbi, Richard Zhang, Eli Shechtman, Fredo Durand, Willia
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2311.18828v2)  
+[Paper Link](http://arxiv.org/abs/2311.18828v3)  
 
 ---
 
@@ -2232,7 +2232,7 @@ Xiao Liu, Xuanyu Lei, Shengyuan Wang, Yue Huang, Zhuoer Feng, Bosi Wen, Jiale Ch
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: GPT, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2311.18743v2)  
+[Paper Link](http://arxiv.org/abs/2311.18743v3)  
 
 ---
 
@@ -3282,7 +3282,7 @@ Attila A. Yavuz, Saleh Darzi, Saif E. Nouma. (2023)
 Primary Category: cs.CR  
 Categories: cs-CR, cs.CR  
 Keywords: Falcon  
-[Paper Link](http://arxiv.org/abs/2311.18674v1)  
+[Paper Link](http://arxiv.org/abs/2311.18674v2)  
 
 ---
 

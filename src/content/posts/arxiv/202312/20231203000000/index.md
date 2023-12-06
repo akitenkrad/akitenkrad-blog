@@ -21,11 +21,11 @@ math: true
 
 ## Primary Categories
 
-- [cs.LG (32)](#cslg-32)
+- [cs.CV (32)](#cscv-32)
+- [cs.LG (33)](#cslg-33)
 - [cs.NE (1)](#csne-1)
 - [cs.CL (22)](#cscl-22)
 - [cs.NI (1)](#csni-1)
-- [cs.CV (31)](#cscv-31)
 - [cs.CR (8)](#cscr-8)
 - [cs.IT (1)](#csit-1)
 - [cs.IR (1)](#csir-1)
@@ -42,11 +42,719 @@ math: true
 - [q-bio.QM (1)](#q-bioqm-1)
 - [astro-ph.IM (1)](#astro-phim-1)
 
-## cs.LG (32)
+## cs.CV (32)
 
 
 
-### (1/119) Spectral Temporal Contrastive Learning (Sacha Morin et al., 2023)
+### (1/121) Video Summarization: Towards Entity-Aware Captions (Hammad A. Ayyubi et al., 2023)
+
+{{<citation>}}
+
+Hammad A. Ayyubi, Tianqi Liu, Arsha Nagrani, Xudong Lin, Mingda Zhang, Anurag Arnab, Feng Han, Yukun Zhu, Jialu Liu, Shih-Fu Chang. (2023)  
+**Video Summarization: Towards Entity-Aware Captions**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CL, cs-CV, cs-MM, cs.CV  
+Keywords: Summarization  
+[Paper Link](http://arxiv.org/abs/2312.02188v1)  
+
+---
+
+
+**ABSTRACT**  
+Existing popular video captioning benchmarks and models deal with generic captions devoid of specific person, place or organization named entities. In contrast, news videos present a challenging setting where the caption requires such named entities for meaningful summarization. As such, we propose the task of summarizing news video directly to entity-aware captions. We also release a large-scale dataset, VIEWS (VIdeo NEWS), to support research on this task. Further, we propose a method that augments visual information from videos with context retrieved from external world knowledge to generate entity-aware captions. We demonstrate the effectiveness of our approach on three video captioning models. We also show that our approach generalizes to existing news image captions dataset. With all the extensive experiments and insights, we believe we establish a solid basis for future research on this challenging task.
+
+{{</citation>}}
+
+
+### (2/121) Improve Supervised Representation Learning with Masked Image Modeling (Kaifeng Chen et al., 2023)
+
+{{<citation>}}
+
+Kaifeng Chen, Daniel Salz, Huiwen Chang, Kihyuk Sohn, Dilip Krishnan, Mojtaba Seyedhosseini. (2023)  
+**Improve Supervised Representation Learning with Masked Image Modeling**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: ImageNet, Representation Learning  
+[Paper Link](http://arxiv.org/abs/2312.00950v1)  
+
+---
+
+
+**ABSTRACT**  
+Training visual embeddings with labeled data supervision has been the de facto setup for representation learning in computer vision. Inspired by recent success of adopting masked image modeling (MIM) in self-supervised representation learning, we propose a simple yet effective setup that can easily integrate MIM into existing supervised training paradigms. In our design, in addition to the original classification task applied to a vision transformer image encoder, we add a shallow transformer-based decoder on top of the encoder and introduce an MIM task which tries to reconstruct image tokens based on masked image inputs. We show with minimal change in architecture and no overhead in inference that this setup is able to improve the quality of the learned representations for downstream tasks such as classification, image retrieval, and semantic segmentation. We conduct a comprehensive study and evaluation of our setup on public benchmarks. On ImageNet-1k, our ViT-B/14 model achieves 81.72% validation accuracy, 2.01% higher than the baseline model. On K-Nearest-Neighbor image retrieval evaluation with ImageNet-1k, the same model outperforms the baseline by 1.32%. We also show that this setup can be easily scaled to larger models and datasets. Code and checkpoints will be released.
+
+{{</citation>}}
+
+
+### (3/121) Zero-Shot Video Question Answering with Procedural Programs (Rohan Choudhury et al., 2023)
+
+{{<citation>}}
+
+Rohan Choudhury, Koichiro Niinuma, Kris M. Kitani, László A. Jeni. (2023)  
+**Zero-Shot Video Question Answering with Procedural Programs**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Question Answering, Zero-Shot  
+[Paper Link](http://arxiv.org/abs/2312.00937v1)  
+
+---
+
+
+**ABSTRACT**  
+We propose to answer zero-shot questions about videos by generating short procedural programs that derive a final answer from solving a sequence of visual subtasks. We present Procedural Video Querying (ProViQ), which uses a large language model to generate such programs from an input question and an API of visual modules in the prompt, then executes them to obtain the output. Recent similar procedural approaches have proven successful for image question answering, but videos remain challenging: we provide ProViQ with modules intended for video understanding, allowing it to generalize to a wide variety of videos. This code generation framework additionally enables ProViQ to perform other video tasks in addition to question answering, such as multi-object tracking or basic video editing. ProViQ achieves state-of-the-art results on a diverse range of benchmarks, with improvements of up to 25% on short, long, open-ended, and multimodal video question-answering datasets. Our project page is at https://rccchoudhury.github.io/proviq2023.
+
+{{</citation>}}
+
+
+### (4/121) Grounding Everything: Emerging Localization Properties in Vision-Language Transformers (Walid Bousselham et al., 2023)
+
+{{<citation>}}
+
+Walid Bousselham, Felix Petersen, Vittorio Ferrari, Hilde Kuehne. (2023)  
+**Grounding Everything: Emerging Localization Properties in Vision-Language Transformers**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2312.00878v2)  
+
+---
+
+
+**ABSTRACT**  
+Vision-language foundation models have shown remarkable performance in various zero-shot settings such as image retrieval, classification, or captioning. But so far, those models seem to fall behind when it comes to zero-shot localization of referential expressions and objects in images. As a result, they need to be fine-tuned for this task. In this paper, we show that pretrained vision-language (VL) models allow for zero-shot open-vocabulary object localization without any fine-tuning. To leverage those capabilities, we propose a Grounding Everything Module (GEM) that generalizes the idea of value-value attention introduced by CLIPSurgery to a self-self attention path. We show that the concept of self-self attention corresponds to clustering, thus enforcing groups of tokens arising from the same object to be similar while preserving the alignment with the language space. To further guide the group formation, we propose a set of regularizations that allows the model to finally generalize across datasets and backbones. We evaluate the proposed GEM framework on various benchmark tasks and datasets for semantic segmentation. It shows that GEM not only outperforms other training-free open-vocabulary localization methods, but also achieves state-of-the-art results on the recently proposed OpenImagesV7 large-scale segmentation benchmark.
+
+{{</citation>}}
+
+
+### (5/121) Making Large Multimodal Models Understand Arbitrary Visual Prompts (Mu Cai et al., 2023)
+
+{{<citation>}}
+
+Mu Cai, Haotian Liu, Siva Karthik Mustikovela, Gregory P. Meyer, Yuning Chai, Dennis Park, Yong Jae Lee. (2023)  
+**Making Large Multimodal Models Understand Arbitrary Visual Prompts**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CL, cs-CV, cs-LG, cs.CV  
+Keywords: QA, Reasoning  
+[Paper Link](http://arxiv.org/abs/2312.00784v1)  
+
+---
+
+
+**ABSTRACT**  
+While existing large vision-language multimodal models focus on whole image understanding, there is a prominent gap in achieving region-specific comprehension. Current approaches that use textual coordinates or spatial encodings often fail to provide a user-friendly interface for visual prompting. To address this challenge, we introduce a novel multimodal model capable of decoding arbitrary visual prompts. This allows users to intuitively mark images and interact with the model using natural cues like a "red bounding box" or "pointed arrow". Our simple design directly overlays visual markers onto the RGB image, eliminating the need for complex region encodings, yet achieves state-of-the-art performance on region-understanding tasks like Visual7W, PointQA, and Visual Commonsense Reasoning benchmark. Furthermore, we present ViP-Bench, a comprehensive benchmark to assess the capability of models in understanding visual prompts across multiple dimensions, enabling future research in this domain. Code, data, and model are publicly available.
+
+{{</citation>}}
+
+
+### (6/121) EfficientSAM: Leveraged Masked Image Pretraining for Efficient Segment Anything (Yunyang Xiong et al., 2023)
+
+{{<citation>}}
+
+Yunyang Xiong, Bala Varadarajan, Lemeng Wu, Xiaoyu Xiang, Fanyi Xiao, Chenchen Zhu, Xiaoliang Dai, Dilin Wang, Fei Sun, Forrest Iandola, Raghuraman Krishnamoorthi, Vikas Chandra. (2023)  
+**EfficientSAM: Leveraged Masked Image Pretraining for Efficient Segment Anything**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2312.00863v1)  
+
+---
+
+
+**ABSTRACT**  
+Segment Anything Model (SAM) has emerged as a powerful tool for numerous vision applications. A key component that drives the impressive performance for zero-shot transfer and high versatility is a super large Transformer model trained on the extensive high-quality SA-1B dataset. While beneficial, the huge computation cost of SAM model has limited its applications to wider real-world applications. To address this limitation, we propose EfficientSAMs, light-weight SAM models that exhibits decent performance with largely reduced complexity. Our idea is based on leveraging masked image pretraining, SAMI, which learns to reconstruct features from SAM image encoder for effective visual representation learning. Further, we take SAMI-pretrained light-weight image encoders and mask decoder to build EfficientSAMs, and finetune the models on SA-1B for segment anything task. We perform evaluations on multiple vision tasks including image classification, object detection, instance segmentation, and semantic object detection, and find that our proposed pretraining method, SAMI, consistently outperforms other masked image pretraining methods. On segment anything task such as zero-shot instance segmentation, our EfficientSAMs with SAMI-pretrained lightweight image encoders perform favorably with a significant gain (e.g., ~4 AP on COCO/LVIS) over other fast SAM models.
+
+{{</citation>}}
+
+
+### (7/121) DeepCache: Accelerating Diffusion Models for Free (Xinyin Ma et al., 2023)
+
+{{<citation>}}
+
+Xinyin Ma, Gongfan Fang, Xinchao Wang. (2023)  
+**DeepCache: Accelerating Diffusion Models for Free**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: ImageNet  
+[Paper Link](http://arxiv.org/abs/2312.00858v1)  
+
+---
+
+
+**ABSTRACT**  
+Diffusion models have recently gained unprecedented attention in the field of image synthesis due to their remarkable generative capabilities. Notwithstanding their prowess, these models often incur substantial computational costs, primarily attributed to the sequential denoising process and cumbersome model size. Traditional methods for compressing diffusion models typically involve extensive retraining, presenting cost and feasibility challenges. In this paper, we introduce DeepCache, a novel training-free paradigm that accelerates diffusion models from the perspective of model architecture. DeepCache capitalizes on the inherent temporal redundancy observed in the sequential denoising steps of diffusion models, which caches and retrieves features across adjacent denoising stages, thereby curtailing redundant computations. Utilizing the property of the U-Net, we reuse the high-level features while updating the low-level features in a very cheap way. This innovative strategy, in turn, enables a speedup factor of 2.3$\times$ for Stable Diffusion v1.5 with only a 0.05 decline in CLIP Score, and 4.1$\times$ for LDM-4-G with a slight decrease of 0.22 in FID on ImageNet. Our experiments also demonstrate DeepCache's superiority over existing pruning and distillation methods that necessitate retraining and its compatibility with current sampling techniques. Furthermore, we find that under the same throughput, DeepCache effectively achieves comparable or even marginally improved results with DDIM or PLMS. The code is available at https://github.com/horseee/DeepCache
+
+{{</citation>}}
+
+
+### (8/121) PointBeV: A Sparse Approach to BeV Predictions (Loick Chambon et al., 2023)
+
+{{<citation>}}
+
+Loick Chambon, Eloi Zablocki, Mickael Chen, Florent Bartoccioni, Patrick Perez, Matthieu Cord. (2023)  
+**PointBeV: A Sparse Approach to BeV Predictions**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Attention  
+[Paper Link](http://arxiv.org/abs/2312.00703v1)  
+
+---
+
+
+**ABSTRACT**  
+Bird's-eye View (BeV) representations have emerged as the de-facto shared space in driving applications, offering a unified space for sensor data fusion and supporting various downstream tasks. However, conventional models use grids with fixed resolution and range and face computational inefficiencies due to the uniform allocation of resources across all cells. To address this, we propose PointBeV, a novel sparse BeV segmentation model operating on sparse BeV cells instead of dense grids. This approach offers precise control over memory usage, enabling the use of long temporal contexts and accommodating memory-constrained platforms. PointBeV employs an efficient two-pass strategy for training, enabling focused computation on regions of interest. At inference time, it can be used with various memory/performance trade-offs and flexibly adjusts to new specific use cases. PointBeV achieves state-of-the-art results on the nuScenes dataset for vehicle, pedestrian, and lane segmentation, showcasing superior performance in static and temporal settings despite being trained solely with sparse signals. We will release our code along with two new efficient modules used in the architecture: Sparse Feature Pulling, designed for the effective extraction of features from images to BeV, and Submanifold Attention, which enables efficient temporal modeling. Our code is available at https://github.com/valeoai/PointBeV.
+
+{{</citation>}}
+
+
+### (9/121) GIFT: Generative Interpretable Fine-Tuning Transformers (Chinmay Savadikar et al., 2023)
+
+{{<citation>}}
+
+Chinmay Savadikar, Xi Song, Tianfu Wu. (2023)  
+**GIFT: Generative Interpretable Fine-Tuning Transformers**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-LG, cs.CV  
+Keywords: Attention, Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2312.00700v1)  
+
+---
+
+
+**ABSTRACT**  
+We present GIFT (Generative Interpretable Fine-tuning Transformers) for fine-tuning pretrained (often large) Transformer models at downstream tasks in a parameter-efficient way with built-in interpretability. Our GIFT is a deep parameter-residual learning method, which addresses two problems in fine-tuning a pretrained Transformer model: Where to apply the parameter-efficient fine-tuning (PEFT) to be extremely lightweight yet sufficiently expressive, and How to learn the PEFT to better exploit the knowledge of the pretrained model in a direct way? For the former, we select the final projection (linear) layer in the multi-head self-attention of a Transformer model, and verify its effectiveness. For the latter, in contrast to the prior art that directly introduce new model parameters (often in low-rank approximation form) to be learned in fine-tuning with downstream data, we propose a method for learning to generate the fine-tuning parameters. Our GIFT is a hyper-Transformer which take as input the pretrained parameters of the projection layer to generate its fine-tuning parameters using a proposed Parameter-to-Cluster Attention (PaCa). The PaCa results in a simple clustering-based forward explainer that plays the role of semantic segmentation in testing. In experiments, our proposed GIFT is tested on the VTAB benchmark and the fine-grained visual classification (FGVC) benchmark. It obtains significantly better performance than the prior art. Our code is available at https://github.com/savadikarc/gift
+
+{{</citation>}}
+
+
+### (10/121) Open-vocabulary object 6D pose estimation (Jaime Corsetti et al., 2023)
+
+{{<citation>}}
+
+Jaime Corsetti, Davide Boscaini, Changjae Oh, Andrea Cavallaro, Fabio Poiesi. (2023)  
+**Open-vocabulary object 6D pose estimation**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2312.00690v1)  
+
+---
+
+
+**ABSTRACT**  
+We introduce the new setting of open-vocabulary object 6D pose estimation, in which a textual prompt is used to specify the object of interest. In contrast to existing approaches, in our setting (i) the object of interest is specified solely through the textual prompt, (ii) no object model (e.g. CAD or video sequence) is required at inference, (iii) the object is imaged from two different viewpoints of two different scenes, and (iv) the object was not observed during the training phase. To operate in this setting, we introduce a novel approach that leverages a Vision-Language Model to segment the object of interest from two distinct scenes and to estimate its relative 6D pose. The key of our approach is a carefully devised strategy to fuse object-level information provided by the prompt with local image features, resulting in a feature space that can generalize to novel concepts. We validate our approach on a new benchmark based on two popular datasets, REAL275 and Toyota-Light, which collectively encompass 39 object instances appearing in four thousand image pairs. The results demonstrate that our approach outperforms both a well-established hand-crafted method and a recent deep learning-based baseline in estimating the relative 6D pose of objects in different scenes. Project website: https://jcorsetti.github.io/oryon-website/.
+
+{{</citation>}}
+
+
+### (11/121) LightCLIP: Learning Multi-Level Interaction for Lightweight Vision-Language Models (Ying Nie et al., 2023)
+
+{{<citation>}}
+
+Ying Nie, Wei He, Kai Han, Yehui Tang, Tianyu Guo, Fanyi Du, Yunhe Wang. (2023)  
+**LightCLIP: Learning Multi-Level Interaction for Lightweight Vision-Language Models**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2312.00674v1)  
+
+---
+
+
+**ABSTRACT**  
+Vision-language pre-training like CLIP has shown promising performance on various downstream tasks such as zero-shot image classification and image-text retrieval. Most of the existing CLIP-alike works usually adopt relatively large image encoders like ResNet50 and ViT, while the lightweight counterparts are rarely discussed. In this paper, we propose a multi-level interaction paradigm for training lightweight CLIP models. Firstly, to mitigate the problem that some image-text pairs are not strictly one-to-one correspondence, we improve the conventional global instance-level alignment objective by softening the label of negative samples progressively. Secondly, a relaxed bipartite matching based token-level alignment objective is introduced for finer-grained alignment between image patches and textual words. Moreover, based on the observation that the accuracy of CLIP model does not increase correspondingly as the parameters of text encoder increase, an extra objective of masked language modeling (MLM) is leveraged for maximizing the potential of the shortened text encoder. In practice, an auxiliary fusion module injecting unmasked image embedding into masked text embedding at different network stages is proposed for enhancing the MLM. Extensive experiments show that without introducing additional computational cost during inference, the proposed method achieves a higher performance on multiple downstream tasks.
+
+{{</citation>}}
+
+
+### (12/121) SPOT: Self-Training with Patch-Order Permutation for Object-Centric Learning with Autoregressive Transformers (Ioannis Kakogeorgiou et al., 2023)
+
+{{<citation>}}
+
+Ioannis Kakogeorgiou, Spyros Gidaris, Konstantinos Karantzalos, Nikos Komodakis. (2023)  
+**SPOT: Self-Training with Patch-Order Permutation for Object-Centric Learning with Autoregressive Transformers**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2312.00648v1)  
+
+---
+
+
+**ABSTRACT**  
+Unsupervised object-centric learning aims to decompose scenes into interpretable object entities, termed slots. Slot-based auto-encoders stand out as a prominent method for this task. Within them, crucial aspects include guiding the encoder to generate object-specific slots and ensuring the decoder utilizes them during reconstruction. This work introduces two novel techniques, (i) an attention-based self-training approach, which distills superior slot-based attention masks from the decoder to the encoder, enhancing object segmentation, and (ii) an innovative patch-order permutation strategy for autoregressive transformers that strengthens the role of slot vectors in reconstruction. The effectiveness of these strategies is showcased experimentally. The combined approach significantly surpasses prior slot-based autoencoder methods in unsupervised object segmentation, especially with complex real-world images. We provide the implementation code at https://github.com/gkakogeorgiou/spot .
+
+{{</citation>}}
+
+
+### (13/121) QAFE-Net: Quality Assessment of Facial Expressions with Landmark Heatmaps (Shuchao Duan et al., 2023)
+
+{{<citation>}}
+
+Shuchao Duan, Amirhossein Dadashzadeh, Alan Whone, Majid Mirmehdi. (2023)  
+**QAFE-Net: Quality Assessment of Facial Expressions with Landmark Heatmaps**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: QA  
+[Paper Link](http://arxiv.org/abs/2312.00856v1)  
+
+---
+
+
+**ABSTRACT**  
+Facial expression recognition (FER) methods have made great inroads in categorising moods and feelings in humans. Beyond FER, pain estimation methods assess levels of intensity in pain expressions, however assessing the quality of all facial expressions is of critical value in health-related applications. In this work, we address the quality of five different facial expressions in patients affected by Parkinson's disease. We propose a novel landmark-guided approach, QAFE-Net, that combines temporal landmark heatmaps with RGB data to capture small facial muscle movements that are encoded and mapped to severity scores. The proposed approach is evaluated on a new Parkinson's Disease Facial Expression dataset (PFED5), as well as on the pain estimation benchmark, the UNBC-McMaster Shoulder Pain Expression Archive Database. Our comparative experiments demonstrate that the proposed method outperforms SOTA action quality assessment works on PFED5 and achieves lower mean absolute error than the SOTA pain estimation methods on UNBC-McMaster. Our code and the new PFED5 dataset are available at https://github.com/shuchaoduan/QAFE-Net.
+
+{{</citation>}}
+
+
+### (14/121) Towards Efficient 3D Object Detection in Bird's-Eye-View Space for Autonomous Driving: A Convolutional-Only Approach (Yuxin Li et al., 2023)
+
+{{<citation>}}
+
+Yuxin Li, Qiang Han, Mengying Yu, Yuxin Jiang, Chaikiat Yeo, Yiheng Li, Zihang Huang, Nini Liu, Hsuanhan Chen, Xiaojun Wu. (2023)  
+**Towards Efficient 3D Object Detection in Bird's-Eye-View Space for Autonomous Driving: A Convolutional-Only Approach**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: Object Detection  
+[Paper Link](http://arxiv.org/abs/2312.00633v1)  
+
+---
+
+
+**ABSTRACT**  
+3D object detection in Bird's-Eye-View (BEV) space has recently emerged as a prevalent approach in the field of autonomous driving. Despite the demonstrated improvements in accuracy and velocity estimation compared to perspective view methods, the deployment of BEV-based techniques in real-world autonomous vehicles remains challenging. This is primarily due to their reliance on vision-transformer (ViT) based architectures, which introduce quadratic complexity with respect to the input resolution. To address this issue, we propose an efficient BEV-based 3D detection framework called BEVENet, which leverages a convolutional-only architectural design to circumvent the limitations of ViT models while maintaining the effectiveness of BEV-based methods. Our experiments show that BEVENet is 3$\times$ faster than contemporary state-of-the-art (SOTA) approaches on the NuScenes challenge, achieving a mean average precision (mAP) of 0.456 and a nuScenes detection score (NDS) of 0.555 on the NuScenes validation dataset, with an inference speed of 47.6 frames per second. To the best of our knowledge, this study stands as the first to achieve such significant efficiency improvements for BEV-based methods, highlighting their enhanced feasibility for real-world autonomous driving applications.
+
+{{</citation>}}
+
+
+### (15/121) BCN: Batch Channel Normalization for Image Classification (Afifa Khaled et al., 2023)
+
+{{<citation>}}
+
+Afifa Khaled, Chao Li, Jia Ning, Kun He. (2023)  
+**BCN: Batch Channel Normalization for Image Classification**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: Image Classification, Transformer  
+[Paper Link](http://arxiv.org/abs/2312.00596v1)  
+
+---
+
+
+**ABSTRACT**  
+Normalization techniques have been widely used in the field of deep learning due to their capability of enabling higher learning rates and are less careful in initialization. However, the effectiveness of popular normalization technologies is typically limited to specific areas. Unlike the standard Batch Normalization (BN) and Layer Normalization (LN), where BN computes the mean and variance along the (N,H,W) dimensions and LN computes the mean and variance along the (C,H,W) dimensions (N, C, H and W are the batch, channel, spatial height and width dimension, respectively), this paper presents a novel normalization technique called Batch Channel Normalization (BCN). To exploit both the channel and batch dependence and adaptively and combine the advantages of BN and LN based on specific datasets or tasks, BCN separately normalizes inputs along the (N, H, W) and (C, H, W) axes, then combines the normalized outputs based on adaptive parameters. As a basic block, BCN can be easily integrated into existing models for various applications in the field of computer vision. Empirical results show that the proposed technique can be seamlessly applied to various versions of CNN or Vision Transformer architecture. The code is publicly available at https://github.com/AfifaKhaled/BatchChannel-Normalization
+
+{{</citation>}}
+
+
+### (16/121) Event Recognition in Laparoscopic Gynecology Videos with Hybrid Transformers (Sahar Nasirihaghighi et al., 2023)
+
+{{<citation>}}
+
+Sahar Nasirihaghighi, Negin Ghamsarian, Heinrich Husslein, Klaus Schoeffmann. (2023)  
+**Event Recognition in Laparoscopic Gynecology Videos with Hybrid Transformers**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Event Recognition, Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2312.00593v1)  
+
+---
+
+
+**ABSTRACT**  
+Analyzing laparoscopic surgery videos presents a complex and multifaceted challenge, with applications including surgical training, intra-operative surgical complication prediction, and post-operative surgical assessment. Identifying crucial events within these videos is a significant prerequisite in a majority of these applications. In this paper, we introduce a comprehensive dataset tailored for relevant event recognition in laparoscopic gynecology videos. Our dataset includes annotations for critical events associated with major intra-operative challenges and post-operative complications. To validate the precision of our annotations, we assess event recognition performance using several CNN-RNN architectures. Furthermore, we introduce and evaluate a hybrid transformer architecture coupled with a customized training-inference framework to recognize four specific events in laparoscopic surgery videos. Leveraging the Transformer networks, our proposed architecture harnesses inter-frame dependencies to counteract the adverse effects of relevant content occlusion, motion blur, and surgical scene variation, thus significantly enhancing event recognition accuracy. Moreover, we present a frame sampling strategy designed to manage variations in surgical scenes and the surgeons' skill level, resulting in event recognition with high temporal resolution. We empirically demonstrate the superiority of our proposed methodology in event recognition compared to conventional CNN-RNN architectures through a series of extensive experiments.
+
+{{</citation>}}
+
+
+### (17/121) Less is More: Learning Reference Knowledge Using No-Reference Image Quality Assessment (Xudong Li et al., 2023)
+
+{{<citation>}}
+
+Xudong Li, Jingyuan Zheng, Xiawu Zheng, Runze Hu, Enwei Zhang, Yuting Gao, Yunhang Shen, Ke Li, Yutao Liu, Pingyang Dai, Yan Zhang, Rongrong Ji. (2023)  
+**Less is More: Learning Reference Knowledge Using No-Reference Image Quality Assessment**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: QA  
+[Paper Link](http://arxiv.org/abs/2312.00591v1)  
+
+---
+
+
+**ABSTRACT**  
+Image Quality Assessment (IQA) with reference images have achieved great success by imitating the human vision system, in which the image quality is effectively assessed by comparing the query image with its pristine reference image. However, for the images in the wild, it is quite difficult to access accurate reference images. We argue that it is possible to learn reference knowledge under the No-Reference Image Quality Assessment (NR-IQA) setting, which is effective and efficient empirically. Concretely, by innovatively introducing a novel feature distillation method in IQA, we propose a new framework to learn comparative knowledge from non-aligned reference images. And then, to achieve fast convergence and avoid overfitting, we further propose an inductive bias regularization. Such a framework not only solves the congenital defects of NR-IQA but also improves the feature extraction framework, enabling it to express more abundant quality information. Surprisingly, our method utilizes less input while obtaining a more significant improvement compared to the teacher models. Extensive experiments on eight standard NR-IQA datasets demonstrate the superior performance to the state-of-the-art NR-IQA methods, i.e., achieving the PLCC values of 0.917 (vs. 0.884 in LIVEC) and 0.686 (vs. 0.661 in LIVEFB).
+
+{{</citation>}}
+
+
+### (18/121) Generative models for visualising abstract social processes: Guiding streetview image synthesis of StyleGAN2 with indices of deprivation (Aleksi Knuutila, 2023)
+
+{{<citation>}}
+
+Aleksi Knuutila. (2023)  
+**Generative models for visualising abstract social processes: Guiding streetview image synthesis of StyleGAN2 with indices of deprivation**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Google  
+[Paper Link](http://arxiv.org/abs/2312.00570v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper presents a novel application of Generative Adverserial Networks (GANs) to study visual aspects of social processes. I train a a StyleGAN2-model on a custom dataset of 14,564 images of London, sourced from Google Streetview taken in London. After training, I invert the images in the training set, finding points in the model's latent space that correspond to them, and compare results from three inversion techniques. I connect each data point with metadata from the Indices of Multiple Deprivation, describing income, health and environmental quality in the area where the photographs were taken. It is then possible to map which parts of the model's latent space encode visual features that are distinctive for health, income and environmental quality, and condition the synthesis of new images based on these factors. The synthetic images created reflect visual features of social processes that were previously unknown and difficult to study, describing recurring visual differences between deprived and privileged areas in London. GANs are known for their capability to produce a continuous range of images that exhibit visual differences. The paper tests how to exploit this ability through visual comparisons in still images as well as through an interactive website where users can guide image synthesis with sliders. Though conditioned synthesis has its limitations and the results are difficult to validate, the paper points to the potential for generative models to be repurposed to be parts of social scientific methods.
+
+{{</citation>}}
+
+
+### (19/121) Explainable AI in Diagnosing and Anticipating Leukemia Using Transfer Learning Method (Wahidul Hasan Abir et al., 2023)
+
+{{<citation>}}
+
+Wahidul Hasan Abir, Md. Fahim Uddin, Faria Rahman Khanam, Mohammad Monirujjaman Khan. (2023)  
+**Explainable AI in Diagnosing and Anticipating Leukemia Using Transfer Learning Method**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2312.00487v1)  
+
+---
+
+
+**ABSTRACT**  
+This research paper focuses on Acute Lymphoblastic Leukemia (ALL), a form of blood cancer prevalent in children and teenagers, characterized by the rapid proliferation of immature white blood cells (WBCs). These atypical cells can overwhelm healthy cells, leading to severe health consequences. Early and accurate detection of ALL is vital for effective treatment and improving survival rates. Traditional diagnostic methods are time-consuming, costly, and prone to errors. The paper proposes an automated detection approach using computer-aided diagnostic (CAD) models, leveraging deep learning techniques to enhance the accuracy and efficiency of leukemia diagnosis. The study utilizes various transfer learning models like ResNet101V2, VGG19, InceptionV3, and InceptionResNetV2 for classifying ALL. The methodology includes using the Local Interpretable Model-Agnostic Explanations (LIME) for ensuring the validity and reliability of the AI system's predictions. This approach is critical for overcoming the "black box" nature of AI, where decisions made by models are often opaque and unaccountable. The paper highlights that the proposed method using the InceptionV3 model achieved an impressive 98.38% accuracy, outperforming other tested models. The results, verified by the LIME algorithm, showcase the potential of this method in accurately identifying ALL, providing a valuable tool for medical practitioners. The research underscores the impact of explainable artificial intelligence (XAI) in medical diagnostics, paving the way for more transparent and trustworthy AI applications in healthcare.
+
+{{</citation>}}
+
+
+### (20/121) Dolphins: Multimodal Language Model for Driving (Yingzi Ma et al., 2023)
+
+{{<citation>}}
+
+Yingzi Ma, Yulong Cao, Jiachen Sun, Marco Pavone, Chaowei Xiao. (2023)  
+**Dolphins: Multimodal Language Model for Driving**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2312.00438v1)  
+
+---
+
+
+**ABSTRACT**  
+The quest for fully autonomous vehicles (AVs) capable of navigating complex real-world scenarios with human-like understanding and responsiveness. In this paper, we introduce Dolphins, a novel vision-language model architected to imbibe human-like abilities as a conversational driving assistant. Dolphins is adept at processing multimodal inputs comprising video (or image) data, text instructions, and historical control signals to generate informed outputs corresponding to the provided instructions. Building upon the open-sourced pretrained Vision-Language Model, OpenFlamingo, we first enhance Dolphins's reasoning capabilities through an innovative Grounded Chain of Thought (GCoT) process. Then we tailored Dolphins to the driving domain by constructing driving-specific instruction data and conducting instruction tuning. Through the utilization of the BDD-X dataset, we designed and consolidated four distinct AV tasks into Dolphins to foster a holistic understanding of intricate driving scenarios. As a result, the distinctive features of Dolphins are characterized into two dimensions: (1) the ability to provide a comprehensive understanding of complex and long-tailed open-world driving scenarios and solve a spectrum of AV tasks, and (2) the emergence of human-like capabilities including gradient-free instant adaptation via in-context learning and error recovery via reflection.
+
+{{</citation>}}
+
+
+### (21/121) Enhancing Image Captioning with Neural Models (Pooja Bhatnagar et al., 2023)
+
+{{<citation>}}
+
+Pooja Bhatnagar, Sai Mrunaal, Sachin Kamnure. (2023)  
+**Enhancing Image Captioning with Neural Models**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-NE, cs.CV  
+Keywords: Image Captioning  
+[Paper Link](http://arxiv.org/abs/2312.00435v1)  
+
+---
+
+
+**ABSTRACT**  
+This research explores the realm of neural image captioning using deep learning models. The study investigates the performance of different neural architecture configurations, focusing on the inject architecture, and proposes a novel quality metric for evaluating caption generation. Through extensive experimentation and analysis, this work sheds light on the challenges and opportunities in image captioning, providing insights into model behavior and overfitting. The results reveal that while the merge models exhibit a larger vocabulary and higher ROUGE scores, the inject architecture generates relevant and concise image captions. The study also highlights the importance of refining training data and optimizing hyperparameters for improved model performance. This research contributes to the growing body of knowledge in neural image captioning and encourages further exploration in the field, emphasizing the democratization of artificial intelligence.
+
+{{</citation>}}
+
+
+### (22/121) Large-scale Vision-Language Models Learn Super Images for Efficient and High-Performance Partially Relevant Video Retrieval (Taichi Nishimura et al., 2023)
+
+{{<citation>}}
+
+Taichi Nishimura, Shota Nakada, Masayoshi Kondo. (2023)  
+**Large-scale Vision-Language Models Learn Super Images for Efficient and High-Performance Partially Relevant Video Retrieval**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-MM, cs.CV  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2312.00414v1)  
+
+---
+
+
+**ABSTRACT**  
+In this paper, we propose an efficient and high-performance method for partially relevant video retrieval (PRVR), which aims to retrieve untrimmed long videos that contain at least one relevant moment to the input text query. In terms of both efficiency and performance, the overlooked bottleneck of previous studies is the visual encoding of dense frames. This guides researchers to choose lightweight visual backbones, yielding sub-optimal retrieval performance due to their limited capabilities of learned visual representations. However, it is undesirable to simply replace them with high-performance large-scale vision-and-language models (VLMs) due to their low efficiency. To address these issues, instead of dense frames, we focus on super images, which are created by rearranging the video frames in a $N \times N$ grid layout. This reduces the number of visual encodings to $\frac{1}{N^2}$ and compensates for the low efficiency of large-scale VLMs, allowing us to adopt them as powerful encoders. Surprisingly, we discover that with a simple query-image attention trick, VLMs generalize well to super images effectively and demonstrate promising zero-shot performance against SOTA methods efficiently. In addition, we propose a fine-tuning approach by incorporating a few trainable modules into the VLM backbones. The experimental results demonstrate that our approaches efficiently achieve the best performance on ActivityNet Captions and TVR.
+
+{{</citation>}}
+
+
+### (23/121) SCHEME: Scalable Channer Mixer for Vision Transformers (Deepak Sridhar et al., 2023)
+
+{{<citation>}}
+
+Deepak Sridhar, Yunsheng Li, Nuno Vasconcelos. (2023)  
+**SCHEME: Scalable Channer Mixer for Vision Transformers**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: ImageNet, Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2312.00412v1)  
+
+---
+
+
+**ABSTRACT**  
+Vision Transformers have received significant attention due to their impressive performance in many vision tasks. While the token mixer or attention block has been studied in great detail, the channel mixer or feature mixing block (FFN or MLP) has not been explored in depth albeit it accounts for a bulk of the parameters and computation in a model. In this work, we study whether sparse feature mixing can replace the dense connections and confirm this with a block diagonal MLP structure that improves the accuracy by supporting larger expansion ratios. To improve the feature clusters formed by this structure and thereby further improve the accuracy, a lightweight, parameter-free, channel covariance attention (CCA) mechanism is introduced as a parallel branch during training. This design of CCA enables gradual feature mixing across channel groups during training whose contribution decays to zero as the training progresses to convergence. This allows the CCA block to be discarded during inference, thus enabling enhanced performance with no additional computational cost. The resulting $\textit{Scalable CHannEl MixEr}$ (SCHEME) can be plugged into any ViT architecture to obtain a gamut of models with different trade-offs between complexity and performance by controlling the block diagonal structure size in the MLP. This is shown by the introduction of a new family of SCHEMEformer models. Experiments on image classification, object detection, and semantic segmentation, with different ViT backbones, consistently demonstrate substantial accuracy gains over existing designs, especially under lower FLOPs regimes. For example, the SCHEMEformer establishes a new SOTA of 79.7% accuracy for ViTs using pure attention mixers on ImageNet-1K at 1.77G FLOPs.
+
+{{</citation>}}
+
+
+### (24/121) VIoTGPT: Learning to Schedule Vision Tools towards Intelligent Video Internet of Things (Yaoyao Zhong et al., 2023)
+
+{{<citation>}}
+
+Yaoyao Zhong, Mengshi Qi, Rui Wang, Yuhan Qiu, Yang Zhang, Huadong Ma. (2023)  
+**VIoTGPT: Learning to Schedule Vision Tools towards Intelligent Video Internet of Things**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-MM, cs.CV  
+Keywords: GPT  
+[Paper Link](http://arxiv.org/abs/2312.00401v1)  
+
+---
+
+
+**ABSTRACT**  
+Video Internet of Things (VIoT) has shown full potential in collecting an unprecedented volume of video data. Learning to schedule perceiving models and analyzing the collected videos intelligently will be potential sparks for VIoT. In this paper, to address the challenges posed by the fine-grained and interrelated vision tool usage of VIoT, we build VIoTGPT, the framework based on LLMs to correctly interact with humans, query knowledge videos, and invoke vision models to accomplish complicated tasks. To support VIoTGPT and related future works, we meticulously crafted the training dataset and established benchmarks involving 11 representative vision models across three categories based on semi-automatic annotations. To guide LLM to act as the intelligent agent towards intelligent VIoT, we resort to ReAct instruction tuning based on the collected VIoT dataset to learn the tool capability. Quantitative and qualitative experimental results and analyses demonstrate the effectiveness of VIoTGPT.
+
+{{</citation>}}
+
+
+### (25/121) Learning to Estimate Critical Gait Parameters from Single-View RGB Videos with Transformer-Based Attention Network (Quoc Hung T. Le et al., 2023)
+
+{{<citation>}}
+
+Quoc Hung T. Le, Hieu H. Pham. (2023)  
+**Learning to Estimate Critical Gait Parameters from Single-View RGB Videos with Transformer-Based Attention Network**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Attention, Clinical, Transformer  
+[Paper Link](http://arxiv.org/abs/2312.00398v1)  
+
+---
+
+
+**ABSTRACT**  
+Musculoskeletal diseases and cognitive impairments in patients lead to difficulties in movement as well as negative effects on their psychological health. Clinical gait analysis, a vital tool for early diagnosis and treatment, traditionally relies on expensive optical motion capture systems. Recent advances in computer vision and deep learning have opened the door to more accessible and cost-effective alternatives. This paper introduces a novel spatio-temporal Transformer network to estimate critical gait parameters from RGB videos captured by a single-view camera. Empirical evaluations on a public dataset of cerebral palsy patients indicate that the proposed framework surpasses current state-of-the-art approaches and show significant improvements in predicting general gait parameters (including Walking Speed, Gait Deviation Index - GDI, and Knee Flexion Angle at Maximum Extension), while utilizing fewer parameters and alleviating the need for manual feature extraction.
+
+{{</citation>}}
+
+
+### (26/121) Study and Survey on Gesture Recognition Systems (Kshitij Deshpande et al., 2023)
+
+{{<citation>}}
+
+Kshitij Deshpande, Varad Mashalkar, Kaustubh Mhaisekar, Amaan Naikwadi, Archana Ghotkar. (2023)  
+**Study and Survey on Gesture Recognition Systems**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Computer Vision  
+[Paper Link](http://arxiv.org/abs/2312.00392v1)  
+
+---
+
+
+**ABSTRACT**  
+In recent years, there has been a considerable amount of research in the Gesture Recognition domain, mainly owing to the technological advancements in Computer Vision. Various new applications have been conceptualised and developed in this field. This paper discusses the implementation of gesture recognition systems in multiple sectors such as gaming, healthcare, home appliances, industrial robots, and virtual reality. Different methodologies for capturing gestures are compared and contrasted throughout this survey. Various data sources and data acquisition techniques have been discussed. The role of gestures in sign language has been studied and existing approaches have been reviewed. Common challenges faced while building gesture recognition systems have also been explored.
+
+{{</citation>}}
+
+
+### (27/121) VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models (Hyeonho Jeong et al., 2023)
+
+{{<citation>}}
+
+Hyeonho Jeong, Geon Yeong Park, Jong Chul Ye. (2023)  
+**VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs-LG, cs.CV  
+Keywords: Attention  
+[Paper Link](http://arxiv.org/abs/2312.00845v1)  
+
+---
+
+
+**ABSTRACT**  
+Text-to-video diffusion models have advanced video generation significantly. However, customizing these models to generate videos with tailored motions presents a substantial challenge. In specific, they encounter hurdles in (a) accurately reproducing motion from a target video, and (b) creating diverse visual variations. For example, straightforward extensions of static image customization methods to video often lead to intricate entanglements of appearance and motion data. To tackle this, here we present the Video Motion Customization (VMC) framework, a novel one-shot tuning approach crafted to adapt temporal attention layers within video diffusion models. Our approach introduces a novel motion distillation objective using residual vectors between consecutive frames as a motion reference. The diffusion process then preserves low-frequency motion trajectories while mitigating high-frequency motion-unrelated noise in image space. We validate our method against state-of-the-art video generative models across diverse real-world motions and contexts. Our codes, data and the project demo can be found at https://video-motion-customization.github.io
+
+{{</citation>}}
+
+
+### (28/121) SynFundus: Generating a synthetic fundus images dataset with millions of samples and multi-disease annotations (Fangxin Shang et al., 2023)
+
+{{<citation>}}
+
+Fangxin Shang, Jie Fu, Yehui Yang, Lei Ma. (2023)  
+**SynFundus: Generating a synthetic fundus images dataset with millions of samples and multi-disease annotations**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: ImageNet  
+[Paper Link](http://arxiv.org/abs/2312.00377v1)  
+
+---
+
+
+**ABSTRACT**  
+In the field of medical imaging, the scarcity of large-scale datasets due to privacy restrictions stands as a significant barrier to develop large models for medical. To address this issue, we introduce SynFundus-1M, a high-quality synthetic dataset with over 1 million retinal fundus images and extensive disease and pathologies annotations, which is generated by a Denoising Diffusion Probabilistic Model. The SynFundus-Generator and SynFundus-1M achieve superior Frechet Inception Distance (FID) scores compared to existing methods on main-stream public real datasets. Furthermore, the ophthalmologists evaluation validate the difficulty in discerning these synthetic images from real ones, confirming the SynFundus-1M's authenticity. Through extensive experiments, we demonstrate that both CNN and ViT can benifit from SynFundus-1M by pretraining or training directly. Compared to datasets like ImageNet or EyePACS, models train on SynFundus-1M not only achieve better performance but also faster convergence on various downstream tasks.
+
+{{</citation>}}
+
+
+### (29/121) Efficient Multimodal Semantic Segmentation via Dual-Prompt Learning (Shaohua Dong et al., 2023)
+
+{{<citation>}}
+
+Shaohua Dong, Yunhe Feng, Qing Yang, Yan Huang, Dongfang Liu, Heng Fan. (2023)  
+**Efficient Multimodal Semantic Segmentation via Dual-Prompt Learning**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Semantic Segmentation  
+[Paper Link](http://arxiv.org/abs/2312.00360v2)  
+
+---
+
+
+**ABSTRACT**  
+Multimodal (e.g., RGB-Depth/RGB-Thermal) fusion has shown great potential for improving semantic segmentation in complex scenes (e.g., indoor/low-light conditions). Existing approaches often fully fine-tune a dual-branch encoder-decoder framework with a complicated feature fusion strategy for achieving multimodal semantic segmentation, which is training-costly due to the massive parameter updates in feature extraction and fusion. To address this issue, we propose a surprisingly simple yet effective dual-prompt learning network (dubbed DPLNet) for training-efficient multimodal (e.g., RGB-D/T) semantic segmentation. The core of DPLNet is to directly adapt a frozen pre-trained RGB model to multimodal semantic segmentation, reducing parameter updates. For this purpose, we present two prompt learning modules, comprising multimodal prompt generator (MPG) and multimodal feature adapter (MFA). MPG works to fuse the features from different modalities in a compact manner and is inserted from shadow to deep stages to generate the multi-level multimodal prompts that are injected into the frozen backbone, while MPG adapts prompted multimodal features in the frozen backbone for better multimodal semantic segmentation. Since both the MPG and MFA are lightweight, only a few trainable parameters (3.88M, 4.4% of the pre-trained backbone parameters) are introduced for multimodal feature fusion and learning. Using a simple decoder (3.27M parameters), DPLNet achieves new state-of-the-art performance or is on a par with other complex approaches on four RGB-D/T semantic segmentation datasets while satisfying parameter efficiency. Moreover, we show that DPLNet is general and applicable to other multimodal tasks such as salient object detection and video semantic segmentation. Without special design, DPLNet outperforms many complicated models. Our code will be available at github.com/ShaohuaDong2021/DPLNet.
+
+{{</citation>}}
+
+
+### (30/121) Manipulating the Label Space for In-Context Classification (Haokun Chen et al., 2023)
+
+{{<citation>}}
+
+Haokun Chen, Xu Yang, Yuhang Huang, Zihan Wu, Jing Wang, Xin Geng. (2023)  
+**Manipulating the Label Space for In-Context Classification**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: ImageNet, Language Model  
+[Paper Link](http://arxiv.org/abs/2312.00351v1)  
+
+---
+
+
+**ABSTRACT**  
+After pre-training by generating the next word conditional on previous words, the Language Model (LM) acquires the ability of In-Context Learning (ICL) that can learn a new task conditional on the context of the given in-context examples (ICEs). Similarly, visually-conditioned Language Modelling is also used to train Vision-Language Models (VLMs) with ICL ability. However, such VLMs typically exhibit weaker classification abilities compared to contrastive learning-based models like CLIP, since the Language Modelling objective does not directly contrast whether an object is paired with a text. To improve the ICL of classification, using more ICEs to provide more knowledge is a straightforward way. However, this may largely increase the selection time, and more importantly, the inclusion of additional in-context images tends to extend the length of the in-context sequence beyond the processing capacity of a VLM. To alleviate these limitations, we propose to manipulate the label space of each ICE to increase its knowledge density, allowing for fewer ICEs to convey as much information as a larger set would. Specifically, we propose two strategies which are Label Distribution Enhancement and Visual Descriptions Enhancement to improve In-context classification performance on diverse datasets, including the classic ImageNet and more fine-grained datasets like CUB-200. Specifically, using our approach on ImageNet, we increase accuracy from 74.70\% in a 4-shot setting to 76.21\% with just 2 shots. surpassing CLIP by 0.67\%. On CUB-200, our method raises 1-shot accuracy from 48.86\% to 69.05\%, 12.15\% higher than CLIP. The code is given in https://anonymous.4open.science/r/MLS_ICC.
+
+{{</citation>}}
+
+
+### (31/121) Learning Anatomically Consistent Embedding for Chest Radiography (Ziyu Zhou et al., 2023)
+
+{{<citation>}}
+
+Ziyu Zhou, Haozhe Luo, Jiaxuan Pang, Xiaowei Ding, Michael Gotway, Jianming Liang. (2023)  
+**Learning Anatomically Consistent Embedding for Chest Radiography**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Embedding  
+[Paper Link](http://arxiv.org/abs/2312.00335v1)  
+
+---
+
+
+**ABSTRACT**  
+Self-supervised learning (SSL) approaches have recently shown substantial success in learning visual representations from unannotated images. Compared with photographic images, medical images acquired with the same imaging protocol exhibit high consistency in anatomy. To exploit this anatomical consistency, this paper introduces a novel SSL approach, called PEAC (patch embedding of anatomical consistency), for medical image analysis. Specifically, in this paper, we propose to learn global and local consistencies via stable grid-based matching, transfer pre-trained PEAC models to diverse downstream tasks, and extensively demonstrate that (1) PEAC achieves significantly better performance than the existing state-of-the-art fully/self-supervised methods, and (2) PEAC captures the anatomical structure consistency across views of the same patient and across patients of different genders, weights, and healthy statuses, which enhances the interpretability of our method for medical image analysis.
+
+{{</citation>}}
+
+
+### (32/121) Adaptability of Computer Vision at the Tactical Edge: Addressing Environmental Uncertainty (Hayden Moore, 2023)
+
+{{<citation>}}
+
+Hayden Moore. (2023)  
+**Adaptability of Computer Vision at the Tactical Edge: Addressing Environmental Uncertainty**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: AI, Computer Vision  
+[Paper Link](http://arxiv.org/abs/2312.00269v1)  
+
+---
+
+
+**ABSTRACT**  
+Computer Vision (CV) systems are increasingly being adopted into Command and Control (C2) systems to improve intelligence analysis on the battlefield, the tactical edge. CV systems leverage Artificial Intelligence (AI) algorithms to help visualize and interpret the environment, enhancing situational awareness. However, the adaptability of CV systems at the tactical edge remains challenging due to rapidly changing environments and objects which can confuse the deployed models. A CV model leveraged in this environment can become uncertain in its predictions, as the environment and the objects existing in the environment begin to change. Additionally, mission objectives can rapidly change leading to adjustments in technology, camera angles, and image resolutions. All of which can negatively affect the performance of and potentially introduce uncertainty into the system. When the training environment and/or technology differs from the deployment environment, CV models can perform unexpectedly. Unfortunately, most scenarios at the tactical edge do not incorporate Uncertainty Quantification (UQ) into their deployed C2 and CV systems. This concept paper explores the idea of synchronizing robust data operations and model fine-tuning driven by UQ all at the tactical edge. Specifically, curating datasets and training child models based on the residuals of predictions, using these child models to calculate prediction intervals (PI), and then using these PI to calibrate the deployed models. By incorporating UQ into the core operations surrounding C2 and CV systems at the tactical edge, we can help drive purposeful adaptability on the battlefield.
+
+{{</citation>}}
+
+
+## cs.LG (33)
+
+
+
+### (33/121) Spectral Temporal Contrastive Learning (Sacha Morin et al., 2023)
 
 {{<citation>}}
 
@@ -68,7 +776,7 @@ Learning useful data representations without requiring labels is a cornerstone o
 {{</citation>}}
 
 
-### (2/119) Spatiotemporal Transformer for Imputing Sparse Data: A Deep Learning Approach (Kehui Yao et al., 2023)
+### (34/121) Spatiotemporal Transformer for Imputing Sparse Data: A Deep Learning Approach (Kehui Yao et al., 2023)
 
 {{<citation>}}
 
@@ -90,7 +798,7 @@ Effective management of environmental resources and agricultural sustainability 
 {{</citation>}}
 
 
-### (3/119) A Theory of Unimodal Bias in Multimodal Learning (Yedi Zhang et al., 2023)
+### (35/121) A Theory of Unimodal Bias in Multimodal Learning (Yedi Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -112,7 +820,7 @@ Using multiple input streams simultaneously in training multimodal neural networ
 {{</citation>}}
 
 
-### (4/119) Extreme Event Prediction with Multi-agent Reinforcement Learning-based Parametrization of Atmospheric and Oceanic Turbulence (Rambod Mojgani et al., 2023)
+### (36/121) Extreme Event Prediction with Multi-agent Reinforcement Learning-based Parametrization of Atmospheric and Oceanic Turbulence (Rambod Mojgani et al., 2023)
 
 {{<citation>}}
 
@@ -134,7 +842,7 @@ Global climate models (GCMs) are the main tools for understanding and predicting
 {{</citation>}}
 
 
-### (5/119) Explaining Knock-on Effects of Bias Mitigation (Svetoslav Nizhnichenkov et al., 2023)
+### (37/121) Explaining Knock-on Effects of Bias Mitigation (Svetoslav Nizhnichenkov et al., 2023)
 
 {{<citation>}}
 
@@ -156,7 +864,7 @@ In machine learning systems, bias mitigation approaches aim to make outcomes fai
 {{</citation>}}
 
 
-### (6/119) Deep Unlearning: Fast and Efficient Training-free Approach to Controlled Forgetting (Sangamesh Kodge et al., 2023)
+### (38/121) Deep Unlearning: Fast and Efficient Training-free Approach to Controlled Forgetting (Sangamesh Kodge et al., 2023)
 
 {{<citation>}}
 
@@ -178,7 +886,7 @@ Machine unlearning has emerged as a prominent and challenging area of interest, 
 {{</citation>}}
 
 
-### (7/119) Mamba: Linear-Time Sequence Modeling with Selective State Spaces (Albert Gu et al., 2023)
+### (39/121) Mamba: Linear-Time Sequence Modeling with Selective State Spaces (Albert Gu et al., 2023)
 
 {{<citation>}}
 
@@ -200,7 +908,29 @@ Foundation models, now powering most of the exciting applications in deep learni
 {{</citation>}}
 
 
-### (8/119) Safe Reinforcement Learning in Tensor Reproducing Kernel Hilbert Space (Xiaoyuan Cheng et al., 2023)
+### (40/121) Virtual Fusion with Contrastive Learning for Single Sensor-based Activity Recognition (Duc-Anh Nguyen et al., 2023)
+
+{{<citation>}}
+
+Duc-Anh Nguyen, Cuong Pham, Nhien-An Le-Khac. (2023)  
+**Virtual Fusion with Contrastive Learning for Single Sensor-based Activity Recognition**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CV, cs-LG, cs.LG  
+Keywords: Contrastive Learning  
+[Paper Link](http://arxiv.org/abs/2312.02185v1)  
+
+---
+
+
+**ABSTRACT**  
+Various types of sensors can be used for Human Activity Recognition (HAR), and each of them has different strengths and weaknesses. Sometimes a single sensor cannot fully observe the user's motions from its perspective, which causes wrong predictions. While sensor fusion provides more information for HAR, it comes with many inherent drawbacks like user privacy and acceptance, costly set-up, operation, and maintenance. To deal with this problem, we propose Virtual Fusion - a new method that takes advantage of unlabeled data from multiple time-synchronized sensors during training, but only needs one sensor for inference. Contrastive learning is adopted to exploit the correlation among sensors. Virtual Fusion gives significantly better accuracy than training with the same single sensor, and in some cases, it even surpasses actual fusion using multiple sensors at test time. We also extend this method to a more general version called Actual Fusion within Virtual Fusion (AFVF), which uses a subset of training sensors during inference. Our method achieves state-of-the-art accuracy and F1-score on UCI-HAR and PAMAP2 benchmark datasets. Implementation is available upon request.
+
+{{</citation>}}
+
+
+### (41/121) Safe Reinforcement Learning in Tensor Reproducing Kernel Hilbert Space (Xiaoyuan Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -222,7 +952,7 @@ This paper delves into the problem of safe reinforcement learning (RL) in a part
 {{</citation>}}
 
 
-### (9/119) Removing Biases from Molecular Representations via Information Maximization (Chenyu Wang et al., 2023)
+### (42/121) Removing Biases from Molecular Representations via Information Maximization (Chenyu Wang et al., 2023)
 
 {{<citation>}}
 
@@ -244,7 +974,7 @@ High-throughput drug screening -- using cell imaging or gene expression measurem
 {{</citation>}}
 
 
-### (10/119) Nonparametric Variational Regularisation of Pretrained Transformers (Fabio Fehr et al., 2023)
+### (43/121) Nonparametric Variational Regularisation of Pretrained Transformers (Fabio Fehr et al., 2023)
 
 {{<citation>}}
 
@@ -266,7 +996,7 @@ The current paradigm of large-scale pre-training and fine-tuning Transformer lar
 {{</citation>}}
 
 
-### (11/119) Hashmarks: Privacy-Preserving Benchmarks for High-Stakes AI Evaluation (Paul Bricman, 2023)
+### (44/121) Hashmarks: Privacy-Preserving Benchmarks for High-Stakes AI Evaluation (Paul Bricman, 2023)
 
 {{<citation>}}
 
@@ -288,7 +1018,7 @@ There is a growing need to gain insight into language model capabilities that re
 {{</citation>}}
 
 
-### (12/119) Forecasting Trends in Food Security: a Reservoir Computing Approach (Joschka Herteux et al., 2023)
+### (45/121) Forecasting Trends in Food Security: a Reservoir Computing Approach (Joschka Herteux et al., 2023)
 
 {{<citation>}}
 
@@ -310,7 +1040,7 @@ Early warning systems are an essential tool for effective humanitarian action. A
 {{</citation>}}
 
 
-### (13/119) Beyond First-Order Tweedie: Solving Inverse Problems using Latent Diffusion (Litu Rout et al., 2023)
+### (46/121) Beyond First-Order Tweedie: Solving Inverse Problems using Latent Diffusion (Litu Rout et al., 2023)
 
 {{<citation>}}
 
@@ -332,7 +1062,7 @@ Sampling from the posterior distribution poses a major computational challenge i
 {{</citation>}}
 
 
-### (14/119) Tracking Object Positions in Reinforcement Learning: A Metric for Keypoint Detection (extended version) (Emma Cramer et al., 2023)
+### (47/121) Tracking Object Positions in Reinforcement Learning: A Metric for Keypoint Detection (extended version) (Emma Cramer et al., 2023)
 
 {{<citation>}}
 
@@ -354,7 +1084,7 @@ Reinforcement learning (RL) for robot control typically requires a detailed repr
 {{</citation>}}
 
 
-### (15/119) Explainable Fraud Detection with Deep Symbolic Classification (Samantha Visbeek et al., 2023)
+### (48/121) Explainable Fraud Detection with Deep Symbolic Classification (Samantha Visbeek et al., 2023)
 
 {{<citation>}}
 
@@ -376,7 +1106,7 @@ There is a growing demand for explainable, transparent, and data-driven models w
 {{</citation>}}
 
 
-### (16/119) Physics Inspired Criterion for Pruning-Quantization Joint Learning (Weiying Xie et al., 2023)
+### (49/121) Physics Inspired Criterion for Pruning-Quantization Joint Learning (Weiying Xie et al., 2023)
 
 {{<citation>}}
 
@@ -398,7 +1128,7 @@ Pruning-quantization joint learning always facilitates the deployment of deep ne
 {{</citation>}}
 
 
-### (17/119) Interior Point Constrained Reinforcement Learning with Global Convergence Guarantees (Tingting Ni et al., 2023)
+### (50/121) Interior Point Constrained Reinforcement Learning with Global Convergence Guarantees (Tingting Ni et al., 2023)
 
 {{<citation>}}
 
@@ -420,7 +1150,7 @@ We consider discounted infinite horizon constrained Markov decision processes (C
 {{</citation>}}
 
 
-### (18/119) On the Out-Of-Distribution Robustness of Self-Supervised Representation Learning for Phonocardiogram Signals (Aristotelis Ballas et al., 2023)
+### (51/121) On the Out-Of-Distribution Robustness of Self-Supervised Representation Learning for Phonocardiogram Signals (Aristotelis Ballas et al., 2023)
 
 {{<citation>}}
 
@@ -442,7 +1172,7 @@ Objective: Despite the recent increase in research activity, deep-learning model
 {{</citation>}}
 
 
-### (19/119) A Bayesian approach for prompt optimization in pre-trained language models (Antonio Sabbatella et al., 2023)
+### (52/121) A Bayesian approach for prompt optimization in pre-trained language models (Antonio Sabbatella et al., 2023)
 
 {{<citation>}}
 
@@ -464,7 +1194,7 @@ A prompt is a sequence of symbol or tokens, selected from a vocabulary according
 {{</citation>}}
 
 
-### (20/119) LinguaLinked: A Distributed Large Language Model Inference System for Mobile Devices (Junchen Zhao et al., 2023)
+### (53/121) LinguaLinked: A Distributed Large Language Model Inference System for Mobile Devices (Junchen Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -486,7 +1216,7 @@ Deploying Large Language Models (LLMs) locally on mobile devices presents a sign
 {{</citation>}}
 
 
-### (21/119) Optimal Sample Complexity of Contrastive Learning (Noga Alon et al., 2023)
+### (54/121) Optimal Sample Complexity of Contrastive Learning (Noga Alon et al., 2023)
 
 {{<citation>}}
 
@@ -508,7 +1238,7 @@ Contrastive learning is a highly successful technique for learning representatio
 {{</citation>}}
 
 
-### (22/119) Streaming Bayesian Modeling for predicting Fat-Tailed Customer Lifetime Value (Alexey V. Calabourdin et al., 2023)
+### (55/121) Streaming Bayesian Modeling for predicting Fat-Tailed Customer Lifetime Value (Alexey V. Calabourdin et al., 2023)
 
 {{<citation>}}
 
@@ -530,7 +1260,7 @@ We develop an online learning MCMC approach applicable for hierarchical bayesian
 {{</citation>}}
 
 
-### (23/119) Benchmarking Multi-Domain Active Learning on Image Classification (Jiayi Li et al., 2023)
+### (56/121) Benchmarking Multi-Domain Active Learning on Image Classification (Jiayi Li et al., 2023)
 
 {{<citation>}}
 
@@ -552,7 +1282,7 @@ Active learning aims to enhance model performance by strategically labeling info
 {{</citation>}}
 
 
-### (24/119) Temperature Balancing, Layer-wise Weight Analysis, and Neural Network Training (Yefan Zhou et al., 2023)
+### (57/121) Temperature Balancing, Layer-wise Weight Analysis, and Neural Network Training (Yefan Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -574,7 +1304,7 @@ Regularization in modern machine learning is crucial, and it can take various fo
 {{</citation>}}
 
 
-### (25/119) Efficient Off-Policy Safe Reinforcement Learning Using Trust Region Conditional Value at Risk (Dohyeong Kim et al., 2023)
+### (58/121) Efficient Off-Policy Safe Reinforcement Learning Using Trust Region Conditional Value at Risk (Dohyeong Kim et al., 2023)
 
 {{<citation>}}
 
@@ -596,7 +1326,7 @@ This paper aims to solve a safe reinforcement learning (RL) problem with risk me
 {{</citation>}}
 
 
-### (26/119) Hypergraph Node Representation Learning with One-Stage Message Passing (Shilin Qu et al., 2023)
+### (59/121) Hypergraph Node Representation Learning with One-Stage Message Passing (Shilin Qu et al., 2023)
 
 {{<citation>}}
 
@@ -618,7 +1348,7 @@ Hypergraphs as an expressive and general structure have attracted considerable a
 {{</citation>}}
 
 
-### (27/119) Exploring the Robustness of Decentralized Training for Large Language Models (Lin Lu et al., 2023)
+### (60/121) Exploring the Robustness of Decentralized Training for Large Language Models (Lin Lu et al., 2023)
 
 {{<citation>}}
 
@@ -640,7 +1370,7 @@ Decentralized training of large language models has emerged as an effective way 
 {{</citation>}}
 
 
-### (28/119) Developmental Pretraining (DPT) for Image Classification Networks (Niranjan Rajesh et al., 2023)
+### (61/121) Developmental Pretraining (DPT) for Image Classification Networks (Niranjan Rajesh et al., 2023)
 
 {{<citation>}}
 
@@ -662,7 +1392,7 @@ In the backdrop of increasing data requirements of Deep Neural Networks for obje
 {{</citation>}}
 
 
-### (29/119) Age-Based Scheduling for Mobile Edge Computing: A Deep Reinforcement Learning Approach (Xingqiu He et al., 2023)
+### (62/121) Age-Based Scheduling for Mobile Edge Computing: A Deep Reinforcement Learning Approach (Xingqiu He et al., 2023)
 
 {{<citation>}}
 
@@ -684,7 +1414,7 @@ With the rapid development of Mobile Edge Computing (MEC), various real-time app
 {{</citation>}}
 
 
-### (30/119) Text Attribute Control via Closed-Loop Disentanglement (Lei Sha et al., 2023)
+### (63/121) Text Attribute Control via Closed-Loop Disentanglement (Lei Sha et al., 2023)
 
 {{<citation>}}
 
@@ -706,7 +1436,7 @@ Changing an attribute of a text without changing the content usually requires to
 {{</citation>}}
 
 
-### (31/119) Towards Clinical Prediction with Transparency: An Explainable AI Approach to Survival Modelling in Residential Aged Care (Teo Susnjak et al., 2023)
+### (64/121) Towards Clinical Prediction with Transparency: An Explainable AI Approach to Survival Modelling in Residential Aged Care (Teo Susnjak et al., 2023)
 
 {{<citation>}}
 
@@ -728,7 +1458,7 @@ Background: Accurate survival time estimates aid end-of-life medical decision-ma
 {{</citation>}}
 
 
-### (32/119) Sample Efficient Reinforcement Learning from Human Feedback via Active Exploration (Viraj Mehta et al., 2023)
+### (65/121) Sample Efficient Reinforcement Learning from Human Feedback via Active Exploration (Viraj Mehta et al., 2023)
 
 {{<citation>}}
 
@@ -754,7 +1484,7 @@ Preference-based feedback is important for many applications in reinforcement le
 
 
 
-### (33/119) Biased Random-Key Genetic Algorithms: A Review (Mariana A. Londe et al., 2023)
+### (66/121) Biased Random-Key Genetic Algorithms: A Review (Mariana A. Londe et al., 2023)
 
 {{<citation>}}
 
@@ -780,7 +1510,7 @@ This paper is a comprehensive literature review of Biased Random-Key Genetic Alg
 
 
 
-### (34/119) The Cost of Compression: Investigating the Impact of Compression on Parametric Knowledge in Language Models (Satya Sai Srinath Namburi et al., 2023)
+### (67/121) The Cost of Compression: Investigating the Impact of Compression on Parametric Knowledge in Language Models (Satya Sai Srinath Namburi et al., 2023)
 
 {{<citation>}}
 
@@ -802,7 +1532,7 @@ Compressing large language models (LLMs), often consisting of billions of parame
 {{</citation>}}
 
 
-### (35/119) Hyperparameter Optimization for Large Language Model Instruction-Tuning (Christophe Tribes et al., 2023)
+### (68/121) Hyperparameter Optimization for Large Language Model Instruction-Tuning (Christophe Tribes et al., 2023)
 
 {{<citation>}}
 
@@ -824,7 +1554,7 @@ The fine-tuning of Large Language Models (LLMs) has enabled them to recently ach
 {{</citation>}}
 
 
-### (36/119) Quick Back-Translation for Unsupervised Machine Translation (Benjamin Brimacombe et al., 2023)
+### (69/121) Quick Back-Translation for Unsupervised Machine Translation (Benjamin Brimacombe et al., 2023)
 
 {{<citation>}}
 
@@ -846,7 +1576,7 @@ The field of unsupervised machine translation has seen significant advancement f
 {{</citation>}}
 
 
-### (37/119) Context Retrieval via Normalized Contextual Latent Interaction for Conversational Agent (Junfeng Liu et al., 2023)
+### (70/121) Context Retrieval via Normalized Contextual Latent Interaction for Conversational Agent (Junfeng Liu et al., 2023)
 
 {{<citation>}}
 
@@ -868,7 +1598,7 @@ Conversational agents leveraging AI, particularly deep learning, are emerging in
 {{</citation>}}
 
 
-### (38/119) Mitigating Over-smoothing in Transformers via Regularized Nonlocal Functionals (Tam Nguyen et al., 2023)
+### (71/121) Mitigating Over-smoothing in Transformers via Regularized Nonlocal Functionals (Tam Nguyen et al., 2023)
 
 {{<citation>}}
 
@@ -890,7 +1620,7 @@ Transformers have achieved remarkable success in a wide range of natural languag
 {{</citation>}}
 
 
-### (39/119) SeaLLMs -- Large Language Models for Southeast Asia (Xuan-Phi Nguyen et al., 2023)
+### (72/121) SeaLLMs -- Large Language Models for Southeast Asia (Xuan-Phi Nguyen et al., 2023)
 
 {{<citation>}}
 
@@ -912,7 +1642,7 @@ Despite the remarkable achievements of large language models (LLMs) in various t
 {{</citation>}}
 
 
-### (40/119) Towards Transparency in Coreference Resolution: A Quantum-Inspired Approach (Hadi Wazni et al., 2023)
+### (73/121) Towards Transparency in Coreference Resolution: A Quantum-Inspired Approach (Hadi Wazni et al., 2023)
 
 {{<citation>}}
 
@@ -934,7 +1664,7 @@ Guided by grammatical structure, words compose to form sentences, and guided by 
 {{</citation>}}
 
 
-### (41/119) Contextualized word senses: from attention to compositionality (Pablo Gamallo, 2023)
+### (74/121) Contextualized word senses: from attention to compositionality (Pablo Gamallo, 2023)
 
 {{<citation>}}
 
@@ -956,7 +1686,7 @@ The neural architectures of language models are becoming increasingly complex, e
 {{</citation>}}
 
 
-### (42/119) The Efficiency Spectrum of Large Language Models: An Algorithmic Survey (Tianyu Ding et al., 2023)
+### (75/121) The Efficiency Spectrum of Large Language Models: An Algorithmic Survey (Tianyu Ding et al., 2023)
 
 {{<citation>}}
 
@@ -978,7 +1708,7 @@ The rapid growth of Large Language Models (LLMs) has been a driving force in tra
 {{</citation>}}
 
 
-### (43/119) The Ethics of Automating Legal Actors (Josef Valvoda et al., 2023)
+### (76/121) The Ethics of Automating Legal Actors (Josef Valvoda et al., 2023)
 
 {{<citation>}}
 
@@ -1000,7 +1730,7 @@ The introduction of large public legal datasets has brought about a renaissance 
 {{</citation>}}
 
 
-### (44/119) Explanatory Argument Extraction of Correct Answers in Resident Medical Exams (Iakes Goenaga et al., 2023)
+### (77/121) Explanatory Argument Extraction of Correct Answers in Resident Medical Exams (Iakes Goenaga et al., 2023)
 
 {{<citation>}}
 
@@ -1022,7 +1752,7 @@ Developing the required technology to assist medical experts in their everyday a
 {{</citation>}}
 
 
-### (45/119) Questioning Biases in Case Judgment Summaries: Legal Datasets or Large Language Models? (Aniket Deroy et al., 2023)
+### (78/121) Questioning Biases in Case Judgment Summaries: Legal Datasets or Large Language Models? (Aniket Deroy et al., 2023)
 
 {{<citation>}}
 
@@ -1044,7 +1774,7 @@ The evolution of legal datasets and the advent of large language models (LLMs) h
 {{</citation>}}
 
 
-### (46/119) Improving Unsupervised Relation Extraction by Augmenting Diverse Sentence Pairs (Qing Wang et al., 2023)
+### (79/121) Improving Unsupervised Relation Extraction by Augmenting Diverse Sentence Pairs (Qing Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1066,7 +1796,7 @@ Unsupervised relation extraction (URE) aims to extract relations between named e
 {{</citation>}}
 
 
-### (47/119) SurreyAI 2023 Submission for the Quality Estimation Shared Task (Archchana Sindhujan et al., 2023)
+### (80/121) SurreyAI 2023 Submission for the Quality Estimation Shared Task (Archchana Sindhujan et al., 2023)
 
 {{<citation>}}
 
@@ -1088,7 +1818,7 @@ Quality Estimation (QE) systems are important in situations where it is necessar
 {{</citation>}}
 
 
-### (48/119) RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from Fine-grained Correctional Human Feedback (Tianyu Yu et al., 2023)
+### (81/121) RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from Fine-grained Correctional Human Feedback (Tianyu Yu et al., 2023)
 
 {{<citation>}}
 
@@ -1110,7 +1840,7 @@ Multimodal Large Language Models (MLLMs) have recently demonstrated impressive c
 {{</citation>}}
 
 
-### (49/119) Summarization-based Data Augmentation for Document Classification (Yueguan Wang et al., 2023)
+### (82/121) Summarization-based Data Augmentation for Document Classification (Yueguan Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1132,7 +1862,7 @@ Despite the prevalence of pretrained language models in natural language underst
 {{</citation>}}
 
 
-### (50/119) Japanese Tort-case Dataset for Rationale-supported Legal Judgment Prediction (Hiroaki Yamada et al., 2023)
+### (83/121) Japanese Tort-case Dataset for Rationale-supported Legal Judgment Prediction (Hiroaki Yamada et al., 2023)
 
 {{<citation>}}
 
@@ -1154,7 +1884,7 @@ This paper presents the first dataset for Japanese Legal Judgment Prediction (LJ
 {{</citation>}}
 
 
-### (51/119) CoLLiE: Collaborative Training of Large Language Models in an Efficient Way (Kai Lv et al., 2023)
+### (84/121) CoLLiE: Collaborative Training of Large Language Models in an Efficient Way (Kai Lv et al., 2023)
 
 {{<citation>}}
 
@@ -1176,7 +1906,7 @@ Large language models (LLMs) are increasingly pivotal in a wide range of natural
 {{</citation>}}
 
 
-### (52/119) On Exploring the Reasoning Capability of Large Language Models with Knowledge Graphs (Pei-Chi Lo et al., 2023)
+### (85/121) On Exploring the Reasoning Capability of Large Language Models with Knowledge Graphs (Pei-Chi Lo et al., 2023)
 
 {{<citation>}}
 
@@ -1198,7 +1928,7 @@ This paper examines the capacity of LLMs to reason with knowledge graphs using t
 {{</citation>}}
 
 
-### (53/119) The Case for Scalable, Data-Driven Theory: A Paradigm for Scientific Progress in NLP (Julian Michael, 2023)
+### (86/121) The Case for Scalable, Data-Driven Theory: A Paradigm for Scientific Progress in NLP (Julian Michael, 2023)
 
 {{<citation>}}
 
@@ -1220,7 +1950,7 @@ I propose a paradigm for scientific progress in NLP centered around developing s
 {{</citation>}}
 
 
-### (54/119) PsyAttention: Psychological Attention Model for Personality Detection (Baohua Zhang et al., 2023)
+### (87/121) PsyAttention: Psychological Attention Model for Personality Detection (Baohua Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1242,7 +1972,7 @@ Work on personality detection has tended to incorporate psychological features f
 {{</citation>}}
 
 
-### (55/119) SEPSIS: I Can Catch Your Lies -- A New Paradigm for Deception Detection (Anku Rani et al., 2023)
+### (88/121) SEPSIS: I Can Catch Your Lies -- A New Paradigm for Deception Detection (Anku Rani et al., 2023)
 
 {{<citation>}}
 
@@ -1268,7 +1998,7 @@ Deception is the intentional practice of twisting information. It is a nuanced s
 
 
 
-### (56/119) A Comprehensive Real-World Evaluation of 5G Improvements over 4G in Low- and Mid-Bands (Muhammad Iqbal Rochman et al., 2023)
+### (89/121) A Comprehensive Real-World Evaluation of 5G Improvements over 4G in Low- and Mid-Bands (Muhammad Iqbal Rochman et al., 2023)
 
 {{<citation>}}
 
@@ -1290,697 +2020,11 @@ As discussions around 6G begin, it is important to carefully quantify the spectr
 {{</citation>}}
 
 
-## cs.CV (31)
-
-
-
-### (57/119) Improve Supervised Representation Learning with Masked Image Modeling (Kaifeng Chen et al., 2023)
-
-{{<citation>}}
-
-Kaifeng Chen, Daniel Salz, Huiwen Chang, Kihyuk Sohn, Dilip Krishnan, Mojtaba Seyedhosseini. (2023)  
-**Improve Supervised Representation Learning with Masked Image Modeling**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: ImageNet, Representation Learning  
-[Paper Link](http://arxiv.org/abs/2312.00950v1)  
-
----
-
-
-**ABSTRACT**  
-Training visual embeddings with labeled data supervision has been the de facto setup for representation learning in computer vision. Inspired by recent success of adopting masked image modeling (MIM) in self-supervised representation learning, we propose a simple yet effective setup that can easily integrate MIM into existing supervised training paradigms. In our design, in addition to the original classification task applied to a vision transformer image encoder, we add a shallow transformer-based decoder on top of the encoder and introduce an MIM task which tries to reconstruct image tokens based on masked image inputs. We show with minimal change in architecture and no overhead in inference that this setup is able to improve the quality of the learned representations for downstream tasks such as classification, image retrieval, and semantic segmentation. We conduct a comprehensive study and evaluation of our setup on public benchmarks. On ImageNet-1k, our ViT-B/14 model achieves 81.72% validation accuracy, 2.01% higher than the baseline model. On K-Nearest-Neighbor image retrieval evaluation with ImageNet-1k, the same model outperforms the baseline by 1.32%. We also show that this setup can be easily scaled to larger models and datasets. Code and checkpoints will be released.
-
-{{</citation>}}
-
-
-### (58/119) Zero-Shot Video Question Answering with Procedural Programs (Rohan Choudhury et al., 2023)
-
-{{<citation>}}
-
-Rohan Choudhury, Koichiro Niinuma, Kris M. Kitani, László A. Jeni. (2023)  
-**Zero-Shot Video Question Answering with Procedural Programs**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Question Answering, Zero-Shot  
-[Paper Link](http://arxiv.org/abs/2312.00937v1)  
-
----
-
-
-**ABSTRACT**  
-We propose to answer zero-shot questions about videos by generating short procedural programs that derive a final answer from solving a sequence of visual subtasks. We present Procedural Video Querying (ProViQ), which uses a large language model to generate such programs from an input question and an API of visual modules in the prompt, then executes them to obtain the output. Recent similar procedural approaches have proven successful for image question answering, but videos remain challenging: we provide ProViQ with modules intended for video understanding, allowing it to generalize to a wide variety of videos. This code generation framework additionally enables ProViQ to perform other video tasks in addition to question answering, such as multi-object tracking or basic video editing. ProViQ achieves state-of-the-art results on a diverse range of benchmarks, with improvements of up to 25% on short, long, open-ended, and multimodal video question-answering datasets. Our project page is at https://rccchoudhury.github.io/proviq2023.
-
-{{</citation>}}
-
-
-### (59/119) Grounding Everything: Emerging Localization Properties in Vision-Language Transformers (Walid Bousselham et al., 2023)
-
-{{<citation>}}
-
-Walid Bousselham, Felix Petersen, Vittorio Ferrari, Hilde Kuehne. (2023)  
-**Grounding Everything: Emerging Localization Properties in Vision-Language Transformers**  
-
----
-Primary Category: cs.CV  
-Categories: cs-AI, cs-CV, cs.CV  
-Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2312.00878v1)  
-
----
-
-
-**ABSTRACT**  
-Vision-language foundation models have shown remarkable performance in various zero-shot settings such as image retrieval, classification, or captioning. But so far, those models seem to fall behind when it comes to zero-shot localization of referential expressions and objects in images. As a result, they need to be fine-tuned for this task. In this paper, we show that pretrained vision-language (VL) models allow for zero-shot open-vocabulary object localization without any fine-tuning. To leverage those capabilities, we propose a Grounding Everything Module (GEM) that generalizes the idea of value-value attention introduced by CLIPSurgery to a self-self attention path. We show that the concept of self-self attention corresponds to clustering, thus enforcing groups of tokens arising from the same object to be similar while preserving the alignment with the language space. To further guide the group formation, we propose a set of regularizations that allows the model to finally generalize across datasets and backbones. We evaluate the proposed GEM framework on various benchmark tasks and datasets for semantic segmentation. It shows that GEM not only outperforms other training-free open-vocabulary localization methods, but also achieves state-of-the-art results on the recently proposed OpenImagesV7 large-scale segmentation benchmark.
-
-{{</citation>}}
-
-
-### (60/119) Making Large Multimodal Models Understand Arbitrary Visual Prompts (Mu Cai et al., 2023)
-
-{{<citation>}}
-
-Mu Cai, Haotian Liu, Siva Karthik Mustikovela, Gregory P. Meyer, Yuning Chai, Dennis Park, Yong Jae Lee. (2023)  
-**Making Large Multimodal Models Understand Arbitrary Visual Prompts**  
-
----
-Primary Category: cs.CV  
-Categories: cs-AI, cs-CL, cs-CV, cs-LG, cs.CV  
-Keywords: QA, Reasoning  
-[Paper Link](http://arxiv.org/abs/2312.00784v1)  
-
----
-
-
-**ABSTRACT**  
-While existing large vision-language multimodal models focus on whole image understanding, there is a prominent gap in achieving region-specific comprehension. Current approaches that use textual coordinates or spatial encodings often fail to provide a user-friendly interface for visual prompting. To address this challenge, we introduce a novel multimodal model capable of decoding arbitrary visual prompts. This allows users to intuitively mark images and interact with the model using natural cues like a "red bounding box" or "pointed arrow". Our simple design directly overlays visual markers onto the RGB image, eliminating the need for complex region encodings, yet achieves state-of-the-art performance on region-understanding tasks like Visual7W, PointQA, and Visual Commonsense Reasoning benchmark. Furthermore, we present ViP-Bench, a comprehensive benchmark to assess the capability of models in understanding visual prompts across multiple dimensions, enabling future research in this domain. Code, data, and model are publicly available.
-
-{{</citation>}}
-
-
-### (61/119) EfficientSAM: Leveraged Masked Image Pretraining for Efficient Segment Anything (Yunyang Xiong et al., 2023)
-
-{{<citation>}}
-
-Yunyang Xiong, Bala Varadarajan, Lemeng Wu, Xiaoyu Xiang, Fanyi Xiao, Chenchen Zhu, Xiaoliang Dai, Dilin Wang, Fei Sun, Forrest Iandola, Raghuraman Krishnamoorthi, Vikas Chandra. (2023)  
-**EfficientSAM: Leveraged Masked Image Pretraining for Efficient Segment Anything**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2312.00863v1)  
-
----
-
-
-**ABSTRACT**  
-Segment Anything Model (SAM) has emerged as a powerful tool for numerous vision applications. A key component that drives the impressive performance for zero-shot transfer and high versatility is a super large Transformer model trained on the extensive high-quality SA-1B dataset. While beneficial, the huge computation cost of SAM model has limited its applications to wider real-world applications. To address this limitation, we propose EfficientSAMs, light-weight SAM models that exhibits decent performance with largely reduced complexity. Our idea is based on leveraging masked image pretraining, SAMI, which learns to reconstruct features from SAM image encoder for effective visual representation learning. Further, we take SAMI-pretrained light-weight image encoders and mask decoder to build EfficientSAMs, and finetune the models on SA-1B for segment anything task. We perform evaluations on multiple vision tasks including image classification, object detection, instance segmentation, and semantic object detection, and find that our proposed pretraining method, SAMI, consistently outperforms other masked image pretraining methods. On segment anything task such as zero-shot instance segmentation, our EfficientSAMs with SAMI-pretrained lightweight image encoders perform favorably with a significant gain (e.g., ~4 AP on COCO/LVIS) over other fast SAM models.
-
-{{</citation>}}
-
-
-### (62/119) DeepCache: Accelerating Diffusion Models for Free (Xinyin Ma et al., 2023)
-
-{{<citation>}}
-
-Xinyin Ma, Gongfan Fang, Xinchao Wang. (2023)  
-**DeepCache: Accelerating Diffusion Models for Free**  
-
----
-Primary Category: cs.CV  
-Categories: cs-AI, cs-CV, cs.CV  
-Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2312.00858v1)  
-
----
-
-
-**ABSTRACT**  
-Diffusion models have recently gained unprecedented attention in the field of image synthesis due to their remarkable generative capabilities. Notwithstanding their prowess, these models often incur substantial computational costs, primarily attributed to the sequential denoising process and cumbersome model size. Traditional methods for compressing diffusion models typically involve extensive retraining, presenting cost and feasibility challenges. In this paper, we introduce DeepCache, a novel training-free paradigm that accelerates diffusion models from the perspective of model architecture. DeepCache capitalizes on the inherent temporal redundancy observed in the sequential denoising steps of diffusion models, which caches and retrieves features across adjacent denoising stages, thereby curtailing redundant computations. Utilizing the property of the U-Net, we reuse the high-level features while updating the low-level features in a very cheap way. This innovative strategy, in turn, enables a speedup factor of 2.3$\times$ for Stable Diffusion v1.5 with only a 0.05 decline in CLIP Score, and 4.1$\times$ for LDM-4-G with a slight decrease of 0.22 in FID on ImageNet. Our experiments also demonstrate DeepCache's superiority over existing pruning and distillation methods that necessitate retraining and its compatibility with current sampling techniques. Furthermore, we find that under the same throughput, DeepCache effectively achieves comparable or even marginally improved results with DDIM or PLMS. The code is available at https://github.com/horseee/DeepCache
-
-{{</citation>}}
-
-
-### (63/119) PointBeV: A Sparse Approach to BeV Predictions (Loick Chambon et al., 2023)
-
-{{<citation>}}
-
-Loick Chambon, Eloi Zablocki, Mickael Chen, Florent Bartoccioni, Patrick Perez, Matthieu Cord. (2023)  
-**PointBeV: A Sparse Approach to BeV Predictions**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2312.00703v1)  
-
----
-
-
-**ABSTRACT**  
-Bird's-eye View (BeV) representations have emerged as the de-facto shared space in driving applications, offering a unified space for sensor data fusion and supporting various downstream tasks. However, conventional models use grids with fixed resolution and range and face computational inefficiencies due to the uniform allocation of resources across all cells. To address this, we propose PointBeV, a novel sparse BeV segmentation model operating on sparse BeV cells instead of dense grids. This approach offers precise control over memory usage, enabling the use of long temporal contexts and accommodating memory-constrained platforms. PointBeV employs an efficient two-pass strategy for training, enabling focused computation on regions of interest. At inference time, it can be used with various memory/performance trade-offs and flexibly adjusts to new specific use cases. PointBeV achieves state-of-the-art results on the nuScenes dataset for vehicle, pedestrian, and lane segmentation, showcasing superior performance in static and temporal settings despite being trained solely with sparse signals. We will release our code along with two new efficient modules used in the architecture: Sparse Feature Pulling, designed for the effective extraction of features from images to BeV, and Submanifold Attention, which enables efficient temporal modeling. Our code is available at https://github.com/valeoai/PointBeV.
-
-{{</citation>}}
-
-
-### (64/119) GIFT: Generative Interpretable Fine-Tuning Transformers (Chinmay Savadikar et al., 2023)
-
-{{<citation>}}
-
-Chinmay Savadikar, Xi Song, Tianfu Wu. (2023)  
-**GIFT: Generative Interpretable Fine-Tuning Transformers**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs-LG, cs.CV  
-Keywords: Attention, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2312.00700v1)  
-
----
-
-
-**ABSTRACT**  
-We present GIFT (Generative Interpretable Fine-tuning Transformers) for fine-tuning pretrained (often large) Transformer models at downstream tasks in a parameter-efficient way with built-in interpretability. Our GIFT is a deep parameter-residual learning method, which addresses two problems in fine-tuning a pretrained Transformer model: Where to apply the parameter-efficient fine-tuning (PEFT) to be extremely lightweight yet sufficiently expressive, and How to learn the PEFT to better exploit the knowledge of the pretrained model in a direct way? For the former, we select the final projection (linear) layer in the multi-head self-attention of a Transformer model, and verify its effectiveness. For the latter, in contrast to the prior art that directly introduce new model parameters (often in low-rank approximation form) to be learned in fine-tuning with downstream data, we propose a method for learning to generate the fine-tuning parameters. Our GIFT is a hyper-Transformer which take as input the pretrained parameters of the projection layer to generate its fine-tuning parameters using a proposed Parameter-to-Cluster Attention (PaCa). The PaCa results in a simple clustering-based forward explainer that plays the role of semantic segmentation in testing. In experiments, our proposed GIFT is tested on the VTAB benchmark and the fine-grained visual classification (FGVC) benchmark. It obtains significantly better performance than the prior art. Our code is available at https://github.com/savadikarc/gift
-
-{{</citation>}}
-
-
-### (65/119) Open-vocabulary object 6D pose estimation (Jaime Corsetti et al., 2023)
-
-{{<citation>}}
-
-Jaime Corsetti, Davide Boscaini, Changjae Oh, Andrea Cavallaro, Fabio Poiesi. (2023)  
-**Open-vocabulary object 6D pose estimation**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.00690v1)  
-
----
-
-
-**ABSTRACT**  
-We introduce the new setting of open-vocabulary object 6D pose estimation, in which a textual prompt is used to specify the object of interest. In contrast to existing approaches, in our setting (i) the object of interest is specified solely through the textual prompt, (ii) no object model (e.g. CAD or video sequence) is required at inference, (iii) the object is imaged from two different viewpoints of two different scenes, and (iv) the object was not observed during the training phase. To operate in this setting, we introduce a novel approach that leverages a Vision-Language Model to segment the object of interest from two distinct scenes and to estimate its relative 6D pose. The key of our approach is a carefully devised strategy to fuse object-level information provided by the prompt with local image features, resulting in a feature space that can generalize to novel concepts. We validate our approach on a new benchmark based on two popular datasets, REAL275 and Toyota-Light, which collectively encompass 39 object instances appearing in four thousand image pairs. The results demonstrate that our approach outperforms both a well-established hand-crafted method and a recent deep learning-based baseline in estimating the relative 6D pose of objects in different scenes. Project website: https://jcorsetti.github.io/oryon-website/.
-
-{{</citation>}}
-
-
-### (66/119) LightCLIP: Learning Multi-Level Interaction for Lightweight Vision-Language Models (Ying Nie et al., 2023)
-
-{{<citation>}}
-
-Ying Nie, Wei He, Kai Han, Yehui Tang, Tianyu Guo, Fanyi Du, Yunhe Wang. (2023)  
-**LightCLIP: Learning Multi-Level Interaction for Lightweight Vision-Language Models**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.00674v1)  
-
----
-
-
-**ABSTRACT**  
-Vision-language pre-training like CLIP has shown promising performance on various downstream tasks such as zero-shot image classification and image-text retrieval. Most of the existing CLIP-alike works usually adopt relatively large image encoders like ResNet50 and ViT, while the lightweight counterparts are rarely discussed. In this paper, we propose a multi-level interaction paradigm for training lightweight CLIP models. Firstly, to mitigate the problem that some image-text pairs are not strictly one-to-one correspondence, we improve the conventional global instance-level alignment objective by softening the label of negative samples progressively. Secondly, a relaxed bipartite matching based token-level alignment objective is introduced for finer-grained alignment between image patches and textual words. Moreover, based on the observation that the accuracy of CLIP model does not increase correspondingly as the parameters of text encoder increase, an extra objective of masked language modeling (MLM) is leveraged for maximizing the potential of the shortened text encoder. In practice, an auxiliary fusion module injecting unmasked image embedding into masked text embedding at different network stages is proposed for enhancing the MLM. Extensive experiments show that without introducing additional computational cost during inference, the proposed method achieves a higher performance on multiple downstream tasks.
-
-{{</citation>}}
-
-
-### (67/119) SPOT: Self-Training with Patch-Order Permutation for Object-Centric Learning with Autoregressive Transformers (Ioannis Kakogeorgiou et al., 2023)
-
-{{<citation>}}
-
-Ioannis Kakogeorgiou, Spyros Gidaris, Konstantinos Karantzalos, Nikos Komodakis. (2023)  
-**SPOT: Self-Training with Patch-Order Permutation for Object-Centric Learning with Autoregressive Transformers**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2312.00648v1)  
-
----
-
-
-**ABSTRACT**  
-Unsupervised object-centric learning aims to decompose scenes into interpretable object entities, termed slots. Slot-based auto-encoders stand out as a prominent method for this task. Within them, crucial aspects include guiding the encoder to generate object-specific slots and ensuring the decoder utilizes them during reconstruction. This work introduces two novel techniques, (i) an attention-based self-training approach, which distills superior slot-based attention masks from the decoder to the encoder, enhancing object segmentation, and (ii) an innovative patch-order permutation strategy for autoregressive transformers that strengthens the role of slot vectors in reconstruction. The effectiveness of these strategies is showcased experimentally. The combined approach significantly surpasses prior slot-based autoencoder methods in unsupervised object segmentation, especially with complex real-world images. We provide the implementation code at https://github.com/gkakogeorgiou/spot .
-
-{{</citation>}}
-
-
-### (68/119) QAFE-Net: Quality Assessment of Facial Expressions with Landmark Heatmaps (Shuchao Duan et al., 2023)
-
-{{<citation>}}
-
-Shuchao Duan, Amirhossein Dadashzadeh, Alan Whone, Majid Mirmehdi. (2023)  
-**QAFE-Net: Quality Assessment of Facial Expressions with Landmark Heatmaps**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: QA  
-[Paper Link](http://arxiv.org/abs/2312.00856v1)  
-
----
-
-
-**ABSTRACT**  
-Facial expression recognition (FER) methods have made great inroads in categorising moods and feelings in humans. Beyond FER, pain estimation methods assess levels of intensity in pain expressions, however assessing the quality of all facial expressions is of critical value in health-related applications. In this work, we address the quality of five different facial expressions in patients affected by Parkinson's disease. We propose a novel landmark-guided approach, QAFE-Net, that combines temporal landmark heatmaps with RGB data to capture small facial muscle movements that are encoded and mapped to severity scores. The proposed approach is evaluated on a new Parkinson's Disease Facial Expression dataset (PFED5), as well as on the pain estimation benchmark, the UNBC-McMaster Shoulder Pain Expression Archive Database. Our comparative experiments demonstrate that the proposed method outperforms SOTA action quality assessment works on PFED5 and achieves lower mean absolute error than the SOTA pain estimation methods on UNBC-McMaster. Our code and the new PFED5 dataset are available at https://github.com/shuchaoduan/QAFE-Net.
-
-{{</citation>}}
-
-
-### (69/119) Towards Efficient 3D Object Detection in Bird's-Eye-View Space for Autonomous Driving: A Convolutional-Only Approach (Yuxin Li et al., 2023)
-
-{{<citation>}}
-
-Yuxin Li, Qiang Han, Mengying Yu, Yuxin Jiang, Chaikiat Yeo, Yiheng Li, Zihang Huang, Nini Liu, Hsuanhan Chen, Xiaojun Wu. (2023)  
-**Towards Efficient 3D Object Detection in Bird's-Eye-View Space for Autonomous Driving: A Convolutional-Only Approach**  
-
----
-Primary Category: cs.CV  
-Categories: cs-AI, cs-CV, cs.CV  
-Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2312.00633v1)  
-
----
-
-
-**ABSTRACT**  
-3D object detection in Bird's-Eye-View (BEV) space has recently emerged as a prevalent approach in the field of autonomous driving. Despite the demonstrated improvements in accuracy and velocity estimation compared to perspective view methods, the deployment of BEV-based techniques in real-world autonomous vehicles remains challenging. This is primarily due to their reliance on vision-transformer (ViT) based architectures, which introduce quadratic complexity with respect to the input resolution. To address this issue, we propose an efficient BEV-based 3D detection framework called BEVENet, which leverages a convolutional-only architectural design to circumvent the limitations of ViT models while maintaining the effectiveness of BEV-based methods. Our experiments show that BEVENet is 3$\times$ faster than contemporary state-of-the-art (SOTA) approaches on the NuScenes challenge, achieving a mean average precision (mAP) of 0.456 and a nuScenes detection score (NDS) of 0.555 on the NuScenes validation dataset, with an inference speed of 47.6 frames per second. To the best of our knowledge, this study stands as the first to achieve such significant efficiency improvements for BEV-based methods, highlighting their enhanced feasibility for real-world autonomous driving applications.
-
-{{</citation>}}
-
-
-### (70/119) BCN: Batch Channel Normalization for Image Classification (Afifa Khaled et al., 2023)
-
-{{<citation>}}
-
-Afifa Khaled, Chao Li, Jia Ning, Kun He. (2023)  
-**BCN: Batch Channel Normalization for Image Classification**  
-
----
-Primary Category: cs.CV  
-Categories: cs-AI, cs-CV, cs.CV  
-Keywords: Image Classification, Transformer  
-[Paper Link](http://arxiv.org/abs/2312.00596v1)  
-
----
-
-
-**ABSTRACT**  
-Normalization techniques have been widely used in the field of deep learning due to their capability of enabling higher learning rates and are less careful in initialization. However, the effectiveness of popular normalization technologies is typically limited to specific areas. Unlike the standard Batch Normalization (BN) and Layer Normalization (LN), where BN computes the mean and variance along the (N,H,W) dimensions and LN computes the mean and variance along the (C,H,W) dimensions (N, C, H and W are the batch, channel, spatial height and width dimension, respectively), this paper presents a novel normalization technique called Batch Channel Normalization (BCN). To exploit both the channel and batch dependence and adaptively and combine the advantages of BN and LN based on specific datasets or tasks, BCN separately normalizes inputs along the (N, H, W) and (C, H, W) axes, then combines the normalized outputs based on adaptive parameters. As a basic block, BCN can be easily integrated into existing models for various applications in the field of computer vision. Empirical results show that the proposed technique can be seamlessly applied to various versions of CNN or Vision Transformer architecture. The code is publicly available at https://github.com/AfifaKhaled/BatchChannel-Normalization
-
-{{</citation>}}
-
-
-### (71/119) Event Recognition in Laparoscopic Gynecology Videos with Hybrid Transformers (Sahar Nasirihaghighi et al., 2023)
-
-{{<citation>}}
-
-Sahar Nasirihaghighi, Negin Ghamsarian, Heinrich Husslein, Klaus Schoeffmann. (2023)  
-**Event Recognition in Laparoscopic Gynecology Videos with Hybrid Transformers**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Event Recognition, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2312.00593v1)  
-
----
-
-
-**ABSTRACT**  
-Analyzing laparoscopic surgery videos presents a complex and multifaceted challenge, with applications including surgical training, intra-operative surgical complication prediction, and post-operative surgical assessment. Identifying crucial events within these videos is a significant prerequisite in a majority of these applications. In this paper, we introduce a comprehensive dataset tailored for relevant event recognition in laparoscopic gynecology videos. Our dataset includes annotations for critical events associated with major intra-operative challenges and post-operative complications. To validate the precision of our annotations, we assess event recognition performance using several CNN-RNN architectures. Furthermore, we introduce and evaluate a hybrid transformer architecture coupled with a customized training-inference framework to recognize four specific events in laparoscopic surgery videos. Leveraging the Transformer networks, our proposed architecture harnesses inter-frame dependencies to counteract the adverse effects of relevant content occlusion, motion blur, and surgical scene variation, thus significantly enhancing event recognition accuracy. Moreover, we present a frame sampling strategy designed to manage variations in surgical scenes and the surgeons' skill level, resulting in event recognition with high temporal resolution. We empirically demonstrate the superiority of our proposed methodology in event recognition compared to conventional CNN-RNN architectures through a series of extensive experiments.
-
-{{</citation>}}
-
-
-### (72/119) Less is More: Learning Reference Knowledge Using No-Reference Image Quality Assessment (Xudong Li et al., 2023)
-
-{{<citation>}}
-
-Xudong Li, Jingyuan Zheng, Xiawu Zheng, Runze Hu, Enwei Zhang, Yuting Gao, Yunhang Shen, Ke Li, Yutao Liu, Pingyang Dai, Yan Zhang, Rongrong Ji. (2023)  
-**Less is More: Learning Reference Knowledge Using No-Reference Image Quality Assessment**  
-
----
-Primary Category: cs.CV  
-Categories: cs-AI, cs-CV, cs.CV  
-Keywords: QA  
-[Paper Link](http://arxiv.org/abs/2312.00591v1)  
-
----
-
-
-**ABSTRACT**  
-Image Quality Assessment (IQA) with reference images have achieved great success by imitating the human vision system, in which the image quality is effectively assessed by comparing the query image with its pristine reference image. However, for the images in the wild, it is quite difficult to access accurate reference images. We argue that it is possible to learn reference knowledge under the No-Reference Image Quality Assessment (NR-IQA) setting, which is effective and efficient empirically. Concretely, by innovatively introducing a novel feature distillation method in IQA, we propose a new framework to learn comparative knowledge from non-aligned reference images. And then, to achieve fast convergence and avoid overfitting, we further propose an inductive bias regularization. Such a framework not only solves the congenital defects of NR-IQA but also improves the feature extraction framework, enabling it to express more abundant quality information. Surprisingly, our method utilizes less input while obtaining a more significant improvement compared to the teacher models. Extensive experiments on eight standard NR-IQA datasets demonstrate the superior performance to the state-of-the-art NR-IQA methods, i.e., achieving the PLCC values of 0.917 (vs. 0.884 in LIVEC) and 0.686 (vs. 0.661 in LIVEFB).
-
-{{</citation>}}
-
-
-### (73/119) Generative models for visualising abstract social processes: Guiding streetview image synthesis of StyleGAN2 with indices of deprivation (Aleksi Knuutila, 2023)
-
-{{<citation>}}
-
-Aleksi Knuutila. (2023)  
-**Generative models for visualising abstract social processes: Guiding streetview image synthesis of StyleGAN2 with indices of deprivation**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Google  
-[Paper Link](http://arxiv.org/abs/2312.00570v1)  
-
----
-
-
-**ABSTRACT**  
-This paper presents a novel application of Generative Adverserial Networks (GANs) to study visual aspects of social processes. I train a a StyleGAN2-model on a custom dataset of 14,564 images of London, sourced from Google Streetview taken in London. After training, I invert the images in the training set, finding points in the model's latent space that correspond to them, and compare results from three inversion techniques. I connect each data point with metadata from the Indices of Multiple Deprivation, describing income, health and environmental quality in the area where the photographs were taken. It is then possible to map which parts of the model's latent space encode visual features that are distinctive for health, income and environmental quality, and condition the synthesis of new images based on these factors. The synthetic images created reflect visual features of social processes that were previously unknown and difficult to study, describing recurring visual differences between deprived and privileged areas in London. GANs are known for their capability to produce a continuous range of images that exhibit visual differences. The paper tests how to exploit this ability through visual comparisons in still images as well as through an interactive website where users can guide image synthesis with sliders. Though conditioned synthesis has its limitations and the results are difficult to validate, the paper points to the potential for generative models to be repurposed to be parts of social scientific methods.
-
-{{</citation>}}
-
-
-### (74/119) Explainable AI in Diagnosing and Anticipating Leukemia Using Transfer Learning Method (Wahidul Hasan Abir et al., 2023)
-
-{{<citation>}}
-
-Wahidul Hasan Abir, Md. Fahim Uddin, Faria Rahman Khanam, Mohammad Monirujjaman Khan. (2023)  
-**Explainable AI in Diagnosing and Anticipating Leukemia Using Transfer Learning Method**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2312.00487v1)  
-
----
-
-
-**ABSTRACT**  
-This research paper focuses on Acute Lymphoblastic Leukemia (ALL), a form of blood cancer prevalent in children and teenagers, characterized by the rapid proliferation of immature white blood cells (WBCs). These atypical cells can overwhelm healthy cells, leading to severe health consequences. Early and accurate detection of ALL is vital for effective treatment and improving survival rates. Traditional diagnostic methods are time-consuming, costly, and prone to errors. The paper proposes an automated detection approach using computer-aided diagnostic (CAD) models, leveraging deep learning techniques to enhance the accuracy and efficiency of leukemia diagnosis. The study utilizes various transfer learning models like ResNet101V2, VGG19, InceptionV3, and InceptionResNetV2 for classifying ALL. The methodology includes using the Local Interpretable Model-Agnostic Explanations (LIME) for ensuring the validity and reliability of the AI system's predictions. This approach is critical for overcoming the "black box" nature of AI, where decisions made by models are often opaque and unaccountable. The paper highlights that the proposed method using the InceptionV3 model achieved an impressive 98.38% accuracy, outperforming other tested models. The results, verified by the LIME algorithm, showcase the potential of this method in accurately identifying ALL, providing a valuable tool for medical practitioners. The research underscores the impact of explainable artificial intelligence (XAI) in medical diagnostics, paving the way for more transparent and trustworthy AI applications in healthcare.
-
-{{</citation>}}
-
-
-### (75/119) Dolphins: Multimodal Language Model for Driving (Yingzi Ma et al., 2023)
-
-{{<citation>}}
-
-Yingzi Ma, Yulong Cao, Jiachen Sun, Marco Pavone, Chaowei Xiao. (2023)  
-**Dolphins: Multimodal Language Model for Driving**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.00438v1)  
-
----
-
-
-**ABSTRACT**  
-The quest for fully autonomous vehicles (AVs) capable of navigating complex real-world scenarios with human-like understanding and responsiveness. In this paper, we introduce Dolphins, a novel vision-language model architected to imbibe human-like abilities as a conversational driving assistant. Dolphins is adept at processing multimodal inputs comprising video (or image) data, text instructions, and historical control signals to generate informed outputs corresponding to the provided instructions. Building upon the open-sourced pretrained Vision-Language Model, OpenFlamingo, we first enhance Dolphins's reasoning capabilities through an innovative Grounded Chain of Thought (GCoT) process. Then we tailored Dolphins to the driving domain by constructing driving-specific instruction data and conducting instruction tuning. Through the utilization of the BDD-X dataset, we designed and consolidated four distinct AV tasks into Dolphins to foster a holistic understanding of intricate driving scenarios. As a result, the distinctive features of Dolphins are characterized into two dimensions: (1) the ability to provide a comprehensive understanding of complex and long-tailed open-world driving scenarios and solve a spectrum of AV tasks, and (2) the emergence of human-like capabilities including gradient-free instant adaptation via in-context learning and error recovery via reflection.
-
-{{</citation>}}
-
-
-### (76/119) Enhancing Image Captioning with Neural Models (Pooja Bhatnagar et al., 2023)
-
-{{<citation>}}
-
-Pooja Bhatnagar, Sai Mrunaal, Sachin Kamnure. (2023)  
-**Enhancing Image Captioning with Neural Models**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs-NE, cs.CV  
-Keywords: Image Captioning  
-[Paper Link](http://arxiv.org/abs/2312.00435v1)  
-
----
-
-
-**ABSTRACT**  
-This research explores the realm of neural image captioning using deep learning models. The study investigates the performance of different neural architecture configurations, focusing on the inject architecture, and proposes a novel quality metric for evaluating caption generation. Through extensive experimentation and analysis, this work sheds light on the challenges and opportunities in image captioning, providing insights into model behavior and overfitting. The results reveal that while the merge models exhibit a larger vocabulary and higher ROUGE scores, the inject architecture generates relevant and concise image captions. The study also highlights the importance of refining training data and optimizing hyperparameters for improved model performance. This research contributes to the growing body of knowledge in neural image captioning and encourages further exploration in the field, emphasizing the democratization of artificial intelligence.
-
-{{</citation>}}
-
-
-### (77/119) Large-scale Vision-Language Models Learn Super Images for Efficient and High-Performance Partially Relevant Video Retrieval (Taichi Nishimura et al., 2023)
-
-{{<citation>}}
-
-Taichi Nishimura, Shota Nakada, Masayoshi Kondo. (2023)  
-**Large-scale Vision-Language Models Learn Super Images for Efficient and High-Performance Partially Relevant Video Retrieval**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs-MM, cs.CV  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.00414v1)  
-
----
-
-
-**ABSTRACT**  
-In this paper, we propose an efficient and high-performance method for partially relevant video retrieval (PRVR), which aims to retrieve untrimmed long videos that contain at least one relevant moment to the input text query. In terms of both efficiency and performance, the overlooked bottleneck of previous studies is the visual encoding of dense frames. This guides researchers to choose lightweight visual backbones, yielding sub-optimal retrieval performance due to their limited capabilities of learned visual representations. However, it is undesirable to simply replace them with high-performance large-scale vision-and-language models (VLMs) due to their low efficiency. To address these issues, instead of dense frames, we focus on super images, which are created by rearranging the video frames in a $N \times N$ grid layout. This reduces the number of visual encodings to $\frac{1}{N^2}$ and compensates for the low efficiency of large-scale VLMs, allowing us to adopt them as powerful encoders. Surprisingly, we discover that with a simple query-image attention trick, VLMs generalize well to super images effectively and demonstrate promising zero-shot performance against SOTA methods efficiently. In addition, we propose a fine-tuning approach by incorporating a few trainable modules into the VLM backbones. The experimental results demonstrate that our approaches efficiently achieve the best performance on ActivityNet Captions and TVR.
-
-{{</citation>}}
-
-
-### (78/119) SCHEME: Scalable Channer Mixer for Vision Transformers (Deepak Sridhar et al., 2023)
-
-{{<citation>}}
-
-Deepak Sridhar, Yunsheng Li, Nuno Vasconcelos. (2023)  
-**SCHEME: Scalable Channer Mixer for Vision Transformers**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: ImageNet, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2312.00412v1)  
-
----
-
-
-**ABSTRACT**  
-Vision Transformers have received significant attention due to their impressive performance in many vision tasks. While the token mixer or attention block has been studied in great detail, the channel mixer or feature mixing block (FFN or MLP) has not been explored in depth albeit it accounts for a bulk of the parameters and computation in a model. In this work, we study whether sparse feature mixing can replace the dense connections and confirm this with a block diagonal MLP structure that improves the accuracy by supporting larger expansion ratios. To improve the feature clusters formed by this structure and thereby further improve the accuracy, a lightweight, parameter-free, channel covariance attention (CCA) mechanism is introduced as a parallel branch during training. This design of CCA enables gradual feature mixing across channel groups during training whose contribution decays to zero as the training progresses to convergence. This allows the CCA block to be discarded during inference, thus enabling enhanced performance with no additional computational cost. The resulting $\textit{Scalable CHannEl MixEr}$ (SCHEME) can be plugged into any ViT architecture to obtain a gamut of models with different trade-offs between complexity and performance by controlling the block diagonal structure size in the MLP. This is shown by the introduction of a new family of SCHEMEformer models. Experiments on image classification, object detection, and semantic segmentation, with different ViT backbones, consistently demonstrate substantial accuracy gains over existing designs, especially under lower FLOPs regimes. For example, the SCHEMEformer establishes a new SOTA of 79.7% accuracy for ViTs using pure attention mixers on ImageNet-1K at 1.77G FLOPs.
-
-{{</citation>}}
-
-
-### (79/119) VIoTGPT: Learning to Schedule Vision Tools towards Intelligent Video Internet of Things (Yaoyao Zhong et al., 2023)
-
-{{<citation>}}
-
-Yaoyao Zhong, Mengshi Qi, Rui Wang, Yuhan Qiu, Yang Zhang, Huadong Ma. (2023)  
-**VIoTGPT: Learning to Schedule Vision Tools towards Intelligent Video Internet of Things**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs-MM, cs.CV  
-Keywords: GPT  
-[Paper Link](http://arxiv.org/abs/2312.00401v1)  
-
----
-
-
-**ABSTRACT**  
-Video Internet of Things (VIoT) has shown full potential in collecting an unprecedented volume of video data. Learning to schedule perceiving models and analyzing the collected videos intelligently will be potential sparks for VIoT. In this paper, to address the challenges posed by the fine-grained and interrelated vision tool usage of VIoT, we build VIoTGPT, the framework based on LLMs to correctly interact with humans, query knowledge videos, and invoke vision models to accomplish complicated tasks. To support VIoTGPT and related future works, we meticulously crafted the training dataset and established benchmarks involving 11 representative vision models across three categories based on semi-automatic annotations. To guide LLM to act as the intelligent agent towards intelligent VIoT, we resort to ReAct instruction tuning based on the collected VIoT dataset to learn the tool capability. Quantitative and qualitative experimental results and analyses demonstrate the effectiveness of VIoTGPT.
-
-{{</citation>}}
-
-
-### (80/119) Learning to Estimate Critical Gait Parameters from Single-View RGB Videos with Transformer-Based Attention Network (Quoc Hung T. Le et al., 2023)
-
-{{<citation>}}
-
-Quoc Hung T. Le, Hieu H. Pham. (2023)  
-**Learning to Estimate Critical Gait Parameters from Single-View RGB Videos with Transformer-Based Attention Network**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Attention, Clinical, Transformer  
-[Paper Link](http://arxiv.org/abs/2312.00398v1)  
-
----
-
-
-**ABSTRACT**  
-Musculoskeletal diseases and cognitive impairments in patients lead to difficulties in movement as well as negative effects on their psychological health. Clinical gait analysis, a vital tool for early diagnosis and treatment, traditionally relies on expensive optical motion capture systems. Recent advances in computer vision and deep learning have opened the door to more accessible and cost-effective alternatives. This paper introduces a novel spatio-temporal Transformer network to estimate critical gait parameters from RGB videos captured by a single-view camera. Empirical evaluations on a public dataset of cerebral palsy patients indicate that the proposed framework surpasses current state-of-the-art approaches and show significant improvements in predicting general gait parameters (including Walking Speed, Gait Deviation Index - GDI, and Knee Flexion Angle at Maximum Extension), while utilizing fewer parameters and alleviating the need for manual feature extraction.
-
-{{</citation>}}
-
-
-### (81/119) Study and Survey on Gesture Recognition Systems (Kshitij Deshpande et al., 2023)
-
-{{<citation>}}
-
-Kshitij Deshpande, Varad Mashalkar, Kaustubh Mhaisekar, Amaan Naikwadi, Archana Ghotkar. (2023)  
-**Study and Survey on Gesture Recognition Systems**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Computer Vision  
-[Paper Link](http://arxiv.org/abs/2312.00392v1)  
-
----
-
-
-**ABSTRACT**  
-In recent years, there has been a considerable amount of research in the Gesture Recognition domain, mainly owing to the technological advancements in Computer Vision. Various new applications have been conceptualised and developed in this field. This paper discusses the implementation of gesture recognition systems in multiple sectors such as gaming, healthcare, home appliances, industrial robots, and virtual reality. Different methodologies for capturing gestures are compared and contrasted throughout this survey. Various data sources and data acquisition techniques have been discussed. The role of gestures in sign language has been studied and existing approaches have been reviewed. Common challenges faced while building gesture recognition systems have also been explored.
-
-{{</citation>}}
-
-
-### (82/119) VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models (Hyeonho Jeong et al., 2023)
-
-{{<citation>}}
-
-Hyeonho Jeong, Geon Yeong Park, Jong Chul Ye. (2023)  
-**VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models**  
-
----
-Primary Category: cs.CV  
-Categories: cs-AI, cs-CV, cs-LG, cs.CV  
-Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2312.00845v1)  
-
----
-
-
-**ABSTRACT**  
-Text-to-video diffusion models have advanced video generation significantly. However, customizing these models to generate videos with tailored motions presents a substantial challenge. In specific, they encounter hurdles in (a) accurately reproducing motion from a target video, and (b) creating diverse visual variations. For example, straightforward extensions of static image customization methods to video often lead to intricate entanglements of appearance and motion data. To tackle this, here we present the Video Motion Customization (VMC) framework, a novel one-shot tuning approach crafted to adapt temporal attention layers within video diffusion models. Our approach introduces a novel motion distillation objective using residual vectors between consecutive frames as a motion reference. The diffusion process then preserves low-frequency motion trajectories while mitigating high-frequency motion-unrelated noise in image space. We validate our method against state-of-the-art video generative models across diverse real-world motions and contexts. Our codes, data and the project demo can be found at https://video-motion-customization.github.io
-
-{{</citation>}}
-
-
-### (83/119) SynFundus: Generating a synthetic fundus images dataset with millions of samples and multi-disease annotations (Fangxin Shang et al., 2023)
-
-{{<citation>}}
-
-Fangxin Shang, Jie Fu, Yehui Yang, Lei Ma. (2023)  
-**SynFundus: Generating a synthetic fundus images dataset with millions of samples and multi-disease annotations**  
-
----
-Primary Category: cs.CV  
-Categories: cs-AI, cs-CV, cs.CV  
-Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2312.00377v1)  
-
----
-
-
-**ABSTRACT**  
-In the field of medical imaging, the scarcity of large-scale datasets due to privacy restrictions stands as a significant barrier to develop large models for medical. To address this issue, we introduce SynFundus-1M, a high-quality synthetic dataset with over 1 million retinal fundus images and extensive disease and pathologies annotations, which is generated by a Denoising Diffusion Probabilistic Model. The SynFundus-Generator and SynFundus-1M achieve superior Frechet Inception Distance (FID) scores compared to existing methods on main-stream public real datasets. Furthermore, the ophthalmologists evaluation validate the difficulty in discerning these synthetic images from real ones, confirming the SynFundus-1M's authenticity. Through extensive experiments, we demonstrate that both CNN and ViT can benifit from SynFundus-1M by pretraining or training directly. Compared to datasets like ImageNet or EyePACS, models train on SynFundus-1M not only achieve better performance but also faster convergence on various downstream tasks.
-
-{{</citation>}}
-
-
-### (84/119) Efficient Multimodal Semantic Segmentation via Dual-Prompt Learning (Shaohua Dong et al., 2023)
-
-{{<citation>}}
-
-Shaohua Dong, Yunhe Feng, Qing Yang, Yan Huang, Dongfang Liu, Heng Fan. (2023)  
-**Efficient Multimodal Semantic Segmentation via Dual-Prompt Learning**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Semantic Segmentation  
-[Paper Link](http://arxiv.org/abs/2312.00360v2)  
-
----
-
-
-**ABSTRACT**  
-Multimodal (e.g., RGB-Depth/RGB-Thermal) fusion has shown great potential for improving semantic segmentation in complex scenes (e.g., indoor/low-light conditions). Existing approaches often fully fine-tune a dual-branch encoder-decoder framework with a complicated feature fusion strategy for achieving multimodal semantic segmentation, which is training-costly due to the massive parameter updates in feature extraction and fusion. To address this issue, we propose a surprisingly simple yet effective dual-prompt learning network (dubbed DPLNet) for training-efficient multimodal (e.g., RGB-D/T) semantic segmentation. The core of DPLNet is to directly adapt a frozen pre-trained RGB model to multimodal semantic segmentation, reducing parameter updates. For this purpose, we present two prompt learning modules, comprising multimodal prompt generator (MPG) and multimodal feature adapter (MFA). MPG works to fuse the features from different modalities in a compact manner and is inserted from shadow to deep stages to generate the multi-level multimodal prompts that are injected into the frozen backbone, while MPG adapts prompted multimodal features in the frozen backbone for better multimodal semantic segmentation. Since both the MPG and MFA are lightweight, only a few trainable parameters (3.88M, 4.4% of the pre-trained backbone parameters) are introduced for multimodal feature fusion and learning. Using a simple decoder (3.27M parameters), DPLNet achieves new state-of-the-art performance or is on a par with other complex approaches on four RGB-D/T semantic segmentation datasets while satisfying parameter efficiency. Moreover, we show that DPLNet is general and applicable to other multimodal tasks such as salient object detection and video semantic segmentation. Without special design, DPLNet outperforms many complicated models. Our code will be available at github.com/ShaohuaDong2021/DPLNet.
-
-{{</citation>}}
-
-
-### (85/119) Manipulating the Label Space for In-Context Classification (Haokun Chen et al., 2023)
-
-{{<citation>}}
-
-Haokun Chen, Xu Yang, Yuhang Huang, Zihan Wu, Jing Wang, Xin Geng. (2023)  
-**Manipulating the Label Space for In-Context Classification**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: ImageNet, Language Model  
-[Paper Link](http://arxiv.org/abs/2312.00351v1)  
-
----
-
-
-**ABSTRACT**  
-After pre-training by generating the next word conditional on previous words, the Language Model (LM) acquires the ability of In-Context Learning (ICL) that can learn a new task conditional on the context of the given in-context examples (ICEs). Similarly, visually-conditioned Language Modelling is also used to train Vision-Language Models (VLMs) with ICL ability. However, such VLMs typically exhibit weaker classification abilities compared to contrastive learning-based models like CLIP, since the Language Modelling objective does not directly contrast whether an object is paired with a text. To improve the ICL of classification, using more ICEs to provide more knowledge is a straightforward way. However, this may largely increase the selection time, and more importantly, the inclusion of additional in-context images tends to extend the length of the in-context sequence beyond the processing capacity of a VLM. To alleviate these limitations, we propose to manipulate the label space of each ICE to increase its knowledge density, allowing for fewer ICEs to convey as much information as a larger set would. Specifically, we propose two strategies which are Label Distribution Enhancement and Visual Descriptions Enhancement to improve In-context classification performance on diverse datasets, including the classic ImageNet and more fine-grained datasets like CUB-200. Specifically, using our approach on ImageNet, we increase accuracy from 74.70\% in a 4-shot setting to 76.21\% with just 2 shots. surpassing CLIP by 0.67\%. On CUB-200, our method raises 1-shot accuracy from 48.86\% to 69.05\%, 12.15\% higher than CLIP. The code is given in https://anonymous.4open.science/r/MLS_ICC.
-
-{{</citation>}}
-
-
-### (86/119) Learning Anatomically Consistent Embedding for Chest Radiography (Ziyu Zhou et al., 2023)
-
-{{<citation>}}
-
-Ziyu Zhou, Haozhe Luo, Jiaxuan Pang, Xiaowei Ding, Michael Gotway, Jianming Liang. (2023)  
-**Learning Anatomically Consistent Embedding for Chest Radiography**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Embedding  
-[Paper Link](http://arxiv.org/abs/2312.00335v1)  
-
----
-
-
-**ABSTRACT**  
-Self-supervised learning (SSL) approaches have recently shown substantial success in learning visual representations from unannotated images. Compared with photographic images, medical images acquired with the same imaging protocol exhibit high consistency in anatomy. To exploit this anatomical consistency, this paper introduces a novel SSL approach, called PEAC (patch embedding of anatomical consistency), for medical image analysis. Specifically, in this paper, we propose to learn global and local consistencies via stable grid-based matching, transfer pre-trained PEAC models to diverse downstream tasks, and extensively demonstrate that (1) PEAC achieves significantly better performance than the existing state-of-the-art fully/self-supervised methods, and (2) PEAC captures the anatomical structure consistency across views of the same patient and across patients of different genders, weights, and healthy statuses, which enhances the interpretability of our method for medical image analysis.
-
-{{</citation>}}
-
-
-### (87/119) Adaptability of Computer Vision at the Tactical Edge: Addressing Environmental Uncertainty (Hayden Moore, 2023)
-
-{{<citation>}}
-
-Hayden Moore. (2023)  
-**Adaptability of Computer Vision at the Tactical Edge: Addressing Environmental Uncertainty**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: AI, Computer Vision  
-[Paper Link](http://arxiv.org/abs/2312.00269v1)  
-
----
-
-
-**ABSTRACT**  
-Computer Vision (CV) systems are increasingly being adopted into Command and Control (C2) systems to improve intelligence analysis on the battlefield, the tactical edge. CV systems leverage Artificial Intelligence (AI) algorithms to help visualize and interpret the environment, enhancing situational awareness. However, the adaptability of CV systems at the tactical edge remains challenging due to rapidly changing environments and objects which can confuse the deployed models. A CV model leveraged in this environment can become uncertain in its predictions, as the environment and the objects existing in the environment begin to change. Additionally, mission objectives can rapidly change leading to adjustments in technology, camera angles, and image resolutions. All of which can negatively affect the performance of and potentially introduce uncertainty into the system. When the training environment and/or technology differs from the deployment environment, CV models can perform unexpectedly. Unfortunately, most scenarios at the tactical edge do not incorporate Uncertainty Quantification (UQ) into their deployed C2 and CV systems. This concept paper explores the idea of synchronizing robust data operations and model fine-tuning driven by UQ all at the tactical edge. Specifically, curating datasets and training child models based on the residuals of predictions, using these child models to calculate prediction intervals (PI), and then using these PI to calibrate the deployed models. By incorporating UQ into the core operations surrounding C2 and CV systems at the tactical edge, we can help drive purposeful adaptability on the battlefield.
-
-{{</citation>}}
-
-
 ## cs.CR (8)
 
 
 
-### (88/119) Survey of Security Issues in Memristor-based Machine Learning Accelerators for RF Analysis (William Lillis et al., 2023)
+### (90/121) Survey of Security Issues in Memristor-based Machine Learning Accelerators for RF Analysis (William Lillis et al., 2023)
 
 {{<citation>}}
 
@@ -2002,7 +2046,7 @@ We explore security aspects of a new computing paradigm that combines novel memr
 {{</citation>}}
 
 
-### (89/119) Using Honeybuckets to Characterize Cloud Storage Scanning in the Wild (Katherine Izhikevich et al., 2023)
+### (91/121) Using Honeybuckets to Characterize Cloud Storage Scanning in the Wild (Katherine Izhikevich et al., 2023)
 
 {{<citation>}}
 
@@ -2024,7 +2068,7 @@ In this work, we analyze to what extent actors target poorly-secured cloud stora
 {{</citation>}}
 
 
-### (90/119) Hiding in text/plain sight: Security defences of Tor Onion Services (Q Misell, 2023)
+### (92/121) Hiding in text/plain sight: Security defences of Tor Onion Services (Q Misell, 2023)
 
 {{<citation>}}
 
@@ -2046,7 +2090,7 @@ Tor Onion Services are a way to host websites and other internet services anonym
 {{</citation>}}
 
 
-### (91/119) The Impact of Privacy and Security Attitudes and Concerns of Travellers on Their Willingness to Use Mobility-as-a-Service Systems (Maria Sophia Heering et al., 2023)
+### (93/121) The Impact of Privacy and Security Attitudes and Concerns of Travellers on Their Willingness to Use Mobility-as-a-Service Systems (Maria Sophia Heering et al., 2023)
 
 {{<citation>}}
 
@@ -2068,7 +2112,7 @@ This paper reports results from an online survey on the impact of travellers' pr
 {{</citation>}}
 
 
-### (92/119) PyraTrans: Learning Attention-Enriched Multi-Scale Pyramid Network from Pre-Trained Transformers for Effective Malicious URL Detection (Ruitong Liu et al., 2023)
+### (94/121) PyraTrans: Learning Attention-Enriched Multi-Scale Pyramid Network from Pre-Trained Transformers for Effective Malicious URL Detection (Ruitong Liu et al., 2023)
 
 {{<citation>}}
 
@@ -2090,7 +2134,7 @@ Detecting malicious URLs is a crucial aspect of web search and mining, significa
 {{</citation>}}
 
 
-### (93/119) MalDicom: A Memory Forensic Framework for Detecting Malicious Payload in DICOM Files (Ayushi Mishra et al., 2023)
+### (95/121) MalDicom: A Memory Forensic Framework for Detecting Malicious Payload in DICOM Files (Ayushi Mishra et al., 2023)
 
 {{<citation>}}
 
@@ -2112,7 +2156,7 @@ Digital Imaging and Communication System (DICOM) is widely used throughout the p
 {{</citation>}}
 
 
-### (94/119) Unleashing Cheapfakes through Trojan Plugins of Large Language Models (Tian Dong et al., 2023)
+### (96/121) Unleashing Cheapfakes through Trojan Plugins of Large Language Models (Tian Dong et al., 2023)
 
 {{<citation>}}
 
@@ -2134,7 +2178,7 @@ Open-source Large Language Models (LLMs) have recently gained popularity because
 {{</citation>}}
 
 
-### (95/119) Mark My Words: Analyzing and Evaluating Language Model Watermarks (Julien Piet et al., 2023)
+### (97/121) Mark My Words: Analyzing and Evaluating Language Model Watermarks (Julien Piet et al., 2023)
 
 {{<citation>}}
 
@@ -2160,7 +2204,7 @@ The capabilities of large language models have grown significantly in recent yea
 
 
 
-### (96/119) Privacy Preserving Event Detection (Xiaoshan Wang et al., 2023)
+### (98/121) Privacy Preserving Event Detection (Xiaoshan Wang et al., 2023)
 
 {{<citation>}}
 
@@ -2186,7 +2230,7 @@ This paper presents a privacy-preserving event detection scheme based on measure
 
 
 
-### (97/119) LLM-TAKE: Theme Aware Keyword Extraction Using Large Language Models (Reza Yousefi Maragheh et al., 2023)
+### (99/121) LLM-TAKE: Theme Aware Keyword Extraction Using Large Language Models (Reza Yousefi Maragheh et al., 2023)
 
 {{<citation>}}
 
@@ -2212,7 +2256,7 @@ Keyword extraction is one of the core tasks in natural language processing. Clas
 
 
 
-### (98/119) Leveraging Large Language Models to Improve REST API Testing (Myeongsoo Kim et al., 2023)
+### (100/121) Leveraging Large Language Models to Improve REST API Testing (Myeongsoo Kim et al., 2023)
 
 {{<citation>}}
 
@@ -2238,7 +2282,7 @@ The widespread adoption of REST APIs, coupled with their growing complexity and 
 
 
 
-### (99/119) Towards Generalizable Zero-Shot Manipulation via Translating Human Interaction Plans (Homanga Bharadhwaj et al., 2023)
+### (101/121) Towards Generalizable Zero-Shot Manipulation via Translating Human Interaction Plans (Homanga Bharadhwaj et al., 2023)
 
 {{<citation>}}
 
@@ -2260,7 +2304,7 @@ We pursue the goal of developing robots that can interact zero-shot with generic
 {{</citation>}}
 
 
-### (100/119) TRC: Trust Region Conditional Value at Risk for Safe Reinforcement Learning (Dohyeong Kim et al., 2023)
+### (102/121) TRC: Trust Region Conditional Value at Risk for Safe Reinforcement Learning (Dohyeong Kim et al., 2023)
 
 {{<citation>}}
 
@@ -2286,7 +2330,7 @@ As safety is of paramount importance in robotics, reinforcement learning that re
 
 
 
-### (101/119) Beyond ChatBots: ExploreLLM for Structured Thoughts and Personalized Model Responses (Xiao Ma et al., 2023)
+### (103/121) Beyond ChatBots: ExploreLLM for Structured Thoughts and Personalized Model Responses (Xiao Ma et al., 2023)
 
 {{<citation>}}
 
@@ -2308,7 +2352,7 @@ Large language model (LLM) powered chatbots are primarily text-based today, and 
 {{</citation>}}
 
 
-### (102/119) Experiment on Gender and Racial/Ethnic Bias Against Video Game Streamers: Comparing Perceived Gameplay Skill and Viewer Engagement (David V. Nguyen et al., 2023)
+### (104/121) Experiment on Gender and Racial/Ethnic Bias Against Video Game Streamers: Comparing Perceived Gameplay Skill and Viewer Engagement (David V. Nguyen et al., 2023)
 
 {{<citation>}}
 
@@ -2330,7 +2374,7 @@ Research suggests there is a perception that females and underrepresented racial
 {{</citation>}}
 
 
-### (103/119) A Spatio-Temporal Graph Convolutional Network for Gesture Recognition from High-Density Electromyography (Wenjuan Zhong et al., 2023)
+### (105/121) A Spatio-Temporal Graph Convolutional Network for Gesture Recognition from High-Density Electromyography (Wenjuan Zhong et al., 2023)
 
 {{<citation>}}
 
@@ -2352,7 +2396,7 @@ Accurate hand gesture prediction is crucial for effective upper-limb prosthetic 
 {{</citation>}}
 
 
-### (104/119) Generative artificial intelligence enhances individual creativity but reduces the collective diversity of novel content (Anil R. Doshi et al., 2023)
+### (106/121) Generative artificial intelligence enhances individual creativity but reduces the collective diversity of novel content (Anil R. Doshi et al., 2023)
 
 {{<citation>}}
 
@@ -2378,7 +2422,7 @@ Creativity is core to being human. Generative artificial intelligence (GenAI) ho
 
 
 
-### (105/119) Deciphering Digital Detectives: Understanding LLM Behaviors and Capabilities in Multi-Agent Mystery Games (Dekun Wu et al., 2023)
+### (107/121) Deciphering Digital Detectives: Understanding LLM Behaviors and Capabilities in Multi-Agent Mystery Games (Dekun Wu et al., 2023)
 
 {{<citation>}}
 
@@ -2400,7 +2444,7 @@ In this study, we explore the application of Large Language Models (LLMs) in "Ju
 {{</citation>}}
 
 
-### (106/119) Enhancing Explainability in Mobility Data Science through a combination of methods (Georgios Makridis et al., 2023)
+### (108/121) Enhancing Explainability in Mobility Data Science through a combination of methods (Georgios Makridis et al., 2023)
 
 {{<citation>}}
 
@@ -2422,7 +2466,7 @@ In the domain of Mobility Data Science, the intricate task of interpreting model
 {{</citation>}}
 
 
-### (107/119) Green Edge AI: A Contemporary Survey (Yuyi Mao et al., 2023)
+### (109/121) Green Edge AI: A Contemporary Survey (Yuyi Mao et al., 2023)
 
 {{<citation>}}
 
@@ -2444,7 +2488,7 @@ Artificial intelligence (AI) technologies have emerged as pivotal enablers acros
 {{</citation>}}
 
 
-### (108/119) Agent-OM: Leveraging Large Language Models for Ontology Matching (Zhangcheng Qiang et al., 2023)
+### (110/121) Agent-OM: Leveraging Large Language Models for Ontology Matching (Zhangcheng Qiang et al., 2023)
 
 {{<citation>}}
 
@@ -2470,7 +2514,7 @@ Ontology matching (OM) enables semantic interoperability between different ontol
 
 
 
-### (109/119) Unsupervised Adaptive Implicit Neural Representation Learning for Scan-Specific MRI Reconstruction (Junwei Yang et al., 2023)
+### (111/121) Unsupervised Adaptive Implicit Neural Representation Learning for Scan-Specific MRI Reconstruction (Junwei Yang et al., 2023)
 
 {{<citation>}}
 
@@ -2492,7 +2536,7 @@ In recent studies on MRI reconstruction, advances have shown significant promise
 {{</citation>}}
 
 
-### (110/119) A Recent Survey of Vision Transformers for Medical Image Segmentation (Asifullah Khan et al., 2023)
+### (112/121) A Recent Survey of Vision Transformers for Medical Image Segmentation (Asifullah Khan et al., 2023)
 
 {{<citation>}}
 
@@ -2518,7 +2562,7 @@ Medical image segmentation plays a crucial role in various healthcare applicatio
 
 
 
-### (111/119) RIS-Based On-the-Air Semantic Communications -- a Diffractional Deep Neural Network Approach (Shuyi Chen et al., 2023)
+### (113/121) RIS-Based On-the-Air Semantic Communications -- a Diffractional Deep Neural Network Approach (Shuyi Chen et al., 2023)
 
 {{<citation>}}
 
@@ -2544,7 +2588,7 @@ Semantic communication has gained significant attention recently due to its adva
 
 
 
-### (112/119) VEXIR2Vec: An Architecture-Neutral Embedding Framework for Binary Similarity (S. VenkataKeerthy et al., 2023)
+### (114/121) VEXIR2Vec: An Architecture-Neutral Embedding Framework for Binary Similarity (S. VenkataKeerthy et al., 2023)
 
 {{<citation>}}
 
@@ -2570,7 +2614,7 @@ We propose VEXIR2Vec, a code embedding framework for finding similar functions i
 
 
 
-### (113/119) Optimal complexity of goal-oriented adaptive FEM for nonsymmetric linear elliptic PDEs (Philipp Bringmann et al., 2023)
+### (115/121) Optimal complexity of goal-oriented adaptive FEM for nonsymmetric linear elliptic PDEs (Philipp Bringmann et al., 2023)
 
 {{<citation>}}
 
@@ -2596,7 +2640,7 @@ We analyze a goal-oriented adaptive algorithm that aims to efficiently compute t
 
 
 
-### (114/119) Self-Supervised Learning of Spatial Acoustic Representation with Cross-Channel Signal Reconstruction and Multi-Channel Conformer (Bing Yang et al., 2023)
+### (116/121) Self-Supervised Learning of Spatial Acoustic Representation with Cross-Channel Signal Reconstruction and Multi-Channel Conformer (Bing Yang et al., 2023)
 
 {{<citation>}}
 
@@ -2622,7 +2666,7 @@ Supervised learning methods have shown effectiveness in estimating spatial acous
 
 
 
-### (115/119) Impact of Data Augmentation on QCNNs (Leting Zhouli et al., 2023)
+### (117/121) Impact of Data Augmentation on QCNNs (Leting Zhouli et al., 2023)
 
 {{<citation>}}
 
@@ -2644,7 +2688,7 @@ In recent years, Classical Convolutional Neural Networks (CNNs) have been applie
 {{</citation>}}
 
 
-### (116/119) Quantum Kernel t-Distributed Stochastic Neighbor Embedding (Yoshiaki Kawase et al., 2023)
+### (118/121) Quantum Kernel t-Distributed Stochastic Neighbor Embedding (Yoshiaki Kawase et al., 2023)
 
 {{<citation>}}
 
@@ -2666,7 +2710,7 @@ Data visualization is important in understanding the characteristics of data tha
 {{</citation>}}
 
 
-### (117/119) Skipper: Improving the Reach and Fidelity of Quantum Annealers by Skipping Long Chains (Ramin Ayanzadeh et al., 2023)
+### (119/121) Skipper: Improving the Reach and Fidelity of Quantum Annealers by Skipping Long Chains (Ramin Ayanzadeh et al., 2023)
 
 {{<citation>}}
 
@@ -2692,7 +2736,7 @@ Quantum Annealers (QAs) operate as single-instruction machines, lacking a SWAP o
 
 
 
-### (118/119) ESM-NBR: fast and accurate nucleic acid-binding residue prediction via protein language model feature representation and multi-task learning (Wenwu Zeng et al., 2023)
+### (120/121) ESM-NBR: fast and accurate nucleic acid-binding residue prediction via protein language model feature representation and multi-task learning (Wenwu Zeng et al., 2023)
 
 {{<citation>}}
 
@@ -2718,7 +2762,7 @@ Protein-nucleic acid interactions play a very important role in a variety of bio
 
 
 
-### (119/119) RadioGalaxyNET: Dataset and Novel Computer Vision Algorithms for the Detection of Extended Radio Galaxies and Infrared Hosts (Nikhel Gupta et al., 2023)
+### (121/121) RadioGalaxyNET: Dataset and Novel Computer Vision Algorithms for the Detection of Extended Radio Galaxies and Infrared Hosts (Nikhel Gupta et al., 2023)
 
 {{<citation>}}
 
