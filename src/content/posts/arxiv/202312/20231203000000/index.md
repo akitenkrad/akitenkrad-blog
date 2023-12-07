@@ -1495,7 +1495,7 @@ Mariana A. Londe, Luciana S. Pessoa, Carlos E. Andrade, Mauricio G. C. Resende. 
 Primary Category: cs.NE  
 Categories: 90, 68, F-2-2; G-2-3, cs-NE, cs.NE  
 Keywords: Bias  
-[Paper Link](http://arxiv.org/abs/2312.00961v1)  
+[Paper Link](http://arxiv.org/abs/2312.00961v2)  
 
 ---
 
@@ -2112,24 +2112,24 @@ This paper reports results from an online survey on the impact of travellers' pr
 {{</citation>}}
 
 
-### (94/121) PyraTrans: Learning Attention-Enriched Multi-Scale Pyramid Network from Pre-Trained Transformers for Effective Malicious URL Detection (Ruitong Liu et al., 2023)
+### (94/121) PyraTrans: Attention-Enriched Pyramid Transformer for Malicious URL Detection (Ruitong Liu et al., 2023)
 
 {{<citation>}}
 
 Ruitong Liu, Yanbin Wang, Zhenhao Guo, Haitao Xu, Zhan Qin, Wenrui Ma, Fan Zhang. (2023)  
-**PyraTrans: Learning Attention-Enriched Multi-Scale Pyramid Network from Pre-Trained Transformers for Effective Malicious URL Detection**  
+**PyraTrans: Attention-Enriched Pyramid Transformer for Malicious URL Detection**  
 
 ---
 Primary Category: cs.CR  
 Categories: cs-CR, cs.CR  
 Keywords: Attention, BERT, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2312.00508v1)  
+[Paper Link](http://arxiv.org/abs/2312.00508v2)  
 
 ---
 
 
 **ABSTRACT**  
-Detecting malicious URLs is a crucial aspect of web search and mining, significantly impacting internet security. Though advancements in machine learning have improved the effectiveness of detection methods, these methods still face significant challenges in their capacity to generalize and their resilience against evolving threats. In this paper, we propose PyraTrans, an approach that combines the strengths of pretrained Transformers and pyramid feature learning for improving malicious URL detection. We implement PyraTrans by leveraging a pretrained CharBERT as the base and augmenting it with 3 connected feature modules: 1) The Encoder Feature Extraction module, which extracts representations from each encoder layer of CharBERT to obtain multi-order features; 2) The Multi-Scale Feature Learning Module, which captures multi-scale local contextual insights and aggregate information across different layer-levels; and 3) The Pyramid Spatial Attention Module, which learns hierarchical and spatial feature attentions, highlighting critical classification signals while reducing noise. The proposed approach addresses the limitations of the Transformer in local feature learning and spatial awareness, and enabling us to extract multi-order, multi-scale URL feature representations with enhanced attentional focus. PyraTrans is evaluated using 4 benchmark datasets, where it demonstrated significant advancements over prior baseline methods. Particularly, on the imbalanced dataset, our method, with just 10% of the data for training, the TPR is 3.3-6.5 times and the F1-score is 2.9-4.5 times that of the baseline. Our approach also demonstrates robustness against adversarial attacks. Codes and data are available at https://github.com/Alixyvtte/PyraTrans.
+Although advancements in machine learning have driven the development of malicious URL detection technology, current techniques still face significant challenges in their capacity to generalize and their resilience against evolving threats. In this paper, we propose PyraTrans, a novel method that integrates pretrained Transformers with pyramid feature learning to detect malicious URL. PyraTrans utilizes a pretrained CharBERT as its foundation and is augmented with three interconnected feature modules: 1) Encoder Feature Extraction, extracting multi-order feature matrices from each CharBERT encoder layer; 2) Multi-Scale Feature Learning, capturing local contextual insights at various scales and aggregating information across encoder layers; and 3) Spatial Pyramid Attention, focusing on regional-level attention to emphasize areas rich in expressive information. The proposed approach addresses the limitations of the Transformer in local feature learning and regional relational awareness, which are vital for capturing URL-specific word patterns, character combinations, or structural anomalies. In several challenging experimental scenarios, the proposed method has shown significant improvements in accuracy, generalization, and robustness in malicious URL detection. For instance, it achieved a peak F1-score improvement of 40% in class-imbalanced scenarios, and exceeded the best baseline result by 14.13% in accuracy in adversarial attack scenarios. Additionally, we conduct a case study where our method accurately identifies all 30 active malicious web pages, whereas two pior SOTA methods miss 4 and 7 malicious web pages respectively. Codes and data are available at:https://github.com/Alixyvtte/PyraTrans.
 
 {{</citation>}}
 
