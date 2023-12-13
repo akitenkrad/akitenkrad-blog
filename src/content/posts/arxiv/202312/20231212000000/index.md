@@ -21,27 +21,28 @@ math: true
 
 ## Primary Categories
 
-- [cs.CV (16)](#cscv-16)
+- [cs.CV (19)](#cscv-19)
 - [cs.AI (11)](#csai-11)
-- [cs.LG (15)](#cslg-15)
+- [cs.LG (16)](#cslg-16)
 - [eess.SP (1)](#eesssp-1)
 - [cs.HC (1)](#cshc-1)
-- [cs.CL (7)](#cscl-7)
+- [cs.CL (8)](#cscl-8)
 - [cs.CR (3)](#cscr-3)
 - [cs.SD (1)](#cssd-1)
-- [cs.RO (3)](#csro-3)
+- [cs.RO (4)](#csro-4)
 - [eess.IV (1)](#eessiv-1)
+- [cs.CY (1)](#cscy-1)
 - [eess.SY (2)](#eesssy-2)
 - [cs.IR (1)](#csir-1)
 - [cs.SE (1)](#csse-1)
 - [cs.SI (1)](#cssi-1)
 - [cs.MM (1)](#csmm-1)
 
-## cs.CV (16)
+## cs.CV (19)
 
 
 
-### (1/65) Correcting Diffusion Generation through Resampling (Yujian Liu et al., 2023)
+### (1/72) Correcting Diffusion Generation through Resampling (Yujian Liu et al., 2023)
 
 {{<citation>}}
 
@@ -63,7 +64,7 @@ Despite diffusion models' superior capabilities in modeling complex distribution
 {{</citation>}}
 
 
-### (2/65) GenDepth: Generalizing Monocular Depth Estimation for Arbitrary Camera Parameters via Ground Plane Embedding (Karlo Koledić et al., 2023)
+### (2/72) GenDepth: Generalizing Monocular Depth Estimation for Arbitrary Camera Parameters via Ground Plane Embedding (Karlo Koledić et al., 2023)
 
 {{<citation>}}
 
@@ -85,7 +86,7 @@ Learning-based monocular depth estimation leverages geometric priors present in 
 {{</citation>}}
 
 
-### (3/65) FM-G-CAM: A Holistic Approach for Explainable AI in Computer Vision (Ravidu Suien Rammuni Silva et al., 2023)
+### (3/72) FM-G-CAM: A Holistic Approach for Explainable AI in Computer Vision (Ravidu Suien Rammuni Silva et al., 2023)
 
 {{<citation>}}
 
@@ -107,7 +108,7 @@ Explainability is an aspect of modern AI that is vital for impact and usability 
 {{</citation>}}
 
 
-### (4/65) Activating Frequency and ViT for 3D Point Cloud Quality Assessment without Reference (Oussama Messai et al., 2023)
+### (4/72) Activating Frequency and ViT for 3D Point Cloud Quality Assessment without Reference (Oussama Messai et al., 2023)
 
 {{<citation>}}
 
@@ -129,7 +130,7 @@ Deep learning-based quality assessments have significantly enhanced perceptual m
 {{</citation>}}
 
 
-### (5/65) Jumpstarting Surgical Computer Vision (Deepak Alapatt et al., 2023)
+### (5/72) Jumpstarting Surgical Computer Vision (Deepak Alapatt et al., 2023)
 
 {{<citation>}}
 
@@ -151,7 +152,7 @@ Purpose: General consensus amongst researchers and industry points to a lack of 
 {{</citation>}}
 
 
-### (6/65) Aikyam: A Video Conferencing Utility for Deaf and Dumb (Kshitij Deshpande et al., 2023)
+### (6/72) Aikyam: A Video Conferencing Utility for Deaf and Dumb (Kshitij Deshpande et al., 2023)
 
 {{<citation>}}
 
@@ -173,7 +174,7 @@ With the advent of the pandemic, the use of video conferencing platforms as a me
 {{</citation>}}
 
 
-### (7/65) ASH: Animatable Gaussian Splats for Efficient and Photoreal Human Rendering (Haokai Pang et al., 2023)
+### (7/72) ASH: Animatable Gaussian Splats for Efficient and Photoreal Human Rendering (Haokai Pang et al., 2023)
 
 {{<citation>}}
 
@@ -195,7 +196,29 @@ Real-time rendering of photorealistic and controllable human avatars stands as a
 {{</citation>}}
 
 
-### (8/65) AesFA: An Aesthetic Feature-Aware Arbitrary Neural Style Transfer (Joonwoo Kwon et al., 2023)
+### (8/72) AM-RADIO: Agglomerative Model -- Reduce All Domains Into One (Mike Ranzinger et al., 2023)
+
+{{<citation>}}
+
+Mike Ranzinger, Greg Heinrich, Jan Kautz, Pavlo Molchanov. (2023)  
+**AM-RADIO: Agglomerative Model -- Reduce All Domains Into One**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: ImageNet  
+[Paper Link](http://arxiv.org/abs/2312.06709v1)  
+
+---
+
+
+**ABSTRACT**  
+A handful of visual foundation models (VFMs) have recently emerged as the backbones for numerous downstream tasks. VFMs like CLIP, DINOv2, SAM are trained with distinct objectives, exhibiting unique characteristics for various downstream tasks. We find that despite their conceptual differences, these models can be effectively merged into a unified model through multi-teacher distillation. We name this approach AM-RADIO (Agglomerative Model -- Reduce All Domains Into One). This integrative approach not only surpasses the performance of individual teacher models but also amalgamates their distinctive features, such as zero-shot vision-language comprehension, detailed pixel-level understanding, and open vocabulary segmentation capabilities. In pursuit of the most hardware-efficient backbone, we evaluated numerous architectures in our multi-teacher distillation pipeline using the same training recipe. This led to the development of a novel architecture (E-RADIO) that exceeds the performance of its predecessors and is at least 7x faster than the teacher models. Our comprehensive benchmarking process covers downstream tasks including ImageNet classification, ADE20k semantic segmentation, COCO object detection and LLaVa-1.5 framework.   Code: https://github.com/NVlabs/RADIO
+
+{{</citation>}}
+
+
+### (9/72) AesFA: An Aesthetic Feature-Aware Arbitrary Neural Style Transfer (Joonwoo Kwon et al., 2023)
 
 {{<citation>}}
 
@@ -217,7 +240,7 @@ Neural style transfer (NST) has evolved significantly in recent years. Yet, desp
 {{</citation>}}
 
 
-### (9/65) Hypergraph-Guided Disentangled Spectrum Transformer Networks for Near-Infrared Facial Expression Recognition (Bingjun Luo et al., 2023)
+### (10/72) Hypergraph-Guided Disentangled Spectrum Transformer Networks for Near-Infrared Facial Expression Recognition (Bingjun Luo et al., 2023)
 
 {{<citation>}}
 
@@ -239,7 +262,7 @@ With the strong robusticity on illumination variations, near-infrared (NIR) can 
 {{</citation>}}
 
 
-### (10/65) PSCR: Patches Sampling-based Contrastive Regression for AIGC Image Quality Assessment (Jiquan Yuan et al., 2023)
+### (11/72) PSCR: Patches Sampling-based Contrastive Regression for AIGC Image Quality Assessment (Jiquan Yuan et al., 2023)
 
 {{<citation>}}
 
@@ -261,7 +284,29 @@ In recent years, Artificial Intelligence Generated Content (AIGC) has gained wid
 {{</citation>}}
 
 
-### (11/65) A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing (Maomao Li et al., 2023)
+### (12/72) SIFU: Side-view Conditioned Implicit Function for Real-world Usable Clothed Human Reconstruction (Zechuan Zhang et al., 2023)
+
+{{<citation>}}
+
+Zechuan Zhang, Zongxin Yang, Yi Yang. (2023)  
+**SIFU: Side-view Conditioned Implicit Function for Real-world Usable Clothed Human Reconstruction**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2312.06704v1)  
+
+---
+
+
+**ABSTRACT**  
+Creating high-quality 3D models of clothed humans from single images for real-world applications is crucial. Despite recent advancements, accurately reconstructing humans in complex poses or with loose clothing from in-the-wild images, along with predicting textures for unseen areas, remains a significant challenge. A key limitation of previous methods is their insufficient prior guidance in transitioning from 2D to 3D and in texture prediction. In response, we introduce SIFU (Side-view Conditioned Implicit Function for Real-world Usable Clothed Human Reconstruction), a novel approach combining a Side-view Decoupling Transformer with a 3D Consistent Texture Refinement pipeline.SIFU employs a cross-attention mechanism within the transformer, using SMPL-X normals as queries to effectively decouple side-view features in the process of mapping 2D features to 3D. This method not only improves the precision of the 3D models but also their robustness, especially when SMPL-X estimates are not perfect. Our texture refinement process leverages text-to-image diffusion-based prior to generate realistic and consistent textures for invisible views. Through extensive experiments, SIFU surpasses SOTA methods in both geometry and texture reconstruction, showcasing enhanced robustness in complex scenarios and achieving an unprecedented Chamfer and P2S measurement. Our approach extends to practical applications such as 3D printing and scene building, demonstrating its broad utility in real-world scenarios. Project page https://river-zhang.github.io/SIFU-projectpage/ .
+
+{{</citation>}}
+
+
+### (13/72) A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing (Maomao Li et al., 2023)
 
 {{<citation>}}
 
@@ -283,7 +328,7 @@ This paper presents a video inversion approach for zero-shot video editing, whic
 {{</citation>}}
 
 
-### (12/65) Transformer-based Selective Super-Resolution for Efficient Image Refinement (Tianyi Zhang et al., 2023)
+### (14/72) Transformer-based Selective Super-Resolution for Efficient Image Refinement (Tianyi Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -305,7 +350,7 @@ Conventional super-resolution methods suffer from two drawbacks: substantial com
 {{</citation>}}
 
 
-### (13/65) Disentangled Representation Learning for Controllable Person Image Generation (Wenju Xu et al., 2023)
+### (15/72) Disentangled Representation Learning for Controllable Person Image Generation (Wenju Xu et al., 2023)
 
 {{<citation>}}
 
@@ -327,7 +372,7 @@ In this paper, we propose a novel framework named DRL-CPG to learn disentangled 
 {{</citation>}}
 
 
-### (14/65) AnomalyDiffusion: Few-Shot Anomaly Image Generation with Diffusion Model (Teng Hu et al., 2023)
+### (16/72) AnomalyDiffusion: Few-Shot Anomaly Image Generation with Diffusion Model (Teng Hu et al., 2023)
 
 {{<citation>}}
 
@@ -349,7 +394,7 @@ Anomaly inspection plays an important role in industrial manufacture. Existing a
 {{</citation>}}
 
 
-### (15/65) Benchmarking of Query Strategies: Towards Future Deep Active Learning (Shiryu Ueno et al., 2023)
+### (17/72) Benchmarking of Query Strategies: Towards Future Deep Active Learning (Shiryu Ueno et al., 2023)
 
 {{<citation>}}
 
@@ -371,7 +416,7 @@ In this study, we benchmark query strategies for deep actice learning~(DAL). DAL
 {{</citation>}}
 
 
-### (16/65) Open World Object Detection in the Era of Foundation Models (Orr Zohar et al., 2023)
+### (18/72) Open World Object Detection in the Era of Foundation Models (Orr Zohar et al., 2023)
 
 {{<citation>}}
 
@@ -393,22 +438,44 @@ Object detection is integral to a bevy of real-world applications, from robotics
 {{</citation>}}
 
 
+### (19/72) Leveraging Generative Language Models for Weakly Supervised Sentence Component Analysis in Video-Language Joint Learning (Zaber Ibn Abdul Hakim et al., 2023)
+
+{{<citation>}}
+
+Zaber Ibn Abdul Hakim, Najibul Haque Sarker, Rahul Pratap Singh, Bishmoy Paul, Ali Dabouei, Min Xu. (2023)  
+**Leveraging Generative Language Models for Weakly Supervised Sentence Component Analysis in Video-Language Joint Learning**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-LG, cs.CV  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2312.06699v1)  
+
+---
+
+
+**ABSTRACT**  
+A thorough comprehension of textual data is a fundamental element in multi-modal video analysis tasks. However, recent works have shown that the current models do not achieve a comprehensive understanding of the textual data during the training for the target downstream tasks. Orthogonal to the previous approaches to this limitation, we postulate that understanding the significance of the sentence components according to the target task can potentially enhance the performance of the models. Hence, we utilize the knowledge of a pre-trained large language model (LLM) to generate text samples from the original ones, targeting specific sentence components. We propose a weakly supervised importance estimation module to compute the relative importance of the components and utilize them to improve different video-language tasks. Through rigorous quantitative analysis, our proposed method exhibits significant improvement across several video-language tasks. In particular, our approach notably enhances video-text retrieval by a relative improvement of 8.3\% in video-to-text and 1.4\% in text-to-video retrieval over the baselines, in terms of R@1. Additionally, in video moment retrieval, average mAP shows a relative improvement ranging from 2.0\% to 13.7 \% across different baselines.
+
+{{</citation>}}
+
+
 ## cs.AI (11)
 
 
 
-### (17/65) Multimodality of AI for Education: Towards Artificial General Intelligence (Gyeong-Geon Lee et al., 2023)
+### (20/72) Multimodality of AI for Education: Towards Artificial General Intelligence (Gyeong-Geon Lee et al., 2023)
 
 {{<citation>}}
 
-Gyeong-Geon Lee, Lehong Shi, Ehsan Latif, Yizhu Gao, Arne Bewersdorf, Matthew Nyaaba, Shuchen Guo, Zihao Wu, Zhengliang Liu, Hui Wang, Gengchen Mai, Tiaming Liu, Xiaoming Zhai. (2023)  
+Gyeong-Geon Lee, Lehong Shi, Ehsan Latif, Yizhu Gao, Arne Bewersdorff, Matthew Nyaaba, Shuchen Guo, Zihao Wu, Zhengliang Liu, Hui Wang, Gengchen Mai, Tiaming Liu, Xiaoming Zhai. (2023)  
 **Multimodality of AI for Education: Towards Artificial General Intelligence**  
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2312.06037v1)  
+[Paper Link](http://arxiv.org/abs/2312.06037v2)  
 
 ---
 
@@ -419,7 +486,7 @@ This paper presents a comprehensive examination of how multimodal artificial int
 {{</citation>}}
 
 
-### (18/65) Modeling Uncertainty in Personalized Emotion Prediction with Normalizing Flows (Piotr Miłkowski et al., 2023)
+### (21/72) Modeling Uncertainty in Personalized Emotion Prediction with Normalizing Flows (Piotr Miłkowski et al., 2023)
 
 {{<citation>}}
 
@@ -441,7 +508,7 @@ Designing predictive models for subjective problems in natural language processi
 {{</citation>}}
 
 
-### (19/65) Evaluating the Utility of Model Explanations for Model Development (Shawn Im et al., 2023)
+### (22/72) Evaluating the Utility of Model Explanations for Model Development (Shawn Im et al., 2023)
 
 {{<citation>}}
 
@@ -463,7 +530,7 @@ One of the motivations for explainable AI is to allow humans to make better and 
 {{</citation>}}
 
 
-### (20/65) Class-Aware Pruning for Efficient Neural Networks (Mengnan Jiang et al., 2023)
+### (23/72) Class-Aware Pruning for Efficient Neural Networks (Mengnan Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -485,7 +552,7 @@ Deep neural networks (DNNs) have demonstrated remarkable success in various fiel
 {{</citation>}}
 
 
-### (21/65) Mutual Enhancement of Large and Small Language Models with Cross-Silo Knowledge Transfer (Yongheng Deng et al., 2023)
+### (24/72) Mutual Enhancement of Large and Small Language Models with Cross-Silo Knowledge Transfer (Yongheng Deng et al., 2023)
 
 {{<citation>}}
 
@@ -507,7 +574,7 @@ While large language models (LLMs) are empowered with broad knowledge, their tas
 {{</citation>}}
 
 
-### (22/65) Toward Open-ended Embodied Tasks Solving (William Wei Wang et al., 2023)
+### (25/72) Toward Open-ended Embodied Tasks Solving (William Wei Wang et al., 2023)
 
 {{<citation>}}
 
@@ -529,7 +596,7 @@ Empowering embodied agents, such as robots, with Artificial Intelligence (AI) ha
 {{</citation>}}
 
 
-### (23/65) Neural Speech Embeddings for Speech Synthesis Based on Deep Generative Networks (Seo-Hyun Lee et al., 2023)
+### (26/72) Neural Speech Embeddings for Speech Synthesis Based on Deep Generative Networks (Seo-Hyun Lee et al., 2023)
 
 {{<citation>}}
 
@@ -551,7 +618,7 @@ Brain-to-speech technology represents a fusion of interdisciplinary applications
 {{</citation>}}
 
 
-### (24/65) Large Multimodal Model Compression via Efficient Pruning and Distillation at AntGroup (Maolin Wang et al., 2023)
+### (27/72) Large Multimodal Model Compression via Efficient Pruning and Distillation at AntGroup (Maolin Wang et al., 2023)
 
 {{<citation>}}
 
@@ -573,7 +640,7 @@ The deployment of Large Multimodal Models (LMMs) within AntGroup has significant
 {{</citation>}}
 
 
-### (25/65) Graph-based Prediction and Planning Policy Network (GP3Net) for scalable self-driving in dynamic environments using Deep Reinforcement Learning (Jayabrata Chowdhury et al., 2023)
+### (28/72) Graph-based Prediction and Planning Policy Network (GP3Net) for scalable self-driving in dynamic environments using Deep Reinforcement Learning (Jayabrata Chowdhury et al., 2023)
 
 {{<citation>}}
 
@@ -595,7 +662,7 @@ Recent advancements in motion planning for Autonomous Vehicles (AVs) show great 
 {{</citation>}}
 
 
-### (26/65) A Comprehensive Survey on Multi-modal Conversational Emotion Recognition with Deep Learning (Yuntao Shou et al., 2023)
+### (29/72) A Comprehensive Survey on Multi-modal Conversational Emotion Recognition with Deep Learning (Yuntao Shou et al., 2023)
 
 {{<citation>}}
 
@@ -617,7 +684,7 @@ Multi-modal conversation emotion recognition (MCER) aims to recognize and track 
 {{</citation>}}
 
 
-### (27/65) FP8-BERT: Post-Training Quantization for Transformer (Jianwei Li et al., 2023)
+### (30/72) FP8-BERT: Post-Training Quantization for Transformer (Jianwei Li et al., 2023)
 
 {{<citation>}}
 
@@ -628,22 +695,22 @@ Jianwei Li, Tianchi Zhang, Ian En-Hsu Yen, Dongkuan Xu. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs-LG, cs.AI  
 Keywords: AI, BERT, GLUE, QA, Quantization, Transformer  
-[Paper Link](http://arxiv.org/abs/2312.05725v1)  
+[Paper Link](http://arxiv.org/abs/2312.05725v2)  
 
 ---
 
 
 **ABSTRACT**  
-Transformer-based models, such as BERT, have been widely applied in a wide range of natural language processing tasks. However, one inevitable side effect is that they require massive memory storage and inference cost when deployed in production. Quantization is one of the popularized ways to alleviate the cost. However, the previous 8-bit quantization strategy based on INT8 data format either suffers from the degradation of accuracy in a Post-Training Quantization (PTQ) fashion or requires an expensive Quantization-Aware Training (QAT) process. Recently, a new numeric format FP8 (i.e. floating-point of 8-bits) has been proposed and supported in commercial AI computing platforms such as H100. In this paper, we empirically validate the effectiveness of FP8 as a way to do Post-Training Quantization without significant loss of accuracy, with a simple calibration and format conversion process. We adopt the FP8 standard proposed by~\citet{nvidia_release} in our extensive experiments of BERT variants on GLUE and SQuAD v1.1 datasets, and show that PTQ with FP8 can significantly improve the accuracy upon that with INT8, to the extent of the full-precision model.
+Transformer-based models, such as BERT, have been widely applied in a wide range of natural language processing tasks. However, one inevitable side effect is that they require massive memory storage and inference cost when deployed in production. Quantization is one of the popularized ways to alleviate the cost. However, the previous 8-bit quantization strategy based on INT8 data format either suffers from the degradation of accuracy in a Post-Training Quantization (PTQ) fashion or requires an expensive Quantization-Aware Training (QAT) process. Recently, a new numeric format FP8 (i.e. floating-point of 8-bits) has been proposed and supported in commercial AI computing platforms such as H100. In this paper, we empirically validate the effectiveness of FP8 as a way to do Post-Training Quantization without significant loss of accuracy, with a simple calibration and format conversion process. We adopt the FP8 standard proposed by NVIDIA Corp. (2022) in our extensive experiments of BERT variants on GLUE and SQuAD v1.1 datasets, and show that PTQ with FP8 can significantly improve the accuracy upon that with INT8, to the extent of the full-precision model.
 
 {{</citation>}}
 
 
-## cs.LG (15)
+## cs.LG (16)
 
 
 
-### (28/65) AI Competitions and Benchmarks: How to ensure a long-lasting impact of a challenge with post-challenge paper, benchmarks and other dissemination action (Antoine Marot et al., 2023)
+### (31/72) AI Competitions and Benchmarks: How to ensure a long-lasting impact of a challenge with post-challenge paper, benchmarks and other dissemination action (Antoine Marot et al., 2023)
 
 {{<citation>}}
 
@@ -665,7 +732,7 @@ Organising an AI challenge does not end with the final event. The long-lasting i
 {{</citation>}}
 
 
-### (29/65) Fast Classification of Large Time Series Datasets (Muhammad Marwan Muhammad Fuad, 2023)
+### (32/72) Fast Classification of Large Time Series Datasets (Muhammad Marwan Muhammad Fuad, 2023)
 
 {{<citation>}}
 
@@ -687,7 +754,7 @@ Time series classification (TSC) is the most import task in time series mining a
 {{</citation>}}
 
 
-### (30/65) TransGlow: Attention-augmented Transduction model based on Graph Neural Networks for Water Flow Forecasting (Naghmeh Shafiee Roudbari et al., 2023)
+### (33/72) TransGlow: Attention-augmented Transduction model based on Graph Neural Networks for Water Flow Forecasting (Naghmeh Shafiee Roudbari et al., 2023)
 
 {{<citation>}}
 
@@ -709,7 +776,7 @@ The hydrometric prediction of water quantity is useful for a variety of applicat
 {{</citation>}}
 
 
-### (31/65) VAE-IF: Deep feature extraction with averaging for unsupervised artifact detection in routine acquired ICU time-series (Hollan Haule et al., 2023)
+### (34/72) VAE-IF: Deep feature extraction with averaging for unsupervised artifact detection in routine acquired ICU time-series (Hollan Haule et al., 2023)
 
 {{<citation>}}
 
@@ -731,7 +798,29 @@ Artifacts are a common problem in physiological time-series data collected from 
 {{</citation>}}
 
 
-### (32/65) Temporal Supervised Contrastive Learning for Modeling Patient Risk Progression (Shahriar Noroozizadeh et al., 2023)
+### (35/72) Class-Prototype Conditional Diffusion Model for Continual Learning with Generative Replay (Khanh Doan et al., 2023)
+
+{{<citation>}}
+
+Khanh Doan, Quyen Tran, Tuan Nguyen, Dinh Phung, Trung Le. (2023)  
+**Class-Prototype Conditional Diffusion Model for Continual Learning with Generative Replay**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2312.06710v1)  
+
+---
+
+
+**ABSTRACT**  
+Mitigating catastrophic forgetting is a key hurdle in continual learning. Deep Generative Replay (GR) provides techniques focused on generating samples from prior tasks to enhance the model's memory capabilities. With the progression in generative AI, generative models have advanced from Generative Adversarial Networks (GANs) to the more recent Diffusion Models (DMs). A major issue is the deterioration in the quality of generated data compared to the original, as the generator continuously self-learns from its outputs. This degradation can lead to the potential risk of catastrophic forgetting occurring in the classifier. To address this, we propose the Class-Prototype Conditional Diffusion Model (CPDM), a GR-based approach for continual learning that enhances image quality in generators and thus reduces catastrophic forgetting in classifiers. The cornerstone of CPDM is a learnable class-prototype that captures the core characteristics of images in a given class. This prototype, integrated into the diffusion model's denoising process, ensures the generation of high-quality images. It maintains its effectiveness for old tasks even when new tasks are introduced, preserving image generation quality and reducing the risk of catastrophic forgetting in classifiers. Our empirical studies on diverse datasets demonstrate that our proposed method significantly outperforms existing state-of-the-art models, highlighting its exceptional ability to preserve image quality and enhance the model's memory retention.
+
+{{</citation>}}
+
+
+### (36/72) Temporal Supervised Contrastive Learning for Modeling Patient Risk Progression (Shahriar Noroozizadeh et al., 2023)
 
 {{<citation>}}
 
@@ -753,7 +842,7 @@ We consider the problem of predicting how the likelihood of an outcome of intere
 {{</citation>}}
 
 
-### (33/65) Improving Subgraph-GNNs via Edge-Level Ego-Network Encodings (Nurudin Alvarez-Gonzalez et al., 2023)
+### (37/72) Improving Subgraph-GNNs via Edge-Level Ego-Network Encodings (Nurudin Alvarez-Gonzalez et al., 2023)
 
 {{<citation>}}
 
@@ -775,7 +864,7 @@ We present a novel edge-level ego-network encoding for learning on graphs that c
 {{</citation>}}
 
 
-### (34/65) Take an Irregular Route: Enhance the Decoder of Time-Series Forecasting Transformer (Li Shen et al., 2023)
+### (38/72) Take an Irregular Route: Enhance the Decoder of Time-Series Forecasting Transformer (Li Shen et al., 2023)
 
 {{<citation>}}
 
@@ -797,7 +886,7 @@ With the development of Internet of Things (IoT) systems, precise long-term fore
 {{</citation>}}
 
 
-### (35/65) SimPSI: A Simple Strategy to Preserve Spectral Information in Time Series Data Augmentation (Hyun Ryu et al., 2023)
+### (39/72) SimPSI: A Simple Strategy to Preserve Spectral Information in Time Series Data Augmentation (Hyun Ryu et al., 2023)
 
 {{<citation>}}
 
@@ -819,7 +908,7 @@ Data augmentation is a crucial component in training neural networks to overcome
 {{</citation>}}
 
 
-### (36/65) Efficient Sparse-Reward Goal-Conditioned Reinforcement Learning with a High Replay Ratio and Regularization (Takuya Hiraoka, 2023)
+### (40/72) Efficient Sparse-Reward Goal-Conditioned Reinforcement Learning with a High Replay Ratio and Regularization (Takuya Hiraoka, 2023)
 
 {{<citation>}}
 
@@ -841,7 +930,7 @@ Reinforcement learning (RL) methods with a high replay ratio (RR) and regulariza
 {{</citation>}}
 
 
-### (37/65) DCIR: Dynamic Consistency Intrinsic Reward for Multi-Agent Reinforcement Learning (Kunyang Lin et al., 2023)
+### (41/72) DCIR: Dynamic Consistency Intrinsic Reward for Multi-Agent Reinforcement Learning (Kunyang Lin et al., 2023)
 
 {{<citation>}}
 
@@ -863,7 +952,7 @@ Learning optimal behavior policy for each agent in multi-agent systems is an ess
 {{</citation>}}
 
 
-### (38/65) QMGeo: Differentially Private Federated Learning via Stochastic Quantization with Mixed Truncated Geometric Distribution (Zixi Wang et al., 2023)
+### (42/72) QMGeo: Differentially Private Federated Learning via Stochastic Quantization with Mixed Truncated Geometric Distribution (Zixi Wang et al., 2023)
 
 {{<citation>}}
 
@@ -885,7 +974,7 @@ Federated learning (FL) is a framework which allows multiple users to jointly tr
 {{</citation>}}
 
 
-### (39/65) CLeaRForecast: Contrastive Learning of High-Purity Representations for Time Series Forecasting (Jiaxin Gao et al., 2023)
+### (43/72) CLeaRForecast: Contrastive Learning of High-Purity Representations for Time Series Forecasting (Jiaxin Gao et al., 2023)
 
 {{<citation>}}
 
@@ -907,7 +996,7 @@ Time series forecasting (TSF) holds significant importance in modern society, sp
 {{</citation>}}
 
 
-### (40/65) The Generalization Gap in Offline Reinforcement Learning (Ishita Mediratta et al., 2023)
+### (44/72) The Generalization Gap in Offline Reinforcement Learning (Ishita Mediratta et al., 2023)
 
 {{<citation>}}
 
@@ -929,7 +1018,7 @@ Despite recent progress in offline learning, these methods are still trained and
 {{</citation>}}
 
 
-### (41/65) ASWT-SGNN: Adaptive Spectral Wavelet Transform-based Self-Supervised Graph Neural Network (Ruyue Liu et al., 2023)
+### (45/72) ASWT-SGNN: Adaptive Spectral Wavelet Transform-based Self-Supervised Graph Neural Network (Ruyue Liu et al., 2023)
 
 {{<citation>}}
 
@@ -951,7 +1040,7 @@ Graph Comparative Learning (GCL) is a self-supervised method that combines the a
 {{</citation>}}
 
 
-### (42/65) Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer Inputs of Language Models in Federated Learning (Jianwei Li et al., 2023)
+### (46/72) Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer Inputs of Language Models in Federated Learning (Jianwei Li et al., 2023)
 
 {{<citation>}}
 
@@ -977,7 +1066,7 @@ Federated learning (FL) emphasizes decentralized training by storing data locall
 
 
 
-### (43/65) Stress Management Using Virtual Reality-Based Attention Training (Rojaina Mahmoud et al., 2023)
+### (47/72) Stress Management Using Virtual Reality-Based Attention Training (Rojaina Mahmoud et al., 2023)
 
 {{<citation>}}
 
@@ -1003,7 +1092,7 @@ In this research, we are concerned with the applicability of virtual reality-bas
 
 
 
-### (44/65) Thinking Assistants: LLM-Based Conversational Assistants that Help Users Think By Asking rather than Answering (Soya Park et al., 2023)
+### (48/72) Thinking Assistants: LLM-Based Conversational Assistants that Help Users Think By Asking rather than Answering (Soya Park et al., 2023)
 
 {{<citation>}}
 
@@ -1025,11 +1114,11 @@ We introduce the concept of "thinking assistants", an approach that encourages u
 {{</citation>}}
 
 
-## cs.CL (7)
+## cs.CL (8)
 
 
 
-### (45/65) Exploiting Representation Bias for Data Distillation in Abstractive Text Summarization (Yash Kumar Atri et al., 2023)
+### (49/72) Exploiting Representation Bias for Data Distillation in Abstractive Text Summarization (Yash Kumar Atri et al., 2023)
 
 {{<citation>}}
 
@@ -1051,7 +1140,7 @@ Abstractive text summarization is surging with the number of training samples to
 {{</citation>}}
 
 
-### (46/65) Large Language Models on Lexical Semantic Change Detection: An Evaluation (Ruiyu Wang et al., 2023)
+### (50/72) Large Language Models on Lexical Semantic Change Detection: An Evaluation (Ruiyu Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1073,7 +1162,7 @@ Lexical Semantic Change Detection stands out as one of the few areas where Large
 {{</citation>}}
 
 
-### (47/65) NovaCOMET: Open Commonsense Foundation Models with Symbolic Knowledge Distillation (Peter West et al., 2023)
+### (51/72) NovaCOMET: Open Commonsense Foundation Models with Symbolic Knowledge Distillation (Peter West et al., 2023)
 
 {{<citation>}}
 
@@ -1095,7 +1184,29 @@ We present NovaCOMET, an open commonsense knowledge model, that combines the bes
 {{</citation>}}
 
 
-### (48/65) Evidence-based Interpretable Open-domain Fact-checking with Large Language Models (Xin Tan et al., 2023)
+### (52/72) Perceiving University Student's Opinions from Google App Reviews (Sakshi Ranjan et al., 2023)
+
+{{<citation>}}
+
+Sakshi Ranjan, Subhankar Mishra. (2023)  
+**Perceiving University Student's Opinions from Google App Reviews**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-LG, cs.CL  
+Keywords: Google, LSTM, NLP  
+[Paper Link](http://arxiv.org/abs/2312.06705v1)  
+
+---
+
+
+**ABSTRACT**  
+Google app market captures the school of thought of users from every corner of the globe via ratings and text reviews, in a multilinguistic arena. The potential information from the reviews cannot be extracted manually, due to its exponential growth. So, Sentiment analysis, by machine learning and deep learning algorithms employing NLP, explicitly uncovers and interprets the emotions. This study performs the sentiment classification of the app reviews and identifies the university student's behavior towards the app market via exploratory analysis. We applied machine learning algorithms using the TP, TF, and TF IDF text representation scheme and evaluated its performance on Bagging, an ensemble learning method. We used word embedding, Glove, on the deep learning paradigms. Our model was trained on Google app reviews and tested on Student's App Reviews(SAR). The various combinations of these algorithms were compared amongst each other using F score and accuracy and inferences were highlighted graphically. SVM, amongst other classifiers, gave fruitful accuracy(93.41%), F score(89%) on bigram and TF IDF scheme. Bagging enhanced the performance of LR and NB with accuracy of 87.88% and 86.69% and F score of 86% and 78% respectively. Overall, LSTM on Glove embedding recorded the highest accuracy(95.2%) and F score(88%).
+
+{{</citation>}}
+
+
+### (53/72) Evidence-based Interpretable Open-domain Fact-checking with Large Language Models (Xin Tan et al., 2023)
 
 {{<citation>}}
 
@@ -1117,7 +1228,7 @@ Universal fact-checking systems for real-world claims face significant challenge
 {{</citation>}}
 
 
-### (49/65) ASVD: Activation-aware Singular Value Decomposition for Compressing Large Language Models (Zhihang Yuan et al., 2023)
+### (54/72) ASVD: Activation-aware Singular Value Decomposition for Compressing Large Language Models (Zhihang Yuan et al., 2023)
 
 {{<citation>}}
 
@@ -1139,7 +1250,7 @@ This paper explores a new post-hoc training-free compression paradigm for compre
 {{</citation>}}
 
 
-### (50/65) Multi-Defendant Legal Judgment Prediction via Hierarchical Reasoning (Yougang Lyu et al., 2023)
+### (55/72) Multi-Defendant Legal Judgment Prediction via Hierarchical Reasoning (Yougang Lyu et al., 2023)
 
 {{<citation>}}
 
@@ -1161,7 +1272,7 @@ Multiple defendants in a criminal fact description generally exhibit complex int
 {{</citation>}}
 
 
-### (51/65) MISCA: A Joint Model for Multiple Intent Detection and Slot Filling with Intent-Slot Co-Attention (Thinh Pham et al., 2023)
+### (56/72) MISCA: A Joint Model for Multiple Intent Detection and Slot Filling with Intent-Slot Co-Attention (Thinh Pham et al., 2023)
 
 {{<citation>}}
 
@@ -1187,7 +1298,7 @@ The research study of detecting multiple intents and filling slots is becoming m
 
 
 
-### (52/65) A Practical Survey on Emerging Threats from AI-driven Voice Attacks: How Vulnerable are Commercial Voice Control Systems? (Yuanda Wang et al., 2023)
+### (57/72) A Practical Survey on Emerging Threats from AI-driven Voice Attacks: How Vulnerable are Commercial Voice Control Systems? (Yuanda Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1209,7 +1320,7 @@ The emergence of Artificial Intelligence (AI)-driven audio attacks has revealed 
 {{</citation>}}
 
 
-### (53/65) Guardians of Trust: Navigating Data Security in AIOps through Vendor Partnerships (Subhadip Kumar, 2023)
+### (58/72) Guardians of Trust: Navigating Data Security in AIOps through Vendor Partnerships (Subhadip Kumar, 2023)
 
 {{<citation>}}
 
@@ -1231,7 +1342,7 @@ Artificial Intelligence for IT Operations (AIOps) is a rapidly growing field tha
 {{</citation>}}
 
 
-### (54/65) A Representative Study on Human Detection of Artificially Generated Media Across Countries (Joel Frank et al., 2023)
+### (59/72) A Representative Study on Human Detection of Artificially Generated Media Across Countries (Joel Frank et al., 2023)
 
 {{<citation>}}
 
@@ -1257,18 +1368,18 @@ AI-generated media has become a threat to our digital society as we know it. The
 
 
 
-### (55/65) mir_ref: A Representation Evaluation Framework for Music Information Retrieval Tasks (Christos Plachouras et al., 2023)
+### (60/72) mir_ref: A Representation Evaluation Framework for Music Information Retrieval Tasks (Christos Plachouras et al., 2023)
 
 {{<citation>}}
 
-Christos Plachouras, Pablo Alonson-Jiménez, Dmitry Bogdanov. (2023)  
+Christos Plachouras, Pablo Alonso-Jiménez, Dmitry Bogdanov. (2023)  
 **mir_ref: A Representation Evaluation Framework for Music Information Retrieval Tasks**  
 
 ---
 Primary Category: cs.SD  
 Categories: cs-IR, cs-SD, cs.SD, eess-AS  
 Keywords: Information Retrieval  
-[Paper Link](http://arxiv.org/abs/2312.05994v1)  
+[Paper Link](http://arxiv.org/abs/2312.05994v2)  
 
 ---
 
@@ -1279,11 +1390,11 @@ Music Information Retrieval (MIR) research is increasingly leveraging representa
 {{</citation>}}
 
 
-## cs.RO (3)
+## cs.RO (4)
 
 
 
-### (56/65) Modifying RL Policies with Imagined Actions: How Predictable Policies Can Enable Users to Perform Novel Tasks (Isaac Sheidlower et al., 2023)
+### (61/72) Modifying RL Policies with Imagined Actions: How Predictable Policies Can Enable Users to Perform Novel Tasks (Isaac Sheidlower et al., 2023)
 
 {{<citation>}}
 
@@ -1305,7 +1416,7 @@ It is crucial that users are empowered to use the functionalities of a robot to 
 {{</citation>}}
 
 
-### (57/65) Language-Conditioned Semantic Search-Based Policy for Robotic Manipulation Tasks (Jannik Sheikh et al., 2023)
+### (62/72) Language-Conditioned Semantic Search-Based Policy for Robotic Manipulation Tasks (Jannik Sheikh et al., 2023)
 
 {{<citation>}}
 
@@ -1327,7 +1438,7 @@ Reinforcement learning and Imitation Learning approaches utilize policy learning
 {{</citation>}}
 
 
-### (58/65) Explosive Legged Robotic Hopping: Energy Accumulation and Power Amplification via Pneumatic Augmentation (Yifei Chen et al., 2023)
+### (63/72) Explosive Legged Robotic Hopping: Energy Accumulation and Power Amplification via Pneumatic Augmentation (Yifei Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1349,11 +1460,33 @@ We present a novel pneumatic augmentation to traditional electric motor-actuated
 {{</citation>}}
 
 
+### (64/72) Dynamic Adversarial Attacks on Autonomous Driving Systems (Amirhosein Chahe et al., 2023)
+
+{{<citation>}}
+
+Amirhosein Chahe, Chenan Wang, Abhishek Jeyapratap, Kaidi Xu, Lifeng Zhou. (2023)  
+**Dynamic Adversarial Attacks on Autonomous Driving Systems**  
+
+---
+Primary Category: cs.RO  
+Categories: cs-CV, cs-LG, cs-RO, cs.RO  
+Keywords: Adversarial Attack  
+[Paper Link](http://arxiv.org/abs/2312.06701v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper introduces an attacking mechanism to challenge the resilience of autonomous driving systems. Specifically, we manipulate the decision-making processes of an autonomous vehicle by dynamically displaying adversarial patches on a screen mounted on another moving vehicle. These patches are optimized to deceive the object detection models into misclassifying targeted objects, e.g., traffic signs. Such manipulation has significant implications for critical multi-vehicle interactions such as intersection crossing and lane changing, which are vital for safe and efficient autonomous driving systems. Particularly, we make four major contributions. First, we introduce a novel adversarial attack approach where the patch is not co-located with its target, enabling more versatile and stealthy attacks. Moreover, our method utilizes dynamic patches displayed on a screen, allowing for adaptive changes and movement, enhancing the flexibility and performance of the attack. To do so, we design a Screen Image Transformation Network (SIT-Net), which simulates environmental effects on the displayed images, narrowing the gap between simulated and real-world scenarios. Further, we integrate a positional loss term into the adversarial training process to increase the success rate of the dynamic attack. Finally, we shift the focus from merely attacking perceptual systems to influencing the decision-making algorithms of self-driving systems. Our experiments demonstrate the first successful implementation of such dynamic adversarial attacks in real-world autonomous driving scenarios, paving the way for advancements in the field of robust and secure autonomous driving.
+
+{{</citation>}}
+
+
 ## eess.IV (1)
 
 
 
-### (59/65) RadImageGAN -- A Multi-modal Dataset-Scale Generative AI for Medical Imaging (Zelong Liu et al., 2023)
+### (65/72) RadImageGAN -- A Multi-modal Dataset-Scale Generative AI for Medical Imaging (Zelong Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1375,11 +1508,37 @@ Deep learning in medical imaging often requires large-scale, high-quality data o
 {{</citation>}}
 
 
+## cs.CY (1)
+
+
+
+### (66/72) Exploring Public's Perception of Safety and Video Surveillance Technology: A Survey Approach (Babak Rahimi Ardabili et al., 2023)
+
+{{<citation>}}
+
+Babak Rahimi Ardabili, Armin Danesh Pazho, Ghazal Alinezhad Noghre, Vinit Katariya, Gordon Hull, Shannon Reid, Hamed Tabkhi. (2023)  
+**Exploring Public's Perception of Safety and Video Surveillance Technology: A Survey Approach**  
+
+---
+Primary Category: cs.CY  
+Categories: cs-CY, cs.CY  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2312.06707v1)  
+
+---
+
+
+**ABSTRACT**  
+Addressing public safety effectively requires incorporating diverse stakeholder perspectives, particularly those of the community, which are often underrepresented compared to other stakeholders. This study presents a comprehensive analysis of the community's general public safety concerns, their view of existing surveillance technologies, and their perception of AI-driven solutions for enhancing safety in urban environments, focusing on Charlotte, NC. Through a survey approach, including in-person surveys conducted in August and September 2023 with 410 participants, this research investigates demographic factors such as age, gender, ethnicity, and educational level to gain insights into public perception and concerns toward public safety and possible solutions. Based on the type of dependent variables, we utilized different statistical and significance analyses, such as logit regression and ordinal logistic regression, to explore the effects of demographic factors on the various dependent variables. Our results reveal demographic differences in public safety concerns. Younger females tend to feel less secure yet trust existing video surveillance systems, whereas older, educated individuals are more concerned about violent crimes in malls. Additionally, attitudes towards AI-driven surveillance differ: older Black individuals demonstrate support for it despite having concerns about data privacy, while educated females show a tendency towards skepticism.
+
+{{</citation>}}
+
+
 ## eess.SY (2)
 
 
 
-### (60/65) Real-time Estimation of DoS Duration and Frequency for Security Control (Yifan Sun et al., 2023)
+### (67/72) Real-time Estimation of DoS Duration and Frequency for Security Control (Yifan Sun et al., 2023)
 
 {{<citation>}}
 
@@ -1401,7 +1560,7 @@ In this paper, we develop a new denial-of-service (DoS) estimator, enabling defe
 {{</citation>}}
 
 
-### (61/65) Synthesis of Temporally-Robust Policies for Signal Temporal Logic Tasks using Reinforcement Learning (Siqi Wang et al., 2023)
+### (68/72) Synthesis of Temporally-Robust Policies for Signal Temporal Logic Tasks using Reinforcement Learning (Siqi Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1427,7 +1586,7 @@ This paper investigates the problem of designing control policies that satisfy h
 
 
 
-### (62/65) Towards Global, Socio-Economic, and Culturally Aware Recommender Systems (Kelley Ann Yohe, 2023)
+### (69/72) Towards Global, Socio-Economic, and Culturally Aware Recommender Systems (Kelley Ann Yohe, 2023)
 
 {{<citation>}}
 
@@ -1453,7 +1612,7 @@ Recommender systems have gained increasing attention to personalise consumer pre
 
 
 
-### (63/65) Guiding ChatGPT to Fix Web UI Tests via Explanation-Consistency Checking (Zhuolin Xu et al., 2023)
+### (70/72) Guiding ChatGPT to Fix Web UI Tests via Explanation-Consistency Checking (Zhuolin Xu et al., 2023)
 
 {{<citation>}}
 
@@ -1479,7 +1638,7 @@ The rapid evolution of Web UI incurs time and effort in maintaining UI tests. Ex
 
 
 
-### (64/65) GAMC: An Unsupervised Method for Fake News Detection using Graph Autoencoder with Masking (Shu Yin et al., 2023)
+### (71/72) GAMC: An Unsupervised Method for Fake News Detection using Graph Autoencoder with Masking (Shu Yin et al., 2023)
 
 {{<citation>}}
 
@@ -1505,7 +1664,7 @@ With the rise of social media, the spread of fake news has become a significant 
 
 
 
-### (65/65) AFL-Net: Integrating Audio, Facial, and Lip Modalities with Cross-Attention for Robust Speaker Diarization in the Wild (Yongkang Yin et al., 2023)
+### (72/72) AFL-Net: Integrating Audio, Facial, and Lip Modalities with Cross-Attention for Robust Speaker Diarization in the Wild (Yongkang Yin et al., 2023)
 
 {{<citation>}}
 

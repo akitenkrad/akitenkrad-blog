@@ -820,18 +820,18 @@ Graph contrastive learning (GCL) has become a powerful tool for learning graph d
 {{</citation>}}
 
 
-### (36/108) Not All Negatives AreWorth Attending to: Meta-Bootstrapping Negative Sampling Framework for Link Prediction (Yakun Wang et al., 2023)
+### (36/108) Not All Negatives Are Worth Attending to: Meta-Bootstrapping Negative Sampling Framework for Link Prediction (Yakun Wang et al., 2023)
 
 {{<citation>}}
 
 Yakun Wang, Binbin Hu, Shuo Yang, Meiqi Zhu, Zhiqiang Zhang, Qiyang Zhang, Jun Zhou, Guo Ye, Huimei He. (2023)  
-**Not All Negatives AreWorth Attending to: Meta-Bootstrapping Negative Sampling Framework for Link Prediction**  
+**Not All Negatives Are Worth Attending to: Meta-Bootstrapping Negative Sampling Framework for Link Prediction**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: GNN  
-[Paper Link](http://arxiv.org/abs/2312.04815v1)  
+[Paper Link](http://arxiv.org/abs/2312.04815v2)  
 
 ---
 
@@ -967,7 +967,7 @@ Olga Golovneva, Sean O'Brien, Ramakanth Pasunuru, Tianlu Wang, Luke Zettlemoyer,
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Reasoning  
-[Paper Link](http://arxiv.org/abs/2312.05180v1)  
+[Paper Link](http://arxiv.org/abs/2312.05180v2)  
 
 ---
 
@@ -1426,24 +1426,24 @@ Human intelligence relies in part on our brains' ability to create abstract ment
 {{</citation>}}
 
 
-### (63/108) Bad Students Make Great Teachers:Active Learning Accelerates Large-Scale Visual Understanding (Talfan Evans et al., 2023)
+### (63/108) Bad Students Make Great Teachers: Active Learning Accelerates Large-Scale Visual Understanding (Talfan Evans et al., 2023)
 
 {{<citation>}}
 
 Talfan Evans, Shreya Pathak, Hamza Merzic, Jonathan Schwarz, Ryutaro Tanno, Olivier J. Henaff. (2023)  
-**Bad Students Make Great Teachers:Active Learning Accelerates Large-Scale Visual Understanding**  
+**Bad Students Make Great Teachers: Active Learning Accelerates Large-Scale Visual Understanding**  
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Active Learning  
-[Paper Link](http://arxiv.org/abs/2312.05328v1)  
+[Paper Link](http://arxiv.org/abs/2312.05328v2)  
 
 ---
 
 
 **ABSTRACT**  
-We propose a method for accelerating large-scale pre-training with online data selection policies. For the first time, we demonstrate that model-based data selection can reduce the total computation needed to reach the performance of models trained with uniform sampling. The key insight which enables this "compute-positive" regime is that small models provide good proxies for the loss of much larger models, such that computation spent on scoring data can be drastically scaled down without diminishing the efficiency gains afforded to the learner. These data selection policies also strongly generalize across datasets and tasks, opening an avenue for further amortizing the overhead of data scoring by re-using off-the-shelf models and training sequences. Our methods, ClassAct and ActiveCLIP, require 46% and 51% fewer training updates and up to 25% less total computation when training visual classifiers on JFT and multimodal models on ALIGN, respectively. Finally, our paradigm seamlessly applies to the curation of large-scale image-text datasets, yielding a new state-of-the-art in several multimodal transfer tasks and pre-training regimes.
+We propose a method for accelerating large-scale pre-training with online data selection policies. For the first time, we demonstrate that model-based data selection can reduce the total computation needed to reach the performance of models trained with uniform sampling. The key insight which enables this "compute-positive" regime is that small models provide good proxies for the loss of much larger models, such that computation spent on scoring data can be drastically scaled down but still significantly accelerate training of the learner.. These data selection policies also strongly generalize across datasets and tasks, opening an avenue for further amortizing the overhead of data scoring by re-using off-the-shelf models and training sequences. Our methods, ClassAct and ActiveCLIP, require 46% and 51% fewer training updates and up to 25% less total computation when training visual classifiers on JFT and multimodal models on ALIGN, respectively. Finally, our paradigm seamlessly applies to the curation of large-scale image-text datasets, yielding a new state-of-the-art in several multimodal transfer tasks and pre-training regimes.
 
 {{</citation>}}
 
@@ -1569,7 +1569,7 @@ Jae Sung Park, Jack Hessel, Khyathi Raghavi Chandu, Paul Pu Liang, Ximing Lu, Pe
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs-CV, cs.AI  
 Keywords: Knowledge Distillation  
-[Paper Link](http://arxiv.org/abs/2312.04837v1)  
+[Paper Link](http://arxiv.org/abs/2312.04837v2)  
 
 ---
 
