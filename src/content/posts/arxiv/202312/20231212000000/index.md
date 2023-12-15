@@ -723,7 +723,7 @@ Antoine Marot, David Rousseau, Zhen Xu. (2023)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2312.06036v2)  
+[Paper Link](http://arxiv.org/abs/2312.06036v3)  
 
 ---
 

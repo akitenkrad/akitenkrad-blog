@@ -611,7 +611,7 @@ Gautam Goel, Peter Bartlett. (2023)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, stat-ML  
 Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2312.06937v1)  
+[Paper Link](http://arxiv.org/abs/2312.06937v2)  
 
 ---
 
@@ -703,7 +703,7 @@ Manish Nagireddy, Lamogha Chiazor, Moninder Singh, Ioana Baldini. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-CY, cs-LG, cs.CL  
 Keywords: Language Model, QA  
-[Paper Link](http://arxiv.org/abs/2312.07492v1)  
+[Paper Link](http://arxiv.org/abs/2312.07492v2)  
 
 ---
 
@@ -1121,7 +1121,7 @@ Wentao Liu, Hanglei Hu, Jie Zhou, Yuyang Ding, Junsong Li, Jiayi Zeng, Mengliang
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.07622v1)  
+[Paper Link](http://arxiv.org/abs/2312.07622v2)  
 
 ---
 
@@ -2025,7 +2025,7 @@ Ji Lin, Hongxu Yin, Wei Ping, Yao Lu, Pavlo Molchanov, Andrew Tao, Huizi Mao, Ja
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.07533v1)  
+[Paper Link](http://arxiv.org/abs/2312.07533v2)  
 
 ---
 
@@ -2685,7 +2685,7 @@ Guanxing Lu, Ziwei Wang, Changliu Liu, Jiwen Lu, Yansong Tang. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Reasoning  
-[Paper Link](http://arxiv.org/abs/2312.07062v1)  
+[Paper Link](http://arxiv.org/abs/2312.07062v2)  
 
 ---
 

@@ -709,7 +709,7 @@ Zijian Chen, Wei Sun, Haoning Wu, Zicheng Zhang, Jun Jia, Xiongkuo Min, Guangtao
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2312.05476v1)  
+[Paper Link](http://arxiv.org/abs/2312.05476v2)  
 
 ---
 
@@ -1411,7 +1411,7 @@ Xunjian Yin, Jin Jiang, Liming Yang, Xiaojun Wan. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.05497v2)  
+[Paper Link](http://arxiv.org/abs/2312.05497v3)  
 
 ---
 

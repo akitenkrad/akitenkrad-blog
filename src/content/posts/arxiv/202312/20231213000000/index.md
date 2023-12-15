@@ -348,7 +348,7 @@ Xiang Cheng, Yuxin Chen, Suvrit Sra. (2023)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2312.06528v1)  
+[Paper Link](http://arxiv.org/abs/2312.06528v2)  
 
 ---
 
@@ -1478,7 +1478,7 @@ Bin Yang, Patrick Pfreundschuh, Roland Siegwart, Marco Hutter, Peyman Moghadam, 
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2312.06733v1)  
+[Paper Link](http://arxiv.org/abs/2312.06733v2)  
 
 ---
 
@@ -1786,7 +1786,7 @@ Fangxun Shu, Lei Zhang, Hao Jiang, Cihang Xie. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: GPT, GPT-4, Language Model, QA  
-[Paper Link](http://arxiv.org/abs/2312.06720v1)  
+[Paper Link](http://arxiv.org/abs/2312.06720v2)  
 
 ---
 
