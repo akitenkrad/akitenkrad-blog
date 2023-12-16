@@ -22,18 +22,18 @@ math: true
 ## Primary Categories
 
 - [cs.RO (3)](#csro-3)
-- [cs.LG (24)](#cslg-24)
+- [cs.LG (25)](#cslg-25)
 - [cs.CL (22)](#cscl-22)
 - [cs.CR (5)](#cscr-5)
 - [cs.AI (21)](#csai-21)
 - [cs.HC (7)](#cshc-7)
+- [cs.NI (3)](#csni-3)
 - [eess.IV (4)](#eessiv-4)
 - [q-bio.NC (1)](#q-bionc-1)
-- [cs.CV (48)](#cscv-48)
+- [cs.CV (54)](#cscv-54)
 - [cs.DS (1)](#csds-1)
 - [eess.AS (2)](#eessas-2)
 - [cs.MM (2)](#csmm-2)
-- [cs.NI (1)](#csni-1)
 - [cs.SE (2)](#csse-2)
 - [cs.IR (1)](#csir-1)
 - [physics.med-ph (1)](#physicsmed-ph-1)
@@ -46,7 +46,7 @@ math: true
 
 
 
-### (1/149) Feasible Space Monitoring for Multiple Control Barrier Functions with application to Large Scale Indoor Navigation (Hardik Parwana et al., 2023)
+### (1/158) Feasible Space Monitoring for Multiple Control Barrier Functions with application to Large Scale Indoor Navigation (Hardik Parwana et al., 2023)
 
 {{<citation>}}
 
@@ -68,7 +68,7 @@ Quadratic programs (QP) subject to multiple time-dependent control barrier funct
 {{</citation>}}
 
 
-### (2/149) Reacting like Humans: Incorporating Intrinsic Human Behaviors into NAO through Sound-Based Reactions for Enhanced Sociability (Ali Ghadami et al., 2023)
+### (2/158) Reacting like Humans: Incorporating Intrinsic Human Behaviors into NAO through Sound-Based Reactions for Enhanced Sociability (Ali Ghadami et al., 2023)
 
 {{<citation>}}
 
@@ -90,7 +90,7 @@ Robots' acceptability among humans and their sociability can be significantly en
 {{</citation>}}
 
 
-### (3/149) Daily Assistive View Control Learning of Low-Cost Low-Rigidity Robot via Large-Scale Vision-Language Model (Kento Kawaharazuka et al., 2023)
+### (3/158) Daily Assistive View Control Learning of Low-Cost Low-Rigidity Robot via Large-Scale Vision-Language Model (Kento Kawaharazuka et al., 2023)
 
 {{<citation>}}
 
@@ -112,11 +112,11 @@ In this study, we develop a simple daily assistive robot that controls its own v
 {{</citation>}}
 
 
-## cs.LG (24)
+## cs.LG (25)
 
 
 
-### (4/149) Estimation of embedding vectors in high dimensions (Golara Ahmadi Azar et al., 2023)
+### (4/158) Estimation of embedding vectors in high dimensions (Golara Ahmadi Azar et al., 2023)
 
 {{<citation>}}
 
@@ -138,7 +138,7 @@ Embeddings are a basic initial feature extraction step in many machine learning 
 {{</citation>}}
 
 
-### (5/149) Traffic Signal Control Using Lightweight Transformers: An Offline-to-Online RL Approach (Xingshuai Huang et al., 2023)
+### (5/158) Traffic Signal Control Using Lightweight Transformers: An Offline-to-Online RL Approach (Xingshuai Huang et al., 2023)
 
 {{<citation>}}
 
@@ -160,7 +160,7 @@ Efficient traffic signal control is critical for reducing traffic congestion and
 {{</citation>}}
 
 
-### (6/149) IDKM: Memory Efficient Neural Network Quantization via Implicit, Differentiable $k$-Means (Sean Jaffe et al., 2023)
+### (6/158) IDKM: Memory Efficient Neural Network Quantization via Implicit, Differentiable $k$-Means (Sean Jaffe et al., 2023)
 
 {{<citation>}}
 
@@ -182,7 +182,7 @@ Compressing large neural networks with minimal performance loss is crucial to en
 {{</citation>}}
 
 
-### (7/149) FULL-W2V: Fully Exploiting Data Reuse for W2V on GPU-Accelerated Systems (Thomas Randall et al., 2023)
+### (7/158) FULL-W2V: Fully Exploiting Data Reuse for W2V on GPU-Accelerated Systems (Thomas Randall et al., 2023)
 
 {{<citation>}}
 
@@ -204,7 +204,7 @@ Word2Vec remains one of the highly-impactful innovations in the field of Natural
 {{</citation>}}
 
 
-### (8/149) Hierarchical Classification of Financial Transactions Through Context-Fusion of Transformer-based Embeddings and Taxonomy-aware Attention Layer (Antonio J. G. Busson et al., 2023)
+### (8/158) Hierarchical Classification of Financial Transactions Through Context-Fusion of Transformer-based Embeddings and Taxonomy-aware Attention Layer (Antonio J. G. Busson et al., 2023)
 
 {{<citation>}}
 
@@ -226,7 +226,7 @@ This work proposes the Two-headed DragoNet, a Transformer-based model for hierar
 {{</citation>}}
 
 
-### (9/149) A Perspective of Q-value Estimation on Offline-to-Online Reinforcement Learning (Yinmin Zhang et al., 2023)
+### (9/158) A Perspective of Q-value Estimation on Offline-to-Online Reinforcement Learning (Yinmin Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -248,7 +248,7 @@ Offline-to-online Reinforcement Learning (O2O RL) aims to improve the performanc
 {{</citation>}}
 
 
-### (10/149) I Open at the Close: A Deep Reinforcement Learning Evaluation of Open Streets Initiatives (R. Teal Witter et al., 2023)
+### (10/158) I Open at the Close: A Deep Reinforcement Learning Evaluation of Open Streets Initiatives (R. Teal Witter et al., 2023)
 
 {{<citation>}}
 
@@ -270,7 +270,7 @@ The open streets initiative "opens" streets to pedestrians and bicyclists by clo
 {{</citation>}}
 
 
-### (11/149) Bayesian Online Learning for Consensus Prediction (Sam Showalter et al., 2023)
+### (11/158) Bayesian Online Learning for Consensus Prediction (Sam Showalter et al., 2023)
 
 {{<citation>}}
 
@@ -292,7 +292,7 @@ Given a pre-trained classifier and multiple human experts, we investigate the ta
 {{</citation>}}
 
 
-### (12/149) A Hitchhiker's Guide to Geometric GNNs for 3D Atomic Systems (Alexandre Duval et al., 2023)
+### (12/158) A Hitchhiker's Guide to Geometric GNNs for 3D Atomic Systems (Alexandre Duval et al., 2023)
 
 {{<citation>}}
 
@@ -314,7 +314,7 @@ Recent advances in computational modelling of atomic systems, spanning molecules
 {{</citation>}}
 
 
-### (13/149) BIRB: A Generalization Benchmark for Information Retrieval in Bioacoustics (Jenny Hamer et al., 2023)
+### (13/158) BIRB: A Generalization Benchmark for Information Retrieval in Bioacoustics (Jenny Hamer et al., 2023)
 
 {{<citation>}}
 
@@ -336,7 +336,7 @@ The ability for a machine learning model to cope with differences in training an
 {{</citation>}}
 
 
-### (14/149) How Well Does GPT-4V(ision) Adapt to Distribution Shifts? A Preliminary Investigation (Zhongyi Han et al., 2023)
+### (14/158) How Well Does GPT-4V(ision) Adapt to Distribution Shifts? A Preliminary Investigation (Zhongyi Han et al., 2023)
 
 {{<citation>}}
 
@@ -358,7 +358,7 @@ In machine learning, generalization against distribution shifts -- where deploym
 {{</citation>}}
 
 
-### (15/149) ReRoGCRL: Representation-based Robustness in Goal-Conditioned Reinforcement Learning (Xiangyu Yin et al., 2023)
+### (15/158) ReRoGCRL: Representation-based Robustness in Goal-Conditioned Reinforcement Learning (Xiangyu Yin et al., 2023)
 
 {{<citation>}}
 
@@ -380,7 +380,7 @@ While Goal-Conditioned Reinforcement Learning (GCRL) has gained attention, its a
 {{</citation>}}
 
 
-### (16/149) Privacy-Aware Energy Consumption Modeling of Connected Battery Electric Vehicles using Federated Learning (Sen Yan et al., 2023)
+### (16/158) Privacy-Aware Energy Consumption Modeling of Connected Battery Electric Vehicles using Federated Learning (Sen Yan et al., 2023)
 
 {{<citation>}}
 
@@ -402,7 +402,7 @@ Battery Electric Vehicles (BEVs) are increasingly significant in modern cities d
 {{</citation>}}
 
 
-### (17/149) Complex Recurrent Spectral Network (Lorenzo Chicchi et al., 2023)
+### (17/158) Complex Recurrent Spectral Network (Lorenzo Chicchi et al., 2023)
 
 {{<citation>}}
 
@@ -424,7 +424,7 @@ This paper presents a novel approach to advancing artificial intelligence (AI) t
 {{</citation>}}
 
 
-### (18/149) Multi-Granularity Framework for Unsupervised Representation Learning of Time Series (Chengyang Ye et al., 2023)
+### (18/158) Multi-Granularity Framework for Unsupervised Representation Learning of Time Series (Chengyang Ye et al., 2023)
 
 {{<citation>}}
 
@@ -446,7 +446,7 @@ Representation learning plays a critical role in the analysis of time series dat
 {{</citation>}}
 
 
-### (19/149) Beyond Expected Return: Accounting for Policy Reproducibility when Evaluating Reinforcement Learning Algorithms (Manon Flageat et al., 2023)
+### (19/158) Beyond Expected Return: Accounting for Policy Reproducibility when Evaluating Reinforcement Learning Algorithms (Manon Flageat et al., 2023)
 
 {{<citation>}}
 
@@ -468,7 +468,7 @@ Many applications in Reinforcement Learning (RL) usually have noise or stochasti
 {{</citation>}}
 
 
-### (20/149) SE(3)-Invariant Multiparameter Persistent Homology for Chiral-Sensitive Molecular Property Prediction (Andac Demir et al., 2023)
+### (20/158) SE(3)-Invariant Multiparameter Persistent Homology for Chiral-Sensitive Molecular Property Prediction (Andac Demir et al., 2023)
 
 {{<citation>}}
 
@@ -490,7 +490,7 @@ In this study, we present a novel computational method for generating molecular 
 {{</citation>}}
 
 
-### (21/149) Toward Robustness in Multi-label Classification: A Data Augmentation Strategy against Imbalance and Noise (Hwanjun Song et al., 2023)
+### (21/158) Toward Robustness in Multi-label Classification: A Data Augmentation Strategy against Imbalance and Noise (Hwanjun Song et al., 2023)
 
 {{<citation>}}
 
@@ -512,7 +512,7 @@ Multi-label classification poses challenges due to imbalanced and noisy labels i
 {{</citation>}}
 
 
-### (22/149) Focus on Hiders: Exploring Hidden Threats for Enhancing Adversarial Training (Qian Li et al., 2023)
+### (22/158) Focus on Hiders: Exploring Hidden Threats for Enhancing Adversarial Training (Qian Li et al., 2023)
 
 {{<citation>}}
 
@@ -534,7 +534,29 @@ Adversarial training is often formulated as a min-max problem, however, concentr
 {{</citation>}}
 
 
-### (23/149) Rethinking Compression: Reduced Order Modelling of Latent Features in Large Language Models (Arnav Chavan et al., 2023)
+### (23/158) May the Noise be with you: Adversarial Training without Adversarial Examples (Ayoub Arous et al., 2023)
+
+{{<citation>}}
+
+Ayoub Arous, Andres F Lopez-Lopera, Nael Abu-Ghazaleh, Ihsen Alouani. (2023)  
+**May the Noise be with you: Adversarial Training without Adversarial Examples**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CR, cs-CV, cs-LG, cs.LG  
+Keywords: Adversarial Training  
+[Paper Link](http://arxiv.org/abs/2312.08877v1)  
+
+---
+
+
+**ABSTRACT**  
+In this paper, we investigate the following question: Can we obtain adversarially-trained models without training on adversarial examples? Our intuition is that training a model with inherent stochasticity, i.e., optimizing the parameters by minimizing a stochastic loss function, yields a robust expectation function that is non-stochastic. In contrast to related methods that introduce noise at the input level, our proposed approach incorporates inherent stochasticity by embedding Gaussian noise within the layers of the NN model at training time. We model the propagation of noise through the layers, introducing a closed-form stochastic loss function that encapsulates a noise variance parameter. Additionally, we contribute a formalized noise-aware gradient, enabling the optimization of model parameters while accounting for stochasticity. Our experimental results confirm that the expectation model of a stochastic architecture trained on benign distribution is adversarially robust. Interestingly, we find that the impact of the applied Gaussian noise's standard deviation on both robustness and baseline accuracy closely mirrors the impact of the noise magnitude employed in adversarial training. Our work contributes adversarially trained networks using a completely different approach, with empirically similar robustness to adversarial training.
+
+{{</citation>}}
+
+
+### (24/158) Rethinking Compression: Reduced Order Modelling of Latent Features in Large Language Models (Arnav Chavan et al., 2023)
 
 {{<citation>}}
 
@@ -556,7 +578,7 @@ Due to the substantial scale of Large Language Models (LLMs), the direct applica
 {{</citation>}}
 
 
-### (24/149) AI Control: Improving Safety Despite Intentional Subversion (Ryan Greenblatt et al., 2023)
+### (25/158) AI Control: Improving Safety Despite Intentional Subversion (Ryan Greenblatt et al., 2023)
 
 {{<citation>}}
 
@@ -578,7 +600,7 @@ As large language models (LLMs) become more powerful and are deployed more auton
 {{</citation>}}
 
 
-### (25/149) Humans vs Large Language Models: Judgmental Forecasting in an Era of Advanced AI (MAhdi Abolghasemi et al., 2023)
+### (26/158) Humans vs Large Language Models: Judgmental Forecasting in an Era of Advanced AI (MAhdi Abolghasemi et al., 2023)
 
 {{<citation>}}
 
@@ -600,7 +622,7 @@ This study investigates the forecasting accuracy of human experts versus Large L
 {{</citation>}}
 
 
-### (26/149) Can a Transformer Represent a Kalman Filter? (Gautam Goel et al., 2023)
+### (27/158) Can a Transformer Represent a Kalman Filter? (Gautam Goel et al., 2023)
 
 {{<citation>}}
 
@@ -622,7 +644,7 @@ Transformers are a class of autoregressive deep learning architectures which hav
 {{</citation>}}
 
 
-### (27/149) Perseus: Removing Energy Bloat from Large Model Training (Jae-Won Chung et al., 2023)
+### (28/158) Perseus: Removing Energy Bloat from Large Model Training (Jae-Won Chung et al., 2023)
 
 {{<citation>}}
 
@@ -648,7 +670,7 @@ Training large AI models on numerous GPUs consumes a massive amount of energy. W
 
 
 
-### (28/149) Sentiment analysis in Tourism: Fine-tuning BERT or sentence embeddings concatenation? (Ibrahim Bouabdallaoui et al., 2023)
+### (29/158) Sentiment analysis in Tourism: Fine-tuning BERT or sentence embeddings concatenation? (Ibrahim Bouabdallaoui et al., 2023)
 
 {{<citation>}}
 
@@ -670,7 +692,7 @@ Undoubtedly that the Bidirectional Encoder representations from Transformers is 
 {{</citation>}}
 
 
-### (29/149) BaRDa: A Belief and Reasoning Dataset that Separates Factual Accuracy and Reasoning Ability (Peter Clark et al., 2023)
+### (30/158) BaRDa: A Belief and Reasoning Dataset that Separates Factual Accuracy and Reasoning Ability (Peter Clark et al., 2023)
 
 {{<citation>}}
 
@@ -692,7 +714,7 @@ While there are numerous benchmarks comparing the performance of modern language
 {{</citation>}}
 
 
-### (30/149) SocialStigmaQA: A Benchmark to Uncover Stigma Amplification in Generative Language Models (Manish Nagireddy et al., 2023)
+### (31/158) SocialStigmaQA: A Benchmark to Uncover Stigma Amplification in Generative Language Models (Manish Nagireddy et al., 2023)
 
 {{<citation>}}
 
@@ -714,7 +736,7 @@ Current datasets for unwanted social bias auditing are limited to studying prote
 {{</citation>}}
 
 
-### (31/149) Comparable Demonstrations are Important in In-Context Learning: A Novel Perspective on Demonstration Selection (Caoyun Fan et al., 2023)
+### (32/158) Comparable Demonstrations are Important in In-Context Learning: A Novel Perspective on Demonstration Selection (Caoyun Fan et al., 2023)
 
 {{<citation>}}
 
@@ -736,7 +758,7 @@ In-Context Learning (ICL) is an important paradigm for adapting Large Language M
 {{</citation>}}
 
 
-### (32/149) Towards Faster k-Nearest-Neighbor Machine Translation (Xiangyu Shi et al., 2023)
+### (33/158) Towards Faster k-Nearest-Neighbor Machine Translation (Xiangyu Shi et al., 2023)
 
 {{<citation>}}
 
@@ -758,7 +780,7 @@ Recent works have proven the effectiveness of k-nearest-neighbor machine transla
 {{</citation>}}
 
 
-### (33/149) Large Language Models are Clinical Reasoners: Reasoning-Aware Diagnosis Framework with Prompt-Generated Rationales (Taeyoon Kwon et al., 2023)
+### (34/158) Large Language Models are Clinical Reasoners: Reasoning-Aware Diagnosis Framework with Prompt-Generated Rationales (Taeyoon Kwon et al., 2023)
 
 {{<citation>}}
 
@@ -780,7 +802,7 @@ Machine reasoning has made great progress in recent years owing to large languag
 {{</citation>}}
 
 
-### (34/149) Self-supervised Adaptive Pre-training of Multilingual Speech Models for Language and Dialect Identification (Mohammed Maqsood Shaik et al., 2023)
+### (35/158) Self-supervised Adaptive Pre-training of Multilingual Speech Models for Language and Dialect Identification (Mohammed Maqsood Shaik et al., 2023)
 
 {{<citation>}}
 
@@ -802,7 +824,7 @@ Pre-trained Transformer-based speech models have shown striking performance when
 {{</citation>}}
 
 
-### (35/149) SCCA: Shifted Cross Chunk Attention for long contextual semantic expansion (Yuxiang Guo, 2023)
+### (36/158) SCCA: Shifted Cross Chunk Attention for long contextual semantic expansion (Yuxiang Guo, 2023)
 
 {{<citation>}}
 
@@ -824,7 +846,7 @@ Sparse attention as a efficient method can significantly decrease the computatio
 {{</citation>}}
 
 
-### (36/149) Towards Equipping Transformer with the Ability of Systematic Compositionality (Chen Huang et al., 2023)
+### (37/158) Towards Equipping Transformer with the Ability of Systematic Compositionality (Chen Huang et al., 2023)
 
 {{<citation>}}
 
@@ -846,7 +868,7 @@ One of the key factors in language productivity and human cognition is the abili
 {{</citation>}}
 
 
-### (37/149) The GUA-Speech System Description for CNVSRC Challenge 2023 (Shengqiang Li et al., 2023)
+### (38/158) The GUA-Speech System Description for CNVSRC Challenge 2023 (Shengqiang Li et al., 2023)
 
 {{<citation>}}
 
@@ -868,7 +890,7 @@ This study describes our system for Task 1 Single-speaker Visual Speech Recognit
 {{</citation>}}
 
 
-### (38/149) Neural Machine Translation of Clinical Text: An Empirical Investigation into Multilingual Pre-Trained Language Models and Transfer-Learning (Lifeng Han et al., 2023)
+### (39/158) Neural Machine Translation of Clinical Text: An Empirical Investigation into Multilingual Pre-Trained Language Models and Transfer-Learning (Lifeng Han et al., 2023)
 
 {{<citation>}}
 
@@ -890,7 +912,7 @@ We conduct investigations on clinical text machine translation by examining mult
 {{</citation>}}
 
 
-### (39/149) Multilingual large language models leak human stereotypes across language boundaries (Yang Trista Cao et al., 2023)
+### (40/158) Multilingual large language models leak human stereotypes across language boundaries (Yang Trista Cao et al., 2023)
 
 {{<citation>}}
 
@@ -912,7 +934,7 @@ Multilingual large language models have been increasingly popular for their prof
 {{</citation>}}
 
 
-### (40/149) BED: Bi-Encoder-Decoder Model for Canonical Relation Extraction (Nantao Zheng et al., 2023)
+### (41/158) BED: Bi-Encoder-Decoder Model for Canonical Relation Extraction (Nantao Zheng et al., 2023)
 
 {{<citation>}}
 
@@ -934,7 +956,7 @@ Canonical relation extraction aims to extract relational triples from sentences,
 {{</citation>}}
 
 
-### (41/149) Context Matter: Data-Efficient Augmentation of Large Language Models for Scientific Applications (Xiang Li et al., 2023)
+### (42/158) Context Matter: Data-Efficient Augmentation of Large Language Models for Scientific Applications (Xiang Li et al., 2023)
 
 {{<citation>}}
 
@@ -956,7 +978,7 @@ In this paper, we explore the challenges inherent to Large Language Models (LLMs
 {{</citation>}}
 
 
-### (42/149) DiffuVST: Narrating Fictional Scenes with Global-History-Guided Denoising Models (Shengguang Wu et al., 2023)
+### (43/158) DiffuVST: Narrating Fictional Scenes with Global-History-Guided Denoising Models (Shengguang Wu et al., 2023)
 
 {{<citation>}}
 
@@ -978,7 +1000,7 @@ Recent advances in image and video creation, especially AI-based image synthesis
 {{</citation>}}
 
 
-### (43/149) Improving Factual Error Correction by Learning to Inject Factual Errors (Xingwei He et al., 2023)
+### (44/158) Improving Factual Error Correction by Learning to Inject Factual Errors (Xingwei He et al., 2023)
 
 {{<citation>}}
 
@@ -1000,7 +1022,7 @@ Factual error correction (FEC) aims to revise factual errors in false claims wit
 {{</citation>}}
 
 
-### (44/149) Dynamic Corrective Self-Distillation for Better Fine-Tuning of Pretrained Models (Ibtihel Amara et al., 2023)
+### (45/158) Dynamic Corrective Self-Distillation for Better Fine-Tuning of Pretrained Models (Ibtihel Amara et al., 2023)
 
 {{<citation>}}
 
@@ -1022,7 +1044,7 @@ We tackle the challenging issue of aggressive fine-tuning encountered during the
 {{</citation>}}
 
 
-### (45/149) Alignment for Honesty (Yuqing Yang et al., 2023)
+### (46/158) Alignment for Honesty (Yuqing Yang et al., 2023)
 
 {{<citation>}}
 
@@ -1044,7 +1066,7 @@ Recent research has made significant strides in applying alignment techniques to
 {{</citation>}}
 
 
-### (46/149) SM70: A Large Language Model for Medical Devices (Anubhav Bhatti et al., 2023)
+### (47/158) SM70: A Large Language Model for Medical Devices (Anubhav Bhatti et al., 2023)
 
 {{<citation>}}
 
@@ -1066,7 +1088,7 @@ We are introducing SM70, a 70 billion-parameter Large Language Model that is spe
 {{</citation>}}
 
 
-### (47/149) Content-Localization based Neural Machine Translation for Informal Dialectal Arabic: Spanish/French to Levantine/Gulf Arabic (Fatimah Alzamzami et al., 2023)
+### (48/158) Content-Localization based Neural Machine Translation for Informal Dialectal Arabic: Spanish/French to Levantine/Gulf Arabic (Fatimah Alzamzami et al., 2023)
 
 {{<citation>}}
 
@@ -1088,7 +1110,7 @@ Resources in high-resource languages have not been efficiently exploited in low-
 {{</citation>}}
 
 
-### (48/149) Safety Alignment in NLP Tasks: Weakly Aligned Summarization as an In-Context Attack (Yu Fu et al., 2023)
+### (49/158) Safety Alignment in NLP Tasks: Weakly Aligned Summarization as an In-Context Attack (Yu Fu et al., 2023)
 
 {{<citation>}}
 
@@ -1110,7 +1132,7 @@ Recent developments in balancing the usefulness and safety of Large Language Mod
 {{</citation>}}
 
 
-### (49/149) Mathematical Language Models: A Survey (Wentao Liu et al., 2023)
+### (50/158) Mathematical Language Models: A Survey (Wentao Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1136,7 +1158,7 @@ In recent years, there has been remarkable progress in leveraging Language Model
 
 
 
-### (50/149) BarraCUDA: Bringing Electromagnetic Side Channel Into Play to Steal the Weights of Neural Networks from NVIDIA GPUs (Peter Horvath et al., 2023)
+### (51/158) BarraCUDA: Bringing Electromagnetic Side Channel Into Play to Steal the Weights of Neural Networks from NVIDIA GPUs (Peter Horvath et al., 2023)
 
 {{<citation>}}
 
@@ -1158,7 +1180,7 @@ Over the last decade, applications of neural networks have spread to cover all a
 {{</citation>}}
 
 
-### (51/149) Real-time Network Intrusion Detection via Decision Transformers (Jingdi Chen et al., 2023)
+### (52/158) Real-time Network Intrusion Detection via Decision Transformers (Jingdi Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1180,7 +1202,7 @@ Many cybersecurity problems that require real-time decision-making based on temp
 {{</citation>}}
 
 
-### (52/149) EdgePruner: Poisoned Edge Pruning in Graph Contrastive Learning (Hiroya Kato et al., 2023)
+### (53/158) EdgePruner: Poisoned Edge Pruning in Graph Contrastive Learning (Hiroya Kato et al., 2023)
 
 {{<citation>}}
 
@@ -1202,7 +1224,7 @@ Graph Contrastive Learning (GCL) is unsupervised graph representation learning t
 {{</citation>}}
 
 
-### (53/149) Task-Agnostic Privacy-Preserving Representation Learning for Federated Learning Against Attribute Inference Attacks (Caridad Arroyo Arevalo et al., 2023)
+### (54/158) Task-Agnostic Privacy-Preserving Representation Learning for Federated Learning Against Attribute Inference Attacks (Caridad Arroyo Arevalo et al., 2023)
 
 {{<citation>}}
 
@@ -1224,7 +1246,7 @@ Federated learning (FL) has been widely studied recently due to its property to 
 {{</citation>}}
 
 
-### (54/149) Blockchain-Based Security Architecture for Unmanned Aerial Vehicles in B5G/6G Services and Beyond: A Comprehensive Approach (Senthil Kumar Jagatheesaperumal et al., 2023)
+### (55/158) Blockchain-Based Security Architecture for Unmanned Aerial Vehicles in B5G/6G Services and Beyond: A Comprehensive Approach (Senthil Kumar Jagatheesaperumal et al., 2023)
 
 {{<citation>}}
 
@@ -1250,7 +1272,7 @@ Unmanned Aerial Vehicles (UAVs), previously favored by enthusiasts, have evolved
 
 
 
-### (55/149) Tell, don't show: Declarative facts influence how LLMs generalize (Alexander Meinke et al., 2023)
+### (56/158) Tell, don't show: Declarative facts influence how LLMs generalize (Alexander Meinke et al., 2023)
 
 {{<citation>}}
 
@@ -1272,7 +1294,7 @@ We examine how large language models (LLMs) generalize from abstract declarative
 {{</citation>}}
 
 
-### (56/149) Polynomial-based Self-Attention for Table Representation learning (Jayoung Kim et al., 2023)
+### (57/158) Polynomial-based Self-Attention for Table Representation learning (Jayoung Kim et al., 2023)
 
 {{<citation>}}
 
@@ -1294,7 +1316,7 @@ Structured data, which constitutes a significant portion of existing data types,
 {{</citation>}}
 
 
-### (57/149) Saturn Platform: Foundation Model Operations and Generative AI for Financial Services (Antonio J. G. Busson et al., 2023)
+### (58/158) Saturn Platform: Foundation Model Operations and Generative AI for Financial Services (Antonio J. G. Busson et al., 2023)
 
 {{<citation>}}
 
@@ -1316,7 +1338,7 @@ Saturn is an innovative platform that assists Foundation Model (FM) building and
 {{</citation>}}
 
 
-### (58/149) Leveraging Large Language Models to Build and Execute Computational Workflows (Alejandro Duque et al., 2023)
+### (59/158) Leveraging Large Language Models to Build and Execute Computational Workflows (Alejandro Duque et al., 2023)
 
 {{<citation>}}
 
@@ -1338,7 +1360,7 @@ The recent development of large language models (LLMs) with multi-billion parame
 {{</citation>}}
 
 
-### (59/149) diff History for Long-Context Language Agents (Ulyana Piterbarg et al., 2023)
+### (60/158) diff History for Long-Context Language Agents (Ulyana Piterbarg et al., 2023)
 
 {{<citation>}}
 
@@ -1360,7 +1382,7 @@ Language Models (LMs) offer an exciting solution for general-purpose embodied co
 {{</citation>}}
 
 
-### (60/149) AI capabilities can be significantly improved without expensive retraining (Tom Davidson et al., 2023)
+### (61/158) AI capabilities can be significantly improved without expensive retraining (Tom Davidson et al., 2023)
 
 {{<citation>}}
 
@@ -1382,7 +1404,7 @@ State-of-the-art AI systems can be significantly improved without expensive retr
 {{</citation>}}
 
 
-### (61/149) On Diverse Preferences for Large Language Model Alignment (Dun Zeng et al., 2023)
+### (62/158) On Diverse Preferences for Large Language Model Alignment (Dun Zeng et al., 2023)
 
 {{<citation>}}
 
@@ -1404,7 +1426,7 @@ The alignment of large language models (LLMs) with human values is crucial for t
 {{</citation>}}
 
 
-### (62/149) LLMEval: A Preliminary Study on How to Evaluate Large Language Models (Yue Zhang et al., 2023)
+### (63/158) LLMEval: A Preliminary Study on How to Evaluate Large Language Models (Yue Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1426,7 +1448,7 @@ Recently, the evaluation of Large Language Models has emerged as a popular area 
 {{</citation>}}
 
 
-### (63/149) A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models (Enshu Liu et al., 2023)
+### (64/158) A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models (Enshu Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1448,7 +1470,7 @@ Recent years have witnessed the rapid progress and broad application of diffusio
 {{</citation>}}
 
 
-### (64/149) Cost Aware Untargeted Poisoning Attack against Graph Neural Networks, (Yuwei Han et al., 2023)
+### (65/158) Cost Aware Untargeted Poisoning Attack against Graph Neural Networks, (Yuwei Han et al., 2023)
 
 {{<citation>}}
 
@@ -1470,7 +1492,7 @@ Graph Neural Networks (GNNs) have become widely used in the field of graph minin
 {{</citation>}}
 
 
-### (65/149) Responsibility in Extensive Form Games (Qi Shi, 2023)
+### (66/158) Responsibility in Extensive Form Games (Qi Shi, 2023)
 
 {{<citation>}}
 
@@ -1492,7 +1514,7 @@ Two different forms of responsibility, counterfactual and seeing-to-it, have bee
 {{</citation>}}
 
 
-### (66/149) Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass the Censorship of Text-to-Image Generation Model (Yimo Deng et al., 2023)
+### (67/158) Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass the Censorship of Text-to-Image Generation Model (Yimo Deng et al., 2023)
 
 {{<citation>}}
 
@@ -1514,7 +1536,7 @@ Text-to-image generative models offer many innovative services but also raise et
 {{</citation>}}
 
 
-### (67/149) Neural Reasoning About Agents' Goals, Preferences, and Actions (Matteo Bortoletto et al., 2023)
+### (68/158) Neural Reasoning About Agents' Goals, Preferences, and Actions (Matteo Bortoletto et al., 2023)
 
 {{<citation>}}
 
@@ -1536,7 +1558,7 @@ We propose the Intuitive Reasoning Network (IRENE) - a novel neural model for in
 {{</citation>}}
 
 
-### (68/149) Clash of the Explainers: Argumentation for Context-Appropriate Explanations (Leila Methnani et al., 2023)
+### (69/158) Clash of the Explainers: Argumentation for Context-Appropriate Explanations (Leila Methnani et al., 2023)
 
 {{<citation>}}
 
@@ -1558,7 +1580,7 @@ Understanding when and why to apply any given eXplainable Artificial Intelligenc
 {{</citation>}}
 
 
-### (69/149) Efficiently Programming Large Language Models using SGLang (Lianmin Zheng et al., 2023)
+### (70/158) Efficiently Programming Large Language Models using SGLang (Lianmin Zheng et al., 2023)
 
 {{<citation>}}
 
@@ -1580,7 +1602,7 @@ Large language models (LLMs) are increasingly used for complex tasks requiring m
 {{</citation>}}
 
 
-### (70/149) Navigating the generative AI era: Introducing the AI assessment scale for ethical GenAI assessment (Mike Perkins et al., 2023)
+### (71/158) Navigating the generative AI era: Introducing the AI assessment scale for ethical GenAI assessment (Mike Perkins et al., 2023)
 
 {{<citation>}}
 
@@ -1602,7 +1624,7 @@ Recent developments in Generative Artificial Intelligence (GenAI) have created a
 {{</citation>}}
 
 
-### (71/149) Noise Distribution Decomposition based Multi-Agent Distributional Reinforcement Learning (Wei Geng et al., 2023)
+### (72/158) Noise Distribution Decomposition based Multi-Agent Distributional Reinforcement Learning (Wei Geng et al., 2023)
 
 {{<citation>}}
 
@@ -1624,7 +1646,7 @@ Generally, Reinforcement Learning (RL) agent updates its policy by repetitively 
 {{</citation>}}
 
 
-### (72/149) RACER: Rational Artificial Intelligence Car-following-model Enhanced by Reality (Tianyi Li et al., 2023)
+### (73/158) RACER: Rational Artificial Intelligence Car-following-model Enhanced by Reality (Tianyi Li et al., 2023)
 
 {{<citation>}}
 
@@ -1646,7 +1668,7 @@ This paper introduces RACER, the Rational Artificial Intelligence Car-following 
 {{</citation>}}
 
 
-### (73/149) AI-based Wildfire Prevention, Detection and Suppression System (Prisha Shroff, 2023)
+### (74/158) AI-based Wildfire Prevention, Detection and Suppression System (Prisha Shroff, 2023)
 
 {{<citation>}}
 
@@ -1668,7 +1690,7 @@ Wildfires pose a serious threat to the environment of the world. The global wild
 {{</citation>}}
 
 
-### (74/149) Anytime Approximate Formal Feature Attribution (Jinqiang Yu et al., 2023)
+### (75/158) Anytime Approximate Formal Feature Attribution (Jinqiang Yu et al., 2023)
 
 {{<citation>}}
 
@@ -1690,7 +1712,7 @@ Widespread use of artificial intelligence (AI) algorithms and machine learning (
 {{</citation>}}
 
 
-### (75/149) Unsupervised Extractive Summarization with Learnable Length Control Strategies (Renlong Jie et al., 2023)
+### (76/158) Unsupervised Extractive Summarization with Learnable Length Control Strategies (Renlong Jie et al., 2023)
 
 {{<citation>}}
 
@@ -1716,7 +1738,7 @@ Unsupervised extractive summarization is an important technique in information e
 
 
 
-### (76/149) Designing with Language: Wireframing UI Design Intent with Generative Large Language Models (Sidong Feng et al., 2023)
+### (77/158) Designing with Language: Wireframing UI Design Intent with Generative Large Language Models (Sidong Feng et al., 2023)
 
 {{<citation>}}
 
@@ -1738,7 +1760,7 @@ Wireframing is a critical step in the UI design process. Mid-fidelity wireframes
 {{</citation>}}
 
 
-### (77/149) Scaling Culture in Blockchain Gaming: Generative AI and Pseudonymous Engagement (Henrik Axelsen et al., 2023)
+### (78/158) Scaling Culture in Blockchain Gaming: Generative AI and Pseudonymous Engagement (Henrik Axelsen et al., 2023)
 
 {{<citation>}}
 
@@ -1760,7 +1782,7 @@ Managing rapidly growing decentralized gaming communities brings unique challeng
 {{</citation>}}
 
 
-### (78/149) Can ChatGPT Play the Role of a Teaching Assistant in an Introductory Programming Course? (Anishka et al., 2023)
+### (79/158) Can ChatGPT Play the Role of a Teaching Assistant in an Introductory Programming Course? (Anishka et al., 2023)
 
 {{<citation>}}
 
@@ -1782,7 +1804,7 @@ The emergence of Large language models (LLMs) is expected to have a major impact
 {{</citation>}}
 
 
-### (79/149) Exploring Large Language Models to Facilitate Variable Autonomy for Human-Robot Teaming (Younes Lakhnati et al., 2023)
+### (80/158) Exploring Large Language Models to Facilitate Variable Autonomy for Human-Robot Teaming (Younes Lakhnati et al., 2023)
 
 {{<citation>}}
 
@@ -1804,7 +1826,7 @@ In a rapidly evolving digital landscape autonomous tools and robots are becoming
 {{</citation>}}
 
 
-### (80/149) Towards Enhanced Human Activity Recognition through Natural Language Generation and Pose Estimation (Nikhil Kashyap et al., 2023)
+### (81/158) Towards Enhanced Human Activity Recognition through Natural Language Generation and Pose Estimation (Nikhil Kashyap et al., 2023)
 
 {{<citation>}}
 
@@ -1826,7 +1848,7 @@ Vision-based human activity recognition (HAR) has made substantial progress in r
 {{</citation>}}
 
 
-### (81/149) Facial Emotion Recognition in VR Games (Fatemeh Dehghani et al., 2023)
+### (82/158) Facial Emotion Recognition in VR Games (Fatemeh Dehghani et al., 2023)
 
 {{<citation>}}
 
@@ -1848,7 +1870,7 @@ Emotion detection is a crucial component of Games User Research (GUR), as it all
 {{</citation>}}
 
 
-### (82/149) 'I Want It That Way': Enabling Interactive Decision Support Using Large Language Models and Constraint Programming (Connor Lawless et al., 2023)
+### (83/158) 'I Want It That Way': Enabling Interactive Decision Support Using Large Language Models and Constraint Programming (Connor Lawless et al., 2023)
 
 {{<citation>}}
 
@@ -1870,11 +1892,81 @@ A critical factor in the success of decision support systems is the accurate mod
 {{</citation>}}
 
 
+## cs.NI (3)
+
+
+
+### (84/158) Towards SSH3: how HTTP/3 improves secure shells (François Michel et al., 2023)
+
+{{<citation>}}
+
+François Michel, Olivier Bonaventure. (2023)  
+**Towards SSH3: how HTTP/3 improves secure shells**  
+
+---
+Primary Category: cs.NI  
+Categories: cs-NI, cs.NI  
+Keywords: Google  
+[Paper Link](http://arxiv.org/abs/2312.08396v1)  
+
+---
+
+
+**ABSTRACT**  
+The SSH protocol was designed in the late nineties to cope with the security problems of the telnetf family of protocols. It brought authentication and confidentiality to remote access protocols and is now widely used. Almost 30 years after the initial design, we revisit SSH in the light of recent protocols including QUIC, TLS 1.3 and HTTP/3. We propose, implement and evaluate SSH3, a protocol that provides an enhanced feature set without compromise compared to SSHv2. SSH3 leverages HTTP-based authorization mechanisms to enable new authentication methods in addition to the classical password-based and private/public key pair authentications. SSH3 users can now configure their remote server to be accessed through the identity provider of their organization or using their Google or Github account. Relying on HTTP/3 and the QUIC protocol, SSH3 offers UDP port forwarding in addition to regular TCP forwarding as well as a faster and secure session establishment. We implement SSH3 over quic-go and evaluate its performance.
+
+{{</citation>}}
+
+
+### (85/158) Your Vulnerability Disclosure Is Important To Us: An Analysis of Coordinated Vulnerability Disclosure Responses Using a Real Security Issue (Koen van Hove et al., 2023)
+
+{{<citation>}}
+
+Koen van Hove, Jeroen van der Ham-de Vos, Roland van Rijswijk-Deij. (2023)  
+**Your Vulnerability Disclosure Is Important To Us: An Analysis of Coordinated Vulnerability Disclosure Responses Using a Real Security Issue**  
+
+---
+Primary Category: cs.NI  
+Categories: cs-NI, cs.NI  
+Keywords: Security  
+[Paper Link](http://arxiv.org/abs/2312.07284v1)  
+
+---
+
+
+**ABSTRACT**  
+It is a public secret that doing email securely is fraught with challenges. We found a vulnerability present at many email providers, allowing us to spoof email on behalf of many organisations. As email vulnerabilities are ten a penny, instead of focusing on yet another email vulnerability we ask a different question: how do organisations react to the disclosure of such a security issue in the wild? We specifically focus on organisations from the public and critical infrastructure sector who are required to respond to such notifications by law. We find that many organisations are difficult to reach when it concerns security issues, even if they have a security contact point. Additionally, our findings show that having policy in place improves the response and resolution rate, but that even with a policy in place, half of our reports remain unanswered and unsolved after 90~days. Based on these findings we provide recommendations to organisations and bodies such as ENISA to improve future coordinated vulnerability disclosure processes.
+
+{{</citation>}}
+
+
+### (86/158) Resource Allocation for Dataflow Applications in FANETs using Anypath Routing (Juan José López Escobar et al., 2023)
+
+{{<citation>}}
+
+Juan José López Escobar, Manuel Ricardo, Rui Campos, Felipe Gil-Castiñeira, Rebeca P. Díaz-Redondo. (2023)  
+**Resource Allocation for Dataflow Applications in FANETs using Anypath Routing**  
+
+---
+Primary Category: cs.NI  
+Categories: cs-NI, cs.NI  
+Keywords: Embedding  
+[Paper Link](http://arxiv.org/abs/2312.08389v1)  
+
+---
+
+
+**ABSTRACT**  
+Management of network resources in advanced IoT applications is a challenging topic due to their distributed nature from the Edge to the Cloud, and the heavy demand of real-time data from many sources to take action in the deployment. FANETs (Flying Ad-hoc Networks) are a clear example of heterogeneous multi-modal use cases, which require strict quality in the network communications, as well as the coordination of the computing capabilities, in order to operate correctly the final service. In this paper, we present a Virtual Network Embedding (VNE) framework designed for the allocation of dataflow applications, composed of nano-services that produce or consume data, in a wireless infrastructure, such as an airborne network. To address the problem, an anypath-based heuristic algorithm that considers the quality demand of the communication between nano-services is proposed, coined as Quality-Revenue Paired Anypath Dataflow VNE (QRPAD-VNE). We also provide a simulation environment for the evaluation of its performance according to the virtual network (VN) request load in the system. Finally, we show the suitability of a multi-parameter framework in conjunction with anypath routing in order to have better performance results that guarantee minimum quality in the wireless communications.
+
+{{</citation>}}
+
+
 ## eess.IV (4)
 
 
 
-### (83/149) MedYOLO: A Medical Image Object Detection Framework (Joseph Sobek et al., 2023)
+### (87/158) MedYOLO: A Medical Image Object Detection Framework (Joseph Sobek et al., 2023)
 
 {{<citation>}}
 
@@ -1896,7 +1988,7 @@ Artificial intelligence-enhanced identification of organs, lesions, and other st
 {{</citation>}}
 
 
-### (84/149) Super-Resolution on Rotationally Scanned Photoacoustic Microscopy Images Incorporating Scanning Prior (Kai Pan et al., 2023)
+### (88/158) Super-Resolution on Rotationally Scanned Photoacoustic Microscopy Images Incorporating Scanning Prior (Kai Pan et al., 2023)
 
 {{<citation>}}
 
@@ -1918,7 +2010,7 @@ Photoacoustic Microscopy (PAM) images integrating the advantages of optical cont
 {{</citation>}}
 
 
-### (85/149) MS-Twins: Multi-Scale Deep Self-Attention Networks for Medical Image Segmentation (Jing Xu, 2023)
+### (89/158) MS-Twins: Multi-Scale Deep Self-Attention Networks for Medical Image Segmentation (Jing Xu, 2023)
 
 {{<citation>}}
 
@@ -1940,7 +2032,7 @@ Although transformer is preferred in natural language processing, few studies ha
 {{</citation>}}
 
 
-### (86/149) On the notion of Hallucinations from the lens of Bias and Validity in Synthetic CXR Images (Gauri Bhardwaj et al., 2023)
+### (90/158) On the notion of Hallucinations from the lens of Bias and Validity in Synthetic CXR Images (Gauri Bhardwaj et al., 2023)
 
 {{<citation>}}
 
@@ -1966,7 +2058,7 @@ Medical imaging has revolutionized disease diagnosis, yet the potential is hampe
 
 
 
-### (87/149) Brain-optimized inference improves reconstructions of fMRI brain activity (Reese Kneeland et al., 2023)
+### (91/158) Brain-optimized inference improves reconstructions of fMRI brain activity (Reese Kneeland et al., 2023)
 
 {{<citation>}}
 
@@ -1988,11 +2080,11 @@ The release of large datasets and developments in AI have led to dramatic improv
 {{</citation>}}
 
 
-## cs.CV (48)
+## cs.CV (54)
 
 
 
-### (88/149) FreeControl: Training-Free Spatial Control of Any Text-to-Image Diffusion Model with Any Condition (Sicheng Mo et al., 2023)
+### (92/158) FreeControl: Training-Free Spatial Control of Any Text-to-Image Diffusion Model with Any Condition (Sicheng Mo et al., 2023)
 
 {{<citation>}}
 
@@ -2014,7 +2106,7 @@ Recent approaches such as ControlNet offer users fine-grained spatial control ov
 {{</citation>}}
 
 
-### (89/149) VILA: On Pre-training for Visual Language Models (Ji Lin et al., 2023)
+### (93/158) VILA: On Pre-training for Visual Language Models (Ji Lin et al., 2023)
 
 {{<citation>}}
 
@@ -2036,7 +2128,7 @@ Visual language models (VLMs) rapidly progressed with the recent success of larg
 {{</citation>}}
 
 
-### (90/149) Interfacing Foundation Models' Embeddings (Xueyan Zou et al., 2023)
+### (94/158) Interfacing Foundation Models' Embeddings (Xueyan Zou et al., 2023)
 
 {{<citation>}}
 
@@ -2058,7 +2150,7 @@ We present FIND, a generalized interface for aligning foundation models' embeddi
 {{</citation>}}
 
 
-### (91/149) Weakly Supervised 3D Object Detection via Multi-Level Visual Guidance (Kuan-Chih Huang et al., 2023)
+### (95/158) Weakly Supervised 3D Object Detection via Multi-Level Visual Guidance (Kuan-Chih Huang et al., 2023)
 
 {{<citation>}}
 
@@ -2080,7 +2172,7 @@ Weakly supervised 3D object detection aims to learn a 3D detector with lower ann
 {{</citation>}}
 
 
-### (92/149) NAC-TCN: Temporal Convolutional Networks with Causal Dilated Neighborhood Attention for Emotion Understanding (Alexander Mehta et al., 2023)
+### (96/158) NAC-TCN: Temporal Convolutional Networks with Causal Dilated Neighborhood Attention for Emotion Understanding (Alexander Mehta et al., 2023)
 
 {{<citation>}}
 
@@ -2102,7 +2194,7 @@ In the task of emotion recognition from videos, a key improvement has been to fo
 {{</citation>}}
 
 
-### (93/149) Exploring Plain ViT Reconstruction for Multi-class Unsupervised Anomaly Detection (Jiangning Zhang et al., 2023)
+### (97/158) Exploring Plain ViT Reconstruction for Multi-class Unsupervised Anomaly Detection (Jiangning Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -2124,7 +2216,7 @@ This work studies the recently proposed challenging and practical Multi-class Un
 {{</citation>}}
 
 
-### (94/149) NearbyPatchCL: Leveraging Nearby Patches for Self-Supervised Patch-Level Multi-Class Classification in Whole-Slide Images (Gia-Bao Le et al., 2023)
+### (98/158) NearbyPatchCL: Leveraging Nearby Patches for Self-Supervised Patch-Level Multi-Class Classification in Whole-Slide Images (Gia-Bao Le et al., 2023)
 
 {{<citation>}}
 
@@ -2146,7 +2238,7 @@ Whole-slide image (WSI) analysis plays a crucial role in cancer diagnosis and tr
 {{</citation>}}
 
 
-### (95/149) LMDrive: Closed-Loop End-to-End Driving with Large Language Models (Hao Shao et al., 2023)
+### (99/158) LMDrive: Closed-Loop End-to-End Driving with Large Language Models (Hao Shao et al., 2023)
 
 {{<citation>}}
 
@@ -2168,7 +2260,7 @@ Despite significant recent progress in the field of autonomous driving, modern m
 {{</citation>}}
 
 
-### (96/149) MP5: A Multi-modal Open-ended Embodied System in Minecraft via Active Perception (Yiran Qin et al., 2023)
+### (100/158) MP5: A Multi-modal Open-ended Embodied System in Minecraft via Active Perception (Yiran Qin et al., 2023)
 
 {{<citation>}}
 
@@ -2190,7 +2282,7 @@ It is a long-lasting goal to design an embodied system that can solve long-horiz
 {{</citation>}}
 
 
-### (97/149) Efficient Object Detection in Autonomous Driving using Spiking Neural Networks: Performance, Energy Consumption Analysis, and Insights into Open-set Object Discovery (Aitor Martinez Seras et al., 2023)
+### (101/158) Efficient Object Detection in Autonomous Driving using Spiking Neural Networks: Performance, Energy Consumption Analysis, and Insights into Open-set Object Discovery (Aitor Martinez Seras et al., 2023)
 
 {{<citation>}}
 
@@ -2212,7 +2304,7 @@ Besides performance, efficiency is a key design driver of technologies supportin
 {{</citation>}}
 
 
-### (98/149) Medical Image Classification Using Transfer Learning and Chaos Game Optimization on the Internet of Medical Things (Alhassan Mabrouk et al., 2023)
+### (102/158) Medical Image Classification Using Transfer Learning and Chaos Game Optimization on the Internet of Medical Things (Alhassan Mabrouk et al., 2023)
 
 {{<citation>}}
 
@@ -2234,7 +2326,7 @@ The Internet of Medical Things (IoMT) has dramatically benefited medical profess
 {{</citation>}}
 
 
-### (99/149) Cross-modal Contrastive Learning with Asymmetric Co-attention Network for Video Moment Retrieval (Love Panta et al., 2023)
+### (103/158) Cross-modal Contrastive Learning with Asymmetric Co-attention Network for Video Moment Retrieval (Love Panta et al., 2023)
 
 {{<citation>}}
 
@@ -2256,7 +2348,7 @@ Video moment retrieval is a challenging task requiring fine-grained interactions
 {{</citation>}}
 
 
-### (100/149) Attention Based Encoder Decoder Model for Video Captioning in Nepali (2023) (Kabita Parajuli et al., 2023)
+### (104/158) Attention Based Encoder Decoder Model for Video Captioning in Nepali (2023) (Kabita Parajuli et al., 2023)
 
 {{<citation>}}
 
@@ -2278,7 +2370,7 @@ Video captioning in Nepali, a language written in the Devanagari script, present
 {{</citation>}}
 
 
-### (101/149) Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Models (Chen Ju et al., 2023)
+### (105/158) Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Models (Chen Ju et al., 2023)
 
 {{<citation>}}
 
@@ -2300,7 +2392,7 @@ Vision-Language Large Models (VLMs) have become primary backbone of AI, due to t
 {{</citation>}}
 
 
-### (102/149) Eroding Trust In Aerial Imagery: Comprehensive Analysis and Evaluation Of Adversarial Attacks In Geospatial Systems (Michael Lanier et al., 2023)
+### (106/158) Eroding Trust In Aerial Imagery: Comprehensive Analysis and Evaluation Of Adversarial Attacks In Geospatial Systems (Michael Lanier et al., 2023)
 
 {{<citation>}}
 
@@ -2322,7 +2414,7 @@ In critical operations where aerial imagery plays an essential role, the integri
 {{</citation>}}
 
 
-### (103/149) X4D-SceneFormer: Enhanced Scene Understanding on 4D Point Cloud Videos through Cross-modal Knowledge Transfer (Linglin Jing et al., 2023)
+### (107/158) X4D-SceneFormer: Enhanced Scene Understanding on 4D Point Cloud Videos through Cross-modal Knowledge Transfer (Linglin Jing et al., 2023)
 
 {{<citation>}}
 
@@ -2344,7 +2436,29 @@ The field of 4D point cloud understanding is rapidly developing with the goal of
 {{</citation>}}
 
 
-### (104/149) Adversarial Semi-Supervised Domain Adaptation for Semantic Segmentation: A New Role for Labeled Target Samples (Marwa Kechaou et al., 2023)
+### (108/158) EditGuard: Versatile Image Watermarking for Tamper Localization and Copyright Protection (Xuanyu Zhang et al., 2023)
+
+{{<citation>}}
+
+Xuanyu Zhang, Runyi Li, Jiwen Yu, Youmin Xu, Weiqi Li, Jian Zhang. (2023)  
+**EditGuard: Versatile Image Watermarking for Tamper Localization and Copyright Protection**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2312.08883v1)  
+
+---
+
+
+**ABSTRACT**  
+In the era where AI-generated content (AIGC) models can produce stunning and lifelike images, the lingering shadow of unauthorized reproductions and malicious tampering poses imminent threats to copyright integrity and information security. Current image watermarking methods, while widely accepted for safeguarding visual content, can only protect copyright and ensure traceability. They fall short in localizing increasingly realistic image tampering, potentially leading to trust crises, privacy violations, and legal disputes. To solve this challenge, we propose an innovative proactive forensics framework EditGuard, to unify copyright protection and tamper-agnostic localization, especially for AIGC-based editing methods. It can offer a meticulous embedding of imperceptible watermarks and precise decoding of tampered areas and copyright information. Leveraging our observed fragility and locality of image-into-image steganography, the realization of EditGuard can be converted into a united image-bit steganography issue, thus completely decoupling the training process from the tampering types. Extensive experiments demonstrate that our EditGuard balances the tamper localization accuracy, copyright recovery precision, and generalizability to various AIGC-based tampering methods, especially for image forgery that is difficult for the naked eye to detect. The project page is available at https://xuanyuzhang21.github.io/project/editguard/.
+
+{{</citation>}}
+
+
+### (109/158) Adversarial Semi-Supervised Domain Adaptation for Semantic Segmentation: A New Role for Labeled Target Samples (Marwa Kechaou et al., 2023)
 
 {{<citation>}}
 
@@ -2366,7 +2480,7 @@ Adversarial learning baselines for domain adaptation (DA) approaches in the cont
 {{</citation>}}
 
 
-### (105/149) Collapse-Oriented Adversarial Training with Triplet Decoupling for Robust Image Retrieval (Qiwei Tian et al., 2023)
+### (110/158) Collapse-Oriented Adversarial Training with Triplet Decoupling for Robust Image Retrieval (Qiwei Tian et al., 2023)
 
 {{<citation>}}
 
@@ -2388,7 +2502,7 @@ Adversarial training has achieved substantial performance in defending image ret
 {{</citation>}}
 
 
-### (106/149) Expand-and-Quantize: Unsupervised Semantic Segmentation Using High-Dimensional Space and Product Quantization (Jiyoung Kim et al., 2023)
+### (111/158) Expand-and-Quantize: Unsupervised Semantic Segmentation Using High-Dimensional Space and Product Quantization (Jiyoung Kim et al., 2023)
 
 {{<citation>}}
 
@@ -2410,7 +2524,7 @@ Unsupervised semantic segmentation (USS) aims to discover and recognize meaningf
 {{</citation>}}
 
 
-### (107/149) Scalable Motion Style Transfer with Constrained Diffusion Generation (Wenjie Yin et al., 2023)
+### (112/158) Scalable Motion Style Transfer with Constrained Diffusion Generation (Wenjie Yin et al., 2023)
 
 {{<citation>}}
 
@@ -2432,7 +2546,7 @@ Current training of motion style transfer systems relies on consistency losses a
 {{</citation>}}
 
 
-### (108/149) Benchmarking Pretrained Vision Embeddings for Near- and Duplicate Detection in Medical Images (Tuan Truong et al., 2023)
+### (113/158) Benchmarking Pretrained Vision Embeddings for Near- and Duplicate Detection in Medical Images (Tuan Truong et al., 2023)
 
 {{<citation>}}
 
@@ -2454,7 +2568,7 @@ Near- and duplicate image detection is a critical concern in the field of medica
 {{</citation>}}
 
 
-### (109/149) ProxyDet: Synthesizing Proxy Novel Classes via Classwise Mixup for Open Vocabulary Object Detection (Joonhyun Jeong et al., 2023)
+### (114/158) ProxyDet: Synthesizing Proxy Novel Classes via Classwise Mixup for Open Vocabulary Object Detection (Joonhyun Jeong et al., 2023)
 
 {{<citation>}}
 
@@ -2476,7 +2590,7 @@ Open-vocabulary object detection (OVOD) aims to recognize novel objects whose ca
 {{</citation>}}
 
 
-### (110/149) SSTA: Salient Spatially Transformed Attack (Renyang Liu et al., 2023)
+### (115/158) SSTA: Salient Spatially Transformed Attack (Renyang Liu et al., 2023)
 
 {{<citation>}}
 
@@ -2498,7 +2612,7 @@ Extensive studies have demonstrated that deep neural networks (DNNs) are vulnera
 {{</citation>}}
 
 
-### (111/149) Fast Training of Diffusion Transformer with Extreme Masking for 3D Point Clouds Generation (Shentong Mo et al., 2023)
+### (116/158) Fast Training of Diffusion Transformer with Extreme Masking for 3D Point Clouds Generation (Shentong Mo et al., 2023)
 
 {{<citation>}}
 
@@ -2520,7 +2634,7 @@ Diffusion Transformers have recently shown remarkable effectiveness in generatin
 {{</citation>}}
 
 
-### (112/149) Transferring CLIP's Knowledge into Zero-Shot Point Cloud Semantic Segmentation (Yuanbin Wang et al., 2023)
+### (117/158) Transferring CLIP's Knowledge into Zero-Shot Point Cloud Semantic Segmentation (Yuanbin Wang et al., 2023)
 
 {{<citation>}}
 
@@ -2542,7 +2656,7 @@ Traditional 3D segmentation methods can only recognize a fixed range of classes 
 {{</citation>}}
 
 
-### (113/149) MCFNet: Multi-scale Covariance Feature Fusion Network for Real-time Semantic Segmentation (Xiaojie Fang et al., 2023)
+### (118/158) MCFNet: Multi-scale Covariance Feature Fusion Network for Real-time Semantic Segmentation (Xiaojie Fang et al., 2023)
 
 {{<citation>}}
 
@@ -2564,7 +2678,29 @@ The low-level spatial detail information and high-level semantic abstract inform
 {{</citation>}}
 
 
-### (114/149) Semi-supervised Active Learning for Video Action Detection (Aayush Singh et al., 2023)
+### (119/158) GenDet: Towards Good Generalizations for AI-Generated Image Detection (Mingjian Zhu et al., 2023)
+
+{{<citation>}}
+
+Mingjian Zhu, Hanting Chen, Mouxiao Huang, Wei Li, Hailin Hu, Jie Hu, Yunhe Wang. (2023)  
+**GenDet: Towards Good Generalizations for AI-Generated Image Detection**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2312.08880v1)  
+
+---
+
+
+**ABSTRACT**  
+The misuse of AI imagery can have harmful societal effects, prompting the creation of detectors to combat issues like the spread of fake news. Existing methods can effectively detect images generated by seen generators, but it is challenging to detect those generated by unseen generators. They do not concentrate on amplifying the output discrepancy when detectors process real versus fake images. This results in a close output distribution of real and fake samples, increasing classification difficulty in detecting unseen generators. This paper addresses the unseen-generator detection problem by considering this task from the perspective of anomaly detection and proposes an adversarial teacher-student discrepancy-aware framework. Our method encourages smaller output discrepancies between the student and the teacher models for real images while aiming for larger discrepancies for fake images. We employ adversarial learning to train a feature augmenter, which promotes smaller discrepancies between teacher and student networks when the inputs are fake images. Our method has achieved state-of-the-art on public benchmarks, and the visualization results show that a large output discrepancy is maintained when faced with various types of generators.
+
+{{</citation>}}
+
+
+### (120/158) Semi-supervised Active Learning for Video Action Detection (Aayush Singh et al., 2023)
 
 {{<citation>}}
 
@@ -2586,7 +2722,7 @@ In this work, we focus on label efficient learning for video action detection. W
 {{</citation>}}
 
 
-### (115/149) Language-Guided Transformer for Federated Multi-Label Classification (I-Jieh Liu et al., 2023)
+### (121/158) Language-Guided Transformer for Federated Multi-Label Classification (I-Jieh Liu et al., 2023)
 
 {{<citation>}}
 
@@ -2608,7 +2744,7 @@ Federated Learning (FL) is an emerging paradigm that enables multiple users to c
 {{</citation>}}
 
 
-### (116/149) Image Content Generation with Causal Reasoning (Xiaochuan Li et al., 2023)
+### (122/158) Image Content Generation with Causal Reasoning (Xiaochuan Li et al., 2023)
 
 {{<citation>}}
 
@@ -2630,7 +2766,7 @@ The emergence of ChatGPT has once again sparked research in generative artificia
 {{</citation>}}
 
 
-### (117/149) Efficient Few-Shot Clinical Task Adaptation with Large Language Models (Kaipeng Zheng et al., 2023)
+### (123/158) Efficient Few-Shot Clinical Task Adaptation with Large Language Models (Kaipeng Zheng et al., 2023)
 
 {{<citation>}}
 
@@ -2652,7 +2788,51 @@ Few-shot learning has been studied to adapt models to tasks with very few sample
 {{</citation>}}
 
 
-### (118/149) Pre-trained Universal Medical Image Transformer (Lingxiao Luo et al., 2023)
+### (124/158) Vista-LLaMA: Reliable Video Narrator via Equal Distance to Visual Tokens (Fan Ma et al., 2023)
+
+{{<citation>}}
+
+Fan Ma, Xiaojie Jin, Heng Wang, Yuchen Xian, Jiashi Feng, Yi Yang. (2023)  
+**Vista-LLaMA: Reliable Video Narrator via Equal Distance to Visual Tokens**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: ChatGPT, GPT, LLaMA, QA  
+[Paper Link](http://arxiv.org/abs/2312.08870v1)  
+
+---
+
+
+**ABSTRACT**  
+Recent advances in large video-language models have displayed promising outcomes in video comprehension. Current approaches straightforwardly convert video into language tokens and employ large language models for multi-modal tasks. However, this method often leads to the generation of irrelevant content, commonly known as "hallucination", as the length of the text increases and the impact of the video diminishes. To address this problem, we propose Vista-LLaMA, a novel framework that maintains the consistent distance between all visual tokens and any language tokens, irrespective of the generated text length. Vista-LLaMA omits relative position encoding when determining attention weights between visual and text tokens, retaining the position encoding for text and text tokens. This amplifies the effect of visual tokens on text generation, especially when the relative distance is longer between visual and text tokens. The proposed attention mechanism significantly reduces the chance of producing irrelevant text related to the video content. Furthermore, we present a sequential visual projector that projects the current video frame into tokens of language space with the assistance of the previous frame. This approach not only captures the temporal relationship within the video, but also allows less visual tokens to encompass the entire video. Our approach significantly outperforms various previous methods (e.g., Video-ChatGPT, MovieChat) on four challenging open-ended video question answering benchmarks. We reach an accuracy of 60.7 on the zero-shot NExT-QA and 60.5 on the zero-shot MSRVTT-QA, setting a new state-of-the-art performance. This project is available at https://jinxxian.github.io/Vista-LLaMA.
+
+{{</citation>}}
+
+
+### (125/158) Domain Prompt Learning with Quaternion Networks (Qinglong Cao et al., 2023)
+
+{{<citation>}}
+
+Qinglong Cao, Zhengqin Xu, Yuntian Chen, Chao Ma, Xiaokang Yang. (2023)  
+**Domain Prompt Learning with Quaternion Networks**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-LG, cs.CV, stat-AP  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2312.08878v1)  
+
+---
+
+
+**ABSTRACT**  
+Prompt learning has emerged as an effective and data-efficient technique in large Vision-Language Models (VLMs). However, when adapting VLMs to specialized domains such as remote sensing and medical imaging, domain prompt learning remains underexplored. While large-scale domain-specific foundation models can help tackle this challenge, their concentration on a single vision level makes it challenging to prompt both vision and language modalities. To overcome this, we propose to leverage domain-specific knowledge from domain-specific foundation models to transfer the robust recognition ability of VLMs from generalized to specialized domains, using quaternion networks. Specifically, the proposed method involves using domain-specific vision features from domain-specific foundation models to guide the transformation of generalized contextual embeddings from the language branch into a specialized space within the quaternion networks. Moreover, we present a hierarchical approach that generates vision prompt features by analyzing intermodal relationships between hierarchical language prompt features and domain-specific vision features. In this way, quaternion networks can effectively mine the intermodal relationships in the specific domain, facilitating domain-specific vision-language contrastive learning. Extensive experiments on domain-specific datasets show that our proposed method achieves new state-of-the-art results in prompt learning.
+
+{{</citation>}}
+
+
+### (126/158) Pre-trained Universal Medical Image Transformer (Lingxiao Luo et al., 2023)
 
 {{<citation>}}
 
@@ -2674,7 +2854,7 @@ Self-supervised learning has emerged as a viable method to leverage the abundanc
 {{</citation>}}
 
 
-### (119/149) ThinkBot: Embodied Instruction Following with Thought Chain Reasoning (Guanxing Lu et al., 2023)
+### (127/158) ThinkBot: Embodied Instruction Following with Thought Chain Reasoning (Guanxing Lu et al., 2023)
 
 {{<citation>}}
 
@@ -2696,7 +2876,7 @@ Embodied Instruction Following (EIF) requires agents to complete human instructi
 {{</citation>}}
 
 
-### (120/149) MaxQ: Multi-Axis Query for N:M Sparsity Network (Jingyang Xiang et al., 2023)
+### (128/158) MaxQ: Multi-Axis Query for N:M Sparsity Network (Jingyang Xiang et al., 2023)
 
 {{<citation>}}
 
@@ -2718,7 +2898,7 @@ N:M sparsity has received increasing attention due to its remarkable performance
 {{</citation>}}
 
 
-### (121/149) Adjustable Robust Transformer for High Myopia Screening in Optical Coherence Tomography (Xiao Ma et al., 2023)
+### (129/158) Adjustable Robust Transformer for High Myopia Screening in Optical Coherence Tomography (Xiao Ma et al., 2023)
 
 {{<citation>}}
 
@@ -2740,7 +2920,7 @@ Myopia is a manifestation of visual impairment caused by an excessively elongate
 {{</citation>}}
 
 
-### (122/149) Edge Wasserstein Distance Loss for Oriented Object Detection (Yuke Zhu et al., 2023)
+### (130/158) Edge Wasserstein Distance Loss for Oriented Object Detection (Yuke Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -2762,7 +2942,7 @@ Regression loss design is an essential topic for oriented object detection. Due 
 {{</citation>}}
 
 
-### (123/149) Diff-OP3D: Bridging 2D Diffusion for Open Pose 3D Zero-Shot Classification (Weiguang Zhao et al., 2023)
+### (131/158) Diff-OP3D: Bridging 2D Diffusion for Open Pose 3D Zero-Shot Classification (Weiguang Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -2784,7 +2964,29 @@ With the explosive 3D data growth, the urgency of utilizing zero-shot learning t
 {{</citation>}}
 
 
-### (124/149) Multimodal Sentiment Analysis: Perceived vs Induced Sentiments (Aditi Aggarwal et al., 2023)
+### (132/158) OpenSight: A Simple Open-Vocabulary Framework for LiDAR-Based Object Detection (Hu Zhang et al., 2023)
+
+{{<citation>}}
+
+Hu Zhang, Jianhua Xu, Tao Tang, Haiyang Sun, Xin Yu, Zi Huang, Kaicheng Yu. (2023)  
+**OpenSight: A Simple Open-Vocabulary Framework for LiDAR-Based Object Detection**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Object Detection  
+[Paper Link](http://arxiv.org/abs/2312.08876v1)  
+
+---
+
+
+**ABSTRACT**  
+Traditional LiDAR-based object detection research primarily focuses on closed-set scenarios, which falls short in complex real-world applications. Directly transferring existing 2D open-vocabulary models with some known LiDAR classes for open-vocabulary ability, however, tends to suffer from over-fitting problems: The obtained model will detect the known objects, even presented with a novel category. In this paper, we propose OpenSight, a more advanced 2D-3D modeling framework for LiDAR-based open-vocabulary detection. OpenSight utilizes 2D-3D geometric priors for the initial discernment and localization of generic objects, followed by a more specific semantic interpretation of the detected objects. The process begins by generating 2D boxes for generic objects from the accompanying camera images of LiDAR. These 2D boxes, together with LiDAR points, are then lifted back into the LiDAR space to estimate corresponding 3D boxes. For better generic object perception, our framework integrates both temporal and spatial-aware constraints. Temporal awareness correlates the predicted 3D boxes across consecutive timestamps, recalibrating the missed or inaccurate boxes. The spatial awareness randomly places some ``precisely'' estimated 3D boxes at varying distances, increasing the visibility of generic objects. To interpret the specific semantics of detected objects, we develop a cross-modal alignment and fusion module to first align 3D features with 2D image embeddings and then fuse the aligned 3D-2D features for semantic decoding. Our experiments indicate that our method establishes state-of-the-art open-vocabulary performance on widely used 3D detection benchmarks and effectively identifies objects for new categories of interest.
+
+{{</citation>}}
+
+
+### (133/158) Multimodal Sentiment Analysis: Perceived vs Induced Sentiments (Aditi Aggarwal et al., 2023)
 
 {{<citation>}}
 
@@ -2806,7 +3008,29 @@ Social media has created a global network where people can easily access and exc
 {{</citation>}}
 
 
-### (125/149) Mixed Pseudo Labels for Semi-Supervised Object Detection (Zeming Chen et al., 2023)
+### (134/158) What, How, and When Should Object Detectors Update in Continually Changing Test Domains? (Jayeon Yoo et al., 2023)
+
+{{<citation>}}
+
+Jayeon Yoo, Dongkwan Lee, Inseop Chung, Donghyun Kim, Nojun Kwak. (2023)  
+**What, How, and When Should Object Detectors Update in Continually Changing Test Domains?**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2312.08875v1)  
+
+---
+
+
+**ABSTRACT**  
+It is a well-known fact that the performance of deep learning models deteriorates when they encounter a distribution shift at test time. Test-time adaptation (TTA) algorithms have been proposed to adapt the model online while inferring test data. However, existing research predominantly focuses on classification tasks through the optimization of batch normalization layers or classification heads, but this approach limits its applicability to various model architectures like Transformers and makes it challenging to apply to other tasks, such as object detection. In this paper, we propose a novel online adaption approach for object detection in continually changing test domains, considering which part of the model to update, how to update it, and when to perform the update. By introducing architecture-agnostic and lightweight adaptor modules and only updating these while leaving the pre-trained backbone unchanged, we can rapidly adapt to new test domains in an efficient way and prevent catastrophic forgetting. Furthermore, we present a practical and straightforward class-wise feature aligning method for object detection to resolve domain shifts. Additionally, we enhance efficiency by determining when the model is sufficiently adapted or when additional adaptation is needed due to changes in the test distribution. Our approach surpasses baselines on widely used benchmarks, achieving improvements of up to 4.9\%p and 7.9\%p in mAP for COCO $\rightarrow$ COCO-corrupted and SHIFT, respectively, while maintaining about 20 FPS or higher.
+
+{{</citation>}}
+
+
+### (135/158) Mixed Pseudo Labels for Semi-Supervised Object Detection (Zeming Chen et al., 2023)
 
 {{<citation>}}
 
@@ -2828,7 +3052,7 @@ While the pseudo-label method has demonstrated considerable success in semi-supe
 {{</citation>}}
 
 
-### (126/149) Supervised Contrastive Learning for Fine-grained Chromosome Recognition (Ruijia Chang et al., 2023)
+### (136/158) Supervised Contrastive Learning for Fine-grained Chromosome Recognition (Ruijia Chang et al., 2023)
 
 {{<citation>}}
 
@@ -2850,7 +3074,7 @@ Chromosome recognition is an essential task in karyotyping, which plays a vital 
 {{</citation>}}
 
 
-### (127/149) Transformer-based No-Reference Image Quality Assessment via Supervised Contrastive Learning (Jinsong Shi et al., 2023)
+### (137/158) Transformer-based No-Reference Image Quality Assessment via Supervised Contrastive Learning (Jinsong Shi et al., 2023)
 
 {{<citation>}}
 
@@ -2872,7 +3096,7 @@ Image Quality Assessment (IQA) has long been a research hotspot in the field of 
 {{</citation>}}
 
 
-### (128/149) Attacking the Loop: Adversarial Attacks on Graph-based Loop Closure Detection (Jonathan J. Y. Kim et al., 2023)
+### (138/158) Attacking the Loop: Adversarial Attacks on Graph-based Loop Closure Detection (Jonathan J. Y. Kim et al., 2023)
 
 {{<citation>}}
 
@@ -2894,7 +3118,7 @@ With the advancement in robotics, it is becoming increasingly common for large f
 {{</citation>}}
 
 
-### (129/149) CLASS-M: Adaptive stain separation-based contrastive learning with pseudo-labeling for histopathological image classification (Bodong Zhang et al., 2023)
+### (139/158) CLASS-M: Adaptive stain separation-based contrastive learning with pseudo-labeling for histopathological image classification (Bodong Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -2916,7 +3140,7 @@ Histopathological image classification is one of the critical aspects in medical
 {{</citation>}}
 
 
-### (130/149) Hallucination Augmented Contrastive Learning for Multimodal Large Language Model (Chaoya Jiang et al., 2023)
+### (140/158) Hallucination Augmented Contrastive Learning for Multimodal Large Language Model (Chaoya Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -2938,7 +3162,7 @@ Multi-modal large language models (MLLMs) have been shown to efficiently integra
 {{</citation>}}
 
 
-### (131/149) IA2U: A Transfer Plugin with Multi-Prior for In-Air Model to Underwater (Jingchun Zhou et al., 2023)
+### (141/158) IA2U: A Transfer Plugin with Multi-Prior for In-Air Model to Underwater (Jingchun Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -2960,7 +3184,7 @@ In underwater environments, variations in suspended particle concentration and t
 {{</citation>}}
 
 
-### (132/149) READ-PVLA: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling (Thong Nguyen et al., 2023)
+### (142/158) READ-PVLA: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling (Thong Nguyen et al., 2023)
 
 {{<citation>}}
 
@@ -2982,7 +3206,7 @@ Fully fine-tuning pretrained large-scale transformer models has become a popular
 {{</citation>}}
 
 
-### (133/149) Benchmarking Deep Learning Classifiers for SAR Automatic Target Recognition (Jacob Fein-Ashley et al., 2023)
+### (143/158) Benchmarking Deep Learning Classifiers for SAR Automatic Target Recognition (Jacob Fein-Ashley et al., 2023)
 
 {{<citation>}}
 
@@ -3004,7 +3228,7 @@ Synthetic Aperture Radar SAR Automatic Target Recognition ATR is a key technique
 {{</citation>}}
 
 
-### (134/149) Toward Real Text Manipulation Detection: New Dataset and New Solution (Dongliang Luo et al., 2023)
+### (144/158) Toward Real Text Manipulation Detection: New Dataset and New Solution (Dongliang Luo et al., 2023)
 
 {{<citation>}}
 
@@ -3026,7 +3250,7 @@ With the surge in realistic text tampering, detecting fraudulent text in images 
 {{</citation>}}
 
 
-### (135/149) When Bio-Inspired Computing meets Deep Learning: Low-Latency, Accurate, & Energy-Efficient Spiking Neural Networks from Artificial Neural Networks (Gourav Datta et al., 2023)
+### (145/158) When Bio-Inspired Computing meets Deep Learning: Low-Latency, Accurate, & Energy-Efficient Spiking Neural Networks from Artificial Neural Networks (Gourav Datta et al., 2023)
 
 {{<citation>}}
 
@@ -3052,7 +3276,7 @@ Bio-inspired Spiking Neural Networks (SNN) are now demonstrating comparable accu
 
 
 
-### (136/149) Improved Frequency Estimation Algorithms with and without Predictions (Anders Aamand et al., 2023)
+### (146/158) Improved Frequency Estimation Algorithms with and without Predictions (Anders Aamand et al., 2023)
 
 {{<citation>}}
 
@@ -3078,7 +3302,7 @@ Estimating frequencies of elements appearing in a data stream is a key task in l
 
 
 
-### (137/149) NeuroHeed+: Improving Neuro-steered Speaker Extraction with Joint Auditory Attention Detection (Zexu Pan et al., 2023)
+### (147/158) NeuroHeed+: Improving Neuro-steered Speaker Extraction with Joint Auditory Attention Detection (Zexu Pan et al., 2023)
 
 {{<citation>}}
 
@@ -3100,7 +3324,7 @@ Neuro-steered speaker extraction aims to extract the listener's brain-attended s
 {{</citation>}}
 
 
-### (138/149) w2v-SELD: A Sound Event Localization and Detection Framework for Self-Supervised Spatial Audio Pre-Training (Orlem Lima dos Santos et al., 2023)
+### (148/158) w2v-SELD: A Sound Event Localization and Detection Framework for Self-Supervised Spatial Audio Pre-Training (Orlem Lima dos Santos et al., 2023)
 
 {{<citation>}}
 
@@ -3126,7 +3350,7 @@ Sound Event Detection and Localization (SELD) constitutes a complex task that de
 
 
 
-### (139/149) Probing Commonsense Reasoning Capability of Text-to-Image Generative Models via Non-visual Description (Mianzhi Pan et al., 2023)
+### (149/158) Probing Commonsense Reasoning Capability of Text-to-Image Generative Models via Non-visual Description (Mianzhi Pan et al., 2023)
 
 {{<citation>}}
 
@@ -3148,7 +3372,7 @@ Commonsense reasoning, the ability to make logical assumptions about daily scene
 {{</citation>}}
 
 
-### (140/149) More than Vanilla Fusion: a Simple, Decoupling-free, Attention Module for Multimodal Fusion Based on Signal Theory (Peiwen Sun et al., 2023)
+### (150/158) More than Vanilla Fusion: a Simple, Decoupling-free, Attention Module for Multimodal Fusion Based on Signal Theory (Peiwen Sun et al., 2023)
 
 {{<citation>}}
 
@@ -3170,37 +3394,11 @@ The vanilla fusion methods still dominate a large percentage of mainstream audio
 {{</citation>}}
 
 
-## cs.NI (1)
-
-
-
-### (141/149) Your Vulnerability Disclosure Is Important To Us: An Analysis of Coordinated Vulnerability Disclosure Responses Using a Real Security Issue (Koen van Hove et al., 2023)
-
-{{<citation>}}
-
-Koen van Hove, Jeroen van der Ham-de Vos, Roland van Rijswijk-Deij. (2023)  
-**Your Vulnerability Disclosure Is Important To Us: An Analysis of Coordinated Vulnerability Disclosure Responses Using a Real Security Issue**  
-
----
-Primary Category: cs.NI  
-Categories: cs-NI, cs.NI  
-Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2312.07284v1)  
-
----
-
-
-**ABSTRACT**  
-It is a public secret that doing email securely is fraught with challenges. We found a vulnerability present at many email providers, allowing us to spoof email on behalf of many organisations. As email vulnerabilities are ten a penny, instead of focusing on yet another email vulnerability we ask a different question: how do organisations react to the disclosure of such a security issue in the wild? We specifically focus on organisations from the public and critical infrastructure sector who are required to respond to such notifications by law. We find that many organisations are difficult to reach when it concerns security issues, even if they have a security contact point. Additionally, our findings show that having policy in place improves the response and resolution rate, but that even with a policy in place, half of our reports remain unanswered and unsolved after 90~days. Based on these findings we provide recommendations to organisations and bodies such as ENISA to improve future coordinated vulnerability disclosure processes.
-
-{{</citation>}}
-
-
 ## cs.SE (2)
 
 
 
-### (142/149) Learning from Interaction: User Interface Adaptation using Reinforcement Learning (Daniel Gaspar-Figueiredo, 2023)
+### (151/158) Learning from Interaction: User Interface Adaptation using Reinforcement Learning (Daniel Gaspar-Figueiredo, 2023)
 
 {{<citation>}}
 
@@ -3222,7 +3420,7 @@ The continuous adaptation of software systems to meet the evolving needs of user
 {{</citation>}}
 
 
-### (143/149) Code Membership Inference for Detecting Unauthorized Data Use in Code Pre-trained Language Models (Sheng Zhang et al., 2023)
+### (152/158) Code Membership Inference for Detecting Unauthorized Data Use in Code Pre-trained Language Models (Sheng Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -3248,7 +3446,7 @@ Code pre-trained language models (CPLMs) have received great attention since the
 
 
 
-### (144/149) Audience Prospecting for Dynamic-Product-Ads in Native Advertising (Eliran Abutbul et al., 2023)
+### (153/158) Audience Prospecting for Dynamic-Product-Ads in Native Advertising (Eliran Abutbul et al., 2023)
 
 {{<citation>}}
 
@@ -3274,7 +3472,7 @@ With yearly revenue exceeding one billion USD, Yahoo Gemini native advertising m
 
 
 
-### (145/149) AI-driven projection tomography with multicore fibre-optic cell rotation (Jiawei Sun et al., 2023)
+### (154/158) AI-driven projection tomography with multicore fibre-optic cell rotation (Jiawei Sun et al., 2023)
 
 {{<citation>}}
 
@@ -3300,7 +3498,7 @@ Optical tomography has emerged as a non-invasive imaging method, providing three
 
 
 
-### (146/149) Layered Randomized Quantization for Communication-Efficient and Privacy-Preserving Distributed Learning (Guangfeng Yan et al., 2023)
+### (155/158) Layered Randomized Quantization for Communication-Efficient and Privacy-Preserving Distributed Learning (Guangfeng Yan et al., 2023)
 
 {{<citation>}}
 
@@ -3326,7 +3524,7 @@ Next-generation wireless networks, such as edge intelligence and wireless distri
 
 
 
-### (147/149) LSTM-CNN Network for Audio Signature Analysis in Noisy Environments (Praveen Damacharla et al., 2023)
+### (156/158) LSTM-CNN Network for Audio Signature Analysis in Noisy Environments (Praveen Damacharla et al., 2023)
 
 {{<citation>}}
 
@@ -3352,7 +3550,7 @@ There are multiple applications to automatically count people and specify their 
 
 
 
-### (148/149) Large Foundation Models for Power Systems (Chenghao Huang et al., 2023)
+### (157/158) Large Foundation Models for Power Systems (Chenghao Huang et al., 2023)
 
 {{<citation>}}
 
@@ -3378,7 +3576,7 @@ Foundation models, such as Large Language Models (LLMs), can respond to a wide r
 
 
 
-### (149/149) Astrocyte-Enabled Advancements in Spiking Neural Networks for Large Language Modeling (Guobin Shen et al., 2023)
+### (158/158) Astrocyte-Enabled Advancements in Spiking Neural Networks for Large Language Modeling (Guobin Shen et al., 2023)
 
 {{<citation>}}
 
