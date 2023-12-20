@@ -25,16 +25,17 @@ math: true
 - [cs.RO (3)](#csro-3)
 - [cs.LG (16)](#cslg-16)
 - [cs.IT (2)](#csit-2)
-- [cs.CV (12)](#cscv-12)
+- [cs.CV (13)](#cscv-13)
 - [cs.CL (10)](#cscl-10)
 - [cs.SE (4)](#csse-4)
 - [cs.NI (1)](#csni-1)
-- [cs.SI (2)](#cssi-2)
+- [cs.SI (3)](#cssi-3)
 - [eess.IV (1)](#eessiv-1)
 - [econ.GN (1)](#econgn-1)
 - [cs.IR (3)](#csir-3)
+- [cs.AI (5)](#csai-5)
 - [physics.geo-ph (1)](#physicsgeo-ph-1)
-- [cs.AI (3)](#csai-3)
+- [cs.MA (1)](#csma-1)
 - [cs.SD (2)](#cssd-2)
 - [cs.DC (2)](#csdc-2)
 - [cs.DB (1)](#csdb-1)
@@ -45,7 +46,7 @@ math: true
 
 
 
-### (1/67) Enabling Accelerators for Graph Computing (Kaustubh Shivdikar, 2023)
+### (1/72) Enabling Accelerators for Graph Computing (Kaustubh Shivdikar, 2023)
 
 {{<citation>}}
 
@@ -71,7 +72,7 @@ The advent of Graph Neural Networks (GNNs) has revolutionized the field of machi
 
 
 
-### (2/67) Improving Environment Robustness of Deep Reinforcement Learning Approaches for Autonomous Racing Using Bayesian Optimization-based Curriculum Learning (Rohan Banerjee et al., 2023)
+### (2/72) Improving Environment Robustness of Deep Reinforcement Learning Approaches for Autonomous Racing Using Bayesian Optimization-based Curriculum Learning (Rohan Banerjee et al., 2023)
 
 {{<citation>}}
 
@@ -93,7 +94,7 @@ Deep reinforcement learning (RL) approaches have been broadly applied to a large
 {{</citation>}}
 
 
-### (3/67) A Survey on Robotic Manipulation of Deformable Objects: Recent Advances, Open Challenges and New Frontiers (Feida Gu et al., 2023)
+### (3/72) A Survey on Robotic Manipulation of Deformable Objects: Recent Advances, Open Challenges and New Frontiers (Feida Gu et al., 2023)
 
 {{<citation>}}
 
@@ -115,7 +116,7 @@ Deformable object manipulation (DOM) for robots has a wide range of applications
 {{</citation>}}
 
 
-### (4/67) Deriving Rewards for Reinforcement Learning from Symbolic Behaviour Descriptions of Bipedal Walking (Daniel Harnack et al., 2023)
+### (4/72) Deriving Rewards for Reinforcement Learning from Symbolic Behaviour Descriptions of Bipedal Walking (Daniel Harnack et al., 2023)
 
 {{<citation>}}
 
@@ -141,7 +142,7 @@ Generating physical movement behaviours from their symbolic description is a lon
 
 
 
-### (5/67) Catastrophic Forgetting in Deep Learning: A Comprehensive Taxonomy (Everton L. Aleixo et al., 2023)
+### (5/72) Catastrophic Forgetting in Deep Learning: A Comprehensive Taxonomy (Everton L. Aleixo et al., 2023)
 
 {{<citation>}}
 
@@ -163,7 +164,7 @@ Deep Learning models have achieved remarkable performance in tasks such as image
 {{</citation>}}
 
 
-### (6/67) TrojFSP: Trojan Insertion in Few-shot Prompt Tuning (Mengxin Zheng et al., 2023)
+### (6/72) TrojFSP: Trojan Insertion in Few-shot Prompt Tuning (Mengxin Zheng et al., 2023)
 
 {{<citation>}}
 
@@ -185,7 +186,7 @@ Prompt tuning is one of the most effective solutions to adapting a fixed pre-tra
 {{</citation>}}
 
 
-### (7/67) Degree-based stratification of nodes in Graph Neural Networks (Ameen Ali et al., 2023)
+### (7/72) Degree-based stratification of nodes in Graph Neural Networks (Ameen Ali et al., 2023)
 
 {{<citation>}}
 
@@ -207,18 +208,18 @@ Despite much research, Graph Neural Networks (GNNs) still do not display the fav
 {{</citation>}}
 
 
-### (8/67) Fractional Deep Reinforcement Learning for Age-Minimal Mobile Edge Computing (Ming Tang et al., 2023)
+### (8/72) Fractional Deep Reinforcement Learning for Age-Minimal Mobile Edge Computing (Lyudong Jin et al., 2023)
 
 {{<citation>}}
 
-Ming Tang, Lyudong Jin, Meng Zhang, Hao Wang. (2023)  
+Lyudong Jin, Ming Tang, Meng Zhang, Hao Wang. (2023)  
 **Fractional Deep Reinforcement Learning for Age-Minimal Mobile Edge Computing**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs-NI, cs.LG, eess-SP  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2312.10418v1)  
+[Paper Link](http://arxiv.org/abs/2312.10418v2)  
 
 ---
 
@@ -229,7 +230,7 @@ Mobile edge computing (MEC) is a promising paradigm for real-time applications w
 {{</citation>}}
 
 
-### (9/67) Rethinking Dimensional Rationale in Graph Contrastive Learning from Causal Perspective (Qirui Ji et al., 2023)
+### (9/72) Rethinking Dimensional Rationale in Graph Contrastive Learning from Causal Perspective (Qirui Ji et al., 2023)
 
 {{<citation>}}
 
@@ -251,7 +252,7 @@ Graph contrastive learning is a general learning paradigm excelling at capturing
 {{</citation>}}
 
 
-### (10/67) How Far Can Fairness Constraints Help Recover From Biased Data? (Mohit Sharma et al., 2023)
+### (10/72) How Far Can Fairness Constraints Help Recover From Biased Data? (Mohit Sharma et al., 2023)
 
 {{<citation>}}
 
@@ -273,7 +274,7 @@ Blum & Stangl (2019) propose a data bias model to simulate under-representation 
 {{</citation>}}
 
 
-### (11/67) RedCore: Relative Advantage Aware Cross-modal Representation Learning for Missing Modalities with Imbalanced Missing Rates (Jun Sun et al., 2023)
+### (11/72) RedCore: Relative Advantage Aware Cross-modal Representation Learning for Missing Modalities with Imbalanced Missing Rates (Jun Sun et al., 2023)
 
 {{<citation>}}
 
@@ -295,7 +296,7 @@ Multimodal learning is susceptible to modality missing, which poses a major obst
 {{</citation>}}
 
 
-### (12/67) Imitate the Good and Avoid the Bad: An Incremental Approach to Safe Reinforcement Learning (Huy Hoang et al., 2023)
+### (12/72) Imitate the Good and Avoid the Bad: An Incremental Approach to Safe Reinforcement Learning (Huy Hoang et al., 2023)
 
 {{<citation>}}
 
@@ -317,7 +318,7 @@ A popular framework for enforcing safe actions in Reinforcement Learning (RL) is
 {{</citation>}}
 
 
-### (13/67) Collect and Connect Data Leaves to Feature Concepts: Interactive Graph Generation Toward Well-being (Yukio Ohsawa et al., 2023)
+### (13/72) Collect and Connect Data Leaves to Feature Concepts: Interactive Graph Generation Toward Well-being (Yukio Ohsawa et al., 2023)
 
 {{<citation>}}
 
@@ -339,7 +340,7 @@ Feature concepts and data leaves have been invented using datasets to foster cre
 {{</citation>}}
 
 
-### (14/67) Conformer-Based Speech Recognition On Extreme Edge-Computing Devices (Mingbin Xu et al., 2023)
+### (14/72) Conformer-Based Speech Recognition On Extreme Edge-Computing Devices (Mingbin Xu et al., 2023)
 
 {{<citation>}}
 
@@ -361,7 +362,7 @@ With increasingly more powerful compute capabilities and resources in today's de
 {{</citation>}}
 
 
-### (15/67) An Attentive Inductive Bias for Sequential Recommendation Beyond the Self-Attention (Yehjin Shin et al., 2023)
+### (15/72) An Attentive Inductive Bias for Sequential Recommendation Beyond the Self-Attention (Yehjin Shin et al., 2023)
 
 {{<citation>}}
 
@@ -383,7 +384,7 @@ Sequential recommendation (SR) models based on Transformers have achieved remark
 {{</citation>}}
 
 
-### (16/67) STELLAR: Siamese Multi-Headed Attention Neural Networks for Overcoming Temporal Variations and Device Heterogeneity with Indoor Localization (Danish Gufran et al., 2023)
+### (16/72) STELLAR: Siamese Multi-Headed Attention Neural Networks for Overcoming Temporal Variations and Device Heterogeneity with Indoor Localization (Danish Gufran et al., 2023)
 
 {{<citation>}}
 
@@ -405,7 +406,7 @@ Smartphone-based indoor localization has emerged as a cost-effective and accurat
 {{</citation>}}
 
 
-### (17/67) scBiGNN: Bilevel Graph Representation Learning for Cell Type Classification from Single-cell RNA Sequencing Data (Rui Yang et al., 2023)
+### (17/72) scBiGNN: Bilevel Graph Representation Learning for Cell Type Classification from Single-cell RNA Sequencing Data (Rui Yang et al., 2023)
 
 {{<citation>}}
 
@@ -427,7 +428,7 @@ Single-cell RNA sequencing (scRNA-seq) technology provides high-throughput gene 
 {{</citation>}}
 
 
-### (18/67) Event-Based Contrastive Learning for Medical Time Series (Hyewon Jeong et al., 2023)
+### (18/72) Event-Based Contrastive Learning for Medical Time Series (Hyewon Jeong et al., 2023)
 
 {{<citation>}}
 
@@ -449,7 +450,7 @@ In clinical practice, one often needs to identify whether a patient is at high r
 {{</citation>}}
 
 
-### (19/67) Inductive Link Prediction in Knowledge Graphs using Path-based Neural Networks (Canlin Zhang et al., 2023)
+### (19/72) Inductive Link Prediction in Knowledge Graphs using Path-based Neural Networks (Canlin Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -471,7 +472,7 @@ Link prediction is a crucial research area in knowledge graphs, with many downst
 {{</citation>}}
 
 
-### (20/67) Active Reinforcement Learning for Robust Building Control (Doseok Jang et al., 2023)
+### (20/72) Active Reinforcement Learning for Robust Building Control (Doseok Jang et al., 2023)
 
 {{<citation>}}
 
@@ -497,7 +498,7 @@ Reinforcement learning (RL) is a powerful tool for optimal control that has foun
 
 
 
-### (21/67) Advancing RAN Slicing with Offline Reinforcement Learning (Kun Yang et al., 2023)
+### (21/72) Advancing RAN Slicing with Offline Reinforcement Learning (Kun Yang et al., 2023)
 
 {{<citation>}}
 
@@ -519,7 +520,7 @@ Dynamic radio resource management (RRM) in wireless networks presents significan
 {{</citation>}}
 
 
-### (22/67) Spatial Deep Learning for Site-Specific Movement Optimization of Aerial Base Stations (Jiangbin Lyu et al., 2023)
+### (22/72) Spatial Deep Learning for Site-Specific Movement Optimization of Aerial Base Stations (Jiangbin Lyu et al., 2023)
 
 {{<citation>}}
 
@@ -541,11 +542,33 @@ Unmanned aerial vehicles (UAVs) can be utilized as aerial base stations (ABSs) t
 {{</citation>}}
 
 
-## cs.CV (12)
+## cs.CV (13)
 
 
 
-### (23/67) DETER: Detecting Edited Regions for Deterring Generative Manipulations (Sai Wang et al., 2023)
+### (23/72) Learning Interpretable Queries for Explainable Image Classification with Information Pursuit (Stefan Kolek et al., 2023)
+
+{{<citation>}}
+
+Stefan Kolek, Aditya Chattopadhyay, Kwan Ho Ryan Chan, Hector Andrade-Loarca, Gitta Kutyniok, Réne Vidal. (2023)  
+**Learning Interpretable Queries for Explainable Image Classification with Information Pursuit**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Image Classification  
+[Paper Link](http://arxiv.org/abs/2312.11548v1)  
+
+---
+
+
+**ABSTRACT**  
+Information Pursuit (IP) is an explainable prediction algorithm that greedily selects a sequence of interpretable queries about the data in order of information gain, updating its posterior at each step based on observed query-answer pairs. The standard paradigm uses hand-crafted dictionaries of potential data queries curated by a domain expert or a large language model after a human prompt. However, in practice, hand-crafted dictionaries are limited by the expertise of the curator and the heuristics of prompt engineering. This paper introduces a novel approach: learning a dictionary of interpretable queries directly from the dataset. Our query dictionary learning problem is formulated as an optimization problem by augmenting IP's variational formulation with learnable dictionary parameters. To formulate learnable and interpretable queries, we leverage the latent space of large vision and language models like CLIP. To solve the optimization problem, we propose a new query dictionary learning algorithm inspired by classical sparse dictionary learning. Our experiments demonstrate that learned dictionaries significantly outperform hand-crafted dictionaries generated with large language models.
+
+{{</citation>}}
+
+
+### (24/72) DETER: Detecting Edited Regions for Deterring Generative Manipulations (Sai Wang et al., 2023)
 
 {{<citation>}}
 
@@ -567,7 +590,7 @@ Generative AI capabilities have grown substantially in recent years, raising ren
 {{</citation>}}
 
 
-### (24/67) How to Train Neural Field Representations: A Comprehensive Study and Benchmark (Samuele Papa et al., 2023)
+### (25/72) How to Train Neural Field Representations: A Comprehensive Study and Benchmark (Samuele Papa et al., 2023)
 
 {{<citation>}}
 
@@ -589,7 +612,7 @@ Neural fields (NeFs) have recently emerged as a versatile method for modeling si
 {{</citation>}}
 
 
-### (25/67) Transformers in Unsupervised Structure-from-Motion (Hemang Chawla et al., 2023)
+### (26/72) Transformers in Unsupervised Structure-from-Motion (Hemang Chawla et al., 2023)
 
 {{<citation>}}
 
@@ -611,7 +634,7 @@ Transformers have revolutionized deep learning based computer vision with improv
 {{</citation>}}
 
 
-### (26/67) PETDet: Proposal Enhancement for Two-Stage Fine-Grained Object Detection (Wentao Li et al., 2023)
+### (27/72) PETDet: Proposal Enhancement for Two-Stage Fine-Grained Object Detection (Wentao Li et al., 2023)
 
 {{<citation>}}
 
@@ -633,7 +656,7 @@ Fine-grained object detection (FGOD) extends object detection with the capabilit
 {{</citation>}}
 
 
-### (27/67) Semantic-Aware Autoregressive Image Modeling for Visual Representation Learning (Kaiyou Song et al., 2023)
+### (28/72) Semantic-Aware Autoregressive Image Modeling for Visual Representation Learning (Kaiyou Song et al., 2023)
 
 {{<citation>}}
 
@@ -655,7 +678,7 @@ The development of autoregressive modeling (AM) in computer vision lags behind n
 {{</citation>}}
 
 
-### (28/67) Simple Image-level Classification Improves Open-vocabulary Object Detection (Ruohuan Fang et al., 2023)
+### (29/72) Simple Image-level Classification Improves Open-vocabulary Object Detection (Ruohuan Fang et al., 2023)
 
 {{<citation>}}
 
@@ -666,7 +689,7 @@ Ruohuan Fang, Guansong Pang, Xiao Bai. (2023)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2312.10439v1)  
+[Paper Link](http://arxiv.org/abs/2312.10439v2)  
 
 ---
 
@@ -677,7 +700,7 @@ Open-Vocabulary Object Detection (OVOD) aims to detect novel objects beyond a gi
 {{</citation>}}
 
 
-### (29/67) Tender Notice Extraction from E-papers Using Neural Network (Ashmin Bhattarai et al., 2023)
+### (30/72) Tender Notice Extraction from E-papers Using Neural Network (Ashmin Bhattarai et al., 2023)
 
 {{<citation>}}
 
@@ -699,7 +722,7 @@ Tender notices are usually sought by most of the companies at regular intervals 
 {{</citation>}}
 
 
-### (30/67) DeepArt: A Benchmark to Advance Fidelity Research in AI-Generated Content (Wentao Wang et al., 2023)
+### (31/72) DeepArt: A Benchmark to Advance Fidelity Research in AI-Generated Content (Wentao Wang et al., 2023)
 
 {{<citation>}}
 
@@ -721,7 +744,7 @@ This paper explores the image synthesis capabilities of GPT-4, a leading multi-m
 {{</citation>}}
 
 
-### (31/67) Not Every Side Is Equal: Localization Uncertainty Estimation for Semi-Supervised 3D Object Detection (ChuXin Wang et al., 2023)
+### (32/72) Not Every Side Is Equal: Localization Uncertainty Estimation for Semi-Supervised 3D Object Detection (ChuXin Wang et al., 2023)
 
 {{<citation>}}
 
@@ -743,7 +766,7 @@ Semi-supervised 3D object detection from point cloud aims to train a detector wi
 {{</citation>}}
 
 
-### (32/67) SA$^2$VP: Spatially Aligned-and-Adapted Visual Prompt (Wenjie Pei et al., 2023)
+### (33/72) SA$^2$VP: Spatially Aligned-and-Adapted Visual Prompt (Wenjie Pei et al., 2023)
 
 {{<citation>}}
 
@@ -765,7 +788,7 @@ As a prominent parameter-efficient fine-tuning technique in NLP, prompt tuning i
 {{</citation>}}
 
 
-### (33/67) Symmetrical Bidirectional Knowledge Alignment for Zero-Shot Sketch-Based Image Retrieval (Decheng Liu et al., 2023)
+### (34/72) Symmetrical Bidirectional Knowledge Alignment for Zero-Shot Sketch-Based Image Retrieval (Decheng Liu et al., 2023)
 
 {{<citation>}}
 
@@ -787,7 +810,7 @@ This paper studies the problem of zero-shot sketch-based image retrieval (ZS-SBI
 {{</citation>}}
 
 
-### (34/67) Mapping Housing Stock Characteristics from Drone Images for Climate Resilience in the Caribbean (Isabelle Tingzon et al., 2023)
+### (35/72) Mapping Housing Stock Characteristics from Drone Images for Climate Resilience in the Caribbean (Isabelle Tingzon et al., 2023)
 
 {{<citation>}}
 
@@ -813,7 +836,7 @@ Comprehensive information on housing stock is crucial for climate adaptation ini
 
 
 
-### (35/67) Cross-Linguistic Offensive Language Detection: BERT-Based Analysis of Bengali, Assamese, & Bodo Conversational Hateful Content from Social Media (Jhuma Kabir Mim et al., 2023)
+### (36/72) Cross-Linguistic Offensive Language Detection: BERT-Based Analysis of Bengali, Assamese, & Bodo Conversational Hateful Content from Social Media (Jhuma Kabir Mim et al., 2023)
 
 {{<citation>}}
 
@@ -835,7 +858,7 @@ In today's age, social media reigns as the paramount communication platform, pro
 {{</citation>}}
 
 
-### (36/67) Paloma: A Benchmark for Evaluating Language Model Fit (Ian Magnusson et al., 2023)
+### (37/72) Paloma: A Benchmark for Evaluating Language Model Fit (Ian Magnusson et al., 2023)
 
 {{<citation>}}
 
@@ -857,7 +880,7 @@ Language models (LMs) commonly report perplexity on monolithic data held out fro
 {{</citation>}}
 
 
-### (37/67) Debiasing Multimodal Sarcasm Detection with Contrastive Learning (Mengzhao Jia et al., 2023)
+### (38/72) Debiasing Multimodal Sarcasm Detection with Contrastive Learning (Mengzhao Jia et al., 2023)
 
 {{<citation>}}
 
@@ -868,7 +891,7 @@ Mengzhao Jia, Can Xie, Liqiang Jing. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs-MM, cs.CL  
 Keywords: Contrastive Learning, Sarcasm Detection  
-[Paper Link](http://arxiv.org/abs/2312.10493v1)  
+[Paper Link](http://arxiv.org/abs/2312.10493v2)  
 
 ---
 
@@ -879,7 +902,7 @@ Despite commendable achievements made by existing work, prevailing multimodal sa
 {{</citation>}}
 
 
-### (38/67) A Soft Contrastive Learning-based Prompt Model for Few-shot Sentiment Analysis (Jingyi Zhou et al., 2023)
+### (39/72) A Soft Contrastive Learning-based Prompt Model for Few-shot Sentiment Analysis (Jingyi Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -901,7 +924,7 @@ Few-shot text classification has attracted great interest in both academia and i
 {{</citation>}}
 
 
-### (39/67) RIGHT: Retrieval-augmented Generation for Mainstream Hashtag Recommendation (Run-Ze Fan et al., 2023)
+### (40/72) RIGHT: Retrieval-augmented Generation for Mainstream Hashtag Recommendation (Run-Ze Fan et al., 2023)
 
 {{<citation>}}
 
@@ -923,7 +946,7 @@ Automatic mainstream hashtag recommendation aims to accurately provide users wit
 {{</citation>}}
 
 
-### (40/67) From Dialogue to Diagram: Task and Relationship Extraction from Natural Language for Accelerated Business Process Prototyping (Sara Qayyum et al., 2023)
+### (41/72) From Dialogue to Diagram: Task and Relationship Extraction from Natural Language for Accelerated Business Process Prototyping (Sara Qayyum et al., 2023)
 
 {{<citation>}}
 
@@ -945,7 +968,7 @@ The automatic transformation of verbose, natural language descriptions into stru
 {{</citation>}}
 
 
-### (41/67) K-ESConv: Knowledge Injection for Emotional Support Dialogue Systems via Prompt Learning (Wei Chen et al., 2023)
+### (42/72) K-ESConv: Knowledge Injection for Emotional Support Dialogue Systems via Prompt Learning (Wei Chen et al., 2023)
 
 {{<citation>}}
 
@@ -967,7 +990,7 @@ Automatic psychological counseling requires mass of professional knowledge that 
 {{</citation>}}
 
 
-### (42/67) CONCSS: Contrastive-based Context Comprehension for Dialogue-appropriate Prosody in Conversational Speech Synthesis (Yayue Deng et al., 2023)
+### (43/72) CONCSS: Contrastive-based Context Comprehension for Dialogue-appropriate Prosody in Conversational Speech Synthesis (Yayue Deng et al., 2023)
 
 {{<citation>}}
 
@@ -989,7 +1012,7 @@ Conversational speech synthesis (CSS) incorporates historical dialogue as supple
 {{</citation>}}
 
 
-### (43/67) Continuous Prompt Generation from Linear Combination of Discrete Prompt Embeddings (Pascal Passigan et al., 2023)
+### (44/72) Continuous Prompt Generation from Linear Combination of Discrete Prompt Embeddings (Pascal Passigan et al., 2023)
 
 {{<citation>}}
 
@@ -1011,7 +1034,7 @@ The wayward quality of continuous prompts stresses the importance of their inter
 {{</citation>}}
 
 
-### (44/67) One Shot Learning as Instruction Data Prospector for Large Language Models (Yunshui Li et al., 2023)
+### (45/72) One Shot Learning as Instruction Data Prospector for Large Language Models (Yunshui Li et al., 2023)
 
 {{<citation>}}
 
@@ -1022,7 +1045,7 @@ Yunshui Li, Binyuan Hui, Xiaobo Xia, Jiaxi Yang, Min Yang, Lei Zhang, Shuzheng S
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.10302v1)  
+[Paper Link](http://arxiv.org/abs/2312.10302v2)  
 
 ---
 
@@ -1037,7 +1060,7 @@ Aligning large language models(LLMs) with human is a critical step in effectivel
 
 
 
-### (45/67) Comprehensive Evaluation of ChatGPT Reliability Through Multilingual Inquiries (Poorna Chander Reddy Puttaparthi et al., 2023)
+### (46/72) Comprehensive Evaluation of ChatGPT Reliability Through Multilingual Inquiries (Poorna Chander Reddy Puttaparthi et al., 2023)
 
 {{<citation>}}
 
@@ -1059,7 +1082,7 @@ ChatGPT is currently the most popular large language model (LLM), with over 100 
 {{</citation>}}
 
 
-### (46/67) Resolving Crash Bugs via Large Language Models: An Empirical Study (Xueying Du et al., 2023)
+### (47/72) Resolving Crash Bugs via Large Language Models: An Empirical Study (Xueying Du et al., 2023)
 
 {{<citation>}}
 
@@ -1081,7 +1104,7 @@ Crash bugs cause unexpected program behaviors or even termination, requiring hig
 {{</citation>}}
 
 
-### (47/67) A Comparative Analysis of Large Language Models for Code Documentation Generation (Shubhang Shekhar Dvivedi et al., 2023)
+### (48/72) A Comparative Analysis of Large Language Models for Code Documentation Generation (Shubhang Shekhar Dvivedi et al., 2023)
 
 {{<citation>}}
 
@@ -1103,7 +1126,7 @@ This paper presents a comprehensive comparative analysis of Large Language Model
 {{</citation>}}
 
 
-### (48/67) Shedding Light on Software Engineering-specific Metaphors and Idioms (Mia Mohammad Imran et al., 2023)
+### (49/72) Shedding Light on Software Engineering-specific Metaphors and Idioms (Mia Mohammad Imran et al., 2023)
 
 {{<citation>}}
 
@@ -1129,7 +1152,7 @@ Use of figurative language, such as metaphors and idioms, is common in our daily
 
 
 
-### (49/67) Value of Information and Timing-aware Scheduling for Federated Learning (Muhammad Azeem Khan et al., 2023)
+### (50/72) Value of Information and Timing-aware Scheduling for Federated Learning (Muhammad Azeem Khan et al., 2023)
 
 {{<citation>}}
 
@@ -1151,11 +1174,11 @@ Data possesses significant value as it fuels advancements in AI. However, protec
 {{</citation>}}
 
 
-## cs.SI (2)
+## cs.SI (3)
 
 
 
-### (50/67) SubAnom: Efficient Subgraph Anomaly Detection Framework over Dynamic Graphs (Chi Zhang et al., 2023)
+### (51/72) SubAnom: Efficient Subgraph Anomaly Detection Framework over Dynamic Graphs (Chi Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1177,7 +1200,29 @@ Given a dynamic graph, the efficient tracking of anomalous subgraphs via their n
 {{</citation>}}
 
 
-### (51/67) The DSA Transparency Database: Auditing Self-reported Moderation Actions by Social Media (Amaury Trujillo et al., 2023)
+### (52/72) Analysis of Nepotism in Bollywood using Personalized PageRank and Effective Influence (Apoorv Jain, 2023)
+
+{{<citation>}}
+
+Apoorv Jain. (2023)  
+**Analysis of Nepotism in Bollywood using Personalized PageRank and Effective Influence**  
+
+---
+Primary Category: cs.SI  
+Categories: cs-SI, cs.SI  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2312.11544v1)  
+
+---
+
+
+**ABSTRACT**  
+Bollywood is one of the largest film-producing industries with a large worldwide audience. In this paper, we will try to find the most important stars in the era of 1990 to 2014, as well as try to use social network analysis methods and metrics to analyze the role of blood connections in getting opportunities in the industry. We created the actor relationship data of around 1000 debutants using OpenAI API and used a novel approach "Effective Influence" to study the effect of having a blood-related established actor inside the industry. We found that on an average every actor/director or actor/actor pair is reachable by a path of length at most 4 and a correlation of 0.6 indicating the advantage of having a blood connection inside the network in getting a good co-cast in the debut film.
+
+{{</citation>}}
+
+
+### (53/72) The DSA Transparency Database: Auditing Self-reported Moderation Actions by Social Media (Amaury Trujillo et al., 2023)
 
 {{<citation>}}
 
@@ -1203,7 +1248,7 @@ Since September 2023, the Digital Services Act (DSA) obliges large online platfo
 
 
 
-### (52/67) All Attention U-NET for Semantic Segmentation of Intracranial Hemorrhages In Head CT Images (Chia Shuo Chang et al., 2023)
+### (54/72) All Attention U-NET for Semantic Segmentation of Intracranial Hemorrhages In Head CT Images (Chia Shuo Chang et al., 2023)
 
 {{<citation>}}
 
@@ -1229,7 +1274,7 @@ Intracranial hemorrhages in head CT scans serve as a first line tool to help spe
 
 
 
-### (53/67) Sails and Anchors: The Complementarity of Exploratory and Exploitative Scientists in Knowledge Creation (Pierre Pelletier et al., 2023)
+### (55/72) Sails and Anchors: The Complementarity of Exploratory and Exploitative Scientists in Knowledge Creation (Pierre Pelletier et al., 2023)
 
 {{<citation>}}
 
@@ -1255,7 +1300,7 @@ This paper investigates the relationship between scientists' cognitive profile a
 
 
 
-### (54/67) RecPrompt: A Prompt Tuning Framework for News Recommendation Using Large Language Models (Dairui Liu et al., 2023)
+### (56/72) RecPrompt: A Prompt Tuning Framework for News Recommendation Using Large Language Models (Dairui Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1277,7 +1322,7 @@ In the evolving field of personalized news recommendation, understanding the sem
 {{</citation>}}
 
 
-### (55/67) ProTIP: Progressive Tool Retrieval Improves Planning (Raviteja Anantha et al., 2023)
+### (57/72) ProTIP: Progressive Tool Retrieval Improves Planning (Raviteja Anantha et al., 2023)
 
 {{<citation>}}
 
@@ -1299,7 +1344,7 @@ Large language models (LLMs) are increasingly employed for complex multi-step pl
 {{</citation>}}
 
 
-### (56/67) Perturbation-Invariant Adversarial Training for Neural Ranking Models: Improving the Effectiveness-Robustness Trade-Off (Yu-An Liu et al., 2023)
+### (58/72) Perturbation-Invariant Adversarial Training for Neural Ranking Models: Improving the Effectiveness-Robustness Trade-Off (Yu-An Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1321,37 +1366,33 @@ Neural ranking models (NRMs) have shown great success in information retrieval (
 {{</citation>}}
 
 
-## physics.geo-ph (1)
+## cs.AI (5)
 
 
 
-### (57/67) ResoNet: Robust and Explainable ENSO Forecasts with Hybrid Convolution and Transformer Networks (Pumeng Lyu et al., 2023)
+### (59/72) A Unified Pre-training and Adaptation Framework for Combinatorial Optimization on Graphs (Ruibin Zeng et al., 2023)
 
 {{<citation>}}
 
-Pumeng Lyu, Tao Tang, Fenghua Ling, Jing-Jia Luo, Niklas Boers, Wanli Ouyang, Lei Bai. (2023)  
-**ResoNet: Robust and Explainable ENSO Forecasts with Hybrid Convolution and Transformer Networks**  
+Ruibin Zeng, Minglong Lei, Lingfeng Niu, Lan Cheng. (2023)  
+**A Unified Pre-training and Adaptation Framework for Combinatorial Optimization on Graphs**  
 
 ---
-Primary Category: physics.geo-ph  
-Categories: cs-AI, physics-geo-ph, physics.geo-ph  
-Keywords: AI, Transformer  
-[Paper Link](http://arxiv.org/abs/2312.10429v1)  
+Primary Category: cs.AI  
+Categories: cs-AI, cs-LG, cs.AI  
+Keywords: GNN  
+[Paper Link](http://arxiv.org/abs/2312.11547v1)  
 
 ---
 
 
 **ABSTRACT**  
-Recent studies have shown that deep learning (DL) models can skillfully predict the El Ni\~no-Southern Oscillation (ENSO) forecasts over 1.5 years ahead. However, concerns regarding the reliability of predictions made by DL methods persist, including potential overfitting issues and lack of interpretability. Here, we propose ResoNet, a DL model that combines convolutional neural network (CNN) and Transformer architectures. This hybrid architecture design enables our model to adequately capture local SSTA as well as long-range inter-basin interactions across oceans. We show that ResoNet can robustly predict ESNO at lead times between 19 and 26 months, thus outperforming existing approaches in terms of the forecast horizon. According to an explainability method applied to ResoNet predictions of El Ni\~no and La Ni\~na events from 1- to 18-month lead, we find that it predicts the Ni\~no3.4 index based on multiple physically reasonable mechanisms, such as the Recharge Oscillator concept, Seasonal Footprint Mechanism, and Indian Ocean capacitor effect. Moreover, we demonstrate that for the first time, the asymmetry between El Ni\~no and La Ni\~na development can be captured by ResoNet. Our results could help alleviate skepticism about applying DL models for ENSO prediction and encourage more attempts to discover and predict climate phenomena using AI methods.
+Combinatorial optimization (CO) on graphs is a classic topic that has been extensively studied across many scientific and industrial fields. Recently, solving CO problems on graphs through learning methods has attracted great attention. Advanced deep learning methods, e.g., graph neural networks (GNNs), have been used to effectively assist the process of solving COs. However, current frameworks based on GNNs are mainly designed for certain CO problems, thereby failing to consider their transferable and generalizable abilities among different COs on graphs. Moreover, simply using original graphs to model COs only captures the direct correlations among objects, which does not consider the mathematical logicality and properties of COs. In this paper, we propose a unified pre-training and adaptation framework for COs on graphs with the help of the maximum satisfiability (Max-SAT) problem. We first use Max-SAT to bridge different COs on graphs since they can be converted to Max-SAT problems represented by standard formulas and clauses with logical information. Then, we further design a pre-training and domain adaptation framework to extract the transferable and generalizable features so that different COs can benefit from them. In the pre-training stage, Max-SAT instances are generated to initialize the parameters of the model. In the fine-tuning stage, instances from CO and Max-SAT problems are used for adaptation so that the transferable ability can be further improved. Numerical experiments on several datasets show that features extracted by our framework exhibit superior transferability and Max-SAT can boost the ability to solve COs on graphs.
 
 {{</citation>}}
 
 
-## cs.AI (3)
-
-
-
-### (58/67) M2ConceptBase: A Fine-grained Aligned Multi-modal Conceptual Knowledge Base (Zhiwei Zha et al., 2023)
+### (60/72) M2ConceptBase: A Fine-grained Aligned Multi-modal Conceptual Knowledge Base (Zhiwei Zha et al., 2023)
 
 {{<citation>}}
 
@@ -1373,7 +1414,7 @@ Large multi-modal models (LMMs) have demonstrated promising intelligence owing t
 {{</citation>}}
 
 
-### (59/67) When Graph Data Meets Multimodal: A New Paradigm for Graph Understanding and Reasoning (Qihang Ai et al., 2023)
+### (61/72) When Graph Data Meets Multimodal: A New Paradigm for Graph Understanding and Reasoning (Qihang Ai et al., 2023)
 
 {{<citation>}}
 
@@ -1395,7 +1436,7 @@ Graph data is ubiquitous in the physical world, and it has always been a challen
 {{</citation>}}
 
 
-### (60/67) Do Similar Entities have Similar Embeddings? (Nicolas Hubert et al., 2023)
+### (62/72) Do Similar Entities have Similar Embeddings? (Nicolas Hubert et al., 2023)
 
 {{<citation>}}
 
@@ -1417,11 +1458,85 @@ Knowledge graph embedding models (KGEMs) developed for link prediction learn vec
 {{</citation>}}
 
 
+### (63/72) CLIPSyntel: CLIP and LLM Synergy for Multimodal Question Summarization in Healthcare (Akash Ghosh et al., 2023)
+
+{{<citation>}}
+
+Akash Ghosh, Arkadeep Acharya, Raghav Jain, Sriparna Saha, Aman Chadha, Setu Sinha. (2023)  
+**CLIPSyntel: CLIP and LLM Synergy for Multimodal Question Summarization in Healthcare**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs-CL, cs.AI  
+Keywords: Language Model, Summarization  
+[Paper Link](http://arxiv.org/abs/2312.11541v1)  
+
+---
+
+
+**ABSTRACT**  
+In the era of modern healthcare, swiftly generating medical question summaries is crucial for informed and timely patient care. Despite the increasing complexity and volume of medical data, existing studies have focused solely on text-based summarization, neglecting the integration of visual information. Recognizing the untapped potential of combining textual queries with visual representations of medical conditions, we introduce the Multimodal Medical Question Summarization (MMQS) Dataset. This dataset, a major contribution to our work, pairs medical queries with visual aids, facilitating a richer and more nuanced understanding of patient needs. We also propose a framework, utilizing the power of Contrastive Language Image Pretraining(CLIP) and Large Language Models(LLMs), consisting of four modules that identify medical disorders, generate relevant context, filter medical concepts, and craft visually aware summaries. Our comprehensive framework harnesses the power of CLIP, a multimodal foundation model, and various general-purpose LLMs, comprising four main modules: the medical disorder identification module, the relevant context generation module, the context filtration module for distilling relevant medical concepts and knowledge, and finally, a general-purpose LLM to generate visually aware medical question summaries. Leveraging our MMQS dataset, we showcase how visual cues from images enhance the generation of medically nuanced summaries. This multimodal approach not only enhances the decision-making process in healthcare but also fosters a more nuanced understanding of patient queries, laying the groundwork for future research in personalized and responsive medical care
+
+{{</citation>}}
+
+
+## physics.geo-ph (1)
+
+
+
+### (64/72) ResoNet: Robust and Explainable ENSO Forecasts with Hybrid Convolution and Transformer Networks (Pumeng Lyu et al., 2023)
+
+{{<citation>}}
+
+Pumeng Lyu, Tao Tang, Fenghua Ling, Jing-Jia Luo, Niklas Boers, Wanli Ouyang, Lei Bai. (2023)  
+**ResoNet: Robust and Explainable ENSO Forecasts with Hybrid Convolution and Transformer Networks**  
+
+---
+Primary Category: physics.geo-ph  
+Categories: cs-AI, physics-geo-ph, physics.geo-ph  
+Keywords: AI, Transformer  
+[Paper Link](http://arxiv.org/abs/2312.10429v1)  
+
+---
+
+
+**ABSTRACT**  
+Recent studies have shown that deep learning (DL) models can skillfully predict the El Ni\~no-Southern Oscillation (ENSO) forecasts over 1.5 years ahead. However, concerns regarding the reliability of predictions made by DL methods persist, including potential overfitting issues and lack of interpretability. Here, we propose ResoNet, a DL model that combines convolutional neural network (CNN) and Transformer architectures. This hybrid architecture design enables our model to adequately capture local SSTA as well as long-range inter-basin interactions across oceans. We show that ResoNet can robustly predict ESNO at lead times between 19 and 26 months, thus outperforming existing approaches in terms of the forecast horizon. According to an explainability method applied to ResoNet predictions of El Ni\~no and La Ni\~na events from 1- to 18-month lead, we find that it predicts the Ni\~no3.4 index based on multiple physically reasonable mechanisms, such as the Recharge Oscillator concept, Seasonal Footprint Mechanism, and Indian Ocean capacitor effect. Moreover, we demonstrate that for the first time, the asymmetry between El Ni\~no and La Ni\~na development can be captured by ResoNet. Our results could help alleviate skepticism about applying DL models for ENSO prediction and encourage more attempts to discover and predict climate phenomena using AI methods.
+
+{{</citation>}}
+
+
+## cs.MA (1)
+
+
+
+### (65/72) Robust Communicative Multi-Agent Reinforcement Learning with Active Defense (Lebin Yu et al., 2023)
+
+{{<citation>}}
+
+Lebin Yu, Yunbo Qiu, Quanming Yao, Yuan Shen, Xudong Zhang, Jian Wang. (2023)  
+**Robust Communicative Multi-Agent Reinforcement Learning with Active Defense**  
+
+---
+Primary Category: cs.MA  
+Categories: cs-AI, cs-LG, cs-MA, cs.MA  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2312.11545v1)  
+
+---
+
+
+**ABSTRACT**  
+Communication in multi-agent reinforcement learning (MARL) has been proven to effectively promote cooperation among agents recently. Since communication in real-world scenarios is vulnerable to noises and adversarial attacks, it is crucial to develop robust communicative MARL technique. However, existing research in this domain has predominantly focused on passive defense strategies, where agents receive all messages equally, making it hard to balance performance and robustness. We propose an active defense strategy, where agents automatically reduce the impact of potentially harmful messages on the final decision. There are two challenges to implement this strategy, that are defining unreliable messages and adjusting the unreliable messages' impact on the final decision properly. To address them, we design an Active Defense Multi-Agent Communication framework (ADMAC), which estimates the reliability of received messages and adjusts their impact on the final decision accordingly with the help of a decomposable decision structure. The superiority of ADMAC over existing methods is validated by experiments in three communication-critical tasks under four types of attacks.
+
+{{</citation>}}
+
+
 ## cs.SD (2)
 
 
 
-### (61/67) SECap: Speech Emotion Captioning with Large Language Model (Yaoxun Xu et al., 2023)
+### (66/72) SECap: Speech Emotion Captioning with Large Language Model (Yaoxun Xu et al., 2023)
 
 {{<citation>}}
 
@@ -1431,19 +1546,19 @@ Yaoxun Xu, Hangting Chen, Jianwei Yu, Qiaochu Huang, Zhiyong Wu, Shixiong Zhang,
 ---
 Primary Category: cs.SD  
 Categories: cs-SD, cs.SD, eess-AS  
-Keywords: BERT, Language Model  
-[Paper Link](http://arxiv.org/abs/2312.10381v1)  
+Keywords: BERT, LLaMA, Language Model  
+[Paper Link](http://arxiv.org/abs/2312.10381v2)  
 
 ---
 
 
 **ABSTRACT**  
-Speech emotions are crucial in human communication and are extensively used in fields like speech synthesis and natural language understanding. Most prior studies, such as speech emotion recognition, have categorized speech emotions into a fixed set of classes. Yet, emotions expressed in human speech are often complex, and categorizing them into predefined groups can be insufficient to adequately represent speech emotions. On the contrary, describing speech emotions directly by means of natural language may be a more effective approach. Regrettably, there are not many studies available that have focused on this direction. Therefore, this paper proposes a speech emotion captioning framework named SECap, aimed at effectively describing speech emotions using natural language. Owing to the impressive capabilities of large language models in language comprehension and text generation, SECap employs LLAMA as the text decoder to allow the production of coherent speech emotion captions. In addition, SECap leverages HuBERT as the audio encoder to extract general speech features and Q-Former as the Bridge-Net to provide LLAMA with emotion-related speech features. To accomplish this, Q-Former utilizes mutual information learning to disentangle emotion-related speech features and speech contents, while implementing contrastive learning to extract more emotion-related speech features. The results of objective and subjective evaluations demonstrate that: 1) the SECap framework outperforms the HTSAT-BART baseline in all objective evaluations; 2) SECap can generate high-quality speech emotion captions that attain performance on par with human annotators in subjective mean opinion score tests.
+Speech emotions are crucial in human communication and are extensively used in fields like speech synthesis and natural language understanding. Most prior studies, such as speech emotion recognition, have categorized speech emotions into a fixed set of classes. Yet, emotions expressed in human speech are often complex, and categorizing them into predefined groups can be insufficient to adequately represent speech emotions. On the contrary, describing speech emotions directly by means of natural language may be a more effective approach. Regrettably, there are not many studies available that have focused on this direction. Therefore, this paper proposes a speech emotion captioning framework named SECap, aiming at effectively describing speech emotions using natural language. Owing to the impressive capabilities of large language models in language comprehension and text generation, SECap employs LLaMA as the text decoder to allow the production of coherent speech emotion captions. In addition, SECap leverages HuBERT as the audio encoder to extract general speech features and Q-Former as the Bridge-Net to provide LLaMA with emotion-related speech features. To accomplish this, Q-Former utilizes mutual information learning to disentangle emotion-related speech features and speech contents, while implementing contrastive learning to extract more emotion-related speech features. The results of objective and subjective evaluations demonstrate that: 1) the SECap framework outperforms the HTSAT-BART baseline in all objective evaluations; 2) SECap can generate high-quality speech emotion captions that attain performance on par with human annotators in subjective mean opinion score tests.
 
 {{</citation>}}
 
 
-### (62/67) Self-Supervised Disentangled Representation Learning for Robust Target Speech Extraction (Zhaoxi Mu et al., 2023)
+### (67/72) Self-Supervised Disentangled Representation Learning for Robust Target Speech Extraction (Zhaoxi Mu et al., 2023)
 
 {{<citation>}}
 
@@ -1469,7 +1584,7 @@ Speech signals are inherently complex as they encompass both global acoustic cha
 
 
 
-### (63/67) SPT: Fine-Tuning Transformer-based Language Models Efficiently with Sparsification (Yuntao Gui et al., 2023)
+### (68/72) SPT: Fine-Tuning Transformer-based Language Models Efficiently with Sparsification (Yuntao Gui et al., 2023)
 
 {{<citation>}}
 
@@ -1491,7 +1606,7 @@ Transformer-based large language models (e.g., BERT and GPT) achieve great succe
 {{</citation>}}
 
 
-### (64/67) Opara: Exploiting Operator Parallelism for Expediting DNN Inference on GPUs (Aodong Chen et al., 2023)
+### (69/72) Opara: Exploiting Operator Parallelism for Expediting DNN Inference on GPUs (Aodong Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1517,7 +1632,7 @@ GPUs have become the defacto hardware devices to accelerate Deep Neural Network 
 
 
 
-### (65/67) LLM-SQL-Solver: Can LLMs Determine SQL Equivalence? (Fuheng Zhao et al., 2023)
+### (70/72) LLM-SQL-Solver: Can LLMs Determine SQL Equivalence? (Fuheng Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -1543,7 +1658,7 @@ Judging the equivalence between two SQL queries is a fundamental problem with ma
 
 
 
-### (66/67) Building AI and Human Capital for Road Safety (Yug Dedhia et al., 2023)
+### (71/72) Building AI and Human Capital for Road Safety (Yug Dedhia et al., 2023)
 
 {{<citation>}}
 
@@ -1569,7 +1684,7 @@ AI is about learning algorithms and huge amounts of data and are drivers of econ
 
 
 
-### (67/67) A charge-preserving method for solving graph neural diffusion networks (Lidia Aceto et al., 2023)
+### (72/72) A charge-preserving method for solving graph neural diffusion networks (Lidia Aceto et al., 2023)
 
 {{<citation>}}
 
