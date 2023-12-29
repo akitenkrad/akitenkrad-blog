@@ -216,7 +216,7 @@ Johann Ostmeyer, Ludovica Schaerf, Pavel Buividovich, Tessa Charles, Eric Postma
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2312.14998v1)  
+[Paper Link](http://arxiv.org/abs/2312.14998v2)  
 
 ---
 
@@ -994,7 +994,7 @@ Rongao Li, Jie Fu, Bo-Wen Zhang, Tao Huang, Zhihong Sun, Chen Lyu, Guang Liu, Zh
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2312.14852v2)  
+[Paper Link](http://arxiv.org/abs/2312.14852v3)  
 
 ---
 

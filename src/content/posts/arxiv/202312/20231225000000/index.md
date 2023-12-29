@@ -21,14 +21,14 @@ math: true
 
 ## Primary Categories
 
+- [cs.CV (9)](#cscv-9)
 - [cs.RO (3)](#csro-3)
 - [cs.LG (13)](#cslg-13)
 - [q-bio.QM (1)](#q-bioqm-1)
 - [cs.CL (8)](#cscl-8)
-- [cs.CV (8)](#cscv-8)
-- [cs.IR (1)](#csir-1)
-- [cs.CR (2)](#cscr-2)
-- [cs.AI (7)](#csai-7)
+- [cs.AI (8)](#csai-8)
+- [cs.IR (2)](#csir-2)
+- [cs.CR (3)](#cscr-3)
 - [cs.MM (1)](#csmm-1)
 - [cs.CE (1)](#csce-1)
 - [cs.SE (3)](#csse-3)
@@ -37,11 +37,213 @@ math: true
 - [eess.IV (1)](#eessiv-1)
 - [cs.SI (1)](#cssi-1)
 
+## cs.CV (9)
+
+
+
+### (1/57) On the Promises and Challenges of Multimodal Foundation Models for Geographical, Environmental, Agricultural, and Urban Planning Applications (Chenjiao Tan et al., 2023)
+
+{{<citation>}}
+
+Chenjiao Tan, Qian Cao, Yiwei Li, Jielu Zhang, Xiao Yang, Huaqin Zhao, Zihao Wu, Zhengliang Liu, Hao Yang, Nemin Wu, Tao Tang, Xinyue Ye, Lilong Chai, Ninghao Liu, Changying Li, Lan Mu, Tianming Liu, Gengchen Mai. (2023)  
+**On the Promises and Challenges of Multimodal Foundation Models for Geographical, Environmental, Agricultural, and Urban Planning Applications**  
+
+---
+Primary Category: cs.CV  
+Categories: I-2-7; I-2-10; I-4-6; I-4-8; J-2, cs-AI, cs-CV, cs.CV  
+Keywords: GPT, GPT-4  
+[Paper Link](http://arxiv.org/abs/2312.17016v1)  
+
+---
+
+
+**ABSTRACT**  
+The advent of large language models (LLMs) has heightened interest in their potential for multimodal applications that integrate language and vision. This paper explores the capabilities of GPT-4V in the realms of geography, environmental science, agriculture, and urban planning by evaluating its performance across a variety of tasks. Data sources comprise satellite imagery, aerial photos, ground-level images, field images, and public datasets. The model is evaluated on a series of tasks including geo-localization, textual data extraction from maps, remote sensing image classification, visual question answering, crop type identification, disease/pest/weed recognition, chicken behavior analysis, agricultural object counting, urban planning knowledge question answering, and plan generation. The results indicate the potential of GPT-4V in geo-localization, land cover classification, visual question answering, and basic image understanding. However, there are limitations in several tasks requiring fine-grained recognition and precise counting. While zero-shot learning shows promise, performance varies across problem domains and image complexities. The work provides novel insights into GPT-4V's capabilities and limitations for real-world geospatial, environmental, agricultural, and urban planning challenges. Further research should focus on augmenting the model's knowledge and reasoning for specialized domains through expanded training. Overall, the analysis demonstrates foundational multimodal intelligence, highlighting the potential of multimodal foundation models (FMs) to advance interdisciplinary applications at the nexus of computer vision and language.
+
+{{</citation>}}
+
+
+### (2/57) Towards Generalization in Subitizing with Neuro-Symbolic Loss using Holographic Reduced Representations (Mohammad Mahmudul Alam et al., 2023)
+
+{{<citation>}}
+
+Mohammad Mahmudul Alam, Edward Raff, Tim Oates. (2023)  
+**Towards Generalization in Subitizing with Neuro-Symbolic Loss using Holographic Reduced Representations**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-LG, cs.CV, q-bio-NC  
+Keywords: Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2312.15310v1)  
+
+---
+
+
+**ABSTRACT**  
+While deep learning has enjoyed significant success in computer vision tasks over the past decade, many shortcomings still exist from a Cognitive Science (CogSci) perspective. In particular, the ability to subitize, i.e., quickly and accurately identify the small (less than 6) count of items, is not well learned by current Convolutional Neural Networks (CNNs) or Vision Transformers (ViTs) when using a standard cross-entropy (CE) loss. In this paper, we demonstrate that adapting tools used in CogSci research can improve the subitizing generalization of CNNs and ViTs by developing an alternative loss function using Holographic Reduced Representations (HRRs). We investigate how this neuro-symbolic approach to learning affects the subitizing capability of CNNs and ViTs, and so we focus on specially crafted problems that isolate generalization to specific aspects of subitizing. Via saliency maps and out-of-distribution performance, we are able to empirically observe that the proposed HRR loss improves subitizing generalization though it does not completely solve the problem. In addition, we find that ViTs perform considerably worse compared to CNNs in most respects on subitizing, except on one axis where an HRR-based loss provides improvement.
+
+{{</citation>}}
+
+
+### (3/57) Mitigating Algorithmic Bias on Facial Expression Recognition (Glauco Amigo et al., 2023)
+
+{{<citation>}}
+
+Glauco Amigo, Pablo Rivas Perea, Robert J. Marks. (2023)  
+**Mitigating Algorithmic Bias on Facial Expression Recognition**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-CY, cs-LG, cs.CV  
+Keywords: Bias  
+[Paper Link](http://arxiv.org/abs/2312.15307v1)  
+
+---
+
+
+**ABSTRACT**  
+Biased datasets are ubiquitous and present a challenge for machine learning. For a number of categories on a dataset that are equally important but some are sparse and others are common, the learning algorithms will favor the ones with more presence. The problem of biased datasets is especially sensitive when dealing with minority people groups. How can we, from biased data, generate algorithms that treat every person equally? This work explores one way to mitigate bias using a debiasing variational autoencoder with experiments on facial expression recognition.
+
+{{</citation>}}
+
+
+### (4/57) Q-Boost: On Visual Quality Assessment Ability of Low-level Multi-Modality Foundation Models (Zicheng Zhang et al., 2023)
+
+{{<citation>}}
+
+Zicheng Zhang, Haoning Wu, Zhongpeng Ji, Chunyi Li, Erli Zhang, Wei Sun, Xiaohong Liu, Xiongkuo Min, Fengyu Sun, Shangling Jui, Weisi Lin, Guangtao Zhai. (2023)  
+**Q-Boost: On Visual Quality Assessment Ability of Low-level Multi-Modality Foundation Models**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Language Model, QA  
+[Paper Link](http://arxiv.org/abs/2312.15300v1)  
+
+---
+
+
+**ABSTRACT**  
+Recent advancements in Multi-modality Large Language Models (MLLMs) have demonstrated remarkable capabilities in complex high-level vision tasks. However, the exploration of MLLM potential in visual quality assessment, a vital aspect of low-level vision, remains limited. To address this gap, we introduce Q-Boost, a novel strategy designed to enhance low-level MLLMs in image quality assessment (IQA) and video quality assessment (VQA) tasks, which is structured around two pivotal components: 1) Triadic-Tone Integration: Ordinary prompt design simply oscillates between the binary extremes of $positive$ and $negative$. Q-Boost innovates by incorporating a `middle ground' approach through $neutral$ prompts, allowing for a more balanced and detailed assessment. 2) Multi-Prompt Ensemble: Multiple quality-centric prompts are used to mitigate bias and acquire more accurate evaluation. The experimental results show that the low-level MLLMs exhibit outstanding zeros-shot performance on the IQA/VQA tasks equipped with the Q-Boost strategy.
+
+{{</citation>}}
+
+
+### (5/57) Wavelet Packet Power Spectrum Kullback-Leibler Divergence: A New Metric for Image Synthesis (Lokesh Veeramacheneni et al., 2023)
+
+{{<citation>}}
+
+Lokesh Veeramacheneni, Moritz Wolter, Juergen Gall. (2023)  
+**Wavelet Packet Power Spectrum Kullback-Leibler Divergence: A New Metric for Image Synthesis**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-LG, cs.CV, eess-IV  
+Keywords: ImageNet  
+[Paper Link](http://arxiv.org/abs/2312.15289v1)  
+
+---
+
+
+**ABSTRACT**  
+Current metrics for generative neural networks are biased towards low frequencies, specific generators, objects from the ImageNet dataset, and value texture more than shape. Many current quality metrics do not measure frequency information directly. In response, we propose a new frequency band-based quality metric, which opens a door into the frequency domain yet, at the same time, preserves spatial aspects of the data. Our metric works well even if the distributions we compare are far from ImageNet or have been produced by differing generator architectures. We verify the quality of our metric by sampling a broad selection of generative networks on a wide variety of data sets. A user study ensures our metric aligns with human perception. Furthermore, we show that frequency band guidance can improve the frequency domain fidelity of a current generative network.
+
+{{</citation>}}
+
+
+### (6/57) MGDepth: Motion-Guided Cost Volume For Self-Supervised Monocular Depth In Dynamic Scenarios (Kaichen Zhou et al., 2023)
+
+{{<citation>}}
+
+Kaichen Zhou, Jia-Xing Zhong, Jia-Wang Bian, Qian Xie, Jian-Qing Zheng, Niki Trigoni, Andrew Markham. (2023)  
+**MGDepth: Motion-Guided Cost Volume For Self-Supervised Monocular Depth In Dynamic Scenarios**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Self-Supervised  
+[Paper Link](http://arxiv.org/abs/2312.15268v1)  
+
+---
+
+
+**ABSTRACT**  
+Despite advancements in self-supervised monocular depth estimation, challenges persist in dynamic scenarios due to the dependence on assumptions about a static world. In this paper, we present MGDepth, a Motion-Guided Cost Volume Depth Net, to achieve precise depth estimation for both dynamic objects and static backgrounds, all while maintaining computational efficiency. To tackle the challenges posed by dynamic content, we incorporate optical flow and coarse monocular depth to create a novel static reference frame. This frame is then utilized to build a motion-guided cost volume in collaboration with the target frame. Additionally, to enhance the accuracy and resilience of the network structure, we introduce an attention-based depth net architecture to effectively integrate information from feature maps with varying resolutions. Compared to methods with similar computational costs, MGDepth achieves a significant reduction of approximately seven percent in root-mean-square error for self-supervised monocular depth estimation on the KITTI-2015 dataset.
+
+{{</citation>}}
+
+
+### (7/57) Self-Supervised Depth Completion Guided by 3D Perception and Geometry Consistency (Yu Cai et al., 2023)
+
+{{<citation>}}
+
+Yu Cai, Tianyu Shen, Shi-Sheng Huang, Hua Huang. (2023)  
+**Self-Supervised Depth Completion Guided by 3D Perception and Geometry Consistency**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Self-Supervised  
+[Paper Link](http://arxiv.org/abs/2312.15263v1)  
+
+---
+
+
+**ABSTRACT**  
+Depth completion, aiming to predict dense depth maps from sparse depth measurements, plays a crucial role in many computer vision related applications. Deep learning approaches have demonstrated overwhelming success in this task. However, high-precision depth completion without relying on the ground-truth data, which are usually costly, still remains challenging. The reason lies on the ignorance of 3D structural information in most previous unsupervised solutions, causing inaccurate spatial propagation and mixed-depth problems. To alleviate the above challenges, this paper explores the utilization of 3D perceptual features and multi-view geometry consistency to devise a high-precision self-supervised depth completion method. Firstly, a 3D perceptual spatial propagation algorithm is constructed with a point cloud representation and an attention weighting mechanism to capture more reasonable and favorable neighboring features during the iterative depth propagation process. Secondly, the multi-view geometric constraints between adjacent views are explicitly incorporated to guide the optimization of the whole depth completion model in a self-supervised manner. Extensive experiments on benchmark datasets of NYU-Depthv2 and VOID demonstrate that the proposed model achieves the state-of-the-art depth completion performance compared with other unsupervised methods, and competitive performance compared with previous supervised methods.
+
+{{</citation>}}
+
+
+### (8/57) Scale Optimization Using Evolutionary Reinforcement Learning for Object Detection on Drone Imagery (Jialu Zhang et al., 2023)
+
+{{<citation>}}
+
+Jialu Zhang, Xiaoying Yang, Wentao He, Jianfeng Ren, Qian Zhang, Titian Zhao, Ruibin Bai, Xiangjian He, Jiang Liu. (2023)  
+**Scale Optimization Using Evolutionary Reinforcement Learning for Object Detection on Drone Imagery**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Drone, Object Detection, Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2312.15219v1)  
+
+---
+
+
+**ABSTRACT**  
+Object detection in aerial imagery presents a significant challenge due to large scale variations among objects. This paper proposes an evolutionary reinforcement learning agent, integrated within a coarse-to-fine object detection framework, to optimize the scale for more effective detection of objects in such images. Specifically, a set of patches potentially containing objects are first generated. A set of rewards measuring the localization accuracy, the accuracy of predicted labels, and the scale consistency among nearby patches are designed in the agent to guide the scale optimization. The proposed scale-consistency reward ensures similar scales for neighboring objects of the same category. Furthermore, a spatial-semantic attention mechanism is designed to exploit the spatial semantic relations between patches. The agent employs the proximal policy optimization strategy in conjunction with the evolutionary strategy, effectively utilizing both the current patch status and historical experience embedded in the agent. The proposed model is compared with state-of-the-art methods on two benchmark datasets for object detection on drone imagery. It significantly outperforms all the compared methods.
+
+{{</citation>}}
+
+
+### (9/57) Spatial-Temporal Decoupling Contrastive Learning for Skeleton-based Human Action Recognition (Shaojie Zhang et al., 2023)
+
+{{<citation>}}
+
+Shaojie Zhang, Jianqin Yin, Yonghao Dang. (2023)  
+**Spatial-Temporal Decoupling Contrastive Learning for Skeleton-based Human Action Recognition**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Contrastive Learning  
+[Paper Link](http://arxiv.org/abs/2312.15144v1)  
+
+---
+
+
+**ABSTRACT**  
+Skeleton-based action recognition is a central task of human-computer interaction. Current methods apply the modeling paradigm of image recognition to it directly. However, the skeleton sequences abstracted from the human body is a sparse representation. The features extracted from the skeleton encoder are spatiotemporal decoupled, which may confuse the semantics. To reduce the coupling and improve the semantics of the global features, we propose a framework (STD-CL) for skeleton-based action recognition. We first decouple the spatial-specific and temporal-specific features from the spatiotemporal features. Then we apply the attentive features to contrastive learning, which pulls together the features from the positive pairs and pushes away the feature embedding from the negative pairs. Moreover, the proposed training strategy STD-CL can be incorporated into current methods. Without additional compute consumption in the testing phase, our STD-CL with four various backbones (HCN, 2S-AGCN, CTR-GCN, and Hyperformer) achieves improvement on NTU60, NTU120, and NW-UCLA benchmarks. We will release our code at: https://github.com/BUPTSJZhang/STD-CL.
+
+{{</citation>}}
+
+
 ## cs.RO (3)
 
 
 
-### (1/53) WildScenes: A Benchmark for 2D and 3D Semantic Segmentation in Large-scale Natural Environments (Kavisha Vidanapathirana et al., 2023)
+### (10/57) WildScenes: A Benchmark for 2D and 3D Semantic Segmentation in Large-scale Natural Environments (Kavisha Vidanapathirana et al., 2023)
 
 {{<citation>}}
 
@@ -63,7 +265,7 @@ Recent progress in semantic scene understanding has primarily been enabled by th
 {{</citation>}}
 
 
-### (2/53) RoboFiSense: Attention-Based Robotic Arm Activity Recognition with WiFi Sensing (Rojin Zandi et al., 2023)
+### (11/57) RoboFiSense: Attention-Based Robotic Arm Activity Recognition with WiFi Sensing (Rojin Zandi et al., 2023)
 
 {{<citation>}}
 
@@ -74,7 +276,7 @@ Rojin Zandi, Kian Behzad, Elaheh Motamedi, Hojjat Salehinejad, Milad Siami. (202
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO, eess-SP  
 Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2312.15345v1)  
+[Paper Link](http://arxiv.org/abs/2312.15345v2)  
 
 ---
 
@@ -85,7 +287,7 @@ Despite the current surge of interest in autonomous robotic systems, robot activ
 {{</citation>}}
 
 
-### (3/53) MARS: Multi-Scale Adaptive Robotics Vision for Underwater Object Detection and Domain Generalization (Lyes Saad Saoud et al., 2023)
+### (12/57) MARS: Multi-Scale Adaptive Robotics Vision for Underwater Object Detection and Domain Generalization (Lyes Saad Saoud et al., 2023)
 
 {{<citation>}}
 
@@ -111,7 +313,7 @@ Underwater robotic vision encounters significant challenges, necessitating advan
 
 
 
-### (4/53) MaDi: Learning to Mask Distractions for Generalization in Visual Deep Reinforcement Learning (Bram Grooten et al., 2023)
+### (13/57) MaDi: Learning to Mask Distractions for Generalization in Visual Deep Reinforcement Learning (Bram Grooten et al., 2023)
 
 {{<citation>}}
 
@@ -133,7 +335,7 @@ The visual world provides an abundance of information, but many input pixels rec
 {{</citation>}}
 
 
-### (5/53) Hardware-Aware DNN Compression via Diverse Pruning and Mixed-Precision Quantization (Konstantinos Balaskas et al., 2023)
+### (14/57) Hardware-Aware DNN Compression via Diverse Pruning and Mixed-Precision Quantization (Konstantinos Balaskas et al., 2023)
 
 {{<citation>}}
 
@@ -155,7 +357,7 @@ Deep Neural Networks (DNNs) have shown significant advantages in a wide variety 
 {{</citation>}}
 
 
-### (6/53) Towards Fine-Grained Explainability for Heterogeneous Graph Neural Network (Tong Li et al., 2023)
+### (15/57) Towards Fine-Grained Explainability for Heterogeneous Graph Neural Network (Tong Li et al., 2023)
 
 {{<citation>}}
 
@@ -177,7 +379,7 @@ Heterogeneous graph neural networks (HGNs) are prominent approaches to node clas
 {{</citation>}}
 
 
-### (7/53) Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems (Xupeng Miao et al., 2023)
+### (16/57) Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems (Xupeng Miao et al., 2023)
 
 {{<citation>}}
 
@@ -199,7 +401,7 @@ In the rapidly evolving landscape of artificial intelligence (AI), generative la
 {{</citation>}}
 
 
-### (8/53) PERP: Rethinking the Prune-Retrain Paradigm in the Era of LLMs (Max Zimmer et al., 2023)
+### (17/57) PERP: Rethinking the Prune-Retrain Paradigm in the Era of LLMs (Max Zimmer et al., 2023)
 
 {{<citation>}}
 
@@ -221,7 +423,7 @@ Neural Networks can be efficiently compressed through pruning, significantly red
 {{</citation>}}
 
 
-### (9/53) Adversarial Data Poisoning for Fake News Detection: How to Make a Model Misclassify a Target News without Modifying It (Federico Siciliano et al., 2023)
+### (18/57) Adversarial Data Poisoning for Fake News Detection: How to Make a Model Misclassify a Target News without Modifying It (Federico Siciliano et al., 2023)
 
 {{<citation>}}
 
@@ -243,7 +445,7 @@ Fake news detection models are critical to countering disinformation but can be 
 {{</citation>}}
 
 
-### (10/53) ZO-AdaMU Optimizer: Adapting Perturbation by the Momentum and Uncertainty in Zeroth-order Optimization (Shuoran Jiang et al., 2023)
+### (19/57) ZO-AdaMU Optimizer: Adapting Perturbation by the Momentum and Uncertainty in Zeroth-order Optimization (Shuoran Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -265,7 +467,7 @@ Lowering the memory requirement in full-parameter training on large models has b
 {{</citation>}}
 
 
-### (11/53) Understanding the Potential of FPGA-Based Spatial Acceleration for Large Language Model Inference (Hongzheng Chen et al., 2023)
+### (20/57) Understanding the Potential of FPGA-Based Spatial Acceleration for Large Language Model Inference (Hongzheng Chen et al., 2023)
 
 {{<citation>}}
 
@@ -287,7 +489,7 @@ Recent advancements in large language models (LLMs) boasting billions of paramet
 {{</citation>}}
 
 
-### (12/53) Data Classification With Multiprocessing (Anuja Dixit et al., 2023)
+### (21/57) Data Classification With Multiprocessing (Anuja Dixit et al., 2023)
 
 {{<citation>}}
 
@@ -309,7 +511,7 @@ Classification is one of the most important tasks in Machine Learning (ML) and w
 {{</citation>}}
 
 
-### (13/53) Personalized Federated Learning with Attention-based Client Selection (Zihan Chen et al., 2023)
+### (22/57) Personalized Federated Learning with Attention-based Client Selection (Zihan Chen et al., 2023)
 
 {{<citation>}}
 
@@ -318,7 +520,7 @@ Zihan Chen, Jundong Li, Cong Shen. (2023)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-IT, cs-LG, cs.LG, math-IT  
 Keywords: Attention  
 [Paper Link](http://arxiv.org/abs/2312.15148v1)  
 
@@ -331,7 +533,7 @@ Personalized Federated Learning (PFL) relies on collective data knowledge to bui
 {{</citation>}}
 
 
-### (14/53) An FPGA-Based Accelerator for Graph Embedding using Sequential Training Algorithm (Kazuki Sunaga et al., 2023)
+### (23/57) An FPGA-Based Accelerator for Graph Embedding using Sequential Training Algorithm (Kazuki Sunaga et al., 2023)
 
 {{<citation>}}
 
@@ -353,7 +555,7 @@ A graph embedding is an emerging approach that can represent a graph structure w
 {{</citation>}}
 
 
-### (15/53) Gradient Shaping for Multi-Constraint Safe Reinforcement Learning (Yihang Yao et al., 2023)
+### (24/57) Gradient Shaping for Multi-Constraint Safe Reinforcement Learning (Yihang Yao et al., 2023)
 
 {{<citation>}}
 
@@ -375,7 +577,7 @@ Online safe reinforcement learning (RL) involves training a policy that maximize
 {{</citation>}}
 
 
-### (16/53) Scaling Is All You Need: Training Strong Policies for Autonomous Driving with JAX-Accelerated Reinforcement Learning (Moritz Harmel et al., 2023)
+### (25/57) Scaling Is All You Need: Training Strong Policies for Autonomous Driving with JAX-Accelerated Reinforcement Learning (Moritz Harmel et al., 2023)
 
 {{<citation>}}
 
@@ -401,7 +603,7 @@ Reinforcement learning has been used to train policies that outperform even the 
 
 
 
-### (17/53) Multimodal Machine Learning Combining Facial Images and Clinical Texts Improves Diagnosis of Rare Genetic Diseases (Da Wu et al., 2023)
+### (26/57) Multimodal Machine Learning Combining Facial Images and Clinical Texts Improves Diagnosis of Rare Genetic Diseases (Da Wu et al., 2023)
 
 {{<citation>}}
 
@@ -427,7 +629,7 @@ Individuals with suspected rare genetic disorders often undergo multiple clinica
 
 
 
-### (18/53) Paralinguistics-Enhanced Large Language Modeling of Spoken Dialogue (Guan-Ting Lin et al., 2023)
+### (27/57) Paralinguistics-Enhanced Large Language Modeling of Spoken Dialogue (Guan-Ting Lin et al., 2023)
 
 {{<citation>}}
 
@@ -449,7 +651,7 @@ Large Language Models (LLMs) have demonstrated superior abilities in tasks such 
 {{</citation>}}
 
 
-### (19/53) Evaluating the Capability of ChatGPT on Ancient Chinese (Siqing Zhou et al., 2023)
+### (28/57) Evaluating the Capability of ChatGPT on Ancient Chinese (Siqing Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -471,7 +673,7 @@ ChatGPT's proficiency in handling modern standard languages suggests potential f
 {{</citation>}}
 
 
-### (20/53) Reverse Multi-Choice Dialogue Commonsense Inference with Graph-of-Thought (Li Zheng et al., 2023)
+### (29/57) Reverse Multi-Choice Dialogue Commonsense Inference with Graph-of-Thought (Li Zheng et al., 2023)
 
 {{<citation>}}
 
@@ -482,18 +684,18 @@ Li Zheng, Hao Fei, Fei Li, Bobo Li, Lizi Liao, Donghong Ji, Chong Teng. (2023)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Dialog, Dialogue, GPT, Question Answering  
-[Paper Link](http://arxiv.org/abs/2312.15291v1)  
+[Paper Link](http://arxiv.org/abs/2312.15291v2)  
 
 ---
 
 
 **ABSTRACT**  
-With the proliferation of dialogic data across the Internet, the Dialogue Commonsense Multi-choice Question Answering (DC-MCQ) task has emerged as a response to the challenge of comprehending user queries and intentions. Although prevailing methodologies exhibit effectiveness in addressing single-choice questions, they encounter difficulties in handling multi-choice queries due to the heightened intricacy and informational density. In this paper, inspired by the human cognitive process of progressively excluding options, we propose a three-step Reverse Exclusion Graph-of-Thought (ReX-GoT) framework, including Option Exclusion, Error Analysis, and Combine Information. Specifically, our ReX-GoT mimics human reasoning by gradually excluding irrelevant options and learning the reasons for option errors to choose the optimal path of the GoT and ultimately infer the correct answer. By progressively integrating intricate clues, our method effectively reduces the difficulty of multi-choice reasoning and provides a novel solution for DC-MCQ. Extensive experiments on the CICERO and CICERO$_{v2}$ datasets validate the significant improvement of our approach on DC-MCQ task. On zero-shot setting, our model outperform the best baseline by 17.67\% in terms of F1 score for the multi-choice task. Most strikingly, our GPT3.5-based ReX-GoT framework achieves a remarkable 39.44\% increase in F1 score. Our code is available at: \url{https://github.com/ZhengL00/ReX-GoT}.
+With the proliferation of dialogic data across the Internet, the Dialogue Commonsense Multi-choice Question Answering (DC-MCQ) task has emerged as a response to the challenge of comprehending user queries and intentions. Although prevailing methodologies exhibit effectiveness in addressing single-choice questions, they encounter difficulties in handling multi-choice queries due to the heightened intricacy and informational density. In this paper, inspired by the human cognitive process of progressively excluding options, we propose a three-step Reverse Exclusion Graph-of-Thought (ReX-GoT) framework, including Option Exclusion, Error Analysis, and Combine Information. Specifically, our ReX-GoT mimics human reasoning by gradually excluding irrelevant options and learning the reasons for option errors to choose the optimal path of the GoT and ultimately infer the correct answer. By progressively integrating intricate clues, our method effectively reduces the difficulty of multi-choice reasoning and provides a novel solution for DC-MCQ. Extensive experiments on the CICERO and CICERO$_{v2}$ datasets validate the significant improvement of our approach on DC-MCQ task. On zero-shot setting, our model outperform the best baseline by 17.67% in terms of F1 score for the multi-choice task. Most strikingly, our GPT3.5-based ReX-GoT framework achieves a remarkable 39.44% increase in F1 score.
 
 {{</citation>}}
 
 
-### (21/53) PokeMQA: Programmable knowledge editing for Multi-hop Question Answering (Hengrui Gu et al., 2023)
+### (30/57) PokeMQA: Programmable knowledge editing for Multi-hop Question Answering (Hengrui Gu et al., 2023)
 
 {{<citation>}}
 
@@ -515,7 +717,7 @@ Multi-hop question answering (MQA) is one of the challenging tasks to evaluate m
 {{</citation>}}
 
 
-### (22/53) emotion2vec: Self-Supervised Pre-Training for Speech Emotion Representation (Ziyang Ma et al., 2023)
+### (31/57) emotion2vec: Self-Supervised Pre-Training for Speech Emotion Representation (Ziyang Ma et al., 2023)
 
 {{<citation>}}
 
@@ -537,7 +739,7 @@ We propose emotion2vec, a universal speech emotion representation model. emotion
 {{</citation>}}
 
 
-### (23/53) Multilingual Bias Detection and Mitigation for Indian Languages (Ankita Maity et al., 2023)
+### (32/57) Multilingual Bias Detection and Mitigation for Indian Languages (Ankita Maity et al., 2023)
 
 {{<citation>}}
 
@@ -559,7 +761,7 @@ Lack of diverse perspectives causes neutrality bias in Wikipedia content leading
 {{</citation>}}
 
 
-### (24/53) SOLAR 10.7B: Scaling Large Language Models with Simple yet Effective Depth Up-Scaling (Dahyun Kim et al., 2023)
+### (33/57) SOLAR 10.7B: Scaling Large Language Models with Simple yet Effective Depth Up-Scaling (Dahyun Kim et al., 2023)
 
 {{<citation>}}
 
@@ -581,7 +783,7 @@ We introduce depth up-scaling (DUS), a novel technique to up-scale base LLMs eff
 {{</citation>}}
 
 
-### (25/53) Large Language Models as Zero-Shot Keyphrase Extractor: A Preliminary Empirical Study (Mingyang Song et al., 2023)
+### (34/57) Large Language Models as Zero-Shot Keyphrase Extractor: A Preliminary Empirical Study (Mingyang Song et al., 2023)
 
 {{<citation>}}
 
@@ -603,265 +805,33 @@ Zero-shot keyphrase extraction aims to build a keyphrase extractor without train
 {{</citation>}}
 
 
-## cs.CV (8)
+## cs.AI (8)
 
 
 
-### (26/53) Towards Generalization in Subitizing with Neuro-Symbolic Loss using Holographic Reduced Representations (Mohammad Mahmudul Alam et al., 2023)
+### (35/57) An Explainable AI Approach to Large Language Model Assisted Causal Model Auditing and Development (Yanming Zhang et al., 2023)
 
 {{<citation>}}
 
-Mohammad Mahmudul Alam, Edward Raff, Tim Oates. (2023)  
-**Towards Generalization in Subitizing with Neuro-Symbolic Loss using Holographic Reduced Representations**  
+Yanming Zhang, Brette Fitzgibbon, Dino Garofolo, Akshith Kota, Eric Papenhausen, Klaus Mueller. (2023)  
+**An Explainable AI Approach to Large Language Model Assisted Causal Model Auditing and Development**  
 
 ---
-Primary Category: cs.CV  
-Categories: cs-CV, cs-LG, cs.CV, q-bio-NC  
-Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2312.15310v1)  
+Primary Category: cs.AI  
+Categories: cs-AI, cs-HC, cs-LG, cs.AI  
+Keywords: AI, ChatGPT, GPT, Language Model  
+[Paper Link](http://arxiv.org/abs/2312.16211v1)  
 
 ---
 
 
 **ABSTRACT**  
-While deep learning has enjoyed significant success in computer vision tasks over the past decade, many shortcomings still exist from a Cognitive Science (CogSci) perspective. In particular, the ability to subitize, i.e., quickly and accurately identify the small (less than 6) count of items, is not well learned by current Convolutional Neural Networks (CNNs) or Vision Transformers (ViTs) when using a standard cross-entropy (CE) loss. In this paper, we demonstrate that adapting tools used in CogSci research can improve the subitizing generalization of CNNs and ViTs by developing an alternative loss function using Holographic Reduced Representations (HRRs). We investigate how this neuro-symbolic approach to learning affects the subitizing capability of CNNs and ViTs, and so we focus on specially crafted problems that isolate generalization to specific aspects of subitizing. Via saliency maps and out-of-distribution performance, we are able to empirically observe that the proposed HRR loss improves subitizing generalization though it does not completely solve the problem. In addition, we find that ViTs perform considerably worse compared to CNNs in most respects on subitizing, except on one axis where an HRR-based loss provides improvement.
+Causal networks are widely used in many fields, including epidemiology, social science, medicine, and engineering, to model the complex relationships between variables. While it can be convenient to algorithmically infer these models directly from observational data, the resulting networks are often plagued with erroneous edges. Auditing and correcting these networks may require domain expertise frequently unavailable to the analyst. We propose the use of large language models such as ChatGPT as an auditor for causal networks. Our method presents ChatGPT with a causal network, one edge at a time, to produce insights about edge directionality, possible confounders, and mediating variables. We ask ChatGPT to reflect on various aspects of each causal link and we then produce visualizations that summarize these viewpoints for the human analyst to direct the edge, gather more data, or test further hypotheses. We envision a system where large language models, automated causal inference, and the human analyst and domain expert work hand in hand as a team to derive holistic and comprehensive causal models for any given case scenario. This paper presents first results obtained with an emerging prototype.
 
 {{</citation>}}
 
 
-### (27/53) Mitigating Algorithmic Bias on Facial Expression Recognition (Glauco Amigo et al., 2023)
-
-{{<citation>}}
-
-Glauco Amigo, Pablo Rivas Perea, Robert J. Marks. (2023)  
-**Mitigating Algorithmic Bias on Facial Expression Recognition**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs-CY, cs-LG, cs.CV  
-Keywords: Bias  
-[Paper Link](http://arxiv.org/abs/2312.15307v1)  
-
----
-
-
-**ABSTRACT**  
-Biased datasets are ubiquitous and present a challenge for machine learning. For a number of categories on a dataset that are equally important but some are sparse and others are common, the learning algorithms will favor the ones with more presence. The problem of biased datasets is especially sensitive when dealing with minority people groups. How can we, from biased data, generate algorithms that treat every person equally? This work explores one way to mitigate bias using a debiasing variational autoencoder with experiments on facial expression recognition.
-
-{{</citation>}}
-
-
-### (28/53) Q-Boost: On Visual Quality Assessment Ability of Low-level Multi-Modality Foundation Models (Zicheng Zhang et al., 2023)
-
-{{<citation>}}
-
-Zicheng Zhang, Haoning Wu, Zhongpeng Ji, Chunyi Li, Erli Zhang, Wei Sun, Xiaohong Liu, Xiongkuo Min, Fengyu Sun, Shangling Jui, Weisi Lin, Guangtao Zhai. (2023)  
-**Q-Boost: On Visual Quality Assessment Ability of Low-level Multi-Modality Foundation Models**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Language Model, QA  
-[Paper Link](http://arxiv.org/abs/2312.15300v1)  
-
----
-
-
-**ABSTRACT**  
-Recent advancements in Multi-modality Large Language Models (MLLMs) have demonstrated remarkable capabilities in complex high-level vision tasks. However, the exploration of MLLM potential in visual quality assessment, a vital aspect of low-level vision, remains limited. To address this gap, we introduce Q-Boost, a novel strategy designed to enhance low-level MLLMs in image quality assessment (IQA) and video quality assessment (VQA) tasks, which is structured around two pivotal components: 1) Triadic-Tone Integration: Ordinary prompt design simply oscillates between the binary extremes of $positive$ and $negative$. Q-Boost innovates by incorporating a `middle ground' approach through $neutral$ prompts, allowing for a more balanced and detailed assessment. 2) Multi-Prompt Ensemble: Multiple quality-centric prompts are used to mitigate bias and acquire more accurate evaluation. The experimental results show that the low-level MLLMs exhibit outstanding zeros-shot performance on the IQA/VQA tasks equipped with the Q-Boost strategy.
-
-{{</citation>}}
-
-
-### (29/53) Wavelet Packet Power Spectrum Kullback-Leibler Divergence: A New Metric for Image Synthesis (Lokesh Veeramacheneni et al., 2023)
-
-{{<citation>}}
-
-Lokesh Veeramacheneni, Moritz Wolter, Juergen Gall. (2023)  
-**Wavelet Packet Power Spectrum Kullback-Leibler Divergence: A New Metric for Image Synthesis**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs-LG, cs.CV, eess-IV  
-Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2312.15289v1)  
-
----
-
-
-**ABSTRACT**  
-Current metrics for generative neural networks are biased towards low frequencies, specific generators, objects from the ImageNet dataset, and value texture more than shape. Many current quality metrics do not measure frequency information directly. In response, we propose a new frequency band-based quality metric, which opens a door into the frequency domain yet, at the same time, preserves spatial aspects of the data. Our metric works well even if the distributions we compare are far from ImageNet or have been produced by differing generator architectures. We verify the quality of our metric by sampling a broad selection of generative networks on a wide variety of data sets. A user study ensures our metric aligns with human perception. Furthermore, we show that frequency band guidance can improve the frequency domain fidelity of a current generative network.
-
-{{</citation>}}
-
-
-### (30/53) MGDepth: Motion-Guided Cost Volume For Self-Supervised Monocular Depth In Dynamic Scenarios (Kaichen Zhou et al., 2023)
-
-{{<citation>}}
-
-Kaichen Zhou, Jia-Xing Zhong, Jia-Wang Bian, Qian Xie, Jian-Qing Zheng, Niki Trigoni, Andrew Markham. (2023)  
-**MGDepth: Motion-Guided Cost Volume For Self-Supervised Monocular Depth In Dynamic Scenarios**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Self-Supervised  
-[Paper Link](http://arxiv.org/abs/2312.15268v1)  
-
----
-
-
-**ABSTRACT**  
-Despite advancements in self-supervised monocular depth estimation, challenges persist in dynamic scenarios due to the dependence on assumptions about a static world. In this paper, we present MGDepth, a Motion-Guided Cost Volume Depth Net, to achieve precise depth estimation for both dynamic objects and static backgrounds, all while maintaining computational efficiency. To tackle the challenges posed by dynamic content, we incorporate optical flow and coarse monocular depth to create a novel static reference frame. This frame is then utilized to build a motion-guided cost volume in collaboration with the target frame. Additionally, to enhance the accuracy and resilience of the network structure, we introduce an attention-based depth net architecture to effectively integrate information from feature maps with varying resolutions. Compared to methods with similar computational costs, MGDepth achieves a significant reduction of approximately seven percent in root-mean-square error for self-supervised monocular depth estimation on the KITTI-2015 dataset.
-
-{{</citation>}}
-
-
-### (31/53) Self-Supervised Depth Completion Guided by 3D Perception and Geometry Consistency (Yu Cai et al., 2023)
-
-{{<citation>}}
-
-Yu Cai, Tianyu Shen, Shi-Sheng Huang, Hua Huang. (2023)  
-**Self-Supervised Depth Completion Guided by 3D Perception and Geometry Consistency**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Self-Supervised  
-[Paper Link](http://arxiv.org/abs/2312.15263v1)  
-
----
-
-
-**ABSTRACT**  
-Depth completion, aiming to predict dense depth maps from sparse depth measurements, plays a crucial role in many computer vision related applications. Deep learning approaches have demonstrated overwhelming success in this task. However, high-precision depth completion without relying on the ground-truth data, which are usually costly, still remains challenging. The reason lies on the ignorance of 3D structural information in most previous unsupervised solutions, causing inaccurate spatial propagation and mixed-depth problems. To alleviate the above challenges, this paper explores the utilization of 3D perceptual features and multi-view geometry consistency to devise a high-precision self-supervised depth completion method. Firstly, a 3D perceptual spatial propagation algorithm is constructed with a point cloud representation and an attention weighting mechanism to capture more reasonable and favorable neighboring features during the iterative depth propagation process. Secondly, the multi-view geometric constraints between adjacent views are explicitly incorporated to guide the optimization of the whole depth completion model in a self-supervised manner. Extensive experiments on benchmark datasets of NYU-Depthv2 and VOID demonstrate that the proposed model achieves the state-of-the-art depth completion performance compared with other unsupervised methods, and competitive performance compared with previous supervised methods.
-
-{{</citation>}}
-
-
-### (32/53) Scale Optimization Using Evolutionary Reinforcement Learning for Object Detection on Drone Imagery (Jialu Zhang et al., 2023)
-
-{{<citation>}}
-
-Jialu Zhang, Xiaoying Yang, Wentao He, Jianfeng Ren, Qian Zhang, Titian Zhao, Ruibin Bai, Xiangjian He, Jiang Liu. (2023)  
-**Scale Optimization Using Evolutionary Reinforcement Learning for Object Detection on Drone Imagery**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Drone, Object Detection, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2312.15219v1)  
-
----
-
-
-**ABSTRACT**  
-Object detection in aerial imagery presents a significant challenge due to large scale variations among objects. This paper proposes an evolutionary reinforcement learning agent, integrated within a coarse-to-fine object detection framework, to optimize the scale for more effective detection of objects in such images. Specifically, a set of patches potentially containing objects are first generated. A set of rewards measuring the localization accuracy, the accuracy of predicted labels, and the scale consistency among nearby patches are designed in the agent to guide the scale optimization. The proposed scale-consistency reward ensures similar scales for neighboring objects of the same category. Furthermore, a spatial-semantic attention mechanism is designed to exploit the spatial semantic relations between patches. The agent employs the proximal policy optimization strategy in conjunction with the evolutionary strategy, effectively utilizing both the current patch status and historical experience embedded in the agent. The proposed model is compared with state-of-the-art methods on two benchmark datasets for object detection on drone imagery. It significantly outperforms all the compared methods.
-
-{{</citation>}}
-
-
-### (33/53) Spatial-Temporal Decoupling Contrastive Learning for Skeleton-based Human Action Recognition (Shaojie Zhang et al., 2023)
-
-{{<citation>}}
-
-Shaojie Zhang, Jianqin Yin, Yonghao Dang. (2023)  
-**Spatial-Temporal Decoupling Contrastive Learning for Skeleton-based Human Action Recognition**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Contrastive Learning  
-[Paper Link](http://arxiv.org/abs/2312.15144v1)  
-
----
-
-
-**ABSTRACT**  
-Skeleton-based action recognition is a central task of human-computer interaction. Current methods apply the modeling paradigm of image recognition to it directly. However, the skeleton sequences abstracted from the human body is a sparse representation. The features extracted from the skeleton encoder are spatiotemporal decoupled, which may confuse the semantics. To reduce the coupling and improve the semantics of the global features, we propose a framework (STD-CL) for skeleton-based action recognition. We first decouple the spatial-specific and temporal-specific features from the spatiotemporal features. Then we apply the attentive features to contrastive learning, which pulls together the features from the positive pairs and pushes away the feature embedding from the negative pairs. Moreover, the proposed training strategy STD-CL can be incorporated into current methods. Without additional compute consumption in the testing phase, our STD-CL with four various backbones (HCN, 2S-AGCN, CTR-GCN, and Hyperformer) achieves improvement on NTU60, NTU120, and NW-UCLA benchmarks. We will release our code at: https://github.com/BUPTSJZhang/STD-CL.
-
-{{</citation>}}
-
-
-## cs.IR (1)
-
-
-
-### (34/53) Monitoring the Evolution of Behavioural Embeddings in Social Media Recommendation (Srijan Saket, 2023)
-
-{{<citation>}}
-
-Srijan Saket. (2023)  
-**Monitoring the Evolution of Behavioural Embeddings in Social Media Recommendation**  
-
----
-Primary Category: cs.IR  
-Categories: cs-IR, cs.IR  
-Keywords: Embedding, Social Media  
-[Paper Link](http://arxiv.org/abs/2312.15265v1)  
-
----
-
-
-**ABSTRACT**  
-Short video applications pose unique challenges for recommender systems due to the constant influx of new content and the absence of historical user interactions for quality assessment of uploaded content. This research characterizes the evolution of embeddings in short video recommendation systems, comparing batch and real-time updates to content embeddings. The analysis investigates embedding maturity, the learning peak during view accumulation, popularity bias, l2-norm distribution of learned embeddings, and their impact on user engagement metrics. The study unveils the contrast in the number of interactions needed to achieve mature embeddings in both learning modes, identifies the ideal learning point, and explores the distribution of l2-norm across various update methods. Utilizing a production system deployed on a large-scale short video app with over 180 million users, the findings offer insights into designing effective recommendation systems and enhancing user satisfaction and engagement in short video applications.
-
-{{</citation>}}
-
-
-## cs.CR (2)
-
-
-
-### (35/53) A Security Enhanced Authentication Protocol (Sai Sreekar Vankayalapati et al., 2023)
-
-{{<citation>}}
-
-Sai Sreekar Vankayalapati, Srijanee Mookherji, Vanga Odelu. (2023)  
-**A Security Enhanced Authentication Protocol**  
-
----
-Primary Category: cs.CR  
-Categories: cs-CR, cs.CR  
-Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2312.15250v1)  
-
----
-
-
-**ABSTRACT**  
-Internet of Things (IoT) have gained popularity in recent times. With an increase in the number of IoT devices, security and privacy vulnerabilities are also increasing. For sensitive domains like healthcare and industrial sectors, such vulnerabilities can cause havoc. Thus, authentication is an important aspect for establishing a secure communication between various participants. In this paper, we study the two recent authentication and key exchange protocols. We prove that these protocols are vulnerable to replay attack and modification attack, and also suffer from technical correctness. We then present the possible improvements to overcome the discussed vulnerabilities. The enhancement preserves performance of the original protocols.
-
-{{</citation>}}
-
-
-### (36/53) The Inner Workings of Windows Security (Ashvini A Kulshrestha et al., 2023)
-
-{{<citation>}}
-
-Ashvini A Kulshrestha, Guanqun Song, Ting Zhu. (2023)  
-**The Inner Workings of Windows Security**  
-
----
-Primary Category: cs.CR  
-Categories: cs-CR, cs.CR  
-Keywords: Microsoft, Security  
-[Paper Link](http://arxiv.org/abs/2312.15150v1)  
-
----
-
-
-**ABSTRACT**  
-The year 2022 saw a significant increase in Microsoft vulnerabilities, reaching an all-time high in the past decade. With new vulnerabilities constantly emerging, there is an urgent need for proactive approaches to harden systems and protect them from potential cyber threats. This project aims to investigate the vulnerabilities of the Windows Operating System and explore the effectiveness of key security features such as BitLocker, Microsoft Defender, and Windows Firewall in addressing these threats. To achieve this, various security threats are simulated in controlled environments using coded examples, allowing for a thorough evaluation of the security solutions' effectiveness. Based on the results, this study will provide recommendations for mitigation strategies to enhance system security and strengthen the protection provided by Windows security features. By identifying potential weaknesses and areas of improvement in the Windows security infrastructure, this project will contribute to the development of more robust and resilient security solutions that can better safeguard systems against emerging cyber threats.
-
-{{</citation>}}
-
-
-## cs.AI (7)
-
-
-
-### (37/53) Measuring Value Alignment (Fazl Barez et al., 2023)
+### (36/57) Measuring Value Alignment (Fazl Barez et al., 2023)
 
 {{<citation>}}
 
@@ -883,7 +853,7 @@ As artificial intelligence (AI) systems become increasingly integrated into vari
 {{</citation>}}
 
 
-### (38/53) LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination (Jijia Liu et al., 2023)
+### (37/57) LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination (Jijia Liu et al., 2023)
 
 {{<citation>}}
 
@@ -905,7 +875,7 @@ AI agents powered by Large Language Models (LLMs) have made significant advances
 {{</citation>}}
 
 
-### (39/53) Do LLM Agents Exhibit Social Behavior? (Yan Leng et al., 2023)
+### (38/57) Do LLM Agents Exhibit Social Behavior? (Yan Leng et al., 2023)
 
 {{<citation>}}
 
@@ -927,7 +897,7 @@ The advances of Large Language Models (LLMs) are expanding their utility in both
 {{</citation>}}
 
 
-### (40/53) Mutual Information as Intrinsic Reward of Reinforcement Learning Agents for On-demand Ride Pooling (Xianjie Zhang et al., 2023)
+### (39/57) Mutual Information as Intrinsic Reward of Reinforcement Learning Agents for On-demand Ride Pooling (Xianjie Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -949,7 +919,7 @@ The emergence of on-demand ride pooling services allows each vehicle to serve mu
 {{</citation>}}
 
 
-### (41/53) Reinforcement Learning for Safe Occupancy Strategies in Educational Spaces during an Epidemic (Elizabeth Akinyi Ondula et al., 2023)
+### (40/57) Reinforcement Learning for Safe Occupancy Strategies in Educational Spaces during an Epidemic (Elizabeth Akinyi Ondula et al., 2023)
 
 {{<citation>}}
 
@@ -971,7 +941,7 @@ Epidemic modeling, encompassing deterministic and stochastic approaches, is vita
 {{</citation>}}
 
 
-### (42/53) Networks of Classical Conditioning Gates and Their Learning (Shun-ichi Azuma et al., 2023)
+### (41/57) Networks of Classical Conditioning Gates and Their Learning (Shun-ichi Azuma et al., 2023)
 
 {{<citation>}}
 
@@ -993,7 +963,7 @@ Chemical AI is chemically synthesized artificial intelligence that has the abili
 {{</citation>}}
 
 
-### (43/53) Human-AI Collaboration in Real-World Complex Environment with Reinforcement Learning (Md Saiful Islam et al., 2023)
+### (42/57) Human-AI Collaboration in Real-World Complex Environment with Reinforcement Learning (Md Saiful Islam et al., 2023)
 
 {{<citation>}}
 
@@ -1015,11 +985,129 @@ Recent advances in reinforcement learning (RL) and Human-in-the-Loop (HitL) lear
 {{</citation>}}
 
 
+## cs.IR (2)
+
+
+
+### (43/57) Monitoring the Evolution of Behavioural Embeddings in Social Media Recommendation (Srijan Saket, 2023)
+
+{{<citation>}}
+
+Srijan Saket. (2023)  
+**Monitoring the Evolution of Behavioural Embeddings in Social Media Recommendation**  
+
+---
+Primary Category: cs.IR  
+Categories: cs-IR, cs.IR  
+Keywords: Embedding, Social Media  
+[Paper Link](http://arxiv.org/abs/2312.15265v1)  
+
+---
+
+
+**ABSTRACT**  
+Short video applications pose unique challenges for recommender systems due to the constant influx of new content and the absence of historical user interactions for quality assessment of uploaded content. This research characterizes the evolution of embeddings in short video recommendation systems, comparing batch and real-time updates to content embeddings. The analysis investigates embedding maturity, the learning peak during view accumulation, popularity bias, l2-norm distribution of learned embeddings, and their impact on user engagement metrics. The study unveils the contrast in the number of interactions needed to achieve mature embeddings in both learning modes, identifies the ideal learning point, and explores the distribution of l2-norm across various update methods. Utilizing a production system deployed on a large-scale short video app with over 180 million users, the findings offer insights into designing effective recommendation systems and enhancing user satisfaction and engagement in short video applications.
+
+{{</citation>}}
+
+
+### (44/57) Enhancing User Intent Capture in Session-Based Recommendation with Attribute Patterns (Xin Liu et al., 2023)
+
+{{<citation>}}
+
+Xin Liu, Zheng Li, Yifan Gao, Jingfeng Yang, Tianyu Cao, Zhengyang Wang, Bing Yin, Yangqiu Song. (2023)  
+**Enhancing User Intent Capture in Session-Based Recommendation with Attribute Patterns**  
+
+---
+Primary Category: cs.IR  
+Categories: cs-IR, cs-LG, cs.IR  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2312.16199v1)  
+
+---
+
+
+**ABSTRACT**  
+The goal of session-based recommendation in E-commerce is to predict the next item that an anonymous user will purchase based on the browsing and purchase history. However, constructing global or local transition graphs to supplement session data can lead to noisy correlations and user intent vanishing. In this work, we propose the Frequent Attribute Pattern Augmented Transformer (FAPAT) that characterizes user intents by building attribute transition graphs and matching attribute patterns. Specifically, the frequent and compact attribute patterns are served as memory to augment session representations, followed by a gate and a transformer block to fuse the whole session information. Through extensive experiments on two public benchmarks and 100 million industrial data in three domains, we demonstrate that FAPAT consistently outperforms state-of-the-art methods by an average of 4.5% across various evaluation metrics (Hits, NDCG, MRR). Besides evaluating the next-item prediction, we estimate the models' capabilities to capture user intents via predicting items' attributes and period-item recommendations.
+
+{{</citation>}}
+
+
+## cs.CR (3)
+
+
+
+### (45/57) A Security Enhanced Authentication Protocol (Sai Sreekar Vankayalapati et al., 2023)
+
+{{<citation>}}
+
+Sai Sreekar Vankayalapati, Srijanee Mookherji, Vanga Odelu. (2023)  
+**A Security Enhanced Authentication Protocol**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-CR, cs.CR  
+Keywords: Security  
+[Paper Link](http://arxiv.org/abs/2312.15250v1)  
+
+---
+
+
+**ABSTRACT**  
+Internet of Things (IoT) have gained popularity in recent times. With an increase in the number of IoT devices, security and privacy vulnerabilities are also increasing. For sensitive domains like healthcare and industrial sectors, such vulnerabilities can cause havoc. Thus, authentication is an important aspect for establishing a secure communication between various participants. In this paper, we study the two recent authentication and key exchange protocols. We prove that these protocols are vulnerable to replay attack and modification attack, and also suffer from technical correctness. We then present the possible improvements to overcome the discussed vulnerabilities. The enhancement preserves performance of the original protocols.
+
+{{</citation>}}
+
+
+### (46/57) Security in 5G Networks -- How 5G networks help Mitigate Location Tracking Vulnerability (Abshir Ali et al., 2023)
+
+{{<citation>}}
+
+Abshir Ali, Guanqun Song, Ting Zhu. (2023)  
+**Security in 5G Networks -- How 5G networks help Mitigate Location Tracking Vulnerability**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-CR, cs.CR  
+Keywords: Security  
+[Paper Link](http://arxiv.org/abs/2312.16200v1)  
+
+---
+
+
+**ABSTRACT**  
+As 5G networks become more mainstream, privacy has come to the forefront of end users. More scrutiny has been shown to previous generation cellular technologies such as 3G and 4G on how they handle sensitive metadata transmitted from an end user mobile device to base stations during registration with a cellular network. These generation cellular networks do not enforce any encryption on this information transmitted during this process, giving malicious actors an easy way to intercept the information. Such an interception can allow an adversary to locate end users with shocking accuracy. This paper investigates this problem in great detail and discusses how a newly introduced approach in 5G networks is helping combat this problem. The paper discusses the implications of this vulnerability and the technical details of the new approach, including the encryption schemes used to secure this sensitive information. Finally, the paper will discuss any limitations to this new approach.
+
+{{</citation>}}
+
+
+### (47/57) The Inner Workings of Windows Security (Ashvini A Kulshrestha et al., 2023)
+
+{{<citation>}}
+
+Ashvini A Kulshrestha, Guanqun Song, Ting Zhu. (2023)  
+**The Inner Workings of Windows Security**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-CR, cs.CR  
+Keywords: Microsoft, Security  
+[Paper Link](http://arxiv.org/abs/2312.15150v1)  
+
+---
+
+
+**ABSTRACT**  
+The year 2022 saw a significant increase in Microsoft vulnerabilities, reaching an all-time high in the past decade. With new vulnerabilities constantly emerging, there is an urgent need for proactive approaches to harden systems and protect them from potential cyber threats. This project aims to investigate the vulnerabilities of the Windows Operating System and explore the effectiveness of key security features such as BitLocker, Microsoft Defender, and Windows Firewall in addressing these threats. To achieve this, various security threats are simulated in controlled environments using coded examples, allowing for a thorough evaluation of the security solutions' effectiveness. Based on the results, this study will provide recommendations for mitigation strategies to enhance system security and strengthen the protection provided by Windows security features. By identifying potential weaknesses and areas of improvement in the Windows security infrastructure, this project will contribute to the development of more robust and resilient security solutions that can better safeguard systems against emerging cyber threats.
+
+{{</citation>}}
+
+
 ## cs.MM (1)
 
 
 
-### (44/53) QoE modeling for Voice over IP: Simplified E-model Enhancement Utilizing the Subjective MOS Prediction Model (Therdpong Daengsi et al., 2023)
+### (48/57) QoE modeling for Voice over IP: Simplified E-model Enhancement Utilizing the Subjective MOS Prediction Model (Therdpong Daengsi et al., 2023)
 
 {{<citation>}}
 
@@ -1045,7 +1133,7 @@ This research proposes an enhanced measurement method for VoIP quality assessmen
 
 
 
-### (45/53) MASTER: Market-Guided Stock Transformer for Stock Price Forecasting (Tong Li et al., 2023)
+### (49/57) MASTER: Market-Guided Stock Transformer for Stock Price Forecasting (Tong Li et al., 2023)
 
 {{<citation>}}
 
@@ -1071,7 +1159,7 @@ Stock price forecasting has remained an extremely challenging problem for many d
 
 
 
-### (46/53) A Survey on Large Language Models for Software Engineering (Quanjun Zhang et al., 2023)
+### (50/57) A Survey on Large Language Models for Software Engineering (Quanjun Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -1093,7 +1181,7 @@ Software Engineering (SE) is the systematic design, development, and maintenance
 {{</citation>}}
 
 
-### (47/53) Enhancing Code Intelligence Tasks with ChatGPT (Kang Yang et al., 2023)
+### (51/57) Enhancing Code Intelligence Tasks with ChatGPT (Kang Yang et al., 2023)
 
 {{<citation>}}
 
@@ -1115,7 +1203,7 @@ Pre-trained code models have emerged as crucial tools in various code intelligen
 {{</citation>}}
 
 
-### (48/53) CodeScholar: Growing Idiomatic Code Examples (Manish Shetty et al., 2023)
+### (52/57) CodeScholar: Growing Idiomatic Code Examples (Manish Shetty et al., 2023)
 
 {{<citation>}}
 
@@ -1141,7 +1229,7 @@ Programmers often search for usage examples for API methods. A tool that could g
 
 
 
-### (49/53) TransFace: Unit-Based Audio-Visual Speech Synthesizer for Talking Head Translation (Xize Cheng et al., 2023)
+### (53/57) TransFace: Unit-Based Audio-Visual Speech Synthesizer for Talking Head Translation (Xize Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -1163,7 +1251,7 @@ Direct speech-to-speech translation achieves high-quality results through the in
 {{</citation>}}
 
 
-### (50/53) SAIC: Integration of Speech Anonymization and Identity Classification (Ming Cheng et al., 2023)
+### (54/57) SAIC: Integration of Speech Anonymization and Identity Classification (Ming Cheng et al., 2023)
 
 {{<citation>}}
 
@@ -1189,7 +1277,7 @@ Speech anonymization and de-identification have garnered significant attention r
 
 
 
-### (51/53) Efficient Asynchronous Federated Learning with Sparsification and Quantization (Juncheng Jia et al., 2023)
+### (55/57) Efficient Asynchronous Federated Learning with Sparsification and Quantization (Juncheng Jia et al., 2023)
 
 {{<citation>}}
 
@@ -1215,7 +1303,7 @@ While data is distributed in multiple edge devices, Federated Learning (FL) is a
 
 
 
-### (52/53) Narrowing the semantic gaps in U-Net with learnable skip connections: The case of medical image segmentation (Haonan Wang et al., 2023)
+### (56/57) Narrowing the semantic gaps in U-Net with learnable skip connections: The case of medical image segmentation (Haonan Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1241,7 +1329,7 @@ Most state-of-the-art methods for medical image segmentation adopt the encoder-d
 
 
 
-### (53/53) Majority-based Preference Diffusion on Social Networks (Ahad N. Zehmakan, 2023)
+### (57/57) Majority-based Preference Diffusion on Social Networks (Ahad N. Zehmakan, 2023)
 
 {{<citation>}}
 

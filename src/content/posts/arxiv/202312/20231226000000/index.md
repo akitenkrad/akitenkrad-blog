@@ -24,17 +24,18 @@ math: true
 - [cs.CL (7)](#cscl-7)
 - [cs.MA (1)](#csma-1)
 - [cs.SE (3)](#csse-3)
-- [cs.CV (7)](#cscv-7)
+- [cs.CV (9)](#cscv-9)
+- [cs.SD (2)](#cssd-2)
 - [cs.IR (3)](#csir-3)
 - [cs.AI (1)](#csai-1)
 - [cs.CY (1)](#cscy-1)
 - [cs.LG (3)](#cslg-3)
+- [q-fin.ST (1)](#q-finst-1)
 - [eess.SY (1)](#eesssy-1)
 - [cs.DB (1)](#csdb-1)
 - [eess.AS (1)](#eessas-1)
 - [stat.ML (1)](#statml-1)
 - [cs.ET (1)](#cset-1)
-- [cs.SD (1)](#cssd-1)
 - [cs.DC (1)](#csdc-1)
 - [q-bio.QM (1)](#q-bioqm-1)
 - [q-fin.MF (1)](#q-finmf-1)
@@ -43,7 +44,7 @@ math: true
 
 
 
-### (1/35) README: Bridging Medical Jargon and Lay Understanding for Patient Education through Data-Centric NLP (Zonghai Yao et al., 2023)
+### (1/39) README: Bridging Medical Jargon and Lay Understanding for Patient Education through Data-Centric NLP (Zonghai Yao et al., 2023)
 
 {{<citation>}}
 
@@ -65,7 +66,7 @@ The advancement in healthcare has shifted focus toward patient-centric approache
 {{</citation>}}
 
 
-### (2/35) Multi-level biomedical NER through multi-granularity embeddings and enhanced labeling (Fahime Shahrokh et al., 2023)
+### (2/39) Multi-level biomedical NER through multi-granularity embeddings and enhanced labeling (Fahime Shahrokh et al., 2023)
 
 {{<citation>}}
 
@@ -87,7 +88,7 @@ Biomedical Named Entity Recognition (NER) is a fundamental task of Biomedical Na
 {{</citation>}}
 
 
-### (3/35) YAYI-UIE: A Chat-Enhanced Instruction Tuning Framework for Universal Information Extraction (Xinglin Xiao et al., 2023)
+### (3/39) YAYI-UIE: A Chat-Enhanced Instruction Tuning Framework for Universal Information Extraction (Xinglin Xiao et al., 2023)
 
 {{<citation>}}
 
@@ -109,7 +110,7 @@ The difficulty of the information extraction task lies in dealing with the task-
 {{</citation>}}
 
 
-### (4/35) Making Large Language Models A Better Foundation For Dense Retrieval (Chaofan Li et al., 2023)
+### (4/39) Making Large Language Models A Better Foundation For Dense Retrieval (Chaofan Li et al., 2023)
 
 {{<citation>}}
 
@@ -131,7 +132,7 @@ Dense retrieval needs to learn discriminative text embeddings to represent the s
 {{</citation>}}
 
 
-### (5/35) A Group Fairness Lens for Large Language Models (Guanqun Bi et al., 2023)
+### (5/39) A Group Fairness Lens for Large Language Models (Guanqun Bi et al., 2023)
 
 {{<citation>}}
 
@@ -153,7 +154,7 @@ The rapid advancement of large language models has revolutionized various applic
 {{</citation>}}
 
 
-### (6/35) A Comprehensive Analysis of the Effectiveness of Large Language Models as Automatic Dialogue Evaluators (Chen Zhang et al., 2023)
+### (6/39) A Comprehensive Analysis of the Effectiveness of Large Language Models as Automatic Dialogue Evaluators (Chen Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -175,7 +176,7 @@ Automatic evaluation is an integral aspect of dialogue system research. The trad
 {{</citation>}}
 
 
-### (7/35) Fairness-Aware Structured Pruning in Transformers (Abdelrahman Zayed et al., 2023)
+### (7/39) Fairness-Aware Structured Pruning in Transformers (Abdelrahman Zayed et al., 2023)
 
 {{<citation>}}
 
@@ -201,7 +202,7 @@ The increasing size of large language models (LLMs) has introduced challenges in
 
 
 
-### (8/35) ConcaveQ: Non-Monotonic Value Function Factorization via Concave Representations in Deep Multi-Agent Reinforcement Learning (Huiqun Li et al., 2023)
+### (8/39) ConcaveQ: Non-Monotonic Value Function Factorization via Concave Representations in Deep Multi-Agent Reinforcement Learning (Huiqun Li et al., 2023)
 
 {{<citation>}}
 
@@ -227,7 +228,7 @@ Value function factorization has achieved great success in multi-agent reinforce
 
 
 
-### (9/35) Guess What Quantum Computing Can Do for Test Case Optimization (Xinyi Wang et al., 2023)
+### (9/39) Guess What Quantum Computing Can Do for Test Case Optimization (Xinyi Wang et al., 2023)
 
 {{<citation>}}
 
@@ -249,7 +250,7 @@ In the near term, quantum approximate optimization algorithms (QAOAs) hold great
 {{</citation>}}
 
 
-### (10/35) Harnessing Pre-trained Generalist Agents for Software Engineering Tasks (Paulina Stevia Nouwou Mindom et al., 2023)
+### (10/39) Harnessing Pre-trained Generalist Agents for Software Engineering Tasks (Paulina Stevia Nouwou Mindom et al., 2023)
 
 {{<citation>}}
 
@@ -271,7 +272,7 @@ Nowadays, we are witnessing an increasing adoption of Artificial Intelligence (A
 {{</citation>}}
 
 
-### (11/35) Evaluating Code Summarization Techniques: A New Metric and an Empirical Characterization (Antonio Mastropaolo et al., 2023)
+### (11/39) Evaluating Code Summarization Techniques: A New Metric and an Empirical Characterization (Antonio Mastropaolo et al., 2023)
 
 {{<citation>}}
 
@@ -293,11 +294,11 @@ Several code summarization techniques have been proposed in the literature to au
 {{</citation>}}
 
 
-## cs.CV (7)
+## cs.CV (9)
 
 
 
-### (12/35) Amodal Completion via Progressive Mixed Context Diffusion (Katherine Xu et al., 2023)
+### (12/39) Amodal Completion via Progressive Mixed Context Diffusion (Katherine Xu et al., 2023)
 
 {{<citation>}}
 
@@ -319,7 +320,7 @@ Our brain can effortlessly recognize objects even when partially hidden from vie
 {{</citation>}}
 
 
-### (13/35) Towards Reliable AI Model Deployments: Multiple Input Mixup for Out-of-Distribution Detection (Dasol Choi et al., 2023)
+### (13/39) Towards Reliable AI Model Deployments: Multiple Input Mixup for Out-of-Distribution Detection (Dasol Choi et al., 2023)
 
 {{<citation>}}
 
@@ -341,7 +342,29 @@ Recent remarkable success in the deep-learning industries has unprecedentedly in
 {{</citation>}}
 
 
-### (14/35) iDet3D: Towards Efficient Interactive Object Detection for LiDAR Point Clouds (Dongmin Choi et al., 2023)
+### (14/39) AI Mirage: The Impostor Bias and the Deepfake Detection Challenge in the Era of Artificial Illusions (Mirko Casu et al., 2023)
+
+{{<citation>}}
+
+Mirko Casu, Luca Guarnera, Pasquale Caponnetto, Sebastiano Battiato. (2023)  
+**AI Mirage: The Impostor Bias and the Deepfake Detection Challenge in the Era of Artificial Illusions**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: AI, Bias  
+[Paper Link](http://arxiv.org/abs/2312.16220v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper provides a comprehensive analysis of cognitive biases in forensics and digital forensics, examining their implications for decision-making processes in these fields. It explores the various types of cognitive biases that may arise during forensic investigations and digital forensic analyses, such as confirmation bias, expectation bias, overconfidence in errors, contextual bias, and attributional biases. It also evaluates existing methods and techniques used to mitigate cognitive biases in these contexts, assessing the effectiveness of interventions aimed at reducing biases and improving decision-making outcomes. Additionally, this paper introduces a new cognitive bias, called "impostor bias", that may affect the use of generative Artificial Intelligence (AI) tools in forensics and digital forensics. The impostor bias is the tendency to doubt the authenticity or validity of the output generated by AI tools, such as deepfakes, in the form of audio, images, and videos. This bias may lead to erroneous judgments or false accusations, undermining the reliability and credibility of forensic evidence. The paper discusses the potential causes and consequences of the impostor bias, and suggests some strategies to prevent or counteract it. By addressing these topics, this paper seeks to offer valuable insights into understanding cognitive biases in forensic practices and provide recommendations for future research and practical applications to enhance the objectivity and validity of forensic investigations.
+
+{{</citation>}}
+
+
+### (15/39) iDet3D: Towards Efficient Interactive Object Detection for LiDAR Point Clouds (Dongmin Choi et al., 2023)
 
 {{<citation>}}
 
@@ -363,7 +386,7 @@ Accurately annotating multiple 3D objects in LiDAR scenes is laborious and chall
 {{</citation>}}
 
 
-### (15/35) Make-A-Character: High Quality Text-to-3D Character Generation within Minutes (Jianqiang Ren et al., 2023)
+### (16/39) Make-A-Character: High Quality Text-to-3D Character Generation within Minutes (Jianqiang Ren et al., 2023)
 
 {{<citation>}}
 
@@ -385,7 +408,7 @@ There is a growing demand for customized and expressive 3D characters with the e
 {{</citation>}}
 
 
-### (16/35) Knowledge Guided Semi-Supervised Learning for Quality Assessment of User Generated Videos (Shankhanil Mitra et al., 2023)
+### (17/39) Knowledge Guided Semi-Supervised Learning for Quality Assessment of User Generated Videos (Shankhanil Mitra et al., 2023)
 
 {{<citation>}}
 
@@ -407,7 +430,29 @@ Perceptual quality assessment of user generated content (UGC) videos is challeng
 {{</citation>}}
 
 
-### (17/35) Debiased Learning for Remote Sensing Data (Chun-Hsiao Yeh et al., 2023)
+### (18/39) ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation (Xiaoqi Li et al., 2023)
+
+{{<citation>}}
+
+Xiaoqi Li, Mingxu Zhang, Yiran Geng, Haoran Geng, Yuxing Long, Yan Shen, Renrui Zhang, Jiaming Liu, Hao Dong. (2023)  
+**ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-RO, cs.CV  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2312.16217v1)  
+
+---
+
+
+**ABSTRACT**  
+Robot manipulation relies on accurately predicting contact points and end-effector directions to ensure successful operation. However, learning-based robot manipulation, trained on a limited category within a simulator, often struggles to achieve generalizability, especially when confronted with extensive categories. Therefore, we introduce an innovative approach for robot manipulation that leverages the robust reasoning capabilities of Multimodal Large Language Models (MLLMs) to enhance the stability and generalization of manipulation. By fine-tuning the injected adapters, we preserve the inherent common sense and reasoning ability of the MLLMs while equipping them with the ability for manipulation. The fundamental insight lies in the introduced fine-tuning paradigm, encompassing object category understanding, affordance prior reasoning, and object-centric pose prediction to stimulate the reasoning ability of MLLM in manipulation. During inference, our approach utilizes an RGB image and text prompt to predict the end effector's pose in chain of thoughts. After the initial contact is established, an active impedance adaptation policy is introduced to plan the upcoming waypoints in a closed-loop manner. Moreover, in real world, we design a test-time adaptation (TTA) strategy for manipulation to enable the model better adapt to the current real-world scene configuration. Experiments in simulator and real-world show the promising performance of ManipLLM. More details and demonstrations can be found at https://sites.google.com/view/manipllm.
+
+{{</citation>}}
+
+
+### (19/39) Debiased Learning for Remote Sensing Data (Chun-Hsiao Yeh et al., 2023)
 
 {{<citation>}}
 
@@ -429,7 +474,7 @@ Deep learning has had remarkable success at analyzing handheld imagery such as c
 {{</citation>}}
 
 
-### (18/35) End-to-End 3D Object Detection using LiDAR Point Cloud (Gaurav Raut et al., 2023)
+### (20/39) End-to-End 3D Object Detection using LiDAR Point Cloud (Gaurav Raut et al., 2023)
 
 {{<citation>}}
 
@@ -451,11 +496,59 @@ There has been significant progress made in the field of autonomous vehicles. Ob
 {{</citation>}}
 
 
+## cs.SD (2)
+
+
+
+### (21/39) Deformable Audio Transformer for Audio Event Detection (Wentao Zhu, 2023)
+
+{{<citation>}}
+
+Wentao Zhu. (2023)  
+**Deformable Audio Transformer for Audio Event Detection**  
+
+---
+Primary Category: cs.SD  
+Categories: cs-LG, cs-MM, cs-NE, cs-SD, cs.SD, eess-AS  
+Keywords: Event Detection, Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2312.16228v1)  
+
+---
+
+
+**ABSTRACT**  
+Transformers have achieved promising results on a variety of tasks. However, the quadratic complexity in self-attention computation has limited the applications, especially in low-resource settings and mobile or edge devices. Existing works have proposed to exploit hand-crafted attention patterns to reduce computation complexity. However, such hand-crafted patterns are data-agnostic and may not be optimal. Hence, it is likely that relevant keys or values are being reduced, while less important ones are still preserved. Based on this key insight, we propose a novel deformable audio Transformer for audio recognition, named DATAR, where a deformable attention equipping with a pyramid transformer backbone is constructed and learnable. Such an architecture has been proven effective in prediction tasks,~\textit{e.g.}, event classification. Moreover, we identify that the deformable attention map computation may over-simplify the input feature, which can be further enhanced. Hence, we introduce a learnable input adaptor to alleviate this issue, and DATAR achieves state-of-the-art performance.
+
+{{</citation>}}
+
+
+### (22/39) Combinatorial music generation model with song structure graph analysis (Seonghyeon Go et al., 2023)
+
+{{<citation>}}
+
+Seonghyeon Go, Kyogu Lee. (2023)  
+**Combinatorial music generation model with song structure graph analysis**  
+
+---
+Primary Category: cs.SD  
+Categories: cs-AI, cs-SD, cs.SD, eess-AS  
+Keywords: Graph Neural Network  
+[Paper Link](http://arxiv.org/abs/2312.15400v1)  
+
+---
+
+
+**ABSTRACT**  
+In this work, we propose a symbolic music generation model with the song structure graph analysis network. We construct a graph that uses information such as note sequence and instrument as node features, while the correlation between note sequences acts as the edge feature. We trained a Graph Neural Network to obtain node representation in the graph, then we use node representation as input of Unet to generate CONLON pianoroll image latent. The outcomes of our experimental results show that the proposed model can generate a comprehensive form of music. Our approach represents a promising and innovative method for symbolic music generation and holds potential applications in various fields in Music Information Retreival, including music composition, music classification, and music inpainting systems.
+
+{{</citation>}}
+
+
 ## cs.IR (3)
 
 
 
-### (19/35) Aspect category learning and sentimental analysis using weakly supervised learning (Kalpa Subbaih et al., 2023)
+### (23/39) Aspect category learning and sentimental analysis using weakly supervised learning (Kalpa Subbaih et al., 2023)
 
 {{<citation>}}
 
@@ -477,7 +570,7 @@ The surge of e-commerce reviews has presented a challenge in manually annotating
 {{</citation>}}
 
 
-### (20/35) Diffusion-EXR: Controllable Review Generation for Explainable Recommendation via Diffusion Models (Ling Li et al., 2023)
+### (24/39) Diffusion-EXR: Controllable Review Generation for Explainable Recommendation via Diffusion Models (Ling Li et al., 2023)
 
 {{<citation>}}
 
@@ -499,7 +592,7 @@ Denoising Diffusion Probabilistic Model (DDPM) has shown great competence in ima
 {{</citation>}}
 
 
-### (21/35) Agent4Ranking: Semantic Robust Ranking via Personalized Query Rewriting Using Multi-agent LLM (Xiaopeng Li et al., 2023)
+### (25/39) Agent4Ranking: Semantic Robust Ranking via Personalized Query Rewriting Using Multi-agent LLM (Xiaopeng Li et al., 2023)
 
 {{<citation>}}
 
@@ -525,7 +618,7 @@ Search engines are crucial as they provide an efficient and easy way to access v
 
 
 
-### (22/35) The Challenge of Using LLMs to Simulate Human Behavior: A Causal Inference Perspective (George Gui et al., 2023)
+### (26/39) The Challenge of Using LLMs to Simulate Human Behavior: A Causal Inference Perspective (George Gui et al., 2023)
 
 {{<citation>}}
 
@@ -551,7 +644,7 @@ Large Language Models (LLMs) have demonstrated impressive potential to simulate 
 
 
 
-### (23/35) The Persuasive Power of Large Language Models (Simon Martin Breum et al., 2023)
+### (27/39) The Persuasive Power of Large Language Models (Simon Martin Breum et al., 2023)
 
 {{<citation>}}
 
@@ -577,7 +670,7 @@ The increasing capability of Large Language Models to act as human-like social a
 
 
 
-### (24/35) Graph Coarsening via Convolution Matching for Scalable Graph Neural Network Training (Charles Dickens et al., 2023)
+### (28/39) Graph Coarsening via Convolution Matching for Scalable Graph Neural Network Training (Charles Dickens et al., 2023)
 
 {{<citation>}}
 
@@ -599,7 +692,7 @@ Graph summarization as a preprocessing step is an effective and complementary te
 {{</citation>}}
 
 
-### (25/35) A Trust Region Approach for Few-Shot Sim-to-Real Reinforcement Learning (Paul Daoudi et al., 2023)
+### (29/39) A Trust Region Approach for Few-Shot Sim-to-Real Reinforcement Learning (Paul Daoudi et al., 2023)
 
 {{<citation>}}
 
@@ -621,7 +714,7 @@ Simulation-to-Reality Reinforcement Learning (Sim-to-Real RL) seeks to use simul
 {{</citation>}}
 
 
-### (26/35) CARSS: Cooperative Attention-guided Reinforcement Subpath Synthesis for Solving Traveling Salesman Problem (Yuchen Shi et al., 2023)
+### (30/39) CARSS: Cooperative Attention-guided Reinforcement Subpath Synthesis for Solving Traveling Salesman Problem (Yuchen Shi et al., 2023)
 
 {{<citation>}}
 
@@ -643,11 +736,37 @@ This paper introduces CARSS (Cooperative Attention-guided Reinforcement Subpath 
 {{</citation>}}
 
 
+## q-fin.ST (1)
+
+
+
+### (31/39) Increasing Profitability and Confidence by using Interpretable Model for Investment Decisions (Sahar Arshad et al., 2023)
+
+{{<citation>}}
+
+Sahar Arshad, Seemab Latif, Ahmad Salman, Saadia Irfan. (2023)  
+**Increasing Profitability and Confidence by using Interpretable Model for Investment Decisions**  
+
+---
+Primary Category: q-fin.ST  
+Categories: cs-AI, cs-LG, q-fin-ST, q-fin.ST  
+Keywords: Financial  
+[Paper Link](http://arxiv.org/abs/2312.16223v1)  
+
+---
+
+
+**ABSTRACT**  
+Financial forecasting plays an important role in making informed decisions for financial stakeholders, specifically in the stock exchange market. In a traditional setting, investors commonly rely on the equity research department for valuable reports on market insights and investment recommendations. The equity research department, however, faces challenges in effectuating decision-making due to the demanding cognitive effort required for analyzing the inherently volatile nature of market dynamics. Furthermore, financial forecasting systems employed by analysts pose potential risks in terms of interpretability and gaining the trust of all stakeholders. This paper presents an interpretable decision-making model leveraging the SHAP-based explainability technique to forecast investment recommendations. The proposed solution not only provides valuable insights into the factors that influence forecasted recommendations but also caters to investors of varying types, including those interested in daily and short-term investment opportunities. To ascertain the efficacy of the proposed model, a case study is devised that demonstrates a notable enhancement in investor's portfolio value, employing our trading strategies. The results highlight the significance of incorporating interpretability in forecasting models to boost stakeholders' confidence and foster transparency in the stock exchange domain.
+
+{{</citation>}}
+
+
 ## eess.SY (1)
 
 
 
-### (27/35) Agent based modelling for continuously varying supply chains (Wan Wang et al., 2023)
+### (32/39) Agent based modelling for continuously varying supply chains (Wan Wang et al., 2023)
 
 {{<citation>}}
 
@@ -673,7 +792,7 @@ Problem definition: Supply chains are constantly evolving networks. Reinforcemen
 
 
 
-### (28/35) Towards Consistent Language Models Using Declarative Constraints (Jasmin Mousavi et al., 2023)
+### (33/39) Towards Consistent Language Models Using Declarative Constraints (Jasmin Mousavi et al., 2023)
 
 {{<citation>}}
 
@@ -699,7 +818,7 @@ Large language models have shown unprecedented abilities in generating linguisti
 
 
 
-### (29/35) Consistent and Relevant: Rethink the Query Embedding in General Sound Separation (Yuanyuan Wang et al., 2023)
+### (34/39) Consistent and Relevant: Rethink the Query Embedding in General Sound Separation (Yuanyuan Wang et al., 2023)
 
 {{<citation>}}
 
@@ -725,7 +844,7 @@ The query-based audio separation usually employs specific queries to extract tar
 
 
 
-### (30/35) Conservative Exploration for Policy Optimization via Off-Policy Policy Evaluation (Paul Daoudi et al., 2023)
+### (35/39) Conservative Exploration for Policy Optimization via Off-Policy Policy Evaluation (Paul Daoudi et al., 2023)
 
 {{<citation>}}
 
@@ -751,7 +870,7 @@ A precondition for the deployment of a Reinforcement Learning agent to a real-wo
 
 
 
-### (31/35) Variation-Resilient FeFET-Based In-Memory Computing Leveraging Probabilistic Deep Learning (Bibhas Manna et al., 2023)
+### (36/39) Variation-Resilient FeFET-Based In-Memory Computing Leveraging Probabilistic Deep Learning (Bibhas Manna et al., 2023)
 
 {{<citation>}}
 
@@ -773,37 +892,11 @@ Reliability issues stemming from device level non-idealities of non-volatile eme
 {{</citation>}}
 
 
-## cs.SD (1)
-
-
-
-### (32/35) Combinatorial music generation model with song structure graph analysis (Seonghyeon Go et al., 2023)
-
-{{<citation>}}
-
-Seonghyeon Go, Kyogu Lee. (2023)  
-**Combinatorial music generation model with song structure graph analysis**  
-
----
-Primary Category: cs.SD  
-Categories: cs-AI, cs-SD, cs.SD, eess-AS  
-Keywords: Graph Neural Network  
-[Paper Link](http://arxiv.org/abs/2312.15400v1)  
-
----
-
-
-**ABSTRACT**  
-In this work, we propose a symbolic music generation model with the song structure graph analysis network. We construct a graph that uses information such as note sequence and instrument as node features, while the correlation between note sequences acts as the edge feature. We trained a Graph Neural Network to obtain node representation in the graph, then we use node representation as input of Unet to generate CONLON pianoroll image latent. The outcomes of our experimental results show that the proposed model can generate a comprehensive form of music. Our approach represents a promising and innovative method for symbolic music generation and holds potential applications in various fields in Music Information Retreival, including music composition, music classification, and music inpainting systems.
-
-{{</citation>}}
-
-
 ## cs.DC (1)
 
 
 
-### (33/35) DEAP: Design Space Exploration for DNN Accelerator Parallelism (Ekansh Agrawal et al., 2023)
+### (37/39) DEAP: Design Space Exploration for DNN Accelerator Parallelism (Ekansh Agrawal et al., 2023)
 
 {{<citation>}}
 
@@ -829,7 +922,7 @@ The boom in Large Language Models (LLMs) like GPT-4 and ChatGPT has marked a sig
 
 
 
-### (34/35) MotifPiece: A Data-Driven Approach for Effective Motif Extraction and Molecular Representation Learning (Zhaoning Yu et al., 2023)
+### (38/39) MotifPiece: A Data-Driven Approach for Effective Motif Extraction and Molecular Representation Learning (Zhaoning Yu et al., 2023)
 
 {{<citation>}}
 
@@ -855,7 +948,7 @@ Motif extraction is an important task in motif based molecular representation le
 
 
 
-### (35/35) Discrete-Time Mean-Variance Strategy Based on Reinforcement Learning (Xiangyu Cui et al., 2023)
+### (39/39) Discrete-Time Mean-Variance Strategy Based on Reinforcement Learning (Xiangyu Cui et al., 2023)
 
 {{<citation>}}
 

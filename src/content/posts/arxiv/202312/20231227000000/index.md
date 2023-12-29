@@ -22,15 +22,15 @@ math: true
 ## Primary Categories
 
 - [cs.IR (4)](#csir-4)
-- [cs.CV (17)](#cscv-17)
+- [cs.CV (20)](#cscv-20)
 - [cs.SD (3)](#cssd-3)
 - [cs.SI (1)](#cssi-1)
-- [cs.CL (12)](#cscl-12)
+- [cs.CL (13)](#cscl-13)
 - [cs.RO (1)](#csro-1)
 - [cs.NI (1)](#csni-1)
 - [cs.DM (1)](#csdm-1)
+- [cs.LG (5)](#cslg-5)
 - [cs.AI (4)](#csai-4)
-- [cs.LG (3)](#cslg-3)
 - [cs.SE (1)](#csse-1)
 - [cs.MA (1)](#csma-1)
 - [eess.SY (1)](#eesssy-1)
@@ -41,7 +41,7 @@ math: true
 
 
 
-### (1/52) Adversarial Item Promotion on Visually-Aware Recommender Systems by Guided Diffusion (Lijian Chen et al., 2023)
+### (1/58) Adversarial Item Promotion on Visually-Aware Recommender Systems by Guided Diffusion (Lijian Chen et al., 2023)
 
 {{<citation>}}
 
@@ -63,7 +63,7 @@ Visually-aware recommender systems have found widespread application in domains 
 {{</citation>}}
 
 
-### (2/52) Large Language Models are Not Stable Recommender Systems (Tianhui Ma et al., 2023)
+### (2/58) Large Language Models are Not Stable Recommender Systems (Tianhui Ma et al., 2023)
 
 {{<citation>}}
 
@@ -85,18 +85,18 @@ With the significant successes of large language models (LLMs) in many natural l
 {{</citation>}}
 
 
-### (3/52) Unlocking the Potential of Large Language Models for Explainable Recommendations (Yucong Luo et al., 2023)
+### (3/58) Unlocking the Potential of Large Language Models for Explainable Recommendations (Yucong Luo et al., 2023)
 
 {{<citation>}}
 
-Yucong Luo, Mingyue Cheng, Hao Zhang, Junyu Lu, Enhong Chen. (2023)  
+Yucong Luo, Mingyue Cheng, Hao Zhang, Junyu Lu, Qi Liu, Enhong Chen. (2023)  
 **Unlocking the Potential of Large Language Models for Explainable Recommendations**  
 
 ---
 Primary Category: cs.IR  
 Categories: cs-AI, cs-IR, cs.IR  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.15661v1)  
+[Paper Link](http://arxiv.org/abs/2312.15661v2)  
 
 ---
 
@@ -107,7 +107,7 @@ Generating user-friendly explanations regarding why an item is recommended has b
 {{</citation>}}
 
 
-### (4/52) Preliminary Study on Incremental Learning for Large Language Model-based Recommender Systems (Tianhao Shi et al., 2023)
+### (4/58) Preliminary Study on Incremental Learning for Large Language Model-based Recommender Systems (Tianhao Shi et al., 2023)
 
 {{<citation>}}
 
@@ -129,11 +129,11 @@ Adapting Large Language Models for recommendation (LLM4Rec)has garnered substant
 {{</citation>}}
 
 
-## cs.CV (17)
+## cs.CV (20)
 
 
 
-### (5/52) Comparative Analysis of Radiomic Features and Gene Expression Profiles in Histopathology Data Using Graph Neural Networks (Luis Carlos Rivera Monroy et al., 2023)
+### (5/58) Comparative Analysis of Radiomic Features and Gene Expression Profiles in Histopathology Data Using Graph Neural Networks (Luis Carlos Rivera Monroy et al., 2023)
 
 {{<citation>}}
 
@@ -155,7 +155,7 @@ This study leverages graph neural networks to integrate MELC data with Radiomic-
 {{</citation>}}
 
 
-### (6/52) WebVLN: Vision-and-Language Navigation on Websites (Qi Chen et al., 2023)
+### (6/58) WebVLN: Vision-and-Language Navigation on Websites (Qi Chen et al., 2023)
 
 {{<citation>}}
 
@@ -177,7 +177,7 @@ Vision-and-Language Navigation (VLN) task aims to enable AI agents to accurately
 {{</citation>}}
 
 
-### (7/52) Contrastive Learning-Based Framework for Sim-to-Real Mapping of Lidar Point Clouds in Autonomous Driving Systems (Hamed Haghighi et al., 2023)
+### (7/58) Contrastive Learning-Based Framework for Sim-to-Real Mapping of Lidar Point Clouds in Autonomous Driving Systems (Hamed Haghighi et al., 2023)
 
 {{<citation>}}
 
@@ -199,7 +199,29 @@ Perception sensor models are essential elements of automotive simulation environ
 {{</citation>}}
 
 
-### (8/52) A Recipe for Scaling up Text-to-Video Generation with Text-free Videos (Xiang Wang et al., 2023)
+### (8/58) MetaScript: Few-Shot Handwritten Chinese Content Generation via Generative Adversarial Networks (Xiangyuan Xue et al., 2023)
+
+{{<citation>}}
+
+Xiangyuan Xue, Kailing Wang, Jiazi Bu, Qirui Li, Zhiyuan Zhang. (2023)  
+**MetaScript: Few-Shot Handwritten Chinese Content Generation via Generative Adversarial Networks**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: Few-Shot  
+[Paper Link](http://arxiv.org/abs/2312.16251v1)  
+
+---
+
+
+**ABSTRACT**  
+In this work, we propose MetaScript, a novel Chinese content generation system designed to address the diminishing presence of personal handwriting styles in the digital representation of Chinese characters. Our approach harnesses the power of few-shot learning to generate Chinese characters that not only retain the individual's unique handwriting style but also maintain the efficiency of digital typing. Trained on a diverse dataset of handwritten styles, MetaScript is adept at producing high-quality stylistic imitations from minimal style references and standard fonts. Our work demonstrates a practical solution to the challenges of digital typography in preserving the personal touch in written communication, particularly in the context of Chinese script. Notably, our system has demonstrated superior performance in various evaluations, including recognition accuracy, inception score, and Frechet inception distance. At the same time, the training conditions of our model are easy to meet and facilitate generalization to real applications.
+
+{{</citation>}}
+
+
+### (9/58) A Recipe for Scaling up Text-to-Video Generation with Text-free Videos (Xiang Wang et al., 2023)
 
 {{<citation>}}
 
@@ -221,7 +243,7 @@ Diffusion-based text-to-video generation has witnessed impressive progress in th
 {{</citation>}}
 
 
-### (9/52) DI-V2X: Learning Domain-Invariant Representation for Vehicle-Infrastructure Collaborative 3D Object Detection (Li Xiang et al., 2023)
+### (10/58) DI-V2X: Learning Domain-Invariant Representation for Vehicle-Infrastructure Collaborative 3D Object Detection (Li Xiang et al., 2023)
 
 {{<citation>}}
 
@@ -243,7 +265,7 @@ Vehicle-to-Everything (V2X) collaborative perception has recently gained signifi
 {{</citation>}}
 
 
-### (10/52) Adaptive FSS: A Novel Few-Shot Segmentation Framework via Prototype Enhancement (Jing Wang et al., 2023)
+### (11/58) Adaptive FSS: A Novel Few-Shot Segmentation Framework via Prototype Enhancement (Jing Wang et al., 2023)
 
 {{<citation>}}
 
@@ -254,18 +276,18 @@ Jing Wang, Jinagyun Li, Chen Chen, Yisi Zhang, Haoran Shen, Tianxiang Zhang. (20
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Few-Shot  
-[Paper Link](http://arxiv.org/abs/2312.15731v1)  
+[Paper Link](http://arxiv.org/abs/2312.15731v2)  
 
 ---
 
 
 **ABSTRACT**  
-The Few-Shot Segmentation (FSS) aims to accomplish the novel class segmentation task with a few annotated images. Current FSS research based on meta-learning focus on designing a complex interaction mechanism between the query and support feature. However, unlike humans who can rapidly learn new things from limited samples, the existing approach relies solely on fixed feature matching to tackle new tasks, lacking adaptability. In this paper, we propose a novel framework based on the adapter mechanism, namely Adaptive FSS, which can efficiently adapt the existing FSS model to the novel classes. In detail, we design the Prototype Adaptive Module (PAM), which utilizes accurate category information provided by the support set to derive class prototypes, enhancing class-specific information in the multi-stage representation. In addition, our approach is compatible with in diverse FSS methods with different backbones by simply inserting PAM between the layers of the encoder. Experiments demonstrate that our method effectively improves the performance of the FSS models (e.g., MSANet, HDMNet, FPTrans, and DCAMA) and achieve new state-of-the-art (SOTA) results (i.e., 72.4\% and 79.1\% mIoU on PASCAL-5$^i$ 1-shot and 5-shot settings, 52.7\% and 60.0\% mIoU on COCO-20$^i$ 1-shot and 5-shot settings). Our code can be available at https://github.com/jingw193/Adaptive_FSS.
+The Few-Shot Segmentation (FSS) aims to accomplish the novel class segmentation task with a few annotated images. Current FSS research based on meta-learning focus on designing a complex interaction mechanism between the query and support feature. However, unlike humans who can rapidly learn new things from limited samples, the existing approach relies solely on fixed feature matching to tackle new tasks, lacking adaptability. In this paper, we propose a novel framework based on the adapter mechanism, namely Adaptive FSS, which can efficiently adapt the existing FSS model to the novel classes. In detail, we design the Prototype Adaptive Module (PAM), which utilizes accurate category information provided by the support set to derive class prototypes, enhancing class-specific information in the multi-stage representation. In addition, our approach is compatible with in diverse FSS methods with different backbones by simply inserting PAM between the layers of the encoder. Experiments demonstrate that our method effectively improves the performance of the FSS models (e.g., MSANet, HDMNet, FPTrans, and DCAMA) and achieve new state-of-the-art (SOTA) results (i.e., 72.4\% and 79.1\% mIoU on PASCAL-5$^i$ 1-shot and 5-shot settings, 52.7\% and 60.0\% mIoU on COCO-20$^i$ 1-shot and 5-shot settings). Our code can be available at https://github.com/jingw193/AdaptiveFSS.
 
 {{</citation>}}
 
 
-### (11/52) UniRef++: Segment Every Reference Object in Spatial and Temporal Spaces (Jiannan Wu et al., 2023)
+### (12/58) UniRef++: Segment Every Reference Object in Spatial and Temporal Spaces (Jiannan Wu et al., 2023)
 
 {{<citation>}}
 
@@ -287,7 +309,29 @@ The reference-based object segmentation tasks, namely referring image segmentati
 {{</citation>}}
 
 
-### (12/52) Three Heads Are Better Than One: Complementary Experts for Long-Tailed Semi-supervised Learning (Chengcheng Ma et al., 2023)
+### (13/58) Nighttime Person Re-Identification via Collaborative Enhancement Network with Multi-domain Learning (Andong Lu et al., 2023)
+
+{{<citation>}}
+
+Andong Lu, Tianrui Zha, Chenglong Li, Jin Tang, Xiaofeng Wang, Bin Luo. (2023)  
+**Nighttime Person Re-Identification via Collaborative Enhancement Network with Multi-domain Learning**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2312.16246v1)  
+
+---
+
+
+**ABSTRACT**  
+Prevalent nighttime ReID methods typically combine relighting networks and ReID networks in a sequential manner, which not only restricts the ReID performance by the quality of relighting images, but also neglects the effective collaborative modeling between image relighting and person ReID tasks. To handle these problems, we propose a novel Collaborative Enhancement Network called CENet, which performs the multilevel feature interactions in a parallel framework, for nighttime person ReID. In particular, CENet is a parallel Transformer network, in which the designed parallel structure can avoid the impact of the quality of relighting images on ReID performance. To perform effective collaborative modeling between image relighting and person ReID tasks, we integrate the multilevel feature interactions in CENet. Specifically, we share the Transformer encoder to build the low-level feature interaction, and then perform the feature distillation to transfer the high-level features from image relighting to ReID. In addition, the sizes of existing real-world nighttime person ReID datasets are small, and large-scale synthetic ones exhibit substantial domain gaps with real-world data. To leverage both small-scale real-world and large-scale synthetic training data, we develop a multi-domain learning algorithm, which alternately utilizes both kinds of data to reduce the inter-domain difference in the training of CENet. Extensive experiments on two real nighttime datasets, \textit{Night600} and \textit{RGBNT201$_{rgb}$}, and a synthetic nighttime ReID dataset are conducted to validate the effectiveness of CENet. We will release the code and synthetic dataset.
+
+{{</citation>}}
+
+
+### (14/58) Three Heads Are Better Than One: Complementary Experts for Long-Tailed Semi-supervised Learning (Chengcheng Ma et al., 2023)
 
 {{<citation>}}
 
@@ -309,7 +353,7 @@ We address the challenging problem of Long-Tailed Semi-Supervised Learning (LTSS
 {{</citation>}}
 
 
-### (13/52) Word length-aware text spotting: Enhancing detection and recognition in dense text image (Hao Wang et al., 2023)
+### (15/58) Word length-aware text spotting: Enhancing detection and recognition in dense text image (Hao Wang et al., 2023)
 
 {{<citation>}}
 
@@ -331,7 +375,7 @@ Scene text spotting is essential in various computer vision applications, enabli
 {{</citation>}}
 
 
-### (14/52) Partial Fine-Tuning: A Successor to Full Fine-Tuning for Vision Transformers (Peng Ye et al., 2023)
+### (16/58) Partial Fine-Tuning: A Successor to Full Fine-Tuning for Vision Transformers (Peng Ye et al., 2023)
 
 {{<citation>}}
 
@@ -353,7 +397,29 @@ Fine-tuning pre-trained foundation models has gained significant popularity in v
 {{</citation>}}
 
 
-### (15/52) Open-Vocabulary Video Relation Extraction (Wentao Tian et al., 2023)
+### (17/58) Merging Vision Transformers from Different Tasks and Domains (Peng Ye et al., 2023)
+
+{{<citation>}}
+
+Peng Ye, Chenyu Huang, Mingzhu Shen, Tao Chen, Yongqi Huang, Yuning Zhang, Wanli Ouyang. (2023)  
+**Merging Vision Transformers from Different Tasks and Domains**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: Attention, Embedding, NLP, Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2312.16240v1)  
+
+---
+
+
+**ABSTRACT**  
+This work targets to merge various Vision Transformers (ViTs) trained on different tasks (i.e., datasets with different object categories) or domains (i.e., datasets with the same categories but different environments) into one unified model, yielding still good performance on each task or domain. Previous model merging works focus on either CNNs or NLP models, leaving the ViTs merging research untouched. To fill this gap, we first explore and find that existing model merging methods cannot well handle the merging of the whole ViT models and still have improvement space. To enable the merging of the whole ViT, we propose a simple-but-effective gating network that can both merge all kinds of layers (e.g., Embedding, Norm, Attention, and MLP) and select the suitable classifier. Specifically, the gating network is trained by unlabeled datasets from all the tasks (domains), and predicts the probability of which task (domain) the input belongs to for merging the models during inference. To further boost the performance of the merged model, especially when the difficulty of merging tasks increases, we design a novel metric of model weight similarity, and utilize it to realize controllable and combined weight merging. Comprehensive experiments on kinds of newly established benchmarks, validate the superiority of the proposed ViT merging framework for different tasks and domains. Our method can even merge beyond 10 ViT models from different vision tasks with a negligible effect on the performance of each task.
+
+{{</citation>}}
+
+
+### (18/58) Open-Vocabulary Video Relation Extraction (Wentao Tian et al., 2023)
 
 {{<citation>}}
 
@@ -375,7 +441,7 @@ A comprehensive understanding of videos is inseparable from describing the actio
 {{</citation>}}
 
 
-### (16/52) IQAGPT: Image Quality Assessment with Vision-language and ChatGPT Models (Zhihao Chen et al., 2023)
+### (19/58) IQAGPT: Image Quality Assessment with Vision-language and ChatGPT Models (Zhihao Chen et al., 2023)
 
 {{<citation>}}
 
@@ -397,7 +463,7 @@ Large language models (LLMs), such as ChatGPT, have demonstrated impressive capa
 {{</citation>}}
 
 
-### (17/52) Lifting by Image -- Leveraging Image Cues for Accurate 3D Human Pose Estimation (Feng Zhou et al., 2023)
+### (20/58) Lifting by Image -- Leveraging Image Cues for Accurate 3D Human Pose Estimation (Feng Zhou et al., 2023)
 
 {{<citation>}}
 
@@ -419,7 +485,7 @@ The "lifting from 2D pose" method has been the dominant approach to 3D Human Pos
 {{</citation>}}
 
 
-### (18/52) MuLA-GAN: Multi-Level Attention GAN for Enhanced Underwater Visibility (Ahsan Baidar Bakht et al., 2023)
+### (21/58) MuLA-GAN: Multi-Level Attention GAN for Enhanced Underwater Visibility (Ahsan Baidar Bakht et al., 2023)
 
 {{<citation>}}
 
@@ -441,7 +507,7 @@ The underwater environment presents unique challenges, including color distortio
 {{</citation>}}
 
 
-### (19/52) APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond (Yuxiang Yang et al., 2023)
+### (22/58) APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond (Yuxiang Yang et al., 2023)
 
 {{<citation>}}
 
@@ -463,7 +529,7 @@ Animal Pose Estimation and Tracking (APT) is a critical task in detecting and mo
 {{</citation>}}
 
 
-### (20/52) A Target Detection Algorithm in Traffic Scenes Based on Deep Reinforcement Learning (Xinyu Ren et al., 2023)
+### (23/58) A Target Detection Algorithm in Traffic Scenes Based on Deep Reinforcement Learning (Xinyu Ren et al., 2023)
 
 {{<citation>}}
 
@@ -485,7 +551,7 @@ This research presents a novel active detection model utilizing deep reinforceme
 {{</citation>}}
 
 
-### (21/52) Deep Structure and Attention Aware Subspace Clustering (Wenhao Wu et al., 2023)
+### (24/58) Deep Structure and Attention Aware Subspace Clustering (Wenhao Wu et al., 2023)
 
 {{<citation>}}
 
@@ -511,7 +577,7 @@ Clustering is a fundamental unsupervised representation learning task with wide 
 
 
 
-### (22/52) Self-Supervised Learning for Few-Shot Bird Sound Classification (Ilyass Moummad et al., 2023)
+### (25/58) Self-Supervised Learning for Few-Shot Bird Sound Classification (Ilyass Moummad et al., 2023)
 
 {{<citation>}}
 
@@ -522,7 +588,7 @@ Ilyass Moummad, Romain Serizel, Nicolas Farrugia. (2023)
 Primary Category: cs.SD  
 Categories: cs-LG, cs-SD, cs.SD, eess-AS  
 Keywords: Few-Shot, Self-Supervised  
-[Paper Link](http://arxiv.org/abs/2312.15824v1)  
+[Paper Link](http://arxiv.org/abs/2312.15824v2)  
 
 ---
 
@@ -533,7 +599,7 @@ Self-supervised learning (SSL) in audio holds significant potential across vario
 {{</citation>}}
 
 
-### (23/52) Uncertainty as a Predictor: Leveraging Self-Supervised Learning for Zero-Shot MOS Prediction (Aditya Ravuri et al., 2023)
+### (26/58) Uncertainty as a Predictor: Leveraging Self-Supervised Learning for Zero-Shot MOS Prediction (Aditya Ravuri et al., 2023)
 
 {{<citation>}}
 
@@ -555,7 +621,7 @@ Predicting audio quality in voice synthesis and conversion systems is a critical
 {{</citation>}}
 
 
-### (24/52) DSNet: Disentangled Siamese Network with Neutral Calibration for Speech Emotion Recognition (Chengxin Chen et al., 2023)
+### (27/58) DSNet: Disentangled Siamese Network with Neutral Calibration for Speech Emotion Recognition (Chengxin Chen et al., 2023)
 
 {{<citation>}}
 
@@ -581,7 +647,7 @@ One persistent challenge in deep learning based speech emotion recognition (SER)
 
 
 
-### (25/52) Viral Marketing in Social Networks with Competing Products (Ahad N. Zehmakan et al., 2023)
+### (28/58) Viral Marketing in Social Networks with Competing Products (Ahad N. Zehmakan et al., 2023)
 
 {{<citation>}}
 
@@ -603,11 +669,11 @@ Consider a directed network where each node is either red (using the red product
 {{</citation>}}
 
 
-## cs.CL (12)
+## cs.CL (13)
 
 
 
-### (26/52) TEILP: Time Prediction over Knowledge Graphs via Logical Reasoning (Siheng Xiong et al., 2023)
+### (29/58) TEILP: Time Prediction over Knowledge Graphs via Logical Reasoning (Siheng Xiong et al., 2023)
 
 {{<citation>}}
 
@@ -629,7 +695,7 @@ Conventional embedding-based models approach event time prediction in temporal k
 {{</citation>}}
 
 
-### (27/52) Compositional Generalization in Spoken Language Understanding (Avik Ray et al., 2023)
+### (30/58) Compositional Generalization in Spoken Language Understanding (Avik Ray et al., 2023)
 
 {{<citation>}}
 
@@ -651,7 +717,7 @@ State-of-the-art spoken language understanding (SLU) models have shown tremendou
 {{</citation>}}
 
 
-### (28/52) AHAM: Adapt, Help, Ask, Model -- Harvesting LLMs for literature mining (Boshko Koloski et al., 2023)
+### (31/58) AHAM: Adapt, Help, Ask, Model -- Harvesting LLMs for literature mining (Boshko Koloski et al., 2023)
 
 {{<citation>}}
 
@@ -673,7 +739,7 @@ In an era marked by a rapid increase in scientific publications, researchers gra
 {{</citation>}}
 
 
-### (29/52) Design and Implementation of a Tool for Extracting Uzbek Syllables (Ulugbek Salaev et al., 2023)
+### (32/58) Design and Implementation of a Tool for Extracting Uzbek Syllables (Ulugbek Salaev et al., 2023)
 
 {{<citation>}}
 
@@ -695,7 +761,7 @@ The accurate syllabification of words plays a vital role in various Natural Lang
 {{</citation>}}
 
 
-### (30/52) Solving Label Variation in Scientific Information Extraction via Multi-Task Learning (Dong Pham et al., 2023)
+### (33/58) Solving Label Variation in Scientific Information Extraction via Multi-Task Learning (Dong Pham et al., 2023)
 
 {{<citation>}}
 
@@ -717,7 +783,7 @@ Scientific Information Extraction (ScientificIE) is a critical task that involve
 {{</citation>}}
 
 
-### (31/52) PersianLLaMA: Towards Building First Persian Large Language Model (Mohammad Amin Abbasi et al., 2023)
+### (34/58) PersianLLaMA: Towards Building First Persian Large Language Model (Mohammad Amin Abbasi et al., 2023)
 
 {{<citation>}}
 
@@ -739,7 +805,7 @@ Despite the widespread use of the Persian language by millions globally, limited
 {{</citation>}}
 
 
-### (32/52) Alleviating Hallucinations of Large Language Models through Induced Hallucinations (Yue Zhang et al., 2023)
+### (35/58) Alleviating Hallucinations of Large Language Models through Induced Hallucinations (Yue Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -761,7 +827,7 @@ Despite their impressive capabilities, large language models (LLMs) have been ob
 {{</citation>}}
 
 
-### (33/52) EcomGPT-CT: Continual Pre-training of E-commerce Large Language Models with Semi-structured Data (Shirong Ma et al., 2023)
+### (36/58) EcomGPT-CT: Continual Pre-training of E-commerce Large Language Models with Semi-structured Data (Shirong Ma et al., 2023)
 
 {{<citation>}}
 
@@ -783,7 +849,7 @@ Large Language Models (LLMs) pre-trained on massive corpora have exhibited remar
 {{</citation>}}
 
 
-### (34/52) What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning (Wei Liu et al., 2023)
+### (37/58) What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning (Wei Liu et al., 2023)
 
 {{<citation>}}
 
@@ -805,7 +871,7 @@ Instruction tuning is a standard technique employed to align large language mode
 {{</citation>}}
 
 
-### (35/52) Conditional Variational Autoencoder for Sign Language Translation with Cross-Modal Alignment (Rui Zhao et al., 2023)
+### (38/58) Conditional Variational Autoencoder for Sign Language Translation with Cross-Modal Alignment (Rui Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -827,7 +893,7 @@ Sign language translation (SLT) aims to convert continuous sign language videos 
 {{</citation>}}
 
 
-### (36/52) A Split-and-Privatize Framework for Large Language Model Fine-Tuning (Xicong Shen et al., 2023)
+### (39/58) A Split-and-Privatize Framework for Large Language Model Fine-Tuning (Xicong Shen et al., 2023)
 
 {{<citation>}}
 
@@ -849,7 +915,29 @@ Fine-tuning is a prominent technique to adapt a pre-trained language model to do
 {{</citation>}}
 
 
-### (37/52) Reducing LLM Hallucinations using Epistemic Neural Networks (Shreyas Verma et al., 2023)
+### (40/58) Chatbot is Not All You Need: Information-rich Prompting for More Realistic Responses (Seokhoon Jeong et al., 2023)
+
+{{<citation>}}
+
+Seokhoon Jeong, Assentay Makhmud. (2023)  
+**Chatbot is Not All You Need: Information-rich Prompting for More Realistic Responses**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2312.16233v1)  
+
+---
+
+
+**ABSTRACT**  
+Recent Large Language Models (LLMs) have shown remarkable capabilities in mimicking fictional characters or real humans in conversational settings. However, the realism and consistency of these responses can be further enhanced by providing richer information of the agent being mimicked. In this paper, we propose a novel approach to generate more realistic and consistent responses from LLMs, leveraging five senses, attributes, emotional states, relationship with the interlocutor, and memories. By incorporating these factors, we aim to increase the LLM's capacity for generating natural and realistic reactions in conversational exchanges. Through our research, we expect to contribute to the development of LLMs that demonstrate improved capabilities in mimicking fictional characters. We release a new benchmark dataset and all our codes, prompts, and sample results on our Github: https://github.com/srafsasm/InfoRichBot
+
+{{</citation>}}
+
+
+### (41/58) Reducing LLM Hallucinations using Epistemic Neural Networks (Shreyas Verma et al., 2023)
 
 {{<citation>}}
 
@@ -875,7 +963,7 @@ Reducing and detecting hallucinations in large language models is an open resear
 
 
 
-### (38/52) A Closed-Loop Multi-perspective Visual Servoing Approach with Reinforcement Learning (Lei Zhang et al., 2023)
+### (42/58) A Closed-Loop Multi-perspective Visual Servoing Approach with Reinforcement Learning (Lei Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -901,7 +989,7 @@ Traditional visual servoing methods suffer from serving between scenes from mult
 
 
 
-### (39/52) Quantum-Assisted Online Task Offloading and Resource Allocation in MEC-Enabled Satellite-Aerial-Terrestrial Integrated Networks (Yu Zhang et al., 2023)
+### (43/58) Quantum-Assisted Online Task Offloading and Resource Allocation in MEC-Enabled Satellite-Aerial-Terrestrial Integrated Networks (Yu Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -927,7 +1015,7 @@ In the era of Internet of Things (IoT), multi-access edge computing (MEC)-enable
 
 
 
-### (40/52) Embedding 1-Planar Graphs in Ten Pages (Franz J. Brandenburg, 2023)
+### (44/58) Embedding 1-Planar Graphs in Ten Pages (Franz J. Brandenburg, 2023)
 
 {{<citation>}}
 
@@ -949,103 +1037,33 @@ Every planar graph has a 4-page book embedding and this bound is tight. We show 
 {{</citation>}}
 
 
-## cs.AI (4)
+## cs.LG (5)
 
 
 
-### (41/52) Spatial-Temporal Interplay in Human Mobility: A Hierarchical Reinforcement Learning Approach with Hypergraph Representation (Zhaofan Zhang et al., 2023)
+### (45/58) XuanCe: A Comprehensive and Unified Deep Reinforcement Learning Library (Wenzhang Liu et al., 2023)
 
 {{<citation>}}
 
-Zhaofan Zhang, Yanan Xiao, Lu Jiang, Dingqi Yang, Minghao Yin, Pengyang Wang. (2023)  
-**Spatial-Temporal Interplay in Human Mobility: A Hierarchical Reinforcement Learning Approach with Hypergraph Representation**  
+Wenzhang Liu, Wenzhe Cai, Kun Jiang, Guangran Cheng, Yuanda Wang, Jiawei Wang, Jingyu Cao, Lele Xu, Chaoxu Mu, Changyin Sun. (2023)  
+**XuanCe: A Comprehensive and Unified Deep Reinforcement Learning Library**  
 
 ---
-Primary Category: cs.AI  
-Categories: cs-AI, cs-CY, cs-LG, cs.AI  
+Primary Category: cs.LG  
+Categories: cs-AI, cs-DL, cs-LG, cs.LG  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2312.15717v1)  
+[Paper Link](http://arxiv.org/abs/2312.16248v1)  
 
 ---
 
 
 **ABSTRACT**  
-In the realm of human mobility, the decision-making process for selecting the next-visit location is intricately influenced by a trade-off between spatial and temporal constraints, which are reflective of individual needs and preferences. This trade-off, however, varies across individuals, making the modeling of these spatial-temporal dynamics a formidable challenge. To address the problem, in this work, we introduce the "Spatial-temporal Induced Hierarchical Reinforcement Learning" (STI-HRL) framework, for capturing the interplay between spatial and temporal factors in human mobility decision-making. Specifically, STI-HRL employs a two-tiered decision-making process: the low-level focuses on disentangling spatial and temporal preferences using dedicated agents, while the high-level integrates these considerations to finalize the decision. To complement the hierarchical decision setting, we construct a hypergraph to organize historical data, encapsulating the multi-aspect semantics of human mobility. We propose a cross-channel hypergraph embedding module to learn the representations as the states to facilitate the decision-making cycle. Our extensive experiments on two real-world datasets validate the superiority of STI-HRL over state-of-the-art methods in predicting users' next visits across various performance metrics.
+In this paper, we present XuanCe, a comprehensive and unified deep reinforcement learning (DRL) library designed to be compatible with PyTorch, TensorFlow, and MindSpore. XuanCe offers a wide range of functionalities, including over 40 classical DRL and multi-agent DRL algorithms, with the flexibility to easily incorporate new algorithms and environments. It is a versatile DRL library that supports CPU, GPU, and Ascend, and can be executed on various operating systems such as Ubuntu, Windows, MacOS, and EulerOS. Extensive benchmarks conducted on popular environments including MuJoCo, Atari, and StarCraftII multi-agent challenge demonstrate the library's impressive performance. XuanCe is open-source and can be accessed at https://github.com/agi-brain/xuance.git.
 
 {{</citation>}}
 
 
-### (42/52) Instruction Fusion: Advancing Prompt Evolution through Hybridization (Weidong Guo et al., 2023)
-
-{{<citation>}}
-
-Weidong Guo, Jiuding Yang, Kaitong Yang, Xiangyang Li, Zhuwei Rao, Yu Xu, Di Niu. (2023)  
-**Instruction Fusion: Advancing Prompt Evolution through Hybridization**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.15692v1)  
-
----
-
-
-**ABSTRACT**  
-The fine-tuning of Large Language Models (LLMs) specialized in code generation has seen notable advancements through the use of open-domain coding queries. Despite the successes, existing methodologies like \textit{Evol-Instruct} encounter performance limitations, impeding further enhancements in code generation tasks. This paper examines the constraints of existing prompt evolution techniques and introduces a novel approach, \textit{Instruction Fusion} (IF). IF innovatively combines two distinct prompts through a hybridization process, thereby enhancing the evolution of training prompts for code LLMs. Our experimental results reveal that the proposed novel method effectively addresses the shortcomings of prior methods, significantly improving the performance of Code LLMs across five code generation benchmarks, namely HumanEval, HumanEval+, MBPP, MBPP+ and MultiPL-E, which underscore the effectiveness of \textit{Instruction Fusion} in advancing the capabilities of LLMs in code generation.
-
-{{</citation>}}
-
-
-### (43/52) Abductive Logical Reasoning on Knowledge Graphs (Jiaxin Bai et al., 2023)
-
-{{<citation>}}
-
-Jiaxin Bai, Yicheng Wang, Tianshi Zheng, Yue Guo, Xin Liu, Yangqiu Song. (2023)  
-**Abductive Logical Reasoning on Knowledge Graphs**  
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs-CL, cs.AI  
-Keywords: Knowledge Graph, Reasoning, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2312.15643v1)  
-
----
-
-
-**ABSTRACT**  
-Abductive reasoning is logical reasoning that makes educated guesses to infer the most likely reasons to explain the observations. However, the abductive logical reasoning over knowledge graphs (KGs) is underexplored in KG literature. In this paper, we initially and formally raise the task of abductive logical reasoning over KGs, which involves inferring the most probable logic hypothesis from the KGs to explain an observed entity set. Traditional approaches use symbolic methods, like searching, to tackle the knowledge graph problem. However, the symbolic methods are unsuitable for this task, because the KGs are naturally incomplete, and the logical hypotheses can be complex with multiple variables and relations. To address these issues, we propose a generative approach to create logical expressions based on observations. First, we sample hypothesis-observation pairs from the KG and use supervised training to train a generative model that generates hypotheses from observations. Since supervised learning only minimizes structural differences between generated and reference hypotheses, higher structural similarity does not guarantee a better explanation for observations. To tackle this issue, we introduce the Reinforcement Learning from the Knowledge Graph (RLF-KG) method, which minimizes the differences between observations and conclusions drawn from the generated hypotheses according to the KG. Experimental results demonstrate that transformer-based generative models can generate logical explanations robustly and efficiently. Moreover, with the assistance of RLF-KG, the generated hypothesis can provide better explanations for the observations, and the method of supervised learning with RLF-KG achieves state-of-the-art results on abductive knowledge graph reasoning on three widely used KGs.
-
-{{</citation>}}
-
-
-### (44/52) RDF-star2Vec: RDF-star Graph Embeddings for Data Mining (Shusaku Egami et al., 2023)
-
-{{<citation>}}
-
-Shusaku Egami, Takanori Ugai, Masateru Oota, Kyoumoto Matsushita, Takahiro Kawamura, Kouji Kozaki, Ken Fukuda. (2023)  
-**RDF-star2Vec: RDF-star Graph Embeddings for Data Mining**  
-
----
-Primary Category: cs.AI  
-Categories: I-2-7; I-2-4; I-2-6, cs-AI, cs-CL, cs-IR, cs-LG, cs.AI  
-Keywords: Embedding, Knowledge Graph  
-[Paper Link](http://arxiv.org/abs/2312.15626v1)  
-
----
-
-
-**ABSTRACT**  
-Knowledge Graphs (KGs) such as Resource Description Framework (RDF) data represent relationships between various entities through the structure of triples (<subject, predicate, object>). Knowledge graph embedding (KGE) is crucial in machine learning applications, specifically in node classification and link prediction tasks. KGE remains a vital research topic within the semantic web community. RDF-star introduces the concept of a quoted triple (QT), a specific form of triple employed either as the subject or object within another triple. Moreover, RDF-star permits a QT to act as compositional entities within another QT, thereby enabling the representation of recursive, hyper-relational KGs with nested structures. However, existing KGE models fail to adequately learn the semantics of QTs and entities, primarily because they do not account for RDF-star graphs containing multi-leveled nested QTs and QT-QT relationships. This study introduces RDF-star2Vec, a novel KGE model specifically designed for RDF-star graphs. RDF-star2Vec introduces graph walk techniques that enable probabilistic transitions between a QT and its compositional entities. Feature vectors for QTs, entities, and relations are derived from generated sequences through the structured skip-gram model. Additionally, we provide a dataset and a benchmarking framework for data mining tasks focused on complex RDF-star graphs. Evaluative experiments demonstrated that RDF-star2Vec yielded superior performance compared to recent extensions of RDF2Vec in various tasks including classification, clustering, entity relatedness, and QT similarity.
-
-{{</citation>}}
-
-
-## cs.LG (3)
-
-
-
-### (45/52) TimesURL: Self-supervised Contrastive Learning for Universal Time Series Representation Learning (Jiexi Liu et al., 2023)
+### (46/58) TimesURL: Self-supervised Contrastive Learning for Universal Time Series Representation Learning (Jiexi Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1067,7 +1085,29 @@ Learning universal time series representations applicable to various types of do
 {{</citation>}}
 
 
-### (46/52) Swap-based Deep Reinforcement Learning for Facility Location Problems in Networks (Wenxuan Guo et al., 2023)
+### (47/58) Revisiting Knowledge Distillation under Distribution Shift (Songming Zhang et al., 2023)
+
+{{<citation>}}
+
+Songming Zhang, Ziyu Lyu, Xiaofeng Chen. (2023)  
+**Revisiting Knowledge Distillation under Distribution Shift**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG  
+Keywords: Knowledge Distillation  
+[Paper Link](http://arxiv.org/abs/2312.16242v1)  
+
+---
+
+
+**ABSTRACT**  
+Knowledge distillation transfers knowledge from large models into small models, and has recently made remarkable achievements. However, few studies has investigated the mechanism of knowledge distillation against distribution shift. Distribution shift refers to the data distribution drifts between training and testing phases. In this paper, we reconsider the paradigm of knowledge distillation by reformulating the objective function in shift situations. Under the real scenarios, we propose a unified and systematic framework to benchmark knowledge distillation against two general distributional shifts including diversity and correlation shift. The evaluation benchmark covers more than 30 methods from algorithmic, data-driven, and optimization perspectives for five benchmark datasets. Overall, we conduct extensive experiments on the student model. We reveal intriguing observations of poor teaching performance under distribution shifts; in particular, complex algorithms and data augmentation offer limited gains in many cases.
+
+{{</citation>}}
+
+
+### (48/58) Swap-based Deep Reinforcement Learning for Facility Location Problems in Networks (Wenxuan Guo et al., 2023)
 
 {{<citation>}}
 
@@ -1089,7 +1129,7 @@ Facility location problems on graphs are ubiquitous in real world and hold signi
 {{</citation>}}
 
 
-### (47/52) Context-aware Communication for Multi-agent Reinforcement Learning (Xinran Li et al., 2023)
+### (49/58) Context-aware Communication for Multi-agent Reinforcement Learning (Xinran Li et al., 2023)
 
 {{<citation>}}
 
@@ -1111,11 +1151,103 @@ Effective communication protocols in multi-agent reinforcement learning (MARL) a
 {{</citation>}}
 
 
+## cs.AI (4)
+
+
+
+### (50/58) Spatial-Temporal Interplay in Human Mobility: A Hierarchical Reinforcement Learning Approach with Hypergraph Representation (Zhaofan Zhang et al., 2023)
+
+{{<citation>}}
+
+Zhaofan Zhang, Yanan Xiao, Lu Jiang, Dingqi Yang, Minghao Yin, Pengyang Wang. (2023)  
+**Spatial-Temporal Interplay in Human Mobility: A Hierarchical Reinforcement Learning Approach with Hypergraph Representation**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs-CY, cs-LG, cs.AI  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2312.15717v1)  
+
+---
+
+
+**ABSTRACT**  
+In the realm of human mobility, the decision-making process for selecting the next-visit location is intricately influenced by a trade-off between spatial and temporal constraints, which are reflective of individual needs and preferences. This trade-off, however, varies across individuals, making the modeling of these spatial-temporal dynamics a formidable challenge. To address the problem, in this work, we introduce the "Spatial-temporal Induced Hierarchical Reinforcement Learning" (STI-HRL) framework, for capturing the interplay between spatial and temporal factors in human mobility decision-making. Specifically, STI-HRL employs a two-tiered decision-making process: the low-level focuses on disentangling spatial and temporal preferences using dedicated agents, while the high-level integrates these considerations to finalize the decision. To complement the hierarchical decision setting, we construct a hypergraph to organize historical data, encapsulating the multi-aspect semantics of human mobility. We propose a cross-channel hypergraph embedding module to learn the representations as the states to facilitate the decision-making cycle. Our extensive experiments on two real-world datasets validate the superiority of STI-HRL over state-of-the-art methods in predicting users' next visits across various performance metrics.
+
+{{</citation>}}
+
+
+### (51/58) Instruction Fusion: Advancing Prompt Evolution through Hybridization (Weidong Guo et al., 2023)
+
+{{<citation>}}
+
+Weidong Guo, Jiuding Yang, Kaitong Yang, Xiangyang Li, Zhuwei Rao, Yu Xu, Di Niu. (2023)  
+**Instruction Fusion: Advancing Prompt Evolution through Hybridization**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2312.15692v2)  
+
+---
+
+
+**ABSTRACT**  
+The fine-tuning of Large Language Models (LLMs) specialized in code generation has seen notable advancements through the use of open-domain coding queries. Despite the successes, existing methodologies like Evol-Instruct encounter performance limitations, impeding further enhancements in code generation tasks. This paper examines the constraints of existing prompt evolution techniques and introduces a novel approach, Instruction Fusion (IF). IF innovatively combines two distinct prompts through a hybridization process, thereby enhancing the evolution of training prompts for code LLMs. Our experimental results reveal that the proposed novel method effectively addresses the shortcomings of prior methods, significantly improving the performance of Code LLMs across five code generation benchmarks, namely HumanEval, HumanEval+, MBPP, MBPP+ and MultiPL-E, which underscore the effectiveness of Instruction Fusion in advancing the capabilities of LLMs in code generation.
+
+{{</citation>}}
+
+
+### (52/58) Abductive Logical Reasoning on Knowledge Graphs (Jiaxin Bai et al., 2023)
+
+{{<citation>}}
+
+Jiaxin Bai, Yicheng Wang, Tianshi Zheng, Yue Guo, Xin Liu, Yangqiu Song. (2023)  
+**Abductive Logical Reasoning on Knowledge Graphs**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs-CL, cs.AI  
+Keywords: Knowledge Graph, Reasoning, Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2312.15643v1)  
+
+---
+
+
+**ABSTRACT**  
+Abductive reasoning is logical reasoning that makes educated guesses to infer the most likely reasons to explain the observations. However, the abductive logical reasoning over knowledge graphs (KGs) is underexplored in KG literature. In this paper, we initially and formally raise the task of abductive logical reasoning over KGs, which involves inferring the most probable logic hypothesis from the KGs to explain an observed entity set. Traditional approaches use symbolic methods, like searching, to tackle the knowledge graph problem. However, the symbolic methods are unsuitable for this task, because the KGs are naturally incomplete, and the logical hypotheses can be complex with multiple variables and relations. To address these issues, we propose a generative approach to create logical expressions based on observations. First, we sample hypothesis-observation pairs from the KG and use supervised training to train a generative model that generates hypotheses from observations. Since supervised learning only minimizes structural differences between generated and reference hypotheses, higher structural similarity does not guarantee a better explanation for observations. To tackle this issue, we introduce the Reinforcement Learning from the Knowledge Graph (RLF-KG) method, which minimizes the differences between observations and conclusions drawn from the generated hypotheses according to the KG. Experimental results demonstrate that transformer-based generative models can generate logical explanations robustly and efficiently. Moreover, with the assistance of RLF-KG, the generated hypothesis can provide better explanations for the observations, and the method of supervised learning with RLF-KG achieves state-of-the-art results on abductive knowledge graph reasoning on three widely used KGs.
+
+{{</citation>}}
+
+
+### (53/58) RDF-star2Vec: RDF-star Graph Embeddings for Data Mining (Shusaku Egami et al., 2023)
+
+{{<citation>}}
+
+Shusaku Egami, Takanori Ugai, Masateru Oota, Kyoumoto Matsushita, Takahiro Kawamura, Kouji Kozaki, Ken Fukuda. (2023)  
+**RDF-star2Vec: RDF-star Graph Embeddings for Data Mining**  
+
+---
+Primary Category: cs.AI  
+Categories: I-2-7; I-2-4; I-2-6, cs-AI, cs-CL, cs-IR, cs-LG, cs.AI  
+Keywords: Embedding, Knowledge Graph  
+[Paper Link](http://arxiv.org/abs/2312.15626v1)  
+
+---
+
+
+**ABSTRACT**  
+Knowledge Graphs (KGs) such as Resource Description Framework (RDF) data represent relationships between various entities through the structure of triples (<subject, predicate, object>). Knowledge graph embedding (KGE) is crucial in machine learning applications, specifically in node classification and link prediction tasks. KGE remains a vital research topic within the semantic web community. RDF-star introduces the concept of a quoted triple (QT), a specific form of triple employed either as the subject or object within another triple. Moreover, RDF-star permits a QT to act as compositional entities within another QT, thereby enabling the representation of recursive, hyper-relational KGs with nested structures. However, existing KGE models fail to adequately learn the semantics of QTs and entities, primarily because they do not account for RDF-star graphs containing multi-leveled nested QTs and QT-QT relationships. This study introduces RDF-star2Vec, a novel KGE model specifically designed for RDF-star graphs. RDF-star2Vec introduces graph walk techniques that enable probabilistic transitions between a QT and its compositional entities. Feature vectors for QTs, entities, and relations are derived from generated sequences through the structured skip-gram model. Additionally, we provide a dataset and a benchmarking framework for data mining tasks focused on complex RDF-star graphs. Evaluative experiments demonstrated that RDF-star2Vec yielded superior performance compared to recent extensions of RDF2Vec in various tasks including classification, clustering, entity relatedness, and QT similarity.
+
+{{</citation>}}
+
+
 ## cs.SE (1)
 
 
 
-### (48/52) RepairLLaMA: Efficient Representations and Fine-Tuned Adapters for Program Repair (André Silva et al., 2023)
+### (54/58) RepairLLaMA: Efficient Representations and Fine-Tuned Adapters for Program Repair (André Silva et al., 2023)
 
 {{<citation>}}
 
@@ -1141,7 +1273,7 @@ Automated Program Repair (APR) has evolved significantly with the advent of Larg
 
 
 
-### (49/52) Multi-Task Multi-Agent Shared Layers are Universal Cognition of Multi-Agent Coordination (Jiawei Wang et al., 2023)
+### (55/58) Multi-Task Multi-Agent Shared Layers are Universal Cognition of Multi-Agent Coordination (Jiawei Wang et al., 2023)
 
 {{<citation>}}
 
@@ -1167,7 +1299,7 @@ Multi-agent reinforcement learning shines as the pinnacle of multi-agent systems
 
 
 
-### (50/52) Coordinated Planning of Offshore Charging Stations and Electrified Ships: A Case Study on Shanghai-Busan Maritime Route (Hao Li et al., 2023)
+### (56/58) Coordinated Planning of Offshore Charging Stations and Electrified Ships: A Case Study on Shanghai-Busan Maritime Route (Hao Li et al., 2023)
 
 {{<citation>}}
 
@@ -1193,7 +1325,7 @@ Despite the success of electric vehicles on land, electrification of maritime sh
 
 
 
-### (51/52) RMNAS: A Multimodal Neural Architecture Search Framework For Robust Multimodal Sentiment Analysis (Haiyang Sun et al., 2023)
+### (57/58) RMNAS: A Multimodal Neural Architecture Search Framework For Robust Multimodal Sentiment Analysis (Haiyang Sun et al., 2023)
 
 {{<citation>}}
 
@@ -1219,7 +1351,7 @@ Multimodal sentiment analysis (MSA) finds extensive applications, but the presen
 
 
 
-### (52/52) Conversational Co-Speech Gesture Generation via Modeling Dialog Intention, Emotion, and Context with Diffusion Models (Haiwei Xue et al., 2023)
+### (58/58) Conversational Co-Speech Gesture Generation via Modeling Dialog Intention, Emotion, and Context with Diffusion Models (Haiwei Xue et al., 2023)
 
 {{<citation>}}
 
