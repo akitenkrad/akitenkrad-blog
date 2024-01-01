@@ -23,10 +23,10 @@ math: true
 
 - [cs.DC (2)](#csdc-2)
 - [cs.LG (14)](#cslg-14)
+- [cs.CL (12)](#cscl-12)
 - [cs.CR (1)](#cscr-1)
-- [cs.CL (8)](#cscl-8)
 - [cs.IR (2)](#csir-2)
-- [cs.CV (12)](#cscv-12)
+- [cs.CV (13)](#cscv-13)
 - [cs.HC (1)](#cshc-1)
 - [eess.SY (1)](#eesssy-1)
 - [cs.SD (2)](#cssd-2)
@@ -43,7 +43,7 @@ math: true
 
 
 
-### (1/53) SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads (Alind Khare et al., 2023)
+### (1/58) SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads (Alind Khare et al., 2023)
 
 {{<citation>}}
 
@@ -65,7 +65,7 @@ The increasing deployment of ML models on the critical path of production applic
 {{</citation>}}
 
 
-### (2/53) Analytical Insight of Earth: A Cloud-Platform of Intelligent Computing for Geospatial Big Data (Hao Xu et al., 2023)
+### (2/58) Analytical Insight of Earth: A Cloud-Platform of Intelligent Computing for Geospatial Big Data (Hao Xu et al., 2023)
 
 {{<citation>}}
 
@@ -91,7 +91,7 @@ The rapid accumulation of Earth observation data presents a formidable challenge
 
 
 
-### (3/53) Foundations of Reinforcement Learning and Interactive Decision Making (Dylan J. Foster et al., 2023)
+### (3/58) Foundations of Reinforcement Learning and Interactive Decision Making (Dylan J. Foster et al., 2023)
 
 {{<citation>}}
 
@@ -113,7 +113,7 @@ These lecture notes give a statistical perspective on the foundations of reinfor
 {{</citation>}}
 
 
-### (4/53) FairCompass: Operationalising Fairness in Machine Learning (Jessica Liu et al., 2023)
+### (4/58) FairCompass: Operationalising Fairness in Machine Learning (Jessica Liu et al., 2023)
 
 {{<citation>}}
 
@@ -135,7 +135,7 @@ As artificial intelligence (AI) increasingly becomes an integral part of our soc
 {{</citation>}}
 
 
-### (5/53) Knowledge Enhanced Conditional Imputation for Healthcare Time-series (Linglong Qian et al., 2023)
+### (5/58) Knowledge Enhanced Conditional Imputation for Healthcare Time-series (Linglong Qian et al., 2023)
 
 {{<citation>}}
 
@@ -157,7 +157,7 @@ This study presents a novel approach to addressing the challenge of missing data
 {{</citation>}}
 
 
-### (6/53) Twice Class Bias Correction for Imbalanced Semi-Supervised Learning (Lan Li et al., 2023)
+### (6/58) Twice Class Bias Correction for Imbalanced Semi-Supervised Learning (Lan Li et al., 2023)
 
 {{<citation>}}
 
@@ -179,18 +179,18 @@ Differing from traditional semi-supervised learning, class-imbalanced semi-super
 {{</citation>}}
 
 
-### (7/53) Continuous-time Autoencoders for Regular and Irregular Time Series Imputation (Hyowon Wi et al., 2023)
+### (7/58) Continuous-time Autoencoders for Regular and Irregular Time Series Imputation (Hyowon Wi et al., 2023)
 
 {{<citation>}}
 
-Hyowon Wi, Yehjin Shin, Noseong Park, Sungpil Woo, Sunhwan Lim. (2023)  
+Hyowon Wi, Yehjin Shin, Noseong Park. (2023)  
 **Continuous-time Autoencoders for Regular and Irregular Time Series Imputation**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-IR, cs-LG, cs.LG  
 Keywords: Time Series  
-[Paper Link](http://arxiv.org/abs/2312.16581v1)  
+[Paper Link](http://arxiv.org/abs/2312.16581v2)  
 
 ---
 
@@ -201,7 +201,7 @@ Time series imputation is one of the most fundamental tasks for time series. Rea
 {{</citation>}}
 
 
-### (8/53) Inverse Reinforcement Learning with Unknown Reward Model based on Structural Risk Minimization (Chendi Qu et al., 2023)
+### (8/58) Inverse Reinforcement Learning with Unknown Reward Model based on Structural Risk Minimization (Chendi Qu et al., 2023)
 
 {{<citation>}}
 
@@ -223,7 +223,7 @@ Inverse reinforcement learning (IRL) usually assumes the model of the reward fun
 {{</citation>}}
 
 
-### (9/53) How Robust are LLMs to In-Context Majority Label Bias? (Karan Gupta et al., 2023)
+### (9/58) How Robust are LLMs to In-Context Majority Label Bias? (Karan Gupta et al., 2023)
 
 {{<citation>}}
 
@@ -245,7 +245,7 @@ In the In-Context Learning (ICL) setup, various forms of label biases can manife
 {{</citation>}}
 
 
-### (10/53) FALCON: Feature-Label Constrained Graph Net Collapse for Memory Efficient GNNs (Christopher Adnel et al., 2023)
+### (10/58) FALCON: Feature-Label Constrained Graph Net Collapse for Memory Efficient GNNs (Christopher Adnel et al., 2023)
 
 {{<citation>}}
 
@@ -267,7 +267,7 @@ Graph Neural Network (GNN) ushered in a new era of machine learning with interco
 {{</citation>}}
 
 
-### (11/53) Preference as Reward, Maximum Preference Optimization with Importance Sampling (Zaifan Jiang et al., 2023)
+### (11/58) Preference as Reward, Maximum Preference Optimization with Importance Sampling (Zaifan Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -289,7 +289,7 @@ Preference learning is a key technology for aligning language models with human 
 {{</citation>}}
 
 
-### (12/53) Learning to Embed Time Series Patches Independently (Seunghan Lee et al., 2023)
+### (12/58) Learning to Embed Time Series Patches Independently (Seunghan Lee et al., 2023)
 
 {{<citation>}}
 
@@ -311,7 +311,7 @@ Masked time series modeling has recently gained much attention as a self-supervi
 {{</citation>}}
 
 
-### (13/53) Soft Contrastive Learning for Time Series (Seunghan Lee et al., 2023)
+### (13/58) Soft Contrastive Learning for Time Series (Seunghan Lee et al., 2023)
 
 {{<citation>}}
 
@@ -333,7 +333,7 @@ Contrastive learning has shown to be effective to learn representations from tim
 {{</citation>}}
 
 
-### (14/53) Dynamic Sub-graph Distillation for Robust Semi-supervised Continual Learning (Yan Fan et al., 2023)
+### (14/58) Dynamic Sub-graph Distillation for Robust Semi-supervised Continual Learning (Yan Fan et al., 2023)
 
 {{<citation>}}
 
@@ -355,7 +355,7 @@ Continual learning (CL) has shown promising results and comparable performance t
 {{</citation>}}
 
 
-### (15/53) Learning Time-aware Graph Structures for Spatially Correlated Time Series Forecasting (Minbo Ma et al., 2023)
+### (15/58) Learning Time-aware Graph Structures for Spatially Correlated Time Series Forecasting (Minbo Ma et al., 2023)
 
 {{<citation>}}
 
@@ -377,7 +377,7 @@ Spatio-temporal forecasting of future values of spatially correlated time series
 {{</citation>}}
 
 
-### (16/53) Photovoltaic power forecasting using quantum machine learning (Asel Sagingalieva et al., 2023)
+### (16/58) Photovoltaic power forecasting using quantum machine learning (Asel Sagingalieva et al., 2023)
 
 {{<citation>}}
 
@@ -399,37 +399,33 @@ Predicting solar panel power output is crucial for advancing the energy transiti
 {{</citation>}}
 
 
-## cs.CR (1)
+## cs.CL (12)
 
 
 
-### (17/53) Adversarial Attacks on LoRa Device Identification and Rogue Signal Detection with Deep Learning (Yalin E. Sagduyu et al., 2023)
+### (17/58) Stateful FastConformer with Cache-based Inference for Streaming Automatic Speech Recognition (Vahid Noroozi et al., 2023)
 
 {{<citation>}}
 
-Yalin E. Sagduyu, Tugba Erpek. (2023)  
-**Adversarial Attacks on LoRa Device Identification and Rogue Signal Detection with Deep Learning**  
+Vahid Noroozi, Somshubra Majumdar, Ankur Kumar, Jagadeesh Balam, Boris Ginsburg. (2023)  
+**Stateful FastConformer with Cache-based Inference for Streaming Automatic Speech Recognition**  
 
 ---
-Primary Category: cs.CR  
-Categories: cs-AI, cs-CR, cs-LG, cs-NI, cs.CR, eess-SP  
-Keywords: Adversarial Attack  
-[Paper Link](http://arxiv.org/abs/2312.16715v1)  
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL, eess-AS  
+Keywords: Speech Recognition  
+[Paper Link](http://arxiv.org/abs/2312.17279v1)  
 
 ---
 
 
 **ABSTRACT**  
-Low-Power Wide-Area Network (LPWAN) technologies, such as LoRa, have gained significant attention for their ability to enable long-range, low-power communication for Internet of Things (IoT) applications. However, the security of LoRa networks remains a major concern, particularly in scenarios where device identification and classification of legitimate and spoofed signals are crucial. This paper studies a deep learning framework to address these challenges, considering LoRa device identification and legitimate vs. rogue LoRa device classification tasks. A deep neural network (DNN), either a convolutional neural network (CNN) or feedforward neural network (FNN), is trained for each task by utilizing real experimental I/Q data for LoRa signals, while rogue signals are generated by using kernel density estimation (KDE) of received signals by rogue devices. Fast Gradient Sign Method (FGSM)-based adversarial attacks are considered for LoRa signal classification tasks using deep learning models. The impact of these attacks is assessed on the performance of two tasks, namely device identification and legitimate vs. rogue device classification, by utilizing separate or common perturbations against these signal classification tasks. Results presented in this paper quantify the level of transferability of adversarial attacks on different LoRa signal classification tasks as a major vulnerability and highlight the need to make IoT applications robust to adversarial attacks.
+In this paper, we propose an efficient and accurate streaming speech recognition model based on the FastConformer architecture. We adapted the FastConformer architecture for streaming applications through: (1) constraining both the look-ahead and past contexts in the encoder, and (2) introducing an activation caching mechanism to enable the non-autoregressive encoder to operate autoregressively during inference. The proposed model is thoughtfully designed in a way to eliminate the accuracy disparity between the train and inference time which is common for many streaming models. Furthermore, our proposed encoder works with various decoder configurations including Connectionist Temporal Classification (CTC) and RNN-Transducer (RNNT) decoders. Additionally, we introduced a hybrid CTC/RNNT architecture which utilizes a shared encoder with both a CTC and RNNT decoder to boost the accuracy and save computation. We evaluate the proposed model on LibriSpeech dataset and a multi-domain large scale dataset and demonstrate that it can achieve better accuracy with lower latency and inference time compared to a conventional buffered streaming model baseline. We also showed that training a model with multiple latencies can achieve better accuracy than single latency models while it enables us to support multiple latencies with a single model. Our experiments also showed the hybrid architecture would not only speedup the convergence of the CTC decoder but also improves the accuracy of streaming models compared to single decoder models.
 
 {{</citation>}}
 
 
-## cs.CL (8)
-
-
-
-### (18/53) Rethinking Tabular Data Understanding with Large Language Models (Tianyang Liu et al., 2023)
+### (18/58) Rethinking Tabular Data Understanding with Large Language Models (Tianyang Liu et al., 2023)
 
 {{<citation>}}
 
@@ -451,7 +447,29 @@ Large Language Models (LLMs) have shown to be capable of various tasks, yet thei
 {{</citation>}}
 
 
-### (19/53) A Large Language Model-based Computational Approach to Improve Identity-Related Write-Ups (Alex Doboli, 2023)
+### (19/58) Large Language Models for Conducting Advanced Text Analytics Information Systems Research (Benjamin M. Ampel et al., 2023)
+
+{{<citation>}}
+
+Benjamin M. Ampel, Chi-Heng Yang, James Hu, Hsinchun Chen. (2023)  
+**Large Language Models for Conducting Advanced Text Analytics Information Systems Research**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-LG, cs.CL  
+Keywords: AI, Language Model  
+[Paper Link](http://arxiv.org/abs/2312.17278v1)  
+
+---
+
+
+**ABSTRACT**  
+The exponential growth of digital content has generated massive textual datasets, necessitating advanced analytical approaches. Large Language Models (LLMs) have emerged as tools capable of processing and extracting insights from massive unstructured textual datasets. However, how to leverage LLMs for text-based Information Systems (IS) research is currently unclear. To assist IS research in understanding how to operationalize LLMs, we propose a Text Analytics for Information Systems Research (TAISR) framework. Our proposed framework provides detailed recommendations grounded in IS and LLM literature on how to conduct meaningful text-based IS research. We conducted three case studies in business intelligence using our TAISR framework to demonstrate its application across several IS research contexts. We also outline potential challenges and limitations in adopting LLMs for IS. By offering a systematic approach and evidence of its utility, our TAISR framework contributes to future IS research streams looking to incorporate powerful LLMs for text analytics.
+
+{{</citation>}}
+
+
+### (20/58) A Large Language Model-based Computational Approach to Improve Identity-Related Write-Ups (Alex Doboli, 2023)
 
 {{<citation>}}
 
@@ -473,7 +491,7 @@ Creating written products is essential to modern life, including writings about 
 {{</citation>}}
 
 
-### (20/53) Make BERT-based Chinese Spelling Check Model Enhanced by Layerwise Attention and Gaussian Mixture Model (Yongchang Cao et al., 2023)
+### (21/58) Make BERT-based Chinese Spelling Check Model Enhanced by Layerwise Attention and Gaussian Mixture Model (Yongchang Cao et al., 2023)
 
 {{<citation>}}
 
@@ -495,7 +513,7 @@ BERT-based models have shown a remarkable ability in the Chinese Spelling Check 
 {{</citation>}}
 
 
-### (21/53) Relationship between auditory and semantic entrainment using Deep Neural Networks (DNN) (Jay Kejriwal et al., 2023)
+### (22/58) Relationship between auditory and semantic entrainment using Deep Neural Networks (DNN) (Jay Kejriwal et al., 2023)
 
 {{<citation>}}
 
@@ -517,7 +535,7 @@ The tendency of people to engage in similar, matching, or synchronized behaviour
 {{</citation>}}
 
 
-### (22/53) A proposed new metric for the conceptual diversity of a text (İlknur Dönmez Phd et al., 2023)
+### (23/58) A proposed new metric for the conceptual diversity of a text (İlknur Dönmez Phd et al., 2023)
 
 {{<citation>}}
 
@@ -539,7 +557,29 @@ A word may contain one or more hidden concepts. While the "animal" word evokes m
 {{</citation>}}
 
 
-### (23/53) S2M: Converting Single-Turn to Multi-Turn Datasets for Conversational Question Answering (Baokui Li et al., 2023)
+### (24/58) PanGu-$π$: Enhancing Language Model Architectures via Nonlinearity Compensation (Yunhe Wang et al., 2023)
+
+{{<citation>}}
+
+Yunhe Wang, Hanting Chen, Yehui Tang, Tianyu Guo, Kai Han, Ying Nie, Xutao Wang, Hailin Hu, Zheyuan Bai, Yun Wang, Fangcheng Liu, Zhicheng Liu, Jianyuan Guo, Sinan Zeng, Yinchen Zhang, Qinghua Xu, Qun Liu, Jun Yao, Chao Xu, Dacheng Tao. (2023)  
+**PanGu-$π$: Enhancing Language Model Architectures via Nonlinearity Compensation**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-LG, cs.CL  
+Keywords: GPT, Language Model  
+[Paper Link](http://arxiv.org/abs/2312.17276v1)  
+
+---
+
+
+**ABSTRACT**  
+The recent trend of large language models (LLMs) is to increase the scale of both model size (\aka the number of parameters) and dataset to achieve better generative ability, which is definitely proved by a lot of work such as the famous GPT and Llama. However, large models often involve massive computational costs, and practical applications cannot afford such high prices. However, the method of constructing a strong model architecture for LLMs is rarely discussed. We first analyze the state-of-the-art language model architectures and observe the feature collapse problem. Based on the theoretical analysis, we propose that the nonlinearity is also very important for language models, which is usually studied in convolutional neural networks for vision tasks. The series informed activation function is then introduced with tiny calculations that can be ignored, and an augmented shortcut is further used to enhance the model nonlinearity. We then demonstrate that the proposed approach is significantly effective for enhancing the model nonlinearity through carefully designed ablations; thus, we present a new efficient model architecture for establishing modern, namely, PanGu-$\pi$. Experiments are then conducted using the same dataset and training strategy to compare PanGu-$\pi$ with state-of-the-art LLMs. The results show that PanGu-$\pi$-7B can achieve a comparable performance to that of benchmarks with about 10\% inference speed-up, and PanGu-$\pi$-1B can achieve state-of-the-art performance in terms of accuracy and efficiency. In addition, we have deployed PanGu-$\pi$-7B in the high-value domains of finance and law, developing an LLM named YunShan for practical application. The results show that YunShan can surpass other models with similar scales on benchmarks.
+
+{{</citation>}}
+
+
+### (25/58) S2M: Converting Single-Turn to Multi-Turn Datasets for Conversational Question Answering (Baokui Li et al., 2023)
 
 {{<citation>}}
 
@@ -561,7 +601,7 @@ Supplying data augmentation to conversational question answering (CQA) can effec
 {{</citation>}}
 
 
-### (24/53) Source Code is a Graph, Not a Sequence: A Cross-Lingual Perspective on Code Clone Detection (Mohammed Ataaur Rahaman et al., 2023)
+### (26/58) Source Code is a Graph, Not a Sequence: A Cross-Lingual Perspective on Code Clone Detection (Mohammed Ataaur Rahaman et al., 2023)
 
 {{<citation>}}
 
@@ -583,18 +623,18 @@ Source code clone detection is the task of finding code fragments that have the 
 {{</citation>}}
 
 
-### (25/53) LLM Polygraph: Uncovering LLMs' Factual Discernment through Intermediate Data Analysis (Jinwen He et al., 2023)
+### (27/58) LLM Factoscope: Uncovering LLMs' Factual Discernment through Inner States Analysis (Jinwen He et al., 2023)
 
 {{<citation>}}
 
 Jinwen He, Yujia Gong, Kai Chen, Zijin Lin, Chengan Wei, Yue Zhao. (2023)  
-**LLM Polygraph: Uncovering LLMs' Factual Discernment through Intermediate Data Analysis**  
+**LLM Factoscope: Uncovering LLMs' Factual Discernment through Inner States Analysis**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.16374v1)  
+[Paper Link](http://arxiv.org/abs/2312.16374v2)  
 
 ---
 
@@ -605,11 +645,59 @@ Large Language Models (LLMs) have revolutionized various domains with extensive 
 {{</citation>}}
 
 
+### (28/58) Conversational Question Answering with Reformulations over Knowledge Graph (Lihui Liu et al., 2023)
+
+{{<citation>}}
+
+Lihui Liu, Blaine Hill, Boxin Du, Fei Wang, Hanghang Tong. (2023)  
+**Conversational Question Answering with Reformulations over Knowledge Graph**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keywords: Knowledge Graph, QA, Question Answering  
+[Paper Link](http://arxiv.org/abs/2312.17269v1)  
+
+---
+
+
+**ABSTRACT**  
+conversational question answering (convQA) over knowledge graphs (KGs) involves answering multi-turn natural language questions about information contained in a KG. State-of-the-art methods of ConvQA often struggle with inexplicit question-answer pairs. These inputs are easy for human beings to understand given a conversation history, but hard for a machine to interpret, which can degrade ConvQA performance. To address this problem, we propose a reinforcement learning (RL) based model, CornNet, which utilizes question reformulations generated by large language models (LLMs) to improve ConvQA performance. CornNet adopts a teacher-student architecture where a teacher model learns question representations using human writing reformulations, and a student model to mimic the teacher model's output via reformulations generated by LLMs. The learned question representation is then used by an RL model to locate the correct answer in a KG. Extensive experimental results show that CornNet outperforms state-of-the-art convQA models.
+
+{{</citation>}}
+
+
+## cs.CR (1)
+
+
+
+### (29/58) Adversarial Attacks on LoRa Device Identification and Rogue Signal Detection with Deep Learning (Yalin E. Sagduyu et al., 2023)
+
+{{<citation>}}
+
+Yalin E. Sagduyu, Tugba Erpek. (2023)  
+**Adversarial Attacks on LoRa Device Identification and Rogue Signal Detection with Deep Learning**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-AI, cs-CR, cs-LG, cs-NI, cs.CR, eess-SP  
+Keywords: Adversarial Attack  
+[Paper Link](http://arxiv.org/abs/2312.16715v1)  
+
+---
+
+
+**ABSTRACT**  
+Low-Power Wide-Area Network (LPWAN) technologies, such as LoRa, have gained significant attention for their ability to enable long-range, low-power communication for Internet of Things (IoT) applications. However, the security of LoRa networks remains a major concern, particularly in scenarios where device identification and classification of legitimate and spoofed signals are crucial. This paper studies a deep learning framework to address these challenges, considering LoRa device identification and legitimate vs. rogue LoRa device classification tasks. A deep neural network (DNN), either a convolutional neural network (CNN) or feedforward neural network (FNN), is trained for each task by utilizing real experimental I/Q data for LoRa signals, while rogue signals are generated by using kernel density estimation (KDE) of received signals by rogue devices. Fast Gradient Sign Method (FGSM)-based adversarial attacks are considered for LoRa signal classification tasks using deep learning models. The impact of these attacks is assessed on the performance of two tasks, namely device identification and legitimate vs. rogue device classification, by utilizing separate or common perturbations against these signal classification tasks. Results presented in this paper quantify the level of transferability of adversarial attacks on different LoRa signal classification tasks as a major vulnerability and highlight the need to make IoT applications robust to adversarial attacks.
+
+{{</citation>}}
+
+
 ## cs.IR (2)
 
 
 
-### (26/53) Performance Comparison of Session-based Recommendation Algorithms based on GNNs (Faisal Shehzad et al., 2023)
+### (30/58) Performance Comparison of Session-based Recommendation Algorithms based on GNNs (Faisal Shehzad et al., 2023)
 
 {{<citation>}}
 
@@ -631,7 +719,7 @@ In session-based recommendation settings, a recommender system has to base its s
 {{</citation>}}
 
 
-### (27/53) RDGCL: Reaction-Diffusion Graph Contrastive Learning for Recommendation (Jeongwhan Choi et al., 2023)
+### (31/58) RDGCL: Reaction-Diffusion Graph Contrastive Learning for Recommendation (Jeongwhan Choi et al., 2023)
 
 {{<citation>}}
 
@@ -653,11 +741,11 @@ Contrastive learning (CL) has emerged as a promising technique for improving rec
 {{</citation>}}
 
 
-## cs.CV (12)
+## cs.CV (13)
 
 
 
-### (28/53) I2V-Adapter: A General Image-to-Video Adapter for Video Diffusion Models (Xun Guo et al., 2023)
+### (32/58) I2V-Adapter: A General Image-to-Video Adapter for Video Diffusion Models (Xun Guo et al., 2023)
 
 {{<citation>}}
 
@@ -679,7 +767,7 @@ In the rapidly evolving domain of digital content generation, the focus has shif
 {{</citation>}}
 
 
-### (29/53) Forgery-aware Adaptive Transformer for Generalizable Synthetic Image Detection (Huan Liu et al., 2023)
+### (33/58) Forgery-aware Adaptive Transformer for Generalizable Synthetic Image Detection (Huan Liu et al., 2023)
 
 {{<citation>}}
 
@@ -701,7 +789,7 @@ In this paper, we study the problem of generalizable synthetic image detection, 
 {{</citation>}}
 
 
-### (30/53) VLCounter: Text-aware VIsual Representation for Zero-Shot Object Counting (Seunggu Kang et al., 2023)
+### (34/58) VLCounter: Text-aware VIsual Representation for Zero-Shot Object Counting (Seunggu Kang et al., 2023)
 
 {{<citation>}}
 
@@ -723,18 +811,18 @@ Zero-Shot Object Counting (ZSOC) aims to count referred instances of arbitrary c
 {{</citation>}}
 
 
-### (31/53) Multi-modality Affinity Inference for Weakly Supervised 3D Semantic Segmentation (Xiawei Li Qingyuan Xu Jing Zhang Tianyi Zhang Qian Yu Lu Sheng Dong Xu, 2023)
+### (35/58) Multi-modality Affinity Inference for Weakly Supervised 3D Semantic Segmentation (Xiawei Li et al., 2023)
 
 {{<citation>}}
 
-Xiawei Li Qingyuan Xu Jing Zhang Tianyi Zhang Qian Yu Lu Sheng Dong Xu. (2023)  
+Xiawei Li, Qingyuan Xu, Jing Zhang, Tianyi Zhang, Qian Yu, Lu Sheng, Dong Xu. (2023)  
 **Multi-modality Affinity Inference for Weakly Supervised 3D Semantic Segmentation**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: AI, Semantic Segmentation  
-[Paper Link](http://arxiv.org/abs/2312.16578v1)  
+[Paper Link](http://arxiv.org/abs/2312.16578v2)  
 
 ---
 
@@ -745,7 +833,7 @@ Keywords: AI, Semantic Segmentation
 {{</citation>}}
 
 
-### (32/53) GRSDet: Learning to Generate Local Reverse Samples for Few-shot Object Detection (Hefei Mei et al., 2023)
+### (36/58) GRSDet: Learning to Generate Local Reverse Samples for Few-shot Object Detection (Hefei Mei et al., 2023)
 
 {{<citation>}}
 
@@ -756,7 +844,7 @@ Hefei Mei, Taijin Zhao, Shiyuan Tang, Heqian Qiu, Lanxiao Wang, Minjian Zhang, F
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Augmentation, Object Detection  
-[Paper Link](http://arxiv.org/abs/2312.16571v1)  
+[Paper Link](http://arxiv.org/abs/2312.16571v2)  
 
 ---
 
@@ -767,7 +855,7 @@ Few-shot object detection (FSOD) aims to achieve object detection only using a f
 {{</citation>}}
 
 
-### (33/53) Blind Image Quality Assessment: A Brief Survey (Miaohui Wang, 2023)
+### (37/58) Blind Image Quality Assessment: A Brief Survey (Miaohui Wang, 2023)
 
 {{<citation>}}
 
@@ -789,7 +877,7 @@ Blind Image Quality Assessment (BIQA) is essential for automatically evaluating 
 {{</citation>}}
 
 
-### (34/53) ConstScene: Dataset and Model for Advancing Robust Semantic Segmentation in Construction Environments (Maghsood Salimi et al., 2023)
+### (38/58) ConstScene: Dataset and Model for Advancing Robust Semantic Segmentation in Construction Environments (Maghsood Salimi et al., 2023)
 
 {{<citation>}}
 
@@ -811,7 +899,7 @@ The increasing demand for autonomous machines in construction environments neces
 {{</citation>}}
 
 
-### (35/53) A Non-Uniform Low-Light Image Enhancement Method with Multi-Scale Attention Transformer and Luminance Consistency Loss (Xiao Fang et al., 2023)
+### (39/58) A Non-Uniform Low-Light Image Enhancement Method with Multi-Scale Attention Transformer and Luminance Consistency Loss (Xiao Fang et al., 2023)
 
 {{<citation>}}
 
@@ -833,7 +921,7 @@ Low-light image enhancement aims to improve the perception of images collected i
 {{</citation>}}
 
 
-### (36/53) Group Multi-View Transformer for 3D Shape Analysis with Spatial Encoding (Lixiang Xu et al., 2023)
+### (40/58) Group Multi-View Transformer for 3D Shape Analysis with Spatial Encoding (Lixiang Xu et al., 2023)
 
 {{<citation>}}
 
@@ -855,7 +943,7 @@ In recent years, the results of view-based 3D shape recognition methods have sat
 {{</citation>}}
 
 
-### (37/53) ReSynthDetect: A Fundus Anomaly Detection Network with Reconstruction and Synthetic Features (Jingqi Niu et al., 2023)
+### (41/58) ReSynthDetect: A Fundus Anomaly Detection Network with Reconstruction and Synthetic Features (Jingqi Niu et al., 2023)
 
 {{<citation>}}
 
@@ -877,7 +965,7 @@ Detecting anomalies in fundus images through unsupervised methods is a challengi
 {{</citation>}}
 
 
-### (38/53) Domain Generalization with Vital Phase Augmentation (Ingyun Lee et al., 2023)
+### (42/58) Domain Generalization with Vital Phase Augmentation (Ingyun Lee et al., 2023)
 
 {{<citation>}}
 
@@ -899,7 +987,29 @@ Deep neural networks have shown remarkable performance in image classification. 
 {{</citation>}}
 
 
-### (39/53) Segment Change Model (SCM) for Unsupervised Change detection in VHR Remote Sensing Images: a Case Study of Buildings (Xiaoliang Tan et al., 2023)
+### (43/58) RefineNet: Enhancing Text-to-Image Conversion with High-Resolution and Detail Accuracy through Hierarchical Transformers and Progressive Refinement (Fan Shi, 2023)
+
+{{<citation>}}
+
+Fan Shi. (2023)  
+**RefineNet: Enhancing Text-to-Image Conversion with High-Resolution and Detail Accuracy through Hierarchical Transformers and Progressive Refinement**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs-LG, cs.CV  
+Keywords: Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2312.17274v1)  
+
+---
+
+
+**ABSTRACT**  
+In this research, we introduce RefineNet, a novel architecture designed to address resolution limitations in text-to-image conversion systems. We explore the challenges of generating high-resolution images from textual descriptions, focusing on the trade-offs between detail accuracy and computational efficiency. RefineNet leverages a hierarchical Transformer combined with progressive and conditional refinement techniques, outperforming existing models in producing detailed and high-quality images. Through extensive experiments on diverse datasets, we demonstrate RefineNet's superiority in clarity and resolution, particularly in complex image categories like animals, plants, and human faces. Our work not only advances the field of image-to-text conversion but also opens new avenues for high-fidelity image generation in various applications.
+
+{{</citation>}}
+
+
+### (44/58) Segment Change Model (SCM) for Unsupervised Change detection in VHR Remote Sensing Images: a Case Study of Buildings (Xiaoliang Tan et al., 2023)
 
 {{<citation>}}
 
@@ -925,7 +1035,7 @@ The field of Remote Sensing (RS) widely employs Change Detection (CD) on very-hi
 
 
 
-### (40/53) Participatory prompting: a user-centric research method for eliciting AI assistance opportunities in knowledge workflows (Advait Sarkar et al., 2023)
+### (45/58) Participatory prompting: a user-centric research method for eliciting AI assistance opportunities in knowledge workflows (Advait Sarkar et al., 2023)
 
 {{<citation>}}
 
@@ -951,7 +1061,7 @@ Generative AI, such as image generation models and large language models, stands
 
 
 
-### (41/53) Autonomous Driving using Residual Sensor Fusion and Deep Reinforcement Learning (Amin Jalal Aghdasian et al., 2023)
+### (46/58) Autonomous Driving using Residual Sensor Fusion and Deep Reinforcement Learning (Amin Jalal Aghdasian et al., 2023)
 
 {{<citation>}}
 
@@ -977,7 +1087,7 @@ This paper proposes a novel approach by integrating sensor fusion with deep rein
 
 
 
-### (42/53) Self-supervised Pretraining for Robust Personalized Voice Activity Detection in Adverse Conditions (Holger Severin Bovbjerg et al., 2023)
+### (47/58) Self-supervised Pretraining for Robust Personalized Voice Activity Detection in Adverse Conditions (Holger Severin Bovbjerg et al., 2023)
 
 {{<citation>}}
 
@@ -999,7 +1109,7 @@ In this paper, we propose the use of self-supervised pretraining on a large unla
 {{</citation>}}
 
 
-### (43/53) Frame-level emotional state alignment method for speech emotion recognition (Qifei Li et al., 2023)
+### (48/58) Frame-level emotional state alignment method for speech emotion recognition (Qifei Li et al., 2023)
 
 {{<citation>}}
 
@@ -1025,7 +1135,7 @@ Speech emotion recognition (SER) systems aim to recognize human emotional state 
 
 
 
-### (44/53) scRNA-seq Data Clustering by Cluster-aware Iterative Contrastive Learning (Weikang Jiang et al., 2023)
+### (49/58) scRNA-seq Data Clustering by Cluster-aware Iterative Contrastive Learning (Weikang Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -1051,7 +1161,7 @@ Single-cell RNA sequencing (scRNA-seq) enables researchers to analyze gene expre
 
 
 
-### (45/53) EasyView: Bringing Performance Profiles into Integrated Development Environments (Qidong Zhao et al., 2023)
+### (50/58) EasyView: Bringing Performance Profiles into Integrated Development Environments (Qidong Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -1073,7 +1183,7 @@ Dynamic program analysis (also known as profiling) is well-known for its powerfu
 {{</citation>}}
 
 
-### (46/53) Toward Methodical Discovery and Handling of Hidden Assumptions in Complex Systems and Models (David Harel et al., 2023)
+### (51/58) Toward Methodical Discovery and Handling of Hidden Assumptions in Complex Systems and Models (David Harel et al., 2023)
 
 {{<citation>}}
 
@@ -1099,7 +1209,7 @@ Methodologies for development of complex systems and models include external rev
 
 
 
-### (47/53) Identification of Opinion Leaders in a Telegram Network of Forwarded Messages (Giulia Tucci, 2023)
+### (52/58) Identification of Opinion Leaders in a Telegram Network of Forwarded Messages (Giulia Tucci, 2023)
 
 {{<citation>}}
 
@@ -1121,7 +1231,7 @@ Unraveling the role of opinion leaders in the digital realm, this study investig
 {{</citation>}}
 
 
-### (48/53) Diagnosis of Small-world Bias in Random Graphs (Georgios Argyris, 2023)
+### (53/58) Diagnosis of Small-world Bias in Random Graphs (Georgios Argyris, 2023)
 
 {{<citation>}}
 
@@ -1147,7 +1257,7 @@ Background: Imagine a paper with n nodes on it where each pair undergoes a coin 
 
 
 
-### (49/53) Attention-Enhanced Reservoir Computing (Felix Köster et al., 2023)
+### (54/58) Attention-Enhanced Reservoir Computing (Felix Köster et al., 2023)
 
 {{<citation>}}
 
@@ -1173,7 +1283,7 @@ Photonic reservoir computing has been recently utilized in time series forecasti
 
 
 
-### (50/53) Learn From Orientation Prior for Radiograph Super-Resolution: Orientation Operator Transformer (Yongsong Huang et al., 2023)
+### (55/58) Learn From Orientation Prior for Radiograph Super-Resolution: Orientation Operator Transformer (Yongsong Huang et al., 2023)
 
 {{<citation>}}
 
@@ -1199,7 +1309,7 @@ Background and objective: High-resolution radiographic images play a pivotal rol
 
 
 
-### (51/53) Visual Spatial Attention and Proprioceptive Data-Driven Reinforcement Learning for Robust Peg-in-Hole Task Under Variable Conditions (André Yuji Yasutomi et al., 2023)
+### (56/58) Visual Spatial Attention and Proprioceptive Data-Driven Reinforcement Learning for Robust Peg-in-Hole Task Under Variable Conditions (André Yuji Yasutomi et al., 2023)
 
 {{<citation>}}
 
@@ -1225,7 +1335,7 @@ Anchor-bolt insertion is a peg-in-hole task performed in the construction field 
 
 
 
-### (52/53) Gemini: Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators (Jingwei Cai et al., 2023)
+### (57/58) Gemini: Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators (Jingwei Cai et al., 2023)
 
 {{<citation>}}
 
@@ -1251,7 +1361,7 @@ Chiplet technology enables the integration of an increasing number of transistor
 
 
 
-### (53/53) Robustness Verification for Knowledge-Based Logic of Risky Driving Scenes (Xia Wang et al., 2023)
+### (58/58) Robustness Verification for Knowledge-Based Logic of Risky Driving Scenes (Xia Wang et al., 2023)
 
 {{<citation>}}
 
