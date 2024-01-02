@@ -1386,7 +1386,7 @@ Liman Wang, Hanyang Zhong. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.16127v1)  
+[Paper Link](http://arxiv.org/abs/2312.16127v2)  
 
 ---
 
