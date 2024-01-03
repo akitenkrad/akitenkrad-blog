@@ -590,7 +590,7 @@ Jingda Yang, Ying Wang. (2023)
 Primary Category: eess.SY  
 Categories: cs-AI, cs-LG, cs-SY, eess-SY, eess.SY  
 Keywords: Language Model, NLP  
-[Paper Link](http://arxiv.org/abs/2312.17353v1)  
+[Paper Link](http://arxiv.org/abs/2312.17353v2)  
 
 ---
 
@@ -726,7 +726,7 @@ Haitao Jiang, Lin Ge, Yuhe Gao, Jianian Wang, Rui Song. (2023)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL, stat-ML  
 Keywords: GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2312.17122v1)  
+[Paper Link](http://arxiv.org/abs/2312.17122v2)  
 
 ---
 
@@ -792,7 +792,7 @@ Konrad Staniszewski, Szymon Tworkowski, Sebastian Jaszczur, Henryk Michalewski, 
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.17296v1)  
+[Paper Link](http://arxiv.org/abs/2312.17296v2)  
 
 ---
 
@@ -1126,7 +1126,7 @@ Padmaksha Roy, Tyler Cody, Himanshu Singhal, Kevin Choi, Ming Jin. (2023)
 Primary Category: cs.CR  
 Categories: cs-CR, cs-LG, cs.CR  
 Keywords: Intrusion Detection, Representation Learning  
-[Paper Link](http://arxiv.org/abs/2312.17300v1)  
+[Paper Link](http://arxiv.org/abs/2312.17300v2)  
 
 ---
 
@@ -1754,7 +1754,7 @@ Dongsheng Ding, Zhengyan Huan, Alejandro Ribeiro. (2023)
 Primary Category: math.OC  
 Categories: cs-LG, cs-SY, eess-SY, math-OC, math.OC  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2312.17194v1)  
+[Paper Link](http://arxiv.org/abs/2312.17194v2)  
 
 ---
 
@@ -2050,7 +2050,7 @@ Simon W. McKnight, Aidan O. T. Hogg, Vincent W. Neo, Patrick A. Naylor. (2023)
 Primary Category: eess.AS  
 Categories: cs-SD, eess-AS, eess.AS  
 Keywords: LSTM  
-[Paper Link](http://arxiv.org/abs/2312.16763v1)  
+[Paper Link](http://arxiv.org/abs/2312.16763v2)  
 
 ---
 

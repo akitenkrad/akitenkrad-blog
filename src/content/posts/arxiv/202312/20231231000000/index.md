@@ -21,12 +21,13 @@ math: true
 
 ## Primary Categories
 
+- [cs.LG (10)](#cslg-10)
+- [cs.CR (4)](#cscr-4)
+- [cs.CY (1)](#cscy-1)
 - [cs.IR (4)](#csir-4)
 - [eess.SY (1)](#eesssy-1)
-- [cs.CR (3)](#cscr-3)
 - [cs.CL (13)](#cscl-13)
-- [cs.CV (9)](#cscv-9)
-- [cs.LG (9)](#cslg-9)
+- [cs.CV (10)](#cscv-10)
 - [cs.RO (5)](#csro-5)
 - [cs.AI (4)](#csai-4)
 - [eess.IV (1)](#eessiv-1)
@@ -38,11 +39,353 @@ math: true
 - [cs.DB (1)](#csdb-1)
 - [cs.ET (1)](#cset-1)
 
+## cs.LG (10)
+
+
+
+### (1/60) Fairness-Enhancing Vehicle Rebalancing in the Ride-hailing System (Xiaotong Guo et al., 2023)
+
+{{<citation>}}
+
+Xiaotong Guo, Hanyong Xu, Dingyi Zhuang, Yunhan Zheng, Jinhua Zhao. (2023)  
+**Fairness-Enhancing Vehicle Rebalancing in the Ride-hailing System**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG  
+Keywords: Graph Convolutional Network  
+[Paper Link](http://arxiv.org/abs/2401.00093v1)  
+
+---
+
+
+**ABSTRACT**  
+The rapid growth of the ride-hailing industry has revolutionized urban transportation worldwide. Despite its benefits, equity concerns arise as underserved communities face limited accessibility to affordable ride-hailing services. A key issue in this context is the vehicle rebalancing problem, where idle vehicles are moved to areas with anticipated demand. Without equitable approaches in demand forecasting and rebalancing strategies, these practices can further deepen existing inequities. In the realm of ride-hailing, three main facets of fairness are recognized: algorithmic fairness, fairness to drivers, and fairness to riders. This paper focuses on enhancing both algorithmic and rider fairness through a novel vehicle rebalancing method. We introduce an approach that combines a Socio-Aware Spatial-Temporal Graph Convolutional Network (SA-STGCN) for refined demand prediction and a fairness-integrated Matching-Integrated Vehicle Rebalancing (MIVR) model for subsequent vehicle rebalancing. Our methodology is designed to reduce prediction discrepancies and ensure equitable service provision across diverse regions. The effectiveness of our system is evaluated using simulations based on real-world ride-hailing data. The results suggest that our proposed method enhances both accuracy and fairness in forecasting ride-hailing demand, ultimately resulting in more equitable vehicle rebalancing in subsequent operations. Specifically, the algorithm developed in this study effectively reduces the standard deviation and average customer wait times by 6.48% and 0.49%, respectively. This achievement signifies a beneficial outcome for ride-hailing platforms, striking a balance between operational efficiency and fairness.
+
+{{</citation>}}
+
+
+### (2/60) Data Augmentation for Supervised Graph Outlier Detection with Latent Diffusion Models (Kay Liu et al., 2023)
+
+{{<citation>}}
+
+Kay Liu, Hengrui Zhang, Ziqing Hu, Fangxin Wang, Philip S. Yu. (2023)  
+**Data Augmentation for Supervised Graph Outlier Detection with Latent Diffusion Models**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs-SI, cs.LG  
+Keywords: Augmentation  
+[Paper Link](http://arxiv.org/abs/2312.17679v1)  
+
+---
+
+
+**ABSTRACT**  
+Graph outlier detection is a prominent task of research and application in the realm of graph neural networks. It identifies the outlier nodes that exhibit deviation from the majority in the graph. One of the fundamental challenges confronting supervised graph outlier detection algorithms is the prevalent issue of class imbalance, where the scarcity of outlier instances compared to normal instances often results in suboptimal performance. Conventional methods mitigate the imbalance by reweighting instances in the estimation of the loss function, assigning higher weights to outliers and lower weights to inliers. Nonetheless, these strategies are prone to overfitting and underfitting, respectively. Recently, generative models, especially diffusion models, have demonstrated their efficacy in synthesizing high-fidelity images. Despite their extraordinary generation quality, their potential in data augmentation for supervised graph outlier detection remains largely underexplored.   To bridge this gap, we introduce GODM, a novel data augmentation for mitigating class imbalance in supervised Graph Outlier detection with latent Diffusion Models. Specifically, our proposed method consists of three key components: (1) Variantioanl Encoder maps the heterogeneous information inherent within the graph data into a unified latent space. (2) Graph Generator synthesizes graph data that are statistically similar to real outliers from latent space, and (3) Latent Diffusion Model learns the latent space distribution of real organic data by iterative denoising. Extensive experiments conducted on multiple datasets substantiate the effectiveness and efficiency of GODM. The case study further demonstrated the generation quality of our synthetic data. To foster accessibility and reproducibility, we encapsulate GODM into a plug-and-play package and release it at the Python Package Index (PyPI).
+
+{{</citation>}}
+
+
+### (3/60) AIJack: Security and Privacy Risk Simulator for Machine Learning (Hideaki Takahashi, 2023)
+
+{{<citation>}}
+
+Hideaki Takahashi. (2023)  
+**AIJack: Security and Privacy Risk Simulator for Machine Learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CR, cs-LG, cs.LG  
+Keywords: AI, Security  
+[Paper Link](http://arxiv.org/abs/2312.17667v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper introduces AIJack, an open-source library designed to assess security and privacy risks associated with the training and deployment of machine learning models. Amid the growing interest in big data and AI, advancements in machine learning research and business are accelerating. However, recent studies reveal potential threats, such as the theft of training data and the manipulation of models by malicious attackers. Therefore, a comprehensive understanding of machine learning's security and privacy vulnerabilities is crucial for the safe integration of machine learning into real-world products. AIJack aims to address this need by providing a library with various attack and defense methods through a unified API. The library is publicly available on GitHub (https://github.com/Koukyosyumei/AIJack).
+
+{{</citation>}}
+
+
+### (4/60) XAI for In-hospital Mortality Prediction via Multimodal ICU Data (Xingqiao Li et al., 2023)
+
+{{<citation>}}
+
+Xingqiao Li, Jindong Gu, Zhiyong Wang, Yancheng Yuan, Bo Du, Fengxiang He. (2023)  
+**XAI for In-hospital Mortality Prediction via Multimodal ICU Data**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: AI, Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2312.17624v1)  
+
+---
+
+
+**ABSTRACT**  
+Predicting in-hospital mortality for intensive care unit (ICU) patients is key to final clinical outcomes. AI has shown advantaged accuracy but suffers from the lack of explainability. To address this issue, this paper proposes an eXplainable Multimodal Mortality Predictor (X-MMP) approaching an efficient, explainable AI solution for predicting in-hospital mortality via multimodal ICU data. We employ multimodal learning in our framework, which can receive heterogeneous inputs from clinical data and make decisions. Furthermore, we introduce an explainable method, namely Layer-Wise Propagation to Transformer, as a proper extension of the LRP method to Transformers, producing explanations over multimodal inputs and revealing the salient features attributed to prediction. Moreover, the contribution of each modality to clinical outcomes can be visualized, assisting clinicians in understanding the reasoning behind decision-making. We construct a multimodal dataset based on MIMIC-III and MIMIC-III Waveform Database Matched Subset. Comprehensive experiments on benchmark datasets demonstrate that our proposed framework can achieve reasonable interpretation with competitive prediction accuracy. In particular, our framework can be easily transferred to other clinical tasks, which facilitates the discovery of crucial factors in healthcare research.
+
+{{</citation>}}
+
+
+### (5/60) Interpretable and Explainable Machine Learning Methods for Predictive Process Monitoring: A Systematic Literature Review (Nijat Mehdiyev et al., 2023)
+
+{{<citation>}}
+
+Nijat Mehdiyev, Maxim Majlatow, Peter Fettke. (2023)  
+**Interpretable and Explainable Machine Learning Methods for Predictive Process Monitoring: A Systematic Literature Review**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG, stat-ML  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2312.17584v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper presents a systematic literature review (SLR) on the explainability and interpretability of machine learning (ML) models within the context of predictive process mining, using the PRISMA framework. Given the rapid advancement of artificial intelligence (AI) and ML systems, understanding the "black-box" nature of these technologies has become increasingly critical. Focusing specifically on the domain of process mining, this paper delves into the challenges of interpreting ML models trained with complex business process data. We differentiate between intrinsically interpretable models and those that require post-hoc explanation techniques, providing a comprehensive overview of the current methodologies and their applications across various application domains. Through a rigorous bibliographic analysis, this research offers a detailed synthesis of the state of explainability and interpretability in predictive process mining, identifying key trends, challenges, and future directions. Our findings aim to equip researchers and practitioners with a deeper understanding of how to develop and implement more trustworthy, transparent, and effective intelligent systems for predictive process analytics.
+
+{{</citation>}}
+
+
+### (6/60) Embedded feature selection in LSTM networks with multi-objective evolutionary ensemble learning for time series forecasting (Raquel Espinosa et al., 2023)
+
+{{<citation>}}
+
+Raquel Espinosa, Fernando Jiménez, José Palma. (2023)  
+**Embedded feature selection in LSTM networks with multi-objective evolutionary ensemble learning for time series forecasting**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs-NE, cs.LG  
+Keywords: LSTM  
+[Paper Link](http://arxiv.org/abs/2312.17517v1)  
+
+---
+
+
+**ABSTRACT**  
+Time series forecasting plays a crucial role in diverse fields, necessitating the development of robust models that can effectively handle complex temporal patterns. In this article, we present a novel feature selection method embedded in Long Short-Term Memory networks, leveraging a multi-objective evolutionary algorithm. Our approach optimizes the weights and biases of the LSTM in a partitioned manner, with each objective function of the evolutionary algorithm targeting the root mean square error in a specific data partition. The set of non-dominated forecast models identified by the algorithm is then utilized to construct a meta-model through stacking-based ensemble learning. Furthermore, our proposed method provides an avenue for attribute importance determination, as the frequency of selection for each attribute in the set of non-dominated forecasting models reflects their significance. This attribute importance insight adds an interpretable dimension to the forecasting process. Experimental evaluations on air quality time series data from Italy and southeast Spain demonstrate that our method substantially improves the generalization ability of conventional LSTMs, effectively reducing overfitting. Comparative analyses against state-of-the-art CancelOut and EAR-FS methods highlight the superior performance of our approach.
+
+{{</citation>}}
+
+
+### (7/60) HiBid: A Cross-Channel Constrained Bidding System with Budget Allocation by Hierarchical Offline Deep Reinforcement Learning (Hao Wang et al., 2023)
+
+{{<citation>}}
+
+Hao Wang, Bo Tang, Chi Harold Liu, Shangqin Mao, Jiahong Zhou, Zipeng Dai, Yaqi Sun, Qianlong Xie, Xingxing Wang, Dong Wang. (2023)  
+**HiBid: A Cross-Channel Constrained Bidding System with Budget Allocation by Hierarchical Offline Deep Reinforcement Learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-GT, cs-LG, cs.LG  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2312.17503v1)  
+
+---
+
+
+**ABSTRACT**  
+Online display advertising platforms service numerous advertisers by providing real-time bidding (RTB) for the scale of billions of ad requests every day. The bidding strategy handles ad requests cross multiple channels to maximize the number of clicks under the set financial constraints, i.e., total budget and cost-per-click (CPC), etc. Different from existing works mainly focusing on single channel bidding, we explicitly consider cross-channel constrained bidding with budget allocation. Specifically, we propose a hierarchical offline deep reinforcement learning (DRL) framework called ``HiBid'', consisted of a high-level planner equipped with auxiliary loss for non-competitive budget allocation, and a data augmentation enhanced low-level executor for adaptive bidding strategy in response to allocated budgets. Additionally, a CPC-guided action selection mechanism is introduced to satisfy the cross-channel CPC constraint. Through extensive experiments on both the large-scale log data and online A/B testing, we confirm that HiBid outperforms six baselines in terms of the number of clicks, CPC satisfactory ratio, and return-on-investment (ROI). We also deploy HiBid on Meituan advertising platform to already service tens of thousands of advertisers every day.
+
+{{</citation>}}
+
+
+### (8/60) Integrating Chemical Language and Molecular Graph in Multimodal Fused Deep Learning for Drug Property Prediction (Xiaohua Lu et al., 2023)
+
+{{<citation>}}
+
+Xiaohua Lu, Liangxu Xie, Lei Xu, Rongzhi Mao, Shan Chang, Xiaojun Xu. (2023)  
+**Integrating Chemical Language and Molecular Graph in Multimodal Fused Deep Learning for Drug Property Prediction**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG, physics-bio-ph, q-bio-BM  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2312.17495v1)  
+
+---
+
+
+**ABSTRACT**  
+Accurately predicting molecular properties is a challenging but essential task in drug discovery. Recently, many mono-modal deep learning methods have been successfully applied to molecular property prediction. However, the inherent limitation of mono-modal learning arises from relying solely on one modality of molecular representation, which restricts a comprehensive understanding of drug molecules and hampers their resilience against data noise. To overcome the limitations, we construct multimodal deep learning models to cover different molecular representations. We convert drug molecules into three molecular representations, SMILES-encoded vectors, ECFP fingerprints, and molecular graphs. To process the modal information, Transformer-Encoder, bi-directional gated recurrent units (BiGRU), and graph convolutional network (GCN) are utilized for feature learning respectively, which can enhance the model capability to acquire complementary and naturally occurring bioinformatics information. We evaluated our triple-modal model on six molecule datasets. Different from bi-modal learning models, we adopt five fusion methods to capture the specific features and leverage the contribution of each modal information better. Compared with mono-modal models, our multimodal fused deep learning (MMFDL) models outperform single models in accuracy, reliability, and resistance capability against noise. Moreover, we demonstrate its generalization ability in the prediction of binding constants for protein-ligand complex molecules in the refined set of PDBbind. The advantage of the multimodal model lies in its ability to process diverse sources of data using proper models and suitable fusion methods, which would enhance the noise resistance of the model while obtaining data diversity.
+
+{{</citation>}}
+
+
+### (9/60) Differentially Private Low-Rank Adaptation of Large Language Model Using Federated Learning (Xiao-Yang Liu et al., 2023)
+
+{{<citation>}}
+
+Xiao-Yang Liu, Rongyi Zhu, Daochen Zha, Jiechao Gao, Shan Zhong, Meikang Qiu. (2023)  
+**Differentially Private Low-Rank Adaptation of Large Language Model Using Federated Learning**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CR, cs-LG, cs.LG  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2312.17493v1)  
+
+---
+
+
+**ABSTRACT**  
+The surge in interest and application of large language models (LLMs) has sparked a drive to fine-tune these models to suit specific applications, such as finance and medical science. However, concerns regarding data privacy have emerged, especially when multiple stakeholders aim to collaboratively enhance LLMs using sensitive data. In this scenario, federated learning becomes a natural choice, allowing decentralized fine-tuning without exposing raw data to central servers. Motivated by this, we investigate how data privacy can be ensured in LLM fine-tuning through practical federated learning approaches, enabling secure contributions from multiple parties to enhance LLMs. Yet, challenges arise: 1) despite avoiding raw data exposure, there is a risk of inferring sensitive information from model outputs, and 2) federated learning for LLMs incurs notable communication overhead. To address these challenges, this article introduces DP-LoRA, a novel federated learning algorithm tailored for LLMs. DP-LoRA preserves data privacy by employing a Gaussian mechanism that adds noise in weight updates, maintaining individual data privacy while facilitating collaborative model training. Moreover, DP-LoRA optimizes communication efficiency via low-rank adaptation, minimizing the transmission of updated weights during distributed training. The experimental results across medical, financial, and general datasets using various LLMs demonstrate that DP-LoRA effectively ensures strict privacy constraints while minimizing communication overhead.
+
+{{</citation>}}
+
+
+### (10/60) ClST: A Convolutional Transformer Framework for Automatic Modulation Recognition by Knowledge Distillation (Dongbin Hou et al., 2023)
+
+{{<citation>}}
+
+Dongbin Hou, Lixin Li, Wensheng Lin, Junli Liang, Zhu Han. (2023)  
+**ClST: A Convolutional Transformer Framework for Automatic Modulation Recognition by Knowledge Distillation**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG, eess-SP  
+Keywords: Knowledge Distillation, Transformer  
+[Paper Link](http://arxiv.org/abs/2312.17446v1)  
+
+---
+
+
+**ABSTRACT**  
+With the rapid development of deep learning (DL) in recent years, automatic modulation recognition (AMR) with DL has achieved high accuracy. However, insufficient training signal data in complicated channel environments and large-scale DL models are critical factors that make DL methods difficult to deploy in practice. Aiming to these problems, we propose a novel neural network named convolution-linked signal transformer (ClST) and a novel knowledge distillation method named signal knowledge distillation (SKD). The ClST is accomplished through three primary modifications: a hierarchy of transformer containing convolution, a novel attention mechanism named parallel spatial-channel attention (PSCA) mechanism and a novel convolutional transformer block named convolution-transformer projection (CTP) to leverage a convolutional projection. The SKD is a knowledge distillation method to effectively reduce the parameters and complexity of neural networks. We train two lightweight neural networks using the SKD algorithm, KD-CNN and KD-MobileNet, to meet the demand that neural networks can be used on miniaturized devices. The simulation results demonstrate that the ClST outperforms advanced neural networks on all datasets. Moreover, both KD-CNN and KD-MobileNet obtain higher recognition accuracy with less network complexity, which is very beneficial for the deployment of AMR on miniaturized communication devices.
+
+{{</citation>}}
+
+
+## cs.CR (4)
+
+
+
+### (11/60) Quantifying Policy Administration Cost in an Active Learning Framework (Si Zhang et al., 2023)
+
+{{<citation>}}
+
+Si Zhang, Philip W. L. Fong. (2023)  
+**Quantifying Policy Administration Cost in an Active Learning Framework**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-CR, cs-LG, cs.CR  
+Keywords: Active Learning  
+[Paper Link](http://arxiv.org/abs/2401.00086v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper proposes a computational model for policy administration. As an organization evolves, new users and resources are gradually placed under the mediation of the access control model. Each time such new entities are added, the policy administrator must deliberate on how the access control policy shall be revised to reflect the new reality. A well-designed access control model must anticipate such changes so that the administration cost does not become prohibitive when the organization scales up. Unfortunately, past Access Control research does not offer a formal way to quantify the cost of policy administration. In this work, we propose to model ongoing policy administration in an active learning framework. Administration cost can be quantified in terms of query complexity. We demonstrate the utility of this approach by applying it to the evolution of protection domains. We also modelled different policy administration strategies in our framework. This allowed us to formally demonstrate that domain-based policies have a cost advantage over access control matrices because of the use of heuristic reasoning when the policy evolves. To the best of our knowledge, this is the first work to employ an active learning framework to study the cost of policy deliberation and demonstrate the cost advantage of heuristic policy administration.
+
+{{</citation>}}
+
+
+### (12/60) Comparing Effectiveness and Efficiency of Interactive Application Security Testing (IAST) and Runtime Application Self-Protection (RASP) Tools in a Large Java-based System (Aishwarya Seth et al., 2023)
+
+{{<citation>}}
+
+Aishwarya Seth, Saikath Bhattacharya, Sarah Elder, Nusrat Zahan, Laurie Williams. (2023)  
+**Comparing Effectiveness and Efficiency of Interactive Application Security Testing (IAST) and Runtime Application Self-Protection (RASP) Tools in a Large Java-based System**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-CR, cs-SE, cs.CR  
+Keywords: Security  
+[Paper Link](http://arxiv.org/abs/2312.17726v1)  
+
+---
+
+
+**ABSTRACT**  
+Security resources are scarce, and practitioners need guidance in the effective and efficient usage of techniques and tools available in the cybersecurity industry. Two emerging tool types, Interactive Application Security Testing (IAST) and Runtime Application Self-Protection (RASP), have not been thoroughly evaluated against well-established counterparts such as Dynamic Application Security Testing (DAST) and Static Application Security Testing (SAST). The goal of this research is to aid practitioners in making informed choices about the use of Interactive Application Security Testing (IAST) and Runtime Application Self-Protection (RASP) tools through an analysis of their effectiveness and efficiency in comparison with different vulnerability detection and prevention techniques and tools. We apply IAST and RASP on OpenMRS, an open-source Java-based online application. We compare the efficiency and effectiveness of IAST and RASP with techniques applied on OpenMRS in prior work. We measure efficiency and effectiveness in terms of the number and type of vulnerabilities detected and prevented per hour. Our study shows IAST performed relatively well compared to other techniques, performing second-best in both efficiency and effectiveness. IAST detected eight Top-10 OWASP security risks compared to nine by SMPT and seven for EMPT, DAST, and SAST. IAST found more vulnerabilities than SMPT. The efficiency of IAST (2.14 VpH) is second to only EMPT (2.22 VpH). These findings imply that our study benefited from using IAST when conducting black-box security testing. In the context of a large, enterprise-scale web application such as OpenMRS, RASP does not replace vulnerability detection, while IAST is a powerful tool that complements other techniques.
+
+{{</citation>}}
+
+
+### (13/60) Malware Detection in IOT Systems Using Machine Learning Techniques (Ali Mehrban et al., 2023)
+
+{{<citation>}}
+
+Ali Mehrban, Pegah Ahadian. (2023)  
+**Malware Detection in IOT Systems Using Machine Learning Techniques**  
+
+---
+Primary Category: cs.CR  
+Categories: airccse-org/, cs-CR, cs-LG, cs-NI, cs.CR  
+Keywords: LSTM  
+[Paper Link](http://arxiv.org/abs/2312.17683v1)  
+
+---
+
+
+**ABSTRACT**  
+Malware detection in IoT environments necessitates robust methodologies. This study introduces a CNN-LSTM hybrid model for IoT malware identification and evaluates its performance against established methods. Leveraging K-fold cross-validation, the proposed approach achieved 95.5% accuracy, surpassing existing methods. The CNN algorithm enabled superior learning model construction, and the LSTM classifier exhibited heightened accuracy in classification. Comparative analysis against prevalent techniques demonstrated the efficacy of the proposed model, highlighting its potential for enhancing IoT security. The study advocates for future exploration of SVMs as alternatives, emphasizes the need for distributed detection strategies, and underscores the importance of predictive analyses for a more powerful IOT security. This research serves as a platform for developing more resilient security measures in IoT ecosystems.
+
+{{</citation>}}
+
+
+### (14/60) Jatmo: Prompt Injection Defense by Task-Specific Finetuning (Julien Piet et al., 2023)
+
+{{<citation>}}
+
+Julien Piet, Maha Alrashed, Chawin Sitawarin, Sizhe Chen, Zeming Wei, Elizabeth Sun, Basel Alomair, David Wagner. (2023)  
+**Jatmo: Prompt Injection Defense by Task-Specific Finetuning**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-AI, cs-CL, cs-CR, cs.CR  
+Keywords: GPT, GPT-3.5, Language Model  
+[Paper Link](http://arxiv.org/abs/2312.17673v1)  
+
+---
+
+
+**ABSTRACT**  
+Large Language Models (LLMs) are attracting significant research attention due to their instruction-following abilities, allowing users and developers to leverage LLMs for a variety of tasks. However, LLMs are vulnerable to prompt-injection attacks: a class of attacks that hijack the model's instruction-following abilities, changing responses to prompts to undesired, possibly malicious ones. In this work, we introduce Jatmo, a method for generating task-specific models resilient to prompt-injection attacks. Jatmo leverages the fact that LLMs can only follow instructions once they have undergone instruction tuning. It harnesses a teacher instruction-tuned model to generate a task-specific dataset, which is then used to fine-tune a base model (i.e., a non-instruction-tuned model). Jatmo only needs a task prompt and a dataset of inputs for the task: it uses the teacher model to generate outputs. For situations with no pre-existing datasets, Jatmo can use a single example, or in some cases none at all, to produce a fully synthetic dataset. Our experiments on six tasks show that Jatmo models provide the same quality of outputs on their specific task as standard LLMs, while being resilient to prompt injections. The best attacks succeeded in less than 0.5% of cases against our models, versus over 90% success rate against GPT-3.5-Turbo. We release Jatmo at https://github.com/wagner-group/prompt-injection-defense.
+
+{{</citation>}}
+
+
+## cs.CY (1)
+
+
+
+### (15/60) ChatEd: A Chatbot Leveraging ChatGPT for an Enhanced Learning Experience in Higher Education (Kevin Wang et al., 2023)
+
+{{<citation>}}
+
+Kevin Wang, Jason Ramos, Ramon Lawrence. (2023)  
+**ChatEd: A Chatbot Leveraging ChatGPT for an Enhanced Learning Experience in Higher Education**  
+
+---
+Primary Category: cs.CY  
+Categories: cs-CL, cs-CY, cs.CY  
+Keywords: ChatGPT, GPT, Language Model, NLP, Natural Language Processing  
+[Paper Link](http://arxiv.org/abs/2401.00052v1)  
+
+---
+
+
+**ABSTRACT**  
+With the rapid evolution of Natural Language Processing (NLP), Large Language Models (LLMs) like ChatGPT have emerged as powerful tools capable of transforming various sectors. Their vast knowledge base and dynamic interaction capabilities represent significant potential in improving education by operating as a personalized assistant. However, the possibility of generating incorrect, biased, or unhelpful answers are a key challenge to resolve when deploying LLMs in an education context. This work introduces an innovative architecture that combines the strengths of ChatGPT with a traditional information retrieval based chatbot framework to offer enhanced student support in higher education. Our empirical evaluations underscore the high promise of this approach.
+
+{{</citation>}}
+
+
 ## cs.IR (4)
 
 
 
-### (1/56) K-PERM: Personalized Response Generation Using Dynamic Knowledge Retrieval and Persona-Adaptive Queries (Kanak Raj et al., 2023)
+### (16/60) K-PERM: Personalized Response Generation Using Dynamic Knowledge Retrieval and Persona-Adaptive Queries (Kanak Raj et al., 2023)
 
 {{<citation>}}
 
@@ -64,7 +407,7 @@ Personalizing conversational agents can enhance the quality of conversations and
 {{</citation>}}
 
 
-### (2/56) Investigating the Effects of Sparse Attention on Cross-Encoders (Ferdinand Schlatt et al., 2023)
+### (17/60) Investigating the Effects of Sparse Attention on Cross-Encoders (Ferdinand Schlatt et al., 2023)
 
 {{<citation>}}
 
@@ -86,7 +429,7 @@ Cross-encoders are effective passage and document re-rankers but less efficient 
 {{</citation>}}
 
 
-### (3/56) Towards Mitigating Dimensional Collapse of Representations in Collaborative Filtering (Huiyuan Chen et al., 2023)
+### (18/60) Towards Mitigating Dimensional Collapse of Representations in Collaborative Filtering (Huiyuan Chen et al., 2023)
 
 {{<citation>}}
 
@@ -108,7 +451,7 @@ Contrastive Learning (CL) has shown promising performance in collaborative filte
 {{</citation>}}
 
 
-### (4/56) Break Out of a Pigeonhole: A Unified Framework for Examining Miscalibration, Bias, and Stereotype in Recommender Systems (Yongsu Ahn et al., 2023)
+### (19/60) Break Out of a Pigeonhole: A Unified Framework for Examining Miscalibration, Bias, and Stereotype in Recommender Systems (Yongsu Ahn et al., 2023)
 
 {{<citation>}}
 
@@ -134,7 +477,7 @@ Despite the benefits of personalizing items and information tailored to users' n
 
 
 
-### (5/56) Physics-informed Graphical Neural Network for Power System State Estimation (Quang-Ha Ngo et al., 2023)
+### (20/60) Physics-informed Graphical Neural Network for Power System State Estimation (Quang-Ha Ngo et al., 2023)
 
 {{<citation>}}
 
@@ -156,81 +499,11 @@ State estimation is highly critical for accurately observing the dynamic behavio
 {{</citation>}}
 
 
-## cs.CR (3)
-
-
-
-### (6/56) Comparing Effectiveness and Efficiency of Interactive Application Security Testing (IAST) and Runtime Application Self-Protection (RASP) Tools in a Large Java-based System (Aishwarya Seth et al., 2023)
-
-{{<citation>}}
-
-Aishwarya Seth, Saikath Bhattacharya, Sarah Elder, Nusrat Zahan, Laurie Williams. (2023)  
-**Comparing Effectiveness and Efficiency of Interactive Application Security Testing (IAST) and Runtime Application Self-Protection (RASP) Tools in a Large Java-based System**  
-
----
-Primary Category: cs.CR  
-Categories: cs-CR, cs-SE, cs.CR  
-Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2312.17726v1)  
-
----
-
-
-**ABSTRACT**  
-Security resources are scarce, and practitioners need guidance in the effective and efficient usage of techniques and tools available in the cybersecurity industry. Two emerging tool types, Interactive Application Security Testing (IAST) and Runtime Application Self-Protection (RASP), have not been thoroughly evaluated against well-established counterparts such as Dynamic Application Security Testing (DAST) and Static Application Security Testing (SAST). The goal of this research is to aid practitioners in making informed choices about the use of Interactive Application Security Testing (IAST) and Runtime Application Self-Protection (RASP) tools through an analysis of their effectiveness and efficiency in comparison with different vulnerability detection and prevention techniques and tools. We apply IAST and RASP on OpenMRS, an open-source Java-based online application. We compare the efficiency and effectiveness of IAST and RASP with techniques applied on OpenMRS in prior work. We measure efficiency and effectiveness in terms of the number and type of vulnerabilities detected and prevented per hour. Our study shows IAST performed relatively well compared to other techniques, performing second-best in both efficiency and effectiveness. IAST detected eight Top-10 OWASP security risks compared to nine by SMPT and seven for EMPT, DAST, and SAST. IAST found more vulnerabilities than SMPT. The efficiency of IAST (2.14 VpH) is second to only EMPT (2.22 VpH). These findings imply that our study benefited from using IAST when conducting black-box security testing. In the context of a large, enterprise-scale web application such as OpenMRS, RASP does not replace vulnerability detection, while IAST is a powerful tool that complements other techniques.
-
-{{</citation>}}
-
-
-### (7/56) Malware Detection in IOT Systems Using Machine Learning Techniques (Ali Mehrban et al., 2023)
-
-{{<citation>}}
-
-Ali Mehrban, Pegah Ahadian. (2023)  
-**Malware Detection in IOT Systems Using Machine Learning Techniques**  
-
----
-Primary Category: cs.CR  
-Categories: airccse-org/, cs-CR, cs-LG, cs-NI, cs.CR  
-Keywords: LSTM  
-[Paper Link](http://arxiv.org/abs/2312.17683v1)  
-
----
-
-
-**ABSTRACT**  
-Malware detection in IoT environments necessitates robust methodologies. This study introduces a CNN-LSTM hybrid model for IoT malware identification and evaluates its performance against established methods. Leveraging K-fold cross-validation, the proposed approach achieved 95.5% accuracy, surpassing existing methods. The CNN algorithm enabled superior learning model construction, and the LSTM classifier exhibited heightened accuracy in classification. Comparative analysis against prevalent techniques demonstrated the efficacy of the proposed model, highlighting its potential for enhancing IoT security. The study advocates for future exploration of SVMs as alternatives, emphasizes the need for distributed detection strategies, and underscores the importance of predictive analyses for a more powerful IOT security. This research serves as a platform for developing more resilient security measures in IoT ecosystems.
-
-{{</citation>}}
-
-
-### (8/56) Jatmo: Prompt Injection Defense by Task-Specific Finetuning (Julien Piet et al., 2023)
-
-{{<citation>}}
-
-Julien Piet, Maha Alrashed, Chawin Sitawarin, Sizhe Chen, Zeming Wei, Elizabeth Sun, Basel Alomair, David Wagner. (2023)  
-**Jatmo: Prompt Injection Defense by Task-Specific Finetuning**  
-
----
-Primary Category: cs.CR  
-Categories: cs-AI, cs-CL, cs-CR, cs.CR  
-Keywords: GPT, GPT-3.5, Language Model  
-[Paper Link](http://arxiv.org/abs/2312.17673v1)  
-
----
-
-
-**ABSTRACT**  
-Large Language Models (LLMs) are attracting significant research attention due to their instruction-following abilities, allowing users and developers to leverage LLMs for a variety of tasks. However, LLMs are vulnerable to prompt-injection attacks: a class of attacks that hijack the model's instruction-following abilities, changing responses to prompts to undesired, possibly malicious ones. In this work, we introduce Jatmo, a method for generating task-specific models resilient to prompt-injection attacks. Jatmo leverages the fact that LLMs can only follow instructions once they have undergone instruction tuning. It harnesses a teacher instruction-tuned model to generate a task-specific dataset, which is then used to fine-tune a base model (i.e., a non-instruction-tuned model). Jatmo only needs a task prompt and a dataset of inputs for the task: it uses the teacher model to generate outputs. For situations with no pre-existing datasets, Jatmo can use a single example, or in some cases none at all, to produce a fully synthetic dataset. Our experiments on six tasks show that Jatmo models provide the same quality of outputs on their specific task as standard LLMs, while being resilient to prompt injections. The best attacks succeeded in less than 0.5% of cases against our models, versus over 90% success rate against GPT-3.5-Turbo. We release Jatmo at https://github.com/wagner-group/prompt-injection-defense.
-
-{{</citation>}}
-
-
 ## cs.CL (13)
 
 
 
-### (9/56) Principled Gradient-based Markov Chain Monte Carlo for Text Generation (Li Du et al., 2023)
+### (21/60) Principled Gradient-based Markov Chain Monte Carlo for Text Generation (Li Du et al., 2023)
 
 {{<citation>}}
 
@@ -252,7 +525,7 @@ Recent papers have demonstrated the possibility of energy-based text generation 
 {{</citation>}}
 
 
-### (10/56) TuPy-E: detecting hate speech in Brazilian Portuguese social media with a novel dataset and comprehensive analysis of models (Felipe Oliveira et al., 2023)
+### (22/60) TuPy-E: detecting hate speech in Brazilian Portuguese social media with a novel dataset and comprehensive analysis of models (Felipe Oliveira et al., 2023)
 
 {{<citation>}}
 
@@ -274,7 +547,7 @@ Social media has become integral to human interaction, providing a platform for 
 {{</citation>}}
 
 
-### (11/56) Gemini in Reasoning: Unveiling Commonsense in Multimodal Large Language Models (Yuqing Wang et al., 2023)
+### (23/60) Gemini in Reasoning: Unveiling Commonsense in Multimodal Large Language Models (Yuqing Wang et al., 2023)
 
 {{<citation>}}
 
@@ -296,7 +569,7 @@ The burgeoning interest in Multimodal Large Language Models (MLLMs), such as Ope
 {{</citation>}}
 
 
-### (12/56) Large Language Models for Generative Information Extraction: A Survey (Derong Xu et al., 2023)
+### (24/60) Large Language Models for Generative Information Extraction: A Survey (Derong Xu et al., 2023)
 
 {{<citation>}}
 
@@ -318,7 +591,7 @@ Information extraction (IE) aims to extract structural knowledge (such as entiti
 {{</citation>}}
 
 
-### (13/56) Towards Faithful Explanations for Text Classification with Robustness Improvement and Explanation Guided Training (Dongfang Li et al., 2023)
+### (25/60) Towards Faithful Explanations for Text Classification with Robustness Improvement and Explanation Guided Training (Dongfang Li et al., 2023)
 
 {{<citation>}}
 
@@ -340,7 +613,7 @@ Feature attribution methods highlight the important input tokens as explanations
 {{</citation>}}
 
 
-### (14/56) Action-Item-Driven Summarization of Long Meeting Transcripts (Logan Golia et al., 2023)
+### (26/60) Action-Item-Driven Summarization of Long Meeting Transcripts (Logan Golia et al., 2023)
 
 {{<citation>}}
 
@@ -362,7 +635,7 @@ The increased prevalence of online meetings has significantly enhanced the pract
 {{</citation>}}
 
 
-### (15/56) Building Efficient Universal Classifiers with Natural Language Inference (Moritz Laurer et al., 2023)
+### (27/60) Building Efficient Universal Classifiers with Natural Language Inference (Moritz Laurer et al., 2023)
 
 {{<citation>}}
 
@@ -384,7 +657,7 @@ Generative Large Language Models (LLMs) have become the mainstream choice for fe
 {{</citation>}}
 
 
-### (16/56) Enhancing Quantitative Reasoning Skills of Large Language Models through Dimension Perception (Yuncheng Huang et al., 2023)
+### (28/60) Enhancing Quantitative Reasoning Skills of Large Language Models through Dimension Perception (Yuncheng Huang et al., 2023)
 
 {{<citation>}}
 
@@ -406,7 +679,7 @@ Quantities are distinct and critical components of texts that characterize the m
 {{</citation>}}
 
 
-### (17/56) Cooperation on the Fly: Exploring Language Agents for Ad Hoc Teamwork in the Avalon Game (Zijing Shi et al., 2023)
+### (29/60) Cooperation on the Fly: Exploring Language Agents for Ad Hoc Teamwork in the Avalon Game (Zijing Shi et al., 2023)
 
 {{<citation>}}
 
@@ -428,7 +701,7 @@ Multi-agent collaboration with Large Language Models (LLMs) demonstrates profici
 {{</citation>}}
 
 
-### (18/56) Truth Forest: Toward Multi-Scale Truthfulness in Large Language Models through Intervention without Tuning (Zhongzhi Chen et al., 2023)
+### (30/60) Truth Forest: Toward Multi-Scale Truthfulness in Large Language Models through Intervention without Tuning (Zhongzhi Chen et al., 2023)
 
 {{<citation>}}
 
@@ -450,7 +723,7 @@ Despite the great success of large language models (LLMs) in various tasks, they
 {{</citation>}}
 
 
-### (19/56) MosaicBERT: A Bidirectional Encoder Optimized for Fast Pretraining (Jacob Portes et al., 2023)
+### (31/60) MosaicBERT: A Bidirectional Encoder Optimized for Fast Pretraining (Jacob Portes et al., 2023)
 
 {{<citation>}}
 
@@ -472,7 +745,7 @@ Although BERT-style encoder models are heavily used in NLP research, many resear
 {{</citation>}}
 
 
-### (20/56) Exploring the Sensitivity of LLMs' Decision-Making Capabilities: Insights from Prompt Variation and Hyperparameters (Manikanta Loya et al., 2023)
+### (32/60) Exploring the Sensitivity of LLMs' Decision-Making Capabilities: Insights from Prompt Variation and Hyperparameters (Manikanta Loya et al., 2023)
 
 {{<citation>}}
 
@@ -494,7 +767,7 @@ The advancement of Large Language Models (LLMs) has led to their widespread use 
 {{</citation>}}
 
 
-### (21/56) EHR Interaction Between Patients and AI: NoteAid EHR Interaction (Xiaocheng Zhang et al., 2023)
+### (33/60) EHR Interaction Between Patients and AI: NoteAid EHR Interaction (Xiaocheng Zhang et al., 2023)
 
 {{<citation>}}
 
@@ -516,11 +789,11 @@ With the rapid advancement of Large Language Models (LLMs) and their outstanding
 {{</citation>}}
 
 
-## cs.CV (9)
+## cs.CV (10)
 
 
 
-### (22/56) Multiscale Vision Transformers meet Bipartite Matching for efficient single-stage Action Localization (Ioanna Ntinou et al., 2023)
+### (34/60) Multiscale Vision Transformers meet Bipartite Matching for efficient single-stage Action Localization (Ioanna Ntinou et al., 2023)
 
 {{<citation>}}
 
@@ -542,7 +815,7 @@ Action Localization is a challenging problem that combines detection and recogni
 {{</citation>}}
 
 
-### (23/56) One-Shot Multi-Rate Pruning of Graph Convolutional Networks (Hichem Sahbi, 2023)
+### (35/60) One-Shot Multi-Rate Pruning of Graph Convolutional Networks (Hichem Sahbi, 2023)
 
 {{<citation>}}
 
@@ -564,7 +837,7 @@ In this paper, we devise a novel lightweight Graph Convolutional Network (GCN) d
 {{</citation>}}
 
 
-### (24/56) P2M2-Net: Part-Aware Prompt-Guided Multimodal Point Cloud Completion (Linlian Jiang et al., 2023)
+### (36/60) P2M2-Net: Part-Aware Prompt-Guided Multimodal Point Cloud Completion (Linlian Jiang et al., 2023)
 
 {{<citation>}}
 
@@ -586,7 +859,7 @@ Inferring missing regions from severely occluded point clouds is highly challeng
 {{</citation>}}
 
 
-### (25/56) Informative Rays Selection for Few-Shot Neural Radiance Fields (Marco Orsingher et al., 2023)
+### (37/60) Informative Rays Selection for Few-Shot Neural Radiance Fields (Marco Orsingher et al., 2023)
 
 {{<citation>}}
 
@@ -608,7 +881,7 @@ Neural Radiance Fields (NeRF) have recently emerged as a powerful method for ima
 {{</citation>}}
 
 
-### (26/56) A Fully Automated Pipeline Using Swin Transformers for Deep Learning-Based Blood Segmentation on Head CT Scans After Aneurysmal Subarachnoid Hemorrhage (Sergio Garcia Garcia et al., 2023)
+### (38/60) A Fully Automated Pipeline Using Swin Transformers for Deep Learning-Based Blood Segmentation on Head CT Scans After Aneurysmal Subarachnoid Hemorrhage (Sergio Garcia Garcia et al., 2023)
 
 {{<citation>}}
 
@@ -630,7 +903,7 @@ Background: Accurate volumetric assessment of spontaneous subarachnoid hemorrhag
 {{</citation>}}
 
 
-### (27/56) FerKD: Surgical Label Adaptation for Efficient Distillation (Zhiqiang Shen, 2023)
+### (39/60) FerKD: Surgical Label Adaptation for Efficient Distillation (Zhiqiang Shen, 2023)
 
 {{<citation>}}
 
@@ -652,7 +925,7 @@ We present FerKD, a novel efficient knowledge distillation framework that incorp
 {{</citation>}}
 
 
-### (28/56) Tracking with Human-Intent Reasoning (Jiawen Zhu et al., 2023)
+### (40/60) Tracking with Human-Intent Reasoning (Jiawen Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -674,7 +947,29 @@ Advances in perception modeling have significantly improved the performance of o
 {{</citation>}}
 
 
-### (29/56) Video Understanding with Large Language Models: A Survey (Yunlong Tang et al., 2023)
+### (41/60) An Empirical Study of Scaling Law for OCR (Miao Rang et al., 2023)
+
+{{<citation>}}
+
+Miao Rang, Zhenni Bi, Chuanjian Liu, Yunhe Wang, Kai Han. (2023)  
+**An Empirical Study of Scaling Law for OCR**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: NLP, Natural Language Processing, OCR  
+[Paper Link](http://arxiv.org/abs/2401.00028v1)  
+
+---
+
+
+**ABSTRACT**  
+The laws of model size, data volume, computation and model performance have been extensively studied in the field of Natural Language Processing (NLP). However, the scaling laws in Optical Character Recognition (OCR) have not yet been investigated. To address this, we conducted comprehensive studies that involved examining the correlation between performance and the scale of models, data volume and computation in the field of text recognition.Conclusively, the study demonstrates smooth power laws between performance and model size, as well as training data volume, when other influencing factors are held constant. Additionally, we have constructed a large-scale dataset called REBU-Syn, which comprises 6 million real samples and 18 million synthetic samples. Based on our scaling law and new dataset, we have successfully trained a scene text recognition model, achieving a new state-ofthe-art on 6 common test benchmarks with a top-1 average accuracy of 97.42%.
+
+{{</citation>}}
+
+
+### (42/60) Video Understanding with Large Language Models: A Survey (Yunlong Tang et al., 2023)
 
 {{<citation>}}
 
@@ -696,7 +991,7 @@ With the burgeoning growth of online video platforms and the escalating volume o
 {{</citation>}}
 
 
-### (30/56) Commonsense for Zero-Shot Natural Language Video Localization (Meghana Holla et al., 2023)
+### (43/60) Commonsense for Zero-Shot Natural Language Video Localization (Meghana Holla et al., 2023)
 
 {{<citation>}}
 
@@ -718,213 +1013,11 @@ Zero-shot Natural Language-Video Localization (NLVL) methods have exhibited prom
 {{</citation>}}
 
 
-## cs.LG (9)
-
-
-
-### (31/56) Data Augmentation for Supervised Graph Outlier Detection with Latent Diffusion Models (Kay Liu et al., 2023)
-
-{{<citation>}}
-
-Kay Liu, Hengrui Zhang, Ziqing Hu, Fangxin Wang, Philip S. Yu. (2023)  
-**Data Augmentation for Supervised Graph Outlier Detection with Latent Diffusion Models**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs-SI, cs.LG  
-Keywords: Augmentation  
-[Paper Link](http://arxiv.org/abs/2312.17679v1)  
-
----
-
-
-**ABSTRACT**  
-Graph outlier detection is a prominent task of research and application in the realm of graph neural networks. It identifies the outlier nodes that exhibit deviation from the majority in the graph. One of the fundamental challenges confronting supervised graph outlier detection algorithms is the prevalent issue of class imbalance, where the scarcity of outlier instances compared to normal instances often results in suboptimal performance. Conventional methods mitigate the imbalance by reweighting instances in the estimation of the loss function, assigning higher weights to outliers and lower weights to inliers. Nonetheless, these strategies are prone to overfitting and underfitting, respectively. Recently, generative models, especially diffusion models, have demonstrated their efficacy in synthesizing high-fidelity images. Despite their extraordinary generation quality, their potential in data augmentation for supervised graph outlier detection remains largely underexplored.   To bridge this gap, we introduce GODM, a novel data augmentation for mitigating class imbalance in supervised Graph Outlier detection with latent Diffusion Models. Specifically, our proposed method consists of three key components: (1) Variantioanl Encoder maps the heterogeneous information inherent within the graph data into a unified latent space. (2) Graph Generator synthesizes graph data that are statistically similar to real outliers from latent space, and (3) Latent Diffusion Model learns the latent space distribution of real organic data by iterative denoising. Extensive experiments conducted on multiple datasets substantiate the effectiveness and efficiency of GODM. The case study further demonstrated the generation quality of our synthetic data. To foster accessibility and reproducibility, we encapsulate GODM into a plug-and-play package and release it at the Python Package Index (PyPI).
-
-{{</citation>}}
-
-
-### (32/56) AIJack: Security and Privacy Risk Simulator for Machine Learning (Hideaki Takahashi, 2023)
-
-{{<citation>}}
-
-Hideaki Takahashi. (2023)  
-**AIJack: Security and Privacy Risk Simulator for Machine Learning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-CR, cs-LG, cs.LG  
-Keywords: AI, Security  
-[Paper Link](http://arxiv.org/abs/2312.17667v1)  
-
----
-
-
-**ABSTRACT**  
-This paper introduces AIJack, an open-source library designed to assess security and privacy risks associated with the training and deployment of machine learning models. Amid the growing interest in big data and AI, advancements in machine learning research and business are accelerating. However, recent studies reveal potential threats, such as the theft of training data and the manipulation of models by malicious attackers. Therefore, a comprehensive understanding of machine learning's security and privacy vulnerabilities is crucial for the safe integration of machine learning into real-world products. AIJack aims to address this need by providing a library with various attack and defense methods through a unified API. The library is publicly available on GitHub (https://github.com/Koukyosyumei/AIJack).
-
-{{</citation>}}
-
-
-### (33/56) XAI for In-hospital Mortality Prediction via Multimodal ICU Data (Xingqiao Li et al., 2023)
-
-{{<citation>}}
-
-Xingqiao Li, Jindong Gu, Zhiyong Wang, Yancheng Yuan, Bo Du, Fengxiang He. (2023)  
-**XAI for In-hospital Mortality Prediction via Multimodal ICU Data**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keywords: AI, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2312.17624v1)  
-
----
-
-
-**ABSTRACT**  
-Predicting in-hospital mortality for intensive care unit (ICU) patients is key to final clinical outcomes. AI has shown advantaged accuracy but suffers from the lack of explainability. To address this issue, this paper proposes an eXplainable Multimodal Mortality Predictor (X-MMP) approaching an efficient, explainable AI solution for predicting in-hospital mortality via multimodal ICU data. We employ multimodal learning in our framework, which can receive heterogeneous inputs from clinical data and make decisions. Furthermore, we introduce an explainable method, namely Layer-Wise Propagation to Transformer, as a proper extension of the LRP method to Transformers, producing explanations over multimodal inputs and revealing the salient features attributed to prediction. Moreover, the contribution of each modality to clinical outcomes can be visualized, assisting clinicians in understanding the reasoning behind decision-making. We construct a multimodal dataset based on MIMIC-III and MIMIC-III Waveform Database Matched Subset. Comprehensive experiments on benchmark datasets demonstrate that our proposed framework can achieve reasonable interpretation with competitive prediction accuracy. In particular, our framework can be easily transferred to other clinical tasks, which facilitates the discovery of crucial factors in healthcare research.
-
-{{</citation>}}
-
-
-### (34/56) Interpretable and Explainable Machine Learning Methods for Predictive Process Monitoring: A Systematic Literature Review (Nijat Mehdiyev et al., 2023)
-
-{{<citation>}}
-
-Nijat Mehdiyev, Maxim Majlatow, Peter Fettke. (2023)  
-**Interpretable and Explainable Machine Learning Methods for Predictive Process Monitoring: A Systematic Literature Review**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG, stat-ML  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2312.17584v1)  
-
----
-
-
-**ABSTRACT**  
-This paper presents a systematic literature review (SLR) on the explainability and interpretability of machine learning (ML) models within the context of predictive process mining, using the PRISMA framework. Given the rapid advancement of artificial intelligence (AI) and ML systems, understanding the "black-box" nature of these technologies has become increasingly critical. Focusing specifically on the domain of process mining, this paper delves into the challenges of interpreting ML models trained with complex business process data. We differentiate between intrinsically interpretable models and those that require post-hoc explanation techniques, providing a comprehensive overview of the current methodologies and their applications across various application domains. Through a rigorous bibliographic analysis, this research offers a detailed synthesis of the state of explainability and interpretability in predictive process mining, identifying key trends, challenges, and future directions. Our findings aim to equip researchers and practitioners with a deeper understanding of how to develop and implement more trustworthy, transparent, and effective intelligent systems for predictive process analytics.
-
-{{</citation>}}
-
-
-### (35/56) Embedded feature selection in LSTM networks with multi-objective evolutionary ensemble learning for time series forecasting (Raquel Espinosa et al., 2023)
-
-{{<citation>}}
-
-Raquel Espinosa, Fernando Jiménez, José Palma. (2023)  
-**Embedded feature selection in LSTM networks with multi-objective evolutionary ensemble learning for time series forecasting**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs-NE, cs.LG  
-Keywords: LSTM  
-[Paper Link](http://arxiv.org/abs/2312.17517v1)  
-
----
-
-
-**ABSTRACT**  
-Time series forecasting plays a crucial role in diverse fields, necessitating the development of robust models that can effectively handle complex temporal patterns. In this article, we present a novel feature selection method embedded in Long Short-Term Memory networks, leveraging a multi-objective evolutionary algorithm. Our approach optimizes the weights and biases of the LSTM in a partitioned manner, with each objective function of the evolutionary algorithm targeting the root mean square error in a specific data partition. The set of non-dominated forecast models identified by the algorithm is then utilized to construct a meta-model through stacking-based ensemble learning. Furthermore, our proposed method provides an avenue for attribute importance determination, as the frequency of selection for each attribute in the set of non-dominated forecasting models reflects their significance. This attribute importance insight adds an interpretable dimension to the forecasting process. Experimental evaluations on air quality time series data from Italy and southeast Spain demonstrate that our method substantially improves the generalization ability of conventional LSTMs, effectively reducing overfitting. Comparative analyses against state-of-the-art CancelOut and EAR-FS methods highlight the superior performance of our approach.
-
-{{</citation>}}
-
-
-### (36/56) HiBid: A Cross-Channel Constrained Bidding System with Budget Allocation by Hierarchical Offline Deep Reinforcement Learning (Hao Wang et al., 2023)
-
-{{<citation>}}
-
-Hao Wang, Bo Tang, Chi Harold Liu, Shangqin Mao, Jiahong Zhou, Zipeng Dai, Yaqi Sun, Qianlong Xie, Xingxing Wang, Dong Wang. (2023)  
-**HiBid: A Cross-Channel Constrained Bidding System with Budget Allocation by Hierarchical Offline Deep Reinforcement Learning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-GT, cs-LG, cs.LG  
-Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2312.17503v1)  
-
----
-
-
-**ABSTRACT**  
-Online display advertising platforms service numerous advertisers by providing real-time bidding (RTB) for the scale of billions of ad requests every day. The bidding strategy handles ad requests cross multiple channels to maximize the number of clicks under the set financial constraints, i.e., total budget and cost-per-click (CPC), etc. Different from existing works mainly focusing on single channel bidding, we explicitly consider cross-channel constrained bidding with budget allocation. Specifically, we propose a hierarchical offline deep reinforcement learning (DRL) framework called ``HiBid'', consisted of a high-level planner equipped with auxiliary loss for non-competitive budget allocation, and a data augmentation enhanced low-level executor for adaptive bidding strategy in response to allocated budgets. Additionally, a CPC-guided action selection mechanism is introduced to satisfy the cross-channel CPC constraint. Through extensive experiments on both the large-scale log data and online A/B testing, we confirm that HiBid outperforms six baselines in terms of the number of clicks, CPC satisfactory ratio, and return-on-investment (ROI). We also deploy HiBid on Meituan advertising platform to already service tens of thousands of advertisers every day.
-
-{{</citation>}}
-
-
-### (37/56) Integrating Chemical Language and Molecular Graph in Multimodal Fused Deep Learning for Drug Property Prediction (Xiaohua Lu et al., 2023)
-
-{{<citation>}}
-
-Xiaohua Lu, Liangxu Xie, Lei Xu, Rongzhi Mao, Shan Chang, Xiaojun Xu. (2023)  
-**Integrating Chemical Language and Molecular Graph in Multimodal Fused Deep Learning for Drug Property Prediction**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG, physics-bio-ph, q-bio-BM  
-Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2312.17495v1)  
-
----
-
-
-**ABSTRACT**  
-Accurately predicting molecular properties is a challenging but essential task in drug discovery. Recently, many mono-modal deep learning methods have been successfully applied to molecular property prediction. However, the inherent limitation of mono-modal learning arises from relying solely on one modality of molecular representation, which restricts a comprehensive understanding of drug molecules and hampers their resilience against data noise. To overcome the limitations, we construct multimodal deep learning models to cover different molecular representations. We convert drug molecules into three molecular representations, SMILES-encoded vectors, ECFP fingerprints, and molecular graphs. To process the modal information, Transformer-Encoder, bi-directional gated recurrent units (BiGRU), and graph convolutional network (GCN) are utilized for feature learning respectively, which can enhance the model capability to acquire complementary and naturally occurring bioinformatics information. We evaluated our triple-modal model on six molecule datasets. Different from bi-modal learning models, we adopt five fusion methods to capture the specific features and leverage the contribution of each modal information better. Compared with mono-modal models, our multimodal fused deep learning (MMFDL) models outperform single models in accuracy, reliability, and resistance capability against noise. Moreover, we demonstrate its generalization ability in the prediction of binding constants for protein-ligand complex molecules in the refined set of PDBbind. The advantage of the multimodal model lies in its ability to process diverse sources of data using proper models and suitable fusion methods, which would enhance the noise resistance of the model while obtaining data diversity.
-
-{{</citation>}}
-
-
-### (38/56) Differentially Private Low-Rank Adaptation of Large Language Model Using Federated Learning (Xiao-Yang Liu et al., 2023)
-
-{{<citation>}}
-
-Xiao-Yang Liu, Rongyi Zhu, Daochen Zha, Jiechao Gao, Shan Zhong, Meikang Qiu. (2023)  
-**Differentially Private Low-Rank Adaptation of Large Language Model Using Federated Learning**  
-
----
-Primary Category: cs.LG  
-Categories: cs-CR, cs-LG, cs.LG  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2312.17493v1)  
-
----
-
-
-**ABSTRACT**  
-The surge in interest and application of large language models (LLMs) has sparked a drive to fine-tune these models to suit specific applications, such as finance and medical science. However, concerns regarding data privacy have emerged, especially when multiple stakeholders aim to collaboratively enhance LLMs using sensitive data. In this scenario, federated learning becomes a natural choice, allowing decentralized fine-tuning without exposing raw data to central servers. Motivated by this, we investigate how data privacy can be ensured in LLM fine-tuning through practical federated learning approaches, enabling secure contributions from multiple parties to enhance LLMs. Yet, challenges arise: 1) despite avoiding raw data exposure, there is a risk of inferring sensitive information from model outputs, and 2) federated learning for LLMs incurs notable communication overhead. To address these challenges, this article introduces DP-LoRA, a novel federated learning algorithm tailored for LLMs. DP-LoRA preserves data privacy by employing a Gaussian mechanism that adds noise in weight updates, maintaining individual data privacy while facilitating collaborative model training. Moreover, DP-LoRA optimizes communication efficiency via low-rank adaptation, minimizing the transmission of updated weights during distributed training. The experimental results across medical, financial, and general datasets using various LLMs demonstrate that DP-LoRA effectively ensures strict privacy constraints while minimizing communication overhead.
-
-{{</citation>}}
-
-
-### (39/56) ClST: A Convolutional Transformer Framework for Automatic Modulation Recognition by Knowledge Distillation (Dongbin Hou et al., 2023)
-
-{{<citation>}}
-
-Dongbin Hou, Lixin Li, Wensheng Lin, Junli Liang, Zhu Han. (2023)  
-**ClST: A Convolutional Transformer Framework for Automatic Modulation Recognition by Knowledge Distillation**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG, eess-SP  
-Keywords: Knowledge Distillation, Transformer  
-[Paper Link](http://arxiv.org/abs/2312.17446v1)  
-
----
-
-
-**ABSTRACT**  
-With the rapid development of deep learning (DL) in recent years, automatic modulation recognition (AMR) with DL has achieved high accuracy. However, insufficient training signal data in complicated channel environments and large-scale DL models are critical factors that make DL methods difficult to deploy in practice. Aiming to these problems, we propose a novel neural network named convolution-linked signal transformer (ClST) and a novel knowledge distillation method named signal knowledge distillation (SKD). The ClST is accomplished through three primary modifications: a hierarchy of transformer containing convolution, a novel attention mechanism named parallel spatial-channel attention (PSCA) mechanism and a novel convolutional transformer block named convolution-transformer projection (CTP) to leverage a convolutional projection. The SKD is a knowledge distillation method to effectively reduce the parameters and complexity of neural networks. We train two lightweight neural networks using the SKD algorithm, KD-CNN and KD-MobileNet, to meet the demand that neural networks can be used on miniaturized devices. The simulation results demonstrate that the ClST outperforms advanced neural networks on all datasets. Moreover, both KD-CNN and KD-MobileNet obtain higher recognition accuracy with less network complexity, which is very beneficial for the deployment of AMR on miniaturized communication devices.
-
-{{</citation>}}
-
-
 ## cs.RO (5)
 
 
 
-### (40/56) Vocalics in Human-Drone Interaction (Marc Lieser et al., 2023)
+### (44/60) Vocalics in Human-Drone Interaction (Marc Lieser et al., 2023)
 
 {{<citation>}}
 
@@ -946,7 +1039,7 @@ As the presence of flying robots continues to grow in both commercial and privat
 {{</citation>}}
 
 
-### (41/56) Adaptive Control Strategy for Quadruped Robots in Actuator Degradation Scenarios (Xinyuan Wu et al., 2023)
+### (45/60) Adaptive Control Strategy for Quadruped Robots in Actuator Degradation Scenarios (Xinyuan Wu et al., 2023)
 
 {{<citation>}}
 
@@ -968,7 +1061,7 @@ Quadruped robots have strong adaptability to extreme environments but may also e
 {{</citation>}}
 
 
-### (42/56) Unified Task and Motion Planning using Object-centric Abstractions of Motion Constraints (Alejandro Agostini et al., 2023)
+### (46/60) Unified Task and Motion Planning using Object-centric Abstractions of Motion Constraints (Alejandro Agostini et al., 2023)
 
 {{<citation>}}
 
@@ -990,7 +1083,7 @@ In task and motion planning (TAMP), the ambiguity and underdetermination of abst
 {{</citation>}}
 
 
-### (43/56) Exploring Deep Reinforcement Learning for Robust Target Tracking using Micro Aerial Vehicles (Alberto Dionigi et al., 2023)
+### (47/60) Exploring Deep Reinforcement Learning for Robust Target Tracking using Micro Aerial Vehicles (Alberto Dionigi et al., 2023)
 
 {{<citation>}}
 
@@ -1012,7 +1105,7 @@ The capability to autonomously track a non-cooperative target is a key technolog
 {{</citation>}}
 
 
-### (44/56) Actuator-Constrained Reinforcement Learning for High-Speed Quadrupedal Locomotion (Young-Ha Shin et al., 2023)
+### (48/60) Actuator-Constrained Reinforcement Learning for High-Speed Quadrupedal Locomotion (Young-Ha Shin et al., 2023)
 
 {{<citation>}}
 
@@ -1038,7 +1131,7 @@ This paper presents a method for achieving high-speed running of a quadruped rob
 
 
 
-### (45/56) Research on the Laws of Multimodal Perception and Cognition from a Cross-cultural Perspective -- Taking Overseas Chinese Gardens as an Example (Ran Chen et al., 2023)
+### (49/60) Research on the Laws of Multimodal Perception and Cognition from a Cross-cultural Perspective -- Taking Overseas Chinese Gardens as an Example (Ran Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1060,7 +1153,7 @@ This study aims to explore the complex relationship between perceptual and cogni
 {{</citation>}}
 
 
-### (46/56) Olapa-MCoT: Enhancing the Chinese Mathematical Reasoning Capability of LLMs (Shaojie Zhu et al., 2023)
+### (50/60) Olapa-MCoT: Enhancing the Chinese Mathematical Reasoning Capability of LLMs (Shaojie Zhu et al., 2023)
 
 {{<citation>}}
 
@@ -1082,7 +1175,7 @@ CoT (Chain-of-Thought) is a way to solve reasoning problems for LLMs . Recently,
 {{</citation>}}
 
 
-### (47/56) Culturally-Attuned Moral Machines: Implicit Learning of Human Value Systems by AI through Inverse Reinforcement Learning (Nigini Oliveira et al., 2023)
+### (51/60) Culturally-Attuned Moral Machines: Implicit Learning of Human Value Systems by AI through Inverse Reinforcement Learning (Nigini Oliveira et al., 2023)
 
 {{<citation>}}
 
@@ -1104,7 +1197,7 @@ Constructing a universal moral code for artificial intelligence (AI) is difficul
 {{</citation>}}
 
 
-### (48/56) SMoT: Think in State Machine (Jia Liu et al., 2023)
+### (52/60) SMoT: Think in State Machine (Jia Liu et al., 2023)
 
 {{<citation>}}
 
@@ -1130,7 +1223,7 @@ Current prompting approach for language model inference mainly rely on Language 
 
 
 
-### (49/56) Distribution-based Low-rank Embedding (Bardia Yousefi, 2023)
+### (53/60) Distribution-based Low-rank Embedding (Bardia Yousefi, 2023)
 
 {{<citation>}}
 
@@ -1156,7 +1249,7 @@ The early detection of breast abnormalities is a matter of critical significance
 
 
 
-### (50/56) Higher Order Model Checking in Isabelle for Human Centric Infrastructure Security (Florian Kammüller, 2023)
+### (54/60) Higher Order Model Checking in Isabelle for Human Centric Infrastructure Security (Florian Kammüller, 2023)
 
 {{<citation>}}
 
@@ -1182,7 +1275,7 @@ In this paper we present an efficient approach to implementing model checking in
 
 
 
-### (51/56) Design Space Exploration of Approximate Computing Techniques with a Reinforcement Learning Approach (Sepide Saeedi et al., 2023)
+### (55/60) Design Space Exploration of Approximate Computing Techniques with a Reinforcement Learning Approach (Sepide Saeedi et al., 2023)
 
 {{<citation>}}
 
@@ -1208,7 +1301,7 @@ Approximate Computing (AxC) techniques have become increasingly popular in tradi
 
 
 
-### (52/56) Attention-based Interactive Disentangling Network for Instance-level Emotional Voice Conversion (Yun Chen et al., 2023)
+### (56/60) Attention-based Interactive Disentangling Network for Instance-level Emotional Voice Conversion (Yun Chen et al., 2023)
 
 {{<citation>}}
 
@@ -1234,7 +1327,7 @@ Emotional Voice Conversion aims to manipulate a speech according to a given emot
 
 
 
-### (53/56) A graph neural network-based model with Out-of-Distribution Robustness for enhancing Antiretroviral Therapy Outcome Prediction for HIV-1 (Giulia Di Teodoro et al., 2023)
+### (57/60) A graph neural network-based model with Out-of-Distribution Robustness for enhancing Antiretroviral Therapy Outcome Prediction for HIV-1 (Giulia Di Teodoro et al., 2023)
 
 {{<citation>}}
 
@@ -1260,7 +1353,7 @@ Predicting the outcome of antiretroviral therapies for HIV-1 is a pressing clini
 
 
 
-### (54/56) The Right Prompts for the Job: Repair Code-Review Defects with Large Language Model (Zelin Zhao et al., 2023)
+### (58/60) The Right Prompts for the Job: Repair Code-Review Defects with Large Language Model (Zelin Zhao et al., 2023)
 
 {{<citation>}}
 
@@ -1286,7 +1379,7 @@ Automatic program repair (APR) techniques have the potential to reduce manual ef
 
 
 
-### (55/56) DB-GPT: Empowering Database Interactions with Private Large Language Models (Siqiao Xue et al., 2023)
+### (59/60) DB-GPT: Empowering Database Interactions with Private Large Language Models (Siqiao Xue et al., 2023)
 
 {{<citation>}}
 
@@ -1312,7 +1405,7 @@ The recent breakthroughs in large language models (LLMs) are positioned to trans
 
 
 
-### (56/56) Low Power and Temperature-Resilient Compute-In-Memory Based on Subthreshold-FeFET (Yifei Zhou et al., 2023)
+### (60/60) Low Power and Temperature-Resilient Compute-In-Memory Based on Subthreshold-FeFET (Yifei Zhou et al., 2023)
 
 {{<citation>}}
 
