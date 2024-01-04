@@ -540,7 +540,7 @@ Weijian Mai, Jian Zhang, Pengfei Fang, Zhijun Zhang. (2023)
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2401.00430v1)  
+[Paper Link](http://arxiv.org/abs/2401.00430v2)  
 
 ---
 

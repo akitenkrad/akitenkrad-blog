@@ -22,27 +22,28 @@ math: true
 ## Primary Categories
 
 - [cs.LG (9)](#cslg-9)
-- [cs.CV (11)](#cscv-11)
+- [cs.CV (12)](#cscv-12)
 - [cs.SE (4)](#csse-4)
 - [cs.AI (1)](#csai-1)
 - [cs.CL (10)](#cscl-10)
 - [cs.HC (1)](#cshc-1)
 - [cs.CR (3)](#cscr-3)
 - [cs.RO (1)](#csro-1)
+- [cs.SI (2)](#cssi-2)
 - [cs.GR (1)](#csgr-1)
 - [physics.comp-ph (1)](#physicscomp-ph-1)
 - [eess.IV (3)](#eessiv-3)
+- [q-bio.NC (1)](#q-bionc-1)
 - [math.DS (1)](#mathds-1)
 - [eess.SP (1)](#eesssp-1)
 - [cs.SD (1)](#cssd-1)
-- [cs.SI (1)](#cssi-1)
 - [cs.NI (1)](#csni-1)
 
 ## cs.LG (9)
 
 
 
-### (1/50) Downstream Task-Oriented Generative Model Selections on Synthetic Data Training for Fraud Detection Models (Yinan Cheng et al., 2024)
+### (1/53) Downstream Task-Oriented Generative Model Selections on Synthetic Data Training for Fraud Detection Models (Yinan Cheng et al., 2024)
 
 {{<citation>}}
 
@@ -64,7 +65,7 @@ Devising procedures for downstream task-oriented generative model selections is 
 {{</citation>}}
 
 
-### (2/50) Improve Fidelity and Utility of Synthetic Credit Card Transaction Time Series from Data-centric Perspective (Din-Yin Hsieh et al., 2024)
+### (2/53) Improve Fidelity and Utility of Synthetic Credit Card Transaction Time Series from Data-centric Perspective (Din-Yin Hsieh et al., 2024)
 
 {{<citation>}}
 
@@ -86,7 +87,7 @@ Exploring generative model training for synthetic tabular data, specifically in 
 {{</citation>}}
 
 
-### (3/50) SecFormer: Towards Fast and Accurate Privacy-Preserving Inference for Large Language Models (Jinglong Luo et al., 2024)
+### (3/53) SecFormer: Towards Fast and Accurate Privacy-Preserving Inference for Large Language Models (Jinglong Luo et al., 2024)
 
 {{<citation>}}
 
@@ -108,7 +109,7 @@ With the growing use of large language models hosted on cloud platforms to offer
 {{</citation>}}
 
 
-### (4/50) MPRE: Multi-perspective Patient Representation Extractor for Disease Prediction (Ziyue Yu et al., 2024)
+### (4/53) MPRE: Multi-perspective Patient Representation Extractor for Disease Prediction (Ziyue Yu et al., 2024)
 
 {{<citation>}}
 
@@ -130,7 +131,7 @@ Patient representation learning based on electronic health records (EHR) is a cr
 {{</citation>}}
 
 
-### (5/50) Saliency-Aware Regularized Graph Neural Network (Wenjie Pei et al., 2024)
+### (5/53) Saliency-Aware Regularized Graph Neural Network (Wenjie Pei et al., 2024)
 
 {{<citation>}}
 
@@ -152,7 +153,7 @@ The crux of graph classification lies in the effective representation learning f
 {{</citation>}}
 
 
-### (6/50) A Survey on Graph Neural Networks in Intelligent Transportation Systems (Hourun Li et al., 2024)
+### (6/53) A Survey on Graph Neural Networks in Intelligent Transportation Systems (Hourun Li et al., 2024)
 
 {{<citation>}}
 
@@ -174,7 +175,7 @@ Intelligent Transportation System (ITS) is vital in improving traffic congestion
 {{</citation>}}
 
 
-### (7/50) Communication-Efficient Federated Learning for LEO Constellations Integrated with HAPs Using Hybrid NOMA-OFDM (Mohamed Elmahallawy et al., 2024)
+### (7/53) Communication-Efficient Federated Learning for LEO Constellations Integrated with HAPs Using Hybrid NOMA-OFDM (Mohamed Elmahallawy et al., 2024)
 
 {{<citation>}}
 
@@ -196,7 +197,7 @@ Space AI has become increasingly important and sometimes even necessary for gove
 {{</citation>}}
 
 
-### (8/50) On Discprecncies between Perturbation Evaluations of Graph Neural Network Attributions (Razieh Rezaei et al., 2024)
+### (8/53) On Discprecncies between Perturbation Evaluations of Graph Neural Network Attributions (Razieh Rezaei et al., 2024)
 
 {{<citation>}}
 
@@ -218,7 +219,7 @@ Neural networks are increasingly finding their way into the realm of graphs and 
 {{</citation>}}
 
 
-### (9/50) Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models (Guangji Bai et al., 2024)
+### (9/53) Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models (Guangji Bai et al., 2024)
 
 {{<citation>}}
 
@@ -240,11 +241,11 @@ The burgeoning field of Large Language Models (LLMs), exemplified by sophisticat
 {{</citation>}}
 
 
-## cs.CV (11)
+## cs.CV (12)
 
 
 
-### (10/50) Efficient Multi-domain Text Recognition Deep Neural Network Parameterization with Residual Adapters (Jiayou Chao et al., 2024)
+### (10/53) Efficient Multi-domain Text Recognition Deep Neural Network Parameterization with Residual Adapters (Jiayou Chao et al., 2024)
 
 {{<citation>}}
 
@@ -266,7 +267,7 @@ Recent advancements in deep neural networks have markedly enhanced the performan
 {{</citation>}}
 
 
-### (11/50) Data Augmentation Techniques for Cross-Domain WiFi CSI-based Human Activity Recognition (Julian Strohmayer et al., 2024)
+### (11/53) Data Augmentation Techniques for Cross-Domain WiFi CSI-based Human Activity Recognition (Julian Strohmayer et al., 2024)
 
 {{<citation>}}
 
@@ -288,7 +289,29 @@ The recognition of human activities based on WiFi Channel State Information (CSI
 {{</citation>}}
 
 
-### (12/50) Boundary Attention: Learning to Find Faint Boundaries at Any Resolution (Mia Gaia Polansky et al., 2024)
+### (12/53) DiffAugment: Diffusion based Long-Tailed Visual Relationship Recognition (Parul Gupta et al., 2024)
+
+{{<citation>}}
+
+Parul Gupta, Tuan Nguyen, Abhinav Dhall, Munawar Hayat, Trung Le, Thanh-Toan Do. (2024)  
+**DiffAugment: Diffusion based Long-Tailed Visual Relationship Recognition**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: QA  
+[Paper Link](http://arxiv.org/abs/2401.01387v1)  
+
+---
+
+
+**ABSTRACT**  
+The task of Visual Relationship Recognition (VRR) aims to identify relationships between two interacting objects in an image and is particularly challenging due to the widely-spread and highly imbalanced distribution of <subject, relation, object> triplets. To overcome the resultant performance bias in existing VRR approaches, we introduce DiffAugment -- a method which first augments the tail classes in the linguistic space by making use of WordNet and then utilizes the generative prowess of Diffusion Models to expand the visual space for minority classes. We propose a novel hardness-aware component in diffusion which is based upon the hardness of each <S,R,O> triplet and demonstrate the effectiveness of hardness-aware diffusion in generating visual embeddings for the tail classes. We also propose a novel subject and object based seeding strategy for diffusion sampling which improves the discriminative capability of the generated visual embeddings. Extensive experimentation on the GQA-LT dataset shows favorable gains in the subject/object and relation average per-class accuracy using Diffusion augmented samples.
+
+{{</citation>}}
+
+
+### (13/53) Boundary Attention: Learning to Find Faint Boundaries at Any Resolution (Mia Gaia Polansky et al., 2024)
 
 {{<citation>}}
 
@@ -310,7 +333,7 @@ We present a differentiable model that explicitly models boundaries -- including
 {{</citation>}}
 
 
-### (13/50) COSMO: COntrastive Streamlined MultimOdal Model with Interleaved Pre-Training (Alex Jinpeng Wang et al., 2024)
+### (14/53) COSMO: COntrastive Streamlined MultimOdal Model with Interleaved Pre-Training (Alex Jinpeng Wang et al., 2024)
 
 {{<citation>}}
 
@@ -332,7 +355,7 @@ In the evolution of Vision-Language Pre-training, shifting from short-text compr
 {{</citation>}}
 
 
-### (14/50) Mocap Everyone Everywhere: Lightweight Motion Capture With Smartwatches and a Head-Mounted Camera (Jiye Lee et al., 2024)
+### (15/53) Mocap Everyone Everywhere: Lightweight Motion Capture With Smartwatches and a Head-Mounted Camera (Jiye Lee et al., 2024)
 
 {{<citation>}}
 
@@ -354,7 +377,7 @@ We present a lightweight and affordable motion capture method based on two smart
 {{</citation>}}
 
 
-### (15/50) Rethinking RAFT for Efficient Optical Flow (Navid Eslami et al., 2024)
+### (16/53) Rethinking RAFT for Efficient Optical Flow (Navid Eslami et al., 2024)
 
 {{<citation>}}
 
@@ -376,7 +399,7 @@ Despite significant progress in deep learning-based optical flow methods, accura
 {{</citation>}}
 
 
-### (16/50) DiffMorph: Text-less Image Morphing with Diffusion Models (Shounak Chatterjee, 2024)
+### (17/53) DiffMorph: Text-less Image Morphing with Diffusion Models (Shounak Chatterjee, 2024)
 
 {{<citation>}}
 
@@ -398,7 +421,7 @@ Text-conditioned image generation models are a prevalent use of AI image synthes
 {{</citation>}}
 
 
-### (17/50) BRAU-Net++: U-Shaped Hybrid CNN-Transformer Network for Medical Image Segmentation (Libin Lan et al., 2024)
+### (18/53) BRAU-Net++: U-Shaped Hybrid CNN-Transformer Network for Medical Image Segmentation (Libin Lan et al., 2024)
 
 {{<citation>}}
 
@@ -420,7 +443,7 @@ Accurate medical image segmentation is essential for clinical quantification, di
 {{</citation>}}
 
 
-### (18/50) Towards Efficient and Effective Text-to-Video Retrieval with Coarse-to-Fine Visual Representation Learning (Kaibin Tian et al., 2024)
+### (19/53) Towards Efficient and Effective Text-to-Video Retrieval with Coarse-to-Fine Visual Representation Learning (Kaibin Tian et al., 2024)
 
 {{<citation>}}
 
@@ -442,7 +465,7 @@ In recent years, text-to-video retrieval methods based on CLIP have experienced 
 {{</citation>}}
 
 
-### (19/50) Credible Teacher for Semi-Supervised Object Detection in Open Scene (Jingyu Zhuang et al., 2024)
+### (20/53) Credible Teacher for Semi-Supervised Object Detection in Open Scene (Jingyu Zhuang et al., 2024)
 
 {{<citation>}}
 
@@ -453,7 +476,7 @@ Jingyu Zhuang, Kuo Wang, Liang Lin, Guanbin Li. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Object Detection, Semi-Supervised  
-[Paper Link](http://arxiv.org/abs/2401.00695v1)  
+[Paper Link](http://arxiv.org/abs/2401.00695v2)  
 
 ---
 
@@ -464,7 +487,7 @@ Semi-Supervised Object Detection (SSOD) has achieved resounding success by lever
 {{</citation>}}
 
 
-### (20/50) ScatterFormer: Efficient Voxel Transformer with Scattered Linear Attention (Chenhang He et al., 2024)
+### (21/53) ScatterFormer: Efficient Voxel Transformer with Scattered Linear Attention (Chenhang He et al., 2024)
 
 {{<citation>}}
 
@@ -490,7 +513,7 @@ Window-based transformers have demonstrated strong ability in large-scale point 
 
 
 
-### (21/50) Leveraging Large Language Models to Boost Dafny's Developers Productivity (Álvaro Silva et al., 2024)
+### (22/53) Leveraging Large Language Models to Boost Dafny's Developers Productivity (Álvaro Silva et al., 2024)
 
 {{<citation>}}
 
@@ -512,7 +535,7 @@ This research idea paper proposes leveraging Large Language Models (LLMs) to enh
 {{</citation>}}
 
 
-### (22/50) New Job, New Gender? Measuring the Social Bias in Image Generation Models (Wenxuan Wang et al., 2024)
+### (23/53) New Job, New Gender? Measuring the Social Bias in Image Generation Models (Wenxuan Wang et al., 2024)
 
 {{<citation>}}
 
@@ -534,7 +557,7 @@ Image generation models can generate or edit images from a given text. Recent ad
 {{</citation>}}
 
 
-### (23/50) The Earth is Flat? Unveiling Factual Errors in Large Language Models (Wenxuan Wang et al., 2024)
+### (24/53) The Earth is Flat? Unveiling Factual Errors in Large Language Models (Wenxuan Wang et al., 2024)
 
 {{<citation>}}
 
@@ -556,7 +579,7 @@ Large Language Models (LLMs) like ChatGPT are foundational in various applicatio
 {{</citation>}}
 
 
-### (24/50) A & B == B & A: Triggering Logical Reasoning Failures in Large Language Models (Yuxuan Wan et al., 2024)
+### (25/53) A & B == B & A: Triggering Logical Reasoning Failures in Large Language Models (Yuxuan Wan et al., 2024)
 
 {{<citation>}}
 
@@ -582,7 +605,7 @@ Recent advancements in large language models (LLMs) have propelled Artificial In
 
 
 
-### (25/50) Taking the Next Step with Generative Artificial Intelligence: The Transformative Role of Multimodal Large Language Models in Science Education (Arne Bewersdorff et al., 2024)
+### (26/53) Taking the Next Step with Generative Artificial Intelligence: The Transformative Role of Multimodal Large Language Models in Science Education (Arne Bewersdorff et al., 2024)
 
 {{<citation>}}
 
@@ -608,7 +631,7 @@ The integration of Artificial Intelligence (AI), particularly Large Language Mod
 
 
 
-### (26/50) A Computational Framework for Behavioral Assessment of LLM Therapists (Yu Ying Chiu et al., 2024)
+### (27/53) A Computational Framework for Behavioral Assessment of LLM Therapists (Yu Ying Chiu et al., 2024)
 
 {{<citation>}}
 
@@ -630,7 +653,7 @@ The emergence of ChatGPT and other large language models (LLMs) has greatly incr
 {{</citation>}}
 
 
-### (27/50) If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents (Ke Yang et al., 2024)
+### (28/53) If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents (Ke Yang et al., 2024)
 
 {{<citation>}}
 
@@ -652,7 +675,7 @@ The prominent large language models (LLMs) of today differ from past language mo
 {{</citation>}}
 
 
-### (28/50) PerSHOP -- A Persian dataset for shopping dialogue systems modeling (Keyvan Mahmoudi et al., 2024)
+### (29/53) PerSHOP -- A Persian dataset for shopping dialogue systems modeling (Keyvan Mahmoudi et al., 2024)
 
 {{<citation>}}
 
@@ -674,7 +697,7 @@ Nowadays, dialogue systems are used in many fields of industry and research. The
 {{</citation>}}
 
 
-### (29/50) Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models (Terry Yue Zhuo et al., 2024)
+### (30/53) Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models (Terry Yue Zhuo et al., 2024)
 
 {{<citation>}}
 
@@ -696,7 +719,7 @@ The high cost of full-parameter fine-tuning (FFT) of Large Language Models (LLMs
 {{</citation>}}
 
 
-### (30/50) Temporal Validity Change Prediction (Georg Wenzel et al., 2024)
+### (31/53) Temporal Validity Change Prediction (Georg Wenzel et al., 2024)
 
 {{<citation>}}
 
@@ -718,7 +741,7 @@ Temporal validity is an important property of text that is useful for many downs
 {{</citation>}}
 
 
-### (31/50) Machine Translation Testing via Syntactic Tree Pruning (Quanjun Zhang et al., 2024)
+### (32/53) Machine Translation Testing via Syntactic Tree Pruning (Quanjun Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -740,7 +763,7 @@ Machine translation systems have been widely adopted in our daily life, making l
 {{</citation>}}
 
 
-### (32/50) ToolEyes: Fine-Grained Evaluation for Tool Learning Capabilities of Large Language Models in Real-world Scenarios (Junjie Ye et al., 2024)
+### (33/53) ToolEyes: Fine-Grained Evaluation for Tool Learning Capabilities of Large Language Models in Real-world Scenarios (Junjie Ye et al., 2024)
 
 {{<citation>}}
 
@@ -762,7 +785,7 @@ Existing evaluations of tool learning primarily focus on validating the alignmen
 {{</citation>}}
 
 
-### (33/50) Large Language Models aren't all that you need (Kiran Voderhobli Holla et al., 2024)
+### (34/53) Large Language Models aren't all that you need (Kiran Voderhobli Holla et al., 2024)
 
 {{<citation>}}
 
@@ -784,7 +807,7 @@ This paper describes the architecture and systems built towards solving the SemE
 {{</citation>}}
 
 
-### (34/50) Benchmarking Large Language Models on Controllable Generation under Diversified Instructions (Yihan Chen et al., 2024)
+### (35/53) Benchmarking Large Language Models on Controllable Generation under Diversified Instructions (Yihan Chen et al., 2024)
 
 {{<citation>}}
 
@@ -806,7 +829,7 @@ While large language models (LLMs) have exhibited impressive instruction-followi
 {{</citation>}}
 
 
-### (35/50) Predicting Anti-microbial Resistance using Large Language Models (Hyunwoo Yoo et al., 2024)
+### (36/53) Predicting Anti-microbial Resistance using Large Language Models (Hyunwoo Yoo et al., 2024)
 
 {{<citation>}}
 
@@ -832,7 +855,7 @@ During times of increasing antibiotic resistance and the spread of infectious di
 
 
 
-### (36/50) Agricultural 4.0 Leveraging on Technological Solutions: Study for Smart Farming Sector (Emmanuel Kojo Gyamfi et al., 2024)
+### (37/53) Agricultural 4.0 Leveraging on Technological Solutions: Study for Smart Farming Sector (Emmanuel Kojo Gyamfi et al., 2024)
 
 {{<citation>}}
 
@@ -858,7 +881,7 @@ By 2050, it is predicted that there will be 9 billion people on the planet, whic
 
 
 
-### (37/50) Privacy-Preserving Data in IoT-based Cloud Systems: A Comprehensive Survey with AI Integration (D. Dhinakaran et al., 2024)
+### (38/53) Privacy-Preserving Data in IoT-based Cloud Systems: A Comprehensive Survey with AI Integration (D. Dhinakaran et al., 2024)
 
 {{<citation>}}
 
@@ -880,7 +903,7 @@ As the integration of Internet of Things devices with cloud computing proliferat
 {{</citation>}}
 
 
-### (38/50) Digger: Detecting Copyright Content Mis-usage in Large Language Model Training (Haodong Li et al., 2024)
+### (39/53) Digger: Detecting Copyright Content Mis-usage in Large Language Model Training (Haodong Li et al., 2024)
 
 {{<citation>}}
 
@@ -902,7 +925,7 @@ Pre-training, which utilizes extensive and varied datasets, is a critical factor
 {{</citation>}}
 
 
-### (39/50) TBDD: A New Trust-based, DRL-driven Framework for Blockchain Sharding in IoT (Zixu Zhang et al., 2024)
+### (40/53) TBDD: A New Trust-based, DRL-driven Framework for Blockchain Sharding in IoT (Zixu Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -928,7 +951,7 @@ Integrating sharded blockchain with IoT presents a solution for trust issues and
 
 
 
-### (40/50) Edge Computing based Human-Robot Cognitive Fusion: A Medical Case Study in the Autism Spectrum Disorder Therapy (Qin Yang, 2024)
+### (41/53) Edge Computing based Human-Robot Cognitive Fusion: A Medical Case Study in the Autism Spectrum Disorder Therapy (Qin Yang, 2024)
 
 {{<citation>}}
 
@@ -950,11 +973,59 @@ In recent years, edge computing has served as a paradigm that enables many futur
 {{</citation>}}
 
 
+## cs.SI (2)
+
+
+
+### (42/53) Strong Transitivity Relations and Graph Neural Networks (Yassin Mohamadi et al., 2024)
+
+{{<citation>}}
+
+Yassin Mohamadi, Mostafa Haghir Chehreghani. (2024)  
+**Strong Transitivity Relations and Graph Neural Networks**  
+
+---
+Primary Category: cs.SI  
+Categories: cs-AI, cs-LG, cs-SI, cs.SI  
+Keywords: GNN, Graph Neural Network, Graph Neural Networks  
+[Paper Link](http://arxiv.org/abs/2401.01384v1)  
+
+---
+
+
+**ABSTRACT**  
+Local neighborhoods play a crucial role in embedding generation in graph-based learning. It is commonly believed that nodes ought to have embeddings that resemble those of their neighbors. In this research, we try to carefully expand the concept of similarity from nearby neighborhoods to the entire graph. We provide an extension of similarity that is based on transitivity relations, which enables Graph Neural Networks (GNNs) to capture both global similarities and local similarities over the whole graph. We introduce Transitivity Graph Neural Network (TransGNN), which more than local node similarities, takes into account global similarities by distinguishing strong transitivity relations from weak ones and exploiting them. We evaluate our model over several real-world datasets and showed that it considerably improves the performance of several well-known GNN models, for tasks such as node classification.
+
+{{</citation>}}
+
+
+### (43/53) IRWE: Inductive Random Walk for Joint Inference of Identity and Position Network Embedding (Meng Qin et al., 2024)
+
+{{<citation>}}
+
+Meng Qin, Dit-Yan Yeung. (2024)  
+**IRWE: Inductive Random Walk for Joint Inference of Identity and Position Network Embedding**  
+
+---
+Primary Category: cs.SI  
+Categories: cs-SI, cs.SI  
+Keywords: Embedding  
+[Paper Link](http://arxiv.org/abs/2401.00651v1)  
+
+---
+
+
+**ABSTRACT**  
+Network embedding, which maps graphs to distributed representations, is a unified framework for various graph inference tasks. According to the topology properties (e.g., structural roles and community memberships of nodes) to be preserved, it can be categorized into the identity and position embedding. However, existing methods can only capture one type of property. Some approaches can support the inductive inference that generalizes the embedding model to new nodes or graphs but relies on the availability of attributes. Due to the complicated correlations between topology and attributes, it is unclear for some inductive methods which type of property they can capture. In this study, we explore a unified framework for the joint inductive inference of identity and position embeddings without attributes. An inductive random walk embedding (IRWE) method is proposed, which combines multiple attention units to handle the random walk on graph topology and simultaneously derives identity and position embeddings that are jointly optimized. In particular, we demonstrate that some random walk statistics can be informative features to characterize node identities and positions while supporting the inductive embedding inference. Experiments validate the superior performance of IRWE beyond various baselines for the transductive and inductive inference of identity and position embeddings.
+
+{{</citation>}}
+
+
 ## cs.GR (1)
 
 
 
-### (41/50) Free-form Shape Modeling in XR: A Systematic Review (Shounak Chatterjee, 2024)
+### (44/53) Free-form Shape Modeling in XR: A Systematic Review (Shounak Chatterjee, 2024)
 
 {{<citation>}}
 
@@ -980,7 +1051,7 @@ Shape modeling research in Computer Graphics has been an active area for decades
 
 
 
-### (42/50) Harmonizing Covariance and Expressiveness for Deep Hamiltonian Regression in Crystalline Material Research: a Hybrid Cascaded Regression Framework (Shi Yin et al., 2024)
+### (45/53) Harmonizing Covariance and Expressiveness for Deep Hamiltonian Regression in Crystalline Material Research: a Hybrid Cascaded Regression Framework (Shi Yin et al., 2024)
 
 {{<citation>}}
 
@@ -991,7 +1062,7 @@ Shi Yin, Xudong Zhu, Tianyu Gao, Haochong Zhang, Feng Wu, Lixin He. (2024)
 Primary Category: physics.comp-ph  
 Categories: cond-mat-mtrl-sci, cs-LG, physics-comp-ph, physics.comp-ph  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2401.00744v2)  
+[Paper Link](http://arxiv.org/abs/2401.00744v3)  
 
 ---
 
@@ -1006,7 +1077,7 @@ Deep learning for Hamiltonian regression of quantum systems in material research
 
 
 
-### (43/50) Beyond Subspace Isolation: Many-to-Many Transformer for Light Field Image Super-resolution (Zeke Zexi Hu et al., 2024)
+### (46/53) Beyond Subspace Isolation: Many-to-Many Transformer for Light Field Image Super-resolution (Zeke Zexi Hu et al., 2024)
 
 {{<citation>}}
 
@@ -1028,7 +1099,7 @@ The effective extraction of spatial-angular features plays a crucial role in lig
 {{</citation>}}
 
 
-### (44/50) MultiFusionNet: Multilayer Multimodal Fusion of Deep Neural Networks for Chest X-Ray Image Classification (Saurabh Agarwal et al., 2024)
+### (47/53) MultiFusionNet: Multilayer Multimodal Fusion of Deep Neural Networks for Chest X-Ray Image Classification (Saurabh Agarwal et al., 2024)
 
 {{<citation>}}
 
@@ -1050,7 +1121,7 @@ Chest X-ray imaging is a critical diagnostic tool for identifying pulmonary dise
 {{</citation>}}
 
 
-### (45/50) Self-supervised learning for skin cancer diagnosis with limited training data (Hamish Haggerty et al., 2024)
+### (48/53) Self-supervised learning for skin cancer diagnosis with limited training data (Hamish Haggerty et al., 2024)
 
 {{<citation>}}
 
@@ -1072,11 +1143,37 @@ Cancer diagnosis is a well-studied problem in machine learning since early detec
 {{</citation>}}
 
 
+## q-bio.NC (1)
+
+
+
+### (49/53) Predicting Infant Brain Connectivity with Federated Multi-Trajectory GNNs using Scarce Data (Michalis Pistos et al., 2024)
+
+{{<citation>}}
+
+Michalis Pistos, Islem Rekik. (2024)  
+**Predicting Infant Brain Connectivity with Federated Multi-Trajectory GNNs using Scarce Data**  
+
+---
+Primary Category: q-bio.NC  
+Categories: cs-AI, cs-CV, cs-LG, q-bio-NC, q-bio.NC  
+Keywords: GNN  
+[Paper Link](http://arxiv.org/abs/2401.01383v1)  
+
+---
+
+
+**ABSTRACT**  
+The understanding of the convoluted evolution of infant brain networks during the first postnatal year is pivotal for identifying the dynamics of early brain connectivity development. Existing deep learning solutions suffer from three major limitations. First, they cannot generalize to multi-trajectory prediction tasks, where each graph trajectory corresponds to a particular imaging modality or connectivity type (e.g., T1-w MRI). Second, existing models require extensive training datasets to achieve satisfactory performance which are often challenging to obtain. Third, they do not efficiently utilize incomplete time series data. To address these limitations, we introduce FedGmTE-Net++, a federated graph-based multi-trajectory evolution network. Using the power of federation, we aggregate local learnings among diverse hospitals with limited datasets. As a result, we enhance the performance of each hospital's local generative model, while preserving data privacy. The three key innovations of FedGmTE-Net++ are: (i) presenting the first federated learning framework specifically designed for brain multi-trajectory evolution prediction in a data-scarce environment, (ii) incorporating an auxiliary regularizer in the local objective function to exploit all the longitudinal brain connectivity within the evolution trajectory and maximize data utilization, (iii) introducing a two-step imputation process, comprising a preliminary KNN-based precompletion followed by an imputation refinement step that employs regressors to improve similarity scores and refine imputations. Our comprehensive experimental results showed the outperformance of FedGmTE-Net++ in brain multi-trajectory prediction from a single baseline graph in comparison with benchmark methods.
+
+{{</citation>}}
+
+
 ## math.DS (1)
 
 
 
-### (46/50) Data Assimilation in Chaotic Systems Using Deep Reinforcement Learning (Mohamad Abed El Rahman Hammoud et al., 2024)
+### (50/53) Data Assimilation in Chaotic Systems Using Deep Reinforcement Learning (Mohamad Abed El Rahman Hammoud et al., 2024)
 
 {{<citation>}}
 
@@ -1102,7 +1199,7 @@ Data assimilation (DA) plays a pivotal role in diverse applications, ranging fro
 
 
 
-### (47/50) The Smooth Trajectory Estimator for LMB Filters (Hoa Van Nguyen et al., 2024)
+### (51/53) The Smooth Trajectory Estimator for LMB Filters (Hoa Van Nguyen et al., 2024)
 
 {{<citation>}}
 
@@ -1128,7 +1225,7 @@ This paper proposes a smooth-trajectory estimator for the labelled multi-Bernoul
 
 
 
-### (48/50) Enhancing Pre-trained ASR System Fine-tuning for Dysarthric Speech Recognition using Adversarial Data Augmentation (Huimeng Wang et al., 2024)
+### (52/53) Enhancing Pre-trained ASR System Fine-tuning for Dysarthric Speech Recognition using Adversarial Data Augmentation (Huimeng Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1150,37 +1247,11 @@ Automatic recognition of dysarthric speech remains a highly challenging task to 
 {{</citation>}}
 
 
-## cs.SI (1)
-
-
-
-### (49/50) IRWE: Inductive Random Walk for Joint Inference of Identity and Position Network Embedding (Meng Qin et al., 2024)
-
-{{<citation>}}
-
-Meng Qin, Dit-Yan Yeung. (2024)  
-**IRWE: Inductive Random Walk for Joint Inference of Identity and Position Network Embedding**  
-
----
-Primary Category: cs.SI  
-Categories: cs-SI, cs.SI  
-Keywords: Embedding  
-[Paper Link](http://arxiv.org/abs/2401.00651v1)  
-
----
-
-
-**ABSTRACT**  
-Network embedding, which maps graphs to distributed representations, is a unified framework for various graph inference tasks. According to the topology properties (e.g., structural roles and community memberships of nodes) to be preserved, it can be categorized into the identity and position embedding. However, existing methods can only capture one type of property. Some approaches can support the inductive inference that generalizes the embedding model to new nodes or graphs but relies on the availability of attributes. Due to the complicated correlations between topology and attributes, it is unclear for some inductive methods which type of property they can capture. In this study, we explore a unified framework for the joint inductive inference of identity and position embeddings without attributes. An inductive random walk embedding (IRWE) method is proposed, which combines multiple attention units to handle the random walk on graph topology and simultaneously derives identity and position embeddings that are jointly optimized. In particular, we demonstrate that some random walk statistics can be informative features to characterize node identities and positions while supporting the inductive embedding inference. Experiments validate the superior performance of IRWE beyond various baselines for the transductive and inductive inference of identity and position embeddings.
-
-{{</citation>}}
-
-
 ## cs.NI (1)
 
 
 
-### (50/50) Coordinated Deep Neural Networks: A Versatile Edge Offloading Algorithm (Alireza Maleki et al., 2024)
+### (53/53) Coordinated Deep Neural Networks: A Versatile Edge Offloading Algorithm (Alireza Maleki et al., 2024)
 
 {{<citation>}}
 

@@ -947,18 +947,18 @@ Advances in perception modeling have significantly improved the performance of o
 {{</citation>}}
 
 
-### (41/60) An Empirical Study of Scaling Law for OCR (Miao Rang et al., 2023)
+### (41/60) Large OCR Model:An Empirical Study of Scaling Law for OCR (Miao Rang et al., 2023)
 
 {{<citation>}}
 
 Miao Rang, Zhenni Bi, Chuanjian Liu, Yunhe Wang, Kai Han. (2023)  
-**An Empirical Study of Scaling Law for OCR**  
+**Large OCR Model:An Empirical Study of Scaling Law for OCR**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: NLP, Natural Language Processing, OCR  
-[Paper Link](http://arxiv.org/abs/2401.00028v1)  
+[Paper Link](http://arxiv.org/abs/2401.00028v2)  
 
 ---
 
@@ -1383,14 +1383,14 @@ Automatic program repair (APR) techniques have the potential to reduce manual ef
 
 {{<citation>}}
 
-Siqiao Xue, Caigao Jiang, Wenhui Shi, Fangyin Chen, Keting Chen, Hongjun Yang, Zhiping Zhang, Jianshan He, Hongyang Zhang, Ganglin Wei, Wang Zhao, Fan Zhou, Danrui Qi, Hong Yi, Shaodong Liu, Faqiang Chen. (2023)  
+Siqiao Xue, Caigao Jiang, Wenhui Shi, Fangyin Cheng, Keting Chen, Hongjun Yang, Zhiping Zhang, Jianshan He, Hongyang Zhang, Ganglin Wei, Wang Zhao, Fan Zhou, Danrui Qi, Hong Yi, Shaodong Liu, Faqiang Chen. (2023)  
 **DB-GPT: Empowering Database Interactions with Private Large Language Models**  
 
 ---
 Primary Category: cs.DB  
 Categories: cs-DB, cs.DB  
 Keywords: GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2312.17449v1)  
+[Paper Link](http://arxiv.org/abs/2312.17449v2)  
 
 ---
 
