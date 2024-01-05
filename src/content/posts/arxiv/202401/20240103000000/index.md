@@ -230,7 +230,7 @@ Guangji Bai, Zheng Chai, Chen Ling, Shiyu Wang, Jiaying Lu, Nan Zhang, Tingwei S
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: AI, ChatGPT, GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2401.00625v1)  
+[Paper Link](http://arxiv.org/abs/2401.00625v2)  
 
 ---
 

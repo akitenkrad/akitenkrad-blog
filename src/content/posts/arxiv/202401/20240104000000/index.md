@@ -945,13 +945,13 @@ Triet Minh Huynh, Quan Le Bao. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: GPT, Language Model, Natural Language Processing  
-[Paper Link](http://arxiv.org/abs/2401.01078v2)  
+[Paper Link](http://arxiv.org/abs/2401.01078v3)  
 
 ---
 
 
 **ABSTRACT**  
-Poetry generation has been a challenging task in the field of Natural Language Processing, as it requires the model to understand the nuances of language, sentiment, and style. In this paper, we propose using Large Language Models to generate Vietnamese poems from natural language prompts, thereby facilitating an intuitive process with enhanced content control. Our most efficacious model, the GPT-3 Babbage variant, achieves a custom evaluation score of 0.8, specifically tailored to the "luc bat" genre of Vietnamese poetry. Furthermore, we also explore the idea of paraphrasing poems into normal text prompts and yield a relatively high score of 0.718 in the "luc bat" genre. This experiment presents the potential for cross-Language poem-to-poem translation with translated poems as the inputs while concurrently maintaining complete control over the generated content.
+Poetry generation has been a challenging task in the field of Natural Language Processing, as it requires the model to understand the nuances of language, sentiment, and style. In this paper, we propose using Large Language Models to generate Vietnamese poems of various genres from natural language prompts, thereby facilitating an intuitive process with enhanced content control. Our most efficacious model, the GPT-3 Babbage variant, achieves a custom evaluation score of 0.8, specifically tailored to the "luc bat" genre of Vietnamese poetry. Furthermore, we also explore the idea of paraphrasing poems into normal text prompts and yield a relatively high score of 0.781 in the "luc bat" genre. This experiment presents the potential for cross-Language poem-to-poem translation with translated poems as the inputs while concurrently maintaining complete control over the generated content.
 
 {{</citation>}}
 
