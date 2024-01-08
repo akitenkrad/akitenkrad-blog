@@ -21,7 +21,7 @@ math: true
 
 ## Primary Categories
 
-- [cs.CV (21)](#cscv-21)
+- [cs.CV (22)](#cscv-22)
 - [cs.IT (3)](#csit-3)
 - [cs.AI (3)](#csai-3)
 - [cs.CL (18)](#cscl-18)
@@ -38,11 +38,11 @@ math: true
 - [cs.SE (1)](#csse-1)
 - [cs.SD (1)](#cssd-1)
 
-## cs.CV (21)
+## cs.CV (22)
 
 
 
-### (1/73) ColorizeDiffusion: Adjustable Sketch Colorization with Reference Image and Text (Dingkun Yan et al., 2024)
+### (1/74) ColorizeDiffusion: Adjustable Sketch Colorization with Reference Image and Text (Dingkun Yan et al., 2024)
 
 {{<citation>}}
 
@@ -64,7 +64,7 @@ Recently, diffusion models have demonstrated their effectiveness in generating e
 {{</citation>}}
 
 
-### (2/73) ProbMCL: Simple Probabilistic Contrastive Learning for Multi-label Visual Classification (Ahmad Sajedi et al., 2024)
+### (2/74) ProbMCL: Simple Probabilistic Contrastive Learning for Multi-label Visual Classification (Ahmad Sajedi et al., 2024)
 
 {{<citation>}}
 
@@ -86,7 +86,7 @@ Multi-label image classification presents a challenging task in many domains, in
 {{</citation>}}
 
 
-### (3/73) Off-Road LiDAR Intensity Based Semantic Segmentation (Kasi Viswanath et al., 2024)
+### (3/74) Off-Road LiDAR Intensity Based Semantic Segmentation (Kasi Viswanath et al., 2024)
 
 {{<citation>}}
 
@@ -108,7 +108,7 @@ LiDAR is used in autonomous driving to provide 3D spatial information and enable
 {{</citation>}}
 
 
-### (4/73) MOC-RVQ: Multilevel Codebook-assisted Digital Generative Semantic Communication (Yingbin Zhou et al., 2024)
+### (4/74) MOC-RVQ: Multilevel Codebook-assisted Digital Generative Semantic Communication (Yingbin Zhou et al., 2024)
 
 {{<citation>}}
 
@@ -130,7 +130,7 @@ Vector quantization-based image semantic communication systems have successfully
 {{</citation>}}
 
 
-### (5/73) VideoDrafter: Content-Consistent Multi-Scene Video Generation with LLM (Fuchen Long et al., 2024)
+### (5/74) VideoDrafter: Content-Consistent Multi-Scene Video Generation with LLM (Fuchen Long et al., 2024)
 
 {{<citation>}}
 
@@ -152,7 +152,7 @@ The recent innovations and breakthroughs in diffusion models have significantly 
 {{</citation>}}
 
 
-### (6/73) Whole-examination AI estimation of fetal biometrics from 20-week ultrasound scans (Lorenzo Venturini et al., 2024)
+### (6/74) Whole-examination AI estimation of fetal biometrics from 20-week ultrasound scans (Lorenzo Venturini et al., 2024)
 
 {{<citation>}}
 
@@ -174,7 +174,7 @@ The current approach to fetal anomaly screening is based on biometric measuremen
 {{</citation>}}
 
 
-### (7/73) Freeze the backbones: A Parameter-Efficient Contrastive Approach to Robust Medical Vision-Language Pre-training (Jiuming Qin et al., 2024)
+### (7/74) Freeze the backbones: A Parameter-Efficient Contrastive Approach to Robust Medical Vision-Language Pre-training (Jiuming Qin et al., 2024)
 
 {{<citation>}}
 
@@ -196,7 +196,7 @@ Modern healthcare often utilises radiographic images alongside textual reports f
 {{</citation>}}
 
 
-### (8/73) GBSS:a global building semantic segmentation dataset for large-scale remote sensing building extraction (Yuping Hu et al., 2024)
+### (8/74) GBSS:a global building semantic segmentation dataset for large-scale remote sensing building extraction (Yuping Hu et al., 2024)
 
 {{<citation>}}
 
@@ -218,7 +218,7 @@ Semantic segmentation techniques for extracting building footprints from high-re
 {{</citation>}}
 
 
-### (9/73) Hybrid Pooling and Convolutional Network for Improving Accuracy and Training Convergence Speed in Object Detection (Shiwen Zhao et al., 2024)
+### (9/74) Hybrid Pooling and Convolutional Network for Improving Accuracy and Training Convergence Speed in Object Detection (Shiwen Zhao et al., 2024)
 
 {{<citation>}}
 
@@ -240,7 +240,7 @@ This paper introduces HPC-Net, a high-precision and rapidly convergent object de
 {{</citation>}}
 
 
-### (10/73) SSP: A Simple and Safe automatic Prompt engineering method towards realistic image synthesis on LVM (Weijin Cheng et al., 2024)
+### (10/74) SSP: A Simple and Safe automatic Prompt engineering method towards realistic image synthesis on LVM (Weijin Cheng et al., 2024)
 
 {{<citation>}}
 
@@ -262,7 +262,7 @@ Recently, text-to-image (T2I) synthesis has undergone significant advancements, 
 {{</citation>}}
 
 
-### (11/73) Q-Refine: A Perceptual Quality Refiner for AI-Generated Image (Chunyi Li et al., 2024)
+### (11/74) Q-Refine: A Perceptual Quality Refiner for AI-Generated Image (Chunyi Li et al., 2024)
 
 {{<citation>}}
 
@@ -284,7 +284,7 @@ With the rapid evolution of the Text-to-Image (T2I) model in recent years, their
 {{</citation>}}
 
 
-### (12/73) CityPulse: Fine-Grained Assessment of Urban Change with Street View Time Series (Tianyuan Huang et al., 2024)
+### (12/74) CityPulse: Fine-Grained Assessment of Urban Change with Street View Time Series (Tianyuan Huang et al., 2024)
 
 {{<citation>}}
 
@@ -306,7 +306,7 @@ Urban transformations have profound societal impact on both individuals and comm
 {{</citation>}}
 
 
-### (13/73) Dual Teacher Knowledge Distillation with Domain Alignment for Face Anti-spoofing (Zhe Kong et al., 2024)
+### (13/74) Dual Teacher Knowledge Distillation with Domain Alignment for Face Anti-spoofing (Zhe Kong et al., 2024)
 
 {{<citation>}}
 
@@ -328,7 +328,7 @@ Face recognition systems have raised concerns due to their vulnerability to diff
 {{</citation>}}
 
 
-### (14/73) Exploring Hyperspectral Anomaly Detection with Human Vision: A Small Target Aware Detector (Jitao Ma et al., 2024)
+### (14/74) Exploring Hyperspectral Anomaly Detection with Human Vision: A Small Target Aware Detector (Jitao Ma et al., 2024)
 
 {{<citation>}}
 
@@ -350,7 +350,7 @@ Hyperspectral anomaly detection (HAD) aims to localize pixel points whose spectr
 {{</citation>}}
 
 
-### (15/73) Depth-discriminative Metric Learning for Monocular 3D Object Detection (Wonhyeok Choi et al., 2024)
+### (15/74) Depth-discriminative Metric Learning for Monocular 3D Object Detection (Wonhyeok Choi et al., 2024)
 
 {{<citation>}}
 
@@ -372,7 +372,7 @@ Monocular 3D object detection poses a significant challenge due to the lack of d
 {{</citation>}}
 
 
-### (16/73) DTBS: Dual-Teacher Bi-directional Self-training for Domain Adaptation in Nighttime Semantic Segmentation (Fanding Huang et al., 2024)
+### (16/74) DTBS: Dual-Teacher Bi-directional Self-training for Domain Adaptation in Nighttime Semantic Segmentation (Fanding Huang et al., 2024)
 
 {{<citation>}}
 
@@ -394,7 +394,7 @@ Due to the poor illumination and the difficulty in annotating, nighttime conditi
 {{</citation>}}
 
 
-### (17/73) Relating Events and Frames Based on Self-Supervised Learning and Uncorrelated Conditioning for Unsupervised Domain Adaptation (Mohammad Rostami et al., 2024)
+### (17/74) Relating Events and Frames Based on Self-Supervised Learning and Uncorrelated Conditioning for Unsupervised Domain Adaptation (Mohammad Rostami et al., 2024)
 
 {{<citation>}}
 
@@ -416,7 +416,7 @@ Event-based cameras provide accurate and high temporal resolution measurements f
 {{</citation>}}
 
 
-### (18/73) Unsupervised Continual Anomaly Detection with Contrastively-learned Prompt (Jiaqi Liu et al., 2024)
+### (18/74) Unsupervised Continual Anomaly Detection with Contrastively-learned Prompt (Jiaqi Liu et al., 2024)
 
 {{<citation>}}
 
@@ -438,7 +438,7 @@ Unsupervised Anomaly Detection (UAD) with incremental training is crucial in ind
 {{</citation>}}
 
 
-### (19/73) Diversity-aware Buffer for Coping with Temporally Correlated Data Streams in Online Test-time Adaptation (Mario Döbler et al., 2024)
+### (19/74) Diversity-aware Buffer for Coping with Temporally Correlated Data Streams in Online Test-time Adaptation (Mario Döbler et al., 2024)
 
 {{<citation>}}
 
@@ -460,7 +460,7 @@ Since distribution shifts are likely to occur after a model's deployment and can
 {{</citation>}}
 
 
-### (20/73) Holistic Autonomous Driving Understanding by Bird's-Eye-View Injected Multi-Modal Large Models (Xinpeng Ding et al., 2024)
+### (20/74) Holistic Autonomous Driving Understanding by Bird's-Eye-View Injected Multi-Modal Large Models (Xinpeng Ding et al., 2024)
 
 {{<citation>}}
 
@@ -482,7 +482,7 @@ The rise of multimodal large language models (MLLMs) has spurred interest in lan
 {{</citation>}}
 
 
-### (21/73) Real-Time Object Detection in Occluded Environment with Background Cluttering Effects Using Deep Learning (Syed Muhammad Aamir et al., 2024)
+### (21/74) Real-Time Object Detection in Occluded Environment with Background Cluttering Effects Using Deep Learning (Syed Muhammad Aamir et al., 2024)
 
 {{<citation>}}
 
@@ -504,11 +504,33 @@ Detection of small, undetermined moving objects or objects in an occluded enviro
 {{</citation>}}
 
 
+### (22/74) Unsupervised Federated Domain Adaptation for Segmentation of MRI Images (Navapat Nananukul et al., 2024)
+
+{{<citation>}}
+
+Navapat Nananukul, Hamid Soltanian-zadeh, Mohammad Rostami. (2024)  
+**Unsupervised Federated Domain Adaptation for Segmentation of MRI Images**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2401.02941v1)  
+
+---
+
+
+**ABSTRACT**  
+Automatic semantic segmentation of magnetic resonance imaging (MRI) images using deep neural networks greatly assists in evaluating and planning treatments for various clinical applications. However, training these models is conditioned on the availability of abundant annotated data to implement the end-to-end supervised learning procedure. Even if we annotate enough data, MRI images display considerable variability due to factors such as differences in patients, MRI scanners, and imaging protocols. This variability necessitates retraining neural networks for each specific application domain, which, in turn, requires manual annotation by expert radiologists for all new domains. To relax the need for persistent data annotation, we develop a method for unsupervised federated domain adaptation using multiple annotated source domains. Our approach enables the transfer of knowledge from several annotated source domains to adapt a model for effective use in an unannotated target domain. Initially, we ensure that the target domain data shares similar representations with each source domain in a latent embedding space, modeled as the output of a deep encoder, by minimizing the pair-wise distances of the distributions for the target domain and the source domains. We then employ an ensemble approach to leverage the knowledge obtained from all domains. We provide theoretical analysis and perform experiments on the MICCAI 2016 multi-site dataset to demonstrate our method is effective.
+
+{{</citation>}}
+
+
 ## cs.IT (3)
 
 
 
-### (22/73) Multiple Access Techniques for Intelligent and Multi-Functional 6G: Tutorial, Survey, and Outlook (Bruno Clerckx et al., 2024)
+### (23/74) Multiple Access Techniques for Intelligent and Multi-Functional 6G: Tutorial, Survey, and Outlook (Bruno Clerckx et al., 2024)
 
 {{<citation>}}
 
@@ -530,7 +552,7 @@ Multiple access (MA) is a crucial part of any wireless system and refers to tech
 {{</citation>}}
 
 
-### (23/73) Joint Offloading and Resource Allocation for Hybrid Cloud and Edge Computing in SAGINs: A Decision Assisted Hybrid Action Space Deep Reinforcement Learning Approach (Chong Huang et al., 2024)
+### (24/74) Joint Offloading and Resource Allocation for Hybrid Cloud and Edge Computing in SAGINs: A Decision Assisted Hybrid Action Space Deep Reinforcement Learning Approach (Chong Huang et al., 2024)
 
 {{<citation>}}
 
@@ -552,7 +574,7 @@ In recent years, the amalgamation of satellite communications and aerial platfor
 {{</citation>}}
 
 
-### (24/73) Wireless 6G Connectivity for Massive Number of Devices and Critical Services (Anders E. Kalør et al., 2024)
+### (25/74) Wireless 6G Connectivity for Massive Number of Devices and Critical Services (Anders E. Kalør et al., 2024)
 
 {{<citation>}}
 
@@ -578,7 +600,7 @@ Compared to the generations up to 4G, whose main focus was on broadband and cove
 
 
 
-### (25/73) SwapTransformer: highway overtaking tactical planner model via imitation learning on OSHA dataset (Alireza Shamsoshoara et al., 2024)
+### (26/74) SwapTransformer: highway overtaking tactical planner model via imitation learning on OSHA dataset (Alireza Shamsoshoara et al., 2024)
 
 {{<citation>}}
 
@@ -600,7 +622,7 @@ This paper investigates the high-level decision-making problem in highway scenar
 {{</citation>}}
 
 
-### (26/73) Towards Cognitive AI Systems: a Survey and Prospective on Neuro-Symbolic AI (Zishen Wan et al., 2024)
+### (27/74) Towards Cognitive AI Systems: a Survey and Prospective on Neuro-Symbolic AI (Zishen Wan et al., 2024)
 
 {{<citation>}}
 
@@ -622,7 +644,7 @@ The remarkable advancements in artificial intelligence (AI), primarily driven by
 {{</citation>}}
 
 
-### (27/73) Safety and Performance, Why Not Both? Bi-Objective Optimized Model Compression against Heterogeneous Attacks Toward AI Software Deployment (Jie Zhu et al., 2024)
+### (28/74) Safety and Performance, Why Not Both? Bi-Objective Optimized Model Compression against Heterogeneous Attacks Toward AI Software Deployment (Jie Zhu et al., 2024)
 
 {{<citation>}}
 
@@ -648,7 +670,7 @@ The size of deep learning models in artificial intelligence (AI) software is inc
 
 
 
-### (28/73) To Diverge or Not to Diverge: A Morphosyntactic Perspective on Machine Translation vs Human Translation (Jiaming Luo et al., 2024)
+### (29/74) To Diverge or Not to Diverge: A Morphosyntactic Perspective on Machine Translation vs Human Translation (Jiaming Luo et al., 2024)
 
 {{<citation>}}
 
@@ -670,7 +692,7 @@ We conduct a large-scale fine-grained comparative analysis of machine translatio
 {{</citation>}}
 
 
-### (29/73) An Autoregressive Text-to-Graph Framework for Joint Entity and Relation Extraction (Zaratiana Urchade et al., 2024)
+### (30/74) An Autoregressive Text-to-Graph Framework for Joint Entity and Relation Extraction (Zaratiana Urchade et al., 2024)
 
 {{<citation>}}
 
@@ -692,7 +714,7 @@ In this paper, we propose a novel method for joint entity and relation extractio
 {{</citation>}}
 
 
-### (30/73) LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning (Hongye Jin et al., 2024)
+### (31/74) LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning (Hongye Jin et al., 2024)
 
 {{<citation>}}
 
@@ -714,7 +736,7 @@ This work elicits LLMs' inherent ability to handle long contexts without fine-tu
 {{</citation>}}
 
 
-### (31/73) A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models (S. M Towhidul Islam Tonmoy et al., 2024)
+### (32/74) A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models (S. M Towhidul Islam Tonmoy et al., 2024)
 
 {{<citation>}}
 
@@ -736,7 +758,7 @@ As Large Language Models (LLMs) continue to advance in their ability to write hu
 {{</citation>}}
 
 
-### (32/73) Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models (Matthew Dahl et al., 2024)
+### (33/74) Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models (Matthew Dahl et al., 2024)
 
 {{<citation>}}
 
@@ -758,7 +780,7 @@ Large language models (LLMs) have the potential to transform the practice of law
 {{</citation>}}
 
 
-### (33/73) A Comprehensive Study of Knowledge Editing for Large Language Models (Ningyu Zhang et al., 2024)
+### (34/74) A Comprehensive Study of Knowledge Editing for Large Language Models (Ningyu Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -780,7 +802,7 @@ Large Language Models (LLMs) have shown extraordinary capabilities in understand
 {{</citation>}}
 
 
-### (34/73) Quality and Quantity of Machine Translation References for Automated Metrics (Vilém Zouhar et al., 2024)
+### (35/74) Quality and Quantity of Machine Translation References for Automated Metrics (Vilém Zouhar et al., 2024)
 
 {{<citation>}}
 
@@ -802,7 +824,7 @@ Automatic machine translation metrics often use human translations to determine 
 {{</citation>}}
 
 
-### (35/73) CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation (Quan Tu et al., 2024)
+### (36/74) CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation (Quan Tu et al., 2024)
 
 {{<citation>}}
 
@@ -824,7 +846,7 @@ Recently, the advent of large language models (LLMs) has revolutionized generati
 {{</citation>}}
 
 
-### (36/73) Fairness Certification for Natural Language Processing and Large Language Models (Vincent Freiberger et al., 2024)
+### (37/74) Fairness Certification for Natural Language Processing and Large Language Models (Vincent Freiberger et al., 2024)
 
 {{<citation>}}
 
@@ -846,7 +868,7 @@ Natural Language Processing (NLP) plays an important role in our daily lives, pa
 {{</citation>}}
 
 
-### (37/73) Zero-Shot Position Debiasing for Large Language Models (Zhongkun Liu et al., 2024)
+### (38/74) Zero-Shot Position Debiasing for Large Language Models (Zhongkun Liu et al., 2024)
 
 {{<citation>}}
 
@@ -868,7 +890,7 @@ Fine-tuning has been demonstrated to be an effective method to improve the domai
 {{</citation>}}
 
 
-### (38/73) Uncertainty Resolution in Misinformation Detection (Yury Orlovskiy et al., 2024)
+### (39/74) Uncertainty Resolution in Misinformation Detection (Yury Orlovskiy et al., 2024)
 
 {{<citation>}}
 
@@ -890,7 +912,7 @@ Misinformation poses a variety of risks, such as undermining public trust and di
 {{</citation>}}
 
 
-### (39/73) Unifying Structured Data as Graph for Data-to-Text Pre-Training (Shujie Li et al., 2024)
+### (40/74) Unifying Structured Data as Graph for Data-to-Text Pre-Training (Shujie Li et al., 2024)
 
 {{<citation>}}
 
@@ -912,7 +934,7 @@ Data-to-text (D2T) generation aims to transform structured data into natural lan
 {{</citation>}}
 
 
-### (40/73) Quokka: An Open-source Large Language Model ChatBot for Material Science (Xianjun Yang et al., 2024)
+### (41/74) Quokka: An Open-source Large Language Model ChatBot for Material Science (Xianjun Yang et al., 2024)
 
 {{<citation>}}
 
@@ -934,7 +956,7 @@ This paper presents the development of a specialized chatbot for materials scien
 {{</citation>}}
 
 
-### (41/73) Vietnamese Poem Generation & The Prospect Of Cross-Language Poem-To-Poem Translation (Triet Minh Huynh et al., 2024)
+### (42/74) Vietnamese Poem Generation & The Prospect Of Cross-Language Poem-To-Poem Translation (Triet Minh Huynh et al., 2024)
 
 {{<citation>}}
 
@@ -956,7 +978,7 @@ Poetry generation has been a challenging task in the field of Natural Language P
 {{</citation>}}
 
 
-### (42/73) DialCLIP: Empowering CLIP as Multi-Modal Dialog Retriever (Zhichao Yin et al., 2024)
+### (43/74) DialCLIP: Empowering CLIP as Multi-Modal Dialog Retriever (Zhichao Yin et al., 2024)
 
 {{<citation>}}
 
@@ -978,7 +1000,7 @@ Recently, substantial advancements in pre-trained vision-language models have gr
 {{</citation>}}
 
 
-### (43/73) Discovering Significant Topics from Legal Decisions with Selective Inference (Jerrold Soh, 2024)
+### (44/74) Discovering Significant Topics from Legal Decisions with Selective Inference (Jerrold Soh, 2024)
 
 {{<citation>}}
 
@@ -1000,7 +1022,7 @@ We propose and evaluate an automated pipeline for discovering significant topics
 {{</citation>}}
 
 
-### (44/73) LLaMA Beyond English: An Empirical Study on Language Capability Transfer (Jun Zhao et al., 2024)
+### (45/74) LLaMA Beyond English: An Empirical Study on Language Capability Transfer (Jun Zhao et al., 2024)
 
 {{<citation>}}
 
@@ -1022,7 +1044,7 @@ In recent times, substantial advancements have been witnessed in large language 
 {{</citation>}}
 
 
-### (45/73) Cheetah: Natural Language Generation for 517 African Languages (Ife Adebara et al., 2024)
+### (46/74) Cheetah: Natural Language Generation for 517 African Languages (Ife Adebara et al., 2024)
 
 {{<citation>}}
 
@@ -1048,7 +1070,7 @@ Low-resource African languages pose unique challenges for natural language proce
 
 
 
-### (46/73) Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models (Zixiang Chen et al., 2024)
+### (47/74) Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models (Zixiang Chen et al., 2024)
 
 {{<citation>}}
 
@@ -1070,7 +1092,7 @@ Harnessing the power of human-annotated data through Supervised Fine-Tuning (SFT
 {{</citation>}}
 
 
-### (47/73) Learning-based agricultural management in partially observable environments subject to climate variability (Zhaoan Wang et al., 2024)
+### (48/74) Learning-based agricultural management in partially observable environments subject to climate variability (Zhaoan Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1092,7 +1114,7 @@ Agricultural management, with a particular focus on fertilization strategies, ho
 {{</citation>}}
 
 
-### (48/73) Encoding Binary Events from Continuous Time Series in Rooted Trees using Contrastive Learning (Tobias Engelhardt Rasmussen et al., 2024)
+### (49/74) Encoding Binary Events from Continuous Time Series in Rooted Trees using Contrastive Learning (Tobias Engelhardt Rasmussen et al., 2024)
 
 {{<citation>}}
 
@@ -1114,7 +1136,7 @@ Broadband infrastructure owners do not always know how their customers are conne
 {{</citation>}}
 
 
-### (49/73) Graph Elimination Networks (Shuo Wang et al., 2024)
+### (50/74) Graph Elimination Networks (Shuo Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1136,7 +1158,7 @@ Graph Neural Networks (GNNs) are widely applied across various domains, yet they
 {{</citation>}}
 
 
-### (50/73) Motif-aware Riemannian Graph Neural Network with Generative-Contrastive Learning (Li Sun et al., 2024)
+### (51/74) Motif-aware Riemannian Graph Neural Network with Generative-Contrastive Learning (Li Sun et al., 2024)
 
 {{<citation>}}
 
@@ -1158,7 +1180,7 @@ Graphs are typical non-Euclidean data of complex structures. In recent years, Ri
 {{</citation>}}
 
 
-### (51/73) Deep-ELA: Deep Exploratory Landscape Analysis with Self-Supervised Pretrained Transformers for Single- and Multi-Objective Continuous Optimization Problems (Moritz Vinzent Seiler et al., 2024)
+### (52/74) Deep-ELA: Deep Exploratory Landscape Analysis with Self-Supervised Pretrained Transformers for Single- and Multi-Objective Continuous Optimization Problems (Moritz Vinzent Seiler et al., 2024)
 
 {{<citation>}}
 
@@ -1180,7 +1202,7 @@ In many recent works, the potential of Exploratory Landscape Analysis (ELA) feat
 {{</citation>}}
 
 
-### (52/73) Reinforcement Learning for SAR View Angle Inversion with Differentiable SAR Renderer (Yanni Wang et al., 2024)
+### (53/74) Reinforcement Learning for SAR View Angle Inversion with Differentiable SAR Renderer (Yanni Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1202,7 +1224,7 @@ The electromagnetic inverse problem has long been a research hotspot. This study
 {{</citation>}}
 
 
-### (53/73) Explainable Adaptive Tree-based Model Selection for Time Series Forecasting (Matthias Jakobs et al., 2024)
+### (54/74) Explainable Adaptive Tree-based Model Selection for Time Series Forecasting (Matthias Jakobs et al., 2024)
 
 {{<citation>}}
 
@@ -1224,7 +1246,7 @@ Tree-based models have been successfully applied to a wide variety of tasks, inc
 {{</citation>}}
 
 
-### (54/73) Boosting Transformer's Robustness and Efficacy in PPG Signal Artifact Detection with Self-Supervised Learning (Thanh-Dung Le, 2024)
+### (55/74) Boosting Transformer's Robustness and Efficacy in PPG Signal Artifact Detection with Self-Supervised Learning (Thanh-Dung Le, 2024)
 
 {{<citation>}}
 
@@ -1250,7 +1272,7 @@ Recent research at CHU Sainte Justine's Pediatric Critical Care Unit (PICU) has 
 
 
 
-### (55/73) Self-Supervised Millimeter Wave Indoor Localization using Tiny Neural Networks (Anish Shastri et al., 2024)
+### (56/74) Self-Supervised Millimeter Wave Indoor Localization using Tiny Neural Networks (Anish Shastri et al., 2024)
 
 {{<citation>}}
 
@@ -1272,7 +1294,7 @@ The quasi-optical propagation of millimeter-wave signals enables high-accuracy l
 {{</citation>}}
 
 
-### (56/73) Enhancing Automatic Modulation Recognition through Robust Global Feature Extraction (Yunpeng Qu et al., 2024)
+### (57/74) Enhancing Automatic Modulation Recognition through Robust Global Feature Extraction (Yunpeng Qu et al., 2024)
 
 {{<citation>}}
 
@@ -1298,7 +1320,7 @@ Automatic Modulation Recognition (AMR) plays a crucial role in wireless communic
 
 
 
-### (57/73) LLM Harmony: Multi-Agent Communication for Problem Solving (Sumedh Rasal, 2024)
+### (58/74) LLM Harmony: Multi-Agent Communication for Problem Solving (Sumedh Rasal, 2024)
 
 {{<citation>}}
 
@@ -1324,7 +1346,7 @@ Large Language Models (LLMs) have revolutionized Natural Language Processing but
 
 
 
-### (58/73) Experimental Validation of Sensor Fusion-based GNSS Spoofing Attack Detection Framework for Autonomous Vehicles (Sagar Dasgupta et al., 2024)
+### (59/74) Experimental Validation of Sensor Fusion-based GNSS Spoofing Attack Detection Framework for Autonomous Vehicles (Sagar Dasgupta et al., 2024)
 
 {{<citation>}}
 
@@ -1346,7 +1368,7 @@ In this paper, we validate the performance of the a sensor fusion-based Global N
 {{</citation>}}
 
 
-### (59/73) LLbezpeky: Leveraging Large Language Models for Vulnerability Detection (Noble Saji Mathews et al., 2024)
+### (60/74) LLbezpeky: Leveraging Large Language Models for Vulnerability Detection (Noble Saji Mathews et al., 2024)
 
 {{<citation>}}
 
@@ -1368,7 +1390,7 @@ Despite the continued research and progress in building secure systems, Android 
 {{</citation>}}
 
 
-### (60/73) PPBFL: A Privacy Protected Blockchain-based Federated Learning Model (Yang Li et al., 2024)
+### (61/74) PPBFL: A Privacy Protected Blockchain-based Federated Learning Model (Yang Li et al., 2024)
 
 {{<citation>}}
 
@@ -1390,7 +1412,7 @@ With the rapid development of machine learning and growing concerns about data p
 {{</citation>}}
 
 
-### (61/73) Imperio: Language-Guided Backdoor Attacks for Arbitrary Model Control (Ka-Ho Chow et al., 2024)
+### (62/74) Imperio: Language-Guided Backdoor Attacks for Arbitrary Model Control (Ka-Ho Chow et al., 2024)
 
 {{<citation>}}
 
@@ -1412,7 +1434,7 @@ Revolutionized by the transformer architecture, natural language processing (NLP
 {{</citation>}}
 
 
-### (62/73) Detection and Defense Against Prominent Attacks on Preconditioned LLM-Integrated Virtual Assistants (Chun Fai Chan et al., 2024)
+### (63/74) Detection and Defense Against Prominent Attacks on Preconditioned LLM-Integrated Virtual Assistants (Chun Fai Chan et al., 2024)
 
 {{<citation>}}
 
@@ -1434,7 +1456,7 @@ The emergence of LLM (Large Language Model) integrated virtual assistants has br
 {{</citation>}}
 
 
-### (63/73) A Novel Evaluation Framework for Assessing Resilience Against Prompt Injection Attacks in Large Language Models (Daniel Wankit Yip et al., 2024)
+### (64/74) A Novel Evaluation Framework for Assessing Resilience Against Prompt Injection Attacks in Large Language Models (Daniel Wankit Yip et al., 2024)
 
 {{<citation>}}
 
@@ -1456,7 +1478,7 @@ Prompt injection attacks exploit vulnerabilities in large language models (LLMs)
 {{</citation>}}
 
 
-### (64/73) CCA-Secure Hybrid Encryption in Correlated Randomness Model and KEM Combiners (Somnath Panja et al., 2024)
+### (65/74) CCA-Secure Hybrid Encryption in Correlated Randomness Model and KEM Combiners (Somnath Panja et al., 2024)
 
 {{<citation>}}
 
@@ -1482,7 +1504,7 @@ A hybrid encryption (HE) system is an efficient public key encryption system for
 
 
 
-### (65/73) Generative AI is already widespread in the public sector (Jonathan Bright et al., 2024)
+### (66/74) Generative AI is already widespread in the public sector (Jonathan Bright et al., 2024)
 
 {{<citation>}}
 
@@ -1508,7 +1530,7 @@ Generative AI has the potential to transform how public services are delivered b
 
 
 
-### (66/73) Deplatforming Norm-Violating Influencers on Social Media Reduces Overall Online Attention Toward Them (Manoel Horta Ribeiro et al., 2024)
+### (67/74) Deplatforming Norm-Violating Influencers on Social Media Reduces Overall Online Attention Toward Them (Manoel Horta Ribeiro et al., 2024)
 
 {{<citation>}}
 
@@ -1534,7 +1556,7 @@ From politicians to podcast hosts, online platforms have systematically banned (
 
 
 
-### (67/73) Privacy Preserving Personal Assistant with On-Device Diarization and Spoken Dialogue System for Home and Beyond (Gérard Chollet et al., 2024)
+### (68/74) Privacy Preserving Personal Assistant with On-Device Diarization and Spoken Dialogue System for Home and Beyond (Gérard Chollet et al., 2024)
 
 {{<citation>}}
 
@@ -1560,7 +1582,7 @@ In the age of personal voice assistants, the question of privacy arises. These d
 
 
 
-### (68/73) HAAQI-Net: A non-intrusive neural music quality assessment model for hearing aids (Dyah A. M. G. Wisnu et al., 2024)
+### (69/74) HAAQI-Net: A non-intrusive neural music quality assessment model for hearing aids (Dyah A. M. G. Wisnu et al., 2024)
 
 {{<citation>}}
 
@@ -1582,7 +1604,7 @@ This paper introduces HAAQI-Net, a non-intrusive deep learning model for music q
 {{</citation>}}
 
 
-### (69/73) Efficient Parallel Audio Generation using Group Masked Language Modeling (Myeonghun Jeong et al., 2024)
+### (70/74) Efficient Parallel Audio Generation using Group Masked Language Modeling (Myeonghun Jeong et al., 2024)
 
 {{<citation>}}
 
@@ -1608,7 +1630,7 @@ We present a fast and high-quality codec language model for parallel audio gener
 
 
 
-### (70/73) AI-FLARES: Artificial Intelligence for the Analysis of Solar Flares Data (Michele Piana et al., 2024)
+### (71/74) AI-FLARES: Artificial Intelligence for the Analysis of Solar Flares Data (Michele Piana et al., 2024)
 
 {{<citation>}}
 
@@ -1634,7 +1656,7 @@ AI-FLARES (Artificial Intelligence for the Analysis of Solar Flares Data) is a r
 
 
 
-### (71/73) PLE-SLAM: A Visual-Inertial SLAM Based on Point-Line Features and Efficient IMU Initialization (Jiaming He et al., 2024)
+### (72/74) PLE-SLAM: A Visual-Inertial SLAM Based on Point-Line Features and Efficient IMU Initialization (Jiaming He et al., 2024)
 
 {{<citation>}}
 
@@ -1645,13 +1667,13 @@ Jiaming He, Mingrui Li, Yangyang Wang, Hongyu Wang. (2024)
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: GNN  
-[Paper Link](http://arxiv.org/abs/2401.01081v1)  
+[Paper Link](http://arxiv.org/abs/2401.01081v2)  
 
 ---
 
 
 **ABSTRACT**  
-Visual-inertial SLAM is essential in various fields, such as AR/VR, uncrewed aerial vehicles, industrial robots, and autonomous driving. The fusion of a camera and inertial measurement unit (IMU) can make up for the shortcomings of a signal sensor, which significantly improves the accuracy and robustness of localization in challenging environments. Robust tracking and accurate inertial parameter estimation are the basis for the stable operation of the system. This article presents PLE-SLAM, an entirely precise and real-time visual-inertial SLAM algorithm based on point-line features and efficient IMU initialization. First, we introduce line features in a point-based visual-inertial SLAM system. We use parallel computing methods to extract features and compute descriptors to ensure real-time performance. Second, the proposed system estimates gyroscope bias with rotation pre-integration and point and line observations. Accelerometer bias and gravity direction are solved by an analytical method. After initialization, all inertial parameters are refined through maximum a posteriori (MAP) estimation. Moreover, we open a dynamic feature elimination thread to improve the adaptability to dynamic environments and use CNN, bag-of-words and GNN to detect loops and match features. Excellent wide baseline matching capability of DNN-based matching method and illumination robustness significantly improve loop detection recall and loop inter-frame pose estimation. The front-end and back-end are designed for hardware acceleration. The experiments are performed on public datasets, and the results show that the proposed system is one of the state-of-the-art methods in complex scenarios.
+Visual-inertial SLAM is crucial in various fields, such as aerial vehicles, industrial robots, and autonomous driving. The fusion of camera and inertial measurement unit (IMU) makes up for the shortcomings of a signal sensor, which significantly improves the accuracy and robustness of localization in challenging environments. This article presents PLE-SLAM, an accurate and real-time visual-inertial SLAM algorithm based on point-line features and efficient IMU initialization. First, we use parallel computing methods to extract features and compute descriptors to ensure real-time performance. Adjacent short line segments are merged into long line segments, and isolated short line segments are directly deleted. Second, a rotation-translation-decoupled initialization method is extended to use both points and lines. Gyroscope bias is optimized by tightly coupling IMU measurements and image observations. Accelerometer bias and gravity direction are solved by an analytical method for efficiency. To improve the system's intelligence in handling complex environments, a scheme of leveraging semantic information and geometric constraints to eliminate dynamic features and A solution for loop detection and closed-loop frame pose estimation using CNN and GNN are integrated into the system. All networks are accelerated to ensure real-time performance. The experiment results on public datasets illustrate that PLE-SLAM is one of the state-of-the-art visual-inertial SLAM systems.
 
 {{</citation>}}
 
@@ -1660,7 +1682,7 @@ Visual-inertial SLAM is essential in various fields, such as AR/VR, uncrewed aer
 
 
 
-### (72/73) Experimenting a New Programming Practice with LLMs (Simiao Zhang et al., 2024)
+### (73/74) Experimenting a New Programming Practice with LLMs (Simiao Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -1686,7 +1708,7 @@ The recent development on large language models makes automatically constructing
 
 
 
-### (73/73) Auffusion: Leveraging the Power of Diffusion and Large Language Models for Text-to-Audio Generation (Jinlong Xue et al., 2024)
+### (74/74) Auffusion: Leveraging the Power of Diffusion and Large Language Models for Text-to-Audio Generation (Jinlong Xue et al., 2024)
 
 {{<citation>}}
 

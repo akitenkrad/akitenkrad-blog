@@ -22,10 +22,10 @@ math: true
 ## Primary Categories
 
 - [cs.LG (9)](#cslg-9)
+- [cs.CL (11)](#cscl-11)
 - [cs.CV (12)](#cscv-12)
 - [cs.SE (4)](#csse-4)
 - [cs.AI (1)](#csai-1)
-- [cs.CL (10)](#cscl-10)
 - [cs.HC (1)](#cshc-1)
 - [cs.CR (3)](#cscr-3)
 - [cs.RO (1)](#csro-1)
@@ -43,7 +43,7 @@ math: true
 
 
 
-### (1/53) Downstream Task-Oriented Generative Model Selections on Synthetic Data Training for Fraud Detection Models (Yinan Cheng et al., 2024)
+### (1/54) Downstream Task-Oriented Generative Model Selections on Synthetic Data Training for Fraud Detection Models (Yinan Cheng et al., 2024)
 
 {{<citation>}}
 
@@ -65,7 +65,7 @@ Devising procedures for downstream task-oriented generative model selections is 
 {{</citation>}}
 
 
-### (2/53) Improve Fidelity and Utility of Synthetic Credit Card Transaction Time Series from Data-centric Perspective (Din-Yin Hsieh et al., 2024)
+### (2/54) Improve Fidelity and Utility of Synthetic Credit Card Transaction Time Series from Data-centric Perspective (Din-Yin Hsieh et al., 2024)
 
 {{<citation>}}
 
@@ -87,7 +87,7 @@ Exploring generative model training for synthetic tabular data, specifically in 
 {{</citation>}}
 
 
-### (3/53) SecFormer: Towards Fast and Accurate Privacy-Preserving Inference for Large Language Models (Jinglong Luo et al., 2024)
+### (3/54) SecFormer: Towards Fast and Accurate Privacy-Preserving Inference for Large Language Models (Jinglong Luo et al., 2024)
 
 {{<citation>}}
 
@@ -109,7 +109,7 @@ With the growing use of large language models hosted on cloud platforms to offer
 {{</citation>}}
 
 
-### (4/53) MPRE: Multi-perspective Patient Representation Extractor for Disease Prediction (Ziyue Yu et al., 2024)
+### (4/54) MPRE: Multi-perspective Patient Representation Extractor for Disease Prediction (Ziyue Yu et al., 2024)
 
 {{<citation>}}
 
@@ -131,7 +131,7 @@ Patient representation learning based on electronic health records (EHR) is a cr
 {{</citation>}}
 
 
-### (5/53) Saliency-Aware Regularized Graph Neural Network (Wenjie Pei et al., 2024)
+### (5/54) Saliency-Aware Regularized Graph Neural Network (Wenjie Pei et al., 2024)
 
 {{<citation>}}
 
@@ -153,7 +153,7 @@ The crux of graph classification lies in the effective representation learning f
 {{</citation>}}
 
 
-### (6/53) A Survey on Graph Neural Networks in Intelligent Transportation Systems (Hourun Li et al., 2024)
+### (6/54) A Survey on Graph Neural Networks in Intelligent Transportation Systems (Hourun Li et al., 2024)
 
 {{<citation>}}
 
@@ -175,7 +175,7 @@ Intelligent Transportation System (ITS) is vital in improving traffic congestion
 {{</citation>}}
 
 
-### (7/53) Communication-Efficient Federated Learning for LEO Constellations Integrated with HAPs Using Hybrid NOMA-OFDM (Mohamed Elmahallawy et al., 2024)
+### (7/54) Communication-Efficient Federated Learning for LEO Constellations Integrated with HAPs Using Hybrid NOMA-OFDM (Mohamed Elmahallawy et al., 2024)
 
 {{<citation>}}
 
@@ -197,7 +197,7 @@ Space AI has become increasingly important and sometimes even necessary for gove
 {{</citation>}}
 
 
-### (8/53) On Discprecncies between Perturbation Evaluations of Graph Neural Network Attributions (Razieh Rezaei et al., 2024)
+### (8/54) On Discprecncies between Perturbation Evaluations of Graph Neural Network Attributions (Razieh Rezaei et al., 2024)
 
 {{<citation>}}
 
@@ -219,7 +219,7 @@ Neural networks are increasingly finding their way into the realm of graphs and 
 {{</citation>}}
 
 
-### (9/53) Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models (Guangji Bai et al., 2024)
+### (9/54) Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models (Guangji Bai et al., 2024)
 
 {{<citation>}}
 
@@ -241,11 +241,257 @@ The burgeoning field of Large Language Models (LLMs), exemplified by sophisticat
 {{</citation>}}
 
 
+## cs.CL (11)
+
+
+
+### (10/54) Fast and Optimal Weight Update for Pruned Large Language Models (Vladimír Boža, 2024)
+
+{{<citation>}}
+
+Vladimír Boža. (2024)  
+**Fast and Optimal Weight Update for Pruned Large Language Models**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-LG, cs.CL  
+Keywords: Language Model, Pruning  
+[Paper Link](http://arxiv.org/abs/2401.02938v1)  
+
+---
+
+
+**ABSTRACT**  
+Pruning large language models (LLMs) is a challenging task due to their enormous size. The primary difficulty is fine-tuning the model after pruning, which is needed to recover the lost performance caused by dropping weights. Recent approaches have either ignored fine-tuning entirely, focusing on efficient pruning criteria, or attempted layer-wise weight updates, preserving the behavior of each layer. However, even layer-wise weight updates can be costly for LLMs, and previous works have resorted to various approximations.   In our paper, we propose a fast and optimal weight update algorithm for pruned layers based on the Alternating Direction Method of Multipliers (ADMM). Coupled with a simple iterative pruning mask selection, our algorithm achieves state-of-the-art pruning performance across a wide range of LLMs. Code is available at https://github.com/fmfi-compbio/admm-pruning.
+
+{{</citation>}}
+
+
+### (11/54) A Computational Framework for Behavioral Assessment of LLM Therapists (Yu Ying Chiu et al., 2024)
+
+{{<citation>}}
+
+Yu Ying Chiu, Ashish Sharma, Inna Wanyin Lin, Tim Althoff. (2024)  
+**A Computational Framework for Behavioral Assessment of LLM Therapists**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-HC, cs.CL  
+Keywords: ChatGPT, GPT  
+[Paper Link](http://arxiv.org/abs/2401.00820v1)  
+
+---
+
+
+**ABSTRACT**  
+The emergence of ChatGPT and other large language models (LLMs) has greatly increased interest in utilizing LLMs as therapists to support individuals struggling with mental health challenges. However, due to the lack of systematic studies, our understanding of how LLM therapists behave, i.e., ways in which they respond to clients, is significantly limited. Understanding their behavior across a wide range of clients and situations is crucial to accurately assess their capabilities and limitations in the high-risk setting of mental health, where undesirable behaviors can lead to severe consequences. In this paper, we propose BOLT, a novel computational framework to study the conversational behavior of LLMs when employed as therapists. We develop an in-context learning method to quantitatively measure the behavior of LLMs based on 13 different psychotherapy techniques including reflections, questions, solutions, normalizing, and psychoeducation. Subsequently, we compare the behavior of LLM therapists against that of high- and low-quality human therapy, and study how their behavior can be modulated to better reflect behaviors observed in high-quality therapy. Our analysis of GPT and Llama-variants reveals that these LLMs often resemble behaviors more commonly exhibited in low-quality therapy rather than high-quality therapy, such as offering a higher degree of problem-solving advice when clients share emotions, which is against typical recommendations. At the same time, unlike low-quality therapy, LLMs reflect significantly more upon clients' needs and strengths. Our analysis framework suggests that despite the ability of LLMs to generate anecdotal examples that appear similar to human therapists, LLM therapists are currently not fully consistent with high-quality care, and thus require additional research to ensure quality care.
+
+{{</citation>}}
+
+
+### (12/54) If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents (Ke Yang et al., 2024)
+
+{{<citation>}}
+
+Ke Yang, Jiateng Liu, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai. (2024)  
+**If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2401.00812v1)  
+
+---
+
+
+**ABSTRACT**  
+The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Specifically, beyond enhancing LLMs in code generation, we observe that these unique properties of code help (i) unlock the reasoning ability of LLMs, enabling their applications to a range of more complex natural language tasks; (ii) steer LLMs to produce structured and precise intermediate steps, which can then be connected to external execution ends through function calls; and (iii) take advantage of code compilation and execution environment, which also provides diverse feedback for model improvement. In addition, we trace how these profound capabilities of LLMs, brought by code, have led to their emergence as intelligent agents (IAs) in situations where the ability to understand instructions, decompose goals, plan and execute actions, and refine from feedback are crucial to their success on downstream tasks. Finally, we present several key challenges and future directions of empowering LLMs with code.
+
+{{</citation>}}
+
+
+### (13/54) PerSHOP -- A Persian dataset for shopping dialogue systems modeling (Keyvan Mahmoudi et al., 2024)
+
+{{<citation>}}
+
+Keyvan Mahmoudi, Heshaam Faili. (2024)  
+**PerSHOP -- A Persian dataset for shopping dialogue systems modeling**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-HC, cs.CL  
+Keywords: Google, NLU  
+[Paper Link](http://arxiv.org/abs/2401.00811v1)  
+
+---
+
+
+**ABSTRACT**  
+Nowadays, dialogue systems are used in many fields of industry and research. There are successful instances of these systems, such as Apple Siri, Google Assistant, and IBM Watson. Task-oriented dialogue system is a category of these, that are used in specific tasks. They can perform tasks such as booking plane tickets or making restaurant reservations. Shopping is one of the most popular areas on these systems. The bot replaces the human salesperson and interacts with the customers by speaking. To train the models behind the scenes of these systems, annotated data is needed. In this paper, we developed a dataset of dialogues in the Persian language through crowd-sourcing. We annotated these dialogues to train a model. This dataset contains nearly 22k utterances in 15 different domains and 1061 dialogues. This is the largest Persian dataset in this field, which is provided freely so that future researchers can use it. Also, we proposed some baseline models for natural language understanding (NLU) tasks. These models perform two tasks for NLU: intent classification and entity extraction. The F-1 score metric obtained for intent classification is around 91% and for entity extraction is around 93%, which can be a baseline for future research.
+
+{{</citation>}}
+
+
+### (14/54) Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models (Terry Yue Zhuo et al., 2024)
+
+{{<citation>}}
+
+Terry Yue Zhuo, Armel Zebaze, Nitchakarn Suppattarachai, Leandro von Werra, Harm de Vries, Qian Liu, Niklas Muennighoff. (2024)  
+**Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs-SE, cs.CL  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2401.00788v1)  
+
+---
+
+
+**ABSTRACT**  
+The high cost of full-parameter fine-tuning (FFT) of Large Language Models (LLMs) has led to a series of parameter-efficient fine-tuning (PEFT) methods. However, it remains unclear which methods provide the best cost-performance trade-off at different model scales. We introduce Astraios, a suite of 28 instruction-tuned OctoCoder models using 7 tuning methods and 4 model sizes up to 16 billion parameters. Through investigations across 5 tasks and 8 different datasets encompassing both code comprehension and code generation tasks, we find that FFT generally leads to the best downstream performance across all scales, and PEFT methods differ significantly in their efficacy based on the model scale. LoRA usually offers the most favorable trade-off between cost and performance. Further investigation into the effects of these methods on both model robustness and code security reveals that larger models tend to demonstrate reduced robustness and less security. At last, we explore the relationships among updated parameters, cross-entropy loss, and task performance. We find that the tuning effectiveness observed in small models generalizes well to larger models, and the validation loss in instruction tuning can be a reliable indicator of overall downstream performance.
+
+{{</citation>}}
+
+
+### (15/54) Temporal Validity Change Prediction (Georg Wenzel et al., 2024)
+
+{{<citation>}}
+
+Georg Wenzel, Adam Jatowt. (2024)  
+**Temporal Validity Change Prediction**  
+
+---
+Primary Category: cs.CL  
+Categories: 68T50, I-2-7, cs-AI, cs-CL, cs.CL  
+Keywords: AI, Twitter  
+[Paper Link](http://arxiv.org/abs/2401.00779v1)  
+
+---
+
+
+**ABSTRACT**  
+Temporal validity is an important property of text that is useful for many downstream applications, such as recommender systems, conversational AI, or story understanding. Existing benchmarking tasks often require models to identify the temporal validity duration of a single statement. However, in many cases, additional contextual information, such as sentences in a story or posts on a social media profile, can be collected from the available text stream. This contextual information may greatly alter the duration for which a statement is expected to be valid. We propose Temporal Validity Change Prediction, a natural language processing task benchmarking the capability of machine learning models to detect contextual statements that induce such change. We create a dataset consisting of temporal target statements sourced from Twitter and crowdsource sample context statements. We then benchmark a set of transformer-based language models on our dataset. Finally, we experiment with temporal validity duration prediction as an auxiliary task to improve the performance of the state-of-the-art model.
+
+{{</citation>}}
+
+
+### (16/54) Machine Translation Testing via Syntactic Tree Pruning (Quanjun Zhang et al., 2024)
+
+{{<citation>}}
+
+Quanjun Zhang, Juan Zhai, Chunrong Fang, Jiawei Liu, Weisong Sun, Haichuan Hu, Qingyu Wang. (2024)  
+**Machine Translation Testing via Syntactic Tree Pruning**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-SE, cs.CL  
+Keywords: Google, Machine Translation, Microsoft, Pruning  
+[Paper Link](http://arxiv.org/abs/2401.00751v1)  
+
+---
+
+
+**ABSTRACT**  
+Machine translation systems have been widely adopted in our daily life, making life easier and more convenient. Unfortunately, erroneous translations may result in severe consequences, such as financial losses. This requires to improve the accuracy and the reliability of machine translation systems. However, it is challenging to test machine translation systems because of the complexity and intractability of the underlying neural models. To tackle these challenges, we propose a novel metamorphic testing approach by syntactic tree pruning (STP) to validate machine translation systems. Our key insight is that a pruned sentence should have similar crucial semantics compared with the original sentence. Specifically, STP (1) proposes a core semantics-preserving pruning strategy by basic sentence structure and dependency relations on the level of syntactic tree representation; (2) generates source sentence pairs based on the metamorphic relation; (3) reports suspicious issues whose translations break the consistency property by a bag-of-words model. We further evaluate STP on two state-of-the-art machine translation systems (i.e., Google Translate and Bing Microsoft Translator) with 1,200 source sentences as inputs. The results show that STP can accurately find 5,073 unique erroneous translations in Google Translate and 5,100 unique erroneous translations in Bing Microsoft Translator (400% more than state-of-the-art techniques), with 64.5% and 65.4% precision, respectively. The reported erroneous translations vary in types and more than 90% of them cannot be found by state-of-the-art techniques. There are 9,393 erroneous translations unique to STP, which is 711.9% more than state-of-the-art techniques. Moreover, STP is quite effective to detect translation errors for the original sentences with a recall reaching 74.0%, improving state-of-the-art techniques by 55.1% on average.
+
+{{</citation>}}
+
+
+### (17/54) ToolEyes: Fine-Grained Evaluation for Tool Learning Capabilities of Large Language Models in Real-world Scenarios (Junjie Ye et al., 2024)
+
+{{<citation>}}
+
+Junjie Ye, Guanyu Li, Songyang Gao, Caishuang Huang, Yilong Wu, Sixian Li, Xiaoran Fan, Shihan Dou, Qi Zhang, Tao Gui, Xuanjing Huang. (2024)  
+**ToolEyes: Fine-Grained Evaluation for Tool Learning Capabilities of Large Language Models in Real-world Scenarios**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2401.00741v1)  
+
+---
+
+
+**ABSTRACT**  
+Existing evaluations of tool learning primarily focus on validating the alignment of selected tools for large language models (LLMs) with expected outcomes. However, these approaches rely on a limited set of scenarios where answers can be pre-determined, diverging from genuine needs. Furthermore, a sole emphasis on outcomes disregards the intricate capabilities essential for LLMs to effectively utilize tools. To tackle this issue, we propose ToolEyes, a fine-grained system tailored for the evaluation of the LLMs' tool learning capabilities in authentic scenarios. The system meticulously examines seven real-world scenarios, analyzing five dimensions crucial to LLMs in tool learning: format alignment, intent comprehension, behavior planning, tool selection, and answer organization. Additionally, ToolEyes incorporates a tool library boasting approximately 600 tools, serving as an intermediary between LLMs and the physical world. Evaluations involving ten LLMs across three categories reveal a preference for specific scenarios and limited cognitive abilities in tool learning. Intriguingly, expanding the model size even exacerbates the hindrance to tool learning. These findings offer instructive insights aimed at advancing the field of tool learning. The data is available att https://github.com/Junjie-Ye/ToolEyes.git.
+
+{{</citation>}}
+
+
+### (18/54) Large Language Models aren't all that you need (Kiran Voderhobli Holla et al., 2024)
+
+{{<citation>}}
+
+Kiran Voderhobli Holla, Chaithanya Kumar, Aryan Singh. (2024)  
+**Large Language Models aren't all that you need**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs-LG, cs.CL  
+Keywords: GPT, Language Model, Multilingual, NER, Named Entity Recognition  
+[Paper Link](http://arxiv.org/abs/2401.00698v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper describes the architecture and systems built towards solving the SemEval 2023 Task 2: MultiCoNER II (Multilingual Complex Named Entity Recognition) [1]. We evaluate two approaches (a) a traditional Conditional Random Fields model and (b) a Large Language Model (LLM) fine-tuned with a customized head and compare the two approaches. The novel ideas explored are: 1) Decaying auxiliary loss (with residual) - where we train the model on an auxiliary task of Coarse-Grained NER and include this task as a part of the loss function 2) Triplet token blending - where we explore ways of blending the embeddings of neighboring tokens in the final NER layer prior to prediction 3) Task-optimal heads - where we explore a variety of custom heads and learning rates for the final layer of the LLM. We also explore multiple LLMs including GPT-3 and experiment with a variety of dropout and other hyperparameter settings before arriving at our final model which achieves micro & macro f1 of 0.85/0.84 (on dev) and 0.67/0.61 on the test data . We show that while pre-trained LLMs, by themselves, bring about a large improvement in scores as compared to traditional models, we also demonstrate that tangible improvements to the Macro-F1 score can be made by augmenting the LLM with additional feature/loss/model engineering techniques described above.
+
+{{</citation>}}
+
+
+### (19/54) Benchmarking Large Language Models on Controllable Generation under Diversified Instructions (Yihan Chen et al., 2024)
+
+{{<citation>}}
+
+Yihan Chen, Benfeng Xu, Quan Wang, Yi Liu, Zhendong Mao. (2024)  
+**Benchmarking Large Language Models on Controllable Generation under Diversified Instructions**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: ChatGPT, GPT, Language Model  
+[Paper Link](http://arxiv.org/abs/2401.00690v1)  
+
+---
+
+
+**ABSTRACT**  
+While large language models (LLMs) have exhibited impressive instruction-following capabilities, it is still unclear whether and to what extent they can respond to explicit constraints that might be entailed in various instructions. As a significant aspect of LLM alignment, it is thus important to formulate such a specialized set of instructions as well as investigate the resulting behavior of LLMs. To address this vacancy, we propose a new benchmark CoDI-Eval to systematically and comprehensively evaluate LLMs' responses to instructions with various constraints. We construct a large collection of constraints-attributed instructions as a test suite focused on both generalization and coverage. Specifically, we advocate an instruction diversification process to synthesize diverse forms of constraint expression and also deliberate the candidate task taxonomy with even finer-grained sub-categories. Finally, we automate the entire evaluation process to facilitate further developments. Different from existing studies on controllable text generation, CoDI-Eval extends the scope to the prevalent instruction-following paradigm for the first time. We provide extensive evaluations of representative LLMs (e.g., ChatGPT, Vicuna) on CoDI-Eval, revealing their limitations in following instructions with specific constraints and there is still a significant gap between open-source and commercial closed-source LLMs. We believe this benchmark will facilitate research into improving the controllability of LLMs' responses to instructions. Our data and code are available at https://github.com/Xt-cyh/CoDI-Eval.
+
+{{</citation>}}
+
+
+### (20/54) Predicting Anti-microbial Resistance using Large Language Models (Hyunwoo Yoo et al., 2024)
+
+{{<citation>}}
+
+Hyunwoo Yoo, Bahrad Sokhansanj, James R. Brown, Gail Rosen. (2024)  
+**Predicting Anti-microbial Resistance using Large Language Models**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2401.00642v1)  
+
+---
+
+
+**ABSTRACT**  
+During times of increasing antibiotic resistance and the spread of infectious diseases like COVID-19, it is important to classify genes related to antibiotic resistance. As natural language processing has advanced with transformer-based language models, many language models that learn characteristics of nucleotide sequences have also emerged. These models show good performance in classifying various features of nucleotide sequences. When classifying nucleotide sequences, not only the sequence itself, but also various background knowledge is utilized. In this study, we use not only a nucleotide sequence-based language model but also a text language model based on PubMed articles to reflect more biological background knowledge in the model. We propose a method to fine-tune the nucleotide sequence language model and the text language model based on various databases of antibiotic resistance genes. We also propose an LLM-based augmentation technique to supplement the data and an ensemble method to effectively combine the two models. We also propose a benchmark for evaluating the model. Our method achieved better performance than the nucleotide sequence language model in the drug resistance class prediction.
+
+{{</citation>}}
+
+
 ## cs.CV (12)
 
 
 
-### (10/53) Efficient Multi-domain Text Recognition Deep Neural Network Parameterization with Residual Adapters (Jiayou Chao et al., 2024)
+### (21/54) Efficient Multi-domain Text Recognition Deep Neural Network Parameterization with Residual Adapters (Jiayou Chao et al., 2024)
 
 {{<citation>}}
 
@@ -267,7 +513,7 @@ Recent advancements in deep neural networks have markedly enhanced the performan
 {{</citation>}}
 
 
-### (11/53) Data Augmentation Techniques for Cross-Domain WiFi CSI-based Human Activity Recognition (Julian Strohmayer et al., 2024)
+### (22/54) Data Augmentation Techniques for Cross-Domain WiFi CSI-based Human Activity Recognition (Julian Strohmayer et al., 2024)
 
 {{<citation>}}
 
@@ -289,7 +535,7 @@ The recognition of human activities based on WiFi Channel State Information (CSI
 {{</citation>}}
 
 
-### (12/53) DiffAugment: Diffusion based Long-Tailed Visual Relationship Recognition (Parul Gupta et al., 2024)
+### (23/54) DiffAugment: Diffusion based Long-Tailed Visual Relationship Recognition (Parul Gupta et al., 2024)
 
 {{<citation>}}
 
@@ -311,7 +557,7 @@ The task of Visual Relationship Recognition (VRR) aims to identify relationships
 {{</citation>}}
 
 
-### (13/53) Boundary Attention: Learning to Find Faint Boundaries at Any Resolution (Mia Gaia Polansky et al., 2024)
+### (24/54) Boundary Attention: Learning to Find Faint Boundaries at Any Resolution (Mia Gaia Polansky et al., 2024)
 
 {{<citation>}}
 
@@ -333,7 +579,7 @@ We present a differentiable model that explicitly models boundaries -- including
 {{</citation>}}
 
 
-### (14/53) COSMO: COntrastive Streamlined MultimOdal Model with Interleaved Pre-Training (Alex Jinpeng Wang et al., 2024)
+### (25/54) COSMO: COntrastive Streamlined MultimOdal Model with Interleaved Pre-Training (Alex Jinpeng Wang et al., 2024)
 
 {{<citation>}}
 
@@ -355,7 +601,7 @@ In the evolution of Vision-Language Pre-training, shifting from short-text compr
 {{</citation>}}
 
 
-### (15/53) Mocap Everyone Everywhere: Lightweight Motion Capture With Smartwatches and a Head-Mounted Camera (Jiye Lee et al., 2024)
+### (26/54) Mocap Everyone Everywhere: Lightweight Motion Capture With Smartwatches and a Head-Mounted Camera (Jiye Lee et al., 2024)
 
 {{<citation>}}
 
@@ -377,7 +623,7 @@ We present a lightweight and affordable motion capture method based on two smart
 {{</citation>}}
 
 
-### (16/53) Rethinking RAFT for Efficient Optical Flow (Navid Eslami et al., 2024)
+### (27/54) Rethinking RAFT for Efficient Optical Flow (Navid Eslami et al., 2024)
 
 {{<citation>}}
 
@@ -399,7 +645,7 @@ Despite significant progress in deep learning-based optical flow methods, accura
 {{</citation>}}
 
 
-### (17/53) DiffMorph: Text-less Image Morphing with Diffusion Models (Shounak Chatterjee, 2024)
+### (28/54) DiffMorph: Text-less Image Morphing with Diffusion Models (Shounak Chatterjee, 2024)
 
 {{<citation>}}
 
@@ -421,7 +667,7 @@ Text-conditioned image generation models are a prevalent use of AI image synthes
 {{</citation>}}
 
 
-### (18/53) BRAU-Net++: U-Shaped Hybrid CNN-Transformer Network for Medical Image Segmentation (Libin Lan et al., 2024)
+### (29/54) BRAU-Net++: U-Shaped Hybrid CNN-Transformer Network for Medical Image Segmentation (Libin Lan et al., 2024)
 
 {{<citation>}}
 
@@ -443,7 +689,7 @@ Accurate medical image segmentation is essential for clinical quantification, di
 {{</citation>}}
 
 
-### (19/53) Towards Efficient and Effective Text-to-Video Retrieval with Coarse-to-Fine Visual Representation Learning (Kaibin Tian et al., 2024)
+### (30/54) Towards Efficient and Effective Text-to-Video Retrieval with Coarse-to-Fine Visual Representation Learning (Kaibin Tian et al., 2024)
 
 {{<citation>}}
 
@@ -465,7 +711,7 @@ In recent years, text-to-video retrieval methods based on CLIP have experienced 
 {{</citation>}}
 
 
-### (20/53) Credible Teacher for Semi-Supervised Object Detection in Open Scene (Jingyu Zhuang et al., 2024)
+### (31/54) Credible Teacher for Semi-Supervised Object Detection in Open Scene (Jingyu Zhuang et al., 2024)
 
 {{<citation>}}
 
@@ -487,7 +733,7 @@ Semi-Supervised Object Detection (SSOD) has achieved resounding success by lever
 {{</citation>}}
 
 
-### (21/53) ScatterFormer: Efficient Voxel Transformer with Scattered Linear Attention (Chenhang He et al., 2024)
+### (32/54) ScatterFormer: Efficient Voxel Transformer with Scattered Linear Attention (Chenhang He et al., 2024)
 
 {{<citation>}}
 
@@ -513,7 +759,7 @@ Window-based transformers have demonstrated strong ability in large-scale point 
 
 
 
-### (22/53) Leveraging Large Language Models to Boost Dafny's Developers Productivity (Álvaro Silva et al., 2024)
+### (33/54) Leveraging Large Language Models to Boost Dafny's Developers Productivity (Álvaro Silva et al., 2024)
 
 {{<citation>}}
 
@@ -535,7 +781,7 @@ This research idea paper proposes leveraging Large Language Models (LLMs) to enh
 {{</citation>}}
 
 
-### (23/53) New Job, New Gender? Measuring the Social Bias in Image Generation Models (Wenxuan Wang et al., 2024)
+### (34/54) New Job, New Gender? Measuring the Social Bias in Image Generation Models (Wenxuan Wang et al., 2024)
 
 {{<citation>}}
 
@@ -557,7 +803,7 @@ Image generation models can generate or edit images from a given text. Recent ad
 {{</citation>}}
 
 
-### (24/53) The Earth is Flat? Unveiling Factual Errors in Large Language Models (Wenxuan Wang et al., 2024)
+### (35/54) The Earth is Flat? Unveiling Factual Errors in Large Language Models (Wenxuan Wang et al., 2024)
 
 {{<citation>}}
 
@@ -579,7 +825,7 @@ Large Language Models (LLMs) like ChatGPT are foundational in various applicatio
 {{</citation>}}
 
 
-### (25/53) A & B == B & A: Triggering Logical Reasoning Failures in Large Language Models (Yuxuan Wan et al., 2024)
+### (36/54) A & B == B & A: Triggering Logical Reasoning Failures in Large Language Models (Yuxuan Wan et al., 2024)
 
 {{<citation>}}
 
@@ -605,7 +851,7 @@ Recent advancements in large language models (LLMs) have propelled Artificial In
 
 
 
-### (26/53) Taking the Next Step with Generative Artificial Intelligence: The Transformative Role of Multimodal Large Language Models in Science Education (Arne Bewersdorff et al., 2024)
+### (37/54) Taking the Next Step with Generative Artificial Intelligence: The Transformative Role of Multimodal Large Language Models in Science Education (Arne Bewersdorff et al., 2024)
 
 {{<citation>}}
 
@@ -627,235 +873,11 @@ The integration of Artificial Intelligence (AI), particularly Large Language Mod
 {{</citation>}}
 
 
-## cs.CL (10)
-
-
-
-### (27/53) A Computational Framework for Behavioral Assessment of LLM Therapists (Yu Ying Chiu et al., 2024)
-
-{{<citation>}}
-
-Yu Ying Chiu, Ashish Sharma, Inna Wanyin Lin, Tim Althoff. (2024)  
-**A Computational Framework for Behavioral Assessment of LLM Therapists**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs-HC, cs.CL  
-Keywords: ChatGPT, GPT  
-[Paper Link](http://arxiv.org/abs/2401.00820v1)  
-
----
-
-
-**ABSTRACT**  
-The emergence of ChatGPT and other large language models (LLMs) has greatly increased interest in utilizing LLMs as therapists to support individuals struggling with mental health challenges. However, due to the lack of systematic studies, our understanding of how LLM therapists behave, i.e., ways in which they respond to clients, is significantly limited. Understanding their behavior across a wide range of clients and situations is crucial to accurately assess their capabilities and limitations in the high-risk setting of mental health, where undesirable behaviors can lead to severe consequences. In this paper, we propose BOLT, a novel computational framework to study the conversational behavior of LLMs when employed as therapists. We develop an in-context learning method to quantitatively measure the behavior of LLMs based on 13 different psychotherapy techniques including reflections, questions, solutions, normalizing, and psychoeducation. Subsequently, we compare the behavior of LLM therapists against that of high- and low-quality human therapy, and study how their behavior can be modulated to better reflect behaviors observed in high-quality therapy. Our analysis of GPT and Llama-variants reveals that these LLMs often resemble behaviors more commonly exhibited in low-quality therapy rather than high-quality therapy, such as offering a higher degree of problem-solving advice when clients share emotions, which is against typical recommendations. At the same time, unlike low-quality therapy, LLMs reflect significantly more upon clients' needs and strengths. Our analysis framework suggests that despite the ability of LLMs to generate anecdotal examples that appear similar to human therapists, LLM therapists are currently not fully consistent with high-quality care, and thus require additional research to ensure quality care.
-
-{{</citation>}}
-
-
-### (28/53) If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents (Ke Yang et al., 2024)
-
-{{<citation>}}
-
-Ke Yang, Jiateng Liu, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai. (2024)  
-**If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2401.00812v1)  
-
----
-
-
-**ABSTRACT**  
-The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Specifically, beyond enhancing LLMs in code generation, we observe that these unique properties of code help (i) unlock the reasoning ability of LLMs, enabling their applications to a range of more complex natural language tasks; (ii) steer LLMs to produce structured and precise intermediate steps, which can then be connected to external execution ends through function calls; and (iii) take advantage of code compilation and execution environment, which also provides diverse feedback for model improvement. In addition, we trace how these profound capabilities of LLMs, brought by code, have led to their emergence as intelligent agents (IAs) in situations where the ability to understand instructions, decompose goals, plan and execute actions, and refine from feedback are crucial to their success on downstream tasks. Finally, we present several key challenges and future directions of empowering LLMs with code.
-
-{{</citation>}}
-
-
-### (29/53) PerSHOP -- A Persian dataset for shopping dialogue systems modeling (Keyvan Mahmoudi et al., 2024)
-
-{{<citation>}}
-
-Keyvan Mahmoudi, Heshaam Faili. (2024)  
-**PerSHOP -- A Persian dataset for shopping dialogue systems modeling**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs-HC, cs.CL  
-Keywords: Google, NLU  
-[Paper Link](http://arxiv.org/abs/2401.00811v1)  
-
----
-
-
-**ABSTRACT**  
-Nowadays, dialogue systems are used in many fields of industry and research. There are successful instances of these systems, such as Apple Siri, Google Assistant, and IBM Watson. Task-oriented dialogue system is a category of these, that are used in specific tasks. They can perform tasks such as booking plane tickets or making restaurant reservations. Shopping is one of the most popular areas on these systems. The bot replaces the human salesperson and interacts with the customers by speaking. To train the models behind the scenes of these systems, annotated data is needed. In this paper, we developed a dataset of dialogues in the Persian language through crowd-sourcing. We annotated these dialogues to train a model. This dataset contains nearly 22k utterances in 15 different domains and 1061 dialogues. This is the largest Persian dataset in this field, which is provided freely so that future researchers can use it. Also, we proposed some baseline models for natural language understanding (NLU) tasks. These models perform two tasks for NLU: intent classification and entity extraction. The F-1 score metric obtained for intent classification is around 91% and for entity extraction is around 93%, which can be a baseline for future research.
-
-{{</citation>}}
-
-
-### (30/53) Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models (Terry Yue Zhuo et al., 2024)
-
-{{<citation>}}
-
-Terry Yue Zhuo, Armel Zebaze, Nitchakarn Suppattarachai, Leandro von Werra, Harm de Vries, Qian Liu, Niklas Muennighoff. (2024)  
-**Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models**  
-
----
-Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs-SE, cs.CL  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2401.00788v1)  
-
----
-
-
-**ABSTRACT**  
-The high cost of full-parameter fine-tuning (FFT) of Large Language Models (LLMs) has led to a series of parameter-efficient fine-tuning (PEFT) methods. However, it remains unclear which methods provide the best cost-performance trade-off at different model scales. We introduce Astraios, a suite of 28 instruction-tuned OctoCoder models using 7 tuning methods and 4 model sizes up to 16 billion parameters. Through investigations across 5 tasks and 8 different datasets encompassing both code comprehension and code generation tasks, we find that FFT generally leads to the best downstream performance across all scales, and PEFT methods differ significantly in their efficacy based on the model scale. LoRA usually offers the most favorable trade-off between cost and performance. Further investigation into the effects of these methods on both model robustness and code security reveals that larger models tend to demonstrate reduced robustness and less security. At last, we explore the relationships among updated parameters, cross-entropy loss, and task performance. We find that the tuning effectiveness observed in small models generalizes well to larger models, and the validation loss in instruction tuning can be a reliable indicator of overall downstream performance.
-
-{{</citation>}}
-
-
-### (31/53) Temporal Validity Change Prediction (Georg Wenzel et al., 2024)
-
-{{<citation>}}
-
-Georg Wenzel, Adam Jatowt. (2024)  
-**Temporal Validity Change Prediction**  
-
----
-Primary Category: cs.CL  
-Categories: 68T50, I-2-7, cs-AI, cs-CL, cs.CL  
-Keywords: AI, Twitter  
-[Paper Link](http://arxiv.org/abs/2401.00779v1)  
-
----
-
-
-**ABSTRACT**  
-Temporal validity is an important property of text that is useful for many downstream applications, such as recommender systems, conversational AI, or story understanding. Existing benchmarking tasks often require models to identify the temporal validity duration of a single statement. However, in many cases, additional contextual information, such as sentences in a story or posts on a social media profile, can be collected from the available text stream. This contextual information may greatly alter the duration for which a statement is expected to be valid. We propose Temporal Validity Change Prediction, a natural language processing task benchmarking the capability of machine learning models to detect contextual statements that induce such change. We create a dataset consisting of temporal target statements sourced from Twitter and crowdsource sample context statements. We then benchmark a set of transformer-based language models on our dataset. Finally, we experiment with temporal validity duration prediction as an auxiliary task to improve the performance of the state-of-the-art model.
-
-{{</citation>}}
-
-
-### (32/53) Machine Translation Testing via Syntactic Tree Pruning (Quanjun Zhang et al., 2024)
-
-{{<citation>}}
-
-Quanjun Zhang, Juan Zhai, Chunrong Fang, Jiawei Liu, Weisong Sun, Haichuan Hu, Qingyu Wang. (2024)  
-**Machine Translation Testing via Syntactic Tree Pruning**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs-SE, cs.CL  
-Keywords: Google, Machine Translation, Microsoft, Pruning  
-[Paper Link](http://arxiv.org/abs/2401.00751v1)  
-
----
-
-
-**ABSTRACT**  
-Machine translation systems have been widely adopted in our daily life, making life easier and more convenient. Unfortunately, erroneous translations may result in severe consequences, such as financial losses. This requires to improve the accuracy and the reliability of machine translation systems. However, it is challenging to test machine translation systems because of the complexity and intractability of the underlying neural models. To tackle these challenges, we propose a novel metamorphic testing approach by syntactic tree pruning (STP) to validate machine translation systems. Our key insight is that a pruned sentence should have similar crucial semantics compared with the original sentence. Specifically, STP (1) proposes a core semantics-preserving pruning strategy by basic sentence structure and dependency relations on the level of syntactic tree representation; (2) generates source sentence pairs based on the metamorphic relation; (3) reports suspicious issues whose translations break the consistency property by a bag-of-words model. We further evaluate STP on two state-of-the-art machine translation systems (i.e., Google Translate and Bing Microsoft Translator) with 1,200 source sentences as inputs. The results show that STP can accurately find 5,073 unique erroneous translations in Google Translate and 5,100 unique erroneous translations in Bing Microsoft Translator (400% more than state-of-the-art techniques), with 64.5% and 65.4% precision, respectively. The reported erroneous translations vary in types and more than 90% of them cannot be found by state-of-the-art techniques. There are 9,393 erroneous translations unique to STP, which is 711.9% more than state-of-the-art techniques. Moreover, STP is quite effective to detect translation errors for the original sentences with a recall reaching 74.0%, improving state-of-the-art techniques by 55.1% on average.
-
-{{</citation>}}
-
-
-### (33/53) ToolEyes: Fine-Grained Evaluation for Tool Learning Capabilities of Large Language Models in Real-world Scenarios (Junjie Ye et al., 2024)
-
-{{<citation>}}
-
-Junjie Ye, Guanyu Li, Songyang Gao, Caishuang Huang, Yilong Wu, Sixian Li, Xiaoran Fan, Shihan Dou, Qi Zhang, Tao Gui, Xuanjing Huang. (2024)  
-**ToolEyes: Fine-Grained Evaluation for Tool Learning Capabilities of Large Language Models in Real-world Scenarios**  
-
----
-Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs.CL  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2401.00741v1)  
-
----
-
-
-**ABSTRACT**  
-Existing evaluations of tool learning primarily focus on validating the alignment of selected tools for large language models (LLMs) with expected outcomes. However, these approaches rely on a limited set of scenarios where answers can be pre-determined, diverging from genuine needs. Furthermore, a sole emphasis on outcomes disregards the intricate capabilities essential for LLMs to effectively utilize tools. To tackle this issue, we propose ToolEyes, a fine-grained system tailored for the evaluation of the LLMs' tool learning capabilities in authentic scenarios. The system meticulously examines seven real-world scenarios, analyzing five dimensions crucial to LLMs in tool learning: format alignment, intent comprehension, behavior planning, tool selection, and answer organization. Additionally, ToolEyes incorporates a tool library boasting approximately 600 tools, serving as an intermediary between LLMs and the physical world. Evaluations involving ten LLMs across three categories reveal a preference for specific scenarios and limited cognitive abilities in tool learning. Intriguingly, expanding the model size even exacerbates the hindrance to tool learning. These findings offer instructive insights aimed at advancing the field of tool learning. The data is available att https://github.com/Junjie-Ye/ToolEyes.git.
-
-{{</citation>}}
-
-
-### (34/53) Large Language Models aren't all that you need (Kiran Voderhobli Holla et al., 2024)
-
-{{<citation>}}
-
-Kiran Voderhobli Holla, Chaithanya Kumar, Aryan Singh. (2024)  
-**Large Language Models aren't all that you need**  
-
----
-Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs-LG, cs.CL  
-Keywords: GPT, Language Model, Multilingual, NER, Named Entity Recognition  
-[Paper Link](http://arxiv.org/abs/2401.00698v1)  
-
----
-
-
-**ABSTRACT**  
-This paper describes the architecture and systems built towards solving the SemEval 2023 Task 2: MultiCoNER II (Multilingual Complex Named Entity Recognition) [1]. We evaluate two approaches (a) a traditional Conditional Random Fields model and (b) a Large Language Model (LLM) fine-tuned with a customized head and compare the two approaches. The novel ideas explored are: 1) Decaying auxiliary loss (with residual) - where we train the model on an auxiliary task of Coarse-Grained NER and include this task as a part of the loss function 2) Triplet token blending - where we explore ways of blending the embeddings of neighboring tokens in the final NER layer prior to prediction 3) Task-optimal heads - where we explore a variety of custom heads and learning rates for the final layer of the LLM. We also explore multiple LLMs including GPT-3 and experiment with a variety of dropout and other hyperparameter settings before arriving at our final model which achieves micro & macro f1 of 0.85/0.84 (on dev) and 0.67/0.61 on the test data . We show that while pre-trained LLMs, by themselves, bring about a large improvement in scores as compared to traditional models, we also demonstrate that tangible improvements to the Macro-F1 score can be made by augmenting the LLM with additional feature/loss/model engineering techniques described above.
-
-{{</citation>}}
-
-
-### (35/53) Benchmarking Large Language Models on Controllable Generation under Diversified Instructions (Yihan Chen et al., 2024)
-
-{{<citation>}}
-
-Yihan Chen, Benfeng Xu, Quan Wang, Yi Liu, Zhendong Mao. (2024)  
-**Benchmarking Large Language Models on Controllable Generation under Diversified Instructions**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
-Keywords: ChatGPT, GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2401.00690v1)  
-
----
-
-
-**ABSTRACT**  
-While large language models (LLMs) have exhibited impressive instruction-following capabilities, it is still unclear whether and to what extent they can respond to explicit constraints that might be entailed in various instructions. As a significant aspect of LLM alignment, it is thus important to formulate such a specialized set of instructions as well as investigate the resulting behavior of LLMs. To address this vacancy, we propose a new benchmark CoDI-Eval to systematically and comprehensively evaluate LLMs' responses to instructions with various constraints. We construct a large collection of constraints-attributed instructions as a test suite focused on both generalization and coverage. Specifically, we advocate an instruction diversification process to synthesize diverse forms of constraint expression and also deliberate the candidate task taxonomy with even finer-grained sub-categories. Finally, we automate the entire evaluation process to facilitate further developments. Different from existing studies on controllable text generation, CoDI-Eval extends the scope to the prevalent instruction-following paradigm for the first time. We provide extensive evaluations of representative LLMs (e.g., ChatGPT, Vicuna) on CoDI-Eval, revealing their limitations in following instructions with specific constraints and there is still a significant gap between open-source and commercial closed-source LLMs. We believe this benchmark will facilitate research into improving the controllability of LLMs' responses to instructions. Our data and code are available at https://github.com/Xt-cyh/CoDI-Eval.
-
-{{</citation>}}
-
-
-### (36/53) Predicting Anti-microbial Resistance using Large Language Models (Hyunwoo Yoo et al., 2024)
-
-{{<citation>}}
-
-Hyunwoo Yoo, Bahrad Sokhansanj, James R. Brown, Gail Rosen. (2024)  
-**Predicting Anti-microbial Resistance using Large Language Models**  
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2401.00642v1)  
-
----
-
-
-**ABSTRACT**  
-During times of increasing antibiotic resistance and the spread of infectious diseases like COVID-19, it is important to classify genes related to antibiotic resistance. As natural language processing has advanced with transformer-based language models, many language models that learn characteristics of nucleotide sequences have also emerged. These models show good performance in classifying various features of nucleotide sequences. When classifying nucleotide sequences, not only the sequence itself, but also various background knowledge is utilized. In this study, we use not only a nucleotide sequence-based language model but also a text language model based on PubMed articles to reflect more biological background knowledge in the model. We propose a method to fine-tune the nucleotide sequence language model and the text language model based on various databases of antibiotic resistance genes. We also propose an LLM-based augmentation technique to supplement the data and an ensemble method to effectively combine the two models. We also propose a benchmark for evaluating the model. Our method achieved better performance than the nucleotide sequence language model in the drug resistance class prediction.
-
-{{</citation>}}
-
-
 ## cs.HC (1)
 
 
 
-### (37/53) Agricultural 4.0 Leveraging on Technological Solutions: Study for Smart Farming Sector (Emmanuel Kojo Gyamfi et al., 2024)
+### (38/54) Agricultural 4.0 Leveraging on Technological Solutions: Study for Smart Farming Sector (Emmanuel Kojo Gyamfi et al., 2024)
 
 {{<citation>}}
 
@@ -881,7 +903,7 @@ By 2050, it is predicted that there will be 9 billion people on the planet, whic
 
 
 
-### (38/53) Privacy-Preserving Data in IoT-based Cloud Systems: A Comprehensive Survey with AI Integration (D. Dhinakaran et al., 2024)
+### (39/54) Privacy-Preserving Data in IoT-based Cloud Systems: A Comprehensive Survey with AI Integration (D. Dhinakaran et al., 2024)
 
 {{<citation>}}
 
@@ -903,7 +925,7 @@ As the integration of Internet of Things devices with cloud computing proliferat
 {{</citation>}}
 
 
-### (39/53) Digger: Detecting Copyright Content Mis-usage in Large Language Model Training (Haodong Li et al., 2024)
+### (40/54) Digger: Detecting Copyright Content Mis-usage in Large Language Model Training (Haodong Li et al., 2024)
 
 {{<citation>}}
 
@@ -925,7 +947,7 @@ Pre-training, which utilizes extensive and varied datasets, is a critical factor
 {{</citation>}}
 
 
-### (40/53) TBDD: A New Trust-based, DRL-driven Framework for Blockchain Sharding in IoT (Zixu Zhang et al., 2024)
+### (41/54) TBDD: A New Trust-based, DRL-driven Framework for Blockchain Sharding in IoT (Zixu Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -951,7 +973,7 @@ Integrating sharded blockchain with IoT presents a solution for trust issues and
 
 
 
-### (41/53) Edge Computing based Human-Robot Cognitive Fusion: A Medical Case Study in the Autism Spectrum Disorder Therapy (Qin Yang, 2024)
+### (42/54) Edge Computing based Human-Robot Cognitive Fusion: A Medical Case Study in the Autism Spectrum Disorder Therapy (Qin Yang, 2024)
 
 {{<citation>}}
 
@@ -977,7 +999,7 @@ In recent years, edge computing has served as a paradigm that enables many futur
 
 
 
-### (42/53) Strong Transitivity Relations and Graph Neural Networks (Yassin Mohamadi et al., 2024)
+### (43/54) Strong Transitivity Relations and Graph Neural Networks (Yassin Mohamadi et al., 2024)
 
 {{<citation>}}
 
@@ -999,7 +1021,7 @@ Local neighborhoods play a crucial role in embedding generation in graph-based l
 {{</citation>}}
 
 
-### (43/53) IRWE: Inductive Random Walk for Joint Inference of Identity and Position Network Embedding (Meng Qin et al., 2024)
+### (44/54) IRWE: Inductive Random Walk for Joint Inference of Identity and Position Network Embedding (Meng Qin et al., 2024)
 
 {{<citation>}}
 
@@ -1025,7 +1047,7 @@ Network embedding, which maps graphs to distributed representations, is a unifie
 
 
 
-### (44/53) Free-form Shape Modeling in XR: A Systematic Review (Shounak Chatterjee, 2024)
+### (45/54) Free-form Shape Modeling in XR: A Systematic Review (Shounak Chatterjee, 2024)
 
 {{<citation>}}
 
@@ -1051,7 +1073,7 @@ Shape modeling research in Computer Graphics has been an active area for decades
 
 
 
-### (45/53) Harmonizing Covariance and Expressiveness for Deep Hamiltonian Regression in Crystalline Material Research: a Hybrid Cascaded Regression Framework (Shi Yin et al., 2024)
+### (46/54) Harmonizing Covariance and Expressiveness for Deep Hamiltonian Regression in Crystalline Material Research: a Hybrid Cascaded Regression Framework (Shi Yin et al., 2024)
 
 {{<citation>}}
 
@@ -1077,7 +1099,7 @@ Deep learning for Hamiltonian regression of quantum systems in material research
 
 
 
-### (46/53) Beyond Subspace Isolation: Many-to-Many Transformer for Light Field Image Super-resolution (Zeke Zexi Hu et al., 2024)
+### (47/54) Beyond Subspace Isolation: Many-to-Many Transformer for Light Field Image Super-resolution (Zeke Zexi Hu et al., 2024)
 
 {{<citation>}}
 
@@ -1099,7 +1121,7 @@ The effective extraction of spatial-angular features plays a crucial role in lig
 {{</citation>}}
 
 
-### (47/53) MultiFusionNet: Multilayer Multimodal Fusion of Deep Neural Networks for Chest X-Ray Image Classification (Saurabh Agarwal et al., 2024)
+### (48/54) MultiFusionNet: Multilayer Multimodal Fusion of Deep Neural Networks for Chest X-Ray Image Classification (Saurabh Agarwal et al., 2024)
 
 {{<citation>}}
 
@@ -1121,7 +1143,7 @@ Chest X-ray imaging is a critical diagnostic tool for identifying pulmonary dise
 {{</citation>}}
 
 
-### (48/53) Self-supervised learning for skin cancer diagnosis with limited training data (Hamish Haggerty et al., 2024)
+### (49/54) Self-supervised learning for skin cancer diagnosis with limited training data (Hamish Haggerty et al., 2024)
 
 {{<citation>}}
 
@@ -1147,7 +1169,7 @@ Cancer diagnosis is a well-studied problem in machine learning since early detec
 
 
 
-### (49/53) Predicting Infant Brain Connectivity with Federated Multi-Trajectory GNNs using Scarce Data (Michalis Pistos et al., 2024)
+### (50/54) Predicting Infant Brain Connectivity with Federated Multi-Trajectory GNNs using Scarce Data (Michalis Pistos et al., 2024)
 
 {{<citation>}}
 
@@ -1173,7 +1195,7 @@ The understanding of the convoluted evolution of infant brain networks during th
 
 
 
-### (50/53) Data Assimilation in Chaotic Systems Using Deep Reinforcement Learning (Mohamad Abed El Rahman Hammoud et al., 2024)
+### (51/54) Data Assimilation in Chaotic Systems Using Deep Reinforcement Learning (Mohamad Abed El Rahman Hammoud et al., 2024)
 
 {{<citation>}}
 
@@ -1199,7 +1221,7 @@ Data assimilation (DA) plays a pivotal role in diverse applications, ranging fro
 
 
 
-### (51/53) The Smooth Trajectory Estimator for LMB Filters (Hoa Van Nguyen et al., 2024)
+### (52/54) The Smooth Trajectory Estimator for LMB Filters (Hoa Van Nguyen et al., 2024)
 
 {{<citation>}}
 
@@ -1225,7 +1247,7 @@ This paper proposes a smooth-trajectory estimator for the labelled multi-Bernoul
 
 
 
-### (52/53) Enhancing Pre-trained ASR System Fine-tuning for Dysarthric Speech Recognition using Adversarial Data Augmentation (Huimeng Wang et al., 2024)
+### (53/54) Enhancing Pre-trained ASR System Fine-tuning for Dysarthric Speech Recognition using Adversarial Data Augmentation (Huimeng Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1251,7 +1273,7 @@ Automatic recognition of dysarthric speech remains a highly challenging task to 
 
 
 
-### (53/53) Coordinated Deep Neural Networks: A Versatile Edge Offloading Algorithm (Alireza Maleki et al., 2024)
+### (54/54) Coordinated Deep Neural Networks: A Versatile Edge Offloading Algorithm (Alireza Maleki et al., 2024)
 
 {{<citation>}}
 
