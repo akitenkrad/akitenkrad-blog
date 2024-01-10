@@ -199,7 +199,7 @@ Aarash Feizi, Randall Balestriero, Adriana Romero-Soriano, Reihaneh Rabbany. (20
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: Augmentation, Self-Supervised  
-[Paper Link](http://arxiv.org/abs/2401.01990v1)  
+[Paper Link](http://arxiv.org/abs/2401.01990v2)  
 
 ---
 
@@ -929,7 +929,7 @@ Uri Shaham, Jonathan Herzig, Roee Aharoni, Idan Szpektor, Reut Tsarfaty, Matan E
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Multilingual  
-[Paper Link](http://arxiv.org/abs/2401.01854v1)  
+[Paper Link](http://arxiv.org/abs/2401.01854v2)  
 
 ---
 

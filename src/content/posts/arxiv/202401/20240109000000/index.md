@@ -23,7 +23,7 @@ math: true
 
 - [cs.IR (1)](#csir-1)
 - [cs.CL (12)](#cscl-12)
-- [cs.LG (7)](#cslg-7)
+- [cs.LG (8)](#cslg-8)
 - [cs.CV (8)](#cscv-8)
 - [cs.AI (7)](#csai-7)
 - [cs.CR (2)](#cscr-2)
@@ -33,7 +33,7 @@ math: true
 - [eess.AS (3)](#eessas-3)
 - [cs.CY (3)](#cscy-3)
 - [cs.SD (2)](#cssd-2)
-- [cs.HC (1)](#cshc-1)
+- [cs.HC (2)](#cshc-2)
 - [cs.CE (1)](#csce-1)
 - [q-bio.PE (1)](#q-biope-1)
 - [cs.SE (1)](#csse-1)
@@ -43,7 +43,7 @@ math: true
 
 
 
-### (1/53) ChatGPT for Conversational Recommendation: Refining Recommendations by Reprompting with Feedback (Kyle Dylan Spurlock et al., 2024)
+### (1/55) ChatGPT for Conversational Recommendation: Refining Recommendations by Reprompting with Feedback (Kyle Dylan Spurlock et al., 2024)
 
 {{<citation>}}
 
@@ -69,7 +69,7 @@ Recommendation algorithms have been pivotal in handling the overwhelming volume 
 
 
 
-### (2/53) InFoBench: Evaluating Instruction Following Ability in Large Language Models (Yiwei Qin et al., 2024)
+### (2/55) InFoBench: Evaluating Instruction Following Ability in Large Language Models (Yiwei Qin et al., 2024)
 
 {{<citation>}}
 
@@ -91,7 +91,7 @@ This paper introduces the Decomposed Requirements Following Ratio (DRFR), a new 
 {{</citation>}}
 
 
-### (3/53) Text Classification Based on Knowledge Graphs and Improved Attention Mechanism (Siyu Li et al., 2024)
+### (3/55) Text Classification Based on Knowledge Graphs and Improved Attention Mechanism (Siyu Li et al., 2024)
 
 {{<citation>}}
 
@@ -113,7 +113,7 @@ To resolve the semantic ambiguity in texts, we propose a model, which innovative
 {{</citation>}}
 
 
-### (4/53) Building Efficient and Effective OpenQA Systems for Low-Resource Languages (Emrah Budur et al., 2024)
+### (4/55) Building Efficient and Effective OpenQA Systems for Low-Resource Languages (Emrah Budur et al., 2024)
 
 {{<citation>}}
 
@@ -135,7 +135,7 @@ Question answering (QA) is the task of answering questions posed in natural lang
 {{</citation>}}
 
 
-### (5/53) Data-CUBE: Data Curriculum for Instruction-based Sentence Representation Learning (Yingqian Min et al., 2024)
+### (5/55) Data-CUBE: Data Curriculum for Instruction-based Sentence Representation Learning (Yingqian Min et al., 2024)
 
 {{<citation>}}
 
@@ -157,7 +157,7 @@ Recently, multi-task instruction tuning has been applied into sentence represent
 {{</citation>}}
 
 
-### (6/53) CAPTAIN at COLIEE 2023: Efficient Methods for Legal Information Retrieval and Entailment Tasks (Chau Nguyen et al., 2024)
+### (6/55) CAPTAIN at COLIEE 2023: Efficient Methods for Legal Information Retrieval and Entailment Tasks (Chau Nguyen et al., 2024)
 
 {{<citation>}}
 
@@ -179,7 +179,7 @@ The Competition on Legal Information Extraction/Entailment (COLIEE) is held annu
 {{</citation>}}
 
 
-### (7/53) RoBERTurk: Adjusting RoBERTa for Turkish (Nuri Tas, 2024)
+### (7/55) RoBERTurk: Adjusting RoBERTa for Turkish (Nuri Tas, 2024)
 
 {{<citation>}}
 
@@ -201,7 +201,7 @@ We pretrain RoBERTa on a Turkish corpora using BPE tokenizer. Our model outperfo
 {{</citation>}}
 
 
-### (8/53) Token-free LLMs Can Generate Chinese Classical Poetry with More Accurate Format (Chengyue Yu et al., 2024)
+### (8/55) Token-free LLMs Can Generate Chinese Classical Poetry with More Accurate Format (Chengyue Yu et al., 2024)
 
 {{<citation>}}
 
@@ -212,18 +212,18 @@ Chengyue Yu, Lei Zang, Jiaotuan Wang, Chenyi Zhuang, Jinjie Gu. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: ChatGPT, GPT, GPT-4  
-[Paper Link](http://arxiv.org/abs/2401.03512v1)  
+[Paper Link](http://arxiv.org/abs/2401.03512v2)  
 
 ---
 
 
 **ABSTRACT**  
-Finetuned large language models (such as ChatGPT and Qwen-chat) can generate Chinese classical poetry following human's instructions. LLMs perform well in content, but are usually lacking in format, with occasionally excess or insufficient number of characters in each line. Since most SOTA LLMs are token-based, we assume that the format inaccuracy is due to the difficulty of the "token planning" task, which means that the LLM need to know exactly how much characters are contained in each token and do length-control planning based on that knowledge. In this paper, we first confirm our assumption by showing that existing token-based large language models has limited knowledge on token-character relationship. We use a spelling bee probing procedure, and find that Qwen-chat failed in nearly 15% Chinese spelling test. We then show that a token-based model can be easily tailored into a token-free model (in terms of Chinese), which can largely solve the format accuracy problem. Our tailoring procedure removes long-token from vocabulary and keeps only character-level or byte-level tokens. As part of our contribution, we release the finetuned token-free model (which is based on Qwen-chat-7B), which can generate chinese classical poetry following complex instructions like LLMs (such as story paraphrasing), and also perform well in format. On the test set, our token-free model achives an format accuracy of 0.96, compared to 0.84 for token-based counterparts and 0.38 for GPT-4.
+Finetuned large language models (such as ChatGPT and Qwen-chat) can generate Chinese classical poetry following human's instructions. LLMs perform well in content, but are usually lacking in format, with occasionally excess or insufficient number of characters in each line. Since most SOTA LLMs are token-based, we assume that the format inaccuracy is due to the difficulty of the "token planning" task, which means that the LLM need to know exactly how much characters are contained in each token and do length-control planning based on that knowledge. In this paper, we first confirm our assumption by showing that existing token-based large language models has limited knowledge on token-character relationship. We use a spelling bee probing procedure, and find that Qwen-chat failed in nearly 15% Chinese spelling test. We then show that a token-based model can be easily tailored into a token-free model (in terms of Chinese), which can largely solve the format accuracy problem. Our tailoring procedure removes long-tokens from the vocabulary and the language model head, and keeps only character-level or byte-level tokens. As part of our contribution, we release the finetuned token-free model (which is based on Qwen-chat-7B), which can generate chinese classical poetry following complex instructions like LLMs (such as story paraphrasing), and also perform well in format. On the test set, our token-free model achives an format accuracy of 0.96, compared to 0.84 for token-based equivalents and 0.38 for GPT-4.
 
 {{</citation>}}
 
 
-### (9/53) Maintaining Journalistic Integrity in the Digital Age: A Comprehensive NLP Framework for Evaluating Online News Content (Ljubisa Bojic et al., 2024)
+### (9/55) Maintaining Journalistic Integrity in the Digital Age: A Comprehensive NLP Framework for Evaluating Online News Content (Ljubisa Bojic et al., 2024)
 
 {{<citation>}}
 
@@ -245,7 +245,7 @@ The rapid growth of online news platforms has led to an increased need for relia
 {{</citation>}}
 
 
-### (10/53) On Leveraging Large Language Models for Enhancing Entity Resolution (Huahang Li et al., 2024)
+### (10/55) On Leveraging Large Language Models for Enhancing Entity Resolution (Huahang Li et al., 2024)
 
 {{<citation>}}
 
@@ -267,7 +267,7 @@ Entity resolution, the task of identifying and consolidating records that pertai
 {{</citation>}}
 
 
-### (11/53) GRAM: Global Reasoning for Multi-Page VQA (Tsachi Blau et al., 2024)
+### (11/55) GRAM: Global Reasoning for Multi-Page VQA (Tsachi Blau et al., 2024)
 
 {{<citation>}}
 
@@ -289,7 +289,7 @@ The increasing use of transformer-based large language models brings forward the
 {{</citation>}}
 
 
-### (12/53) Empirical Study of Large Language Models as Automated Essay Scoring Tools in English Composition__Taking TOEFL Independent Writing Task for Example (Wei Xia et al., 2024)
+### (12/55) Empirical Study of Large Language Models as Automated Essay Scoring Tools in English Composition__Taking TOEFL Independent Writing Task for Example (Wei Xia et al., 2024)
 
 {{<citation>}}
 
@@ -311,7 +311,7 @@ Large language models have demonstrated exceptional capabilities in tasks involv
 {{</citation>}}
 
 
-### (13/53) Grimoire is All You Need for Enhancing Large Language Models (Ding Chen et al., 2024)
+### (13/55) Grimoire is All You Need for Enhancing Large Language Models (Ding Chen et al., 2024)
 
 {{<citation>}}
 
@@ -333,11 +333,11 @@ In-context learning (ICL) is one of the key methods for enhancing the performanc
 {{</citation>}}
 
 
-## cs.LG (7)
+## cs.LG (8)
 
 
 
-### (14/53) Few-Shot Causal Representation Learning for Out-of-Distribution Generalization on Heterogeneous Graphs (Pengfei Ding et al., 2024)
+### (14/55) Few-Shot Causal Representation Learning for Out-of-Distribution Generalization on Heterogeneous Graphs (Pengfei Ding et al., 2024)
 
 {{<citation>}}
 
@@ -359,7 +359,7 @@ Heterogeneous graph few-shot learning (HGFL) has been developed to address the l
 {{</citation>}}
 
 
-### (15/53) GLOCALFAIR: Jointly Improving Global and Local Group Fairness in Federated Learning (Syed Irfan Ali Meerza et al., 2024)
+### (15/55) GLOCALFAIR: Jointly Improving Global and Local Group Fairness in Federated Learning (Syed Irfan Ali Meerza et al., 2024)
 
 {{<citation>}}
 
@@ -381,7 +381,7 @@ Federated learning (FL) has emerged as a prospective solution for collaborativel
 {{</citation>}}
 
 
-### (16/53) Detecting Anomalies in Blockchain Transactions using Machine Learning Classifiers and Explainability Analysis (Mohammad Hasan et al., 2024)
+### (16/55) Detecting Anomalies in Blockchain Transactions using Machine Learning Classifiers and Explainability Analysis (Mohammad Hasan et al., 2024)
 
 {{<citation>}}
 
@@ -403,7 +403,7 @@ As the use of Blockchain for digital payments continues to rise in popularity, i
 {{</citation>}}
 
 
-### (17/53) Decentralized Federated Policy Gradient with Byzantine Fault-Tolerance and Provably Fast Convergence (Philip Jordan et al., 2024)
+### (17/55) Decentralized Federated Policy Gradient with Byzantine Fault-Tolerance and Provably Fast Convergence (Philip Jordan et al., 2024)
 
 {{<citation>}}
 
@@ -425,7 +425,7 @@ In Federated Reinforcement Learning (FRL), agents aim to collaboratively learn a
 {{</citation>}}
 
 
-### (18/53) Uncertainty Quantification on Clinical Trial Outcome Prediction (Tianyi Chen et al., 2024)
+### (18/55) Uncertainty Quantification on Clinical Trial Outcome Prediction (Tianyi Chen et al., 2024)
 
 {{<citation>}}
 
@@ -447,7 +447,29 @@ The importance of uncertainty quantification is increasingly recognized in the d
 {{</citation>}}
 
 
-### (19/53) Accurate and Scalable Estimation of Epistemic Uncertainty for Graph Neural Networks (Puja Trivedi et al., 2024)
+### (19/55) SynHIN: Generating Synthetic Heterogeneous Information Network for Explainable AI (Ming-Yi Hong et al., 2024)
+
+{{<citation>}}
+
+Ming-Yi Hong, Yi-Hsiang Huang, You-Chen Teng, Chih-Yu Wang, Che Lin. (2024)  
+**SynHIN: Generating Synthetic Heterogeneous Information Network for Explainable AI**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs-SI, cs.LG  
+Keywords: AI, GNN, Graph Neural Network, Graph Neural Networks  
+[Paper Link](http://arxiv.org/abs/2401.04133v1)  
+
+---
+
+
+**ABSTRACT**  
+Graph Neural Networks (GNNs) excel in various domains, from detecting e-commerce spam to social network classification problems. However, the lack of public graph datasets hampers research progress, particularly in heterogeneous information networks (HIN). The demand for datasets for fair HIN comparisons is growing due to advancements in GNN interpretation models. In response, we propose SynHIN, a unique method for generating synthetic heterogeneous information networks. SynHIN identifies motifs in real-world datasets, summarizes graph statistics, and constructs a synthetic network. Our approach utilizes In-Cluster and Out-Cluster Merge modules to build the synthetic HIN from primary motif clusters. After In/Our-Cluster mergers and a post-pruning process fitting the real dataset constraints, we ensure the synthetic graph statistics align closely with the reference one. SynHIN generates a synthetic heterogeneous graph dataset for node classification tasks, using the primary motif as the explanation ground truth. It can adapt and address the lack of heterogeneous graph datasets and motif ground truths, proving beneficial for assessing heterogeneous graph neural network explainers. We further present a benchmark dataset for future heterogeneous graph explainer model research. Our work marks a significant step towards explainable AI in HGNNs.
+
+{{</citation>}}
+
+
+### (20/55) Accurate and Scalable Estimation of Epistemic Uncertainty for Graph Neural Networks (Puja Trivedi et al., 2024)
 
 {{<citation>}}
 
@@ -469,7 +491,7 @@ While graph neural networks (GNNs) are widely used for node and graph representa
 {{</citation>}}
 
 
-### (20/53) Weakly Augmented Variational Autoencoder in Time Series Anomaly Detection (Zhangkai Wu et al., 2024)
+### (21/55) Weakly Augmented Variational Autoencoder in Time Series Anomaly Detection (Zhangkai Wu et al., 2024)
 
 {{<citation>}}
 
@@ -495,7 +517,7 @@ Due to their unsupervised training and uncertainty estimation, deep Variational 
 
 
 
-### (21/53) Big Data and Deep Learning in Smart Cities: A Comprehensive Dataset for AI-Driven Traffic Accident Detection and Computer Vision Systems (Victor Adewopo et al., 2024)
+### (22/55) Big Data and Deep Learning in Smart Cities: A Comprehensive Dataset for AI-Driven Traffic Accident Detection and Computer Vision Systems (Victor Adewopo et al., 2024)
 
 {{<citation>}}
 
@@ -517,7 +539,7 @@ In the dynamic urban landscape, where the interplay of vehicles and pedestrians 
 {{</citation>}}
 
 
-### (22/53) SeTformer is What You Need for Vision and Language (Pourya Shamsolmoali et al., 2024)
+### (23/55) SeTformer is What You Need for Vision and Language (Pourya Shamsolmoali et al., 2024)
 
 {{<citation>}}
 
@@ -539,7 +561,7 @@ The dot product self-attention (DPSA) is a fundamental component of transformers
 {{</citation>}}
 
 
-### (23/53) Text-Driven Traffic Anomaly Detection with Temporal High-Frequency Modeling in Driving Videos (Rongqin Liang et al., 2024)
+### (24/55) Text-Driven Traffic Anomaly Detection with Temporal High-Frequency Modeling in Driving Videos (Rongqin Liang et al., 2024)
 
 {{<citation>}}
 
@@ -561,7 +583,7 @@ Traffic anomaly detection (TAD) in driving videos is critical for ensuring the s
 {{</citation>}}
 
 
-### (24/53) Re:Draw -- Context Aware Translation as a Controllable Method for Artistic Production (Joao Liborio Cardoso et al., 2024)
+### (25/55) Re:Draw -- Context Aware Translation as a Controllable Method for Artistic Production (Joao Liborio Cardoso et al., 2024)
 
 {{<citation>}}
 
@@ -583,7 +605,7 @@ We introduce context-aware translation, a novel method that combines the benefit
 {{</citation>}}
 
 
-### (25/53) BCLNet: Bilateral Consensus Learning for Two-View Correspondence Pruning (Xiangyang Miao et al., 2024)
+### (26/55) BCLNet: Bilateral Consensus Learning for Two-View Correspondence Pruning (Xiangyang Miao et al., 2024)
 
 {{<citation>}}
 
@@ -605,7 +627,7 @@ Correspondence pruning aims to establish reliable correspondences between two re
 {{</citation>}}
 
 
-### (26/53) SpecRef: A Fast Training-free Baseline of Specific Reference-Condition Real Image Editing (Songyan Chen et al., 2024)
+### (27/55) SpecRef: A Fast Training-free Baseline of Specific Reference-Condition Real Image Editing (Songyan Chen et al., 2024)
 
 {{<citation>}}
 
@@ -627,7 +649,7 @@ Text-conditional image editing based on large diffusion generative model has att
 {{</citation>}}
 
 
-### (27/53) See360: Novel Panoramic View Interpolation (Zhi-Song Liu et al., 2024)
+### (28/55) See360: Novel Panoramic View Interpolation (Zhi-Song Liu et al., 2024)
 
 {{<citation>}}
 
@@ -649,7 +671,7 @@ We present See360, which is a versatile and efficient framework for 360 panorami
 {{</citation>}}
 
 
-### (28/53) Towards Effective Multiple-in-One Image Restoration: A Sequential and Prompt Learning Strategy (Xiangtao Kong et al., 2024)
+### (29/55) Towards Effective Multiple-in-One Image Restoration: A Sequential and Prompt Learning Strategy (Xiangtao Kong et al., 2024)
 
 {{<citation>}}
 
@@ -675,7 +697,7 @@ While single task image restoration (IR) has achieved significant successes, it 
 
 
 
-### (29/53) Agent AI: Surveying the Horizons of Multimodal Interaction (Zane Durante et al., 2024)
+### (30/55) Agent AI: Surveying the Horizons of Multimodal Interaction (Zane Durante et al., 2024)
 
 {{<citation>}}
 
@@ -697,7 +719,7 @@ Multi-modal AI systems will likely become a ubiquitous presence in our everyday 
 {{</citation>}}
 
 
-### (30/53) NovelGym: A Flexible Ecosystem for Hybrid Planning and Learning Agents Designed for Open Worlds (Shivam Goel et al., 2024)
+### (31/55) NovelGym: A Flexible Ecosystem for Hybrid Planning and Learning Agents Designed for Open Worlds (Shivam Goel et al., 2024)
 
 {{<citation>}}
 
@@ -719,7 +741,7 @@ As AI agents leave the lab and venture into the real world as autonomous vehicle
 {{</citation>}}
 
 
-### (31/53) Quantifying stability of non-power-seeking in artificial agents (Evan Ryan Gunter et al., 2024)
+### (32/55) Quantifying stability of non-power-seeking in artificial agents (Evan Ryan Gunter et al., 2024)
 
 {{<citation>}}
 
@@ -741,7 +763,7 @@ We investigate the question: if an AI agent is known to be safe in one setting, 
 {{</citation>}}
 
 
-### (32/53) ClusterComm: Discrete Communication in Decentralized MARL using Internal Representation Clustering (Robert Müller et al., 2024)
+### (33/55) ClusterComm: Discrete Communication in Decentralized MARL using Internal Representation Clustering (Robert Müller et al., 2024)
 
 {{<citation>}}
 
@@ -763,7 +785,7 @@ In the realm of Multi-Agent Reinforcement Learning (MARL), prevailing approaches
 {{</citation>}}
 
 
-### (33/53) Computational Argumentation-based Chatbots: a Survey (Federico Castagna et al., 2024)
+### (34/55) Computational Argumentation-based Chatbots: a Survey (Federico Castagna et al., 2024)
 
 {{<citation>}}
 
@@ -785,7 +807,7 @@ Chatbots are conversational software applications designed to interact dialectic
 {{</citation>}}
 
 
-### (34/53) Exploring Large Language Model based Intelligent Agents: Definitions, Methods, and Prospects (Yuheng Cheng et al., 2024)
+### (35/55) Exploring Large Language Model based Intelligent Agents: Definitions, Methods, and Prospects (Yuheng Cheng et al., 2024)
 
 {{<citation>}}
 
@@ -807,7 +829,7 @@ Intelligent agents stand out as a potential path toward artificial general intel
 {{</citation>}}
 
 
-### (35/53) Escalation Risks from Language Models in Military and Diplomatic Decision-Making (Juan-Pablo Rivera et al., 2024)
+### (36/55) Escalation Risks from Language Models in Military and Diplomatic Decision-Making (Juan-Pablo Rivera et al., 2024)
 
 {{<citation>}}
 
@@ -833,7 +855,7 @@ Governments are increasingly considering integrating autonomous AI agents in hig
 
 
 
-### (36/53) Improving Transferability of Network Intrusion Detection in a Federated Learning Setup (Shreya Ghosh et al., 2024)
+### (37/55) Improving Transferability of Network Intrusion Detection in a Federated Learning Setup (Shreya Ghosh et al., 2024)
 
 {{<citation>}}
 
@@ -855,7 +877,7 @@ Network Intrusion Detection Systems (IDS) aim to detect the presence of an intru
 {{</citation>}}
 
 
-### (37/53) Ensemble Defense System: A Hybrid IDS Approach for Effective Cyber Threat Detection (Sarah Alharbi et al., 2024)
+### (38/55) Ensemble Defense System: A Hybrid IDS Approach for Effective Cyber Threat Detection (Sarah Alharbi et al., 2024)
 
 {{<citation>}}
 
@@ -881,7 +903,7 @@ Sophisticated cyber attacks present significant challenges for organizations in 
 
 
 
-### (38/53) Overview of Dialogue Robot Competition 2023 (Takashi Minato et al., 2024)
+### (39/55) Overview of Dialogue Robot Competition 2023 (Takashi Minato et al., 2024)
 
 {{<citation>}}
 
@@ -907,7 +929,7 @@ We have held dialogue robot competitions in 2020 and 2022 to compare the perform
 
 
 
-### (39/53) Is there really a Citation Age Bias in NLP? (Hoa Nguyen et al., 2024)
+### (40/55) Is there really a Citation Age Bias in NLP? (Hoa Nguyen et al., 2024)
 
 {{<citation>}}
 
@@ -933,7 +955,7 @@ Citations are a key ingredient of scientific research to relate a paper to other
 
 
 
-### (40/53) Characterizing Political Campaigning with Lexical Mutants on Indian Social Media (Shruti Phadke et al., 2024)
+### (41/55) Characterizing Political Campaigning with Lexical Mutants on Indian Social Media (Shruti Phadke et al., 2024)
 
 {{<citation>}}
 
@@ -959,7 +981,7 @@ Increasingly online platforms are becoming popular arenas of political amplifica
 
 
 
-### (41/53) DiarizationLM: Speaker Diarization Post-Processing with Large Language Models (Quan Wang et al., 2024)
+### (42/55) DiarizationLM: Speaker Diarization Post-Processing with Large Language Models (Quan Wang et al., 2024)
 
 {{<citation>}}
 
@@ -981,7 +1003,7 @@ In this paper, we introduce DiarizationLM, a framework to leverage large languag
 {{</citation>}}
 
 
-### (42/53) EAT: Self-Supervised Pre-Training with Efficient Audio Transformer (Wenxi Chen et al., 2024)
+### (43/55) EAT: Self-Supervised Pre-Training with Efficient Audio Transformer (Wenxi Chen et al., 2024)
 
 {{<citation>}}
 
@@ -1003,7 +1025,7 @@ Audio self-supervised learning (SSL) pre-training, which aims to learn good repr
 {{</citation>}}
 
 
-### (43/53) Single-Microphone Speaker Separation and Voice Activity Detection in Noisy and Reverberant Environments (Renana Opochinsky et al., 2024)
+### (44/55) Single-Microphone Speaker Separation and Voice Activity Detection in Noisy and Reverberant Environments (Renana Opochinsky et al., 2024)
 
 {{<citation>}}
 
@@ -1029,7 +1051,7 @@ Speech separation involves extracting an individual speaker's voice from a multi
 
 
 
-### (44/53) A Large Language Model Supported Synthesis of Contemporary Academic Integrity Research Trends (Thomas Lancaster, 2024)
+### (45/55) A Large Language Model Supported Synthesis of Contemporary Academic Integrity Research Trends (Thomas Lancaster, 2024)
 
 {{<citation>}}
 
@@ -1051,18 +1073,18 @@ This paper reports on qualitative content analysis undertaken using ChatGPT, a L
 {{</citation>}}
 
 
-### (45/53) Amplifying robotics capacities with a human touch: An immersive low-latency panoramic remote system (Junjie Li et al., 2024)
+### (46/55) Amplifying robotics capacities with a human touch: An immersive low-latency panoramic remote system (Junjie Li et al., 2024)
 
 {{<citation>}}
 
-Junjie Li, Jian Xu, Dewei Han, Kang Li, Zhaoyuan Ma. (2024)  
+Junjie Li, Kang Li, Dewei Han, Jian Xu, Zhaoyuan Ma. (2024)  
 **Amplifying robotics capacities with a human touch: An immersive low-latency panoramic remote system**  
 
 ---
 Primary Category: cs.CY  
 Categories: cs-CY, cs-RO, cs.CY  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2401.03398v1)  
+[Paper Link](http://arxiv.org/abs/2401.03398v2)  
 
 ---
 
@@ -1073,7 +1095,7 @@ AI and robotics technologies have witnessed remarkable advancements in the past 
 {{</citation>}}
 
 
-### (46/53) An Investigation of Large Language Models for Real-World Hate Speech Detection (Keyan Guo et al., 2024)
+### (47/55) An Investigation of Large Language Models for Real-World Hate Speech Detection (Keyan Guo et al., 2024)
 
 {{<citation>}}
 
@@ -1099,7 +1121,7 @@ Hate speech has emerged as a major problem plaguing our social spaces today. Whi
 
 
 
-### (47/53) ICMC-ASR: The ICASSP 2024 In-Car Multi-Channel Automatic Speech Recognition Challenge (He Wang et al., 2024)
+### (48/55) ICMC-ASR: The ICASSP 2024 In-Car Multi-Channel Automatic Speech Recognition Challenge (He Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1121,7 +1143,7 @@ To promote speech processing and recognition research in driving scenarios, we b
 {{</citation>}}
 
 
-### (48/53) MLCA-AVSR: Multi-Layer Cross Attention Fusion based Audio-Visual Speech Recognition (He Wang et al., 2024)
+### (49/55) MLCA-AVSR: Multi-Layer Cross Attention Fusion based Audio-Visual Speech Recognition (He Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1143,11 +1165,33 @@ While automatic speech recognition (ASR) systems degrade significantly in noisy 
 {{</citation>}}
 
 
-## cs.HC (1)
+## cs.HC (2)
 
 
 
-### (49/53) MERBench: A Unified Evaluation Benchmark for Multimodal Emotion Recognition (Zheng Lian et al., 2024)
+### (50/55) Expanding Horizons in HCI Research Through LLM-Driven Qualitative Analysis (Maya Grace Torii et al., 2024)
+
+{{<citation>}}
+
+Maya Grace Torii, Takahito Murakami, Yoichi Ochiai. (2024)  
+**Expanding Horizons in HCI Research Through LLM-Driven Qualitative Analysis**  
+
+---
+Primary Category: cs.HC  
+Categories: cs-AI, cs-HC, cs.HC  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2401.04138v1)  
+
+---
+
+
+**ABSTRACT**  
+How would research be like if we still needed to "send" papers typed with a typewriter? Our life and research environment have continually evolved, often accompanied by controversial opinions about new methodologies. In this paper, we embrace this change by introducing a new approach to qualitative analysis in HCI using Large Language Models (LLMs). We detail a method that uses LLMs for qualitative data analysis and present a quantitative framework using SBART cosine similarity for performance evaluation. Our findings indicate that LLMs not only match the efficacy of traditional analysis methods but also offer unique insights. Through a novel dataset and benchmark, we explore LLMs' characteristics in HCI research, suggesting potential avenues for further exploration and application in the field.
+
+{{</citation>}}
+
+
+### (51/55) MERBench: A Unified Evaluation Benchmark for Multimodal Emotion Recognition (Zheng Lian et al., 2024)
 
 {{<citation>}}
 
@@ -1173,7 +1217,7 @@ Multimodal emotion recognition plays a crucial role in enhancing user experience
 
 
 
-### (50/53) Deep peak property learning for efficient chiral molecules ECD spectra prediction (Hao Li et al., 2024)
+### (52/55) Deep peak property learning for efficient chiral molecules ECD spectra prediction (Hao Li et al., 2024)
 
 {{<citation>}}
 
@@ -1199,7 +1243,7 @@ Chiral molecule assignation is crucial for asymmetric catalysis, functional mate
 
 
 
-### (51/53) Global Prediction of COVID-19 Variant Emergence Using Dynamics-Informed Graph Neural Networks (Majd Al Aawar et al., 2024)
+### (53/55) Global Prediction of COVID-19 Variant Emergence Using Dynamics-Informed Graph Neural Networks (Majd Al Aawar et al., 2024)
 
 {{<citation>}}
 
@@ -1225,7 +1269,7 @@ During the COVID-19 pandemic, a major driver of new surges has been the emergenc
 
 
 
-### (52/53) LLM-Powered Code Vulnerability Repair with Reinforcement Learning and Semantic Reward (Nafis Tanveer Islam et al., 2024)
+### (54/55) LLM-Powered Code Vulnerability Repair with Reinforcement Learning and Semantic Reward (Nafis Tanveer Islam et al., 2024)
 
 {{<citation>}}
 
@@ -1251,7 +1295,7 @@ In software development, the predominant emphasis on functionality often superse
 
 
 
-### (53/53) Multi-Modal Representation Learning for Molecular Property Prediction: Sequence, Graph, Geometry (Zeyu Wang et al., 2024)
+### (55/55) Multi-Modal Representation Learning for Molecular Property Prediction: Sequence, Graph, Geometry (Zeyu Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1262,12 +1306,12 @@ Zeyu Wang, Tianyi Jiang, Jinhuan Wang, Qi Xuan. (2024)
 Primary Category: q-bio.MN  
 Categories: cs-LG, q-bio-BM, q-bio-MN, q-bio.MN  
 Keywords: Representation Learning  
-[Paper Link](http://arxiv.org/abs/2401.03369v1)  
+[Paper Link](http://arxiv.org/abs/2401.03369v2)  
 
 ---
 
 
 **ABSTRACT**  
-Recent years have seen a rapid growth of machine learning in cheminformatics problems. In order to tackle the problem of insufficient training data in reality, more and more researchers pay attention to data augmentation technology. However, few researchers pay attention to the problem of construction rules and domain information of data, which will directly impact the quality of augmented data and the augmentation performance. While in graph-based molecular research, the molecular connectivity index, as a critical topological index, can directly or indirectly reflect the topology-based physicochemical properties and biological activities. In this paper, we propose a novel data augmentation technique that modifies the topology of the molecular graph to generate augmented data with the same molecular connectivity index as the original data. The molecular connectivity index combined with data augmentation technology helps to retain more topology-based molecular properties information and generate more reliable data. Furthermore, we adopt five benchmark datasets to test our proposed models, and the results indicate that the augmented data generated based on important molecular topology features can effectively improve the prediction accuracy of molecular properties, which also provides a new perspective on data augmentation in cheminformatics studies.
+Molecular property prediction refers to the task of labeling molecules with some biochemical properties, playing a pivotal role in the drug discovery and design process. Recently, with the advancement of machine learning, deep learning-based molecular property prediction has emerged as a solution to the resource-intensive nature of traditional methods, garnering significant attention. Among them, molecular representation learning is the key factor for molecular property prediction performance. And there are lots of sequence-based, graph-based, and geometry-based methods that have been proposed. However, the majority of existing studies focus solely on one modality for learning molecular representations, failing to comprehensively capture molecular characteristics and information. In this paper, a novel multi-modal representation learning model, which integrates the sequence, graph, and geometry characteristics, is proposed for molecular property prediction, called SGGRL. Specifically, we design a fusion layer to fusion the representation of different modalities. Furthermore, to ensure consistency across modalities, SGGRL is trained to maximize the similarity of representations for the same molecule while minimizing similarity for different molecules. To verify the effectiveness of SGGRL, seven molecular datasets, and several baselines are used for evaluation and comparison. The experimental results demonstrate that SGGRL consistently outperforms the baselines in most cases. This further underscores the capability of SGGRL to comprehensively capture molecular information. Overall, the proposed SGGRL model showcases its potential to revolutionize molecular property prediction by leveraging multi-modal representation learning to extract diverse and comprehensive molecular insights. Our code is released at https://github.com/Vencent-Won/SGGRL.
 
 {{</citation>}}
