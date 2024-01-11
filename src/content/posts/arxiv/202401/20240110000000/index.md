@@ -137,18 +137,18 @@ Educators are increasingly concerned about the usage of Large Language Models (L
 {{</citation>}}
 
 
-### (5/88) An exploratory study on automatic identification of assumptions in the development of deep learning frameworks (Chen Yanga et al., 2024)
+### (5/88) An exploratory study on automatic identification of assumptions in the development of deep learning frameworks (Chen Yang et al., 2024)
 
 {{<citation>}}
 
-Chen Yanga, Peng Liang, Zinan Ma. (2024)  
+Chen Yang, Peng Liang, Zinan Ma. (2024)  
 **An exploratory study on automatic identification of assumptions in the development of deep learning frameworks**  
 
 ---
 Primary Category: cs.SE  
 Categories: cs-LG, cs-SE, cs.SE  
 Keywords: BERT, ChatGPT, GPT  
-[Paper Link](http://arxiv.org/abs/2401.03653v1)  
+[Paper Link](http://arxiv.org/abs/2401.03653v2)  
 
 ---
 
@@ -519,24 +519,24 @@ Safety is an indispensable requirement for applying reinforcement learning (RL) 
 {{</citation>}}
 
 
-### (22/88) Contextual Fixed-Budget Best Arm Identification: Adaptive Experimental Design with Policy Learning (Masahiro Kato et al., 2024)
+### (22/88) Adaptive Experimental Design for Policy Learning (Masahiro Kato et al., 2024)
 
 {{<citation>}}
 
 Masahiro Kato, Kyohei Okumura, Takuya Ishihara, Toru Kitagawa. (2024)  
-**Contextual Fixed-Budget Best Arm Identification: Adaptive Experimental Design with Policy Learning**  
+**Adaptive Experimental Design for Policy Learning**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG, econ-EM, stat-ME, stat-ML  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2401.03756v1)  
+[Paper Link](http://arxiv.org/abs/2401.03756v2)  
 
 ---
 
 
 **ABSTRACT**  
-Individualized treatment recommendation is a crucial task in evidence-based decision-making. In this study, we formulate this task as a fixed-budget best arm identification (BAI) problem with contextual information. In this setting, we consider an adaptive experiment given multiple treatment arms. At each round, a decision-maker observes a context (covariate) that characterizes an experimental unit and assigns the unit to one of the treatment arms. At the end of the experiment, the decision-maker recommends a treatment arm estimated to yield the highest expected outcome conditioned on a context (best treatment arm). The effectiveness of this decision is measured in terms of the worst-case expected simple regret (policy regret), which represents the largest difference between the conditional expected outcomes of the best and recommended treatment arms given a context. Our initial step is to derive asymptotic lower bounds for the worst-case expected simple regret, which also implies ideal treatment assignment rules. Following the lower bounds, we propose the Adaptive Sampling (AS)-Policy Learning recommendation (PL) strategy. Under this strategy, we randomly assign a treatment arm with a ratio of a target assignment ratio at each round. At the end of the experiment, we train a policy, a function that recommends a treatment arm given a context, by maximizing the counterfactual empirical policy value. Our results show that the AS-PL strategy is asymptotically minimax optimal, with its leading factor of expected simple regret converging with our established worst-case lower bound. This research has broad implications in various domains, and in light of existing literature, our method can be perceived as an adaptive experimental design tailored for policy learning, on-policy learning, or adaptive welfare maximization.
+Evidence-based targeting has been a topic of growing interest among the practitioners of policy and business. Formulating decision-maker's policy learning as a fixed-budget best arm identification (BAI) problem with contextual information, we study an optimal adaptive experimental design for policy learning with multiple treatment arms. In the sampling stage, the planner assigns treatment arms adaptively over sequentially arriving experimental units upon observing their contextual information (covariates). After the experiment, the planner recommends an individualized assignment rule to the population. Setting the worst-case expected regret as the performance criterion of adaptive sampling and recommended policies, we derive its asymptotic lower bounds, and propose a strategy, Adaptive Sampling-Policy Learning strategy (PLAS), whose leading factor of the regret upper bound aligns with the lower bound as the size of experimental units increases.
 
 {{</citation>}}
 
@@ -1048,7 +1048,7 @@ Tong Wu, Guandao Yang, Zhibing Li, Kai Zhang, Ziwei Liu, Leonidas Guibas, Dahua 
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: GPT, GPT-4  
-[Paper Link](http://arxiv.org/abs/2401.04092v1)  
+[Paper Link](http://arxiv.org/abs/2401.04092v2)  
 
 ---
 
@@ -1268,7 +1268,7 @@ Chenhongyi Yang, Tianwei Lin, Lichao Huang, Elliot J. Crowley. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2401.03836v2)  
+[Paper Link](http://arxiv.org/abs/2401.03836v3)  
 
 ---
 
@@ -1782,7 +1782,7 @@ Fangjun Li, David C. Hogg, Anthony G. Cohn. (2024)
 
 ---
 Primary Category: cs.AI  
-Categories: cs-AI, cs-CL, cs-LO, cs.AI  
+Categories: cs-AI, cs-CL, cs-DB, cs-LO, cs.AI  
 Keywords: AI, ChatGPT, GPT, Language Model, Reasoning  
 [Paper Link](http://arxiv.org/abs/2401.03991v1)  
 

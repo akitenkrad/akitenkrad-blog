@@ -322,13 +322,13 @@ Ding Chen, Shichao Song, Qingchen Yu, Zhiyu Li, Wenjin Wang, Feiyu Xiong, Bo Tan
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2401.03385v1)  
+[Paper Link](http://arxiv.org/abs/2401.03385v2)  
 
 ---
 
 
 **ABSTRACT**  
-In-context learning (ICL) is one of the key methods for enhancing the performance of large language models on specific tasks by providing a set of few-shot question and answer examples. However, the ICL capability of different types of models shows significant variation due to factors such as model architecture, volume of learning data, and the size of parameters. Generally, the larger the model's parameter size and the more extensive the learning data, the stronger its ICL capability. In this paper, we propose a method SLEICL (Strong LLM Enhanced ICL) that involves learning from examples using strong language models and then summarizing and transferring these learned skills to weak language models for inference and application. This ensures the stability and effectiveness of ICL. Compared to directly enabling weak language models to learn from prompt examples, SLEICL reduces the difficulty of ICL for these models. Our experiments, conducted on up to eight datasets with five language models, demonstrate that weak language models achieve consistent improvement over their own zero-shot or few-shot capabilities using the SLEICL method. Some weak language models even surpass the performance of GPT4-1106-preview (zero-shot) with the aid of SLEICL.
+In-context Learning (ICL) is one of the key methods for enhancing the performance of large language models on specific tasks by providing a set of few-shot examples. However, the ICL capability of different types of models shows significant variation due to factors such as model architecture, volume of learning data, and the size of parameters. Generally, the larger the model's parameter size and the more extensive the learning data, the stronger its ICL capability. In this paper, we propose a method SLEICL that involves learning from examples using strong language models and then summarizing and transferring these learned skills to weak language models for inference and application. This ensures the stability and effectiveness of ICL. Compared to directly enabling weak language models to learn from prompt examples, SLEICL reduces the difficulty of ICL for these models. Our experiments, conducted on up to eight datasets with five language models, demonstrate that weak language models achieve consistent improvement over their own zero-shot or few-shot capabilities using the SLEICL method. Some weak language models even surpass the performance of GPT4-1106-preview (zero-shot) with the aid of SLEICL.
 
 {{</citation>}}
 
@@ -1202,13 +1202,13 @@ Zheng Lian, Licai Sun, Yong Ren, Hao Gu, Haiyang Sun, Lan Chen, Bin Liu, Jianhua
 Primary Category: cs.HC  
 Categories: cs-HC, cs.HC  
 Keywords: Emotion Recognition  
-[Paper Link](http://arxiv.org/abs/2401.03429v1)  
+[Paper Link](http://arxiv.org/abs/2401.03429v2)  
 
 ---
 
 
 **ABSTRACT**  
-Multimodal emotion recognition plays a crucial role in enhancing user experience in human-computer interaction. Over the past few decades, researchers have proposed a series of algorithms and achieved impressive progress. Although each method shows its superior performance, different methods lack a fair comparison due to inconsistencies in feature extractors, evaluation manners, and experimental settings. These inconsistencies severely hinder the development of this field. Therefore, we build MERBench, a unified evaluation benchmark for multimodal emotion recognition. We aim to reveal the contribution of some important techniques employed in previous works, such as feature selection, multimodal fusion, robustness analysis, fine-tuning, pre-training, etc. We hope this benchmark can provide clear and comprehensive guidance for follow-up researchers. Based on the evaluation results of MERBench, we further point out some promising research directions. Additionally, we introduce a new emotion dataset MER2023, focusing on the Chinese language environment. This dataset can serve as a benchmark dataset for research on multi-label learning, noise robustness, and semi-supervised learning. We will open-source the code and encourage researchers to evaluate their algorithms under the same experimental setup as MERBench for fair comparisons.
+Multimodal emotion recognition plays a crucial role in enhancing user experience in human-computer interaction. Over the past few decades, researchers have proposed a series of algorithms and achieved impressive progress. Although each method shows its superior performance, different methods lack a fair comparison due to inconsistencies in feature extractors, evaluation manners, and experimental settings. These inconsistencies severely hinder the development of this field. Therefore, we build MERBench, a unified evaluation benchmark for multimodal emotion recognition. We aim to reveal the contribution of some important techniques employed in previous works, such as feature selection, multimodal fusion, robustness analysis, fine-tuning, pre-training, etc. We hope this benchmark can provide clear and comprehensive guidance for follow-up researchers. Based on the evaluation results of MERBench, we further point out some promising research directions. Additionally, we introduce a new emotion dataset MER2023, focusing on the Chinese language environment. This dataset can serve as a benchmark dataset for research on multi-label learning, noise robustness, and semi-supervised learning. We encourage the follow-up researchers to evaluate their algorithms under the same experimental setup as MERBench for fair comparisons. Our code is available at: https://github.com/zeroQiaoba/MERTools.
 
 {{</citation>}}
 

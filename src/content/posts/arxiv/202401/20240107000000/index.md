@@ -165,7 +165,7 @@ Zhitao Wang, Wei Wang, Zirao Li, Long Wang, Can Yi, Xinjie Xu, Luyang Cao, Hanji
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2401.02705v1)  
+[Paper Link](http://arxiv.org/abs/2401.02705v2)  
 
 ---
 
@@ -367,7 +367,7 @@ Kaixuan Chen, Wei Luo, Shunyu Liu, Yaoquan Wei, Yihe Zhou, Yunpeng Qing, Quan Zh
 Primary Category: cs.LG  
 Categories: cs-LG, cs-SY, cs.LG, eess-SY  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2401.02771v1)  
+[Paper Link](http://arxiv.org/abs/2401.02771v2)  
 
 ---
 

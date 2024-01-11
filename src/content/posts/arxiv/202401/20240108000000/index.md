@@ -207,13 +207,13 @@ Zilin Huang, Zihao Sheng, Chengyuan Ma, Sikai Chen. (2024)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs-RO, cs.LG  
 Keywords: AI, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2401.03160v1)  
+[Paper Link](http://arxiv.org/abs/2401.03160v2)  
 
 ---
 
 
 **ABSTRACT**  
-Despite significant progress in autonomous vehicles (AVs), the development of driving policies that ensure both the safety of AVs and traffic flow efficiency has not yet been fully explored. In this paper, we propose an enhanced human-in-the-loop reinforcement learning method, termed the Human as AI mentor-based deep reinforcement learning (HAIM-DRL) framework, which facilitates safe and efficient autonomous driving in mixed traffic platoon. Drawing inspiration from the human learning process, we first introduce an innovative learning paradigm that effectively injects human intelligence into AI, termed Human as AI mentor (HAIM). In this paradigm, the human expert serves as a mentor to the AI agent. While allowing the agent to sufficiently explore uncertain environments, the human expert can take control in dangerous situations and demonstrate correct actions to avoid potential accidents. On the other hand, the agent could be guided to minimize traffic flow disturbance, thereby optimizing traffic flow efficiency. In detail, HAIM-DRL leverages data collected from free exploration and partial human demonstrations as its two training sources. Remarkably, we circumvent the intricate process of manually designing reward functions; instead, we directly derive proxy state-action values from partial human demonstrations to guide the agents' policy learning. Additionally, we employ a minimal intervention technique to reduce the human mentor's cognitive load. Comparative results show that HAIM-DRL outperforms traditional methods in driving safety, sampling efficiency, mitigation of traffic flow disturbance, and generalizability to unseen traffic scenarios. The code and demo videos for this paper can be accessed at: https://zilin-huang.github.io/HAIM-DRL-website/}{https://zilin-huang.github.io/HAIM-DRL-website/.
+Despite significant progress in autonomous vehicles (AVs), the development of driving policies that ensure both the safety of AVs and traffic flow efficiency has not yet been fully explored. In this paper, we propose an enhanced human-in-the-loop reinforcement learning method, termed the Human as AI mentor-based deep reinforcement learning (HAIM-DRL) framework, which facilitates safe and efficient autonomous driving in mixed traffic platoon. Drawing inspiration from the human learning process, we first introduce an innovative learning paradigm that effectively injects human intelligence into AI, termed Human as AI mentor (HAIM). In this paradigm, the human expert serves as a mentor to the AI agent. While allowing the agent to sufficiently explore uncertain environments, the human expert can take control in dangerous situations and demonstrate correct actions to avoid potential accidents. On the other hand, the agent could be guided to minimize traffic flow disturbance, thereby optimizing traffic flow efficiency. In detail, HAIM-DRL leverages data collected from free exploration and partial human demonstrations as its two training sources. Remarkably, we circumvent the intricate process of manually designing reward functions; instead, we directly derive proxy state-action values from partial human demonstrations to guide the agents' policy learning. Additionally, we employ a minimal intervention technique to reduce the human mentor's cognitive load. Comparative results show that HAIM-DRL outperforms traditional methods in driving safety, sampling efficiency, mitigation of traffic flow disturbance, and generalizability to unseen traffic scenarios. The code and demo videos for this paper can be accessed at: https://zilin-huang.github.io/HAIM-DRL-website/
 
 {{</citation>}}
 
@@ -350,18 +350,18 @@ Neural growth is the process of growing a small neural network to a large networ
 {{</citation>}}
 
 
-### (15/53) Unsupervised Test-Time Adaptation via Plug-and-Play Transformer Modules (Xiangyu Chang et al., 2024)
+### (15/53) Plug-and-Play Transformer Modules for Test-Time Adaptation (Xiangyu Chang et al., 2024)
 
 {{<citation>}}
 
-Xiangyu Chang, Sk Miraj Ahmed, Basak Guler, Srikanth V. Krishnamurthy, Ananthram Swami, Samet Oymak, Amit K. Roy-Chowdhury. (2024)  
-**Unsupervised Test-Time Adaptation via Plug-and-Play Transformer Modules**  
+Xiangyu Chang, Sk Miraj Ahmed, Srikanth V. Krishnamurthy, Basak Guler, Ananthram Swami, Samet Oymak, Amit K. Roy-Chowdhury. (2024)  
+**Plug-and-Play Transformer Modules for Test-Time Adaptation**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2401.04130v1)  
+[Paper Link](http://arxiv.org/abs/2401.04130v2)  
 
 ---
 
@@ -1157,7 +1157,7 @@ Justus Renkhoff, Ke Feng, Marc Meier-Doernberg, Alvaro Velasquez, Houbing Herber
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2401.03188v1)  
+[Paper Link](http://arxiv.org/abs/2401.03188v2)  
 
 ---
 
