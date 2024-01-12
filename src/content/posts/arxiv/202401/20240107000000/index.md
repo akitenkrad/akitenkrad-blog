@@ -1175,7 +1175,7 @@ Anatoliy Kremenchutskiy, Galymzhan Gabdreshov. (2024)
 Primary Category: cs.HC  
 Categories: cs-AI, cs-HC, cs.HC  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2401.04126v1)  
+[Paper Link](http://arxiv.org/abs/2401.04126v2)  
 
 ---
 

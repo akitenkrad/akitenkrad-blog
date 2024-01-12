@@ -21,8 +21,8 @@ math: true
 
 ## Primary Categories
 
-- [cs.LG (15)](#cslg-15)
-- [cs.CL (9)](#cscl-9)
+- [cs.LG (16)](#cslg-16)
+- [cs.CL (10)](#cscl-10)
 - [cs.CR (2)](#cscr-2)
 - [cs.CV (10)](#cscv-10)
 - [cs.NI (1)](#csni-1)
@@ -37,12 +37,13 @@ math: true
 - [cs.IR (1)](#csir-1)
 - [cs.SE (1)](#csse-1)
 - [cs.CY (1)](#cscy-1)
+- [eess.SP (1)](#eesssp-1)
 
-## cs.LG (15)
+## cs.LG (16)
 
 
 
-### (1/53) Attention and Autoencoder Hybrid Model for Unsupervised Online Anomaly Detection (Seyed Amirhossein Najafi et al., 2024)
+### (1/56) Attention and Autoencoder Hybrid Model for Unsupervised Online Anomaly Detection (Seyed Amirhossein Najafi et al., 2024)
 
 {{<citation>}}
 
@@ -64,7 +65,7 @@ This paper introduces a hybrid attention and autoencoder (AE) model for unsuperv
 {{</citation>}}
 
 
-### (2/53) On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling, and Beyond (Thanh Nguyen-Tang et al., 2024)
+### (2/56) On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling, and Beyond (Thanh Nguyen-Tang et al., 2024)
 
 {{<citation>}}
 
@@ -86,7 +87,7 @@ We seek to understand what facilitates sample-efficient learning from historical
 {{</citation>}}
 
 
-### (3/53) FedTGP: Trainable Global Prototypes with Adaptive-Margin-Enhanced Contrastive Learning for Data and Model Heterogeneity in Federated Learning (Jianqing Zhang et al., 2024)
+### (3/56) FedTGP: Trainable Global Prototypes with Adaptive-Margin-Enhanced Contrastive Learning for Data and Model Heterogeneity in Federated Learning (Jianqing Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -108,7 +109,7 @@ Recently, Heterogeneous Federated Learning (HtFL) has attracted attention due to
 {{</citation>}}
 
 
-### (4/53) End-to-End Anti-Backdoor Learning on Images and Time Series (Yujing Jiang et al., 2024)
+### (4/56) End-to-End Anti-Backdoor Learning on Images and Time Series (Yujing Jiang et al., 2024)
 
 {{<citation>}}
 
@@ -130,7 +131,7 @@ Backdoor attacks present a substantial security concern for deep learning models
 {{</citation>}}
 
 
-### (5/53) Understanding Representation Learnability of Nonlinear Self-Supervised Learning (Ruofeng Yang et al., 2024)
+### (5/56) Understanding Representation Learnability of Nonlinear Self-Supervised Learning (Ruofeng Yang et al., 2024)
 
 {{<citation>}}
 
@@ -152,7 +153,7 @@ Self-supervised learning (SSL) has empirically shown its data representation lea
 {{</citation>}}
 
 
-### (6/53) Exploration of Adolescent Depression Risk Prediction Based on Census Surveys and General Life Issues (Qiang Li et al., 2024)
+### (6/56) Exploration of Adolescent Depression Risk Prediction Based on Census Surveys and General Life Issues (Qiang Li et al., 2024)
 
 {{<citation>}}
 
@@ -174,7 +175,7 @@ In contemporary society, the escalating pressures of life and work have propelle
 {{</citation>}}
 
 
-### (7/53) An Empirical Investigation of Value-Based Multi-objective Reinforcement Learning for Stochastic Environments (Kewen Ding et al., 2024)
+### (7/56) An Empirical Investigation of Value-Based Multi-objective Reinforcement Learning for Stochastic Environments (Kewen Ding et al., 2024)
 
 {{<citation>}}
 
@@ -196,7 +197,7 @@ One common approach to solve multi-objective reinforcement learning (MORL) probl
 {{</citation>}}
 
 
-### (8/53) Human as AI Mentor: Enhanced Human-in-the-loop Reinforcement Learning for Safe and Efficient Autonomous Driving (Zilin Huang et al., 2024)
+### (8/56) Human as AI Mentor: Enhanced Human-in-the-loop Reinforcement Learning for Safe and Efficient Autonomous Driving (Zilin Huang et al., 2024)
 
 {{<citation>}}
 
@@ -218,7 +219,7 @@ Despite significant progress in autonomous vehicles (AVs), the development of dr
 {{</citation>}}
 
 
-### (9/53) Data-Dependent Stability Analysis of Adversarial Training (Yihan Wang et al., 2024)
+### (9/56) Data-Dependent Stability Analysis of Adversarial Training (Yihan Wang et al., 2024)
 
 {{<citation>}}
 
@@ -240,7 +241,7 @@ Stability analysis is an essential aspect of studying the generalization ability
 {{</citation>}}
 
 
-### (10/53) SPQR: Controlling Q-ensemble Independence with Spiked Random Model for Reinforcement Learning (Dohyeok Lee et al., 2024)
+### (10/56) SPQR: Controlling Q-ensemble Independence with Spiked Random Model for Reinforcement Learning (Dohyeok Lee et al., 2024)
 
 {{<citation>}}
 
@@ -262,7 +263,7 @@ Alleviating overestimation bias is a critical challenge for deep reinforcement l
 {{</citation>}}
 
 
-### (11/53) TimeGraphs: Graph-based Temporal Reasoning (Paridhi Maheshwari et al., 2024)
+### (11/56) TimeGraphs: Graph-based Temporal Reasoning (Paridhi Maheshwari et al., 2024)
 
 {{<citation>}}
 
@@ -284,7 +285,7 @@ Many real-world systems exhibit temporal, dynamic behaviors, which are captured 
 {{</citation>}}
 
 
-### (12/53) A Physics-guided Generative AI Toolkit for Geophysical Monitoring (Junhuan Yang et al., 2024)
+### (12/56) A Physics-guided Generative AI Toolkit for Geophysical Monitoring (Junhuan Yang et al., 2024)
 
 {{<citation>}}
 
@@ -306,7 +307,29 @@ Full-waveform inversion (FWI) plays a vital role in geoscience to explore the su
 {{</citation>}}
 
 
-### (13/53) GLISP: A Scalable GNN Learning System by Exploiting Inherent Structural Properties of Graphs (Zhongshu Zhu et al., 2024)
+### (13/56) TEN-GUARD: Tensor Decomposition for Backdoor Attack Detection in Deep Neural Networks (Khondoker Murad Hossain et al., 2024)
+
+{{<citation>}}
+
+Khondoker Murad Hossain, Tim Oates. (2024)  
+**TEN-GUARD: Tensor Decomposition for Backdoor Attack Detection in Deep Neural Networks**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CR, cs-LG, cs.LG  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2401.05432v1)  
+
+---
+
+
+**ABSTRACT**  
+As deep neural networks and the datasets used to train them get larger, the default approach to integrating them into research and commercial projects is to download a pre-trained model and fine tune it. But these models can have uncertain provenance, opening up the possibility that they embed hidden malicious behavior such as trojans or backdoors, where small changes to an input (triggers) can cause the model to produce incorrect outputs (e.g., to misclassify). This paper introduces a novel approach to backdoor detection that uses two tensor decomposition methods applied to network activations. This has a number of advantages relative to existing detection methods, including the ability to analyze multiple models at the same time, working across a wide variety of network architectures, making no assumptions about the nature of triggers used to alter network behavior, and being computationally efficient. We provide a detailed description of the detection pipeline along with results on models trained on the MNIST digit dataset, CIFAR-10 dataset, and two difficult datasets from NIST's TrojAI competition. These results show that our method detects backdoored networks more accurately and efficiently than current state-of-the-art methods.
+
+{{</citation>}}
+
+
+### (14/56) GLISP: A Scalable GNN Learning System by Exploiting Inherent Structural Properties of Graphs (Zhongshu Zhu et al., 2024)
 
 {{<citation>}}
 
@@ -328,7 +351,7 @@ As a powerful tool for modeling graph data, Graph Neural Networks (GNNs) have re
 {{</citation>}}
 
 
-### (14/53) When To Grow? A Fitting Risk-Aware Policy for Layer Growing in Deep Neural Networks (Haihang Wu et al., 2024)
+### (15/56) When To Grow? A Fitting Risk-Aware Policy for Layer Growing in Deep Neural Networks (Haihang Wu et al., 2024)
 
 {{<citation>}}
 
@@ -350,7 +373,7 @@ Neural growth is the process of growing a small neural network to a large networ
 {{</citation>}}
 
 
-### (15/53) Plug-and-Play Transformer Modules for Test-Time Adaptation (Xiangyu Chang et al., 2024)
+### (16/56) Plug-and-Play Transformer Modules for Test-Time Adaptation (Xiangyu Chang et al., 2024)
 
 {{<citation>}}
 
@@ -372,11 +395,11 @@ Parameter-efficient tuning (PET) methods such as LoRA, Adapter, and Visual Promp
 {{</citation>}}
 
 
-## cs.CL (9)
+## cs.CL (10)
 
 
 
-### (16/53) PIXAR: Auto-Regressive Language Modeling in Pixel Space (Yintao Tai et al., 2024)
+### (17/56) PIXAR: Auto-Regressive Language Modeling in Pixel Space (Yintao Tai et al., 2024)
 
 {{<citation>}}
 
@@ -398,7 +421,7 @@ Recent works showed the possibility of building open-vocabulary large language m
 {{</citation>}}
 
 
-### (17/53) Reflections on Inductive Thematic Saturation as a potential metric for measuring the validity of an inductive Thematic Analysis with LLMs (Stefano De Paoli et al., 2024)
+### (18/56) Reflections on Inductive Thematic Saturation as a potential metric for measuring the validity of an inductive Thematic Analysis with LLMs (Stefano De Paoli et al., 2024)
 
 {{<citation>}}
 
@@ -420,7 +443,7 @@ This paper presents a set of reflections on saturation and the use of Large Lang
 {{</citation>}}
 
 
-### (18/53) The Dawn After the Dark: An Empirical Study on Factuality Hallucination in Large Language Models (Junyi Li et al., 2024)
+### (19/56) The Dawn After the Dark: An Empirical Study on Factuality Hallucination in Large Language Models (Junyi Li et al., 2024)
 
 {{<citation>}}
 
@@ -442,7 +465,7 @@ In the era of large language models (LLMs), hallucination (i.e., the tendency to
 {{</citation>}}
 
 
-### (19/53) MPN: Leveraging Multilingual Patch Neuron for Cross-lingual Model Editing (Nianwen Si et al., 2024)
+### (20/56) MPN: Leveraging Multilingual Patch Neuron for Cross-lingual Model Editing (Nianwen Si et al., 2024)
 
 {{<citation>}}
 
@@ -464,7 +487,7 @@ Large language models are known for encoding a vast amount of factual knowledge,
 {{</citation>}}
 
 
-### (20/53) δ-CAUSAL: Exploring Defeasibility in Causal Reasoning (Shaobo Cui et al., 2024)
+### (21/56) δ-CAUSAL: Exploring Defeasibility in Causal Reasoning (Shaobo Cui et al., 2024)
 
 {{<citation>}}
 
@@ -486,7 +509,7 @@ Defeasibility in causal reasoning implies that the causal relationship between c
 {{</citation>}}
 
 
-### (21/53) A Joint-Reasoning based Disease Q&A System (Prakash Chandra Sukhwal et al., 2024)
+### (22/56) A Joint-Reasoning based Disease Q&A System (Prakash Chandra Sukhwal et al., 2024)
 
 {{<citation>}}
 
@@ -508,7 +531,7 @@ Medical question answer (QA) assistants respond to lay users' health-related que
 {{</citation>}}
 
 
-### (22/53) Part-of-Speech Tagger for Bodo Language using Deep Learning approach (Dhrubajyoti Pathak et al., 2024)
+### (23/56) Part-of-Speech Tagger for Bodo Language using Deep Learning approach (Dhrubajyoti Pathak et al., 2024)
 
 {{<citation>}}
 
@@ -530,7 +553,7 @@ Language Processing systems such as Part-of-speech tagging, Named entity recogni
 {{</citation>}}
 
 
-### (23/53) Quartet Logic: A Four-Step Reasoning (QLFR) framework for advancing Short Text Classification (Hui Wu et al., 2024)
+### (24/56) Quartet Logic: A Four-Step Reasoning (QLFR) framework for advancing Short Text Classification (Hui Wu et al., 2024)
 
 {{<citation>}}
 
@@ -552,7 +575,29 @@ Short Text Classification (STC) is crucial for processing and comprehending the 
 {{</citation>}}
 
 
-### (24/53) Examining Forgetting in Continual Pre-training of Aligned Large Language Models (Chen-An Li et al., 2024)
+### (25/56) Enhancing Essay Scoring with Adversarial Weights Perturbation and Metric-specific AttentionPooling (Jiaxin Huang et al., 2024)
+
+{{<citation>}}
+
+Jiaxin Huang, Xinyu Zhao, Chang Che, Qunwei Lin, Bo Liu. (2024)  
+**Enhancing Essay Scoring with Adversarial Weights Perturbation and Metric-specific AttentionPooling**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keywords: Attention, BERT  
+[Paper Link](http://arxiv.org/abs/2401.05433v1)  
+
+---
+
+
+**ABSTRACT**  
+The objective of this study is to improve automated feedback tools designed for English Language Learners (ELLs) through the utilization of data science techniques encompassing machine learning, natural language processing, and educational data analytics. Automated essay scoring (AES) research has made strides in evaluating written essays, but it often overlooks the specific needs of English Language Learners (ELLs) in language development. This study explores the application of BERT-related techniques to enhance the assessment of ELLs' writing proficiency within AES.   To address the specific needs of ELLs, we propose the use of DeBERTa, a state-of-the-art neural language model, for improving automated feedback tools. DeBERTa, pretrained on large text corpora using self-supervised learning, learns universal language representations adaptable to various natural language understanding tasks. The model incorporates several innovative techniques, including adversarial training through Adversarial Weights Perturbation (AWP) and Metric-specific AttentionPooling (6 kinds of AP) for each label in the competition.   The primary focus of this research is to investigate the impact of hyperparameters, particularly the adversarial learning rate, on the performance of the model. By fine-tuning the hyperparameter tuning process, including the influence of 6AP and AWP, the resulting models can provide more accurate evaluations of language proficiency and support tailored learning tasks for ELLs. This work has the potential to significantly benefit ELLs by improving their English language proficiency and facilitating their educational journey.
+
+{{</citation>}}
+
+
+### (26/56) Examining Forgetting in Continual Pre-training of Aligned Large Language Models (Chen-An Li et al., 2024)
 
 {{<citation>}}
 
@@ -578,7 +623,7 @@ Recent advances in Large Language Models (LLMs) have exhibited remarkable profic
 
 
 
-### (25/53) Malla: Demystifying Real-world Large Language Model Integrated Malicious Services (Zilong Lin et al., 2024)
+### (27/56) Malla: Demystifying Real-world Large Language Model Integrated Malicious Services (Zilong Lin et al., 2024)
 
 {{<citation>}}
 
@@ -600,7 +645,7 @@ The underground exploitation of large language models (LLMs) for malicious servi
 {{</citation>}}
 
 
-### (26/53) SecureReg: A Combined Framework for Proactively Exposing Malicious Domain Name Registrations (Furkan Çolhak et al., 2024)
+### (28/56) SecureReg: A Combined Framework for Proactively Exposing Malicious Domain Name Registrations (Furkan Çolhak et al., 2024)
 
 {{<citation>}}
 
@@ -626,7 +671,7 @@ Rising cyber threats, with miscreants registering thousands of new domains daily
 
 
 
-### (27/53) Exploiting Data Hierarchy as a New Modality for Contrastive Learning (Arjun Bhalla et al., 2024)
+### (29/56) Exploiting Data Hierarchy as a New Modality for Contrastive Learning (Arjun Bhalla et al., 2024)
 
 {{<citation>}}
 
@@ -648,7 +693,7 @@ This work investigates how hierarchically structured data can help neural networ
 {{</citation>}}
 
 
-### (28/53) Large Language Models as Visual Cross-Domain Learners (Shuhao Chen et al., 2024)
+### (30/56) Large Language Models as Visual Cross-Domain Learners (Shuhao Chen et al., 2024)
 
 {{<citation>}}
 
@@ -670,7 +715,7 @@ Recent advances achieved by deep learning models rely on the independent and ide
 {{</citation>}}
 
 
-### (29/53) 3DMIT: 3D Multi-modal Instruction Tuning for Scene Understanding (Zeju Li et al., 2024)
+### (31/56) 3DMIT: 3D Multi-modal Instruction Tuning for Scene Understanding (Zeju Li et al., 2024)
 
 {{<citation>}}
 
@@ -692,7 +737,7 @@ The remarkable potential of multi-modal large language models (MLLMs) in compreh
 {{</citation>}}
 
 
-### (30/53) Distribution-aware Interactive Attention Network and Large-scale Cloud Recognition Benchmark on FY-4A Satellite Image (Jiaqing Zhang et al., 2024)
+### (32/56) Distribution-aware Interactive Attention Network and Large-scale Cloud Recognition Benchmark on FY-4A Satellite Image (Jiaqing Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -714,7 +759,7 @@ Accurate cloud recognition and warning are crucial for various applications, inc
 {{</citation>}}
 
 
-### (31/53) Multimodal Informative ViT: Information Aggregation and Distribution for Hyperspectral and LiDAR Classification (Jiaqing Zhang et al., 2024)
+### (33/56) Multimodal Informative ViT: Information Aggregation and Distribution for Hyperspectral and LiDAR Classification (Jiaqing Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -736,7 +781,7 @@ In multimodal land cover classification (MLCC), a common challenge is the redund
 {{</citation>}}
 
 
-### (32/53) PosDiffNet: Positional Neural Diffusion for Point Cloud Registration in a Large Field of View with Perturbations (Rui She et al., 2024)
+### (34/56) PosDiffNet: Positional Neural Diffusion for Point Cloud Registration in a Large Field of View with Perturbations (Rui She et al., 2024)
 
 {{<citation>}}
 
@@ -758,7 +803,7 @@ Point cloud registration is a crucial technique in 3D computer vision with a wid
 {{</citation>}}
 
 
-### (33/53) Controllable Image Synthesis of Industrial Data Using Stable Diffusion (Gabriele Valvano et al., 2024)
+### (35/56) Controllable Image Synthesis of Industrial Data Using Stable Diffusion (Gabriele Valvano et al., 2024)
 
 {{<citation>}}
 
@@ -780,7 +825,7 @@ Training supervised deep neural networks that perform defect detection and segme
 {{</citation>}}
 
 
-### (34/53) Self-supervised Feature Adaptation for 3D Industrial Anomaly Detection (Yuanpeng Tu et al., 2024)
+### (36/56) Self-supervised Feature Adaptation for 3D Industrial Anomaly Detection (Yuanpeng Tu et al., 2024)
 
 {{<citation>}}
 
@@ -802,7 +847,7 @@ Industrial anomaly detection is generally addressed as an unsupervised task that
 {{</citation>}}
 
 
-### (35/53) Dress-Me-Up: A Dataset & Method for Self-Supervised 3D Garment Retargeting (Shanthika Naik et al., 2024)
+### (37/56) Dress-Me-Up: A Dataset & Method for Self-Supervised 3D Garment Retargeting (Shanthika Naik et al., 2024)
 
 {{<citation>}}
 
@@ -824,7 +869,7 @@ We propose a novel self-supervised framework for retargeting non-parameterized 3
 {{</citation>}}
 
 
-### (36/53) Incorporating Visual Experts to Resolve the Information Loss in Multimodal Large Language Models (Xin He et al., 2024)
+### (38/56) Incorporating Visual Experts to Resolve the Information Loss in Multimodal Large Language Models (Xin He et al., 2024)
 
 {{<citation>}}
 
@@ -850,7 +895,7 @@ Multimodal Large Language Models (MLLMs) are experiencing rapid growth, yielding
 
 
 
-### (37/53) CAVIAR: Co-simulation of 6G Communications, 3D Scenarios and AI for Digital Twins (João Borges et al., 2024)
+### (39/56) CAVIAR: Co-simulation of 6G Communications, 3D Scenarios and AI for Digital Twins (João Borges et al., 2024)
 
 {{<citation>}}
 
@@ -876,7 +921,7 @@ Digital twins are an important technology for advancing mobile communications, s
 
 
 
-### (38/53) Realism in Action: Anomaly-Aware Diagnosis of Brain Tumors from Medical Images Using YOLOv8 and DeiT (Seyed Mohammad Hossein Hashemi et al., 2024)
+### (40/56) Realism in Action: Anomaly-Aware Diagnosis of Brain Tumors from Medical Images Using YOLOv8 and DeiT (Seyed Mohammad Hossein Hashemi et al., 2024)
 
 {{<citation>}}
 
@@ -887,7 +932,7 @@ Seyed Mohammad Hossein Hashemi, Leila Safari, Amirhossein Dadashzade Taromi. (20
 Primary Category: eess.IV  
 Categories: cs-AI, cs-CV, cs-LG, eess-IV, eess.IV, stat-ML  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2401.03302v1)  
+[Paper Link](http://arxiv.org/abs/2401.03302v2)  
 
 ---
 
@@ -898,7 +943,7 @@ In the field of medical sciences, reliable detection and classification of brain
 {{</citation>}}
 
 
-### (39/53) Vision Transformers and Bi-LSTM for Alzheimer's Disease Diagnosis from 3D MRI (Taymaz Akan et al., 2024)
+### (41/56) Vision Transformers and Bi-LSTM for Alzheimer's Disease Diagnosis from 3D MRI (Taymaz Akan et al., 2024)
 
 {{<citation>}}
 
@@ -924,7 +969,7 @@ Alzheimer's is a brain disease that gets worse over time and affects memory, thi
 
 
 
-### (40/53) TeLeS: Temporal Lexeme Similarity Score to Estimate Confidence in End-to-End ASR (Nagarathna Ravi et al., 2024)
+### (42/56) TeLeS: Temporal Lexeme Similarity Score to Estimate Confidence in End-to-End ASR (Nagarathna Ravi et al., 2024)
 
 {{<citation>}}
 
@@ -950,7 +995,7 @@ Confidence estimation of predictions from an End-to-End (E2E) Automatic Speech R
 
 
 
-### (41/53) Artificial Intelligence for Operations Research: Revolutionizing the Operations Research Process (Zhenan Fan et al., 2024)
+### (43/56) Artificial Intelligence for Operations Research: Revolutionizing the Operations Research Process (Zhenan Fan et al., 2024)
 
 {{<citation>}}
 
@@ -976,7 +1021,7 @@ The rapid advancement of artificial intelligence (AI) techniques has opened up n
 
 
 
-### (42/53) Using Large Language Models to Assess Tutors' Performance in Reacting to Students Making Math Errors (Sanjit Kakarla et al., 2024)
+### (44/56) Using Large Language Models to Assess Tutors' Performance in Reacting to Students Making Math Errors (Sanjit Kakarla et al., 2024)
 
 {{<citation>}}
 
@@ -998,7 +1043,7 @@ Research suggests that tutors should adopt a strategic approach when addressing 
 {{</citation>}}
 
 
-### (43/53) An intelligent sociotechnical systems (iSTS) framework: Toward a sociotechnically-based hierarchical human-centered AI approach (Wei Xu et al., 2024)
+### (45/56) An intelligent sociotechnical systems (iSTS) framework: Toward a sociotechnically-based hierarchical human-centered AI approach (Wei Xu et al., 2024)
 
 {{<citation>}}
 
@@ -1024,7 +1069,7 @@ Insights: - The human-centered AI (HCAI) approach and the sociotechnical systems
 
 
 
-### (44/53) RAID Organizations for Improved Reliability and Performance: A Not Entirely Unbiased Tutorial (1st revision) (Alexander Thomasian, 2024)
+### (46/56) RAID Organizations for Improved Reliability and Performance: A Not Entirely Unbiased Tutorial (1st revision) (Alexander Thomasian, 2024)
 
 {{<citation>}}
 
@@ -1050,7 +1095,7 @@ RAID proposal advocated replacing large disks with arrays of PC disks, but as th
 
 
 
-### (45/53) On 1-bend Upward Point-set Embeddings of $st$-digraphs (Emilio Di Giacomo et al., 2024)
+### (47/56) On 1-bend Upward Point-set Embeddings of $st$-digraphs (Emilio Di Giacomo et al., 2024)
 
 {{<citation>}}
 
@@ -1076,7 +1121,7 @@ We study the upward point-set embeddability of digraphs on one-sided convex poin
 
 
 
-### (46/53) Understanding Large-Language Model (LLM)-powered Human-Robot Interaction (Callie Y. Kim et al., 2024)
+### (48/56) Understanding Large-Language Model (LLM)-powered Human-Robot Interaction (Callie Y. Kim et al., 2024)
 
 {{<citation>}}
 
@@ -1098,7 +1143,7 @@ Large-language models (LLMs) hold significant promise in improving human-robot i
 {{</citation>}}
 
 
-### (47/53) Estimating the Lateral Motion States of an Underwater Robot by Propeller Wake Sensing Using an Artificial Lateral Line (Jun Wang et al., 2024)
+### (49/56) Estimating the Lateral Motion States of an Underwater Robot by Propeller Wake Sensing Using an Artificial Lateral Line (Jun Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1124,7 +1169,7 @@ An artificial lateral line (ALL) is a bioinspired flow sensing system of an unde
 
 
 
-### (48/53) Decision Making in Non-Stationary Environments with Policy-Augmented Search (Ava Pettet et al., 2024)
+### (50/56) Decision Making in Non-Stationary Environments with Policy-Augmented Search (Ava Pettet et al., 2024)
 
 {{<citation>}}
 
@@ -1146,7 +1191,7 @@ Sequential decision-making under uncertainty is present in many important proble
 {{</citation>}}
 
 
-### (49/53) A Survey on Verification and Validation, Testing and Evaluations of Neurosymbolic Artificial Intelligence (Justus Renkhoff et al., 2024)
+### (51/56) A Survey on Verification and Validation, Testing and Evaluations of Neurosymbolic Artificial Intelligence (Justus Renkhoff et al., 2024)
 
 {{<citation>}}
 
@@ -1168,7 +1213,7 @@ Neurosymbolic artificial intelligence (AI) is an emerging branch of AI that comb
 {{</citation>}}
 
 
-### (50/53) Manifold-based Shapley for SAR Recognization Network Explanation (Xuran Hu et al., 2024)
+### (52/56) Manifold-based Shapley for SAR Recognization Network Explanation (Xuran Hu et al., 2024)
 
 {{<citation>}}
 
@@ -1194,7 +1239,7 @@ Explainable artificial intelligence (XAI) holds immense significance in enhancin
 
 
 
-### (51/53) QoS-Aware Graph Contrastive Learning for Web Service Recommendation (Jeongwhan Choi et al., 2024)
+### (53/56) QoS-Aware Graph Contrastive Learning for Web Service Recommendation (Jeongwhan Choi et al., 2024)
 
 {{<citation>}}
 
@@ -1220,7 +1265,7 @@ With the rapid growth of cloud services driven by advancements in web service te
 
 
 
-### (52/53) Semi-supervised learning via DQN for log anomaly detection (Yingying He et al., 2024)
+### (54/56) Semi-supervised learning via DQN for log anomaly detection (Yingying He et al., 2024)
 
 {{<citation>}}
 
@@ -1246,7 +1291,7 @@ Log anomaly detection plays a critical role in ensuring the security and mainten
 
 
 
-### (53/53) Integrating Personalized Parsons Problems with Multi-Level Textual Explanations to Scaffold Code Writing (Xinying Hou et al., 2024)
+### (55/56) Integrating Personalized Parsons Problems with Multi-Level Textual Explanations to Scaffold Code Writing (Xinying Hou et al., 2024)
 
 {{<citation>}}
 
@@ -1256,13 +1301,39 @@ Xinying Hou, Barbara J. Ericson, Xu Wang. (2024)
 ---
 Primary Category: cs.CY  
 Categories: cs-CY, cs-HC, cs.CY  
-Keywords: ChatGPT, GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2401.03144v1)  
+Keywords: AI, ChatGPT, GPT  
+[Paper Link](http://arxiv.org/abs/2401.03144v2)  
 
 ---
 
 
 **ABSTRACT**  
-Novice programmers need to learn how to write basic code but often face difficulties when coding independently. To assist struggling students, we have recently implemented personalized Parsons problems as a pop-up scaffolding. Students found them to be more engaging and helpful for learning compared to simply receiving the correct answer, such as the response they might get from Large Language Model (LLM) tools like ChatGPT. However, a drawback of using Parsons problems as scaffolding is that students may be able to put the code blocks back in place without fully understanding the rationale of the correct solution. As a result, the learning benefits of such scaffolding are compromised. Our goal is to enhance the advantages of using personalized Parsons problems as scaffolding by improving their comprehension through code explanations. In this poster, we propose designs that incorporate multiple levels of textual explanations in the Parsons problems. This design will be used for future technical evaluation and classroom experiments. These experiments will explore the effectiveness of adding textual explanations to Parsons problems to improve instructional benefits.
+Novice programmers need to write basic code as part of the learning process, but they often face difficulties. To assist struggling students, we recently implemented personalized Parsons problems, which are code puzzles where students arrange blocks of code to solve them, as pop-up scaffolding. Students found them to be more engaging and preferred them for learning, instead of simply receiving the correct answer, such as the response they might get from generative AI tools like ChatGPT. However, a drawback of using Parsons problems as scaffolding is that students may be able to put the code blocks in the correct order without fully understanding the rationale of the correct solution. As a result, the learning benefits of scaffolding are compromised. Can we improve the understanding of personalized Parsons scaffolding by providing textual code explanations? In this poster, we propose a design that incorporates multiple levels of textual explanations for the Parsons problems. This design will be used for future technical evaluations and classroom experiments. These experiments will explore the effectiveness of adding textual explanations to Parsons problems to improve instructional benefits.
+
+{{</citation>}}
+
+
+## eess.SP (1)
+
+
+
+### (56/56) TRLS: A Time Series Representation Learning Framework via Spectrogram for Medical Signal Processing (Luyuan Xie et al., 2024)
+
+{{<citation>}}
+
+Luyuan Xie, Cong Li, Xin Zhang, Shengfang Zhai, Yuejian Fang, Qingni Shen, Zhonghai Wu. (2024)  
+**TRLS: A Time Series Representation Learning Framework via Spectrogram for Medical Signal Processing**  
+
+---
+Primary Category: eess.SP  
+Categories: cs-AI, cs-LG, eess-SP, eess.SP  
+Keywords: Representation Learning, Time Series  
+[Paper Link](http://arxiv.org/abs/2401.05431v1)  
+
+---
+
+
+**ABSTRACT**  
+Representation learning frameworks in unlabeled time series have been proposed for medical signal processing. Despite the numerous excellent progresses have been made in previous works, we observe the representation extracted for the time series still does not generalize well. In this paper, we present a Time series (medical signal) Representation Learning framework via Spectrogram (TRLS) to get more informative representations. We transform the input time-domain medical signals into spectrograms and design a time-frequency encoder named Time Frequency RNN (TFRNN) to capture more robust multi-scale representations from the augmented spectrograms. Our TRLS takes spectrogram as input with two types of different data augmentations and maximizes the similarity between positive ones, which effectively circumvents the problem of designing negative samples. Our evaluation of four real-world medical signal datasets focusing on medical signal classification shows that TRLS is superior to the existing frameworks.
 
 {{</citation>}}
