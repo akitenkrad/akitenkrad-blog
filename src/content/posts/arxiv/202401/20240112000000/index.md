@@ -21,18 +21,21 @@ math: true
 
 ## Primary Categories
 
-- [cs.LG (8)](#cslg-8)
-- [cs.CL (19)](#cscl-19)
+- [cs.LG (12)](#cslg-12)
+- [cs.CR (1)](#cscr-1)
+- [cs.CL (22)](#cscl-22)
+- [stat.ML (1)](#statml-1)
+- [cs.CV (24)](#cscv-24)
+- [cs.NI (2)](#csni-2)
+- [cs.SI (3)](#cssi-3)
+- [eess.IV (2)](#eessiv-2)
 - [cs.RO (4)](#csro-4)
+- [cs.HC (5)](#cshc-5)
 - [cs.CY (1)](#cscy-1)
-- [cs.CV (21)](#cscv-21)
 - [cs.CE (1)](#csce-1)
-- [cs.HC (2)](#cshc-2)
-- [eess.IV (1)](#eessiv-1)
 - [cs.SE (2)](#csse-2)
 - [cs.AI (1)](#csai-1)
 - [cs.SD (1)](#cssd-1)
-- [cs.NI (1)](#csni-1)
 - [cs.DC (1)](#csdc-1)
 - [cs.IR (2)](#csir-2)
 - [eess.SP (1)](#eesssp-1)
@@ -40,11 +43,77 @@ math: true
 - [astro-ph.SR (1)](#astro-phsr-1)
 - [cs.DL (1)](#csdl-1)
 
-## cs.LG (8)
+## cs.LG (12)
 
 
 
-### (1/69) Arrival Time Prediction for Autonomous Shuttle Services in the Real World: Evidence from Five Cities (Carolin Schmidt et al., 2024)
+### (1/89) An Augmented Surprise-guided Sequential Learning Framework for Predicting the Melt Pool Geometry (Ahmed Shoyeb Raihan et al., 2024)
+
+{{<citation>}}
+
+Ahmed Shoyeb Raihan, Hamed Khosravi, Tanveer Hossain Bhuiyan, Imtiaz Ahmed. (2024)  
+**An Augmented Surprise-guided Sequential Learning Framework for Predicting the Melt Pool Geometry**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG, stat-ML  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2401.05579v1)  
+
+---
+
+
+**ABSTRACT**  
+Metal Additive Manufacturing (MAM) has reshaped the manufacturing industry, offering benefits like intricate design, minimal waste, rapid prototyping, material versatility, and customized solutions. However, its full industry adoption faces hurdles, particularly in achieving consistent product quality. A crucial aspect for MAM's success is understanding the relationship between process parameters and melt pool characteristics. Integrating Artificial Intelligence (AI) into MAM is essential. Traditional machine learning (ML) methods, while effective, depend on large datasets to capture complex relationships, a significant challenge in MAM due to the extensive time and resources required for dataset creation. Our study introduces a novel surprise-guided sequential learning framework, SurpriseAF-BO, signaling a significant shift in MAM. This framework uses an iterative, adaptive learning process, modeling the dynamics between process parameters and melt pool characteristics with limited data, a key benefit in MAM's cyber manufacturing context. Compared to traditional ML models, our sequential learning method shows enhanced predictive accuracy for melt pool dimensions. Further improving our approach, we integrated a Conditional Tabular Generative Adversarial Network (CTGAN) into our framework, forming the CT-SurpriseAF-BO. This produces synthetic data resembling real experimental data, improving learning effectiveness. This enhancement boosts predictive precision without requiring additional physical experiments. Our study demonstrates the power of advanced data-driven techniques in cyber manufacturing and the substantial impact of sequential AI and ML, particularly in overcoming MAM's traditional challenges.
+
+{{</citation>}}
+
+
+### (2/89) Innate-Values-driven Reinforcement Learning for Cooperative Multi-Agent Systems (Qin Yang, 2024)
+
+{{<citation>}}
+
+Qin Yang. (2024)  
+**Innate-Values-driven Reinforcement Learning for Cooperative Multi-Agent Systems**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs-MA, cs-RO, cs.LG  
+Keywords: AI, Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2401.05572v1)  
+
+---
+
+
+**ABSTRACT**  
+Innate values describe agents' intrinsic motivations, which reflect their inherent interests and preferences to pursue goals and drive them to develop diverse skills satisfying their various needs. The essence of reinforcement learning (RL) is learning from interaction based on reward-driven (such as utilities) behaviors, much like natural agents. It is an excellent model to describe the innate-values-driven (IV) behaviors of AI agents. Especially in multi-agent systems (MAS), building the awareness of AI agents to balance the group utilities and system costs and satisfy group members' needs in their cooperation is a crucial problem for individuals learning to support their community and integrate human society in the long term. This paper proposes a hierarchical compound intrinsic value reinforcement learning model -- innate-values-driven reinforcement learning termed IVRL to describe the complex behaviors of multi-agent interaction in their cooperation. We implement the IVRL architecture in the StarCraft Multi-Agent Challenge (SMAC) environment and compare the cooperative performance within three characteristics of innate value agents (Coward, Neutral, and Reckless) through three benchmark multi-agent RL algorithms: QMIX, IQL, and QTRAN. The results demonstrate that by organizing individual various needs rationally, the group can achieve better performance with lower costs effectively.
+
+{{</citation>}}
+
+
+### (3/89) Correlated Quantization for Faster Nonconvex Distributed Optimization (Andrei Panferov et al., 2024)
+
+{{<citation>}}
+
+Andrei Panferov, Yury Demidovich, Ahmad Rammal, Peter Richtárik. (2024)  
+**Correlated Quantization for Faster Nonconvex Distributed Optimization**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-DC, cs-LG, cs.LG, math-OC  
+Keywords: Quantization  
+[Paper Link](http://arxiv.org/abs/2401.05518v1)  
+
+---
+
+
+**ABSTRACT**  
+Quantization (Alistarh et al., 2017) is an important (stochastic) compression technique that reduces the volume of transmitted bits during each communication round in distributed model training. Suresh et al. (2022) introduce correlated quantizers and show their advantages over independent counterparts by analyzing distributed SGD communication complexity. We analyze the forefront distributed non-convex optimization algorithm MARINA (Gorbunov et al., 2022) utilizing the proposed correlated quantizers and show that it outperforms the original MARINA and distributed SGD of Suresh et al. (2022) with regard to the communication complexity. We significantly refine the original analysis of MARINA without any additional assumptions using the weighted Hessian variance (Tyurin et al., 2022), and then we expand the theoretical framework of MARINA to accommodate a substantially broader range of potentially correlated and biased compressors, thus dilating the applicability of the method beyond the conventional independent unbiased compressor setup. Extensive experimental results corroborate our theoretical findings.
+
+{{</citation>}}
+
+
+### (4/89) Arrival Time Prediction for Autonomous Shuttle Services in the Real World: Evidence from Five Cities (Carolin Schmidt et al., 2024)
 
 {{<citation>}}
 
@@ -66,7 +135,7 @@ Urban mobility is on the cusp of transformation with the emergence of shared, co
 {{</citation>}}
 
 
-### (2/69) ReACT: Reinforcement Learning for Controller Parametrization using B-Spline Geometries (Thomas Rudolf et al., 2024)
+### (5/89) ReACT: Reinforcement Learning for Controller Parametrization using B-Spline Geometries (Thomas Rudolf et al., 2024)
 
 {{<citation>}}
 
@@ -88,7 +157,29 @@ Robust and performant controllers are essential for industrial applications. How
 {{</citation>}}
 
 
-### (3/69) Machine Learning to Promote Translational Research: Predicting Patent and Clinical Trial Inclusion in Dementia Research (Matilda Beinat et al., 2024)
+### (6/89) Machine Teaching for Building Modular AI Agents based on Zero-shot Learners (Karan Taneja et al., 2024)
+
+{{<citation>}}
+
+Karan Taneja, Ashok Goel. (2024)  
+**Machine Teaching for Building Modular AI Agents based on Zero-shot Learners**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2401.05467v1)  
+
+---
+
+
+**ABSTRACT**  
+The recent advances in large language models (LLMs) have led to the creation of many modular AI agents. These agents employ LLMs as zero-shot learners to perform sub-tasks in order to solve complex tasks set forth by human users. We propose an approach to enhance the robustness and performance of modular AI agents that utilize LLMs as zero-shot learners. Our iterative machine teaching method offers an efficient way to teach AI agents over time with limited human feedback, addressing the limit posed by the quality of zero-shot learning. We advocate leveraging the data traces from initial deployments and outputs or annotations from the zero-shot learners to train smaller and task-specific substitute models which can reduce both the monetary costs and environmental impact. Our machine teaching process avails human expertise to correct examples with a high likelihood of misannotations. Results on three tasks, common to conversational AI agents, show that close-to-oracle performance can be achieved with supervision on 20-70% of the dataset depending upon the complexity of the task and performance of zero-shot learners.
+
+{{</citation>}}
+
+
+### (7/89) Machine Learning to Promote Translational Research: Predicting Patent and Clinical Trial Inclusion in Dementia Research (Matilda Beinat et al., 2024)
 
 {{<citation>}}
 
@@ -110,7 +201,7 @@ Projected to impact 1.6 million people in the UK by 2040 and costing {\pounds}25
 {{</citation>}}
 
 
-### (4/69) Hierarchical Classification of Transversal Skills in Job Ads Based on Sentence Embeddings (Florin Leon et al., 2024)
+### (8/89) Hierarchical Classification of Transversal Skills in Job Ads Based on Sentence Embeddings (Florin Leon et al., 2024)
 
 {{<citation>}}
 
@@ -132,7 +223,7 @@ This paper proposes a classification framework aimed at identifying correlations
 {{</citation>}}
 
 
-### (5/69) HiMTM: Hierarchical Multi-Scale Masked Time Series Modeling for Long-Term Forecasting (Shubao Zhao et al., 2024)
+### (9/89) HiMTM: Hierarchical Multi-Scale Masked Time Series Modeling for Long-Term Forecasting (Shubao Zhao et al., 2024)
 
 {{<citation>}}
 
@@ -154,7 +245,7 @@ Time series forecasting is crucial and challenging in the real world. The recent
 {{</citation>}}
 
 
-### (6/69) Invertible Solution of Neural Differential Equations for Analysis of Irregularly-Sampled Time Series (YongKyung Oh et al., 2024)
+### (10/89) Invertible Solution of Neural Differential Equations for Analysis of Irregularly-Sampled Time Series (YongKyung Oh et al., 2024)
 
 {{<citation>}}
 
@@ -176,7 +267,7 @@ To handle the complexities of irregular and incomplete time series data, we prop
 {{</citation>}}
 
 
-### (7/69) Relaxed Contrastive Learning for Federated Learning (Seonguk Seo et al., 2024)
+### (11/89) Relaxed Contrastive Learning for Federated Learning (Seonguk Seo et al., 2024)
 
 {{<citation>}}
 
@@ -198,7 +289,7 @@ We propose a novel contrastive learning framework to effectively address the cha
 {{</citation>}}
 
 
-### (8/69) Transportation Market Rate Forecast Using Signature Transform (Haotian Gu et al., 2024)
+### (12/89) Transportation Market Rate Forecast Using Signature Transform (Haotian Gu et al., 2024)
 
 {{<citation>}}
 
@@ -220,11 +311,103 @@ Currently, Amazon relies on third parties for transportation marketplace rate fo
 {{</citation>}}
 
 
-## cs.CL (19)
+## cs.CR (1)
 
 
 
-### (9/69) Leveraging Print Debugging to Improve Code Generation in Large Language Models (Xueyu Hu et al., 2024)
+### (13/89) Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training (Evan Hubinger et al., 2024)
+
+{{<citation>}}
+
+Evan Hubinger, Carson Denison, Jesse Mu, Mike Lambert, Meg Tong, Monte MacDiarmid, Tamera Lanham, Daniel M. Ziegler, Tim Maxwell, Newton Cheng, Adam Jermyn, Amanda Askell, Ansh Radhakrishnan, Cem Anil, David Duvenaud, Deep Ganguli, Fazl Barez, Jack Clark, Kamal Ndousse, Kshitij Sachan, Michael Sellitto, Mrinank Sharma, Nova DasSarma, Roger Grosse, Shauna Kravec, Yuntao Bai, Zachary Witten, Marina Favaro, Jan Brauner, Holden Karnofsky, Paul Christiano, Samuel R. Bowman, Logan Graham, Jared Kaplan, Sören Mindermann, Ryan Greenblatt, Buck Shlegeris, Nicholas Schiefer, Ethan Perez. (2024)  
+**Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training**  
+
+---
+Primary Category: cs.CR  
+Categories: cs-AI, cs-CL, cs-CR, cs-LG, cs-SE, cs.CR  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2401.05566v1)  
+
+---
+
+
+**ABSTRACT**  
+Humans are capable of strategically deceptive behavior: behaving helpfully in most situations, but then behaving very differently in order to pursue alternative objectives when given the opportunity. If an AI system learned such a deceptive strategy, could we detect it and remove it using current state-of-the-art safety training techniques? To study this question, we construct proof-of-concept examples of deceptive behavior in large language models (LLMs). For example, we train models that write secure code when the prompt states that the year is 2023, but insert exploitable code when the stated year is 2024. We find that such backdoored behavior can be made persistent, so that it is not removed by standard safety training techniques, including supervised fine-tuning, reinforcement learning, and adversarial training (eliciting unsafe behavior and then training to remove it). The backdoored behavior is most persistent in the largest models and in models trained to produce chain-of-thought reasoning about deceiving the training process, with the persistence remaining even when the chain-of-thought is distilled away. Furthermore, rather than removing backdoors, we find that adversarial training can teach models to better recognize their backdoor triggers, effectively hiding the unsafe behavior. Our results suggest that, once a model exhibits deceptive behavior, standard techniques could fail to remove such deception and create a false impression of safety.
+
+{{</citation>}}
+
+
+## cs.CL (22)
+
+
+
+### (14/89) TrustLLM: Trustworthiness in Large Language Models (Lichao Sun et al., 2024)
+
+{{<citation>}}
+
+Lichao Sun, Yue Huang, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bhavya Kailkhura, Caiming Xiong, Chao Zhang, Chaowei Xiao, Chunyuan Li, Eric Xing, Furong Huang, Hao Liu, Heng Ji, Hongyi Wang, Huan Zhang, Huaxiu Yao, Manolis Kellis, Marinka Zitnik, Meng Jiang, Mohit Bansal, James Zou, Jian Pei, Jian Liu, Jianfeng Gao, Jiawei Han, Jieyu Zhao, Jiliang Tang, Jindong Wang, John Mitchell, Kai Shu, Kaidi Xu, Kai-Wei Chang, Lifang He, Lifu Huang, Michael Backes, Neil Zhenqiang Gong, Philip S. Yu, Pin-Yu Chen, Quanquan Gu, Ran Xu, Rex Ying, Shuiwang Ji, Suman Jana, Tianlong Chen, Tianming Liu, Tianyi Zhou, Willian Wang, Xiang Li, Xiangliang Zhang, Xiao Wang, Xing Xie, Xun Chen, Xuyu Wang, Yan Liu, Yanfang Ye, Yinzhi Cao, Yue Zhao. (2024)  
+**TrustLLM: Trustworthiness in Large Language Models**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keywords: ChatGPT, GPT, Language Model  
+[Paper Link](http://arxiv.org/abs/2401.05561v1)  
+
+---
+
+
+**ABSTRACT**  
+Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges, particularly in the realm of trustworthiness. Therefore, ensuring the trustworthiness of LLMs emerges as an important topic. This paper introduces TrustLLM, a comprehensive study of trustworthiness in LLMs, including principles for different dimensions of trustworthiness, established benchmark, evaluation, and analysis of trustworthiness for mainstream LLMs, and discussion of open challenges and future directions. Specifically, we first propose a set of principles for trustworthy LLMs that span eight different dimensions. Based on these principles, we further establish a benchmark across six dimensions including truthfulness, safety, fairness, robustness, privacy, and machine ethics. We then present a study evaluating 16 mainstream LLMs in TrustLLM, consisting of over 30 datasets. Our findings firstly show that in general trustworthiness and utility (i.e., functional effectiveness) are positively related. Secondly, our observations reveal that proprietary LLMs generally outperform most open-source counterparts in terms of trustworthiness, raising concerns about the potential risks of widely accessible open-source LLMs. However, a few open-source LLMs come very close to proprietary ones. Thirdly, it is important to note that some LLMs may be overly calibrated towards exhibiting trustworthiness, to the extent that they compromise their utility by mistakenly treating benign prompts as harmful and consequently not responding. Finally, we emphasize the importance of ensuring transparency not only in the models themselves but also in the technologies that underpin trustworthiness. Knowing the specific trustworthy technologies that have been employed is crucial for analyzing their effectiveness.
+
+{{</citation>}}
+
+
+### (15/89) Useful Blunders: Can Automated Speech Recognition Errors Improve Downstream Dementia Classification? (Changye Li et al., 2024)
+
+{{<citation>}}
+
+Changye Li, Weizhe Xu, Trevor Cohen, Serguei Pakhomov. (2024)  
+**Useful Blunders: Can Automated Speech Recognition Errors Improve Downstream Dementia Classification?**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-SD, cs.CL, eess-AS  
+Keywords: Speech Recognition  
+[Paper Link](http://arxiv.org/abs/2401.05551v1)  
+
+---
+
+
+**ABSTRACT**  
+\textbf{Objectives}: We aimed to investigate how errors from automatic speech recognition (ASR) systems affect dementia classification accuracy, specifically in the ``Cookie Theft'' picture description task. We aimed to assess whether imperfect ASR-generated transcripts could provide valuable information for distinguishing between language samples from cognitively healthy individuals and those with Alzheimer's disease (AD).   \textbf{Methods}: We conducted experiments using various ASR models, refining their transcripts with post-editing techniques. Both these imperfect ASR transcripts and manually transcribed ones were used as inputs for the downstream dementia classification. We conducted comprehensive error analysis to compare model performance and assess ASR-generated transcript effectiveness in dementia classification.   \textbf{Results}: Imperfect ASR-generated transcripts surprisingly outperformed manual transcription for distinguishing between individuals with AD and those without in the ``Cookie Theft'' task. These ASR-based models surpassed the previous state-of-the-art approach, indicating that ASR errors may contain valuable cues related to dementia. The synergy between ASR and classification models improved overall accuracy in dementia classification.   \textbf{Conclusion}: Imperfect ASR transcripts effectively capture linguistic anomalies linked to dementia, improving accuracy in classification tasks. This synergy between ASR and classification models underscores ASR's potential as a valuable tool in assessing cognitive impairment and related clinical applications.
+
+{{</citation>}}
+
+
+### (16/89) CodePrompt: Improving Source Code-Related Classification with Knowledge Features through Prompt Learning (Yong Ma et al., 2024)
+
+{{<citation>}}
+
+Yong Ma, Senlin Luo, Yu-Ming Shang, Yifei Zhang, Zhengjun Li. (2024)  
+**CodePrompt: Improving Source Code-Related Classification with Knowledge Features through Prompt Learning**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keywords: BERT  
+[Paper Link](http://arxiv.org/abs/2401.05544v1)  
+
+---
+
+
+**ABSTRACT**  
+Researchers have explored the potential of utilizing pre-trained language models, such as CodeBERT, to improve source code-related tasks. Previous studies have mainly relied on CodeBERT's text embedding capability and the `[CLS]' sentence embedding information as semantic representations for fine-tuning downstream source code-related tasks. However, these methods require additional neural network layers to extract effective features, resulting in higher computational costs. Furthermore, existing approaches have not leveraged the rich knowledge contained in both source code and related text, which can lead to lower accuracy. This paper presents a novel approach, CodePrompt, which utilizes rich knowledge recalled from a pre-trained model by prompt learning and an attention mechanism to improve source code-related classification tasks. Our approach initially motivates the language model with prompt information to retrieve abundant knowledge associated with the input as representative features, thus avoiding the need for additional neural network layers and reducing computational costs. Subsequently, we employ an attention mechanism to aggregate multiple layers of related knowledge for each task as final features to boost their accuracy. We conducted extensive experiments on four downstream source code-related tasks to evaluate our approach and our results demonstrate that CodePrompt achieves new state-of-the-art performance on the accuracy metric while also exhibiting computation cost-saving capabilities.
+
+{{</citation>}}
+
+
+### (17/89) Leveraging Print Debugging to Improve Code Generation in Large Language Models (Xueyu Hu et al., 2024)
 
 {{<citation>}}
 
@@ -246,7 +429,7 @@ Large language models (LLMs) have made significant progress in code generation t
 {{</citation>}}
 
 
-### (10/69) I am a Strange Dataset: Metalinguistic Tests for Language Models (Tristan Thrush et al., 2024)
+### (18/89) I am a Strange Dataset: Metalinguistic Tests for Language Models (Tristan Thrush et al., 2024)
 
 {{<citation>}}
 
@@ -268,7 +451,7 @@ Statements involving metalinguistic self-reference ("This paper has six sections
 {{</citation>}}
 
 
-### (11/69) INACIA: Integrating Large Language Models in Brazilian Audit Courts: Opportunities and Challenges (Jayr Pereira et al., 2024)
+### (19/89) INACIA: Integrating Large Language Models in Brazilian Audit Courts: Opportunities and Challenges (Jayr Pereira et al., 2024)
 
 {{<citation>}}
 
@@ -290,7 +473,7 @@ This paper introduces INACIA (Instru\c{c}\~ao Assistida com Intelig\^encia Artif
 {{</citation>}}
 
 
-### (12/69) AUTOACT: Automatic Agent Learning from Scratch via Self-Planning (Shuofei Qiao et al., 2024)
+### (20/89) AUTOACT: Automatic Agent Learning from Scratch via Self-Planning (Shuofei Qiao et al., 2024)
 
 {{<citation>}}
 
@@ -312,7 +495,7 @@ Language agents have achieved considerable performance on various complex tasks.
 {{</citation>}}
 
 
-### (13/69) Pre-trained Large Language Models for Financial Sentiment Analysis (Wei Luo et al., 2024)
+### (21/89) Pre-trained Large Language Models for Financial Sentiment Analysis (Wei Luo et al., 2024)
 
 {{<citation>}}
 
@@ -334,7 +517,7 @@ Financial sentiment analysis refers to classifying financial text contents into 
 {{</citation>}}
 
 
-### (14/69) Monte Carlo Tree Search for Recipe Generation using GPT-2 (Karan Taneja et al., 2024)
+### (22/89) Monte Carlo Tree Search for Recipe Generation using GPT-2 (Karan Taneja et al., 2024)
 
 {{<citation>}}
 
@@ -356,7 +539,7 @@ Automatic food recipe generation methods provide a creative tool for chefs to ex
 {{</citation>}}
 
 
-### (15/69) Divide and Conquer for Large Language Models Reasoning (Zijie Meng et al., 2024)
+### (23/89) Divide and Conquer for Large Language Models Reasoning (Zijie Meng et al., 2024)
 
 {{<citation>}}
 
@@ -378,7 +561,7 @@ Large language models (LLMs) have shown impressive performance in various reason
 {{</citation>}}
 
 
-### (16/69) Can ChatGPT Rival Neural Machine Translation? A Comparative Study (Zhaokun Jiang et al., 2024)
+### (24/89) Can ChatGPT Rival Neural Machine Translation? A Comparative Study (Zhaokun Jiang et al., 2024)
 
 {{<citation>}}
 
@@ -400,7 +583,7 @@ Inspired by the increasing interest in leveraging large language models for tran
 {{</citation>}}
 
 
-### (17/69) Aligning Translation-Specific Understanding to General Understanding in Large Language Models (Yichong Huang et al., 2024)
+### (25/89) Aligning Translation-Specific Understanding to General Understanding in Large Language Models (Yichong Huang et al., 2024)
 
 {{<citation>}}
 
@@ -422,7 +605,7 @@ Although large language models (LLMs) have shown surprising language understandi
 {{</citation>}}
 
 
-### (18/69) Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk (Dennis Ulmer et al., 2024)
+### (26/89) Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk (Dennis Ulmer et al., 2024)
 
 {{<citation>}}
 
@@ -444,7 +627,7 @@ Large language models (LLMs) are powerful dialogue agents, but specializing them
 {{</citation>}}
 
 
-### (19/69) Whose wife is it anyway? Assessing bias against same-gender relationships in machine translation (Ian Stewart et al., 2024)
+### (27/89) Whose wife is it anyway? Assessing bias against same-gender relationships in machine translation (Ian Stewart et al., 2024)
 
 {{<citation>}}
 
@@ -466,7 +649,7 @@ Machine translation often suffers from biased data and algorithms that can lead 
 {{</citation>}}
 
 
-### (20/69) Can AI Write Classical Chinese Poetry like Humans? An Empirical Study Inspired by Turing Test (Zekun Deng et al., 2024)
+### (28/89) Can AI Write Classical Chinese Poetry like Humans? An Empirical Study Inspired by Turing Test (Zekun Deng et al., 2024)
 
 {{<citation>}}
 
@@ -488,7 +671,7 @@ Some argue that the essence of humanity, such as creativity and sentiment, can n
 {{</citation>}}
 
 
-### (21/69) The Impact of Reasoning Step Length on Large Language Models (Mingyu Jin et al., 2024)
+### (29/89) The Impact of Reasoning Step Length on Large Language Models (Mingyu Jin et al., 2024)
 
 {{<citation>}}
 
@@ -510,7 +693,7 @@ Chain of Thought (CoT) is significant in improving the reasoning abilities of la
 {{</citation>}}
 
 
-### (22/69) ANGO: A Next-Level Evaluation Benchmark For Generation-Oriented Language Models In Chinese Domain (Bingchao Wang, 2024)
+### (30/89) ANGO: A Next-Level Evaluation Benchmark For Generation-Oriented Language Models In Chinese Domain (Bingchao Wang, 2024)
 
 {{<citation>}}
 
@@ -532,7 +715,7 @@ Recently, various Large Language Models (LLMs) evaluation datasets have emerged,
 {{</citation>}}
 
 
-### (23/69) Multi-User Chat Assistant (MUCA): a Framework Using LLMs to Facilitate Group Conversations (Manqing Mao et al., 2024)
+### (31/89) Multi-User Chat Assistant (MUCA): a Framework Using LLMs to Facilitate Group Conversations (Manqing Mao et al., 2024)
 
 {{<citation>}}
 
@@ -554,7 +737,7 @@ Recent advancements in large language models (LLMs) have provided a new avenue f
 {{</citation>}}
 
 
-### (24/69) Attendre: Wait To Attend By Retrieval With Evicted Queries in Memory-Based Transformers for Long Context Processing (Zi Yang et al., 2024)
+### (32/89) Attendre: Wait To Attend By Retrieval With Evicted Queries in Memory-Based Transformers for Long Context Processing (Zi Yang et al., 2024)
 
 {{<citation>}}
 
@@ -576,7 +759,7 @@ As LLMs have become capable of processing more complex types of inputs, research
 {{</citation>}}
 
 
-### (25/69) An Analysis of User Behaviours for Objectively Evaluating Spoken Dialogue Systems (Koji Inoue et al., 2024)
+### (33/89) An Analysis of User Behaviours for Objectively Evaluating Spoken Dialogue Systems (Koji Inoue et al., 2024)
 
 {{<citation>}}
 
@@ -598,7 +781,7 @@ Establishing evaluation schemes for spoken dialogue systems is important, but it
 {{</citation>}}
 
 
-### (26/69) User Embedding Model for Personalized Language Prompting (Sumanth Doddapaneni et al., 2024)
+### (34/89) User Embedding Model for Personalized Language Prompting (Sumanth Doddapaneni et al., 2024)
 
 {{<citation>}}
 
@@ -620,7 +803,7 @@ Modeling long histories plays a pivotal role in enhancing recommendation systems
 {{</citation>}}
 
 
-### (27/69) Are Language Models More Like Libraries or Like Librarians? Bibliotechnism, the Novel Reference Problem, and the Attitudes of LLMs (Harvey Lederman et al., 2024)
+### (35/89) Are Language Models More Like Libraries or Like Librarians? Bibliotechnism, the Novel Reference Problem, and the Attitudes of LLMs (Harvey Lederman et al., 2024)
 
 {{<citation>}}
 
@@ -642,129 +825,103 @@ Are LLMs cultural technologies like photocopiers or printing presses, which tran
 {{</citation>}}
 
 
-## cs.RO (4)
+## stat.ML (1)
 
 
 
-### (28/69) Theory of Mind abilities of Large Language Models in Human-Robot Interaction : An Illusion? (Mudit Verma et al., 2024)
+### (36/89) Improving the Accuracy and Interpretability of Random Forests via Forest Pruning (Albert Dorador, 2024)
 
 {{<citation>}}
 
-Mudit Verma, Siddhant Bhambri, Subbarao Kambhampati. (2024)  
-**Theory of Mind abilities of Large Language Models in Human-Robot Interaction : An Illusion?**  
+Albert Dorador. (2024)  
+**Improving the Accuracy and Interpretability of Random Forests via Forest Pruning**  
 
 ---
-Primary Category: cs.RO  
-Categories: cs-AI, cs-HC, cs-RO, cs.RO  
-Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2401.05302v1)  
+Primary Category: stat.ML  
+Categories: cs-AI, cs-LG, math-OC, stat-ML, stat.ML  
+Keywords: Pruning  
+[Paper Link](http://arxiv.org/abs/2401.05535v1)  
 
 ---
 
 
 **ABSTRACT**  
-Large Language Models have shown exceptional generative abilities in various natural language and generation tasks. However, possible anthropomorphization and leniency towards failure cases have propelled discussions on emergent abilities of Large Language Models especially on Theory of Mind (ToM) abilities in Large Language Models. While several false-belief tests exists to verify the ability to infer and maintain mental models of another entity, we study a special application of ToM abilities that has higher stakes and possibly irreversible consequences : Human Robot Interaction. In this work, we explore the task of Perceived Behavior Recognition, where a robot employs a Large Language Model (LLM) to assess the robot's generated behavior in a manner similar to human observer. We focus on four behavior types, namely - explicable, legible, predictable, and obfuscatory behavior which have been extensively used to synthesize interpretable robot behaviors. The LLMs goal is, therefore to be a human proxy to the agent, and to answer how a certain agent behavior would be perceived by the human in the loop, for example "Given a robot's behavior X, would the human observer find it explicable?". We conduct a human subject study to verify that the users are able to correctly answer such a question in the curated situations (robot setting and plan) across five domains. A first analysis of the belief test yields extremely positive results inflating ones expectations of LLMs possessing ToM abilities. We then propose and perform a suite of perturbation tests which breaks this illusion, i.e. Inconsistent Belief, Uninformative Context and Conviction Test. We conclude that, the high score of LLMs on vanilla prompts showcases its potential use in HRI settings, however to possess ToM demands invariance to trivial or irrelevant perturbations in the context which LLMs lack.
+Decades after their inception, random forests continue to provide state-of-the-art accuracy in a variety of learning problems, outperforming in this respect alternative machine learning algorithms such as decision trees or even neural networks. However, being an ensemble method, the one aspect where random forests tend to severely underperform decision trees is interpretability. In the present work, we propose a post-hoc approach that aims to have the best of both worlds: the accuracy of random forests and the interpretability of decision trees. To this end, we present two forest-pruning methods to find an optimal sub-forest within a given random forest, and then, when applicable, combine the selected trees into one. Our first method relies on constrained exhaustive search, while our second method is based on an adaptation of the LASSO methodology. Extensive experiments over synthetic and real world datasets show that, in the majority of scenarios, at least one of the two methods proposed is more accurate than the original random forest, while just using a small fraction of the trees, aiding result interpretability. Compared to current state-of-the-art forestpruning methods, namely sequential forward selection and (a variation of) sequential backward selection, our methods tend to outperform both of them, whether in terms of accuracy, number of trees employed, or both.
 
 {{</citation>}}
 
 
-### (29/69) CineMPC: A Fully Autonomous Drone Cinematography System Incorporating Zoom, Focus, Pose, and Scene Composition (Pablo Pueyo et al., 2024)
+## cs.CV (24)
+
+
+
+### (37/89) Consensus Focus for Object Detection and minority classes (Erik Isai Valle Salgado et al., 2024)
 
 {{<citation>}}
 
-Pablo Pueyo, Juan Dendarieta, Eduardo Montijano, Ana C. Murillo, Mac Schwager. (2024)  
-**CineMPC: A Fully Autonomous Drone Cinematography System Incorporating Zoom, Focus, Pose, and Scene Composition**  
+Erik Isai Valle Salgado, Chen Li, Yaqi Han, Linchao Shi, Xinghui Li. (2024)  
+**Consensus Focus for Object Detection and minority classes**  
 
 ---
-Primary Category: cs.RO  
-Categories: cs-RO, cs.RO  
-Keywords: Drone  
-[Paper Link](http://arxiv.org/abs/2401.05272v1)  
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Object Detection  
+[Paper Link](http://arxiv.org/abs/2401.05530v1)  
 
 ---
 
 
 **ABSTRACT**  
-We present CineMPC, a complete cinematographic system that autonomously controls a drone to film multiple targets recording user-specified aesthetic objectives. Existing solutions in autonomous cinematography control only the camera extrinsics, namely its position, and orientation. In contrast, CineMPC is the first solution that includes the camera intrinsic parameters in the control loop, which are essential tools for controlling cinematographic effects like focus, depth-of-field, and zoom. The system estimates the relative poses between the targets and the camera from an RGB-D image and optimizes a trajectory for the extrinsic and intrinsic camera parameters to film the artistic and technical requirements specified by the user. The drone and the camera are controlled in a nonlinear Model Predicted Control (MPC) loop by re-optimizing the trajectory at each time step in response to current conditions in the scene. The perception system of CineMPC can track the targets' position and orientation despite the camera effects. Experiments in a photorealistic simulation and with a real platform demonstrate the capabilities of the system to achieve a full array of cinematographic effects that are not possible without the control of the intrinsics of the camera. Code for CineMPC is implemented following a modular architecture in ROS and released to the community.
+Ensemble methods exploit the availability of a given number of classifiers or detectors trained in single or multiple source domains and tasks to address machine learning problems such as domain adaptation or multi-source transfer learning. Existing research measures the domain distance between the sources and the target dataset, trains multiple networks on the same data with different samples per class, or combines predictions from models trained under varied hyperparameters and settings. Their solutions enhanced the performance on small or tail categories but hurt the rest. To this end, we propose a modified consensus focus for semi-supervised and long-tailed object detection. We introduce a voting system based on source confidence that spots the contribution of each model in a consensus, lets the user choose the relevance of each class in the target label space so that it relaxes minority bounding boxes suppression, and combines multiple models' results without discarding the poisonous networks. Our tests on synthetic driving datasets retrieved higher confidence and more accurate bounding boxes than the NMS, soft-NMS, and WBF.
 
 {{</citation>}}
 
 
-### (30/69) Modelling, Positioning, and Deep Reinforcement Learning Path Tracking Control of Scaled Robotic Vehicles: Design and Experimental Validation (Carmine Caponio et al., 2024)
+### (38/89) From Pampas to Pixels: Fine-Tuning Diffusion Models for Gaúcho Heritage (Marcellus Amadeus et al., 2024)
 
 {{<citation>}}
 
-Carmine Caponio, Pietro Stano, Raffaele Carli, Ignazio Olivieri, Daniele Ragone, Aldo Sorniotti, Umberto Montanaro. (2024)  
-**Modelling, Positioning, and Deep Reinforcement Learning Path Tracking Control of Scaled Robotic Vehicles: Design and Experimental Validation**  
+Marcellus Amadeus, William Alberto Cruz Castañeda, André Felipe Zanella, Felipe Rodrigues Perche Mahlow. (2024)  
+**From Pampas to Pixels: Fine-Tuning Diffusion Models for Gaúcho Heritage**  
 
 ---
-Primary Category: cs.RO  
-Categories: cs-AI, cs-RO, cs-SY, cs.RO, eess-SY  
-Keywords: AI, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2401.05194v1)  
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CL, cs-CV, cs.CV  
+Keywords: AI, Generative AI  
+[Paper Link](http://arxiv.org/abs/2401.05520v1)  
 
 ---
 
 
 **ABSTRACT**  
-Mobile robotic systems are becoming increasingly popular. These systems are used in various indoor applications, raging from warehousing and manufacturing to test benches for assessment of advanced control strategies, such as artificial intelligence (AI)-based control solutions, just to name a few. Scaled robotic cars are commonly equipped with a hierarchical control acthiecture that includes tasks dedicated to vehicle state estimation and control. This paper covers both aspects by proposing (i) a federeted extended Kalman filter (FEKF), and (ii) a novel deep reinforcement learning (DRL) path tracking controller trained via an expert demonstrator to expedite the learning phase and increase robustess to the simulation-to-reality gap. The paper also presents the formulation of a vehicle model along with an effective yet simple procedure for identifying tis paramters. The experimentally validated model is used for (i) supporting the design of the FEKF and (ii) serving as a digital twin for training the proposed DRL-based path tracking algorithm. Experimental results confirm the ability of the FEKF to improve the estimate of the mobile robot's position. Furthermore, the effectiveness of the DRL path tracking strateguy is experimentally tested along manoeuvres not considered during training, showing also the ability of the AI-based solution to outpeform model-based control strategies and the demonstrator. The comparison with benchmraking controllers is quantitavely evalueted through a set of key performance indicators.
+Generative AI has become pervasive in society, witnessing significant advancements in various domains. Particularly in the realm of Text-to-Image (TTI) models, Latent Diffusion Models (LDMs), showcase remarkable capabilities in generating visual content based on textual prompts. This paper addresses the potential of LDMs in representing local cultural concepts, historical figures, and endangered species. In this study, we use the cultural heritage of Rio Grande do Sul (RS), Brazil, as an illustrative case. Our objective is to contribute to the broader understanding of how generative models can help to capture and preserve the cultural and historical identity of regions. The paper outlines the methodology, including subject selection, dataset creation, and the fine-tuning process. The results showcase the images generated, alongside the challenges and feasibility of each concept. In conclusion, this work shows the power of these models to represent and preserve unique aspects of diverse regions and communities.
 
 {{</citation>}}
 
 
-### (31/69) LPAC: Learnable Perception-Action-Communication Loops with Applications to Coverage Control (Saurav Agarwal et al., 2024)
+### (39/89) FPRF: Feed-Forward Photorealistic Style Transfer of Large-Scale 3D Neural Radiance Fields (GeonU Kim et al., 2024)
 
 {{<citation>}}
 
-Saurav Agarwal, Ramya Muthukrishnan, Walker Gosrich, Alejandro Ribeiro, Vijay Kumar. (2024)  
-**LPAC: Learnable Perception-Action-Communication Loops with Applications to Coverage Control**  
+GeonU Kim, Kim Youwang, Tae-Hyun Oh. (2024)  
+**FPRF: Feed-Forward Photorealistic Style Transfer of Large-Scale 3D Neural Radiance Fields**  
 
 ---
-Primary Category: cs.RO  
-Categories: cs-LG, cs-RO, cs.RO  
-Keywords: GNN  
-[Paper Link](http://arxiv.org/abs/2401.04855v1)  
+Primary Category: cs.CV  
+Categories: cs-AI, cs-CV, cs-GR, cs.CV  
+Keywords: Style Transfer  
+[Paper Link](http://arxiv.org/abs/2401.05516v1)  
 
 ---
 
 
 **ABSTRACT**  
-Coverage control is the problem of navigating a robot swarm to collaboratively monitor features or a phenomenon of interest not known a priori. The problem is challenging in decentralized settings with robots that have limited communication and sensing capabilities. This paper proposes a learnable Perception-Action-Communication (LPAC) architecture for the coverage control problem. In the proposed solution, a convolution neural network (CNN) processes localized perception of the environment; a graph neural network (GNN) enables communication of relevant information between neighboring robots; finally, a shallow multi-layer perceptron (MLP) computes robot actions. The GNN in the communication module enables collaboration in the robot swarm by computing what information to communicate with neighbors and how to use received information to take appropriate actions. We train models using imitation learning with a centralized clairvoyant algorithm that is aware of the entire environment. Evaluations show that the LPAC models outperform standard decentralized and centralized coverage control algorithms. The learned policy generalizes to environments different from the training dataset, transfers to larger environments with an increased number of robots, and is robust to noisy position estimates. The results indicate that LPAC architectures are well-suited for decentralized navigation in robot swarms to achieve collaborative behavior.
+We present FPRF, a feed-forward photorealistic style transfer method for large-scale 3D neural radiance fields. FPRF stylizes large-scale 3D scenes with arbitrary, multiple style reference images without additional optimization while preserving multi-view appearance consistency. Prior arts required tedious per-style/-scene optimization and were limited to small-scale 3D scenes. FPRF efficiently stylizes large-scale 3D scenes by introducing a style-decomposed 3D neural radiance field, which inherits AdaIN's feed-forward stylization machinery, supporting arbitrary style reference images. Furthermore, FPRF supports multi-reference stylization with the semantic correspondence matching and local AdaIN, which adds diverse user control for 3D scene styles. FPRF also preserves multi-view consistency by applying semantic matching and style transfer processes directly onto queried features in 3D space. In experiments, we demonstrate that FPRF achieves favorable photorealistic quality 3D scene stylization for large-scale scenes with diverse reference images. Project page: https://kim-geonu.github.io/FPRF/
 
 {{</citation>}}
 
 
-## cs.CY (1)
-
-
-
-### (32/69) Language-based Valence and Arousal Expressions between the United States and China: a Cross-Cultural Examination (Young-Min Cho et al., 2024)
-
-{{<citation>}}
-
-Young-Min Cho, Dandan Pang, Stuti Thapa, Garrick Sherman, Lyle Ungar, Louis Tay, Sharath Chandra Guntuku. (2024)  
-**Language-based Valence and Arousal Expressions between the United States and China: a Cross-Cultural Examination**  
-
----
-Primary Category: cs.CY  
-Categories: cs-CL, cs-CY, cs.CY  
-Keywords: Twitter  
-[Paper Link](http://arxiv.org/abs/2401.05254v2)  
-
----
-
-
-**ABSTRACT**  
-Although affective expressions of individuals have been extensively studied using social media, research has primarily focused on the Western context. There are substantial differences among cultures that contribute to their affective expressions. This paper examines the differences between Twitter (X) in the United States and Sina Weibo posts in China on two primary dimensions of affect - valence and arousal. We study the difference in the functional relationship between arousal and valence (so-called V-shaped) among individuals in the US and China and explore the associated content differences. Furthermore, we correlate word usage and topics in both platforms to interpret their differences. We observe that for Twitter users, the variation in emotional intensity is less distinct between negative and positive emotions compared to Weibo users, and there is a sharper escalation in arousal corresponding with heightened emotions. From language features, we discover that affective expressions are associated with personal life and feelings on Twitter, while on Weibo such discussions are about socio-political topics in the society. These results suggest a West-East difference in the V-shaped relationship between valence and arousal of affective expressions on social media influenced by content differences. Our findings have implications for applications and theories related to cultural differences in affective expressions.
-
-{{</citation>}}
-
-
-## cs.CV (21)
-
-
-
-### (33/69) PIXART-δ: Fast and Controllable Image Generation with Latent Consistency Models (Junsong Chen et al., 2024)
+### (40/89) PIXART-δ: Fast and Controllable Image Generation with Latent Consistency Models (Junsong Chen et al., 2024)
 
 {{<citation>}}
 
@@ -786,7 +943,7 @@ This technical report introduces PIXART-{\delta}, a text-to-image synthesis fram
 {{</citation>}}
 
 
-### (34/69) Exploring Vulnerabilities of No-Reference Image Quality Assessment Models: A Query-Based Black-Box Method (Chenxi Yang et al., 2024)
+### (41/89) Exploring Vulnerabilities of No-Reference Image Quality Assessment Models: A Query-Based Black-Box Method (Chenxi Yang et al., 2024)
 
 {{<citation>}}
 
@@ -808,7 +965,7 @@ No-Reference Image Quality Assessment (NR-IQA) aims to predict image quality sco
 {{</citation>}}
 
 
-### (35/69) CLIP-guided Source-free Object Detection in Aerial Images (Nanqing Liu et al., 2024)
+### (42/89) CLIP-guided Source-free Object Detection in Aerial Images (Nanqing Liu et al., 2024)
 
 {{<citation>}}
 
@@ -830,7 +987,7 @@ Domain adaptation is crucial in aerial imagery, as the visual representation of 
 {{</citation>}}
 
 
-### (36/69) MISS: A Generative Pretraining and Finetuning Approach for Med-VQA (Jiawei Chen et al., 2024)
+### (43/89) MISS: A Generative Pretraining and Finetuning Approach for Med-VQA (Jiawei Chen et al., 2024)
 
 {{<citation>}}
 
@@ -852,7 +1009,7 @@ Medical visual question answering (VQA) is a challenging multimodal task, where 
 {{</citation>}}
 
 
-### (37/69) CrossDiff: Exploring Self-Supervised Representation of Pansharpening via Cross-Predictive Diffusion Model (Yinghui Xing et al., 2024)
+### (44/89) CrossDiff: Exploring Self-Supervised Representation of Pansharpening via Cross-Predictive Diffusion Model (Yinghui Xing et al., 2024)
 
 {{<citation>}}
 
@@ -874,7 +1031,7 @@ Fusion of a panchromatic (PAN) image and corresponding multispectral (MS) image 
 {{</citation>}}
 
 
-### (38/69) Efficient Fine-Tuning with Domain Adaptation for Privacy-Preserving Vision Transformer (Teru Nagamori et al., 2024)
+### (45/89) Efficient Fine-Tuning with Domain Adaptation for Privacy-Preserving Vision Transformer (Teru Nagamori et al., 2024)
 
 {{<citation>}}
 
@@ -896,7 +1053,7 @@ We propose a novel method for privacy-preserving deep neural networks (DNNs) wit
 {{</citation>}}
 
 
-### (39/69) SwiMDiff: Scene-wide Matching Contrastive Learning with Diffusion Constraint for Remote Sensing Image (Jiayuan Tian et al., 2024)
+### (46/89) SwiMDiff: Scene-wide Matching Contrastive Learning with Diffusion Constraint for Remote Sensing Image (Jiayuan Tian et al., 2024)
 
 {{<citation>}}
 
@@ -918,7 +1075,7 @@ With recent advancements in aerospace technology, the volume of unlabeled remote
 {{</citation>}}
 
 
-### (40/69) Application of Deep Learning in Blind Motion Deblurring: Current Status and Future Prospects (Yawen Xiang et al., 2024)
+### (47/89) Application of Deep Learning in Blind Motion Deblurring: Current Status and Future Prospects (Yawen Xiang et al., 2024)
 
 {{<citation>}}
 
@@ -940,7 +1097,7 @@ Motion deblurring is one of the fundamental problems of computer vision and has 
 {{</citation>}}
 
 
-### (41/69) AdvMT: Adversarial Motion Transformer for Long-term Human Motion Prediction (Sarmad Idrees et al., 2024)
+### (48/89) AdvMT: Adversarial Motion Transformer for Long-term Human Motion Prediction (Sarmad Idrees et al., 2024)
 
 {{<citation>}}
 
@@ -962,7 +1119,7 @@ To achieve seamless collaboration between robots and humans in a shared environm
 {{</citation>}}
 
 
-### (42/69) Dual-Perspective Knowledge Enrichment for Semi-Supervised 3D Object Detection (Yucheng Han et al., 2024)
+### (49/89) Dual-Perspective Knowledge Enrichment for Semi-Supervised 3D Object Detection (Yucheng Han et al., 2024)
 
 {{<citation>}}
 
@@ -984,7 +1141,7 @@ Semi-supervised 3D object detection is a promising yet under-explored direction 
 {{</citation>}}
 
 
-### (43/69) Less is More : A Closer Look at Multi-Modal Few-Shot Learning (Chunpeng Zhou et al., 2024)
+### (50/89) Less is More : A Closer Look at Multi-Modal Few-Shot Learning (Chunpeng Zhou et al., 2024)
 
 {{<citation>}}
 
@@ -1006,7 +1163,7 @@ Few-shot Learning aims to learn and distinguish new categories with a very limit
 {{</citation>}}
 
 
-### (44/69) Optimising Graph Representation for Hardware Implementation of Graph Convolutional Networks for Event-based Vision (Kamil Jeziorek et al., 2024)
+### (51/89) Optimising Graph Representation for Hardware Implementation of Graph Convolutional Networks for Event-based Vision (Kamil Jeziorek et al., 2024)
 
 {{<citation>}}
 
@@ -1028,7 +1185,7 @@ Event-based vision is an emerging research field involving processing data gener
 {{</citation>}}
 
 
-### (45/69) MGNet: Learning Correspondences via Multiple Graphs (Luanyuan Dai et al., 2024)
+### (52/89) MGNet: Learning Correspondences via Multiple Graphs (Luanyuan Dai et al., 2024)
 
 {{<citation>}}
 
@@ -1050,7 +1207,7 @@ Learning correspondences aims to find correct correspondences (inliers) from the
 {{</citation>}}
 
 
-### (46/69) HaltingVT: Adaptive Token Halting Transformer for Efficient Video Recognition (Qian Wu et al., 2024)
+### (53/89) HaltingVT: Adaptive Token Halting Transformer for Efficient Video Recognition (Qian Wu et al., 2024)
 
 {{<citation>}}
 
@@ -1072,7 +1229,7 @@ Action recognition in videos poses a challenge due to its high computational cos
 {{</citation>}}
 
 
-### (47/69) Large Model based Sequential Keyframe Extraction for Video Summarization (Kailong Tan et al., 2024)
+### (54/89) Large Model based Sequential Keyframe Extraction for Video Summarization (Kailong Tan et al., 2024)
 
 {{<citation>}}
 
@@ -1094,7 +1251,7 @@ Keyframe extraction aims to sum up a video's semantics with the minimum number o
 {{</citation>}}
 
 
-### (48/69) ECC-PolypDet: Enhanced CenterNet with Contrastive Learning for Automatic Polyp Detection (Yuncheng Jiang et al., 2024)
+### (55/89) ECC-PolypDet: Enhanced CenterNet with Contrastive Learning for Automatic Polyp Detection (Yuncheng Jiang et al., 2024)
 
 {{<citation>}}
 
@@ -1116,7 +1273,7 @@ Accurate polyp detection is critical for early colorectal cancer diagnosis. Alth
 {{</citation>}}
 
 
-### (49/69) EmMixformer: Mix transformer for eye movement recognition (Huafeng Qin et al., 2024)
+### (56/89) EmMixformer: Mix transformer for eye movement recognition (Huafeng Qin et al., 2024)
 
 {{<citation>}}
 
@@ -1138,7 +1295,7 @@ Eye movement (EM) is a new highly secure biometric behavioral modality that has 
 {{</citation>}}
 
 
-### (50/69) Diffusion-based Pose Refinement and Muti-hypothesis Generation for 3D Human Pose Estimaiton (Hongbo Kang et al., 2024)
+### (57/89) Diffusion-based Pose Refinement and Muti-hypothesis Generation for 3D Human Pose Estimaiton (Hongbo Kang et al., 2024)
 
 {{<citation>}}
 
@@ -1160,7 +1317,7 @@ Previous probabilistic models for 3D Human Pose Estimation (3DHPE) aimed to enha
 {{</citation>}}
 
 
-### (51/69) Knowledge-aware Graph Transformer for Pedestrian Trajectory Prediction (Yu Liu et al., 2024)
+### (58/89) Knowledge-aware Graph Transformer for Pedestrian Trajectory Prediction (Yu Liu et al., 2024)
 
 {{<citation>}}
 
@@ -1182,7 +1339,7 @@ Predicting pedestrian motion trajectories is crucial for path planning and motio
 {{</citation>}}
 
 
-### (52/69) CTNeRF: Cross-Time Transformer for Dynamic Neural Radiance Field from Monocular Video (Xingyu Miao et al., 2024)
+### (59/89) CTNeRF: Cross-Time Transformer for Dynamic Neural Radiance Field from Monocular Video (Xingyu Miao et al., 2024)
 
 {{<citation>}}
 
@@ -1204,7 +1361,7 @@ The goal of our work is to generate high-quality novel views from monocular vide
 {{</citation>}}
 
 
-### (53/69) Modality-Aware Representation Learning for Zero-shot Sketch-based Image Retrieval (Eunyi Lyou et al., 2024)
+### (60/89) Modality-Aware Representation Learning for Zero-shot Sketch-based Image Retrieval (Eunyi Lyou et al., 2024)
 
 {{<citation>}}
 
@@ -1226,85 +1383,151 @@ Zero-shot learning offers an efficient solution for a machine learning model to 
 {{</citation>}}
 
 
-## cs.CE (1)
+## cs.NI (2)
 
 
 
-### (54/69) Distributed Monitoring for Data Distribution Shifts in Edge-ML Fraud Detection (Nader Karayanni et al., 2024)
+### (61/89) Towards Safe Load Balancing based on Control Barrier Functions and Deep Reinforcement Learning (Lam Dinh et al., 2024)
 
 {{<citation>}}
 
-Nader Karayanni, Robert J. Shahla, Chieh-Lien Hsiao. (2024)  
-**Distributed Monitoring for Data Distribution Shifts in Edge-ML Fraud Detection**  
+Lam Dinh, Pham Tran Anh Quang, Jérémie Leguay. (2024)  
+**Towards Safe Load Balancing based on Control Barrier Functions and Deep Reinforcement Learning**  
 
 ---
-Primary Category: cs.CE  
-Categories: cs-AI, cs-CE, cs.CE  
-Keywords: Fraud Detection  
-[Paper Link](http://arxiv.org/abs/2401.05219v1)  
+Primary Category: cs.NI  
+Categories: cs-LG, cs-NI, cs.NI  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2401.05525v1)  
 
 ---
 
 
 **ABSTRACT**  
-The digital era has seen a marked increase in financial fraud. edge ML emerged as a promising solution for smartphone payment services fraud detection, enabling the deployment of ML models directly on edge devices. This approach enables a more personalized real-time fraud detection. However, a significant gap in current research is the lack of a robust system for monitoring data distribution shifts in these distributed edge ML applications. Our work bridges this gap by introducing a novel open-source framework designed for continuous monitoring of data distribution shifts on a network of edge devices. Our system includes an innovative calculation of the Kolmogorov-Smirnov (KS) test over a distributed network of edge devices, enabling efficient and accurate monitoring of users behavior shifts. We comprehensively evaluate the proposed framework employing both real-world and synthetic financial transaction datasets and demonstrate the framework's effectiveness.
+Deep Reinforcement Learning (DRL) algorithms have recently made significant strides in improving network performance. Nonetheless, their practical use is still limited in the absence of safe exploration and safe decision-making. In the context of commercial solutions, reliable and safe-to-operate systems are of paramount importance. Taking this problem into account, we propose a safe learning-based load balancing algorithm for Software Defined-Wide Area Network (SD-WAN), which is empowered by Deep Reinforcement Learning (DRL) combined with a Control Barrier Function (CBF). It safely projects unsafe actions into feasible ones during both training and testing, and it guides learning towards safe policies. We successfully implemented the solution on GPU to accelerate training by approximately 110x times and achieve model updates for on-policy methods within a few seconds, making the solution practical. We show that our approach delivers near-optimal Quality-of-Service (QoS performance in terms of end-to-end delay while respecting safety requirements related to link capacity constraints. We also demonstrated that on-policy learning based on Proximal Policy Optimization (PPO) performs better than off-policy learning with Deep Deterministic Policy Gradient (DDPG) when both are combined with a CBF for safe load balancing.
 
 {{</citation>}}
 
 
-## cs.HC (2)
-
-
-
-### (55/69) Knowledge Sharing in Manufacturing using Large Language Models: User Evaluation and Model Benchmarking (Samuel Kernan Freire et al., 2024)
+### (62/89) DRL-based Latency-Aware Network Slicing in O-RAN with Time-Varying SLAs (Raoul Raftopoulos et al., 2024)
 
 {{<citation>}}
 
-Samuel Kernan Freire, Chaofan Wang, Mina Foosherian, Stefan Wellsandt, Santiago Ruiz-Arenas, Evangelos Niforatos. (2024)  
-**Knowledge Sharing in Manufacturing using Large Language Models: User Evaluation and Model Benchmarking**  
+Raoul Raftopoulos, Salvatore D'Oro, Tommaso Melodia, Giovanni Schembra. (2024)  
+**DRL-based Latency-Aware Network Slicing in O-RAN with Time-Varying SLAs**  
 
 ---
-Primary Category: cs.HC  
-Categories: cs-AI, cs-HC, cs-IR, cs.HC  
-Keywords: GPT, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2401.05200v1)  
+Primary Category: cs.NI  
+Categories: cs-NI, cs.NI  
+Keywords: Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2401.05042v2)  
 
 ---
 
 
 **ABSTRACT**  
-Managing knowledge efficiently is crucial for organizational success. In manufacturing, operating factories has become increasing knowledge-intensive putting strain on the factory's capacity to train and support new operators. In this paper, we introduce a Large Language Model (LLM)-based system designed to use the extensive knowledge contained in factory documentation. The system aims to efficiently answer queries from operators and facilitate the sharing of new knowledge. To assess its effectiveness, we conducted an evaluation in a factory setting. The results of this evaluation demonstrated the system's benefits; namely, in enabling quicker information retrieval and more efficient resolution of issues. However, the study also highlighted a preference for learning from a human expert when such an option is available. Furthermore, we benchmarked several closed and open-sourced LLMs for this system. GPT-4 consistently outperformed its counterparts, with open-source models like StableBeluga2 trailing closely, presenting an attractive option given its data privacy and customization benefits. Overall, this work offers preliminary insights for factories considering using LLM-tools for knowledge management.
+The Open Radio Access Network (Open RAN) paradigm, and its reference architecture proposed by the O-RAN Alliance, is paving the way toward open, interoperable, observable and truly intelligent cellular networks. Crucial to this evolution is Machine Learning (ML), which will play a pivotal role by providing the necessary tools to realize the vision of self-organizing O-RAN systems. However, to be actionable, ML algorithms need to demonstrate high reliability, effectiveness in delivering high performance, and the ability to adapt to varying network conditions, traffic demands and performance requirements. To address these challenges, in this paper we propose a novel Deep Reinforcement Learning (DRL) agent design for O-RAN applications that can learn control policies under varying Service Level Agreement (SLAs) with heterogeneous minimum performance requirements. We focus on the case of RAN slicing and SLAs specifying maximum tolerable end-to-end latency levels. We use the OpenRAN Gym open-source environment to train a DRL agent that can adapt to varying SLAs and compare it against the state-of-the-art. We show that our agent maintains a low SLA violation rate that is 8.3x and 14.4x lower than approaches based on Deep Q- Learning (DQN) and Q-Learning while consuming respectively 0.3x and 0.6x fewer resources without the need for re-training.
 
 {{</citation>}}
 
 
-### (56/69) Unpacking Human-AI interactions: From interaction primitives to a design space (Kostas Tsiakas et al., 2024)
+## cs.SI (3)
+
+
+
+### (63/89) Deflating the Chinese Balloon: Types of Twitter Bots in US-China balloon incident (Lynnette Hui Xian Ng et al., 2024)
 
 {{<citation>}}
 
-Kostas Tsiakas, Dave Murray-Rust. (2024)  
-**Unpacking Human-AI interactions: From interaction primitives to a design space**  
+Lynnette Hui Xian Ng, Kathleen M. Carley. (2024)  
+**Deflating the Chinese Balloon: Types of Twitter Bots in US-China balloon incident**  
 
 ---
-Primary Category: cs.HC  
-Categories: cs-AI, cs-HC, cs.HC  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2401.05115v1)  
+Primary Category: cs.SI  
+Categories: cs-SI, cs.SI  
+Keywords: Twitter  
+[Paper Link](http://arxiv.org/abs/2401.05501v1)  
 
 ---
 
 
 **ABSTRACT**  
-This paper aims to develop a semi-formal design space for Human-AI interactions, by building a set of interaction primitives which specify the communication between users and AI systems during their interaction. We show how these primitives can be combined into a set of interaction patterns which can provide an abstract specification for exchanging messages between humans and AI/ML models to carry out purposeful interactions. The motivation behind this is twofold: firstly, to provide a compact generalisation of existing practices, that highlights the similarities and differences between systems in terms of their interaction behaviours; and secondly, to support the creation of new systems, in particular by opening the space of possibilities for interactions with models. We present a short literature review on frameworks, guidelines and taxonomies related to the design and implementation of HAI interactions, including human-in-the-loop, explainable AI, as well as hybrid intelligence and collaborative learning approaches. From the literature review, we define a vocabulary for describing information exchanges in terms of providing and requesting particular model-specific data types. Based on this vocabulary, a message passing model for interactions between humans and models is presented, which we demonstrate can account for existing systems and approaches. Finally, we build this into design patterns as mid-level constructs that capture common interactional structures. We discuss how this approach can be used towards a design space for Human-AI interactions that creates new possibilities for designs as well as keeping track of implementation issues and concerns.
+As digitalization increases, countries employ digital diplomacy, harnessing digital resources to project their desired image. Digital diplomacy also encompasses the interactivity of digital platforms, providing a trove of public opinion that diplomatic agents can collect. Social media bots actively participate in political events through influencing political communication and purporting coordinated narratives to influence human behavior. This article provides a methodology towards identifying three types of bots: General Bots, News Bots and Bridging Bots, then further identify these classes of bots on Twitter during a diplomatic incident involving the United States and China. Using a series of computational methods, this article examines the impact of bots on the topics disseminated, the influence and the use of information maneuvers of bots within the social communication network. Among others, our results observe that all three types of bots are present across the two countries; bots geotagged to the US are generally concerned with the balloon location while those geotagged to China discussed topics related to escalating tensions; and perform different extent of positive narrative and network information maneuvers.
 
 {{</citation>}}
 
 
-## eess.IV (1)
+### (64/89) Population Graph Cross-Network Node Classification for Autism Detection Across Sample Groups (Anna Stephens et al., 2024)
+
+{{<citation>}}
+
+Anna Stephens, Francisco Santos, Pang-Ning Tan, Abdol-Hossein Esfahanian. (2024)  
+**Population Graph Cross-Network Node Classification for Autism Detection Across Sample Groups**  
+
+---
+Primary Category: cs.SI  
+Categories: cs-AI, cs-LG, cs-SI, cs.SI  
+Keywords: GNN  
+[Paper Link](http://arxiv.org/abs/2401.05478v1)  
+
+---
+
+
+**ABSTRACT**  
+Graph neural networks (GNN) are a powerful tool for combining imaging and non-imaging medical information for node classification tasks. Cross-network node classification extends GNN techniques to account for domain drift, allowing for node classification on an unlabeled target network. In this paper we present OTGCN, a powerful, novel approach to cross-network node classification. This approach leans on concepts from graph convolutional networks to harness insights from graph data structures while simultaneously applying strategies rooted in optimal transport to correct for the domain drift that can occur between samples from different data collection sites. This blended approach provides a practical solution for scenarios with many distinct forms of data collected across different locations and equipment. We demonstrate the effectiveness of this approach at classifying Autism Spectrum Disorder subjects using a blend of imaging and non-imaging data.
+
+{{</citation>}}
+
+
+### (65/89) Introducing New Node Prediction in Graph Mining: Predicting All Links from Isolated Nodes with Graph Neural Networks (Damiano Zanardini et al., 2024)
+
+{{<citation>}}
+
+Damiano Zanardini, Emilio Serrano. (2024)  
+**Introducing New Node Prediction in Graph Mining: Predicting All Links from Isolated Nodes with Graph Neural Networks**  
+
+---
+Primary Category: cs.SI  
+Categories: I-2; I-2-6, cs-AI, cs-LG, cs-SI, cs.SI  
+Keywords: Graph Neural Network, Graph Neural Networks  
+[Paper Link](http://arxiv.org/abs/2401.05468v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper introduces a new problem in the field of graph mining and social network analysis called new node prediction. More technically, the task can be categorized as zero-shot out-of-graph all-links prediction. This challenging problem aims to predict all links from a new, isolated, and unobserved node that was previously disconnected from the graph. Unlike classic approaches to link prediction (including few-shot out-of-graph link prediction), this problem presents two key differences: (1) the new node has no existing links from which to extract patterns for new predictions; and (2) the goal is to predict not just one, but all the links of this new node, or at least a significant part of them. Experiments demonstrate that an architecture based on Deep Graph Neural Networks can learn to solve this challenging problem in a bibliographic citation network.
+
+{{</citation>}}
+
+
+## eess.IV (2)
 
 
 
-### (57/69) DISCOVER: 2-D Multiview Summarization of Optical Coherence Tomography Angiography for Automatic Diabetic Retinopathy Diagnosis (Mostafa El Habib Daho et al., 2024)
+### (66/89) Transformer-CNN Fused Architecture for Enhanced Skin Lesion Segmentation (Siddharth Tiwari, 2024)
+
+{{<citation>}}
+
+Siddharth Tiwari. (2024)  
+**Transformer-CNN Fused Architecture for Enhanced Skin Lesion Segmentation**  
+
+---
+Primary Category: eess.IV  
+Categories: cs-CV, eess-IV, eess.IV  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2401.05481v1)  
+
+---
+
+
+**ABSTRACT**  
+The segmentation of medical images is important for the improvement and creation of healthcare systems, particularly for early disease detection and treatment planning. In recent years, the use of convolutional neural networks (CNNs) and other state-of-the-art methods has greatly advanced medical image segmentation. However, CNNs have been found to struggle with learning long-range dependencies and capturing global context due to the limitations of convolution operations. In this paper, we explore the use of transformers and CNNs for medical image segmentation and propose a hybrid architecture that combines the ability of transformers to capture global dependencies with the ability of CNNs to capture low-level spatial details. We compare various architectures and configurations and conduct multiple experiments to evaluate their effectiveness.
+
+{{</citation>}}
+
+
+### (67/89) DISCOVER: 2-D Multiview Summarization of Optical Coherence Tomography Angiography for Automatic Diabetic Retinopathy Diagnosis (Mostafa El Habib Daho et al., 2024)
 
 {{<citation>}}
 
@@ -1326,11 +1549,269 @@ Diabetic Retinopathy (DR), an ocular complication of diabetes, is a leading caus
 {{</citation>}}
 
 
+## cs.RO (4)
+
+
+
+### (68/89) Theory of Mind abilities of Large Language Models in Human-Robot Interaction : An Illusion? (Mudit Verma et al., 2024)
+
+{{<citation>}}
+
+Mudit Verma, Siddhant Bhambri, Subbarao Kambhampati. (2024)  
+**Theory of Mind abilities of Large Language Models in Human-Robot Interaction : An Illusion?**  
+
+---
+Primary Category: cs.RO  
+Categories: cs-AI, cs-HC, cs-RO, cs.RO  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2401.05302v1)  
+
+---
+
+
+**ABSTRACT**  
+Large Language Models have shown exceptional generative abilities in various natural language and generation tasks. However, possible anthropomorphization and leniency towards failure cases have propelled discussions on emergent abilities of Large Language Models especially on Theory of Mind (ToM) abilities in Large Language Models. While several false-belief tests exists to verify the ability to infer and maintain mental models of another entity, we study a special application of ToM abilities that has higher stakes and possibly irreversible consequences : Human Robot Interaction. In this work, we explore the task of Perceived Behavior Recognition, where a robot employs a Large Language Model (LLM) to assess the robot's generated behavior in a manner similar to human observer. We focus on four behavior types, namely - explicable, legible, predictable, and obfuscatory behavior which have been extensively used to synthesize interpretable robot behaviors. The LLMs goal is, therefore to be a human proxy to the agent, and to answer how a certain agent behavior would be perceived by the human in the loop, for example "Given a robot's behavior X, would the human observer find it explicable?". We conduct a human subject study to verify that the users are able to correctly answer such a question in the curated situations (robot setting and plan) across five domains. A first analysis of the belief test yields extremely positive results inflating ones expectations of LLMs possessing ToM abilities. We then propose and perform a suite of perturbation tests which breaks this illusion, i.e. Inconsistent Belief, Uninformative Context and Conviction Test. We conclude that, the high score of LLMs on vanilla prompts showcases its potential use in HRI settings, however to possess ToM demands invariance to trivial or irrelevant perturbations in the context which LLMs lack.
+
+{{</citation>}}
+
+
+### (69/89) CineMPC: A Fully Autonomous Drone Cinematography System Incorporating Zoom, Focus, Pose, and Scene Composition (Pablo Pueyo et al., 2024)
+
+{{<citation>}}
+
+Pablo Pueyo, Juan Dendarieta, Eduardo Montijano, Ana C. Murillo, Mac Schwager. (2024)  
+**CineMPC: A Fully Autonomous Drone Cinematography System Incorporating Zoom, Focus, Pose, and Scene Composition**  
+
+---
+Primary Category: cs.RO  
+Categories: cs-RO, cs.RO  
+Keywords: Drone  
+[Paper Link](http://arxiv.org/abs/2401.05272v1)  
+
+---
+
+
+**ABSTRACT**  
+We present CineMPC, a complete cinematographic system that autonomously controls a drone to film multiple targets recording user-specified aesthetic objectives. Existing solutions in autonomous cinematography control only the camera extrinsics, namely its position, and orientation. In contrast, CineMPC is the first solution that includes the camera intrinsic parameters in the control loop, which are essential tools for controlling cinematographic effects like focus, depth-of-field, and zoom. The system estimates the relative poses between the targets and the camera from an RGB-D image and optimizes a trajectory for the extrinsic and intrinsic camera parameters to film the artistic and technical requirements specified by the user. The drone and the camera are controlled in a nonlinear Model Predicted Control (MPC) loop by re-optimizing the trajectory at each time step in response to current conditions in the scene. The perception system of CineMPC can track the targets' position and orientation despite the camera effects. Experiments in a photorealistic simulation and with a real platform demonstrate the capabilities of the system to achieve a full array of cinematographic effects that are not possible without the control of the intrinsics of the camera. Code for CineMPC is implemented following a modular architecture in ROS and released to the community.
+
+{{</citation>}}
+
+
+### (70/89) Modelling, Positioning, and Deep Reinforcement Learning Path Tracking Control of Scaled Robotic Vehicles: Design and Experimental Validation (Carmine Caponio et al., 2024)
+
+{{<citation>}}
+
+Carmine Caponio, Pietro Stano, Raffaele Carli, Ignazio Olivieri, Daniele Ragone, Aldo Sorniotti, Umberto Montanaro. (2024)  
+**Modelling, Positioning, and Deep Reinforcement Learning Path Tracking Control of Scaled Robotic Vehicles: Design and Experimental Validation**  
+
+---
+Primary Category: cs.RO  
+Categories: cs-AI, cs-RO, cs-SY, cs.RO, eess-SY  
+Keywords: AI, Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2401.05194v1)  
+
+---
+
+
+**ABSTRACT**  
+Mobile robotic systems are becoming increasingly popular. These systems are used in various indoor applications, raging from warehousing and manufacturing to test benches for assessment of advanced control strategies, such as artificial intelligence (AI)-based control solutions, just to name a few. Scaled robotic cars are commonly equipped with a hierarchical control acthiecture that includes tasks dedicated to vehicle state estimation and control. This paper covers both aspects by proposing (i) a federeted extended Kalman filter (FEKF), and (ii) a novel deep reinforcement learning (DRL) path tracking controller trained via an expert demonstrator to expedite the learning phase and increase robustess to the simulation-to-reality gap. The paper also presents the formulation of a vehicle model along with an effective yet simple procedure for identifying tis paramters. The experimentally validated model is used for (i) supporting the design of the FEKF and (ii) serving as a digital twin for training the proposed DRL-based path tracking algorithm. Experimental results confirm the ability of the FEKF to improve the estimate of the mobile robot's position. Furthermore, the effectiveness of the DRL path tracking strateguy is experimentally tested along manoeuvres not considered during training, showing also the ability of the AI-based solution to outpeform model-based control strategies and the demonstrator. The comparison with benchmraking controllers is quantitavely evalueted through a set of key performance indicators.
+
+{{</citation>}}
+
+
+### (71/89) LPAC: Learnable Perception-Action-Communication Loops with Applications to Coverage Control (Saurav Agarwal et al., 2024)
+
+{{<citation>}}
+
+Saurav Agarwal, Ramya Muthukrishnan, Walker Gosrich, Alejandro Ribeiro, Vijay Kumar. (2024)  
+**LPAC: Learnable Perception-Action-Communication Loops with Applications to Coverage Control**  
+
+---
+Primary Category: cs.RO  
+Categories: cs-LG, cs-RO, cs.RO  
+Keywords: GNN  
+[Paper Link](http://arxiv.org/abs/2401.04855v1)  
+
+---
+
+
+**ABSTRACT**  
+Coverage control is the problem of navigating a robot swarm to collaboratively monitor features or a phenomenon of interest not known a priori. The problem is challenging in decentralized settings with robots that have limited communication and sensing capabilities. This paper proposes a learnable Perception-Action-Communication (LPAC) architecture for the coverage control problem. In the proposed solution, a convolution neural network (CNN) processes localized perception of the environment; a graph neural network (GNN) enables communication of relevant information between neighboring robots; finally, a shallow multi-layer perceptron (MLP) computes robot actions. The GNN in the communication module enables collaboration in the robot swarm by computing what information to communicate with neighbors and how to use received information to take appropriate actions. We train models using imitation learning with a centralized clairvoyant algorithm that is aware of the entire environment. Evaluations show that the LPAC models outperform standard decentralized and centralized coverage control algorithms. The learned policy generalizes to environments different from the training dataset, transfers to larger environments with an increased number of robots, and is robust to noisy position estimates. The results indicate that LPAC architectures are well-suited for decentralized navigation in robot swarms to achieve collaborative behavior.
+
+{{</citation>}}
+
+
+## cs.HC (5)
+
+
+
+### (72/89) CADgpt: Harnessing Natural Language Processing for 3D Modelling to Enhance Computer-Aided Design Workflows (Timo Kapsalis, 2024)
+
+{{<citation>}}
+
+Timo Kapsalis. (2024)  
+**CADgpt: Harnessing Natural Language Processing for 3D Modelling to Enhance Computer-Aided Design Workflows**  
+
+---
+Primary Category: cs.HC  
+Categories: cs-AI, cs-GR, cs-HC, cs.HC  
+Keywords: AI, GPT, GPT-4, NLP, Natural Language Processing  
+[Paper Link](http://arxiv.org/abs/2401.05476v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper introduces CADgpt, an innovative plugin integrating Natural Language Processing (NLP) with Rhino3D for enhancing 3D modelling in computer-aided design (CAD) environments. Leveraging OpenAI's GPT-4, CADgpt simplifies the CAD interface, enabling users, particularly beginners, to perform complex 3D modelling tasks through intuitive natural language commands. This approach significantly reduces the learning curve associated with traditional CAD software, fostering a more inclusive and engaging educational environment. The paper discusses CADgpt's technical architecture, including its integration within Rhino3D and the adaptation of GPT-4 capabilities for CAD tasks. It presents case studies demonstrating CADgpt's efficacy in various design scenarios, highlighting its potential to democratise design education by making sophisticated design tools accessible to a broader range of students. The discussion further explores CADgpt's implications for pedagogy and curriculum development, emphasising its role in enhancing creative exploration and conceptual thinking in design education.   Keywords: Natural Language Processing, Computer-Aided Design, 3D Modelling, Design Automation, Design Education, Architectural Education
+
+{{</citation>}}
+
+
+### (73/89) Knowledge Sharing in Manufacturing using Large Language Models: User Evaluation and Model Benchmarking (Samuel Kernan Freire et al., 2024)
+
+{{<citation>}}
+
+Samuel Kernan Freire, Chaofan Wang, Mina Foosherian, Stefan Wellsandt, Santiago Ruiz-Arenas, Evangelos Niforatos. (2024)  
+**Knowledge Sharing in Manufacturing using Large Language Models: User Evaluation and Model Benchmarking**  
+
+---
+Primary Category: cs.HC  
+Categories: cs-AI, cs-HC, cs-IR, cs.HC  
+Keywords: GPT, GPT-4, Language Model  
+[Paper Link](http://arxiv.org/abs/2401.05200v1)  
+
+---
+
+
+**ABSTRACT**  
+Managing knowledge efficiently is crucial for organizational success. In manufacturing, operating factories has become increasing knowledge-intensive putting strain on the factory's capacity to train and support new operators. In this paper, we introduce a Large Language Model (LLM)-based system designed to use the extensive knowledge contained in factory documentation. The system aims to efficiently answer queries from operators and facilitate the sharing of new knowledge. To assess its effectiveness, we conducted an evaluation in a factory setting. The results of this evaluation demonstrated the system's benefits; namely, in enabling quicker information retrieval and more efficient resolution of issues. However, the study also highlighted a preference for learning from a human expert when such an option is available. Furthermore, we benchmarked several closed and open-sourced LLMs for this system. GPT-4 consistently outperformed its counterparts, with open-source models like StableBeluga2 trailing closely, presenting an attractive option given its data privacy and customization benefits. Overall, this work offers preliminary insights for factories considering using LLM-tools for knowledge management.
+
+{{</citation>}}
+
+
+### (74/89) Unpacking Human-AI interactions: From interaction primitives to a design space (Kostas Tsiakas et al., 2024)
+
+{{<citation>}}
+
+Kostas Tsiakas, Dave Murray-Rust. (2024)  
+**Unpacking Human-AI interactions: From interaction primitives to a design space**  
+
+---
+Primary Category: cs.HC  
+Categories: cs-AI, cs-HC, cs.HC  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2401.05115v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper aims to develop a semi-formal design space for Human-AI interactions, by building a set of interaction primitives which specify the communication between users and AI systems during their interaction. We show how these primitives can be combined into a set of interaction patterns which can provide an abstract specification for exchanging messages between humans and AI/ML models to carry out purposeful interactions. The motivation behind this is twofold: firstly, to provide a compact generalisation of existing practices, that highlights the similarities and differences between systems in terms of their interaction behaviours; and secondly, to support the creation of new systems, in particular by opening the space of possibilities for interactions with models. We present a short literature review on frameworks, guidelines and taxonomies related to the design and implementation of HAI interactions, including human-in-the-loop, explainable AI, as well as hybrid intelligence and collaborative learning approaches. From the literature review, we define a vocabulary for describing information exchanges in terms of providing and requesting particular model-specific data types. Based on this vocabulary, a message passing model for interactions between humans and models is presented, which we demonstrate can account for existing systems and approaches. Finally, we build this into design patterns as mid-level constructs that capture common interactional structures. We discuss how this approach can be used towards a design space for Human-AI interactions that creates new possibilities for designs as well as keeping track of implementation issues and concerns.
+
+{{</citation>}}
+
+
+### (75/89) The two-way knowledge interaction interface between humans and neural networks (Zhanliang He et al., 2024)
+
+{{<citation>}}
+
+Zhanliang He, Nuoye Xiong, Hongsheng Li, Peiyi Shen, Guangming Zhu, Liang Zhang. (2024)  
+**The two-way knowledge interaction interface between humans and neural networks**  
+
+---
+Primary Category: cs.HC  
+Categories: cs-AI, cs-HC, cs-LG, cs.HC  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2401.05461v1)  
+
+---
+
+
+**ABSTRACT**  
+Despite neural networks (NN) have been widely applied in various fields and generally outperforms humans, they still lack interpretability to a certain extent, and humans are unable to intuitively understand the decision logic of NN. This also hinders the knowledge interaction between humans and NN, preventing humans from getting involved to give direct guidance when NN's decisions go wrong. While recent research in explainable AI has achieved interpretability of NN from various perspectives, it has not yet provided effective methods for knowledge exchange between humans and NN. To address this problem, we constructed a two-way interaction interface that uses structured representations of visual concepts and their relationships as the "language" for knowledge exchange between humans and NN. Specifically, NN provide intuitive reasoning explanations to humans based on the class-specific structural concepts graph (C-SCG). On the other hand, humans can modify the biases present in the C-SCG through their prior knowledge and reasoning ability, and thus provide direct knowledge guidance to NN through this interface. Through experimental validation, based on this interaction interface, NN can provide humans with easily understandable explanations of the reasoning process. Furthermore, human involvement and prior knowledge can directly and effectively contribute to enhancing the performance of NN.
+
+{{</citation>}}
+
+
+### (76/89) Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security (Yuanchun Li et al., 2024)
+
+{{<citation>}}
+
+Yuanchun Li, Hao Wen, Weijun Wang, Xiangyu Li, Yizhen Yuan, Guohong Liu, Jiacheng Liu, Wenxing Xu, Xiang Wang, Yi Sun, Rui Kong, Yile Wang, Hanfei Geng, Jian Luan, Xuefeng Jin, Zilong Ye, Guanjing Xiong, Fan Zhang, Xiang Li, Mengwei Xu, Zhijun Li, Peng Li, Yang Liu, Ya-Qin Zhang, Yunxin Liu. (2024)  
+**Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security**  
+
+---
+Primary Category: cs.HC  
+Categories: cs-AI, cs-HC, cs-SE, cs.HC  
+Keywords: Security  
+[Paper Link](http://arxiv.org/abs/2401.05459v1)  
+
+---
+
+
+**ABSTRACT**  
+Since the advent of personal computing devices, intelligent personal assistants (IPAs) have been one of the key technologies that researchers and engineers have focused on, aiming to help users efficiently obtain information and execute tasks, and provide users with more intelligent, convenient, and rich interaction experiences. With the development of smartphones and IoT, computing and sensing devices have become ubiquitous, greatly expanding the boundaries of IPAs. However, due to the lack of capabilities such as user intent understanding, task planning, tool using, and personal data management etc., existing IPAs still have limited practicality and scalability. Recently, the emergence of foundation models, represented by large language models (LLMs), brings new opportunities for the development of IPAs. With the powerful semantic understanding and reasoning capabilities, LLM can enable intelligent agents to solve complex problems autonomously. In this paper, we focus on Personal LLM Agents, which are LLM-based agents that are deeply integrated with personal data and personal devices and used for personal assistance. We envision that Personal LLM Agents will become a major software paradigm for end-users in the upcoming era. To realize this vision, we take the first step to discuss several important questions about Personal LLM Agents, including their architecture, capability, efficiency and security. We start by summarizing the key components and design choices in the architecture of Personal LLM Agents, followed by an in-depth analysis of the opinions collected from domain experts. Next, we discuss several key challenges to achieve intelligent, efficient and secure Personal LLM Agents, followed by a comprehensive survey of representative solutions to address these challenges.
+
+{{</citation>}}
+
+
+## cs.CY (1)
+
+
+
+### (77/89) Language-based Valence and Arousal Expressions between the United States and China: a Cross-Cultural Examination (Young-Min Cho et al., 2024)
+
+{{<citation>}}
+
+Young-Min Cho, Dandan Pang, Stuti Thapa, Garrick Sherman, Lyle Ungar, Louis Tay, Sharath Chandra Guntuku. (2024)  
+**Language-based Valence and Arousal Expressions between the United States and China: a Cross-Cultural Examination**  
+
+---
+Primary Category: cs.CY  
+Categories: cs-CL, cs-CY, cs.CY  
+Keywords: Twitter  
+[Paper Link](http://arxiv.org/abs/2401.05254v2)  
+
+---
+
+
+**ABSTRACT**  
+Although affective expressions of individuals have been extensively studied using social media, research has primarily focused on the Western context. There are substantial differences among cultures that contribute to their affective expressions. This paper examines the differences between Twitter (X) in the United States and Sina Weibo posts in China on two primary dimensions of affect - valence and arousal. We study the difference in the functional relationship between arousal and valence (so-called V-shaped) among individuals in the US and China and explore the associated content differences. Furthermore, we correlate word usage and topics in both platforms to interpret their differences. We observe that for Twitter users, the variation in emotional intensity is less distinct between negative and positive emotions compared to Weibo users, and there is a sharper escalation in arousal corresponding with heightened emotions. From language features, we discover that affective expressions are associated with personal life and feelings on Twitter, while on Weibo such discussions are about socio-political topics in the society. These results suggest a West-East difference in the V-shaped relationship between valence and arousal of affective expressions on social media influenced by content differences. Our findings have implications for applications and theories related to cultural differences in affective expressions.
+
+{{</citation>}}
+
+
+## cs.CE (1)
+
+
+
+### (78/89) Distributed Monitoring for Data Distribution Shifts in Edge-ML Fraud Detection (Nader Karayanni et al., 2024)
+
+{{<citation>}}
+
+Nader Karayanni, Robert J. Shahla, Chieh-Lien Hsiao. (2024)  
+**Distributed Monitoring for Data Distribution Shifts in Edge-ML Fraud Detection**  
+
+---
+Primary Category: cs.CE  
+Categories: cs-AI, cs-CE, cs.CE  
+Keywords: Fraud Detection  
+[Paper Link](http://arxiv.org/abs/2401.05219v1)  
+
+---
+
+
+**ABSTRACT**  
+The digital era has seen a marked increase in financial fraud. edge ML emerged as a promising solution for smartphone payment services fraud detection, enabling the deployment of ML models directly on edge devices. This approach enables a more personalized real-time fraud detection. However, a significant gap in current research is the lack of a robust system for monitoring data distribution shifts in these distributed edge ML applications. Our work bridges this gap by introducing a novel open-source framework designed for continuous monitoring of data distribution shifts on a network of edge devices. Our system includes an innovative calculation of the Kolmogorov-Smirnov (KS) test over a distributed network of edge devices, enabling efficient and accurate monitoring of users behavior shifts. We comprehensively evaluate the proposed framework employing both real-world and synthetic financial transaction datasets and demonstrate the framework's effectiveness.
+
+{{</citation>}}
+
+
 ## cs.SE (2)
 
 
 
-### (58/69) Code Review Automation: Strengths and Weaknesses of the State of the Art (Rosalia Tufano et al., 2024)
+### (79/89) Code Review Automation: Strengths and Weaknesses of the State of the Art (Rosalia Tufano et al., 2024)
 
 {{<citation>}}
 
@@ -1352,7 +1833,7 @@ The automation of code review has been tackled by several researchers with the g
 {{</citation>}}
 
 
-### (59/69) Formal Modelling of Safety Architecture for Responsibility-Aware Autonomous Vehicle via Event-B Refinement (Tsutomu Kobayashi et al., 2024)
+### (80/89) Formal Modelling of Safety Architecture for Responsibility-Aware Autonomous Vehicle via Event-B Refinement (Tsutomu Kobayashi et al., 2024)
 
 {{<citation>}}
 
@@ -1378,7 +1859,7 @@ Ensuring the safety of autonomous vehicles (AVs) is the key requisite for their 
 
 
 
-### (60/69) Yes, this is what I was looking for! Towards Multi-modal Medical Consultation Concern Summary Generation (Abhisek Tiwari et al., 2024)
+### (81/89) Yes, this is what I was looking for! Towards Multi-modal Medical Consultation Concern Summary Generation (Abhisek Tiwari et al., 2024)
 
 {{<citation>}}
 
@@ -1404,7 +1885,7 @@ Over the past few years, the use of the Internet for healthcare-related tasks ha
 
 
 
-### (61/69) Singer Identity Representation Learning using Self-Supervised Techniques (Bernardo Torres et al., 2024)
+### (82/89) Singer Identity Representation Learning using Self-Supervised Techniques (Bernardo Torres et al., 2024)
 
 {{<citation>}}
 
@@ -1426,37 +1907,11 @@ Significant strides have been made in creating voice identity representations us
 {{</citation>}}
 
 
-## cs.NI (1)
-
-
-
-### (62/69) DRL-based Latency-Aware Network Slicing in O-RAN with Time-Varying SLAs (Raoul Raftopoulos et al., 2024)
-
-{{<citation>}}
-
-Raoul Raftopoulos, Salvatore D'Oro, Tommaso Melodia, Giovanni Schembra. (2024)  
-**DRL-based Latency-Aware Network Slicing in O-RAN with Time-Varying SLAs**  
-
----
-Primary Category: cs.NI  
-Categories: cs-NI, cs.NI  
-Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2401.05042v2)  
-
----
-
-
-**ABSTRACT**  
-The Open Radio Access Network (Open RAN) paradigm, and its reference architecture proposed by the O-RAN Alliance, is paving the way toward open, interoperable, observable and truly intelligent cellular networks. Crucial to this evolution is Machine Learning (ML), which will play a pivotal role by providing the necessary tools to realize the vision of self-organizing O-RAN systems. However, to be actionable, ML algorithms need to demonstrate high reliability, effectiveness in delivering high performance, and the ability to adapt to varying network conditions, traffic demands and performance requirements. To address these challenges, in this paper we propose a novel Deep Reinforcement Learning (DRL) agent design for O-RAN applications that can learn control policies under varying Service Level Agreement (SLAs) with heterogeneous minimum performance requirements. We focus on the case of RAN slicing and SLAs specifying maximum tolerable end-to-end latency levels. We use the OpenRAN Gym open-source environment to train a DRL agent that can adapt to varying SLAs and compare it against the state-of-the-art. We show that our agent maintains a low SLA violation rate that is 8.3x and 14.4x lower than approaches based on Deep Q- Learning (DQN) and Q-Learning while consuming respectively 0.3x and 0.6x fewer resources without the need for re-training.
-
-{{</citation>}}
-
-
 ## cs.DC (1)
 
 
 
-### (63/69) OTAS: An Elastic Transformer Serving System via Token Adaptation (Jinyu Chen et al., 2024)
+### (83/89) OTAS: An Elastic Transformer Serving System via Token Adaptation (Jinyu Chen et al., 2024)
 
 {{<citation>}}
 
@@ -1482,7 +1937,7 @@ Transformer model empowered architectures have become a pillar of cloud services
 
 
 
-### (64/69) Prompting Large Language Models for Recommender Systems: A Comprehensive Framework and Empirical Analysis (Lanling Xu et al., 2024)
+### (84/89) Prompting Large Language Models for Recommender Systems: A Comprehensive Framework and Empirical Analysis (Lanling Xu et al., 2024)
 
 {{<citation>}}
 
@@ -1504,7 +1959,7 @@ Recently, large language models such as ChatGPT have showcased remarkable abilit
 {{</citation>}}
 
 
-### (65/69) Improving Tag-Clouds as Visual Information Retrieval Interfaces (Yusef Hassan-Montero et al., 2024)
+### (85/89) Improving Tag-Clouds as Visual Information Retrieval Interfaces (Yusef Hassan-Montero et al., 2024)
 
 {{<citation>}}
 
@@ -1530,7 +1985,7 @@ Tagging-based systems enable users to categorize web resources by means of tags 
 
 
 
-### (66/69) Advancing ECG Diagnosis Using Reinforcement Learning on Global Waveform Variations Related to P Wave and PR Interval (Rumsha Fatima et al., 2024)
+### (86/89) Advancing ECG Diagnosis Using Reinforcement Learning on Global Waveform Variations Related to P Wave and PR Interval (Rumsha Fatima et al., 2024)
 
 {{<citation>}}
 
@@ -1556,7 +2011,7 @@ The reliable diagnosis of cardiac conditions through electrocardiogram (ECG) ana
 
 
 
-### (67/69) Fully Decentralized Cooperative Multi-Agent Reinforcement Learning: A Survey (Jiechuan Jiang et al., 2024)
+### (87/89) Fully Decentralized Cooperative Multi-Agent Reinforcement Learning: A Survey (Jiechuan Jiang et al., 2024)
 
 {{<citation>}}
 
@@ -1582,7 +2037,7 @@ Cooperative multi-agent reinforcement learning is a powerful tool to solve many 
 
 
 
-### (68/69) SPT: Spectral Transformer for Red Giant Stars Age and Mass Estimation (Mengmeng Zhang et al., 2024)
+### (88/89) SPT: Spectral Transformer for Red Giant Stars Age and Mass Estimation (Mengmeng Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -1608,7 +2063,7 @@ The age and mass of red giants are essential for understanding the structure and
 
 
 
-### (69/69) Cited But Not Archived: Analyzing the Status of Code References in Scholarly Articles (Emily Escamilla et al., 2024)
+### (89/89) Cited But Not Archived: Analyzing the Status of Code References in Scholarly Articles (Emily Escamilla et al., 2024)
 
 {{<citation>}}
 
