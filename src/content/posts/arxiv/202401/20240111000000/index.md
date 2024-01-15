@@ -302,7 +302,7 @@ Alena Fenogenova, Artem Chervyakov, Nikita Martynov, Anastasia Kozlova, Maria Ti
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2401.04531v1)  
+[Paper Link](http://arxiv.org/abs/2401.04531v2)  
 
 ---
 

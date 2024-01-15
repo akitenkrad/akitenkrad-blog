@@ -27,7 +27,7 @@ math: true
 - [cs.CL (14)](#cscl-14)
 - [eess.SP (2)](#eesssp-2)
 - [cs.CV (19)](#cscv-19)
-- [cs.HC (3)](#cshc-3)
+- [cs.HC (4)](#cshc-4)
 - [cs.RO (4)](#csro-4)
 - [cs.CR (2)](#cscr-2)
 - [cs.IT (1)](#csit-1)
@@ -49,7 +49,7 @@ math: true
 
 
 
-### (1/90) What Is an App Store? The Software Engineering Perspective (Wenhan Zhu et al., 2024)
+### (1/91) What Is an App Store? The Software Engineering Perspective (Wenhan Zhu et al., 2024)
 
 {{<citation>}}
 
@@ -71,7 +71,7 @@ Keywords: Google
 {{</citation>}}
 
 
-### (2/90) LLM4PLC: Harnessing Large Language Models for Verifiable Programming of PLCs in Industrial Control Systems (Mohamad Fakih et al., 2024)
+### (2/91) LLM4PLC: Harnessing Large Language Models for Verifiable Programming of PLCs in Industrial Control Systems (Mohamad Fakih et al., 2024)
 
 {{<citation>}}
 
@@ -93,7 +93,7 @@ Although Large Language Models (LLMs) have established pre-dominance in automate
 {{</citation>}}
 
 
-### (3/90) T-FREX: A Transformer-based Feature Extraction Method from Mobile App Reviews (Quim Motger et al., 2024)
+### (3/91) T-FREX: A Transformer-based Feature Extraction Method from Mobile App Reviews (Quim Motger et al., 2024)
 
 {{<citation>}}
 
@@ -115,7 +115,7 @@ Mobile app reviews are a large-scale data source for software-related knowledge 
 {{</citation>}}
 
 
-### (4/90) Enhanced Automated Code Vulnerability Repair using Large Language Models (David de-Fitero-Dominguez et al., 2024)
+### (4/91) Enhanced Automated Code Vulnerability Repair using Large Language Models (David de-Fitero-Dominguez et al., 2024)
 
 {{<citation>}}
 
@@ -137,7 +137,7 @@ This research addresses the complex challenge of automated repair of code vulner
 {{</citation>}}
 
 
-### (5/90) Assessing AI Detectors in Identifying AI-Generated Code: Implications for Education (Wei Hung Pan et al., 2024)
+### (5/91) Assessing AI Detectors in Identifying AI-Generated Code: Implications for Education (Wei Hung Pan et al., 2024)
 
 {{<citation>}}
 
@@ -159,7 +159,7 @@ Educators are increasingly concerned about the usage of Large Language Models (L
 {{</citation>}}
 
 
-### (6/90) An exploratory study on automatic identification of assumptions in the development of deep learning frameworks (Chen Yang et al., 2024)
+### (6/91) An exploratory study on automatic identification of assumptions in the development of deep learning frameworks (Chen Yang et al., 2024)
 
 {{<citation>}}
 
@@ -185,7 +185,7 @@ Stakeholders constantly make assumptions in the development of deep learning (DL
 
 
 
-### (7/90) FADI-AEC: Fast Score Based Diffusion Model Guided by Far-end Signal for Acoustic Echo Cancellation (Yang Liu et al., 2024)
+### (7/91) FADI-AEC: Fast Score Based Diffusion Model Guided by Far-end Signal for Acoustic Echo Cancellation (Yang Liu et al., 2024)
 
 {{<citation>}}
 
@@ -207,7 +207,7 @@ Despite the potential of diffusion models in speech enhancement, their deploymen
 {{</citation>}}
 
 
-### (8/90) LUPET: Incorporating Hierarchical Information Path into Multilingual ASR (Wei Liu et al., 2024)
+### (8/91) LUPET: Incorporating Hierarchical Information Path into Multilingual ASR (Wei Liu et al., 2024)
 
 {{<citation>}}
 
@@ -233,7 +233,7 @@ Many factors have separately shown their effectiveness on improving multilingual
 
 
 
-### (9/90) Attention versus Contrastive Learning of Tabular Data -- A Data-centric Benchmarking (Shourav B. Rabbani et al., 2024)
+### (9/91) Attention versus Contrastive Learning of Tabular Data -- A Data-centric Benchmarking (Shourav B. Rabbani et al., 2024)
 
 {{<citation>}}
 
@@ -255,7 +255,7 @@ Despite groundbreaking success in image and text learning, deep learning has not
 {{</citation>}}
 
 
-### (10/90) Curiosity & Entropy Driven Unsupervised RL in Multiple Environments (Shaurya Dewan et al., 2024)
+### (10/91) Curiosity & Entropy Driven Unsupervised RL in Multiple Environments (Shaurya Dewan et al., 2024)
 
 {{<citation>}}
 
@@ -277,7 +277,7 @@ The authors of 'Unsupervised Reinforcement Learning in Multiple environments' pr
 {{</citation>}}
 
 
-### (11/90) Mixtral of Experts (Albert Q. Jiang et al., 2024)
+### (11/91) Mixtral of Experts (Albert Q. Jiang et al., 2024)
 
 {{<citation>}}
 
@@ -299,7 +299,7 @@ We introduce Mixtral 8x7B, a Sparse Mixture of Experts (SMoE) language model. Mi
 {{</citation>}}
 
 
-### (12/90) MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts (Maciej Pióro et al., 2024)
+### (12/91) MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts (Maciej Pióro et al., 2024)
 
 {{<citation>}}
 
@@ -321,7 +321,7 @@ State Space Models (SSMs) have become serious contenders in the field of sequent
 {{</citation>}}
 
 
-### (13/90) A Minimaximalist Approach to Reinforcement Learning from Human Feedback (Gokul Swamy et al., 2024)
+### (13/91) A Minimaximalist Approach to Reinforcement Learning from Human Feedback (Gokul Swamy et al., 2024)
 
 {{<citation>}}
 
@@ -343,7 +343,7 @@ We present Self-Play Preference Optimization (SPO), an algorithm for reinforceme
 {{</citation>}}
 
 
-### (14/90) Empirical Analysis of Efficient Fine-Tuning Methods for Large Pre-Trained Language Models (Nigel Doering et al., 2024)
+### (14/91) Empirical Analysis of Efficient Fine-Tuning Methods for Large Pre-Trained Language Models (Nigel Doering et al., 2024)
 
 {{<citation>}}
 
@@ -365,7 +365,7 @@ Fine-tuning large pre-trained language models for downstream tasks remains a cri
 {{</citation>}}
 
 
-### (15/90) Polynomial Precision Dependence Solutions to Alignment Research Center Matrix Completion Problems (Rico Angell, 2024)
+### (15/91) Polynomial Precision Dependence Solutions to Alignment Research Center Matrix Completion Problems (Rico Angell, 2024)
 
 {{<citation>}}
 
@@ -387,7 +387,7 @@ We present solutions to the matrix completion problems proposed by the Alignment
 {{</citation>}}
 
 
-### (16/90) Behavioural Cloning in VizDoom (Ryan Spick et al., 2024)
+### (16/91) Behavioural Cloning in VizDoom (Ryan Spick et al., 2024)
 
 {{<citation>}}
 
@@ -409,7 +409,7 @@ This paper describes methods for training autonomous agents to play the game "Do
 {{</citation>}}
 
 
-### (17/90) Tiny Time Mixers (TTMs): Fast Pretrained Models for Enhanced Zero/Few-Shot Forecasting of Multivariate Time Series (Vijay Ekambaram et al., 2024)
+### (17/91) Tiny Time Mixers (TTMs): Fast Pretrained Models for Enhanced Zero/Few-Shot Forecasting of Multivariate Time Series (Vijay Ekambaram et al., 2024)
 
 {{<citation>}}
 
@@ -431,7 +431,7 @@ Large Pretrained models for zero/few-shot learning excel in language and vision 
 {{</citation>}}
 
 
-### (18/90) Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning (Wenhan Xia et al., 2024)
+### (18/91) Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning (Wenhan Xia et al., 2024)
 
 {{<citation>}}
 
@@ -453,7 +453,7 @@ Fine-tuning is the primary methodology for tailoring pre-trained large language 
 {{</citation>}}
 
 
-### (19/90) A Tensor Network Implementation of Multi Agent Reinforcement Learning (Sunny Howard, 2024)
+### (19/91) A Tensor Network Implementation of Multi Agent Reinforcement Learning (Sunny Howard, 2024)
 
 {{<citation>}}
 
@@ -475,7 +475,7 @@ Recently it has been shown that tensor networks (TNs) have the ability to repres
 {{</citation>}}
 
 
-### (20/90) Inverse Reinforcement Learning with Sub-optimal Experts (Riccardo Poiani et al., 2024)
+### (20/91) Inverse Reinforcement Learning with Sub-optimal Experts (Riccardo Poiani et al., 2024)
 
 {{<citation>}}
 
@@ -497,7 +497,7 @@ Inverse Reinforcement Learning (IRL) techniques deal with the problem of deducin
 {{</citation>}}
 
 
-### (21/90) Inferring Properties of Graph Neural Networks (Dat Nguyen et al., 2024)
+### (21/91) Inferring Properties of Graph Neural Networks (Dat Nguyen et al., 2024)
 
 {{<citation>}}
 
@@ -519,7 +519,7 @@ We propose GNNInfer, the first automatic property inference technique for GNNs. 
 {{</citation>}}
 
 
-### (22/90) Long-term Safe Reinforcement Learning with Binary Feedback (Akifumi Wachi et al., 2024)
+### (22/91) Long-term Safe Reinforcement Learning with Binary Feedback (Akifumi Wachi et al., 2024)
 
 {{<citation>}}
 
@@ -541,7 +541,7 @@ Safety is an indispensable requirement for applying reinforcement learning (RL) 
 {{</citation>}}
 
 
-### (23/90) Adaptive Experimental Design for Policy Learning (Masahiro Kato et al., 2024)
+### (23/91) Adaptive Experimental Design for Policy Learning (Masahiro Kato et al., 2024)
 
 {{<citation>}}
 
@@ -563,7 +563,7 @@ Evidence-based targeting has been a topic of growing interest among the practiti
 {{</citation>}}
 
 
-### (24/90) From Data to Insights: A Comprehensive Survey on Advanced Applications in Thyroid Cancer Research (Xinyu Zhang et al., 2024)
+### (24/91) From Data to Insights: A Comprehensive Survey on Advanced Applications in Thyroid Cancer Research (Xinyu Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -585,7 +585,7 @@ Thyroid cancer, the most prevalent endocrine cancer, has gained significant glob
 {{</citation>}}
 
 
-### (25/90) Universal Time-Series Representation Learning: A Survey (Patara Trirat et al., 2024)
+### (25/91) Universal Time-Series Representation Learning: A Survey (Patara Trirat et al., 2024)
 
 {{<citation>}}
 
@@ -607,7 +607,7 @@ Time-series data exists in every corner of real-world systems and services, rang
 {{</citation>}}
 
 
-### (26/90) Evaluating Brain-Inspired Modular Training in Automated Circuit Discovery for Mechanistic Interpretability (Jatin Nainani, 2024)
+### (26/91) Evaluating Brain-Inspired Modular Training in Automated Circuit Discovery for Mechanistic Interpretability (Jatin Nainani, 2024)
 
 {{<citation>}}
 
@@ -629,7 +629,7 @@ Large Language Models (LLMs) have experienced a rapid rise in AI, changing a wid
 {{</citation>}}
 
 
-### (27/90) Unifying Graph Contrastive Learning via Graph Message Augmentation (Ziyan Zhang et al., 2024)
+### (27/91) Unifying Graph Contrastive Learning via Graph Message Augmentation (Ziyan Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -651,7 +651,7 @@ Graph contrastive learning is usually performed by first conducting Graph Data A
 {{</citation>}}
 
 
-### (28/90) Learn Once Plan Arbitrarily (LOPA): Attention-Enhanced Deep Reinforcement Learning Method for Global Path Planning (Guoming Huang et al., 2024)
+### (28/91) Learn Once Plan Arbitrarily (LOPA): Attention-Enhanced Deep Reinforcement Learning Method for Global Path Planning (Guoming Huang et al., 2024)
 
 {{<citation>}}
 
@@ -677,7 +677,7 @@ Deep reinforcement learning (DRL) methods have recently shown promise in path pl
 
 
 
-### (29/90) MARG: Multi-Agent Review Generation for Scientific Papers (Mike D'Arcy et al., 2024)
+### (29/91) MARG: Multi-Agent Review Generation for Scientific Papers (Mike D'Arcy et al., 2024)
 
 {{<citation>}}
 
@@ -699,7 +699,7 @@ We study the ability of LLMs to generate feedback for scientific papers and deve
 {{</citation>}}
 
 
-### (30/90) Distortions in Judged Spatial Relations in Large Language Models: The Dawn of Natural Language Geographic Data? (Nir Fulman et al., 2024)
+### (30/91) Distortions in Judged Spatial Relations in Large Language Models: The Dawn of Natural Language Geographic Data? (Nir Fulman et al., 2024)
 
 {{<citation>}}
 
@@ -721,7 +721,7 @@ We present a benchmark for assessing the capability of Large Language Models (LL
 {{</citation>}}
 
 
-### (31/90) FFSplit: Split Feed-Forward Network For Optimizing Accuracy-Efficiency Trade-off in Language Model Inference (Zirui Liu et al., 2024)
+### (31/91) FFSplit: Split Feed-Forward Network For Optimizing Accuracy-Efficiency Trade-off in Language Model Inference (Zirui Liu et al., 2024)
 
 {{<citation>}}
 
@@ -743,7 +743,7 @@ The large number of parameters in Pretrained Language Models enhance their perfo
 {{</citation>}}
 
 
-### (32/90) IDoFew: Intermediate Training Using Dual-Clustering in Language Models for Few Labels Text Classification (Abdullah Alsuhaibani et al., 2024)
+### (32/91) IDoFew: Intermediate Training Using Dual-Clustering in Language Models for Few Labels Text Classification (Abdullah Alsuhaibani et al., 2024)
 
 {{<citation>}}
 
@@ -765,7 +765,7 @@ Language models such as Bidirectional Encoder Representations from Transformers 
 {{</citation>}}
 
 
-### (33/90) TextMachina: Seamless Generation of Machine-Generated Text Datasets (Areg Mikael Sarvazyan et al., 2024)
+### (33/91) TextMachina: Seamless Generation of Machine-Generated Text Datasets (Areg Mikael Sarvazyan et al., 2024)
 
 {{<citation>}}
 
@@ -787,7 +787,7 @@ Recent advancements in Large Language Models (LLMs) have led to high-quality Mac
 {{</citation>}}
 
 
-### (34/90) SpeechAgents: Human-Communication Simulation with Multi-Modal Multi-Agent Systems (Dong Zhang et al., 2024)
+### (34/91) SpeechAgents: Human-Communication Simulation with Multi-Modal Multi-Agent Systems (Dong Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -809,7 +809,7 @@ Human communication is a complex and diverse process that not only involves mult
 {{</citation>}}
 
 
-### (35/90) A Philosophical Introduction to Language Models -- Part I: Continuity With Classic Debates (Raphaël Millière et al., 2024)
+### (35/91) A Philosophical Introduction to Language Models -- Part I: Continuity With Classic Debates (Raphaël Millière et al., 2024)
 
 {{<citation>}}
 
@@ -831,7 +831,7 @@ Large language models like GPT-4 have achieved remarkable proficiency in a broad
 {{</citation>}}
 
 
-### (36/90) WEBDial, a Multi-domain, Multitask Statistical Dialogue Framework with RDF (Morgan Veyret et al., 2024)
+### (36/91) WEBDial, a Multi-domain, Multitask Statistical Dialogue Framework with RDF (Morgan Veyret et al., 2024)
 
 {{<citation>}}
 
@@ -853,7 +853,7 @@ Typically available dialogue frameworks have adopted a semantic representation b
 {{</citation>}}
 
 
-### (37/90) Boldly Going Where No Benchmark Has Gone Before: Exposing Bias and Shortcomings in Code Generation Evaluation (Ankit Yadav et al., 2024)
+### (37/91) Boldly Going Where No Benchmark Has Gone Before: Exposing Bias and Shortcomings in Code Generation Evaluation (Ankit Yadav et al., 2024)
 
 {{<citation>}}
 
@@ -875,7 +875,7 @@ Motivated by the increasing popularity of code generation from human description
 {{</citation>}}
 
 
-### (38/90) We Need to Talk About Classification Evaluation Metrics in NLP (Peter Vickers et al., 2024)
+### (38/91) We Need to Talk About Classification Evaluation Metrics in NLP (Peter Vickers et al., 2024)
 
 {{<citation>}}
 
@@ -897,7 +897,7 @@ In Natural Language Processing (NLP) classification tasks such as topic categori
 {{</citation>}}
 
 
-### (39/90) Anatomy of Neural Language Models (Majd Saleh et al., 2024)
+### (39/91) Anatomy of Neural Language Models (Majd Saleh et al., 2024)
 
 {{<citation>}}
 
@@ -919,7 +919,7 @@ Generative AI and transfer learning fields have experienced remarkable advanceme
 {{</citation>}}
 
 
-### (40/90) Language Models Understand Numbers, at Least Partially (Fangwei Zhu et al., 2024)
+### (40/91) Language Models Understand Numbers, at Least Partially (Fangwei Zhu et al., 2024)
 
 {{<citation>}}
 
@@ -941,7 +941,7 @@ Large language models (LLMs) have exhibited impressive competency in various tex
 {{</citation>}}
 
 
-### (41/90) The Butterfly Effect of Altering Prompts: How Small Changes and Jailbreaks Affect Large Language Model Performance (Abel Salinas et al., 2024)
+### (41/91) The Butterfly Effect of Altering Prompts: How Small Changes and Jailbreaks Affect Large Language Model Performance (Abel Salinas et al., 2024)
 
 {{<citation>}}
 
@@ -963,7 +963,7 @@ Large Language Models (LLMs) are regularly being used to label data across many 
 {{</citation>}}
 
 
-### (42/90) Overview of the 2023 ICON Shared Task on Gendered Abuse Detection in Indic Languages (Aatman Vaidya et al., 2024)
+### (42/91) Overview of the 2023 ICON Shared Task on Gendered Abuse Detection in Indic Languages (Aatman Vaidya et al., 2024)
 
 {{<citation>}}
 
@@ -989,7 +989,7 @@ This paper reports the findings of the ICON 2023 on Gendered Abuse Detection in 
 
 
 
-### (43/90) Estimating an Executive Summary of a Time Series: The Tendency (Caio Alves et al., 2024)
+### (43/91) Estimating an Executive Summary of a Time Series: The Tendency (Caio Alves et al., 2024)
 
 {{<citation>}}
 
@@ -1011,7 +1011,7 @@ In this paper we revisit the problem of decomposing a signal into a tendency and
 {{</citation>}}
 
 
-### (44/90) Representation Learning for Wearable-Based Applications in the Case of Missing Data (Janosch Jungo et al., 2024)
+### (44/91) Representation Learning for Wearable-Based Applications in the Case of Missing Data (Janosch Jungo et al., 2024)
 
 {{<citation>}}
 
@@ -1022,7 +1022,7 @@ Janosch Jungo, Yutong Xiang, Shkurta Gashi, Christian Holz. (2024)
 Primary Category: eess.SP  
 Categories: cs-AI, cs-LG, eess-SP, eess.SP  
 Keywords: Representation Learning  
-[Paper Link](http://arxiv.org/abs/2401.05437v1)  
+[Paper Link](http://arxiv.org/abs/2401.05437v2)  
 
 ---
 
@@ -1037,7 +1037,7 @@ Wearable devices continuously collect sensor data and use it to infer an individ
 
 
 
-### (45/90) SOAP: Cross-sensor Domain Adaptation for 3D Object Detection Using Stationary Object Aggregation Pseudo-labelling (Chengjie Huang et al., 2024)
+### (45/91) SOAP: Cross-sensor Domain Adaptation for 3D Object Detection Using Stationary Object Aggregation Pseudo-labelling (Chengjie Huang et al., 2024)
 
 {{<citation>}}
 
@@ -1059,7 +1059,7 @@ We consider the problem of cross-sensor domain adaptation in the context of LiDA
 {{</citation>}}
 
 
-### (46/90) FunnyNet-W: Multimodal Learning of Funny Moments in Videos in the Wild (Zhi-Song Liu et al., 2024)
+### (46/91) FunnyNet-W: Multimodal Learning of Funny Moments in Videos in the Wild (Zhi-Song Liu et al., 2024)
 
 {{<citation>}}
 
@@ -1081,7 +1081,7 @@ Automatically understanding funny moments (i.e., the moments that make people la
 {{</citation>}}
 
 
-### (47/90) GPT-4V(ision) is a Human-Aligned Evaluator for Text-to-3D Generation (Tong Wu et al., 2024)
+### (47/91) GPT-4V(ision) is a Human-Aligned Evaluator for Text-to-3D Generation (Tong Wu et al., 2024)
 
 {{<citation>}}
 
@@ -1103,7 +1103,7 @@ Despite recent advances in text-to-3D generative methods, there is a notable abs
 {{</citation>}}
 
 
-### (48/90) Efficient Multiscale Multimodal Bottleneck Transformer for Audio-Video Classification (Wentao Zhu, 2024)
+### (48/91) Efficient Multiscale Multimodal Bottleneck Transformer for Audio-Video Classification (Wentao Zhu, 2024)
 
 {{<citation>}}
 
@@ -1125,7 +1125,7 @@ In recent years, researchers combine both audio and video signals to deal with c
 {{</citation>}}
 
 
-### (49/90) Efficient Selective Audio Masked Multimodal Bottleneck Transformer for Audio-Video Classification (Wentao Zhu, 2024)
+### (49/91) Efficient Selective Audio Masked Multimodal Bottleneck Transformer for Audio-Video Classification (Wentao Zhu, 2024)
 
 {{<citation>}}
 
@@ -1147,7 +1147,7 @@ Audio and video are two most common modalities in the mainstream media platforms
 {{</citation>}}
 
 
-### (50/90) STAIR: Spatial-Temporal Reasoning with Auditable Intermediate Results for Video Question Answering (Yueqian Wang et al., 2024)
+### (50/91) STAIR: Spatial-Temporal Reasoning with Auditable Intermediate Results for Video Question Answering (Yueqian Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1169,7 +1169,7 @@ Recently we have witnessed the rapid development of video question answering mod
 {{</citation>}}
 
 
-### (51/90) Two-stream joint matching method based on contrastive learning for few-shot action recognition (Long Deng et al., 2024)
+### (51/91) Two-stream joint matching method based on contrastive learning for few-shot action recognition (Long Deng et al., 2024)
 
 {{<citation>}}
 
@@ -1191,7 +1191,7 @@ Although few-shot action recognition based on metric learning paradigm has achie
 {{</citation>}}
 
 
-### (52/90) Gramformer: Learning Crowd Counting via Graph-Modulated Transformer (Hui Lin et al., 2024)
+### (52/91) Gramformer: Learning Crowd Counting via Graph-Modulated Transformer (Hui Lin et al., 2024)
 
 {{<citation>}}
 
@@ -1213,7 +1213,7 @@ Transformer has been popular in recent crowd counting work since it breaks the l
 {{</citation>}}
 
 
-### (53/90) TIER: Text-Image Encoder-based Regression for AIGC Image Quality Assessment (Jiquan Yuan et al., 2024)
+### (53/91) TIER: Text-Image Encoder-based Regression for AIGC Image Quality Assessment (Jiquan Yuan et al., 2024)
 
 {{<citation>}}
 
@@ -1235,7 +1235,7 @@ Recently, AIGC image quality assessment (AIGCIQA), which aims to assess the qual
 {{</citation>}}
 
 
-### (54/90) Aligned with LLM: a new multi-modal training paradigm for encoding fMRI activity in visual cortex (Shuxiao Ma et al., 2024)
+### (54/91) Aligned with LLM: a new multi-modal training paradigm for encoding fMRI activity in visual cortex (Shuxiao Ma et al., 2024)
 
 {{<citation>}}
 
@@ -1257,7 +1257,7 @@ Recently, there has been a surge in the popularity of pre trained large language
 {{</citation>}}
 
 
-### (55/90) UFO: Unidentified Foreground Object Detection in 3D Point Cloud (Hyunjun Choi et al., 2024)
+### (55/91) UFO: Unidentified Foreground Object Detection in 3D Point Cloud (Hyunjun Choi et al., 2024)
 
 {{<citation>}}
 
@@ -1279,7 +1279,7 @@ In this paper, we raise a new issue on Unidentified Foreground Object (UFO) dete
 {{</citation>}}
 
 
-### (56/90) Fully Attentional Networks with Self-emerging Token Labeling (Bingyin Zhao et al., 2024)
+### (56/91) Fully Attentional Networks with Self-emerging Token Labeling (Bingyin Zhao et al., 2024)
 
 {{<citation>}}
 
@@ -1301,7 +1301,7 @@ Recent studies indicate that Vision Transformers (ViTs) are robust against out-o
 {{</citation>}}
 
 
-### (57/90) WidthFormer: Toward Efficient Transformer-based BEV View Transformation (Chenhongyi Yang et al., 2024)
+### (57/91) WidthFormer: Toward Efficient Transformer-based BEV View Transformation (Chenhongyi Yang et al., 2024)
 
 {{<citation>}}
 
@@ -1323,7 +1323,7 @@ In this work, we present WidthFormer, a novel transformer-based Bird's-Eye-View 
 {{</citation>}}
 
 
-### (58/90) Monitoring water contaminants in coastal areas through ML algorithms leveraging atmospherically corrected Sentinel-2 data (Francesca Razzano et al., 2024)
+### (58/91) Monitoring water contaminants in coastal areas through ML algorithms leveraging atmospherically corrected Sentinel-2 data (Francesca Razzano et al., 2024)
 
 {{<citation>}}
 
@@ -1345,7 +1345,7 @@ Monitoring water contaminants is of paramount importance, ensuring public health
 {{</citation>}}
 
 
-### (59/90) Identifying Important Group of Pixels using Interactions (Kosuke Sumiyasu et al., 2024)
+### (59/91) Identifying Important Group of Pixels using Interactions (Kosuke Sumiyasu et al., 2024)
 
 {{<citation>}}
 
@@ -1367,7 +1367,7 @@ To better understand the behavior of image classifiers, it is useful to visualiz
 {{</citation>}}
 
 
-### (60/90) NeRFmentation: NeRF-based Augmentation for Monocular Depth Estimation (Casimir Feldmann et al., 2024)
+### (60/91) NeRFmentation: NeRF-based Augmentation for Monocular Depth Estimation (Casimir Feldmann et al., 2024)
 
 {{<citation>}}
 
@@ -1389,7 +1389,7 @@ The capabilities of monocular depth estimation (MDE) models are limited by the a
 {{</citation>}}
 
 
-### (61/90) Flying Bird Object Detection Algorithm in Surveillance Video (Ziwei Sun et al., 2024)
+### (61/91) Flying Bird Object Detection Algorithm in Surveillance Video (Ziwei Sun et al., 2024)
 
 {{<citation>}}
 
@@ -1411,7 +1411,7 @@ Aiming at the characteristics of the flying bird object in surveillance video, s
 {{</citation>}}
 
 
-### (62/90) FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring (Geunhyuk Youk et al., 2024)
+### (62/91) FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring (Geunhyuk Youk et al., 2024)
 
 {{<citation>}}
 
@@ -1433,7 +1433,7 @@ We present a joint learning scheme of video super-resolution and deblurring, cal
 {{</citation>}}
 
 
-### (63/90) GloTSFormer: Global Video Text Spotting Transformer (Han Wang et al., 2024)
+### (63/91) GloTSFormer: Global Video Text Spotting Transformer (Han Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1455,11 +1455,11 @@ Video Text Spotting (VTS) is a fundamental visual task that aims to predict the 
 {{</citation>}}
 
 
-## cs.HC (3)
+## cs.HC (4)
 
 
 
-### (64/90) Learning Racing From an AI Coach: Effects of Multimodal Autonomous Driving Explanations on Driving Performance, Cognitive Load, Expertise, and Trust (Robert Kaufman et al., 2024)
+### (64/91) Learning Racing From an AI Coach: Effects of Multimodal Autonomous Driving Explanations on Driving Performance, Cognitive Load, Expertise, and Trust (Robert Kaufman et al., 2024)
 
 {{<citation>}}
 
@@ -1481,7 +1481,7 @@ In a pre-post experiment (n = 41), we test the impact of an AI Coach's explanato
 {{</citation>}}
 
 
-### (65/90) The Role of Text in Visualizations: How Annotations Shape Perceptions of Bias and Influence Predictions (Chase Stokes et al., 2024)
+### (65/91) The Role of Text in Visualizations: How Annotations Shape Perceptions of Bias and Influence Predictions (Chase Stokes et al., 2024)
 
 {{<citation>}}
 
@@ -1503,7 +1503,29 @@ This paper investigates the role of text in visualizations, specifically the imp
 {{</citation>}}
 
 
-### (66/90) Bridging the Skills Gap: Evaluating an AI-Assisted Provider Platform to Support Care Providers with Empathetic Delivery of Protocolized Therapy (William R. Kearns et al., 2024)
+### (66/91) Exploring Conversational Agents as an Effective Tool for Measuring Cognitive Biases in Decision-Making (Stephen Pilli, 2024)
+
+{{<citation>}}
+
+Stephen Pilli. (2024)  
+**Exploring Conversational Agents as an Effective Tool for Measuring Cognitive Biases in Decision-Making**  
+
+---
+Primary Category: cs.HC  
+Categories: cs-AI, cs-HC, cs.HC  
+Keywords: Bias  
+[Paper Link](http://arxiv.org/abs/2401.06686v1)  
+
+---
+
+
+**ABSTRACT**  
+Heuristics and cognitive biases are an integral part of human decision-making. Automatically detecting a particular cognitive bias could enable intelligent tools to provide better decision-support. Detecting the presence of a cognitive bias currently requires a hand-crafted experiment and human interpretation. Our research aims to explore conversational agents as an effective tool to measure various cognitive biases in different domains. Our proposed conversational agent incorporates a bias measurement mechanism that is informed by the existing experimental designs and various experimental tasks identified in the literature. Our initial experiments to measure framing and loss-aversion biases indicate that the conversational agents can be effectively used to measure the biases.
+
+{{</citation>}}
+
+
+### (67/91) Bridging the Skills Gap: Evaluating an AI-Assisted Provider Platform to Support Care Providers with Empathetic Delivery of Protocolized Therapy (William R. Kearns et al., 2024)
 
 {{<citation>}}
 
@@ -1529,7 +1551,7 @@ Despite the high prevalence and burden of mental health conditions, there is a g
 
 
 
-### (67/90) RePLan: Robotic Replanning with Perception and Language Models (Marta Skreta et al., 2024)
+### (68/91) RePLan: Robotic Replanning with Perception and Language Models (Marta Skreta et al., 2024)
 
 {{<citation>}}
 
@@ -1551,7 +1573,7 @@ Advancements in large language models (LLMs) have demonstrated their potential i
 {{</citation>}}
 
 
-### (68/90) Digital Twin for Autonomous Surface Vessels for Safe Maritime Navigation (Daniel Menges et al., 2024)
+### (69/91) Digital Twin for Autonomous Surface Vessels for Safe Maritime Navigation (Daniel Menges et al., 2024)
 
 {{<citation>}}
 
@@ -1573,7 +1595,7 @@ Autonomous surface vessels (ASVs) play an increasingly important role in the saf
 {{</citation>}}
 
 
-### (69/90) Task-Oriented Active Learning of Model Preconditions for Inaccurate Dynamics Models (Alex LaGrassa et al., 2024)
+### (70/91) Task-Oriented Active Learning of Model Preconditions for Inaccurate Dynamics Models (Alex LaGrassa et al., 2024)
 
 {{<citation>}}
 
@@ -1595,7 +1617,7 @@ When planning with an inaccurate dynamics model, a practical strategy is to rest
 {{</citation>}}
 
 
-### (70/90) ExTraCT -- Explainable Trajectory Corrections from language inputs using Textual description of features (J-Anne Yow et al., 2024)
+### (71/91) ExTraCT -- Explainable Trajectory Corrections from language inputs using Textual description of features (J-Anne Yow et al., 2024)
 
 {{<citation>}}
 
@@ -1621,7 +1643,7 @@ Natural language provides an intuitive and expressive way of conveying human int
 
 
 
-### (71/90) Security and Privacy Issues in Cloud Storage (Norah Asiri, 2024)
+### (72/91) Security and Privacy Issues in Cloud Storage (Norah Asiri, 2024)
 
 {{<citation>}}
 
@@ -1643,7 +1665,7 @@ Even with the vast potential that cloud computing has, so far, it has not been a
 {{</citation>}}
 
 
-### (72/90) A Study on the Security Requirements Analysis to build a Zero Trust-based Remote Work Environment (Haena Kim et al., 2024)
+### (73/91) A Study on the Security Requirements Analysis to build a Zero Trust-based Remote Work Environment (Haena Kim et al., 2024)
 
 {{<citation>}}
 
@@ -1669,7 +1691,7 @@ Recently, the usage of cloud services has been increasing annually, and with rem
 
 
 
-### (73/90) Physical Layer Security Performance of Dual RIS-aided V2V NOMA Communications (Farshad Rostami Ghadi et al., 2024)
+### (74/91) Physical Layer Security Performance of Dual RIS-aided V2V NOMA Communications (Farshad Rostami Ghadi et al., 2024)
 
 {{<citation>}}
 
@@ -1695,7 +1717,7 @@ This paper investigates the performance of physical layer security (PLS) in a ve
 
 
 
-### (74/90) Unveiling Bias in Fairness Evaluations of Large Language Models: A Critical Literature Review of Music and Movie Recommendation Systems (Chandan Kumar Sah et al., 2024)
+### (75/91) Unveiling Bias in Fairness Evaluations of Large Language Models: A Critical Literature Review of Music and Movie Recommendation Systems (Chandan Kumar Sah et al., 2024)
 
 {{<citation>}}
 
@@ -1717,7 +1739,7 @@ The rise of generative artificial intelligence, particularly Large Language Mode
 {{</citation>}}
 
 
-### (75/90) The Impact of Differential Privacy on Recommendation Accuracy and Popularity Bias (Peter Müllner et al., 2024)
+### (76/91) The Impact of Differential Privacy on Recommendation Accuracy and Popularity Bias (Peter Müllner et al., 2024)
 
 {{<citation>}}
 
@@ -1739,7 +1761,7 @@ Collaborative filtering-based recommender systems leverage vast amounts of behav
 {{</citation>}}
 
 
-### (76/90) Reproducibility Analysis and Enhancements for Multi-Aspect Dense Retriever with Aspect Learning (Keping Bi et al., 2024)
+### (77/91) Reproducibility Analysis and Enhancements for Multi-Aspect Dense Retriever with Aspect Learning (Keping Bi et al., 2024)
 
 {{<citation>}}
 
@@ -1765,7 +1787,7 @@ Multi-aspect dense retrieval aims to incorporate aspect information (e.g., brand
 
 
 
-### (77/90) Large language models in bioinformatics: applications and perspectives (Jiajia Liu et al., 2024)
+### (78/91) Large language models in bioinformatics: applications and perspectives (Jiajia Liu et al., 2024)
 
 {{<citation>}}
 
@@ -1791,7 +1813,7 @@ Large language models (LLMs) are a class of artificial intelligence models based
 
 
 
-### (78/90) Cross-Speaker Encoding Network for Multi-Talker Speech Recognition (Jiawen Kang et al., 2024)
+### (79/91) Cross-Speaker Encoding Network for Multi-Talker Speech Recognition (Jiawen Kang et al., 2024)
 
 {{<citation>}}
 
@@ -1817,7 +1839,7 @@ End-to-end multi-talker speech recognition has garnered great interest as an eff
 
 
 
-### (79/90) Advancing Spatial Reasoning in Large Language Models: An In-Depth Evaluation and Enhancement Using the StepGame Benchmark (Fangjun Li et al., 2024)
+### (80/91) Advancing Spatial Reasoning in Large Language Models: An In-Depth Evaluation and Enhancement Using the StepGame Benchmark (Fangjun Li et al., 2024)
 
 {{<citation>}}
 
@@ -1843,7 +1865,7 @@ Artificial intelligence (AI) has made remarkable progress across various domains
 
 
 
-### (80/90) A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings (Michael Scholkemper et al., 2024)
+### (81/91) A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings (Michael Scholkemper et al., 2024)
 
 {{<citation>}}
 
@@ -1865,7 +1887,7 @@ Distance measures between graphs are important primitives for a variety of learn
 {{</citation>}}
 
 
-### (81/90) GrainGNN: A dynamic graph neural network for predicting 3D grain microstructure (Yigong Qin et al., 2024)
+### (82/91) GrainGNN: A dynamic graph neural network for predicting 3D grain microstructure (Yigong Qin et al., 2024)
 
 {{<citation>}}
 
@@ -1891,7 +1913,7 @@ We propose GrainGNN, a surrogate model for polycrystalline grain formation under
 
 
 
-### (82/90) Attention-Guided Erasing: A Novel Augmentation Method for Enhancing Downstream Breast Density Classification (Adarsh Bhandary Panambur et al., 2024)
+### (83/91) Attention-Guided Erasing: A Novel Augmentation Method for Enhancing Downstream Breast Density Classification (Adarsh Bhandary Panambur et al., 2024)
 
 {{<citation>}}
 
@@ -1913,7 +1935,7 @@ The assessment of breast density is crucial in the context of breast cancer scre
 {{</citation>}}
 
 
-### (83/90) Dual-Channel Reliable Breast Ultrasound Image Classification Based on Explainable Attribution and Uncertainty Quantification (Shuge Lei et al., 2024)
+### (84/91) Dual-Channel Reliable Breast Ultrasound Image Classification Based on Explainable Attribution and Uncertainty Quantification (Shuge Lei et al., 2024)
 
 {{<citation>}}
 
@@ -1939,7 +1961,7 @@ This paper focuses on the classification task of breast ultrasound images and re
 
 
 
-### (84/90) FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs (Shulin Zeng et al., 2024)
+### (85/91) FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs (Shulin Zeng et al., 2024)
 
 {{<citation>}}
 
@@ -1965,7 +1987,7 @@ Transformer-based Large Language Models (LLMs) have made a significant impact on
 
 
 
-### (85/90) Range Reporting for Time Series via Rectangle Stabbing (Lotte Blank et al., 2024)
+### (86/91) Range Reporting for Time Series via Rectangle Stabbing (Lotte Blank et al., 2024)
 
 {{<citation>}}
 
@@ -1991,7 +2013,7 @@ We study the Fr\'echet queries problem. It is a data structure problem, where we
 
 
 
-### (86/90) Can Large Language Models Beat Wall Street? Unveiling the Potential of AI in Stock Selection (Georgios Fatouros et al., 2024)
+### (87/91) Can Large Language Models Beat Wall Street? Unveiling the Potential of AI in Stock Selection (Georgios Fatouros et al., 2024)
 
 {{<citation>}}
 
@@ -2017,7 +2039,7 @@ In the dynamic and data-driven landscape of financial markets, this paper introd
 
 
 
-### (87/90) Sibyl: Forecasting Time-Evolving Query Workloads (Hanxian Huang et al., 2024)
+### (88/91) Sibyl: Forecasting Time-Evolving Query Workloads (Hanxian Huang et al., 2024)
 
 {{<citation>}}
 
@@ -2043,7 +2065,7 @@ Database systems often rely on historical query traces to perform workload-based
 
 
 
-### (88/90) Enhancing Adaptive History Reserving by Spiking Convolutional Block Attention Module in Recurrent Neural Networks (Qi Xu et al., 2024)
+### (89/91) Enhancing Adaptive History Reserving by Spiking Convolutional Block Attention Module in Recurrent Neural Networks (Qi Xu et al., 2024)
 
 {{<citation>}}
 
@@ -2069,7 +2091,7 @@ Spiking neural networks (SNNs) serve as one type of efficient model to process s
 
 
 
-### (89/90) Boosting Column Generation with Graph Neural Networks for Joint Rider Trip Planning and Crew Shift Scheduling (Jiawei Lu et al., 2024)
+### (90/91) Boosting Column Generation with Graph Neural Networks for Joint Rider Trip Planning and Crew Shift Scheduling (Jiawei Lu et al., 2024)
 
 {{<citation>}}
 
@@ -2095,7 +2117,7 @@ Optimizing service schedules is pivotal to the reliable, efficient, and inclusiv
 
 
 
-### (90/90) Why Solving Multi-agent Path Finding with Large Language Model has not Succeeded Yet (Weizhe Chen et al., 2024)
+### (91/91) Why Solving Multi-agent Path Finding with Large Language Model has not Succeeded Yet (Weizhe Chen et al., 2024)
 
 {{<citation>}}
 
