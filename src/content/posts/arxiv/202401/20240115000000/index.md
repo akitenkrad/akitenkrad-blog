@@ -21,15 +21,16 @@ math: true
 
 ## Primary Categories
 
-- [cs.LG (7)](#cslg-7)
+- [cs.LG (8)](#cslg-8)
 - [cs.CR (2)](#cscr-2)
-- [cs.CL (13)](#cscl-13)
-- [cs.HC (4)](#cshc-4)
+- [cs.CL (14)](#cscl-14)
+- [cs.HC (5)](#cshc-5)
 - [cs.NI (2)](#csni-2)
 - [cs.AI (3)](#csai-3)
 - [cs.NE (1)](#csne-1)
-- [cs.CV (8)](#cscv-8)
+- [cs.CV (11)](#cscv-11)
 - [cs.MM (1)](#csmm-1)
+- [stat.ML (1)](#statml-1)
 - [cs.CY (1)](#cscy-1)
 - [quant-ph (2)](#quant-ph-2)
 - [cs.SE (1)](#csse-1)
@@ -37,11 +38,11 @@ math: true
 - [q-bio.QM (1)](#q-bioqm-1)
 - [cs.RO (1)](#csro-1)
 
-## cs.LG (7)
+## cs.LG (8)
 
 
 
-### (1/48) Quantized Side Tuning: Fast and Memory-Efficient Tuning of Quantized Large Language Models (Zhengxin Zhang et al., 2024)
+### (1/55) Quantized Side Tuning: Fast and Memory-Efficient Tuning of Quantized Large Language Models (Zhengxin Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -63,7 +64,7 @@ Finetuning large language models (LLMs) has been empirically effective on a vari
 {{</citation>}}
 
 
-### (2/48) Tensor Graph Convolutional Network for Dynamic Graph Representation Learning (Ling Wang et al., 2024)
+### (2/55) Tensor Graph Convolutional Network for Dynamic Graph Representation Learning (Ling Wang et al., 2024)
 
 {{<citation>}}
 
@@ -85,7 +86,29 @@ Dynamic graphs (DG) describe dynamic interactions between entities in many pract
 {{</citation>}}
 
 
-### (3/48) BP(λ): Online Learning via Synthetic Gradients (Joseph Pemberton et al., 2024)
+### (3/55) Contrastive Learning with Negative Sampling Correction (Lu Wang et al., 2024)
+
+{{<citation>}}
+
+Lu Wang, Chao Du, Pu Zhao, Chuan Luo, Zhangchi Zhu, Bo Qiao, Wei Zhang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang. (2024)  
+**Contrastive Learning with Negative Sampling Correction**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG  
+Keywords: Contrastive Learning  
+[Paper Link](http://arxiv.org/abs/2401.08690v1)  
+
+---
+
+
+**ABSTRACT**  
+As one of the most effective self-supervised representation learning methods, contrastive learning (CL) relies on multiple negative pairs to contrast against each positive pair. In the standard practice of contrastive learning, data augmentation methods are utilized to generate both positive and negative pairs. While existing works have been focusing on improving the positive sampling, the negative sampling process is often overlooked. In fact, the generated negative samples are often polluted by positive samples, which leads to a biased loss and performance degradation. To correct the negative sampling bias, we propose a novel contrastive learning method named Positive-Unlabeled Contrastive Learning (PUCL). PUCL treats the generated negative samples as unlabeled samples and uses information from positive samples to correct bias in contrastive loss. We prove that the corrected loss used in PUCL only incurs a negligible bias compared to the unbiased contrastive loss. PUCL can be applied to general contrastive learning problems and outperforms state-of-the-art methods on various image and graph classification tasks. The code of PUCL is in the supplementary file.
+
+{{</citation>}}
+
+
+### (4/55) BP(λ): Online Learning via Synthetic Gradients (Joseph Pemberton et al., 2024)
 
 {{<citation>}}
 
@@ -107,7 +130,7 @@ Training recurrent neural networks typically relies on backpropagation through t
 {{</citation>}}
 
 
-### (4/48) Edge-Enabled Anomaly Detection and Information Completion for Social Network Knowledge Graphs (Fan Lu et al., 2024)
+### (5/55) Edge-Enabled Anomaly Detection and Information Completion for Social Network Knowledge Graphs (Fan Lu et al., 2024)
 
 {{<citation>}}
 
@@ -129,7 +152,7 @@ In the rapidly advancing information era, various human behaviors are being prec
 {{</citation>}}
 
 
-### (5/48) TemporalAugmenter: An Ensemble Recurrent Based Deep Learning Approach for Signal Classification (Nelly Elsayed et al., 2024)
+### (6/55) TemporalAugmenter: An Ensemble Recurrent Based Deep Learning Approach for Signal Classification (Nelly Elsayed et al., 2024)
 
 {{<citation>}}
 
@@ -151,7 +174,7 @@ Ensemble modeling has been widely used to solve complex problems as it helps to 
 {{</citation>}}
 
 
-### (6/48) Reinforcement Learning for Scalable Train Timetable Rescheduling with Graph Representation (Peng Yue et al., 2024)
+### (7/55) Reinforcement Learning for Scalable Train Timetable Rescheduling with Graph Representation (Peng Yue et al., 2024)
 
 {{<citation>}}
 
@@ -173,7 +196,7 @@ Train timetable rescheduling (TTR) aims to promptly restore the original operati
 {{</citation>}}
 
 
-### (7/48) Accelerated Sampling of Rare Events using a Neural Network Bias Potential (Xinru Hua et al., 2024)
+### (8/55) Accelerated Sampling of Rare Events using a Neural Network Bias Potential (Xinru Hua et al., 2024)
 
 {{<citation>}}
 
@@ -199,7 +222,7 @@ In the field of computational physics and material science, the efficient sampli
 
 
 
-### (8/48) Discovering Command and Control Channels Using Reinforcement Learning (Cheng Wang et al., 2024)
+### (9/55) Discovering Command and Control Channels Using Reinforcement Learning (Cheng Wang et al., 2024)
 
 {{<citation>}}
 
@@ -221,7 +244,7 @@ Command and control (C2) paths for issuing commands to malware are sometimes the
 {{</citation>}}
 
 
-### (9/48) Code Security Vulnerability Repair Using Reinforcement Learning with Large Language Models (Nafis Tanveer Islam et al., 2024)
+### (10/55) Code Security Vulnerability Repair Using Reinforcement Learning with Large Language Models (Nafis Tanveer Islam et al., 2024)
 
 {{<citation>}}
 
@@ -243,11 +266,11 @@ With the recent advancement of Large Language Models (LLMs), generating function
 {{</citation>}}
 
 
-## cs.CL (13)
+## cs.CL (14)
 
 
 
-### (10/48) EHRAgent: Code Empowers Large Language Models for Complex Tabular Reasoning on Electronic Health Records (Wenqi Shi et al., 2024)
+### (11/55) EHRAgent: Code Empowers Large Language Models for Complex Tabular Reasoning on Electronic Health Records (Wenqi Shi et al., 2024)
 
 {{<citation>}}
 
@@ -269,7 +292,29 @@ Large language models (LLMs) have demonstrated exceptional capabilities in plann
 {{</citation>}}
 
 
-### (11/48) Graph Language Models (Moritz Plenz et al., 2024)
+### (12/55) Combining Confidence Elicitation and Sample-based Methods for Uncertainty Quantification in Misinformation Mitigation (Mauricio Rivera et al., 2024)
+
+{{<citation>}}
+
+Mauricio Rivera, Jean-François Godbout, Reihaneh Rabbany, Kellin Pelrine. (2024)  
+**Combining Confidence Elicitation and Sample-based Methods for Uncertainty Quantification in Misinformation Mitigation**  
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keywords: GPT, Language Model, NLP  
+[Paper Link](http://arxiv.org/abs/2401.08694v1)  
+
+---
+
+
+**ABSTRACT**  
+Large Language Models have emerged as prime candidates to tackle misinformation mitigation. However, existing approaches struggle with hallucinations and overconfident predictions. We propose an uncertainty quantification framework that leverages both direct confidence elicitation and sampled-based consistency methods to provide better calibration for NLP misinformation mitigation solutions. We first investigate the calibration of sample-based consistency methods that exploit distinct features of consistency across sample sizes and stochastic levels. Next, we evaluate the performance and distributional shift of a robust numeric verbalization prompt across single vs. two-step confidence elicitation procedure. We also compare the performance of the same prompt with different versions of GPT and different numerical scales. Finally, we combine the sample-based consistency and verbalized methods to propose a hybrid framework that yields a better uncertainty estimation for GPT models. Overall, our work proposes novel uncertainty quantification methods that will improve the reliability of Large Language Models in misinformation mitigation applications.
+
+{{</citation>}}
+
+
+### (13/55) Graph Language Models (Moritz Plenz et al., 2024)
 
 {{<citation>}}
 
@@ -291,7 +336,7 @@ While Language Models have become workhorses for NLP, their interplay with textu
 {{</citation>}}
 
 
-### (12/48) Leveraging Large Language Models for NLG Evaluation: A Survey (Zhen Li et al., 2024)
+### (14/55) Leveraging Large Language Models for NLG Evaluation: A Survey (Zhen Li et al., 2024)
 
 {{<citation>}}
 
@@ -313,7 +358,7 @@ In the rapidly evolving domain of Natural Language Generation (NLG) evaluation, 
 {{</citation>}}
 
 
-### (13/48) A Novel Multi-Stage Prompting Approach for Language Agnostic MCQ Generation using GPT (Subhankar Maity et al., 2024)
+### (15/55) A Novel Multi-Stage Prompting Approach for Language Agnostic MCQ Generation using GPT (Subhankar Maity et al., 2024)
 
 {{<citation>}}
 
@@ -335,7 +380,7 @@ We introduce a multi-stage prompting approach (MSP) for the generation of multip
 {{</citation>}}
 
 
-### (14/48) PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities (Settaluri Lakshmi Sravanthi et al., 2024)
+### (16/55) PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities (Settaluri Lakshmi Sravanthi et al., 2024)
 
 {{<citation>}}
 
@@ -357,7 +402,7 @@ LLMs have demonstrated remarkable capability for understanding semantics, but th
 {{</citation>}}
 
 
-### (15/48) xCoT: Cross-lingual Instruction Tuning for Cross-lingual Chain-of-Thought Reasoning (Linzheng Chai et al., 2024)
+### (17/55) xCoT: Cross-lingual Instruction Tuning for Cross-lingual Chain-of-Thought Reasoning (Linzheng Chai et al., 2024)
 
 {{<citation>}}
 
@@ -379,7 +424,7 @@ Chain-of-thought (CoT) has emerged as a powerful technique to elicit reasoning i
 {{</citation>}}
 
 
-### (16/48) Knowledge Distillation for Closed-Source Language Models (Hongzhan Chen et al., 2024)
+### (18/55) Knowledge Distillation for Closed-Source Language Models (Hongzhan Chen et al., 2024)
 
 {{<citation>}}
 
@@ -401,7 +446,7 @@ Closed-source language models such as GPT-4 have achieved remarkable performance
 {{</citation>}}
 
 
-### (17/48) Extending LLMs' Context Window with 100 Samples (Yikai Zhang et al., 2024)
+### (19/55) Extending LLMs' Context Window with 100 Samples (Yikai Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -423,7 +468,7 @@ Large Language Models (LLMs) are known to have limited extrapolation ability bey
 {{</citation>}}
 
 
-### (18/48) Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization (A F M Saif et al., 2024)
+### (20/55) Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization (A F M Saif et al., 2024)
 
 {{<citation>}}
 
@@ -445,7 +490,7 @@ In this paper, we present a novel bilevel optimization-based training approach t
 {{</citation>}}
 
 
-### (19/48) CHAMP: A Competition-level Dataset for Fine-Grained Analyses of LLMs' Mathematical Reasoning Capabilities (Yujun Mao et al., 2024)
+### (21/55) CHAMP: A Competition-level Dataset for Fine-Grained Analyses of LLMs' Mathematical Reasoning Capabilities (Yujun Mao et al., 2024)
 
 {{<citation>}}
 
@@ -467,7 +512,7 @@ Recent large language models (LLMs) have shown indications of mathematical reaso
 {{</citation>}}
 
 
-### (20/48) Bridging the Preference Gap between Retrievers and LLMs (Zixuan Ke et al., 2024)
+### (22/55) Bridging the Preference Gap between Retrievers and LLMs (Zixuan Ke et al., 2024)
 
 {{<citation>}}
 
@@ -489,7 +534,7 @@ Large Language Models (LLMs) have demonstrated superior results across a wide ra
 {{</citation>}}
 
 
-### (21/48) E^2-LLM: Efficient and Extreme Length Extension of Large Language Models (Jiaheng Liu et al., 2024)
+### (23/55) E^2-LLM: Efficient and Extreme Length Extension of Large Language Models (Jiaheng Liu et al., 2024)
 
 {{<citation>}}
 
@@ -511,7 +556,7 @@ Typically, training LLMs with long context sizes is computationally expensive, r
 {{</citation>}}
 
 
-### (22/48) Knowledge-Centric Templatic Views of Documents (Isabel Cachola et al., 2024)
+### (24/55) Knowledge-Centric Templatic Views of Documents (Isabel Cachola et al., 2024)
 
 {{<citation>}}
 
@@ -533,11 +578,11 @@ Authors seeking to communicate with broader audiences often compose their ideas 
 {{</citation>}}
 
 
-## cs.HC (4)
+## cs.HC (5)
 
 
 
-### (23/48) One Agent Too Many: User Perspectives on Approaches to Multi-agent Conversational AI (Christopher Clarke et al., 2024)
+### (25/55) One Agent Too Many: User Perspectives on Approaches to Multi-agent Conversational AI (Christopher Clarke et al., 2024)
 
 {{<citation>}}
 
@@ -559,7 +604,7 @@ Conversational agents have been gaining increasing popularity in recent years. I
 {{</citation>}}
 
 
-### (24/48) Exploring of Discrete and Continuous Input Control for AI-enhanced Assistive Robotic Arms (Max Pascher et al., 2024)
+### (26/55) Exploring of Discrete and Continuous Input Control for AI-enhanced Assistive Robotic Arms (Max Pascher et al., 2024)
 
 {{<citation>}}
 
@@ -581,7 +626,7 @@ Robotic arms, integral in domestic care for individuals with motor impairments, 
 {{</citation>}}
 
 
-### (25/48) Does More Advice Help? The Effects of Second Opinions in AI-Assisted Decision Making (Zhuoran Lu et al., 2024)
+### (27/55) Does More Advice Help? The Effects of Second Opinions in AI-Assisted Decision Making (Zhuoran Lu et al., 2024)
 
 {{<citation>}}
 
@@ -603,7 +648,7 @@ AI assistance in decision-making has become popular, yet people's inappropriate 
 {{</citation>}}
 
 
-### (26/48) Risk-aware Adaptive Virtual CPU Oversubscription in Microsoft Cloud via Prototypical Human-in-the-loop Imitation Learning (Lu Wang et al., 2024)
+### (28/55) Risk-aware Adaptive Virtual CPU Oversubscription in Microsoft Cloud via Prototypical Human-in-the-loop Imitation Learning (Lu Wang et al., 2024)
 
 {{<citation>}}
 
@@ -625,11 +670,33 @@ Oversubscription is a prevalent practice in cloud services where the system offe
 {{</citation>}}
 
 
+### (29/55) Apple Vision Pro: Comments in Healthcare (Ezequiel Santos et al., 2024)
+
+{{<citation>}}
+
+Ezequiel Santos, Vanessa Castillo. (2024)  
+**Apple Vision Pro: Comments in Healthcare**  
+
+---
+Primary Category: cs.HC  
+Categories: cs-HC, cs.HC  
+Keywords: Google  
+[Paper Link](http://arxiv.org/abs/2401.08685v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper objectively analyzes the emerging discourse surrounding Apple Vision Pro's application in healthcare and medical education. Released in June 2023, Apple Vision Pro represents a significant advancement in spatial computing, combining augmented and virtual reality to create new possibilities in digital interaction. We aim to compile and present recent articles. We used PubMed, IEEE Xplore, Google Scholar, and JSTOR. Non-academic publications were excluded. The results were six commentaries, one a pre-print. All were majorly optimistic, with one mentioning VR/AR sickness. For future research directions, we stress the need for continued exploration of Apple Vision Pro's capabilities and limitations and expect expert opinions to englobe this discussion.
+
+{{</citation>}}
+
+
 ## cs.NI (2)
 
 
 
-### (27/48) Generative AI-enabled Quantum Computing Networks and Intelligent Resource Allocation (Minrui Xu et al., 2024)
+### (30/55) Generative AI-enabled Quantum Computing Networks and Intelligent Resource Allocation (Minrui Xu et al., 2024)
 
 {{<citation>}}
 
@@ -651,7 +718,7 @@ Quantum computing networks enable scalable collaboration and secure information 
 {{</citation>}}
 
 
-### (28/48) 6Rover: Leveraging Reinforcement Learning-based Address Pattern Mining Approach for Discovering Active Targets in IPv6 Unseeded Space (Zhichao Zhang et al., 2024)
+### (31/55) 6Rover: Leveraging Reinforcement Learning-based Address Pattern Mining Approach for Discovering Active Targets in IPv6 Unseeded Space (Zhichao Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -677,7 +744,7 @@ The discovery of active IPv6 addresses represents a pivotal challenge in IPv6 ne
 
 
 
-### (29/48) Open Models, Closed Minds? On Agents Capabilities in Mimicking Human Personalities through Open Large Language Models (Lucio La Cava et al., 2024)
+### (32/55) Open Models, Closed Minds? On Agents Capabilities in Mimicking Human Personalities through Open Large Language Models (Lucio La Cava et al., 2024)
 
 {{<citation>}}
 
@@ -699,7 +766,7 @@ The emergence of unveiling human-like behaviors in Large Language Models (LLMs) 
 {{</citation>}}
 
 
-### (30/48) Aquarium: A Comprehensive Framework for Exploring Predator-Prey Dynamics through Multi-Agent Reinforcement Learning Algorithms (Michael Kölle et al., 2024)
+### (33/55) Aquarium: A Comprehensive Framework for Exploring Predator-Prey Dynamics through Multi-Agent Reinforcement Learning Algorithms (Michael Kölle et al., 2024)
 
 {{<citation>}}
 
@@ -721,7 +788,7 @@ Recent advances in Multi-Agent Reinforcement Learning have prompted the modeling
 {{</citation>}}
 
 
-### (31/48) Distance-aware Attention Reshaping: Enhance Generalization of Neural Solver for Large-scale Vehicle Routing Problems (Yang Wang et al., 2024)
+### (34/55) Distance-aware Attention Reshaping: Enhance Generalization of Neural Solver for Large-scale Vehicle Routing Problems (Yang Wang et al., 2024)
 
 {{<citation>}}
 
@@ -747,7 +814,7 @@ Neural solvers based on attention mechanism have demonstrated remarkable effecti
 
 
 
-### (32/48) Evolving Code with A Large Language Model (Erik Hemberg et al., 2024)
+### (35/55) Evolving Code with A Large Language Model (Erik Hemberg et al., 2024)
 
 {{<citation>}}
 
@@ -769,11 +836,11 @@ Algorithms that use Large Language Models (LLMs) to evolve code arrived on the G
 {{</citation>}}
 
 
-## cs.CV (8)
+## cs.CV (11)
 
 
 
-### (33/48) Exploring Adversarial Attacks against Latent Diffusion Model from the Perspective of Adversarial Transferability (Junxi Chen et al., 2024)
+### (36/55) Exploring Adversarial Attacks against Latent Diffusion Model from the Perspective of Adversarial Transferability (Junxi Chen et al., 2024)
 
 {{<citation>}}
 
@@ -795,7 +862,7 @@ Recently, many studies utilized adversarial examples (AEs) to raise the cost of 
 {{</citation>}}
 
 
-### (34/48) GoMatching: A Simple Baseline for Video Text Spotting via Long and Short Term Matching (Haibin He et al., 2024)
+### (37/55) GoMatching: A Simple Baseline for Video Text Spotting via Long and Short Term Matching (Haibin He et al., 2024)
 
 {{<citation>}}
 
@@ -817,7 +884,7 @@ Beyond the text detection and recognition tasks in image text spotting, video te
 {{</citation>}}
 
 
-### (35/48) Dual-View Data Hallucination with Semantic Relation Guidance for Few-Shot Image Recognition (Hefeng Wu et al., 2024)
+### (38/55) Dual-View Data Hallucination with Semantic Relation Guidance for Few-Shot Image Recognition (Hefeng Wu et al., 2024)
 
 {{<citation>}}
 
@@ -839,7 +906,51 @@ Learning to recognize novel concepts from just a few image samples is very chall
 {{</citation>}}
 
 
-### (36/48) Class-Imbalanced Semi-Supervised Learning for Large-Scale Point Cloud Semantic Segmentation via Decoupling Optimization (Mengtian Li et al., 2024)
+### (39/55) NODI: Out-Of-Distribution Detection with Noise from Diffusion (Jingqiu Zhou et al., 2024)
+
+{{<citation>}}
+
+Jingqiu Zhou, Aojun Zou, Hongshen Li. (2024)  
+**NODI: Out-Of-Distribution Detection with Noise from Diffusion**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-LG, cs.CV  
+Keywords: Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2401.08689v1)  
+
+---
+
+
+**ABSTRACT**  
+Out-of-distribution (OOD) detection is a crucial part of deploying machine learning models safely. It has been extensively studied with a plethora of methods developed in the literature. This problem is tackled with an OOD score computation, however, previous methods compute the OOD scores with limited usage of the in-distribution dataset. For instance, the OOD scores are computed with information from a small portion of the in-distribution data. Furthermore, these methods encode images with a neural image encoder. The robustness of these methods is rarely checked with respect to image encoders of different training methods and architectures. In this work, we introduce the diffusion process into the OOD task. The diffusion model integrates information on the whole training set into the predicted noise vectors. What's more, we deduce a closed-form solution for the noise vector (stable point). Then the noise vector is converted into our OOD score, we test both the deep model predicted noise vector and the closed-form noise vector on the OOD benchmarks \cite{openood}. Our method outperforms previous OOD methods across all types of image encoders (Table. \ref{main}). A $3.5\%$ performance gain is achieved with the MAE-based image encoder. Moreover, we studied the robustness of OOD methods by applying different types of image encoders. Some OOD methods failed to generalize well when switching image encoders from ResNet to Vision Transformers, our method performs exhibits good robustness with all the image encoders.
+
+{{</citation>}}
+
+
+### (40/55) DA-BEV: Unsupervised Domain Adaptation for Bird's Eye View Perception (Kai Jiang et al., 2024)
+
+{{<citation>}}
+
+Kai Jiang, Jiaxing Huang, Weiying Xie, Yunsong Li, Ling Shao, Shijian Lu. (2024)  
+**DA-BEV: Unsupervised Domain Adaptation for Bird's Eye View Perception**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: QA  
+[Paper Link](http://arxiv.org/abs/2401.08687v1)  
+
+---
+
+
+**ABSTRACT**  
+Camera-only Bird's Eye View (BEV) has demonstrated great potential in environment perception in a 3D space. However, most existing studies were conducted under a supervised setup which cannot scale well while handling various new data. Unsupervised domain adaptive BEV, which effective learning from various unlabelled target data, is far under-explored. In this work, we design DA-BEV, the first domain adaptive camera-only BEV framework that addresses domain adaptive BEV challenges by exploiting the complementary nature of image-view features and BEV features. DA-BEV introduces the idea of query into the domain adaptation framework to derive useful information from image-view and BEV features. It consists of two query-based designs, namely, query-based adversarial learning (QAL) and query-based self-training (QST), which exploits image-view features or BEV features to regularize the adaptation of the other. Extensive experiments show that DA-BEV achieves superior domain adaptive BEV perception performance consistently across multiple datasets and tasks such as 3D object detection and 3D scene segmentation.
+
+{{</citation>}}
+
+
+### (41/55) Class-Imbalanced Semi-Supervised Learning for Large-Scale Point Cloud Semantic Segmentation via Decoupling Optimization (Mengtian Li et al., 2024)
 
 {{<citation>}}
 
@@ -861,7 +972,7 @@ Semi-supervised learning (SSL), thanks to the significant reduction of data anno
 {{</citation>}}
 
 
-### (37/48) Domain Adaptation for Large-Vocabulary Object Detectors (Kai Jiang et al., 2024)
+### (42/55) Domain Adaptation for Large-Vocabulary Object Detectors (Kai Jiang et al., 2024)
 
 {{<citation>}}
 
@@ -883,7 +994,7 @@ Large-vocabulary object detectors (LVDs) aim to detect objects of many categorie
 {{</citation>}}
 
 
-### (38/48) Transformer for Object Re-Identification: A Survey (Mang Ye et al., 2024)
+### (43/55) Transformer for Object Re-Identification: A Survey (Mang Ye et al., 2024)
 
 {{<citation>}}
 
@@ -905,7 +1016,29 @@ Object Re-Identification (Re-ID) aims to identify and retrieve specific objects 
 {{</citation>}}
 
 
-### (39/48) EVOKE: Emotion Enabled Virtual Avatar Mapping Using Optimized Knowledge Distillation (Maryam Nadeem et al., 2024)
+### (44/55) Attention Modules Improve Modern Image-Level Anomaly Detection: A DifferNet Case Study (André Luiz B. Vieira e Silva et al., 2024)
+
+{{<citation>}}
+
+André Luiz B. Vieira e Silva, Francisco Simões, Danny Kowerko, Tobias Schlosser, Felipe Battisti, Veronica Teichrieb. (2024)  
+**Attention Modules Improve Modern Image-Level Anomaly Detection: A DifferNet Case Study**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keywords: Anomaly Detection, Attention  
+[Paper Link](http://arxiv.org/abs/2401.08686v1)  
+
+---
+
+
+**ABSTRACT**  
+Within (semi-)automated visual inspection, learning-based approaches for assessing visual defects, including deep neural networks, enable the processing of otherwise small defect patterns in pixel size on high-resolution imagery. The emergence of these often rarely occurring defect patterns explains the general need for labeled data corpora. To not only alleviate this issue but to furthermore advance the current state of the art in unsupervised visual inspection, this contribution proposes a DifferNet-based solution enhanced with attention modules utilizing SENet and CBAM as backbone - AttentDifferNet - to improve the detection and classification capabilities on three different visual inspection and anomaly detection datasets: MVTec AD, InsPLAD-fault, and Semiconductor Wafer. In comparison to the current state of the art, it is shown that AttentDifferNet achieves improved results, which are, in turn, highlighted throughout our quantitative as well as qualitative evaluation, indicated by a general improvement in AUC of 94.34 vs. 92.46, 96.67 vs. 94.69, and 90.20 vs. 88.74%. As our variants to AttentDifferNet show great prospects in the context of currently investigated approaches, a baseline is formulated, emphasizing the importance of attention for anomaly detection.
+
+{{</citation>}}
+
+
+### (45/55) EVOKE: Emotion Enabled Virtual Avatar Mapping Using Optimized Knowledge Distillation (Maryam Nadeem et al., 2024)
 
 {{<citation>}}
 
@@ -927,7 +1060,7 @@ As virtual environments continue to advance, the demand for immersive and emotio
 {{</citation>}}
 
 
-### (40/48) 3D Object Detection and High-Resolution Traffic Parameters Extraction Using Low-Resolution LiDAR Data (Linlin Zhang et al., 2024)
+### (46/55) 3D Object Detection and High-Resolution Traffic Parameters Extraction Using Low-Resolution LiDAR Data (Linlin Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -953,7 +1086,7 @@ Traffic volume data collection is a crucial aspect of transportation engineering
 
 
 
-### (41/48) ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts (Vishruth Veerendranath et al., 2024)
+### (47/55) ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts (Vishruth Veerendranath et al., 2024)
 
 {{<citation>}}
 
@@ -975,11 +1108,37 @@ Film scores are considered an essential part of the film cinematic experience, b
 {{</citation>}}
 
 
+## stat.ML (1)
+
+
+
+### (48/55) Towards Responsible AI in Banking: Addressing Bias for Fair Decision-Making (Alessandro Castelnovo, 2024)
+
+{{<citation>}}
+
+Alessandro Castelnovo. (2024)  
+**Towards Responsible AI in Banking: Addressing Bias for Fair Decision-Making**  
+
+---
+Primary Category: stat.ML  
+Categories: cs-CY, cs-LG, stat-AP, stat-ML, stat.ML  
+Keywords: AI, Bias  
+[Paper Link](http://arxiv.org/abs/2401.08691v1)  
+
+---
+
+
+**ABSTRACT**  
+In an era characterized by the pervasive integration of artificial intelligence into decision-making processes across diverse industries, the demand for trust has never been more pronounced. This thesis embarks on a comprehensive exploration of bias and fairness, with a particular emphasis on their ramifications within the banking sector, where AI-driven decisions bear substantial societal consequences. In this context, the seamless integration of fairness, explainability, and human oversight is of utmost importance, culminating in the establishment of what is commonly referred to as "Responsible AI". This emphasizes the critical nature of addressing biases within the development of a corporate culture that aligns seamlessly with both AI regulations and universal human rights standards, particularly in the realm of automated decision-making systems. Nowadays, embedding ethical principles into the development, training, and deployment of AI models is crucial for compliance with forthcoming European regulations and for promoting societal good. This thesis is structured around three fundamental pillars: understanding bias, mitigating bias, and accounting for bias. These contributions are validated through their practical application in real-world scenarios, in collaboration with Intesa Sanpaolo. This collaborative effort not only contributes to our understanding of fairness but also provides practical tools for the responsible implementation of AI-based decision-making systems. In line with open-source principles, we have released Bias On Demand and FairView as accessible Python packages, further promoting progress in the field of AI fairness.
+
+{{</citation>}}
+
+
 ## cs.CY (1)
 
 
 
-### (42/48) Classifying Proposals of Decentralized Autonomous Organizations Using Large Language Models (Christian Ziegler et al., 2024)
+### (49/55) Classifying Proposals of Decentralized Autonomous Organizations Using Large Language Models (Christian Ziegler et al., 2024)
 
 {{<citation>}}
 
@@ -1005,7 +1164,7 @@ Our study demonstrates the effective use of Large Language Models (LLMs) for aut
 
 
 
-### (43/48) A Reinforcement Learning Environment for Directed Quantum Circuit Synthesis (Michael Kölle et al., 2024)
+### (50/55) A Reinforcement Learning Environment for Directed Quantum Circuit Synthesis (Michael Kölle et al., 2024)
 
 {{<citation>}}
 
@@ -1027,7 +1186,7 @@ With recent advancements in quantum computing technology, optimizing quantum cir
 {{</citation>}}
 
 
-### (44/48) Quantum Advantage Actor-Critic for Reinforcement Learning (Michael Kölle et al., 2024)
+### (51/55) Quantum Advantage Actor-Critic for Reinforcement Learning (Michael Kölle et al., 2024)
 
 {{<citation>}}
 
@@ -1053,7 +1212,7 @@ Quantum computing offers efficient encapsulation of high-dimensional states. In 
 
 
 
-### (45/48) Causative Insights into Open Source Software Security using Large Language Code Embeddings and Semantic Vulnerability Graph (Nafis Tanveer Islam et al., 2024)
+### (52/55) Causative Insights into Open Source Software Security using Large Language Code Embeddings and Semantic Vulnerability Graph (Nafis Tanveer Islam et al., 2024)
 
 {{<citation>}}
 
@@ -1079,7 +1238,7 @@ Open Source Software (OSS) security and resilience are worldwide phenomena hampe
 
 
 
-### (46/48) Empowering Medical Imaging with Artificial Intelligence: A Review of Machine Learning Approaches for the Detection, and Segmentation of COVID-19 Using Radiographic and Tomographic Images (Sayed Amir Mousavi Mobarakeh et al., 2024)
+### (53/55) Empowering Medical Imaging with Artificial Intelligence: A Review of Machine Learning Approaches for the Detection, and Segmentation of COVID-19 Using Radiographic and Tomographic Images (Sayed Amir Mousavi Mobarakeh et al., 2024)
 
 {{<citation>}}
 
@@ -1105,7 +1264,7 @@ Since 2019, the global dissemination of the Coronavirus and its novel strains ha
 
 
 
-### (47/48) NHANES-GCP: Leveraging the Google Cloud Platform and BigQuery ML for reproducible machine learning with data from the National Health and Nutrition Examination Survey (B. Ross Katz et al., 2024)
+### (54/55) NHANES-GCP: Leveraging the Google Cloud Platform and BigQuery ML for reproducible machine learning with data from the National Health and Nutrition Examination Survey (B. Ross Katz et al., 2024)
 
 {{<citation>}}
 
@@ -1131,7 +1290,7 @@ Summary: NHANES, the National Health and Nutrition Examination Survey, is a prog
 
 
 
-### (48/48) ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization (Kourosh Darvish et al., 2024)
+### (55/55) ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization (Kourosh Darvish et al., 2024)
 
 {{<citation>}}
 

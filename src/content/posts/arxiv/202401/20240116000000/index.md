@@ -24,7 +24,7 @@ math: true
 - [cs.CV (8)](#cscv-8)
 - [cs.CY (2)](#cscy-2)
 - [cs.CL (9)](#cscl-9)
-- [cs.AI (3)](#csai-3)
+- [cs.AI (4)](#csai-4)
 - [cs.SE (2)](#csse-2)
 - [cs.CR (1)](#cscr-1)
 - [cs.NE (1)](#csne-1)
@@ -33,13 +33,14 @@ math: true
 - [stat.ML (2)](#statml-2)
 - [cs.LG (5)](#cslg-5)
 - [cs.IR (3)](#csir-3)
+- [cs.AR (1)](#csar-1)
 - [cs.DC (1)](#csdc-1)
 
 ## cs.CV (8)
 
 
 
-### (1/40) A Strong Inductive Bias: Gzip for binary image classification (Marco Scilipoti et al., 2024)
+### (1/42) A Strong Inductive Bias: Gzip for binary image classification (Marco Scilipoti et al., 2024)
 
 {{<citation>}}
 
@@ -61,7 +62,7 @@ Deep learning networks have become the de-facto standard in Computer Vision for 
 {{</citation>}}
 
 
-### (2/40) Harnessing Machine Learning for Discerning AI-Generated Synthetic Images (Yuyang Wang et al., 2024)
+### (2/42) Harnessing Machine Learning for Discerning AI-Generated Synthetic Images (Yuyang Wang et al., 2024)
 
 {{<citation>}}
 
@@ -83,7 +84,7 @@ In the realm of digital media, the advent of AI-generated synthetic images has i
 {{</citation>}}
 
 
-### (3/40) Semi-supervised Semantic Segmentation using Redesigned Self-Training for White Blood Cel (Vinh Quoc Luu et al., 2024)
+### (3/42) Semi-supervised Semantic Segmentation using Redesigned Self-Training for White Blood Cel (Vinh Quoc Luu et al., 2024)
 
 {{<citation>}}
 
@@ -105,7 +106,7 @@ Artificial Intelligence (AI) in healthcare, especially in white blood cell cance
 {{</citation>}}
 
 
-### (4/40) SpineCLUE: Automatic Vertebrae Identification Using Contrastive Learning and Uncertainty Estimation (Sheng Zhang et al., 2024)
+### (4/42) SpineCLUE: Automatic Vertebrae Identification Using Contrastive Learning and Uncertainty Estimation (Sheng Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -127,7 +128,7 @@ Vertebrae identification in arbitrary fields-of-view plays a crucial role in dia
 {{</citation>}}
 
 
-### (5/40) 3D Landmark Detection on Human Point Clouds: A Benchmark and A Dual Cascade Point Transformer Framework (Fan Zhang et al., 2024)
+### (5/42) 3D Landmark Detection on Human Point Clouds: A Benchmark and A Dual Cascade Point Transformer Framework (Fan Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -149,7 +150,7 @@ Keywords: Transformer
 {{</citation>}}
 
 
-### (6/40) MIMIC: Mask Image Pre-training with Mix Contrastive Fine-tuning for Facial Expression Recognition (Fan Zhang et al., 2024)
+### (6/42) MIMIC: Mask Image Pre-training with Mix Contrastive Fine-tuning for Facial Expression Recognition (Fan Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -171,7 +172,7 @@ Cutting-edge research in facial expression recognition (FER) currently favors th
 {{</citation>}}
 
 
-### (7/40) Enhanced Few-Shot Class-Incremental Learning via Ensemble Models (Mingli Zhu et al., 2024)
+### (7/42) Enhanced Few-Shot Class-Incremental Learning via Ensemble Models (Mingli Zhu et al., 2024)
 
 {{<citation>}}
 
@@ -193,7 +194,7 @@ Few-shot class-incremental learning (FSCIL) aims to continually fit new classes 
 {{</citation>}}
 
 
-### (8/40) Left-right Discrepancy for Adversarial Attack on Stereo Networks (Pengfei Wang et al., 2024)
+### (8/42) Left-right Discrepancy for Adversarial Attack on Stereo Networks (Pengfei Wang et al., 2024)
 
 {{<citation>}}
 
@@ -219,7 +220,7 @@ Stereo matching neural networks often involve a Siamese structure to extract int
 
 
 
-### (9/40) How do machines learn? Evaluating the AIcon2abs method (Rubens Lacerda Queiroz et al., 2024)
+### (9/42) How do machines learn? Evaluating the AIcon2abs method (Rubens Lacerda Queiroz et al., 2024)
 
 {{<citation>}}
 
@@ -241,7 +242,7 @@ This paper evaluates AIcon2abs (Queiroz et al., 2021), a recently proposed metho
 {{</citation>}}
 
 
-### (10/40) Generative AI in EU Law: Liability, Privacy, Intellectual Property, and Cybersecurity (Claudio Novelli et al., 2024)
+### (10/42) Generative AI in EU Law: Liability, Privacy, Intellectual Property, and Cybersecurity (Claudio Novelli et al., 2024)
 
 {{<citation>}}
 
@@ -267,7 +268,7 @@ The advent of Generative AI, particularly through Large Language Models (LLMs) l
 
 
 
-### (11/40) DRLC: Reinforcement Learning with Dense Rewards from LLM Critic (Meng Cao et al., 2024)
+### (11/42) DRLC: Reinforcement Learning with Dense Rewards from LLM Critic (Meng Cao et al., 2024)
 
 {{<citation>}}
 
@@ -289,7 +290,7 @@ Reinforcement learning (RL) can align language models with non-differentiable re
 {{</citation>}}
 
 
-### (12/40) Active Learning for NLP with Large Language Models (Xuesong Wang, 2024)
+### (12/42) Active Learning for NLP with Large Language Models (Xuesong Wang, 2024)
 
 {{<citation>}}
 
@@ -311,7 +312,7 @@ Human annotation of training samples is expensive, laborious, and sometimes chal
 {{</citation>}}
 
 
-### (13/40) PersonalityChat: Conversation Distillation for Personalized Dialog Modeling with Facts and Traits (Ehsan Lotfi et al., 2024)
+### (13/42) PersonalityChat: Conversation Distillation for Personalized Dialog Modeling with Facts and Traits (Ehsan Lotfi et al., 2024)
 
 {{<citation>}}
 
@@ -333,7 +334,7 @@ The new wave of Large Language Models (LLM) has offered an efficient tool to cur
 {{</citation>}}
 
 
-### (14/40) Promptformer: Prompted Conformer Transducer for ASR (Sergio Duarte-Torres et al., 2024)
+### (14/42) Promptformer: Prompted Conformer Transducer for ASR (Sergio Duarte-Torres et al., 2024)
 
 {{<citation>}}
 
@@ -355,7 +356,7 @@ Context cues carry information which can improve multi-turn interactions in auto
 {{</citation>}}
 
 
-### (15/40) ELLA-V: Stable Neural Codec Language Modeling with Alignment-guided Sequence Reordering (Yakun Song et al., 2024)
+### (15/42) ELLA-V: Stable Neural Codec Language Modeling with Alignment-guided Sequence Reordering (Yakun Song et al., 2024)
 
 {{<citation>}}
 
@@ -377,7 +378,7 @@ The language model (LM) approach based on acoustic and linguistic prompts, such 
 {{</citation>}}
 
 
-### (16/40) Harnessing Large Language Models Over Transformer Models for Detecting Bengali Depressive Social Media Text: A Comprehensive Study (Ahmadul Karim Chowdhury et al., 2024)
+### (16/42) Harnessing Large Language Models Over Transformer Models for Detecting Bengali Depressive Social Media Text: A Comprehensive Study (Ahmadul Karim Chowdhury et al., 2024)
 
 {{<citation>}}
 
@@ -399,7 +400,7 @@ In an era where the silent struggle of underdiagnosed depression pervades global
 {{</citation>}}
 
 
-### (17/40) Small Language Model Can Self-correct (Haixia Han et al., 2024)
+### (17/42) Small Language Model Can Self-correct (Haixia Han et al., 2024)
 
 {{<citation>}}
 
@@ -421,7 +422,7 @@ Generative Language Models (LMs) such as ChatGPT have exhibited remarkable perfo
 {{</citation>}}
 
 
-### (18/40) CANDLE: Iterative Conceptualization and Instantiation Distillation from Large Language Models for Commonsense Reasoning (Weiqi Wang et al., 2024)
+### (18/42) CANDLE: Iterative Conceptualization and Instantiation Distillation from Large Language Models for Commonsense Reasoning (Weiqi Wang et al., 2024)
 
 {{<citation>}}
 
@@ -443,7 +444,7 @@ The sequential process of conceptualization and instantiation is essential to ge
 {{</citation>}}
 
 
-### (19/40) Distilling Event Sequence Knowledge From Large Language Models (Somin Wadhwa et al., 2024)
+### (19/42) Distilling Event Sequence Knowledge From Large Language Models (Somin Wadhwa et al., 2024)
 
 {{<citation>}}
 
@@ -465,11 +466,11 @@ Event sequence models have been found to be highly effective in the analysis and
 {{</citation>}}
 
 
-## cs.AI (3)
+## cs.AI (4)
 
 
 
-### (20/40) Reliability and Interpretability in Science and Deep Learning (Luigi Scorzato, 2024)
+### (20/42) Reliability and Interpretability in Science and Deep Learning (Luigi Scorzato, 2024)
 
 {{<citation>}}
 
@@ -491,7 +492,7 @@ In recent years, the question of the reliability of Machine Learning (ML) method
 {{</citation>}}
 
 
-### (21/40) Small LLMs Are Weak Tool Learners: A Multi-LLM Agent (Weizhou Shen et al., 2024)
+### (21/42) Small LLMs Are Weak Tool Learners: A Multi-LLM Agent (Weizhou Shen et al., 2024)
 
 {{<citation>}}
 
@@ -513,7 +514,7 @@ Large Language Model (LLM) agents significantly extend the capabilities of stand
 {{</citation>}}
 
 
-### (22/40) MapGPT: Map-Guided Prompting for Unified Vision-and-Language Navigation (Jiaqi Chen et al., 2024)
+### (22/42) MapGPT: Map-Guided Prompting for Unified Vision-and-Language Navigation (Jiaqi Chen et al., 2024)
 
 {{<citation>}}
 
@@ -535,11 +536,33 @@ Embodied agents equipped with GPT as their brain have exhibited extraordinary th
 {{</citation>}}
 
 
+### (23/42) Enabling Collaborative Clinical Diagnosis of Infectious Keratitis by Integrating Expert Knowledge and Interpretable Data-driven Intelligence (Zhengqing Fang et al., 2024)
+
+{{<citation>}}
+
+Zhengqing Fang, Shuowen Zhou, Zhouhang Yuan, Yuxuan Si, Mengze Li, Jinxu Li, Yesheng Xu, Wenjia Xie, Kun Kuang, Yingming Li, Fei Wu, Yu-Feng Yao. (2024)  
+**Enabling Collaborative Clinical Diagnosis of Infectious Keratitis by Integrating Expert Knowledge and Interpretable Data-driven Intelligence**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs-CV, cs-HC, cs.AI  
+Keywords: AI, Clinical  
+[Paper Link](http://arxiv.org/abs/2401.08695v1)  
+
+---
+
+
+**ABSTRACT**  
+Although data-driven artificial intelligence (AI) in medical image diagnosis has shown impressive performance in silico, the lack of interpretability makes it difficult to incorporate the "black box" into clinicians' workflows. To make the diagnostic patterns learned from data understandable by clinicians, we develop an interpretable model, knowledge-guided diagnosis model (KGDM), that provides a visualized reasoning process containing AI-based biomarkers and retrieved cases that with the same diagnostic patterns. It embraces clinicians' prompts into the interpreted reasoning through human-AI interaction, leading to potentially enhanced safety and more accurate predictions. This study investigates the performance, interpretability, and clinical utility of KGDM in the diagnosis of infectious keratitis (IK), which is the leading cause of corneal blindness. The classification performance of KGDM is evaluated on a prospective validation dataset, an external testing dataset, and an publicly available testing dataset. The diagnostic odds ratios (DOR) of the interpreted AI-based biomarkers are effective, ranging from 3.011 to 35.233 and exhibit consistent diagnostic patterns with clinic experience. Moreover, a human-AI collaborative diagnosis test is conducted and the participants with collaboration achieved a performance exceeding that of both humans and AI. By synergistically integrating interpretability and interaction, this study facilitates the convergence of clinicians' expertise and data-driven intelligence. The promotion of inexperienced ophthalmologists with the aid of AI-based biomarkers, as well as increased AI prediction by intervention from experienced ones, demonstrate a promising diagnostic paradigm for infectious keratitis using KGDM, which holds the potential for extension to other diseases where experienced medical practitioners are limited and the safety of AI is concerned.
+
+{{</citation>}}
+
+
 ## cs.SE (2)
 
 
 
-### (23/40) Towards Engineering Fair and Equitable Software Systems for Managing Low-Altitude Airspace Authorizations (Usman Gohar et al., 2024)
+### (24/42) Towards Engineering Fair and Equitable Software Systems for Managing Low-Altitude Airspace Authorizations (Usman Gohar et al., 2024)
 
 {{<citation>}}
 
@@ -561,7 +584,7 @@ Small Unmanned Aircraft Systems (sUAS) have gained widespread adoption across a 
 {{</citation>}}
 
 
-### (24/40) CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges (Kechi Zhang et al., 2024)
+### (25/42) CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges (Kechi Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -587,7 +610,7 @@ Large Language Models (LLMs) have shown promise in automated code generation but
 
 
 
-### (25/40) Privacy-Preserving Intrusion Detection in Software-defined VANET using Federated Learning with BERT (Shakil Ibne Ahsan et al., 2024)
+### (26/42) Privacy-Preserving Intrusion Detection in Software-defined VANET using Federated Learning with BERT (Shakil Ibne Ahsan et al., 2024)
 
 {{<citation>}}
 
@@ -598,7 +621,7 @@ Shakil Ibne Ahsan, Phil Legg, S M Iftekharul Alam. (2024)
 Primary Category: cs.CR  
 Categories: cs-CR, cs.CR  
 Keywords: BERT, Intrusion Detection  
-[Paper Link](http://arxiv.org/abs/2401.07343v1)  
+[Paper Link](http://arxiv.org/abs/2401.07343v2)  
 
 ---
 
@@ -613,7 +636,7 @@ The absence of robust security protocols renders the VANET (Vehicle ad-hoc Netwo
 
 
 
-### (26/40) Attention-based UNet enabled Lightweight Image Semantic Communication System over Internet of Things (Guoxin Ma et al., 2024)
+### (27/42) Attention-based UNet enabled Lightweight Image Semantic Communication System over Internet of Things (Guoxin Ma et al., 2024)
 
 {{<citation>}}
 
@@ -639,7 +662,7 @@ This paper studies the problem of the lightweight image semantic communication s
 
 
 
-### (27/40) Understanding Nonlinear Collaboration between Human and AI Agents: A Co-design Framework for Creative Design (JiayiZhou. Renzhong Li et al., 2024)
+### (28/42) Understanding Nonlinear Collaboration between Human and AI Agents: A Co-design Framework for Creative Design (JiayiZhou. Renzhong Li et al., 2024)
 
 {{<citation>}}
 
@@ -661,7 +684,7 @@ Creative design is a nonlinear process where designers generate diverse ideas in
 {{</citation>}}
 
 
-### (28/40) Understanding Emotional Disclosure via Diary-keeping in Quarantine on Social Media (Yue Deng et al., 2024)
+### (29/42) Understanding Emotional Disclosure via Diary-keeping in Quarantine on Social Media (Yue Deng et al., 2024)
 
 {{<citation>}}
 
@@ -687,7 +710,7 @@ Quarantine is a widely-adopted measure during health crises caused by highly-con
 
 
 
-### (29/40) Multi-Physics Model Bias Correction with Data-Driven Reduced Order Modelling Techniques: Application to Nuclear Case Studies (Stefano Riva et al., 2024)
+### (30/42) Multi-Physics Model Bias Correction with Data-Driven Reduced Order Modelling Techniques: Application to Nuclear Case Studies (Stefano Riva et al., 2024)
 
 {{<citation>}}
 
@@ -713,7 +736,7 @@ Nowadays, interest in combining mathematical knowledge about phenomena and data 
 
 
 
-### (30/40) Efficient Frameworks for Generalized Low-Rank Matrix Bandit Problems (Yue Kang et al., 2024)
+### (31/42) Efficient Frameworks for Generalized Low-Rank Matrix Bandit Problems (Yue Kang et al., 2024)
 
 {{<citation>}}
 
@@ -735,7 +758,7 @@ In the stochastic contextual low-rank matrix bandit problem, the expected reward
 {{</citation>}}
 
 
-### (31/40) A Survey on Statistical Theory of Deep Learning: Approximation, Training Dynamics, and Generative Models (Namjoon Suh et al., 2024)
+### (32/42) A Survey on Statistical Theory of Deep Learning: Approximation, Training Dynamics, and Generative Models (Namjoon Suh et al., 2024)
 
 {{<citation>}}
 
@@ -761,7 +784,7 @@ In this article, we review the literature on statistical theories of neural netw
 
 
 
-### (32/40) BET: Explaining Deep Reinforcement Learning through The Error-Prone Decisions (Xiao Liu et al., 2024)
+### (33/42) BET: Explaining Deep Reinforcement Learning through The Error-Prone Decisions (Xiao Liu et al., 2024)
 
 {{<citation>}}
 
@@ -783,7 +806,7 @@ Despite the impressive capabilities of Deep Reinforcement Learning (DRL) agents 
 {{</citation>}}
 
 
-### (33/40) Imputation with Inter-Series Information from Prototypes for Irregular Sampled Time Series (Zhihao Yu et al., 2024)
+### (34/42) Imputation with Inter-Series Information from Prototypes for Irregular Sampled Time Series (Zhihao Yu et al., 2024)
 
 {{<citation>}}
 
@@ -805,7 +828,7 @@ Irregularly sampled time series are ubiquitous, presenting significant challenge
 {{</citation>}}
 
 
-### (34/40) The Effects of Data Imbalance Under a Federated Learning Approach for Credit Risk Forecasting (Shuyao Zhang et al., 2024)
+### (35/42) The Effects of Data Imbalance Under a Federated Learning Approach for Credit Risk Forecasting (Shuyao Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -827,18 +850,18 @@ Credit risk forecasting plays a crucial role for commercial banks and other fina
 {{</citation>}}
 
 
-### (35/40) Use of Prior Knowledge to Discover Causal Additive Models with Unobserved Variables and its Application to Time Series Data (Takashi Nicholas Maeda et al., 2024)
+### (36/42) Use of Prior Knowledge to Discover Causal Additive Models with Unobserved Variables and its Application to Time Series Data (Takashi Nicholas Maeda et al., 2024)
 
 {{<citation>}}
 
-Takashi Nicholas Maeda, Shimizu Shohei. (2024)  
+Takashi Nicholas Maeda, Shohei Shohei. (2024)  
 **Use of Prior Knowledge to Discover Causal Additive Models with Unobserved Variables and its Application to Time Series Data**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, stat-ME, stat-ML  
 Keywords: Time Series  
-[Paper Link](http://arxiv.org/abs/2401.07231v1)  
+[Paper Link](http://arxiv.org/abs/2401.07231v2)  
 
 ---
 
@@ -849,7 +872,7 @@ This paper proposes two methods for causal additive models with unobserved varia
 {{</citation>}}
 
 
-### (36/40) Reinforcement Learning from LLM Feedback to Counteract Goal Misgeneralization (Houda Nait El Barj et al., 2024)
+### (37/42) Reinforcement Learning from LLM Feedback to Counteract Goal Misgeneralization (Houda Nait El Barj et al., 2024)
 
 {{<citation>}}
 
@@ -875,7 +898,7 @@ We introduce a method to address goal misgeneralization in reinforcement learnin
 
 
 
-### (37/40) Lightweight Modality Adaptation to Sequential Recommendation via Correlation Supervision (Hengchang Hu et al., 2024)
+### (38/42) Lightweight Modality Adaptation to Sequential Recommendation via Correlation Supervision (Hengchang Hu et al., 2024)
 
 {{<citation>}}
 
@@ -897,7 +920,7 @@ In Sequential Recommenders (SR), encoding and utilizing modalities in an end-to-
 {{</citation>}}
 
 
-### (38/40) Walert: Putting Conversational Search Knowledge into Action by Building and Evaluating a Large Language Model-Powered Chatbot (Sachin Pathiyan Cherumanal et al., 2024)
+### (39/42) Walert: Putting Conversational Search Knowledge into Action by Building and Evaluating a Large Language Model-Powered Chatbot (Sachin Pathiyan Cherumanal et al., 2024)
 
 {{<citation>}}
 
@@ -919,7 +942,7 @@ Creating and deploying customized applications is crucial for operational succes
 {{</citation>}}
 
 
-### (39/40) HiHPQ: Hierarchical Hyperbolic Product Quantization for Unsupervised Image Retrieval (Zexuan Qiu et al., 2024)
+### (40/42) HiHPQ: Hierarchical Hyperbolic Product Quantization for Unsupervised Image Retrieval (Zexuan Qiu et al., 2024)
 
 {{<citation>}}
 
@@ -941,11 +964,37 @@ Existing unsupervised deep product quantization methods primarily aim for the in
 {{</citation>}}
 
 
+## cs.AR (1)
+
+
+
+### (41/42) Hierarchical Source-to-Post-Route QoR Prediction in High-Level Synthesis with GNNs (Mingzhe Gao et al., 2024)
+
+{{<citation>}}
+
+Mingzhe Gao, Jieru Zhao, Zhe Lin, Minyi Guo. (2024)  
+**Hierarchical Source-to-Post-Route QoR Prediction in High-Level Synthesis with GNNs**  
+
+---
+Primary Category: cs.AR  
+Categories: cs-AI, cs-AR, cs-LG, cs.AR  
+Keywords: GNN  
+[Paper Link](http://arxiv.org/abs/2401.08696v1)  
+
+---
+
+
+**ABSTRACT**  
+High-level synthesis (HLS) notably speeds up the hardware design process by avoiding RTL programming. However, the turnaround time of HLS increases significantly when post-route quality of results (QoR) are considered during optimization. To tackle this issue, we propose a hierarchical post-route QoR prediction approach for FPGA HLS, which features: (1) a modeling flow that directly estimates latency and post-route resource usage from C/C++ programs; (2) a graph construction method that effectively represents the control and data flow graph of source code and effects of HLS pragmas; and (3) a hierarchical GNN training and prediction method capable of capturing the impact of loop hierarchies. Experimental results show that our method presents a prediction error of less than 10% for different types of QoR metrics, which gains tremendous improvement compared with the state-of-the-art GNN methods. By adopting our proposed methodology, the runtime for design space exploration in HLS is shortened to tens of minutes and the achieved ADRS is reduced to 6.91% on average.
+
+{{</citation>}}
+
+
 ## cs.DC (1)
 
 
 
-### (40/40) Resource Allocation of Industry 4.0 Micro-Service Applications across Serverless Fog Federation (Razin Farhan Hussain et al., 2024)
+### (42/42) Resource Allocation of Industry 4.0 Micro-Service Applications across Serverless Fog Federation (Razin Farhan Hussain et al., 2024)
 
 {{<citation>}}
 
