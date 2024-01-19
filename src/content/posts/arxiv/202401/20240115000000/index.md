@@ -28,7 +28,7 @@ math: true
 - [cs.NI (2)](#csni-2)
 - [cs.AI (3)](#csai-3)
 - [cs.NE (1)](#csne-1)
-- [cs.CV (11)](#cscv-11)
+- [cs.CV (12)](#cscv-12)
 - [cs.MM (1)](#csmm-1)
 - [stat.ML (1)](#statml-1)
 - [cs.CY (1)](#cscy-1)
@@ -42,7 +42,7 @@ math: true
 
 
 
-### (1/55) Quantized Side Tuning: Fast and Memory-Efficient Tuning of Quantized Large Language Models (Zhengxin Zhang et al., 2024)
+### (1/56) Quantized Side Tuning: Fast and Memory-Efficient Tuning of Quantized Large Language Models (Zhengxin Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -64,7 +64,7 @@ Finetuning large language models (LLMs) has been empirically effective on a vari
 {{</citation>}}
 
 
-### (2/55) Tensor Graph Convolutional Network for Dynamic Graph Representation Learning (Ling Wang et al., 2024)
+### (2/56) Tensor Graph Convolutional Network for Dynamic Graph Representation Learning (Ling Wang et al., 2024)
 
 {{<citation>}}
 
@@ -86,7 +86,7 @@ Dynamic graphs (DG) describe dynamic interactions between entities in many pract
 {{</citation>}}
 
 
-### (3/55) Contrastive Learning with Negative Sampling Correction (Lu Wang et al., 2024)
+### (3/56) Contrastive Learning with Negative Sampling Correction (Lu Wang et al., 2024)
 
 {{<citation>}}
 
@@ -108,7 +108,7 @@ As one of the most effective self-supervised representation learning methods, co
 {{</citation>}}
 
 
-### (4/55) BP(λ): Online Learning via Synthetic Gradients (Joseph Pemberton et al., 2024)
+### (4/56) BP(λ): Online Learning via Synthetic Gradients (Joseph Pemberton et al., 2024)
 
 {{<citation>}}
 
@@ -130,7 +130,7 @@ Training recurrent neural networks typically relies on backpropagation through t
 {{</citation>}}
 
 
-### (5/55) Edge-Enabled Anomaly Detection and Information Completion for Social Network Knowledge Graphs (Fan Lu et al., 2024)
+### (5/56) Edge-Enabled Anomaly Detection and Information Completion for Social Network Knowledge Graphs (Fan Lu et al., 2024)
 
 {{<citation>}}
 
@@ -152,7 +152,7 @@ In the rapidly advancing information era, various human behaviors are being prec
 {{</citation>}}
 
 
-### (6/55) TemporalAugmenter: An Ensemble Recurrent Based Deep Learning Approach for Signal Classification (Nelly Elsayed et al., 2024)
+### (6/56) TemporalAugmenter: An Ensemble Recurrent Based Deep Learning Approach for Signal Classification (Nelly Elsayed et al., 2024)
 
 {{<citation>}}
 
@@ -174,7 +174,7 @@ Ensemble modeling has been widely used to solve complex problems as it helps to 
 {{</citation>}}
 
 
-### (7/55) Reinforcement Learning for Scalable Train Timetable Rescheduling with Graph Representation (Peng Yue et al., 2024)
+### (7/56) Reinforcement Learning for Scalable Train Timetable Rescheduling with Graph Representation (Peng Yue et al., 2024)
 
 {{<citation>}}
 
@@ -196,7 +196,7 @@ Train timetable rescheduling (TTR) aims to promptly restore the original operati
 {{</citation>}}
 
 
-### (8/55) Accelerated Sampling of Rare Events using a Neural Network Bias Potential (Xinru Hua et al., 2024)
+### (8/56) Accelerated Sampling of Rare Events using a Neural Network Bias Potential (Xinru Hua et al., 2024)
 
 {{<citation>}}
 
@@ -222,7 +222,7 @@ In the field of computational physics and material science, the efficient sampli
 
 
 
-### (9/55) Discovering Command and Control Channels Using Reinforcement Learning (Cheng Wang et al., 2024)
+### (9/56) Discovering Command and Control Channels Using Reinforcement Learning (Cheng Wang et al., 2024)
 
 {{<citation>}}
 
@@ -244,7 +244,7 @@ Command and control (C2) paths for issuing commands to malware are sometimes the
 {{</citation>}}
 
 
-### (10/55) Code Security Vulnerability Repair Using Reinforcement Learning with Large Language Models (Nafis Tanveer Islam et al., 2024)
+### (10/56) Code Security Vulnerability Repair Using Reinforcement Learning with Large Language Models (Nafis Tanveer Islam et al., 2024)
 
 {{<citation>}}
 
@@ -270,7 +270,7 @@ With the recent advancement of Large Language Models (LLMs), generating function
 
 
 
-### (11/55) EHRAgent: Code Empowers Large Language Models for Complex Tabular Reasoning on Electronic Health Records (Wenqi Shi et al., 2024)
+### (11/56) EHRAgent: Code Empowers Large Language Models for Complex Tabular Reasoning on Electronic Health Records (Wenqi Shi et al., 2024)
 
 {{<citation>}}
 
@@ -292,7 +292,7 @@ Large language models (LLMs) have demonstrated exceptional capabilities in plann
 {{</citation>}}
 
 
-### (12/55) Combining Confidence Elicitation and Sample-based Methods for Uncertainty Quantification in Misinformation Mitigation (Mauricio Rivera et al., 2024)
+### (12/56) Combining Confidence Elicitation and Sample-based Methods for Uncertainty Quantification in Misinformation Mitigation (Mauricio Rivera et al., 2024)
 
 {{<citation>}}
 
@@ -314,7 +314,7 @@ Large Language Models have emerged as prime candidates to tackle misinformation 
 {{</citation>}}
 
 
-### (13/55) Graph Language Models (Moritz Plenz et al., 2024)
+### (13/56) Graph Language Models (Moritz Plenz et al., 2024)
 
 {{<citation>}}
 
@@ -336,7 +336,7 @@ While Language Models have become workhorses for NLP, their interplay with textu
 {{</citation>}}
 
 
-### (14/55) Leveraging Large Language Models for NLG Evaluation: A Survey (Zhen Li et al., 2024)
+### (14/56) Leveraging Large Language Models for NLG Evaluation: A Survey (Zhen Li et al., 2024)
 
 {{<citation>}}
 
@@ -358,7 +358,7 @@ In the rapidly evolving domain of Natural Language Generation (NLG) evaluation, 
 {{</citation>}}
 
 
-### (15/55) A Novel Multi-Stage Prompting Approach for Language Agnostic MCQ Generation using GPT (Subhankar Maity et al., 2024)
+### (15/56) A Novel Multi-Stage Prompting Approach for Language Agnostic MCQ Generation using GPT (Subhankar Maity et al., 2024)
 
 {{<citation>}}
 
@@ -380,7 +380,7 @@ We introduce a multi-stage prompting approach (MSP) for the generation of multip
 {{</citation>}}
 
 
-### (16/55) PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities (Settaluri Lakshmi Sravanthi et al., 2024)
+### (16/56) PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities (Settaluri Lakshmi Sravanthi et al., 2024)
 
 {{<citation>}}
 
@@ -402,7 +402,7 @@ LLMs have demonstrated remarkable capability for understanding semantics, but th
 {{</citation>}}
 
 
-### (17/55) xCoT: Cross-lingual Instruction Tuning for Cross-lingual Chain-of-Thought Reasoning (Linzheng Chai et al., 2024)
+### (17/56) xCoT: Cross-lingual Instruction Tuning for Cross-lingual Chain-of-Thought Reasoning (Linzheng Chai et al., 2024)
 
 {{<citation>}}
 
@@ -424,7 +424,7 @@ Chain-of-thought (CoT) has emerged as a powerful technique to elicit reasoning i
 {{</citation>}}
 
 
-### (18/55) Knowledge Distillation for Closed-Source Language Models (Hongzhan Chen et al., 2024)
+### (18/56) Knowledge Distillation for Closed-Source Language Models (Hongzhan Chen et al., 2024)
 
 {{<citation>}}
 
@@ -446,7 +446,7 @@ Closed-source language models such as GPT-4 have achieved remarkable performance
 {{</citation>}}
 
 
-### (19/55) Extending LLMs' Context Window with 100 Samples (Yikai Zhang et al., 2024)
+### (19/56) Extending LLMs' Context Window with 100 Samples (Yikai Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -468,7 +468,7 @@ Large Language Models (LLMs) are known to have limited extrapolation ability bey
 {{</citation>}}
 
 
-### (20/55) Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization (A F M Saif et al., 2024)
+### (20/56) Joint Unsupervised and Supervised Training for Automatic Speech Recognition via Bilevel Optimization (A F M Saif et al., 2024)
 
 {{<citation>}}
 
@@ -490,7 +490,7 @@ In this paper, we present a novel bilevel optimization-based training approach t
 {{</citation>}}
 
 
-### (21/55) CHAMP: A Competition-level Dataset for Fine-Grained Analyses of LLMs' Mathematical Reasoning Capabilities (Yujun Mao et al., 2024)
+### (21/56) CHAMP: A Competition-level Dataset for Fine-Grained Analyses of LLMs' Mathematical Reasoning Capabilities (Yujun Mao et al., 2024)
 
 {{<citation>}}
 
@@ -512,7 +512,7 @@ Recent large language models (LLMs) have shown indications of mathematical reaso
 {{</citation>}}
 
 
-### (22/55) Bridging the Preference Gap between Retrievers and LLMs (Zixuan Ke et al., 2024)
+### (22/56) Bridging the Preference Gap between Retrievers and LLMs (Zixuan Ke et al., 2024)
 
 {{<citation>}}
 
@@ -534,7 +534,7 @@ Large Language Models (LLMs) have demonstrated superior results across a wide ra
 {{</citation>}}
 
 
-### (23/55) E^2-LLM: Efficient and Extreme Length Extension of Large Language Models (Jiaheng Liu et al., 2024)
+### (23/56) E^2-LLM: Efficient and Extreme Length Extension of Large Language Models (Jiaheng Liu et al., 2024)
 
 {{<citation>}}
 
@@ -545,7 +545,7 @@ Jiaheng Liu, Zhiqi Bai, Yuanxing Zhang, Chenchen Zhang, Yu Zhang, Ge Zhang, Jiak
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2401.06951v1)  
+[Paper Link](http://arxiv.org/abs/2401.06951v2)  
 
 ---
 
@@ -556,7 +556,7 @@ Typically, training LLMs with long context sizes is computationally expensive, r
 {{</citation>}}
 
 
-### (24/55) Knowledge-Centric Templatic Views of Documents (Isabel Cachola et al., 2024)
+### (24/56) Knowledge-Centric Templatic Views of Documents (Isabel Cachola et al., 2024)
 
 {{<citation>}}
 
@@ -582,7 +582,7 @@ Authors seeking to communicate with broader audiences often compose their ideas 
 
 
 
-### (25/55) One Agent Too Many: User Perspectives on Approaches to Multi-agent Conversational AI (Christopher Clarke et al., 2024)
+### (25/56) One Agent Too Many: User Perspectives on Approaches to Multi-agent Conversational AI (Christopher Clarke et al., 2024)
 
 {{<citation>}}
 
@@ -604,7 +604,7 @@ Conversational agents have been gaining increasing popularity in recent years. I
 {{</citation>}}
 
 
-### (26/55) Exploring of Discrete and Continuous Input Control for AI-enhanced Assistive Robotic Arms (Max Pascher et al., 2024)
+### (26/56) Exploring of Discrete and Continuous Input Control for AI-enhanced Assistive Robotic Arms (Max Pascher et al., 2024)
 
 {{<citation>}}
 
@@ -626,7 +626,7 @@ Robotic arms, integral in domestic care for individuals with motor impairments, 
 {{</citation>}}
 
 
-### (27/55) Does More Advice Help? The Effects of Second Opinions in AI-Assisted Decision Making (Zhuoran Lu et al., 2024)
+### (27/56) Does More Advice Help? The Effects of Second Opinions in AI-Assisted Decision Making (Zhuoran Lu et al., 2024)
 
 {{<citation>}}
 
@@ -648,7 +648,7 @@ AI assistance in decision-making has become popular, yet people's inappropriate 
 {{</citation>}}
 
 
-### (28/55) Risk-aware Adaptive Virtual CPU Oversubscription in Microsoft Cloud via Prototypical Human-in-the-loop Imitation Learning (Lu Wang et al., 2024)
+### (28/56) Risk-aware Adaptive Virtual CPU Oversubscription in Microsoft Cloud via Prototypical Human-in-the-loop Imitation Learning (Lu Wang et al., 2024)
 
 {{<citation>}}
 
@@ -670,7 +670,7 @@ Oversubscription is a prevalent practice in cloud services where the system offe
 {{</citation>}}
 
 
-### (29/55) Apple Vision Pro: Comments in Healthcare (Ezequiel Santos et al., 2024)
+### (29/56) Apple Vision Pro: Comments in Healthcare (Ezequiel Santos et al., 2024)
 
 {{<citation>}}
 
@@ -696,7 +696,7 @@ This paper objectively analyzes the emerging discourse surrounding Apple Vision 
 
 
 
-### (30/55) Generative AI-enabled Quantum Computing Networks and Intelligent Resource Allocation (Minrui Xu et al., 2024)
+### (30/56) Generative AI-enabled Quantum Computing Networks and Intelligent Resource Allocation (Minrui Xu et al., 2024)
 
 {{<citation>}}
 
@@ -718,7 +718,7 @@ Quantum computing networks enable scalable collaboration and secure information 
 {{</citation>}}
 
 
-### (31/55) 6Rover: Leveraging Reinforcement Learning-based Address Pattern Mining Approach for Discovering Active Targets in IPv6 Unseeded Space (Zhichao Zhang et al., 2024)
+### (31/56) 6Rover: Leveraging Reinforcement Learning-based Address Pattern Mining Approach for Discovering Active Targets in IPv6 Unseeded Space (Zhichao Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -744,7 +744,7 @@ The discovery of active IPv6 addresses represents a pivotal challenge in IPv6 ne
 
 
 
-### (32/55) Open Models, Closed Minds? On Agents Capabilities in Mimicking Human Personalities through Open Large Language Models (Lucio La Cava et al., 2024)
+### (32/56) Open Models, Closed Minds? On Agents Capabilities in Mimicking Human Personalities through Open Large Language Models (Lucio La Cava et al., 2024)
 
 {{<citation>}}
 
@@ -766,7 +766,7 @@ The emergence of unveiling human-like behaviors in Large Language Models (LLMs) 
 {{</citation>}}
 
 
-### (33/55) Aquarium: A Comprehensive Framework for Exploring Predator-Prey Dynamics through Multi-Agent Reinforcement Learning Algorithms (Michael Kölle et al., 2024)
+### (33/56) Aquarium: A Comprehensive Framework for Exploring Predator-Prey Dynamics through Multi-Agent Reinforcement Learning Algorithms (Michael Kölle et al., 2024)
 
 {{<citation>}}
 
@@ -788,7 +788,7 @@ Recent advances in Multi-Agent Reinforcement Learning have prompted the modeling
 {{</citation>}}
 
 
-### (34/55) Distance-aware Attention Reshaping: Enhance Generalization of Neural Solver for Large-scale Vehicle Routing Problems (Yang Wang et al., 2024)
+### (34/56) Distance-aware Attention Reshaping: Enhance Generalization of Neural Solver for Large-scale Vehicle Routing Problems (Yang Wang et al., 2024)
 
 {{<citation>}}
 
@@ -814,7 +814,7 @@ Neural solvers based on attention mechanism have demonstrated remarkable effecti
 
 
 
-### (35/55) Evolving Code with A Large Language Model (Erik Hemberg et al., 2024)
+### (35/56) Evolving Code with A Large Language Model (Erik Hemberg et al., 2024)
 
 {{<citation>}}
 
@@ -836,11 +836,11 @@ Algorithms that use Large Language Models (LLMs) to evolve code arrived on the G
 {{</citation>}}
 
 
-## cs.CV (11)
+## cs.CV (12)
 
 
 
-### (36/55) Exploring Adversarial Attacks against Latent Diffusion Model from the Perspective of Adversarial Transferability (Junxi Chen et al., 2024)
+### (36/56) Exploring Adversarial Attacks against Latent Diffusion Model from the Perspective of Adversarial Transferability (Junxi Chen et al., 2024)
 
 {{<citation>}}
 
@@ -862,7 +862,7 @@ Recently, many studies utilized adversarial examples (AEs) to raise the cost of 
 {{</citation>}}
 
 
-### (37/55) GoMatching: A Simple Baseline for Video Text Spotting via Long and Short Term Matching (Haibin He et al., 2024)
+### (37/56) GoMatching: A Simple Baseline for Video Text Spotting via Long and Short Term Matching (Haibin He et al., 2024)
 
 {{<citation>}}
 
@@ -884,7 +884,7 @@ Beyond the text detection and recognition tasks in image text spotting, video te
 {{</citation>}}
 
 
-### (38/55) Dual-View Data Hallucination with Semantic Relation Guidance for Few-Shot Image Recognition (Hefeng Wu et al., 2024)
+### (38/56) Dual-View Data Hallucination with Semantic Relation Guidance for Few-Shot Image Recognition (Hefeng Wu et al., 2024)
 
 {{<citation>}}
 
@@ -906,18 +906,18 @@ Learning to recognize novel concepts from just a few image samples is very chall
 {{</citation>}}
 
 
-### (39/55) NODI: Out-Of-Distribution Detection with Noise from Diffusion (Jingqiu Zhou et al., 2024)
+### (39/56) NODI: Out-Of-Distribution Detection with Noise from Diffusion (Jingqiu Zhou et al., 2024)
 
 {{<citation>}}
 
-Jingqiu Zhou, Aojun Zou, Hongshen Li. (2024)  
+Jingqiu Zhou, Aojun Zhou, Hongsheng Li. (2024)  
 **NODI: Out-Of-Distribution Detection with Noise from Diffusion**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2401.08689v1)  
+[Paper Link](http://arxiv.org/abs/2401.08689v2)  
 
 ---
 
@@ -928,7 +928,7 @@ Out-of-distribution (OOD) detection is a crucial part of deploying machine learn
 {{</citation>}}
 
 
-### (40/55) DA-BEV: Unsupervised Domain Adaptation for Bird's Eye View Perception (Kai Jiang et al., 2024)
+### (40/56) DA-BEV: Unsupervised Domain Adaptation for Bird's Eye View Perception (Kai Jiang et al., 2024)
 
 {{<citation>}}
 
@@ -950,7 +950,7 @@ Camera-only Bird's Eye View (BEV) has demonstrated great potential in environmen
 {{</citation>}}
 
 
-### (41/55) Class-Imbalanced Semi-Supervised Learning for Large-Scale Point Cloud Semantic Segmentation via Decoupling Optimization (Mengtian Li et al., 2024)
+### (41/56) Class-Imbalanced Semi-Supervised Learning for Large-Scale Point Cloud Semantic Segmentation via Decoupling Optimization (Mengtian Li et al., 2024)
 
 {{<citation>}}
 
@@ -972,7 +972,7 @@ Semi-supervised learning (SSL), thanks to the significant reduction of data anno
 {{</citation>}}
 
 
-### (42/55) Domain Adaptation for Large-Vocabulary Object Detectors (Kai Jiang et al., 2024)
+### (42/56) Domain Adaptation for Large-Vocabulary Object Detectors (Kai Jiang et al., 2024)
 
 {{<citation>}}
 
@@ -994,7 +994,29 @@ Large-vocabulary object detectors (LVDs) aim to detect objects of many categorie
 {{</citation>}}
 
 
-### (43/55) Transformer for Object Re-Identification: A Survey (Mang Ye et al., 2024)
+### (43/56) Triamese-ViT: A 3D-Aware Method for Robust Brain Age Estimation from MRIs (Zhaonian Zhang et al., 2024)
+
+{{<citation>}}
+
+Zhaonian Zhang, Richard Jiang. (2024)  
+**Triamese-ViT: A 3D-Aware Method for Robust Brain Age Estimation from MRIs**  
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-LG, cs.CV  
+Keywords: Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2401.09475v1)  
+
+---
+
+
+**ABSTRACT**  
+The integration of machine learning in medicine has significantly improved diagnostic precision, particularly in the interpretation of complex structures like the human brain. Diagnosing challenging conditions such as Alzheimer's disease has prompted the development of brain age estimation techniques. These methods often leverage three-dimensional Magnetic Resonance Imaging (MRI) scans, with recent studies emphasizing the efficacy of 3D convolutional neural networks (CNNs) like 3D ResNet. However, the untapped potential of Vision Transformers (ViTs), known for their accuracy and interpretability, persists in this domain due to limitations in their 3D versions. This paper introduces Triamese-ViT, an innovative adaptation of the ViT model for brain age estimation. Our model uniquely combines ViTs from three different orientations to capture 3D information, significantly enhancing accuracy and interpretability. Tested on a dataset of 1351 MRI scans, Triamese-ViT achieves a Mean Absolute Error (MAE) of 3.84, a 0.9 Spearman correlation coefficient with chronological age, and a -0.29 Spearman correlation coefficient between the brain age gap (BAG) and chronological age, significantly better than previous methods for brian age estimation. A key innovation of Triamese-ViT is its capacity to generate a comprehensive 3D-like attention map, synthesized from 2D attention maps of each orientation-specific ViT. This feature is particularly beneficial for in-depth brain age analysis and disease diagnosis, offering deeper insights into brain health and the mechanisms of age-related neural changes.
+
+{{</citation>}}
+
+
+### (44/56) Transformer for Object Re-Identification: A Survey (Mang Ye et al., 2024)
 
 {{<citation>}}
 
@@ -1016,7 +1038,7 @@ Object Re-Identification (Re-ID) aims to identify and retrieve specific objects 
 {{</citation>}}
 
 
-### (44/55) Attention Modules Improve Modern Image-Level Anomaly Detection: A DifferNet Case Study (André Luiz B. Vieira e Silva et al., 2024)
+### (45/56) Attention Modules Improve Modern Image-Level Anomaly Detection: A DifferNet Case Study (André Luiz B. Vieira e Silva et al., 2024)
 
 {{<citation>}}
 
@@ -1038,7 +1060,7 @@ Within (semi-)automated visual inspection, learning-based approaches for assessi
 {{</citation>}}
 
 
-### (45/55) EVOKE: Emotion Enabled Virtual Avatar Mapping Using Optimized Knowledge Distillation (Maryam Nadeem et al., 2024)
+### (46/56) EVOKE: Emotion Enabled Virtual Avatar Mapping Using Optimized Knowledge Distillation (Maryam Nadeem et al., 2024)
 
 {{<citation>}}
 
@@ -1060,7 +1082,7 @@ As virtual environments continue to advance, the demand for immersive and emotio
 {{</citation>}}
 
 
-### (46/55) 3D Object Detection and High-Resolution Traffic Parameters Extraction Using Low-Resolution LiDAR Data (Linlin Zhang et al., 2024)
+### (47/56) 3D Object Detection and High-Resolution Traffic Parameters Extraction Using Low-Resolution LiDAR Data (Linlin Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -1086,7 +1108,7 @@ Traffic volume data collection is a crucial aspect of transportation engineering
 
 
 
-### (47/55) ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts (Vishruth Veerendranath et al., 2024)
+### (48/56) ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts (Vishruth Veerendranath et al., 2024)
 
 {{<citation>}}
 
@@ -1112,7 +1134,7 @@ Film scores are considered an essential part of the film cinematic experience, b
 
 
 
-### (48/55) Towards Responsible AI in Banking: Addressing Bias for Fair Decision-Making (Alessandro Castelnovo, 2024)
+### (49/56) Towards Responsible AI in Banking: Addressing Bias for Fair Decision-Making (Alessandro Castelnovo, 2024)
 
 {{<citation>}}
 
@@ -1138,7 +1160,7 @@ In an era characterized by the pervasive integration of artificial intelligence 
 
 
 
-### (49/55) Classifying Proposals of Decentralized Autonomous Organizations Using Large Language Models (Christian Ziegler et al., 2024)
+### (50/56) Classifying Proposals of Decentralized Autonomous Organizations Using Large Language Models (Christian Ziegler et al., 2024)
 
 {{<citation>}}
 
@@ -1164,7 +1186,7 @@ Our study demonstrates the effective use of Large Language Models (LLMs) for aut
 
 
 
-### (50/55) A Reinforcement Learning Environment for Directed Quantum Circuit Synthesis (Michael Kölle et al., 2024)
+### (51/56) A Reinforcement Learning Environment for Directed Quantum Circuit Synthesis (Michael Kölle et al., 2024)
 
 {{<citation>}}
 
@@ -1186,7 +1208,7 @@ With recent advancements in quantum computing technology, optimizing quantum cir
 {{</citation>}}
 
 
-### (51/55) Quantum Advantage Actor-Critic for Reinforcement Learning (Michael Kölle et al., 2024)
+### (52/56) Quantum Advantage Actor-Critic for Reinforcement Learning (Michael Kölle et al., 2024)
 
 {{<citation>}}
 
@@ -1212,7 +1234,7 @@ Quantum computing offers efficient encapsulation of high-dimensional states. In 
 
 
 
-### (52/55) Causative Insights into Open Source Software Security using Large Language Code Embeddings and Semantic Vulnerability Graph (Nafis Tanveer Islam et al., 2024)
+### (53/56) Causative Insights into Open Source Software Security using Large Language Code Embeddings and Semantic Vulnerability Graph (Nafis Tanveer Islam et al., 2024)
 
 {{<citation>}}
 
@@ -1238,7 +1260,7 @@ Open Source Software (OSS) security and resilience are worldwide phenomena hampe
 
 
 
-### (53/55) Empowering Medical Imaging with Artificial Intelligence: A Review of Machine Learning Approaches for the Detection, and Segmentation of COVID-19 Using Radiographic and Tomographic Images (Sayed Amir Mousavi Mobarakeh et al., 2024)
+### (54/56) Empowering Medical Imaging with Artificial Intelligence: A Review of Machine Learning Approaches for the Detection, and Segmentation of COVID-19 Using Radiographic and Tomographic Images (Sayed Amir Mousavi Mobarakeh et al., 2024)
 
 {{<citation>}}
 
@@ -1264,7 +1286,7 @@ Since 2019, the global dissemination of the Coronavirus and its novel strains ha
 
 
 
-### (54/55) NHANES-GCP: Leveraging the Google Cloud Platform and BigQuery ML for reproducible machine learning with data from the National Health and Nutrition Examination Survey (B. Ross Katz et al., 2024)
+### (55/56) NHANES-GCP: Leveraging the Google Cloud Platform and BigQuery ML for reproducible machine learning with data from the National Health and Nutrition Examination Survey (B. Ross Katz et al., 2024)
 
 {{<citation>}}
 
@@ -1290,7 +1312,7 @@ Summary: NHANES, the National Health and Nutrition Examination Survey, is a prog
 
 
 
-### (55/55) ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization (Kourosh Darvish et al., 2024)
+### (56/56) ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization (Kourosh Darvish et al., 2024)
 
 {{<citation>}}
 

@@ -854,14 +854,14 @@ Credit risk forecasting plays a crucial role for commercial banks and other fina
 
 {{<citation>}}
 
-Takashi Nicholas Maeda, Shohei Shohei. (2024)  
+Takashi Nicholas Maeda, Shohei Shimizu. (2024)  
 **Use of Prior Knowledge to Discover Causal Additive Models with Unobserved Variables and its Application to Time Series Data**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, stat-ME, stat-ML  
 Keywords: Time Series  
-[Paper Link](http://arxiv.org/abs/2401.07231v2)  
+[Paper Link](http://arxiv.org/abs/2401.07231v3)  
 
 ---
 
