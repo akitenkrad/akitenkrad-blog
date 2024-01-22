@@ -365,7 +365,7 @@ Zhaobo Qi, Yibo Yuan, Xiaowen Ruan, Shuhui Wang, Weigang Zhang, Qingming Huang. 
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Bias  
-[Paper Link](http://arxiv.org/abs/2401.07567v1)  
+[Paper Link](http://arxiv.org/abs/2401.07567v2)  
 
 ---
 
