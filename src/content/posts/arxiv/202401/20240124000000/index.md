@@ -2594,7 +2594,7 @@ Zoltán Kovács, Tomás Recio, M. Pilar Vélez. (2024)
 
 ---
 Primary Category: cs.SC  
-Categories: cs-AI, cs-CG, cs-MS, cs-SC, cs.SC  
+Categories: cs-AI, cs-CG, cs-SC, cs.SC  
 Keywords: Reasoning  
 [Paper Link](http://arxiv.org/abs/2401.11900v1)  
 

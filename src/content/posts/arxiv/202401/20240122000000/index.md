@@ -808,7 +808,7 @@ Open information extraction (OpenIE) aims to extract the schema-free triplets in
 
 {{<citation>}}
 
-Xi Chen, MingKe You, Li Wang, WeiZhi Liu, Yu Fu, Jie Xu, Shaoting Zhang, Gang Chen, Jian Li. (2024)  
+Xi Chen, MingKe You, Li Wang, WeiZhi Liu, Yu Fu, Jie Xu, Shaoting Zhang, Gang Chen, Kang Li, Jian Li. (2024)  
 **Evaluating and Enhancing Large Language Models Performance in Domain-specific Medicine: Osteoarthritis Management with DocOA**  
 
 ---
