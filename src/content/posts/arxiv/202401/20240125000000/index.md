@@ -463,13 +463,13 @@ Alan Chan, Carson Ezell, Max Kaufmann, Kevin Wei, Lewis Hammond, Herbie Bradley,
 Primary Category: cs.CY  
 Categories: cs-AI, cs-CY, cs.CY  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2401.13138v1)  
+[Paper Link](http://arxiv.org/abs/2401.13138v2)  
 
 ---
 
 
 **ABSTRACT**  
-Increased delegation of commercial, scientific, governmental, and personal activities to AI agents -- systems capable of pursuing complex goals with limited supervision -- may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as \textbf{visibility}, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: \textbf{agent identifiers}, \textbf{real-time monitoring}, and \textbf{activity logging}. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.
+Increased delegation of commercial, scientific, governmental, and personal activities to AI agents -- systems capable of pursuing complex goals with limited supervision -- may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.
 
 {{</citation>}}
 
@@ -885,7 +885,7 @@ Carolin Holtermann, Markus Frohmann, Navid Rekabsaz, Anne Lauscher. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: NLP, Zero-Shot  
-[Paper Link](http://arxiv.org/abs/2401.12756v1)  
+[Paper Link](http://arxiv.org/abs/2401.12756v2)  
 
 ---
 
@@ -1017,7 +1017,7 @@ Feng Lin, Hanling Yi, Hongbin Li, Yifan Yang, Xiaotian Yu, Guangming Lu, Rong Xi
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: LLaMA, Language Model  
-[Paper Link](http://arxiv.org/abs/2401.12522v1)  
+[Paper Link](http://arxiv.org/abs/2401.12522v2)  
 
 ---
 
