@@ -1685,7 +1685,7 @@ Jibinraj Antony, Vinit Hegiste, Ali Nazeri, Hooman Tavakoli, Snehal Walunj, Chri
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2401.12729v1)  
+[Paper Link](http://arxiv.org/abs/2401.12729v2)  
 
 ---
 
@@ -1729,7 +1729,7 @@ Shengze Li, Jianjian Cao, Peng Ye, Yuhan Ding, Chongjun Tu, Tao Chen. (2024)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Zero-Shot  
-[Paper Link](http://arxiv.org/abs/2401.12665v1)  
+[Paper Link](http://arxiv.org/abs/2401.12665v2)  
 
 ---
 
@@ -2194,14 +2194,14 @@ Entity alignment (EA), a pivotal process in integrating multi-source Knowledge G
 
 {{<citation>}}
 
-Yifang Qin, Wei Ju, Xiao Luo, Yiyang Gu, Ming Zhang. (2024)  
+Yifang Qin, Wei Ju, Xiao Luo, Yiyang Gu, Zhiping Xiao, Ming Zhang. (2024)  
 **PolyCF: Towards the Optimal Spectral Graph Filters for Collaborative Filtering**  
 
 ---
 Primary Category: cs.IR  
 Categories: cs-IR, cs.IR  
 Keywords: GNN, Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2401.12590v1)  
+[Paper Link](http://arxiv.org/abs/2401.12590v2)  
 
 ---
 
@@ -2441,7 +2441,7 @@ Yihan Hou, Manling Yang, Hao Cui, Lei Wang, Jie Xu, Wei Zeng. (2024)
 Primary Category: cs.HC  
 Categories: cs-HC, cs.HC  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2401.12586v1)  
+[Paper Link](http://arxiv.org/abs/2401.12586v2)  
 
 ---
 
