@@ -289,24 +289,24 @@ The lack of high-quality data for content-grounded generation tasks has been ide
 {{</citation>}}
 
 
-### (12/121) A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bengali Texts (Kazi Toufique Elahi et al., 2024)
+### (12/121) A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bangla Texts (Kazi Toufique Elahi et al., 2024)
 
 {{<citation>}}
 
 Kazi Toufique Elahi, Tasnuva Binte Rahman, Shakil Shahriar, Samir Sarker, Md. Tanvir Rouf Shawon, G. M. Shahariar. (2024)  
-**A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bengali Texts**  
+**A Comparative Analysis of Noise Reduction Methods in Sentiment Analysis on Noisy Bangla Texts**  
 
 ---
 Primary Category: cs.CL  
 Categories: 68T50 (Primary), I-2-7, cs-CL, cs.CL  
 Keywords: Sentiment Analysis  
-[Paper Link](http://arxiv.org/abs/2401.14360v1)  
+[Paper Link](http://arxiv.org/abs/2401.14360v2)  
 
 ---
 
 
 **ABSTRACT**  
-While Bengali is considered a language with limited resources, sentiment analysis has been a subject of extensive research in the literature. Nevertheless, there is a scarcity of exploration into sentiment analysis specifically in the realm of noisy Bengali texts. In this paper, we introduce a dataset (NC-SentNoB) that we annotated manually to identify ten different types of noise found in a pre-existing sentiment analysis dataset comprising of around 15K noisy Bengali texts. At first, given an input noisy text, we identify the noise type, addressing this as a multi-label classification task. Then, we introduce baseline noise reduction methods to alleviate noise prior to conducting sentiment analysis. Finally, we assess the performance of fine-tuned sentiment analysis models with both noisy and noise-reduced texts to make comparisons. The experimental findings indicate that the noise reduction methods utilized are not satisfactory, highlighting the need for more suitable noise reduction methods in future research endeavors. We have made the implementation and dataset presented in this paper publicly available at https://github.com/ktoufiquee/A-Comparative-Analysis-of-Noise-Reduction-Methods-in-Sentiment-Analysis-on-Noisy-Bengali-Texts
+While Bangla is considered a language with limited resources, sentiment analysis has been a subject of extensive research in the literature. Nevertheless, there is a scarcity of exploration into sentiment analysis specifically in the realm of noisy Bangla texts. In this paper, we introduce a dataset (NC-SentNoB) that we annotated manually to identify ten different types of noise found in a pre-existing sentiment analysis dataset comprising of around 15K noisy Bangla texts. At first, given an input noisy text, we identify the noise type, addressing this as a multi-label classification task. Then, we introduce baseline noise reduction methods to alleviate noise prior to conducting sentiment analysis. Finally, we assess the performance of fine-tuned sentiment analysis models with both noisy and noise-reduced texts to make comparisons. The experimental findings indicate that the noise reduction methods utilized are not satisfactory, highlighting the need for more suitable noise reduction methods in future research endeavors. We have made the implementation and dataset presented in this paper publicly available at https://github.com/ktoufiquee/A-Comparative-Analysis-of-Noise-Reduction-Methods-in-Sentiment-Analysis-on-Noisy-Bangla-Texts
 
 {{</citation>}}
 
@@ -2132,7 +2132,7 @@ K. J. Kevin Feng, Xander Koo, Lawrence Tan, Amy Bruckman, David W. McDonald, Amy
 Primary Category: cs.HC  
 Categories: cs-HC, cs.HC  
 Keywords: Social Media, Twitter  
-[Paper Link](http://arxiv.org/abs/2401.14000v1)  
+[Paper Link](http://arxiv.org/abs/2401.14000v2)  
 
 ---
 
@@ -2276,7 +2276,7 @@ Chenpeng Du, Yiwei Guo, Hankun Wang, Yifan Yang, Zhikang Niu, Shuai Wang, Hui Zh
 Primary Category: eess.AS  
 Categories: cs-SD, eess-AS, eess.AS  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2401.14321v3)  
+[Paper Link](http://arxiv.org/abs/2401.14321v4)  
 
 ---
 
@@ -2304,7 +2304,7 @@ Keywords: Zero-Shot
 
 
 **ABSTRACT**  
-Although numerous recent studies have suggested new frameworks for zero-shot TTS using large-scale, real-world data, studies that focus on the intelligibility of zero-shot TTS are relatively scarce. Zero-shot TTS demands additional efforts to ensure clear pronunciation and speech quality due to its inherent requirement of replacing a core parameter (speaker embedding or acoustic prompt) with a new one at the inference stage. In this study, we propose a zero-shot TTS model focused on intelligibility, which we refer to as Intelli-Z. Intelli-Z learns speaker embeddings by using multi-speaker TTS as its teacher and is trained with a cycle-consistency loss to include mismatched text-speech pairs for training. Additionally, it selectively aggregates speaker embeddings along the temporal dimension to minimize the interference of the text content of reference speech at the inference stage. We substantiate the effectiveness of the proposed methods with an ablation study. The Mean Opinion Score (MOS) increases by 9% for unseen speakers when the first two methods are ap- plied, and it further improves by 16% when selective temporal aggregation is applied.
+Although numerous recent studies have suggested new frameworks for zero-shot TTS using large-scale, real-world data, studies that focus on the intelligibility of zero-shot TTS are relatively scarce. Zero-shot TTS demands additional efforts to ensure clear pronunciation and speech quality due to its inherent requirement of replacing a core parameter (speaker embedding or acoustic prompt) with a new one at the inference stage. In this study, we propose a zero-shot TTS model focused on intelligibility, which we refer to as Intelli-Z. Intelli-Z learns speaker embeddings by using multi-speaker TTS as its teacher and is trained with a cycle-consistency loss to include mismatched text-speech pairs for training. Additionally, it selectively aggregates speaker embeddings along the temporal dimension to minimize the interference of the text content of reference speech at the inference stage. We substantiate the effectiveness of the proposed methods with an ablation study. The Mean Opinion Score (MOS) increases by 9% for unseen speakers when the first two methods are applied, and it further improves by 16% when selective temporal aggregation is applied.
 
 {{</citation>}}
 

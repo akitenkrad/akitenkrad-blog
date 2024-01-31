@@ -434,13 +434,13 @@ Yanjie Li, Weijun Li, Lina Yu, Min Wu, Jingyi Liu, Wenqiang Li, Meilan Hao, Shu 
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: GPT, Transformer  
-[Paper Link](http://arxiv.org/abs/2401.14424v2)  
+[Paper Link](http://arxiv.org/abs/2401.14424v3)  
 
 ---
 
 
 **ABSTRACT**  
-Finding a concise and interpretable mathematical formula that accurately describes the relationship between each variable and the predicted value in the data is a crucial task in scientific research, as well as a significant challenge in artificial intelligence. This problem is referred to as symbolic regression, which is an NP-hard problem. Last year, a symbolic regression method based on Monte Carlo Tree Search (MCTS) was proposed and sota was obtained on multiple datasets. While this algorithm has shown considerable improvement in recovering target expressions compared to previous methods, the lack of guidance during the MCTS process severely hampers its search efficiency. Recently, some algorithms have added a pre-trained policy network to guide the search of MCTS, but the pre-trained policy network generalizes poorly. To balance efficiency and generality, we propose SR-GPT combining ideas from AlphaZero. SR-GPT is a new symbolic regression algorithm that combines MCTS with a Generative Pre-Trained Transformer (GPT). By using GPT to guide the MCTS process, the search efficiency of MCTS is significantly improved. Next, we utilize the MCTS results to further refine the GPT, enhancing its capabilities and providing more accurate guidance for the MCTS process. MCTS and GPT are coupled together and optimize each other until the target expression is successfully determined. We conducted extensive evaluations of SR-GPT using 222 expressions sourced from over 10 different symbolic regression datasets. The experimental results demonstrate that SR-GPT outperforms existing state-of-the-art algorithms in accurately recovering symbolic expressions both with and without added noise.
+Finding a concise and interpretable mathematical formula that accurately describes the relationship between each variable and the predicted value in the data is a crucial task in scientific research, as well as a significant challenge in artificial intelligence. This problem is referred to as symbolic regression, which is an NP-hard problem. In the previous year, a novel symbolic regression methodology utilizing Monte Carlo Tree Search (MCTS) was advanced, achieving state-of-the-art results on a diverse range of datasets. although this algorithm has shown considerable improvement in recovering target expressions compared to previous methods, the lack of guidance during the MCTS process severely hampers its search efficiency. Recently, some algorithms have added a pre-trained policy network to guide the search of MCTS, but the pre-trained policy network generalizes poorly. To optimize the trade-off between efficiency and versatility, we introduce SR-GPT, a novel algorithm for symbolic regression that integrates Monte Carlo Tree Search (MCTS) with a Generative Pre-Trained Transformer (GPT). By using GPT to guide the MCTS, the search efficiency of MCTS is significantly improved. Next, we utilize the MCTS results to further refine the GPT, enhancing its capabilities and providing more accurate guidance for the MCTS. MCTS and GPT are coupled together and optimize each other until the target expression is successfully determined. We conducted extensive evaluations of SR-GPT using 222 expressions sourced from over 10 different symbolic regression datasets. The experimental results demonstrate that SR-GPT outperforms existing state-of-the-art algorithms in accurately recovering symbolic expressions both with and without added noise.
 
 {{</citation>}}
 
@@ -2358,7 +2358,7 @@ Mohamad Khajezade, Jie JW Wu, Fatemeh Hendijani Fard, Gema Rodríguez-Pérez, Mo
 Primary Category: cs.SE  
 Categories: cs-AI, cs-CL, cs-LG, cs-SE, cs.SE  
 Keywords: ChatGPT, GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2401.13802v2)  
+[Paper Link](http://arxiv.org/abs/2401.13802v3)  
 
 ---
 

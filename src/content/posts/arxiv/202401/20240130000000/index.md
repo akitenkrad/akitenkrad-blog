@@ -24,23 +24,25 @@ math: true
 - [cs.CL (12)](#cscl-12)
 - [cs.NI (1)](#csni-1)
 - [cs.RO (1)](#csro-1)
+- [cs.LG (6)](#cslg-6)
 - [cs.CV (12)](#cscv-12)
 - [eess.SP (1)](#eesssp-1)
+- [cs.AR (1)](#csar-1)
 - [cs.IR (3)](#csir-3)
 - [cs.CE (3)](#csce-3)
-- [cs.LG (5)](#cslg-5)
-- [cs.HC (3)](#cshc-3)
+- [cs.HC (4)](#cshc-4)
 - [stat.CO (1)](#statco-1)
 - [astro-ph.HE (1)](#astro-phhe-1)
 - [cs.CR (1)](#cscr-1)
 - [cs.AI (1)](#csai-1)
+- [cs.SE (1)](#csse-1)
 - [cs.DC (1)](#csdc-1)
 
 ## cs.CL (12)
 
 
 
-### (1/46) UnMASKed: Quantifying Gender Biases in Masked Language Models through Linguistically Informed Job Market Prompts (Iñigo Parra, 2024)
+### (1/50) UnMASKed: Quantifying Gender Biases in Masked Language Models through Linguistically Informed Job Market Prompts (Iñigo Parra, 2024)
 
 {{<citation>}}
 
@@ -62,7 +64,7 @@ Language models (LMs) have become pivotal in the realm of technological advancem
 {{</citation>}}
 
 
-### (2/46) Fine-Tuned Large Language Models for Symptom Recognition from Spanish Clinical Text (Mai A. Shaaban et al., 2024)
+### (2/50) Fine-Tuned Large Language Models for Symptom Recognition from Spanish Clinical Text (Mai A. Shaaban et al., 2024)
 
 {{<citation>}}
 
@@ -84,7 +86,7 @@ The accurate recognition of symptoms in clinical reports is significantly import
 {{</citation>}}
 
 
-### (3/46) PILOT: Legal Case Outcome Prediction with Case Law (Lang Cao et al., 2024)
+### (3/50) PILOT: Legal Case Outcome Prediction with Case Law (Lang Cao et al., 2024)
 
 {{<citation>}}
 
@@ -106,7 +108,7 @@ Machine learning shows promise in predicting the outcome of legal cases, but mos
 {{</citation>}}
 
 
-### (4/46) RE-GAINS & EnCHANT: Intelligent Tool Manipulation Systems For Enhanced Query Responses (Sahil Girhepuje et al., 2024)
+### (4/50) RE-GAINS & EnCHANT: Intelligent Tool Manipulation Systems For Enhanced Query Responses (Sahil Girhepuje et al., 2024)
 
 {{<citation>}}
 
@@ -128,7 +130,7 @@ Despite the remarkable success of LLMs, they still suffer from tool invocation a
 {{</citation>}}
 
 
-### (5/46) Check News in One Click: NLP-Empowered Pro-Kremlin Propaganda Detection (Veronika Solopova et al., 2024)
+### (5/50) Check News in One Click: NLP-Empowered Pro-Kremlin Propaganda Detection (Veronika Solopova et al., 2024)
 
 {{<citation>}}
 
@@ -150,7 +152,7 @@ Many European citizens become targets of the Kremlin propaganda campaigns, aimin
 {{</citation>}}
 
 
-### (6/46) YODA: Teacher-Student Progressive Learning for Language Models (Jianqiao Lu et al., 2024)
+### (6/50) YODA: Teacher-Student Progressive Learning for Language Models (Jianqiao Lu et al., 2024)
 
 {{<citation>}}
 
@@ -172,7 +174,7 @@ Although large language models (LLMs) have demonstrated adeptness in a range of 
 {{</citation>}}
 
 
-### (7/46) LLsM: Generative Linguistic Steganography with Large Language Model (Yihao Wang et al., 2024)
+### (7/50) LLsM: Generative Linguistic Steganography with Large Language Model (Yihao Wang et al., 2024)
 
 {{<citation>}}
 
@@ -194,7 +196,7 @@ Linguistic Steganography (LS) tasks aim to generate steganographic texts (stego)
 {{</citation>}}
 
 
-### (8/46) TA&AT: Enhancing Task-Oriented Dialog with Turn-Level Auxiliary Tasks and Action-Tree Based Scheduled Sampling (Longxiang Liu et al., 2024)
+### (8/50) TA&AT: Enhancing Task-Oriented Dialog with Turn-Level Auxiliary Tasks and Action-Tree Based Scheduled Sampling (Longxiang Liu et al., 2024)
 
 {{<citation>}}
 
@@ -216,7 +218,7 @@ Task-oriented dialog systems have witnessed substantial progress due to conversa
 {{</citation>}}
 
 
-### (9/46) Evaluating Gender Bias in Large Language Models via Chain-of-Thought Prompting (Masahiro Kaneko et al., 2024)
+### (9/50) Evaluating Gender Bias in Large Language Models via Chain-of-Thought Prompting (Masahiro Kaneko et al., 2024)
 
 {{<citation>}}
 
@@ -238,7 +240,7 @@ There exist both scalable tasks, like reading comprehension and fact-checking, w
 {{</citation>}}
 
 
-### (10/46) Efficient Tuning and Inference for Large Language Models on Textual Graphs (Yun Zhu et al., 2024)
+### (10/50) Efficient Tuning and Inference for Large Language Models on Textual Graphs (Yun Zhu et al., 2024)
 
 {{<citation>}}
 
@@ -260,7 +262,7 @@ Rich textual and topological information of textual graphs need to be modeled in
 {{</citation>}}
 
 
-### (11/46) Augment before You Try: Knowledge-Enhanced Table Question Answering via Table Expansion (Yujian Liu et al., 2024)
+### (11/50) Augment before You Try: Knowledge-Enhanced Table Question Answering via Table Expansion (Yujian Liu et al., 2024)
 
 {{<citation>}}
 
@@ -282,7 +284,7 @@ Table question answering is a popular task that assesses a model's ability to un
 {{</citation>}}
 
 
-### (12/46) Byte Pair Encoding Is All You Need For Automatic Bengali Speech Recognition (Ahnaf Mozib Samin, 2024)
+### (12/50) Byte Pair Encoding Is All You Need For Automatic Bengali Speech Recognition (Ahnaf Mozib Samin, 2024)
 
 {{<citation>}}
 
@@ -308,7 +310,7 @@ Byte pair encoding (BPE) emerges as an effective tokenization method for tacklin
 
 
 
-### (13/46) A Centralized Reinforcement Learning Framework for Adaptive Clustering with Low Control Overhead in IoT Networks (F. Fernando Jurado-Lasso et al., 2024)
+### (13/50) A Centralized Reinforcement Learning Framework for Adaptive Clustering with Low Control Overhead in IoT Networks (F. Fernando Jurado-Lasso et al., 2024)
 
 {{<citation>}}
 
@@ -334,7 +336,7 @@ Wireless Sensor Networks (WSNs) play a pivotal role in enabling Internet of Thin
 
 
 
-### (14/46) HRI Challenges Influencing Low Usage of Robotic Systems in Disaster Response and Rescue Operations (Shahinul Hoque et al., 2024)
+### (14/50) HRI Challenges Influencing Low Usage of Robotic Systems in Disaster Response and Rescue Operations (Shahinul Hoque et al., 2024)
 
 {{<citation>}}
 
@@ -356,11 +358,147 @@ The breakthrough in AI and Machine Learning has brought a new revolution in robo
 {{</citation>}}
 
 
+## cs.LG (6)
+
+
+
+### (15/50) AI in Energy Digital Twining: A Reinforcement Learning-based Adaptive Digital Twin Model for Green Cities (Lal Verda Cakir et al., 2024)
+
+{{<citation>}}
+
+Lal Verda Cakir, Kubra Duran, Craig Thomson, Matthew Broadbent, Berk Canberk. (2024)  
+**AI in Energy Digital Twining: A Reinforcement Learning-based Adaptive Digital Twin Model for Green Cities**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG  
+Keywords: AI, Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2401.16449v1)  
+
+---
+
+
+**ABSTRACT**  
+Digital Twins (DT) have become crucial to achieve sustainable and effective smart urban solutions. However, current DT modelling techniques cannot support the dynamicity of these smart city environments. This is caused by the lack of right-time data capturing in traditional approaches, resulting in inaccurate modelling and high resource and energy consumption challenges. To fill this gap, we explore spatiotemporal graphs and propose the Reinforcement Learning-based Adaptive Twining (RL-AT) mechanism with Deep Q Networks (DQN). By doing so, our study contributes to advancing Green Cities and showcases tangible benefits in accuracy, synchronisation, resource optimization, and energy efficiency. As a result, we note the spatiotemporal graphs are able to offer a consistent accuracy and 55% higher querying performance when implemented using graph databases. In addition, our model demonstrates right-time data capturing with 20% lower overhead and 25% lower energy consumption.
+
+{{</citation>}}
+
+
+### (16/50) Contrastive Learning and Mixture of Experts Enables Precise Vector Embeddings (Rohan Kapur et al., 2024)
+
+{{<citation>}}
+
+Rohan Kapur, Logan Hallee, Arjun Patel, Bohdan Khomtchouk. (2024)  
+**Contrastive Learning and Mixture of Experts Enables Precise Vector Embeddings**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CL, cs-LG, cs.LG  
+Keywords: Contrastive Learning, Embedding  
+[Paper Link](http://arxiv.org/abs/2401.15713v1)  
+
+---
+
+
+**ABSTRACT**  
+The advancement of transformer neural networks has significantly elevated the capabilities of sentence similarity models, particularly in creating effective vector representations of natural language inputs. However, these models face notable challenges in domain-specific contexts, especially in highly specialized scientific sub-fields. Traditional methods often struggle in this regime, either overgeneralizing similarities within a niche or being overly sensitive to minor differences, resulting in inaccurate text classification and subpar vector representation. In an era where retrieval augmentation and search are increasingly crucial, precise and concise numerical representations are essential. In this paper, we target this issue by assembling niche datasets using co-citations as a similarity metric, focusing on biomedical domains. We employ two key strategies for fine-tuning state-of-the-art models: 1. Domain-specific Fine-Tuning, which tailors pretrained models to a single domain, and 2. Universal Applicability with Mixture of Experts (MoE), adapting pretrained models with enforced routing for multiple domains simultaneously. Our training approach emphasizes the use of abstracts for faster training, incorporating Multiple Negative Rankings loss for efficient contrastive learning. Notably, our MoE variants, equipped with $N$ experts, achieve the efficacy of $N$ individual models, heralding a new era of versatile, One-Size-Fits-All transformer networks for various tasks. This methodology marks significant advancements in scientific text classification metrics and holds promise for enhancing vector database search and compilation.
+
+{{</citation>}}
+
+
+### (17/50) Addressing Noise and Efficiency Issues in Graph-Based Machine Learning Models From the Perspective of Adversarial Attack (Yongyu Wang, 2024)
+
+{{<citation>}}
+
+Yongyu Wang. (2024)  
+**Addressing Noise and Efficiency Issues in Graph-Based Machine Learning Models From the Perspective of Adversarial Attack**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-CR, cs-CV, cs-LG, cs.LG  
+Keywords: Adversarial Attack  
+[Paper Link](http://arxiv.org/abs/2401.15615v1)  
+
+---
+
+
+**ABSTRACT**  
+Given that no existing graph construction method can generate a perfect graph for a given dataset, graph-based algorithms are invariably affected by the plethora of redundant and erroneous edges present within the constructed graphs. In this paper, we propose treating these noisy edges as adversarial attack and use a spectral adversarial robustness evaluation method to diminish the impact of noisy edges on the performance of graph algorithms. Our method identifies those points that are less vulnerable to noisy edges and leverages only these robust points to perform graph-based algorithms. Our experiments with spectral clustering, one of the most representative and widely utilized graph algorithms, reveal that our methodology not only substantially elevates the precision of the algorithm but also greatly accelerates its computational efficiency by leveraging only a select number of robust data points.
+
+{{</citation>}}
+
+
+### (18/50) Improving Expressive Power of Spectral Graph Neural Networks with Eigenvalue Correction (Kangkang Lu et al., 2024)
+
+{{<citation>}}
+
+Kangkang Lu, Yanhua Yu, Hao Fei, Xuan Li, Zixuan Yang, Zirui Guo, Meiyu Liang, Mengran Yin, Tat-Seng Chua. (2024)  
+**Improving Expressive Power of Spectral Graph Neural Networks with Eigenvalue Correction**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs-SI, cs.LG  
+Keywords: Graph Neural Network, Graph Neural Networks  
+[Paper Link](http://arxiv.org/abs/2401.15603v1)  
+
+---
+
+
+**ABSTRACT**  
+In recent years, spectral graph neural networks, characterized by polynomial filters, have garnered increasing attention and have achieved remarkable performance in tasks such as node classification. These models typically assume that eigenvalues for the normalized Laplacian matrix are distinct from each other, thus expecting a polynomial filter to have a high fitting ability. However, this paper empirically observes that normalized Laplacian matrices frequently possess repeated eigenvalues. Moreover, we theoretically establish that the number of distinguishable eigenvalues plays a pivotal role in determining the expressive power of spectral graph neural networks. In light of this observation, we propose an eigenvalue correction strategy that can free polynomial filters from the constraints of repeated eigenvalue inputs. Concretely, the proposed eigenvalue correction strategy enhances the uniform distribution of eigenvalues, thus mitigating repeated eigenvalues, and improving the fitting capacity and expressive power of polynomial filters. Extensive experimental results on both synthetic and real-world datasets demonstrate the superiority of our method.
+
+{{</citation>}}
+
+
+### (19/50) DGNN: Decoupled Graph Neural Networks with Structural Consistency between Attribute and Graph Embedding Representations (Jinlu Wang et al., 2024)
+
+{{<citation>}}
+
+Jinlu Wang, Jipeng Guo, Yanfeng Sun, Junbin Gao, Shaofan Wang, Yachao Yang, Baocai Yin. (2024)  
+**DGNN: Decoupled Graph Neural Networks with Structural Consistency between Attribute and Graph Embedding Representations**  
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG  
+Keywords: Embedding, GNN, Graph Neural Network, Graph Neural Networks  
+[Paper Link](http://arxiv.org/abs/2401.15584v1)  
+
+---
+
+
+**ABSTRACT**  
+Graph neural networks (GNNs) demonstrate a robust capability for representation learning on graphs with complex structures, showcasing superior performance in various applications. The majority of existing GNNs employ a graph convolution operation by using both attribute and structure information through coupled learning. In essence, GNNs, from an optimization perspective, seek to learn a consensus and compromise embedding representation that balances attribute and graph information, selectively exploring and retaining valid information. To obtain a more comprehensive embedding representation of nodes, a novel GNNs framework, dubbed Decoupled Graph Neural Networks (DGNN), is introduced. DGNN explores distinctive embedding representations from the attribute and graph spaces by decoupled terms. Considering that semantic graph, constructed from attribute feature space, consists of different node connection information and provides enhancement for the topological graph, both topological and semantic graphs are combined for the embedding representation learning. Further, structural consistency among attribute embedding and graph embeddings is promoted to effectively remove redundant information and establish soft connection. This involves promoting factor sharing for adjacency reconstruction matrices, facilitating the exploration of a consensus and high-level correlation. Finally, a more powerful and complete representation is achieved through the concatenation of these embeddings. Experimental results conducted on several graph benchmark datasets verify its superiority in node classification task.
+
+{{</citation>}}
+
+
+### (20/50) Anomaly Detection of Particle Orbit in Accelerator using LSTM Deep Learning Technology (Zhiyuan Chen et al., 2024)
+
+{{<citation>}}
+
+Zhiyuan Chen, Wei Lu, Radhika Bhong, Yimin Hu, Brian Freeman, Adam Carpenter. (2024)  
+**Anomaly Detection of Particle Orbit in Accelerator using LSTM Deep Learning Technology**  
+
+---
+Primary Category: cs.LG  
+Categories: I-5-4, cs-LG, cs.LG, physics-acc-ph  
+Keywords: Anomaly Detection, LSTM  
+[Paper Link](http://arxiv.org/abs/2401.15543v1)  
+
+---
+
+
+**ABSTRACT**  
+A stable, reliable, and controllable orbit lock system is crucial to an electron (or ion) accelerator because the beam orbit and beam energy instability strongly affect the quality of the beam delivered to experimental halls. Currently, when the orbit lock system fails operators must manually intervene. This paper develops a Machine Learning based fault detection methodology to identify orbit lock anomalies and notify accelerator operations staff of the off-normal behavior. Our method is unsupervised, so it does not require labeled data. It uses Long-Short Memory Networks (LSTM) Auto Encoder to capture normal patterns and predict future values of monitoring sensors in the orbit lock system. Anomalies are detected when the prediction error exceeds a threshold. We conducted experiments using monitoring data from Jefferson Lab's Continuous Electron Beam Accelerator Facility (CEBAF). The results are promising: the percentage of real anomalies identified by our solution is 68.6%-89.3% using monitoring data of a single component in the orbit lock control system. The accuracy can be as high as 82%.
+
+{{</citation>}}
+
+
 ## cs.CV (12)
 
 
 
-### (15/46) An objective comparison of methods for augmented reality in laparoscopic liver resection by preoperative-to-intraoperative image fusion (Sharib Ali et al., 2024)
+### (21/50) An objective comparison of methods for augmented reality in laparoscopic liver resection by preoperative-to-intraoperative image fusion (Sharib Ali et al., 2024)
 
 {{<citation>}}
 
@@ -382,7 +520,7 @@ Augmented reality for laparoscopic liver resection is a visualisation mode that 
 {{</citation>}}
 
 
-### (16/46) SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks (Serdar Erisen, 2024)
+### (22/50) SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks (Serdar Erisen, 2024)
 
 {{<citation>}}
 
@@ -404,7 +542,7 @@ Improving the efficiency of state-of-the-art methods in semantic segmentation re
 {{</citation>}}
 
 
-### (17/46) A Study of Acquisition Functions for Medical Imaging Deep Active Learning (Bonaventure F. P. Dossou, 2024)
+### (23/50) A Study of Acquisition Functions for Medical Imaging Deep Active Learning (Bonaventure F. P. Dossou, 2024)
 
 {{<citation>}}
 
@@ -426,7 +564,7 @@ The Deep Learning revolution has enabled groundbreaking achievements in recent y
 {{</citation>}}
 
 
-### (18/46) Object-Driven One-Shot Fine-tuning of Text-to-Image Diffusion with Prototypical Embedding (Jianxiang Lu et al., 2024)
+### (24/50) Object-Driven One-Shot Fine-tuning of Text-to-Image Diffusion with Prototypical Embedding (Jianxiang Lu et al., 2024)
 
 {{<citation>}}
 
@@ -448,7 +586,7 @@ As large-scale text-to-image generation models have made remarkable progress in 
 {{</citation>}}
 
 
-### (19/46) Divide and Conquer: Language Models can Plan and Self-Correct for Compositional Text-to-Image Generation (Zhenyu Wang et al., 2024)
+### (25/50) Divide and Conquer: Language Models can Plan and Self-Correct for Compositional Text-to-Image Generation (Zhenyu Wang et al., 2024)
 
 {{<citation>}}
 
@@ -459,7 +597,7 @@ Zhenyu Wang, Enze Xie, Aoxue Li, Zhongdao Wang, Xihui Liu, Zhenguo Li. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2401.15688v1)  
+[Paper Link](http://arxiv.org/abs/2401.15688v2)  
 
 ---
 
@@ -470,7 +608,7 @@ Despite significant advancements in text-to-image models for generating high-qua
 {{</citation>}}
 
 
-### (20/46) Assessment of Autism and ADHD: A Comparative Analysis of Drawing Velocity Profiles and the NEPSY Test (S. Fortea-Sevilla et al., 2024)
+### (26/50) Assessment of Autism and ADHD: A Comparative Analysis of Drawing Velocity Profiles and the NEPSY Test (S. Fortea-Sevilla et al., 2024)
 
 {{<citation>}}
 
@@ -492,7 +630,7 @@ The increasing prevalence of Autism Spectrum Disorder and Attention-Deficit/ Hyp
 {{</citation>}}
 
 
-### (21/46) Data-Free Generalized Zero-Shot Learning (Bowen Tang et al., 2024)
+### (27/50) Data-Free Generalized Zero-Shot Learning (Bowen Tang et al., 2024)
 
 {{<citation>}}
 
@@ -514,7 +652,7 @@ Deep learning models have the ability to extract rich knowledge from large-scale
 {{</citation>}}
 
 
-### (22/46) Improving Data Augmentation for Robust Visual Question Answering with Effective Curriculum Learning (Yuhang Zheng et al., 2024)
+### (28/50) Improving Data Augmentation for Robust Visual Question Answering with Effective Curriculum Learning (Yuhang Zheng et al., 2024)
 
 {{<citation>}}
 
@@ -536,7 +674,7 @@ Being widely used in learning unbiased visual question answering (VQA) models, D
 {{</citation>}}
 
 
-### (23/46) FreeStyle: Free Lunch for Text-guided Style Transfer using Diffusion Models (Feihong He et al., 2024)
+### (29/50) FreeStyle: Free Lunch for Text-guided Style Transfer using Diffusion Models (Feihong He et al., 2024)
 
 {{<citation>}}
 
@@ -558,7 +696,7 @@ The rapid development of generative diffusion models has significantly advanced 
 {{</citation>}}
 
 
-### (24/46) SCTransNet: Spatial-channel Cross Transformer Network for Infrared Small Target Detection (Shuai Yuan et al., 2024)
+### (30/50) SCTransNet: Spatial-channel Cross Transformer Network for Infrared Small Target Detection (Shuai Yuan et al., 2024)
 
 {{<citation>}}
 
@@ -580,7 +718,7 @@ Infrared small target detection (IRSTD) has recently benefitted greatly from U-s
 {{</citation>}}
 
 
-### (25/46) Intriguing Equivalence Structures of the Embedding Space of Vision Transformers (Shaeke Salman et al., 2024)
+### (31/50) Intriguing Equivalence Structures of the Embedding Space of Vision Transformers (Shaeke Salman et al., 2024)
 
 {{<citation>}}
 
@@ -602,7 +740,7 @@ Pre-trained large foundation models play a central role in the recent surge of a
 {{</citation>}}
 
 
-### (26/46) BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry (Xiang Xu et al., 2024)
+### (32/50) BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry (Xiang Xu et al., 2024)
 
 {{<citation>}}
 
@@ -628,7 +766,7 @@ This paper presents BrepGen, a diffusion-based generative approach that directly
 
 
 
-### (27/46) Real-time EEG-based Emotion Recognition Model using Principal Component Analysis and Tree-based Models for Neurohumanities (Miguel A. Blanco-Rios et al., 2024)
+### (33/50) Real-time EEG-based Emotion Recognition Model using Principal Component Analysis and Tree-based Models for Neurohumanities (Miguel A. Blanco-Rios et al., 2024)
 
 {{<citation>}}
 
@@ -650,11 +788,37 @@ Within the field of Humanities, there is a recognized need for educational innov
 {{</citation>}}
 
 
+## cs.AR (1)
+
+
+
+### (34/50) LLM4SecHW: Leveraging Domain Specific Large Language Model for Hardware Debugging (Weimin Fu et al., 2024)
+
+{{<citation>}}
+
+Weimin Fu, Kaichen Yang, Raj Gautam Dutta, Xiaolong Guo, Gang Qu. (2024)  
+**LLM4SecHW: Leveraging Domain Specific Large Language Model for Hardware Debugging**  
+
+---
+Primary Category: cs.AR  
+Categories: cs-AI, cs-AR, cs.AR  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2401.16448v1)  
+
+---
+
+
+**ABSTRACT**  
+This paper presents LLM4SecHW, a novel framework for hardware debugging that leverages domain specific Large Language Model (LLM). Despite the success of LLMs in automating various software development tasks, their application in the hardware security domain has been limited due to the constraints of commercial LLMs and the scarcity of domain specific data. To address these challenges, we propose a unique approach to compile a dataset of open source hardware design defects and their remediation steps, utilizing version control data. This dataset provides a substantial foundation for training machine learning models for hardware. LLM4SecHW employs fine tuning of medium sized LLMs based on this dataset, enabling the identification and rectification of bugs in hardware designs. This pioneering approach offers a reference workflow for the application of fine tuning domain specific LLMs in other research areas. We evaluate the performance of our proposed system on various open source hardware designs, demonstrating its efficacy in accurately identifying and correcting defects. Our work brings a new perspective on automating the quality control process in hardware design.
+
+{{</citation>}}
+
+
 ## cs.IR (3)
 
 
 
-### (28/46) The Impact of Snippet Reliability on Misinformation in Online Health Search (Anat Hashavit et al., 2024)
+### (35/50) The Impact of Snippet Reliability on Misinformation in Online Health Search (Anat Hashavit et al., 2024)
 
 {{<citation>}}
 
@@ -676,7 +840,7 @@ Search result snippets are crucial in modern search engines, providing users wit
 {{</citation>}}
 
 
-### (29/46) PRE: A Peer Review Based Large Language Model Evaluator (Zhumin Chu et al., 2024)
+### (36/50) PRE: A Peer Review Based Large Language Model Evaluator (Zhumin Chu et al., 2024)
 
 {{<citation>}}
 
@@ -698,7 +862,7 @@ The impressive performance of large language models (LLMs) has attracted conside
 {{</citation>}}
 
 
-### (30/46) RecDCL: Dual Contrastive Learning for Recommendation (Dan Zhang et al., 2024)
+### (37/50) RecDCL: Dual Contrastive Learning for Recommendation (Dan Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -724,7 +888,7 @@ Self-supervised recommendation (SSR) has achieved great success in mining the po
 
 
 
-### (31/46) Exploring the Impact of Blockchain, AI, and ML on Financial Accounting Efficiency and Transformation (Vijaya Kanaparthi, 2024)
+### (38/50) Exploring the Impact of Blockchain, AI, and ML on Financial Accounting Efficiency and Transformation (Vijaya Kanaparthi, 2024)
 
 {{<citation>}}
 
@@ -746,7 +910,7 @@ Continuous innovations profoundly impact the financial and commercial domains, r
 {{</citation>}}
 
 
-### (32/46) Transformational application of Artificial Intelligence and Machine learning in Financial Technologies and Financial services: A bibliometric review (Vijaya Kanaparthi, 2024)
+### (39/50) Transformational application of Artificial Intelligence and Machine learning in Financial Technologies and Financial services: A bibliometric review (Vijaya Kanaparthi, 2024)
 
 {{<citation>}}
 
@@ -768,7 +932,7 @@ In this study, I employ a multifaceted comprehensive scientometric approach to e
 {{</citation>}}
 
 
-### (33/46) AI-based Personalization and Trust in Digital Finance (Vijaya Kanaparthi, 2024)
+### (40/50) AI-based Personalization and Trust in Digital Finance (Vijaya Kanaparthi, 2024)
 
 {{<citation>}}
 
@@ -790,125 +954,11 @@ Personalized services bridge the gap between a financial institution and its cus
 {{</citation>}}
 
 
-## cs.LG (5)
+## cs.HC (4)
 
 
 
-### (34/46) Contrastive Learning and Mixture of Experts Enables Precise Vector Embeddings (Rohan Kapur et al., 2024)
-
-{{<citation>}}
-
-Rohan Kapur, Logan Hallee, Arjun Patel, Bohdan Khomtchouk. (2024)  
-**Contrastive Learning and Mixture of Experts Enables Precise Vector Embeddings**  
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-CL, cs-LG, cs.LG  
-Keywords: Contrastive Learning, Embedding  
-[Paper Link](http://arxiv.org/abs/2401.15713v1)  
-
----
-
-
-**ABSTRACT**  
-The advancement of transformer neural networks has significantly elevated the capabilities of sentence similarity models, particularly in creating effective vector representations of natural language inputs. However, these models face notable challenges in domain-specific contexts, especially in highly specialized scientific sub-fields. Traditional methods often struggle in this regime, either overgeneralizing similarities within a niche or being overly sensitive to minor differences, resulting in inaccurate text classification and subpar vector representation. In an era where retrieval augmentation and search are increasingly crucial, precise and concise numerical representations are essential. In this paper, we target this issue by assembling niche datasets using co-citations as a similarity metric, focusing on biomedical domains. We employ two key strategies for fine-tuning state-of-the-art models: 1. Domain-specific Fine-Tuning, which tailors pretrained models to a single domain, and 2. Universal Applicability with Mixture of Experts (MoE), adapting pretrained models with enforced routing for multiple domains simultaneously. Our training approach emphasizes the use of abstracts for faster training, incorporating Multiple Negative Rankings loss for efficient contrastive learning. Notably, our MoE variants, equipped with $N$ experts, achieve the efficacy of $N$ individual models, heralding a new era of versatile, One-Size-Fits-All transformer networks for various tasks. This methodology marks significant advancements in scientific text classification metrics and holds promise for enhancing vector database search and compilation.
-
-{{</citation>}}
-
-
-### (35/46) Addressing Noise and Efficiency Issues in Graph-Based Machine Learning Models From the Perspective of Adversarial Attack (Yongyu Wang, 2024)
-
-{{<citation>}}
-
-Yongyu Wang. (2024)  
-**Addressing Noise and Efficiency Issues in Graph-Based Machine Learning Models From the Perspective of Adversarial Attack**  
-
----
-Primary Category: cs.LG  
-Categories: cs-CR, cs-CV, cs-LG, cs.LG  
-Keywords: Adversarial Attack  
-[Paper Link](http://arxiv.org/abs/2401.15615v1)  
-
----
-
-
-**ABSTRACT**  
-Given that no existing graph construction method can generate a perfect graph for a given dataset, graph-based algorithms are invariably affected by the plethora of redundant and erroneous edges present within the constructed graphs. In this paper, we propose treating these noisy edges as adversarial attack and use a spectral adversarial robustness evaluation method to diminish the impact of noisy edges on the performance of graph algorithms. Our method identifies those points that are less vulnerable to noisy edges and leverages only these robust points to perform graph-based algorithms. Our experiments with spectral clustering, one of the most representative and widely utilized graph algorithms, reveal that our methodology not only substantially elevates the precision of the algorithm but also greatly accelerates its computational efficiency by leveraging only a select number of robust data points.
-
-{{</citation>}}
-
-
-### (36/46) Improving Expressive Power of Spectral Graph Neural Networks with Eigenvalue Correction (Kangkang Lu et al., 2024)
-
-{{<citation>}}
-
-Kangkang Lu, Yanhua Yu, Hao Fei, Xuan Li, Zixuan Yang, Zirui Guo, Meiyu Liang, Mengran Yin, Tat-Seng Chua. (2024)  
-**Improving Expressive Power of Spectral Graph Neural Networks with Eigenvalue Correction**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
-Keywords: Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2401.15603v1)  
-
----
-
-
-**ABSTRACT**  
-In recent years, spectral graph neural networks, characterized by polynomial filters, have garnered increasing attention and have achieved remarkable performance in tasks such as node classification. These models typically assume that eigenvalues for the normalized Laplacian matrix are distinct from each other, thus expecting a polynomial filter to have a high fitting ability. However, this paper empirically observes that normalized Laplacian matrices frequently possess repeated eigenvalues. Moreover, we theoretically establish that the number of distinguishable eigenvalues plays a pivotal role in determining the expressive power of spectral graph neural networks. In light of this observation, we propose an eigenvalue correction strategy that can free polynomial filters from the constraints of repeated eigenvalue inputs. Concretely, the proposed eigenvalue correction strategy enhances the uniform distribution of eigenvalues, thus mitigating repeated eigenvalues, and improving the fitting capacity and expressive power of polynomial filters. Extensive experimental results on both synthetic and real-world datasets demonstrate the superiority of our method.
-
-{{</citation>}}
-
-
-### (37/46) DGNN: Decoupled Graph Neural Networks with Structural Consistency between Attribute and Graph Embedding Representations (Jinlu Wang et al., 2024)
-
-{{<citation>}}
-
-Jinlu Wang, Jipeng Guo, Yanfeng Sun, Junbin Gao, Shaofan Wang, Yachao Yang, Baocai Yin. (2024)  
-**DGNN: Decoupled Graph Neural Networks with Structural Consistency between Attribute and Graph Embedding Representations**  
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
-Keywords: Embedding, GNN, Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2401.15584v1)  
-
----
-
-
-**ABSTRACT**  
-Graph neural networks (GNNs) demonstrate a robust capability for representation learning on graphs with complex structures, showcasing superior performance in various applications. The majority of existing GNNs employ a graph convolution operation by using both attribute and structure information through coupled learning. In essence, GNNs, from an optimization perspective, seek to learn a consensus and compromise embedding representation that balances attribute and graph information, selectively exploring and retaining valid information. To obtain a more comprehensive embedding representation of nodes, a novel GNNs framework, dubbed Decoupled Graph Neural Networks (DGNN), is introduced. DGNN explores distinctive embedding representations from the attribute and graph spaces by decoupled terms. Considering that semantic graph, constructed from attribute feature space, consists of different node connection information and provides enhancement for the topological graph, both topological and semantic graphs are combined for the embedding representation learning. Further, structural consistency among attribute embedding and graph embeddings is promoted to effectively remove redundant information and establish soft connection. This involves promoting factor sharing for adjacency reconstruction matrices, facilitating the exploration of a consensus and high-level correlation. Finally, a more powerful and complete representation is achieved through the concatenation of these embeddings. Experimental results conducted on several graph benchmark datasets verify its superiority in node classification task.
-
-{{</citation>}}
-
-
-### (38/46) Anomaly Detection of Particle Orbit in Accelerator using LSTM Deep Learning Technology (Zhiyuan Chen et al., 2024)
-
-{{<citation>}}
-
-Zhiyuan Chen, Wei Lu, Radhika Bhong, Yimin Hu, Brian Freeman, Adam Carpenter. (2024)  
-**Anomaly Detection of Particle Orbit in Accelerator using LSTM Deep Learning Technology**  
-
----
-Primary Category: cs.LG  
-Categories: I-5-4, cs-LG, cs.LG, physics-acc-ph  
-Keywords: Anomaly Detection, LSTM  
-[Paper Link](http://arxiv.org/abs/2401.15543v1)  
-
----
-
-
-**ABSTRACT**  
-A stable, reliable, and controllable orbit lock system is crucial to an electron (or ion) accelerator because the beam orbit and beam energy instability strongly affect the quality of the beam delivered to experimental halls. Currently, when the orbit lock system fails operators must manually intervene. This paper develops a Machine Learning based fault detection methodology to identify orbit lock anomalies and notify accelerator operations staff of the off-normal behavior. Our method is unsupervised, so it does not require labeled data. It uses Long-Short Memory Networks (LSTM) Auto Encoder to capture normal patterns and predict future values of monitoring sensors in the orbit lock system. Anomalies are detected when the prediction error exceeds a threshold. We conducted experiments using monitoring data from Jefferson Lab's Continuous Electron Beam Accelerator Facility (CEBAF). The results are promising: the percentage of real anomalies identified by our solution is 68.6%-89.3% using monitoring data of a single component in the orbit lock control system. The accuracy can be as high as 82%.
-
-{{</citation>}}
-
-
-## cs.HC (3)
-
-
-
-### (39/46) From Word Embedding to Reading Embedding Using Large Language Model, EEG and Eye-tracking (Yuhong Zhang et al., 2024)
+### (41/50) From Word Embedding to Reading Embedding Using Large Language Model, EEG and Eye-tracking (Yuhong Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -930,7 +980,7 @@ Reading comprehension, a fundamental cognitive ability essential for knowledge a
 {{</citation>}}
 
 
-### (40/46) AI as a Medical Ally: Evaluating ChatGPT's Usage and Impact in Indian Healthcare (Aryaman Raina et al., 2024)
+### (42/50) AI as a Medical Ally: Evaluating ChatGPT's Usage and Impact in Indian Healthcare (Aryaman Raina et al., 2024)
 
 {{<citation>}}
 
@@ -952,7 +1002,7 @@ This study investigates the integration and impact of Large Language Models (LLM
 {{</citation>}}
 
 
-### (41/46) Comuniqa : Exploring Large Language Models for improving speaking skills (Manas Mhasakar et al., 2024)
+### (43/50) Comuniqa : Exploring Large Language Models for improving speaking skills (Manas Mhasakar et al., 2024)
 
 {{<citation>}}
 
@@ -974,11 +1024,33 @@ This research paper explores the potential of Large Language Models (LLMs) to en
 {{</citation>}}
 
 
+### (44/50) Enhancing Human Experience in Human-Agent Collaboration: A Human-Centered Modeling Approach Based on Positive Human Gain (Yiming Gao et al., 2024)
+
+{{<citation>}}
+
+Yiming Gao, Feiyu Liu, Liang Wang, Zhenjie Lian, Dehua Zheng, Weixuan Wang, Wenjin Yang, Siqin Li, Xianliang Wang, Wenhui Chen, Jing Dai, Qiang Fu, Wei Yang, Lanxiao Huang, Wei Liu. (2024)  
+**Enhancing Human Experience in Human-Agent Collaboration: A Human-Centered Modeling Approach Based on Positive Human Gain**  
+
+---
+Primary Category: cs.HC  
+Categories: cs-AI, cs-HC, cs.HC  
+Keywords: AI, Reinforcement Learning  
+[Paper Link](http://arxiv.org/abs/2401.16444v1)  
+
+---
+
+
+**ABSTRACT**  
+Existing game AI research mainly focuses on enhancing agents' abilities to win games, but this does not inherently make humans have a better experience when collaborating with these agents. For example, agents may dominate the collaboration and exhibit unintended or detrimental behaviors, leading to poor experiences for their human partners. In other words, most game AI agents are modeled in a "self-centered" manner. In this paper, we propose a "human-centered" modeling scheme for collaborative agents that aims to enhance the experience of humans. Specifically, we model the experience of humans as the goals they expect to achieve during the task. We expect that agents should learn to enhance the extent to which humans achieve these goals while maintaining agents' original abilities (e.g., winning games). To achieve this, we propose the Reinforcement Learning from Human Gain (RLHG) approach. The RLHG approach introduces a "baseline", which corresponds to the extent to which humans primitively achieve their goals, and encourages agents to learn behaviors that can effectively enhance humans in achieving their goals better. We evaluate the RLHG agent in the popular Multi-player Online Battle Arena (MOBA) game, Honor of Kings, by conducting real-world human-agent tests. Both objective performance and subjective preference results show that the RLHG agent provides participants better gaming experience.
+
+{{</citation>}}
+
+
 ## stat.CO (1)
 
 
 
-### (42/46) Ensemble-Based Annealed Importance Sampling (Haoxuan Chen et al., 2024)
+### (45/50) Ensemble-Based Annealed Importance Sampling (Haoxuan Chen et al., 2024)
 
 {{<citation>}}
 
@@ -1004,7 +1076,7 @@ Sampling from a multimodal distribution is a fundamental and challenging problem
 
 
 
-### (43/46) Deep Learning for Gamma-Ray Bursts: A data driven event framework for X/Gamma-Ray analysis in space telescopes (Riccardo Crupi, 2024)
+### (46/50) Deep Learning for Gamma-Ray Bursts: A data driven event framework for X/Gamma-Ray analysis in space telescopes (Riccardo Crupi, 2024)
 
 {{<citation>}}
 
@@ -1030,7 +1102,7 @@ This thesis comprises the first three chapters dedicated to providing an overvie
 
 
 
-### (44/46) Generative AI-enabled Blockchain Networks: Fundamentals, Applications, and Case Study (Cong T. Nguyen et al., 2024)
+### (47/50) Generative AI-enabled Blockchain Networks: Fundamentals, Applications, and Case Study (Cong T. Nguyen et al., 2024)
 
 {{<citation>}}
 
@@ -1056,7 +1128,7 @@ Generative Artificial Intelligence (GAI) has recently emerged as a promising sol
 
 
 
-### (45/46) SNAP: Semantic Stories for Next Activity Prediction (Alon Oved et al., 2024)
+### (48/50) SNAP: Semantic Stories for Next Activity Prediction (Alon Oved et al., 2024)
 
 {{<citation>}}
 
@@ -1078,11 +1150,37 @@ Predicting the next activity in an ongoing process is one of the most common cla
 {{</citation>}}
 
 
+## cs.SE (1)
+
+
+
+### (49/50) OMPGPT: A Generative Pre-trained Transformer Model for OpenMP (Le Chen et al., 2024)
+
+{{<citation>}}
+
+Le Chen, Arijit Bhattacharjee, Nesreen Ahmed, Niranjan Hasabnis, Gal Oren, Vy Vo, Ali Jannesari. (2024)  
+**OMPGPT: A Generative Pre-trained Transformer Model for OpenMP**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-DC, cs-LG, cs-SE, cs.SE  
+Keywords: ChatGPT, GPT, NLP, Transformer  
+[Paper Link](http://arxiv.org/abs/2401.16445v1)  
+
+---
+
+
+**ABSTRACT**  
+Large language models (LLMs), as epitomized by models like ChatGPT, have revolutionized the field of natural language processing (NLP). Along with this trend, code-based large language models such as StarCoder, WizardCoder, and CodeLlama have emerged, trained extensively on vast repositories of code data. Yet, inherent in their design, these models primarily focus on generative tasks like code generation, code completion, and comment generation, and general support for multiple programming languages. While the generic abilities of code LLMs are useful for many programmers, the area of high-performance computing (HPC) has a narrower set of requirements that make a smaller and more domain-specific LM a smarter choice. This paper introduces OMPGPT, a novel model meticulously designed to harness the inherent strengths of language models for OpenMP pragma generation. Furthermore, we adopt and adapt prompt engineering techniques from the NLP domain to create chain-of-OMP, an innovative strategy designed to enhance OMPGPT's effectiveness. Our extensive evaluations demonstrate that OMPGPT outperforms existing large language models specialized in OpenMP tasks and maintains a notably smaller size, aligning it more closely with the typical hardware constraints of HPC environments. We consider our contribution as a pivotal bridge, connecting the advantage of language models with the specific demands of HPC tasks. The success of OMPGPT lays a solid foundation, suggesting its potential applicability and adaptability to a wider range of HPC tasks, thereby opening new avenues in the field of computational efficiency and effectiveness.
+
+{{</citation>}}
+
+
 ## cs.DC (1)
 
 
 
-### (46/46) Stitching Satellites to the Edge: Pervasive and Efficient Federated LEO Satellite Learning (Mohamed Elmahallawy et al., 2024)
+### (50/50) Stitching Satellites to the Edge: Pervasive and Efficient Federated LEO Satellite Learning (Mohamed Elmahallawy et al., 2024)
 
 {{<citation>}}
 
