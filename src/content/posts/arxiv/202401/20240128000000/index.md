@@ -2239,7 +2239,7 @@ Lei Guo, Ziang Lu, Junliang Yu, Nguyen Quoc Viet Hung, Hongzhi Yin. (2024)
 Primary Category: cs.IR  
 Categories: cs-IR, cs.IR  
 Keywords: Representation Learning  
-[Paper Link](http://arxiv.org/abs/2401.14678v1)  
+[Paper Link](http://arxiv.org/abs/2401.14678v2)  
 
 ---
 

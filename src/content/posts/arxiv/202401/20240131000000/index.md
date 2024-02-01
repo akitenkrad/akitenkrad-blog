@@ -125,7 +125,7 @@ Or Elimelech, Asaf Cohen. (2024)
 Primary Category: cs.IT  
 Categories: cs-IT, cs.IT, math-IT  
 Keywords: Information Retrieval  
-[Paper Link](http://arxiv.org/abs/2401.15912v1)  
+[Paper Link](http://arxiv.org/abs/2401.15912v2)  
 
 ---
 
@@ -397,7 +397,7 @@ Thanh-Nhi Nguyen, Thanh-Phong Le, Kiet Van Nguyen. (2024)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: AI, NLP, Natural Language Processing, Social Media  
-[Paper Link](http://arxiv.org/abs/2401.16403v1)  
+[Paper Link](http://arxiv.org/abs/2401.16403v2)  
 
 ---
 
@@ -705,7 +705,7 @@ Felix Friedrich, Katharina Hämmerl, Patrick Schramowski, Jindrich Libovicky, Kr
 Primary Category: cs.CL  
 Categories: cs-CL, cs-CY, cs-LG, cs.CL  
 Keywords: Multilingual  
-[Paper Link](http://arxiv.org/abs/2401.16092v1)  
+[Paper Link](http://arxiv.org/abs/2401.16092v2)  
 
 ---
 
@@ -973,7 +973,7 @@ Tianshi Xu, Meng Li, Runsheng Wang. (2024)
 Primary Category: cs.CR  
 Categories: cs-AI, cs-CR, cs.CR  
 Keywords: Quantization  
-[Paper Link](http://arxiv.org/abs/2401.15970v1)  
+[Paper Link](http://arxiv.org/abs/2401.15970v2)  
 
 ---
 
@@ -2439,7 +2439,7 @@ Ke Zhu, Minghao Fu, Jie Shao, Tianyu Liu, Jianxin Wu. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Bias, Object Detection  
-[Paper Link](http://arxiv.org/abs/2401.15885v1)  
+[Paper Link](http://arxiv.org/abs/2401.15885v2)  
 
 ---
 
@@ -2639,9 +2639,9 @@ Tao Huang, Zhihong Sun, Zhi Jin, Ge Li, Chen Lyu. (2024)
 
 ---
 Primary Category: cs.SE  
-Categories: 68-06, D-2-3, cs-SE, cs.SE  
+Categories: D-2-3, cs-SE, cs.SE  
 Keywords: ChatGPT, GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2401.15940v1)  
+[Paper Link](http://arxiv.org/abs/2401.15940v2)  
 
 ---
 

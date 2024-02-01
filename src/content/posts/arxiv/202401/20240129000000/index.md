@@ -389,7 +389,7 @@ Jianfei Xiao, Yancan Chen, Yimin Ou, Hanyi Yu, Yiyong Xiao. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Dialog, Dialogue, Summarization  
-[Paper Link](http://arxiv.org/abs/2401.15496v1)  
+[Paper Link](http://arxiv.org/abs/2401.15496v2)  
 
 ---
 
@@ -602,14 +602,14 @@ While text-based event extraction has been an active research area and has seen 
 
 {{<citation>}}
 
-Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin. (2024)  
+Ahmet Yusuf Alan, Enis Karaarslan, Ömer Aydin. (2024)  
 **A RAG-based Question Answering System Proposal for Understanding Islam: MufassirQAS LLM**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: ChatGPT, GPT, NLP, QA, Question Answering  
-[Paper Link](http://arxiv.org/abs/2401.15378v2)  
+[Paper Link](http://arxiv.org/abs/2401.15378v3)  
 
 ---
 
@@ -837,7 +837,7 @@ Juniper Lovato, Julia Zimmerman, Isabelle Smith, Peter Dodds, Jennifer Karson. (
 Primary Category: cs.CY  
 Categories: cs-CY, cs.CY  
 Keywords: AI, Generative AI  
-[Paper Link](http://arxiv.org/abs/2401.15497v1)  
+[Paper Link](http://arxiv.org/abs/2401.15497v2)  
 
 ---
 
@@ -1206,14 +1206,14 @@ In the rapidly evolving field of machine learning, adversarial attacks present a
 
 {{<citation>}}
 
-Xi Tan, Zheyuan Ma, Sandro Pinto, Le Guan, Ning Zhang, Jun Xu, Zhiqiang Lin, Hongxing Hu, Ziming Zhao. (2024)  
+Xi Tan, Zheyuan Ma, Sandro Pinto, Le Guan, Ning Zhang, Jun Xu, Zhiqiang Lin, Hongxin Hu, Ziming Zhao. (2024)  
 **Where's the 'up'?! A Comprehensive (bottom-up) Study on the Security of Arm Cortex-M Systems**  
 
 ---
 Primary Category: cs.CR  
 Categories: C-0; K-6-5, cs-AR, cs-CR, cs.CR  
 Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2401.15289v1)  
+[Paper Link](http://arxiv.org/abs/2401.15289v2)  
 
 ---
 
