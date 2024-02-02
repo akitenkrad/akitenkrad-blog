@@ -741,7 +741,7 @@ Large language models (LLMs) have exhibited an array of reasoning capabilities b
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Embedding, Sentence Embedding  
-[Paper Link](http://arxiv.org/abs/2401.15316v1)  
+[Paper Link](http://arxiv.org/abs/2401.15316v2)  
 
 ---
 

@@ -707,7 +707,7 @@ Shuai Yuan, Hanlin Qin, Xiang Yan, Naveed AKhtar, Ajmal Mian. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2401.15583v1)  
+[Paper Link](http://arxiv.org/abs/2401.15583v2)  
 
 ---
 

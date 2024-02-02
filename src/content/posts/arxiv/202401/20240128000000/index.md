@@ -1436,18 +1436,18 @@ In recent years, the performance of point cloud models has been rapidly improved
 {{</citation>}}
 
 
-### (63/104) MPTQ-ViT:Mixed-PrecisionPost-TrainingQuantizationforVisionTransformer (Yu-Shan Tai et al., 2024)
+### (63/104) MPTQ-ViT: Mixed-Precision Post-Training Quantization for Vision Transformer (Yu-Shan Tai et al., 2024)
 
 {{<citation>}}
 
 Yu-Shan Tai, An-Yeu, Wu. (2024)  
-**MPTQ-ViT:Mixed-PrecisionPost-TrainingQuantizationforVisionTransformer**  
+**MPTQ-ViT: Mixed-Precision Post-Training Quantization for Vision Transformer**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: ImageNet, Quantization, Transformer  
-[Paper Link](http://arxiv.org/abs/2401.14895v1)  
+[Paper Link](http://arxiv.org/abs/2401.14895v2)  
 
 ---
 
