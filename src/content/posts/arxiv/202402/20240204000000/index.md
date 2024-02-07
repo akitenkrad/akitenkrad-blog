@@ -1304,7 +1304,7 @@ Hao Chen, Bhiksha Raj, Xing Xie, Jindong Wang. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
+Categories: cs-AI, cs-CY, cs-LG, cs.LG  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2402.01909v1)  
 
@@ -1392,7 +1392,7 @@ Antonio Emanuele Cinà, Francesco Villani, Maura Pintor, Lea Schönherr, Battist
 
 ---
 Primary Category: cs.LG  
-Categories: cs-CV, cs-LG, cs.LG  
+Categories: cs-CR, cs-CV, cs-LG, cs.LG  
 Keywords: ImageNet  
 [Paper Link](http://arxiv.org/abs/2402.01879v1)  
 
@@ -1414,7 +1414,7 @@ Reyna Abhyankar, Zijian He, Vikranth Srivatsa, Hao Zhang, Yiying Zhang. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-DC, cs-LG, cs.LG  
+Categories: cs-CL, cs-DC, cs-LG, cs.LG  
 Keywords: ChatGPT, GPT, Language Model  
 [Paper Link](http://arxiv.org/abs/2402.01869v1)  
 
@@ -2052,7 +2052,7 @@ Guangfeng Yan, Tan Li, Yuanzhang Xiao, Hanxu Hou, Linqi Song. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-DC, cs-LG, cs.LG  
 Keywords: Quantization  
 [Paper Link](http://arxiv.org/abs/2402.01798v1)  
 
@@ -3806,7 +3806,7 @@ Shu Li, Jingxuan Yang, Honglin He, Yi Zhang, Jianming Hu, Shuo Feng. (2024)
 
 ---
 Primary Category: eess.SY  
-Categories: cs-LG, cs-SY, eess-SY, eess.SY  
+Categories: cs-LG, cs-RO, cs-SE, cs-SY, eess-SY, eess.SY  
 Keywords: Few-Shot  
 [Paper Link](http://arxiv.org/abs/2402.01795v1)  
 

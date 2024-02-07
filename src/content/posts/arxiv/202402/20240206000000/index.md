@@ -71,7 +71,7 @@ Ziquan Liu, Zhuo Zhi, Ilija Bogunovic, Carsten Gerner-Beuerle, Miguel Rodrigues.
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-CR, cs-LG, cs.LG  
 Keywords: Adversarial Attack, Transformer  
 [Paper Link](http://arxiv.org/abs/2402.02629v1)  
 
@@ -247,7 +247,7 @@ Han Yuan, Chuan Hong. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-CV, cs-LG, cs.LG  
 Keywords: Active Learning, ImageNet  
 [Paper Link](http://arxiv.org/abs/2402.02561v1)  
 
@@ -291,7 +291,7 @@ Gaurav Pandey, Yatin Nandwani, Tahira Naseem, Mayank Mishra, Guangxuan Xu, Dines
 
 ---
 Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
+Categories: cs-AI, cs-CL, cs-HC, cs-LG, cs.LG  
 Keywords: AI, Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2402.02479v1)  
 
@@ -313,7 +313,7 @@ Zhangyang Gao, Daize Dong, Cheng Tan, Jun Xia, Bozhen Hu, Stan Z. Li. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
+Categories: cs-AI, cs-LG, cs-SI, cs.LG  
 Keywords: GNN, GPT, Transformer  
 [Paper Link](http://arxiv.org/abs/2402.02464v1)  
 
@@ -335,7 +335,7 @@ Junhua Zeng, Guoxu Zhou, Chao Li, Zhun Sun, Qibin Zhao. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-CL, cs-LG, cs.LG  
 Keywords: GPT, Language Model  
 [Paper Link](http://arxiv.org/abs/2402.02456v1)  
 
@@ -401,7 +401,7 @@ Cheng Zhang, Jianyi Cheng, George A. Constantinides, Yiren Zhao. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-CL, cs-LG, cs.LG  
 Keywords: Language Model, Quantization  
 [Paper Link](http://arxiv.org/abs/2402.02446v1)  
 
@@ -467,7 +467,7 @@ Yifu Yuan, Jianye Hao, Yi Ma, Zibin Dong, Hebin Liang, Jinyi Liu, Zhixin Feng, K
 
 ---
 Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs-RO, cs.LG  
+Categories: cs-AI, cs-HC, cs-LG, cs-RO, cs.LG  
 Keywords: Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2402.02423v1)  
 
@@ -511,7 +511,7 @@ Yong Liu, Guo Qin, Xiangdong Huang, Jianmin Wang, Mingsheng Long. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-CL, cs-LG, cs.LG  
 Keywords: Language Model, Time Series  
 [Paper Link](http://arxiv.org/abs/2402.02370v1)  
 
@@ -533,7 +533,7 @@ Yong Liu, Haoran Zhang, Chenyu Li, Xiangdong Huang, Jianmin Wang, Mingsheng Long
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-LG, cs.LG, stat-ML  
 Keywords: GPT, Time Series, Transformer, Transformers  
 [Paper Link](http://arxiv.org/abs/2402.02368v1)  
 
@@ -555,7 +555,7 @@ Haixu Wu, Huakun Luo, Haowen Wang, Jianmin Wang, Mingsheng Long. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-LG, cs-NA, cs.LG, math-NA  
 Keywords: Attention, Transformer, Transformers  
 [Paper Link](http://arxiv.org/abs/2402.02366v1)  
 
@@ -687,7 +687,7 @@ Zhenxing Niu, Haodong Ren, Xinbo Gao, Gang Hua, Rong Jin. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-CL, cs-CR, cs-CV, cs-LG, cs.LG  
 Keywords: GPT, Language Model  
 [Paper Link](http://arxiv.org/abs/2402.02309v1)  
 
@@ -735,7 +735,7 @@ Gaël Gendron, Bao Trung Nguyen, Alex Yuxuan Peng, Michael Witbrock, Gillian Dob
 
 ---
 Primary Category: cs.CL  
-Categories: I-2-3; I-2-6; I-2-7; G-3, cs-CL, cs-IT, cs-LG, cs.CL, math-IT  
+Categories: I-2-3; I-2-6; I-2-7; G-3, cs-AI, cs-CL, cs-IT, cs-LG, cs.CL, math-IT  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2402.02636v1)  
 
@@ -889,7 +889,7 @@ Hangwen Zhang, Qingyi Si, Peng Fu, Zheng Lin, Weiping Wang. (2024)
 
 ---
 Primary Category: cs.CL  
-Categories: cs-CL, cs-LG, cs.CL  
+Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Fact Verification, Language Model, NLP  
 [Paper Link](http://arxiv.org/abs/2402.02549v1)  
 
@@ -933,7 +933,7 @@ Rui Cao, Jing Jiang. (2024)
 
 ---
 Primary Category: cs.CL  
-Categories: cs-CL, cs-CV, cs.CL  
+Categories: cs-AI, cs-CL, cs-CV, cs.CL  
 Keywords: QA  
 [Paper Link](http://arxiv.org/abs/2402.02541v1)  
 
@@ -955,7 +955,7 @@ Yuxia Wang, Minghan Wang, Muhammad Arslan Manzoor, Georgi Georgiev, Rocktim Jyot
 
 ---
 Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2402.02420v1)  
 
@@ -1021,7 +1021,7 @@ Yanbin Wei, Qiushi Huang, James T. Kwok, Yu Zhang. (2024)
 
 ---
 Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
 Keywords: GPT, Knowledge Graph, Language Model  
 [Paper Link](http://arxiv.org/abs/2402.02389v1)  
 
@@ -1091,7 +1091,7 @@ Bin Ren, Yawei Li, Jingyun Liang, Rakesh Ranjan, Mengyuan Liu, Rita Cucchiara, L
 
 ---
 Primary Category: cs.CV  
-Categories: cs-CV, cs-LG, cs.CV  
+Categories: cs-CV, cs-LG, cs.CV, eess-IV  
 Keywords: Attention, Transformer  
 [Paper Link](http://arxiv.org/abs/2402.02634v1)  
 
@@ -1113,7 +1113,7 @@ Guanxiong Sun, Chi Wang, Zhaoyu Zhang, Jiankang Deng, Stefanos Zafeiriou, Yang H
 
 ---
 Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
+Categories: cs-CV, cs-LG, cs.CV  
 Keywords: ImageNet  
 [Paper Link](http://arxiv.org/abs/2402.02574v1)  
 
@@ -1135,7 +1135,7 @@ Lu Qi, Yi-Wen Chen, Lehan Yang, Tiancheng Shen, Xiangtai Li, Weidong Guo, Yu Xu,
 
 ---
 Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
+Categories: cs-CL, cs-CV, cs.CV  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2402.02555v1)  
 
@@ -1157,7 +1157,7 @@ Oryan Yehezkel, Alon Zolfi, Amit Baras, Yuval Elovici, Asaf Shabtai. (2024)
 
 ---
 Primary Category: cs.CV  
-Categories: cs-CV, cs-LG, cs.CV  
+Categories: cs-CR, cs-CV, cs-LG, cs.CV  
 Keywords: Adversarial Attack, Transformer, Transformers  
 [Paper Link](http://arxiv.org/abs/2402.02554v1)  
 
@@ -1223,7 +1223,7 @@ Ziyu Ma, Shutao Li, Bin Sun, Jianfei Cai, Zuxiang Long, Fuyan Ma. (2024)
 
 ---
 Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
+Categories: cs-CL, cs-CV, cs.CV  
 Keywords: GPT, QA, Question Answering  
 [Paper Link](http://arxiv.org/abs/2402.02503v1)  
 
@@ -1311,7 +1311,7 @@ Jincao Yao, Yunpeng Wang, Zhikai Lei, Kai Wang, Xiaoxian Li, Jianhua Zhou, Xiang
 
 ---
 Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
+Categories: cs-AI, cs-CV, cs.CV  
 Keywords: AI, ChatGPT, GPT  
 [Paper Link](http://arxiv.org/abs/2402.02401v1)  
 
@@ -1517,7 +1517,7 @@ Scott L. Dyer, Christian A. Femrite, Joshua D. Guttman, Julian P. Lanson, Moses 
 
 ---
 Primary Category: cs.CR  
-Categories: cs-CR, cs.CR  
+Categories: cs-CR, cs-DC, cs.CR  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2402.02630v1)  
 
@@ -1525,7 +1525,7 @@ Keywords: AI
 
 
 **ABSTRACT**  
-Assured Remote Execution on a device is the ability of suitably authorized parties to construct secure channels with known processes -- i.e. processes executing known code -- running on it. Assured Remote Execution requires a hardware basis including cryptographic primitives.   In this paper, we show that a simple hardware-level mechanism called Cryptographically Assured Information Flow (CAIF) enables Assured Remote Execution. CAIF is akin to some operations in existing Trusted Execution Environments, but securely implements an ideal functionality defined in terms of logging and confidential escrow.   We show how to achieve Assured Remote Execution for a wide variety of processes on a CAIF device. Cryptographic protocol analysis demonstrates our security goals are achieved even against a strong adversary that may modify our programs and execute unauthorized programs on the device.   Assured Remote Execution enables useful functionality such as trustworthy remote attestation, and provides some of the support needed for secure remote reprogramming.   Acknowledgment. We are grateful to the MITRE Independent Research and Development Program for support.
+Assured Remote Execution on a device is the ability of suitably authorized parties to construct secure channels with known processes -- i.e. processes executing known code -- running on it. Assured Remote Execution requires a hardware basis including cryptographic primitives. In this paper, we show that a simple hardware-level mechanism called Cryptographically Assured Information Flow (CAIF) enables Assured Remote Execution. CAIF is akin to some operations in existing Trusted Execution Environments, but securely implements an ideal functionality defined in terms of logging and confidential escrow. We show how to achieve Assured Remote Execution for a wide variety of processes on a CAIF device. Cryptographic protocol analysis demonstrates our security goals are achieved even against a strong adversary that may modify our programs and execute unauthorized programs on the device. Assured Remote Execution enables useful functionality such as trustworthy remote attestation, and provides some of the support needed for secure remote reprogramming.
 
 {{</citation>}}
 
@@ -1539,7 +1539,7 @@ Rui Liu, Yun Lu, Jianping Pan. (2024)
 
 ---
 Primary Category: cs.CR  
-Categories: cs-CR, cs.CR  
+Categories: cs-CR, cs-NI, cs.CR  
 Keywords: Security  
 [Paper Link](http://arxiv.org/abs/2402.02607v1)  
 
@@ -1605,7 +1605,7 @@ Jie Ren, Han Xu, Pengfei He, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi
 
 ---
 Primary Category: cs.CR  
-Categories: cs-CR, cs-LG, cs.CR  
+Categories: cs-CR, cs-CV, cs-LG, cs.CR  
 Keywords: AI, Generative AI  
 [Paper Link](http://arxiv.org/abs/2402.02333v1)  
 
@@ -1719,7 +1719,7 @@ Zhiyuan Xu, Kun Wu, Junjie Wen, Jinming Li, Ning Liu, Zhengping Che, Jian Tang. 
 
 ---
 Primary Category: cs.RO  
-Categories: cs-RO, cs.RO  
+Categories: cs-AI, cs-RO, cs.RO  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2402.02385v1)  
 
@@ -1863,7 +1863,7 @@ Bernhard Vogginger, Amirhossein Rostami, Vaibhav Jain, Sirine Arfa, Andreas Hant
 
 ---
 Primary Category: cs.ET  
-Categories: cs-DC, cs-ET, cs.ET  
+Categories: cs-DC, cs-ET, cs-NE, cs.ET  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2402.02521v1)  
 

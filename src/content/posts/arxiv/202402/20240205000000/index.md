@@ -141,7 +141,7 @@ Costas Mavromatis, Petros Karypis, George Karypis. (2024)
 
 ---
 Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
 Keywords: GNN, Graph Neural Network, Graph Neural Networks, Knowledge Graph, Language Model, QA  
 [Paper Link](http://arxiv.org/abs/2402.02289v1)  
 
