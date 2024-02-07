@@ -23,22 +23,24 @@ math: true
 
 - [cs.LG (30)](#cslg-30)
 - [cs.CL (17)](#cscl-17)
-- [cs.CV (20)](#cscv-20)
-- [cs.SE (1)](#csse-1)
+- [cs.CV (17)](#cscv-17)
+- [cs.SE (2)](#csse-2)
 - [cs.CR (6)](#cscr-6)
 - [cs.RO (4)](#csro-4)
 - [cs.CE (1)](#csce-1)
-- [cs.AI (3)](#csai-3)
+- [cs.AI (4)](#csai-4)
 - [cs.ET (1)](#cset-1)
+- [eess.IV (3)](#eessiv-3)
 - [cs.DC (1)](#csdc-1)
 - [cs.IR (1)](#csir-1)
 - [cs.NI (1)](#csni-1)
+- [cs.SI (1)](#cssi-1)
 
 ## cs.LG (30)
 
 
 
-### (1/86) Variational DAG Estimation via State Augmentation With Stochastic Permutations (Edwin V. Bonilla et al., 2024)
+### (1/89) Variational DAG Estimation via State Augmentation With Stochastic Permutations (Edwin V. Bonilla et al., 2024)
 
 {{<citation>}}
 
@@ -60,7 +62,7 @@ Estimating the structure of a Bayesian network, in the form of a directed acycli
 {{</citation>}}
 
 
-### (2/86) PROSAC: Provably Safe Certification for Machine Learning Models under Adversarial Attacks (Ziquan Liu et al., 2024)
+### (2/89) PROSAC: Provably Safe Certification for Machine Learning Models under Adversarial Attacks (Ziquan Liu et al., 2024)
 
 {{<citation>}}
 
@@ -82,7 +84,7 @@ It is widely known that state-of-the-art machine learning models, including visi
 {{</citation>}}
 
 
-### (3/86) Stability Analysis of Various Symbolic Rule Extraction Methods from Recurrent Neural Network (Neisarg Dave et al., 2024)
+### (3/89) Stability Analysis of Various Symbolic Rule Extraction Methods from Recurrent Neural Network (Neisarg Dave et al., 2024)
 
 {{<citation>}}
 
@@ -104,7 +106,7 @@ This paper analyzes two competing rule extraction methodologies: quantization an
 {{</citation>}}
 
 
-### (4/86) Enhancing Transformer RNNs with Multiple Temporal Perspectives (Razvan-Gabriel Dumitru et al., 2024)
+### (4/89) Enhancing Transformer RNNs with Multiple Temporal Perspectives (Razvan-Gabriel Dumitru et al., 2024)
 
 {{<citation>}}
 
@@ -126,7 +128,7 @@ We introduce the concept of multiple temporal perspectives, a novel approach app
 {{</citation>}}
 
 
-### (5/86) Increasing Trust in Language Models through the Reuse of Verified Circuits (Philip Quirke et al., 2024)
+### (5/89) Increasing Trust in Language Models through the Reuse of Verified Circuits (Philip Quirke et al., 2024)
 
 {{<citation>}}
 
@@ -148,7 +150,7 @@ Language Models (LMs) are increasingly used for a wide range of prediction tasks
 {{</citation>}}
 
 
-### (6/86) The Virtues of Pessimism in Inverse Reinforcement Learning (David Wu et al., 2024)
+### (6/89) The Virtues of Pessimism in Inverse Reinforcement Learning (David Wu et al., 2024)
 
 {{<citation>}}
 
@@ -170,7 +172,7 @@ Inverse Reinforcement Learning (IRL) is a powerful framework for learning comple
 {{</citation>}}
 
 
-### (7/86) Accelerating Inverse Reinforcement Learning with Expert Bootstrapping (David Wu et al., 2024)
+### (7/89) Accelerating Inverse Reinforcement Learning with Expert Bootstrapping (David Wu et al., 2024)
 
 {{<citation>}}
 
@@ -192,7 +194,7 @@ Existing inverse reinforcement learning methods (e.g. MaxEntIRL, $f$-IRL) search
 {{</citation>}}
 
 
-### (8/86) Unified Training of Universal Time Series Forecasting Transformers (Gerald Woo et al., 2024)
+### (8/89) Unified Training of Universal Time Series Forecasting Transformers (Gerald Woo et al., 2024)
 
 {{<citation>}}
 
@@ -214,7 +216,7 @@ Deep learning for time series forecasting has traditionally operated within a on
 {{</citation>}}
 
 
-### (9/86) ClipFormer: Key-Value Clipping of Transformers on Memristive Crossbars for Write Noise Mitigation (Abhiroop Bhattacharjee et al., 2024)
+### (9/89) ClipFormer: Key-Value Clipping of Transformers on Memristive Crossbars for Write Noise Mitigation (Abhiroop Bhattacharjee et al., 2024)
 
 {{<citation>}}
 
@@ -236,7 +238,7 @@ Transformers have revolutionized various real-world applications from natural la
 {{</citation>}}
 
 
-### (10/86) Foundation Model Makes Clustering a Better Initialization for Active Learning (Han Yuan et al., 2024)
+### (10/89) Foundation Model Makes Clustering a Better Initialization for Active Learning (Han Yuan et al., 2024)
 
 {{<citation>}}
 
@@ -258,7 +260,7 @@ Active learning selects the most informative samples from the unlabeled dataset 
 {{</citation>}}
 
 
-### (11/86) Weisfeiler Leman for Euclidean Equivariant Machine Learning (Snir Hordan et al., 2024)
+### (11/89) Weisfeiler Leman for Euclidean Equivariant Machine Learning (Snir Hordan et al., 2024)
 
 {{<citation>}}
 
@@ -280,7 +282,7 @@ The $k$-Weifeiler-Leman ($k$-WL) graph isomorphism test hierarchy is a common me
 {{</citation>}}
 
 
-### (12/86) BRAIn: Bayesian Reward-conditioned Amortized Inference for natural language generation from feedback (Gaurav Pandey et al., 2024)
+### (12/89) BRAIn: Bayesian Reward-conditioned Amortized Inference for natural language generation from feedback (Gaurav Pandey et al., 2024)
 
 {{<citation>}}
 
@@ -302,7 +304,7 @@ Following the success of Proximal Policy Optimization (PPO) for Reinforcement Le
 {{</citation>}}
 
 
-### (13/86) A Graph is Worth $K$ Words: Euclideanizing Graph using Pure Transformer (Zhangyang Gao et al., 2024)
+### (13/89) A Graph is Worth $K$ Words: Euclideanizing Graph using Pure Transformer (Zhangyang Gao et al., 2024)
 
 {{<citation>}}
 
@@ -324,7 +326,7 @@ Can we model non-Euclidean graphs as pure language or even Euclidean vectors whi
 {{</citation>}}
 
 
-### (14/86) Discovering More Effective Tensor Network Structure Search Algorithms via Large Language Models (LLMs) (Junhua Zeng et al., 2024)
+### (14/89) Discovering More Effective Tensor Network Structure Search Algorithms via Large Language Models (LLMs) (Junhua Zeng et al., 2024)
 
 {{<citation>}}
 
@@ -346,7 +348,7 @@ Tensor network structure search (TN-SS), aiming at searching for suitable tensor
 {{</citation>}}
 
 
-### (15/86) On the Role of Initialization on the Implicit Bias in Deep Linear Networks (Oria Gruber et al., 2024)
+### (15/89) On the Role of Initialization on the Implicit Bias in Deep Linear Networks (Oria Gruber et al., 2024)
 
 {{<citation>}}
 
@@ -368,7 +370,7 @@ Despite Deep Learning's (DL) empirical success, our theoretical understanding of
 {{</citation>}}
 
 
-### (16/86) Breaking MLPerf Training: A Case Study on Optimizing BERT (Yongdeok Kim et al., 2024)
+### (16/89) Breaking MLPerf Training: A Case Study on Optimizing BERT (Yongdeok Kim et al., 2024)
 
 {{<citation>}}
 
@@ -390,7 +392,7 @@ Speeding up the large-scale distributed training is challenging in that it requi
 {{</citation>}}
 
 
-### (17/86) LQER: Low-Rank Quantization Error Reconstruction for LLMs (Cheng Zhang et al., 2024)
+### (17/89) LQER: Low-Rank Quantization Error Reconstruction for LLMs (Cheng Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -412,7 +414,7 @@ Post-training quantization of Large Language Models (LLMs) is challenging. In th
 {{</citation>}}
 
 
-### (18/86) DiffStitch: Boosting Offline Reinforcement Learning with Diffusion-based Trajectory Stitching (Guanghe Li et al., 2024)
+### (18/89) DiffStitch: Boosting Offline Reinforcement Learning with Diffusion-based Trajectory Stitching (Guanghe Li et al., 2024)
 
 {{<citation>}}
 
@@ -434,7 +436,7 @@ In offline reinforcement learning (RL), the performance of the learned policy hi
 {{</citation>}}
 
 
-### (19/86) Towards an Information Theoretic Framework of Context-Based Offline Meta-Reinforcement Learning (Lanqing Li et al., 2024)
+### (19/89) Towards an Information Theoretic Framework of Context-Based Offline Meta-Reinforcement Learning (Lanqing Li et al., 2024)
 
 {{<citation>}}
 
@@ -456,7 +458,7 @@ As a marriage between offline RL and meta-RL, the advent of offline meta-reinfor
 {{</citation>}}
 
 
-### (20/86) Uni-RLHF: Universal Platform and Benchmark Suite for Reinforcement Learning with Diverse Human Feedback (Yifu Yuan et al., 2024)
+### (20/89) Uni-RLHF: Universal Platform and Benchmark Suite for Reinforcement Learning with Diverse Human Feedback (Yifu Yuan et al., 2024)
 
 {{<citation>}}
 
@@ -478,7 +480,7 @@ Reinforcement Learning with Human Feedback (RLHF) has received significant atten
 {{</citation>}}
 
 
-### (21/86) FreDF: Learning to Forecast in Frequency Domain (Hao Wang et al., 2024)
+### (21/89) FreDF: Learning to Forecast in Frequency Domain (Hao Wang et al., 2024)
 
 {{<citation>}}
 
@@ -500,7 +502,7 @@ Time series modeling is uniquely challenged by the presence of autocorrelation i
 {{</citation>}}
 
 
-### (22/86) AutoTimes: Autoregressive Time Series Forecasters via Large Language Models (Yong Liu et al., 2024)
+### (22/89) AutoTimes: Autoregressive Time Series Forecasters via Large Language Models (Yong Liu et al., 2024)
 
 {{<citation>}}
 
@@ -522,7 +524,7 @@ Foundation models of time series have not been fully developed due to the limite
 {{</citation>}}
 
 
-### (23/86) Timer: Transformers for Time Series Analysis at Scale (Yong Liu et al., 2024)
+### (23/89) Timer: Transformers for Time Series Analysis at Scale (Yong Liu et al., 2024)
 
 {{<citation>}}
 
@@ -544,7 +546,7 @@ Deep learning has contributed remarkably to the advancement of time series analy
 {{</citation>}}
 
 
-### (24/86) Transolver: A Fast Transformer Solver for PDEs on General Geometries (Haixu Wu et al., 2024)
+### (24/89) Transolver: A Fast Transformer Solver for PDEs on General Geometries (Haixu Wu et al., 2024)
 
 {{<citation>}}
 
@@ -566,7 +568,7 @@ Transformers have empowered many milestones across various fields and have recen
 {{</citation>}}
 
 
-### (25/86) Unification of Symmetries Inside Neural Networks: Transformer, Feedforward and Neural ODE (Koji Hashimoto et al., 2024)
+### (25/89) Unification of Symmetries Inside Neural Networks: Transformer, Feedforward and Neural ODE (Koji Hashimoto et al., 2024)
 
 {{<citation>}}
 
@@ -588,7 +590,7 @@ Understanding the inner workings of neural networks, including transformers, rem
 {{</citation>}}
 
 
-### (26/86) Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals (Daojun Liang et al., 2024)
+### (26/89) Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals (Daojun Liang et al., 2024)
 
 {{<citation>}}
 
@@ -610,7 +612,7 @@ In this paper, we find that ubiquitous time series (TS) forecasting models are p
 {{</citation>}}
 
 
-### (27/86) Active Learning for Graphs with Noisy Structures (Hongliang Chi et al., 2024)
+### (27/89) Active Learning for Graphs with Noisy Structures (Hongliang Chi et al., 2024)
 
 {{<citation>}}
 
@@ -632,7 +634,7 @@ Graph Neural Networks (GNNs) have seen significant success in tasks such as node
 {{</citation>}}
 
 
-### (28/86) INViT: A Generalizable Routing Problem Solver with Invariant Nested View Transformer (Han Fang et al., 2024)
+### (28/89) INViT: A Generalizable Routing Problem Solver with Invariant Nested View Transformer (Han Fang et al., 2024)
 
 {{<citation>}}
 
@@ -654,7 +656,7 @@ Recently, deep reinforcement learning has shown promising results for learning f
 {{</citation>}}
 
 
-### (29/86) Selecting Large Language Model to Fine-tune via Rectified Scaling Law (Haowei Lin et al., 2024)
+### (29/89) Selecting Large Language Model to Fine-tune via Rectified Scaling Law (Haowei Lin et al., 2024)
 
 {{<citation>}}
 
@@ -676,7 +678,7 @@ The ever-growing ecosystem of LLMs has posed a challenge in selecting the most a
 {{</citation>}}
 
 
-### (30/86) Jailbreaking Attack against Multimodal Large Language Model (Zhenxing Niu et al., 2024)
+### (30/89) Jailbreaking Attack against Multimodal Large Language Model (Zhenxing Niu et al., 2024)
 
 {{<citation>}}
 
@@ -702,18 +704,18 @@ This paper focuses on jailbreaking attacks against multi-modal large language mo
 
 
 
-### (31/86) It's how you do things that matters': Attending to Process to Better Serve Indigenous Communities with Language Technologies (Ned Cooper et al., 2024)
+### (31/89) 'It's how you do things that matters': Attending to Process to Better Serve Indigenous Communities with Language Technologies (Ned Cooper et al., 2024)
 
 {{<citation>}}
 
 Ned Cooper, Courtney Heldreth, Ben Hutchinson. (2024)  
-**It's how you do things that matters': Attending to Process to Better Serve Indigenous Communities with Language Technologies**  
+**'It's how you do things that matters': Attending to Process to Better Serve Indigenous Communities with Language Technologies**  
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: NLP, Natural Language Processing  
-[Paper Link](http://arxiv.org/abs/2402.02639v1)  
+[Paper Link](http://arxiv.org/abs/2402.02639v2)  
 
 ---
 
@@ -724,7 +726,7 @@ Indigenous languages are historically under-served by Natural Language Processin
 {{</citation>}}
 
 
-### (32/86) Can Large Language Models Learn Independent Causal Mechanisms? (Gaël Gendron et al., 2024)
+### (32/89) Can Large Language Models Learn Independent Causal Mechanisms? (Gaël Gendron et al., 2024)
 
 {{<citation>}}
 
@@ -746,7 +748,7 @@ Despite impressive performance on language modelling and complex reasoning tasks
 {{</citation>}}
 
 
-### (33/86) Predicting Machine Translation Performance on Low-Resource Languages: The Role of Domain Similarity (Eric Khiu et al., 2024)
+### (33/89) Predicting Machine Translation Performance on Low-Resource Languages: The Role of Domain Similarity (Eric Khiu et al., 2024)
 
 {{<citation>}}
 
@@ -768,7 +770,7 @@ Fine-tuning and testing a multilingual large language model is expensive and cha
 {{</citation>}}
 
 
-### (34/86) DenseFormer: Enhancing Information Flow in Transformers via Depth Weighted Averaging (Matteo Pagliardini et al., 2024)
+### (34/89) DenseFormer: Enhancing Information Flow in Transformers via Depth Weighted Averaging (Matteo Pagliardini et al., 2024)
 
 {{<citation>}}
 
@@ -790,7 +792,7 @@ The transformer architecture from Vaswani et al. (2017) is now ubiquitous across
 {{</citation>}}
 
 
-### (35/86) Layer-Wise Analysis of Self-Supervised Acoustic Word Embeddings: A Study on Speech Emotion Recognition (Alexandra Saliba et al., 2024)
+### (35/89) Layer-Wise Analysis of Self-Supervised Acoustic Word Embeddings: A Study on Speech Emotion Recognition (Alexandra Saliba et al., 2024)
 
 {{<citation>}}
 
@@ -812,7 +814,7 @@ The efficacy of self-supervised speech models has been validated, yet the optima
 {{</citation>}}
 
 
-### (36/86) On the performance of phonetic algorithms in microtext normalization (Yerai Doval et al., 2024)
+### (36/89) On the performance of phonetic algorithms in microtext normalization (Yerai Doval et al., 2024)
 
 {{<citation>}}
 
@@ -834,7 +836,7 @@ User-generated content published on microblogging social networks constitutes a 
 {{</citation>}}
 
 
-### (37/86) DefInt: A Default-interventionist Framework for Efficient Reasoning with Hybrid Large Language Models (Yu Shang et al., 2024)
+### (37/89) DefInt: A Default-interventionist Framework for Efficient Reasoning with Hybrid Large Language Models (Yu Shang et al., 2024)
 
 {{<citation>}}
 
@@ -856,7 +858,7 @@ Large language models (LLMs) have shown impressive emergent abilities in a wide 
 {{</citation>}}
 
 
-### (38/86) Enhancing Robustness in Biomedical NLI Models: A Probing Approach for Clinical Trials (Ata Mustafa, 2024)
+### (38/89) Enhancing Robustness in Biomedical NLI Models: A Probing Approach for Clinical Trials (Ata Mustafa, 2024)
 
 {{<citation>}}
 
@@ -878,7 +880,7 @@ Large Language Models have revolutionized various fields and industries, such as
 {{</citation>}}
 
 
-### (39/86) Are Large Language Models Table-based Fact-Checkers? (Hangwen Zhang et al., 2024)
+### (39/89) Are Large Language Models Table-based Fact-Checkers? (Hangwen Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -900,7 +902,7 @@ Table-based Fact Verification (TFV) aims to extract the entailment relation betw
 {{</citation>}}
 
 
-### (40/86) 'What's my model inside of?': Exploring the role of environments for grounded natural language understanding (Ronen Tamari, 2024)
+### (40/89) 'What's my model inside of?': Exploring the role of environments for grounded natural language understanding (Ronen Tamari, 2024)
 
 {{<citation>}}
 
@@ -922,7 +924,7 @@ In contrast to classical cognitive science which studied brains in isolation, ec
 {{</citation>}}
 
 
-### (41/86) Knowledge Generation for Zero-shot Knowledge-based VQA (Rui Cao et al., 2024)
+### (41/89) Knowledge Generation for Zero-shot Knowledge-based VQA (Rui Cao et al., 2024)
 
 {{<citation>}}
 
@@ -944,7 +946,7 @@ Previous solutions to knowledge-based visual question answering~(K-VQA) retrieve
 {{</citation>}}
 
 
-### (42/86) Factuality of Large Language Models in the Year 2024 (Yuxia Wang et al., 2024)
+### (42/89) Factuality of Large Language Models in the Year 2024 (Yuxia Wang et al., 2024)
 
 {{<citation>}}
 
@@ -966,7 +968,7 @@ Large language models (LLMs), especially when instruction-tuned for chat, have b
 {{</citation>}}
 
 
-### (43/86) Aligner: Achieving Efficient Alignment through Weak-to-Strong Correction (Jiaming Ji et al., 2024)
+### (43/89) Aligner: Achieving Efficient Alignment through Weak-to-Strong Correction (Jiaming Ji et al., 2024)
 
 {{<citation>}}
 
@@ -977,18 +979,18 @@ Jiaming Ji, Boyuan Chen, Hantao Lou, Donghai Hong, Borong Zhang, Xuehai Pan, Jun
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: GPT, GPT-4, Language Model, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.02416v1)  
+[Paper Link](http://arxiv.org/abs/2402.02416v2)  
 
 ---
 
 
 **ABSTRACT**  
-Efforts to align Large Language Models (LLMs) are mainly conducted via Reinforcement Learning from Human Feedback (RLHF) methods. However, RLHF encounters major challenges including training reward models, actor-critic engineering, and importantly, it requires access to LLM parameters. Here we introduce Aligner, a new efficient alignment paradigm that bypasses the whole RLHF process by learning the correctional residuals between the aligned and the unaligned answers. Our Aligner offers several key advantages. Firstly, it is an autoregressive seq2seq model that is trained on the query-answer-correction dataset via supervised learning; this offers a parameter-efficient alignment solution with minimal resources. Secondly, the Aligner facilitates weak-to-strong generalization; finetuning large pretrained models by Aligner's supervisory signals demonstrates strong performance boost. Thirdly, Aligner functions as a model-agnostic plug-and-play module, allowing for its direct application on different open-source and API-based models. Remarkably, Aligner-7B improves 11 different LLMs by 18% in helpfulness and 23% in harmlessness on average (GPT-4 by 26.9% and 17.5%). When finetuning (strong) Llama2-70B with (weak) Aligner-13B's supervision, we can improve Llama2 by 8.2% in helpfulness and 61.6% in harmlessness. See our dataset and code at https://aligner2024.github.io
+Efforts to align Large Language Models (LLMs) are mainly conducted via Reinforcement Learning from Human Feedback (RLHF) methods. However, RLHF encounters major challenges including training reward models, actor-critic engineering, and importantly, it requires access to LLM parameters. Here we introduce Aligner, a new efficient alignment paradigm that bypasses the whole RLHF process by learning the correctional residuals between the aligned and the unaligned answers. Our Aligner offers several key advantages. Firstly, it is an autoregressive seq2seq model that is trained on the query-answer-correction dataset via supervised learning; this offers a parameter-efficient alignment solution with minimal resources. Secondly, the Aligner facilitates weak-to-strong generalization; finetuning large pretrained models by Aligner's supervisory signals demonstrates strong performance boost. Thirdly, Aligner functions as a model-agnostic plug-and-play module, allowing for its direct application on different open-source and API-based models. Remarkably, Aligner-7B improves 11 different LLMs by 21.9% in helpfulness and 23.8% in harmlessness on average (GPT-4 by 17.5% and 26.9%). When finetuning (strong) Llama2-70B with (weak) Aligner-13B's supervision, we can improve Llama2 by 8.2% in helpfulness and 61.6% in harmlessness. See our dataset and code at https://aligner2024.github.io
 
 {{</citation>}}
 
 
-### (44/86) GLaPE: Gold Label-agnostic Prompt Evaluation and Optimization for Large Language Model (Xuanchang Zhang et al., 2024)
+### (44/89) GLaPE: Gold Label-agnostic Prompt Evaluation and Optimization for Large Language Model (Xuanchang Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -1010,7 +1012,7 @@ Despite the rapid progress of large language models (LLMs), their task performan
 {{</citation>}}
 
 
-### (45/86) KICGPT: Large Language Model with Knowledge in Context for Knowledge Graph Completion (Yanbin Wei et al., 2024)
+### (45/89) KICGPT: Large Language Model with Knowledge in Context for Knowledge Graph Completion (Yanbin Wei et al., 2024)
 
 {{<citation>}}
 
@@ -1032,7 +1034,7 @@ Knowledge Graph Completion (KGC) is crucial for addressing knowledge graph incom
 {{</citation>}}
 
 
-### (46/86) Evaluating Large Language Models in Analysing Classroom Dialogue (Yun Long et al., 2024)
+### (46/89) Evaluating Large Language Models in Analysing Classroom Dialogue (Yun Long et al., 2024)
 
 {{<citation>}}
 
@@ -1043,7 +1045,7 @@ Yun Long, Haifeng Luo, Yu Zhang. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-HC, cs.CL  
 Keywords: Dialog, Dialogue, GPT, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.02380v1)  
+[Paper Link](http://arxiv.org/abs/2402.02380v2)  
 
 ---
 
@@ -1054,7 +1056,7 @@ This study explores the application of Large Language Models (LLMs), specificall
 {{</citation>}}
 
 
-### (47/86) A Survey of Large Language Models in Finance (FinLLMs) (Jean Lee et al., 2024)
+### (47/89) A Survey of Large Language Models in Finance (FinLLMs) (Jean Lee et al., 2024)
 
 {{<citation>}}
 
@@ -1076,11 +1078,11 @@ Large Language Models (LLMs) have shown remarkable capabilities across a wide va
 {{</citation>}}
 
 
-## cs.CV (20)
+## cs.CV (17)
 
 
 
-### (48/86) Key-Graph Transformer for Image Restoration (Bin Ren et al., 2024)
+### (48/89) Key-Graph Transformer for Image Restoration (Bin Ren et al., 2024)
 
 {{<citation>}}
 
@@ -1102,7 +1104,7 @@ While it is crucial to capture global information for effective image restoratio
 {{</citation>}}
 
 
-### (49/86) Spatio-temporal Prompting Network for Robust Video Feature Extraction (Guanxiong Sun et al., 2024)
+### (49/89) Spatio-temporal Prompting Network for Robust Video Feature Extraction (Guanxiong Sun et al., 2024)
 
 {{<citation>}}
 
@@ -1124,7 +1126,7 @@ Frame quality deterioration is one of the main challenges in the field of video 
 {{</citation>}}
 
 
-### (50/86) Generalizable Entity Grounding via Assistance of Large Language Model (Lu Qi et al., 2024)
+### (50/89) Generalizable Entity Grounding via Assistance of Large Language Model (Lu Qi et al., 2024)
 
 {{<citation>}}
 
@@ -1146,7 +1148,7 @@ In this work, we propose a novel approach to densely ground visual entities from
 {{</citation>}}
 
 
-### (51/86) DeSparsify: Adversarial Attack Against Token Sparsification Mechanisms in Vision Transformers (Oryan Yehezkel et al., 2024)
+### (51/89) DeSparsify: Adversarial Attack Against Token Sparsification Mechanisms in Vision Transformers (Oryan Yehezkel et al., 2024)
 
 {{<citation>}}
 
@@ -1168,7 +1170,7 @@ Vision transformers have contributed greatly to advancements in the computer vis
 {{</citation>}}
 
 
-### (52/86) LHRS-Bot: Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model (Dilxat Muhtar et al., 2024)
+### (52/89) LHRS-Bot: Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model (Dilxat Muhtar et al., 2024)
 
 {{<citation>}}
 
@@ -1190,7 +1192,7 @@ The revolutionary capabilities of large language models (LLMs) have paved the wa
 {{</citation>}}
 
 
-### (53/86) Embedding Non-Distortive Cancelable Face Template Generation (Dmytro Zakharov et al., 2024)
+### (53/89) Embedding Non-Distortive Cancelable Face Template Generation (Dmytro Zakharov et al., 2024)
 
 {{<citation>}}
 
@@ -1212,29 +1214,7 @@ Biometric authentication systems are crucial for security, but developing them i
 {{</citation>}}
 
 
-### (54/86) Deep Supervision by Gaussian Pseudo-label-based Morphological Attention for Abdominal Aorta Segmentation in Non-Contrast CTs (Qixiang Ma et al., 2024)
-
-{{<citation>}}
-
-Qixiang Ma, Antoine Lucas, Adrien Kaladji, Pascal Haigron. (2024)  
-**Deep Supervision by Gaussian Pseudo-label-based Morphological Attention for Abdominal Aorta Segmentation in Non-Contrast CTs**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs-LG, cs.CV  
-Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2402.02514v1)  
-
----
-
-
-**ABSTRACT**  
-The segmentation of the abdominal aorta in non-contrast CT images is a non-trivial task for computer-assisted endovascular navigation, particularly in scenarios where contrast agents are unsuitable. While state-of-the-art deep learning segmentation models have been proposed recently for this task, they are trained on manually annotated strong labels. However, the inherent ambiguity in the boundary of the aorta in non-contrast CT may undermine the reliability of strong labels, leading to potential overfitting risks. This paper introduces a Gaussian-based pseudo label, integrated into conventional deep learning models through deep supervision, to achieve Morphological Attention (MA) enhancement. As the Gaussian pseudo label retains the morphological features of the aorta without explicitly representing its boundary distribution, we suggest that it preserves aortic morphology during training while mitigating the negative impact of ambiguous boundaries, reducing the risk of overfitting. It is introduced in various 2D/3D deep learning models and validated on our local data set of 30 non-contrast CT volumes comprising 5749 CT slices. The results underscore the effectiveness of MA in preserving the morphological characteristics of the aorta and addressing overfitting concerns, thereby enhancing the performance of the models.
-
-{{</citation>}}
-
-
-### (55/86) GeReA: Question-Aware Prompt Captions for Knowledge-based Visual Question Answering (Ziyu Ma et al., 2024)
+### (54/89) GeReA: Question-Aware Prompt Captions for Knowledge-based Visual Question Answering (Ziyu Ma et al., 2024)
 
 {{<citation>}}
 
@@ -1256,29 +1236,7 @@ Knowledge-based visual question answering (VQA) requires world knowledge beyond 
 {{</citation>}}
 
 
-### (56/86) VM-UNet: Vision Mamba UNet for Medical Image Segmentation (Jiacheng Ruan et al., 2024)
-
-{{<citation>}}
-
-Jiacheng Ruan, Suncheng Xiang. (2024)  
-**VM-UNet: Vision Mamba UNet for Medical Image Segmentation**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2402.02491v1)  
-
----
-
-
-**ABSTRACT**  
-In the realm of medical image segmentation, both CNN-based and Transformer-based models have been extensively explored. However, CNNs exhibit limitations in long-range modeling capabilities, whereas Transformers are hampered by their quadratic computational complexity. Recently, State Space Models (SSMs), exemplified by Mamba, have emerged as a promising approach. They not only excel in modeling long-range interactions but also maintain a linear computational complexity. In this paper, leveraging state space models, we propose a U-shape architecture model for medical image segmentation, named Vision Mamba UNet (VM-UNet). Specifically, the Visual State Space (VSS) block is introduced as the foundation block to capture extensive contextual information, and an asymmetrical encoder-decoder structure is constructed. We conduct comprehensive experiments on the ISIC17, ISIC18, and Synapse datasets, and the results indicate that VM-UNet performs competitively in medical image segmentation tasks. To our best knowledge, this is the first medical image segmentation model constructed based on the pure SSM-based model. We aim to establish a baseline and provide valuable insights for the future development of more efficient and effective SSM-based segmentation systems. Our code is available at https://github.com/JCruan519/VM-UNet.
-
-{{</citation>}}
-
-
-### (57/86) AI Art Neural Constellation: Revealing the Collective and Contrastive State of AI-Generated and Human Art (Faizan Farooq Khan et al., 2024)
+### (55/89) AI Art Neural Constellation: Revealing the Collective and Contrastive State of AI-Generated and Human Art (Faizan Farooq Khan et al., 2024)
 
 {{<citation>}}
 
@@ -1300,7 +1258,7 @@ Discovering the creative potentials of a random signal to various artistic expre
 {{</citation>}}
 
 
-### (58/86) BECLR: Batch Enhanced Contrastive Few-Shot Learning (Stylianos Poulakakis-Daktylidis et al., 2024)
+### (56/89) BECLR: Batch Enhanced Contrastive Few-Shot Learning (Stylianos Poulakakis-Daktylidis et al., 2024)
 
 {{<citation>}}
 
@@ -1322,7 +1280,7 @@ Learning quickly from very few labeled samples is a fundamental attribute that s
 {{</citation>}}
 
 
-### (59/86) Learning Mutual Excitation for Hand-to-Hand and Human-to-Human Interaction Recognition (Mengyuan Liu et al., 2024)
+### (57/89) Learning Mutual Excitation for Hand-to-Hand and Human-to-Human Interaction Recognition (Mengyuan Liu et al., 2024)
 
 {{<citation>}}
 
@@ -1344,7 +1302,7 @@ Recognizing interactive actions, including hand-to-hand interaction and human-to
 {{</citation>}}
 
 
-### (60/86) AI-Generated Content Enhanced Computer-Aided Diagnosis Model for Thyroid Nodules: A ChatGPT-Style Assistant (Jincao Yao et al., 2024)
+### (58/89) AI-Generated Content Enhanced Computer-Aided Diagnosis Model for Thyroid Nodules: A ChatGPT-Style Assistant (Jincao Yao et al., 2024)
 
 {{<citation>}}
 
@@ -1366,7 +1324,7 @@ An artificial intelligence-generated content-enhanced computer-aided diagnosis (
 {{</citation>}}
 
 
-### (61/86) NOAH: Learning Pairwise Object Category Attentions for Image Classification (Chao Li et al., 2024)
+### (59/89) NOAH: Learning Pairwise Object Category Attentions for Image Classification (Chao Li et al., 2024)
 
 {{<citation>}}
 
@@ -1388,7 +1346,7 @@ A modern deep neural network (DNN) for image classification tasks typically cons
 {{</citation>}}
 
 
-### (62/86) PromptRR: Diffusion Models as Prompt Generators for Single Image Reflection Removal (Tao Wang et al., 2024)
+### (60/89) PromptRR: Diffusion Models as Prompt Generators for Single Image Reflection Removal (Tao Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1410,7 +1368,7 @@ Existing single image reflection removal (SIRR) methods using deep learning tend
 {{</citation>}}
 
 
-### (63/86) M$^3$Face: A Unified Multi-Modal Multilingual Framework for Human Face Generation and Editing (Mohammadreza Mofayezi et al., 2024)
+### (61/89) M$^3$Face: A Unified Multi-Modal Multilingual Framework for Human Face Generation and Editing (Mohammadreza Mofayezi et al., 2024)
 
 {{<citation>}}
 
@@ -1432,7 +1390,7 @@ Human face generation and editing represent an essential task in the era of comp
 {{</citation>}}
 
 
-### (64/86) Exploring Intrinsic Properties of Medical Images for Self-Supervised Binary Semantic Segmentation (Pranav Singh et al., 2024)
+### (62/89) Exploring Intrinsic Properties of Medical Images for Self-Supervised Binary Semantic Segmentation (Pranav Singh et al., 2024)
 
 {{<citation>}}
 
@@ -1454,29 +1412,7 @@ Recent advancements in self-supervised learning have unlocked the potential to h
 {{</citation>}}
 
 
-### (65/86) Vision Transformer-based Multimodal Feature Fusion Network for Lymphoma Segmentation on PET/CT Images (Huan Huang et al., 2024)
-
-{{<citation>}}
-
-Huan Huang, Liheng Qiu, Shenmiao Yang, Longxi Li, Jiaofen Nan, Yanting Li, Chuang Han, Fubao Zhu, Chen Zhao, Weihua Zhou. (2024)  
-**Vision Transformer-based Multimodal Feature Fusion Network for Lymphoma Segmentation on PET/CT Images**  
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2402.02349v1)  
-
----
-
-
-**ABSTRACT**  
-Background: Diffuse large B-cell lymphoma (DLBCL) segmentation is a challenge in medical image analysis. Traditional segmentation methods for lymphoma struggle with the complex patterns and the presence of DLBCL lesions. Objective: We aim to develop an accurate method for lymphoma segmentation with 18F-Fluorodeoxyglucose positron emission tomography (PET) and computed tomography (CT) images. Methods: Our lymphoma segmentation approach combines a vision transformer with dual encoders, adeptly fusing PET and CT data via multimodal cross-attention fusion (MMCAF) module. In this study, PET and CT data from 165 DLBCL patients were analyzed. A 5-fold cross-validation was employed to evaluate the performance and generalization ability of our method. Ground truths were annotated by experienced nuclear medicine experts. We calculated the total metabolic tumor volume (TMTV) and performed a statistical analysis on our results. Results: The proposed method exhibited accurate performance in DLBCL lesion segmentation, achieving a Dice similarity coefficient of 0.9173$\pm$0.0071, a Hausdorff distance of 2.71$\pm$0.25mm, a sensitivity of 0.9462$\pm$0.0223, and a specificity of 0.9986$\pm$0.0008. Additionally, a Pearson correlation coefficient of 0.9030$\pm$0.0179 and an R-square of 0.8586$\pm$0.0173 were observed in TMTV when measured on manual annotation compared to our segmentation results. Conclusion: This study highlights the advantages of MMCAF and vision transformer for lymphoma segmentation using PET and CT, offering great promise for computer-aided lymphoma diagnosis and treatment.
-
-{{</citation>}}
-
-
-### (66/86) Closed-Loop Unsupervised Representation Disentanglement with $β$-VAE Distillation and Diffusion Probabilistic Feedback (Xin Jin et al., 2024)
+### (63/89) Closed-Loop Unsupervised Representation Disentanglement with $β$-VAE Distillation and Diffusion Probabilistic Feedback (Xin Jin et al., 2024)
 
 {{<citation>}}
 
@@ -1498,7 +1434,7 @@ Representation disentanglement may help AI fundamentally understand the real wor
 {{</citation>}}
 
 
-### (67/86) Learning Semantic Proxies from Visual Prompts for Parameter-Efficient Fine-Tuning in Deep Metric Learning (Li Ren et al., 2024)
+### (64/89) Learning Semantic Proxies from Visual Prompts for Parameter-Efficient Fine-Tuning in Deep Metric Learning (Li Ren et al., 2024)
 
 {{<citation>}}
 
@@ -1520,11 +1456,11 @@ Deep Metric Learning (DML) has long attracted the attention of the machine learn
 {{</citation>}}
 
 
-## cs.SE (1)
+## cs.SE (2)
 
 
 
-### (68/86) GIRT-Model: Automated Generation of Issue Report Templates (Nafiseh Nikeghbal et al., 2024)
+### (65/89) GIRT-Model: Automated Generation of Issue Report Templates (Nafiseh Nikeghbal et al., 2024)
 
 {{<citation>}}
 
@@ -1546,11 +1482,33 @@ Platforms such as GitHub and GitLab introduce Issue Report Templates (IRTs) to e
 {{</citation>}}
 
 
+### (66/89) UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing (Yifeng He et al., 2024)
+
+{{<citation>}}
+
+Yifeng He, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen. (2024)  
+**UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing**  
+
+---
+Primary Category: cs.SE  
+Categories: cs-AI, cs-CL, cs-CR, cs-LG, cs-SE, cs.SE  
+Keywords: Language Model  
+[Paper Link](http://arxiv.org/abs/2402.03396v1)  
+
+---
+
+
+**ABSTRACT**  
+The remarkable capability of large language models (LLMs) in generating high-quality code has drawn increasing attention in the software testing community. However, existing code LLMs often demonstrate unsatisfactory capabilities in generating accurate and complete tests since they were trained on code snippets collected without differentiating between code for testing purposes and other code. In this paper, we present a large-scale dataset UniTSyn, which is capable of enhancing the prowess of LLMs for Unit Test Synthesis. Associating tests with the tested functions is crucial for LLMs to infer the expected behavior and the logic paths to be verified. By leveraging Language Server Protocol, UniTSyn achieves the challenging goal of collecting focal-test pairs without per-project execution setups or per-language heuristics that tend to be fragile and difficult to scale. It contains 2.7 million focal-test pairs across five mainstream programming languages, making it possible to be utilized for enhancing the test generation ability of LLMs. The details of UniTSyn can be found in Table 1. Our experiments demonstrate that, by building an autoregressive model based on UniTSyn, we can achieve significant benefits in learning and understanding unit test representations, resulting in improved generation accuracy and code coverage across all evaluated programming languages. Code and data will be publicly available.
+
+{{</citation>}}
+
+
 ## cs.CR (6)
 
 
 
-### (69/86) Cryptographically Assured Information Flow: Assured Remote Execution (Scott L. Dyer et al., 2024)
+### (67/89) Cryptographically Assured Information Flow: Assured Remote Execution (Scott L. Dyer et al., 2024)
 
 {{<citation>}}
 
@@ -1572,7 +1530,7 @@ Assured Remote Execution on a device is the ability of suitably authorized parti
 {{</citation>}}
 
 
-### (70/86) Flexible Non-interactive Short-term Implicit Certificate Generation for VANETs (Rui Liu et al., 2024)
+### (68/89) Flexible Non-interactive Short-term Implicit Certificate Generation for VANETs (Rui Liu et al., 2024)
 
 {{<citation>}}
 
@@ -1594,7 +1552,7 @@ A leading industry standard for secure and trusted communication in vehicular ad
 {{</citation>}}
 
 
-### (71/86) Evading Deep Learning-Based Malware Detectors via Obfuscation: A Deep Reinforcement Learning Approach (Brian Etter et al., 2024)
+### (69/89) Evading Deep Learning-Based Malware Detectors via Obfuscation: A Deep Reinforcement Learning Approach (Brian Etter et al., 2024)
 
 {{<citation>}}
 
@@ -1616,7 +1574,7 @@ Adversarial Malware Generation (AMG), the generation of adversarial malware vari
 {{</citation>}}
 
 
-### (72/86) XAI-CF -- Examining the Role of Explainable Artificial Intelligence in Cyber Forensics (Shahid Alam et al., 2024)
+### (70/89) XAI-CF -- Examining the Role of Explainable Artificial Intelligence in Cyber Forensics (Shahid Alam et al., 2024)
 
 {{<citation>}}
 
@@ -1638,7 +1596,7 @@ With the rise of complex cyber devices Cyber Forensics (CF) is facing many new c
 {{</citation>}}
 
 
-### (73/86) Copyright Protection in Generative AI: A Technical Perspective (Jie Ren et al., 2024)
+### (71/89) Copyright Protection in Generative AI: A Technical Perspective (Jie Ren et al., 2024)
 
 {{<citation>}}
 
@@ -1660,7 +1618,7 @@ Generative AI has witnessed rapid advancement in recent years, expanding their c
 {{</citation>}}
 
 
-### (74/86) Spin: An Efficient Secure Computation Framework with GPU Acceleration (Wuxuan Jiang et al., 2024)
+### (72/89) Spin: An Efficient Secure Computation Framework with GPU Acceleration (Wuxuan Jiang et al., 2024)
 
 {{<citation>}}
 
@@ -1686,7 +1644,7 @@ Accuracy and efficiency remain challenges for multi-party computation (MPC) fram
 
 
 
-### (75/86) A Safe Reinforcement Learning driven Weights-varying Model Predictive Control for Autonomous Vehicle Motion Control (Baha Zarrouki et al., 2024)
+### (73/89) A Safe Reinforcement Learning driven Weights-varying Model Predictive Control for Autonomous Vehicle Motion Control (Baha Zarrouki et al., 2024)
 
 {{<citation>}}
 
@@ -1708,7 +1666,7 @@ Determining the optimal cost function parameters of Model Predictive Control (MP
 {{</citation>}}
 
 
-### (76/86) Obstacle Avoidance Deep Reinforcement Learning-Based Trajectory Planner with Robust Low-Level Control for Robotic Manipulators (Mehdi Heydari Shahna et al., 2024)
+### (74/89) Obstacle Avoidance Deep Reinforcement Learning-Based Trajectory Planner with Robust Low-Level Control for Robotic Manipulators (Mehdi Heydari Shahna et al., 2024)
 
 {{<citation>}}
 
@@ -1719,18 +1677,18 @@ Mehdi Heydari Shahna, Seyed Adel Alizadeh Kolagar, Jouni Mattila. (2024)
 Primary Category: cs.RO  
 Categories: cs-LG, cs-RO, cs-SY, cs.RO, eess-SY  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.02551v1)  
+[Paper Link](http://arxiv.org/abs/2402.02551v2)  
 
 ---
 
 
 **ABSTRACT**  
-In robotics, contemporary strategies are learning-based, characterized by a complex black-box nature and a lack of interpretability, which may pose challenges in ensuring stability and safety. To address these issues, we propose integrating an obstacle-free deep reinforcement learning (DRL) trajectory planner with a novel auto-tuning low- and joint-level control strategy, all while actively engaging in the learning phase through interactions with the environment. This approach circumvents the complexities associated with computations while also addressing nonrepetitive and random obstacle avoidance tasks. First, a model-free DRL agent to plan velocity-bounded and obstacle-free motion is employed for a manipulator with 'n' degrees of freedom (DoF) in task space through joint-level reasoning. This plan is then input into a robust subsystem-based adaptive controller, which produces the necessary torques, while the Cuckoo Search Optimization (CSO) algorithm enhances control gains to minimize the time required to reach, time taken to stabilize, the maximum deviation from the desired value, and persistent tracking error in the steady state. This approach guarantees that position and velocity errors exponentially converge to zero, accounting for any initial and end-point variations, unknown modeling errors, and external disturbances. Theoretical assertions are validated through the presentation of simulation outcomes.
+In robotics, contemporary strategies are learning-based, characterized by a complex black-box nature and a lack of interpretability, which may pose challenges in ensuring stability and safety. To address these issues, we propose integrating an obstacle-free deep reinforcement learning (DRL) trajectory planner with a novel auto-tuning low- and joint-level control strategy, all while actively engaging in the learning phase through interactions with the environment. This approach circumvents the complexities associated with computations while also addressing nonrepetitive and random obstacle avoidance tasks. First, a model-free DRL agent to plan velocity-bounded and obstacle-free motion is employed for a manipulator with 'n' degrees of freedom (DoF) in task space through joint-level reasoning. This plan is then input into a robust subsystem-based adaptive controller, which produces the necessary torques, while the Cuckoo Search Optimization (CSO) algorithm enhances control gains to minimize the time required to reach, time taken to stabilize, the maximum deviation from the desired value, and persistent tracking error in the steady state. This approach guarantees that position and velocity errors exponentially converge to zero in an unfamiliar environment, despite unknown robotic manipulator modeling. Theoretical assertions are validated through the presentation of simulation outcomes.
 
 {{</citation>}}
 
 
-### (77/86) Angle Robustness Unmanned Aerial Vehicle Navigation in GNSS-Denied Scenarios (Yuxin Wang et al., 2024)
+### (75/89) Angle Robustness Unmanned Aerial Vehicle Navigation in GNSS-Denied Scenarios (Yuxin Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1752,7 +1710,7 @@ Due to the inability to receive signals from the Global Navigation Satellite Sys
 {{</citation>}}
 
 
-### (78/86) A Survey on Robotics with Foundation Models: toward Embodied AI (Zhiyuan Xu et al., 2024)
+### (76/89) A Survey on Robotics with Foundation Models: toward Embodied AI (Zhiyuan Xu et al., 2024)
 
 {{<citation>}}
 
@@ -1778,7 +1736,7 @@ While the exploration for embodied AI has spanned multiple decades, it remains a
 
 
 
-### (79/86) Efficient Market Dynamics: Unraveling Informational Efficiency in UK Horse Racing Betting Markets Through Betfair's Time Series Analysis (Narayan Tondapu, 2024)
+### (77/89) Efficient Market Dynamics: Unraveling Informational Efficiency in UK Horse Racing Betting Markets Through Betfair's Time Series Analysis (Narayan Tondapu, 2024)
 
 {{<citation>}}
 
@@ -1800,11 +1758,11 @@ Using Betfair's time series data, an analysis of the United Kingdom (UK) horse r
 {{</citation>}}
 
 
-## cs.AI (3)
+## cs.AI (4)
 
 
 
-### (80/86) PuzzleBench: Can LLMs Solve Challenging First-Order Combinatorial Reasoning Problems? (Chinmay Mittal et al., 2024)
+### (78/89) PuzzleBench: Can LLMs Solve Challenging First-Order Combinatorial Reasoning Problems? (Chinmay Mittal et al., 2024)
 
 {{<citation>}}
 
@@ -1826,7 +1784,29 @@ Recent works have explored the use of LLMs for reasoning tasks focussing on rela
 {{</citation>}}
 
 
-### (81/86) DeLLMa: A Framework for Decision Making Under Uncertainty with Large Language Models (Ollie Liu et al., 2024)
+### (79/89) Delivery Optimized Discovery in Behavioral User Segmentation under Budget Constrain (Harshita Chopra et al., 2024)
+
+{{<citation>}}
+
+Harshita Chopra, Atanu R. Sinha, Sunav Choudhary, Ryan A. Rossi, Paavan Kumar Indela, Veda Pranav Parwatala, Srinjayee Paul, Aurghya Maiti. (2024)  
+**Delivery Optimized Discovery in Behavioral User Segmentation under Budget Constrain**  
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs-IR, cs-LG, cs.AI  
+Keywords: Google  
+[Paper Link](http://arxiv.org/abs/2402.03388v1)  
+
+---
+
+
+**ABSTRACT**  
+Users' behavioral footprints online enable firms to discover behavior-based user segments (or, segments) and deliver segment specific messages to users. Following the discovery of segments, delivery of messages to users through preferred media channels like Facebook and Google can be challenging, as only a portion of users in a behavior segment find match in a medium, and only a fraction of those matched actually see the message (exposure). Even high quality discovery becomes futile when delivery fails. Many sophisticated algorithms exist for discovering behavioral segments; however, these ignore the delivery component. The problem is compounded because (i) the discovery is performed on the behavior data space in firms' data (e.g., user clicks), while the delivery is predicated on the static data space (e.g., geo, age) as defined by media; and (ii) firms work under budget constraint. We introduce a stochastic optimization based algorithm for delivery optimized discovery of behavioral user segmentation and offer new metrics to address the joint optimization. We leverage optimization under a budget constraint for delivery combined with a learning-based component for discovery. Extensive experiments on a public dataset from Google and a proprietary dataset show the effectiveness of our approach by simultaneously improving delivery metrics, reducing budget spend and achieving strong predictive performance in discovery.
+
+{{</citation>}}
+
+
+### (80/89) DeLLMa: A Framework for Decision Making Under Uncertainty with Large Language Models (Ollie Liu et al., 2024)
 
 {{<citation>}}
 
@@ -1848,7 +1828,7 @@ Large language models (LLMs) are increasingly used across society, including in 
 {{</citation>}}
 
 
-### (82/86) Enhance Reasoning for Large Language Models in the Game Werewolf (Shuang Wu et al., 2024)
+### (81/89) Enhance Reasoning for Large Language Models in the Game Werewolf (Shuang Wu et al., 2024)
 
 {{<citation>}}
 
@@ -1874,7 +1854,7 @@ This paper presents an innovative framework that integrates Large Language Model
 
 
 
-### (83/86) Neuromorphic hardware for sustainable AI data centers (Bernhard Vogginger et al., 2024)
+### (82/89) Neuromorphic hardware for sustainable AI data centers (Bernhard Vogginger et al., 2024)
 
 {{<citation>}}
 
@@ -1896,11 +1876,81 @@ As humans advance toward a higher level of artificial intelligence, it is always
 {{</citation>}}
 
 
+## eess.IV (3)
+
+
+
+### (83/89) Deep Supervision by Gaussian Pseudo-label-based Morphological Attention for Abdominal Aorta Segmentation in Non-Contrast CTs (Qixiang Ma et al., 2024)
+
+{{<citation>}}
+
+Qixiang Ma, Antoine Lucas, Adrien Kaladji, Pascal Haigron. (2024)  
+**Deep Supervision by Gaussian Pseudo-label-based Morphological Attention for Abdominal Aorta Segmentation in Non-Contrast CTs**  
+
+---
+Primary Category: eess.IV  
+Categories: cs-CV, cs-LG, eess-IV, eess.IV  
+Keywords: Attention  
+[Paper Link](http://arxiv.org/abs/2402.02514v1)  
+
+---
+
+
+**ABSTRACT**  
+The segmentation of the abdominal aorta in non-contrast CT images is a non-trivial task for computer-assisted endovascular navigation, particularly in scenarios where contrast agents are unsuitable. While state-of-the-art deep learning segmentation models have been proposed recently for this task, they are trained on manually annotated strong labels. However, the inherent ambiguity in the boundary of the aorta in non-contrast CT may undermine the reliability of strong labels, leading to potential overfitting risks. This paper introduces a Gaussian-based pseudo label, integrated into conventional deep learning models through deep supervision, to achieve Morphological Attention (MA) enhancement. As the Gaussian pseudo label retains the morphological features of the aorta without explicitly representing its boundary distribution, we suggest that it preserves aortic morphology during training while mitigating the negative impact of ambiguous boundaries, reducing the risk of overfitting. It is introduced in various 2D/3D deep learning models and validated on our local data set of 30 non-contrast CT volumes comprising 5749 CT slices. The results underscore the effectiveness of MA in preserving the morphological characteristics of the aorta and addressing overfitting concerns, thereby enhancing the performance of the models.
+
+{{</citation>}}
+
+
+### (84/89) VM-UNet: Vision Mamba UNet for Medical Image Segmentation (Jiacheng Ruan et al., 2024)
+
+{{<citation>}}
+
+Jiacheng Ruan, Suncheng Xiang. (2024)  
+**VM-UNet: Vision Mamba UNet for Medical Image Segmentation**  
+
+---
+Primary Category: eess.IV  
+Categories: cs-CV, eess-IV, eess.IV  
+Keywords: Transformer, Transformers  
+[Paper Link](http://arxiv.org/abs/2402.02491v1)  
+
+---
+
+
+**ABSTRACT**  
+In the realm of medical image segmentation, both CNN-based and Transformer-based models have been extensively explored. However, CNNs exhibit limitations in long-range modeling capabilities, whereas Transformers are hampered by their quadratic computational complexity. Recently, State Space Models (SSMs), exemplified by Mamba, have emerged as a promising approach. They not only excel in modeling long-range interactions but also maintain a linear computational complexity. In this paper, leveraging state space models, we propose a U-shape architecture model for medical image segmentation, named Vision Mamba UNet (VM-UNet). Specifically, the Visual State Space (VSS) block is introduced as the foundation block to capture extensive contextual information, and an asymmetrical encoder-decoder structure is constructed. We conduct comprehensive experiments on the ISIC17, ISIC18, and Synapse datasets, and the results indicate that VM-UNet performs competitively in medical image segmentation tasks. To our best knowledge, this is the first medical image segmentation model constructed based on the pure SSM-based model. We aim to establish a baseline and provide valuable insights for the future development of more efficient and effective SSM-based segmentation systems. Our code is available at https://github.com/JCruan519/VM-UNet.
+
+{{</citation>}}
+
+
+### (85/89) Vision Transformer-based Multimodal Feature Fusion Network for Lymphoma Segmentation on PET/CT Images (Huan Huang et al., 2024)
+
+{{<citation>}}
+
+Huan Huang, Liheng Qiu, Shenmiao Yang, Longxi Li, Jiaofen Nan, Yanting Li, Chuang Han, Fubao Zhu, Chen Zhao, Weihua Zhou. (2024)  
+**Vision Transformer-based Multimodal Feature Fusion Network for Lymphoma Segmentation on PET/CT Images**  
+
+---
+Primary Category: eess.IV  
+Categories: cs-CV, eess-IV, eess.IV  
+Keywords: Transformer  
+[Paper Link](http://arxiv.org/abs/2402.02349v1)  
+
+---
+
+
+**ABSTRACT**  
+Background: Diffuse large B-cell lymphoma (DLBCL) segmentation is a challenge in medical image analysis. Traditional segmentation methods for lymphoma struggle with the complex patterns and the presence of DLBCL lesions. Objective: We aim to develop an accurate method for lymphoma segmentation with 18F-Fluorodeoxyglucose positron emission tomography (PET) and computed tomography (CT) images. Methods: Our lymphoma segmentation approach combines a vision transformer with dual encoders, adeptly fusing PET and CT data via multimodal cross-attention fusion (MMCAF) module. In this study, PET and CT data from 165 DLBCL patients were analyzed. A 5-fold cross-validation was employed to evaluate the performance and generalization ability of our method. Ground truths were annotated by experienced nuclear medicine experts. We calculated the total metabolic tumor volume (TMTV) and performed a statistical analysis on our results. Results: The proposed method exhibited accurate performance in DLBCL lesion segmentation, achieving a Dice similarity coefficient of 0.9173$\pm$0.0071, a Hausdorff distance of 2.71$\pm$0.25mm, a sensitivity of 0.9462$\pm$0.0223, and a specificity of 0.9986$\pm$0.0008. Additionally, a Pearson correlation coefficient of 0.9030$\pm$0.0179 and an R-square of 0.8586$\pm$0.0173 were observed in TMTV when measured on manual annotation compared to our segmentation results. Conclusion: This study highlights the advantages of MMCAF and vision transformer for lymphoma segmentation using PET and CT, offering great promise for computer-aided lymphoma diagnosis and treatment.
+
+{{</citation>}}
+
+
 ## cs.DC (1)
 
 
 
-### (84/86) Device Scheduling and Assignment in Hierarchical Federated Learning for Internet of Things (Tinghao Zhang et al., 2024)
+### (86/89) Device Scheduling and Assignment in Hierarchical Federated Learning for Internet of Things (Tinghao Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -1926,7 +1976,7 @@ Federated Learning (FL) is a promising machine learning approach for Internet of
 
 
 
-### (85/86) eXplainable Bayesian Multi-Perspective Generative Retrieval (EuiYul Song et al., 2024)
+### (87/89) eXplainable Bayesian Multi-Perspective Generative Retrieval (EuiYul Song et al., 2024)
 
 {{<citation>}}
 
@@ -1952,7 +2002,7 @@ Modern deterministic retrieval pipelines prioritize achieving state-of-the-art p
 
 
 
-### (86/86) Large Language Model Adaptation for Networking (Duo Wu et al., 2024)
+### (88/89) Large Language Model Adaptation for Networking (Duo Wu et al., 2024)
 
 {{<citation>}}
 
@@ -1970,5 +2020,31 @@ Keywords: Language Model
 
 **ABSTRACT**  
 Many networking tasks now employ deep learning (DL) to solve complex prediction and system optimization problems. However, current design philosophy of DL-based algorithms entails intensive engineering overhead due to the manual design of deep neural networks (DNNs) for different networking tasks. Besides, DNNs tend to achieve poor generalization performance on unseen data distributions/environments.   Motivated by the recent success of large language models (LLMs), for the first time, this work studies the LLM adaptation for networking to explore a more sustainable design philosophy. With the massive pre-trained knowledge and powerful inference ability, LLM can serve as the foundation model, and is expected to achieve "one model for all" with even better performance and stronger generalization for various tasks. In this paper, we present NetLLM, the first LLM adaptation framework that efficiently adapts LLMs to solve networking problems. NetLLM addresses many practical challenges in LLM adaptation, from how to process task-specific information with LLMs, to how to improve the efficiency of answer generation and acquiring domain knowledge for networking. Across three networking-related use cases - viewport prediction (VP), adaptive bitrate streaming (ABR) and cluster job scheduling (CJS), we showcase the effectiveness of NetLLM in LLM adaptation for networking. Results show that the adapted LLM surpasses state-of-the-art algorithms by 10.1-36.6% for VP, 14.5-36.6% for ABR, 6.8-41.3% for CJS, and also achieves superior generalization performance.
+
+{{</citation>}}
+
+
+## cs.SI (1)
+
+
+
+### (89/89) Predicting Tweet Posting Behavior on Citizen Security: A Hawkes Point Process Analysis (Cristian Pulido et al., 2024)
+
+{{<citation>}}
+
+Cristian Pulido, Francisco Gómez. (2024)  
+**Predicting Tweet Posting Behavior on Citizen Security: A Hawkes Point Process Analysis**  
+
+---
+Primary Category: cs.SI  
+Categories: cs-CE, cs-SI, cs.SI  
+Keywords: Security  
+[Paper Link](http://arxiv.org/abs/2402.03378v1)  
+
+---
+
+
+**ABSTRACT**  
+The Perception of Security (PoS) refers to people's opinions about security or insecurity in a place or situation. While surveys have traditionally been the primary means to capture such perceptions, they need to be improved in their ability to offer real-time monitoring or predictive insights into future security perceptions. Recent evidence suggests that social network content can provide complementary insights into quantifying these perceptions. However, the challenge of accurately predicting these perceptions, with the capacity to anticipate them, still needs to be explored. This article introduces an innovative approach to PoS within short time frames using social network data. Our model incorporates external factors that influence the publication and reposting of content related to security perceptions. Our results demonstrate that this proposed model achieves competitive predictive performance and maintains a high degree of interpretability regarding the factors influencing security perceptions. This research contributes to understanding how temporal patterns and external factors impact the anticipation of security perceptions, providing valuable insights for proactive security planning.
 
 {{</citation>}}
