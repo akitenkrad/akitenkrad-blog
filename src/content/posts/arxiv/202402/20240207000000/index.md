@@ -38,7 +38,7 @@ math: true
 - [cs.SI (2)](#cssi-2)
 - [cs.DS (1)](#csds-1)
 - [cs.DC (2)](#csdc-2)
-- [cs.IT (6)](#csit-6)
+- [cs.IT (5)](#csit-5)
 - [cs.LO (1)](#cslo-1)
 - [cs.SC (1)](#cssc-1)
 - [cs.SE (2)](#csse-2)
@@ -49,6 +49,7 @@ math: true
 - [cs.RO (2)](#csro-2)
 - [cs.AR (1)](#csar-1)
 - [cs.NE (1)](#csne-1)
+- [cs.NI (1)](#csni-1)
 - [cs.CY (1)](#cscy-1)
 
 ## eess.SY (2)
@@ -1038,7 +1039,7 @@ Alan Chung, Amin Saberi, Morgane Austern. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs-SI, cs.LG, math-ST, stat-ML, stat-TH  
 Keywords: GNN, Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2402.02692v1)  
+[Paper Link](http://arxiv.org/abs/2402.02692v2)  
 
 ---
 
@@ -1222,13 +1223,13 @@ G. Bejarano, D. Rodríguez, J. M. Lemos, M. Vargas, M. G. Ortega. (2024)
 Primary Category: math.OC  
 Categories: cs-SY, eess-SY, math-OC, math.OC  
 Keywords: NLP  
-[Paper Link](http://arxiv.org/abs/2402.03580v1)  
+[Paper Link](http://arxiv.org/abs/2402.03580v2)  
 
 ---
 
 
 **ABSTRACT**  
-This brief deals with the satisfaction of the daily cooling demand by a hybrid system that consists of a vapour-compression refrigeration cycle and a thermal energy storage (TES) unit, based on phase change materials. The addition of the TES tank to the original refrigeration plant allows to schedule the cooling production regardless of the instantaneous demand, given that the TES tank can store cold energy and release it whenever deemed appropriate. The scheduling problem is posed as an optimization problem based on mixed-integer non-linear programming (MINLP), since it includes both discrete and continuous variables. The latter corresponds to the references on the main cooling powers involved in the problem (cooling production at the evaporator and TES charging/discharging), whereas the discrete variables define the operating mode scheduling. Therefore, in addition to the hybrid features of the physical plant, a hybrid optimal control strategy is also proposed. A receding horizon approach is applied, similar to model predictive control (MPC) strategies, while economic criteria are imposed in the objective function, as well as feasibility issues. The TES state estimation is also addressed, since its instantaneous \emph{charge ratio} is not measurable. The proposed strategy is applied in simulation to a challenging cooling demand profile and the main advantages of the MINLP-based strategy over a non-linear MPC-based scheduling strategy previously developed are highlighted, regarding operating cost, ease of tuning, and ability to adapt to cooling demand variations.
+This brief deals with the satisfaction of the daily cooling demand by a hybrid system that consists of a vapour-compression refrigeration cycle and a thermal energy storage (TES) unit, based on phase change materials. The addition of the TES tank to the original refrigeration plant allows to schedule the cooling production regardless of the instantaneous demand, given that the TES tank can store cold energy and release it whenever deemed appropriate. The scheduling problem is posed as an optimization problem based on mixed-integer non-linear programming (MINLP), since it includes both discrete and continuous variables. The latter corresponds to the references on the main cooling powers involved in the problem (cooling production at the evaporator and TES charging/discharging), whereas the discrete variables define the operating mode scheduling. Therefore, in addition to the hybrid features of the physical plant, a hybrid optimal control strategy is also proposed. A receding horizon approach is applied, similar to model predictive control (MPC) strategies, while economic criteria are imposed in the objective function, as well as feasibility issues. The TES state estimation is also addressed, since its instantaneous charge ratio is not measurable. The proposed strategy is applied in simulation to a challenging cooling demand profile and the main advantages of the MINLP-based strategy over a non-linear MPC-based scheduling strategy previously developed are highlighted, regarding operating cost, ease of tuning, and ability to adapt to cooling demand variations.
 
 {{</citation>}}
 
@@ -1334,7 +1335,7 @@ Mintong Kang, Nezihe Merve Gürel, Ning Yu, Dawn Song, Bo Li. (2024)
 
 ---
 Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
+Categories: cs-AI, cs-CL, cs-IR, cs.AI  
 Keywords: Language Model, NLP  
 [Paper Link](http://arxiv.org/abs/2402.03181v1)  
 
@@ -1444,7 +1445,7 @@ Xu Huang, Weiwen Liu, Xiaolong Chen, Xingmei Wang, Hao Wang, Defu Lian, Yasheng 
 
 ---
 Primary Category: cs.AI  
-Categories: cs-AI, cs-LG, cs.AI  
+Categories: cs-AI, cs-CL, cs-LG, cs.AI  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2402.02716v1)  
 
@@ -1494,7 +1495,7 @@ Jialu Li, Aishwarya Padmakumar, Gaurav Sukhatme, Mohit Bansal. (2024)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CL, cs-CV, cs.CV  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03561v1)  
+[Paper Link](http://arxiv.org/abs/2402.03561v2)  
 
 ---
 
@@ -1670,13 +1671,13 @@ Anna Yoo Jeong Ha, Josephine Passananti, Ronik Bhaskar, Shawn Shan, Reid Southen
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.03214v1)  
+[Paper Link](http://arxiv.org/abs/2402.03214v2)  
 
 ---
 
 
 **ABSTRACT**  
-The advent of generative AI images has completely disrupted the art world. Identifying AI generated images from human art is a challenging problem whose impact is growing over time. The failure to address this problem allows bad actors to defraud individuals paying a premium for human art, and companies whose stated policies forbid AI imagery. This is also critical for AI model trainers, who need to filter training data to avoid potential model collapse. There are several different approaches to distinguishing human art from AI images, including classifiers trained by supervised learning, research tools targeting diffusion models, and identification by professional artists using their knowledge of artistic techniques. In this paper, we seek to understand how well these approaches can perform against today's modern generative models in both benign and adversarial settings. We curate real human art across 7 styles, generate matching images from 5 generative models, and apply 8 detectors (5 automated detectors and 3 different human groups including 180 crowdworkers, 4000+ professional artists, and 13 expert artists experienced at detecting AI). Both Hive and expert artists do very well, but make mistakes in different ways (Hive is weaker against adversarial perturbations while Expert artists produce higher false positives). We believe these weaknesses will remain as models continue to evolve, and use our data to demonstrate why a combined team of human and automated detectors provides the best combination of accuracy and robustness.
+The advent of generative AI images has completely disrupted the art world. Distinguishing AI generated images from human art is a challenging problem whose impact is growing over time. A failure to address this problem allows bad actors to defraud individuals paying a premium for human art and companies whose stated policies forbid AI imagery. It is also critical for content owners to establish copyright, and for model trainers interested in curating training data in order to avoid potential model collapse.   There are several different approaches to distinguishing human art from AI images, including classifiers trained by supervised learning, research tools targeting diffusion models, and identification by professional artists using their knowledge of artistic techniques. In this paper, we seek to understand how well these approaches can perform against today's modern generative models in both benign and adversarial settings. We curate real human art across 7 styles, generate matching images from 5 generative models, and apply 8 detectors (5 automated detectors and 3 different human groups including 180 crowdworkers, 4000+ professional artists, and 13 expert artists experienced at detecting AI). Both Hive and expert artists do very well, but make mistakes in different ways (Hive is weaker against adversarial perturbations while Expert artists produce higher false positives). We believe these weaknesses will remain as models continue to evolve, and use our data to demonstrate why a combined team of human and automated detectors provides the best combination of accuracy and robustness.
 
 {{</citation>}}
 
@@ -2048,13 +2049,13 @@ Yankai Rong, Guoshun Nan, Minwei Zhang, Sihan Chen, Songtao Wang, Xuefei Zhang, 
 Primary Category: cs.CR  
 Categories: cs-CR, cs.CR, eess-SP  
 Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2402.02950v1)  
+[Paper Link](http://arxiv.org/abs/2402.02950v2)  
 
 ---
 
 
 **ABSTRACT**  
-Recently proliferated deep learning-based semantic communications (DLSC) focus on how transmitted symbols efficiently convey a desired meaning to the destination. However, the sensitivity of neural models and the openness of wireless channels cause the DLSC system to be extremely fragile to various malicious attacks. This inspires us to ask a question: ``Can we further exploit the advantages of transmission efficiency in wireless semantic communications while also alleviating its security disadvantages?''. Keeping this in mind, we propose SemEntropy, a novel method that answers the above question by exploring the semantics of data for both adaptive transmission and physical layer encryption. Specifically, we first introduce semantic entropy, which indicates the expectation of various semantic scores regarding the transmission goal of the DLSC. Equipped with such semantic entropy, we can dynamically assign informative semantics to Orthogonal Frequency Division Multiplexing (OFDM) subcarriers with better channel conditions in a fine-grained manner. We also use the entropy to guide semantic key generation to safeguard communications over open wireless channels. By doing so, both transmission efficiency and channel security can be simultaneously improved. Extensive experiments over various benchmarks show the effectiveness of the proposed SemEntropy. We discuss the reason why our proposed method benefits secure transmission of DLSC, and also give some interesting findings, e.g., SemEntropy can keep the semantic accuracy remain 95\% with 60\% less transmission.
+Recently proliferated deep learning-based semantic communications (DLSC) focus on how transmitted symbols efficiently convey a desired meaning to the destination. However, the sensitivity of neural models and the openness of wireless channels cause the DLSC system to be extremely fragile to various malicious attacks. This inspires us to ask a question: "Can we further exploit the advantages of transmission efficiency in wireless semantic communications while also alleviating its security disadvantages?". Keeping this in mind, we propose SemEntropy, a novel method that answers the above question by exploring the semantics of data for both adaptive transmission and physical layer encryption. Specifically, we first introduce semantic entropy, which indicates the expectation of various semantic scores regarding the transmission goal of the DLSC. Equipped with such semantic entropy, we can dynamically assign informative semantics to Orthogonal Frequency Division Multiplexing (OFDM) subcarriers with better channel conditions in a fine-grained manner. We also use the entropy to guide semantic key generation to safeguard communications over open wireless channels. By doing so, both transmission efficiency and channel security can be simultaneously improved. Extensive experiments over various benchmarks show the effectiveness of the proposed SemEntropy. We discuss the reason why our proposed method benefits secure transmission of DLSC, and also give some interesting findings, e.g., SemEntropy can keep the semantic accuracy remain 95% with 60% less transmission.
 
 {{</citation>}}
 
@@ -3030,7 +3031,7 @@ Simone Bombari, Marco Mondelli. (2024)
 
 ---
 Primary Category: stat.ML  
-Categories: cs-LG, stat-ML, stat.ML  
+Categories: cs-CL, cs-LG, stat-ML, stat.ML  
 Keywords: Attention, BERT, NLP  
 [Paper Link](http://arxiv.org/abs/2402.02969v1)  
 
@@ -3463,7 +3464,7 @@ With the increasing importance of data in the modern business environment, effec
 {{</citation>}}
 
 
-## cs.IT (6)
+## cs.IT (5)
 
 
 
@@ -3555,29 +3556,7 @@ Private information retrieval from a single server is considered, utilizing rand
 {{</citation>}}
 
 
-### (157/177) Intent Profiling and Translation Through Emergent Communication (Salwa Mostafa et al., 2024)
-
-{{<citation>}}
-
-Salwa Mostafa, Mohammed S. Elbamby, Mohamed K. Abdel-Aziz, Mehdi Bennis. (2024)  
-**Intent Profiling and Translation Through Emergent Communication**  
-
----
-Primary Category: cs.IT  
-Categories: cs-AI, cs-IT, cs-LG, cs.IT, math-IT  
-Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.02768v1)  
-
----
-
-
-**ABSTRACT**  
-To effectively express and satisfy network application requirements, intent-based network management has emerged as a promising solution. In intent-based methods, users and applications express their intent in a high-level abstract language to the network. Although this abstraction simplifies network operation, it induces many challenges to efficiently express applications' intents and map them to different network capabilities. Therefore, in this work, we propose an AI-based framework for intent profiling and translation. We consider a scenario where applications interacting with the network express their needs for network services in their domain language. The machine-to-machine communication (i.e., between applications and the network) is complex since it requires networks to learn how to understand the domain languages of each application, which is neither practical nor scalable. Instead, a framework based on emergent communication is proposed for intent profiling, in which applications express their abstract quality-of-experience (QoE) intents to the network through emergent communication messages. Subsequently, the network learns how to interpret these communication messages and map them to network capabilities (i.e., slices) to guarantee the requested Quality-of-Service (QoS). Simulation results show that the proposed method outperforms self-learning slicing and other baselines, and achieves a performance close to the perfect knowledge baseline.
-
-{{</citation>}}
-
-
-### (158/177) Fast and Accurate Cooperative Radio Map Estimation Enabled by GAN (Zezhong Zhang et al., 2024)
+### (157/177) Fast and Accurate Cooperative Radio Map Estimation Enabled by GAN (Zezhong Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -3603,7 +3582,7 @@ In the 6G era, real-time radio resource monitoring and management are urged to s
 
 
 
-### (159/177) Proof Theory and Decision Procedures for Deontic STIT Logics (Tim S. Lyon et al., 2024)
+### (158/177) Proof Theory and Decision Procedures for Deontic STIT Logics (Tim S. Lyon et al., 2024)
 
 {{<citation>}}
 
@@ -3629,7 +3608,7 @@ This paper addresses the automation of reasoning with deontic STIT logics by mea
 
 
 
-### (160/177) Computing Generic Fibres of Polynomial Ideals with FGLM and Hensel Lifting (Jérémy Berthomieu et al., 2024)
+### (159/177) Computing Generic Fibres of Polynomial Ideals with FGLM and Hensel Lifting (Jérémy Berthomieu et al., 2024)
 
 {{<citation>}}
 
@@ -3655,7 +3634,7 @@ We describe a version of the FGLM algorithm that can be used to compute generic 
 
 
 
-### (161/177) User-Centric Evaluation of ChatGPT Capability of Generating R Program Code (Tanha Miah et al., 2024)
+### (160/177) User-Centric Evaluation of ChatGPT Capability of Generating R Program Code (Tanha Miah et al., 2024)
 
 {{<citation>}}
 
@@ -3677,7 +3656,7 @@ This paper reports an evaluation of ChatGPT's capability of generating R program
 {{</citation>}}
 
 
-### (162/177) FAIR-USE4OS: From open source to Open Source (Raphael Sonabend et al., 2024)
+### (161/177) FAIR-USE4OS: From open source to Open Source (Raphael Sonabend et al., 2024)
 
 {{<citation>}}
 
@@ -3703,7 +3682,7 @@ This paper extends the FAIR (Findable, Accessible, Interoperable, Reusable) guid
 
 
 
-### (163/177) XNLP-hardness of Parameterized Problems on Planar Graphs (Hans L. Bodlaender et al., 2024)
+### (162/177) XNLP-hardness of Parameterized Problems on Planar Graphs (Hans L. Bodlaender et al., 2024)
 
 {{<citation>}}
 
@@ -3729,7 +3708,7 @@ The class XNLP consists of (parameterized) problems that can be solved nondeterm
 
 
 
-### (164/177) Enhancing the Stability of LLM-based Speech Generation Systems through Self-Supervised Representations (Álvaro Martín-Cortinas et al., 2024)
+### (163/177) Enhancing the Stability of LLM-based Speech Generation Systems through Self-Supervised Representations (Álvaro Martín-Cortinas et al., 2024)
 
 {{<citation>}}
 
@@ -3751,7 +3730,7 @@ Large Language Models (LLMs) are one of the most promising technologies for the 
 {{</citation>}}
 
 
-### (165/177) Array Geometry-Robust Attention-Based Neural Beamformer for Moving Speakers (Marvin Tammen et al., 2024)
+### (164/177) Array Geometry-Robust Attention-Based Neural Beamformer for Moving Speakers (Marvin Tammen et al., 2024)
 
 {{<citation>}}
 
@@ -3773,7 +3752,7 @@ Recently, a mask-based beamformer with attention-based spatial covariance matrix
 {{</citation>}}
 
 
-### (166/177) On combining acoustic and modulation spectrograms in an attention LSTM-based system for speech intelligibility level classification (Ascensión Gallardo-Antolín et al., 2024)
+### (165/177) On combining acoustic and modulation spectrograms in an attention LSTM-based system for speech intelligibility level classification (Ascensión Gallardo-Antolín et al., 2024)
 
 {{<citation>}}
 
@@ -3795,7 +3774,7 @@ Speech intelligibility can be affected by multiple factors, such as noisy enviro
 {{</citation>}}
 
 
-### (167/177) An Attention Long Short-Term Memory based system for automatic classification of speech intelligibility (Miguel Fernández-Díaz et al., 2024)
+### (166/177) An Attention Long Short-Term Memory based system for automatic classification of speech intelligibility (Miguel Fernández-Díaz et al., 2024)
 
 {{<citation>}}
 
@@ -3821,7 +3800,7 @@ Speech intelligibility can be degraded due to multiple factors, such as noisy en
 
 
 
-### (168/177) Learning to Abstract Visuomotor Mappings using Meta-Reinforcement Learning (Carlos A. Velazquez-Vargas et al., 2024)
+### (167/177) Learning to Abstract Visuomotor Mappings using Meta-Reinforcement Learning (Carlos A. Velazquez-Vargas et al., 2024)
 
 {{<citation>}}
 
@@ -3847,7 +3826,7 @@ We investigated the human capacity to acquire multiple visuomotor mappings for d
 
 
 
-### (169/177) A Comprehensive Study of the Current State-of-the-Art in Nepali Automatic Speech Recognition Systems (Rupak Raj Ghimire et al., 2024)
+### (168/177) A Comprehensive Study of the Current State-of-the-Art in Nepali Automatic Speech Recognition Systems (Rupak Raj Ghimire et al., 2024)
 
 {{<citation>}}
 
@@ -3869,7 +3848,7 @@ In this paper, we examine the research conducted in the field of Nepali Automati
 {{</citation>}}
 
 
-### (170/177) Exploring Federated Self-Supervised Learning for General Purpose Audio Understanding (Yasar Abbas Ur Rehman et al., 2024)
+### (169/177) Exploring Federated Self-Supervised Learning for General Purpose Audio Understanding (Yasar Abbas Ur Rehman et al., 2024)
 
 {{<citation>}}
 
@@ -3891,7 +3870,7 @@ The integration of Federated Learning (FL) and Self-supervised Learning (SSL) of
 {{</citation>}}
 
 
-### (171/177) Dual Knowledge Distillation for Efficient Sound Event Detection (Yang Xiao et al., 2024)
+### (170/177) Dual Knowledge Distillation for Efficient Sound Event Detection (Yang Xiao et al., 2024)
 
 {{<citation>}}
 
@@ -3913,7 +3892,7 @@ Sound event detection (SED) is essential for recognizing specific sounds and the
 {{</citation>}}
 
 
-### (172/177) Adversarial Data Augmentation for Robust Speaker Verification (Zhenyu Zhou et al., 2024)
+### (171/177) Adversarial Data Augmentation for Robust Speaker Verification (Zhenyu Zhou et al., 2024)
 
 {{<citation>}}
 
@@ -3939,7 +3918,7 @@ Data augmentation (DA) has gained widespread popularity in deep speaker models d
 
 
 
-### (173/177) Review on Fault Diagnosis and Fault-Tolerant Control Scheme for Robotic Manipulators: Recent Advances in AI, Machine Learning, and Digital Twin (Md Muzakkir Quamar et al., 2024)
+### (172/177) Review on Fault Diagnosis and Fault-Tolerant Control Scheme for Robotic Manipulators: Recent Advances in AI, Machine Learning, and Digital Twin (Md Muzakkir Quamar et al., 2024)
 
 {{<citation>}}
 
@@ -3961,7 +3940,7 @@ This comprehensive review article delves into the intricate realm of fault-toler
 {{</citation>}}
 
 
-### (174/177) Replication of Impedance Identification Experiments on a Reinforcement-Learning-Controlled Digital Twin of Human Elbows (Hao Yu et al., 2024)
+### (173/177) Replication of Impedance Identification Experiments on a Reinforcement-Learning-Controlled Digital Twin of Human Elbows (Hao Yu et al., 2024)
 
 {{<citation>}}
 
@@ -3987,7 +3966,7 @@ This study presents a pioneering effort to replicate human neuromechanical exper
 
 
 
-### (175/177) Embedding Hardware Approximations in Discrete Genetic-based Training for Printed MLPs (Florentia Afentaki et al., 2024)
+### (174/177) Embedding Hardware Approximations in Discrete Genetic-based Training for Printed MLPs (Florentia Afentaki et al., 2024)
 
 {{<citation>}}
 
@@ -4013,7 +3992,7 @@ Printed Electronics (PE) stands out as a promisingtechnology for widespread comp
 
 
 
-### (176/177) Quantized Approximately Orthogonal Recurrent Neural Networks (Armand Foucault et al., 2024)
+### (175/177) Quantized Approximately Orthogonal Recurrent Neural Networks (Armand Foucault et al., 2024)
 
 {{<citation>}}
 
@@ -4031,6 +4010,32 @@ Keywords: LSTM, QA
 
 **ABSTRACT**  
 Orthogonal recurrent neural networks (ORNNs) are an appealing option for learning tasks involving time series with long-term dependencies, thanks to their simplicity and computational stability. However, these networks often require a substantial number of parameters to perform well, which can be prohibitive in power-constrained environments, such as compact devices. One approach to address this issue is neural network quantization. The construction of such networks remains an open problem, acknowledged for its inherent instability.In this paper, we explore the quantization of the recurrent and input weight matrices in ORNNs, leading to Quantized approximately Orthogonal RNNs (QORNNs). We investigate one post-training quantization (PTQ) strategy and three quantization-aware training (QAT) algorithms that incorporate orthogonal constraints and quantized weights. Empirical results demonstrate the advantages of employing QAT over PTQ. The most efficient model achieves results similar to state-of-the-art full-precision ORNN and LSTM on a variety of standard benchmarks, even with 3-bits quantization.
+
+{{</citation>}}
+
+
+## cs.NI (1)
+
+
+
+### (176/177) Intent Profiling and Translation Through Emergent Communication (Salwa Mostafa et al., 2024)
+
+{{<citation>}}
+
+Salwa Mostafa, Mohammed S. Elbamby, Mohamed K. Abdel-Aziz, Mehdi Bennis. (2024)  
+**Intent Profiling and Translation Through Emergent Communication**  
+
+---
+Primary Category: cs.NI  
+Categories: cs-AI, cs-LG, cs-NI, cs.NI  
+Keywords: AI  
+[Paper Link](http://arxiv.org/abs/2402.02768v1)  
+
+---
+
+
+**ABSTRACT**  
+To effectively express and satisfy network application requirements, intent-based network management has emerged as a promising solution. In intent-based methods, users and applications express their intent in a high-level abstract language to the network. Although this abstraction simplifies network operation, it induces many challenges to efficiently express applications' intents and map them to different network capabilities. Therefore, in this work, we propose an AI-based framework for intent profiling and translation. We consider a scenario where applications interacting with the network express their needs for network services in their domain language. The machine-to-machine communication (i.e., between applications and the network) is complex since it requires networks to learn how to understand the domain languages of each application, which is neither practical nor scalable. Instead, a framework based on emergent communication is proposed for intent profiling, in which applications express their abstract quality-of-experience (QoE) intents to the network through emergent communication messages. Subsequently, the network learns how to interpret these communication messages and map them to network capabilities (i.e., slices) to guarantee the requested Quality-of-Service (QoS). Simulation results show that the proposed method outperforms self-learning slicing and other baselines, and achieves a performance close to the perfect knowledge baseline.
 
 {{</citation>}}
 

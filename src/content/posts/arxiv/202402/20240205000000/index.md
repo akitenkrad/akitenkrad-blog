@@ -734,20 +734,20 @@ Event prediction aims to forecast the time and type of a future event based on a
 
 {{<citation>}}
 
-Haitao Mao, Zhikai Chen, Wenzhuo Tang, Jianan Zhao, Yao Ma, Tong Zhao, Neil Shah, Michael Galkin, Jiliang Tang. (2024)  
+Haitao Mao, Zhikai Chen, Wenzhuo Tang, Jianan Zhao, Yao Ma, Tong Zhao, Neil Shah, Mikhail Galkin, Jiliang Tang. (2024)  
 **Graph Foundation Models**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: NLP  
-[Paper Link](http://arxiv.org/abs/2402.02216v1)  
+[Paper Link](http://arxiv.org/abs/2402.02216v2)  
 
 ---
 
 
 **ABSTRACT**  
-Graph Foundation Model (GFM) is a new trending research topic in the graph domain, aiming to develop a graph model capable of generalizing across different graphs and tasks. However, a versatile GFM has not yet been achieved. The key challenge in building GFM is how to enable positive transfer across graphs with diverse structural patterns. Inspired by the existing foundation models in the CV and NLP domains, we propose a novel perspective for the GFM development by advocating for a ``graph vocabulary'', in which the basic transferable units underlying graphs encode the invariance on graphs. We ground the graph vocabulary construction from essential aspects including network analysis, theoretical foundations, and stability. Such a vocabulary perspective can potentially advance the future GFM design following the neural scaling laws.
+Graph Foundation Model (GFM) is a new trending research topic in the graph domain, aiming to develop a graph model capable of generalizing across different graphs and tasks. However, a versatile GFM has not yet been achieved. The key challenge in building GFM is how to enable positive transfer across graphs with diverse structural patterns. Inspired by the existing foundation models in the CV and NLP domains, we propose a novel perspective for the GFM development by advocating for a "graph vocabulary", in which the basic transferable units underlying graphs encode the invariance on graphs. We ground the graph vocabulary construction from essential aspects including network analysis, theoretical foundations, and stability. Such a vocabulary perspective can potentially advance the future GFM design following the neural scaling laws.
 
 {{</citation>}}
 
@@ -937,7 +937,7 @@ Wenjun Huang, Arghavan Rezvani, Hanning Chen, Yang Ni, Sanggeon Yun, Sungheon Je
 
 ---
 Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
+Categories: cs-AI, cs-LG, cs-NI, cs.LG  
 Keywords: AI  
 [Paper Link](http://arxiv.org/abs/2402.02043v1)  
 
@@ -1181,7 +1181,7 @@ Xueqing Liu, Kyra Gan, Esmaeil Keyvanshokooh, Susan Murphy. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, math-OC  
 Keywords: Augmentation  
-[Paper Link](http://arxiv.org/abs/2402.01995v1)  
+[Paper Link](http://arxiv.org/abs/2402.01995v2)  
 
 ---
 
@@ -1405,7 +1405,7 @@ Xingcheng Zhou, Alois C. Knoll. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: GPT, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.02205v2)  
+[Paper Link](http://arxiv.org/abs/2402.02205v3)  
 
 ---
 
@@ -1836,20 +1836,20 @@ $\mathbb{X}$ (formerly Twitter) is a prominent online social media platform that
 
 {{<citation>}}
 
-Daniel Tang, Zhenghan Chen, Kisub Kim, Yewei Song, Haoye Tian, Saad Ezzini, Yongfeng Huang, Jacques Klein Tegawende F. Bissyande. (2024)  
+Daniel Tang, Zhenghan Chen, Kisub Kim, Yewei Song, Haoye Tian, Saad Ezzini, Yongfeng Huang, Jacques Klein, Tegawende F. Bissyande. (2024)  
 **Collaborative Agents for Software Engineering**  
 
 ---
 Primary Category: cs.SE  
 Categories: cs-SE, cs.SE  
 Keywords: AI, QA  
-[Paper Link](http://arxiv.org/abs/2402.02172v1)  
+[Paper Link](http://arxiv.org/abs/2402.02172v2)  
 
 ---
 
 
 **ABSTRACT**  
-Code review is a heavily collaborative process, which aims at ensuring the overall quality and reliability of software. While it provides massive benefits, the implementation of code review in an organization faces several challenges that make its automation appealing. Automated code review tools have been around for a while and are now improving thanks to the adoption of novel AI models, which help can learn about standard practices and systematically check that the reviewed code adheres to them. Unfortunately, existing methods fall short: they often target a single input-output generative model, which cannot simulate the collaboration interactions in code review to account for various perspectives; they are also sub-performing on various critical code review sub-tasks. In this paper, we advance the state of the art in code review automation by introducing CodeAgent, a novel multi-agent-based system for code review. Fundamentally, CodeAgent is steered by QA-Checker (short for ``Question-Answer Checking"), a supervision agent, designed specifically to ensure that all agents' contributions remain relevant to the initial review question. CodeAgent is autonomous, multi-agent, and Large language model-driven. To demonstrate the effectiveness of CodeAgent, we performed experiments to assess its capabilities in various tasks including 1) detection of inconsistencies between code changes and commit messages, 2) detection of vulnerability introduction by commits, and 3) validation of adherence to code style. Our website is accessed in \url{https://code-agent-new.vercel.app/index.html}.
+Code review is a heavily collaborative process, which aims at ensuring the overall quality and reliability of software. While it provides massive benefits, the implementation of code review in an organization faces several challenges that make its automation appealing. Automated code review tools have been around for a while and are now improving thanks to the adoption of novel AI models, which help can learn about standard practices and systematically check that the reviewed code adheres to them. Unfortunately, existing methods fall short: they often target a single input-output generative model, which cannot simulate the collaboration interactions in code review to account for various perspectives; they are also sub-performing on various critical code review sub-tasks. In this paper, we advance the state of the art in code review automation by introducing CodeAgent, a novel multi-agent-based system for code review. Fundamentally, CodeAgent is steered by QA-Checker (short for "Question-Answer Checking"), a supervision agent, designed specifically to ensure that all agents' contributions remain relevant to the initial review question. CodeAgent is autonomous, multi-agent, and Large language model-driven. To demonstrate the effectiveness of CodeAgent, we performed experiments to assess its capabilities in various tasks including 1) detection of inconsistencies between code changes and commit messages, 2) detection of vulnerability introduction by commits, and 3) validation of adherence to code style. Our website is accessed in \url{https://code-agent-new.vercel.app/index.html}.
 
 {{</citation>}}
 
@@ -1981,7 +1981,7 @@ Weiqi Fu, Lianming Xu, Xin Wu, Li Wang, Aiguo Fei. (2024)
 
 ---
 Primary Category: cs.AI  
-Categories: cs-AI, cs-NI, cs.AI  
+Categories: cs-AI, cs-LG, cs-NI, cs.AI, eess-SP  
 Keywords: AI, Reinforcement Learning  
 [Paper Link](http://arxiv.org/abs/2402.02146v1)  
 

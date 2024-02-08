@@ -137,9 +137,9 @@ Philip Quirke, Clement Neo, Fazl Barez. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-CL, cs-LG, cs.LG  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.02619v1)  
+[Paper Link](http://arxiv.org/abs/2402.02619v2)  
 
 ---
 
@@ -1181,7 +1181,7 @@ Dilxat Muhtar, Zhenshi Li, Feng Gu, Xueliang Zhang, Pengfeng Xiao. (2024)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.02544v1)  
+[Paper Link](http://arxiv.org/abs/2402.02544v2)  
 
 ---
 
@@ -1583,9 +1583,9 @@ Shahid Alam, Zeynep Altiparmak. (2024)
 
 ---
 Primary Category: cs.CR  
-Categories: cs-CR, cs.CR  
+Categories: cs-AI, cs-CR, cs.CR  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.02452v1)  
+[Paper Link](http://arxiv.org/abs/2402.02452v2)  
 
 ---
 
@@ -1837,7 +1837,7 @@ Shuang Wu, Liwen Zhu, Tao Yang, Shiwei Xu, Qiang Fu, Yang Wei, Haobo Fu. (2024)
 
 ---
 Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
+Categories: cs-AI, cs-CL, cs.AI  
 Keywords: GPT, Language Model, Reasoning  
 [Paper Link](http://arxiv.org/abs/2402.02330v1)  
 

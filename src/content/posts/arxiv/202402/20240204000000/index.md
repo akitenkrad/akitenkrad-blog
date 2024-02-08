@@ -302,7 +302,7 @@ Mingqiu Wang, Izhak Shafran, Hagen Soltau, Wei Han, Yuan Cao, Dian Yu, Laurent E
 
 ---
 Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs.CL  
+Categories: cs-AI, cs-CL, cs-SD, cs.CL, eess-AS  
 Keywords: Dialog  
 [Paper Link](http://arxiv.org/abs/2402.01828v1)  
 
@@ -656,7 +656,7 @@ Tongtong Wu, Linhao Luo, Yuan-Fang Li, Shirui Pan, Thuy-Trang Vu, Gholamreza Haf
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.01364v1)  
+[Paper Link](http://arxiv.org/abs/2402.01364v2)  
 
 ---
 
@@ -1006,7 +1006,7 @@ Shubham Agarwal, Issam H. Laradji, Laurent Charlin, Christopher Pal. (2024)
 
 ---
 Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs.CL  
+Categories: cs-AI, cs-CL, cs-IR, cs.CL  
 Keywords: Language Model  
 [Paper Link](http://arxiv.org/abs/2402.01788v1)  
 
@@ -1260,7 +1260,7 @@ Chirag Chhablani, Nikhita Sharma, Jordan Hosier, Vijay K. Gurbani. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-CL, cs-LG, cs-SD, cs.LG  
+Categories: cs-CL, cs-LG, cs-SD, cs.LG, eess-AS  
 Keywords: AI, Amazon, Google, Speech Recognition  
 [Paper Link](http://arxiv.org/abs/2402.01931v1)  
 
@@ -1801,18 +1801,18 @@ The evolution from Large Language Models (LLMs) to Multimodal Large Language Mod
 {{</citation>}}
 
 
-### (80/176) A Differentiable POGLM with Forward-Backward Message Passing (Chengrui Li et al., 2024)
+### (80/176) A Differentiable Partially Observable Generalized Linear Model with Forward-Backward Message Passing (Chengrui Li et al., 2024)
 
 {{<citation>}}
 
 Chengrui Li, Weihan Li, Yule Wang, Anqi Wu. (2024)  
-**A Differentiable POGLM with Forward-Backward Message Passing**  
+**A Differentiable Partially Observable Generalized Linear Model with Forward-Backward Message Passing**  
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, q-bio-NC  
 Keywords: GLM  
-[Paper Link](http://arxiv.org/abs/2402.01263v1)  
+[Paper Link](http://arxiv.org/abs/2402.01263v2)  
 
 ---
 
@@ -2732,7 +2732,7 @@ Jwen Fai Low, Benjamin C. M. Fung, Farkhund Iqbal, Claude Fachkha. (2024)
 
 ---
 Primary Category: cs.SI  
-Categories: cs-MA, cs-SI, cs.SI  
+Categories: cs-CY, cs-MA, cs-SI, cs.SI  
 Keywords: Social Media, Twitter  
 [Paper Link](http://arxiv.org/abs/2402.01905v2)  
 
@@ -2940,7 +2940,7 @@ Paul Denny, Sumit Gulwani, Neil T. Heffernan, Tanja Käser, Steven Moore, Anna N
 Primary Category: cs.CY  
 Categories: cs-AI, cs-CY, cs.CY  
 Keywords: AI, Generative AI  
-[Paper Link](http://arxiv.org/abs/2402.01580v1)  
+[Paper Link](http://arxiv.org/abs/2402.01580v2)  
 
 ---
 
@@ -3429,18 +3429,18 @@ We introduce FindingEmo, a new image dataset containing annotations for 25k imag
 {{</citation>}}
 
 
-### (152/176) Skip \n: A simple method to reduce hallucination in Large Vision-Language Models (Zongbo Han et al., 2024)
+### (152/176) Skip \n: A Simple Method to Reduce Hallucination in Large Vision-Language Models (Zongbo Han et al., 2024)
 
 {{<citation>}}
 
 Zongbo Han, Zechen Bai, Haiyang Mei, Qianli Xu, Changqing Zhang, Mike Zheng Shou. (2024)  
-**Skip \n: A simple method to reduce hallucination in Large Vision-Language Models**  
+**Skip \n: A Simple Method to Reduce Hallucination in Large Vision-Language Models**  
 
 ---
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CL, cs-CV, cs-LG, cs.CV  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.01345v2)  
+[Paper Link](http://arxiv.org/abs/2402.01345v3)  
 
 ---
 

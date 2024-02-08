@@ -395,7 +395,7 @@ Dirk Groeneveld, Iz Beltagy, Pete Walsh, Akshita Bhagia, Rodney Kinney, Oyvind T
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model, NLP  
-[Paper Link](http://arxiv.org/abs/2402.00838v1)  
+[Paper Link](http://arxiv.org/abs/2402.00838v2)  
 
 ---
 
@@ -2609,13 +2609,13 @@ Vincent Zhihao Zheng, Lijun Sun. (2024)
 Primary Category: stat.ML  
 Categories: cs-LG, stat-ML, stat.ML  
 Keywords: Time Series, Transformer  
-[Paper Link](http://arxiv.org/abs/2402.01000v1)  
+[Paper Link](http://arxiv.org/abs/2402.01000v2)  
 
 ---
 
 
 **ABSTRACT**  
-Modeling the correlations among errors is closely associated with how accurately the model can quantify predictive uncertainty in probabilistic time series forecasting. Recent multivariate models have made significant progress in accounting for contemporaneous correlations among errors, while a common assumption on these errors is that they are temporally independent for the sake of statistical simplicity. However, real-world observations often deviate from this assumption, since errors usually exhibit substantial autocorrelation due to various factors such as the exclusion of temporally correlated covariates. In this work, we propose an efficient method, based on a low-rank-plus-diagonal parameterization of the covariance matrix, which can effectively characterize the autocorrelation of errors. The proposed method possesses several desirable properties: the complexity does not scale with the number of time series, the resulting covariance can be used for calibrating predictions, and it can seamlessly integrate with any model with Gaussian-distributed errors. We empirically demonstrate these properties using two distinct neural forecasting models -- GPVar and Transformer. Our experimental results confirm the effectiveness of our method in enhancing predictive accuracy and the quality of uncertainty quantification on multiple real-world datasets.
+Modeling the correlations among errors is closely associated with how accurately the model can quantify predictive uncertainty in probabilistic time series forecasting. Recent multivariate models have made significant progress in accounting for contemporaneous correlations among errors, while a common assumption on these errors is that they are temporally independent for the sake of statistical simplicity. However, real-world observations often deviate from this assumption, since errors usually exhibit substantial autocorrelation due to various factors such as the exclusion of temporally correlated covariates. In this work, we propose an efficient method, based on a low-rank-plus-diagonal parameterization of the covariance matrix, which can effectively characterize the autocorrelation of errors. The proposed method possesses several desirable properties: the complexity does not scale with the number of time series, the resulting covariance can be used for calibrating predictions, and it can seamlessly integrate with any model with Gaussian-distributed errors. We empirically demonstrate these properties using two distinct neural forecasting models-GPVar and Transformer. Our experimental results confirm the effectiveness of our method in enhancing predictive accuracy and the quality of uncertainty quantification on multiple real-world datasets.
 
 {{</citation>}}
 
@@ -2745,7 +2745,7 @@ Linghan Huang, Peizhou Zhao, Huaming Chen, Lei Ma. (2024)
 Primary Category: cs.SE  
 Categories: cs-AI, cs-SE, cs.SE  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.00350v1)  
+[Paper Link](http://arxiv.org/abs/2402.00350v2)  
 
 ---
 
