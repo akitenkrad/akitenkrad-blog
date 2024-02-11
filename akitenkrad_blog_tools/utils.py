@@ -141,6 +141,9 @@ class Paper(object):
         title = f"{title_text} ({author_text}, {self.year})"
 
         pdf_url = self.pdf_url if self.pdf_url.endswith(".pdf") else self.pdf_url + ".pdf"
+        if "http://" in pdf_url:
+            pdf_url = pdf_url.replace("http://", "https://")
+
         content = f"""
 {", ".join([author.name for author in self.authors]) + f". ({self.year})  "}
 **{title_text}**
