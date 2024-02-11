@@ -58,7 +58,7 @@ math: true
 
 ## Keywords
 
-                | keyword                        | cs.AI   | cs.CL   | cs.CV   | cs.LG   | cs.RO   |
+| keyword                        | cs.AI   | cs.CL   | cs.CV   | cs.LG   | cs.RO   |
 |:-------------------------------|:--------|:--------|:--------|:--------|:--------|
 | Active Learning                |         | 1.0     |         | 1.0     |         |
 | Adversarial Attack             |         | 1.0     | 2.0     | 1.0     |         |
@@ -173,7 +173,7 @@ math: true
 
 <script>
 $(function() {
-    $("table").addClass("keyword-table")
+    $("table").addClass("keyword-table table-bordered")
     $("table thead").addClass("sticky-top")
 })
 </script>

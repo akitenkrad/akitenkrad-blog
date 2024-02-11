@@ -57,7 +57,7 @@ math: true
 
 ## Keywords
 
-                | keyword                         | cs.CL   | cs.CV   | cs.LG   | cs.RO   |
+| keyword                         | cs.CL   | cs.CV   | cs.LG   | cs.RO   |
 |:--------------------------------|:--------|:--------|:--------|:--------|
 | Alpaca                          | 1.0     |         |         |         |
 | Aspect-based Sentiment Analysis | 1.0     |         |         |         |
@@ -157,7 +157,7 @@ math: true
 
 <script>
 $(function() {
-    $("table").addClass("keyword-table")
+    $("table").addClass("keyword-table table-bordered")
     $("table thead").addClass("sticky-top")
 })
 </script>
