@@ -189,7 +189,7 @@ math: true
         for categ, posts in post_dict.items():
             for post in posts:
                 for kw in post.keywords:
-                    kw_fd[(categ, kw)] += 1
+                    kw_fd[(categ, kw.keyword)] += 1
         kw_df = pd.DataFrame(kw_fd.items(), columns=["org", "count"])
         kw_df["category"] = kw_df["org"].apply(lambda x: x[0])
         kw_df["keyword"] = kw_df["org"].apply(lambda x: x[1])
