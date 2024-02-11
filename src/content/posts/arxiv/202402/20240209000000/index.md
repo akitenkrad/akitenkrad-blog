@@ -55,705 +55,109 @@ math: true
 - [stat.ME (2)](#statme-2)
 - [stat.ML (6)](#statml-6)
 
-
-<div class="accordion">
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Keywords
-            </button>
-        </h2>
-        <div class="accordion-collapse collapse show">
-            <div class="accordion-body" id="keyword-table-accordion-body">
-
-                <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>category</th>
-      <th>cs.CL</th>
-      <th>cs.CV</th>
-      <th>cs.LG</th>
-      <th>cs.RO</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>2.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>2.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>3.0</td>
-      <td>4.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>4.0</td>
-      <td>5.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>3.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>3.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>2.0</td>
-      <td>2.0</td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>6.0</td>
-      <td>8.0</td>
-      <td>13.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>2.0</td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>5.0</td>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>3.0</td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>3.0</td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>3.0</td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>12.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>2.0</td>
-      <td></td>
-      <td>2.0</td>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>2.0</td>
-      <td>7.0</td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>2.0</td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>38.0</td>
-      <td>3.0</td>
-      <td>22.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>2.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>2.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>5.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>1.0</td>
-      <td>3.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>3.0</td>
-      <td>6.0</td>
-      <td>3.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>4.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>2.0</td>
-      <td>2.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>6.0</td>
-      <td></td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>2.0</td>
-      <td></td>
-      <td>14.0</td>
-      <td>4.0</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>4.0</td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>2.0</td>
-      <td>5.0</td>
-      <td>8.0</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>2.0</td>
-      <td>5.0</td>
-      <td>8.0</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>5.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>2.0</td>
-      <td>2.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>3.0</td>
-      <td>3.0</td>
-      <td>8.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>3.0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>3.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>2.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>3.0</td>
-      <td>7.0</td>
-      <td>12.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>2.0</td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>1.0</td>
-      <td>4.0</td>
-      <td>4.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td>3.0</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td></td>
-      <td></td>
-      <td>1.0</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>4.0</td>
-      <td>3.0</td>
-      <td></td>
-      <td>3.0</td>
-    </tr>
-  </tbody>
-</table>
-
-            </div>
-        </div>
-    </div>
-</div>
+## Keywords
+                | keyword                         | cs.CL   | cs.CV   | cs.LG   | cs.RO   |
+|:--------------------------------|:--------|:--------|:--------|:--------|
+| Alpaca                          | 1.0     |         |         |         |
+| Aspect-based Sentiment Analysis | 1.0     |         |         |         |
+| Autoencoder                     |         |         | 2.0     |         |
+| BERT                            | 2.0     |         |         |         |
+| BLEU                            | 1.0     |         |         |         |
+| Bag-of-Words                    | 1.0     |         | 1.0     |         |
+| Bandit Algorithm                |         |         | 2.0     |         |
+| ChatGPT                         | 2.0     |         |         |         |
+| Chatbot                         |         |         | 2.0     |         |
+| Code Generation                 |         |         | 1.0     |         |
+| Contrastive Learning            |         | 1.0     |         |         |
+| Convolution                     |         | 3.0     | 4.0     |         |
+| Convolutional Neural Network    |         | 4.0     | 5.0     |         |
+| Counter-factual                 |         |         | 2.0     |         |
+| Curriculum Learning             |         |         | 1.0     |         |
+| Data Augmentation               | 1.0     |         | 2.0     |         |
+| Dialogue System                 | 1.0     |         |         |         |
+| Disambiguation                  | 1.0     |         |         |         |
+| Domain Adaptation               |         | 3.0     |         |         |
+| Essay Scoring                   | 1.0     |         |         |         |
+| Fairness                        |         |         | 3.0     |         |
+| Few-shot                        | 2.0     | 2.0     | 2.0     |         |
+| Few-shot Learning               |         | 1.0     |         |         |
+| Fine-tuning                     | 6.0     | 8.0     | 13.0    |         |
+| Foundation Model                |         | 2.0     | 1.0     |         |
+| GPT                             | 5.0     | 1.0     | 2.0     |         |
+| GPT-3                           | 3.0     |         | 1.0     |         |
+| GPT-3.5                         | 3.0     |         | 1.0     |         |
+| GPT-4                           | 3.0     |         | 1.0     |         |
+| Gaussian Process                |         |         | 1.0     | 1.0     |
+| Grammatical Error Correction    | 1.0     |         |         |         |
+| Graph Attention Networks        |         |         | 1.0     |         |
+| Graph Convolutional Network     |         |         | 2.0     |         |
+| Graph Neural Network            |         |         | 12.0    |         |
+| Grounding                       | 1.0     |         |         |         |
+| Hierarchical Clustering         |         |         | 1.0     |         |
+| Image2text                      |         | 2.0     |         |         |
+| In-context Learning             | 2.0     |         | 2.0     | 2.0     |
+| Information Retrieval           |         |         | 1.0     |         |
+| Knowledge Distillation          | 2.0     | 7.0     | 1.0     |         |
+| LLaMA                           | 2.0     |         | 1.0     |         |
+| Label Smoothing                 |         | 1.0     |         |         |
+| Large Language Model            | 38.0    | 3.0     | 22.0    | 1.0     |
+| Logistic Regression             |         |         | 2.0     |         |
+| Low-Resource                    | 1.0     |         |         |         |
+| Machine Unlearning              |         |         | 1.0     |         |
+| Message-Passing                 |         |         | 2.0     |         |
+| Meta Learning                   |         | 2.0     |         |         |
+| Named Entity Recognition        | 2.0     |         |         |         |
+| Natural Language Explanation    | 1.0     |         |         |         |
+| Natural Language Inference      | 1.0     |         |         |         |
+| Neural Machine Translation      | 2.0     |         |         |         |
+| Node Classification             |         |         | 1.0     |         |
+| Object Detection                |         | 5.0     |         |         |
+| Offline Reinforcement Learning  |         |         | 1.0     |         |
+| Online Reinforcement Learning   |         |         | 1.0     |         |
+| Open-Domain Dialogue            |         |         | 1.0     |         |
+| Open-Domain Question Answering  | 1.0     |         |         |         |
+| Optical Character Recognition   |         | 1.0     |         |         |
+| Out-of-distribution             |         | 1.0     | 3.0     | 1.0     |
+| Out-of-domain                   | 1.0     | 1.0     |         |         |
+| PaLM                            | 1.0     |         |         |         |
+| Perplexity                      | 1.0     |         |         |         |
+| Pre-trained Language Model      | 1.0     |         |         |         |
+| Prompt                          | 3.0     | 6.0     | 3.0     |         |
+| Prompt Learning                 |         |         | 1.0     |         |
+| Pruning                         |         |         | 2.0     |         |
+| Quantization                    |         |         | 4.0     |         |
+| Question Answering              | 2.0     | 2.0     |         |         |
+| Reasoning                       | 6.0     |         | 1.0     | 1.0     |
+| Recommendation                  |         |         | 2.0     |         |
+| Recurrent Neural Network        |         |         | 1.0     |         |
+| Reinforcement Learning          | 2.0     |         | 14.0    | 4.0     |
+| Scaling Law                     |         |         | 2.0     |         |
+| Self-Attention                  |         | 4.0     | 1.0     |         |
+| Self-supervised Learning        |         | 1.0     | 1.0     |         |
+| Self-supervised Pre-training    |         | 1.0     |         |         |
+| Semi-Supervised Learning        |         | 2.0     |         |         |
+| Sentiment Analysis              | 1.0     |         |         |         |
+| Simulation                      |         | 2.0     | 5.0     | 8.0     |
+| Simulator                       |         | 2.0     | 5.0     | 8.0     |
+| Stochastic Gradient Descent     |         |         | 5.0     |         |
+| Summarization                   | 2.0     | 2.0     | 1.0     | 1.0     |
+| Supervised Learning             | 3.0     | 3.0     | 8.0     | 1.0     |
+| TF-IDF                          |         |         | 1.0     |         |
+| Text Generation                 | 3.0     |         |         |         |
+| Text2image                      |         | 3.0     |         |         |
+| Transfer Learning               |         |         | 2.0     |         |
+| Transformer                     | 3.0     | 7.0     | 12.0    | 1.0     |
+| Unsupervised Learning           |         | 2.0     | 1.0     |         |
+| Vision-and-Language             | 1.0     | 4.0     | 4.0     | 1.0     |
+| Weakly Supervised Learning      |         | 1.0     |         |         |
+| Weakly-supervised Learning      |         | 3.0     |         |         |
+| Word2vec                        |         |         | 1.0     |         |
+| Zero-shot                       | 4.0     | 3.0     |         | 3.0     |
 
 <script>
 $(function() {
-    $("#keyword-table-accordion-body table").addClass("keyword-table")
-    $("#keyword-table-accordion-body table thead").addClass("sticky-top")
+    $("table").addClass("keyword-table")
+    $("table thead").addClass("sticky-top")
 })
 </script>
 
