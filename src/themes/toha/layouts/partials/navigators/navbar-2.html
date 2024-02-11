@@ -40,24 +40,28 @@
   {{ $sections = (index site.Data site.Language.Lang).sections }}
 {{ end }}
 
-<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow" style="position:fixed">
   <div class="container">
     <button class="navbar-toggler navbar-light navbar-for-sidebar" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
-      {{ if $mainLogo }}
-        <img src="{{ $mainLogo  }}" alt="Logo">
-      {{ end }}
-      {{- site.Title -}}
-    </a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item">
+          <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
+            {{ if $mainLogo }}
+              <img src="{{ $mainLogo  }}" alt="Logo">
+            {{ end }}
+            {{- site.Title -}}
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+       <li class="nav-item">
           <a class="nav-link" href="{{ site.BaseURL | relLangURL }}#home">{{ i18n "home" }}</a>
         </li>
         {{ if $sections }}

@@ -36,6 +36,7 @@ setuptools.setup(
         "numpy",
         "openai",
         "pandas",
+        "Pillow",
         "plotly",
         "progressbar",
         "py-cpuinfo",

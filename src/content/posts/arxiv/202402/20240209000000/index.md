@@ -18,7 +18,6 @@ math: true
     <iframe src="pie.html" width=900 height=620 style="border:none"></iframe>
 </figure>
 
-
 ## Primary Categories
 
 - [cs.LG (40)](#cslg-40)
@@ -55,13 +54,25 @@ math: true
 {{<citation>}}
 
 Ciyuan Peng, Jiayuan He, Feng Xia. (2024)  
-**Learning on Multimodal Graphs: A Survey**  
+**Learning on Multimodal Graphs: A Survey**
+<br/>
+<button class="copy-to-clipboard" title="learning on Multimodal Graphs: A Survey" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied align-items-center text-bg-secondary border-0 toast-index-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-GR, cs-LG, cs-SI, cs.LG  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.05322v1)  
+<a type="button" class="btn btn-outline-primary" href="https://arxiv.org/pdf/2402.05322v1.pdf" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.05322v1.pdf" filename="2402.0522v1.pdf">Download PDF</button>
 
 ---
 
@@ -77,7 +88,11 @@ Multimodal data pervades various domains, including healthcare, social media, an
 {{<citation>}}
 
 F. Janez-Martino, R. Alaiz-Rodriguez, V. Gonzalez-Castro, E. Fidalgo, E. Alegre. (2024)  
-**Classifying spam emails using agglomerative hierarchical clustering and a topic-based approach**  
+**Classifying spam emails using agglomerative hierarchical clustering and a topic-based approach**
+<br/>
+<button class="copy-to-clipboard" title="Classifying spam emails using agglomerative hierarchical clustering and a topic-based approach">
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
 
 ---
 Primary Category: cs.LG  

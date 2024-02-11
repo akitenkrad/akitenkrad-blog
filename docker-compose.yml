@@ -2,16 +2,19 @@ version: '3'
 services:
   python:
     container_name: 'python.cpu.akitenkrad-blog'
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: akitenkrad/python.cpu.arm64:latest
     user: root
     tty: true
     volumes:
-      - ./:/workplace:cached
+      - ./:/workplace
+      - data:/data
       - /Users/akitenkrad/.ssh:/root/.ssh
     environment:
       TZ: Asia/Tokyo
     working_dir: /workplace
     ports:
       - 1313:1313
+volumes:
+  data:
+    name: data
+    external: true

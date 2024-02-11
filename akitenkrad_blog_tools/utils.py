@@ -131,7 +131,7 @@ class Paper(object):
             author_text = self.authors[0].name.replace('"', "'") + " et al"
         return f"{author_text} {self.year}".replace(" ", "_")
 
-    def generate_citation_text(self):
+    def generate_citation_text(self, index: int):
         author_text = ""
         if len(self.authors) == 1:
             author_text = self.authors[0].name.replace('"', "'")
@@ -142,13 +142,25 @@ class Paper(object):
 
         content = f"""
 {", ".join([author.name for author in self.authors]) + f". ({self.year})  "}
-**{title_text}**{"  "}
+**{title_text}**
+<br/>
+<button class="copy-to-clipboard" title="{title_text}" index={index}>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-{index} align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: {self.primary_category}{"  "}
 Categories: {", ".join(sorted(self.categories))}{"  "}
 Keywords: {", ".join(sorted(self.keywords))}{"  "}
-[Paper Link]({self.url}){"  "}
+<a type="button" class="btn btn-outline-primary" href="{self.url}" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="{self.pdf_url}" filename="{Path(self.pdf_url).name}">Download PDF</button>
 
 ---
 
