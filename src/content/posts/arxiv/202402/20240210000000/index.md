@@ -55,7 +55,7 @@ math: true
 
 ## Keywords
 
-                | keyword                        | cs.AI   | cs.CL   | cs.CV   | cs.LG   |
+| keyword                        | cs.AI   | cs.CL   | cs.CV   | cs.LG   |
 |:-------------------------------|:--------|:--------|:--------|:--------|
 | Adversarial Attack             |         |         |         | 1.0     |
 | Adversarial Learning           |         |         |         | 1.0     |
