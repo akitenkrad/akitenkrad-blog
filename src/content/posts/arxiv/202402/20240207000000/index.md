@@ -79,7 +79,7 @@ Primary Category: eess.SY
 Categories: cs-CR, cs-SY, eess-SY, eess.SY  
 Keywords: Security  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03591v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03591v1" filename="2402.03591v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03591v1.pdf" filename="2402.03591v1.pdf">Download PDF</button>
 
 ---
 
@@ -113,7 +113,7 @@ Primary Category: eess.SY
 Categories: cs-LG, cs-SY, eess-SY, eess.SY  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02957v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02957v1" filename="2402.02957v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02957v1.pdf" filename="2402.02957v1.pdf">Download PDF</button>
 
 ---
 
@@ -151,7 +151,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs-MA, cs.LG  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03590v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03590v1" filename="2402.03590v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03590v1.pdf" filename="2402.03590v1.pdf">Download PDF</button>
 
 ---
 
@@ -185,7 +185,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG, math-OC  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03589v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03589v1" filename="2402.03589v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03589v1.pdf" filename="2402.03589v1.pdf">Download PDF</button>
 
 ---
 
@@ -219,7 +219,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keywords: Bias  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03577v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03577v1" filename="2402.03577v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03577v1.pdf" filename="2402.03577v1.pdf">Download PDF</button>
 
 ---
 
@@ -253,7 +253,7 @@ Primary Category: cs.LG
 Categories: cs-CR, cs-LG, cs.LG  
 Keywords: Adversarial Attack, Adversarial Training  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03576v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03576v1" filename="2402.03576v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03576v1.pdf" filename="2402.03576v1.pdf">Download PDF</button>
 
 ---
 
@@ -287,7 +287,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03563v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03563v1" filename="2402.03563v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03563v1.pdf" filename="2402.03563v1.pdf">Download PDF</button>
 
 ---
 
@@ -321,7 +321,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG, physics-geo-ph  
 Keywords: GNN, Graph Neural Network, Graph Neural Networks  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03558v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03558v1" filename="2402.03558v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03558v1.pdf" filename="2402.03558v1.pdf">Download PDF</button>
 
 ---
 
@@ -355,7 +355,7 @@ Primary Category: cs.LG
 Categories: cs-DC, cs-LG, cs.LG  
 Keywords: GNN  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03548v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03548v1" filename="2402.03548v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03548v1.pdf" filename="2402.03548v1.pdf">Download PDF</button>
 
 ---
 
@@ -389,7 +389,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs-NA, cs.LG, math-NA  
 Keywords: Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03541v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03541v1" filename="2402.03541v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03541v1.pdf" filename="2402.03541v1.pdf">Download PDF</button>
 
 ---
 
@@ -423,7 +423,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03525v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03525v1" filename="2402.03525v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03525v1.pdf" filename="2402.03525v1.pdf">Download PDF</button>
 
 ---
 
@@ -457,7 +457,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-IR, cs-LG, cs.LG  
 Keywords: Clinical  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03486v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03486v1" filename="2402.03486v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03486v1.pdf" filename="2402.03486v1.pdf">Download PDF</button>
 
 ---
 
@@ -491,7 +491,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-DC, cs-LG, cs.LG  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03480v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03480v1" filename="2402.03480v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03480v1.pdf" filename="2402.03480v1.pdf">Download PDF</button>
 
 ---
 
@@ -525,7 +525,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Reinforcement Learning, Zero-Shot  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03479v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03479v1" filename="2402.03479v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03479v1.pdf" filename="2402.03479v1.pdf">Download PDF</button>
 
 ---
 
@@ -559,7 +559,7 @@ Primary Category: cs.LG
 Categories: cs-CL, cs-CV, cs-LG, cs.LG  
 Keywords: ChatGPT, GPT, Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03299v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03299v1" filename="2402.03299v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03299v1.pdf" filename="2402.03299v1.pdf">Download PDF</button>
 
 ---
 
@@ -593,7 +593,7 @@ Primary Category: cs.LG
 Categories: I-2-0, cs-CR, cs-LG, cs.LG  
 Keywords: Intrusion Detection  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03270v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03270v1" filename="2402.03270v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03270v1.pdf" filename="2402.03270v1.pdf">Download PDF</button>
 
 ---
 
@@ -627,7 +627,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keywords: Language Model, Reasoning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03268v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03268v1" filename="2402.03268v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03268v1.pdf" filename="2402.03268v1.pdf">Download PDF</button>
 
 ---
 
@@ -661,7 +661,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keywords: GPT, Reinforcement Learning, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03264v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03264v1" filename="2402.03264v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03264v1.pdf" filename="2402.03264v1.pdf">Download PDF</button>
 
 ---
 
@@ -695,7 +695,7 @@ Primary Category: cs.LG
 Categories: cs-CL, cs-LG, cs.LG  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03244v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03244v1" filename="2402.03244v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03244v1.pdf" filename="2402.03244v1.pdf">Download PDF</button>
 
 ---
 
@@ -729,7 +729,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keywords: Transformer, Transformers  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03226v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03226v1" filename="2402.03226v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03226v1.pdf" filename="2402.03226v1.pdf">Download PDF</button>
 
 ---
 
@@ -763,7 +763,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keywords: Language Model, Time Series  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03182v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03182v1" filename="2402.03182v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03182v1.pdf" filename="2402.03182v1.pdf">Download PDF</button>
 
 ---
 
@@ -797,7 +797,7 @@ Primary Category: cs.LG
 Categories: I-2-7, cs-AI, cs-LG, cs.LG  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03175v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03175v1" filename="2402.03175v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03175v1.pdf" filename="2402.03175v1.pdf">Download PDF</button>
 
 ---
 
@@ -831,7 +831,7 @@ Primary Category: cs.LG
 Categories: cs-DS, cs-IT, cs-LG, cs-NI, cs.LG, math-IT  
 Keywords: Quantization  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03158v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03158v1" filename="2402.03158v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03158v1.pdf" filename="2402.03158v1.pdf">Download PDF</button>
 
 ---
 
@@ -865,7 +865,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG, stat-ML  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03146v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03146v1" filename="2402.03146v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03146v1.pdf" filename="2402.03146v1.pdf">Download PDF</button>
 
 ---
 
@@ -899,7 +899,7 @@ Primary Category: cs.LG
 Categories: cs-CL, cs-LG, cs.LG  
 Keywords: Language Model, Pruning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03142v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03142v1" filename="2402.03142v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03142v1.pdf" filename="2402.03142v1.pdf">Download PDF</button>
 
 ---
 
@@ -933,7 +933,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs-SY, cs.LG, eess-SY  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03141v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03141v1" filename="2402.03141v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03141v1.pdf" filename="2402.03141v1.pdf">Download PDF</button>
 
 ---
 
@@ -967,7 +967,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03139v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03139v1" filename="2402.03139v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03139v1.pdf" filename="2402.03139v1.pdf">Download PDF</button>
 
 ---
 
@@ -1001,7 +1001,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs.LG, physics-chem-ph  
 Keywords: Attention  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03112v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03112v1" filename="2402.03112v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03112v1.pdf" filename="2402.03112v1.pdf">Download PDF</button>
 
 ---
 
@@ -1035,7 +1035,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03046v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03046v1" filename="2402.03046v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03046v1.pdf" filename="2402.03046v1.pdf">Download PDF</button>
 
 ---
 
@@ -1069,7 +1069,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keywords: Few-Shot  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03038v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03038v1" filename="2402.03038v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03038v1.pdf" filename="2402.03038v1.pdf">Download PDF</button>
 
 ---
 
@@ -1103,7 +1103,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Few-Shot  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03017v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03017v1" filename="2402.03017v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03017v1.pdf" filename="2402.03017v1.pdf">Download PDF</button>
 
 ---
 
@@ -1137,7 +1137,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG, stat-ML  
 Keywords: NLP  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02998v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02998v1" filename="2402.02998v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02998v1.pdf" filename="2402.02998v1.pdf">Download PDF</button>
 
 ---
 
@@ -1171,7 +1171,7 @@ Primary Category: cs.LG
 Categories: cs-CV, cs-LG, cs.LG  
 Keywords: QA  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02996v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02996v1" filename="2402.02996v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02996v1.pdf" filename="2402.02996v1.pdf">Download PDF</button>
 
 ---
 
@@ -1205,7 +1205,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02992v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02992v1" filename="2402.02992v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02992v1.pdf" filename="2402.02992v1.pdf">Download PDF</button>
 
 ---
 
@@ -1239,7 +1239,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02868v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02868v1" filename="2402.02868v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02868v1.pdf" filename="2402.02868v1.pdf">Download PDF</button>
 
 ---
 
@@ -1273,7 +1273,7 @@ Primary Category: cs.LG
 Categories: cs-CL, cs-LG, cs.LG  
 Keywords: LLaMA, Language Model, Pruning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02834v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02834v1" filename="2402.02834v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02834v1.pdf" filename="2402.02834v1.pdf">Download PDF</button>
 
 ---
 
@@ -1307,7 +1307,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs-SY, cs.LG, eess-SY  
 Keywords: GNN, Graph Neural Network, Graph Neural Networks  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02827v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02827v1" filename="2402.02827v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02827v1.pdf" filename="2402.02827v1.pdf">Download PDF</button>
 
 ---
 
@@ -1341,7 +1341,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-CL, cs-CR, cs-LG, cs.LG  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02823v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02823v1" filename="2402.02823v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02823v1.pdf" filename="2402.02823v1.pdf">Download PDF</button>
 
 ---
 
@@ -1375,7 +1375,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keywords: Anomaly Detection, Time Series  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02820v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02820v1" filename="2402.02820v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02820v1.pdf" filename="2402.02820v1.pdf">Download PDF</button>
 
 ---
 
@@ -1409,7 +1409,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs-NE, cs.LG  
 Keywords: ImageNet  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02790v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02790v1" filename="2402.02790v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02790v1.pdf" filename="2402.02790v1.pdf">Download PDF</button>
 
 ---
 
@@ -1443,7 +1443,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keywords: Contrastive Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02772v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02772v2" filename="2402.02772v2">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02772v2.pdf" filename="2402.02772v2.pdf">Download PDF</button>
 
 ---
 
@@ -1477,7 +1477,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Computer Vision, Natural Language Processing, Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02769v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02769v1" filename="2402.02769v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02769v1.pdf" filename="2402.02769v1.pdf">Download PDF</button>
 
 ---
 
@@ -1511,7 +1511,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Language Model, Time Series  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02713v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02713v1" filename="2402.02713v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02713v1.pdf" filename="2402.02713v1.pdf">Download PDF</button>
 
 ---
 
@@ -1545,7 +1545,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs.LG, stat-ML  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02701v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02701v1" filename="2402.02701v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02701v1.pdf" filename="2402.02701v1.pdf">Download PDF</button>
 
 ---
 
@@ -1579,7 +1579,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs-SI, cs.LG, math-ST, stat-ML, stat-TH  
 Keywords: GNN, Graph Neural Network, Graph Neural Networks  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02692v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02692v2" filename="2402.02692v2">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02692v2.pdf" filename="2402.02692v2.pdf">Download PDF</button>
 
 ---
 
@@ -1613,7 +1613,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02678v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02678v1" filename="2402.02678v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02678v1.pdf" filename="2402.02678v1.pdf">Download PDF</button>
 
 ---
 
@@ -1647,7 +1647,7 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02665v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02665v1" filename="2402.02665v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02665v1.pdf" filename="2402.02665v1.pdf">Download PDF</button>
 
 ---
 
@@ -1681,7 +1681,7 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-CV, cs-LG, cs.LG  
 Keywords: Language Model, Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02651v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02651v1" filename="2402.02651v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02651v1.pdf" filename="2402.02651v1.pdf">Download PDF</button>
 
 ---
 
@@ -1719,7 +1719,7 @@ Primary Category: cs.HC
 Categories: cs-CR, cs-HC, cs.HC  
 Keywords: Google  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03582v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03582v1" filename="2402.03582v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03582v1.pdf" filename="2402.03582v1.pdf">Download PDF</button>
 
 ---
 
@@ -1753,7 +1753,7 @@ Primary Category: cs.HC
 Categories: cs-HC, cs.HC  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03530v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03530v1" filename="2402.03530v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03530v1.pdf" filename="2402.03530v1.pdf">Download PDF</button>
 
 ---
 
@@ -1787,7 +1787,7 @@ Primary Category: cs.HC
 Categories: cs-DB, cs-HC, cs.HC  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03291v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03291v1" filename="2402.03291v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03291v1.pdf" filename="2402.03291v1.pdf">Download PDF</button>
 
 ---
 
@@ -1821,7 +1821,7 @@ Primary Category: cs.HC
 Categories: cs-HC, cs-LG, cs.HC  
 Keywords: Time Series  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03116v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03116v1" filename="2402.03116v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03116v1.pdf" filename="2402.03116v1.pdf">Download PDF</button>
 
 ---
 
@@ -1859,7 +1859,7 @@ Primary Category: math.OC
 Categories: cs-SY, eess-SY, math-OC, math.OC  
 Keywords: NLP  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03580v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03580v2" filename="2402.03580v2">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03580v2.pdf" filename="2402.03580v2.pdf">Download PDF</button>
 
 ---
 
@@ -1897,7 +1897,7 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-HC, cs.AI  
 Keywords: AI, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03575v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03575v1" filename="2402.03575v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03575v1.pdf" filename="2402.03575v1.pdf">Download PDF</button>
 
 ---
 
@@ -1931,7 +1931,7 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-CL, cs-LG, cs.AI  
 Keywords: Reasoning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03507v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03507v1" filename="2402.03507v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03507v1.pdf" filename="2402.03507v1.pdf">Download PDF</button>
 
 ---
 
@@ -1965,7 +1965,7 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-RO, cs.AI  
 Keywords: AI, Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03494v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03494v1" filename="2402.03494v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03494v1.pdf" filename="2402.03494v1.pdf">Download PDF</button>
 
 ---
 
@@ -1999,7 +1999,7 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-CV, cs.AI  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03310v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03310v1" filename="2402.03310v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03310v1.pdf" filename="2402.03310v1.pdf">Download PDF</button>
 
 ---
 
@@ -2033,7 +2033,7 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-CL, cs-IR, cs.AI  
 Keywords: Language Model, NLP  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03181v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03181v1" filename="2402.03181v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03181v1.pdf" filename="2402.03181v1.pdf">Download PDF</button>
 
 ---
 
@@ -2067,7 +2067,7 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-LO, cs.AI  
 Keywords: Reasoning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03164v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03164v1" filename="2402.03164v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03164v1.pdf" filename="2402.03164v1.pdf">Download PDF</button>
 
 ---
 
@@ -2101,7 +2101,7 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-GT, cs.AI  
 Keywords: Zero-Shot  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03136v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03136v1" filename="2402.03136v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03136v1.pdf" filename="2402.03136v1.pdf">Download PDF</button>
 
 ---
 
@@ -2135,7 +2135,7 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-CR, cs-DC, cs.AI  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02885v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02885v1" filename="2402.02885v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02885v1.pdf" filename="2402.02885v1.pdf">Download PDF</button>
 
 ---
 
@@ -2169,7 +2169,7 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-CL, cs-LG, cs.AI  
 Keywords: GPT, GPT-4, LLaMA, Language Model, Reasoning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02805v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02805v1" filename="2402.02805v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02805v1.pdf" filename="2402.02805v1.pdf">Download PDF</button>
 
 ---
 
@@ -2203,7 +2203,7 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-CL, cs-LG, cs.AI  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02716v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02716v1" filename="2402.02716v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02716v1.pdf" filename="2402.02716v1.pdf">Download PDF</button>
 
 ---
 
@@ -2237,7 +2237,7 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-CL, cs-LG, cs.AI  
 Keywords: PaLM  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02658v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02658v1" filename="2402.02658v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02658v1.pdf" filename="2402.02658v1.pdf">Download PDF</button>
 
 ---
 
@@ -2275,7 +2275,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-IT, cs.CL, math-IT  
 Keywords: Embedding, Language Model, Sentence Embedding  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05132v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05132v1" filename="2402.05132v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05132v1.pdf" filename="2402.05132v1.pdf">Download PDF</button>
 
 ---
 
@@ -2309,7 +2309,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keywords: Financial  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05131v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05131v1" filename="2402.05131v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05131v1.pdf" filename="2402.05131v1.pdf">Download PDF</button>
 
 ---
 
@@ -2343,7 +2343,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model, NLP, Speech Recognition  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03519v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03519v1" filename="2402.03519v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03519v1.pdf" filename="2402.03519v1.pdf">Download PDF</button>
 
 ---
 
@@ -2377,7 +2377,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: GPT, GPT-3.5, GPT-4  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03483v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03483v1" filename="2402.03483v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03483v1.pdf" filename="2402.03483v1.pdf">Download PDF</button>
 
 ---
 
@@ -2411,7 +2411,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keywords: BERT, LSTM, Language Model, Text Classification  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03477v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03477v1" filename="2402.03477v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03477v1.pdf" filename="2402.03477v1.pdf">Download PDF</button>
 
 ---
 
@@ -2445,7 +2445,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-CY, cs.CL  
 Keywords: Clinical, Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03435v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03435v1" filename="2402.03435v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03435v1.pdf" filename="2402.03435v1.pdf">Download PDF</button>
 
 ---
 
@@ -2479,7 +2479,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: AI, Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03303v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03303v1" filename="2402.03303v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03303v1.pdf" filename="2402.03303v1.pdf">Download PDF</button>
 
 ---
 
@@ -2513,7 +2513,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: GPT, GPT-4, Language Model, Reasoning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03300v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03300v2" filename="2402.03300v2">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03300v2.pdf" filename="2402.03300v2.pdf">Download PDF</button>
 
 ---
 
@@ -2547,7 +2547,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03284v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03284v1" filename="2402.03284v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03284v1.pdf" filename="2402.03284v1.pdf">Download PDF</button>
 
 ---
 
@@ -2581,7 +2581,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03271v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03271v1" filename="2402.03271v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03271v1.pdf" filename="2402.03271v1.pdf">Download PDF</button>
 
 ---
 
@@ -2615,7 +2615,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keywords: NLI, Zero-Shot  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03223v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03223v1" filename="2402.03223v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03223v1.pdf" filename="2402.03223v1.pdf">Download PDF</button>
 
 ---
 
@@ -2649,7 +2649,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Embedding, Knowledge Distillation  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03216v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03216v2" filename="2402.03216v2">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03216v2.pdf" filename="2402.03216v2.pdf">Download PDF</button>
 
 ---
 
@@ -2683,7 +2683,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-IR, cs-LG, cs-MM, cs.CL  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03190v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03190v1" filename="2402.03190v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03190v1.pdf" filename="2402.03190v1.pdf">Download PDF</button>
 
 ---
 
@@ -2717,7 +2717,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: AI, BERT, Generative AI, Language Model, QA  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05130v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05130v1" filename="2402.05130v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05130v1.pdf" filename="2402.05130v1.pdf">Download PDF</button>
 
 ---
 
@@ -2751,7 +2751,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03177v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03177v1" filename="2402.03177v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03177v1.pdf" filename="2402.03177v1.pdf">Download PDF</button>
 
 ---
 
@@ -2785,7 +2785,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-CV, cs.CL  
 Keywords: AI, GPT, GPT-4, QA  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03173v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03173v1" filename="2402.03173v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03173v1.pdf" filename="2402.03173v1.pdf">Download PDF</button>
 
 ---
 
@@ -2819,7 +2819,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Attention, Embedding, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03172v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03172v1" filename="2402.03172v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03172v1.pdf" filename="2402.03172v1.pdf">Download PDF</button>
 
 ---
 
@@ -2853,7 +2853,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-CR, cs-LG, cs.CL  
 Keywords: Sentiment Analysis  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03171v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03171v1" filename="2402.03171v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03171v1.pdf" filename="2402.03171v1.pdf">Download PDF</button>
 
 ---
 
@@ -2887,7 +2887,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: NLP  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03137v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03137v1" filename="2402.03137v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03137v1.pdf" filename="2402.03137v1.pdf">Download PDF</button>
 
 ---
 
@@ -2921,7 +2921,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: NLP, Named Entity Recognition  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03131v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03131v1" filename="2402.03131v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03131v1.pdf" filename="2402.03131v1.pdf">Download PDF</button>
 
 ---
 
@@ -2955,7 +2955,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05129v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05129v1" filename="2402.05129v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05129v1.pdf" filename="2402.05129v1.pdf">Download PDF</button>
 
 ---
 
@@ -2989,7 +2989,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03099v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03099v1" filename="2402.03099v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03099v1.pdf" filename="2402.03099v1.pdf">Download PDF</button>
 
 ---
 
@@ -3023,7 +3023,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: BERT, Multilingual  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03067v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03067v1" filename="2402.03067v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03067v1.pdf" filename="2402.03067v1.pdf">Download PDF</button>
 
 ---
 
@@ -3057,7 +3057,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: AI, Embedding, Language Model, Semantic Similarity, Twitter  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03053v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03053v1" filename="2402.03053v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03053v1.pdf" filename="2402.03053v1.pdf">Download PDF</button>
 
 ---
 
@@ -3091,7 +3091,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-HC, cs-IR, cs-LG, cs.CL  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03049v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03049v2" filename="2402.03049v2">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03049v2.pdf" filename="2402.03049v2.pdf">Download PDF</button>
 
 ---
 
@@ -3125,7 +3125,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: AI, NLP  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03043v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03043v1" filename="2402.03043v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03043v1.pdf" filename="2402.03043v1.pdf">Download PDF</button>
 
 ---
 
@@ -3159,7 +3159,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03009v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03009v1" filename="2402.03009v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03009v1.pdf" filename="2402.03009v1.pdf">Download PDF</button>
 
 ---
 
@@ -3193,7 +3193,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keywords: Text Classification  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02975v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02975v1" filename="2402.02975v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02975v1.pdf" filename="2402.02975v1.pdf">Download PDF</button>
 
 ---
 
@@ -3227,7 +3227,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: AI, Language Model, QA, Question Answering  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05128v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05128v1" filename="2402.05128v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05128v1.pdf" filename="2402.05128v1.pdf">Download PDF</button>
 
 ---
 
@@ -3261,7 +3261,7 @@ Primary Category: cs.CL
 Categories: I-2-7, cs-CL, cs-LG, cs-SI, cs.CL  
 Keywords: Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02926v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02926v1" filename="2402.02926v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02926v1.pdf" filename="2402.02926v1.pdf">Download PDF</button>
 
 ---
 
@@ -3295,7 +3295,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-CY, cs-MA, cs.CL  
 Keywords: GPT, GPT-3.5, Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02896v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02896v1" filename="2402.02896v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02896v1.pdf" filename="2402.02896v1.pdf">Download PDF</button>
 
 ---
 
@@ -3329,7 +3329,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: Transformer, Transformers  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02883v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02883v1" filename="2402.02883v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02883v1.pdf" filename="2402.02883v1.pdf">Download PDF</button>
 
 ---
 
@@ -3363,7 +3363,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: GPT, Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02872v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02872v1" filename="2402.02872v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02872v1.pdf" filename="2402.02872v1.pdf">Download PDF</button>
 
 ---
 
@@ -3397,7 +3397,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-HC, cs.CL  
 Keywords: NLP, Natural Language Processing  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02864v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02864v1" filename="2402.02864v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02864v1.pdf" filename="2402.02864v1.pdf">Download PDF</button>
 
 ---
 
@@ -3431,7 +3431,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-IR, cs.CL  
 Keywords: Google  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02844v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02844v1" filename="2402.02844v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02844v1.pdf" filename="2402.02844v1.pdf">Download PDF</button>
 
 ---
 
@@ -3465,7 +3465,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: LLaMA, Language Model, Multilingual  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02801v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02801v1" filename="2402.02801v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02801v1.pdf" filename="2402.02801v1.pdf">Download PDF</button>
 
 ---
 
@@ -3499,7 +3499,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02791v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02791v2" filename="2402.02791v2">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02791v2.pdf" filename="2402.02791v2.pdf">Download PDF</button>
 
 ---
 
@@ -3533,7 +3533,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: AI, GPT, GPT-4, Language Model, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05127v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05127v1" filename="2402.05127v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05127v1.pdf" filename="2402.05127v1.pdf">Download PDF</button>
 
 ---
 
@@ -3567,7 +3567,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs-PF, cs.CL  
 Keywords: Falcon, Quantization  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02750v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02750v1" filename="2402.02750v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02750v1.pdf" filename="2402.02750v1.pdf">Download PDF</button>
 
 ---
 
@@ -3601,7 +3601,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: GNN, Graph Neural Network, Graph Neural Networks, NER, Named Entity Recognition, Summarization, Text Summarization  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05126v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05126v1" filename="2402.05126v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05126v1.pdf" filename="2402.05126v1.pdf">Download PDF</button>
 
 ---
 
@@ -3635,7 +3635,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-CY, cs-LG, cs.CL  
 Keywords: Bias, Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02680v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02680v1" filename="2402.02680v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02680v1.pdf" filename="2402.02680v1.pdf">Download PDF</button>
 
 ---
 
@@ -3669,7 +3669,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL, q-bio-QM  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02656v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02656v1" filename="2402.02656v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02656v1.pdf" filename="2402.02656v1.pdf">Download PDF</button>
 
 ---
 
@@ -3703,7 +3703,7 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keywords: Machine Reading Comprehension, QA  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02655v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02655v1" filename="2402.02655v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02655v1.pdf" filename="2402.02655v1.pdf">Download PDF</button>
 
 ---
 
@@ -3737,7 +3737,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: AI, ChatGPT, GPT, Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02648v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02648v1" filename="2402.02648v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02648v1.pdf" filename="2402.02648v1.pdf">Download PDF</button>
 
 ---
 
@@ -3771,7 +3771,7 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Clinical, Zero-Shot  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05125v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05125v1" filename="2402.05125v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05125v1.pdf" filename="2402.05125v1.pdf">Download PDF</button>
 
 ---
 
@@ -3809,7 +3809,7 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CL, cs-CV, cs.CV  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03561v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03561v2" filename="2402.03561v2">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03561v2.pdf" filename="2402.03561v2.pdf">Download PDF</button>
 
 ---
 
@@ -3843,7 +3843,7 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keywords: Transformer, Transformers  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03526v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03526v1" filename="2402.03526v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03526v1.pdf" filename="2402.03526v1.pdf">Download PDF</button>
 
 ---
 
@@ -3877,7 +3877,7 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CL, cs-CV, cs.CV  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03501v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03501v1" filename="2402.03501v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03501v1.pdf" filename="2402.03501v1.pdf">Download PDF</button>
 
 ---
 
@@ -3911,7 +3911,7 @@ Primary Category: cs.CV
 Categories: cs-CG, cs-CV, cs-RO, cs.CV  
 Keywords: GNN, Graph Neural Network, Graph Neural Networks  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03466v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03466v1" filename="2402.03466v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03466v1.pdf" filename="2402.03466v1.pdf">Download PDF</button>
 
 ---
 
@@ -3945,7 +3945,7 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keywords: Contrastive Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03456v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03456v1" filename="2402.03456v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03456v1.pdf" filename="2402.03456v1.pdf">Download PDF</button>
 
 ---
 
@@ -3979,7 +3979,7 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: Object Detection, Self-Supervised  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03311v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03311v1" filename="2402.03311v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03311v1.pdf" filename="2402.03311v1.pdf">Download PDF</button>
 
 ---
 
@@ -4013,7 +4013,7 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keywords: Computer Vision, LSTM  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03417v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03417v1" filename="2402.03417v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03417v1.pdf" filename="2402.03417v1.pdf">Download PDF</button>
 
 ---
 
@@ -4047,7 +4047,7 @@ Primary Category: cs.CV
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: AI, Active Learning, Object Detection  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03235v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03235v1" filename="2402.03235v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03235v1.pdf" filename="2402.03235v1.pdf">Download PDF</button>
 
 ---
 
@@ -4081,7 +4081,7 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03214v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03214v2" filename="2402.03214v2">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03214v2.pdf" filename="2402.03214v2.pdf">Download PDF</button>
 
 ---
 
@@ -4115,7 +4115,7 @@ Primary Category: cs.CV
 Categories: cs-CL, cs-CV, cs.CV  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03161v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03161v2" filename="2402.03161v2">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03161v2.pdf" filename="2402.03161v2.pdf">Download PDF</button>
 
 ---
 
@@ -4149,7 +4149,7 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: Knowledge Distillation  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03119v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03119v1" filename="2402.03119v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03119v1.pdf" filename="2402.03119v1.pdf">Download PDF</button>
 
 ---
 
@@ -4183,7 +4183,7 @@ Primary Category: cs.CV
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Few-Shot, Object Detection, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03094v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03094v1" filename="2402.03094v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03094v1.pdf" filename="2402.03094v1.pdf">Download PDF</button>
 
 ---
 
@@ -4217,7 +4217,7 @@ Primary Category: cs.CV
 Categories: cs-CV, cs-HC, cs.CV  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03093v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03093v1" filename="2402.03093v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03093v1.pdf" filename="2402.03093v1.pdf">Download PDF</button>
 
 ---
 
@@ -4251,7 +4251,7 @@ Primary Category: cs.CV
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Attention  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03047v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03047v1" filename="2402.03047v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03047v1.pdf" filename="2402.03047v1.pdf">Download PDF</button>
 
 ---
 
@@ -4285,7 +4285,7 @@ Primary Category: cs.CV
 Categories: cs-CV, cs-DL, cs.CV  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03003v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03003v1" filename="2402.03003v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03003v1.pdf" filename="2402.03003v1.pdf">Download PDF</button>
 
 ---
 
@@ -4319,7 +4319,7 @@ Primary Category: cs.CV
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Computer Vision, Transformer, Transformers  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02941v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02941v1" filename="2402.02941v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02941v1.pdf" filename="2402.02941v1.pdf">Download PDF</button>
 
 ---
 
@@ -4353,7 +4353,7 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keywords: Computer Vision  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02826v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02826v1" filename="2402.02826v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02826v1.pdf" filename="2402.02826v1.pdf">Download PDF</button>
 
 ---
 
@@ -4387,7 +4387,7 @@ Primary Category: cs.CV
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Attention  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02797v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02797v1" filename="2402.02797v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02797v1.pdf" filename="2402.02797v1.pdf">Download PDF</button>
 
 ---
 
@@ -4421,7 +4421,7 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs-GR, cs-LG, cs-MM, cs.CV  
 Keywords: Style Transfer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02733v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02733v1" filename="2402.02733v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02733v1.pdf" filename="2402.02733v1.pdf">Download PDF</button>
 
 ---
 
@@ -4455,7 +4455,7 @@ Primary Category: cs.CV
 Categories: cs-CL, cs-CV, cs-LG, cs.CV  
 Keywords: Zero-Shot  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02662v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02662v1" filename="2402.02662v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02662v1.pdf" filename="2402.02662v1.pdf">Download PDF</button>
 
 ---
 
@@ -4493,7 +4493,7 @@ Primary Category: cs.CR
 Categories: cs-CR, cs.CR  
 Keywords: Security  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03555v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03555v1" filename="2402.03555v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03555v1.pdf" filename="2402.03555v1.pdf">Download PDF</button>
 
 ---
 
@@ -4527,7 +4527,7 @@ Primary Category: cs.CR
 Categories: cs-CR, cs.CR, eess-SP  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03449v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03449v1" filename="2402.03449v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03449v1.pdf" filename="2402.03449v1.pdf">Download PDF</button>
 
 ---
 
@@ -4561,7 +4561,7 @@ Primary Category: cs.CR
 Categories: cs-CR, cs.CR  
 Keywords: GPT, GPT-3.5, GPT-4, Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03147v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03147v1" filename="2402.03147v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03147v1.pdf" filename="2402.03147v1.pdf">Download PDF</button>
 
 ---
 
@@ -4595,7 +4595,7 @@ Primary Category: cs.CR
 Categories: cs-CR, cs.CR  
 Keywords: Security  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03114v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03114v1" filename="2402.03114v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03114v1.pdf" filename="2402.03114v1.pdf">Download PDF</button>
 
 ---
 
@@ -4629,7 +4629,7 @@ Primary Category: cs.CR
 Categories: cs-AI, cs-CL, cs-CR, cs-LG, cs.CR  
 Keywords: GPT, GPT-3.5, GPT-4  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02987v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02987v1" filename="2402.02987v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02987v1.pdf" filename="2402.02987v1.pdf">Download PDF</button>
 
 ---
 
@@ -4663,7 +4663,7 @@ Primary Category: cs.CR
 Categories: cs-CR, cs.CR, eess-SP  
 Keywords: Security  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02950v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02950v2" filename="2402.02950v2">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02950v2.pdf" filename="2402.02950v2.pdf">Download PDF</button>
 
 ---
 
@@ -4697,7 +4697,7 @@ Primary Category: cs.CR
 Categories: cs-CR, cs-CV, cs-LG, cs.CR  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02739v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02739v1" filename="2402.02739v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02739v1.pdf" filename="2402.02739v1.pdf">Download PDF</button>
 
 ---
 
@@ -4735,7 +4735,7 @@ Primary Category: astro-ph.IM
 Categories: astro-ph-IM, astro-ph.IM, cs-AI  
 Keywords: AI, Computer Vision  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03535v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03535v1" filename="2402.03535v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03535v1.pdf" filename="2402.03535v1.pdf">Download PDF</button>
 
 ---
 
@@ -4773,7 +4773,7 @@ Primary Category: quant-ph
 Categories: cs-AI, cs-LG, quant-ph, quant-ph  
 Keywords: QA  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03500v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03500v1" filename="2402.03500v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03500v1.pdf" filename="2402.03500v1.pdf">Download PDF</button>
 
 ---
 
@@ -4807,7 +4807,7 @@ Primary Category: quant-ph
 Categories: cs-LG, quant-ph, quant-ph  
 Keywords: Anomaly Detection  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02866v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02866v1" filename="2402.02866v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02866v1.pdf" filename="2402.02866v1.pdf">Download PDF</button>
 
 ---
 
@@ -4845,7 +4845,7 @@ Primary Category: stat.ML
 Categories: cs-CL, cs-LG, stat-ML, stat.ML  
 Keywords: Attention  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03485v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03485v1" filename="2402.03485v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03485v1.pdf" filename="2402.03485v1.pdf">Download PDF</button>
 
 ---
 
@@ -4879,7 +4879,7 @@ Primary Category: stat.ML
 Categories: cs-IT, cs-LG, math-IT, stat-ML, stat.ML  
 Keywords: Representation Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03254v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03254v1" filename="2402.03254v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03254v1.pdf" filename="2402.03254v1.pdf">Download PDF</button>
 
 ---
 
@@ -4913,7 +4913,7 @@ Primary Category: stat.ML
 Categories: cs-CL, cs-LG, stat-ML, stat.ML  
 Keywords: Attention, BERT, NLP  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02969v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02969v1" filename="2402.02969v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02969v1.pdf" filename="2402.02969v1.pdf">Download PDF</button>
 
 ---
 
@@ -4947,7 +4947,7 @@ Primary Category: stat.ML
 Categories: cs-LG, stat-ML, stat.ML  
 Keywords: GNN  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02862v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02862v1" filename="2402.02862v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02862v1.pdf" filename="2402.02862v1.pdf">Download PDF</button>
 
 ---
 
@@ -4981,7 +4981,7 @@ Primary Category: stat.ML
 Categories: cs-LG, stat-ML, stat.ML  
 Keywords: Bias  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02857v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02857v1" filename="2402.02857v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02857v1.pdf" filename="2402.02857v1.pdf">Download PDF</button>
 
 ---
 
@@ -5019,7 +5019,7 @@ Primary Category: cs.IR
 Categories: cs-CL, cs-IR, cs.IR  
 Keywords: GPT, GPT-3.5, GPT-4  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03484v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03484v1" filename="2402.03484v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03484v1.pdf" filename="2402.03484v1.pdf">Download PDF</button>
 
 ---
 
@@ -5053,7 +5053,7 @@ Primary Category: cs.IR
 Categories: H-3-3, cs-AI, cs-IR, cs-LG, cs.IR, stat-CO  
 Keywords: BERT, Topic Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03176v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03176v1" filename="2402.03176v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03176v1.pdf" filename="2402.03176v1.pdf">Download PDF</button>
 
 ---
 
@@ -5087,7 +5087,7 @@ Primary Category: cs.IR
 Categories: cs-IR, cs-LG, cs.IR  
 Keywords: Entity Alignment  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03025v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03025v1" filename="2402.03025v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03025v1.pdf" filename="2402.03025v1.pdf">Download PDF</button>
 
 ---
 
@@ -5121,7 +5121,7 @@ Primary Category: cs.IR
 Categories: cs-IR, cs-LG, cs.IR  
 Keywords: Multilingual  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02932v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02932v1" filename="2402.02932v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02932v1.pdf" filename="2402.02932v1.pdf">Download PDF</button>
 
 ---
 
@@ -5155,7 +5155,7 @@ Primary Category: cs.IR
 Categories: cs-AI, cs-IR, cs-LG, cs.IR  
 Keywords: Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02803v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02803v1" filename="2402.02803v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02803v1.pdf" filename="2402.02803v1.pdf">Download PDF</button>
 
 ---
 
@@ -5193,7 +5193,7 @@ Primary Category: astro-ph.SR
 Categories: astro-ph-SR, astro-ph.SR, cs-LG, stat-AP  
 Keywords: Time Series  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03474v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03474v1" filename="2402.03474v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03474v1.pdf" filename="2402.03474v1.pdf">Download PDF</button>
 
 ---
 
@@ -5231,7 +5231,7 @@ Primary Category: eess.IV
 Categories: cs-CV, eess-IV, eess.IV  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03473v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03473v2" filename="2402.03473v2">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03473v2.pdf" filename="2402.03473v2.pdf">Download PDF</button>
 
 ---
 
@@ -5265,7 +5265,7 @@ Primary Category: eess.IV
 Categories: cs-CV, cs-LG, eess-IV, eess.IV  
 Keywords: ImageNet  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03302v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03302v1" filename="2402.03302v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03302v1.pdf" filename="2402.03302v1.pdf">Download PDF</button>
 
 ---
 
@@ -5299,7 +5299,7 @@ Primary Category: eess.IV
 Categories: cs-CV, cs-LG, eess-IV, eess.IV  
 Keywords: Attention  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03230v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03230v1" filename="2402.03230v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03230v1.pdf" filename="2402.03230v1.pdf">Download PDF</button>
 
 ---
 
@@ -5333,7 +5333,7 @@ Primary Category: eess.IV
 Categories: cs-CV, cs-LG, eess-IV, eess.IV  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02963v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02963v1" filename="2402.02963v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02963v1.pdf" filename="2402.02963v1.pdf">Download PDF</button>
 
 ---
 
@@ -5367,7 +5367,7 @@ Primary Category: eess.IV
 Categories: cs-CV, cs-LG, eess-IV, eess.IV  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02724v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02724v1" filename="2402.02724v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02724v1.pdf" filename="2402.02724v1.pdf">Download PDF</button>
 
 ---
 
@@ -5405,7 +5405,7 @@ Primary Category: cs.SI
 Categories: cs-CY, cs-IR, cs-SI, cs.SI  
 Keywords: Social Network  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03450v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03450v1" filename="2402.03450v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03450v1.pdf" filename="2402.03450v1.pdf">Download PDF</button>
 
 ---
 
@@ -5439,7 +5439,7 @@ Primary Category: cs.SI
 Categories: cs-CY, cs-HC, cs-SI, cs.SI  
 Keywords: Security  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03255v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03255v1" filename="2402.03255v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03255v1.pdf" filename="2402.03255v1.pdf">Download PDF</button>
 
 ---
 
@@ -5477,7 +5477,7 @@ Primary Category: cs.DS
 Categories: cs-DS, cs-LO, cs.DS  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03273v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03273v1" filename="2402.03273v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03273v1.pdf" filename="2402.03273v1.pdf">Download PDF</button>
 
 ---
 
@@ -5515,7 +5515,7 @@ Primary Category: cs.DC
 Categories: cs-DC, cs-SI, cs.DC  
 Keywords: Social Media  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03239v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03239v1" filename="2402.03239v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03239v1.pdf" filename="2402.03239v1.pdf">Download PDF</button>
 
 ---
 
@@ -5549,7 +5549,7 @@ Primary Category: cs.DC
 Categories: cs-DC, cs-LG, cs.DC  
 Keywords: LSTM  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02938v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02938v1" filename="2402.02938v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02938v1.pdf" filename="2402.02938v1.pdf">Download PDF</button>
 
 ---
 
@@ -5587,7 +5587,7 @@ Primary Category: cs.IT
 Categories: cs-AI, cs-IT, cs-LG, cs.IT, math-IT  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03204v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03204v1" filename="2402.03204v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03204v1.pdf" filename="2402.03204v1.pdf">Download PDF</button>
 
 ---
 
@@ -5621,7 +5621,7 @@ Primary Category: cs.IT
 Categories: cs-CR, cs-IT, cs.IT, math-IT  
 Keywords: Security  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03202v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03202v1" filename="2402.03202v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03202v1.pdf" filename="2402.03202v1.pdf">Download PDF</button>
 
 ---
 
@@ -5655,7 +5655,7 @@ Primary Category: cs.IT
 Categories: cs-IT, cs.IT, eess-SP, math-IT  
 Keywords: Quantization  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03030v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03030v1" filename="2402.03030v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03030v1.pdf" filename="2402.03030v1.pdf">Download PDF</button>
 
 ---
 
@@ -5689,7 +5689,7 @@ Primary Category: cs.IT
 Categories: cs-CR, cs-IT, cs.IT, math-CO, math-IT  
 Keywords: Information Retrieval  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02871v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02871v1" filename="2402.02871v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02871v1.pdf" filename="2402.02871v1.pdf">Download PDF</button>
 
 ---
 
@@ -5723,7 +5723,7 @@ Primary Category: cs.IT
 Categories: cs-CV, cs-IT, cs-LG, cs.IT, eess-IV, math-IT  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02729v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02729v1" filename="2402.02729v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02729v1.pdf" filename="2402.02729v1.pdf">Download PDF</button>
 
 ---
 
@@ -5761,7 +5761,7 @@ Primary Category: cs.LO
 Categories: cs-LO, cs.LO, math-LO  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03148v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03148v1" filename="2402.03148v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03148v1.pdf" filename="2402.03148v1.pdf">Download PDF</button>
 
 ---
 
@@ -5799,7 +5799,7 @@ Primary Category: cs.SC
 Categories: cs-SC, cs.SC, math-AC  
 Keywords: GLM  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03144v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03144v1" filename="2402.03144v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03144v1.pdf" filename="2402.03144v1.pdf">Download PDF</button>
 
 ---
 
@@ -5837,7 +5837,7 @@ Primary Category: cs.SE
 Categories: cs-AI, cs-SE, cs.SE  
 Keywords: ChatGPT, GPT  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03130v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03130v1" filename="2402.03130v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03130v1.pdf" filename="2402.03130v1.pdf">Download PDF</button>
 
 ---
 
@@ -5871,7 +5871,7 @@ Primary Category: cs.SE
 Categories: cs-SE, cs.SE  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02824v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02824v1" filename="2402.02824v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02824v1.pdf" filename="2402.02824v1.pdf">Download PDF</button>
 
 ---
 
@@ -5909,7 +5909,7 @@ Primary Category: cs.CC
 Categories: 05C10, 68Q15, G-2-2, cs-CC, cs.CC  
 Keywords: NLP  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03087v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03087v1" filename="2402.03087v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03087v1.pdf" filename="2402.03087v1.pdf">Download PDF</button>
 
 ---
 
@@ -5947,7 +5947,7 @@ Primary Category: eess.AS
 Categories: cs-CL, cs-LG, eess-AS, eess.AS  
 Keywords: Language Model, Self-Supervised  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03407v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03407v1" filename="2402.03407v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03407v1.pdf" filename="2402.03407v1.pdf">Download PDF</button>
 
 ---
 
@@ -5981,7 +5981,7 @@ Primary Category: eess.AS
 Categories: cs-SD, eess-AS, eess.AS  
 Keywords: Attention  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03058v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03058v1" filename="2402.03058v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03058v1.pdf" filename="2402.03058v1.pdf">Download PDF</button>
 
 ---
 
@@ -6015,7 +6015,7 @@ Primary Category: eess.AS
 Categories: cs-LG, eess-AS, eess.AS  
 Keywords: Attention, LSTM  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02865v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02865v1" filename="2402.02865v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02865v1.pdf" filename="2402.02865v1.pdf">Download PDF</button>
 
 ---
 
@@ -6049,7 +6049,7 @@ Primary Category: eess.AS
 Categories: cs-LG, cs-SD, eess-AS, eess.AS  
 Keywords: Attention, LSTM  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02850v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02850v1" filename="2402.02850v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02850v1.pdf" filename="2402.02850v1.pdf">Download PDF</button>
 
 ---
 
@@ -6087,7 +6087,7 @@ Primary Category: q-bio.NC
 Categories: cs-AI, cs-LG, q-bio-NC, q-bio.NC  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03072v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03072v1" filename="2402.03072v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03072v1.pdf" filename="2402.03072v1.pdf">Download PDF</button>
 
 ---
 
@@ -6125,7 +6125,7 @@ Primary Category: cs.SD
 Categories: cs-CL, cs-SD, cs.SD, eess-AS  
 Keywords: Speech Recognition  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03050v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03050v1" filename="2402.03050v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03050v1.pdf" filename="2402.03050v1.pdf">Download PDF</button>
 
 ---
 
@@ -6159,7 +6159,7 @@ Primary Category: cs.SD
 Categories: cs-CV, cs-LG, cs-SD, cs.SD, eess-AS  
 Keywords: Self-Supervised  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02889v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02889v1" filename="2402.02889v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02889v1.pdf" filename="2402.02889v1.pdf">Download PDF</button>
 
 ---
 
@@ -6193,7 +6193,7 @@ Primary Category: cs.SD
 Categories: cs-AI, cs-CL, cs-LG, cs-SD, cs.SD, eess-AS  
 Keywords: Event Detection, Knowledge Distillation  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02781v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02781v1" filename="2402.02781v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02781v1.pdf" filename="2402.02781v1.pdf">Download PDF</button>
 
 ---
 
@@ -6227,7 +6227,7 @@ Primary Category: cs.SD
 Categories: cs-LG, cs-SD, cs.SD, eess-AS  
 Keywords: Augmentation, Speaker Verification  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02699v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02699v1" filename="2402.02699v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02699v1.pdf" filename="2402.02699v1.pdf">Download PDF</button>
 
 ---
 
@@ -6265,7 +6265,7 @@ Primary Category: cs.RO
 Categories: cs-LG, cs-RO, cs-SY, cs.RO, eess-SY  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02980v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02980v1" filename="2402.02980v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02980v1.pdf" filename="2402.02980v1.pdf">Download PDF</button>
 
 ---
 
@@ -6299,7 +6299,7 @@ Primary Category: cs.RO
 Categories: cs-AI, cs-LG, cs-RO, cs.RO  
 Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02904v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02904v1" filename="2402.02904v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02904v1.pdf" filename="2402.02904v1.pdf">Download PDF</button>
 
 ---
 
@@ -6337,7 +6337,7 @@ Primary Category: cs.AR
 Categories: cs-AR, cs-LG, cs-NE, cs.AR  
 Keywords: Embedding  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02930v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02930v1" filename="2402.02930v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02930v1.pdf" filename="2402.02930v1.pdf">Download PDF</button>
 
 ---
 
@@ -6375,7 +6375,7 @@ Primary Category: cs.NE
 Categories: cs-LG, cs-NE, cs.NE, eess-SP, math-ST, stat-TH  
 Keywords: LSTM, QA  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04012v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04012v1" filename="2402.04012v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04012v1.pdf" filename="2402.04012v1.pdf">Download PDF</button>
 
 ---
 
@@ -6413,7 +6413,7 @@ Primary Category: cs.NI
 Categories: cs-AI, cs-LG, cs-NI, cs.NI  
 Keywords: AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02768v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02768v1" filename="2402.02768v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02768v1.pdf" filename="2402.02768v1.pdf">Download PDF</button>
 
 ---
 
@@ -6451,7 +6451,7 @@ Primary Category: cs.CY
 Categories: cs-CY, cs.CY  
 Keywords: AI, ChatGPT, GPT, Generative AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02676v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02676v1" filename="2402.02676v1">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.02676v1.pdf" filename="2402.02676v1.pdf">Download PDF</button>
 
 ---
 
