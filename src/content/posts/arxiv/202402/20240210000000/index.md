@@ -154,8 +154,8 @@ math: true
 
 <script>
 $(function() {
-    $("table").addClass("keyword-table")
-    $("table thead").addClass("sticky-top")
+    $("table").addClass("keyword-table table-bordered");
+    $("table thead").addClass("sticky-top");
 })
 </script>
 

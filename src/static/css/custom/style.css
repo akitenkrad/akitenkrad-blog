@@ -54,4 +54,11 @@ div.toast.toast-copied {
   width: auto;
   text-align: center;
   margin: 0.5rem;
+}
+
+table.keyword-table thead.sticky-top {
+  top: 2.5rem;
+}
+table.keyword-table tbody tr td {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
