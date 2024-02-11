@@ -20,6 +20,11 @@
 .initial-navbar .navbar-brand {
   color: #c0ccda;
   font-weight: 600;
+  margin-left: 2rem;
+}
+
+.initial-navbar .navbar-nav li.nav-item a.nav-link {
+  color: #c0ccda;
 }
 
 .initial-navbar li a {
@@ -305,4 +310,8 @@
 
 /* iPhone 5 or before */
 @media only screen and (max-width: 320px) {
+}
+
+.navbarMain {
+  width: 100%;
 }

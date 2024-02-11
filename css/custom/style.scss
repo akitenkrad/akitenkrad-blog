@@ -1,0 +1,57 @@
+// copy to clipboard button
+button.copy-to-clipboard {
+    padding: 0 1rem;
+    margin-top: 0.2rem;
+    appearance: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    max-width: 320px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    overflow-wrap: anywhere;
+    color: azure;
+    background: linear-gradient(135deg, #6fa24a, #15a1cc);
+    border-radius: 32px;
+    ::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        content: "";
+        background: linear-gradient(135deg, #6fa24a, #15a1cc);
+        filter: blur(8px);
+        border-radius: 32px;
+        opacity: 0;
+    }
+
+    @media (any-hover: hover) {
+        ::before {
+            transition: opacity 0.2s;
+            will-change: filter;
+        }
+        :hover::before {
+            opacity: 1;
+        }
+    }
+}
+
+button.copy-to-clipboard-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #222;
+    border-radius: 32px;
+}
+
+div.toast.toast-copied {
+    width: auto;
+    text-align: center;
+    margin: 0.5rem;
+}
