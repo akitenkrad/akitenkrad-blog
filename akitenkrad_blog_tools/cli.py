@@ -200,6 +200,7 @@ math: true
         kw_df = pd.pivot_table(kw_df, index="keyword", columns="category", values="count", fill_value="", aggfunc="sum")
 
         text += f"""## Keywords
+
                 {kw_df.to_markdown()}
 
 <script>
