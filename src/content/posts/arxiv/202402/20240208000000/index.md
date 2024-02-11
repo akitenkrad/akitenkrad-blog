@@ -53,13 +53,25 @@ math: true
 {{<citation>}}
 
 Sil Hamilton. (2024)  
-**Detecting Mode Collapse in Language Models via Narration**  
+**Detecting Mode Collapse in Language Models via Narration**
+<br/>
+<button class="copy-to-clipboard" title="Detecting Mode Collapse in Language Models via Narration" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: AI, GPT, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04477v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04477v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04477v1" filename="2402.04477v1">Download PDF</button>
 
 ---
 
@@ -75,13 +87,25 @@ No two authors write alike. Personal flourishes invoked in written narratives, f
 {{<citation>}}
 
 Olumide Ebenezer Ojo, Olaronke Oluwayemisi Adebanji, Alexander Gelbukh, Hiram Calvo, Anna Feldman. (2024)  
-**Evaluating Embeddings for One-Shot Classification of Doctor-AI Consultations**  
+**Evaluating Embeddings for One-Shot Classification of Doctor-AI Consultations**
+<br/>
+<button class="copy-to-clipboard" title="Evaluating Embeddings for One-Shot Classification of Doctor-AI Consultations" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: AI, Embedding, GPT  
-[Paper Link](http://arxiv.org/abs/2402.04442v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04442v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04442v1" filename="2402.04442v1">Download PDF</button>
 
 ---
 
@@ -97,13 +121,25 @@ Effective communication between healthcare providers and patients is crucial to 
 {{<citation>}}
 
 Haolun Wu, Ye Yuan, Liana Mikaelyan, Alexander Meulemans, Xue Liu, James Hensman, Bhaskar Mitra. (2024)  
-**Structured Entity Extraction Using Large Language Models**  
+**Structured Entity Extraction Using Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Structured Entity Extraction Using Large Language Models" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04437v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04437v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04437v1" filename="2402.04437v1">Download PDF</button>
 
 ---
 
@@ -119,13 +155,25 @@ Recent advances in machine learning have significantly impacted the field of inf
 {{<citation>}}
 
 Yiyou Sun, Junjie Hu, Wei Cheng, Haifeng Chen. (2024)  
-**Chatbot Meets Pipeline: Augment Large Language Model with Definite Finite Automaton**  
+**Chatbot Meets Pipeline: Augment Large Language Model with Definite Finite Automaton**
+<br/>
+<button class="copy-to-clipboard" title="Chatbot Meets Pipeline: Augment Large Language Model with Definite Finite Automaton" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04411v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04411v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04411v1" filename="2402.04411v1">Download PDF</button>
 
 ---
 
@@ -141,13 +189,25 @@ This paper introduces the Definite Finite Automaton augmented large language mod
 {{<citation>}}
 
 Zhaoxuan Tan, Qingkai Zeng, Yijun Tian, Zheyuan Liu, Bing Yin, Meng Jiang. (2024)  
-**Democratizing Large Language Models via Personalized Parameter-Efficient Fine-tuning**  
+**Democratizing Large Language Models via Personalized Parameter-Efficient Fine-tuning**
+<br/>
+<button class="copy-to-clipboard" title="Democratizing Large Language Models via Personalized Parameter-Efficient Fine-tuning" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04401v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04401v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04401v1" filename="2402.04401v1">Download PDF</button>
 
 ---
 
@@ -163,13 +223,25 @@ Personalization in large language models (LLMs) is increasingly important, aimin
 {{<citation>}}
 
 Dor Bernsohn, Gil Semo, Yaron Vazana, Gila Hayat, Ben Hagag, Joel Niklaus, Rohit Saha, Kyryl Truskovskyi. (2024)  
-**LegalLens: Leveraging LLMs for Legal Violation Identification in Unstructured Text**  
+**LegalLens: Leveraging LLMs for Legal Violation Identification in Unstructured Text**
+<br/>
+<button class="copy-to-clipboard" title="LegalLens: Leveraging LLMs for Legal Violation Identification in Unstructured Text" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: BERT, Language Model, Legal, NLP  
-[Paper Link](http://arxiv.org/abs/2402.04335v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04335v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04335v1" filename="2402.04335v1">Download PDF</button>
 
 ---
 
@@ -185,13 +257,25 @@ In this study, we focus on two main tasks, the first for detecting legal violati
 {{<citation>}}
 
 Chengyu Huang, Zeqiu Wu, Yushi Hu, Wenya Wang. (2024)  
-**Training Language Models to Generate Text with Citations via Fine-grained Rewards**  
+**Training Language Models to Generate Text with Citations via Fine-grained Rewards**
+<br/>
+<button class="copy-to-clipboard" title="Training Language Models to Generate Text with Citations via Fine-grained Rewards" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: GPT, GPT-3.5, LLaMA, Language Model, QA, Question Answering  
-[Paper Link](http://arxiv.org/abs/2402.04315v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04315v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04315v1" filename="2402.04315v1">Download PDF</button>
 
 ---
 
@@ -207,13 +291,25 @@ While recent Large Language Models (LLMs) have proven useful in answering user q
 {{<citation>}}
 
 Yu Du, Fangyun Wei, Hongyang Zhang. (2024)  
-**AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls**  
+**AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls**
+<br/>
+<button class="copy-to-clipboard" title="AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: GPT, GPT-4  
-[Paper Link](http://arxiv.org/abs/2402.04253v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04253v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04253v1" filename="2402.04253v1">Download PDF</button>
 
 ---
 
@@ -229,13 +325,25 @@ We introduce AnyTool, a large language model agent designed to revolutionize the
 {{<citation>}}
 
 Jannis Vamvas, Rico Sennrich. (2024)  
-**Linear-time Minimum Bayes Risk Decoding with Reference Aggregation**  
+**Linear-time Minimum Bayes Risk Decoding with Reference Aggregation**
+<br/>
+<button class="copy-to-clipboard" title="Linear-time Minimum Bayes Risk Decoding with Reference Aggregation" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: NLP  
-[Paper Link](http://arxiv.org/abs/2402.04251v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04251v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04251v1" filename="2402.04251v1">Download PDF</button>
 
 ---
 
@@ -251,13 +359,25 @@ Minimum Bayes Risk (MBR) decoding is a text generation technique that has been s
 {{<citation>}}
 
 Esther Ploeger, Wessel Poelman, Miryam de Lhoneux, Johannes Bjerva. (2024)  
-**What is 'Typological Diversity' in NLP?**  
+**What is 'Typological Diversity' in NLP?**
+<br/>
+<button class="copy-to-clipboard" title="What is 'Typological Diversity' in NLP?" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: NLP  
-[Paper Link](http://arxiv.org/abs/2402.04222v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04222v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04222v1" filename="2402.04222v1">Download PDF</button>
 
 ---
 
@@ -273,13 +393,25 @@ The NLP research community has devoted increased attention to languages beyond E
 {{<citation>}}
 
 Berivan Isik, Natalia Ponomareva, Hussein Hazimeh, Dimitris Paparas, Sergei Vassilvitskii, Sanmi Koyejo. (2024)  
-**Scaling Laws for Downstream Task Performance of Large Language Models**  
+**Scaling Laws for Downstream Task Performance of Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Scaling Laws for Downstream Task Performance of Large Language Models" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL, stat-ML  
 Keywords: BLEU, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04177v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04177v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04177v1" filename="2402.04177v1">Download PDF</button>
 
 ---
 
@@ -295,13 +427,25 @@ Scaling laws provide important insights that can guide the design of large langu
 {{<citation>}}
 
 Hao Wang, Lei Sha. (2024)  
-**Harnessing the Plug-and-Play Controller by Prompting**  
+**Harnessing the Plug-and-Play Controller by Prompting**
+<br/>
+<button class="copy-to-clipboard" title="Harnessing the Plug-and-Play Controller by Prompting" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.04160v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04160v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04160v1" filename="2402.04160v1">Download PDF</button>
 
 ---
 
@@ -317,13 +461,25 @@ Controllable text generation is a growing field within natural language generati
 {{<citation>}}
 
 Erik Weber, Jérôme Rutinowski, Markus Pauly. (2024)  
-**Behind the Screen: Investigating ChatGPT's Dark Personality Traits and Conspiracy Beliefs**  
+**Behind the Screen: Investigating ChatGPT's Dark Personality Traits and Conspiracy Beliefs**
+<br/>
+<button class="copy-to-clipboard" title="Behind the Screen: Investigating ChatGPT's Dark Personality Traits and Conspiracy Beliefs" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: ChatGPT, GPT, GPT-3.5, GPT-4  
-[Paper Link](http://arxiv.org/abs/2402.04110v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04110v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04110v1" filename="2402.04110v1">Download PDF</button>
 
 ---
 
@@ -339,13 +495,25 @@ ChatGPT is notorious for its intransparent behavior. This paper tries to shed li
 {{<citation>}}
 
 Bayode Ogunleye, Babitha Dharmaraj. (2024)  
-**The Use of a Large Language Model for Cyberbullying Detection**  
+**The Use of a Large Language Model for Cyberbullying Detection**
+<br/>
+<button class="copy-to-clipboard" title="The Use of a Large Language Model for Cyberbullying Detection" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: H-3-3, cs-AI, cs-CL, cs-LG, cs.CL, stat-AP  
 Keywords: BERT, Language Model, NLP, Twitter  
-[Paper Link](http://arxiv.org/abs/2402.04088v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04088v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04088v1" filename="2402.04088v1">Download PDF</button>
 
 ---
 
@@ -361,13 +529,25 @@ The dominance of social media has added to the channels of bullying for perpetra
 {{<citation>}}
 
 Reza Khanmohammadi, Ahmed I Ghanem, Kyle Verdecchia, Ryan Hall, Mohamed Elshaikh, Benjamin Movsas, Hassan Bagher-Ebadian, Indrin Chetty, Mohammad M. Ghassemi, Kundan Thind. (2024)  
-**Iterative Prompt Refinement for Radiation Oncology Symptom Extraction Using Teacher-Student Large Language Models**  
+**Iterative Prompt Refinement for Radiation Oncology Symptom Extraction Using Teacher-Student Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Iterative Prompt Refinement for Radiation Oncology Symptom Extraction Using Teacher-Student Large Language Models" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: GPT, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04075v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04075v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04075v1" filename="2402.04075v1">Download PDF</button>
 
 ---
 
@@ -383,13 +563,25 @@ This study introduces a novel teacher-student architecture utilizing Large Langu
 {{<citation>}}
 
 Amir Taubenfeld, Yaniv Dover, Roi Reichart, Ariel Goldstein. (2024)  
-**Systematic Biases in LLM Simulations of Debates**  
+**Systematic Biases in LLM Simulations of Debates**
+<br/>
+<button class="copy-to-clipboard" title="Systematic Biases in LLM Simulations of Debates" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Bias, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04049v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04049v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04049v1" filename="2402.04049v1">Download PDF</button>
 
 ---
 
@@ -405,13 +597,25 @@ Recent advancements in natural language processing, especially the emergence of 
 {{<citation>}}
 
 Erion Çano, Dario Lamaj. (2024)  
-**AlbNews: A Corpus of Headlines for Topic Modeling in Albanian**  
+**AlbNews: A Corpus of Headlines for Topic Modeling in Albanian**
+<br/>
+<button class="copy-to-clipboard" title="AlbNews: A Corpus of Headlines for Topic Modeling in Albanian" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Topic Model, Topic Modeling  
-[Paper Link](http://arxiv.org/abs/2402.04028v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04028v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04028v1" filename="2402.04028v1">Download PDF</button>
 
 ---
 
@@ -427,13 +631,25 @@ The scarcity of available text corpora for low-resource languages like Albanian 
 {{<citation>}}
 
 Jaleh Delfani, Constantin Orasan, Hadeel Saadany, Ozlem Temizoz, Eleanor Taylor-Stilgoe, Diptesh Kanojia, Sabine Braun, Barbara Schouten. (2024)  
-**Google Translate Error Analysis for Mental Healthcare Information: Evaluating Accuracy, Comprehensibility, and Implications for Multilingual Healthcare Communication**  
+**Google Translate Error Analysis for Mental Healthcare Information: Evaluating Accuracy, Comprehensibility, and Implications for Multilingual Healthcare Communication**
+<br/>
+<button class="copy-to-clipboard" title="Google Translate Error Analysis for Mental Healthcare Information: Evaluating Accuracy, Comprehensibility, and Implications for Multilingual Healthcare Communication" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Google, Multilingual  
-[Paper Link](http://arxiv.org/abs/2402.04023v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04023v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04023v1" filename="2402.04023v1">Download PDF</button>
 
 ---
 
@@ -449,13 +665,25 @@ This study explores the use of Google Translate (GT) for translating mental heal
 {{<citation>}}
 
 Tao Yuan, Xuefei Ning, Dong Zhou, Zhijie Yang, Shiyao Li, Minghui Zhuang, Zheyue Tan, Zhuyu Yao, Dahua Lin, Boxun Li, Guohao Dai, Shengen Yan, Yu Wang. (2024)  
-**LV-Eval: A Balanced Long-Context Benchmark with 5 Length Levels Up to 256K**  
+**LV-Eval: A Balanced Long-Context Benchmark with 5 Length Levels Up to 256K**
+<br/>
+<button class="copy-to-clipboard" title="LV-Eval: A Balanced Long-Context Benchmark with 5 Length Levels Up to 256K" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: QA  
-[Paper Link](http://arxiv.org/abs/2402.05136v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05136v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05136v1" filename="2402.05136v1">Download PDF</button>
 
 ---
 
@@ -471,13 +699,25 @@ State-of-the-art large language models (LLMs) are now claiming remarkable suppor
 {{<citation>}}
 
 Shruti Singh, Rishabh Gupta. (2024)  
-**Sparse Graph Representations for Procedural Instructional Documents**  
+**Sparse Graph Representations for Procedural Instructional Documents**
+<br/>
+<button class="copy-to-clipboard" title="Sparse Graph Representations for Procedural Instructional Documents" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: NLP  
-[Paper Link](http://arxiv.org/abs/2402.03957v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03957v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03957v1" filename="2402.03957v1">Download PDF</button>
 
 ---
 
@@ -493,13 +733,25 @@ Computation of document similarity is a critical task in various NLP domains tha
 {{<citation>}}
 
 Simone Balloccu, Patrícia Schmidtová, Mateusz Lango, Ondřej Dušek. (2024)  
-**Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source LLMs**  
+**Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source LLMs**
+<br/>
+<button class="copy-to-clipboard" title="Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source LLMs" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: AI, GPT, GPT-3.5, GPT-4, Language Model, NLP, Natural Language Processing  
-[Paper Link](http://arxiv.org/abs/2402.03927v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03927v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03927v1" filename="2402.03927v1">Download PDF</button>
 
 ---
 
@@ -515,13 +767,25 @@ Natural Language Processing (NLP) research is increasingly focusing on the use o
 {{<citation>}}
 
 Dechuan Teng, Chunlin Lu, Xiao Xu, Wanxiang Che, Libo Qin. (2024)  
-**Pro-HAN: A Heterogeneous Graph Attention Network for Profile-Based Spoken Language Understanding**  
+**Pro-HAN: A Heterogeneous Graph Attention Network for Profile-Based Spoken Language Understanding**
+<br/>
+<button class="copy-to-clipboard" title="Pro-HAN: A Heterogeneous Graph Attention Network for Profile-Based Spoken Language Understanding" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Attention, Graph Attention Network, Knowledge Graph, Spoken Language Understanding  
-[Paper Link](http://arxiv.org/abs/2402.03900v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03900v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03900v1" filename="2402.03900v1">Download PDF</button>
 
 ---
 
@@ -537,13 +801,25 @@ Recently, Profile-based Spoken Language Understanding (SLU) has gained increasin
 {{<citation>}}
 
 Jongwoo Ko, Sungnyun Kim, Tianyi Chen, Se-Young Yun. (2024)  
-**DistiLLM: Towards Streamlined Distillation for Large Language Models**  
+**DistiLLM: Towards Streamlined Distillation for Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="DistiLLM: Towards Streamlined Distillation for Large Language Models" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03898v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03898v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03898v1" filename="2402.03898v1">Download PDF</button>
 
 ---
 
@@ -559,13 +835,25 @@ Knowledge distillation (KD) is widely used for compressing a teacher model to a 
 {{<citation>}}
 
 Spyridon Mouselinos, Henryk Michalewski, Mateusz Malinowski. (2024)  
-**Beyond Lines and Circles: Unveiling the Geometric Reasoning Gap in Large Language Models**  
+**Beyond Lines and Circles: Unveiling the Geometric Reasoning Gap in Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Beyond Lines and Circles: Unveiling the Geometric Reasoning Gap in Large Language Models" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model, Reasoning  
-[Paper Link](http://arxiv.org/abs/2402.03877v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03877v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03877v1" filename="2402.03877v1">Download PDF</button>
 
 ---
 
@@ -581,13 +869,25 @@ Large Language Models (LLMs) demonstrate ever-increasing abilities in mathematic
 {{<citation>}}
 
 David Peer, Philemon Schöpf, Volckmar Nebendahl, Alexander Rietzler, Sebastian Stabinger. (2024)  
-**ANLS* -- A Universal Document Processing Metric for Generative Large Language Models**  
+**ANLS* -- A Universal Document Processing Metric for Generative Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="ANLS* -- A Universal Document Processing Metric for Generative Large Language Models" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03848v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03848v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03848v1" filename="2402.03848v1">Download PDF</button>
 
 ---
 
@@ -603,13 +903,25 @@ Traditionally, discriminative models have been the predominant choice for tasks 
 {{<citation>}}
 
 Khanh Cao Nguyen, Mike Zhang, Syrielle Montariol, Antoine Bosselut. (2024)  
-**Rethinking Skill Extraction in the Job Market Domain using Large Language Models**  
+**Rethinking Skill Extraction in the Job Market Domain using Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Rethinking Skill Extraction in the Job Market Domain using Large Language Models" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03832v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03832v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03832v1" filename="2402.03832v1">Download PDF</button>
 
 ---
 
@@ -625,13 +937,25 @@ Skill Extraction involves identifying skills and qualifications mentioned in doc
 {{<citation>}}
 
 Géraud Faye, Benjamin Icard, Morgane Casanova, Julien Chanson, François Maine, François Bancilhon, Guillaume Gadek, Guillaume Gravier, Paul Égré. (2024)  
-**Exposing propaganda: an analysis of stylistic cues comparing human annotations and machine classification**  
+**Exposing propaganda: an analysis of stylistic cues comparing human annotations and machine classification**
+<br/>
+<button class="copy-to-clipboard" title="Exposing propaganda: an analysis of stylistic cues comparing human annotations and machine classification" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: BERT, NLP  
-[Paper Link](http://arxiv.org/abs/2402.03780v2)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03780v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03780v2" filename="2402.03780v2">Download PDF</button>
 
 ---
 
@@ -647,13 +971,25 @@ This paper investigates the language of propaganda and its stylistic features. I
 {{<citation>}}
 
 Shahriar Golchin, Nikhil Garuda, Christopher Impey, Matthew Wenger. (2024)  
-**Large Language Models As MOOCs Graders**  
+**Large Language Models As MOOCs Graders**
+<br/>
+<button class="copy-to-clipboard" title="Large Language Models As MOOCs Graders" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: GPT, GPT-3.5, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03776v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03776v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03776v1" filename="2402.03776v1">Download PDF</button>
 
 ---
 
@@ -669,13 +1005,25 @@ Massive open online courses (MOOCs) unlock the doors to free education for anyon
 {{<citation>}}
 
 Chao Chen, Kai Liu, Ze Chen, Yi Gu, Yue Wu, Mingyuan Tao, Zhihang Fu, Jieping Ye. (2024)  
-**INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection**  
+**INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection**
+<br/>
+<button class="copy-to-clipboard" title="INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: QA  
-[Paper Link](http://arxiv.org/abs/2402.03744v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03744v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03744v1" filename="2402.03744v1">Download PDF</button>
 
 ---
 
@@ -691,13 +1039,25 @@ Knowledge hallucination have raised widespread concerns for the security and rel
 {{<citation>}}
 
 Jing-Cheng Pang, Heng-Bo Fan, Pengyuan Wang, Jia-Hao Xiao, Nan Tang, Si-Hang Yang, Chengxing Jia, Sheng-Jun Huang, Yang Yu. (2024)  
-**Empowering Language Models with Active Inquiry for Deeper Understanding**  
+**Empowering Language Models with Active Inquiry for Deeper Understanding**
+<br/>
+<button class="copy-to-clipboard" title="Empowering Language Models with Active Inquiry for Deeper Understanding" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: AI, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03719v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03719v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03719v1" filename="2402.03719v1">Download PDF</button>
 
 ---
 
@@ -713,13 +1073,25 @@ The rise of large language models (LLMs) has revolutionized the way that we inte
 {{<citation>}}
 
 Xinyu Li, Zachary C. Lipton, Liu Leqi. (2024)  
-**Personalized Language Modeling from Personalized Human Feedback**  
+**Personalized Language Modeling from Personalized Human Feedback**
+<br/>
+<button class="copy-to-clipboard" title="Personalized Language Modeling from Personalized Human Feedback" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keywords: GPT, Language Model, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.05133v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05133v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05133v1" filename="2402.05133v1">Download PDF</button>
 
 ---
 
@@ -735,13 +1107,25 @@ Reinforcement Learning from Human Feedback (RLHF) is the current dominating fram
 {{<citation>}}
 
 Soumya Sanyal, Tianyi Xiao, Jiacheng Liu, Wenya Wang, Xiang Ren. (2024)  
-**Minds versus Machines: Rethinking Entailment Verification with Language Models**  
+**Minds versus Machines: Rethinking Entailment Verification with Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Minds versus Machines: Rethinking Entailment Verification with Language Models" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: GPT, GPT-3.5, GPT-4, Language Model, NLI, QA, T5  
-[Paper Link](http://arxiv.org/abs/2402.03686v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03686v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03686v1" filename="2402.03686v1">Download PDF</button>
 
 ---
 
@@ -757,13 +1141,25 @@ Humans make numerous inferences in text comprehension to understand discourse. T
 {{<citation>}}
 
 Yanfang Zhang, Yiliu Sun, Yibing Zhan, Dapeng Tao, Dacheng Tao, Chen Gong. (2024)  
-**Large Language Models as an Indirect Reasoner: Contrapositive and Contradiction for Automated Reasoning**  
+**Large Language Models as an Indirect Reasoner: Contrapositive and Contradiction for Automated Reasoning**
+<br/>
+<button class="copy-to-clipboard" title="Large Language Models as an Indirect Reasoner: Contrapositive and Contradiction for Automated Reasoning" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keywords: GPT, GPT-3.5, Language Model, Reasoning  
-[Paper Link](http://arxiv.org/abs/2402.03667v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03667v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03667v1" filename="2402.03667v1">Download PDF</button>
 
 ---
 
@@ -779,13 +1175,25 @@ Recently, increasing attention has been focused drawn on to improve the ability 
 {{<citation>}}
 
 Kun Ouyang, Liqiang Jing, Xuemeng Song, Meng Liu, Yupeng Hu, Liqiang Nie. (2024)  
-**Sentiment-enhanced Graph-based Sarcasm Explanation in Dialogue**  
+**Sentiment-enhanced Graph-based Sarcasm Explanation in Dialogue**
+<br/>
+<button class="copy-to-clipboard" title="Sentiment-enhanced Graph-based Sarcasm Explanation in Dialogue" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs-MM, cs.CL  
 Keywords: Attention, Dialog, Dialogue  
-[Paper Link](http://arxiv.org/abs/2402.03658v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03658v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03658v1" filename="2402.03658v1">Download PDF</button>
 
 ---
 
@@ -801,13 +1209,25 @@ Sarcasm Explanation in Dialogue (SED) is a new yet challenging task, which aims 
 {{<citation>}}
 
 Anton Lavrouk, Ian Ligon, Tarek Naous, Jonathan Zheng, Alan Ritter, Wei Xu. (2024)  
-**Stanceosaurus 2.0: Classifying Stance Towards Russian and Spanish Misinformation**  
+**Stanceosaurus 2.0: Classifying Stance Towards Russian and Spanish Misinformation**
+<br/>
+<button class="copy-to-clipboard" title="Stanceosaurus 2.0: Classifying Stance Towards Russian and Spanish Misinformation" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs-CY, cs-LG, cs-SI, cs.CL  
 Keywords: BERT, Twitter  
-[Paper Link](http://arxiv.org/abs/2402.03642v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03642v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03642v1" filename="2402.03642v1">Download PDF</button>
 
 ---
 
@@ -823,13 +1243,25 @@ The Stanceosaurus corpus (Zheng et al., 2022) was designed to provide high-quali
 {{<citation>}}
 
 Zhixuan Chu, Yan Wang, Feng Zhu, Lu Yu, Longfei Li, Jinjie Gu. (2024)  
-**Professional Agents -- Evolving Large Language Models into Autonomous Experts with Human-Level Competencies**  
+**Professional Agents -- Evolving Large Language Models into Autonomous Experts with Human-Level Competencies**
+<br/>
+<button class="copy-to-clipboard" title="Professional Agents -- Evolving Large Language Models into Autonomous Experts with Human-Level Competencies" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keywords: AI, ChatGPT, GPT, GPT-4, Language Model, PaLM  
-[Paper Link](http://arxiv.org/abs/2402.03628v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03628v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03628v1" filename="2402.03628v1">Download PDF</button>
 
 ---
 
@@ -845,13 +1277,25 @@ The advent of large language models (LLMs) such as ChatGPT, PaLM, and GPT-4 has 
 {{<citation>}}
 
 Hao Wang, Xin Zhang, Jinzhe Jiang, Yaqian Zhao, Chen Li. (2024)  
-**Partially Recentralization Softmax Loss for Vision-Language Models Robustness**  
+**Partially Recentralization Softmax Loss for Vision-Language Models Robustness**
+<br/>
+<button class="copy-to-clipboard" title="Partially Recentralization Softmax Loss for Vision-Language Models Robustness" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: I-2-7, cs-AI, cs-CL, cs.CL  
 Keywords: Language Model, NLP  
-[Paper Link](http://arxiv.org/abs/2402.03627v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03627v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03627v1" filename="2402.03627v1">Download PDF</button>
 
 ---
 
@@ -867,13 +1311,25 @@ As Large Language Models make a breakthrough in natural language processing task
 {{<citation>}}
 
 Yujin Kim, Chin-Chia Hsu. (2024)  
-**Leveraging Large Language Models for Hybrid Workplace Decision Support**  
+**Leveraging Large Language Models for Hybrid Workplace Decision Support**
+<br/>
+<button class="copy-to-clipboard" title="Leveraging Large Language Models for Hybrid Workplace Decision Support" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-HC, cs-IR, cs.CL  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03616v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03616v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03616v1" filename="2402.03616v1">Download PDF</button>
 
 ---
 
@@ -889,13 +1345,25 @@ Large Language Models (LLMs) hold the potential to perform a variety of text pro
 {{<citation>}}
 
 Brenda Y. Miao, Christopher YK Williams, Ebenezer Chinedu-Eneh, Travis Zack, Emily Alsentzer, Atul J. Butte, Irene Y. Chen. (2024)  
-**Identifying Reasons for Contraceptive Switching from Real-World Data Using Large Language Models**  
+**Identifying Reasons for Contraceptive Switching from Real-World Data Using Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Identifying Reasons for Contraceptive Switching from Real-World Data Using Large Language Models" index=0>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-0 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CL  
 Categories: cs-CL, cs-IR, cs-LG, cs.CL  
 Keywords: Azure, BERT, GPT, GPT-4, Language Model, Microsoft  
-[Paper Link](http://arxiv.org/abs/2402.03597v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03597v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03597v1" filename="2402.03597v1">Download PDF</button>
 
 ---
 
@@ -915,13 +1383,25 @@ Prescription contraceptives play a critical role in supporting women's reproduct
 {{<citation>}}
 
 Zhicheng Lin. (2024)  
-**AI language models as role-playing tools, not human participants**  
+**AI language models as role-playing tools, not human participants**
+<br/>
+<button class="copy-to-clipboard" title="AI language models as role-playing tools, not human participants" index=1>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-1 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CY  
 Categories: cs-CY, cs.CY  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04470v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04470v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04470v1" filename="2402.04470v1">Download PDF</button>
 
 ---
 
@@ -937,13 +1417,25 @@ Advances in AI invite misuse of language models as replacements for human partic
 {{<citation>}}
 
 Alakananda Mitra, Saraju P. Mohanty, Elias Kougianos. (2024)  
-**The World of Generative AI: Deepfakes and Large Language Models**  
+**The World of Generative AI: Deepfakes and Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="The World of Generative AI: Deepfakes and Large Language Models" index=1>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-1 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CY  
 Categories: cs-CL, cs-CY, cs.CY  
 Keywords: AI, Generative AI, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04373v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04373v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04373v1" filename="2402.04373v1">Download PDF</button>
 
 ---
 
@@ -959,13 +1451,25 @@ We live in the era of Generative Artificial Intelligence (GenAI). Deepfakes and 
 {{<citation>}}
 
 Xuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths. (2024)  
-**Measuring Implicit Bias in Explicitly Unbiased Large Language Models**  
+**Measuring Implicit Bias in Explicitly Unbiased Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Measuring Implicit Bias in Explicitly Unbiased Large Language Models" index=1>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-1 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CY  
 Categories: cs-CL, cs-CY, cs.CY  
 Keywords: Bias, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04105v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04105v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04105v1" filename="2402.04105v1">Download PDF</button>
 
 ---
 
@@ -985,13 +1489,25 @@ Large language models (LLMs) can pass explicit bias tests but still harbor impli
 {{<citation>}}
 
 Soham Sinha, Shekhar Dwivedi, Mahdi Azizian. (2024)  
-**Towards Deterministic End-to-end Latency for Medical AI Systems in NVIDIA Holoscan**  
+**Towards Deterministic End-to-end Latency for Medical AI Systems in NVIDIA Holoscan**
+<br/>
+<button class="copy-to-clipboard" title="Towards Deterministic End-to-end Latency for Medical AI Systems in NVIDIA Holoscan" index=2>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-2 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.SE  
 Categories: C-3; J-7; D-2-11; D-2-10; D-4-8, cs-AI, cs-LG, cs-OS, cs-SE, cs.SE  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04466v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04466v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04466v1" filename="2402.04466v1">Download PDF</button>
 
 ---
 
@@ -1007,13 +1523,25 @@ The introduction of AI and ML technologies into medical devices has revolutioniz
 {{<citation>}}
 
 Zixiao Zhao, Millon Madhur Das, Fatemeh H. Fard. (2024)  
-**Studying Vulnerable Code Entities in R**  
+**Studying Vulnerable Code Entities in R**
+<br/>
+<button class="copy-to-clipboard" title="Studying Vulnerable Code Entities in R" index=2>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-2 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.SE  
 Categories: cs-AI, cs-SE, cs.SE  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04421v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04421v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04421v1" filename="2402.04421v1">Download PDF</button>
 
 ---
 
@@ -1029,13 +1557,25 @@ Pre-trained Code Language Models (Code-PLMs) have shown many advancements and ac
 {{<citation>}}
 
 Nadia Alshahwan, Mark Harman, Inna Harper, Alexandru Marginean, Shubho Sengupta, Eddy Wang. (2024)  
-**Assured LLM-Based Software Engineering**  
+**Assured LLM-Based Software Engineering**
+<br/>
+<button class="copy-to-clipboard" title="Assured LLM-Based Software Engineering" index=2>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-2 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.SE  
 Categories: cs-SE, cs.SE  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04380v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04380v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04380v1" filename="2402.04380v1">Download PDF</button>
 
 ---
 
@@ -1051,13 +1591,25 @@ In this paper we address the following question: How can we use Large Language M
 {{<citation>}}
 
 Omer Dunay, Daniel Cheng, Adam Tait, Parth Thakkar, Peter C Rigby, Andy Chiu, Imad Ahmad, Arun Ganesan, Chandra Maddila, Vijayaraghavan Murali, Ali Tayyebi, Nachiappan Nagappan. (2024)  
-**Multi-line AI-assisted Code Authoring**  
+**Multi-line AI-assisted Code Authoring**
+<br/>
+<button class="copy-to-clipboard" title="Multi-line AI-assisted Code Authoring" index=2>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-2 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.SE  
 Categories: cs-AI, cs-SE, cs.SE  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04141v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04141v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04141v1" filename="2402.04141v1">Download PDF</button>
 
 ---
 
@@ -1073,13 +1625,25 @@ CodeCompose is an AI-assisted code authoring tool powered by large language mode
 {{<citation>}}
 
 Thanh Trong Vu, Tuan-Dung Bui, Thanh-Dat Do, Thu-Trang Nguyen, Hieu Dinh Vo, Son Nguyen. (2024)  
-**Automated Description Generation for Software Patches**  
+**Automated Description Generation for Software Patches**
+<br/>
+<button class="copy-to-clipboard" title="Automated Description Generation for Software Patches" index=2>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-2 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.SE  
 Categories: cs-SE, cs.SE  
 Keywords: AI, BLEU, NER, Semantic Similarity  
-[Paper Link](http://arxiv.org/abs/2402.03805v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03805v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03805v1" filename="2402.03805v1">Download PDF</button>
 
 ---
 
@@ -1095,13 +1659,25 @@ Software patches are pivotal in refining and evolving codebases, addressing bugs
 {{<citation>}}
 
 Huy Nguyen, Christoph Treude, Patanamon Thongtanunam. (2024)  
-**Encoding Version History Context for Better Code Representation**  
+**Encoding Version History Context for Better Code Representation**
+<br/>
+<button class="copy-to-clipboard" title="Encoding Version History Context for Better Code Representation" index=2>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-2 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.SE  
 Categories: cs-SE, cs.SE  
 Keywords: AI, BERT  
-[Paper Link](http://arxiv.org/abs/2402.03773v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03773v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03773v1" filename="2402.03773v1">Download PDF</button>
 
 ---
 
@@ -1117,13 +1693,25 @@ With the exponential growth of AI tools that generate source code, understanding
 {{<citation>}}
 
 Joy Krishan Das, Saikat Mondal, Chanchal K. Roy. (2024)  
-**Investigating the Utility of ChatGPT in the Issue Tracking System: An Exploratory Study**  
+**Investigating the Utility of ChatGPT in the Issue Tracking System: An Exploratory Study**
+<br/>
+<button class="copy-to-clipboard" title="Investigating the Utility of ChatGPT in the Issue Tracking System: An Exploratory Study" index=2>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-2 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.SE  
 Categories: cs-SE, cs.SE  
 Keywords: AI, ChatGPT, GPT  
-[Paper Link](http://arxiv.org/abs/2402.03735v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03735v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03735v1" filename="2402.03735v1">Download PDF</button>
 
 ---
 
@@ -1139,13 +1727,25 @@ Issue tracking systems serve as the primary tool for incorporating external user
 {{<citation>}}
 
 Yichen Li, Yun Peng, Yintong Huo, Michael R. Lyu. (2024)  
-**Enhancing LLM-Based Coding Tools through Native Integration of IDE-Derived Static Context**  
+**Enhancing LLM-Based Coding Tools through Native Integration of IDE-Derived Static Context**
+<br/>
+<button class="copy-to-clipboard" title="Enhancing LLM-Based Coding Tools through Native Integration of IDE-Derived Static Context" index=2>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-2 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.SE  
 Categories: cs-AI, cs-SE, cs.SE  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03630v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03630v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03630v1" filename="2402.03630v1">Download PDF</button>
 
 ---
 
@@ -1165,13 +1765,25 @@ Large Language Models (LLMs) have achieved remarkable success in code completion
 {{<citation>}}
 
 Gavin Leech, Simson Garfinkel, Misha Yagudin, Alexander Briand, Aleksandr Zhuravlev. (2024)  
-**Ten Hard Problems in Artificial Intelligence We Must Get Right**  
+**Ten Hard Problems in Artificial Intelligence We Must Get Right**
+<br/>
+<button class="copy-to-clipboard" title="Ten Hard Problems in Artificial Intelligence We Must Get Right" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CY, cs.AI  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04464v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04464v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04464v1" filename="2402.04464v1">Download PDF</button>
 
 ---
 
@@ -1187,13 +1799,25 @@ We explore the AI2050 "hard problems" that block the promise of AI and cause AI 
 {{<citation>}}
 
 Zhenwen Liang, Kehan Guo, Gang Liu, Taicheng Guo, Yujun Zhou, Tianyu Yang, Jiajun Jiao, Renjie Pi, Jipeng Zhang, Xiangliang Zhang. (2024)  
-**SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark**  
+**SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark**
+<br/>
+<button class="copy-to-clipboard" title="SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI  
 Keywords: AI, Language Model, QA, Question Answering  
-[Paper Link](http://arxiv.org/abs/2402.05138v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05138v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05138v1" filename="2402.05138v1">Download PDF</button>
 
 ---
 
@@ -1209,13 +1833,25 @@ The paper introduces SceMQA, a novel benchmark for scientific multimodal questio
 {{<citation>}}
 
 Ciaran Regan, Nanami Iwahashi, Shogo Tanaka, Mizuki Oka. (2024)  
-**Can Generative Agents Predict Emotion?**  
+**Can Generative Agents Predict Emotion?**
+<br/>
+<button class="copy-to-clipboard" title="Can Generative Agents Predict Emotion?" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04232v2)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04232v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04232v2" filename="2402.04232v2">Download PDF</button>
 
 ---
 
@@ -1231,13 +1867,25 @@ Large Language Models (LLMs) have demonstrated a number of human-like abilities,
 {{<citation>}}
 
 Lin Guan, Yifan Zhou, Denis Liu, Yantian Zha, Heni Ben Amor, Subbarao Kambhampati. (2024)  
-**'Task Success' is not Enough: Investigating the Use of Video-Language Models as Behavior Critics for Catching Undesirable Agent Behaviors**  
+**'Task Success' is not Enough: Investigating the Use of Video-Language Models as Behavior Critics for Catching Undesirable Agent Behaviors**
+<br/>
+<button class="copy-to-clipboard" title="'Task Success' is not Enough: Investigating the Use of Video-Language Models as Behavior Critics for Catching Undesirable Agent Behaviors" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-RO, cs.AI  
 Keywords: AI, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04210v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04210v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04210v1" filename="2402.04210v1">Download PDF</button>
 
 ---
 
@@ -1253,13 +1901,25 @@ Large-scale generative models are shown to be useful for sampling meaningful can
 {{<citation>}}
 
 Declan Campbell, Sreejan Kumar, Tyler Giallanza, Thomas L. Griffiths, Jonathan D. Cohen. (2024)  
-**Human-Like Geometric Abstraction in Large Pre-trained Neural Networks**  
+**Human-Like Geometric Abstraction in Large Pre-trained Neural Networks**
+<br/>
+<button class="copy-to-clipboard" title="Human-Like Geometric Abstraction in Large Pre-trained Neural Networks" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI, q-bio-NC  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04203v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04203v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04203v1" filename="2402.04203v1">Download PDF</button>
 
 ---
 
@@ -1275,13 +1935,25 @@ Humans possess a remarkable capacity to recognize and manipulate abstract struct
 {{<citation>}}
 
 Yonggang Jin, Ge Zhang, Hao Zhao, Tianyu Zheng, Jiawei Guo, Liuyu Xiang, Shawn Yue, Stephen W. Huang, Wenhu Chen, Zhaofeng He, Jie Fu. (2024)  
-**Read to Play (R2-Play): Decision Transformer with Multimodal Game Instruction**  
+**Read to Play (R2-Play): Decision Transformer with Multimodal Game Instruction**
+<br/>
+<button class="copy-to-clipboard" title="Read to Play (R2-Play): Decision Transformer with Multimodal Game Instruction" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-LG, cs.AI  
 Keywords: Reinforcement Learning, Transformer  
-[Paper Link](http://arxiv.org/abs/2402.04154v2)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04154v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04154v2" filename="2402.04154v2">Download PDF</button>
 
 ---
 
@@ -1297,13 +1969,25 @@ Developing a generalist agent is a longstanding objective in artificial intellig
 {{<citation>}}
 
 Michael De'Shazer. (2024)  
-**Advancing Legal Reasoning: The Integration of AI to Navigate Complexities and Biases in Global Jurisprudence with Semi-Automated Arbitration Processes (SAAPs)**  
+**Advancing Legal Reasoning: The Integration of AI to Navigate Complexities and Biases in Global Jurisprudence with Semi-Automated Arbitration Processes (SAAPs)**
+<br/>
+<button class="copy-to-clipboard" title="Advancing Legal Reasoning: The Integration of AI to Navigate Complexities and Biases in Global Jurisprudence with Semi-Automated Arbitration Processes (SAAPs)" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CY, cs-HC, cs.AI  
 Keywords: AI, Bias, GPT, Language Model, Legal, Reasoning  
-[Paper Link](http://arxiv.org/abs/2402.04140v2)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04140v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04140v2" filename="2402.04140v2">Download PDF</button>
 
 ---
 
@@ -1319,13 +2003,25 @@ This study consists of a novel approach toward the analysis of court judgments s
 {{<citation>}}
 
 Patrick Altmeyer, Andrew M. Demetriou, Antony Bartlett, Cynthia C. S. Liem. (2024)  
-**Position Paper: Against Spurious Sparks $-$ Dovelating Inflated AI Claims**  
+**Position Paper: Against Spurious Sparks $-$ Dovelating Inflated AI Claims**
+<br/>
+<button class="copy-to-clipboard" title="Position Paper: Against Spurious Sparks $-$ Dovelating Inflated AI Claims" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI  
 Keywords: AI, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03962v2)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03962v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03962v2" filename="2402.03962v2">Download PDF</button>
 
 ---
 
@@ -1341,13 +2037,25 @@ Humans have a tendency to see 'human'-like qualities in objects around them. We 
 {{<citation>}}
 
 Zijie Zhong, Yunhui Zhang, Ziyi Chang, Zengchang Qin. (2024)  
-**CADReN: Contextual Anchor-Driven Relational Network for Controllable Cross-Graphs Node Importance Estimation**  
+**CADReN: Contextual Anchor-Driven Relational Network for Controllable Cross-Graphs Node Importance Estimation**
+<br/>
+<button class="copy-to-clipboard" title="CADReN: Contextual Anchor-Driven Relational Network for Controllable Cross-Graphs Node Importance Estimation" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: 68T07, cs-AI, cs-CL, cs-IR, cs.AI  
 Keywords: Knowledge Graph, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.05135v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05135v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05135v1" filename="2402.05135v1">Download PDF</button>
 
 ---
 
@@ -1363,13 +2071,25 @@ Node Importance Estimation (NIE) is crucial for integrating external information
 {{<citation>}}
 
 Louis Mozart Kamdem, Caglar Demir, Axel-Cyrille Ngonga. (2024)  
-**Embedding Knowledge Graphs in Degenerate Clifford Algebras**  
+**Embedding Knowledge Graphs in Degenerate Clifford Algebras**
+<br/>
+<button class="copy-to-clipboard" title="Embedding Knowledge Graphs in Degenerate Clifford Algebras" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-LG, cs.AI  
 Keywords: Embedding, Knowledge Graph  
-[Paper Link](http://arxiv.org/abs/2402.04870v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04870v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04870v1" filename="2402.04870v1">Download PDF</button>
 
 ---
 
@@ -1385,13 +2105,25 @@ Clifford algebras are a natural generalization of the real numbers, the complex 
 {{<citation>}}
 
 Giuseppe Paolo, Jonas Gonzalez-Billandon, Balázs Kégl. (2024)  
-**A call for embodied AI**  
+**A call for embodied AI**
+<br/>
+<button class="copy-to-clipboard" title="A call for embodied AI" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
 Keywords: AI, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03824v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03824v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03824v1" filename="2402.03824v1">Download PDF</button>
 
 ---
 
@@ -1407,13 +2139,25 @@ We propose Embodied AI as the next fundamental step in the pursuit of Artificial
 {{<citation>}}
 
 Si Shen, Peijun Shen, Danhao Zhu. (2024)  
-**RevOrder: A Novel Method for Enhanced Arithmetic in Language Models**  
+**RevOrder: A Novel Method for Enhanced Arithmetic in Language Models**
+<br/>
+<button class="copy-to-clipboard" title="RevOrder: A Novel Method for Enhanced Arithmetic in Language Models" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs-LG, cs.AI  
 Keywords: LLaMA, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03822v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03822v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03822v1" filename="2402.03822v1">Download PDF</button>
 
 ---
 
@@ -1429,13 +2173,25 @@ This paper presents RevOrder, a novel technique aimed at improving arithmetic op
 {{<citation>}}
 
 Saizhuo Wang, Hang Yuan, Lionel M. Ni, Jian Guo. (2024)  
-**QuantAgent: Seeking Holy Grail in Trading by Self-Improving Large Language Model**  
+**QuantAgent: Seeking Holy Grail in Trading by Self-Improving Large Language Model**
+<br/>
+<button class="copy-to-clipboard" title="QuantAgent: Seeking Holy Grail in Trading by Self-Improving Large Language Model" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI, q-fin-CP  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03755v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03755v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03755v1" filename="2402.03755v1">Download PDF</button>
 
 ---
 
@@ -1451,13 +2207,25 @@ Autonomous agents based on Large Language Models (LLMs) that devise plans and ta
 {{<citation>}}
 
 Huiling Tu, Shuo Yu, Vidya Saikrishna, Feng Xia, Karin Verspoor. (2024)  
-**Deep Outdated Fact Detection in Knowledge Graphs**  
+**Deep Outdated Fact Detection in Knowledge Graphs**
+<br/>
+<button class="copy-to-clipboard" title="Deep Outdated Fact Detection in Knowledge Graphs" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: 68T09, 68T30, 68P20, I-2-6; I-2-4; H-3-7; H-3-3, cs-AI, cs-CL, cs-DL, cs-LG, cs.AI  
 Keywords: Knowledge Graph  
-[Paper Link](http://arxiv.org/abs/2402.03732v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03732v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03732v1" filename="2402.03732v1">Download PDF</button>
 
 ---
 
@@ -1473,13 +2241,25 @@ Knowledge graphs (KGs) have garnered significant attention for their vast potent
 {{<citation>}}
 
 Yash Shukla, Tanushree Burman, Abhishek Kulkarni, Robert Wright, Alvaro Velasquez, Jivko Sinapov. (2024)  
-**Logical Specifications-guided Dynamic Task Sampling for Reinforcement Learning Agents**  
+**Logical Specifications-guided Dynamic Task Sampling for Reinforcement Learning Agents**
+<br/>
+<button class="copy-to-clipboard" title="Logical Specifications-guided Dynamic Task Sampling for Reinforcement Learning Agents" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-LG, cs-RO, cs.AI  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.03678v2)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03678v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03678v2" filename="2402.03678v2">Download PDF</button>
 
 ---
 
@@ -1495,13 +2275,25 @@ Reinforcement Learning (RL) has made significant strides in enabling artificial 
 {{<citation>}}
 
 Pei Zhou, Jay Pujara, Xiang Ren, Xinyun Chen, Heng-Tze Cheng, Quoc V. Le, Ed H. Chi, Denny Zhou, Swaroop Mishra, Huaixiu Steven Zheng. (2024)  
-**Self-Discover: Large Language Models Self-Compose Reasoning Structures**  
+**Self-Discover: Large Language Models Self-Compose Reasoning Structures**
+<br/>
+<button class="copy-to-clipboard" title="Self-Discover: Large Language Models Self-Compose Reasoning Structures" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI  
 Keywords: GPT, GPT-4, Language Model, PaLM, Reasoning  
-[Paper Link](http://arxiv.org/abs/2402.03620v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03620v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03620v1" filename="2402.03620v1">Download PDF</button>
 
 ---
 
@@ -1517,13 +2309,25 @@ We introduce SELF-DISCOVER, a general framework for LLMs to self-discover the ta
 {{<citation>}}
 
 Sreejan Kumar, Raja Marjieh, Byron Zhang, Declan Campbell, Michael Y. Hu, Umang Bhatt, Brenden Lake, Thomas L. Griffiths. (2024)  
-**Comparing Abstraction in Humans and Large Language Models Using Multimodal Serial Reproduction**  
+**Comparing Abstraction in Humans and Large Language Models Using Multimodal Serial Reproduction**
+<br/>
+<button class="copy-to-clipboard" title="Comparing Abstraction in Humans and Large Language Models Using Multimodal Serial Reproduction" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI, q-bio-NC  
 Keywords: GPT, GPT-4, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03618v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03618v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03618v1" filename="2402.03618v1">Download PDF</button>
 
 ---
 
@@ -1539,13 +2343,25 @@ Humans extract useful abstractions of the world from noisy sensory data. Serial 
 {{<citation>}}
 
 Trilok Padhi, Ugur Kursuncu, Yaman Kumar, Valerie L. Shalin, Lane Peterson Fronczek. (2024)  
-**Improving Contextual Congruence Across Modalities for Effective Multimodal Marketing using Knowledge-infused Learning**  
+**Improving Contextual Congruence Across Modalities for Effective Multimodal Marketing using Knowledge-infused Learning**
+<br/>
+<button class="copy-to-clipboard" title="Improving Contextual Congruence Across Modalities for Effective Multimodal Marketing using Knowledge-infused Learning" index=3>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AI  
 Categories: I-2-7; I-2-10; I-2-4; I-2-1, cs-AI, cs-CL, cs-CV, cs-CY, cs-HC, cs.AI  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03607v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03607v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03607v1" filename="2402.03607v1">Download PDF</button>
 
 ---
 
@@ -1565,13 +2381,25 @@ The prevalence of smart devices with the ability to capture moments in multiple 
 {{<citation>}}
 
 Siguo Bi, Xin Yuan, Shuyan Hu, Kai Li, Wei Ni, Ekram Hossain, Xin Wang. (2024)  
-**Failure Analysis in Next-Generation Critical Cellular Communication Infrastructures**  
+**Failure Analysis in Next-Generation Critical Cellular Communication Infrastructures**
+<br/>
+<button class="copy-to-clipboard" title="Failure Analysis in Next-Generation Critical Cellular Communication Infrastructures" index=4>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-4 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: eess.SY  
 Categories: cs-SY, eess-SY, eess.SY  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04448v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04448v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04448v1" filename="2402.04448v1">Download PDF</button>
 
 ---
 
@@ -1591,13 +2419,25 @@ The advent of communication technologies marks a transformative phase in critica
 {{<citation>}}
 
 Enyan Dai, Minhua Lin, Suhang Wang. (2024)  
-**PreGIP: Watermarking the Pretraining of Graph Neural Networks for Deep Intellectual Property Protection**  
+**PreGIP: Watermarking the Pretraining of Graph Neural Networks for Deep Intellectual Property Protection**
+<br/>
+<button class="copy-to-clipboard" title="PreGIP: Watermarking the Pretraining of Graph Neural Networks for Deep Intellectual Property Protection" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: GNN, Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2402.04435v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04435v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04435v1" filename="2402.04435v1">Download PDF</button>
 
 ---
 
@@ -1613,13 +2453,25 @@ Pretraining on Graph Neural Networks (GNNs) has shown great power in facilitatin
 {{<citation>}}
 
 Chao Pang, Xinzhuo Jiang, Nishanth Parameshwar Pavinkurve, Krishna S. Kalluri, Elise L. Minto, Jason Patterson, Linying Zhang, George Hripcsak, Noémie Elhadad, Karthik Natarajan. (2024)  
-**CEHR-GPT: Generating Electronic Health Records with Chronological Patient Timelines**  
+**CEHR-GPT: Generating Electronic Health Records with Chronological Patient Timelines**
+<br/>
+<button class="copy-to-clipboard" title="CEHR-GPT: Generating Electronic Health Records with Chronological Patient Timelines" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CY, cs-LG, cs.LG  
 Keywords: BERT, GPT, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2402.04400v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04400v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04400v1" filename="2402.04400v1">Download PDF</button>
 
 ---
 
@@ -1635,13 +2487,25 @@ Synthetic Electronic Health Records (EHR) have emerged as a pivotal tool in adva
 {{<citation>}}
 
 Sujay Nagaraj, Walter Gerych, Sana Tonekaboni, Anna Goldenberg, Berk Ustun, Thomas Hartvigsen. (2024)  
-**Learning from Time Series under Temporal Label Noise**  
+**Learning from Time Series under Temporal Label Noise**
+<br/>
+<button class="copy-to-clipboard" title="Learning from Time Series under Temporal Label Noise" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG, stat-ML  
 Keywords: Time Series  
-[Paper Link](http://arxiv.org/abs/2402.04398v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04398v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04398v1" filename="2402.04398v1">Download PDF</button>
 
 ---
 
@@ -1657,13 +2521,25 @@ Many sequential classification tasks are affected by label noise that varies ove
 {{<citation>}}
 
 Albert Tseng, Jerry Chee, Qingyao Sun, Volodymyr Kuleshov, Christopher De Sa. (2024)  
-**QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks**  
+**QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks**
+<br/>
+<button class="copy-to-clipboard" title="QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keywords: Quantization  
-[Paper Link](http://arxiv.org/abs/2402.04396v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04396v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04396v1" filename="2402.04396v1">Download PDF</button>
 
 ---
 
@@ -1679,13 +2555,25 @@ Post-training quantization (PTQ) reduces the memory footprint of LLMs by quantiz
 {{<citation>}}
 
 Nate Gruver, Anuroop Sriram, Andrea Madotto, Andrew Gordon Wilson, C. Lawrence Zitnick, Zachary Ulissi. (2024)  
-**Fine-Tuned Language Models Generate Stable Inorganic Materials as Text**  
+**Fine-Tuned Language Models Generate Stable Inorganic Materials as Text**
+<br/>
+<button class="copy-to-clipboard" title="Fine-Tuned Language Models Generate Stable Inorganic Materials as Text" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cond-mat-mtrl-sci, cs-LG, cs.LG  
 Keywords: LLaMA, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04379v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04379v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04379v1" filename="2402.04379v1">Download PDF</button>
 
 ---
 
@@ -1701,13 +2589,25 @@ We propose fine-tuning large language models for generation of stable materials.
 {{<citation>}}
 
 Parsa Moradi, Mohammad Ali Maddah-Ali. (2024)  
-**$\texttt{NeRCC}$: Nested-Regression Coded Computing for Resilient Distributed Prediction Serving Systems**  
+**$\texttt{NeRCC}$: Nested-Regression Coded Computing for Resilient Distributed Prediction Serving Systems**
+<br/>
+<button class="copy-to-clipboard" title="$\texttt{NeRCC}$: Nested-Regression Coded Computing for Resilient Distributed Prediction Serving Systems" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-DC, cs-IT, cs-LG, cs.LG, math-IT  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2402.04377v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04377v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04377v1" filename="2402.04377v1">Download PDF</button>
 
 ---
 
@@ -1723,13 +2623,25 @@ Resilience against stragglers is a critical element of prediction serving system
 {{<citation>}}
 
 Junhong Shen, Neil Tenenholtz, James Brian Hall, David Alvarez-Melis, Nicolo Fusi. (2024)  
-**Tag-LLM: Repurposing General-Purpose LLMs for Specialized Domains**  
+**Tag-LLM: Repurposing General-Purpose LLMs for Specialized Domains**
+<br/>
+<button class="copy-to-clipboard" title="Tag-LLM: Repurposing General-Purpose LLMs for Specialized Domains" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.05140v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05140v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.05140v1" filename="2402.05140v1">Download PDF</button>
 
 ---
 
@@ -1745,13 +2657,25 @@ Large Language Models (LLMs) have demonstrated remarkable proficiency in underst
 {{<citation>}}
 
 Nora Belrose, Quintin Pope, Lucia Quirke, Alex Mallen, Xiaoli Fern. (2024)  
-**Neural Networks Learn Statistics of Increasing Complexity**  
+**Neural Networks Learn Statistics of Increasing Complexity**
+<br/>
+<button class="copy-to-clipboard" title="Neural Networks Learn Statistics of Increasing Complexity" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04362v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04362v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04362v1" filename="2402.04362v1">Download PDF</button>
 
 ---
 
@@ -1767,13 +2691,25 @@ The distributional simplicity bias (DSB) posits that neural networks learn low-o
 {{<citation>}}
 
 Soheil Hor, Ying Qian, Mert Pilanci, Amin Arbabian. (2024)  
-**Adaptive Inference: Theoretical Limits and Unexplored Opportunities**  
+**Adaptive Inference: Theoretical Limits and Unexplored Opportunities**
+<br/>
+<button class="copy-to-clipboard" title="Adaptive Inference: Theoretical Limits and Unexplored Opportunities" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Computer Vision, Natural Language Processing  
-[Paper Link](http://arxiv.org/abs/2402.04359v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04359v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04359v1" filename="2402.04359v1">Download PDF</button>
 
 ---
 
@@ -1789,13 +2725,25 @@ This paper introduces the first theoretical framework for quantifying the effici
 {{<citation>}}
 
 Michael Zhang, Kush Bhatia, Hermann Kumbong, Christopher Ré. (2024)  
-**The Hedgehog & the Porcupine: Expressive Linear Attentions with Softmax Mimicry**  
+**The Hedgehog & the Porcupine: Expressive Linear Attentions with Softmax Mimicry**
+<br/>
+<button class="copy-to-clipboard" title="The Hedgehog & the Porcupine: Expressive Linear Attentions with Softmax Mimicry" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-CL, cs-LG, cs.LG  
 Keywords: Attention, BERT, GLUE, GPT, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2402.04347v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04347v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04347v1" filename="2402.04347v1">Download PDF</button>
 
 ---
 
@@ -1811,13 +2759,25 @@ Linear attentions have shown potential for improving Transformer efficiency, red
 {{<citation>}}
 
 Jongho Park, Jaeseung Park, Zheyang Xiong, Nayoung Lee, Jaewoong Cho, Samet Oymak, Kangwook Lee, Dimitris Papailiopoulos. (2024)  
-**Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks**  
+**Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks**
+<br/>
+<button class="copy-to-clipboard" title="Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2402.04248v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04248v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04248v1" filename="2402.04248v1">Download PDF</button>
 
 ---
 
@@ -1833,13 +2793,25 @@ State-space models (SSMs), such as Mamba Gu & Dao (2034), have been proposed as 
 {{<citation>}}
 
 Adjorn van Engelenhoven, Nicola Strisciuglio, Estefanía Talavera. (2024)  
-**CAST: Clustering Self-Attention using Surrogate Tokens for Efficient Transformers**  
+**CAST: Clustering Self-Attention using Surrogate Tokens for Efficient Transformers**
+<br/>
+<button class="copy-to-clipboard" title="CAST: Clustering Self-Attention using Surrogate Tokens for Efficient Transformers" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Attention, Self-Attention, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2402.04239v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04239v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04239v1" filename="2402.04239v1">Download PDF</button>
 
 ---
 
@@ -1855,13 +2827,25 @@ The Transformer architecture has shown to be a powerful tool for a wide range of
 {{<citation>}}
 
 Geoffrey Cideron, Sertan Girgin, Mauro Verzetti, Damien Vincent, Matej Kastelic, Zalán Borsos, Brian McWilliams, Victor Ungureanu, Olivier Bachem, Olivier Pietquin, Matthieu Geist, Léonard Hussenot, Neil Zeghidour, Andrea Agostinelli. (2024)  
-**MusicRL: Aligning Music Generation to Human Preferences**  
+**MusicRL: Aligning Music Generation to Human Preferences**
+<br/>
+<button class="copy-to-clipboard" title="MusicRL: Aligning Music Generation to Human Preferences" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs-SD, cs.LG, eess-AS  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.04229v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04229v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04229v1" filename="2402.04229v1">Download PDF</button>
 
 ---
 
@@ -1877,13 +2861,25 @@ We propose MusicRL, the first music generation system finetuned from human feedb
 {{<citation>}}
 
 Sven Gronauer, Tom Haider, Felippe Schmoeller da Roza, Klaus Diepold. (2024)  
-**Reinforcement Learning with Ensemble Model Predictive Safety Certification**  
+**Reinforcement Learning with Ensemble Model Predictive Safety Certification**
+<br/>
+<button class="copy-to-clipboard" title="Reinforcement Learning with Ensemble Model Predictive Safety Certification" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs-RO, cs.LG  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.04182v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04182v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04182v1" filename="2402.04182v1">Download PDF</button>
 
 ---
 
@@ -1899,13 +2895,25 @@ Reinforcement learning algorithms need exploration to learn. However, unsupervis
 {{<citation>}}
 
 Daniel Bogdoll, Jing Qin, Moritz Nekolla, Ahmed Abouelazm, Tim Joseph, J. Marius Zöllner. (2024)  
-**Informed Reinforcement Learning for Situation-Aware Traffic Rule Exceptions**  
+**Informed Reinforcement Learning for Situation-Aware Traffic Rule Exceptions**
+<br/>
+<button class="copy-to-clipboard" title="Informed Reinforcement Learning for Situation-Aware Traffic Rule Exceptions" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-CV, cs-LG, cs-RO, cs.LG  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.04168v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04168v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04168v1" filename="2402.04168v1">Download PDF</button>
 
 ---
 
@@ -1921,13 +2929,25 @@ Reinforcement Learning is a highly active research field with promising advancem
 {{<citation>}}
 
 Richard Nock, Ehsan Amid, Frank Nielsen, Alexander Soen, Manfred K. Warmuth. (2024)  
-**Tempered Calculus for ML: Application to Hyperbolic Model Embedding**  
+**Tempered Calculus for ML: Application to Hyperbolic Model Embedding**
+<br/>
+<button class="copy-to-clipboard" title="Tempered Calculus for ML: Application to Hyperbolic Model Embedding" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: I-2-6, cs-LG, cs.LG  
 Keywords: Embedding  
-[Paper Link](http://arxiv.org/abs/2402.04163v2)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04163v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04163v2" filename="2402.04163v2">Download PDF</button>
 
 ---
 
@@ -1943,13 +2963,25 @@ Most mathematical distortions used in ML are fundamentally integral in nature: $
 {{<citation>}}
 
 Ashok Vardhan Makkuva, Marco Bondaschi, Adway Girish, Alliot Nagle, Martin Jaggi, Hyeji Kim, Michael Gastpar. (2024)  
-**Attention with Markov: A Framework for Principled Analysis of Transformers via Markov Chains**  
+**Attention with Markov: A Framework for Principled Analysis of Transformers via Markov Chains**
+<br/>
+<button class="copy-to-clipboard" title="Attention with Markov: A Framework for Principled Analysis of Transformers via Markov Chains" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-CL, cs-IT, cs-LG, cs.LG, math-IT, stat-ML  
 Keywords: Attention, Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2402.04161v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04161v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04161v1" filename="2402.04161v1">Download PDF</button>
 
 ---
 
@@ -1965,13 +2997,25 @@ In recent years, attention-based transformers have achieved tremendous success a
 {{<citation>}}
 
 Wei-Cheng Huang, Chun-Fu Chen, Hsiang Hsu. (2024)  
-**OVOR: OnePrompt with Virtual Outlier Regularization for Rehearsal-Free Class-Incremental Learning**  
+**OVOR: OnePrompt with Virtual Outlier Regularization for Rehearsal-Free Class-Incremental Learning**
+<br/>
+<button class="copy-to-clipboard" title="OVOR: OnePrompt with Virtual Outlier Regularization for Rehearsal-Free Class-Incremental Learning" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-CV, cs-LG, cs.LG  
 Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2402.04129v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04129v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04129v1" filename="2402.04129v1">Download PDF</button>
 
 ---
 
@@ -1987,13 +3031,25 @@ Recent works have shown that by using large pre-trained models along with learna
 {{<citation>}}
 
 Pengfei Liu, Jun Tao, Zhixiang Ren. (2024)  
-**Scientific Language Modeling: A Quantitative Review of Large Language Models in Molecular Science**  
+**Scientific Language Modeling: A Quantitative Review of Large Language Models in Molecular Science**
+<br/>
+<button class="copy-to-clipboard" title="Scientific Language Modeling: A Quantitative Review of Large Language Models in Molecular Science" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-CE, cs-LG, cs.LG  
 Keywords: Language Model, NLP  
-[Paper Link](http://arxiv.org/abs/2402.04119v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04119v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04119v1" filename="2402.04119v1">Download PDF</button>
 
 ---
 
@@ -2009,13 +3065,25 @@ Efficient molecular modeling and design are crucial for the discovery and explor
 {{<citation>}}
 
 Aviv Shamsian, Aviv Navon, David W. Zhang, Yan Zhang, Ethan Fetaya, Gal Chechik, Haggai Maron. (2024)  
-**Improved Generalization of Weight Space Networks via Augmentations**  
+**Improved Generalization of Weight Space Networks via Augmentations**
+<br/>
+<button class="copy-to-clipboard" title="Improved Generalization of Weight Space Networks via Augmentations" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Augmentation  
-[Paper Link](http://arxiv.org/abs/2402.04081v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04081v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04081v1" filename="2402.04081v1">Download PDF</button>
 
 ---
 
@@ -2031,13 +3099,25 @@ Learning in deep weight spaces (DWS), where neural networks process the weights 
 {{<citation>}}
 
 Ruoqi Zhang, Ziwei Luo, Jens Sjölund, Thomas B. Schön, Per Mattsson. (2024)  
-**Entropy-regularized Diffusion Policy with Q-Ensembles for Offline Reinforcement Learning**  
+**Entropy-regularized Diffusion Policy with Q-Ensembles for Offline Reinforcement Learning**
+<br/>
+<button class="copy-to-clipboard" title="Entropy-regularized Diffusion Policy with Q-Ensembles for Offline Reinforcement Learning" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs-SY, cs.LG, eess-SY  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.04080v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04080v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04080v1" filename="2402.04080v1">Download PDF</button>
 
 ---
 
@@ -2053,13 +3133,25 @@ This paper presents advanced techniques of training diffusion policies for offli
 {{<citation>}}
 
 Ravi Patel, Angus Brayne, Rogier Hintzen, Daniel Jaroslawicz, Georgiana Neculae, Dane Corneil. (2024)  
-**Retrieve to Explain: Evidence-driven Predictions with Language Models**  
+**Retrieve to Explain: Evidence-driven Predictions with Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Retrieve to Explain: Evidence-driven Predictions with Language Models" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-CL, cs-LG, cs.LG  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04068v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04068v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04068v1" filename="2402.04068v1">Download PDF</button>
 
 ---
 
@@ -2075,13 +3167,25 @@ Machine learning models, particularly language models, are notoriously difficult
 {{<citation>}}
 
 Jun Wang, Wenjie Du, Wei Cao, Keli Zhang, Wenjia Wang, Yuxuan Liang, Qingsong Wen. (2024)  
-**Deep Learning for Multivariate Time Series Imputation: A Survey**  
+**Deep Learning for Multivariate Time Series Imputation: A Survey**
+<br/>
+<button class="copy-to-clipboard" title="Deep Learning for Multivariate Time Series Imputation: A Survey" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Time Series  
-[Paper Link](http://arxiv.org/abs/2402.04059v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04059v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04059v1" filename="2402.04059v1">Download PDF</button>
 
 ---
 
@@ -2097,13 +3201,25 @@ The ubiquitous missing values cause the multivariate time series data to be part
 {{<citation>}}
 
 Zhengbo Wang, Jian Liang, Ran He, Zilei Wang, Tieniu Tan. (2024)  
-**Connecting the Dots: Collaborative Fine-tuning for Black-Box Vision-Language Models**  
+**Connecting the Dots: Collaborative Fine-tuning for Black-Box Vision-Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Connecting the Dots: Collaborative Fine-tuning for Black-Box Vision-Language Models" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CV, cs-LG, cs.LG  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04050v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04050v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04050v1" filename="2402.04050v1">Download PDF</button>
 
 ---
 
@@ -2119,13 +3235,25 @@ With the emergence of pretrained vision-language models (VLMs), considerable eff
 {{<citation>}}
 
 Yifan Feng, Yihe Luo, Shihui Ying, Yue Gao. (2024)  
-**LightHGNN: Distilling Hypergraph Neural Networks into MLPs for $100\times$ Faster Inference**  
+**LightHGNN: Distilling Hypergraph Neural Networks into MLPs for $100\times$ Faster Inference**
+<br/>
+<button class="copy-to-clipboard" title="LightHGNN: Distilling Hypergraph Neural Networks into MLPs for $100\times$ Faster Inference" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: GNN  
-[Paper Link](http://arxiv.org/abs/2402.04296v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04296v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04296v1" filename="2402.04296v1">Download PDF</button>
 
 ---
 
@@ -2141,13 +3269,25 @@ Hypergraph Neural Networks (HGNNs) have recently attracted much attention and ex
 {{<citation>}}
 
 Yihan Wang, Yifan Zhu, Xiao-Shan Gao. (2024)  
-**Efficient Availability Attacks against Supervised and Contrastive Learning Simultaneously**  
+**Efficient Availability Attacks against Supervised and Contrastive Learning Simultaneously**
+<br/>
+<button class="copy-to-clipboard" title="Efficient Availability Attacks against Supervised and Contrastive Learning Simultaneously" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, stat-ML  
 Keywords: Contrastive Learning  
-[Paper Link](http://arxiv.org/abs/2402.04010v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04010v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04010v1" filename="2402.04010v1">Download PDF</button>
 
 ---
 
@@ -2163,13 +3303,25 @@ Availability attacks can prevent the unauthorized use of private data and commer
 {{<citation>}}
 
 Alex Havrilla, Maia Iyer. (2024)  
-**Understanding the Effect of Noise in LLM Training Data with Algorithmic Chains of Thought**  
+**Understanding the Effect of Noise in LLM Training Data with Algorithmic Chains of Thought**
+<br/>
+<button class="copy-to-clipboard" title="Understanding the Effect of Noise in LLM Training Data with Algorithmic Chains of Thought" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04004v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04004v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04004v1" filename="2402.04004v1">Download PDF</button>
 
 ---
 
@@ -2185,13 +3337,25 @@ During both pretraining and fine-tuning, Large Language Models (\textbf{LLMs}) a
 {{<citation>}}
 
 Andrea Schioppa. (2024)  
-**Gradient Sketches for Training Data Attribution and Studying the Loss Landscape**  
+**Gradient Sketches for Training Data Attribution and Studying the Loss Landscape**
+<br/>
+<button class="copy-to-clipboard" title="Gradient Sketches for Training Data Attribution and Studying the Loss Landscape" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, stat-ML  
 Keywords: Sketch  
-[Paper Link](http://arxiv.org/abs/2402.03994v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03994v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03994v1" filename="2402.03994v1">Download PDF</button>
 
 ---
 
@@ -2207,13 +3371,25 @@ Random projections or sketches of gradients and Hessian vector products play an 
 {{<citation>}}
 
 Emanuele Zangrando, Piero Deidda, Simone Brugiapaglia, Nicola Guglielmi, Francesco Tudisco. (2024)  
-**Neural Rank Collapse: Weight Decay and Small Within-Class Variability Yield Low-Rank Bias**  
+**Neural Rank Collapse: Weight Decay and Small Within-Class Variability Yield Low-Rank Bias**
+<br/>
+<button class="copy-to-clipboard" title="Neural Rank Collapse: Weight Decay and Small Within-Class Variability Yield Low-Rank Bias" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs-NA, cs.LG, math-NA, stat-ML  
 Keywords: Bias  
-[Paper Link](http://arxiv.org/abs/2402.03991v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03991v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03991v1" filename="2402.03991v1">Download PDF</button>
 
 ---
 
@@ -2229,13 +3405,25 @@ Recent work in deep learning has shown strong empirical and theoretical evidence
 {{<citation>}}
 
 Ossi Räisä, Antti Honkela. (2024)  
-**A Bias-Variance Decomposition for Ensembles over Multiple Synthetic Datasets**  
+**A Bias-Variance Decomposition for Ensembles over Multiple Synthetic Datasets**
+<br/>
+<button class="copy-to-clipboard" title="A Bias-Variance Decomposition for Ensembles over Multiple Synthetic Datasets" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, stat-ML  
 Keywords: Bias  
-[Paper Link](http://arxiv.org/abs/2402.03985v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03985v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03985v1" filename="2402.03985v1">Download PDF</button>
 
 ---
 
@@ -2251,13 +3439,25 @@ Recent studies have highlighted the benefits of generating multiple synthetic da
 {{<citation>}}
 
 Guri Zabërgja, Arlind Kadra, Josif Grabocka. (2024)  
-**Tabular Data: Is Attention All You Need?**  
+**Tabular Data: Is Attention All You Need?**
+<br/>
+<button class="copy-to-clipboard" title="Tabular Data: Is Attention All You Need?" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI, Attention  
-[Paper Link](http://arxiv.org/abs/2402.03970v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03970v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03970v1" filename="2402.03970v1">Download PDF</button>
 
 ---
 
@@ -2273,13 +3473,25 @@ Deep Learning has revolutionized the field of AI and led to remarkable achieveme
 {{<citation>}}
 
 César Bravo, Alexander Kozachinskiy, Cristóbal Rojas. (2024)  
-**On dimensionality of feature vectors in MPNNs**  
+**On dimensionality of feature vectors in MPNNs**
+<br/>
+<button class="copy-to-clipboard" title="On dimensionality of feature vectors in MPNNs" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.03966v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03966v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03966v1" filename="2402.03966v1">Download PDF</button>
 
 ---
 
@@ -2295,13 +3507,25 @@ We revisit the classical result of Morris et al.~(AAAI'19) that message-passing 
 {{<citation>}}
 
 Chenxi Liu, Yongqiang Chen, Tongliang Liu, Mingming Gong, James Cheng, Bo Han, Kun Zhang. (2024)  
-**Discovery of the Hidden World with Large Language Models**  
+**Discovery of the Hidden World with Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Discovery of the Hidden World with Large Language Models" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG, stat-ME  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03941v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03941v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03941v1" filename="2402.03941v1">Download PDF</button>
 
 ---
 
@@ -2317,13 +3541,25 @@ Science originates with discovering new causal knowledge from a combination of k
 {{<citation>}}
 
 Tsunehiko Tanaka, Kenshi Abe, Kaito Ariu, Tetsuro Morimura, Edgar Simo-Serra. (2024)  
-**Return-Aligned Decision Transformer**  
+**Return-Aligned Decision Transformer**
+<br/>
+<button class="copy-to-clipboard" title="Return-Aligned Decision Transformer" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2402.03923v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03923v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03923v1" filename="2402.03923v1">Download PDF</button>
 
 ---
 
@@ -2339,13 +3575,25 @@ Traditional approaches in offline reinforcement learning aim to learn the optima
 {{<citation>}}
 
 Tennison Liu, Nicolás Astorga, Nabeel Seedat, Mihaela van der Schaar. (2024)  
-**Large Language Models to Enhance Bayesian Optimization**  
+**Large Language Models to Enhance Bayesian Optimization**
+<br/>
+<button class="copy-to-clipboard" title="Large Language Models to Enhance Bayesian Optimization" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03921v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03921v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03921v1" filename="2402.03921v1">Download PDF</button>
 
 ---
 
@@ -2361,13 +3609,25 @@ Bayesian optimization (BO) is a powerful approach for optimizing complex and exp
 {{<citation>}}
 
 Brett Daley, Martha White, Marlos C. Machado. (2024)  
-**Compound Returns Reduce Variance in Reinforcement Learning**  
+**Compound Returns Reduce Variance in Reinforcement Learning**
+<br/>
+<button class="copy-to-clipboard" title="Compound Returns Reduce Variance in Reinforcement Learning" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.03903v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03903v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03903v1" filename="2402.03903v1">Download PDF</button>
 
 ---
 
@@ -2383,13 +3643,25 @@ Multistep returns, such as $n$-step returns and $\lambda$-returns, are commonly 
 {{<citation>}}
 
 Satvik Golechha, James Dao. (2024)  
-**Position Paper: Toward New Frameworks for Studying Model Representations**  
+**Position Paper: Toward New Frameworks for Studying Model Representations**
+<br/>
+<button class="copy-to-clipboard" title="Position Paper: Toward New Frameworks for Studying Model Representations" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.03855v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03855v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03855v1" filename="2402.03855v1">Download PDF</button>
 
 ---
 
@@ -2405,13 +3677,25 @@ Mechanistic interpretability (MI) aims to understand AI models by reverse-engine
 {{<citation>}}
 
 Wei Huang, Yangdong Liu, Haotong Qin, Ying Li, Shiming Zhang, Xianglong Liu, Michele Magno, Xiaojuan Qi. (2024)  
-**BiLLM: Pushing the Limit of Post-Training Quantization for LLMs**  
+**BiLLM: Pushing the Limit of Post-Training Quantization for LLMs**
+<br/>
+<button class="copy-to-clipboard" title="BiLLM: Pushing the Limit of Post-Training Quantization for LLMs" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keywords: LLaMA, Quantization  
-[Paper Link](http://arxiv.org/abs/2402.04291v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04291v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04291v1" filename="2402.04291v1">Download PDF</button>
 
 ---
 
@@ -2427,13 +3711,25 @@ Pretrained large language models (LLMs) exhibit exceptional general language pro
 {{<citation>}}
 
 Zhengyan Zhang, Yixin Song, Guanghui Yu, Xu Han, Yankai Lin, Chaojun Xiao, Chenyang Song, Zhiyuan Liu, Zeyu Mi, Maosong Sun. (2024)  
-**ReLU$^2$ Wins: Discovering Efficient Activation Functions for Sparse LLMs**  
+**ReLU$^2$ Wins: Discovering Efficient Activation Functions for Sparse LLMs**
+<br/>
+<button class="copy-to-clipboard" title="ReLU$^2$ Wins: Discovering Efficient Activation Functions for Sparse LLMs" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03804v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03804v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03804v1" filename="2402.03804v1">Download PDF</button>
 
 ---
 
@@ -2449,13 +3745,25 @@ Sparse computation offers a compelling solution for the inference of Large Langu
 {{<citation>}}
 
 Davide Maran, Alberto Maria Metelli, Matteo Papini, Marcello Restell. (2024)  
-**No-Regret Reinforcement Learning in Smooth MDPs**  
+**No-Regret Reinforcement Learning in Smooth MDPs**
+<br/>
+<button class="copy-to-clipboard" title="No-Regret Reinforcement Learning in Smooth MDPs" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.03792v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03792v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03792v1" filename="2402.03792v1">Download PDF</button>
 
 ---
 
@@ -2471,13 +3779,25 @@ Obtaining no-regret guarantees for reinforcement learning (RL) in the case of pr
 {{<citation>}}
 
 Haihong Zhao, Chenyi Zi, Yang Liu, Chen Zhang, Yan Zhou, Jia Li. (2024)  
-**Weakly Supervised Anomaly Detection via Knowledge-Data Alignment**  
+**Weakly Supervised Anomaly Detection via Knowledge-Data Alignment**
+<br/>
+<button class="copy-to-clipboard" title="Weakly Supervised Anomaly Detection via Knowledge-Data Alignment" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Anomaly Detection  
-[Paper Link](http://arxiv.org/abs/2402.03785v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03785v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03785v1" filename="2402.03785v1">Download PDF</button>
 
 ---
 
@@ -2493,13 +3813,25 @@ Anomaly detection (AD) plays a pivotal role in numerous web-based applications, 
 {{<citation>}}
 
 Yufan Zhuang, Liyuan Liu, Chandan Singh, Jingbo Shang, Jianfeng Gao. (2024)  
-**Learning a Decision Tree Algorithm with Transformers**  
+**Learning a Decision Tree Algorithm with Transformers**
+<br/>
+<button class="copy-to-clipboard" title="Learning a Decision Tree Algorithm with Transformers" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2402.03774v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03774v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03774v1" filename="2402.03774v1">Download PDF</button>
 
 ---
 
@@ -2515,13 +3847,25 @@ Decision trees are renowned for their interpretability capability to achieve hig
 {{<citation>}}
 
 Yuting Tang, Xin-Qiang Cai, Yao-Xiang Ding, Qiyu Wu, Guoqing Liu, Masashi Sugiyama. (2024)  
-**Reinforcement Learning from Bagged Reward: A Transformer-based Approach for Instance-Level Reward Redistribution**  
+**Reinforcement Learning from Bagged Reward: A Transformer-based Approach for Instance-Level Reward Redistribution**
+<br/>
+<button class="copy-to-clipboard" title="Reinforcement Learning from Bagged Reward: A Transformer-based Approach for Instance-Level Reward Redistribution" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: Reinforcement Learning, Transformer  
-[Paper Link](http://arxiv.org/abs/2402.03771v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03771v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03771v1" filename="2402.03771v1">Download PDF</button>
 
 ---
 
@@ -2537,13 +3881,25 @@ In reinforcement Learning (RL), an instant reward signal is generated for each a
 {{<citation>}}
 
 Oubo Ma, Yuwen Pu, Linkang Du, Yang Dai, Ruo Wang, Xiaolei Liu, Yingcai Wu, Shouling Ji. (2024)  
-**SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems**  
+**SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems**
+<br/>
+<button class="copy-to-clipboard" title="SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CR, cs-LG, cs.LG  
 Keywords: AI, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.03741v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03741v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03741v1" filename="2402.03741v1">Download PDF</button>
 
 ---
 
@@ -2559,13 +3915,25 @@ Recent advances in multi-agent reinforcement learning (MARL) have opened up vast
 {{<citation>}}
 
 Rui Li, Jiwei Li, Jiawei Han, Guoyin Wang. (2024)  
-**Similarity-based Neighbor Selection for Graph LLMs**  
+**Similarity-based Neighbor Selection for Graph LLMs**
+<br/>
+<button class="copy-to-clipboard" title="Similarity-based Neighbor Selection for Graph LLMs" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CL, cs-LG, cs-SI, cs.LG  
 Keywords: GNN  
-[Paper Link](http://arxiv.org/abs/2402.03720v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03720v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03720v1" filename="2402.03720v1">Download PDF</button>
 
 ---
 
@@ -2581,13 +3949,25 @@ Text-attributed graphs (TAGs) present unique challenges for direct processing by
 {{<citation>}}
 
 Yoonho Lee, Michelle S. Lam, Helena Vasconcelos, Michael S. Bernstein, Chelsea Finn. (2024)  
-**Clarify: Improving Model Robustness With Natural Language Corrections**  
+**Clarify: Improving Model Robustness With Natural Language Corrections**
+<br/>
+<button class="copy-to-clipboard" title="Clarify: Improving Model Robustness With Natural Language Corrections" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2402.03715v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03715v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03715v1" filename="2402.03715v1">Download PDF</button>
 
 ---
 
@@ -2603,13 +3983,25 @@ In supervised learning, models are trained to extract correlations from a static
 {{<citation>}}
 
 Lingxiao Zhao, Xueying Ding, Leman Akoglu. (2024)  
-**Pard: Permutation-Invariant Autoregressive Diffusion for Graph Generation**  
+**Pard: Permutation-Invariant Autoregressive Diffusion for Graph Generation**
+<br/>
+<button class="copy-to-clipboard" title="Pard: Permutation-Invariant Autoregressive Diffusion for Graph Generation" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, stat-ML  
 Keywords: GPT  
-[Paper Link](http://arxiv.org/abs/2402.03687v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03687v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03687v1" filename="2402.03687v1">Download PDF</button>
 
 ---
 
@@ -2625,13 +4017,25 @@ Graph generation has been dominated by autoregressive models due to their simpli
 {{<citation>}}
 
 Aaron Bembenek, Toby Murray. (2024)  
-**Symbol Correctness in Deep Neural Networks Containing Symbolic Layers**  
+**Symbol Correctness in Deep Neural Networks Containing Symbolic Layers**
+<br/>
+<button class="copy-to-clipboard" title="Symbol Correctness in Deep Neural Networks Containing Symbolic Layers" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.03663v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03663v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03663v1" filename="2402.03663v1">Download PDF</button>
 
 ---
 
@@ -2647,13 +4051,25 @@ To handle AI tasks that combine perception and logical reasoning, recent work in
 {{<citation>}}
 
 Kelvin J. L. Koa, Yunshan Ma, Ritchie Ng, Tat-Seng Chua. (2024)  
-**Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models**  
+**Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-CL, cs-LG, cs.LG, q-fin-ST  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03659v2)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03659v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03659v2" filename="2402.03659v2">Download PDF</button>
 
 ---
 
@@ -2669,13 +4085,25 @@ Explaining stock predictions is generally a difficult task for traditional non-g
 {{<citation>}}
 
 Jiacheng Lin, Meng Xu, Zhihua Xiong, Huangang Wang. (2024)  
-**CAMBranch: Contrastive Learning with Augmented MILPs for Branching**  
+**CAMBranch: Contrastive Learning with Augmented MILPs for Branching**
+<br/>
+<button class="copy-to-clipboard" title="CAMBranch: Contrastive Learning with Augmented MILPs for Branching" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keywords: Contrastive Learning  
-[Paper Link](http://arxiv.org/abs/2402.03647v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03647v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03647v1" filename="2402.03647v1">Download PDF</button>
 
 ---
 
@@ -2691,13 +4119,25 @@ Recent advancements have introduced machine learning frameworks to enhance the B
 {{<citation>}}
 
 Qineng Wang, Chen Qian, Xiaochang Li, Ziyu Yao, Huajie Shao. (2024)  
-**Lens: A Foundation Model for Network Traffic**  
+**Lens: A Foundation Model for Network Traffic**
+<br/>
+<button class="copy-to-clipboard" title="Lens: A Foundation Model for Network Traffic" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs-NI, cs.LG  
 Keywords: T5, Transformer  
-[Paper Link](http://arxiv.org/abs/2402.03646v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03646v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03646v1" filename="2402.03646v1">Download PDF</button>
 
 ---
 
@@ -2713,13 +4153,25 @@ Network traffic refers to the amount of information being sent and received over
 {{<citation>}}
 
 Junwei Su, Difan Zou, Chuan Wu. (2024)  
-**PRES: Toward Scalable Memory-Based Dynamic Graph Neural Networks**  
+**PRES: Toward Scalable Memory-Based Dynamic Graph Neural Networks**
+<br/>
+<button class="copy-to-clipboard" title="PRES: Toward Scalable Memory-Based Dynamic Graph Neural Networks" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keywords: GNN, Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2402.04284v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04284v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04284v1" filename="2402.04284v1">Download PDF</button>
 
 ---
 
@@ -2735,13 +4187,25 @@ Memory-based Dynamic Graph Neural Networks (MDGNNs) are a family of dynamic grap
 {{<citation>}}
 
 Tomoyuki Kagaya, Thong Jing Yuan, Yuxuan Lou, Jayashree Karlekar, Sugiri Pranata, Akira Kinose, Koki Oguri, Felix Wick, Yang You. (2024)  
-**RAP: Retrieval-Augmented Planning with Contextual Memory for Multimodal LLM Agents**  
+**RAP: Retrieval-Augmented Planning with Contextual Memory for Multimodal LLM Agents**
+<br/>
+<button class="copy-to-clipboard" title="RAP: Retrieval-Augmented Planning with Contextual Memory for Multimodal LLM Agents" index=5>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03610v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03610v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03610v1" filename="2402.03610v1">Download PDF</button>
 
 ---
 
@@ -2761,13 +4225,25 @@ Owing to recent advancements, Large Language Models (LLMs) can now be deployed a
 {{<citation>}}
 
 Ali Sedaghatgoo, Amir M. Hajisadeghi, Mahmoud Momtazpour, Nader Bagherzadeh. (2024)  
-**ARMAN: A Reconfigurable Monolithic 3D Accelerator Architecture for Convolutional Neural Networks**  
+**ARMAN: A Reconfigurable Monolithic 3D Accelerator Architecture for Convolutional Neural Networks**
+<br/>
+<button class="copy-to-clipboard" title="ARMAN: A Reconfigurable Monolithic 3D Accelerator Architecture for Convolutional Neural Networks" index=6>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-6 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AR  
 Categories: cs-AR, cs-ET, cs.AR  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04431v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04431v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04431v1" filename="2402.04431v1">Download PDF</button>
 
 ---
 
@@ -2783,13 +4259,25 @@ The Convolutional Neural Network (CNN) has emerged as a powerful and versatile t
 {{<citation>}}
 
 Youngsuk Kim, Hyuk-Jae Lee, Chae Eun Rhee. (2024)  
-**HEAM : Hashed Embedding Acceleration using Processing-In-Memory**  
+**HEAM : Hashed Embedding Acceleration using Processing-In-Memory**
+<br/>
+<button class="copy-to-clipboard" title="HEAM : Hashed Embedding Acceleration using Processing-In-Memory" index=6>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-6 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.AR  
 Categories: cs-AI, cs-AR, cs.AR  
 Keywords: Embedding  
-[Paper Link](http://arxiv.org/abs/2402.04032v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04032v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04032v1" filename="2402.04032v1">Download PDF</button>
 
 ---
 
@@ -2809,13 +4297,25 @@ In today's data centers, personalized recommendation systems face challenges suc
 {{<citation>}}
 
 Fakrul Islam Tushar, Vincent M. D'Anniballe, Geoffrey D. Rubin, Joseph Y. Lo. (2024)  
-**What limits performance of weakly supervised deep learning for chest CT classification?**  
+**What limits performance of weakly supervised deep learning for chest CT classification?**
+<br/>
+<button class="copy-to-clipboard" title="What limits performance of weakly supervised deep learning for chest CT classification?" index=7>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-7 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: eess.IV  
 Categories: cs-LG, eess-IV, eess.IV  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04419v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04419v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04419v1" filename="2402.04419v1">Download PDF</button>
 
 ---
 
@@ -2831,13 +4331,25 @@ Weakly supervised learning with noisy data has drawn attention in the medical im
 {{<citation>}}
 
 Nishchal Sapkota, Yejia Zhang, Susan M. Motch Perrine, Yuhan Hsi, Sirui Li, Meng Wu, Greg Holmes, Abdul R. Abdulai, Ethylin W. Jabs, Joan T. Richtsmeier, Danny Z Chen. (2024)  
-**ConUNETR: A Conditional Transformer Network for 3D Micro-CT Embryonic Cartilage Segmentation**  
+**ConUNETR: A Conditional Transformer Network for 3D Micro-CT Embryonic Cartilage Segmentation**
+<br/>
+<button class="copy-to-clipboard" title="ConUNETR: A Conditional Transformer Network for 3D Micro-CT Embryonic Cartilage Segmentation" index=7>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-7 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: eess.IV  
 Categories: cs-CV, eess-IV, eess.IV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2402.03695v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03695v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03695v1" filename="2402.03695v1">Download PDF</button>
 
 ---
 
@@ -2857,13 +4369,25 @@ Studying the morphological development of cartilaginous and osseous structures i
 {{<citation>}}
 
 Christopher Liao, Theodoros Tsiligkaridis, Brian Kulis. (2024)  
-**A Data Centric Approach for Unsupervised Domain Generalization via Retrieval from Web Scale Multimodal Data**  
+**A Data Centric Approach for Unsupervised Domain Generalization via Retrieval from Web Scale Multimodal Data**
+<br/>
+<button class="copy-to-clipboard" title="A Data Centric Approach for Unsupervised Domain Generalization via Retrieval from Web Scale Multimodal Data" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04416v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04416v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04416v1" filename="2402.04416v1">Download PDF</button>
 
 ---
 
@@ -2879,13 +4403,25 @@ Domain generalization (DG) is an important problem that learns a model that can 
 {{<citation>}}
 
 Hocine Kadi, Théo Sourget, Marzena Kawczynski, Sara Bendjama, Bruno Grollemund, Agnès Bloch-Zupan. (2024)  
-**Detection Transformer for Teeth Detection, Segmentation, and Numbering in Oral Rare Diseases: Focus on Data Augmentation and Inpainting Techniques**  
+**Detection Transformer for Teeth Detection, Segmentation, and Numbering in Oral Rare Diseases: Focus on Data Augmentation and Inpainting Techniques**
+<br/>
+<button class="copy-to-clipboard" title="Detection Transformer for Teeth Detection, Segmentation, and Numbering in Oral Rare Diseases: Focus on Data Augmentation and Inpainting Techniques" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Augmentation, Transformer  
-[Paper Link](http://arxiv.org/abs/2402.04408v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04408v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04408v1" filename="2402.04408v1">Download PDF</button>
 
 ---
 
@@ -2901,13 +4437,25 @@ In this work, we focused on deep learning image processing in the context of ora
 {{<citation>}}
 
 Quan Sun, Jinsheng Wang, Qiying Yu, Yufeng Cui, Fan Zhang, Xiaosong Zhang, Xinlong Wang. (2024)  
-**EVA-CLIP-18B: Scaling CLIP to 18 Billion Parameters**  
+**EVA-CLIP-18B: Scaling CLIP to 18 Billion Parameters**
+<br/>
+<button class="copy-to-clipboard" title="EVA-CLIP-18B: Scaling CLIP to 18 Billion Parameters" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04252v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04252v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04252v1" filename="2402.04252v1">Download PDF</button>
 
 ---
 
@@ -2923,13 +4471,25 @@ Scaling up contrastive language-image pretraining (CLIP) is critical for empower
 {{<citation>}}
 
 Ji Qi, Ming Ding, Weihan Wang, Yushi Bai, Qingsong Lv, Wenyi Hong, Bin Xu, Lei Hou, Juanzi Li, Yuxiao Dong, Jie Tang. (2024)  
-**CogCoM: Train Large Vision-Language Models Diving into Details through Chain of Manipulations**  
+**CogCoM: Train Large Vision-Language Models Diving into Details through Chain of Manipulations**
+<br/>
+<button class="copy-to-clipboard" title="CogCoM: Train Large Vision-Language Models Diving into Details through Chain of Manipulations" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CL, cs-CV, cs.CV  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04236v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04236v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04236v1" filename="2402.04236v1">Download PDF</button>
 
 ---
 
@@ -2945,13 +4505,25 @@ Vision-Language Models (VLMs) have demonstrated their widespread viability thank
 {{<citation>}}
 
 Yichen Shi, Yuhao Gao, Yingxin Lai, Hongyang Wang, Jun Feng, Lei He, Jun Wan, Changsheng Chen, Zitong Yu, Xiaochun Cao. (2024)  
-**SHIELD : An Evaluation Benchmark for Face Spoofing and Forgery Detection with Multimodal Large Language Models**  
+**SHIELD : An Evaluation Benchmark for Face Spoofing and Forgery Detection with Multimodal Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="SHIELD : An Evaluation Benchmark for Face Spoofing and Forgery Detection with Multimodal Large Language Models" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04178v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04178v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04178v1" filename="2402.04178v1">Download PDF</button>
 
 ---
 
@@ -2967,13 +4539,25 @@ Multimodal large language models (MLLMs) have demonstrated remarkable problem-so
 {{<citation>}}
 
 Zhuoran Zheng, Chen Wu. (2024)  
-**U-shaped Vision Mamba for Single Image Dehazing**  
+**U-shaped Vision Mamba for Single Image Dehazing**
+<br/>
+<button class="copy-to-clipboard" title="U-shaped Vision Mamba for Single Image Dehazing" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2402.04139v2)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04139v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04139v2" filename="2402.04139v2">Download PDF</button>
 
 ---
 
@@ -2989,13 +4573,25 @@ Currently, Transformer is the most popular architecture for image dehazing, but 
 {{<citation>}}
 
 Jongmin Yu, Chen Bene Chi, Sebastiano Fichera, Paolo Paoletti, Devansh Mehta, Shan Luo. (2024)  
-**Multi-class Road Defect Detection and Segmentation using Spatial and Channel-wise Attention for Autonomous Road Repairing**  
+**Multi-class Road Defect Detection and Segmentation using Spatial and Channel-wise Attention for Autonomous Road Repairing**
+<br/>
+<button class="copy-to-clipboard" title="Multi-class Road Defect Detection and Segmentation using Spatial and Channel-wise Attention for Autonomous Road Repairing" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2402.04064v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04064v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04064v1" filename="2402.04064v1">Download PDF</button>
 
 ---
 
@@ -3011,13 +4607,25 @@ Road pavement detection and segmentation are critical for developing autonomous 
 {{<citation>}}
 
 Ningyuan Tang, Minghao Fu, Ke Zhu, Jianxin Wu. (2024)  
-**Low-rank Attention Side-Tuning for Parameter-Efficient Fine-Tuning**  
+**Low-rank Attention Side-Tuning for Parameter-Efficient Fine-Tuning**
+<br/>
+<button class="copy-to-clipboard" title="Low-rank Attention Side-Tuning for Parameter-Efficient Fine-Tuning" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2402.04009v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04009v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04009v1" filename="2402.04009v1">Download PDF</button>
 
 ---
 
@@ -3033,13 +4641,25 @@ In finetuning a large pretrained model to downstream tasks, parameter-efficient 
 {{<citation>}}
 
 Anton Backhaus, Thorsten Luettel, Hans-Joachim Wuensche. (2024)  
-**YOLOPoint Joint Keypoint and Object Detection**  
+**YOLOPoint Joint Keypoint and Object Detection**
+<br/>
+<button class="copy-to-clipboard" title="YOLOPoint Joint Keypoint and Object Detection" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2402.03989v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03989v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03989v1" filename="2402.03989v1">Download PDF</button>
 
 ---
 
@@ -3055,13 +4675,25 @@ Intelligent vehicles of the future must be capable of understanding and navigati
 {{<citation>}}
 
 Yiming Xu, Hao Cheng, Monika Sester. (2024)  
-**Controllable Diverse Sampling for Diffusion Based Motion Behavior Forecasting**  
+**Controllable Diverse Sampling for Diffusion Based Motion Behavior Forecasting**
+<br/>
+<button class="copy-to-clipboard" title="Controllable Diverse Sampling for Diffusion Based Motion Behavior Forecasting" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Transformer  
-[Paper Link](http://arxiv.org/abs/2402.03981v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03981v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03981v1" filename="2402.03981v1">Download PDF</button>
 
 ---
 
@@ -3077,13 +4709,25 @@ In autonomous driving tasks, trajectory prediction in complex traffic environmen
 {{<citation>}}
 
 Qinliang Lin, Cheng Luo, Zenghao Niu, Xilin He, Weicheng Xie, Yuanbo Hou, Linlin Shen, Siyang Song. (2024)  
-**Boosting Adversarial Transferability across Model Genus by Deformation-Constrained Warping**  
+**Boosting Adversarial Transferability across Model Genus by Deformation-Constrained Warping**
+<br/>
+<button class="copy-to-clipboard" title="Boosting Adversarial Transferability across Model Genus by Deformation-Constrained Warping" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2402.03951v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03951v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03951v1" filename="2402.03951v1">Download PDF</button>
 
 ---
 
@@ -3099,13 +4743,25 @@ Adversarial examples generated by a surrogate model typically exhibit limited tr
 {{<citation>}}
 
 Simone Magistri, Tomaso Trinci, Albin Soutif-Cormerais, Joost van de Weijer, Andrew D. Bagdanov. (2024)  
-**Elastic Feature Consolidation for Cold Start Exemplar-free Incremental Learning**  
+**Elastic Feature Consolidation for Cold Start Exemplar-free Incremental Learning**
+<br/>
+<button class="copy-to-clipboard" title="Elastic Feature Consolidation for Cold Start Exemplar-free Incremental Learning" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2402.03917v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03917v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03917v1" filename="2402.03917v1">Download PDF</button>
 
 ---
 
@@ -3121,13 +4777,25 @@ Exemplar-Free Class Incremental Learning (EFCIL) aims to learn from a sequence o
 {{<citation>}}
 
 Kun Li, George Vosselman, Michael Ying Yang. (2024)  
-**Convincing Rationales for Visual Question Answering Reasoning**  
+**Convincing Rationales for Visual Question Answering Reasoning**
+<br/>
+<button class="copy-to-clipboard" title="Convincing Rationales for Visual Question Answering Reasoning" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: QA, Question Answering, Reasoning  
-[Paper Link](http://arxiv.org/abs/2402.03896v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03896v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03896v1" filename="2402.03896v1">Download PDF</button>
 
 ---
 
@@ -3143,13 +4811,25 @@ Visual Question Answering (VQA) is a challenging task of predicting the answer t
 {{<citation>}}
 
 Fudan Zheng, Jindong Cao, Weijiang Yu, Zhiguang Chen, Nong Xiao, Yutong Lu. (2024)  
-**Exploring Low-Resource Medical Image Classification with Weakly Supervised Prompt Learning**  
+**Exploring Low-Resource Medical Image Classification with Weakly Supervised Prompt Learning**
+<br/>
+<button class="copy-to-clipboard" title="Exploring Low-Resource Medical Image Classification with Weakly Supervised Prompt Learning" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Image Classification, Low-Resource  
-[Paper Link](http://arxiv.org/abs/2402.03783v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03783v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03783v1" filename="2402.03783v1">Download PDF</button>
 
 ---
 
@@ -3165,13 +4845,25 @@ Most advances in medical image recognition supporting clinical auxiliary diagnos
 {{<citation>}}
 
 Oleksandr Kuznetsov, Dmytro Zakharov, Emanuele Frontoni, Andrea Maranesi. (2024)  
-**AttackNet: Enhancing Biometric Security via Tailored Convolutional Neural Network Architectures for Liveness Detection**  
+**AttackNet: Enhancing Biometric Security via Tailored Convolutional Neural Network Architectures for Liveness Detection**
+<br/>
+<button class="copy-to-clipboard" title="AttackNet: Enhancing Biometric Security via Tailored Convolutional Neural Network Architectures for Liveness Detection" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CR, cs-CV, cs.CV  
 Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2402.03769v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03769v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03769v1" filename="2402.03769v1">Download PDF</button>
 
 ---
 
@@ -3187,13 +4879,25 @@ Biometric security is the cornerstone of modern identity verification and authen
 {{<citation>}}
 
 Xiangxiang Chu, Limeng Qiao, Xinyu Zhang, Shuang Xu, Fei Wei, Yang Yang, Xiaofei Sun, Yiming Hu, Xinyang Lin, Bo Zhang, Chunhua Shen. (2024)  
-**MobileVLM V2: Faster and Stronger Baseline for Vision Language Model**  
+**MobileVLM V2: Faster and Stronger Baseline for Vision Language Model**
+<br/>
+<button class="copy-to-clipboard" title="MobileVLM V2: Faster and Stronger Baseline for Vision Language Model" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03766v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03766v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03766v1" filename="2402.03766v1">Download PDF</button>
 
 ---
 
@@ -3209,13 +4913,25 @@ We introduce MobileVLM V2, a family of significantly improved vision language mo
 {{<citation>}}
 
 Tianyang Han, Qing Lian, Rui Pan, Renjie Pi, Jipeng Zhang, Shizhe Diao, Yong Lin, Tong Zhang. (2024)  
-**The Instinctive Bias: Spurious Images lead to Hallucination in MLLMs**  
+**The Instinctive Bias: Spurious Images lead to Hallucination in MLLMs**
+<br/>
+<button class="copy-to-clipboard" title="The Instinctive Bias: Spurious Images lead to Hallucination in MLLMs" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CL, cs-CV, cs-LG, cs.CV  
 Keywords: Bias, GPT, GPT-4, QA  
-[Paper Link](http://arxiv.org/abs/2402.03757v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03757v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03757v1" filename="2402.03757v1">Download PDF</button>
 
 ---
 
@@ -3231,13 +4947,25 @@ Large language models (LLMs) have recently experienced remarkable progress, wher
 {{<citation>}}
 
 Fudan Zheng, Mengfei Li, Ying Wang, Weijiang Yu, Ruixuan Wang, Zhiguang Chen, Nong Xiao, Yutong Lu. (2024)  
-**Intensive Vision-guided Network for Radiology Report Generation**  
+**Intensive Vision-guided Network for Radiology Report Generation**
+<br/>
+<button class="copy-to-clipboard" title="Intensive Vision-guided Network for Radiology Report Generation" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Attention  
-[Paper Link](http://arxiv.org/abs/2402.03754v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03754v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03754v1" filename="2402.03754v1">Download PDF</button>
 
 ---
 
@@ -3253,13 +4981,25 @@ Automatic radiology report generation is booming due to its huge application pot
 {{<citation>}}
 
 Jen Hong Tan. (2024)  
-**Pre-training of Lightweight Vision Transformers on Small Datasets with Minimally Scaled Images**  
+**Pre-training of Lightweight Vision Transformers on Small Datasets with Minimally Scaled Images**
+<br/>
+<button class="copy-to-clipboard" title="Pre-training of Lightweight Vision Transformers on Small Datasets with Minimally Scaled Images" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keywords: Transformer, Transformers  
-[Paper Link](http://arxiv.org/abs/2402.03752v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03752v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03752v1" filename="2402.03752v1">Download PDF</button>
 
 ---
 
@@ -3275,13 +5015,25 @@ Can a lightweight Vision Transformer (ViT) match or exceed the performance of Co
 {{<citation>}}
 
 Daechul Ahn, Yura Choi, Youngjae Yu, Dongyeop Kang, Jonghyun Choi. (2024)  
-**Tuning Large Multimodal Models for Videos using Reinforcement Learning from AI Feedback**  
+**Tuning Large Multimodal Models for Videos using Reinforcement Learning from AI Feedback**
+<br/>
+<button class="copy-to-clipboard" title="Tuning Large Multimodal Models for Videos using Reinforcement Learning from AI Feedback" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: AI, Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.03746v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03746v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03746v1" filename="2402.03746v1">Download PDF</button>
 
 ---
 
@@ -3297,13 +5049,25 @@ Recent advancements in large language models have influenced the development of 
 {{<citation>}}
 
 Vuong D. Nguyen, Samiha Mirza, Pranav Mantini, Shishir K. Shah. (2024)  
-**Attention-based Shape and Gait Representations Learning for Video-based Cloth-Changing Person Re-Identification**  
+**Attention-based Shape and Gait Representations Learning for Video-based Cloth-Changing Person Re-Identification**
+<br/>
+<button class="copy-to-clipboard" title="Attention-based Shape and Gait Representations Learning for Video-based Cloth-Changing Person Re-Identification" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Attention, Graph Attention Network  
-[Paper Link](http://arxiv.org/abs/2402.03716v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03716v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03716v1" filename="2402.03716v1">Download PDF</button>
 
 ---
 
@@ -3319,13 +5083,25 @@ Current state-of-the-art Video-based Person Re-Identification (Re-ID) primarily 
 {{<citation>}}
 
 Haoxuan Wang, Yuzhang Shang, Zhihang Yuan, Junyi Wu, Yan Yan. (2024)  
-**QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning**  
+**QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning**
+<br/>
+<button class="copy-to-clipboard" title="QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Quantization  
-[Paper Link](http://arxiv.org/abs/2402.03666v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03666v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03666v1" filename="2402.03666v1">Download PDF</button>
 
 ---
 
@@ -3341,13 +5117,25 @@ Diffusion models have achieved remarkable success in image generation tasks, yet
 {{<citation>}}
 
 Feng Liu, Tengteng Huang, Qianjing Zhang, Haotian Yao, Chi Zhang, Fang Wan, Qixiang Ye, Yanzhao Zhou. (2024)  
-**BEAM: Beta Distribution Ray Denoising for Multi-view 3D Object Detection**  
+**BEAM: Beta Distribution Ray Denoising for Multi-view 3D Object Detection**
+<br/>
+<button class="copy-to-clipboard" title="BEAM: Beta Distribution Ray Denoising for Multi-view 3D Object Detection" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2402.03634v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03634v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03634v1" filename="2402.03634v1">Download PDF</button>
 
 ---
 
@@ -3363,13 +5151,25 @@ Multi-view 3D object detectors struggle with duplicate predictions due to the la
 {{<citation>}}
 
 Aoran Xiao, Weihao Xuan, Heli Qi, Yun Xing, Ruijie Ren, Xiaoqin Zhang, Shijian Lu. (2024)  
-**CAT-SAM: Conditional Tuning Network for Few-Shot Adaptation of Segmentation Anything Model**  
+**CAT-SAM: Conditional Tuning Network for Few-Shot Adaptation of Segmentation Anything Model**
+<br/>
+<button class="copy-to-clipboard" title="CAT-SAM: Conditional Tuning Network for Few-Shot Adaptation of Segmentation Anything Model" index=8>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keywords: Few-Shot  
-[Paper Link](http://arxiv.org/abs/2402.03631v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03631v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03631v1" filename="2402.03631v1">Download PDF</button>
 
 ---
 
@@ -3389,13 +5189,25 @@ The recent Segment Anything Model (SAM) has demonstrated remarkable zero-shot ca
 {{<citation>}}
 
 Ariel Lubonja, Cencheng Shen, Carey Priebe, Randal Burns. (2024)  
-**Edge-Parallel Graph Encoder Embedding**  
+**Edge-Parallel Graph Encoder Embedding**
+<br/>
+<button class="copy-to-clipboard" title="Edge-Parallel Graph Encoder Embedding" index=9>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-9 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.DC  
 Categories: cs-DC, cs-LG, cs.DC  
 Keywords: Embedding  
-[Paper Link](http://arxiv.org/abs/2402.04403v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04403v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04403v1" filename="2402.04403v1">Download PDF</button>
 
 ---
 
@@ -3411,13 +5223,25 @@ New algorithms for embedding graphs have reduced the asymptotic complexity of fi
 {{<citation>}}
 
 Oussama Zoubia, Zeyd Boukhers, Nagaraj Bahubali Asundi, Sezin Dogan, Adamantios Koumpis, Christoph Lange, Oya Beyan. (2024)  
-**FDO Manager: Minimum Viable FAIR Digital Object Implementation**  
+**FDO Manager: Minimum Viable FAIR Digital Object Implementation**
+<br/>
+<button class="copy-to-clipboard" title="FDO Manager: Minimum Viable FAIR Digital Object Implementation" index=9>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-9 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.DC  
 Categories: cs-DC, cs.DC  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.03812v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03812v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03812v1" filename="2402.03812v1">Download PDF</button>
 
 ---
 
@@ -3433,13 +5257,25 @@ The concept of FAIR Digital Objects (FDOs) aims to revolutionise the field of di
 {{<citation>}}
 
 Ding Tang, Lijuan Jiang, Minxi Jin, Jiecheng Zhou, Hengjie Li, Xingcheng Zhang, Zhilin Pei. (2024)  
-**Adaptive Blockwise Task-interleaved Pipeline Parallelism**  
+**Adaptive Blockwise Task-interleaved Pipeline Parallelism**
+<br/>
+<button class="copy-to-clipboard" title="Adaptive Blockwise Task-interleaved Pipeline Parallelism" index=9>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-9 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.DC  
 Categories: cs-DC, cs.DC  
 Keywords: GPT  
-[Paper Link](http://arxiv.org/abs/2402.03791v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03791v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03791v1" filename="2402.03791v1">Download PDF</button>
 
 ---
 
@@ -3455,13 +5291,25 @@ Efficient distributed training serves as a powerful catalyst and an essential fo
 {{<citation>}}
 
 Yi-Chien Lin, Yuyang Chen, Sameh Gobriel, Nilesh Jain, Gopi Krishna Jha, Viktor Prasanna. (2024)  
-**ARGO: An Auto-Tuning Runtime System for Scalable GNN Training on Multi-Core Processor**  
+**ARGO: An Auto-Tuning Runtime System for Scalable GNN Training on Multi-Core Processor**
+<br/>
+<button class="copy-to-clipboard" title="ARGO: An Auto-Tuning Runtime System for Scalable GNN Training on Multi-Core Processor" index=9>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-9 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.DC  
 Categories: cs-DC, cs.DC  
 Keywords: GNN, Graph Neural Network, Graph Neural Networks  
-[Paper Link](http://arxiv.org/abs/2402.03671v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03671v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03671v1" filename="2402.03671v1">Download PDF</button>
 
 ---
 
@@ -3481,13 +5329,25 @@ As Graph Neural Networks (GNNs) become popular, libraries like PyTorch-Geometric
 {{<citation>}}
 
 Oleksandr Kuznetsov, Alex Rusnak, Anton Yezhov, Kateryna Kuznetsova, Dzianis Kanonik, Oleksandr Domin. (2024)  
-**Merkle Trees in Blockchain: A Study of Collision Probability and Security Implications**  
+**Merkle Trees in Blockchain: A Study of Collision Probability and Security Implications**
+<br/>
+<button class="copy-to-clipboard" title="Merkle Trees in Blockchain: A Study of Collision Probability and Security Implications" index=10>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-10 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CR  
 Categories: cs-CR, cs.CR  
 Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2402.04367v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04367v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04367v1" filename="2402.04367v1">Download PDF</button>
 
 ---
 
@@ -3503,13 +5363,25 @@ In the rapidly evolving landscape of blockchain technology, ensuring the integri
 {{<citation>}}
 
 Yeganeh Aghamohammadi, Amin Rezaei. (2024)  
-**LIPSTICK: Corruptibility-Aware and Explainable Graph Neural Network-based Oracle-Less Attack on Logic Locking**  
+**LIPSTICK: Corruptibility-Aware and Explainable Graph Neural Network-based Oracle-Less Attack on Logic Locking**
+<br/>
+<button class="copy-to-clipboard" title="LIPSTICK: Corruptibility-Aware and Explainable Graph Neural Network-based Oracle-Less Attack on Logic Locking" index=10>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-10 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CR  
 Categories: cs-CR, cs.CR  
 Keywords: Graph Neural Network  
-[Paper Link](http://arxiv.org/abs/2402.04235v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04235v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04235v1" filename="2402.04235v1">Download PDF</button>
 
 ---
 
@@ -3525,13 +5397,25 @@ In a zero-trust fabless paradigm, designers are increasingly concerned about har
 {{<citation>}}
 
 Oleksandr Kuznetsov, Alex Rusnak, Anton Yezhov, Dzianis Kanonik, Kateryna Kuznetsova, Stanislav Karashchuk. (2024)  
-**Enhanced Security and Efficiency in Blockchain with Aggregated Zero-Knowledge Proof Mechanisms**  
+**Enhanced Security and Efficiency in Blockchain with Aggregated Zero-Knowledge Proof Mechanisms**
+<br/>
+<button class="copy-to-clipboard" title="Enhanced Security and Efficiency in Blockchain with Aggregated Zero-Knowledge Proof Mechanisms" index=10>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-10 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.CR  
 Categories: cs-CR, cs.CR  
 Keywords: Security  
-[Paper Link](http://arxiv.org/abs/2402.03834v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03834v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03834v1" filename="2402.03834v1">Download PDF</button>
 
 ---
 
@@ -3551,13 +5435,25 @@ Blockchain technology has emerged as a revolutionary tool in ensuring data integ
 {{<citation>}}
 
 Muhammad Mohsin Altaf, Saadat Ullah Khan, Muhammad Majd, Syed Muhammad Anwar. (2024)  
-**Personality Trait Recognition using ECG Spectrograms and Deep Learning**  
+**Personality Trait Recognition using ECG Spectrograms and Deep Learning**
+<br/>
+<button class="copy-to-clipboard" title="Personality Trait Recognition using ECG Spectrograms and Deep Learning" index=11>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-11 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.HC  
 Categories: cs-HC, cs-LG, cs.HC, eess-SP  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04326v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04326v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04326v1" filename="2402.04326v1">Download PDF</button>
 
 ---
 
@@ -3573,13 +5469,25 @@ This paper presents an innovative approach to recognizing personality traits usi
 {{<citation>}}
 
 Efe Bozkir, Süleyman Özdel, Ka Hei Carrie Lau, Mengdi Wang, Hong Gao, Enkelejda Kasneci. (2024)  
-**Embedding Large Language Models into Extended Reality: Opportunities and Challenges for Inclusion, Engagement, and Privacy**  
+**Embedding Large Language Models into Extended Reality: Opportunities and Challenges for Inclusion, Engagement, and Privacy**
+<br/>
+<button class="copy-to-clipboard" title="Embedding Large Language Models into Extended Reality: Opportunities and Challenges for Inclusion, Engagement, and Privacy" index=11>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-11 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.HC  
 Categories: cs-AI, cs-HC, cs.HC  
 Keywords: AI, Embedding, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03907v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03907v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03907v1" filename="2402.03907v1">Download PDF</button>
 
 ---
 
@@ -3595,13 +5503,25 @@ Recent developments in computer graphics, hardware, artificial intelligence (AI)
 {{<citation>}}
 
 Tica Lin, Hanspeter Pfister, Jui-Hsien Wang. (2024)  
-**GenLens: A Systematic Evaluation of Visual GenAI Model Outputs**  
+**GenLens: A Systematic Evaluation of Visual GenAI Model Outputs**
+<br/>
+<button class="copy-to-clipboard" title="GenLens: A Systematic Evaluation of Visual GenAI Model Outputs" index=11>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-11 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.HC  
 Categories: cs-AI, cs-HC, cs.HC  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.03700v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03700v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03700v1" filename="2402.03700v1">Download PDF</button>
 
 ---
 
@@ -3621,13 +5541,25 @@ The rapid development of generative AI (GenAI) models in computer vision necessi
 {{<citation>}}
 
 Haicheng Liao, Shangqian Liu, Yongkang Li, Zhenning Li, Chengyue Wang, Bonan Wang, Yanchen Guan, Chengzhong Xu. (2024)  
-**Human Observation-Inspired Trajectory Prediction for Autonomous Driving in Mixed-Autonomy Traffic Environments**  
+**Human Observation-Inspired Trajectory Prediction for Autonomous Driving in Mixed-Autonomy Traffic Environments**
+<br/>
+<button class="copy-to-clipboard" title="Human Observation-Inspired Trajectory Prediction for Autonomous Driving in Mixed-Autonomy Traffic Environments" index=12>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: Attention, Graph Attention Network  
-[Paper Link](http://arxiv.org/abs/2402.04318v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04318v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04318v1" filename="2402.04318v1">Download PDF</button>
 
 ---
 
@@ -3643,13 +5575,25 @@ In the burgeoning field of autonomous vehicles (AVs), trajectory prediction rema
 {{<citation>}}
 
 David Sobrín-Hidalgo, Miguel A. González-Santamarta, Ángel M. Guerrero-Higueras, Francisco J. Rodríguez-Lera, Vicente Matellán-Olivera. (2024)  
-**Explaining Autonomy: Enhancing Human-Robot Interaction through Explanation Generation with Large Language Models**  
+**Explaining Autonomy: Enhancing Human-Robot Interaction through Explanation Generation with Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Explaining Autonomy: Enhancing Human-Robot Interaction through Explanation Generation with Large Language Models" index=12>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.04206v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04206v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04206v1" filename="2402.04206v1">Download PDF</button>
 
 ---
 
@@ -3665,13 +5609,25 @@ This paper introduces a system designed to generate explanations for the actions
 {{<citation>}}
 
 Luca Morando, Giuseppe Loianno. (2024)  
-**Spatial Assisted Human-Drone Collaborative Navigation and Interaction through Immersive Mixed Reality**  
+**Spatial Assisted Human-Drone Collaborative Navigation and Interaction through Immersive Mixed Reality**
+<br/>
+<button class="copy-to-clipboard" title="Spatial Assisted Human-Drone Collaborative Navigation and Interaction through Immersive Mixed Reality" index=12>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.RO  
 Categories: cs-RO, cs-SY, cs.RO, eess-SY  
 Keywords: Drone  
-[Paper Link](http://arxiv.org/abs/2402.04070v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04070v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04070v1" filename="2402.04070v1">Download PDF</button>
 
 ---
 
@@ -3687,13 +5643,25 @@ Aerial robots have the potential to play a crucial role in assisting humans with
 {{<citation>}}
 
 Martin Aubard, Sergio Quijano, Olaya Álvarez-Tuñón, László Antal, Maria Costa, Yury Brodskiy. (2024)  
-**Mission Planning and Safety Assessment for Pipeline Inspection Using Autonomous Underwater Vehicles: A Framework based on Behavior Trees**  
+**Mission Planning and Safety Assessment for Pipeline Inspection Using Autonomous Underwater Vehicles: A Framework based on Behavior Trees**
+<br/>
+<button class="copy-to-clipboard" title="Mission Planning and Safety Assessment for Pipeline Inspection Using Autonomous Underwater Vehicles: A Framework based on Behavior Trees" index=12>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04045v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04045v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04045v1" filename="2402.04045v1">Download PDF</button>
 
 ---
 
@@ -3709,13 +5677,25 @@ The recent advance in autonomous underwater robotics facilitates autonomous insp
 {{<citation>}}
 
 Mihir Kulkarni, Kostas Alexis. (2024)  
-**Reinforcement Learning for Collision-free Flight Exploiting Deep Collision Encoding**  
+**Reinforcement Learning for Collision-free Flight Exploiting Deep Collision Encoding**
+<br/>
+<button class="copy-to-clipboard" title="Reinforcement Learning for Collision-free Flight Exploiting Deep Collision Encoding" index=12>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.03947v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03947v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03947v1" filename="2402.03947v1">Download PDF</button>
 
 ---
 
@@ -3731,13 +5711,25 @@ This work contributes a novel deep navigation policy that enables collision-free
 {{<citation>}}
 
 Nicolas Harvey Chapman, Feras Dayoub, Will Browne, Chris Lehnert. (2024)  
-**Enhancing Embodied Object Detection through Language-Image Pre-training and Implicit Object Memory**  
+**Enhancing Embodied Object Detection through Language-Image Pre-training and Implicit Object Memory**
+<br/>
+<button class="copy-to-clipboard" title="Enhancing Embodied Object Detection through Language-Image Pre-training and Implicit Object Memory" index=12>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: Object Detection  
-[Paper Link](http://arxiv.org/abs/2402.03721v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03721v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03721v1" filename="2402.03721v1">Download PDF</button>
 
 ---
 
@@ -3753,13 +5745,25 @@ Deep-learning and large scale language-image training have produced image object
 {{<citation>}}
 
 Shenghai Yuan, Yizhuo Yang, Thien Hoang Nguyen, Thien-Minh Nguyen, Jianfei Yang, Fen Liu, Jianping Li, Han Wang, Lihua Xie. (2024)  
-**MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats**  
+**MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats**
+<br/>
+<button class="copy-to-clipboard" title="MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats" index=12>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.RO  
 Categories: cs-AI, cs-CV, cs-RO, cs.RO  
 Keywords: Drone  
-[Paper Link](http://arxiv.org/abs/2402.03706v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03706v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03706v1" filename="2402.03706v1">Download PDF</button>
 
 ---
 
@@ -3775,13 +5779,25 @@ In response to the evolving challenges posed by small unmanned aerial vehicles (
 {{<citation>}}
 
 Zhirong Luan, Yujun Lai. (2024)  
-**Hierarchical Large Language Models in Cloud Edge End Architecture for Heterogeneous Robot Cluster Control**  
+**Hierarchical Large Language Models in Cloud Edge End Architecture for Heterogeneous Robot Cluster Control**
+<br/>
+<button class="copy-to-clipboard" title="Hierarchical Large Language Models in Cloud Edge End Architecture for Heterogeneous Robot Cluster Control" index=12>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03703v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03703v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03703v1" filename="2402.03703v1">Download PDF</button>
 
 ---
 
@@ -3797,13 +5813,25 @@ Despite their powerful semantic understanding and code generation capabilities, 
 {{<citation>}}
 
 Zhirong Luan, Yujun Lai. (2024)  
-**Automatic Robotic Development through Collaborative Framework by Large Language Models**  
+**Automatic Robotic Development through Collaborative Framework by Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Automatic Robotic Development through Collaborative Framework by Large Language Models" index=12>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.RO  
 Categories: cs-CV, cs-RO, cs.RO  
 Keywords: Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03699v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03699v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03699v1" filename="2402.03699v1">Download PDF</button>
 
 ---
 
@@ -3819,13 +5847,25 @@ Despite the remarkable code generation abilities of large language models LLMs, 
 {{<citation>}}
 
 Yufei Wang, Zhanyi Sun, Jesse Zhang, Zhou Xian, Erdem Biyik, David Held, Zackory Erickson. (2024)  
-**RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback**  
+**RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback**
+<br/>
+<button class="copy-to-clipboard" title="RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback" index=12>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.RO  
 Categories: cs-AI, cs-LG, cs-RO, cs.RO  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.03681v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03681v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03681v1" filename="2402.03681v1">Download PDF</button>
 
 ---
 
@@ -3845,13 +5885,25 @@ Reward engineering has long been a challenge in Reinforcement Learning (RL) rese
 {{<citation>}}
 
 Sandipp Krishnan Ravi, Yigitcan Comlek, Wei Chen, Arjun Pathak, Vipul Gupta, Rajnikant Umretiya, Andrew Hoffman, Ghanshyam Pilania, Piyush Pandita, Sayan Ghosh, Nathaniel Mckeever, Liping Wang. (2024)  
-**Interpretable Multi-Source Data Fusion Through Latent Variable Gaussian Process**  
+**Interpretable Multi-Source Data Fusion Through Latent Variable Gaussian Process**
+<br/>
+<button class="copy-to-clipboard" title="Interpretable Multi-Source Data Fusion Through Latent Variable Gaussian Process" index=13>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-13 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: stat.ML  
 Categories: cs-LG, stat-ML, stat.ML  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04146v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04146v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04146v1" filename="2402.04146v1">Download PDF</button>
 
 ---
 
@@ -3867,13 +5919,25 @@ With the advent of artificial intelligence (AI) and machine learning (ML), vario
 {{<citation>}}
 
 Paul Mangold, Sergey Samsonov, Safwan Labbi, Ilya Levin, Reda Alami, Alexey Naumov, Eric Moulines. (2024)  
-**SCAFFLSA: Quantifying and Eliminating Heterogeneity Bias in Federated Linear Stochastic Approximation and Temporal Difference Learning**  
+**SCAFFLSA: Quantifying and Eliminating Heterogeneity Bias in Federated Linear Stochastic Approximation and Temporal Difference Learning**
+<br/>
+<button class="copy-to-clipboard" title="SCAFFLSA: Quantifying and Eliminating Heterogeneity Bias in Federated Linear Stochastic Approximation and Temporal Difference Learning" index=13>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-13 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: stat.ML  
 Categories: cs-LG, math-OC, stat-ML, stat.ML  
 Keywords: Bias  
-[Paper Link](http://arxiv.org/abs/2402.04114v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04114v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04114v1" filename="2402.04114v1">Download PDF</button>
 
 ---
 
@@ -3889,13 +5953,25 @@ In this paper, we perform a non-asymptotic analysis of the federated linear stoc
 {{<citation>}}
 
 Tan Sun, Junhong Lin. (2024)  
-**PAC-Bayesian Adversarially Robust Generalization Bounds for Graph Neural Network**  
+**PAC-Bayesian Adversarially Robust Generalization Bounds for Graph Neural Network**
+<br/>
+<button class="copy-to-clipboard" title="PAC-Bayesian Adversarially Robust Generalization Bounds for Graph Neural Network" index=13>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-13 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: stat.ML  
 Categories: cs-LG, stat-ML, stat.ML  
 Keywords: GNN, Graph Neural Network  
-[Paper Link](http://arxiv.org/abs/2402.04038v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04038v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04038v1" filename="2402.04038v1">Download PDF</button>
 
 ---
 
@@ -3911,13 +5987,25 @@ Graph neural networks (GNNs) have gained popularity for various graph-related ta
 {{<citation>}}
 
 Florian Valade, Mohamed Hebiri, Paul Gay. (2024)  
-**EERO: Early Exit with Reject Option for Efficient Classification with limited budget**  
+**EERO: Early Exit with Reject Option for Efficient Classification with limited budget**
+<br/>
+<button class="copy-to-clipboard" title="EERO: Early Exit with Reject Option for Efficient Classification with limited budget" index=13>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-13 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: stat.ML  
 Categories: cs-LG, stat-ML, stat.ML  
 Keywords: ImageNet  
-[Paper Link](http://arxiv.org/abs/2402.03779v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03779v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03779v1" filename="2402.03779v1">Download PDF</button>
 
 ---
 
@@ -3933,13 +6021,25 @@ The increasing complexity of advanced machine learning models requires innovativ
 {{<citation>}}
 
 Daiki Miwa, Tomohiro Shiraishi, Vo Nguyen Le Duy, Teruyuki Katsuoka, Ichiro Takeuchi. (2024)  
-**Statistical Test for Anomaly Detections by Variational Auto-Encoders**  
+**Statistical Test for Anomaly Detections by Variational Auto-Encoders**
+<br/>
+<button class="copy-to-clipboard" title="Statistical Test for Anomaly Detections by Variational Auto-Encoders" index=13>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-13 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: stat.ML  
 Categories: cs-LG, stat-ML, stat.ML  
 Keywords: Anomaly Detection  
-[Paper Link](http://arxiv.org/abs/2402.03724v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03724v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03724v1" filename="2402.03724v1">Download PDF</button>
 
 ---
 
@@ -3959,13 +6059,25 @@ In this study, we consider the reliability assessment of anomaly detection (AD) 
 {{<citation>}}
 
 Liang-Hsuan Tseng, En-Pei Hu, Cheng-Han Chiang, Yuan Tseng, Hung-yi Lee, Lin-shan Lee, Shao-Hua Sun. (2024)  
-**REBORN: Reinforcement-Learned Boundary Segmentation with Iterative Training for Unsupervised ASR**  
+**REBORN: Reinforcement-Learned Boundary Segmentation with Iterative Training for Unsupervised ASR**
+<br/>
+<button class="copy-to-clipboard" title="REBORN: Reinforcement-Learned Boundary Segmentation with Iterative Training for Unsupervised ASR" index=14>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-14 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: eess.AS  
 Categories: cs-CL, cs-SD, eess-AS, eess.AS  
 Keywords: Multilingual  
-[Paper Link](http://arxiv.org/abs/2402.03988v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03988v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03988v1" filename="2402.03988v1">Download PDF</button>
 
 ---
 
@@ -3985,13 +6097,25 @@ Unsupervised automatic speech recognition (ASR) aims to learn the mapping betwee
 {{<citation>}}
 
 Maxime Toquebiau, Nicolas Bredeche, Faïz Benamar, Jae-Yun Jun. (2024)  
-**Joint Intrinsic Motivation for Coordinated Exploration in Multi-Agent Deep Reinforcement Learning**  
+**Joint Intrinsic Motivation for Coordinated Exploration in Multi-Agent Deep Reinforcement Learning**
+<br/>
+<button class="copy-to-clipboard" title="Joint Intrinsic Motivation for Coordinated Exploration in Multi-Agent Deep Reinforcement Learning" index=15>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-15 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.MA  
 Categories: cs-AI, cs-MA, cs.MA  
 Keywords: Reinforcement Learning  
-[Paper Link](http://arxiv.org/abs/2402.03972v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03972v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03972v1" filename="2402.03972v1">Download PDF</button>
 
 ---
 
@@ -4011,13 +6135,25 @@ Multi-agent deep reinforcement learning (MADRL) problems often encounter the cha
 {{<citation>}}
 
 Ian Gemp, Marc Lanctot, Luke Marris, Yiran Mao, Edgar Duéñez-Guzmán, Sarah Perrin, Andras Gyorgy, Romuald Elie, Georgios Piliouras, Michael Kaisers, Daniel Hennes, Kalesha Bullard, Kate Larson, Yoram Bachrach. (2024)  
-**Approximating the Core via Iterative Coalition Sampling**  
+**Approximating the Core via Iterative Coalition Sampling**
+<br/>
+<button class="copy-to-clipboard" title="Approximating the Core via Iterative Coalition Sampling" index=16>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-16 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.GT  
 Categories: cs-GT, cs-MA, cs.GT  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.03928v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03928v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03928v1" filename="2402.03928v1">Download PDF</button>
 
 ---
 
@@ -4037,13 +6173,25 @@ The core is a central solution concept in cooperative game theory, defined as th
 {{<citation>}}
 
 Qiang Liu, Xiang Tao, Junfei Wu, Shu Wu, Liang Wang. (2024)  
-**Can Large Language Models Detect Rumors on Social Media?**  
+**Can Large Language Models Detect Rumors on Social Media?**
+<br/>
+<button class="copy-to-clipboard" title="Can Large Language Models Detect Rumors on Social Media?" index=17>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-17 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.IR  
 Categories: cs-CL, cs-IR, cs.IR  
 Keywords: Language Model, Social Media, Twitter  
-[Paper Link](http://arxiv.org/abs/2402.03916v2)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03916v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03916v2" filename="2402.03916v2">Download PDF</button>
 
 ---
 
@@ -4059,13 +6207,25 @@ In this work, we investigate to use Large Language Models (LLMs) for rumor detec
 {{<citation>}}
 
 Jinqiu Jin, Sihao Ding, Wenjie Wang, Fuli Feng. (2024)  
-**Understanding and Counteracting Feature-Level Bias in Click-Through Rate Prediction**  
+**Understanding and Counteracting Feature-Level Bias in Click-Through Rate Prediction**
+<br/>
+<button class="copy-to-clipboard" title="Understanding and Counteracting Feature-Level Bias in Click-Through Rate Prediction" index=17>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-17 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.IR  
 Categories: cs-IR, cs.IR  
 Keywords: Bias  
-[Paper Link](http://arxiv.org/abs/2402.03600v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03600v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03600v1" filename="2402.03600v1">Download PDF</button>
 
 ---
 
@@ -4085,13 +6245,25 @@ Common click-through rate (CTR) prediction recommender models tend to exhibit fe
 {{<citation>}}
 
 Marc Schmitt. (2024)  
-**Explainable Automated Machine Learning for Credit Decisions: Enhancing Human Artificial Intelligence Collaboration in Financial Engineering**  
+**Explainable Automated Machine Learning for Credit Decisions: Enhancing Human Artificial Intelligence Collaboration in Financial Engineering**
+<br/>
+<button class="copy-to-clipboard" title="Explainable Automated Machine Learning for Credit Decisions: Enhancing Human Artificial Intelligence Collaboration in Financial Engineering" index=18>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-18 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: q-fin.RM  
 Categories: cs-LG, q-fin-CP, q-fin-RM, q-fin.RM  
 Keywords: AI, Financial  
-[Paper Link](http://arxiv.org/abs/2402.03806v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03806v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03806v1" filename="2402.03806v1">Download PDF</button>
 
 ---
 
@@ -4111,13 +6283,25 @@ This paper explores the integration of Explainable Automated Machine Learning (A
 {{<citation>}}
 
 Junfeng Fang, Shuai Zhang, Chang Wu, Zhiyuan Liu, Sihang Li, Kun Wang, Wenjie Du, Xiang Wang, Xiangnan He. (2024)  
-**MolTC: Towards Molecular Relational Modeling In Language Models**  
+**MolTC: Towards Molecular Relational Modeling In Language Models**
+<br/>
+<button class="copy-to-clipboard" title="MolTC: Towards Molecular Relational Modeling In Language Models" index=19>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-19 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: q-bio.QM  
 Categories: cs-AI, cs-LG, q-bio-QM, q-bio.QM  
 Keywords: GNN, Language Model  
-[Paper Link](http://arxiv.org/abs/2402.03781v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03781v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03781v1" filename="2402.03781v1">Download PDF</button>
 
 ---
 
@@ -4133,13 +6317,25 @@ Molecular Relational Learning (MRL), aiming to understand interactions between m
 {{<citation>}}
 
 Qing Li, Zhihang Hu, Yixuan Wang, Lei Li, Yimin Fan, Irwin King, Le Song, Yu Li. (2024)  
-**Progress and Opportunities of Foundation Models in Bioinformatics**  
+**Progress and Opportunities of Foundation Models in Bioinformatics**
+<br/>
+<button class="copy-to-clipboard" title="Progress and Opportunities of Foundation Models in Bioinformatics" index=19>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-19 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: q-bio.QM  
 Categories: I-2-1, cs-AI, cs-CL, 92-02, cs-LG, q-bio-QM, q-bio.QM  
 Keywords: AI  
-[Paper Link](http://arxiv.org/abs/2402.04286v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04286v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04286v1" filename="2402.04286v1">Download PDF</button>
 
 ---
 
@@ -4159,13 +6355,25 @@ Bioinformatics has witnessed a paradigm shift with the increasing integration of
 {{<citation>}}
 
 Gianluca Nogara, Francesco Pierri, Stefano Cresci, Luca Luceri, Silvia Giordano. (2024)  
-**Misinformation and Polarization around COVID-19 vaccines in France, Germany, and Italy**  
+**Misinformation and Polarization around COVID-19 vaccines in France, Germany, and Italy**
+<br/>
+<button class="copy-to-clipboard" title="Misinformation and Polarization around COVID-19 vaccines in France, Germany, and Italy" index=20>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-20 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.SI  
 Categories: cs-SI, cs.SI, physics-soc-ph  
 Keywords: Twitter  
-[Paper Link](http://arxiv.org/abs/2402.03763v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03763v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03763v1" filename="2402.03763v1">Download PDF</button>
 
 ---
 
@@ -4181,13 +6389,25 @@ The kick-off of vaccination campaigns in Europe, starting in late December 2020,
 {{<citation>}}
 
 Mohammad Majid Akhtar, Navid Shadman Bhuiyan, Rahat Masood, Muhammad Ikram, Salil S. Kanhere. (2024)  
-**BotSSCL: Social Bot Detection with Self-Supervised Contrastive Learning**  
+**BotSSCL: Social Bot Detection with Self-Supervised Contrastive Learning**
+<br/>
+<button class="copy-to-clipboard" title="BotSSCL: Social Bot Detection with Self-Supervised Contrastive Learning" index=20>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-20 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: cs.SI  
 Categories: cs-CY, cs-LG, cs-SI, cs.SI  
 Keywords: Contrastive Learning, Self-Supervised  
-[Paper Link](http://arxiv.org/abs/2402.03740v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03740v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.03740v1" filename="2402.03740v1">Download PDF</button>
 
 ---
 
@@ -4207,13 +6427,25 @@ The detection of automated accounts, also known as "social bots", has been an in
 {{<citation>}}
 
 Yeaju Kim, Junggu Choi, Bora Kim, Yongwan Park, Jihyun Cha, Jongkwan Choi, Sanghoon Han. (2024)  
-**Association between Prefrontal fNIRS signals during Cognitive tasks and College scholastic ability test (CSAT) scores: Analysis using a quantum annealing approach**  
+**Association between Prefrontal fNIRS signals during Cognitive tasks and College scholastic ability test (CSAT) scores: Analysis using a quantum annealing approach**
+<br/>
+<button class="copy-to-clipboard" title="Association between Prefrontal fNIRS signals during Cognitive tasks and College scholastic ability test (CSAT) scores: Analysis using a quantum annealing approach" index=21>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-21 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
 
 ---
 Primary Category: q-bio.NC  
 Categories: cs-ET, q-bio-NC, q-bio.NC, quant-ph  
 Keywords: QA  
-[Paper Link](http://arxiv.org/abs/2402.04287v1)  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.04287v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="http://arxiv.org/pdf/2402.04287v1" filename="2402.04287v1">Download PDF</button>
 
 ---
 
