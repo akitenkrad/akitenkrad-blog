@@ -199,28 +199,13 @@ math: true
         kw_df = kw_df[["category", "keyword", "count"]].sort_values(by=["category", "count"], ascending=[True, False])
         kw_df = pd.pivot_table(kw_df, index="keyword", columns="category", values="count", fill_value="", aggfunc="sum")
 
-        text += f"""
-<div class="accordion">
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Keywords
-            </button>
-        </h2>
-        <div class="accordion-collapse collapse show">
-            <div class="accordion-body" id="keyword-table-accordion-body">
-
-                {kw_df.to_html(index=False)}
-
-            </div>
-        </div>
-    </div>
-</div>
+        text += f"""## Keywords
+                {kw_df.to_markdown()}
 
 <script>
 $(function() {{
-    $("#keyword-table-accordion-body table").addClass("keyword-table")
-    $("#keyword-table-accordion-body table thead").addClass("sticky-top")
+    $("table").addClass("keyword-table")
+    $("table thead").addClass("sticky-top")
 }})
 </script>
 """
