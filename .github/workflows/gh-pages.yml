@@ -30,3 +30,19 @@ jobs:
         with:
           github_token: ${{ secrets.ACTION_DEPLOY_KEY }}
           publish_dir: ./docs
+
+      - name: Slack Notification on Success
+        uses: rtCamp/action-slack-notify@v2
+        if : ${{ success() }}
+        env:
+          SLACK_TITLE: "Deployed Successfully"
+          SLACK_COLOR: good
+          SLACK_MESSAGE: "Deployed akitenkrad's blog Successfully!!!"
+
+      - name: Slack Notification on Failure
+        uses: rtCamp/action-slack-notify@v2
+        if : ${{ failure() }}
+        env:
+          SLACK_TITLE: "Deploy Failed"
+          SLACK_COLOR: danger
+          SLACK_MESSAGE: "Failed to deploy akitenkrad's blog!!!"
