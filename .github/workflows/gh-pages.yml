@@ -6,6 +6,11 @@ on:
       - main  # Set a branch to deploy
   pull_request:
 
+env:
+  SLACK_USERNAME: "GitHub Actions"
+  SLACK_ICON: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+
 jobs:
   deploy:
     runs-on: ubuntu-20.04
