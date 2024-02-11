@@ -201,7 +201,7 @@ math: true
 
         text += f"""## Keywords
 
-                {kw_df.to_markdown()}
+{kw_df.to_markdown()}
 
 <script>
 $(function() {{
