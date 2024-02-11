@@ -208,11 +208,21 @@ math: true
             </button>
         </h2>
         <div class="accordion-collapse collapse show">
-            <div class="accordion-body">
-                {kw_df.to_markdown().replace("<table>", "<table class='keyword-table'>").replace("<thead>", "<thead class='sticky-top'")}
+            <div class="accordion-body" id="keyword-table-accordion-body">
+
+                {kw_df.to_html(index=False)}
+
             </div>
         </div>
     </div>
+</div>
+
+<script>
+$(function() {{
+    $("#keyword-table-accordion-body table").addClass("keyword-table")
+    $("#keyword-table-accordion-body table thead").addClass("sticky-top")
+}})
+</script>
 """
         paper_count = 1
         for primary_category, posts in post_dict.items():

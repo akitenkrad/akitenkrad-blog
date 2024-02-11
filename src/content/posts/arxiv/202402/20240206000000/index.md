@@ -40,102 +40,100 @@ math: true
 - [cs.SI (2)](#cssi-2)
 - [eess.IV (5)](#eessiv-5)
 - [eess.SY (4)](#eesssy-4)
-- [math.OC (2)](#mathoc-2)## Keywords
+- [math.OC (2)](#mathoc-2)
 
-<summary>Click to expand</summary>
-<details>
 
-| keyword                        |   astro-ph.CO |   cs.AI |   cs.CE |   cs.CL |   cs.CR |   cs.CV |   cs.DB |   cs.DC |   cs.GL |   cs.GT |   cs.IR |   cs.IT |   cs.LG |   cs.NI |   cs.RO |   cs.SE |   cs.SI |   eess.IV |   eess.SY |   math.OC |
-|:-------------------------------|--------------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|----------:|----------:|----------:|
-| Active Learning                |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Adversarial Attack             |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Autoencoder                    |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| BERT                           |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| BLEU                           |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |         0 |         0 |         0 |
-| Bard                           |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Chain-of-thought Prompt        |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| ChatGPT                        |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Chatbot                        |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Common-sense Reasoning         |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Continual Learning             |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |         0 |         0 |         0 |
-| Contrastive Learning           |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Convolution                    |             1 |       0 |       0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Convolutional Neural Network   |             2 |       0 |       0 |       0 |       1 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         2 |         0 |         0 |
-| Curriculum Learning            |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Data Augmentation              |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       3 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Emotion Recognition            |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Explainable AI                 |             0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Fact Verification              |             0 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Few-shot                       |             0 |       0 |       0 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Few-shot Learning              |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Fine-tuning                    |             0 |       2 |       0 |       7 |       0 |       5 |       1 |       0 |       0 |       0 |       0 |       0 |       6 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Foundation Model               |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       3 |       1 |       1 |       0 |       0 |         0 |         0 |         0 |
-| GPT                            |             0 |       0 |       0 |       3 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| GPT-3                          |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| GPT-4                          |             0 |       1 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Generative AI                  |             0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Graph Classification           |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Graph Convolutional Network    |             0 |       0 |       0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Graph Neural Network           |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       5 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Grounding                      |             0 |       0 |       0 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| High-Resource                  |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Image2text                     |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| In-context Learning            |             0 |       0 |       0 |       7 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       4 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Information Retrieval          |             0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Instruction Following          |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Instruction Tuning             |             0 |       1 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Knowledge Distillation         |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       3 |       0 |       0 |       1 |       0 |         0 |         0 |         0 |
-| Language Generation            |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Large Language Model           |             0 |       8 |       0 |      27 |       0 |       5 |       2 |       0 |       0 |       0 |       0 |       0 |      15 |       2 |       0 |       2 |       0 |         0 |         0 |         0 |
-| Low-Resource                   |             0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Message-Passing                |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |       0 |       1 |       0 |       0 |         0 |         0 |         0 |
-| Meta Learning                  |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Mutual Information             |             0 |       0 |       0 |       1 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Natural Language Generation    |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Natural Language Inference     |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Natural Language Understanding |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Neural Machine Translation     |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Node Classification            |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Object Detection               |             0 |       0 |       0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |         0 |         0 |         0 |
-| Offline Reinforcement Learning |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Out-of-distribution            |             0 |       0 |       0 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Perplexity                     |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Pre-trained Language Model     |             0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Prompt                         |             0 |       3 |       0 |       5 |       1 |       6 |       1 |       0 |       0 |       0 |       0 |       0 |       5 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Pruning                        |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Quantization                   |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       4 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Question Answering             |             0 |       3 |       0 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Reasoning                      |             0 |       3 |       0 |       6 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       0 |       0 |         0 |         0 |         0 |
-| Recommendation                 |             0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Recurrent Neural Network       |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       4 |       0 |       0 |       0 |       2 |         0 |         0 |         0 |
-| Reinforcement Learning         |             0 |       1 |       0 |       1 |       1 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       7 |       1 |       2 |       0 |       0 |         0 |         0 |         0 |
-| Rerank                         |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Rouge                          |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |         0 |         0 |         0 |
-| Sample Size                    |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Scaling Law                    |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Self-Attention                 |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Self-supervised Learning       |             0 |       0 |       0 |       1 |       0 |       6 |       0 |       0 |       0 |       0 |       0 |       0 |       4 |       0 |       0 |       0 |       0 |         1 |         0 |         0 |
-| Self-supervised Pre-training   |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Simulation                     |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       2 |       1 |       2 |       7 |       0 |       0 |         0 |         4 |         1 |
-| Simulator                      |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       2 |       1 |       2 |       7 |       0 |       0 |         0 |         4 |         1 |
-| Stochastic Gradient Descent    |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       3 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Summarization                  |             0 |       0 |       0 |       1 |       0 |       0 |       1 |       0 |       0 |       0 |       1 |       0 |       2 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Supervised Learning            |             0 |       0 |       0 |       4 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         1 |
-| T5                             |             0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |         0 |         0 |         0 |
-| Text Analysis                  |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Text Generation                |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Text Understanding             |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Text2image                     |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Transfer Learning              |             0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Transformer                    |             0 |       0 |       0 |       2 |       1 |       7 |       0 |       0 |       1 |       0 |       0 |       0 |      15 |       0 |       0 |       0 |       0 |         3 |         0 |         0 |
-| Unsupervised Learning          |             0 |       0 |       0 |       0 |       0 |       4 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |         0 |         0 |         0 |
-| Vision-and-Language            |             0 |       0 |       0 |       1 |       0 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Visual Question Answering      |             0 |       0 |       0 |       1 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Word Embedding                 |             0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |         0 |         0 |         0 |
-| Zero-shot                      |             0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       3 |       0 |       1 |       0 |       0 |         0 |         0 |         0 |
-
-</details>
-
+<div class="accordion">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Keywords
+            </button>
+        </h2>
+        <div class="accordion-collapse collapse show">
+            <div class="accordion-body">
+                | keyword                        | cs.CL   | cs.CV   | cs.LG   | cs.RO   |
+|:-------------------------------|:--------|:--------|:--------|:--------|
+| Active Learning                |         |         | 2.0     |         |
+| Adversarial Attack             |         | 1.0     | 1.0     |         |
+| Autoencoder                    |         | 1.0     |         |         |
+| BERT                           |         |         | 1.0     |         |
+| Chain-of-thought Prompt        | 1.0     |         |         |         |
+| ChatGPT                        |         | 1.0     |         |         |
+| Common-sense Reasoning         | 1.0     |         |         |         |
+| Continual Learning             |         |         |         | 1.0     |
+| Contrastive Learning           |         | 1.0     | 2.0     |         |
+| Convolution                    |         | 2.0     | 1.0     |         |
+| Convolutional Neural Network   |         | 3.0     |         |         |
+| Curriculum Learning            |         | 1.0     |         |         |
+| Data Augmentation              |         |         | 3.0     |         |
+| Emotion Recognition            | 1.0     |         |         |         |
+| Fact Verification              | 1.0     |         |         |         |
+| Few-shot                       | 1.0     | 1.0     | 1.0     |         |
+| Few-shot Learning              |         | 1.0     |         |         |
+| Fine-tuning                    | 7.0     | 5.0     | 6.0     |         |
+| Foundation Model               |         |         | 3.0     | 1.0     |
+| GPT                            | 3.0     | 1.0     | 2.0     |         |
+| GPT-3                          |         | 1.0     |         |         |
+| GPT-4                          | 2.0     |         |         |         |
+| Graph Classification           |         |         | 1.0     |         |
+| Graph Convolutional Network    |         | 2.0     |         |         |
+| Graph Neural Network           |         |         | 5.0     |         |
+| Grounding                      | 1.0     | 1.0     |         |         |
+| High-Resource                  | 1.0     |         |         |         |
+| Image2text                     |         | 1.0     |         |         |
+| In-context Learning            | 7.0     |         | 4.0     |         |
+| Information Retrieval          | 2.0     |         |         |         |
+| Instruction Following          | 1.0     |         | 1.0     |         |
+| Instruction Tuning             | 2.0     |         | 1.0     |         |
+| Knowledge Distillation         |         | 1.0     | 3.0     |         |
+| Language Generation            |         |         | 1.0     |         |
+| Large Language Model           | 27.0    | 5.0     | 15.0    |         |
+| Low-Resource                   | 2.0     |         | 1.0     |         |
+| Message-Passing                |         |         | 1.0     | 1.0     |
+| Meta Learning                  |         |         | 1.0     |         |
+| Mutual Information             | 1.0     | 2.0     | 1.0     |         |
+| Natural Language Generation    |         |         | 1.0     |         |
+| Natural Language Inference     | 1.0     |         |         |         |
+| Natural Language Understanding | 1.0     |         |         |         |
+| Neural Machine Translation     | 1.0     |         |         |         |
+| Node Classification            |         |         | 1.0     |         |
+| Object Detection               |         | 2.0     |         | 1.0     |
+| Offline Reinforcement Learning |         |         | 1.0     |         |
+| Out-of-distribution            | 1.0     | 1.0     |         |         |
+| Perplexity                     | 1.0     |         |         |         |
+| Pre-trained Language Model     | 2.0     |         |         |         |
+| Prompt                         | 5.0     | 6.0     | 5.0     |         |
+| Pruning                        |         |         | 1.0     |         |
+| Quantization                   |         |         | 4.0     |         |
+| Question Answering             | 1.0     | 1.0     |         |         |
+| Reasoning                      | 6.0     | 2.0     |         | 2.0     |
+| Recurrent Neural Network       |         |         | 4.0     |         |
+| Reinforcement Learning         | 1.0     |         | 7.0     | 2.0     |
+| Sample Size                    | 1.0     |         |         |         |
+| Scaling Law                    |         |         | 1.0     |         |
+| Self-Attention                 |         | 1.0     |         |         |
+| Self-supervised Learning       | 1.0     | 6.0     | 4.0     |         |
+| Self-supervised Pre-training   |         | 1.0     | 1.0     |         |
+| Simulation                     |         |         | 1.0     | 7.0     |
+| Simulator                      |         |         | 1.0     | 7.0     |
+| Stochastic Gradient Descent    |         |         | 3.0     |         |
+| Summarization                  | 1.0     |         | 2.0     |         |
+| Supervised Learning            | 4.0     |         |         |         |
+| Text Analysis                  | 1.0     |         |         |         |
+| Text Generation                | 1.0     |         |         |         |
+| Text Understanding             | 1.0     |         |         |         |
+| Text2image                     |         | 1.0     | 1.0     |         |
+| Transfer Learning              |         | 1.0     | 1.0     |         |
+| Transformer                    | 2.0     | 7.0     | 15.0    |         |
+| Unsupervised Learning          |         | 4.0     |         |         |
+| Vision-and-Language            | 1.0     | 3.0     | 1.0     |         |
+| Visual Question Answering      | 1.0     | 2.0     |         |         |
+| Word Embedding                 | 1.0     |         |         |         |
+| Zero-shot                      | 2.0     |         | 3.0     | 1.0     |
+            </div>
+        </div>
+    </div>
 
 
 ## cs.CL (23)
@@ -164,7 +162,7 @@ Hangwen Zhang, Qingyi Si, Peng Fu, Zheng Lin, Weiping Wang. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keyword Score: 100  
-Keywords: Fact Verification(10), Few-shot(10), In-context Learning(10), In-context Learning(10), Instruction Tuning(10), Large Language Model(10), Large Language Model(10), Prompt(10), Reasoning(10), Zero-shot(10)  
+Keywords: Few-shot, Zero-shot, Fact Verification, Reasoning, In-context Learning, In-context Learning, Instruction Tuning, Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02549v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02549v1.pdf" filename="2402.02549v1.pdf">Download PDF</button>
 
@@ -172,7 +170,7 @@ Keywords: Fact Verification(10), Few-shot(10), In-context Learning(10), In-conte
 
 
 **ABSTRACT**  
-Table-based Fact Verification (TFV) aims to extract the entailment relation between statements and structured tables. Existing TFV methods based on small-scaled models suffer from insufficient labeled data and weak zero-shot ability. Recently, the appearance of Large Language Models (LLMs) has gained lots of attraction in research fields. They have shown powerful zero-shot and in-context learning abilities on several NLP tasks, but their potential on TFV is still unknown. In this work, we implement a preliminary study about whether LLMs are table-based fact-checkers. In detail, we design diverse prompts to explore how the in-context learning can help LLMs in TFV, i.e., zero-shot and few-shot TFV capability. Besides, we carefully design and construct TFV instructions to study the performance gain brought by the instruction tuning of LLMs. Experimental results demonstrate that LLMs can achieve acceptable results on zero-shot and few-shot TFV with prompt engineering, while instruction-tuning can stimulate the TFV capability significantly. We also make some valuable findings about the format of zero-shot prompts and the number of in-context examples. Finally, we analyze some possible directions to promote the accuracy of TFV via LLMs, which is beneficial to further research of table reasoning.
+Table-based <b>Fact</b> <b>Verification</b> (TFV) aims to extract the entailment relation between statements and structured tables. Existing TFV methods based on small-scaled models suffer from insufficient labeled data and weak <b>zero-shot</b> ability. Recently, the appearance of Large Language Models (LLMs) has gained lots of attraction in research fields. They have shown powerful <b>zero-shot</b> and <b>in-context</b> <b>learning</b> abilities on several NLP tasks, but their potential on TFV is still unknown. In this work, we implement a preliminary study about whether LLMs are table-based fact-checkers. In detail, we design diverse prompts to explore how the <b>in-context</b> <b>learning</b> can help LLMs in TFV, i.e., <b>zero-shot</b> and <b>few-shot</b> TFV capability. Besides, we carefully design and construct TFV instructions to study the performance gain brought by the <b>instruction</b> <b>tuning</b> of LLMs. Experimental results demonstrate that LLMs can achieve acceptable results on <b>zero-shot</b> and <b>few-shot</b> TFV with <b>prompt</b> engineering, while instruction-tuning can stimulate the TFV capability significantly. We also make some valuable findings about the format of <b>zero-shot</b> prompts and the number of <b>in-context</b> examples. Finally, we analyze some possible directions to promote the accuracy of TFV via LLMs, which is beneficial to further research of table reasoning.
 
 {{</citation>}}
 
@@ -199,7 +197,7 @@ Jiaming Ji, Boyuan Chen, Hantao Lou, Donghai Hong, Borong Zhang, Xuehai Pan, Jun
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keyword Score: 80  
-Keywords: Fine-tuning(10), GPT(10), GPT-4(10), Large Language Model(10), Large Language Model(10), Reinforcement Learning(10), Supervised Learning(10), Supervised Learning(10)  
+Keywords: Fine-tuning, Reinforcement Learning, Supervised Learning, Supervised Learning, GPT, GPT-4, Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02416v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02416v2.pdf" filename="2402.02416v2.pdf">Download PDF</button>
 
@@ -207,7 +205,7 @@ Keywords: Fine-tuning(10), GPT(10), GPT-4(10), Large Language Model(10), Large L
 
 
 **ABSTRACT**  
-Efforts to align Large Language Models (LLMs) are mainly conducted via Reinforcement Learning from Human Feedback (RLHF) methods. However, RLHF encounters major challenges including training reward models, actor-critic engineering, and importantly, it requires access to LLM parameters. Here we introduce Aligner, a new efficient alignment paradigm that bypasses the whole RLHF process by learning the correctional residuals between the aligned and the unaligned answers. Our Aligner offers several key advantages. Firstly, it is an autoregressive seq2seq model that is trained on the query-answer-correction dataset via supervised learning; this offers a parameter-efficient alignment solution with minimal resources. Secondly, the Aligner facilitates weak-to-strong generalization; finetuning large pretrained models by Aligner's supervisory signals demonstrates strong performance boost. Thirdly, Aligner functions as a model-agnostic plug-and-play module, allowing for its direct application on different open-source and API-based models. Remarkably, Aligner-7B improves 11 different LLMs by 21.9% in helpfulness and 23.8% in harmlessness on average (GPT-4 by 17.5% and 26.9%). When finetuning (strong) Llama2-70B with (weak) Aligner-13B's supervision, we can improve Llama2 by 8.2% in helpfulness and 61.6% in harmlessness. See our dataset and code at https://aligner2024.github.io
+Efforts to align Large Language Models (LLMs) are mainly conducted via <b>Reinforcement</b> <b>Learning</b> from Human Feedback (RLHF) methods. However, RLHF encounters major challenges including training reward models, actor-critic engineering, and importantly, it requires access to <b>LLM</b> parameters. Here we introduce Aligner, a new efficient alignment paradigm that bypasses the whole RLHF process by learning the correctional residuals between the aligned and the unaligned answers. Our Aligner offers several key advantages. Firstly, it is an autoregressive seq2seq model that is trained on the query-answer-correction dataset via <b>supervised</b> learning; this offers a parameter-efficient alignment solution with minimal resources. Secondly, the Aligner facilitates weak-to-strong generalization; finetuning large pretrained models by Aligner's supervisory signals demonstrates strong performance boost. Thirdly, Aligner functions as a model-agnostic plug-and-play module, allowing for its direct application on different open-source and API-based models. Remarkably, Aligner-7B improves 11 different LLMs by 21.9% in helpfulness and 23.8% in harmlessness on average (GPT-4 by 17.5% and 26.9%). When finetuning (strong) Llama2-70B with (weak) Aligner-13B's supervision, we can improve Llama2 by 8.2% in helpfulness and 61.6% in harmlessness. See our dataset and code at https://aligner2024.github.io
 
 {{</citation>}}
 
@@ -234,7 +232,7 @@ Ata Mustafa. (2024)
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keyword Score: 70  
-Keywords: Fine-tuning(10), Fine-tuning(10), In-context Learning(10), Information Retrieval(10), Large Language Model(10), Natural Language Inference(10), Reasoning(10)  
+Keywords: Fine-tuning, Fine-tuning, Information Retrieval, Natural Language Inference, Reasoning, In-context Learning, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02558v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02558v1.pdf" filename="2402.02558v1.pdf">Download PDF</button>
 
@@ -242,7 +240,7 @@ Keywords: Fine-tuning(10), Fine-tuning(10), In-context Learning(10), Information
 
 
 **ABSTRACT**  
-Large Language Models have revolutionized various fields and industries, such as Conversational AI, Content Generation, Information Retrieval, Business Intelligence, and Medical, to name a few. One major application in the field of medical is to analyze and investigate clinical trials for entailment tasks.However, It has been observed that Large Language Models are susceptible to shortcut learning, factual inconsistency, and performance degradation with little variation in context. Adversarial and robust testing is performed to ensure the integrity of models output. But, ambiguity still persists. In order to ensure the integrity of the reasoning performed and investigate the model has correct syntactic and semantic understanding probing is used. Here, I used mnestic probing to investigate the Sci-five model, trained on clinical trial. I investigated the model for feature learnt with respect to natural logic. To achieve the target, I trained task specific probes. Used these probes to investigate the final layers of trained model. Then, fine tuned the trained model using iterative null projection. The results shows that model accuracy improved. During experimentation, I observed that size of the probe has affect on the fine tuning process.
+Large Language Models have revolutionized various fields and industries, such as Conversational AI, Content Generation, Information Retrieval, Business Intelligence, and Medical, to name a few. One major application in the field of medical is to analyze and investigate clinical trials for entailment tasks.However, It has been observed that Large Language Models are susceptible to shortcut learning, factual inconsistency, and performance degradation with little variation in context. Adversarial and robust testing is performed to ensure the integrity of models output. But, ambiguity still persists. In order to ensure the integrity of the <b>reasoning</b> performed and investigate the model has correct syntactic and semantic understanding probing is used. Here, I used mnestic probing to investigate the Sci-five model, trained on clinical trial. I investigated the model for feature learnt with respect to natural logic. To achieve the target, I trained task specific probes. Used these probes to investigate the final layers of trained model. Then, fine tuned the trained model using iterative null projection. The results shows that model accuracy improved. During experimentation, I observed that size of the probe has affect on the fine tuning process.
 
 {{</citation>}}
 
@@ -269,7 +267,7 @@ Jean Lee, Nicholas Stevens, Soyeon Caren Han, Minseok Song. (2024)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL, q-fin-GN  
 Keyword Score: 70  
-Keywords: Fine-tuning(10), GPT(10), Large Language Model(10), Large Language Model(10), Pre-trained Language Model(10), Pre-trained Language Model(10), Summarization(10)  
+Keywords: Fine-tuning, GPT, Large Language Model, Large Language Model, Pre-trained Language Model, Pre-trained Language Model, Summarization  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02315v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02315v1.pdf" filename="2402.02315v1.pdf">Download PDF</button>
 
@@ -277,7 +275,7 @@ Keywords: Fine-tuning(10), GPT(10), Large Language Model(10), Large Language Mod
 
 
 **ABSTRACT**  
-Large Language Models (LLMs) have shown remarkable capabilities across a wide variety of Natural Language Processing (NLP) tasks and have attracted attention from multiple domains, including financial services. Despite the extensive research into general-domain LLMs, and their immense potential in finance, Financial LLM (FinLLM) research remains limited. This survey provides a comprehensive overview of FinLLMs, including their history, techniques, performance, and opportunities and challenges. Firstly, we present a chronological overview of general-domain Pre-trained Language Models (PLMs) through to current FinLLMs, including the GPT-series, selected open-source LLMs, and financial LMs. Secondly, we compare five techniques used across financial PLMs and FinLLMs, including training methods, training data, and fine-tuning methods. Thirdly, we summarize the performance evaluations of six benchmark tasks and datasets. In addition, we provide eight advanced financial NLP tasks and datasets for developing more sophisticated FinLLMs. Finally, we discuss the opportunities and the challenges facing FinLLMs, such as hallucination, privacy, and efficiency. To support AI research in finance, we compile a collection of accessible datasets and evaluation benchmarks on GitHub.
+Large Language Models (LLMs) have shown remarkable capabilities across a wide variety of Natural Language Processing (NLP) tasks and have attracted attention from multiple domains, including financial services. Despite the extensive research into general-domain LLMs, and their immense potential in finance, Financial <b>LLM</b> (FinLLM) research remains limited. This survey provides a comprehensive overview of FinLLMs, including their history, techniques, performance, and opportunities and challenges. Firstly, we present a chronological overview of general-domain Pre-trained Language Models (PLMs) through to current FinLLMs, including the GPT-series, selected open-source LLMs, and financial LMs. Secondly, we compare five techniques used across financial PLMs and FinLLMs, including training methods, training data, and <b>fine-tuning</b> methods. Thirdly, we <b>summarize</b> the performance evaluations of six benchmark tasks and datasets. In addition, we provide eight advanced financial NLP tasks and datasets for developing more sophisticated FinLLMs. Finally, we discuss the opportunities and the challenges facing FinLLMs, such as hallucination, privacy, and efficiency. To support AI research in finance, we compile a collection of accessible datasets and evaluation benchmarks on GitHub.
 
 {{</citation>}}
 
@@ -304,7 +302,7 @@ Ronen Tamari. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-SI, cs.CL  
 Keyword Score: 60  
-Keywords: Common-sense Reasoning(10), Large Language Model(10), Natural Language Understanding(10), Reasoning(10), Text Understanding(10), Transformer(10)  
+Keywords: Transformer, Common-sense Reasoning, Natural Language Understanding, Reasoning, Large Language Model, Text Understanding  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02548v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02548v1.pdf" filename="2402.02548v1.pdf">Download PDF</button>
 
@@ -312,7 +310,7 @@ Keywords: Common-sense Reasoning(10), Large Language Model(10), Natural Language
 
 
 **ABSTRACT**  
-In contrast to classical cognitive science which studied brains in isolation, ecological approaches focused on the role of the body and environment in shaping cognition. Similarly, in this thesis we adopt an ecological approach to grounded natural language understanding (NLU) research. Grounded language understanding studies language understanding systems situated in the context of events, actions and precepts in naturalistic/simulated virtual environments. Where classic research tends to focus on designing new models and optimization methods while treating environments as given, we explore the potential of environment design for improving data collection and model development. We developed novel training and annotation approaches for procedural text understanding based on text-based game environments. We also drew upon embodied cognitive linguistics literature to propose a roadmap for grounded NLP research, and to inform the development of a new benchmark for measuring the progress of large language models on challenging commonsense reasoning tasks. We leveraged the richer supervision provided by text-based game environments to develop Breakpoint Transformers, a novel approach to modeling intermediate semantic information in long narrative or procedural texts. Finally, we integrated theories on the role of environments in collective human intelligence to propose a design for AI-augmented "social thinking environments" for knowledge workers like scientists.
+In contrast to classical cognitive science which studied brains in isolation, ecological approaches focused on the role of the body and environment in shaping cognition. Similarly, in this thesis we adopt an ecological approach to grounded <b>natural</b> <b>language</b> <b>understanding</b> (NLU) research. Grounded language understanding studies language understanding systems situated in the context of events, actions and precepts in naturalistic/simulated virtual environments. Where classic research tends to focus on designing new models and optimization methods while treating environments as given, we explore the potential of environment design for improving data collection and model development. We developed novel training and annotation approaches for procedural <b>text</b> <b>understanding</b> based on text-based game environments. We also drew upon embodied cognitive linguistics literature to propose a roadmap for grounded NLP research, and to inform the development of a new benchmark for measuring the progress of large language models on challenging commonsense <b>reasoning</b> tasks. We leveraged the richer supervision provided by text-based game environments to develop Breakpoint Transformers, a novel approach to modeling intermediate semantic information in long narrative or procedural texts. Finally, we integrated theories on the role of environments in collective human intelligence to propose a design for AI-augmented "social thinking environments" for knowledge workers like scientists.
 
 {{</citation>}}
 
@@ -339,7 +337,7 @@ Rui Cao, Jing Jiang. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-CV, cs.CL  
 Keyword Score: 60  
-Keywords: Large Language Model(10), Question Answering(10), Supervised Learning(10), Supervised Learning(10), Visual Question Answering(10), Zero-shot(10)  
+Keywords: Supervised Learning, Supervised Learning, Zero-shot, Question Answering, Visual Question Answering, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02541v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02541v1.pdf" filename="2402.02541v1.pdf">Download PDF</button>
 
@@ -347,7 +345,7 @@ Keywords: Large Language Model(10), Question Answering(10), Supervised Learning(
 
 
 **ABSTRACT**  
-Previous solutions to knowledge-based visual question answering~(K-VQA) retrieve knowledge from external knowledge bases and use supervised learning to train the K-VQA model. Recently pre-trained LLMs have been used as both a knowledge source and a zero-shot QA model for K-VQA and demonstrated promising results. However, these recent methods do not explicitly show the knowledge needed to answer the questions and thus lack interpretability. Inspired by recent work on knowledge generation from LLMs for text-based QA, in this work we propose and test a similar knowledge-generation-based K-VQA method, which first generates knowledge from an LLM and then incorporates the generated knowledge for K-VQA in a zero-shot manner. We evaluate our method on two K-VQA benchmarks and found that our method performs better than previous zero-shot K-VQA methods and our generated knowledge is generally relevant and helpful.
+Previous solutions to knowledge-based visual question answering~(K-VQA) retrieve knowledge from external knowledge bases and use <b>supervised</b> <b>learning</b> to train the K-VQA model. Recently pre-trained LLMs have been used as both a knowledge source and a <b>zero-shot</b> <b>QA</b> model for K-VQA and demonstrated promising results. However, these recent methods do not explicitly show the knowledge needed to answer the questions and thus lack interpretability. Inspired by recent work on knowledge generation from LLMs for text-based QA, in this work we propose and test a similar knowledge-generation-based K-VQA method, which first generates knowledge from an <b>LLM</b> and then incorporates the generated knowledge for K-VQA in a <b>zero-shot</b> manner. We evaluate our method on two K-VQA benchmarks and found that our method performs better than previous <b>zero-shot</b> K-VQA methods and our generated knowledge is generally relevant and helpful.
 
 {{</citation>}}
 
@@ -374,7 +372,7 @@ Yanbin Wei, Qiushi Huang, James T. Kwok, Yu Zhang. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 60  
-Keywords: Fine-tuning(10), In-context Learning(10), In-context Learning(10), Large Language Model(10), Large Language Model(10), Prompt(10)  
+Keywords: Fine-tuning, In-context Learning, In-context Learning, Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02389v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02389v1.pdf" filename="2402.02389v1.pdf">Download PDF</button>
 
@@ -382,7 +380,7 @@ Keywords: Fine-tuning(10), In-context Learning(10), In-context Learning(10), Lar
 
 
 **ABSTRACT**  
-Knowledge Graph Completion (KGC) is crucial for addressing knowledge graph incompleteness and supporting downstream applications. Many models have been proposed for KGC. They can be categorized into two main classes: triple-based and text-based approaches. Triple-based methods struggle with long-tail entities due to limited structural information and imbalanced entity distributions. Text-based methods alleviate this issue but require costly training for language models and specific finetuning for knowledge graphs, which limits their efficiency. To alleviate these limitations, in this paper, we propose KICGPT, a framework that integrates a large language model (LLM) and a triple-based KGC retriever. It alleviates the long-tail problem without incurring additional training overhead. KICGPT uses an in-context learning strategy called Knowledge Prompt, which encodes structural knowledge into demonstrations to guide the LLM. Empirical results on benchmark datasets demonstrate the effectiveness of KICGPT with smaller training overhead and no finetuning.
+Knowledge Graph Completion (KGC) is crucial for addressing knowledge graph incompleteness and supporting downstream applications. Many models have been proposed for KGC. They can be categorized into two main classes: triple-based and text-based approaches. Triple-based methods struggle with long-tail entities due to limited structural information and imbalanced entity distributions. Text-based methods alleviate this issue but require costly training for language models and specific finetuning for knowledge graphs, which limits their efficiency. To alleviate these limitations, in this paper, we propose KICGPT, a framework that integrates a <b>large</b> <b>language</b> <b>model</b> (LLM) and a triple-based KGC retriever. It alleviates the long-tail problem without incurring additional training overhead. KICGPT uses an <b>in-context</b> <b>learning</b> strategy called Knowledge Prompt, which encodes structural knowledge into demonstrations to guide the LLM. Empirical results on benchmark datasets demonstrate the effectiveness of KICGPT with smaller training overhead and no finetuning.
 
 {{</citation>}}
 
@@ -409,7 +407,7 @@ Tong Niu, Weihao Zhang, Rong Zhao. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs-SE, cs.CL  
 Keyword Score: 60  
-Keywords: Chain-of-thought Prompt(10), In-context Learning(10), In-context Learning(10), Large Language Model(10), Large Language Model(10), Prompt(10)  
+Keywords: Chain-of-thought Prompt, In-context Learning, In-context Learning, Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02388v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02388v1.pdf" filename="2402.02388v1.pdf">Download PDF</button>
 
@@ -417,7 +415,7 @@ Keywords: Chain-of-thought Prompt(10), In-context Learning(10), In-context Learn
 
 
 **ABSTRACT**  
-Agent-based models (ABMs) stand as an essential paradigm for proposing and validating hypothetical solutions or policies aimed at addressing challenges posed by complex systems and achieving various objectives. This process demands labor-intensive endeavors and multidisciplinary expertise. Large language models (LLMs) encapsulating cross-domain knowledge and programming proficiency could potentially alleviate the difficulty of this process. However, LLMs excel in handling sequential information, making it challenging for analyzing the intricate interactions and nonlinear dynamics inherent in ABMs. Additionally, due to the lack of self-evaluation capability of LLMs, relying solely on LLMs is insufficient to effectively accomplish this process. In this paper, we present SAGE, a general solution-oriented ABM generation framework designed for automatic modeling and generating solutions for targeted problems. Unlike approaches reliant on expert handcrafting or resource-intensive neural network training, SAGE establishes a verifier-assisted iterative in-context learning process employing large language models (LLMs) to leverages their inherent cross-domain knowledge for tackling intricate demands from diverse domain scenarios. In SAGE, we introduce an semi-structured conceptual representation expliciting the intricate structures of ABMs and an objective representation to guide LLMs in modeling scenarios and proposing hypothetical solutions through in-context learning. To ensure the model executability and solution feasibility, SAGE devises a two-level verifier with chain-of-thought prompting tailored to the complex interactions and non-linear dynamics of ABMs, driving the iterative generation optimization. Moreover, we construct an evaluation dataset of solution-oriented ABMs from open sources.It contains practical models across various domains.
+Agent-based models (ABMs) stand as an essential paradigm for proposing and validating hypothetical solutions or policies aimed at addressing challenges posed by complex systems and achieving various objectives. This process demands labor-intensive endeavors and multidisciplinary expertise. Large language models (LLMs) encapsulating cross-domain knowledge and programming proficiency could potentially alleviate the difficulty of this process. However, LLMs excel in handling sequential information, making it challenging for analyzing the intricate interactions and nonlinear dynamics inherent in ABMs. Additionally, due to the lack of self-evaluation capability of LLMs, relying solely on LLMs is insufficient to effectively accomplish this process. In this paper, we present SAGE, a general solution-oriented ABM generation framework designed for automatic modeling and generating solutions for targeted problems. Unlike approaches reliant on expert handcrafting or resource-intensive neural network training, SAGE establishes a verifier-assisted iterative <b>in-context</b> <b>learning</b> process employing large language models (LLMs) to leverages their inherent cross-domain knowledge for tackling intricate demands from diverse domain scenarios. In SAGE, we introduce an semi-structured conceptual representation expliciting the intricate structures of ABMs and an objective representation to guide LLMs in modeling scenarios and proposing hypothetical solutions through <b>in-context</b> learning. To ensure the model executability and solution feasibility, SAGE devises a two-level verifier with chain-of-thought prompting tailored to the complex interactions and non-linear dynamics of ABMs, driving the iterative generation optimization. Moreover, we construct an evaluation dataset of solution-oriented ABMs from open sources.It contains practical models across various domains.
 
 {{</citation>}}
 
@@ -444,7 +442,7 @@ Gaël Gendron, Bao Trung Nguyen, Alex Yuxuan Peng, Michael Witbrock, Gillian Dob
 Primary Category: cs.CL  
 Categories: I-2-3; I-2-6; I-2-7; G-3, cs-AI, cs-CL, cs-IT, cs-LG, cs.CL, math-IT  
 Keyword Score: 50  
-Keywords: Large Language Model(10), Large Language Model(10), Mutual Information(10), Out-of-distribution(10), Reasoning(10)  
+Keywords: Mutual Information, Out-of-distribution, Reasoning, Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02636v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02636v1.pdf" filename="2402.02636v1.pdf">Download PDF</button>
 
@@ -452,7 +450,7 @@ Keywords: Large Language Model(10), Large Language Model(10), Mutual Information
 
 
 **ABSTRACT**  
-Despite impressive performance on language modelling and complex reasoning tasks, Large Language Models (LLMs) fall short on the same tasks in uncommon settings or with distribution shifts, exhibiting some lack of generalisation ability. This issue has usually been alleviated by feeding more training data into the LLM. However, this method is brittle, as the scope of tasks may not be readily predictable or may evolve, and updating the model with new data generally requires extensive additional training. By contrast, systems, such as causal models, that learn abstract variables and causal relationships can demonstrate increased robustness against changes in the distribution. One reason for this success is the existence and use of Independent Causal Mechanisms (ICMs) representing high-level concepts that only sparsely interact. In this work, we apply two concepts from causality to learn ICMs within LLMs. We develop a new LLM architecture composed of multiple sparsely interacting language modelling modules. We introduce a routing scheme to induce specialisation of the network into domain-specific modules. We also present a Mutual Information minimisation objective that trains a separate module to learn abstraction and domain-invariant mechanisms. We show that such causal constraints can improve out-of-distribution performance on abstract and causal reasoning tasks.
+Despite impressive performance on language modelling and complex <b>reasoning</b> tasks, Large Language Models (LLMs) fall short on the same tasks in uncommon settings or with distribution shifts, exhibiting some lack of generalisation ability. This issue has usually been alleviated by feeding more training data into the LLM. However, this method is brittle, as the scope of tasks may not be readily predictable or may evolve, and updating the model with new data generally requires extensive additional training. By contrast, systems, such as causal models, that learn abstract variables and causal relationships can demonstrate increased robustness against changes in the distribution. One reason for this success is the existence and use of Independent Causal Mechanisms (ICMs) representing high-level concepts that only sparsely interact. In this work, we apply two concepts from causality to learn ICMs within LLMs. We develop a new <b>LLM</b> architecture composed of multiple sparsely interacting language modelling modules. We introduce a routing scheme to induce specialisation of the network into domain-specific modules. We also present a <b>Mutual</b> <b>Information</b> minimisation objective that trains a separate module to learn abstraction and domain-invariant mechanisms. We show that such causal constraints can improve <b>out-of-distribution</b> performance on abstract and causal <b>reasoning</b> tasks.
 
 {{</citation>}}
 
@@ -479,7 +477,7 @@ Eric Khiu, Hasti Toossi, David Anugraha, Jinyu Liu, Jiaxu Li, Juan Armando Parra
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keyword Score: 50  
-Keywords: Fine-tuning(10), High-Resource(10), Large Language Model(10), Low-Resource(10), Neural Machine Translation(10)  
+Keywords: Fine-tuning, High-Resource, Low-Resource, Neural Machine Translation, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02633v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02633v1.pdf" filename="2402.02633v1.pdf">Download PDF</button>
 
@@ -487,7 +485,7 @@ Keywords: Fine-tuning(10), High-Resource(10), Large Language Model(10), Low-Reso
 
 
 **ABSTRACT**  
-Fine-tuning and testing a multilingual large language model is expensive and challenging for low-resource languages (LRLs). While previous studies have predicted the performance of natural language processing (NLP) tasks using machine learning methods, they primarily focus on high-resource languages, overlooking LRLs and shifts across domains. Focusing on LRLs, we investigate three factors: the size of the fine-tuning corpus, the domain similarity between fine-tuning and testing corpora, and the language similarity between source and target languages. We employ classical regression models to assess how these factors impact the model's performance. Our results indicate that domain similarity has the most critical impact on predicting the performance of Machine Translation models.
+<b>Fine-tuning</b> and testing a multilingual <b>large</b> <b>language</b> <b>model</b> is expensive and challenging for <b>low-resource</b> languages (LRLs). While previous studies have predicted the performance of natural language processing (NLP) tasks using machine learning methods, they primarily focus on <b>high-resource</b> languages, overlooking LRLs and shifts across domains. Focusing on LRLs, we investigate three factors: the size of the <b>fine-tuning</b> corpus, the domain similarity between <b>fine-tuning</b> and testing corpora, and the language similarity between source and target languages. We employ classical regression models to assess how these factors impact the model's performance. Our results indicate that domain similarity has the most critical impact on predicting the performance of <b>Machine</b> <b>Translation</b> models.
 
 {{</citation>}}
 
@@ -514,7 +512,7 @@ Yu Shang, Yu Li, Fengli Xu, Yong Li. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keyword Score: 40  
-Keywords: Large Language Model(10), Large Language Model(10), Prompt(10), Reasoning(10)  
+Keywords: Reasoning, Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02563v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02563v1.pdf" filename="2402.02563v1.pdf">Download PDF</button>
 
@@ -522,7 +520,7 @@ Keywords: Large Language Model(10), Large Language Model(10), Prompt(10), Reason
 
 
 **ABSTRACT**  
-Large language models (LLMs) have shown impressive emergent abilities in a wide range of tasks, but still face challenges in handling complex reasoning problems. Previous works like chain-of-thought (CoT) and tree-of-thoughts(ToT) have predominately focused on enhancing accuracy, but overlook the rapidly increasing token cost, which could be particularly problematic for open-ended real-world tasks with huge solution spaces. Motivated by the dual process theory of human cognition, we propose a Default-Interventionist framework (DefInt) to unleash the synergistic potential of hybrid LLMs. By default, DefInt uses smaller-scale language models to generate low-cost reasoning thoughts, which resembles the fast intuitions produced by System 1. If the intuitions are considered with low confidence, DefInt will invoke the reflective reasoning of scaled-up language models as the intervention of System 2, which can override the default thoughts and rectify the reasoning process. Experiments on five representative reasoning tasks show that DefInt consistently achieves state-of-the-art reasoning accuracy and solution diversity. More importantly, it substantially reduces the token cost by 49%-79% compared to the second accurate baselines. Specifically, the open-ended tasks have an average 75% token cost reduction. Code repo with all prompts will be released upon publication.
+Large language models (LLMs) have shown impressive emergent abilities in a wide range of tasks, but still face challenges in handling complex <b>reasoning</b> problems. Previous works like chain-of-thought (CoT) and tree-of-thoughts(ToT) have predominately focused on enhancing accuracy, but overlook the rapidly increasing token cost, which could be particularly problematic for open-ended real-world tasks with huge solution spaces. Motivated by the dual process theory of human cognition, we propose a Default-Interventionist framework (DefInt) to unleash the synergistic potential of hybrid LLMs. By default, DefInt uses smaller-scale language models to generate low-cost <b>reasoning</b> thoughts, which resembles the fast intuitions produced by System 1. If the intuitions are considered with low confidence, DefInt will invoke the reflective <b>reasoning</b> of scaled-up language models as the intervention of System 2, which can override the default thoughts and rectify the <b>reasoning</b> process. Experiments on five representative <b>reasoning</b> tasks show that DefInt consistently achieves state-of-the-art <b>reasoning</b> accuracy and solution diversity. More importantly, it substantially reduces the token cost by 49%-79% compared to the second accurate baselines. Specifically, the open-ended tasks have an average 75% token cost reduction. Code repo with all prompts will be released upon publication.
 
 {{</citation>}}
 
@@ -549,7 +547,7 @@ Jiahao Wang, Bolin Zhang, Qianlong Du, Jiajun Zhang, Dianhui Chu. (2024)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keyword Score: 40  
-Keywords: Instruction Following(10), Instruction Tuning(10), Large Language Model(10), Large Language Model(10)  
+Keywords: Instruction Following, Instruction Tuning, Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05123v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.05123v1.pdf" filename="2402.05123v1.pdf">Download PDF</button>
 
@@ -557,7 +555,7 @@ Keywords: Instruction Following(10), Instruction Tuning(10), Large Language Mode
 
 
 **ABSTRACT**  
-Instruction tuning is a vital step of training large language models (LLM), so how to enhance the effect of instruction tuning has received increased attention. Existing works indicate that the quality of the dataset is more crucial than the quantity during instruction tuning of LLM. Therefore, recently a lot of studies focus on exploring the methods of selecting high-quality subset from instruction datasets, aiming to reduce training costs and enhance the instruction-following capabilities of LLMs. This paper presents a comprehensive survey on data selection for LLM instruction tuning. Firstly, we introduce the wildly used instruction datasets. Then, we propose a new taxonomy of the data selection methods and provide a detailed introduction of recent advances,and the evaluation strategies and results of data selection methods are also elaborated in detail. Finally, we emphasize the open challenges and present new frontiers of this task.
+<b>Instruction</b> <b>tuning</b> is a vital step of training large language models (LLM), so how to enhance the effect of <b>instruction</b> <b>tuning</b> has received increased attention. Existing works indicate that the quality of the dataset is more crucial than the quantity during <b>instruction</b> <b>tuning</b> of LLM. Therefore, recently a lot of studies focus on exploring the methods of selecting high-quality subset from instruction datasets, aiming to reduce training costs and enhance the instruction-following capabilities of LLMs. This paper presents a comprehensive survey on data selection for <b>LLM</b> instruction tuning. Firstly, we introduce the wildly used instruction datasets. Then, we propose a new taxonomy of the data selection methods and provide a detailed introduction of recent advances,and the evaluation strategies and results of data selection methods are also elaborated in detail. Finally, we emphasize the open challenges and present new frontiers of this task.
 
 {{</citation>}}
 
@@ -584,7 +582,7 @@ Xuanchang Zhang, Zhuosheng Zhang, Hai Zhao. (2024)
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keyword Score: 40  
-Keywords: Large Language Model(10), Large Language Model(10), Prompt(10), Reasoning(10)  
+Keywords: Reasoning, Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02408v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02408v1.pdf" filename="2402.02408v1.pdf">Download PDF</button>
 
@@ -592,7 +590,7 @@ Keywords: Large Language Model(10), Large Language Model(10), Prompt(10), Reason
 
 
 **ABSTRACT**  
-Despite the rapid progress of large language models (LLMs), their task performance remains sensitive to prompt design. Recent studies have explored leveraging the LLM itself as an optimizer to identify optimal prompts that maximize task accuracy. However, when evaluating prompts, such approaches heavily rely on elusive manually annotated gold labels to calculate task accuracy for each candidate prompt, which hinders the widespread implementation and generality. To overcome the limitation, this work proposes a gold label-agnostic prompt evaluation (GLaPE) to alleviate dependence on gold labels. Motivated by the observed correlation between self-consistency and the accuracy of the answer, we adopt self-consistency as the initial evaluation score. Subsequently, we refine the scores of prompts producing identical answers to be mutually consistent. Experimental results show that GLaPE provides reliable evaluations uniform with accuracy, even in the absence of gold labels. Moreover, on six popular reasoning tasks, our GLaPE-based prompt optimization yields effective prompts comparable to accuracy-based ones. The code is publicly available at https://github.com/thunderous77/GLaPE.
+Despite the rapid progress of large language models (LLMs), their task performance remains sensitive to <b>prompt</b> design. Recent studies have explored leveraging the <b>LLM</b> itself as an optimizer to identify optimal prompts that maximize task accuracy. However, when evaluating prompts, such approaches heavily rely on elusive manually annotated gold labels to calculate task accuracy for each candidate prompt, which hinders the widespread implementation and generality. To overcome the limitation, this work proposes a gold label-agnostic <b>prompt</b> evaluation (GLaPE) to alleviate dependence on gold labels. Motivated by the observed correlation between self-consistency and the accuracy of the answer, we adopt self-consistency as the initial evaluation score. Subsequently, we refine the scores of prompts producing identical answers to be mutually consistent. Experimental results show that GLaPE provides reliable evaluations uniform with accuracy, even in the absence of gold labels. Moreover, on six popular <b>reasoning</b> tasks, our GLaPE-based <b>prompt</b> optimization yields effective prompts comparable to accuracy-based ones. The code is publicly available at https://github.com/thunderous77/GLaPE.
 
 {{</citation>}}
 
@@ -619,7 +617,7 @@ Yun Long, Haifeng Luo, Yu Zhang. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-HC, cs.CL  
 Keyword Score: 40  
-Keywords: GPT(10), GPT-4(10), Large Language Model(10), Large Language Model(10)  
+Keywords: GPT, GPT-4, Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02380v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02380v2.pdf" filename="2402.02380v2.pdf">Download PDF</button>
 
@@ -627,7 +625,7 @@ Keywords: GPT(10), GPT-4(10), Large Language Model(10), Large Language Model(10)
 
 
 **ABSTRACT**  
-This study explores the application of Large Language Models (LLMs), specifically GPT-4, in the analysis of classroom dialogue, a crucial research task for both teaching diagnosis and quality improvement. Recognizing the knowledge-intensive and labor-intensive nature of traditional qualitative methods in educational research, this study investigates the potential of LLM to streamline and enhance the analysis process. The study involves datasets from a middle school, encompassing classroom dialogues across mathematics and Chinese classes. These dialogues were manually coded by educational experts and then analyzed using a customised GPT-4 model. This study focuses on comparing manual annotations with the outputs of GPT-4 to evaluate its efficacy in analyzing educational dialogues. Time efficiency, inter-coder agreement, and inter-coder reliability between human coders and GPT-4 are evaluated. Results indicate substantial time savings with GPT-4, and a high degree of consistency in coding between the model and human coders, with some discrepancies in specific codes. These findings highlight the strong potential of LLM in teaching evaluation and facilitation.
+This study explores the application of Large Language Models (LLMs), specifically GPT-4, in the analysis of classroom dialogue, a crucial research task for both teaching diagnosis and quality improvement. Recognizing the knowledge-intensive and labor-intensive nature of traditional qualitative methods in educational research, this study investigates the potential of <b>LLM</b> to streamline and enhance the analysis process. The study involves datasets from a middle school, encompassing classroom dialogues across mathematics and Chinese classes. These dialogues were manually coded by educational experts and then analyzed using a customised <b>GPT-4</b> model. This study focuses on comparing manual annotations with the outputs of <b>GPT-4</b> to evaluate its efficacy in analyzing educational dialogues. Time efficiency, inter-coder agreement, and inter-coder reliability between human coders and <b>GPT-4</b> are evaluated. Results indicate substantial time savings with GPT-4, and a high degree of consistency in coding between the model and human coders, with some discrepancies in specific codes. These findings highlight the strong potential of <b>LLM</b> in teaching evaluation and facilitation.
 
 {{</citation>}}
 
@@ -654,7 +652,7 @@ Alexandra Saliba, Yuanchao Li, Ramon Sanabria, Catherine Lai. (2024)
 Primary Category: cs.CL  
 Categories: cs-CL, cs-SD, cs.CL, eess-AS  
 Keyword Score: 30  
-Keywords: Emotion Recognition(10), Self-supervised Learning(10), Word Embedding(10)  
+Keywords: Self-supervised Learning, Emotion Recognition, Word Embedding  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02617v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02617v1.pdf" filename="2402.02617v1.pdf">Download PDF</button>
 
@@ -662,7 +660,7 @@ Keywords: Emotion Recognition(10), Self-supervised Learning(10), Word Embedding(
 
 
 **ABSTRACT**  
-The efficacy of self-supervised speech models has been validated, yet the optimal utilization of their representations remains challenging across diverse tasks. In this study, we delve into Acoustic Word Embeddings (AWEs), a fixed-length feature derived from continuous representations, to explore their advantages in specific tasks. AWEs have previously shown utility in capturing acoustic discriminability. In light of this, we propose measuring layer-wise similarity between AWEs and word embeddings, aiming to further investigate the inherent context within AWEs. Moreover, we evaluate the contribution of AWEs, in comparison to other types of speech features, in the context of Speech Emotion Recognition (SER). Through a comparative experiment and a layer-wise accuracy analysis on two distinct corpora, IEMOCAP and ESD, we explore differences between AWEs and raw self-supervised representations, as well as the proper utilization of AWEs alone and in combination with word embeddings. Our findings underscore the acoustic context conveyed by AWEs and showcase the highly competitive SER accuracies by appropriately employing AWEs.
+The efficacy of <b>self-supervised</b> speech models has been validated, yet the optimal utilization of their representations remains challenging across diverse tasks. In this study, we delve into Acoustic Word Embeddings (AWEs), a fixed-length feature derived from continuous representations, to explore their advantages in specific tasks. AWEs have previously shown utility in capturing acoustic discriminability. In light of this, we propose measuring layer-wise similarity between AWEs and word embeddings, aiming to further investigate the inherent context within AWEs. Moreover, we evaluate the contribution of AWEs, in comparison to other types of speech features, in the context of Speech <b>Emotion</b> <b>Recognition</b> (SER). Through a comparative experiment and a layer-wise accuracy analysis on two distinct corpora, IEMOCAP and ESD, we explore differences between AWEs and raw <b>self-supervised</b> representations, as well as the proper utilization of AWEs alone and in combination with word embeddings. Our findings underscore the acoustic context conveyed by AWEs and showcase the highly competitive SER accuracies by appropriately employing AWEs.
 
 {{</citation>}}
 
@@ -689,7 +687,7 @@ Yuxia Wang, Minghan Wang, Muhammad Arslan Manzoor, Georgi Georgiev, Rocktim Jyot
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 30  
-Keywords: Large Language Model(10), Large Language Model(10), Text Generation(10)  
+Keywords: Text Generation, Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02420v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02420v1.pdf" filename="2402.02420v1.pdf">Download PDF</button>
 
@@ -697,7 +695,7 @@ Keywords: Large Language Model(10), Large Language Model(10), Text Generation(10
 
 
 **ABSTRACT**  
-Large language models (LLMs), especially when instruction-tuned for chat, have become part of our daily lives, freeing people from the process of searching, extracting, and integrating information from multiple sources by offering a straightforward answer to a variety of questions in a single place. Unfortunately, in many cases, LLM responses are factually incorrect, which limits their applicability in real-world scenarios. As a result, research on evaluating and improving the factuality of LLMs has attracted a lot of research attention recently. In this survey, we critically analyze existing work with the aim to identify the major challenges and their associated causes, pointing out to potential solutions for improving the factuality of LLMs, and analyzing the obstacles to automated factuality evaluation for open-ended text generation. We further offer an outlook on where future research should go.
+Large language models (LLMs), especially when instruction-tuned for chat, have become part of our daily lives, freeing people from the process of searching, extracting, and integrating information from multiple sources by offering a straightforward answer to a variety of questions in a single place. Unfortunately, in many cases, <b>LLM</b> responses are factually incorrect, which limits their applicability in real-world scenarios. As a result, research on evaluating and improving the factuality of LLMs has attracted a lot of research attention recently. In this survey, we critically analyze existing work with the aim to identify the major challenges and their associated causes, pointing out to potential solutions for improving the factuality of LLMs, and analyzing the obstacles to automated factuality evaluation for open-ended text generation. We further offer an outlook on where future research should go.
 
 {{</citation>}}
 
@@ -724,7 +722,7 @@ Matteo Pagliardini, Amirkeivan Mohtashami, Francois Fleuret, Martin Jaggi. (2024
 Primary Category: cs.CL  
 Categories: cs-CL, cs-LG, cs.CL  
 Keyword Score: 20  
-Keywords: Perplexity(10), Transformer(10)  
+Keywords: Transformer, Perplexity  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02622v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02622v1.pdf" filename="2402.02622v1.pdf">Download PDF</button>
 
@@ -732,7 +730,7 @@ Keywords: Perplexity(10), Transformer(10)
 
 
 **ABSTRACT**  
-The transformer architecture from Vaswani et al. (2017) is now ubiquitous across application domains, from natural language processing to speech processing and image understanding. We propose DenseFormer, a simple modification to the standard architecture that improves the perplexity of the model without increasing its size -- adding a few thousand parameters for large-scale models in the 100B parameters range. Our approach relies on an additional averaging step after each transformer block, which computes a weighted average of current and past representations -- we refer to this operation as Depth-Weighted-Average (DWA). The learned DWA weights exhibit coherent patterns of information flow, revealing the strong and structured reuse of activations from distant layers. Experiments demonstrate that DenseFormer is more data efficient, reaching the same perplexity of much deeper transformer models, and that for the same perplexity, these new models outperform transformer baselines in terms of memory efficiency and inference time.
+The <b>transformer</b> architecture from Vaswani et al. (2017) is now ubiquitous across application domains, from natural language processing to speech processing and image understanding. We propose DenseFormer, a simple modification to the standard architecture that improves the <b>perplexity</b> of the model without increasing its size -- adding a few thousand parameters for large-scale models in the 100B parameters range. Our approach relies on an additional averaging step after each <b>transformer</b> block, which computes a weighted average of current and past representations -- we refer to this operation as Depth-Weighted-Average (DWA). The learned DWA weights exhibit coherent patterns of information flow, revealing the strong and structured reuse of activations from distant layers. Experiments demonstrate that DenseFormer is more data efficient, reaching the same <b>perplexity</b> of much deeper <b>transformer</b> models, and that for the same perplexity, these new models outperform <b>transformer</b> baselines in terms of memory efficiency and inference time.
 
 {{</citation>}}
 
@@ -759,7 +757,7 @@ Yue Zhang, Quan Guo, Parisa Kordjamshidi. (2024)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keyword Score: 20  
-Keywords: Grounding(10), Vision-and-Language(10)  
+Keywords: Grounding, Vision-and-Language  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02559v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02559v1.pdf" filename="2402.02559v1.pdf">Download PDF</button>
 
@@ -794,7 +792,7 @@ Manuel Vilares Ferro, Victor M. Darriba Bilbao, Jesús Vilares Ferro. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keyword Score: 13  
-Keywords: Fine-tuning(10), Sample Size(3)  
+Keywords: Fine-tuning, Sample Size  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02522v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02522v1.pdf" filename="2402.02522v1.pdf">Download PDF</button>
 
@@ -802,7 +800,7 @@ Keywords: Fine-tuning(10), Sample Size(3)
 
 
 **ABSTRACT**  
-Non-active adaptive sampling is a way of building machine learning models from a training data base which are supposed to dynamically and automatically derive guaranteed sample size. In this context and regardless of the strategy used in both scheduling and generating of weak predictors, a proposal for calculating absolute convergence and error thresholds is described. We not only make it possible to establish when the quality of the model no longer increases, but also supplies a proximity condition to estimate in absolute terms how close it is to achieving such a goal, thus supporting decision making for fine-tuning learning parameters in model selection. The technique proves its correctness and completeness with respect to our working hypotheses, in addition to strengthening the robustness of the sampling scheme. Tests meet our expectations and illustrate the proposal in the domain of natural language processing, taking the generation of part-of-speech taggers as case study.
+Non-active adaptive sampling is a way of building machine learning models from a training data base which are supposed to dynamically and automatically derive guaranteed sample size. In this context and regardless of the strategy used in both scheduling and generating of weak predictors, a proposal for calculating absolute convergence and error thresholds is described. We not only make it possible to establish when the quality of the model no longer increases, but also supplies a proximity condition to estimate in absolute terms how close it is to achieving such a goal, thus supporting decision making for <b>fine-tuning</b> learning parameters in model selection. The technique proves its correctness and completeness with respect to our working hypotheses, in addition to strengthening the robustness of the sampling scheme. Tests meet our expectations and illustrate the proposal in the domain of natural language processing, taking the generation of part-of-speech taggers as case study.
 
 {{</citation>}}
 
@@ -829,7 +827,7 @@ Jaihyun Park, Ryan Cordell. (2024)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keyword Score: 10  
-Keywords: Text Analysis(10)  
+Keywords: Text Analysis  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02572v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02572v1.pdf" filename="2402.02572v1.pdf">Download PDF</button>
 
@@ -837,7 +835,7 @@ Keywords: Text Analysis(10)
 
 
 **ABSTRACT**  
-Warning: This paper contains examples of offensive language targetting marginalized population. The digitization of historical texts invites researchers to explore the large-scale corpus of historical texts with computational methods. In this study, we present computational text analysis on a relatively understudied topic of how Asian workers are represented in historical newspapers in the United States. We found that the word "coolie" was semantically different in some States (e.g., Massachusetts, Rhode Island, Wyoming, Oklahoma, and Arkansas) with the different discourses around coolie. We also found that then-Confederate newspapers and then-Union newspapers formed distinctive discourses by measuring over-represented words. Newspapers from then-Confederate States associated coolie with slavery-related words. In addition, we found Asians were perceived to be inferior to European immigrants and subjected to the target of racism. This study contributes to supplementing the qualitative analysis of racism in the United States with quantitative discourse analysis.
+Warning: This paper contains examples of offensive language targetting marginalized population. The digitization of historical texts invites researchers to explore the large-scale corpus of historical texts with computational methods. In this study, we present computational <b>text</b> <b>analysis</b> on a relatively understudied topic of how Asian workers are represented in historical newspapers in the United States. We found that the word "coolie" was semantically different in some States (e.g., Massachusetts, Rhode Island, Wyoming, Oklahoma, and Arkansas) with the different discourses around coolie. We also found that then-Confederate newspapers and then-Union newspapers formed distinctive discourses by measuring over-represented words. Newspapers from then-Confederate States associated coolie with slavery-related words. In addition, we found Asians were perceived to be inferior to European immigrants and subjected to the target of racism. This study contributes to supplementing the qualitative analysis of racism in the United States with quantitative discourse analysis.
 
 {{</citation>}}
 
@@ -864,7 +862,7 @@ Danit Yshaayahu Levi, Reut Tsarfaty. (2024)
 Primary Category: cs.CL  
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keyword Score: 10  
-Keywords: Large Language Model(10)  
+Keywords: Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02564v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02564v1.pdf" filename="2402.02564v1.pdf">Download PDF</button>
 
@@ -899,7 +897,7 @@ Manuel Vilares Ferro, Víctor M. Darriba Bilbao, Francisco J. Ribadas-Pena, Jorg
 Primary Category: cs.CL  
 Categories: 68, 68T50, cs-CL, cs-LG, cs.CL  
 Keyword Score: 10  
-Keywords: Low-Resource(10)  
+Keywords: Low-Resource  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02449v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02449v1.pdf" filename="2402.02449v1.pdf">Download PDF</button>
 
@@ -907,7 +905,7 @@ Keywords: Low-Resource(10)
 
 
 **ABSTRACT**  
-The recent trend towards the application of deep structured techniques has revealed the limits of huge models in natural language processing. This has reawakened the interest in traditional machine learning algorithms, which have proved still to be competitive in certain contexts, in particular low-resource settings. In parallel, model selection has become an essential task to boost performance at reasonable cost, even more so when we talk about processes involving domains where the training and/or computational resources are scarce. Against this backdrop, we evaluate the early estimation of learning curves as a practical mechanism for selecting the most appropriate model in scenarios characterized by the use of non-deep learners in resource-lean settings. On the basis of a formal approximation model previously evaluated under conditions of wide availability of training and validation resources, we study the reliability of such an approach in a different and much more demanding operationalenvironment. Using as case study the generation of PoS taggers for Galician, a language belonging to the Western Ibero-Romance group, the experimental results are consistent with our expectations.
+The recent trend towards the application of deep structured techniques has revealed the limits of huge models in natural language processing. This has reawakened the interest in traditional machine learning algorithms, which have proved still to be competitive in certain contexts, in particular <b>low-resource</b> settings. In parallel, model selection has become an essential task to boost performance at reasonable cost, even more so when we talk about processes involving domains where the training and/or computational resources are scarce. Against this backdrop, we evaluate the early estimation of learning curves as a practical mechanism for selecting the most appropriate model in scenarios characterized by the use of non-deep learners in resource-lean settings. On the basis of a formal approximation model previously evaluated under conditions of wide availability of training and validation resources, we study the reliability of such an approach in a different and much more demanding operationalenvironment. Using as case study the generation of PoS taggers for Galician, a language belonging to the Western Ibero-Romance group, the experimental results are consistent with our expectations.
 
 {{</citation>}}
 
@@ -934,7 +932,7 @@ Chong Zhang, Yixi Zhao, Chenshu Yuan, Yi Tu, Ya Guo, Qi Zhang. (2024)
 Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keyword Score: 10  
-Keywords: Information Retrieval(10)  
+Keywords: Information Retrieval  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02379v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02379v1.pdf" filename="2402.02379v1.pdf">Download PDF</button>
 
@@ -942,7 +940,7 @@ Keywords: Information Retrieval(10)
 
 
 **ABSTRACT**  
-Recently developed pre-trained text-and-layout models (PTLMs) have shown remarkable success in multiple information extraction tasks on visually-rich documents. However, the prevailing evaluation pipeline may not be sufficiently robust for assessing the information extraction ability of PTLMs, due to inadequate annotations within the benchmarks. Therefore, we claim the necessary standards for an ideal benchmark to evaluate the information extraction ability of PTLMs. We then introduce EC-FUNSD, an entity-centric benckmark designed for the evaluation of semantic entity recognition and entity linking on visually-rich documents. This dataset contains diverse formats of document layouts and annotations of semantic-driven entities and their relations. Moreover, this dataset disentangles the falsely coupled annotation of segment and entity that arises from the block-level annotation of FUNSD. Experiment results demonstrate that state-of-the-art PTLMs exhibit overfitting tendencies on the prevailing benchmarks, as their performance sharply decrease when the dataset bias is removed.
+Recently developed pre-trained text-and-layout models (PTLMs) have shown remarkable success in multiple <b>information</b> <b>extraction</b> tasks on visually-rich documents. However, the prevailing evaluation pipeline may not be sufficiently robust for assessing the <b>information</b> <b>extraction</b> ability of PTLMs, due to inadequate annotations within the benchmarks. Therefore, we claim the necessary standards for an ideal benchmark to evaluate the <b>information</b> <b>extraction</b> ability of PTLMs. We then introduce EC-FUNSD, an entity-centric benckmark designed for the evaluation of semantic entity recognition and entity linking on visually-rich documents. This dataset contains diverse formats of document layouts and annotations of semantic-driven entities and their relations. Moreover, this dataset disentangles the falsely coupled annotation of segment and entity that arises from the block-level annotation of FUNSD. Experiment results demonstrate that state-of-the-art PTLMs exhibit overfitting tendencies on the prevailing benchmarks, as their performance sharply decrease when the dataset bias is removed.
 
 {{</citation>}}
 
@@ -973,7 +971,7 @@ Ziyu Ma, Shutao Li, Bin Sun, Jianfei Cai, Zuxiang Long, Fuyan Ma. (2024)
 Primary Category: cs.CV  
 Categories: cs-CL, cs-CV, cs.CV  
 Keyword Score: 100  
-Keywords: GPT(10), GPT-3(10), Large Language Model(10), Large Language Model(10), Prompt(10), Question Answering(10), Reasoning(10), Vision-and-Language(10), Visual Question Answering(10), Visual Question Answering(10)  
+Keywords: GPT, GPT-3, Question Answering, Reasoning, Visual Question Answering, Visual Question Answering, Large Language Model, Large Language Model, Prompt, Vision-and-Language  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02503v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02503v1.pdf" filename="2402.02503v1.pdf">Download PDF</button>
 
@@ -981,7 +979,7 @@ Keywords: GPT(10), GPT-3(10), Large Language Model(10), Large Language Model(10)
 
 
 **ABSTRACT**  
-Knowledge-based visual question answering (VQA) requires world knowledge beyond the image for accurate answer. Recently, instead of extra knowledge bases, a large language model (LLM) like GPT-3 is activated as an implicit knowledge engine to jointly acquire and reason the necessary knowledge for answering by converting images into textual information (e.g., captions and answer candidates). However, such conversion may introduce irrelevant information, which causes the LLM to misinterpret images and ignore visual details crucial for accurate knowledge. We argue that multimodal large language model (MLLM) is a better implicit knowledge engine than the LLM for its superior capability of visual understanding. Despite this, how to activate the capacity of MLLM as the implicit knowledge engine has not been explored yet. Therefore, we propose GeReA, a generate-reason framework that prompts a MLLM like InstructBLIP with question relevant vision and language information to generate knowledge-relevant descriptions and reasons those descriptions for knowledge-based VQA. Specifically, the question-relevant image regions and question-specific manual prompts are encoded in the MLLM to generate the knowledge relevant descriptions, referred to as question-aware prompt captions. After that, the question-aware prompt captions, image-question pair, and similar samples are sent into the multi-modal reasoning model to learn a joint knowledge-image-question representation for answer prediction. GeReA unlocks the use of MLLM as the implicit knowledge engine, surpassing all previous state-of-the-art methods on OK-VQA and A-OKVQA datasets, with test accuracies of 66.5% and 63.3% respectively. Our code will be released at https://github.com/Upper9527/GeReA.
+Knowledge-based <b>visual</b> <b>question</b> <b>answering</b> (VQA) requires world knowledge beyond the image for accurate answer. Recently, instead of extra knowledge bases, a <b>large</b> <b>language</b> <b>model</b> (LLM) like <b>GPT-3</b> is activated as an implicit knowledge engine to jointly acquire and reason the necessary knowledge for answering by converting images into textual information (e.g., captions and answer candidates). However, such conversion may introduce irrelevant information, which causes the <b>LLM</b> to misinterpret images and ignore visual details crucial for accurate knowledge. We argue that multimodal <b>large</b> <b>language</b> <b>model</b> (MLLM) is a better implicit knowledge engine than the <b>LLM</b> for its superior capability of visual understanding. Despite this, how to activate the capacity of MLLM as the implicit knowledge engine has not been explored yet. Therefore, we propose GeReA, a generate-reason framework that prompts a MLLM like InstructBLIP with question relevant vision and language information to generate knowledge-relevant descriptions and reasons those descriptions for knowledge-based VQA. Specifically, the question-relevant image regions and question-specific manual prompts are encoded in the MLLM to generate the knowledge relevant descriptions, referred to as question-aware <b>prompt</b> captions. After that, the question-aware <b>prompt</b> captions, image-question pair, and similar samples are sent into the multi-modal <b>reasoning</b> model to learn a joint knowledge-image-question representation for answer prediction. GeReA unlocks the use of MLLM as the implicit knowledge engine, surpassing all previous state-of-the-art methods on OK-VQA and A-OKVQA datasets, with test accuracies of 66.5% and 63.3% respectively. Our code will be released at https://github.com/Upper9527/GeReA.
 
 {{</citation>}}
 
@@ -1008,7 +1006,7 @@ Dilxat Muhtar, Zhenshi Li, Feng Gu, Xueliang Zhang, Pengfeng Xiao. (2024)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keyword Score: 60  
-Keywords: Curriculum Learning(10), Image2text(10), Large Language Model(10), Large Language Model(10), Reasoning(10), Vision-and-Language(10)  
+Keywords: Curriculum Learning, Image2text, Reasoning, Large Language Model, Large Language Model, Vision-and-Language  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02544v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02544v2.pdf" filename="2402.02544v2.pdf">Download PDF</button>
 
@@ -1016,7 +1014,7 @@ Keywords: Curriculum Learning(10), Image2text(10), Large Language Model(10), Lar
 
 
 **ABSTRACT**  
-The revolutionary capabilities of large language models (LLMs) have paved the way for multimodal large language models (MLLMs) and fostered diverse applications across various specialized domains. In the remote sensing (RS) field, however, the diverse geographical landscapes and varied objects in RS imagery are not adequately considered in recent MLLM endeavors. To bridge this gap, we construct a large-scale RS image-text dataset, LHRS-Align, and an informative RS-specific instruction dataset, LHRS-Instruct, leveraging the extensive volunteered geographic information (VGI) and globally available RS images. Building on this foundation, we introduce LHRS-Bot, an MLLM tailored for RS image understanding through a novel multi-level vision-language alignment strategy and a curriculum learning method. Comprehensive experiments demonstrate that LHRS-Bot exhibits a profound understanding of RS images and the ability to perform nuanced reasoning within the RS domain.
+The revolutionary capabilities of large language models (LLMs) have paved the way for multimodal large language models (MLLMs) and fostered diverse applications across various specialized domains. In the remote sensing (RS) field, however, the diverse geographical landscapes and varied objects in RS imagery are not adequately considered in recent MLLM endeavors. To bridge this gap, we construct a large-scale RS <b>image-text</b> dataset, LHRS-Align, and an informative RS-specific instruction dataset, LHRS-Instruct, leveraging the extensive volunteered geographic information (VGI) and globally available RS images. Building on this foundation, we introduce LHRS-Bot, an MLLM tailored for RS image understanding through a novel multi-level <b>vision-language</b> alignment strategy and a <b>curriculum</b> <b>learning</b> method. Comprehensive experiments demonstrate that LHRS-Bot exhibits a profound understanding of RS images and the ability to perform nuanced <b>reasoning</b> within the RS domain.
 
 {{</citation>}}
 
@@ -1043,7 +1041,7 @@ Mengyuan Liu, Chen Chen, Songtao Wu, Fanyang Meng, Hong Liu. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keyword Score: 60  
-Keywords: Convolution(10), Convolutional Neural Network(10), Graph Convolutional Network(10), Graph Convolutional Network(10), Mutual Information(10), Transformer(10)  
+Keywords: Graph Convolutional Network, Graph Convolutional Network, Convolution, Convolutional Neural Network, Mutual Information, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02431v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02431v1.pdf" filename="2402.02431v1.pdf">Download PDF</button>
 
@@ -1051,7 +1049,7 @@ Keywords: Convolution(10), Convolutional Neural Network(10), Graph Convolutional
 
 
 **ABSTRACT**  
-Recognizing interactive actions, including hand-to-hand interaction and human-to-human interaction, has attracted increasing attention for various applications in the field of video analysis and human-robot interaction. Considering the success of graph convolution in modeling topology-aware features from skeleton data, recent methods commonly operate graph convolution on separate entities and use late fusion for interactive action recognition, which can barely model the mutual semantic relationships between pairwise entities. To this end, we propose a mutual excitation graph convolutional network (me-GCN) by stacking mutual excitation graph convolution (me-GC) layers. Specifically, me-GC uses a mutual topology excitation module to firstly extract adjacency matrices from individual entities and then adaptively model the mutual constraints between them. Moreover, me-GC extends the above idea and further uses a mutual feature excitation module to extract and merge deep features from pairwise entities. Compared with graph convolution, our proposed me-GC gradually learns mutual information in each layer and each stage of graph convolution operations. Extensive experiments on a challenging hand-to-hand interaction dataset, i.e., the Assembely101 dataset, and two large-scale human-to-human interaction datasets, i.e., NTU60-Interaction and NTU120-Interaction consistently verify the superiority of our proposed method, which outperforms the state-of-the-art GCN-based and Transformer-based methods.
+Recognizing interactive actions, including hand-to-hand interaction and human-to-human interaction, has attracted increasing attention for various applications in the field of video analysis and human-robot interaction. Considering the success of graph <b>convolution</b> in modeling topology-aware features from skeleton data, recent methods commonly operate graph <b>convolution</b> on separate entities and use late fusion for interactive action recognition, which can barely model the mutual semantic relationships between pairwise entities. To this end, we propose a mutual excitation <b>graph</b> <b>convolutional</b> <b>network</b> (me-GCN) by stacking mutual excitation graph <b>convolution</b> (me-GC) layers. Specifically, me-GC uses a mutual topology excitation module to firstly extract adjacency matrices from individual entities and then adaptively model the mutual constraints between them. Moreover, me-GC extends the above idea and further uses a mutual feature excitation module to extract and merge deep features from pairwise entities. Compared with graph convolution, our proposed me-GC gradually learns <b>mutual</b> <b>information</b> in each layer and each stage of graph <b>convolution</b> operations. Extensive experiments on a challenging hand-to-hand interaction dataset, i.e., the Assembely101 dataset, and two large-scale human-to-human interaction datasets, i.e., NTU60-Interaction and NTU120-Interaction consistently verify the superiority of our proposed method, which outperforms the state-of-the-art GCN-based and Transformer-based methods.
 
 {{</citation>}}
 
@@ -1078,7 +1076,7 @@ Yuzhu Wang, Lechao Cheng, Chaowei Fang, Dingwen Zhang, Manni Duan, Meng Wang. (2
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keyword Score: 50  
-Keywords: Fine-tuning(10), Mutual Information(10), Prompt(10), Self-supervised Learning(10), Self-supervised Pre-training(10)  
+Keywords: Fine-tuning, Mutual Information, Self-supervised Learning, Self-supervised Pre-training, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02382v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02382v1.pdf" filename="2402.02382v1.pdf">Download PDF</button>
 
@@ -1086,7 +1084,7 @@ Keywords: Fine-tuning(10), Mutual Information(10), Prompt(10), Self-supervised L
 
 
 **ABSTRACT**  
-Visual prompt tuning (VPT) is a promising solution incorporating learnable prompt tokens to customize pre-trained models for downstream tasks. However, VPT and its variants often encounter challenges like prompt initialization, prompt length, and subpar performance in self-supervised pretraining, hindering successful contextual adaptation. This study commences by exploring the correlation evolvement between prompts and patch tokens during proficient training. Inspired by the observation that the prompt tokens tend to share high mutual information with patch tokens, we propose initializing prompts with downstream token prototypes. The strategic initialization, a stand-in for the previous initialization, substantially improves performance in fine-tuning. To refine further, we optimize token construction with a streamlined pipeline that maintains excellent performance with almost no increase in computational expenses compared to VPT. Exhaustive experiments show our proposed approach outperforms existing methods by a remarkable margin. For instance, it surpasses full fine-tuning in 19 out of 24 tasks, using less than 0.4% of learnable parameters on the FGVC and VTAB-1K benchmarks. Notably, our method significantly advances the adaptation for self-supervised pretraining, achieving impressive task performance gains of at least 10% to 30%. Besides, the experimental results demonstrate the proposed SPT is robust to prompt lengths and scales well with model capacity and training data size. We finally provide an insightful exploration into the amount of target data facilitating the adaptation of pre-trained models to downstream tasks.
+Visual <b>prompt</b> tuning (VPT) is a promising solution incorporating learnable <b>prompt</b> tokens to customize pre-trained models for downstream tasks. However, VPT and its variants often encounter challenges like <b>prompt</b> initialization, <b>prompt</b> length, and subpar performance in <b>self-supervised</b> pretraining, hindering successful contextual adaptation. This study commences by exploring the correlation evolvement between prompts and patch tokens during proficient training. Inspired by the observation that the <b>prompt</b> tokens tend to share high <b>mutual</b> <b>information</b> with patch tokens, we propose initializing prompts with downstream token prototypes. The strategic initialization, a stand-in for the previous initialization, substantially improves performance in fine-tuning. To refine further, we optimize token construction with a streamlined pipeline that maintains excellent performance with almost no increase in computational expenses compared to VPT. Exhaustive experiments show our proposed approach outperforms existing methods by a remarkable margin. For instance, it surpasses full <b>fine-tuning</b> in 19 out of 24 tasks, using less than 0.4% of learnable parameters on the FGVC and VTAB-1K benchmarks. Notably, our method significantly advances the adaptation for <b>self-supervised</b> pretraining, achieving impressive task performance gains of at least 10% to 30%. Besides, the experimental results demonstrate the proposed SPT is robust to <b>prompt</b> lengths and scales well with model capacity and training data size. We finally provide an insightful exploration into the amount of target data facilitating the adaptation of pre-trained models to downstream tasks.
 
 {{</citation>}}
 
@@ -1113,7 +1111,7 @@ Stylianos Poulakakis-Daktylidis, Hadi Jamali-Rad. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keyword Score: 40  
-Keywords: Contrastive Learning(10), Few-shot Learning(10), Few-shot(10), Unsupervised Learning(10)  
+Keywords: Contrastive Learning, Few-shot, Few-shot Learning, Unsupervised Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02444v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02444v1.pdf" filename="2402.02444v1.pdf">Download PDF</button>
 
@@ -1121,7 +1119,7 @@ Keywords: Contrastive Learning(10), Few-shot Learning(10), Few-shot(10), Unsuper
 
 
 **ABSTRACT**  
-Learning quickly from very few labeled samples is a fundamental attribute that separates machines and humans in the era of deep representation learning. Unsupervised few-shot learning (U-FSL) aspires to bridge this gap by discarding the reliance on annotations at training time. Intrigued by the success of contrastive learning approaches in the realm of U-FSL, we structurally approach their shortcomings in both pretraining and downstream inference stages. We propose a novel Dynamic Clustered mEmory (DyCE) module to promote a highly separable latent representation space for enhancing positive sampling at the pretraining phase and infusing implicit class-level insights into unsupervised contrastive learning. We then tackle the, somehow overlooked yet critical, issue of sample bias at the few-shot inference stage. We propose an iterative Optimal Transport-based distribution Alignment (OpTA) strategy and demonstrate that it efficiently addresses the problem, especially in low-shot scenarios where FSL approaches suffer the most from sample bias. We later on discuss that DyCE and OpTA are two intertwined pieces of a novel end-to-end approach (we coin as BECLR), constructively magnifying each other's impact. We then present a suite of extensive quantitative and qualitative experimentation to corroborate that BECLR sets a new state-of-the-art across ALL existing U-FSL benchmarks (to the best of our knowledge), and significantly outperforms the best of the current baselines (codebase available at: https://github.com/stypoumic/BECLR).
+Learning quickly from very few labeled samples is a fundamental attribute that separates machines and humans in the era of deep representation learning. <b>Unsupervised</b> <b>few-shot</b> <b>learning</b> (U-FSL) aspires to bridge this gap by discarding the reliance on annotations at training time. Intrigued by the success of <b>contrastive</b> <b>learning</b> approaches in the realm of U-FSL, we structurally approach their shortcomings in both pretraining and downstream inference stages. We propose a novel Dynamic Clustered mEmory (DyCE) module to promote a highly separable latent representation space for enhancing positive sampling at the pretraining phase and infusing implicit class-level insights into <b>unsupervised</b> contrastive learning. We then tackle the, somehow overlooked yet critical, issue of sample bias at the <b>few-shot</b> inference stage. We propose an iterative Optimal Transport-based distribution Alignment (OpTA) strategy and demonstrate that it efficiently addresses the problem, especially in low-shot scenarios where FSL approaches suffer the most from sample bias. We later on discuss that DyCE and OpTA are two intertwined pieces of a novel end-to-end approach (we coin as BECLR), constructively magnifying each other's impact. We then present a suite of extensive quantitative and qualitative experimentation to corroborate that BECLR sets a new state-of-the-art across ALL existing U-FSL benchmarks (to the best of our knowledge), and significantly outperforms the best of the current baselines (codebase available at: https://github.com/stypoumic/BECLR).
 
 {{</citation>}}
 
@@ -1148,7 +1146,7 @@ Xin Jin, Bohan Li, BAAO Xie, Wenyao Zhang, Jinming Liu, Ziqiang Li, Tao Yang, We
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keyword Score: 40  
-Keywords: Autoencoder(10), Knowledge Distillation(10), Self-supervised Learning(10), Unsupervised Learning(10)  
+Keywords: Autoencoder, Knowledge Distillation, Self-supervised Learning, Unsupervised Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02346v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02346v1.pdf" filename="2402.02346v1.pdf">Download PDF</button>
 
@@ -1156,7 +1154,7 @@ Keywords: Autoencoder(10), Knowledge Distillation(10), Self-supervised Learning(
 
 
 **ABSTRACT**  
-Representation disentanglement may help AI fundamentally understand the real world and thus benefit both discrimination and generation tasks. It currently has at least three unresolved core issues: (i) heavy reliance on label annotation and synthetic data -- causing poor generalization on natural scenarios; (ii) heuristic/hand-craft disentangling constraints make it hard to adaptively achieve an optimal training trade-off; (iii) lacking reasonable evaluation metric, especially for the real label-free data. To address these challenges, we propose a \textbf{C}losed-\textbf{L}oop unsupervised representation \textbf{Dis}entanglement approach dubbed \textbf{CL-Dis}. Specifically, we use diffusion-based autoencoder (Diff-AE) as a backbone while resorting to $\beta$-VAE as a co-pilot to extract semantically disentangled representations. The strong generation ability of diffusion model and the good disentanglement ability of VAE model are complementary. To strengthen disentangling, VAE-latent distillation and diffusion-wise feedback are interconnected in a closed-loop system for a further mutual promotion. Then, a self-supervised \textbf{Navigation} strategy is introduced to identify interpretable semantic directions in the disentangled latent space. Finally, a new metric based on content tracking is designed to evaluate the disentanglement effect. Experiments demonstrate the superiority of CL-Dis on applications like real image manipulation and visual analysis.
+Representation disentanglement may help AI fundamentally understand the real world and thus benefit both discrimination and generation tasks. It currently has at least three unresolved core issues: (i) heavy reliance on label annotation and synthetic data -- causing poor generalization on natural scenarios; (ii) heuristic/hand-craft disentangling constraints make it hard to adaptively achieve an optimal training trade-off; (iii) lacking reasonable evaluation metric, especially for the real label-free data. To address these challenges, we propose a \textbf{C}losed-\textbf{L}oop <b>unsupervised</b> representation \textbf{Dis}entanglement approach dubbed \textbf{CL-Dis}. Specifically, we use diffusion-based <b>autoencoder</b> (Diff-AE) as a backbone while resorting to $\beta$-VAE as a co-pilot to extract semantically disentangled representations. The strong generation ability of diffusion model and the good disentanglement ability of VAE model are complementary. To strengthen disentangling, VAE-latent <b>distillation</b> and diffusion-wise feedback are interconnected in a closed-loop system for a further mutual promotion. Then, a <b>self-supervised</b> \textbf{Navigation} strategy is introduced to identify interpretable semantic directions in the disentangled latent space. Finally, a new metric based on content tracking is designed to evaluate the disentanglement effect. Experiments demonstrate the superiority of CL-Dis on applications like real image manipulation and visual analysis.
 
 {{</citation>}}
 
@@ -1183,7 +1181,7 @@ Guanxiong Sun, Chi Wang, Zhaoyu Zhang, Jiankang Deng, Stefanos Zafeiriou, Yang H
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keyword Score: 30  
-Keywords: Object Detection(10), Prompt(10), Transformer(10)  
+Keywords: Object Detection, Transformer, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02574v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02574v1.pdf" filename="2402.02574v1.pdf">Download PDF</button>
 
@@ -1218,7 +1216,7 @@ Oryan Yehezkel, Alon Zolfi, Amit Baras, Yuval Elovici, Asaf Shabtai. (2024)
 Primary Category: cs.CV  
 Categories: cs-CR, cs-CV, cs-LG, cs.CV  
 Keyword Score: 30  
-Keywords: Adversarial Attack(10), Object Detection(10), Transformer(10)  
+Keywords: Object Detection, Transformer, Adversarial Attack  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02554v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02554v1.pdf" filename="2402.02554v1.pdf">Download PDF</button>
 
@@ -1253,7 +1251,7 @@ Farnoosh Arefi, Amir M. Mansourian, Shohreh Kasaei. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keyword Score: 30  
-Keywords: Self-supervised Learning(10), Self-supervised Learning(10), Unsupervised Learning(10)  
+Keywords: Self-supervised Learning, Self-supervised Learning, Unsupervised Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02474v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02474v2.pdf" filename="2402.02474v2.pdf">Download PDF</button>
 
@@ -1261,7 +1259,7 @@ Keywords: Self-supervised Learning(10), Self-supervised Learning(10), Unsupervis
 
 
 **ABSTRACT**  
-Deep spectral methods reframe the image decomposition process as a graph partitioning task by extracting features using self-supervised learning and utilizing the Laplacian of the affinity matrix to obtain eigensegments. However, instance segmentation has received less attention compared to other tasks within the context of deep spectral methods. This paper addresses the fact that not all channels of the feature map extracted from a self-supervised backbone contain sufficient information for instance segmentation purposes. In fact, Some channels are noisy and hinder the accuracy of the task. To overcome this issue, this paper proposes two channel reduction modules: Noise Channel Reduction (NCR) and Deviation-based Channel Reduction (DCR). The NCR retains channels with lower entropy, as they are less likely to be noisy, while DCR prunes channels with low standard deviation, as they lack sufficient information for effective instance segmentation. Furthermore, the paper demonstrates that the dot product, commonly used in deep spectral methods, is not suitable for instance segmentation due to its sensitivity to feature map values, potentially leading to incorrect instance segments. A new similarity metric called Bray-Curtis over Chebyshev (BoC) is proposed to address this issue. It takes into account the distribution of features in addition to their values, providing a more robust similarity measure for instance segmentation. Quantitative and qualitative results on the Youtube-VIS2019 dataset highlight the improvements achieved by the proposed channel reduction methods and the use of BoC instead of the conventional dot product for creating the affinity matrix. These improvements are observed in terms of mean Intersection over Union and extracted instance segments, demonstrating enhanced instance segmentation performance. The code is available on: https://github.com/farnooshar/SpecUnIIS
+Deep spectral methods reframe the image decomposition process as a graph partitioning task by extracting features using <b>self-supervised</b> <b>learning</b> and utilizing the Laplacian of the affinity matrix to obtain eigensegments. However, instance segmentation has received less attention compared to other tasks within the context of deep spectral methods. This paper addresses the fact that not all channels of the feature map extracted from a <b>self-supervised</b> backbone contain sufficient information for instance segmentation purposes. In fact, Some channels are noisy and hinder the accuracy of the task. To overcome this issue, this paper proposes two channel reduction modules: Noise Channel Reduction (NCR) and Deviation-based Channel Reduction (DCR). The NCR retains channels with lower entropy, as they are less likely to be noisy, while DCR prunes channels with low standard deviation, as they lack sufficient information for effective instance segmentation. Furthermore, the paper demonstrates that the dot product, commonly used in deep spectral methods, is not suitable for instance segmentation due to its sensitivity to feature map values, potentially leading to incorrect instance segments. A new similarity metric called Bray-Curtis over Chebyshev (BoC) is proposed to address this issue. It takes into account the distribution of features in addition to their values, providing a more robust similarity measure for instance segmentation. Quantitative and qualitative results on the Youtube-VIS2019 dataset highlight the improvements achieved by the proposed channel reduction methods and the use of BoC instead of the conventional dot product for creating the affinity matrix. These improvements are observed in terms of mean Intersection over Union and extracted instance segments, demonstrating enhanced instance segmentation performance. The code is available on: https://github.com/farnooshar/SpecUnIIS
 
 {{</citation>}}
 
@@ -1288,7 +1286,7 @@ Chao Li, Aojun Zhou, Anbang Yao. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keyword Score: 30  
-Keywords: Convolution(10), Convolutional Neural Network(10), Transformer(10)  
+Keywords: Convolution, Convolutional Neural Network, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02377v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02377v1.pdf" filename="2402.02377v1.pdf">Download PDF</button>
 
@@ -1323,7 +1321,7 @@ Pranav Singh, Jacopo Cirrone. (2024)
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keyword Score: 30  
-Keywords: Convolutional Neural Network(10), Self-supervised Learning(10), Self-supervised Learning(10)  
+Keywords: Convolutional Neural Network, Self-supervised Learning, Self-supervised Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02367v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02367v1.pdf" filename="2402.02367v1.pdf">Download PDF</button>
 
@@ -1331,7 +1329,7 @@ Keywords: Convolutional Neural Network(10), Self-supervised Learning(10), Self-s
 
 
 **ABSTRACT**  
-Recent advancements in self-supervised learning have unlocked the potential to harness unlabeled data for auxiliary tasks, facilitating the learning of beneficial priors. This has been particularly advantageous in fields like medical image analysis, where labeled data are scarce. Although effective for classification tasks, this methodology has shown limitations in more complex applications, such as medical image segmentation. In this paper, we introduce Medical imaging Enhanced with Dynamic Self-Adaptive Semantic Segmentation (MedSASS), a dedicated self-supervised framework tailored for medical image segmentation. We evaluate MedSASS against existing state-of-the-art methods across four diverse medical datasets, showcasing its superiority. MedSASS outperforms existing CNN-based self-supervised methods by 3.83% and matches the performance of ViT-based methods. Furthermore, when MedSASS is trained end-to-end, covering both encoder and decoder, it demonstrates significant improvements of 14.4% for CNNs and 6% for ViT-based architectures compared to existing state-of-the-art self-supervised strategies.
+Recent advancements in <b>self-supervised</b> <b>learning</b> have unlocked the potential to harness unlabeled data for auxiliary tasks, facilitating the learning of beneficial priors. This has been particularly advantageous in fields like medical image analysis, where labeled data are scarce. Although effective for classification tasks, this methodology has shown limitations in more complex applications, such as medical image segmentation. In this paper, we introduce Medical imaging Enhanced with Dynamic Self-Adaptive Semantic Segmentation (MedSASS), a dedicated <b>self-supervised</b> framework tailored for medical image segmentation. We evaluate MedSASS against existing state-of-the-art methods across four diverse medical datasets, showcasing its superiority. MedSASS outperforms existing CNN-based <b>self-supervised</b> methods by 3.83% and matches the performance of ViT-based methods. Furthermore, when MedSASS is trained end-to-end, covering both encoder and decoder, it demonstrates significant improvements of 14.4% for CNNs and 6% for ViT-based architectures compared to existing state-of-the-art <b>self-supervised</b> strategies.
 
 {{</citation>}}
 
@@ -1358,7 +1356,7 @@ Li Ren, Chen Chen, Liqiang Wang, Kien Hua. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keyword Score: 30  
-Keywords: Fine-tuning(10), Prompt(10), Transformer(10)  
+Keywords: Fine-tuning, Transformer, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02340v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02340v1.pdf" filename="2402.02340v1.pdf">Download PDF</button>
 
@@ -1366,7 +1364,7 @@ Keywords: Fine-tuning(10), Prompt(10), Transformer(10)
 
 
 **ABSTRACT**  
-Deep Metric Learning (DML) has long attracted the attention of the machine learning community as a key objective. Existing solutions concentrate on fine-tuning the pre-trained models on conventional image datasets. As a result of the success of recent pre-trained models trained from larger-scale datasets, it is challenging to adapt the model to the DML tasks in the local data domain while retaining the previously gained knowledge. In this paper, we investigate parameter-efficient methods for fine-tuning the pre-trained model for DML tasks. In particular, we propose a novel and effective framework based on learning Visual Prompts (VPT) in the pre-trained Vision Transformers (ViT). Based on the conventional proxy-based DML paradigm, we augment the proxy by incorporating the semantic information from the input image and the ViT, in which we optimize the visual prompts for each class. We demonstrate that our new approximations with semantic information are superior to representative capabilities, thereby improving metric learning performance. We conduct extensive experiments to demonstrate that our proposed framework is effective and efficient by evaluating popular DML benchmarks. In particular, we demonstrate that our fine-tuning method achieves comparable or even better performance than recent state-of-the-art full fine-tuning works of DML while tuning only a small percentage of total parameters.
+Deep Metric Learning (DML) has long attracted the attention of the machine learning community as a key objective. Existing solutions concentrate on <b>fine-tuning</b> the pre-trained models on conventional image datasets. As a result of the success of recent pre-trained models trained from larger-scale datasets, it is challenging to adapt the model to the DML tasks in the local data domain while retaining the previously gained knowledge. In this paper, we investigate parameter-efficient methods for <b>fine-tuning</b> the pre-trained model for DML tasks. In particular, we propose a novel and effective framework based on learning Visual Prompts (VPT) in the pre-trained Vision Transformers (ViT). Based on the conventional proxy-based DML paradigm, we augment the proxy by incorporating the semantic information from the input image and the ViT, in which we optimize the visual prompts for each class. We demonstrate that our new approximations with semantic information are superior to representative capabilities, thereby improving metric learning performance. We conduct extensive experiments to demonstrate that our proposed framework is effective and efficient by evaluating popular DML benchmarks. In particular, we demonstrate that our <b>fine-tuning</b> method achieves comparable or even better performance than recent state-of-the-art full <b>fine-tuning</b> works of DML while tuning only a small percentage of total parameters.
 
 {{</citation>}}
 
@@ -1393,7 +1391,7 @@ Bin Ren, Yawei Li, Jingyun Liang, Rakesh Ranjan, Mengyuan Liu, Rita Cucchiara, L
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV, eess-IV  
 Keyword Score: 20  
-Keywords: Self-Attention(10), Transformer(10)  
+Keywords: Transformer, Self-Attention  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02634v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02634v1.pdf" filename="2402.02634v1.pdf">Download PDF</button>
 
@@ -1401,7 +1399,7 @@ Keywords: Self-Attention(10), Transformer(10)
 
 
 **ABSTRACT**  
-While it is crucial to capture global information for effective image restoration (IR), integrating such cues into transformer-based methods becomes computationally expensive, especially with high input resolution. Furthermore, the self-attention mechanism in transformers is prone to considering unnecessary global cues from unrelated objects or regions, introducing computational inefficiencies. In response to these challenges, we introduce the Key-Graph Transformer (KGT) in this paper. Specifically, KGT views patch features as graph nodes. The proposed Key-Graph Constructor efficiently forms a sparse yet representative Key-Graph by selectively connecting essential nodes instead of all the nodes. Then the proposed Key-Graph Attention is conducted under the guidance of the Key-Graph only among selected nodes with linear computational complexity within each window. Extensive experiments across 6 IR tasks confirm the proposed KGT's state-of-the-art performance, showcasing advancements both quantitatively and qualitatively.
+While it is crucial to capture global information for effective image restoration (IR), integrating such cues into transformer-based methods becomes computationally expensive, especially with high input resolution. Furthermore, the <b>self-attention</b> mechanism in transformers is prone to considering unnecessary global cues from unrelated objects or regions, introducing computational inefficiencies. In response to these challenges, we introduce the Key-Graph <b>Transformer</b> (KGT) in this paper. Specifically, KGT views patch features as graph nodes. The proposed Key-Graph Constructor efficiently forms a sparse yet representative Key-Graph by selectively connecting essential nodes instead of all the nodes. Then the proposed Key-Graph Attention is conducted under the guidance of the Key-Graph only among selected nodes with linear computational complexity within each window. Extensive experiments across 6 IR tasks confirm the proposed KGT's state-of-the-art performance, showcasing advancements both quantitatively and qualitatively.
 
 {{</citation>}}
 
@@ -1428,7 +1426,7 @@ Chong Mou, Xintao Wang, Jiechong Song, Ying Shan, Jian Zhang. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs-LG, cs.CV  
 Keyword Score: 20  
-Keywords: Prompt(10), Text2image(10)  
+Keywords: Text2image, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02583v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02583v1.pdf" filename="2402.02583v1.pdf">Download PDF</button>
 
@@ -1436,7 +1434,7 @@ Keywords: Prompt(10), Text2image(10)
 
 
 **ABSTRACT**  
-Large-scale Text-to-Image (T2I) diffusion models have revolutionized image generation over the last few years. Although owning diverse and high-quality generation capabilities, translating these abilities to fine-grained image editing remains challenging. In this paper, we propose DiffEditor to rectify two weaknesses in existing diffusion-based image editing: (1) in complex scenarios, editing results often lack editing accuracy and exhibit unexpected artifacts; (2) lack of flexibility to harmonize editing operations, e.g., imagine new content. In our solution, we introduce image prompts in fine-grained image editing, cooperating with the text prompt to better describe the editing content. To increase the flexibility while maintaining content consistency, we locally combine stochastic differential equation (SDE) into the ordinary differential equation (ODE) sampling. In addition, we incorporate regional score-based gradient guidance and a time travel strategy into the diffusion sampling, further improving the editing quality. Extensive experiments demonstrate that our method can efficiently achieve state-of-the-art performance on various fine-grained image editing tasks, including editing within a single image (e.g., object moving, resizing, and content dragging) and across images (e.g., appearance replacing and object pasting). Our source code is released at https://github.com/MC-E/DragonDiffusion.
+Large-scale <b>Text-to-Image</b> (T2I) diffusion models have revolutionized image generation over the last few years. Although owning diverse and high-quality generation capabilities, translating these abilities to fine-grained image editing remains challenging. In this paper, we propose DiffEditor to rectify two weaknesses in existing diffusion-based image editing: (1) in complex scenarios, editing results often lack editing accuracy and exhibit unexpected artifacts; (2) lack of flexibility to harmonize editing operations, e.g., imagine new content. In our solution, we introduce image prompts in fine-grained image editing, cooperating with the text <b>prompt</b> to better describe the editing content. To increase the flexibility while maintaining content consistency, we locally combine stochastic differential equation (SDE) into the ordinary differential equation (ODE) sampling. In addition, we incorporate regional score-based gradient guidance and a time travel strategy into the diffusion sampling, further improving the editing quality. Extensive experiments demonstrate that our method can efficiently achieve state-of-the-art performance on various fine-grained image editing tasks, including editing within a single image (e.g., object moving, resizing, and content dragging) and across images (e.g., appearance replacing and object pasting). Our source code is released at https://github.com/MC-E/DragonDiffusion.
 
 {{</citation>}}
 
@@ -1463,7 +1461,7 @@ Lu Qi, Yi-Wen Chen, Lehan Yang, Tiancheng Shen, Xiangtai Li, Weidong Guo, Yu Xu,
 Primary Category: cs.CV  
 Categories: cs-CL, cs-CV, cs.CV  
 Keyword Score: 20  
-Keywords: Grounding(10), Large Language Model(10)  
+Keywords: Grounding, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02555v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02555v1.pdf" filename="2402.02555v1.pdf">Download PDF</button>
 
@@ -1498,7 +1496,7 @@ Santiago Valbuena Rubio, María Teresa García-Ordás, Oscar García-Olalla Oliv
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keyword Score: 20  
-Keywords: Fine-tuning(10), Transfer Learning(10)  
+Keywords: Fine-tuning, Transfer Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03384v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.03384v1.pdf" filename="2402.03384v1.pdf">Download PDF</button>
 
@@ -1506,7 +1504,7 @@ Keywords: Fine-tuning(10), Transfer Learning(10)
 
 
 **ABSTRACT**  
-Glioblastoma is a highly malignant brain tumor with a life expectancy of only 3 to 6 months without treatment. Detecting and predicting its survival and grade accurately are crucial. This study introduces a novel approach using transfer learning techniques. Various pre-trained networks, including EfficientNet, ResNet, VGG16, and Inception, were tested through exhaustive optimization to identify the most suitable architecture. Transfer learning was applied to fine-tune these models on a glioblastoma image dataset, aiming to achieve two objectives: survival and tumor grade prediction.The experimental results show 65% accuracy in survival prediction, classifying patients into short, medium, or long survival categories. Additionally, the prediction of tumor grade achieved an accuracy of 97%, accurately differentiating low-grade gliomas (LGG) and high-grade gliomas (HGG). The success of the approach is attributed to the effectiveness of transfer learning, surpassing the current state-of-the-art methods. In conclusion, this study presents a promising method for predicting the survival and grade of glioblastoma. Transfer learning demonstrates its potential in enhancing prediction models, particularly in scenarios with limited large datasets. These findings hold promise for improving diagnostic and treatment approaches for glioblastoma patients.
+Glioblastoma is a highly malignant brain tumor with a life expectancy of only 3 to 6 months without treatment. Detecting and predicting its survival and grade accurately are crucial. This study introduces a novel approach using <b>transfer</b> <b>learning</b> techniques. Various pre-trained networks, including EfficientNet, ResNet, VGG16, and Inception, were tested through exhaustive optimization to identify the most suitable architecture. <b>Transfer</b> <b>learning</b> was applied to <b>fine-tune</b> these models on a glioblastoma image dataset, aiming to achieve two objectives: survival and tumor grade prediction.The experimental results show 65% accuracy in survival prediction, classifying patients into short, medium, or long survival categories. Additionally, the prediction of tumor grade achieved an accuracy of 97%, accurately differentiating low-grade gliomas (LGG) and high-grade gliomas (HGG). The success of the approach is attributed to the effectiveness of transfer learning, surpassing the current state-of-the-art methods. In conclusion, this study presents a promising method for predicting the survival and grade of glioblastoma. <b>Transfer</b> <b>learning</b> demonstrates its potential in enhancing prediction models, particularly in scenarios with limited large datasets. These findings hold promise for improving diagnostic and treatment approaches for glioblastoma patients.
 
 {{</citation>}}
 
@@ -1533,7 +1531,7 @@ Tao Wang, Wanglong Lu, Kaihao Zhang, Wenhan Luo, Tae-Kyun Kim, Tong Lu, Hongdong
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keyword Score: 20  
-Keywords: Prompt(10), Transformer(10)  
+Keywords: Transformer, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02374v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02374v1.pdf" filename="2402.02374v1.pdf">Download PDF</button>
 
@@ -1541,7 +1539,7 @@ Keywords: Prompt(10), Transformer(10)
 
 
 **ABSTRACT**  
-Existing single image reflection removal (SIRR) methods using deep learning tend to miss key low-frequency (LF) and high-frequency (HF) differences in images, affecting their effectiveness in removing reflections. To address this problem, this paper proposes a novel prompt-guided reflection removal (PromptRR) framework that uses frequency information as new visual prompts for better reflection performance. Specifically, the proposed framework decouples the reflection removal process into the prompt generation and subsequent prompt-guided restoration. For the prompt generation, we first propose a prompt pre-training strategy to train a frequency prompt encoder that encodes the ground-truth image into LF and HF prompts. Then, we adopt diffusion models (DMs) as prompt generators to generate the LF and HF prompts estimated by the pre-trained frequency prompt encoder. For the prompt-guided restoration, we integrate specially generated prompts into the PromptFormer network, employing a novel Transformer-based prompt block to effectively steer the model toward enhanced reflection removal. The results on commonly used benchmarks show that our method outperforms state-of-the-art approaches. The codes and models are available at https://github.com/TaoWangzj/PromptRR.
+Existing single image reflection removal (SIRR) methods using deep learning tend to miss key low-frequency (LF) and high-frequency (HF) differences in images, affecting their effectiveness in removing reflections. To address this problem, this paper proposes a novel prompt-guided reflection removal (PromptRR) framework that uses frequency information as new visual prompts for better reflection performance. Specifically, the proposed framework decouples the reflection removal process into the <b>prompt</b> generation and subsequent prompt-guided restoration. For the <b>prompt</b> generation, we first propose a <b>prompt</b> pre-training strategy to train a frequency <b>prompt</b> encoder that encodes the ground-truth image into LF and HF prompts. Then, we adopt diffusion models (DMs) as <b>prompt</b> generators to generate the LF and HF prompts estimated by the pre-trained frequency <b>prompt</b> encoder. For the prompt-guided restoration, we integrate specially generated prompts into the PromptFormer network, employing a novel Transformer-based <b>prompt</b> block to effectively steer the model toward enhanced reflection removal. The results on commonly used benchmarks show that our method outperforms state-of-the-art approaches. The codes and models are available at https://github.com/TaoWangzj/PromptRR.
 
 {{</citation>}}
 
@@ -1568,7 +1566,7 @@ Bin Zhu, Kevin Flanagan, Adriano Fragomeni, Michael Wray, Dima Damen. (2024)
 Primary Category: cs.CV  
 Categories: cs-CV, cs-IR, cs.CV  
 Keyword Score: 20  
-Keywords: Fine-tuning(10), Vision-and-Language(10)  
+Keywords: Fine-tuning, Vision-and-Language  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02335v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02335v1.pdf" filename="2402.02335v1.pdf">Download PDF</button>
 
@@ -1576,7 +1574,7 @@ Keywords: Fine-tuning(10), Vision-and-Language(10)
 
 
 **ABSTRACT**  
-Though pre-training vision-language models have demonstrated significant benefits in boosting video-text retrieval performance from large-scale web videos, fine-tuning still plays a critical role with manually annotated clips with start and end times, which requires considerable human effort. To address this issue, we explore an alternative cheaper source of annotations, single timestamps, for video-text retrieval. We initialise clips from timestamps in a heuristic way to warm up a retrieval model. Then a video clip editing method is proposed to refine the initial rough boundaries to improve retrieval performance. A student-teacher network is introduced for video clip editing. The teacher model is employed to edit the clips in the training set whereas the student model trains on the edited clips. The teacher weights are updated from the student's after the student's performance increases. Our method is model agnostic and applicable to any retrieval models. We conduct experiments based on three state-of-the-art retrieval models, COOT, VideoCLIP and CLIP4Clip. Experiments conducted on three video retrieval datasets, YouCook2, DiDeMo and ActivityNet-Captions show that our edited clips consistently improve retrieval performance over initial clips across all the three retrieval models.
+Though pre-training <b>vision-language</b> models have demonstrated significant benefits in boosting video-text retrieval performance from large-scale web videos, <b>fine-tuning</b> still plays a critical role with manually annotated clips with start and end times, which requires considerable human effort. To address this issue, we explore an alternative cheaper source of annotations, single timestamps, for video-text retrieval. We initialise clips from timestamps in a heuristic way to warm up a retrieval model. Then a video clip editing method is proposed to refine the initial rough boundaries to improve retrieval performance. A student-teacher network is introduced for video clip editing. The teacher model is employed to edit the clips in the training set whereas the student model trains on the edited clips. The teacher weights are updated from the student's after the student's performance increases. Our method is model agnostic and applicable to any retrieval models. We conduct experiments based on three state-of-the-art retrieval models, COOT, VideoCLIP and CLIP4Clip. Experiments conducted on three video retrieval datasets, YouCook2, DiDeMo and ActivityNet-Captions show that our edited clips consistently improve retrieval performance over initial clips across all the three retrieval models.
 
 {{</citation>}}
 
@@ -1603,7 +1601,7 @@ Faizan Farooq Khan, Diana Kim, Divyansh Jha, Youssef Mohamed, Hanna H Chang, Ahm
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keyword Score: 10  
-Keywords: Out-of-distribution(10)  
+Keywords: Out-of-distribution  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02453v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02453v1.pdf" filename="2402.02453v1.pdf">Download PDF</button>
 
@@ -1611,7 +1609,7 @@ Keywords: Out-of-distribution(10)
 
 
 **ABSTRACT**  
-Discovering the creative potentials of a random signal to various artistic expressions in aesthetic and conceptual richness is a ground for the recent success of generative machine learning as a way of art creation. To understand the new artistic medium better, we conduct a comprehensive analysis to position AI-generated art within the context of human art heritage. Our comparative analysis is based on an extensive dataset, dubbed ``ArtConstellation,'' consisting of annotations about art principles, likability, and emotions for 6,000 WikiArt and 3,200 AI-generated artworks. After training various state-of-the-art generative models, art samples are produced and compared with WikiArt data on the last hidden layer of a deep-CNN trained for style classification. We actively examined the various art principles to interpret the neural representations and used them to drive the comparative knowledge about human and AI-generated art. A key finding in the semantic analysis is that AI-generated artworks are visually related to the principle concepts for modern period art made in 1800-2000. In addition, through Out-Of-Distribution (OOD) and In-Distribution (ID) detection in CLIP space, we find that AI-generated artworks are ID to human art when they depict landscapes and geometric abstract figures, while detected as OOD when the machine art consists of deformed and twisted figures. We observe that machine-generated art is uniquely characterized by incomplete and reduced figuration. Lastly, we conducted a human survey about emotional experience. Color composition and familiar subjects are the key factors of likability and emotions in art appreciation. We propose our whole methodologies and collected dataset as our analytical framework to contrast human and AI-generated art, which we refer to as ``ArtNeuralConstellation''. Code is available at: https://github.com/faixan-khan/ArtNeuralConstellation
+Discovering the creative potentials of a random signal to various artistic expressions in aesthetic and conceptual richness is a ground for the recent success of generative machine learning as a way of art creation. To understand the new artistic medium better, we conduct a comprehensive analysis to position AI-generated art within the context of human art heritage. Our comparative analysis is based on an extensive dataset, dubbed ``ArtConstellation,'' consisting of annotations about art principles, likability, and emotions for 6,000 WikiArt and 3,200 AI-generated artworks. After training various state-of-the-art generative models, art samples are produced and compared with WikiArt data on the last hidden layer of a deep-CNN trained for style classification. We actively examined the various art principles to interpret the neural representations and used them to drive the comparative knowledge about human and AI-generated art. A key finding in the semantic analysis is that AI-generated artworks are visually related to the principle concepts for modern period art made in 1800-2000. In addition, through <b>Out-Of-Distribution</b> (OOD) and In-Distribution (ID) detection in CLIP space, we find that AI-generated artworks are ID to human art when they depict landscapes and geometric abstract figures, while detected as OOD when the machine art consists of deformed and twisted figures. We observe that machine-generated art is uniquely characterized by incomplete and reduced figuration. Lastly, we conducted a human survey about emotional experience. Color composition and familiar subjects are the key factors of likability and emotions in art appreciation. We propose our whole methodologies and collected dataset as our analytical framework to contrast human and AI-generated art, which we refer to as ``ArtNeuralConstellation''. Code is available at: https://github.com/faixan-khan/ArtNeuralConstellation
 
 {{</citation>}}
 
@@ -1638,7 +1636,7 @@ Jincao Yao, Yunpeng Wang, Zhikai Lei, Kai Wang, Xiaoxian Li, Jianhua Zhou, Xiang
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs.CV  
 Keyword Score: 10  
-Keywords: ChatGPT(10)  
+Keywords: ChatGPT  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02401v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02401v1.pdf" filename="2402.02401v1.pdf">Download PDF</button>
 
@@ -1673,7 +1671,7 @@ Michal Shlapentokh-Rothman, Ansel Blume, Yao Xiao, Yuqun Wu, Sethuraman T V, Hey
 Primary Category: cs.CV  
 Categories: cs-CV, cs.CV  
 Keyword Score: 10  
-Keywords: Unsupervised Learning(10)  
+Keywords: Unsupervised Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02352v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02352v1.pdf" filename="2402.02352v1.pdf">Download PDF</button>
 
@@ -1681,7 +1679,7 @@ Keywords: Unsupervised Learning(10)
 
 
 **ABSTRACT**  
-We investigate whether region-based representations are effective for recognition. Regions were once a mainstay in recognition approaches, but pixel and patch-based features are now used almost exclusively. We show that recent class-agnostic segmenters like SAM can be effectively combined with strong unsupervised representations like DINOv2 and used for a wide variety of tasks, including semantic segmentation, object-based image retrieval, and multi-image analysis. Once the masks and features are extracted, these representations, even with linear decoders, enable competitive performance, making them well suited to applications that require custom queries. The compactness of the representation also makes it well-suited to video analysis and other problems requiring inference across many images.
+We investigate whether region-based representations are effective for recognition. Regions were once a mainstay in recognition approaches, but pixel and patch-based features are now used almost exclusively. We show that recent class-agnostic segmenters like SAM can be effectively combined with strong <b>unsupervised</b> representations like DINOv2 and used for a wide variety of tasks, including semantic segmentation, object-based image retrieval, and multi-image analysis. Once the masks and features are extracted, these representations, even with linear decoders, enable competitive performance, making them well suited to applications that require custom queries. The compactness of the representation also makes it well-suited to video analysis and other problems requiring inference across many images.
 
 {{</citation>}}
 
@@ -1708,7 +1706,7 @@ Ti Wang, Mengyuan Liu, Hong Liu, Bin Ren, Yingxuan You, Wenhao Li, Nicu Sebe, Xi
 Primary Category: cs.CV  
 Categories: cs-AI, cs-CV, cs-LG, cs.CV  
 Keyword Score: 10  
-Keywords: Fine-tuning(10)  
+Keywords: Fine-tuning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02339v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02339v1.pdf" filename="2402.02339v1.pdf">Download PDF</button>
 
@@ -1716,7 +1714,7 @@ Keywords: Fine-tuning(10)
 
 
 **ABSTRACT**  
-Although data-driven methods have achieved success in 3D human pose estimation, they often suffer from domain gaps and exhibit limited generalization. In contrast, optimization-based methods excel in fine-tuning for specific cases but are generally inferior to data-driven methods in overall performance. We observe that previous optimization-based methods commonly rely on projection constraint, which only ensures alignment in 2D space, potentially leading to the overfitting problem. To address this, we propose an Uncertainty-Aware testing-time Optimization (UAO) framework, which keeps the prior information of pre-trained model and alleviates the overfitting problem using the uncertainty of joints. Specifically, during the training phase, we design an effective 2D-to-3D network for estimating the corresponding 3D pose while quantifying the uncertainty of each 3D joint. For optimization during testing, the proposed optimization framework freezes the pre-trained model and optimizes only a latent state. Projection loss is then employed to ensure the generated poses are well aligned in 2D space for high-quality optimization. Furthermore, we utilize the uncertainty of each joint to determine how much each joint is allowed for optimization. The effectiveness and superiority of the proposed framework are validated through extensive experiments on two challenging datasets: Human3.6M and MPI-INF-3DHP. Notably, our approach outperforms the previous best result by a large margin of 4.5% on Human3.6M. Our source code will be open-sourced.
+Although data-driven methods have achieved success in 3D human pose estimation, they often suffer from domain gaps and exhibit limited generalization. In contrast, optimization-based methods excel in <b>fine-tuning</b> for specific cases but are generally inferior to data-driven methods in overall performance. We observe that previous optimization-based methods commonly rely on projection constraint, which only ensures alignment in 2D space, potentially leading to the overfitting problem. To address this, we propose an Uncertainty-Aware testing-time Optimization (UAO) framework, which keeps the prior information of pre-trained model and alleviates the overfitting problem using the uncertainty of joints. Specifically, during the training phase, we design an effective 2D-to-3D network for estimating the corresponding 3D pose while quantifying the uncertainty of each 3D joint. For optimization during testing, the proposed optimization framework freezes the pre-trained model and optimizes only a latent state. Projection loss is then employed to ensure the generated poses are well aligned in 2D space for high-quality optimization. Furthermore, we utilize the uncertainty of each joint to determine how much each joint is allowed for optimization. The effectiveness and superiority of the proposed framework are validated through extensive experiments on two challenging datasets: Human3.6M and MPI-INF-3DHP. Notably, our approach outperforms the previous best result by a large margin of 4.5% on Human3.6M. Our source code will be open-sourced.
 
 {{</citation>}}
 
@@ -1747,7 +1745,7 @@ Weizheng Lu, Jiaming Zhang, Jing Zhang, Yueguo Chen. (2024)
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI  
 Keyword Score: 80  
-Keywords: Fact Verification(10), Fine-tuning(10), Instruction Tuning(10), Large Language Model(10), Large Language Model(10), Prompt(10), Question Answering(10), Question Answering(10)  
+Keywords: Fine-tuning, Fact Verification, Question Answering, Question Answering, Instruction Tuning, Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05121v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.05121v1.pdf" filename="2402.05121v1.pdf">Download PDF</button>
 
@@ -1755,7 +1753,7 @@ Keywords: Fact Verification(10), Fine-tuning(10), Instruction Tuning(10), Large 
 
 
 **ABSTRACT**  
-Tables, typically two-dimensional and structured to store large amounts of data, are essential in daily activities like database queries, spreadsheet calculations, and generating reports from web tables. Automating these table-centric tasks with Large Language Models (LLMs) offers significant public benefits, garnering interest from academia and industry. This survey provides an extensive overview of table tasks, encompassing not only the traditional areas like table question answering (Table QA) and fact verification, but also newly emphasized aspects such as table manipulation and advanced table data analysis. Additionally, it goes beyond the early strategies of pre-training and fine-tuning small language models, to include recent paradigms in LLM usage. The focus here is particularly on instruction-tuning, prompting, and agent-based approaches within the realm of LLMs. Finally, we highlight several challenges, ranging from private deployment and efficient inference to the development of extensive benchmarks for table manipulation and advanced data analysis.
+Tables, typically two-dimensional and structured to store large amounts of data, are essential in daily activities like database queries, spreadsheet calculations, and generating reports from web tables. Automating these table-centric tasks with Large Language Models (LLMs) offers significant public benefits, garnering interest from academia and industry. This survey provides an extensive overview of table tasks, encompassing not only the traditional areas like table <b>question</b> <b>answering</b> (Table QA) and fact verification, but also newly emphasized aspects such as table manipulation and advanced table data analysis. Additionally, it goes beyond the early strategies of pre-training and <b>fine-tuning</b> small language models, to include recent paradigms in <b>LLM</b> usage. The focus here is particularly on instruction-tuning, prompting, and agent-based approaches within the realm of LLMs. Finally, we highlight several challenges, ranging from private deployment and efficient inference to the development of extensive benchmarks for table manipulation and advanced data analysis.
 
 {{</citation>}}
 
@@ -1782,7 +1780,7 @@ Shuang Wu, Liwen Zhu, Tao Yang, Shiwei Xu, Qiang Fu, Yang Wei, Haobo Fu. (2024)
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI  
 Keyword Score: 70  
-Keywords: Fine-tuning(10), GPT-4(10), Large Language Model(10), Large Language Model(10), Prompt(10), Reasoning(10), Reinforcement Learning(10)  
+Keywords: Fine-tuning, Reinforcement Learning, GPT-4, Reasoning, Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02330v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02330v1.pdf" filename="2402.02330v1.pdf">Download PDF</button>
 
@@ -1790,7 +1788,7 @@ Keywords: Fine-tuning(10), GPT-4(10), Large Language Model(10), Large Language M
 
 
 **ABSTRACT**  
-This paper presents an innovative framework that integrates Large Language Models (LLMs) with an external Thinker module to enhance the reasoning capabilities of LLM-based agents. Unlike augmenting LLMs with prompt engineering, Thinker directly harnesses knowledge from databases and employs various optimization techniques. The framework forms a reasoning hierarchy where LLMs handle intuitive System-1 tasks such as natural language processing, while the Thinker focuses on cognitive System-2 tasks that require complex logical analysis and domain-specific knowledge. Our framework is presented using a 9-player Werewolf game that demands dual-system reasoning. We introduce a communication protocol between LLMs and the Thinker, and train the Thinker using data from 18800 human sessions and reinforcement learning. Experiments demonstrate the framework's effectiveness in deductive reasoning, speech generation, and online game evaluation. Additionally, we fine-tune a 6B LLM to surpass GPT4 when integrated with the Thinker. This paper also contributes the largest dataset for social deduction games to date.
+This paper presents an innovative framework that integrates Large Language Models (LLMs) with an external Thinker module to enhance the <b>reasoning</b> capabilities of LLM-based agents. Unlike augmenting LLMs with <b>prompt</b> engineering, Thinker directly harnesses knowledge from databases and employs various optimization techniques. The framework forms a <b>reasoning</b> hierarchy where LLMs handle intuitive System-1 tasks such as natural language processing, while the Thinker focuses on cognitive System-2 tasks that require complex logical analysis and domain-specific knowledge. Our framework is presented using a 9-player Werewolf game that demands dual-system reasoning. We introduce a communication protocol between LLMs and the Thinker, and train the Thinker using data from 18800 human sessions and reinforcement learning. Experiments demonstrate the framework's effectiveness in deductive reasoning, speech generation, and online game evaluation. Additionally, we <b>fine-tune</b> a 6B <b>LLM</b> to surpass GPT4 when integrated with the Thinker. This paper also contributes the largest dataset for social deduction games to date.
 
 {{</citation>}}
 
@@ -1817,7 +1815,7 @@ Chinmay Mittal, Krishna Kartik, Mausam, Parag Singla. (2024)
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs-LG, cs.AI  
 Keyword Score: 30  
-Keywords: Large Language Model(10), Question Answering(10), Reasoning(10)  
+Keywords: Question Answering, Reasoning, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02611v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02611v1.pdf" filename="2402.02611v1.pdf">Download PDF</button>
 
@@ -1825,7 +1823,7 @@ Keywords: Large Language Model(10), Question Answering(10), Reasoning(10)
 
 
 **ABSTRACT**  
-Recent works have explored the use of LLMs for reasoning tasks focussing on relatively simple problems, such as logical question answering. In our work, we wish to tackle more complicated problems, significantly expanding the capabilities of these models. Particularly, we explore whether LLMs can solve challenging first-order combinatorial reasoning problems, an example being the popular puzzle Sudoku. These problems have an underlying first-order structure described by a general description in natural language and can be instantiated to instances of varying sizes. Moreover these problems are computationally intensive requiring several reasoning steps to reach the solution. We present PuzzleBench a dataset of 31 such challenging puzzles. We observe that LLMs even when aided by symbolic solvers perform rather poorly on our benchmark. In response we propose a new approach, Puzzle-LM which combines LLMs with both symbolic solvers and program interpreters enabling them to reason about such challenging problems. We also show how feedback from smaller solved instances can help improve this reasoning ability.
+Recent works have explored the use of LLMs for <b>reasoning</b> tasks focussing on relatively simple problems, such as logical question answering. In our work, we wish to tackle more complicated problems, significantly expanding the capabilities of these models. Particularly, we explore whether LLMs can solve challenging first-order combinatorial <b>reasoning</b> problems, an example being the popular puzzle Sudoku. These problems have an underlying first-order structure described by a general description in natural language and can be instantiated to instances of varying sizes. Moreover these problems are computationally intensive requiring several <b>reasoning</b> steps to reach the solution. We present PuzzleBench a dataset of 31 such challenging puzzles. We observe that LLMs even when aided by symbolic solvers perform rather poorly on our benchmark. In response we propose a new approach, Puzzle-LM which combines LLMs with both symbolic solvers and program interpreters enabling them to reason about such challenging problems. We also show how feedback from smaller solved instances can help improve this <b>reasoning</b> ability.
 
 {{</citation>}}
 
@@ -1852,7 +1850,7 @@ Ollie Liu, Deqing Fu, Dani Yogatama, Willie Neiswanger. (2024)
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs-LG, cs.AI  
 Keyword Score: 30  
-Keywords: Large Language Model(10), Large Language Model(10), Prompt(10)  
+Keywords: Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02392v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02392v1.pdf" filename="2402.02392v1.pdf">Download PDF</button>
 
@@ -1860,7 +1858,7 @@ Keywords: Large Language Model(10), Large Language Model(10), Prompt(10)
 
 
 **ABSTRACT**  
-Large language models (LLMs) are increasingly used across society, including in domains like business, engineering, and medicine. These fields often grapple with decision-making under uncertainty, a critical yet challenging task. In this paper, we show that directly prompting LLMs on these types of decision-making problems yields poor results, especially as the problem complexity increases. To overcome this limitation, we propose DeLLMa (Decision-making Large Language Model assistant), a framework designed to enhance decision-making accuracy in uncertain environments. DeLLMa involves a multi-step scaffolding procedure, drawing upon principles from decision theory and utility theory, to provide an optimal and human-auditable decision-making process. We validate our framework on decision-making environments involving real agriculture and finance data. Our results show that DeLLMa can significantly improve LLM decision-making performance, achieving up to a 40% increase in accuracy over competing methods.
+Large language models (LLMs) are increasingly used across society, including in domains like business, engineering, and medicine. These fields often grapple with decision-making under uncertainty, a critical yet challenging task. In this paper, we show that directly prompting LLMs on these types of decision-making problems yields poor results, especially as the problem complexity increases. To overcome this limitation, we propose DeLLMa (Decision-making <b>Large</b> <b>Language</b> <b>Model</b> assistant), a framework designed to enhance decision-making accuracy in uncertain environments. DeLLMa involves a multi-step scaffolding procedure, drawing upon principles from decision theory and utility theory, to provide an optimal and human-auditable decision-making process. We validate our framework on decision-making environments involving real agriculture and finance data. Our results show that DeLLMa can significantly improve <b>LLM</b> decision-making performance, achieving up to a 40% increase in accuracy over competing methods.
 
 {{</citation>}}
 
@@ -1887,7 +1885,7 @@ Youzhi Qu, Chen Wei, Penghui Du, Wenxin Che, Chi Zhang, Wanli Ouyang, Yatao Bian
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs.AI  
 Keyword Score: 20  
-Keywords: Large Language Model(10), Reasoning(10)  
+Keywords: Reasoning, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02547v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02547v1.pdf" filename="2402.02547v1.pdf">Download PDF</button>
 
@@ -1926,7 +1924,7 @@ Yong Liu, Guo Qin, Xiangdong Huang, Jianmin Wang, Mingsheng Long. (2024)
 Primary Category: cs.LG  
 Categories: cs-CL, cs-LG, cs.LG  
 Keyword Score: 70  
-Keywords: Foundation Model(10), In-context Learning(10), In-context Learning(10), Large Language Model(10), Large Language Model(10), Prompt(10), Zero-shot(10)  
+Keywords: Foundation Model, Zero-shot, In-context Learning, In-context Learning, Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02370v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02370v1.pdf" filename="2402.02370v1.pdf">Download PDF</button>
 
@@ -1934,7 +1932,7 @@ Keywords: Foundation Model(10), In-context Learning(10), In-context Learning(10)
 
 
 **ABSTRACT**  
-Foundation models of time series have not been fully developed due to the limited availability of large-scale time series and the underexploration of scalable pre-training. Based on the similar sequential structure of time series and natural language, increasing research demonstrates the feasibility of leveraging large language models (LLM) for time series. Nevertheless, prior methods may overlook the consistency in aligning time series and natural language, resulting in insufficient utilization of the LLM potentials. To fully exploit the general-purpose token transitions learned from language modeling, we propose AutoTimes to repurpose LLMs as Autoregressive Time series forecasters, which is consistent with the acquisition and utilization of LLMs without updating the parameters. The consequent forecasters can handle flexible series lengths and achieve competitive performance as prevalent models. Further, we present token-wise prompting that utilizes corresponding timestamps to make our method applicable to multimodal scenarios. Analysis demonstrates our forecasters inherit zero-shot and in-context learning capabilities of LLMs. Empirically, AutoTimes exhibits notable method generality and achieves enhanced performance by basing on larger LLMs, additional texts, or time series as instructions.
+Foundation models of time series have not been fully developed due to the limited availability of large-scale time series and the underexploration of scalable pre-training. Based on the similar sequential structure of time series and natural language, increasing research demonstrates the feasibility of leveraging large language models (LLM) for time series. Nevertheless, prior methods may overlook the consistency in aligning time series and natural language, resulting in insufficient utilization of the <b>LLM</b> potentials. To fully exploit the general-purpose token transitions learned from language modeling, we propose AutoTimes to repurpose LLMs as Autoregressive Time series forecasters, which is consistent with the acquisition and utilization of LLMs without updating the parameters. The consequent forecasters can handle flexible series lengths and achieve competitive performance as prevalent models. Further, we present token-wise prompting that utilizes corresponding timestamps to make our method applicable to multimodal scenarios. Analysis demonstrates our forecasters inherit <b>zero-shot</b> and <b>in-context</b> <b>learning</b> capabilities of LLMs. Empirically, AutoTimes exhibits notable method generality and achieves enhanced performance by basing on larger LLMs, additional texts, or time series as instructions.
 
 {{</citation>}}
 
@@ -1961,7 +1959,7 @@ Gaurav Pandey, Yatin Nandwani, Tahira Naseem, Mayank Mishra, Guangxuan Xu, Dines
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CL, cs-HC, cs-LG, cs.LG  
 Keyword Score: 60  
-Keywords: Knowledge Distillation(10), Language Generation(10), Large Language Model(10), Natural Language Generation(10), Reinforcement Learning(10), Summarization(10)  
+Keywords: Knowledge Distillation, Reinforcement Learning, Language Generation, Natural Language Generation, Large Language Model, Summarization  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02479v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02479v1.pdf" filename="2402.02479v1.pdf">Download PDF</button>
 
@@ -1969,7 +1967,7 @@ Keywords: Knowledge Distillation(10), Language Generation(10), Large Language Mo
 
 
 **ABSTRACT**  
-Following the success of Proximal Policy Optimization (PPO) for Reinforcement Learning from Human Feedback (RLHF), new techniques such as Sequence Likelihood Calibration (SLiC) and Direct Policy Optimization (DPO) have been proposed that are offline in nature and use rewards in an indirect manner. These techniques, in particular DPO, have recently become the tools of choice for LLM alignment due to their scalability and performance. However, they leave behind important features of the PPO approach. Methods such as SLiC or RRHF make use of the Reward Model (RM) only for ranking/preference, losing fine-grained information and ignoring the parametric form of the RM (eg., Bradley-Terry, Plackett-Luce), while methods such as DPO do not use even a separate reward model. In this work, we propose a novel approach, named BRAIn, that re-introduces the RM as part of a distribution matching approach.BRAIn considers the LLM distribution conditioned on the assumption of output goodness and applies Bayes theorem to derive an intractable posterior distribution where the RM is explicitly represented. BRAIn then distills this posterior into an amortized inference network through self-normalized importance sampling, leading to a scalable offline algorithm that significantly outperforms prior art in summarization and AntropicHH tasks. BRAIn also has interesting connections to PPO and DPO for specific RM choices.
+Following the success of Proximal Policy Optimization (PPO) for <b>Reinforcement</b> <b>Learning</b> from Human Feedback (RLHF), new techniques such as Sequence Likelihood Calibration (SLiC) and Direct Policy Optimization (DPO) have been proposed that are offline in nature and use rewards in an indirect manner. These techniques, in particular DPO, have recently become the tools of choice for <b>LLM</b> alignment due to their scalability and performance. However, they leave behind important features of the PPO approach. Methods such as SLiC or RRHF make use of the Reward Model (RM) only for ranking/preference, losing fine-grained information and ignoring the parametric form of the RM (eg., Bradley-Terry, Plackett-Luce), while methods such as DPO do not use even a separate reward model. In this work, we propose a novel approach, named BRAIn, that re-introduces the RM as part of a distribution matching approach.BRAIn considers the <b>LLM</b> distribution conditioned on the assumption of output goodness and applies Bayes theorem to derive an intractable posterior distribution where the RM is explicitly represented. BRAIn then distills this posterior into an amortized inference network through self-normalized importance sampling, leading to a scalable offline algorithm that significantly outperforms prior art in <b>summarization</b> and AntropicHH tasks. BRAIn also has interesting connections to PPO and DPO for specific RM choices.
 
 {{</citation>}}
 
@@ -1996,7 +1994,7 @@ Razvan-Gabriel Dumitru, Darius Peteleaza, Mihai Surdeanu. (2024)
 Primary Category: cs.LG  
 Categories: I-2-0; I-2-7, cs-AI, cs-CL, cs-LG, cs.LG  
 Keyword Score: 50  
-Keywords: Fine-tuning(10), Prompt(10), Recurrent Neural Network(10), Recurrent Neural Network(10), Transformer(10)  
+Keywords: Fine-tuning, Recurrent Neural Network, Recurrent Neural Network, Transformer, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02625v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02625v1.pdf" filename="2402.02625v1.pdf">Download PDF</button>
 
@@ -2004,7 +2002,7 @@ Keywords: Fine-tuning(10), Prompt(10), Recurrent Neural Network(10), Recurrent N
 
 
 **ABSTRACT**  
-We introduce the concept of multiple temporal perspectives, a novel approach applicable to Recurrent Neural Network (RNN) architectures for enhancing their understanding of sequential data. This method involves maintaining diverse temporal views of previously encountered text, significantly enriching the language models' capacity to interpret context. To show the efficacy of this approach, we incorporate it into the Receptance Weighted Key Value (RWKV) architecture, addressing its inherent challenge of retaining all historical information within a single hidden state. Notably, this improvement is achieved with a minimal increase in the number of parameters --even as little as $0.04\%$ of the original number of parameters. Further, the additional parameters necessary for the multiple temporal perspectives are fine-tuned with minimal computational overhead, avoiding the need for a full pre-training. The resulting model maintains linear computational complexity during prompt inference, ensuring consistent efficiency across various sequence lengths. The empirical results and ablation studies included in our research validate the effectiveness of our approach, showcasing improved performance across multiple benchmarks. The code, model weights and datasets are open-sourced at: https://github.com/RazvanDu/TemporalRNNs.
+We introduce the concept of multiple temporal perspectives, a novel approach applicable to <b>Recurrent</b> <b>Neural</b> <b>Network</b> (RNN) architectures for enhancing their understanding of sequential data. This method involves maintaining diverse temporal views of previously encountered text, significantly enriching the language models' capacity to interpret context. To show the efficacy of this approach, we incorporate it into the Receptance Weighted Key Value (RWKV) architecture, addressing its inherent challenge of retaining all historical information within a single hidden state. Notably, this improvement is achieved with a minimal increase in the number of parameters --even as little as $0.04\%$ of the original number of parameters. Further, the additional parameters necessary for the multiple temporal perspectives are fine-tuned with minimal computational overhead, avoiding the need for a full pre-training. The resulting model maintains linear computational complexity during <b>prompt</b> inference, ensuring consistent efficiency across various sequence lengths. The empirical results and ablation studies included in our research validate the effectiveness of our approach, showcasing improved performance across multiple benchmarks. The code, model weights and datasets are open-sourced at: https://github.com/RazvanDu/TemporalRNNs.
 
 {{</citation>}}
 
@@ -2031,7 +2029,7 @@ Cheng Zhang, Jianyi Cheng, George A. Constantinides, Yiren Zhao. (2024)
 Primary Category: cs.LG  
 Categories: cs-CL, cs-LG, cs.LG  
 Keyword Score: 50  
-Keywords: Knowledge Distillation(10), Knowledge Distillation(10), Large Language Model(10), Large Language Model(10), Quantization(10)  
+Keywords: Knowledge Distillation, Knowledge Distillation, Quantization, Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02446v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02446v1.pdf" filename="2402.02446v1.pdf">Download PDF</button>
 
@@ -2039,7 +2037,7 @@ Keywords: Knowledge Distillation(10), Knowledge Distillation(10), Large Language
 
 
 **ABSTRACT**  
-Post-training quantization of Large Language Models (LLMs) is challenging. In this work, we introduce Low-rank Quantization Error Reduction (LQER), which combines quantization and low-rank approximation to recover the model capability. LQER leverages an activation-induced scale matrix to drive the singular value distribution of quantization error towards a desirable distribution, which enables nearly-lossless W4A8 quantization on various LLMs and downstream tasks without the need for knowledge distillation, grid search, or gradient-base iterative optimization. Unlike existing methods, the computation pattern of LQER eliminates the need for specialized Scatter and Gather processes to collect high-precision weights from irregular memory locations. Our W4A8 LLMs achieve near-lossless performance on six popular downstream tasks, while using 1.36$\times$ fewer hardware resources than the leading state-of-the-art method. We will open-source our framework once the paper is accepted.
+Post-training <b>quantization</b> of Large Language Models (LLMs) is challenging. In this work, we introduce Low-rank <b>Quantization</b> Error Reduction (LQER), which combines <b>quantization</b> and low-rank approximation to recover the model capability. LQER leverages an activation-induced scale matrix to drive the singular value distribution of <b>quantization</b> error towards a desirable distribution, which enables nearly-lossless W4A8 <b>quantization</b> on various LLMs and downstream tasks without the need for knowledge distillation, grid search, or gradient-base iterative optimization. Unlike existing methods, the computation pattern of LQER eliminates the need for specialized Scatter and Gather processes to collect high-precision weights from irregular memory locations. Our W4A8 LLMs achieve near-lossless performance on six popular downstream tasks, while using 1.36$\times$ fewer hardware resources than the leading state-of-the-art method. We will open-source our framework once the paper is accepted.
 
 {{</citation>}}
 
@@ -2066,7 +2064,7 @@ Yong Liu, Haoran Zhang, Chenyu Li, Xiangdong Huang, Jianmin Wang, Mingsheng Long
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, stat-ML  
 Keyword Score: 50  
-Keywords: Few-shot(10), Fine-tuning(10), GPT(10), Large Language Model(10), Transformer(10)  
+Keywords: Few-shot, Fine-tuning, GPT, Transformer, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02368v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02368v1.pdf" filename="2402.02368v1.pdf">Download PDF</button>
 
@@ -2074,7 +2072,7 @@ Keywords: Few-shot(10), Fine-tuning(10), GPT(10), Large Language Model(10), Tran
 
 
 **ABSTRACT**  
-Deep learning has contributed remarkably to the advancement of time series analysis. Still, deep models can encounter performance bottlenecks in real-world small-sample scenarios, which can be concealed due to the performance saturation with small models on current benchmarks. Meanwhile, large models have demonstrated great powers in these scenarios through large-scale pre-training. Continuous progresses have been achieved as the emergence of large language models, exhibiting unprecedented ability in few-shot generalization, scalability, and task generality, which is however absent in time series models. To change the current practices of training small models on specific datasets from scratch, this paper aims at an early development of large time series models (LTSM). During pre-training, we curate large-scale datasets with up to 1 billion time points, unify heterogeneous time series into single-series sequence (S3) format, and develop the GPT-style architecture toward LTSMs. To meet diverse application needs, we convert forecasting, imputation, and anomaly detection of time series into a unified generative task. The outcome of this study is a Time Series Transformer (Timer), that is pre-trained by autoregressive next token prediction on large multi-domain datasets, and is fine-tuned to downstream scenarios with promising abilities as an LTSM.
+Deep learning has contributed remarkably to the advancement of time series analysis. Still, deep models can encounter performance bottlenecks in real-world small-sample scenarios, which can be concealed due to the performance saturation with small models on current benchmarks. Meanwhile, large models have demonstrated great powers in these scenarios through large-scale pre-training. Continuous progresses have been achieved as the emergence of large language models, exhibiting unprecedented ability in <b>few-shot</b> generalization, scalability, and task generality, which is however absent in time series models. To change the current practices of training small models on specific datasets from scratch, this paper aims at an early development of large time series models (LTSM). During pre-training, we curate large-scale datasets with up to 1 billion time points, unify heterogeneous time series into single-series sequence (S3) format, and develop the GPT-style architecture toward LTSMs. To meet diverse application needs, we convert forecasting, imputation, and anomaly detection of time series into a unified generative task. The outcome of this study is a Time Series <b>Transformer</b> (Timer), that is pre-trained by autoregressive next token prediction on large multi-domain datasets, and is fine-tuned to downstream scenarios with promising abilities as an LTSM.
 
 {{</citation>}}
 
@@ -2101,7 +2099,7 @@ Fangzhao Zhang, Mert Pilanci. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs-NA, cs.LG, math-NA, math-OC  
 Keyword Score: 50  
-Keywords: Fine-tuning(10), Foundation Model(10), Large Language Model(10), Stochastic Gradient Descent(10), Text2image(10)  
+Keywords: Fine-tuning, Foundation Model, Stochastic Gradient Descent, Text2image, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02347v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02347v2.pdf" filename="2402.02347v2.pdf">Download PDF</button>
 
@@ -2109,7 +2107,7 @@ Keywords: Fine-tuning(10), Foundation Model(10), Large Language Model(10), Stoch
 
 
 **ABSTRACT**  
-In this work we study the enhancement of Low Rank Adaptation (LoRA) fine-tuning procedure by introducing a Riemannian preconditioner in its optimization step. Specifically, we introduce an $r\times r$ preconditioner in each gradient step where $r$ is the LoRA rank. This preconditioner requires a small change to existing optimizer code and creates virtually minuscule storage and runtime overhead. Our experimental results with both large language models and text-to-image diffusion models show that with our preconditioner, the convergence and reliability of SGD and AdamW can be significantly enhanced. Moreover, the training process becomes much more robust to hyperparameter choices such as learning rate. Theoretically, we show that fine-tuning a two-layer ReLU network in the convex paramaterization with our preconditioner has convergence rate independent of condition number of the data matrix. This new Riemannian preconditioner, previously explored in classic low-rank matrix recovery, is introduced to deep learning tasks for the first time in our work. We release our code at https://github.com/pilancilab/Riemannian_Preconditioned_LoRA.
+In this work we study the enhancement of Low Rank Adaptation (LoRA) <b>fine-tuning</b> procedure by introducing a Riemannian preconditioner in its optimization step. Specifically, we introduce an $r\times r$ preconditioner in each gradient step where $r$ is the LoRA rank. This preconditioner requires a small change to existing optimizer code and creates virtually minuscule storage and runtime overhead. Our experimental results with both large language models and <b>text-to-image</b> diffusion models show that with our preconditioner, the convergence and reliability of <b>SGD</b> and AdamW can be significantly enhanced. Moreover, the training process becomes much more robust to hyperparameter choices such as learning rate. Theoretically, we show that <b>fine-tuning</b> a two-layer ReLU network in the convex paramaterization with our preconditioner has convergence rate independent of condition number of the data matrix. This new Riemannian preconditioner, previously explored in classic low-rank matrix recovery, is introduced to deep learning tasks for the first time in our work. We release our code at https://github.com/pilancilab/Riemannian_Preconditioned_LoRA.
 
 {{</citation>}}
 
@@ -2136,7 +2134,7 @@ Hongliang Chi, Cong Qi, Suhang Wang, Yao Ma. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 50  
-Keywords: Active Learning(10), Graph Neural Network(10), Graph Neural Network(10), Node Classification(10), Summarization(10)  
+Keywords: Node Classification, Graph Neural Network, Graph Neural Network, Active Learning, Summarization  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02321v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02321v1.pdf" filename="2402.02321v1.pdf">Download PDF</button>
 
@@ -2144,7 +2142,7 @@ Keywords: Active Learning(10), Graph Neural Network(10), Graph Neural Network(10
 
 
 **ABSTRACT**  
-Graph Neural Networks (GNNs) have seen significant success in tasks such as node classification, largely contingent upon the availability of sufficient labeled nodes. Yet, the excessive cost of labeling large-scale graphs led to a focus on active learning on graphs, which aims for effective data selection to maximize downstream model performance. Notably, most existing methods assume reliable graph topology, while real-world scenarios often present noisy graphs. Given this, designing a successful active learning framework for noisy graphs is highly needed but challenging, as selecting data for labeling and obtaining a clean graph are two tasks naturally interdependent: selecting high-quality data requires clean graph structure while cleaning noisy graph structure requires sufficient labeled data. Considering the complexity mentioned above, we propose an active learning framework, GALClean, which has been specifically designed to adopt an iterative approach for conducting both data selection and graph purification simultaneously with best information learned from the prior iteration. Importantly, we summarize GALClean as an instance of the Expectation-Maximization algorithm, which provides a theoretical understanding of its design and mechanisms. This theory naturally leads to an enhanced version, GALClean+. Extensive experiments have demonstrated the effectiveness and robustness of our proposed method across various types and levels of noisy graphs.
+Graph Neural Networks (GNNs) have seen significant success in tasks such as node classification, largely contingent upon the availability of sufficient labeled nodes. Yet, the excessive cost of labeling large-scale graphs led to a focus on <b>active</b> <b>learning</b> on graphs, which aims for effective data selection to maximize downstream model performance. Notably, most existing methods assume reliable graph topology, while real-world scenarios often present noisy graphs. Given this, designing a successful <b>active</b> <b>learning</b> framework for noisy graphs is highly needed but challenging, as selecting data for labeling and obtaining a clean graph are two tasks naturally interdependent: selecting high-quality data requires clean graph structure while cleaning noisy graph structure requires sufficient labeled data. Considering the complexity mentioned above, we propose an <b>active</b> <b>learning</b> framework, GALClean, which has been specifically designed to adopt an iterative approach for conducting both data selection and graph purification simultaneously with best information learned from the prior iteration. Importantly, we <b>summarize</b> GALClean as an instance of the Expectation-Maximization algorithm, which provides a theoretical understanding of its design and mechanisms. This theory naturally leads to an enhanced version, GALClean+. Extensive experiments have demonstrated the effectiveness and robustness of our proposed method across various types and levels of noisy graphs.
 
 {{</citation>}}
 
@@ -2171,7 +2169,7 @@ Haowei Lin, Baizhou Huang, Haotian Ye, Qinyu Chen, Zihao Wang, Sujian Li, Jianzh
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keyword Score: 50  
-Keywords: Fine-tuning(10), Fine-tuning(10), Large Language Model(10), Large Language Model(10), Scaling Law(10)  
+Keywords: Fine-tuning, Fine-tuning, Large Language Model, Large Language Model, Scaling Law  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02314v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02314v1.pdf" filename="2402.02314v1.pdf">Download PDF</button>
 
@@ -2179,7 +2177,7 @@ Keywords: Fine-tuning(10), Fine-tuning(10), Large Language Model(10), Large Lang
 
 
 **ABSTRACT**  
-The ever-growing ecosystem of LLMs has posed a challenge in selecting the most appropriate pre-trained model to fine-tune amidst a sea of options. Given constrained resources, fine-tuning all models and making selections afterward is unrealistic. In this work, we formulate this resource-constrained selection task into predicting fine-tuning performance and illustrate its natural connection with scaling laws. Unlike pre-training, We find that the fine-tuning scaling curve includes not just the well-known "power phase" but also the previously unobserved "pre-power phase". We also explain why existing scaling laws fail to capture this phase transition phenomenon both theoretically and empirically. To address this, we introduce the concept of "pre-learned data size" into our rectified scaling law, which overcomes theoretical limitations and fits experimental results much better. By leveraging our law, we propose a novel LLM selection algorithm that selects the near-optimal model with hundreds of times less resource consumption, while other methods may provide negatively correlated selection.
+The ever-growing ecosystem of LLMs has posed a challenge in selecting the most appropriate pre-trained model to <b>fine-tune</b> amidst a sea of options. Given constrained resources, <b>fine-tuning</b> all models and making selections afterward is unrealistic. In this work, we formulate this resource-constrained selection task into predicting <b>fine-tuning</b> performance and illustrate its natural connection with scaling laws. Unlike pre-training, We find that the <b>fine-tuning</b> scaling curve includes not just the well-known "power phase" but also the previously unobserved "pre-power phase". We also explain why existing scaling laws fail to capture this phase transition phenomenon both theoretically and empirically. To address this, we introduce the concept of "pre-learned data size" into our rectified scaling law, which overcomes theoretical limitations and fits experimental results much better. By leveraging our law, we propose a novel <b>LLM</b> selection algorithm that selects the near-optimal model with hundreds of times less resource consumption, while other methods may provide negatively correlated selection.
 
 {{</citation>}}
 
@@ -2206,7 +2204,7 @@ Vivswan Shah, Nathan Youngblood. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 40  
-Keywords: Convolution(10), Quantization(10), Quantization(10), Transformer(10)  
+Keywords: Convolution, Quantization, Quantization, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02593v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02593v1.pdf" filename="2402.02593v1.pdf">Download PDF</button>
 
@@ -2214,7 +2212,7 @@ Keywords: Convolution(10), Quantization(10), Quantization(10), Transformer(10)
 
 
 **ABSTRACT**  
-Real-world analog systems intrinsically suffer from noise that can impede model convergence and accuracy on a variety of deep learning models. We demonstrate that differentiable activations like GELU and SiLU enable robust propagation of gradients which help to mitigate analog quantization error that is ubiquitous to all analog systems. We perform analysis and training of convolutional, linear, and transformer networks in the presence of quantized noise. Here, we are able to demonstrate that continuously differentiable activation functions are significantly more noise resilient over conventional rectified activations. As in the case of ReLU, the error in gradients are 100x higher than those in GELU near zero. Our findings provide guidance for selecting appropriate activations to realize performant and reliable hardware implementations across several machine learning domains such as computer vision, signal processing, and beyond.
+Real-world analog systems intrinsically suffer from noise that can impede model convergence and accuracy on a variety of deep learning models. We demonstrate that differentiable activations like GELU and SiLU enable robust propagation of gradients which help to mitigate analog <b>quantization</b> error that is ubiquitous to all analog systems. We perform analysis and training of convolutional, linear, and <b>transformer</b> networks in the presence of quantized noise. Here, we are able to demonstrate that continuously differentiable activation functions are significantly more noise resilient over conventional rectified activations. As in the case of ReLU, the error in gradients are 100x higher than those in GELU near zero. Our findings provide guidance for selecting appropriate activations to realize performant and reliable hardware implementations across several machine learning domains such as computer vision, signal processing, and beyond.
 
 {{</citation>}}
 
@@ -2241,7 +2239,7 @@ Jiaxiang Dong, Haixu Wu, Yuxuan Wang, Yunzhong Qiu, Li Zhang, Jianmin Wang, Ming
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 40  
-Keywords: Contrastive Learning(10), Data Augmentation(10), Self-supervised Learning(10), Self-supervised Pre-training(10)  
+Keywords: Contrastive Learning, Data Augmentation, Self-supervised Learning, Self-supervised Pre-training  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02475v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02475v1.pdf" filename="2402.02475v1.pdf">Download PDF</button>
 
@@ -2249,7 +2247,7 @@ Keywords: Contrastive Learning(10), Data Augmentation(10), Self-supervised Learn
 
 
 **ABSTRACT**  
-Time series pre-training has recently garnered wide attention for its potential to reduce labeling expenses and benefit various downstream tasks. Prior methods are mainly based on pre-training techniques well-acknowledged in vision or language, such as masked modeling and contrastive learning. However, randomly masking time series or calculating series-wise similarity will distort or neglect inherent temporal correlations crucial in time series data. To emphasize temporal correlation modeling, this paper proposes TimeSiam as a simple but effective self-supervised pre-training framework for Time series based on Siamese networks. Concretely, TimeSiam pre-trains Siamese encoders to capture intrinsic temporal correlations between randomly sampled past and current subseries. With a simple data augmentation method (e.g.~masking), TimeSiam can benefit from diverse augmented subseries and learn internal time-dependent representations through a past-to-current reconstruction. Moreover, learnable lineage embeddings are also introduced to distinguish temporal distance between sampled series and further foster the learning of diverse temporal correlations. TimeSiam consistently outperforms extensive advanced pre-training baselines, demonstrating superior forecasting and classification capabilities across 13 standard benchmarks in both intra- and cross-domain scenarios.
+Time series pre-training has recently garnered wide attention for its potential to reduce labeling expenses and benefit various downstream tasks. Prior methods are mainly based on pre-training techniques well-acknowledged in vision or language, such as masked modeling and contrastive learning. However, randomly masking time series or calculating series-wise similarity will distort or neglect inherent temporal correlations crucial in time series data. To emphasize temporal correlation modeling, this paper proposes TimeSiam as a simple but effective <b>self-supervised</b> <b>pre-training</b> framework for Time series based on Siamese networks. Concretely, TimeSiam pre-trains Siamese encoders to capture intrinsic temporal correlations between randomly sampled past and current subseries. With a simple <b>data</b> <b>augmentation</b> method (e.g.~masking), TimeSiam can benefit from diverse augmented subseries and learn internal time-dependent representations through a past-to-current reconstruction. Moreover, learnable lineage embeddings are also introduced to distinguish temporal distance between sampled series and further foster the learning of diverse temporal correlations. TimeSiam consistently outperforms extensive advanced pre-training baselines, demonstrating superior forecasting and classification capabilities across 13 standard benchmarks in both intra- and cross-domain scenarios.
 
 {{</citation>}}
 
@@ -2276,7 +2274,7 @@ Zhangyang Gao, Daize Dong, Cheng Tan, Jun Xia, Bozhen Hu, Stan Z. Li. (2024)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs-SI, cs.LG  
 Keyword Score: 40  
-Keywords: GPT(10), Graph Classification(10), Graph Neural Network(10), Transformer(10)  
+Keywords: Graph Classification, Graph Neural Network, GPT, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02464v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02464v1.pdf" filename="2402.02464v1.pdf">Download PDF</button>
 
@@ -2284,7 +2282,7 @@ Keywords: GPT(10), Graph Classification(10), Graph Neural Network(10), Transform
 
 
 **ABSTRACT**  
-Can we model non-Euclidean graphs as pure language or even Euclidean vectors while retaining their inherent information? The non-Euclidean property have posed a long term challenge in graph modeling. Despite recent GNN and Graphformer efforts encoding graphs as Euclidean vectors, recovering original graph from the vectors remains a challenge. We introduce GraphsGPT, featuring a Graph2Seq encoder that transforms non-Euclidean graphs into learnable graph words in a Euclidean space, along with a GraphGPT decoder that reconstructs the original graph from graph words to ensure information equivalence. We pretrain GraphsGPT on 100M molecules and yield some interesting findings: (1) Pretrained Graph2Seq excels in graph representation learning, achieving state-of-the-art results on 8/9 graph classification and regression tasks. (2) Pretrained GraphGPT serves as a strong graph generator, demonstrated by its ability to perform both unconditional and conditional graph generation. (3) Graph2Seq+GraphGPT enables effective graph mixup in the Euclidean space, overcoming previously known non-Euclidean challenge. (4) Our proposed novel edge-centric GPT pretraining task is effective in graph fields, underscoring its success in both representation and generation.
+Can we model non-Euclidean graphs as pure language or even Euclidean vectors while retaining their inherent information? The non-Euclidean property have posed a long term challenge in graph modeling. Despite recent <b>GNN</b> and Graphformer efforts encoding graphs as Euclidean vectors, recovering original graph from the vectors remains a challenge. We introduce GraphsGPT, featuring a Graph2Seq encoder that transforms non-Euclidean graphs into learnable graph words in a Euclidean space, along with a GraphGPT decoder that reconstructs the original graph from graph words to ensure information equivalence. We pretrain GraphsGPT on 100M molecules and yield some interesting findings: (1) Pretrained Graph2Seq excels in graph representation learning, achieving state-of-the-art results on 8/9 <b>graph</b> <b>classification</b> and regression tasks. (2) Pretrained GraphGPT serves as a strong graph generator, demonstrated by its ability to perform both unconditional and conditional graph generation. (3) Graph2Seq+GraphGPT enables effective graph mixup in the Euclidean space, overcoming previously known non-Euclidean challenge. (4) Our proposed novel edge-centric <b>GPT</b> pretraining task is effective in graph fields, underscoring its success in both representation and generation.
 
 {{</citation>}}
 
@@ -2311,7 +2309,7 @@ Peiqi Wang, Yikang Shen, Zhen Guo, Matthew Stallone, Yoon Kim, Polina Golland, R
 Primary Category: cs.LG  
 Categories: cs-CL, cs-LG, cs.LG  
 Keyword Score: 40  
-Keywords: Fine-tuning(10), Instruction Following(10), Instruction Tuning(10), Large Language Model(10)  
+Keywords: Fine-tuning, Instruction Following, Instruction Tuning, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02318v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02318v1.pdf" filename="2402.02318v1.pdf">Download PDF</button>
 
@@ -2319,7 +2317,7 @@ Keywords: Fine-tuning(10), Instruction Following(10), Instruction Tuning(10), La
 
 
 **ABSTRACT**  
-We aim to select data subsets for the fine-tuning of large language models to more effectively follow instructions. Prior work has emphasized the importance of diversity in dataset curation but relied on heuristics such as the number of tasks. In this paper, we use determinantal point processes to capture the diversity and quality of instruction tuning datasets for subset selection. We propose to measure dataset diversity with log determinant distance that is the distance between the dataset of interest and a maximally diverse reference dataset. Our experiments demonstrate that the proposed diversity measure in the normalized weight gradient space is correlated with downstream instruction-following performance. Consequently, it can be used to inform when data selection is the most helpful and to analyze dataset curation strategies. We demonstrate the utility of our approach on various instruction tuning datasets.
+We aim to select data subsets for the <b>fine-tuning</b> of large language models to more effectively follow instructions. Prior work has emphasized the importance of diversity in dataset curation but relied on heuristics such as the number of tasks. In this paper, we use determinantal point processes to capture the diversity and quality of <b>instruction</b> <b>tuning</b> datasets for subset selection. We propose to measure dataset diversity with log determinant distance that is the distance between the dataset of interest and a maximally diverse reference dataset. Our experiments demonstrate that the proposed diversity measure in the normalized weight gradient space is correlated with downstream instruction-following performance. Consequently, it can be used to inform when data selection is the most helpful and to analyze dataset curation strategies. We demonstrate the utility of our approach on various <b>instruction</b> <b>tuning</b> datasets.
 
 {{</citation>}}
 
@@ -2346,7 +2344,7 @@ Ziquan Liu, Zhuo Zhi, Ilija Bogunovic, Carsten Gerner-Beuerle, Miguel Rodrigues.
 Primary Category: cs.LG  
 Categories: cs-CR, cs-LG, cs.LG  
 Keyword Score: 30  
-Keywords: Adversarial Attack(10), Transformer(10), Vision-and-Language(10)  
+Keywords: Transformer, Vision-and-Language, Adversarial Attack  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02629v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02629v1.pdf" filename="2402.02629v1.pdf">Download PDF</button>
 
@@ -2354,7 +2352,7 @@ Keywords: Adversarial Attack(10), Transformer(10), Vision-and-Language(10)
 
 
 **ABSTRACT**  
-It is widely known that state-of-the-art machine learning models, including vision and language models, can be seriously compromised by adversarial perturbations. It is therefore increasingly relevant to develop capabilities to certify their performance in the presence of the most effective adversarial attacks. Our paper offers a new approach to certify the performance of machine learning models in the presence of adversarial attacks with population level risk guarantees. In particular, we introduce the notion of $(\alpha,\zeta)$ machine learning model safety. We propose a hypothesis testing procedure, based on the availability of a calibration set, to derive statistical guarantees providing that the probability of declaring that the adversarial (population) risk of a machine learning model is less than $\alpha$ (i.e. the model is safe), while the model is in fact unsafe (i.e. the model adversarial population risk is higher than $\alpha$), is less than $\zeta$. We also propose Bayesian optimization algorithms to determine efficiently whether a machine learning model is $(\alpha,\zeta)$-safe in the presence of an adversarial attack, along with statistical guarantees. We apply our framework to a range of machine learning models including various sizes of vision Transformer (ViT) and ResNet models impaired by a variety of adversarial attacks, such as AutoAttack, SquareAttack and natural evolution strategy attack, to illustrate the operation of our approach. Importantly, we show that ViT's are generally more robust to adversarial attacks than ResNets, and ViT-large is more robust than smaller models. Our approach goes beyond existing empirical adversarial risk-based certification guarantees. It formulates rigorous (and provable) performance guarantees that can be used to satisfy regulatory requirements mandating the use of state-of-the-art technical tools.
+It is widely known that state-of-the-art machine learning models, including vision and language models, can be seriously compromised by adversarial perturbations. It is therefore increasingly relevant to develop capabilities to certify their performance in the presence of the most effective adversarial attacks. Our paper offers a new approach to certify the performance of machine learning models in the presence of adversarial attacks with population level risk guarantees. In particular, we introduce the notion of $(\alpha,\zeta)$ machine learning model safety. We propose a hypothesis testing procedure, based on the availability of a calibration set, to derive statistical guarantees providing that the probability of declaring that the adversarial (population) risk of a machine learning model is less than $\alpha$ (i.e. the model is safe), while the model is in fact unsafe (i.e. the model adversarial population risk is higher than $\alpha$), is less than $\zeta$. We also propose Bayesian optimization algorithms to determine efficiently whether a machine learning model is $(\alpha,\zeta)$-safe in the presence of an adversarial attack, along with statistical guarantees. We apply our framework to a range of machine learning models including various sizes of vision <b>Transformer</b> (ViT) and ResNet models impaired by a variety of adversarial attacks, such as AutoAttack, SquareAttack and natural evolution strategy attack, to illustrate the operation of our approach. Importantly, we show that ViT's are generally more robust to adversarial attacks than ResNets, and ViT-large is more robust than smaller models. Our approach goes beyond existing empirical adversarial risk-based certification guarantees. It formulates rigorous (and provable) performance guarantees that can be used to satisfy regulatory requirements mandating the use of state-of-the-art technical tools.
 
 {{</citation>}}
 
@@ -2381,7 +2379,7 @@ Neisarg Dave, Daniel Kifer, C. Lee Giles, Ankur Mali. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 30  
-Keywords: Quantization(10), Recurrent Neural Network(10), Recurrent Neural Network(10)  
+Keywords: Quantization, Recurrent Neural Network, Recurrent Neural Network  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02627v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02627v1.pdf" filename="2402.02627v1.pdf">Download PDF</button>
 
@@ -2389,7 +2387,7 @@ Keywords: Quantization(10), Recurrent Neural Network(10), Recurrent Neural Netwo
 
 
 **ABSTRACT**  
-This paper analyzes two competing rule extraction methodologies: quantization and equivalence query. We trained $3600$ RNN models, extracting $18000$ DFA with a quantization approach (k-means and SOM) and $3600$ DFA by equivalence query($L^{*}$) methods across $10$ initialization seeds. We sampled the datasets from $7$ Tomita and $4$ Dyck grammars and trained them on $4$ RNN cells: LSTM, GRU, O2RNN, and MIRNN. The observations from our experiments establish the superior performance of O2RNN and quantization-based rule extraction over others. $L^{*}$, primarily proposed for regular grammars, performs similarly to quantization methods for Tomita languages when neural networks are perfectly trained. However, for partially trained RNNs, $L^{*}$ shows instability in the number of states in DFA, e.g., for Tomita 5 and Tomita 6 languages, $L^{*}$ produced more than $100$ states. In contrast, quantization methods result in rules with number of states very close to ground truth DFA. Among RNN cells, O2RNN produces stable DFA consistently compared to other cells. For Dyck Languages, we observe that although GRU outperforms other RNNs in network performance, the DFA extracted by O2RNN has higher performance and better stability. The stability is computed as the standard deviation of accuracy on test sets on networks trained across $10$ seeds. On Dyck Languages, quantization methods outperformed $L^{*}$ with better stability in accuracy and the number of states. $L^{*}$ often showed instability in accuracy in the order of $16\% - 22\%$ for GRU and MIRNN while deviation for quantization methods varied in $5\% - 15\%$. In many instances with LSTM and GRU, DFA's extracted by $L^{*}$ even failed to beat chance accuracy ($50\%$), while those extracted by quantization method had standard deviation in the $7\%-17\%$ range. For O2RNN, both rule extraction methods had deviation in the $0.5\% - 3\%$ range.
+This paper analyzes two competing rule extraction methodologies: <b>quantization</b> and equivalence query. We trained $3600$ <b>RNN</b> models, extracting $18000$ DFA with a <b>quantization</b> approach (k-means and SOM) and $3600$ DFA by equivalence query($L^{*}$) methods across $10$ initialization seeds. We sampled the datasets from $7$ Tomita and $4$ Dyck grammars and trained them on $4$ <b>RNN</b> cells: LSTM, GRU, O2RNN, and MIRNN. The observations from our experiments establish the superior performance of O2RNN and quantization-based rule extraction over others. $L^{*}$, primarily proposed for regular grammars, performs similarly to <b>quantization</b> methods for Tomita languages when neural networks are perfectly trained. However, for partially trained RNNs, $L^{*}$ shows instability in the number of states in DFA, e.g., for Tomita 5 and Tomita 6 languages, $L^{*}$ produced more than $100$ states. In contrast, <b>quantization</b> methods result in rules with number of states very close to ground truth DFA. Among <b>RNN</b> cells, O2RNN produces stable DFA consistently compared to other cells. For Dyck Languages, we observe that although GRU outperforms other RNNs in network performance, the DFA extracted by O2RNN has higher performance and better stability. The stability is computed as the standard deviation of accuracy on test sets on networks trained across $10$ seeds. On Dyck Languages, <b>quantization</b> methods outperformed $L^{*}$ with better stability in accuracy and the number of states. $L^{*}$ often showed instability in accuracy in the order of $16\% - 22\%$ for GRU and MIRNN while deviation for <b>quantization</b> methods varied in $5\% - 15\%$. In many instances with LSTM and GRU, DFA's extracted by $L^{*}$ even failed to beat chance accuracy ($50\%$), while those extracted by <b>quantization</b> method had standard deviation in the $7\%-17\%$ range. For O2RNN, both rule extraction methods had deviation in the $0.5\% - 3\%$ range.
 
 {{</citation>}}
 
@@ -2416,7 +2414,7 @@ Han Yuan, Chuan Hong. (2024)
 Primary Category: cs.LG  
 Categories: cs-CV, cs-LG, cs.LG  
 Keyword Score: 30  
-Keywords: Active Learning(10), Foundation Model(10), Self-supervised Learning(10)  
+Keywords: Active Learning, Foundation Model, Self-supervised Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02561v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02561v1.pdf" filename="2402.02561v1.pdf">Download PDF</button>
 
@@ -2424,7 +2422,7 @@ Keywords: Active Learning(10), Foundation Model(10), Self-supervised Learning(10
 
 
 **ABSTRACT**  
-Active learning selects the most informative samples from the unlabeled dataset to annotate in the context of a limited annotation budget. While numerous methods have been proposed for subsequent sample selection based on an initialized model, scant attention has been paid to the indispensable phase of active learning: selecting samples for model initialization. Most of the previous studies resort to random sampling or naive clustering. However, random sampling is prone to fluctuation, and naive clustering suffers from convergence speed, particularly when dealing with high-dimensional data such as imaging data. In this work, we propose to integrate foundation models with clustering methods to select samples for active learning initialization. Foundation models refer to those trained on massive datasets by the self-supervised paradigm and capable of generating informative and compacted embeddings for various downstream tasks. Leveraging these embeddings to replace raw features such as pixel values, clustering quickly converges and identifies better initial samples. For a comprehensive comparison, we included a classic ImageNet-supervised model to acquire embeddings. Experiments on two clinical tasks of image classification and segmentation demonstrated that foundation model-based clustering efficiently pinpointed informative initial samples, leading to models showcasing enhanced performance than the baseline methods. We envisage that this study provides an effective paradigm for future active learning.
+<b>Active</b> <b>learning</b> selects the most informative samples from the unlabeled dataset to annotate in the context of a limited annotation budget. While numerous methods have been proposed for subsequent sample selection based on an initialized model, scant attention has been paid to the indispensable phase of active learning: selecting samples for model initialization. Most of the previous studies resort to random sampling or naive clustering. However, random sampling is prone to fluctuation, and naive clustering suffers from convergence speed, particularly when dealing with high-dimensional data such as imaging data. In this work, we propose to integrate foundation models with clustering methods to select samples for <b>active</b> <b>learning</b> initialization. Foundation models refer to those trained on massive datasets by the <b>self-supervised</b> paradigm and capable of generating informative and compacted embeddings for various downstream tasks. Leveraging these embeddings to replace raw features such as pixel values, clustering quickly converges and identifies better initial samples. For a comprehensive comparison, we included a classic ImageNet-supervised model to acquire embeddings. Experiments on two clinical tasks of image classification and segmentation demonstrated that foundation model-based clustering efficiently pinpointed informative initial samples, leading to models showcasing enhanced performance than the baseline methods. We envisage that this study provides an effective paradigm for future active learning.
 
 {{</citation>}}
 
@@ -2451,7 +2449,7 @@ Junhua Zeng, Guoxu Zhou, Chao Li, Zhun Sun, Qibin Zhao. (2024)
 Primary Category: cs.LG  
 Categories: cs-CL, cs-LG, cs.LG  
 Keyword Score: 30  
-Keywords: Large Language Model(10), Large Language Model(10), Prompt(10)  
+Keywords: Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02456v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02456v1.pdf" filename="2402.02456v1.pdf">Download PDF</button>
 
@@ -2486,7 +2484,7 @@ Guanghe Li, Yixiang Shan, Zhengbang Zhu, Ting Long, Weinan Zhang. (2024)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keyword Score: 30  
-Keywords: Data Augmentation(10), Offline Reinforcement Learning(10), Reinforcement Learning(10)  
+Keywords: Data Augmentation, Offline Reinforcement Learning, Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02439v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02439v1.pdf" filename="2402.02439v1.pdf">Download PDF</button>
 
@@ -2494,7 +2492,7 @@ Keywords: Data Augmentation(10), Offline Reinforcement Learning(10), Reinforceme
 
 
 **ABSTRACT**  
-In offline reinforcement learning (RL), the performance of the learned policy highly depends on the quality of offline datasets. However, in many cases, the offline dataset contains very limited optimal trajectories, which poses a challenge for offline RL algorithms as agents must acquire the ability to transit to high-reward regions. To address this issue, we introduce Diffusion-based Trajectory Stitching (DiffStitch), a novel diffusion-based data augmentation pipeline that systematically generates stitching transitions between trajectories. DiffStitch effectively connects low-reward trajectories with high-reward trajectories, forming globally optimal trajectories to address the challenges faced by offline RL algorithms. Empirical experiments conducted on D4RL datasets demonstrate the effectiveness of DiffStitch across RL methodologies. Notably, DiffStitch demonstrates substantial enhancements in the performance of one-step methods (IQL), imitation learning methods (TD3+BC), and trajectory optimization methods (DT).
+In <b>offline</b> <b>reinforcement</b> <b>learning</b> (RL), the performance of the learned policy highly depends on the quality of offline datasets. However, in many cases, the offline dataset contains very limited optimal trajectories, which poses a challenge for offline RL algorithms as agents must acquire the ability to transit to high-reward regions. To address this issue, we introduce Diffusion-based Trajectory Stitching (DiffStitch), a novel diffusion-based <b>data</b> <b>augmentation</b> pipeline that systematically generates stitching transitions between trajectories. DiffStitch effectively connects low-reward trajectories with high-reward trajectories, forming globally optimal trajectories to address the challenges faced by offline RL algorithms. Empirical experiments conducted on D4RL datasets demonstrate the effectiveness of DiffStitch across RL methodologies. Notably, DiffStitch demonstrates substantial enhancements in the performance of one-step methods (IQL), imitation learning methods (TD3+BC), and trajectory optimization methods (DT).
 
 {{</citation>}}
 
@@ -2521,7 +2519,7 @@ Haixu Wu, Huakun Luo, Haowen Wang, Jianmin Wang, Mingsheng Long. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs-NA, cs.LG, math-NA  
 Keyword Score: 30  
-Keywords: Simulation(10), Simulator(10), Transformer(10)  
+Keywords: Simulation, Simulator, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02366v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02366v1.pdf" filename="2402.02366v1.pdf">Download PDF</button>
 
@@ -2556,7 +2554,7 @@ Jesse Hoogland, George Wang, Matthew Farrugia-Roberts, Liam Carroll, Susan Wei, 
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keyword Score: 30  
-Keywords: In-context Learning(10), In-context Learning(10), Transformer(10)  
+Keywords: Transformer, In-context Learning, In-context Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02364v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02364v1.pdf" filename="2402.02364v1.pdf">Download PDF</button>
 
@@ -2564,7 +2562,7 @@ Keywords: In-context Learning(10), In-context Learning(10), Transformer(10)
 
 
 **ABSTRACT**  
-We show that in-context learning emerges in transformers in discrete developmental stages, when they are trained on either language modeling or linear regression tasks. We introduce two methods for detecting the milestones that separate these stages, by probing the geometry of the population loss in both parameter space and function space. We study the stages revealed by these new methods using a range of behavioral and structural metrics to establish their validity.
+We show that <b>in-context</b> <b>learning</b> emerges in transformers in discrete developmental stages, when they are trained on either language modeling or linear regression tasks. We introduce two methods for detecting the milestones that separate these stages, by probing the geometry of the population loss in both parameter space and function space. We study the stages revealed by these new methods using a range of behavioral and structural metrics to establish their validity.
 
 {{</citation>}}
 
@@ -2591,7 +2589,7 @@ Liang Qiao, Jun Shi, Xiaoyu Hao, Xi Fang, Minfan Zhao, Ziqi Zhu, Junshi Chen, Ho
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 30  
-Keywords: Low-Resource(10), Pruning(10), Transfer Learning(10)  
+Keywords: Low-Resource, Pruning, Transfer Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02361v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02361v1.pdf" filename="2402.02361v1.pdf">Download PDF</button>
 
@@ -2599,7 +2597,7 @@ Keywords: Low-Resource(10), Pruning(10), Transfer Learning(10)
 
 
 **ABSTRACT**  
-Tensor program optimization on Deep Learning Accelerators (DLAs) is critical for efficient model deployment. Although search-based Deep Learning Compilers (DLCs) have achieved significant performance gains compared to manual methods, they still suffer from the persistent challenges of low search efficiency and poor cross-platform adaptability. In this paper, we propose $\textbf{Pruner}$, following hardware/software co-design principles to hierarchically boost tensor program optimization. Pruner comprises two primary components: a Parameterized Static Analyzer ($\textbf{PSA}$) and a Pattern-aware Cost Model ($\textbf{PaCM}$). The former serves as a hardware-aware and formulaic performance analysis tool, guiding the pruning of the search space, while the latter enables the performance prediction of tensor programs according to the critical data-flow patterns. Furthermore, to ensure effective cross-platform adaptation, we design a Momentum Transfer Learning ($\textbf{MTL}$) strategy using a Siamese network, which establishes a bidirectional feedback mechanism to improve the robustness of the pre-trained cost model. The extensive experimental results demonstrate the effectiveness and advancement of the proposed Pruner in various tensor program tuning tasks across both online and offline scenarios, with low resource overhead. The code is available at https://github.com/qiaolian9/Pruner.
+Tensor program optimization on Deep Learning Accelerators (DLAs) is critical for efficient model deployment. Although search-based Deep Learning Compilers (DLCs) have achieved significant performance gains compared to manual methods, they still suffer from the persistent challenges of low search efficiency and poor cross-platform adaptability. In this paper, we propose $\textbf{Pruner}$, following hardware/software co-design principles to hierarchically boost tensor program optimization. Pruner comprises two primary components: a Parameterized Static Analyzer ($\textbf{PSA}$) and a Pattern-aware Cost Model ($\textbf{PaCM}$). The former serves as a hardware-aware and formulaic performance analysis tool, guiding the <b>pruning</b> of the search space, while the latter enables the performance prediction of tensor programs according to the critical data-flow patterns. Furthermore, to ensure effective cross-platform adaptation, we design a Momentum <b>Transfer</b> <b>Learning</b> ($\textbf{MTL}$) strategy using a Siamese network, which establishes a bidirectional feedback mechanism to improve the robustness of the pre-trained cost model. The extensive experimental results demonstrate the effectiveness and advancement of the proposed Pruner in various tensor program tuning tasks across both online and offline scenarios, with low resource overhead. The code is available at https://github.com/qiaolian9/Pruner.
 
 {{</citation>}}
 
@@ -2626,7 +2624,7 @@ Jiacheng Chen, Zeyuan Ma, Hongshu Guo, Yining Ma, Jie Zhang, Yue-Jiao Gong. (202
 Primary Category: cs.LG  
 Categories: cs-LG, cs-NE, cs.LG  
 Keyword Score: 30  
-Keywords: Meta Learning(10), Reinforcement Learning(10), Zero-shot(10)  
+Keywords: Meta Learning, Reinforcement Learning, Zero-shot  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02355v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02355v2.pdf" filename="2402.02355v2.pdf">Download PDF</button>
 
@@ -2634,7 +2632,7 @@ Keywords: Meta Learning(10), Reinforcement Learning(10), Zero-shot(10)
 
 
 **ABSTRACT**  
-Recent Meta-learning for Black-Box Optimization (MetaBBO) methods harness neural networks to meta-learn configurations of traditional black-box optimizers. Despite their success, they are inevitably restricted by the limitations of predefined hand-crafted optimizers. In this paper, we present \textsc{Symbol}, a novel framework that promotes the automated discovery of black-box optimizers through symbolic equation learning. Specifically, we propose a Symbolic Equation Generator (SEG) that allows closed-form optimization rules to be dynamically generated for specific tasks and optimization steps. Within \textsc{Symbol}, we then develop three distinct strategies based on reinforcement learning, so as to meta-learn the SEG efficiently. Extensive experiments reveal that the optimizers generated by \textsc{Symbol} not only surpass the state-of-the-art BBO and MetaBBO baselines, but also exhibit exceptional zero-shot generalization abilities across entirely unseen tasks with different problem dimensions, population sizes, and optimization horizons. Furthermore, we conduct in-depth analyses of our \textsc{Symbol} framework and the optimization rules that it generates, underscoring its desirable flexibility and interpretability.
+Recent Meta-learning for Black-Box Optimization (MetaBBO) methods harness neural networks to meta-learn configurations of traditional black-box optimizers. Despite their success, they are inevitably restricted by the limitations of predefined hand-crafted optimizers. In this paper, we present \textsc{Symbol}, a novel framework that promotes the automated discovery of black-box optimizers through symbolic equation learning. Specifically, we propose a Symbolic Equation Generator (SEG) that allows closed-form optimization rules to be dynamically generated for specific tasks and optimization steps. Within \textsc{Symbol}, we then develop three distinct strategies based on reinforcement learning, so as to meta-learn the SEG efficiently. Extensive experiments reveal that the optimizers generated by \textsc{Symbol} not only surpass the state-of-the-art BBO and MetaBBO baselines, but also exhibit exceptional <b>zero-shot</b> generalization abilities across entirely unseen tasks with different problem dimensions, population sizes, and optimization horizons. Furthermore, we conduct in-depth analyses of our \textsc{Symbol} framework and the optimization rules that it generates, underscoring its desirable flexibility and interpretability.
 
 {{</citation>}}
 
@@ -2661,7 +2659,7 @@ Han Fang, Zhihao Song, Paul Weng, Yutong Ban. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 30  
-Keywords: Data Augmentation(10), Reinforcement Learning(10), Transformer(10)  
+Keywords: Data Augmentation, Reinforcement Learning, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02317v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02317v1.pdf" filename="2402.02317v1.pdf">Download PDF</button>
 
@@ -2669,7 +2667,7 @@ Keywords: Data Augmentation(10), Reinforcement Learning(10), Transformer(10)
 
 
 **ABSTRACT**  
-Recently, deep reinforcement learning has shown promising results for learning fast heuristics to solve routing problems. Meanwhile, most of the solvers suffer from generalizing to an unseen distribution or distributions with different scales. To address this issue, we propose a novel architecture, called Invariant Nested View Transformer (INViT), which is designed to enforce a nested design together with invariant views inside the encoders to promote the generalizability of the learned solver. It applies a modified policy gradient algorithm enhanced with data augmentations. We demonstrate that the proposed INViT achieves a dominant generalization performance on both TSP and CVRP problems with various distributions and different problem scales.
+Recently, deep <b>reinforcement</b> <b>learning</b> has shown promising results for learning fast heuristics to solve routing problems. Meanwhile, most of the solvers suffer from generalizing to an unseen distribution or distributions with different scales. To address this issue, we propose a novel architecture, called Invariant Nested View <b>Transformer</b> (INViT), which is designed to enforce a nested design together with invariant views inside the encoders to promote the generalizability of the learned solver. It applies a modified policy gradient algorithm enhanced with data augmentations. We demonstrate that the proposed INViT achieves a dominant generalization performance on both TSP and CVRP problems with various distributions and different problem scales.
 
 {{</citation>}}
 
@@ -2696,7 +2694,7 @@ Zhenxing Niu, Haodong Ren, Xinbo Gao, Gang Hua, Rong Jin. (2024)
 Primary Category: cs.LG  
 Categories: cs-CL, cs-CR, cs-CV, cs-LG, cs.LG  
 Keyword Score: 30  
-Keywords: Large Language Model(10), Large Language Model(10), Prompt(10)  
+Keywords: Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02309v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02309v1.pdf" filename="2402.02309v1.pdf">Download PDF</button>
 
@@ -2731,7 +2729,7 @@ Gerald Woo, Chenghao Liu, Akshat Kumar, Caiming Xiong, Silvio Savarese, Doyen Sa
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
 Keyword Score: 20  
-Keywords: Transformer(10), Zero-shot(10)  
+Keywords: Zero-shot, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02592v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02592v1.pdf" filename="2402.02592v1.pdf">Download PDF</button>
 
@@ -2739,7 +2737,7 @@ Keywords: Transformer(10), Zero-shot(10)
 
 
 **ABSTRACT**  
-Deep learning for time series forecasting has traditionally operated within a one-model-per-dataset framework, limiting its potential to leverage the game-changing impact of large pre-trained models. The concept of universal forecasting, emerging from pre-training on a vast collection of time series datasets, envisions a single Large Time Series Model capable of addressing diverse downstream forecasting tasks. However, constructing such a model poses unique challenges specific to time series data: i) cross-frequency learning, ii) accommodating an arbitrary number of variates for multivariate time series, and iii) addressing the varying distributional properties inherent in large-scale data. To address these challenges, we present novel enhancements to the conventional time series Transformer architecture, resulting in our proposed Masked Encoder-based Universal Time Series Forecasting Transformer (Moirai). Trained on our newly introduced Large-scale Open Time Series Archive (LOTSA) featuring over 27B observations across nine domains, Moirai achieves competitive or superior performance as a zero-shot forecaster when compared to full-shot models. Code, model weights, and data will be released.
+Deep learning for time series forecasting has traditionally operated within a one-model-per-dataset framework, limiting its potential to leverage the game-changing impact of large pre-trained models. The concept of universal forecasting, emerging from pre-training on a vast collection of time series datasets, envisions a single Large Time Series Model capable of addressing diverse downstream forecasting tasks. However, constructing such a model poses unique challenges specific to time series data: i) cross-frequency learning, ii) accommodating an arbitrary number of variates for multivariate time series, and iii) addressing the varying distributional properties inherent in large-scale data. To address these challenges, we present novel enhancements to the conventional time series <b>Transformer</b> architecture, resulting in our proposed Masked Encoder-based Universal Time Series Forecasting <b>Transformer</b> (Moirai). Trained on our newly introduced Large-scale Open Time Series Archive (LOTSA) featuring over 27B observations across nine domains, Moirai achieves competitive or superior performance as a <b>zero-shot</b> forecaster when compared to full-shot models. Code, model weights, and data will be released.
 
 {{</citation>}}
 
@@ -2766,7 +2764,7 @@ Quang Pham, Giang Do, Huy Nguyen, TrungTin Nguyen, Chenghao Liu, Mina Sartipi, B
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 20  
-Keywords: Large Language Model(10), Transformer(10)  
+Keywords: Transformer, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02526v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02526v1.pdf" filename="2402.02526v1.pdf">Download PDF</button>
 
@@ -2774,7 +2772,7 @@ Keywords: Large Language Model(10), Transformer(10)
 
 
 **ABSTRACT**  
-Sparse mixture of experts (SMoE) offers an appealing solution to scale up the model complexity beyond the mean of increasing the network's depth or width. However, effective training of SMoE has proven to be challenging due to the representation collapse issue, which causes parameter redundancy and limited representation potentials. In this work, we propose a competition mechanism to address this fundamental challenge of representation collapse. By routing inputs only to experts with the highest neural response, we show that, under mild assumptions, competition enjoys the same convergence rate as the optimal estimator. We further propose CompeteSMoE, an effective and efficient algorithm to train large language models by deploying a simple router that predicts the competition outcomes. Consequently, CompeteSMoE enjoys strong performance gains from the competition routing policy while having low computation overheads. Our extensive empirical evaluations on two transformer architectures and a wide range of tasks demonstrate the efficacy, robustness, and scalability of CompeteSMoE compared to state-of-the-art SMoE strategies.
+Sparse mixture of experts (SMoE) offers an appealing solution to scale up the model complexity beyond the mean of increasing the network's depth or width. However, effective training of SMoE has proven to be challenging due to the representation collapse issue, which causes parameter redundancy and limited representation potentials. In this work, we propose a competition mechanism to address this fundamental challenge of representation collapse. By routing inputs only to experts with the highest neural response, we show that, under mild assumptions, competition enjoys the same convergence rate as the optimal estimator. We further propose CompeteSMoE, an effective and efficient algorithm to train large language models by deploying a simple router that predicts the competition outcomes. Consequently, CompeteSMoE enjoys strong performance gains from the competition routing policy while having low computation overheads. Our extensive empirical evaluations on two <b>transformer</b> architectures and a wide range of tasks demonstrate the efficacy, robustness, and scalability of CompeteSMoE compared to state-of-the-art SMoE strategies.
 
 {{</citation>}}
 
@@ -2801,7 +2799,7 @@ Snir Hordan, Tal Amir, Nadav Dym. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 20  
-Keywords: Graph Neural Network(10), Graph Neural Network(10)  
+Keywords: Graph Neural Network, Graph Neural Network  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02484v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02484v1.pdf" filename="2402.02484v1.pdf">Download PDF</button>
 
@@ -2836,7 +2834,7 @@ Huy Tran, Yikun Bai, Abihith Kothapalli, Ashkan Shahbazi, Xinran Liu, Rocio Diaz
 Primary Category: cs.LG  
 Categories: cs-AI, cs-CV, cs-LG, cs.LG, stat-ML  
 Keyword Score: 20  
-Keywords: Self-supervised Learning(10), Self-supervised Learning(10)  
+Keywords: Self-supervised Learning, Self-supervised Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02345v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02345v1.pdf" filename="2402.02345v1.pdf">Download PDF</button>
 
@@ -2844,7 +2842,7 @@ Keywords: Self-supervised Learning(10), Self-supervised Learning(10)
 
 
 **ABSTRACT**  
-Comparing spherical probability distributions is of great interest in various fields, including geology, medical domains, computer vision, and deep representation learning. The utility of optimal transport-based distances, such as the Wasserstein distance, for comparing probability measures has spurred active research in developing computationally efficient variations of these distances for spherical probability measures. This paper introduces a high-speed and highly parallelizable distance for comparing spherical measures using the stereographic projection and the generalized Radon transform, which we refer to as the Stereographic Spherical Sliced Wasserstein (S3W) distance. We carefully address the distance distortion caused by the stereographic projection and provide an extensive theoretical analysis of our proposed metric and its rotationally invariant variation. Finally, we evaluate the performance of the proposed metrics and compare them with recent baselines in terms of both speed and accuracy through a wide range of numerical studies, including gradient flows and self-supervised learning.
+Comparing spherical probability distributions is of great interest in various fields, including geology, medical domains, computer vision, and deep representation learning. The utility of optimal transport-based distances, such as the Wasserstein distance, for comparing probability measures has spurred active research in developing computationally efficient variations of these distances for spherical probability measures. This paper introduces a high-speed and highly parallelizable distance for comparing spherical measures using the stereographic projection and the generalized Radon transform, which we refer to as the Stereographic Spherical Sliced Wasserstein (S3W) distance. We carefully address the distance distortion caused by the stereographic projection and provide an extensive theoretical analysis of our proposed metric and its rotationally invariant variation. Finally, we evaluate the performance of the proposed metrics and compare them with recent baselines in terms of both speed and accuracy through a wide range of numerical studies, including gradient flows and <b>self-supervised</b> learning.
 
 {{</citation>}}
 
@@ -2871,7 +2869,7 @@ Yi Cheng, Renjun Hu, Haochao Ying, Xing Shi, Jian Wu, Wei Lin. (2024)
 Primary Category: cs.LG  
 Categories: I-2-4, cs-AI, cs-LG, cs.LG  
 Keyword Score: 20  
-Keywords: Prompt(10), Transformer(10)  
+Keywords: Transformer, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02334v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02334v1.pdf" filename="2402.02334v1.pdf">Download PDF</button>
 
@@ -2879,7 +2877,7 @@ Keywords: Prompt(10), Transformer(10)
 
 
 **ABSTRACT**  
-Until recently, the question of the effective inductive bias of deep models on tabular data has remained unanswered. This paper investigates the hypothesis that arithmetic feature interaction is necessary for deep tabular learning. To test this point, we create a synthetic tabular dataset with a mild feature interaction assumption and examine a modified transformer architecture enabling arithmetical feature interactions, referred to as AMFormer. Results show that AMFormer outperforms strong counterparts in fine-grained tabular data modeling, data efficiency in training, and generalization. This is attributed to its parallel additive and multiplicative attention operators and prompt-based optimization, which facilitate the separation of tabular samples in an extended space with arithmetically-engineered features. Our extensive experiments on real-world data also validate the consistent effectiveness, efficiency, and rationale of AMFormer, suggesting it has established a strong inductive bias for deep learning on tabular data. Code is available at https://github.com/aigc-apps/AMFormer.
+Until recently, the question of the effective inductive bias of deep models on tabular data has remained unanswered. This paper investigates the hypothesis that arithmetic feature interaction is necessary for deep tabular learning. To test this point, we create a synthetic tabular dataset with a mild feature interaction assumption and examine a modified <b>transformer</b> architecture enabling arithmetical feature interactions, referred to as AMFormer. Results show that AMFormer outperforms strong counterparts in fine-grained tabular data modeling, data efficiency in training, and generalization. This is attributed to its parallel additive and multiplicative attention operators and prompt-based optimization, which facilitate the separation of tabular samples in an extended space with arithmetically-engineered features. Our extensive experiments on real-world data also validate the consistent effectiveness, efficiency, and rationale of AMFormer, suggesting it has established a strong inductive bias for deep learning on tabular data. Code is available at https://github.com/aigc-apps/AMFormer.
 
 {{</citation>}}
 
@@ -2906,7 +2904,7 @@ Naoki Sato, Hideaki Iiduka. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, math-OC  
 Keyword Score: 20  
-Keywords: Stochastic Gradient Descent(10), Stochastic Gradient Descent(10)  
+Keywords: Stochastic Gradient Descent, Stochastic Gradient Descent  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02325v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02325v1.pdf" filename="2402.02325v1.pdf">Download PDF</button>
 
@@ -2914,7 +2912,7 @@ Keywords: Stochastic Gradient Descent(10), Stochastic Gradient Descent(10)
 
 
 **ABSTRACT**  
-While stochastic gradient descent (SGD) with momentum has fast convergence and excellent generalizability, a theoretical explanation for this is lacking. In this paper, we show that SGD with momentum smooths the objective function, the degree of which is determined by the learning rate, the batch size, the momentum factor, the variance of the stochastic gradient, and the upper bound of the gradient norm. This theoretical finding reveals why momentum improves generalizability and provides new insights into the role of the hyperparameters, including momentum factor. We also present an implicit graduated optimization algorithm that exploits the smoothing properties of SGD with momentum and provide experimental results supporting our assertion that SGD with momentum smooths the objective function.
+While <b>stochastic</b> <b>gradient</b> <b>descent</b> (SGD) with momentum has fast convergence and excellent generalizability, a theoretical explanation for this is lacking. In this paper, we show that <b>SGD</b> with momentum smooths the objective function, the degree of which is determined by the learning rate, the batch size, the momentum factor, the variance of the stochastic gradient, and the upper bound of the gradient norm. This theoretical finding reveals why momentum improves generalizability and provides new insights into the role of the hyperparameters, including momentum factor. We also present an implicit graduated optimization algorithm that exploits the smoothing properties of <b>SGD</b> with momentum and provide experimental results supporting our assertion that <b>SGD</b> with momentum smooths the objective function.
 
 {{</citation>}}
 
@@ -2941,7 +2939,7 @@ Philip Quirke, Clement Neo, Fazl Barez. (2024)
 Primary Category: cs.LG  
 Categories: cs-CL, cs-LG, cs.LG  
 Keyword Score: 10  
-Keywords: Transformer(10)  
+Keywords: Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02619v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02619v2.pdf" filename="2402.02619v2.pdf">Download PDF</button>
 
@@ -2949,7 +2947,7 @@ Keywords: Transformer(10)
 
 
 **ABSTRACT**  
-Language Models (LMs) are increasingly used for a wide range of prediction tasks, but their training can often neglect rare edge cases, reducing their reliability. Here, we define a stringent standard of trustworthiness whereby the task algorithm and circuit implementation must be verified, accounting for edge cases, with no known failure modes. We show that a transformer model can be trained to meet this standard if built using mathematically and logically specified frameworks. In this paper, we fully verify a model for n-digit integer addition. To exhibit the reusability of verified modules, we insert the trained integer addition model into an untrained model and train the combined model to perform both addition and subtraction. We find extensive reuse of the addition circuits for both tasks, easing verification of the more complex subtractor model. We discuss how inserting verified task modules into LMs can leverage model reuse to improve verifiability and trustworthiness of language models built using them. The reuse of verified circuits reduces the effort to verify more complex composite models which we believe to be a significant step towards safety of language models.
+Language Models (LMs) are increasingly used for a wide range of prediction tasks, but their training can often neglect rare edge cases, reducing their reliability. Here, we define a stringent standard of trustworthiness whereby the task algorithm and circuit implementation must be verified, accounting for edge cases, with no known failure modes. We show that a <b>transformer</b> model can be trained to meet this standard if built using mathematically and logically specified frameworks. In this paper, we fully verify a model for n-digit integer addition. To exhibit the reusability of verified modules, we insert the trained integer addition model into an untrained model and train the combined model to perform both addition and subtraction. We find extensive reuse of the addition circuits for both tasks, easing verification of the more complex subtractor model. We discuss how inserting verified task modules into LMs can leverage model reuse to improve verifiability and trustworthiness of language models built using them. The reuse of verified circuits reduces the effort to verify more complex composite models which we believe to be a significant step towards safety of language models.
 
 {{</citation>}}
 
@@ -2976,7 +2974,7 @@ David Wu, Gokul Swamy, J. Andrew Bagnell, Zhiwei Steven Wu, Sanjiban Choudhury. 
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 10  
-Keywords: Reinforcement Learning(10)  
+Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02616v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02616v2.pdf" filename="2402.02616v2.pdf">Download PDF</button>
 
@@ -2984,7 +2982,7 @@ Keywords: Reinforcement Learning(10)
 
 
 **ABSTRACT**  
-Inverse Reinforcement Learning (IRL) is a powerful framework for learning complex behaviors from expert demonstrations. However, it traditionally requires repeatedly solving a computationally expensive reinforcement learning (RL) problem in its inner loop. It is desirable to reduce the exploration burden by leveraging expert demonstrations in the inner-loop RL. As an example, recent work resets the learner to expert states in order to inform the learner of high-reward expert states. However, such an approach is infeasible in the real world. In this work, we consider an alternative approach to speeding up the RL subroutine in IRL: \emph{pessimism}, i.e., staying close to the expert's data distribution, instantiated via the use of offline RL algorithms. We formalize a connection between offline RL and IRL, enabling us to use an arbitrary offline RL algorithm to improve the sample efficiency of IRL. We validate our theory experimentally by demonstrating a strong correlation between the efficacy of an offline RL algorithm and how well it works as part of an IRL procedure. By using a strong offline RL algorithm as part of an IRL procedure, we are able to find policies that match expert performance significantly more efficiently than the prior art.
+Inverse <b>Reinforcement</b> <b>Learning</b> (IRL) is a powerful framework for learning complex behaviors from expert demonstrations. However, it traditionally requires repeatedly solving a computationally expensive <b>reinforcement</b> <b>learning</b> (RL) problem in its inner loop. It is desirable to reduce the exploration burden by leveraging expert demonstrations in the inner-loop RL. As an example, recent work resets the learner to expert states in order to inform the learner of high-reward expert states. However, such an approach is infeasible in the real world. In this work, we consider an alternative approach to speeding up the RL subroutine in IRL: \emph{pessimism}, i.e., staying close to the expert's data distribution, instantiated via the use of offline RL algorithms. We formalize a connection between offline RL and IRL, enabling us to use an arbitrary offline RL algorithm to improve the sample efficiency of IRL. We validate our theory experimentally by demonstrating a strong correlation between the efficacy of an offline RL algorithm and how well it works as part of an IRL procedure. By using a strong offline RL algorithm as part of an IRL procedure, we are able to find policies that match expert performance significantly more efficiently than the prior art.
 
 {{</citation>}}
 
@@ -3011,7 +3009,7 @@ David Wu, Sanjiban Choudhury. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 10  
-Keywords: Reinforcement Learning(10)  
+Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02608v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02608v1.pdf" filename="2402.02608v1.pdf">Download PDF</button>
 
@@ -3019,7 +3017,7 @@ Keywords: Reinforcement Learning(10)
 
 
 **ABSTRACT**  
-Existing inverse reinforcement learning methods (e.g. MaxEntIRL, $f$-IRL) search over candidate reward functions and solve a reinforcement learning problem in the inner loop. This creates a rather strange inversion where a harder problem, reinforcement learning, is in the inner loop of a presumably easier problem, imitation learning. In this work, we show that better utilization of expert demonstrations can reduce the need for hard exploration in the inner RL loop, hence accelerating learning. Specifically, we propose two simple recipes: (1) placing expert transitions into the replay buffer of the inner RL algorithm (e.g. Soft-Actor Critic) which directly informs the learner about high reward states instead of forcing the learner to discover them through extensive exploration, and (2) using expert actions in Q value bootstrapping in order to improve the target Q value estimates and more accurately describe high value expert states. Our methods show significant gains over a MaxEntIRL baseline on the benchmark MuJoCo suite of tasks, speeding up recovery to 70\% of deterministic expert performance by 2.13x on HalfCheetah-v2, 2.6x on Ant-v2, 18x on Hopper-v2, and 3.36x on Walker2d-v2.
+Existing inverse <b>reinforcement</b> <b>learning</b> methods (e.g. MaxEntIRL, $f$-IRL) search over candidate reward functions and solve a <b>reinforcement</b> <b>learning</b> problem in the inner loop. This creates a rather strange inversion where a harder problem, reinforcement learning, is in the inner loop of a presumably easier problem, imitation learning. In this work, we show that better utilization of expert demonstrations can reduce the need for hard exploration in the inner RL loop, hence accelerating learning. Specifically, we propose two simple recipes: (1) placing expert transitions into the replay buffer of the inner RL algorithm (e.g. Soft-Actor Critic) which directly informs the learner about high reward states instead of forcing the learner to discover them through extensive exploration, and (2) using expert actions in Q value bootstrapping in order to improve the target Q value estimates and more accurately describe high value expert states. Our methods show significant gains over a MaxEntIRL baseline on the benchmark MuJoCo suite of tasks, speeding up recovery to 70\% of deterministic expert performance by 2.13x on HalfCheetah-v2, 2.6x on Ant-v2, 18x on Hopper-v2, and 3.36x on Walker2d-v2.
 
 {{</citation>}}
 
@@ -3046,7 +3044,7 @@ Abhiroop Bhattacharjee, Abhishek Moitra, Priyadarshini Panda. (2024)
 Primary Category: cs.LG  
 Categories: cs-ET, cs-LG, cs.LG  
 Keyword Score: 10  
-Keywords: Transformer(10)  
+Keywords: Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02586v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02586v1.pdf" filename="2402.02586v1.pdf">Download PDF</button>
 
@@ -3081,7 +3079,7 @@ Yongdeok Kim, Jaehyung Ahn, Myeongwoo Kim, Changin Choi, Heejae Kim, Narankhuu T
 Primary Category: cs.LG  
 Categories: cs-CL, cs-LG, cs.LG  
 Keyword Score: 10  
-Keywords: BERT(10)  
+Keywords: BERT  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02447v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02447v1.pdf" filename="2402.02447v1.pdf">Download PDF</button>
 
@@ -3089,7 +3087,7 @@ Keywords: BERT(10)
 
 
 **ABSTRACT**  
-Speeding up the large-scale distributed training is challenging in that it requires improving various components of training including load balancing, communication, optimizers, etc. We present novel approaches for fast large-scale training of BERT model which individually ameliorates each component thereby leading to a new level of BERT training performance. Load balancing is imperative in distributed BERT training since its training datasets are characterized by samples with various lengths. Communication cost, which is proportional to the scale of distributed training, needs to be hidden by useful computation. In addition, the optimizers, e.g., ADAM, LAMB, etc., need to be carefully re-evaluated in the context of large-scale distributed training. We propose two new ideas, (1) local presorting based on dataset stratification for load balancing and (2) bucket-wise gradient clipping before allreduce which allows us to benefit from the overlap of gradient computation and synchronization as well as the fast training of gradient clipping before allreduce. We also re-evaluate existing optimizers via hyperparameter optimization and utilize ADAM, which also contributes to fast training via larger batches than existing methods. Our proposed methods, all combined, give the fastest MLPerf BERT training of 25.1 (22.3) seconds on 1,024 NVIDIA A100 GPUs, which is 1.33x (1.13x) and 1.57x faster than the other top two (one) submissions to MLPerf v1.1 (v2.0). Our implementation and evaluation results are available at MLPerf v1.1~v2.1.
+Speeding up the large-scale distributed training is challenging in that it requires improving various components of training including load balancing, communication, optimizers, etc. We present novel approaches for fast large-scale training of <b>BERT</b> model which individually ameliorates each component thereby leading to a new level of <b>BERT</b> training performance. Load balancing is imperative in distributed <b>BERT</b> training since its training datasets are characterized by samples with various lengths. Communication cost, which is proportional to the scale of distributed training, needs to be hidden by useful computation. In addition, the optimizers, e.g., ADAM, LAMB, etc., need to be carefully re-evaluated in the context of large-scale distributed training. We propose two new ideas, (1) local presorting based on dataset stratification for load balancing and (2) bucket-wise gradient clipping before allreduce which allows us to benefit from the overlap of gradient computation and synchronization as well as the fast training of gradient clipping before allreduce. We also re-evaluate existing optimizers via hyperparameter optimization and utilize ADAM, which also contributes to fast training via larger batches than existing methods. Our proposed methods, all combined, give the fastest MLPerf <b>BERT</b> training of 25.1 (22.3) seconds on 1,024 NVIDIA A100 GPUs, which is 1.33x (1.13x) and 1.57x faster than the other top two (one) submissions to MLPerf v1.1 (v2.0). Our implementation and evaluation results are available at MLPerf v1.1~v2.1.
 
 {{</citation>}}
 
@@ -3116,7 +3114,7 @@ Mustafa Hajij, Mathilde Papillon, Florian Frantzen, Jens Agerberg, Ibrahem AlJab
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs-MS, cs.LG, stat-CO  
 Keyword Score: 10  
-Keywords: Message-Passing(10)  
+Keywords: Message-Passing  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02441v3" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02441v3.pdf" filename="2402.02441v3.pdf">Download PDF</button>
 
@@ -3151,7 +3149,7 @@ Lanqing Li, Hai Zhang, Xinyu Zhang, Shatong Zhu, Junqiao Zhao, Pheng-Ann Heng. (
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 10  
-Keywords: Mutual Information(10)  
+Keywords: Mutual Information  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02429v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02429v1.pdf" filename="2402.02429v1.pdf">Download PDF</button>
 
@@ -3159,7 +3157,7 @@ Keywords: Mutual Information(10)
 
 
 **ABSTRACT**  
-As a marriage between offline RL and meta-RL, the advent of offline meta-reinforcement learning (OMRL) has shown great promise in enabling RL agents to multi-task and quickly adapt while acquiring knowledge safely. Among which, Context-based OMRL (COMRL) as a popular paradigm, aims to learn a universal policy conditioned on effective task representations. In this work, by examining several key milestones in the field of COMRL, we propose to integrate these seemingly independent methodologies into a unified information theoretic framework. Most importantly, we show that the pre-existing COMRL algorithms are essentially optimizing the same mutual information objective between the task variable $\boldsymbol{M}$ and its latent representation $\boldsymbol{Z}$ by implementing various approximate bounds. Based on the theoretical insight and the information bottleneck principle, we arrive at a novel algorithm dubbed UNICORN, which exhibits remarkable generalization across a broad spectrum of RL benchmarks, context shift scenarios, data qualities and deep learning architectures, attaining the new state-of-the-art. We believe that our framework could open up avenues for new optimality bounds and COMRL algorithms.
+As a marriage between offline RL and meta-RL, the advent of offline meta-reinforcement learning (OMRL) has shown great promise in enabling RL agents to multi-task and quickly adapt while acquiring knowledge safely. Among which, Context-based OMRL (COMRL) as a popular paradigm, aims to learn a universal policy conditioned on effective task representations. In this work, by examining several key milestones in the field of COMRL, we propose to integrate these seemingly independent methodologies into a unified information theoretic framework. Most importantly, we show that the pre-existing COMRL algorithms are essentially optimizing the same <b>mutual</b> <b>information</b> objective between the task variable $\boldsymbol{M}$ and its latent representation $\boldsymbol{Z}$ by implementing various approximate bounds. Based on the theoretical insight and the information bottleneck principle, we arrive at a novel algorithm dubbed UNICORN, which exhibits remarkable generalization across a broad spectrum of RL benchmarks, context shift scenarios, data qualities and deep learning architectures, attaining the new state-of-the-art. We believe that our framework could open up avenues for new optimality bounds and COMRL algorithms.
 
 {{</citation>}}
 
@@ -3186,7 +3184,7 @@ Yifu Yuan, Jianye Hao, Yi Ma, Zibin Dong, Hebin Liang, Jinyi Liu, Zhixin Feng, K
 Primary Category: cs.LG  
 Categories: cs-AI, cs-HC, cs-LG, cs-RO, cs.LG  
 Keyword Score: 10  
-Keywords: Reinforcement Learning(10)  
+Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02423v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02423v1.pdf" filename="2402.02423v1.pdf">Download PDF</button>
 
@@ -3194,7 +3192,7 @@ Keywords: Reinforcement Learning(10)
 
 
 **ABSTRACT**  
-Reinforcement Learning with Human Feedback (RLHF) has received significant attention for performing tasks without the need for costly manual reward design by aligning human preferences. It is crucial to consider diverse human feedback types and various learning methods in different environments. However, quantifying progress in RLHF with diverse feedback is challenging due to the lack of standardized annotation platforms and widely used unified benchmarks. To bridge this gap, we introduce Uni-RLHF, a comprehensive system implementation tailored for RLHF. It aims to provide a complete workflow from real human feedback, fostering progress in the development of practical problems. Uni-RLHF contains three packages: 1) a universal multi-feedback annotation platform, 2) large-scale crowdsourced feedback datasets, and 3) modular offline RLHF baseline implementations. Uni-RLHF develops a user-friendly annotation interface tailored to various feedback types, compatible with a wide range of mainstream RL environments. We then establish a systematic pipeline of crowdsourced annotations, resulting in large-scale annotated datasets comprising more than 15 million steps across 30+ popular tasks. Through extensive experiments, the results in the collected datasets demonstrate competitive performance compared to those from well-designed manual rewards. We evaluate various design choices and offer insights into their strengths and potential areas of improvement. We wish to build valuable open-source platforms, datasets, and baselines to facilitate the development of more robust and reliable RLHF solutions based on realistic human feedback. The website is available at https://uni-rlhf.github.io/.
+<b>Reinforcement</b> <b>Learning</b> with Human Feedback (RLHF) has received significant attention for performing tasks without the need for costly manual reward design by aligning human preferences. It is crucial to consider diverse human feedback types and various learning methods in different environments. However, quantifying progress in RLHF with diverse feedback is challenging due to the lack of standardized annotation platforms and widely used unified benchmarks. To bridge this gap, we introduce Uni-RLHF, a comprehensive system implementation tailored for RLHF. It aims to provide a complete workflow from real human feedback, fostering progress in the development of practical problems. Uni-RLHF contains three packages: 1) a universal multi-feedback annotation platform, 2) large-scale crowdsourced feedback datasets, and 3) modular offline RLHF baseline implementations. Uni-RLHF develops a user-friendly annotation interface tailored to various feedback types, compatible with a wide range of mainstream RL environments. We then establish a systematic pipeline of crowdsourced annotations, resulting in large-scale annotated datasets comprising more than 15 million steps across 30+ popular tasks. Through extensive experiments, the results in the collected datasets demonstrate competitive performance compared to those from well-designed manual rewards. We evaluate various design choices and offer insights into their strengths and potential areas of improvement. We wish to build valuable open-source platforms, datasets, and baselines to facilitate the development of more robust and reliable RLHF solutions based on realistic human feedback. The website is available at https://uni-rlhf.github.io/.
 
 {{</citation>}}
 
@@ -3221,7 +3219,7 @@ Koji Hashimoto, Yuji Hirono, Akiyoshi Sannai. (2024)
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG, hep-th, physics-comp-ph  
 Keyword Score: 10  
-Keywords: Transformer(10)  
+Keywords: Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02362v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02362v1.pdf" filename="2402.02362v1.pdf">Download PDF</button>
 
@@ -3229,7 +3227,7 @@ Keywords: Transformer(10)
 
 
 **ABSTRACT**  
-Understanding the inner workings of neural networks, including transformers, remains one of the most challenging puzzles in machine learning. This study introduces a novel approach by applying the principles of gauge symmetries, a key concept in physics, to neural network architectures. By regarding model functions as physical observables, we find that parametric redundancies of various machine learning models can be interpreted as gauge symmetries. We mathematically formulate the parametric redundancies in neural ODEs, and find that their gauge symmetries are given by spacetime diffeomorphisms, which play a fundamental role in Einstein's theory of gravity. Viewing neural ODEs as a continuum version of feedforward neural networks, we show that the parametric redundancies in feedforward neural networks are indeed lifted to diffeomorphisms in neural ODEs. We further extend our analysis to transformer models, finding natural correspondences with neural ODEs and their gauge symmetries. The concept of gauge symmetries sheds light on the complex behavior of deep learning models through physics and provides us with a unifying perspective for analyzing various machine learning architectures.
+Understanding the inner workings of neural networks, including transformers, remains one of the most challenging puzzles in machine learning. This study introduces a novel approach by applying the principles of gauge symmetries, a key concept in physics, to neural network architectures. By regarding model functions as physical observables, we find that parametric redundancies of various machine learning models can be interpreted as gauge symmetries. We mathematically formulate the parametric redundancies in neural ODEs, and find that their gauge symmetries are given by spacetime diffeomorphisms, which play a fundamental role in Einstein's theory of gravity. Viewing neural ODEs as a continuum version of feedforward neural networks, we show that the parametric redundancies in feedforward neural networks are indeed lifted to diffeomorphisms in neural ODEs. We further extend our analysis to <b>transformer</b> models, finding natural correspondences with neural ODEs and their gauge symmetries. The concept of gauge symmetries sheds light on the complex behavior of deep learning models through physics and provides us with a unifying perspective for analyzing various machine learning architectures.
 
 {{</citation>}}
 
@@ -3256,7 +3254,7 @@ Lecheng Zheng, Zhengzhang Chen, Jingrui He, Haifeng Chen. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG, stat-ME  
 Keyword Score: 10  
-Keywords: Contrastive Learning(10)  
+Keywords: Contrastive Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02357v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02357v1.pdf" filename="2402.02357v1.pdf">Download PDF</button>
 
@@ -3291,7 +3289,7 @@ Daojun Liang, Haixia Zhang, Dongfeng Yuan, Bingzheng Zhang, Minggao Zhang. (2024
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 10  
-Keywords: Transformer(10)  
+Keywords: Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02332v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02332v1.pdf" filename="2402.02332v1.pdf">Download PDF</button>
 
@@ -3299,7 +3297,7 @@ Keywords: Transformer(10)
 
 
 **ABSTRACT**  
-In this paper, we find that ubiquitous time series (TS) forecasting models are prone to severe overfitting. To cope with this problem, we embrace a de-redundancy approach to progressively reinstate the intrinsic values of TS for future intervals. Specifically, we renovate the vanilla Transformer by reorienting the information aggregation mechanism from addition to subtraction. Then, we incorporate an auxiliary output branch into each block of the original model to construct a highway leading to the ultimate prediction. The output of subsequent modules in this branch will subtract the previously learned results, enabling the model to learn the residuals of the supervision signal, layer by layer. This designing facilitates the learning-driven implicit progressive decomposition of the input and output streams, empowering the model with heightened versatility, interpretability, and resilience against overfitting. Since all aggregations in the model are minus signs, which is called Minusformer. Extensive experiments demonstrate the proposed method outperform existing state-of-the-art methods, yielding an average performance improvement of 11.9% across various datasets.
+In this paper, we find that ubiquitous time series (TS) forecasting models are prone to severe overfitting. To cope with this problem, we embrace a de-redundancy approach to progressively reinstate the intrinsic values of TS for future intervals. Specifically, we renovate the vanilla <b>Transformer</b> by reorienting the information aggregation mechanism from addition to subtraction. Then, we incorporate an auxiliary output branch into each block of the original model to construct a highway leading to the ultimate prediction. The output of subsequent modules in this branch will subtract the previously learned results, enabling the model to learn the residuals of the supervision signal, layer by layer. This designing facilitates the learning-driven implicit progressive decomposition of the input and output streams, empowering the model with heightened versatility, interpretability, and resilience against overfitting. Since all aggregations in the model are minus signs, which is called Minusformer. Extensive experiments demonstrate the proposed method outperform existing state-of-the-art methods, yielding an average performance improvement of 11.9% across various datasets.
 
 {{</citation>}}
 
@@ -3330,7 +3328,7 @@ Xuanhe Zhou, Xinyang Zhao, Guoliang Li. (2024)
 Primary Category: cs.DB  
 Categories: cs-AI, cs-CL, cs-DB, cs-LG, cs.DB  
 Keyword Score: 50  
-Keywords: Fine-tuning(10), Large Language Model(10), Large Language Model(10), Prompt(10), Summarization(10)  
+Keywords: Fine-tuning, Large Language Model, Large Language Model, Prompt, Summarization  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02643v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02643v1.pdf" filename="2402.02643v1.pdf">Download PDF</button>
 
@@ -3338,7 +3336,7 @@ Keywords: Fine-tuning(10), Large Language Model(10), Large Language Model(10), P
 
 
 **ABSTRACT**  
-Machine learning (ML) techniques for optimizing data management problems have been extensively studied and widely deployed in recent five years. However traditional ML methods have limitations on generalizability (adapting to different scenarios) and inference ability (understanding the context). Fortunately, large language models (LLMs) have shown high generalizability and human-competitive abilities in understanding context, which are promising for data management tasks (e.g., database diagnosis, database tuning). However, existing LLMs have several limitations: hallucination, high cost, and low accuracy for complicated tasks. To address these challenges, we design LLMDB, an LLM-enhanced data management paradigm which has generalizability and high inference ability while avoiding hallucination, reducing LLM cost, and achieving high accuracy. LLMDB embeds domain-specific knowledge to avoid hallucination by LLM fine-tuning and prompt engineering. LLMDB reduces the high cost of LLMs by vector databases which provide semantic search and caching abilities. LLMDB improves the task accuracy by LLM agent which provides multiple-round inference and pipeline executions. We showcase three real-world scenarios that LLMDB can well support, including query rewrite, database diagnosis and data analytics. We also summarize the open research challenges of LLMDB.
+Machine learning (ML) techniques for optimizing data management problems have been extensively studied and widely deployed in recent five years. However traditional ML methods have limitations on generalizability (adapting to different scenarios) and inference ability (understanding the context). Fortunately, large language models (LLMs) have shown high generalizability and human-competitive abilities in understanding context, which are promising for data management tasks (e.g., database diagnosis, database tuning). However, existing LLMs have several limitations: hallucination, high cost, and low accuracy for complicated tasks. To address these challenges, we design LLMDB, an LLM-enhanced data management paradigm which has generalizability and high inference ability while avoiding hallucination, reducing <b>LLM</b> cost, and achieving high accuracy. LLMDB embeds domain-specific knowledge to avoid hallucination by <b>LLM</b> <b>fine-tuning</b> and <b>prompt</b> engineering. LLMDB reduces the high cost of LLMs by vector databases which provide semantic search and caching abilities. LLMDB improves the task accuracy by <b>LLM</b> agent which provides multiple-round inference and pipeline executions. We showcase three real-world scenarios that LLMDB can well support, including query rewrite, database diagnosis and data analytics. We also <b>summarize</b> the open research challenges of LLMDB.
 
 {{</citation>}}
 
@@ -3369,7 +3367,7 @@ Mehdi Heydari Shahna, Seyed Adel Alizadeh Kolagar, Jouni Mattila. (2024)
 Primary Category: cs.RO  
 Categories: cs-LG, cs-RO, cs-SY, cs.RO, eess-SY  
 Keyword Score: 40  
-Keywords: Reasoning(10), Reinforcement Learning(10), Simulation(10), Simulator(10)  
+Keywords: Reinforcement Learning, Simulation, Simulator, Reasoning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02551v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02551v2.pdf" filename="2402.02551v2.pdf">Download PDF</button>
 
@@ -3377,7 +3375,7 @@ Keywords: Reasoning(10), Reinforcement Learning(10), Simulation(10), Simulator(1
 
 
 **ABSTRACT**  
-In robotics, contemporary strategies are learning-based, characterized by a complex black-box nature and a lack of interpretability, which may pose challenges in ensuring stability and safety. To address these issues, we propose integrating an obstacle-free deep reinforcement learning (DRL) trajectory planner with a novel auto-tuning low- and joint-level control strategy, all while actively engaging in the learning phase through interactions with the environment. This approach circumvents the complexities associated with computations while also addressing nonrepetitive and random obstacle avoidance tasks. First, a model-free DRL agent to plan velocity-bounded and obstacle-free motion is employed for a manipulator with 'n' degrees of freedom (DoF) in task space through joint-level reasoning. This plan is then input into a robust subsystem-based adaptive controller, which produces the necessary torques, while the Cuckoo Search Optimization (CSO) algorithm enhances control gains to minimize the time required to reach, time taken to stabilize, the maximum deviation from the desired value, and persistent tracking error in the steady state. This approach guarantees that position and velocity errors exponentially converge to zero in an unfamiliar environment, despite unknown robotic manipulator modeling. Theoretical assertions are validated through the presentation of simulation outcomes.
+In robotics, contemporary strategies are learning-based, characterized by a complex black-box nature and a lack of interpretability, which may pose challenges in ensuring stability and safety. To address these issues, we propose integrating an obstacle-free deep <b>reinforcement</b> <b>learning</b> (DRL) trajectory planner with a novel auto-tuning low- and joint-level control strategy, all while actively engaging in the learning phase through interactions with the environment. This approach circumvents the complexities associated with computations while also addressing nonrepetitive and random obstacle avoidance tasks. First, a model-free DRL agent to plan velocity-bounded and obstacle-free motion is employed for a manipulator with 'n' degrees of freedom (DoF) in task space through joint-level reasoning. This plan is then input into a robust subsystem-based adaptive controller, which produces the necessary torques, while the Cuckoo Search Optimization (CSO) algorithm enhances control gains to minimize the time required to reach, time taken to stabilize, the maximum deviation from the desired value, and persistent tracking error in the steady state. This approach guarantees that position and velocity errors exponentially converge to zero in an unfamiliar environment, despite unknown robotic manipulator modeling. Theoretical assertions are validated through the presentation of <b>simulation</b> outcomes.
 
 {{</citation>}}
 
@@ -3404,7 +3402,7 @@ Junchen Deng, Samhita Marri, Jonathan Klein, Wojtek Pałubicki, Sören Pirk, Gir
 Primary Category: cs.RO  
 Categories: I-6-3; I-6-m, cs-LG, cs-RO, cs.RO  
 Keyword Score: 30  
-Keywords: Object Detection(10), Simulation(10), Simulator(10)  
+Keywords: Object Detection, Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02570v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02570v1.pdf" filename="2402.02570v1.pdf">Download PDF</button>
 
@@ -3412,7 +3410,7 @@ Keywords: Object Detection(10), Simulation(10), Simulator(10)
 
 
 **ABSTRACT**  
-Robotic harvesting has the potential to positively impact agricultural productivity, reduce costs, improve food quality, enhance sustainability, and to address labor shortage. In the rapidly advancing field of agricultural robotics, the necessity of training robots in a virtual environment has become essential. Generating training data to automatize the underlying computer vision tasks such as image segmentation, object detection and classification, also heavily relies on such virtual environments as synthetic data is often required to overcome the shortage and lack of variety of real data sets. However, physics engines commonly employed within the robotics community, such as ODE, Simbody, Bullet, and DART, primarily support motion and collision interaction of rigid bodies. This inherent limitation hinders experimentation and progress in handling non-rigid objects such as plants and crops. In this contribution, we present a plugin for the Gazebo simulation platform based on Cosserat rods to model plant motion. It enables the simulation of plants and their interaction with the environment. We demonstrate that, using our plugin, users can conduct harvesting simulations in Gazebo by simulating a robotic arm picking fruits and achieve results comparable to real-world experiments.
+Robotic harvesting has the potential to positively impact agricultural productivity, reduce costs, improve food quality, enhance sustainability, and to address labor shortage. In the rapidly advancing field of agricultural robotics, the necessity of training robots in a virtual environment has become essential. Generating training data to automatize the underlying computer vision tasks such as image segmentation, <b>object</b> <b>detection</b> and classification, also heavily relies on such virtual environments as synthetic data is often required to overcome the shortage and lack of variety of real data sets. However, physics engines commonly employed within the robotics community, such as ODE, Simbody, Bullet, and DART, primarily support motion and collision interaction of rigid bodies. This inherent limitation hinders experimentation and progress in handling non-rigid objects such as plants and crops. In this contribution, we present a plugin for the Gazebo <b>simulation</b> platform based on Cosserat rods to model plant motion. It enables the <b>simulation</b> of plants and their interaction with the environment. We demonstrate that, using our plugin, users can conduct harvesting simulations in Gazebo by simulating a robotic arm picking fruits and achieve results comparable to real-world experiments.
 
 {{</citation>}}
 
@@ -3439,7 +3437,7 @@ Akash Patel, Mario A V Saucedo, Christoforos Kanellakis, George Nikolakopoulos. 
 Primary Category: cs.RO  
 Categories: cs-AI, cs-RO, cs.RO  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02566v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02566v1.pdf" filename="2402.02566v1.pdf">Download PDF</button>
 
@@ -3447,7 +3445,7 @@ Keywords: Simulation(10), Simulator(10)
 
 
 **ABSTRACT**  
-In this article, we propose a novel navigation framework that leverages a two layered graph representation of the environment for efficient large-scale exploration, while it integrates a novel uncertainty awareness scheme to handle dynamic scene changes in previously explored areas. The framework is structured around a novel goal oriented graph representation, that consists of, i) the local sub-graph and ii) the global graph layer respectively. The local sub-graphs encode local volumetric gain locations as frontiers, based on the direct pointcloud visibility, allowing fast graph building and path planning. Additionally, the global graph is build in an efficient way, using node-edge information exchange only on overlapping regions of sequential sub-graphs. Different from the state-of-the-art graph based exploration methods, the proposed approach efficiently re-uses sub-graphs built in previous iterations to construct the global navigation layer. Another merit of the proposed scheme is the ability to handle scene changes (e.g. blocked pathways), adaptively updating the obstructed part of the global graph from traversable to not-traversable. This operation involved oriented sample space of a path segment in the global graph layer, while removing the respective edges from connected nodes of the global graph in cases of obstructions. As such, the exploration behavior is directing the robot to follow another route in the global re-positioning phase through path-way updates in the global graph. Finally, we showcase the performance of the method both in simulation runs as well as deployed in real-world scene involving a legged robot carrying camera and lidar sensor.
+In this article, we propose a novel navigation framework that leverages a two layered graph representation of the environment for efficient large-scale exploration, while it integrates a novel uncertainty awareness scheme to handle dynamic scene changes in previously explored areas. The framework is structured around a novel goal oriented graph representation, that consists of, i) the local sub-graph and ii) the global graph layer respectively. The local sub-graphs encode local volumetric gain locations as frontiers, based on the direct pointcloud visibility, allowing fast graph building and path planning. Additionally, the global graph is build in an efficient way, using node-edge information exchange only on overlapping regions of sequential sub-graphs. Different from the state-of-the-art graph based exploration methods, the proposed approach efficiently re-uses sub-graphs built in previous iterations to construct the global navigation layer. Another merit of the proposed scheme is the ability to handle scene changes (e.g. blocked pathways), adaptively updating the obstructed part of the global graph from traversable to not-traversable. This operation involved oriented sample space of a path segment in the global graph layer, while removing the respective edges from connected nodes of the global graph in cases of obstructions. As such, the exploration behavior is directing the robot to follow another route in the global re-positioning phase through path-way updates in the global graph. Finally, we showcase the performance of the method both in <b>simulation</b> runs as well as deployed in real-world scene involving a legged robot carrying camera and lidar sensor.
 
 {{</citation>}}
 
@@ -3474,7 +3472,7 @@ Lirui Wang, Jialiang Zhao, Yilun Du, Edward H. Adelson, Russ Tedrake. (2024)
 Primary Category: cs.RO  
 Categories: cs-LG, cs-RO, cs.RO  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02511v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02511v1.pdf" filename="2402.02511v1.pdf">Download PDF</button>
 
@@ -3482,7 +3480,7 @@ Keywords: Simulation(10), Simulator(10)
 
 
 **ABSTRACT**  
-Training general robotic policies from heterogeneous data for different tasks is a significant challenge. Existing robotic datasets vary in different modalities such as color, depth, tactile, and proprioceptive information, and collected in different domains such as simulation, real robots, and human videos. Current methods usually collect and pool all data from one domain to train a single policy to handle such heterogeneity in tasks and domains, which is prohibitively expensive and difficult. In this work, we present a flexible approach, dubbed Policy Composition, to combine information across such diverse modalities and domains for learning scene-level and task-level generalized manipulation skills, by composing different data distributions represented with diffusion models. Our method can use task-level composition for multi-task manipulation and be composed with analytic cost functions to adapt policy behaviors at inference time. We train our method on simulation, human, and real robot data and evaluate in tool-use tasks. The composed policy achieves robust and dexterous performance under varying scenes and tasks and outperforms baselines from a single data source in both simulation and real-world experiments. See https://liruiw.github.io/policycomp for more details .
+Training general robotic policies from heterogeneous data for different tasks is a significant challenge. Existing robotic datasets vary in different modalities such as color, depth, tactile, and proprioceptive information, and collected in different domains such as simulation, real robots, and human videos. Current methods usually collect and pool all data from one domain to train a single policy to handle such heterogeneity in tasks and domains, which is prohibitively expensive and difficult. In this work, we present a flexible approach, dubbed Policy Composition, to combine information across such diverse modalities and domains for learning scene-level and task-level generalized manipulation skills, by composing different data distributions represented with diffusion models. Our method can use task-level composition for multi-task manipulation and be composed with analytic cost functions to adapt policy behaviors at inference time. We train our method on simulation, human, and real robot data and evaluate in tool-use tasks. The composed policy achieves robust and dexterous performance under varying scenes and tasks and outperforms baselines from a single data source in both <b>simulation</b> and real-world experiments. See https://liruiw.github.io/policycomp for more details .
 
 {{</citation>}}
 
@@ -3509,7 +3507,7 @@ Junkai Jiang, Zhenhua Hu, Zihan Xie, Changlong Hao, Hongyu Liu, Wenliang Xu, Yun
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02457v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02457v1.pdf" filename="2402.02457v1.pdf">Download PDF</button>
 
@@ -3517,7 +3515,7 @@ Keywords: Simulation(10), Simulator(10)
 
 
 **ABSTRACT**  
-Planning module is an essential component of intelligent vehicle study. In this paper, we address the risk-aware planning problem of UGVs through a global-local planning framework which seamlessly integrates risk assessment methods. In particular, a global planning algorithm named Coarse2fine A* is proposed, which incorporates a potential field approach to enhance the safety of the planning results while ensuring the efficiency of the algorithm. A deterministic sampling method for local planning is leveraged and modified to suit off-road environment. It also integrates a risk assessment model to emphasize the avoidance of local risks. The performance of the algorithm is demonstrated through simulation experiments by comparing it with baseline algorithms, where the results of Coarse2fine A* are shown to be approximately 30% safer than those of the baseline algorithms. The practicality and effectiveness of the proposed planning framework are validated by deploying it on a real-world system consisting of a control center and a practical UGV platform.
+Planning module is an essential component of intelligent vehicle study. In this paper, we address the risk-aware planning problem of UGVs through a global-local planning framework which seamlessly integrates risk assessment methods. In particular, a global planning algorithm named Coarse2fine A* is proposed, which incorporates a potential field approach to enhance the safety of the planning results while ensuring the efficiency of the algorithm. A deterministic sampling method for local planning is leveraged and modified to suit off-road environment. It also integrates a risk assessment model to emphasize the avoidance of local risks. The performance of the algorithm is demonstrated through <b>simulation</b> experiments by comparing it with baseline algorithms, where the results of Coarse2fine A* are shown to be approximately 30% safer than those of the baseline algorithms. The practicality and effectiveness of the proposed planning framework are validated by deploying it on a real-world system consisting of a control center and a practical UGV platform.
 
 {{</citation>}}
 
@@ -3544,7 +3542,7 @@ Yuxin Wang, Zunlei Feng, Haofei Zhang, Yang Gao, Jie Lei, Li Sun, Mingli Song. (
 Primary Category: cs.RO  
 Categories: cs-CV, cs-RO, cs.RO  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02405v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02405v1.pdf" filename="2402.02405v1.pdf">Download PDF</button>
 
@@ -3552,7 +3550,7 @@ Keywords: Simulation(10), Simulator(10)
 
 
 **ABSTRACT**  
-Due to the inability to receive signals from the Global Navigation Satellite System (GNSS) in extreme conditions, achieving accurate and robust navigation for Unmanned Aerial Vehicles (UAVs) is a challenging task. Recently emerged, vision-based navigation has been a promising and feasible alternative to GNSS-based navigation. However, existing vision-based techniques are inadequate in addressing flight deviation caused by environmental disturbances and inaccurate position predictions in practical settings. In this paper, we present a novel angle robustness navigation paradigm to deal with flight deviation in point-to-point navigation tasks. Additionally, we propose a model that includes the Adaptive Feature Enhance Module, Cross-knowledge Attention-guided Module and Robust Task-oriented Head Module to accurately predict direction angles for high-precision navigation. To evaluate the vision-based navigation methods, we collect a new dataset termed as UAV_AR368. Furthermore, we design the Simulation Flight Testing Instrument (SFTI) using Google Earth to simulate different flight environments, thereby reducing the expenses associated with real flight testing. Experiment results demonstrate that the proposed model outperforms the state-of-the-art by achieving improvements of 26.0% and 45.6% in the success rate of arrival under ideal and disturbed circumstances, respectively.
+Due to the inability to receive signals from the Global Navigation Satellite System (GNSS) in extreme conditions, achieving accurate and robust navigation for Unmanned Aerial Vehicles (UAVs) is a challenging task. Recently emerged, vision-based navigation has been a promising and feasible alternative to GNSS-based navigation. However, existing vision-based techniques are inadequate in addressing flight deviation caused by environmental disturbances and inaccurate position predictions in practical settings. In this paper, we present a novel angle robustness navigation paradigm to deal with flight deviation in point-to-point navigation tasks. Additionally, we propose a model that includes the Adaptive Feature Enhance Module, Cross-knowledge Attention-guided Module and Robust Task-oriented Head Module to accurately predict direction angles for high-precision navigation. To evaluate the vision-based navigation methods, we collect a new dataset termed as UAV_AR368. Furthermore, we design the <b>Simulation</b> Flight Testing Instrument (SFTI) using Google Earth to simulate different flight environments, thereby reducing the expenses associated with real flight testing. Experiment results demonstrate that the proposed model outperforms the state-of-the-art by achieving improvements of 26.0% and 45.6% in the success rate of arrival under ideal and disturbed circumstances, respectively.
 
 {{</citation>}}
 
@@ -3579,7 +3577,7 @@ Zhiyuan Xu, Kun Wu, Junjie Wen, Jinming Li, Ning Liu, Zhengping Che, Jian Tang. 
 Primary Category: cs.RO  
 Categories: cs-AI, cs-RO, cs.RO  
 Keyword Score: 20  
-Keywords: Foundation Model(10), Reasoning(10)  
+Keywords: Foundation Model, Reasoning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02385v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02385v1.pdf" filename="2402.02385v1.pdf">Download PDF</button>
 
@@ -3614,7 +3612,7 @@ Weihan Chen, Hanwen Ren, Ahmed H. Qureshi. (2024)
 Primary Category: cs.RO  
 Categories: cs-RO, cs.RO  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02308v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02308v1.pdf" filename="2402.02308v1.pdf">Download PDF</button>
 
@@ -3622,7 +3620,7 @@ Keywords: Simulation(10), Simulator(10)
 
 
 **ABSTRACT**  
-Language-guided active sensing is a robotics subtask where a robot with an onboard sensor interacts efficiently with the environment via object manipulation to maximize perceptual information, following given language instructions. These tasks appear in various practical robotics applications, such as household service, search and rescue, and environment monitoring. Despite many applications, the existing works do not account for language instructions and have mainly focused on surface sensing, i.e., perceiving the environment from the outside without rearranging it for dense sensing. Therefore, in this paper, we introduce the first language-guided active sensing approach that allows users to observe specific parts of the environment via object manipulation. Our method spatially associates the environment with language instructions, determines the best camera viewpoints for perception, and then iteratively selects and relocates the best view-blocking objects to provide the dense perception of the region of interest. We evaluate our method against different baseline algorithms in simulation and also demonstrate it in real-world confined cabinet-like settings with multiple unknown objects. Our results show that the proposed method exhibits better performance across different metrics and successfully generalizes to real-world complex scenarios.
+Language-guided active sensing is a robotics subtask where a robot with an onboard sensor interacts efficiently with the environment via object manipulation to maximize perceptual information, following given language instructions. These tasks appear in various practical robotics applications, such as household service, search and rescue, and environment monitoring. Despite many applications, the existing works do not account for language instructions and have mainly focused on surface sensing, i.e., perceiving the environment from the outside without rearranging it for dense sensing. Therefore, in this paper, we introduce the first language-guided active sensing approach that allows users to observe specific parts of the environment via object manipulation. Our method spatially associates the environment with language instructions, determines the best camera viewpoints for perception, and then iteratively selects and relocates the best view-blocking objects to provide the dense perception of the region of interest. We evaluate our method against different baseline algorithms in <b>simulation</b> and also demonstrate it in real-world confined cabinet-like settings with multiple unknown objects. Our results show that the proposed method exhibits better performance across different metrics and successfully generalizes to real-world complex scenarios.
 
 {{</citation>}}
 
@@ -3649,7 +3647,7 @@ Baha Zarrouki, Marios Spanakakis, Johannes Betz. (2024)
 Primary Category: cs.RO  
 Categories: cs-AI, cs-LG, cs-RO, cs-SY, cs.RO, eess-SY  
 Keyword Score: 10  
-Keywords: Reinforcement Learning(10)  
+Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02624v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02624v1.pdf" filename="2402.02624v1.pdf">Download PDF</button>
 
@@ -3657,7 +3655,7 @@ Keywords: Reinforcement Learning(10)
 
 
 **ABSTRACT**  
-Determining the optimal cost function parameters of Model Predictive Control (MPC) to optimize multiple control objectives is a challenging and time-consuming task. Multiobjective Bayesian Optimization (BO) techniques solve this problem by determining a Pareto optimal parameter set for an MPC with static weights. However, a single parameter set may not deliver the most optimal closed-loop control performance when the context of the MPC operating conditions changes during its operation, urging the need to adapt the cost function weights at runtime. Deep Reinforcement Learning (RL) algorithms can automatically learn context-dependent optimal parameter sets and dynamically adapt for a Weightsvarying MPC (WMPC). However, learning cost function weights from scratch in a continuous action space may lead to unsafe operating states. To solve this, we propose a novel approach limiting the RL actions within a safe learning space representing a catalog of pre-optimized BO Pareto-optimal weight sets. We conceive a RL agent not to learn in a continuous space but to proactively anticipate upcoming control tasks and to choose the most optimal discrete actions, each corresponding to a single set of Pareto optimal weights, context-dependent. Hence, even an untrained RL agent guarantees a safe and optimal performance. Experimental results demonstrate that an untrained RL-WMPC shows Pareto-optimal closed-loop behavior and training the RL-WMPC helps exhibit a performance beyond the Pareto-front.
+Determining the optimal cost function parameters of Model Predictive Control (MPC) to optimize multiple control objectives is a challenging and time-consuming task. Multiobjective Bayesian Optimization (BO) techniques solve this problem by determining a Pareto optimal parameter set for an MPC with static weights. However, a single parameter set may not deliver the most optimal closed-loop control performance when the context of the MPC operating conditions changes during its operation, urging the need to adapt the cost function weights at runtime. Deep <b>Reinforcement</b> <b>Learning</b> (RL) algorithms can automatically learn context-dependent optimal parameter sets and dynamically adapt for a Weightsvarying MPC (WMPC). However, learning cost function weights from scratch in a continuous action space may lead to unsafe operating states. To solve this, we propose a novel approach limiting the RL actions within a safe learning space representing a catalog of pre-optimized BO Pareto-optimal weight sets. We conceive a RL agent not to learn in a continuous space but to proactively anticipate upcoming control tasks and to choose the most optimal discrete actions, each corresponding to a single set of Pareto optimal weights, context-dependent. Hence, even an untrained RL agent guarantees a safe and optimal performance. Experimental results demonstrate that an untrained RL-WMPC shows Pareto-optimal closed-loop behavior and training the RL-WMPC helps exhibit a performance beyond the Pareto-front.
 
 {{</citation>}}
 
@@ -3684,7 +3682,7 @@ Lu Zhang, Peiliang Li, Sikang Liu, Shaojie Shen. (2024)
 Primary Category: cs.RO  
 Categories: cs-AI, cs-CV, cs-LG, cs-RO, cs.RO  
 Keyword Score: 10  
-Keywords: Message-Passing(10)  
+Keywords: Message-Passing  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02519v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02519v1.pdf" filename="2402.02519v1.pdf">Download PDF</button>
 
@@ -3719,7 +3717,7 @@ Haoyi Zhu, Yating Wang, Di Huang, Weicai Ye, Wanli Ouyang, Tong He. (2024)
 Primary Category: cs.RO  
 Categories: cs-AI, cs-CV, cs-LG, cs-RO, cs.RO  
 Keyword Score: 10  
-Keywords: Zero-shot(10)  
+Keywords: Zero-shot  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02500v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02500v1.pdf" filename="2402.02500v1.pdf">Download PDF</button>
 
@@ -3727,7 +3725,7 @@ Keywords: Zero-shot(10)
 
 
 **ABSTRACT**  
-In this study, we explore the influence of different observation spaces on robot learning, focusing on three predominant modalities: RGB, RGB-D, and point cloud. Through extensive experimentation on over 17 varied contact-rich manipulation tasks, conducted across two benchmarks and simulators, we have observed a notable trend: point cloud-based methods, even those with the simplest designs, frequently surpass their RGB and RGB-D counterparts in performance. This remains consistent in both scenarios: training from scratch and utilizing pretraining. Furthermore, our findings indicate that point cloud observations lead to improved policy zero-shot generalization in relation to various geometry and visual clues, including camera viewpoints, lighting conditions, noise levels and background appearance. The outcomes suggest that 3D point cloud is a valuable observation modality for intricate robotic tasks. We will open-source all our codes and checkpoints, hoping that our insights can help design more generalizable and robust robotic models.
+In this study, we explore the influence of different observation spaces on robot learning, focusing on three predominant modalities: RGB, RGB-D, and point cloud. Through extensive experimentation on over 17 varied contact-rich manipulation tasks, conducted across two benchmarks and simulators, we have observed a notable trend: point cloud-based methods, even those with the simplest designs, frequently surpass their RGB and RGB-D counterparts in performance. This remains consistent in both scenarios: training from scratch and utilizing pretraining. Furthermore, our findings indicate that point cloud observations lead to improved policy <b>zero-shot</b> generalization in relation to various geometry and visual clues, including camera viewpoints, lighting conditions, noise levels and background appearance. The outcomes suggest that 3D point cloud is a valuable observation modality for intricate robotic tasks. We will open-source all our codes and checkpoints, hoping that our insights can help design more generalizable and robust robotic models.
 
 {{</citation>}}
 
@@ -3754,7 +3752,7 @@ Darío Urbina-Meléndez, Hesam Azadjou, Francisco J. Valero-Cuevas. (2024)
 Primary Category: cs.RO  
 Categories: cs-LG, cs-RO, cs.RO  
 Keyword Score: 10  
-Keywords: Continual Learning(10)  
+Keywords: Continual Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02387v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02387v1.pdf" filename="2402.02387v1.pdf">Download PDF</button>
 
@@ -3762,7 +3760,7 @@ Keywords: Continual Learning(10)
 
 
 **ABSTRACT**  
-Inspired by animals that co-adapt their brain and body to interact with the environment, we present a tendon-driven and over-actuated (i.e., n joint, n+1 actuators) bipedal robot that (i) exploits its backdrivable mechanical properties to manage body-environment interactions without explicit control, and (ii) uses a simple 3-layer neural network to learn to walk after only 2 minutes of 'natural' motor babbling (i.e., an exploration strategy that is compatible with leg and task dynamics; akin to childsplay). This brain-body collaboration first learns to produce feet cyclical movements 'in air' and, without further tuning, can produce locomotion when the biped is lowered to be in slight contact with the ground. In contrast, training with 2 minutes of 'naive' motor babbling (i.e., an exploration strategy that ignores leg task dynamics), does not produce consistent cyclical movements 'in air', and produces erratic movements and no locomotion when in slight contact with the ground. When further lowering the biped and making the desired leg trajectories reach 1cm below ground (causing the desired-vs-obtained trajectories error to be unavoidable), cyclical movements based on either natural or naive babbling presented almost equally persistent trends, and locomotion emerged with naive babbling. Therefore, we show how continual learning of walking in unforeseen circumstances can be driven by continual physical adaptation rooted in the backdrivable properties of the plant and enhanced by exploration strategies that exploit plant dynamics. Our studies also demonstrate that the bio-inspired codesign and co-adaptations of limbs and control strategies can produce locomotion without explicit control of trajectory errors.
+Inspired by animals that co-adapt their brain and body to interact with the environment, we present a tendon-driven and over-actuated (i.e., n joint, n+1 actuators) bipedal robot that (i) exploits its backdrivable mechanical properties to manage body-environment interactions without explicit control, and (ii) uses a simple 3-layer neural network to learn to walk after only 2 minutes of 'natural' motor babbling (i.e., an exploration strategy that is compatible with leg and task dynamics; akin to childsplay). This brain-body collaboration first learns to produce feet cyclical movements 'in air' and, without further tuning, can produce locomotion when the biped is lowered to be in slight contact with the ground. In contrast, training with 2 minutes of 'naive' motor babbling (i.e., an exploration strategy that ignores leg task dynamics), does not produce consistent cyclical movements 'in air', and produces erratic movements and no locomotion when in slight contact with the ground. When further lowering the biped and making the desired leg trajectories reach 1cm below ground (causing the desired-vs-obtained trajectories error to be unavoidable), cyclical movements based on either natural or naive babbling presented almost equally persistent trends, and locomotion emerged with naive babbling. Therefore, we show how <b>continual</b> <b>learning</b> of walking in unforeseen circumstances can be driven by continual physical adaptation rooted in the backdrivable properties of the plant and enhanced by exploration strategies that exploit plant dynamics. Our studies also demonstrate that the bio-inspired codesign and co-adaptations of limbs and control strategies can produce locomotion without explicit control of trajectory errors.
 
 {{</citation>}}
 
@@ -3793,7 +3791,7 @@ Md. Al-Amin, Mohammad Shazed Ali, Abdus Salam, Arif Khan, Ashraf Ali, Ahsan Ulla
 Primary Category: cs.GL  
 Categories: cs-CL, cs-GL, cs-HC, cs.GL  
 Keyword Score: 40  
-Keywords: Bard(10), ChatGPT(10), Chatbot(10), Transformer(10)  
+Keywords: Bard, ChatGPT, Transformer, Chatbot  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05122v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.05122v1.pdf" filename="2402.05122v1.pdf">Download PDF</button>
 
@@ -3801,7 +3799,7 @@ Keywords: Bard(10), ChatGPT(10), Chatbot(10), Transformer(10)
 
 
 **ABSTRACT**  
-This research provides an in-depth comprehensive review of the progress of chatbot technology over time, from the initial basic systems relying on rules to today's advanced conversational bots powered by artificial intelligence. Spanning many decades, the paper explores the major milestones, innovations, and paradigm shifts that have driven the evolution of chatbots. Looking back at the very basic statistical model in 1906 via the early chatbots, such as ELIZA and ALICE in the 1960s and 1970s, the study traces key innovations leading to today's advanced conversational agents, such as ChatGPT and Google Bard. The study synthesizes insights from academic literature and industry sources to highlight crucial milestones, including the introduction of Turing tests, influential projects such as CALO, and recent transformer-based models. Tracing the path forward, the paper highlights how natural language processing and machine learning have been integrated into modern chatbots for more sophisticated capabilities. This chronological survey of the chatbot landscape provides a holistic reference to understand the technological and historical factors propelling conversational AI. By synthesizing learnings from this historical analysis, the research offers important context about the developmental trajectory of chatbots and their immense future potential across various field of application which could be the potential take ways for the respective research community and stakeholders.
+This research provides an in-depth comprehensive review of the progress of <b>chatbot</b> technology over time, from the initial basic systems relying on rules to today's advanced conversational bots powered by artificial intelligence. Spanning many decades, the paper explores the major milestones, innovations, and paradigm shifts that have driven the evolution of chatbots. Looking back at the very basic statistical model in 1906 via the early chatbots, such as ELIZA and ALICE in the 1960s and 1970s, the study traces key innovations leading to today's advanced conversational agents, such as <b>ChatGPT</b> and Google Bard. The study synthesizes insights from academic literature and industry sources to highlight crucial milestones, including the introduction of Turing tests, influential projects such as CALO, and recent transformer-based models. Tracing the path forward, the paper highlights how natural language processing and machine learning have been integrated into modern chatbots for more sophisticated capabilities. This chronological survey of the <b>chatbot</b> landscape provides a holistic reference to understand the technological and historical factors propelling conversational AI. By synthesizing learnings from this historical analysis, the research offers important context about the developmental trajectory of chatbots and their immense future potential across various field of application which could be the potential take ways for the respective research community and stakeholders.
 
 {{</citation>}}
 
@@ -3832,7 +3830,7 @@ Nafiseh Nikeghbal, Amir Hossein Kargaran, Abbas Heydarnoori. (2024)
 Primary Category: cs.SE  
 Categories: cs-CL, cs-SE, cs.SE  
 Keyword Score: 30  
-Keywords: BLEU(10), Rouge(10), T5(10)  
+Keywords: T5, BLEU, Rouge  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02632v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02632v2.pdf" filename="2402.02632v2.pdf">Download PDF</button>
 
@@ -3867,7 +3865,7 @@ Yifeng He, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen. (2024)
 Primary Category: cs.SE  
 Categories: cs-AI, cs-CL, cs-CR, cs-LG, cs-SE, cs.SE  
 Keyword Score: 20  
-Keywords: Large Language Model(10), Large Language Model(10)  
+Keywords: Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03396v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.03396v1.pdf" filename="2402.03396v1.pdf">Download PDF</button>
 
@@ -3902,7 +3900,7 @@ Zhenggang Bai, Yougxiang Fang, Hongtu Chen, Xinru Chen, Ning An, Min Zhang, Guox
 Primary Category: cs.SE  
 Categories: cs-SE, cs.SE, stat-AP  
 Keyword Score: 10  
-Keywords: Knowledge Distillation(10)  
+Keywords: Knowledge Distillation  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03933v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.03933v1.pdf" filename="2402.03933v1.pdf">Download PDF</button>
 
@@ -3941,7 +3939,7 @@ Lisa Voigt. (2024)
 Primary Category: astro-ph.CO  
 Categories: astro-ph-CO, astro-ph.CO, cs-LG  
 Keyword Score: 30  
-Keywords: Convolution(10), Convolutional Neural Network(10), Convolutional Neural Network(10)  
+Keywords: Convolution, Convolutional Neural Network, Convolutional Neural Network  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02578v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02578v1.pdf" filename="2402.02578v1.pdf">Download PDF</button>
 
@@ -3949,7 +3947,7 @@ Keywords: Convolution(10), Convolutional Neural Network(10), Convolutional Neura
 
 
 **ABSTRACT**  
-Weak gravitational lensing of distant galaxies provides a powerful probe of dark energy. The aim of this study is to investigate the application of convolutional neural networks (CNNs) to precision shear estimation. In particular, using a shallow CNN, we explore the impact of point spread function (PSF) misestimation and `galaxy population bias' (including `distribution bias' and `morphology bias'), focusing on the accuracy requirements of next generation surveys. We simulate a population of noisy disk and elliptical galaxies and adopt a PSF that is representative of a Euclid-like survey. We quantify the accuracy achieved by the CNN assuming a linear relationship between the estimated and true shears and measure the multiplicative ($m$) and additive ($c$) biases. We make use of an unconventional loss function to mitigate the effects of noise bias and measure $m$ and $c$ when we use either: (i) an incorrect galaxy ellipticity distribution or size-magnitude relation, or the wrong ratio of morphological types, to describe the population of galaxies (distribution bias); (ii) an incorrect galaxy light profile (morphology bias); or (iii) a PSF with size or ellipticity offset from its true value (PSF misestimation). We compare our results to the Euclid requirements on the knowledge of the PSF model shape and size. Finally, we outline further work to build on the promising potential of CNNs in precision shear estimation.
+Weak gravitational lensing of distant galaxies provides a powerful probe of dark energy. The aim of this study is to investigate the application of convolutional neural networks (CNNs) to precision shear estimation. In particular, using a shallow CNN, we explore the impact of point spread function (PSF) misestimation and `galaxy population bias' (including `distribution bias' and `morphology bias'), focusing on the accuracy requirements of next generation surveys. We simulate a population of noisy disk and elliptical galaxies and adopt a PSF that is representative of a Euclid-like survey. We quantify the accuracy achieved by the <b>CNN</b> assuming a linear relationship between the estimated and true shears and measure the multiplicative ($m$) and additive ($c$) biases. We make use of an unconventional loss function to mitigate the effects of noise bias and measure $m$ and $c$ when we use either: (i) an incorrect galaxy ellipticity distribution or size-magnitude relation, or the wrong ratio of morphological types, to describe the population of galaxies (distribution bias); (ii) an incorrect galaxy light profile (morphology bias); or (iii) a PSF with size or ellipticity offset from its true value (PSF misestimation). We compare our results to the Euclid requirements on the knowledge of the PSF model shape and size. Finally, we outline further work to build on the promising potential of CNNs in precision shear estimation.
 
 {{</citation>}}
 
@@ -3980,7 +3978,7 @@ EuiYul Song, Philhoon Oh, Sangryul Kim, James Thorne. (2024)
 Primary Category: cs.IR  
 Categories: 94C06, H-3-3, cs-IR, cs-LG, cs.IR  
 Keyword Score: 30  
-Keywords: Fact Verification(10), Question Answering(10), Rerank(10)  
+Keywords: Rerank, Fact Verification, Question Answering  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02418v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02418v1.pdf" filename="2402.02418v1.pdf">Download PDF</button>
 
@@ -3988,7 +3986,7 @@ Keywords: Fact Verification(10), Question Answering(10), Rerank(10)
 
 
 **ABSTRACT**  
-Modern deterministic retrieval pipelines prioritize achieving state-of-the-art performance but often lack interpretability in decision-making. These models face challenges in assessing uncertainty, leading to overconfident predictions. To overcome these limitations, we integrate uncertainty calibration and interpretability into a retrieval pipeline. Specifically, we introduce Bayesian methodologies and multi-perspective retrieval to calibrate uncertainty within a retrieval pipeline. We incorporate techniques such as LIME and SHAP to analyze the behavior of a black-box reranker model. The importance scores derived from these explanation methodologies serve as supplementary relevance scores to enhance the base reranker model. We evaluate the resulting performance enhancements achieved through uncertainty calibration and interpretable reranking on Question Answering and Fact Checking tasks. Our methods demonstrate substantial performance improvements across three KILT datasets.
+Modern deterministic retrieval pipelines prioritize achieving state-of-the-art performance but often lack interpretability in decision-making. These models face challenges in assessing uncertainty, leading to overconfident predictions. To overcome these limitations, we integrate uncertainty calibration and interpretability into a retrieval pipeline. Specifically, we introduce Bayesian methodologies and multi-perspective retrieval to calibrate uncertainty within a retrieval pipeline. We incorporate techniques such as LIME and SHAP to analyze the behavior of a black-box reranker model. The importance scores derived from these explanation methodologies serve as supplementary relevance scores to enhance the base reranker model. We evaluate the resulting performance enhancements achieved through uncertainty calibration and interpretable reranking on <b>Question</b> <b>Answering</b> and Fact Checking tasks. Our methods demonstrate substantial performance improvements across three KILT datasets.
 
 {{</citation>}}
 
@@ -4015,7 +4013,7 @@ Shreyash Rawat, V. Vijayarajan, V. B. Surya Prasath. (2024)
 Primary Category: cs.IR  
 Categories: cs-IR, cs.IR  
 Keyword Score: 10  
-Keywords: Summarization(10)  
+Keywords: Summarization  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03380v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.03380v1.pdf" filename="2402.03380v1.pdf">Download PDF</button>
 
@@ -4023,7 +4021,7 @@ Keywords: Summarization(10)
 
 
 **ABSTRACT**  
-Text extraction is a highly subjective problem which depends on the dataset that one is working on and the kind of summarization details that needs to be extracted out. All the steps ranging from preprocessing of the data, to the choice of an optimal model for predictions, depends on the problem and the corpus at hand. In this paper, we describe a text extraction model where the aim is to extract word specified information relating to the semantics such that we can get all related and meaningful information about that word in a succinct format. This model can obtain meaningful results and can augment ubiquitous search model or a normal clustering or topic modelling algorithms. By utilizing new technique called two cluster assignment technique with K-means model, we improved the ontology of the retrieved text. We further apply the vector average damping technique for flexible movement of clusters. Our experimental results on a recent corpus of Covid-19 shows that we obtain good results based on main keywords.
+Text extraction is a highly subjective problem which depends on the dataset that one is working on and the kind of <b>summarization</b> details that needs to be extracted out. All the steps ranging from preprocessing of the data, to the choice of an optimal model for predictions, depends on the problem and the corpus at hand. In this paper, we describe a text extraction model where the aim is to extract word specified information relating to the semantics such that we can get all related and meaningful information about that word in a succinct format. This model can obtain meaningful results and can augment ubiquitous search model or a normal clustering or topic modelling algorithms. By utilizing new technique called two cluster assignment technique with K-means model, we improved the ontology of the retrieved text. We further apply the vector average damping technique for flexible movement of clusters. Our experimental results on a recent corpus of Covid-19 shows that we obtain good results based on main keywords.
 
 {{</citation>}}
 
@@ -4054,7 +4052,7 @@ Chang-Yong Lim, Jihong Park, Jinho Choi, Ju-Hyung Lee, Daesub Oh, Heewook Kim. (
 Primary Category: cs.NI  
 Categories: cs-LG, cs-NI, cs.NI  
 Keyword Score: 30  
-Keywords: Reinforcement Learning(10), Simulation(10), Simulator(10)  
+Keywords: Reinforcement Learning, Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02350v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02350v1.pdf" filename="2402.02350v1.pdf">Download PDF</button>
 
@@ -4062,7 +4060,7 @@ Keywords: Reinforcement Learning(10), Simulation(10), Simulator(10)
 
 
 **ABSTRACT**  
-In this article, we propose a multi-agent deep reinforcement learning (MADRL) framework to train a multiple access protocol for downlink low earth orbit (LEO) satellite networks. By improving the existing learned protocol, emergent random access channel (eRACH), our proposed method, coined centralized and compressed emergent signaling for eRACH (Ce2RACH), can mitigate inter-satellite interference by exchanging additional signaling messages jointly learned through the MADRL training process. Simulations demonstrate that Ce2RACH achieves up to 36.65% higher network throughput compared to eRACH, while the cost of signaling messages increase linearly with the number of users.
+In this article, we propose a multi-agent deep <b>reinforcement</b> <b>learning</b> (MADRL) framework to train a multiple access protocol for downlink low earth orbit (LEO) satellite networks. By improving the existing learned protocol, emergent random access channel (eRACH), our proposed method, coined centralized and compressed emergent signaling for eRACH (Ce2RACH), can mitigate inter-satellite interference by exchanging additional signaling messages jointly learned through the MADRL training process. Simulations demonstrate that Ce2RACH achieves up to 36.65% higher network throughput compared to eRACH, while the cost of signaling messages increase linearly with the number of users.
 
 {{</citation>}}
 
@@ -4089,7 +4087,7 @@ Duo Wu, Xianda Wang, Yaqi Qiao, Zhi Wang, Junchen Jiang, Shuguang Cui, Fangxin W
 Primary Category: cs.NI  
 Categories: cs-LG, cs-NI, cs.NI  
 Keyword Score: 30  
-Keywords: Foundation Model(10), Large Language Model(10), Large Language Model(10)  
+Keywords: Foundation Model, Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02338v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02338v1.pdf" filename="2402.02338v1.pdf">Download PDF</button>
 
@@ -4097,7 +4095,7 @@ Keywords: Foundation Model(10), Large Language Model(10), Large Language Model(1
 
 
 **ABSTRACT**  
-Many networking tasks now employ deep learning (DL) to solve complex prediction and system optimization problems. However, current design philosophy of DL-based algorithms entails intensive engineering overhead due to the manual design of deep neural networks (DNNs) for different networking tasks. Besides, DNNs tend to achieve poor generalization performance on unseen data distributions/environments. Motivated by the recent success of large language models (LLMs), for the first time, this work studies the LLM adaptation for networking to explore a more sustainable design philosophy. With the massive pre-trained knowledge and powerful inference ability, LLM can serve as the foundation model, and is expected to achieve "one model for all" with even better performance and stronger generalization for various tasks. In this paper, we present NetLLM, the first LLM adaptation framework that efficiently adapts LLMs to solve networking problems. NetLLM addresses many practical challenges in LLM adaptation, from how to process task-specific information with LLMs, to how to improve the efficiency of answer generation and acquiring domain knowledge for networking. Across three networking-related use cases - viewport prediction (VP), adaptive bitrate streaming (ABR) and cluster job scheduling (CJS), we showcase the effectiveness of NetLLM in LLM adaptation for networking. Results show that the adapted LLM surpasses state-of-the-art algorithms by 10.1-36.6% for VP, 14.5-36.6% for ABR, 6.8-41.3% for CJS, and also achieves superior generalization performance.
+Many networking tasks now employ deep learning (DL) to solve complex prediction and system optimization problems. However, current design philosophy of DL-based algorithms entails intensive engineering overhead due to the manual design of deep neural networks (DNNs) for different networking tasks. Besides, DNNs tend to achieve poor generalization performance on unseen data distributions/environments. Motivated by the recent success of large language models (LLMs), for the first time, this work studies the <b>LLM</b> adaptation for networking to explore a more sustainable design philosophy. With the massive pre-trained knowledge and powerful inference ability, <b>LLM</b> can serve as the foundation model, and is expected to achieve "one model for all" with even better performance and stronger generalization for various tasks. In this paper, we present NetLLM, the first <b>LLM</b> adaptation framework that efficiently adapts LLMs to solve networking problems. NetLLM addresses many practical challenges in <b>LLM</b> adaptation, from how to process task-specific information with LLMs, to how to improve the efficiency of answer generation and acquiring domain knowledge for networking. Across three networking-related use cases - viewport prediction (VP), adaptive bitrate streaming (ABR) and cluster job scheduling (CJS), we showcase the effectiveness of NetLLM in <b>LLM</b> adaptation for networking. Results show that the adapted <b>LLM</b> surpasses state-of-the-art algorithms by 10.1-36.6% for VP, 14.5-36.6% for ABR, 6.8-41.3% for CJS, and also achieves superior generalization performance.
 
 {{</citation>}}
 
@@ -4124,7 +4122,7 @@ Yujiao Hu, Qingmin Jia, Meng Shen, Renchao Xie, Tao Huang, F. Richard Yu. (2024)
 Primary Category: cs.NI  
 Categories: cs-AI, cs-NI, cs.NI  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02381v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02381v1.pdf" filename="2402.02381v1.pdf">Download PDF</button>
 
@@ -4163,7 +4161,7 @@ Nam Yul Yu, Wei Yu. (2024)
 Primary Category: cs.IT  
 Categories: cs-IT, cs.IT, math-IT  
 Keyword Score: 30  
-Keywords: Message-Passing(10), Simulation(10), Simulator(10)  
+Keywords: Message-Passing, Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02307v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02307v1.pdf" filename="2402.02307v1.pdf">Download PDF</button>
 
@@ -4171,7 +4169,7 @@ Keywords: Message-Passing(10), Simulation(10), Simulator(10)
 
 
 **ABSTRACT**  
-Grant-free access is a key enabler for connecting wireless devices with low latency and low signaling overhead in massive machine-type communications (mMTC). For massive grant-free access, user-specific signatures are uniquely assigned to mMTC devices. In this paper, we first derive a sufficient condition for the successful identification of active devices through maximum likelihood (ML) estimation in massive grant-free access. The condition is represented by the coherence of a signature sequence matrix containing the signatures of all devices. Then, we present a design framework of non-orthogonal signature sequences in a deterministic fashion. The design principle relies on unimodular masking sequences with low correlation, which are applied as masking sequences to the columns of the discrete Fourier transform (DFT) matrix. For example constructions, we use four polyphase masking sequences represented by characters over finite fields. Leveraging algebraic techniques, we show that the signature sequence matrix of proposed non-orthogonal sequences has theoretically bounded low coherence. Simulation results demonstrate that the deterministic non-orthogonal signatures achieve the excellent performance of joint activity and data detection by ML- and approximate message passing (AMP)-based algorithms for massive grant-free access in mMTC.
+Grant-free access is a key enabler for connecting wireless devices with low latency and low signaling overhead in massive machine-type communications (mMTC). For massive grant-free access, user-specific signatures are uniquely assigned to mMTC devices. In this paper, we first derive a sufficient condition for the successful identification of active devices through maximum likelihood (ML) estimation in massive grant-free access. The condition is represented by the coherence of a signature sequence matrix containing the signatures of all devices. Then, we present a design framework of non-orthogonal signature sequences in a deterministic fashion. The design principle relies on unimodular masking sequences with low correlation, which are applied as masking sequences to the columns of the discrete Fourier transform (DFT) matrix. For example constructions, we use four polyphase masking sequences represented by characters over finite fields. Leveraging algebraic techniques, we show that the signature sequence matrix of proposed non-orthogonal sequences has theoretically bounded low coherence. <b>Simulation</b> results demonstrate that the deterministic non-orthogonal signatures achieve the excellent performance of joint activity and data detection by ML- and approximate message passing (AMP)-based algorithms for massive grant-free access in mMTC.
 
 {{</citation>}}
 
@@ -4198,7 +4196,7 @@ Hongjiang Lei, Sha Zhou, Xinhu Chen, Imran Shafique Ansari, Yun Li, Gaofeng Pan,
 Primary Category: cs.IT  
 Categories: cs-IT, cs.IT, math-IT  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02344v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02344v1.pdf" filename="2402.02344v1.pdf">Download PDF</button>
 
@@ -4206,7 +4204,7 @@ Keywords: Simulation(10), Simulator(10)
 
 
 **ABSTRACT**  
-This work considers a multiple-input-single-output mmWave RSMA system wherein a base station serves two users in the presence of a passive eavesdropper. Different eavesdropping scenarios are considered corresponding to the overlapped resolvable paths between the main and the wiretap channels under the considered transmission schemes. The analytical expressions for the secrecy outage probability are derived respectively through the Gaussian Chebyshev quadrature method. Monte Carlo simulation results are presented to validate the correctness of the derived analytical expressions and demonstrate the effects of system parameters on the SOP of the considered mmWave RSMA systems.
+This work considers a multiple-input-single-output mmWave RSMA system wherein a base station serves two users in the presence of a passive eavesdropper. Different eavesdropping scenarios are considered corresponding to the overlapped resolvable paths between the main and the wiretap channels under the considered transmission schemes. The analytical expressions for the secrecy outage probability are derived respectively through the Gaussian Chebyshev quadrature method. Monte Carlo <b>simulation</b> results are presented to validate the correctness of the derived analytical expressions and demonstrate the effects of system parameters on the SOP of the considered mmWave RSMA systems.
 
 {{</citation>}}
 
@@ -4237,7 +4235,7 @@ D. Rodríguez, G. Bejarano, M. Vargas, J. M. Lemos, M. G. Ortega. (2024)
 Primary Category: eess.SY  
 Categories: cs-SY, eess-SY, eess.SY  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02599v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02599v2.pdf" filename="2402.02599v2.pdf">Download PDF</button>
 
@@ -4245,7 +4243,7 @@ Keywords: Simulation(10), Simulator(10)
 
 
 **ABSTRACT**  
-This work addresses the modelling, power control, and optimization of a thermal energy storage (TES) system combined with a vapour-compression refrigeration facility based on phase change materials (PCM). Given a novel design of a PCM-based TES tank and its interconnection with an existing refrigeration system, the joint dynamic modelling is first studied, exploring the different time scales that coexist at the interconnected system. Diverse operating modes are defined, according to the intended use of the TES tank as a cold-energy buffer to decouple cooling demand and production, whereas the static characteristic and power limits are calculated and show the high coupling between the main cooling powers involved (TES charging/discharging power, and direct power production at the evaporator). In this light, a decoupling control strategy is proposed, where the low-level controllers are simply PI regulators and the refrigerant/secondary mass flows are considered as virtual manipulated variables, applying a feedforward-based cascade strategy. The control performance is evaluated through a thorough simulation that includes all operating modes, where the reference tracking is shown to be fast and reliable enough to address high-level scheduling strategies, where the references on the main cooling powers are intended to be imposed considering economic and efficiency criteria.
+This work addresses the modelling, power control, and optimization of a thermal energy storage (TES) system combined with a vapour-compression refrigeration facility based on phase change materials (PCM). Given a novel design of a PCM-based TES tank and its interconnection with an existing refrigeration system, the joint dynamic modelling is first studied, exploring the different time scales that coexist at the interconnected system. Diverse operating modes are defined, according to the intended use of the TES tank as a cold-energy buffer to decouple cooling demand and production, whereas the static characteristic and power limits are calculated and show the high coupling between the main cooling powers involved (TES charging/discharging power, and direct power production at the evaporator). In this light, a decoupling control strategy is proposed, where the low-level controllers are simply PI regulators and the refrigerant/secondary mass flows are considered as virtual manipulated variables, applying a feedforward-based cascade strategy. The control performance is evaluated through a thorough <b>simulation</b> that includes all operating modes, where the reference tracking is shown to be fast and reliable enough to address high-level scheduling strategies, where the references on the main cooling powers are intended to be imposed considering economic and efficiency criteria.
 
 {{</citation>}}
 
@@ -4272,7 +4270,7 @@ G. Bejarano, M. Vargas, M. G. Ortega, F. Castaño, J. E. Normey-Rico. (2024)
 Primary Category: eess.SY  
 Categories: cs-SY, eess-SY, eess.SY  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02597v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02597v2.pdf" filename="2402.02597v2.pdf">Download PDF</button>
 
@@ -4280,7 +4278,7 @@ Keywords: Simulation(10), Simulator(10)
 
 
 **ABSTRACT**  
-This paper proposes a computationally efficient simulation strategy for cold thermal energy storage (TES) systems based on phase change material (PCM). Taking as a starting point the recent design of a TES system based on PCM, designed to complement a vapour-compression refrigeration plant, the new highly efficient modelling strategy is described and its performance is compared against the pre-existing one. The need for a new computationally efficient approach comes from the fact that, in the near future, such a TES model is intended to be used in combination with the model of the own mother refrigeration plant, in order to address efficient, long-term energy management strategies, where computation time will become a major issue. Comparative simulations show that the proposed computationally efficient strategy reduces the simulation time to a small fraction of the original figure (from around 1/30th till around 1/120th, depending on the particular choice of the main sampling interval), at the expense of affordable inaccuracy in terms of the PCM charge ratio.
+This paper proposes a computationally efficient <b>simulation</b> strategy for cold thermal energy storage (TES) systems based on phase change material (PCM). Taking as a starting point the recent design of a TES system based on PCM, designed to complement a vapour-compression refrigeration plant, the new highly efficient modelling strategy is described and its performance is compared against the pre-existing one. The need for a new computationally efficient approach comes from the fact that, in the near future, such a TES model is intended to be used in combination with the model of the own mother refrigeration plant, in order to address efficient, long-term energy management strategies, where computation time will become a major issue. Comparative simulations show that the proposed computationally efficient strategy reduces the <b>simulation</b> time to a small fraction of the original figure (from around 1/30th till around 1/120th, depending on the particular choice of the main sampling interval), at the expense of affordable inaccuracy in terms of the PCM charge ratio.
 
 {{</citation>}}
 
@@ -4307,7 +4305,7 @@ G. Bejarano, J. J. Suffo, M. Vargas, M. G Ortega. (2024)
 Primary Category: eess.SY  
 Categories: cs-SY, eess-SY, eess.SY  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03395v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.03395v2.pdf" filename="2402.03395v2.pdf">Download PDF</button>
 
@@ -4315,7 +4313,7 @@ Keywords: Simulation(10), Simulator(10)
 
 
 **ABSTRACT**  
-This paper studies the design and dynamic modelling of a novel thermal energy storage (TES) system combined with a refrigeration system based on phase change materials (PCM). Cold-energy production supported by TES systems is a very appealing field of research, since it allows flexible cold-energy management, combining demand fulfilment with cost reduction strategies. The paper proposes and compares two different simulation models for a cold-energy storage system based on PCM. First, a continuous model is developed, the application of which is limited to decoupled charging/discharging operations. Given such conditions, it is a relatively precise model, useful for the tuning of the TES parameters. The second proposed model is a discrete one, which, despite implementing a discrete approximation of the system behaviour, allows to study more general conditions, such as series of partial charging/discharging operations. Simulation results of both models are compared regarding decoupled charging/discharging operations, and the ability of the discrete model to represent more realistic partial operations is analysed.
+This paper studies the design and dynamic modelling of a novel thermal energy storage (TES) system combined with a refrigeration system based on phase change materials (PCM). Cold-energy production supported by TES systems is a very appealing field of research, since it allows flexible cold-energy management, combining demand fulfilment with cost reduction strategies. The paper proposes and compares two different <b>simulation</b> models for a cold-energy storage system based on PCM. First, a continuous model is developed, the application of which is limited to decoupled charging/discharging operations. Given such conditions, it is a relatively precise model, useful for the tuning of the TES parameters. The second proposed model is a discrete one, which, despite implementing a discrete approximation of the system behaviour, allows to study more general conditions, such as series of partial charging/discharging operations. <b>Simulation</b> results of both models are compared regarding decoupled charging/discharging operations, and the ability of the discrete model to represent more realistic partial operations is analysed.
 
 {{</citation>}}
 
@@ -4342,7 +4340,7 @@ G. Bejarano, J. M. Manzano, J. R. Salvador, D. Limon. (2024)
 Primary Category: eess.SY  
 Categories: cs-SY, eess-SY, eess.SY  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03391v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.03391v2.pdf" filename="2402.03391v2.pdf">Download PDF</button>
 
@@ -4381,7 +4379,7 @@ G. Bejarano, M. G. Ortega, J. E. Normey-Rico, F. R Rubio. (2024)
 Primary Category: math.OC  
 Categories: cs-SY, eess-SY, math-OC, math.OC  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03392v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.03392v2.pdf" filename="2402.03392v2.pdf">Download PDF</button>
 
@@ -4416,7 +4414,7 @@ Justin Dumouchelle, Esther Julien, Jannis Kurtz, Elias B. Khalil. (2024)
 Primary Category: math.OC  
 Categories: cs-AI, cs-LG, math-OC, math.OC  
 Keyword Score: 10  
-Keywords: Supervised Learning(10)  
+Keywords: Supervised Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02552v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02552v1.pdf" filename="2402.02552v1.pdf">Download PDF</button>
 
@@ -4424,7 +4422,7 @@ Keywords: Supervised Learning(10)
 
 
 **ABSTRACT**  
-Bilevel optimization deals with nested problems in which a leader takes the first decision to minimize their objective function while accounting for a follower's best-response reaction. Constrained bilevel problems with integer variables are particularly notorious for their hardness. While exact solvers have been proposed for mixed-integer linear bilevel optimization, they tend to scale poorly with problem size and are hard to generalize to the non-linear case. On the other hand, problem-specific algorithms (exact and heuristic) are limited in scope. Under a data-driven setting in which similar instances of a bilevel problem are solved routinely, our proposed framework, Neur2BiLO, embeds a neural network approximation of the leader's or follower's value function, trained via supervised regression, into an easy-to-solve mixed-integer program. Neur2BiLO serves as a heuristic that produces high-quality solutions extremely fast for the bilevel knapsack interdiction problem, the "critical node game" from network security, a donor-recipient healthcare problem, and discrete network design from transportation planning. These problems are diverse in that they have linear or non-linear objectives/constraints and integer or mixed-integer variables, making Neur2BiLO unique in its versatility.
+Bilevel optimization deals with nested problems in which a leader takes the first decision to minimize their objective function while accounting for a follower's best-response reaction. Constrained bilevel problems with integer variables are particularly notorious for their hardness. While exact solvers have been proposed for mixed-integer linear bilevel optimization, they tend to scale poorly with problem size and are hard to generalize to the non-linear case. On the other hand, problem-specific algorithms (exact and heuristic) are limited in scope. Under a data-driven setting in which similar instances of a bilevel problem are solved routinely, our proposed framework, Neur2BiLO, embeds a neural network approximation of the leader's or follower's value function, trained via <b>supervised</b> regression, into an easy-to-solve mixed-integer program. Neur2BiLO serves as a heuristic that produces high-quality solutions extremely fast for the bilevel knapsack interdiction problem, the "critical node game" from network security, a donor-recipient healthcare problem, and discrete network design from transportation planning. These problems are diverse in that they have linear or non-linear objectives/constraints and integer or mixed-integer variables, making Neur2BiLO unique in its versatility.
 
 {{</citation>}}
 
@@ -4455,7 +4453,7 @@ Jiacheng Ruan, Suncheng Xiang. (2024)
 Primary Category: eess.IV  
 Categories: cs-CV, eess-IV, eess.IV  
 Keyword Score: 20  
-Keywords: Convolutional Neural Network(10), Transformer(10)  
+Keywords: Convolutional Neural Network, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02491v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02491v1.pdf" filename="2402.02491v1.pdf">Download PDF</button>
 
@@ -4490,7 +4488,7 @@ Kunjun Li, Manoj Gulati, Steven Waskito, Dhairya Shah, Shantanu Chakrabarty, Amb
 Primary Category: eess.IV  
 Categories: cs-AI, cs-CV, cs-NI, eess-IV, eess.IV  
 Keyword Score: 10  
-Keywords: Transformer(10)  
+Keywords: Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03390v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.03390v1.pdf" filename="2402.03390v1.pdf">Download PDF</button>
 
@@ -4525,7 +4523,7 @@ Minheng Chen, Zhirun Zhang, Shuheng Gu, Zhangyang Ge, Youyong Kong. (2024)
 Primary Category: eess.IV  
 Categories: cs-AI, cs-CV, eess-IV, eess.IV  
 Keyword Score: 10  
-Keywords: Convolutional Neural Network(10)  
+Keywords: Convolutional Neural Network  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02498v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02498v1.pdf" filename="2402.02498v1.pdf">Download PDF</button>
 
@@ -4560,7 +4558,7 @@ Jie Lian, Lizhi Wang, Lin Zhu, Renwei Dian, Zhiwei Xiong, Hua Huang. (2024)
 Primary Category: eess.IV  
 Categories: cs-CV, eess-IV, eess.IV  
 Keyword Score: 10  
-Keywords: Self-supervised Learning(10)  
+Keywords: Self-supervised Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02411v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02411v1.pdf" filename="2402.02411v1.pdf">Download PDF</button>
 
@@ -4568,7 +4566,7 @@ Keywords: Self-supervised Learning(10)
 
 
 **ABSTRACT**  
-The fusion of a low-spatial-resolution hyperspectral image (LR-HSI) with a high-spatial-resolution multispectral image (HR-MSI) has garnered increasing research interest. However, most fusion methods solely focus on the fusion algorithm itself and overlook the degradation models, which results in unsatisfactory performance in practical scenarios. To fill this gap, we propose physics-inspired degradation models (PIDM) to model the degradation of LR-HSI and HR-MSI, which comprises a spatial degradation network (SpaDN) and a spectral degradation network (SpeDN). SpaDN and SpeDN are designed based on two insights. First, we employ spatial warping and spectral modulation operations to simulate lens aberrations, thereby introducing non-uniformity into the spatial and spectral degradation processes. Second, we utilize asymmetric downsampling and parallel downsampling operations to separately reduce the spatial and spectral resolutions of the images, thus ensuring the matching of spatial and spectral degradation processes with specific physical characteristics. Once SpaDN and SpeDN are established, we adopt a self-supervised training strategy to optimize the network parameters and provide a plug-and-play solution for fusion methods. Comprehensive experiments demonstrate that our proposed PIDM can boost the fusion performance of existing fusion methods in practical scenarios.
+The fusion of a low-spatial-resolution hyperspectral image (LR-HSI) with a high-spatial-resolution multispectral image (HR-MSI) has garnered increasing research interest. However, most fusion methods solely focus on the fusion algorithm itself and overlook the degradation models, which results in unsatisfactory performance in practical scenarios. To fill this gap, we propose physics-inspired degradation models (PIDM) to model the degradation of LR-HSI and HR-MSI, which comprises a spatial degradation network (SpaDN) and a spectral degradation network (SpeDN). SpaDN and SpeDN are designed based on two insights. First, we employ spatial warping and spectral modulation operations to simulate lens aberrations, thereby introducing non-uniformity into the spatial and spectral degradation processes. Second, we utilize asymmetric downsampling and parallel downsampling operations to separately reduce the spatial and spectral resolutions of the images, thus ensuring the matching of spatial and spectral degradation processes with specific physical characteristics. Once SpaDN and SpeDN are established, we adopt a <b>self-supervised</b> training strategy to optimize the network parameters and provide a plug-and-play solution for fusion methods. Comprehensive experiments demonstrate that our proposed PIDM can boost the fusion performance of existing fusion methods in practical scenarios.
 
 {{</citation>}}
 
@@ -4595,7 +4593,7 @@ Huan Huang, Liheng Qiu, Shenmiao Yang, Longxi Li, Jiaofen Nan, Yanting Li, Chuan
 Primary Category: eess.IV  
 Categories: cs-CV, eess-IV, eess.IV  
 Keyword Score: 10  
-Keywords: Transformer(10)  
+Keywords: Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02349v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02349v1.pdf" filename="2402.02349v1.pdf">Download PDF</button>
 
@@ -4603,7 +4601,7 @@ Keywords: Transformer(10)
 
 
 **ABSTRACT**  
-Background: Diffuse large B-cell lymphoma (DLBCL) segmentation is a challenge in medical image analysis. Traditional segmentation methods for lymphoma struggle with the complex patterns and the presence of DLBCL lesions. Objective: We aim to develop an accurate method for lymphoma segmentation with 18F-Fluorodeoxyglucose positron emission tomography (PET) and computed tomography (CT) images. Methods: Our lymphoma segmentation approach combines a vision transformer with dual encoders, adeptly fusing PET and CT data via multimodal cross-attention fusion (MMCAF) module. In this study, PET and CT data from 165 DLBCL patients were analyzed. A 5-fold cross-validation was employed to evaluate the performance and generalization ability of our method. Ground truths were annotated by experienced nuclear medicine experts. We calculated the total metabolic tumor volume (TMTV) and performed a statistical analysis on our results. Results: The proposed method exhibited accurate performance in DLBCL lesion segmentation, achieving a Dice similarity coefficient of 0.9173$\pm$0.0071, a Hausdorff distance of 2.71$\pm$0.25mm, a sensitivity of 0.9462$\pm$0.0223, and a specificity of 0.9986$\pm$0.0008. Additionally, a Pearson correlation coefficient of 0.9030$\pm$0.0179 and an R-square of 0.8586$\pm$0.0173 were observed in TMTV when measured on manual annotation compared to our segmentation results. Conclusion: This study highlights the advantages of MMCAF and vision transformer for lymphoma segmentation using PET and CT, offering great promise for computer-aided lymphoma diagnosis and treatment.
+Background: Diffuse large B-cell lymphoma (DLBCL) segmentation is a challenge in medical image analysis. Traditional segmentation methods for lymphoma struggle with the complex patterns and the presence of DLBCL lesions. Objective: We aim to develop an accurate method for lymphoma segmentation with 18F-Fluorodeoxyglucose positron emission tomography (PET) and computed tomography (CT) images. Methods: Our lymphoma segmentation approach combines a vision <b>transformer</b> with dual encoders, adeptly fusing PET and CT data via multimodal cross-attention fusion (MMCAF) module. In this study, PET and CT data from 165 DLBCL patients were analyzed. A 5-fold cross-validation was employed to evaluate the performance and generalization ability of our method. Ground truths were annotated by experienced nuclear medicine experts. We calculated the total metabolic tumor volume (TMTV) and performed a statistical analysis on our results. Results: The proposed method exhibited accurate performance in DLBCL lesion segmentation, achieving a Dice similarity coefficient of 0.9173$\pm$0.0071, a Hausdorff distance of 2.71$\pm$0.25mm, a sensitivity of 0.9462$\pm$0.0223, and a specificity of 0.9986$\pm$0.0008. Additionally, a Pearson correlation coefficient of 0.9030$\pm$0.0179 and an R-square of 0.8586$\pm$0.0173 were observed in TMTV when measured on manual annotation compared to our segmentation results. Conclusion: This study highlights the advantages of MMCAF and vision <b>transformer</b> for lymphoma segmentation using PET and CT, offering great promise for computer-aided lymphoma diagnosis and treatment.
 
 {{</citation>}}
 
@@ -4634,7 +4632,7 @@ Nikoleta E. Glynatsi, Martin A. Nowak, Christian Hilbe. (2024)
 Primary Category: cs.GT  
 Categories: cs-GT, cs.GT, physics-soc-ph  
 Keyword Score: 20  
-Keywords: Simulation(10), Simulator(10)  
+Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02437v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02437v1.pdf" filename="2402.02437v1.pdf">Download PDF</button>
 
@@ -4673,7 +4671,7 @@ Edo Cohen-Karlik, Eyal Rozenberg, Daniel Freedman. (2024)
 Primary Category: cs.SI  
 Categories: cs-LG, cs-SI, cs.SI  
 Keyword Score: 20  
-Keywords: Recurrent Neural Network(10), Recurrent Neural Network(10)  
+Keywords: Recurrent Neural Network, Recurrent Neural Network  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03387v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.03387v1.pdf" filename="2402.03387v1.pdf">Download PDF</button>
 
@@ -4708,7 +4706,7 @@ Pilar Marqués-Sánchez, María Cristina Martínez-Fernández, José Alberto Ben
 Primary Category: cs.SI  
 Categories: cs-LG, cs-SI, cs.SI  
 Keyword Score: 10  
-Keywords: Unsupervised Learning(10)  
+Keywords: Unsupervised Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.03385v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.03385v1.pdf" filename="2402.03385v1.pdf">Download PDF</button>
 
@@ -4716,7 +4714,7 @@ Keywords: Unsupervised Learning(10)
 
 
 **ABSTRACT**  
-Aim: To study the existence of subgroups by exploring the similarities between the attributes of the nodes of the groups, in relation to diet and gender and, to analyse the connectivity between groups based on aspects of similarities between them through SNA and artificial intelligence techniques. Methods: 235 students from 5 different educational centres participate in this study between March and December 2015. Data analysis carried out is divided into two blocks: social network analysis and unsupervised machine learning techniques. As for the social network analysis, the Girvan-Newman technique was applied to find the best number of cohesive groups within each of the friendship networks of the different classes analysed. Results: After applying Girvan-Newman in the three classes, the best division into clusters was respectively 2 for classroom A, 7 for classroom B and 6 for classroom C. There are significant differences between the groups and the gender and diet variables. After applying K-means using population diet as an input variable, a K-means clustering of 2 clusters for class A, 3 clusters for class B and 3 clusters for class C is obtained. Conclusion: Adolescents form subgroups within their classrooms. Subgroup cohesion is defined by the fact that nodes share similarities in aspects that influence obesity, they share attributes related to food quality and gender. The concept of homophily, related to SNA, justifies our results. Artificial intelligence techniques together with the application of the Girvan-Newman provide robustness to the structural analysis of similarities and cohesion between subgroups.
+Aim: To study the existence of subgroups by exploring the similarities between the attributes of the nodes of the groups, in relation to diet and gender and, to analyse the connectivity between groups based on aspects of similarities between them through SNA and artificial intelligence techniques. Methods: 235 students from 5 different educational centres participate in this study between March and December 2015. Data analysis carried out is divided into two blocks: social network analysis and <b>unsupervised</b> machine learning techniques. As for the social network analysis, the Girvan-Newman technique was applied to find the best number of cohesive groups within each of the friendship networks of the different classes analysed. Results: After applying Girvan-Newman in the three classes, the best division into clusters was respectively 2 for classroom A, 7 for classroom B and 6 for classroom C. There are significant differences between the groups and the gender and diet variables. After applying K-means using population diet as an input variable, a K-means clustering of 2 clusters for class A, 3 clusters for class B and 3 clusters for class C is obtained. Conclusion: Adolescents form subgroups within their classrooms. Subgroup cohesion is defined by the fact that nodes share similarities in aspects that influence obesity, they share attributes related to food quality and gender. The concept of homophily, related to SNA, justifies our results. Artificial intelligence techniques together with the application of the Girvan-Newman provide robustness to the structural analysis of similarities and cohesion between subgroups.
 
 {{</citation>}}
 
@@ -4747,7 +4745,7 @@ Wuxuan Jiang, Xiangjun Song, Shenbai Hong, Haijun Zhang, Wenxin Liu, Bo Zhao, We
 Primary Category: cs.CR  
 Categories: cs-CR, cs-LG, cs.CR  
 Keyword Score: 20  
-Keywords: Convolutional Neural Network(10), Transformer(10)  
+Keywords: Convolutional Neural Network, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02320v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02320v1.pdf" filename="2402.02320v1.pdf">Download PDF</button>
 
@@ -4755,7 +4753,7 @@ Keywords: Convolutional Neural Network(10), Transformer(10)
 
 
 **ABSTRACT**  
-Accuracy and efficiency remain challenges for multi-party computation (MPC) frameworks. Spin is a GPU-accelerated MPC framework that supports multiple computation parties and a dishonest majority adversarial setup. We propose optimized protocols for non-linear functions that are critical for machine learning, as well as several novel optimizations specific to attention that is the fundamental unit of Transformer models, allowing Spin to perform non-trivial CNNs training and Transformer inference without sacrificing security. At the backend level, Spin leverages GPU, CPU, and RDMA-enabled smart network cards for acceleration. Comprehensive evaluations demonstrate that Spin can be up to $2\times$ faster than the state-of-the-art for deep neural network training. For inference on a Transformer model with 18.9 million parameters, our attention-specific optimizations enable Spin to achieve better efficiency, less communication, and better accuracy.
+Accuracy and efficiency remain challenges for multi-party computation (MPC) frameworks. Spin is a GPU-accelerated MPC framework that supports multiple computation parties and a dishonest majority adversarial setup. We propose optimized protocols for non-linear functions that are critical for machine learning, as well as several novel optimizations specific to attention that is the fundamental unit of <b>Transformer</b> models, allowing Spin to perform non-trivial CNNs training and <b>Transformer</b> inference without sacrificing security. At the backend level, Spin leverages GPU, CPU, and RDMA-enabled smart network cards for acceleration. Comprehensive evaluations demonstrate that Spin can be up to $2\times$ faster than the state-of-the-art for deep neural network training. For inference on a <b>Transformer</b> model with 18.9 million parameters, our attention-specific optimizations enable Spin to achieve better efficiency, less communication, and better accuracy.
 
 {{</citation>}}
 
@@ -4782,7 +4780,7 @@ Ekzhin Ear, Brandon Bailey, Shouhuai Xu. (2024)
 Primary Category: cs.CR  
 Categories: cs-CR, cs.CR  
 Keyword Score: 10  
-Keywords: Prompt(10)  
+Keywords: Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02635v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02635v1.pdf" filename="2402.02635v1.pdf">Download PDF</button>
 
@@ -4817,7 +4815,7 @@ Brian Etter, James Lee Hu, Mohammedreza Ebrahimi, Weifeng Li, Xin Li, Hsinchun C
 Primary Category: cs.CR  
 Categories: cs-AI, cs-CR, cs-LG, cs.CR  
 Keyword Score: 10  
-Keywords: Reinforcement Learning(10)  
+Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02600v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02600v1.pdf" filename="2402.02600v1.pdf">Download PDF</button>
 
@@ -4825,7 +4823,7 @@ Keywords: Reinforcement Learning(10)
 
 
 **ABSTRACT**  
-Adversarial Malware Generation (AMG), the generation of adversarial malware variants to strengthen Deep Learning (DL)-based malware detectors has emerged as a crucial tool in the development of proactive cyberdefense. However, the majority of extant works offer subtle perturbations or additions to executable files and do not explore full-file obfuscation. In this study, we show that an open-source encryption tool coupled with a Reinforcement Learning (RL) framework can successfully obfuscate malware to evade state-of-the-art malware detection engines and outperform techniques that use advanced modification methods. Our results show that the proposed method improves the evasion rate from 27%-49% compared to widely-used state-of-the-art reinforcement learning-based methods.
+Adversarial Malware Generation (AMG), the generation of adversarial malware variants to strengthen Deep Learning (DL)-based malware detectors has emerged as a crucial tool in the development of proactive cyberdefense. However, the majority of extant works offer subtle perturbations or additions to executable files and do not explore full-file obfuscation. In this study, we show that an open-source encryption tool coupled with a <b>Reinforcement</b> <b>Learning</b> (RL) framework can successfully obfuscate malware to evade state-of-the-art malware detection engines and outperform techniques that use advanced modification methods. Our results show that the proposed method improves the evasion rate from 27%-49% compared to widely-used state-of-the-art reinforcement learning-based methods.
 
 {{</citation>}}
 
@@ -4852,7 +4850,7 @@ Shahid Alam, Zeynep Altiparmak. (2024)
 Primary Category: cs.CR  
 Categories: cs-AI, cs-CR, cs.CR  
 Keyword Score: 10  
-Keywords: Explainable AI(10)  
+Keywords: Explainable AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02452v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02452v2.pdf" filename="2402.02452v2.pdf">Download PDF</button>
 
@@ -4860,7 +4858,7 @@ Keywords: Explainable AI(10)
 
 
 **ABSTRACT**  
-With the rise of complex cyber devices Cyber Forensics (CF) is facing many new challenges. For example, there are dozens of systems running on smartphones, each with more than millions of downloadable applications. Sifting through this large amount of data and making sense requires new techniques, such as from the field of Artificial Intelligence (AI). To apply these techniques successfully in CF, we need to justify and explain the results to the stakeholders of CF, such as forensic analysts and members of the court, for them to make an informed decision. If we want to apply AI successfully in CF, there is a need to develop trust in AI systems. Some other factors in accepting the use of AI in CF are to make AI authentic, interpretable, understandable, and interactive. This way, AI systems will be more acceptable to the public and ensure alignment with legal standards. An explainable AI (XAI) system can play this role in CF, and we call such a system XAI-CF. XAI-CF is indispensable and is still in its infancy. In this paper, we explore and make a case for the significance and advantages of XAI-CF. We strongly emphasize the need to build a successful and practical XAI-CF system and discuss some of the main requirements and prerequisites of such a system. We present a formal definition of the terms CF and XAI-CF and a comprehensive literature review of previous works that apply and utilize XAI to build and increase trust in CF. We discuss some challenges facing XAI-CF. We also provide some concrete solutions to these challenges. We identify key insights and future research directions for building XAI applications for CF. This paper is an effort to explore and familiarize the readers with the role of XAI applications in CF, and we believe that our work provides a promising basis for future researchers interested in XAI-CF.
+With the rise of complex cyber devices Cyber Forensics (CF) is facing many new challenges. For example, there are dozens of systems running on smartphones, each with more than millions of downloadable applications. Sifting through this large amount of data and making sense requires new techniques, such as from the field of Artificial Intelligence (AI). To apply these techniques successfully in CF, we need to justify and explain the results to the stakeholders of CF, such as forensic analysts and members of the court, for them to make an informed decision. If we want to apply AI successfully in CF, there is a need to develop trust in AI systems. Some other factors in accepting the use of AI in CF are to make AI authentic, interpretable, understandable, and interactive. This way, AI systems will be more acceptable to the public and ensure alignment with legal standards. An <b>explainable</b> <b>AI</b> (XAI) system can play this role in CF, and we call such a system XAI-CF. XAI-CF is indispensable and is still in its infancy. In this paper, we explore and make a case for the significance and advantages of XAI-CF. We strongly emphasize the need to build a successful and practical XAI-CF system and discuss some of the main requirements and prerequisites of such a system. We present a formal definition of the terms CF and XAI-CF and a comprehensive literature review of previous works that apply and utilize XAI to build and increase trust in CF. We discuss some challenges facing XAI-CF. We also provide some concrete solutions to these challenges. We identify key insights and future research directions for building XAI applications for CF. This paper is an effort to explore and familiarize the readers with the role of XAI applications in CF, and we believe that our work provides a promising basis for future researchers interested in XAI-CF.
 
 {{</citation>}}
 
@@ -4887,7 +4885,7 @@ Jie Ren, Han Xu, Pengfei He, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi
 Primary Category: cs.CR  
 Categories: cs-CR, cs-CV, cs-LG, cs.CR  
 Keyword Score: 10  
-Keywords: Generative AI(10)  
+Keywords: Generative AI  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02333v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02333v1.pdf" filename="2402.02333v1.pdf">Download PDF</button>
 
@@ -4895,7 +4893,7 @@ Keywords: Generative AI(10)
 
 
 **ABSTRACT**  
-Generative AI has witnessed rapid advancement in recent years, expanding their capabilities to create synthesized content such as text, images, audio, and code. The high fidelity and authenticity of contents generated by these Deep Generative Models (DGMs) have sparked significant copyright concerns. There have been various legal debates on how to effectively safeguard copyrights in DGMs. This work delves into this issue by providing a comprehensive overview of copyright protection from a technical perspective. We examine from two distinct viewpoints: the copyrights pertaining to the source data held by the data owners and those of the generative models maintained by the model builders. For data copyright, we delve into methods data owners can protect their content and DGMs can be utilized without infringing upon these rights. For model copyright, our discussion extends to strategies for preventing model theft and identifying outputs generated by specific models. Finally, we highlight the limitations of existing techniques and identify areas that remain unexplored. Furthermore, we discuss prospective directions for the future of copyright protection, underscoring its importance for the sustainable and ethical development of Generative AI.
+<b>Generative</b> <b>AI</b> has witnessed rapid advancement in recent years, expanding their capabilities to create synthesized content such as text, images, audio, and code. The high fidelity and authenticity of contents generated by these Deep Generative Models (DGMs) have sparked significant copyright concerns. There have been various legal debates on how to effectively safeguard copyrights in DGMs. This work delves into this issue by providing a comprehensive overview of copyright protection from a technical perspective. We examine from two distinct viewpoints: the copyrights pertaining to the source data held by the data owners and those of the generative models maintained by the model builders. For data copyright, we delve into methods data owners can protect their content and DGMs can be utilized without infringing upon these rights. For model copyright, our discussion extends to strategies for preventing model theft and identifying outputs generated by specific models. Finally, we highlight the limitations of existing techniques and identify areas that remain unexplored. Furthermore, we discuss prospective directions for the future of copyright protection, underscoring its importance for the sustainable and ethical development of Generative AI.
 
 {{</citation>}}
 
@@ -4926,7 +4924,7 @@ Tinghao Zhang, Kwok-Yan Lam, Jun Zhao. (2024)
 Primary Category: cs.DC  
 Categories: cs-DC, cs-LG, cs.DC  
 Keyword Score: 10  
-Keywords: Reinforcement Learning(10)  
+Keywords: Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02506v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02506v1.pdf" filename="2402.02506v1.pdf">Download PDF</button>
 
@@ -4965,7 +4963,7 @@ A. Baktheer, E. Martínez-Pañeda, F. Aldakheel. (2024)
 Primary Category: cs.CE  
 Categories: cond-mat-mtrl-sci, cs-CE, cs.CE, physics-app-ph  
 Keyword Score: 10  
-Keywords: Recommendation(10)  
+Keywords: Recommendation  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.02421v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.02421v1.pdf" filename="2402.02421v1.pdf">Download PDF</button>
 
