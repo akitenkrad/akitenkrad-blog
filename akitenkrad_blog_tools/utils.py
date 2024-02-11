@@ -140,6 +140,7 @@ class Paper(object):
         title_text = self.title.replace('"', "'")
         title = f"{title_text} ({author_text}, {self.year})"
 
+        pdf_url = self.pdf_url if self.pdf_url.endswith(".pdf") else self.pdf_url + ".pdf"
         content = f"""
 {", ".join([author.name for author in self.authors]) + f". ({self.year})  "}
 **{title_text}**
@@ -160,7 +161,7 @@ Primary Category: {self.primary_category}{"  "}
 Categories: {", ".join(sorted(self.categories))}{"  "}
 Keywords: {", ".join(sorted(self.keywords))}{"  "}
 <a type="button" class="btn btn-outline-primary" href="{self.url}" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="{self.pdf_url}" filename="{Path(self.pdf_url).name}">Download PDF</button>
+<button type="button" class="btn btn-outline-primary download-pdf" url="{pdf_url}" filename="{Path(pdf_url).name}">Download PDF</button>
 
 ---
 
