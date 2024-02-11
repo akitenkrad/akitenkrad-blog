@@ -55,3 +55,12 @@ div.toast.toast-copied {
     text-align: center;
     margin: 0.5rem;
 }
+
+table.keyword-table {
+    thead {
+        top: 2.5rem;
+    }
+    tbody tr td {
+        text-align: center;
+    }
+}

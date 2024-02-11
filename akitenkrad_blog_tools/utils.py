@@ -236,17 +236,21 @@ class Paper(object):
         tokens = text.split()
         markup_flags = [False] * len(tokens)
         for kw in self.keywords:
-            kw_tokens = kw.word.split()
+            kw_tokens = [k.lower().strip() for k in kw.word.split()]
             for i in range(len(tokens) - len(kw_tokens) + 1):
-                if tokens[i : i + len(kw_tokens)] == kw_tokens:
+                temp_tokens = [t.lower().strip() for t in tokens[i : i + len(kw_tokens)]]
+                if temp_tokens == kw_tokens:
                     for j in range(i, i + len(kw_tokens)):
                         markup_flags[j] = True
 
+        markuped_tokens = []
         for token, flag in zip(tokens, markup_flags):
             if flag:
-                token = f"<b>{token}</b>"
+                markuped_tokens.append(f"<b>{token}</b>")
+            else:
+                markuped_tokens.append(token)
 
-        return " ".join(tokens)
+        return " ".join(markuped_tokens)
 
     def generate_citation_text(self, index: int):
         """
@@ -286,7 +290,7 @@ class Paper(object):
 Primary Category: {self.primary_category}{"  "}
 Categories: {", ".join(sorted(self.categories))}{"  "}
 Keyword Score: {self.keyword_score}{"  "}
-Keywords: {", ".join(sorted([f"{kw.keyword}({kw.score})" for kw in self.keywords]))}{"  "}
+Keywords: {", ".join([kw.keyword for kw in self.keywords])}{"  "}
 <a type="button" class="btn btn-outline-primary" href="{self.url}" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="{pdf_url}" filename="{Path(pdf_url).name}">Download PDF</button>
 

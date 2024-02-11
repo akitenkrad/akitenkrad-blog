@@ -184,9 +184,12 @@ math: true
                 for categ, posts in sorted([(k, v) for k, v in post_dict.items()], key=lambda x: x[0])
             ]
         )
+        text += "\n\n"
 
         kw_fd = FreqDist()
         for categ, posts in post_dict.items():
+            if len(posts) < 10:
+                continue
             for post in posts:
                 for kw in post.keywords:
                     kw_fd[(categ, kw.keyword)] += 1
@@ -194,14 +197,23 @@ math: true
         kw_df["category"] = kw_df["org"].apply(lambda x: x[0])
         kw_df["keyword"] = kw_df["org"].apply(lambda x: x[1])
         kw_df = kw_df[["category", "keyword", "count"]].sort_values(by=["category", "count"], ascending=[True, False])
-        kw_df = pd.pivot_table(kw_df, index="keyword", columns="category", values="count", fill_value=0, aggfunc="sum")
+        kw_df = pd.pivot_table(kw_df, index="keyword", columns="category", values="count", fill_value="", aggfunc="sum")
 
-        text += "## Keywords\n\n"
-        text += "<summary>Click to expand</summary>\n"
-        text += "<details>\n\n"
-        text += kw_df.to_markdown() + "\n\n"
-        text += "</details>\n\n"
-
+        text += f"""
+<div class="accordion">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Keywords
+            </button>
+        </h2>
+        <div class="accordion-collapse collapse show">
+            <div class="accordion-body">
+                {kw_df.to_markdown().replace("<table>", "<table class='keyword-table'>").replace("<thead>", "<thead class='sticky-top'")}
+            </div>
+        </div>
+    </div>
+"""
         paper_count = 1
         for primary_category, posts in post_dict.items():
             text += f"\n\n## {primary_category} ({len(posts)})\n\n"
