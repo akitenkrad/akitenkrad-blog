@@ -62,7 +62,7 @@ math: true
 
 ## Keywords
 
-                | keyword                            | cs.AI   | cs.CL   | cs.CV   | cs.IR   | cs.LG   | eess.IV   |
+| keyword                            | cs.AI   | cs.CL   | cs.CV   | cs.IR   | cs.LG   | eess.IV   |
 |:-----------------------------------|:--------|:--------|:--------|:--------|:--------|:----------|
 | Active Learning                    |         |         | 1.0     |         | 1.0     |           |
 | Adversarial Attack                 | 1.0     | 1.0     | 1.0     |         | 1.0     |           |
@@ -178,7 +178,7 @@ math: true
 
 <script>
 $(function() {
-    $("table").addClass("keyword-table")
+    $("table").addClass("keyword-table table-bordered")
     $("table thead").addClass("sticky-top")
 })
 </script>
