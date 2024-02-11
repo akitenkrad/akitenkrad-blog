@@ -16,7 +16,6 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     package_data={
         "akitenkrad_blog_tools": [
-            "keywords.json",
             "fonts/*.ttf",
             "templates/*.md",
         ]
@@ -28,7 +27,7 @@ setuptools.setup(
     long_description=long_description,
     install_requires=[
         "arxiv",
-        "attrdict @ git+https://github.com/akitenkrad/attrdict",
+        "keywords @ git+https://github.com/akitenkrad/keywords.git",
         "click",
         "colorama",
         "googletrans==3.1.0a0",

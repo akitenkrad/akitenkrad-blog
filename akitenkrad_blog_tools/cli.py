@@ -1,19 +1,18 @@
 from __future__ import annotations
 
-import json
-import os
 import shutil
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import List
 
 import click
+import pandas as pd
 from dateutil.parser import parse as parse_date
+from nltk import FreqDist
 from plotly import graph_objects as go
 from tqdm import tqdm
 
 from akitenkrad_blog_tools.arxiv_utils import get_arxiv_posts
-from akitenkrad_blog_tools.ss_utils import SemanticScholar, add_references
+from akitenkrad_blog_tools.ss_utils import add_references
 from akitenkrad_blog_tools.utils import Paper
 
 
@@ -182,9 +181,26 @@ math: true
         text += "\n".join(
             [
                 f"- [{categ} ({len(posts)})](#{categ.lower().replace('.', '')}-{len(posts)})"
-                for categ, posts in post_dict.items()
+                for categ, posts in sorted([(k, v) for k, v in post_dict.items()], key=lambda x: x[0])
             ]
         )
+
+        kw_fd = FreqDist()
+        for categ, posts in post_dict.items():
+            for post in posts:
+                for kw in post.keywords:
+                    kw_fd[(categ, kw)] += 1
+        kw_df = pd.DataFrame(kw_fd.items(), columns=["org", "count"])
+        kw_df["category"] = kw_df["org"].apply(lambda x: x[0])
+        kw_df["keyword"] = kw_df["org"].apply(lambda x: x[1])
+        kw_df = kw_df[["category", "keyword", "count"]].sort_values(by=["category", "count"], ascending=[True, False])
+        kw_df = pd.pivot_table(kw_df, index="keyword", columns="category", values="count", fill_value=0, aggfunc="sum")
+
+        text += "## Keywords\n\n"
+        text += "<summary>Click to expand</summary>\n"
+        text += "<details>\n\n"
+        text += kw_df.to_markdown() + "\n\n"
+        text += "</details>\n\n"
 
         paper_count = 1
         for primary_category, posts in post_dict.items():
