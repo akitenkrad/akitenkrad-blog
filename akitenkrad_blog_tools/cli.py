@@ -198,6 +198,8 @@ math: true
         kw_df["keyword"] = kw_df["org"].apply(lambda x: x[1])
         kw_df = kw_df[["category", "keyword", "count"]].sort_values(by=["category", "count"], ascending=[True, False])
         kw_df = pd.pivot_table(kw_df, index="keyword", columns="category", values="count", fill_value="", aggfunc="sum")
+        kw_df.reset_index(inplace=True)
+        kw_df = kw_df.rename(columns={"index": "keyword"})
 
         text += f"""## Keywords
 
