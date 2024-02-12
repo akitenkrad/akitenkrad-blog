@@ -291,7 +291,7 @@ class Paper(object):
 Primary Category: {self.primary_category}{"  "}
 Categories: {", ".join(sorted(self.categories))}{"  "}
 Keyword Score: {self.keyword_score}{"  "}
-Keywords: {", ".join([kw.keyword for kw in self.keywords])}{"  "}
+Keywords: {", ".join([kw.keyword for kw in sorted(list(set(self.keywords)))])}{"  "}
 <a type="button" class="btn btn-outline-primary" href="{self.url}" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="{pdf_url}" filename="{Path(pdf_url).name}">Download PDF</button>
 
