@@ -201,15 +201,14 @@ math: true
 
         text += f"""## Keywords
 
-{(kw_df.to_html()
-  .replace(".0", "")
-  .replace("<table>", "<table class='keyword-table table-bordered'>")
-  .replace("<thead>", "<thead class='sticky-top'>"))}
+{kw_df.to_html(index=False).replace(".0", "")}
 
 <script>
 $(function() {{
-    $("table tbody td").css("text-align", "");
-}})
+  $("table").addClass("keyword-table table-bordered");
+  $("table thead").addClass("sticky-top");
+  $("table tbody td").css("text-align", "");
+}});
 </script>
 """
         paper_count = 1

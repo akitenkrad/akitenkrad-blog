@@ -62,12 +62,6 @@ math: true
       <th>cs.CV</th>
       <th>cs.LG</th>
     </tr>
-    <tr>
-      <th>keyword</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
   </thead>
   <tbody>
     <tr>
@@ -561,8 +555,10 @@ math: true
 
 <script>
 $(function() {
-    $("table tbody td").css("text-align", "");
-})
+  $("table").addClass("keyword-table table-bordered");
+  $("table thead").addClass("sticky-top");
+  $("table tbody td").css("text-align", "");
+});
 </script>
 
 
