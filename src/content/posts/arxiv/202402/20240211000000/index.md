@@ -58,6 +58,7 @@ math: true
   <thead>
     <tr style="text-align: right;">
       <th>category</th>
+      <th>keyword</th>
       <th>cs.CL</th>
       <th>cs.CV</th>
       <th>cs.LG</th>
@@ -66,498 +67,581 @@ math: true
   <tbody>
     <tr>
       <th></th>
+      <td>Active Learning</td>
       <td></td>
       <td>1</td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Adversarial Attack</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Adversarial Learning</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Autoencoder</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Automatic Evaluation</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Automatic Speech Recognition</td>
       <td>2</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>BERT</td>
       <td>2</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Bag-of-Words</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Bandit Algorithm</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>ChatGPT</td>
       <td>3</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Code Generation</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Continual Learning</td>
       <td></td>
       <td></td>
       <td>2</td>
     </tr>
     <tr>
       <th></th>
+      <td>Contrastive Learning</td>
       <td></td>
       <td>2</td>
       <td>2</td>
     </tr>
     <tr>
       <th></th>
+      <td>Convolution</td>
       <td></td>
       <td>5</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Convolutional Neural Network</td>
       <td></td>
       <td>6</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Data Augmentation</td>
       <td>1</td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Dialogue System</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Domain Adaptation</td>
       <td></td>
       <td>2</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Event Detection</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Fact Verification</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Fairness</td>
       <td></td>
-      <td>1</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th></th>
-      <td>2</td>
       <td>1</td>
       <td>2</td>
     </tr>
     <tr>
       <th></th>
+      <td>Few-shot</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>Fine-tuning</td>
       <td>9</td>
       <td>2</td>
       <td>3</td>
     </tr>
     <tr>
       <th></th>
+      <td>Foundation Model</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>GPT</td>
       <td>6</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>GPT-4</td>
       <td>3</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Gaussian Process</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Generative AI</td>
       <td>1</td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Generative Adversarial Network</td>
       <td></td>
       <td>3</td>
       <td>2</td>
     </tr>
     <tr>
       <th></th>
+      <td>Graph Neural Network</td>
       <td></td>
       <td></td>
       <td>5</td>
     </tr>
     <tr>
       <th></th>
+      <td>Grounding</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Hate Speech Detection</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Image2text</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>In-context Learning</td>
       <td>3</td>
       <td>3</td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Information Retrieval</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Instruction Following</td>
       <td>1</td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Instruction Tuning</td>
       <td>2</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Knowledge Distillation</td>
       <td></td>
       <td>3</td>
       <td>5</td>
     </tr>
     <tr>
       <th></th>
+      <td>LLaMA</td>
       <td>3</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Language Generation</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Large Language Model</td>
       <td>28</td>
       <td>4</td>
       <td>7</td>
     </tr>
     <tr>
       <th></th>
+      <td>Multi-modal</td>
       <td></td>
       <td>5</td>
       <td>9</td>
     </tr>
     <tr>
       <th></th>
+      <td>Multiple Instance Learning</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Named Entity Recognition</td>
       <td>2</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Natural Language Inference</td>
       <td>2</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Natural Language Understanding</td>
       <td>1</td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Neural Machine Translation</td>
       <td>4</td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Node Classification</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Open-Domain Dialogue</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Out-of-distribution</td>
       <td>1</td>
       <td>3</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>PaLM</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Planning Domain Descrition Language</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Probabilistic Model</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Prompt</td>
       <td>2</td>
       <td>2</td>
       <td>3</td>
     </tr>
     <tr>
       <th></th>
+      <td>Quantization</td>
       <td>2</td>
       <td></td>
       <td>2</td>
     </tr>
     <tr>
       <th></th>
+      <td>Question Answering</td>
       <td>5</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Reasoning</td>
       <td>4</td>
       <td>2</td>
       <td>2</td>
     </tr>
     <tr>
       <th></th>
+      <td>Recommendation</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Reinforcement Learning</td>
       <td></td>
       <td></td>
       <td>4</td>
     </tr>
     <tr>
       <th></th>
+      <td>Retrieval Augmentation</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Sample Size</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <th></th>
+      <td>Scaling Law</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Self-supervised Learning</td>
       <td></td>
       <td>6</td>
       <td>3</td>
     </tr>
     <tr>
       <th></th>
+      <td>Self-supervised Pre-training</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Semantic Parsing</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Sentiment Analysis</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Simulation</td>
       <td>1</td>
       <td></td>
       <td>3</td>
     </tr>
     <tr>
       <th></th>
+      <td>Simulator</td>
       <td>1</td>
       <td></td>
       <td>3</td>
     </tr>
     <tr>
       <th></th>
+      <td>Stance Detection</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Stochastic Gradient Descent</td>
       <td></td>
       <td></td>
       <td>4</td>
     </tr>
     <tr>
       <th></th>
+      <td>Summarization</td>
       <td>2</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Supervised Learning</td>
       <td>1</td>
       <td>3</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Text Generation</td>
       <td>2</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Text Summarization</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Text2image</td>
       <td></td>
       <td>2</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Transfer Learning</td>
       <td></td>
       <td>2</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Transformer</td>
       <td>1</td>
       <td>3</td>
       <td>6</td>
     </tr>
     <tr>
       <th></th>
+      <td>Unsupervised Learning</td>
       <td></td>
       <td>3</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Vision-and-Language</td>
       <td></td>
       <td>5</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Weakly Supervised Learning</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Word Embedding</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th></th>
+      <td>Zero-shot</td>
       <td>1</td>
       <td>2</td>
       <td>2</td>
     </tr>
     <tr>
       <th></th>
+      <td>human-in-the-loop</td>
       <td></td>
       <td>1</td>
       <td></td>

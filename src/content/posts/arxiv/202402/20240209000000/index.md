@@ -61,6 +61,7 @@ math: true
   <thead>
     <tr style="text-align: right;">
       <th>category</th>
+      <th>keyword</th>
       <th>cs.CL</th>
       <th>cs.CV</th>
       <th>cs.LG</th>
@@ -70,6 +71,7 @@ math: true
   <tbody>
     <tr>
       <th></th>
+      <td>Alpaca</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -77,6 +79,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Aspect-based Sentiment Analysis</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -84,6 +87,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Autoencoder</td>
       <td></td>
       <td></td>
       <td>2</td>
@@ -91,6 +95,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>BERT</td>
       <td>2</td>
       <td></td>
       <td></td>
@@ -98,6 +103,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>BLEU</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -105,6 +111,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Bag-of-Words</td>
       <td>1</td>
       <td></td>
       <td>1</td>
@@ -112,6 +119,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Bandit Algorithm</td>
       <td></td>
       <td></td>
       <td>2</td>
@@ -119,6 +127,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>ChatGPT</td>
       <td>2</td>
       <td></td>
       <td></td>
@@ -126,6 +135,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Chatbot</td>
       <td></td>
       <td></td>
       <td>2</td>
@@ -133,6 +143,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Code Generation</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -140,6 +151,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Contrastive Learning</td>
       <td></td>
       <td>1</td>
       <td></td>
@@ -147,6 +159,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Convolution</td>
       <td></td>
       <td>3</td>
       <td>4</td>
@@ -154,6 +167,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Convolutional Neural Network</td>
       <td></td>
       <td>4</td>
       <td>5</td>
@@ -161,6 +175,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Counter-factual</td>
       <td></td>
       <td></td>
       <td>2</td>
@@ -168,6 +183,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Curriculum Learning</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -175,6 +191,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Data Augmentation</td>
       <td>1</td>
       <td></td>
       <td>2</td>
@@ -182,6 +199,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Dialogue System</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -189,6 +207,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Disambiguation</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -196,6 +215,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Domain Adaptation</td>
       <td></td>
       <td>3</td>
       <td></td>
@@ -203,6 +223,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Essay Scoring</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -210,6 +231,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Fairness</td>
       <td></td>
       <td></td>
       <td>3</td>
@@ -217,6 +239,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Few-shot</td>
       <td>2</td>
       <td>2</td>
       <td>2</td>
@@ -224,6 +247,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Few-shot Learning</td>
       <td></td>
       <td>1</td>
       <td></td>
@@ -231,6 +255,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Fine-tuning</td>
       <td>6</td>
       <td>8</td>
       <td>13</td>
@@ -238,6 +263,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Foundation Model</td>
       <td></td>
       <td>2</td>
       <td>1</td>
@@ -245,6 +271,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>GPT</td>
       <td>5</td>
       <td>1</td>
       <td>2</td>
@@ -252,6 +279,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>GPT-3</td>
       <td>3</td>
       <td></td>
       <td>1</td>
@@ -259,6 +287,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>GPT-3.5</td>
       <td>3</td>
       <td></td>
       <td>1</td>
@@ -266,6 +295,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>GPT-4</td>
       <td>3</td>
       <td></td>
       <td>1</td>
@@ -273,6 +303,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Gaussian Process</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -280,6 +311,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Grammatical Error Correction</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -287,6 +319,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Graph Attention Networks</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -294,6 +327,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Graph Convolutional Network</td>
       <td></td>
       <td></td>
       <td>2</td>
@@ -301,6 +335,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Graph Neural Network</td>
       <td></td>
       <td></td>
       <td>12</td>
@@ -308,6 +343,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Grounding</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -315,6 +351,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Hierarchical Clustering</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -322,6 +359,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Image2text</td>
       <td></td>
       <td>2</td>
       <td></td>
@@ -329,6 +367,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>In-context Learning</td>
       <td>2</td>
       <td></td>
       <td>2</td>
@@ -336,6 +375,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Information Retrieval</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -343,6 +383,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Knowledge Distillation</td>
       <td>2</td>
       <td>7</td>
       <td>1</td>
@@ -350,6 +391,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>LLaMA</td>
       <td>2</td>
       <td></td>
       <td>1</td>
@@ -357,6 +399,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Label Smoothing</td>
       <td></td>
       <td>1</td>
       <td></td>
@@ -364,6 +407,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Large Language Model</td>
       <td>38</td>
       <td>3</td>
       <td>22</td>
@@ -371,6 +415,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Logistic Regression</td>
       <td></td>
       <td></td>
       <td>2</td>
@@ -378,6 +423,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Low-Resource</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -385,6 +431,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Machine Unlearning</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -392,6 +439,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Message-Passing</td>
       <td></td>
       <td></td>
       <td>2</td>
@@ -399,6 +447,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Meta Learning</td>
       <td></td>
       <td>2</td>
       <td></td>
@@ -406,6 +455,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Multi-modal</td>
       <td>4</td>
       <td>7</td>
       <td>6</td>
@@ -413,6 +463,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Named Entity Recognition</td>
       <td>2</td>
       <td></td>
       <td></td>
@@ -420,6 +471,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Natural Language Explanation</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -427,6 +479,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Natural Language Inference</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -434,6 +487,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Neural Machine Translation</td>
       <td>2</td>
       <td></td>
       <td></td>
@@ -441,6 +495,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Node Classification</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -448,6 +503,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Object Detection</td>
       <td></td>
       <td>5</td>
       <td></td>
@@ -455,6 +511,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Offline Reinforcement Learning</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -462,6 +519,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Online Reinforcement Learning</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -469,6 +527,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Open-Domain Dialogue</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -476,6 +535,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Open-Domain Question Answering</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -483,6 +543,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Optical Character Recognition</td>
       <td></td>
       <td>1</td>
       <td></td>
@@ -490,6 +551,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Out-of-distribution</td>
       <td></td>
       <td>1</td>
       <td>3</td>
@@ -497,6 +559,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Out-of-domain</td>
       <td>1</td>
       <td>1</td>
       <td></td>
@@ -504,6 +567,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>PaLM</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -511,6 +575,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Perplexity</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -518,6 +583,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Pre-trained Language Model</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -525,6 +591,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Prompt</td>
       <td>3</td>
       <td>6</td>
       <td>3</td>
@@ -532,6 +599,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Prompt Learning</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -539,6 +607,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Pruning</td>
       <td></td>
       <td></td>
       <td>2</td>
@@ -546,6 +615,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Quantization</td>
       <td></td>
       <td></td>
       <td>4</td>
@@ -553,6 +623,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Question Answering</td>
       <td>2</td>
       <td>2</td>
       <td></td>
@@ -560,6 +631,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Reasoning</td>
       <td>6</td>
       <td></td>
       <td>1</td>
@@ -567,6 +639,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Recommendation</td>
       <td></td>
       <td></td>
       <td>2</td>
@@ -574,6 +647,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Recurrent Neural Network</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -581,6 +655,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Reinforcement Learning</td>
       <td>2</td>
       <td></td>
       <td>14</td>
@@ -588,6 +663,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Scaling Law</td>
       <td></td>
       <td></td>
       <td>2</td>
@@ -595,6 +671,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Self-Attention</td>
       <td></td>
       <td>4</td>
       <td>1</td>
@@ -602,6 +679,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Self-supervised Learning</td>
       <td></td>
       <td>1</td>
       <td>1</td>
@@ -609,6 +687,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Self-supervised Pre-training</td>
       <td></td>
       <td>1</td>
       <td></td>
@@ -616,6 +695,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Semi-Supervised Learning</td>
       <td></td>
       <td>2</td>
       <td></td>
@@ -623,6 +703,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Sentence Embedding</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -630,6 +711,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Sentiment Analysis</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -637,6 +719,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Simulation</td>
       <td></td>
       <td>2</td>
       <td>5</td>
@@ -644,6 +727,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Simulator</td>
       <td></td>
       <td>2</td>
       <td>5</td>
@@ -651,6 +735,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Stochastic Gradient Descent</td>
       <td></td>
       <td></td>
       <td>5</td>
@@ -658,6 +743,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Summarization</td>
       <td>2</td>
       <td>2</td>
       <td>2</td>
@@ -665,6 +751,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Supervised Learning</td>
       <td>3</td>
       <td>3</td>
       <td>8</td>
@@ -672,6 +759,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>TF-IDF</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -679,6 +767,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Text Generation</td>
       <td>3</td>
       <td></td>
       <td></td>
@@ -686,6 +775,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Text Summarization</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -693,6 +783,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Text2image</td>
       <td></td>
       <td>3</td>
       <td></td>
@@ -700,6 +791,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Topic Model</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -707,6 +799,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Transfer Learning</td>
       <td></td>
       <td></td>
       <td>2</td>
@@ -714,6 +807,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Transformer</td>
       <td>3</td>
       <td>7</td>
       <td>12</td>
@@ -721,6 +815,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Unsupervised Learning</td>
       <td></td>
       <td>2</td>
       <td>2</td>
@@ -728,6 +823,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Vision-and-Language</td>
       <td>1</td>
       <td>4</td>
       <td>4</td>
@@ -735,6 +831,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Weakly Supervised Learning</td>
       <td></td>
       <td>1</td>
       <td></td>
@@ -742,6 +839,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Weakly-supervised Learning</td>
       <td></td>
       <td>3</td>
       <td></td>
@@ -749,6 +847,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Word2vec</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -756,6 +855,7 @@ math: true
     </tr>
     <tr>
       <th></th>
+      <td>Zero-shot</td>
       <td>4</td>
       <td>3</td>
       <td></td>
