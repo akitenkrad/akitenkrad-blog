@@ -61,4 +61,8 @@ table.keyword-table thead.sticky-top {
 }
 table.keyword-table tbody tr td {
   text-align: center;
+}
+table.keyword-table tbody tr td:first-child {
+  font-weight: bold;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */

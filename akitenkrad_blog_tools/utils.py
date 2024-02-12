@@ -239,7 +239,8 @@ class Paper(object):
             kw_tokens = [k.lower().strip() for k in kw.word.split()]
             for i in range(len(tokens) - len(kw_tokens) + 1):
                 temp_tokens = [t.lower().strip() for t in tokens[i : i + len(kw_tokens)]]
-                if temp_tokens == kw_tokens:
+                ptn = Keyword.get_ptn(kw_tokens[0])
+                if ptn.match(temp_tokens[0]):
                     for j in range(i, i + len(kw_tokens)):
                         markup_flags[j] = True
 

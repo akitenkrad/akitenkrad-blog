@@ -63,4 +63,8 @@ table.keyword-table {
     tbody tr td {
         text-align: center;
     }
+    tbody tr td:first-child {
+        font-weight: bold;
+        text-align: left;
+    }
 }

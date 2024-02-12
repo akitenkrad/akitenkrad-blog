@@ -201,12 +201,14 @@ math: true
 
         text += f"""## Keywords
 
-{kw_df.to_markdown()}
+{(kw_df.to_html()
+  .replace(".0", "")
+  .replace("<table>", "<table class='keyword-table table-bordered'>")
+  .replace("<thead>", "<thead class='sticky-top'>"))}
 
 <script>
 $(function() {{
-    $("table").addClass("keyword-table table-bordered")
-    $("table thead").addClass("sticky-top")
+    $("table tbody td").css("text-align", "");
 }})
 </script>
 """
