@@ -200,6 +200,7 @@ math: true
         kw_df = pd.pivot_table(kw_df, index="keyword", columns="category", values="count", fill_value="", aggfunc="sum")
         kw_df.reset_index(inplace=True)
         kw_df = kw_df.rename(columns={"index": "keyword"})
+        kw_df.drop("category", inplace=True, axis=1)
 
         text += f"""## Keywords
 
