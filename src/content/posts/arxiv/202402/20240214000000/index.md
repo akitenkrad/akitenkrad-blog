@@ -7335,7 +7335,7 @@ Amirsiavosh Bashardoust, Stefan Feuerriegel, Yash Raj Shrestha. (2024)
 
 ---
 Primary Category: cs.SI  
-Categories: cs-SI, cs.SI  
+Categories: cs-SI, cs.SI, physics-soc-ph  
 Keyword Score: 30  
 Keywords: GPT, GPT-4, Fake News Detection  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07395v1" target="_blank" >Paper Link</a>
