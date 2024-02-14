@@ -68,4 +68,7 @@ table.keyword-table tbody tr td {
 table.keyword-table tbody tr td:first-child {
   font-weight: bold;
   text-align: left;
+}
+table.keyword-table .table-bordered.border-success td {
+  border-color: #28a745;
 }/*# sourceMappingURL=style.css.map */

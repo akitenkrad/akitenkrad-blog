@@ -13,7 +13,7 @@ from tqdm import tqdm
 
 from akitenkrad_blog_tools.arxiv_utils import get_arxiv_posts
 from akitenkrad_blog_tools.ss_utils import add_references
-from akitenkrad_blog_tools.utils import Paper
+from akitenkrad_blog_tools.utils import Paper, generate_keyword_table
 
 
 @click.group()
@@ -186,21 +186,7 @@ math: true
         )
         text += "\n\n"
 
-        kw_fd = FreqDist()
-        for categ, posts in post_dict.items():
-            if len(posts) < 10:
-                continue
-            for post in posts:
-                for kw in post.keywords:
-                    kw_fd[(categ, kw.keyword)] += 1
-        kw_df = pd.DataFrame(kw_fd.items(), columns=["org", "count"])
-        kw_df["category"] = kw_df["org"].apply(lambda x: x[0])
-        kw_df["keyword"] = kw_df["org"].apply(lambda x: x[1])
-        kw_df = kw_df[["category", "keyword", "count"]].sort_values(by=["category", "count"], ascending=[True, False])
-        kw_df = pd.pivot_table(kw_df, index="keyword", columns="category", values="count", fill_value="", aggfunc="sum")
-        kw_df.reset_index(inplace=True)
-        kw_df = kw_df.rename(columns={"index": "keyword"})
-        kw_df.drop("category", inplace=True, axis=1)
+        kw_df = generate_keyword_table(post_dict)
 
         text += f"""## Keywords
 
@@ -208,7 +194,7 @@ math: true
 
 <script>
 $(function() {{
-  $("table").addClass("keyword-table table-bordered");
+  $("table").addClass("keyword-table table-bordered border-success");
   $("table thead").addClass("sticky-top");
   $("table tbody td").css("text-align", "");
 }});

@@ -9,8 +9,10 @@ from pathlib import Path
 from typing import Any
 
 import numpy as np
+import pandas as pd
 import requests
 from keywords.keywords import Keyword
+from nltk import FreqDist
 from PIL import Image, ImageDraw, ImageFont
 from pypdf import PdfReader
 
@@ -408,3 +410,21 @@ def generate_text_image(text: str, fontsize: int, out_file: str):
     draw.text((x, y), text, fill=(80, 80, 80), font=font)
 
     image.save(out_file)
+
+
+def generate_keyword_table(post_dict: dict[str, list[Paper]]):
+    kw_fd = FreqDist()
+    for categ, posts in post_dict.items():
+        if len(posts) < 10:
+            continue
+        for post in posts:
+            for kw in post.keywords:
+                kw_fd[(categ, kw.keyword)] += 1
+    kw_df = pd.DataFrame(kw_fd.items(), columns=["org", "count"])
+    kw_df["category"] = kw_df["org"].apply(lambda x: x[0])
+    kw_df["keyword"] = kw_df["org"].apply(lambda x: x[1])
+    kw_df = kw_df[["category", "keyword", "count"]].sort_values(by=["category", "count"], ascending=[True, False])
+    kw_df = pd.pivot_table(kw_df, index="keyword", columns="category", values="count", fill_value="", aggfunc="sum")
+    kw_df.columns = list(kw_df.columns)
+    kw_df.reset_index(inplace=True, drop=False)
+    return kw_df

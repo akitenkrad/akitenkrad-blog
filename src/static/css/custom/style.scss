@@ -70,4 +70,7 @@ table.keyword-table {
         font-weight: bold;
         text-align: left;
     }
+    .table-bordered.border-success td {
+        border-color: #28a745;
+    }
 }
