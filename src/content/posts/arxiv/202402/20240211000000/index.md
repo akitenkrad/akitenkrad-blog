@@ -1892,7 +1892,7 @@ Tiago Mendes-Neves, Luís Meireles, João Mendes-Moreira. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-CL, cs-LG, cs.LG  
 Keyword Score: 40  
 Keywords: Simulation, Simulator, Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.06820v1" target="_blank" >Paper Link</a>
@@ -2137,7 +2137,7 @@ Enyi Jiang, Gagandeep Singh. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-CR, cs-LG, cs.LG  
 Keyword Score: 30  
 Keywords: Adversarial Learning, Fine-tuning, Adversarial Attack  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.06827v1" target="_blank" >Paper Link</a>

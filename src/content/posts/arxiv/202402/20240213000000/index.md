@@ -760,7 +760,7 @@ Bilal Chughtai, Alan Cooney, Neel Nanda. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-CL, cs-LG, cs.LG  
 Keyword Score: 40  
 Keywords: Transformer, Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07321v1" target="_blank" >Paper Link</a>
@@ -1040,7 +1040,7 @@ Chao Wang, Zhuo Chen, Ziyan Zhang, Chiyi Li, Kai Song. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-CL, cs-LG, cs.LG  
+Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keyword Score: 20  
 Keywords: Logistic Regression, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07283v1" target="_blank" >Paper Link</a>
@@ -1145,7 +1145,7 @@ Muhammad Bilal Shahid, Cody Fleming. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-LG, cs-RO, cs-SY, cs.LG, eess-SY  
 Keyword Score: 20  
 Keywords: Gaussian Process, Recommendation  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07139v1" target="_blank" >Paper Link</a>
@@ -1713,7 +1713,7 @@ Minoo Shayaninasab, Bagher Babaali. (2024)
 
 ---
 Primary Category: cs.AI  
-Categories: cs-AI, cs.AI, eess-AS  
+Categories: cs-AI, cs-SD, cs.AI, eess-AS  
 Keyword Score: 60  
 Keywords: Fine-tuning, Fine-tuning, Self-supervised Learning, Self-supervised Learning, Transformer, Emotion Recognition  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07326v1" target="_blank" >Paper Link</a>
@@ -2982,7 +2982,7 @@ Philippe G. LeFloch, Jean-Marc Mercier, Shohruh Miryusupov. (2024)
 
 ---
 Primary Category: math.NA  
-Categories: cs-NA, math-NA, math-ST, math.NA, stat-TH  
+Categories: cs-NA, math-NA, math-ST, math.NA, stat-CO, stat-TH  
 Keyword Score: 20  
 Keywords: Supervised Learning, Unsupervised Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07084v1" target="_blank" >Paper Link</a>

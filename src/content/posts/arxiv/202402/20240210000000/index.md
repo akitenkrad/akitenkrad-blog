@@ -2344,7 +2344,7 @@ Federico Bianchi, Patrick John Chia, Mert Yuksekgonul, Jacopo Tagliabue, Dan Jur
 
 ---
 Primary Category: cs.AI  
-Categories: cs-AI, cs-CL, cs.AI  
+Categories: cs-AI, cs-CL, cs-GT, cs.AI  
 Keyword Score: 50  
 Keywords: GPT, GPT-4, Reasoning, Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.05863v1" target="_blank" >Paper Link</a>

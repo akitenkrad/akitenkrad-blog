@@ -1033,7 +1033,7 @@ Elvis Dohmatob, Yunzhen Feng, Pu Yang, Francois Charton, Julia Kempe. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
+Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keyword Score: 40  
 Keywords: Transformer, Text Generation, Large Language Model, Scaling Law  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07043v1" target="_blank" >Paper Link</a>
@@ -1243,7 +1243,7 @@ Marcell Vazquez-Chanlatte, Karim Elmaaroufi, Stefan J. Witwicki, Sanjit A. Seshi
 
 ---
 Primary Category: cs.LG  
-Categories: cs-AI, cs-FL, cs-LG, cs.LG  
+Categories: cs-AI, cs-CL, cs-FL, cs-LG, cs.LG  
 Keyword Score: 20  
 Keywords: Few-shot, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07051v1" target="_blank" >Paper Link</a>
@@ -1313,7 +1313,7 @@ Keisuke Kamahori, Yile Gu, Kan Zhu, Baris Kasikci. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs-OS, cs.LG  
+Categories: cs-AI, cs-DC, cs-LG, cs-OS, cs.LG  
 Keyword Score: 20  
 Keywords: Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07033v1" target="_blank" >Paper Link</a>
