@@ -54,283 +54,283 @@ math: true
   </thead>
   <tbody>
     <tr>
-            <td>Active Learning</td>
+      <td>Active Learning</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
-            <td>Autoencoder</td>
+      <td>Autoencoder</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
-            <td>BERT</td>
+      <td>BERT</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Bandit Algorithm</td>
+      <td>Bandit Algorithm</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
-            <td>ChatGPT</td>
+      <td>ChatGPT</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-            <td>Contrastive Learning</td>
+      <td>Contrastive Learning</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Convolution</td>
+      <td>Convolution</td>
       <td></td>
       <td>1</td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Convolutional Neural Network</td>
+      <td>Convolutional Neural Network</td>
       <td>1</td>
       <td>2</td>
       <td>2</td>
     </tr>
     <tr>
-            <td>Emotion Recognition</td>
+      <td>Emotion Recognition</td>
       <td>2</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-            <td>Face Recognition</td>
+      <td>Face Recognition</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
-            <td>Fairness</td>
+      <td>Fairness</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
-            <td>Few-shot</td>
+      <td>Few-shot</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Fine-tuning</td>
+      <td>Fine-tuning</td>
       <td>3</td>
       <td>1</td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Foundation Model</td>
+      <td>Foundation Model</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
-            <td>GPT</td>
+      <td>GPT</td>
       <td></td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
-            <td>Gaussian Process</td>
+      <td>Gaussian Process</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Graph Convolutional Network</td>
+      <td>Graph Convolutional Network</td>
       <td></td>
       <td></td>
       <td>2</td>
     </tr>
     <tr>
-            <td>Graph Neural Network</td>
+      <td>Graph Neural Network</td>
       <td>1</td>
       <td></td>
       <td>4</td>
     </tr>
     <tr>
-            <td>Human Intervention</td>
+      <td>Human Intervention</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-            <td>Information Retrieval</td>
+      <td>Information Retrieval</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-            <td>Instruction Following</td>
+      <td>Instruction Following</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-            <td>Knowledge Distillation</td>
+      <td>Knowledge Distillation</td>
       <td></td>
       <td>2</td>
       <td>4</td>
     </tr>
     <tr>
-            <td>Large Language Model</td>
+      <td>Large Language Model</td>
       <td>11</td>
       <td>4</td>
       <td>6</td>
     </tr>
     <tr>
-            <td>Logistic Regression</td>
+      <td>Logistic Regression</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Message-Passing</td>
+      <td>Message-Passing</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Multi-modal</td>
+      <td>Multi-modal</td>
       <td>2</td>
       <td>1</td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Node Classification</td>
+      <td>Node Classification</td>
       <td>1</td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Out-of-distribution</td>
+      <td>Out-of-distribution</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Outlier Detection</td>
+      <td>Outlier Detection</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Prompt</td>
+      <td>Prompt</td>
       <td></td>
       <td></td>
       <td>3</td>
     </tr>
     <tr>
-            <td>Quantization</td>
+      <td>Quantization</td>
       <td></td>
       <td>2</td>
       <td></td>
     </tr>
     <tr>
-            <td>Question Answering</td>
+      <td>Question Answering</td>
       <td>2</td>
       <td>2</td>
       <td></td>
     </tr>
     <tr>
-            <td>Reasoning</td>
+      <td>Reasoning</td>
       <td>1</td>
       <td>1</td>
       <td></td>
     </tr>
     <tr>
-            <td>Recommendation</td>
+      <td>Recommendation</td>
       <td></td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
-            <td>Reinforcement Learning</td>
+      <td>Reinforcement Learning</td>
       <td>2</td>
       <td></td>
       <td>9</td>
     </tr>
     <tr>
-            <td>Self-supervised Learning</td>
+      <td>Self-supervised Learning</td>
       <td>4</td>
       <td>2</td>
       <td>2</td>
     </tr>
     <tr>
-            <td>Simulation</td>
+      <td>Simulation</td>
       <td></td>
       <td></td>
       <td>2</td>
     </tr>
     <tr>
-            <td>Simulator</td>
+      <td>Simulator</td>
       <td></td>
       <td></td>
       <td>2</td>
     </tr>
     <tr>
-            <td>Stochastic Gradient Descent</td>
+      <td>Stochastic Gradient Descent</td>
       <td></td>
       <td></td>
       <td>2</td>
     </tr>
     <tr>
-            <td>Supervised Learning</td>
+      <td>Supervised Learning</td>
       <td></td>
       <td>2</td>
       <td></td>
     </tr>
     <tr>
-            <td>Text Classification</td>
+      <td>Text Classification</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-            <td>Text Generation</td>
+      <td>Text Generation</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-            <td>Transfer Learning</td>
+      <td>Transfer Learning</td>
       <td>1</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-            <td>Transformer</td>
+      <td>Transformer</td>
       <td>4</td>
       <td>2</td>
       <td>3</td>
     </tr>
     <tr>
-            <td>Vision-and-Language</td>
+      <td>Vision-and-Language</td>
       <td></td>
       <td>2</td>
       <td></td>
     </tr>
     <tr>
-            <td>Visual Question Answering</td>
+      <td>Visual Question Answering</td>
       <td></td>
       <td>3</td>
       <td></td>
     </tr>
     <tr>
-            <td>Zero-shot</td>
+      <td>Zero-shot</td>
       <td>1</td>
       <td>1</td>
       <td></td>
@@ -340,7 +340,7 @@ math: true
 
 <script>
 $(function() {
-  $("table").addClass("keyword-table table-bordered");
+  $("table").addClass("keyword-table table-bordered border-success");
   $("table thead").addClass("sticky-top");
   $("table tbody td").css("text-align", "");
 });
@@ -374,8 +374,8 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keyword Score: 100  
 Keywords: Reinforcement Learning, Zero-shot, GPT, GPT-4, GPT-4 turbo, Reasoning, Chain-of-thought Prompt, Large Language Model, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07282v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07282v1.pdf" filename="2402.07282v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07282v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07282v2.pdf" filename="2402.07282v2.pdf">Download PDF</button>
 
 ---
 
@@ -760,7 +760,7 @@ Bilal Chughtai, Alan Cooney, Neel Nanda. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-CL, cs-LG, cs.LG  
 Keyword Score: 40  
 Keywords: Transformer, Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07321v1" target="_blank" >Paper Link</a>
@@ -1008,14 +1008,14 @@ Primary Category: cs.LG
 Categories: cs-CL, cs-LG, cs.LG, stat-ML  
 Keyword Score: 20  
 Keywords: Node Classification, BERT  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07309v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07309v1.pdf" filename="2402.07309v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07309v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07309v2.pdf" filename="2402.07309v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Hypergraphs are marked by complex topology, expressing higher-order interactions among multiple entities with hyperedges. Lately, hypergraph-based deep learning methods to learn informative data representations for the problem of <b>node</b> <b>classification</b> on text-attributed hypergraphs have garnered increasing research attention. However, existing methods struggle to simultaneously capture the full extent of hypergraph structural information and the rich linguistic attributes inherent in the <b>nodes</b> <b>attributes,</b> which largely hampers their effectiveness and generalizability. To overcome these challenges, we explore ways to further augment a pretrained <b>BERT</b> model with specialized hypergraph-aware layers for the task of <b>node</b> <b>classification.</b> Such layers introduce higher-order structural inductive bias into the language model, thus improving the model's capacity to harness both higher-order context information from the hypergraph structure and semantic information present in text. In this paper, we propose a new architecture, HyperBERT, a mixed text-hypergraph model which simultaneously models hypergraph relational structure while maintaining the high-quality text encoding capabilities of a pre-trained <b>BERT.</b> Notably, HyperBERT presents results that achieve a new state-of-the-art on 5 challenging text-attributed hypergraph <b>node</b> <b>classification</b> benchmarks.
+Hypergraphs are marked by complex topology, expressing higher-order interactions among multiple entities with hyperedges. Lately, hypergraph-based deep learning methods to learn informative data representations for the problem of <b>node</b> <b>classification</b> on text-attributed hypergraphs have garnered increasing research attention. However, existing methods struggle to simultaneously capture the full extent of hypergraph structural information and the rich linguistic attributes inherent in the <b>nodes</b> <b>attributes,</b> which largely hampers their effectiveness and generalizability. To overcome these challenges, we explore ways to further augment a pretrained <b>BERT</b> model with specialized hypergraph-aware layers for the task of <b>node</b> <b>classification.</b> Such layers introduce higher-order structural inductive bias into the language model, thus improving the model's capacity to harness both higher-order context information from the hypergraph structure and semantic information present in text. In this paper, we propose a new architecture, HyperBERT, a mixed text-hypergraph model which simultaneously models hypergraph relational structure while maintaining the high-quality text encoding capabilities of a pre-trained <b>BERT.</b> Notably, HyperBERT presents results that achieve a new state-of-the-art on five challenging text-attributed hypergraph <b>node</b> <b>classification</b> benchmarks.
 
 {{</citation>}}
 
@@ -1040,7 +1040,7 @@ Chao Wang, Zhuo Chen, Ziyan Zhang, Chiyi Li, Kai Song. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-CL, cs-LG, cs.LG  
+Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keyword Score: 20  
 Keywords: Logistic Regression, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07283v1" target="_blank" >Paper Link</a>
@@ -1145,7 +1145,7 @@ Muhammad Bilal Shahid, Cody Fleming. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-LG, cs-RO, cs-SY, cs.LG, eess-SY  
 Keyword Score: 20  
 Keywords: Gaussian Process, Recommendation  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07139v1" target="_blank" >Paper Link</a>
@@ -1183,8 +1183,8 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs.LG  
 Keyword Score: 20  
 Keywords: Out-of-distribution, Reinforcement Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07107v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07107v1.pdf" filename="2402.07107v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07107v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07107v2.pdf" filename="2402.07107v2.pdf">Download PDF</button>
 
 ---
 
@@ -1646,8 +1646,8 @@ Primary Category: cs.AI
 Categories: cs-AI, cs.AI  
 Keyword Score: 70  
 Keywords: Node Classification, Zero-shot, ChatGPT, Instruction Following, Question Answering, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07197v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07197v1.pdf" filename="2402.07197v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07197v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07197v2.pdf" filename="2402.07197v2.pdf">Download PDF</button>
 
 ---
 
@@ -1713,7 +1713,7 @@ Minoo Shayaninasab, Bagher Babaali. (2024)
 
 ---
 Primary Category: cs.AI  
-Categories: cs-AI, cs.AI, eess-AS  
+Categories: cs-AI, cs-SD, cs.AI, eess-AS  
 Keyword Score: 60  
 Keywords: Fine-tuning, Fine-tuning, Self-supervised Learning, Self-supervised Learning, Transformer, Emotion Recognition  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07326v1" target="_blank" >Paper Link</a>
@@ -2982,7 +2982,7 @@ Philippe G. LeFloch, Jean-Marc Mercier, Shohruh Miryusupov. (2024)
 
 ---
 Primary Category: math.NA  
-Categories: cs-NA, math-NA, math-ST, math.NA, stat-TH  
+Categories: cs-NA, math-NA, math-ST, math.NA, stat-CO, stat-TH  
 Keyword Score: 20  
 Keywords: Supervised Learning, Unsupervised Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07084v1" target="_blank" >Paper Link</a>
