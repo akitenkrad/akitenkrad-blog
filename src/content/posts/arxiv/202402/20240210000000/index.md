@@ -2452,8 +2452,8 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-CL, cs.AI  
 Keyword Score: 30  
 Keywords: Reasoning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.06044v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.06044v1.pdf" filename="2402.06044v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.06044v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.06044v2.pdf" filename="2402.06044v2.pdf">Download PDF</button>
 
 ---
 
