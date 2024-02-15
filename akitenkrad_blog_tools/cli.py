@@ -203,10 +203,10 @@ $(function() {{
         paper_count = 1
         for primary_category, posts in post_dict.items():
             text += f"\n\n## {primary_category} ({len(posts)})\n\n"
-            for post in posts:
+            for idx, post in enumerate(posts):
                 title, content = post.generate_citation_text(paper_count)
                 text += f"""\n
-### ({paper_count}/{len(post_all)}) {title}
+### ({idx}/{len(posts)} | {paper_count}/{len(post_all)}) {title}
 
 {{{{<citation>}}}}
 {content}
