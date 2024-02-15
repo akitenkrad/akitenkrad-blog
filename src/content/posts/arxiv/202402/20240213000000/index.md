@@ -31,7 +31,7 @@ math: true
 - [cs.HC (2)](#cshc-2)
 - [cs.IR (1)](#csir-1)
 - [cs.LG (23)](#cslg-23)
-- [cs.NE (1)](#csne-1)
+- [cs.NE (2)](#csne-2)
 - [cs.NI (1)](#csni-1)
 - [cs.RO (2)](#csro-2)
 - [cs.SE (3)](#csse-3)
@@ -60,6 +60,12 @@ math: true
       <td></td>
     </tr>
     <tr>
+      <td>Anomaly Detection</td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+    </tr>
+    <tr>
       <td>Autoencoder</td>
       <td></td>
       <td></td>
@@ -76,6 +82,12 @@ math: true
       <td></td>
       <td></td>
       <td>1</td>
+    </tr>
+    <tr>
+      <td>Benchmarking</td>
+      <td>4</td>
+      <td>4</td>
+      <td>8</td>
     </tr>
     <tr>
       <td>ChatGPT</td>
@@ -102,6 +114,12 @@ math: true
       <td>2</td>
     </tr>
     <tr>
+      <td>Distributional Reinforcement Learning</td>
+      <td></td>
+      <td></td>
+      <td>3</td>
+    </tr>
+    <tr>
       <td>Emotion Recognition</td>
       <td>2</td>
       <td></td>
@@ -118,6 +136,12 @@ math: true
       <td></td>
       <td>1</td>
       <td></td>
+    </tr>
+    <tr>
+      <td>Federated Learning</td>
+      <td></td>
+      <td></td>
+      <td>1</td>
     </tr>
     <tr>
       <td>Few-shot</td>
@@ -150,6 +174,12 @@ math: true
       <td>1</td>
     </tr>
     <tr>
+      <td>Graph Contrastive Learning</td>
+      <td></td>
+      <td></td>
+      <td>2</td>
+    </tr>
+    <tr>
       <td>Graph Convolutional Network</td>
       <td></td>
       <td></td>
@@ -160,6 +190,12 @@ math: true
       <td>1</td>
       <td></td>
       <td>4</td>
+    </tr>
+    <tr>
+      <td>GraphMAE</td>
+      <td></td>
+      <td></td>
+      <td>2</td>
     </tr>
     <tr>
       <td>Human Intervention</td>
@@ -186,6 +222,18 @@ math: true
       <td>4</td>
     </tr>
     <tr>
+      <td>Knowledge Graph</td>
+      <td></td>
+      <td></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>LSTM</td>
+      <td></td>
+      <td></td>
+      <td>4</td>
+    </tr>
+    <tr>
       <td>Large Language Model</td>
       <td>11</td>
       <td>4</td>
@@ -193,6 +241,18 @@ math: true
     </tr>
     <tr>
       <td>Logistic Regression</td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Markov Decision Process</td>
+      <td></td>
+      <td></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Markov Game</td>
       <td></td>
       <td></td>
       <td>1</td>
@@ -264,6 +324,12 @@ math: true
       <td>9</td>
     </tr>
     <tr>
+      <td>Reinforcement Learning from Human Feedback</td>
+      <td></td>
+      <td></td>
+      <td>4</td>
+    </tr>
+    <tr>
       <td>Self-supervised Learning</td>
       <td>4</td>
       <td>2</td>
@@ -318,6 +384,12 @@ math: true
       <td>3</td>
     </tr>
     <tr>
+      <td>Vision Transformer</td>
+      <td>1</td>
+      <td></td>
+      <td>1</td>
+    </tr>
+    <tr>
       <td>Vision-and-Language</td>
       <td></td>
       <td>2</td>
@@ -347,18 +419,18 @@ $(function() {
 </script>
 
 
-## cs.CL (9)
+## cs.LG (23)
 
 
 
-### (1/78) How do Large Language Models Navigate Conflicts between Honesty and Helpfulness? (Ryan Liu et al., 2024)
+### (0/23 | 1/79) Explainable Global Wildfire Prediction Models using Graph Neural Networks (Dayou Chen et al., 2024)
 
 {{<citation>}}
 
-Ryan Liu, Theodore R. Sumers, Ishita Dasgupta, Thomas L. Griffiths. (2024)  
-**How do Large Language Models Navigate Conflicts between Honesty and Helpfulness?**
+Dayou Chen, Sibo Cheng, Jinwei Hu, Matthew Kasoar, Rossella Arcucci. (2024)  
+**Explainable Global Wildfire Prediction Models using Graph Neural Networks**
 <br/>
-<button class="copy-to-clipboard" title="How do Large Language Models Navigate Conflicts between Honesty and Helpfulness?" index=1>
+<button class="copy-to-clipboard" title="Explainable Global Wildfire Prediction Models using Graph Neural Networks" index=1>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-1 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -370,30 +442,30 @@ Ryan Liu, Theodore R. Sumers, Ishita Dasgupta, Thomas L. Griffiths. (2024)
 </div>
 
 ---
-Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs-LG, cs.CL  
-Keyword Score: 100  
-Keywords: Reinforcement Learning, Zero-shot, GPT, GPT-4, GPT-4 turbo, Reasoning, Chain-of-thought Prompt, Large Language Model, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07282v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07282v2.pdf" filename="2402.07282v2.pdf">Download PDF</button>
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keyword Score: 126  
+Keywords: Graph Convolutional Network, Graph Convolutional Network, Graph Neural Network, Graph Neural Network, Benchmarking, Benchmarking, Convolution, Convolutional Neural Network, Convolutional Neural Network, Simulation, Simulator, LSTM, LSTM, LSTM  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07152v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07152v1.pdf" filename="2402.07152v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-In day-to-day communication, people often approximate the truth - for example, rounding the time or omitting details - in order to be maximally helpful to the listener. How do <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> handle such nuanced trade-offs? To address this question, we use psychological models and experiments designed to characterize human behavior to analyze <b>LLMs.</b> We test a range of <b>LLMs</b> and explore how optimization for human preferences or inference-time <b>reasoning</b> affects these trade-offs. We find that <b>reinforcement</b> <b>learning</b> from human feedback improves both honesty and helpfulness, while <b>chain-of-thought</b> <b>prompting</b> skews <b>LLMs</b> towards helpfulness over honesty. Finally, <b>GPT-4</b> <b>Turbo</b> demonstrates human-like response patterns including sensitivity to the conversational framing and listener's decision context. Our findings reveal the conversational values internalized by <b>LLMs</b> and suggest that even these abstract values can, to a degree, be steered by <b>zero-shot</b> <b>prompting.</b>
+Wildfire prediction has become increasingly crucial due to the escalating impacts of climate change. Traditional <b>CNN-based</b> wildfire prediction models struggle with handling missing oceanic data and addressing the <b>long-range</b> <b>dependencies</b> <b>across</b> <b>distant</b> regions in meteorological data. In this paper, we introduce an innovative <b>Graph</b> <b>Neural</b> <b>Network</b> <b>(GNN)-based</b> model for global wildfire prediction. We propose a hybrid model that combines the spatial prowess of <b>Graph</b> <b>Convolutional</b> <b>Networks</b> <b>(GCNs)</b> with the temporal depth of <b>Long</b> <b>Short-Term</b> <b>Memory</b> <b>(LSTM)</b> networks. Our approach uniquely transforms global climate and wildfire data into a <b>graph</b> <b>representation,</b> <b>addressing</b> challenges such as null oceanic data locations and <b>long-range</b> <b>dependencies</b> <b>inherent</b> <b>in</b> traditional models. <b>Benchmarking</b> against established architectures using an unseen ensemble of JULES-INFERNO <b>simulations,</b> our model demonstrates superior predictive accuracy. Furthermore, we emphasise the model's explainability, unveiling potential wildfire correlation clusters through community detection and elucidating feature importance via Integrated Gradient analysis. Our findings not only advance the methodological domain of wildfire prediction but also underscore the importance of model transparency, offering valuable insights for stakeholders in wildfire management.
 
 {{</citation>}}
 
 
-### (2/78) TransGPT: Multi-modal Generative Pre-trained Transformer for Transportation (Peng Wang et al., 2024)
+### (1/23 | 2/79) Rethinking Graph Masked Autoencoders through Alignment and Uniformity (Liang Wang et al., 2024)
 
 {{<citation>}}
 
-Peng Wang, Xiang Wei, Fangxu Hu, Wenjuan Han. (2024)  
-**TransGPT: Multi-modal Generative Pre-trained Transformer for Transportation**
+Liang Wang, Xiang Tao, Qiang Liu, Shu Wu, Liang Wang. (2024)  
+**Rethinking Graph Masked Autoencoders through Alignment and Uniformity**
 <br/>
-<button class="copy-to-clipboard" title="TransGPT: Multi-modal Generative Pre-trained Transformer for Transportation" index=2>
+<button class="copy-to-clipboard" title="Rethinking Graph Masked Autoencoders through Alignment and Uniformity" index=2>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-2 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -405,30 +477,30 @@ Peng Wang, Xiang Wei, Fangxu Hu, Wenjuan Han. (2024)
 </div>
 
 ---
-Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs.CL  
-Keyword Score: 53  
-Keywords: Fine-tuning, Multi-modal, Recommendation, Transformer, Neural Machine Translation, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07233v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07233v1.pdf" filename="2402.07233v1.pdf">Download PDF</button>
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG  
+Keyword Score: 83  
+Keywords: GraphMAE, GraphMAE, Graph Contrastive Learning, Graph Contrastive Learning, Autoencoder, Benchmarking, Contrastive Learning, Self-supervised Learning, Self-supervised Learning  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07225v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07225v1.pdf" filename="2402.07225v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Natural language processing (NLP) is a key component of intelligent transportation systems (ITS), but it faces many challenges in the transportation domain, such as domain-specific knowledge and data, and <b>multi-modal</b> inputs and outputs. This paper presents TransGPT, a novel <b>(multi-modal)</b> <b>large</b> <b>language</b> <b>model</b> for the transportation domain, which consists of two independent variants: TransGPT-SM for single-modal data and TransGPT-MM for <b>multi-modal</b> data. TransGPT-SM is <b>finetuned</b> on a single-modal Transportation dataset (STD) that contains textual data from various sources in the transportation domain. TransGPT-MM is <b>finetuned</b> on a <b>multi-modal</b> Transportation dataset <b>(MTD)</b> that we manually collected from three areas of the transportation domain: driving tests, traffic signs, and landmarks. We evaluate TransGPT on several benchmark datasets for different tasks in the transportation domain, and show that it outperforms baseline models on most tasks. We also showcase the potential applications of TransGPT for traffic analysis and modeling, such as generating synthetic traffic scenarios, explaining traffic phenomena, answering traffic-related questions, providing traffic <b>recommendations,</b> and generating traffic reports. This work advances the state-of-the-art of NLP in the transportation domain and provides a useful tool for ITS researchers and practitioners.
+<b>Self-supervised</b> <b>learning</b> on <b>graphs</b> <b>can</b> <b>be</b> bifurcated into <b>contrastive</b> <b>and</b> generative methods. <b>Contrastive</b> <b>methods,</b> also known as <b>graph</b> <b>contrastive</b> <b>learning</b> <b>(GCL),</b> have dominated <b>graph</b> <b>self-supervised</b> <b>learning</b> in the past few years, but the recent advent of <b>graph</b> <b>masked</b> <b>autoencoder</b> <b>(GraphMAE)</b> rekindles the momentum behind generative methods. Despite the empirical success of <b>GraphMAE,</b> there is still a dearth of theoretical understanding regarding its efficacy. Moreover, while both generative and <b>contrastive</b> <b>methods</b> have been shown to be effective, their connections and differences have yet to be thoroughly investigated. Therefore, we theoretically build a bridge between <b>GraphMAE</b> and <b>GCL,</b> and prove that the node-level reconstruction objective in <b>GraphMAE</b> implicitly performs context-level <b>GCL.</b> Based on our theoretical analysis, we further identify the limitations of the <b>GraphMAE</b> from the perspectives of alignment and uniformity, which have been considered as two key properties of high-quality representations in <b>GCL.</b> We point out that <b>GraphMAE's</b> alignment performance is restricted by the masking strategy, and the uniformity is not strictly guaranteed. To remedy the aforementioned limitations, we propose an Alignment-Uniformity enhanced <b>Graph</b> <b>Masked</b> <b>AutoEncoder,</b> named AUG-MAE. Specifically, we propose an easy-to-hard adversarial masking strategy to provide hard-to-align samples, which improves the alignment performance. Meanwhile, we introduce an explicit uniformity regularizer to ensure the uniformity of the learned representations. Experimental results on <b>benchmark</b> datasets demonstrate the superiority of our model over existing state-of-the-art methods.
 
 {{</citation>}}
 
 
-### (3/78) Natural Language Reinforcement Learning (Xidong Feng et al., 2024)
+### (2/23 | 3/79) A Theoretical Analysis of Nash Learning from Human Feedback under General KL-Regularized Preference (Chenlu Ye et al., 2024)
 
 {{<citation>}}
 
-Xidong Feng, Ziyu Wan, Mengyue Yang, Ziyan Wang, Girish A. Koushiks, Yali Du, Ying Wen, Jun Wang. (2024)  
-**Natural Language Reinforcement Learning**
+Chenlu Ye, Wei Xiong, Yuheng Zhang, Nan Jiang, Tong Zhang. (2024)  
+**A Theoretical Analysis of Nash Learning from Human Feedback under General KL-Regularized Preference**
 <br/>
-<button class="copy-to-clipboard" title="Natural Language Reinforcement Learning" index=3>
+<button class="copy-to-clipboard" title="A Theoretical Analysis of Nash Learning from Human Feedback under General KL-Regularized Preference" index=3>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -440,30 +512,30 @@ Xidong Feng, Ziyu Wan, Mengyue Yang, Ziyan Wang, Girish A. Koushiks, Yali Du, Yi
 </div>
 
 ---
-Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs-LG, cs.CL  
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG, stat-ML  
 Keyword Score: 50  
-Keywords: Reinforcement Learning, GPT, GPT-4, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07157v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07157v1.pdf" filename="2402.07157v1.pdf">Download PDF</button>
+Keywords: Reinforcement Learning, Reinforcement Learning from Human Feedback, Reinforcement Learning from Human Feedback, Large Language Model, Prompt  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07314v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07314v1.pdf" filename="2402.07314v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-<b>Reinforcement</b> <b>Learning</b> (RL) has shown remarkable abilities in learning policies for decision-making tasks. However, RL is often hindered by issues such as low sample efficiency, lack of interpretability, and sparse supervision signals. To tackle these limitations, we take inspiration from the human learning process and introduce Natural Language <b>Reinforcement</b> <b>Learning</b> (NLRL), which innovatively combines RL principles with natural language representation. Specifically, NLRL redefines RL concepts like task objectives, policy, value function, Bellman equation, and policy iteration in natural language space. We present how NLRL can be practically implemented with the latest advancements in <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> like <b>GPT-4.</b> Initial experiments over tabular MDPs demonstrate the effectiveness, efficiency, and also interpretability of the NLRL framework.
+<b>Reinforcement</b> <b>Learning</b> <b>from</b> <b>Human</b> <b>Feedback</b> <b>(RLHF)</b> learns from the preference signal provided by a probabilistic preference model, which takes a <b>prompt</b> and two responses as input, and produces a score indicating the preference of one response against another. So far, the most popular <b>RLHF</b> paradigm is reward-based, which starts with an initial step of reward modeling, and the constructed reward is then used to provide a reward signal for the subsequent reward optimization stage. However, the existence of a reward function is a strong assumption and the reward-based <b>RLHF</b> is limited in expressivity and cannot capture the real-world complicated human preference. In this work, we provide theoretical insights for a recently proposed learning paradigm, Nash learning from human feedback (NLHF), which considered a general preference model and formulated the alignment process as a game between two competitive <b>LLMs.</b> The learning objective is to find a policy that consistently generates responses preferred over any competing policy while staying close to the initial model. The objective is defined as the Nash equilibrium (NE) of the KL-regularized preference model. We aim to make the first attempt to study the theoretical learnability of the KL-regularized NLHF by considering both offline and online settings. For the offline learning from a pre-collected dataset, we propose algorithms that are efficient under suitable coverage conditions of the dataset. For batch online learning from iterative interactions with a preference oracle, our proposed algorithm enjoys a finite sample guarantee under the structural condition of the underlying preference model. Our results connect the new NLHF paradigm with traditional RL theory, and validate the potential of reward-model-free learning under general preference.
 
 {{</citation>}}
 
 
-### (4/78) Generalizing Conversational Dense Retrieval via LLM-Cognition Data Augmentation (Haonan Chen et al., 2024)
+### (3/23 | 4/79) More Benefits of Being Distributional: Second-Order Bounds for Reinforcement Learning (Kaiwen Wang et al., 2024)
 
 {{<citation>}}
 
-Haonan Chen, Zhicheng Dou, Kelong Mao, Jiongnan Liu, Ziliang Zhao. (2024)  
-**Generalizing Conversational Dense Retrieval via LLM-Cognition Data Augmentation**
+Kaiwen Wang, Owen Oertell, Alekh Agarwal, Nathan Kallus, Wen Sun. (2024)  
+**More Benefits of Being Distributional: Second-Order Bounds for Reinforcement Learning**
 <br/>
-<button class="copy-to-clipboard" title="Generalizing Conversational Dense Retrieval via LLM-Cognition Data Augmentation" index=4>
+<button class="copy-to-clipboard" title="More Benefits of Being Distributional: Second-Order Bounds for Reinforcement Learning" index=4>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-4 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -475,247 +547,33 @@ Haonan Chen, Zhicheng Dou, Kelong Mao, Jiongnan Liu, Ziliang Zhao. (2024)
 </div>
 
 ---
-Primary Category: cs.CL  
-Categories: cs-CL, cs-IR, cs.CL  
-Keyword Score: 50  
-Keywords: Contrastive Learning, Data Augmentation, Dense Retrieval, Zero-shot, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07092v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07092v1.pdf" filename="2402.07092v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-Conversational search utilizes muli-turn natural language contexts to retrieve relevant passages. Existing conversational <b>dense</b> <b>retrieval</b> models mostly view a conversation as a fixed sequence of questions and responses, overlooking the severe <b>data</b> <b>sparsity</b> problem -- that is, users can perform a conversation in various ways, and these alternate conversations are unrecorded. Consequently, they often struggle to generalize to diverse conversations in real-world scenarios. In this work, we propose a framework for generalizing Conversational <b>dense</b> <b>retrieval</b> via <b>LLM-cognition</b> <b>data</b> <b>Augmentation</b> (ConvAug). ConvAug first generates multi-level augmented conversations to capture the diverse nature of conversational contexts. Inspired by human cognition, we devise a cognition-aware process to mitigate the generation of false positives, false negatives, and hallucinations. Moreover, we develop a difficulty-adaptive sample filter that selects challenging samples for complex conversations, thereby giving the model a larger learning space. A <b>contrastive</b> <b>learning</b> objective is then employed to train a better conversational context encoder. Extensive experiments conducted on four public datasets, under both normal and <b>zero-shot</b> settings, demonstrate the effectiveness, generalizability, and applicability of ConvAug.
-
-{{</citation>}}
-
-
-### (5/78) Prompt Perturbation in Retrieval-Augmented Generation based Large Language Models (Zhibo Hu et al., 2024)
-
-{{<citation>}}
-
-Zhibo Hu, Chen Wang, Yanfeng Shu, Helen, Paik, Liming Zhu. (2024)  
-**Prompt Perturbation in Retrieval-Augmented Generation based Large Language Models**
-<br/>
-<button class="copy-to-clipboard" title="Prompt Perturbation in Retrieval-Augmented Generation based Large Language Models" index=5>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.CL  
-Categories: I-2-7; H-3-3, cs-CL, cs-IR, cs.CL  
-Keyword Score: 40  
-Keywords: Text Generation, Large Language Model, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07179v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07179v1.pdf" filename="2402.07179v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-The robustness of <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> becomes increasingly important as their use rapidly grows in a wide range of domains. Retrieval-Augmented Generation (RAG) is considered as a means to improve the trustworthiness of <b>text</b> <b>generation</b> from <b>LLMs.</b> However, how the outputs from RAG-based <b>LLMs</b> are affected by slightly different inputs is not well studied. In this work, we find that the insertion of even a short prefix to the <b>prompt</b> leads to the generation of outputs far away from factually correct answers. We systematically evaluate the effect of such prefixes on RAG by introducing a novel optimization technique called Gradient Guided <b>Prompt</b> Perturbation (GGPP). GGPP achieves a high success rate in steering outputs of RAG-based <b>LLMs</b> to targeted wrong answers. It can also cope with instructions in the <b>prompts</b> requesting to ignore irrelevant context. We also exploit <b>LLMs'</b> neuron activation difference between <b>prompts</b> with and without GGPP perturbations to give a method that improves the robustness of RAG-based <b>LLMs</b> through a highly effective detector trained on neuron activation triggered by GGPP generated <b>prompts.</b> Our evaluation on open-sourced <b>LLMs</b> demonstrates the effectiveness of our methods.
-
-{{</citation>}}
-
-
-### (6/78) Previously on the Stories: Recap Snippet Identification for Story Reading (Jiangnan Li et al., 2024)
-
-{{<citation>}}
-
-Jiangnan Li, Qiujing Wang, Liyan Xu, Wenjie Pang, Mo Yu, Zheng Lin, Weiping Wang, Jie Zhou. (2024)  
-**Previously on the Stories: Recap Snippet Identification for Story Reading**
-<br/>
-<button class="copy-to-clipboard" title="Previously on the Stories: Recap Snippet Identification for Story Reading" index=6>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-6 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
-Keyword Score: 20  
-Keywords: Large Language Model, Pre-trained Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07271v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07271v1.pdf" filename="2402.07271v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-Similar to the "previously-on" scenes in TV shows, recaps can help book reading by recalling the readers' memory about the important elements in previous texts to better understand the ongoing plot. Despite its usefulness, this application has not been well studied in the NLP community. We propose the first benchmark on this useful task called Recap Snippet Identification with a hand-crafted evaluation dataset. Our experiments show that the proposed task is challenging to <b>PLMs,</b> <b>LLMs,</b> and proposed methods as the task requires a deep understanding of the plot correlation between snippets.
-
-{{</citation>}}
-
-
-### (7/78) American Sign Language Video to Text Translation (Parsheeta Roy et al., 2024)
-
-{{<citation>}}
-
-Parsheeta Roy, Ji-Eun Han, Srishti Chouhan, Bhaavanaa Thumu. (2024)  
-**American Sign Language Video to Text Translation**
-<br/>
-<button class="copy-to-clipboard" title="American Sign Language Video to Text Translation" index=7>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-7 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs-CV, cs.CL  
-Keyword Score: 20  
-Keywords: Label Smoothing, BLEU  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07255v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07255v1.pdf" filename="2402.07255v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-Sign language to text is a crucial technology that can break down communication barriers for individuals with hearing difficulties. We replicate and try to improve on a recently published study. We evaluate models using <b>BLEU</b> and rBLEU metrics to ensure translation quality. During our ablation study, we found that the model's performance is significantly influenced by optimizers, activation functions, and <b>label</b> <b>smoothing.</b> Further research aims to refine visual feature capturing, enhance decoder utilization, and integrate pre-trained decoders for better translation outcomes. Our source code is available to facilitate replication of our results and encourage future research.
-
-{{</citation>}}
-
-
-### (8/78) Low-Resource Counterspeech Generation for Indic Languages: The Case of Bengali and Hindi (Mithun Das et al., 2024)
-
-{{<citation>}}
-
-Mithun Das, Saurabh Kumar Pandey, Shivansh Sethi, Punyajoy Saha, Animesh Mukherjee. (2024)  
-**Low-Resource Counterspeech Generation for Indic Languages: The Case of Bengali and Hindi**
-<br/>
-<button class="copy-to-clipboard" title="Low-Resource Counterspeech Generation for Indic Languages: The Case of Bengali and Hindi" index=8>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs-HC, cs.CL  
-Keyword Score: 10  
-Keywords: Low-Resource  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07262v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07262v1.pdf" filename="2402.07262v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-With the rise of online abuse, the NLP community has begun investigating the use of neural architectures to generate counterspeech that can "counter" the vicious tone of such abusive speech and dilute/ameliorate their rippling effect over the social network. However, most of the efforts so far have been primarily focused on English. To bridge the gap for <b>low-resource</b> languages such as Bengali and Hindi, we create a benchmark dataset of 5,062 abusive speech/counterspeech pairs, of which 2,460 pairs are in Bengali and 2,602 pairs are in Hindi. We implement several baseline models considering various interlingual transfer mechanisms with different configurations to generate suitable counterspeech to set up an effective benchmark. We observe that the monolingual setup yields the best performance. Further, using synthetic transfer, language models can generate counterspeech to some extent; specifically, we notice that transferability is better when languages belong to the same language family.
-
-{{</citation>}}
-
-
-### (9/78) Using Large Language Models for Student-Code Guided Test Case Generation in Computer Science Education (Nischal Ashok Kumar et al., 2024)
-
-{{<citation>}}
-
-Nischal Ashok Kumar, Andrew Lan. (2024)  
-**Using Large Language Models for Student-Code Guided Test Case Generation in Computer Science Education**
-<br/>
-<button class="copy-to-clipboard" title="Using Large Language Models for Student-Code Guided Test Case Generation in Computer Science Education" index=9>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-9 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.CL  
-Categories: cs-CL, cs-SE, cs.CL  
-Keyword Score: 10  
-Keywords: Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07081v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07081v1.pdf" filename="2402.07081v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-In computer science education, test cases are an integral part of programming assignments since they can be used as assessment items to test students' programming knowledge and provide personalized feedback on student-written code. The goal of our work is to propose a fully automated approach for test case generation that can accurately measure student knowledge, which is important for two reasons. First, manually constructing test cases requires expert knowledge and is a labor-intensive process. Second, developing test cases for students, especially those who are novice programmers, is significantly different from those oriented toward professional-level software developers. Therefore, we need an automated process for test case generation to assess student knowledge and provide feedback. In this work, we propose a <b>large</b> <b>language</b> <b>model-based</b> approach to automatically generate test cases and show that they are good measures of student knowledge, using a publicly available dataset that contains student-written Java code. We also discuss future research directions centered on using test cases to help students.
-
-{{</citation>}}
-
-
-## cs.LG (23)
-
-
-
-### (10/78) Explainable Global Wildfire Prediction Models using Graph Neural Networks (Dayou Chen et al., 2024)
-
-{{<citation>}}
-
-Dayou Chen, Sibo Cheng, Jinwei Hu, Matthew Kasoar, Rossella Arcucci. (2024)  
-**Explainable Global Wildfire Prediction Models using Graph Neural Networks**
-<br/>
-<button class="copy-to-clipboard" title="Explainable Global Wildfire Prediction Models using Graph Neural Networks" index=10>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-10 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
 Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keyword Score: 90  
-Keywords: Graph Convolutional Network, Graph Convolutional Network, Graph Neural Network, Graph Neural Network, Convolution, Convolutional Neural Network, Convolutional Neural Network, Simulation, Simulator  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07152v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07152v1.pdf" filename="2402.07152v1.pdf">Download PDF</button>
+Categories: cs-LG, cs.LG  
+Keyword Score: 50  
+Keywords: Bandit Algorithm, Distributional Reinforcement Learning, Distributional Reinforcement Learning, Markov Decision Process, Reinforcement Learning  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07198v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07198v1.pdf" filename="2402.07198v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Wildfire prediction has become increasingly crucial due to the escalating impacts of climate change. Traditional <b>CNN-based</b> wildfire prediction models struggle with handling missing oceanic data and addressing the long-range dependencies across distant regions in meteorological data. In this paper, we introduce an innovative <b>Graph</b> <b>Neural</b> <b>Network</b> <b>(GNN)-based</b> model for global wildfire prediction. We propose a hybrid model that combines the spatial prowess of <b>Graph</b> <b>Convolutional</b> <b>Networks</b> <b>(GCNs)</b> with the temporal depth of Long Short-Term Memory (LSTM) networks. Our approach uniquely transforms global climate and wildfire data into a <b>graph</b> <b>representation,</b> <b>addressing</b> challenges such as null oceanic data locations and long-range dependencies inherent in traditional models. Benchmarking against established architectures using an unseen ensemble of JULES-INFERNO <b>simulations,</b> our model demonstrates superior predictive accuracy. Furthermore, we emphasise the model's explainability, unveiling potential wildfire correlation clusters through community detection and elucidating feature importance via Integrated Gradient analysis. Our findings not only advance the methodological domain of wildfire prediction but also underscore the importance of model transparency, offering valuable insights for stakeholders in wildfire management.
+In this paper, we prove that <b>Distributional</b> <b>Reinforcement</b> <b>Learning</b> <b>(DistRL),</b> which learns the return distribution, can obtain second-order bounds in both online and offline RL in general settings with function approximation. Second-order bounds are instance-dependent bounds that scale with the variance of return, which we prove are tighter than the previously known small-loss bounds of <b>distributional</b> <b>RL.</b> <b>To</b> the best of our knowledge, our results are the first second-order bounds for low-rank <b>MDPs</b> and for offline RL. When specializing to contextual <b>bandits</b> (one-step RL problem), we show that a <b>distributional</b> <b>learning</b> <b>based</b> optimism algorithm achieves a second-order worst-case regret bound, and a second-order gap dependent bound, simultaneously. We also empirically demonstrate the benefit of <b>DistRL</b> in contextual <b>bandits</b> on real-world datasets. We highlight that our analysis with <b>DistRL</b> is relatively simple, follows the general framework of optimism in the face of uncertainty and does not require weighted regression. Our results suggest that <b>DistRL</b> is a promising framework for obtaining second-order bounds in general RL settings, thus further reinforcing the benefits of <b>DistRL.</b>
 
 {{</citation>}}
 
 
-### (11/78) Using Large Language Models to Automate and Expedite Reinforcement Learning with Reward Machine (Shayan Meshkat Alsadat et al., 2024)
+### (4/23 | 5/79) Using Large Language Models to Automate and Expedite Reinforcement Learning with Reward Machine (Shayan Meshkat Alsadat et al., 2024)
 
 {{<citation>}}
 
 Shayan Meshkat Alsadat, Jean-Raphael Gaglione, Daniel Neider, Ufuk Topcu, Zhe Xu. (2024)  
 **Using Large Language Models to Automate and Expedite Reinforcement Learning with Reward Machine**
 <br/>
-<button class="copy-to-clipboard" title="Using Large Language Models to Automate and Expedite Reinforcement Learning with Reward Machine" index=11>
+<button class="copy-to-clipboard" title="Using Large Language Models to Automate and Expedite Reinforcement Learning with Reward Machine" index=5>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-11 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -740,17 +598,17 @@ We present LARL-RM <b>(Large</b> <b>language</b> <b>model-generated</b> Automato
 {{</citation>}}
 
 
-### (12/78) Summing Up the Facts: Additive Mechanisms Behind Factual Recall in LLMs (Bilal Chughtai et al., 2024)
+### (5/23 | 6/79) Summing Up the Facts: Additive Mechanisms Behind Factual Recall in LLMs (Bilal Chughtai et al., 2024)
 
 {{<citation>}}
 
 Bilal Chughtai, Alan Cooney, Neel Nanda. (2024)  
 **Summing Up the Facts: Additive Mechanisms Behind Factual Recall in LLMs**
 <br/>
-<button class="copy-to-clipboard" title="Summing Up the Facts: Additive Mechanisms Behind Factual Recall in LLMs" index=12>
+<button class="copy-to-clipboard" title="Summing Up the Facts: Additive Mechanisms Behind Factual Recall in LLMs" index=6>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-6 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -775,17 +633,17 @@ How do <b>transformer-based</b> <b>large</b> <b>language</b> <b>models</b> <b>(L
 {{</citation>}}
 
 
-### (13/78) Rethinking Graph Masked Autoencoders through Alignment and Uniformity (Liang Wang et al., 2024)
+### (6/23 | 7/79) ODIN: Disentangled Reward Mitigates Hacking in RLHF (Lichang Chen et al., 2024)
 
 {{<citation>}}
 
-Liang Wang, Xiang Tao, Qiang Liu, Shu Wu, Liang Wang. (2024)  
-**Rethinking Graph Masked Autoencoders through Alignment and Uniformity**
+Lichang Chen, Chen Zhu, Davit Soselia, Jiuhai Chen, Tianyi Zhou, Tom Goldstein, Heng Huang, Mohammad Shoeybi, Bryan Catanzaro. (2024)  
+**ODIN: Disentangled Reward Mitigates Hacking in RLHF**
 <br/>
-<button class="copy-to-clipboard" title="Rethinking Graph Masked Autoencoders through Alignment and Uniformity" index=13>
+<button class="copy-to-clipboard" title="ODIN: Disentangled Reward Mitigates Hacking in RLHF" index=7>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-13 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-7 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -795,67 +653,32 @@ Liang Wang, Xiang Tao, Qiang Liu, Shu Wu, Liang Wang. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keyword Score: 40  
-Keywords: Autoencoder, Contrastive Learning, Self-supervised Learning, Self-supervised Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07225v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07225v1.pdf" filename="2402.07225v1.pdf">Download PDF</button>
+Keywords: Reinforcement Learning, Reinforcement Learning from Human Feedback, Reinforcement Learning from Human Feedback, Large Language Model  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07319v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07319v1.pdf" filename="2402.07319v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-<b>Self-supervised</b> <b>learning</b> on graphs can be bifurcated into <b>contrastive</b> <b>and</b> generative methods. <b>Contrastive</b> <b>methods,</b> also known as graph <b>contrastive</b> <b>learning</b> (GCL), have dominated graph <b>self-supervised</b> <b>learning</b> in the past few years, but the recent advent of graph masked <b>autoencoder</b> (GraphMAE) rekindles the momentum behind generative methods. Despite the empirical success of GraphMAE, there is still a dearth of theoretical understanding regarding its efficacy. Moreover, while both generative and <b>contrastive</b> <b>methods</b> have been shown to be effective, their connections and differences have yet to be thoroughly investigated. Therefore, we theoretically build a bridge between GraphMAE and GCL, and prove that the node-level reconstruction objective in GraphMAE implicitly performs context-level GCL. Based on our theoretical analysis, we further identify the limitations of the GraphMAE from the perspectives of alignment and uniformity, which have been considered as two key properties of high-quality representations in GCL. We point out that GraphMAE's alignment performance is restricted by the masking strategy, and the uniformity is not strictly guaranteed. To remedy the aforementioned limitations, we propose an Alignment-Uniformity enhanced Graph Masked <b>AutoEncoder,</b> named AUG-MAE. Specifically, we propose an easy-to-hard adversarial masking strategy to provide hard-to-align samples, which improves the alignment performance. Meanwhile, we introduce an explicit uniformity regularizer to ensure the uniformity of the learned representations. Experimental results on benchmark datasets demonstrate the superiority of our model over existing state-of-the-art methods.
+In this work, we study the issue of reward hacking on the response length, a challenge emerging in <b>Reinforcement</b> <b>Learning</b> <b>from</b> <b>Human</b> <b>Feedback</b> <b>(RLHF)</b> on <b>LLMs.</b> A well-formatted, verbose but less helpful response from the <b>LLMs</b> can often deceive <b>LLMs</b> or even human evaluators to achieve high scores. The same issue also holds for some reward models in RL. To address the challenges in both training and evaluation, we establish a more reliable evaluation protocol for comparing different training configurations, which inspects the trade-off between <b>LLM</b> evaluation score and response length obtained by varying training hyperparameters. Based on this evaluation, we conduct large-scale studies, where the results shed insights into the efficacy of hyperparameters and tricks used in RL on mitigating length bias. We further propose to improve the reward model by jointly training two linear heads on shared feature representations to predict the rewards, one trained to correlate with length, and the other trained to decorrelate with length and therefore focus more on the actual content. We then discard the length head in RL to prevent reward hacking on length. Experiments demonstrate that our approach almost eliminates the reward correlation with length, and improves the obtained policy by a significant margin.
 
 {{</citation>}}
 
 
-### (14/78) A Theoretical Analysis of Nash Learning from Human Feedback under General KL-Regularized Preference (Chenlu Ye et al., 2024)
-
-{{<citation>}}
-
-Chenlu Ye, Wei Xiong, Yuheng Zhang, Nan Jiang, Tong Zhang. (2024)  
-**A Theoretical Analysis of Nash Learning from Human Feedback under General KL-Regularized Preference**
-<br/>
-<button class="copy-to-clipboard" title="A Theoretical Analysis of Nash Learning from Human Feedback under General KL-Regularized Preference" index=14>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-14 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG, stat-ML  
-Keyword Score: 30  
-Keywords: Reinforcement Learning, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07314v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07314v1.pdf" filename="2402.07314v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-<b>Reinforcement</b> <b>Learning</b> from Human Feedback (RLHF) learns from the preference signal provided by a probabilistic preference model, which takes a <b>prompt</b> and two responses as input, and produces a score indicating the preference of one response against another. So far, the most popular RLHF paradigm is reward-based, which starts with an initial step of reward modeling, and the constructed reward is then used to provide a reward signal for the subsequent reward optimization stage. However, the existence of a reward function is a strong assumption and the reward-based RLHF is limited in expressivity and cannot capture the real-world complicated human preference. In this work, we provide theoretical insights for a recently proposed learning paradigm, Nash learning from human feedback (NLHF), which considered a general preference model and formulated the alignment process as a game between two competitive <b>LLMs.</b> The learning objective is to find a policy that consistently generates responses preferred over any competing policy while staying close to the initial model. The objective is defined as the Nash equilibrium (NE) of the KL-regularized preference model. We aim to make the first attempt to study the theoretical learnability of the KL-regularized NLHF by considering both offline and online settings. For the offline learning from a pre-collected dataset, we propose algorithms that are efficient under suitable coverage conditions of the dataset. For batch online learning from iterative interactions with a preference oracle, our proposed algorithm enjoys a finite sample guarantee under the structural condition of the underlying preference model. Our results connect the new NLHF paradigm with traditional RL theory, and validate the potential of reward-model-free learning under general preference.
-
-{{</citation>}}
-
-
-### (15/78) Training Heterogeneous Client Models using Knowledge Distillation in Serverless Federated Learning (Mohak Chadha et al., 2024)
+### (7/23 | 8/79) Training Heterogeneous Client Models using Knowledge Distillation in Serverless Federated Learning (Mohak Chadha et al., 2024)
 
 {{<citation>}}
 
 Mohak Chadha, Pulkit Khera, Jianfeng Gu, Osama Abboud, Michael Gerndt. (2024)  
 **Training Heterogeneous Client Models using Knowledge Distillation in Serverless Federated Learning**
 <br/>
-<button class="copy-to-clipboard" title="Training Heterogeneous Client Models using Knowledge Distillation in Serverless Federated Learning" index=15>
+<button class="copy-to-clipboard" title="Training Heterogeneous Client Models using Knowledge Distillation in Serverless Federated Learning" index=8>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-15 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -866,8 +689,8 @@ Mohak Chadha, Pulkit Khera, Jianfeng Gu, Osama Abboud, Michael Gerndt. (2024)
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-DC, cs-LG, cs.LG  
-Keyword Score: 30  
-Keywords: Knowledge Distillation, Knowledge Distillation, Knowledge Distillation  
+Keyword Score: 40  
+Keywords: Federated Learning, Knowledge Distillation, Knowledge Distillation, Knowledge Distillation  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07295v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07295v1.pdf" filename="2402.07295v1.pdf">Download PDF</button>
 
@@ -875,22 +698,57 @@ Keywords: Knowledge Distillation, Knowledge Distillation, Knowledge Distillation
 
 
 **ABSTRACT**  
-Federated Learning (FL) is an emerging machine learning paradigm that enables the collaborative training of a shared global model across distributed clients while keeping the data decentralized. Recent works on designing systems for efficient FL have shown that utilizing serverless computing technologies, particularly Function-as-a-Service (FaaS) for FL, can enhance resource efficiency, reduce training costs, and alleviate the complex infrastructure management burden on data holders. However, existing serverless FL systems implicitly assume a uniform global model architecture across all participating clients during training. This assumption fails to address fundamental challenges in practical FL due to the resource and statistical data heterogeneity among FL clients. To address these challenges and enable heterogeneous client models in serverless FL, we utilize <b>Knowledge</b> <b>Distillation</b> <b>(KD)</b> in this paper. Towards this, we propose novel optimized serverless workflows for two popular conventional federated <b>KD</b> techniques, i.e., FedMD and FedDF. We implement these workflows by introducing several extensions to an open-source serverless FL system called FedLess. Moreover, we comprehensively evaluate the two strategies on multiple datasets across varying levels of client data heterogeneity using heterogeneous client models with respect to accuracy, fine-grained training times, and costs. Results from our experiments demonstrate that serverless FedDF is more robust to extreme non-IID data distributions, is faster, and leads to lower costs than serverless FedMD. In addition, compared to the original implementation, our optimizations for particular steps in FedMD and FedDF lead to an average speedup of 3.5x and 1.76x across all datasets.
+<b>Federated</b> <b>Learning</b> (FL) is an emerging machine learning paradigm that enables the collaborative training of a shared global model across distributed clients while keeping the data decentralized. Recent works on designing systems for efficient FL have shown that utilizing serverless computing technologies, particularly Function-as-a-Service (FaaS) for FL, can enhance resource efficiency, reduce training costs, and alleviate the complex infrastructure management burden on data holders. However, existing serverless FL systems implicitly assume a uniform global model architecture across all participating clients during training. This assumption fails to address fundamental challenges in practical FL due to the resource and statistical data heterogeneity among FL clients. To address these challenges and enable heterogeneous client models in serverless FL, we utilize <b>Knowledge</b> <b>Distillation</b> <b>(KD)</b> in this paper. Towards this, we propose novel optimized serverless workflows for two popular conventional <b>federated</b> <b>KD</b> techniques, i.e., FedMD and FedDF. We implement these workflows by introducing several extensions to an open-source serverless FL system called FedLess. Moreover, we comprehensively evaluate the two strategies on multiple datasets across varying levels of client data heterogeneity using heterogeneous client models with respect to accuracy, fine-grained training times, and costs. Results from our experiments demonstrate that serverless FedDF is more robust to extreme non-IID data distributions, is faster, and leads to lower costs than serverless FedMD. In addition, compared to the original implementation, our optimizations for particular steps in FedMD and FedDF lead to an average speedup of 3.5x and 1.76x across all datasets.
 
 {{</citation>}}
 
 
-### (16/78) Physics-Informed Neural Networks with Hard Linear Equality Constraints (Hao Chen et al., 2024)
+### (8/23 | 9/79) Power Transformer Fault Prediction Based on Knowledge Graphs (Chao Wang et al., 2024)
+
+{{<citation>}}
+
+Chao Wang, Zhuo Chen, Ziyan Zhang, Chiyi Li, Kai Song. (2024)  
+**Power Transformer Fault Prediction Based on Knowledge Graphs**
+<br/>
+<button class="copy-to-clipboard" title="Power Transformer Fault Prediction Based on Knowledge Graphs" index=9>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-9 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-CL, cs-LG, cs.LG  
+Keyword Score: 30  
+Keywords: Knowledge Graph, Knowledge Graph, Logistic Regression, Transformer  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07283v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07283v1.pdf" filename="2402.07283v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+In this paper, we address the challenge of learning with limited fault data for power <b>transformers.</b> Traditional operation and maintenance tools lack effective predictive capabilities for potential faults. The scarcity of extensive fault data makes it difficult to apply machine learning techniques effectively. To solve this problem, we propose a novel approach that leverages the <b>knowledge</b> <b>graph</b> <b>(KG)</b> technology in combination with gradient boosting decision trees (GBDT). This method is designed to efficiently learn from a small set of high-dimensional data, integrating various factors influencing <b>transformer</b> faults and historical operational data. Our approach enables accurate safe state assessments and fault analyses of power <b>transformers</b> despite the limited fault characteristic data. Experimental results demonstrate that this method outperforms other learning approaches in prediction accuracy, such as artificial neural networks (ANN) and <b>logistic</b> <b>regression</b> (LR). Furthermore, it offers significant improvements in progressiveness, practicality, and potential for widespread application.
+
+{{</citation>}}
+
+
+### (9/23 | 10/79) Physics-Informed Neural Networks with Hard Linear Equality Constraints (Hao Chen et al., 2024)
 
 {{<citation>}}
 
 Hao Chen, Gonzalo E. Constante Flores, Can Li. (2024)  
 **Physics-Informed Neural Networks with Hard Linear Equality Constraints**
 <br/>
-<button class="copy-to-clipboard" title="Physics-Informed Neural Networks with Hard Linear Equality Constraints" index=16>
+<button class="copy-to-clipboard" title="Physics-Informed Neural Networks with Hard Linear Equality Constraints" index=10>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-16 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-10 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -915,17 +773,87 @@ Surrogate modeling is used to replace computationally expensive <b>simulations.<
 {{</citation>}}
 
 
-### (17/78) Rethinking the Capacity of Graph Neural Networks for Branching Strategy (Ziang Chen et al., 2024)
+### (10/23 | 11/79) Towards Robust Car Following Dynamics Modeling via Blackbox Models: Methodology, Analysis, and Recommendations (Muhammad Bilal Shahid et al., 2024)
+
+{{<citation>}}
+
+Muhammad Bilal Shahid, Cody Fleming. (2024)  
+**Towards Robust Car Following Dynamics Modeling via Blackbox Models: Methodology, Analysis, and Recommendations**
+<br/>
+<button class="copy-to-clipboard" title="Towards Robust Car Following Dynamics Modeling via Blackbox Models: Methodology, Analysis, and Recommendations" index=11>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-11 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs-RO, cs-SY, cs.LG, eess-SY  
+Keyword Score: 30  
+Keywords: Gaussian Process, Recommendation, LSTM  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07139v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07139v1.pdf" filename="2402.07139v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+The selection of the target variable is important while learning parameters of the classical car following models like GIPPS, IDM, etc. There is a vast body of literature on which target variable is optimal for classical car following models, but there is no study that empirically evaluates the selection of optimal target variables for black-box models, such as <b>LSTM,</b> etc. The black-box models, like <b>LSTM</b> and <b>Gaussian</b> <b>Process</b> (GP) are increasingly being used to model car following behavior without wise selection of target variables. The current work tests different target variables, like acceleration, velocity, and headway, for three black-box models, i.e., GP, <b>LSTM,</b> and Kernel Ridge Regression. These models have different objective functions and work in different vector spaces, e.g., GP works in function space, and <b>LSTM</b> works in parameter space. The experiments show that the optimal target variable <b>recommendations</b> for black-box models differ from classical car following models depending on the objective function and the vector space. It is worth mentioning that models and datasets used during evaluation are diverse in nature: the datasets contained both automated and human-driven vehicle trajectories; the black-box models belong to both parametric and non-parametric classes of models. This diversity is important during the analysis of variance, wherein we try to find the interaction between datasets, models, and target variables. It is shown that the models and target variables interact and recommended target variables don't depend on the dataset under consideration.
+
+{{</citation>}}
+
+
+### (11/23 | 12/79) Echoes of Socratic Doubt: Embracing Uncertainty in Calibrated Evidential Reinforcement Learning (Alex Christopher Stutts et al., 2024)
+
+{{<citation>}}
+
+Alex Christopher Stutts, Danilo Erricolo, Theja Tulabandhula, Amit Ranjan Trivedi. (2024)  
+**Echoes of Socratic Doubt: Embracing Uncertainty in Calibrated Evidential Reinforcement Learning**
+<br/>
+<button class="copy-to-clipboard" title="Echoes of Socratic Doubt: Embracing Uncertainty in Calibrated Evidential Reinforcement Learning" index=12>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.LG  
+Categories: cs-AI, cs-LG, cs.LG  
+Keyword Score: 30  
+Keywords: Distributional Reinforcement Learning, Out-of-distribution, Reinforcement Learning  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07107v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07107v2.pdf" filename="2402.07107v2.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+We present a novel statistical approach to incorporating uncertainty awareness in model-free <b>distributional</b> <b>reinforcement</b> <b>learning</b> involving quantile regression-based deep Q networks. The proposed algorithm, $\textit{Calibrated Evidential Quantile Regression in Deep Q Networks (CEQR-DQN)}$, aims to address key challenges associated with separately estimating aleatoric and epistemic uncertainty in stochastic environments. It combines deep evidential learning with quantile calibration based on principles of conformal inference to provide explicit, sample-free computations of $\textit{global}$ uncertainty as opposed to $\textit{local}$ estimates based on simple variance, overcoming limitations of traditional methods in computational and statistical efficiency and handling of <b>out-of-distribution</b> (OOD) observations. Tested on a suite of miniaturized Atari games (i.e., MinAtar), CEQR-DQN is shown to surpass similar existing frameworks in scores and learning speed. Its ability to rigorously evaluate uncertainty improves exploration strategies and can serve as a blueprint for other algorithms requiring uncertainty awareness.
+
+{{</citation>}}
+
+
+### (12/23 | 13/79) Rethinking the Capacity of Graph Neural Networks for Branching Strategy (Ziang Chen et al., 2024)
 
 {{<citation>}}
 
 Ziang Chen, Jialin Liu, Xiaohan Chen, Xinshang Wang, Wotao Yin. (2024)  
 **Rethinking the Capacity of Graph Neural Networks for Branching Strategy**
 <br/>
-<button class="copy-to-clipboard" title="Rethinking the Capacity of Graph Neural Networks for Branching Strategy" index=17>
+<button class="copy-to-clipboard" title="Rethinking the Capacity of Graph Neural Networks for Branching Strategy" index=13>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-17 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-13 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -950,17 +878,17 @@ Keywords: Message-Passing, Graph Neural Network, Graph Neural Network
 {{</citation>}}
 
 
-### (18/78) ODIN: Disentangled Reward Mitigates Hacking in RLHF (Lichang Chen et al., 2024)
+### (13/23 | 14/79) Can Tree Based Approaches Surpass Deep Learning in Anomaly Detection? A Benchmarking Study (Santonu Sarkar et al., 2024)
 
 {{<citation>}}
 
-Lichang Chen, Chen Zhu, Davit Soselia, Jiuhai Chen, Tianyi Zhou, Tom Goldstein, Heng Huang, Mohammad Shoeybi, Bryan Catanzaro. (2024)  
-**ODIN: Disentangled Reward Mitigates Hacking in RLHF**
+Santonu Sarkar, Shanay Mehta, Nicole Fernandes, Jyotirmoy Sarkar, Snehanshu Saha. (2024)  
+**Can Tree Based Approaches Surpass Deep Learning in Anomaly Detection? A Benchmarking Study**
 <br/>
-<button class="copy-to-clipboard" title="ODIN: Disentangled Reward Mitigates Hacking in RLHF" index=18>
+<button class="copy-to-clipboard" title="Can Tree Based Approaches Surpass Deep Learning in Anomaly Detection? A Benchmarking Study" index=14>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-18 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-14 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -970,32 +898,32 @@ Lichang Chen, Chen Zhu, Davit Soselia, Jiuhai Chen, Tianyi Zhou, Tom Goldstein, 
 
 ---
 Primary Category: cs.LG  
-Categories: cs-AI, cs-CL, cs-LG, cs.LG  
-Keyword Score: 20  
-Keywords: Reinforcement Learning, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07319v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07319v1.pdf" filename="2402.07319v1.pdf">Download PDF</button>
+Categories: cs-LG, cs.LG  
+Keyword Score: 26  
+Keywords: Anomaly Detection, Benchmarking, Benchmarking, Outlier Detection  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07281v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07281v1.pdf" filename="2402.07281v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-In this work, we study the issue of reward hacking on the response length, a challenge emerging in <b>Reinforcement</b> <b>Learning</b> from Human Feedback (RLHF) on <b>LLMs.</b> A well-formatted, verbose but less helpful response from the <b>LLMs</b> can often deceive <b>LLMs</b> or even human evaluators to achieve high scores. The same issue also holds for some reward models in RL. To address the challenges in both training and evaluation, we establish a more reliable evaluation protocol for comparing different training configurations, which inspects the trade-off between <b>LLM</b> evaluation score and response length obtained by varying training hyperparameters. Based on this evaluation, we conduct large-scale studies, where the results shed insights into the efficacy of hyperparameters and tricks used in RL on mitigating length bias. We further propose to improve the reward model by jointly training two linear heads on shared feature representations to predict the rewards, one trained to correlate with length, and the other trained to decorrelate with length and therefore focus more on the actual content. We then discard the length head in RL to prevent reward hacking on length. Experiments demonstrate that our approach almost eliminates the reward correlation with length, and improves the obtained policy by a significant margin.
+Detection of anomalous situations for complex mission-critical systems holds paramount importance when their service continuity needs to be ensured. A major challenge in detecting anomalies from the operational data arises due to the imbalanced class distribution problem since the anomalies are supposed to be rare events. This paper evaluates a diverse array of machine learning-based <b>anomaly</b> <b>detection</b> algorithms through a comprehensive <b>benchmark</b> study. The paper contributes significantly by conducting an unbiased comparison of various <b>anomaly</b> <b>detection</b> algorithms, spanning classical machine learning including various tree-based approaches to deep learning and <b>outlier</b> <b>detection</b> methods. The inclusion of 104 publicly available and a few proprietary industrial systems datasets enhances the diversity of the study, allowing for a more realistic evaluation of algorithm performance and emphasizing the importance of adaptability to real-world scenarios. The paper dispels the deep learning myth, demonstrating that though powerful, deep learning is not a universal solution in this case. We observed that recently proposed tree-based evolutionary algorithms outperform in many scenarios. We noticed that tree-based approaches catch a singleton <b>anomaly</b> <b>in</b> a dataset where deep learning methods fail. On the other hand, classical SVM performs the best on datasets with more than 10% anomalies, implying that such scenarios can be best modeled as a classification problem rather than <b>anomaly</b> <b>detection.</b> To our knowledge, such a study on a large number of state-of-the-art algorithms using diverse data sets, with the objective of guiding researchers and practitioners in making informed algorithmic choices, has not been attempted earlier.
 
 {{</citation>}}
 
 
-### (19/78) HyperBERT: Mixing Hypergraph-Aware Layers with Language Models for Node Classification on Text-Attributed Hypergraphs (Adrián Bazaga et al., 2024)
+### (14/23 | 15/79) HyperBERT: Mixing Hypergraph-Aware Layers with Language Models for Node Classification on Text-Attributed Hypergraphs (Adrián Bazaga et al., 2024)
 
 {{<citation>}}
 
 Adrián Bazaga, Pietro Liò, Gos Micklem. (2024)  
 **HyperBERT: Mixing Hypergraph-Aware Layers with Language Models for Node Classification on Text-Attributed Hypergraphs**
 <br/>
-<button class="copy-to-clipboard" title="HyperBERT: Mixing Hypergraph-Aware Layers with Language Models for Node Classification on Text-Attributed Hypergraphs" index=19>
+<button class="copy-to-clipboard" title="HyperBERT: Mixing Hypergraph-Aware Layers with Language Models for Node Classification on Text-Attributed Hypergraphs" index=15>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-19 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-15 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1006,8 +934,8 @@ Adrián Bazaga, Pietro Liò, Gos Micklem. (2024)
 ---
 Primary Category: cs.LG  
 Categories: cs-CL, cs-LG, cs.LG, stat-ML  
-Keyword Score: 20  
-Keywords: Node Classification, BERT  
+Keyword Score: 23  
+Keywords: Node Classification, Benchmarking, BERT  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07309v2" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07309v2.pdf" filename="2402.07309v2.pdf">Download PDF</button>
 
@@ -1015,57 +943,22 @@ Keywords: Node Classification, BERT
 
 
 **ABSTRACT**  
-Hypergraphs are marked by complex topology, expressing higher-order interactions among multiple entities with hyperedges. Lately, hypergraph-based deep learning methods to learn informative data representations for the problem of <b>node</b> <b>classification</b> on text-attributed hypergraphs have garnered increasing research attention. However, existing methods struggle to simultaneously capture the full extent of hypergraph structural information and the rich linguistic attributes inherent in the <b>nodes</b> <b>attributes,</b> which largely hampers their effectiveness and generalizability. To overcome these challenges, we explore ways to further augment a pretrained <b>BERT</b> model with specialized hypergraph-aware layers for the task of <b>node</b> <b>classification.</b> Such layers introduce higher-order structural inductive bias into the language model, thus improving the model's capacity to harness both higher-order context information from the hypergraph structure and semantic information present in text. In this paper, we propose a new architecture, HyperBERT, a mixed text-hypergraph model which simultaneously models hypergraph relational structure while maintaining the high-quality text encoding capabilities of a pre-trained <b>BERT.</b> Notably, HyperBERT presents results that achieve a new state-of-the-art on five challenging text-attributed hypergraph <b>node</b> <b>classification</b> benchmarks.
+Hypergraphs are marked by complex topology, expressing higher-order interactions among multiple entities with hyperedges. Lately, hypergraph-based deep learning methods to learn informative data representations for the problem of <b>node</b> <b>classification</b> on text-attributed hypergraphs have garnered increasing research attention. However, existing methods struggle to simultaneously capture the full extent of hypergraph structural information and the rich linguistic attributes inherent in the <b>nodes</b> <b>attributes,</b> which largely hampers their effectiveness and generalizability. To overcome these challenges, we explore ways to further augment a pretrained <b>BERT</b> model with specialized hypergraph-aware layers for the task of <b>node</b> <b>classification.</b> Such layers introduce higher-order structural inductive bias into the language model, thus improving the model's capacity to harness both higher-order context information from the hypergraph structure and semantic information present in text. In this paper, we propose a new architecture, HyperBERT, a mixed text-hypergraph model which simultaneously models hypergraph relational structure while maintaining the high-quality text encoding capabilities of a pre-trained <b>BERT.</b> Notably, HyperBERT presents results that achieve a new state-of-the-art on five challenging text-attributed hypergraph <b>node</b> <b>classification</b> <b>benchmarks.</b>
 
 {{</citation>}}
 
 
-### (20/78) Power Transformer Fault Prediction Based on Knowledge Graphs (Chao Wang et al., 2024)
+### (15/23 | 16/79) Towards Generalized Inverse Reinforcement Learning (Chaosheng Dong et al., 2024)
 
 {{<citation>}}
 
-Chao Wang, Zhuo Chen, Ziyan Zhang, Chiyi Li, Kai Song. (2024)  
-**Power Transformer Fault Prediction Based on Knowledge Graphs**
+Chaosheng Dong, Yijia Wang. (2024)  
+**Towards Generalized Inverse Reinforcement Learning**
 <br/>
-<button class="copy-to-clipboard" title="Power Transformer Fault Prediction Based on Knowledge Graphs" index=20>
+<button class="copy-to-clipboard" title="Towards Generalized Inverse Reinforcement Learning" index=16>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-20 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.LG  
-Categories: cs-AI, cs-CL, cs-LG, cs.LG  
-Keyword Score: 20  
-Keywords: Logistic Regression, Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07283v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07283v1.pdf" filename="2402.07283v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-In this paper, we address the challenge of learning with limited fault data for power <b>transformers.</b> Traditional operation and maintenance tools lack effective predictive capabilities for potential faults. The scarcity of extensive fault data makes it difficult to apply machine learning techniques effectively. To solve this problem, we propose a novel approach that leverages the knowledge graph (KG) technology in combination with gradient boosting decision trees (GBDT). This method is designed to efficiently learn from a small set of high-dimensional data, integrating various factors influencing <b>transformer</b> faults and historical operational data. Our approach enables accurate safe state assessments and fault analyses of power <b>transformers</b> despite the limited fault characteristic data. Experimental results demonstrate that this method outperforms other learning approaches in prediction accuracy, such as artificial neural networks (ANN) and <b>logistic</b> <b>regression</b> (LR). Furthermore, it offers significant improvements in progressiveness, practicality, and potential for widespread application.
-
-{{</citation>}}
-
-
-### (21/78) More Benefits of Being Distributional: Second-Order Bounds for Reinforcement Learning (Kaiwen Wang et al., 2024)
-
-{{<citation>}}
-
-Kaiwen Wang, Owen Oertell, Alekh Agarwal, Nathan Kallus, Wen Sun. (2024)  
-**More Benefits of Being Distributional: Second-Order Bounds for Reinforcement Learning**
-<br/>
-<button class="copy-to-clipboard" title="More Benefits of Being Distributional: Second-Order Bounds for Reinforcement Learning" index=21>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-21 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-16 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1077,30 +970,30 @@ Kaiwen Wang, Owen Oertell, Alekh Agarwal, Nathan Kallus, Wen Sun. (2024)
 Primary Category: cs.LG  
 Categories: cs-LG, cs.LG  
 Keyword Score: 20  
-Keywords: Bandit Algorithm, Reinforcement Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07198v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07198v1.pdf" filename="2402.07198v1.pdf">Download PDF</button>
+Keywords: Markov Decision Process, Reinforcement Learning  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07246v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07246v1.pdf" filename="2402.07246v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-In this paper, we prove that Distributional <b>Reinforcement</b> <b>Learning</b> (DistRL), which learns the return distribution, can obtain second-order bounds in both online and offline RL in general settings with function approximation. Second-order bounds are instance-dependent bounds that scale with the variance of return, which we prove are tighter than the previously known small-loss bounds of distributional RL. To the best of our knowledge, our results are the first second-order bounds for low-rank MDPs and for offline RL. When specializing to contextual <b>bandits</b> (one-step RL problem), we show that a distributional learning based optimism algorithm achieves a second-order worst-case regret bound, and a second-order gap dependent bound, simultaneously. We also empirically demonstrate the benefit of DistRL in contextual <b>bandits</b> on real-world datasets. We highlight that our analysis with DistRL is relatively simple, follows the general framework of optimism in the face of uncertainty and does not require weighted regression. Our results suggest that DistRL is a promising framework for obtaining second-order bounds in general RL settings, thus further reinforcing the benefits of DistRL.
+This paper studies generalized inverse <b>reinforcement</b> <b>learning</b> (GIRL) in Markov decision processes <b>(MDPs),</b> that is, the problem of learning the basic components of an MDP given observed behavior (policy) that might not be optimal. These components include not only the reward function and transition probability matrices, but also the action space and state space that are not exactly known but are known to belong to given uncertainty sets. We address two key challenges in GIRL: first, the need to quantify the discrepancy between the observed policy and the underlying optimal policy; second, the difficulty of mathematically characterizing the underlying optimal policy when the basic components of an MDP are unobservable or partially observable. Then, we propose the mathematical formulation for GIRL and develop a fast heuristic algorithm. Numerical results on both finite and infinite state problems show the merit of our formulation and algorithm.
 
 {{</citation>}}
 
 
-### (22/78) The Implicit Bias of Gradient Noise: A Symmetry Perspective (Liu Ziyin et al., 2024)
+### (16/23 | 17/79) The Implicit Bias of Gradient Noise: A Symmetry Perspective (Liu Ziyin et al., 2024)
 
 {{<citation>}}
 
 Liu Ziyin, Mingze Wang, Lei Wu. (2024)  
 **The Implicit Bias of Gradient Noise: A Symmetry Perspective**
 <br/>
-<button class="copy-to-clipboard" title="The Implicit Bias of Gradient Noise: A Symmetry Perspective" index=22>
+<button class="copy-to-clipboard" title="The Implicit Bias of Gradient Noise: A Symmetry Perspective" index=17>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-22 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-17 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1125,17 +1018,17 @@ We characterize the learning dynamics of <b>stochastic</b> <b>gradient</b> <b>de
 {{</citation>}}
 
 
-### (23/78) Towards Robust Car Following Dynamics Modeling via Blackbox Models: Methodology, Analysis, and Recommendations (Muhammad Bilal Shahid et al., 2024)
+### (17/23 | 18/79) GeoFormer: A Vision and Sequence Transformer-based Approach for Greenhouse Gas Monitoring (Madhav Khirwar et al., 2024)
 
 {{<citation>}}
 
-Muhammad Bilal Shahid, Cody Fleming. (2024)  
-**Towards Robust Car Following Dynamics Modeling via Blackbox Models: Methodology, Analysis, and Recommendations**
+Madhav Khirwar, Ankur Narang. (2024)  
+**GeoFormer: A Vision and Sequence Transformer-based Approach for Greenhouse Gas Monitoring**
 <br/>
-<button class="copy-to-clipboard" title="Towards Robust Car Following Dynamics Modeling via Blackbox Models: Methodology, Analysis, and Recommendations" index=23>
+<button class="copy-to-clipboard" title="GeoFormer: A Vision and Sequence Transformer-based Approach for Greenhouse Gas Monitoring" index=18>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-23 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-18 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1145,32 +1038,67 @@ Muhammad Bilal Shahid, Cody Fleming. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs-RO, cs-SY, cs.LG, eess-SY  
+Categories: cs-CV, cs-LG, cs.LG  
 Keyword Score: 20  
-Keywords: Gaussian Process, Recommendation  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07139v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07139v1.pdf" filename="2402.07139v1.pdf">Download PDF</button>
+Keywords: Transformer, Vision Transformer  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07164v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07164v1.pdf" filename="2402.07164v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-The selection of the target variable is important while learning parameters of the classical car following models like GIPPS, IDM, etc. There is a vast body of literature on which target variable is optimal for classical car following models, but there is no study that empirically evaluates the selection of optimal target variables for black-box models, such as LSTM, etc. The black-box models, like LSTM and <b>Gaussian</b> <b>Process</b> (GP) are increasingly being used to model car following behavior without wise selection of target variables. The current work tests different target variables, like acceleration, velocity, and headway, for three black-box models, i.e., GP, LSTM, and Kernel Ridge Regression. These models have different objective functions and work in different vector spaces, e.g., GP works in function space, and LSTM works in parameter space. The experiments show that the optimal target variable <b>recommendations</b> for black-box models differ from classical car following models depending on the objective function and the vector space. It is worth mentioning that models and datasets used during evaluation are diverse in nature: the datasets contained both automated and human-driven vehicle trajectories; the black-box models belong to both parametric and non-parametric classes of models. This diversity is important during the analysis of variance, wherein we try to find the interaction between datasets, models, and target variables. It is shown that the models and target variables interact and recommended target variables don't depend on the dataset under consideration.
+Air pollution represents a pivotal environmental challenge globally, playing a major role in climate change via greenhouse gas emissions and negatively affecting the health of billions. However predicting the spatial and temporal patterns of pollutants remains challenging. The scarcity of ground-based monitoring facilities and the dependency of air pollution modeling on comprehensive datasets, often inaccessible for numerous areas, complicate this issue. In this work, we introduce GeoFormer, a compact model that combines a <b>vision</b> <b>transformer</b> module with a highly efficient time-series <b>transformer</b> module to predict surface-level nitrogen dioxide (NO2) concentrations from Sentinel-5P satellite imagery. We train the proposed model to predict surface-level NO2 measurements using a dataset we constructed with Sentinel-5P images of ground-level monitoring stations, and their corresponding NO2 concentration readings. The proposed model attains high accuracy (MAE 5.65), demonstrating the efficacy of combining <b>vision</b> <b>and</b> time-series <b>transformer</b> architectures to harness satellite-derived data for enhanced GHG emission insights, proving instrumental in advancing climate change monitoring and emission regulation efforts globally.
 
 {{</citation>}}
 
 
-### (24/78) Echoes of Socratic Doubt: Embracing Uncertainty in Calibrated Evidential Reinforcement Learning (Alex Christopher Stutts et al., 2024)
+### (18/23 | 19/79) Refined Sample Complexity for Markov Games with Independent Linear Function Approximation (Yan Dai et al., 2024)
 
 {{<citation>}}
 
-Alex Christopher Stutts, Danilo Erricolo, Theja Tulabandhula, Amit Ranjan Trivedi. (2024)  
-**Echoes of Socratic Doubt: Embracing Uncertainty in Calibrated Evidential Reinforcement Learning**
+Yan Dai, Qiwen Cui, Simon S. Du. (2024)  
+**Refined Sample Complexity for Markov Games with Independent Linear Function Approximation**
 <br/>
-<button class="copy-to-clipboard" title="Echoes of Socratic Doubt: Embracing Uncertainty in Calibrated Evidential Reinforcement Learning" index=24>
+<button class="copy-to-clipboard" title="Refined Sample Complexity for Markov Games with Independent Linear Function Approximation" index=19>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-24 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-19 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.LG  
+Categories: cs-GT, cs-LG, cs.LG, stat-ML  
+Keyword Score: 20  
+Keywords: Markov Game, Reinforcement Learning  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07082v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07082v1.pdf" filename="2402.07082v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+<b>Markov</b> <b>Games</b> (MG) is an important model for Multi-Agent <b>Reinforcement</b> <b>Learning</b> (MARL). It was long believed that the "curse of multi-agents" (i.e., the algorithmic performance drops exponentially with the number of agents) is unavoidable until several recent works (Daskalakis et al., 2023; Cui et al., 2023; Wang et al., 2023. While these works did resolve the curse of multi-agents, when the state spaces are prohibitively large and (linear) function approximations are deployed, they either had a slower convergence rate of $O(T^{-1/4})$ or brought a polynomial dependency on the number of actions $A_{\max}$ -- which is avoidable in single-agent cases even when the loss functions can arbitrarily vary with time (Dai et al., 2023). This paper first refines the `AVLPR` framework by Wang et al. (2023), with an insight of *data-dependent* (i.e., stochastic) pessimistic estimation of the sub-optimality gap, allowing a broader choice of plug-in algorithms. When specialized to MGs with independent linear function approximations, we propose novel *action-dependent bonuses* to cover occasionally extreme estimation errors. With the help of state-of-the-art techniques from the single-agent RL literature, we give the first algorithm that tackles the curse of multi-agents, attains the optimal $O(T^{-1/2})$ convergence rate, and avoids $\text{poly}(A_{\max})$ dependency simultaneously.
+
+{{</citation>}}
+
+
+### (19/23 | 20/79) Future Prediction Can be a Strong Evidence of Good History Representation in Partially Observable Environments (Jeongyeol Kwon et al., 2024)
+
+{{<citation>}}
+
+Jeongyeol Kwon, Liu Yang, Robert Nowak, Josiah Hanna. (2024)  
+**Future Prediction Can be a Strong Evidence of Good History Representation in Partially Observable Environments**
+<br/>
+<button class="copy-to-clipboard" title="Future Prediction Can be a Strong Evidence of Good History Representation in Partially Observable Environments" index=20>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-20 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1181,101 +1109,31 @@ Alex Christopher Stutts, Danilo Erricolo, Theja Tulabandhula, Amit Ranjan Trived
 ---
 Primary Category: cs.LG  
 Categories: cs-AI, cs-LG, cs.LG  
-Keyword Score: 20  
-Keywords: Out-of-distribution, Reinforcement Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07107v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07107v2.pdf" filename="2402.07107v2.pdf">Download PDF</button>
+Keyword Score: 13  
+Keywords: Benchmarking, Reinforcement Learning  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07102v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07102v1.pdf" filename="2402.07102v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-We present a novel statistical approach to incorporating uncertainty awareness in model-free distributional <b>reinforcement</b> <b>learning</b> involving quantile regression-based deep Q networks. The proposed algorithm, $\textit{Calibrated Evidential Quantile Regression in Deep Q Networks (CEQR-DQN)}$, aims to address key challenges associated with separately estimating aleatoric and epistemic uncertainty in stochastic environments. It combines deep evidential learning with quantile calibration based on principles of conformal inference to provide explicit, sample-free computations of $\textit{global}$ uncertainty as opposed to $\textit{local}$ estimates based on simple variance, overcoming limitations of traditional methods in computational and statistical efficiency and handling of <b>out-of-distribution</b> (OOD) observations. Tested on a suite of miniaturized Atari games (i.e., MinAtar), CEQR-DQN is shown to surpass similar existing frameworks in scores and learning speed. Its ability to rigorously evaluate uncertainty improves exploration strategies and can serve as a blueprint for other algorithms requiring uncertainty awareness.
+Learning a good history representation is one of the core challenges of <b>reinforcement</b> <b>learning</b> (RL) in partially observable environments. Recent works have shown the advantages of various auxiliary tasks for facilitating representation learning. However, the effectiveness of such auxiliary tasks has not been fully convincing, especially in partially observable environments that require long-term memorization and inference. In this empirical study, we investigate the effectiveness of future prediction for learning the representations of histories, possibly of extensive length, in partially observable environments. We first introduce an approach that decouples the task of learning history representations from policy optimization via future prediction. Then, our main contributions are two-fold: (a) we demonstrate that the performance of <b>reinforcement</b> <b>learning</b> is strongly correlated with the prediction accuracy of future observations in partially observable environments, and (b) our approach can significantly improve the overall end-to-end approach by preventing high-variance noisy signals from <b>reinforcement</b> <b>learning</b> objectives to influence the representation learning. We illustrate our claims on three types of <b>benchmarks</b> that necessitate the ability to process long histories for high returns.
 
 {{</citation>}}
 
 
-### (25/78) Can Tree Based Approaches Surpass Deep Learning in Anomaly Detection? A Benchmarking Study (Santonu Sarkar et al., 2024)
-
-{{<citation>}}
-
-Santonu Sarkar, Shanay Mehta, Nicole Fernandes, Jyotirmoy Sarkar, Snehanshu Saha. (2024)  
-**Can Tree Based Approaches Surpass Deep Learning in Anomaly Detection? A Benchmarking Study**
-<br/>
-<button class="copy-to-clipboard" title="Can Tree Based Approaches Surpass Deep Learning in Anomaly Detection? A Benchmarking Study" index=25>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-25 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
-Keyword Score: 10  
-Keywords: Outlier Detection  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07281v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07281v1.pdf" filename="2402.07281v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-Detection of anomalous situations for complex mission-critical systems holds paramount importance when their service continuity needs to be ensured. A major challenge in detecting anomalies from the operational data arises due to the imbalanced class distribution problem since the anomalies are supposed to be rare events. This paper evaluates a diverse array of machine learning-based anomaly detection algorithms through a comprehensive benchmark study. The paper contributes significantly by conducting an unbiased comparison of various anomaly detection algorithms, spanning classical machine learning including various tree-based approaches to deep learning and <b>outlier</b> <b>detection</b> methods. The inclusion of 104 publicly available and a few proprietary industrial systems datasets enhances the diversity of the study, allowing for a more realistic evaluation of algorithm performance and emphasizing the importance of adaptability to real-world scenarios. The paper dispels the deep learning myth, demonstrating that though powerful, deep learning is not a universal solution in this case. We observed that recently proposed tree-based evolutionary algorithms outperform in many scenarios. We noticed that tree-based approaches catch a singleton anomaly in a dataset where deep learning methods fail. On the other hand, classical SVM performs the best on datasets with more than 10% anomalies, implying that such scenarios can be best modeled as a classification problem rather than anomaly detection. To our knowledge, such a study on a large number of state-of-the-art algorithms using diverse data sets, with the objective of guiding researchers and practitioners in making informed algorithmic choices, has not been attempted earlier.
-
-{{</citation>}}
-
-
-### (26/78) Towards Generalized Inverse Reinforcement Learning (Chaosheng Dong et al., 2024)
-
-{{<citation>}}
-
-Chaosheng Dong, Yijia Wang. (2024)  
-**Towards Generalized Inverse Reinforcement Learning**
-<br/>
-<button class="copy-to-clipboard" title="Towards Generalized Inverse Reinforcement Learning" index=26>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-26 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
-Keyword Score: 10  
-Keywords: Reinforcement Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07246v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07246v1.pdf" filename="2402.07246v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-This paper studies generalized inverse <b>reinforcement</b> <b>learning</b> (GIRL) in Markov decision processes (MDPs), that is, the problem of learning the basic components of an MDP given observed behavior (policy) that might not be optimal. These components include not only the reward function and transition probability matrices, but also the action space and state space that are not exactly known but are known to belong to given uncertainty sets. We address two key challenges in GIRL: first, the need to quantify the discrepancy between the observed policy and the underlying optimal policy; second, the difficulty of mathematically characterizing the underlying optimal policy when the basic components of an MDP are unobservable or partially observable. Then, we propose the mathematical formulation for GIRL and develop a fast heuristic algorithm. Numerical results on both finite and infinite state problems show the merit of our formulation and algorithm.
-
-{{</citation>}}
-
-
-### (27/78) GenSTL: General Sparse Trajectory Learning via Auto-regressive Generation of Feature Domains (Yan Lin et al., 2024)
+### (20/23 | 21/79) GenSTL: General Sparse Trajectory Learning via Auto-regressive Generation of Feature Domains (Yan Lin et al., 2024)
 
 {{<citation>}}
 
 Yan Lin, Jilin Hu, Shengnan Guo, Bin Yang, Christian S. Jensen, Youfang Lin, Huaiyu Wan. (2024)  
 **GenSTL: General Sparse Trajectory Learning via Auto-regressive Generation of Feature Domains**
 <br/>
-<button class="copy-to-clipboard" title="GenSTL: General Sparse Trajectory Learning via Auto-regressive Generation of Feature Domains" index=27>
+<button class="copy-to-clipboard" title="GenSTL: General Sparse Trajectory Learning via Auto-regressive Generation of Feature Domains" index=21>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-27 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-21 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1300,17 +1158,17 @@ Trajectories are sequences of timestamped location samples. In sparse trajectori
 {{</citation>}}
 
 
-### (28/78) Divide and Conquer: Provably Unveiling the Pareto Front with Multi-Objective Reinforcement Learning (Willem Röpke et al., 2024)
+### (21/23 | 22/79) Divide and Conquer: Provably Unveiling the Pareto Front with Multi-Objective Reinforcement Learning (Willem Röpke et al., 2024)
 
 {{<citation>}}
 
 Willem Röpke, Mathieu Reymond, Patrick Mannion, Diederik M. Roijers, Ann Nowé, Roxana Rădulescu. (2024)  
 **Divide and Conquer: Provably Unveiling the Pareto Front with Multi-Objective Reinforcement Learning**
 <br/>
-<button class="copy-to-clipboard" title="Divide and Conquer: Provably Unveiling the Pareto Front with Multi-Objective Reinforcement Learning" index=28>
+<button class="copy-to-clipboard" title="Divide and Conquer: Provably Unveiling the Pareto Front with Multi-Objective Reinforcement Learning" index=22>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-28 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-22 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1335,14 +1193,228 @@ A significant challenge in multi-objective <b>reinforcement</b> <b>learning</b> 
 {{</citation>}}
 
 
-### (29/78) GeoFormer: A Vision and Sequence Transformer-based Approach for Greenhouse Gas Monitoring (Madhav Khirwar et al., 2024)
+### (22/23 | 23/79) The Impact of Domain Knowledge and Multi-Modality on Intelligent Molecular Property Prediction: A Systematic Survey (Taojie Kuang et al., 2024)
 
 {{<citation>}}
 
-Madhav Khirwar, Ankur Narang. (2024)  
-**GeoFormer: A Vision and Sequence Transformer-based Approach for Greenhouse Gas Monitoring**
+Taojie Kuang, Pengfei Liu, Zhixiang Ren. (2024)  
+**The Impact of Domain Knowledge and Multi-Modality on Intelligent Molecular Property Prediction: A Systematic Survey**
 <br/>
-<button class="copy-to-clipboard" title="GeoFormer: A Vision and Sequence Transformer-based Approach for Greenhouse Gas Monitoring" index=29>
+<button class="copy-to-clipboard" title="The Impact of Domain Knowledge and Multi-Modality on Intelligent Molecular Property Prediction: A Systematic Survey" index=23>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-23 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.LG  
+Categories: cs-CE, cs-LG, cs.LG, q-bio-BM  
+Keyword Score: 6  
+Keywords: Benchmarking, Multi-modal  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07249v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07249v1.pdf" filename="2402.07249v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+The precise prediction of molecular properties is essential for advancements in drug development, particularly in virtual screening and compound optimization. The recent introduction of numerous deep learning-based methods has shown remarkable potential in enhancing molecular property prediction (MPP), especially improving accuracy and insights into molecular structures. Yet, two critical questions arise: does the integration of domain knowledge augment the accuracy of molecular property prediction and does employing <b>multi-modal</b> data fusion yield more precise results than unique data source methods? To explore these matters, we comprehensively review and quantitatively analyze recent deep learning methods based on various <b>benchmarks.</b> We discover that integrating molecular information will improve both MPP regression and classification tasks by upto 3.98% and 1.72%, respectively. We also discover that the utilizing 3-dimensional information with 1-dimensional and 2-dimensional information simultaneously can substantially enhance MPP upto 4.2%. The two consolidated insights offer crucial guidance for future advancements in drug discovery.
+
+{{</citation>}}
+
+
+## cs.CL (9)
+
+
+
+### (0/9 | 24/79) How do Large Language Models Navigate Conflicts between Honesty and Helpfulness? (Ryan Liu et al., 2024)
+
+{{<citation>}}
+
+Ryan Liu, Theodore R. Sumers, Ishita Dasgupta, Thomas L. Griffiths. (2024)  
+**How do Large Language Models Navigate Conflicts between Honesty and Helpfulness?**
+<br/>
+<button class="copy-to-clipboard" title="How do Large Language Models Navigate Conflicts between Honesty and Helpfulness?" index=24>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-24 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs-LG, cs.CL  
+Keyword Score: 110  
+Keywords: Reinforcement Learning, Reinforcement Learning from Human Feedback, Zero-shot, GPT, GPT-4, GPT-4 turbo, Reasoning, Chain-of-thought Prompt, Large Language Model, Large Language Model, Prompt  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07282v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07282v2.pdf" filename="2402.07282v2.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+In day-to-day communication, people often approximate the truth - for example, rounding the time or omitting details - in order to be maximally helpful to the listener. How do <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> handle such nuanced trade-offs? To address this question, we use psychological models and experiments designed to characterize human behavior to analyze <b>LLMs.</b> We test a range of <b>LLMs</b> and explore how optimization for human preferences or inference-time <b>reasoning</b> affects these trade-offs. We find that <b>reinforcement</b> <b>learning</b> <b>from</b> <b>human</b> <b>feedback</b> improves both honesty and helpfulness, while <b>chain-of-thought</b> <b>prompting</b> skews <b>LLMs</b> towards helpfulness over honesty. Finally, <b>GPT-4</b> <b>Turbo</b> demonstrates human-like response patterns including sensitivity to the conversational framing and listener's decision context. Our findings reveal the conversational values internalized by <b>LLMs</b> and suggest that even these abstract values can, to a degree, be steered by <b>zero-shot</b> <b>prompting.</b>
+
+{{</citation>}}
+
+
+### (1/9 | 25/79) Prompt Perturbation in Retrieval-Augmented Generation based Large Language Models (Zhibo Hu et al., 2024)
+
+{{<citation>}}
+
+Zhibo Hu, Chen Wang, Yanfeng Shu, Helen, Paik, Liming Zhu. (2024)  
+**Prompt Perturbation in Retrieval-Augmented Generation based Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Prompt Perturbation in Retrieval-Augmented Generation based Large Language Models" index=25>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-25 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: I-2-7; H-3-3, cs-CL, cs-IR, cs.CL  
+Keyword Score: 70  
+Keywords: Retrieval-Augmented Generation, Retrieval-Augmented Generation, Retrieval-Augmented Generation, Text Generation, Large Language Model, Large Language Model, Prompt  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07179v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07179v1.pdf" filename="2402.07179v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+The robustness of <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> becomes increasingly important as their use rapidly grows in a wide range of domains. <b>Retrieval-Augmented</b> <b>Generation</b> <b>(RAG)</b> is considered as a means to improve the trustworthiness of <b>text</b> <b>generation</b> from <b>LLMs.</b> However, how the outputs from <b>RAG-based</b> <b>LLMs</b> are affected by slightly different inputs is not well studied. In this work, we find that the insertion of even a short prefix to the <b>prompt</b> leads to the generation of outputs far away from factually correct answers. We systematically evaluate the effect of such prefixes on <b>RAG</b> by introducing a novel optimization technique called Gradient Guided <b>Prompt</b> Perturbation (GGPP). GGPP achieves a high success rate in steering outputs of <b>RAG-based</b> <b>LLMs</b> to targeted wrong answers. It can also cope with instructions in the <b>prompts</b> requesting to ignore irrelevant context. We also exploit <b>LLMs'</b> neuron activation difference between <b>prompts</b> with and without GGPP perturbations to give a method that improves the robustness of <b>RAG-based</b> <b>LLMs</b> through a highly effective detector trained on neuron activation triggered by GGPP generated <b>prompts.</b> Our evaluation on open-sourced <b>LLMs</b> demonstrates the effectiveness of our methods.
+
+{{</citation>}}
+
+
+### (2/9 | 26/79) Natural Language Reinforcement Learning (Xidong Feng et al., 2024)
+
+{{<citation>}}
+
+Xidong Feng, Ziyu Wan, Mengyue Yang, Ziyan Wang, Girish A. Koushiks, Yali Du, Ying Wen, Jun Wang. (2024)  
+**Natural Language Reinforcement Learning**
+<br/>
+<button class="copy-to-clipboard" title="Natural Language Reinforcement Learning" index=26>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-26 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs-LG, cs.CL  
+Keyword Score: 60  
+Keywords: Markov Decision Process, Reinforcement Learning, GPT, GPT-4, Large Language Model, Large Language Model  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07157v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07157v1.pdf" filename="2402.07157v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+<b>Reinforcement</b> <b>Learning</b> (RL) has shown remarkable abilities in learning policies for decision-making tasks. However, RL is often hindered by issues such as low sample efficiency, lack of interpretability, and sparse supervision signals. To tackle these limitations, we take inspiration from the human learning process and introduce Natural Language <b>Reinforcement</b> <b>Learning</b> (NLRL), which innovatively combines RL principles with natural language representation. Specifically, NLRL redefines RL concepts like task objectives, policy, value function, Bellman equation, and policy iteration in natural language space. We present how NLRL can be practically implemented with the latest advancements in <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> like <b>GPT-4.</b> Initial experiments over tabular <b>MDPs</b> demonstrate the effectiveness, efficiency, and also interpretability of the NLRL framework.
+
+{{</citation>}}
+
+
+### (3/9 | 27/79) TransGPT: Multi-modal Generative Pre-trained Transformer for Transportation (Peng Wang et al., 2024)
+
+{{<citation>}}
+
+Peng Wang, Xiang Wei, Fangxu Hu, Wenjuan Han. (2024)  
+**TransGPT: Multi-modal Generative Pre-trained Transformer for Transportation**
+<br/>
+<button class="copy-to-clipboard" title="TransGPT: Multi-modal Generative Pre-trained Transformer for Transportation" index=27>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-27 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keyword Score: 56  
+Keywords: Benchmarking, Fine-tuning, Multi-modal, Recommendation, Transformer, Neural Machine Translation, Large Language Model  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07233v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07233v1.pdf" filename="2402.07233v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Natural language processing (NLP) is a key component of intelligent transportation systems (ITS), but it faces many challenges in the transportation domain, such as domain-specific knowledge and data, and <b>multi-modal</b> inputs and outputs. This paper presents TransGPT, a novel <b>(multi-modal)</b> <b>large</b> <b>language</b> <b>model</b> for the transportation domain, which consists of two independent variants: TransGPT-SM for single-modal data and TransGPT-MM for <b>multi-modal</b> data. TransGPT-SM is <b>finetuned</b> on a single-modal Transportation dataset (STD) that contains textual data from various sources in the transportation domain. TransGPT-MM is <b>finetuned</b> on a <b>multi-modal</b> Transportation dataset <b>(MTD)</b> that we manually collected from three areas of the transportation domain: driving tests, traffic signs, and landmarks. We evaluate TransGPT on several <b>benchmark</b> datasets for different tasks in the transportation domain, and show that it outperforms baseline models on most tasks. We also showcase the potential applications of TransGPT for traffic analysis and modeling, such as generating synthetic traffic scenarios, explaining traffic phenomena, answering traffic-related questions, providing traffic <b>recommendations,</b> and generating traffic reports. This work advances the state-of-the-art of NLP in the transportation domain and provides a useful tool for ITS researchers and practitioners.
+
+{{</citation>}}
+
+
+### (4/9 | 28/79) Generalizing Conversational Dense Retrieval via LLM-Cognition Data Augmentation (Haonan Chen et al., 2024)
+
+{{<citation>}}
+
+Haonan Chen, Zhicheng Dou, Kelong Mao, Jiongnan Liu, Ziliang Zhao. (2024)  
+**Generalizing Conversational Dense Retrieval via LLM-Cognition Data Augmentation**
+<br/>
+<button class="copy-to-clipboard" title="Generalizing Conversational Dense Retrieval via LLM-Cognition Data Augmentation" index=28>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-28 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-IR, cs.CL  
+Keyword Score: 50  
+Keywords: Contrastive Learning, Data Augmentation, Dense Retrieval, Zero-shot, Large Language Model  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07092v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07092v1.pdf" filename="2402.07092v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Conversational search utilizes muli-turn natural language contexts to retrieve relevant passages. Existing conversational <b>dense</b> <b>retrieval</b> models mostly view a conversation as a fixed sequence of questions and responses, overlooking the severe <b>data</b> <b>sparsity</b> problem -- that is, users can perform a conversation in various ways, and these alternate conversations are unrecorded. Consequently, they often struggle to generalize to diverse conversations in real-world scenarios. In this work, we propose a framework for generalizing Conversational <b>dense</b> <b>retrieval</b> via <b>LLM-cognition</b> <b>data</b> <b>Augmentation</b> (ConvAug). ConvAug first generates multi-level augmented conversations to capture the diverse nature of conversational contexts. Inspired by human cognition, we devise a cognition-aware process to mitigate the generation of false positives, false negatives, and hallucinations. Moreover, we develop a difficulty-adaptive sample filter that selects challenging samples for complex conversations, thereby giving the model a larger learning space. A <b>contrastive</b> <b>learning</b> objective is then employed to train a better conversational context encoder. Extensive experiments conducted on four public datasets, under both normal and <b>zero-shot</b> settings, demonstrate the effectiveness, generalizability, and applicability of ConvAug.
+
+{{</citation>}}
+
+
+### (5/9 | 29/79) Previously on the Stories: Recap Snippet Identification for Story Reading (Jiangnan Li et al., 2024)
+
+{{<citation>}}
+
+Jiangnan Li, Qiujing Wang, Liyan Xu, Wenjie Pang, Mo Yu, Zheng Lin, Weiping Wang, Jie Zhou. (2024)  
+**Previously on the Stories: Recap Snippet Identification for Story Reading**
+<br/>
+<button class="copy-to-clipboard" title="Previously on the Stories: Recap Snippet Identification for Story Reading" index=29>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-29 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -1354,30 +1426,30 @@ Madhav Khirwar, Ankur Narang. (2024)
 </div>
 
 ---
-Primary Category: cs.LG  
-Categories: cs-CV, cs-LG, cs.LG  
-Keyword Score: 10  
-Keywords: Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07164v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07164v1.pdf" filename="2402.07164v1.pdf">Download PDF</button>
+Primary Category: cs.CL  
+Categories: cs-CL, cs.CL  
+Keyword Score: 23  
+Keywords: Benchmarking, Large Language Model, Pre-trained Language Model  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07271v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07271v1.pdf" filename="2402.07271v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Air pollution represents a pivotal environmental challenge globally, playing a major role in climate change via greenhouse gas emissions and negatively affecting the health of billions. However predicting the spatial and temporal patterns of pollutants remains challenging. The scarcity of ground-based monitoring facilities and the dependency of air pollution modeling on comprehensive datasets, often inaccessible for numerous areas, complicate this issue. In this work, we introduce GeoFormer, a compact model that combines a vision <b>transformer</b> module with a highly efficient time-series <b>transformer</b> module to predict surface-level nitrogen dioxide (NO2) concentrations from Sentinel-5P satellite imagery. We train the proposed model to predict surface-level NO2 measurements using a dataset we constructed with Sentinel-5P images of ground-level monitoring stations, and their corresponding NO2 concentration readings. The proposed model attains high accuracy (MAE 5.65), demonstrating the efficacy of combining vision and time-series <b>transformer</b> architectures to harness satellite-derived data for enhanced GHG emission insights, proving instrumental in advancing climate change monitoring and emission regulation efforts globally.
+Similar to the "previously-on" scenes in TV shows, recaps can help book reading by recalling the readers' memory about the important elements in previous texts to better understand the ongoing plot. Despite its usefulness, this application has not been well studied in the NLP community. We propose the first <b>benchmark</b> on this useful task called Recap Snippet Identification with a hand-crafted evaluation dataset. Our experiments show that the proposed task is challenging to <b>PLMs,</b> <b>LLMs,</b> and proposed methods as the task requires a deep understanding of the plot correlation between snippets.
 
 {{</citation>}}
 
 
-### (30/78) Future Prediction Can be a Strong Evidence of Good History Representation in Partially Observable Environments (Jeongyeol Kwon et al., 2024)
+### (6/9 | 30/79) American Sign Language Video to Text Translation (Parsheeta Roy et al., 2024)
 
 {{<citation>}}
 
-Jeongyeol Kwon, Liu Yang, Robert Nowak, Josiah Hanna. (2024)  
-**Future Prediction Can be a Strong Evidence of Good History Representation in Partially Observable Environments**
+Parsheeta Roy, Ji-Eun Han, Srishti Chouhan, Bhaavanaa Thumu. (2024)  
+**American Sign Language Video to Text Translation**
 <br/>
-<button class="copy-to-clipboard" title="Future Prediction Can be a Strong Evidence of Good History Representation in Partially Observable Environments" index=30>
+<button class="copy-to-clipboard" title="American Sign Language Video to Text Translation" index=30>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-30 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -1389,30 +1461,30 @@ Jeongyeol Kwon, Liu Yang, Robert Nowak, Josiah Hanna. (2024)
 </div>
 
 ---
-Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
-Keyword Score: 10  
-Keywords: Reinforcement Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07102v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07102v1.pdf" filename="2402.07102v1.pdf">Download PDF</button>
+Primary Category: cs.CL  
+Categories: cs-CL, cs-CV, cs.CL  
+Keyword Score: 20  
+Keywords: Label Smoothing, BLEU  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07255v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07255v1.pdf" filename="2402.07255v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Learning a good history representation is one of the core challenges of <b>reinforcement</b> <b>learning</b> (RL) in partially observable environments. Recent works have shown the advantages of various auxiliary tasks for facilitating representation learning. However, the effectiveness of such auxiliary tasks has not been fully convincing, especially in partially observable environments that require long-term memorization and inference. In this empirical study, we investigate the effectiveness of future prediction for learning the representations of histories, possibly of extensive length, in partially observable environments. We first introduce an approach that decouples the task of learning history representations from policy optimization via future prediction. Then, our main contributions are two-fold: (a) we demonstrate that the performance of <b>reinforcement</b> <b>learning</b> is strongly correlated with the prediction accuracy of future observations in partially observable environments, and (b) our approach can significantly improve the overall end-to-end approach by preventing high-variance noisy signals from <b>reinforcement</b> <b>learning</b> objectives to influence the representation learning. We illustrate our claims on three types of benchmarks that necessitate the ability to process long histories for high returns.
+Sign language to text is a crucial technology that can break down communication barriers for individuals with hearing difficulties. We replicate and try to improve on a recently published study. We evaluate models using <b>BLEU</b> and rBLEU metrics to ensure translation quality. During our ablation study, we found that the model's performance is significantly influenced by optimizers, activation functions, and <b>label</b> <b>smoothing.</b> Further research aims to refine visual feature capturing, enhance decoder utilization, and integrate pre-trained decoders for better translation outcomes. Our source code is available to facilitate replication of our results and encourage future research.
 
 {{</citation>}}
 
 
-### (31/78) Refined Sample Complexity for Markov Games with Independent Linear Function Approximation (Yan Dai et al., 2024)
+### (7/9 | 31/79) Low-Resource Counterspeech Generation for Indic Languages: The Case of Bengali and Hindi (Mithun Das et al., 2024)
 
 {{<citation>}}
 
-Yan Dai, Qiwen Cui, Simon S. Du. (2024)  
-**Refined Sample Complexity for Markov Games with Independent Linear Function Approximation**
+Mithun Das, Saurabh Kumar Pandey, Shivansh Sethi, Punyajoy Saha, Animesh Mukherjee. (2024)  
+**Low-Resource Counterspeech Generation for Indic Languages: The Case of Bengali and Hindi**
 <br/>
-<button class="copy-to-clipboard" title="Refined Sample Complexity for Markov Games with Independent Linear Function Approximation" index=31>
+<button class="copy-to-clipboard" title="Low-Resource Counterspeech Generation for Indic Languages: The Case of Bengali and Hindi" index=31>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-31 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -1424,30 +1496,30 @@ Yan Dai, Qiwen Cui, Simon S. Du. (2024)
 </div>
 
 ---
-Primary Category: cs.LG  
-Categories: cs-GT, cs-LG, cs.LG, stat-ML  
-Keyword Score: 10  
-Keywords: Reinforcement Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07082v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07082v1.pdf" filename="2402.07082v1.pdf">Download PDF</button>
+Primary Category: cs.CL  
+Categories: cs-CL, cs-HC, cs.CL  
+Keyword Score: 13  
+Keywords: Benchmarking, Low-Resource  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07262v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07262v1.pdf" filename="2402.07262v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Markov Games (MG) is an important model for Multi-Agent <b>Reinforcement</b> <b>Learning</b> (MARL). It was long believed that the "curse of multi-agents" (i.e., the algorithmic performance drops exponentially with the number of agents) is unavoidable until several recent works (Daskalakis et al., 2023; Cui et al., 2023; Wang et al., 2023. While these works did resolve the curse of multi-agents, when the state spaces are prohibitively large and (linear) function approximations are deployed, they either had a slower convergence rate of $O(T^{-1/4})$ or brought a polynomial dependency on the number of actions $A_{\max}$ -- which is avoidable in single-agent cases even when the loss functions can arbitrarily vary with time (Dai et al., 2023). This paper first refines the `AVLPR` framework by Wang et al. (2023), with an insight of *data-dependent* (i.e., stochastic) pessimistic estimation of the sub-optimality gap, allowing a broader choice of plug-in algorithms. When specialized to MGs with independent linear function approximations, we propose novel *action-dependent bonuses* to cover occasionally extreme estimation errors. With the help of state-of-the-art techniques from the single-agent RL literature, we give the first algorithm that tackles the curse of multi-agents, attains the optimal $O(T^{-1/2})$ convergence rate, and avoids $\text{poly}(A_{\max})$ dependency simultaneously.
+With the rise of online abuse, the NLP community has begun investigating the use of neural architectures to generate counterspeech that can "counter" the vicious tone of such abusive speech and dilute/ameliorate their rippling effect over the social network. However, most of the efforts so far have been primarily focused on English. To bridge the gap for <b>low-resource</b> languages such as Bengali and Hindi, we create a <b>benchmark</b> dataset of 5,062 abusive speech/counterspeech pairs, of which 2,460 pairs are in Bengali and 2,602 pairs are in Hindi. We implement several baseline models considering various interlingual transfer mechanisms with different configurations to generate suitable counterspeech to set up an effective <b>benchmark.</b> We observe that the monolingual setup yields the best performance. Further, using synthetic transfer, language models can generate counterspeech to some extent; specifically, we notice that transferability is better when languages belong to the same language family.
 
 {{</citation>}}
 
 
-### (32/78) The Impact of Domain Knowledge and Multi-Modality on Intelligent Molecular Property Prediction: A Systematic Survey (Taojie Kuang et al., 2024)
+### (8/9 | 32/79) Using Large Language Models for Student-Code Guided Test Case Generation in Computer Science Education (Nischal Ashok Kumar et al., 2024)
 
 {{<citation>}}
 
-Taojie Kuang, Pengfei Liu, Zhixiang Ren. (2024)  
-**The Impact of Domain Knowledge and Multi-Modality on Intelligent Molecular Property Prediction: A Systematic Survey**
+Nischal Ashok Kumar, Andrew Lan. (2024)  
+**Using Large Language Models for Student-Code Guided Test Case Generation in Computer Science Education**
 <br/>
-<button class="copy-to-clipboard" title="The Impact of Domain Knowledge and Multi-Modality on Intelligent Molecular Property Prediction: A Systematic Survey" index=32>
+<button class="copy-to-clipboard" title="Using Large Language Models for Student-Code Guided Test Case Generation in Computer Science Education" index=32>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-32 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -1459,18 +1531,18 @@ Taojie Kuang, Pengfei Liu, Zhixiang Ren. (2024)
 </div>
 
 ---
-Primary Category: cs.LG  
-Categories: cs-CE, cs-LG, cs.LG, q-bio-BM  
-Keyword Score: 3  
-Keywords: Multi-modal  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07249v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07249v1.pdf" filename="2402.07249v1.pdf">Download PDF</button>
+Primary Category: cs.CL  
+Categories: cs-CL, cs-SE, cs.CL  
+Keyword Score: 10  
+Keywords: Large Language Model  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07081v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07081v1.pdf" filename="2402.07081v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-The precise prediction of molecular properties is essential for advancements in drug development, particularly in virtual screening and compound optimization. The recent introduction of numerous deep learning-based methods has shown remarkable potential in enhancing molecular property prediction (MPP), especially improving accuracy and insights into molecular structures. Yet, two critical questions arise: does the integration of domain knowledge augment the accuracy of molecular property prediction and does employing <b>multi-modal</b> data fusion yield more precise results than unique data source methods? To explore these matters, we comprehensively review and quantitatively analyze recent deep learning methods based on various benchmarks. We discover that integrating molecular information will improve both MPP regression and classification tasks by upto 3.98% and 1.72%, respectively. We also discover that the utilizing 3-dimensional information with 1-dimensional and 2-dimensional information simultaneously can substantially enhance MPP upto 4.2%. The two consolidated insights offer crucial guidance for future advancements in drug discovery.
+In computer science education, test cases are an integral part of programming assignments since they can be used as assessment items to test students' programming knowledge and provide personalized feedback on student-written code. The goal of our work is to propose a fully automated approach for test case generation that can accurately measure student knowledge, which is important for two reasons. First, manually constructing test cases requires expert knowledge and is a labor-intensive process. Second, developing test cases for students, especially those who are novice programmers, is significantly different from those oriented toward professional-level software developers. Therefore, we need an automated process for test case generation to assess student knowledge and provide feedback. In this work, we propose a <b>large</b> <b>language</b> <b>model-based</b> approach to automatically generate test cases and show that they are good measures of student knowledge, using a publicly available dataset that contains student-written Java code. We also discuss future research directions centered on using test cases to help students.
 
 {{</citation>}}
 
@@ -1479,7 +1551,7 @@ The precise prediction of molecular properties is essential for advancements in 
 
 
 
-### (33/78) Semi-Mamba-UNet: Pixel-Level Contrastive Cross-Supervised Visual Mamba-based UNet for Semi-Supervised Medical Image Segmentation (Ziyang Wang et al., 2024)
+### (0/4 | 33/79) Semi-Mamba-UNet: Pixel-Level Contrastive Cross-Supervised Visual Mamba-based UNet for Semi-Supervised Medical Image Segmentation (Ziyang Wang et al., 2024)
 
 {{<citation>}}
 
@@ -1500,8 +1572,8 @@ Ziyang Wang, Chao Ma. (2024)
 ---
 Primary Category: eess.IV  
 Categories: cs-CV, eess-IV, eess.IV  
-Keyword Score: 80  
-Keywords: Contrastive Learning, Convolution, Convolutional Neural Network, Convolutional Neural Network, Self-supervised Learning, Semi-Supervised Learning, Transformer, Self-Attention  
+Keyword Score: 90  
+Keywords: Contrastive Learning, Convolution, Convolutional Neural Network, Convolutional Neural Network, Self-supervised Learning, Semi-Supervised Learning, Transformer, Self-Attention, Vision Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07245v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07245v1.pdf" filename="2402.07245v1.pdf">Download PDF</button>
 
@@ -1509,12 +1581,12 @@ Keywords: Contrastive Learning, Convolution, Convolutional Neural Network, Convo
 
 
 **ABSTRACT**  
-Medical image segmentation is essential in diagnostics, treatment planning, and healthcare, with deep learning offering promising advancements. Notably, <b>Convolutional</b> <b>Neural</b> <b>Network</b> <b>(CNN)</b> excel in capturing local image features, whereas Vision <b>Transformer</b> (ViT) adeptly model long-range dependencies through multi-head <b>self-attention</b> mechanisms. Despite their strengths, both <b>CNN</b> and ViT face challenges in efficiently processing long-range dependencies within medical images, often requiring substantial computational resources. This issue, combined with the high cost and limited availability of expert annotations, poses significant obstacles to achieving precise segmentation. To address these challenges, this paper introduces the Semi-Mamba-UNet, which integrates a visual mamba-based UNet architecture with a conventional UNet into a <b>semi-supervised</b> <b>learning</b> (SSL) framework. This innovative SSL approach leverages dual networks to jointly generate pseudo labels and cross supervise each other, drawing inspiration from consistency regularization techniques. Furthermore, we introduce a <b>self-supervised</b> pixel-level <b>contrastive</b> <b>learning</b> strategy, employing a projector pair to further enhance feature learning capabilities. Our comprehensive evaluation on a publicly available MRI cardiac segmentation dataset, comparing against various SSL frameworks with different UNet-based segmentation networks, highlights the superior performance of Semi-Mamba-UNet. The source code has been made publicly accessible.
+Medical image segmentation is essential in diagnostics, treatment planning, and healthcare, with deep learning offering promising advancements. Notably, <b>Convolutional</b> <b>Neural</b> <b>Network</b> <b>(CNN)</b> excel in capturing local image features, whereas <b>Vision</b> <b>Transformer</b> (ViT) adeptly model long-range dependencies through multi-head <b>self-attention</b> mechanisms. Despite their strengths, both <b>CNN</b> and ViT face challenges in efficiently processing long-range dependencies within medical images, often requiring substantial computational resources. This issue, combined with the high cost and limited availability of expert annotations, poses significant obstacles to achieving precise segmentation. To address these challenges, this paper introduces the Semi-Mamba-UNet, which integrates a visual mamba-based UNet architecture with a conventional UNet into a <b>semi-supervised</b> <b>learning</b> (SSL) framework. This innovative SSL approach leverages dual networks to jointly generate pseudo labels and cross supervise each other, drawing inspiration from consistency regularization techniques. Furthermore, we introduce a <b>self-supervised</b> pixel-level <b>contrastive</b> <b>learning</b> strategy, employing a projector pair to further enhance feature learning capabilities. Our comprehensive evaluation on a publicly available MRI cardiac segmentation dataset, comparing against various SSL frameworks with different UNet-based segmentation networks, highlights the superior performance of Semi-Mamba-UNet. The source code has been made publicly accessible.
 
 {{</citation>}}
 
 
-### (34/78) KVQ: Kaleidoscope Video Quality Assessment for Short-form Videos (Yiting Lu et al., 2024)
+### (1/4 | 34/79) KVQ: Kaleidoscope Video Quality Assessment for Short-form Videos (Yiting Lu et al., 2024)
 
 {{<citation>}}
 
@@ -1549,7 +1621,7 @@ Short-form UGC video platforms, like Kwai and TikTok, have been an emerging and 
 {{</citation>}}
 
 
-### (35/78) Spatio-spectral classification of hyperspectral images for brain cancer detection during surgical operations (H. Fabelo et al., 2024)
+### (2/4 | 35/79) Spatio-spectral classification of hyperspectral images for brain cancer detection during surgical operations (H. Fabelo et al., 2024)
 
 {{<citation>}}
 
@@ -1584,7 +1656,7 @@ Surgery for brain cancer is a major problem in neurosurgery. The diffuse infiltr
 {{</citation>}}
 
 
-### (36/78) Supervised Reconstruction for Silhouette Tomography (Evan Bell et al., 2024)
+### (3/4 | 36/79) Supervised Reconstruction for Silhouette Tomography (Evan Bell et al., 2024)
 
 {{<citation>}}
 
@@ -1623,7 +1695,7 @@ In this paper, we introduce silhouette tomography, a novel formulation of X-ray 
 
 
 
-### (37/78) GraphTranslator: Aligning Graph Model to Large Language Model for Open-ended Tasks (Mengmei Zhang et al., 2024)
+### (0/11 | 37/79) GraphTranslator: Aligning Graph Model to Large Language Model for Open-ended Tasks (Mengmei Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -1658,7 +1730,7 @@ Keywords: Node Classification, Zero-shot, ChatGPT, Instruction Following, Questi
 {{</citation>}}
 
 
-### (38/78) Multi-Modal Emotion Recognition by Text, Speech and Video Using Pretrained Transformers (Minoo Shayaninasab et al., 2024)
+### (1/11 | 38/79) Multi-Modal Emotion Recognition by Text, Speech and Video Using Pretrained Transformers (Minoo Shayaninasab et al., 2024)
 
 {{<citation>}}
 
@@ -1693,17 +1765,52 @@ Due to the complex nature of human <b>emotions</b> <b>and</b> the diversity of <
 {{</citation>}}
 
 
-### (39/78) Persian Speech Emotion Recognition by Fine-Tuning Transformers (Minoo Shayaninasab et al., 2024)
+### (2/11 | 39/79) CPSDBench: A Large Language Model Evaluation Benchmark and Baseline for Chinese Public Security Domain (Xin Tong et al., 2024)
+
+{{<citation>}}
+
+Xin Tong, Bo Jin, Zhi Lin, Binjun Wang, Ting Yu. (2024)  
+**CPSDBench: A Large Language Model Evaluation Benchmark and Baseline for Chinese Public Security Domain**
+<br/>
+<button class="copy-to-clipboard" title="CPSDBench: A Large Language Model Evaluation Benchmark and Baseline for Chinese Public Security Domain" index=39>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-39 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keyword Score: 63  
+Keywords: Benchmarking, Information Retrieval, Question Answering, Text Classification, Text Generation, Large Language Model, Large Language Model  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07234v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07234v1.pdf" filename="2402.07234v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+<b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> have demonstrated significant potential and effectiveness across multiple application domains. To assess the performance of mainstream <b>LLMs</b> in public security tasks, this study aims to construct a specialized evaluation <b>benchmark</b> tailored to the Chinese public security domain--CPSDbench. CPSDbench integrates datasets related to public security collected from real-world scenarios, supporting a comprehensive assessment of <b>LLMs</b> across four key dimensions: <b>text</b> <b>classification,</b> <b>information</b> <b>extraction,</b> <b>question</b> <b>answering,</b> and <b>text</b> <b>generation.</b> Furthermore, this study introduces a set of innovative evaluation metrics designed to more precisely quantify the efficacy of <b>LLMs</b> in executing tasks related to public security. Through the in-depth analysis and evaluation conducted in this research, we not only enhance our understanding of the performance strengths and limitations of existing models in addressing public security issues but also provide references for the future development of more accurate and customized <b>LLM</b> models targeted at applications in this field.
+
+{{</citation>}}
+
+
+### (3/11 | 40/79) Persian Speech Emotion Recognition by Fine-Tuning Transformers (Minoo Shayaninasab et al., 2024)
 
 {{<citation>}}
 
 Minoo Shayaninasab, Bagher Babaali. (2024)  
 **Persian Speech Emotion Recognition by Fine-Tuning Transformers**
 <br/>
-<button class="copy-to-clipboard" title="Persian Speech Emotion Recognition by Fine-Tuning Transformers" index=39>
+<button class="copy-to-clipboard" title="Persian Speech Emotion Recognition by Fine-Tuning Transformers" index=40>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-39 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-40 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1728,42 +1835,7 @@ Given the significance of speech <b>emotion</b> <b>recognition,</b> numerous met
 {{</citation>}}
 
 
-### (40/78) CPSDBench: A Large Language Model Evaluation Benchmark and Baseline for Chinese Public Security Domain (Xin Tong et al., 2024)
-
-{{<citation>}}
-
-Xin Tong, Bo Jin, Zhi Lin, Binjun Wang, Ting Yu. (2024)  
-**CPSDBench: A Large Language Model Evaluation Benchmark and Baseline for Chinese Public Security Domain**
-<br/>
-<button class="copy-to-clipboard" title="CPSDBench: A Large Language Model Evaluation Benchmark and Baseline for Chinese Public Security Domain" index=40>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-40 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
-Keyword Score: 60  
-Keywords: Information Retrieval, Question Answering, Text Classification, Text Generation, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07234v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07234v1.pdf" filename="2402.07234v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-<b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> have demonstrated significant potential and effectiveness across multiple application domains. To assess the performance of mainstream <b>LLMs</b> in public security tasks, this study aims to construct a specialized evaluation benchmark tailored to the Chinese public security domain--CPSDbench. CPSDbench integrates datasets related to public security collected from real-world scenarios, supporting a comprehensive assessment of <b>LLMs</b> across four key dimensions: <b>text</b> <b>classification,</b> <b>information</b> <b>extraction,</b> <b>question</b> <b>answering,</b> and <b>text</b> <b>generation.</b> Furthermore, this study introduces a set of innovative evaluation metrics designed to more precisely quantify the efficacy of <b>LLMs</b> in executing tasks related to public security. Through the in-depth analysis and evaluation conducted in this research, we not only enhance our understanding of the performance strengths and limitations of existing models in addressing public security issues but also provide references for the future development of more accurate and customized <b>LLM</b> models targeted at applications in this field.
-
-{{</citation>}}
-
-
-### (41/78) Large-Language-Model Empowered Dose Volume Histogram Prediction for Intensity Modulated Radiotherapy (Zehao Dong et al., 2024)
+### (4/11 | 41/79) Large-Language-Model Empowered Dose Volume Histogram Prediction for Intensity Modulated Radiotherapy (Zehao Dong et al., 2024)
 
 {{<citation>}}
 
@@ -1798,7 +1870,7 @@ Treatment planning is currently a patient specific, time-consuming, and resource
 {{</citation>}}
 
 
-### (42/78) Sequential Ordering in Textual Descriptions: Impact on Spatial Perception Abilities of Large Language Models (Yuyao Ge et al., 2024)
+### (5/11 | 42/79) Sequential Ordering in Textual Descriptions: Impact on Spatial Perception Abilities of Large Language Models (Yuyao Ge et al., 2024)
 
 {{<citation>}}
 
@@ -1819,8 +1891,8 @@ Yuyao Ge, Shenghua Liu, Lingrui Mei, Lizhe Chen, Xueqi Cheng. (2024)
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
-Keyword Score: 30  
-Keywords: Reasoning, Large Language Model, Large Language Model  
+Keyword Score: 33  
+Keywords: Benchmarking, Reasoning, Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07140v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07140v1.pdf" filename="2402.07140v1.pdf">Download PDF</button>
 
@@ -1828,22 +1900,57 @@ Keywords: Reasoning, Large Language Model, Large Language Model
 
 
 **ABSTRACT**  
-In recent years, <b>Large</b> <b>Language</b> <b>Models</b> have reached state-of-the-art performance across multiple domains. However, the progress in the field of graph <b>reasoning</b> remains limited. Our work delves into this gap by thoroughly investigating graph <b>reasoning</b> with <b>LLM.</b> In this work, we reveal the impact of text sequence on <b>LLM</b> spatial understanding, finding that graph-descriptive text sequences significantly affect <b>LLM</b> <b>reasoning</b> performance on graphs. By altering the graph-descriptive text sequences, we enhance the performance of <b>LLM</b> from 42.22\% to 70\%. Furthermore, we evaluate the relationship between <b>LLM</b> performance and graph size, discovering that the <b>reasoning</b> performance of <b>LLM</b> does not monotonically decrease with the increase in graph size. Conclusively, we introduce the Scaled Graph <b>Reasoning</b> benchmark for assessing <b>LLM</b> performance across varied graph sizes.
+In recent years, <b>Large</b> <b>Language</b> <b>Models</b> have reached state-of-the-art performance across multiple domains. However, the progress in the field of graph <b>reasoning</b> remains limited. Our work delves into this gap by thoroughly investigating graph <b>reasoning</b> with <b>LLM.</b> In this work, we reveal the impact of text sequence on <b>LLM</b> spatial understanding, finding that graph-descriptive text sequences significantly affect <b>LLM</b> <b>reasoning</b> performance on graphs. By altering the graph-descriptive text sequences, we enhance the performance of <b>LLM</b> from 42.22\% to 70\%. Furthermore, we evaluate the relationship between <b>LLM</b> performance and graph size, discovering that the <b>reasoning</b> performance of <b>LLM</b> does not monotonically decrease with the increase in graph size. Conclusively, we introduce the Scaled Graph <b>Reasoning</b> <b>benchmark</b> for assessing <b>LLM</b> performance across varied graph sizes.
 
 {{</citation>}}
 
 
-### (43/78) Synergizing Spatial Optimization with Large Language Models for Open-Domain Urban Itinerary Planning (Yihong Tang et al., 2024)
+### (6/11 | 43/79) A Random Ensemble of Encrypted Vision Transformers for Adversarially Robust Defense (Ryota Iijima et al., 2024)
+
+{{<citation>}}
+
+Ryota Iijima, Sayaka Shiota, Hitoshi Kiya. (2024)  
+**A Random Ensemble of Encrypted Vision Transformers for Adversarially Robust Defense**
+<br/>
+<button class="copy-to-clipboard" title="A Random Ensemble of Encrypted Vision Transformers for Adversarially Robust Defense" index=43>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-43 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.AI  
+Categories: cs-AI, cs.AI  
+Keyword Score: 23  
+Keywords: Benchmarking, Transformer, Vision Transformer  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07183v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07183v1.pdf" filename="2402.07183v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Deep neural networks (DNNs) are well known to be vulnerable to adversarial examples (AEs). In previous studies, the use of models encrypted with a secret key was demonstrated to be robust against white-box attacks, but not against black-box ones. In this paper, we propose a novel method using the <b>vision</b> <b>transformer</b> (ViT) that is a random ensemble of encrypted models for enhancing robustness against both white-box and black-box attacks. In addition, a <b>benchmark</b> attack method, called AutoAttack, is applied to models to test adversarial robustness objectively. In experiments, the method was demonstrated to be robust against not only white-box attacks but also black-box ones in an image classification task on the CIFAR-10 and ImageNet datasets. The method was also compared with the state-of-the-art in a standardized <b>benchmark</b> for adversarial robustness, RobustBench, and it was verified to outperform conventional defenses in terms of clean accuracy and robust accuracy.
+
+{{</citation>}}
+
+
+### (7/11 | 44/79) Synergizing Spatial Optimization with Large Language Models for Open-Domain Urban Itinerary Planning (Yihong Tang et al., 2024)
 
 {{<citation>}}
 
 Yihong Tang, Zhaokai Wang, Ao Qu, Yihao Yan, Kebing Hou, Dingyi Zhuang, Xiaotong Guo, Jinhua Zhao, Zhan Zhao, Wei Ma. (2024)  
 **Synergizing Spatial Optimization with Large Language Models for Open-Domain Urban Itinerary Planning**
 <br/>
-<button class="copy-to-clipboard" title="Synergizing Spatial Optimization with Large Language Models for Open-Domain Urban Itinerary Planning" index=43>
+<button class="copy-to-clipboard" title="Synergizing Spatial Optimization with Large Language Models for Open-Domain Urban Itinerary Planning" index=44>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-43 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-44 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1868,17 +1975,17 @@ In this paper, we for the first time propose the task of Open-domain Urban Itine
 {{</citation>}}
 
 
-### (44/78) Stitching Sub-Trajectories with Conditional Diffusion Model for Goal-Conditioned Offline RL (Sungyoon Kim et al., 2024)
+### (8/11 | 45/79) Stitching Sub-Trajectories with Conditional Diffusion Model for Goal-Conditioned Offline RL (Sungyoon Kim et al., 2024)
 
 {{<citation>}}
 
 Sungyoon Kim, Yunseon Choi, Daiki E. Matsunaga, Kee-Eung Kim. (2024)  
 **Stitching Sub-Trajectories with Conditional Diffusion Model for Goal-Conditioned Offline RL**
 <br/>
-<button class="copy-to-clipboard" title="Stitching Sub-Trajectories with Conditional Diffusion Model for Goal-Conditioned Offline RL" index=44>
+<button class="copy-to-clipboard" title="Stitching Sub-Trajectories with Conditional Diffusion Model for Goal-Conditioned Offline RL" index=45>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-44 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-45 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1889,8 +1996,8 @@ Sungyoon Kim, Yunseon Choi, Daiki E. Matsunaga, Kee-Eung Kim. (2024)
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs.AI  
-Keyword Score: 10  
-Keywords: Reinforcement Learning  
+Keyword Score: 13  
+Keywords: Benchmarking, Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07226v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07226v1.pdf" filename="2402.07226v1.pdf">Download PDF</button>
 
@@ -1898,22 +2005,22 @@ Keywords: Reinforcement Learning
 
 
 **ABSTRACT**  
-Offline Goal-Conditioned <b>Reinforcement</b> <b>Learning</b> (Offline GCRL) is an important problem in RL that focuses on acquiring diverse goal-oriented skills solely from pre-collected behavior datasets. In this setting, the reward feedback is typically absent except when the goal is achieved, which makes it difficult to learn policies especially from a finite dataset of suboptimal behaviors. In addition, realistic scenarios involve long-horizon planning, which necessitates the extraction of useful skills within sub-trajectories. Recently, the conditional diffusion model has been shown to be a promising approach to generate high-quality long-horizon plans for RL. However, their practicality for the goal-conditioned setting is still limited due to a number of technical assumptions made by the methods. In this paper, we propose SSD (Sub-trajectory Stitching with Diffusion), a model-based offline GCRL method that leverages the conditional diffusion model to address these limitations. In summary, we use the diffusion model that generates future plans conditioned on the target goal and value, with the target value estimated from the goal-relabeled offline dataset. We report state-of-the-art performance in the standard benchmark set of GCRL tasks, and demonstrate the capability to successfully stitch the segments of suboptimal trajectories in the offline data to generate high-quality plans.
+Offline Goal-Conditioned <b>Reinforcement</b> <b>Learning</b> (Offline GCRL) is an important problem in RL that focuses on acquiring diverse goal-oriented skills solely from pre-collected behavior datasets. In this setting, the reward feedback is typically absent except when the goal is achieved, which makes it difficult to learn policies especially from a finite dataset of suboptimal behaviors. In addition, realistic scenarios involve long-horizon planning, which necessitates the extraction of useful skills within sub-trajectories. Recently, the conditional diffusion model has been shown to be a promising approach to generate high-quality long-horizon plans for RL. However, their practicality for the goal-conditioned setting is still limited due to a number of technical assumptions made by the methods. In this paper, we propose SSD (Sub-trajectory Stitching with Diffusion), a model-based offline GCRL method that leverages the conditional diffusion model to address these limitations. In summary, we use the diffusion model that generates future plans conditioned on the target goal and value, with the target value estimated from the goal-relabeled offline dataset. We report state-of-the-art performance in the standard <b>benchmark</b> set of GCRL tasks, and demonstrate the capability to successfully stitch the segments of suboptimal trajectories in the offline data to generate high-quality plans.
 
 {{</citation>}}
 
 
-### (45/78) The Reasons that Agents Act: Intention and Instrumental Goals (Francis Rhys Ward et al., 2024)
+### (9/11 | 46/79) The Reasons that Agents Act: Intention and Instrumental Goals (Francis Rhys Ward et al., 2024)
 
 {{<citation>}}
 
 Francis Rhys Ward, Matt MacDermott, Francesco Belardinelli, Francesca Toni, Tom Everitt. (2024)  
 **The Reasons that Agents Act: Intention and Instrumental Goals**
 <br/>
-<button class="copy-to-clipboard" title="The Reasons that Agents Act: Intention and Instrumental Goals" index=45>
+<button class="copy-to-clipboard" title="The Reasons that Agents Act: Intention and Instrumental Goals" index=46>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-45 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-46 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1938,42 +2045,7 @@ Intention is an important and challenging concept in AI. It is important because
 {{</citation>}}
 
 
-### (46/78) A Random Ensemble of Encrypted Vision Transformers for Adversarially Robust Defense (Ryota Iijima et al., 2024)
-
-{{<citation>}}
-
-Ryota Iijima, Sayaka Shiota, Hitoshi Kiya. (2024)  
-**A Random Ensemble of Encrypted Vision Transformers for Adversarially Robust Defense**
-<br/>
-<button class="copy-to-clipboard" title="A Random Ensemble of Encrypted Vision Transformers for Adversarially Robust Defense" index=46>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-46 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.AI  
-Categories: cs-AI, cs.AI  
-Keyword Score: 10  
-Keywords: Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07183v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07183v1.pdf" filename="2402.07183v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-Deep neural networks (DNNs) are well known to be vulnerable to adversarial examples (AEs). In previous studies, the use of models encrypted with a secret key was demonstrated to be robust against white-box attacks, but not against black-box ones. In this paper, we propose a novel method using the vision <b>transformer</b> (ViT) that is a random ensemble of encrypted models for enhancing robustness against both white-box and black-box attacks. In addition, a benchmark attack method, called AutoAttack, is applied to models to test adversarial robustness objectively. In experiments, the method was demonstrated to be robust against not only white-box attacks but also black-box ones in an image classification task on the CIFAR-10 and ImageNet datasets. The method was also compared with the state-of-the-art in a standardized benchmark for adversarial robustness, RobustBench, and it was verified to outperform conventional defenses in terms of clean accuracy and robust accuracy.
-
-{{</citation>}}
-
-
-### (47/78) Social Evolution of Published Text and The Emergence of Artificial Intelligence Through Large Language Models and The Problem of Toxicity and Bias (Arifa Khan et al., 2024)
+### (10/11 | 47/79) Social Evolution of Published Text and The Emergence of Artificial Intelligence Through Large Language Models and The Problem of Toxicity and Bias (Arifa Khan et al., 2024)
 
 {{<citation>}}
 
@@ -2012,7 +2084,7 @@ We provide a birds eye view of the rapid developments in AI and Deep Learning th
 
 
 
-### (48/78) Does ChatGPT and Whisper Make Humanoid Robots More Relatable? (Xiaohui Chen et al., 2024)
+### (0/2 | 48/79) Does ChatGPT and Whisper Make Humanoid Robots More Relatable? (Xiaohui Chen et al., 2024)
 
 {{<citation>}}
 
@@ -2047,7 +2119,7 @@ Humanoid robots are designed to be relatable to humans for applications such as 
 {{</citation>}}
 
 
-### (49/78) Learning by Watching: A Review of Video-based Learning Approaches for Robot Manipulation (Chrisantus Eze et al., 2024)
+### (1/2 | 49/79) Learning by Watching: A Review of Video-based Learning Approaches for Robot Manipulation (Chrisantus Eze et al., 2024)
 
 {{<citation>}}
 
@@ -2068,8 +2140,8 @@ Chrisantus Eze, Christopher Crick. (2024)
 ---
 Primary Category: cs.RO  
 Categories: cs-AI, cs-CV, cs-LG, cs-RO, cs.RO  
-Keyword Score: 20  
-Keywords: Self-supervised Learning, Summarization  
+Keyword Score: 23  
+Keywords: Benchmarking, Self-supervised Learning, Summarization  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07127v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07127v1.pdf" filename="2402.07127v1.pdf">Download PDF</button>
 
@@ -2077,7 +2149,7 @@ Keywords: Self-supervised Learning, Summarization
 
 
 **ABSTRACT**  
-Robot learning of manipulation skills is hindered by the scarcity of diverse, unbiased datasets. While curated datasets can help, challenges remain in generalizability and real-world transfer. Meanwhile, large-scale "in-the-wild" video datasets have driven progress in computer vision through <b>self-supervised</b> techniques. Translating this to robotics, recent works have explored learning manipulation skills by passively watching abundant videos sourced online. Showing promising results, such video-based learning paradigms provide scalable supervision while reducing dataset bias. This survey reviews foundations such as video feature representation learning techniques, object affordance understanding, 3D hand/body modeling, and large-scale robot resources, as well as emerging techniques for acquiring robot manipulation skills from uncontrolled video demonstrations. We discuss how learning only from observing large-scale human videos can enhance generalization and sample efficiency for robotic manipulation. The survey <b>summarizes</b> video-based learning approaches, analyses their benefits over standard datasets, survey metrics, and benchmarks, and discusses open challenges and future directions in this nascent domain at the intersection of computer vision, natural language processing, and robot learning.
+Robot learning of manipulation skills is hindered by the scarcity of diverse, unbiased datasets. While curated datasets can help, challenges remain in generalizability and real-world transfer. Meanwhile, large-scale "in-the-wild" video datasets have driven progress in computer vision through <b>self-supervised</b> techniques. Translating this to robotics, recent works have explored learning manipulation skills by passively watching abundant videos sourced online. Showing promising results, such video-based learning paradigms provide scalable supervision while reducing dataset bias. This survey reviews foundations such as video feature representation learning techniques, object affordance understanding, 3D hand/body modeling, and large-scale robot resources, as well as emerging techniques for acquiring robot manipulation skills from uncontrolled video demonstrations. We discuss how learning only from observing large-scale human videos can enhance generalization and sample efficiency for robotic manipulation. The survey <b>summarizes</b> video-based learning approaches, analyses their benefits over standard datasets, survey metrics, and <b>benchmarks,</b> and discusses open challenges and future directions in this nascent domain at the intersection of computer vision, natural language processing, and robot learning.
 
 {{</citation>}}
 
@@ -2086,14 +2158,14 @@ Robot learning of manipulation skills is hindered by the scarcity of diverse, un
 
 
 
-### (50/78) A Benchmark for Multi-modal Foundation Models on Low-level Vision: from Single Images to Pairs (Zicheng Zhang et al., 2024)
+### (0/12 | 50/79) Open-ended VQA benchmarking of Vision-Language models by exploiting Classification datasets and their semantic hierarchy (Simon Ging et al., 2024)
 
 {{<citation>}}
 
-Zicheng Zhang, Haoning Wu, Erli Zhang, Guangtao Zhai, Weisi Lin. (2024)  
-**A Benchmark for Multi-modal Foundation Models on Low-level Vision: from Single Images to Pairs**
+Simon Ging, María A. Bravo, Thomas Brox. (2024)  
+**Open-ended VQA benchmarking of Vision-Language models by exploiting Classification datasets and their semantic hierarchy**
 <br/>
-<button class="copy-to-clipboard" title="A Benchmark for Multi-modal Foundation Models on Low-level Vision: from Single Images to Pairs" index=50>
+<button class="copy-to-clipboard" title="Open-ended VQA benchmarking of Vision-Language models by exploiting Classification datasets and their semantic hierarchy" index=50>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-50 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -2106,29 +2178,29 @@ Zicheng Zhang, Haoning Wu, Erli Zhang, Guangtao Zhai, Weisi Lin. (2024)
 
 ---
 Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keyword Score: 53  
-Keywords: Foundation Model, Multi-modal, GPT, Question Answering, Visual Question Answering, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07116v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07116v1.pdf" filename="2402.07116v1.pdf">Download PDF</button>
+Categories: cs-CL, cs-CV, cs-LG, cs.CV  
+Keyword Score: 56  
+Keywords: Benchmarking, Benchmarking, Question Answering, Visual Question Answering, Visual Question Answering, Large Language Model, Vision-and-Language  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07270v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07270v1.pdf" filename="2402.07270v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-The rapid development of Multi-modality <b>Large</b> <b>Language</b> <b>Models</b> (MLLMs) has navigated a paradigm shift in computer vision, moving towards versatile <b>foundational</b> <b>models.</b> However, evaluating MLLMs in low-level <b>visual</b> <b>perception</b> <b>and</b> understanding remains a yet-to-explore domain. To this end, we design benchmark settings to emulate human language responses related to low-level vision: the low-level <b>visual</b> <b>perception</b> <b>(A1)</b> via <b>visual</b> <b>question</b> <b>answering</b> related to low-level attributes (e.g. clarity, lighting); and the low-level <b>visual</b> <b>description</b> <b>(A2),</b> on evaluating MLLMs for low-level text descriptions. Furthermore, given that pairwise comparison can better avoid ambiguity of responses and has been adopted by many human experiments, we further extend the low-level perception-related <b>question-answering</b> <b>and</b> description evaluations of MLLMs from single images to image pairs. Specifically, for perception (A1), we carry out the LLVisionQA+ dataset, comprising 2,990 single images and 1,999 image pairs each accompanied by an open-ended <b>question</b> <b>about</b> its low-level features; for description (A2), we propose the LLDescribe+ dataset, evaluating MLLMs for low-level descriptions on 499 single images and 450 pairs. Additionally, we evaluate MLLMs on assessment (A3) ability, i.e. predicting score, by employing a softmax-based approach to enable all MLLMs to generate quantifiable quality ratings, tested against human opinions in 7 image quality assessment (IQA) datasets. With 24 MLLMs under evaluation, we demonstrate that several MLLMs have decent low-level <b>visual</b> <b>competencies</b> <b>on</b> single images, but only <b>GPT-4V</b> exhibits higher accuracy on pairwise comparisons than single image evaluations (like humans). We hope that our benchmark will motivate further research into uncovering and enhancing these nascent capabilities of MLLMs. Datasets will be available at https://github.com/Q-Future/Q-Bench.
+The evaluation of text-generative <b>vision-language</b> models is a challenging yet crucial endeavor. By addressing the limitations of existing <b>Visual</b> <b>Question</b> <b>Answering</b> <b>(VQA)</b> <b>benchmarks</b> and proposing innovative evaluation methodologies, our research seeks to advance our understanding of these models' capabilities. We propose a novel <b>VQA</b> <b>benchmark</b> based on well-known <b>visual</b> <b>classification</b> <b>datasets</b> which allows a granular evaluation of text-generative <b>vision-language</b> models and their comparison with discriminative <b>vision-language</b> models. To improve the assessment of coarse answers on fine-grained classification tasks, we suggest using the semantic hierarchy of the label space to ask automatically generated follow-up <b>questions</b> <b>about</b> the ground-truth category. Finally, we compare traditional NLP and <b>LLM-based</b> metrics for the problem of evaluating model predictions given ground-truth answers. We perform a human evaluation study upon which we base our decision on the final metric. We apply our <b>benchmark</b> to a suite of <b>vision-language</b> models and show a detailed comparison of their abilities on object, action, and attribute classification. Our contributions aim to lay the foundation for more precise and meaningful assessments, facilitating targeted progress in the exciting field of <b>vision-language</b> modeling.
 
 {{</citation>}}
 
 
-### (51/78) Open-ended VQA benchmarking of Vision-Language models by exploiting Classification datasets and their semantic hierarchy (Simon Ging et al., 2024)
+### (1/12 | 51/79) A Benchmark for Multi-modal Foundation Models on Low-level Vision: from Single Images to Pairs (Zicheng Zhang et al., 2024)
 
 {{<citation>}}
 
-Simon Ging, María A. Bravo, Thomas Brox. (2024)  
-**Open-ended VQA benchmarking of Vision-Language models by exploiting Classification datasets and their semantic hierarchy**
+Zicheng Zhang, Haoning Wu, Erli Zhang, Guangtao Zhai, Weisi Lin. (2024)  
+**A Benchmark for Multi-modal Foundation Models on Low-level Vision: from Single Images to Pairs**
 <br/>
-<button class="copy-to-clipboard" title="Open-ended VQA benchmarking of Vision-Language models by exploiting Classification datasets and their semantic hierarchy" index=51>
+<button class="copy-to-clipboard" title="A Benchmark for Multi-modal Foundation Models on Low-level Vision: from Single Images to Pairs" index=51>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-51 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -2141,22 +2213,22 @@ Simon Ging, María A. Bravo, Thomas Brox. (2024)
 
 ---
 Primary Category: cs.CV  
-Categories: cs-CL, cs-CV, cs-LG, cs.CV  
-Keyword Score: 50  
-Keywords: Question Answering, Visual Question Answering, Visual Question Answering, Large Language Model, Vision-and-Language  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07270v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07270v1.pdf" filename="2402.07270v1.pdf">Download PDF</button>
+Categories: cs-CV, cs.CV  
+Keyword Score: 56  
+Keywords: Benchmarking, Foundation Model, Multi-modal, GPT, Question Answering, Visual Question Answering, Large Language Model  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07116v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07116v1.pdf" filename="2402.07116v1.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-The evaluation of text-generative <b>vision-language</b> models is a challenging yet crucial endeavor. By addressing the limitations of existing <b>Visual</b> <b>Question</b> <b>Answering</b> <b>(VQA)</b> benchmarks and proposing innovative evaluation methodologies, our research seeks to advance our understanding of these models' capabilities. We propose a novel <b>VQA</b> benchmark based on well-known <b>visual</b> <b>classification</b> <b>datasets</b> which allows a granular evaluation of text-generative <b>vision-language</b> models and their comparison with discriminative <b>vision-language</b> models. To improve the assessment of coarse answers on fine-grained classification tasks, we suggest using the semantic hierarchy of the label space to ask automatically generated follow-up <b>questions</b> <b>about</b> the ground-truth category. Finally, we compare traditional NLP and <b>LLM-based</b> metrics for the problem of evaluating model predictions given ground-truth answers. We perform a human evaluation study upon which we base our decision on the final metric. We apply our benchmark to a suite of <b>vision-language</b> models and show a detailed comparison of their abilities on object, action, and attribute classification. Our contributions aim to lay the foundation for more precise and meaningful assessments, facilitating targeted progress in the exciting field of <b>vision-language</b> modeling.
+The rapid development of Multi-modality <b>Large</b> <b>Language</b> <b>Models</b> (MLLMs) has navigated a paradigm shift in computer vision, moving towards versatile <b>foundational</b> <b>models.</b> However, evaluating MLLMs in low-level <b>visual</b> <b>perception</b> <b>and</b> understanding remains a yet-to-explore domain. To this end, we design <b>benchmark</b> settings to emulate human language responses related to low-level vision: the low-level <b>visual</b> <b>perception</b> <b>(A1)</b> via <b>visual</b> <b>question</b> <b>answering</b> related to low-level attributes (e.g. clarity, lighting); and the low-level <b>visual</b> <b>description</b> <b>(A2),</b> on evaluating MLLMs for low-level text descriptions. Furthermore, given that pairwise comparison can better avoid ambiguity of responses and has been adopted by many human experiments, we further extend the low-level perception-related <b>question-answering</b> <b>and</b> description evaluations of MLLMs from single images to image pairs. Specifically, for perception (A1), we carry out the LLVisionQA+ dataset, comprising 2,990 single images and 1,999 image pairs each accompanied by an open-ended <b>question</b> <b>about</b> its low-level features; for description (A2), we propose the LLDescribe+ dataset, evaluating MLLMs for low-level descriptions on 499 single images and 450 pairs. Additionally, we evaluate MLLMs on assessment (A3) ability, i.e. predicting score, by employing a softmax-based approach to enable all MLLMs to generate quantifiable quality ratings, tested against human opinions in 7 image quality assessment (IQA) datasets. With 24 MLLMs under evaluation, we demonstrate that several MLLMs have decent low-level <b>visual</b> <b>competencies</b> <b>on</b> single images, but only <b>GPT-4V</b> exhibits higher accuracy on pairwise comparisons than single image evaluations (like humans). We hope that our <b>benchmark</b> will motivate further research into uncovering and enhancing these nascent capabilities of MLLMs. Datasets will be available at https://github.com/Q-Future/Q-Bench.
 
 {{</citation>}}
 
 
-### (52/78) Outlier-Aware Training for Low-Bit Quantization of Structural Re-Parameterized Networks (Muqun Niu et al., 2024)
+### (2/12 | 52/79) Outlier-Aware Training for Low-Bit Quantization of Structural Re-Parameterized Networks (Muqun Niu et al., 2024)
 
 {{<citation>}}
 
@@ -2191,7 +2263,7 @@ Lightweight design of <b>Convolutional</b> <b>Neural</b> <b>Networks</b> <b>(CNN
 {{</citation>}}
 
 
-### (53/78) Two-Stage Multi-task Self-Supervised Learning for Medical Image Segmentation (Binyan Hu et al., 2024)
+### (3/12 | 53/79) Two-Stage Multi-task Self-Supervised Learning for Medical Image Segmentation (Binyan Hu et al., 2024)
 
 {{<citation>}}
 
@@ -2226,7 +2298,7 @@ Medical image segmentation has been significantly advanced by deep learning (DL)
 {{</citation>}}
 
 
-### (54/78) The Bias of Harmful Label Associations in Vision-Language Models (Caner Hazirbas et al., 2024)
+### (4/12 | 54/79) The Bias of Harmful Label Associations in Vision-Language Models (Caner Hazirbas et al., 2024)
 
 {{<citation>}}
 
@@ -2261,17 +2333,52 @@ Despite the remarkable performance of foundation <b>vision-language</b> models, 
 {{</citation>}}
 
 
-### (55/78) Towards Explainable, Safe Autonomous Driving with Language Embeddings for Novelty Identification and Active Learning: Framework and Experimental Analysis with Real-World Data Sets (Ross Greer et al., 2024)
+### (5/12 | 55/79) LISR: Learning Linear 3D Implicit Surface Representation Using Compactly Supported Radial Basis Functions (Atharva Pandey et al., 2024)
+
+{{<citation>}}
+
+Atharva Pandey, Vishal Yadav, Rajendra Nagar, Santanu Chaudhury. (2024)  
+**LISR: Learning Linear 3D Implicit Surface Representation Using Compactly Supported Radial Basis Functions**
+<br/>
+<button class="copy-to-clipboard" title="LISR: Learning Linear 3D Implicit Surface Representation Using Compactly Supported Radial Basis Functions" index=55>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-55 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keyword Score: 23  
+Keywords: Benchmarking, Supervised Learning, Supervised Learning  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07301v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07301v1.pdf" filename="2402.07301v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Implicit 3D surface reconstruction of an object from its partial and noisy 3D point cloud scan is the classical geometry processing and 3D computer vision problem. In the literature, various 3D shape representations have been developed, differing in memory efficiency and shape retrieval effectiveness, such as volumetric, parametric, and implicit surfaces. Radial basis functions provide memory-efficient parameterization of the implicit surface. However, we show that training a neural network using the mean squared error between the ground-truth implicit surface and the linear basis-based implicit surfaces does not converge to the global solution. In this work, we propose locally supported compact radial basis functions for a linear representation of the implicit surface. This representation enables us to generate 3D shapes with arbitrary topologies at any resolution due to their continuous nature. We then propose a neural network architecture for learning the linear implicit shape representation of the 3D surface of an object. We learn linear implicit shapes within a <b>supervised</b> <b>learning</b> framework using ground truth Signed-Distance Field (SDF) data for guidance. The classical strategies face difficulties in finding linear implicit shapes from a given 3D point cloud due to numerical issues (requires solving inverse of a large matrix) in basis and query point selection. The proposed approach achieves better Chamfer distance and comparable F-score than the state-of-the-art approach on the <b>benchmark</b> dataset. We also show the effectiveness of the proposed approach by using it for the 3D shape completion task.
+
+{{</citation>}}
+
+
+### (6/12 | 56/79) Towards Explainable, Safe Autonomous Driving with Language Embeddings for Novelty Identification and Active Learning: Framework and Experimental Analysis with Real-World Data Sets (Ross Greer et al., 2024)
 
 {{<citation>}}
 
 Ross Greer, Mohan Trivedi. (2024)  
 **Towards Explainable, Safe Autonomous Driving with Language Embeddings for Novelty Identification and Active Learning: Framework and Experimental Analysis with Real-World Data Sets**
 <br/>
-<button class="copy-to-clipboard" title="Towards Explainable, Safe Autonomous Driving with Language Embeddings for Novelty Identification and Active Learning: Framework and Experimental Analysis with Real-World Data Sets" index=55>
+<button class="copy-to-clipboard" title="Towards Explainable, Safe Autonomous Driving with Language Embeddings for Novelty Identification and Active Learning: Framework and Experimental Analysis with Real-World Data Sets" index=56>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-55 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-56 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2296,42 +2403,7 @@ This research explores the integration of language embeddings for <b>active</b> 
 {{</citation>}}
 
 
-### (56/78) LISR: Learning Linear 3D Implicit Surface Representation Using Compactly Supported Radial Basis Functions (Atharva Pandey et al., 2024)
-
-{{<citation>}}
-
-Atharva Pandey, Vishal Yadav, Rajendra Nagar, Santanu Chaudhury. (2024)  
-**LISR: Learning Linear 3D Implicit Surface Representation Using Compactly Supported Radial Basis Functions**
-<br/>
-<button class="copy-to-clipboard" title="LISR: Learning Linear 3D Implicit Surface Representation Using Compactly Supported Radial Basis Functions" index=56>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-56 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keyword Score: 20  
-Keywords: Supervised Learning, Supervised Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07301v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07301v1.pdf" filename="2402.07301v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-Implicit 3D surface reconstruction of an object from its partial and noisy 3D point cloud scan is the classical geometry processing and 3D computer vision problem. In the literature, various 3D shape representations have been developed, differing in memory efficiency and shape retrieval effectiveness, such as volumetric, parametric, and implicit surfaces. Radial basis functions provide memory-efficient parameterization of the implicit surface. However, we show that training a neural network using the mean squared error between the ground-truth implicit surface and the linear basis-based implicit surfaces does not converge to the global solution. In this work, we propose locally supported compact radial basis functions for a linear representation of the implicit surface. This representation enables us to generate 3D shapes with arbitrary topologies at any resolution due to their continuous nature. We then propose a neural network architecture for learning the linear implicit shape representation of the 3D surface of an object. We learn linear implicit shapes within a <b>supervised</b> <b>learning</b> framework using ground truth Signed-Distance Field (SDF) data for guidance. The classical strategies face difficulties in finding linear implicit shapes from a given 3D point cloud due to numerical issues (requires solving inverse of a large matrix) in basis and query point selection. The proposed approach achieves better Chamfer distance and comparable F-score than the state-of-the-art approach on the benchmark dataset. We also show the effectiveness of the proposed approach by using it for the 3D shape completion task.
-
-{{</citation>}}
-
-
-### (57/78) GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting (Xiaoyu Zhou et al., 2024)
+### (7/12 | 57/79) GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting (Xiaoyu Zhou et al., 2024)
 
 {{<citation>}}
 
@@ -2366,7 +2438,7 @@ We present GALA3D, generative 3D GAussians with LAyout-guided control, for effec
 {{</citation>}}
 
 
-### (58/78) Deep Learning for Medical Image Segmentation with Imprecise Annotation (Binyan Hu et al., 2024)
+### (8/12 | 58/79) Deep Learning for Medical Image Segmentation with Imprecise Annotation (Binyan Hu et al., 2024)
 
 {{<citation>}}
 
@@ -2401,7 +2473,7 @@ Medical image segmentation (MIS) plays an instrumental role in medical image ana
 {{</citation>}}
 
 
-### (59/78) Trade-off Between Spatial and Angular Resolution in Facial Recognition (Muhammad Zeshan Alam et al., 2024)
+### (9/12 | 59/79) Trade-off Between Spatial and Angular Resolution in Facial Recognition (Muhammad Zeshan Alam et al., 2024)
 
 {{<citation>}}
 
@@ -2436,7 +2508,7 @@ Ensuring robustness in <b>face</b> <b>recognition</b> systems across various cha
 {{</citation>}}
 
 
-### (60/78) PIVOT-Net: Heterogeneous Point-Voxel-Tree-based Framework for Point Cloud Compression (Jiahao Pang et al., 2024)
+### (10/12 | 60/79) PIVOT-Net: Heterogeneous Point-Voxel-Tree-based Framework for Point Cloud Compression (Jiahao Pang et al., 2024)
 
 {{<citation>}}
 
@@ -2471,7 +2543,7 @@ The universality of the point cloud format enables many 3D applications, making 
 {{</citation>}}
 
 
-### (61/78) A novel spatial-frequency domain network for zero-shot incremental learning (Jie Ren et al., 2024)
+### (11/12 | 61/79) A novel spatial-frequency domain network for zero-shot incremental learning (Jie Ren et al., 2024)
 
 {{<citation>}}
 
@@ -2510,7 +2582,7 @@ Keywords: Zero-shot
 
 
 
-### (62/78) X-LoRA: Mixture of Low-Rank Adapter Experts, a Flexible Framework for Large Language Models with Applications in Protein Mechanics and Design (Eric L. Buehler et al., 2024)
+### (0/1 | 62/79) X-LoRA: Mixture of Low-Rank Adapter Experts, a Flexible Framework for Large Language Models with Applications in Protein Mechanics and Design (Eric L. Buehler et al., 2024)
 
 {{<citation>}}
 
@@ -2531,8 +2603,8 @@ Eric L. Buehler, Markus J. Buehler. (2024)
 ---
 Primary Category: cond-mat.soft  
 Categories: cond-mat-dis-nn, cond-mat-soft, cond-mat.soft, cs-AI, cs-CL, cs-LG, q-bio-QM  
-Keyword Score: 50  
-Keywords: Graph Attention Networks, Fine-tuning, Reasoning, Large Language Model, Large Language Model  
+Keyword Score: 55  
+Keywords: Graph Attention Networks, Fine-tuning, Knowledge Graph, Reasoning, Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07148v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07148v1.pdf" filename="2402.07148v1.pdf">Download PDF</button>
 
@@ -2540,7 +2612,7 @@ Keywords: Graph Attention Networks, Fine-tuning, Reasoning, Large Language Model
 
 
 **ABSTRACT**  
-We report a mixture of expert strategy to create <b>fine-tuned</b> <b>large</b> <b>language</b> <b>models</b> using a deep layer-wise token-level approach based on low-rank adaptation (LoRA). Starting with a set of pre-trained LoRA adapters, we propose a <b>gating</b> strategy that uses the hidden states to dynamically mix adapted layers, allowing the resulting X-LoRA model to draw upon different capabilities and create never-before-used deep layer-wise combinations of adaptations are established to solve specific tasks. The design is inspired by the biological principles of universality and diversity, where neural network building blocks are reused in different hierarchical manifestations. Hence, the X-LoRA model can be easily implemented for any existing <b>large</b> <b>language</b> <b>model</b> <b>(LLM)</b> without a need for modifications of the underlying structure. We develop a tailored X-LoRA model that offers scientific capabilities including forward/inverse analysis tasks and enhanced <b>reasoning</b> capability, focused on biomaterial analysis, protein mechanics and design. The impact of this work include access to readily expandable, adaptable and changeable models with strong domain knowledge and the capability to integrate across areas of knowledge. With the X-LoRA model featuring experts in biology, mathematics, <b>reasoning,</b> bio-inspired materials, mechanics and materials, chemistry, and protein mechanics we conduct a series of physics-focused case studies. We examine knowledge recall, protein mechanics forward/inverse tasks, protein design, and adversarial agentic modeling including ontological knowledge graphs. The model is capable not only of making quantitative predictions of nanomechanical properties of proteins, but also reasons over the results and correctly predicts likely mechanisms that explain distinct molecular behaviors.
+We report a mixture of expert strategy to create <b>fine-tuned</b> <b>large</b> <b>language</b> <b>models</b> using a deep layer-wise token-level approach based on low-rank adaptation (LoRA). Starting with a set of pre-trained LoRA adapters, we propose a <b>gating</b> strategy that uses the hidden states to dynamically mix adapted layers, allowing the resulting X-LoRA model to draw upon different capabilities and create never-before-used deep layer-wise combinations of adaptations are established to solve specific tasks. The design is inspired by the biological principles of universality and diversity, where neural network building blocks are reused in different hierarchical manifestations. Hence, the X-LoRA model can be easily implemented for any existing <b>large</b> <b>language</b> <b>model</b> <b>(LLM)</b> without a need for modifications of the underlying structure. We develop a tailored X-LoRA model that offers scientific capabilities including forward/inverse analysis tasks and enhanced <b>reasoning</b> capability, focused on biomaterial analysis, protein mechanics and design. The impact of this work include access to readily expandable, adaptable and changeable models with strong domain <b>knowledge</b> <b>and</b> the capability to integrate across areas of <b>knowledge.</b> <b>With</b> the X-LoRA model featuring experts in biology, mathematics, <b>reasoning,</b> bio-inspired materials, mechanics and materials, chemistry, and protein mechanics we conduct a series of physics-focused case studies. We examine <b>knowledge</b> <b>recall,</b> protein mechanics forward/inverse tasks, protein design, and adversarial agentic modeling including ontological <b>knowledge</b> <b>graphs.</b> The model is capable not only of making quantitative predictions of nanomechanical properties of proteins, but also reasons over the results and correctly predicts likely mechanisms that explain distinct molecular behaviors.
 
 {{</citation>}}
 
@@ -2549,7 +2621,7 @@ We report a mixture of expert strategy to create <b>fine-tuned</b> <b>large</b> 
 
 
 
-### (63/78) Insights into Natural Language Database Query Errors: From Attention Misalignment to User Handling Strategies (Zheng Ning et al., 2024)
+### (0/2 | 63/79) Insights into Natural Language Database Query Errors: From Attention Misalignment to User Handling Strategies (Zheng Ning et al., 2024)
 
 {{<citation>}}
 
@@ -2570,8 +2642,8 @@ Zheng Ning, Yuan Tian, Zheng Zhang, Tianyi Zhang, Toby Li. (2024)
 ---
 Primary Category: cs.HC  
 Categories: cs-HC, cs.HC  
-Keyword Score: 30  
-Keywords: Attention Alignment, Large Language Model, Large Language Model  
+Keyword Score: 33  
+Keywords: Benchmarking, Attention Alignment, Large Language Model, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07304v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07304v1.pdf" filename="2402.07304v1.pdf">Download PDF</button>
 
@@ -2579,12 +2651,12 @@ Keywords: Attention Alignment, Large Language Model, Large Language Model
 
 
 **ABSTRACT**  
-Querying structured databases with natural language (NL2SQL) has remained a difficult problem for years. Recently, the advancement of machine learning (ML), natural language processing (NLP), and <b>large</b> <b>language</b> <b>models</b> <b>(LLM)</b> have led to significant improvements in performance, with the best model achieving ~85% percent accuracy on the benchmark Spider dataset. However, there is a lack of a systematic understanding of the types, causes, and effectiveness of error-handling mechanisms of errors for erroneous queries nowadays. To bridge the gap, a taxonomy of errors made by four representative NL2SQL models was built in this work, along with an in-depth analysis of the errors. Second, the causes of model errors were explored by analyzing the model-human <b>attention</b> <b>alignment</b> to the natural language query. Last, a within-subjects user study with 26 participants was conducted to investigate the effectiveness of three interactive error-handling mechanisms in NL2SQL. Findings from this paper shed light on the design of model structure and error discovery and repair strategies for natural language data query interfaces in the future.
+Querying structured databases with natural language (NL2SQL) has remained a difficult problem for years. Recently, the advancement of machine learning (ML), natural language processing (NLP), and <b>large</b> <b>language</b> <b>models</b> <b>(LLM)</b> have led to significant improvements in performance, with the best model achieving ~85% percent accuracy on the <b>benchmark</b> Spider dataset. However, there is a lack of a systematic understanding of the types, causes, and effectiveness of error-handling mechanisms of errors for erroneous queries nowadays. To bridge the gap, a taxonomy of errors made by four representative NL2SQL models was built in this work, along with an in-depth analysis of the errors. Second, the causes of model errors were explored by analyzing the model-human <b>attention</b> <b>alignment</b> to the natural language query. Last, a within-subjects user study with 26 participants was conducted to investigate the effectiveness of three interactive error-handling mechanisms in NL2SQL. Findings from this paper shed light on the design of model structure and error discovery and repair strategies for natural language data query interfaces in the future.
 
 {{</citation>}}
 
 
-### (64/78) EmoWear: Exploring Emotional Teasers for Voice Message Interaction on Smartwatches (Pengcheng An et al., 2024)
+### (1/2 | 64/79) EmoWear: Exploring Emotional Teasers for Voice Message Interaction on Smartwatches (Pengcheng An et al., 2024)
 
 {{<citation>}}
 
@@ -2623,7 +2695,7 @@ Voice messages, by nature, prevent users from gauging the emotional tone without
 
 
 
-### (65/78) ML Framework for Wireless MAC Protocol Design (Navid Keshtiarast et al., 2024)
+### (0/1 | 65/79) ML Framework for Wireless MAC Protocol Design (Navid Keshtiarast et al., 2024)
 
 {{<citation>}}
 
@@ -2662,7 +2734,7 @@ Adaptivity, reconfigurability and intelligence are key features of the next-gene
 
 
 
-### (66/78) Joint Source-Channel Coding for Wireless Image Transmission: A Deep Compressed-Sensing Based Method (Mohammad Amin Jarrahi et al., 2024)
+### (0/1 | 66/79) Joint Source-Channel Coding for Wireless Image Transmission: A Deep Compressed-Sensing Based Method (Mohammad Amin Jarrahi et al., 2024)
 
 {{<citation>}}
 
@@ -2701,7 +2773,7 @@ Nowadays, the demand for image transmission over wireless networks has surged si
 
 
 
-### (67/78) Differentially Private Training of Mixture of Experts Models (Pierre Tholoniat et al., 2024)
+### (0/1 | 67/79) Differentially Private Training of Mixture of Experts Models (Pierre Tholoniat et al., 2024)
 
 {{<citation>}}
 
@@ -2740,7 +2812,7 @@ This position paper investigates the integration of Differential Privacy (DP) in
 
 
 
-### (68/78) Self-Consistent Conformal Prediction (Lars van der Laan et al., 2024)
+### (0/2 | 68/79) Self-Consistent Conformal Prediction (Lars van der Laan et al., 2024)
 
 {{<citation>}}
 
@@ -2775,7 +2847,7 @@ In decision-making guided by machine learning, decision-makers often take identi
 {{</citation>}}
 
 
-### (69/78) Resampling methods for Private Statistical Inference (Karan Chadha et al., 2024)
+### (1/2 | 69/79) Resampling methods for Private Statistical Inference (Karan Chadha et al., 2024)
 
 {{<citation>}}
 
@@ -2814,7 +2886,7 @@ We consider the task of constructing confidence intervals with differential priv
 
 
 
-### (70/78) Highly Accurate Disease Diagnosis and Highly Reproducible Biomarker Identification with PathFormer (Zehao Dong et al., 2024)
+### (0/1 | 70/79) Highly Accurate Disease Diagnosis and Highly Reproducible Biomarker Identification with PathFormer (Zehao Dong et al., 2024)
 
 {{<citation>}}
 
@@ -2853,7 +2925,7 @@ Biomarker identification is critical for precise disease diagnosis and understan
 
 
 
-### (71/78) Effort and Size Estimation in Software Projects with Large Language Model-based Intelligent Interfaces (Claudionor N. Coelho Jr et al., 2024)
+### (0/3 | 71/79) Effort and Size Estimation in Software Projects with Large Language Model-based Intelligent Interfaces (Claudionor N. Coelho Jr et al., 2024)
 
 {{<citation>}}
 
@@ -2888,7 +2960,7 @@ The advancement of <b>Large</b> <b>Language</b> <b>Models</b> <b>(LLM)</b> has a
 {{</citation>}}
 
 
-### (72/78) Unprecedented Code Change Automation: The Fusion of LLMs and Transformation by Example (Malinda Dilhara et al., 2024)
+### (1/3 | 72/79) Unprecedented Code Change Automation: The Fusion of LLMs and Transformation by Example (Malinda Dilhara et al., 2024)
 
 {{<citation>}}
 
@@ -2923,7 +2995,7 @@ Software developers often repeat code changes, known as "code change patterns" (
 {{</citation>}}
 
 
-### (73/78) On the Effectiveness of Machine Learning-based Call Graph Pruning: An Empirical Study (Amir M. Mir et al., 2024)
+### (2/3 | 73/79) On the Effectiveness of Machine Learning-based Call Graph Pruning: An Empirical Study (Amir M. Mir et al., 2024)
 
 {{<citation>}}
 
@@ -2962,7 +3034,7 @@ Static call graph (CG) construction often over-approximates call relations, lead
 
 
 
-### (74/78) CodPy: a Python library for numerics, machine learning, and statistics (Philippe G. LeFloch et al., 2024)
+### (0/1 | 74/79) CodPy: a Python library for numerics, machine learning, and statistics (Philippe G. LeFloch et al., 2024)
 
 {{<citation>}}
 
@@ -3001,7 +3073,7 @@ This monograph offers an introduction to a collection of numerical algorithms im
 
 
 
-### (75/78) Intent-Based Access Control: Using LLMs to Intelligently Manage Access Control (Pranav Subramaniam et al., 2024)
+### (0/1 | 75/79) Intent-Based Access Control: Using LLMs to Intelligently Manage Access Control (Pranav Subramaniam et al., 2024)
 
 {{<citation>}}
 
@@ -3022,8 +3094,8 @@ Pranav Subramaniam, Sanjay Krishnan. (2024)
 ---
 Primary Category: cs.DB  
 Categories: cs-CR, cs-DB, cs.DB  
-Keyword Score: 10  
-Keywords: Large Language Model  
+Keyword Score: 13  
+Keywords: Benchmarking, Large Language Model  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07332v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07332v1.pdf" filename="2402.07332v1.pdf">Download PDF</button>
 
@@ -3031,7 +3103,7 @@ Keywords: Large Language Model
 
 
 **ABSTRACT**  
-In every enterprise database, administrators must define an access control policy that specifies which users have access to which assets. Access control straddles two worlds: policy (organization-level principles that define who should have access) and process (database-level primitives that actually implement the policy). Assessing and enforcing process compliance with a policy is a manual and ad-hoc task. This paper introduces a new paradigm for access control called Intent-Based Access Control for Databases (IBAC-DB). In IBAC-DB, access control policies are expressed more precisely using a novel format, the natural language access control matrix (NLACM). Database access control primitives are synthesized automatically from these NLACMs. These primitives can be used to generate new DB configurations and/or evaluate existing ones. This paper presents a reference architecture for an IBAC-DB interface, an initial implementation for PostgreSQL (which we call LLM4AC), and initial benchmarks that evaluate the accuracy and scope of such a system. We find that our chosen implementation, LLM4AC, vastly outperforms other baselines, achieving near-perfect F1 scores on our initial benchmarks.
+In every enterprise database, administrators must define an access control policy that specifies which users have access to which assets. Access control straddles two worlds: policy (organization-level principles that define who should have access) and process (database-level primitives that actually implement the policy). Assessing and enforcing process compliance with a policy is a manual and ad-hoc task. This paper introduces a new paradigm for access control called Intent-Based Access Control for Databases (IBAC-DB). In IBAC-DB, access control policies are expressed more precisely using a novel format, the natural language access control matrix (NLACM). Database access control primitives are synthesized automatically from these NLACMs. These primitives can be used to generate new DB configurations and/or evaluate existing ones. This paper presents a reference architecture for an IBAC-DB interface, an initial implementation for PostgreSQL (which we call LLM4AC), and initial <b>benchmarks</b> that evaluate the accuracy and scope of such a system. We find that our chosen implementation, LLM4AC, vastly outperforms other baselines, achieving near-perfect F1 scores on our initial <b>benchmarks.</b>
 
 {{</citation>}}
 
@@ -3040,7 +3112,7 @@ In every enterprise database, administrators must define an access control polic
 
 
 
-### (76/78) A Review of the GIC Blocker Placement Problem (Arthur K. Barnes et al., 2024)
+### (0/1 | 76/79) A Review of the GIC Blocker Placement Problem (Arthur K. Barnes et al., 2024)
 
 {{<citation>}}
 
@@ -3061,8 +3133,8 @@ Arthur K. Barnes, Adam Mate, Russell Bent. (2024)
 ---
 Primary Category: eess.SY  
 Categories: cs-SY, eess-SY, eess.SY  
-Keyword Score: 10  
-Keywords: Transformer  
+Keyword Score: 13  
+Keywords: Benchmarking, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07302v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07302v1.pdf" filename="2402.07302v1.pdf">Download PDF</button>
 
@@ -3070,16 +3142,16 @@ Keywords: Transformer
 
 
 **ABSTRACT**  
-Space weather poses a tremendous threat to power systems: geomagnetic disturbances could result in widespread disruptions and long-duration blackouts, including severe damage to system components. To mitigate their impacts, a handful of strategies exist, with the most promising being the deployment of <b>transformer</b> neutral blocking devices. The high cost of these devices, however, precludes their installation at all substations; this motivates the development of effective solutions for the cost-effective placement of such devices. While the current state-of-the-art in blocker placement methods is insufficient to be applied to real-sized power grids, ongoing research continues to increase the size of networks for which the placement problem remains tractable. Along these lines, the contributions of this paper are two fold: first, a comprehensive overview of the current state-of-the-art in blocker placement methods is provided; and second, a complete optimization formulation - implemented and benchmarked in an open-source software - for the blocker placement problem is presented.
+Space weather poses a tremendous threat to power systems: geomagnetic disturbances could result in widespread disruptions and long-duration blackouts, including severe damage to system components. To mitigate their impacts, a handful of strategies exist, with the most promising being the deployment of <b>transformer</b> neutral blocking devices. The high cost of these devices, however, precludes their installation at all substations; this motivates the development of effective solutions for the cost-effective placement of such devices. While the current state-of-the-art in blocker placement methods is insufficient to be applied to real-sized power grids, ongoing research continues to increase the size of networks for which the placement problem remains tractable. Along these lines, the contributions of this paper are two fold: first, a comprehensive overview of the current state-of-the-art in blocker placement methods is provided; and second, a complete optimization formulation - implemented and <b>benchmarked</b> in an open-source software - for the blocker placement problem is presented.
 
 {{</citation>}}
 
 
-## cs.NE (1)
+## cs.NE (2)
 
 
 
-### (77/78) Optimizing Genetically-Driven Synaptogenesis (Tommaso Boccato et al., 2024)
+### (0/2 | 77/79) Optimizing Genetically-Driven Synaptogenesis (Tommaso Boccato et al., 2024)
 
 {{<citation>}}
 
@@ -3100,8 +3172,8 @@ Tommaso Boccato, Matteo Ferrante, Nicola Toschi. (2024)
 ---
 Primary Category: cs.NE  
 Categories: cs-NE, cs.NE, q-bio-NC  
-Keyword Score: 10  
-Keywords: Reinforcement Learning  
+Keyword Score: 13  
+Keywords: Benchmarking, Reinforcement Learning  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07242v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07242v1.pdf" filename="2402.07242v1.pdf">Download PDF</button>
 
@@ -3109,7 +3181,42 @@ Keywords: Reinforcement Learning
 
 
 **ABSTRACT**  
-In this paper we introduce SynaptoGen, a novel framework that aims to bridge the gap between genetic manipulations and neuronal network behavior by simulating synaptogenesis and guiding the development of neuronal networks capable of solving predetermined computational tasks. Drawing inspiration from recent advancements in the field, we propose SynaptoGen as a bio-plausible approach to modeling synaptogenesis through differentiable functions. To validate SynaptoGen, we conduct a preliminary experiment using <b>reinforcement</b> <b>learning</b> as a benchmark learning framework, demonstrating its effectiveness in generating neuronal networks capable of solving the OpenAI Gym's Cart Pole task, compared to carefully designed baselines. The results highlight the potential of SynaptoGen to inspire further advancements in neuroscience and computational modeling, while also acknowledging the need for incorporating more realistic genetic rules and synaptic conductances in future research. Overall, SynaptoGen represents a promising avenue for exploring the intersection of genetics, neuroscience, and artificial intelligence.
+In this paper we introduce SynaptoGen, a novel framework that aims to bridge the gap between genetic manipulations and neuronal network behavior by simulating synaptogenesis and guiding the development of neuronal networks capable of solving predetermined computational tasks. Drawing inspiration from recent advancements in the field, we propose SynaptoGen as a bio-plausible approach to modeling synaptogenesis through differentiable functions. To validate SynaptoGen, we conduct a preliminary experiment using <b>reinforcement</b> <b>learning</b> as a <b>benchmark</b> learning framework, demonstrating its effectiveness in generating neuronal networks capable of solving the OpenAI Gym's Cart Pole task, compared to carefully designed baselines. The results highlight the potential of SynaptoGen to inspire further advancements in neuroscience and computational modeling, while also acknowledging the need for incorporating more realistic genetic rules and synaptic conductances in future research. Overall, SynaptoGen represents a promising avenue for exploring the intersection of genetics, neuroscience, and artificial intelligence.
+
+{{</citation>}}
+
+
+### (1/2 | 78/79) SAIS: A Novel Bio-Inspired Artificial Immune System Based on Symbiotic Paradigm (Junhao Song et al., 2024)
+
+{{<citation>}}
+
+Junhao Song, Yingfang Yuan, Wei Pang. (2024)  
+**SAIS: A Novel Bio-Inspired Artificial Immune System Based on Symbiotic Paradigm**
+<br/>
+<button class="copy-to-clipboard" title="SAIS: A Novel Bio-Inspired Artificial Immune System Based on Symbiotic Paradigm" index=78>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-78 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.NE  
+Categories: cs-AI, cs-NE, cs.NE  
+Keyword Score: 3  
+Keywords: Benchmarking  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07244v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07244v1.pdf" filename="2402.07244v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+We propose a novel type of Artificial Immune System (AIS): Symbiotic Artificial Immune Systems (SAIS), drawing inspiration from symbiotic relationships in biology. SAIS parallels the three key stages (i.e., mutualism, commensalism and parasitism) of population updating from the Symbiotic Organisms Search (SOS) algorithm. This parallel approach effectively addresses the challenges of large population size and enhances population diversity in AIS, which traditional AIS and SOS struggle to resolve efficiently. We conducted a series of experiments, which demonstrated that our SAIS achieved comparable performance to the state-of-the-art approach SOS and outperformed other popular AIS approaches and evolutionary algorithms across 26 <b>benchmark</b> problems. Furthermore, we investigated the problem of parameter selection and found that SAIS performs better in handling larger population sizes while requiring fewer generations. Finally, we believe SAIS, as a novel bio-inspired and immune-inspired algorithm, paves the way for innovation in bio-inspired computing with the symbiotic paradigm.
 
 {{</citation>}}
 
@@ -3118,17 +3225,17 @@ In this paper we introduce SynaptoGen, a novel framework that aims to bridge the
 
 
 
-### (78/78) Enhancing Multi-field B2B Cloud Solution Matching via Contrastive Pre-training (Haonan Chen et al., 2024)
+### (0/1 | 79/79) Enhancing Multi-field B2B Cloud Solution Matching via Contrastive Pre-training (Haonan Chen et al., 2024)
 
 {{<citation>}}
 
 Haonan Chen, Zhicheng Dou, Xuetong Hao, Yunhao Tao, Shiren Song, Zhenli Sheng. (2024)  
 **Enhancing Multi-field B2B Cloud Solution Matching via Contrastive Pre-training**
 <br/>
-<button class="copy-to-clipboard" title="Enhancing Multi-field B2B Cloud Solution Matching via Contrastive Pre-training" index=78>
+<button class="copy-to-clipboard" title="Enhancing Multi-field B2B Cloud Solution Matching via Contrastive Pre-training" index=79>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-78 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-79 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
