@@ -237,7 +237,8 @@ class Paper(object):
         """
         tokens = text.split()
         markup_flags = [False] * len(tokens)
-        for kw in self.keywords:
+        keywords = sorted(list(set(self.keywords)))
+        for kw in keywords:
             kw_tokens = [k.lower().strip() for k in kw.word.split()]
             for i in range(len(tokens) - len(kw_tokens) + 1):
                 temp_tokens = [t.lower().strip() for t in tokens[i : i + len(kw_tokens)]]
@@ -269,6 +270,7 @@ class Paper(object):
             author_text = self.authors[0].name.replace('"', "'") + " et al."
         title_text = self.title.replace('"', "'")
         title = f"{title_text} ({author_text}, {self.year})"
+        keywords = sorted(list(set(self.keywords)))
 
         pdf_url = self.pdf_url if self.pdf_url.endswith(".pdf") else self.pdf_url + ".pdf"
         if "http://" in pdf_url:
@@ -293,7 +295,7 @@ class Paper(object):
 Primary Category: {self.primary_category}{"  "}
 Categories: {", ".join(sorted(self.categories))}{"  "}
 Keyword Score: {self.keyword_score}{"  "}
-Keywords: {", ".join([kw.keyword for kw in sorted(list(set(self.keywords)))])}{"  "}
+Keywords: {", ".join([kw.keyword for kw in keywords])}{"  "}
 <a type="button" class="btn btn-outline-primary" href="{self.url}" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="{pdf_url}" filename="{Path(pdf_url).name}">Download PDF</button>
 
