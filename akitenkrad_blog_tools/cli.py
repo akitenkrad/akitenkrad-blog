@@ -206,7 +206,7 @@ $(function() {{
             for idx, post in enumerate(posts):
                 title, content = post.generate_citation_text(paper_count)
                 text += f"""\n
-### ({idx}/{len(posts)} | {paper_count}/{len(post_all)}) {title}
+### ({idx + 1}/{len(posts)} | {paper_count}/{len(post_all)}) {title}
 
 {{{{<citation>}}}}
 {content}
