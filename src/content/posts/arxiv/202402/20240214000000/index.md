@@ -137,7 +137,7 @@ math: true
     <tr>
       <td>Benchmarking</td>
       <td>4</td>
-      <td>6</td>
+      <td>7</td>
       <td>6</td>
       <td>8</td>
     </tr>
@@ -599,7 +599,7 @@ math: true
     <tr>
       <td>Question Answering</td>
       <td>1</td>
-      <td>2</td>
+      <td>3</td>
       <td>3</td>
       <td>1</td>
     </tr>
@@ -3479,14 +3479,14 @@ To improve language models' proficiency in <b>mathematical</b> <b>reasoning</b> 
 {{</citation>}}
 
 
-### (13/39 | 75/252) Pushing The Limit of LLM Capacity for Text Classification (Yazhou Zhang et al., 2024)
+### (13/39 | 75/252) Anchor-based Large Language Models (Jianhui Pang et al., 2024)
 
 {{<citation>}}
 
-Yazhou Zhang, Mengyao Wang, Chenyu Ren, Qiuchi Li, Prayag Tiwari, Benyou Wang, Jing Qin. (2024)  
-**Pushing The Limit of LLM Capacity for Text Classification**
+Jianhui Pang, Fanghua Ye, Derek F. Wong, Longyue Wang. (2024)  
+**Anchor-based Large Language Models**
 <br/>
-<button class="copy-to-clipboard" title="Pushing The Limit of LLM Capacity for Text Classification" index=75>
+<button class="copy-to-clipboard" title="Anchor-based Large Language Models" index=75>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-75 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -3499,11 +3499,46 @@ Yazhou Zhang, Mengyao Wang, Chenyu Ren, Qiuchi Li, Prayag Tiwari, Benyou Wang, J
 
 ---
 Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keyword Score: 53  
+Keywords: Benchmarking, Transformer, Question Answering, Large Language Model, Large Language Model, Self-Attention  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07616v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07616v2.pdf" filename="2402.07616v2.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+<b>Large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> predominantly employ decoder-only <b>transformer</b> architectures, necessitating the retention of keys/values information for historical tokens to provide contextual information and avoid redundant computation. However, the substantial size and parameter volume of these <b>LLMs</b> require massive GPU memory. This memory demand increases with the length of the input text, leading to an urgent need for more efficient methods of information storage and processing. This study introduces Anchor-based <b>LLMs</b> (AnLLMs), which utilize an innovative anchor-based <b>self-attention</b> network (AnSAN) and also an anchor-based inference strategy. This approach enables <b>LLMs</b> to compress sequence information into an anchor token, reducing the keys/values cache and enhancing inference efficiency. Experiments on <b>question-answering</b> <b>benchmarks</b> reveal that AnLLMs maintain similar accuracy levels while achieving up to 99% keys/values cache reduction and up to 3.5 times faster inference. Despite a minor compromise in accuracy, the substantial enhancements of AnLLMs employing the AnSAN technique in resource utilization and computational efficiency underscore their potential for practical <b>LLM</b> applications.
+
+{{</citation>}}
+
+
+### (14/39 | 76/252) Pushing The Limit of LLM Capacity for Text Classification (Yazhou Zhang et al., 2024)
+
+{{<citation>}}
+
+Yazhou Zhang, Mengyao Wang, Chenyu Ren, Qiuchi Li, Prayag Tiwari, Benyou Wang, Jing Qin. (2024)  
+**Pushing The Limit of LLM Capacity for Text Classification**
+<br/>
+<button class="copy-to-clipboard" title="Pushing The Limit of LLM Capacity for Text Classification" index=76>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-76 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
 Categories: cs-CL, cs.CL  
 Keyword Score: 53  
 Keywords: Benchmarking, Fine-tuning, Text Classification, Large Language Model, Large Language Model, Pre-trained Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07470v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07470v1.pdf" filename="2402.07470v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07470v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07470v2.pdf" filename="2402.07470v2.pdf">Download PDF</button>
 
 ---
 
@@ -3514,17 +3549,17 @@ The value of <b>text</b> <b>classification's</b> future research has encountered
 {{</citation>}}
 
 
-### (14/39 | 76/252) Large Language Models as Agents in Two-Player Games (Yang Liu et al., 2024)
+### (15/39 | 77/252) Large Language Models as Agents in Two-Player Games (Yang Liu et al., 2024)
 
 {{<citation>}}
 
 Yang Liu, Peng Sun, Hang Li. (2024)  
 **Large Language Models as Agents in Two-Player Games**
 <br/>
-<button class="copy-to-clipboard" title="Large Language Models as Agents in Two-Player Games" index=76>
+<button class="copy-to-clipboard" title="Large Language Models as Agents in Two-Player Games" index=77>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-76 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-77 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3549,17 +3584,17 @@ By formally defining the training processes of <b>large</b> <b>language</b> <b>m
 {{</citation>}}
 
 
-### (15/39 | 77/252) Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model (Ahmet Üstün et al., 2024)
+### (16/39 | 78/252) Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model (Ahmet Üstün et al., 2024)
 
 {{<citation>}}
 
 Ahmet Üstün, Viraat Aryabumi, Zheng-Xin Yong, Wei-Yin Ko, Daniel D'souza, Gbemileke Onilude, Neel Bhandari, Shivalika Singh, Hui-Lee Ooi, Amr Kayid, Freddie Vargus, Phil Blunsom, Shayne Longpre, Niklas Muennighoff, Marzieh Fadaee, Julia Kreutzer, Sara Hooker. (2024)  
 **Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model**
 <br/>
-<button class="copy-to-clipboard" title="Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model" index=77>
+<button class="copy-to-clipboard" title="Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model" index=78>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-77 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-78 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3584,17 +3619,17 @@ Recent breakthroughs in <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b>
 {{</citation>}}
 
 
-### (16/39 | 78/252) TELLER: A Trustworthy Framework for Explainable, Generalizable and Controllable Fake News Detection (Hui Liu et al., 2024)
+### (17/39 | 79/252) TELLER: A Trustworthy Framework for Explainable, Generalizable and Controllable Fake News Detection (Hui Liu et al., 2024)
 
 {{<citation>}}
 
 Hui Liu, Wenya Wang, Haoru Li, Haoliang Li. (2024)  
 **TELLER: A Trustworthy Framework for Explainable, Generalizable and Controllable Fake News Detection**
 <br/>
-<button class="copy-to-clipboard" title="TELLER: A Trustworthy Framework for Explainable, Generalizable and Controllable Fake News Detection" index=78>
+<button class="copy-to-clipboard" title="TELLER: A Trustworthy Framework for Explainable, Generalizable and Controllable Fake News Detection" index=79>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-78 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-79 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3619,17 +3654,17 @@ The proliferation of <b>fake</b> <b>news</b> <b>has</b> emerged as a severe soci
 {{</citation>}}
 
 
-### (17/39 | 79/252) Detecting the Clinical Features of Difficult-to-Treat Depression using Synthetic Data from Large Language Models (Isabelle Lorge et al., 2024)
+### (18/39 | 80/252) Detecting the Clinical Features of Difficult-to-Treat Depression using Synthetic Data from Large Language Models (Isabelle Lorge et al., 2024)
 
 {{<citation>}}
 
 Isabelle Lorge, Dan W. Joyce, Niall Taylor, Alejo Nevado-Holgado, Andrea Cipriani, Andrey Kormilitzin. (2024)  
 **Detecting the Clinical Features of Difficult-to-Treat Depression using Synthetic Data from Large Language Models**
 <br/>
-<button class="copy-to-clipboard" title="Detecting the Clinical Features of Difficult-to-Treat Depression using Synthetic Data from Large Language Models" index=79>
+<button class="copy-to-clipboard" title="Detecting the Clinical Features of Difficult-to-Treat Depression using Synthetic Data from Large Language Models" index=80>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-79 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-80 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3654,17 +3689,17 @@ Difficult-to-treat depression (DTD) has been proposed as a broader and more clin
 {{</citation>}}
 
 
-### (18/39 | 80/252) Step-On-Feet Tuning: Scaling Self-Alignment of LLMs via Bootstrapping (Haoyu Wang et al., 2024)
+### (19/39 | 81/252) Step-On-Feet Tuning: Scaling Self-Alignment of LLMs via Bootstrapping (Haoyu Wang et al., 2024)
 
 {{<citation>}}
 
 Haoyu Wang, Guozheng Ma, Ziqiao Meng, Zeyu Qin, Li Shen, Zhong Zhang, Bingzhe Wu, Liu Liu, Yatao Bian, Tingyang Xu, Xueqian Wang, Peilin Zhao. (2024)  
 **Step-On-Feet Tuning: Scaling Self-Alignment of LLMs via Bootstrapping**
 <br/>
-<button class="copy-to-clipboard" title="Step-On-Feet Tuning: Scaling Self-Alignment of LLMs via Bootstrapping" index=80>
+<button class="copy-to-clipboard" title="Step-On-Feet Tuning: Scaling Self-Alignment of LLMs via Bootstrapping" index=81>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-80 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-81 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3689,17 +3724,17 @@ Self-alignment is an effective way to reduce the cost of human annotation while 
 {{</citation>}}
 
 
-### (19/39 | 81/252) MAFIA: Multi-Adapter Fused Inclusive LanguAge Models (Prachi Jain et al., 2024)
+### (20/39 | 82/252) MAFIA: Multi-Adapter Fused Inclusive LanguAge Models (Prachi Jain et al., 2024)
 
 {{<citation>}}
 
 Prachi Jain, Ashutosh Sathe, Varun Gumma, Kabir Ahuja, Sunayana Sitaram. (2024)  
 **MAFIA: Multi-Adapter Fused Inclusive LanguAge Models**
 <br/>
-<button class="copy-to-clipboard" title="MAFIA: Multi-Adapter Fused Inclusive LanguAge Models" index=81>
+<button class="copy-to-clipboard" title="MAFIA: Multi-Adapter Fused Inclusive LanguAge Models" index=82>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-81 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-82 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3724,17 +3759,17 @@ Keywords: Counter-factual, Data Augmentation, Fine-tuning, Pre-trained Language 
 {{</citation>}}
 
 
-### (20/39 | 82/252) Retrieval-Augmented Thought Process as Sequential Decision Making (Thomas Pouplin et al., 2024)
+### (21/39 | 83/252) Retrieval-Augmented Thought Process as Sequential Decision Making (Thomas Pouplin et al., 2024)
 
 {{<citation>}}
 
 Thomas Pouplin, Hao Sun, Samuel Holt, Mihaela van der Schaar. (2024)  
 **Retrieval-Augmented Thought Process as Sequential Decision Making**
 <br/>
-<button class="copy-to-clipboard" title="Retrieval-Augmented Thought Process as Sequential Decision Making" index=82>
+<button class="copy-to-clipboard" title="Retrieval-Augmented Thought Process as Sequential Decision Making" index=83>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-82 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-83 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3759,17 +3794,17 @@ Keywords: Question Answering, In-context Learning, Large Language Model, Large L
 {{</citation>}}
 
 
-### (21/39 | 83/252) Unsupervised Sign Language Translation and Generation (Zhengsheng Guo et al., 2024)
+### (22/39 | 84/252) Unsupervised Sign Language Translation and Generation (Zhengsheng Guo et al., 2024)
 
 {{<citation>}}
 
 Zhengsheng Guo, Zhiwei He, Wenxiang Jiao, Xing Wang, Rui Wang, Kehai Chen, Zhaopeng Tu, Yong Xu, Min Zhang. (2024)  
 **Unsupervised Sign Language Translation and Generation**
 <br/>
-<button class="copy-to-clipboard" title="Unsupervised Sign Language Translation and Generation" index=83>
+<button class="copy-to-clipboard" title="Unsupervised Sign Language Translation and Generation" index=84>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-83 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-84 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3790,41 +3825,6 @@ Keywords: Supervised Learning, Unsupervised Learning, Neural Machine Translation
 
 **ABSTRACT**  
 Motivated by the success of <b>unsupervised</b> <b>neural</b> <b>machine</b> <b>translation</b> (UNMT), we introduce an <b>unsupervised</b> sign language translation and generation network (USLNet), which learns from abundant single-modality (text and video) data without parallel sign language data. USLNet comprises two main components: single-modality reconstruction modules (text and video) that rebuild the input from its noisy version in the same modality and cross-modality back-translation modules (text-video-text and video-text-video) that reconstruct the input from its noisy version in the different modality using back-translation procedure.Unlike the single-modality back-translation procedure in text-based UNMT, USLNet faces the cross-modality discrepancy in feature representation, in which the length and the feature dimension mismatch between text and video sequences. We propose a sliding window method to address the issues of aligning variable-length text with video sequences. To our knowledge, USLNet is the first <b>unsupervised</b> sign language translation and generation model capable of generating both natural language text and sign language video in a unified manner. Experimental results on the BBC-Oxford Sign Language dataset (BOBSL) and Open-Domain American Sign Language dataset (OpenASL) reveal that USLNet achieves competitive results compared to <b>supervised</b> baseline models, indicating its effectiveness in sign language translation and generation.
-
-{{</citation>}}
-
-
-### (22/39 | 84/252) Anchor-based Large Language Models (Jianhui Pang et al., 2024)
-
-{{<citation>}}
-
-Jianhui Pang, Fanghua Ye, Derek F. Wong, Longyue Wang. (2024)  
-**Anchor-based Large Language Models**
-<br/>
-<button class="copy-to-clipboard" title="Anchor-based Large Language Models" index=84>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-84 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.CL  
-Categories: cs-AI, cs-CL, cs.CL  
-Keyword Score: 40  
-Keywords: Transformer, Large Language Model, Large Language Model, Self-Attention  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07616v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07616v1.pdf" filename="2402.07616v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-<b>Large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> predominantly employ decoder-only <b>transformer</b> architectures, necessitating the retention of keys/values information for historical tokens to provide contextual information and avoid redundant computation. However, the substantial size and parameter volume of these <b>LLMs</b> require massive GPU memory. This memory demand increases with the length of the input text, leading to an urgent need for more efficient methods of information storage and processing. This study introduces the Anchor-based <b>LLM</b> (AnLLM), which utilizes an innovative anchor-based <b>self-attention</b> network (AnSAN) and also an anchor-based inference strategy. This approach enables <b>LLMs</b> to compress sequence information into an anchor token, reducing the keys/values cache and enhancing inference efficiency. Experiments show that the AnLLM maintains comparable accuracy with up to 99% keys/values cache reduction and up to 3.5 times faster inference. Despite a minor compromise in accuracy, the AnLLM significantly improves computational efficiency and resource utilization, demonstrating the potential of the anchor-based attention approach in the context of <b>LLMs</b> for real-time inference in practical applications.
 
 {{</citation>}}
 
@@ -6812,8 +6812,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 10  
 Keywords: Fake News Detection  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07338v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07338v1.pdf" filename="2402.07338v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07338v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07338v2.pdf" filename="2402.07338v2.pdf">Download PDF</button>
 
 ---
 
@@ -8501,8 +8501,8 @@ Primary Category: eess.SP
 Categories: cs-CV, eess-IV, eess-SP, eess.SP  
 Keyword Score: 3  
 Keywords: Graph  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07637v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07637v1.pdf" filename="2402.07637v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.07637v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.07637v2.pdf" filename="2402.07637v2.pdf">Download PDF</button>
 
 ---
 

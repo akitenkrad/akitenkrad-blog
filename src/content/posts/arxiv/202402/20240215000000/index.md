@@ -1041,14 +1041,14 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keyword Score: 73  
 Keywords: Benchmarking, Fine-tuning, Fine-tuning, Out-of-distribution, Question Answering, Question Answering, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.08277v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.08277v1.pdf" filename="2402.08277v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.08277v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.08277v2.pdf" filename="2402.08277v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Advances towards more faithful and traceable answers of <b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> are crucial for various research and practical endeavors. One avenue in reaching this goal is basing the answers on reliable sources. However, this Evidence-Based <b>QA</b> has proven to work insufficiently with <b>LLMs</b> in terms of citing the correct sources (source quality) and truthfully representing the information within sources (answer attributability). In this work, we systematically investigate how to robustly <b>fine-tune</b> <b>LLMs</b> for better source quality and answer attributability. Specifically, we introduce a data generation pipeline with automated data quality filters, which can synthesize diversified high-quality training and testing data at scale. We further introduce four test sets to <b>benchmark</b> the robustness of <b>fine-tuned</b> specialist models. Extensive evaluation shows that <b>fine-tuning</b> on synthetic data improves performance on both in- and <b>out-of-distribution.</b> %Evidence-Based <b>QA</b> cases. Furthermore, we show that data quality, which can be drastically improved by proposed quality filters, matters more than quantity in improving Evidence-Based <b>QA.</b>
+Advances towards more faithful and traceable answers of <b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> are crucial for various research and practical endeavors. One avenue in reaching this goal is basing the answers on reliable sources. However, this Evidence-Based <b>QA</b> has proven to work insufficiently with <b>LLMs</b> in terms of citing the correct sources (source quality) and truthfully representing the information within sources (answer attributability). In this work, we systematically investigate how to robustly <b>fine-tune</b> <b>LLMs</b> for better source quality and answer attributability. Specifically, we introduce a data generation pipeline with automated data quality filters, which can synthesize diversified high-quality training and testing data at scale. We further introduce four test sets to <b>benchmark</b> the robustness of <b>fine-tuned</b> specialist models. Extensive evaluation shows that <b>fine-tuning</b> on synthetic data improves performance on both in- and <b>out-of-distribution.</b> Furthermore, we show that data quality, which can be drastically improved by proposed quality filters, matters more than quantity in improving Evidence-Based <b>QA.</b>
 
 {{</citation>}}
 
@@ -1251,8 +1251,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 60  
 Keywords: Fine-tuning, Supervised Learning, Unsupervised Learning, Natural Language Inference, Natural Language Inference, Question Answering  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.08479v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.08479v2.pdf" filename="2402.08479v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.08479v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.08479v3.pdf" filename="2402.08479v3.pdf">Download PDF</button>
 
 ---
 
@@ -2130,8 +2130,8 @@ Primary Category: cs.LG
 Categories: cs-CL, cs-LG, cs.LG  
 Keyword Score: 60  
 Keywords: Adversarial Learning, Generative AI, Machine Unlearning, Reinforcement Learning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.08787v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.08787v1.pdf" filename="2402.08787v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.08787v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.08787v2.pdf" filename="2402.08787v2.pdf">Download PDF</button>
 
 ---
 
@@ -2200,8 +2200,8 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keyword Score: 60  
 Keywords: High-Resource, Out-of-distribution, BERT, T5, In-context Learning, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.08225v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.08225v1.pdf" filename="2402.08225v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.08225v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.08225v2.pdf" filename="2402.08225v2.pdf">Download PDF</button>
 
 ---
 
@@ -6790,14 +6790,14 @@ When creating plans, policies, or applications for people, it is challenging for
 {{</citation>}}
 
 
-### (5/8 | 169/238) Intelligent Canvas: Enabling Design-Like Exploratory Visual Data Analysis through Rapid Prototyping, Iteration and Curation (Zijian Ding et al., 2024)
+### (5/8 | 169/238) Intelligent Canvas: Enabling Design-Like Exploratory Visual Data Analysis with Generative AI through Rapid Prototyping, Iteration and Curation (Zijian Ding et al., 2024)
 
 {{<citation>}}
 
 Zijian Ding, Joel Chan. (2024)  
-**Intelligent Canvas: Enabling Design-Like Exploratory Visual Data Analysis through Rapid Prototyping, Iteration and Curation**
+**Intelligent Canvas: Enabling Design-Like Exploratory Visual Data Analysis with Generative AI through Rapid Prototyping, Iteration and Curation**
 <br/>
-<button class="copy-to-clipboard" title="Intelligent Canvas: Enabling Design-Like Exploratory Visual Data Analysis through Rapid Prototyping, Iteration and Curation" index=169>
+<button class="copy-to-clipboard" title="Intelligent Canvas: Enabling Design-Like Exploratory Visual Data Analysis with Generative AI through Rapid Prototyping, Iteration and Curation" index=169>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-169 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -6813,8 +6813,8 @@ Primary Category: cs.HC
 Categories: cs-AI, cs-HC, cs.HC  
 Keyword Score: 10  
 Keywords: Generative AI  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.08812v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.08812v1.pdf" filename="2402.08812v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.08812v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.08812v2.pdf" filename="2402.08812v2.pdf">Download PDF</button>
 
 ---
 
