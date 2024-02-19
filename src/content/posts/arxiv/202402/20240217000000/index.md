@@ -3420,7 +3420,7 @@ Yihan Du, Anna Winnicki, Gal Dalal, Shie Mannor, R. Srikant. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
+Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keyword Score: 30  
 Keywords: Reinforcement Learning, Reinforcement Learning from Human Feedback, Reinforcement Learning from Human Feedback  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.10342v1" target="_blank" >Paper Link</a>

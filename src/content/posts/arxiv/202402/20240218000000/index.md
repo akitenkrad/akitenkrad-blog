@@ -3365,7 +3365,7 @@ Junhyun Lee, Wooseong Yang, Jaewoo Kang. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
+Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keyword Score: 53  
 Keywords: Edge Prediction, Graph, Graph Neural Network, Few-shot, Fine-tuning, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.10380v1" target="_blank" >Paper Link</a>
@@ -3645,7 +3645,7 @@ Fusataka Kuniyoshi, Yoshihide Sawada. (2024)
 
 ---
 Primary Category: cs.LG  
-Categories: cs-AI, cs-LG, cs.LG  
+Categories: cs-AI, cs-LG, cs.LG, eess-SP  
 Keyword Score: 40  
 Keywords: Convolution, Convolutional Neural Network, Recurrent Neural Network, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.10511v1" target="_blank" >Paper Link</a>
@@ -7217,7 +7217,7 @@ Kourosh Parand, Aida Pakniyat. (2024)
 
 ---
 Primary Category: math.NA  
-Categories: cs-NA, math-NA, math.NA  
+Categories: cs-NA, math-NA, math.NA, quant-ph  
 Keyword Score: 20  
 Keywords: Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.10649v1" target="_blank" >Paper Link</a>
