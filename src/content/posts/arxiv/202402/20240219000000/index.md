@@ -4422,7 +4422,7 @@ The macro-element variant of the hybridized discontinuous Galerkin (HDG) method 
 
 {{<citation>}}
 
-Clément Dallard, Matjaž Krnc, O-jong Kwon, Martin Milanič, Andrea Munaro, Kenny Štorgel, Sebastian Wiederrecht. (2024)  
+Clément Dallard, Matjaž Krnc, O-joung Kwon, Martin Milanič, Andrea Munaro, Kenny Štorgel, Sebastian Wiederrecht. (2024)  
 **Treewidth versus clique number. IV. Tree-independence number of graphs excluding an induced star**
 <br/>
 <button class="copy-to-clipboard" title="Treewidth versus clique number. IV. Tree-independence number of graphs excluding an induced star" index=108>
