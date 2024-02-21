@@ -490,7 +490,7 @@ math: true
     <tr>
       <td>Image2text</td>
       <td></td>
-      <td>2</td>
+      <td>1</td>
       <td></td>
       <td></td>
     </tr>
@@ -8199,52 +8199,17 @@ Survival risk stratification is an important step in clinical decision making fo
 {{</citation>}}
 
 
-### (6/45 | 203/330) Improving Deep Generative Models on Many-To-One Image-to-Image Translation (Sagar Saxena et al., 2024)
-
-{{<citation>}}
-
-Sagar Saxena, Mohammad Nayeem Teli. (2024)  
-**Improving Deep Generative Models on Many-To-One Image-to-Image Translation**
-<br/>
-<button class="copy-to-clipboard" title="Improving Deep Generative Models on Many-To-One Image-to-Image Translation" index=203>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-203 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs-LG, cs.CV  
-Keyword Score: 43  
-Keywords: MNIST, Benchmarking, Generative Adversarial Network, Unsupervised Learning, Image2text  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.12531v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.12531v1.pdf" filename="2402.12531v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-Deep <b>generative</b> <b>models</b> <b>have</b> been applied to multiple applications in image- to-image translation. <b>Generative</b> <b>Adversarial</b> <b>Networks</b> and Diffusion Models have presented impressive results, setting new state-of-the-art results on these tasks. Most methods have symmetric setups across the different domains in a dataset. These methods assume that all domains have either multiple modalities or only one modality. However, there are many datasets that have a many-to-one relationship between two domains. In this work, we first introduce a Colorized <b>MNIST</b> dataset and a Color-Recall score that can provide a simple <b>benchmark</b> for evaluating models on many-to-one translation. We then introduce a new asymmetric framework to improve existing deep <b>generative</b> <b>models</b> <b>on</b> many-to-one <b>image-to-</b> <b>image</b> <b>translation.</b> We apply this framework to StarGAN V2 and show that in both <b>unsupervised</b> and semi-supervised settings, the performance of this new model improves on many-to-one <b>image-to-image</b> <b>translation.</b>
-
-{{</citation>}}
-
-
-### (7/45 | 204/330) Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships (Sebastian Koch et al., 2024)
+### (6/45 | 203/330) Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships (Sebastian Koch et al., 2024)
 
 {{<citation>}}
 
 Sebastian Koch, Narunas Vaskevicius, Mirco Colosi, Pedro Hermosilla, Timo Ropinski. (2024)  
 **Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships**
 <br/>
-<button class="copy-to-clipboard" title="Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships" index=204>
+<button class="copy-to-clipboard" title="Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships" index=203>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-204 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-203 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8269,17 +8234,17 @@ Current approaches for 3D scene <b>graph</b> prediction rely on labeled datasets
 {{</citation>}}
 
 
-### (8/45 | 205/330) Scaffolding Coordinates to Promote Vision-Language Coordination in Large Multi-Modal Models (Xuanyu Lei et al., 2024)
+### (7/45 | 204/330) Scaffolding Coordinates to Promote Vision-Language Coordination in Large Multi-Modal Models (Xuanyu Lei et al., 2024)
 
 {{<citation>}}
 
 Xuanyu Lei, Zonghan Yang, Xinrui Chen, Peng Li, Yang Liu. (2024)  
 **Scaffolding Coordinates to Promote Vision-Language Coordination in Large Multi-Modal Models**
 <br/>
-<button class="copy-to-clipboard" title="Scaffolding Coordinates to Promote Vision-Language Coordination in Large Multi-Modal Models" index=205>
+<button class="copy-to-clipboard" title="Scaffolding Coordinates to Promote Vision-Language Coordination in Large Multi-Modal Models" index=204>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-205 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-204 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8304,17 +8269,17 @@ State-of-the-art Large <b>Multi-Modal</b> Models (LMMs) have demonstrated except
 {{</citation>}}
 
 
-### (9/45 | 206/330) Adversarial Feature Alignment: Balancing Robustness and Accuracy in Deep Learning via Adversarial Training (Leo Hyun Park et al., 2024)
+### (8/45 | 205/330) Adversarial Feature Alignment: Balancing Robustness and Accuracy in Deep Learning via Adversarial Training (Leo Hyun Park et al., 2024)
 
 {{<citation>}}
 
 Leo Hyun Park, Jaeuk Kim, Myung Gyo Oh, Jaewoo Park, Taekyoung Kwon. (2024)  
 **Adversarial Feature Alignment: Balancing Robustness and Accuracy in Deep Learning via Adversarial Training**
 <br/>
-<button class="copy-to-clipboard" title="Adversarial Feature Alignment: Balancing Robustness and Accuracy in Deep Learning via Adversarial Training" index=206>
+<button class="copy-to-clipboard" title="Adversarial Feature Alignment: Balancing Robustness and Accuracy in Deep Learning via Adversarial Training" index=205>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-206 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-205 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8339,17 +8304,17 @@ Deep learning models continue to advance in accuracy, yet they remain vulnerable
 {{</citation>}}
 
 
-### (10/45 | 207/330) Direct Consistency Optimization for Compositional Text-to-Image Personalization (Kyungmin Lee et al., 2024)
+### (9/45 | 206/330) Direct Consistency Optimization for Compositional Text-to-Image Personalization (Kyungmin Lee et al., 2024)
 
 {{<citation>}}
 
 Kyungmin Lee, Sangkyung Kwak, Kihyuk Sohn, Jinwoo Shin. (2024)  
 **Direct Consistency Optimization for Compositional Text-to-Image Personalization**
 <br/>
-<button class="copy-to-clipboard" title="Direct Consistency Optimization for Compositional Text-to-Image Personalization" index=207>
+<button class="copy-to-clipboard" title="Direct Consistency Optimization for Compositional Text-to-Image Personalization" index=206>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-207 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-206 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8374,17 +8339,17 @@ Keywords: Fine-tuning, Image2text, Text2image, Prompt
 {{</citation>}}
 
 
-### (11/45 | 208/330) Weakly Supervised Object Detection in Chest X-Rays with Differentiable ROI Proposal Networks and Soft ROI Pooling (Philip Müller et al., 2024)
+### (10/45 | 207/330) Weakly Supervised Object Detection in Chest X-Rays with Differentiable ROI Proposal Networks and Soft ROI Pooling (Philip Müller et al., 2024)
 
 {{<citation>}}
 
 Philip Müller, Felix Meissen, Georgios Kaissis, Daniel Rueckert. (2024)  
 **Weakly Supervised Object Detection in Chest X-Rays with Differentiable ROI Proposal Networks and Soft ROI Pooling**
 <br/>
-<button class="copy-to-clipboard" title="Weakly Supervised Object Detection in Chest X-Rays with Differentiable ROI Proposal Networks and Soft ROI Pooling" index=208>
+<button class="copy-to-clipboard" title="Weakly Supervised Object Detection in Chest X-Rays with Differentiable ROI Proposal Networks and Soft ROI Pooling" index=207>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-208 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-207 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8409,17 +8374,17 @@ Weakly <b>supervised</b> <b>object</b> <b>detection</b> (WSup-OD) increases the 
 {{</citation>}}
 
 
-### (12/45 | 209/330) NOTE: Notable generation Of patient Text summaries through Efficient approach based on direct preference optimization (Imjin Ahn et al., 2024)
+### (11/45 | 208/330) NOTE: Notable generation Of patient Text summaries through Efficient approach based on direct preference optimization (Imjin Ahn et al., 2024)
 
 {{<citation>}}
 
 Imjin Ahn, Hansle Gwon, Young-Hak Kim, Tae Joon Jun, Sanghyun Park. (2024)  
 **NOTE: Notable generation Of patient Text summaries through Efficient approach based on direct preference optimization**
 <br/>
-<button class="copy-to-clipboard" title="NOTE: Notable generation Of patient Text summaries through Efficient approach based on direct preference optimization" index=209>
+<button class="copy-to-clipboard" title="NOTE: Notable generation Of patient Text summaries through Efficient approach based on direct preference optimization" index=208>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-209 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-208 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8444,17 +8409,17 @@ The discharge summary is a one of critical documents in the patient journey, enc
 {{</citation>}}
 
 
-### (13/45 | 210/330) The (R)Evolution of Multimodal Large Language Models: A Survey (Davide Caffagni et al., 2024)
+### (12/45 | 209/330) The (R)Evolution of Multimodal Large Language Models: A Survey (Davide Caffagni et al., 2024)
 
 {{<citation>}}
 
 Davide Caffagni, Federico Cocchi, Luca Barsellotti, Nicholas Moratelli, Sara Sarto, Lorenzo Baraldi, Lorenzo Baraldi, Marcella Cornia, Rita Cucchiara. (2024)  
 **The (R)Evolution of Multimodal Large Language Models: A Survey**
 <br/>
-<button class="copy-to-clipboard" title="The (R)Evolution of Multimodal Large Language Models: A Survey" index=210>
+<button class="copy-to-clipboard" title="The (R)Evolution of Multimodal Large Language Models: A Survey" index=209>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-210 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-209 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8479,17 +8444,17 @@ Connecting text and visual modalities plays an essential role in generative inte
 {{</citation>}}
 
 
-### (14/45 | 211/330) LVCHAT: Facilitating Long Video Comprehension (Yu Wang et al., 2024)
+### (13/45 | 210/330) LVCHAT: Facilitating Long Video Comprehension (Yu Wang et al., 2024)
 
 {{<citation>}}
 
 Yu Wang, Zeyuan Zhang, Julian McAuley, Zexue He. (2024)  
 **LVCHAT: Facilitating Long Video Comprehension**
 <br/>
-<button class="copy-to-clipboard" title="LVCHAT: Facilitating Long Video Comprehension" index=211>
+<button class="copy-to-clipboard" title="LVCHAT: Facilitating Long Video Comprehension" index=210>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-211 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-210 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8510,6 +8475,41 @@ Keywords: Benchmarking, Multi-modal, Multi-modal, Question Answering, Large Lang
 
 **ABSTRACT**  
 Enabling <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> to read videos is vital for <b>multimodal</b> <b>LLMs.</b> Existing works show promise on short videos whereas long video (longer than e.g.~1 minute) comprehension remains challenging. The major problem lies in the over-compression of videos, i.e., the encoded video representations are not enough to represent the whole video. To address this issue, we propose Long Video Chat (LVChat), where Frame-Scalable Encoding (FSE) is introduced to dynamically adjust the number of embeddings in alignment with the duration of the video to ensure long videos are not overly compressed into a few embeddings. To deal with long videos whose length is beyond videos seen during training, we propose Interleaved Frame Encoding (IFE), repeating positional embedding and interleaving multiple groups of videos to enable long video input, avoiding performance degradation due to overly long videos. Experimental results show that LVChat significantly outperforms existing methods by up to 27\% in accuracy on long-video <b>QA</b> datasets and long-video captioning <b>benchmarks.</b> Our code is published at https://github.com/wangyu-ustc/LVChat.
+
+{{</citation>}}
+
+
+### (14/45 | 211/330) Improving Deep Generative Models on Many-To-One Image-to-Image Translation (Sagar Saxena et al., 2024)
+
+{{<citation>}}
+
+Sagar Saxena, Mohammad Nayeem Teli. (2024)  
+**Improving Deep Generative Models on Many-To-One Image-to-Image Translation**
+<br/>
+<button class="copy-to-clipboard" title="Improving Deep Generative Models on Many-To-One Image-to-Image Translation" index=211>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-211 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs-LG, cs.CV  
+Keyword Score: 33  
+Keywords: MNIST, Benchmarking, Generative Adversarial Network, Unsupervised Learning  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.12531v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.12531v1.pdf" filename="2402.12531v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Deep <b>generative</b> <b>models</b> <b>have</b> been applied to multiple applications in image-to-image translation. <b>Generative</b> <b>Adversarial</b> <b>Networks</b> and Diffusion Models have presented impressive results, setting new state-of-the-art results on these tasks. Most methods have symmetric setups across the different domains in a dataset. These methods assume that all domains have either multiple modalities or only one modality. However, there are many datasets that have a many-to-one relationship between two domains. In this work, we first introduce a Colorized <b>MNIST</b> dataset and a Color-Recall score that can provide a simple <b>benchmark</b> for evaluating models on many-to-one translation. We then introduce a new asymmetric framework to improve existing deep <b>generative</b> <b>models</b> <b>on</b> many-to-one image-to-image translation. We apply this framework to StarGAN V2 and show that in both <b>unsupervised</b> and semi-supervised settings, the performance of this new model improves on many-to-one image-to-image translation.
 
 {{</citation>}}
 
@@ -8859,7 +8859,7 @@ Keywords: Graph, Self-supervised Learning, Supervised Learning
 
 
 **ABSTRACT**  
-Visual navigation follows the intuition that humans can navigate without detailed maps. A common approach is interactive exploration while building a topological <b>graph</b> with images at nodes that can be used for planning. Recent variations learn from passive videos and can navigate using complex social and semantic cues. However, a significant number of training videos are needed, large <b>graphs</b> are utilized, and scenes are not unseen since odometry is utilized. We introduce a new approach to visual navigation using feudal learning, which employs a hierarchical structure consisting of a worker agent, a mid-level manager, and a high-level manager. Key to the feudal learning paradigm, agents at each level see a different aspect of the task and operate at different spatial and temporal scales. Two unique modules are developed in this framework. For the high- level manager, we learn a memory proxy map in a self <b>supervised</b> manner to record prior observations in a learned latent space and avoid the use of <b>graphs</b> and odometry. For the mid-level manager, we develop a waypoint network that outputs intermediate subgoals imitating human waypoint selection during local navigation. This waypoint network is pre-trained using a new, small set of teleoperation videos that we make publicly available, with training environments different from testing environments. The resulting feudal navigation network achieves near SOTA performance, while providing a novel no-RL, no-graph, no-odometry, no-metric map approach to the image goal navigation task.
+Visual navigation follows the intuition that humans can navigate without detailed maps. A common approach is interactive exploration while building a topological <b>graph</b> with images at nodes that can be used for planning. Recent variations learn from passive videos and can navigate using complex social and semantic cues. However, a significant number of training videos are needed, large <b>graphs</b> are utilized, and scenes are not unseen since odometry is utilized. We introduce a new approach to visual navigation using feudal learning, which employs a hierarchical structure consisting of a worker agent, a mid-level manager, and a high-level manager. Key to the feudal learning paradigm, agents at each level see a different aspect of the task and operate at different spatial and temporal scales. Two unique modules are developed in this framework. For the high-level manager, we learn a memory proxy map in a self <b>supervised</b> manner to record prior observations in a learned latent space and avoid the use of <b>graphs</b> and odometry. For the mid-level manager, we develop a waypoint network that outputs intermediate subgoals imitating human waypoint selection during local navigation. This waypoint network is pre-trained using a new, small set of teleoperation videos that we make publicly available, with training environments different from testing environments. The resulting feudal navigation network achieves near SOTA performance, while providing a novel no-RL, no-graph, no-odometry, no-metric map approach to the image goal navigation task.
 
 {{</citation>}}
 
@@ -11423,7 +11423,7 @@ Keywords: Meta Learning, Multi-modal
 
 
 **ABSTRACT**  
-Paragangliomas are rare, primarily slow-growing tumors for which the underlying growth pattern is unknown. Therefore, determining the best care for a patient is hard. Currently, if no significant tumor growth is observed, treatment is often delayed, as treatment itself is not without risk. However, by doing so, the risk of (irreversible) adverse effects due to tumor growth may increase. Being able to predict the growth accurately could assist in determining whether a patient will need treatment during their lifetime and, if so, the timing of this treatment. The aim of this work is to learn the general underlying growth pattern of paragangliomas from multiple tumor growth data sets, in which each data set contains a tumor's volume over time. To do so, we propose a novel approach based on genetic programming to learn a function class, i.e., a parameterized function that can be fit anew for each tumor. We do so in a unique, <b>multi-modal,</b> multi-objective fashion to find multiple potentially in- teresting function classes in a single run. We evaluate our approach on a synthetic and a real-world data set. By analyzing the resulting function classes, we can effectively explain the general patterns in the data.
+Paragangliomas are rare, primarily slow-growing tumors for which the underlying growth pattern is unknown. Therefore, determining the best care for a patient is hard. Currently, if no significant tumor growth is observed, treatment is often delayed, as treatment itself is not without risk. However, by doing so, the risk of (irreversible) adverse effects due to tumor growth may increase. Being able to predict the growth accurately could assist in determining whether a patient will need treatment during their lifetime and, if so, the timing of this treatment. The aim of this work is to learn the general underlying growth pattern of paragangliomas from multiple tumor growth data sets, in which each data set contains a tumor's volume over time. To do so, we propose a novel approach based on genetic programming to learn a function class, i.e., a parameterized function that can be fit anew for each tumor. We do so in a unique, <b>multi-modal,</b> multi-objective fashion to find multiple potentially interesting function classes in a single run. We evaluate our approach on a synthetic and a real-world data set. By analyzing the resulting function classes, we can effectively explain the general patterns in the data.
 
 {{</citation>}}
 
@@ -11829,7 +11829,7 @@ Keywords: Benchmarking
 
 
 **ABSTRACT**  
-Based upon two overlapped, body-unfitted meshes, a type of unified-field monolithic fictitious domain-finite element method (UFMFD-FEM) is developed in this paper for moving interface problems of dynamic fluid-structure interactions (FSI) accompanying with high-contrast physical coefficients across the interface and contacting collisions between the structure and fluidic channel wall when the structure is immersed in the fluid. In particular, the proposed novel numerical method consists of a monolithic, stabilized mixed finite element method within the frame of fictitious domain/immersed boundary method (IBM) for generic fluid-structure-contact interaction (FSCI) problems in the Eulerian--updated Lagrangian description, while involving the no-slip type of interface conditions on the fluid-structure interface, and the repulsive contact force on the structural surface when the immersed structure contacts the fluidic channel wall. The developed UFMFD-FEM for FSI or FSCI problems can deal with the structural motion with large rotational and translational displacements and/or large deformation in an accurate and efficient fashion, which are first validated by two <b>benchmark</b> FSI problems and one FSCI model problem, then by experimental results of a realistic FSCI scenario -- the microfluidic deterministic lateral displacement (DLD) problem that is applied to isolate circulating tumor cells (CTCs) from blood cells in the blood fluid through a cascaded filter DLD microchip in practice, where a particulate fluid with the pillar obstacles effect in the fluidic channel, i.e., the effects of fluid-structure interaction and structure collision, play significant roles to sort particles (cells) of different sizes with tilted pillar arrays.
+Based upon two overlapped, body-unfitted meshes, a type of unified-field monolithic fictitious domain-finite element method (UFMFD-FEM) is developed in this paper for moving interface problems of dynamic fluid-structure interactions (FSI) accompanying with high-contrast physical coefficients across the interface and contacting collisions between the structure and fluidic channel wall when the structure is immersed in the fluid. In particular, the proposed novel numerical method consists of a monolithic, stabilized mixed finite element method within the frame of fictitious domain/immersed boundary method (IBM) for generic fluid-structure-contact interaction (FSCI) problems in the Eulerian-updated Lagrangian description, while involving the no-slip type of interface conditions on the fluid-structure interface, and the repulsive contact force on the structural surface when the immersed structure contacts the fluidic channel wall. The developed UFMFD-FEM for FSI or FSCI problems can deal with the structural motion with large rotational and translational displacements and/or large deformation in an accurate and efficient fashion, which are first validated by two <b>benchmark</b> FSI problems and one FSCI model problem, then by experimental results of a realistic FSCI scenario -- the microfluidic deterministic lateral displacement (DLD) problem that is applied to isolate circulating tumor cells (CTCs) from blood cells in the blood fluid through a cascaded filter DLD microchip in practice, where a particulate fluid with the pillar obstacles effect in the fluidic channel, i.e., the effects of fluid-structure interaction and structure collision, play significant roles to sort particles (cells) of different sizes with tilted pillar arrays.
 
 {{</citation>}}
 
