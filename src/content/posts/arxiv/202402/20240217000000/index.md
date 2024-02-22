@@ -2189,8 +2189,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 33  
 Keywords: Benchmarking, Question Answering, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.09742v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.09742v1.pdf" filename="2402.09742v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.09742v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.09742v2.pdf" filename="2402.09742v2.pdf">Download PDF</button>
 
 ---
 
@@ -4892,8 +4892,8 @@ Primary Category: cs.LG
 Categories: cs-LG, cs-NI, cs.LG  
 Keyword Score: 10  
 Keywords: Federated Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.10097v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.10097v1.pdf" filename="2402.10097v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.10097v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.10097v2.pdf" filename="2402.10097v2.pdf">Download PDF</button>
 
 ---
 
@@ -5421,8 +5421,8 @@ Primary Category: cs.AI
 Categories: I-2, cs-AI, cs-HC, cs-IR, cs-LG, cs-SI, cs.AI  
 Keyword Score: 53  
 Keywords: Graph, Fairness, Recommender System, Fake News Detection, Information Retrieval, Fake News Detection  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.09660v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.09660v1.pdf" filename="2402.09660v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.09660v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.09660v2.pdf" filename="2402.09660v2.pdf">Download PDF</button>
 
 ---
 
@@ -5561,8 +5561,8 @@ Primary Category: cs.AI
 Categories: cs-AI, cs.AI  
 Keyword Score: 40  
 Keywords: Fine-tuning, Reinforcement Learning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.09764v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.09764v1.pdf" filename="2402.09764v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.09764v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.09764v2.pdf" filename="2402.09764v2.pdf">Download PDF</button>
 
 ---
 
@@ -7444,14 +7444,14 @@ Editing signals using large pre-trained models, in a <b>zero-shot</b> manner, ha
 
 
 
-### (1/1 | 181/249) CHEMREASONER: Heuristic Search over a Large Language Model's Knowledge Space using Quantum-Chemical Feedback (Henry W. Sprueill et al., 2024)
+### (1/1 | 181/249) ChemReasoner: Heuristic Search over a Large Language Model's Knowledge Space using Quantum-Chemical Feedback (Henry W. Sprueill et al., 2024)
 
 {{<citation>}}
 
 Henry W. Sprueill, Carl Edwards, Khushbu Agarwal, Mariefel V. Olarte, Udishnu Sanyal, Conrad Johnston, Hongbin Liu, Heng Ji, Sutanay Choudhury. (2024)  
-**CHEMREASONER: Heuristic Search over a Large Language Model's Knowledge Space using Quantum-Chemical Feedback**
+**ChemReasoner: Heuristic Search over a Large Language Model's Knowledge Space using Quantum-Chemical Feedback**
 <br/>
-<button class="copy-to-clipboard" title="CHEMREASONER: Heuristic Search over a Large Language Model's Knowledge Space using Quantum-Chemical Feedback" index=181>
+<button class="copy-to-clipboard" title="ChemReasoner: Heuristic Search over a Large Language Model's Knowledge Space using Quantum-Chemical Feedback" index=181>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-181 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -7467,8 +7467,8 @@ Primary Category: physics.chem-ph
 Categories: cs-AI, cs-CE, cs-LG, physics-chem-ph, physics.chem-ph  
 Keyword Score: 53  
 Keywords: Graph, Graph Neural Network, Graph Neural Network, Reasoning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.10980v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.10980v1.pdf" filename="2402.10980v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.10980v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.10980v2.pdf" filename="2402.10980v2.pdf">Download PDF</button>
 
 ---
 
@@ -8779,8 +8779,8 @@ Primary Category: q-bio.GN
 Categories: cs-AI, cs-LG, q-bio-GN, q-bio.GN  
 Keyword Score: 23  
 Keywords: Benchmarking, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.12391v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.12391v1.pdf" filename="2402.12391v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.12391v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.12391v2.pdf" filename="2402.12391v2.pdf">Download PDF</button>
 
 ---
 

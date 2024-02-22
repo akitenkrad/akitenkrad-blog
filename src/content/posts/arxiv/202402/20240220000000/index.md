@@ -1528,7 +1528,7 @@ Though <b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> have shown remar
 
 {{<citation>}}
 
-Yubo Ma, Zhibin Gou, Junheng Hao, Ruochen Xu, Shuohang Wang, Liangming Pan, Yujiu Yang, Yixin Cao, Aixin Sun. (2024)  
+Yubo Ma, Zhibin Gou, Junheng Hao, Ruochen Xu, Shuohang Wang, Liangming Pan, Yujiu Yang, Yixin Cao, Aixin Sun, Hany Awadalla, Weizhu Chen. (2024)  
 **SciAgent: Tool-augmented Language Models for Scientific Reasoning**
 <br/>
 <button class="copy-to-clipboard" title="SciAgent: Tool-augmented Language Models for Scientific Reasoning" index=25>
@@ -1547,8 +1547,8 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 43  
 Keywords: Benchmarking, ChatGPT, Reasoning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.11451v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.11451v1.pdf" filename="2402.11451v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.11451v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.11451v2.pdf" filename="2402.11451v2.pdf">Download PDF</button>
 
 ---
 
@@ -5215,8 +5215,8 @@ Primary Category: q-bio.BM
 Categories: cs-AI, cs-LG, physics-chem-ph, q-bio-BM, q-bio.BM  
 Keyword Score: 3  
 Keywords: Benchmarking  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.11459v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.11459v1.pdf" filename="2402.11459v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.11459v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.11459v2.pdf" filename="2402.11459v2.pdf">Download PDF</button>
 
 ---
 
