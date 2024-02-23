@@ -152,6 +152,12 @@ math: true
       <td></td>
     </tr>
     <tr>
+      <td>Distribution Shift</td>
+      <td></td>
+      <td></td>
+      <td>2</td>
+    </tr>
+    <tr>
       <td>Event Detection</td>
       <td></td>
       <td></td>
@@ -426,6 +432,12 @@ math: true
       <td>10</td>
       <td></td>
       <td></td>
+    </tr>
+    <tr>
+      <td>Ransomware</td>
+      <td></td>
+      <td></td>
+      <td>1</td>
     </tr>
     <tr>
       <td>Reasoning</td>
@@ -858,7 +870,7 @@ Sijia Chen, Baochun Li, Di Niu. (2024)
 
 ---
 Primary Category: cs.CL  
-Categories: cs-CL, cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 70  
 Keywords: GPT, GPT-4, Reasoning, Chain-of-thought Prompt, Large Language Model, Large Language Model, Prompt  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.11140v1" target="_blank" >Paper Link</a>
@@ -1948,8 +1960,8 @@ Mike Nkongolo, Mahmut Tokmak. (2024)
 ---
 Primary Category: cs.LG  
 Categories: cs-CR, cs-LG, cs.LG  
-Keyword Score: 80  
-Keywords: Autoencoder, Fine-tuning, Supervised Learning, Supervised Learning, Unsupervised Learning, LSTM, LSTM, LSTM  
+Keyword Score: 90  
+Keywords: Autoencoder, Fine-tuning, Supervised Learning, Supervised Learning, Unsupervised Learning, LSTM, LSTM, LSTM, Ransomware  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.11342v1" target="_blank" >Paper Link</a>
 <button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.11342v1.pdf" filename="2402.11342v1.pdf">Download PDF</button>
 
@@ -1957,7 +1969,7 @@ Keywords: Autoencoder, Fine-tuning, Supervised Learning, Supervised Learning, Un
 
 
 **ABSTRACT**  
-The aim of this study is to propose and evaluate an advanced ransomware detection and classification method that combines a Stacked <b>Autoencoder</b> (SAE) for precise feature selection with a <b>Long</b> <b>Short</b> <b>Term</b> <b>Memory</b> <b>(LSTM)</b> classifier to enhance ransomware stratification accuracy. The proposed approach involves thorough pre processing of the UGRansome dataset and training an <b>unsupervised</b> SAE for optimal feature selection or fine tuning via <b>supervised</b> <b>learning</b> to elevate the <b>LSTM</b> model's classification capabilities. The study meticulously analyzes the <b>autoencoder's</b> learned weights and activations to identify essential features for distinguishing ransomware families from other malware and creates a streamlined feature set for precise classification. Extensive experiments, including up to 400 epochs and varying learning rates, are conducted to optimize the model's performance. The results demonstrate the outstanding performance of the SAE-LSTM model across all ransomware families, boasting high precision, recall, and F1 score values that underscore its robust classification capabilities. Furthermore, balanced average scores affirm the proposed model's ability to generalize effectively across various malware types. The proposed model achieves an exceptional 99% accuracy in ransomware classification, surpassing the Extreme Gradient Boosting (XGBoost) algorithm primarily due to its effective SAE feature selection mechanism. The model also demonstrates outstanding performance in identifying signature attacks, achieving a 98% accuracy rate.
+The aim of this study is to propose and evaluate an advanced <b>ransomware</b> detection and classification method that combines a Stacked <b>Autoencoder</b> (SAE) for precise feature selection with a <b>Long</b> <b>Short</b> <b>Term</b> <b>Memory</b> <b>(LSTM)</b> classifier to enhance <b>ransomware</b> stratification accuracy. The proposed approach involves thorough pre processing of the UGRansome dataset and training an <b>unsupervised</b> SAE for optimal feature selection or fine tuning via <b>supervised</b> <b>learning</b> to elevate the <b>LSTM</b> model's classification capabilities. The study meticulously analyzes the <b>autoencoder's</b> learned weights and activations to identify essential features for distinguishing <b>ransomware</b> families from other malware and creates a streamlined feature set for precise classification. Extensive experiments, including up to 400 epochs and varying learning rates, are conducted to optimize the model's performance. The results demonstrate the outstanding performance of the SAE-LSTM model across all <b>ransomware</b> families, boasting high precision, recall, and F1 score values that underscore its robust classification capabilities. Furthermore, balanced average scores affirm the proposed model's ability to generalize effectively across various malware types. The proposed model achieves an exceptional 99% accuracy in <b>ransomware</b> classification, surpassing the Extreme Gradient Boosting (XGBoost) algorithm primarily due to its effective SAE feature selection mechanism. The model also demonstrates outstanding performance in identifying signature attacks, achieving a 98% accuracy rate.
 
 {{</citation>}}
 
@@ -2277,17 +2289,52 @@ Keywords: Benchmarking, Continual Learning, Adversarial Attack
 {{</citation>}}
 
 
-### (12/26 | 49/112) Expressive Higher-Order Link Prediction through Hypergraph Symmetry Breaking (Simon Zhang et al., 2024)
+### (12/26 | 49/112) Beyond Generalization: A Survey of Out-Of-Distribution Adaptation on Graphs (Shuhan Liu et al., 2024)
+
+{{<citation>}}
+
+Shuhan Liu, Kaize Ding. (2024)  
+**Beyond Generalization: A Survey of Out-Of-Distribution Adaptation on Graphs**
+<br/>
+<button class="copy-to-clipboard" title="Beyond Generalization: A Survey of Out-Of-Distribution Adaptation on Graphs" index=49>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-49 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.LG  
+Categories: cs-LG, cs.LG  
+Keyword Score: 23  
+Keywords: Graph, Distribution Shift, Distribution Shift, Out-of-distribution  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.11153v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.11153v1.pdf" filename="2402.11153v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+<b>Distribution</b> <b>shifts</b> on <b>graphs</b> -- the data <b>distribution</b> <b>discrepancies</b> between training and testing a <b>graph</b> machine learning model, are often ubiquitous and unavoidable in real-world scenarios. Such shifts may severely deteriorate the performance of the model, posing significant challenges for reliable <b>graph</b> machine learning. Consequently, there has been a surge in research on <b>graph</b> <b>Out-Of-Distribution</b> (OOD) adaptation methods that aim to mitigate the <b>distribution</b> <b>shifts</b> and adapt the knowledge from one <b>distribution</b> <b>to</b> another. In our survey, we provide an up-to-date and forward-looking review of <b>graph</b> OOD adaptation methods, covering two main problem scenarios including training-time as well as test-time <b>graph</b> OOD adaptation. We start by formally formulating the two problems and then discuss different types of <b>distribution</b> <b>shifts</b> on <b>graphs.</b> Based on our proposed taxonomy for <b>graph</b> OOD adaptation, we systematically categorize the existing methods according to their learning paradigm and investigate the techniques behind them. Finally, we point out promising research directions and the corresponding challenges. We also provide a continuously updated reading list at https://github.com/kaize0409/Awesome-Graph-OOD-Adaptation.git
+
+{{</citation>}}
+
+
+### (13/26 | 50/112) Expressive Higher-Order Link Prediction through Hypergraph Symmetry Breaking (Simon Zhang et al., 2024)
 
 {{<citation>}}
 
 Simon Zhang, Cheng Xin, Tamal K. Dey. (2024)  
 **Expressive Higher-Order Link Prediction through Hypergraph Symmetry Breaking**
 <br/>
-<button class="copy-to-clipboard" title="Expressive Higher-Order Link Prediction through Hypergraph Symmetry Breaking" index=49>
+<button class="copy-to-clipboard" title="Expressive Higher-Order Link Prediction through Hypergraph Symmetry Breaking" index=50>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-49 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-50 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2308,41 +2355,6 @@ Keywords: Message-Passing, Graph
 
 **ABSTRACT**  
 A hypergraph consists of a set of nodes along with a collection of subsets of the nodes called hyperedges. Higher-order link prediction is the task of predicting the existence of a missing hyperedge in a hypergraph. A hyperedge representation learned for higher order link prediction is fully expressive when it does not lose distinguishing power up to an isomorphism. Many existing hypergraph representation learners, are bounded in expressive power by the Generalized Weisfeiler Lehman-1 (GWL-1) algorithm, a generalization of the Weisfeiler Lehman-1 algorithm. However, GWL-1 has limited expressive power. In fact, induced subhypergraphs with identical GWL-1 valued nodes are indistinguishable. Furthermore, message passing on hypergraphs can already be computationally expensive, especially on GPU memory. To address these limitations, we devise a preprocessing algorithm that can identify certain regular subhypergraphs exhibiting symmetry. Our preprocessing algorithm runs once with complexity the size of the input hypergraph. During training, we randomly replace subhypergraphs identified by the algorithm with covering hyperedges to break symmetry. We show that our method improves the expressivity of GWL-1. Our extensive experiments also demonstrate the effectiveness of our approach for higher-order link prediction on both <b>graph</b> and hypergraph datasets with negligible change in computation.
-
-{{</citation>}}
-
-
-### (13/26 | 50/112) Beyond Generalization: A Survey of Out-Of-Distribution Adaptation on Graphs (Shuhan Liu et al., 2024)
-
-{{<citation>}}
-
-Shuhan Liu, Kaize Ding. (2024)  
-**Beyond Generalization: A Survey of Out-Of-Distribution Adaptation on Graphs**
-<br/>
-<button class="copy-to-clipboard" title="Beyond Generalization: A Survey of Out-Of-Distribution Adaptation on Graphs" index=50>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-50 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.LG  
-Categories: cs-LG, cs.LG  
-Keyword Score: 13  
-Keywords: Graph, Out-of-distribution  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.11153v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.11153v1.pdf" filename="2402.11153v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-Distribution shifts on <b>graphs</b> -- the data distribution discrepancies between training and testing a <b>graph</b> machine learning model, are often ubiquitous and unavoidable in real-world scenarios. Such shifts may severely deteriorate the performance of the model, posing significant challenges for reliable <b>graph</b> machine learning. Consequently, there has been a surge in research on <b>graph</b> <b>Out-Of-Distribution</b> (OOD) adaptation methods that aim to mitigate the distribution shifts and adapt the knowledge from one distribution to another. In our survey, we provide an up-to-date and forward-looking review of <b>graph</b> OOD adaptation methods, covering two main problem scenarios including training-time as well as test-time <b>graph</b> OOD adaptation. We start by formally formulating the two problems and then discuss different types of distribution shifts on <b>graphs.</b> Based on our proposed taxonomy for <b>graph</b> OOD adaptation, we systematically categorize the existing methods according to their learning paradigm and investigate the techniques behind them. Finally, we point out promising research directions and the corresponding challenges. We also provide a continuously updated reading list at https://github.com/kaize0409/Awesome-Graph-OOD-Adaptation.git
 
 {{</citation>}}
 
