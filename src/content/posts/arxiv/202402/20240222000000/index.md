@@ -10236,14 +10236,14 @@ Quantum embedding with <b>transformers</b> is a novel and promising architecture
 {{</citation>}}
 
 
-### (2/5 | 265/316) KetGPT -- Dataset Augmentation of Quantum Circuits using Transformers (Boran Apak et al., 2024)
+### (2/5 | 265/316) KetGPT - Dataset Augmentation of Quantum Circuits using Transformers (Boran Apak et al., 2024)
 
 {{<citation>}}
 
 Boran Apak, Medina Bandic, Aritra Sarkar, Sebastian Feld. (2024)  
-**KetGPT -- Dataset Augmentation of Quantum Circuits using Transformers**
+**KetGPT - Dataset Augmentation of Quantum Circuits using Transformers**
 <br/>
-<button class="copy-to-clipboard" title="KetGPT -- Dataset Augmentation of Quantum Circuits using Transformers" index=265>
+<button class="copy-to-clipboard" title="KetGPT - Dataset Augmentation of Quantum Circuits using Transformers" index=265>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-265 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
