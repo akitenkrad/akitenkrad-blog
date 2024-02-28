@@ -4674,8 +4674,8 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs.LG  
 Keyword Score: 83  
 Keywords: Benchmarking, Continual Learning, Reinforcement Learning, Reinforcement Learning from Human Feedback, Reinforcement Learning from Human Feedback, GPT, GPT-4, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14228v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14228v1.pdf" filename="2402.14228v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14228v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14228v2.pdf" filename="2402.14228v2.pdf">Download PDF</button>
 
 ---
 
@@ -7377,14 +7377,14 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 40  
 Keywords: Contrastive Learning, Fine-tuning, Self-supervised Learning, Self-supervised Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14611v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14611v1.pdf" filename="2402.14611v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14611v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14611v2.pdf" filename="2402.14611v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-<b>Self-supervised</b> <b>learning</b> (SSL) approaches have achieved great success when the amount of labeled data is limited. Within SSL, models learn robust feature representations by solving pretext tasks. One such pretext task is <b>contrastive</b> <b>learning,</b> which involves forming pairs of similar and dissimilar input samples, guiding the model to distinguish between them. In this work, we investigate the application of <b>contrastive</b> <b>learning</b> to the domain of medical image analysis. Our findings reveal that MoCo v2, a state-of-the-art <b>contrastive</b> <b>learning</b> method, encounters dimensional collapse when applied to medical images. This is attributed to the high degree of inter-image similarity shared between the medical images. To address this, we propose two key contributions: local feature learning and feature decorrelation. Local feature learning improves the ability of the model to focus on the local regions of the image, while feature decorrelation removes the linear dependence among the features. Our experimental findings demonstrate that our contributions significantly enhance the model's performance in the downstream task of medical segmentation, both in the linear evaluation and full <b>fine-tuning</b> settings. This work illustrates the importance of effectively adapting SSL techniques to the characteristics of medical imaging tasks.
+<b>Self-supervised</b> <b>learning</b> (SSL) approaches have achieved great success when the amount of labeled data is limited. Within SSL, models learn robust feature representations by solving pretext tasks. One such pretext task is <b>contrastive</b> <b>learning,</b> which involves forming pairs of similar and dissimilar input samples, guiding the model to distinguish between them. In this work, we investigate the application of <b>contrastive</b> <b>learning</b> to the domain of medical image analysis. Our findings reveal that MoCo v2, a state-of-the-art <b>contrastive</b> <b>learning</b> method, encounters dimensional collapse when applied to medical images. This is attributed to the high degree of inter-image similarity shared between the medical images. To address this, we propose two key contributions: local feature learning and feature decorrelation. Local feature learning improves the ability of the model to focus on the local regions of the image, while feature decorrelation removes the linear dependence among the features. Our experimental findings demonstrate that our contributions significantly enhance the model's performance in the downstream task of medical segmentation, both in the linear evaluation and full <b>fine-tuning</b> settings. This work illustrates the importance of effectively adapting SSL techniques to the characteristics of medical imaging tasks. The source code will be made publicly available at: https://github.com/CAMMA-public/med-moco
 
 {{</citation>}}
 
@@ -10735,11 +10735,11 @@ Mass lumping techniques are commonly employed in explicit time integration schem
 {{</citation>}}
 
 
-### (2/2 | 275/299) On Schrödingerization based quantum algorithms for linear dynamical systems with inhomogeneous terms (S. Jin et al., 2024)
+### (2/2 | 275/299) On Schrödingerization based quantum algorithms for linear dynamical systems with inhomogeneous terms (Shi Jin et al., 2024)
 
 {{<citation>}}
 
-S. Jin, N. Liu, C. Ma. (2024)  
+Shi Jin, Nana Liu, Chuwen Ma. (2024)  
 **On Schrödingerization based quantum algorithms for linear dynamical systems with inhomogeneous terms**
 <br/>
 <button class="copy-to-clipboard" title="On Schrödingerization based quantum algorithms for linear dynamical systems with inhomogeneous terms" index=275>
@@ -10758,8 +10758,8 @@ Primary Category: math.NA
 Categories: cs-NA, math-NA, math.NA  
 Keyword Score: 20  
 Keywords: Simulation, Simulator  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14696v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14696v1.pdf" filename="2402.14696v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14696v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14696v2.pdf" filename="2402.14696v2.pdf">Download PDF</button>
 
 ---
 
