@@ -2201,7 +2201,7 @@ This paper introduces ConceptMath, a bilingual (English and Chinese), fine-grain
 
 {{<citation>}}
 
-Nathaniel Weir, Kate Sanders, Orion Weller, Shreya Sharma, Dongwei Jiang, Zhengping Zhang, Bhavana Dalvi Mishra, Oyvind Tafjord, Peter Jansen, Peter Clark, Benjamin Van Durme. (2024)  
+Nathaniel Weir, Kate Sanders, Orion Weller, Shreya Sharma, Dongwei Jiang, Zhengping Jiang, Bhavana Dalvi Mishra, Oyvind Tafjord, Peter Jansen, Peter Clark, Benjamin Van Durme. (2024)  
 **Enhancing Systematic Decompositional Natural Language Inference Using Informal Logic**
 <br/>
 <button class="copy-to-clipboard" title="Enhancing Systematic Decompositional Natural Language Inference Using Informal Logic" index=33>
@@ -2220,8 +2220,8 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 60  
 Keywords: Knowledge Distillation, Knowledge Distillation, Natural Language Inference, Reasoning, Textual Entailment, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14798v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14798v1.pdf" filename="2402.14798v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14798v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14798v2.pdf" filename="2402.14798v2.pdf">Download PDF</button>
 
 ---
 
@@ -6759,7 +6759,7 @@ Machine learning (ML) algorithms can often differ in performance across domains.
 
 {{<citation>}}
 
-Jiongxiao Wang, Jiazhao Li, Yiquan Li, Xiangyu Qi, Muhao Chen, Junjie Hu, Yixuan Li, Bo Li, Chaowei Xiao. (2024)  
+Jiongxiao Wang, Jiazhao Li, Yiquan Li, Xiangyu Qi, Junjie Hu, Yixuan Li, Patrick McDaniel, Muhao Chen, Bo Li, Chaowei Xiao. (2024)  
 **Mitigating Fine-tuning Jailbreak Attack with Backdoor Enhanced Alignment**
 <br/>
 <button class="copy-to-clipboard" title="Mitigating Fine-tuning Jailbreak Attack with Backdoor Enhanced Alignment" index=163>
@@ -6778,8 +6778,8 @@ Primary Category: cs.CR
 Categories: cs-CL, cs-CR, cs.CR  
 Keyword Score: 80  
 Keywords: Fine-tuning, Fine-tuning, GPT, GPT-4, LLaMA, Large Language Model, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14968v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14968v1.pdf" filename="2402.14968v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14968v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14968v2.pdf" filename="2402.14968v2.pdf">Download PDF</button>
 
 ---
 
@@ -9003,8 +9003,8 @@ Primary Category: cs.SE
 Categories: cs-AI, cs-CL, cs-SE, cs.SE  
 Keyword Score: 43  
 Keywords: Benchmarking, GPT, GPT-4, Code Generation, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14658v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14658v1.pdf" filename="2402.14658v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14658v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14658v2.pdf" filename="2402.14658v2.pdf">Download PDF</button>
 
 ---
 
@@ -11288,8 +11288,8 @@ Primary Category: cs.LO
 Categories: F-4-1; G-4, cs-LO, cs.LO  
 Keyword Score: 10  
 Keywords: Reasoning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14485v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14485v2.pdf" filename="2402.14485v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.14485v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.14485v3.pdf" filename="2402.14485v3.pdf">Download PDF</button>
 
 ---
 

@@ -1785,8 +1785,8 @@ Primary Category: cs.CR
 Categories: cs-AI, cs-CR, cs.CR  
 Keyword Score: 53  
 Keywords: Anomaly Detection, Benchmarking, Data Augmentation, Generative Adversarial Network, Generative Adversarial Network, Knowledge Distillation  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.15945v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.15945v1.pdf" filename="2402.15945v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.15945v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.15945v2.pdf" filename="2402.15945v2.pdf">Download PDF</button>
 
 ---
 
@@ -3905,8 +3905,8 @@ Primary Category: cs.SE
 Categories: cs-AI, cs-SE, cs.SE  
 Keyword Score: 3  
 Keywords: Clustering  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.15990v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.15990v1.pdf" filename="2402.15990v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.15990v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.15990v2.pdf" filename="2402.15990v2.pdf">Download PDF</button>
 
 ---
 
