@@ -1332,8 +1332,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-GT, cs.CL  
 Keyword Score: 13  
 Keywords: Benchmarking, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.15813v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.15813v1.pdf" filename="2402.15813v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.15813v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.15813v2.pdf" filename="2402.15813v2.pdf">Download PDF</button>
 
 ---
 
@@ -1651,8 +1651,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 43  
 Keywords: Benchmarking, Contrastive Learning, Convolutional Neural Network, Transformer, Style Transfer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.15784v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.15784v1.pdf" filename="2402.15784v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.15784v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.15784v2.pdf" filename="2402.15784v2.pdf">Download PDF</button>
 
 ---
 
@@ -4275,8 +4275,8 @@ Primary Category: eess.SY
 Categories: cs-LG, cs-SY, eess-SY, eess.SY  
 Keyword Score: 10  
 Keywords: Reinforcement Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.15893v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.15893v1.pdf" filename="2402.15893v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.15893v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.15893v2.pdf" filename="2402.15893v2.pdf">Download PDF</button>
 
 ---
 

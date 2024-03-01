@@ -1789,8 +1789,8 @@ Primary Category: cs.CR
 Categories: cs-CR, cs-PL, cs.CR  
 Keyword Score: 40  
 Keywords: Probabilistic Model, Reasoning, Stemming, Differential Privacy  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16982v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16982v1.pdf" filename="2402.16982v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16982v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16982v2.pdf" filename="2402.16982v2.pdf">Download PDF</button>
 
 ---
 
@@ -2528,14 +2528,14 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 60  
 Keywords: Knowledge Distillation, Knowledge Distillation, Model Compression, Quantization, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16363v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16363v2.pdf" filename="2402.16363v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16363v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16363v3.pdf" filename="2402.16363v3.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-The field of efficient <b>Large</b> <b>Language</b> <b>Model</b> <b>(LLM)</b> inference is rapidly evolving, presenting a unique blend of opportunities and challenges. Although the field has expanded and is vibrant, there hasn't been a concise framework that analyzes the various methods of <b>LLM</b> Inference to provide a clear understanding of this domain. Our survey stands out from traditional literature reviews by not only summarizing the current state of research but also by introducing a framework based on roofline <b>model</b> <b>for</b> systematic analysis of <b>LLM</b> inference techniques. This framework identifies the bottlenecks when deploying <b>LLMs</b> on hardware devices and provides a clear understanding of practical problems, such as why <b>LLMs</b> are memory-bound, how much memory and computation they need, and how to choose the right hardware. We systematically collate the latest advancements in efficient <b>LLM</b> inference, covering crucial areas such as <b>model</b> <b>compression</b> (e.g., <b>Knowledge</b> <b>Distillation</b> and <b>Quantization),</b> algorithm improvements (e.g., Early Exit and Mixture-of-Expert), and both hardware and system-level enhancements. Our survey stands out by analyzing these methods with roofline <b>model,</b> <b>helping</b> us understand their impact on memory access and computation. This distinctive approach not only showcases the current research landscape but also delivers valuable insights for practical implementation, positioning our work as an indispensable resource for researchers new to the field as well as for those seeking to deepen their understanding of efficient <b>LLM</b> deployment. The analyze tool <b>LLM-Viewer</b> is open-sourced.
+The field of efficient <b>Large</b> <b>Language</b> <b>Model</b> <b>(LLM)</b> inference is rapidly evolving, presenting a unique blend of opportunities and challenges. Although the field has expanded and is vibrant, there hasn't been a concise framework that analyzes the various methods of <b>LLM</b> Inference to provide a clear understanding of this domain. Our survey stands out from traditional literature reviews by not only summarizing the current state of research but also by introducing a framework based on roofline <b>model</b> <b>for</b> systematic analysis of <b>LLM</b> inference techniques. This framework identifies the bottlenecks when deploying <b>LLMs</b> on hardware devices and provides a clear understanding of practical problems, such as why <b>LLMs</b> are memory-bound, how much memory and computation they need, and how to choose the right hardware. We systematically collate the latest advancements in efficient <b>LLM</b> inference, covering crucial areas such as <b>model</b> <b>compression</b> (e.g., <b>Knowledge</b> <b>Distillation</b> and <b>Quantization),</b> algorithm improvements (e.g., Early Exit and Mixture-of-Expert), and both hardware and system-level enhancements. Our survey stands out by analyzing these methods with roofline <b>model,</b> <b>helping</b> us understand their impact on memory access and computation. This distinctive approach not only showcases the current research landscape but also delivers valuable insights for practical implementation, positioning our work as an indispensable resource for researchers new to the field as well as for those seeking to deepen their understanding of efficient <b>LLM</b> deployment. The analyze tool, <b>LLM-Viewer,</b> is open-sourced.
 
 {{</citation>}}
 
@@ -3648,8 +3648,8 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 30  
 Keywords: Large Language Model, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16459v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16459v1.pdf" filename="2402.16459v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16459v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16459v2.pdf" filename="2402.16459v2.pdf">Download PDF</button>
 
 ---
 
@@ -5406,8 +5406,8 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG, math-GR, math-RT  
 Keyword Score: 20  
 Keywords: Convolution, Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.17002v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.17002v1.pdf" filename="2402.17002v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.17002v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.17002v2.pdf" filename="2402.17002v2.pdf">Download PDF</button>
 
 ---
 
@@ -6231,7 +6231,7 @@ Recent advances in instruction-tuned <b>Large</b> <b>Vision-Language</b> <b>Mode
 
 {{<citation>}}
 
-Li Zhang, Youwei Liang, Pengtao Xie. (2024)  
+Li Zhang, Youwei Liang, Ruiyi Zhang, Pengtao Xie. (2024)  
 **BLO-SAM: Bi-level Optimization Based Overfitting-Preventing Finetuning of SAM**
 <br/>
 <button class="copy-to-clipboard" title="BLO-SAM: Bi-level Optimization Based Overfitting-Preventing Finetuning of SAM" index=142>
@@ -6250,8 +6250,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 40  
 Keywords: Fine-tuning, Fine-tuning, Foundation Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16338v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16338v1.pdf" filename="2402.16338v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16338v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16338v2.pdf" filename="2402.16338v2.pdf">Download PDF</button>
 
 ---
 
@@ -7335,8 +7335,8 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs.CV, eess-IV  
 Keyword Score: 6  
 Keywords: Multi-modal, Multi-modal  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16749v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16749v1.pdf" filename="2402.16749v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16749v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16749v2.pdf" filename="2402.16749v2.pdf">Download PDF</button>
 
 ---
 
@@ -8584,8 +8584,8 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-NI, cs.AI, eess-SP  
 Keyword Score: 23  
 Keywords: Knowledge Transfer, Multi-modal, Reasoning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16631v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16631v1.pdf" filename="2402.16631v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16631v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16631v2.pdf" filename="2402.16631v2.pdf">Download PDF</button>
 
 ---
 
@@ -9421,8 +9421,8 @@ Primary Category: stat.ML
 Categories: cs-DS, cs-LG, stat-ML, stat.ML  
 Keyword Score: 30  
 Keywords: Logistic Regression, Supervised Learning, Supervised Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16326v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16326v1.pdf" filename="2402.16326v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16326v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.16326v2.pdf" filename="2402.16326v2.pdf">Download PDF</button>
 
 ---
 
