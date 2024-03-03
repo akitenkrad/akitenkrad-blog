@@ -8764,7 +8764,7 @@ Ali Aghdaei, Zhuo Feng. (2024)
 
 ---
 Primary Category: cs.DS  
-Categories: cs-DS, cs-LG, cs.DS  
+Categories: cs-DS, cs-LG, cs-SI, cs.DS  
 Keyword Score: 33  
 Keywords: Graph, Node Embedding, Simulation, Simulator  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.16990v1" target="_blank" >Paper Link</a>
