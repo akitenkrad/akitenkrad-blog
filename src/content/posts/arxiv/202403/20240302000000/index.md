@@ -1123,14 +1123,14 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 60  
 Keywords: Question Answering, Question Answering, Reasoning, Pre-trained Language Model, Pre-trained Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19350v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19350v1.pdf" filename="2402.19350v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19350v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19350v2.pdf" filename="2402.19350v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-<b>Pre-trained</b> <b>language</b> <b>models</b> <b>(PLMs)</b> leverage chains-of-thought (CoT) to simulate human <b>reasoning</b> and inference processes, achieving proficient performance in multi-hop <b>QA.</b> However, a gap persists between <b>PLMs'</b> <b>reasoning</b> abilities and those of humans when tackling complex problems. Psychological studies suggest a vital connection between explicit information in passages and human prior knowledge during reading. Nevertheless, current research has given insufficient attention to linking input passages and <b>PLMs'</b> pre-training-based knowledge from the perspective of human cognition studies. In this study, we introduce a \textbf{P}rompting \textbf{E}xplicit and \textbf{I}mplicit knowledge (PEI) framework, which uses <b>prompts</b> to connect explicit and implicit knowledge, aligning with human reading process for multi-hop <b>QA.</b> We consider the input passages as explicit knowledge, employing them to elicit implicit knowledge through unified <b>prompt</b> <b>reasoning.</b> Furthermore, our model incorporates type-specific <b>reasoning</b> via <b>prompts,</b> a form of implicit knowledge. Experimental results show that PEI performs comparably to the state-of-the-art on HotpotQA. Ablation studies confirm the efficacy of our model in bridging and integrating explicit and implicit knowledge.
+<b>Pre-trained</b> <b>language</b> <b>models</b> <b>(PLMs)</b> leverage chains-of-thought (CoT) to simulate human <b>reasoning</b> and inference processes, achieving proficient performance in multi-hop <b>QA.</b> However, a gap persists between <b>PLMs'</b> <b>reasoning</b> abilities and those of humans when tackling complex problems. Psychological studies suggest a vital connection between explicit information in passages and human prior knowledge during reading. Nevertheless, current research has given insufficient attention to linking input passages and <b>PLMs'</b> pre-training-based knowledge from the perspective of human cognition studies. In this study, we introduce a <b>Prompting</b> Explicit and Implicit knowledge (PEI) framework, which uses <b>prompts</b> to connect explicit and implicit knowledge, aligning with human reading process for multi-hop <b>QA.</b> We consider the input passages as explicit knowledge, employing them to elicit implicit knowledge through unified <b>prompt</b> <b>reasoning.</b> Furthermore, our model incorporates type-specific <b>reasoning</b> via <b>prompts,</b> a form of implicit knowledge. Experimental results show that PEI performs comparably to the state-of-the-art on HotpotQA. Ablation studies confirm the efficacy of our model in bridging and integrating explicit and implicit knowledge.
 
 {{</citation>}}
 
@@ -1298,8 +1298,8 @@ Primary Category: cs.CL
 Categories: I-2-7; I-2-10, cs-AI, cs-CL, cs-CV, cs.CL  
 Keyword Score: 41  
 Keywords: Black Box, Multi-modal, Multi-modal, Zero-shot, Question Answering, Reasoning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19467v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19467v1.pdf" filename="2402.19467v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19467v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19467v2.pdf" filename="2402.19467v2.pdf">Download PDF</button>
 
 ---
 
@@ -1788,8 +1788,8 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 20  
 Keywords: Mutual Information, Summarization  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19457v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19457v1.pdf" filename="2402.19457v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19457v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19457v2.pdf" filename="2402.19457v2.pdf">Download PDF</button>
 
 ---
 
@@ -2068,8 +2068,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 20  
 Keywords: Mutual Information, Natural Language Understanding  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18838v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18838v1.pdf" filename="2402.18838v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18838v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18838v2.pdf" filename="2402.18838v2.pdf">Download PDF</button>
 
 ---
 
@@ -3418,7 +3418,7 @@ We tackle semi-supervised <b>object</b> <b>detection</b> based on motion cues. R
 
 {{<citation>}}
 
-Niccolò Cavagnero, Gabriele Rosi, Claudia Ruttano, Francesca Pistilli, Marco Ciccone, Giuseppe Averta, Fabio Cermelli. (2024)  
+Niccolò Cavagnero, Gabriele Rosi, Claudia Cuttano, Francesca Pistilli, Marco Ciccone, Giuseppe Averta, Fabio Cermelli. (2024)  
 **PEM: Prototype-based Efficient MaskFormer for Image Segmentation**
 <br/>
 <button class="copy-to-clipboard" title="PEM: Prototype-based Efficient MaskFormer for Image Segmentation" index=71>
@@ -3437,8 +3437,8 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs.CV  
 Keyword Score: 23  
 Keywords: Benchmarking, Convolution, Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19422v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19422v1.pdf" filename="2402.19422v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19422v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19422v2.pdf" filename="2402.19422v2.pdf">Download PDF</button>
 
 ---
 
@@ -4417,8 +4417,8 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs.CV  
 Keyword Score: 3  
 Keywords: Benchmarking  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18929v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18929v1.pdf" filename="2402.18929v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18929v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18929v2.pdf" filename="2402.18929v2.pdf">Download PDF</button>
 
 ---
 
@@ -6035,8 +6035,8 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keyword Score: 10  
 Keywords: Federated Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18888v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18888v1.pdf" filename="2402.18888v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18888v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18888v2.pdf" filename="2402.18888v2.pdf">Download PDF</button>
 
 ---
 
@@ -8125,7 +8125,7 @@ In this paper, we design a beam splitter-based hybrid light field imaging protot
 
 {{<citation>}}
 
-Sarina Thomas, Cristiana Tiago, Børge Solli Andreassen, Svein-Arne Aase, Jurica Sprem, Erik Steen, Anne Solberg, Guy Ben-Yosef. (2024)  
+Sarina Thomas, Cristiana Tiago, Børge Solli Andreassen, Svein Arne Aase, Jurica Šprem, Erik Steen, Anne Solberg, Guy Ben-Yosef. (2024)  
 **Graph Convolutional Neural Networks for Automated Echocardiography View Recognition: A Holistic Approach**
 <br/>
 <button class="copy-to-clipboard" title="Graph Convolutional Neural Networks for Automated Echocardiography View Recognition: A Holistic Approach" index=204>
@@ -8144,8 +8144,8 @@ Primary Category: eess.IV
 Categories: cs-CV, cs-LG, eess-IV, eess.IV  
 Keyword Score: 33  
 Keywords: Diffusion Model, Graph, Convolution, Convolutional Neural Network  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19062v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19062v1.pdf" filename="2402.19062v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19062v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19062v2.pdf" filename="2402.19062v2.pdf">Download PDF</button>
 
 ---
 
@@ -9121,8 +9121,8 @@ Primary Category: cs.IT
 Categories: cs-IT, cs.IT, eess-SP, math-IT  
 Keyword Score: 10  
 Keywords: Domain Adaptation  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19434v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19434v1.pdf" filename="2402.19434v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19434v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19434v2.pdf" filename="2402.19434v2.pdf">Download PDF</button>
 
 ---
 

@@ -639,7 +639,7 @@ math: true
     <tr>
       <td>Large Language Model</td>
       <td>14</td>
-      <td>71</td>
+      <td>72</td>
       <td>4</td>
       <td>9</td>
       <td>2</td>
@@ -2396,17 +2396,52 @@ Automated story generation has been one of the long-standing challenges in NLP. 
 {{</citation>}}
 
 
-### (33/63 | 33/333) Unleashing the Potential of Large Language Models as Prompt Optimizers: An Analogical Analysis with Gradient-based Model Optimizers (Xinyu Tang et al., 2024)
+### (33/63 | 33/333) Large Language Models(LLMs) on Tabular Data: Prediction, Generation, and Understanding -- A Survey (Xi Fang et al., 2024)
+
+{{<citation>}}
+
+Xi Fang, Weijie Xu, Fiona Anting Tan, Jiani Zhang, Ziqing Hu, Yanjun Qi, Scott Nickleach, Diego Socolinsky, Srinivasan Sengamedu, Christos Faloutsos. (2024)  
+**Large Language Models(LLMs) on Tabular Data: Prediction, Generation, and Understanding -- A Survey**
+<br/>
+<button class="copy-to-clipboard" title="Large Language Models(LLMs) on Tabular Data: Prediction, Generation, and Understanding -- A Survey" index=33>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-33 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: 68T50, I-2-7, cs-CL, cs.CL  
+Keyword Score: 40  
+Keywords: Question Answering, Large Language Model, Large Language Model, Summarization  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.17944v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.17944v2.pdf" filename="2402.17944v2.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Recent breakthroughs in <b>large</b> <b>language</b> <b>modeling</b> have facilitated rigorous exploration of their application in diverse tasks related to tabular data modeling, such as prediction, tabular data synthesis, <b>question</b> <b>answering,</b> and table understanding. Each task presents unique challenges and opportunities. However, there is currently a lack of comprehensive review that <b>summarizes</b> and compares the key techniques, metrics, datasets, models, and optimization approaches in this research domain. This survey aims to address this gap by consolidating recent progress in these areas, offering a thorough survey and taxonomy of the datasets, metrics, and methodologies utilized. It identifies strengths, limitations, unexplored territories, and gaps in the existing literature, while providing some insights for future research directions in this vital and rapidly evolving field. It also provides relevant code and datasets references. Through this comprehensive review, we hope to provide interested readers with pertinent references and insightful perspectives, empowering them with the necessary tools and knowledge to effectively navigate and address the prevailing challenges in the field.
+
+{{</citation>}}
+
+
+### (34/63 | 34/333) Unleashing the Potential of Large Language Models as Prompt Optimizers: An Analogical Analysis with Gradient-based Model Optimizers (Xinyu Tang et al., 2024)
 
 {{<citation>}}
 
 Xinyu Tang, Xiaolei Wang, Wayne Xin Zhao, Siyuan Lu, Yaliang Li, Ji-Rong Wen. (2024)  
 **Unleashing the Potential of Large Language Models as Prompt Optimizers: An Analogical Analysis with Gradient-based Model Optimizers**
 <br/>
-<button class="copy-to-clipboard" title="Unleashing the Potential of Large Language Models as Prompt Optimizers: An Analogical Analysis with Gradient-based Model Optimizers" index=33>
+<button class="copy-to-clipboard" title="Unleashing the Potential of Large Language Models as Prompt Optimizers: An Analogical Analysis with Gradient-based Model Optimizers" index=34>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-33 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-34 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2431,17 +2466,17 @@ Automatic <b>prompt</b> optimization is an important approach to improving the p
 {{</citation>}}
 
 
-### (34/63 | 34/333) Predict the Next Word: <Humans exhibit uncertainty in this task and language models _____> (Evgenia Ilia et al., 2024)
+### (35/63 | 35/333) Predict the Next Word: <Humans exhibit uncertainty in this task and language models _____> (Evgenia Ilia et al., 2024)
 
 {{<citation>}}
 
 Evgenia Ilia, Wilker Aziz. (2024)  
 **Predict the Next Word: <Humans exhibit uncertainty in this task and language models _____>**
 <br/>
-<button class="copy-to-clipboard" title="Predict the Next Word: <Humans exhibit uncertainty in this task and language models _____>" index=34>
+<button class="copy-to-clipboard" title="Predict the Next Word: <Humans exhibit uncertainty in this task and language models _____>" index=35>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-34 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-35 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2466,17 +2501,17 @@ Language models (LMs) are statistical models trained to assign probability to hu
 {{</citation>}}
 
 
-### (35/63 | 35/333) Acquiring Linguistic Knowledge from Multimodal Input (Theodor Amariucai et al., 2024)
+### (36/63 | 36/333) Acquiring Linguistic Knowledge from Multimodal Input (Theodor Amariucai et al., 2024)
 
 {{<citation>}}
 
 Theodor Amariucai, Alex Warstadt. (2024)  
 **Acquiring Linguistic Knowledge from Multimodal Input**
 <br/>
-<button class="copy-to-clipboard" title="Acquiring Linguistic Knowledge from Multimodal Input" index=35>
+<button class="copy-to-clipboard" title="Acquiring Linguistic Knowledge from Multimodal Input" index=36>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-35 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-36 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2501,17 +2536,17 @@ In contrast to children, language models (LMs) exhibit considerably inferior dat
 {{</citation>}}
 
 
-### (36/63 | 36/333) Probing Multimodal Large Language Models for Global and Local Semantic Representation (Mingxu Tao et al., 2024)
+### (37/63 | 37/333) Probing Multimodal Large Language Models for Global and Local Semantic Representation (Mingxu Tao et al., 2024)
 
 {{<citation>}}
 
 Mingxu Tao, Quzhe Huang, Kun Xu, Liwei Chen, Yansong Feng, Dongyan Zhao. (2024)  
 **Probing Multimodal Large Language Models for Global and Local Semantic Representation**
 <br/>
-<button class="copy-to-clipboard" title="Probing Multimodal Large Language Models for Global and Local Semantic Representation" index=36>
+<button class="copy-to-clipboard" title="Probing Multimodal Large Language Models for Global and Local Semantic Representation" index=37>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-36 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-37 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2536,17 +2571,17 @@ The success of <b>large</b> <b>language</b> <b>models</b> has inspired researche
 {{</citation>}}
 
 
-### (37/63 | 37/333) Stable LM 2 1.6B Technical Report (Marco Bellagente et al., 2024)
+### (38/63 | 38/333) Stable LM 2 1.6B Technical Report (Marco Bellagente et al., 2024)
 
 {{<citation>}}
 
 Marco Bellagente, Jonathan Tow, Dakota Mahan, Duy Phung, Maksym Zhuravinskyi, Reshinth Adithyan, James Baicoianu, Ben Brooks, Nathan Cooper, Ashish Datta, Meng Lee, Emad Mostaque, Michael Pieler, Nikhil Pinnaparju, Paulo Rocha, Harry Saini, Hannah Teufel, Niccolo Zanichelli, Carlos Riquelme. (2024)  
 **Stable LM 2 1.6B Technical Report**
 <br/>
-<button class="copy-to-clipboard" title="Stable LM 2 1.6B Technical Report" index=37>
+<button class="copy-to-clipboard" title="Stable LM 2 1.6B Technical Report" index=38>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-37 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-38 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2571,17 +2606,17 @@ We introduce StableLM 2 1.6B, the first in a new generation of our language mode
 {{</citation>}}
 
 
-### (38/63 | 38/333) Tower: An Open Multilingual Large Language Model for Translation-Related Tasks (Duarte M. Alves et al., 2024)
+### (39/63 | 39/333) Tower: An Open Multilingual Large Language Model for Translation-Related Tasks (Duarte M. Alves et al., 2024)
 
 {{<citation>}}
 
 Duarte M. Alves, José Pombal, Nuno M. Guerreiro, Pedro H. Martins, João Alves, Amin Farajian, Ben Peters, Ricardo Rei, Patrick Fernandes, Sweta Agrawal, Pierre Colombo, José G. C. de Souza, André F. T. Martins. (2024)  
 **Tower: An Open Multilingual Large Language Model for Translation-Related Tasks**
 <br/>
-<button class="copy-to-clipboard" title="Tower: An Open Multilingual Large Language Model for Translation-Related Tasks" index=38>
+<button class="copy-to-clipboard" title="Tower: An Open Multilingual Large Language Model for Translation-Related Tasks" index=39>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-38 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-39 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2606,17 +2641,17 @@ While general-purpose <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> d
 {{</citation>}}
 
 
-### (39/63 | 39/333) TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space (Shaolei Zhang et al., 2024)
+### (40/63 | 40/333) TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space (Shaolei Zhang et al., 2024)
 
 {{<citation>}}
 
 Shaolei Zhang, Tian Yu, Yang Feng. (2024)  
 **TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space**
 <br/>
-<button class="copy-to-clipboard" title="TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space" index=39>
+<button class="copy-to-clipboard" title="TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space" index=40>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-39 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-40 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2641,17 +2676,17 @@ Keywords: Benchmarking, Contrastive Learning, Large Language Model, Large Langua
 {{</citation>}}
 
 
-### (40/63 | 40/333) Exploiting Emotion-Semantic Correlations for Empathetic Response Generation (Zhou Yang et al., 2024)
+### (41/63 | 41/333) Exploiting Emotion-Semantic Correlations for Empathetic Response Generation (Zhou Yang et al., 2024)
 
 {{<citation>}}
 
 Zhou Yang, Zhaochun Ren, Yufeng Wang, Xiaofei Zhu, Zhihao Chen, Tiecheng Cai, Yunbing Wu, Yisong Su, Sibo Ju, Xiangwen Liao. (2024)  
 **Exploiting Emotion-Semantic Correlations for Empathetic Response Generation**
 <br/>
-<button class="copy-to-clipboard" title="Exploiting Emotion-Semantic Correlations for Empathetic Response Generation" index=40>
+<button class="copy-to-clipboard" title="Exploiting Emotion-Semantic Correlations for Empathetic Response Generation" index=41>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-40 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-41 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2676,17 +2711,17 @@ Empathetic response generation aims to generate empathetic responses by understa
 {{</citation>}}
 
 
-### (41/63 | 41/333) SKT5SciSumm -- A Hybrid Generative Approach for Multi-Document Scientific Summarization (Huy Quoc To et al., 2024)
+### (42/63 | 42/333) SKT5SciSumm -- A Hybrid Generative Approach for Multi-Document Scientific Summarization (Huy Quoc To et al., 2024)
 
 {{<citation>}}
 
 Huy Quoc To, Hung-Nghiep Tran, Andr'e Greiner-Petter, Felix Beierle, Akiko Aizawa. (2024)  
 **SKT5SciSumm -- A Hybrid Generative Approach for Multi-Document Scientific Summarization**
 <br/>
-<button class="copy-to-clipboard" title="SKT5SciSumm -- A Hybrid Generative Approach for Multi-Document Scientific Summarization" index=41>
+<button class="copy-to-clipboard" title="SKT5SciSumm -- A Hybrid Generative Approach for Multi-Document Scientific Summarization" index=42>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-41 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-42 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2707,41 +2742,6 @@ Keywords: Clustering, T5, Transformer, Summarization
 
 **ABSTRACT**  
 <b>Summarization</b> for scientific text has shown significant benefits both for the research community and human society. Given the fact that the nature of scientific text is distinctive and the input of the multi-document <b>summarization</b> task is substantially long, the task requires sufficient embedding generation and text truncation without losing important information. To tackle these issues, in this paper, we propose SKT5SciSumm - a hybrid framework for multi-document scientific <b>summarization</b> (MDSS). We leverage the Sentence-Transformer version of Scientific Paper Embeddings using Citation-Informed <b>Transformers</b> (SPECTER) to encode and represent textual sentences, allowing for efficient extractive <b>summarization</b> using k-means <b>clustering.</b> We employ the <b>T5</b> family of models to generate abstractive summaries using extracted sentences. SKT5SciSumm achieves state-of-the-art performance on the Multi-XScience dataset. Through extensive experiments and evaluation, we showcase the benefits of our model by using less complicated models to achieve remarkable results, thereby highlighting its potential in advancing the field of multi-document <b>summarization</b> for scientific text.
-
-{{</citation>}}
-
-
-### (42/63 | 42/333) Large Language Models on Tabular Data -- A Survey (Xi Fang et al., 2024)
-
-{{<citation>}}
-
-Xi Fang, Weijie Xu, Fiona Anting Tan, Jiani Zhang, Ziqing Hu, Yanjun Qi, Scott Nickleach, Diego Socolinsky, Srinivasan Sengamedu, Christos Faloutsos. (2024)  
-**Large Language Models on Tabular Data -- A Survey**
-<br/>
-<button class="copy-to-clipboard" title="Large Language Models on Tabular Data -- A Survey" index=42>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-42 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.CL  
-Categories: 68T50, I-2-7, cs-CL, cs.CL  
-Keyword Score: 30  
-Keywords: Question Answering, Large Language Model, Summarization  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.17944v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.17944v1.pdf" filename="2402.17944v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-Recent breakthroughs in <b>large</b> <b>language</b> <b>modeling</b> have facilitated rigorous exploration of their application in diverse tasks related to tabular data modeling, such as prediction, tabular data synthesis, <b>question</b> <b>answering,</b> and table understanding. Each task presents unique challenges and opportunities. However, there is currently a lack of comprehensive review that <b>summarizes</b> and compares the key techniques, metrics, datasets, models, and optimization approaches in this research domain. This survey aims to address this gap by consolidating recent progress in these areas, offering a thorough survey and taxonomy of the datasets, metrics, and methodologies utilized. It identifies strengths, limitations, unexplored territories, and gaps in the existing literature, while providing some insights for future research directions in this vital and rapidly evolving field. It also provides relevant code and datasets references. Through this comprehensive review, we hope to provide interested readers with pertinent references and insightful perspectives, empowering them with the necessary tools and knowledge to effectively navigate and address the prevailing challenges in the field.
 
 {{</citation>}}
 
