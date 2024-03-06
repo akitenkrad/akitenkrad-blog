@@ -2979,8 +2979,8 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 23  
 Keywords: Benchmarking, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.00835v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.00835v1.pdf" filename="2403.00835v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.00835v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.00835v2.pdf" filename="2403.00835v2.pdf">Download PDF</button>
 
 ---
 
@@ -3963,8 +3963,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 40  
 Keywords: Diffusion Model, Fine-tuning, Fine-tuning, Vision-and-Language  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18068v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18068v1.pdf" filename="2402.18068v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18068v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18068v2.pdf" filename="2402.18068v2.pdf">Download PDF</button>
 
 ---
 
@@ -8564,14 +8564,14 @@ Primary Category: cs.RO
 Categories: cs-RO, cs.RO  
 Keyword Score: 53  
 Keywords: Graph, Graph Neural Network, Graph Neural Network, Simulation, Simulator, Zero-shot  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18420v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18420v1.pdf" filename="2402.18420v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18420v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18420v2.pdf" filename="2402.18420v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-When deploying Cable-Driven Parallel Robots (CDPRs) in practice, one of the challenges is kinematic modeling. Unlike serial mechanisms, CDPRs have a simple inverse kinematics problem but a complex forward kinematics (FK) issue. Therefore, the development of accurate and efficient FK solvers has been a prominent research focus in CDPR applications. By observing the topology within CDPRs, in this letter, we propose a <b>graph-based</b> <b>representation</b> <b>to</b> model CDPRs and introduce CafkNet, a fast and general FK solver, leveraging <b>Graph</b> <b>Neural</b> <b>Network</b> <b>(GNN).</b> Extensive experiments are conducted on 3D and 2D CDPRs across various configurations, including under-constrained, fully-constrained, and over-constrained cases, in both <b>simulation</b> environments and real-world scenarios. The experimental results showcase that CafkNet can learn the internal topological information of CDPRs and accurately solve the FK problem as an FK solver. Furthermore, training the CafkNet model on partial configurations enables <b>zero-shot</b> generalization to other configurations. Lastly, CafkNet effectively bridges the sim2real gap by using both <b>simulation</b> data and part of real-world data. To the best of our knowledge, it is the first study that employs the <b>GNN</b> to solve the FK problem for CDPRs.
+The Cable-Driven Parallel Robots (CDPRs) have gained significant attention due to their high payload capacity and large workspace. When deploying CDPRs in practice, one of the challenges is kinematic modeling. Unlike serial mechanisms, CDPRs have a simple inverse kinematics problem but a complex forward kinematics (FK) issue. Therefore, the development of accurate and efficient FK solvers has been a prominent research focus in CDPR applications. By observing the topology within CDPRs, in this paper, we propose a <b>graph-based</b> <b>representation</b> <b>to</b> model CDPRs and introduce CafkNet, a fast and general FK solver, leveraging <b>Graph</b> <b>Neural</b> <b>Network</b> <b>(GNN).</b> CafkNet is extensively tested on 3D and 2D CDPRs in different configurations, both in simulators and real scenarios. The results demonstrate its ability to learn CDPRs' internal topology and accurately solve the FK problem. Then, the <b>zero-shot</b> generalization from one configuration to another is validated. Also, the sim2real gap can be bridged by CafkNet using both <b>simulation</b> and real-world data. To the best of our knowledge, it is the first study that employs the <b>GNN</b> to solve FK problem for CDPRs.
 
 {{</citation>}}
 
@@ -9377,8 +9377,8 @@ Primary Category: cs.IR
 Categories: cs-CL, cs-IR, cs.IR  
 Keyword Score: 50  
 Keywords: Recommendation, Recommender System, GPT, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18240v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18240v1.pdf" filename="2402.18240v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18240v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18240v2.pdf" filename="2402.18240v2.pdf">Download PDF</button>
 
 ---
 
@@ -9595,8 +9595,8 @@ Primary Category: cs.SI
 Categories: cs-AI, cs-CR, cs-LG, cs-SI, cs.SI  
 Keyword Score: 43  
 Keywords: Message-Passing, Graph, Graph Neural Network, Graph Neural Network, Differential Privacy  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.00030v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.00030v1.pdf" filename="2403.00030v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.00030v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.00030v2.pdf" filename="2403.00030v2.pdf">Download PDF</button>
 
 ---
 
@@ -10004,8 +10004,8 @@ Primary Category: cs.CY
 Categories: cs-CY, cs.CY  
 Keyword Score: 40  
 Keywords: Simulation, Simulator, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18180v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18180v2.pdf" filename="2402.18180v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.18180v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.18180v3.pdf" filename="2402.18180v3.pdf">Download PDF</button>
 
 ---
 
