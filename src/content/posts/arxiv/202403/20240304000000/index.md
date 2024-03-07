@@ -1714,8 +1714,8 @@ Primary Category: cs.LG
 Categories: cs-AR, cs-LG, cs.LG  
 Keyword Score: 53  
 Keywords: Graph Attention Networks, Graph, Graph Neural Network, Graph Neural Network, Reasoning, Self-Attention  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.01317v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.01317v1.pdf" filename="2403.01317v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.01317v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.01317v2.pdf" filename="2403.01317v2.pdf">Download PDF</button>
 
 ---
 

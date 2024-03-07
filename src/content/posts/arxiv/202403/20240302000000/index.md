@@ -6099,14 +6099,14 @@ Primary Category: cs.LG
 Categories: cs-CR, cs-LG, cs-PL, cs.LG  
 Keyword Score: 30  
 Keywords: Pruning, Stemming, Adversarial Attack  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19322v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19322v1.pdf" filename="2402.19322v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19322v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19322v2.pdf" filename="2402.19322v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Neural networks are successful in various applications but are also susceptible to <b>adversarial</b> <b>attacks.</b> To show the safety of network classifiers, many verifiers have been introduced to reason about the local robustness of a given input to a given perturbation. While successful, local robustness cannot generalize to unseen inputs. Several works analyze global robustness properties, however, neither can provide a precise guarantee about the cases where a network classifier does not change its classification. In this work, we propose a new global robustness property for classifiers aiming at finding the minimal globally robust bound, which naturally extends the popular local robustness property for classifiers. We introduce VHAGaR, an anytime verifier for computing this bound. VHAGaR relies on three main ideas: encoding the problem as a mixed-integer programming and <b>pruning</b> the search space by identifying dependencies <b>stemming</b> from the perturbation or network computation and generalizing <b>adversarial</b> <b>attacks</b> to unknown inputs. We evaluate VHAGaR on several datasets and classifiers and show that, given a three hour timeout, the average gap between the lower and upper bound on the minimal globally robust bound computed by VHAGaR is 1.9, while the gap of an existing global robustness verifier is 154.7. Moreover, VHAGaR is 130.6x faster than this verifier. Our results further indicate that leveraging dependencies and <b>adversarial</b> <b>attacks</b> makes VHAGaR 78.6x faster.
+Neural networks are successful in various applications but are also susceptible to <b>adversarial</b> <b>attacks.</b> To show the safety of network classifiers, many verifiers have been introduced to reason about the local robustness of a given input to a given perturbation. While successful, local robustness cannot generalize to unseen inputs. Several works analyze global robustness properties, however, neither can provide a precise guarantee about the cases where a network classifier does not change its classification. In this work, we propose a new global robustness property for classifiers aiming at finding the minimal globally robust bound, which naturally extends the popular local robustness property for classifiers. We introduce VHAGaR, an anytime verifier for computing this bound. VHAGaR relies on three main ideas: encoding the problem as a mixed-integer programming and <b>pruning</b> the search space by identifying dependencies <b>stemming</b> from the perturbation or the network's computation and generalizing <b>adversarial</b> <b>attacks</b> to unknown inputs. We evaluate VHAGaR on several datasets and classifiers and show that, given a three hour timeout, the average gap between the lower and upper bound on the minimal globally robust bound computed by VHAGaR is 1.9, while the gap of an existing global robustness verifier is 154.7. Moreover, VHAGaR is 130.6x faster than this verifier. Our results further indicate that leveraging dependencies and <b>adversarial</b> <b>attacks</b> makes VHAGaR 78.6x faster.
 
 {{</citation>}}
 
@@ -6834,8 +6834,8 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG, eess-SP  
 Keyword Score: 20  
 Keywords: Simulation, Simulator  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19290v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19290v1.pdf" filename="2402.19290v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19290v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19290v2.pdf" filename="2402.19290v2.pdf">Download PDF</button>
 
 ---
 
@@ -8254,14 +8254,14 @@ Binary code similarity detection (BCSD) is a fundamental technique for various a
 
 
 
-### (1/7 | 202/321) Wisdom of the Silicon Crowd: LLM Ensemble Prediction Capabilities Match Human Crowd Accuracy (Philipp Schoenegger et al., 2024)
+### (1/7 | 202/321) Wisdom of the Silicon Crowd: LLM Ensemble Prediction Capabilities Rival Human Crowd Accuracy (Philipp Schoenegger et al., 2024)
 
 {{<citation>}}
 
 Philipp Schoenegger, Indre Tuminauskaite, Peter S. Park, Philip E. Tetlock. (2024)  
-**Wisdom of the Silicon Crowd: LLM Ensemble Prediction Capabilities Match Human Crowd Accuracy**
+**Wisdom of the Silicon Crowd: LLM Ensemble Prediction Capabilities Rival Human Crowd Accuracy**
 <br/>
-<button class="copy-to-clipboard" title="Wisdom of the Silicon Crowd: LLM Ensemble Prediction Capabilities Match Human Crowd Accuracy" index=202>
+<button class="copy-to-clipboard" title="Wisdom of the Silicon Crowd: LLM Ensemble Prediction Capabilities Rival Human Crowd Accuracy" index=202>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-202 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -8277,14 +8277,14 @@ Primary Category: cs.CY
 Categories: cs-AI, cs-CL, cs-CY, cs-LG, cs.CY  
 Keyword Score: 53  
 Keywords: Benchmarking, Claude, GPT, GPT-4, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19379v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19379v1.pdf" filename="2402.19379v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2402.19379v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2402.19379v2.pdf" filename="2402.19379v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Human forecasting accuracy in practice relies on the 'wisdom of the crowd' effect, in which predictions about future events are significantly improved by aggregating across a crowd of individual forecasters. Past work on the forecasting ability of <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> suggests that frontier <b>LLMs,</b> as individual forecasters, underperform compared to the gold standard of a human crowd forecasting tournament aggregate. In Study 1, we expand this research by using an <b>LLM</b> ensemble approach consisting of a crowd of twelve <b>LLMs.</b> We compare the aggregated <b>LLM</b> predictions on 31 binary questions to that of a crowd of 925 human forecasters from a three-month forecasting tournament. Our main analysis shows that the <b>LLM</b> crowd outperforms a simple no-information <b>benchmark</b> and is statistically equivalent to the human crowd. We also observe an acquiescence effect, with mean model predictions being significantly above 50%, despite an almost even split of positive and negative resolutions. Moreover, in Study 2, we test whether <b>LLM</b> predictions (of <b>GPT-4</b> and <b>Claude</b> 2) can be improved by drawing on human cognitive output. We find that both models' forecasting accuracy benefits from exposure to the median human prediction as information, improving accuracy by between 17% and 28%: though this leads to less accurate predictions than simply averaging human and machine forecasts. Our results suggest that <b>LLMs</b> can achieve forecasting accuracy rivaling that of human crowd forecasting tournaments: via the simple, practically applicable method of forecast aggregation. This replicates the 'wisdom of the crowd' effect for <b>LLMs,</b> and opens up their use for a variety applications throughout society.
+Human forecasting accuracy in practice relies on the 'wisdom of the crowd' effect, in which predictions about future events are significantly improved by aggregating across a crowd of individual forecasters. Past work on the forecasting ability of <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> suggests that frontier <b>LLMs,</b> as individual forecasters, underperform compared to the gold standard of a human crowd forecasting tournament aggregate. In Study 1, we expand this research by using an <b>LLM</b> ensemble approach consisting of a crowd of twelve <b>LLMs.</b> We compare the aggregated <b>LLM</b> predictions on 31 binary questions to that of a crowd of 925 human forecasters from a three-month forecasting tournament. Our preregistered main analysis shows that the <b>LLM</b> crowd outperforms a simple no-information <b>benchmark</b> and is not statistically different from the human crowd. In exploratory analyses, we find that these two approaches are equivalent with respect to medium-effect-size equivalence bounds. We also observe an acquiescence effect, with mean model predictions being significantly above 50%, despite an almost even split of positive and negative resolutions. Moreover, in Study 2, we test whether <b>LLM</b> predictions (of <b>GPT-4</b> and <b>Claude</b> 2) can be improved by drawing on human cognitive output. We find that both models' forecasting accuracy benefits from exposure to the median human prediction as information, improving accuracy by between 17% and 28%: though this leads to less accurate predictions than simply averaging human and machine forecasts. Our results suggest that <b>LLMs</b> can achieve forecasting accuracy rivaling that of human crowd forecasting tournaments: via the simple, practically applicable method of forecast aggregation. This replicates the 'wisdom of the crowd' effect for <b>LLMs,</b> and opens up their use for a variety of applications throughout society.
 
 {{</citation>}}
 

@@ -3994,8 +3994,8 @@ Primary Category: stat.ML
 Categories: cs-LG, stat-ML, stat.ML  
 Keyword Score: 20  
 Keywords: Curriculum Learning, Reinforcement Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.01636v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.01636v1.pdf" filename="2403.01636v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.01636v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.01636v2.pdf" filename="2403.01636v2.pdf">Download PDF</button>
 
 ---
 
