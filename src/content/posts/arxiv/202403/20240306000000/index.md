@@ -904,7 +904,7 @@ math: true
       <td>Self-Attention</td>
       <td></td>
       <td>1</td>
-      <td>2</td>
+      <td>3</td>
       <td></td>
       <td></td>
     </tr>
@@ -3649,8 +3649,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 40  
 Keywords: Zero-shot, ChatGPT, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.02472v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.02472v2.pdf" filename="2403.02472v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.02472v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.02472v3.pdf" filename="2403.02472v3.pdf">Download PDF</button>
 
 ---
 
@@ -4773,8 +4773,8 @@ Primary Category: cs.SE
 Categories: cs-SE, cs.SE  
 Keyword Score: 33  
 Keywords: Benchmarking, ChatGPT, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.01971v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.01971v1.pdf" filename="2403.01971v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.01971v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.01971v2.pdf" filename="2403.01971v2.pdf">Download PDF</button>
 
 ---
 
@@ -6014,14 +6014,14 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 30  
 Keywords: Vision Transformer, Transformer, Vision Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.02308v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.02308v1.pdf" filename="2403.02308v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.02308v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.02308v2.pdf" filename="2403.02308v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-<b>Transformers</b> have revolutionized computer <b>vision</b> <b>and</b> natural language processing, but their high computational complexity limits their application in high-resolution image processing and long-context analysis. This paper introduces <b>Vision-RWKV</b> <b>(VRWKV),</b> a model adapted from the RWKV model used in the NLP field with necessary modifications for <b>vision</b> <b>tasks.</b> Similar to the <b>Vision</b> <b>Transformer</b> (ViT), our model is designed to efficiently handle sparse inputs and demonstrate robust global processing capabilities, while also scaling up effectively, accommodating both large-scale parameters and extensive datasets. Its distinctive advantage lies in its reduced spatial aggregation complexity, which renders it exceptionally adept at processing high-resolution images seamlessly, eliminating the necessity for windowing operations. Our evaluations in image classification demonstrate that VRWKV matches ViT's classification performance with significantly faster speeds and lower memory usage. In dense prediction tasks, it outperforms window-based models, maintaining comparable speeds. These results highlight VRWKV's potential as a more efficient alternative for visual perception tasks. Code is released at \url{https://github.com/OpenGVLab/Vision-RWKV}.
+<b>Transformers</b> have revolutionized computer <b>vision</b> <b>and</b> natural language processing, but their high computational complexity limits their application in high-resolution image processing and long-context analysis. This paper introduces <b>Vision-RWKV</b> <b>(VRWKV),</b> a model adapted from the RWKV model used in the NLP field with necessary modifications for <b>vision</b> <b>tasks.</b> Similar to the <b>Vision</b> <b>Transformer</b> (ViT), our model is designed to efficiently handle sparse inputs and demonstrate robust global processing capabilities, while also scaling up effectively, accommodating both large-scale parameters and extensive datasets. Its distinctive advantage lies in its reduced spatial aggregation complexity, which renders it exceptionally adept at processing high-resolution images seamlessly, eliminating the necessity for windowing operations. Our evaluations demonstrate that VRWKV surpasses ViT's performance in image classification and has significantly faster speeds and lower memory usage processing high-resolution inputs. In dense prediction tasks, it outperforms window-based models, maintaining comparable speeds. These results highlight VRWKV's potential as a more efficient alternative for visual perception tasks. Code is released at \url{https://github.com/OpenGVLab/Vision-RWKV}.
 
 {{</citation>}}
 
@@ -6621,17 +6621,52 @@ Three-dimensional point cloud <b>anomaly</b> <b>detection</b> that aims to detec
 {{</citation>}}
 
 
-### (38/62 | 156/303) MCA: Moment Channel Attention Networks (Yangbo Jiang et al., 2024)
+### (38/62 | 156/303) OOTDiffusion: Outfitting Fusion based Latent Diffusion for Controllable Virtual Try-on (Yuhao Xu et al., 2024)
+
+{{<citation>}}
+
+Yuhao Xu, Tao Gu, Weifeng Chen, Chengcai Chen. (2024)  
+**OOTDiffusion: Outfitting Fusion based Latent Diffusion for Controllable Virtual Try-on**
+<br/>
+<button class="copy-to-clipboard" title="OOTDiffusion: Outfitting Fusion based Latent Diffusion for Controllable Virtual Try-on" index=156>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-156 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CV  
+Categories: cs-CV, cs.CV  
+Keyword Score: 20  
+Keywords: Diffusion Model, Self-Attention  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.01779v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.01779v2.pdf" filename="2403.01779v2.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+We present OOTDiffusion, a novel network architecture for realistic and controllable image-based virtual try-on (VTON). We leverage the power of pretrained latent <b>diffusion</b> <b>models,</b> designing an outfitting UNet to learn the garment detail features. Without a redundant warping process, the garment features are precisely aligned with the target human body via the proposed outfitting fusion in the <b>self-attention</b> layers of the denoising UNet. In order to further enhance the controllability, we introduce outfitting dropout to the training process, which enables us to adjust the strength of the garment features through classifier-free guidance. Our comprehensive experiments on the VITON-HD and Dress Code datasets demonstrate that OOTDiffusion efficiently generates high-quality try-on results for arbitrary human and garment images, which outperforms other VTON methods in both realism and controllability, indicating an impressive breakthrough in virtual try-on. Our source code is available at https://github.com/levihsu/OOTDiffusion.
+
+{{</citation>}}
+
+
+### (39/62 | 157/303) MCA: Moment Channel Attention Networks (Yangbo Jiang et al., 2024)
 
 {{<citation>}}
 
 Yangbo Jiang, Zhiwei Jiang, Le Han, Zenan Huang, Nenggan Zheng. (2024)  
 **MCA: Moment Channel Attention Networks**
 <br/>
-<button class="copy-to-clipboard" title="MCA: Moment Channel Attention Networks" index=156>
+<button class="copy-to-clipboard" title="MCA: Moment Channel Attention Networks" index=157>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-156 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-157 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6656,17 +6691,17 @@ Channel attention mechanisms endeavor to recalibrate channel weights to enhance 
 {{</citation>}}
 
 
-### (39/62 | 157/303) A New Perspective on Smiling and Laughter Detection: Intensity Levels Matter (Hugo Bohy et al., 2024)
+### (40/62 | 158/303) A New Perspective on Smiling and Laughter Detection: Intensity Levels Matter (Hugo Bohy et al., 2024)
 
 {{<citation>}}
 
 Hugo Bohy, Kevin El Haddad, Thierry Dutoit. (2024)  
 **A New Perspective on Smiling and Laughter Detection: Intensity Levels Matter**
 <br/>
-<button class="copy-to-clipboard" title="A New Perspective on Smiling and Laughter Detection: Intensity Levels Matter" index=157>
+<button class="copy-to-clipboard" title="A New Perspective on Smiling and Laughter Detection: Intensity Levels Matter" index=158>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-157 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-158 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6691,17 +6726,17 @@ Smiles and laughs detection systems have attracted a lot of attention in the pas
 {{</citation>}}
 
 
-### (40/62 | 158/303) FaceChain-ImagineID: Freely Crafting High-Fidelity Diverse Talking Faces from Disentangled Audio (Chao Xu et al., 2024)
+### (41/62 | 159/303) FaceChain-ImagineID: Freely Crafting High-Fidelity Diverse Talking Faces from Disentangled Audio (Chao Xu et al., 2024)
 
 {{<citation>}}
 
 Chao Xu, Yang Liu, Jiazheng Xing, Weida Wang, Mingze Sun, Jun Dan, Tianxin Huang, Siyuan Li, Zhi-Qi Cheng, Ying Tai, Baigui Sun. (2024)  
 **FaceChain-ImagineID: Freely Crafting High-Fidelity Diverse Talking Faces from Disentangled Audio**
 <br/>
-<button class="copy-to-clipboard" title="FaceChain-ImagineID: Freely Crafting High-Fidelity Diverse Talking Faces from Disentangled Audio" index=158>
+<button class="copy-to-clipboard" title="FaceChain-ImagineID: Freely Crafting High-Fidelity Diverse Talking Faces from Disentangled Audio" index=159>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-158 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-159 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6726,17 +6761,17 @@ In this paper, we abstract the process of people hearing speech, extracting mean
 {{</citation>}}
 
 
-### (41/62 | 159/303) Modality-Aware and Shift Mixer for Multi-modal Brain Tumor Segmentation (Zhongzhen Huang et al., 2024)
+### (42/62 | 160/303) Modality-Aware and Shift Mixer for Multi-modal Brain Tumor Segmentation (Zhongzhen Huang et al., 2024)
 
 {{<citation>}}
 
 Zhongzhen Huang, Linda Wei, Shaoting Zhang, Xiaofan Zhang. (2024)  
 **Modality-Aware and Shift Mixer for Multi-modal Brain Tumor Segmentation**
 <br/>
-<button class="copy-to-clipboard" title="Modality-Aware and Shift Mixer for Multi-modal Brain Tumor Segmentation" index=159>
+<button class="copy-to-clipboard" title="Modality-Aware and Shift Mixer for Multi-modal Brain Tumor Segmentation" index=160>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-159 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-160 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6761,17 +6796,17 @@ Combining images from multi-modalities is beneficial to explore various informat
 {{</citation>}}
 
 
-### (42/62 | 160/303) AllSpark: Reborn Labeled Features from Unlabeled in Transformer for Semi-Supervised Semantic Segmentation (Haonan Wang et al., 2024)
+### (43/62 | 161/303) AllSpark: Reborn Labeled Features from Unlabeled in Transformer for Semi-Supervised Semantic Segmentation (Haonan Wang et al., 2024)
 
 {{<citation>}}
 
 Haonan Wang, Qixiang Zhang, Yi Li, Xiaomeng Li. (2024)  
 **AllSpark: Reborn Labeled Features from Unlabeled in Transformer for Semi-Supervised Semantic Segmentation**
 <br/>
-<button class="copy-to-clipboard" title="AllSpark: Reborn Labeled Features from Unlabeled in Transformer for Semi-Supervised Semantic Segmentation" index=160>
+<button class="copy-to-clipboard" title="AllSpark: Reborn Labeled Features from Unlabeled in Transformer for Semi-Supervised Semantic Segmentation" index=161>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-160 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-161 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6796,17 +6831,17 @@ Semi-supervised semantic segmentation (SSSS) has been proposed to alleviate the 
 {{</citation>}}
 
 
-### (43/62 | 161/303) Exposing the Deception: Uncovering More Forgery Clues for Deepfake Detection (Zhongjie Ba et al., 2024)
+### (44/62 | 162/303) Exposing the Deception: Uncovering More Forgery Clues for Deepfake Detection (Zhongjie Ba et al., 2024)
 
 {{<citation>}}
 
 Zhongjie Ba, Qingyu Liu, Zhenguang Liu, Shuang Wu, Feng Lin, Li Lu, Kui Ren. (2024)  
 **Exposing the Deception: Uncovering More Forgery Clues for Deepfake Detection**
 <br/>
-<button class="copy-to-clipboard" title="Exposing the Deception: Uncovering More Forgery Clues for Deepfake Detection" index=161>
+<button class="copy-to-clipboard" title="Exposing the Deception: Uncovering More Forgery Clues for Deepfake Detection" index=162>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-161 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-162 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6831,17 +6866,17 @@ Deepfake technology has given rise to a spectrum of novel and compelling applica
 {{</citation>}}
 
 
-### (44/62 | 162/303) Optimizing Illuminant Estimation in Dual-Exposure HDR Imaging (Mahmoud Afifi et al., 2024)
+### (45/62 | 163/303) Optimizing Illuminant Estimation in Dual-Exposure HDR Imaging (Mahmoud Afifi et al., 2024)
 
 {{<citation>}}
 
 Mahmoud Afifi, Zhenhua Hu, Liang Liang. (2024)  
 **Optimizing Illuminant Estimation in Dual-Exposure HDR Imaging**
 <br/>
-<button class="copy-to-clipboard" title="Optimizing Illuminant Estimation in Dual-Exposure HDR Imaging" index=162>
+<button class="copy-to-clipboard" title="Optimizing Illuminant Estimation in Dual-Exposure HDR Imaging" index=163>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-162 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-163 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6866,17 +6901,17 @@ High dynamic range (HDR) imaging involves capturing a series of frames of the sa
 {{</citation>}}
 
 
-### (45/62 | 163/303) Brand Visibility in Packaging: A Deep Learning Approach for Logo Detection, Saliency-Map Prediction, and Logo Placement Analysis (Alireza Hosseini et al., 2024)
+### (46/62 | 164/303) Brand Visibility in Packaging: A Deep Learning Approach for Logo Detection, Saliency-Map Prediction, and Logo Placement Analysis (Alireza Hosseini et al., 2024)
 
 {{<citation>}}
 
 Alireza Hosseini, Kiana Hooshanfar, Pouria Omrani, Reza Toosi, Ramin Toosi, Zahra Ebrahimian, Mohammad Ali Akhaee. (2024)  
 **Brand Visibility in Packaging: A Deep Learning Approach for Logo Detection, Saliency-Map Prediction, and Logo Placement Analysis**
 <br/>
-<button class="copy-to-clipboard" title="Brand Visibility in Packaging: A Deep Learning Approach for Logo Detection, Saliency-Map Prediction, and Logo Placement Analysis" index=163>
+<button class="copy-to-clipboard" title="Brand Visibility in Packaging: A Deep Learning Approach for Logo Detection, Saliency-Map Prediction, and Logo Placement Analysis" index=164>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-163 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-164 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6901,17 +6936,17 @@ In the highly competitive area of product marketing, the visibility of brand log
 {{</citation>}}
 
 
-### (46/62 | 164/303) Non-autoregressive Sequence-to-Sequence Vision-Language Models (Kunyu Shi et al., 2024)
+### (47/62 | 165/303) Non-autoregressive Sequence-to-Sequence Vision-Language Models (Kunyu Shi et al., 2024)
 
 {{<citation>}}
 
 Kunyu Shi, Qi Dong, Luis Goncalves, Zhuowen Tu, Stefano Soatto. (2024)  
 **Non-autoregressive Sequence-to-Sequence Vision-Language Models**
 <br/>
-<button class="copy-to-clipboard" title="Non-autoregressive Sequence-to-Sequence Vision-Language Models" index=164>
+<button class="copy-to-clipboard" title="Non-autoregressive Sequence-to-Sequence Vision-Language Models" index=165>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-164 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-165 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6936,17 +6971,17 @@ Sequence-to-sequence <b>vision-language</b> models are showing promise, but thei
 {{</citation>}}
 
 
-### (47/62 | 165/303) DiffMOT: A Real-time Diffusion-based Multiple Object Tracker with Non-linear Prediction (Weiyi Lv et al., 2024)
+### (48/62 | 166/303) DiffMOT: A Real-time Diffusion-based Multiple Object Tracker with Non-linear Prediction (Weiyi Lv et al., 2024)
 
 {{<citation>}}
 
 Weiyi Lv, Yuhang Huang, Ning Zhang, Ruei-Sung Lin, Mei Han, Dan Zeng. (2024)  
 **DiffMOT: A Real-time Diffusion-based Multiple Object Tracker with Non-linear Prediction**
 <br/>
-<button class="copy-to-clipboard" title="DiffMOT: A Real-time Diffusion-based Multiple Object Tracker with Non-linear Prediction" index=165>
+<button class="copy-to-clipboard" title="DiffMOT: A Real-time Diffusion-based Multiple Object Tracker with Non-linear Prediction" index=166>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-165 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-166 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6971,17 +7006,17 @@ In Multiple Object Tracking, objects often exhibit non-linear motion of accelera
 {{</citation>}}
 
 
-### (48/62 | 166/303) Depth-Guided Robust and Fast Point Cloud Fusion NeRF for Sparse Input Views (Shuai Guo et al., 2024)
+### (49/62 | 167/303) Depth-Guided Robust and Fast Point Cloud Fusion NeRF for Sparse Input Views (Shuai Guo et al., 2024)
 
 {{<citation>}}
 
 Shuai Guo, Qiuwen Wang, Yijie Gao, Rong Xie, Li Song. (2024)  
 **Depth-Guided Robust and Fast Point Cloud Fusion NeRF for Sparse Input Views**
 <br/>
-<button class="copy-to-clipboard" title="Depth-Guided Robust and Fast Point Cloud Fusion NeRF for Sparse Input Views" index=166>
+<button class="copy-to-clipboard" title="Depth-Guided Robust and Fast Point Cloud Fusion NeRF for Sparse Input Views" index=167>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-166 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-167 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7006,17 +7041,17 @@ Novel-view synthesis with sparse input views is important for real-world applica
 {{</citation>}}
 
 
-### (49/62 | 167/303) Leveraging Anchor-based LiDAR 3D Object Detection via Point Assisted Sample Selection (Shitao Chen et al., 2024)
+### (50/62 | 168/303) Leveraging Anchor-based LiDAR 3D Object Detection via Point Assisted Sample Selection (Shitao Chen et al., 2024)
 
 {{<citation>}}
 
 Shitao Chen, Haolin Zhang, Nanning Zheng. (2024)  
 **Leveraging Anchor-based LiDAR 3D Object Detection via Point Assisted Sample Selection**
 <br/>
-<button class="copy-to-clipboard" title="Leveraging Anchor-based LiDAR 3D Object Detection via Point Assisted Sample Selection" index=167>
+<button class="copy-to-clipboard" title="Leveraging Anchor-based LiDAR 3D Object Detection via Point Assisted Sample Selection" index=168>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-167 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-168 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7041,17 +7076,17 @@ Keywords: Object Detection
 {{</citation>}}
 
 
-### (50/62 | 168/303) Fourier-basis Functions to Bridge Augmentation Gap: Rethinking Frequency Augmentation in Image Classification (Puru Vaish et al., 2024)
+### (51/62 | 169/303) Fourier-basis Functions to Bridge Augmentation Gap: Rethinking Frequency Augmentation in Image Classification (Puru Vaish et al., 2024)
 
 {{<citation>}}
 
 Puru Vaish, Shunxin Wang, Nicola Strisciuglio. (2024)  
 **Fourier-basis Functions to Bridge Augmentation Gap: Rethinking Frequency Augmentation in Image Classification**
 <br/>
-<button class="copy-to-clipboard" title="Fourier-basis Functions to Bridge Augmentation Gap: Rethinking Frequency Augmentation in Image Classification" index=168>
+<button class="copy-to-clipboard" title="Fourier-basis Functions to Bridge Augmentation Gap: Rethinking Frequency Augmentation in Image Classification" index=169>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-168 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-169 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7076,17 +7111,17 @@ Computer vision models normally witness degraded performance when deployed in re
 {{</citation>}}
 
 
-### (51/62 | 169/303) Semi-Supervised Semantic Segmentation Based on Pseudo-Labels: A Survey (Lingyan Ran et al., 2024)
+### (52/62 | 170/303) Semi-Supervised Semantic Segmentation Based on Pseudo-Labels: A Survey (Lingyan Ran et al., 2024)
 
 {{<citation>}}
 
 Lingyan Ran, Yali Li, Guoqiang Liang, Yanning Zhang. (2024)  
 **Semi-Supervised Semantic Segmentation Based on Pseudo-Labels: A Survey**
 <br/>
-<button class="copy-to-clipboard" title="Semi-Supervised Semantic Segmentation Based on Pseudo-Labels: A Survey" index=169>
+<button class="copy-to-clipboard" title="Semi-Supervised Semantic Segmentation Based on Pseudo-Labels: A Survey" index=170>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-169 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-170 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7111,17 +7146,17 @@ Semantic segmentation is an important and popular research area in computer visi
 {{</citation>}}
 
 
-### (52/62 | 170/303) AtomoVideo: High Fidelity Image-to-Video Generation (Litong Gong et al., 2024)
+### (53/62 | 171/303) AtomoVideo: High Fidelity Image-to-Video Generation (Litong Gong et al., 2024)
 
 {{<citation>}}
 
 Litong Gong, Yiran Zhu, Weijie Li, Xiaoyang Kang, Biao Wang, Tiezheng Ge, Bo Zheng. (2024)  
 **AtomoVideo: High Fidelity Image-to-Video Generation**
 <br/>
-<button class="copy-to-clipboard" title="AtomoVideo: High Fidelity Image-to-Video Generation" index=170>
+<button class="copy-to-clipboard" title="AtomoVideo: High Fidelity Image-to-Video Generation" index=171>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-170 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-171 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7146,17 +7181,17 @@ Recently, video generation has achieved significant rapid development based on s
 {{</citation>}}
 
 
-### (53/62 | 171/303) Integrating Efficient Optimal Transport and Functional Maps For Unsupervised Shape Correspondence Learning (Tung Le et al., 2024)
+### (54/62 | 172/303) Integrating Efficient Optimal Transport and Functional Maps For Unsupervised Shape Correspondence Learning (Tung Le et al., 2024)
 
 {{<citation>}}
 
 Tung Le, Khai Nguyen, Shanlin Sun, Nhat Ho, Xiaohui Xie. (2024)  
 **Integrating Efficient Optimal Transport and Functional Maps For Unsupervised Shape Correspondence Learning**
 <br/>
-<button class="copy-to-clipboard" title="Integrating Efficient Optimal Transport and Functional Maps For Unsupervised Shape Correspondence Learning" index=171>
+<button class="copy-to-clipboard" title="Integrating Efficient Optimal Transport and Functional Maps For Unsupervised Shape Correspondence Learning" index=172>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-171 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-172 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7177,41 +7212,6 @@ Keywords: Unsupervised Learning
 
 **ABSTRACT**  
 In the realm of computer vision and graphics, accurately establishing correspondences between geometric 3D shapes is pivotal for applications like object tracking, registration, texture transfer, and statistical shape analysis. Moving beyond traditional hand-crafted and data-driven feature learning methods, we incorporate spectral methods with deep learning, focusing on functional maps (FMs) and optimal transport (OT). Traditional OT-based approaches, often reliant on entropy regularization OT in learning-based framework, face computational challenges due to their quadratic cost. Our key contribution is to employ the sliced Wasserstein distance (SWD) for OT, which is a valid fast optimal transport metric in an <b>unsupervised</b> shape matching framework. This <b>unsupervised</b> framework integrates functional map regularizers with a novel OT-based loss derived from SWD, enhancing feature alignment between shapes treated as discrete probability measures. We also introduce an adaptive refinement process utilizing entropy regularized OT, further refining feature alignments for accurate point-to-point correspondences. Our method demonstrates superior performance in non-rigid shape matching, including near-isometric and non-isometric scenarios, and excels in downstream tasks like segmentation transfer. The empirical results on diverse datasets highlight our framework's effectiveness and generalization capabilities, setting new standards in non-rigid shape matching with efficient OT metrics and an adaptive refinement module.
-
-{{</citation>}}
-
-
-### (54/62 | 172/303) OOTDiffusion: Outfitting Fusion based Latent Diffusion for Controllable Virtual Try-on (Yuhao Xu et al., 2024)
-
-{{<citation>}}
-
-Yuhao Xu, Tao Gu, Weifeng Chen, Chengcai Chen. (2024)  
-**OOTDiffusion: Outfitting Fusion based Latent Diffusion for Controllable Virtual Try-on**
-<br/>
-<button class="copy-to-clipboard" title="OOTDiffusion: Outfitting Fusion based Latent Diffusion for Controllable Virtual Try-on" index=172>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-172 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: cs.CV  
-Categories: cs-CV, cs.CV  
-Keyword Score: 10  
-Keywords: Diffusion Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.01779v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.01779v1.pdf" filename="2403.01779v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-Image-based virtual try-on (VTON), which aims to generate an outfitted image of a target human wearing an in-shop garment, is a challenging image-synthesis task calling for not only high fidelity of the outfitted human but also full preservation of garment details. To tackle this issue, we propose Outfitting over Try-on <b>Diffusion</b> <b>(OOTDiffusion),</b> leveraging the power of pretrained latent <b>diffusion</b> <b>models</b> and designing a novel network architecture for realistic and controllable virtual try-on. Without an explicit warping process, we propose an outfitting UNet to learn the garment detail features, and merge them with the target human body via our proposed outfitting fusion in the denoising process of <b>diffusion</b> <b>models.</b> In order to further enhance the controllability of our outfitting UNet, we introduce outfitting dropout to the training process, which enables us to adjust the strength of garment features through classifier-free guidance. Our comprehensive experiments on the VITON-HD and Dress Code datasets demonstrate that OOTDiffusion efficiently generates high-quality outfitted images for arbitrary human and garment images, which outperforms other VTON methods in both fidelity and controllability, indicating an impressive breakthrough in virtual try-on. Our source code is available at https://github.com/levihsu/OOTDiffusion.
 
 {{</citation>}}
 
@@ -10535,8 +10535,8 @@ Primary Category: cs.SY
 Categories: cs-RO, cs-SY, cs.SY, math-DS  
 Keyword Score: 20  
 Keywords: Simulation, Simulator  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.02508v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.02508v1.pdf" filename="2403.02508v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.02508v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.02508v2.pdf" filename="2403.02508v2.pdf">Download PDF</button>
 
 ---
 
@@ -10691,8 +10691,8 @@ Primary Category: cs.NE
 Categories: cs-AI, cs-NE, cs.NE  
 Keyword Score: 20  
 Keywords: Markov Decision Process, Reinforcement Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.02131v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.02131v2.pdf" filename="2403.02131v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.02131v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.02131v3.pdf" filename="2403.02131v3.pdf">Download PDF</button>
 
 ---
 

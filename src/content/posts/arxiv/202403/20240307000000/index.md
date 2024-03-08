@@ -1182,11 +1182,11 @@ Existing approaches on <b>zero-shot</b> <b>event</b> <b>detection</b> usually tr
 {{</citation>}}
 
 
-### (5/52 | 5/281) PARADISE: Evaluating Implicit Planning Skills of Language Models with Procedural Warnings and Tips Dataset (Arda Uzunoğlu et al., 2024)
+### (5/52 | 5/281) PARADISE: Evaluating Implicit Planning Skills of Language Models with Procedural Warnings and Tips Dataset (Arda Uzunoglu et al., 2024)
 
 {{<citation>}}
 
-Arda Uzunoğlu, Abdalfatah Rashid Safa, Gözde Gül Şahin. (2024)  
+Arda Uzunoglu, Abdalfatah Rashid Safa, Gözde Gül Şahin. (2024)  
 **PARADISE: Evaluating Implicit Planning Skills of Language Models with Procedural Warnings and Tips Dataset**
 <br/>
 <button class="copy-to-clipboard" title="PARADISE: Evaluating Implicit Planning Skills of Language Models with Procedural Warnings and Tips Dataset" index=5>
@@ -1205,8 +1205,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 90  
 Keywords: Fine-tuning, Zero-shot, BERT, GPT, GPT-4, Reasoning, Large Language Model, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03167v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03167v1.pdf" filename="2403.03167v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03167v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03167v2.pdf" filename="2403.03167v2.pdf">Download PDF</button>
 
 ---
 
@@ -3764,14 +3764,14 @@ Primary Category: cs.AI
 Categories: cs-AI, cs.AI  
 Keyword Score: 16  
 Keywords: Multi-modal, Multi-modal, Reasoning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03186v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03186v1.pdf" filename="2403.03186v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03186v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03186v2.pdf" filename="2403.03186v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Recent studies have demonstrated the success of foundation agents in specific tasks or scenarios. However, existing agents cannot generalize across different scenarios, mainly due to their diverse observation and action spaces and semantic gaps, or reliance on task-specific resources. In this work, we propose the General Computer Control (GCC) setting: building foundation agents that can master any computer task by taking only screen images (and possibly audio) of the computer as input, and producing keyboard and mouse operations as output, similar to human-computer interaction. To target GCC, we propose Cradle, an agent framework with strong <b>reasoning</b> abilities, including self-reflection, task inference, and skill curation, to ensure generalizability and self-improvement across various tasks. To demonstrate the capabilities of Cradle, we deploy it in the complex AAA game Red Dead Redemption II, serving as a preliminary attempt towards GCC with a challenging target. Our agent can follow the main storyline and finish real missions in this complex AAA game, with minimal reliance on prior knowledge and application-specific resources. The project website is at https://baai-agents.github.io/Cradle/.
+Despite the success in specific tasks and scenarios, existing foundation agents, empowered by large models (LMs) and advanced tools, still cannot generalize to different scenarios, mainly due to dramatic differences in the observations and actions across scenarios. In this work, we propose the General Computer Control (GCC) setting: building foundation agents that can master any computer task by taking only screen images (and possibly audio) of the computer as input, and producing keyboard and mouse operations as output, similar to human-computer interaction. The main challenges of achieving GCC are: 1) the <b>multimodal</b> observations for decision-making, 2) the requirements of accurate control of keyboard and mouse, 3) the need for long-term memory and <b>reasoning,</b> and 4) the abilities of efficient exploration and self-improvement. To target GCC, we introduce Cradle, an agent framework with six main modules, including: 1) information gathering to extract multi-modality information, 2) self-reflection to rethink past experiences, 3) task inference to choose the best next task, 4) skill curation for generating and updating relevant skills for given tasks, 5) action planning to generate specific operations for keyboard and mouse control, and 6) memory for storage and retrieval of past experiences and known skills. To demonstrate the capabilities of generalization and self-improvement of Cradle, we deploy it in the complex AAA game Red Dead Redemption II, serving as a preliminary attempt towards GCC with a challenging target. To our best knowledge, our work is the first to enable LMM-based agents to follow the main storyline and finish real missions in complex AAA games, with minimal reliance on prior knowledge or resources. The project website is at https://baai-agents.github.io/Cradle/.
 
 {{</citation>}}
 
@@ -4379,7 +4379,7 @@ Small <b>sample</b> <b>sizes</b> are common in many disciplines, which necessita
 
 {{<citation>}}
 
-Nathaniel Li, Alexander Pan, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D. Li, Ann-Kathrin Dombrowski, Shashwat Goel, Long Phan, Gabriel Mukobi, Nathan Helm-Burger, Rassin Lababidi, Lennart Justen, Andrew B. Liu, Michael Chen, Isabelle Barrass, Oliver Zhang, Xiaoyuan Zhu, Rishub Tamirisa, Bhrugu Bharathi, Adam Khoja, Ariel Herbert-Voss, Cort B. Breuer, Andy Zou, Mantas Mazeika, Zifan Wang, Palash Oswal, Weiran Liu, Adam A. Hunt, Justin Tienken-Harder, Kevin Y. Shih, Kemper Talley, John Guan, Russell Kaplan, Ian Steneker, David Campbell, Brad Jokubaitis, Alex Levinson, Jean Wang, William Qian, Kallol Krishna Karmakar, Steven Basart, Stephen Fitz, Mindy Levine, Ponnurangam Kumaraguru, Uday Tupakula, Vijay Varadharajan, Yan Shoshitaishvili, Jimmy Ba, Kevin M. Esvelt, Alexandr Wang, Dan Hendrycks. (2024)  
+Nathaniel Li, Alexander Pan, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D. Li, Ann-Kathrin Dombrowski, Shashwat Goel, Long Phan, Gabriel Mukobi, Nathan Helm-Burger, Rassin Lababidi, Lennart Justen, Andrew B. Liu, Michael Chen, Isabelle Barrass, Oliver Zhang, Xiaoyuan Zhu, Rishub Tamirisa, Bhrugu Bharathi, Adam Khoja, Zhenqi Zhao, Ariel Herbert-Voss, Cort B. Breuer, Andy Zou, Mantas Mazeika, Zifan Wang, Palash Oswal, Weiran Liu, Adam A. Hunt, Justin Tienken-Harder, Kevin Y. Shih, Kemper Talley, John Guan, Russell Kaplan, Ian Steneker, David Campbell, Brad Jokubaitis, Alex Levinson, Jean Wang, William Qian, Kallol Krishna Karmakar, Steven Basart, Stephen Fitz, Mindy Levine, Ponnurangam Kumaraguru, Uday Tupakula, Vijay Varadharajan, Yan Shoshitaishvili, Jimmy Ba, Kevin M. Esvelt, Alexandr Wang, Dan Hendrycks. (2024)  
 **The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning**
 <br/>
 <button class="copy-to-clipboard" title="The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning" index=96>
@@ -4398,8 +4398,8 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-CL, cs-CY, cs-LG, cs.LG  
 Keyword Score: 23  
 Keywords: Benchmarking, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03218v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03218v1.pdf" filename="2403.03218v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03218v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03218v2.pdf" filename="2403.03218v2.pdf">Download PDF</button>
 
 ---
 
@@ -5993,8 +5993,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 70  
 Keywords: Few-shot, Knowledge Distillation, Knowledge Distillation, Unsupervised Learning, Prompt, Prompt Learning, Vision-and-Language  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.02781v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.02781v2.pdf" filename="2403.02781v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.02781v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.02781v3.pdf" filename="2403.02781v3.pdf">Download PDF</button>
 
 ---
 
@@ -6763,8 +6763,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs-LG, cs.CV  
 Keyword Score: 30  
 Keywords: Object Detection, Curriculum Learning, Data Augmentation  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.02639v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.02639v1.pdf" filename="2403.02639v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.02639v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.02639v2.pdf" filename="2403.02639v2.pdf">Download PDF</button>
 
 ---
 
@@ -6938,8 +6938,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 23  
 Keywords: Benchmarking, Unsupervised Learning, Zero-shot  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03309v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03309v1.pdf" filename="2403.03309v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03309v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03309v2.pdf" filename="2403.03309v2.pdf">Download PDF</button>
 
 ---
 
@@ -9530,8 +9530,8 @@ Primary Category: stat.ML
 Categories: cond-mat-stat-mech, cs-LG, stat-ML, stat.ML  
 Keyword Score: 23  
 Keywords: Graph, Recurrent Neural Network, Recurrent Neural Network  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03391v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03391v1.pdf" filename="2403.03391v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03391v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03391v2.pdf" filename="2403.03391v2.pdf">Download PDF</button>
 
 ---
 
@@ -10305,7 +10305,7 @@ Most of the current studies on autonomous vehicle decision-making and control ta
 
 {{<citation>}}
 
-Arman Ferdowsi, Matthias Függer, Thomas Nowak, Michael Drmota. (2024)  
+Arman Ferdowsi, Matthias Függer, Thomas Nowak, Michael Drmota, Ulrich Schmid. (2024)  
 **Faithful Dynamic Timing Analysis of Digital Circuits Using Continuous Thresholded Mode-Switched ODEs**
 <br/>
 <button class="copy-to-clipboard" title="Faithful Dynamic Timing Analysis of Digital Circuits Using Continuous Thresholded Mode-Switched ODEs" index=262>
@@ -10324,8 +10324,8 @@ Primary Category: eess.SY
 Categories: cs-AR, cs-SY, eess-SY, eess.SY  
 Keyword Score: 10  
 Keywords: Generative Adversarial Network  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03235v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03235v1.pdf" filename="2403.03235v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03235v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03235v2.pdf" filename="2403.03235v2.pdf">Download PDF</button>
 
 ---
 
@@ -10893,8 +10893,8 @@ Primary Category: math.ST
 Categories: cs-IT, cs-SI, math-IT, math-PR, math-ST, math.ST, stat-TH  
 Keyword Score: 3  
 Keywords: Graph  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03205v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03205v1.pdf" filename="2403.03205v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03205v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03205v2.pdf" filename="2403.03205v2.pdf">Download PDF</button>
 
 ---
 

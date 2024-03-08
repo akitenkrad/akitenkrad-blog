@@ -1738,14 +1738,14 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 80  
 Keywords: Data Augmentation, Fine-tuning, Retrieval-Augmented Generation, Retrieval-Augmented Generation, Retrieval-Augmented Generation, Question Answering, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.01432v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.01432v1.pdf" filename="2403.01432v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.01432v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.01432v2.pdf" filename="2403.01432v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-<b>Large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> memorize a vast amount of factual knowledge, exhibiting strong performance across diverse tasks and domains. However, it has been observed that the performance diminishes when dealing with less-popular or low-frequency concepts and entities, for example in domain specific applications. The two prominent approaches to enhance the performance of <b>LLMs</b> on low-frequent topics are: <b>Retrieval</b> <b>Augmented</b> <b>Generation</b> <b>(RAG)</b> and <b>fine-tuning</b> (FT) over synthetic <b>data.</b> <b>This</b> paper explores and evaluates the impact of <b>RAG</b> and FT on customizing <b>LLMs</b> in handling low-frequency entities on <b>question</b> <b>answering</b> task. Our findings indicate that FT significantly boosts the performance across entities of varying popularity, especially in the most and least popular groups, while <b>RAG</b> surpasses other methods. Additionally, the success of both <b>RAG</b> and FT approaches is amplified by advancements in <b>retrieval</b> <b>and</b> <b>data</b> <b>augmentation</b> techniques. We release our <b>data</b> <b>and</b> code at https://github.com/HeydarSoudani/RAGvsFT.
+<b>Large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> memorize a vast amount of factual knowledge, exhibiting strong performance across diverse tasks and domains. However, it has been observed that the performance diminishes when dealing with less-popular or low-frequency concepts and entities, for example in domain specific applications. The two prominent approaches to enhance the performance of <b>LLMs</b> on low-frequent topics are: <b>Retrieval</b> <b>Augmented</b> <b>Generation</b> <b>(RAG)</b> and <b>fine-tuning</b> (FT) over synthetic <b>data.</b> <b>This</b> paper explores and evaluates the impact of <b>RAG</b> and FT on customizing <b>LLMs</b> in handling low-frequency entities on <b>question</b> <b>answering</b> task. Our findings indicate that FT significantly boosts the performance across entities of varying popularity, especially in the most and least popular groups, while <b>RAG</b> surpasses other methods. Additionally, the success of both <b>RAG</b> and FT approaches is amplified by advancements in <b>retrieval</b> <b>and</b> <b>data</b> <b>augmentation</b> techniques. We release our <b>data</b> <b>and</b> code at https://github.com/informagi/RAGvsFT.
 
 {{</citation>}}
 
@@ -3780,8 +3780,8 @@ Primary Category: cs.RO
 Categories: cs-RO, cs.RO, eess-SP  
 Keyword Score: 20  
 Keywords: Simulation, Simulator  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.01428v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.01428v1.pdf" filename="2403.01428v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.01428v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.01428v2.pdf" filename="2403.01428v2.pdf">Download PDF</button>
 
 ---
 
