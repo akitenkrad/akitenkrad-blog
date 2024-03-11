@@ -5434,7 +5434,7 @@ Evaluating and enhancing the general capabilities of <b>large</b> <b>language</b
 
 {{<citation>}}
 
-Jaehyun Lee, Seonku Kang, Hwanjo Yu. (2024)  
+Jaehyun Lee, SeongKu Kang, Hwanjo Yu. (2024)  
 **Improving Matrix Completion by Exploiting Rating Ordinality in Graph Neural Networks**
 <br/>
 <button class="copy-to-clipboard" title="Improving Matrix Completion by Exploiting Rating Ordinality in Graph Neural Networks" index=119>
