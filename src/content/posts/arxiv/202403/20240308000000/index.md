@@ -8580,7 +8580,7 @@ Machine Learning (ML), addresses a multitude of complex issues in multiple disci
 
 {{<citation>}}
 
-Jin Li, Kleanthis Malialis, Marios M. Polycarpou. (2024)  
+Jin Li, Kleanthis Malialis, Christos G. Panayiotou, Marios M. Polycarpou. (2024)  
 **Unsupervised Incremental Learning with Dual Concept Drift Detection for Identifying Anomalous Sequences**
 <br/>
 <button class="copy-to-clipboard" title="Unsupervised Incremental Learning with Dual Concept Drift Detection for Identifying Anomalous Sequences" index=214>
@@ -8599,8 +8599,8 @@ Primary Category: cs.CE
 Categories: cs-CE, cs.CE  
 Keyword Score: 40  
 Keywords: Anomaly Detection, Autoencoder, Unsupervised Learning, Variational Autoencoder  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03576v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03576v2.pdf" filename="2403.03576v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.03576v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.03576v3.pdf" filename="2403.03576v3.pdf">Download PDF</button>
 
 ---
 
