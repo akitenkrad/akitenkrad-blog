@@ -7081,11 +7081,11 @@ An efficient customer service management system hinges on precise forecasting of
 {{</citation>}}
 
 
-### (29/46 | 166/291) Density-Regression: Efficient and Distance-Aware Deep Regressor for Uncertainty Estimation under Distribution Shifts (Manh Ha Bui et al., 2024)
+### (29/46 | 166/291) Density-Regression: Efficient and Distance-Aware Deep Regressor for Uncertainty Estimation under Distribution Shifts (Ha Manh Bui et al., 2024)
 
 {{<citation>}}
 
-Manh Ha Bui, Anqi Liu. (2024)  
+Ha Manh Bui, Anqi Liu. (2024)  
 **Density-Regression: Efficient and Distance-Aware Deep Regressor for Uncertainty Estimation under Distribution Shifts**
 <br/>
 <button class="copy-to-clipboard" title="Density-Regression: Efficient and Distance-Aware Deep Regressor for Uncertainty Estimation under Distribution Shifts" index=166>
