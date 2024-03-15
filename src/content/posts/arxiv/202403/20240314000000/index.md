@@ -1144,7 +1144,7 @@ $(function() {
 
 {{<citation>}}
 
-Qibing Ren, Chang Gao, Jing Shao, Junchi Yan, Xin Tan, Wai Lam, Lizhuang Ma. (2024)  
+Qibing Ren, Chang Gao, Jing Shao, Junchi Yan, Xin Tan, Yu Qiao, Wai Lam, Lizhuang Ma. (2024)  
 **Exploring Safety Generalization Challenges of Large Language Models via Code**
 <br/>
 <button class="copy-to-clipboard" title="Exploring Safety Generalization Challenges of Large Language Models via Code" index=1>
@@ -1163,14 +1163,14 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-CR, cs-LG, cs-SE, cs.CL  
 Keyword Score: 100  
 Keywords: Fine-tuning, Reinforcement Learning, Reinforcement Learning from Human Feedback, Supervised Learning, Claude, GPT, GPT-4, LLaMA, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07865v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07865v1.pdf" filename="2403.07865v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07865v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07865v2.pdf" filename="2403.07865v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-The rapid advancement of <b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> has brought about remarkable capabilities in natural language processing but also raised concerns about their potential misuse. While strategies like <b>supervised</b> <b>fine-tuning</b> and <b>reinforcement</b> <b>learning</b> <b>from</b> <b>human</b> <b>feedback</b> have enhanced their safety, these methods primarily focus on natural languages, which may not generalize to other domains. This paper introduces CodeAttack, a framework that transforms natural language inputs into code inputs, presenting a novel environment for testing the safety generalization of <b>LLMs.</b> Our comprehensive studies on state-of-the-art <b>LLMs</b> including <b>GPT-4,</b> <b>Claude-2,</b> and <b>Llama-2</b> series reveal a common safety vulnerability of these models against code input: CodeAttack consistently bypasses the safety guardrails of all models more than 80\% of the time. Furthermore, we find that a larger distribution gap between CodeAttack and natural language leads to weaker safety generalization, such as encoding natural language input with data structures or using less popular programming languages. These findings highlight new safety risks in the code domain and the need for more robust safety alignment algorithms to match the code capabilities of <b>LLMs.</b>
+The rapid advancement of <b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> has brought about remarkable capabilities in natural language processing but also raised concerns about their potential misuse. While strategies like <b>supervised</b> <b>fine-tuning</b> and <b>reinforcement</b> <b>learning</b> <b>from</b> <b>human</b> <b>feedback</b> have enhanced their safety, these methods primarily focus on natural languages, which may not generalize to other domains. This paper introduces CodeAttack, a framework that transforms natural language inputs into code inputs, presenting a novel environment for testing the safety generalization of <b>LLMs.</b> Our comprehensive studies on state-of-the-art <b>LLMs</b> including <b>GPT-4,</b> <b>Claude-2,</b> and <b>Llama-2</b> series reveal a common safety vulnerability of these models against code input: CodeAttack consistently bypasses the safety guardrails of all models more than 80% of the time. Furthermore, we find that a larger distribution gap between CodeAttack and natural language leads to weaker safety generalization, such as encoding natural language input with data structures or using less popular programming languages. These findings highlight new safety risks in the code domain and the need for more robust safety alignment algorithms to match the code capabilities of <b>LLMs.</b>
 
 {{</citation>}}
 
@@ -1268,8 +1268,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keyword Score: 93  
 Keywords: Graph, Fine-tuning, Knowledge Graph, Knowledge Graph, Zero-shot, In-context Learning, In-context Learning, In-context Learning, Large Language Model, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07311v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07311v1.pdf" filename="2403.07311v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07311v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07311v2.pdf" filename="2403.07311v2.pdf">Download PDF</button>
 
 ---
 
@@ -1583,8 +1583,8 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 70  
 Keywords: Reinforcement Learning, Reinforcement Learning from Human Feedback, Reinforcement Learning from Human Feedback, GPT, Large Language Model, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07708v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07708v1.pdf" filename="2403.07708v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07708v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07708v2.pdf" filename="2403.07708v2.pdf">Download PDF</button>
 
 ---
 
@@ -1700,14 +1700,14 @@ Keywords: Benchmarking, Benchmarking, GPT, GPT-4, Large Language Model, Large La
 {{</citation>}}
 
 
-### (17/39 | 17/311) Reference-free Monolithic Preference Optimization with Odds Ratio (Jiwoo Hong et al., 2024)
+### (17/39 | 17/311) ORPO: Monolithic Preference Optimization without Reference Model (Jiwoo Hong et al., 2024)
 
 {{<citation>}}
 
 Jiwoo Hong, Noah Lee, James Thorne. (2024)  
-**Reference-free Monolithic Preference Optimization with Odds Ratio**
+**ORPO: Monolithic Preference Optimization without Reference Model**
 <br/>
-<button class="copy-to-clipboard" title="Reference-free Monolithic Preference Optimization with Odds Ratio" index=17>
+<button class="copy-to-clipboard" title="ORPO: Monolithic Preference Optimization without Reference Model" index=17>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-17 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -1723,14 +1723,14 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 50  
 Keywords: Fine-tuning, Supervised Learning, LLaMA, Mistral, Neural Machine Translation  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07691v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07691v1.pdf" filename="2403.07691v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07691v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07691v2.pdf" filename="2403.07691v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-While recent preference alignment algorithms for language models have demonstrated promising results, <b>supervised</b> <b>fine-tuning</b> (SFT) remains imperative for achieving successful convergence. In this paper, we study the crucial role of SFT within the context of preference alignment, emphasizing that a minor penalty for the disfavored generation style is sufficient for preference-aligned SFT. Building on this foundation, we introduce a straightforward and innovative reference model-free monolithic odds ratio preference optimization algorithm, ORPO, eliminating the necessity for an additional preference alignment phase. We demonstrate, both empirically and theoretically, that the odds ratio is a sensible choice for contrasting favored and disfavored styles during SFT across the diverse sizes from 125M to 7B. Specifically, <b>fine-tuning</b> Phi-2 (2.7B), <b>Llama-2</b> (7B), and <b>Mistral</b> (7B) with ORPO on the UltraFeedback alone surpasses the performance of state-of-the-art language models with more than 7B and 13B parameters: achieving up to 12.20% on $\text{AlpacaEval}_{2.0}$ and 7.32 in <b>MT-Bench,</b> as shown in Figures 1 and 12. We release code and model checkpoints for <b>Mistral-ORPO-$\alpha$</b> (7B) and <b>Mistral-ORPO-$\beta$</b> (7B).
+While recent preference alignment algorithms for language models have demonstrated promising results, <b>supervised</b> <b>fine-tuning</b> (SFT) remains imperative for achieving successful convergence. In this paper, we study the crucial role of SFT within the context of preference alignment, emphasizing that a minor penalty for the disfavored generation style is sufficient for preference-aligned SFT. Building on this foundation, we introduce a straightforward and innovative reference model-free monolithic odds ratio preference optimization algorithm, ORPO, eliminating the necessity for an additional preference alignment phase. We demonstrate, both empirically and theoretically, that the odds ratio is a sensible choice for contrasting favored and disfavored styles during SFT across the diverse sizes from 125M to 7B. Specifically, <b>fine-tuning</b> Phi-2 (2.7B), <b>Llama-2</b> (7B), and <b>Mistral</b> (7B) with ORPO on the UltraFeedback alone surpasses the performance of state-of-the-art language models with more than 7B and 13B parameters: achieving up to 12.20% on $\text{AlpacaEval}_{2.0}$ (Figure 1), 66.19% on IFEval (instruction-level loose, Table 6), and 7.32 in <b>MT-Bench</b> (Figure 12). We release code and model checkpoints for <b>Mistral-ORPO-$\alpha$</b> (7B) and <b>Mistral-ORPO-$\beta$</b> (7B).
 
 {{</citation>}}
 
@@ -1898,8 +1898,8 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 40  
 Keywords: T5, Transformer, In-context Learning, Summarization  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.08103v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.08103v1.pdf" filename="2403.08103v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.08103v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.08103v2.pdf" filename="2403.08103v2.pdf">Download PDF</button>
 
 ---
 
@@ -2073,14 +2073,14 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 40  
 Keywords: Text Generation, In-context Learning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07556v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07556v1.pdf" filename="2403.07556v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07556v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07556v2.pdf" filename="2403.07556v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Although <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> have demonstrated impressive <b>text</b> <b>generation</b> capabilities, they are easily misled by the untruthful context provided by users or knowledge argumentation tools, thereby producing hallucinations. To alleviate the <b>LLMs</b> from being misled by untruthful information and take advantage of knowledge argumentation, we propose Truth-Aware Context Selection (TACS), a lightweight method to shield untruthful context from the inputs. TACS begins by performing truth detection on the input context, leveraging the parameterized knowledge within the <b>LLM.</b> Subsequently, it constructs a corresponding attention mask based on the truthfulness of each position, selecting the truthful context and discarding the untruthful context. Additionally, we introduce a new evaluation metric, Disturbance Adaption Rate, to further study the <b>LLMs'</b> ability to accept truthful information and resist untruthful information. Experimental results show that TACS can effectively filter information in context and significantly improve the overall quality of <b>LLMs'</b> responses when presented with misleading information.
+Although <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> have demonstrated impressive <b>text</b> <b>generation</b> capabilities, they are easily misled by the untruthful context provided by users or knowledge augmentation tools, thereby producing hallucinations. To alleviate the <b>LLMs</b> from being misled by untruthful information and take advantage of knowledge augmentation, we propose Truth-Aware Context Selection (TACS), a lightweight method to shield untruthful context from the inputs. TACS begins by performing truth detection on the input context, leveraging the parameterized knowledge within the <b>LLM.</b> Subsequently, it constructs a corresponding attention mask based on the truthfulness of each position, selecting the truthful context and discarding the untruthful context. Additionally, we introduce a new evaluation metric, Disturbance Adaption Rate, to further study the <b>LLMs'</b> ability to accept truthful information and resist untruthful information. Experimental results show that TACS can effectively filter information in context and significantly improve the overall quality of <b>LLMs'</b> responses when presented with misleading information.
 
 {{</citation>}}
 
@@ -4632,8 +4632,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 13  
 Keywords: Adversarial Learning, Multi-modal  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07560v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07560v1.pdf" filename="2403.07560v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07560v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07560v2.pdf" filename="2403.07560v2.pdf">Download PDF</button>
 
 ---
 
@@ -5616,14 +5616,14 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs.LG  
 Keyword Score: 90  
 Keywords: Few-shot, Low-Resource, Supervised Learning, Zero-shot, Code Generation, Information Retrieval, Instruction Tuning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07969v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07969v1.pdf" filename="2403.07969v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07969v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07969v2.pdf" filename="2403.07969v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-In this paper, we propose KnowCoder, a <b>Large</b> <b>Language</b> <b>Model</b> <b>(LLM)</b> to conduct Universal <b>Information</b> <b>Extraction</b> (UIE) via <b>code</b> <b>generation.</b> KnowCoder aims to develop a kind of unified schema representation that <b>LLMs</b> can easily understand and an effective learning framework that encourages <b>LLMs</b> to follow schemas and extract structured knowledge accurately. To achieve these, KnowCoder introduces a <b>code-style</b> <b>schema</b> representation method to uniformly transform different schemas into Python classes, with which complex schema <b>information,</b> <b>such</b> as constraints among tasks in UIE, can be captured in an <b>LLM-friendly</b> manner. We further construct a <b>code-style</b> <b>schema</b> library covering over $\textbf{30,000}$ types of knowledge, which is the largest one for UIE, to the best of our knowledge. To ease the learning process of <b>LLMs,</b> KnowCoder contains a two-phase learning framework that enhances its schema understanding ability via <b>code</b> <b>pretraining</b> and its schema following ability via <b>instruction</b> <b>tuning.</b> After <b>code</b> <b>pretraining</b> on around $1.5$B automatically constructed data, KnowCoder already attains remarkable generalization ability and achieves relative improvements by $\textbf{49.8\%}$ F1, compared to LLaMA2, under the <b>few-shot</b> setting. After <b>instruction</b> <b>tuning,</b> KnowCoder further exhibits strong generalization ability on unseen schemas and achieves up to $\textbf{12.5\%}$ and $\textbf{21.9\%}$, compared to sota baselines, under the <b>zero-shot</b> setting and the low resource setting, respectively. Additionally, based on our unified schema representations, various human-annotated datasets can simultaneously be utilized to refine KnowCoder, which achieves significant improvements up to $\textbf{7.5\%}$ under the <b>supervised</b> setting.
+In this paper, we propose KnowCoder, a <b>Large</b> <b>Language</b> <b>Model</b> <b>(LLM)</b> to conduct Universal <b>Information</b> <b>Extraction</b> (UIE) via <b>code</b> <b>generation.</b> KnowCoder aims to develop a kind of unified schema representation that <b>LLMs</b> can easily understand and an effective learning framework that encourages <b>LLMs</b> to follow schemas and extract structured knowledge accurately. To achieve these, KnowCoder introduces a <b>code-style</b> <b>schema</b> representation method to uniformly transform different schemas into Python classes, with which complex schema <b>information,</b> <b>such</b> as constraints among tasks in UIE, can be captured in an <b>LLM-friendly</b> manner. We further construct a <b>code-style</b> <b>schema</b> library covering over $\textbf{30,000}$ types of knowledge, which is the largest one for UIE, to the best of our knowledge. To ease the learning process of <b>LLMs,</b> KnowCoder contains a two-phase learning framework that enhances its schema understanding ability via <b>code</b> <b>pretraining</b> and its schema following ability via <b>instruction</b> <b>tuning.</b> After <b>code</b> <b>pretraining</b> on around $1.5$B automatically constructed data, KnowCoder already attains remarkable generalization ability and achieves relative improvements by $\textbf{49.8%}$ F1, compared to LLaMA2, under the <b>few-shot</b> setting. After <b>instruction</b> <b>tuning,</b> KnowCoder further exhibits strong generalization ability on unseen schemas and achieves up to $\textbf{12.5%}$ and $\textbf{21.9%}$, compared to sota baselines, under the <b>zero-shot</b> setting and the low resource setting, respectively. Additionally, based on our unified schema representations, various human-annotated datasets can simultaneously be utilized to refine KnowCoder, which achieves significant improvements up to $\textbf{7.5%}$ under the <b>supervised</b> setting.
 
 {{</citation>}}
 
@@ -9568,8 +9568,8 @@ Primary Category: cs.HC
 Categories: cs-HC, cs.HC, eess-SP, q-bio-NC  
 Keyword Score: 20  
 Keywords: Contrastive Learning, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07721v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07721v2.pdf" filename="2403.07721v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07721v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07721v3.pdf" filename="2403.07721v3.pdf">Download PDF</button>
 
 ---
 
@@ -10284,8 +10284,8 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-CL, cs-CY, cs-MA, cs.AI  
 Keyword Score: 30  
 Keywords: Reasoning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07769v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07769v1.pdf" filename="2403.07769v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07769v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07769v2.pdf" filename="2403.07769v2.pdf">Download PDF</button>
 
 ---
 
@@ -10821,8 +10821,8 @@ Primary Category: cs.IT
 Categories: cs-IT, cs-MM, cs.IT, eess-SP, math-IT  
 Keyword Score: 20  
 Keywords: Simulation, Simulator  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07338v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07338v2.pdf" filename="2403.07338v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07338v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07338v3.pdf" filename="2403.07338v3.pdf">Download PDF</button>
 
 ---
 
@@ -11152,8 +11152,8 @@ Primary Category: cs.NI
 Categories: cs-NI, cs.NI, eess-SP  
 Keyword Score: 10  
 Keywords: Federated Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07444v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07444v1.pdf" filename="2403.07444v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07444v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07444v2.pdf" filename="2403.07444v2.pdf">Download PDF</button>
 
 ---
 
@@ -11452,8 +11452,8 @@ Primary Category: cs.GT
 Categories: cs-GT, cs.GT  
 Keyword Score: 10  
 Keywords: Recommendation  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.08082v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.08082v1.pdf" filename="2403.08082v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.08082v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.08082v2.pdf" filename="2403.08082v2.pdf">Download PDF</button>
 
 ---
 

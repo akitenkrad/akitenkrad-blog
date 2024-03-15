@@ -4895,14 +4895,14 @@ Series-parallel network topologies generally exhibit simplified dynamical behavi
 
 
 
-### (1/1 | 122/138) Statistical Efficiency of Distributional Temporal Difference (Yang Peng et al., 2024)
+### (1/1 | 122/138) Near Minimax-Optimal Distributional Temporal Difference Algorithms and The Freedman Inequality in Hilbert Spaces (Yang Peng et al., 2024)
 
 {{<citation>}}
 
 Yang Peng, Liangyu Zhang, Zhihua Zhang. (2024)  
-**Statistical Efficiency of Distributional Temporal Difference**
+**Near Minimax-Optimal Distributional Temporal Difference Algorithms and The Freedman Inequality in Hilbert Spaces**
 <br/>
-<button class="copy-to-clipboard" title="Statistical Efficiency of Distributional Temporal Difference" index=122>
+<button class="copy-to-clipboard" title="Near Minimax-Optimal Distributional Temporal Difference Algorithms and The Freedman Inequality in Hilbert Spaces" index=122>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-122 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -4918,14 +4918,14 @@ Primary Category: stat.ML
 Categories: cs-LG, stat-ML, stat.ML  
 Keyword Score: 30  
 Keywords: Distributional Reinforcement Learning, Markov Decision Process, Reinforcement Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.05811v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.05811v1.pdf" filename="2403.05811v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.05811v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.05811v2.pdf" filename="2403.05811v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-<b>Distributional</b> <b>reinforcement</b> <b>learning</b> (DRL), which cares about the full distribution of returns instead of just the mean, has achieved empirical success in various domains. One of the core tasks in the field of DRL is <b>distributional</b> <b>policy</b> <b>evaluation,</b> which involves estimating the return distribution $\eta^\pi$ for a given policy $\pi$. A <b>distributional</b> <b>temporal</b> <b>difference</b> (TD) algorithm has been accordingly proposed, which is an extension of the temporal difference algorithm in the classic RL literature. In the tabular case, \citet{rowland2018analysis} and \citet{rowland2023analysis} proved the asymptotic convergence of two instances of <b>distributional</b> <b>TD,</b> <b>namely</b> categorical temporal difference algorithm (CTD) and quantile temporal difference algorithm (QTD), respectively. In this paper, we go a step further and analyze the finite-sample performance of <b>distributional</b> <b>TD.</b> <b>To</b> facilitate theoretical analysis, we propose non-parametric <b>distributional</b> <b>TD</b> <b>algorithm</b> (NTD). For a $\gamma$-discounted infinite-horizon tabular <b>Markov</b> <b>decision</b> <b>process</b> with state space $S$ and action space $A$, we show that in the case of NTD we need $\wtilde O\prn{\frac{1}{\varepsilon^{2p}(1-\gamma)^{2p+2}}}$ iterations to achieve an $\varepsilon$-optimal estimator with high probability, when the estimation error is measured by the $p$-Wasserstein distance. Under some mild assumptions, $\wtilde O\prn{\frac{1}{\varepsilon^{2}(1-\gamma)^{4}}}$ iterations suffices to ensure the Kolmogorov-Smirnov distance between the NTD estimator $\hat\eta^\pi$ and $\eta^\pi$ less than $\varepsilon$ with high probability. And we revisit CTD, showing that the same non-asymptotic convergence bounds hold for CTD in the case of the $p$-Wasserstein distance.
+<b>Distributional</b> <b>reinforcement</b> <b>learning</b> (DRL) has achieved empirical success in various domains. One of the core tasks in the field of DRL is <b>distributional</b> <b>policy</b> <b>evaluation,</b> which involves estimating the return distribution $\eta^\pi$ for a given policy $\pi$. The <b>distributional</b> <b>temporal</b> <b>difference</b> (TD) algorithm has been accordingly proposed, which is an extension of the temporal difference algorithm in the classic RL literature. In the tabular case, \citet{rowland2018analysis} and \citet{rowland2023analysis} proved the asymptotic convergence of two instances of <b>distributional</b> <b>TD,</b> <b>namely</b> categorical temporal difference algorithm (CTD) and quantile temporal difference algorithm (QTD), respectively. In this paper, we go a step further and analyze the finite-sample performance of <b>distributional</b> <b>TD.</b> <b>To</b> facilitate theoretical analysis, we propose a non-parametric <b>distributional</b> <b>TD</b> <b>algorithm</b> (NTD). For a $\gamma$-discounted infinite-horizon tabular <b>Markov</b> <b>decision</b> <b>process,</b> we show that for NTD we need $\tilde{O}\left(\frac{1}{\varepsilon^{2p}(1-\gamma)^{2p+1}}\right)$ iterations to achieve an $\varepsilon$-optimal estimator with high probability, when the estimation error is measured by the $p$-Wasserstein distance. This sample complexity bound is minimax optimal (up to logarithmic factors) in the case of the $1$-Wasserstein distance. To achieve this, we establish a novel Freedman's inequality in Hilbert spaces, which would be of independent interest. In addition, we revisit CTD, showing that the same non-asymptotic convergence bounds hold for CTD in the case of the $p$-Wasserstein distance.
 
 {{</citation>}}
 
@@ -5183,8 +5183,8 @@ Primary Category: cs.DC
 Categories: cs-DC, cs.DC  
 Keyword Score: 20  
 Keywords: Simulation, Simulator  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.05861v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.05861v1.pdf" filename="2403.05861v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.05861v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.05861v2.pdf" filename="2403.05861v2.pdf">Download PDF</button>
 
 ---
 
