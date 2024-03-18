@@ -26,7 +26,7 @@ math: true
 - [cs.AR (1)](#csar-1)
 - [cs.CC (1)](#cscc-1)
 - [cs.CE (5)](#csce-5)
-- [cs.CL (39)](#cscl-39)
+- [cs.CL (48)](#cscl-48)
 - [cs.CR (6)](#cscr-6)
 - [cs.CV (88)](#cscv-88)
 - [cs.CY (2)](#cscy-2)
@@ -35,7 +35,7 @@ math: true
 - [cs.DS (3)](#csds-3)
 - [cs.FL (1)](#csfl-1)
 - [cs.GT (2)](#csgt-2)
-- [cs.HC (4)](#cshc-4)
+- [cs.HC (5)](#cshc-5)
 - [cs.IR (8)](#csir-8)
 - [cs.IT (5)](#csit-5)
 - [cs.LG (55)](#cslg-55)
@@ -50,7 +50,7 @@ math: true
 - [eess.AS (2)](#eessas-2)
 - [eess.IV (9)](#eessiv-9)
 - [eess.SP (4)](#eesssp-4)
-- [eess.SY (10)](#eesssy-10)
+- [eess.SY (11)](#eesssy-11)
 - [math.AT (1)](#mathat-1)
 - [math.MG (1)](#mathmg-1)
 - [math.NA (3)](#mathna-3)
@@ -125,6 +125,14 @@ math: true
       <td></td>
     </tr>
     <tr>
+      <td>BLEU</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Benchmarking</td>
       <td>12</td>
       <td>24</td>
@@ -142,7 +150,7 @@ math: true
     </tr>
     <tr>
       <td>ChatGPT</td>
-      <td>2</td>
+      <td>3</td>
       <td></td>
       <td></td>
       <td></td>
@@ -278,7 +286,7 @@ math: true
     </tr>
     <tr>
       <td>Domain Adaptation</td>
-      <td>1</td>
+      <td>2</td>
       <td>2</td>
       <td>1</td>
       <td></td>
@@ -301,6 +309,14 @@ math: true
       <td></td>
     </tr>
     <tr>
+      <td>Event Argument Extraction</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Explainable AI</td>
       <td></td>
       <td>2</td>
@@ -312,6 +328,14 @@ math: true
       <td>Face Recognition</td>
       <td></td>
       <td>2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Fact Verification</td>
+      <td>1</td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -350,7 +374,7 @@ math: true
     </tr>
     <tr>
       <td>Fine-tuning</td>
-      <td>13</td>
+      <td>17</td>
       <td>14</td>
       <td>5</td>
       <td></td>
@@ -374,7 +398,7 @@ math: true
     </tr>
     <tr>
       <td>GPT</td>
-      <td>9</td>
+      <td>11</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -406,7 +430,7 @@ math: true
     </tr>
     <tr>
       <td>GPT-4</td>
-      <td>6</td>
+      <td>7</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -419,6 +443,14 @@ math: true
       <td></td>
       <td>1</td>
       <td>1</td>
+    </tr>
+    <tr>
+      <td>Gemini</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Generative AI</td>
@@ -446,7 +478,7 @@ math: true
     </tr>
     <tr>
       <td>Graph</td>
-      <td>3</td>
+      <td>5</td>
       <td>3</td>
       <td>9</td>
       <td>1</td>
@@ -502,7 +534,7 @@ math: true
     </tr>
     <tr>
       <td>Instruction Tuning</td>
-      <td>1</td>
+      <td>2</td>
       <td>1</td>
       <td>1</td>
       <td></td>
@@ -526,7 +558,7 @@ math: true
     </tr>
     <tr>
       <td>Knowledge Graph</td>
-      <td>4</td>
+      <td>6</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -534,7 +566,7 @@ math: true
     </tr>
     <tr>
       <td>LLaMA</td>
-      <td>4</td>
+      <td>5</td>
       <td></td>
       <td>1</td>
       <td></td>
@@ -550,7 +582,7 @@ math: true
     </tr>
     <tr>
       <td>Large Language Model</td>
-      <td>43</td>
+      <td>46</td>
       <td>18</td>
       <td>10</td>
       <td>3</td>
@@ -589,8 +621,16 @@ math: true
       <td></td>
     </tr>
     <tr>
-      <td>Mistral</td>
+      <td>Meta Learning</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
       <td>1</td>
+    </tr>
+    <tr>
+      <td>Mistral</td>
+      <td>2</td>
       <td></td>
       <td></td>
       <td></td>
@@ -646,7 +686,7 @@ math: true
     </tr>
     <tr>
       <td>Natural Language Understanding</td>
-      <td>1</td>
+      <td>2</td>
       <td></td>
       <td></td>
       <td></td>
@@ -742,7 +782,7 @@ math: true
     </tr>
     <tr>
       <td>Pre-trained Language Model</td>
-      <td>4</td>
+      <td>6</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -750,7 +790,7 @@ math: true
     </tr>
     <tr>
       <td>Prompt</td>
-      <td>8</td>
+      <td>10</td>
       <td>12</td>
       <td></td>
       <td>1</td>
@@ -774,7 +814,7 @@ math: true
     </tr>
     <tr>
       <td>Question Answering</td>
-      <td>3</td>
+      <td>4</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -782,7 +822,7 @@ math: true
     </tr>
     <tr>
       <td>Reasoning</td>
-      <td>4</td>
+      <td>6</td>
       <td>5</td>
       <td>1</td>
       <td>2</td>
@@ -790,7 +830,7 @@ math: true
     </tr>
     <tr>
       <td>Recommendation</td>
-      <td></td>
+      <td>1</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -798,7 +838,7 @@ math: true
     </tr>
     <tr>
       <td>Recurrent Neural Network</td>
-      <td></td>
+      <td>1</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -814,7 +854,7 @@ math: true
     </tr>
     <tr>
       <td>Reinforcement Learning from Human Feedback</td>
-      <td>3</td>
+      <td>4</td>
       <td></td>
       <td></td>
       <td></td>
@@ -830,7 +870,7 @@ math: true
     </tr>
     <tr>
       <td>Retrieval-Augmented Generation</td>
-      <td></td>
+      <td>3</td>
       <td>1</td>
       <td></td>
       <td></td>
@@ -841,6 +881,14 @@ math: true
       <td></td>
       <td></td>
       <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rouge</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -882,6 +930,14 @@ math: true
       <td>3</td>
       <td>3</td>
       <td>2</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Parsing</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -950,7 +1006,7 @@ math: true
     </tr>
     <tr>
       <td>Summarization</td>
-      <td>5</td>
+      <td>6</td>
       <td>2</td>
       <td>1</td>
       <td></td>
@@ -990,7 +1046,7 @@ math: true
     </tr>
     <tr>
       <td>Text Classification</td>
-      <td>1</td>
+      <td>2</td>
       <td></td>
       <td></td>
       <td></td>
@@ -1006,8 +1062,16 @@ math: true
     </tr>
     <tr>
       <td>Text Generation</td>
-      <td>2</td>
+      <td>3</td>
       <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Text Mining</td>
+      <td>1</td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -1038,7 +1102,7 @@ math: true
     </tr>
     <tr>
       <td>Transformer</td>
-      <td>3</td>
+      <td>5</td>
       <td>18</td>
       <td>7</td>
       <td>1</td>
@@ -1136,21 +1200,56 @@ $(function() {
 </script>
 
 
-## cs.CL (39)
+## cs.CL (48)
 
 
 
-### (1/39 | 1/311) Exploring Safety Generalization Challenges of Large Language Models via Code (Qibing Ren et al., 2024)
+### (1/48 | 1/322) Investigating the performance of Retrieval-Augmented Generation and fine-tuning for the development of AI-driven knowledge-based systems (Robert Lakatos et al., 2024)
+
+{{<citation>}}
+
+Robert Lakatos, Peter Pollner, Andras Hajdu, Tamas Joo. (2024)  
+**Investigating the performance of Retrieval-Augmented Generation and fine-tuning for the development of AI-driven knowledge-based systems**
+<br/>
+<button class="copy-to-clipboard" title="Investigating the performance of Retrieval-Augmented Generation and fine-tuning for the development of AI-driven knowledge-based systems" index=1>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-1 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs-LG, cs.CL  
+Keyword Score: 120  
+Keywords: Fine-tuning, Retrieval-Augmented Generation, Retrieval-Augmented Generation, Retrieval-Augmented Generation, ChatGPT, GPT, Gemini, LLaMA, BLEU, Domain Adaptation, Large Language Model, Rouge  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.09727v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.09727v1.pdf" filename="2403.09727v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+The development of generative <b>large</b> <b>language</b> <b>models</b> (G-LLM) opened up new opportunities for the development of new types of knowledge-based systems similar to <b>ChatGPT,</b> Bing, or <b>Gemini.</b> <b>Fine-tuning</b> (FN) and <b>Retrieval-Augmented</b> <b>Generation</b> <b>(RAG)</b> are the techniques that can be used to implement <b>domain</b> <b>adaptation</b> for the development of G-LLM-based knowledge systems. In our study, using <b>ROUGE,</b> <b>BLEU,</b> METEOR scores, and cosine similarity, we compare and examine the performance of <b>RAG</b> and FN for the <b>GPT-J-6B,</b> OPT-6.7B, <b>LlaMA,</b> <b>LlaMA-2</b> language models. Based on measurements shown on different datasets, we demonstrate that <b>RAG-based</b> constructions are more efficient than models produced with FN. We point out that connecting <b>RAG</b> and FN is not trivial, because connecting FN models with <b>RAG</b> can cause a decrease in performance. Furthermore, we outline a simple <b>RAG-based</b> architecture which, on average, outperforms the FN models by 16% in terms of the ROGUE score, 15% in the case of the <b>BLEU</b> score, and 53% based on the cosine similarity. This shows the significant advantage of <b>RAG</b> over FN in terms of hallucination, which is not offset by the fact that the average 8% better METEOR score of FN models indicates greater creativity compared to <b>RAG.</b>
+
+{{</citation>}}
+
+
+### (2/48 | 2/322) Exploring Safety Generalization Challenges of Large Language Models via Code (Qibing Ren et al., 2024)
 
 {{<citation>}}
 
 Qibing Ren, Chang Gao, Jing Shao, Junchi Yan, Xin Tan, Yu Qiao, Wai Lam, Lizhuang Ma. (2024)  
 **Exploring Safety Generalization Challenges of Large Language Models via Code**
 <br/>
-<button class="copy-to-clipboard" title="Exploring Safety Generalization Challenges of Large Language Models via Code" index=1>
+<button class="copy-to-clipboard" title="Exploring Safety Generalization Challenges of Large Language Models via Code" index=2>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-1 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-2 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1175,17 +1274,17 @@ The rapid advancement of <b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b
 {{</citation>}}
 
 
-### (2/39 | 2/311) Rethinking ASTE: A Minimalist Tagging Scheme Alongside Contrastive Learning (Qiao Sun et al., 2024)
+### (3/48 | 3/322) Rethinking ASTE: A Minimalist Tagging Scheme Alongside Contrastive Learning (Qiao Sun et al., 2024)
 
 {{<citation>}}
 
 Qiao Sun, Liujia Yang, Minghao Ma, Nanyang Ye, Qinying Gu. (2024)  
 **Rethinking ASTE: A Minimalist Tagging Scheme Alongside Contrastive Learning**
 <br/>
-<button class="copy-to-clipboard" title="Rethinking ASTE: A Minimalist Tagging Scheme Alongside Contrastive Learning" index=2>
+<button class="copy-to-clipboard" title="Rethinking ASTE: A Minimalist Tagging Scheme Alongside Contrastive Learning" index=3>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-2 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1210,17 +1309,17 @@ Aspect <b>Sentiment</b> <b>Triplet</b> Extraction (ASTE) is a burgeoning subtask
 {{</citation>}}
 
 
-### (3/39 | 3/311) Rethinking Generative Large Language Model Evaluation for Semantic Comprehension (Fangyun Wei et al., 2024)
+### (4/48 | 4/322) Rethinking Generative Large Language Model Evaluation for Semantic Comprehension (Fangyun Wei et al., 2024)
 
 {{<citation>}}
 
 Fangyun Wei, Xi Chen, Lin Luo. (2024)  
 **Rethinking Generative Large Language Model Evaluation for Semantic Comprehension**
 <br/>
-<button class="copy-to-clipboard" title="Rethinking Generative Large Language Model Evaluation for Semantic Comprehension" index=3>
+<button class="copy-to-clipboard" title="Rethinking Generative Large Language Model Evaluation for Semantic Comprehension" index=4>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-3 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-4 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1245,17 +1344,17 @@ Despite their sophisticated capabilities, <b>large</b> <b>language</b> <b>models
 {{</citation>}}
 
 
-### (4/39 | 4/311) Knowledge Graph Large Language Model (KG-LLM) for Link Prediction (Dong Shu et al., 2024)
+### (5/48 | 5/322) Knowledge Graph Large Language Model (KG-LLM) for Link Prediction (Dong Shu et al., 2024)
 
 {{<citation>}}
 
 Dong Shu, Tianle Chen, Mingyu Jin, Yiting Zhang, Mengnan Du, Yongfeng Zhang. (2024)  
 **Knowledge Graph Large Language Model (KG-LLM) for Link Prediction**
 <br/>
-<button class="copy-to-clipboard" title="Knowledge Graph Large Language Model (KG-LLM) for Link Prediction" index=4>
+<button class="copy-to-clipboard" title="Knowledge Graph Large Language Model (KG-LLM) for Link Prediction" index=5>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-4 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1280,17 +1379,17 @@ The task of predicting multiple links within <b>knowledge</b> <b>graphs</b> <b>(
 {{</citation>}}
 
 
-### (5/39 | 5/311) Fine-tuning Large Language Models with Sequential Instructions (Hanxu Hu et al., 2024)
+### (6/48 | 6/322) Fine-tuning Large Language Models with Sequential Instructions (Hanxu Hu et al., 2024)
 
 {{<citation>}}
 
 Hanxu Hu, Pinzhen Chen, Edoardo M. Ponti. (2024)  
 **Fine-tuning Large Language Models with Sequential Instructions**
 <br/>
-<button class="copy-to-clipboard" title="Fine-tuning Large Language Models with Sequential Instructions" index=5>
+<button class="copy-to-clipboard" title="Fine-tuning Large Language Models with Sequential Instructions" index=6>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-5 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-6 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1315,17 +1414,52 @@ Keywords: Fine-tuning, Multi-modal, Multi-modal, Alpaca, LLaMA, Reasoning, Instr
 {{</citation>}}
 
 
-### (6/39 | 6/311) SIFiD: Reassess Summary Factual Inconsistency Detection with LLM (Jiuding Yang et al., 2024)
+### (7/48 | 7/322) RAD-PHI2: Instruction Tuning PHI-2 for Radiology (Mercy Ranjit et al., 2024)
+
+{{<citation>}}
+
+Mercy Ranjit, Gopinath Ganapathy, Shaury Srivastav, Tanuja Ganu, Srujana Oruganti. (2024)  
+**RAD-PHI2: Instruction Tuning PHI-2 for Radiology**
+<br/>
+<button class="copy-to-clipboard" title="RAD-PHI2: Instruction Tuning PHI-2 for Radiology" index=7>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-7 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: J-3, cs-AI, cs-CL, cs.CL  
+Keyword Score: 80  
+Keywords: Fine-tuning, Fine-tuning, GPT, GPT-4, Mistral, Question Answering, Reasoning, Instruction Tuning  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.09725v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.09725v1.pdf" filename="2403.09725v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Small Language Models (SLMs) have shown remarkable performance in general domain language understanding, <b>reasoning</b> and coding tasks, but their capabilities in the medical domain, particularly concerning radiology text, is less explored. In this study, we investigate the application of SLMs for general radiology knowledge specifically <b>question</b> <b>answering</b> related to understanding of symptoms, radiological appearances of findings, differential diagnosis, assessing prognosis, and suggesting treatments w.r.t diseases pertaining to different organ systems. Additionally, we explore the utility of SLMs in handling text-related tasks with respect to radiology reports within AI-driven radiology workflows. We <b>fine-tune</b> Phi-2, a SLM with 2.7 billion parameters using high-quality educational content from Radiopaedia, a collaborative online radiology resource. The resulting language model, RadPhi-2-Base, exhibits the ability to address general radiology queries across various systems (e.g., chest, cardiac). Furthermore, we investigate Phi-2 for <b>instruction</b> <b>tuning,</b> enabling it to perform specific tasks. By <b>fine-tuning</b> Phi-2 on both general domain tasks and radiology-specific tasks related to chest X-ray reports, we create Rad-Phi2. Our empirical results reveal that Rad-Phi2 Base and Rad-Phi2 perform comparably or even outperform larger models such as <b>Mistral-7B-Instruct-v0.2</b> and <b>GPT-4</b> providing concise and precise answers. In summary, our work demonstrates the feasibility and effectiveness of utilizing SLMs in radiology workflows both for knowledge related queries as well as for performing specific tasks related to radiology reports thereby opening up new avenues for enhancing the quality and efficiency of radiology practice.
+
+{{</citation>}}
+
+
+### (8/48 | 8/322) SIFiD: Reassess Summary Factual Inconsistency Detection with LLM (Jiuding Yang et al., 2024)
 
 {{<citation>}}
 
 Jiuding Yang, Hui Liu, Weidong Guo, Zhuwei Rao, Yu Xu, Di Niu. (2024)  
 **SIFiD: Reassess Summary Factual Inconsistency Detection with LLM**
 <br/>
-<button class="copy-to-clipboard" title="SIFiD: Reassess Summary Factual Inconsistency Detection with LLM" index=6>
+<button class="copy-to-clipboard" title="SIFiD: Reassess Summary Factual Inconsistency Detection with LLM" index=8>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-6 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1350,17 +1484,17 @@ Ensuring factual consistency between the summary and the original document is pa
 {{</citation>}}
 
 
-### (7/39 | 7/311) Training Small Multimodal Models to Bridge Biomedical Competency Gap: A Case Study in Radiology Imaging (Juan Manuel Zambrano Chaves et al., 2024)
+### (9/48 | 9/322) Training Small Multimodal Models to Bridge Biomedical Competency Gap: A Case Study in Radiology Imaging (Juan Manuel Zambrano Chaves et al., 2024)
 
 {{<citation>}}
 
 Juan Manuel Zambrano Chaves, Shih-Cheng Huang, Yanbo Xu, Hanwen Xu, Naoto Usuyama, Sheng Zhang, Fei Wang, Yujia Xie, Mahmoud Khademi, Ziyi Yang, Hany Awadalla, Julia Gong, Houdong Hu, Jianwei Yang, Chunyuan Li, Jianfeng Gao, Yu Gu, Cliff Wong, Mu Wei, Tristan Naumann, Muhao Chen, Matthew P. Lungren, Serena Yeung-Levy, Curtis P. Langlotz, Sheng Wang, Hoifung Poon. (2024)  
 **Training Small Multimodal Models to Bridge Biomedical Competency Gap: A Case Study in Radiology Imaging**
 <br/>
-<button class="copy-to-clipboard" title="Training Small Multimodal Models to Bridge Biomedical Competency Gap: A Case Study in Radiology Imaging" index=7>
+<button class="copy-to-clipboard" title="Training Small Multimodal Models to Bridge Biomedical Competency Gap: A Case Study in Radiology Imaging" index=9>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-7 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-9 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1385,17 +1519,17 @@ The <b>scaling</b> <b>laws</b> and extraordinary performance of large <b>foundat
 {{</citation>}}
 
 
-### (8/39 | 8/311) Complex Reasoning over Logical Queries on Commonsense Knowledge Graphs (Tianqing Fang et al., 2024)
+### (10/48 | 10/322) Complex Reasoning over Logical Queries on Commonsense Knowledge Graphs (Tianqing Fang et al., 2024)
 
 {{<citation>}}
 
 Tianqing Fang, Zeming Chen, Yangqiu Song, Antoine Bosselut. (2024)  
 **Complex Reasoning over Logical Queries on Commonsense Knowledge Graphs**
 <br/>
-<button class="copy-to-clipboard" title="Complex Reasoning over Logical Queries on Commonsense Knowledge Graphs" index=8>
+<button class="copy-to-clipboard" title="Complex Reasoning over Logical Queries on Commonsense Knowledge Graphs" index=10>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-8 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-10 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1420,17 +1554,17 @@ Event <b>commonsense</b> <b>reasoning</b> requires the ability to reason about t
 {{</citation>}}
 
 
-### (9/39 | 9/311) LLMvsSmall Model? Large Language Model Based Text Augmentation Enhanced Personality Detection Model (Linmei Hu et al., 2024)
+### (11/48 | 11/322) LLMvsSmall Model? Large Language Model Based Text Augmentation Enhanced Personality Detection Model (Linmei Hu et al., 2024)
 
 {{<citation>}}
 
 Linmei Hu, Hongyu He, Duokang Wang, Ziwang Zhao, Yingxia Shao, Liqiang Nie. (2024)  
 **LLMvsSmall Model? Large Language Model Based Text Augmentation Enhanced Personality Detection Model**
 <br/>
-<button class="copy-to-clipboard" title="LLMvsSmall Model? Large Language Model Based Text Augmentation Enhanced Personality Detection Model" index=9>
+<button class="copy-to-clipboard" title="LLMvsSmall Model? Large Language Model Based Text Augmentation Enhanced Personality Detection Model" index=11>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-9 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-11 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1455,17 +1589,17 @@ Personality detection aims to detect one's personality traits underlying in soci
 {{</citation>}}
 
 
-### (10/39 | 10/311) Matrix-Transformation Based Low-Rank Adaptation (MTLoRA): A Brain-Inspired Method for Parameter-Efficient Fine-Tuning (Yao Liang et al., 2024)
+### (12/48 | 12/322) Matrix-Transformation Based Low-Rank Adaptation (MTLoRA): A Brain-Inspired Method for Parameter-Efficient Fine-Tuning (Yao Liang et al., 2024)
 
 {{<citation>}}
 
 Yao Liang, Yuwei Wang, Yi Zeng. (2024)  
 **Matrix-Transformation Based Low-Rank Adaptation (MTLoRA): A Brain-Inspired Method for Parameter-Efficient Fine-Tuning**
 <br/>
-<button class="copy-to-clipboard" title="Matrix-Transformation Based Low-Rank Adaptation (MTLoRA): A Brain-Inspired Method for Parameter-Efficient Fine-Tuning" index=10>
+<button class="copy-to-clipboard" title="Matrix-Transformation Based Low-Rank Adaptation (MTLoRA): A Brain-Inspired Method for Parameter-Efficient Fine-Tuning" index=12>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-10 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1490,17 +1624,17 @@ Keywords: Benchmarking, Fine-tuning, Language Generation, Natural Language Gener
 {{</citation>}}
 
 
-### (11/39 | 11/311) Harnessing Artificial Intelligence to Combat Online Hate: Exploring the Challenges and Opportunities of Large Language Models in Hate Speech Detection (Tharindu Kumarage et al., 2024)
+### (13/48 | 13/322) Harnessing Artificial Intelligence to Combat Online Hate: Exploring the Challenges and Opportunities of Large Language Models in Hate Speech Detection (Tharindu Kumarage et al., 2024)
 
 {{<citation>}}
 
 Tharindu Kumarage, Amrita Bhattacharjee, Joshua Garland. (2024)  
 **Harnessing Artificial Intelligence to Combat Online Hate: Exploring the Challenges and Opportunities of Large Language Models in Hate Speech Detection**
 <br/>
-<button class="copy-to-clipboard" title="Harnessing Artificial Intelligence to Combat Online Hate: Exploring the Challenges and Opportunities of Large Language Models in Hate Speech Detection" index=11>
+<button class="copy-to-clipboard" title="Harnessing Artificial Intelligence to Combat Online Hate: Exploring the Challenges and Opportunities of Large Language Models in Hate Speech Detection" index=13>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-11 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-13 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1525,17 +1659,17 @@ Keywords: Hate Speech Detection, Language Generation, Sentiment Analysis, Text C
 {{</citation>}}
 
 
-### (12/39 | 12/311) SemEval-2024 Shared Task 6: SHROOM, a Shared-task on Hallucinations and Related Observable Overgeneration Mistakes (Timothee Mickus et al., 2024)
+### (14/48 | 14/322) SemEval-2024 Shared Task 6: SHROOM, a Shared-task on Hallucinations and Related Observable Overgeneration Mistakes (Timothee Mickus et al., 2024)
 
 {{<citation>}}
 
 Timothee Mickus, Elaine Zosa, Raúl Vázquez, Teemu Vahtola, Jörg Tiedemann, Vincent Segonne, Alessandro Raganato, Marianna Apidianaki. (2024)  
 **SemEval-2024 Shared Task 6: SHROOM, a Shared-task on Hallucinations and Related Observable Overgeneration Mistakes**
 <br/>
-<button class="copy-to-clipboard" title="SemEval-2024 Shared Task 6: SHROOM, a Shared-task on Hallucinations and Related Observable Overgeneration Mistakes" index=12>
+<button class="copy-to-clipboard" title="SemEval-2024 Shared Task 6: SHROOM, a Shared-task on Hallucinations and Related Observable Overgeneration Mistakes" index=14>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-12 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-14 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1560,17 +1694,17 @@ This paper presents the results of the SHROOM, a shared task focused on detectin
 {{</citation>}}
 
 
-### (13/39 | 13/311) Improving Reinforcement Learning from Human Feedback Using Contrastive Rewards (Wei Shen et al., 2024)
+### (15/48 | 15/322) Improving Reinforcement Learning from Human Feedback Using Contrastive Rewards (Wei Shen et al., 2024)
 
 {{<citation>}}
 
 Wei Shen, Xiaoying Zhang, Yuanshun Yao, Rui Zheng, Hongyi Guo, Yang Liu. (2024)  
 **Improving Reinforcement Learning from Human Feedback Using Contrastive Rewards**
 <br/>
-<button class="copy-to-clipboard" title="Improving Reinforcement Learning from Human Feedback Using Contrastive Rewards" index=13>
+<button class="copy-to-clipboard" title="Improving Reinforcement Learning from Human Feedback Using Contrastive Rewards" index=15>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-13 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-15 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1595,17 +1729,17 @@ Keywords: Reinforcement Learning, Reinforcement Learning from Human Feedback, Re
 {{</citation>}}
 
 
-### (14/39 | 14/311) SmallToLarge (S2L): Scalable Data Selection for Fine-tuning Large Language Models by Summarizing Training Trajectories of Small Models (Yu Yang et al., 2024)
+### (16/48 | 16/322) SmallToLarge (S2L): Scalable Data Selection for Fine-tuning Large Language Models by Summarizing Training Trajectories of Small Models (Yu Yang et al., 2024)
 
 {{<citation>}}
 
 Yu Yang, Siddhartha Mishra, Jeffrey N Chiang, Baharan Mirzasoleiman. (2024)  
 **SmallToLarge (S2L): Scalable Data Selection for Fine-tuning Large Language Models by Summarizing Training Trajectories of Small Models**
 <br/>
-<button class="copy-to-clipboard" title="SmallToLarge (S2L): Scalable Data Selection for Fine-tuning Large Language Models by Summarizing Training Trajectories of Small Models" index=14>
+<button class="copy-to-clipboard" title="SmallToLarge (S2L): Scalable Data Selection for Fine-tuning Large Language Models by Summarizing Training Trajectories of Small Models" index=16>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-14 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-16 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1630,17 +1764,52 @@ Despite the effectiveness of data selection for <b>large</b> <b>language</b> <b>
 {{</citation>}}
 
 
-### (15/39 | 15/311) CKERC : Joint Large Language Models with Commonsense Knowledge for Emotion Recognition in Conversation (Yumeng Fu, 2024)
+### (17/48 | 17/322) Fine-tuning vs Prompting, Can Language Models Understand Human Values? (Pingwei Sun, 2024)
+
+{{<citation>}}
+
+Pingwei Sun. (2024)  
+**Fine-tuning vs Prompting, Can Language Models Understand Human Values?**
+<br/>
+<button class="copy-to-clipboard" title="Fine-tuning vs Prompting, Can Language Models Understand Human Values?" index=17>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-17 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keyword Score: 60  
+Keywords: Fine-tuning, Reinforcement Learning from Human Feedback, Natural Language Understanding, Large Language Model, Large Language Model, Prompt  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.09720v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.09720v1.pdf" filename="2403.09720v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Accurately handling the underlying support values in sentences is crucial for understanding the speaker's tendencies, yet it poses a challenging task in <b>natural</b> <b>language</b> <b>understanding</b> (NLU). In this article, we explore the potential of <b>fine-tuning</b> and <b>prompt</b> tuning in this downstream task, using the Human Value Detection 2023. Additionally, we attempt to validate whether models can effectively solve the problem based on the knowledge acquired during the pre-training stage. Simultaneously, our interest lies in the capabilities of <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> aligned with <b>RLHF</b> in this task, and some preliminary attempts are presented.
+
+{{</citation>}}
+
+
+### (18/48 | 18/322) CKERC : Joint Large Language Models with Commonsense Knowledge for Emotion Recognition in Conversation (Yumeng Fu, 2024)
 
 {{<citation>}}
 
 Yumeng Fu. (2024)  
 **CKERC : Joint Large Language Models with Commonsense Knowledge for Emotion Recognition in Conversation**
 <br/>
-<button class="copy-to-clipboard" title="CKERC : Joint Large Language Models with Commonsense Knowledge for Emotion Recognition in Conversation" index=15>
+<button class="copy-to-clipboard" title="CKERC : Joint Large Language Models with Commonsense Knowledge for Emotion Recognition in Conversation" index=18>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-15 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-18 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1665,17 +1834,17 @@ Keywords: Fine-tuning, Emotion Recognition, Multi-party Dialogue, Large Language
 {{</citation>}}
 
 
-### (16/39 | 16/311) StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models (Zhicheng Guo et al., 2024)
+### (19/48 | 19/322) StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models (Zhicheng Guo et al., 2024)
 
 {{<citation>}}
 
 Zhicheng Guo, Sijie Cheng, Hao Wang, Shihao Liang, Yujia Qin, Peng Li, Zhiyuan Liu, Maosong Sun, Yang Liu. (2024)  
 **StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models**
 <br/>
-<button class="copy-to-clipboard" title="StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models" index=16>
+<button class="copy-to-clipboard" title="StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models" index=19>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-16 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-19 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1700,17 +1869,52 @@ Keywords: Benchmarking, Benchmarking, GPT, GPT-4, Large Language Model, Large La
 {{</citation>}}
 
 
-### (17/39 | 17/311) ORPO: Monolithic Preference Optimization without Reference Model (Jiwoo Hong et al., 2024)
+### (20/48 | 20/322) A Semantic Mention Graph Augmented Model for Document-Level Event Argument Extraction (Jian Zhang et al., 2024)
+
+{{<citation>}}
+
+Jian Zhang, Changlin Yang, Haiping Zhu, Qika Lin, Fangzhi Xu, Jun Liu. (2024)  
+**A Semantic Mention Graph Augmented Model for Document-Level Event Argument Extraction**
+<br/>
+<button class="copy-to-clipboard" title="A Semantic Mention Graph Augmented Model for Document-Level Event Argument Extraction" index=20>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-20 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keyword Score: 53  
+Keywords: Graph, Transformer, Event Argument Extraction, Pre-trained Language Model, Pre-trained Language Model, Prompt  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.09721v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.09721v1.pdf" filename="2403.09721v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Document-level <b>Event</b> <b>Argument</b> <b>Extraction</b> (DEAE) aims to identify arguments and their specific roles from an unstructured document. The advanced approaches on DEAE utilize <b>prompt-based</b> methods to guide <b>pre-trained</b> <b>language</b> <b>models</b> <b>(PLMs)</b> in extracting arguments from input documents. They mainly concentrate on establishing relations between triggers and entity mentions within documents, leaving two unresolved problems: a) independent modeling of entity mentions; b) document-prompt isolation. To this end, we propose a semantic mention <b>Graph</b> Augmented Model (GAM) to address these two problems in this paper. Firstly, GAM constructs a semantic mention <b>graph</b> that captures relations within and between documents and <b>prompts,</b> encompassing co-existence, co-reference and co-type relations. Furthermore, we introduce an ensembled <b>graph</b> <b>transformer</b> module to address mentions and their three semantic relations effectively. Later, the <b>graph-augmented</b> encoder-decoder module incorporates the relation-specific <b>graph</b> into the input embedding of <b>PLMs</b> and optimizes the encoder section with topology information, enhancing the relations comprehensively. Extensive experiments on the RAMS and WikiEvents datasets demonstrate the effectiveness of our approach, surpassing baseline methods and achieving a new state-of-the-art performance.
+
+{{</citation>}}
+
+
+### (21/48 | 21/322) ORPO: Monolithic Preference Optimization without Reference Model (Jiwoo Hong et al., 2024)
 
 {{<citation>}}
 
 Jiwoo Hong, Noah Lee, James Thorne. (2024)  
 **ORPO: Monolithic Preference Optimization without Reference Model**
 <br/>
-<button class="copy-to-clipboard" title="ORPO: Monolithic Preference Optimization without Reference Model" index=17>
+<button class="copy-to-clipboard" title="ORPO: Monolithic Preference Optimization without Reference Model" index=21>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-17 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-21 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1735,17 +1939,17 @@ While recent preference alignment algorithms for language models have demonstrat
 {{</citation>}}
 
 
-### (18/39 | 18/311) MoralBERT: Detecting Moral Values in Social Discourse (Vjosa Preniqi et al., 2024)
+### (22/48 | 22/322) MoralBERT: Detecting Moral Values in Social Discourse (Vjosa Preniqi et al., 2024)
 
 {{<citation>}}
 
 Vjosa Preniqi, Iacopo Ghinassi, Kyriaki Kalimeri, Charalampos Saitis. (2024)  
 **MoralBERT: Detecting Moral Values in Social Discourse**
 <br/>
-<button class="copy-to-clipboard" title="MoralBERT: Detecting Moral Values in Social Discourse" index=18>
+<button class="copy-to-clipboard" title="MoralBERT: Detecting Moral Values in Social Discourse" index=22>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-18 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-22 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1770,17 +1974,17 @@ Morality plays a fundamental role in how we perceive information while greatly i
 {{</citation>}}
 
 
-### (19/39 | 19/311) Triples-to-isiXhosa (T2X): Addressing the Challenges of Low-Resource Agglutinative Data-to-Text Generation (Francois Meyer et al., 2024)
+### (23/48 | 23/322) Triples-to-isiXhosa (T2X): Addressing the Challenges of Low-Resource Agglutinative Data-to-Text Generation (Francois Meyer et al., 2024)
 
 {{<citation>}}
 
 Francois Meyer, Jan Buys. (2024)  
 **Triples-to-isiXhosa (T2X): Addressing the Challenges of Low-Resource Agglutinative Data-to-Text Generation**
 <br/>
-<button class="copy-to-clipboard" title="Triples-to-isiXhosa (T2X): Addressing the Challenges of Low-Resource Agglutinative Data-to-Text Generation" index=19>
+<button class="copy-to-clipboard" title="Triples-to-isiXhosa (T2X): Addressing the Challenges of Low-Resource Agglutinative Data-to-Text Generation" index=23>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-19 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-23 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1805,17 +2009,17 @@ Most data-to-text datasets are for English, so the difficulties of modelling dat
 {{</citation>}}
 
 
-### (20/39 | 20/311) Curry-DPO: Enhancing Alignment using Curriculum Learning & Ranked Preferences (Pulkit Pattnaik et al., 2024)
+### (24/48 | 24/322) Curry-DPO: Enhancing Alignment using Curriculum Learning & Ranked Preferences (Pulkit Pattnaik et al., 2024)
 
 {{<citation>}}
 
 Pulkit Pattnaik, Rishabh Maheshwary, Kelechi Ogueji, Vikas Yadav, Sathwik Tejaswi Madhusudhan. (2024)  
 **Curry-DPO: Enhancing Alignment using Curriculum Learning & Ranked Preferences**
 <br/>
-<button class="copy-to-clipboard" title="Curry-DPO: Enhancing Alignment using Curriculum Learning & Ranked Preferences" index=20>
+<button class="copy-to-clipboard" title="Curry-DPO: Enhancing Alignment using Curriculum Learning & Ranked Preferences" index=24>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-20 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-24 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1840,17 +2044,17 @@ Keywords: Curriculum Learning, Direct Preference Optimization, Neural Machine Tr
 {{</citation>}}
 
 
-### (21/39 | 21/311) FineMath: A Fine-Grained Mathematical Evaluation Benchmark for Chinese Large Language Models (Yan Liu et al., 2024)
+### (25/48 | 25/322) FineMath: A Fine-Grained Mathematical Evaluation Benchmark for Chinese Large Language Models (Yan Liu et al., 2024)
 
 {{<citation>}}
 
 Yan Liu, Renren Jin, Lin Shi, Zheng Yao, Deyi Xiong. (2024)  
 **FineMath: A Fine-Grained Mathematical Evaluation Benchmark for Chinese Large Language Models**
 <br/>
-<button class="copy-to-clipboard" title="FineMath: A Fine-Grained Mathematical Evaluation Benchmark for Chinese Large Language Models" index=21>
+<button class="copy-to-clipboard" title="FineMath: A Fine-Grained Mathematical Evaluation Benchmark for Chinese Large Language Models" index=25>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-21 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-25 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1875,17 +2079,17 @@ To thoroughly assess the <b>mathematical</b> <b>reasoning</b> abilities of <b>La
 {{</citation>}}
 
 
-### (22/39 | 22/311) Contextual Clarity: Generating Sentences with Transformer Models using Context-Reverso Data (Ruslan Musaev, 2024)
+### (26/48 | 26/322) Contextual Clarity: Generating Sentences with Transformer Models using Context-Reverso Data (Ruslan Musaev, 2024)
 
 {{<citation>}}
 
 Ruslan Musaev. (2024)  
 **Contextual Clarity: Generating Sentences with Transformer Models using Context-Reverso Data**
 <br/>
-<button class="copy-to-clipboard" title="Contextual Clarity: Generating Sentences with Transformer Models using Context-Reverso Data" index=22>
+<button class="copy-to-clipboard" title="Contextual Clarity: Generating Sentences with Transformer Models using Context-Reverso Data" index=26>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-22 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-26 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1910,17 +2114,17 @@ In the age of information abundance, the ability to provide users with contextua
 {{</citation>}}
 
 
-### (23/39 | 23/311) Gujarati-English Code-Switching Speech Recognition using ensemble prediction of spoken language (Yash Sharma et al., 2024)
+### (27/48 | 27/322) Gujarati-English Code-Switching Speech Recognition using ensemble prediction of spoken language (Yash Sharma et al., 2024)
 
 {{<citation>}}
 
 Yash Sharma, Basil Abraham, Preethi Jyothi. (2024)  
 **Gujarati-English Code-Switching Speech Recognition using ensemble prediction of spoken language**
 <br/>
-<button class="copy-to-clipboard" title="Gujarati-English Code-Switching Speech Recognition using ensemble prediction of spoken language" index=23>
+<button class="copy-to-clipboard" title="Gujarati-English Code-Switching Speech Recognition using ensemble prediction of spoken language" index=27>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-23 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-27 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1945,17 +2149,17 @@ An important and difficult task in code-switched <b>speech</b> <b>recognition</b
 {{</citation>}}
 
 
-### (24/39 | 24/311) Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM (Sainbayar Sukhbaatar et al., 2024)
+### (28/48 | 28/322) Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM (Sainbayar Sukhbaatar et al., 2024)
 
 {{<citation>}}
 
 Sainbayar Sukhbaatar, Olga Golovneva, Vasu Sharma, Hu Xu, Xi Victoria Lin, Baptiste Rozière, Jacob Kahn, Daniel Li, Wen-tau Yih, Jason Weston, Xian Li. (2024)  
 **Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM**
 <br/>
-<button class="copy-to-clipboard" title="Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM" index=24>
+<button class="copy-to-clipboard" title="Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM" index=28>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-24 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-28 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -1980,17 +2184,17 @@ We investigate efficient methods for training <b>Large</b> <b>Language</b> <b>Mo
 {{</citation>}}
 
 
-### (25/39 | 25/311) Beyond Memorization: The Challenge of Random Memory Access in Language Models (Tongyao Zhu et al., 2024)
+### (29/48 | 29/322) Beyond Memorization: The Challenge of Random Memory Access in Language Models (Tongyao Zhu et al., 2024)
 
 {{<citation>}}
 
 Tongyao Zhu, Qian Liu, Liang Pang, Zhengbao Jiang, Min-Yen Kan, Min Lin. (2024)  
 **Beyond Memorization: The Challenge of Random Memory Access in Language Models**
 <br/>
-<button class="copy-to-clipboard" title="Beyond Memorization: The Challenge of Random Memory Access in Language Models" index=25>
+<button class="copy-to-clipboard" title="Beyond Memorization: The Challenge of Random Memory Access in Language Models" index=29>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-25 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-29 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2015,17 +2219,17 @@ Recent developments in Language Models (LMs) have shown their effectiveness in N
 {{</citation>}}
 
 
-### (26/39 | 26/311) Large, Small or Both: A Novel Data Augmentation Framework Based on Language Models for Debiasing Opinion Summarization (Yanyue Zhang et al., 2024)
+### (30/48 | 30/322) Large, Small or Both: A Novel Data Augmentation Framework Based on Language Models for Debiasing Opinion Summarization (Yanyue Zhang et al., 2024)
 
 {{<citation>}}
 
 Yanyue Zhang, Pengfei Li, Yilong Lai, Deyu Zhou. (2024)  
 **Large, Small or Both: A Novel Data Augmentation Framework Based on Language Models for Debiasing Opinion Summarization**
 <br/>
-<button class="copy-to-clipboard" title="Large, Small or Both: A Novel Data Augmentation Framework Based on Language Models for Debiasing Opinion Summarization" index=26>
+<button class="copy-to-clipboard" title="Large, Small or Both: A Novel Data Augmentation Framework Based on Language Models for Debiasing Opinion Summarization" index=30>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-26 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-30 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2050,17 +2254,17 @@ As more than 70$\%$ of reviews in the existing <b>opinion</b> <b>summary</b> <b>
 {{</citation>}}
 
 
-### (27/39 | 27/311) Truth-Aware Context Selection: Mitigating the Hallucinations of Large Language Models Being Misled by Untruthful Contexts (Tian Yu et al., 2024)
+### (31/48 | 31/322) Truth-Aware Context Selection: Mitigating the Hallucinations of Large Language Models Being Misled by Untruthful Contexts (Tian Yu et al., 2024)
 
 {{<citation>}}
 
 Tian Yu, Shaolei Zhang, Yang Feng. (2024)  
 **Truth-Aware Context Selection: Mitigating the Hallucinations of Large Language Models Being Misled by Untruthful Contexts**
 <br/>
-<button class="copy-to-clipboard" title="Truth-Aware Context Selection: Mitigating the Hallucinations of Large Language Models Being Misled by Untruthful Contexts" index=27>
+<button class="copy-to-clipboard" title="Truth-Aware Context Selection: Mitigating the Hallucinations of Large Language Models Being Misled by Untruthful Contexts" index=31>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-27 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-31 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2085,17 +2289,52 @@ Although <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> have demonstra
 {{</citation>}}
 
 
-### (28/39 | 28/311) Big City Bias: Evaluating the Impact of Metropolitan Size on Computational Job Market Abilities of Language Models (Charlie Campanella et al., 2024)
+### (32/48 | 32/322) Comprehensive Implementation of TextCNN for Enhanced Collaboration between Natural Language Processing and System Recommendation (Xiaonan Xu et al., 2024)
+
+{{<citation>}}
+
+Xiaonan Xu, Zheng Xu, Zhipeng Ling, Zhengyu Jin, ShuQian Du. (2024)  
+**Comprehensive Implementation of TextCNN for Enhanced Collaboration between Natural Language Processing and System Recommendation**
+<br/>
+<button class="copy-to-clipboard" title="Comprehensive Implementation of TextCNN for Enhanced Collaboration between Natural Language Processing and System Recommendation" index=32>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-32 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keyword Score: 40  
+Keywords: Recommendation, Semantic Parsing, Text Classification, Text Generation  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.09718v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.09718v1.pdf" filename="2403.09718v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Natural Language Processing (NLP) is an important branch of artificial intelligence that studies how to enable computers to understand, process, and generate human language. <b>Text</b> <b>classification</b> is a fundamental task in NLP, which aims to classify <b>text</b> <b>into</b> different predefined categories. <b>Text</b> <b>classification</b> is the most basic and classic task in natural language processing, and most of the tasks in natural language processing can be regarded as classification tasks. In recent years, deep learning has achieved great success in many research fields, and today, it has also become a standard technology in the field of NLP, which is widely integrated into <b>text</b> <b>classification</b> tasks. Unlike numbers and images, <b>text</b> <b>processing</b> emphasizes fine-grained processing ability. Traditional <b>text</b> <b>classification</b> methods generally require preprocessing the input model's <b>text</b> <b>data.</b> Additionally, they also need to obtain good sample features through manual annotation and then use classical machine learning algorithms for classification. Therefore, this paper analyzes the application status of deep learning in the three core tasks of NLP (including <b>text</b> <b>representation,</b> word order modeling, and knowledge representation). This content explores the improvement and synergy achieved through natural language processing in the context of <b>text</b> <b>classification,</b> while also taking into account the challenges posed by adversarial techniques in <b>text</b> <b>generation,</b> <b>text</b> <b>classification,</b> and <b>semantic</b> <b>parsing.</b> An empirical study on <b>text</b> <b>classification</b> tasks demonstrates the effectiveness of interactive integration training, particularly in conjunction with TextCNN, highlighting the significance of these advancements in <b>text</b> <b>classification</b> augmentation and enhancement.
+
+{{</citation>}}
+
+
+### (33/48 | 33/322) Big City Bias: Evaluating the Impact of Metropolitan Size on Computational Job Market Abilities of Language Models (Charlie Campanella et al., 2024)
 
 {{<citation>}}
 
 Charlie Campanella, Rob van der Goot. (2024)  
 **Big City Bias: Evaluating the Impact of Metropolitan Size on Computational Job Market Abilities of Language Models**
 <br/>
-<button class="copy-to-clipboard" title="Big City Bias: Evaluating the Impact of Metropolitan Size on Computational Job Market Abilities of Language Models" index=28>
+<button class="copy-to-clipboard" title="Big City Bias: Evaluating the Impact of Metropolitan Size on Computational Job Market Abilities of Language Models" index=33>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-28 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-33 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2120,17 +2359,17 @@ Keywords: Benchmarking, Zero-shot, Large Language Model, Large Language Model
 {{</citation>}}
 
 
-### (29/39 | 29/311) GPT-generated Text Detection: Benchmark Dataset and Tensor-based Detection Method (Zubair Qazi et al., 2024)
+### (34/48 | 34/322) GPT-generated Text Detection: Benchmark Dataset and Tensor-based Detection Method (Zubair Qazi et al., 2024)
 
 {{<citation>}}
 
 Zubair Qazi, William Shiao, Evangelos E. Papalexakis. (2024)  
 **GPT-generated Text Detection: Benchmark Dataset and Tensor-based Detection Method**
 <br/>
-<button class="copy-to-clipboard" title="GPT-generated Text Detection: Benchmark Dataset and Tensor-based Detection Method" index=29>
+<button class="copy-to-clipboard" title="GPT-generated Text Detection: Benchmark Dataset and Tensor-based Detection Method" index=34>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-29 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-34 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2155,17 +2394,17 @@ As natural language models like <b>ChatGPT</b> become increasingly prevalent in 
 {{</citation>}}
 
 
-### (30/39 | 30/311) BAGEL: Bootstrapping Agents by Guiding Exploration with Language (Shikhar Murty et al., 2024)
+### (35/48 | 35/322) BAGEL: Bootstrapping Agents by Guiding Exploration with Language (Shikhar Murty et al., 2024)
 
 {{<citation>}}
 
 Shikhar Murty, Christopher Manning, Peter Shaw, Mandar Joshi, Kenton Lee. (2024)  
 **BAGEL: Bootstrapping Agents by Guiding Exploration with Language**
 <br/>
-<button class="copy-to-clipboard" title="BAGEL: Bootstrapping Agents by Guiding Exploration with Language" index=30>
+<button class="copy-to-clipboard" title="BAGEL: Bootstrapping Agents by Guiding Exploration with Language" index=35>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-30 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-35 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2190,17 +2429,52 @@ Following natural language instructions by executing actions in digital environm
 {{</citation>}}
 
 
-### (31/39 | 31/311) Authorship Style Transfer with Policy Optimization (Shuai Liu et al., 2024)
+### (36/48 | 36/322) Simulating Weighted Automata over Sequences and Trees with Transformers (Michael Rizvi et al., 2024)
+
+{{<citation>}}
+
+Michael Rizvi, Maude Lizaire, Clara Lacroce, Guillaume Rabusseau. (2024)  
+**Simulating Weighted Automata over Sequences and Trees with Transformers**
+<br/>
+<button class="copy-to-clipboard" title="Simulating Weighted Automata over Sequences and Trees with Transformers" index=36>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-36 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CC, cs-CL, cs.CL  
+Keyword Score: 30  
+Keywords: Recurrent Neural Network, Transformer, Reasoning  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.09728v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.09728v1.pdf" filename="2403.09728v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+<b>Transformers</b> are ubiquitous models in the natural language processing (NLP) community and have shown impressive empirical successes in the past few years. However, little is understood about how they reason and the limits of their computational capabilities. These models do not process data sequentially, and yet outperform sequential neural models such as <b>RNNs.</b> Recent work has shown that these models can compactly simulate the sequential <b>reasoning</b> abilities of deterministic finite automata (DFAs). This leads to the following question: can <b>transformers</b> simulate the <b>reasoning</b> of more complex finite state machines? In this work, we show that <b>transformers</b> can simulate weighted finite automata (WFAs), a class of models which subsumes DFAs, as well as weighted tree automata (WTA), a generalization of weighted automata to tree structured inputs. We prove these claims formally and provide upper bounds on the sizes of the <b>transformer</b> models needed as a function of the number of states the target automata. Empirically, we perform synthetic experiments showing that <b>transformers</b> are able to learn these compact solutions via standard gradient-based training.
+
+{{</citation>}}
+
+
+### (37/48 | 37/322) Authorship Style Transfer with Policy Optimization (Shuai Liu et al., 2024)
 
 {{<citation>}}
 
 Shuai Liu, Shantanu Agarwal, Jonathan May. (2024)  
 **Authorship Style Transfer with Policy Optimization**
 <br/>
-<button class="copy-to-clipboard" title="Authorship Style Transfer with Policy Optimization" index=31>
+<button class="copy-to-clipboard" title="Authorship Style Transfer with Policy Optimization" index=37>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-31 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-37 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2225,17 +2499,17 @@ Authorship <b>style</b> <b>transfer</b> <b>aims</b> to rewrite a given text into
 {{</citation>}}
 
 
-### (32/39 | 32/311) The Missing Piece in Model Editing: A Deep Dive into the Hidden Damage Brought By Model Editing (Jianchen Wang et al., 2024)
+### (38/48 | 38/322) The Missing Piece in Model Editing: A Deep Dive into the Hidden Damage Brought By Model Editing (Jianchen Wang et al., 2024)
 
 {{<citation>}}
 
 Jianchen Wang, Zhouhong Gu, Zhuozhi Xiong, Hongwei Feng, Yanghua Xiao. (2024)  
 **The Missing Piece in Model Editing: A Deep Dive into the Hidden Damage Brought By Model Editing**
 <br/>
-<button class="copy-to-clipboard" title="The Missing Piece in Model Editing: A Deep Dive into the Hidden Damage Brought By Model Editing" index=32>
+<button class="copy-to-clipboard" title="The Missing Piece in Model Editing: A Deep Dive into the Hidden Damage Brought By Model Editing" index=38>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-32 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-38 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2260,17 +2534,17 @@ Keywords: Sora, Large Language Model, Large Language Model
 {{</citation>}}
 
 
-### (33/39 | 33/311) SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression (Xin Wang et al., 2024)
+### (39/48 | 39/322) SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression (Xin Wang et al., 2024)
 
 {{<citation>}}
 
 Xin Wang, Yu Zheng, Zhongwei Wan, Mi Zhang. (2024)  
 **SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression**
 <br/>
-<button class="copy-to-clipboard" title="SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression" index=33>
+<button class="copy-to-clipboard" title="SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression" index=39>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-33 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-39 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2283,8 +2557,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keyword Score: 30  
 Keywords: Model Compression, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07378v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07378v1.pdf" filename="2403.07378v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07378v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07378v2.pdf" filename="2403.07378v2.pdf">Download PDF</button>
 
 ---
 
@@ -2295,17 +2569,17 @@ The advancements in <b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> hav
 {{</citation>}}
 
 
-### (34/39 | 34/311) KEBench: A Benchmark on Knowledge Editing for Large Vision-Language Models (Han Huang et al., 2024)
+### (40/48 | 40/322) KEBench: A Benchmark on Knowledge Editing for Large Vision-Language Models (Han Huang et al., 2024)
 
 {{<citation>}}
 
 Han Huang, Haitian Zhong, Qiang Liu, Shu Wu, Liang Wang, Tieniu Tan. (2024)  
 **KEBench: A Benchmark on Knowledge Editing for Large Vision-Language Models**
 <br/>
-<button class="copy-to-clipboard" title="KEBench: A Benchmark on Knowledge Editing for Large Vision-Language Models" index=34>
+<button class="copy-to-clipboard" title="KEBench: A Benchmark on Knowledge Editing for Large Vision-Language Models" index=40>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-34 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-40 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2330,17 +2604,17 @@ Currently, little research has been done on <b>knowledge</b> <b>editing</b> for 
 {{</citation>}}
 
 
-### (35/39 | 35/311) Debatrix: Multi-dimensinal Debate Judge with Iterative Chronological Analysis Based on LLM (Jingcong Liang et al., 2024)
+### (41/48 | 41/322) Debatrix: Multi-dimensinal Debate Judge with Iterative Chronological Analysis Based on LLM (Jingcong Liang et al., 2024)
 
 {{<citation>}}
 
 Jingcong Liang, Rong Ye, Meng Han, Ruofei Lai, Xinyu Zhang, Xuanjing Huang, Zhongyu Wei. (2024)  
 **Debatrix: Multi-dimensinal Debate Judge with Iterative Chronological Analysis Based on LLM**
 <br/>
-<button class="copy-to-clipboard" title="Debatrix: Multi-dimensinal Debate Judge with Iterative Chronological Analysis Based on LLM" index=35>
+<button class="copy-to-clipboard" title="Debatrix: Multi-dimensinal Debate Judge with Iterative Chronological Analysis Based on LLM" index=41>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-35 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-41 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2365,17 +2639,52 @@ How can we construct an automated debate judge to evaluate an extensive, vibrant
 {{</citation>}}
 
 
-### (36/39 | 36/311) Generating Clarification Questions for Disambiguating Contracts (Anmol Singhal et al., 2024)
+### (42/48 | 42/322) ClaimVer: Explainable Claim-Level Verification and Evidence Attribution of Text Through Knowledge Graphs (Preetam Prabhu Srikar Dammu et al., 2024)
+
+{{<citation>}}
+
+Preetam Prabhu Srikar Dammu, Himanshu Naidu, Mouly Dewan, YoungMin Kim, Tanya Roosta, Aman Chadha, Chirag Shah. (2024)  
+**ClaimVer: Explainable Claim-Level Verification and Evidence Attribution of Text Through Knowledge Graphs**
+<br/>
+<button class="copy-to-clipboard" title="ClaimVer: Explainable Claim-Level Verification and Evidence Attribution of Text Through Knowledge Graphs" index=42>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-42 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: cs-CL, cs-CY, cs-LG, cs.CL  
+Keyword Score: 23  
+Keywords: Graph, Knowledge Graph, Knowledge Graph, Fact Verification  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.09724v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.09724v1.pdf" filename="2403.09724v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+In the midst of widespread misinformation and disinformation through social media and the proliferation of AI-generated texts, it has become increasingly difficult for people to validate and trust information they encounter. Many <b>fact-checking</b> <b>approaches</b> and tools have been developed, but they often lack appropriate explainability or granularity to be useful in various contexts. A text validation method that is easy to use, accessible, and can perform fine-grained evidence attribution has become crucial. More importantly, building user trust in such a method requires presenting the rationale behind each prediction, as research shows this significantly influences people's belief in automated systems. It is also paramount to localize and bring users' attention to the specific problematic content, instead of providing simple blanket labels. In this paper, we present $\textit{ClaimVer, a human-centric framework}$ tailored to meet users' informational and verification needs by generating rich annotations and thereby reducing cognitive load. Designed to deliver comprehensive evaluations of texts, it highlights each claim, verifies it against a trusted <b>knowledge</b> <b>graph</b> <b>(KG),</b> presents the evidence, and provides succinct, clear explanations for each claim prediction. Finally, our framework introduces an attribution score, enhancing applicability across a wide range of downstream tasks.
+
+{{</citation>}}
+
+
+### (43/48 | 43/322) Generating Clarification Questions for Disambiguating Contracts (Anmol Singhal et al., 2024)
 
 {{<citation>}}
 
 Anmol Singhal, Chirag Jain, Preethu Rose Anish, Arkajyoti Chakraborty, Smita Ghaisas. (2024)  
 **Generating Clarification Questions for Disambiguating Contracts**
 <br/>
-<button class="copy-to-clipboard" title="Generating Clarification Questions for Disambiguating Contracts" index=36>
+<button class="copy-to-clipboard" title="Generating Clarification Questions for Disambiguating Contracts" index=43>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-36 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-43 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2400,17 +2709,17 @@ Enterprises frequently enter into commercial contracts that can serve as vital s
 {{</citation>}}
 
 
-### (37/39 | 37/311) Pix2Pix-OnTheFly: Leveraging LLMs for Instruction-Guided Image Editing (Rodrigo Santos et al., 2024)
+### (44/48 | 44/322) Pix2Pix-OnTheFly: Leveraging LLMs for Instruction-Guided Image Editing (Rodrigo Santos et al., 2024)
 
 {{<citation>}}
 
 Rodrigo Santos, João Silva, António Branco. (2024)  
 **Pix2Pix-OnTheFly: Leveraging LLMs for Instruction-Guided Image Editing**
 <br/>
-<button class="copy-to-clipboard" title="Pix2Pix-OnTheFly: Leveraging LLMs for Instruction-Guided Image Editing" index=37>
+<button class="copy-to-clipboard" title="Pix2Pix-OnTheFly: Leveraging LLMs for Instruction-Guided Image Editing" index=44>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-37 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-44 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2435,17 +2744,17 @@ The combination of language processing and image processing keeps attracting inc
 {{</citation>}}
 
 
-### (38/39 | 38/311) MAMMOTH: Massively Multilingual Modular Open Translation @ Helsinki (Timothee Mickus et al., 2024)
+### (45/48 | 45/322) MAMMOTH: Massively Multilingual Modular Open Translation @ Helsinki (Timothee Mickus et al., 2024)
 
 {{<citation>}}
 
 Timothee Mickus, Stig-Arne Grönroos, Joseph Attieh, Michele Boggia, Ona De Gibert, Shaoxiong Ji, Niki Andreas Lopi, Alessandro Raganato, Raúl Vázquez, Jörg Tiedemann. (2024)  
 **MAMMOTH: Massively Multilingual Modular Open Translation @ Helsinki**
 <br/>
-<button class="copy-to-clipboard" title="MAMMOTH: Massively Multilingual Modular Open Translation @ Helsinki" index=38>
+<button class="copy-to-clipboard" title="MAMMOTH: Massively Multilingual Modular Open Translation @ Helsinki" index=45>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-38 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-45 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2470,17 +2779,87 @@ NLP in the age of monolithic <b>large</b> <b>language</b> <b>models</b> is appro
 {{</citation>}}
 
 
-### (39/39 | 39/311) A Survey of Explainable Knowledge Tracing (Yanhong Bai et al., 2024)
+### (46/48 | 46/322) Prediction of readmission of patients by extracting biomedical concepts from clinical texts (Rasoul Samani et al., 2024)
+
+{{<citation>}}
+
+Rasoul Samani, Fahime Shahrokh, Mohammad Dehghani. (2024)  
+**Prediction of readmission of patients by extracting biomedical concepts from clinical texts**
+<br/>
+<button class="copy-to-clipboard" title="Prediction of readmission of patients by extracting biomedical concepts from clinical texts" index=46>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-46 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keyword Score: 10  
+Keywords: Text Mining  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.09722v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.09722v1.pdf" filename="2403.09722v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Today, the existence of a vast amount of electronic health data has created potential capacities for conducting studies aiming to improve the medical services provided to patients and reduce the costs of the healthcare system. One of the topics that has been receiving attention in the field of medicine in recent years is the identification of patients who are likely to be re-hospitalized shortly after being discharged from the hospital. This identification can help doctors choose appropriate treatment methods, thereby reducing the rate of patient re-hospitalization and resulting in effective treatment cost reduction. In this study, the prediction of patient re-hospitalization using <b>text</b> <b>mining</b> approaches and the processing of discharge report <b>texts</b> <b>in</b> the patient's electronic file has been discussed. To this end, the performance of various machine learning models has been evaluated using two approaches: bag of word and bag of concept, in the process of predicting patient readmission. Comparing the efficiency of these approaches has shown the superiority of the random forest model and the bag of concept approach over other machine learning models and approaches. This research has achieved the highest score in predicting the probability of patient re-hospitalization, with a recall score of 68.9%, compared to similar works that have utilized machine learning models in this field.
+
+{{</citation>}}
+
+
+### (47/48 | 47/322) Mevaker: Conclusion Extraction and Allocation Resources for the Hebrew Language (Vitaly Shalumov et al., 2024)
+
+{{<citation>}}
+
+Vitaly Shalumov, Harel Haskey, Yuval Solaz. (2024)  
+**Mevaker: Conclusion Extraction and Allocation Resources for the Hebrew Language**
+<br/>
+<button class="copy-to-clipboard" title="Mevaker: Conclusion Extraction and Allocation Resources for the Hebrew Language" index=47>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-47 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.CL  
+Categories: cs-AI, cs-CL, cs.CL  
+Keyword Score: 10  
+Keywords: Summarization  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.09719v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.09719v1.pdf" filename="2403.09719v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+In this paper, we introduce <b>summarization</b> MevakerSumm and conclusion extraction MevakerConc datasets for the Hebrew language based on the State Comptroller and Ombudsman of Israel reports, along with two auxiliary datasets. We accompany these datasets with models for conclusion extraction (HeConE, HeConEspc) and conclusion allocation (HeCross). All of the code, datasets, and model checkpoints used in this work are publicly available.
+
+{{</citation>}}
+
+
+### (48/48 | 48/322) A Survey of Explainable Knowledge Tracing (Yanhong Bai et al., 2024)
 
 {{<citation>}}
 
 Yanhong Bai, Jiabao Zhao, Tingjiang Wei, Qing Cai, Liang He. (2024)  
 **A Survey of Explainable Knowledge Tracing**
 <br/>
-<button class="copy-to-clipboard" title="A Survey of Explainable Knowledge Tracing" index=39>
+<button class="copy-to-clipboard" title="A Survey of Explainable Knowledge Tracing" index=48>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-39 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-48 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2509,17 +2888,17 @@ With the long term accumulation of high quality educational data, artificial int
 
 
 
-### (1/88 | 40/311) In-context learning enables multimodal large language models to classify cancer pathology images (Dyke Ferber et al., 2024)
+### (1/88 | 49/322) In-context learning enables multimodal large language models to classify cancer pathology images (Dyke Ferber et al., 2024)
 
 {{<citation>}}
 
 Dyke Ferber, Georg Wölflein, Isabella C. Wiest, Marta Ligero, Srividhya Sainath, Narmin Ghaffari Laleh, Omar S. M. El Nahhas, Gustav Müller-Franzes, Dirk Jäger, Daniel Truhn, Jakob Nikolas Kather. (2024)  
 **In-context learning enables multimodal large language models to classify cancer pathology images**
 <br/>
-<button class="copy-to-clipboard" title="In-context learning enables multimodal large language models to classify cancer pathology images" index=40>
+<button class="copy-to-clipboard" title="In-context learning enables multimodal large language models to classify cancer pathology images" index=49>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-40 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-49 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2544,17 +2923,17 @@ Medical image classification requires labeled, task-specific datasets which are 
 {{</citation>}}
 
 
-### (2/88 | 41/311) A Survey of Vision Transformers in Autonomous Driving: Current Trends and Future Directions (Quoc-Vinh Lai-Dang, 2024)
+### (2/88 | 50/322) A Survey of Vision Transformers in Autonomous Driving: Current Trends and Future Directions (Quoc-Vinh Lai-Dang, 2024)
 
 {{<citation>}}
 
 Quoc-Vinh Lai-Dang. (2024)  
 **A Survey of Vision Transformers in Autonomous Driving: Current Trends and Future Directions**
 <br/>
-<button class="copy-to-clipboard" title="A Survey of Vision Transformers in Autonomous Driving: Current Trends and Future Directions" index=41>
+<button class="copy-to-clipboard" title="A Survey of Vision Transformers in Autonomous Driving: Current Trends and Future Directions" index=50>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-41 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-50 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2579,17 +2958,17 @@ This survey explores the adaptation of visual <b>transformer</b> models in Auton
 {{</citation>}}
 
 
-### (3/88 | 42/311) MoAI: Mixture of All Intelligence for Large Language and Vision Models (Byung-Kwan Lee et al., 2024)
+### (3/88 | 51/322) MoAI: Mixture of All Intelligence for Large Language and Vision Models (Byung-Kwan Lee et al., 2024)
 
 {{<citation>}}
 
 Byung-Kwan Lee, Beomchan Park, Chae Won Kim, Yong Man Ro. (2024)  
 **MoAI: Mixture of All Intelligence for Large Language and Vision Models**
 <br/>
-<button class="copy-to-clipboard" title="MoAI: Mixture of All Intelligence for Large Language and Vision Models" index=42>
+<button class="copy-to-clipboard" title="MoAI: Mixture of All Intelligence for Large Language and Vision Models" index=51>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-42 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-51 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2614,17 +2993,17 @@ The rise of <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> and <b>inst
 {{</citation>}}
 
 
-### (4/88 | 43/311) NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning (Bingqian Lin et al., 2024)
+### (4/88 | 52/322) NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning (Bingqian Lin et al., 2024)
 
 {{<citation>}}
 
 Bingqian Lin, Yunshuang Nie, Ziming Wei, Jiaqi Chen, Shikui Ma, Jianhua Han, Hang Xu, Xiaojun Chang, Xiaodan Liang. (2024)  
 **NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning**
 <br/>
-<button class="copy-to-clipboard" title="NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning" index=43>
+<button class="copy-to-clipboard" title="NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning" index=52>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-43 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-52 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2649,17 +3028,17 @@ Keywords: Benchmarking, Fine-tuning, GPT-4, Reasoning, Large Language Model, Lar
 {{</citation>}}
 
 
-### (5/88 | 44/311) PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution (Honghao Chen et al., 2024)
+### (5/88 | 53/322) PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution (Honghao Chen et al., 2024)
 
 {{<citation>}}
 
 Honghao Chen, Xiangxiang Chu, Yongjian Ren, Xin Zhao, Kaiqi Huang. (2024)  
 **PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution**
 <br/>
-<button class="copy-to-clipboard" title="PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution" index=44>
+<button class="copy-to-clipboard" title="PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution" index=53>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-44 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-53 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2684,17 +3063,17 @@ Recently, some large kernel convnets strike back with appealing performance and 
 {{</citation>}}
 
 
-### (6/88 | 45/311) Multi-modal Auto-regressive Modeling via Visual Words (Tianshuo Peng et al., 2024)
+### (6/88 | 54/322) Multi-modal Auto-regressive Modeling via Visual Words (Tianshuo Peng et al., 2024)
 
 {{<citation>}}
 
 Tianshuo Peng, Zuchao Li, Lefei Zhang, Hai Zhao, Ping Wang, Bo Du. (2024)  
 **Multi-modal Auto-regressive Modeling via Visual Words**
 <br/>
-<button class="copy-to-clipboard" title="Multi-modal Auto-regressive Modeling via Visual Words" index=45>
+<button class="copy-to-clipboard" title="Multi-modal Auto-regressive Modeling via Visual Words" index=54>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-45 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-54 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2719,17 +3098,17 @@ Keywords: Benchmarking, Multi-modal, Supervised Learning, Reasoning, Visual Ques
 {{</citation>}}
 
 
-### (7/88 | 46/311) Distilling the Knowledge in Data Pruning (Emanuel Ben-Baruch et al., 2024)
+### (7/88 | 55/322) Distilling the Knowledge in Data Pruning (Emanuel Ben-Baruch et al., 2024)
 
 {{<citation>}}
 
 Emanuel Ben-Baruch, Adam Botach, Igor Kviatkovsky, Manoj Aggarwal, Gérard Medioni. (2024)  
 **Distilling the Knowledge in Data Pruning**
 <br/>
-<button class="copy-to-clipboard" title="Distilling the Knowledge in Data Pruning" index=46>
+<button class="copy-to-clipboard" title="Distilling the Knowledge in Data Pruning" index=55>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-46 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-55 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2754,17 +3133,17 @@ With the increasing size of datasets used for training neural networks, data <b>
 {{</citation>}}
 
 
-### (8/88 | 47/311) Towards Zero-shot Human-Object Interaction Detection via Vision-Language Integration (Weiying Xue et al., 2024)
+### (8/88 | 56/322) Towards Zero-shot Human-Object Interaction Detection via Vision-Language Integration (Weiying Xue et al., 2024)
 
 {{<citation>}}
 
 Weiying Xue, Qi Liu, Qiwei Xiong, Yuxiao Wang, Zhenao Wei, Xiaofen Xing, Xiangmin Xu. (2024)  
 **Towards Zero-shot Human-Object Interaction Detection via Vision-Language Integration**
 <br/>
-<button class="copy-to-clipboard" title="Towards Zero-shot Human-Object Interaction Detection via Vision-Language Integration" index=47>
+<button class="copy-to-clipboard" title="Towards Zero-shot Human-Object Interaction Detection via Vision-Language Integration" index=56>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-47 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-56 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2789,17 +3168,17 @@ Human-object interaction (HOI) detection aims to locate human-object pairs and i
 {{</citation>}}
 
 
-### (9/88 | 48/311) Beyond Text: Frozen Large Language Models in Visual Signal Comprehension (Lei Zhu et al., 2024)
+### (9/88 | 57/322) Beyond Text: Frozen Large Language Models in Visual Signal Comprehension (Lei Zhu et al., 2024)
 
 {{<citation>}}
 
 Lei Zhu, Fangyun Wei, Yanye Lu. (2024)  
 **Beyond Text: Frozen Large Language Models in Visual Signal Comprehension**
 <br/>
-<button class="copy-to-clipboard" title="Beyond Text: Frozen Large Language Models in Visual Signal Comprehension" index=48>
+<button class="copy-to-clipboard" title="Beyond Text: Frozen Large Language Models in Visual Signal Comprehension" index=57>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-48 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-57 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2824,17 +3203,17 @@ In this work, we investigate the potential of a <b>large</b> <b>language</b> <b>
 {{</citation>}}
 
 
-### (10/88 | 49/311) Genuine Knowledge from Practice: Diffusion Test-Time Adaptation for Video Adverse Weather Removal (Yijun Yang et al., 2024)
+### (10/88 | 58/322) Genuine Knowledge from Practice: Diffusion Test-Time Adaptation for Video Adverse Weather Removal (Yijun Yang et al., 2024)
 
 {{<citation>}}
 
 Yijun Yang, Hongtao Wu, Angelica I. Aviles-Rivero, Yulun Zhang, Jing Qin, Lei Zhu. (2024)  
 **Genuine Knowledge from Practice: Diffusion Test-Time Adaptation for Video Adverse Weather Removal**
 <br/>
-<button class="copy-to-clipboard" title="Genuine Knowledge from Practice: Diffusion Test-Time Adaptation for Video Adverse Weather Removal" index=49>
+<button class="copy-to-clipboard" title="Genuine Knowledge from Practice: Diffusion Test-Time Adaptation for Video Adverse Weather Removal" index=58>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-49 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-58 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2859,17 +3238,17 @@ Real-world <b>vision</b> <b>tasks</b> frequently suffer from the appearance of u
 {{</citation>}}
 
 
-### (11/88 | 50/311) Gabor-guided transformer for single image deraining (Sijin He et al., 2024)
+### (11/88 | 59/322) Gabor-guided transformer for single image deraining (Sijin He et al., 2024)
 
 {{<citation>}}
 
 Sijin He, Guangfeng Lin. (2024)  
 **Gabor-guided transformer for single image deraining**
 <br/>
-<button class="copy-to-clipboard" title="Gabor-guided transformer for single image deraining" index=50>
+<button class="copy-to-clipboard" title="Gabor-guided transformer for single image deraining" index=59>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-50 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-59 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2894,17 +3273,17 @@ Image deraining have have gained a great deal of attention in order to address t
 {{</citation>}}
 
 
-### (12/88 | 51/311) Optimizing Negative Prompts for Enhanced Aesthetics and Fidelity in Text-To-Image Generation (Michael Ogezi et al., 2024)
+### (12/88 | 60/322) Optimizing Negative Prompts for Enhanced Aesthetics and Fidelity in Text-To-Image Generation (Michael Ogezi et al., 2024)
 
 {{<citation>}}
 
 Michael Ogezi, Ning Shi. (2024)  
 **Optimizing Negative Prompts for Enhanced Aesthetics and Fidelity in Text-To-Image Generation**
 <br/>
-<button class="copy-to-clipboard" title="Optimizing Negative Prompts for Enhanced Aesthetics and Fidelity in Text-To-Image Generation" index=51>
+<button class="copy-to-clipboard" title="Optimizing Negative Prompts for Enhanced Aesthetics and Fidelity in Text-To-Image Generation" index=60>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-51 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-60 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2929,17 +3308,17 @@ In <b>text-to-image</b> generation, using negative <b>prompts,</b> which describ
 {{</citation>}}
 
 
-### (13/88 | 52/311) ViT-CoMer: Vision Transformer with Convolutional Multi-scale Feature Interaction for Dense Predictions (Chunlong Xia et al., 2024)
+### (13/88 | 61/322) ViT-CoMer: Vision Transformer with Convolutional Multi-scale Feature Interaction for Dense Predictions (Chunlong Xia et al., 2024)
 
 {{<citation>}}
 
 Chunlong Xia, Xinliang Wang, Feng Lv, Xin Hao, Yifeng Shi. (2024)  
 **ViT-CoMer: Vision Transformer with Convolutional Multi-scale Feature Interaction for Dense Predictions**
 <br/>
-<button class="copy-to-clipboard" title="ViT-CoMer: Vision Transformer with Convolutional Multi-scale Feature Interaction for Dense Predictions" index=52>
+<button class="copy-to-clipboard" title="ViT-CoMer: Vision Transformer with Convolutional Multi-scale Feature Interaction for Dense Predictions" index=61>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-52 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-61 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2952,8 +3331,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 50  
 Keywords: Vision Transformer, Convolution, Convolutional Neural Network, Transformer, Vision Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07392v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07392v1.pdf" filename="2403.07392v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07392v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07392v2.pdf" filename="2403.07392v2.pdf">Download PDF</button>
 
 ---
 
@@ -2964,17 +3343,17 @@ Although <b>Vision</b> <b>Transformer</b> (ViT) has achieved significant success
 {{</citation>}}
 
 
-### (14/88 | 53/311) Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution and Self-attention (Jinhong Wang et al., 2024)
+### (14/88 | 62/322) Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution and Self-attention (Jinhong Wang et al., 2024)
 
 {{<citation>}}
 
 Jinhong Wang, Jintai Chen, Danny Chen, Jian Wu. (2024)  
 **Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution and Self-attention**
 <br/>
-<button class="copy-to-clipboard" title="Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution and Self-attention" index=53>
+<button class="copy-to-clipboard" title="Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution and Self-attention" index=62>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-53 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-62 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -2999,17 +3378,17 @@ In clinical practice, medical image segmentation provides useful information on 
 {{</citation>}}
 
 
-### (15/88 | 54/311) MENTOR: Multilingual tExt detectioN TOward leaRning by analogy (Hsin-Ju Lin et al., 2024)
+### (15/88 | 63/322) MENTOR: Multilingual tExt detectioN TOward leaRning by analogy (Hsin-Ju Lin et al., 2024)
 
 {{<citation>}}
 
 Hsin-Ju Lin, Tsu-Chun Chung, Ching-Chun Hsiao, Pin-Yu Chen, Wei-Chen Chiu, Ching-Chun Huang. (2024)  
 **MENTOR: Multilingual tExt detectioN TOward leaRning by analogy**
 <br/>
-<button class="copy-to-clipboard" title="MENTOR: Multilingual tExt detectioN TOward leaRning by analogy" index=54>
+<button class="copy-to-clipboard" title="MENTOR: Multilingual tExt detectioN TOward leaRning by analogy" index=63>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-54 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-63 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3034,17 +3413,17 @@ Text detection is frequently used in vision-based mobile robots when they need t
 {{</citation>}}
 
 
-### (16/88 | 55/311) CuVLER: Enhanced Unsupervised Object Discoveries through Exhaustive Self-Supervised Transformers (Shahaf Arica et al., 2024)
+### (16/88 | 64/322) CuVLER: Enhanced Unsupervised Object Discoveries through Exhaustive Self-Supervised Transformers (Shahaf Arica et al., 2024)
 
 {{<citation>}}
 
 Shahaf Arica, Or Rubin, Sapir Gershov, Shlomi Laufer. (2024)  
 **CuVLER: Enhanced Unsupervised Object Discoveries through Exhaustive Self-Supervised Transformers**
 <br/>
-<button class="copy-to-clipboard" title="CuVLER: Enhanced Unsupervised Object Discoveries through Exhaustive Self-Supervised Transformers" index=55>
+<button class="copy-to-clipboard" title="CuVLER: Enhanced Unsupervised Object Discoveries through Exhaustive Self-Supervised Transformers" index=64>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-55 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-64 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3069,17 +3448,17 @@ In this paper, we introduce VoteCut, an innovative method for <b>unsupervised</b
 {{</citation>}}
 
 
-### (17/88 | 56/311) AesopAgent: Agent-driven Evolutionary System on Story-to-Video Production (Jiuniu Wang et al., 2024)
+### (17/88 | 65/322) AesopAgent: Agent-driven Evolutionary System on Story-to-Video Production (Jiuniu Wang et al., 2024)
 
 {{<citation>}}
 
 Jiuniu Wang, Zehua Du, Yuyuan Zhao, Bo Yuan, Kexiang Wang, Jian Liang, Yaxi Zhao, Yihen Lu, Gengliang Li, Junlong Gao, Xin Tu, Zhenyu Guo. (2024)  
 **AesopAgent: Agent-driven Evolutionary System on Story-to-Video Production**
 <br/>
-<button class="copy-to-clipboard" title="AesopAgent: Agent-driven Evolutionary System on Story-to-Video Production" index=56>
+<button class="copy-to-clipboard" title="AesopAgent: Agent-driven Evolutionary System on Story-to-Video Production" index=65>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-56 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-65 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3104,17 +3483,17 @@ The Agent and AIGC (Artificial Intelligence Generated Content) technologies have
 {{</citation>}}
 
 
-### (18/88 | 57/311) Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers (Subhadeep Koley et al., 2024)
+### (18/88 | 66/322) Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers (Subhadeep Koley et al., 2024)
 
 {{<citation>}}
 
 Subhadeep Koley, Ayan Kumar Bhunia, Aneeshan Sain, Pinaki Nath Chowdhury, Tao Xiang, Yi-Zhe Song. (2024)  
 **Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers**
 <br/>
-<button class="copy-to-clipboard" title="Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers" index=57>
+<button class="copy-to-clipboard" title="Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers" index=66>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-57 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-66 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3139,17 +3518,17 @@ This paper, for the first time, explores <b>text-to-image</b> <b>diffusion</b> <
 {{</citation>}}
 
 
-### (19/88 | 58/311) LG-Traj: LLM Guided Pedestrian Trajectory Prediction (Pranav Singh Chib et al., 2024)
+### (19/88 | 67/322) LG-Traj: LLM Guided Pedestrian Trajectory Prediction (Pranav Singh Chib et al., 2024)
 
 {{<citation>}}
 
 Pranav Singh Chib, Pravendra Singh. (2024)  
 **LG-Traj: LLM Guided Pedestrian Trajectory Prediction**
 <br/>
-<button class="copy-to-clipboard" title="LG-Traj: LLM Guided Pedestrian Trajectory Prediction" index=58>
+<button class="copy-to-clipboard" title="LG-Traj: LLM Guided Pedestrian Trajectory Prediction" index=67>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-58 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-67 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3174,17 +3553,17 @@ Accurate pedestrian trajectory prediction is crucial for various applications, a
 {{</citation>}}
 
 
-### (20/88 | 59/311) TaskCLIP: Extend Large Vision-Language Model for Task Oriented Object Detection (Hanning Chen et al., 2024)
+### (20/88 | 68/322) TaskCLIP: Extend Large Vision-Language Model for Task Oriented Object Detection (Hanning Chen et al., 2024)
 
 {{<citation>}}
 
 Hanning Chen, Wenjun Huang, Yang Ni, Sanggeon Yun, Fei Wen, Hugo Latapie, Mohsen Imani. (2024)  
 **TaskCLIP: Extend Large Vision-Language Model for Task Oriented Object Detection**
 <br/>
-<button class="copy-to-clipboard" title="TaskCLIP: Extend Large Vision-Language Model for Task Oriented Object Detection" index=59>
+<button class="copy-to-clipboard" title="TaskCLIP: Extend Large Vision-Language Model for Task Oriented Object Detection" index=68>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-59 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-68 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3209,17 +3588,17 @@ Task-oriented <b>object</b> <b>detection</b> aims to find <b>objects</b> <b>suit
 {{</citation>}}
 
 
-### (21/88 | 60/311) Real-time Surgical Instrument Segmentation in Video Using Point Tracking and Segment Anything (Zijian Wu et al., 2024)
+### (21/88 | 69/322) Real-time Surgical Instrument Segmentation in Video Using Point Tracking and Segment Anything (Zijian Wu et al., 2024)
 
 {{<citation>}}
 
 Zijian Wu, Adam Schmidt, Peter Kazanzides, Septimiu E. Salcudean. (2024)  
 **Real-time Surgical Instrument Segmentation in Video Using Point Tracking and Segment Anything**
 <br/>
-<button class="copy-to-clipboard" title="Real-time Surgical Instrument Segmentation in Video Using Point Tracking and Segment Anything" index=60>
+<button class="copy-to-clipboard" title="Real-time Surgical Instrument Segmentation in Video Using Point Tracking and Segment Anything" index=69>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-60 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-69 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3244,17 +3623,17 @@ The Segment Anything Model (SAM) is a powerful vision <b>foundation</b> <b>model
 {{</citation>}}
 
 
-### (22/88 | 61/311) Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation (Shihao Zhao et al., 2024)
+### (22/88 | 70/322) Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation (Shihao Zhao et al., 2024)
 
 {{<citation>}}
 
 Shihao Zhao, Shaozhe Hao, Bojia Zi, Huaizhe Xu, Kwan-Yee K. Wong. (2024)  
 **Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation**
 <br/>
-<button class="copy-to-clipboard" title="Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation" index=61>
+<button class="copy-to-clipboard" title="Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation" index=70>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-61 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-70 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3279,17 +3658,17 @@ Keywords: Diffusion Model, Text2image, Pre-trained Language Model, Prompt
 {{</citation>}}
 
 
-### (23/88 | 62/311) MoPE-CLIP: Structured Pruning for Efficient Vision-Language Models with Module-wise Pruning Error Metric (Haokun Lin et al., 2024)
+### (23/88 | 71/322) MoPE-CLIP: Structured Pruning for Efficient Vision-Language Models with Module-wise Pruning Error Metric (Haokun Lin et al., 2024)
 
 {{<citation>}}
 
 Haokun Lin, Haoli Bai, Zhili Liu, Lu Hou, Muyi Sun, Linqi Song, Ying Wei, Zhenan Sun. (2024)  
 **MoPE-CLIP: Structured Pruning for Efficient Vision-Language Models with Module-wise Pruning Error Metric**
 <br/>
-<button class="copy-to-clipboard" title="MoPE-CLIP: Structured Pruning for Efficient Vision-Language Models with Module-wise Pruning Error Metric" index=62>
+<button class="copy-to-clipboard" title="MoPE-CLIP: Structured Pruning for Efficient Vision-Language Models with Module-wise Pruning Error Metric" index=71>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-62 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-71 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3314,17 +3693,17 @@ Keywords: Fine-tuning, Pruning, Zero-shot, Vision-and-Language
 {{</citation>}}
 
 
-### (24/88 | 63/311) Synth$^2$: Boosting Visual-Language Models with Synthetic Captions and Image Embeddings (Sahand Sharifzadeh et al., 2024)
+### (24/88 | 72/322) Synth$^2$: Boosting Visual-Language Models with Synthetic Captions and Image Embeddings (Sahand Sharifzadeh et al., 2024)
 
 {{<citation>}}
 
 Sahand Sharifzadeh, Christos Kaplanis, Shreya Pathak, Dharshan Kumaran, Anastasija Ilic, Jovana Mitrovic, Charles Blundell, Andrea Banino. (2024)  
 **Synth$^2$: Boosting Visual-Language Models with Synthetic Captions and Image Embeddings**
 <br/>
-<button class="copy-to-clipboard" title="Synth$^2$: Boosting Visual-Language Models with Synthetic Captions and Image Embeddings" index=63>
+<button class="copy-to-clipboard" title="Synth$^2$: Boosting Visual-Language Models with Synthetic Captions and Image Embeddings" index=72>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-63 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-72 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3349,17 +3728,17 @@ The creation of high-quality human-labeled image-caption datasets presents a sig
 {{</citation>}}
 
 
-### (25/88 | 64/311) Decomposing Disease Descriptions for Enhanced Pathology Detection: A Multi-Aspect Vision-Language Matching Framework (Minh Hieu Phan et al., 2024)
+### (25/88 | 73/322) Decomposing Disease Descriptions for Enhanced Pathology Detection: A Multi-Aspect Vision-Language Matching Framework (Minh Hieu Phan et al., 2024)
 
 {{<citation>}}
 
 Minh Hieu Phan, Yutong Xie, Yuankai Qi, Lingqiao Liu, Liyang Liu, Bowen Zhang, Zhibin Liao, Qi Wu, Minh-Son To, Johan W. Verjans. (2024)  
 **Decomposing Disease Descriptions for Enhanced Pathology Detection: A Multi-Aspect Vision-Language Matching Framework**
 <br/>
-<button class="copy-to-clipboard" title="Decomposing Disease Descriptions for Enhanced Pathology Detection: A Multi-Aspect Vision-Language Matching Framework" index=64>
+<button class="copy-to-clipboard" title="Decomposing Disease Descriptions for Enhanced Pathology Detection: A Multi-Aspect Vision-Language Matching Framework" index=73>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-64 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-73 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3384,17 +3763,17 @@ Medical vision language pre-training (VLP) has emerged as a frontier of research
 {{</citation>}}
 
 
-### (26/88 | 65/311) Block-wise LoRA: Revisiting Fine-grained LoRA for Effective Personalization and Stylization in Text-to-Image Generation (Likun Li et al., 2024)
+### (26/88 | 74/322) Block-wise LoRA: Revisiting Fine-grained LoRA for Effective Personalization and Stylization in Text-to-Image Generation (Likun Li et al., 2024)
 
 {{<citation>}}
 
 Likun Li, Haoqi Zeng, Changpeng Yang, Haozhe Jia, Di Xu. (2024)  
 **Block-wise LoRA: Revisiting Fine-grained LoRA for Effective Personalization and Stylization in Text-to-Image Generation**
 <br/>
-<button class="copy-to-clipboard" title="Block-wise LoRA: Revisiting Fine-grained LoRA for Effective Personalization and Stylization in Text-to-Image Generation" index=65>
+<button class="copy-to-clipboard" title="Block-wise LoRA: Revisiting Fine-grained LoRA for Effective Personalization and Stylization in Text-to-Image Generation" index=74>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-65 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-74 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3419,17 +3798,17 @@ The objective of personalization and stylization in <b>text-to-image</b> is to i
 {{</citation>}}
 
 
-### (27/88 | 66/311) Calibrating Multi-modal Representations: A Pursuit of Group Robustness without Annotations (Chenyu You et al., 2024)
+### (27/88 | 75/322) Calibrating Multi-modal Representations: A Pursuit of Group Robustness without Annotations (Chenyu You et al., 2024)
 
 {{<citation>}}
 
 Chenyu You, Yifei Min, Weicheng Dai, Jasjeet S. Sekhon, Lawrence Staib, James S. Duncan. (2024)  
 **Calibrating Multi-modal Representations: A Pursuit of Group Robustness without Annotations**
 <br/>
-<button class="copy-to-clipboard" title="Calibrating Multi-modal Representations: A Pursuit of Group Robustness without Annotations" index=66>
+<button class="copy-to-clipboard" title="Calibrating Multi-modal Representations: A Pursuit of Group Robustness without Annotations" index=75>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-66 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-75 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3454,17 +3833,17 @@ Keywords: Benchmarking, Contrastive Learning, Fine-tuning, Multi-modal, Vision-a
 {{</citation>}}
 
 
-### (28/88 | 67/311) Premonition: Using Generative Models to Preempt Future Data Changes in Continual Learning (Mark D. McDonnell et al., 2024)
+### (28/88 | 76/322) Premonition: Using Generative Models to Preempt Future Data Changes in Continual Learning (Mark D. McDonnell et al., 2024)
 
 {{<citation>}}
 
 Mark D. McDonnell, Dong Gong, Ehsan Abbasnejad, Anton van den Hengel. (2024)  
 **Premonition: Using Generative Models to Preempt Future Data Changes in Continual Learning**
 <br/>
-<button class="copy-to-clipboard" title="Premonition: Using Generative Models to Preempt Future Data Changes in Continual Learning" index=67>
+<button class="copy-to-clipboard" title="Premonition: Using Generative Models to Preempt Future Data Changes in Continual Learning" index=76>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-67 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-76 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3489,17 +3868,17 @@ Keywords: Benchmarking, Continual Learning, Supervised Learning, Large Language 
 {{</citation>}}
 
 
-### (29/88 | 68/311) Mitigating the Impact of Attribute Editing on Face Recognition (Sudipta Banerjee et al., 2024)
+### (29/88 | 77/322) Mitigating the Impact of Attribute Editing on Face Recognition (Sudipta Banerjee et al., 2024)
 
 {{<citation>}}
 
 Sudipta Banerjee, Sai Pranaswi Mullangi, Shruti Wagle, Chinmay Hegde, Nasir Memon. (2024)  
 **Mitigating the Impact of Attribute Editing on Face Recognition**
 <br/>
-<button class="copy-to-clipboard" title="Mitigating the Impact of Attribute Editing on Face Recognition" index=68>
+<button class="copy-to-clipboard" title="Mitigating the Impact of Attribute Editing on Face Recognition" index=77>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-68 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-77 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3524,17 +3903,17 @@ Facial attribute editing using generative models can impair automated <b>face</b
 {{</citation>}}
 
 
-### (30/88 | 69/311) FluoroSAM: A Language-aligned Foundation Model for X-ray Image Segmentation (Benjamin D. Killeen et al., 2024)
+### (30/88 | 78/322) FluoroSAM: A Language-aligned Foundation Model for X-ray Image Segmentation (Benjamin D. Killeen et al., 2024)
 
 {{<citation>}}
 
 Benjamin D. Killeen, Liam J. Wang, Han Zhang, Mehran Armand, Russell H. Taylor, Greg Osgood, Mathias Unberath. (2024)  
 **FluoroSAM: A Language-aligned Foundation Model for X-ray Image Segmentation**
 <br/>
-<button class="copy-to-clipboard" title="FluoroSAM: A Language-aligned Foundation Model for X-ray Image Segmentation" index=69>
+<button class="copy-to-clipboard" title="FluoroSAM: A Language-aligned Foundation Model for X-ray Image Segmentation" index=78>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-69 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-78 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3559,17 +3938,17 @@ Automated X-ray image segmentation would accelerate research and development in 
 {{</citation>}}
 
 
-### (31/88 | 70/311) Unified Source-Free Domain Adaptation (Song Tang et al., 2024)
+### (31/88 | 79/322) Unified Source-Free Domain Adaptation (Song Tang et al., 2024)
 
 {{<citation>}}
 
 Song Tang, Wenxin Su, Mao Ye, Jianwei Zhang, Xiatian Zhu. (2024)  
 **Unified Source-Free Domain Adaptation**
 <br/>
-<button class="copy-to-clipboard" title="Unified Source-Free Domain Adaptation" index=70>
+<button class="copy-to-clipboard" title="Unified Source-Free Domain Adaptation" index=79>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-70 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-79 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3594,17 +3973,17 @@ In the pursuit of transferring a source model to a target <b>domain</b> <b>witho
 {{</citation>}}
 
 
-### (32/88 | 71/311) FPT: Fine-grained Prompt Tuning for Parameter and Memory Efficient Fine Tuning in High-resolution Medical Image Classification (Yijin Huang et al., 2024)
+### (32/88 | 80/322) FPT: Fine-grained Prompt Tuning for Parameter and Memory Efficient Fine Tuning in High-resolution Medical Image Classification (Yijin Huang et al., 2024)
 
 {{<citation>}}
 
 Yijin Huang, Pujin Cheng, Roger Tam, Xiaoying Tang. (2024)  
 **FPT: Fine-grained Prompt Tuning for Parameter and Memory Efficient Fine Tuning in High-resolution Medical Image Classification**
 <br/>
-<button class="copy-to-clipboard" title="FPT: Fine-grained Prompt Tuning for Parameter and Memory Efficient Fine Tuning in High-resolution Medical Image Classification" index=71>
+<button class="copy-to-clipboard" title="FPT: Fine-grained Prompt Tuning for Parameter and Memory Efficient Fine Tuning in High-resolution Medical Image Classification" index=80>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-71 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-80 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3629,17 +4008,17 @@ Parameter-efficient <b>fine-tuning</b> (PEFT) is proposed as a cost-effective wa
 {{</citation>}}
 
 
-### (33/88 | 72/311) RSBuilding: Towards General Remote Sensing Image Building Extraction and Change Detection with Foundation Model (Mingze Wang et al., 2024)
+### (33/88 | 81/322) RSBuilding: Towards General Remote Sensing Image Building Extraction and Change Detection with Foundation Model (Mingze Wang et al., 2024)
 
 {{<citation>}}
 
 Mingze Wang, Keyan Chen, Lili Su, Cilin Yan, Sheng Xu, Haotian Zhang, Pengcheng Yuan, Xiaolong Jiang, Baochang Zhang. (2024)  
 **RSBuilding: Towards General Remote Sensing Image Building Extraction and Change Detection with Foundation Model**
 <br/>
-<button class="copy-to-clipboard" title="RSBuilding: Towards General Remote Sensing Image Building Extraction and Change Detection with Foundation Model" index=72>
+<button class="copy-to-clipboard" title="RSBuilding: Towards General Remote Sensing Image Building Extraction and Change Detection with Foundation Model" index=81>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-72 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-81 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3664,17 +4043,17 @@ The intelligent interpretation of buildings plays a significant role in urban pl
 {{</citation>}}
 
 
-### (34/88 | 73/311) Continual All-in-One Adverse Weather Removal with Knowledge Replay on a Unified Network Structure (De Cheng et al., 2024)
+### (34/88 | 82/322) Continual All-in-One Adverse Weather Removal with Knowledge Replay on a Unified Network Structure (De Cheng et al., 2024)
 
 {{<citation>}}
 
 De Cheng, Yanling Ji, Dong Gong, Yan Li, Nannan Wang, Junwei Han, Dingwen Zhang. (2024)  
 **Continual All-in-One Adverse Weather Removal with Knowledge Replay on a Unified Network Structure**
 <br/>
-<button class="copy-to-clipboard" title="Continual All-in-One Adverse Weather Removal with Knowledge Replay on a Unified Network Structure" index=73>
+<button class="copy-to-clipboard" title="Continual All-in-One Adverse Weather Removal with Knowledge Replay on a Unified Network Structure" index=82>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-73 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-82 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3699,17 +4078,17 @@ In real-world applications, image degeneration caused by adverse weather is alwa
 {{</citation>}}
 
 
-### (35/88 | 74/311) It's All About Your Sketch: Democratising Sketch Control in Diffusion Models (Subhadeep Koley et al., 2024)
+### (35/88 | 83/322) It's All About Your Sketch: Democratising Sketch Control in Diffusion Models (Subhadeep Koley et al., 2024)
 
 {{<citation>}}
 
 Subhadeep Koley, Ayan Kumar Bhunia, Deeptanshu Sekhri, Aneeshan Sain, Pinaki Nath Chowdhury, Tao Xiang, Yi-Zhe Song. (2024)  
 **It's All About Your Sketch: Democratising Sketch Control in Diffusion Models**
 <br/>
-<button class="copy-to-clipboard" title="It's All About Your Sketch: Democratising Sketch Control in Diffusion Models" index=74>
+<button class="copy-to-clipboard" title="It's All About Your Sketch: Democratising Sketch Control in Diffusion Models" index=83>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-74 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-83 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3734,17 +4113,17 @@ This paper unravels the potential of sketches for <b>diffusion</b> <b>models,</b
 {{</citation>}}
 
 
-### (36/88 | 75/311) Dynamic Graph Representation with Knowledge-aware Attention for Histopathology Whole Slide Image Analysis (Jiawen Li et al., 2024)
+### (36/88 | 84/322) Dynamic Graph Representation with Knowledge-aware Attention for Histopathology Whole Slide Image Analysis (Jiawen Li et al., 2024)
 
 {{<citation>}}
 
 Jiawen Li, Yuxuan Chen, Hongbo Chu, Qiehe Sun, Tian Guan, Anjia Han, Yonghong He. (2024)  
 **Dynamic Graph Representation with Knowledge-aware Attention for Histopathology Whole Slide Image Analysis**
 <br/>
-<button class="copy-to-clipboard" title="Dynamic Graph Representation with Knowledge-aware Attention for Histopathology Whole Slide Image Analysis" index=75>
+<button class="copy-to-clipboard" title="Dynamic Graph Representation with Knowledge-aware Attention for Histopathology Whole Slide Image Analysis" index=84>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-75 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-84 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3769,17 +4148,17 @@ Histopathological whole slide images (WSIs) classification has become a foundati
 {{</citation>}}
 
 
-### (37/88 | 76/311) Let Storytelling Tell Vivid Stories: An Expressive and Fluent Multimodal Storyteller (Chuanqi Zang et al., 2024)
+### (37/88 | 85/322) Let Storytelling Tell Vivid Stories: An Expressive and Fluent Multimodal Storyteller (Chuanqi Zang et al., 2024)
 
 {{<citation>}}
 
 Chuanqi Zang, Jiji Tang, Rongsheng Zhang, Zeng Zhao, Tangjie Lv, Mingtao Pei, Wei Liang. (2024)  
 **Let Storytelling Tell Vivid Stories: An Expressive and Fluent Multimodal Storyteller**
 <br/>
-<button class="copy-to-clipboard" title="Let Storytelling Tell Vivid Stories: An Expressive and Fluent Multimodal Storyteller" index=76>
+<button class="copy-to-clipboard" title="Let Storytelling Tell Vivid Stories: An Expressive and Fluent Multimodal Storyteller" index=85>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-76 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-85 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3804,17 +4183,17 @@ Storytelling aims to generate reasonable and vivid narratives based on an ordere
 {{</citation>}}
 
 
-### (38/88 | 77/311) A Fourier Transform Framework for Domain Adaptation (Le Luo et al., 2024)
+### (38/88 | 86/322) A Fourier Transform Framework for Domain Adaptation (Le Luo et al., 2024)
 
 {{<citation>}}
 
 Le Luo, Bingrong Xu, Qingyong Zhang, Cheng Lian, Jie Luo. (2024)  
 **A Fourier Transform Framework for Domain Adaptation**
 <br/>
-<button class="copy-to-clipboard" title="A Fourier Transform Framework for Domain Adaptation" index=77>
+<button class="copy-to-clipboard" title="A Fourier Transform Framework for Domain Adaptation" index=86>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-77 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-86 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3839,17 +4218,17 @@ By using <b>unsupervised</b> <b>domain</b> <b>adaptation</b> (UDA), knowledge ca
 {{</citation>}}
 
 
-### (39/88 | 78/311) Eliminating Cross-modal Conflicts in BEV Space for LiDAR-Camera 3D Object Detection (Jiahui Fu et al., 2024)
+### (39/88 | 87/322) Eliminating Cross-modal Conflicts in BEV Space for LiDAR-Camera 3D Object Detection (Jiahui Fu et al., 2024)
 
 {{<citation>}}
 
 Jiahui Fu, Chen Gao, Zitian Wang, Lirong Yang, Xiaofei Wang, Beipeng Mu, Si Liu. (2024)  
 **Eliminating Cross-modal Conflicts in BEV Space for LiDAR-Camera 3D Object Detection**
 <br/>
-<button class="copy-to-clipboard" title="Eliminating Cross-modal Conflicts in BEV Space for LiDAR-Camera 3D Object Detection" index=78>
+<button class="copy-to-clipboard" title="Eliminating Cross-modal Conflicts in BEV Space for LiDAR-Camera 3D Object Detection" index=87>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-78 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-87 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3874,17 +4253,17 @@ Recent 3D <b>object</b> <b>detectors</b> typically utilize multi-sensor data and
 {{</citation>}}
 
 
-### (40/88 | 79/311) A Bayesian Approach to OOD Robustness in Image Classification (Prakhar Kaushik et al., 2024)
+### (40/88 | 88/322) A Bayesian Approach to OOD Robustness in Image Classification (Prakhar Kaushik et al., 2024)
 
 {{<citation>}}
 
 Prakhar Kaushik, Adam Kortylewski, Alan Yuille. (2024)  
 **A Bayesian Approach to OOD Robustness in Image Classification**
 <br/>
-<button class="copy-to-clipboard" title="A Bayesian Approach to OOD Robustness in Image Classification" index=79>
+<button class="copy-to-clipboard" title="A Bayesian Approach to OOD Robustness in Image Classification" index=88>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-79 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-88 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3909,17 +4288,17 @@ An important and unsolved problem in computer vision is to ensure that the algor
 {{</citation>}}
 
 
-### (41/88 | 80/311) StyleGaussian: Instant 3D Style Transfer with Gaussian Splatting (Kunhao Liu et al., 2024)
+### (41/88 | 89/322) StyleGaussian: Instant 3D Style Transfer with Gaussian Splatting (Kunhao Liu et al., 2024)
 
 {{<citation>}}
 
 Kunhao Liu, Fangneng Zhan, Muyu Xu, Christian Theobalt, Ling Shao, Shijian Lu. (2024)  
 **StyleGaussian: Instant 3D Style Transfer with Gaussian Splatting**
 <br/>
-<button class="copy-to-clipboard" title="StyleGaussian: Instant 3D Style Transfer with Gaussian Splatting" index=80>
+<button class="copy-to-clipboard" title="StyleGaussian: Instant 3D Style Transfer with Gaussian Splatting" index=89>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-80 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-89 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3944,17 +4323,17 @@ We introduce StyleGaussian, a novel 3D <b>style</b> <b>transfer</b> technique th
 {{</citation>}}
 
 
-### (42/88 | 81/311) Stable-Makeup: When Real-World Makeup Transfer Meets Diffusion Model (Yuxuan Zhang et al., 2024)
+### (42/88 | 90/322) Stable-Makeup: When Real-World Makeup Transfer Meets Diffusion Model (Yuxuan Zhang et al., 2024)
 
 {{<citation>}}
 
 Yuxuan Zhang, Lifu Wei, Qing Zhang, Yiren Song, Jiaming Liu, Huaxia Li, Xu Tang, Yao Hu, Haibo Zhao. (2024)  
 **Stable-Makeup: When Real-World Makeup Transfer Meets Diffusion Model**
 <br/>
-<button class="copy-to-clipboard" title="Stable-Makeup: When Real-World Makeup Transfer Meets Diffusion Model" index=81>
+<button class="copy-to-clipboard" title="Stable-Makeup: When Real-World Makeup Transfer Meets Diffusion Model" index=90>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-81 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-90 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -3979,17 +4358,17 @@ Current makeup transfer methods are limited to simple makeup styles, making them
 {{</citation>}}
 
 
-### (43/88 | 82/311) Fast and Simple Explainability for Point Cloud Networks (Meir Yossef Levi et al., 2024)
+### (43/88 | 91/322) Fast and Simple Explainability for Point Cloud Networks (Meir Yossef Levi et al., 2024)
 
 {{<citation>}}
 
 Meir Yossef Levi, Guy Gilboa. (2024)  
 **Fast and Simple Explainability for Point Cloud Networks**
 <br/>
-<button class="copy-to-clipboard" title="Fast and Simple Explainability for Point Cloud Networks" index=82>
+<button class="copy-to-clipboard" title="Fast and Simple Explainability for Point Cloud Networks" index=91>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-82 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-91 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4002,8 +4381,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs-LG, cs.CV  
 Keyword Score: 20  
 Keywords: Explainable AI, Out-of-distribution  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07706v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07706v1.pdf" filename="2403.07706v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07706v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07706v2.pdf" filename="2403.07706v2.pdf">Download PDF</button>
 
 ---
 
@@ -4014,17 +4393,17 @@ We propose a fast and simple <b>explainable</b> <b>AI</b> (XAI) method for point
 {{</citation>}}
 
 
-### (44/88 | 83/311) Annotations on a Budget: Leveraging Geo-Data Similarity to Balance Model Performance and Annotation Cost (Oana Ignat et al., 2024)
+### (44/88 | 92/322) Annotations on a Budget: Leveraging Geo-Data Similarity to Balance Model Performance and Annotation Cost (Oana Ignat et al., 2024)
 
 {{<citation>}}
 
 Oana Ignat, Longju Bai, Joan Nwatu, Rada Mihalcea. (2024)  
 **Annotations on a Budget: Leveraging Geo-Data Similarity to Balance Model Performance and Annotation Cost**
 <br/>
-<button class="copy-to-clipboard" title="Annotations on a Budget: Leveraging Geo-Data Similarity to Balance Model Performance and Annotation Cost" index=83>
+<button class="copy-to-clipboard" title="Annotations on a Budget: Leveraging Geo-Data Similarity to Balance Model Performance and Annotation Cost" index=92>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-83 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-92 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4049,17 +4428,17 @@ Current <b>foundation</b> <b>models</b> have shown impressive performance across
 {{</citation>}}
 
 
-### (45/88 | 84/311) Hunting Attributes: Context Prototype-Aware Learning for Weakly Supervised Semantic Segmentation (Feilong Tang et al., 2024)
+### (45/88 | 93/322) Hunting Attributes: Context Prototype-Aware Learning for Weakly Supervised Semantic Segmentation (Feilong Tang et al., 2024)
 
 {{<citation>}}
 
 Feilong Tang, Zhongxing Xu, Zhaojun Qu, Wei Feng, Xingjian Jiang, Zongyuan Ge. (2024)  
 **Hunting Attributes: Context Prototype-Aware Learning for Weakly Supervised Semantic Segmentation**
 <br/>
-<button class="copy-to-clipboard" title="Hunting Attributes: Context Prototype-Aware Learning for Weakly Supervised Semantic Segmentation" index=84>
+<button class="copy-to-clipboard" title="Hunting Attributes: Context Prototype-Aware Learning for Weakly Supervised Semantic Segmentation" index=93>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-84 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-93 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4084,17 +4463,17 @@ Recent weakly <b>supervised</b> semantic segmentation (WSSS) methods strive to i
 {{</citation>}}
 
 
-### (46/88 | 85/311) MinkUNeXt: Point Cloud-based Large-scale Place Recognition using 3D Sparse Convolutions (J. J. Cabrera et al., 2024)
+### (46/88 | 94/322) MinkUNeXt: Point Cloud-based Large-scale Place Recognition using 3D Sparse Convolutions (J. J. Cabrera et al., 2024)
 
 {{<citation>}}
 
 J. J. Cabrera, A. Santo, A. Gil, C. Viegas, L. Payá. (2024)  
 **MinkUNeXt: Point Cloud-based Large-scale Place Recognition using 3D Sparse Convolutions**
 <br/>
-<button class="copy-to-clipboard" title="MinkUNeXt: Point Cloud-based Large-scale Place Recognition using 3D Sparse Convolutions" index=85>
+<button class="copy-to-clipboard" title="MinkUNeXt: Point Cloud-based Large-scale Place Recognition using 3D Sparse Convolutions" index=94>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-85 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-94 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4119,17 +4498,17 @@ This paper presents MinkUNeXt, an effective and efficient architecture for place
 {{</citation>}}
 
 
-### (47/88 | 86/311) AACP: Aesthetics assessment of children's paintings based on self-supervised learning (Shiqi Jiang et al., 2024)
+### (47/88 | 95/322) AACP: Aesthetics assessment of children's paintings based on self-supervised learning (Shiqi Jiang et al., 2024)
 
 {{<citation>}}
 
 Shiqi Jiang, Ning Li, Chen Shi, Liping Guo, Changbo Wang, Chenhui Li. (2024)  
 **AACP: Aesthetics assessment of children's paintings based on self-supervised learning**
 <br/>
-<button class="copy-to-clipboard" title="AACP: Aesthetics assessment of children's paintings based on self-supervised learning" index=86>
+<button class="copy-to-clipboard" title="AACP: Aesthetics assessment of children's paintings based on self-supervised learning" index=95>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-86 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-95 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4154,17 +4533,17 @@ The Aesthetics Assessment of Children's Paintings (AACP) is an important branch 
 {{</citation>}}
 
 
-### (48/88 | 87/311) D4D: An RGBD diffusion model to boost monocular depth estimation (L. Papa et al., 2024)
+### (48/88 | 96/322) D4D: An RGBD diffusion model to boost monocular depth estimation (L. Papa et al., 2024)
 
 {{<citation>}}
 
 L. Papa, P. Russo, I. Amerini. (2024)  
 **D4D: An RGBD diffusion model to boost monocular depth estimation**
 <br/>
-<button class="copy-to-clipboard" title="D4D: An RGBD diffusion model to boost monocular depth estimation" index=87>
+<button class="copy-to-clipboard" title="D4D: An RGBD diffusion model to boost monocular depth estimation" index=96>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-87 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-96 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4189,17 +4568,17 @@ Ground-truth RGBD data are fundamental for a wide range of computer vision appli
 {{</citation>}}
 
 
-### (49/88 | 88/311) A Comprehensive Survey of 3D Dense Captioning: Localizing and Describing Objects in 3D Scenes (Ting Yu et al., 2024)
+### (49/88 | 97/322) A Comprehensive Survey of 3D Dense Captioning: Localizing and Describing Objects in 3D Scenes (Ting Yu et al., 2024)
 
 {{<citation>}}
 
 Ting Yu, Xiaojun Lin, Shuhui Wang, Weiguo Sheng, Qingming Huang, Jun Yu. (2024)  
 **A Comprehensive Survey of 3D Dense Captioning: Localizing and Describing Objects in 3D Scenes**
 <br/>
-<button class="copy-to-clipboard" title="A Comprehensive Survey of 3D Dense Captioning: Localizing and Describing Objects in 3D Scenes" index=88>
+<button class="copy-to-clipboard" title="A Comprehensive Survey of 3D Dense Captioning: Localizing and Describing Objects in 3D Scenes" index=97>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-88 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-97 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4224,17 +4603,17 @@ Three-Dimensional (3D) dense captioning is an emerging <b>vision-language</b> br
 {{</citation>}}
 
 
-### (50/88 | 89/311) JSTR: Joint Spatio-Temporal Reasoning for Event-based Moving Object Detection (Hanyu Zhou et al., 2024)
+### (50/88 | 98/322) JSTR: Joint Spatio-Temporal Reasoning for Event-based Moving Object Detection (Hanyu Zhou et al., 2024)
 
 {{<citation>}}
 
 Hanyu Zhou, Zhiwei Shi, Hao Dong, Shihan Peng, Yi Chang, Luxin Yan. (2024)  
 **JSTR: Joint Spatio-Temporal Reasoning for Event-based Moving Object Detection**
 <br/>
-<button class="copy-to-clipboard" title="JSTR: Joint Spatio-Temporal Reasoning for Event-based Moving Object Detection" index=89>
+<button class="copy-to-clipboard" title="JSTR: Joint Spatio-Temporal Reasoning for Event-based Moving Object Detection" index=98>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-89 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-98 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4259,17 +4638,17 @@ Event-based moving <b>object</b> <b>detection</b> is a challenging task, where s
 {{</citation>}}
 
 
-### (51/88 | 90/311) Auxiliary CycleGAN-guidance for Task-Aware Domain Translation from Duplex to Monoplex IHC Images (Nicolas Brieu et al., 2024)
+### (51/88 | 99/322) Auxiliary CycleGAN-guidance for Task-Aware Domain Translation from Duplex to Monoplex IHC Images (Nicolas Brieu et al., 2024)
 
 {{<citation>}}
 
 Nicolas Brieu, Nicolas Triltsch, Philipp Wortmann, Dominik Winter, Shashank Saran, Marlon Rebelatto, Günter Schmidt. (2024)  
 **Auxiliary CycleGAN-guidance for Task-Aware Domain Translation from Duplex to Monoplex IHC Images**
 <br/>
-<button class="copy-to-clipboard" title="Auxiliary CycleGAN-guidance for Task-Aware Domain Translation from Duplex to Monoplex IHC Images" index=90>
+<button class="copy-to-clipboard" title="Auxiliary CycleGAN-guidance for Task-Aware Domain Translation from Duplex to Monoplex IHC Images" index=99>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-90 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-99 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4294,17 +4673,17 @@ Keywords: Generative Adversarial Network, Generative Adversarial Network
 {{</citation>}}
 
 
-### (52/88 | 91/311) Textual Knowledge Matters: Cross-Modality Co-Teaching for Generalized Visual Class Discovery (Haiyang Zheng et al., 2024)
+### (52/88 | 100/322) Textual Knowledge Matters: Cross-Modality Co-Teaching for Generalized Visual Class Discovery (Haiyang Zheng et al., 2024)
 
 {{<citation>}}
 
 Haiyang Zheng, Nan Pu, Wenjing Li, Nicu Sebe, Zhun Zhong. (2024)  
 **Textual Knowledge Matters: Cross-Modality Co-Teaching for Generalized Visual Class Discovery**
 <br/>
-<button class="copy-to-clipboard" title="Textual Knowledge Matters: Cross-Modality Co-Teaching for Generalized Visual Class Discovery" index=91>
+<button class="copy-to-clipboard" title="Textual Knowledge Matters: Cross-Modality Co-Teaching for Generalized Visual Class Discovery" index=100>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-91 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-100 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4329,17 +4708,17 @@ In this paper, we study the problem of Generalized Category Discovery (GCD), whi
 {{</citation>}}
 
 
-### (53/88 | 92/311) BID: Boundary-Interior Decoding for Unsupervised Temporal Action Localization Pre-Trainin (Qihang Fang et al., 2024)
+### (53/88 | 101/322) BID: Boundary-Interior Decoding for Unsupervised Temporal Action Localization Pre-Trainin (Qihang Fang et al., 2024)
 
 {{<citation>}}
 
 Qihang Fang, Chengcheng Tang, Shugao Ma, Yanchao Yang. (2024)  
 **BID: Boundary-Interior Decoding for Unsupervised Temporal Action Localization Pre-Trainin**
 <br/>
-<button class="copy-to-clipboard" title="BID: Boundary-Interior Decoding for Unsupervised Temporal Action Localization Pre-Trainin" index=92>
+<button class="copy-to-clipboard" title="BID: Boundary-Interior Decoding for Unsupervised Temporal Action Localization Pre-Trainin" index=101>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-92 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-101 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4364,17 +4743,17 @@ Skeleton-based motion representations are robust for action localization and und
 {{</citation>}}
 
 
-### (54/88 | 93/311) Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Learning (Chuangchuang Tan et al., 2024)
+### (54/88 | 102/322) Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Learning (Chuangchuang Tan et al., 2024)
 
 {{<citation>}}
 
 Chuangchuang Tan, Yao Zhao, Shikui Wei, Guanghua Gu, Ping Liu, Yunchao Wei. (2024)  
 **Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Learning**
 <br/>
-<button class="copy-to-clipboard" title="Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Learning" index=93>
+<button class="copy-to-clipboard" title="Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Learning" index=102>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-93 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-102 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4399,17 +4778,17 @@ This research addresses the challenge of developing a universal deepfake detecto
 {{</citation>}}
 
 
-### (55/88 | 94/311) Learn and Search: An Elegant Technique for Object Lookup using Contrastive Learning (Chandan Kumar et al., 2024)
+### (55/88 | 103/322) Learn and Search: An Elegant Technique for Object Lookup using Contrastive Learning (Chandan Kumar et al., 2024)
 
 {{<citation>}}
 
 Chandan Kumar, Jansel Herrera-Gerena, John Just, Matthew Darr, Ali Jannesari. (2024)  
 **Learn and Search: An Elegant Technique for Object Lookup using Contrastive Learning**
 <br/>
-<button class="copy-to-clipboard" title="Learn and Search: An Elegant Technique for Object Lookup using Contrastive Learning" index=94>
+<button class="copy-to-clipboard" title="Learn and Search: An Elegant Technique for Object Lookup using Contrastive Learning" index=103>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-94 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-103 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4434,17 +4813,17 @@ The rapid proliferation of digital content and the ever-growing need for precise
 {{</citation>}}
 
 
-### (56/88 | 95/311) Lumen: Unleashing Versatile Vision-Centric Capabilities of Large Multimodal Models (Yang Jiao et al., 2024)
+### (56/88 | 104/322) Lumen: Unleashing Versatile Vision-Centric Capabilities of Large Multimodal Models (Yang Jiao et al., 2024)
 
 {{<citation>}}
 
 Yang Jiao, Shaoxiang Chen, Zequn Jie, Jingjing Chen, Lin Ma, Yu-Gang Jiang. (2024)  
 **Lumen: Unleashing Versatile Vision-Centric Capabilities of Large Multimodal Models**
 <br/>
-<button class="copy-to-clipboard" title="Lumen: Unleashing Versatile Vision-Centric Capabilities of Large Multimodal Models" index=95>
+<button class="copy-to-clipboard" title="Lumen: Unleashing Versatile Vision-Centric Capabilities of Large Multimodal Models" index=104>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-95 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-104 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4469,17 +4848,17 @@ Large <b>Multimodal</b> Model (LMM) is a hot research topic in the computer visi
 {{</citation>}}
 
 
-### (57/88 | 96/311) Q-SLAM: Quadric Representations for Monocular SLAM (Chensheng Peng et al., 2024)
+### (57/88 | 105/322) Q-SLAM: Quadric Representations for Monocular SLAM (Chensheng Peng et al., 2024)
 
 {{<citation>}}
 
 Chensheng Peng, Chenfeng Xu, Yue Wang, Mingyu Ding, Heng Yang, Masayoshi Tomizuka, Kurt Keutzer, Marco Pavone, Wei Zhan. (2024)  
 **Q-SLAM: Quadric Representations for Monocular SLAM**
 <br/>
-<button class="copy-to-clipboard" title="Q-SLAM: Quadric Representations for Monocular SLAM" index=96>
+<button class="copy-to-clipboard" title="Q-SLAM: Quadric Representations for Monocular SLAM" index=105>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-96 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-105 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4504,17 +4883,17 @@ Monocular SLAM has long grappled with the challenge of accurately modeling 3D ge
 {{</citation>}}
 
 
-### (58/88 | 97/311) Spatiotemporal Representation Learning for Short and Long Medical Image Time Series (Chengzhi Shen et al., 2024)
+### (58/88 | 106/322) Spatiotemporal Representation Learning for Short and Long Medical Image Time Series (Chengzhi Shen et al., 2024)
 
 {{<citation>}}
 
 Chengzhi Shen, Martin J. Menten, Hrvoje Bogunović, Ursula Schmidt-Erfurth, Hendrik Scholl, Sobha Sivaprasad, Andrew Lotery, Daniel Rueckert, Paul Hager, Robbie Holland. (2024)  
 **Spatiotemporal Representation Learning for Short and Long Medical Image Time Series**
 <br/>
-<button class="copy-to-clipboard" title="Spatiotemporal Representation Learning for Short and Long Medical Image Time Series" index=97>
+<button class="copy-to-clipboard" title="Spatiotemporal Representation Learning for Short and Long Medical Image Time Series" index=106>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-97 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-106 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4539,17 +4918,17 @@ Analyzing temporal developments is crucial for the accurate prognosis of many me
 {{</citation>}}
 
 
-### (59/88 | 98/311) Unleashing HyDRa: Hybrid Fusion, Depth Consistency and Radar for Unified 3D Perception (Philipp Wolters et al., 2024)
+### (59/88 | 107/322) Unleashing HyDRa: Hybrid Fusion, Depth Consistency and Radar for Unified 3D Perception (Philipp Wolters et al., 2024)
 
 {{<citation>}}
 
 Philipp Wolters, Johannes Gilg, Torben Teepe, Fabian Herzog, Anouar Laouichi, Martin Hofmann, Gerhard Rigoll. (2024)  
 **Unleashing HyDRa: Hybrid Fusion, Depth Consistency and Radar for Unified 3D Perception**
 <br/>
-<button class="copy-to-clipboard" title="Unleashing HyDRa: Hybrid Fusion, Depth Consistency and Radar for Unified 3D Perception" index=98>
+<button class="copy-to-clipboard" title="Unleashing HyDRa: Hybrid Fusion, Depth Consistency and Radar for Unified 3D Perception" index=107>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-98 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-107 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4574,17 +4953,17 @@ Low-cost, vision-centric 3D perception systems for autonomous driving have made 
 {{</citation>}}
 
 
-### (60/88 | 99/311) SSM Meets Video Diffusion Models: Efficient Video Generation with Structured State Spaces (Yuta Oshima et al., 2024)
+### (60/88 | 108/322) SSM Meets Video Diffusion Models: Efficient Video Generation with Structured State Spaces (Yuta Oshima et al., 2024)
 
 {{<citation>}}
 
 Yuta Oshima, Shohei Taniguchi, Masahiro Suzuki, Yutaka Matsuo. (2024)  
 **SSM Meets Video Diffusion Models: Efficient Video Generation with Structured State Spaces**
 <br/>
-<button class="copy-to-clipboard" title="SSM Meets Video Diffusion Models: Efficient Video Generation with Structured State Spaces" index=99>
+<button class="copy-to-clipboard" title="SSM Meets Video Diffusion Models: Efficient Video Generation with Structured State Spaces" index=108>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-99 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-108 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4609,17 +4988,17 @@ Given the remarkable achievements in image generation through <b>diffusion</b> <
 {{</citation>}}
 
 
-### (61/88 | 100/311) Unleashing Network Potentials for Semantic Scene Completion (Fengyun Wang et al., 2024)
+### (61/88 | 109/322) Unleashing Network Potentials for Semantic Scene Completion (Fengyun Wang et al., 2024)
 
 {{<citation>}}
 
 Fengyun Wang, Qianru Sun, Dong Zhang, Jinhui Tang. (2024)  
 **Unleashing Network Potentials for Semantic Scene Completion**
 <br/>
-<button class="copy-to-clipboard" title="Unleashing Network Potentials for Semantic Scene Completion" index=100>
+<button class="copy-to-clipboard" title="Unleashing Network Potentials for Semantic Scene Completion" index=109>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-100 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-109 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4644,17 +5023,17 @@ Semantic scene completion (SSC) aims to predict complete 3D voxel occupancy and 
 {{</citation>}}
 
 
-### (62/88 | 101/311) SparseLIF: High-Performance Sparse LiDAR-Camera Fusion for 3D Object Detection (Hongcheng Zhang et al., 2024)
+### (62/88 | 110/322) SparseLIF: High-Performance Sparse LiDAR-Camera Fusion for 3D Object Detection (Hongcheng Zhang et al., 2024)
 
 {{<citation>}}
 
 Hongcheng Zhang, Liu Liang, Pengxin Zeng, Xiao Song, Zhe Wang. (2024)  
 **SparseLIF: High-Performance Sparse LiDAR-Camera Fusion for 3D Object Detection**
 <br/>
-<button class="copy-to-clipboard" title="SparseLIF: High-Performance Sparse LiDAR-Camera Fusion for 3D Object Detection" index=101>
+<button class="copy-to-clipboard" title="SparseLIF: High-Performance Sparse LiDAR-Camera Fusion for 3D Object Detection" index=110>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-101 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-110 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4679,17 +5058,17 @@ Sparse 3D detectors have received significant attention since the query-based pa
 {{</citation>}}
 
 
-### (63/88 | 102/311) Learning Data Association for Multi-Object Tracking using Only Coordinates (Mehdi Miah et al., 2024)
+### (63/88 | 111/322) Learning Data Association for Multi-Object Tracking using Only Coordinates (Mehdi Miah et al., 2024)
 
 {{<citation>}}
 
 Mehdi Miah, Guillaume-Alexandre Bilodeau, Nicolas Saunier. (2024)  
 **Learning Data Association for Multi-Object Tracking using Only Coordinates**
 <br/>
-<button class="copy-to-clipboard" title="Learning Data Association for Multi-Object Tracking using Only Coordinates" index=102>
+<button class="copy-to-clipboard" title="Learning Data Association for Multi-Object Tracking using Only Coordinates" index=111>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-102 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-111 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4714,17 +5093,17 @@ We propose a novel <b>Transformer-based</b> module to address the data associati
 {{</citation>}}
 
 
-### (64/88 | 103/311) Red Teaming Models for Hyperspectral Image Analysis Using Explainable AI (Vladimir Zaigrajew et al., 2024)
+### (64/88 | 112/322) Red Teaming Models for Hyperspectral Image Analysis Using Explainable AI (Vladimir Zaigrajew et al., 2024)
 
 {{<citation>}}
 
 Vladimir Zaigrajew, Hubert Baniecki, Lukasz Tulczyjew, Agata M. Wijata, Jakub Nalepa, Nicolas Longépé, Przemyslaw Biecek. (2024)  
 **Red Teaming Models for Hyperspectral Image Analysis Using Explainable AI**
 <br/>
-<button class="copy-to-clipboard" title="Red Teaming Models for Hyperspectral Image Analysis Using Explainable AI" index=103>
+<button class="copy-to-clipboard" title="Red Teaming Models for Hyperspectral Image Analysis Using Explainable AI" index=112>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-103 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-112 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4737,8 +5116,8 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs.CV  
 Keyword Score: 10  
 Keywords: Explainable AI  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.08017v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.08017v1.pdf" filename="2403.08017v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.08017v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.08017v2.pdf" filename="2403.08017v2.pdf">Download PDF</button>
 
 ---
 
@@ -4749,17 +5128,17 @@ Remote sensing (RS) applications in the space domain demand machine learning (ML
 {{</citation>}}
 
 
-### (65/88 | 104/311) SemCity: Semantic Scene Generation with Triplane Diffusion (Jumin Lee et al., 2024)
+### (65/88 | 113/322) SemCity: Semantic Scene Generation with Triplane Diffusion (Jumin Lee et al., 2024)
 
 {{<citation>}}
 
 Jumin Lee, Sebin Lee, Changho Jo, Woobin Im, Juhyeong Seon, Sung-Eui Yoon. (2024)  
 **SemCity: Semantic Scene Generation with Triplane Diffusion**
 <br/>
-<button class="copy-to-clipboard" title="SemCity: Semantic Scene Generation with Triplane Diffusion" index=104>
+<button class="copy-to-clipboard" title="SemCity: Semantic Scene Generation with Triplane Diffusion" index=113>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-104 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-113 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4784,17 +5163,17 @@ We present "SemCity," a 3D <b>diffusion</b> <b>model</b> for semantic scene gene
 {{</citation>}}
 
 
-### (66/88 | 105/311) Robust Synthetic-to-Real Transfer for Stereo Matching (Jiawei Zhang et al., 2024)
+### (66/88 | 114/322) Robust Synthetic-to-Real Transfer for Stereo Matching (Jiawei Zhang et al., 2024)
 
 {{<citation>}}
 
 Jiawei Zhang, Jiahe Li, Lei Huang, Xiaohan Yu, Lin Gu, Jin Zheng, Xiao Bai. (2024)  
 **Robust Synthetic-to-Real Transfer for Stereo Matching**
 <br/>
-<button class="copy-to-clipboard" title="Robust Synthetic-to-Real Transfer for Stereo Matching" index=105>
+<button class="copy-to-clipboard" title="Robust Synthetic-to-Real Transfer for Stereo Matching" index=114>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-105 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-114 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4819,17 +5198,17 @@ With advancements in domain generalized stereo matching networks, models pre-tra
 {{</citation>}}
 
 
-### (67/88 | 106/311) Masked AutoDecoder is Effective Multi-Task Vision Generalist (Han Qiu et al., 2024)
+### (67/88 | 115/322) Masked AutoDecoder is Effective Multi-Task Vision Generalist (Han Qiu et al., 2024)
 
 {{<citation>}}
 
 Han Qiu, Jiaxing Huang, Peng Gao, Lewei Lu, Xiaoqin Zhang, Shijian Lu. (2024)  
 **Masked AutoDecoder is Effective Multi-Task Vision Generalist**
 <br/>
-<button class="copy-to-clipboard" title="Masked AutoDecoder is Effective Multi-Task Vision Generalist" index=106>
+<button class="copy-to-clipboard" title="Masked AutoDecoder is Effective Multi-Task Vision Generalist" index=115>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-106 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-115 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4842,8 +5221,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 10  
 Keywords: Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07692v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07692v1.pdf" filename="2403.07692v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07692v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07692v2.pdf" filename="2403.07692v2.pdf">Download PDF</button>
 
 ---
 
@@ -4854,17 +5233,17 @@ Inspired by the success of general-purpose models in NLP, recent studies attempt
 {{</citation>}}
 
 
-### (68/88 | 107/311) Smartphone region-wise image indoor localization using deep learning for indoor tourist attraction (Gabriel Toshio Hirokawa Higa et al., 2024)
+### (68/88 | 116/322) Smartphone region-wise image indoor localization using deep learning for indoor tourist attraction (Gabriel Toshio Hirokawa Higa et al., 2024)
 
 {{<citation>}}
 
 Gabriel Toshio Hirokawa Higa, Rodrigo Stuqui Monzani, Jorge Fernando da Silva Cecatto, Maria Fernanda Balestieri Mariano de Souza, Vanessa Aparecida de Moraes Weber, Hemerson Pistori, Edson Takashi Matsubara. (2024)  
 **Smartphone region-wise image indoor localization using deep learning for indoor tourist attraction**
 <br/>
-<button class="copy-to-clipboard" title="Smartphone region-wise image indoor localization using deep learning for indoor tourist attraction" index=107>
+<button class="copy-to-clipboard" title="Smartphone region-wise image indoor localization using deep learning for indoor tourist attraction" index=116>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-107 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-116 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4889,17 +5268,17 @@ Smart indoor tourist attractions, such as smart museums and aquariums, usually r
 {{</citation>}}
 
 
-### (69/88 | 108/311) Mondrian: On-Device High-Performance Video Analytics with Compressive Packed Inference (Changmin Jeon et al., 2024)
+### (69/88 | 117/322) Mondrian: On-Device High-Performance Video Analytics with Compressive Packed Inference (Changmin Jeon et al., 2024)
 
 {{<citation>}}
 
 Changmin Jeon, Seonjun Kim, Juheon Yi, Youngki Lee. (2024)  
 **Mondrian: On-Device High-Performance Video Analytics with Compressive Packed Inference**
 <br/>
-<button class="copy-to-clipboard" title="Mondrian: On-Device High-Performance Video Analytics with Compressive Packed Inference" index=108>
+<button class="copy-to-clipboard" title="Mondrian: On-Device High-Performance Video Analytics with Compressive Packed Inference" index=117>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-108 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-117 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4924,17 +5303,17 @@ In this paper, we present Mondrian, an edge system that enables high-performance
 {{</citation>}}
 
 
-### (70/88 | 109/311) LaB-GATr: geometric algebra transformers for large biomedical surface and volume meshes (Julian Suk et al., 2024)
+### (70/88 | 118/322) LaB-GATr: geometric algebra transformers for large biomedical surface and volume meshes (Julian Suk et al., 2024)
 
 {{<citation>}}
 
 Julian Suk, Baris Imre, Jelmer M. Wolterink. (2024)  
 **LaB-GATr: geometric algebra transformers for large biomedical surface and volume meshes**
 <br/>
-<button class="copy-to-clipboard" title="LaB-GATr: geometric algebra transformers for large biomedical surface and volume meshes" index=109>
+<button class="copy-to-clipboard" title="LaB-GATr: geometric algebra transformers for large biomedical surface and volume meshes" index=118>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-109 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-118 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4959,17 +5338,17 @@ Many anatomical structures can be described by surface or volume meshes. Machine
 {{</citation>}}
 
 
-### (71/88 | 110/311) Uncertainty-guided Contrastive Learning for Single Source Domain Generalisation (Anastasios Arsenos et al., 2024)
+### (71/88 | 119/322) Uncertainty-guided Contrastive Learning for Single Source Domain Generalisation (Anastasios Arsenos et al., 2024)
 
 {{<citation>}}
 
 Anastasios Arsenos, Dimitrios Kollias, Evangelos Petrongonas, Christos Skliros, Stefanos Kollias. (2024)  
 **Uncertainty-guided Contrastive Learning for Single Source Domain Generalisation**
 <br/>
-<button class="copy-to-clipboard" title="Uncertainty-guided Contrastive Learning for Single Source Domain Generalisation" index=110>
+<button class="copy-to-clipboard" title="Uncertainty-guided Contrastive Learning for Single Source Domain Generalisation" index=119>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-110 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-119 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -4982,8 +5361,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 10  
 Keywords: Contrastive Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07514v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07514v1.pdf" filename="2403.07514v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07514v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07514v2.pdf" filename="2403.07514v2.pdf">Download PDF</button>
 
 ---
 
@@ -4994,17 +5373,17 @@ In the context of single domain generalisation, the objective is for models that
 {{</citation>}}
 
 
-### (72/88 | 111/311) NightHaze: Nighttime Image Dehazing via Self-Prior Learning (Beibei Lin et al., 2024)
+### (72/88 | 120/322) NightHaze: Nighttime Image Dehazing via Self-Prior Learning (Beibei Lin et al., 2024)
 
 {{<citation>}}
 
 Beibei Lin, Yeying Jin, Wending Yan, Wei Ye, Yuan Yuan, Robby T. Tan. (2024)  
 **NightHaze: Nighttime Image Dehazing via Self-Prior Learning**
 <br/>
-<button class="copy-to-clipboard" title="NightHaze: Nighttime Image Dehazing via Self-Prior Learning" index=111>
+<button class="copy-to-clipboard" title="NightHaze: Nighttime Image Dehazing via Self-Prior Learning" index=120>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-111 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-120 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5029,17 +5408,17 @@ Masked <b>autoencoder</b> (MAE) shows that severe augmentation during training p
 {{</citation>}}
 
 
-### (73/88 | 112/311) FeTrIL++: Feature Translation for Exemplar-Free Class-Incremental Learning with Hill-Climbing (Eduard Hogea et al., 2024)
+### (73/88 | 121/322) FeTrIL++: Feature Translation for Exemplar-Free Class-Incremental Learning with Hill-Climbing (Eduard Hogea et al., 2024)
 
 {{<citation>}}
 
 Eduard Hogea, Adrian Popescu, Darian Onchis, Grégoire Petit. (2024)  
 **FeTrIL++: Feature Translation for Exemplar-Free Class-Incremental Learning with Hill-Climbing**
 <br/>
-<button class="copy-to-clipboard" title="FeTrIL++: Feature Translation for Exemplar-Free Class-Incremental Learning with Hill-Climbing" index=112>
+<button class="copy-to-clipboard" title="FeTrIL++: Feature Translation for Exemplar-Free Class-Incremental Learning with Hill-Climbing" index=121>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-112 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-121 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5064,17 +5443,17 @@ Exemplar-free class-incremental learning (EFCIL) poses significant challenges, p
 {{</citation>}}
 
 
-### (74/88 | 113/311) Time-Efficient and Identity-Consistent Virtual Try-On Using A Variant of Altered Diffusion Models (Phuong Dam et al., 2024)
+### (74/88 | 122/322) Time-Efficient and Identity-Consistent Virtual Try-On Using A Variant of Altered Diffusion Models (Phuong Dam et al., 2024)
 
 {{<citation>}}
 
 Phuong Dam, Jihoon Jeong, Anh Tran, Daeyoung Kim. (2024)  
 **Time-Efficient and Identity-Consistent Virtual Try-On Using A Variant of Altered Diffusion Models**
 <br/>
-<button class="copy-to-clipboard" title="Time-Efficient and Identity-Consistent Virtual Try-On Using A Variant of Altered Diffusion Models" index=113>
+<button class="copy-to-clipboard" title="Time-Efficient and Identity-Consistent Virtual Try-On Using A Variant of Altered Diffusion Models" index=122>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-113 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-122 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5099,17 +5478,17 @@ This study discusses the critical issues of Virtual Try-On in contemporary e-com
 {{</citation>}}
 
 
-### (75/88 | 114/311) Entropy is not Enough for Test-Time Adaptation: From the Perspective of Disentangled Factors (Jonghyun Lee et al., 2024)
+### (75/88 | 123/322) Entropy is not Enough for Test-Time Adaptation: From the Perspective of Disentangled Factors (Jonghyun Lee et al., 2024)
 
 {{<citation>}}
 
 Jonghyun Lee, Dahuin Jung, Saehyung Lee, Junsung Park, Juhyeon Shin, Uiwon Hwang, Sungroh Yoon. (2024)  
 **Entropy is not Enough for Test-Time Adaptation: From the Perspective of Disentangled Factors**
 <br/>
-<button class="copy-to-clipboard" title="Entropy is not Enough for Test-Time Adaptation: From the Perspective of Disentangled Factors" index=114>
+<button class="copy-to-clipboard" title="Entropy is not Enough for Test-Time Adaptation: From the Perspective of Disentangled Factors" index=123>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-114 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-123 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5134,17 +5513,17 @@ Test-time adaptation (TTA) <b>fine-tunes</b> pre-trained deep neural networks fo
 {{</citation>}}
 
 
-### (76/88 | 115/311) Efficient Diffusion Model for Image Restoration by Residual Shifting (Zongsheng Yue et al., 2024)
+### (76/88 | 124/322) Efficient Diffusion Model for Image Restoration by Residual Shifting (Zongsheng Yue et al., 2024)
 
 {{<citation>}}
 
 Zongsheng Yue, Jianyi Wang, Chen Change Loy. (2024)  
 **Efficient Diffusion Model for Image Restoration by Residual Shifting**
 <br/>
-<button class="copy-to-clipboard" title="Efficient Diffusion Model for Image Restoration by Residual Shifting" index=115>
+<button class="copy-to-clipboard" title="Efficient Diffusion Model for Image Restoration by Residual Shifting" index=124>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-115 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-124 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5169,17 +5548,17 @@ While <b>diffusion-based</b> <b>image</b> restoration (IR) methods have achieved
 {{</citation>}}
 
 
-### (77/88 | 116/311) Rediscovering BCE Loss for Uniform Classification (Qiufu Li et al., 2024)
+### (77/88 | 125/322) Rediscovering BCE Loss for Uniform Classification (Qiufu Li et al., 2024)
 
 {{<citation>}}
 
 Qiufu Li, Xi Jia, Jiancan Zhou, Linlin Shen, Jinming Duan. (2024)  
 **Rediscovering BCE Loss for Uniform Classification**
 <br/>
-<button class="copy-to-clipboard" title="Rediscovering BCE Loss for Uniform Classification" index=116>
+<button class="copy-to-clipboard" title="Rediscovering BCE Loss for Uniform Classification" index=125>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-116 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-125 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5204,17 +5583,17 @@ This paper introduces the concept of uniform classification, which employs a uni
 {{</citation>}}
 
 
-### (78/88 | 117/311) A Multimodal Intermediate Fusion Network with Manifold Learning for Stress Detection (Morteza Bodaghi et al., 2024)
+### (78/88 | 126/322) A Multimodal Intermediate Fusion Network with Manifold Learning for Stress Detection (Morteza Bodaghi et al., 2024)
 
 {{<citation>}}
 
 Morteza Bodaghi, Majid Hosseini, Raju Gottumukkala. (2024)  
 **A Multimodal Intermediate Fusion Network with Manifold Learning for Stress Detection**
 <br/>
-<button class="copy-to-clipboard" title="A Multimodal Intermediate Fusion Network with Manifold Learning for Stress Detection" index=117>
+<button class="copy-to-clipboard" title="A Multimodal Intermediate Fusion Network with Manifold Learning for Stress Detection" index=126>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-117 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-126 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5239,17 +5618,17 @@ Keywords: Multi-modal, Multi-modal
 {{</citation>}}
 
 
-### (79/88 | 118/311) IndicSTR12: A Dataset for Indic Scene Text Recognition (Harsh Lunia et al., 2024)
+### (79/88 | 127/322) IndicSTR12: A Dataset for Indic Scene Text Recognition (Harsh Lunia et al., 2024)
 
 {{<citation>}}
 
 Harsh Lunia, Ajoy Mondal, C V Jawahar. (2024)  
 **IndicSTR12: A Dataset for Indic Scene Text Recognition**
 <br/>
-<button class="copy-to-clipboard" title="IndicSTR12: A Dataset for Indic Scene Text Recognition" index=118>
+<button class="copy-to-clipboard" title="IndicSTR12: A Dataset for Indic Scene Text Recognition" index=127>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-118 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-127 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5274,17 +5653,17 @@ The importance of Scene Text Recognition (STR) in today's increasingly digital w
 {{</citation>}}
 
 
-### (80/88 | 119/311) Bring Event into RGB and LiDAR: Hierarchical Visual-Motion Fusion for Scene Flow (Hanyu Zhou et al., 2024)
+### (80/88 | 128/322) Bring Event into RGB and LiDAR: Hierarchical Visual-Motion Fusion for Scene Flow (Hanyu Zhou et al., 2024)
 
 {{<citation>}}
 
 Hanyu Zhou, Yi Chang, Zhiwei Shi, Luxin Yan. (2024)  
 **Bring Event into RGB and LiDAR: Hierarchical Visual-Motion Fusion for Scene Flow**
 <br/>
-<button class="copy-to-clipboard" title="Bring Event into RGB and LiDAR: Hierarchical Visual-Motion Fusion for Scene Flow" index=119>
+<button class="copy-to-clipboard" title="Bring Event into RGB and LiDAR: Hierarchical Visual-Motion Fusion for Scene Flow" index=128>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-119 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-128 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5309,17 +5688,17 @@ Single RGB or LiDAR is the mainstream sensor for the challenging scene flow, whi
 {{</citation>}}
 
 
-### (81/88 | 120/311) Frequency Decoupling for Motion Magnification via Multi-Level Isomorphic Architecture (Fei Wang et al., 2024)
+### (81/88 | 129/322) Frequency Decoupling for Motion Magnification via Multi-Level Isomorphic Architecture (Fei Wang et al., 2024)
 
 {{<citation>}}
 
 Fei Wang, Dan Guo, Kun Li, Zhun Zhong, Meng Wang. (2024)  
 **Frequency Decoupling for Motion Magnification via Multi-Level Isomorphic Architecture**
 <br/>
-<button class="copy-to-clipboard" title="Frequency Decoupling for Motion Magnification via Multi-Level Isomorphic Architecture" index=120>
+<button class="copy-to-clipboard" title="Frequency Decoupling for Motion Magnification via Multi-Level Isomorphic Architecture" index=129>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-120 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-129 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5344,17 +5723,17 @@ Video Motion Magnification (VMM) aims to reveal subtle and imperceptible motion 
 {{</citation>}}
 
 
-### (82/88 | 121/311) MRC-Net: 6-DoF Pose Estimation with MultiScale Residual Correlation (Yuelong Li et al., 2024)
+### (82/88 | 130/322) MRC-Net: 6-DoF Pose Estimation with MultiScale Residual Correlation (Yuelong Li et al., 2024)
 
 {{<citation>}}
 
 Yuelong Li, Yafei Mao, Raja Bala, Sunil Hadap. (2024)  
 **MRC-Net: 6-DoF Pose Estimation with MultiScale Residual Correlation**
 <br/>
-<button class="copy-to-clipboard" title="MRC-Net: 6-DoF Pose Estimation with MultiScale Residual Correlation" index=121>
+<button class="copy-to-clipboard" title="MRC-Net: 6-DoF Pose Estimation with MultiScale Residual Correlation" index=130>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-121 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-130 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5367,8 +5746,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 3  
 Keywords: Benchmarking  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.08019v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.08019v1.pdf" filename="2403.08019v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.08019v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.08019v2.pdf" filename="2403.08019v2.pdf">Download PDF</button>
 
 ---
 
@@ -5379,17 +5758,17 @@ We propose a single-shot approach to determining 6-DoF pose of an object with av
 {{</citation>}}
 
 
-### (83/88 | 122/311) DSEG-LIME - Improving Image Explanation by Hierarchical Data-Driven Segmentation (Patrick Knab et al., 2024)
+### (83/88 | 131/322) DSEG-LIME - Improving Image Explanation by Hierarchical Data-Driven Segmentation (Patrick Knab et al., 2024)
 
 {{<citation>}}
 
 Patrick Knab, Sascha Marton, Christian Bartelt. (2024)  
 **DSEG-LIME - Improving Image Explanation by Hierarchical Data-Driven Segmentation**
 <br/>
-<button class="copy-to-clipboard" title="DSEG-LIME - Improving Image Explanation by Hierarchical Data-Driven Segmentation" index=122>
+<button class="copy-to-clipboard" title="DSEG-LIME - Improving Image Explanation by Hierarchical Data-Driven Segmentation" index=131>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-122 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-131 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5414,17 +5793,17 @@ Explainable Artificial Intelligence is critical in unraveling decision-making pr
 {{</citation>}}
 
 
-### (84/88 | 123/311) Accurate Spatial Gene Expression Prediction by integrating Multi-resolution features (Youngmin Chung et al., 2024)
+### (84/88 | 132/322) Accurate Spatial Gene Expression Prediction by integrating Multi-resolution features (Youngmin Chung et al., 2024)
 
 {{<citation>}}
 
 Youngmin Chung, Ji Hun Ha, Kyeong Chan Im, Joo Sang Lee. (2024)  
 **Accurate Spatial Gene Expression Prediction by integrating Multi-resolution features**
 <br/>
-<button class="copy-to-clipboard" title="Accurate Spatial Gene Expression Prediction by integrating Multi-resolution features" index=123>
+<button class="copy-to-clipboard" title="Accurate Spatial Gene Expression Prediction by integrating Multi-resolution features" index=132>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-123 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-132 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5449,17 +5828,17 @@ Recent advancements in Spatial Transcriptomics (ST) technology have facilitated 
 {{</citation>}}
 
 
-### (85/88 | 124/311) SMURF: Continuous Dynamics for Motion-Deblurring Radiance Fields (Jungho Lee et al., 2024)
+### (85/88 | 133/322) SMURF: Continuous Dynamics for Motion-Deblurring Radiance Fields (Jungho Lee et al., 2024)
 
 {{<citation>}}
 
 Jungho Lee, Dogyoon Lee, Minhyeok Lee, Donghyung Kim, Sangyoun Lee. (2024)  
 **SMURF: Continuous Dynamics for Motion-Deblurring Radiance Fields**
 <br/>
-<button class="copy-to-clipboard" title="SMURF: Continuous Dynamics for Motion-Deblurring Radiance Fields" index=124>
+<button class="copy-to-clipboard" title="SMURF: Continuous Dynamics for Motion-Deblurring Radiance Fields" index=133>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-124 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-133 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5484,17 +5863,17 @@ Neural radiance fields (NeRF) has attracted considerable attention for their exc
 {{</citation>}}
 
 
-### (86/88 | 125/311) Adaptive Fusion of Single-View and Multi-View Depth for Autonomous Driving (JunDa Cheng et al., 2024)
+### (86/88 | 134/322) Adaptive Fusion of Single-View and Multi-View Depth for Autonomous Driving (JunDa Cheng et al., 2024)
 
 {{<citation>}}
 
 JunDa Cheng, Wei Yin, Kaixuan Wang, Xiaozhi Chen, Shijie Wang, Xin Yang. (2024)  
 **Adaptive Fusion of Single-View and Multi-View Depth for Autonomous Driving**
 <br/>
-<button class="copy-to-clipboard" title="Adaptive Fusion of Single-View and Multi-View Depth for Autonomous Driving" index=125>
+<button class="copy-to-clipboard" title="Adaptive Fusion of Single-View and Multi-View Depth for Autonomous Driving" index=134>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-125 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-134 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5519,17 +5898,17 @@ Multi-view depth estimation has achieved impressive performance over various <b>
 {{</citation>}}
 
 
-### (87/88 | 126/311) From Canteen Food to Daily Meals: Generalizing Food Recognition to More Practical Scenarios (Guoshan Liu et al., 2024)
+### (87/88 | 135/322) From Canteen Food to Daily Meals: Generalizing Food Recognition to More Practical Scenarios (Guoshan Liu et al., 2024)
 
 {{<citation>}}
 
 Guoshan Liu, Yang Jiao, Jingjing Chen, Bin Zhu, Yu-Gang Jiang. (2024)  
 **From Canteen Food to Daily Meals: Generalizing Food Recognition to More Practical Scenarios**
 <br/>
-<button class="copy-to-clipboard" title="From Canteen Food to Daily Meals: Generalizing Food Recognition to More Practical Scenarios" index=126>
+<button class="copy-to-clipboard" title="From Canteen Food to Daily Meals: Generalizing Food Recognition to More Practical Scenarios" index=135>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-126 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-135 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5554,17 +5933,17 @@ The precise recognition of food categories plays a pivotal role for intelligent 
 {{</citation>}}
 
 
-### (88/88 | 127/311) Learning Hierarchical Color Guidance for Depth Map Super-Resolution (Runmin Cong et al., 2024)
+### (88/88 | 136/322) Learning Hierarchical Color Guidance for Depth Map Super-Resolution (Runmin Cong et al., 2024)
 
 {{<citation>}}
 
 Runmin Cong, Ronghui Sheng, Hao Wu, Yulan Guo, Yunchao Wei, Wangmeng Zuo, Yao Zhao, Sam Kwong. (2024)  
 **Learning Hierarchical Color Guidance for Depth Map Super-Resolution**
 <br/>
-<button class="copy-to-clipboard" title="Learning Hierarchical Color Guidance for Depth Map Super-Resolution" index=127>
+<button class="copy-to-clipboard" title="Learning Hierarchical Color Guidance for Depth Map Super-Resolution" index=136>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-127 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-136 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5593,17 +5972,17 @@ Color information is the most commonly used prior knowledge for depth map super-
 
 
 
-### (1/55 | 128/311) KnowCoder: Coding Structured Knowledge into LLMs for Universal Information Extraction (Zixuan Li et al., 2024)
+### (1/55 | 137/322) KnowCoder: Coding Structured Knowledge into LLMs for Universal Information Extraction (Zixuan Li et al., 2024)
 
 {{<citation>}}
 
 Zixuan Li, Yutao Zeng, Yuxin Zuo, Weicheng Ren, Wenxuan Liu, Miao Su, Yucan Guo, Yantao Liu, Xiang Li, Zhilei Hu, Long Bai, Wei Li, Yidan Liu, Pan Yang, Xiaolong Jin, Jiafeng Guo, Xueqi Cheng. (2024)  
 **KnowCoder: Coding Structured Knowledge into LLMs for Universal Information Extraction**
 <br/>
-<button class="copy-to-clipboard" title="KnowCoder: Coding Structured Knowledge into LLMs for Universal Information Extraction" index=128>
+<button class="copy-to-clipboard" title="KnowCoder: Coding Structured Knowledge into LLMs for Universal Information Extraction" index=137>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-128 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-137 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5628,17 +6007,17 @@ In this paper, we propose KnowCoder, a <b>Large</b> <b>Language</b> <b>Model</b>
 {{</citation>}}
 
 
-### (2/55 | 129/311) ProPML: Probability Partial Multi-label Learning (Łukasz Struski et al., 2024)
+### (2/55 | 138/322) ProPML: Probability Partial Multi-label Learning (Łukasz Struski et al., 2024)
 
 {{<citation>}}
 
 Łukasz Struski, Adam Pardyl, Jacek Tabor, Bartosz Zieliński. (2024)  
 **ProPML: Probability Partial Multi-label Learning**
 <br/>
-<button class="copy-to-clipboard" title="ProPML: Probability Partial Multi-label Learning" index=129>
+<button class="copy-to-clipboard" title="ProPML: Probability Partial Multi-label Learning" index=138>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-129 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-138 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5663,17 +6042,17 @@ Partial Multi-label Learning (PML) is a type of <b>weakly</b> <b>supervised</b> 
 {{</citation>}}
 
 
-### (3/55 | 130/311) CHAI: Clustered Head Attention for Efficient LLM Inference (Saurabh Agarwal et al., 2024)
+### (3/55 | 139/322) CHAI: Clustered Head Attention for Efficient LLM Inference (Saurabh Agarwal et al., 2024)
 
 {{<citation>}}
 
 Saurabh Agarwal, Bilge Acun, Basil Homer, Mostafa Elhoushi, Yejin Lee, Shivaram Venkataraman, Dimitris Papailiopoulos, Carole-Jean Wu. (2024)  
 **CHAI: Clustered Head Attention for Efficient LLM Inference**
 <br/>
-<button class="copy-to-clipboard" title="CHAI: Clustered Head Attention for Efficient LLM Inference" index=130>
+<button class="copy-to-clipboard" title="CHAI: Clustered Head Attention for Efficient LLM Inference" index=139>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-130 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-139 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5698,17 +6077,17 @@ Keywords: Fine-tuning, LLaMA, Large Language Model, Large Language Model, Self-A
 {{</citation>}}
 
 
-### (4/55 | 131/311) Chronos: Learning the Language of Time Series (Abdul Fatir Ansari et al., 2024)
+### (4/55 | 140/322) Chronos: Learning the Language of Time Series (Abdul Fatir Ansari et al., 2024)
 
 {{<citation>}}
 
 Abdul Fatir Ansari, Lorenzo Stella, Caner Turkmen, Xiyuan Zhang, Pedro Mercado, Huibin Shen, Oleksandr Shchur, Syama Sundar Rangapuram, Sebastian Pineda Arango, Shubham Kapoor, Jasper Zschiegner, Danielle C. Maddix, Michael W. Mahoney, Kari Torkkola, Andrew Gordon Wilson, Michael Bohlke-Schneider, Yuyang Wang. (2024)  
 **Chronos: Learning the Language of Time Series**
 <br/>
-<button class="copy-to-clipboard" title="Chronos: Learning the Language of Time Series" index=131>
+<button class="copy-to-clipboard" title="Chronos: Learning the Language of Time Series" index=140>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-131 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-140 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5733,17 +6112,17 @@ We introduce Chronos, a simple yet effective framework for pretrained probabilis
 {{</citation>}}
 
 
-### (5/55 | 132/311) Efficient Language Model Architectures for Differentially Private Federated Learning (Jae Hun Ro et al., 2024)
+### (5/55 | 141/322) Efficient Language Model Architectures for Differentially Private Federated Learning (Jae Hun Ro et al., 2024)
 
 {{<citation>}}
 
 Jae Hun Ro, Srinadh Bhojanapalli, Zheng Xu, Yanxiang Zhang, Ananda Theertha Suresh. (2024)  
 **Efficient Language Model Architectures for Differentially Private Federated Learning**
 <br/>
-<button class="copy-to-clipboard" title="Efficient Language Model Architectures for Differentially Private Federated Learning" index=132>
+<button class="copy-to-clipboard" title="Efficient Language Model Architectures for Differentially Private Federated Learning" index=141>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-132 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-141 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5768,17 +6147,17 @@ Cross-device <b>federated</b> <b>learning</b> (FL) is a technique that trains a 
 {{</citation>}}
 
 
-### (6/55 | 133/311) Fairness Feedback Loops: Training on Synthetic Data Amplifies Bias (Sierra Wyllie et al., 2024)
+### (6/55 | 142/322) Fairness Feedback Loops: Training on Synthetic Data Amplifies Bias (Sierra Wyllie et al., 2024)
 
 {{<citation>}}
 
 Sierra Wyllie, Ilia Shumailov, Nicolas Papernot. (2024)  
 **Fairness Feedback Loops: Training on Synthetic Data Amplifies Bias**
 <br/>
-<button class="copy-to-clipboard" title="Fairness Feedback Loops: Training on Synthetic Data Amplifies Bias" index=133>
+<button class="copy-to-clipboard" title="Fairness Feedback Loops: Training on Synthetic Data Amplifies Bias" index=142>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-133 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-142 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5803,17 +6182,17 @@ Model-induced <b>distribution</b> <b>shifts</b> (MIDS) occur as previous model o
 {{</citation>}}
 
 
-### (7/55 | 134/311) Quantifying and Mitigating Privacy Risks for Tabular Generative Models (Chaoyi Zhu et al., 2024)
+### (7/55 | 143/322) Quantifying and Mitigating Privacy Risks for Tabular Generative Models (Chaoyi Zhu et al., 2024)
 
 {{<citation>}}
 
 Chaoyi Zhu, Jiayi Tang, Hans Brouwer, Juan F. Pérez, Marten van Dijk, Lydia Y. Chen. (2024)  
 **Quantifying and Mitigating Privacy Risks for Tabular Generative Models**
 <br/>
-<button class="copy-to-clipboard" title="Quantifying and Mitigating Privacy Risks for Tabular Generative Models" index=134>
+<button class="copy-to-clipboard" title="Quantifying and Mitigating Privacy Risks for Tabular Generative Models" index=143>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-134 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-143 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5838,17 +6217,17 @@ Synthetic data from <b>generative</b> <b>models</b> <b>emerges</b> as the privac
 {{</citation>}}
 
 
-### (8/55 | 135/311) Taming Pre-trained LLMs for Generalised Time Series Forecasting via Cross-modal Knowledge Distillation (Peiyuan Liu et al., 2024)
+### (8/55 | 144/322) Taming Pre-trained LLMs for Generalised Time Series Forecasting via Cross-modal Knowledge Distillation (Peiyuan Liu et al., 2024)
 
 {{<citation>}}
 
 Peiyuan Liu, Hang Guo, Tao Dai, Naiqi Li, Jigang Bao, Xudong Ren, Yong Jiang, Shu-Tao Xia. (2024)  
 **Taming Pre-trained LLMs for Generalised Time Series Forecasting via Cross-modal Knowledge Distillation**
 <br/>
-<button class="copy-to-clipboard" title="Taming Pre-trained LLMs for Generalised Time Series Forecasting via Cross-modal Knowledge Distillation" index=135>
+<button class="copy-to-clipboard" title="Taming Pre-trained LLMs for Generalised Time Series Forecasting via Cross-modal Knowledge Distillation" index=144>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-135 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-144 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5873,17 +6252,17 @@ Multivariate time series forecasting has recently gained great success with the 
 {{</citation>}}
 
 
-### (9/55 | 136/311) Disentangling Policy from Offline Task Representation Learning via Adversarial Data Augmentation (Chengxing Jia et al., 2024)
+### (9/55 | 145/322) Disentangling Policy from Offline Task Representation Learning via Adversarial Data Augmentation (Chengxing Jia et al., 2024)
 
 {{<citation>}}
 
 Chengxing Jia, Fuxiang Zhang, Yi-Chen Li, Chen-Xiao Gao, Xu-Hui Liu, Lei Yuan, Zongzhang Zhang, Yang Yu. (2024)  
 **Disentangling Policy from Offline Task Representation Learning via Adversarial Data Augmentation**
 <br/>
-<button class="copy-to-clipboard" title="Disentangling Policy from Offline Task Representation Learning via Adversarial Data Augmentation" index=136>
+<button class="copy-to-clipboard" title="Disentangling Policy from Offline Task Representation Learning via Adversarial Data Augmentation" index=145>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-136 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-145 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5908,17 +6287,17 @@ Offline meta-reinforcement learning (OMRL) proficiently allows an agent to tackl
 {{</citation>}}
 
 
-### (10/55 | 137/311) Iterative Graph Neural Network Enhancement via Frequent Subgraph Mining of Explanations (Harish G. Naik et al., 2024)
+### (10/55 | 146/322) Iterative Graph Neural Network Enhancement via Frequent Subgraph Mining of Explanations (Harish G. Naik et al., 2024)
 
 {{<citation>}}
 
 Harish G. Naik, Jan Polster, Raj Shekhar, Tamás Horváth, György Turán. (2024)  
 **Iterative Graph Neural Network Enhancement via Frequent Subgraph Mining of Explanations**
 <br/>
-<button class="copy-to-clipboard" title="Iterative Graph Neural Network Enhancement via Frequent Subgraph Mining of Explanations" index=137>
+<button class="copy-to-clipboard" title="Iterative Graph Neural Network Enhancement via Frequent Subgraph Mining of Explanations" index=146>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-137 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-146 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5943,17 +6322,17 @@ We formulate an XAI-based model improvement approach for <b>Graph</b> <b>Neural<
 {{</citation>}}
 
 
-### (11/55 | 138/311) Conditional computation in neural networks: principles and research trends (Simone Scardapane et al., 2024)
+### (11/55 | 147/322) Conditional computation in neural networks: principles and research trends (Simone Scardapane et al., 2024)
 
 {{<citation>}}
 
 Simone Scardapane, Alessandro Baiocchi, Alessio Devoto, Valerio Marsocci, Pasquale Minervini, Jary Pomponi. (2024)  
 **Conditional computation in neural networks: principles and research trends**
 <br/>
-<button class="copy-to-clipboard" title="Conditional computation in neural networks: principles and research trends" index=138>
+<button class="copy-to-clipboard" title="Conditional computation in neural networks: principles and research trends" index=147>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-138 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-147 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5978,17 +6357,17 @@ This article <b>summarizes</b> principles and ideas from the emerging area of ap
 {{</citation>}}
 
 
-### (12/55 | 139/311) Advantage-Aware Policy Optimization for Offline Reinforcement Learning (Yunpeng Qing et al., 2024)
+### (12/55 | 148/322) Advantage-Aware Policy Optimization for Offline Reinforcement Learning (Yunpeng Qing et al., 2024)
 
 {{<citation>}}
 
 Yunpeng Qing, Shunyu liu, Jingyuan Cong, Kaixuan Chen, Yihe Zhou, Mingli Song. (2024)  
 **Advantage-Aware Policy Optimization for Offline Reinforcement Learning**
 <br/>
-<button class="copy-to-clipboard" title="Advantage-Aware Policy Optimization for Offline Reinforcement Learning" index=139>
+<button class="copy-to-clipboard" title="Advantage-Aware Policy Optimization for Offline Reinforcement Learning" index=148>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-139 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-148 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6013,17 +6392,17 @@ Keywords: Benchmarking, Offline Reinforcement Learning, Out-of-distribution, Rei
 {{</citation>}}
 
 
-### (13/55 | 140/311) MicroT: Low-Energy and Adaptive Models for MCUs (Yushan Huang et al., 2024)
+### (13/55 | 149/322) MicroT: Low-Energy and Adaptive Models for MCUs (Yushan Huang et al., 2024)
 
 {{<citation>}}
 
 Yushan Huang, Ranya Aloufi, Xavier Cadet, Yuchen Zhao, Payam Barnaghi, Hamed Haddadi. (2024)  
 **MicroT: Low-Energy and Adaptive Models for MCUs**
 <br/>
-<button class="copy-to-clipboard" title="MicroT: Low-Energy and Adaptive Models for MCUs" index=140>
+<button class="copy-to-clipboard" title="MicroT: Low-Energy and Adaptive Models for MCUs" index=149>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-140 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-149 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6048,17 +6427,17 @@ We propose MicroT, a low-energy, multi-task adaptive model framework for resourc
 {{</citation>}}
 
 
-### (14/55 | 141/311) Maxwell's Demon at Work: Efficient Pruning by Leveraging Saturation of Neurons (Simon Dufort-Labbé et al., 2024)
+### (14/55 | 150/322) Maxwell's Demon at Work: Efficient Pruning by Leveraging Saturation of Neurons (Simon Dufort-Labbé et al., 2024)
 
 {{<citation>}}
 
 Simon Dufort-Labbé, Pierluca D'Oro, Evgenii Nikishin, Razvan Pascanu, Pierre-Luc Bacon, Aristide Baratin. (2024)  
 **Maxwell's Demon at Work: Efficient Pruning by Leveraging Saturation of Neurons**
 <br/>
-<button class="copy-to-clipboard" title="Maxwell's Demon at Work: Efficient Pruning by Leveraging Saturation of Neurons" index=141>
+<button class="copy-to-clipboard" title="Maxwell's Demon at Work: Efficient Pruning by Leveraging Saturation of Neurons" index=150>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-141 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-150 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6083,17 +6462,17 @@ When training deep neural networks, the phenomenon of $\textit{dying neurons}$ $
 {{</citation>}}
 
 
-### (15/55 | 142/311) Efficient Knowledge Deletion from Trained Models through Layer-wise Partial Machine Unlearning (Vinay Chakravarthi Gogineni et al., 2024)
+### (15/55 | 151/322) Efficient Knowledge Deletion from Trained Models through Layer-wise Partial Machine Unlearning (Vinay Chakravarthi Gogineni et al., 2024)
 
 {{<citation>}}
 
 Vinay Chakravarthi Gogineni, Esmaeil S. Nadimi. (2024)  
 **Efficient Knowledge Deletion from Trained Models through Layer-wise Partial Machine Unlearning**
 <br/>
-<button class="copy-to-clipboard" title="Efficient Knowledge Deletion from Trained Models through Layer-wise Partial Machine Unlearning" index=142>
+<button class="copy-to-clipboard" title="Efficient Knowledge Deletion from Trained Models through Layer-wise Partial Machine Unlearning" index=151>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-142 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-151 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6118,17 +6497,17 @@ Keywords: Fine-tuning, Machine Unlearning, Pruning
 {{</citation>}}
 
 
-### (16/55 | 143/311) Hallmarks of Optimization Trajectories in Neural Networks and LLMs: The Lengths, Bends, and Dead Ends (Sidak Pal Singh et al., 2024)
+### (16/55 | 152/322) Hallmarks of Optimization Trajectories in Neural Networks and LLMs: The Lengths, Bends, and Dead Ends (Sidak Pal Singh et al., 2024)
 
 {{<citation>}}
 
 Sidak Pal Singh, Bobby He, Thomas Hofmann, Bernhard Schölkopf. (2024)  
 **Hallmarks of Optimization Trajectories in Neural Networks and LLMs: The Lengths, Bends, and Dead Ends**
 <br/>
-<button class="copy-to-clipboard" title="Hallmarks of Optimization Trajectories in Neural Networks and LLMs: The Lengths, Bends, and Dead Ends" index=143>
+<button class="copy-to-clipboard" title="Hallmarks of Optimization Trajectories in Neural Networks and LLMs: The Lengths, Bends, and Dead Ends" index=152>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-143 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-152 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6153,17 +6532,17 @@ We propose a fresh take on understanding the mechanisms of neural networks by an
 {{</citation>}}
 
 
-### (17/55 | 144/311) Abstracting Sparse DNN Acceleration via Structured Sparse Tensor Decomposition (Geonhwa Jeong et al., 2024)
+### (17/55 | 153/322) Abstracting Sparse DNN Acceleration via Structured Sparse Tensor Decomposition (Geonhwa Jeong et al., 2024)
 
 {{<citation>}}
 
 Geonhwa Jeong, Po-An Tsai, Abhimanyu R. Bambhaniya, Stephen W. Keckler, Tushar Krishna. (2024)  
 **Abstracting Sparse DNN Acceleration via Structured Sparse Tensor Decomposition**
 <br/>
-<button class="copy-to-clipboard" title="Abstracting Sparse DNN Acceleration via Structured Sparse Tensor Decomposition" index=144>
+<button class="copy-to-clipboard" title="Abstracting Sparse DNN Acceleration via Structured Sparse Tensor Decomposition" index=153>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-144 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-153 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6188,17 +6567,17 @@ Exploiting sparsity in deep neural networks (DNNs) has been a promising area to 
 {{</citation>}}
 
 
-### (18/55 | 145/311) Verification-Aided Learning of Neural Network Barrier Functions with Termination Guarantees (Shaoru Chen et al., 2024)
+### (18/55 | 154/322) Verification-Aided Learning of Neural Network Barrier Functions with Termination Guarantees (Shaoru Chen et al., 2024)
 
 {{<citation>}}
 
 Shaoru Chen, Lekan Molu, Mahyar Fazlyab. (2024)  
 **Verification-Aided Learning of Neural Network Barrier Functions with Termination Guarantees**
 <br/>
-<button class="copy-to-clipboard" title="Verification-Aided Learning of Neural Network Barrier Functions with Termination Guarantees" index=145>
+<button class="copy-to-clipboard" title="Verification-Aided Learning of Neural Network Barrier Functions with Termination Guarantees" index=154>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-145 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-154 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6223,17 +6602,17 @@ Barrier functions are a general framework for establishing a safety guarantee fo
 {{</citation>}}
 
 
-### (19/55 | 146/311) WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks? (Alexandre Drouin et al., 2024)
+### (19/55 | 155/322) WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks? (Alexandre Drouin et al., 2024)
 
 {{<citation>}}
 
 Alexandre Drouin, Maxime Gasse, Massimo Caccia, Issam H. Laradji, Manuel Del Verme, Tom Marty, Léo Boisvert, Megh Thakkar, Quentin Cappart, David Vazquez, Nicolas Chapados, Alexandre Lacoste. (2024)  
 **WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?**
 <br/>
-<button class="copy-to-clipboard" title="WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?" index=146>
+<button class="copy-to-clipboard" title="WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?" index=155>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-146 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-155 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6258,17 +6637,17 @@ We study the use of <b>large</b> <b>language</b> <b>model-based</b> agents for i
 {{</citation>}}
 
 
-### (20/55 | 147/311) Early Directional Convergence in Deep Homogeneous Neural Networks for Small Initializations (Akshay Kumar et al., 2024)
+### (20/55 | 156/322) Early Directional Convergence in Deep Homogeneous Neural Networks for Small Initializations (Akshay Kumar et al., 2024)
 
 {{<citation>}}
 
 Akshay Kumar, Jarvis Haupt. (2024)  
 **Early Directional Convergence in Deep Homogeneous Neural Networks for Small Initializations**
 <br/>
-<button class="copy-to-clipboard" title="Early Directional Convergence in Deep Homogeneous Neural Networks for Small Initializations" index=147>
+<button class="copy-to-clipboard" title="Early Directional Convergence in Deep Homogeneous Neural Networks for Small Initializations" index=156>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-147 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-156 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6293,17 +6672,17 @@ This paper studies the gradient flow dynamics that arise when training deep homo
 {{</citation>}}
 
 
-### (21/55 | 148/311) Mechanics of Next Token Prediction with Self-Attention (Yingcong Li et al., 2024)
+### (21/55 | 157/322) Mechanics of Next Token Prediction with Self-Attention (Yingcong Li et al., 2024)
 
 {{<citation>}}
 
 Yingcong Li, Yixiao Huang, M. Emrullah Ildiz, Ankit Singh Rawat, Samet Oymak. (2024)  
 **Mechanics of Next Token Prediction with Self-Attention**
 <br/>
-<button class="copy-to-clipboard" title="Mechanics of Next Token Prediction with Self-Attention" index=148>
+<button class="copy-to-clipboard" title="Mechanics of Next Token Prediction with Self-Attention" index=157>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-148 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-157 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6328,17 +6707,17 @@ Keywords: Graph, Transformer, Self-Attention
 {{</citation>}}
 
 
-### (22/55 | 149/311) DrivAerNet: A Parametric Car Dataset for Data-Driven Aerodynamic Design and Graph-Based Drag Prediction (Mohamed Elrefaie et al., 2024)
+### (22/55 | 158/322) DrivAerNet: A Parametric Car Dataset for Data-Driven Aerodynamic Design and Graph-Based Drag Prediction (Mohamed Elrefaie et al., 2024)
 
 {{<citation>}}
 
 Mohamed Elrefaie, Angela Dai, Faez Ahmed. (2024)  
 **DrivAerNet: A Parametric Car Dataset for Data-Driven Aerodynamic Design and Graph-Based Drag Prediction**
 <br/>
-<button class="copy-to-clipboard" title="DrivAerNet: A Parametric Car Dataset for Data-Driven Aerodynamic Design and Graph-Based Drag Prediction" index=149>
+<button class="copy-to-clipboard" title="DrivAerNet: A Parametric Car Dataset for Data-Driven Aerodynamic Design and Graph-Based Drag Prediction" index=158>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-149 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-158 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6363,17 +6742,17 @@ This study introduces DrivAerNet, a large-scale high-fidelity CFD dataset of 3D 
 {{</citation>}}
 
 
-### (23/55 | 150/311) Symmetric Q-learning: Reducing Skewness of Bellman Error in Online Reinforcement Learning (Motoki Omura et al., 2024)
+### (23/55 | 159/322) Symmetric Q-learning: Reducing Skewness of Bellman Error in Online Reinforcement Learning (Motoki Omura et al., 2024)
 
 {{<citation>}}
 
 Motoki Omura, Takayuki Osa, Yusuke Mukuta, Tatsuya Harada. (2024)  
 **Symmetric Q-learning: Reducing Skewness of Bellman Error in Online Reinforcement Learning**
 <br/>
-<button class="copy-to-clipboard" title="Symmetric Q-learning: Reducing Skewness of Bellman Error in Online Reinforcement Learning" index=150>
+<button class="copy-to-clipboard" title="Symmetric Q-learning: Reducing Skewness of Bellman Error in Online Reinforcement Learning" index=159>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-150 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-159 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6398,17 +6777,17 @@ In deep <b>reinforcement</b> <b>learning,</b> estimating the value function to e
 {{</citation>}}
 
 
-### (24/55 | 151/311) Harder Tasks Need More Experts: Dynamic Routing in MoE Models (Quzhe Huang et al., 2024)
+### (24/55 | 160/322) Harder Tasks Need More Experts: Dynamic Routing in MoE Models (Quzhe Huang et al., 2024)
 
 {{<citation>}}
 
 Quzhe Huang, Zhenwei An, Nan Zhuang, Mingxu Tao, Chen Zhang, Yang Jin, Kun Xu, Kun Xu, Liwei Chen, Songfang Huang, Yansong Feng. (2024)  
 **Harder Tasks Need More Experts: Dynamic Routing in MoE Models**
 <br/>
-<button class="copy-to-clipboard" title="Harder Tasks Need More Experts: Dynamic Routing in MoE Models" index=151>
+<button class="copy-to-clipboard" title="Harder Tasks Need More Experts: Dynamic Routing in MoE Models" index=160>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-151 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-160 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6433,17 +6812,17 @@ In this paper, we introduce a novel dynamic expert selection framework for Mixtu
 {{</citation>}}
 
 
-### (25/55 | 152/311) Federated Learning of Socially Appropriate Agent Behaviours in Simulated Home Environments (Saksham Checker et al., 2024)
+### (25/55 | 161/322) Federated Learning of Socially Appropriate Agent Behaviours in Simulated Home Environments (Saksham Checker et al., 2024)
 
 {{<citation>}}
 
 Saksham Checker, Nikhil Churamani, Hatice Gunes. (2024)  
 **Federated Learning of Socially Appropriate Agent Behaviours in Simulated Home Environments**
 <br/>
-<button class="copy-to-clipboard" title="Federated Learning of Socially Appropriate Agent Behaviours in Simulated Home Environments" index=152>
+<button class="copy-to-clipboard" title="Federated Learning of Socially Appropriate Agent Behaviours in Simulated Home Environments" index=161>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-152 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-161 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6468,17 +6847,17 @@ As social robots become increasingly integrated into daily life, ensuring their 
 {{</citation>}}
 
 
-### (26/55 | 153/311) Optimizing Polynomial Graph Filters: A Novel Adaptive Krylov Subspace Approach (Keke Huang et al., 2024)
+### (26/55 | 162/322) Optimizing Polynomial Graph Filters: A Novel Adaptive Krylov Subspace Approach (Keke Huang et al., 2024)
 
 {{<citation>}}
 
 Keke Huang, Wencai Cao, Hoang Ta, Xiaokui Xiao, Pietro Liò. (2024)  
 **Optimizing Polynomial Graph Filters: A Novel Adaptive Krylov Subspace Approach**
 <br/>
-<button class="copy-to-clipboard" title="Optimizing Polynomial Graph Filters: A Novel Adaptive Krylov Subspace Approach" index=153>
+<button class="copy-to-clipboard" title="Optimizing Polynomial Graph Filters: A Novel Adaptive Krylov Subspace Approach" index=162>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-153 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-162 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6503,17 +6882,17 @@ Keywords: Graph, Graph Neural Network, Graph Neural Network
 {{</citation>}}
 
 
-### (27/55 | 154/311) Graph Unlearning with Efficient Partial Retraining (Jiahao Zhang et al., 2024)
+### (27/55 | 163/322) Graph Unlearning with Efficient Partial Retraining (Jiahao Zhang et al., 2024)
 
 {{<citation>}}
 
 Jiahao Zhang, Lin Wang, Shijie Wang, Wenqi Fan. (2024)  
 **Graph Unlearning with Efficient Partial Retraining**
 <br/>
-<button class="copy-to-clipboard" title="Graph Unlearning with Efficient Partial Retraining" index=154>
+<button class="copy-to-clipboard" title="Graph Unlearning with Efficient Partial Retraining" index=163>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-154 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-163 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6538,17 +6917,17 @@ Keywords: Graph, Graph Neural Network, Graph Neural Network
 {{</citation>}}
 
 
-### (28/55 | 155/311) Graph Data Condensation via Self-expressive Graph Structure Reconstruction (Zhanyu Liu et al., 2024)
+### (28/55 | 164/322) Graph Data Condensation via Self-expressive Graph Structure Reconstruction (Zhanyu Liu et al., 2024)
 
 {{<citation>}}
 
 Zhanyu Liu, Chaolv Zeng, Guanjie Zheng. (2024)  
 **Graph Data Condensation via Self-expressive Graph Structure Reconstruction**
 <br/>
-<button class="copy-to-clipboard" title="Graph Data Condensation via Self-expressive Graph Structure Reconstruction" index=155>
+<button class="copy-to-clipboard" title="Graph Data Condensation via Self-expressive Graph Structure Reconstruction" index=164>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-155 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-164 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6573,17 +6952,17 @@ With the increasing demands of training <b>graph</b> <b>neural</b> <b>networks</
 {{</citation>}}
 
 
-### (29/55 | 156/311) Supervised Time Series Classification for Anomaly Detection in Subsea Engineering (Ergys Çokaj et al., 2024)
+### (29/55 | 165/322) Supervised Time Series Classification for Anomaly Detection in Subsea Engineering (Ergys Çokaj et al., 2024)
 
 {{<citation>}}
 
 Ergys Çokaj, Halvor Snersrud Gustad, Andrea Leone, Per Thomas Moe, Lasse Moldestad. (2024)  
 **Supervised Time Series Classification for Anomaly Detection in Subsea Engineering**
 <br/>
-<button class="copy-to-clipboard" title="Supervised Time Series Classification for Anomaly Detection in Subsea Engineering" index=156>
+<button class="copy-to-clipboard" title="Supervised Time Series Classification for Anomaly Detection in Subsea Engineering" index=165>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-156 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-165 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6608,17 +6987,17 @@ Time series classification is of significant importance in monitoring structural
 {{</citation>}}
 
 
-### (30/55 | 157/311) On the Last-Iterate Convergence of Shuffling Gradient Methods (Zijian Liu et al., 2024)
+### (30/55 | 166/322) On the Last-Iterate Convergence of Shuffling Gradient Methods (Zijian Liu et al., 2024)
 
 {{<citation>}}
 
 Zijian Liu, Zhengyuan Zhou. (2024)  
 **On the Last-Iterate Convergence of Shuffling Gradient Methods**
 <br/>
-<button class="copy-to-clipboard" title="On the Last-Iterate Convergence of Shuffling Gradient Methods" index=157>
+<button class="copy-to-clipboard" title="On the Last-Iterate Convergence of Shuffling Gradient Methods" index=166>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-157 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-166 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6643,17 +7022,17 @@ Shuffling gradient methods, which are also known as <b>stochastic</b> <b>gradien
 {{</citation>}}
 
 
-### (31/55 | 158/311) Do Deep Neural Network Solutions Form a Star Domain? (Ankit Sonthalia et al., 2024)
+### (31/55 | 167/322) Do Deep Neural Network Solutions Form a Star Domain? (Ankit Sonthalia et al., 2024)
 
 {{<citation>}}
 
 Ankit Sonthalia, Alexander Rubinstein, Ehsan Abbasnejad, Seong Joon Oh. (2024)  
 **Do Deep Neural Network Solutions Form a Star Domain?**
 <br/>
-<button class="copy-to-clipboard" title="Do Deep Neural Network Solutions Form a Star Domain?" index=158>
+<button class="copy-to-clipboard" title="Do Deep Neural Network Solutions Form a Star Domain?" index=167>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-158 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-167 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6678,17 +7057,17 @@ Entezari et al. (2022) conjectured that neural network solution sets reachable v
 {{</citation>}}
 
 
-### (32/55 | 159/311) Visual Privacy Auditing with Diffusion Models (Kristian Schwethelm et al., 2024)
+### (32/55 | 168/322) Visual Privacy Auditing with Diffusion Models (Kristian Schwethelm et al., 2024)
 
 {{<citation>}}
 
 Kristian Schwethelm, Johannes Kaiser, Moritz Knolle, Daniel Rueckert, Georgios Kaissis, Alexander Ziller. (2024)  
 **Visual Privacy Auditing with Diffusion Models**
 <br/>
-<button class="copy-to-clipboard" title="Visual Privacy Auditing with Diffusion Models" index=159>
+<button class="copy-to-clipboard" title="Visual Privacy Auditing with Diffusion Models" index=168>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-159 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-168 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6713,17 +7092,17 @@ Image reconstruction attacks on machine learning models pose a significant risk 
 {{</citation>}}
 
 
-### (33/55 | 160/311) Experimental Comparison of Ensemble Methods and Time-to-Event Analysis Models Through Integrated Brier Score and Concordance Index (Camila Fernandez et al., 2024)
+### (33/55 | 169/322) Experimental Comparison of Ensemble Methods and Time-to-Event Analysis Models Through Integrated Brier Score and Concordance Index (Camila Fernandez et al., 2024)
 
 {{<citation>}}
 
 Camila Fernandez, Chung Shue Chen, Chen Pierre Gaillard, Alonso Silva. (2024)  
 **Experimental Comparison of Ensemble Methods and Time-to-Event Analysis Models Through Integrated Brier Score and Concordance Index**
 <br/>
-<button class="copy-to-clipboard" title="Experimental Comparison of Ensemble Methods and Time-to-Event Analysis Models Through Integrated Brier Score and Concordance Index" index=160>
+<button class="copy-to-clipboard" title="Experimental Comparison of Ensemble Methods and Time-to-Event Analysis Models Through Integrated Brier Score and Concordance Index" index=169>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-160 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-169 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6748,17 +7127,17 @@ Time-to-event analysis is a branch of statistics that has increased in popularit
 {{</citation>}}
 
 
-### (34/55 | 161/311) Proxy Methods for Domain Adaptation (Katherine Tsai et al., 2024)
+### (34/55 | 170/322) Proxy Methods for Domain Adaptation (Katherine Tsai et al., 2024)
 
 {{<citation>}}
 
 Katherine Tsai, Stephen R. Pfohl, Olawale Salaudeen, Nicole Chiou, Matt J. Kusner, Alexander D'Amour, Sanmi Koyejo, Arthur Gretton. (2024)  
 **Proxy Methods for Domain Adaptation**
 <br/>
-<button class="copy-to-clipboard" title="Proxy Methods for Domain Adaptation" index=161>
+<button class="copy-to-clipboard" title="Proxy Methods for Domain Adaptation" index=170>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-161 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-170 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6783,17 +7162,17 @@ We study the problem of <b>domain</b> <b>adaptation</b> under <b>distribution</b
 {{</citation>}}
 
 
-### (35/55 | 162/311) Enhancing Transfer Learning with Flexible Nonparametric Posterior Sampling (Hyungi Lee et al., 2024)
+### (35/55 | 171/322) Enhancing Transfer Learning with Flexible Nonparametric Posterior Sampling (Hyungi Lee et al., 2024)
 
 {{<citation>}}
 
 Hyungi Lee, Giung Nam, Edwin Fong, Juho Lee. (2024)  
 **Enhancing Transfer Learning with Flexible Nonparametric Posterior Sampling**
 <br/>
-<button class="copy-to-clipboard" title="Enhancing Transfer Learning with Flexible Nonparametric Posterior Sampling" index=162>
+<button class="copy-to-clipboard" title="Enhancing Transfer Learning with Flexible Nonparametric Posterior Sampling" index=171>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-162 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-171 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6818,17 +7197,17 @@ Keywords: Distribution Shift, Distribution Shift, Transfer Learning
 {{</citation>}}
 
 
-### (36/55 | 163/311) LookupFFN: Making Transformers Compute-lite for CPU inference (Zhanpeng Zeng et al., 2024)
+### (36/55 | 172/322) LookupFFN: Making Transformers Compute-lite for CPU inference (Zhanpeng Zeng et al., 2024)
 
 {{<citation>}}
 
 Zhanpeng Zeng, Michael Davies, Pranav Pulijala, Karthikeyan Sankaralingam, Vikas Singh. (2024)  
 **LookupFFN: Making Transformers Compute-lite for CPU inference**
 <br/>
-<button class="copy-to-clipboard" title="LookupFFN: Making Transformers Compute-lite for CPU inference" index=163>
+<button class="copy-to-clipboard" title="LookupFFN: Making Transformers Compute-lite for CPU inference" index=172>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-163 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-172 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6853,17 +7232,17 @@ While GPU clusters are the de facto choice for training large deep neural networ
 {{</citation>}}
 
 
-### (37/55 | 164/311) A tutorial on multi-view autoencoders using the multi-view-AE library (Ana Lawry Aguila et al., 2024)
+### (37/55 | 173/322) A tutorial on multi-view autoencoders using the multi-view-AE library (Ana Lawry Aguila et al., 2024)
 
 {{<citation>}}
 
 Ana Lawry Aguila, Andre Altmann. (2024)  
 **A tutorial on multi-view autoencoders using the multi-view-AE library**
 <br/>
-<button class="copy-to-clipboard" title="A tutorial on multi-view autoencoders using the multi-view-AE library" index=164>
+<button class="copy-to-clipboard" title="A tutorial on multi-view autoencoders using the multi-view-AE library" index=173>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-164 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-173 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6888,17 +7267,17 @@ There has been a growing interest in recent years in modelling multiple modaliti
 {{</citation>}}
 
 
-### (38/55 | 165/311) 12 mJ per Class On-Device Online Few-Shot Class-Incremental Learning (Yoga Esa Wibowo et al., 2024)
+### (38/55 | 174/322) 12 mJ per Class On-Device Online Few-Shot Class-Incremental Learning (Yoga Esa Wibowo et al., 2024)
 
 {{<citation>}}
 
 Yoga Esa Wibowo, Cristian Cioflan, Thorir Mar Ingolfsson, Michael Hersche, Leo Zhao, Abbas Rahimi, Luca Benini. (2024)  
 **12 mJ per Class On-Device Online Few-Shot Class-Incremental Learning**
 <br/>
-<button class="copy-to-clipboard" title="12 mJ per Class On-Device Online Few-Shot Class-Incremental Learning" index=165>
+<button class="copy-to-clipboard" title="12 mJ per Class On-Device Online Few-Shot Class-Incremental Learning" index=174>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-165 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-174 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6923,17 +7302,17 @@ Keywords: Benchmarking, Few-shot
 {{</citation>}}
 
 
-### (39/55 | 166/311) Accelerated Inference and Reduced Forgetting: The Dual Benefits of Early-Exit Networks in Continual Learning (Filip Szatkowski et al., 2024)
+### (39/55 | 175/322) Accelerated Inference and Reduced Forgetting: The Dual Benefits of Early-Exit Networks in Continual Learning (Filip Szatkowski et al., 2024)
 
 {{<citation>}}
 
 Filip Szatkowski, Fei Yang, Bartłomiej Twardowski, Tomasz Trzciński, Joost van de Weijer. (2024)  
 **Accelerated Inference and Reduced Forgetting: The Dual Benefits of Early-Exit Networks in Continual Learning**
 <br/>
-<button class="copy-to-clipboard" title="Accelerated Inference and Reduced Forgetting: The Dual Benefits of Early-Exit Networks in Continual Learning" index=166>
+<button class="copy-to-clipboard" title="Accelerated Inference and Reduced Forgetting: The Dual Benefits of Early-Exit Networks in Continual Learning" index=175>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-166 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-175 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6958,17 +7337,17 @@ Driven by the demand for energy-efficient employment of deep neural networks, ea
 {{</citation>}}
 
 
-### (40/55 | 167/311) Dataset Condensation for Time Series Classification via Dual Domain Matching (Zhanyu Liu et al., 2024)
+### (40/55 | 176/322) Dataset Condensation for Time Series Classification via Dual Domain Matching (Zhanyu Liu et al., 2024)
 
 {{<citation>}}
 
 Zhanyu Liu, Ke Hao, Guanjie Zheng, Yanwei Yu. (2024)  
 **Dataset Condensation for Time Series Classification via Dual Domain Matching**
 <br/>
-<button class="copy-to-clipboard" title="Dataset Condensation for Time Series Classification via Dual Domain Matching" index=167>
+<button class="copy-to-clipboard" title="Dataset Condensation for Time Series Classification via Dual Domain Matching" index=176>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-167 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-176 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6993,17 +7372,17 @@ Time series <b>data</b> <b>has</b> been demonstrated to be crucial in various re
 {{</citation>}}
 
 
-### (41/55 | 168/311) Towards Independence Criterion in Machine Unlearning of Features and Labels (Ling Han et al., 2024)
+### (41/55 | 177/322) Towards Independence Criterion in Machine Unlearning of Features and Labels (Ling Han et al., 2024)
 
 {{<citation>}}
 
 Ling Han, Nanqing Luo, Hao Huang, Jing Chen, Mary-Anne Hartley. (2024)  
 **Towards Independence Criterion in Machine Unlearning of Features and Labels**
 <br/>
-<button class="copy-to-clipboard" title="Towards Independence Criterion in Machine Unlearning of Features and Labels" index=168>
+<button class="copy-to-clipboard" title="Towards Independence Criterion in Machine Unlearning of Features and Labels" index=177>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-168 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-177 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7028,17 +7407,17 @@ This work delves into the complexities of <b>machine</b> <b>unlearning</b> in th
 {{</citation>}}
 
 
-### (42/55 | 169/311) Do Agents Dream of Electric Sheep?: Improving Generalization in Reinforcement Learning through Generative Learning (Giorgio Franceschelli et al., 2024)
+### (42/55 | 178/322) Do Agents Dream of Electric Sheep?: Improving Generalization in Reinforcement Learning through Generative Learning (Giorgio Franceschelli et al., 2024)
 
 {{<citation>}}
 
 Giorgio Franceschelli, Mirco Musolesi. (2024)  
 **Do Agents Dream of Electric Sheep?: Improving Generalization in Reinforcement Learning through Generative Learning**
 <br/>
-<button class="copy-to-clipboard" title="Do Agents Dream of Electric Sheep?: Improving Generalization in Reinforcement Learning through Generative Learning" index=169>
+<button class="copy-to-clipboard" title="Do Agents Dream of Electric Sheep?: Improving Generalization in Reinforcement Learning through Generative Learning" index=178>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-169 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-178 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7063,17 +7442,17 @@ The Overfitted Brain hypothesis suggests dreams happen to allow generalization i
 {{</citation>}}
 
 
-### (43/55 | 170/311) Balancing Fairness and Accuracy in Data-Restricted Binary Classification (Zachary McBride Lazri et al., 2024)
+### (43/55 | 179/322) Balancing Fairness and Accuracy in Data-Restricted Binary Classification (Zachary McBride Lazri et al., 2024)
 
 {{<citation>}}
 
 Zachary McBride Lazri, Danial Dervovic, Antigoni Polychroniadou, Ivan Brugere, Dana Dachman-Soled, Min Wu. (2024)  
 **Balancing Fairness and Accuracy in Data-Restricted Binary Classification**
 <br/>
-<button class="copy-to-clipboard" title="Balancing Fairness and Accuracy in Data-Restricted Binary Classification" index=170>
+<button class="copy-to-clipboard" title="Balancing Fairness and Accuracy in Data-Restricted Binary Classification" index=179>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-170 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-179 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7098,17 +7477,17 @@ Applications that deal with sensitive information may have restrictions placed o
 {{</citation>}}
 
 
-### (44/55 | 171/311) Scalable Spatiotemporal Prediction with Bayesian Neural Fields (Feras Saad et al., 2024)
+### (44/55 | 180/322) Scalable Spatiotemporal Prediction with Bayesian Neural Fields (Feras Saad et al., 2024)
 
 {{<citation>}}
 
 Feras Saad, Jacob Burnim, Colin Carroll, Brian Patton, Urs Köster, Rif A. Saurous, Matthew Hoffman. (2024)  
 **Scalable Spatiotemporal Prediction with Bayesian Neural Fields**
 <br/>
-<button class="copy-to-clipboard" title="Scalable Spatiotemporal Prediction with Bayesian Neural Fields" index=171>
+<button class="copy-to-clipboard" title="Scalable Spatiotemporal Prediction with Bayesian Neural Fields" index=180>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-171 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-180 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7133,17 +7512,17 @@ Spatiotemporal datasets, which consist of spatially-referenced time series, are 
 {{</citation>}}
 
 
-### (45/55 | 172/311) Constrained Optimal Fuel Consumption of HEV: A Constrained Reinforcement Learning Approach (Shuchang Yan, 2024)
+### (45/55 | 181/322) Constrained Optimal Fuel Consumption of HEV: A Constrained Reinforcement Learning Approach (Shuchang Yan, 2024)
 
 {{<citation>}}
 
 Shuchang Yan. (2024)  
 **Constrained Optimal Fuel Consumption of HEV: A Constrained Reinforcement Learning Approach**
 <br/>
-<button class="copy-to-clipboard" title="Constrained Optimal Fuel Consumption of HEV: A Constrained Reinforcement Learning Approach" index=172>
+<button class="copy-to-clipboard" title="Constrained Optimal Fuel Consumption of HEV: A Constrained Reinforcement Learning Approach" index=181>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-172 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-181 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7168,17 +7547,17 @@ Hybrid electric vehicles (HEVs) are becoming increasingly popular because they c
 {{</citation>}}
 
 
-### (46/55 | 173/311) XpertAI: uncovering model strategies for sub-manifolds (Simon Letzgus et al., 2024)
+### (46/55 | 182/322) XpertAI: uncovering model strategies for sub-manifolds (Simon Letzgus et al., 2024)
 
 {{<citation>}}
 
 Simon Letzgus, Klaus-Robert Müller, Grégoire Montavon. (2024)  
 **XpertAI: uncovering model strategies for sub-manifolds**
 <br/>
-<button class="copy-to-clipboard" title="XpertAI: uncovering model strategies for sub-manifolds" index=173>
+<button class="copy-to-clipboard" title="XpertAI: uncovering model strategies for sub-manifolds" index=182>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-173 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-182 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7203,17 +7582,17 @@ In recent years, <b>Explainable</b> <b>AI</b> (XAI) methods have facilitated pro
 {{</citation>}}
 
 
-### (47/55 | 174/311) DeepCDCL: An CDCL-based Neural Network Verification Framework (Zongxin Liu et al., 2024)
+### (47/55 | 183/322) DeepCDCL: An CDCL-based Neural Network Verification Framework (Zongxin Liu et al., 2024)
 
 {{<citation>}}
 
 Zongxin Liu, Pengfei Yang, Lijun Zhang, Xiaowei Huang. (2024)  
 **DeepCDCL: An CDCL-based Neural Network Verification Framework**
 <br/>
-<button class="copy-to-clipboard" title="DeepCDCL: An CDCL-based Neural Network Verification Framework" index=174>
+<button class="copy-to-clipboard" title="DeepCDCL: An CDCL-based Neural Network Verification Framework" index=183>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-174 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-183 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7238,17 +7617,17 @@ Neural networks in safety-critical applications face increasing safety and secur
 {{</citation>}}
 
 
-### (48/55 | 175/311) Towards Faithful Explanations: Boosting Rationalization with Shortcuts Discovery (Linan Yue et al., 2024)
+### (48/55 | 184/322) Towards Faithful Explanations: Boosting Rationalization with Shortcuts Discovery (Linan Yue et al., 2024)
 
 {{<citation>}}
 
 Linan Yue, Qi Liu, Yichao Du, Li Wang, Weibo Gao, Yanqing An. (2024)  
 **Towards Faithful Explanations: Boosting Rationalization with Shortcuts Discovery**
 <br/>
-<button class="copy-to-clipboard" title="Towards Faithful Explanations: Boosting Rationalization with Shortcuts Discovery" index=175>
+<button class="copy-to-clipboard" title="Towards Faithful Explanations: Boosting Rationalization with Shortcuts Discovery" index=184>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-175 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-184 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7273,17 +7652,17 @@ The remarkable success in neural networks provokes the selective rationalization
 {{</citation>}}
 
 
-### (49/55 | 176/311) Challenging Forgets: Unveiling the Worst-Case Forget Sets in Machine Unlearning (Chongyu Fan et al., 2024)
+### (49/55 | 185/322) Challenging Forgets: Unveiling the Worst-Case Forget Sets in Machine Unlearning (Chongyu Fan et al., 2024)
 
 {{<citation>}}
 
 Chongyu Fan, Jiancheng Liu, Alfred Hero, Sijia Liu. (2024)  
 **Challenging Forgets: Unveiling the Worst-Case Forget Sets in Machine Unlearning**
 <br/>
-<button class="copy-to-clipboard" title="Challenging Forgets: Unveiling the Worst-Case Forget Sets in Machine Unlearning" index=176>
+<button class="copy-to-clipboard" title="Challenging Forgets: Unveiling the Worst-Case Forget Sets in Machine Unlearning" index=185>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-176 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-185 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7308,17 +7687,17 @@ The trustworthy <b>machine</b> <b>learning</b> (ML) community is increasingly re
 {{</citation>}}
 
 
-### (50/55 | 177/311) IM-Unpack: Training and Inference with Arbitrarily Low Precision Integers (Zhanpeng Zeng et al., 2024)
+### (50/55 | 186/322) IM-Unpack: Training and Inference with Arbitrarily Low Precision Integers (Zhanpeng Zeng et al., 2024)
 
 {{<citation>}}
 
 Zhanpeng Zeng, Karthikeyan Sankaralingam, Vikas Singh. (2024)  
 **IM-Unpack: Training and Inference with Arbitrarily Low Precision Integers**
 <br/>
-<button class="copy-to-clipboard" title="IM-Unpack: Training and Inference with Arbitrarily Low Precision Integers" index=177>
+<button class="copy-to-clipboard" title="IM-Unpack: Training and Inference with Arbitrarily Low Precision Integers" index=186>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-177 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-186 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7343,17 +7722,17 @@ GEneral Matrix Multiply (GEMM) is a central operation in deep learning and corre
 {{</citation>}}
 
 
-### (51/55 | 178/311) Reinforced Sequential Decision-Making for Sepsis Treatment: The POSNEGDM Framework with Mortality Classifier and Transformer (Dipesh Tamboli et al., 2024)
+### (51/55 | 187/322) Reinforced Sequential Decision-Making for Sepsis Treatment: The POSNEGDM Framework with Mortality Classifier and Transformer (Dipesh Tamboli et al., 2024)
 
 {{<citation>}}
 
 Dipesh Tamboli, Jiayu Chen, Kiran Pranesh Jotheeswaran, Denny Yu, Vaneet Aggarwal. (2024)  
 **Reinforced Sequential Decision-Making for Sepsis Treatment: The POSNEGDM Framework with Mortality Classifier and Transformer**
 <br/>
-<button class="copy-to-clipboard" title="Reinforced Sequential Decision-Making for Sepsis Treatment: The POSNEGDM Framework with Mortality Classifier and Transformer" index=178>
+<button class="copy-to-clipboard" title="Reinforced Sequential Decision-Making for Sepsis Treatment: The POSNEGDM Framework with Mortality Classifier and Transformer" index=187>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-178 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-187 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7378,17 +7757,17 @@ Sepsis, a life-threatening condition triggered by the body's exaggerated respons
 {{</citation>}}
 
 
-### (52/55 | 179/311) Learning-Augmented Algorithms with Explicit Predictors (Marek Elias et al., 2024)
+### (52/55 | 188/322) Learning-Augmented Algorithms with Explicit Predictors (Marek Elias et al., 2024)
 
 {{<citation>}}
 
 Marek Elias, Haim Kaplan, Yishay Mansour, Shay Moran. (2024)  
 **Learning-Augmented Algorithms with Explicit Predictors**
 <br/>
-<button class="copy-to-clipboard" title="Learning-Augmented Algorithms with Explicit Predictors" index=179>
+<button class="copy-to-clipboard" title="Learning-Augmented Algorithms with Explicit Predictors" index=188>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-179 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-188 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7413,17 +7792,17 @@ Recent advances in algorithmic design show how to utilize predictions obtained b
 {{</citation>}}
 
 
-### (53/55 | 180/311) McCatch: Scalable Microcluster Detection in Dimensional and Nondimensional Datasets (Braulio V. Sánchez Vinces et al., 2024)
+### (53/55 | 189/322) McCatch: Scalable Microcluster Detection in Dimensional and Nondimensional Datasets (Braulio V. Sánchez Vinces et al., 2024)
 
 {{<citation>}}
 
 Braulio V. Sánchez Vinces, Robson L. F. Cordeiro, Christos Faloutsos. (2024)  
 **McCatch: Scalable Microcluster Detection in Dimensional and Nondimensional Datasets**
 <br/>
-<button class="copy-to-clipboard" title="McCatch: Scalable Microcluster Detection in Dimensional and Nondimensional Datasets" index=180>
+<button class="copy-to-clipboard" title="McCatch: Scalable Microcluster Detection in Dimensional and Nondimensional Datasets" index=189>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-180 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-189 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7448,17 +7827,17 @@ How could we have an outlier detector that works even with nondimensional data, 
 {{</citation>}}
 
 
-### (54/55 | 181/311) Robustifying and Boosting Training-Free Neural Architecture Search (Zhenfeng He et al., 2024)
+### (54/55 | 190/322) Robustifying and Boosting Training-Free Neural Architecture Search (Zhenfeng He et al., 2024)
 
 {{<citation>}}
 
 Zhenfeng He, Yao Shu, Zhongxiang Dai, Bryan Kian Hsiang Low. (2024)  
 **Robustifying and Boosting Training-Free Neural Architecture Search**
 <br/>
-<button class="copy-to-clipboard" title="Robustifying and Boosting Training-Free Neural Architecture Search" index=181>
+<button class="copy-to-clipboard" title="Robustifying and Boosting Training-Free Neural Architecture Search" index=190>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-181 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-190 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7483,17 +7862,17 @@ Neural architecture search (NAS) has become a key component of AutoML and a stan
 {{</citation>}}
 
 
-### (55/55 | 182/311) Unknown Domain Inconsistency Minimization for Domain Generalization (Seungjae Shin et al., 2024)
+### (55/55 | 191/322) Unknown Domain Inconsistency Minimization for Domain Generalization (Seungjae Shin et al., 2024)
 
 {{<citation>}}
 
 Seungjae Shin, HeeSun Bae, Byeonghu Na, Yoon-Yeong Kim, Il-Chul Moon. (2024)  
 **Unknown Domain Inconsistency Minimization for Domain Generalization**
 <br/>
-<button class="copy-to-clipboard" title="Unknown Domain Inconsistency Minimization for Domain Generalization" index=182>
+<button class="copy-to-clipboard" title="Unknown Domain Inconsistency Minimization for Domain Generalization" index=191>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-182 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-191 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7522,17 +7901,17 @@ The objective of domain generalization (DG) is to enhance the transferability of
 
 
 
-### (1/5 | 183/311) Knowledge Transfer across Multiple Principal Component Analysis Studies (Zeyu Li et al., 2024)
+### (1/5 | 192/322) Knowledge Transfer across Multiple Principal Component Analysis Studies (Zeyu Li et al., 2024)
 
 {{<citation>}}
 
 Zeyu Li, Kangxiang Qin, Yong He, Wang Zhou, Xinsheng Zhang. (2024)  
 **Knowledge Transfer across Multiple Principal Component Analysis Studies**
 <br/>
-<button class="copy-to-clipboard" title="Knowledge Transfer across Multiple Principal Component Analysis Studies" index=183>
+<button class="copy-to-clipboard" title="Knowledge Transfer across Multiple Principal Component Analysis Studies" index=192>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-183 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-192 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7557,17 +7936,17 @@ Keywords: Knowledge Transfer, Simulation, Simulator, Supervised Learning, Superv
 {{</citation>}}
 
 
-### (2/5 | 184/311) Fast, accurate and lightweight sequential simulation-based inference using Gaussian locally linear mappings (Henrik Häggström et al., 2024)
+### (2/5 | 193/322) Fast, accurate and lightweight sequential simulation-based inference using Gaussian locally linear mappings (Henrik Häggström et al., 2024)
 
 {{<citation>}}
 
 Henrik Häggström, Pedro L. C. Rodrigues, Geoffroy Oudoumanessah, Florence Forbes, Umberto Picchini. (2024)  
 **Fast, accurate and lightweight sequential simulation-based inference using Gaussian locally linear mappings**
 <br/>
-<button class="copy-to-clipboard" title="Fast, accurate and lightweight sequential simulation-based inference using Gaussian locally linear mappings" index=184>
+<button class="copy-to-clipboard" title="Fast, accurate and lightweight sequential simulation-based inference using Gaussian locally linear mappings" index=193>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-184 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-193 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7592,17 +7971,17 @@ Bayesian inference for complex models with an intractable likelihood can be tack
 {{</citation>}}
 
 
-### (3/5 | 185/311) FairRR: Pre-Processing for Group Fairness through Randomized Response (Xianli Zeng et al., 2024)
+### (3/5 | 194/322) FairRR: Pre-Processing for Group Fairness through Randomized Response (Xianli Zeng et al., 2024)
 
 {{<citation>}}
 
 Xianli Zeng, Joshua Ward, Guang Cheng. (2024)  
 **FairRR: Pre-Processing for Group Fairness through Randomized Response**
 <br/>
-<button class="copy-to-clipboard" title="FairRR: Pre-Processing for Group Fairness through Randomized Response" index=185>
+<button class="copy-to-clipboard" title="FairRR: Pre-Processing for Group Fairness through Randomized Response" index=194>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-185 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-194 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7627,17 +8006,17 @@ The increasing usage of machine learning models in consequential decision-making
 {{</citation>}}
 
 
-### (4/5 | 186/311) CAS: A General Algorithm for Online Selective Conformal Prediction with FCR Control (Yajie Bao et al., 2024)
+### (4/5 | 195/322) CAS: A General Algorithm for Online Selective Conformal Prediction with FCR Control (Yajie Bao et al., 2024)
 
 {{<citation>}}
 
 Yajie Bao, Yuyang Huo, Haojie Ren, Changliang Zou. (2024)  
 **CAS: A General Algorithm for Online Selective Conformal Prediction with FCR Control**
 <br/>
-<button class="copy-to-clipboard" title="CAS: A General Algorithm for Online Selective Conformal Prediction with FCR Control" index=186>
+<button class="copy-to-clipboard" title="CAS: A General Algorithm for Online Selective Conformal Prediction with FCR Control" index=195>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-186 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-195 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7662,17 +8041,17 @@ We study the problem of post-selection predictive inference in an online fashion
 {{</citation>}}
 
 
-### (5/5 | 187/311) On the nonconvexity of some push-forward constraints and its consequences in machine learning (Lucas de Lara et al., 2024)
+### (5/5 | 196/322) On the nonconvexity of some push-forward constraints and its consequences in machine learning (Lucas de Lara et al., 2024)
 
 {{<citation>}}
 
 Lucas de Lara, Mathis Deronzier, Alberto González-Sanz, Virgile Foy. (2024)  
 **On the nonconvexity of some push-forward constraints and its consequences in machine learning**
 <br/>
-<button class="copy-to-clipboard" title="On the nonconvexity of some push-forward constraints and its consequences in machine learning" index=187>
+<button class="copy-to-clipboard" title="On the nonconvexity of some push-forward constraints and its consequences in machine learning" index=196>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-187 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-196 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7701,17 +8080,17 @@ The push-forward operation enables one to redistribute a probability measure thr
 
 
 
-### (1/8 | 188/311) Towards Graph Foundation Models for Personalization (Andreas Damianou et al., 2024)
+### (1/8 | 197/322) Towards Graph Foundation Models for Personalization (Andreas Damianou et al., 2024)
 
 {{<citation>}}
 
 Andreas Damianou, Francesco Fabbri, Paul Gigioli, Marco De Nadai, Alice Wang, Enrico Palumbo, Mounia Lalmas. (2024)  
 **Towards Graph Foundation Models for Personalization**
 <br/>
-<button class="copy-to-clipboard" title="Towards Graph Foundation Models for Personalization" index=188>
+<button class="copy-to-clipboard" title="Towards Graph Foundation Models for Personalization" index=197>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-188 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-197 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7736,17 +8115,17 @@ In the realm of personalization, integrating diverse information sources such as
 {{</citation>}}
 
 
-### (2/8 | 189/311) The future of document indexing: GPT and Donut revolutionize table of content processing (Degaga Wolde Feyisa et al., 2024)
+### (2/8 | 198/322) The future of document indexing: GPT and Donut revolutionize table of content processing (Degaga Wolde Feyisa et al., 2024)
 
 {{<citation>}}
 
 Degaga Wolde Feyisa, Haylemicheal Berihun, Amanuel Zewdu, Mahsa Najimoghadam, Marzieh Zare. (2024)  
 **The future of document indexing: GPT and Donut revolutionize table of content processing**
 <br/>
-<button class="copy-to-clipboard" title="The future of document indexing: GPT and Donut revolutionize table of content processing" index=189>
+<button class="copy-to-clipboard" title="The future of document indexing: GPT and Donut revolutionize table of content processing" index=198>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-189 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-198 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7771,17 +8150,17 @@ Industrial projects rely heavily on lengthy, complex specification documents, ma
 {{</citation>}}
 
 
-### (3/8 | 190/311) Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models (Andrew Parry et al., 2024)
+### (3/8 | 199/322) Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models (Andrew Parry et al., 2024)
 
 {{<citation>}}
 
 Andrew Parry, Maik Fröbe, Sean MacAvaney, Martin Potthast, Matthias Hagen. (2024)  
 **Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models**
 <br/>
-<button class="copy-to-clipboard" title="Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models" index=190>
+<button class="copy-to-clipboard" title="Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models" index=199>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-190 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-199 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7806,17 +8185,17 @@ Modern sequence-to-sequence relevance models like monoT5 can effectively capture
 {{</citation>}}
 
 
-### (4/8 | 191/311) Self-supervised Contrastive Learning for Implicit Collaborative Filtering (Shipeng Song et al., 2024)
+### (4/8 | 200/322) Self-supervised Contrastive Learning for Implicit Collaborative Filtering (Shipeng Song et al., 2024)
 
 {{<citation>}}
 
 Shipeng Song, Bin Liu, Fei Teng, Tianrui Li. (2024)  
 **Self-supervised Contrastive Learning for Implicit Collaborative Filtering**
 <br/>
-<button class="copy-to-clipboard" title="Self-supervised Contrastive Learning for Implicit Collaborative Filtering" index=191>
+<button class="copy-to-clipboard" title="Self-supervised Contrastive Learning for Implicit Collaborative Filtering" index=200>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-191 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-200 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7841,17 +8220,17 @@ Keywords: Contrastive Learning, Recommendation, Self-supervised Learning
 {{</citation>}}
 
 
-### (5/8 | 192/311) Empowering Sequential Recommendation from Collaborative Signals and Semantic Relatedness (Mingyue Cheng et al., 2024)
+### (5/8 | 201/322) Empowering Sequential Recommendation from Collaborative Signals and Semantic Relatedness (Mingyue Cheng et al., 2024)
 
 {{<citation>}}
 
 Mingyue Cheng, Hao Zhang, Qi Liu, Fajie Yuan, Zhi Li, Zhenya Huang, Enhong Chen, Jun Zhou, Longfei Li. (2024)  
 **Empowering Sequential Recommendation from Collaborative Signals and Semantic Relatedness**
 <br/>
-<button class="copy-to-clipboard" title="Empowering Sequential Recommendation from Collaborative Signals and Semantic Relatedness" index=192>
+<button class="copy-to-clipboard" title="Empowering Sequential Recommendation from Collaborative Signals and Semantic Relatedness" index=201>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-192 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-201 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7876,17 +8255,17 @@ Sequential <b>recommender</b> <b>systems</b> (SRS) could capture dynamic user pr
 {{</citation>}}
 
 
-### (6/8 | 193/311) Proactive Recommendation with Iterative Preference Guidance (Shuxian Bi et al., 2024)
+### (6/8 | 202/322) Proactive Recommendation with Iterative Preference Guidance (Shuxian Bi et al., 2024)
 
 {{<citation>}}
 
 Shuxian Bi, Wenjie Wang, Hang Pan, Fuli Feng, Xiangnan He. (2024)  
 **Proactive Recommendation with Iterative Preference Guidance**
 <br/>
-<button class="copy-to-clipboard" title="Proactive Recommendation with Iterative Preference Guidance" index=193>
+<button class="copy-to-clipboard" title="Proactive Recommendation with Iterative Preference Guidance" index=202>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-193 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-202 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7911,17 +8290,17 @@ Keywords: Recommendation, Recommender System
 {{</citation>}}
 
 
-### (7/8 | 194/311) DESERE: The 1st Workshop on Decentralised Search and Recommendation (Mohamed Ragab et al., 2024)
+### (7/8 | 203/322) DESERE: The 1st Workshop on Decentralised Search and Recommendation (Mohamed Ragab et al., 2024)
 
 {{<citation>}}
 
 Mohamed Ragab, Yury Savateev, Wenjie Wang, Reza Moosaei, Thanassis Tiropanis, Alexandra Poulovassilis, Adriane Chapman, Helen Oliver, George Roussos. (2024)  
 **DESERE: The 1st Workshop on Decentralised Search and Recommendation**
 <br/>
-<button class="copy-to-clipboard" title="DESERE: The 1st Workshop on Decentralised Search and Recommendation" index=194>
+<button class="copy-to-clipboard" title="DESERE: The 1st Workshop on Decentralised Search and Recommendation" index=203>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-194 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-203 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7946,17 +8325,17 @@ The DESERE Workshop, our First Workshop on Decentralised Search and <b>Recommend
 {{</citation>}}
 
 
-### (8/8 | 195/311) LIST: Learning to Index Spatio-Textual Data for Embedding based Spatial Keyword Queries (Ziqi Yin et al., 2024)
+### (8/8 | 204/322) LIST: Learning to Index Spatio-Textual Data for Embedding based Spatial Keyword Queries (Ziqi Yin et al., 2024)
 
 {{<citation>}}
 
 Ziqi Yin, Shanshan Feng, Shang Liu, Gao Cong, Yew Soon Ong, Bin Cui. (2024)  
 **LIST: Learning to Index Spatio-Textual Data for Embedding based Spatial Keyword Queries**
 <br/>
-<button class="copy-to-clipboard" title="LIST: Learning to Index Spatio-Textual Data for Embedding based Spatial Keyword Queries" index=195>
+<button class="copy-to-clipboard" title="LIST: Learning to Index Spatio-Textual Data for Embedding based Spatial Keyword Queries" index=204>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-195 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-204 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7985,17 +8364,17 @@ With the proliferation of spatio-textual data, Top-k KNN spatial keyword queries
 
 
 
-### (1/4 | 196/311) Vector Quantization for Deep-Learning-Based CSI Feedback in Massive MIMO Systems (Junyong Shin et al., 2024)
+### (1/4 | 205/322) Vector Quantization for Deep-Learning-Based CSI Feedback in Massive MIMO Systems (Junyong Shin et al., 2024)
 
 {{<citation>}}
 
 Junyong Shin, Yujin Kang, Yo-Seb Jeon. (2024)  
 **Vector Quantization for Deep-Learning-Based CSI Feedback in Massive MIMO Systems**
 <br/>
-<button class="copy-to-clipboard" title="Vector Quantization for Deep-Learning-Based CSI Feedback in Massive MIMO Systems" index=196>
+<button class="copy-to-clipboard" title="Vector Quantization for Deep-Learning-Based CSI Feedback in Massive MIMO Systems" index=205>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-196 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-205 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8020,17 +8399,17 @@ This paper presents a finite-rate deep-learning (DL)-based channel state informa
 {{</citation>}}
 
 
-### (2/4 | 197/311) Deep Learning-Assisted Parallel Interference Cancellation for Grant-Free NOMA in Machine-Type Communication (Yongjeong Oh et al., 2024)
+### (2/4 | 206/322) Deep Learning-Assisted Parallel Interference Cancellation for Grant-Free NOMA in Machine-Type Communication (Yongjeong Oh et al., 2024)
 
 {{<citation>}}
 
 Yongjeong Oh, Jaehong Jo, Byonghyo Shim, Yo-Seb Jeon. (2024)  
 **Deep Learning-Assisted Parallel Interference Cancellation for Grant-Free NOMA in Machine-Type Communication**
 <br/>
-<button class="copy-to-clipboard" title="Deep Learning-Assisted Parallel Interference Cancellation for Grant-Free NOMA in Machine-Type Communication" index=197>
+<button class="copy-to-clipboard" title="Deep Learning-Assisted Parallel Interference Cancellation for Grant-Free NOMA in Machine-Type Communication" index=206>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-197 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-206 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8055,17 +8434,17 @@ In this paper, we present a novel approach for joint activity detection (AD), ch
 {{</citation>}}
 
 
-### (3/4 | 198/311) Discrete-Time Modeling and Handover Analysis of Intelligent Reflecting Surface-Assisted Networks (Hongtao Zhang et al., 2024)
+### (3/4 | 207/322) Discrete-Time Modeling and Handover Analysis of Intelligent Reflecting Surface-Assisted Networks (Hongtao Zhang et al., 2024)
 
 {{<citation>}}
 
 Hongtao Zhang, Haoyan Wei. (2024)  
 **Discrete-Time Modeling and Handover Analysis of Intelligent Reflecting Surface-Assisted Networks**
 <br/>
-<button class="copy-to-clipboard" title="Discrete-Time Modeling and Handover Analysis of Intelligent Reflecting Surface-Assisted Networks" index=198>
+<button class="copy-to-clipboard" title="Discrete-Time Modeling and Handover Analysis of Intelligent Reflecting Surface-Assisted Networks" index=207>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-198 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-207 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8090,17 +8469,17 @@ Owning to the reflection gain and double path loss featured by intelligent refle
 {{</citation>}}
 
 
-### (4/4 | 199/311) Advancements in Continuous Glucose Monitoring: Integrating Deep Learning and ECG Signal (MohammadReza Hosseinzadehketilateh et al., 2024)
+### (4/4 | 208/322) Advancements in Continuous Glucose Monitoring: Integrating Deep Learning and ECG Signal (MohammadReza Hosseinzadehketilateh et al., 2024)
 
 {{<citation>}}
 
 MohammadReza Hosseinzadehketilateh, Banafsheh Adami, Nima Karimian. (2024)  
 **Advancements in Continuous Glucose Monitoring: Integrating Deep Learning and ECG Signal**
 <br/>
-<button class="copy-to-clipboard" title="Advancements in Continuous Glucose Monitoring: Integrating Deep Learning and ECG Signal" index=199>
+<button class="copy-to-clipboard" title="Advancements in Continuous Glucose Monitoring: Integrating Deep Learning and ECG Signal" index=208>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-199 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-208 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8129,17 +8508,17 @@ This paper presents a novel approach to noninvasive hyperglycemia monitoring uti
 
 
 
-### (1/16 | 200/311) VANP: Learning Where to See for Navigation with Self-Supervised Vision-Action Pre-Training (Mohammad Nazeri et al., 2024)
+### (1/16 | 209/322) VANP: Learning Where to See for Navigation with Self-Supervised Vision-Action Pre-Training (Mohammad Nazeri et al., 2024)
 
 {{<citation>}}
 
 Mohammad Nazeri, Junzhe Wang, Amirreza Payandeh, Xuesu Xiao. (2024)  
 **VANP: Learning Where to See for Navigation with Self-Supervised Vision-Action Pre-Training**
 <br/>
-<button class="copy-to-clipboard" title="VANP: Learning Where to See for Navigation with Self-Supervised Vision-Action Pre-Training" index=200>
+<button class="copy-to-clipboard" title="VANP: Learning Where to See for Navigation with Self-Supervised Vision-Action Pre-Training" index=209>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-200 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-209 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8164,17 +8543,17 @@ Humans excel at efficiently navigating through crowds without collision by focus
 {{</citation>}}
 
 
-### (2/16 | 201/311) DeliGrasp: Inferring Object Mass, Friction, and Compliance with LLMs for Adaptive and Minimally Deforming Grasp Policies (William Xie et al., 2024)
+### (2/16 | 210/322) DeliGrasp: Inferring Object Mass, Friction, and Compliance with LLMs for Adaptive and Minimally Deforming Grasp Policies (William Xie et al., 2024)
 
 {{<citation>}}
 
 William Xie, Jensen Lavering, Nikolaus Correll. (2024)  
 **DeliGrasp: Inferring Object Mass, Friction, and Compliance with LLMs for Adaptive and Minimally Deforming Grasp Policies**
 <br/>
-<button class="copy-to-clipboard" title="DeliGrasp: Inferring Object Mass, Friction, and Compliance with LLMs for Adaptive and Minimally Deforming Grasp Policies" index=201>
+<button class="copy-to-clipboard" title="DeliGrasp: Inferring Object Mass, Friction, and Compliance with LLMs for Adaptive and Minimally Deforming Grasp Policies" index=210>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-201 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-210 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8199,17 +8578,17 @@ Keywords: Benchmarking, Reasoning, Large Language Model, Large Language Model
 {{</citation>}}
 
 
-### (3/16 | 202/311) DrPlanner: Diagnosis and Repair of Motion Planners Using Large Language Models (Yuanfei Lin et al., 2024)
+### (3/16 | 211/322) DrPlanner: Diagnosis and Repair of Motion Planners Using Large Language Models (Yuanfei Lin et al., 2024)
 
 {{<citation>}}
 
 Yuanfei Lin, Chenran Li, Mingyu Ding, Masayoshi Tomizuka, Wei Zhan, Matthias Althoff. (2024)  
 **DrPlanner: Diagnosis and Repair of Motion Planners Using Large Language Models**
 <br/>
-<button class="copy-to-clipboard" title="DrPlanner: Diagnosis and Repair of Motion Planners Using Large Language Models" index=202>
+<button class="copy-to-clipboard" title="DrPlanner: Diagnosis and Repair of Motion Planners Using Large Language Models" index=211>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-202 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-211 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8234,17 +8613,17 @@ Motion planners are essential for the safe operation of automated vehicles acros
 {{</citation>}}
 
 
-### (4/16 | 203/311) Toward An Analytic Theory of Intrinsic Robustness for Dexterous Grasping (Albert H. Li et al., 2024)
+### (4/16 | 212/322) Toward An Analytic Theory of Intrinsic Robustness for Dexterous Grasping (Albert H. Li et al., 2024)
 
 {{<citation>}}
 
 Albert H. Li, Preston Culbertson, Aaron D. Ames. (2024)  
 **Toward An Analytic Theory of Intrinsic Robustness for Dexterous Grasping**
 <br/>
-<button class="copy-to-clipboard" title="Toward An Analytic Theory of Intrinsic Robustness for Dexterous Grasping" index=203>
+<button class="copy-to-clipboard" title="Toward An Analytic Theory of Intrinsic Robustness for Dexterous Grasping" index=212>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-203 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-212 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8269,17 +8648,17 @@ Conventional approaches to grasp planning require perfect knowledge of an object
 {{</citation>}}
 
 
-### (5/16 | 204/311) Multi-task Manipulation Policy Modeling with Visuomotor Latent Diffusion (Wenhui Tan et al., 2024)
+### (5/16 | 213/322) Multi-task Manipulation Policy Modeling with Visuomotor Latent Diffusion (Wenhui Tan et al., 2024)
 
 {{<citation>}}
 
 Wenhui Tan, Bei Liu, Junbo Zhang, Ruihua Song, Jianlong Fu. (2024)  
 **Multi-task Manipulation Policy Modeling with Visuomotor Latent Diffusion**
 <br/>
-<button class="copy-to-clipboard" title="Multi-task Manipulation Policy Modeling with Visuomotor Latent Diffusion" index=204>
+<button class="copy-to-clipboard" title="Multi-task Manipulation Policy Modeling with Visuomotor Latent Diffusion" index=213>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-204 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-213 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8304,17 +8683,17 @@ Modeling a generalized visuomotor policy has been a longstanding challenge for b
 {{</citation>}}
 
 
-### (6/16 | 205/311) TeleMoMa: A Modular and Versatile Teleoperation System for Mobile Manipulation (Shivin Dass et al., 2024)
+### (6/16 | 214/322) TeleMoMa: A Modular and Versatile Teleoperation System for Mobile Manipulation (Shivin Dass et al., 2024)
 
 {{<citation>}}
 
 Shivin Dass, Wensi Ai, Yuqian Jiang, Samik Singh, Jiaheng Hu, Ruohan Zhang, Peter Stone, Ben Abbatematteo, Roberto Martin-Martin. (2024)  
 **TeleMoMa: A Modular and Versatile Teleoperation System for Mobile Manipulation**
 <br/>
-<button class="copy-to-clipboard" title="TeleMoMa: A Modular and Versatile Teleoperation System for Mobile Manipulation" index=205>
+<button class="copy-to-clipboard" title="TeleMoMa: A Modular and Versatile Teleoperation System for Mobile Manipulation" index=214>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-205 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-214 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8339,17 +8718,17 @@ A critical bottleneck limiting imitation learning in robotics is the lack of dat
 {{</citation>}}
 
 
-### (7/16 | 206/311) The Virtues of Laziness: Multi-Query Kinodynamic Motion Planning with Lazy Methods (Anuj Pasricha et al., 2024)
+### (7/16 | 215/322) The Virtues of Laziness: Multi-Query Kinodynamic Motion Planning with Lazy Methods (Anuj Pasricha et al., 2024)
 
 {{<citation>}}
 
 Anuj Pasricha, Alessandro Roncone. (2024)  
 **The Virtues of Laziness: Multi-Query Kinodynamic Motion Planning with Lazy Methods**
 <br/>
-<button class="copy-to-clipboard" title="The Virtues of Laziness: Multi-Query Kinodynamic Motion Planning with Lazy Methods" index=206>
+<button class="copy-to-clipboard" title="The Virtues of Laziness: Multi-Query Kinodynamic Motion Planning with Lazy Methods" index=215>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-206 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-215 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8374,17 +8753,17 @@ In this work, we introduce LazyBoE, a multi-query method for kinodynamic motion 
 {{</citation>}}
 
 
-### (8/16 | 207/311) A Framework for Controlling Multiple Industrial Robots using Mobile Applications (Daniela Alvarado et al., 2024)
+### (8/16 | 216/322) A Framework for Controlling Multiple Industrial Robots using Mobile Applications (Daniela Alvarado et al., 2024)
 
 {{<citation>}}
 
 Daniela Alvarado, Dr. Seemal Asif. (2024)  
 **A Framework for Controlling Multiple Industrial Robots using Mobile Applications**
 <br/>
-<button class="copy-to-clipboard" title="A Framework for Controlling Multiple Industrial Robots using Mobile Applications" index=207>
+<button class="copy-to-clipboard" title="A Framework for Controlling Multiple Industrial Robots using Mobile Applications" index=216>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-207 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-216 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8409,17 +8788,17 @@ Purpose: Over the last few decades, the development of the hardware and software
 {{</citation>}}
 
 
-### (9/16 | 208/311) Online Adaptation of Sampling-Based Motion Planning with Inaccurate Models (Marco Faroni et al., 2024)
+### (9/16 | 217/322) Online Adaptation of Sampling-Based Motion Planning with Inaccurate Models (Marco Faroni et al., 2024)
 
 {{<citation>}}
 
 Marco Faroni, Dmitry Berenson. (2024)  
 **Online Adaptation of Sampling-Based Motion Planning with Inaccurate Models**
 <br/>
-<button class="copy-to-clipboard" title="Online Adaptation of Sampling-Based Motion Planning with Inaccurate Models" index=208>
+<button class="copy-to-clipboard" title="Online Adaptation of Sampling-Based Motion Planning with Inaccurate Models" index=217>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-208 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-217 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8444,17 +8823,17 @@ Robotic manipulation relies on analytical or learned models to simulate the syst
 {{</citation>}}
 
 
-### (10/16 | 209/311) Efficient Global Navigational Planning in 3D Structures based on Point Cloud Tomography (Bowen Yang et al., 2024)
+### (10/16 | 218/322) Efficient Global Navigational Planning in 3D Structures based on Point Cloud Tomography (Bowen Yang et al., 2024)
 
 {{<citation>}}
 
 Bowen Yang, Jie Cheng, Bohuan Xue, Jianhao Jiao, Ming Liu. (2024)  
 **Efficient Global Navigational Planning in 3D Structures based on Point Cloud Tomography**
 <br/>
-<button class="copy-to-clipboard" title="Efficient Global Navigational Planning in 3D Structures based on Point Cloud Tomography" index=209>
+<button class="copy-to-clipboard" title="Efficient Global Navigational Planning in 3D Structures based on Point Cloud Tomography" index=218>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-209 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-218 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8479,17 +8858,17 @@ Navigation in complex 3D scenarios requires appropriate environment representati
 {{</citation>}}
 
 
-### (11/16 | 210/311) Learning Generalizable Feature Fields for Mobile Manipulation (Ri-Zhao Qiu et al., 2024)
+### (11/16 | 219/322) Learning Generalizable Feature Fields for Mobile Manipulation (Ri-Zhao Qiu et al., 2024)
 
 {{<citation>}}
 
 Ri-Zhao Qiu, Yafei Hu, Ge Yang, Yuchen Song, Yang Fu, Jianglong Ye, Jiteng Mu, Ruihan Yang, Nikolay Atanasov, Sebastian Scherer, Xiaolong Wang. (2024)  
 **Learning Generalizable Feature Fields for Mobile Manipulation**
 <br/>
-<button class="copy-to-clipboard" title="Learning Generalizable Feature Fields for Mobile Manipulation" index=210>
+<button class="copy-to-clipboard" title="Learning Generalizable Feature Fields for Mobile Manipulation" index=219>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-210 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-219 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8514,17 +8893,17 @@ An open problem in mobile manipulation is how to represent objects and scenes in
 {{</citation>}}
 
 
-### (12/16 | 211/311) DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation (Chen Wang et al., 2024)
+### (12/16 | 220/322) DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation (Chen Wang et al., 2024)
 
 {{<citation>}}
 
 Chen Wang, Haochen Shi, Weizhuo Wang, Ruohan Zhang, Li Fei-Fei, C. Karen Liu. (2024)  
 **DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation**
 <br/>
-<button class="copy-to-clipboard" title="DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation" index=211>
+<button class="copy-to-clipboard" title="DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation" index=220>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-211 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-220 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8549,17 +8928,17 @@ Imitation learning from human hand motion data presents a promising avenue for i
 {{</citation>}}
 
 
-### (13/16 | 212/311) 3D Uncertain Distance Field Mapping using GMM and GP (Qianqian Zou et al., 2024)
+### (13/16 | 221/322) 3D Uncertain Distance Field Mapping using GMM and GP (Qianqian Zou et al., 2024)
 
 {{<citation>}}
 
 Qianqian Zou, Monika Sester. (2024)  
 **3D Uncertain Distance Field Mapping using GMM and GP**
 <br/>
-<button class="copy-to-clipboard" title="3D Uncertain Distance Field Mapping using GMM and GP" index=212>
+<button class="copy-to-clipboard" title="3D Uncertain Distance Field Mapping using GMM and GP" index=221>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-212 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-221 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8584,17 +8963,17 @@ In this study, we address the challenge of constructing continuous three-dimensi
 {{</citation>}}
 
 
-### (14/16 | 213/311) Tractable Joint Prediction and Planning over Discrete Behavior Modes for Urban Driving (Adam Villaflor et al., 2024)
+### (14/16 | 222/322) Tractable Joint Prediction and Planning over Discrete Behavior Modes for Urban Driving (Adam Villaflor et al., 2024)
 
 {{<citation>}}
 
 Adam Villaflor, Brian Yang, Huangyuan Su, Katerina Fragkiadaki, John Dolan, Jeff Schneider. (2024)  
 **Tractable Joint Prediction and Planning over Discrete Behavior Modes for Urban Driving**
 <br/>
-<button class="copy-to-clipboard" title="Tractable Joint Prediction and Planning over Discrete Behavior Modes for Urban Driving" index=213>
+<button class="copy-to-clipboard" title="Tractable Joint Prediction and Planning over Discrete Behavior Modes for Urban Driving" index=222>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-213 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-222 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8619,17 +8998,17 @@ Significant progress has been made in training <b>multimodal</b> trajectory fore
 {{</citation>}}
 
 
-### (15/16 | 214/311) Task and Motion Planning in Hierarchical 3D Scene Graphs (Aaron Ray et al., 2024)
+### (15/16 | 223/322) Task and Motion Planning in Hierarchical 3D Scene Graphs (Aaron Ray et al., 2024)
 
 {{<citation>}}
 
 Aaron Ray, Christopher Bradley, Luca Carlone, Nicholas Roy. (2024)  
 **Task and Motion Planning in Hierarchical 3D Scene Graphs**
 <br/>
-<button class="copy-to-clipboard" title="Task and Motion Planning in Hierarchical 3D Scene Graphs" index=214>
+<button class="copy-to-clipboard" title="Task and Motion Planning in Hierarchical 3D Scene Graphs" index=223>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-214 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-223 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8654,17 +9033,17 @@ Recent work in the construction of 3D scene <b>graphs</b> has enabled mobile rob
 {{</citation>}}
 
 
-### (16/16 | 215/311) MPS: A New Method for Selecting the Stable Closed-Loop Equilibrium Attitude-Error Quaternion of a UAV During Flight (Francisco M. F. R. Gonçalves et al., 2024)
+### (16/16 | 224/322) MPS: A New Method for Selecting the Stable Closed-Loop Equilibrium Attitude-Error Quaternion of a UAV During Flight (Francisco M. F. R. Gonçalves et al., 2024)
 
 {{<citation>}}
 
 Francisco M. F. R. Gonçalves, Ryan M. Bena, Konstantin I. Matveev, Néstor O. Pérez-Arancibia. (2024)  
 **MPS: A New Method for Selecting the Stable Closed-Loop Equilibrium Attitude-Error Quaternion of a UAV During Flight**
 <br/>
-<button class="copy-to-clipboard" title="MPS: A New Method for Selecting the Stable Closed-Loop Equilibrium Attitude-Error Quaternion of a UAV During Flight" index=215>
+<button class="copy-to-clipboard" title="MPS: A New Method for Selecting the Stable Closed-Loop Equilibrium Attitude-Error Quaternion of a UAV During Flight" index=224>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-215 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-224 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8693,17 +9072,17 @@ We present model predictive selection (MPS), a new method for selecting the stab
 
 
 
-### (1/9 | 216/311) Equipping Computational Pathology Systems with Artifact Processing Pipelines: A Showcase for Computation and Performance Trade-offs (Neel Kanwal et al., 2024)
+### (1/9 | 225/322) Equipping Computational Pathology Systems with Artifact Processing Pipelines: A Showcase for Computation and Performance Trade-offs (Neel Kanwal et al., 2024)
 
 {{<citation>}}
 
 Neel Kanwal, Farbod Khoraminia, Umay Kiraz, Andres Mosquera-Zamudio, Carlos Monteagudo, Emiel A. M. Janssen, Tahlita C. M. Zuiverloon, Chunmig Rong, Kjersti Engan. (2024)  
 **Equipping Computational Pathology Systems with Artifact Processing Pipelines: A Showcase for Computation and Performance Trade-offs**
 <br/>
-<button class="copy-to-clipboard" title="Equipping Computational Pathology Systems with Artifact Processing Pipelines: A Showcase for Computation and Performance Trade-offs" index=216>
+<button class="copy-to-clipboard" title="Equipping Computational Pathology Systems with Artifact Processing Pipelines: A Showcase for Computation and Performance Trade-offs" index=225>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-216 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-225 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8728,17 +9107,17 @@ Histopathology is a gold standard for cancer diagnosis under a microscopic exami
 {{</citation>}}
 
 
-### (2/9 | 217/311) DALSA: Domain Adaptation for Supervised Learning From Sparsely Annotated MR Images (Michael Götz et al., 2024)
+### (2/9 | 226/322) DALSA: Domain Adaptation for Supervised Learning From Sparsely Annotated MR Images (Michael Götz et al., 2024)
 
 {{<citation>}}
 
 Michael Götz, Christian Weber, Franciszek Binczyk, Joanna Polanska, Rafal Tarnawski, Barbara Bobek-Billewicz, Ullrich Köthe, Jens Kleesiek, Bram Stieltjes, Klaus H. Maier-Hein. (2024)  
 **DALSA: Domain Adaptation for Supervised Learning From Sparsely Annotated MR Images**
 <br/>
-<button class="copy-to-clipboard" title="DALSA: Domain Adaptation for Supervised Learning From Sparsely Annotated MR Images" index=217>
+<button class="copy-to-clipboard" title="DALSA: Domain Adaptation for Supervised Learning From Sparsely Annotated MR Images" index=226>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-217 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-226 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8763,17 +9142,17 @@ We propose a new method that employs <b>transfer</b> <b>learning</b> techniques 
 {{</citation>}}
 
 
-### (3/9 | 218/311) SAMDA: Leveraging SAM on Few-Shot Domain Adaptation for Electronic Microscopy Segmentation (Yiran Wang et al., 2024)
+### (3/9 | 227/322) SAMDA: Leveraging SAM on Few-Shot Domain Adaptation for Electronic Microscopy Segmentation (Yiran Wang et al., 2024)
 
 {{<citation>}}
 
 Yiran Wang, Li Xiao. (2024)  
 **SAMDA: Leveraging SAM on Few-Shot Domain Adaptation for Electronic Microscopy Segmentation**
 <br/>
-<button class="copy-to-clipboard" title="SAMDA: Leveraging SAM on Few-Shot Domain Adaptation for Electronic Microscopy Segmentation" index=218>
+<button class="copy-to-clipboard" title="SAMDA: Leveraging SAM on Few-Shot Domain Adaptation for Electronic Microscopy Segmentation" index=227>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-218 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-227 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8798,17 +9177,17 @@ It has been shown that traditional deep learning methods for electronic microsco
 {{</citation>}}
 
 
-### (4/9 | 219/311) CT evaluation of 2D and 3D holistic deep learning methods for the volumetric segmentation of airway lesions (Amel Imene Hadj Bouzid et al., 2024)
+### (4/9 | 228/322) CT evaluation of 2D and 3D holistic deep learning methods for the volumetric segmentation of airway lesions (Amel Imene Hadj Bouzid et al., 2024)
 
 {{<citation>}}
 
 Amel Imene Hadj Bouzid, Baudouin Denis de Senneville, Fabien Baldacci, Pascal Desbarats, Patrick Berger, Ilyes Benlala, Gaël Dournes. (2024)  
 **CT evaluation of 2D and 3D holistic deep learning methods for the volumetric segmentation of airway lesions**
 <br/>
-<button class="copy-to-clipboard" title="CT evaluation of 2D and 3D holistic deep learning methods for the volumetric segmentation of airway lesions" index=219>
+<button class="copy-to-clipboard" title="CT evaluation of 2D and 3D holistic deep learning methods for the volumetric segmentation of airway lesions" index=228>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-219 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-228 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8833,17 +9212,17 @@ This research embarked on a comparative exploration of the holistic segmentation
 {{</citation>}}
 
 
-### (5/9 | 220/311) Intra-video Positive Pairs in Self-Supervised Learning for Ultrasound (Blake VanBerlo et al., 2024)
+### (5/9 | 229/322) Intra-video Positive Pairs in Self-Supervised Learning for Ultrasound (Blake VanBerlo et al., 2024)
 
 {{<citation>}}
 
 Blake VanBerlo, Alexander Wong, Jesse Hoey, Robert Arntfield. (2024)  
 **Intra-video Positive Pairs in Self-Supervised Learning for Ultrasound**
 <br/>
-<button class="copy-to-clipboard" title="Intra-video Positive Pairs in Self-Supervised Learning for Ultrasound" index=220>
+<button class="copy-to-clipboard" title="Intra-video Positive Pairs in Self-Supervised Learning for Ultrasound" index=229>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-220 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-229 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8868,17 +9247,17 @@ Keywords: Contrastive Learning, Self-supervised Learning, Self-supervised Learni
 {{</citation>}}
 
 
-### (6/9 | 221/311) Learning Correction Errors via Frequency-Self Attention for Blind Image Super-Resolution (Haochen Sun et al., 2024)
+### (6/9 | 230/322) Learning Correction Errors via Frequency-Self Attention for Blind Image Super-Resolution (Haochen Sun et al., 2024)
 
 {{<citation>}}
 
 Haochen Sun, Yan Yuan, Lijuan Su, Haotian Shao. (2024)  
 **Learning Correction Errors via Frequency-Self Attention for Blind Image Super-Resolution**
 <br/>
-<button class="copy-to-clipboard" title="Learning Correction Errors via Frequency-Self Attention for Blind Image Super-Resolution" index=221>
+<button class="copy-to-clipboard" title="Learning Correction Errors via Frequency-Self Attention for Blind Image Super-Resolution" index=230>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-221 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-230 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8903,17 +9282,17 @@ Previous approaches for blind image super-resolution (SR) have relied on degrada
 {{</citation>}}
 
 
-### (7/9 | 222/311) Dynamic U-Net: Adaptively Calibrate Features for Abdominal Multi-organ Segmentation (Jin Yang et al., 2024)
+### (7/9 | 231/322) Dynamic U-Net: Adaptively Calibrate Features for Abdominal Multi-organ Segmentation (Jin Yang et al., 2024)
 
 {{<citation>}}
 
 Jin Yang, Daniel S. Marcus, Aristeidis Sotiras. (2024)  
 **Dynamic U-Net: Adaptively Calibrate Features for Abdominal Multi-organ Segmentation**
 <br/>
-<button class="copy-to-clipboard" title="Dynamic U-Net: Adaptively Calibrate Features for Abdominal Multi-organ Segmentation" index=222>
+<button class="copy-to-clipboard" title="Dynamic U-Net: Adaptively Calibrate Features for Abdominal Multi-organ Segmentation" index=231>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-222 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-231 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8938,17 +9317,17 @@ U-Net has been widely used for segmenting abdominal organs, achieving promising 
 {{</citation>}}
 
 
-### (8/9 | 223/311) Aedes aegypti Egg Counting with Neural Networks for Object Detection (Micheli Nayara de Oliveira Vicente et al., 2024)
+### (8/9 | 232/322) Aedes aegypti Egg Counting with Neural Networks for Object Detection (Micheli Nayara de Oliveira Vicente et al., 2024)
 
 {{<citation>}}
 
 Micheli Nayara de Oliveira Vicente, Gabriel Toshio Hirokawa Higa, João Vitor de Andrade Porto, Higor Henrique, Picoli Nucci, Asser Botelho Santana, Karla Rejane de Andrade Porto, Antonia Railda Roel, Hemerson Pistori. (2024)  
 **Aedes aegypti Egg Counting with Neural Networks for Object Detection**
 <br/>
-<button class="copy-to-clipboard" title="Aedes aegypti Egg Counting with Neural Networks for Object Detection" index=223>
+<button class="copy-to-clipboard" title="Aedes aegypti Egg Counting with Neural Networks for Object Detection" index=232>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-223 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-232 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -8973,17 +9352,17 @@ Aedes aegypti is still one of the main concerns when it comes to disease vectors
 {{</citation>}}
 
 
-### (9/9 | 224/311) GuideGen: A Text-guided Framework for Joint CT Volume and Anatomical structure Generation (Linrui Dai et al., 2024)
+### (9/9 | 233/322) GuideGen: A Text-guided Framework for Joint CT Volume and Anatomical structure Generation (Linrui Dai et al., 2024)
 
 {{<citation>}}
 
 Linrui Dai, Rongzhao Zhang, Zhongzhen Huang, Xiaofan Zhang. (2024)  
 **GuideGen: A Text-guided Framework for Joint CT Volume and Anatomical structure Generation**
 <br/>
-<button class="copy-to-clipboard" title="GuideGen: A Text-guided Framework for Joint CT Volume and Anatomical structure Generation" index=224>
+<button class="copy-to-clipboard" title="GuideGen: A Text-guided Framework for Joint CT Volume and Anatomical structure Generation" index=233>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-224 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-233 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9012,17 +9391,17 @@ The annotation burden and extensive labor for gathering a large medical dataset 
 
 
 
-### (1/7 | 225/311) LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code (Naman Jain et al., 2024)
+### (1/7 | 234/322) LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code (Naman Jain et al., 2024)
 
 {{<citation>}}
 
 Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, Sida Wang, Armando Solar-Lezama, Koushik Sen, Ion Stoica. (2024)  
 **LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code**
 <br/>
-<button class="copy-to-clipboard" title="LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code" index=225>
+<button class="copy-to-clipboard" title="LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code" index=234>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-225 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-234 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9047,17 +9426,17 @@ Keywords: Benchmarking, Code Generation, Large Language Model, Large Language Mo
 {{</citation>}}
 
 
-### (2/7 | 226/311) Process Modeling With Large Language Models (Humam Kourani et al., 2024)
+### (2/7 | 235/322) Process Modeling With Large Language Models (Humam Kourani et al., 2024)
 
 {{<citation>}}
 
 Humam Kourani, Alessandro Berti, Daniel Schuster, Wil M. P. van der Aalst. (2024)  
 **Process Modeling With Large Language Models**
 <br/>
-<button class="copy-to-clipboard" title="Process Modeling With Large Language Models" index=226>
+<button class="copy-to-clipboard" title="Process Modeling With Large Language Models" index=235>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-226 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-235 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9082,17 +9461,17 @@ In the realm of Business Process Management (BPM), process modeling plays a cruc
 {{</citation>}}
 
 
-### (3/7 | 227/311) Bus Factor Explorer (Egor Klimov et al., 2024)
+### (3/7 | 236/322) Bus Factor Explorer (Egor Klimov et al., 2024)
 
 {{<citation>}}
 
 Egor Klimov, Muhammad Umair Ahmed, Nikolai Sviridov, Pouria Derakhshanfar, Eray Tüzün, Vladimir Kovalenko. (2024)  
 **Bus Factor Explorer**
 <br/>
-<button class="copy-to-clipboard" title="Bus Factor Explorer" index=227>
+<button class="copy-to-clipboard" title="Bus Factor Explorer" index=236>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-227 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-236 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9117,17 +9496,17 @@ Bus factor (BF) is a metric that tracks knowledge distribution in a project. It 
 {{</citation>}}
 
 
-### (4/7 | 228/311) Robustness, Security, Privacy, Explainability, Efficiency, and Usability of Large Language Models for Code (Zhou Yang et al., 2024)
+### (4/7 | 237/322) Robustness, Security, Privacy, Explainability, Efficiency, and Usability of Large Language Models for Code (Zhou Yang et al., 2024)
 
 {{<citation>}}
 
 Zhou Yang, Zhensu Sun, Terry Zhuo Yue, Premkumar Devanbu, David Lo. (2024)  
 **Robustness, Security, Privacy, Explainability, Efficiency, and Usability of Large Language Models for Code**
 <br/>
-<button class="copy-to-clipboard" title="Robustness, Security, Privacy, Explainability, Efficiency, and Usability of Large Language Models for Code" index=228>
+<button class="copy-to-clipboard" title="Robustness, Security, Privacy, Explainability, Efficiency, and Usability of Large Language Models for Code" index=237>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-228 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-237 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9152,17 +9531,17 @@ Keywords: Large Language Model
 {{</citation>}}
 
 
-### (5/7 | 229/311) Fixing Smart Contract Vulnerabilities: A Comparative Analysis of Literature and Developer's Practices (Francesco Salzano et al., 2024)
+### (5/7 | 238/322) Fixing Smart Contract Vulnerabilities: A Comparative Analysis of Literature and Developer's Practices (Francesco Salzano et al., 2024)
 
 {{<citation>}}
 
 Francesco Salzano, Simone Scalabrino, Rocco Oliveto, Remo Pareschi. (2024)  
 **Fixing Smart Contract Vulnerabilities: A Comparative Analysis of Literature and Developer's Practices**
 <br/>
-<button class="copy-to-clipboard" title="Fixing Smart Contract Vulnerabilities: A Comparative Analysis of Literature and Developer's Practices" index=229>
+<button class="copy-to-clipboard" title="Fixing Smart Contract Vulnerabilities: A Comparative Analysis of Literature and Developer's Practices" index=238>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-229 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-238 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9187,17 +9566,17 @@ Smart Contracts are programs running logic in the Blockchain network by executin
 {{</citation>}}
 
 
-### (6/7 | 230/311) BayesFLo: Bayesian fault localization of complex software systems (Yi Ji et al., 2024)
+### (6/7 | 239/322) BayesFLo: Bayesian fault localization of complex software systems (Yi Ji et al., 2024)
 
 {{<citation>}}
 
 Yi Ji, Simon Mak, Ryan Lekivetz, Joseph Morgan. (2024)  
 **BayesFLo: Bayesian fault localization of complex software systems**
 <br/>
-<button class="copy-to-clipboard" title="BayesFLo: Bayesian fault localization of complex software systems" index=230>
+<button class="copy-to-clipboard" title="BayesFLo: Bayesian fault localization of complex software systems" index=239>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-230 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-239 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9222,17 +9601,17 @@ Software testing is essential for the reliable development of complex software s
 {{</citation>}}
 
 
-### (7/7 | 231/311) Supporting Error Chains in Static Analysis for Precise Evaluation Results and Enhanced Usability (Anna-Katharina Wickert et al., 2024)
+### (7/7 | 240/322) Supporting Error Chains in Static Analysis for Precise Evaluation Results and Enhanced Usability (Anna-Katharina Wickert et al., 2024)
 
 {{<citation>}}
 
 Anna-Katharina Wickert, Michael Schlichtig, Marvin Vogel, Lukas Winter, Mira Mezini, Eric Bodden. (2024)  
 **Supporting Error Chains in Static Analysis for Precise Evaluation Results and Enhanced Usability**
 <br/>
-<button class="copy-to-clipboard" title="Supporting Error Chains in Static Analysis for Precise Evaluation Results and Enhanced Usability" index=231>
+<button class="copy-to-clipboard" title="Supporting Error Chains in Static Analysis for Precise Evaluation Results and Enhanced Usability" index=240>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-231 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-240 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9261,17 +9640,17 @@ Context: Static analyses are well-established to aid in understanding bugs or vu
 
 
 
-### (1/6 | 232/311) Towards Model Extraction Attacks in GAN-Based Image Translation via Domain Shift Mitigation (Di Mi et al., 2024)
+### (1/6 | 241/322) Towards Model Extraction Attacks in GAN-Based Image Translation via Domain Shift Mitigation (Di Mi et al., 2024)
 
 {{<citation>}}
 
 Di Mi, Yanjun Zhang, Leo Yu Zhang, Shengshan Hu, Qi Zhong, Haizhuan Yuan, Shirui Pan. (2024)  
 **Towards Model Extraction Attacks in GAN-Based Image Translation via Domain Shift Mitigation**
 <br/>
-<button class="copy-to-clipboard" title="Towards Model Extraction Attacks in GAN-Based Image Translation via Domain Shift Mitigation" index=232>
+<button class="copy-to-clipboard" title="Towards Model Extraction Attacks in GAN-Based Image Translation via Domain Shift Mitigation" index=241>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-232 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-241 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9296,17 +9675,17 @@ Keywords: Generative Adversarial Network, Image2text, Style Transfer, Model Extr
 {{</citation>}}
 
 
-### (2/6 | 233/311) One for All and All for One: GNN-based Control-Flow Attestation for Embedded Devices (Marco Chilese et al., 2024)
+### (2/6 | 242/322) One for All and All for One: GNN-based Control-Flow Attestation for Embedded Devices (Marco Chilese et al., 2024)
 
 {{<citation>}}
 
 Marco Chilese, Richard Mitev, Meni Orenbach, Robert Thorburn, Ahmad Atamli, Ahmad-Reza Sadeghi. (2024)  
 **One for All and All for One: GNN-based Control-Flow Attestation for Embedded Devices**
 <br/>
-<button class="copy-to-clipboard" title="One for All and All for One: GNN-based Control-Flow Attestation for Embedded Devices" index=233>
+<button class="copy-to-clipboard" title="One for All and All for One: GNN-based Control-Flow Attestation for Embedded Devices" index=242>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-233 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-242 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9331,17 +9710,17 @@ Control-Flow Attestation (CFA) is a security service that allows an entity (veri
 {{</citation>}}
 
 
-### (3/6 | 234/311) A Framework for Cost-Effective and Self-Adaptive LLM Shaking and Recovery Mechanism (Zhiyu Chen et al., 2024)
+### (3/6 | 243/322) A Framework for Cost-Effective and Self-Adaptive LLM Shaking and Recovery Mechanism (Zhiyu Chen et al., 2024)
 
 {{<citation>}}
 
 Zhiyu Chen, Yu Li, Suochao Zhang, Jingbo Zhou, Jiwen Zhou, Chenfu Bao, Dianhai Yu. (2024)  
 **A Framework for Cost-Effective and Self-Adaptive LLM Shaking and Recovery Mechanism**
 <br/>
-<button class="copy-to-clipboard" title="A Framework for Cost-Effective and Self-Adaptive LLM Shaking and Recovery Mechanism" index=234>
+<button class="copy-to-clipboard" title="A Framework for Cost-Effective and Self-Adaptive LLM Shaking and Recovery Mechanism" index=243>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-234 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-243 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9366,17 +9745,17 @@ As <b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> gain great success i
 {{</citation>}}
 
 
-### (4/6 | 235/311) Backdoor Attack with Mode Mixture Latent Modification (Hongwei Zhang et al., 2024)
+### (4/6 | 244/322) Backdoor Attack with Mode Mixture Latent Modification (Hongwei Zhang et al., 2024)
 
 {{<citation>}}
 
 Hongwei Zhang, Xiaoyin Xu, Dongsheng An, Xianfeng Gu, Min Zhang. (2024)  
 **Backdoor Attack with Mode Mixture Latent Modification**
 <br/>
-<button class="copy-to-clipboard" title="Backdoor Attack with Mode Mixture Latent Modification" index=235>
+<button class="copy-to-clipboard" title="Backdoor Attack with Mode Mixture Latent Modification" index=244>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-235 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-244 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9401,17 +9780,17 @@ Backdoor attacks become a significant security concern for deep neural networks 
 {{</citation>}}
 
 
-### (5/6 | 236/311) WannaLaugh: A Configurable Ransomware Emulator -- Learning to Mimic Malicious Storage Traces (Dionysios Diamantopolous et al., 2024)
+### (5/6 | 245/322) WannaLaugh: A Configurable Ransomware Emulator -- Learning to Mimic Malicious Storage Traces (Dionysios Diamantopolous et al., 2024)
 
 {{<citation>}}
 
 Dionysios Diamantopolous, Roman Pletka, Slavisa Sarafijanovic, A. L. Narasimha Reddy, Haris Pozidis. (2024)  
 **WannaLaugh: A Configurable Ransomware Emulator -- Learning to Mimic Malicious Storage Traces**
 <br/>
-<button class="copy-to-clipboard" title="WannaLaugh: A Configurable Ransomware Emulator -- Learning to Mimic Malicious Storage Traces" index=236>
+<button class="copy-to-clipboard" title="WannaLaugh: A Configurable Ransomware Emulator -- Learning to Mimic Malicious Storage Traces" index=245>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-236 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-245 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9436,17 +9815,17 @@ Keywords: Ransomware
 {{</citation>}}
 
 
-### (6/6 | 237/311) An Interpretable Generalization Mechanism for Accurately Detecting Anomaly and Identifying Networking Intrusion Techniques (Hao-Ting Pai et al., 2024)
+### (6/6 | 246/322) An Interpretable Generalization Mechanism for Accurately Detecting Anomaly and Identifying Networking Intrusion Techniques (Hao-Ting Pai et al., 2024)
 
 {{<citation>}}
 
 Hao-Ting Pai, Yu-Hsuan Kang, Wen-Cheng Chung. (2024)  
 **An Interpretable Generalization Mechanism for Accurately Detecting Anomaly and Identifying Networking Intrusion Techniques**
 <br/>
-<button class="copy-to-clipboard" title="An Interpretable Generalization Mechanism for Accurately Detecting Anomaly and Identifying Networking Intrusion Techniques" index=237>
+<button class="copy-to-clipboard" title="An Interpretable Generalization Mechanism for Accurately Detecting Anomaly and Identifying Networking Intrusion Techniques" index=246>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-237 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-246 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9471,21 +9850,21 @@ Recent advancements in Intrusion Detection Systems (IDS), integrating <b>Explain
 {{</citation>}}
 
 
-## cs.HC (4)
+## cs.HC (5)
 
 
 
-### (1/4 | 238/311) generAItor: Tree-in-the-Loop Text Generation for Language Model Explainability and Adaptation (Thilo Spinner et al., 2024)
+### (1/5 | 247/322) generAItor: Tree-in-the-Loop Text Generation for Language Model Explainability and Adaptation (Thilo Spinner et al., 2024)
 
 {{<citation>}}
 
 Thilo Spinner, Rebecca Kehlbeck, Rita Sevastjanova, Tobias Stähle, Daniel A. Keim, Oliver Deussen, Mennatallah El-Assady. (2024)  
 **generAItor: Tree-in-the-Loop Text Generation for Language Model Explainability and Adaptation**
 <br/>
-<button class="copy-to-clipboard" title="generAItor: Tree-in-the-Loop Text Generation for Language Model Explainability and Adaptation" index=238>
+<button class="copy-to-clipboard" title="generAItor: Tree-in-the-Loop Text Generation for Language Model Explainability and Adaptation" index=247>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-238 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-247 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9510,17 +9889,52 @@ Keywords: Fine-tuning, Text Generation, Large Language Model, Large Language Mod
 {{</citation>}}
 
 
-### (2/4 | 239/311) From Paper to Card: Transforming Design Implications with Generative AI (Donghoon Shin et al., 2024)
+### (2/5 | 248/322) Enhancing Depression-Diagnosis-Oriented Chat with Psychological State Tracking (Yiyang Gu et al., 2024)
+
+{{<citation>}}
+
+Yiyang Gu, Yougen Zhou, Qin Chen, Ningning Zhou, Jie Zhou, Aimin Zhou, Liang He. (2024)  
+**Enhancing Depression-Diagnosis-Oriented Chat with Psychological State Tracking**
+<br/>
+<button class="copy-to-clipboard" title="Enhancing Depression-Diagnosis-Oriented Chat with Psychological State Tracking" index=248>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-248 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: cs.HC  
+Categories: cs-AI, cs-CL, cs-CY, cs-HC, cs.HC  
+Keyword Score: 33  
+Keywords: Benchmarking, Fine-tuning, Large Language Model, Large Language Model  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.09717v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.09717v1.pdf" filename="2403.09717v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Depression-diagnosis-oriented chat aims to guide patients in self-expression to collect key symptoms for depression detection. Recent work focuses on combining task-oriented dialogue and chitchat to simulate the interview-based depression diagnosis. Whereas, these methods can not well capture the changing information, feelings, or symptoms of the patient during dialogues. Moreover, no explicit framework has been explored to guide the dialogue, which results in some useless communications that affect the experience. In this paper, we propose to integrate Psychological State Tracking (POST) within the <b>large</b> <b>language</b> <b>model</b> <b>(LLM)</b> to explicitly guide depression-diagnosis-oriented chat. Specifically, the state is adapted from a psychological theoretical model, which consists of four components, namely Stage, Information, Summary and Next. We <b>fine-tune</b> an <b>LLM</b> model to generate the dynamic psychological state, which is further used to assist response generation at each turn to simulate the psychiatrist. Experimental results on the existing <b>benchmark</b> show that our proposed method boosts the performance of all subtasks in depression-diagnosis-oriented chat.
+
+{{</citation>}}
+
+
+### (3/5 | 249/322) From Paper to Card: Transforming Design Implications with Generative AI (Donghoon Shin et al., 2024)
 
 {{<citation>}}
 
 Donghoon Shin, Lucy Lu Wang, Gary Hsieh. (2024)  
 **From Paper to Card: Transforming Design Implications with Generative AI**
 <br/>
-<button class="copy-to-clipboard" title="From Paper to Card: Transforming Design Implications with Generative AI" index=239>
+<button class="copy-to-clipboard" title="From Paper to Card: Transforming Design Implications with Generative AI" index=249>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-239 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-249 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9545,17 +9959,17 @@ Communicating design implications is common within the HCI community when publis
 {{</citation>}}
 
 
-### (3/4 | 240/311) Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion (Dongyang Li et al., 2024)
+### (4/5 | 250/322) Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion (Dongyang Li et al., 2024)
 
 {{<citation>}}
 
 Dongyang Li, Chen Wei, Shiying Li, Jiachen Zou, Quanying Liu. (2024)  
 **Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion**
 <br/>
-<button class="copy-to-clipboard" title="Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion" index=240>
+<button class="copy-to-clipboard" title="Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion" index=250>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-240 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-250 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9580,17 +9994,17 @@ How to decode human vision through neural signals has attracted a long-standing 
 {{</citation>}}
 
 
-### (4/4 | 241/311) TutoAI: A Cross-domain Framework for AI-assisted Mixed-media Tutorial Creation on Physical Tasks (Yuexi Chen et al., 2024)
+### (5/5 | 251/322) TutoAI: A Cross-domain Framework for AI-assisted Mixed-media Tutorial Creation on Physical Tasks (Yuexi Chen et al., 2024)
 
 {{<citation>}}
 
 Yuexi Chen, Vlad I. Morariu, Anh Truong, Zhicheng Liu. (2024)  
 **TutoAI: A Cross-domain Framework for AI-assisted Mixed-media Tutorial Creation on Physical Tasks**
 <br/>
-<button class="copy-to-clipboard" title="TutoAI: A Cross-domain Framework for AI-assisted Mixed-media Tutorial Creation on Physical Tasks" index=241>
+<button class="copy-to-clipboard" title="TutoAI: A Cross-domain Framework for AI-assisted Mixed-media Tutorial Creation on Physical Tasks" index=251>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-241 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-251 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9619,17 +10033,17 @@ Mixed-media tutorials, which integrate videos, images, text, and diagrams to tea
 
 
 
-### (1/3 | 242/311) OmniMatch: Effective Self-Supervised Any-Join Discovery in Tabular Data Repositories (Christos Koutras et al., 2024)
+### (1/3 | 252/322) OmniMatch: Effective Self-Supervised Any-Join Discovery in Tabular Data Repositories (Christos Koutras et al., 2024)
 
 {{<citation>}}
 
 Christos Koutras, Jiani Zhang, Xiao Qin, Chuan Lei, Vasileios Ioannidis, Christos Faloutsos, George Karypis, Asterios Katsifodimos. (2024)  
 **OmniMatch: Effective Self-Supervised Any-Join Discovery in Tabular Data Repositories**
 <br/>
-<button class="copy-to-clipboard" title="OmniMatch: Effective Self-Supervised Any-Join Discovery in Tabular Data Repositories" index=242>
+<button class="copy-to-clipboard" title="OmniMatch: Effective Self-Supervised Any-Join Discovery in Tabular Data Repositories" index=252>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-242 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-252 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9654,17 +10068,17 @@ How can we discover join relationships among columns of tabular data in a data r
 {{</citation>}}
 
 
-### (2/3 | 243/311) Couler: Unified Machine Learning Workflow Optimization in Cloud (Xiaoda Wang et al., 2024)
+### (2/3 | 253/322) Couler: Unified Machine Learning Workflow Optimization in Cloud (Xiaoda Wang et al., 2024)
 
 {{<citation>}}
 
 Xiaoda Wang, Yuan Tang, Tengda Guo, Bo Sang, Jingji Wu, Jian Sha, Ke Zhang, Jiang Qian, Mingjie Tang. (2024)  
 **Couler: Unified Machine Learning Workflow Optimization in Cloud**
 <br/>
-<button class="copy-to-clipboard" title="Couler: Unified Machine Learning Workflow Optimization in Cloud" index=243>
+<button class="copy-to-clipboard" title="Couler: Unified Machine Learning Workflow Optimization in Cloud" index=253>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-243 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-253 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9689,17 +10103,17 @@ Machine Learning (ML) has become ubiquitous, fueling data-driven applications ac
 {{</citation>}}
 
 
-### (3/3 | 244/311) Generalised Graph Grammars for Natural Language Processing (Oliver Robert Fox et al., 2024)
+### (3/3 | 254/322) Generalised Graph Grammars for Natural Language Processing (Oliver Robert Fox et al., 2024)
 
 {{<citation>}}
 
 Oliver Robert Fox, Giacomo Bergami. (2024)  
 **Generalised Graph Grammars for Natural Language Processing**
 <br/>
-<button class="copy-to-clipboard" title="Generalised Graph Grammars for Natural Language Processing" index=244>
+<button class="copy-to-clipboard" title="Generalised Graph Grammars for Natural Language Processing" index=254>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-244 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-254 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9728,17 +10142,17 @@ This seminal paper proposes a new query language for <b>graph</b> matching and r
 
 
 
-### (1/5 | 245/311) Measuring Data Similarity for Efficient Federated Learning: A Feasibility Study (Fernanda Famá et al., 2024)
+### (1/5 | 255/322) Measuring Data Similarity for Efficient Federated Learning: A Feasibility Study (Fernanda Famá et al., 2024)
 
 {{<citation>}}
 
 Fernanda Famá, Charalampos Kalalas, Sandra Lagen, Paolo Dini. (2024)  
 **Measuring Data Similarity for Efficient Federated Learning: A Feasibility Study**
 <br/>
-<button class="copy-to-clipboard" title="Measuring Data Similarity for Efficient Federated Learning: A Feasibility Study" index=245>
+<button class="copy-to-clipboard" title="Measuring Data Similarity for Efficient Federated Learning: A Feasibility Study" index=255>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-245 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-255 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9763,17 +10177,17 @@ In multiple <b>federated</b> <b>learning</b> schemes, a random subset of clients
 {{</citation>}}
 
 
-### (2/5 | 246/311) MPCPA: Multi-Center Privacy Computing with Predictions Aggregation based on Denoising Diffusion Probabilistic Model (Guibo Luo et al., 2024)
+### (2/5 | 256/322) MPCPA: Multi-Center Privacy Computing with Predictions Aggregation based on Denoising Diffusion Probabilistic Model (Guibo Luo et al., 2024)
 
 {{<citation>}}
 
 Guibo Luo, Hanwen Zhang, Xiuling Wang, Mingzhi Chen, Yuesheng Zhu. (2024)  
 **MPCPA: Multi-Center Privacy Computing with Predictions Aggregation based on Denoising Diffusion Probabilistic Model**
 <br/>
-<button class="copy-to-clipboard" title="MPCPA: Multi-Center Privacy Computing with Predictions Aggregation based on Denoising Diffusion Probabilistic Model" index=246>
+<button class="copy-to-clipboard" title="MPCPA: Multi-Center Privacy Computing with Predictions Aggregation based on Denoising Diffusion Probabilistic Model" index=256>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-246 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-256 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9798,17 +10212,17 @@ Privacy-preserving computing is crucial for multi-center machine learning in man
 {{</citation>}}
 
 
-### (3/5 | 247/311) Characterization of Large Language Model Development in the Datacenter (Qinghao Hu et al., 2024)
+### (3/5 | 257/322) Characterization of Large Language Model Development in the Datacenter (Qinghao Hu et al., 2024)
 
 {{<citation>}}
 
 Qinghao Hu, Zhisheng Ye, Zerui Wang, Guoteng Wang, Meng Zhang, Qiaoling Chen, Peng Sun, Dahua Lin, Xiaolin Wang, Yingwei Luo, Yonggang Wen, Tianwei Zhang. (2024)  
 **Characterization of Large Language Model Development in the Datacenter**
 <br/>
-<button class="copy-to-clipboard" title="Characterization of Large Language Model Development in the Datacenter" index=247>
+<button class="copy-to-clipboard" title="Characterization of Large Language Model Development in the Datacenter" index=257>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-247 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-257 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9833,17 +10247,17 @@ Keywords: Large Language Model, Large Language Model, Summarization
 {{</citation>}}
 
 
-### (4/5 | 248/311) Accelerating Biclique Counting on GPU (Linshan Qiu et al., 2024)
+### (4/5 | 258/322) Accelerating Biclique Counting on GPU (Linshan Qiu et al., 2024)
 
 {{<citation>}}
 
 Linshan Qiu, Zhonggen Li, Xiangyu Ke, Lu Chen, Yunjun Gao. (2024)  
 **Accelerating Biclique Counting on GPU**
 <br/>
-<button class="copy-to-clipboard" title="Accelerating Biclique Counting on GPU" index=248>
+<button class="copy-to-clipboard" title="Accelerating Biclique Counting on GPU" index=258>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-248 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-258 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9868,17 +10282,17 @@ Counting (p,q)-bicliques in bipartite <b>graphs</b> poses a foundational challen
 {{</citation>}}
 
 
-### (5/5 | 249/311) Efficient Fault Tolerance for Pipelined Query Engines via Write-ahead Lineage (Ziheng Wang et al., 2024)
+### (5/5 | 259/322) Efficient Fault Tolerance for Pipelined Query Engines via Write-ahead Lineage (Ziheng Wang et al., 2024)
 
 {{<citation>}}
 
 Ziheng Wang, Alex Aiken. (2024)  
 **Efficient Fault Tolerance for Pipelined Query Engines via Write-ahead Lineage**
 <br/>
-<button class="copy-to-clipboard" title="Efficient Fault Tolerance for Pipelined Query Engines via Write-ahead Lineage" index=249>
+<button class="copy-to-clipboard" title="Efficient Fault Tolerance for Pipelined Query Engines via Write-ahead Lineage" index=259>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-249 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-259 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9903,21 +10317,21 @@ Modern distributed pipelined query engines either do not support intra-query fau
 {{</citation>}}
 
 
-## eess.SY (10)
+## eess.SY (11)
 
 
 
-### (1/10 | 250/311) Learning-based Prescribed-Time Safety for Control of Unknown Systems with Control Barrier Functions (Tzu-Yuan Huang et al., 2024)
+### (1/11 | 260/322) Learning-based Prescribed-Time Safety for Control of Unknown Systems with Control Barrier Functions (Tzu-Yuan Huang et al., 2024)
 
 {{<citation>}}
 
 Tzu-Yuan Huang, Xiaobing Dai, Sihua Zhang, Alexandre Capone, Velimir Todorovski, Stefan Sosnowski, Sandra Hirche. (2024)  
 **Learning-based Prescribed-Time Safety for Control of Unknown Systems with Control Barrier Functions**
 <br/>
-<button class="copy-to-clipboard" title="Learning-based Prescribed-Time Safety for Control of Unknown Systems with Control Barrier Functions" index=250>
+<button class="copy-to-clipboard" title="Learning-based Prescribed-Time Safety for Control of Unknown Systems with Control Barrier Functions" index=260>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-250 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-260 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9942,17 +10356,17 @@ In many control system applications, state constraint satisfaction needs to be g
 {{</citation>}}
 
 
-### (2/10 | 251/311) Configuration and EMT Simulation of the 240-bus MiniWECC System Integrating Offshore Wind Farms (OWFs) (Buxin She et al., 2024)
+### (2/11 | 261/322) Configuration and EMT Simulation of the 240-bus MiniWECC System Integrating Offshore Wind Farms (OWFs) (Buxin She et al., 2024)
 
 {{<citation>}}
 
 Buxin She, Hisham Mahmood, Marcelo Elizondo, Veronica Adetola, Yuqing Dong. (2024)  
 **Configuration and EMT Simulation of the 240-bus MiniWECC System Integrating Offshore Wind Farms (OWFs)**
 <br/>
-<button class="copy-to-clipboard" title="Configuration and EMT Simulation of the 240-bus MiniWECC System Integrating Offshore Wind Farms (OWFs)" index=251>
+<button class="copy-to-clipboard" title="Configuration and EMT Simulation of the 240-bus MiniWECC System Integrating Offshore Wind Farms (OWFs)" index=261>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-251 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-261 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -9977,17 +10391,17 @@ As offshore wind farms (OWFs) become increasingly prevalent in Northern Californ
 {{</citation>}}
 
 
-### (3/10 | 252/311) Humans-in-the-Building: Getting Rid of Thermostats for Optimal Thermal Comfort Control in Energy Management Systems (Jiali Wang et al., 2024)
+### (3/11 | 262/322) Humans-in-the-Building: Getting Rid of Thermostats for Optimal Thermal Comfort Control in Energy Management Systems (Jiali Wang et al., 2024)
 
 {{<citation>}}
 
 Jiali Wang, Yang Tang, Luca Schenato. (2024)  
 **Humans-in-the-Building: Getting Rid of Thermostats for Optimal Thermal Comfort Control in Energy Management Systems**
 <br/>
-<button class="copy-to-clipboard" title="Humans-in-the-Building: Getting Rid of Thermostats for Optimal Thermal Comfort Control in Energy Management Systems" index=252>
+<button class="copy-to-clipboard" title="Humans-in-the-Building: Getting Rid of Thermostats for Optimal Thermal Comfort Control in Energy Management Systems" index=262>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-252 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-262 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10012,17 +10426,17 @@ Given the widespread attention to individual thermal comfort, coupled with signi
 {{</citation>}}
 
 
-### (4/10 | 253/311) GMPC: Geometric Model Predictive Control for Wheeled Mobile Robot Trajectory Tracking (Jiawei Tang et al., 2024)
+### (4/11 | 263/322) GMPC: Geometric Model Predictive Control for Wheeled Mobile Robot Trajectory Tracking (Jiawei Tang et al., 2024)
 
 {{<citation>}}
 
 Jiawei Tang, Shuang Wu, Bo Lan, Yahui Dong, Yuqiang Jin, Guangjian Tian, Wen-An Zhang, Ling Shi. (2024)  
 **GMPC: Geometric Model Predictive Control for Wheeled Mobile Robot Trajectory Tracking**
 <br/>
-<button class="copy-to-clipboard" title="GMPC: Geometric Model Predictive Control for Wheeled Mobile Robot Trajectory Tracking" index=253>
+<button class="copy-to-clipboard" title="GMPC: Geometric Model Predictive Control for Wheeled Mobile Robot Trajectory Tracking" index=263>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-253 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-263 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10047,17 +10461,17 @@ The configuration of most robotic systems lies in continuous transformation grou
 {{</citation>}}
 
 
-### (5/10 | 254/311) Improving Fairness in Photovoltaic Curtailments via Daily Topology Reconfiguration for Voltage Control in Power Distribution Networks (Rahul K. Gupta et al., 2024)
+### (5/11 | 264/322) Improving Fairness in Photovoltaic Curtailments via Daily Topology Reconfiguration for Voltage Control in Power Distribution Networks (Rahul K. Gupta et al., 2024)
 
 {{<citation>}}
 
 Rahul K. Gupta, Daniel K. Molzahn. (2024)  
 **Improving Fairness in Photovoltaic Curtailments via Daily Topology Reconfiguration for Voltage Control in Power Distribution Networks**
 <br/>
-<button class="copy-to-clipboard" title="Improving Fairness in Photovoltaic Curtailments via Daily Topology Reconfiguration for Voltage Control in Power Distribution Networks" index=254>
+<button class="copy-to-clipboard" title="Improving Fairness in Photovoltaic Curtailments via Daily Topology Reconfiguration for Voltage Control in Power Distribution Networks" index=264>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-254 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-264 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10082,17 +10496,17 @@ In PV-rich power distribution systems, over-voltage issues are often addressed b
 {{</citation>}}
 
 
-### (6/10 | 255/311) Utilizing Load Shifting for Optimal Compressor Sequencing in Industrial Refrigeration (Rohit Konda et al., 2024)
+### (6/11 | 265/322) Utilizing Load Shifting for Optimal Compressor Sequencing in Industrial Refrigeration (Rohit Konda et al., 2024)
 
 {{<citation>}}
 
 Rohit Konda, Vikas Chandan, Jesse Crossno, Blake Pollard, Dan Walsh, Rick Bohonek, Jason R. Marden. (2024)  
 **Utilizing Load Shifting for Optimal Compressor Sequencing in Industrial Refrigeration**
 <br/>
-<button class="copy-to-clipboard" title="Utilizing Load Shifting for Optimal Compressor Sequencing in Industrial Refrigeration" index=255>
+<button class="copy-to-clipboard" title="Utilizing Load Shifting for Optimal Compressor Sequencing in Industrial Refrigeration" index=265>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-255 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-265 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10117,17 +10531,52 @@ The ubiquity and energy needs of industrial refrigeration has <b>prompted</b> se
 {{</citation>}}
 
 
-### (7/10 | 256/311) On the locomotion of the slider within a self-adaptive beam-slider system (Florian Müller et al., 2024)
+### (7/11 | 266/322) Distributed Estimation by Two Agents with Different Feature Spaces (Aneesh Raghavan et al., 2024)
+
+{{<citation>}}
+
+Aneesh Raghavan, Karl Henrik Johansson. (2024)  
+**Distributed Estimation by Two Agents with Different Feature Spaces**
+<br/>
+<button class="copy-to-clipboard" title="Distributed Estimation by Two Agents with Different Feature Spaces" index=266>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-266 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: eess.SY  
+Categories: 62J07 93A16 46N30, cs-SY, eess-SY, eess.SY  
+Keyword Score: 10  
+Keywords: Meta Learning  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07749v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07749v2.pdf" filename="2403.07749v2.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+We consider the problem of estimation of a function by a system consisting of two agents and a fusion center. The two agents collect data comprising of samples of an independent variable and the corresponding value of a dependent variable. The objective of the system is to collaboratively estimate the function without any exchange of data among the members of the system. To this end, we propose the following framework. The agents are given a set of features using which they construct suitable function spaces to formulate and solve the estimation problems locally. The estimated functions are uploaded to a fusion space where an optimization problem is solved to fuse the estimates (also known as <b>meta-learning)</b> <b>to</b> obtain the system estimate of the mapping. The fused function is then downloaded by the agents to gather knowledge about the other agents estimate of the function. With respect to the framework, we present the following: a systematic construction of fusion space given the features of the agents; the derivation of an uploading operator for the agents to upload their estimated functions to a fusion space; the derivation of a downloading operator for the fused function to be downloaded. Through an example on least squares regression, we illustrate the distributed estimation architecture that has been developed.
+
+{{</citation>}}
+
+
+### (8/11 | 267/322) On the locomotion of the slider within a self-adaptive beam-slider system (Florian Müller et al., 2024)
 
 {{<citation>}}
 
 Florian Müller, Malte Krack. (2024)  
 **On the locomotion of the slider within a self-adaptive beam-slider system**
 <br/>
-<button class="copy-to-clipboard" title="On the locomotion of the slider within a self-adaptive beam-slider system" index=256>
+<button class="copy-to-clipboard" title="On the locomotion of the slider within a self-adaptive beam-slider system" index=267>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-256 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-267 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10152,17 +10601,17 @@ A beam-slider system is considered whose passive <b>self-adaption</b> relies on 
 {{</citation>}}
 
 
-### (8/10 | 257/311) Adaptive Gain Scheduling using Reinforcement Learning for Quadcopter Control (Mike Timmerman et al., 2024)
+### (9/11 | 268/322) Adaptive Gain Scheduling using Reinforcement Learning for Quadcopter Control (Mike Timmerman et al., 2024)
 
 {{<citation>}}
 
 Mike Timmerman, Aryan Patel, Tim Reinhart. (2024)  
 **Adaptive Gain Scheduling using Reinforcement Learning for Quadcopter Control**
 <br/>
-<button class="copy-to-clipboard" title="Adaptive Gain Scheduling using Reinforcement Learning for Quadcopter Control" index=257>
+<button class="copy-to-clipboard" title="Adaptive Gain Scheduling using Reinforcement Learning for Quadcopter Control" index=268>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-257 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-268 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10187,17 +10636,17 @@ The paper presents a technique using <b>reinforcement</b> <b>learning</b> (RL) t
 {{</citation>}}
 
 
-### (9/10 | 258/311) On Modeling Adequacy and Stability Analysis of IBR-related Subsynchronous Oscillations in Multimachine Systems (Lilan Karunaratne et al., 2024)
+### (10/11 | 269/322) On Modeling Adequacy and Stability Analysis of IBR-related Subsynchronous Oscillations in Multimachine Systems (Lilan Karunaratne et al., 2024)
 
 {{<citation>}}
 
 Lilan Karunaratne, Nilanjan Ray Chaudhuri, Amirthagunaraj Yogarathnam, Meng Yue. (2024)  
 **On Modeling Adequacy and Stability Analysis of IBR-related Subsynchronous Oscillations in Multimachine Systems**
 <br/>
-<button class="copy-to-clipboard" title="On Modeling Adequacy and Stability Analysis of IBR-related Subsynchronous Oscillations in Multimachine Systems" index=258>
+<button class="copy-to-clipboard" title="On Modeling Adequacy and Stability Analysis of IBR-related Subsynchronous Oscillations in Multimachine Systems" index=269>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-258 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-269 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10222,17 +10671,17 @@ Time-varying phasor-based analysis of subsynchronous oscillations (SSOs) involvi
 {{</citation>}}
 
 
-### (10/10 | 259/311) Energy versus Output Quality of Non-volatile Writes in Intermittent Computing (Rei Barjami et al., 2024)
+### (11/11 | 270/322) Energy versus Output Quality of Non-volatile Writes in Intermittent Computing (Rei Barjami et al., 2024)
 
 {{<citation>}}
 
 Rei Barjami, Antonio Miele, Luca Mottola. (2024)  
 **Energy versus Output Quality of Non-volatile Writes in Intermittent Computing**
 <br/>
-<button class="copy-to-clipboard" title="Energy versus Output Quality of Non-volatile Writes in Intermittent Computing" index=259>
+<button class="copy-to-clipboard" title="Energy versus Output Quality of Non-volatile Writes in Intermittent Computing" index=270>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-259 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-270 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10261,17 +10710,17 @@ We explore how to improve the energy performance of battery-less Internet of Thi
 
 
 
-### (1/6 | 260/311) Transforming Competition into Collaboration: The Revolutionary Role of Multi-Agent Systems and Language Models in Modern Organizations (Carlos Jose Xavier Cruz, 2024)
+### (1/6 | 271/322) Transforming Competition into Collaboration: The Revolutionary Role of Multi-Agent Systems and Language Models in Modern Organizations (Carlos Jose Xavier Cruz, 2024)
 
 {{<citation>}}
 
 Carlos Jose Xavier Cruz. (2024)  
 **Transforming Competition into Collaboration: The Revolutionary Role of Multi-Agent Systems and Language Models in Modern Organizations**
 <br/>
-<button class="copy-to-clipboard" title="Transforming Competition into Collaboration: The Revolutionary Role of Multi-Agent Systems and Language Models in Modern Organizations" index=260>
+<button class="copy-to-clipboard" title="Transforming Competition into Collaboration: The Revolutionary Role of Multi-Agent Systems and Language Models in Modern Organizations" index=271>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-260 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-271 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10284,8 +10733,8 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-CL, cs-CY, cs-MA, cs.AI  
 Keyword Score: 30  
 Keywords: Reasoning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07769v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07769v2.pdf" filename="2403.07769v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07769v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07769v3.pdf" filename="2403.07769v3.pdf">Download PDF</button>
 
 ---
 
@@ -10296,17 +10745,17 @@ This article explores the dynamic influence of computational entities based on m
 {{</citation>}}
 
 
-### (2/6 | 261/311) An Improved Strategy for Blood Glucose Control Using Multi-Step Deep Reinforcement Learning (Weiwei Gu et al., 2024)
+### (2/6 | 272/322) An Improved Strategy for Blood Glucose Control Using Multi-Step Deep Reinforcement Learning (Weiwei Gu et al., 2024)
 
 {{<citation>}}
 
 Weiwei Gu, Senquan Wang. (2024)  
 **An Improved Strategy for Blood Glucose Control Using Multi-Step Deep Reinforcement Learning**
 <br/>
-<button class="copy-to-clipboard" title="An Improved Strategy for Blood Glucose Control Using Multi-Step Deep Reinforcement Learning" index=261>
+<button class="copy-to-clipboard" title="An Improved Strategy for Blood Glucose Control Using Multi-Step Deep Reinforcement Learning" index=272>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-261 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-272 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10319,8 +10768,8 @@ Primary Category: cs.AI
 Categories: cs-AI, cs.AI  
 Keyword Score: 23  
 Keywords: Benchmarking, Markov Decision Process, Reinforcement Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07566v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07566v1.pdf" filename="2403.07566v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07566v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07566v2.pdf" filename="2403.07566v2.pdf">Download PDF</button>
 
 ---
 
@@ -10331,17 +10780,17 @@ Blood Glucose (BG) control involves keeping an individual's BG within a healthy 
 {{</citation>}}
 
 
-### (3/6 | 262/311) Online Continual Learning For Interactive Instruction Following Agents (Byeonghwi Kim et al., 2024)
+### (3/6 | 273/322) Online Continual Learning For Interactive Instruction Following Agents (Byeonghwi Kim et al., 2024)
 
 {{<citation>}}
 
 Byeonghwi Kim, Minhyuk Seo, Jonghyun Choi. (2024)  
 **Online Continual Learning For Interactive Instruction Following Agents**
 <br/>
-<button class="copy-to-clipboard" title="Online Continual Learning For Interactive Instruction Following Agents" index=262>
+<button class="copy-to-clipboard" title="Online Continual Learning For Interactive Instruction Following Agents" index=273>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-262 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-273 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10366,17 +10815,17 @@ In learning an embodied agent executing daily tasks via language directives, the
 {{</citation>}}
 
 
-### (4/6 | 263/311) Perennial Semantic Data Terms of Use for Decentralized Web (Rui Zhao et al., 2024)
+### (4/6 | 274/322) Perennial Semantic Data Terms of Use for Decentralized Web (Rui Zhao et al., 2024)
 
 {{<citation>}}
 
 Rui Zhao, Jun Zhao. (2024)  
 **Perennial Semantic Data Terms of Use for Decentralized Web**
 <br/>
-<button class="copy-to-clipboard" title="Perennial Semantic Data Terms of Use for Decentralized Web" index=263>
+<button class="copy-to-clipboard" title="Perennial Semantic Data Terms of Use for Decentralized Web" index=274>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-263 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-274 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10401,17 +10850,17 @@ In today's digital landscape, the Web has become increasingly centralized, raisi
 {{</citation>}}
 
 
-### (5/6 | 264/311) Optimal Design and Implementation of an Open-source Emulation Platform for User-Centric Shared E-mobility Services (Maqsood Hussain Shah et al., 2024)
+### (5/6 | 275/322) Optimal Design and Implementation of an Open-source Emulation Platform for User-Centric Shared E-mobility Services (Maqsood Hussain Shah et al., 2024)
 
 {{<citation>}}
 
 Maqsood Hussain Shah, Yue Ding, Shaoshu Zhu, Yingqi Gu, Mingming Liu. (2024)  
 **Optimal Design and Implementation of an Open-source Emulation Platform for User-Centric Shared E-mobility Services**
 <br/>
-<button class="copy-to-clipboard" title="Optimal Design and Implementation of an Open-source Emulation Platform for User-Centric Shared E-mobility Services" index=264>
+<button class="copy-to-clipboard" title="Optimal Design and Implementation of an Open-source Emulation Platform for User-Centric Shared E-mobility Services" index=275>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-264 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-275 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10436,17 +10885,17 @@ In response to the escalating global challenge of increasing emissions and pollu
 {{</citation>}}
 
 
-### (6/6 | 265/311) Relevance Score: A Landmark-Like Heuristic for Planning (Oliver Kim et al., 2024)
+### (6/6 | 276/322) Relevance Score: A Landmark-Like Heuristic for Planning (Oliver Kim et al., 2024)
 
 {{<citation>}}
 
 Oliver Kim, Mohan Sridharan. (2024)  
 **Relevance Score: A Landmark-Like Heuristic for Planning**
 <br/>
-<button class="copy-to-clipboard" title="Relevance Score: A Landmark-Like Heuristic for Planning" index=265>
+<button class="copy-to-clipboard" title="Relevance Score: A Landmark-Like Heuristic for Planning" index=276>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-265 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-276 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10475,17 +10924,17 @@ Landmarks are facts or actions that appear in all valid solutions of a planning 
 
 
 
-### (1/2 | 266/311) Multichannel Long-Term Streaming Neural Speech Enhancement for Static and Moving Speakers (Changsheng Quan et al., 2024)
+### (1/2 | 277/322) Multichannel Long-Term Streaming Neural Speech Enhancement for Static and Moving Speakers (Changsheng Quan et al., 2024)
 
 {{<citation>}}
 
 Changsheng Quan, Xiaofei Li. (2024)  
 **Multichannel Long-Term Streaming Neural Speech Enhancement for Static and Moving Speakers**
 <br/>
-<button class="copy-to-clipboard" title="Multichannel Long-Term Streaming Neural Speech Enhancement for Static and Moving Speakers" index=266>
+<button class="copy-to-clipboard" title="Multichannel Long-Term Streaming Neural Speech Enhancement for Static and Moving Speakers" index=277>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-266 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-277 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10510,17 +10959,17 @@ In this work, we extend our previously proposed offline SpatialNet for long-term
 {{</citation>}}
 
 
-### (2/2 | 267/311) Boosting keyword spotting through on-device learnable user speech characteristics (Cristian Cioflan et al., 2024)
+### (2/2 | 278/322) Boosting keyword spotting through on-device learnable user speech characteristics (Cristian Cioflan et al., 2024)
 
 {{<citation>}}
 
 Cristian Cioflan, Lukas Cavigelli, Luca Benini. (2024)  
 **Boosting keyword spotting through on-device learnable user speech characteristics**
 <br/>
-<button class="copy-to-clipboard" title="Boosting keyword spotting through on-device learnable user speech characteristics" index=267>
+<button class="copy-to-clipboard" title="Boosting keyword spotting through on-device learnable user speech characteristics" index=278>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-267 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-278 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10549,17 +10998,17 @@ Keyword spotting systems for always-on TinyML-constrained applications require o
 
 
 
-### (1/5 | 268/311) Optimization of Pressure Management Strategies for Geological CO2 Sequestration Using Surrogate Model-based Reinforcement Learning (Jungang Chen et al., 2024)
+### (1/5 | 279/322) Optimization of Pressure Management Strategies for Geological CO2 Sequestration Using Surrogate Model-based Reinforcement Learning (Jungang Chen et al., 2024)
 
 {{<citation>}}
 
 Jungang Chen, Eduardo Gildin, John E. Killough. (2024)  
 **Optimization of Pressure Management Strategies for Geological CO2 Sequestration Using Surrogate Model-based Reinforcement Learning**
 <br/>
-<button class="copy-to-clipboard" title="Optimization of Pressure Management Strategies for Geological CO2 Sequestration Using Surrogate Model-based Reinforcement Learning" index=268>
+<button class="copy-to-clipboard" title="Optimization of Pressure Management Strategies for Geological CO2 Sequestration Using Surrogate Model-based Reinforcement Learning" index=279>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-268 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-279 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10584,17 +11033,17 @@ Injecting greenhouse gas into deep underground reservoirs for permanent storage 
 {{</citation>}}
 
 
-### (2/5 | 269/311) A boundary integral based particle initialization algorithm for Smooth Particle Hydrodynamics (Parikshit Boregowda et al., 2024)
+### (2/5 | 280/322) A boundary integral based particle initialization algorithm for Smooth Particle Hydrodynamics (Parikshit Boregowda et al., 2024)
 
 {{<citation>}}
 
 Parikshit Boregowda, G R Liu. (2024)  
 **A boundary integral based particle initialization algorithm for Smooth Particle Hydrodynamics**
 <br/>
-<button class="copy-to-clipboard" title="A boundary integral based particle initialization algorithm for Smooth Particle Hydrodynamics" index=269>
+<button class="copy-to-clipboard" title="A boundary integral based particle initialization algorithm for Smooth Particle Hydrodynamics" index=280>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-269 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-280 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10619,17 +11068,17 @@ Algorithms for initializing particle distribution in SPH <b>simulations</b> of c
 {{</citation>}}
 
 
-### (3/5 | 270/311) Towards Code Generation for Octree-Based Multigrid Solvers (Richard Angersbach et al., 2024)
+### (3/5 | 281/322) Towards Code Generation for Octree-Based Multigrid Solvers (Richard Angersbach et al., 2024)
 
 {{<citation>}}
 
 Richard Angersbach, Sebastian Kuckuck, Harald Köstler. (2024)  
 **Towards Code Generation for Octree-Based Multigrid Solvers**
 <br/>
-<button class="copy-to-clipboard" title="Towards Code Generation for Octree-Based Multigrid Solvers" index=270>
+<button class="copy-to-clipboard" title="Towards Code Generation for Octree-Based Multigrid Solvers" index=281>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-270 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-281 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10654,17 +11103,17 @@ This paper presents a novel method designed to generate multigrid solvers optimi
 {{</citation>}}
 
 
-### (4/5 | 271/311) A time-adaptive finite element phase-field model suitable for rate-independent fracture mechanics (Felix Rörentrop et al., 2024)
+### (4/5 | 282/322) A time-adaptive finite element phase-field model suitable for rate-independent fracture mechanics (Felix Rörentrop et al., 2024)
 
 {{<citation>}}
 
 Felix Rörentrop, Samira Boddin, Dorothee Knees, Jörn Mosler. (2024)  
 **A time-adaptive finite element phase-field model suitable for rate-independent fracture mechanics**
 <br/>
-<button class="copy-to-clipboard" title="A time-adaptive finite element phase-field model suitable for rate-independent fracture mechanics" index=271>
+<button class="copy-to-clipboard" title="A time-adaptive finite element phase-field model suitable for rate-independent fracture mechanics" index=282>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-271 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-282 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10689,17 +11138,17 @@ The modeling of cracks is an important topic - both in engineering as well as in
 {{</citation>}}
 
 
-### (5/5 | 272/311) Towards Full Automation of Geometry Extraction for Biomechanical Analysis of Abdominal Aortic Aneurysm; Neural Network-Based versus Classical Methodologies (Farah Alkhatib et al., 2024)
+### (5/5 | 283/322) Towards Full Automation of Geometry Extraction for Biomechanical Analysis of Abdominal Aortic Aneurysm; Neural Network-Based versus Classical Methodologies (Farah Alkhatib et al., 2024)
 
 {{<citation>}}
 
 Farah Alkhatib, Mostafa Jamshidian, Donatien Le Liepvre, Florian Bernard, Ludovic Minvielle, Adam Wittek, Karol Miller. (2024)  
 **Towards Full Automation of Geometry Extraction for Biomechanical Analysis of Abdominal Aortic Aneurysm; Neural Network-Based versus Classical Methodologies**
 <br/>
-<button class="copy-to-clipboard" title="Towards Full Automation of Geometry Extraction for Biomechanical Analysis of Abdominal Aortic Aneurysm; Neural Network-Based versus Classical Methodologies" index=272>
+<button class="copy-to-clipboard" title="Towards Full Automation of Geometry Extraction for Biomechanical Analysis of Abdominal Aortic Aneurysm; Neural Network-Based versus Classical Methodologies" index=283>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-272 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-283 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10728,17 +11177,17 @@ In this study we investigated the impact of image segmentation methods on the re
 
 
 
-### (1/5 | 273/311) 6D Movable Antenna Based on User Distribution: Modeling and Optimization (Xiaodan Shao et al., 2024)
+### (1/5 | 284/322) 6D Movable Antenna Based on User Distribution: Modeling and Optimization (Xiaodan Shao et al., 2024)
 
 {{<citation>}}
 
 Xiaodan Shao, Qijun Jiang, Rui Zhang. (2024)  
 **6D Movable Antenna Based on User Distribution: Modeling and Optimization**
 <br/>
-<button class="copy-to-clipboard" title="6D Movable Antenna Based on User Distribution: Modeling and Optimization" index=273>
+<button class="copy-to-clipboard" title="6D Movable Antenna Based on User Distribution: Modeling and Optimization" index=284>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-273 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-284 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10763,17 +11212,17 @@ In this paper, we propose a new six-dimensional (6D) movable antenna (6DMA) syst
 {{</citation>}}
 
 
-### (2/5 | 274/311) Multi-source Scheduling and Resource Allocation for Age-of-Semantic-Importance Optimization in Status Update Systems (Lunyuan Chen et al., 2024)
+### (2/5 | 285/322) Multi-source Scheduling and Resource Allocation for Age-of-Semantic-Importance Optimization in Status Update Systems (Lunyuan Chen et al., 2024)
 
 {{<citation>}}
 
 Lunyuan Chen, Jie Gong. (2024)  
 **Multi-source Scheduling and Resource Allocation for Age-of-Semantic-Importance Optimization in Status Update Systems**
 <br/>
-<button class="copy-to-clipboard" title="Multi-source Scheduling and Resource Allocation for Age-of-Semantic-Importance Optimization in Status Update Systems" index=274>
+<button class="copy-to-clipboard" title="Multi-source Scheduling and Resource Allocation for Age-of-Semantic-Importance Optimization in Status Update Systems" index=285>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-274 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-285 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10798,17 +11247,17 @@ In recent years, semantic communication is progressively emerging as an effectiv
 {{</citation>}}
 
 
-### (3/5 | 275/311) D$^2$-JSCC: Digital Deep Joint Source-channel Coding for Semantic Communications (Jianhao Huang et al., 2024)
+### (3/5 | 286/322) D$^2$-JSCC: Digital Deep Joint Source-channel Coding for Semantic Communications (Jianhao Huang et al., 2024)
 
 {{<citation>}}
 
 Jianhao Huang, Kai Yuan, Chuan Huang, Kaibin Huang. (2024)  
 **D$^2$-JSCC: Digital Deep Joint Source-channel Coding for Semantic Communications**
 <br/>
-<button class="copy-to-clipboard" title="D$^2$-JSCC: Digital Deep Joint Source-channel Coding for Semantic Communications" index=275>
+<button class="copy-to-clipboard" title="D$^2$-JSCC: Digital Deep Joint Source-channel Coding for Semantic Communications" index=286>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-275 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-286 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10833,17 +11282,17 @@ Semantic communications (SemCom) have emerged as a new paradigm for supporting s
 {{</citation>}}
 
 
-### (4/5 | 276/311) Achievable Rate Analysis and Optimization of Double-RIS Assisted Spatially Correlated MIMO with Statistical CSI (Kaizhe Xu et al., 2024)
+### (4/5 | 287/322) Achievable Rate Analysis and Optimization of Double-RIS Assisted Spatially Correlated MIMO with Statistical CSI (Kaizhe Xu et al., 2024)
 
 {{<citation>}}
 
 Kaizhe Xu, Jiajia Guo, Jun Zhang, Shi Jin, Shaodan Ma. (2024)  
 **Achievable Rate Analysis and Optimization of Double-RIS Assisted Spatially Correlated MIMO with Statistical CSI**
 <br/>
-<button class="copy-to-clipboard" title="Achievable Rate Analysis and Optimization of Double-RIS Assisted Spatially Correlated MIMO with Statistical CSI" index=276>
+<button class="copy-to-clipboard" title="Achievable Rate Analysis and Optimization of Double-RIS Assisted Spatially Correlated MIMO with Statistical CSI" index=287>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-276 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-287 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10868,17 +11317,17 @@ Reconfigurable intelligent surface (RIS) is a novel meta-material which can form
 {{</citation>}}
 
 
-### (5/5 | 277/311) Approaching Rate-Distortion Limits in Neural Compression with Lattice Transform Coding (Eric Lei et al., 2024)
+### (5/5 | 288/322) Approaching Rate-Distortion Limits in Neural Compression with Lattice Transform Coding (Eric Lei et al., 2024)
 
 {{<citation>}}
 
 Eric Lei, Hamed Hassani, Shirin Saeedi Bidokhti. (2024)  
 **Approaching Rate-Distortion Limits in Neural Compression with Lattice Transform Coding**
 <br/>
-<button class="copy-to-clipboard" title="Approaching Rate-Distortion Limits in Neural Compression with Lattice Transform Coding" index=277>
+<button class="copy-to-clipboard" title="Approaching Rate-Distortion Limits in Neural Compression with Lattice Transform Coding" index=288>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-277 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-288 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10907,17 +11356,17 @@ Neural compression has brought tremendous progress in designing lossy compressor
 
 
 
-### (1/1 | 278/311) RoboCertProb: Property Specification for Probabilistic RoboChart Models (Kangfeng Ye et al., 2024)
+### (1/1 | 289/322) RoboCertProb: Property Specification for Probabilistic RoboChart Models (Kangfeng Ye et al., 2024)
 
 {{<citation>}}
 
 Kangfeng Ye, Jim Woodcock. (2024)  
 **RoboCertProb: Property Specification for Probabilistic RoboChart Models**
 <br/>
-<button class="copy-to-clipboard" title="RoboCertProb: Property Specification for Probabilistic RoboChart Models" index=278>
+<button class="copy-to-clipboard" title="RoboCertProb: Property Specification for Probabilistic RoboChart Models" index=289>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-278 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-289 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10946,17 +11395,17 @@ RoboChart is a core notation in the RoboStar framework which brings modern model
 
 
 
-### (1/3 | 279/311) Preconditioners based on Voronoi quantizers of random variable coefficients for stochastic elliptic partial differential equations (Nicolas Venkovic et al., 2024)
+### (1/3 | 290/322) Preconditioners based on Voronoi quantizers of random variable coefficients for stochastic elliptic partial differential equations (Nicolas Venkovic et al., 2024)
 
 {{<citation>}}
 
 Nicolas Venkovic, Paul Mycek, Olivier Le Maître, Luc Giraud. (2024)  
 **Preconditioners based on Voronoi quantizers of random variable coefficients for stochastic elliptic partial differential equations**
 <br/>
-<button class="copy-to-clipboard" title="Preconditioners based on Voronoi quantizers of random variable coefficients for stochastic elliptic partial differential equations" index=279>
+<button class="copy-to-clipboard" title="Preconditioners based on Voronoi quantizers of random variable coefficients for stochastic elliptic partial differential equations" index=290>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-279 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-290 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -10981,17 +11430,17 @@ A preconditioning strategy is proposed for the iterative solve of large numbers 
 {{</citation>}}
 
 
-### (2/3 | 280/311) A novel fast iterative moment method for near-continuum flows (Guanghan Li et al., 2024)
+### (2/3 | 291/322) A novel fast iterative moment method for near-continuum flows (Guanghan Li et al., 2024)
 
 {{<citation>}}
 
 Guanghan Li, Chunwu Wang, Zhicheng Hu. (2024)  
 **A novel fast iterative moment method for near-continuum flows**
 <br/>
-<button class="copy-to-clipboard" title="A novel fast iterative moment method for near-continuum flows" index=280>
+<button class="copy-to-clipboard" title="A novel fast iterative moment method for near-continuum flows" index=291>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-280 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-291 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11016,17 +11465,17 @@ In this paper, we develop a novel fast iterative moment method for the steady-st
 {{</citation>}}
 
 
-### (3/3 | 281/311) Transparent boundary condition and its effectively local approximation for the Schrödinger equation on a rectangular computational domain (Samardhi Yadav et al., 2024)
+### (3/3 | 292/322) Transparent boundary condition and its effectively local approximation for the Schrödinger equation on a rectangular computational domain (Samardhi Yadav et al., 2024)
 
 {{<citation>}}
 
 Samardhi Yadav, Vishal Vaibhav. (2024)  
 **Transparent boundary condition and its effectively local approximation for the Schrödinger equation on a rectangular computational domain**
 <br/>
-<button class="copy-to-clipboard" title="Transparent boundary condition and its effectively local approximation for the Schrödinger equation on a rectangular computational domain" index=281>
+<button class="copy-to-clipboard" title="Transparent boundary condition and its effectively local approximation for the Schrödinger equation on a rectangular computational domain" index=292>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-281 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-292 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11055,17 +11504,17 @@ The transparent boundary condition for the free Schr\"{o}dinger equation on a re
 
 
 
-### (1/1 | 282/311) Generative deep learning-enabled ultra-large field-of-view lens-free imaging (Ronald B. Liu et al., 2024)
+### (1/1 | 293/322) Generative deep learning-enabled ultra-large field-of-view lens-free imaging (Ronald B. Liu et al., 2024)
 
 {{<citation>}}
 
 Ronald B. Liu, Zhe Liu, Max G. A. Wolf, Krishna P. Purohit, Gregor Fritz, Yi Feng, Carsten G. Hansen, Pierre O. Bagnaninchi, Xavier Casadevall i Solvas, Yunjie Yang. (2024)  
 **Generative deep learning-enabled ultra-large field-of-view lens-free imaging**
 <br/>
-<button class="copy-to-clipboard" title="Generative deep learning-enabled ultra-large field-of-view lens-free imaging" index=282>
+<button class="copy-to-clipboard" title="Generative deep learning-enabled ultra-large field-of-view lens-free imaging" index=293>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-282 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-293 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11078,14 +11527,14 @@ Primary Category: physics.optics
 Categories: cs-CV, physics-optics, physics.optics  
 Keyword Score: 20  
 Keywords: Unsupervised Learning, Unsupervised Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07786v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07786v1.pdf" filename="2403.07786v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07786v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07786v2.pdf" filename="2403.07786v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Advancements in high-throughput biomedical applications necessitate real-time, large field-of-view (FOV) imaging capabilities. Conventional lens-free imaging (LFI) systems, while addressing the limitations of physical lenses, have been constrained by dynamic, hard-to-model optical fields, resulting in a limited one-shot FOV of approximately 20 $mm^2$. This restriction has been a major bottleneck in applications like live-cell imaging and automation of microfluidic systems for biomedical research. Here, we present a deep-learning(DL)-based imaging framework -- GenLFI -- leveraging generative artificial intelligence (AI) for holographic image reconstruction. We demonstrate that GenLFI can achieve a real-time FOV over 550 $mm^2$, surpassing the current LFI system by more than 20-fold, and even larger than the world's largest confocal microscope by 1.76 times. The resolution is at the sub-pixel level of 5.52 $\mu m$, without the need for a shifting light source. The <b>unsupervised</b> <b>learning-based</b> reconstruction does not require optical field modeling, making imaging dynamic 3D samples (e.g., droplet-based microfluidics and 3D cell models) in complex optical fields possible. This GenLFI framework unlocks the potential of LFI systems, offering a robust tool to tackle new frontiers in high-throughput biomedical applications such as drug discovery.
+Advancements in high-throughput biomedical applications necessitate real-time, large field-of-view (FOV) imaging capabilities. Conventional lens-free imaging (LFI) systems, while addressing the limitations of physical lenses, have been constrained by dynamic, hard-to-model optical fields, resulting in a limited one-shot FOV of approximately 20 $mm^2$. This restriction has been a major bottleneck in applications like live-cell imaging and automation of microfluidic systems for biomedical research. Here, we present a deep-learning(DL)-based imaging framework - GenLFI - leveraging generative artificial intelligence (AI) for holographic image reconstruction. We demonstrate that GenLFI can achieve a real-time FOV over 550 $mm^2$, surpassing the current LFI system by more than 20-fold, and even larger than the world's largest confocal microscope by 1.76 times. The resolution is at the sub-pixel level of 5.52 $\mu m$, without the need for a shifting light source. The <b>unsupervised</b> <b>learning-based</b> reconstruction does not require optical field modeling, making imaging dynamic 3D samples (e.g., droplet-based microfluidics and 3D cell models) in complex optical fields possible. This GenLFI framework unlocks the potential of LFI systems, offering a robust tool to tackle new frontiers in high-throughput biomedical applications such as drug discovery.
 
 {{</citation>}}
 
@@ -11094,17 +11543,17 @@ Advancements in high-throughput biomedical applications necessitate real-time, l
 
 
 
-### (1/3 | 283/311) Towards a Dynamic Future with Adaptable Computing and Network Convergence (ACNC) (Masoud Shokrnezhad et al., 2024)
+### (1/3 | 294/322) Towards a Dynamic Future with Adaptable Computing and Network Convergence (ACNC) (Masoud Shokrnezhad et al., 2024)
 
 {{<citation>}}
 
 Masoud Shokrnezhad, Hao Yu, Tarik Taleb, Richard Li, Kyunghan Lee, Jaeseung Song, Cedric Westphal. (2024)  
 **Towards a Dynamic Future with Adaptable Computing and Network Convergence (ACNC)**
 <br/>
-<button class="copy-to-clipboard" title="Towards a Dynamic Future with Adaptable Computing and Network Convergence (ACNC)" index=283>
+<button class="copy-to-clipboard" title="Towards a Dynamic Future with Adaptable Computing and Network Convergence (ACNC)" index=294>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-283 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-294 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11129,17 +11578,17 @@ In the context of advancing 6G, a substantial paradigm shift is anticipated, hig
 {{</citation>}}
 
 
-### (2/3 | 284/311) A Survey on Federated Learning in Intelligent Transportation Systems (Rongqing Zhang et al., 2024)
+### (2/3 | 295/322) A Survey on Federated Learning in Intelligent Transportation Systems (Rongqing Zhang et al., 2024)
 
 {{<citation>}}
 
 Rongqing Zhang, Hanqiu Wang, Bing Li, Xiang Cheng, Liuqing Yang. (2024)  
 **A Survey on Federated Learning in Intelligent Transportation Systems**
 <br/>
-<button class="copy-to-clipboard" title="A Survey on Federated Learning in Intelligent Transportation Systems" index=284>
+<button class="copy-to-clipboard" title="A Survey on Federated Learning in Intelligent Transportation Systems" index=295>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-284 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-295 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11164,17 +11613,17 @@ The development of Intelligent Transportation System (ITS) has brought about com
 {{</citation>}}
 
 
-### (3/3 | 285/311) Online Digital Twin-Empowered Content Resale Mechanism in Age of Information-Aware Edge Caching Networks (Yuhan Yi et al., 2024)
+### (3/3 | 296/322) Online Digital Twin-Empowered Content Resale Mechanism in Age of Information-Aware Edge Caching Networks (Yuhan Yi et al., 2024)
 
 {{<citation>}}
 
 Yuhan Yi, Guanglin Zhang, Hai Jiang. (2024)  
 **Online Digital Twin-Empowered Content Resale Mechanism in Age of Information-Aware Edge Caching Networks**
 <br/>
-<button class="copy-to-clipboard" title="Online Digital Twin-Empowered Content Resale Mechanism in Age of Information-Aware Edge Caching Networks" index=285>
+<button class="copy-to-clipboard" title="Online Digital Twin-Empowered Content Resale Mechanism in Age of Information-Aware Edge Caching Networks" index=296>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-285 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-296 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11203,17 +11652,17 @@ For users requesting popular contents from content providers, edge caching can a
 
 
 
-### (1/1 | 286/311) Physics-Transfer Learning for Material Strength Screening (Yingjie Zhao et al., 2024)
+### (1/1 | 297/322) Physics-Transfer Learning for Material Strength Screening (Yingjie Zhao et al., 2024)
 
 {{<citation>}}
 
 Yingjie Zhao, Zian Zhang, Zhiping Xu. (2024)  
 **Physics-Transfer Learning for Material Strength Screening**
 <br/>
-<button class="copy-to-clipboard" title="Physics-Transfer Learning for Material Strength Screening" index=286>
+<button class="copy-to-clipboard" title="Physics-Transfer Learning for Material Strength Screening" index=297>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-286 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-297 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11242,17 +11691,17 @@ The strength of materials, like many problems in the natural sciences, spans mul
 
 
 
-### (1/2 | 287/311) Long-term Hydrothermal Bid-based Market Simulator (Joaquim Dias Garcia et al., 2024)
+### (1/2 | 298/322) Long-term Hydrothermal Bid-based Market Simulator (Joaquim Dias Garcia et al., 2024)
 
 {{<citation>}}
 
 Joaquim Dias Garcia, Alexandre Street, Mario Veiga Pereira. (2024)  
 **Long-term Hydrothermal Bid-based Market Simulator**
 <br/>
-<button class="copy-to-clipboard" title="Long-term Hydrothermal Bid-based Market Simulator" index=287>
+<button class="copy-to-clipboard" title="Long-term Hydrothermal Bid-based Market Simulator" index=298>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-287 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-298 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11277,17 +11726,17 @@ Simulating long-term hydrothermal bid-based markets considering strategic agents
 {{</citation>}}
 
 
-### (2/2 | 288/311) PMBO: Enhancing Black-Box Optimization through Multivariate Polynomial Surrogates (Janina Schreiber et al., 2024)
+### (2/2 | 299/322) PMBO: Enhancing Black-Box Optimization through Multivariate Polynomial Surrogates (Janina Schreiber et al., 2024)
 
 {{<citation>}}
 
 Janina Schreiber, Pau Batlle, Damar Wicaksono, Michael Hecht. (2024)  
 **PMBO: Enhancing Black-Box Optimization through Multivariate Polynomial Surrogates**
 <br/>
-<button class="copy-to-clipboard" title="PMBO: Enhancing Black-Box Optimization through Multivariate Polynomial Surrogates" index=288>
+<button class="copy-to-clipboard" title="PMBO: Enhancing Black-Box Optimization through Multivariate Polynomial Surrogates" index=299>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-288 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-299 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11316,17 +11765,17 @@ We introduce a surrogate-based <b>black-box</b> <b>optimization</b> method, term
 
 
 
-### (1/1 | 289/311) The Dawn of AI-Native EDA: Promises and Challenges of Large Circuit Models (Lei Chen et al., 2024)
+### (1/1 | 300/322) The Dawn of AI-Native EDA: Promises and Challenges of Large Circuit Models (Lei Chen et al., 2024)
 
 {{<citation>}}
 
 Lei Chen, Yiqi Chen, Zhufei Chu, Wenji Fang, Tsung-Yi Ho, Yu Huang, Sadaf Khan, Min Li, Xingquan Li, Yun Liang, Yibo Lin, Jinwei Liu, Yi Liu, Guojie Luo, Zhengyuan Shi, Guangyu Sun, Dimitrios Tsaras, Runsheng Wang, Ziyi Wang, Xinming Wei, Zhiyao Xie, Qiang Xu, Chenhao Xue, Evangeline F. Y. Young, Bei Yu, Mingxuan Yuan, Haoyi Zhang, Zuodong Zhang, Yuxiang Zhao, Hui-Ling Zhen, Ziyang Zheng, Binwu Zhu, Keren Zhu, Sunan Zou. (2024)  
 **The Dawn of AI-Native EDA: Promises and Challenges of Large Circuit Models**
 <br/>
-<button class="copy-to-clipboard" title="The Dawn of AI-Native EDA: Promises and Challenges of Large Circuit Models" index=289>
+<button class="copy-to-clipboard" title="The Dawn of AI-Native EDA: Promises and Challenges of Large Circuit Models" index=300>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-289 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-300 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11355,17 +11804,17 @@ Within the Electronic Design Automation (EDA) domain, AI-driven solutions have e
 
 
 
-### (1/2 | 290/311) A Question-centric Multi-experts Contrastive Learning Framework for Improving the Accuracy and Interpretability of Deep Sequential Knowledge Tracing Models (Hengyuan Zhang et al., 2024)
+### (1/2 | 301/322) A Question-centric Multi-experts Contrastive Learning Framework for Improving the Accuracy and Interpretability of Deep Sequential Knowledge Tracing Models (Hengyuan Zhang et al., 2024)
 
 {{<citation>}}
 
 Hengyuan Zhang, Zitao Liu, Chenming Shang, Dawei Li, Yong Jiang. (2024)  
 **A Question-centric Multi-experts Contrastive Learning Framework for Improving the Accuracy and Interpretability of Deep Sequential Knowledge Tracing Models**
 <br/>
-<button class="copy-to-clipboard" title="A Question-centric Multi-experts Contrastive Learning Framework for Improving the Accuracy and Interpretability of Deep Sequential Knowledge Tracing Models" index=290>
+<button class="copy-to-clipboard" title="A Question-centric Multi-experts Contrastive Learning Framework for Improving the Accuracy and Interpretability of Deep Sequential Knowledge Tracing Models" index=301>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-290 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-301 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11390,17 +11839,17 @@ Knowledge tracing (KT) plays a crucial role in predicting students' future perfo
 {{</citation>}}
 
 
-### (2/2 | 291/311) Legally Binding but Unfair? Towards Assessing Fairness of Privacy Policies (Vincent Freiberger et al., 2024)
+### (2/2 | 302/322) Legally Binding but Unfair? Towards Assessing Fairness of Privacy Policies (Vincent Freiberger et al., 2024)
 
 {{<citation>}}
 
 Vincent Freiberger, Erik Buchmann. (2024)  
 **Legally Binding but Unfair? Towards Assessing Fairness of Privacy Policies**
 <br/>
-<button class="copy-to-clipboard" title="Legally Binding but Unfair? Towards Assessing Fairness of Privacy Policies" index=291>
+<button class="copy-to-clipboard" title="Legally Binding but Unfair? Towards Assessing Fairness of Privacy Policies" index=302>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-291 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-302 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11429,17 +11878,17 @@ Privacy policies are expected to inform data subjects about their data protectio
 
 
 
-### (1/2 | 292/311) Data Monetization Pathways and Complex Dynamic Game Equilibrium Analysis in the Energy Industry (Zongxian Wang et al., 2024)
+### (1/2 | 303/322) Data Monetization Pathways and Complex Dynamic Game Equilibrium Analysis in the Energy Industry (Zongxian Wang et al., 2024)
 
 {{<citation>}}
 
 Zongxian Wang, Jie Song. (2024)  
 **Data Monetization Pathways and Complex Dynamic Game Equilibrium Analysis in the Energy Industry**
 <br/>
-<button class="copy-to-clipboard" title="Data Monetization Pathways and Complex Dynamic Game Equilibrium Analysis in the Energy Industry" index=292>
+<button class="copy-to-clipboard" title="Data Monetization Pathways and Complex Dynamic Game Equilibrium Analysis in the Energy Industry" index=303>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-292 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-303 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11452,8 +11901,8 @@ Primary Category: cs.GT
 Categories: cs-GT, cs.GT  
 Keyword Score: 10  
 Keywords: Recommendation  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.08082v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.08082v2.pdf" filename="2403.08082v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.08082v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.08082v3.pdf" filename="2403.08082v3.pdf">Download PDF</button>
 
 ---
 
@@ -11464,17 +11913,17 @@ As the most critical production factor in the era of the digital economy, data w
 {{</citation>}}
 
 
-### (2/2 | 293/311) Multi-Apartment Rent Division (Ariel D. Procaccia et al., 2024)
+### (2/2 | 304/322) Multi-Apartment Rent Division (Ariel D. Procaccia et al., 2024)
 
 {{<citation>}}
 
 Ariel D. Procaccia, Benjamin Schiffer, Shirley Zhang. (2024)  
 **Multi-Apartment Rent Division**
 <br/>
-<button class="copy-to-clipboard" title="Multi-Apartment Rent Division" index=293>
+<button class="copy-to-clipboard" title="Multi-Apartment Rent Division" index=304>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-293 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-304 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11503,17 +11952,17 @@ Rent division is the well-studied problem of fairly assigning rooms and dividing
 
 
 
-### (1/1 | 294/311) System Design Approach for Control of Differentially Private Dynamical Systems (Raman Goyal et al., 2024)
+### (1/1 | 305/322) System Design Approach for Control of Differentially Private Dynamical Systems (Raman Goyal et al., 2024)
 
 {{<citation>}}
 
 Raman Goyal, Dhrubajit Chowdhury, Shantanu Rane. (2024)  
 **System Design Approach for Control of Differentially Private Dynamical Systems**
 <br/>
-<button class="copy-to-clipboard" title="System Design Approach for Control of Differentially Private Dynamical Systems" index=294>
+<button class="copy-to-clipboard" title="System Design Approach for Control of Differentially Private Dynamical Systems" index=305>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-294 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-305 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11542,17 +11991,17 @@ This paper introduces a novel approach to concurrently design dynamic controller
 
 
 
-### (1/1 | 295/311) Fusing Climate Data Products using a Spatially Varying Autoencoder (Jacob A. Johnson et al., 2024)
+### (1/1 | 306/322) Fusing Climate Data Products using a Spatially Varying Autoencoder (Jacob A. Johnson et al., 2024)
 
 {{<citation>}}
 
 Jacob A. Johnson, Matthew J. Heaton, William F. Christensen, Lynsie R. Warr, Summer B. Rupper. (2024)  
 **Fusing Climate Data Products using a Spatially Varying Autoencoder**
 <br/>
-<button class="copy-to-clipboard" title="Fusing Climate Data Products using a Spatially Varying Autoencoder" index=295>
+<button class="copy-to-clipboard" title="Fusing Climate Data Products using a Spatially Varying Autoencoder" index=306>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-295 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-306 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11581,17 +12030,17 @@ Keywords: Autoencoder
 
 
 
-### (1/2 | 296/311) Beyond the Labels: Unveiling Text-Dependency in Paralinguistic Speech Recognition Datasets (Jan Pešán et al., 2024)
+### (1/2 | 307/322) Beyond the Labels: Unveiling Text-Dependency in Paralinguistic Speech Recognition Datasets (Jan Pešán et al., 2024)
 
 {{<citation>}}
 
 Jan Pešán, Santosh Kesiraju, Lukáš Burget, Jan ''Honza'' Černocký. (2024)  
 **Beyond the Labels: Unveiling Text-Dependency in Paralinguistic Speech Recognition Datasets**
 <br/>
-<button class="copy-to-clipboard" title="Beyond the Labels: Unveiling Text-Dependency in Paralinguistic Speech Recognition Datasets" index=296>
+<button class="copy-to-clipboard" title="Beyond the Labels: Unveiling Text-Dependency in Paralinguistic Speech Recognition Datasets" index=307>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-296 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-307 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11616,17 +12065,17 @@ Paralinguistic traits like cognitive load and emotion are increasingly recognize
 {{</citation>}}
 
 
-### (2/2 | 297/311) Gender-ambiguous voice generation through feminine speaking style transfer in male voices (Maria Koutsogiannaki et al., 2024)
+### (2/2 | 308/322) Gender-ambiguous voice generation through feminine speaking style transfer in male voices (Maria Koutsogiannaki et al., 2024)
 
 {{<citation>}}
 
 Maria Koutsogiannaki, Shafel Mc Dowall, Ioannis Agiomyrgiannakis. (2024)  
 **Gender-ambiguous voice generation through feminine speaking style transfer in male voices**
 <br/>
-<button class="copy-to-clipboard" title="Gender-ambiguous voice generation through feminine speaking style transfer in male voices" index=297>
+<button class="copy-to-clipboard" title="Gender-ambiguous voice generation through feminine speaking style transfer in male voices" index=308>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-297 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-308 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11639,14 +12088,14 @@ Primary Category: eess.AS
 Categories: cs-SD, eess-AS, eess.AS  
 Keyword Score: 10  
 Keywords: Style Transfer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07661v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07661v1.pdf" filename="2403.07661v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.07661v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.07661v2.pdf" filename="2403.07661v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Recently, and under the umbrella of Responsible AI, efforts have been made to develop gender-ambiguous synthetic speech to represent with a single voice all individuals in the gender spectrum. However, research efforts have completely overlooked the speaking <b>style</b> <b>despite</b> differences found among binary and non-binary populations. In this work, we synthesise gender-ambiguous speech by combining the timbre of a male speaker with the manner of speech of a female speaker using voice morphing and pitch shifting towards the male-female boundary. Subjective evaluations indicate that the ambiguity of the morphed samples that convey the female speech <b>style</b> <b>is</b> higher than those that undergo pure pitch transformations suggesting that the speaking <b>style</b> <b>can</b> be a contributing factor in creating gender-ambiguous speech. To our knowledge, this is the first study that explicitly uses the transfer of the speaking <b>style</b> <b>to</b> create gender-ambiguous voices.
+Recently, and under the umbrella of Responsible AI, efforts have been made to develop gender-ambiguous synthetic speech to represent with a single voice all individuals in the gender spectrum. However, research efforts have completely overlooked the speaking <b>style</b> <b>despite</b> differences found among binary and non-binary populations. In this work, we synthesise gender-ambiguous speech by combining the timbre of a male speaker with the manner of speech of a female speaker using voice morphing and pitch shifting towards the male-female boundary. Subjective evaluations indicate that the ambiguity of the morphed samples that convey the female speech <b>style</b> <b>is</b> higher than those that undergo plain pitch transformations suggesting that the speaking <b>style</b> <b>can</b> be a contributing factor in creating gender-ambiguous speech. To our knowledge, this is the first study that explicitly uses the transfer of the speaking <b>style</b> <b>to</b> create gender-ambiguous voices.
 
 {{</citation>}}
 
@@ -11655,17 +12104,17 @@ Recently, and under the umbrella of Responsible AI, efforts have been made to de
 
 
 
-### (1/1 | 298/311) Monocentric or polycentric city? An empirical perspective (Rémi Lemoy, 2024)
+### (1/1 | 309/322) Monocentric or polycentric city? An empirical perspective (Rémi Lemoy, 2024)
 
 {{<citation>}}
 
 Rémi Lemoy. (2024)  
 **Monocentric or polycentric city? An empirical perspective**
 <br/>
-<button class="copy-to-clipboard" title="Monocentric or polycentric city? An empirical perspective" index=298>
+<button class="copy-to-clipboard" title="Monocentric or polycentric city? An empirical perspective" index=309>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-298 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-309 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11694,17 +12143,17 @@ Do cities have just one or several centers? Studies performing radial or monocen
 
 
 
-### (1/3 | 299/311) Ensembling Prioritized Hybrid Policies for Multi-agent Pathfinding (Huijie Tang et al., 2024)
+### (1/3 | 310/322) Ensembling Prioritized Hybrid Policies for Multi-agent Pathfinding (Huijie Tang et al., 2024)
 
 {{<citation>}}
 
 Huijie Tang, Federico Berto, Jinkyoo Park. (2024)  
 **Ensembling Prioritized Hybrid Policies for Multi-agent Pathfinding**
 <br/>
-<button class="copy-to-clipboard" title="Ensembling Prioritized Hybrid Policies for Multi-agent Pathfinding" index=299>
+<button class="copy-to-clipboard" title="Ensembling Prioritized Hybrid Policies for Multi-agent Pathfinding" index=310>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-299 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-310 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11729,17 +12178,17 @@ Multi-Agent <b>Reinforcement</b> <b>Learning</b> (MARL) based Multi-Agent Path F
 {{</citation>}}
 
 
-### (2/3 | 300/311) Ariadne and Theseus: Exploration and Rendezvous with Two Mobile Agents in an Unknown Graph (Romain Cosson, 2024)
+### (2/3 | 311/322) Ariadne and Theseus: Exploration and Rendezvous with Two Mobile Agents in an Unknown Graph (Romain Cosson, 2024)
 
 {{<citation>}}
 
 Romain Cosson. (2024)  
 **Ariadne and Theseus: Exploration and Rendezvous with Two Mobile Agents in an Unknown Graph**
 <br/>
-<button class="copy-to-clipboard" title="Ariadne and Theseus: Exploration and Rendezvous with Two Mobile Agents in an Unknown Graph" index=300>
+<button class="copy-to-clipboard" title="Ariadne and Theseus: Exploration and Rendezvous with Two Mobile Agents in an Unknown Graph" index=311>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-300 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-311 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11764,17 +12213,17 @@ We investigate two fundamental problems in mobile computing: exploration and ren
 {{</citation>}}
 
 
-### (3/3 | 301/311) Asynchronous Approximate Byzantine Consensus: A Multi-hop Relay Method and Tight Graph Conditions (Liwei Yuan et al., 2024)
+### (3/3 | 312/322) Asynchronous Approximate Byzantine Consensus: A Multi-hop Relay Method and Tight Graph Conditions (Liwei Yuan et al., 2024)
 
 {{<citation>}}
 
 Liwei Yuan, Hideaki Ishii. (2024)  
 **Asynchronous Approximate Byzantine Consensus: A Multi-hop Relay Method and Tight Graph Conditions**
 <br/>
-<button class="copy-to-clipboard" title="Asynchronous Approximate Byzantine Consensus: A Multi-hop Relay Method and Tight Graph Conditions" index=301>
+<button class="copy-to-clipboard" title="Asynchronous Approximate Byzantine Consensus: A Multi-hop Relay Method and Tight Graph Conditions" index=312>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-301 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-312 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11803,17 +12252,17 @@ We study a multi-agent resilient consensus problem, where some agents are of the
 
 
 
-### (1/1 | 302/311) Unsupervised self-organising map of prostate cell Raman spectra shows disease-state subclustering (Daniel West et al., 2024)
+### (1/1 | 313/322) Unsupervised self-organising map of prostate cell Raman spectra shows disease-state subclustering (Daniel West et al., 2024)
 
 {{<citation>}}
 
 Daniel West, Susan Stepney, Y. Hancock. (2024)  
 **Unsupervised self-organising map of prostate cell Raman spectra shows disease-state subclustering**
 <br/>
-<button class="copy-to-clipboard" title="Unsupervised self-organising map of prostate cell Raman spectra shows disease-state subclustering" index=302>
+<button class="copy-to-clipboard" title="Unsupervised self-organising map of prostate cell Raman spectra shows disease-state subclustering" index=313>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-302 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-313 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11842,17 +12291,17 @@ Prostate cancer is a disease which poses an interesting clinical question: shoul
 
 
 
-### (1/3 | 303/311) Satisfiability to Coverage in Presence of Fairness, Matroid, and Global Constraints (Tanmay Inamdar et al., 2024)
+### (1/3 | 314/322) Satisfiability to Coverage in Presence of Fairness, Matroid, and Global Constraints (Tanmay Inamdar et al., 2024)
 
 {{<citation>}}
 
 Tanmay Inamdar, Pallavi Jain, Daniel Lokshtanov, Abhishek Sahu, Saket Saurabh, Anannya Upasana. (2024)  
 **Satisfiability to Coverage in Presence of Fairness, Matroid, and Global Constraints**
 <br/>
-<button class="copy-to-clipboard" title="Satisfiability to Coverage in Presence of Fairness, Matroid, and Global Constraints" index=303>
+<button class="copy-to-clipboard" title="Satisfiability to Coverage in Presence of Fairness, Matroid, and Global Constraints" index=314>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-303 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-314 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11877,17 +12326,17 @@ In MaxSAT with Cardinality Constraint problem (CC-MaxSAT), we are given a CNF-fo
 {{</citation>}}
 
 
-### (2/3 | 304/311) Maximum Defective Clique Computation: Improved Time Complexities and Practical Performance (Lijun Chang, 2024)
+### (2/3 | 315/322) Maximum Defective Clique Computation: Improved Time Complexities and Practical Performance (Lijun Chang, 2024)
 
 {{<citation>}}
 
 Lijun Chang. (2024)  
 **Maximum Defective Clique Computation: Improved Time Complexities and Practical Performance**
 <br/>
-<button class="copy-to-clipboard" title="Maximum Defective Clique Computation: Improved Time Complexities and Practical Performance" index=304>
+<button class="copy-to-clipboard" title="Maximum Defective Clique Computation: Improved Time Complexities and Practical Performance" index=315>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-304 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-315 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11912,17 +12361,17 @@ The concept of $k$-defective clique, a relaxation of clique by allowing up-to $k
 {{</citation>}}
 
 
-### (3/3 | 305/311) Shining Light on Periodic Dominating Sets in Bounded-Treewidth Graphs (Jakob Greilhuber et al., 2024)
+### (3/3 | 316/322) Shining Light on Periodic Dominating Sets in Bounded-Treewidth Graphs (Jakob Greilhuber et al., 2024)
 
 {{<citation>}}
 
 Jakob Greilhuber, Philipp Schepper, Philip Wellnitz. (2024)  
 **Shining Light on Periodic Dominating Sets in Bounded-Treewidth Graphs**
 <br/>
-<button class="copy-to-clipboard" title="Shining Light on Periodic Dominating Sets in Bounded-Treewidth Graphs" index=305>
+<button class="copy-to-clipboard" title="Shining Light on Periodic Dominating Sets in Bounded-Treewidth Graphs" index=316>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-305 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-316 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11951,17 +12400,17 @@ For the vertex selection problem $(\sigma,\rho)$-DomSet one is given two fixed s
 
 
 
-### (1/1 | 306/311) Signed graphs in data sciences via communicability geometry (Fernando Diaz-Diaz et al., 2024)
+### (1/1 | 317/322) Signed graphs in data sciences via communicability geometry (Fernando Diaz-Diaz et al., 2024)
 
 {{<citation>}}
 
 Fernando Diaz-Diaz, Ernesto Estrada. (2024)  
 **Signed graphs in data sciences via communicability geometry**
 <br/>
-<button class="copy-to-clipboard" title="Signed graphs in data sciences via communicability geometry" index=306>
+<button class="copy-to-clipboard" title="Signed graphs in data sciences via communicability geometry" index=317>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-306 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-317 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11990,17 +12439,17 @@ Signed <b>graphs</b> are an emergent way of representing data in a variety of co
 
 
 
-### (1/1 | 307/311) Characterising harmful data sources when constructing multi-fidelity surrogate models (Nicolau Andrés-Thió et al., 2024)
+### (1/1 | 318/322) Characterising harmful data sources when constructing multi-fidelity surrogate models (Nicolau Andrés-Thió et al., 2024)
 
 {{<citation>}}
 
 Nicolau Andrés-Thió, Mario Andrés Muñoz, Kate Smith-Miles. (2024)  
 **Characterising harmful data sources when constructing multi-fidelity surrogate models**
 <br/>
-<button class="copy-to-clipboard" title="Characterising harmful data sources when constructing multi-fidelity surrogate models" index=307>
+<button class="copy-to-clipboard" title="Characterising harmful data sources when constructing multi-fidelity surrogate models" index=318>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-307 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-318 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -12029,17 +12478,17 @@ Surrogate modelling techniques have seen growing attention in recent years when 
 
 
 
-### (1/1 | 308/311) Computing Generalized Ranks of Persistence Modules via Unfolding to Zigzag Modules (Tamal K. Dey et al., 2024)
+### (1/1 | 319/322) Computing Generalized Ranks of Persistence Modules via Unfolding to Zigzag Modules (Tamal K. Dey et al., 2024)
 
 {{<citation>}}
 
 Tamal K. Dey, Aman Timalsina, Cheng Xin. (2024)  
 **Computing Generalized Ranks of Persistence Modules via Unfolding to Zigzag Modules**
 <br/>
-<button class="copy-to-clipboard" title="Computing Generalized Ranks of Persistence Modules via Unfolding to Zigzag Modules" index=308>
+<button class="copy-to-clipboard" title="Computing Generalized Ranks of Persistence Modules via Unfolding to Zigzag Modules" index=319>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-308 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-319 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -12068,17 +12517,17 @@ For a $P$-indexed persistence module ${\sf M}$, the (generalized) rank of ${\sf 
 
 
 
-### (1/1 | 309/311) Overlapping community detection algorithms using Modularity and the cosine (Do Duy Hieu et al., 2024)
+### (1/1 | 320/322) Overlapping community detection algorithms using Modularity and the cosine (Do Duy Hieu et al., 2024)
 
 {{<citation>}}
 
 Do Duy Hieu, Phan Thi Ha Duong. (2024)  
 **Overlapping community detection algorithms using Modularity and the cosine**
 <br/>
-<button class="copy-to-clipboard" title="Overlapping community detection algorithms using Modularity and the cosine" index=309>
+<button class="copy-to-clipboard" title="Overlapping community detection algorithms using Modularity and the cosine" index=320>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-309 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-320 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -12107,17 +12556,17 @@ The issue of network community detection has been extensively studied across man
 
 
 
-### (1/1 | 310/311) On Graph Grammars and Games (Jayakrishna Vijayakumar et al., 2024)
+### (1/1 | 321/322) On Graph Grammars and Games (Jayakrishna Vijayakumar et al., 2024)
 
 {{<citation>}}
 
 Jayakrishna Vijayakumar, Lisa Mathew. (2024)  
 **On Graph Grammars and Games**
 <br/>
-<button class="copy-to-clipboard" title="On Graph Grammars and Games" index=310>
+<button class="copy-to-clipboard" title="On Graph Grammars and Games" index=321>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-310 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-321 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -12146,17 +12595,17 @@ Keywords: Graph
 
 
 
-### (1/1 | 311/311) The Primal Pathwidth SETH (Michael Lampis, 2024)
+### (1/1 | 322/322) The Primal Pathwidth SETH (Michael Lampis, 2024)
 
 {{<citation>}}
 
 Michael Lampis. (2024)  
 **The Primal Pathwidth SETH**
 <br/>
-<button class="copy-to-clipboard" title="The Primal Pathwidth SETH" index=311>
+<button class="copy-to-clipboard" title="The Primal Pathwidth SETH" index=322>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-311 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-322 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
