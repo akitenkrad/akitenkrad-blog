@@ -5118,7 +5118,7 @@ In this note, we investigate the robustness of Nash equilibria (NE) in multi-pla
 
 {{<citation>}}
 
-Sayan Chowdhury, Satya Kiran Raju Alluri, Jayapraksh J, Fang Yenn Teo, Umashankar M. (2024)  
+Sayan Chowdhury, Satya Kiran Raju Alluri, Jayaprakash J, Fang Yenn Teo, Umashankar M. (2024)  
 **Computational Seismic Fracture Synthesis of Tidal Barrage using Enhanced Isotropic Plasticity Damage Mechanics and Coupled Lagrangian-Eulerian Multiphase Interaction**
 <br/>
 <button class="copy-to-clipboard" title="Computational Seismic Fracture Synthesis of Tidal Barrage using Enhanced Isotropic Plasticity Damage Mechanics and Coupled Lagrangian-Eulerian Multiphase Interaction" index=125>
