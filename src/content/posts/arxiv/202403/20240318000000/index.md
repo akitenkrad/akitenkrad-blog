@@ -2157,7 +2157,7 @@ To improve privacy and ensure quality-of-service (QoS), deep learning (DL) model
 
 {{<citation>}}
 
-Riccardo Crupi, Alessandro Damiano Sabatino, Immacolata Marano, Massimiliano Brinis, Luca Albertazzi, Andrea Cirillo, Andrea Claudio Cosentini. (2024)  
+Riccardo Crupi, Daniele Regoli, Alessandro Damiano Sabatino, Immacolata Marano, Massimiliano Brinis, Luca Albertazzi, Andrea Cirillo, Andrea Claudio Cosentini. (2024)  
 **DTOR: Decision Tree Outlier Regressor to explain anomalies**
 <br/>
 <button class="copy-to-clipboard" title="DTOR: Decision Tree Outlier Regressor to explain anomalies" index=42>
@@ -2176,8 +2176,8 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs.LG, stat-ML  
 Keyword Score: 10  
 Keywords: Anomaly Detection  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10903v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10903v1.pdf" filename="2403.10903v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10903v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10903v2.pdf" filename="2403.10903v2.pdf">Download PDF</button>
 
 ---
 
@@ -2355,8 +2355,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 50  
 Keywords: Diffusion Model, Data Augmentation, Distribution Shift, Distribution Shift, Fine-tuning, Knowledge Distillation  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10911v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10911v1.pdf" filename="2403.10911v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10911v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10911v2.pdf" filename="2403.10911v2.pdf">Download PDF</button>
 
 ---
 
@@ -2686,7 +2686,7 @@ Visual State Space Model (VMamba) has recently emerged as a promising architectu
 
 {{<citation>}}
 
-Ziqi Zhou, Minghui Li, Wei Liu, Shengshan Hu, Yechao Zhang, Wei Wan, Lulu Xue, Leo Yu Zhang, Dezhong Yang, Hai Jin. (2024)  
+Ziqi Zhou, Minghui Li, Wei Liu, Shengshan Hu, Yechao Zhang, Wei Wan, Lulu Xue, Leo Yu Zhang, Dezhong Yao, Hai Jin. (2024)  
 **Securely Fine-tuning Pre-trained Encoders Against Adversarial Examples**
 <br/>
 <button class="copy-to-clipboard" title="Securely Fine-tuning Pre-trained Encoders Against Adversarial Examples" index=57>
@@ -2705,8 +2705,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 30  
 Keywords: Fine-tuning, Self-supervised Learning, Self-supervised Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10801v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10801v1.pdf" filename="2403.10801v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10801v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10801v2.pdf" filename="2403.10801v2.pdf">Download PDF</button>
 
 ---
 
@@ -4257,14 +4257,14 @@ Primary Category: eess.IV
 Categories: cs-CV, eess-IV, eess.IV  
 Keyword Score: 43  
 Keywords: Autoencoder, Benchmarking, Fine-tuning, Fine-tuning, Variational Autoencoder  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10931v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10931v1.pdf" filename="2403.10931v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10931v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10931v2.pdf" filename="2403.10931v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-The Segment Anything Model (SAM) gained significant success in natural image segmentation, and many methods have tried to <b>fine-tune</b> it to medical image segmentation. An efficient way to do so is by using Adapters, specialized modules that learn just a few parameters to tailor SAM specifically for medical images. However, unlike natural images, many tissues and lesions in medical images have blurry boundaries and may be ambiguous. Previous efforts to adapt SAM ignore this challenge and can only predict distinct segmentation.It may mislead clinicians or cause misdiagnosis, especially when encountering rare variants or situations with low model confidence. In this work, we propose a novel module called the Uncertainty-aware Adapter, which efficiently <b>fine-tuning</b> SAM for uncertainty-aware medical image segmentation. Utilizing a conditional <b>variational</b> <b>autoencoder,</b> we encoded stochastic samples to effectively represent the inherent uncertainty in medical imaging. We designed a new module on a standard adapter that utilizes a condition-based strategy to interact with samples to help SAM integrate uncertainty. We evaluated our method on two multi-annotated datasets with different modalities: LIDC-IDRI (lung abnormalities segmentation) and REFUGE2 (optic-cup segmentation). The experimental results show that the proposed model outperforms all the previous methods and achieves the new state-of-the-art (SOTA) on both <b>benchmarks.</b> We also demonstrated that our method can generate diverse segmentation hypotheses that are more realistic as well as heterogeneous.
+The Segment Anything Model (SAM) gained significant success in natural image segmentation, and many methods have tried to <b>fine-tune</b> it to medical image segmentation. An efficient way to do so is by using Adapters, specialized modules that learn just a few parameters to tailor SAM specifically for medical images. However, unlike natural images, many tissues and lesions in medical images have blurry boundaries and may be ambiguous. Previous efforts to adapt SAM ignore this challenge and can only predict distinct segmentation. It may mislead clinicians or cause misdiagnosis, especially when encountering rare variants or situations with low model confidence. In this work, we propose a novel module called the Uncertainty-aware Adapter, which efficiently <b>fine-tuning</b> SAM for uncertainty-aware medical image segmentation. Utilizing a conditional <b>variational</b> <b>autoencoder,</b> we encoded stochastic samples to effectively represent the inherent uncertainty in medical imaging. We designed a new module on a standard adapter that utilizes a condition-based strategy to interact with samples to help SAM integrate uncertainty. We evaluated our method on two multi-annotated datasets with different modalities: LIDC-IDRI (lung abnormalities segmentation) and REFUGE2 (optic-cup segmentation). The experimental results show that the proposed model outperforms all the previous methods and achieves the new state-of-the-art (SOTA) on both <b>benchmarks.</b> We also demonstrated that our method can generate diverse segmentation hypotheses that are more realistic as well as heterogeneous.
 
 {{</citation>}}
 
@@ -4401,14 +4401,14 @@ Primary Category: cs.SD
 Categories: cs-CV, cs-SD, cs.SD, eess-AS  
 Keyword Score: 43  
 Keywords: Diffusion Model, Benchmarking, Generative Adversarial Network, Simulation, Simulator  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10904v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10904v1.pdf" filename="2403.10904v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10904v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10904v2.pdf" filename="2403.10904v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Data-driven modeling of complex physical systems is receiving a growing amount of attention in the <b>simulation</b> and machine learning communities. Since most physical <b>simulations</b> are based on compute-intensive, iterative implementations of differential equation systems, a (partial) replacement with learned, 1-step inference models has the potential for significant speedups in a wide range of application areas. In this context, we present a novel <b>benchmark</b> for the evaluation of 1-step generative learning models in terms of speed and physical correctness. Our Urban Sound Propagation <b>benchmark</b> is based on the physically complex and practically relevant, yet intuitively easy to grasp task of modeling the 2d propagation of waves from a sound source in an urban environment. We provide a dataset with 100k samples, where each sample consists of pairs of real 2d building maps drawn from OpenStreetmap, a parameterized sound source, and a simulated ground truth sound propagation for the given scene. The dataset provides four different <b>simulation</b> tasks with increasing complexity regarding reflection, diffraction and source variance. A first baseline evaluation of common generative U-Net, <b>GAN</b> and <b>Diffusion</b> <b>models</b> shows, that while these models are very well capable of modeling sound propagations in simple cases, the approximation of sub-systems represented by higher order equations systematically fails. Information about the dataset, download instructions and source codes are provided on our anonymous website: https://www.urban-sound-data.org.
+Data-driven modeling of complex physical systems is receiving a growing amount of attention in the <b>simulation</b> and machine learning communities. Since most physical <b>simulations</b> are based on compute-intensive, iterative implementations of differential equation systems, a (partial) replacement with learned, 1-step inference models has the potential for significant speedups in a wide range of application areas. In this context, we present a novel <b>benchmark</b> for the evaluation of 1-step generative learning models in terms of speed and physical correctness. Our Urban Sound Propagation <b>benchmark</b> is based on the physically complex and practically relevant, yet intuitively easy to grasp task of modeling the 2d propagation of waves from a sound source in an urban environment. We provide a dataset with 100k samples, where each sample consists of pairs of real 2d building maps drawn from OpenStreetmap, a parameterized sound source, and a simulated ground truth sound propagation for the given scene. The dataset provides four different <b>simulation</b> tasks with increasing complexity regarding reflection, diffraction and source variance. A first baseline evaluation of common generative U-Net, <b>GAN</b> and <b>Diffusion</b> <b>models</b> shows, that while these models are very well capable of modeling sound propagations in simple cases, the approximation of sub-systems represented by higher order equations systematically fails. Information about the dataset, download instructions and source codes are provided on our website: https://www.urban-sound-data.org.
 
 {{</citation>}}
 
