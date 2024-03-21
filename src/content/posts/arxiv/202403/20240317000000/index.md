@@ -3373,14 +3373,14 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 16  
 Keywords: Graph Attention Networks, Graph, Benchmarking  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10297v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10297v1.pdf" filename="2403.10297v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10297v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10297v2.pdf" filename="2403.10297v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Classical structural-based visual localization methods offer high accuracy but face trade-offs in terms of storage, speed, and privacy. A recent innovation, keypoint scene coordinate regression (KSCR) named D2S addresses these issues by leveraging <b>graph</b> <b>attention</b> <b>networks</b> to enhance keypoint relationships and predict their 3D coordinates using a simple multilayer perceptron (MLP). Camera pose is then determined via PnP+RANSAC, using established 2D-3D correspondences. While KSCR achieves competitive results, rivaling state-of-the-art image-retrieval methods like HLoc across multiple <b>benchmarks,</b> its performance is hindered when data samples are limited due to the deep learning model's reliance on extensive data. This paper proposes a solution to this challenge by introducing a pipeline for keypoint descriptor synthesis using Neural Radiance Field (NeRF). By generating novel poses and feeding them into a trained NeRF model to create new views, our approach enhances the KSCR's generalization capabilities in data-scarce environments. The proposed system could significantly improve localization accuracy by up to 50\% and cost only a fraction of time for data synthesis. Furthermore, its modular design allows for the integration of multiple NeRFs, offering a versatile and efficient solution for visual localization. The implementation is publicly available at: https://github.com/ais-lab/DescriptorSynthesis4Feat2Map.
+Classical structural-based visual localization methods offer high accuracy but face trade-offs in terms of storage, speed, and privacy. A recent innovation, keypoint scene coordinate regression (KSCR) named D2S addresses these issues by leveraging <b>graph</b> <b>attention</b> <b>networks</b> to enhance keypoint relationships and predict their 3D coordinates using a simple multilayer perceptron (MLP). Camera pose is then determined via PnP+RANSAC, using established 2D-3D correspondences. While KSCR achieves competitive results, rivaling state-of-the-art image-retrieval methods like HLoc across multiple <b>benchmarks,</b> its performance is hindered when data samples are limited due to the deep learning model's reliance on extensive data. This paper proposes a solution to this challenge by introducing a pipeline for keypoint descriptor synthesis using Neural Radiance Field (NeRF). By generating novel poses and feeding them into a trained NeRF model to create new views, our approach enhances the KSCR's generalization capabilities in data-scarce environments. The proposed system could significantly improve localization accuracy by up to 50% and cost only a fraction of time for data synthesis. Furthermore, its modular design allows for the integration of multiple NeRFs, offering a versatile and efficient solution for visual localization. The implementation is publicly available at: https://github.com/ais-lab/DescriptorSynthesis4Feat2Map.
 
 {{</citation>}}
 
@@ -3665,14 +3665,14 @@ Recent progress in human shape learning, shows that neural implicit models are e
 {{</citation>}}
 
 
-### (71/104 | 71/297) Towards Generalizable Deepfake Video Detection with Thumbnail Layout and Graph Reasoning (Yuting Xu et al., 2024)
+### (71/104 | 71/297) Learning Spatiotemporal Inconsistency via Thumbnail Layout for Face Deepfake Detection (Yuting Xu et al., 2024)
 
 {{<citation>}}
 
 Yuting Xu, Jian Liang, Lijun Sheng, Xiao-Yu Zhang. (2024)  
-**Towards Generalizable Deepfake Video Detection with Thumbnail Layout and Graph Reasoning**
+**Learning Spatiotemporal Inconsistency via Thumbnail Layout for Face Deepfake Detection**
 <br/>
-<button class="copy-to-clipboard" title="Towards Generalizable Deepfake Video Detection with Thumbnail Layout and Graph Reasoning" index=71>
+<button class="copy-to-clipboard" title="Learning Spatiotemporal Inconsistency via Thumbnail Layout for Face Deepfake Detection" index=71>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-71 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -3688,8 +3688,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 13  
 Keywords: Graph, Reasoning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10261v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10261v1.pdf" filename="2403.10261v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10261v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10261v2.pdf" filename="2403.10261v2.pdf">Download PDF</button>
 
 ---
 
@@ -4738,8 +4738,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 5  
 Keywords: Geometry  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10099v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10099v1.pdf" filename="2403.10099v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10099v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10099v2.pdf" filename="2403.10099v2.pdf">Download PDF</button>
 
 ---
 
@@ -10729,8 +10729,8 @@ Primary Category: cs.SD
 Categories: cs-SD, cs.SD, eess-AS, eess-SP  
 Keyword Score: 20  
 Keywords: Generative Adversarial Network, Generative Adversarial Network  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10493v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10493v1.pdf" filename="2403.10493v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.10493v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.10493v2.pdf" filename="2403.10493v2.pdf">Download PDF</button>
 
 ---
 
