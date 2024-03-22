@@ -3597,7 +3597,7 @@ Low-rank adaptation (LoRA) and its variants are widely employed in <b>fine-tunin
 
 {{<citation>}}
 
-Jiazuo Yu, Yunzhi Zhuge, Lu Zhang, Dong Wang, Huchuan Lu, You He. (2024)  
+Jiazuo Yu, Yunzhi Zhuge, Lu Zhang, Ping Hu, Dong Wang, Huchuan Lu, You He. (2024)  
 **Boosting Continual Learning of Vision-Language Models via Mixture-of-Experts Adapters**
 <br/>
 <button class="copy-to-clipboard" title="Boosting Continual Learning of Vision-Language Models via Mixture-of-Experts Adapters" index=71>
