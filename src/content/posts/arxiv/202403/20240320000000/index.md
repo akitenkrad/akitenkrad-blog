@@ -46,7 +46,7 @@ math: true
 - [cs.RO (32)](#csro-32)
 - [cs.SD (6)](#cssd-6)
 - [cs.SE (3)](#csse-3)
-- [eess.IV (13)](#eessiv-13)
+- [eess.IV (12)](#eessiv-12)
 - [eess.SP (1)](#eesssp-1)
 - [eess.SY (9)](#eesssy-9)
 - [hep-ph (1)](#hep-ph-1)
@@ -59,7 +59,7 @@ math: true
 - [q-bio.CB (1)](#q-biocb-1)
 - [q-bio.NC (1)](#q-bionc-1)
 - [q-bio.QM (1)](#q-bioqm-1)
-- [stat.ML (5)](#statml-5)
+- [stat.ML (6)](#statml-6)
 
 ## Keywords
 
@@ -305,7 +305,7 @@ math: true
       <td>27</td>
       <td>3</td>
       <td>1</td>
-      <td>1</td>
+      <td></td>
     </tr>
     <tr>
       <td>Distribution Shift</td>
@@ -10862,11 +10862,11 @@ Computational thinking (CT) and problem-solving skills are increasingly integrat
 {{</citation>}}
 
 
-## eess.IV (13)
+## eess.IV (12)
 
 
 
-### (1/13 | 278/357) HyperVQ: MLR-based Vector Quantization in Hyperbolic Space (Nabarun Goswami et al., 2024)
+### (1/12 | 278/357) HyperVQ: MLR-based Vector Quantization in Hyperbolic Space (Nabarun Goswami et al., 2024)
 
 {{<citation>}}
 
@@ -10901,7 +10901,7 @@ The success of models operating on tokenized data has led to an increased demand
 {{</citation>}}
 
 
-### (2/13 | 279/357) MLVICX: Multi-Level Variance-Covariance Exploration for Chest X-ray Self-Supervised Representation Learning (Azad Singh et al., 2024)
+### (2/12 | 279/357) MLVICX: Multi-Level Variance-Covariance Exploration for Chest X-ray Self-Supervised Representation Learning (Azad Singh et al., 2024)
 
 {{<citation>}}
 
@@ -10936,7 +10936,7 @@ Keywords: Fine-tuning, Representation Learning, Self-supervised Learning, Self-s
 {{</citation>}}
 
 
-### (3/13 | 280/357) OUCopula: Bi-Channel Multi-Label Copula-Enhanced Adapter-Based CNN for Myopia Screening Based on OU-UWF Images (Yang Li et al., 2024)
+### (3/12 | 280/357) OUCopula: Bi-Channel Multi-Label Copula-Enhanced Adapter-Based CNN for Myopia Screening Based on OU-UWF Images (Yang Li et al., 2024)
 
 {{<citation>}}
 
@@ -10971,7 +10971,7 @@ Myopia screening using cutting-edge ultra-widefield (UWF) fundus imaging is pote
 {{</citation>}}
 
 
-### (4/13 | 281/357) PAON: A New Neuron Model using Padé Approximants (Onur Keleş et al., 2024)
+### (4/12 | 281/357) PAON: A New Neuron Model using Padé Approximants (Onur Keleş et al., 2024)
 
 {{<citation>}}
 
@@ -11006,7 +11006,7 @@ Keywords: Convolution, Convolutional Neural Network, Convolutional Neural Networ
 {{</citation>}}
 
 
-### (5/13 | 282/357) MoreStyle: Relax Low-frequency Constraint of Fourier-based Image Reconstruction in Generalizable Medical Image Segmentation (Haoyu Zhao et al., 2024)
+### (5/12 | 282/357) MoreStyle: Relax Low-frequency Constraint of Fourier-based Image Reconstruction in Generalizable Medical Image Segmentation (Haoyu Zhao et al., 2024)
 
 {{<citation>}}
 
@@ -11041,7 +11041,7 @@ The task of single-source domain generalization (SDG) in medical image segmentat
 {{</citation>}}
 
 
-### (6/13 | 283/357) Estimation and Analysis of Slice Propagation Uncertainty in 3D Anatomy Segmentation (Rachaell Nihalaani et al., 2024)
+### (6/12 | 283/357) Estimation and Analysis of Slice Propagation Uncertainty in 3D Anatomy Segmentation (Rachaell Nihalaani et al., 2024)
 
 {{<citation>}}
 
@@ -11076,7 +11076,7 @@ Keywords: Self-supervised Learning, Supervised Learning
 {{</citation>}}
 
 
-### (7/13 | 284/357) WIA-LD2ND: Wavelet-based Image Alignment for Self-supervised Low-Dose CT Denoising (Haoyu Zhao et al., 2024)
+### (7/12 | 284/357) WIA-LD2ND: Wavelet-based Image Alignment for Self-supervised Low-Dose CT Denoising (Haoyu Zhao et al., 2024)
 
 {{<citation>}}
 
@@ -11111,7 +11111,7 @@ In clinical examinations and diagnoses, low-dose computed tomography (LDCT) is c
 {{</citation>}}
 
 
-### (8/13 | 285/357) Covid-19 detection from CT scans using EfficientNet and Attention mechanism (Ramy Farag et al., 2024)
+### (8/12 | 285/357) Covid-19 detection from CT scans using EfficientNet and Attention mechanism (Ramy Farag et al., 2024)
 
 {{<citation>}}
 
@@ -11146,7 +11146,7 @@ Manual diagnosis and analysis of COVID-19 through the examination of lung Comput
 {{</citation>}}
 
 
-### (9/13 | 286/357) denoiSplit: a method for joint image splitting and unsupervised denoising (Ashesh Ashesh et al., 2024)
+### (9/12 | 286/357) denoiSplit: a method for joint image splitting and unsupervised denoising (Ashesh Ashesh et al., 2024)
 
 {{<citation>}}
 
@@ -11181,7 +11181,7 @@ In this work we present denoiSplit, a method to tackle a new analysis task, i.e.
 {{</citation>}}
 
 
-### (10/13 | 287/357) Hierarchical Frequency-based Upsampling and Refining for Compressed Video Quality Enhancement (Qianyu Zhang et al., 2024)
+### (10/12 | 287/357) Hierarchical Frequency-based Upsampling and Refining for Compressed Video Quality Enhancement (Qianyu Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -11216,7 +11216,7 @@ Video compression artifacts arise due to the <b>quantization</b> operation in th
 {{</citation>}}
 
 
-### (11/13 | 288/357) Domain Adaptation Using Pseudo Labels for COVID-19 Detection (Runtian Yuan et al., 2024)
+### (11/12 | 288/357) Domain Adaptation Using Pseudo Labels for COVID-19 Detection (Runtian Yuan et al., 2024)
 
 {{<citation>}}
 
@@ -11251,52 +11251,17 @@ In response to the need for rapid and accurate COVID-19 diagnosis during the glo
 {{</citation>}}
 
 
-### (12/13 | 289/357) Divide-and-Conquer Posterior Sampling for Denoising Diffusion Priors (Yazid Janati et al., 2024)
-
-{{<citation>}}
-
-Yazid Janati, Alain Durmus, Eric Moulines, Jimmy Olsson. (2024)  
-**Divide-and-Conquer Posterior Sampling for Denoising Diffusion Priors**
-<br/>
-<button class="copy-to-clipboard" title="Divide-and-Conquer Posterior Sampling for Denoising Diffusion Priors" index=289>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-289 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: eess.IV  
-Categories: cs-LG, eess-IV, eess.IV, stat-ML  
-Keyword Score: 10  
-Keywords: Diffusion Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.11407v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.11407v1.pdf" filename="2403.11407v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-Interest in the use of Denoising <b>Diffusion</b> <b>Models</b> (DDM) as priors for solving inverse Bayesian problems has recently increased significantly. However, sampling from the resulting posterior distribution poses a challenge. To solve this problem, previous works have proposed approximations to bias the drift term of the <b>diffusion.</b> <b>In</b> this work, we take a different approach and utilize the specific structure of the DDM prior to define a set of intermediate and simpler posterior sampling problems, resulting in a lower approximation error compared to previous methods. We empirically demonstrate the reconstruction capability of our method for general linear inverse problems using synthetic examples and various image restoration tasks.
-
-{{</citation>}}
-
-
-### (13/13 | 290/357) Generalizing deep learning models for medical image classification (Matta Sarah et al., 2024)
+### (12/12 | 289/357) Generalizing deep learning models for medical image classification (Matta Sarah et al., 2024)
 
 {{<citation>}}
 
 Matta Sarah, Lamard Mathieu, Zhang Philippe, Alexandre Le Guilcher, Laurent Borderie, Béatrice Cochener, Gwenolé Quellec. (2024)  
 **Generalizing deep learning models for medical image classification**
 <br/>
-<button class="copy-to-clipboard" title="Generalizing deep learning models for medical image classification" index=290>
+<button class="copy-to-clipboard" title="Generalizing deep learning models for medical image classification" index=289>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-290 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-289 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11325,17 +11290,17 @@ Numerous Deep Learning (DL) models have been developed for a large spectrum of m
 
 
 
-### (1/9 | 291/357) Context-aware LLM-based Safe Control Against Latent Risks (Quan Khanh Luu et al., 2024)
+### (1/9 | 290/357) Context-aware LLM-based Safe Control Against Latent Risks (Quan Khanh Luu et al., 2024)
 
 {{<citation>}}
 
 Quan Khanh Luu, Xiyu Deng, Anh Van Ho, Yorie Nakahira. (2024)  
 **Context-aware LLM-based Safe Control Against Latent Risks**
 <br/>
-<button class="copy-to-clipboard" title="Context-aware LLM-based Safe Control Against Latent Risks" index=291>
+<button class="copy-to-clipboard" title="Context-aware LLM-based Safe Control Against Latent Risks" index=290>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-291 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-290 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11360,17 +11325,17 @@ It is challenging for autonomous control systems to perform complex tasks in the
 {{</citation>}}
 
 
-### (2/9 | 292/357) Distill2Explain: Differentiable decision trees for explainable reinforcement learning in energy application controllers (Gargya Gokhale et al., 2024)
+### (2/9 | 291/357) Distill2Explain: Differentiable decision trees for explainable reinforcement learning in energy application controllers (Gargya Gokhale et al., 2024)
 
 {{<citation>}}
 
 Gargya Gokhale, Seyed Soroush Karimi Madahi, Bert Claessens, Chris Develder. (2024)  
 **Distill2Explain: Differentiable decision trees for explainable reinforcement learning in energy application controllers**
 <br/>
-<button class="copy-to-clipboard" title="Distill2Explain: Differentiable decision trees for explainable reinforcement learning in energy application controllers" index=292>
+<button class="copy-to-clipboard" title="Distill2Explain: Differentiable decision trees for explainable reinforcement learning in energy application controllers" index=291>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-292 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-291 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11395,17 +11360,17 @@ Demand-side flexibility is gaining importance as a crucial element in the energy
 {{</citation>}}
 
 
-### (3/9 | 293/357) The Role of Extended Horizon Methodology in Renewable-Dense Grids With Inter-Day Long-Duration Energy Storage (Amogh A. Thatte et al., 2024)
+### (3/9 | 292/357) The Role of Extended Horizon Methodology in Renewable-Dense Grids With Inter-Day Long-Duration Energy Storage (Amogh A. Thatte et al., 2024)
 
 {{<citation>}}
 
 Amogh A. Thatte, Sourabh Dalvi, Vincent Carag, Jiazi Zhang, Jennie Jorgenson, Omar J. Guerra. (2024)  
 **The Role of Extended Horizon Methodology in Renewable-Dense Grids With Inter-Day Long-Duration Energy Storage**
 <br/>
-<button class="copy-to-clipboard" title="The Role of Extended Horizon Methodology in Renewable-Dense Grids With Inter-Day Long-Duration Energy Storage" index=293>
+<button class="copy-to-clipboard" title="The Role of Extended Horizon Methodology in Renewable-Dense Grids With Inter-Day Long-Duration Energy Storage" index=292>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-293 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-292 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11430,17 +11395,17 @@ This study addresses the challenges in optimizing long-duration energy storage (
 {{</citation>}}
 
 
-### (4/9 | 294/357) Decomposing Control Lyapunov Functions for Efficient Reinforcement Learning (Antonio Lopez et al., 2024)
+### (4/9 | 293/357) Decomposing Control Lyapunov Functions for Efficient Reinforcement Learning (Antonio Lopez et al., 2024)
 
 {{<citation>}}
 
 Antonio Lopez, David Fridovich-Keil. (2024)  
 **Decomposing Control Lyapunov Functions for Efficient Reinforcement Learning**
 <br/>
-<button class="copy-to-clipboard" title="Decomposing Control Lyapunov Functions for Efficient Reinforcement Learning" index=294>
+<button class="copy-to-clipboard" title="Decomposing Control Lyapunov Functions for Efficient Reinforcement Learning" index=293>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-294 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-293 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11465,17 +11430,17 @@ Recent methods using <b>Reinforcement</b> <b>Learning</b> (RL) have proven to be
 {{</citation>}}
 
 
-### (5/9 | 295/357) Explainable Reinforcement Learning-based Home Energy Management Systems using Differentiable Decision Trees (Gargya Gokhale et al., 2024)
+### (5/9 | 294/357) Explainable Reinforcement Learning-based Home Energy Management Systems using Differentiable Decision Trees (Gargya Gokhale et al., 2024)
 
 {{<citation>}}
 
 Gargya Gokhale, Bert Claessens, Chris Develder. (2024)  
 **Explainable Reinforcement Learning-based Home Energy Management Systems using Differentiable Decision Trees**
 <br/>
-<button class="copy-to-clipboard" title="Explainable Reinforcement Learning-based Home Energy Management Systems using Differentiable Decision Trees" index=295>
+<button class="copy-to-clipboard" title="Explainable Reinforcement Learning-based Home Energy Management Systems using Differentiable Decision Trees" index=294>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-295 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-294 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11500,17 +11465,17 @@ With the ongoing energy transition, demand-side flexibility has become an import
 {{</citation>}}
 
 
-### (6/9 | 296/357) State space representations of the Roesser type for convolutional layers (Patricia Pauli et al., 2024)
+### (6/9 | 295/357) State space representations of the Roesser type for convolutional layers (Patricia Pauli et al., 2024)
 
 {{<citation>}}
 
 Patricia Pauli, Dennis Gramlich, Fran Allgöwer. (2024)  
 **State space representations of the Roesser type for convolutional layers**
 <br/>
-<button class="copy-to-clipboard" title="State space representations of the Roesser type for convolutional layers" index=296>
+<button class="copy-to-clipboard" title="State space representations of the Roesser type for convolutional layers" index=295>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-296 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-295 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11535,17 +11500,17 @@ From the perspective of control theory, <b>convolutional</b> layers (of neural n
 {{</citation>}}
 
 
-### (7/9 | 297/357) Symmetry-based Abstraction Algorithm for Accelerating Symbolic Control Synthesis (Hussein Sibai et al., 2024)
+### (7/9 | 296/357) Symmetry-based Abstraction Algorithm for Accelerating Symbolic Control Synthesis (Hussein Sibai et al., 2024)
 
 {{<citation>}}
 
 Hussein Sibai, Sacha Huriot, Tyler Martin, Murat Arcak. (2024)  
 **Symmetry-based Abstraction Algorithm for Accelerating Symbolic Control Synthesis**
 <br/>
-<button class="copy-to-clipboard" title="Symmetry-based Abstraction Algorithm for Accelerating Symbolic Control Synthesis" index=297>
+<button class="copy-to-clipboard" title="Symmetry-based Abstraction Algorithm for Accelerating Symbolic Control Synthesis" index=296>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-297 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-296 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11570,17 +11535,17 @@ We propose an efficient symbolic control synthesis algorithm for equivariant <b>
 {{</citation>}}
 
 
-### (8/9 | 298/357) Topology Data Analysis-based Error Detection for Semantic Image Transmission with Incremental Knowledge-based HARQ (Fei Ni et al., 2024)
+### (8/9 | 297/357) Topology Data Analysis-based Error Detection for Semantic Image Transmission with Incremental Knowledge-based HARQ (Fei Ni et al., 2024)
 
 {{<citation>}}
 
 Fei Ni, Rongpeng Li, Zhifeng Zhao, Honggang Zhang. (2024)  
 **Topology Data Analysis-based Error Detection for Semantic Image Transmission with Incremental Knowledge-based HARQ**
 <br/>
-<button class="copy-to-clipboard" title="Topology Data Analysis-based Error Detection for Semantic Image Transmission with Incremental Knowledge-based HARQ" index=298>
+<button class="copy-to-clipboard" title="Topology Data Analysis-based Error Detection for Semantic Image Transmission with Incremental Knowledge-based HARQ" index=297>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-298 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-297 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11605,17 +11570,17 @@ Semantic communication (SemCom) aims to achieve high fidelity information delive
 {{</citation>}}
 
 
-### (9/9 | 299/357) Secure Synchronization of Heterogeneous Pulse-Coupled Oscillators (Jiaqi Yan et al., 2024)
+### (9/9 | 298/357) Secure Synchronization of Heterogeneous Pulse-Coupled Oscillators (Jiaqi Yan et al., 2024)
 
 {{<citation>}}
 
 Jiaqi Yan, Hideaki Ishii. (2024)  
 **Secure Synchronization of Heterogeneous Pulse-Coupled Oscillators**
 <br/>
-<button class="copy-to-clipboard" title="Secure Synchronization of Heterogeneous Pulse-Coupled Oscillators" index=299>
+<button class="copy-to-clipboard" title="Secure Synchronization of Heterogeneous Pulse-Coupled Oscillators" index=298>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-299 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-298 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11644,17 +11609,17 @@ In this paper, we consider the synchronization of heterogeneous pulse-coupled os
 
 
 
-### (1/1 | 300/357) HDLdebugger: Streamlining HDL debugging with Large Language Models (Xufeng Yao et al., 2024)
+### (1/1 | 299/357) HDLdebugger: Streamlining HDL debugging with Large Language Models (Xufeng Yao et al., 2024)
 
 {{<citation>}}
 
 Xufeng Yao, Haoyang Li, Tsz Ho Chan, Wenyi Xiao, Mingxuan Yuan, Yu Huang, Lei Chen, Bei Yu. (2024)  
 **HDLdebugger: Streamlining HDL debugging with Large Language Models**
 <br/>
-<button class="copy-to-clipboard" title="HDLdebugger: Streamlining HDL debugging with Large Language Models" index=300>
+<button class="copy-to-clipboard" title="HDLdebugger: Streamlining HDL debugging with Large Language Models" index=299>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-300 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-299 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11683,17 +11648,17 @@ In the domain of chip design, Hardware Description Languages (HDLs) play a pivot
 
 
 
-### (1/4 | 301/357) Fair Distributed Cooperative Bandit Learning on Networks for Intelligent Internet of Things Systems (Technical Report) (Ziqun Chen et al., 2024)
+### (1/4 | 300/357) Fair Distributed Cooperative Bandit Learning on Networks for Intelligent Internet of Things Systems (Technical Report) (Ziqun Chen et al., 2024)
 
 {{<citation>}}
 
 Ziqun Chen, Kechao Cai, Jinbei Zhang, Zhigang Yu. (2024)  
 **Fair Distributed Cooperative Bandit Learning on Networks for Intelligent Internet of Things Systems (Technical Report)**
 <br/>
-<button class="copy-to-clipboard" title="Fair Distributed Cooperative Bandit Learning on Networks for Intelligent Internet of Things Systems (Technical Report)" index=301>
+<button class="copy-to-clipboard" title="Fair Distributed Cooperative Bandit Learning on Networks for Intelligent Internet of Things Systems (Technical Report)" index=300>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-301 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-300 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11718,17 +11683,17 @@ In intelligent Internet of Things (IoT) systems, edge servers within a network e
 {{</citation>}}
 
 
-### (2/4 | 302/357) FastDecode: High-Throughput GPU-Efficient LLM Serving using Heterogeneous Pipelines (Jiaao He et al., 2024)
+### (2/4 | 301/357) FastDecode: High-Throughput GPU-Efficient LLM Serving using Heterogeneous Pipelines (Jiaao He et al., 2024)
 
 {{<citation>}}
 
 Jiaao He, Jidong Zhai. (2024)  
 **FastDecode: High-Throughput GPU-Efficient LLM Serving using Heterogeneous Pipelines**
 <br/>
-<button class="copy-to-clipboard" title="FastDecode: High-Throughput GPU-Efficient LLM Serving using Heterogeneous Pipelines" index=302>
+<button class="copy-to-clipboard" title="FastDecode: High-Throughput GPU-Efficient LLM Serving using Heterogeneous Pipelines" index=301>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-302 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-301 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11753,17 +11718,17 @@ Cost of serving <b>large</b> <b>language</b> <b>models</b> <b>(LLM)</b> is high,
 {{</citation>}}
 
 
-### (3/4 | 303/357) AMReX and pyAMReX: Looking Beyond ECP (Andrew Myers et al., 2024)
+### (3/4 | 302/357) AMReX and pyAMReX: Looking Beyond ECP (Andrew Myers et al., 2024)
 
 {{<citation>}}
 
 Andrew Myers, Weiqun Zhang, Ann Almgren, Thierry Antoun, John Bell, Axel Huebl, Alexander Sinn. (2024)  
 **AMReX and pyAMReX: Looking Beyond ECP**
 <br/>
-<button class="copy-to-clipboard" title="AMReX and pyAMReX: Looking Beyond ECP" index=303>
+<button class="copy-to-clipboard" title="AMReX and pyAMReX: Looking Beyond ECP" index=302>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-303 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-302 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11788,17 +11753,17 @@ AMReX is a software framework for the development of block-structured mesh appli
 {{</citation>}}
 
 
-### (4/4 | 304/357) BeRGeR: Byzantine-Robust Geometric Routing (Brown Zaz et al., 2024)
+### (4/4 | 303/357) BeRGeR: Byzantine-Robust Geometric Routing (Brown Zaz et al., 2024)
 
 {{<citation>}}
 
 Brown Zaz, Mikhail Nesterenko, Gokarna Sharma. (2024)  
 **BeRGeR: Byzantine-Robust Geometric Routing**
 <br/>
-<button class="copy-to-clipboard" title="BeRGeR: Byzantine-Robust Geometric Routing" index=304>
+<button class="copy-to-clipboard" title="BeRGeR: Byzantine-Robust Geometric Routing" index=303>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-304 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-303 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11827,17 +11792,17 @@ We present BeRGeR: the first asynchronous geometric routing algorithm that guara
 
 
 
-### (1/1 | 305/357) NuGraph2: A Graph Neural Network for Neutrino Physics Event Reconstruction (V Hewes et al., 2024)
+### (1/1 | 304/357) NuGraph2: A Graph Neural Network for Neutrino Physics Event Reconstruction (V Hewes et al., 2024)
 
 {{<citation>}}
 
 V Hewes, Adam Aurisano, Giuseppe Cerati, Jim Kowalkowski, Claire Lee, Wei-keng Liao, Daniel Grzenda, Kaushal Gumpula, Xiaohe Zhang. (2024)  
 **NuGraph2: A Graph Neural Network for Neutrino Physics Event Reconstruction**
 <br/>
-<button class="copy-to-clipboard" title="NuGraph2: A Graph Neural Network for Neutrino Physics Event Reconstruction" index=305>
+<button class="copy-to-clipboard" title="NuGraph2: A Graph Neural Network for Neutrino Physics Event Reconstruction" index=304>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-305 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-304 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11862,21 +11827,21 @@ Liquid Argon Time Projection Chamber (LArTPC) detector technology offers a wealt
 {{</citation>}}
 
 
-## stat.ML (5)
+## stat.ML (6)
 
 
 
-### (1/5 | 306/357) Pessimistic Causal Reinforcement Learning with Mediators for Confounded Offline Data (Danyang Wang et al., 2024)
+### (1/6 | 305/357) Pessimistic Causal Reinforcement Learning with Mediators for Confounded Offline Data (Danyang Wang et al., 2024)
 
 {{<citation>}}
 
 Danyang Wang, Chengchun Shi, Shikai Luo, Will Wei Sun. (2024)  
 **Pessimistic Causal Reinforcement Learning with Mediators for Confounded Offline Data**
 <br/>
-<button class="copy-to-clipboard" title="Pessimistic Causal Reinforcement Learning with Mediators for Confounded Offline Data" index=306>
+<button class="copy-to-clipboard" title="Pessimistic Causal Reinforcement Learning with Mediators for Confounded Offline Data" index=305>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-306 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-305 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11901,17 +11866,17 @@ In real-world scenarios, datasets collected from randomized experiments are ofte
 {{</citation>}}
 
 
-### (2/5 | 307/357) Posterior Uncertainty Quantification in Neural Networks using Data Augmentation (Luhuan Wu et al., 2024)
+### (2/6 | 306/357) Posterior Uncertainty Quantification in Neural Networks using Data Augmentation (Luhuan Wu et al., 2024)
 
 {{<citation>}}
 
 Luhuan Wu, Sinead Williamson. (2024)  
 **Posterior Uncertainty Quantification in Neural Networks using Data Augmentation**
 <br/>
-<button class="copy-to-clipboard" title="Posterior Uncertainty Quantification in Neural Networks using Data Augmentation" index=307>
+<button class="copy-to-clipboard" title="Posterior Uncertainty Quantification in Neural Networks using Data Augmentation" index=306>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-307 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-306 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11936,17 +11901,17 @@ In this paper, we approach the problem of uncertainty quantification in deep lea
 {{</citation>}}
 
 
-### (3/5 | 308/357) Out-of-Distribution Detection Should Use Conformal Prediction (and Vice-versa?) (Paul Novello et al., 2024)
+### (3/6 | 307/357) Out-of-Distribution Detection Should Use Conformal Prediction (and Vice-versa?) (Paul Novello et al., 2024)
 
 {{<citation>}}
 
 Paul Novello, Joseba Dalmau, Léo Andeol. (2024)  
 **Out-of-Distribution Detection Should Use Conformal Prediction (and Vice-versa?)**
 <br/>
-<button class="copy-to-clipboard" title="Out-of-Distribution Detection Should Use Conformal Prediction (and Vice-versa?)" index=308>
+<button class="copy-to-clipboard" title="Out-of-Distribution Detection Should Use Conformal Prediction (and Vice-versa?)" index=307>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-308 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-307 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -11971,17 +11936,17 @@ Research on <b>Out-Of-Distribution</b> (OOD) detection focuses mainly on buildin
 {{</citation>}}
 
 
-### (4/5 | 309/357) Nonsmooth Implicit Differentiation: Deterministic and Stochastic Convergence Rates (Riccardo Grazzi et al., 2024)
+### (4/6 | 308/357) Nonsmooth Implicit Differentiation: Deterministic and Stochastic Convergence Rates (Riccardo Grazzi et al., 2024)
 
 {{<citation>}}
 
 Riccardo Grazzi, Massimiliano Pontil, Saverio Salzo. (2024)  
 **Nonsmooth Implicit Differentiation: Deterministic and Stochastic Convergence Rates**
 <br/>
-<button class="copy-to-clipboard" title="Nonsmooth Implicit Differentiation: Deterministic and Stochastic Convergence Rates" index=309>
+<button class="copy-to-clipboard" title="Nonsmooth Implicit Differentiation: Deterministic and Stochastic Convergence Rates" index=308>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-309 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-308 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -12006,7 +11971,42 @@ We study the problem of efficiently computing the derivative of the fixed-point 
 {{</citation>}}
 
 
-### (5/5 | 310/357) Variational Approach for Efficient KL Divergence Estimation in Dirichlet Mixture Models (Samyajoy Pal et al., 2024)
+### (5/6 | 309/357) Divide-and-Conquer Posterior Sampling for Denoising Diffusion Priors (Yazid Janati et al., 2024)
+
+{{<citation>}}
+
+Yazid Janati, Alain Durmus, Eric Moulines, Jimmy Olsson. (2024)  
+**Divide-and-Conquer Posterior Sampling for Denoising Diffusion Priors**
+<br/>
+<button class="copy-to-clipboard" title="Divide-and-Conquer Posterior Sampling for Denoising Diffusion Priors" index=309>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-309 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: stat.ML  
+Categories: cs-LG, stat-ML, stat.ML  
+Keyword Score: 10  
+Keywords: Diffusion Model  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.11407v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.11407v1.pdf" filename="2403.11407v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+Interest in the use of Denoising <b>Diffusion</b> <b>Models</b> (DDM) as priors for solving inverse Bayesian problems has recently increased significantly. However, sampling from the resulting posterior distribution poses a challenge. To solve this problem, previous works have proposed approximations to bias the drift term of the <b>diffusion.</b> <b>In</b> this work, we take a different approach and utilize the specific structure of the DDM prior to define a set of intermediate and simpler posterior sampling problems, resulting in a lower approximation error compared to previous methods. We empirically demonstrate the reconstruction capability of our method for general linear inverse problems using synthetic examples and various image restoration tasks.
+
+{{</citation>}}
+
+
+### (6/6 | 310/357) Variational Approach for Efficient KL Divergence Estimation in Dirichlet Mixture Models (Samyajoy Pal et al., 2024)
 
 {{<citation>}}
 
