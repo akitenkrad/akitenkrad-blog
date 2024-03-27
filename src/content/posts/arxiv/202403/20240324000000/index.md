@@ -3436,14 +3436,14 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs.CV  
 Keyword Score: 76  
 Keywords: Few-shot, Multi-modal, Multi-modal, Grounding, Question Answering, Visual Question Answering, In-context Learning, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15585v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15585v1.pdf" filename="2403.15585v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15585v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15585v2.pdf" filename="2403.15585v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Chest X-ray images are commonly used for predicting acute and chronic cardiopulmonary conditions, but efforts to integrate them with structured clinical data face challenges due to incomplete electronic health records (EHR). This paper introduces \textbf{MedPromptX}, the first model to integrate <b>multimodal</b> <b>large</b> <b>language</b> <b>models</b> (MLLMs), <b>few-shot</b> <b>prompting</b> (FP) and <b>visual</b> <b>grounding</b> <b>(VG)</b> to combine imagery with EHR data for chest X-ray diagnosis. A pre-trained MLLM is utilized to complement the missing EHR information, providing a comprehensive understanding of patients' medical history. Additionally, FP reduces the necessity for extensive training of MLLMs while effectively tackling the issue of hallucination. Nevertheless, the process of determining the optimal number of <b>few-shot</b> examples and selecting high-quality candidates can be burdensome, yet it profoundly influences model performance. Hence, we propose a new technique that dynamically refines <b>few-shot</b> data for real-time adjustment to new patient scenarios. Moreover, VG aids in focusing the model's attention on relevant regions of interest in X-ray images, enhancing the identification of abnormalities. We release MedPromptX-VQA, a new <b>in-context</b> <b>visual</b> <b>question</b> <b>answering</b> dataset encompassing interleaved image and EHR data derived from MIMIC-IV and MIMIC-CXR databases. Results demonstrate the SOTA performance of MedPromptX, achieving an 11% improvement in F1-score compared to the baselines. Code and data are available at \url{https://github.com/BioMedIA-MBZUAI/MedPromptX}.
+Chest X-ray images are commonly used for predicting acute and chronic cardiopulmonary conditions, but efforts to integrate them with structured clinical data face challenges due to incomplete electronic health records (EHR). This paper introduces \textbf{MedPromptX}, the first model to integrate <b>multimodal</b> <b>large</b> <b>language</b> <b>models</b> (MLLMs), <b>few-shot</b> <b>prompting</b> (FP) and <b>visual</b> <b>grounding</b> <b>(VG)</b> to combine imagery with EHR data for chest X-ray diagnosis. A pre-trained MLLM is utilized to complement the missing EHR information, providing a comprehensive understanding of patients' medical history. Additionally, FP reduces the necessity for extensive training of MLLMs while effectively tackling the issue of hallucination. Nevertheless, the process of determining the optimal number of <b>few-shot</b> examples and selecting high-quality candidates can be burdensome, yet it profoundly influences model performance. Hence, we propose a new technique that dynamically refines <b>few-shot</b> data for real-time adjustment to new patient scenarios. Moreover, VG aids in focusing the model's attention on relevant regions of interest in X-ray images, enhancing the identification of abnormalities. We release MedPromptX-VQA, a new <b>in-context</b> <b>visual</b> <b>question</b> <b>answering</b> dataset encompassing interleaved image and EHR data derived from MIMIC-IV and MIMIC-CXR databases. Results demonstrate the SOTA performance of MedPromptX, achieving an 11% improvement in F1-score compared to the baselines. Code and data are available at https://github.com/BioMedIA-MBZUAI/MedPromptX
 
 {{</citation>}}
 
@@ -5692,7 +5692,7 @@ Cell tracking and segmentation assist biologists in extracting insights from lar
 
 {{<citation>}}
 
-Dazhong Rong, Shuheng Shen, Xinyi Fu, Peng Qian, Jianhai Chen, Qinming He, Xing Fu, Weiqiang Wang. (2024)  
+Dazhong Rong, Guoyao Yu, Shuheng Shen, Xinyi Fu, Peng Qian, Jianhai Chen, Qinming He, Xing Fu, Weiqiang Wang. (2024)  
 **Clean-image Backdoor Attacks**
 <br/>
 <button class="copy-to-clipboard" title="Clean-image Backdoor Attacks" index=135>
@@ -5711,8 +5711,8 @@ Primary Category: cs.CV
 Categories: cs-CR, cs-CV, cs.CV  
 Keyword Score: 10  
 Keywords: Fairness  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15010v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15010v1.pdf" filename="2403.15010v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15010v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15010v2.pdf" filename="2403.15010v2.pdf">Download PDF</button>
 
 ---
 
@@ -7423,14 +7423,14 @@ Primary Category: cs.SI
 Categories: cs-DM, cs-SI, cs.SI  
 Keyword Score: 13  
 Keywords: Graph, Graph Embedding  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15023v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15023v1.pdf" filename="2403.15023v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15023v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15023v2.pdf" filename="2403.15023v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Due to their flexibility to represent almost any kind of relational data, <b>graph-based</b> <b>models</b> have enjoyed a tremendous success over the past decades. While <b>graphs</b> <b>are</b> inherently only combinatorial objects, however, many prominent analysis tools are based on the algebraic representation of <b>graphs</b> <b>via</b> matrices such as the <b>graph</b> <b>Laplacian,</b> or on associated <b>graph</b> <b>embeddings.</b> Such embeddings associate to each node a set of coordinates in a vector space, a representation which can then be employed for learning tasks such as the classification or alignment of the nodes of the <b>graph.</b> <b>As</b> the geometric picture provided by embedding methods enables the use of a multitude of methods developed for vector space data, embeddings have thus gained interest both from a theoretical as well as a practical perspective. Inspired by trace-optimization problems, often encountered in the analysis of <b>graph-based</b> <b>data,</b> here we present a method to derive ellipsoidal embeddings of the nodes of a <b>graph,</b> <b>in</b> which each node is assigned a set of coordinates on the surface of a hyperellipsoid. Our method may be seen as an alternative to popular spectral embedding techniques, to which it shares certain similarities we discuss. To illustrate the utility of the embedding we conduct a case study in which analyse synthetic and real world networks with modular structure, and compare the results obtained with known methods in the literature.
+Due to their flexibility to represent almost any kind of relational data, <b>graph-based</b> <b>models</b> have enjoyed a tremendous success over the past decades. While <b>graphs</b> <b>are</b> inherently only combinatorial objects, however, many prominent analysis tools are based on the algebraic representation of <b>graphs</b> <b>via</b> matrices such as the <b>graph</b> <b>Laplacian,</b> or on associated <b>graph</b> <b>embeddings.</b> Such embeddings associate to each node a set of coordinates in a vector space, a representation which can then be employed for learning tasks such as the classification or alignment of the nodes of the <b>graph.</b> <b>As</b> the geometric picture provided by embedding methods enables the use of a multitude of methods developed for vector space data, embeddings have thus gained interest both from a theoretical as well as a practical perspective. Inspired by trace-optimization problems, often encountered in the analysis of <b>graph-based</b> <b>data,</b> here we present a method to derive ellipsoidal embeddings of the nodes of a <b>graph,</b> <b>in</b> which each node is assigned a set of coordinates on the surface of a hyperellipsoid. Our method may be seen as an alternative to popular spectral embedding techniques, to which it shares certain similarities we discuss. To illustrate the utility of the embedding we conduct a case study in which we analyse synthetic and real world networks with modular structure, and compare the results obtained with known methods in the literature.
 
 {{</citation>}}
 
@@ -8396,7 +8396,7 @@ In this paper, we consider the physical layer security of an RIS-assisted multip
 
 {{<citation>}}
 
-Jianxin Dai, Jin Ge, Kangda Zhi, Cunhua Pan, Youguo Wang, Cheng-Xiang Wang. (2024)  
+Jianxin Dai, Jin Ge, Kangda Zhi, Cunhua Pan, Youguo Wang. (2024)  
 **RIS-assisted Cell-Free Massive MIMO Systems With Two-Timescale Design and Hardware Impairments**
 <br/>
 <button class="copy-to-clipboard" title="RIS-assisted Cell-Free Massive MIMO Systems With Two-Timescale Design and Hardware Impairments" index=211>
@@ -8415,8 +8415,8 @@ Primary Category: cs.IT
 Categories: cs-IT, cs.IT, eess-SP, math-IT  
 Keyword Score: 10  
 Keywords: Scaling Law  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15588v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15588v1.pdf" filename="2403.15588v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15588v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15588v2.pdf" filename="2403.15588v2.pdf">Download PDF</button>
 
 ---
 

@@ -1698,8 +1698,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 40  
 Keywords: Object Detection, Convolution, Convolutional Neural Network, Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.14027v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.14027v1.pdf" filename="2403.14027v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.14027v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.14027v2.pdf" filename="2403.14027v2.pdf">Download PDF</button>
 
 ---
 
@@ -3518,8 +3518,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 10  
 Keywords: Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13972v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13972v1.pdf" filename="2403.13972v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13972v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13972v2.pdf" filename="2403.13972v2.pdf">Download PDF</button>
 
 ---
 
@@ -3728,8 +3728,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 10  
 Keywords: Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13660v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13660v1.pdf" filename="2403.13660v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13660v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13660v2.pdf" filename="2403.13660v2.pdf">Download PDF</button>
 
 ---
 
@@ -3763,8 +3763,8 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs-HC, cs.CV  
 Keyword Score: 10  
 Keywords: Convolution  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13653v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13653v1.pdf" filename="2403.13653v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13653v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13653v2.pdf" filename="2403.13653v2.pdf">Download PDF</button>
 
 ---
 
@@ -5062,8 +5062,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 43  
 Keywords: Benchmarking, Fine-tuning, Low-Resource, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13737v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13737v2.pdf" filename="2403.13737v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13737v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13737v3.pdf" filename="2403.13737v3.pdf">Download PDF</button>
 
 ---
 
@@ -5412,8 +5412,8 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 30  
 Keywords: Fine-tuning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13334v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13334v1.pdf" filename="2403.13334v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13334v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13334v2.pdf" filename="2403.13334v2.pdf">Download PDF</button>
 
 ---
 
@@ -6046,8 +6046,8 @@ Primary Category: cs.SE
 Categories: cs-SE, cs.SE  
 Keyword Score: 3  
 Keywords: Benchmarking  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13989v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13989v1.pdf" filename="2403.13989v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13989v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13989v2.pdf" filename="2403.13989v2.pdf">Download PDF</button>
 
 ---
 
@@ -7170,8 +7170,8 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-CR, cs-LG, cs.LG  
 Keyword Score: 10  
 Keywords: Federated Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13374v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13374v1.pdf" filename="2403.13374v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13374v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13374v2.pdf" filename="2403.13374v2.pdf">Download PDF</button>
 
 ---
 
@@ -7451,7 +7451,7 @@ Wenxuan Song, Han Zhao, Pengxiang Ding, Can Cui, Shangke Lyu, Yaning Fan, Dongli
 
 ---
 Primary Category: cs.RO  
-Categories: cs-RO, cs.RO  
+Categories: cs-CV, cs-LG, cs-RO, cs.RO  
 Keyword Score: 33  
 Keywords: Multi-modal, Offline Reinforcement Learning, Reinforcement Learning, Transformer  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13358v1" target="_blank" >Paper Link</a>
@@ -8156,16 +8156,16 @@ Kunhang Li, Yansong Feng. (2024)
 ---
 Primary Category: cs.AI  
 Categories: cs-AI, cs-CL, cs-CV, cs-RO, cs.AI  
-Keyword Score: 40  
-Keywords: GPT, GPT-3, GPT-3.5, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13518v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13518v1.pdf" filename="2403.13518v1.pdf">Download PDF</button>
+Keyword Score: 30  
+Keywords: GPT, GPT-3, GPT-3.5  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13518v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13518v2.pdf" filename="2403.13518v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-The task of text2motion is to generate motion sequences from given textual descriptions, where a model should explore the interactions between natural language instructions and human body movements. While most existing works are confined to coarse-grained motion descriptions (e.g., "A man squats."), fine-grained ones specifying movements of relevant body parts are barely explored. Models trained with coarse texts may not be able to learn mappings from fine-grained motion-related words to motion primitives, resulting in the failure in generating motions from unseen descriptions. In this paper, we build a large-scale language-motion dataset with fine-grained textual descriptions, FineHumanML3D, by feeding <b>GPT-3.5-turbo</b> with delicate <b>prompts.</b> Accordingly, we design a new text2motion model, FineMotionDiffuse, which makes full use of fine-grained textual information. Our experiments show that FineMotionDiffuse trained on FineHumanML3D acquires good results in quantitative evaluation. We also find this model can better generate spatially/chronologically composite motions by learning the implicit mappings from simple descriptions to the corresponding basic motions.
+The task of text2motion is to generate human motion sequences from given textual descriptions, where the model explores diverse mappings from natural language instructions to human body movements. While most existing works are confined to coarse-grained motion descriptions, e.g., "A man squats.", fine-grained descriptions specifying movements of relevant body parts are barely explored. Models trained with coarse-grained texts may not be able to learn mappings from fine-grained motion-related words to motion primitives, resulting in the failure to generate motions from unseen descriptions. In this paper, we build a large-scale language-motion dataset specializing in fine-grained textual descriptions, FineHumanML3D, by feeding <b>GPT-3.5-turbo</b> with step-by-step instructions with pseudo-code compulsory checks. Accordingly, we design a new text2motion model, FineMotionDiffuse, making full use of fine-grained textual information. Our quantitative evaluation shows that FineMotionDiffuse trained on FineHumanML3D improves FID by a large margin of 0.38, compared with competitive baselines. According to the qualitative evaluation and case study, our model outperforms MotionDiffuse in generating spatially or chronologically composite motions, by learning the implicit mappings from fine-grained descriptions to the corresponding basic motions. We release our data at https://github.com/KunhangL/finemotiondiffuse.
 
 {{</citation>}}
 
@@ -8726,14 +8726,14 @@ Primary Category: cs.CR
 Categories: cs-AI, cs-CR, cs.CR  
 Keyword Score: 10  
 Keywords: Machine Unlearning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13682v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13682v1.pdf" filename="2403.13682v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.13682v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.13682v2.pdf" filename="2403.13682v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Recently, <b>Machine</b> <b>Unlearning</b> (MU) has gained considerable attention for its potential to improve AI safety by removing the influence of specific data from trained <b>Machine</b> <b>Learning</b> (ML) models. This process, known as knowledge removal, addresses concerns about data such as sensitivity, copyright restrictions, obsolescence, or low quality. This capability is also crucial for ensuring compliance with privacy regulations such as the Right To Be Forgotten (RTBF). Therefore, strategic knowledge removal mitigates the risk of harmful outcomes, safeguarding against biases, misinformation, and unauthorized data exploitation, thereby enhancing the ethical use and reliability of AI systems. Efforts have been made to design efficient unlearning approaches, with MU services being examined for integration with existing <b>machine</b> <b>learning</b> as a service (MLaaS), allowing users to submit requests to erase data. However, recent research highlights vulnerabilities in <b>machine</b> <b>unlearning</b> systems, such as information leakage and malicious unlearning requests, that can lead to significant security and privacy concerns. Moreover, extensive research indicates that unlearning methods and prevalent attacks fulfill diverse roles within MU systems. For instance, unlearning can act as a mechanism to recover models from backdoor attacks, while backdoor attacks themselves can serve as an evaluation metric for unlearning effectiveness. This underscores the intricate relationship and complex interplay between these elements in maintaining system functionality and safety. Therefore, this survey seeks to bridge the gap between the extensive number of studies on threats, attacks, and defenses in <b>machine</b> <b>unlearning</b> and the absence of a comprehensive review that categorizes their taxonomy, methods, and solutions, thus offering valuable insights for future research directions and practical implementations.
+<b>Machine</b> <b>Unlearning</b> (MU) has gained considerable attention recently for its potential to achieve Safe AI by removing the influence of specific data from trained <b>machine</b> <b>learning</b> models. This process, known as knowledge removal, addresses AI governance concerns of training data such as quality, sensitivity, copyright restrictions, and obsolescence. This capability is also crucial for ensuring compliance with privacy regulations such as the Right To Be Forgotten. Furthermore, effective knowledge removal mitigates the risk of harmful outcomes, safeguarding against biases, misinformation, and unauthorized data exploitation, thereby enhancing the safe and responsible use of AI systems. Efforts have been made to design efficient unlearning approaches, with MU services being examined for integration with existing <b>machine</b> <b>learning</b> as a service, allowing users to submit requests to remove specific data from the training corpus. However, recent research highlights vulnerabilities in <b>machine</b> <b>unlearning</b> systems, such as information leakage and malicious unlearning requests, that can lead to significant security and privacy concerns. Moreover, extensive research indicates that unlearning methods and prevalent attacks fulfill diverse roles within MU systems. For instance, unlearning can act as a mechanism to recover models from backdoor attacks, while backdoor attacks themselves can serve as an evaluation metric for unlearning effectiveness. This underscores the intricate relationship and complex interplay among these mechanisms in maintaining system functionality and safety. This survey aims to fill the gap between the extensive number of studies on threats, attacks, and defenses in <b>machine</b> <b>unlearning</b> and the absence of a comprehensive review that categorizes their taxonomy, methods, and solutions, thus offering valuable insights for future research directions and practical implementations.
 
 {{</citation>}}
 

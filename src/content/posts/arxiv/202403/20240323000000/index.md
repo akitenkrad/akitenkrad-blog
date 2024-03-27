@@ -1494,11 +1494,11 @@ In recent times, the grandeur of <b>Large</b> <b>Language</b> <b>Models</b> <b>(
 {{</citation>}}
 
 
-### (14/52 | 14/312) A Multimodal Approach to Device-Directed Speech Detection with Large Language Models (Dominik Wager et al., 2024)
+### (14/52 | 14/312) A Multimodal Approach to Device-Directed Speech Detection with Large Language Models (Dominik Wagner et al., 2024)
 
 {{<citation>}}
 
-Dominik Wager, Alexander Churchill, Siddharth Sigtia, Panayiotis Georgiou, Matt Mirsamadi, Aarshee Mishra, Erik Marchi. (2024)  
+Dominik Wagner, Alexander Churchill, Siddharth Sigtia, Panayiotis Georgiou, Matt Mirsamadi, Aarshee Mishra, Erik Marchi. (2024)  
 **A Multimodal Approach to Device-Directed Speech Detection with Large Language Models**
 <br/>
 <button class="copy-to-clipboard" title="A Multimodal Approach to Device-Directed Speech Detection with Large Language Models" index=14>
@@ -1517,8 +1517,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL, eess-AS  
 Keyword Score: 56  
 Keywords: Multi-modal, Multi-modal, Automatic Speech Recognition, Automatic Speech Recognition, Automatic Speech Recognition, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.14438v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.14438v1.pdf" filename="2403.14438v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.14438v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.14438v2.pdf" filename="2403.14438v2.pdf">Download PDF</button>
 
 ---
 
@@ -2921,8 +2921,8 @@ Primary Category: cs.AI
 Categories: cs-AI, cs-CR, cs.AI  
 Keyword Score: 46  
 Keywords: Multi-modal, Multi-modal, ChatGPT, Large Language Model, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.14077v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.14077v1.pdf" filename="2403.14077v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.14077v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.14077v2.pdf" filename="2403.14077v2.pdf">Download PDF</button>
 
 ---
 
@@ -11444,8 +11444,8 @@ Primary Category: q-bio.QM
 Categories: cs-AI, cs-LG, q-bio-QM, q-bio.QM  
 Keyword Score: 23  
 Keywords: Graph, Graph Neural Network, Data Augmentation  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.14736v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.14736v1.pdf" filename="2403.14736v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.14736v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.14736v2.pdf" filename="2403.14736v2.pdf">Download PDF</button>
 
 ---
 
@@ -12083,8 +12083,8 @@ Primary Category: cs.AR
 Categories: cs-AR, cs.AR  
 Keyword Score: 3  
 Keywords: Benchmarking  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.14242v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.14242v1.pdf" filename="2403.14242v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.14242v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.14242v2.pdf" filename="2403.14242v2.pdf">Download PDF</button>
 
 ---
 
