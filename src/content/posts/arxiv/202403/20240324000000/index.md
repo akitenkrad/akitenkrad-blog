@@ -8886,8 +8886,8 @@ Primary Category: cs.GT
 Categories: cs-DM, cs-GT, cs.GT, econ-TH, stat-ME  
 Keyword Score: 10  
 Keywords: Fairness  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15198v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15198v1.pdf" filename="2403.15198v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15198v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15198v2.pdf" filename="2403.15198v2.pdf">Download PDF</button>
 
 ---
 
@@ -10160,8 +10160,8 @@ Primary Category: math.CO
 Categories: cs-DM, cs-LO, math-CO, math-LO, math.CO  
 Keyword Score: 3  
 Keywords: Graph  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15201v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15201v1.pdf" filename="2403.15201v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15201v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15201v2.pdf" filename="2403.15201v2.pdf">Download PDF</button>
 
 ---
 
