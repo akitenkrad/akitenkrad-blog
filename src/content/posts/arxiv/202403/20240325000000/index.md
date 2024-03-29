@@ -1912,8 +1912,8 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs.CV  
 Keyword Score: 20  
 Keywords: ControlNet, Diffusion Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15931v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15931v2.pdf" filename="2403.15931v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15931v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15931v3.pdf" filename="2403.15931v3.pdf">Download PDF</button>
 
 ---
 
@@ -2402,8 +2402,8 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs.CV  
 Keyword Score: 5  
 Keywords: Black Box  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15955v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15955v1.pdf" filename="2403.15955v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15955v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15955v2.pdf" filename="2403.15955v2.pdf">Download PDF</button>
 
 ---
 
@@ -3546,8 +3546,8 @@ Primary Category: cs.LG
 Categories: cs-CV, cs-LG, cs.LG  
 Keyword Score: 20  
 Keywords: Fine-tuning, Fine-tuning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15905v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15905v2.pdf" filename="2403.15905v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15905v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15905v3.pdf" filename="2403.15905v3.pdf">Download PDF</button>
 
 ---
 

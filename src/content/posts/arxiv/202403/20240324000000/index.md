@@ -1997,14 +1997,14 @@ Uncertainty is critical to reliable decision-making with machine learning. Confo
 {{</citation>}}
 
 
-### (30/33 | 30/259) Insights into the Lottery Ticket Hypothesis and the Iterative Magnitude Pruning (Tausifa Jan Saleem et al., 2024)
+### (30/33 | 30/259) Insights into the Lottery Ticket Hypothesis and Iterative Magnitude Pruning (Tausifa Jan Saleem et al., 2024)
 
 {{<citation>}}
 
 Tausifa Jan Saleem, Ramanjit Ahuja, Surendra Prasad, Brejesh Lall. (2024)  
-**Insights into the Lottery Ticket Hypothesis and the Iterative Magnitude Pruning**
+**Insights into the Lottery Ticket Hypothesis and Iterative Magnitude Pruning**
 <br/>
-<button class="copy-to-clipboard" title="Insights into the Lottery Ticket Hypothesis and the Iterative Magnitude Pruning" index=30>
+<button class="copy-to-clipboard" title="Insights into the Lottery Ticket Hypothesis and Iterative Magnitude Pruning" index=30>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-30 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -2020,8 +2020,8 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keyword Score: 10  
 Keywords: Pruning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15022v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15022v1.pdf" filename="2403.15022v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15022v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15022v2.pdf" filename="2403.15022v2.pdf">Download PDF</button>
 
 ---
 
@@ -2732,8 +2732,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 60  
 Keywords: Out-of-distribution, Retrieval-Augmented Generation, Retrieval-Augmented Generation, Question Answering, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15268v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15268v1.pdf" filename="2403.15268v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15268v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15268v2.pdf" filename="2403.15268v2.pdf">Download PDF</button>
 
 ---
 
@@ -9405,11 +9405,11 @@ Fatima Antarou Ba, Oleh Melnyk, Christian Wald, Gabriele Steidl. (2024)
 
 ---
 Primary Category: math.NA  
-Categories: 15-XX, 28Cxx, 32C05, 90C26, 46Gxx, 46Hxx, 49M20, 26B99, 65D40, cs-NA, math-NA, math-OC, math.NA  
+Categories: 26Bxx, 33F05, 58C05, 90C26, 65Kxx, 65F25, 15B99, cs-NA, math-NA, math-OC, math.NA  
 Keyword Score: 3  
 Keywords: Graph  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15563v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15563v1.pdf" filename="2403.15563v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.15563v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.15563v2.pdf" filename="2403.15563v2.pdf">Download PDF</button>
 
 ---
 
