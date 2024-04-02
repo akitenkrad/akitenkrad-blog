@@ -1628,8 +1628,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keyword Score: 23  
 Keywords: Benchmarking, Transformer, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19928v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19928v1.pdf" filename="2403.19928v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19928v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19928v2.pdf" filename="2403.19928v2.pdf">Download PDF</button>
 
 ---
 
@@ -2017,8 +2017,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 69  
 Keywords: Optical Character Recognition, Benchmarking, Multi-modal, Multi-modal, Instruction Following, Question Answering, Large Language Model, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.20271v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.20271v1.pdf" filename="2403.20271v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.20271v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.20271v2.pdf" filename="2403.20271v2.pdf">Download PDF</button>
 
 ---
 
@@ -2997,14 +2997,14 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 20  
 Keywords: Diffusion Model, Probabilistic Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19898v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19898v1.pdf" filename="2403.19898v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19898v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19898v2.pdf" filename="2403.19898v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Denoising <b>diffusion</b> <b>probabilistic</b> <b>models</b> for image inpainting aim to add the noise to the texture of image during the forward process and recover masked regions with unmasked ones of the texture via the reverse denoising process.Despite the meaningful semantics generation,the existing arts suffer from the semantic discrepancy between masked and unmasked regions, since the semantically dense unmasked texture fails to be completely degraded while the masked regions turn to the pure noise in <b>diffusion</b> <b>process,leading</b> to the large discrepancy between them.In this paper,we aim to answer how unmasked semantics guide texture denoising process;together with how to tackle the semantic discrepancy,to facilitate the consistent and meaningful semantics generation.To this end,we propose a novel structure-guided <b>diffusion</b> <b>model</b> named StrDiffusion,to reformulate the conventional texture denoising process under structure guidance to derive a simplified denoising objective for image inpainting,while revealing:1) the semantically sparse structure is beneficial to tackle semantic discrepancy in early stage, while dense texture generates reasonable semantics in late stage;2) the semantics from unmasked regions essentially offer the time-dependent structure guidance for the texture denoising process,benefiting from the time-dependent sparsity of the structure semantics.For the denoising process,a structure-guided neural network is trained to estimate the simplified denoising objective by exploiting the consistency of the denoised structure between masked and unmasked regions.Besides,we devise an adaptive resampling strategy as a formal criterion as whether structure is competent to guide the texture denoising process,while regulate their semantic correlations.Extensive experiments validate the merits of StrDiffusion over the state-of-the-arts.Our code is available at https://github.com/htyjers/StrDiffusion.
+Denoising <b>diffusion</b> <b>probabilistic</b> <b>models</b> for image inpainting aim to add the noise to the texture of image during the forward process and recover masked regions with unmasked ones of the texture via the reverse denoising process.Despite the meaningful semantics generation,the existing arts suffer from the semantic discrepancy between masked and unmasked regions, since the semantically dense unmasked texture fails to be completely degraded while the masked regions turn to the pure noise in <b>diffusion</b> <b>process,leading</b> to the large discrepancy between them. In this paper,we aim to answer how unmasked semantics guide texture denoising process;together with how to tackle the semantic discrepancy,to facilitate the consistent and meaningful semantics generation. To this end,we propose a novel structure-guided <b>diffusion</b> <b>model</b> named StrDiffusion,to reformulate the conventional texture denoising process under structure guidance to derive a simplified denoising objective for image inpainting,while revealing:1)the semantically sparse structure is beneficial to tackle semantic discrepancy in early stage, while dense texture generates reasonable semantics in late stage;2)the semantics from unmasked regions essentially offer the time-dependent structure guidance for the texture denoising process,benefiting from the time-dependent sparsity of the structure semantics.For the denoising process,a structure-guided neural network is trained to estimate the simplified denoising objective by exploiting the consistency of the denoised structure between masked and unmasked regions.Besides,we devise an adaptive resampling strategy as a formal criterion as whether structure is competent to guide the texture denoising process,while regulate their semantic correlations.Extensive experiments validate the merits of StrDiffusion over the state-of-the-arts.Our code is available at https://github.com/htyjers/StrDiffusion.
 
 {{</citation>}}
 
@@ -5549,8 +5549,8 @@ Primary Category: cs.AR
 Categories: cs-AR, cs-DC, cs.AR  
 Keyword Score: 10  
 Keywords: Generative AI  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.20297v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.20297v1.pdf" filename="2403.20297v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.20297v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.20297v2.pdf" filename="2403.20297v2.pdf">Download PDF</button>
 
 ---
 
@@ -6192,7 +6192,7 @@ This paper studies quadcopters obstacle avoidance trajectory control (OATC) prob
 
 {{<citation>}}
 
-Kaiyuan Gao, Qizhi Pei, Jinhua Zhu, Tao Qin, Kun He, Tie-Yan Liu, Lijun Wu. (2024)  
+Kaiyuan Gao, Qizhi Pei, Jinhua Zhu, Tao Qin, Kun He, Lijun Wu. (2024)  
 **FABind+: Enhancing Molecular Docking through Improved Pocket Prediction and Pose Generation**
 <br/>
 <button class="copy-to-clipboard" title="FABind+: Enhancing Molecular Docking through Improved Pocket Prediction and Pose Generation" index=153>
@@ -6211,8 +6211,8 @@ Primary Category: q-bio.BM
 Categories: cs-AI, cs-LG, q-bio-BM, q-bio.BM  
 Keyword Score: 20  
 Keywords: Simulation, Simulator  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.20261v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.20261v1.pdf" filename="2403.20261v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.20261v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.20261v2.pdf" filename="2403.20261v2.pdf">Download PDF</button>
 
 ---
 

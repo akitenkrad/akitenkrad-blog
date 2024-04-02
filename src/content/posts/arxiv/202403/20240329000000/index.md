@@ -2547,8 +2547,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 30  
 Keywords: Fine-tuning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18647v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18647v1.pdf" filename="2403.18647v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18647v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18647v2.pdf" filename="2403.18647v2.pdf">Download PDF</button>
 
 ---
 
@@ -2932,8 +2932,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 20  
 Keywords: Supervised Learning, Unsupervised Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18933v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18933v1.pdf" filename="2403.18933v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18933v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18933v2.pdf" filename="2403.18933v2.pdf">Download PDF</button>
 
 ---
 
@@ -3142,8 +3142,8 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 3  
 Keywords: Benchmarking  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18314v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18314v2.pdf" filename="2403.18314v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18314v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18314v3.pdf" filename="2403.18314v3.pdf">Download PDF</button>
 
 ---
 
@@ -4165,8 +4165,8 @@ Primary Category: cs.RO
 Categories: cs-RO, cs-SY, cs.RO, eess-SY  
 Keyword Score: 20  
 Keywords: Simulation, Simulator  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18413v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18413v1.pdf" filename="2403.18413v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18413v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18413v2.pdf" filename="2403.18413v2.pdf">Download PDF</button>
 
 ---
 
@@ -6903,8 +6903,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 10  
 Keywords: Diffusion Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19026v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19026v1.pdf" filename="2403.19026v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19026v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19026v2.pdf" filename="2403.19026v2.pdf">Download PDF</button>
 
 ---
 
@@ -6915,14 +6915,14 @@ Wearable collaborative robots stand to assist human wearers who need fall preven
 {{</citation>}}
 
 
-### (66/82 | 149/318) Cross--domain Fiber Cluster Shape Analysis for Language Performance Cognitive Score Prediction (Yui Lo et al., 2024)
+### (66/82 | 149/318) Cross-domain Fiber Cluster Shape Analysis for Language Performance Cognitive Score Prediction (Yui Lo et al., 2024)
 
 {{<citation>}}
 
 Yui Lo, Yuqian Chen, Dongnan Liu, Wan Liu, Leo Zekelman, Fan Zhang, Yogesh Rathi, Nikos Makris, Alexandra J. Golby, Weidong Cai, Lauren J. O'Donnell. (2024)  
-**Cross--domain Fiber Cluster Shape Analysis for Language Performance Cognitive Score Prediction**
+**Cross-domain Fiber Cluster Shape Analysis for Language Performance Cognitive Score Prediction**
 <br/>
-<button class="copy-to-clipboard" title="Cross--domain Fiber Cluster Shape Analysis for Language Performance Cognitive Score Prediction" index=149>
+<button class="copy-to-clipboard" title="Cross-domain Fiber Cluster Shape Analysis for Language Performance Cognitive Score Prediction" index=149>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-149 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -6938,8 +6938,8 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs.CV, eess-IV, q-bio-NC  
 Keyword Score: 10  
 Keywords: Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19001v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19001v1.pdf" filename="2403.19001v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19001v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19001v2.pdf" filename="2403.19001v2.pdf">Download PDF</button>
 
 ---
 
@@ -7428,8 +7428,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 5  
 Keywords: Geometry  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18784v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18784v1.pdf" filename="2403.18784v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18784v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18784v2.pdf" filename="2403.18784v2.pdf">Download PDF</button>
 
 ---
 
@@ -7549,14 +7549,14 @@ Water distribution systems (WDS) are an integral part of critical infrastructure
 {{</citation>}}
 
 
-### (2/48 | 167/318) Deep Learning for Traffic Flow Prediction using Cellular Automata-based Model and CNN-LSTM architecture (Zhaohui Yang et al., 2024)
+### (2/48 | 167/318) Energy-Guided Data Sampling for Traffic Prediction with Mini Training Datasets (Zhaohui Yang et al., 2024)
 
 {{<citation>}}
 
 Zhaohui Yang, Kshitij Jerath. (2024)  
-**Deep Learning for Traffic Flow Prediction using Cellular Automata-based Model and CNN-LSTM architecture**
+**Energy-Guided Data Sampling for Traffic Prediction with Mini Training Datasets**
 <br/>
-<button class="copy-to-clipboard" title="Deep Learning for Traffic Flow Prediction using Cellular Automata-based Model and CNN-LSTM architecture" index=167>
+<button class="copy-to-clipboard" title="Energy-Guided Data Sampling for Traffic Prediction with Mini Training Datasets" index=167>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-167 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -7572,14 +7572,14 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keyword Score: 80  
 Keywords: Convolution, Convolutional Neural Network, Convolutional Neural Network, Simulation, Simulator, LSTM, LSTM, LSTM  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18710v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18710v1.pdf" filename="2403.18710v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18710v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18710v2.pdf" filename="2403.18710v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Recent works have attempted to use deep learning to predict future states of traffic flow, but have met with mixed results. These approaches face two key challenges. First, training deep learning neural networks requires large amounts of training data which are not yet easily available for traffic flow systems. Second, even when data is available, the neural networks require access to historical data that covers most possible traffic flow dynamics to successfully predict future traffic states. Specifically, these deep learning approaches do not fully leverage domain-knowledge about traffic flow dynamics, despite a significant existing knowledge-base. In this work, we propose to solve both issues using a <b>Convolutional</b> <b>Neural</b> <b>Network</b> <b>(CNNs)</b> with <b>Long</b> <b>Short</b> <b>Term</b> <b>Memory</b> <b>(LSTM)</b> deep learning architecture to successfully predict traffic flow, while leveraging a cellular automata-based statistical mechanics model of traffic flow to generate training and test data. Another major contribution of this paper is the insight that training data for a large traffic system can actually be sampled from the <b>simulations</b> of a much smaller traffic system. This is achieved through observing that the normalized energy distribution of the statistical mechanics model is scale invariant, which significantly eases the burden of data generation for large scale traffic systems. The resulting <b>simulations</b> indicate good agreement between the predicted and the true traffic flow dynamics.
+Recent endeavors aimed at forecasting future traffic flow states through deep learning encounter various challenges and yield diverse outcomes. A notable obstacle arises from the substantial data requirements of deep learning models, a resource often scarce in traffic flow systems. Despite the abundance of domain knowledge concerning traffic flow dynamics, prevailing deep learning methodologies frequently fail to fully exploit it. To address these issues, we propose an innovative solution that merges <b>Convolutional</b> <b>Neural</b> <b>Networks</b> <b>(CNNs)</b> with <b>Long</b> <b>Short-Term</b> <b>Memory</b> <b>(LSTM)</b> architecture to enhance the prediction of traffic flow dynamics. A key revelation of our research is the feasibility of sampling training data for large traffic systems from <b>simulations</b> conducted on smaller traffic systems. This insight suggests the potential for referencing a macroscopic-level distribution to inform the sampling of microscopic data. Such sampling is facilitated by the observed scale invariance in the normalized energy distribution of the statistical mechanics model, thereby streamlining the data generation process for large-scale traffic systems. Our <b>simulations</b> demonstrate promising agreement between predicted and actual traffic flow dynamics, underscoring the efficacy of our proposed approach.
 
 {{</citation>}}
 
@@ -7829,14 +7829,14 @@ This study focuses on addressing the instability issues prevalent in <b>contrast
 {{</citation>}}
 
 
-### (10/48 | 175/318) Safe and Robust Reinforcement-Learning: Principles and Practice (Taku Yamagata et al., 2024)
+### (10/48 | 175/318) Safe and Robust Reinforcement Learning: Principles and Practice (Taku Yamagata et al., 2024)
 
 {{<citation>}}
 
 Taku Yamagata, Raul Santos-Rodriguez. (2024)  
-**Safe and Robust Reinforcement-Learning: Principles and Practice**
+**Safe and Robust Reinforcement Learning: Principles and Practice**
 <br/>
-<button class="copy-to-clipboard" title="Safe and Robust Reinforcement-Learning: Principles and Practice" index=175>
+<button class="copy-to-clipboard" title="Safe and Robust Reinforcement Learning: Principles and Practice" index=175>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-175 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -7852,8 +7852,8 @@ Primary Category: cs.LG
 Categories: cs-LG, cs-SY, cs.LG, eess-SY  
 Keyword Score: 40  
 Keywords: Adversarial Learning, Reinforcement Learning, Domain Adaptation, Summarization  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18539v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18539v1.pdf" filename="2403.18539v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18539v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18539v2.pdf" filename="2403.18539v2.pdf">Download PDF</button>
 
 ---
 
@@ -10532,8 +10532,8 @@ Primary Category: cs.SE
 Categories: cs-AI, cs-LG, cs-SE, cs.SE  
 Keyword Score: 60  
 Keywords: Anomaly Detection, Autoencoder, Few-shot, Few-shot Learning, Meta Learning, Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18998v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18998v1.pdf" filename="2403.18998v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18998v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18998v2.pdf" filename="2403.18998v2.pdf">Download PDF</button>
 
 ---
 
@@ -11610,8 +11610,8 @@ Primary Category: math.NA
 Categories: cs-NA, math-NA, math.NA  
 Keyword Score: 33  
 Keywords: Graph, Supervised Learning, Unsupervised Learning, Unsupervised Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18171v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18171v1.pdf" filename="2403.18171v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18171v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18171v2.pdf" filename="2403.18171v2.pdf">Download PDF</button>
 
 ---
 

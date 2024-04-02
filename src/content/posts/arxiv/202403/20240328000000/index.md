@@ -3531,8 +3531,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keyword Score: 20  
 Keywords: Contrastive Learning, Fine-tuning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19713v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19713v1.pdf" filename="2403.19713v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19713v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19713v2.pdf" filename="2403.19713v2.pdf">Download PDF</button>
 
 ---
 
@@ -3636,8 +3636,8 @@ Primary Category: cs.CL
 Categories: F-2-2; I-2-7, cs-AI, cs-CL, cs-LG, cs.CL  
 Keyword Score: 20  
 Keywords: Fine-tuning, Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17407v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17407v1.pdf" filename="2403.17407v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17407v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17407v2.pdf" filename="2403.17407v2.pdf">Download PDF</button>
 
 ---
 
@@ -4550,14 +4550,14 @@ Primary Category: cs.LG
 Categories: cs-CV, cs-LG, cs.LG  
 Keyword Score: 25  
 Keywords: Diffusion Model, Black Box, Adversarial Attack  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18035v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18035v1.pdf" filename="2403.18035v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18035v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18035v2.pdf" filename="2403.18035v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-<b>Diffusion</b> <b>models</b> (DMs) are capable of generating remarkably high-quality samples by iteratively denoising a random vector, a process that corresponds to moving along the probability flow ordinary differential equation (PF ODE). Interestingly, DMs can also invert an input image to noise by moving backward along the PF ODE, a key operation for downstream tasks such as interpolation and image editing. However, the iterative nature of this process restricts its speed, hindering its broader application. Recently, Consistency Models (CMs) have emerged to address this challenge by approximating the integral of the PF ODE, thereby bypassing the need to iterate. Yet, the absence of an explicit ODE solver complicates the inversion process. To resolve this, we introduce the Bidirectional Consistency Model (BCM), which learns a single neural network that enables both forward and backward traversal along the PF ODE, efficiently unifying generation and inversion tasks within one framework. Notably, our proposed method enables one-step generation and inversion while also allowing the use of additional steps to enhance generation quality or reduce reconstruction error. Furthermore, by leveraging our model's bidirectional consistency, we introduce a sampling strategy that can enhance FID while preserving the generated image content. We further showcase our model's capabilities in several downstream tasks, such as interpolation and inpainting, and present demonstrations of potential applications, including blind restoration of compressed images and defending <b>black-box</b> <b>adversarial</b> <b>attacks.</b>
+<b>Diffusion</b> <b>models</b> (DMs) are capable of generating remarkably high-quality samples by iteratively denoising a random vector, a process that corresponds to moving along the probability flow ordinary differential equation (PF ODE). Interestingly, DMs can also invert an input image to noise by moving backward along the PF ODE, a key operation for downstream tasks such as interpolation and image editing. However, the iterative nature of this process restricts its speed, hindering its broader application. Recently, Consistency Models (CMs) have emerged to address this challenge by approximating the integral of the PF ODE, largely reducing the number of iterations. Yet, the absence of an explicit ODE solver complicates the inversion process. To resolve this, we introduce the Bidirectional Consistency Model (BCM), which learns a single neural network that enables both forward and backward traversal along the PF ODE, efficiently unifying generation and inversion tasks within one framework. Notably, our proposed method enables one-step generation and inversion while also allowing the use of additional steps to enhance generation quality or reduce reconstruction error. Furthermore, by leveraging our model's bidirectional consistency, we introduce a sampling strategy that can enhance FID while preserving the generated image content. We further showcase our model's capabilities in several downstream tasks, such as interpolation and inpainting, and present demonstrations of potential applications, including blind restoration of compressed images and defending <b>black-box</b> <b>adversarial</b> <b>attacks.</b>
 
 {{</citation>}}
 
@@ -4912,14 +4912,14 @@ In this paper we propose the <b>federated</b> <b>private</b> local training algo
 {{</citation>}}
 
 
-### (28/49 | 93/348) A Survey on Deep Learning and State-of-the-arts Applications (Mohd Halim Mohd Noor et al., 2024)
+### (28/49 | 93/348) A Survey on Deep Learning and State-of-the-art Applications (Mohd Halim Mohd Noor et al., 2024)
 
 {{<citation>}}
 
 Mohd Halim Mohd Noor, Ayokunle Olalekan Ige. (2024)  
-**A Survey on Deep Learning and State-of-the-arts Applications**
+**A Survey on Deep Learning and State-of-the-art Applications**
 <br/>
-<button class="copy-to-clipboard" title="A Survey on Deep Learning and State-of-the-arts Applications" index=93>
+<button class="copy-to-clipboard" title="A Survey on Deep Learning and State-of-the-art Applications" index=93>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-93 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -4935,8 +4935,8 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keyword Score: 20  
 Keywords: Convolution, Convolutional Neural Network  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17561v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17561v1.pdf" filename="2403.17561v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17561v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17561v2.pdf" filename="2403.17561v2.pdf">Download PDF</button>
 
 ---
 
@@ -5884,8 +5884,8 @@ Primary Category: cs.IR
 Categories: cs-IR, cs.IR  
 Keyword Score: 36  
 Keywords: Knowledge Distillation, Multi-modal, Multi-modal, Recommendation, Summarization  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17372v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17372v1.pdf" filename="2403.17372v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17372v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17372v2.pdf" filename="2403.17372v2.pdf">Download PDF</button>
 
 ---
 
@@ -6320,11 +6320,11 @@ Keywords: GPT, Grounding, Reasoning, Large Language Model, Large Language Model,
 {{</citation>}}
 
 
-### (3/26 | 133/348) Visual Hallucination: Definition, Quantification, and Prescriptive Remediations (Vipula Rawte et al., 2024)
+### (3/26 | 133/348) Visual Hallucination: Definition, Quantification, and Prescriptive Remediations (Anku Rani et al., 2024)
 
 {{<citation>}}
 
-Vipula Rawte, Anku Rani, Harshad Sharma, Neeraj Anand, Krishnav Rajbangshi, Amit Sheth, Amitava Das. (2024)  
+Anku Rani, Vipula Rawte, Harshad Sharma, Neeraj Anand, Krishnav Rajbangshi, Amit Sheth, Amitava Das. (2024)  
 **Visual Hallucination: Definition, Quantification, and Prescriptive Remediations**
 <br/>
 <button class="copy-to-clipboard" title="Visual Hallucination: Definition, Quantification, and Prescriptive Remediations" index=133>
@@ -6343,8 +6343,8 @@ Primary Category: cs.AI
 Categories: cs-AI, cs.AI  
 Keyword Score: 60  
 Keywords: Question Answering, Visual Question Answering, Visual Question Answering, Large Language Model, Large Language Model, Vision-and-Language  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17306v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17306v1.pdf" filename="2403.17306v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17306v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17306v2.pdf" filename="2403.17306v2.pdf">Download PDF</button>
 
 ---
 
@@ -6833,8 +6833,8 @@ Primary Category: cs.AI
 Categories: cs-AI, cs.AI  
 Keyword Score: 16  
 Keywords: Multi-modal, Multi-modal, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17683v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17683v1.pdf" filename="2403.17683v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17683v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17683v2.pdf" filename="2403.17683v2.pdf">Download PDF</button>
 
 ---
 
@@ -7292,8 +7292,8 @@ Primary Category: eess.IV
 Categories: cs-CV, cs-LG, eess-IV, eess.IV  
 Keyword Score: 40  
 Keywords: Convolution, Convolutional Neural Network, Convolutional Neural Network, Transformer  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17701v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17701v1.pdf" filename="2403.17701v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17701v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17701v2.pdf" filename="2403.17701v2.pdf">Download PDF</button>
 
 ---
 
@@ -7712,8 +7712,8 @@ Primary Category: eess.IV
 Categories: cs-CV, eess-IV, eess.IV  
 Keyword Score: 10  
 Keywords: Image2text  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17639v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17639v1.pdf" filename="2403.17639v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17639v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17639v2.pdf" filename="2403.17639v2.pdf">Download PDF</button>
 
 ---
 
@@ -10380,14 +10380,14 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 6  
 Keywords: Multi-modal, Multi-modal  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17610v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17610v1.pdf" filename="2403.17610v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17610v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17610v2.pdf" filename="2403.17610v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Foot contact is an important cue not only for human motion capture but also for motion understanding and physically plausible motion generation. However, most of the foot-contact annotations in existing datasets are estimated by purely visual matching and distance thresholding, which results in low accuracy and coarse granularity. Even though existing <b>multimodal</b> datasets synergistically capture plantar pressure (foot contact) and visual signals, they are specifically designed for small-range and slow motion such as Taiji Quan and Yoga. Therefore, there is still a lack of a vision-pressure <b>multimodal</b> dataset with large-range and fast human motion, as well as accurate and dense foot-contact annotation. To fill this gap, we propose a <b>Multimodal</b> MoCap Dataset with Vision and Pressure sensors, named MMVP. MMVP provides accurate and dense plantar pressure signals synchronized with RGBD observations, which is especially useful for both plausible shape estimation, robust pose fitting without foot drifting, and accurate global translation tracking. To validate the dataset, we propose an RGBD-P SMPL fitting method and also a monocular-video-based baseline framework, VP-MoCap, for human motion capture. Experiments demonstrate that our RGBD-P SMPL Fitting results significantly outperform pure visual motion capture. Moreover, VP-MoCap outperforms SOTA methods in foot-contact and global translation estimation accuracy. We believe the configuration of the dataset and the baseline frameworks will stimulate the research in this direction and also provide a good reference for MoCap applications in various domains. Project page: https://haolyuan.github.io/MMVP-Dataset/.
+Foot contact is an important cue for human motion capture, understanding, and generation. Existing datasets tend to annotate dense foot contact using visual matching with thresholding or incorporating pressure signals. However, these approaches either suffer from low accuracy or are only designed for small-range and slow motion. There is still a lack of a vision-pressure <b>multimodal</b> dataset with large-range and fast human motion, as well as accurate and dense foot-contact annotation. To fill this gap, we propose a <b>Multimodal</b> MoCap Dataset with Vision and Pressure sensors, named MMVP. MMVP provides accurate and dense plantar pressure signals synchronized with RGBD observations, which is especially useful for both plausible shape estimation, robust pose fitting without foot drifting, and accurate global translation tracking. To validate the dataset, we propose an RGBD-P SMPL fitting method and also a monocular-video-based baseline framework, VP-MoCap, for human motion capture. Experiments demonstrate that our RGBD-P SMPL Fitting results significantly outperform pure visual motion capture. Moreover, VP-MoCap outperforms SOTA methods in foot-contact and global translation estimation accuracy. We believe the configuration of the dataset and the baseline frameworks will stimulate the research in this direction and also provide a good reference for MoCap applications in various domains. Project page: https://metaverse-ai-lab-thu.github.io/MMVP-Dataset/.
 
 {{</citation>}}
 
@@ -10520,8 +10520,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV, eess-IV  
 Keyword Score: 5  
 Keywords: Geometry  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17801v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17801v1.pdf" filename="2403.17801v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.17801v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.17801v2.pdf" filename="2403.17801v2.pdf">Download PDF</button>
 
 ---
 
@@ -13782,8 +13782,8 @@ Primary Category: cs.DS
 Categories: cs-DS, cs.DS  
 Keyword Score: 3  
 Keywords: Benchmarking  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18059v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18059v1.pdf" filename="2403.18059v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.18059v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.18059v2.pdf" filename="2403.18059v2.pdf">Download PDF</button>
 
 ---
 

@@ -1672,8 +1672,8 @@ Primary Category: cs.CL
 Categories: I-2-7, cs-AI, cs-CL, cs.CL  
 Keyword Score: 50  
 Keywords: Model Pruning, Pruning, Transformer, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19135v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19135v1.pdf" filename="2403.19135v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19135v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19135v2.pdf" filename="2403.19135v2.pdf">Download PDF</button>
 
 ---
 
@@ -1917,14 +1917,14 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 33  
 Keywords: Benchmarking, Reasoning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19318v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19318v1.pdf" filename="2403.19318v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19318v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19318v2.pdf" filename="2403.19318v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-We introduce TableLLM, a robust <b>large</b> <b>language</b> <b>model</b> <b>(LLM)</b> with 13 billion parameters, purpose-built for proficiently handling tabular data manipulation tasks, whether they are embedded within documents or spreadsheets, catering to real-world office scenarios. We propose a distant supervision method for training, which comprises a <b>reasoning</b> process extension strategy, aiding in training <b>LLMs</b> to understand <b>reasoning</b> patterns more effectively as well as a cross-way validation strategy, ensuring the quality of the automatically generated data. To evaluate the performance of TableLLM, we have crafted a <b>benchmark</b> tailored to address both document and spreadsheet formats as well as constructed a well-organized evaluation pipeline capable of handling both scenarios. Thorough evaluations underscore the advantages of TableLLM when compared to various existing general-purpose and tabular data-focused <b>LLMs.</b> We have publicly released the model checkpoint, source code, <b>benchmarks,</b> and a web application for user interaction.
+We introduce TableLLM, a robust <b>large</b> <b>language</b> <b>model</b> <b>(LLM)</b> with 13 billion parameters, purpose-built for proficiently handling tabular data manipulation tasks, whether they are embedded within documents or spreadsheets, catering to real-world office scenarios. We propose a distant supervision method for training, which comprises a <b>reasoning</b> process extension strategy, aiding in training <b>LLMs</b> to understand <b>reasoning</b> patterns more effectively as well as a cross-way validation strategy, ensuring the quality of the automatically generated data. To evaluate the performance of TableLLM, we have crafted a <b>benchmark</b> tailored to address both document and spreadsheet formats as well as constructed a well-organized evaluation pipeline capable of handling both scenarios. Thorough evaluations underscore the advantages of TableLLM when compared to various existing general-purpose and tabular data-focused <b>LLMs.</b> We have publicly released the model checkpoint, source code, <b>benchmarks,</b> and a web application for user interaction.Our codes and data are publicly available at https://github.com/TableLLM/TableLLM.
 
 {{</citation>}}
 
@@ -4099,8 +4099,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs-GR, cs-MM, cs.CV  
 Keyword Score: 30  
 Keywords: Fine-tuning, Text2image, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19456v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19456v1.pdf" filename="2403.19456v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19456v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19456v2.pdf" filename="2403.19456v2.pdf">Download PDF</button>
 
 ---
 
@@ -4461,14 +4461,14 @@ Modern <b>text-to-image</b> (T2I) <b>diffusion</b> <b>models</b> can generate im
 {{</citation>}}
 
 
-### (40/82 | 102/271) Change-Agent: Towards Interactive Comprehensive Change Interpretation and Analysis from Change Detection and Change Captioning (Chenyang Liu et al., 2024)
+### (40/82 | 102/271) Change-Agent: Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis (Chenyang Liu et al., 2024)
 
 {{<citation>}}
 
 Chenyang Liu, Keyan Chen, Haotian Zhang, Zipeng Qi, Zhengxia Zou, Zhenwei Shi. (2024)  
-**Change-Agent: Towards Interactive Comprehensive Change Interpretation and Analysis from Change Detection and Change Captioning**
+**Change-Agent: Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis**
 <br/>
-<button class="copy-to-clipboard" title="Change-Agent: Towards Interactive Comprehensive Change Interpretation and Analysis from Change Detection and Change Captioning" index=102>
+<button class="copy-to-clipboard" title="Change-Agent: Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis" index=102>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-102 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -4484,14 +4484,14 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 20  
 Keywords: Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19646v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19646v1.pdf" filename="2403.19646v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19646v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19646v2.pdf" filename="2403.19646v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Monitoring changes in the Earth's surface is crucial for understanding natural processes and human impacts, necessitating precise and comprehensive interpretation methodologies. Remote sensing satellite imagery offers a unique perspective for monitoring these changes, leading to the emergence of remote sensing image change interpretation (RSICI) as a significant research focus. Current RSICI technology encompasses change detection and change captioning, each with its limitations in providing comprehensive interpretation. To address this, we propose an interactive Change-Agent which integrates a multi-level change interpretation (MCI) model as eyes and a <b>large</b> <b>language</b> <b>model</b> <b>(LLM)</b> as the brain. Our Change-Agent can follow user instructions to achieve comprehensive change interpretation and insightful analysis according to user instructions, such as change detection and change captioning, change object counting, change cause analysis, etc. Our proposed MCI model contains two branches of pixel-level change detection and semantic-level change captioning, in which multiple BI-temporal Iterative Interaction (BI3) layers utilize Local Perception Enhancement (LPE) and the Global Difference Fusion Attention (GDFA) modules to enhance the model's discriminative feature representation capabilities. To train the MCI model, we build the LEVIR-MCI dataset with change masks and captions of bi-temporal images. Extensive experiments demonstrate the effectiveness of the proposed change interpretation model and highlight the promising potential of our Change-Agent in facilitating comprehensive and intelligent interpretation of surface changes. We will make our dataset and codebase of the change interpretation model and Change-Agent publicly available to facilitate future research at https://github.com/Chen-Yang-Liu/Change-Agent
+Monitoring changes in the Earth's surface is crucial for understanding natural processes and human impacts, necessitating precise and comprehensive interpretation methodologies. Remote sensing satellite imagery offers a unique perspective for monitoring these changes, leading to the emergence of remote sensing image change interpretation (RSICI) as a significant research focus. Current RSICI technology encompasses change detection and change captioning, each with its limitations in providing comprehensive interpretation. To address this, we propose an interactive Change-Agent, which can follow user instructions to achieve comprehensive change interpretation and insightful analysis according to user instructions, such as change detection and change captioning, change object counting, change cause analysis, etc. The Change-Agent integrates a multi-level change interpretation (MCI) model as the eyes and a <b>large</b> <b>language</b> <b>model</b> <b>(LLM)</b> as the brain. The MCI model contains two branches of pixel-level change detection and semantic-level change captioning, in which multiple BI-temporal Iterative Interaction (BI3) layers utilize Local Perception Enhancement (LPE) and the Global Difference Fusion Attention (GDFA) modules to enhance the model's discriminative feature representation capabilities. To support the training of the MCI model, we build the LEVIR-MCI dataset with a <b>large</b> <b>number</b> <b>of</b> change masks and captions of changes. Extensive experiments demonstrate the effectiveness of the proposed MCI model and highlight the promising potential of our Change-Agent in facilitating comprehensive and intelligent interpretation of surface changes. To facilitate future research, we will make our dataset and codebase of the MCI model and Change-Agent publicly available at https://github.com/Chen-Yang-Liu/Change-Agent
 
 {{</citation>}}
 
@@ -4589,14 +4589,14 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 20  
 Keywords: Transformer, Self-Attention  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19435v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19435v2.pdf" filename="2403.19435v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19435v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19435v3.pdf" filename="2403.19435v3.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Generating human motion from text has been dominated by denoising motion models either through diffusion or generative masking process. However, these models face great limitations in usability by requiring prior knowledge of the motion length. Conversely, autoregressive motion models address this limitation by adaptively predicting motion endpoints, at the cost of degraded generation quality and editing capabilities. To address these challenges, we propose Bidirectional Autoregressive Motion Model (BAMM), a novel text-to-motion generation framework. BAMM consists of two key components: (1) a motion tokenizer that transforms 3D human motion into discrete tokens in latent space, and (2) a masked <b>self-attention</b> <b>transformer</b> that autoregressively predicts randomly masked tokens via a hybrid attention masking strategy. By unifying generative masked modeling and autoregressive modeling, BAMM captures rich and bidirectional dependencies among motion tokens, while learning the probabilistic mapping from textual inputs to motion outputs with dynamically-adjusted motion sequence length. This feature enables BAMM to simultaneously achieving high-quality motion generation with enhanced usability and built-in motion editability. Extensive experiments on HumanML3D and KIT-ML datasets demonstrate that BAMM surpasses current state-of-the-art methods in both qualitative and quantitative measures. Our project page is available at https://github.com/exitudio/BAMM-page.
+Generating human motion from text has been dominated by denoising motion models either through diffusion or generative masking process. However, these models face great limitations in usability by requiring prior knowledge of the motion length. Conversely, autoregressive motion models address this limitation by adaptively predicting motion endpoints, at the cost of degraded generation quality and editing capabilities. To address these challenges, we propose Bidirectional Autoregressive Motion Model (BAMM), a novel text-to-motion generation framework. BAMM consists of two key components: (1) a motion tokenizer that transforms 3D human motion into discrete tokens in latent space, and (2) a masked <b>self-attention</b> <b>transformer</b> that autoregressively predicts randomly masked tokens via a hybrid attention masking strategy. By unifying generative masked modeling and autoregressive modeling, BAMM captures rich and bidirectional dependencies among motion tokens, while learning the probabilistic mapping from textual inputs to motion outputs with dynamically-adjusted motion sequence length. This feature enables BAMM to simultaneously achieving high-quality motion generation with enhanced usability and built-in motion editability. Extensive experiments on HumanML3D and KIT-ML datasets demonstrate that BAMM surpasses current state-of-the-art methods in both qualitative and quantitative measures. Our project page is available at https://exitudio.github.io/BAMM-page
 
 {{</citation>}}
 
@@ -5184,14 +5184,14 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 10  
 Keywords: Self-supervised Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19797v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19797v1.pdf" filename="2403.19797v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19797v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19797v2.pdf" filename="2403.19797v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-We tackle the problem of learning an implicit scene representation for 3D instance segmentation from a sequence of posed RGB images. Towards this, we introduce 3DIML, a novel framework that efficiently learns a label field that may be rendered from novel viewpoints to produce view-consistent instance segmentation masks. 3DIML significantly improves upon training and inference runtimes of existing implicit scene representation based methods. Opposed to prior art that optimizes a neural field in a <b>self-supervised</b> manner, requiring complicated training procedures and loss function design, 3DIML leverages a two-phase process. The first phase, InstanceMap, takes as input 2D segmentation masks of the image sequence generated by a frontend instance segmentation model, and associates corresponding masks across images to 3D labels. These almost view-consistent pseudolabel masks are then used in the second phase, InstanceLift, to supervise the training of a neural label field, which interpolates regions missed by InstanceMap and resolves ambiguities. Additionally, we introduce InstanceLoc, which enables near realtime localization of instance masks given a trained label field and an off-the-shelf image segmentation model by fusing outputs from both. We evaluate 3DIML on sequences from the Replica and ScanNet datasets and demonstrate 3DIML's effectiveness under mild assumptions for the image sequences. We achieve a 14-24x speedup over existing implicit scene representation methods with comparable quality, showcasing its potential to facilitate faster and more effective 3D scene understanding.
+We tackle the problem of learning an implicit scene representation for 3D instance segmentation from a sequence of posed RGB images. Towards this, we introduce 3DIML, a novel framework that efficiently learns a label field that may be rendered from novel viewpoints to produce view-consistent instance segmentation masks. 3DIML significantly improves upon training and inference runtimes of existing implicit scene representation based methods. Opposed to prior art that optimizes a neural field in a <b>self-supervised</b> manner, requiring complicated training procedures and loss function design, 3DIML leverages a two-phase process. The first phase, InstanceMap, takes as input 2D segmentation masks of the image sequence generated by a frontend instance segmentation model, and associates corresponding masks across images to 3D labels. These almost view-consistent pseudolabel masks are then used in the second phase, InstanceLift, to supervise the training of a neural label field, which interpolates regions missed by InstanceMap and resolves ambiguities. Additionally, we introduce InstanceLoc, which enables near realtime localization of instance masks given a trained label field and an off-the-shelf image segmentation model by fusing outputs from both. We evaluate 3DIML on sequences from the Replica and ScanNet datasets and demonstrate 3DIML's effectiveness under mild assumptions for the image sequences. We achieve a large practical speedup over existing implicit scene representation methods with comparable quality, showcasing its potential to facilitate faster and more effective 3D scene understanding.
 
 {{</citation>}}
 
@@ -5585,7 +5585,7 @@ Neural rendering techniques have significantly advanced 3D human body modeling. 
 
 {{<citation>}}
 
-Xiaoyang Lyu, Chirui Chang, Peng Dai, Yang-tian Sun, Xiaojuang Qi. (2024)  
+Xiaoyang Lyu, Chirui Chang, Peng Dai, Yang-Tian Sun, Xiaojuan Qi. (2024)  
 **Total-Decom: Decomposed 3D Scene Reconstruction with Minimal Interaction**
 <br/>
 <button class="copy-to-clipboard" title="Total-Decom: Decomposed 3D Scene Reconstruction with Minimal Interaction" index=134>
@@ -5604,14 +5604,14 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 8  
 Keywords: Benchmarking, Geometry  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19314v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19314v1.pdf" filename="2403.19314v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19314v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19314v2.pdf" filename="2403.19314v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Scene reconstruction from multi-view images is a fundamental problem in computer vision and graphics. Recent neural implicit surface reconstruction methods have achieved high-quality results; however, editing and manipulating the 3D <b>geometry</b> of reconstructed scenes remains challenging due to the absence of naturally decomposed object entities and complex object/background compositions. In this paper, we present Total-Decom, a novel method for decomposed 3D reconstruction with minimal human interaction. Our approach seamlessly integrates the Segment Anything Model (SAM) with hybrid implicit-explicit neural surface representations and a mesh-based region-growing technique for accurate 3D object decomposition. Total-Decom requires minimal human annotations while providing users with real-time control over the granularity and quality of decomposition. We extensively evaluate our method on <b>benchmark</b> datasets and demonstrate its potential for downstream applications, such as animation and scene editing. The code is available at \href{https://github.com/CVMI-Lab/Total-Decom.git}{https://github.com/CVMI-Lab/Total-Decom.git}.
+Scene reconstruction from multi-view images is a fundamental problem in computer vision and graphics. Recent neural implicit surface reconstruction methods have achieved high-quality results; however, editing and manipulating the 3D <b>geometry</b> of reconstructed scenes remains challenging due to the absence of naturally decomposed object entities and complex object/background compositions. In this paper, we present Total-Decom, a novel method for decomposed 3D reconstruction with minimal human interaction. Our approach seamlessly integrates the Segment Anything Model (SAM) with hybrid implicit-explicit neural surface representations and a mesh-based region-growing technique for accurate 3D object decomposition. Total-Decom requires minimal human annotations while providing users with real-time control over the granularity and quality of decomposition. We extensively evaluate our method on <b>benchmark</b> datasets and demonstrate its potential for downstream applications, such as animation and scene editing. The code is available at https://github.com/CVMI-Lab/Total-Decom.git.
 
 {{</citation>}}
 
@@ -6658,8 +6658,8 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keyword Score: 13  
 Keywords: Graph, Unsupervised Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19647v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19647v1.pdf" filename="2403.19647v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19647v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19647v2.pdf" filename="2403.19647v2.pdf">Download PDF</button>
 
 ---
 
@@ -7043,8 +7043,8 @@ Primary Category: cs.LG
 Categories: cs-CY, cs-LG, cs.LG  
 Keyword Score: 10  
 Keywords: Fairness  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19165v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19165v1.pdf" filename="2403.19165v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19165v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19165v2.pdf" filename="2403.19165v2.pdf">Download PDF</button>
 
 ---
 
@@ -7576,14 +7576,14 @@ Primary Category: cs.RO
 Categories: cs-RO, cs.RO  
 Keyword Score: 10  
 Keywords: Stemming  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19886v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19886v1.pdf" filename="2403.19886v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19886v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19886v2.pdf" filename="2403.19886v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Multi-camera SLAM systems offer a plethora of advantages, primarily <b>stemming</b> from their capacity to amalgamate information from a broader field of view, thereby resulting in heightened robustness and improved localization accuracy. In this research, we present a significant extension and refinement of the state-of-the-art stereo SLAM system, known as ORB-SLAM2, with the objective of attaining even higher precision.To accomplish this objective, we commence by mapping measurements from all cameras onto a virtual camera termed BundledFrame. This virtual camera is meticulously engineered to seamlessly adapt to multi-camera configurations, facilitating the effective fusion of data captured from multiple cameras. Additionally, we harness extrinsic parameters in the bundle adjustment (BA) process to achieve precise trajectory estimation.Furthermore, we conduct an extensive analysis of the role of bundle adjustment (BA) in the context of multi-camera scenarios, delving into its impact on tracking, local mapping, and global optimization. Our experimental evaluation entails comprehensive comparisons between ground truth data and the state-of-the-art SLAM system. To rigorously assess the system's performance, we utilize the EuRoC datasets. The consistent results of our evaluations demonstrate the superior accuracy of our system in comparison to existing approaches.
+Multi-camera SLAM systems offer a plethora of advantages, primarily <b>stemming</b> from their capacity to amalgamate information from a broader field of view, thereby resulting in heightened robustness and improved localization accuracy. In this research, we present a significant extension and refinement of the state-of-the-art stereo SLAM system, known as ORB-SLAM2, with the objective of attaining even higher precision. To accomplish this objective, we commence by mapping measurements from all cameras onto a virtual camera termed BundledFrame. This virtual camera is meticulously engineered to seamlessly adapt to multi-camera configurations, facilitating the effective fusion of data captured from multiple cameras. Additionally, we harness extrinsic parameters in the bundle adjustment (BA) process to achieve precise trajectory estimation.Furthermore, we conduct an extensive analysis of the role of bundle adjustment (BA) in the context of multi-camera scenarios, delving into its impact on tracking, local mapping, and global optimization. Our experimental evaluation entails comprehensive comparisons between ground truth data and the state-of-the-art SLAM system. To rigorously assess the system's performance, we utilize the EuRoC datasets. The consistent results of our evaluations demonstrate the superior accuracy of our system in comparison to existing approaches.
 
 {{</citation>}}
 
@@ -9152,14 +9152,14 @@ Primary Category: math.NA
 Categories: cs-NA, math-NA, math.NA, physics-flu-dyn  
 Keyword Score: 3  
 Keywords: Benchmarking  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19298v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19298v1.pdf" filename="2403.19298v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19298v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19298v2.pdf" filename="2403.19298v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-In this paper, we present a unified nonequilibrium model of continuum mechanics for compressible multiphase flows. The model, which is formulated within the framework of Symmetric Hyperbolic Thermodynamically Compatible (SHTC) equations, can describe the arbitrary number of phases that can be heat-conducting inviscid and viscous fluids}, as well as elastoplastic solids. The phases are allowed to have different velocities, pressures, temperatures, and shear stresses, while the material interfaces are treated as diffuse interfaces with the volume fraction playing the role of the interface field. To relate our model to other multiphase approaches, we reformulate the SHTC governing equations in terms of the phase state parameters and put them in the form of Baer-Nunziato-type models. It is the Baer-Nunziato form of the SHTC equations which is then solved numerically using a robust second-order path-conservative MUSCL-Hancock finite volume method on Cartesian meshes. Due to the fact that the obtained governing equations are very challenging, we restrict our numerical examples to a simplified version of the model, focusing on the isentropic limit for three-phase mixtures. To address the stiffness properties of the relaxation source terms present in the model, the implemented scheme incorporates a semi-analytical time integration method specifically designed for the non-linear stiff source terms governing the strain relaxation. The validation process involves a wide range of <b>benchmarks</b> and several applications for compressible multiphase problems. Notably, results are presented for multiphase flows in all the relaxation limit cases of the model, including inviscid and viscous Newtonian fluids, as well as non-linear hyperelastic and elastoplastic solids.
+In this paper, we present a unified nonequilibrium model of continuum mechanics for compressible multiphase flows. The model, which is formulated within the framework of Symmetric Hyperbolic Thermodynamically Compatible (SHTC) equations, can describe the arbitrary number of phases that can be heat-conducting inviscid and viscous fluids, as well as elastoplastic solids. The phases are allowed to have different velocities, pressures, temperatures, and shear stresses, while the material interfaces are treated as diffuse interfaces with the volume fraction playing the role of the interface field. To relate our model to other multiphase approaches, we reformulate the SHTC governing equations in terms of the phase state parameters and put them in the form of Baer-Nunziato-type models. It is the Baer-Nunziato form of the SHTC equations which is then solved numerically using a robust second-order path-conservative MUSCL-Hancock finite volume method on Cartesian meshes. Due to the fact that the obtained governing equations are very challenging, we restrict our numerical examples to a simplified version of the model, focusing on the isentropic limit for three-phase mixtures. To address the stiffness properties of the relaxation source terms present in the model, the implemented scheme incorporates a semi-analytical time integration method specifically designed for the non-linear stiff source terms governing the strain relaxation. The validation process involves a wide range of <b>benchmarks</b> and several applications for compressible multiphase problems. Notably, results are presented for multiphase flows in all the relaxation limit cases of the model, including inviscid and viscous Newtonian fluids, as well as non-linear hyperelastic and elastoplastic solids.
 
 {{</citation>}}
 
@@ -9269,14 +9269,14 @@ Primary Category: cs.HC
 Categories: cs-HC, cs.HC  
 Keyword Score: 30  
 Keywords: Claude, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19506v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19506v1.pdf" filename="2403.19506v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19506v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19506v2.pdf" filename="2403.19506v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-This position paper argues that <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> constitute promising yet underutilized academic reading companions capable of enhancing learning. We detail an exploratory study examining <b>Claude.ai</b> from Anthropic, an <b>LLM-based</b> interactive assistant that helps students comprehend complex qualitative literature content. The study compares quantitative survey data and qualitative interviews assessing outcomes between a control group and an experimental group leveraging <b>Claude.ai</b> over a semester across two graduate courses. Initial findings demonstrate tangible improvements in reading comprehension and engagement among participants using the AI agent versus unsupported independent study. However, there is potential for overreliance and ethical considerations that warrant continued investigation. By documenting an early integration of an <b>LLM</b> reading companion into an educational context, this work contributes pragmatic insights to guide development of synthetic personae supporting learning. Broader impacts compel policy and industry actions to uphold responsible design in order to maximize benefits of AI integration while prioritizing student wellbeing.
+This position paper argues that <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> constitute promising yet underutilized academic reading companions capable of enhancing learning. We detail an exploratory study examining <b>Claude</b> from Anthropic, an <b>LLM-based</b> interactive assistant that helps students comprehend complex qualitative literature content. The study compares quantitative survey data and qualitative interviews assessing outcomes between a control group and an experimental group leveraging <b>Claude</b> over a semester across two graduate courses. Initial findings demonstrate tangible improvements in reading comprehension and engagement among participants using the AI agent versus unsupported independent study. However, there is potential for overreliance and ethical considerations that warrant continued investigation. By documenting an early integration of an <b>LLM</b> reading companion into an educational context, this work contributes pragmatic insights to guide development of synthetic personae supporting learning. Broader impacts compel policy and industry actions to uphold responsible design in order to maximize benefits of AI integration while prioritizing student wellbeing.
 
 {{</citation>}}
 
@@ -10036,8 +10036,8 @@ Primary Category: cs.GR
 Categories: cs-GR, cs.GR  
 Keyword Score: 20  
 Keywords: Simulation, Simulator  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19272v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19272v1.pdf" filename="2403.19272v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19272v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19272v2.pdf" filename="2403.19272v2.pdf">Download PDF</button>
 
 ---
 
