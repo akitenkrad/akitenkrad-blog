@@ -2484,8 +2484,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 20  
 Keywords: Unsupervised Learning, Dependency Parsing  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19183v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19183v1.pdf" filename="2403.19183v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19183v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19183v2.pdf" filename="2403.19183v2.pdf">Download PDF</button>
 
 ---
 
@@ -4001,8 +4001,8 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs.CV  
 Keyword Score: 30  
 Keywords: Fine-tuning, Transfer Learning, Text2image  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19866v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19866v1.pdf" filename="2403.19866v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19866v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19866v2.pdf" filename="2403.19866v2.pdf">Download PDF</button>
 
 ---
 
@@ -5436,8 +5436,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 10  
 Keywords: Diffusion Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19428v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19428v1.pdf" filename="2403.19428v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19428v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19428v2.pdf" filename="2403.19428v2.pdf">Download PDF</button>
 
 ---
 
@@ -6385,8 +6385,8 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-LG, cs.LG, eess-SP  
 Keyword Score: 23  
 Keywords: Graph, Graph Neural Network, Convolution  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19800v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19800v1.pdf" filename="2403.19800v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19800v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19800v2.pdf" filename="2403.19800v2.pdf">Download PDF</button>
 
 ---
 
@@ -9992,8 +9992,8 @@ Primary Category: cs.IT
 Categories: cs-IT, cs.IT, math-IT  
 Keyword Score: 3  
 Keywords: Graph  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19266v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19266v1.pdf" filename="2403.19266v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2403.19266v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2403.19266v2.pdf" filename="2403.19266v2.pdf">Download PDF</button>
 
 ---
 

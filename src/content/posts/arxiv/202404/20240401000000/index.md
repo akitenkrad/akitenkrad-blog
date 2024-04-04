@@ -1004,7 +1004,7 @@ Narrative <b>reasoning</b> relies on the understanding of eventualities in story
 
 {{<citation>}}
 
-Nick Mecklenburg, Yiyou Lin, Xiaoxiao Li, Daniel Holstein, Leonardo Nunes, Sara Malvar, Bruno Silva, Ranveer Chandra, Vijay Aski, Pavan Kumar Reddy Yannam, Tolga Aktas. (2024)  
+Nick Mecklenburg, Yiyou Lin, Xiaoxiao Li, Daniel Holstein, Leonardo Nunes, Sara Malvar, Bruno Silva, Ranveer Chandra, Vijay Aski, Pavan Kumar Reddy Yannam, Tolga Aktas, Todd Hendry. (2024)  
 **Injecting New Knowledge into Large Language Models via Supervised Fine-Tuning**
 <br/>
 <button class="copy-to-clipboard" title="Injecting New Knowledge into Large Language Models via Supervised Fine-Tuning" index=6>
@@ -1023,8 +1023,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 80  
 Keywords: Fine-tuning, Out-of-domain, Supervised Learning, GPT, GPT-4, Domain Adaptation, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.00213v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.00213v1.pdf" filename="2404.00213v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.00213v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.00213v2.pdf" filename="2404.00213v2.pdf">Download PDF</button>
 
 ---
 
@@ -1233,8 +1233,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs.CL  
 Keyword Score: 60  
 Keywords: GPT-3, GPT-3.5, Gemini, LLaMA, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.00267v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.00267v1.pdf" filename="2404.00267v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.00267v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.00267v2.pdf" filename="2404.00267v2.pdf">Download PDF</button>
 
 ---
 
@@ -2707,8 +2707,8 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-CV, cs-LG, cs.LG  
 Keyword Score: 20  
 Keywords: Continual Learning, Fine-tuning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.00228v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.00228v2.pdf" filename="2404.00228v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.00228v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.00228v3.pdf" filename="2404.00228v3.pdf">Download PDF</button>
 
 ---
 
@@ -5147,7 +5147,7 @@ In traditional quantitative trading practice, navigating the complicated and dyn
 
 {{<citation>}}
 
-Hongqiu Wu, Yan Wang, Xingyuan Liu, Hai Zhao, Min Zhang. (2024)  
+Hongqiu Wu, Y. Wang, Xingyuan Liu, Hai Zhao, Min Zhang. (2024)  
 **Instruction-Driven Game Engines on Large Language Models**
 <br/>
 <button class="copy-to-clipboard" title="Instruction-Driven Game Engines on Large Language Models" index=123>
@@ -5166,8 +5166,8 @@ Primary Category: cs.AI
 Categories: cs-AI, cs.AI  
 Keyword Score: 30  
 Keywords: Large Language Model, Large Language Model, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.00276v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.00276v1.pdf" filename="2404.00276v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.00276v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.00276v2.pdf" filename="2404.00276v2.pdf">Download PDF</button>
 
 ---
 
