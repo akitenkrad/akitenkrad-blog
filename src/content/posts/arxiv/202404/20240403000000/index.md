@@ -23,12 +23,12 @@ math: true
 
 - [astro-ph.IM (1)](#astro-phim-1)
 - [cs.AI (3)](#csai-3)
-- [cs.CC (1)](#cscc-1)
 - [cs.CE (1)](#csce-1)
 - [cs.CL (57)](#cscl-57)
 - [cs.CR (6)](#cscr-6)
 - [cs.CV (89)](#cscv-89)
 - [cs.DC (1)](#csdc-1)
+- [cs.DS (1)](#csds-1)
 - [cs.ET (1)](#cset-1)
 - [cs.HC (5)](#cshc-5)
 - [cs.IR (7)](#csir-7)
@@ -10422,7 +10422,7 @@ Evolutionary multiobjective optimization has witnessed remarkable progress durin
 {{</citation>}}
 
 
-## cs.CC (1)
+## cs.DS (1)
 
 
 
@@ -10445,8 +10445,8 @@ Wei Liu, Jian-Jia Chen, Yongjie Yang. (2024)
 </div>
 
 ---
-Primary Category: cs.CC  
-Categories: cs-CC, cs.CC  
+Primary Category: cs.DS  
+Categories: cs-CC, cs-DS, cs.DS  
 Keyword Score: 3  
 Keywords: Graph  
 <a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.01022v2" target="_blank" >Paper Link</a>
