@@ -1443,14 +1443,14 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-IR, cs-LG, cs.CL  
 Keyword Score: 40  
 Keywords: Mathematical Reasoning, Reasoning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.00450v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.00450v1.pdf" filename="2404.00450v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.00450v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.00450v2.pdf" filename="2404.00450v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-Recent advancements in integrating external tools with <b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> have opened new frontiers, with applications in <b>mathematical</b> <b>reasoning,</b> code generators, and smart assistants. However, existing methods, relying on simple one-time retrieval strategies, fall short on effectively and accurately shortlisting relevant tools. This paper introduces a novel \modelname (\modelmeaning) approach, encompassing ``Plan-and-Retrieve (P\&R)'' and ``Edit-and-Ground (E\&G)'' paradigms. The P\&R paradigm consists of a neural retrieval module for shortlisting relevant tools and an <b>LLM-based</b> query planner that decomposes complex queries into actionable tasks, enhancing the effectiveness of tool utilization. The E\&G paradigm utilizes <b>LLMs</b> to enrich tool descriptions based on user scenarios, bridging the gap between user queries and tool functionalities. Experiment results demonstrate that these paradigms significantly improve the recall and NDCG in tool retrieval tasks, significantly surpassing current state-of-the-art models.
+Recent advancements in integrating external tools with <b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> have opened new frontiers, with applications in <b>mathematical</b> <b>reasoning,</b> code generators, and smart assistants. However, existing methods, relying on simple one-time retrieval strategies, fall short on effectively and accurately shortlisting relevant tools. This paper introduces a novel PLUTO (Planning, Learning, and Understanding for TOols) approach, encompassing `Plan-and-Retrieve (P&R)` and `Edit-and-Ground (E&G)` paradigms. The P&R paradigm consists of a neural retrieval module for shortlisting relevant tools and an <b>LLM-based</b> query planner that decomposes complex queries into actionable tasks, enhancing the effectiveness of tool utilization. The E&G paradigm utilizes <b>LLMs</b> to enrich tool descriptions based on user scenarios, bridging the gap between user queries and tool functionalities. Experiment results demonstrate that these paradigms significantly improve the recall and NDCG in tool retrieval tasks, significantly surpassing current state-of-the-art models.
 
 {{</citation>}}
 

@@ -2726,8 +2726,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs-LG, cs.CV, eess-IV  
 Keyword Score: 20  
 Keywords: Unsupervised Learning, Unsupervised Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.01518v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.01518v1.pdf" filename="2404.01518v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.01518v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.01518v2.pdf" filename="2404.01518v2.pdf">Download PDF</button>
 
 ---
 
@@ -3251,8 +3251,8 @@ Primary Category: cs.CV
 Categories: cs-CV, cs.CV  
 Keyword Score: 13  
 Keywords: Benchmarking, Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.01064v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.01064v1.pdf" filename="2404.01064v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.01064v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.01064v2.pdf" filename="2404.01064v2.pdf">Download PDF</button>
 
 ---
 
