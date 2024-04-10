@@ -50,6 +50,7 @@ math: true
 - [math.NA (2)](#mathna-2)
 - [math.OC (1)](#mathoc-1)
 - [nlin.PS (1)](#nlinps-1)
+- [physics.data-an (1)](#physicsdata-an-1)
 - [stat.ME (1)](#statme-1)
 - [stat.ML (4)](#statml-4)
 
@@ -971,7 +972,7 @@ $(function() {
 
 
 
-### (1/13 | 1/175) Increased LLM Vulnerabilities from Fine-tuning and Quantization (Divyanshu Kumar et al., 2024)
+### (1/13 | 1/176) Increased LLM Vulnerabilities from Fine-tuning and Quantization (Divyanshu Kumar et al., 2024)
 
 {{<citation>}}
 
@@ -1006,7 +1007,7 @@ Keywords: Fine-tuning, Fine-tuning, Foundation Model, Quantization, LLaMA, Mistr
 {{</citation>}}
 
 
-### (2/13 | 2/175) AuditGPT: Auditing Smart Contracts with ChatGPT (Shihao Xia et al., 2024)
+### (2/13 | 2/176) AuditGPT: Auditing Smart Contracts with ChatGPT (Shihao Xia et al., 2024)
 
 {{<citation>}}
 
@@ -1041,7 +1042,7 @@ To govern smart contracts running on Ethereum, multiple Ethereum Request for Com
 {{</citation>}}
 
 
-### (3/13 | 3/175) Evaluating Adversarial Robustness: A Comparison Of FGSM, Carlini-Wagner Attacks, And The Role of Distillation as Defense Mechanism (Trilokesh Ranjan Sarkar et al., 2024)
+### (3/13 | 3/176) Evaluating Adversarial Robustness: A Comparison Of FGSM, Carlini-Wagner Attacks, And The Role of Distillation as Defense Mechanism (Trilokesh Ranjan Sarkar et al., 2024)
 
 {{<citation>}}
 
@@ -1076,7 +1077,7 @@ This technical report delves into an in-depth exploration of <b>adversarial</b> 
 {{</citation>}}
 
 
-### (4/13 | 4/175) Re-pseudonymization Strategies for Smart Meter Data Are Not Robust to Deep Learning Profiling Attacks (Ana-Maria Cretu et al., 2024)
+### (4/13 | 4/176) Re-pseudonymization Strategies for Smart Meter Data Are Not Robust to Deep Learning Profiling Attacks (Ana-Maria Cretu et al., 2024)
 
 {{<citation>}}
 
@@ -1111,7 +1112,7 @@ Smart meters, devices measuring the electricity and gas consumption of a househo
 {{</citation>}}
 
 
-### (5/13 | 5/175) Reliable Feature Selection for Adversarially Robust Cyber-Attack Detection (João Vitorino et al., 2024)
+### (5/13 | 5/176) Reliable Feature Selection for Adversarially Robust Cyber-Attack Detection (João Vitorino et al., 2024)
 
 {{<citation>}}
 
@@ -1146,7 +1147,7 @@ The growing cybersecurity threats make it essential to use high-quality data to 
 {{</citation>}}
 
 
-### (6/13 | 6/175) Smart Contract Languages: a comparative analysis (Massimo Bartoletti et al., 2024)
+### (6/13 | 6/176) Smart Contract Languages: a comparative analysis (Massimo Bartoletti et al., 2024)
 
 {{<citation>}}
 
@@ -1181,7 +1182,7 @@ Decentralized blockchain platforms support the secure exchange of assets among u
 {{</citation>}}
 
 
-### (7/13 | 7/175) Reconfigurable and Scalable Honeynet for Cyber-Physical Systems (Luís Sousa et al., 2024)
+### (7/13 | 7/176) Reconfigurable and Scalable Honeynet for Cyber-Physical Systems (Luís Sousa et al., 2024)
 
 {{<citation>}}
 
@@ -1216,7 +1217,7 @@ Industrial Control Systems (ICS) constitute the backbone of contemporary industr
 {{</citation>}}
 
 
-### (8/13 | 8/175) Watermark-based Detection and Attribution of AI-Generated Content (Zhengyuan Jiang et al., 2024)
+### (8/13 | 8/176) Watermark-based Detection and Attribution of AI-Generated Content (Zhengyuan Jiang et al., 2024)
 
 {{<citation>}}
 
@@ -1251,7 +1252,7 @@ Several companies--such as Google, Microsoft, and OpenAI--have deployed techniqu
 {{</citation>}}
 
 
-### (9/13 | 9/175) Precision Guided Approach to Mitigate Data Poisoning Attacks in Federated Learning (K Naveen Kumar et al., 2024)
+### (9/13 | 9/176) Precision Guided Approach to Mitigate Data Poisoning Attacks in Federated Learning (K Naveen Kumar et al., 2024)
 
 {{<citation>}}
 
@@ -1286,7 +1287,7 @@ Keywords: Federated Learning
 {{</citation>}}
 
 
-### (10/13 | 10/175) You Can Use But Cannot Recognize: Preserving Visual Privacy in Deep Neural Networks (Qiushi Li et al., 2024)
+### (10/13 | 10/176) You Can Use But Cannot Recognize: Preserving Visual Privacy in Deep Neural Networks (Qiushi Li et al., 2024)
 
 {{<citation>}}
 
@@ -1321,7 +1322,7 @@ Image data have been extensively used in Deep Neural Network (DNN) tasks in vari
 {{</citation>}}
 
 
-### (11/13 | 11/175) From Theory to Comprehension: A Comparative Study of Differential Privacy and $k$-Anonymity (Saskia Nuñez von Voigt et al., 2024)
+### (11/13 | 11/176) From Theory to Comprehension: A Comparative Study of Differential Privacy and $k$-Anonymity (Saskia Nuñez von Voigt et al., 2024)
 
 {{<citation>}}
 
@@ -1356,7 +1357,7 @@ The notion of $\varepsilon$-differential privacy is a widely used concept of pro
 {{</citation>}}
 
 
-### (12/13 | 12/175) VELLET: Verifiable Embedded Wallet for Securing Authenticity and Integrity (Hiroki Watanabe et al., 2024)
+### (12/13 | 12/176) VELLET: Verifiable Embedded Wallet for Securing Authenticity and Integrity (Hiroki Watanabe et al., 2024)
 
 {{<citation>}}
 
@@ -1391,7 +1392,7 @@ The blockchain ecosystem, particularly with the rise of Web3 and Non-Fungible To
 {{</citation>}}
 
 
-### (13/13 | 13/175) PrivShape: Extracting Shapes in Time Series under User-Level Local Differential Privacy (Yulian Mao et al., 2024)
+### (13/13 | 13/176) PrivShape: Extracting Shapes in Time Series under User-Level Local Differential Privacy (Yulian Mao et al., 2024)
 
 {{<citation>}}
 
@@ -1430,7 +1431,7 @@ Time series have numerous applications in finance, healthcare, IoT, and smart ci
 
 
 
-### (1/27 | 14/175) Deciphering Political Entity Sentiment in News with Large Language Models: Zero-Shot and Few-Shot Strategies (Alapan Kuila et al., 2024)
+### (1/27 | 14/176) Deciphering Political Entity Sentiment in News with Large Language Models: Zero-Shot and Few-Shot Strategies (Alapan Kuila et al., 2024)
 
 {{<citation>}}
 
@@ -1465,7 +1466,7 @@ Keywords: Few-shot, Fine-tuning, Zero-shot, BERT, Sentiment Analysis, In-context
 {{</citation>}}
 
 
-### (2/27 | 15/175) Assisting humans in complex comparisons: automated information comparison at scale (Truman Yuen et al., 2024)
+### (2/27 | 15/176) Assisting humans in complex comparisons: automated information comparison at scale (Truman Yuen et al., 2024)
 
 {{<citation>}}
 
@@ -1500,7 +1501,7 @@ Generative <b>Large</b> <b>Language</b> <b>Models</b> enable efficient analytics
 {{</citation>}}
 
 
-### (3/27 | 16/175) Teaching Llama a New Language Through Cross-Lingual Knowledge Transfer (Hele-Andra Kuulmets et al., 2024)
+### (3/27 | 16/176) Teaching Llama a New Language Through Cross-Lingual Knowledge Transfer (Hele-Andra Kuulmets et al., 2024)
 
 {{<citation>}}
 
@@ -1535,7 +1536,7 @@ This paper explores cost-efficient methods to adapt pretrained <b>Large</b> <b>L
 {{</citation>}}
 
 
-### (4/27 | 17/175) Extract, Define, Canonicalize: An LLM-based Framework for Knowledge Graph Construction (Bowen Zhang et al., 2024)
+### (4/27 | 17/176) Extract, Define, Canonicalize: An LLM-based Framework for Knowledge Graph Construction (Bowen Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -1570,7 +1571,7 @@ In this work, we are interested in automated methods for <b>knowledge</b> <b>gra
 {{</citation>}}
 
 
-### (5/27 | 18/175) Simple Techniques for Enhancing Sentence Embeddings in Generative Language Models (Bowen Zhang et al., 2024)
+### (5/27 | 18/176) Simple Techniques for Enhancing Sentence Embeddings in Generative Language Models (Bowen Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -1605,7 +1606,7 @@ Keywords: Fine-tuning, LLaMA, Mistral, Sentence Embedding, Large Language Model,
 {{</citation>}}
 
 
-### (6/27 | 19/175) Cleared for Takeoff? Compositional & Conditional Reasoning may be the Achilles Heel to (Flight-Booking) Language Agents (Harsh Kohli et al., 2024)
+### (6/27 | 19/176) Cleared for Takeoff? Compositional & Conditional Reasoning may be the Achilles Heel to (Flight-Booking) Language Agents (Harsh Kohli et al., 2024)
 
 {{<citation>}}
 
@@ -1640,7 +1641,7 @@ The rapid progress of <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> h
 {{</citation>}}
 
 
-### (7/27 | 20/175) FFN-SkipLLM: A Hidden Gem for Autoregressive Decoding with Adaptive Feed Forward Skipping (Ajay Jaiswal et al., 2024)
+### (7/27 | 20/176) FFN-SkipLLM: A Hidden Gem for Autoregressive Decoding with Adaptive Feed Forward Skipping (Ajay Jaiswal et al., 2024)
 
 {{<citation>}}
 
@@ -1675,7 +1676,7 @@ Autoregressive <b>Large</b> <b>Language</b> <b>Models</b> (e.g., <b>LLaMa,</b> <
 {{</citation>}}
 
 
-### (8/27 | 21/175) SEME at SemEval-2024 Task 2: Comparing Masked and Generative Language Models on Natural Language Inference for Clinical Trials (Mathilde Aguiar et al., 2024)
+### (8/27 | 21/176) SEME at SemEval-2024 Task 2: Comparing Masked and Generative Language Models on Natural Language Inference for Clinical Trials (Mathilde Aguiar et al., 2024)
 
 {{<citation>}}
 
@@ -1710,7 +1711,7 @@ This paper describes our submission to Task 2 of SemEval-2024: Safe Biomedical <
 {{</citation>}}
 
 
-### (9/27 | 22/175) BuDDIE: A Business Document Dataset for Multi-task Information Extraction (Ran Zmigrod et al., 2024)
+### (9/27 | 22/176) BuDDIE: A Business Document Dataset for Multi-task Information Extraction (Ran Zmigrod et al., 2024)
 
 {{<citation>}}
 
@@ -1745,7 +1746,7 @@ The field of visually rich <b>document</b> <b>understanding</b> (VRDU) aims to s
 {{</citation>}}
 
 
-### (10/27 | 23/175) Unlocking Parameter-Efficient Fine-Tuning for Low-Resource Language Translation (Tong Su et al., 2024)
+### (10/27 | 23/176) Unlocking Parameter-Efficient Fine-Tuning for Low-Resource Language Translation (Tong Su et al., 2024)
 
 {{<citation>}}
 
@@ -1780,7 +1781,7 @@ Parameter-efficient <b>fine-tuning</b> (PEFT) methods are increasingly vital in 
 {{</citation>}}
 
 
-### (11/27 | 24/175) Investigating the Robustness of Modelling Decisions for Few-Shot Cross-Topic Stance Detection: A Preregistered Study (Myrthe Reuver et al., 2024)
+### (11/27 | 24/176) Investigating the Robustness of Modelling Decisions for Few-Shot Cross-Topic Stance Detection: A Preregistered Study (Myrthe Reuver et al., 2024)
 
 {{<citation>}}
 
@@ -1815,7 +1816,7 @@ For a viewpoint-diverse news recommender, identifying whether two news articles 
 {{</citation>}}
 
 
-### (12/27 | 25/175) Scope Ambiguities in Large Language Models (Gaurav Kamath et al., 2024)
+### (12/27 | 25/176) Scope Ambiguities in Large Language Models (Gaurav Kamath et al., 2024)
 
 {{<citation>}}
 
@@ -1850,7 +1851,7 @@ Sentences containing multiple semantic operators with overlapping scope often cr
 {{</citation>}}
 
 
-### (13/27 | 26/175) Do Sentence Transformers Learn Quasi-Geospatial Concepts from General Text? (Ilya Ilyankou et al., 2024)
+### (13/27 | 26/176) Do Sentence Transformers Learn Quasi-Geospatial Concepts from General Text? (Ilya Ilyankou et al., 2024)
 
 {{<citation>}}
 
@@ -1885,7 +1886,7 @@ Sentence <b>transformers</b> are language models designed to perform semantic se
 {{</citation>}}
 
 
-### (14/27 | 27/175) Data Augmentation with In-Context Learning and Comparative Evaluation in Math Word Problem Solving (Gulsum Yigit et al., 2024)
+### (14/27 | 27/176) Data Augmentation with In-Context Learning and Comparative Evaluation in Math Word Problem Solving (Gulsum Yigit et al., 2024)
 
 {{<citation>}}
 
@@ -1920,7 +1921,7 @@ Math Word Problem (MWP) solving presents a challenging task in Natural Language 
 {{</citation>}}
 
 
-### (15/27 | 28/175) Forget NLI, Use a Dictionary: Zero-Shot Topic Classification for Low-Resource Languages with Application to Luxembourgish (Fred Philippy et al., 2024)
+### (15/27 | 28/176) Forget NLI, Use a Dictionary: Zero-Shot Topic Classification for Low-Resource Languages with Application to Luxembourgish (Fred Philippy et al., 2024)
 
 {{<citation>}}
 
@@ -1955,7 +1956,7 @@ In NLP, <b>zero-shot</b> classification (ZSC) is the task of assigning labels to
 {{</citation>}}
 
 
-### (16/27 | 29/175) SAAS: Solving Ability Amplification Strategy for Enhanced Mathematical Reasoning in Large Language Models (Hyeonwoo Kim et al., 2024)
+### (16/27 | 29/176) SAAS: Solving Ability Amplification Strategy for Enhanced Mathematical Reasoning in Large Language Models (Hyeonwoo Kim et al., 2024)
 
 {{<citation>}}
 
@@ -1990,7 +1991,7 @@ This study presents a novel learning approach designed to enhance both <b>mathem
 {{</citation>}}
 
 
-### (17/27 | 30/175) Towards Realistic Few-Shot Relation Extraction: A New Meta Dataset and Evaluation (Fahmida Alam et al., 2024)
+### (17/27 | 30/176) Towards Realistic Few-Shot Relation Extraction: A New Meta Dataset and Evaluation (Fahmida Alam et al., 2024)
 
 {{<citation>}}
 
@@ -2025,7 +2026,7 @@ We introduce a meta dataset for <b>few-shot</b> <b>relation</b> <b>extraction,</
 {{</citation>}}
 
 
-### (18/27 | 31/175) Verifiable by Design: Aligning Language Models to Quote from Pre-Training Data (Jingyu Zhang et al., 2024)
+### (18/27 | 31/176) Verifiable by Design: Aligning Language Models to Quote from Pre-Training Data (Jingyu Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -2060,7 +2061,7 @@ For humans to trust the fluent generations of <b>large</b> <b>language</b> <b>mo
 {{</citation>}}
 
 
-### (19/27 | 32/175) Benchmarking and Improving Compositional Generalization of Multi-aspect Controllable Text Generation (Tianqi Zhong et al., 2024)
+### (19/27 | 32/176) Benchmarking and Improving Compositional Generalization of Multi-aspect Controllable Text Generation (Tianqi Zhong et al., 2024)
 
 {{<citation>}}
 
@@ -2095,7 +2096,7 @@ Compositional generalization, representing the model's ability to generate <b>te
 {{</citation>}}
 
 
-### (20/27 | 33/175) Chinese Tiny LLM: Pretraining a Chinese-Centric Large Language Model (Xinrun Du et al., 2024)
+### (20/27 | 33/176) Chinese Tiny LLM: Pretraining a Chinese-Centric Large Language Model (Xinrun Du et al., 2024)
 
 {{<citation>}}
 
@@ -2118,8 +2119,8 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs.CL  
 Keyword Score: 23  
 Keywords: Benchmarking, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.04167v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.04167v2.pdf" filename="2404.04167v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.04167v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.04167v3.pdf" filename="2404.04167v3.pdf">Download PDF</button>
 
 ---
 
@@ -2130,7 +2131,7 @@ In this study, we introduce CT-LLM, a 2B <b>large</b> <b>language</b> <b>model</
 {{</citation>}}
 
 
-### (21/27 | 34/175) CLUE: A Clinical Language Understanding Evaluation for LLMs (Amin Dada et al., 2024)
+### (21/27 | 34/176) CLUE: A Clinical Language Understanding Evaluation for LLMs (Amin Dada et al., 2024)
 
 {{<citation>}}
 
@@ -2165,7 +2166,7 @@ Keywords: Benchmarking, Large Language Model, Large Language Model
 {{</citation>}}
 
 
-### (22/27 | 35/175) Assessing the quality of information extraction (Filip Seitl et al., 2024)
+### (22/27 | 35/176) Assessing the quality of information extraction (Filip Seitl et al., 2024)
 
 {{<citation>}}
 
@@ -2200,7 +2201,7 @@ Advances in <b>large</b> <b>language</b> <b>models</b> have notably enhanced the
 {{</citation>}}
 
 
-### (23/27 | 36/175) Willkommens-Merkel, Chaos-Johnson, and Tore-Klose: Modeling the Evaluative Meaning of German Personal Name Compounds (Annerose Eichel et al., 2024)
+### (23/27 | 36/176) Willkommens-Merkel, Chaos-Johnson, and Tore-Klose: Modeling the Evaluative Meaning of German Personal Name Compounds (Annerose Eichel et al., 2024)
 
 {{<citation>}}
 
@@ -2235,7 +2236,7 @@ We present a comprehensive computational study of the under-investigated phenome
 {{</citation>}}
 
 
-### (24/27 | 37/175) How Lexical is Bilingual Lexicon Induction? (Harsh Kohli et al., 2024)
+### (24/27 | 37/176) How Lexical is Bilingual Lexicon Induction? (Harsh Kohli et al., 2024)
 
 {{<citation>}}
 
@@ -2270,7 +2271,7 @@ In contemporary machine learning approaches to bilingual lexicon induction (BLI)
 {{</citation>}}
 
 
-### (25/27 | 38/175) Social Skill Training with Large Language Models (Diyi Yang et al., 2024)
+### (25/27 | 38/176) Social Skill Training with Large Language Models (Diyi Yang et al., 2024)
 
 {{<citation>}}
 
@@ -2305,7 +2306,7 @@ People rely on social skills like conflict resolution to communicate effectively
 {{</citation>}}
 
 
-### (26/27 | 39/175) BEAR: A Unified Framework for Evaluating Relational Knowledge in Causal and Masked Language Models (Jacek Wiland et al., 2024)
+### (26/27 | 39/176) BEAR: A Unified Framework for Evaluating Relational Knowledge in Causal and Masked Language Models (Jacek Wiland et al., 2024)
 
 {{<citation>}}
 
@@ -2340,7 +2341,7 @@ Knowledge probing assesses to which degree a language model (LM) has successfull
 {{</citation>}}
 
 
-### (27/27 | 40/175) A Bi-consolidating Model for Joint Relational Triple Extraction (Xiaocheng Luo et al., 2024)
+### (27/27 | 40/176) A Bi-consolidating Model for Joint Relational Triple Extraction (Xiaocheng Luo et al., 2024)
 
 {{<citation>}}
 
@@ -2379,7 +2380,7 @@ Current methods to extract relational triples directly make a prediction based o
 
 
 
-### (1/35 | 41/175) Enhancing Breast Cancer Diagnosis in Mammography: Evaluation and Integration of Convolutional Neural Networks and Explainable AI (Maryam Ahmed et al., 2024)
+### (1/35 | 41/176) Enhancing Breast Cancer Diagnosis in Mammography: Evaluation and Integration of Convolutional Neural Networks and Explainable AI (Maryam Ahmed et al., 2024)
 
 {{<citation>}}
 
@@ -2402,8 +2403,8 @@ Primary Category: cs.CV
 Categories: cs-AI, cs-CV, cs-LG, cs.CV, eess-IV  
 Keyword Score: 91  
 Keywords: Black Box, Convolution, Convolutional Neural Network, Convolutional Neural Network, Data Augmentation, Explainable AI, Fairness, Fine-tuning, Multi-modal, Multi-modal, Transfer Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.03892v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.03892v1.pdf" filename="2404.03892v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.03892v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.03892v2.pdf" filename="2404.03892v2.pdf">Download PDF</button>
 
 ---
 
@@ -2414,7 +2415,7 @@ The study introduces an integrated framework combining <b>Convolutional</b> <b>N
 {{</citation>}}
 
 
-### (2/35 | 42/175) Vision Transformers in Domain Adaptation and Generalization: A Study of Robustness (Shadi Alijani et al., 2024)
+### (2/35 | 42/176) Vision Transformers in Domain Adaptation and Generalization: A Study of Robustness (Shadi Alijani et al., 2024)
 
 {{<citation>}}
 
@@ -2449,7 +2450,7 @@ Deep learning models are often evaluated in scenarios where the <b>data</b> <b>d
 {{</citation>}}
 
 
-### (3/35 | 43/175) Koala: Key frame-conditioned long video-LLM (Reuben Tan et al., 2024)
+### (3/35 | 43/176) Koala: Key frame-conditioned long video-LLM (Reuben Tan et al., 2024)
 
 {{<citation>}}
 
@@ -2484,7 +2485,7 @@ Long video <b>question</b> <b>answering</b> is a challenging task that involves 
 {{</citation>}}
 
 
-### (4/35 | 44/175) Image-Text Co-Decomposition for Text-Supervised Semantic Segmentation (Ji-Jia Wu et al., 2024)
+### (4/35 | 44/176) Image-Text Co-Decomposition for Text-Supervised Semantic Segmentation (Ji-Jia Wu et al., 2024)
 
 {{<citation>}}
 
@@ -2519,7 +2520,7 @@ This paper addresses text-supervised semantic segmentation, aiming to learn a mo
 {{</citation>}}
 
 
-### (5/35 | 45/175) Dynamic Prompt Optimizing for Text-to-Image Generation (Wenyi Mo et al., 2024)
+### (5/35 | 45/176) Dynamic Prompt Optimizing for Text-to-Image Generation (Wenyi Mo et al., 2024)
 
 {{<citation>}}
 
@@ -2554,7 +2555,7 @@ Keywords: Diffusion Model, Online Reinforcement Learning, Reinforcement Learning
 {{</citation>}}
 
 
-### (6/35 | 46/175) Learning Correlation Structures for Vision Transformers (Manjin Kim et al., 2024)
+### (6/35 | 46/176) Learning Correlation Structures for Vision Transformers (Manjin Kim et al., 2024)
 
 {{<citation>}}
 
@@ -2589,7 +2590,7 @@ We introduce a new attention mechanism, dubbed structural <b>self-attention</b> 
 {{</citation>}}
 
 
-### (7/35 | 47/175) Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation (Zifu Wan et al., 2024)
+### (7/35 | 47/176) Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation (Zifu Wan et al., 2024)
 
 {{<citation>}}
 
@@ -2624,7 +2625,7 @@ Keywords: Vision Transformer, Convolutional Neural Network, Multi-modal, Transfo
 {{</citation>}}
 
 
-### (8/35 | 48/175) DiffOp-net: A Differential Operator-based Fully Convolutional Network for Unsupervised Deformable Image Registration (Jiong Wu, 2024)
+### (8/35 | 48/176) DiffOp-net: A Differential Operator-based Fully Convolutional Network for Unsupervised Deformable Image Registration (Jiong Wu, 2024)
 
 {{<citation>}}
 
@@ -2659,7 +2660,7 @@ Existing <b>unsupervised</b> <b>deformable</b> image registration methods usuall
 {{</citation>}}
 
 
-### (9/35 | 49/175) Who Evaluates the Evaluations? Objectively Scoring Text-to-Image Prompt Coherence Metrics with T2IScoreScore (TS2) (Michael Saxon et al., 2024)
+### (9/35 | 49/176) Who Evaluates the Evaluations? Objectively Scoring Text-to-Image Prompt Coherence Metrics with T2IScoreScore (TS2) (Michael Saxon et al., 2024)
 
 {{<citation>}}
 
@@ -2694,7 +2695,7 @@ With advances in the quality of <b>text-to-image</b> (T2I) models has come inter
 {{</citation>}}
 
 
-### (10/35 | 50/175) Robust Few-Shot Ensemble Learning with Focal Diversity-Based Pruning (Selim Furkan Tekin et al., 2024)
+### (10/35 | 50/176) Robust Few-Shot Ensemble Learning with Focal Diversity-Based Pruning (Selim Furkan Tekin et al., 2024)
 
 {{<citation>}}
 
@@ -2729,7 +2730,7 @@ This paper presents FusionShot, a focal diversity optimized <b>few-shot</b> <b>e
 {{</citation>}}
 
 
-### (11/35 | 51/175) Identity Decoupling for Multi-Subject Personalization of Text-to-Image Models (Sangwon Jang et al., 2024)
+### (11/35 | 51/176) Identity Decoupling for Multi-Subject Personalization of Text-to-Image Models (Sangwon Jang et al., 2024)
 
 {{<citation>}}
 
@@ -2764,7 +2765,7 @@ Keywords: Diffusion Model, Data Augmentation, Text2image
 {{</citation>}}
 
 
-### (12/35 | 52/175) Physical Property Understanding from Language-Embedded Feature Fields (Albert J. Zhai et al., 2024)
+### (12/35 | 52/176) Physical Property Understanding from Language-Embedded Feature Fields (Albert J. Zhai et al., 2024)
 
 {{<citation>}}
 
@@ -2799,7 +2800,7 @@ Can computers perceive the physical properties of objects solely through vision?
 {{</citation>}}
 
 
-### (13/35 | 53/175) RaSim: A Range-aware High-fidelity RGB-D Data Simulation Pipeline for Real-world Applications (Xingyu Liu et al., 2024)
+### (13/35 | 53/176) RaSim: A Range-aware High-fidelity RGB-D Data Simulation Pipeline for Real-world Applications (Xingyu Liu et al., 2024)
 
 {{<citation>}}
 
@@ -2834,7 +2835,7 @@ In robotic vision, a de-facto paradigm is to learn in simulated environments and
 {{</citation>}}
 
 
-### (14/35 | 54/175) Concept Weaver: Enabling Multi-Concept Fusion in Text-to-Image Models (Gihyun Kwon et al., 2024)
+### (14/35 | 54/176) Concept Weaver: Enabling Multi-Concept Fusion in Text-to-Image Models (Gihyun Kwon et al., 2024)
 
 {{<citation>}}
 
@@ -2869,7 +2870,7 @@ While there has been significant progress in customizing <b>text-to-image</b> ge
 {{</citation>}}
 
 
-### (15/35 | 55/175) Idea-2-3D: Collaborative LMM Agents Enable 3D Model Generation from Interleaved Multimodal Inputs (Junhao Chen et al., 2024)
+### (15/35 | 55/176) Idea-2-3D: Collaborative LMM Agents Enable 3D Model Generation from Interleaved Multimodal Inputs (Junhao Chen et al., 2024)
 
 {{<citation>}}
 
@@ -2904,7 +2905,7 @@ In this paper, we pursue a novel 3D AIGC setting: generating 3D content from IDE
 {{</citation>}}
 
 
-### (16/35 | 56/175) 3D Facial Expressions through Analysis-by-Neural-Synthesis (George Retsinas et al., 2024)
+### (16/35 | 56/176) 3D Facial Expressions through Analysis-by-Neural-Synthesis (George Retsinas et al., 2024)
 
 {{<citation>}}
 
@@ -2939,7 +2940,7 @@ While existing methods for 3D face <b>reconstruction</b> <b>from</b> in-the-wild
 {{</citation>}}
 
 
-### (17/35 | 57/175) ClickDiffusion: Harnessing LLMs for Interactive Precise Image Editing (Alec Helbling et al., 2024)
+### (17/35 | 57/176) ClickDiffusion: Harnessing LLMs for Interactive Precise Image Editing (Alec Helbling et al., 2024)
 
 {{<citation>}}
 
@@ -2974,7 +2975,7 @@ Recently, researchers have proposed powerful systems for generating and manipula
 {{</citation>}}
 
 
-### (18/35 | 58/175) Label Propagation for Zero-shot Classification with Vision-Language Models (Vladan Stojnić et al., 2024)
+### (18/35 | 58/176) Label Propagation for Zero-shot Classification with Vision-Language Models (Vladan Stojnić et al., 2024)
 
 {{<citation>}}
 
@@ -3009,7 +3010,7 @@ Keywords: Graph, Zero-shot, Vision-and-Language
 {{</citation>}}
 
 
-### (19/35 | 59/175) Neural-Symbolic VideoQA: Learning Compositional Spatio-Temporal Reasoning for Real-world Video Question Answering (Lili Liang et al., 2024)
+### (19/35 | 59/176) Neural-Symbolic VideoQA: Learning Compositional Spatio-Temporal Reasoning for Real-world Video Question Answering (Lili Liang et al., 2024)
 
 {{<citation>}}
 
@@ -3044,7 +3045,7 @@ Compositional spatio-temporal <b>reasoning</b> poses a significant challenge in 
 {{</citation>}}
 
 
-### (20/35 | 60/175) Physics-Inspired Synthesized Underwater Image Dataset (Reina Kaneko et al., 2024)
+### (20/35 | 60/176) Physics-Inspired Synthesized Underwater Image Dataset (Reina Kaneko et al., 2024)
 
 {{<citation>}}
 
@@ -3079,7 +3080,7 @@ This paper introduces the physics-inspired synthesized underwater image dataset 
 {{</citation>}}
 
 
-### (21/35 | 61/175) PhysPT: Physics-aware Pretrained Transformer for Estimating Human Dynamics from Monocular Videos (Yufei Zhang et al., 2024)
+### (21/35 | 61/176) PhysPT: Physics-aware Pretrained Transformer for Estimating Human Dynamics from Monocular Videos (Yufei Zhang et al., 2024)
 
 {{<citation>}}
 
@@ -3114,7 +3115,7 @@ While current methods have shown promising progress on estimating 3D human motio
 {{</citation>}}
 
 
-### (22/35 | 62/175) No Time to Train: Empowering Non-Parametric Networks for Few-shot 3D Scene Segmentation (Xiangyang Zhu et al., 2024)
+### (22/35 | 62/176) No Time to Train: Empowering Non-Parametric Networks for Few-shot 3D Scene Segmentation (Xiangyang Zhu et al., 2024)
 
 {{<citation>}}
 
@@ -3149,7 +3150,7 @@ To reduce the reliance on large-scale datasets, recent works in 3D segmentation 
 {{</citation>}}
 
 
-### (23/35 | 63/175) InstructHumans: Editing Animated 3D Human Textures with Instructions (Jiayin Zhu et al., 2024)
+### (23/35 | 63/176) InstructHumans: Editing Animated 3D Human Textures with Instructions (Jiayin Zhu et al., 2024)
 
 {{<citation>}}
 
@@ -3184,7 +3185,7 @@ We present InstructHumans, a novel framework for instruction-driven 3D human tex
 {{</citation>}}
 
 
-### (24/35 | 64/175) VoltaVision: A Transfer Learning model for electronic component classification (Anas Mohammad Ishfaqul Muktadir Osmani et al., 2024)
+### (24/35 | 64/176) VoltaVision: A Transfer Learning model for electronic component classification (Anas Mohammad Ishfaqul Muktadir Osmani et al., 2024)
 
 {{<citation>}}
 
@@ -3219,7 +3220,7 @@ In this paper, we analyze the effectiveness of <b>transfer</b> <b>learning</b> o
 {{</citation>}}
 
 
-### (25/35 | 65/175) Increasing Fairness in Classification of Out of Distribution Data for Facial Recognition (Gianluca Barone et al., 2024)
+### (25/35 | 65/176) Increasing Fairness in Classification of Out of Distribution Data for Facial Recognition (Gianluca Barone et al., 2024)
 
 {{<citation>}}
 
@@ -3254,7 +3255,7 @@ Standard classification theory assumes that the distribution of images in the te
 {{</citation>}}
 
 
-### (26/35 | 66/175) Improving Detection in Aerial Images by Capturing Inter-Object Relationships (Botao Ren et al., 2024)
+### (26/35 | 66/176) Improving Detection in Aerial Images by Capturing Inter-Object Relationships (Botao Ren et al., 2024)
 
 {{<citation>}}
 
@@ -3289,7 +3290,7 @@ In many image domains, the spatial distribution of objects in a scene exhibits m
 {{</citation>}}
 
 
-### (27/35 | 67/175) Analyzing Participants' Engagement during Online Meetings Using Unsupervised Remote Photoplethysmography with Behavioral Features (Alexander Vedernikov et al., 2024)
+### (27/35 | 67/176) Analyzing Participants' Engagement during Online Meetings Using Unsupervised Remote Photoplethysmography with Behavioral Features (Alexander Vedernikov et al., 2024)
 
 {{<citation>}}
 
@@ -3324,7 +3325,7 @@ Engagement measurement finds application in healthcare, education, advertisement
 {{</citation>}}
 
 
-### (28/35 | 68/175) SpatialTracker: Tracking Any 2D Pixels in 3D Space (Yuxi Xiao et al., 2024)
+### (28/35 | 68/176) SpatialTracker: Tracking Any 2D Pixels in 3D Space (Yuxi Xiao et al., 2024)
 
 {{<citation>}}
 
@@ -3359,7 +3360,7 @@ Recovering dense and long-range pixel motion in videos is a challenging problem.
 {{</citation>}}
 
 
-### (29/35 | 69/175) Robust Depth Enhancement via Polarization Prompt Fusion Tuning (Kei Ikemura et al., 2024)
+### (29/35 | 69/176) Robust Depth Enhancement via Polarization Prompt Fusion Tuning (Kei Ikemura et al., 2024)
 
 {{<citation>}}
 
@@ -3394,7 +3395,7 @@ Existing depth sensors are imperfect and may provide inaccurate depth values in 
 {{</citation>}}
 
 
-### (30/35 | 70/175) SCAResNet: A ResNet Variant Optimized for Tiny Object Detection in Transmission and Distribution Towers (Weile Li et al., 2024)
+### (30/35 | 70/176) SCAResNet: A ResNet Variant Optimized for Tiny Object Detection in Transmission and Distribution Towers (Weile Li et al., 2024)
 
 {{<citation>}}
 
@@ -3429,7 +3430,7 @@ Traditional deep learning-based <b>object</b> <b>detection</b> networks often re
 {{</citation>}}
 
 
-### (31/35 | 71/175) MarsSeg: Mars Surface Semantic Segmentation with Multi-level Extractor and Connector (Junbo Li et al., 2024)
+### (31/35 | 71/176) MarsSeg: Mars Surface Semantic Segmentation with Multi-level Extractor and Connector (Junbo Li et al., 2024)
 
 {{<citation>}}
 
@@ -3464,7 +3465,7 @@ The segmentation and interpretation of the Martian surface play a pivotal role i
 {{</citation>}}
 
 
-### (32/35 | 72/175) Dynamic Risk Assessment Methodology with an LDM-based System for Parking Scenarios (Paola Natalia Cañas et al., 2024)
+### (32/35 | 72/176) Dynamic Risk Assessment Methodology with an LDM-based System for Parking Scenarios (Paola Natalia Cañas et al., 2024)
 
 {{<citation>}}
 
@@ -3499,7 +3500,7 @@ This paper describes the methodology for building a dynamic risk assessment for 
 {{</citation>}}
 
 
-### (33/35 | 73/175) Finsler-Laplace-Beltrami Operators with Application to Shape Analysis (Simon Weber et al., 2024)
+### (33/35 | 73/176) Finsler-Laplace-Beltrami Operators with Application to Shape Analysis (Simon Weber et al., 2024)
 
 {{<citation>}}
 
@@ -3534,7 +3535,7 @@ The Laplace-Beltrami operator (LBO) emerges from studying manifolds equipped wit
 {{</citation>}}
 
 
-### (34/35 | 74/175) Robust Gaussian Splatting (François Darmon et al., 2024)
+### (34/35 | 74/176) Robust Gaussian Splatting (François Darmon et al., 2024)
 
 {{<citation>}}
 
@@ -3569,7 +3570,7 @@ In this paper, we address common error sources for 3D Gaussian Splatting (3DGS) 
 {{</citation>}}
 
 
-### (35/35 | 75/175) Noisy Label Processing for Classification: A Survey (Mengting Li et al., 2024)
+### (35/35 | 75/176) Noisy Label Processing for Classification: A Survey (Mengting Li et al., 2024)
 
 {{<citation>}}
 
@@ -3608,7 +3609,7 @@ In recent years, deep neural networks (DNNs) have gained remarkable achievement 
 
 
 
-### (1/14 | 76/175) Can only LLMs do Reasoning?: Potential of Small Language Models in Task Planning (Gawon Choi et al., 2024)
+### (1/14 | 76/176) Can only LLMs do Reasoning?: Potential of Small Language Models in Task Planning (Gawon Choi et al., 2024)
 
 {{<citation>}}
 
@@ -3643,7 +3644,7 @@ In robotics, the use of <b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b>
 {{</citation>}}
 
 
-### (2/14 | 77/175) VoicePilot: Harnessing LLMs as Speech Interfaces for Physically Assistive Robots (Akhil Padmanabha et al., 2024)
+### (2/14 | 77/176) VoicePilot: Harnessing LLMs as Speech Interfaces for Physically Assistive Robots (Akhil Padmanabha et al., 2024)
 
 {{<citation>}}
 
@@ -3678,7 +3679,7 @@ Physically assistive robots present an opportunity to significantly increase the
 {{</citation>}}
 
 
-### (3/14 | 78/175) POMDP-Guided Active Force-Based Search for Robotic Insertion (Chen Wang et al., 2024)
+### (3/14 | 78/176) POMDP-Guided Active Force-Based Search for Robotic Insertion (Chen Wang et al., 2024)
 
 {{<citation>}}
 
@@ -3713,7 +3714,7 @@ In robotic insertion tasks where the uncertainty exceeds the allowable tolerance
 {{</citation>}}
 
 
-### (4/14 | 79/175) Hybrid Force Motion Control with Estimated Surface Normal for Manufacturing Applications (Ehsan Nasiri et al., 2024)
+### (4/14 | 79/176) Hybrid Force Motion Control with Estimated Surface Normal for Manufacturing Applications (Ehsan Nasiri et al., 2024)
 
 {{<citation>}}
 
@@ -3748,7 +3749,7 @@ This paper proposes a hybrid force-motion framework that utilizes real-time surf
 {{</citation>}}
 
 
-### (5/14 | 80/175) Admittance Control for Adaptive Remote Center of Motion in Robotic Laparoscopic Surgery (Ehsan Nasiri et al., 2024)
+### (5/14 | 80/176) Admittance Control for Adaptive Remote Center of Motion in Robotic Laparoscopic Surgery (Ehsan Nasiri et al., 2024)
 
 {{<citation>}}
 
@@ -3783,7 +3784,7 @@ In laparoscopic robot-assisted minimally invasive surgery, the kinematic control
 {{</citation>}}
 
 
-### (6/14 | 81/175) Continual Policy Distillation of Reinforcement Learning-based Controllers for Soft Robotic In-Hand Manipulation (Lanpei Li et al., 2024)
+### (6/14 | 81/176) Continual Policy Distillation of Reinforcement Learning-based Controllers for Soft Robotic In-Hand Manipulation (Lanpei Li et al., 2024)
 
 {{<citation>}}
 
@@ -3818,7 +3819,7 @@ Dexterous manipulation, often facilitated by multi-fingered robotic hands, holds
 {{</citation>}}
 
 
-### (7/14 | 82/175) Scaling Motion Forecasting Models with Ensemble Distillation (Scott Ettinger et al., 2024)
+### (7/14 | 82/176) Scaling Motion Forecasting Models with Ensemble Distillation (Scott Ettinger et al., 2024)
 
 {{<citation>}}
 
@@ -3853,7 +3854,7 @@ Motion forecasting has become an increasingly critical component of autonomous r
 {{</citation>}}
 
 
-### (8/14 | 83/175) A Ground Mobile Robot for Autonomous Terrestrial Laser Scanning-Based Field Phenotyping (Javier Rodriguez-Sanchez et al., 2024)
+### (8/14 | 83/176) A Ground Mobile Robot for Autonomous Terrestrial Laser Scanning-Based Field Phenotyping (Javier Rodriguez-Sanchez et al., 2024)
 
 {{<citation>}}
 
@@ -3888,7 +3889,7 @@ Traditional field phenotyping methods are often manual, time-consuming, and dest
 {{</citation>}}
 
 
-### (9/14 | 84/175) LOSS-SLAM: Lightweight Open-Set Semantic Simultaneous Localization and Mapping (Kurran Singh et al., 2024)
+### (9/14 | 84/176) LOSS-SLAM: Lightweight Open-Set Semantic Simultaneous Localization and Mapping (Kurran Singh et al., 2024)
 
 {{<citation>}}
 
@@ -3923,7 +3924,7 @@ Enabling robots to understand the world in terms of objects is a critical buildi
 {{</citation>}}
 
 
-### (10/14 | 85/175) ToolEENet: Tool Affordance 6D Pose Estimation (Yunlong Wang et al., 2024)
+### (10/14 | 85/176) ToolEENet: Tool Affordance 6D Pose Estimation (Yunlong Wang et al., 2024)
 
 {{<citation>}}
 
@@ -3958,7 +3959,7 @@ The exploration of robotic dexterous hands utilizing tools has recently attracte
 {{</citation>}}
 
 
-### (11/14 | 86/175) Designing Robots to Help Women (Martin Cooney et al., 2024)
+### (11/14 | 86/176) Designing Robots to Help Women (Martin Cooney et al., 2024)
 
 {{<citation>}}
 
@@ -3993,7 +3994,7 @@ Robots are being designed to help people in an increasing variety of settings--b
 {{</citation>}}
 
 
-### (12/14 | 87/175) Modeling Kinematic Uncertainty of Tendon-Driven Continuum Robots via Mixture Density Networks (Jordan Thompson et al., 2024)
+### (12/14 | 87/176) Modeling Kinematic Uncertainty of Tendon-Driven Continuum Robots via Mixture Density Networks (Jordan Thompson et al., 2024)
 
 {{<citation>}}
 
@@ -4028,7 +4029,7 @@ Tendon-driven continuum robot kinematic models are frequently computationally ex
 {{</citation>}}
 
 
-### (13/14 | 88/175) Multi-modal perception for soft robotic interactions using generative models (Enrico Donato et al., 2024)
+### (13/14 | 88/176) Multi-modal perception for soft robotic interactions using generative models (Enrico Donato et al., 2024)
 
 {{<citation>}}
 
@@ -4063,7 +4064,7 @@ Perception is essential for the active interaction of physical agents with the e
 {{</citation>}}
 
 
-### (14/14 | 89/175) MM-Gaussian: 3D Gaussian-based Multi-modal Fusion for Localization and Reconstruction in Unbounded Scenes (Chenyang Wu et al., 2024)
+### (14/14 | 89/176) MM-Gaussian: 3D Gaussian-based Multi-modal Fusion for Localization and Reconstruction in Unbounded Scenes (Chenyang Wu et al., 2024)
 
 {{<citation>}}
 
@@ -4102,7 +4103,7 @@ Localization and mapping are critical tasks for various applications such as aut
 
 
 
-### (1/8 | 90/175) Hypothesis Generation with Large Language Models (Yangqiaoyu Zhou et al., 2024)
+### (1/8 | 90/176) Hypothesis Generation with Large Language Models (Yangqiaoyu Zhou et al., 2024)
 
 {{<citation>}}
 
@@ -4137,7 +4138,7 @@ Effective generation of novel hypotheses is instrumental to scientific progress.
 {{</citation>}}
 
 
-### (2/8 | 91/175) Exploring Autonomous Agents through the Lens of Large Language Models: A Review (Saikat Barua, 2024)
+### (2/8 | 91/176) Exploring Autonomous Agents through the Lens of Large Language Models: A Review (Saikat Barua, 2024)
 
 {{<citation>}}
 
@@ -4172,7 +4173,7 @@ Keywords: Reasoning, In-context Learning, In-context Learning, Large Language Mo
 {{</citation>}}
 
 
-### (3/8 | 92/175) KGExplainer: Towards Exploring Connected Subgraph Explanations for Knowledge Graph Completion (Tengfei Ma et al., 2024)
+### (3/8 | 92/176) KGExplainer: Towards Exploring Connected Subgraph Explanations for Knowledge Graph Completion (Tengfei Ma et al., 2024)
 
 {{<citation>}}
 
@@ -4207,7 +4208,7 @@ Keywords: Graph, Graph Embedding, Benchmarking, Black Box, Knowledge Distillatio
 {{</citation>}}
 
 
-### (4/8 | 93/175) Intervention-Assisted Policy Gradient Methods for Online Stochastic Queuing Network Optimization: Technical Report (Jerrod Wigmore et al., 2024)
+### (4/8 | 93/176) Intervention-Assisted Policy Gradient Methods for Online Stochastic Queuing Network Optimization: Technical Report (Jerrod Wigmore et al., 2024)
 
 {{<citation>}}
 
@@ -4242,7 +4243,7 @@ Deep <b>Reinforcement</b> <b>Learning</b> (DRL) offers a powerful approach to tr
 {{</citation>}}
 
 
-### (5/8 | 94/175) Random Walk in Random Permutation Set Theory (Jiefeng Zhou et al., 2024)
+### (5/8 | 94/176) Random Walk in Random Permutation Set Theory (Jiefeng Zhou et al., 2024)
 
 {{<citation>}}
 
@@ -4277,7 +4278,7 @@ Random walk is an explainable approach for modeling natural processes at the mol
 {{</citation>}}
 
 
-### (6/8 | 95/175) Large language models as oracles for instantiating ontologies with domain-specific knowledge (Giovanni Ciatto et al., 2024)
+### (6/8 | 95/176) Large language models as oracles for instantiating ontologies with domain-specific knowledge (Giovanni Ciatto et al., 2024)
 
 {{<citation>}}
 
@@ -4312,7 +4313,7 @@ Background. Endowing intelligent systems with semantic data commonly requires de
 {{</citation>}}
 
 
-### (7/8 | 96/175) AI Knowledge and Reasoning: Emulating Expert Creativity in Scientific Research (Anirban Mukherjee et al., 2024)
+### (7/8 | 96/176) AI Knowledge and Reasoning: Emulating Expert Creativity in Scientific Research (Anirban Mukherjee et al., 2024)
 
 {{<citation>}}
 
@@ -4347,7 +4348,7 @@ We investigate whether modern AI can emulate expert creativity in complex scient
 {{</citation>}}
 
 
-### (8/8 | 97/175) Visual Knowledge in the Big Model Era: Retrospect and Prospect (Wenguan Wang et al., 2024)
+### (8/8 | 97/176) Visual Knowledge in the Big Model Era: Retrospect and Prospect (Wenguan Wang et al., 2024)
 
 {{<citation>}}
 
@@ -4386,7 +4387,7 @@ Visual knowledge is a new form of knowledge representation that can encapsulate 
 
 
 
-### (1/3 | 98/175) A Comparison of Methods for Evaluating Generative IR (Negar Arabzadeh et al., 2024)
+### (1/3 | 98/176) A Comparison of Methods for Evaluating Generative IR (Negar Arabzadeh et al., 2024)
 
 {{<citation>}}
 
@@ -4421,7 +4422,7 @@ Keywords: Retrieval-Augmented Generation, Retrieval-Augmented Generation, Retrie
 {{</citation>}}
 
 
-### (2/3 | 99/175) Dwell in the Beginning: How Language Models Embed Long Documents for Dense Retrieval (João Coelho et al., 2024)
+### (2/3 | 99/176) Dwell in the Beginning: How Language Models Embed Long Documents for Dense Retrieval (João Coelho et al., 2024)
 
 {{<citation>}}
 
@@ -4456,7 +4457,7 @@ This study investigates the existence of positional biases in <b>Transformer-bas
 {{</citation>}}
 
 
-### (3/3 | 100/175) JobFormer: Skill-Aware Job Recommendation with Semantic-Enhanced Transformer (Zhihao Guan et al., 2024)
+### (3/3 | 100/176) JobFormer: Skill-Aware Job Recommendation with Semantic-Enhanced Transformer (Zhihao Guan et al., 2024)
 
 {{<citation>}}
 
@@ -4495,7 +4496,7 @@ Job <b>recommendation</b> aims to provide potential talents with suitable job de
 
 
 
-### (1/33 | 101/175) Prompt Public Large Language Models to Synthesize Data for Private On-device Applications (Shanshan Wu et al., 2024)
+### (1/33 | 101/176) Prompt Public Large Language Models to Synthesize Data for Private On-device Applications (Shanshan Wu et al., 2024)
 
 {{<citation>}}
 
@@ -4530,7 +4531,7 @@ Pre-training on public data is an effective method to improve the performance fo
 {{</citation>}}
 
 
-### (2/33 | 102/175) Dynamic Switch Layers For Unsupervised Learning (Haiguang Li et al., 2024)
+### (2/33 | 102/176) Dynamic Switch Layers For Unsupervised Learning (Haiguang Li et al., 2024)
 
 {{<citation>}}
 
@@ -4565,7 +4566,7 @@ On-device machine learning (ODML) enables intelligent applications on resource-c
 {{</citation>}}
 
 
-### (3/33 | 103/175) player2vec: A Language Modeling Approach to Understand Player Behavior in Games (Tianze Wang et al., 2024)
+### (3/33 | 103/176) player2vec: A Language Modeling Approach to Understand Player Behavior in Games (Tianze Wang et al., 2024)
 
 {{<citation>}}
 
@@ -4588,8 +4589,8 @@ Primary Category: cs.LG
 Categories: cs-AI, cs-CL, cs-LG, cs.LG  
 Keyword Score: 40  
 Keywords: Recommendation, Self-supervised Learning, Transformer, Tokenization  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.04234v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.04234v1.pdf" filename="2404.04234v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.04234v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.04234v2.pdf" filename="2404.04234v2.pdf">Download PDF</button>
 
 ---
 
@@ -4600,7 +4601,7 @@ Methods for learning latent user representations from historical behavior logs h
 {{</citation>}}
 
 
-### (4/33 | 104/175) Robust Preference Optimization with Provable Noise Tolerance for LLMs (Xize Liang et al., 2024)
+### (4/33 | 104/176) Robust Preference Optimization with Provable Noise Tolerance for LLMs (Xize Liang et al., 2024)
 
 {{<citation>}}
 
@@ -4635,7 +4636,7 @@ The preference alignment aims to enable <b>large</b> <b>language</b> <b>models</
 {{</citation>}}
 
 
-### (5/33 | 105/175) Enhancing IoT Intelligence: A Transformer-based Reinforcement Learning Methodology (Gaith Rjoub et al., 2024)
+### (5/33 | 105/176) Enhancing IoT Intelligence: A Transformer-based Reinforcement Learning Methodology (Gaith Rjoub et al., 2024)
 
 {{<citation>}}
 
@@ -4670,7 +4671,7 @@ The proliferation of the Internet of Things (IoT) has led to an explosion of dat
 {{</citation>}}
 
 
-### (6/33 | 106/175) Score identity Distillation: Exponentially Fast Distillation of Pretrained Diffusion Models for One-Step Generation (Mingyuan Zhou et al., 2024)
+### (6/33 | 106/176) Score identity Distillation: Exponentially Fast Distillation of Pretrained Diffusion Models for One-Step Generation (Mingyuan Zhou et al., 2024)
 
 {{<citation>}}
 
@@ -4705,7 +4706,7 @@ We introduce Score identity <b>Distillation</b> (SiD), an innovative data-free m
 {{</citation>}}
 
 
-### (7/33 | 107/175) Mitigating Heterogeneity in Federated Multimodal Learning with Biomedical Vision-Language Pre-training (Zitao Shuai et al., 2024)
+### (7/33 | 107/176) Mitigating Heterogeneity in Federated Multimodal Learning with Biomedical Vision-Language Pre-training (Zitao Shuai et al., 2024)
 
 {{<citation>}}
 
@@ -4740,7 +4741,7 @@ Keywords: Federated Learning, Multi-modal, Multi-modal, Representation Learning,
 {{</citation>}}
 
 
-### (8/33 | 108/175) Parameter Efficient Quasi-Orthogonal Fine-Tuning via Givens Rotation (Xinyu Ma et al., 2024)
+### (8/33 | 108/176) Parameter Efficient Quasi-Orthogonal Fine-Tuning via Givens Rotation (Xinyu Ma et al., 2024)
 
 {{<citation>}}
 
@@ -4775,7 +4776,7 @@ With the increasingly powerful performances and enormous scales of <b>Pretrained
 {{</citation>}}
 
 
-### (9/33 | 109/175) A Real-time Anomaly Detection Using Convolutional Autoencoder with Dynamic Threshold (Sarit Maitra et al., 2024)
+### (9/33 | 109/176) A Real-time Anomaly Detection Using Convolutional Autoencoder with Dynamic Threshold (Sarit Maitra et al., 2024)
 
 {{<citation>}}
 
@@ -4810,7 +4811,7 @@ The majority of modern consumer-level energy is generated by real-time smart met
 {{</citation>}}
 
 
-### (10/33 | 110/175) Transformers for molecular property prediction: Lessons learned from the past five years (Afnan Sultan et al., 2024)
+### (10/33 | 110/176) Transformers for molecular property prediction: Lessons learned from the past five years (Afnan Sultan et al., 2024)
 
 {{<citation>}}
 
@@ -4845,7 +4846,7 @@ Molecular Property Prediction (MPP) is vital for drug discovery, crop protection
 {{</citation>}}
 
 
-### (11/33 | 111/175) Optimizing Convolutional Neural Networks for Identifying Invasive Pollinator Apis Mellifera and Finding a Ligand drug to Protect California's Biodiversity (Arnav Swaroop, 2024)
+### (11/33 | 111/176) Optimizing Convolutional Neural Networks for Identifying Invasive Pollinator Apis Mellifera and Finding a Ligand drug to Protect California's Biodiversity (Arnav Swaroop, 2024)
 
 {{<citation>}}
 
@@ -4880,7 +4881,7 @@ In North America, there are many diverse species of native bees crucial for the 
 {{</citation>}}
 
 
-### (12/33 | 112/175) Dynamic Conditional Optimal Transport through Simulation-Free Flows (Gavin Kerrigan et al., 2024)
+### (12/33 | 112/176) Dynamic Conditional Optimal Transport through Simulation-Free Flows (Gavin Kerrigan et al., 2024)
 
 {{<citation>}}
 
@@ -4915,7 +4916,7 @@ We study the <b>geometry</b> of conditional optimal transport (COT) and prove a 
 {{</citation>}}
 
 
-### (13/33 | 113/175) Model Selection with Model Zoo via Graph Learning (Ziyu Li et al., 2024)
+### (13/33 | 113/176) Model Selection with Model Zoo via Graph Learning (Ziyu Li et al., 2024)
 
 {{<citation>}}
 
@@ -4950,7 +4951,7 @@ Pre-trained deep learning (DL) models are increasingly accessible in public repo
 {{</citation>}}
 
 
-### (14/33 | 114/175) Pixel-wise RL on Diffusion Models: Reinforcement Learning from Rich Feedback (Mo Kordzanganeh et al., 2024)
+### (14/33 | 114/176) Pixel-wise RL on Diffusion Models: Reinforcement Learning from Rich Feedback (Mo Kordzanganeh et al., 2024)
 
 {{<citation>}}
 
@@ -4985,7 +4986,7 @@ Latent <b>diffusion</b> <b>models</b> are the state-of-the-art for synthetic ima
 {{</citation>}}
 
 
-### (15/33 | 115/175) Exploring Probabilistic Models for Semi-supervised Learning (Jianfeng Wang, 2024)
+### (15/33 | 115/176) Exploring Probabilistic Models for Semi-supervised Learning (Jianfeng Wang, 2024)
 
 {{<citation>}}
 
@@ -5020,7 +5021,7 @@ This thesis studies advanced <b>probabilistic</b> <b>models,</b> including both 
 {{</citation>}}
 
 
-### (16/33 | 116/175) Fusing Dictionary Learning and Support Vector Machines for Unsupervised Anomaly Detection (Paul Irofti et al., 2024)
+### (16/33 | 116/176) Fusing Dictionary Learning and Support Vector Machines for Unsupervised Anomaly Detection (Paul Irofti et al., 2024)
 
 {{<citation>}}
 
@@ -5055,7 +5056,7 @@ We study in this paper the improvement of one-class support vector machines (OC-
 {{</citation>}}
 
 
-### (17/33 | 117/175) Rolling the dice for better deep learning performance: A study of randomness techniques in deep neural networks (Mohammed Ghaith Altarabichi et al., 2024)
+### (17/33 | 117/176) Rolling the dice for better deep learning performance: A study of randomness techniques in deep neural networks (Mohammed Ghaith Altarabichi et al., 2024)
 
 {{<citation>}}
 
@@ -5090,7 +5091,7 @@ This paper investigates how various randomization techniques impact Deep Neural 
 {{</citation>}}
 
 
-### (18/33 | 118/175) Multi-Task Learning for Lung sound & Lung disease classification (Suma K V et al., 2024)
+### (18/33 | 118/176) Multi-Task Learning for Lung sound & Lung disease classification (Suma K V et al., 2024)
 
 {{<citation>}}
 
@@ -5125,7 +5126,7 @@ In recent years, advancements in deep learning techniques have considerably enha
 {{</citation>}}
 
 
-### (19/33 | 119/175) A proximal policy optimization based intelligent home solar management (Kode Creer et al., 2024)
+### (19/33 | 119/176) A proximal policy optimization based intelligent home solar management (Kode Creer et al., 2024)
 
 {{<citation>}}
 
@@ -5160,7 +5161,7 @@ In the smart grid, the prosumers can sell unused electricity back to the power g
 {{</citation>}}
 
 
-### (20/33 | 120/175) Heterogeneous Multi-Agent Reinforcement Learning for Zero-Shot Scalable Collaboration (Xudong Guo et al., 2024)
+### (20/33 | 120/176) Heterogeneous Multi-Agent Reinforcement Learning for Zero-Shot Scalable Collaboration (Xudong Guo et al., 2024)
 
 {{<citation>}}
 
@@ -5195,7 +5196,7 @@ The rise of multi-agent systems, especially the success of multi-agent <b>reinfo
 {{</citation>}}
 
 
-### (21/33 | 121/175) GNNBENCH: Fair and Productive Benchmarking for Single-GPU GNN System (Yidong Gong et al., 2024)
+### (21/33 | 121/176) GNNBENCH: Fair and Productive Benchmarking for Single-GPU GNN System (Yidong Gong et al., 2024)
 
 {{<citation>}}
 
@@ -5230,7 +5231,7 @@ We hypothesize that the absence of a standardized <b>benchmark</b> has allowed s
 {{</citation>}}
 
 
-### (22/33 | 122/175) Growing Q-Networks: Solving Continuous Control Tasks with Adaptive Control Resolution (Tim Seyde et al., 2024)
+### (22/33 | 122/176) Growing Q-Networks: Solving Continuous Control Tasks with Adaptive Control Resolution (Tim Seyde et al., 2024)
 
 {{<citation>}}
 
@@ -5265,7 +5266,7 @@ Recent <b>reinforcement</b> <b>learning</b> approaches have shown surprisingly s
 {{</citation>}}
 
 
-### (23/33 | 123/175) Active Causal Learning for Decoding Chemical Complexities with Targeted Interventions (Zachary R. Fox et al., 2024)
+### (23/33 | 123/176) Active Causal Learning for Decoding Chemical Complexities with Targeted Interventions (Zachary R. Fox et al., 2024)
 
 {{<citation>}}
 
@@ -5300,7 +5301,7 @@ Predicting and enhancing inherent properties based on molecular structures is pa
 {{</citation>}}
 
 
-### (24/33 | 124/175) Half-Space Feature Learning in Neural Networks (Mahesh Lorik Yadav et al., 2024)
+### (24/33 | 124/176) Half-Space Feature Learning in Neural Networks (Mahesh Lorik Yadav et al., 2024)
 
 {{<citation>}}
 
@@ -5335,7 +5336,7 @@ There currently exist two extreme viewpoints for neural network feature learning
 {{</citation>}}
 
 
-### (25/33 | 125/175) Implicit Bias of AdamW: $\ell_\infty$ Norm Constrained Optimization (Shuo Xie et al., 2024)
+### (25/33 | 125/176) Implicit Bias of AdamW: $\ell_\infty$ Norm Constrained Optimization (Shuo Xie et al., 2024)
 
 {{<citation>}}
 
@@ -5370,7 +5371,7 @@ Adam with decoupled weight decay, also known as AdamW, is widely acclaimed for i
 {{</citation>}}
 
 
-### (26/33 | 126/175) Compositional Estimation of Lipschitz Constants for Deep Neural Networks (Yuezhu Xu et al., 2024)
+### (26/33 | 126/176) Compositional Estimation of Lipschitz Constants for Deep Neural Networks (Yuezhu Xu et al., 2024)
 
 {{<citation>}}
 
@@ -5405,7 +5406,7 @@ The Lipschitz constant plays a crucial role in certifying the robustness of neur
 {{</citation>}}
 
 
-### (27/33 | 127/175) Generalizable Temperature Nowcasting with Physics-Constrained RNNs for Predictive Maintenance of Wind Turbine Components (Johannes Exenberger et al., 2024)
+### (27/33 | 127/176) Generalizable Temperature Nowcasting with Physics-Constrained RNNs for Predictive Maintenance of Wind Turbine Components (Johannes Exenberger et al., 2024)
 
 {{<citation>}}
 
@@ -5440,7 +5441,7 @@ Machine learning plays an important role in the operation of current wind energy
 {{</citation>}}
 
 
-### (28/33 | 128/175) Continual Learning with Weight Interpolation (Jędrzej Kozal et al., 2024)
+### (28/33 | 128/176) Continual Learning with Weight Interpolation (Jędrzej Kozal et al., 2024)
 
 {{<citation>}}
 
@@ -5463,8 +5464,8 @@ Primary Category: cs.LG
 Categories: cs-LG, cs.LG  
 Keyword Score: 10  
 Keywords: Continual Learning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.04002v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.04002v1.pdf" filename="2404.04002v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.04002v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.04002v2.pdf" filename="2404.04002v2.pdf">Download PDF</button>
 
 ---
 
@@ -5475,7 +5476,7 @@ Keywords: Continual Learning
 {{</citation>}}
 
 
-### (29/33 | 129/175) Demonstration Guided Multi-Objective Reinforcement Learning (Junlin Lu et al., 2024)
+### (29/33 | 129/176) Demonstration Guided Multi-Objective Reinforcement Learning (Junlin Lu et al., 2024)
 
 {{<citation>}}
 
@@ -5510,7 +5511,7 @@ Multi-objective <b>reinforcement</b> <b>learning</b> (MORL) is increasingly rele
 {{</citation>}}
 
 
-### (30/33 | 130/175) Generating Synthetic Ground Truth Distributions for Multi-step Trajectory Prediction using Probabilistic Composite Bézier Curves (Ronny Hug et al., 2024)
+### (30/33 | 130/176) Generating Synthetic Ground Truth Distributions for Multi-step Trajectory Prediction using Probabilistic Composite Bézier Curves (Ronny Hug et al., 2024)
 
 {{<citation>}}
 
@@ -5545,7 +5546,7 @@ An appropriate data basis grants one of the most important aspects for training 
 {{</citation>}}
 
 
-### (31/33 | 131/175) Hierarchical Neural Additive Models for Interpretable Demand Forecasts (Leif Feddersen et al., 2024)
+### (31/33 | 131/176) Hierarchical Neural Additive Models for Interpretable Demand Forecasts (Leif Feddersen et al., 2024)
 
 {{<citation>}}
 
@@ -5580,7 +5581,7 @@ Demand forecasts are the crucial basis for numerous business decisions, ranging 
 {{</citation>}}
 
 
-### (32/33 | 132/175) Derivative-free tree optimization for complex systems (Ye Wei et al., 2024)
+### (32/33 | 132/176) Derivative-free tree optimization for complex systems (Ye Wei et al., 2024)
 
 {{<citation>}}
 
@@ -5615,7 +5616,7 @@ A tremendous range of design tasks in materials, physics, and biology can be for
 {{</citation>}}
 
 
-### (33/33 | 133/175) Approximate UMAP allows for high-rate online visualization of high-dimensional data streams (Peter Wassenaar et al., 2024)
+### (33/33 | 133/176) Approximate UMAP allows for high-rate online visualization of high-dimensional data streams (Peter Wassenaar et al., 2024)
 
 {{<citation>}}
 
@@ -5654,7 +5655,7 @@ In the BCI field, introspection and interpretation of brain signals are desired 
 
 
 
-### (1/4 | 134/175) DeepLINK-T: deep learning inference for time series data using knockoffs and LSTM (Wenxuan Zuo et al., 2024)
+### (1/4 | 134/176) DeepLINK-T: deep learning inference for time series data using knockoffs and LSTM (Wenxuan Zuo et al., 2024)
 
 {{<citation>}}
 
@@ -5689,7 +5690,7 @@ High-dimensional longitudinal time series data is prevalent across various real-
 {{</citation>}}
 
 
-### (2/4 | 135/175) Longitudinal Targeted Minimum Loss-based Estimation with Temporal-Difference Heterogeneous Transformer (Toru Shirakawa et al., 2024)
+### (2/4 | 135/176) Longitudinal Targeted Minimum Loss-based Estimation with Temporal-Difference Heterogeneous Transformer (Toru Shirakawa et al., 2024)
 
 {{<citation>}}
 
@@ -5724,7 +5725,7 @@ We propose Deep Longitudinal Targeted Minimum Loss-based Estimation (Deep LTMLE)
 {{</citation>}}
 
 
-### (3/4 | 136/175) Nonparametric Modern Hopfield Models (Jerry Yao-Chieh Hu et al., 2024)
+### (3/4 | 136/176) Nonparametric Modern Hopfield Models (Jerry Yao-Chieh Hu et al., 2024)
 
 {{<citation>}}
 
@@ -5759,7 +5760,7 @@ We present a nonparametric construction for deep learning compatible modern <b>H
 {{</citation>}}
 
 
-### (4/4 | 137/175) Bayesian Additive Regression Networks (Danielle Van Boxel, 2024)
+### (4/4 | 137/176) Bayesian Additive Regression Networks (Danielle Van Boxel, 2024)
 
 {{<citation>}}
 
@@ -5798,7 +5799,7 @@ We apply Bayesian Additive Regression Tree <b>(BART)</b> principles to training 
 
 
 
-### (1/2 | 138/175) 'It is okay to be uncommon': Quantizing Sound Event Detection Networks on Hardware Accelerators with Uncommon Sub-Byte Support (Yushu Wu et al., 2024)
+### (1/2 | 138/176) 'It is okay to be uncommon': Quantizing Sound Event Detection Networks on Hardware Accelerators with Uncommon Sub-Byte Support (Yushu Wu et al., 2024)
 
 {{<citation>}}
 
@@ -5833,7 +5834,7 @@ If our noise-canceling headphones can understand our audio environments, they ca
 {{</citation>}}
 
 
-### (2/2 | 139/175) The NES Video-Music Database: A Dataset of Symbolic Video Game Music Paired with Gameplay Videos (Igor Cardoso et al., 2024)
+### (2/2 | 139/176) The NES Video-Music Database: A Dataset of Symbolic Video Game Music Paired with Gameplay Videos (Igor Cardoso et al., 2024)
 
 {{<citation>}}
 
@@ -5872,7 +5873,7 @@ Neural models are one of the most popular approaches for music generation, yet t
 
 
 
-### (1/3 | 140/175) Open vocabulary keyword spotting through transfer learning from speech synthesis (Kesavaraj V et al., 2024)
+### (1/3 | 140/176) Open vocabulary keyword spotting through transfer learning from speech synthesis (Kesavaraj V et al., 2024)
 
 {{<citation>}}
 
@@ -5907,7 +5908,7 @@ Identifying keywords in an open-vocabulary context is crucial for personalizing 
 {{</citation>}}
 
 
-### (2/3 | 141/175) Which Experimental Design is Better Suited for VQA Tasks? Eye Tracking Study on Cognitive Load, Performance, and Gaze Allocations (Sita A. Vriend et al., 2024)
+### (2/3 | 141/176) Which Experimental Design is Better Suited for VQA Tasks? Eye Tracking Study on Cognitive Load, Performance, and Gaze Allocations (Sita A. Vriend et al., 2024)
 
 {{<citation>}}
 
@@ -5942,7 +5943,7 @@ We conducted an eye-tracking user study with 13 participants to investigate the 
 {{</citation>}}
 
 
-### (3/3 | 142/175) HIV Client Perspectives on Digital Health in Malawi (Lisa Orii et al., 2024)
+### (3/3 | 142/176) HIV Client Perspectives on Digital Health in Malawi (Lisa Orii et al., 2024)
 
 {{<citation>}}
 
@@ -5981,7 +5982,7 @@ eHealth has strong potential to advance HIV care in low- and middle-income count
 
 
 
-### (1/2 | 143/175) Superior Genetic Algorithms for the Target Set Selection Problem Based on Power-Law Parameter Choices and Simple Greedy Heuristics (Benjamin Doerr et al., 2024)
+### (1/2 | 143/176) Superior Genetic Algorithms for the Target Set Selection Problem Based on Power-Law Parameter Choices and Simple Greedy Heuristics (Benjamin Doerr et al., 2024)
 
 {{<citation>}}
 
@@ -6016,7 +6017,7 @@ The target set selection problem (TSS) asks for a set of vertices such that an i
 {{</citation>}}
 
 
-### (2/2 | 144/175) Mining Potentially Explanatory Patterns via Partial Solutions (GianCarlo Catalano et al., 2024)
+### (2/2 | 144/176) Mining Potentially Explanatory Patterns via Partial Solutions (GianCarlo Catalano et al., 2024)
 
 {{<citation>}}
 
@@ -6055,7 +6056,7 @@ Genetic Algorithms have established their capability for solving many complex op
 
 
 
-### (1/2 | 145/175) Stable Blockchain Sharding under Adversarial Transaction Generation (Ramesh Adhikari et al., 2024)
+### (1/2 | 145/176) Stable Blockchain Sharding under Adversarial Transaction Generation (Ramesh Adhikari et al., 2024)
 
 {{<citation>}}
 
@@ -6090,7 +6091,7 @@ Sharding is used to improve the scalability and performance of blockchain system
 {{</citation>}}
 
 
-### (2/2 | 146/175) Evaluation of Programming Models and Performance for Stencil Computation on Current GPU Architectures (Baodi Shan et al., 2024)
+### (2/2 | 146/176) Evaluation of Programming Models and Performance for Stencil Computation on Current GPU Architectures (Baodi Shan et al., 2024)
 
 {{<citation>}}
 
@@ -6129,7 +6130,7 @@ Accelerated computing is widely used in high-performance computing. Therefore, i
 
 
 
-### (1/5 | 147/175) Nonlinear Kalman Filtering based on Self-Attention Mechanism and Lattice Trajectory Piecewise Linear Approximation (Jiaming Wang et al., 2024)
+### (1/5 | 147/176) Nonlinear Kalman Filtering based on Self-Attention Mechanism and Lattice Trajectory Piecewise Linear Approximation (Jiaming Wang et al., 2024)
 
 {{<citation>}}
 
@@ -6164,7 +6165,7 @@ The traditional Kalman filter (KF) is widely applied in control systems, but it 
 {{</citation>}}
 
 
-### (2/5 | 148/175) Torque-Minimizing Control Allocation for Overactuated Quadrupedal Locomotion (Mads Erlend Bøe Lysø et al., 2024)
+### (2/5 | 148/176) Torque-Minimizing Control Allocation for Overactuated Quadrupedal Locomotion (Mads Erlend Bøe Lysø et al., 2024)
 
 {{<citation>}}
 
@@ -6199,7 +6200,7 @@ In this paper, we improve upon a method for optimal control of quadrupedal robot
 {{</citation>}}
 
 
-### (3/5 | 149/175) Optimal Policy Synthesis from A Sequence of Goal Sets with An Application to Electric Distribution System Restoration (İlker Işık et al., 2024)
+### (3/5 | 149/176) Optimal Policy Synthesis from A Sequence of Goal Sets with An Application to Electric Distribution System Restoration (İlker Işık et al., 2024)
 
 {{<citation>}}
 
@@ -6234,7 +6235,7 @@ Motivated by the post-disaster distribution system restoration problem, in this 
 {{</citation>}}
 
 
-### (4/5 | 150/175) Field Teams Coordination for Earthquake-Damaged Distribution System Energization (İlker Işık et al., 2024)
+### (4/5 | 150/176) Field Teams Coordination for Earthquake-Damaged Distribution System Energization (İlker Işık et al., 2024)
 
 {{<citation>}}
 
@@ -6269,7 +6270,7 @@ The re-energization of electrical distribution systems in a post-disaster scenar
 {{</citation>}}
 
 
-### (5/5 | 151/175) Queue-aware Network Control Algorithm with a High Quantum Computing Readiness-Evaluated in Discrete-time Flow Simulator for Fat-Pipe Networks (Arthur Witt, 2024)
+### (5/5 | 151/176) Queue-aware Network Control Algorithm with a High Quantum Computing Readiness-Evaluated in Discrete-time Flow Simulator for Fat-Pipe Networks (Arthur Witt, 2024)
 
 {{<citation>}}
 
@@ -6304,21 +6305,60 @@ The emerging technology of quantum computing has the potential to change the way
 {{</citation>}}
 
 
+## physics.data-an (1)
+
+
+
+### (1/1 | 152/176) Physics Event Classification Using Large Language Models (Cristiano Fanelli et al., 2024)
+
+{{<citation>}}
+
+Cristiano Fanelli, James Giroux, Patrick Moran, Hemalata Nayak, Karthik Suresh, Eric Walter. (2024)  
+**Physics Event Classification Using Large Language Models**
+<br/>
+<button class="copy-to-clipboard" title="Physics Event Classification Using Large Language Models" index=152>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-152 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: physics.data-an  
+Categories: cs-LG, hep-ex, physics-data-an, physics.data-an  
+Keyword Score: 30  
+Keywords: ChatGPT, Chatbot, Large Language Model  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.05752v1" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.05752v1.pdf" filename="2404.05752v1.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+The 2023 AI4EIC hackathon was the culmination of the third annual AI4EIC workshop at The Catholic University of America. This workshop brought together researchers from physics, data science and computer science to discuss the latest developments in Artificial Intelligence (AI) and Machine Learning (ML) for the Electron Ion Collider (EIC), including applications for detectors, accelerators, and experimental control. The hackathon, held on the final day of the workshop, involved using a <b>chatbot</b> powered by a <b>Large</b> <b>Language</b> <b>Model,</b> <b>ChatGPT-3.5,</b> to train a binary classifier neutrons and photons in simulated data from the \textsc{GlueX} Barrel Calorimeter. In total, six teams of up to four participants from all over the world took part in this intense educational and research event. This article highlights the hackathon challenge, the resources and methodology used, and the results and insights gained from analyzing physics data using the most cutting-edge tools in AI/ML.
+
+{{</citation>}}
+
+
 ## stat.ME (1)
 
 
 
-### (1/1 | 152/175) Low-Rank Robust Subspace Tensor Clustering for Metro Passenger Flow Modeling (Jiuyun Hu et al., 2024)
+### (1/1 | 153/176) Low-Rank Robust Subspace Tensor Clustering for Metro Passenger Flow Modeling (Jiuyun Hu et al., 2024)
 
 {{<citation>}}
 
 Jiuyun Hu, Ziyue Li, Chen Zhang, Fugee Tsung, Hao Yan. (2024)  
 **Low-Rank Robust Subspace Tensor Clustering for Metro Passenger Flow Modeling**
 <br/>
-<button class="copy-to-clipboard" title="Low-Rank Robust Subspace Tensor Clustering for Metro Passenger Flow Modeling" index=152>
+<button class="copy-to-clipboard" title="Low-Rank Robust Subspace Tensor Clustering for Metro Passenger Flow Modeling" index=153>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-152 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-153 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6347,17 +6387,17 @@ Tensor <b>clustering</b> has become an important topic, specifically in spatio-t
 
 
 
-### (1/1 | 153/175) Quantum-informed simulations for mechanics of materials: DFTB+MBD framework (Zhaoxiang Shen et al., 2024)
+### (1/1 | 154/176) Quantum-informed simulations for mechanics of materials: DFTB+MBD framework (Zhaoxiang Shen et al., 2024)
 
 {{<citation>}}
 
 Zhaoxiang Shen, Raúl I. Sosa, Stéphane P. A. Bordas, Alexandre Tkatchenko, Jakub Lengiewicz. (2024)  
 **Quantum-informed simulations for mechanics of materials: DFTB+MBD framework**
 <br/>
-<button class="copy-to-clipboard" title="Quantum-informed simulations for mechanics of materials: DFTB+MBD framework" index=153>
+<button class="copy-to-clipboard" title="Quantum-informed simulations for mechanics of materials: DFTB+MBD framework" index=154>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-153 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-154 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6386,17 +6426,17 @@ The macroscopic behaviors of materials are determined by interactions that occur
 
 
 
-### (1/2 | 154/175) A posteriori error analysis of a space-time hybridizable discontinuous Galerkin method for the advection-diffusion problem (Yuan Wang et al., 2024)
+### (1/2 | 155/176) A posteriori error analysis of a space-time hybridizable discontinuous Galerkin method for the advection-diffusion problem (Yuan Wang et al., 2024)
 
 {{<citation>}}
 
 Yuan Wang, Sander Rhebergen. (2024)  
 **A posteriori error analysis of a space-time hybridizable discontinuous Galerkin method for the advection-diffusion problem**
 <br/>
-<button class="copy-to-clipboard" title="A posteriori error analysis of a space-time hybridizable discontinuous Galerkin method for the advection-diffusion problem" index=154>
+<button class="copy-to-clipboard" title="A posteriori error analysis of a space-time hybridizable discontinuous Galerkin method for the advection-diffusion problem" index=155>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-154 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-155 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6421,17 +6461,17 @@ We present and analyze an a posteriori error estimator for a space-time hybridiz
 {{</citation>}}
 
 
-### (2/2 | 155/175) Highly efficient NURBS-based isogeometric analysis for coupled nonlinear diffusion-reaction equations with and without advection (Ilham Asmouh et al., 2024)
+### (2/2 | 156/176) Highly efficient NURBS-based isogeometric analysis for coupled nonlinear diffusion-reaction equations with and without advection (Ilham Asmouh et al., 2024)
 
 {{<citation>}}
 
 Ilham Asmouh, Alexander Ostermann. (2024)  
 **Highly efficient NURBS-based isogeometric analysis for coupled nonlinear diffusion-reaction equations with and without advection**
 <br/>
-<button class="copy-to-clipboard" title="Highly efficient NURBS-based isogeometric analysis for coupled nonlinear diffusion-reaction equations with and without advection" index=155>
+<button class="copy-to-clipboard" title="Highly efficient NURBS-based isogeometric analysis for coupled nonlinear diffusion-reaction equations with and without advection" index=156>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-155 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-156 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6460,17 +6500,17 @@ Nonlinear diffusion-reaction systems model a multitude of physical phenomena. A 
 
 
 
-### (1/1 | 156/175) Pros and Cons! Evaluating ChatGPT on Software Vulnerability (Xin Yin, 2024)
+### (1/1 | 157/176) Pros and Cons! Evaluating ChatGPT on Software Vulnerability (Xin Yin, 2024)
 
 {{<citation>}}
 
 Xin Yin. (2024)  
 **Pros and Cons! Evaluating ChatGPT on Software Vulnerability**
 <br/>
-<button class="copy-to-clipboard" title="Pros and Cons! Evaluating ChatGPT on Software Vulnerability" index=156>
+<button class="copy-to-clipboard" title="Pros and Cons! Evaluating ChatGPT on Software Vulnerability" index=157>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-156 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-157 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6499,17 +6539,17 @@ This paper proposes a pipeline for quantitatively evaluating interactive <b>LLMs
 
 
 
-### (1/1 | 157/175) Quand rechercher c'est faire des vagues : Dans et {à} partir des images algorithmiques (Gaëtan Robillard, 2024)
+### (1/1 | 158/176) Quand rechercher c'est faire des vagues : Dans et {à} partir des images algorithmiques (Gaëtan Robillard, 2024)
 
 {{<citation>}}
 
 Gaëtan Robillard. (2024)  
 **Quand rechercher c'est faire des vagues : Dans et {à} partir des images algorithmiques**
 <br/>
-<button class="copy-to-clipboard" title="Quand rechercher c'est faire des vagues : Dans et {à} partir des images algorithmiques" index=157>
+<button class="copy-to-clipboard" title="Quand rechercher c'est faire des vagues : Dans et {à} partir des images algorithmiques" index=158>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-157 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-158 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6538,17 +6578,17 @@ In Search of the Wave is a computer-generated film made in 2013, highlighting th
 
 
 
-### (1/2 | 158/175) Deep Phase Coded Image Prior (Nimrod Shabtay et al., 2024)
+### (1/2 | 159/176) Deep Phase Coded Image Prior (Nimrod Shabtay et al., 2024)
 
 {{<citation>}}
 
 Nimrod Shabtay, Eli Schwartz, Raja Giryes. (2024)  
 **Deep Phase Coded Image Prior**
 <br/>
-<button class="copy-to-clipboard" title="Deep Phase Coded Image Prior" index=158>
+<button class="copy-to-clipboard" title="Deep Phase Coded Image Prior" index=159>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-158 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-159 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6573,17 +6613,17 @@ Phase-coded imaging is a computational imaging method designed to tackle tasks s
 {{</citation>}}
 
 
-### (2/2 | 159/175) LiDAR-Guided Cross-Attention Fusion for Hyperspectral Band Selection and Image Classification (Judy X Yang et al., 2024)
+### (2/2 | 160/176) LiDAR-Guided Cross-Attention Fusion for Hyperspectral Band Selection and Image Classification (Judy X Yang et al., 2024)
 
 {{<citation>}}
 
 Judy X Yang, Jun Zhou, Jing Wang, Hui Tian, Wee Chung Liew. (2024)  
 **LiDAR-Guided Cross-Attention Fusion for Hyperspectral Band Selection and Image Classification**
 <br/>
-<button class="copy-to-clipboard" title="LiDAR-Guided Cross-Attention Fusion for Hyperspectral Band Selection and Image Classification" index=159>
+<button class="copy-to-clipboard" title="LiDAR-Guided Cross-Attention Fusion for Hyperspectral Band Selection and Image Classification" index=160>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-159 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-160 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6612,17 +6652,17 @@ The fusion of hyperspectral and LiDAR data has been an active research topic. Ex
 
 
 
-### (1/1 | 160/175) Semantic SQL -- Combining and optimizing semantic predicates in SQL (Akash Mittal et al., 2024)
+### (1/1 | 161/176) Semantic SQL -- Combining and optimizing semantic predicates in SQL (Akash Mittal et al., 2024)
 
 {{<citation>}}
 
 Akash Mittal, Anshul Bheemreddy, Huili Tao. (2024)  
 **Semantic SQL -- Combining and optimizing semantic predicates in SQL**
 <br/>
-<button class="copy-to-clipboard" title="Semantic SQL -- Combining and optimizing semantic predicates in SQL" index=160>
+<button class="copy-to-clipboard" title="Semantic SQL -- Combining and optimizing semantic predicates in SQL" index=161>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-160 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-161 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6651,17 +6691,17 @@ In recent years, the surge in unstructured data analysis, facilitated by advance
 
 
 
-### (1/2 | 161/175) Simplifying explicit subtyping coercions in a polymorphic calculus with effects (Filip Koprivec et al., 2024)
+### (1/2 | 162/176) Simplifying explicit subtyping coercions in a polymorphic calculus with effects (Filip Koprivec et al., 2024)
 
 {{<citation>}}
 
 Filip Koprivec, Matija Pretnar. (2024)  
 **Simplifying explicit subtyping coercions in a polymorphic calculus with effects**
 <br/>
-<button class="copy-to-clipboard" title="Simplifying explicit subtyping coercions in a polymorphic calculus with effects" index=161>
+<button class="copy-to-clipboard" title="Simplifying explicit subtyping coercions in a polymorphic calculus with effects" index=162>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-161 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-162 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6686,17 +6726,17 @@ Algebraic effect handlers are becoming increasingly popular way of structuring a
 {{</citation>}}
 
 
-### (2/2 | 162/175) V-Star: Learning Visibly Pushdown Grammars from Program Inputs (Xiaodong Jia et al., 2024)
+### (2/2 | 163/176) V-Star: Learning Visibly Pushdown Grammars from Program Inputs (Xiaodong Jia et al., 2024)
 
 {{<citation>}}
 
 Xiaodong Jia, Gang Tan. (2024)  
 **V-Star: Learning Visibly Pushdown Grammars from Program Inputs**
 <br/>
-<button class="copy-to-clipboard" title="V-Star: Learning Visibly Pushdown Grammars from Program Inputs" index=162>
+<button class="copy-to-clipboard" title="V-Star: Learning Visibly Pushdown Grammars from Program Inputs" index=163>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-162 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-163 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6725,17 +6765,17 @@ Accurate description of program inputs remains a critical challenge in the field
 
 
 
-### (1/1 | 163/175) Algorithmic Fairness and Social Welfare (Annie Liang et al., 2024)
+### (1/1 | 164/176) Algorithmic Fairness and Social Welfare (Annie Liang et al., 2024)
 
 {{<citation>}}
 
 Annie Liang, Jay Lu. (2024)  
 **Algorithmic Fairness and Social Welfare**
 <br/>
-<button class="copy-to-clipboard" title="Algorithmic Fairness and Social Welfare" index=163>
+<button class="copy-to-clipboard" title="Algorithmic Fairness and Social Welfare" index=164>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-163 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-164 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6764,17 +6804,17 @@ Algorithms are increasingly used to guide high-stakes decisions about individual
 
 
 
-### (1/1 | 164/175) Counting Like Transformers: Compiling Temporal Counting Logic Into Softmax Transformers (Andy Yang et al., 2024)
+### (1/1 | 165/176) Counting Like Transformers: Compiling Temporal Counting Logic Into Softmax Transformers (Andy Yang et al., 2024)
 
 {{<citation>}}
 
 Andy Yang, David Chiang. (2024)  
 **Counting Like Transformers: Compiling Temporal Counting Logic Into Softmax Transformers**
 <br/>
-<button class="copy-to-clipboard" title="Counting Like Transformers: Compiling Temporal Counting Logic Into Softmax Transformers" index=164>
+<button class="copy-to-clipboard" title="Counting Like Transformers: Compiling Temporal Counting Logic Into Softmax Transformers" index=165>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-164 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-165 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6803,17 +6843,17 @@ Deriving formal bounds on the expressivity of <b>transformers,</b> as well as st
 
 
 
-### (1/1 | 165/175) H3DFact: Heterogeneous 3D Integrated CIM for Factorization with Holographic Perceptual Representations (Zishen Wan et al., 2024)
+### (1/1 | 166/176) H3DFact: Heterogeneous 3D Integrated CIM for Factorization with Holographic Perceptual Representations (Zishen Wan et al., 2024)
 
 {{<citation>}}
 
 Zishen Wan, Che-Kai Liu, Mohamed Ibrahim, Hanchen Yang, Samuel Spetalnick, Tushar Krishna, Arijit Raychowdhury. (2024)  
 **H3DFact: Heterogeneous 3D Integrated CIM for Factorization with Holographic Perceptual Representations**
 <br/>
-<button class="copy-to-clipboard" title="H3DFact: Heterogeneous 3D Integrated CIM for Factorization with Holographic Perceptual Representations" index=165>
+<button class="copy-to-clipboard" title="H3DFact: Heterogeneous 3D Integrated CIM for Factorization with Holographic Perceptual Representations" index=166>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-165 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-166 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6842,17 +6882,17 @@ Disentangling attributes of various sensory signals is central to human-like per
 
 
 
-### (1/2 | 166/175) On the Quest for Effectiveness in Human Oversight: Interdisciplinary Perspectives (Sarah Sterz et al., 2024)
+### (1/2 | 167/176) On the Quest for Effectiveness in Human Oversight: Interdisciplinary Perspectives (Sarah Sterz et al., 2024)
 
 {{<citation>}}
 
 Sarah Sterz, Kevin Baum, Sebastian Biewer, Holger Hermanns, Anne Lauber-Rönsberg, Philip Meinel, Markus Langer. (2024)  
 **On the Quest for Effectiveness in Human Oversight: Interdisciplinary Perspectives**
 <br/>
-<button class="copy-to-clipboard" title="On the Quest for Effectiveness in Human Oversight: Interdisciplinary Perspectives" index=166>
+<button class="copy-to-clipboard" title="On the Quest for Effectiveness in Human Oversight: Interdisciplinary Perspectives" index=167>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-166 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-167 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6877,17 +6917,17 @@ Human oversight is currently discussed as a potential safeguard to counter some 
 {{</citation>}}
 
 
-### (2/2 | 167/175) A Conceptual Design of In-Game Real and Virtual Currency Tracker (Dennis Barzanoff et al., 2024)
+### (2/2 | 168/176) A Conceptual Design of In-Game Real and Virtual Currency Tracker (Dennis Barzanoff et al., 2024)
 
 {{<citation>}}
 
 Dennis Barzanoff, Amna Asif. (2024)  
 **A Conceptual Design of In-Game Real and Virtual Currency Tracker**
 <br/>
-<button class="copy-to-clipboard" title="A Conceptual Design of In-Game Real and Virtual Currency Tracker" index=167>
+<button class="copy-to-clipboard" title="A Conceptual Design of In-Game Real and Virtual Currency Tracker" index=168>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-167 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-168 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6916,17 +6956,17 @@ The gaming industry is earning huge revenues from incorporating virtual currenci
 
 
 
-### (1/1 | 168/175) Suppressing Modulation Instability with Reinforcement Learning (Nikolay Kalmykov et al., 2024)
+### (1/1 | 169/176) Suppressing Modulation Instability with Reinforcement Learning (Nikolay Kalmykov et al., 2024)
 
 {{<citation>}}
 
 Nikolay Kalmykov, Rishat Zagidullin, Oleg Rogov, Sergey Rykovanov, Dmitry V. Dylov. (2024)  
 **Suppressing Modulation Instability with Reinforcement Learning**
 <br/>
-<button class="copy-to-clipboard" title="Suppressing Modulation Instability with Reinforcement Learning" index=168>
+<button class="copy-to-clipboard" title="Suppressing Modulation Instability with Reinforcement Learning" index=169>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-168 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-169 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6955,17 +6995,17 @@ Modulation instability is a phenomenon of spontaneous pattern formation in nonli
 
 
 
-### (1/3 | 169/175) A Fine-grained Classification of Subquadratic Patterns for Subgraph Listing and Friends (Karl Bringmann et al., 2024)
+### (1/3 | 170/176) A Fine-grained Classification of Subquadratic Patterns for Subgraph Listing and Friends (Karl Bringmann et al., 2024)
 
 {{<citation>}}
 
 Karl Bringmann, Egor Gorbachev. (2024)  
 **A Fine-grained Classification of Subquadratic Patterns for Subgraph Listing and Friends**
 <br/>
-<button class="copy-to-clipboard" title="A Fine-grained Classification of Subquadratic Patterns for Subgraph Listing and Friends" index=169>
+<button class="copy-to-clipboard" title="A Fine-grained Classification of Subquadratic Patterns for Subgraph Listing and Friends" index=170>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-169 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-170 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -6990,17 +7030,17 @@ In an $m$-edge host <b>graph</b> $G$, all triangles can be listed in time $O(m^{
 {{</citation>}}
 
 
-### (2/3 | 170/175) Stability in Graphs with Matroid Constraints (Fedor V. Fomin et al., 2024)
+### (2/3 | 171/176) Stability in Graphs with Matroid Constraints (Fedor V. Fomin et al., 2024)
 
 {{<citation>}}
 
 Fedor V. Fomin, Petr A. Golovach, Tuukka Korhonen, Saket Saurabh. (2024)  
 **Stability in Graphs with Matroid Constraints**
 <br/>
-<button class="copy-to-clipboard" title="Stability in Graphs with Matroid Constraints" index=170>
+<button class="copy-to-clipboard" title="Stability in Graphs with Matroid Constraints" index=171>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-170 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-171 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7025,17 +7065,17 @@ We study the following Independent Stable Set problem. Let G be an undirected <b
 {{</citation>}}
 
 
-### (3/3 | 171/175) Minor Containment and Disjoint Paths in almost-linear time (Tuukka Korhonen et al., 2024)
+### (3/3 | 172/176) Minor Containment and Disjoint Paths in almost-linear time (Tuukka Korhonen et al., 2024)
 
 {{<citation>}}
 
 Tuukka Korhonen, Michał Pilipczuk, Giannos Stamoulis. (2024)  
 **Minor Containment and Disjoint Paths in almost-linear time**
 <br/>
-<button class="copy-to-clipboard" title="Minor Containment and Disjoint Paths in almost-linear time" index=171>
+<button class="copy-to-clipboard" title="Minor Containment and Disjoint Paths in almost-linear time" index=172>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-171 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-172 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7064,17 +7104,17 @@ We give an algorithm that, given <b>graphs</b> $G$ and $H$, tests whether $H$ is
 
 
 
-### (1/1 | 172/175) Wireless Resource Optimization in Hybrid Semantic/Bit Communication Networks (Le Xia et al., 2024)
+### (1/1 | 173/176) Wireless Resource Optimization in Hybrid Semantic/Bit Communication Networks (Le Xia et al., 2024)
 
 {{<citation>}}
 
 Le Xia, Yao Sun, Dusit Niyato, Lan Zhang, Muhammad Ali Imran. (2024)  
 **Wireless Resource Optimization in Hybrid Semantic/Bit Communication Networks**
 <br/>
-<button class="copy-to-clipboard" title="Wireless Resource Optimization in Hybrid Semantic/Bit Communication Networks" index=172>
+<button class="copy-to-clipboard" title="Wireless Resource Optimization in Hybrid Semantic/Bit Communication Networks" index=173>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-172 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-173 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7103,17 +7143,17 @@ Recently, semantic communication (SemCom) has shown great potential in significa
 
 
 
-### (1/1 | 173/175) Hardness of circuit and monotone diameters of polytopes (Christian Nöbel et al., 2024)
+### (1/1 | 174/176) Hardness of circuit and monotone diameters of polytopes (Christian Nöbel et al., 2024)
 
 {{<citation>}}
 
 Christian Nöbel, Raphael Steiner. (2024)  
 **Hardness of circuit and monotone diameters of polytopes**
 <br/>
-<button class="copy-to-clipboard" title="Hardness of circuit and monotone diameters of polytopes" index=173>
+<button class="copy-to-clipboard" title="Hardness of circuit and monotone diameters of polytopes" index=174>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-173 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-174 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7142,17 +7182,17 @@ The Circuit diameter of polytopes was introduced by Borgwardt, Finhold and Hemme
 
 
 
-### (1/1 | 174/175) Discrete Fréchet Distance Oracles (Boris Aronov et al., 2024)
+### (1/1 | 175/176) Discrete Fréchet Distance Oracles (Boris Aronov et al., 2024)
 
 {{<citation>}}
 
 Boris Aronov, Tsuri Farhana, Matthew J. Katz, Indu Ramesh. (2024)  
 **Discrete Fréchet Distance Oracles**
 <br/>
-<button class="copy-to-clipboard" title="Discrete Fréchet Distance Oracles" index=174>
+<button class="copy-to-clipboard" title="Discrete Fréchet Distance Oracles" index=175>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-174 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-175 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -7181,17 +7221,17 @@ It is unlikely that the discrete Fr\'echet distance between two curves of length
 
 
 
-### (1/1 | 175/175) The Low-Degree Hardness of Finding Large Independent Sets in Sparse Random Hypergraphs (Abhishek Dhawan et al., 2024)
+### (1/1 | 176/176) The Low-Degree Hardness of Finding Large Independent Sets in Sparse Random Hypergraphs (Abhishek Dhawan et al., 2024)
 
 {{<citation>}}
 
 Abhishek Dhawan, Yuzhou Wang. (2024)  
 **The Low-Degree Hardness of Finding Large Independent Sets in Sparse Random Hypergraphs**
 <br/>
-<button class="copy-to-clipboard" title="The Low-Degree Hardness of Finding Large Independent Sets in Sparse Random Hypergraphs" index=175>
+<button class="copy-to-clipboard" title="The Low-Degree Hardness of Finding Large Independent Sets in Sparse Random Hypergraphs" index=176>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-175 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-176 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
