@@ -4676,8 +4676,8 @@ Primary Category: cs.SE
 Categories: cs-SE, cs.SE  
 Keyword Score: 23  
 Keywords: Graph, Graph Neural Network, Graph Neural Network  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.04496v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.04496v1.pdf" filename="2404.04496v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.04496v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.04496v2.pdf" filename="2404.04496v2.pdf">Download PDF</button>
 
 ---
 

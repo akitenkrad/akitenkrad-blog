@@ -5236,60 +5236,21 @@ Solving partial differential equations (PDEs) on fine spatio-temporal scales for
 {{</citation>}}
 
 
-## q-fin.CP (1)
-
-
-
-### (1/1 | 132/149) StockGPT: A GenAI Model for Stock Prediction and Trading (Dat Mai, 2024)
-
-{{<citation>}}
-
-Dat Mai. (2024)  
-**StockGPT: A GenAI Model for Stock Prediction and Trading**
-<br/>
-<button class="copy-to-clipboard" title="StockGPT: A GenAI Model for Stock Prediction and Trading" index=132>
-  <span class="copy-to-clipboard-item">Copy Title<span>
-</button>
-<div class="toast toast-copied toast-index-132 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Copied!
-    </div>
-  </div>
-</div>
-
----
-Primary Category: q-fin.CP  
-Categories: cs-AI, q-fin-CP, q-fin-PM, q-fin-PR, q-fin-ST, q-fin.CP  
-Keyword Score: 20  
-Keywords: Generative AI, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.05101v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.05101v1.pdf" filename="2404.05101v1.pdf">Download PDF</button>
-
----
-
-
-**ABSTRACT**  
-This paper introduces StockGPT, an autoregressive "number" model pretrained directly on the history of daily U.S. stock returns. Treating each return series as a sequence of tokens, the model excels at understanding and predicting the highly intricate stock return dynamics. Instead of relying on handcrafted trading patterns using historical stock prices, StockGPT automatically learns the hidden representations predictive of future returns via its attention mechanism. On a held-out test sample from 2001 to 2023, a daily rebalanced long-short portfolio formed from StockGPT predictions earns an annual return of 119% with a Sharpe ratio of 6.5. The StockGPT-based portfolio completely explains away momentum and long-/short-term reversals, eliminating the need for manually crafted price-based strategies and also encompasses most leading stock market factors. This highlights the immense promise of <b>generative</b> <b>AI</b> in surpassing human in making complex financial investment decisions and illustrates the efficacy of the attention mechanism of <b>large</b> <b>language</b> <b>models</b> when applied to a completely different domain.
-
-{{</citation>}}
-
-
 ## cs.LO (3)
 
 
 
-### (1/3 | 133/149) Quantitative Weakest Hyper Pre: Unifying Correctness and Incorrectness Hyperproperties via Predicate Transformers (Linpeng Zhang et al., 2024)
+### (1/3 | 132/149) Quantitative Weakest Hyper Pre: Unifying Correctness and Incorrectness Hyperproperties via Predicate Transformers (Linpeng Zhang et al., 2024)
 
 {{<citation>}}
 
 Linpeng Zhang, Noam Zilberstein, Benjamin Lucien Kaminski, Alexandra Silva. (2024)  
 **Quantitative Weakest Hyper Pre: Unifying Correctness and Incorrectness Hyperproperties via Predicate Transformers**
 <br/>
-<button class="copy-to-clipboard" title="Quantitative Weakest Hyper Pre: Unifying Correctness and Incorrectness Hyperproperties via Predicate Transformers" index=133>
+<button class="copy-to-clipboard" title="Quantitative Weakest Hyper Pre: Unifying Correctness and Incorrectness Hyperproperties via Predicate Transformers" index=132>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-133 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-132 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5314,17 +5275,17 @@ We present a novel \emph{weakest pre calculus} for \emph{reasoning about quantit
 {{</citation>}}
 
 
-### (2/3 | 134/149) The Church Synthesis Problem over Continuous Time (Alexander Rabinovich et al., 2024)
+### (2/3 | 133/149) The Church Synthesis Problem over Continuous Time (Alexander Rabinovich et al., 2024)
 
 {{<citation>}}
 
 Alexander Rabinovich, Daniel Fattal. (2024)  
 **The Church Synthesis Problem over Continuous Time**
 <br/>
-<button class="copy-to-clipboard" title="The Church Synthesis Problem over Continuous Time" index=134>
+<button class="copy-to-clipboard" title="The Church Synthesis Problem over Continuous Time" index=133>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-134 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-133 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5349,17 +5310,17 @@ The Church Problem asks for the construction of a procedure which, given a logic
 {{</citation>}}
 
 
-### (3/3 | 135/149) GATlab: Modeling and Programming with Generalized Algebraic Theories (Owen Lynch et al., 2024)
+### (3/3 | 134/149) GATlab: Modeling and Programming with Generalized Algebraic Theories (Owen Lynch et al., 2024)
 
 {{<citation>}}
 
 Owen Lynch, Kris Brown, James Fairbanks, Evan Patterson. (2024)  
 **GATlab: Modeling and Programming with Generalized Algebraic Theories**
 <br/>
-<button class="copy-to-clipboard" title="GATlab: Modeling and Programming with Generalized Algebraic Theories" index=135>
+<button class="copy-to-clipboard" title="GATlab: Modeling and Programming with Generalized Algebraic Theories" index=134>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-135 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-134 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5388,17 +5349,17 @@ Categories and categorical structures are increasingly recognized as useful abst
 
 
 
-### (1/3 | 136/149) Reduction of Forgetting by Contextual Variation During Encoding Using 360-Degree Video-Based Immersive Virtual Environments (Takato Mizuho et al., 2024)
+### (1/3 | 135/149) Reduction of Forgetting by Contextual Variation During Encoding Using 360-Degree Video-Based Immersive Virtual Environments (Takato Mizuho et al., 2024)
 
 {{<citation>}}
 
 Takato Mizuho, Takuji Narumi, Hideaki Kuzuoka. (2024)  
 **Reduction of Forgetting by Contextual Variation During Encoding Using 360-Degree Video-Based Immersive Virtual Environments**
 <br/>
-<button class="copy-to-clipboard" title="Reduction of Forgetting by Contextual Variation During Encoding Using 360-Degree Video-Based Immersive Virtual Environments" index=136>
+<button class="copy-to-clipboard" title="Reduction of Forgetting by Contextual Variation During Encoding Using 360-Degree Video-Based Immersive Virtual Environments" index=135>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-136 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-135 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5423,17 +5384,17 @@ Recall impairment in a different environmental context from learning is called c
 {{</citation>}}
 
 
-### (2/3 | 137/149) Chart What I Say: Exploring Cross-Modality Prompt Alignment in AI-Assisted Chart Authoring (Nazar Ponochevnyi et al., 2024)
+### (2/3 | 136/149) Chart What I Say: Exploring Cross-Modality Prompt Alignment in AI-Assisted Chart Authoring (Nazar Ponochevnyi et al., 2024)
 
 {{<citation>}}
 
 Nazar Ponochevnyi, Anastasia Kuzminykh. (2024)  
 **Chart What I Say: Exploring Cross-Modality Prompt Alignment in AI-Assisted Chart Authoring**
 <br/>
-<button class="copy-to-clipboard" title="Chart What I Say: Exploring Cross-Modality Prompt Alignment in AI-Assisted Chart Authoring" index=137>
+<button class="copy-to-clipboard" title="Chart What I Say: Exploring Cross-Modality Prompt Alignment in AI-Assisted Chart Authoring" index=136>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-137 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-136 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5458,17 +5419,17 @@ Recent chart-authoring systems, such as Amazon Q in QuickSight and Copilot for P
 {{</citation>}}
 
 
-### (3/3 | 138/149) Balancing Information Perception with Yin-Yang: Agent-Based Information Neutrality Model for Recommendation Systems (Mengyan Wang et al., 2024)
+### (3/3 | 137/149) Balancing Information Perception with Yin-Yang: Agent-Based Information Neutrality Model for Recommendation Systems (Mengyan Wang et al., 2024)
 
 {{<citation>}}
 
 Mengyan Wang, Yuxuan Hu, Shiqing Wu, Weihua Li, Quan Bai, Verica Rupar. (2024)  
 **Balancing Information Perception with Yin-Yang: Agent-Based Information Neutrality Model for Recommendation Systems**
 <br/>
-<button class="copy-to-clipboard" title="Balancing Information Perception with Yin-Yang: Agent-Based Information Neutrality Model for Recommendation Systems" index=138>
+<button class="copy-to-clipboard" title="Balancing Information Perception with Yin-Yang: Agent-Based Information Neutrality Model for Recommendation Systems" index=137>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-138 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-137 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5497,17 +5458,17 @@ While preference-based <b>recommendation</b> algorithms effectively enhance user
 
 
 
-### (1/1 | 139/149) GDR-HGNN: A Heterogeneous Graph Neural Networks Accelerator Frontend with Graph Decoupling and Recoupling (Runzhen Xue et al., 2024)
+### (1/1 | 138/149) GDR-HGNN: A Heterogeneous Graph Neural Networks Accelerator Frontend with Graph Decoupling and Recoupling (Runzhen Xue et al., 2024)
 
 {{<citation>}}
 
 Runzhen Xue, Mingyu Yan, Dengke Han, Yihan Teng, Zhimin Tang, Xiaochun Ye, Dongrui Fan. (2024)  
 **GDR-HGNN: A Heterogeneous Graph Neural Networks Accelerator Frontend with Graph Decoupling and Recoupling**
 <br/>
-<button class="copy-to-clipboard" title="GDR-HGNN: A Heterogeneous Graph Neural Networks Accelerator Frontend with Graph Decoupling and Recoupling" index=139>
+<button class="copy-to-clipboard" title="GDR-HGNN: A Heterogeneous Graph Neural Networks Accelerator Frontend with Graph Decoupling and Recoupling" index=138>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-139 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-138 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5536,17 +5497,17 @@ Heterogeneous <b>Graph</b> <b>Neural</b> <b>Networks</b> (HGNNs) have broadened 
 
 
 
-### (1/2 | 140/149) Allo: A Programming Model for Composable Accelerator Design (Hongzheng Chen et al., 2024)
+### (1/2 | 139/149) Allo: A Programming Model for Composable Accelerator Design (Hongzheng Chen et al., 2024)
 
 {{<citation>}}
 
 Hongzheng Chen, Niansong Zhang, Shaojie Xiang, Zhichen Zeng, Mengjia Dai, Zhiru Zhang. (2024)  
 **Allo: A Programming Model for Composable Accelerator Design**
 <br/>
-<button class="copy-to-clipboard" title="Allo: A Programming Model for Composable Accelerator Design" index=140>
+<button class="copy-to-clipboard" title="Allo: A Programming Model for Composable Accelerator Design" index=139>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-140 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-139 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5571,17 +5532,17 @@ Special-purpose hardware accelerators are increasingly pivotal for sustaining pe
 {{</citation>}}
 
 
-### (2/2 | 141/149) KATch: A Fast Symbolic Verifier for NetKAT (Mark Moeller et al., 2024)
+### (2/2 | 140/149) KATch: A Fast Symbolic Verifier for NetKAT (Mark Moeller et al., 2024)
 
 {{<citation>}}
 
 Mark Moeller, Jules Jacobs, Olivier Savary Belanger, David Darais, Cole Schlesinger, Steffen Smolka, Nate Foster, Alexandra Silva. (2024)  
 **KATch: A Fast Symbolic Verifier for NetKAT**
 <br/>
-<button class="copy-to-clipboard" title="KATch: A Fast Symbolic Verifier for NetKAT" index=141>
+<button class="copy-to-clipboard" title="KATch: A Fast Symbolic Verifier for NetKAT" index=140>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
-<div class="toast toast-copied toast-index-141 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-copied toast-index-140 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex">
     <div class="toast-body">
       Copied!
@@ -5602,6 +5563,45 @@ Keywords: Benchmarking
 
 **ABSTRACT**  
 We develop new data structures and algorithms for checking verification queries in NetKAT, a domain-specific language for specifying the behavior of network data planes. Our results extend the techniques obtained in prior work on symbolic automata and provide a framework for building efficient and scalable verification tools. We present \KATch, an implementation of these ideas in Scala, featuring an extended set of NetKAT operators that are useful for expressing network-wide specifications, and a verification engine that constructs a bisimulation or generates a counter-example showing that none exists. We evaluate the performance of our implementation on real-world and synthetic <b>benchmarks,</b> verifying properties such as reachability and slice isolation, typically returning a result in well under a second, which is orders of magnitude faster than previous approaches. Our advancements underscore NetKAT's potential as a practical, declarative language for network specification and verification.
+
+{{</citation>}}
+
+
+## q-fin.CP (1)
+
+
+
+### (1/1 | 141/149) StockGPT: A GenAI Model for Stock Prediction and Trading (Dat Mai, 2024)
+
+{{<citation>}}
+
+Dat Mai. (2024)  
+**StockGPT: A GenAI Model for Stock Prediction and Trading**
+<br/>
+<button class="copy-to-clipboard" title="StockGPT: A GenAI Model for Stock Prediction and Trading" index=141>
+  <span class="copy-to-clipboard-item">Copy Title<span>
+</button>
+<div class="toast toast-copied toast-index-141 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Copied!
+    </div>
+  </div>
+</div>
+
+---
+Primary Category: q-fin.CP  
+Categories: cs-AI, q-fin-CP, q-fin-PM, q-fin-PR, q-fin-ST, q-fin.CP  
+Keyword Score: 10  
+Keywords: Generative AI  
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.05101v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.05101v2.pdf" filename="2404.05101v2.pdf">Download PDF</button>
+
+---
+
+
+**ABSTRACT**  
+This paper introduces StockGPT, an autoregressive ``number'' model trained and tested on 70 million daily U.S. stock returns over nearly 100 years. Treating each return series as a sequence of tokens, StockGPT automatically learns the hidden patterns predictive of future returns via its attention mechanism. On a held-out test sample from 2001 to 2023, a daily rebalanced long-short portfolio formed from StockGPT predictions earns an annual return of 119% with a Sharpe ratio of 6.5. The StockGPT-based portfolio completely spans momentum and long-/short-term reversals, eliminating the need for manually crafted price-based strategies, and also encompasses most leading stock market factors. This highlights the immense promise of <b>generative</b> <b>AI</b> in surpassing human in making complex financial investment decisions.
 
 {{</citation>}}
 
