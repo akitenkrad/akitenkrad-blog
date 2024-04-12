@@ -2171,14 +2171,14 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-LG, cs.CL  
 Keyword Score: 23  
 Keywords: Benchmarking, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.04067v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.04067v1.pdf" filename="2404.04067v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.04067v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.04067v2.pdf" filename="2404.04067v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-<b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> have shown the potential to significantly contribute to patient care, diagnostics, and administrative processes. Emerging biomedical <b>LLMs</b> address healthcare-specific challenges, including privacy demands and computational constraints. However, evaluation of these models has primarily been limited to non-clinical tasks, which do not reflect the complexity of practical clinical applications. Additionally, there has been no thorough comparison between biomedical and general-domain <b>LLMs</b> for clinical tasks. To fill this gap, we present the Clinical Language Understanding Evaluation (CLUE), a <b>benchmark</b> tailored to evaluate <b>LLMs</b> on real-world clinical tasks. CLUE includes two novel datasets derived from MIMIC IV discharge letters and four existing tasks designed to test the practical applicability of <b>LLMs</b> in healthcare settings. Our evaluation covers several biomedical and general domain <b>LLMs,</b> providing insights into their clinical performance and applicability. CLUE represents a step towards a standardized approach to evaluating and developing <b>LLMs</b> in healthcare to align future model development with the real-world needs of clinical application. We publish our evaluation and data generation scripts: https://github.com/dadaamin/CLUE
+<b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> have shown the potential to significantly contribute to patient care, diagnostics, and administrative processes. Emerging biomedical <b>LLMs</b> address healthcare-specific challenges, including privacy demands and computational constraints. However, evaluation of these models has primarily been limited to non-clinical tasks, which do not reflect the complexity of practical clinical applications. Additionally, there has been no thorough comparison between biomedical and general-domain <b>LLMs</b> for clinical tasks. To fill this gap, we present the Clinical Language Understanding Evaluation (CLUE), a <b>benchmark</b> tailored to evaluate <b>LLMs</b> on real-world clinical tasks. CLUE includes two novel datasets derived from MIMIC IV discharge letters and four existing tasks designed to test the practical applicability of <b>LLMs</b> in healthcare settings. Our evaluation covers several biomedical and general domain <b>LLMs,</b> providing insights into their clinical performance and applicability. CLUE represents a step towards a standardized approach to evaluating and developing <b>LLMs</b> in healthcare to align future model development with the real-world needs of clinical application. We publish our evaluation and data generation scripts: https://github.com/TIO-IKIM/CLUE.
 
 {{</citation>}}
 
