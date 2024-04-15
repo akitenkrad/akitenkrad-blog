@@ -3222,7 +3222,7 @@ Keywords: Object Detection, Augmented Reality (AR), Multi-modal
 
 {{<citation>}}
 
-Suleyman Ozdel, Yao Rong, Berat Mert Albaba, Yen-Ling Kuo, Xi Wang. (2024)  
+Suleyman Ozdel, Yao Rong, Berat Mert Albaba, Yen-Ling Kuo, Xi Wang, Enkelejda Kasneci. (2024)  
 **A Transformer-Based Model for the Prediction of Human Gaze Behavior on Videos**
 <br/>
 <button class="copy-to-clipboard" title="A Transformer-Based Model for the Prediction of Human Gaze Behavior on Videos" index=67>
@@ -3502,7 +3502,7 @@ Chinese vector font generation is challenging due to the complex structure and h
 
 {{<citation>}}
 
-Suleyman Ozdel, Yao Rong, Berat Mert Albaba, Yen-Ling Kuo, Xi Wang. (2024)  
+Suleyman Ozdel, Yao Rong, Berat Mert Albaba, Yen-Ling Kuo, Xi Wang, Enkelejda Kasneci. (2024)  
 **Gaze-Guided Graph Neural Network for Action Anticipation Conditioned on Intention**
 <br/>
 <button class="copy-to-clipboard" title="Gaze-Guided Graph Neural Network for Action Anticipation Conditioned on Intention" index=75>

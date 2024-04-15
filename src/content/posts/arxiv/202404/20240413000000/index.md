@@ -9609,7 +9609,7 @@ The creation of high-quality ontologies is crucial for data integration and know
 
 {{<citation>}}
 
-Farajollah Tahernezhad-Javazm, Farajollah Tahernezhad-Javazm, Naomi Du Bois, Alice E. Smith, Damien Coyle. (2024)  
+Farajollah Tahernezhad-Javazm, Debbie Rankin, Naomi Du Bois, Alice E. Smith, Damien Coyle. (2024)  
 **R2 Indicator and Deep Reinforcement Learning Enhanced Adaptive Multi-Objective Evolutionary Algorithm**
 <br/>
 <button class="copy-to-clipboard" title="R2 Indicator and Deep Reinforcement Learning Enhanced Adaptive Multi-Objective Evolutionary Algorithm" index=244>
