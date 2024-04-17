@@ -1500,7 +1500,7 @@ Keywords: Fine-tuning, Knowledge Distillation, Reasoning, Chain-of-thought, Larg
 
 {{<citation>}}
 
-Qingyi Liu, Yekun Chai, Shuohuan Wang, Yu Sun, Keze Wang, Hua Wu. (2024)  
+Qingyi Liu, Yekun Chai, Shuohuan Wang, Yu Sun, Qiwei Peng, Keze Wang, Hua Wu. (2024)  
 **On Training Data Influence of GPT Models**
 <br/>
 <button class="copy-to-clipboard" title="On Training Data Influence of GPT Models" index=11>
@@ -1519,8 +1519,8 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-LG, cs.CL  
 Keyword Score: 60  
 Keywords: Fine-tuning, Simulation, Simulator, GPT, Natural Language Understanding, Instruction Tuning  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.07840v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.07840v1.pdf" filename="2404.07840v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.07840v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.07840v2.pdf" filename="2404.07840v2.pdf">Download PDF</button>
 
 ---
 
@@ -1939,14 +1939,14 @@ Primary Category: cs.CL
 Categories: cs-CL, cs-CV, cs-LG, cs.CL  
 Keyword Score: 39  
 Keywords: Benchmarking, Multi-modal, Multi-modal, Reasoning, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.07922v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.07922v2.pdf" filename="2404.07922v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.07922v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.07922v3.pdf" filename="2404.07922v3.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-<b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> and <b>Multimodal</b> <b>Large</b> <b>language</b> <b>models</b> (MLLMs) have taken the world by storm with impressive abilities in complex <b>reasoning</b> and linguistic comprehension. Meanwhile there are plethora of works related to Vietnamese <b>Large</b> <b>Language</b> <b>Models,</b> the lack of high-quality resources in multimodality limits the progress of Vietnamese MLLMs. In this paper, we pioneer in address this by introducing LaVy, a state-of-the-art Vietnamese MLLM, and we also introduce LaVy-Bench <b>benchmark</b> designated for evaluating MLLMs's understanding on Vietnamese visual language tasks. All code and model weights are public at https://github.com/baochi0212/LaVy
+<b>Large</b> <b>Language</b> <b>Models</b> <b>(LLMs)</b> and <b>Multimodal</b> <b>Large</b> <b>language</b> <b>models</b> (MLLMs) have taken the world by storm with impressive abilities in complex <b>reasoning</b> and linguistic comprehension. Meanwhile there are plethora of works related to Vietnamese <b>Large</b> <b>Language</b> <b>Models,</b> the lack of high-quality resources in multimodality limits the progress of Vietnamese MLLMs. In this paper, we pioneer in address this by introducing LaVy, a state-of-the-art Vietnamese MLLM, and we also introduce LaVy-Bench <b>benchmark</b> designated for evaluating MLLMs's understanding on Vietnamese visual language tasks. Our project is public at https://github.com/baochi0212/LaVy
 
 {{</citation>}}
 
@@ -2429,8 +2429,8 @@ Primary Category: cs.CL
 Categories: cs-AI, cs-CL, cs-CY, cs-LG, cs.CL  
 Keyword Score: 10  
 Keywords: Prompt  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.07475v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.07475v1.pdf" filename="2404.07475v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.07475v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.07475v2.pdf" filename="2404.07475v2.pdf">Download PDF</button>
 
 ---
 
@@ -7664,14 +7664,14 @@ Primary Category: cs.IR
 Categories: cs-IR, cs.IR  
 Keyword Score: 60  
 Keywords: Retrieval-Augmented Generation, Retrieval-Augmented Generation, Retrieval-Augmented Generation, Information Retrieval, Large Language Model, Large Language Model  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.08137v1" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.08137v1.pdf" filename="2404.08137v1.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.08137v2" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.08137v2.pdf" filename="2404.08137v2.pdf">Download PDF</button>
 
 ---
 
 
 **ABSTRACT**  
-In this chapter, we consider generative <b>information</b> <b>retrieval</b> <b>evaluation</b> <b>from</b> two distinct but interrelated perspectives. First, <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> themselves are rapidly becoming tools for evaluation, with current research indicating that <b>LLMs</b> may be superior to crowdsource workers and other paid assessors on basic relevance judgement tasks. We review past and ongoing related research, including speculation on the future of shared task initiatives, such as TREC, and a discussion on the continuing need for human assessments. Second, we consider the evaluation of emerging <b>LLM-based</b> generative <b>information</b> <b>retrieval</b> <b>(GenIR)</b> <b>systems,</b> including <b>retrieval</b> <b>augmented</b> <b>generation</b> <b>(RAG)</b> systems. We consider approaches that focus both on the end-to-end evaluation of GenIR systems and on the evaluation of a <b>retrieval</b> <b>component</b> <b>as</b> an element in a <b>RAG</b> system. Going forward, we expect the evaluation of GenIR systems to be at least partially based on <b>LLM-based</b> assessment, creating an apparent circularity, with a system seemingly evaluating its own output. We resolve this apparent circularity in two ways: 1) by viewing <b>LLM-based</b> assessment as a form of "slow search", where a slower IR system is used for evaluation and training of a faster production IR system; and 2) by recognizing a continuing need to ground evaluation in human assessment, even if the characteristics of that human assessment must change.
+This paper is a draft of a chapter intended to appear in a forthcoming book on generative <b>information</b> <b>retrieval,</b> <b>co-edited</b> <b>by</b> Chirag Shah and Ryen White. In this chapter, we consider generative <b>information</b> <b>retrieval</b> <b>evaluation</b> <b>from</b> two distinct but interrelated perspectives. First, <b>large</b> <b>language</b> <b>models</b> <b>(LLMs)</b> themselves are rapidly becoming tools for evaluation, with current research indicating that <b>LLMs</b> may be superior to crowdsource workers and other paid assessors on basic relevance judgement tasks. We review past and ongoing related research, including speculation on the future of shared task initiatives, such as TREC, and a discussion on the continuing need for human assessments. Second, we consider the evaluation of emerging <b>LLM-based</b> generative <b>information</b> <b>retrieval</b> <b>(GenIR)</b> <b>systems,</b> including <b>retrieval</b> <b>augmented</b> <b>generation</b> <b>(RAG)</b> systems. We consider approaches that focus both on the end-to-end evaluation of GenIR systems and on the evaluation of a <b>retrieval</b> <b>component</b> <b>as</b> an element in a <b>RAG</b> system. Going forward, we expect the evaluation of GenIR systems to be at least partially based on <b>LLM-based</b> assessment, creating an apparent circularity, with a system seemingly evaluating its own output. We resolve this apparent circularity in two ways: 1) by viewing <b>LLM-based</b> assessment as a form of "slow search", where a slower IR system is used for evaluation and training of a faster production IR system; and 2) by recognizing a continuing need to ground evaluation in human assessment, even if the characteristics of that human assessment must change.
 
 {{</citation>}}
 
@@ -10619,14 +10619,14 @@ In this work, we propose a <b>continuous-time</b> <b>distributed</b> optimizatio
 {{</citation>}}
 
 
-### (2/2 | 268/276) Equitable Routing -- Rethinking the Multiple Traveling Salesman Problem (Abhay Singh Bhadoriya et al., 2024)
+### (2/2 | 268/276) Equitable Routing - Rethinking the Multiple Traveling Salesman Problem (Abhay Singh Bhadoriya et al., 2024)
 
 {{<citation>}}
 
 Abhay Singh Bhadoriya, Deepjyoti Deka, Kaarthik Sundar. (2024)  
-**Equitable Routing -- Rethinking the Multiple Traveling Salesman Problem**
+**Equitable Routing - Rethinking the Multiple Traveling Salesman Problem**
 <br/>
-<button class="copy-to-clipboard" title="Equitable Routing -- Rethinking the Multiple Traveling Salesman Problem" index=268>
+<button class="copy-to-clipboard" title="Equitable Routing - Rethinking the Multiple Traveling Salesman Problem" index=268>
   <span class="copy-to-clipboard-item">Copy Title<span>
 </button>
 <div class="toast toast-copied toast-index-268 align-items-center text-bg-secondary border-0 position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
@@ -10642,8 +10642,8 @@ Primary Category: math.OC
 Categories: 90B06, 90C27, 90C57, 90C90, cs-RO, math-OC, math.OC  
 Keyword Score: 3  
 Keywords: Benchmarking  
-<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.08157v2" target="_blank" >Paper Link</a>
-<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.08157v2.pdf" filename="2404.08157v2.pdf">Download PDF</button>
+<a type="button" class="btn btn-outline-primary" href="http://arxiv.org/abs/2404.08157v3" target="_blank" >Paper Link</a>
+<button type="button" class="btn btn-outline-primary download-pdf" url="https://arxiv.org/pdf/2404.08157v3.pdf" filename="2404.08157v3.pdf">Download PDF</button>
 
 ---
 
